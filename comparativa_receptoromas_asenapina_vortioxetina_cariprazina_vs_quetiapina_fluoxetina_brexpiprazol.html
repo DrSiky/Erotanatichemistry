@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Comparativa receptoromas · Asenapina/Vortioxetina/Cariprazina vs Quetiapina/Fluoxetina/Brexpiprazol</title>
+<style>
+:root{
+  --bg:#f4f7fb;--panel:#fff;--ink:#102033;--muted:#5b6b80;--line:#dbe4ef;
+  --core1:#6177dd;--core2:#273b99;
+  --ser:#8b5cf6;--ser-soft:#ede9fe;--dop:#2563eb;--dop-soft:#dbeafe;
+  --adr:#16a34a;--adr-soft:#dcfce7;--his:#f97316;--his-soft:#ffedd5;
+  --tra:#0891b2;--tra-soft:#cffafe;--mus:#64748b;--mus-soft:#f1f5f9;
+  --pet:#0f172a;--theo:#64748b;--pot:#94a3b8;
+}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#fff 0,#f4f7fb 58%,#edf2f8 100%);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink)}
+.wrap{max-width:1780px;margin:24px auto;padding:0 18px 28px}.sheet{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:30px;box-shadow:0 28px 80px rgba(15,23,42,.10);overflow:hidden}.head{padding:28px 34px 20px;border-bottom:1px solid var(--line);display:flex;gap:20px;justify-content:space-between;align-items:flex-end;flex-wrap:wrap}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.22em;color:#64748b;font-weight:800}h1{margin:8px 0 8px;font-size:34px;line-height:1.12}.sub{max-width:1060px;color:var(--muted);font-size:14px;line-height:1.55}.tabs{display:flex;gap:8px;background:#eef4fb;border:1px solid var(--line);padding:6px;border-radius:999px}.tabs button{border:0;border-radius:999px;padding:11px 15px;background:transparent;color:#53657a;font-weight:800;cursor:pointer}.tabs button.active{background:#fff;color:#0f172a;box-shadow:0 3px 12px rgba(15,23,42,.10)}
+.comparison{display:grid;grid-template-columns:1fr 1fr;gap:0}.panel{padding:22px 18px 18px;position:relative}.panel.left{border-right:1px solid var(--line)}.combo-title{text-align:center;font-weight:900;font-size:17px;margin-bottom:4px}.combo-sub{text-align:center;font-size:12px;color:#64748b;margin-bottom:8px}.vizbox{background:#fff;border:1px solid var(--line);border-radius:24px;padding:8px;box-shadow:0 8px 28px rgba(15,23,42,.05)}svg{width:100%;height:auto;display:block}.label{font-weight:900;font-size:13px;fill:#0f172a}.tiny{font-size:10px;fill:#475569;font-weight:800}.tag{font-size:9px;fill:white;font-weight:900}.family-text{font-size:10px;letter-spacing:.12em;font-weight:900;fill:#64748b}.coretext{fill:white;text-anchor:middle;font-weight:900}.core-small{font-size:11px;opacity:.9}.core-title{font-size:16px}.core-drug{font-size:12px}.node{cursor:pointer}.node:hover .halo{opacity:.85}.node:hover .glyph{filter:url(#glow)}.tooltip{position:fixed;display:none;max-width:390px;background:#0f172a;color:white;border-radius:16px;padding:13px 14px;box-shadow:0 18px 46px rgba(15,23,42,.32);font-size:13px;line-height:1.45;z-index:10}.tooltip strong{display:block;font-size:14px;margin-bottom:5px}.tooltip span{color:#cbd5e1}.rank{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:22px;padding:15px}.rank h3,.info h3{margin:0 0 12px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#334155}.rankgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}.rCard{border:1px solid #e2e8f0;border-radius:14px;padding:8px 8px 9px;background:#f8fafc}.rCard b{font-size:12px;display:flex;justify-content:space-between}.bar{height:6px;background:#e2e8f0;border-radius:999px;overflow:hidden;margin:6px 0 2px}.bar i{display:block;height:100%;background:#0f172a;border-radius:999px}.bar.v i{background:#2563eb}.rCard small{font-size:9px;color:#64748b;font-weight:800;text-transform:uppercase}.legendRow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.chip{font-size:11px;font-weight:800;border:1px solid var(--line);background:#f8fafc;border-radius:999px;padding:6px 9px;color:#475569}.info{display:grid;grid-template-columns:1.05fr .95fr 1.2fr;gap:14px;padding:18px;border-top:1px solid var(--line);background:#f8fafc}.info .card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:16px}.info p,.info li{font-size:13px;color:#475569;line-height:1.55}.info ul{margin:0;padding-left:18px}.diffgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.diff{padding:10px;border:1px solid #e2e8f0;border-radius:14px;background:#f8fafc;font-size:12px;line-height:1.45;color:#334155}.foot{padding:16px 22px;background:#0f172a;color:#dbeafe;font-size:12px;line-height:1.55}.foot b{color:#fff}.hidden{display:none}@media(max-width:1100px){.comparison,.info{grid-template-columns:1fr}.panel.left{border-right:0;border-bottom:1px solid var(--line)}.rankgrid{grid-template-columns:repeat(3,1fr)}}
+@media print{body{background:#fff}.wrap{max-width:none;margin:0;padding:0}.sheet{border:0;box-shadow:none}.tabs{display:none}.comparison{grid-template-columns:1fr 1fr}.info{grid-template-columns:1.05fr .95fr 1.2fr}.foot{color:#0f172a;background:#fff;border-top:1px solid #ddd}}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="sheet">
+  <div class="head"><div><div class="eyebrow">Receptorama combinado tipo Stahl · doble capa</div><h1>Comparación de receptoromas psicofarmacológicos</h1><div class="sub">Comparativa gráfica orientativa entre <b>asenapina 10 mg + vortioxetina 20 mg + cariprazina 1,5 mg</b> y <b>quetiapina 300 mg + fluoxetina 40 mg + brexpiprazol 2 mg</b>. La capa externa tenue representa potencia/afinidad; la capa interna representa relevancia operativa in vivo: PET/directo cuando existe, o inferencia teórica declarada.</div></div><div class="tabs"><button class="active" data-mode="ambas">Ambas capas</button><button data-mode="vivo">Vivo operativo</button><button data-mode="potencia">Potencia</button></div></div>
+  <div class="comparison">
+    <section class="panel left"><div class="combo-title">A · Asenapina 10 + Vortioxetina 20 + Cariprazina 1,5</div><div class="combo-sub">Perfil D3/serotoninérgico multimodal, SERT dominante</div><div class="vizbox"><svg id="svgA" viewBox="0 0 820 700" role="img"></svg></div><div class="rank"><h3>Ranking operativo · A</h3><div id="rankA" class="rankgrid"></div></div></section>
+    <section class="panel"><div class="combo-title">B · Quetiapina 300 + Fluoxetina 40 + Brexpiprazol 2</div><div class="combo-sub">Perfil SERT + D2 parcial, mayor carga H1/α1 y NET teórico</div><div class="vizbox"><svg id="svgB" viewBox="0 0 820 700" role="img"></svg></div><div class="rank"><h3>Ranking operativo · B</h3><div id="rankB" class="rankgrid"></div></div></section>
+  </div>
+  <div class="info">
+    <div class="card"><h3>Diferenciales</h3><div class="diffgrid"><div class="diff"><b>Izquierda:</b> mayor impronta D3 y perfil serotoninérgico multimodal.</div><div class="diff"><b>Derecha:</b> mayor carga H1/α1 y NET teórico por norquetiapina.</div><div class="diff"><b>Ambas:</b> SERT dominante y cobertura antipsicótica dopaminérgica.</div><div class="diff"><b>Límite:</b> PET no equivale a respuesta clínica.</div></div></div>
+    <div class="card"><h3>Leyenda visual</h3><div class="legendRow"><span class="chip">Halo = potencia</span><span class="chip">Relleno sólido = PET/directo</span><span class="chip">Semisólido = teórico</span><span class="chip">Borde discontinuo = agonismo parcial/señal mixta</span></div><p>Los nodos con magnitud 0 o irrelevante no se dibujan. “No hay PET” no se interpreta como ausencia de actividad.</p></div>
+    <div class="card"><h3>Panel teórico</h3><ul><li>La farmacología no suma linealmente.</li><li>Ki/IC50/EC50 y ocupación PET pueden desacoplarse.</li><li>La ocupación PET no equivale automáticamente a eficacia clínica.</li><li>El agonismo parcial exige interpretación contextual: tono endógeno, dosis, competencia y región.</li><li>Límites: PK, fracción libre, metabolitos, temporalidad, sinergias y tolerabilidad no modeladas.</li></ul></div>
+  </div>
+  <div class="foot"><b>Nota técnica.</b> Magnitudes 0–6 heurísticas para docencia avanzada. Las etiquetas PET solo se aplican a dianas con evidencia directa u ocupacional suficientemente establecida para el fármaco/combinación; el resto se declara como teórico. No debe usarse como sustituto de juicio clínico, monitorización ni revisión bibliográfica primaria.</div>
+</div></div><div id="tip" class="tooltip"></div>
+<script>
+const FAM={ser:{c:'#8b5cf6',soft:'#ede9fe',name:'SEROTONINA'},dop:{c:'#2563eb',soft:'#dbeafe',name:'DOPAMINA'},adr:{c:'#16a34a',soft:'#dcfce7',name:'ADRENÉRGICO'},his:{c:'#f97316',soft:'#ffedd5',name:'HISTAMINA'},tra:{c:'#0891b2',soft:'#cffafe',name:'TRANSPORTADORES'}};
+const ANG={SERT:126,NET:154,DAT:182,VMAT2:205,'5HT7':-156,'5HT2A':-125,'5HT2C':-96,'5HT1A':-68,'5HT3':-38,'5HT6':-18,'5HT1B':-182,'5HT1D':-203,H1:-90,'α2A':18,'α2C':36,'α1A':58,D4:92,D3:122,D2:152};
+const A={id:'A',core:['ASENAPINA 10 mg/d','VORTIOXETINA 20 mg/d','CARIPRAZINA 1,5 mg/d','','Potencia ⟂ Vivo'],nodes:[
+ {label:'SERT',fam:'tra',pot:6,vivo:6,e:'PET',act:'bloqueo SERT',note:'Vortioxetina: ocupación SERT alta a 20 mg.'},
+ {label:'D3',fam:'dop',pot:6,vivo:5,e:'Vivo/PET',partial:true,act:'agonismo parcial preferente D3',note:'Cariprazina: alta afinidad D3; lectura funcional dominante.'},
+ {label:'D2',fam:'dop',pot:5,vivo:4,e:'PET',partial:true,act:'agonismo parcial D2',note:'Cariprazina con ocupación D2/D3 clínicamente relevante.'},
+ {label:'5HT2A',fam:'ser',pot:5,vivo:4,e:'Teórico',act:'antagonismo',note:'Asenapina: componente serotoninérgico antipsicótico.'},
+ {label:'5HT2C',fam:'ser',pot:5,vivo:4,e:'Teórico',act:'antagonismo',note:'Asenapina: modulación 5HT2C.'},
+ {label:'5HT1A',fam:'ser',pot:4,vivo:3,partial:true,e:'Teórico',act:'agonismo parcial/mixto',note:'Vortioxetina + cariprazina: señal 5HT1A multimodal.'},
+ {label:'5HT7',fam:'ser',pot:4,vivo:3,e:'Teórico',act:'antagonismo/modulación',note:'Asenapina/vortioxetina: eje cognitivo-afectivo.'},
+ {label:'5HT3',fam:'ser',pot:3,vivo:2,e:'Teórico',act:'antagonismo',note:'Vortioxetina: contribución procognitiva/antiemética teórica.'},
+ {label:'5HT6',fam:'ser',pot:3,vivo:2,e:'Teórico',act:'antagonismo',note:'Asenapina: baja-media relevancia.'},
+ {label:'H1',fam:'his',pot:4,vivo:3,e:'Teórico',act:'antagonismo',note:'Asenapina: sedación moderada posible.'},
+ {label:'α1A',fam:'adr',pot:3,vivo:2,e:'Teórico',act:'antagonismo',note:'Hipotensión/sedación baja-moderada.'},
+ {label:'α2A',fam:'adr',pot:3,vivo:2,e:'Teórico',act:'antagonismo/modulación',note:'Contribución noradrenérgica indirecta.'},
+ {label:'D4',fam:'dop',pot:3,vivo:2,e:'Teórico',act:'antagonismo',note:'Asenapina: diana secundaria.'},
+ {label:'5HT1B',fam:'ser',pot:2,vivo:1,e:'Teórico',act:'modulación',note:'Vortioxetina: baja relevancia.'},
+ {label:'5HT1D',fam:'ser',pot:2,vivo:1,e:'Teórico',act:'modulación',note:'Vortioxetina: baja relevancia.'}
+]};
+const B={id:'B',core:['QUETIAPINA 300 mg/d','FLUOXETINA 40 mg/d','BREXPIPRAZOL 2 mg/d','','Potencia ⟂ Vivo'],nodes:[
+ {label:'SERT',fam:'tra',pot:6,vivo:6,e:'PET',act:'bloqueo SERT',note:'Fluoxetina: ocupación SERT alta a 40 mg.'},
+ {label:'H1',fam:'his',pot:5,vivo:4,e:'Teórico',act:'antagonismo',note:'Quetiapina: carga sedativa/orexígena más marcada.'},
+ {label:'D2',fam:'dop',pot:5,vivo:4,e:'PET',partial:true,act:'agonismo parcial + antagonismo funcional',note:'Brexpiprazol D2 parcial; quetiapina añade ocupación transitoria/modesta.'},
+ {label:'5HT2A',fam:'ser',pot:4,vivo:4,e:'Teórico',act:'antagonismo',note:'Quetiapina + brexpiprazol: cobertura 5HT2A.'},
+ {label:'5HT1A',fam:'ser',pot:4,vivo:3,e:'Teórico',partial:true,act:'agonismo parcial',note:'Brexpiprazol; contribución ansiolítico-antidepresiva.'},
+ {label:'α1A',fam:'adr',pot:4,vivo:3,e:'Teórico',act:'antagonismo',note:'Quetiapina: hipotensión/sedación mayor que en A.'},
+ {label:'NET',fam:'tra',pot:4,vivo:3,e:'Teórico',act:'inhibición NET',note:'Norquetiapina: contribución noradrenérgica teórica.'},
+ {label:'D3',fam:'dop',pot:3,vivo:2,e:'Teórico',partial:true,act:'agonismo parcial',note:'Brexpiprazol: menor impronta D3 que cariprazina.'},
+ {label:'5HT7',fam:'ser',pot:3,vivo:2,e:'Teórico',act:'antagonismo/modulación',note:'Brexpiprazol/quetiapina: eje secundario.'},
+ {label:'5HT2C',fam:'ser',pot:3,vivo:2,e:'Teórico',act:'antagonismo débil-moderado',note:'Carga menor que en A.'},
+ {label:'α2A',fam:'adr',pot:2,vivo:1,e:'Teórico',act:'modulación',note:'Contribución secundaria.'}
+]};
+function polar(cx,cy,r,deg){const a=(deg-90)*Math.PI/180;return [cx+r*Math.cos(a),cy+r*Math.sin(a)]}
+function esc(s){return String(s).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))}
+function glyph(n,x,y,size,mode){const f=FAM[n.fam], w=size*1.85,h=size*1.05, dash=n.partial?'stroke-dasharray="7 5"':'', op=mode==='pot'?0.22:(n.e==='PET'||n.e==='Vivo/PET'?0.96:0.68); let shape='';
+ if(n.fam==='ser') shape=`<rect class="glyph" x="${x-w/2}" y="${y-h/2}" width="${w}" height="${h}" rx="${h/2}" fill="${f.c}" fill-opacity="${op}" stroke="${f.c}" stroke-width="3" ${dash}/>`;
+ else if(n.fam==='dop') shape=`<path class="glyph" d="M${x} ${y-size} L${x+size} ${y} L${x} ${y+size} L${x-size} ${y} Z" fill="${f.c}" fill-opacity="${op}" stroke="${f.c}" stroke-width="3" ${dash}/>`;
+ else if(n.fam==='adr') shape=`<path class="glyph" d="M${x-size*1.05} ${y} L${x} ${y-size*.85} L${x+size*1.15} ${y} L${x} ${y+size*.85} Z" fill="${f.c}" fill-opacity="${op}" stroke="${f.c}" stroke-width="3" ${dash}/>`;
+ else if(n.fam==='his') shape=`<rect class="glyph" x="${x-w/2}" y="${y-h/2}" width="${w}" height="${h}" rx="${h*.28}" fill="${f.c}" fill-opacity="${op}" stroke="${f.c}" stroke-width="3" ${dash}/><line x1="${x+w/2}" y1="${y}" x2="${x+w/2+size*.45}" y2="${y}" stroke="${f.c}" stroke-width="4" stroke-linecap="round"/>`;
+ else shape=`<rect class="glyph" x="${x-w/2}" y="${y-h/2}" width="${w}" height="${h}" rx="8" fill="${f.c}" fill-opacity="${op}" stroke="${f.c}" stroke-width="3" ${dash}/>`;
+ return shape;
+}
+function render(svgId,data){const svg=document.getElementById(svgId), cx=410,cy=330,R=232; let out=`<defs><filter id="glow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity=".24"/></filter><radialGradient id="core${data.id}" cx="35%" cy="28%"><stop offset="0" stop-color="#8ea2ff"/><stop offset="55%" stop-color="#5368d3"/><stop offset="100%" stop-color="#26368d"/></radialGradient></defs>`;
+ out+=`<circle cx="${cx}" cy="${cy}" r="292" fill="#f8fafc" stroke="#e2e8f0"/><circle cx="${cx}" cy="${cy}" r="236" fill="none" stroke="#dbe4ef" stroke-width="2" stroke-dasharray="4 10"/>`;
+ [['SEROTONINA',-118,'ser'],['HISTAMINA',-82,'his'],['ADRENÉRGICOS',36,'adr'],['DOPAMINA',122,'dop'],['TRANSPORTADORES',156,'tra']].forEach(([t,a,f])=>{let [x,y]=polar(cx,cy,286,a);out+=`<text class="family-text" x="${x}" y="${y}" text-anchor="middle" fill="${FAM[f].c}">${t}</text>`});
+ out+=`<circle cx="${cx}" cy="${cy}" r="116" fill="url(#core${data.id})" stroke="#1e2b7a" stroke-width="2" filter="url(#glow)"/>`;
+ data.core.forEach((t,i)=>{if(t==='') return; out+=`<text class="coretext ${i<3?'core-drug':'core-small'}" x="${cx}" y="${cy-48+i*23}">${esc(t)}</text>`});
+ data.nodes.forEach((n,idx)=>{const a=ANG[n.label]??(idx*22), [x,y]=polar(cx,cy,R,a), f=FAM[n.fam], potR=13+n.pot*4.4, vR=9+n.vivo*3.4, labelOut=(a>0&&a<180)?1:-1, tx=x+(labelOut*42), ty=y; out+=`<g class="node" data-tip="${esc(JSON.stringify(n))}">`;
+ out+=`<circle class="halo" cx="${x}" cy="${y}" r="${potR}" fill="${f.c}" fill-opacity=".15" stroke="${f.c}" stroke-opacity=".30" stroke-width="2"/>`;
+ out+=glyph(n,x,y,vR,'ambas');
+ const tagColor=(n.e==='PET'||n.e==='Vivo/PET')?'#0f172a':'#64748b'; out+=`<rect x="${x-22}" y="${y+vR+4}" width="44" height="14" rx="7" fill="${tagColor}"/><text class="tag" x="${x}" y="${y+vR+14}" text-anchor="middle">${n.e.includes('PET')?'PET':'Teórico'}</text>`;
+ out+=`<line x1="${x+(labelOut*24)}" y1="${y}" x2="${tx-(labelOut*5)}" y2="${ty}" stroke="#cbd5e1" stroke-width="1.5"/>`;
+ out+=`<text class="label" x="${tx}" y="${ty-3}" text-anchor="${labelOut>0?'start':'end'}">${n.label}</text><text class="tiny" x="${tx}" y="${ty+12}" text-anchor="${labelOut>0?'start':'end'}">P${n.pot}/V${n.vivo} · ${n.partial?'mixto':'bloqueo'}</text>`;
+ out+=`</g>`}); svg.innerHTML=out; attachTips(svg); updateMode(document.querySelector('.tabs button.active').dataset.mode);
+}
+function rank(el,data){document.getElementById(el).innerHTML=data.nodes.slice().sort((a,b)=>b.vivo-a.vivo).slice(0,12).map(n=>`<div class="rCard"><b>${n.label}<span>${n.e.includes('PET')?'PET':'T'}</span></b><small>Potencia</small><div class="bar"><i style="width:${n.pot/6*100}%"></i></div><small>Vivo</small><div class="bar v"><i style="width:${n.vivo/6*100}%"></i></div></div>`).join('')}
+function attachTips(svg){const tip=document.getElementById('tip');svg.querySelectorAll('.node').forEach(g=>{g.addEventListener('mousemove',e=>{const n=JSON.parse(g.dataset.tip);tip.innerHTML=`<strong>${n.label} · ${n.e}</strong><span>Potencia ${n.pot}/6 · Vivo ${n.vivo}/6</span><br><b>Acción:</b> ${n.act}<br><b>Lectura:</b> ${n.note}`;tip.style.display='block';tip.style.left=(e.clientX+16)+'px';tip.style.top=(e.clientY+16)+'px'});g.addEventListener('mouseleave',()=>tip.style.display='none')})}
+function updateMode(mode){document.querySelectorAll('svg .halo').forEach(x=>x.style.display=(mode==='vivo')?'none':'');document.querySelectorAll('svg .glyph').forEach(x=>{x.style.opacity=(mode==='potencia')?.22:1});document.querySelectorAll('svg .tag').forEach(x=>x.parentElement.style.display=(mode==='potencia')?'none':'')}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');updateMode(b.dataset.mode)});
+render('svgA',A); render('svgB',B); rank('rankA',A); rank('rankB',B);
+</script>
+</body></html>

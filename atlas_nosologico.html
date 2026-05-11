@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Mapa Nosológico Integrado · Psicopatología Mayor</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --bg:#f0ebe1;--paper:#faf8f3;--ink:#16110c;--muted:#6b5d4e;--line:#cdbfa8;
+  --dep:#1d5c85;--bip:#b03329;--brg:#1a6b4a;--psy:#6b1b1e;
+  --dep-s:#dcedf5;--bip-s:#f5d9cc;--brg-s:#d5ede3;--psy-s:#f0d8d9;
+  --gold:#8a6820;--shadow:0 20px 60px rgba(30,20,8,.13)
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden}
+body{font-family:"DM Sans",system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+.app{height:100%;display:grid;grid-template-columns:1fr 390px;grid-template-rows:44px 1fr;gap:0}
+
+/* Top bar */
+.topbar{grid-column:1/-1;background:#16110c;color:#f0e8d8;display:flex;align-items:center;padding:0 18px;gap:18px;border-bottom:1px solid #2c221a}
+.topbar h1{font-family:"EB Garamond",Georgia,serif;font-size:1.05rem;font-weight:400;letter-spacing:.02em;flex:1}
+.topbar h1 span{color:#a8865a;font-style:italic}
+.ctrl-group{display:flex;gap:5px;align-items:center}
+.ctrl-label{font-size:.64rem;color:#9a8a76;letter-spacing:.08em;text-transform:uppercase;margin-right:4px}
+.tbtn{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#c8baa8;border-radius:3px;padding:4px 9px;font:inherit;font-size:.68rem;cursor:pointer;transition:.12s}
+.tbtn:hover{background:rgba(255,255,255,.09)}
+.tbtn.on{background:rgba(180,140,80,.25);border-color:rgba(180,140,80,.5);color:#e0c880}
+
+/* SVG canvas */
+.canvas{background:var(--paper);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+svg{max-width:calc(100vh - 44px);max-height:calc(100vh - 44px);width:100%;height:100%}
+
+/* Side panel */
+.side{background:var(--paper);border-left:1px solid var(--line);display:grid;grid-template-rows:auto 1fr auto;overflow:hidden}
+.side-header{padding:14px 16px 10px;border-bottom:1px solid var(--line)}
+.side-header .kicker{font-size:.6rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:5px}
+.ent-name{font-family:"EB Garamond",Georgia,serif;font-size:1.5rem;line-height:1.05;font-weight:400;margin-bottom:4px}
+.ent-ab{font-size:.72rem;color:var(--muted);font-weight:500;letter-spacing:.06em;text-transform:uppercase}
+.side-body{overflow-y:auto;padding:14px 16px}
+.side-footer{padding:10px 16px;border-top:1px solid var(--line);font-size:.65rem;color:var(--muted);line-height:1.4}
+
+/* Ficha sections */
+.fic-section{margin-bottom:13px}
+.fic-label{font-size:.58rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:5px;font-weight:500}
+.fic-text{font-size:.8rem;line-height:1.52;color:#2a201a}
+.fic-au{font-size:.72rem;color:var(--muted);font-style:italic;line-height:1.4}
+.fic-tx{font-size:.77rem;line-height:1.45;color:#1f3a2a;padding:8px;background:rgba(26,107,74,.06);border-left:2px solid var(--brg);border-radius:2px}
+.cs-pill{display:inline-block;padding:2px 8px;border-radius:99px;font-size:.6rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:8px}
+.cs-h{background:#fde8e8;color:#b03329}
+.cs-m{background:#fef4e8;color:#7a4a18}
+.cs-l{background:#eef3f8;color:#2a5a8a}
+.empty-state{padding:30px 16px;text-align:center;color:var(--muted)}
+.empty-state p{font-family:"EB Garamond",Georgia,serif;font-size:1.1rem;font-style:italic;line-height:1.6;margin-bottom:10px}
+.empty-state small{font-size:.7rem;line-height:1.5}
+
+/* SVG styles */
+.trap-bg{opacity:.18;transition:.15s}
+.trap-border{fill:none;stroke-width:1;opacity:.55}
+.ring-bg{fill:none;stroke:#cbbca5;stroke-dasharray:2 8;opacity:.6}
+.axis-line{stroke:#cbbca5;stroke-width:.5;opacity:.7}
+.sector-label{font-family:"EB Garamond",Georgia,serif;font-size:14px;fill:#201812;pointer-events:none}
+.trap-label{font-size:6.8px;font-weight:600;letter-spacing:.06em;fill:#3a2f24;pointer-events:none;text-transform:uppercase}
+.ent-dot{cursor:pointer;transition:r .12s}
+.ent-dot:hover{filter:brightness(1.3)}
+.ent-dot.selected{stroke:#16110c;stroke-width:2.5;filter:drop-shadow(0 3px 8px rgba(0,0,0,.3))}
+.ent-label{font-size:6.2px;font-weight:580;fill:#3a2e24;pointer-events:none}
+.ring-label{font-size:6.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;fill:#8a7a65;pointer-events:none}
+.axis-caption{font-size:6.8px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;fill:#7a6a58;pointer-events:none}
+
+#tooltip{position:fixed;z-index:50;pointer-events:none;opacity:0;max-width:240px;background:#16110c;color:#f0e8d8;border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:7px 10px;font-size:.7rem;line-height:1.35;transition:opacity .08s}
+#tooltip b{display:block;color:#e0c880;margin-bottom:2px;font-size:.73rem}
+
+/* dim on mode */
+.dim-ent .ent-dot:not(.on-trap){opacity:.08!important}
+.dim-ent .ent-label{display:none}
+</style>
+</head>
+<body>
+<div id="tooltip"></div>
+<div class="app">
+
+<div class="topbar">
+  <h1>Mapa Nosológico Integrado · <span>Psicopatología Mayor</span></h1>
+  <div class="ctrl-group">
+    <span class="ctrl-label">Vista</span>
+    <button class="tbtn on" id="btn-all" onclick="setView('all')">Todo</button>
+    <button class="tbtn" id="btn-nuc" onclick="setView('nuc')">Solo Núcleo</button>
+    <button class="tbtn" id="btn-wkl" onclick="setView('wkl')">WKL</button>
+  </div>
+  <div class="ctrl-group">
+    <span class="ctrl-label">Zonas</span>
+    <button class="tbtn on" id="btn-zones" onclick="toggleZones()">Zonas radiales</button>
+  </div>
+</div>
+
+<main class="canvas" id="canvas">
+<svg id="atlas" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" aria-label="Mapa nosologico integrado de psicopatologia mayor">
+<defs>
+  <radialGradient id="cg" cx="50%" cy="40%" r="70%">
+    <stop offset="0%" stop-color="#fffdf8"/>
+    <stop offset="60%" stop-color="#f0e4c8"/>
+    <stop offset="100%" stop-color="#d4b87a"/>
+  </radialGradient>
+</defs>
+<g id="backdrop"></g>
+<g id="traps"></g>
+<g id="dots"></g>
+<g id="labelsg"></g>
+<g id="centerg"></g>
+</svg>
+</main>
+
+<aside class="side">
+  <div class="side-header" id="side-header">
+    <div class="kicker">Entidad seleccionada</div>
+    <div class="empty-state">
+      <p>Selecciona una entidad</p>
+      <small>121 entidades distribuidas en cuatro esferas psicopatológicas · Haz clic en cualquier punto del mapa para ver su ficha clínica</small>
+    </div>
+  </div>
+  <div class="side-body" id="side-body"></div>
+  <div class="side-footer">
+    <b style="font-size:.62rem;text-transform:uppercase;letter-spacing:.1em">Nota epistemológica</b><br>
+    Este mapa integra taxonomía oficial (DSM-5-TR/CIE-11), tradición alienista europea (Kraepelin, Leonhard, Akiskal, Koukopoulos) y dimensiones fenomenológicas (Sass, Parnas). No es panbiologicista ni panpsicologista: adopta una epistemología crítica que reconoce la heterogeneidad histórica, la validez diferencial de los constructos y la primacía del juicio clínico longitudinal.
+  </div>
+</aside>
+
+</div>
+<script>
+var ENTITIES=[
+  {id:'ddm',n:'Trastorno depresivo mayor',ab:'TDM',spec:'dep',ring:1,ca:327.9,cs:'h',desc:'Episodio depresivo mayor completo (≥5 síntomas durante ≥2 semanas, con ánimo deprimido o anhedonia como síntoma obligatorio y deterioro funcional significativo). Entidad con máximo consenso nosológico',au:'DSM-5-TR (APA, 2022) / CIE-11 (OMS, 2019)',tx:'ISRS/IRSN (1ª línea); agomelatina (perfil circadiano-melatoninérgico); mirtazapina (insomnio/anorexia; efecto rápido); vortioxetina (función cognitiva); TEC en '},
+  {id:'ddp',n:'T. depresivo persistente (distimia)',ab:'Distimia',spec:'dep',ring:1,ca:308.6,cs:'h',desc:'Estado de ánimo deprimido crónico ≥2 años (adultos; ≥1 año en menores) con ≥2 síntomas depresivos subumbrales. Alta carga funcional acumulada por su cronicidad. La "doble depresión" (distimia + EDM su',au:'DSM-5-TR / CIE-11; Keller & Shapiro (1982); McCullough JP (CBASP)',tx:'ISRS (1ª línea farmacológica); IRSN en formas con fatiga/dolor; CBASP (Cognitive Behavioral Analysis System of Psychotherapy): única psicoterapia específicament'},
+  {id:'emel',n:'Episodio depresivo melancólico',ab:'EDM melancólico',spec:'dep',ring:1,ca:295.7,cs:'h',desc:'EDM con características melancólicas: anhedonia profunda con pérdida de reactividad al placer, despertar precoz (≥2h antes), variación diurna marcada (peor matutino), inhibición o agitación psicomotri',au:'DSM-5-TR (especificador); Parker G et al.; Taylor MA & Fink M',tx:'AD noradrenérgicos (1ª línea específica): venlafaxina, desipramina, nortriptilina. TEC: tratamiento de primera elección en formas graves, con riesgo vital o res'},
+  {id:'eatip',n:'Episodio depresivo atípico',ab:'EDM atípico',spec:'dep',ring:1,ca:270,cs:'h',desc:'Reactividad del ánimo conservada (brightening ante estímulos positivos) + ≥2 síntomas atípicos: hipersomnia, hiperfagia/aumento ponderal reactivo, parálisis del plomo, hipersensibilidad interpersonal ',au:'DSM-5-TR (especificador); Akiskal HS; Perugi G et al.; Liebowitz et al.',tx:'ISRS (1ª línea clásica); IMAO (tranilcipromina, fenelzina): evidencia de superioridad sobre tricíclicos; litio si marcadores bipolares confirmados; evitar tricí'},
+  {id:'dpsic',n:'Depresión psicótica',ab:'EDM psicótico',spec:'dep',ring:1,ca:282.9,cs:'h',desc:'EDM con delirios y/o alucinaciones congruentes o no congruentes con el estado de ánimo. Alta gravedad global y riesgo suicida elevado. El TEC es el tratamiento de primera elección cuando hay riesgo vi',au:'DSM-5-TR (especificador); CANMAT 2023; Wijkstra J et al.',tx:'TEC (primera elección con riesgo vital inminente, catatonia o resistencia); combinación AD + antipsicótico atípico (olanzapina + fluoxetina: evidencia nivel I; '},
+  {id:'dpp',n:'Depresión perinatal / postparto',ab:'Dep.perinatal',spec:'dep',ring:1,ca:360,cs:'h',desc:'EDM con inicio durante el embarazo o en las 4 semanas postparto (criterio DSM-5) o hasta 12 meses postparto (criterio clínico ampliado). Prevalencia 10-15% de gestantes. Impacto en el vínculo materno-',au:'DSM-5-TR (especificador peripartum); Wisner KL et al.; Osborne LM',tx:'TCC e IPT como 1ª línea en formas leves-moderadas; sertralina o paroxetina (datos de seguridad favorables en lactancia); brexanolona IV (Zulresso): 1ª línea esp'},
+  {id:'drt',n:'Depresión resistente al tratamiento',ab:'DRT',spec:'dep',ring:2,ca:321.4,cs:'m',desc:'Fracaso a ≥2 ensayos adecuados de AD de clases distintas (dosis terapéutica, ≥6 semanas). Prevalencia: ~30% de los EDM. La primera causa de "resistencia" es la bipolaridad no reconocida tratada con AD',au:'Thase ME & Rush AJ (1997); CANMAT 2023; Al-Harbi KS',tx:'Augmentación litio (nivel A; el más antiguo y consistente); aripiprazol, quetiapina, olanzapina (nivel A); esketamina intranasal; ketamina IV; TEC; psilocibina '},
+  {id:'dsm2',n:'Depresión con síntomas mixtos',ab:'Dep.+sx.mx.',spec:'dep',ring:2,ca:360,cs:'m',desc:'EDM con ≥3 síntomas hipomaníacos concurrentes (criterio DSM-5) o con agitación + pensamiento acelerado + irritabilidad marcada (criterio Koukopoulos, más sensible). Puente diagnóstico hacia el espectr',au:'DSM-5-TR (especificador); Koukopoulos A; Benazzi F; McElroy SL',tx:'Evitar AD en monoterapia. Valproato 1ª línea (eficacia específica en disforia y agitación mixta); quetiapina; litio. BZD a corto plazo para agitación aguda. Si '},
+  {id:'sad',n:'Trastorno afectivo estacional (TAE)',ab:'TAE / SAD',spec:'dep',ring:2,ca:353.6,cs:'m',desc:'Patrón estacional documentable de EDM con remisión espontánea. Clásicamente: depresión otoño-invierno con síntomas atípicos dominantes (hipersomnia, hiperfagia). Fisiopatología circadiana-melatoninérg',au:'Rosenthal NE et al. Arch Gen Psychiatry 1984; DSM-5-TR (especificador estacional)',tx:'Fototerapia (10.000 lux, 20-30 min matutinos): eficacia equivalente a ISRS, inicio 3-5 días, sin efectos adversos sistémicos; ISRS (fluoxetina, sertralina: nive'},
+  {id:'pmdd',n:'Trastorno disfórico premenstrual (TDPM)',ab:'TDPM',spec:'dep',ring:2,ca:360,cs:'m',desc:'Síntomas depresivos, ansiosos, irritables y somáticos marcados en la fase lútea final con remisión posmenstrual. Entidad diferenciada del SPM por gravedad e impacto funcional. Sustrato: sensibilidad n',au:'DSM-5-TR; Yonkers KA et al.; Epperson CN; Bäckström T',tx:'ISRS intermitentes (fase lútea) o continuos (sertralina, fluoxetina, escitalopram: nivel A); anticonceptivos hormonales (drospirenona+EE: eficacia documentada, '},
+  {id:'dcog',n:'Depresión con deterioro cognitivo / pseudodemencia',ab:'Dep.cogn.',spec:'dep',ring:2,ca:276.4,cs:'m',desc:'EDM con deterioro cognitivo prominente en adultos mayores. Puede preceder, coexistir o simular demencia neurodegenerativa. El seguimiento neuropsicológico a 12 meses es obligatorio.',au:'Kiloh LG (1961); Alexopoulos GS; Wells CE; DSM-5-TR',tx:'AD (vortioxetina: eficacia cognitiva específicamente documentada); TEC en formas graves; inhibidores de AChE si progresa a demencia; seguimiento neuropsicológic'},
+  {id:'danx',n:'Depresión con especificador de angustia / ansiosa',ab:'Dep.ansiosa',spec:'dep',ring:2,ca:360,cs:'m',desc:'EDM con ansiedad prominente en primer plano (tensión, preocupación, incapacidad para relajarse, miedo a perder el control). El especificador de angustia DSM-5 predice mayor riesgo suicida y peor respu',au:'DSM-5-TR (especificador de angustia); Fava M; STAR*D study',tx:'Combinación AD + BZD (a corto plazo para la angustia aguda); IRSN (venlafaxina: eficacia sobre ansiedad y depresión); pregabalina coadyuvante; buspirona como au'},
+  {id:'dvascular',n:'Depresión vascular tardía',ab:'Dep.vascular',spec:'dep',ring:2,ca:270,cs:'m',desc:'Síndrome depresivo de inicio tardío (>60 años) asociado a lesiones cerebrovasculares (leucoaraiosis, lacunas subcorticales). Mayor resistencia farmacológica. Riesgo de demencia vascular.',au:'Alexopoulos GS et al. Am J Psychiatry 1997; Krishnan KR et al.',tx:'AD con precaución cardiovascular (ISRS en 1ª línea; tricíclicos evitar); control intensivo de factores de riesgo vascular; aspirina; TEC en formas graves.'},
+  {id:'sub',n:'Sínd. depresivo subumbral',ab:'Dep.subumbral',spec:'dep',ring:3,ca:334.3,cs:'m',desc:'Síntomas depresivos clínicamente significativos sin criterios completos para EDM (<5 síntomas o <2 semanas). Mayor prevalencia que la depresión mayor. Impacto funcional comparable a condiciones médica',au:'Angst J et al. (estudio longitudinal de Zurich); WHO Global Burden of Disease',tx:'Psicoterapia (TCC, activación conductual, MBCT); intervención en estilo de vida; seguimiento activo.'},
+  {id:'rum',n:'Vulnerabilidad ruminativa',ab:'Rumin.',spec:'dep',ring:3,ca:289.3,cs:'m',desc:'Patrón cognitivo de focalización repetitiva y pasiva sobre síntomas depresivos, sus causas y consecuencias. Factor de vulnerabilidad, mantenimiento y recaída con base empírica sólida.',au:'Nolen-Hoeksema S (1991); Treynor et al. (2003); Wells A (terapia metacognitiva)',tx:'MBCT (Mindfulness-Based Cognitive Therapy): nivel I para prevención de recaídas en ≥3 EDM; terapia metacognitiva (Wells A: aborda las metacogniciones que mantie'},
+  {id:'fatdep',n:'Fatiga depresiva y síntomas residuales',ab:'Fat.dep.',spec:'dep',ring:3,ca:308.6,cs:'m',desc:'Fatiga, inhibición cognitiva y anhedonia persistentes tras remisión aparente del EDM. Predictor más potente de recaída temprana según Paykel et al. Fava los denominó "síntomas residuales".',au:'Paykel ES et al.; Nierenberg AA; Fava GA (sintomas residuales)',tx:'Bupropión (noradrenérgico/dopaminérgico: eficacia específica documentada para fatiga residual); modafinilo como adyuvante; activación física estructurada; trata'},
+  {id:'dbrec',n:'Dep. breve recurrente',ab:'DBR',spec:'dep',ring:3,ca:270,cs:'m',desc:'Episodios depresivos completos de duración <2 semanas, altamente recurrentes (≥12/año en la forma clásica). Subumbrales para DSM-5 por criterio temporal. CIE-11 los contempla. Alto riesgo suicida.',au:'Angst J & Hochstrasser B (1994); Angst J et al. (estudio de Zurich)',tx:'Litio (eficacia específica documentada); evaluación sistemática del espectro bipolar (BSDS); psicoeducación y registro prospectivo de episodios.'},
+  {id:'dduelo',n:'Depresión en el duelo / duelo complicado',ab:'Duelo+dep.',spec:'dep',ring:3,ca:347.1,cs:'m',desc:'EDM precipitado por pérdida significativa (duelo). El DSM-5-TR eliminó el "exclusion criterion" del duelo. El duelo complicado (prolongado) se ha incluido en el DSM-5-TR como trastorno de duelo prolon',au:'DSM-5-TR (nota metodológica duelo); Shear MK; Zisook S et al.',tx:'Psicoterapia (TCG de Shear: nivel I para duelo complicado; TCC para EDM comórbido); AD si cumple criterios completos de EDM; evitar BZD prolongadas (inhiben la '},
+  {id:'endog',n:'Depresión endógena (constructo histórico)',ab:'Dep.endóg.',spec:'dep',ring:4,ca:312.4,cs:'l',desc:'Concepto histórico para depresión sin desencadenante ambiental identificable, con síntomas melancólicos prominentes. Abandonado como categoría en DSM-III (1980). Parcialmente recogido por el especific',au:'Gillespie RD (1929); Mapother E (1926); revisiones en American Journal of Psychiatry',tx:'Conceptualmente orienta hacia AD noradrenérgico y TEC. Sin evidencia específica por ausencia de criterios operacionales vigentes.'},
+  {id:'melinv',n:'Melancolía involutiva (Kraepelin)',ab:'M.involut.',spec:'dep',ring:4,ca:282.9,cs:'l',desc:'Depresión de inicio tardío (>40-50 años) con agitación prominente y ansiedad severa. Kraepelin la diferenció de la PMD en su nosología tardía. Eliminada del DSM-III (1980). Zona de frontera con bipola',au:'Emil Kraepelin (Psychiatrie, 8ª ed., 1913); Roth M (1955)',tx:'AD + antipsicóticos a dosis bajas en formas agitadas; TEC de primera elección en formas graves; la agitación orienta a cobertura estabilizadora.'},
+  {id:'denmsc',n:'Depresión enmascarada / equivalentes depresivos',ab:'Dep.enmsc.',spec:'dep',ring:4,ca:270,cs:'l',desc:'Concepto histórico para síndromes somáticos o conductuales que ocultan una depresión subyacente. Especialmente relevante en atención primaria, medicina interna y culturas con menor expresión afectiva ',au:'Lesse S (1974); Lopez-Iбor Alino JJ (1972); historia nosológica internacional',tx:'AD con perfil noradrenérgico (IRSN específicamente eficaces para componente doloroso); abordaje interdisciplinar con medicina interna.'},
+  {id:'tb1',n:'Trastorno Bipolar I',ab:'TB I',spec:'bip',ring:1,ca:18.3,cs:'h',desc:'Definido por la presencia de al menos un episodio maníaco pleno (criterios A–D DSM-5-TR), habitualmente acompañado de episodios depresivos mayores (no obligatorios para el diagnóstico). Es la presenta',au:'DSM-5-TR (APA, 2022) / CIE-11 (OMS, 2019)',tx:'Litio (1ª línea en mantenimiento, nefroprotección, antisuicida documentada); valproato; quetiapina, aripiprazol, lurasidona (fase depresiva); olanzapina (manía '},
+  {id:'tb2',n:'Trastorno Bipolar II',ab:'TB II',spec:'bip',ring:1,ca:68.7,cs:'h',desc:'Al menos un episodio hipomaníaco (criterios A–F, ≥4 días) y al menos un episodio depresivo mayor, sin manía plena en ningún momento del curso. La carga depresiva longitudinal es mayor que en el TB I; ',au:'DSM-5-TR / CIE-11; Judd et al., Am J Psychiatry, 2003',tx:'Quetiapina (evidencia 1ª línea en depresión bipolar); litio; lamotrigina (mantenimiento, especialmente en fase depresiva); lurasidona. Cautela con AD en monoter'},
+  {id:'cicl',n:'Ciclotimia',ab:'Cicl.',spec:'bip',ring:1,ca:37.3,cs:'h',desc:'Patrón crónico (≥2 años en adultos, ≥1 año en menores) de síntomas hipomaníacos y depresivos subumbrales alternantes, sin episodios plenos en los primeros 2 años de evolución. Tasa de conversión a TB ',au:'Kahlbaum (1882); DSM-5-TR / CIE-11; Van Meter et al., Bipolar Disord, 2011',tx:'Litio a dosis bajas (0.6–0.8 mEq/L); psicoeducación intensiva; IPSRT (Interpersonal and Social Rhythm Therapy); monitorización longitudinal estrecha con registr'},
+  {id:'mxto',n:'Episodio con características mixtas',ab:'Ep.mx.',spec:'bip',ring:1,ca:88.0,cs:'h',desc:'Especificador de episodio aplicable a maníacos, hipomaníacos o depresivos cuando coexisten ≥3 síntomas del polo opuesto de forma simultánea. Supone mayor riesgo suicida, peor respuesta a antidepresivo',au:'DSM-5-TR (APA, 2022); Koukopoulos et al., J Affect Disord, 2013',tx:'Evitar AD en monoterapia. Estabilizadores (valproato 1ª línea por su eficacia en disforia y agitación; litio); antipsicóticos atípicos (quetiapina, olanzapina, '},
+  {id:'bp2h',n:'BP II½: depresión atípica bipolar',ab:'BP II½',spec:'bip',ring:2,ca:60.3,cs:'m',desc:'Episodios depresivos mayores con características atípicas (hipersomnia, hiperfagia, parálisis del plomo, hipersensibilidad interpersonal al rechazo) sobre un sustrato del espectro bipolar. La depresió',au:'Akiskal & Pinto, 1999; Perugi et al., J Affect Disord, 1998',tx:'ISRS con cautela; litio (eficacia documentada); IMAO en formas graves o refractarias (clásicamente considerados de elección). Evitar AD tricíclicos como monoter'},
+  {id:'bp3',n:'BP III: viraje por antidepresivos',ab:'BP III',spec:'bip',ring:2,ca:13.4,cs:'m',desc:'Hipomanía o manía inducida por antidepresivos en paciente con depresión tratada, sin episodios espontáneos previos documentados. Se interpreta como marcador de vulnerabilidad bipolar subyacente que lo',au:'Akiskal & Pinto, Psychiatr Clin North Am, 1999; Ghaemi et al., J Psychiatr Pract, 2002',tx:'Suspensión o reducción del AD precipitante; introducción de estabilizador del ánimo; reevaluación diagnóstica integral. Gestión del riesgo de ciclación acelerad'},
+  {id:'bp3b',n:'BP IIIb: hipomanía breve recurrente',ab:'BP IIIb',spec:'bip',ring:2,ca:18.7,cs:'m',desc:'Episodios hipomaníacos de duración inferior a 4 días (subumbrales para DSM-5), recurrentes y diferenciables del estado basal habitual del sujeto. Identificados sistemáticamente en el estudio longitudi',au:'Angst et al., Arch Gen Psychiatry, 2003; estudio longitudinal de Zurich',tx:'Manejo similar al TB II; cautela con AD en monoterapia; litio o estabilizadores si hay impacto funcional claro; psicoeducación sobre reconocimiento de síntomas.'},
+  {id:'bp4',n:'BP IV: depresión hipertímica',ab:'BP IV',spec:'bip',ring:2,ca:73.0,cs:'m',desc:'Episodio depresivo mayor que emerge sobre una línea de base temperamental hipertímica, sin hipomanía documentada en ningún momento del curso. Frecuentemente diagnosticado de forma errónea como depresi',au:'Akiskal & Pinto, Psychiatr Clin North Am, 1999; Cassano et al.',tx:'Cautela con AD, especialmente en monoterapia. Evaluación temperamental sistemática mediante TEMPS-A. Considerar estabilizadores del ánimo como primer paso según'},
+  {id:'vcir',n:'Vulnerabilidad circadiana',ab:'V.circ.',spec:'bip',ring:2,ca:23.3,cs:'m',desc:'Sensibilidad aumentada a la desregulación de los ritmos circadianos como sustrato neurobiológico de la vulnerabilidad bipolar. Nexo entre el eje HPA, el sistema melatoninérgico y la estacionalidad de ',au:'Harvey et al., J Clin Psychiatry, 2005; Frank et al., Am J Psychiatry, 2005 (IPSRT)',tx:'IPSRT (Interpersonal and Social Rhythm Therapy, Frank et al.) como primera línea no farmacológica; agomelatina como opción farmacológica complementaria; melaton'},
+  {id:'sens_ad',n:'Sensibilidad a AD / Marcadores de vulnerabilidad bipolar',ab:'M.vuln.bip.',spec:'bip',ring:2,ca:63.7,cs:'m',desc:'Constelación de indicadores clínico-anamnésicos que aumentan la probabilidad pre-test de espectro bipolar. Operacionalizados en la Bipolar Spectrum Diagnostic Scale (BSDS) de Ghaemi et al.',au:'Ghaemi SN et al. (BSDS) J Clin Psychiatry 2002; ISBD guidelines',tx:'Evaluación longitudinal estructurada; cautela con AD; aplicar BSDS sistemáticamente; psicoeducación activa.'},
+  {id:'hvulest',n:'Vulnerabilidad al estrés psicosocial (kindling)',ab:'Vuln.estres',spec:'bip',ring:2,ca:43.7,cs:'m',desc:'Sensibilidad aumentada a eventos vitales estresantes como desencadenantes de episodios afectivos bipolares. El modelo de kindling de Post propone una sensibilización progresiva del sistema límbico a l',au:'Post RM (kindling, 1992); Monroe SM & Harkness KL (2005)',tx:'IPSRT; TCC; reducción sistematizada de estresores; apoyo social estructurado; estrategias de regulación emocional; litio (modifica neuroplasticidad y resistenci'},
+  {id:'hsue',n:'Hipersensibilidad a privación de sueño',ab:'S.sueño',spec:'bip',ring:2,ca:17.7,cs:'m',desc:'Tendencia constitucional a desarrollar activación, euforia o hipomanía ante privación o reducción significativa del sueño. Marcador accesible de vulnerabilidad circadiana en el espectro bipolar, con e',au:'Wehr et al., Arch Gen Psychiatry, 1987; Colombo et al., Bipolar Disord, 1999',tx:'Higiene del sueño estricta como primera medida; melatonina de liberación prolongada; vigilancia reforzada en viajes intercontinentales; psicoeducación sobre rie'},
+  {id:'floa',n:'Floater afectivo / oscilaciones interepisódicas',ab:'Floater',spec:'bip',ring:2,ca:39.7,cs:'m',desc:'Oscilaciones afectivas subumbrales en los intervalos interepisódicos que señalan que la bipolaridad no es puramente episódica sino una condición de vulnerabilidad continua. Cuestionan el modelo de eut',au:'Akiskal HS; revisiones en Bipolar Disord',tx:'Mantener tratamiento de mantenimiento continuo; no suspender prematuramente ante aparente eutimia; registro sistemático del estado de ánimo como herramienta de '},
+  {id:'smix',n:'Síntomas mixtos breves recurrentes',ab:'S.mx.br.',spec:'bip',ring:2,ca:87.6,cs:'m',desc:'Episodios breves (horas a pocos días) de síntomas maníacos o hipomaníacos sobre fondo depresivo persistente, recurrentes y habitualmente ego-distónicos. Probablemente la forma de presentación mixta má',au:'Angst et al.; Benazzi, Bipolar Disord, 2004',tx:'Estabilizadores del ánimo (valproato, litio); evitar AD en monoterapia; psicoeducación sobre el reconocimiento del patrón mixto.'},
+  {id:'bpv',n:'BP-V: Depresion agitada / Estado mixto depresivo',ab:'BP-V',spec:'bip',ring:2,ca:83.6,cs:'m',desc:'Depresion severa con activacion psicomotriz simultanea, inquietud extrema, taquipsiquia disforica e impulsividad. ZONA DE MAXIMO RIESGO SUICIDA del espectro bipolar segun el modelo dimensional: combin',au:'Koukopoulos A (depresion agitada); Weygandt W (estados mixtos kraepelianos); Akiskal HS',tx:'Evitar AD en monoterapia: pueden amplificar la activacion y elevar el riesgo suicida. Valproato (1 linea especifica: eficacia sobre la disforia activada y la ag'},
+  {id:'hdis',n:'Hipomanía disfórica',ab:'H.disf.',spec:'bip',ring:3,ca:89,cs:'m',desc:'Estado hipomaníaco con predominio de disforia, irritabilidad y tensión interna en lugar de euforia. Presentación frecuente en la práctica ambulatoria, con alta tasa de confusión diagnóstica con trasto',au:'Akiskal HS; Benazzi F, Bipolar Disord, 2007',tx:'Estabilizadores del ánimo (valproato, litio); antipsicóticos atípicos (quetiapina); evitar AD en monoterapia. La disforia como síntoma dominante no debe orienta'},
+  {id:'emsu',n:'Estados mixtos subumbrales',ab:'E.mx.s.',spec:'bip',ring:3,ca:6.1,cs:'m',desc:'Coexistencia de síntomas maníacos/hipomaníacos y depresivos sin alcanzar umbrales categoriales para ningún episodio definido. Probablemente las presentaciones más frecuentes del espectro bipolar en la',au:'Benazzi F, Bipolar Disord, 2004; Koukopoulos A',tx:'Estabilizadores del ánimo; evitar AD; psicoeducación intensiva sobre reconocimiento de mixticidad.'},
+  {id:'dmko',n:'Depresión mixta (Koukopoulos)',ab:'D.mx.K.',spec:'bip',ring:3,ca:89,cs:'m',desc:'Episodio depresivo mayor con al menos 3 síntomas hipomaníacos concurrentes según los criterios de Koukopoulos, que incluyen específicamente el pensamiento acelerado, la irritabilidad y la agitación co',au:'Koukopoulos A et al., J Affect Disord, 2013',tx:'Estabilizadores del ánimo (valproato 1ª línea por eficacia específica en disforia y agitación; litio); quetiapina; evitar AD en monoterapia.'},
+  {id:'crapid',n:'Ciclado rápido (≥4 ep./año)',ab:'Cic.ráp.',spec:'bip',ring:3,ca:86.4,cs:'h',desc:'Especificador de curso: ≥4 episodios afectivos plenos en 12 meses. Mayor resistencia farmacológica. Asociado a hipotiroidismo subclínico, TUS y uso activo de AD.',au:'DSM-5-TR (especificador de curso); Dunner DL & Fieve RR Am J Psychiatry 1974',tx:'Valproato (1ª línea específica para CR; nivel A); carbamazepina (2ª línea); suprimir AD activos; evaluar y tratar hipotiroidismo; reducir consumo de sustancias;'},
+  {id:'labaf',n:'Labilidad afectiva',ab:'Lab.af.',spec:'bip',ring:3,ca:32.7,cs:'m',desc:'Variabilidad marcada y frecuente del estado de ánimo con transiciones rápidas entre estados diferenciados. Dimensión transdiagnóstica con sustrato neurobiológico parcialmente compartido en TB, TLP y T',au:'Harvey AG et al. Bipolar Disord 2005; Kowatch RA et al.',tx:'Valproato (evidencia específica para labilidad afectiva como síntoma diana); lamotrigina; DBT en comorbilidad con TLP; litio en TB II confirmado.'},
+  {id:'agdep',n:'Agitación depresiva (Koukopoulos)',ab:'Agit.dep.',spec:'bip',ring:3,ca:85.0,cs:'m',desc:'Agitación psicomotriz intensa en el contexto de un episodio depresivo. Marcador cardinal de naturaleza mixta según Koukopoulos. La combinación activación-disforia eleva significativamente el riesgo su',au:'Koukopoulos A et al. J Affect Disord 2013; Benazzi F',tx:'BZD IV/IM a corto plazo (lorazepam) para la agitación aguda; antipsicóticos atípicos (olanzapina oral/IM); valproato; TEC en formas graves o con riesgo suicida;'},
+  {id:'bipsft',n:'Bipolaridad suave (soft bipolar)',ab:'Bip.suave',spec:'bip',ring:3,ca:52.0,cs:'m',desc:'Características bipolares subumbrales con impacto funcional significativo sin criterios DSM-5 completos. Concepto epistemológicamente debatido que exige rigor longitudinal.',au:'Cassano GB et al. Am J Psychiatry 1992; Angst J; Akiskal HS',tx:'Evaluación longitudinal estructurada (mínimo 6 meses); estabilizadores solo con impacto funcional objetivo y curso documentado; psicoeducación prioritaria antes'},
+  {id:'tempht',n:'Temperamento hipertímico',ab:'T.hipert.',spec:'bip',ring:3,ca:21.5,cs:'m',desc:'Rasgo temperamental constitucional con elevada energía, activación, sociabilidad, optimismo y escasa necesidad de sueño. Sustrato del polo maníaco. Afinidad con el BP IV y el TB I. Evaluado por la sub',au:'Akiskal HS et al. (TEMPS-A); Rihmer Z & Akiskal HS',tx:'Evaluación temperamental (TEMPS-A); psicoeducación sobre el patrón y sus riesgos; cautela ante cualquier prescripción de AD si aparece EDM.'},
+  {id:'tempcicl',n:'Temperamento ciclotímico',ab:'T.cicl.',spec:'bip',ring:3,ca:35.0,cs:'m',desc:'Rasgo temperamental constitucional con labilidad afectiva, cambios breves de humor, alta sensibilidad interpersonal y creatividad. Sustrato del TB II y la ciclotimia. Evaluado por la subescala ciclotí',au:'Akiskal HS et al. (TEMPS-A); Rihmer Z; Kretschmer E (antecedente histórico)',tx:'Psicoeducación temperamental prioritaria; psicoterapia (IPSRT, TCC de regulación emocional); estabilizadores del ánimo a bajas dosis si hay impacto clínico docu'},
+  {id:'raft',n:'Reactividad afectiva elevada',ab:'R.afec.',spec:'bip',ring:3,ca:25.7,cs:'m',desc:'Respuesta emocional intensa, rápida y difícilmente modulable ante estímulos interpersonales o ambientales. Dimensión transdiagnóstica relevante en espectro bipolar, TLP y TDAH. Exige diagnóstico difer',au:'Davidson et al.; nosología transdiagnóstica RDoC (NIMH)',tx:'DBT (Dialectical Behavior Therapy) en comorbilidad con TLP; TCC de regulación emocional; valproato si hay sustrato bipolar confirmado; metilfenidato/lisdexanfet'},
+  {id:'drec',n:'Depresión recurrente + hipomanía breve interepisódica',ab:'D+H.br.',spec:'bip',ring:3,ca:50.3,cs:'m',desc:'Depresiones recurrentes (criterios EDM) con períodos breves de hipomanía subumbral interepisódica. Según el estudio longitudinal de Zurich (Angst), son las formas del espectro bipolar más prevalentes ',au:'Angst J, Arch Gen Psychiatry, 2003; estudio longitudinal de Zurich',tx:'Litio (prevención de recurrencias); lamotrigina (especialmente en prevención de la fase depresiva); cautela con AD en monoterapia.'},
+  {id:'riad',n:'Riesgo de empeoramiento con AD',ab:'R.AD',spec:'bip',ring:3,ca:65.3,cs:'m',desc:'Deterioro clínico progresivo —ciclación acelerada, inducción de estados mixtos, viraje maníaco/hipomaníaco— por uso de antidepresivos en el espectro bipolar. Fenómeno dosis y tiempo-dependiente con re',au:'Ghaemi et al.; Young et al., Cochrane, 2014; CANMAT 2023',tx:'Evitar AD en monoterapia en todo paciente del espectro bipolar; si son necesarios, cubrir con estabilizador (litio o valproato); revisar periódicamente la neces'},
+  {id:'cul',n:'Ciclado ultrarrápido / ultradiano',ab:'Cic.ul.',spec:'bip',ring:3,ca:85.0,cs:'m',desc:'Ciclado ultrarrápido (<7 días por ciclo) o ultradiano (<24 horas). Alta disfunción y discapacidad funcional. Frecuente en TB II, mujeres y consumidores de sustancias. Presenta relativa resistencia far',au:'Kramlinger & Post, Am J Psychiatry, 1996; Bauer et al.',tx:'Valproato (1ª línea); carbamazepina (2ª línea); clonazepam coadyuvante para la agitación a corto plazo; suprimir AD; evaluar y tratar hipotiroidismo; reducir co'},
+  {id:'drea',n:'Disforia reactiva',ab:'D.reac.',spec:'bip',ring:3,ca:0.5,cs:'l',desc:'Estado disfórico precipitado por eventos ambientales adversos, con componente de activación mixta y alta reactividad emocional. Límite difuso con trastorno adaptativo y con los estados mixtos subumbra',au:'Nosología dinámica; conceptualización leonhardiana',tx:'Psicoterapia prioritaria (IPSRT, TCC, humanístico-integrativa); estabilizadores a corto plazo si hay impacto funcional severo o riesgo de escalada; evitar AD si'},
+  {id:'bpvi',n:'BP-VI: Bipolaridad de inicio tardio',ab:'BP-VI',spec:'bip',ring:4,ca:69.3,cs:'l',desc:'Primer episodio afectivo con caracteristicas bipolares despues de los 50-60 anos. Frecuentemente asociado a patologia cerebrovascular, neurodegenerativa o metabolica subyacente. Mayor tasa de infradia',au:'Akiskal HS (2002); Shulman KI & Tohen M; Sajatovic M et al.',tx:'Litio (eficacia documentada; monitorizar funcion renal y tiroidea mas estrictamente en mayores); valproato; quetiapina a dosis bajas con cautela cardiovascular.'},
+  {id:'munip',n:'Manía unipolar (entidad discutida)',ab:'M.unip.',spec:'bip',ring:4,ca:20.8,cs:'l',desc:'Manía recurrente sin episodios depresivos documentados a lo largo de todo el curso evolutivo. Prevalencia <5% de todos los trastornos bipolares. Mayor frecuencia reportada en culturas no occidentales ',au:'Klerman GL (1981); Shulman KI & Tohen M',tx:'Similar al TB I: litio (especialmente eficaz en manía pura recurrente), valproato, antipsicóticos atípicos en agudo.'},
+  {id:'psciclb',n:'Psicosis cicloides (Leonhard-Kleist)',ab:'Ps.cicl.',spec:'bip',ring:4,ca:87.0,cs:'l',desc:'Psicosis afectivas de inicio agudo, polimorfismo sintomático, naturaleza afectiva dominante y pronóstico excelente. Zona de frontera entre espectro bipolar y psicótico. Tres tipos leonhardianos.',au:'K. Kleist (1921); K. Leonhard Aufteilung der endogenen Psychosen (1957)',tx:'Litio (especialmente eficaz en formas recurrentes); antipsicóticos a corto plazo en fase aguda; excelente respuesta al TEC documentada.'},
+  {id:'tcret',n:'Temperamento afect. como diagnóstico (Kretschmer)',ab:'T.af.Kretsch.',spec:'bip',ring:4,ca:42.0,cs:'l',desc:'Propuesta constitucionalista de Kretschmer de reconocer los temperamentos afectivos como entidades diagnósticas con valor clínico propio y correlato biométrico. Antecedente histórico directo de la TEM',au:'Ernst Kretschmer Koerperbau und Charakter (1921)',tx:'Evaluación temperamental (TEMPS-A); orientación psicoeducativa según perfil constitucional.'},
+  {id:'fatip',n:'Formas atípicas históricas',ab:'F.atíp.',spec:'bip',ring:4,ca:28.0,cs:'l',desc:'Conjunto heterogéneo de presentaciones afectivas históricamente descritas (psicosis de la confusión, depresiones atípicas leonhardianas, formas mixtas kraepelinianas) sin operacionalización actual en ',au:'Kraepelin, Leonhard, Kleist, Kretschmer (s. XIX–XX)',tx:'Individualizado según la presentación clínica actual; los principios terapéuticos de las entidades progenitoras (litio, TEC, estabilizadores) siguen siendo váli'},
+  {id:'pck',n:'Personalidad cicloide (Kretschmer)',ab:'P.c.k.',spec:'bip',ring:4,ca:60.3,cs:'l',desc:'Tipo constitucional kretschmeriano definido por oscilaciones afectivas leves entre estados de humor relativamente elevado y deprimido, asociado al biotipo pícnico. Antecedente histórico directo de la ',au:'Ernst Kretschmer, Körperbau und Charakter (1921)',tx:'Manejo temperamental; psicoeducación sobre el patrón; no implica tratamiento farmacológico per se.'},
+  {id:'ctrn',n:'Categorías nosológicas en transición',ab:'C.trns.',spec:'bip',ring:4,ca:55.3,cs:'l',desc:'Entidades cuya ubicación en el espectro bipolar está en revisión activa por la APA y la OMS: TB infanto-juvenil, DMDD, ciclotimia infanto-juvenil, bipolaridad subumbral pediátrica y cambios sustancial',au:'Nosología en revisión activa (APA, OMS, 2019–2022)',tx:'Individualizado; especial cautela farmacológica en población pediátrica y adolescente; litio y quetiapina con mayor evidencia en esta franja etaria.'},
+  {id:'teasqb',n:'Trastorno esquizoafectivo bipolar',ab:'TEA bip.',spec:'brg',ring:1,ca:143.8,cs:'m',desc:'Síntomas psicóticos intersticiales documentados fuera de episodios afectivos + episodios maníacos o mixtos en el curso. Zona de frontera nosológica de baja estabilidad diagnóstica longitudinal. Próxim',au:'DSM-5-TR / CIE-11',tx:'Estabilizadores + antipsicóticos (litio o valproato + olanzapina, quetiapina o aripiprazol); TEC en episodios graves.'},
+  {id:'teasqd',n:'Trastorno esquizoafectivo depresivo',ab:'TEA dep.',spec:'brg',ring:1,ca:173.8,cs:'m',desc:'Síntomas psicóticos intersticiales + EDM mayor en el curso, sin episodios maníacos. Peor pronóstico que el subtipo bipolar. Mayor carga de síntomas negativos y deterioro cognitivo. Próximo al polo psi',au:'DSM-5-TR / CIE-11',tx:'AD + antipsicóticos; litio coadyuvante; TEC en formas depresivas graves; clozapina en formas con síntomas negativos prominentes.'},
+  {id:'pcicloid',n:'Psicosis cicloide — arquetipo de entidad puente',ab:'Ps.cicloide',spec:'brg',ring:1,ca:157.5,cs:'l',desc:'Psicosis de inicio agudo, polimorfismo sintomático, naturaleza afectiva y pronóstico excelente. Núcleo conceptual del módulo puente entre los espectros afectivo y psicótico. Tres tipos leonhardianos.',au:'K. Kleist (1921); K. Leonhard Aufteilung der endogenen Psychosen (1957)',tx:'Litio (prevención de recurrencias); antipsicóticos a corto plazo en fase aguda; TEC de alta eficacia documentada.'},
+  {id:'psanxfel',n:'Psicosis de ansiedad-felicidad (Leonhard)',ab:'Ps.anx-fel.',spec:'brg',ring:2,ca:152.5,cs:'l',desc:'Uno de los tres tipos leonhardianos de psicosis cicloide. Oscilaciones entre estados de ansiedad intensa y de felicidad extática, con alucinaciones y delirios cambiantes según el polo afectivo dominan',au:'K. Leonhard Aufteilung der endogenen Psychosen (1957)',tx:'Litio (prevención de recurrencias); antipsicóticos a corto plazo; benzodiacepinas para la ansiedad aguda.'},
+  {id:'psconf',n:'Psicosis confusional (Leonhard)',ab:'Ps.confus.',spec:'brg',ring:2,ca:162.5,cs:'l',desc:'Tipo leonhardiano de psicosis cicloide: confusión marcada con pensamiento desordenado, incoherencia y perplejidad, oscilando entre exaltación confusa y estupor confuso.',au:'K. Leonhard Aufteilung der endogenen Psychosen (1957)',tx:'Antipsicóticos a corto plazo; litio en formas recurrentes; descartar siempre causas orgánicas.'},
+  {id:'psmotil',n:'Psicosis de la motilidad (Leonhard)',ab:'Ps.motil.',spec:'brg',ring:2,ca:147.5,cs:'l',desc:'Tipo leonhardiano de psicosis cicloide. Alteraciones prominentes de la motilidad entre hipercinesia excitada y acinesia inhibida con componente afectivo.',au:'K. Leonhard Aufteilung der endogenen Psychosen (1957)',tx:'TEC (primera elección si hay síntomas catatónicos o graves); litio en recurrentes; benzodiacepinas IV en catatonia aguda.'},
+  {id:'psaf',n:'Psicosis afectiva aguda',ab:'Ps.af.ag.',spec:'brg',ring:2,ca:141.2,cs:'m',desc:'Psicosis con componente afectivo dominante, inicio agudo y buen pronóstico. Zona de frontera clínica entre EDM psicótico y psicosis cicloide. Su reconocimiento evita el sobrediagnóstico de esquizofren',au:'Nosología clásica; CIE-10 (F23); Perris C',tx:'Estabilizadores + antipsicóticos; TEC si refractaria.'},
+  {id:'psmx',n:'Episodio mixto-psicótico',ab:'Ep.mx.psic.',spec:'brg',ring:2,ca:152.0,cs:'m',desc:'Episodio mixto (criterios DSM-5 o Koukopoulos) con síntomas psicóticos congruentes o no congruentes. Alto riesgo suicida por la combinación activación + disforia + psicosis.',au:'Nosología dimensional; Toni C et al.',tx:'Estabilizadores + antipsicóticos; TEC en formas graves con riesgo vital; BZD a corto plazo para la agitación aguda.'},
+  {id:'psbreve',n:'Psicosis breve polimorfa',ab:'Ps.br.pol.',spec:'brg',ring:2,ca:166.2,cs:'m',desc:'Episodio psicótico breve (<1 mes DSM-5; <3 meses CIE-11) con síntomas polimorfos y cambiantes. Alta heterogeneidad longitudinal. La conversión a esquizofrenia o TB I ocurre en 25-40% de los casos.',au:'DSM-5-TR / CIE-11; Pillmann F et al.',tx:'Antipsicóticos a corto plazo; BZD para la agitación; evaluación longitudinal obligatoria.'},
+  {id:'cbipesq',n:'Continuo bipolar-esquizoafectivo-esqfrénico',ab:'Continuo B-E',spec:'brg',ring:4,ca:90,cs:'l',desc:'Modelo dimensional de continuo entre el polo afectivo puro (TB I) y el polo esquizofrénico puro, con el TEA como zona intermedia. Apoyado por datos genómicos del Psychiatric Genomics Consortium.',au:'Craddock N & Owen MJ Lancet 2005; PGC 2013, 2019',tx:'Ajustado al perfil individual: más estabilizadores en polo afectivo, más antipsicóticos en polo esquizofrénico; clozapina en formas con alta carga psicótica ref'},
+  {id:'esq',n:'Esquizofrenia',ab:'Esqfr.',spec:'sch',ring:1,ca:228.8,cs:'h',desc:'≥2 síntomas nucleares (delirios, alucinaciones, desorganización, síntomas negativos, conducta desorganizada) durante ≥6 meses. Alta heterogeneidad biológica y clínica. Deterioro funcional en la mayorí',au:'DSM-5-TR / CIE-11; Bleuler E (1911); Kraepelin E (dementia praecox)',tx:'Antipsicóticos 2ª generación (olanzapina, risperidona, aripiprazol, quetiapina: 1ª línea); clozapina en esquizofrenia refractaria (fracaso ≥2 ensayos adecuados)'},
+  {id:'tesqfren',n:'T. esquizofreniforme',ab:'T.esqfrenif.',spec:'sch',ring:1,ca:221.2,cs:'h',desc:'Síntomas esquizofrénicos completos durante 1-6 meses. Categoría provisional por definición. Alta tasa de conversión a esquizofrenia o TEA en el seguimiento longitudinal.',au:'DSM-5-TR / CIE-11; Langfeldt G (1937)',tx:'Similar a esquizofrenia; antipsicóticos a dosis mínimas eficaces; seguimiento estrecho en los primeros 6 meses.'},
+  {id:'tdelirant',n:'T. delirante',ab:'T.delir.',spec:'sch',ring:1,ca:186.2,cs:'h',desc:'Delirios no bizarros persistentes (plausibles culturalmente) sin otros síntomas psicóticos prominentes ni deterioro funcional global. Alta resistencia farmacológica. Subtipo paranoide próximo al polo ',au:'DSM-5-TR / CIE-11; Kraepelin E (paranoia); Jaspers K',tx:'Antipsicóticos (eficacia limitada); psicoterapia cognitiva (abordaje de consecuencias funcionales del delirio, no del contenido); alianza terapéutica como eje d'},
+  {id:'tpsbr',n:'T. psicótico breve',ab:'T.ps.br.',spec:'sch',ring:1,ca:182.5,cs:'h',desc:'Episodio psicótico <1 mes (DSM-5) con remisión completa al nivel funcional previo. Alta heterogeneidad longitudinal: remisión definitiva vs. conversión a trastorno crónico.',au:'DSM-5-TR / CIE-11',tx:'Antipsicóticos a corto plazo a dosis mínimas eficaces; BZD para la agitación; tratamiento del estresor si hay marcador; seguimiento estrecho.'},
+  {id:'catatonia',n:'Catatonia (síndrome transnosológico)',ab:'Catatonia',spec:'sch',ring:1,ca:212.5,cs:'h',desc:'Síndrome psicomotor transnosológico: mutismo, inmovilidad, posturas anómalas, negativismo, estereotipias, ecolalia, ecopraxia. Asociado a múltiples condiciones médicas y psiquiátricas. Catatonia malig',au:'Kahlbaum KL (1874); DSM-5-TR (especificador); Fink M & Taylor MA (2006)',tx:'Benzodiacepinas IV (lorazepam): primera elección en catatonia aguda; TEC: elección en catatonia crónica, maligna o refractaria a BZD; suspensión de antipsicótic'},
+  {id:'urh',n:'Sínd. de alto riesgo psicótico (UHR)',ab:'SRP/UHR',spec:'sch',ring:2,ca:245.0,cs:'m',desc:'Estado mental de riesgo ultra-alto: síntomas psicóticos atenuados (ARMS), breves e intermitentes (BLIPS), o deterioro funcional con vulnerabilidad genética. Conversión a psicosis franca: 20-35% en 2-3',au:'McGorry PD et al.; Yung AR et al.; PACE / CAARMS criteria',tx:'TCC para psicosis (nivel I para reducción de conversión); omega-3 AGPI (evidencia emergente); antipsicóticos a dosis bajas solo en alto riesgo; evitar cannabis '},
+  {id:'esqtclin',n:'Esquizotipia clínica',ab:'Esqtip.cl.',spec:'sch',ring:2,ca:250.0,cs:'m',desc:'Expresión fenotípica subclínica del genotipo de riesgo esquizofrénico: pensamiento mágico, experiencias de referencia, percepción inusual, anhedonia social, lenguaje vago. El "fenotipo esquizotáxico" ',au:'Raine A; Meehl PE; Chapman LJ & Chapman JP',tx:'Intervención psicosocial; psicoterapia; dosis bajas de antipsicóticos solo en casos con alta sintomatología y deterioro funcional.'},
+  {id:'pep',n:'Primer episodio psicótico (PEP)',ab:'PEP',spec:'sch',ring:2,ca:267.5,cs:'m',desc:'Primer episodio psicótico completo. Período crítico para la intervención temprana (ventana de oportunidad). El diagnóstico definitivo exige seguimiento longitudinal.',au:'International Early Psychosis Association; ORYGEN; IEPA guidelines',tx:'Antipsicóticos a dosis mínimas eficaces (inicio lento; mayor sensibilidad farmacológica en PEP); ITP; psicoeducación familiar; TCC para psicosis.'},
+  {id:'psaten',n:'Psicosis atenuada / subumbral',ab:'Ps.aten.',spec:'sch',ring:2,ca:192.5,cs:'m',desc:'Síntomas psicóticos presentes pero por debajo del umbral diagnóstico, con insight parcialmente conservado. Zona de transición entre esquizotipia y psicosis franca. Tasa de conversión: 15-25%.',au:'DSM-5-TR (condición para estudio); McGorry P; Schultze-Lutter F',tx:'TCC para psicosis; omega-3 AGPI; seguimiento estrecho con CAARMS/SIPS.'},
+  {id:'psust',n:'Psicosis inducida por sustancias / NPS',ab:'Ps.sust.',spec:'sch',ring:2,ca:257.5,cs:'m',desc:'Psicosis precipitada o mantenida por consumo de sustancias (cannabis de alta potencia, anfetaminas, NPS, MDMA). Especialmente relevante en el contexto del chemsex y los nuevos psicoactivos.',au:'Murray RM et al.; Di Forti M et al. Lancet Psychiatry 2019; Arseneault L',tx:'Suspensión de la sustancia como primera intervención; antipsicóticos a corto plazo; psicoeducación sobre el riesgo de recaída; abordaje del TUS; seguimiento a l'},
+  {id:'esqtpersonalidad',n:'Trastorno de la personalidad esquizotípico',ab:'TP esquizot.',spec:'sch',ring:2,ca:253.8,cs:'m',desc:'Patrón persistente de relaciones interpersonales deficientes, distorsiones cognitivo-perceptivas e ideas de referencia, excentricidades del comportamiento y pensamiento mágico. Alta comorbilidad con T',au:'DSM-5-TR; CIE-11; Raine A; Meehl PE',tx:'Antipsicóticos a dosis bajas (evidencia moderada); psicoterapia (TCC, DBT si hay comorbilidad con TLP); intervención psicosocial.'},
+  {id:'selfips',n:'T. del self / alteraciones de la ipseidad',ab:'Self/ips.',spec:'sch',ring:3,ca:210.0,cs:'m',desc:'Alteración fundamental de la experiencia mínima de uno mismo como sujeto consciente: hiperreflexividad, inestabilidad de la presencia en el mundo, alienación de la corriente de conciencia.',au:'Sass LA & Parnas J Schizophr Bull 2003; EASE; Henriksen MG & Parnas J',tx:'Antipsicóticos; psicoterapia fenomenológica; MBSR adaptado.'},
+  {id:'aissoc',n:'Aislamiento social progresivo',ab:'Ais.soc.',spec:'sch',ring:3,ca:226.2,cs:'m',desc:'Retirada progresiva de relaciones sociales y actividades frecuentemente prodrómica al PEP. Uno de los síntomas prodrómicos más constantes y mejor documentados longitudinalmente.',au:'Hafner H et al. (ABC study); NIMH; manifestaciones prodrómicas',tx:'Intervención psicosocial precoz; entrenamiento en habilidades sociales; ITP; inclusión en actividades comunitarias.'},
+  {id:'sneg',n:'Síntomas negativos subumbrales',ab:'Sx.neg.sub.',spec:'sch',ring:3,ca:230.0,cs:'m',desc:'Expresión subumbral de síntomas negativos primarios: alogia, afecto embotado, avolición, anhedonia social, asocialidad. Sin nivel diagnóstico pero con impacto funcional documentado.',au:'Carpenter WT (esquizofrenia deficitaria); Blanchard JJ & Cohen AS; PANSS',tx:'Cariprazina (mayor evidencia actual para síntomas negativos primarios); clozapina; rehabilitación psicosocial intensiva; activación conductual.'},
+  {id:'detcog',n:'Deterioro cognitivo en espectro psicótico',ab:'Det.cogn.',spec:'sch',ring:3,ca:221.2,cs:'m',desc:'Déficits en memoria, atención, velocidad de procesamiento y funciones ejecutivas. Predictor independiente del funcionamiento real. Presente antes, durante y después de los episodios psicóticos.',au:'Keefe RS et al.; MATRICS Consensus Cognitive Battery; Harvey PD',tx:'Rehabilitación cognitiva (nivel I para funcionalidad); cariprazina/brexpiprazol (evidencia emergente); evitar BZD crónicas; estrategias compensatorias.'},
+  {id:'esqsmp',n:'Esquizofrenia simple (CIE-11)',ab:'Esq.simple',spec:'sch',ring:4,ca:225.0,cs:'l',desc:'Deterioro funcional progresivo con síntomas negativos prominentes sin episodios psicóticos floridos. Incluida en CIE-11; excluida del DSM-5. Corazón del polo deficitario del espectro.',au:'CIE-11 (OMS, 2019); Diem O (1903); CIE-10 (categoria F20.6)',tx:'Clozapina (mayor evidencia global para síntomas negativos); antipsicóticos de baja potencia; rehabilitación psicosocial intensiva; cariprazina.'},
+  {id:'hebefr',n:'Hebefrenia / subtipo desorganizado',ab:'Hebefren.',spec:'sch',ring:4,ca:207.0,cs:'l',desc:'Forma de esquizofrenia con inicio en adolescencia-adulto joven, desorganización prominente, comportamiento pueril y afecto inapropiado (incongruente). Subtipo de peor pronóstico dentro del espectro.',au:'Hecker E (1871); Leonhard K; DSM-IV (T. esquizofrénico desorganizado)',tx:'Antipsicóticos; clozapina en formas refractarias; rehabilitación psicosocial intensiva precoz.'},
+  {id:'paranoia',n:'Paranoia clásica (Kraepelin)',ab:'Paranoia cl.',spec:'sch',ring:4,ca:192.5,cs:'l',desc:'Sistema delirante elaborado, internamente coherente, sin deterioro de la personalidad ni otros síntomas psicóticos. Diferenciada de la esquizofrenia paranoide por Kraepelin.',au:'Emil Kraepelin (Psychiatrie); Jaspers K (desarrollo paranoico)',tx:'Antipsicóticos (eficacia muy limitada); psicoterapia cognitiva (sin confrontación directa); alianza terapéutica como eje del tratamiento.'},
+  {id:'lleonh',n:'Clasificación de Leonhard-Kleist',ab:'Leonhard-Kleist',spec:'sch',ring:4,ca:235.0,cs:'l',desc:'Sistema alternativo de clasificación de las psicosis endógenas que distingue formas sistemáticas, no sistemáticas y cicloides. Anticipa los modelos del continuo. Base de la tradición psiquiátrica cent',au:'K. Kleist (1921); K. Leonhard Aufteilung der endogenen Psychosen (1957)',tx:'Litio y TEC para psicosis cicloides; antipsicóticos para formas no sistemáticas; clozapina para formas deficitarias graves.'},
+  {id:'wkl1',n:'Manía pura',ab:'Manía pura',spec:'wkl',ring:1,ca:267.7,cs:'h',desc:'Síndrome maniforme global de las tres esferas: expansión afectiva, aceleración ideo-verbal (taquipsiquia, fuga de ideas, logorrea) e incremento psicomotriz con hiperactividad dirigida. El afecto conse',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Litio (estabilizador de elección en psicosis afectivas); antipsicóticos atípicos en fase aguda; TEC en formas graves o refractarias.'},
+  {id:'wkl2',n:'Melancolía pura',ab:'Melancolía pura',spec:'wkl',ring:1,ca:245.0,cs:'h',desc:'Síndrome melancólico global de las tres esferas: tristeza vital, inhibición ideo-verbal (bradipsiquia, pobreza asociativa, pensamiento lentificado) e inhibición psicomotriz con variación circadiana en',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Litio (estabilizador de elección en psicosis afectivas); antipsicóticos atípicos en fase aguda; TEC en formas graves o refractarias.'},
+  {id:'wkl3',n:'Depresión agitada',ab:'Depresión agitada',spec:'wkl',ring:2,ca:250.1,cs:'m',desc:'El núcleo psicopatológico es la tensión angustiosa-agitada como cualidad afectiva primaria, no derivada de aceleración maníaca. Hay disforia tensa, inquietud motora no productiva, conducta de búsqueda',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl4',n:'Depresión hipocondríaca',ab:'Depresión hipocond',spec:'wkl',ring:2,ca:252.2,cs:'m',desc:'Vivencia depresiva organizada en torno a la convicción de daño corporal, enfermedad o ruina somática. Los contenidos pueden alcanzar intensidad delirante congruente con el tono depresivo (tipo Cotard ',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl5',n:'Depresión autotorturante',ab:'Depresión autotort',spec:'wkl',ring:2,ca:254.3,cs:'m',desc:'El estado depresivo se organiza en torno a rumiaciones de culpa, autorreproche, autoacusación e ideas de indignidad de carácter persistente. La autotortura tiene una cualidad endógena: el paciente no ',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl6',n:'Depresión suspicaz',ab:'Depresión suspicaz',spec:'wkl',ring:2,ca:247.9,cs:'m',desc:'La suspicacia, la alusión y la referencia hostil emergen como expresión secundaria del tono depresivo: el paciente sospecha que los demás lo juzgan, desprecian o culpan de modo congruente con su viven',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl7',n:'Depresión apática',ab:'Depresión apática',spec:'wkl',ring:2,ca:245.8,cs:'m',desc:'El afecto se aplana cuantitativamente: el paciente no siente tristeza activa sino vacío, anestesia emocional e incapacidad de participar en la vida afectiva ordinaria. Leonhard la denomina nichtteilne',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl8',n:'Euforia improductiva',ab:'Euforia improducti',spec:'wkl',ring:2,ca:262.1,cs:'m',desc:'Estado de elación superficial, complaciente y vacío. El afecto está elevado pero sin la presión ideo-verbal ni el incremento psicomotriz de la manía pura global. Leonhard describe la improductividad c',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl9',n:'Euforia hipocondríaca',ab:'Euforia hipocondrí',spec:'wkl',ring:2,ca:263.9,cs:'m',desc:'Estado eufórico en el que el contenido del pensamiento se centra paradójicamente en preocupaciones somáticas, pero con un tono afectivo positivo, indiferente o complaciente, no angustiado. El paciente',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl10',n:'Euforia exaltada',ab:'Euforia exaltada',spec:'wkl',ring:2,ca:265.8,cs:'m',desc:'La elación adquiere una cualidad de exaltación, inspiración, fervor o beatitud. El contenido puede tener tinte místico, de misión o de iluminación. Leonhard señala que la exaltación tiene una cualidad',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl11',n:'Euforia confabulatoria',ab:'Euforia confabulat',spec:'wkl',ring:2,ca:184.3,cs:'m',desc:'El estado eufórico se acompaña de producción confabulatoria: relatos vívidos, pseudomemorias grandiosamente ampliadas, narrativas autobiográficas alteradas que el paciente sostiene como reales. La con',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl12',n:'Euforia indiferente',ab:'Euforia indiferent',spec:'wkl',ring:2,ca:189.4,cs:'m',desc:'La elevación afectiva no conduce a verdadera expansión interpersonal sino a un contentamiento hueco y distante. A diferencia de la euforia improductiva, aquí la indiferencia es relacional: el paciente',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectivas monopolares',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl13',n:'Enfermedad maníaco-depresiva',ab:'Enfermedad maníaco',spec:'wkl',ring:1,ca:265.0,cs:'h',desc:'Alternancia de fases maníacas y melancólicas completas (trisistémicas) con intervalos libres. Leonhard exige que ambos polos sean genuinamente globales: no simples depresiones parciales seguidas de hi',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis afectiva bipolar',tx:'Litio (estabilizador de elección en psicosis afectivas); antipsicóticos atípicos en fase aguda; TEC en formas graves o refractarias.'},
+  {id:'wkl14',n:'Psicosis ansiedad-felicidad',ab:'Psicosis ansiedad-',spec:'wkl',ring:2,ca:237.8,cs:'m',desc:'Episodios agudos con oscilación entre terror, angustia persecutoria intensa y estados de felicidad, éxtasis o beatitud. Los cambios son rápidos y polimorfos. Pueden aparecer referencias persecutorias ',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis cicloides',tx:'Litio (prevención de recurrencias en psicosis cicloides); antipsicóticos a corto plazo en fase aguda; TEC de alta eficacia documentada.'},
+  {id:'wkl15',n:'Psicosis confusional excitada-inhibida',ab:'Psicosis confusion',spec:'wkl',ring:2,ca:208.9,cs:'m',desc:'La desorganización del pensamiento constituye el núcleo: incoherencia verbal, verborragia, perplejidad, obstrucción y estados confusionales sin base orgánica. Kleist y Leonhard describen alternancia e',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis cicloides',tx:'Litio (prevención de recurrencias en psicosis cicloides); antipsicóticos a corto plazo en fase aguda; TEC de alta eficacia documentada.'},
+  {id:'wkl16',n:'Psicosis de motilidad hipercinético-acinética',ab:'Psicosis de motili',spec:'wkl',ring:2,ca:224.8,cs:'m',desc:'Episodios agudos con polo hipercinético (agitación motora masiva, impulsividad, conducta hiperproductiva) alternando con polo acinético (estupor, negativismo parcial, inmovilidad). Kleist describe los',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Psicosis cicloides',tx:'Litio (prevención de recurrencias en psicosis cicloides); antipsicóticos a corto plazo en fase aguda; TEC de alta eficacia documentada.'},
+  {id:'wkl17',n:'Parafrenia afectiva',ab:'Parafrenia afectiv',spec:'wkl',ring:3,ca:208.9,cs:'l',desc:'La paranoia se estructura afectivamente: ideas de persecución, hostilidad, referencia y grandiosidad con tonalidad emocional específica y cargada. Leonhard describe un residuo paranoide propio que per',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias no sistemáticas',tx:'Antipsicóticos (formas no sistemáticas: mayor respuesta que las sistemáticas); rehabilitación psicosocial; litio en formas con carga afectiva.'},
+  {id:'wkl18',n:'Catafasia',ab:'Catafasia',spec:'wkl',ring:3,ca:237.8,cs:'l',desc:'La desorganización verbal-discursiva es el núcleo: desvíos asociativos persistentes, neologismos, metonimias patológicas, contaminaciones semánticas, incoherencia intencional de la comunicación. A dif',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias no sistemáticas',tx:'Antipsicóticos (formas no sistemáticas: mayor respuesta que las sistemáticas); rehabilitación psicosocial; litio en formas con carga afectiva.'},
+  {id:'wkl19',n:'Catatonía periódica',ab:'Catatonía periódic',spec:'wkl',ring:3,ca:224.8,cs:'l',desc:'Episodios alternantes de hipercinesia e hipocinesia catatónica con desarrollo progresivo de residuo catatónico específico que se acumula episodio a episodio. El residuo incluye: estereotipias postural',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias no sistemáticas',tx:'Antipsicóticos (formas no sistemáticas: mayor respuesta que las sistemáticas); rehabilitación psicosocial; litio en formas con carga afectiva.'},
+  {id:'wkl20',n:'Hebefrenia necia',ab:'Hebefrenia necia',spec:'wkl',ring:5,ca:241.8,cs:'l',desc:'Degradación del juicio afectivo con puerilidad, conductas risibles, reacciones afectivas triviales e inadecuadas como residuo estable y progresivo. Leonhard subraya que la necedad no es desinhibición ',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl21',n:'Hebefrenia superficial',ab:'Hebefrenia superfi',spec:'wkl',ring:5,ca:239.2,cs:'l',desc:'El afecto persiste pero queda rebajado a respuestas vacías, convencionales, sin profundidad interhumana genuina. Leonhard la denomina flache Hebephrenie. El paciente puede gesticular, responder y actu',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl22',n:'Hebefrenia excéntrica',ab:'Hebefrenia excéntr',spec:'wkl',ring:5,ca:236.7,cs:'l',desc:'La rareza se instala como estilo comportamental fijo: maneras peculiares, intereses absurdos, hábitos extraños, lenguaje idiosincrásico que el paciente no percibe como anormal ni registra como egodist',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl23',n:'Hebefrenia autista',ab:'Hebefrenia autista',spec:'wkl',ring:5,ca:234.2,cs:'l',desc:'La quiebra del juicio afectivo se expresa como clausura progresiva en un mundo interior inaccesible. El paciente reduce activamente la participación relacional, evita el contacto y se absorbe en preoc',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl24',n:'Catatonía paracinética',ab:'Catatonía paraciné',spec:'wkl',ring:5,ca:219.4,cs:'l',desc:'Los movimientos voluntarios quedan contaminados por parásitos motores grotescamente distorsionados: sacudidas, giros y deformaciones que acompañan a cada acto intencional. Leonhard los denomina Parkin',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl25',n:'Catatonía manierística',ab:'Catatonía manierís',spec:'wkl',ring:5,ca:221.5,cs:'l',desc:'Los actos se vuelven artificiosamente ritualizados, como desfigurados por una dramaturgia interna obligatoria. El paciente ejecuta sus actos con adornos, pasos intermedios, pausas o ornamentos inneces',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl26',n:'Catatonía procinética',ab:'Catatonía procinét',spec:'wkl',ring:5,ca:223.7,cs:'l',desc:'El sistema psicomotor queda atrapado en fenómenos de activación automática hacia el acto. Signos clave: mitgehen (acompañamiento espontáneo del movimiento inducido en el examinador), Mitmachen (facili',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl27',n:'Catatonía negativista',ab:'Catatonía negativi',spec:'wkl',ring:5,ca:225.9,cs:'l',desc:'El sistema psicomotor queda fijado en oposición automática. Signos principales: Gegenhalten (resistencia pasiva al movimiento inducido, proporcional a la fuerza aplicada), negativismo activo (ejecució',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl28',n:'Catatonía de incitación verbal',ab:'Catatonía de incit',spec:'wkl',ring:5,ca:228.0,cs:'l',desc:'La esfera verbal queda atrapada en automatismos de respuesta: el paciente emite respuestas precipitadas, cortocircuitadas o estereotipadas ante cualquier estímulo verbal sin mediar elaboración intenci',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl29',n:'Catatonía lenta',ab:'Catatonía lenta',spec:'wkl',ring:5,ca:230.6,cs:'l',desc:'Reducción progresiva y estable de la iniciativa psicomotora: pobreza de movimientos espontáneos, latencia aumentada, habla lenta y escasa, postura hipocinética crónica. Leonhard denomina este subtipo ',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl30',n:'Parafrenia hipocondríaca',ab:'Parafrenia hipocon',spec:'wkl',ring:5,ca:214.7,cs:'l',desc:'El sistema delirante se organiza en torno a la corporalidad patológica: órganos dañados, influencias físicas externas sobre el cuerpo, sensaciones corporales extrañas atribuidas a causas persecutorias',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl31',n:'Parafrenia fonémica',ab:'Parafrenia fonémic',spec:'wkl',ring:5,ca:212.1,cs:'l',desc:'Alucinaciones auditivas verbales persistentes, organizadas y sistemáticas como núcleo del cuadro. Las voces comentan, debaten, insultan, ordenan o informan al paciente de modo crónico. Leonhard subray',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl32',n:'Parafrenia incoherente',ab:'Parafrenia incoher',spec:'wkl',ring:5,ca:210.0,cs:'l',desc:'La desorganización formal del pensamiento constituye el residuo central y estable: pensamiento fragmentado, pérdida del hilo organizador, tangencialidad persistente e incoherencia como estado permanen',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl33',n:'Parafrenia fantástica',ab:'Parafrenia fantást',spec:'wkl',ring:5,ca:207.8,cs:'l',desc:'El contenido delirante es de extravagancia extrema: viajes a otras dimensiones o galaxias, transformaciones corporales absolutas, misiones cósmicas, narrativas completamente desvinculadas de la realid',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl34',n:'Parafrenia confabulatoria',ab:'Parafrenia confabu',spec:'wkl',ring:5,ca:205.6,cs:'l',desc:'La narrativa falsa o confabulatoria se consolida como parte permanente de la identidad y del sistema interpretativo del sujeto. A diferencia de la euforia confabulatoria (ID 11), no es episódica ni fá',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+  {id:'wkl35',n:'Parafrenia expansiva',ab:'Parafrenia expansi',spec:'wkl',ring:5,ca:203.5,cs:'l',desc:'Sistema delirante de grandeza estable y monomorfo: el paciente sostiene la convicción de tener una misión especial, identidad exaltada, poderes o cualidades extraordinarias. Leonhard señala que la gra',au:'Karl Leonhard — Aufteilung der endogenen Psychosen (1957) · Esquizofrenias sistemáticas',tx:'Antipsicóticos (formas sistemáticas: respuesta parcial); clozapina en formas refractarias; rehabilitación psicosocial intensiva; TEC en catatonías graves.'},
+];
+
+
+// ─── CONFIGURACIÓN ──────────────────────────────────────────────────────────
+var CX=500,CY=500;
+// Radios de los 5 anillos: r_inner, r_outer
+var RINGS=[[88,150],[150,218],[218,286],[286,354],[354,420]];
+var OUTER=430; // outer ring label band
+
+// Colores por espectro
+var SCOL={dep:'#1d5c85',bip:'#b03329',brg:'#1a6b4a',sch:'#6b1b1e',wkl:'#8a2830'};
+var SSOFT={dep:'#dcecf5',bip:'#f5d8cc',brg:'#d5ede3',sch:'#f0d8d9',wkl:'#f0d4d5'};
+
+// Sectores (ángulos en el sistema SVG donde 0° = arriba, CW)
+var SECTORS_INFO={
+  dep:{a0:270,a1:360,col:SCOL.dep,soft:SSOFT.dep,label:'Esfera Depresiva',sublabel:'inhibición · melancolía · anhedonia'},
+  bip:{a0:0,  a1:90, col:SCOL.bip,soft:SSOFT.bip,label:'Esfera Bipolar',sublabel:'oscilación · temperamento · mixtura'},
+  brg:{a0:90, a1:180,col:SCOL.brg,soft:SSOFT.brg,label:'Esfera Puente',sublabel:'cicloide · esquizoafectivo · polimorfismo'},
+  psy:{a0:180,a1:270,col:'#6b1b1e',soft:'#f0d8d9',label:'Esfera Psicótica',sublabel:'desorganización · self · WKL sistemáticas'}
+};
+
+// ─── TRAPEZOIDES RADIALES ────────────────────────────────────────────────────
+// Cada trapezoide: subzona angular dentro de un sector, abarca ciertos anillos
+// Son zonas de reagrupamiento clínico transversal (no capas de cebolla)
+var TRAPS=[
+  // DEPRESIVA
+  {id:'dep-unip',  a0:271,a1:305, r0:88,r1:286,  col:'#1d5c85',label:'Inhibición / Melancolía',desc:'TDM, Distimia, Melancolía pura — polo inhibido puro', specs:['dep']},
+  {id:'dep-resist',a0:305,a1:337, r0:150,r1:354, col:'#4a2a8a',label:'Resistencia / Viraje',desc:'DRT, Viraje bipolar oculto, Dep.breve recurrente', specs:['dep']},
+  {id:'dep-wkl',   a0:270,a1:360, r0:354,r1:420, col:'#1d5c85',label:'WKL Depresiones monopolares',desc:'Seis formas leonhardianas: apática, suspicaz, agitada, hipocondríaca, autotorturante, melancolía pura', specs:['dep','wkl']},
+
+  // BIPOLAR
+  {id:'bip-mania', a0:0,  a1:28,  r0:88,r1:220,  col:'#b03329',label:'Polo maníaco',desc:'TB-I, Manía pura WKL, Euforias WKL — expansividad pura', specs:['bip','wkl']},
+  {id:'bip-soft',  a0:28, a1:62,  r0:150,r1:354, col:'#c86820',label:'Espectro blando / Akiskal',desc:'BP-II, Ciclotimia, BP-III/IV, Temperamentos TEMPS-A, Soft bipolar', specs:['bip']},
+  {id:'bip-risk',  a0:62, a1:90,  r0:150,r1:354, col:'#8a2a6a',label:'Mixtura / Koukopoulos',desc:'BP-V, Hipomanía disfórica, Dep.mixta Koukopoulos, Estados mixtos subumbrales', specs:['bip']},
+  {id:'bip-hist',  a0:0,  a1:90,  r0:354,r1:420, col:'#b03329',label:'WKL Euforias + Tradición',desc:'5 euforias Leonhard, PMD kraepeliniana, temperamentos Kretschmer', specs:['bip','wkl']},
+
+  // PUENTE
+  {id:'brg-tea',   a0:90, a1:125, r0:88,r1:220,  col:'#1a6b4a',label:'TEA / Esquizoafectivo',desc:'TEA bipolar y depresivo, Psicosis afectiva aguda — intersección afecto-psicosis', specs:['brg']},
+  {id:'brg-cycl',  a0:125,a1:160, r0:150,r1:354, col:'#0a5a3a',label:'Cicloides WKL',desc:'Ansiedad-felicidad, Confusional, Motilidad — inicio agudo, recuperación plena', specs:['brg','wkl']},
+  {id:'brg-nosist',a0:160,a1:180, r0:150,r1:354, col:'#2a7a58',label:'No-sistemáticas WKL',desc:'Parafrenia afectiva, Catafasia, Catatonía periódica — pronóstico intermedio', specs:['brg','wkl']},
+  {id:'brg-cont',  a0:90, a1:180, r0:354,r1:420, col:'#1a6b4a',label:'Continuo / PGC 2019',desc:'Base genómica del puente: solapamiento TB-TEA-Esq (PGC)', specs:['brg']},
+
+  // PSICÓTICA
+  {id:'psy-core',  a0:180,a1:215, r0:88,r1:220,  col:'#6b1b1e',label:'Esquizofrenia / Polo psicótico',desc:'Esquizofrenia, Esquizofreniforme, Psicótico breve, Sínd.catatónico', specs:['sch']},
+  {id:'psy-hebef', a0:215,a1:245, r0:150,r1:354, col:'#8a2220',label:'Hebefrenias WKL',desc:'4 formas leonhardianas: necia, superficial, excéntrica, autista — dominios de afecto', specs:['wkl']},
+  {id:'psy-cat',   a0:245,a1:260, r0:150,r1:354, col:'#6a1e2a',label:'Catatonías WKL',desc:'6 formas: paracinética, manierística, procinética, negativista, incitación verbal, lenta', specs:['wkl']},
+  {id:'psy-para',  a0:260,a1:270, r0:150,r1:354, col:'#4a1a2e',label:'Parafrenias WKL',desc:'6 formas: expansiva, confabulatoria, fantástica, incoherente, fonémica, hipocondríaca', specs:['wkl']},
+  {id:'psy-self',  a0:180,a1:270, r0:354,r1:420, col:'#6b1b1e',label:'Self / CHR / Tradición WKL',desc:'EASE/ipseidad, Sínt.básicos BSABS, CHR-ARMS, Dementia praecox, Bleuler, Schneider', specs:['sch','wkl']},
+];
+
+// ─── HELPERS ─────────────────────────────────────────────────────────────────
+function polar(r,a){var rad=(a-90)*Math.PI/180;return[CX+r*Math.cos(rad),CY+r*Math.sin(rad)];}
+function arcPath(r0,r1,a0,a1){
+  var large=((a1-a0+360)%360)>180?1:0;
+  var p1=polar(r1,a0),p2=polar(r1,a1),p3=polar(r0,a1),p4=polar(r0,a0);
+  return 'M '+p1[0]+' '+p1[1]+' A '+r1+' '+r1+' 0 '+large+' 1 '+p2[0]+' '+p2[1]+' L '+p3[0]+' '+p3[1]+' A '+r0+' '+r0+' 0 '+large+' 0 '+p4[0]+' '+p4[1]+' Z';
+}
+function nel(tag,attrs,parent){var e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(parent)parent.appendChild(e);return e;}
+function txt(parent,x,y,lines,cls,anchor,dy0){
+  var t=nel('text',{x,y,'text-anchor':anchor||'middle','class':cls||''},parent);
+  (lines||[]).forEach((ln,i)=>{var sp=nel('tspan',{x,dy:i===0?(dy0||0):8.5},t);sp.textContent=ln;});
+  return t;
+}
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function wrap(text,max){var words=String(text||'').split(' '),lines=[],line='';words.forEach(w=>{if((line+' '+w).trim().length>max){if(line)lines.push(line);line=w;}else line=(line+' '+w).trim();});if(line)lines.push(line);return lines.slice(0,3);}
+
+// ─── DRAW ────────────────────────────────────────────────────────────────────
+var showZones=true;
+var currentView='all';
+
+function draw(){
+  var back=document.getElementById('backdrop'),
+      trapsG=document.getElementById('traps'),
+      dotsG=document.getElementById('dots'),
+      labsG=document.getElementById('labelsg'),
+      centG=document.getElementById('centerg');
+  [back,trapsG,dotsG,labsG,centG].forEach(g=>g.innerHTML='');
+
+  // ── Background circles
+  [88,150,218,286,354,420,442].forEach(r=>{
+    nel('circle',{cx:CX,cy:CY,r,fill:'none',stroke:'#d0c0a8','stroke-dasharray':'2 10',opacity:.55},back);
+  });
+
+  // ── Axis lines
+  [[0,90],[90,180],[180,270],[270,360]].forEach(([a])=>{
+    var p1=polar(88,a),p2=polar(442,a);
+    nel('line',{x1:p1[0],y1:p1[1],x2:p2[0],y2:p2[1],stroke:'#c8b89a','stroke-width':'.7',opacity:.6},back);
+  });
+
+  // ── Axis captions
+  txt(back,500,24,['POLO AFECTIVO / CURSO FÁSICO'],'axis-caption');
+  txt(back,500,988,['INTERFASE · DEFECTO · WKL SISTEMÁTICAS'],'axis-caption');
+  txt(back,22,505,['INHIBICIÓN · SELF · DETERIORO'],'axis-caption','start');
+  txt(back,978,505,['ACTIVACIÓN · MEZCLA · DESORGANIZACIÓN'],'axis-caption','end');
+
+  // ── Ring level labels (radial, inside backdrop)
+  [[119,'I · Núcleo'],[184,'II · Espectro'],[252,'III · Fenomenología'],[320,'IV · Curso/Riesgo'],[387,'V · Histórico/WKL']].forEach(([r,lbl])=>{
+    txt(back,500,CY-r+4,[lbl],'ring-label');
+  });
+
+  // ── Sector colored outer bands
+  Object.entries(SECTORS_INFO).forEach(([key,s])=>{
+    var p=nel('path',{d:arcPath(420,442,s.a0+1,s.a1-1),fill:s.col,opacity:.55},back);
+    var mid=(s.a0+s.a1)/2;
+    var lp=polar(465,mid);
+    var tw=txt(back,lp[0],lp[1],wrap(s.label.replace('Esfera ','').toUpperCase(),18),'sector-label','middle',-6);
+    tw.setAttribute('fill',s.col);
+  });
+
+  // ── Trapezoids
+  if(showZones){
+    TRAPS.forEach(trap=>{
+      var d=arcPath(trap.r0,trap.r1,trap.a0,trap.a1);
+      var col=trap.col;
+      nel('path',{d,fill:col,class:'trap-bg',stroke:col,'stroke-width':.3},trapsG);
+      nel('path',{d,fill:'none',stroke:col,class:'trap-border'},trapsG);
+      // Label at the mid-arc midpoint
+      var amid=(trap.a0+trap.a1)/2, rmid=(trap.r0+trap.r1)/2;
+      var lp=polar(rmid,amid);
+      var lt=txt(labsG,lp[0],lp[1],wrap(trap.label,20),'trap-label','middle',-5);
+      lt.setAttribute('data-trap',trap.id);
+    });
+  }
+
+  // ── Entity dots
+  var specMap={'dep':'dep','bip':'bip','brg':'brg','sch':'psy','wkl':'psy'};
+  var ringR=[[88,150],[150,218],[218,286],[286,354],[354,420]];
+
+  // Group entities by (ring, approx angle) to avoid overlap
+  ENTITIES.forEach(function(e){
+    var r=e.ring<1?1:e.ring>5?5:e.ring;
+    var rMid=(ringR[r-1][0]+ringR[r-1][1])/2 + (e.cs==='h'?4:e.cs==='l'?-4:0);
+    var p=polar(rMid,e.ca);
+    var col=SCOL[e.spec]||'#666';
+    var radius=e.cs==='h'?4.5:e.cs==='l'?2.8:3.5;
+
+    // visibility
+    var show=true;
+    if(currentView==='nuc') show=r<=1;
+    if(currentView==='wkl') show=e.spec==='wkl';
+
+    var dot=nel('circle',{cx:p[0],cy:p[1],r:radius,fill:col,class:'ent-dot','data-id':e.id,opacity:show?1:.08},dotsG);
+    dot.addEventListener('click',()=>selectEnt(e.id));
+    dot.addEventListener('mouseenter',(ev)=>showTip(ev,e.n));
+    dot.addEventListener('mousemove',moveTip);
+    dot.addEventListener('mouseleave',hideTip);
+
+    // Label — short abbreviation
+    if(show){
+      var lp=polar(rMid+(radius+10),e.ca);
+      var lt=txt(labsG,lp[0],lp[1],wrap(e.ab||e.n.split(' ')[0],10),'ent-label','middle');
+      lt.setAttribute('data-id',e.id);
+    }
+  });
+
+  // ── Center
+  nel('circle',{cx:CX,cy:CY,r:85,fill:'url(#cg)',stroke:'#ae8131','stroke-width':'1.4'},centG);
+  txt(centG,500,488,['Psicopatología'],'sector-label');
+  txt(centG,500,508,['Mayor'],'sector-label');
+  txt(centG,500,524,['DSM-5·CIE-11·WKL·Akiskal'],'ring-label');
+}
+
+// ─── FICHA ───────────────────────────────────────────────────────────────────
+var selectedId=null;
+var entById={};
+ENTITIES.forEach(e=>entById[e.id]=e);
+
+function selectEnt(id){
+  selectedId=id;
+  var e=entById[id];
+  if(!e) return;
+
+  // Update dot styles
+  document.querySelectorAll('.ent-dot').forEach(d=>{
+    d.classList.toggle('selected',d.dataset.id===id);
+  });
+
+  var specLabels={dep:'Esfera Depresiva',bip:'Esfera Bipolar',brg:'Esfera Puente',sch:'Esfera Psicótica',wkl:'WKL · Leonhard-Kleist'};
+  var ringLabels=['Núcleo DSM-5/CIE-11','Espectro / Expansiones','Fenomenología / Intermedio','Curso / Riesgo','Histórico / WKL Sistemático'];
+  var csLabel={h:'Alto consenso',m:'Consenso moderado',l:'Bajo consenso / histórico'};
+
+  document.getElementById('side-header').innerHTML=
+    '<div class="kicker">'+esc(specLabels[e.spec]||e.spec)+' · '+esc(ringLabels[e.ring-1]||'')+'</div>'+
+    '<div class="ent-name" style="color:'+SCOL[e.spec]+'">'+esc(e.n)+'</div>'+
+    '<div class="ent-ab">'+esc(e.ab)+'</div>'+
+    '<span class="cs-pill cs-'+e.cs+'">'+esc(csLabel[e.cs]||e.cs)+'</span>';
+
+  var body='';
+  if(e.au) body+='<div class="fic-section"><div class="fic-label">Fuente / Autoría</div><div class="fic-au">'+esc(e.au)+'</div></div>';
+  if(e.desc) body+='<div class="fic-section"><div class="fic-label">Descripción clínica</div><div class="fic-text">'+esc(e.desc)+'</div></div>';
+  if(e.tx) body+='<div class="fic-section"><div class="fic-label">Orientación terapéutica</div><div class="fic-tx">'+esc(e.tx)+'</div></div>';
+  document.getElementById('side-body').innerHTML=body;
+}
+
+// ─── TOOLTIP ─────────────────────────────────────────────────────────────────
+var tip=document.getElementById('tooltip');
+function showTip(e,name){tip.innerHTML='<b>'+esc(name)+'</b>';tip.style.opacity=1;moveTip(e);}
+function moveTip(e){tip.style.left=e.clientX+12+'px';tip.style.top=e.clientY-20+'px';}
+function hideTip(){tip.style.opacity=0;}
+
+// ─── CONTROLS ────────────────────────────────────────────────────────────────
+function setView(v){
+  currentView=v;
+  ['btn-all','btn-nuc','btn-wkl'].forEach(id=>document.getElementById(id).classList.toggle('on',id==='btn-'+v));
+  draw();
+}
+function toggleZones(){
+  showZones=!showZones;
+  document.getElementById('btn-zones').classList.toggle('on',showZones);
+  draw();
+}
+
+// ─── INIT ────────────────────────────────────────────────────────────────────
+draw();
+</script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+
+<h2 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0">Mapa del Espectro Bipolar — visualización interactiva con cuatro círculos concéntricos y 37 entidades clínicas</h2>
+<style>
+.cbtn{font-size:11px;padding:3px 9px;cursor:pointer;background:transparent;border:.5px solid var(--color-border-secondary);color:var(--color-text-secondary);border-radius:var(--border-radius-md);font-family:var(--font-mono);letter-spacing:.04em;transition:all .15s}
+.cbtn:hover{background:var(--color-background-secondary);color:var(--color-text-primary)}
+.cbtn.on{border-color:#c0392b;color:#c0392b;background:rgba(192,57,43,.07)}
+.tbar{display:flex;border-bottom:.5px solid var(--color-border-tertiary);margin-top:10px;overflow-x:auto}
+.tbtn{font-size:11px;padding:6px 11px;cursor:pointer;background:transparent;border:none;color:var(--color-text-secondary);border-bottom:2px solid transparent;margin-bottom:-1px;font-family:var(--font-sans);transition:all .15s;white-space:nowrap;flex-shrink:0}
+.tbtn:hover{color:var(--color-text-primary)}
+.tbtn.on{color:var(--color-text-primary);font-weight:500;border-bottom-color:#c0392b}
+.tc{padding:10px 0;display:none}
+.tc.active{display:block}
+.tgrd{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:6px}
+.tcard{background:var(--color-background-secondary);border:.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:9px 10px;cursor:pointer;transition:border-color .15s}
+.tcard:hover{border-color:var(--color-border-secondary)}
+.tcard.sel{border-color:#c0392b}
+.tpole{font-size:9px;color:var(--color-text-tertiary);text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px;font-family:var(--font-mono)}
+.tname{font-size:12px;font-weight:500;margin-bottom:5px}
+.traits{display:flex;flex-wrap:wrap;gap:2px}
+.trait{font-size:10px;padding:1px 4px;background:var(--color-background-primary);border:.5px solid var(--color-border-tertiary);border-radius:3px;color:var(--color-text-secondary)}
+.trgrd{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:4px}
+.tri{background:var(--color-background-secondary);border:.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:5px 8px;font-size:11px;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.tnum{font-family:var(--font-mono);font-size:9px;background:rgba(192,57,43,.09);color:#c0392b;border:.5px solid rgba(192,57,43,.25);padding:1px 4px;border-radius:2px;flex-shrink:0}
+.tarr{color:#c0392b;font-weight:500}
+.tstp{font-size:10px;background:var(--color-background-primary);border:.5px solid var(--color-border-tertiary);padding:1px 4px;border-radius:2px;color:var(--color-text-secondary)}
+.tbdg{font-size:9px;padding:1px 4px;border-radius:2px;margin-left:auto;font-family:var(--font-mono)}
+.bp{background:rgba(180,144,20,.09);color:#8a7010;border:.5px solid rgba(180,144,20,.25)}
+.bt{background:rgba(201,112,22,.09);color:#a06010;border:.5px solid rgba(201,112,22,.25)}
+.bi{background:rgba(192,57,43,.09);color:#9a1818;border:.5px solid rgba(192,57,43,.25)}
+.bb{background:rgba(100,80,160,.09);color:#5848a0;border:.5px solid rgba(100,80,160,.25)}
+.dbox{background:var(--color-background-secondary);border-radius:var(--border-radius-lg);border:.5px solid var(--color-border-tertiary);padding:12px 14px}
+.dbdg{display:inline-block;font-size:9px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.08em;padding:2px 6px;border:.5px solid;border-radius:2px;margin-bottom:7px}
+.dname{font-size:16px;font-weight:500;margin-bottom:3px;line-height:1.25}
+.dauth{font-size:11px;color:var(--color-text-secondary);font-style:italic;margin-bottom:8px}
+.ddesc{font-size:12px;line-height:1.6;color:var(--color-text-secondary);margin-bottom:10px}
+.dsh{font-size:9px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-tertiary);font-weight:500;margin-bottom:5px;padding-bottom:3px;border-bottom:.5px solid var(--color-border-tertiary);margin-top:10px}
+.dfeats{list-style:none;margin-bottom:10px}
+.dfeats li{font-size:12px;line-height:1.45;color:var(--color-text-secondary);padding:2px 0;border-bottom:.5px solid var(--color-border-tertiary);display:flex;align-items:flex-start;gap:7px}
+.dfeats li::before{content:'—';color:#c0392b;flex-shrink:0;font-size:11px}
+.dtx{background:rgba(192,57,43,.04);border:.5px solid rgba(192,57,43,.14);border-radius:var(--border-radius-md);padding:7px 9px;font-size:12px;line-height:1.55;color:var(--color-text-secondary)}
+.dnote{border-left:2.5px solid #2264c0;background:rgba(34,100,192,.04);padding:6px 9px;font-size:12px;font-style:italic;line-height:1.55;color:var(--color-text-secondary);margin-top:10px}
+.lrow{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--color-text-secondary);margin-bottom:3px}
+.ldot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.lring{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:transparent;border-width:1.5px;border-style:solid}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{display:inline-block;width:13px;height:13px;border:2px solid var(--color-border-secondary);border-top-color:var(--color-text-secondary);border-radius:50%;animation:spin .8s linear infinite;margin-right:6px;vertical-align:middle}
+</style>
+
+<div style="font-family:var(--font-sans)">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;padding-bottom:9px;border-bottom:.5px solid var(--color-border-tertiary);margin-bottom:10px">
+  <div>
+    <div style="font-size:13px;font-weight:500;color:var(--color-text-primary)">Espectro Bipolar — Mapa Clínico-Operativo Interactivo</div>
+    <div style="font-size:11px;color:var(--color-text-secondary);margin-top:2px;font-style:italic">Modelo dimensional · evolutivo · temperamental · longitudinal · Fichas generadas por IA</div>
+  </div>
+  <div style="display:flex;gap:5px;flex-shrink:0;margin-left:10px">
+    <button class="cbtn on" id="blbl" onclick="toggleLbls()">Etiquetas</button>
+    <button class="cbtn" onclick="resetSel()">↺ Reset</button>
+  </div>
+</div>
+
+<svg id="bmap" width="100%" viewBox="0 0 680 680" style="display:block;border-radius:var(--border-radius-lg);border:.5px solid var(--color-border-tertiary);background:var(--color-background-secondary)">
+  <title>Mapa del espectro bipolar ampliado con 4 círculos concéntricos y 37 entidades clínicas</title>
+  <g id="rg"></g><g id="ng"></g>
+  <g id="ttg" visibility="hidden">
+    <rect id="ttbg" rx="4" style="fill:var(--color-background-primary);stroke:var(--color-border-secondary);stroke-width:.5"/>
+    <text id="ttnm" font-size="11" font-weight="500" style="font-family:var(--font-sans);fill:var(--color-text-primary)"></text>
+    <text id="ttsb" font-size="9" style="font-family:var(--font-sans);fill:var(--color-text-secondary)"></text>
+  </g>
+</svg>
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:7px;padding:7px 0;border-top:.5px solid var(--color-border-tertiary);border-bottom:.5px solid var(--color-border-tertiary)">
+  <div>
+    <div style="font-size:9px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.09em;color:var(--color-text-tertiary);margin-bottom:4px;font-weight:500">Círculos diagnósticos</div>
+    <div class="lrow"><div class="lring" style="border-color:#c0392b"></div>C1 · Núcleo DSM-5/CIE-11</div>
+    <div class="lrow"><div class="lring" style="border-color:#c97016"></div>C2 · Expansiones Akiskal</div>
+    <div class="lrow"><div class="lring" style="border-color:#b89020"></div>C3 · Mixto / Bip. suave</div>
+    <div class="lrow"><div class="lring" style="border-color:#2264c0;border-style:dashed"></div>C4 · Histórico / Controv.</div>
+  </div>
+  <div>
+    <div style="font-size:9px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.09em;color:var(--color-text-tertiary);margin-bottom:4px;font-weight:500">Consenso</div>
+    <div class="lrow"><div class="ldot" style="background:#e53e3e"></div>Alto (DSM-5/CIE-11)</div>
+    <div class="lrow"><div class="ldot" style="background:#ed8936"></div>Moderado (guías)</div>
+    <div class="lrow"><div class="ldot" style="background:#3b82f6"></div>Bajo / Histórico</div>
+  </div>
+  <div style="margin-left:auto;font-size:11px;color:var(--color-text-tertiary);align-self:center;text-align:right;line-height:1.6">Clic en nodo<br>→ ficha clínica IA</div>
+</div>
+
+<div class="tbar">
+  <button class="tbtn on" id="tb-det" onclick="showTab('det')">Entidad seleccionada</button>
+  <button class="tbtn" id="tb-temp" onclick="showTab('temp')">Temperamentos</button>
+  <button class="tbtn" id="tb-traj" onclick="showTab('traj')">Trayectorias</button>
+  <button class="tbtn" id="tb-mods" onclick="showTab('mods')">Moduladores</button>
+</div>
+<div id="tc-det" class="tc active"><div style="font-size:13px;color:var(--color-text-secondary);padding:10px 0">Selecciona una entidad en el mapa para generar su ficha clínica completa.</div></div>
+<div id="tc-temp" class="tc"><div class="tgrd" id="tgrd"></div></div>
+<div id="tc-traj" class="tc"><div class="trgrd" id="trjgrd"></div></div>
+<div id="tc-mods" class="tc">
+  <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:8px">Factores que modulan transversalmente el espectro bipolar.</div>
+  <div style="display:flex;flex-wrap:wrap;gap:5px" id="mgrd"></div>
+</div>
+</div>
+
+<script>
+const CX=340,CY=340,NS='http://www.w3.org/2000/svg';
+const RA={1:68,2:130,3:192,4:252};
+const CC={1:'#c0392b',2:'#c97016',3:'#b89020',4:'#2264c0'};
+const CF={1:'rgba(192,57,43,.11)',2:'rgba(201,112,22,.07)',3:'rgba(184,144,20,.05)',4:'rgba(34,100,192,.04)'};
+const CONC={h:'#e53e3e',m:'#ed8936',l:'#3b82f6'};
+const CNL={h:'Alto (DSM-5/CIE-11)',m:'Moderado (guías)',l:'Bajo / Histórico'};
+const CRL={1:'C1 · Núcleo DSM-5/CIE-11',2:'C2 · Expansiones Akiskal',3:'C3 · Mixto / Bip. suave',4:'C4 · Histórico / Controvertido'};
+
+const E=[
+{id:'tb1',n:'Trastorno Bipolar I',ab:'TB I',c:1,a:-15,cs:'h'},
+{id:'tb2',n:'Trastorno Bipolar II',ab:'TB II',c:1,a:195,cs:'h'},
+{id:'cicl',n:'Ciclotimia',ab:'Cicl.',c:1,a:108,cs:'h'},
+{id:'mxto',n:'Episodio con características mixtas',ab:'Ep.mx.',c:1,a:58,cs:'h'},
+{id:'bp3',n:'BP III: viraje por antidepresivos',ab:'BP III',c:2,a:313,cs:'m'},
+{id:'bp3b',n:'BP IIIb: hipomanía breve recurrente',ab:'BP IIIb',c:2,a:349,cs:'m'},
+{id:'bp4',n:'BP IV: depresión hipertímica',ab:'BP IV',c:2,a:200,cs:'m'},
+{id:'bp2h',n:'BP II½: depresión atípica bipolar',ab:'BP II½',c:2,a:337,cs:'m'},
+{id:'hsue',n:'Hipersensibilidad a privación de sueño',ab:'S.sueño',c:2,a:38,cs:'m'},
+{id:'mvul',n:'Marcadores de vulnerabilidad bipolar',ab:'M.vuln.',c:2,a:68,cs:'m'},
+{id:'vcir',n:'Vulnerabilidad circadiana',ab:'V.circ.',c:2,a:100,cs:'m'},
+{id:'tcic',n:'Temperamento ciclotímico',ab:'T.cicl.',c:2,a:135,cs:'m'},
+{id:'tkre',n:'Temperamento afectivo (Kretschmer)',ab:'T.kret.',c:2,a:170,cs:'l'},
+{id:'floa',n:'Floater afectivo / oscilaciones interepisódicas',ab:'Floater',c:2,a:232,cs:'m'},
+{id:'smix',n:'Síntomas mixtos breves recurrentes',ab:'S.mx.br.',c:2,a:272,cs:'m'},
+{id:'vest',n:'Vulnerabilidad al estrés psicosocial',ab:'V.estrés',c:2,a:294,cs:'m'},
+{id:'hdis',n:'Hipomanía disfórica',ab:'H.disf.',c:3,a:3,cs:'m'},
+{id:'raft',n:'Reactividad afectiva elevada',ab:'R.afec.',c:3,a:36,cs:'m'},
+{id:'bsof',n:'Bipolaridad suave',ab:'Bip.sv.',c:3,a:65,cs:'m'},
+{id:'drec',n:'Depresión recurrente + hipomanía breve interepisódica',ab:'D+H.br.',c:3,a:90,cs:'m'},
+{id:'snad',n:'Sensibilidad a antidepresivos',ab:'Sen.AD',c:3,a:117,cs:'m'},
+{id:'riad',n:'Riesgo de empeoramiento con AD',ab:'R.AD',c:3,a:143,cs:'m'},
+{id:'labf',n:'Labilidad afectiva',ab:'Lab.af.',c:3,a:167,cs:'m'},
+{id:'cul',n:'Ciclado ultrarrápido / ultradiano',ab:'Cic.ul.',c:3,a:197,cs:'m'},
+{id:'agdp',n:'Agitación depresiva',ab:'Ag.dep.',c:3,a:222,cs:'m'},
+{id:'drea',n:'Disforia reactiva',ab:'D.reac.',c:3,a:270,cs:'l'},
+{id:'emsu',n:'Estados mixtos subumbrales',ab:'E.mx.s.',c:3,a:303,cs:'m'},
+{id:'dmko',n:'Depresión mixta (Koukopoulos)',ab:'D.mx.K.',c:3,a:332,cs:'m'},
+{id:'crpd',n:'Ciclado rápido (≥4 episodios/año)',ab:'Cic.rp.',c:3,a:250,cs:'h'},
+{id:'minv',n:'Melancolía involutiva (Kraepelin)',ab:'M.inv.',c:4,a:284,cs:'l'},
+{id:'pcic',n:'Psicosis cicloide (Leonhard-Kleist)',ab:'P.cicl.',c:4,a:20,cs:'l'},
+{id:'fatip',n:'Formas atípicas históricas',ab:'F.atíp.',c:4,a:68,cs:'l'},
+{id:'munip',n:'Manía unipolar (entidad discutida)',ab:'M.unip.',c:4,a:316,cs:'l'},
+{id:'eafb',n:'Esquizoafectivo bipolar (zona puente)',ab:'EA.bip.',c:4,a:256,cs:'l'},
+{id:'cbip',n:'Continuo bipolar-esquizoafectivo',ab:'C.bip.',c:4,a:226,cs:'l'},
+{id:'pck',n:'Personalidad cicloide (Kretschmer)',ab:'P.c.k.',c:4,a:176,cs:'l'},
+{id:'ctrn',n:'Categorías nosológicas en transición',ab:'C.trns.',c:4,a:132,cs:'l'},
+];
+
+const TMP=[
+{n:'Depresivo/Ansioso',col:'#4a7cb5',p:'Polo depresivo ansioso',tr:['Inhibición','Ansiedad','Evitación','Pesimismo','Sensibilidad alta']},
+{n:'Depresión Pura',col:'#3a5580',p:'Polo depresivo nuclear',tr:['Inhibición','Pesimismo','Rumiación','Anhedonia','Baja energía']},
+{n:'Ciclotímico',col:'#7b5ea7',p:'Polo mixto/ciclotímico',tr:['Variabilidad','Cambios rápidos','Sensibilidad','Creatividad','Búsqueda novedad']},
+{n:'Hipertímico',col:'#2a7a50',p:'Polo maníaco',tr:['Sociabilidad','Energía','Optimismo','Autoeficacia','Búsqueda logro']},
+];
+
+const TRAJ=[
+[1,'Depresión recurrente','Hipomanía breve → Episodio mixto','TB I/II','p'],
+[2,'Ciclotimia','Hipomanía breve recurrente','TB II','p'],
+[3,'Irritabilidad persistente','Ciclado rápido','Episodios mixtos','b'],
+[4,'Vulnerabilidad + privación sueño',null,'Estados mixtos','t'],
+[5,'Tratamiento antidepresivo',null,'Viraje hipomanía/manía','i'],
+[6,'Sensibilidad a AD','Viraje','Ciclado rápido','i'],
+[7,'Estados mixtos subumbrales','Episodio mixto','TB I/II','p'],
+[8,'Bipolaridad suave + carga alostática',null,'Episodios mayores','t'],
+[9,'Temperamento ciclotímico','Labilidad afectiva','Episodios recurrentes','p'],
+];
+
+const MODS=['Privación de sueño','Estrés psicosocial','Ritmos circadianos/estacionalidad','Consumo de sustancias (NPS, chemsex)','Adherencia al tratamiento','Soporte social','Comorbilidades (ansiedad, TUS, TLP, TDAH)','Inflamación/carga alostática'];
+const TLJBL={p:'Progresión',t:'Desencadenante',i:'Iatrogénica',b:'Bidireccional'};
+const TLCLS={p:'bp',t:'bt',i:'bi',b:'bb'};
+
+const cache={};
+let showLbls=true,selId=null;
+
+function nel(t,a,p){const e=document.createElementNS(NS,t);for(const[k,v]of Object.entries(a))e.setAttribute(k,String(v));if(p)p.appendChild(e);return e}
+
+function buildMap(){
+  const rg=document.getElementById('rg'),ng=document.getElementById('ng');
+  rg.innerHTML='';ng.innerHTML='';
+  for(let c=4;c>=1;c--){
+    nel('circle',{cx:CX,cy:CY,r:RA[c],fill:CF[c],stroke:CC[c],'stroke-width':c===1?'1.5':'1','stroke-dasharray':c===4?'7,4':''},rg);
+  }
+  const xg=nel('g',{opacity:'.055'},rg);
+  nel('line',{x1:CX-RA[4]-8,y1:CY,x2:CX+RA[4]+8,y2:CY,stroke:'currentColor','stroke-width':'.5','stroke-dasharray':'2,8'},xg);
+  nel('line',{x1:CX,y1:CY-RA[4]-8,x2:CX,y2:CY+RA[4]+8,stroke:'currentColor','stroke-width':'.5','stroke-dasharray':'2,8'},xg);
+  E.forEach(e=>{
+    const r=RA[e.c],rad=e.a*Math.PI/180;
+    const nx=CX+r*Math.cos(rad),ny=CY+r*Math.sin(rad);
+    const lo=showLbls?14:4;
+    const g=nel('g',{cursor:'pointer','data-id':e.id},ng);
+    nel('line',{x1:nx,y1:ny,x2:CX+(r+lo)*Math.cos(rad),y2:CY+(r+lo)*Math.sin(rad),stroke:CC[e.c],'stroke-width':'.6',opacity:'.35'},g);
+    if(showLbls){
+      const ca=Math.cos(rad),sa=Math.sin(rad);
+      const lx=CX+(r+16)*Math.cos(rad),ly=CY+(r+16)*Math.sin(rad);
+      const t=nel('text',{x:lx,y:ly,'text-anchor':ca>=0?'start':'end','dominant-baseline':Math.abs(sa)>.65?(sa>0?'hanging':'auto'):'middle',fill:'currentColor',opacity:'.6','font-size':'8.5','pointer-events':'none',style:'font-family:var(--font-mono)'},g);
+      t.textContent=e.ab;
+    }
+    const dot=nel('circle',{cx:nx,cy:ny,r:'5',fill:CONC[e.cs],stroke:CC[e.c],'stroke-width':'1.5',class:'nd'},g);
+    g.addEventListener('mouseenter',()=>{dot.setAttribute('r','7');dot.setAttribute('stroke-width','2');showTT(e,nx,ny)});
+    g.addEventListener('mouseleave',()=>{if(selId!==e.id){dot.setAttribute('r','5');dot.setAttribute('stroke-width','1.5')}hideTT()});
+    g.addEventListener('click',()=>selEnt(e));
+  });
+}
+
+function showTT(e,nx,ny){
+  const tg=document.getElementById('ttg'),tb=document.getElementById('ttbg'),tn=document.getElementById('ttnm'),ts=document.getElementById('ttsb');
+  const nm=e.n.length>34?e.n.substring(0,32)+'…':e.n;
+  tn.textContent=nm;ts.textContent=CRL[e.c]+' · '+CNL[e.cs];
+  const w=Math.min(nm.length*6+22,220),h=34;
+  let tx=nx+10,ty=ny-h-5;
+  if(tx+w>675)tx=nx-w-10;if(ty<5)ty=ny+10;
+  tb.setAttribute('x',tx);tb.setAttribute('y',ty);tb.setAttribute('width',w);tb.setAttribute('height',h);
+  tn.setAttribute('x',tx+8);tn.setAttribute('y',ty+13);
+  ts.setAttribute('x',tx+8);ts.setAttribute('y',ty+25);
+  tg.setAttribute('visibility','visible');
+}
+function hideTT(){document.getElementById('ttg').setAttribute('visibility','hidden')}
+
+async function selEnt(e){
+  if(selId&&selId!==e.id){const p=document.querySelector('[data-id="'+selId+'"] .nd');if(p){p.setAttribute('r','5');p.setAttribute('stroke-width','1.5')}}
+  selId=e.id;
+  const nd=document.querySelector('[data-id="'+e.id+'"] .nd');
+  if(nd){nd.setAttribute('r','7.5');nd.setAttribute('stroke-width','2')}
+  showTab('det');
+  const det=document.getElementById('tc-det');
+  det.innerHTML=`<div class="dbox"><div class="dbdg" style="color:${CC[e.c]};border-color:${CC[e.c]}40">${CRL[e.c]}</div><div class="dname">${e.n}</div><div style="font-size:12px;color:var(--color-text-secondary);margin-top:8px"><span class="spin"></span>Generando ficha clínica…</div></div>`;
+  try{
+    const d=await getDetail(e);
+    det.innerHTML=`<div class="dbox"><div class="dbdg" style="color:${CC[e.c]};border-color:${CC[e.c]}40">${CRL[e.c]}</div><div class="dname">${e.n}</div><div class="dauth">${d.au}</div><div class="ddesc">${d.desc}</div><div class="dsh">Características clínicas clave</div><ul class="dfeats">${(d.feats||[]).map(f=>`<li>${f}</li>`).join('')}</ul><div class="dsh">Orientación farmacoterapéutica</div><div class="dtx">${d.tx}</div><div class="dsh">Nota clínica</div><div class="dnote">${d.nt}</div><div style="margin-top:10px;display:flex;align-items:center;gap:7px;font-size:11px;color:var(--color-text-secondary)"><div style="width:8px;height:8px;border-radius:50%;background:${CONC[e.cs]};flex-shrink:0"></div>Nivel de consenso: <strong style="font-weight:500;color:var(--color-text-primary)">${CNL[e.cs]}</strong></div></div>`;
+  }catch{
+    det.innerHTML=`<div class="dbox"><div class="dbdg" style="color:${CC[e.c]};border-color:${CC[e.c]}40">${CRL[e.c]}</div><div class="dname">${e.n}</div><div style="font-size:12px;color:var(--color-text-secondary);margin-top:8px">Error al generar la ficha. Inténtalo de nuevo.</div></div>`;
+  }
+}
+
+async function getDetail(e){
+  if(cache[e.id])return cache[e.id];
+  const prompt=`Eres un psicopatólogo y psicofarmacólogo experto. Genera una ficha clínica sobre "${e.n}" en el espectro bipolar ampliado (Akiskal/Koukopoulos). Responde ÚNICAMENTE en JSON sin markdown:\n{"desc":"descripción clínica 2-3 oraciones","feats":["rasgo 1","rasgo 2","rasgo 3","rasgo 4","rasgo 5"],"au":"referencia bibliográfica principal","tx":"orientación farmacoterapéutica concisa","nt":"nota clínica crítica 1-2 oraciones"}`;
+  const resp=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:700,messages:[{role:"user",content:prompt}]})});
+  const data=await resp.json();
+  const txt=data.content[0].text.replace(/```json|```/g,'').trim();
+  const parsed=JSON.parse(txt);
+  cache[e.id]=parsed;
+  return parsed;
+}
+
+function resetSel(){
+  if(selId){const nd=document.querySelector('[data-id="'+selId+'"] .nd');if(nd){nd.setAttribute('r','5');nd.setAttribute('stroke-width','1.5')}selId=null}
+  document.getElementById('tc-det').innerHTML='<div style="font-size:13px;color:var(--color-text-secondary);padding:10px 0">Selecciona una entidad en el mapa para generar su ficha clínica completa.</div>';
+  showTab('det');
+}
+
+function toggleLbls(){showLbls=!showLbls;document.getElementById('blbl').classList.toggle('on',showLbls);buildMap()}
+function showTab(id){['det','temp','traj','mods'].forEach(t=>{document.getElementById('tc-'+t).classList.toggle('active',t===id);document.getElementById('tb-'+t).classList.toggle('on',t===id)})}
+
+document.getElementById('tgrd').innerHTML=TMP.map((t,i)=>`<div class="tcard" onclick="showTD(${i})"><div class="tpole">${t.p}</div><div class="tname" style="color:${t.col}">${t.n}</div><div class="traits">${t.tr.map(x=>`<span class="trait">${x}</span>`).join('')}</div></div>`).join('');
+
+function showTD(i){
+  const t=TMP[i];showTab('det');
+  document.getElementById('tc-det').innerHTML=`<div class="dbox"><div class="dbdg" style="color:${t.col};border-color:${t.col}40">Temperamento afectivo · ${t.p}</div><div class="dname">${t.n}</div><div class="dauth">TEMPS-A · Akiskal, Rihmer et al.</div><div class="ddesc">El temperamento ${t.n.toLowerCase()} representa la expresión subclínica y constitucional del espectro afectivo. La TEMPS-A (Temperament Evaluation of Memphis, Pisa, Paris and San Diego) es el instrumento validado en español para su evaluación sistematizada.</div><div class="dsh">Rasgos definitorios</div><ul class="dfeats">${t.tr.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
+}
+
+document.getElementById('trjgrd').innerHTML=TRAJ.map(t=>`<div class="tri"><span class="tnum">${t[0]}</span><span style="color:var(--color-text-secondary)">${t[1]}</span>${t[2]?`<span class="tarr">→</span><span class="tstp">${t[2]}</span>`:''}<span class="tarr">→</span><strong style="font-weight:500">${t[3]}</strong><span class="tbdg ${TLCLS[t[4]]}">${TLJBL[t[4]]}</span></div>`).join('');
+document.getElementById('mgrd').innerHTML=MODS.map(m=>`<span style="background:var(--color-background-secondary);border:.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:4px 9px;font-size:12px;color:var(--color-text-secondary)">${m}</span>`).join('');
+
+buildMap();
+</script>

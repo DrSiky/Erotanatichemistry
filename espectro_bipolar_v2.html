@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Espectro Bipolar — Mapa Clínico-Operativo v2</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font-family:system-ui,sans-serif;background:#fff;color:#111}
+:root{
+  --bg:#ffffff;--bg2:#f5f4f0;--bg3:#efefeb;
+  --tx:#111;--tx2:#555;--tx3:#888;
+  --bd:rgba(0,0,0,0.10);--bd2:rgba(0,0,0,0.18);
+  --r1:#c0392b;--r2:#c97016;--r3:#b89020;--r4:#2264c0;
+  --ch:#e53e3e;--cm:#ed8936;--cl:#3b82f6;
+  --ff:system-ui,sans-serif;--fm:ui-monospace,monospace;
+  --rm:6px;--rl:10px;
+}
+@media(prefers-color-scheme:dark){
+  body{background:#0d0d0d;color:#ddd}
+  :root{--bg:#1a1a1a;--bg2:#222;--bg3:#2a2a2a;--tx:#ddd;--tx2:#999;--tx3:#666;--bd:rgba(255,255,255,0.09);--bd2:rgba(255,255,255,0.18)}
+}
+.wrap{max-width:920px;margin:0 auto}
+.hdr{display:flex;align-items:flex-start;justify-content:space-between;padding-bottom:9px;border-bottom:.5px solid var(--bd);margin-bottom:10px}
+.htit{font-size:13px;font-weight:500}
+.hsub{font-size:11px;color:var(--tx2);margin-top:2px;font-style:italic}
+.btns{display:flex;gap:5px;flex-shrink:0;margin-left:10px}
+.cbtn{font-size:11px;padding:3px 9px;cursor:pointer;background:transparent;border:.5px solid var(--bd2);color:var(--tx2);border-radius:var(--rm);font-family:var(--fm);letter-spacing:.04em;transition:all .15s}
+.cbtn:hover{background:var(--bg2);color:var(--tx)}
+.cbtn.on{border-color:var(--r1);color:var(--r1);background:rgba(192,57,43,.07)}
+svg{display:block;border-radius:var(--rl);border:.5px solid var(--bd);background:var(--bg2)}
+.leg{display:flex;flex-wrap:wrap;gap:16px;margin-top:7px;padding:7px 0;border-top:.5px solid var(--bd);border-bottom:.5px solid var(--bd)}
+.lsec{}
+.lhd{font-size:9px;font-family:var(--fm);text-transform:uppercase;letter-spacing:.09em;color:var(--tx3);margin-bottom:4px;font-weight:500}
+.lrow{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--tx2);margin-bottom:3px}
+.ldot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.lring{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:transparent;border-width:1.5px;border-style:solid}
+.tbar{display:flex;border-bottom:.5px solid var(--bd);margin-top:10px;overflow-x:auto}
+.tbtn{font-size:11px;padding:6px 11px;cursor:pointer;background:transparent;border:none;color:var(--tx2);border-bottom:2px solid transparent;margin-bottom:-1px;font-family:var(--ff);transition:all .15s;white-space:nowrap;flex-shrink:0}
+.tbtn:hover{color:var(--tx)}
+.tbtn.on{color:var(--tx);font-weight:500;border-bottom-color:var(--r1)}
+.tc{padding:10px 0;display:none}
+.tc.active{display:block}
+/* FICHA */
+.dbox{background:var(--bg2);border-radius:var(--rl);border:.5px solid var(--bd);padding:12px 14px}
+.dbdg{display:inline-block;font-size:9px;font-family:var(--fm);text-transform:uppercase;letter-spacing:.08em;padding:2px 6px;border:.5px solid;border-radius:2px;margin-bottom:7px}
+.dname{font-size:16px;font-weight:500;margin-bottom:3px;line-height:1.25}
+.dauth{font-size:11px;color:var(--tx2);font-style:italic;margin-bottom:8px}
+.ddesc{font-size:12px;line-height:1.6;color:var(--tx2);margin-bottom:6px}
+.dsh{font-size:9px;font-family:var(--fm);text-transform:uppercase;letter-spacing:.1em;color:var(--tx3);font-weight:500;margin-bottom:5px;padding-bottom:3px;border-bottom:.5px solid var(--bd);margin-top:10px}
+.dfeats{list-style:none;padding:0;margin:0 0 10px 0}
+.dfeats li{font-size:12px;line-height:1.45;color:var(--tx2);padding:3px 0;border-bottom:.5px solid var(--bd);display:flex;align-items:flex-start;gap:7px}
+.dfeats li::before{content:'—';color:var(--r1);flex-shrink:0;font-size:11px}
+.dtx{background:rgba(192,57,43,.04);border:.5px solid rgba(192,57,43,.14);border-radius:var(--rm);padding:7px 9px;font-size:12px;line-height:1.55;color:var(--tx2)}
+.dnote{border-left:2.5px solid var(--r4);background:rgba(34,100,192,.04);padding:6px 9px;font-size:12px;font-style:italic;line-height:1.55;color:var(--tx2);margin-top:10px}
+.dcons{margin-top:10px;display:flex;align-items:center;gap:7px;font-size:11px;color:var(--tx2)}
+/* TEMP */
+.tgrd{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:6px}
+.tcard{background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--rm);padding:9px 10px;cursor:pointer;transition:border-color .15s}
+.tcard:hover{border-color:var(--bd2)}
+.tcard.sel{border-color:var(--r1)}
+.tpole{font-size:9px;color:var(--tx3);text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px;font-family:var(--fm)}
+.tname{font-size:12px;font-weight:500;margin-bottom:5px}
+.traits{display:flex;flex-wrap:wrap;gap:2px}
+.trait{font-size:10px;padding:1px 4px;background:var(--bg);border:.5px solid var(--bd);border-radius:3px;color:var(--tx2)}
+/* TRAJ */
+.trgrd{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:4px}
+.tri{background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--rm);padding:5px 8px;font-size:11px;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.tnum{font-family:var(--fm);font-size:9px;background:rgba(192,57,43,.09);color:var(--r1);border:.5px solid rgba(192,57,43,.25);padding:1px 4px;border-radius:2px;flex-shrink:0}
+.tarr{color:var(--r1);font-weight:500}
+.tstp{font-size:10px;background:var(--bg);border:.5px solid var(--bd);padding:1px 4px;border-radius:2px;color:var(--tx2)}
+.tbdg{font-size:9px;padding:1px 4px;border-radius:2px;margin-left:auto;font-family:var(--fm)}
+.bp{background:rgba(180,144,20,.09);color:#8a7010;border:.5px solid rgba(180,144,20,.25)}
+.bt{background:rgba(201,112,22,.09);color:#a06010;border:.5px solid rgba(201,112,22,.25)}
+.bi{background:rgba(192,57,43,.09);color:#9a1818;border:.5px solid rgba(192,57,43,.25)}
+.bb{background:rgba(100,80,160,.09);color:#5848a0;border:.5px solid rgba(100,80,160,.25)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hdr">
+  <div>
+    <div class="htit">Espectro Bipolar — Mapa Clínico-Operativo Interactivo</div>
+    <div class="hsub">Modelo dimensional · evolutivo · temperamental · longitudinal · Dr. F.J. Segovia</div>
+  </div>
+  <div class="btns">
+    <button class="cbtn on" id="blbl" onclick="toggleLbls()">Etiquetas</button>
+    <button class="cbtn" onclick="resetSel()">↺ Reset</button>
+  </div>
+</div>
+
+<svg id="bmap" width="100%" viewBox="0 0 680 680">
+  <g id="rg"></g><g id="ng"></g>
+  <g id="ttg" visibility="hidden">
+    <rect id="ttbg" rx="4" style="fill:var(--bg);stroke:var(--bd2);stroke-width:.5"/>
+    <text id="ttnm" font-size="11" font-weight="500" style="font-family:var(--ff);fill:var(--tx)"></text>
+    <text id="ttsb" font-size="9" style="font-family:var(--ff);fill:var(--tx2)"></text>
+  </g>
+</svg>
+
+<div class="leg">
+  <div class="lsec">
+    <div class="lhd">Círculos diagnósticos</div>
+    <div class="lrow"><div class="lring" style="border-color:#c0392b"></div>C1 · Núcleo DSM-5/CIE-11</div>
+    <div class="lrow"><div class="lring" style="border-color:#c97016"></div>C2 · Expansiones Akiskal / Entidades puente</div>
+    <div class="lrow"><div class="lring" style="border-color:#b89020"></div>C3 · Estados mixtos / Bipolaridad suave</div>
+    <div class="lrow"><div class="lring" style="border-color:#2264c0;border-style:dashed"></div>C4 · Histórico / Controvertido</div>
+  </div>
+  <div class="lsec">
+    <div class="lhd">Nivel de consenso</div>
+    <div class="lrow"><div class="ldot" style="background:#e53e3e"></div>Alto (DSM-5/CIE-11)</div>
+    <div class="lrow"><div class="ldot" style="background:#ed8936"></div>Moderado (guías clínicas)</div>
+    <div class="lrow"><div class="ldot" style="background:#3b82f6"></div>Bajo / Histórico / Discutido</div>
+  </div>
+  <div style="margin-left:auto;font-size:11px;color:var(--tx3);align-self:center;text-align:right;line-height:1.6">Clic en nodo → ficha clínica<br>Hover → nombre completo</div>
+</div>
+
+<div class="tbar">
+  <button class="tbtn on" id="tb-det" onclick="showTab('det')">Entidad seleccionada</button>
+  <button class="tbtn" id="tb-temp" onclick="showTab('temp')">Temperamentos TEMPS-A</button>
+  <button class="tbtn" id="tb-traj" onclick="showTab('traj')">Trayectorias evolutivas</button>
+  <button class="tbtn" id="tb-mods" onclick="showTab('mods')">Factores moduladores</button>
+</div>
+<div id="tc-det" class="tc active">
+  <div style="font-size:13px;color:var(--tx2);padding:10px 0">Selecciona una entidad en el mapa para ver su ficha clínica completa.</div>
+</div>
+<div id="tc-temp" class="tc"><div class="tgrd" id="tgrd"></div></div>
+<div id="tc-traj" class="tc"><div class="trgrd" id="trjgrd"></div></div>
+<div id="tc-mods" class="tc">
+  <div style="font-size:12px;color:var(--tx2);margin-bottom:8px">Factores que modulan transversalmente la expresión clínica, el curso y el pronóstico en todo el espectro bipolar.</div>
+  <div style="display:flex;flex-wrap:wrap;gap:5px" id="mgrd"></div>
+</div>
+</div>
+
+<script>
+const CX=340,CY=340,NS='http://www.w3.org/2000/svg';
+const RA={1:68,2:130,3:192,4:252};
+const CC={1:'#c0392b',2:'#c97016',3:'#b89020',4:'#2264c0'};
+const CF={1:'rgba(192,57,43,.12)',2:'rgba(201,112,22,.07)',3:'rgba(184,144,20,.05)',4:'rgba(34,100,192,.035)'};
+const CONC={h:'#e53e3e',m:'#ed8936',l:'#3b82f6'};
+const CNL={h:'Alto consenso (DSM-5/CIE-11)',m:'Consenso moderado (guías)',l:'Bajo consenso / Histórico'};
+const CRL={1:'C1 · Núcleo DSM-5/CIE-11',2:'C2 · Expansiones Akiskal',3:'C3 · Estados mixtos / Bip. suave',4:'C4 · Histórico / Controvertido'};
+
+// ── FICHAS CLÍNICAS COMPLETAS ────────────────────────────────────────────────
+const FIC={
+tb1:{
+  au:'DSM-5-TR (APA, 2022) / CIE-11 (OMS, 2019)',
+  desc:'Definido por la presencia de al menos un episodio maníaco pleno (criterios A–D DSM-5-TR), habitualmente acompañado de episodios depresivos mayores (no obligatorios para el diagnóstico). Es la presentación más reconocible del espectro bipolar, con alto riesgo de recurrencia, hospitalización y comorbilidad.',
+  feats:['Episodio maníaco pleno: estado de ánimo elevado/irritable + aumento de actividad ≥7 días (criterios A–D)','Hospitalización o intervención urgente en episodios graves o con psicosis','Episodios depresivos habituales pero no definitorios del diagnóstico','Especificadores: mixto, psicótico, catatónico, peripartum, estacional','Alto riesgo de recurrencia: >90% presenta ≥1 nuevo episodio en seguimiento a 5 años'],
+  tx:'Litio (1ª línea en mantenimiento, nefroprotección, antisuicida documentada); valproato; quetiapina, aripiprazol, lurasidona (fase depresiva); olanzapina (manía aguda). TEC en manía refractaria o catatónica. Evitar AD en monoterapia.',
+  nt:'La distinción TB I/TB II no implica jerarquía de gravedad. El TB I tiene mayor riesgo de episodios psicóticos y hospitalización; el TB II, mayor carga depresiva longitudinal y riesgo suicida. La evaluación longitudinal y no solo transversal es indispensable para el diagnóstico.'
+},
+tb2:{
+  au:'DSM-5-TR / CIE-11; Judd et al., Am J Psychiatry, 2003',
+  desc:'Al menos un episodio hipomaníaco (criterios A–F, ≥4 días) y al menos un episodio depresivo mayor, sin manía plena en ningún momento del curso. La carga depresiva longitudinal es mayor que en el TB I; el diagnóstico suele retrasarse 7–10 años desde el inicio clínico.',
+  feats:['Hipomanía: ≥4 días, sin hospitalización ni disfunción grave (criterio F)','Sin manía plena en ningún punto del curso evolutivo','Mayor porcentaje de tiempo en depresión que en hipomanía (Judd et al.)','Alta tasa de diagnóstico inicial erróneo como depresión unipolar (>60%)','Riesgo suicida igual o superior al TB I'],
+  tx:'Quetiapina (evidencia 1ª línea en depresión bipolar); litio; lamotrigina (mantenimiento, especialmente en fase depresiva); lurasidona. Cautela con AD en monoterapia: riesgo de viraje o ciclación.',
+  nt:'El TB II no debe considerarse "más leve" que el TB I. Judd et al. (2003) documentaron que los pacientes con TB II pasan ~50% del tiempo en depresión frente a ~11% en hipomanía. El impacto funcional y la mortalidad son comparables o peores que en TB I.'
+},
+cicl:{
+  au:'Kahlbaum (1882); DSM-5-TR / CIE-11; Van Meter et al., Bipolar Disord, 2011',
+  desc:'Patrón crónico (≥2 años en adultos, ≥1 año en menores) de síntomas hipomaníacos y depresivos subumbrales alternantes, sin episodios plenos en los primeros 2 años de evolución. Tasa de conversión a TB I/II: 15–50% en seguimientos longitudinales.',
+  feats:['Síntomas hipomaníacos y depresivos subumbrales sin llegar a episodios plenos','≥2 años de duración en adultos (≥1 año en menores de edad)','Sin episodios plenos en los primeros 2 años de evolución','Conversión a TB I/II: 15–50% en seguimiento a largo plazo','Altamente infradetectada en atención primaria y psiquiatría general'],
+  tx:'Litio a dosis bajas (0.6–0.8 mEq/L); psicoeducación intensiva; IPSRT (Interpersonal and Social Rhythm Therapy); monitorización longitudinal estrecha con registro de estado de ánimo.',
+  nt:'La ciclotimia es con frecuencia el estado prodrómico de la bipolaridad plena. La intervención psicoeducativa y la IPSRT precoz tienen la mejor base empírica para reducir la tasa de conversión. No debe minimizarse clínicamente por su aparente subumbralidad.'
+},
+mxto:{
+  au:'DSM-5-TR (APA, 2022); Koukopoulos et al., J Affect Disord, 2013',
+  desc:'Especificador de episodio aplicable a maníacos, hipomaníacos o depresivos cuando coexisten ≥3 síntomas del polo opuesto de forma simultánea. Supone mayor riesgo suicida, peor respuesta a antidepresivos y mayor complejidad terapéutica.',
+  feats:['≥3 síntomas del polo opuesto presentes durante el episodio actual','Aplicable a episodios maníacos, hipomaníacos y depresivos por igual','Mayor riesgo suicida que episodios puros de cualquier polaridad','Peor respuesta a AD cuando el componente depresivo es dominante','Sustituyó al "episodio mixto" como tipo en DSM-IV'],
+  tx:'Evitar AD en monoterapia. Estabilizadores (valproato 1ª línea por su eficacia en disforia y agitación; litio); antipsicóticos atípicos (quetiapina, olanzapina, lurasidona). BZD a corto plazo para la agitación.',
+  nt:'El umbral de 3 síntomas del DSM-5 infraidentifica la mixticidad clínica real. Los criterios de Koukopoulos (que incluyen la agitación y el pensamiento acelerado como marcadores positivos de manía sobre fondo depresivo) tienen mayor sensibilidad en la práctica ambulatoria.'
+},
+bp3:{
+  au:'Akiskal & Pinto, Psychiatr Clin North Am, 1999; Ghaemi et al., J Psychiatr Pract, 2002',
+  desc:'Hipomanía o manía inducida por antidepresivos en paciente con depresión tratada, sin episodios espontáneos previos documentados. Se interpreta como marcador de vulnerabilidad bipolar subyacente que los AD han "delatado" más que creado.',
+  feats:['Hipomanía/manía precipitada por AD, sin episodios espontáneos previos','Mayor frecuencia con tricíclicos > IRSN > ISRS > IMAO','El valor diagnóstico aumenta con historia familiar de TB en primer grado','No incluido como categoría formal en DSM-5, pero sí relevante clínicamente','Debe orientar a reevaluación diagnóstica completa del espectro'],
+  tx:'Suspensión o reducción del AD precipitante; introducción de estabilizador del ánimo; reevaluación diagnóstica integral. Gestión del riesgo de ciclación acelerada inducida.',
+  nt:'Debate persistente: ¿refleja bipolaridad genuina o es una respuesta farmacológica independiente del sustrato? El consenso actual (ISBD, CANMAT) tiende a interpretarlo como marcador de espectro bipolar subyacente, especialmente si hay agregación familiar.'
+},
+bp3b:{
+  au:'Angst et al., Arch Gen Psychiatry, 2003; estudio longitudinal de Zurich',
+  desc:'Episodios hipomaníacos de duración inferior a 4 días (subumbrales para DSM-5), recurrentes y diferenciables del estado basal habitual del sujeto. Identificados sistemáticamente en el estudio longitudinal de Zurich y en el estudio BRIDGE-II-Mix.',
+  feats:['Duración <4 días: no cumple criterio temporal DSM-5 para hipomanía','Recurrencia documentada que distingue del estado basal','Impacto funcional variable pero frecuentemente significativo','Prevalentes en el estudio de Zurich (Angst); subrepresentados en muestras clínicas','CIE-11 contempla mejor estas formas subumbrales que el DSM-5-TR'],
+  tx:'Manejo similar al TB II; cautela con AD en monoterapia; litio o estabilizadores si hay impacto funcional claro; psicoeducación sobre reconocimiento de síntomas.',
+  nt:'La brevedad episódica no implica menor relevancia clínica. Muchos pacientes que después cumplen criterios de TB II inician con hipomanías breves recurrentes. La anamnesis longitudinal estructurada y el registro de estado de ánimo son fundamentales para capturarlos.'
+},
+bp4:{
+  au:'Akiskal & Pinto, Psychiatr Clin North Am, 1999; Cassano et al.',
+  desc:'Episodio depresivo mayor que emerge sobre una línea de base temperamental hipertímica, sin hipomanía documentada en ningún momento del curso. Frecuentemente diagnosticado de forma errónea como depresión unipolar, con el consiguiente riesgo de prescripción de AD sin cobertura estabilizadora.',
+  feats:['Temperamento hipertímico como línea de base constitucional del sujeto','EDM sobre fondo hipertímico sin hipomanía clásica documentada','La depresión es el síntoma de consulta; el polo elevado es el sustrato temperamental','Alta tasa de infradiagnóstico como depresión unipolar en atención primaria','Riesgo significativo de iatrogenia con AD: activación, agitación, ciclación'],
+  tx:'Cautela con AD, especialmente en monoterapia. Evaluación temperamental sistemática mediante TEMPS-A. Considerar estabilizadores del ánimo como primer paso según el impacto funcional y los antecedentes familiares.',
+  nt:'Invierte la lógica habitual de la bipolaridad: la depresión es la manifestación clínica sobre un polo opuesto temperamental, no episódico. El concepto tiene un valor preventivo directo de iatrogenia farmacológica y orienta hacia una terapéutica más conservadora con AD.'
+},
+bp2h:{
+  au:'Akiskal & Pinto, 1999; Perugi et al., J Affect Disord, 1998',
+  desc:'Episodios depresivos mayores con características atípicas (hipersomnia, hiperfagia, parálisis del plomo, hipersensibilidad interpersonal al rechazo) sobre un sustrato del espectro bipolar. La depresión atípica tiene alta prevalencia en el espectro bipolar según Akiskal y Perugi.',
+  feats:['Hipersomnia ≥10 horas o hipersomnia diurna marcada','Hiperfagia, ansia por carbohidratos, aumento ponderal reactivo','Parálisis del plomo: sensación física de pesadez en extremidades','Hipersensibilidad interpersonal al rechazo como rasgo persistente','Reactividad del ánimo conservada ante eventos positivos'],
+  tx:'ISRS con cautela; litio (eficacia documentada); IMAO en formas graves o refractarias (clásicamente considerados de elección). Evitar AD tricíclicos como monoterapia si hay marcadores bipolares concomitantes.',
+  nt:'La depresión atípica es el subtipo depresivo con mayor prevalencia en el espectro bipolar. Su reconocimiento reorienta las estrategias farmacológicas de forma decisiva, especialmente evitando los tricíclicos como primera línea en presencia de marcadores bipolares.'
+},
+hsue:{
+  au:'Wehr et al., Arch Gen Psychiatry, 1987; Colombo et al., Bipolar Disord, 1999',
+  desc:'Tendencia constitucional a desarrollar activación, euforia o hipomanía ante privación o reducción significativa del sueño. Marcador accesible de vulnerabilidad circadiana en el espectro bipolar, con especial relevancia en contextos de chemsex y consumo de estimulantes.',
+  feats:['Activación, euforia o hipomanía ante privación de sueño ≥24 horas','Precipitado por jet lag intercontinental, trabajo a turnos nocturnos y estimulantes','Marcador de vulnerabilidad circadiana accesible mediante anamnesis','Especialmente relevante en NPS y chemsex (GHB, mefedrona, MDMA, estimulantes)','La privación de sueño como "test diagnóstico natural" inadvertido'],
+  tx:'Higiene del sueño estricta como primera medida; melatonina de liberación prolongada; vigilancia reforzada en viajes intercontinentales; psicoeducación sobre riesgo en contextos de consumo.',
+  nt:'En el contexto de chemsex y NPS, la privación de sueño actúa como precipitante potente de episodios hipomaníacos, mixtos o maníacos en sujetos con vulnerabilidad espectral. La detección de este marcador es parte de la evaluación estándar en pacientes consumidores de estimulantes con historia afectiva.'
+},
+mvul:{
+  au:'Ghaemi et al., J Clin Psychiatry, 2002 (Bipolar Spectrum Diagnostic Scale)',
+  desc:'Constelación de indicadores clínico-anamnésicos que aumentan la probabilidad pre-test de espectro bipolar en ausencia de episodios plenos claramente documentados. Operacionalizados en la Bipolar Spectrum Diagnostic Scale (BSDS) de Ghaemi et al.',
+  feats:['Historia familiar de TB en primer o segundo grado','Inicio precoz del primer episodio depresivo (<25 años)','≥3 episodios depresivos mayores en historia vital','Viraje a hipomanía o manía inducido por AD','Psicosis durante episodio depresivo o mixto'],
+  tx:'Evaluación longitudinal estructurada antes de decidir tratamiento; cautela con AD; aplicación de BSDS como instrumento de cribado; psicoeducación.',
+  nt:'Los marcadores de vulnerabilidad constituyen la base del diagnóstico precoz y de la prevención de iatrogenia farmacológica. La BSDS (validada al español) es el instrumento más operacionalizado para su detección sistemática en atención primaria y ambulatoria.'
+},
+vcir:{
+  au:'Harvey et al., J Clin Psychiatry, 2005; Frank et al., Am J Psychiatry, 2005 (IPSRT)',
+  desc:'Sensibilidad aumentada a la desregulación de los ritmos circadianos como sustrato neurobiológico de la vulnerabilidad bipolar. Nexo entre el eje HPA, el sistema melatoninérgico y la estacionalidad de los episodios afectivos. Base de la IPSRT.',
+  feats:['Irregularidad del ritmo sueño-vigilia como rasgo constitucional','Estacionalidad documentable de episodios afectivos (otoño/primavera)','Sensibilidad a cambios de turno laboral y viajes intercontinentales','Nexo con eje HPA, BDNF y sistema melatoninérgico (evaluable con MEQ, PSQI)','El ciclo circadiano como regulador del humor en el espectro bipolar'],
+  tx:'IPSRT (Interpersonal and Social Rhythm Therapy, Frank et al.) como primera línea no farmacológica; agomelatina como opción farmacológica complementaria; melatonina de liberación prolongada; regularización estricta de rutinas sociales y horarios.',
+  nt:'Frank et al. (2005) demostraron la superioridad de la IPSRT sobre el tratamiento estándar para la estabilización a largo plazo, especialmente en TB II. La regularización de los ritmos sociales es un componente terapéutico activo, no meramente higiénico.'
+},
+tcic:{
+  au:'Akiskal et al., J Affect Disord, 1977; TEMPS-A (Rihmer & Akiskal)',
+  desc:'Rasgo temperamental estable definido por labilidad afectiva, cambios breves de humor, alta sensibilidad interpersonal, adaptabilidad y creatividad. Mayor afinidad temperamental con el TB II. Medido por la subescala ciclotímica de la TEMPS-A.',
+  feats:['Labilidad afectiva como rasgo constitucional estable del carácter','Cambios de humor frecuentes y breves sin desencadenante claro','Alta sensibilidad y reactividad interpersonal como rasgo nuclear','Creatividad y búsqueda de novedad como rasgos asociados','TEMPS-A: instrumento validado en español para su evaluación sistematizada'],
+  tx:'Psicoeducación temperamental prioritaria; psicoterapia (IPSRT, TCC de regulación emocional, humanístico-integrativa); estabilizadores del ánimo a bajas dosis si hay impacto clínico documentado.',
+  nt:'El temperamento ciclotímico es el sustrato afectivo con mayor afinidad con el TB II. Su reconocimiento tiene implicaciones preventivas directas: orienta la toma de decisiones sobre el riesgo de viraje iatrógeno y la necesidad de cobertura estabilizadora ante cualquier AD.'
+},
+tkre:{
+  au:'Ernst Kretschmer, Körperbau und Charakter (1921)',
+  desc:'Propuesta constitucionalista de Kretschmer (1921) que reconoce los temperamentos afectivos como entidades con valor diagnóstico constitucional y correlato biométrico. Antecedente histórico directo de la TEMPS-A de Akiskal y Rihmer.',
+  feats:['Tipos: ciclotímico, distímico, hipomaníaco, irritable','Biotipo constitucional pícnico como correlato preferente','Continuidad constitucional con la psicosis maníaco-depresiva (PMD)','Relevancia histórica y conceptual fundamental para la nosología dimensional','La TEMPS-A operacionaliza y empiriza su herencia conceptual'],
+  tx:'Evaluación temperamental sistematizada; orientación psicoeducativa según perfil constitucional; no implica per se tratamiento farmacológico.',
+  nt:'Anticipa los modelos dimensionales actuales en más de un siglo. Su relevancia es principalmente histórico-conceptual, pero es indispensable para comprender la evolución de la nosología bipolar y la continuidad entre temperamento y enfermedad en el espectro afectivo.'
+},
+floa:{
+  au:'Akiskal HS; revisiones en Bipolar Disord',
+  desc:'Oscilaciones afectivas subumbrales en los intervalos interepisódicos que señalan que la bipolaridad no es puramente episódica sino una condición de vulnerabilidad continua. Cuestionan el modelo de eutimia plena entre episodios en una proporción significativa de pacientes.',
+  feats:['Oscilaciones subumbrales en intervalos interepisódicos documentables','Diferenciables del estado eutímico pleno con registro sistemático de estado de ánimo','Más frecuentes en TB II que en TB I según estudios longitudinales','Relevancia funcional y terapéutica directa: no implican necesariamente cambio de tratamiento pero sí vigilancia','Subreconocidas en práctica clínica por ausencia de escalas específicas breves'],
+  tx:'Mantener tratamiento de mantenimiento continuo; no suspender prematuramente ante aparente eutimia; registro sistemático del estado de ánimo como herramienta de monitorización.',
+  nt:'El concepto cuestiona el modelo de la bipolaridad como condición puramente episódica. La evidencia longitudinal sugiere que muchos pacientes con TB II presentan oscilaciones continuas de baja amplitud que mantienen la vulnerabilidad y el impacto funcional entre los episodios formalmente definidos.'
+},
+smix:{
+  au:'Angst et al.; Benazzi, Bipolar Disord, 2004',
+  desc:'Episodios breves (horas a pocos días) de síntomas maníacos o hipomaníacos sobre fondo depresivo persistente, recurrentes y habitualmente ego-distónicos. Probablemente la forma de presentación mixta más frecuente en la práctica ambulatoria.',
+  feats:['Duración breve: de horas a pocos días','Síntomas maníacos/hipomaníacos subsindromáticos sobre fondo depresivo','Recurrentes y con patrón reconocible por el paciente en retrospectiva','Habitualmente ego-distónicos: el paciente los vive como intrusivos y disruptivos','Alta tasa de infradiagnóstico en APS y psiquiatría general'],
+  tx:'Estabilizadores del ánimo (valproato, litio); evitar AD en monoterapia; psicoeducación sobre el reconocimiento del patrón mixto.',
+  nt:'Son probablemente la presentación más frecuente del espectro mixto en atención primaria. Su reconocimiento es la primera línea de prevención de iatrogenia por antidepresivos. La anamnesis prospectiva mediante registro de estado de ánimo facilita enormemente su detección.'
+},
+vest:{
+  au:'Post RM, Neurobiology of mood disorders, 1992 (kindling); Monroe & Harkness, 2005',
+  desc:'Sensibilidad aumentada a eventos vitales estresantes como desencadenantes de episodios afectivos. El modelo de kindling de Post (1992) propone una sensibilización progresiva del sistema límbico que hace que los episodios tardíos puedan volverse autónomos sin estresores identificables.',
+  feats:['Eventos vitales como desencadenantes principales en las fases precoces del trastorno','Kindling: sensibilización progresiva del sistema límbico (Post, 1992)','Episodios tardíos pueden volverse autónomos sin estresores identificables','Interacción gen-ambiente documentada (BDNF, eje HPA, alostasis)','Evaluable con SRRS (Holmes-Rahe) o LES (Life Events Survey)'],
+  tx:'IPSRT; TCC; reducción sistematizada de estresores; apoyo social estructurado; estrategias de regulación emocional.',
+  nt:'El modelo de kindling tiene implicaciones directas para la política de intervención: actuar precozmente reduce la carga episódica longitudinal antes de que los episodios se autonomicen. Es el fundamento teórico más sólido para la indicación de tratamiento preventivo tras el primer o segundo episodio.'
+},
+hdis:{
+  au:'Akiskal HS; Benazzi F, Bipolar Disord, 2007',
+  desc:'Estado hipomaníaco con predominio de disforia, irritabilidad y tensión interna en lugar de euforia. Presentación frecuente en la práctica ambulatoria, con alta tasa de confusión diagnóstica con trastorno de ansiedad, TDAH o TLP.',
+  feats:['Activación psicomotriz con disforia predominante (no euforia)','Irritabilidad marcada como síntoma principal','Pensamiento acelerado de carácter disfórico (no placentero)','Frecuente en cicladores rápidos y TB II','Habitualmente ego-distónica: facilita la consulta pero enmascara el diagnóstico'],
+  tx:'Estabilizadores del ánimo (valproato, litio); antipsicóticos atípicos (quetiapina); evitar AD en monoterapia. La disforia como síntoma dominante no debe orientar erróneamente hacia AD.',
+  nt:'La hipomanía disfórica es probablemente la presentación hipomaníaca más frecuente en clínica ambulatoria. El carácter ego-distónico facilita la consulta pero puede conducir a un diagnóstico erróneo de depresión agitada o ansiedad generalizada con prescripción inadecuada de AD.'
+},
+raft:{
+  au:'Davidson et al.; nosología transdiagnóstica RDoC (NIMH)',
+  desc:'Respuesta emocional intensa, rápida y difícilmente modulable ante estímulos interpersonales o ambientales. Dimensión transdiagnóstica relevante en espectro bipolar, TLP y TDAH. Exige diagnóstico diferencial cuidadoso antes de cualquier intervención farmacológica.',
+  feats:['Respuestas emocionales desproporcionadas al estímulo desencadenante','Rapidez de instauración y dificultad de modulación voluntaria','Sin criterios episódicos bipolares plenos necesariamente','Solapamiento transdiagnóstico real: TB, TLP, TDAH, TEPT complejo','Evaluada con escalas específicas: ALS (Affective Lability Scale)'],
+  tx:'DBT (Dialectical Behavior Therapy) en comorbilidad con TLP; TCC de regulación emocional; valproato si hay sustrato bipolar confirmado; metilfenidato/lisdexanfetamina si TDAH comórbido es el sustrato.',
+  nt:'Uno de los motivos de consulta más frecuentes en psiquiatría ambulatoria. El abordaje exige diferenciación diagnóstica cuidadosa antes de prescribir. La TLP y el TDAH pueden coexistir con el espectro bipolar o simularlo, y requieren estrategias terapéuticas distintas.'
+},
+bsof:{
+  au:'Cassano et al., Am J Psychiatry, 1992; Angst et al.',
+  desc:'Presentaciones clínicas con características bipolares subumbrales pero con impacto funcional significativo que no alcanzan criterios DSM-5 completos para ninguna categoría. Concepto epistemológicamente debatido que exige rigor longitudinal antes de instaurar tratamiento estabilizador.',
+  feats:['Síntomas bipolares subumbrales con impacto funcional real y documentable','Sin criterios DSM-5-TR plenos para TB I, TB II o ciclotimia','Posible respuesta diferencial a estabilizadores del ánimo en algunos casos','Frecuente en psiquiatría especializada ambulatoria y servicios de salud mental','Riesgo real de sobrediagnóstico sin criterios operacionales rigurosos'],
+  tx:'Evaluación longitudinal estructurada (mínimo 6 meses); estabilizadores del ánimo sólo si hay impacto funcional objetivo y curso evolutivo documentado; psicoeducación prioritaria.',
+  nt:'Clínicamente útil como categoría heurística pero epistemológicamente discutido. El riesgo de sobrediagnóstico —con sus consecuencias de estigmatización y exposición innecesaria a estabilizadores— es real. La evaluación longitudinal es indispensable antes de etiquetar y tratar.'
+},
+drec:{
+  au:'Angst J, Arch Gen Psychiatry, 2003; estudio longitudinal de Zurich',
+  desc:'Depresiones recurrentes (criterios EDM) con períodos breves de hipomanía subumbral interepisódica. Según el estudio longitudinal de Zurich (Angst), son las formas del espectro bipolar más prevalentes en población general, con mayor frecuencia que TB I y TB II combinados.',
+  feats:['Depresiones recurrentes que cumplen criterios de EDM completo','Hipomanía breve (<4 días) en períodos interepisódicos','Sin criterios plenos para TB II (duración hipomaníaca insuficiente)','Alta tasa de conversión posterior a TB II en seguimiento longitudinal','Mayor prevalencia en mujeres; infradiagnosticada en ambos sexos'],
+  tx:'Litio (prevención de recurrencias); lamotrigina (especialmente en prevención de la fase depresiva); cautela con AD en monoterapia.',
+  nt:'El estudio de Zurich identificó estas formas como las más frecuentes del espectro en población general, con prevalencia real muy superior a TB I/II combinados. Su reconocimiento es crítico para la intervención preventiva y la decisión sobre el uso de AD en monoterapia.'
+},
+snad:{
+  au:'Ghaemi et al. (Bipolar Spectrum Diagnostic Scale, BSDS), J Clin Psychiatry, 2002',
+  desc:'Tendencia a responder a los antidepresivos con activación excesiva, viraje hipomaníaco/maníaco o ciclación acelerada. El marcador clínico de espectro bipolar más accesible mediante anamnesis farmacológica retrospectiva sistematizada.',
+  feats:['Activación, insomnio o irritabilidad excesivos con ISRS/IRSN','Euforia, grandiosidad o hipomanía inducidas por AD','Ciclación acelerada precipitada o mantenida por AD','Documentable en anamnesis farmacológica: "¿Con qué antidepresivo le fue mal?"','Mayor frecuencia: tricíclicos > IRSN > ISRS'],
+  tx:'Suspensión o reducción del AD implicado; introducción de estabilizador del ánimo antes de reintroducir cualquier AD; reevaluación diagnóstica integral.',
+  nt:'La anamnesis farmacológica sistematizada que incluye la respuesta a AD previos es parte indispensable del estudio diagnóstico del espectro bipolar. Es el marcador clínico más accesible y su exploración debe ser rutinaria en todo paciente con historia depresiva recurrente.'
+},
+riad:{
+  au:'Ghaemi et al.; Young et al., Cochrane, 2014; CANMAT 2023',
+  desc:'Deterioro clínico progresivo —ciclación acelerada, inducción de estados mixtos, viraje maníaco/hipomaníaco— por uso de antidepresivos en el espectro bipolar. Fenómeno dosis y tiempo-dependiente con relevancia clínica y medicolegal directa.',
+  feats:['Ciclación acelerada inducida o mantenida por AD','Inducción de estados mixtos con predominio disfórico-agitado','Viraje a manía/hipomanía, con mayor frecuencia en tricíclicos','Empeoramiento de la labilidad afectiva de base','Fenómeno parcialmente dosis y tiempo-dependiente'],
+  tx:'Evitar AD en monoterapia en todo paciente del espectro bipolar; si son necesarios, cubrir con estabilizador (litio o valproato); revisar periódicamente la necesidad de mantenerlos.',
+  nt:'CANMAT 2023, BAP 2016 e ISBD coinciden en recomendar precaución y cobertura estabilizadora para cualquier uso de AD en espectro bipolar. La iatrogenia por AD en el espectro bipolar tiene relevancia medicolegal directa en caso de viraje o ciclación no anticipados.'
+},
+labf:{
+  au:'Harvey et al., Bipolar Disord, 2005; Kowatch et al.',
+  desc:'Variabilidad marcada y frecuente del estado de ánimo con transiciones rápidas entre estados diferenciados, sin que necesariamente alcancen criterios episódicos. Dimensión transdiagnóstica relevante en TB, TLP y TDAH con sustrato neurobiológico parcialmente compartido.',
+  feats:['Cambios de humor frecuentes: varios al día o a la semana','Transiciones rápidas entre estados afectivos diferenciados','No siempre vinculada a desencadenante externo identificable','Sustrato neurobiológico compartido con TB II, TLP y TDAH','Evaluada con ALS (Affective Lability Scale) y MDQ'],
+  tx:'Valproato (evidencia más específica para labilidad afectiva que otros estabilizadores); lamotrigina; DBT en comorbilidad con TLP; litio en TB II confirmado.',
+  nt:'El valproato tiene evidencia específica para la labilidad afectiva, superior a otros estabilizadores en este síntoma diana. La DBT es eficaz cuando hay comorbilidad con trastorno límite de personalidad y la labilidad tiene sustrato interpersonal prominente.'
+},
+cul:{
+  au:'Kramlinger & Post, Am J Psychiatry, 1996; Bauer et al.',
+  desc:'Ciclado ultrarrápido (<7 días por ciclo) o ultradiano (<24 horas). Alta disfunción y discapacidad funcional. Frecuente en TB II, mujeres y consumidores de sustancias. Presenta relativa resistencia farmacológica y exige evaluación exhaustiva de factores precipitantes.',
+  feats:['Ciclos <24 horas (ultradiano) o <7 días (ultrarrápido)','Alta disfunción y discapacidad funcional severa','Mayor prevalencia en mujeres y en TB II (3:1 vs TB I)','Asociación con hipotiroidismo subclínico, TUS y uso de AD','Alta resistencia farmacológica relativa al tratamiento estándar'],
+  tx:'Valproato (1ª línea); carbamazepina (2ª línea); clonazepam coadyuvante para la agitación a corto plazo; suprimir AD; evaluar y tratar hipotiroidismo; reducir consumo de sustancias.',
+  nt:'La evaluación exhaustiva de factores precipitantes modificables (AD activos, hipotiroidismo subclínico, TUS, privación de sueño, estrés crónico) es mandatoria antes de escalar el tratamiento. Muchos ciclados ultrarrápidos se resuelven parcialmente al eliminar el factor precipitante.'
+},
+agdp:{
+  au:'Koukopoulos et al., J Affect Disord, 2013; Benazzi F',
+  desc:'Agitación psicomotriz intensa en el contexto de un episodio depresivo mayor. Marcador cardinal de naturaleza mixta según los criterios de Koukopoulos. La combinación activación-disforia eleva significativamente el riesgo suicida.',
+  feats:['Agitación psicomotriz intensa en episodio depresivo','Angustia difusa de alta intensidad y difícil modulación','Marcador cardinal de estado mixto según Koukopoulos','Alto riesgo suicida por la combinación activación + disforia','Frecuente precipitante de consultas en urgencias psiquiátricas'],
+  tx:'BZD a corto plazo para la agitación aguda; antipsicóticos atípicos (quetiapina, olanzapina); estabilizadores del ánimo; TEC de primera elección en formas graves o con alto riesgo suicida; evitar AD en monoterapia.',
+  nt:'La combinación activación + disforia es el factor de mayor riesgo suicida en la práctica clínica. Frecuentemente precipitada o agravada por AD en monoterapia. La agitación depresiva constituye un marcador de urgencia clínica que exige evaluación inmediata del riesgo suicida.'
+},
+drea:{
+  au:'Nosología dinámica; conceptualización leonhardiana',
+  desc:'Estado disfórico precipitado por eventos ambientales adversos, con componente de activación mixta y alta reactividad emocional. Límite difuso con trastorno adaptativo y con los estados mixtos subumbrales del espectro bipolar.',
+  feats:['Precipitante ambiental identificable en estrecha relación temporal','Disforia con componente de activación (no depresión pura inhibida)','Alta reactividad afectiva al entorno interpersonal y situacional','Frontera clínica con trastorno adaptativo y TEPT complejo','Componente mixto subumbral frecuentemente presente'],
+  tx:'Psicoterapia prioritaria (IPSRT, TCC, humanístico-integrativa); estabilizadores a corto plazo si hay impacto funcional severo o riesgo de escalada; evitar AD sin cobertura estabilizadora.',
+  nt:'Una de las presentaciones más frecuentes en clínica con el diagnóstico diferencial más complejo. El riesgo real es la prescripción inapropiada de AD en formas que tienen naturaleza mixta no reconocida. La anamnesis longitudinal y la evaluación del curso prospectivo son fundamentales.'
+},
+emsu:{
+  au:'Benazzi F, Bipolar Disord, 2004; Koukopoulos A',
+  desc:'Coexistencia de síntomas maníacos/hipomaníacos y depresivos sin alcanzar umbrales categoriales para ningún episodio definido. Probablemente las presentaciones más frecuentes del espectro bipolar en la práctica clínica real.',
+  feats:['Síntomas de ambos polos presentes simultáneamente sin criterios episódicos completos','Mayor frecuencia que episodios puros en muestras de psiquiatría ambulatoria (Benazzi)','Asociados a peor pronóstico funcional y mayor riesgo suicida que episodios puros','Base conceptual de las operacionalizaciones de Koukopoulos y Akiskal','No capturados adecuadamente por los sistemas categoriales DSM-5/CIE-11'],
+  tx:'Estabilizadores del ánimo; evitar AD; psicoeducación intensiva sobre reconocimiento de mixticidad.',
+  nt:'Benazzi y Koukopoulos argumentaron que los estados mixtos subumbrales son la norma clínica, no la excepción. Su infradiagnóstico masivo es la causa principal de prescripción inadecuada de AD en espectro bipolar. Son la forma de presentación más frecuente en psiquiatría ambulatoria y APS.'
+},
+dmko:{
+  au:'Koukopoulos A et al., J Affect Disord, 2013',
+  desc:'Episodio depresivo mayor con al menos 3 síntomas hipomaníacos concurrentes según los criterios de Koukopoulos, que incluyen específicamente el pensamiento acelerado, la irritabilidad y la agitación como marcadores positivos de manía sobre fondo depresivo.',
+  feats:['EDM completo + ≥3 síntomas hipomaníacos concurrentes','Pensamiento acelerado o vuelo de ideas disfórico','Irritabilidad marcada durante el episodio depresivo','Agitación psicomotriz como síntoma cardinal','Mayor sensibilidad para detectar mixticidad que el especificador DSM-5'],
+  tx:'Estabilizadores del ánimo (valproato 1ª línea por eficacia específica en disforia y agitación; litio); quetiapina; evitar AD en monoterapia.',
+  nt:'Los criterios de Koukopoulos identifican más pacientes en riesgo de iatrogenia por AD que el especificador de "características mixtas" del DSM-5. Su aplicación sistemática en la práctica clínica reduce significativamente el riesgo de prescripción inadecuada en la depresión bipolar mixta.'
+},
+crpd:{
+  au:'DSM-5-TR (especificador de curso); Dunner & Fieve, Am J Psychiatry, 1974',
+  desc:'Especificador de curso: 4 o más episodios afectivos plenos (maníacos, hipomaníacos, mixtos o depresivos) en un período de 12 meses. Mayor resistencia farmacológica, alta asociación con hipotiroidismo, TUS y uso de antidepresivos.',
+  feats:['≥4 episodios afectivos plenos en 12 meses según criterios formales','Mayor prevalencia en mujeres (3:1 respecto a hombres)','Alta asociación con hipotiroidismo subclínico (evaluar TSH sistemáticamente)','Frecuente asociación con TUS y uso activo de AD','Peor pronóstico funcional y resistencia farmacológica relativa'],
+  tx:'Valproato (1ª línea específica para ciclado rápido); carbamazepina (2ª línea); evaluar y tratar hipotiroidismo activamente; reducir o suprimir AD; reducir consumo de sustancias.',
+  nt:'El ciclado rápido no siempre es estable: muchos pacientes alternan períodos de CR con fases de ciclación más lenta. Dunner & Fieve (1974) lo describieron originalmente en el contexto del fracaso terapéutico con litio, lo que orientó a la búsqueda de alternativas como el valproato.'
+},
+minv:{
+  au:'Emil Kraepelin, Psychiatrie 8.ª edición (1913)',
+  desc:'Concepto kraepeliniano para la depresión de inicio tardío (>40–50 años) con agitación prominente, ansiedad severa y presentación clínica diferenciada de las depresiones del adulto joven. Eliminada del DSM-III en 1980 por falta de validación empírica suficiente.',
+  feats:['Inicio tardío: cuarta a quinta décadas o posterior','Agitación prominente y ansiedad severa como síntomas dominantes','Kraepelin la separó de la PMD en su nosología tardía','Relación con las formas mixtas tardías del espectro actual','Eliminada del DSM-III (1980) y no recuperada en versiones posteriores'],
+  tx:'AD + antipsicóticos a dosis bajas en formas agitadas; TEC de primera elección en formas graves o refractarias; la agitación orienta a cobertura con estabilizador.',
+  nt:'Eliminada del DSM-III en 1980, su herencia conceptual es relevante para entender la heterogeneidad del espectro depresivo tardío y las tensiones entre el modelo kraepeliniano (continuo afectivo) y los sistemas categoriales contemporáneos.'
+},
+pcic:{
+  au:'K. Kleist (1921); K. Leonhard, Aufteilung der endogenen Psychosen (1957)',
+  desc:'Psicosis de inicio agudo (habitualmente horas a pocos días), polimorfismo sintomático cambiante, naturaleza afectiva dominante y excelente pronóstico episódico. Zona de frontera entre el espectro bipolar y las psicosis atípicas.',
+  feats:['Inicio agudo: horas a días de instauración del cuadro completo','Polimorfismo sintomático: síntomas cambiantes y fluctuantes','Excelente pronóstico episódico: generalmente autolimitada','Naturaleza afectiva dominante en la mayor parte de los casos','Tipos leonhardianos: de la motilidad, de la confusión, ansiedad-felicidad'],
+  tx:'Litio (especialmente eficaz en formas recurrentes); antipsicóticos a corto plazo en fase aguda; excelente respuesta al TEC documentada; mejor pronóstico que la esquizofrenia.',
+  nt:'La psicosis cicloide plantea la continuidad conceptual entre espectro bipolar y psicosis atípicas. Mejor pronóstico global que la esquizofrenia. Refleja la tensión fundamental entre clasificación categorial (DSM/CIE) y dimensional (continuo psicótico-afectivo).'
+},
+fatip:{
+  au:'Kraepelin, Leonhard, Kleist, Kretschmer (s. XIX–XX)',
+  desc:'Conjunto heterogéneo de presentaciones afectivas históricamente descritas (psicosis de la confusión, depresiones atípicas leonhardianas, formas mixtas kraepelinianas) sin operacionalización actual en los sistemas clasificatorios vigentes.',
+  feats:['Entidades de Kraepelin, Leonhard y Kleist sin equivalente DSM-5/CIE-11','Sin criterios diagnósticos operacionales en sistemas clasificatorios actuales','Relevancia heurística para la nosología dimensional y la comprensión del espectro','Incluye formas que los sistemas modernos "redistribuyen" entre TB I, esquizoafectivo y psicosis NOS','Valor educativo y formativo indispensable en psicopatología clínica'],
+  tx:'Individualizado según la presentación clínica actual; los principios terapéuticos de las entidades progenitoras (litio, TEC, estabilizadores) siguen siendo válidos.',
+  nt:'Indispensables para cuestionar la rigidez de los sistemas clasificatorios actuales. La historia de la psicopatología clínica es inseparable de su comprensión profunda. Las clasificaciones actuales no son descubrimientos sino convenciones sujetas a revisión continua.'
+},
+munip:{
+  au:'Klerman GL (1981); Shulman KI & Tohen M',
+  desc:'Manía recurrente sin episodios depresivos documentados a lo largo de todo el curso evolutivo. Prevalencia <5% de todos los trastornos bipolares. Mayor frecuencia reportada en culturas no occidentales y en adultos mayores.',
+  feats:['Episodios maníacos recurrentes sin depresión documentada en ningún momento','Prevalencia <5% de todos los TB; más frecuente en culturas no occidentales','Alta tasa de conversión eventual a TB I con depresiones tardías','El DSM-5 la clasifica dentro del TB I sin distinción','Plantea preguntas conceptuales fundamentales sobre la bipolaridad'],
+  tx:'Similar al TB I: litio (especialmente eficaz en manía pura recurrente), valproato, antipsicóticos atípicos en agudo.',
+  nt:'Plantea la pregunta conceptual central: ¿es la depresión condición necesaria de la bipolaridad? Algunos la interpretan como TB I con depresiones no detectadas o aún no manifestadas en el momento del seguimiento. Las diferencias culturales en su prevalencia sugieren factores etiológicos heterogéneos.'
+},
+eafb:{
+  au:'DSM-5-TR / CIE-11',
+  desc:'Subtipo bipolar del trastorno esquizoafectivo: síntomas psicóticos presentes en períodos intersticiales (fuera de episodios afectivos plenos) con historia de episodios maníacos o mixtos. Zona de frontera nosológica entre espectro bipolar y esquizofrénico de baja estabilidad diagnóstica.',
+  feats:['Síntomas psicóticos intersticiales documentados fuera de episodios afectivos','Episodios maníacos o mixtos plenos en el curso evolutivo','Zona de frontera entre espectro bipolar y esquizofrénico','Mayor respuesta a estabilizadores que el subtipo depresivo del esquizoafectivo','Baja estabilidad diagnóstica en seguimientos longitudinales: frecuente reclasificación'],
+  tx:'Combinación de estabilizadores + antipsicóticos (litio o valproato + olanzapina, quetiapina o aripiprazol); TEC en episodios agudos graves.',
+  nt:'Una de las categorías con menor validez nosológica en psiquiatría. Los estudios de seguimiento muestran alta inestabilidad diagnóstica. La perspectiva del continuo psicótico-afectivo (Craddock & Owen) la relativiza conceptualmente, interpretándola como una zona del espectro más que una entidad discreta.'
+},
+cbip:{
+  au:'Crow TJ (Einheitspsychose moderna); Craddock & Owen, Lancet, 2005; PGC 2013, 2019',
+  desc:'Modelo dimensional de continuo entre el polo afectivo puro (TB I) y el polo esquizofrénico puro, con el trastorno esquizoafectivo como zona intermedia. Apoyado por el Psychiatric Genomics Consortium (factores genéticos compartidos) y por estudios de neuroimagen.',
+  feats:['Factores genéticos compartidos documentados por GWAS (PGC 2013, 2019)','Agregación familiar transdiagnóstica: familiares de TB tienen mayor riesgo de esquizofrenia','Trastorno esquizoafectivo como zona intermedia del continuo','Apoyo de neuroimagen (gradientes morfológicos) y estudios de endofenotipos','Cuestiona radicalmente la frontera categorial TB–Esquizofrenia'],
+  tx:'Ajustado al perfil individual dentro del continuo: más estabilizadores en polo afectivo, más antipsicóticos en polo esquizofrénico; clozapina en formas con alta carga psicótica refractaria.',
+  nt:'El Psychiatric Genomics Consortium (2013, 2019) proporciona la base genómica más robusta para el modelo del continuo psicótico-afectivo. Craddock & Owen (2005) en Lancet sistematizaron la evidencia. El concepto tiene implicaciones directas para la política farmacológica individualizada.'
+},
+pck:{
+  au:'Ernst Kretschmer, Körperbau und Charakter (1921)',
+  desc:'Tipo constitucional kretschmeriano definido por oscilaciones afectivas leves entre estados de humor relativamente elevado y deprimido, asociado al biotipo pícnico. Antecedente histórico directo de la ciclotimia y del temperamento ciclotímico actuales.',
+  feats:['Labilidad afectiva constitucional como rasgo estable del carácter','Alternancia entre estados de humor elevado y deprimido de intensidad leve','Sociabilidad variable correlacionada con el estado de ánimo momentáneo','Biotipo pícnico preferente en la descripción original','Antecedente histórico directo de la ciclotimia DSM-5 y la TEMPS-A'],
+  tx:'Manejo temperamental; psicoeducación sobre el patrón; no implica tratamiento farmacológico per se.',
+  nt:'Precursor histórico directo de la ciclotimia y del temperamento ciclotímico de la TEMPS-A. Relevancia principalmente conceptual e histórica, pero indispensable para comprender la continuidad nosológica entre temperamento constitucional y trastorno afectivo en la tradición psiquiátrica europea.'
+},
+ctrn:{
+  au:'Nosología en revisión activa (APA, OMS, 2019–2022)',
+  desc:'Entidades cuya ubicación en el espectro bipolar está en revisión activa por la APA y la OMS: TB infanto-juvenil, DMDD, ciclotimia infanto-juvenil, bipolaridad subumbral pediátrica y cambios sustanciales en la transición CIE-10→CIE-11.',
+  feats:['TB en infancia/adolescencia: criterios adaptativos debatidos activamente','DMDD (DSM-5): creado para contener el sobrediagnóstico de TB pediátrico en EEUU','Ciclotimia infanto-juvenil: infradiagnosticada y con criterios específicos de tiempo','Cambios significativos en CIE-11 respecto a CIE-10 en todo el espectro bipolar','Revisión activa en curso por APA (DSM-5.1) y OMS'],
+  tx:'Individualizado; especial cautela farmacológica en población pediátrica y adolescente; litio y quetiapina con mayor evidencia en esta franja etaria.',
+  nt:'La CIE-11 introduce cambios sustanciales en el espectro bipolar respecto a CIE-10. El DMDD fue creado explícitamente para contener el sobrediagnóstico de TB pediátrico en EEUU. La nosología pediátrica bipolar es el campo con mayor controversia activa en el espectro.'
+}
+};
+
+const E=[
+{id:'tb1',n:'Trastorno Bipolar I',ab:'TB I',c:1,a:-15,cs:'h'},
+{id:'tb2',n:'Trastorno Bipolar II',ab:'TB II',c:1,a:195,cs:'h'},
+{id:'cicl',n:'Ciclotimia',ab:'Cicl.',c:1,a:108,cs:'h'},
+{id:'mxto',n:'Episodio con características mixtas',ab:'Ep.mx.',c:1,a:58,cs:'h'},
+{id:'bp3',n:'BP III: viraje por antidepresivos',ab:'BP III',c:2,a:313,cs:'m'},
+{id:'bp3b',n:'BP IIIb: hipomanía breve recurrente',ab:'BP IIIb',c:2,a:349,cs:'m'},
+{id:'bp4',n:'BP IV: depresión hipertímica',ab:'BP IV',c:2,a:200,cs:'m'},
+{id:'bp2h',n:'BP II½: depresión atípica bipolar',ab:'BP II½',c:2,a:337,cs:'m'},
+{id:'hsue',n:'Hipersensibilidad a privación de sueño',ab:'S.sueño',c:2,a:38,cs:'m'},
+{id:'mvul',n:'Marcadores de vulnerabilidad bipolar',ab:'M.vuln.',c:2,a:68,cs:'m'},
+{id:'vcir',n:'Vulnerabilidad circadiana',ab:'V.circ.',c:2,a:100,cs:'m'},
+{id:'tcic',n:'Temperamento ciclotímico',ab:'T.cicl.',c:2,a:135,cs:'m'},
+{id:'tkre',n:'Temperamento afectivo (Kretschmer)',ab:'T.kret.',c:2,a:170,cs:'l'},
+{id:'floa',n:'Floater afectivo / oscilaciones interepisódicas',ab:'Floater',c:2,a:232,cs:'m'},
+{id:'smix',n:'Síntomas mixtos breves recurrentes',ab:'S.mx.br.',c:2,a:272,cs:'m'},
+{id:'vest',n:'Vulnerabilidad al estrés psicosocial',ab:'V.estrés',c:2,a:294,cs:'m'},
+{id:'hdis',n:'Hipomanía disfórica',ab:'H.disf.',c:3,a:3,cs:'m'},
+{id:'raft',n:'Reactividad afectiva elevada',ab:'R.afec.',c:3,a:36,cs:'m'},
+{id:'bsof',n:'Bipolaridad suave',ab:'Bip.sv.',c:3,a:65,cs:'m'},
+{id:'drec',n:'Depresión recurrente + hipomanía breve interepisódica',ab:'D+H.br.',c:3,a:90,cs:'m'},
+{id:'snad',n:'Sensibilidad a antidepresivos',ab:'Sen.AD',c:3,a:117,cs:'m'},
+{id:'riad',n:'Riesgo de empeoramiento con AD',ab:'R.AD',c:3,a:143,cs:'m'},
+{id:'labf',n:'Labilidad afectiva',ab:'Lab.af.',c:3,a:167,cs:'m'},
+{id:'cul',n:'Ciclado ultrarrápido / ultradiano',ab:'Cic.ul.',c:3,a:197,cs:'m'},
+{id:'agdp',n:'Agitación depresiva',ab:'Ag.dep.',c:3,a:222,cs:'m'},
+{id:'drea',n:'Disforia reactiva',ab:'D.reac.',c:3,a:270,cs:'l'},
+{id:'emsu',n:'Estados mixtos subumbrales',ab:'E.mx.s.',c:3,a:303,cs:'m'},
+{id:'dmko',n:'Depresión mixta (Koukopoulos)',ab:'D.mx.K.',c:3,a:332,cs:'m'},
+{id:'crpd',n:'Ciclado rápido (≥4 episodios/año)',ab:'Cic.rp.',c:3,a:250,cs:'h'},
+{id:'minv',n:'Melancolía involutiva (Kraepelin)',ab:'M.inv.',c:4,a:284,cs:'l'},
+{id:'pcic',n:'Psicosis cicloide (Leonhard-Kleist)',ab:'P.cicl.',c:4,a:20,cs:'l'},
+{id:'fatip',n:'Formas atípicas históricas',ab:'F.atíp.',c:4,a:68,cs:'l'},
+{id:'munip',n:'Manía unipolar (entidad discutida)',ab:'M.unip.',c:4,a:316,cs:'l'},
+{id:'eafb',n:'Esquizoafectivo bipolar (zona puente)',ab:'EA.bip.',c:4,a:256,cs:'l'},
+{id:'cbip',n:'Continuo bipolar-esquizoafectivo',ab:'C.bip.',c:4,a:226,cs:'l'},
+{id:'pck',n:'Personalidad cicloide (Kretschmer)',ab:'P.c.k.',c:4,a:176,cs:'l'},
+{id:'ctrn',n:'Categorías nosológicas en transición',ab:'C.trns.',c:4,a:132,cs:'l'},
+];
+
+const TMP=[
+{n:'Depresivo/Ansioso',col:'#4a7cb5',p:'Polo depresivo ansioso',tr:['Inhibición','Ansiedad','Evitación','Pesimismo','Sensibilidad alta'],d:'Alta sensibilidad emocional con tendencia inhibitoria, evitativa y ruminativa. Afín al espectro depresivo unipolar. Evaluado con subescala depresiva/ansiosa de la TEMPS-A. Asociado a mayor riesgo de depresión mayor recurrente.'},
+{n:'Depresión Pura',col:'#3a5580',p:'Polo depresivo nuclear',tr:['Inhibición marcada','Pesimismo crónico','Rumiación','Anhedonia','Baja energía'],d:'Temperamento depresivo nuclear sin elementos ciclotímicos apreciables. Precursor constitucional de las formas depresivas unipolares puras. Diferenciable del depresivo/ansioso por ausencia de ansiedad reactiva prominente y mayor estabilidad del bajo tono.'},
+{n:'Ciclotímico',col:'#7b5ea7',p:'Polo mixto/ciclotímico',tr:['Variabilidad afectiva','Cambios rápidos','Sensibilidad alta','Creatividad','Búsqueda novedad'],d:'Mayor afinidad con el TB II. La labilidad es el rasgo nuclear estable. Mayor riesgo de conversión a TB II con el tiempo. La TEMPS-A (subescala ciclotímica, Akiskal/Rihmer) es el instrumento de referencia. Presente en población general: ~3-5%.'},
+{n:'Hipertímico',col:'#2a7a50',p:'Polo maníaco',tr:['Sociabilidad alta','Energía elevada','Optimismo','Autoeficacia','Búsqueda logro'],d:'Expresión temperamental del polo maníaco. Asociado a productividad y liderazgo pero también a riesgo de BP IV. La TEMPS-A (subescala hipertímica) lo operacionaliza. Relevante para el diagnóstico de BP IV (depresión sobre fondo hipertímico).'},
+];
+
+const TRAJ=[
+[1,'Depresión recurrente','Hipomanía breve → Episodio mixto','TB I/II','p'],
+[2,'Ciclotimia','Hipomanía breve recurrente','TB II','p'],
+[3,'Irritabilidad persistente','Ciclado rápido','Episodios mixtos','b'],
+[4,'Vulnerabilidad + privación de sueño',null,'Estados mixtos','t'],
+[5,'Tratamiento antidepresivo',null,'Viraje hipomanía/manía','i'],
+[6,'Sensibilidad a AD','Viraje','Ciclado rápido','i'],
+[7,'Estados mixtos subumbrales','Episodio mixto','TB I/II','p'],
+[8,'Bipolaridad suave + carga alostática',null,'Episodios mayores','t'],
+[9,'Temperamento ciclotímico','Labilidad afectiva','Episodios recurrentes','p'],
+];
+
+const MODS=[
+{t:'Privación de sueño',d:'Factor precipitante más potente de episodios hipomaníacos y mixtos en sujetos vulnerables.'},
+{t:'Estrés psicosocial',d:'Modelo de kindling (Post): sensibilización progresiva del sistema límbico con cada episodio.'},
+{t:'Ritmos circadianos/estacionalidad',d:'Estacionalidad documentable: picos maníacos en primavera, depresivos en otoño-invierno.'},
+{t:'Consumo de sustancias (NPS/chemsex)',d:'Estimulantes, cannabis, GHB, MDMA: precipitantes y mantenedores de ciclación.'},
+{t:'Adherencia al tratamiento',d:'La no adherencia al litio aumenta el riesgo de rebote maníaco y suicidio.'},
+{t:'Soporte social',d:'Red de apoyo estable como factor protector independiente del tratamiento farmacológico.'},
+{t:'Comorbilidades (TUS, TLP, TDAH)',d:'Alta prevalencia de comorbilidades que complican el diagnóstico y el tratamiento.'},
+{t:'Inflamación/carga alostática',d:'Factor exploratorio emergente: biomarcadores inflamatorios en fases depresivas.'},
+];
+
+const TLJBL={p:'Progresión',t:'Desencadenante',i:'Iatrogénica',b:'Bidireccional'};
+const TLCLS={p:'bp',t:'bt',i:'bi',b:'bb'};
+let showLbls=true,selId=null;
+
+function nel(t,a,p){const e=document.createElementNS(NS,t);for(const[k,v]of Object.entries(a))e.setAttribute(k,String(v));if(p)p.appendChild(e);return e}
+
+function buildMap(){
+  const rg=document.getElementById('rg'),ng=document.getElementById('ng');
+  rg.innerHTML='';ng.innerHTML='';
+  for(let c=4;c>=1;c--){
+    nel('circle',{cx:CX,cy:CY,r:RA[c],fill:CF[c],stroke:CC[c],'stroke-width':c===1?'1.5':'1','stroke-dasharray':c===4?'7,4':''},rg);
+  }
+  // Etiquetas de círculos
+  [[1,'C1'],[2,'C2'],[3,'C3'],[4,'C4']].forEach(([c,lbl])=>{
+    const t=nel('text',{x:CX+3,y:CY-RA[c]+11,fill:CC[c],'font-size':'9',opacity:'.55','pointer-events':'none',style:'font-family:var(--fm)'},rg);
+    t.textContent=lbl;
+  });
+  const xg=nel('g',{opacity:'.04'},rg);
+  nel('line',{x1:CX-RA[4]-8,y1:CY,x2:CX+RA[4]+8,y2:CY,stroke:'currentColor','stroke-width':'.5','stroke-dasharray':'2,10'},xg);
+  nel('line',{x1:CX,y1:CY-RA[4]-8,x2:CX,y2:CY+RA[4]+8,stroke:'currentColor','stroke-width':'.5','stroke-dasharray':'2,10'},xg);
+  E.forEach(e=>{
+    const r=RA[e.c],rad=e.a*Math.PI/180;
+    const nx=CX+r*Math.cos(rad),ny=CY+r*Math.sin(rad);
+    const g=nel('g',{cursor:'pointer','data-id':e.id},ng);
+    nel('line',{x1:nx,y1:ny,x2:CX+(r+(showLbls?14:4))*Math.cos(rad),y2:CY+(r+(showLbls?14:4))*Math.sin(rad),stroke:CC[e.c],'stroke-width':'.6',opacity:'.3'},g);
+    if(showLbls){
+      const ca=Math.cos(rad),sa=Math.sin(rad);
+      const lx=CX+(r+18)*ca,ly=CY+(r+18)*sa;
+      const t=nel('text',{x:lx,y:ly,'text-anchor':ca>=0.1?'start':ca<=-0.1?'end':'middle','dominant-baseline':sa>0.3?'hanging':sa<-0.3?'auto':'middle',fill:'currentColor',opacity:'.55','font-size':'8.5','pointer-events':'none',style:'font-family:var(--fm)'},g);
+      t.textContent=e.ab;
+    }
+    const dot=nel('circle',{cx:nx,cy:ny,r:'5',fill:CONC[e.cs],stroke:CC[e.c],'stroke-width':'1.5',class:'nd'},g);
+    g.addEventListener('mouseenter',()=>{dot.setAttribute('r','7');dot.setAttribute('stroke-width','2');showTT(e,nx,ny)});
+    g.addEventListener('mouseleave',()=>{if(selId!==e.id){dot.setAttribute('r','5');dot.setAttribute('stroke-width','1.5')}hideTT()});
+    g.addEventListener('click',()=>selEnt(e));
+  });
+}
+
+function showTT(e,nx,ny){
+  const tg=document.getElementById('ttg'),tb=document.getElementById('ttbg'),tn=document.getElementById('ttnm'),ts=document.getElementById('ttsb');
+  const nm=e.n.length>38?e.n.substring(0,36)+'…':e.n;
+  tn.textContent=nm;ts.textContent=CRL[e.c]+' · '+CNL[e.cs];
+  const w=Math.min(nm.length*6.2+22,230),h=34;
+  let tx=nx+10,ty=ny-h-5;
+  if(tx+w>675)tx=nx-w-10;if(ty<5)ty=ny+10;
+  tb.setAttribute('x',tx);tb.setAttribute('y',ty);tb.setAttribute('width',w);tb.setAttribute('height',h);
+  tn.setAttribute('x',tx+8);tn.setAttribute('y',ty+13);
+  ts.setAttribute('x',tx+8);ts.setAttribute('y',ty+26);
+  tg.setAttribute('visibility','visible');
+}
+function hideTT(){document.getElementById('ttg').setAttribute('visibility','hidden')}
+
+function selEnt(e){
+  if(selId&&selId!==e.id){const p=document.querySelector('[data-id="'+selId+'"] .nd');if(p){p.setAttribute('r','5');p.setAttribute('stroke-width','1.5')}}
+  selId=e.id;
+  const nd=document.querySelector('[data-id="'+e.id+'"] .nd');
+  if(nd){nd.setAttribute('r','7.5');nd.setAttribute('stroke-width','2')}
+  showTab('det');
+  const f=FIC[e.id];
+  if(!f){document.getElementById('tc-det').innerHTML='<div class="dbox"><div class="dname">'+e.n+'</div><p style="font-size:12px;color:var(--tx2)">Ficha no disponible.</p></div>';return;}
+  document.getElementById('tc-det').innerHTML=
+    '<div class="dbox">'
+    +'<div class="dbdg" style="color:'+CC[e.c]+';border-color:'+CC[e.c]+'40">'+CRL[e.c]+'</div>'
+    +'<div class="dname">'+e.n+'</div>'
+    +'<div class="dauth">'+f.au+'</div>'
+    +'<div class="ddesc">'+f.desc+'</div>'
+    +'<div class="dsh">Características clínicas clave</div>'
+    +'<ul class="dfeats">'+f.feats.map(x=>'<li>'+x+'</li>').join('')+'</ul>'
+    +'<div class="dsh">Orientación farmacoterapéutica</div>'
+    +'<div class="dtx">'+f.tx+'</div>'
+    +'<div class="dsh">Nota clínica</div>'
+    +'<div class="dnote">'+f.nt+'</div>'
+    +'<div class="dcons"><div style="width:8px;height:8px;border-radius:50%;background:'+CONC[e.cs]+';flex-shrink:0"></div>Nivel de consenso: <strong style="font-weight:500;color:var(--tx)">'+CNL[e.cs]+'</strong></div>'
+    +'</div>';
+}
+
+function resetSel(){
+  if(selId){const nd=document.querySelector('[data-id="'+selId+'"] .nd');if(nd){nd.setAttribute('r','5');nd.setAttribute('stroke-width','1.5')}selId=null}
+  document.getElementById('tc-det').innerHTML='<div style="font-size:13px;color:var(--tx2);padding:10px 0">Selecciona una entidad en el mapa para ver su ficha clínica completa.</div>';
+  showTab('det');
+}
+function toggleLbls(){showLbls=!showLbls;document.getElementById('blbl').classList.toggle('on',showLbls);buildMap()}
+function showTab(id){['det','temp','traj','mods'].forEach(t=>{document.getElementById('tc-'+t).classList.toggle('active',t===id);document.getElementById('tb-'+t).classList.toggle('on',t===id)})}
+
+document.getElementById('tgrd').innerHTML=TMP.map((t,i)=>'<div class="tcard" onclick="showTD('+i+')"><div class="tpole">'+t.p+'</div><div class="tname" style="color:'+t.col+'">'+t.n+'</div><div class="traits">'+t.tr.map(x=>'<span class="trait">'+x+'</span>').join('')+'</div></div>').join('');
+
+function showTD(i){
+  const t=TMP[i];showTab('det');
+  document.getElementById('tc-det').innerHTML='<div class="dbox">'
+    +'<div class="dbdg" style="color:'+t.col+';border-color:'+t.col+'40">Temperamento afectivo · '+t.p+'</div>'
+    +'<div class="dname">'+t.n+'</div>'
+    +'<div class="dauth">TEMPS-A · Akiskal, Rihmer et al. · Validada al español</div>'
+    +'<div class="ddesc">'+t.d+'</div>'
+    +'<div class="dsh">Rasgos definitorios</div>'
+    +'<ul class="dfeats">'+t.tr.map(x=>'<li>'+x+'</li>').join('')+'</ul>'
+    +'</div>';
+}
+
+document.getElementById('trjgrd').innerHTML=TRAJ.map(t=>'<div class="tri">'
+  +'<span class="tnum">'+t[0]+'</span>'
+  +'<span style="color:var(--tx2)">'+t[1]+'</span>'
+  +(t[2]?'<span class="tarr">→</span><span class="tstp">'+t[2]+'</span>':'')
+  +'<span class="tarr">→</span>'
+  +'<strong style="font-weight:500">'+t[3]+'</strong>'
+  +'<span class="tbdg '+TLCLS[t[4]]+'">'+TLJBL[t[4]]+'</span>'
+  +'</div>').join('');
+
+document.getElementById('mgrd').innerHTML=MODS.map(m=>'<div title="'+m.d+'" style="background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--rm);padding:4px 9px;font-size:12px;color:var(--tx2);cursor:default">'+m.t+'</div>').join('');
+
+buildMap();
+</script>
+</body>
+</html>
