@@ -44,6 +44,7 @@ body.eink .searchbox input{border:2px solid #000;background:#fff}
 .dd .hint{padding:8px 10px;color:var(--muted);font-size:.75rem}
 .tools{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
 .brk{flex-basis:100%;height:0}
+.fsep{width:1px;align-self:stretch;margin:4px 2px;background:var(--topmuted);opacity:.45}
 .feat{display:flex;gap:8px;flex-wrap:wrap}
 .fb{display:flex;align-items:center;gap:9px;background:var(--accent2);color:#1a1209;border:1px solid var(--accent2);border-radius:7px;padding:6px 14px 6px 10px;text-align:left;box-shadow:0 1px 0 rgba(255,255,255,.18) inset,0 2px 6px rgba(0,0,0,.35);transition:transform .08s,filter .12s}
 .fb:hover{filter:brightness(1.08);transform:translateY(-1px)}
@@ -56,6 +57,9 @@ body.eink .searchbox input{border:2px solid #000;background:#fff}
 .cnt{display:inline-block;min-width:1.5em;text-align:center;padding:0 5px;margin-left:3px;border-radius:9px;background:rgba(0,0,0,.22);color:inherit;font-size:.74rem;font-weight:700;line-height:1.45}
 .fb .cnt{background:#1a1209;color:var(--accent2)}
 .tb .cnt{background:var(--accent2);color:#1a1209}
+.fb.on{background:transparent;color:var(--accent2);border:2px solid var(--accent2);padding:5px 13px 5px 9px}
+body.eink .fb.on{background:#000;color:#fff;border-color:#000}
+body.eink .fb.on .cnt{background:#fff;color:#000}
 body.eink .fb{background:#fff;color:#000;border:2px solid #000;box-shadow:none}
 body.eink .fb .cnt{background:#000;color:#fff}
 body.eink .tb .cnt{background:#000;color:#fff}
@@ -66,9 +70,30 @@ body.dark .fb{color:#150e06}
 body.eink .tb.on{border-width:2px;font-weight:700}
 body.eink .tb{border:1px solid #000;color:#000}
 /* ---------- paneles ---------- */
-.filters{grid-column:1;grid-row:2;width:240px;background:var(--paper);border-right:1px solid var(--line);overflow:auto;padding:10px 12px 30px;font-size:.8rem}
+.filters{grid-column:1;grid-row:2;width:256px;background:var(--paper);border-right:1px solid var(--line);overflow:auto;padding:10px 12px 30px;font-size:.8rem}
 .filters.off{display:none}
-.fgrp{margin-bottom:12px}
+.fgrp{margin:0;border-bottom:1px solid var(--line2)}
+.fgrp summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:9px 2px;font-size:.78rem;font-weight:600;color:var(--ink);user-select:none}
+.fgrp summary::-webkit-details-marker{display:none}
+.fgrp summary::before{content:"▸";font-size:.7rem;color:var(--muted);width:.9em;transition:transform .12s}
+.fgrp[open] summary::before{transform:rotate(90deg)}
+.fgrp summary:hover .gt{text-decoration:underline}
+.gn{margin-left:auto;background:var(--ink);color:var(--paper);border-radius:9px;padding:0 7px;font-size:.68rem;line-height:1.5}
+.chips{padding:0 0 10px 14px}
+.gclr{display:block;margin-top:6px;border:none;background:none;color:var(--accent);font-size:.7rem;text-decoration:underline}
+.fsticky{position:sticky;top:-10px;margin:-10px -12px 6px;padding:10px 12px 8px;background:var(--paper);z-index:3;border-bottom:2px solid var(--line)}
+.fhead{display:flex;justify-content:space-between;align-items:center}
+.ftitle{font-family:var(--serif);font-size:1.15rem}
+.fhide{border:1px solid var(--line);background:var(--paper2);border-radius:4px;padding:3px 9px;font-size:.72rem}
+.fhide:hover{border-color:var(--accent)}
+.fact{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+.fclear{border:1px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:5px;padding:6px 10px;font-size:.78rem;font-weight:600}
+.fclear:disabled{opacity:.35;cursor:default}
+.fopt{padding:12px 2px 4px}
+.fnon{font-size:.72rem;color:var(--muted);display:flex;gap:6px;align-items:flex-start}
+.fon{color:var(--accent);font-weight:700}
+body.eink .fclear{background:#fff;color:#000;border:2px solid #000}
+body.eink .gn{background:#000;color:#fff}
 .fgrp h4{font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2px 0 5px;display:flex;justify-content:space-between;align-items:center}
 .fgrp h4 button{border:none;background:none;color:var(--accent);font-size:.62rem;letter-spacing:.06em}
 .chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--paper2);border-radius:12px;padding:2px 8px;margin:2px 2px 2px 0;font-size:.72rem;cursor:pointer;user-select:none}
@@ -110,6 +135,17 @@ body.eink .bdg{color:#000;border-color:#000}
 .sacts{display:flex;flex-wrap:wrap;gap:5px;padding:8px 16px;border-top:1px solid var(--line);background:var(--paper2)}
 .sbtn{border:1px solid var(--line);background:var(--paper);border-radius:4px;padding:4px 8px;font-size:.72rem}
 .sbtn:hover{border-color:var(--accent)}
+.sbig{display:flex;gap:8px;width:100%;margin-bottom:2px}
+.sbtn.big{flex:1 1 200px;display:flex;align-items:center;gap:10px;text-align:left;padding:9px 12px;border:1px solid var(--accent);background:var(--accent2);color:#1a1209;border-radius:7px;font-size:.8rem}
+.sbtn.big svg{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.sbtn.big span{display:flex;flex-direction:column;line-height:1.2}
+.sbtn.big b{font-size:.88rem}.sbtn.big small{font-size:.68rem;opacity:.82}
+.sbtn.big:hover{filter:brightness(1.07)}
+.sbtn.big.in{background:var(--paper);color:var(--ink);border:2px solid var(--accent)}
+.sbtn.big.alt{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+body.eink .sbtn.big{background:#fff;color:#000;border:2px solid #000}
+body.eink .sbtn.big.in{background:#000;color:#fff}
+body.dark .sbtn.big{color:#150e06}body.dark .sbtn.big.in{color:var(--ink)}
 .empty{padding:20px 16px;color:var(--muted);font-size:.86rem;line-height:1.6}
 .empty h3{font-family:var(--serif);font-weight:400;font-size:1.3rem;color:var(--ink);margin-bottom:6px}
 .empty kbd,.help kbd{border:1px solid var(--line);border-radius:3px;padding:0 4px;font-size:.75rem;background:var(--paper2)}
@@ -216,6 +252,10 @@ body.eink .nd.cs-l .sh{fill:#fff!important}
     </div>
     <div class="brk"></div>
     <div class="feat" role="toolbar" aria-label="Herramientas principales">
+      <button class="fb" id="bFilt" aria-pressed="false" title="Mostrar u ocultar el panel de filtros (sector, anillo, tipo, evidencia…)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg>
+        <span class="fbt"><b>Filtros <span class="cnt" id="filtN" hidden></span></b><small>sector, tipo, evidencia</small></span></button>
+      <span class="fsep" aria-hidden="true"></span>
       <button class="fb" id="bWkl" title="Guía diagnóstica WKL: trayectorias según el curso longitudinal, la polaridad y el dominio psicopatológico">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="5" r="2.2"/><circle cx="19" cy="9" r="2.2"/><circle cx="7" cy="19" r="2.2"/><path d="M6.8 6.4 17.2 8M17.6 10.8 8.6 17.6"/></svg>
         <span class="fbt"><b>Trayectorias WKL</b><small>guía por curso y polaridad</small></span></button>
@@ -232,7 +272,6 @@ body.eink .nd.cs-l .sh{fill:#fff!important}
     <div class="tools">
       <button class="tb" id="bBack" title="Atrás (Alt+←)">←</button>
       <button class="tb" id="bFwd" title="Adelante (Alt+→)">→</button>
-      <button class="tb" id="bFilt" title="Mostrar u ocultar el panel de filtros">Filtros <span class="cnt" id="filtN" hidden></span></button>
       <button class="tb" id="bLeg">Leyenda</button>
       <button class="tb" id="bTheme" title="Tema: claro / oscuro / e-ink">Tema</button>
       <button class="tb" id="bHelp">Ayuda</button>
@@ -348,7 +387,7 @@ function colOf(n){const s=secOf(n);return s?s.c:'#8a6820';}
 NODES.forEach(n=>{n._s=norm([n.n,n.ab,(n.al||[]).join(' '),(n.cie||[]).join(' ')].join(' '));n._t=norm([n.desc,(n.feats||[]).join(' '),n.note,n.tx,(n.sec||[]).map(s=>s.x).join(' ')].join(' '));n._r=norm((n.refs||[]).join(' '));});
 
 // ---------------- estado ----------------
-const st={view:store.get('view','nos'),sel:null,hist:[],hpos:-1,q:'',f:{sp:new Set(),ring:new Set(),k:new Set(),trad:new Set(),cs:new Set(),tags:new Set(),origen:new Set(),ev:new Set()},hideNon:false,theme:store.get('theme','light')};
+const st={view:store.get('view','nos'),sel:null,hist:[],hpos:-1,q:'',f:{sp:new Set(),ring:new Set(),k:new Set(),trad:new Set(),cs:new Set(),tags:new Set(),origen:new Set(),ev:new Set()},hideNon:false,fopen:new Set(store.get('fopen',['sp','k'])),theme:store.get('theme','light')};
 if(!VORDER.includes(st.view))st.view='nos';
 
 // ---------------- filtros ----------------
@@ -370,27 +409,33 @@ function viewNodes(v){return v==='idx'?NODES:v==='hist'?NODES.filter(n=>n.y!=nul
 function renderFilters(){
   const box=$('#filters');const v=st.view;const pool=viewNodes(v);
   const cnt=(key,val)=>pool.filter(n=>key==='tags'?(n.tags||[]).includes(val):String(n[key]==null?(key==='origen'?'v1':''):n[key])===val).length;
-  let h='<div class="fstat" id="fstat"></div>';
-  const grp=(title,key,items)=>{if(!items.length)return '';h+='<div class="fgrp"><h4>'+title+(st.f[key].size?'<button data-clr="'+key+'">limpiar</button>':'')+'</h4>';
-    items.forEach(([val,lab,col])=>{const c=cnt(key,val);if(!c&&!st.f[key].has(val))return;h+='<span class="chip'+(st.f[key].has(val)?' on':'')+'" data-k="'+key+'" data-v="'+esc(val)+'">'+(col?'<span class="sw" style="background:'+col+'"></span>':'')+esc(lab)+' <em>'+c+'</em></span>';});h+='</div>';};
+  let h='<div class="fsticky"><div class="fhead"><div class="ftitle">Filtros</div><button class="fhide" id="fHide" title="Ocultar el panel y ampliar el mapa">Ocultar ✕</button></div>'+
+    '<div class="fstat" id="fstat"></div>'+
+    '<div class="fact"><button class="fclear" id="clrAll"'+(anyFilter()?'':' disabled')+'>Limpiar todos los filtros</button></div></div>';
+  const opened=st.fopen;
+  const grp=(title,key,items)=>{if(!items.length)return '';const act=st.f[key].size;
+    h+='<details class="fgrp" data-g="'+key+'"'+(opened.has(key)||act?' open':'')+'><summary><span class="gt">'+title+'</span>'+(act?'<span class="gn">'+act+'</span>':'')+'</summary><div class="chips">';
+    items.forEach(([val,lab,col])=>{const c=cnt(key,val);if(!c&&!st.f[key].has(val))return;h+='<span class="chip'+(st.f[key].has(val)?' on':'')+'" data-k="'+key+'" data-v="'+esc(val)+'">'+(col?'<span class="sw" style="background:'+col+'"></span>':'')+esc(lab)+' <em>'+c+'</em></span>';});
+    h+=(act?'<button class="gclr" data-clr="'+key+'">Quitar esta selección</button>':'')+'</div></details>';};
   if(VIEWS[v])grp('Sector','sp',VIEWS[v].sectors.map(s=>[s.id,s.t,s.c]));
-  if(VIEWS[v])grp('Anillo','ring',VIEWS[v].rings.map((r,i)=>[String(i+1),(i+1)+'. '+r]));
   grp('Tipo de nodo','k',Object.entries(CFG.KINDS).map(([k,o])=>[k,o.t]));
-  grp('Etiquetas','tags',Object.entries(CFG.TAGS).map(([k,t])=>[k,t]));
-  grp('Tradición / escuela','trad',Object.entries(CFG.TRADS).map(([k,t])=>[k,t]));
-  grp('Consenso','cs',Object.entries(CFG.CS).map(([k,t])=>[k,t]));
+  grp('Etiquetas clínicas','tags',Object.entries(CFG.TAGS).map(([k,t])=>[k,t]));
+  if(VIEWS[v])grp('Anillo','ring',VIEWS[v].rings.map((r,i)=>[String(i+1),(i+1)+'. '+r]));
   grp('Evidencia predominante','ev',Object.entries(CFG.EV).map(([k,t])=>[k,t]));
+  grp('Consenso','cs',Object.entries(CFG.CS).map(([k,t])=>[k,t]));
+  grp('Tradición / escuela','trad',Object.entries(CFG.TRADS).map(([k,t])=>[k,t]));
   grp('Origen del contenido','origen',[['v1','Atlas v1 sin cambios'],['v1-corregido','Atlas v1 corregido'],['nuevo-corrección','Nuevo (derivado de corrección)'],['nuevo','Nuevo (ampliación v2)']]);
-  h+='<div class="fgrp"><label style="font-size:.75rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="hideNon"'+(st.hideNon?' checked':'')+'> Ocultar (no solo atenuar) lo que no coincide</label></div>';
-  h+='<div class="fgrp"><button class="sbtn" id="clrAll">Limpiar todos los filtros</button></div>';
+  h+='<div class="fopt"><label class="fnon"><input type="checkbox" id="hideNon"'+(st.hideNon?' checked':'')+'> Ocultar (no solo atenuar) lo que no coincide con los filtros</label></div>';
   box.innerHTML=h;updateStat();
 }
+$('#filters').addEventListener('toggle',e=>{const d=e.target;if(d.matches&&d.matches('details.fgrp')){d.open?st.fopen.add(d.dataset.g):st.fopen.delete(d.dataset.g);store.set('fopen',[...st.fopen]);}},true);
 $('#filters').addEventListener('click',e=>{const c=e.target.closest('.chip');if(c){const s=st.f[c.dataset.k];s.has(c.dataset.v)?s.delete(c.dataset.v):s.add(c.dataset.v);applyFilters();renderFilters();return;}
   const b=e.target.closest('[data-clr]');if(b){st.f[b.dataset.clr].clear();applyFilters();renderFilters();return;}
+  if(e.target.id==='fHide'){setFilt(false);return;}
   if(e.target.id==='clrAll'){Object.values(st.f).forEach(s=>s.clear());st.q='';$('#q').value='';applyFilters();renderFilters();}});
 $('#filters').addEventListener('change',e=>{if(e.target.id==='hideNon'){st.hideNon=e.target.checked;applyFilters();}});
 function updFiltBadge(){const n=Object.values(st.f).reduce((a,x)=>a+x.size,0);const b=$('#filtN');if(b){b.hidden=!n;b.textContent=n;}$('#bFilt').title=n?'Panel de filtros: '+n+' activos':'Mostrar u ocultar el panel de filtros';}
-function updateStat(){updFiltBadge();const pool=viewNodes(st.view);const vis=pool.filter(passes).length;const fs=$('#fstat');if(fs)fs.innerHTML='<b>'+vis+'</b> de '+pool.length+' nodos en esta vista'+(anyFilter()?' · filtros activos':'');}
+function updateStat(){updFiltBadge();const pool=viewNodes(st.view);const vis=pool.filter(passes).length;const fs=$('#fstat');if(fs)fs.innerHTML='<b>'+vis+'</b> de '+pool.length+' nodos visibles en esta vista'+(anyFilter()?' · <span class="fon">filtros activos</span>':'');const c=$('#clrAll');if(c)c.disabled=!anyFilter();}
 
 // ---------------- vistas radiales ----------------
 const R0=112,R1=440;const RADIAL={};
@@ -580,7 +625,7 @@ function renderSide(n){$('#side').classList.add('has');const sec=secOf(n);const 
   if((n.fusion||[]).length)h+='<div class="fs"><div class="fl">Fusión de duplicados</div><div class="fnote">Este nodo integra el contenido de nodos duplicados del atlas v1: '+esc(n.fusion.join(', '))+'.</div></div>';
   $('#sbody').innerHTML=h;$('#sbody').scrollTop=0;
   const sib=siblings(n);
-  $('#sacts').innerHTML=(n.vw!=='hist'?'<button class="sbtn" data-a="center">Ver en el mapa</button>':'')+'<button class="sbtn" data-a="prev"'+(sib.p?'':' disabled')+'>◂ Anterior del sector</button><button class="sbtn" data-a="next"'+(sib.n?'':' disabled')+'>Siguiente ▸</button><button class="sbtn" data-a="cmp">'+(CMP.includes(n.id)?'Quitar de comparación':'Añadir a comparación')+'</button><button class="sbtn" data-a="copy">Copiar enlace</button><button class="sbtn" data-a="print">Imprimir ficha</button><button class="sbtn" data-a="close">Cerrar</button>';}
+  $('#sacts').innerHTML='<div class="sbig"><button class="sbtn big'+(CMP.includes(n.id)?' in':'')+'" data-a="cmp"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7.5" height="16" rx="1.2"/><rect x="13.5" y="4" width="7.5" height="16" rx="1.2"/><path d="'+(CMP.includes(n.id)?'M5 12l2 2 3-4M15.5 12l2 2 3-4':'M6.75 9v6M3.75 12h6M17.25 9v6M14.25 12h6')+'"/></svg><span><b>'+(CMP.includes(n.id)?'Quitar de la comparación':'Añadir a comparación')+'</b><small>'+CMP.length+' de 4 en la comparación</small></span></button>'+(CMP.length>=2?'<button class="sbtn big alt" data-a="cmpopen"><span><b>Ver comparación ('+CMP.length+')</b><small>tabla lado a lado</small></span></button>':'')+'</div>'+(n.vw!=='hist'?'<button class="sbtn" data-a="center">Ver en el mapa</button>':'')+'<button class="sbtn" data-a="prev"'+(sib.p?'':' disabled')+'>◂ Anterior del sector</button><button class="sbtn" data-a="next"'+(sib.n?'':' disabled')+'>Siguiente ▸</button><button class="sbtn" data-a="copy">Copiar enlace</button><button class="sbtn" data-a="print">Imprimir ficha</button><button class="sbtn" data-a="close">Cerrar</button>';}
 function linkify(r){let s=escx(r);s=s.replace(/doi:(10\.[^\s,;]+)/g,(m,d)=>'<a href="https://doi.org/'+d+'" target="_blank" rel="noopener">doi:'+d+'</a>');s=s.replace(/PMID (\d+)/g,(m,d)=>'<a href="https://pubmed.ncbi.nlm.nih.gov/'+d+'/" target="_blank" rel="noopener">PMID '+d+'</a>');return s;}
 function refKind(r){if(/PMID|doi:/i.test(r))return['✓','Verificada (PubMed/DOI)'];if(/DSM|CIE-1|ICD-1|ICSD|Clasificación|Classification/i.test(r))return['§','Clasificación oficial'];if(/NICE|CANMAT|guideline|Guía|consenso|Consensus|ISBD|WFSBP|EMA|FDA|Agency|Ley |BOE|Naciones Unidas|NHS/i.test(r))return['¶','Guía, norma o documento institucional'];if(/Press|Verlag|Springer|Wiley|Masson|Gredos|Guilford|Basic Books|Norton|Routledge|Leipzig|Berlin|Paris|London|New York|Madrid|Wien|Bern|Stuttgart|Jena|München|Tübingen|Oxford|Cambridge|Halle|Edinburgh|Philadelphia|Psychiatrie, \d|ed\.|Lehrbuch|Aufteilung|Psychopathologie/.test(r))return['◇','Libro u obra clásica'];return['○','Artículo sin identificador indexado (anterior a PubMed o revista no indexada)'];}
 function siblings(n){if(!VIEWS[n.vw]||!RADIAL[n.vw]&&!VIEWS[n.vw])return {};const L=(RADIAL[n.vw]||{}).L;const list=NODES.filter(m=>m.vw===n.vw&&m.sp===n.sp).sort((a,b)=>a.ring-b.ring||((L&&L.pos[a.id]&&L.pos[b.id])?L.pos[a.id].a-L.pos[b.id].a:a.n.localeCompare(b.n,'es')));
@@ -593,6 +638,7 @@ $('#side').addEventListener('click',e=>{const c=e.target.closest('[data-id]');if
   else if(act==='prev'||act==='next'){const s=siblings(n);const m=act==='prev'?s.p:s.n;if(m)select(m.id);}
   else if(act==='copy'){const u=location.href.split('#')[0]+'#id='+n.id;try{navigator.clipboard.writeText(u);toast('Enlace copiado');}catch(err){prompt('Enlace',u);}}
   else if(act==='print')window.print();
+  else if(act==='cmpopen'){showCompare();}
   else if(act==='cmp'){const i=CMP.indexOf(n.id);if(i>=0)CMP.splice(i,1);else{if(CMP.length>=4)CMP.shift();CMP.push(n.id);}$('#cmpN').textContent=CMP.length;renderSide(n);toast(CMP.length+' nodo(s) en comparación');}
   else if(act==='close'){st.sel=null;emptySide();if(RADIAL[st.view])drawEdges(st.view);updHash();}});
 function emptySide(){$('#side').classList.remove('has');$('#shdr').innerHTML='';$('#sacts').innerHTML='';
@@ -690,7 +736,9 @@ $('#bWkl').onclick=()=>wklStep('root');
 // tema
 const THEMES=['light','dark','eink'];function applyTheme(){document.body.classList.toggle('dark',st.theme==='dark');document.body.classList.toggle('eink',st.theme==='eink');$('#bTheme').textContent='Tema: '+({light:'claro',dark:'oscuro',eink:'e-ink'})[st.theme];}
 $('#bTheme').onclick=()=>{st.theme=THEMES[(THEMES.indexOf(st.theme)+1)%3];store.set('theme',st.theme);applyTheme();};
-$('#bFilt').onclick=()=>{const off=$('#filters').classList.toggle('off');$('#bFilt').classList.toggle('on',!off);store.set('filt',off?0:1);};
+function setFilt(on){const F=$('#filters');F.classList.toggle('off',!on);$('#bFilt').classList.toggle('on',on);$('#bFilt').setAttribute('aria-pressed',on?'true':'false');store.set('filt',on?1:0);
+  if(st.view==='hist'){requestAnimationFrame(()=>{HIST=null;showView('hist',true);});}}
+$('#bFilt').onclick=()=>setFilt($('#filters').classList.contains('off'));
 // teclado
 document.addEventListener('keydown',e=>{const tag=(e.target.tagName||'').toLowerCase();if(tag==='input'||tag==='textarea')return;
   if(e.key==='/'){e.preventDefault();$('#q').focus();return;}
@@ -705,7 +753,7 @@ let rsz;window.addEventListener('resize',()=>{clearTimeout(rsz);rsz=setTimeout((
 $('#tabs').innerHTML=VORDER.map((v,i)=>'<button class="tab" data-v="'+v+'" title="'+VT[v]+' ('+(i+1)+')">'+VT[v]+'</button>').join('');
 $('#tabs').addEventListener('click',e=>{const t=e.target.closest('.tab');if(t)showView(t.dataset.v);});
 $('#brandStats').textContent=NODES.length+' nodos';
-if(innerWidth<900||!store.get('filt',0)){$('#filters').classList.add('off');$('#bFilt').classList.remove('on');}else $('#bFilt').classList.add('on');updFiltBadge();
+if(innerWidth<900||!store.get('filt',0)){$('#filters').classList.add('off');$('#bFilt').classList.remove('on');$('#bFilt').setAttribute('aria-pressed','false');}else{$('#bFilt').classList.add('on');$('#bFilt').setAttribute('aria-pressed','true');}updFiltBadge();
 applyTheme();showView(st.view);emptySide();updHistBtns();fromHash();
 })();
 </script>
