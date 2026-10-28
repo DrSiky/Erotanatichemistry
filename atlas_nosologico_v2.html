@@ -201,6 +201,9 @@ body.eink .nd.cs-l .sh{fill:#fff!important}
 .center-t{font-family:var(--serif);font-size:15px;fill:var(--ink);text-anchor:middle}
 .center-s{font-size:7px;fill:var(--muted);text-anchor:middle;letter-spacing:.05em}
 .zoomctl{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:4px;z-index:5}
+.zoomctl .lblbtn{width:auto;height:auto;padding:6px 10px;font-size:.74rem;font-weight:600;white-space:nowrap;align-self:flex-end;margin-bottom:4px}
+.zoomctl .lblbtn.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+body.eink .zoomctl .lblbtn{border:2px solid #000}body.eink .zoomctl .lblbtn.on{background:#000;color:#fff}
 .zoomctl button{width:30px;height:30px;border:1px solid var(--line);background:var(--paper);border-radius:4px;font-size:1rem;box-shadow:0 2px 6px rgba(0,0,0,.08)}
 .viewinfo{position:absolute;left:12px;top:10px;font-size:.72rem;color:var(--muted);z-index:4;max-width:60%;pointer-events:none}
 .viewinfo b{font-family:var(--serif);font-size:1.1rem;color:var(--ink);font-weight:400;display:block}
@@ -307,7 +310,7 @@ body.eink .hubsec{border:2px solid #000}
   <aside class="filters" id="filters" aria-label="Filtros"></aside>
   <main class="main" id="main">
     <div class="viewinfo" id="viewinfo"></div>
-    <div class="zoomctl" id="zoomctl"><button id="zIn" title="Acercar (+)">+</button><button id="zOut" title="Alejar (−)">−</button><button id="zRst" title="Restablecer (0)">⟲</button></div>
+    <div class="zoomctl" id="zoomctl"><button id="bLbl" class="lblbtn" aria-pressed="false" title="Mostrar todas las etiquetas de forma fija, sin depender del zoom (pueden solaparse en las zonas densas)">Etiquetas: automáticas</button><button id="zIn" title="Acercar (+)">+</button><button id="zOut" title="Alejar (−)">−</button><button id="zRst" title="Restablecer (0)">⟲</button></div>
   </main>
   <aside class="side" id="side" aria-label="Ficha"><div class="shdr" id="shdr"></div><nav class="toc" id="toc" aria-label="Secciones de la ficha"></nav><div class="sbody" id="sbody"></div><div class="sacts" id="sacts"></div></aside>
 </div>
@@ -414,7 +417,7 @@ function colOf(n){const s=secOf(n);return s?s.c:'#8a6820';}
 NODES.forEach(n=>{n._s=norm([n.n,n.ab,(n.al||[]).join(' '),(n.cie||[]).join(' ')].join(' '));n._t=norm([n.desc,(n.feats||[]).join(' '),n.note,n.tx,(n.sec||[]).map(s=>s.x).join(' ')].join(' '));n._r=norm((n.refs||[]).join(' '));});
 
 // ---------------- estado ----------------
-const st={view:store.get('view','nos'),sel:null,hist:[],hpos:-1,q:'',f:{sp:new Set(),ring:new Set(),k:new Set(),trad:new Set(),cs:new Set(),tags:new Set(),origen:new Set(),ev:new Set()},hideNon:false,fopen:new Set(store.get('fopen',['sp','k'])),theme:store.get('theme','light')};
+const st={view:store.get('view','nos'),sel:null,hist:[],hpos:-1,q:'',f:{sp:new Set(),ring:new Set(),k:new Set(),trad:new Set(),cs:new Set(),tags:new Set(),origen:new Set(),ev:new Set()},hideNon:false,fopen:new Set(store.get('fopen',['sp','k'])),allLbl:!!store.get('allLbl',0),theme:store.get('theme','light')};
 if(!VORDER.includes(st.view))st.view='nos';
 
 // ---------------- filtros ----------------
@@ -547,7 +550,7 @@ function labelsLOD(R){const k=R.z.k;const fs=7/Math.pow(k,0.72);
   if(!R.groups&&!R.items[Object.keys(R.items)[0]].tl)labelGroups(R);
   const fontPx=fs*k,need=fontPx*1.3;
   if(R.groups)R.groups.forEach(g=>{let m=1;if(isFinite(g.med)&&g.med>0)m=Math.pow(2,Math.max(0,Math.ceil(Math.log2(need/(g.med*k)))));g.m=m;g.list.forEach(it=>{it.base=(k>=R.kth[it.n.ring]-1e-9)&&(it.gi%m===0);});});
-  for(const id in R.items){const it=R.items[id];const sp=it.p.sp*k;const show=it.tl?(sp>=46||isForced(it)):(it.base||isForced(it));
+  for(const id in R.items){const it=R.items[id];const sp=it.p.sp*k;const show=st.allLbl||(it.tl?(sp>=46||isForced(it)):(it.base||isForced(it)));
     const full=k>=2.6||it.g.classList.contains('sel');const txt=full?it.n.n:(it.n.ab||it.n.n);
     const maxc=it.tl?(full?40:Math.max(6,Math.floor(sp/5.5))):(full?60:14);const t=txt.length>maxc?txt.slice(0,maxc-1)+'…':txt;
     if(it.lbl.textContent!==t)it.lbl.textContent=t;it.cand=show;it.lbl.style.display=show?'':'none';it.lbl.style.visibility='visible';it.lbl.style.fontSize=(it.tl?9/Math.pow(k,0.8):fs)+'px';}}
@@ -813,6 +816,9 @@ const THEMES=['light','dark','eink'];function applyTheme(){document.body.classLi
 $('#bTheme').onclick=()=>{st.theme=THEMES[(THEMES.indexOf(st.theme)+1)%3];store.set('theme',st.theme);applyTheme();};
 function setFilt(on){const F=$('#filters');F.classList.toggle('off',!on);$('#bFilt').classList.toggle('on',on);$('#bFilt').setAttribute('aria-pressed',on?'true':'false');store.set('filt',on?1:0);
   if(st.view==='hist'){requestAnimationFrame(()=>{HIST=null;showView('hist',true);});}}
+function applyAllLbl(){const b=$('#bLbl');b.classList.toggle('on',st.allLbl);b.setAttribute('aria-pressed',st.allLbl?'true':'false');b.textContent=st.allLbl?'Etiquetas: todas fijas':'Etiquetas: automáticas';
+  const R=RADIAL[st.view]||(st.view==='hist'?HIST:null);if(R)labelsLOD(R);}
+$('#bLbl').onclick=()=>{st.allLbl=!st.allLbl;store.set('allLbl',st.allLbl?1:0);applyAllLbl();};
 $('#bFilt').onclick=()=>setFilt($('#filters').classList.contains('off'));
 // teclado
 document.addEventListener('keydown',e=>{const tag=(e.target.tagName||'').toLowerCase();if(tag==='input'||tag==='textarea')return;
@@ -829,7 +835,7 @@ $('#tabs').innerHTML=VORDER.map((v,i)=>'<button class="tab" data-v="'+v+'" title
 $('#tabs').addEventListener('click',e=>{const t=e.target.closest('.tab');if(t)showView(t.dataset.v);});
 $('#brandStats').textContent=NODES.length+' nodos';
 if(innerWidth<900||!store.get('filt',0)){$('#filters').classList.add('off');$('#bFilt').classList.remove('on');$('#bFilt').setAttribute('aria-pressed','false');}else{$('#bFilt').classList.add('on');$('#bFilt').setAttribute('aria-pressed','true');}updFiltBadge();
-applyTheme();showView(st.view);emptySide();updHistBtns();fromHash();
+applyTheme();showView(st.view);applyAllLbl();emptySide();updHistBtns();fromHash();
 })();
 </script>
 </body>
