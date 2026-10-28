@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Atlas Nosológico v2</title>
+<title>Atlas Nosológico</title>
 <meta name="description" content="Atlas interactivo de psicopatología: nosología actual e histórica, semiología, etiopatogenia y terapéutica, con referencias.">
 <style>
 :root{
@@ -276,7 +276,7 @@ body.eink .hubsec{border:2px solid #000}
 <body>
 <div class="app" id="app">
   <header class="top">
-    <div class="brand">Atlas Nosológico <i>v2</i> <small style="font-family:var(--sans);font-size:.7rem;color:var(--topmuted)" id="brandStats"></small></div>
+    <div class="brand">Atlas Nosológico</div>
     <nav class="tabs" id="tabs" aria-label="Vistas"></nav>
     <div class="searchbox">
       <svg viewBox="0 0 16 16"><circle cx="7" cy="7" r="5"/><path d="M11 11l4 4"/></svg>
@@ -621,7 +621,7 @@ function renderIdx(){const box=document.createElement('div');box.className='idx'
 function idxVal(n,k,disp){if(k==='vw')return VT[n.vw]||'';if(k==='sp')return (secOf(n)||{}).t||'';if(k==='k')return (CFG.KINDS[n.k]||{}).t||'';if(k==='trad')return CFG.TRADS[n.trad]||'';if(k==='cs')return CFG.CS[n.cs]||'';if(k==='y')return disp?(n.y==null?'':n.y):(n.y==null?99999:n.y);if(k==='origen')return n.origen||'v1';if(k==='ev')return CFG.EV[n.ev]||'';if(k==='cie')return (n.cie||[]).join(' ');if(k==='ring')return n.ring||'';return n[k]||'';}
 function exportCSV(rows,cols){const q=s=>'"'+String(s).replace(/"/g,'""')+'"';const lines=[cols.map(c=>q(c[1])).concat(['Descripción','Referencias']).join(',')];
   rows.forEach(n=>lines.push(cols.map(([k])=>q(idxVal(n,k,true))).concat([q(n.desc||''),q((n.refs||[]).join(' | '))]).join(',')));
-  const b=new Blob(['﻿'+lines.join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='atlas_nosologico_v2.csv';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);}
+  const b=new Blob(['﻿'+lines.join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='atlas_nosologico.csv';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);}
 
 // ---------------- gestión de vistas ----------------
 let current=null;
@@ -710,7 +710,7 @@ function emptySide(){$('#side').classList.remove('has');$('#shdr').innerHTML='';
   const emerg=NODES.filter(n=>(n.tags||[]).includes('emerg')).sort((x,y)=>x.n.localeCompare(y.n,'es')).slice(0,18).map(n=>n.id);
   const rec=(store.get('recent',[])||[]).filter(i=>BY[i]);
   const card=(a,t,d)=>'<button class="hcard" data-home="'+a+'"><b>'+t+'</b><small>'+d+'</small></button>';
-  $('#sbody').innerHTML='<div class="home"><div class="hhead"><h3>Atlas Nosológico <i>v2</i></h3><p>'+NODES.length+' nodos · '+nref+' referencias · '+nfig+' figuras</p></div>'+
+  $('#sbody').innerHTML='<div class="home"><div class="hhead"><h3>Atlas Nosológico</h3><p>'+NODES.length+' nodos · '+nref+' referencias · '+nfig+' figuras</p></div>'+
    '<div class="hsec"><h4>Empieza por</h4><div class="hgrid">'+card('view:sem','Un síntoma o signo','Semiología · '+(c.sem||0)+' nodos')+card('view:nos','Un diagnóstico','Nosología · '+(c.nos||0)+' nodos')+card('view:eti','Un mecanismo','Etiopatogenia · '+(c.eti||0)+' nodos')+card('view:ter','Un tratamiento','Terapéutica · '+(c.ter||0)+' nodos')+'</div></div>'+
    '<div class="hsec"><h4>Herramientas</h4><div class="hgrid">'+card('tours','Recorridos','Itinerarios y guía WKL')+card('figs','Figuras','Diferenciales y circuitos')+card('cmp','Comparar','Fichas lado a lado')+card('random','Ficha al azar','Para explorar')+'</div></div>'+
    (emerg.length?'<div class="hsec"><h4>Urgencias y riesgo vital</h4><div class="rels">'+chips(emerg)+'</div></div>':'')+
@@ -801,7 +801,7 @@ $('#bLeg').onclick=()=>{let h='<h2>Leyenda</h2><h3>Forma = tipo de nodo</h3><div
   ['nos','sem','eti','ter'].forEach(v=>{const V=VIEWS[v];h+='<h3>'+V.t+': anillos (de dentro afuera)</h3><ol style="padding-left:18px">'+V.rings.map(r=>'<li>'+esc(r)+'</li>').join('')+'</ol><div class="lgrid" style="margin-top:6px">'+V.sectors.map(s=>'<div><span style="width:12px;height:12px;border-radius:2px;background:'+s.c+';display:inline-block"></span>'+esc(s.t)+'</div>').join('')+'</div>';});
   modal(h);};
 $('#bHelp').onclick=()=>{const c={};NODES.forEach(n=>c[n.origen||'v1']=(c[n.origen||'v1']||0)+1);
-  modal('<h2>Atlas Nosológico v2</h2><p>Atlas interactivo de psicopatología que integra la nosología oficial (DSM-5-TR, CIE-11), las tradiciones clínicas europeas (Kraepelin, Wernicke-Kleist-Leonhard, escuela francesa, psicopatología alemana), los modelos del espectro bipolar (Akiskal, Koukopoulos, Angst), la fenomenología y el análisis existencial, la semiología descriptiva, la etiopatogenia (genética, neurodesarrollo, neurotransmisión, sistemas neuroendocrino-inmunes, circuitos, factores psicológicos y sociales) y la terapéutica.</p>'+
+  modal('<h2>Atlas Nosológico</h2><p>Atlas interactivo de psicopatología que integra la nosología oficial (DSM-5-TR, CIE-11), las tradiciones clínicas europeas (Kraepelin, Wernicke-Kleist-Leonhard, escuela francesa, psicopatología alemana), los modelos del espectro bipolar (Akiskal, Koukopoulos, Angst), la fenomenología y el análisis existencial, la semiología descriptiva, la etiopatogenia (genética, neurodesarrollo, neurotransmisión, sistemas neuroendocrino-inmunes, circuitos, factores psicológicos y sociales) y la terapéutica.</p>'+
   '<h3>Navegación</h3><ul><li><b>Vistas</b>: Nosología, Semiología, Etiopatogenia, Terapéutica (mapas radiales por sectores y anillos), Historia (línea temporal) e Índice (tabla ordenable y exportable). Teclas <kbd>1</kbd>–<kbd>6</kbd>.</li><li><b>Buscar</b> (<kbd>/</kbd>): por nombre, sinónimo, contenido o autor de las referencias; la búsqueda también filtra el mapa.</li><li><b>Filtros</b>: combinables (O dentro de cada grupo, Y entre grupos). Por defecto atenúan; pueden ocultar.</li><li><b>Zoom</b>: rueda, pellizco, doble clic o <kbd>+</kbd>/<kbd>−</kbd>; <kbd>0</kbd> restablece. Las etiquetas aparecen al acercarse.</li><li><b>Relaciones</b>: al seleccionar un nodo se dibujan sus vínculos en la vista y se listan todos (también los de otras vistas) en la ficha.</li><li><b>Historial</b>: <kbd>Alt</kbd>+<kbd>←</kbd>/<kbd>→</kbd>; <kbd>J</kbd>/<kbd>K</kbd> recorren el sector. Cada ficha tiene un enlace directo (#id=…).</li><li><b>Figuras</b>: botón «Figuras» de la cabecera (galería) y apartado «Figuras» de cada ficha: árboles de diagnóstico diferencial y esquemas de circuitos con cajas enlazadas a las fichas (↗).</li><li><b>Temas</b>: claro, oscuro y e-ink (blanco y negro; la información no depende del color).</li></ul>'+
   '<h3>Criterios editoriales</h3><ul><li>Cada nodo lleva referencias; las cifras se atribuyen a su fuente. Las afirmaciones de escuela se identifican como tales.</li><li>El consenso indica el estatus del constructo, no su importancia clínica.</li><li>Ninguna referencia se ha añadido sin verificar su existencia; las del bloque de chemsex se contrastaron con PubMed.</li><li>† Los códigos CIE-11 se contrastaron con listados secundarios; no se pudieron verificar en la fuente oficial de la OMS (icd.who.int). Los datos que no se pudieron respaldar con una fuente oficial o primaria no se eliminan: se conservan marcados con «[fuente no localizada]».</li><li>No se ha eliminado contenido del atlas v1: los errores se corrigieron, los duplicados se fusionaron y los contenidos mal ubicados o atribuidos generaron nodos propios corregidos.</li></ul>'+
   '<h3>Origen del contenido</h3><p>Atlas v1 sin cambios: '+(c['v1']||0)+' · v1 corregido: '+(c['v1-corregido']||0)+' · nuevos derivados de correcciones: '+(c['nuevo-corrección']||0)+' · nuevos de la ampliación v2: '+(c['nuevo']||0)+'. Usa el filtro "Origen del contenido" para revisarlos.</p>'+
@@ -833,7 +833,6 @@ let rsz;window.addEventListener('resize',()=>{clearTimeout(rsz);rsz=setTimeout((
 // ---------------- arranque ----------------
 $('#tabs').innerHTML=VORDER.map((v,i)=>'<button class="tab" data-v="'+v+'" title="'+VT[v]+' ('+(i+1)+')">'+VT[v]+'</button>').join('');
 $('#tabs').addEventListener('click',e=>{const t=e.target.closest('.tab');if(t)showView(t.dataset.v);});
-$('#brandStats').textContent=NODES.length+' nodos';
 if(innerWidth<900||!store.get('filt',0)){$('#filters').classList.add('off');$('#bFilt').classList.remove('on');$('#bFilt').setAttribute('aria-pressed','false');}else{$('#bFilt').classList.add('on');$('#bFilt').setAttribute('aria-pressed','true');}updFiltBadge();
 applyTheme();showView(st.view);applyAllLbl();emptySide();updHistBtns();fromHash();
 })();
