@@ -122,6 +122,18 @@ body.eink .bdg{color:#000;border-color:#000}
 .bdg.org{border-style:dashed}
 .sbody{overflow:auto;padding:12px 16px 24px;flex:1}
 .fs{margin-bottom:14px}
+.toc{display:none;gap:4px;overflow-x:auto;white-space:nowrap;padding:6px 12px;border-bottom:1px solid var(--line);background:var(--paper2);scrollbar-width:thin}
+.toc.on{display:flex}
+.tocb{flex:none;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:2px 10px;font-size:.72rem;color:var(--muted)}
+.tocb:hover{border-color:var(--accent);color:var(--ink)}
+.tocb.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tocb.al{border-color:#b3261e;color:#b3261e;font-weight:600}.tocb.al.on{background:#b3261e;color:#fff}
+body.dark .tocb.al{border-color:#ff8a80;color:#ff8a80}body.dark .tocb.al.on{background:#ff8a80;color:#150e06}
+body.eink .tocb{border-color:#000;color:#000}body.eink .tocb.on,body.eink .tocb.al.on{background:#000;color:#fff}body.eink .tocb.al{border:2px solid #000;color:#000}
+.fs.alarm{border:2px solid #b3261e;border-radius:6px;padding:8px 10px 6px;background:rgba(179,38,30,.06)}
+.fs.alarm .fl{color:#b3261e;border-bottom-color:rgba(179,38,30,.35)}
+body.dark .fs.alarm{border-color:#ff8a80;background:rgba(255,138,128,.08)}body.dark .fs.alarm .fl{color:#ff8a80}
+body.eink .fs.alarm{border:3px double #000;background:#fff}body.eink .fs.alarm .fl{color:#000}
 .fl{font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:5px;border-bottom:1px solid var(--line2);padding-bottom:2px}
 .ft{font-size:.86rem;line-height:1.55}
 .flist{padding-left:16px;font-size:.84rem;line-height:1.5}.flist li{margin-bottom:3px}
@@ -146,6 +158,17 @@ body.eink .bdg{color:#000;border-color:#000}
 body.eink .sbtn.big{background:#fff;color:#000;border:2px solid #000}
 body.eink .sbtn.big.in{background:#000;color:#fff}
 body.dark .sbtn.big{color:#150e06}body.dark .sbtn.big.in{color:var(--ink)}
+.home{padding:16px 16px 24px}
+.hhead h3{font-family:var(--serif);font-weight:400;font-size:1.5rem;color:var(--ink)}.hhead h3 i{color:var(--accent)}
+.hhead p{color:var(--muted);font-size:.8rem;margin:2px 0 12px}
+.hsec{margin-bottom:14px}.hsec h4{font-size:.62rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;border-bottom:1px solid var(--line2);padding-bottom:2px}
+.hgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.hcard{display:flex;flex-direction:column;gap:2px;text-align:left;border:1px solid var(--line);background:var(--paper2);border-radius:7px;padding:9px 11px}
+.hcard:hover{border-color:var(--accent);background:var(--paper)}
+.hcard b{font-size:.86rem;color:var(--ink)}.hcard small{font-size:.7rem;color:var(--muted)}
+body.eink .hcard{border:2px solid #000;background:#fff}
+.hnote{color:var(--muted);font-size:.76rem;line-height:1.55;margin-top:6px}
+.hnote kbd{border:1px solid var(--line);border-radius:3px;padding:0 4px;background:var(--paper2)}
 .empty{padding:20px 16px;color:var(--muted);font-size:.86rem;line-height:1.6}
 .empty h3{font-family:var(--serif);font-weight:400;font-size:1.3rem;color:var(--ink);margin-bottom:6px}
 .empty kbd,.help kbd{border:1px solid var(--line);border-radius:3px;padding:0 4px;font-size:.75rem;background:var(--paper2)}
@@ -286,7 +309,7 @@ body.eink .hubsec{border:2px solid #000}
     <div class="viewinfo" id="viewinfo"></div>
     <div class="zoomctl" id="zoomctl"><button id="zIn" title="Acercar (+)">+</button><button id="zOut" title="Alejar (−)">−</button><button id="zRst" title="Restablecer (0)">⟲</button></div>
   </main>
-  <aside class="side" id="side" aria-label="Ficha"><div class="shdr" id="shdr"></div><div class="sbody" id="sbody"></div><div class="sacts" id="sacts"></div></aside>
+  <aside class="side" id="side" aria-label="Ficha"><div class="shdr" id="shdr"></div><nav class="toc" id="toc" aria-label="Secciones de la ficha"></nav><div class="sbody" id="sbody"></div><div class="sacts" id="sacts"></div></aside>
 </div>
 <div class="tip" id="tip"></div>
 <div class="tourbar" id="tourbar"></div>
@@ -509,7 +532,18 @@ function labelsLOD(R){const k=R.z.k;const fs=7/Math.pow(k,0.72);
   for(const id in R.items){const it=R.items[id];const sp=it.p.sp*k;const show=(it.tl?sp>=46:sp>=7.2)||it.g.classList.contains('sel')||it.g.classList.contains('rel')||it.g.classList.contains('match');
     const full=k>=2.6||it.g.classList.contains('sel');const txt=full?it.n.n:(it.n.ab||it.n.n);
     const maxc=it.tl?(full?40:Math.max(6,Math.floor(sp/5.5))):(full?60:14);const t=txt.length>maxc?txt.slice(0,maxc-1)+'…':txt;
-    if(it.lbl.textContent!==t)it.lbl.textContent=t;it.lbl.style.display=show?'':'none';it.lbl.style.fontSize=(it.tl?9/Math.pow(k,0.8):fs)+'px';}}
+    if(it.lbl.textContent!==t)it.lbl.textContent=t;it.lbl.style.display=show?'':'none';it.lbl.style.fontSize=(it.tl?9/Math.pow(k,0.8):fs)+'px';}
+  declutter(R);}
+function declutter(R){clearTimeout(R.dcT);R.dcT=setTimeout(()=>{
+  const arr=[];for(const id in R.items){const it=R.items[id];if(it.tl)return;if(it.lbl.style.display==='none')continue;arr.push(it);}
+  const pri=it=>(it.g.classList.contains('sel')?0:(it.g.classList.contains('rel')||it.g.classList.contains('match'))?1:2)*100+(it.n.ring||5)*10+({h:0,m:1}[it.n.cs]!=null?{h:0,m:1}[it.n.cs]:2);
+  arr.sort((a,b)=>pri(a)-pri(b));
+  const rc=arr.map(it=>it.lbl.getBoundingClientRect());const cell=36,grid=new Map();
+  arr.forEach((it,i)=>{const r=rc[i];if(!r.width&&!r.height)return;const w=r.width*.25,h=r.height*.25;
+    const L=r.left+w/2,Rr=r.right-w/2,T=r.top+h/2,B=r.bottom-h/2;const x0=Math.floor(L/cell),x1=Math.floor(Rr/cell),y0=Math.floor(T/cell),y1=Math.floor(B/cell);
+    let hit=false;if(pri(it)>=200){outer:for(let x=x0;x<=x1;x++)for(let y=y0;y<=y1;y++){const c=grid.get(x+','+y);if(c)for(const q of c){if(L<q[2]&&Rr>q[0]&&T<q[3]&&B>q[1]){hit=true;break outer;}}}}
+    if(hit){it.lbl.style.display='none';return;}
+    for(let x=x0;x<=x1;x++)for(let y=y0;y<=y1;y++){const k=x+','+y;(grid.get(k)||grid.set(k,[]).get(k)).push([L,T,Rr,B]);}});},60);}
 function setZ(R,z,anim){R.z=z;R.zg.setAttribute('transform','translate('+z.x.toFixed(2)+','+z.y.toFixed(2)+') scale('+z.k.toFixed(3)+')');labelsLOD(R);
   R.eg.querySelectorAll('.edge').forEach(p=>p.style.strokeWidth=(1.1/Math.sqrt(z.k))+'px');}
 function svgPt(svg,cx,cy){const pt=svg.createSVGPoint();pt.x=cx;pt.y=cy;const m=svg.getScreenCTM();return m?pt.matrixTransform(m.inverse()):{x:0,y:0};}
@@ -600,7 +634,8 @@ function markHistSel(){if(!HIST)return;Object.values(HIST.items).forEach(it=>it.
 
 // ---------------- selección y ficha ----------------
 function select(id,opt){opt=opt||{};id=DATA.redirect[id]||id;const n=BY[id];if(!n)return;
-  st.sel=id;if(!opt.nohist){st.hist=st.hist.slice(0,st.hpos+1);if(st.hist[st.hist.length-1]!==id)st.hist.push(id);st.hpos=st.hist.length-1;}
+  st.sel=id;try{const rc=store.get('recent',[]).filter(x=>x!==id);rc.unshift(id);store.set('recent',rc.slice(0,8));}catch(e){}
+  if(!opt.nohist){st.hist=st.hist.slice(0,st.hpos+1);if(st.hist[st.hist.length-1]!==id)st.hist.push(id);st.hpos=st.hist.length-1;}
   const target=opt.from==='map'||opt.from==='idx'?st.view:(n.vw==='hist'?'hist':n.vw);
   if(opt.from!=='map'&&opt.from!=='idx'&&target!==st.view)showView(target);
   if(st.view==='idx'){const tr=current.querySelector('tr[data-id="'+id+'"]');current.querySelectorAll('tr.sel').forEach(t=>t.classList.remove('sel'));if(tr)tr.classList.add('sel');}
@@ -617,8 +652,10 @@ function renderSide(n){$('#side').classList.add('has');const sec=secOf(n);const 
   if(n.desc)h+='<div class="fs"><div class="fl">Descripción</div><div class="ft">'+escx(n.desc)+'</div></div>';
   {const fk=figsOf(n.id);if(fk.length)h+='<div class="fs"><div class="fl">Figuras ('+fk.length+')</div>'+fk.map(k=>'<div style="margin:3px 0"><button class="sbtn" data-fig="'+k+'">'+esc(FIGK[(FIGM[k]||{}).kind]||'Figura')+' · '+esc((FIGM[k]||{}).t||k)+'</button></div>').join('')+'</div>';}
   if((n.feats||[]).length)h+='<div class="fs"><div class="fl">Rasgos clave</div><ul class="flist">'+n.feats.map(f=>'<li>'+escx(f)+'</li>').join('')+'</ul></div>';
-  (n.sec||[]).forEach(s=>{h+='<div class="fs"><div class="fl">'+esc(s.t)+'</div>'+(s.x?'<div class="ft">'+escx(s.x)+'</div>':'');
-    (s.links||[]).forEach(l=>{h+='<div class="ft" style="margin-top:4px">'+l.ids.map(i=>BY[i]?'<span class="rchip" data-id="'+i+'">'+esc(BY[i].n)+'</span>':'').join('')+' '+esc(l.t)+'</div>';});h+='</div>';});
+  let alarm='';
+  (n.sec||[]).forEach(s=>{const al=/Señales de alarma/i.test(s.t);let q='<div class="fs'+(al?' alarm':'')+'" data-toc="'+esc(s.t)+'"><div class="fl">'+(al?'⚠ ':'')+esc(s.t)+'</div>'+(s.x?'<div class="ft">'+escx(s.x)+'</div>':'');
+    (s.links||[]).forEach(l=>{q+='<div class="ft" style="margin-top:4px">'+l.ids.map(i=>BY[i]?'<span class="rchip" data-id="'+i+'">'+esc(BY[i].n)+'</span>':'').join('')+' '+esc(l.t)+'</div>';});q+='</div>';if(al)alarm=q;else h+=q;});
+  if(alarm){const dd=h.indexOf('<div class="fs"><div class="fl">Rasgos clave');h=dd>=0?h.slice(0,dd)+alarm+h.slice(dd):alarm+h;}
   if(n.tx)h+='<div class="fs"><div class="fl">Orientación terapéutica</div><div class="ftx">'+escx(n.tx)+'</div></div>';
   if(n.note)h+='<div class="fs"><div class="fl">Nota nosológica y crítica</div><div class="fnote">'+escx(n.note)+'</div></div>';
   const g=relGroups(n);const gk=VORDER.filter(v=>g[v]);
@@ -627,7 +664,7 @@ function renderSide(n){$('#side').classList.add('has');const sec=secOf(n);const 
   if((n.tags||[]).length)h+='<div class="fs"><div class="fl">Etiquetas</div>'+n.tags.map(t=>'<span class="chip" data-tag="'+t+'">'+esc(CFG.TAGS[t]||t)+'</span>').join('')+'</div>';
   if((n.refs||[]).length){const vk=n.refs.filter(r=>/PMID|doi:/i.test(r)).length;h+='<div class="fs"><div class="fl">Referencias ('+vk+'/'+n.refs.length+' verificadas)</div><div class="rleg">✓ PubMed/DOI · § clasificación oficial · ¶ guía o norma · ◇ libro/obra clásica · ○ sin identificador</div><ol class="refs">'+n.refs.map(r=>{const k=refKind(r);return '<li><span class="rk" title="'+k[1]+'">'+k[0]+'</span> '+linkify(r)+'</li>';}).join('')+'</ol></div>';}
   if((n.fusion||[]).length)h+='<div class="fs"><div class="fl">Fusión de duplicados</div><div class="fnote">Este nodo integra el contenido de nodos duplicados del atlas v1: '+esc(n.fusion.join(', '))+'.</div></div>';
-  $('#sbody').innerHTML=h;$('#sbody').scrollTop=0;
+  $('#sbody').innerHTML=h;$('#sbody').scrollTop=0;buildToc();
   const sib=siblings(n);
   $('#sacts').innerHTML='<div class="sbig"><button class="sbtn big'+(CMP.includes(n.id)?' in':'')+'" data-a="cmp"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7.5" height="16" rx="1.2"/><rect x="13.5" y="4" width="7.5" height="16" rx="1.2"/><path d="'+(CMP.includes(n.id)?'M5 12l2 2 3-4M15.5 12l2 2 3-4':'M6.75 9v6M3.75 12h6M17.25 9v6M14.25 12h6')+'"/></svg><span><b>'+(CMP.includes(n.id)?'Quitar de la comparación':'Añadir a comparación')+'</b><small>'+CMP.length+' de 4 en la comparación</small></span></button>'+(CMP.length>=2?'<button class="sbtn big alt" data-a="cmpopen"><span><b>Ver comparación ('+CMP.length+')</b><small>tabla lado a lado</small></span></button>':'')+'</div>'+(n.vw!=='hist'?'<button class="sbtn" data-a="center">Ver en el mapa</button>':'')+'<button class="sbtn" data-a="prev"'+(sib.p?'':' disabled')+'>◂ Anterior del sector</button><button class="sbtn" data-a="next"'+(sib.n?'':' disabled')+'>Siguiente ▸</button><button class="sbtn" data-a="copy">Copiar enlace</button><button class="sbtn" data-a="print">Imprimir ficha</button><button class="sbtn" data-a="close">Cerrar</button>';}
 function linkify(r){let s=escx(r);s=s.replace(/doi:(10\.[^\s,;]+)/g,(m,d)=>'<a href="https://doi.org/'+d+'" target="_blank" rel="noopener">doi:'+d+'</a>');s=s.replace(/PMID (\d+)/g,(m,d)=>'<a href="https://pubmed.ncbi.nlm.nih.gov/'+d+'/" target="_blank" rel="noopener">PMID '+d+'</a>');return s;}
@@ -645,9 +682,31 @@ $('#side').addEventListener('click',e=>{const c=e.target.closest('[data-id]');if
   else if(act==='cmpopen'){showCompare();}
   else if(act==='cmp'){const i=CMP.indexOf(n.id);if(i>=0)CMP.splice(i,1);else{if(CMP.length>=4)CMP.shift();CMP.push(n.id);}$('#cmpN').textContent=CMP.length;renderSide(n);toast(CMP.length+' nodo(s) en comparación');}
   else if(act==='close'){st.sel=null;emptySide();if(RADIAL[st.view])drawEdges(st.view);updHash();}});
-function emptySide(){$('#side').classList.remove('has');$('#shdr').innerHTML='';$('#sacts').innerHTML='';
-  const c={};NODES.forEach(n=>c[n.vw]=(c[n.vw]||0)+1);const nref=NODES.reduce((a,n)=>a+(n.refs||[]).length,0);
-  $('#sbody').innerHTML='<div class="empty"><h3>Selecciona un nodo</h3><p>'+NODES.length+' nodos · '+nref+' referencias.<br>Nosología '+(c.nos||0)+' · Semiología '+(c.sem||0)+' · Etiopatogenia '+(c.eti||0)+' · Terapéutica '+(c.ter||0)+' · Hitos '+(c.hist||0)+'.</p><p style="margin-top:10px">Haz clic en un nodo, busca con <kbd>/</kbd> o abre «Filtros» (arriba a la derecha) para acotar por sector, tipo o evidencia. La rueda o el pellizco hacen zoom; arrastra para desplazarte. Las relaciones de cada nodo enlazan vistas distintas.</p><p style="margin-top:10px;font-size:.78rem">La forma indica el tipo de nodo; el relleno, el grado de consenso (sólido = alto, translúcido = moderado, hueco = bajo/histórico). Funciona sin conexión y en pantallas e-ink (tema e-ink).</p></div>';}
+const TOCSHORT=[[/^Señales de alarma/i,'⚠ Alarma'],[/^Descripción/,'Descripción'],[/^Figuras/,'Figuras'],[/^Rasgos clave/,'Rasgos'],[/^Diagnóstico diferencial/i,'Diferencial'],[/^Curso/i,'Curso'],[/^Abordaje terapéutico/i,'Abordaje'],[/^Orientación terapéutica/,'Tratamiento'],[/^Nota nosológica/,'Nota'],[/^Relaciones/,'Relaciones'],[/^Mencionado/,'Menciones'],[/^Etiquetas/,'Etiquetas'],[/^Referencias/,'Referencias'],[/^Fusión/,'Fusión']];
+function buildToc(){const T=$('#toc'),B=$('#sbody');const secs=[...B.querySelectorAll(':scope > .fs')];
+  const items=secs.map((el,i)=>{const lab=(el.querySelector('.fl')||{}).textContent||'';const m=TOCSHORT.find(([re])=>re.test(lab.replace(/^⚠ /,'')));return {el,lab:m?m[1]:lab.slice(0,16),alarm:/Alarma|⚠/.test(lab)};}).filter(x=>x.lab);
+  if(items.length<4){T.innerHTML='';T.classList.remove('on');return;}
+  T.innerHTML=items.map((x,i)=>'<button class="tocb'+(x.alarm?' al':'')+'" data-ti="'+i+'">'+esc(x.lab)+'</button>').join('');T.classList.add('on');T._items=items;T.scrollLeft=0;
+  const spy=()=>{const top=B.getBoundingClientRect().top+24;let cur=0;items.forEach((x,i)=>{if(x.el.getBoundingClientRect().top<=top)cur=i;});if(B.scrollTop+B.clientHeight>=B.scrollHeight-4){const lt=items[items.length-1].el.getBoundingClientRect().top-B.getBoundingClientRect().top;if(lt<B.clientHeight*.6)cur=items.length-1;}
+    if(T._lock&&Date.now()<T._lock.until)cur=T._lock.i;
+    [...T.children].forEach((b,i)=>b.classList.toggle('on',i===cur));const b=T.children[cur];if(b&&T.scrollWidth>T.clientWidth){const l=b.offsetLeft,r=l+b.offsetWidth;if(l<T.scrollLeft)T.scrollLeft=l-8;else if(r>T.scrollLeft+T.clientWidth)T.scrollLeft=r-T.clientWidth+8;}};
+  B.onscroll=spy;spy();}
+$('#toc').addEventListener('click',e=>{const b=e.target.closest('.tocb');if(!b)return;const T=$('#toc');T._lock={i:+b.dataset.ti,until:Date.now()+1100};[...T.children].forEach((c,i)=>c.classList.toggle('on',i===+b.dataset.ti));const x=T._items[+b.dataset.ti];const B=$('#sbody');B.scrollTo({top:B.scrollTop+x.el.getBoundingClientRect().top-B.getBoundingClientRect().top-6,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});
+function emptySide(){$('#side').classList.remove('has');$('#shdr').innerHTML='';$('#sacts').innerHTML='';$('#toc').classList.remove('on');$('#toc').innerHTML='';
+  const c={};NODES.forEach(n=>c[n.vw]=(c[n.vw]||0)+1);const nref=NODES.reduce((a,n)=>a+(n.refs||[]).length,0);const nfig=Object.keys(FIGM).filter(k=>FIG[k]).length;
+  const chips=ids=>ids.filter(i=>BY[i]).map(i=>'<span class="rchip" data-id="'+i+'">'+esc(BY[i].n)+'</span>').join('');
+  const emerg=NODES.filter(n=>(n.tags||[]).includes('emerg')).sort((x,y)=>x.n.localeCompare(y.n,'es')).slice(0,18).map(n=>n.id);
+  const rec=(store.get('recent',[])||[]).filter(i=>BY[i]);
+  const card=(a,t,d)=>'<button class="hcard" data-home="'+a+'"><b>'+t+'</b><small>'+d+'</small></button>';
+  $('#sbody').innerHTML='<div class="home"><div class="hhead"><h3>Atlas Nosológico <i>v2</i></h3><p>'+NODES.length+' nodos · '+nref+' referencias · '+nfig+' figuras</p></div>'+
+   '<div class="hsec"><h4>Empieza por</h4><div class="hgrid">'+card('view:sem','Un síntoma o signo','Semiología · '+(c.sem||0)+' nodos')+card('view:nos','Un diagnóstico','Nosología · '+(c.nos||0)+' nodos')+card('view:eti','Un mecanismo','Etiopatogenia · '+(c.eti||0)+' nodos')+card('view:ter','Un tratamiento','Terapéutica · '+(c.ter||0)+' nodos')+'</div></div>'+
+   '<div class="hsec"><h4>Herramientas</h4><div class="hgrid">'+card('tours','Recorridos','Itinerarios y guía WKL')+card('figs','Figuras','Diferenciales y circuitos')+card('cmp','Comparar','Fichas lado a lado')+card('random','Ficha al azar','Para explorar')+'</div></div>'+
+   (emerg.length?'<div class="hsec"><h4>Urgencias y riesgo vital</h4><div class="rels">'+chips(emerg)+'</div></div>':'')+
+   (rec.length?'<div class="hsec"><h4>Últimas fichas vistas</h4><div class="rels">'+chips(rec)+'</div></div>':'')+
+   '<p class="hnote">Haz clic en un nodo de la rueda, busca con <kbd>/</kbd> o abre «Filtros» para acotar. La rueda o el pellizco hacen zoom. La forma indica el tipo de nodo; el relleno, el consenso (sólido = alto, hueco = bajo o histórico). Funciona sin conexión y en e-ink.</p></div>';}
+$('#sbody').addEventListener('click',e=>{const h=e.target.closest('[data-home]');if(!h)return;const a=h.dataset.home;
+  if(a.startsWith('view:'))showView(a.slice(5));else if(a==='tours')$('#bTour').click();else if(a==='figs')$('#bFig').click();else if(a==='cmp')$('#bCmp').click();
+  else if(a==='random'){const cand=NODES.filter(n=>n.vw!=='hist'&&(n.sec||[]).length);select(cand[Math.floor(Math.random()*cand.length)].id);}});
 
 // ---------------- búsqueda ----------------
 let ddSel=0,ddRes=[];
