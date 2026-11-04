@@ -233,6 +233,42 @@ body.eink .zoomctl .lblbtn{border:2px solid #000}body.eink .zoomctl .lblbtn.on{b
 .figcard b{display:block;font-size:.78rem;line-height:1.25}
 .figcard span{font-size:.68rem;color:var(--muted)}
 .rk{display:inline-block;min-width:1.1em;font-weight:700}
+/* fase 3: mapa de relaciones y búsqueda por síntomas */
+.rmw{display:flex;flex-direction:column;gap:8px}
+.rmtop{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-right:34px}
+.rmtop .rmt{font-family:var(--serif);font-size:1.25rem;margin-right:auto}
+.rmwrap{overflow:auto;max-height:72vh;background:var(--paper2);border:1px solid var(--line);border-radius:6px;text-align:center}
+.rmsvg{--z:1;display:inline-block;height:calc(70vh*var(--z));width:calc(70vh*var(--z));max-width:none;background:var(--paper2)}
+.rmsvg text{font-family:var(--sans);fill:var(--ink);paint-order:stroke;stroke:var(--paper2);stroke-width:3px;stroke-linejoin:round}
+.rmsvg .rn{cursor:pointer}.rmsvg .rn:hover path,.rmsvg .rn:focus path{stroke-width:3}.rmsvg .rn:focus{outline:none}
+.rmsvg .e1{stroke:var(--ink);stroke-width:1.5;opacity:.7}.rmsvg .e2{stroke:var(--muted);stroke-width:.9;opacity:.5;stroke-dasharray:4 3}
+.rmleg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.74rem;color:var(--muted)}
+.rmleg svg{width:14px;height:14px;vertical-align:-2px;margin-right:3px}
+.rmnote{font-size:.76rem;color:var(--muted);line-height:1.45}
+.sym{display:flex;flex-direction:column;gap:8px}
+.symin{position:relative}
+.symin input{width:100%;padding:9px 12px;border:2px solid var(--accent);border-radius:6px;background:var(--paper);color:var(--ink);font-size:.95rem}
+.symsug{position:absolute;left:0;right:0;top:100%;z-index:5;background:var(--paper);border:1px solid var(--line);border-radius:0 0 6px 6px;box-shadow:var(--shadow);max-height:260px;overflow:auto;display:none}
+.symsug.on{display:block}
+.symsug button{display:block;width:100%;text-align:left;padding:7px 12px;font-size:.84rem;border-bottom:1px solid var(--line);background:none;color:var(--ink)}
+.symsug button:hover,.symsug button.act{background:var(--paper2)}
+.symsug small{color:var(--muted);margin-left:6px}
+.symchips{display:flex;flex-wrap:wrap;gap:6px;min-height:30px}
+.symchip{display:inline-flex;align-items:center;gap:6px;border:2px solid var(--accent);border-radius:16px;padding:3px 6px 3px 11px;font-size:.84rem;background:var(--paper)}
+.symchip button{border:none;background:none;font-size:1.05rem;line-height:1;color:var(--muted);padding:0 4px}
+.symchip.free{border-style:dashed}
+.symopts{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.8rem;align-items:center}
+.symres{display:flex;flex-direction:column;gap:6px}
+.symr{border:1px solid var(--line);border-radius:6px;padding:7px 10px;background:var(--paper)}
+.symr .rh{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.symr .rh .rchip{font-size:.9rem}
+.symr .sc{font-size:.74rem;color:var(--muted);margin-left:auto;white-space:nowrap}
+.symr .bar{height:5px;background:var(--line);border-radius:3px;margin:5px 0;overflow:hidden}
+.symr .bar i{display:block;height:100%;background:var(--accent)}
+body.eink .symr .bar i{background:#000}
+.symr .mt{font-size:.76rem;color:var(--muted);line-height:1.5}
+.symr .mt b{color:var(--ink);font-weight:600}
+.symwarn{font-size:.76rem;color:var(--muted);border-left:3px solid var(--accent);padding:3px 0 3px 9px;line-height:1.45}
 .mbox.wide{max-width:96vw;padding:14px}
 .figwrap{overflow:auto;max-height:76vh;border:1px solid var(--line);background:#fff;margin-top:8px}
 .figwrap svg{display:block;height:auto}
@@ -298,6 +334,9 @@ body.eink .hubsec{border:2px solid #000}
       <button class="fb" id="bCmp" title="Comparar nodos: añade fichas con «Añadir a comparación» (hasta 4)">
         <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7.5" height="16" rx="1.2"/><rect x="13.5" y="4" width="7.5" height="16" rx="1.2"/><path d="M5.5 9h2.5M5.5 12.5h2.5M16 9h2.5M16 12.5h2.5"/></svg>
         <span class="fbt"><b>Comparar <span class="cnt" id="cmpN">0</span></b><small>hasta 4 nodos</small></span></button>
+      <button class="fb" id="bSym" title="Búsqueda por síntomas combinados: marca varios síntomas y se listan las entidades que los comparten, ordenadas por coincidencia">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="M14.5 14.5L21 21M7.5 10h5M10 7.5v5"/></svg>
+        <span class="fbt"><b>Síntomas <span class="cnt" id="symN" hidden>0</span></b><small>búsqueda combinada</small></span></button>
     </div>
     <div class="tools">
       <button class="tb" id="bBack" title="Atrás (Alt+←)">←</button>
@@ -455,7 +494,6 @@ function renderFilters(){
   grp('Evidencia predominante','ev',Object.entries(CFG.EV).map(([k,t])=>[k,t]));
   grp('Consenso','cs',Object.entries(CFG.CS).map(([k,t])=>[k,t]));
   grp('Tradición / escuela','trad',Object.entries(CFG.TRADS).map(([k,t])=>[k,t]));
-  grp('Origen del contenido','origen',[['v1','Atlas v1 sin cambios'],['v1-corregido','Atlas v1 corregido'],['nuevo-corrección','Nuevo (derivado de corrección)'],['nuevo','Nuevo (ampliación v2)']]);
   h+='<div class="fopt"><label class="fnon"><input type="checkbox" id="hideNon"'+(st.hideNon?' checked':'')+'> Ocultar (no solo atenuar) lo que no coincide con los filtros</label></div>';
   box.innerHTML=h;updateStat();
 }
@@ -679,7 +717,7 @@ function renderSide(n){$('#side').classList.add('has');const sec=secOf(n);const 
   if((n.fusion||[]).length)h+='<div class="fs"><div class="fl">Fusión de duplicados</div><div class="fnote">Este nodo integra el contenido de nodos duplicados del atlas v1: '+esc(n.fusion.join(', '))+'.</div></div>';
   $('#sbody').innerHTML=h;$('#sbody').scrollTop=0;buildToc();
   const sib=siblings(n);
-  $('#sacts').innerHTML='<div class="sbig"><button class="sbtn big'+(CMP.includes(n.id)?' in':'')+'" data-a="cmp"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7.5" height="16" rx="1.2"/><rect x="13.5" y="4" width="7.5" height="16" rx="1.2"/><path d="'+(CMP.includes(n.id)?'M5 12l2 2 3-4M15.5 12l2 2 3-4':'M6.75 9v6M3.75 12h6M17.25 9v6M14.25 12h6')+'"/></svg><span><b>'+(CMP.includes(n.id)?'Quitar de la comparación':'Añadir a comparación')+'</b><small>'+CMP.length+' de 4 en la comparación</small></span></button>'+(CMP.length>=2?'<button class="sbtn big alt" data-a="cmpopen"><span><b>Ver comparación ('+CMP.length+')</b><small>tabla lado a lado</small></span></button>':'')+'</div>'+(n.vw!=='hist'?'<button class="sbtn" data-a="center">Ver en el mapa</button>':'')+'<button class="sbtn" data-a="prev"'+(sib.p?'':' disabled')+'>◂ Anterior del sector</button><button class="sbtn" data-a="next"'+(sib.n?'':' disabled')+'>Siguiente ▸</button><button class="sbtn" data-a="copy">Copiar enlace</button><button class="sbtn" data-a="print">Imprimir ficha</button><button class="sbtn" data-a="close">Cerrar</button>';}
+  $('#sacts').innerHTML='<div class="sbig"><button class="sbtn big'+(CMP.includes(n.id)?' in':'')+'" data-a="cmp"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7.5" height="16" rx="1.2"/><rect x="13.5" y="4" width="7.5" height="16" rx="1.2"/><path d="'+(CMP.includes(n.id)?'M5 12l2 2 3-4M15.5 12l2 2 3-4':'M6.75 9v6M3.75 12h6M17.25 9v6M14.25 12h6')+'"/></svg><span><b>'+(CMP.includes(n.id)?'Quitar de la comparación':'Añadir a comparación')+'</b><small>'+CMP.length+' de 4 en la comparación</small></span></button><button class="sbtn big" data-a="rmap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.6"/><circle cx="4.5" cy="5.5" r="1.8"/><circle cx="19.5" cy="5.5" r="1.8"/><circle cx="4.5" cy="18.5" r="1.8"/><circle cx="19.5" cy="18.5" r="1.8"/><path d="M10 10.2L6 7M14 10.2L18 7M10 13.8L6 17M14 13.8L18 17"/></svg><span><b>Mapa de relaciones</b><small>vecinos a 1 y 2 pasos</small></span></button>'+(n.vw==='sem'&&n.k==='sx'?'<button class="sbtn big" data-a="symadd"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="M14.5 14.5L21 21M7.5 10h5M10 7.5v5"/></svg><span><b>Añadir a búsqueda por síntomas</b><small>'+SYM.items.length+' síntoma(s) marcados</small></span></button>':'')+(CMP.length>=2?'<button class="sbtn big alt" data-a="cmpopen"><span><b>Ver comparación ('+CMP.length+')</b><small>tabla lado a lado</small></span></button>':'')+'</div>'+(n.vw!=='hist'?'<button class="sbtn" data-a="center">Ver en el mapa</button>':'')+'<button class="sbtn" data-a="prev"'+(sib.p?'':' disabled')+'>◂ Anterior del sector</button><button class="sbtn" data-a="next"'+(sib.n?'':' disabled')+'>Siguiente ▸</button><button class="sbtn" data-a="copy">Copiar enlace</button><button class="sbtn" data-a="print">Imprimir ficha</button><button class="sbtn" data-a="close">Cerrar</button>';}
 function linkify(r){let s=escx(r);s=s.replace(/doi:(10\.[^\s,;]+)/g,(m,d)=>'<a href="https://doi.org/'+d+'" target="_blank" rel="noopener">doi:'+d+'</a>');s=s.replace(/PMID (\d+)/g,(m,d)=>'<a href="https://pubmed.ncbi.nlm.nih.gov/'+d+'/" target="_blank" rel="noopener">PMID '+d+'</a>');return s;}
 function refKind(r){if(/PMID|doi:/i.test(r))return['✓','Verificada (PubMed/DOI)'];if(/DSM|CIE-1|ICD-1|ICSD|Clasificación|Classification/i.test(r))return['§','Clasificación oficial'];if(/NICE|CANMAT|guideline|Guía|consenso|Consensus|ISBD|WFSBP|EMA|FDA|Agency|Ley |BOE|Naciones Unidas|NHS/i.test(r))return['¶','Guía, norma o documento institucional'];if(/Press|Verlag|Springer|Wiley|Masson|Gredos|Guilford|Basic Books|Norton|Routledge|Leipzig|Berlin|Paris|London|New York|Madrid|Wien|Bern|Stuttgart|Jena|München|Tübingen|Oxford|Cambridge|Halle|Edinburgh|Philadelphia|Psychiatrie, \d|ed\.|Lehrbuch|Aufteilung|Psychopathologie/.test(r))return['◇','Libro u obra clásica'];return['○','Artículo sin identificador indexado (anterior a PubMed o revista no indexada)'];}
 function siblings(n){if(!VIEWS[n.vw]||!RADIAL[n.vw]&&!VIEWS[n.vw])return {};const L=(RADIAL[n.vw]||{}).L;const list=NODES.filter(m=>m.vw===n.vw&&m.sp===n.sp).sort((a,b)=>a.ring-b.ring||((L&&L.pos[a.id]&&L.pos[b.id])?L.pos[a.id].a-L.pos[b.id].a:a.n.localeCompare(b.n,'es')));
@@ -693,6 +731,8 @@ $('#side').addEventListener('click',e=>{const c=e.target.closest('[data-id]');if
   else if(act==='copy'){const u=location.href.split('#')[0]+'#id='+n.id;try{navigator.clipboard.writeText(u);toast('Enlace copiado');}catch(err){prompt('Enlace',u);}}
   else if(act==='print')window.print();
   else if(act==='cmpopen'){showCompare();}
+  else if(act==='rmap'){showRelMap(n.id,2);}
+  else if(act==='symadd'){symAdd({id:n.id});showSym();}
   else if(act==='cmp'){const i=CMP.indexOf(n.id);if(i>=0)CMP.splice(i,1);else{if(CMP.length>=4)CMP.shift();CMP.push(n.id);}$('#cmpN').textContent=CMP.length;renderSide(n);toast(CMP.length+' nodo(s) en comparación');}
   else if(act==='close'){st.sel=null;emptySide();if(RADIAL[st.view])drawEdges(st.view);updHash();}});
 const TOCSHORT=[[/^Señales de alarma/i,'⚠ Alarma'],[/^Descripción/,'Descripción'],[/^Figuras/,'Figuras'],[/^Rasgos clave/,'Rasgos'],[/^Diagnóstico diferencial/i,'Diferencial'],[/^Curso/i,'Curso'],[/^Abordaje terapéutico/i,'Abordaje'],[/^Orientación terapéutica/,'Tratamiento'],[/^Nota nosológica/,'Nota'],[/^Relaciones/,'Relaciones'],[/^Mencionado/,'Menciones'],[/^Etiquetas/,'Etiquetas'],[/^Referencias/,'Referencias'],[/^Fusión/,'Fusión']];
@@ -780,6 +820,101 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-tour]');if
   if(e.target.id==='cmpClr'){CMP.length=0;$('#cmpN').textContent=0;$('#modal').classList.remove('on');if(st.sel)renderSide(BY[st.sel]);}});
 document.addEventListener('keydown',e=>{if(!TOUR||/INPUT|TEXTAREA/.test((e.target||{}).tagName||''))return;if(e.key===']')tourGo(TOUR.i+1);if(e.key==='[')tourGo(TOUR.i-1);});
 $('#bCmp').onclick=showCompare;$('#modal').addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.matches&&e.target.matches('[data-id]')){e.preventDefault();$('#modal').classList.remove('on');select(e.target.dataset.id);}});$('#bTour').onclick=showTours;
+
+// ---------------- fase 3: mapa local de relaciones ----------------
+let ADJ=null;
+function adjOf(){if(ADJ)return ADJ;ADJ={};NODES.forEach(n=>(n.rel||[]).forEach(r=>{if(!BY[r])return;(ADJ[n.id]=ADJ[n.id]||new Set()).add(r);(ADJ[r]=ADJ[r]||new Set()).add(n.id);}));return ADJ;}
+const RM={id:null,d:2};
+function shapePath(v,r){const f=x=>Math.round(x*10)/10;
+  if(v==='sem')return 'M'+f(-r)+' '+f(-r)+'h'+f(2*r)+'v'+f(2*r)+'h'+f(-2*r)+'z';
+  if(v==='eti')return 'M0 '+f(-r*1.25)+'L'+f(r*1.25)+' 0L0 '+f(r*1.25)+'L'+f(-r*1.25)+' 0z';
+  if(v==='ter')return 'M0 '+f(-r*1.2)+'L'+f(r*1.15)+' '+f(r)+'L'+f(-r*1.15)+' '+f(r)+'z';
+  if(v==='hist'){let d='';for(let i=0;i<6;i++){const a=Math.PI/3*i;d+=(i?'L':'M')+f(Math.cos(a)*r*1.1)+' '+f(Math.sin(a)*r*1.1);}return d+'z';}
+  return 'M'+f(-r)+' 0a'+f(r)+' '+f(r)+' 0 1 0 '+f(2*r)+' 0a'+f(r)+' '+f(r)+' 0 1 0 '+f(-2*r)+' 0z';}
+function relMapBody(cid,depth){
+  const A=adjOf(),c=BY[cid],deg=i=>(A[i]||{size:0}).size;
+  const all1=[...(A[cid]||[])].map(i=>BY[i]).sort((a,b)=>deg(b.id)-deg(a.id)||a.n.localeCompare(b.n,'es'));
+  const n1=all1.slice(0,24);const s1=new Set(n1.map(m=>m.id));let n2=[],all2=[];
+  if(depth>=2){const cnt={};n1.forEach(m=>(A[m.id]||[]).forEach(i=>{if(i!==cid&&!s1.has(i))cnt[i]=(cnt[i]||0)+1;}));
+    all2=Object.keys(cnt).map(i=>BY[i]).sort((a,b)=>cnt[b.id]-cnt[a.id]||deg(b.id)-deg(a.id)||a.n.localeCompare(b.n,'es'));n2=all2.slice(0,36);}
+  const R1=depth>=2?165:190,R2=340,RR=depth>=2?540:400;
+  const ord=VORDER.filter(v=>v!=='idx');n1.sort((a,b)=>ord.indexOf(a.vw)-ord.indexOf(b.vw)||a.n.localeCompare(b.n,'es'));
+  const ang1={};n1.forEach((m,i)=>ang1[m.id]=-Math.PI/2+2*Math.PI*i/Math.max(1,n1.length));
+  const mean=m=>{let sx=0,sy=0;(A[m.id]||[]).forEach(i=>{if(ang1[i]!=null){sx+=Math.cos(ang1[i]);sy+=Math.sin(ang1[i]);}});return Math.atan2(sy,sx);};
+  const norm2=a=>(a+Math.PI/2+4*Math.PI)%(2*Math.PI);
+  n2.sort((a,b)=>norm2(mean(a))-norm2(mean(b)));const ang2={};n2.forEach((m,i)=>ang2[m.id]=-Math.PI/2+2*Math.PI*(i+.5)/Math.max(1,n2.length));
+  const pos={};pos[cid]=[0,0];n1.forEach(m=>pos[m.id]=[R1*Math.cos(ang1[m.id]),R1*Math.sin(ang1[m.id])]);n2.forEach(m=>pos[m.id]=[R2*Math.cos(ang2[m.id]),R2*Math.sin(ang2[m.id])]);
+  let g='';
+  n2.forEach(m=>(A[m.id]||[]).forEach(i=>{if(s1.has(i))g+='<line class="e2" x1="'+pos[i][0].toFixed(1)+'" y1="'+pos[i][1].toFixed(1)+'" x2="'+pos[m.id][0].toFixed(1)+'" y2="'+pos[m.id][1].toFixed(1)+'"/>';}));
+  n1.forEach(m=>g+='<line class="e1" x1="0" y1="0" x2="'+pos[m.id][0].toFixed(1)+'" y2="'+pos[m.id][1].toFixed(1)+'"/>');
+  const lab=(m,a,r,fs,max)=>{const t=m.n.length>max?m.n.slice(0,max-1)+'…':m.n;const deg=a*180/Math.PI;const left=Math.cos(a)<0;const x=(r)*Math.cos(a),y=(r)*Math.sin(a);
+    return '<text transform="translate('+x.toFixed(1)+' '+y.toFixed(1)+') rotate('+(left?deg+180:deg).toFixed(1)+')" x="'+(left?-1:1)*(fs>11?13:10)+'" y="'+(fs*.35).toFixed(1)+'" text-anchor="'+(left?'end':'start')+'" font-size="'+fs+'">'+esc(t)+'</text>';};
+  const node=(m,r,a,rad,fs,max)=>'<g class="rn" tabindex="0" role="button" data-rm="'+m.id+'" aria-label="'+esc(m.n)+' ('+esc(VT[m.vw])+')"><title>'+esc(m.n)+' · '+esc(VT[m.vw])+'</title><g transform="translate('+pos[m.id][0].toFixed(1)+' '+pos[m.id][1].toFixed(1)+')"><path d="'+shapePath(m.vw,r)+'" fill="'+colOf(m)+'" stroke="var(--ink)" stroke-width="1.6"/></g>'+(a==null?'':lab(m,a,rad,fs,max))+'</g>';
+  n2.forEach(m=>g+=node(m,6.5,ang2[m.id],R2+9,12.5,26));
+  n1.forEach(m=>g+=node(m,9,ang1[m.id],R1+11,13,22));
+  g+='<g class="rn" tabindex="0" role="button" data-rm="'+cid+'"><title>'+esc(c.n)+'</title><g><path d="'+shapePath(c.vw,17)+'" fill="'+colOf(c)+'" stroke="var(--ink)" stroke-width="3"/></g><text x="0" y="'+(depth>=2?-28:-30)+'" text-anchor="middle" font-size="15" font-weight="700">'+esc(c.n.length>34?c.n.slice(0,33)+'…':c.n)+'</text></g>';
+  const legend=ord.filter(v=>v!=='idx').map(v=>'<span><svg viewBox="-12 -12 24 24"><path d="'+shapePath(v,8)+'" fill="none" stroke="currentColor" stroke-width="2"/></svg>'+VT[v]+'</span>').join('');
+  return {svg:'<svg class="rmsvg" viewBox="'+(-RR)+' '+(-RR)+' '+(2*RR)+' '+(2*RR)+'" role="img" aria-label="Mapa de relaciones de '+esc(c.n)+'">'+g+'</svg>',
+    legend,n1:all1.length,s1:n1.length,n2:all2.length,s2:n2.length};}
+function showRelMap(id,depth){RM.id=id;RM.d=depth;RM.z=1;const c=BY[id];if(!c)return;const b=relMapBody(id,depth);
+  modal('<div class="rmw"><div class="rmtop"><span class="rmt" style="color:'+colOf(c)+'">'+esc(c.n)+'</span>'+
+   '<button class="sbtn'+(depth===1?' in':'')+'" data-rmd="1"'+(depth===1?' aria-pressed="true"':'')+'>1 paso</button><button class="sbtn'+(depth===2?' in':'')+'" data-rmd="2"'+(depth===2?' aria-pressed="true"':'')+'>2 pasos</button>'+
+   '<button class="sbtn" data-rmz="-1" aria-label="Alejar">−</button><button class="sbtn" data-rmz="1" aria-label="Acercar">＋</button><button class="sbtn" data-id="'+id+'">Abrir ficha</button></div><div class="rmwrap" id="rmwrap">'+b.svg+'</div>'+
+   '<div class="rmleg"><span><b>Forma = vista:</b></span>'+b.legend+'<span>Color = sector · línea continua: relación directa · discontinua: vecino de un vecino</span></div>'+
+   '<div class="rmnote">Vecinos directos: '+b.n1+(b.n1>b.s1?' (se muestran los '+b.s1+' más conectados)':'')+(depth>=2?' · a 2 pasos: '+b.n2+(b.n2>b.s2?' (se muestran los '+b.s2+' más enlazados con el primer anillo)':''):'')+'. Haz clic en un nodo para recentrar el mapa; «Abrir ficha» lleva a la ficha del nodo central. Las relaciones del atlas son asociativas (comparten síntomas, mecanismos, diferencial o tratamiento): no implican causalidad ni criterio diagnóstico.</div></div>',true);}
+$('#mbox').addEventListener('click',e=>{const z=e.target.closest('[data-rmz]');if(z){const sv=$('#rmwrap .rmsvg');if(sv){RM.z=Math.max(1,Math.min(3,(RM.z||1)+.5*(+z.dataset.rmz)));sv.style.setProperty('--z',RM.z);}return;}const r=e.target.closest('[data-rm]');if(r){showRelMap(r.dataset.rm,RM.d);return;}const d=e.target.closest('[data-rmd]');if(d)showRelMap(RM.id,+d.dataset.rmd);});
+$('#mbox').addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[data-rm]')){e.preventDefault();showRelMap(e.target.dataset.rm,RM.d);}});
+
+// ---------------- fase 3: búsqueda por síntomas combinados ----------------
+const SYM={items:[],scope:'nos'};
+const escRe=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+function symTerms(n){return [n.n.split(/[(/]/)[0].trim()].concat(n.al||[]).flatMap(t=>[t].concat(t.split(/\s*,\s*|\s+(?:y|e|o)\s+|\s*\/\s*/).filter(x=>x.length>=5))).map(norm).map(x=>x.replace(/\s+/g,' ').trim()).filter((k,i,a)=>k.length>=4&&a.indexOf(k)===i);}
+function symAdd(it){if(it.id){if(SYM.items.some(x=>x.id===it.id))return;const n=BY[it.id];if(!n)return;SYM.items.push({id:n.id,label:n.n.split(/[(/]/)[0].trim(),terms:symTerms(n)});}
+  else{const t=norm(it.label).trim();if(t.length<3||SYM.items.some(x=>!x.id&&x.terms[0]===t))return;SYM.items.push({label:it.label.trim(),terms:[t]});}
+  updSymBadge();}
+function updSymBadge(){const b=$('#symN');b.textContent=SYM.items.length;b.hidden=!SYM.items.length;}
+function symHas(txt,k){if(k.length<5)return new RegExp('(^|[^a-z0-9])'+escRe(k)+'($|[^a-z0-9])').test(txt);return txt.includes(k);}
+function symField(n){if(n._sf)return n._sf;n._sf={f:norm((n.feats||[]).join(' | ')),d:norm(n.desc||''),s:norm((n.sec||[]).map(s=>s.x).join(' '))};return n._sf;}
+function symRank(){const A=adjOf(),items=SYM.items;if(!items.length)return [];const res=[];
+  for(const e of NODES){if(SYM.scope==='nos'?e.vw!=='nos':e.vw==='hist')continue;let sc=0,hit=0;const det=[];
+    for(const it of items){if(it.id===e.id)continue;let t=0,how='';
+      if(it.id&&A[e.id]&&A[e.id].has(it.id)){t=1;how='relación directa en el atlas';}
+      else{const F=symField(e);const has=f=>it.terms.some(k=>symHas(F[f],k));
+        if(has('f')){t=.8;how='rasgos clave';}else if(has('d')){t=.6;how='descripción';}else if(has('s')){t=.3;how='otras secciones';}}
+      if(t){sc+=t;hit++;det.push([it,how,t]);}}
+    if(hit)res.push({e,sc,hit,det});}
+  res.sort((a,b)=>b.hit-a.hit||b.sc-a.sc||a.e.n.localeCompare(b.e.n,'es'));return res;}
+function symSugg(q){const nq=norm(q).trim();if(nq.length<2)return [];const have=new Set(SYM.items.map(x=>x.id));
+  return NODES.filter(n=>n.vw==='sem'&&n.k==='sx'&&!have.has(n.id)&&n._s.includes(nq)).sort((a,b)=>(a._s.indexOf(nq)-b._s.indexOf(nq))||a.n.localeCompare(b.n,'es')).slice(0,8);}
+function symRender(){const box=$('#symres');if(!box)return;
+  $('#symchips').innerHTML=SYM.items.length?SYM.items.map((x,i)=>'<span class="symchip'+(x.id?'':' free')+'">'+esc(x.label)+(x.id?'':' <small>(texto libre)</small>')+'<button data-symx="'+i+'" aria-label="Quitar '+esc(x.label)+'">×</button></span>').join(''):'<small style="color:var(--muted)">Aún no hay síntomas. Escribe arriba (p. ej. «anhedonia», «alucinaciones», «hipervigilancia») y pulsa Intro.</small>';
+  const R=symRank(),N=SYM.items.length;
+  if(!N){box.innerHTML='';}
+  else if(!R.length){box.innerHTML='<p>Sin coincidencias con los términos marcados.</p>';}
+  else{const full=R.filter(r=>r.hit===N).length;const top=R.slice(0,60);
+    box.innerHTML='<div class="rmnote">'+R.length+' resultado(s)'+(N>1?'; '+full+' reúne(n) los '+N+' síntomas':'')+(R.length>60?' (se muestran 60)':'')+'.</div>'+top.map(r=>'<div class="symr"><div class="rh"><span class="rchip" data-id="'+r.e.id+'" style="border-left:3px solid '+colOf(r.e)+'">'+esc(r.e.n)+'</span><small>'+esc(VT[r.e.vw])+' · '+esc((CFG.KINDS[r.e.k]||{}).t||'')+'</small><span class="sc">'+r.hit+'/'+N+' síntomas · puntuación '+r.sc.toFixed(1)+'</span></div><div class="bar"><i style="width:'+Math.round(100*r.sc/N)+'%"></i></div><div class="mt">'+r.det.map(d=>'<b>'+esc(d[0].label)+'</b>: '+d[1]).join(' · ')+'</div></div>').join('');}}
+function showSym(){modal('<div class="sym"><h2>Búsqueda por síntomas combinados</h2>'+
+  '<div class="symwarn">Herramienta de exploración docente. Cruza los síntomas que marques con el texto y las relaciones del atlas; la coincidencia es léxica y no distingue si una ficha afirma o niega el síntoma. No es un instrumento diagnóstico: el diagnóstico exige evaluación clínica, curso, contexto y criterios de DSM-5-TR o CIE-11.</div>'+
+  '<div class="symin"><input id="symq" type="search" autocomplete="off" placeholder="Añadir síntoma: escribe y elige, o pulsa Intro para usar el texto tal cual" aria-label="Añadir síntoma"><div class="symsug" id="symsug" role="listbox"></div></div>'+
+  '<div class="symchips" id="symchips"></div>'+
+  '<div class="symopts"><span>Buscar en:</span><label><input type="radio" name="symsc" value="nos"'+(SYM.scope==='nos'?' checked':'')+'> Entidades (nosología)</label><label><input type="radio" name="symsc" value="all"'+(SYM.scope==='all'?' checked':'')+'> Todas las vistas</label><button class="sbtn" id="symclr">Vaciar</button></div>'+
+  '<div class="rmnote">Puntuación por síntoma: relación directa en el atlas 1,0 · rasgos clave 0,8 · descripción 0,6 · otras secciones 0,3 (se toma la mejor coincidencia). Orden: primero las entidades que reúnen más síntomas.</div>'+
+  '<div class="symres" id="symres"></div></div>',true);
+  symRender();const inp=$('#symq');setTimeout(()=>inp.focus(),30);}
+document.addEventListener('input',e=>{if(e.target.id!=='symq')return;const sg=symSugg(e.target.value);const box=$('#symsug');
+  box.innerHTML=sg.map((n,i)=>'<button data-sa="'+n.id+'" class="'+(i?'':'act')+'">'+esc(n.n)+(n.ab?'<small>'+esc(n.ab)+'</small>':'')+'</button>').join('')+(e.target.value.trim().length>=3?'<button data-sf="1"'+(sg.length?'':' class="act"')+'>Usar «'+esc(e.target.value.trim())+'» como texto libre</button>':'');box.classList.toggle('on',!!box.innerHTML);});
+document.addEventListener('keydown',e=>{if(e.target.id!=='symq')return;const box=$('#symsug');const bs=[...box.querySelectorAll('button')];
+  if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();if(!bs.length)return;let i=bs.findIndex(b=>b.classList.contains('act'));bs.forEach(b=>b.classList.remove('act'));i=(i+(e.key==='ArrowDown'?1:-1)+bs.length)%bs.length;bs[i].classList.add('act');bs[i].scrollIntoView({block:'nearest'});}
+  else if(e.key==='Enter'){e.preventDefault();const a=box.querySelector('button.act')||box.querySelector('button');const v=e.target.value.trim();if(a)a.click();else if(v.length>=3){symAdd({label:v});e.target.value='';box.classList.remove('on');symRender();}}
+  else if(e.key==='Escape'&&box.classList.contains('on')){e.stopPropagation();box.classList.remove('on');}});
+$('#mbox').addEventListener('click',e=>{const sa=e.target.closest('[data-sa]');const sf=e.target.closest('[data-sf]');const sx=e.target.closest('[data-symx]');const inp=$('#symq');
+  if(sa){symAdd({id:sa.dataset.sa});inp.value='';$('#symsug').classList.remove('on');symRender();inp.focus();}
+  else if(sf){const v=inp.value.trim();if(v.length>=3){symAdd({label:v});}inp.value='';$('#symsug').classList.remove('on');symRender();inp.focus();}
+  else if(sx){SYM.items.splice(+sx.dataset.symx,1);updSymBadge();symRender();}
+  else if(e.target.id==='symclr'){SYM.items.length=0;updSymBadge();symRender();}
+  else if(e.target.name==='symsc'){SYM.scope=e.target.value;symRender();}});
+$('#bSym').onclick=showSym;
+
 // ---------------- modales ----------------
 function modal(h,wide){$('#mbox').innerHTML='<button class="mclose" aria-label="Cerrar">×</button>'+h;$('#mbox').classList.toggle('wide',!!wide);$('#modal').classList.add('on');}
 const FIG=window.ATLAS_FIG||{},FIGM=window.ATLAS_FIGMETA||{};let figZ=100;
@@ -805,7 +940,7 @@ $('#bHelp').onclick=()=>{const c={};NODES.forEach(n=>c[n.origen||'v1']=(c[n.orig
   modal('<h2>Atlas Nosológico</h2><p>Atlas interactivo de psicopatología que integra la nosología oficial (DSM-5-TR, CIE-11), las tradiciones clínicas europeas (Kraepelin, Wernicke-Kleist-Leonhard, escuela francesa, psicopatología alemana), los modelos del espectro bipolar (Akiskal, Koukopoulos, Angst), la fenomenología y el análisis existencial, la semiología descriptiva, la etiopatogenia (genética, neurodesarrollo, neurotransmisión, sistemas neuroendocrino-inmunes, circuitos, factores psicológicos y sociales) y la terapéutica.</p>'+
   '<h3>Navegación</h3><ul><li><b>Vistas</b>: Nosología, Semiología, Etiopatogenia, Terapéutica (mapas radiales por sectores y anillos), Historia (línea temporal) e Índice (tabla ordenable y exportable). Teclas <kbd>1</kbd>–<kbd>6</kbd>.</li><li><b>Buscar</b> (<kbd>/</kbd>): por nombre, sinónimo, contenido o autor de las referencias; la búsqueda también filtra el mapa.</li><li><b>Filtros</b>: combinables (O dentro de cada grupo, Y entre grupos). Por defecto atenúan; pueden ocultar.</li><li><b>Zoom</b>: rueda, pellizco, doble clic o <kbd>+</kbd>/<kbd>−</kbd>; <kbd>0</kbd> restablece. Las etiquetas aparecen al acercarse.</li><li><b>Relaciones</b>: al seleccionar un nodo se dibujan sus vínculos en la vista y se listan todos (también los de otras vistas) en la ficha.</li><li><b>Historial</b>: <kbd>Alt</kbd>+<kbd>←</kbd>/<kbd>→</kbd>; <kbd>J</kbd>/<kbd>K</kbd> recorren el sector. Cada ficha tiene un enlace directo (#id=…).</li><li><b>Figuras</b>: botón «Figuras» de la cabecera (galería) y apartado «Figuras» de cada ficha: árboles de diagnóstico diferencial y esquemas de circuitos con cajas enlazadas a las fichas (↗).</li><li><b>Temas</b>: claro, oscuro y e-ink (blanco y negro; la información no depende del color).</li></ul>'+
   '<h3>Criterios editoriales</h3><ul><li>Cada nodo lleva referencias; las cifras se atribuyen a su fuente. Las afirmaciones de escuela se identifican como tales.</li><li>El consenso indica el estatus del constructo, no su importancia clínica.</li><li>Ninguna referencia se ha añadido sin verificar su existencia; las del bloque de chemsex se contrastaron con PubMed.</li><li>† Los códigos CIE-11 se contrastaron con listados secundarios; no se pudieron verificar en la fuente oficial de la OMS (icd.who.int). Los datos que no se pudieron respaldar con una fuente oficial o primaria no se eliminan: se conservan marcados con «[fuente no localizada]».</li><li>No se ha eliminado contenido del atlas v1: los errores se corrigieron, los duplicados se fusionaron y los contenidos mal ubicados o atribuidos generaron nodos propios corregidos.</li></ul>'+
-  '<h3>Origen del contenido</h3><p>Atlas v1 sin cambios: '+(c['v1']||0)+' · v1 corregido: '+(c['v1-corregido']||0)+' · nuevos derivados de correcciones: '+(c['nuevo-corrección']||0)+' · nuevos de la ampliación v2: '+(c['nuevo']||0)+'. Usa el filtro "Origen del contenido" para revisarlos.</p>'+
+  '<h3>Origen del contenido</h3><p>Atlas v1 sin cambios: '+(c['v1']||0)+' · v1 corregido: '+(c['v1-corregido']||0)+' · nuevos derivados de correcciones: '+(c['nuevo-corrección']||0)+' · nuevos de la ampliación v2: '+(c['nuevo']||0)+'.</p>'+
   '<h3>Epistemología</h3><p>Ni panbiologicista ni panpsicologista: las categorías son convenciones con validez desigual. El atlas yuxtapone niveles de análisis (fenomenológico, clínico, neurobiológico, social) sin reducir unos a otros y da primacía al juicio clínico longitudinal.</p><p style="font-size:.75rem;color:var(--muted);margin-top:10px">Generado el '+esc(DATA.built)+'. Uso clínico y docente; no sustituye el juicio profesional.</p>');};
 // guía WKL
 function wklStep(k){const T=DATA.wklTree;if(!T)return;if(k==='root'||!T[k]&&!k.startsWith('r:')){}
