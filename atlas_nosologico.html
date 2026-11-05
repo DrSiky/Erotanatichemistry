@@ -833,12 +833,6 @@ $('#bCmp').onclick=showCompare;$('#modal').addEventListener('keydown',e=>{if(e.k
 let ADJ=null;
 function adjOf(){if(ADJ)return ADJ;ADJ={};NODES.forEach(n=>(n.rel||[]).forEach(r=>{if(!BY[r])return;(ADJ[n.id]=ADJ[n.id]||new Set()).add(r);(ADJ[r]=ADJ[r]||new Set()).add(n.id);}));return ADJ;}
 const RM={id:null,d:2};
-function shapePath(v,r){const f=x=>Math.round(x*10)/10;
-  if(v==='sem')return 'M'+f(-r)+' '+f(-r)+'h'+f(2*r)+'v'+f(2*r)+'h'+f(-2*r)+'z';
-  if(v==='eti')return 'M0 '+f(-r*1.25)+'L'+f(r*1.25)+' 0L0 '+f(r*1.25)+'L'+f(-r*1.25)+' 0z';
-  if(v==='ter')return 'M0 '+f(-r*1.2)+'L'+f(r*1.15)+' '+f(r)+'L'+f(-r*1.15)+' '+f(r)+'z';
-  if(v==='hist'){let d='';for(let i=0;i<6;i++){const a=Math.PI/3*i;d+=(i?'L':'M')+f(Math.cos(a)*r*1.1)+' '+f(Math.sin(a)*r*1.1);}return d+'z';}
-  return 'M'+f(-r)+' 0a'+f(r)+' '+f(r)+' 0 1 0 '+f(2*r)+' 0a'+f(r)+' '+f(r)+' 0 1 0 '+f(-2*r)+' 0z';}
 function relMapBody(cid,depth){
   const A=adjOf(),c=BY[cid],deg=i=>(A[i]||{size:0}).size;
   const all1=[...(A[cid]||[])].map(i=>BY[i]).sort((a,b)=>deg(b.id)-deg(a.id)||a.n.localeCompare(b.n,'es'));
@@ -857,18 +851,18 @@ function relMapBody(cid,depth){
   n1.forEach(m=>g+='<line class="e1" x1="0" y1="0" x2="'+pos[m.id][0].toFixed(1)+'" y2="'+pos[m.id][1].toFixed(1)+'"/>');
   const lab=(m,a,r,fs,max)=>{const t=m.n.length>max?m.n.slice(0,max-1)+'…':m.n;const deg=a*180/Math.PI;const left=Math.cos(a)<0;const x=(r)*Math.cos(a),y=(r)*Math.sin(a);
     return '<text transform="translate('+x.toFixed(1)+' '+y.toFixed(1)+') rotate('+(left?deg+180:deg).toFixed(1)+')" x="'+(left?-1:1)*(fs>11?13:10)+'" y="'+(fs*.35).toFixed(1)+'" text-anchor="'+(left?'end':'start')+'" font-size="'+fs+'">'+esc(t)+'</text>';};
-  const node=(m,r,a,rad,fs,max)=>'<g class="rn" tabindex="0" role="button" data-rm="'+m.id+'" aria-label="'+esc(m.n)+' ('+esc(VT[m.vw])+')"><title>'+esc(m.n)+' · '+esc(VT[m.vw])+'</title><g transform="translate('+pos[m.id][0].toFixed(1)+' '+pos[m.id][1].toFixed(1)+')"><path d="'+shapePath(m.vw,r)+'" fill="'+colOf(m)+'" stroke="var(--ink)" stroke-width="1.6"/></g>'+(a==null?'':lab(m,a,rad,fs,max))+'</g>';
+  const node=(m,r,a,rad,fs,max)=>'<g class="rn" tabindex="0" role="button" data-rm="'+m.id+'" aria-label="'+esc(m.n)+' ('+esc(VT[m.vw])+')"><title>'+esc(m.n)+' · '+esc(VT[m.vw])+'</title><g transform="translate('+pos[m.id][0].toFixed(1)+' '+pos[m.id][1].toFixed(1)+')"><path d="'+shapePath((CFG.KINDS[m.k]||{}).sh,r)+'" fill="'+colOf(m)+'" stroke="var(--ink)" stroke-width="1.6"/></g>'+(a==null?'':lab(m,a,rad,fs,max))+'</g>';
   n2.forEach(m=>g+=node(m,6.5,ang2[m.id],R2+9,12.5,26));
   n1.forEach(m=>g+=node(m,9,ang1[m.id],R1+11,13,22));
-  g+='<g class="rn" tabindex="0" role="button" data-rm="'+cid+'"><title>'+esc(c.n)+'</title><g><path d="'+shapePath(c.vw,17)+'" fill="'+colOf(c)+'" stroke="var(--ink)" stroke-width="3"/></g><text x="0" y="'+(depth>=2?-28:-30)+'" text-anchor="middle" font-size="15" font-weight="700">'+esc(c.n.length>34?c.n.slice(0,33)+'…':c.n)+'</text></g>';
-  const legend=ord.filter(v=>v!=='idx').map(v=>'<span><svg viewBox="-12 -12 24 24"><path d="'+shapePath(v,8)+'" fill="none" stroke="currentColor" stroke-width="2"/></svg>'+VT[v]+'</span>').join('');
+  g+='<g class="rn" tabindex="0" role="button" data-rm="'+cid+'"><title>'+esc(c.n)+'</title><g><path d="'+shapePath((CFG.KINDS[c.k]||{}).sh,17)+'" fill="'+colOf(c)+'" stroke="var(--ink)" stroke-width="3"/></g><text x="0" y="'+(depth>=2?-28:-30)+'" text-anchor="middle" font-size="15" font-weight="700">'+esc(c.n.length>34?c.n.slice(0,33)+'…':c.n)+'</text></g>';
+  const seenK={};[c].concat(n1,n2).forEach(m=>seenK[m.k]=1);const legend=Object.keys(CFG.KINDS).filter(k=>seenK[k]).map(k=>'<span><svg viewBox="-12 -12 24 24"><path d="'+shapePath(CFG.KINDS[k].sh,8)+'" fill="none" stroke="currentColor" stroke-width="2"/></svg>'+esc(CFG.KINDS[k].t)+'</span>').join('');
   return {svg:'<svg class="rmsvg" viewBox="'+(-RR)+' '+(-RR)+' '+(2*RR)+' '+(2*RR)+'" role="img" aria-label="Mapa de relaciones de '+esc(c.n)+'">'+g+'</svg>',
     legend,n1:all1.length,s1:n1.length,n2:all2.length,s2:n2.length};}
 function showRelMap(id,depth){RM.id=id;RM.d=depth;RM.z=1;const c=BY[id];if(!c)return;const b=relMapBody(id,depth);
   modal('<div class="rmw"><div class="rmtop"><span class="rmt" style="color:'+colOf(c)+'">'+esc(c.n)+'</span>'+
    '<button class="sbtn'+(depth===1?' in':'')+'" data-rmd="1"'+(depth===1?' aria-pressed="true"':'')+'>1 paso</button><button class="sbtn'+(depth===2?' in':'')+'" data-rmd="2"'+(depth===2?' aria-pressed="true"':'')+'>2 pasos</button>'+
    '<button class="sbtn" data-rmz="-1" aria-label="Alejar">−</button><button class="sbtn" data-rmz="1" aria-label="Acercar">＋</button><button class="sbtn" data-id="'+id+'">Abrir ficha</button></div><div class="rmwrap" id="rmwrap">'+b.svg+'</div>'+
-   '<div class="rmleg"><span><b>Forma = vista:</b></span>'+b.legend+'<span>Color = sector · línea continua: relación directa · discontinua: vecino de un vecino</span></div>'+
+   '<div class="rmleg"><span><b>Forma = tipo de nodo:</b></span>'+b.legend+'<span>Color = sector (como en el mapa principal) · línea continua: relación directa · discontinua: vecino de un vecino</span></div>'+
    '<div class="rmnote">Vecinos directos: '+b.n1+(b.n1>b.s1?' (se muestran los '+b.s1+' más conectados)':'')+(depth>=2?' · a 2 pasos: '+b.n2+(b.n2>b.s2?' (se muestran los '+b.s2+' más enlazados con el primer anillo)':''):'')+'. Haz clic en un nodo para recentrar el mapa; «Abrir ficha» lleva a la ficha del nodo central. Las relaciones del atlas son asociativas (comparten síntomas, mecanismos, diferencial o tratamiento): no implican causalidad ni criterio diagnóstico.</div></div>',true);}
 $('#mbox').addEventListener('click',e=>{const z=e.target.closest('[data-rmz]');if(z){const sv=$('#rmwrap .rmsvg');if(sv){RM.z=Math.max(1,Math.min(3,(RM.z||1)+.5*(+z.dataset.rmz)));sv.style.setProperty('--z',RM.z);}return;}const r=e.target.closest('[data-rm]');if(r){showRelMap(r.dataset.rm,RM.d);return;}const d=e.target.closest('[data-rmd]');if(d)showRelMap(RM.id,+d.dataset.rmd);});
 $('#mbox').addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[data-rm]')){e.preventDefault();showRelMap(e.target.dataset.rm,RM.d);}});
