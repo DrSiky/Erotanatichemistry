@@ -1,0 +1,728 @@
+{
+ "patch": {},
+ "add": [
+  {
+   "id": "adiccion_3fases",
+   "n": "Modelo neurocircuital de la adicción en tres estadios (Koob y Volkow)",
+   "ab": "Adicción 3 estadios",
+   "al": [
+    "ciclo de la adicción",
+    "sensibilización incentiva",
+    "neurocircuitry of addiction"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "hip",
+   "y": 2016,
+   "tags": [
+    "chr"
+   ],
+   "desc": "Koob y Volkow describen la adicción como una desregulación de los circuitos motivacionales en tres estadios recurrentes: atracón/intoxicación, abstinencia/afecto negativo y preocupación/anticipación. Cada uno se apoya en un sustrato distinto: ganglios basales (saliencia incentiva y hábitos), amígdala extendida (déficit de recompensa y exceso de estrés) y corteza prefrontal e ínsula (craving y fallo ejecutivo). El modelo integra la teoría de la sensibilización incentiva de Robinson y Berridge, según la cual el «querer» la sustancia se sensibiliza con independencia del «gustar».",
+   "feats": [
+    "Atracón/intoxicación: efectos reforzantes, saliencia incentiva y hábitos de búsqueda, con cambios de dopamina y péptidos opioides en los ganglios basales (Koob y Volkow 2016)",
+    "Abstinencia/afecto negativo: menor función del componente dopaminérgico de la recompensa y reclutamiento de neurotransmisores del estrés (CRF, dinorfina) en la amígdala extendida (Koob y Volkow 2016)",
+    "Preocupación/anticipación: craving y déficit ejecutivo por desregulación de las proyecciones, también glutamatérgicas, de la corteza prefrontal y la ínsula hacia ganglios basales y amígdala extendida (Koob y Volkow 2016)",
+    "Sensibilización incentiva: en algunas personas el uso repetido vuelve hipersensible el sistema dopaminérgico a la sustancia y a los estímulos asociados; el «querer» puede crecer aunque disminuya el placer esperado (Robinson y Berridge 1993)",
+    "La sensibilización explicaría que el craving persista tras periodos largos de abstinencia (Robinson y Berridge 1993)"
+   ],
+   "note": "Marco explicativo, no prueba diagnóstica. La generalización del modelo a todas las sustancias y a las adicciones comportamentales, y el debate sobre el modelo de enfermedad cerebral, exceden lo contrastado en los resúmenes consultados [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo ordena la exploración: qué mantiene hoy el consumo en esta persona, el refuerzo positivo, el alivio de un estado afectivo negativo o el craving ante señales. El estadio de afecto negativo ayuda a entender la disforia de la abstinencia y a no confundirla sin más con un trastorno afectivo primario, que exige valorar la cronología. La sensibilización a señales justifica trabajar los estímulos asociados al consumo; en el consumo sexualizado, las señales pueden ser contextos y aplicaciones de contacto [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "recompensa",
+        "saliencia"
+       ],
+       "t": "circuito de recompensa y saliencia"
+      },
+      {
+       "ids": [
+        "dep_induc",
+        "anx_sust"
+       ],
+       "t": "cuadros inducidos"
+      },
+      {
+       "ids": [
+        "ttos_adiccion",
+        "entrev_motiv"
+       ],
+       "t": "abordaje"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Es una revisión narrativa que sintetiza datos de distinto nivel; los tres estadios son una abstracción útil y no fases que se observen de forma separada en cada persona. La teoría de la sensibilización incentiva se formuló como teoría biopsicológica y sus propios autores la limitan a «algunos individuos». Del artículo de Volkow, Koob y McLellan PubMed no ofrece resumen, por lo que aquí solo se cita como referencia bibliográfica contrastada, sin atribuirle datos concretos."
+    }
+   ],
+   "refs": [
+    "Koob GF & Volkow ND (2016). Neurobiology of addiction: a neurocircuitry analysis. Lancet Psychiatry 3:760-773 · PMID 27475769",
+    "Robinson TE & Berridge KC (1993). The neural basis of drug craving: an incentive-sensitization theory of addiction. Brain Res Brain Res Rev 18:247-291 · PMID 8401595",
+    "Volkow ND, Koob GF & McLellan AT (2016). Neurobiologic advances from the brain disease model of addiction. N Engl J Med 374:363-371 · PMID 26816013"
+   ],
+   "rel": [
+    "recompensa",
+    "saliencia",
+    "sustanc",
+    "ttos_adiccion",
+    "kindling",
+    "chemsex_s",
+    "automedicacion"
+   ]
+  },
+  {
+   "id": "automedicacion",
+   "n": "Hipótesis de la automedicación (Khantzian)",
+   "ab": "Automedicación",
+   "al": [
+    "self-medication hypothesis",
+    "SMH"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 3,
+   "trad": "psychoan",
+   "cs": "l",
+   "ev": "hip",
+   "y": 1985,
+   "tags": [
+    "trauma"
+   ],
+   "desc": "Khantzian propuso en 1985, a partir de la observación clínica, que las personas con dependencia están predispuestas a la adicción porque sufren estados afectivos dolorosos y trastornos psiquiátricos asociados, y que la sustancia preferida no se elige al azar: resulta de la interacción entre su acción psicofarmacológica y el afecto dominante. En 1997 la reformuló situándola en vulnerabilidades de la autorregulación (afectos, autoestima, relaciones y autocuidado). La hipótesis ha influido mucho en la clínica, pero su apoyo empírico es desigual y ha recibido críticas explícitas.",
+   "feats": [
+    "Formulación original: los opiáceos se preferirían por su efecto atenuador de la rabia y la agresividad, y la cocaína por aliviar el malestar asociado a depresión, hipomanía e hiperactividad (Khantzian 1985)",
+    "Reformulación: la automedicación ocurre en un contexto de dificultades para regular afectos, autoestima, relaciones y autocuidado; los estudios diagnósticos la apoyan y la contradicen de forma variable (Khantzian 1997)",
+    "En población general, entre el 21,9 % y el 24,1 % de quienes tienen un trastorno afectivo o de ansiedad refieren automedicarse con alcohol o drogas (Turner 2018)",
+    "Los datos longitudinales apoyan la secuencia trastorno afectivo o de ansiedad primario y trastorno por consumo secundario entre quienes declaran automedicarse (Turner 2018)",
+    "Crítica: falta evidencia robusta para la hipótesis tal como la formuló Khantzian y su uso ha llevado a infrarreconocer e infratratar los trastornos por consumo (Lembke 2012)"
+   ],
+   "note": "Hipótesis de origen clínico y psicodinámico. La automedicación autodeclarada no prueba causalidad, y la dirección inversa (síntomas inducidos por la sustancia) es frecuente.",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Preguntar para qué sirve la sustancia a quien consulta (dormir, calmar la ansiedad, poder relacionarse o mantener relaciones sexuales, concentrarse) aporta información útil y favorece la alianza, pero no sustituye a la cronología: hay que distinguir el trastorno primario del inducido. La consecuencia práctica más segura es el tratamiento simultáneo de ambos trastornos, no posponer el del consumo a la espera de que mejore el otro (Turner 2018; Lembke 2012). En personas LGTBIQ el malestar ligado al estrés de minorías puede formar parte de esa función del consumo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dep_induc",
+        "anx_sust"
+       ],
+       "t": "primario frente a inducido"
+      },
+      {
+       "ids": [
+        "tdah_chemsex"
+       ],
+       "t": "TDAH y estimulantes"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "estrés de minorías"
+      },
+      {
+       "ids": [
+        "ttos_adiccion"
+       ],
+       "t": "tratamiento integrado"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los dos textos de Khantzian son revisiones basadas en observación clínica y casos. La revisión epidemiológica de Turner es narrativa y se apoya en automedicación autodeclarada en encuestas. La especificidad de la elección de sustancia según el afecto dominante, núcleo de la formulación de 1985, es la parte con menos respaldo (Lembke 2012). La hipótesis no explica por sí sola el inicio del consumo ni el paso a la dependencia."
+    }
+   ],
+   "refs": [
+    "Khantzian EJ (1985). The self-medication hypothesis of addictive disorders: focus on heroin and cocaine dependence. Am J Psychiatry 142:1259-1264 · PMID 3904487",
+    "Khantzian EJ (1997). The self-medication hypothesis of substance use disorders: a reconsideration and recent applications. Harv Rev Psychiatry 4:231-244 · PMID 9385000",
+    "Lembke A (2012). Time to abandon the self-medication hypothesis in patients with psychiatric disorders. Am J Drug Alcohol Abuse 38:524-529 · PMID 22924576",
+    "Turner S et al. (2018). Self-medication with alcohol or drugs for mood and anxiety disorders: a narrative review of the epidemiological literature. Depress Anxiety 35:851-860 · PMID 29999576"
+   ],
+   "rel": [
+    "sustanc",
+    "dep_induc",
+    "anx_sust",
+    "tdah_chemsex",
+    "genero",
+    "ptsd",
+    "ttos_adiccion",
+    "adiccion_3fases"
+   ]
+  },
+  {
+   "id": "kindling_abst_alc",
+   "n": "Kindling de la abstinencia alcohólica (Ballenger y Post)",
+   "ab": "Kindling abstinencia",
+   "al": [
+    "kindling in alcohol withdrawal",
+    "desintoxicaciones repetidas"
+   ],
+   "k": "mec",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "obs",
+   "y": 1978,
+   "tags": [
+    "organic",
+    "risk"
+   ],
+   "desc": "Ballenger y Post propusieron en 1978 que la gravedad de la abstinencia alcohólica aumenta de forma escalonada a lo largo de los años de consumo, de modo análogo al kindling experimental: la hiperirritabilidad límbica de cada abstinencia iría reclutando estructuras subcorticales cada vez más amplias, lo que explicaría la progresión del temblor a las crisis y al delirium tremens. La hipótesis se apoya en datos clínicos y experimentales y tiene una consecuencia práctica: el número de abstinencias previas, y no solo la cantidad consumida, informa del riesgo.",
+   "feats": [
+    "La gravedad de los síntomas de abstinencia aumentaría de forma progresiva y escalonada con los años, a semejanza del kindling (Ballenger y Post 1978)",
+    "En 25 varones con crisis de abstinencia y 25 sin ellas, el 48 % frente al 12 % tenía cinco o más desintoxicaciones previas; la historia de consumo no se relacionó con las crisis (Brown 1988)",
+    "Evidencia clínica y experimental apoya el mecanismo; el kindling podría contribuir también al riesgo de recaída, al daño cerebral y al deterioro cognitivo (Becker 1998)",
+    "Se han descrito efectos emocionales y cognitivos de las abstinencias múltiples y paralelos con el consumo en atracón, en modelos animales y en personas (Duka 2004)",
+    "Ballenger y Post extendieron la hipótesis a cambios de personalidad entre episodios, punto especulativo en el original (Ballenger y Post 1978)"
+   ],
+   "note": "Hipótesis apoyada en estudios pequeños y retrospectivos y en modelos animales. La extensión a la abstinencia de otros depresores del sistema nervioso central no está contrastada aquí [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "En la valoración de una abstinencia conviene registrar el número de desintoxicaciones y de crisis o delirium previos, porque orientan el riesgo y la ubicación asistencial. Becker concluye que incluso la abstinencia leve merece tratamiento activo para no agravar las siguientes. El modelo desaconseja los ciclos repetidos de interrupción brusca sin supervisión y respalda plantear con la persona objetivos realistas y sostenidos.",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "ciwa_ar"
+       ],
+       "t": "abstinencia alcohólica y su valoración"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "trastorno por consumo de alcohol"
+      },
+      {
+       "ids": [
+        "kindling"
+       ],
+       "t": "kindling en los trastornos afectivos"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "dependencia de benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El estudio de Brown es pequeño (50 personas), retrospectivo y solo en varones. La referencia de Duka son actas de un simposio, no un estudio primario. La recomendación de tratar activamente la abstinencia leve procede de una revisión narrativa y no de ensayos diseñados para comprobar que así se previene el agravamiento posterior."
+    }
+   ],
+   "refs": [
+    "Ballenger JC & Post RM (1978). Kindling as a model for alcohol withdrawal syndromes. Br J Psychiatry 133:1-14 · PMID 352467",
+    "Brown ME et al. (1988). Alcohol detoxification and withdrawal seizures: clinical support for a kindling hypothesis. Biol Psychiatry 23:507-514 · PMID 3345323",
+    "Becker HC (1998). Kindling in alcohol withdrawal. Alcohol Health Res World 22:25-33 · PMID 15706729",
+    "Duka T et al. (2004). Consequences of multiple withdrawals from alcohol. Alcohol Clin Exp Res 28:233-246 · PMID 15112931"
+   ],
+   "rel": [
+    "kindling",
+    "dt_alc",
+    "alcohol",
+    "ciwa_ar",
+    "bzd_dep",
+    "korsakoff"
+   ]
+  },
+  {
+   "id": "turnos_noche",
+   "n": "Trabajo a turnos y nocturno como factor de riesgo",
+   "ab": "Trabajo a turnos",
+   "al": [
+    "shift work",
+    "turnicidad"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "cro",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2019,
+   "tags": [
+    "risk",
+    "sexdif"
+   ],
+   "desc": "El trabajo fuera del horario diurno habitual altera el ciclo sueño-vigilia. En un metaanálisis de siete estudios longitudinales (28 431 participantes), el trabajo a turnos se asoció a mayor riesgo de mala salud mental en conjunto (tamaño del efecto 1,28; IC 95 % 1,02-1,62) y de síntomas depresivos (1,33; IC 95 % 1,02-1,74). Las diferencias por sexo explicaron más del 90 % de la heterogeneidad: las trabajadoras a turnos presentaron más síntomas depresivos que las que no lo hacían (OR 1,73; IC 95 % 1,39-2,14).",
+   "feats": [
+    "Siete estudios longitudinales, 28 431 participantes: efecto global 1,28 (IC 95 % 1,02-1,62) sobre desenlaces adversos de salud mental (Torquati 2019)",
+    "Síntomas depresivos: 1,33 (IC 95 % 1,02-1,74); en mujeres, OR 1,73 (IC 95 % 1,39-2,14) (Torquati 2019)",
+    "El efecto sobre el sueño es sobre todo pérdida aguda de sueño ligada a los turnos de noche y de madrugada (Kecklund y Axelsson 2016)",
+    "Asociación con accidentes y con enfermedad cardiometabólica, como diabetes tipo 2 (riesgo relativo 1,09-1,40) y enfermedad coronaria (1,23), con resultados mixtos en los estudios originales (Kecklund y Axelsson 2016)",
+    "El modelo de dos procesos reproduce la dependencia de la duración del sueño respecto a la fase circadiana en el trabajo a turnos (Daan 1984)"
+   ],
+   "note": "Asociación modesta, con intervalos cercanos a la unidad y pocos estudios. No está establecido que el sueño insuficiente sea la vía causal de los efectos adversos (Kecklund y Axelsson 2016).",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La historia laboral (turnos, noches, rotación) forma parte de la anamnesis de cualquier cuadro afectivo o de insomnio. En personas con trastorno bipolar, la pérdida de sueño asociada a las noches merece atención específica por su papel como desencadenante descrito en otras fichas. En informes periciales laborales conviene no atribuir causalidad individual a partir de asociaciones poblacionales de pequeño tamaño.",
+     "links": [
+      {
+       "ids": [
+        "priv_sueno",
+        "zeitgebers"
+       ],
+       "t": "pérdida de sueño y sincronizadores"
+      },
+      {
+       "ids": [
+        "circ_sueno",
+        "insom"
+       ],
+       "t": "trastornos del sueño"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "pericia"
+      },
+      {
+       "ids": [
+        "ipsrt"
+       ],
+       "t": "ritmos sociales"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El metaanálisis incluye solo siete estudios, con heterogeneidad elevada en el resultado global (70,6 %) y medidas de síntomas más que diagnósticos. La definición de trabajo a turnos varía entre estudios. La revisión de Kecklund y Axelsson resume metaanálisis de salud física y accidentes, no de salud mental."
+    }
+   ],
+   "refs": [
+    "Torquati L et al. (2019). Shift work and poor mental health: a meta-analysis of longitudinal studies. Am J Public Health 109:e13-e20 · PMID 31536404",
+    "Kecklund G & Axelsson J (2016). Health consequences of shift work and insufficient sleep. BMJ 355:i5210 · PMID 27803010",
+    "Daan S, Beersma DG & Borbély AA (1984). Timing of human sleep: recovery process gated by a circadian pacemaker. Am J Physiol 246:R161-R183 · PMID 6696142"
+   ],
+   "rel": [
+    "circad",
+    "priv_sueno",
+    "zeitgebers",
+    "circ_sueno",
+    "insom",
+    "ddm",
+    "dos_procesos"
+   ]
+  },
+  {
+   "id": "jetlag_social",
+   "n": "Jet lag social: desajuste entre el tiempo biológico y el social",
+   "ab": "Jet lag social",
+   "al": [
+    "social jetlag",
+    "desfase social"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "cro",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2006,
+   "tags": [],
+   "desc": "Wittmann y Roenneberg denominaron jet lag social a la discrepancia entre los horarios de sueño de los días laborables y los libres, es decir, entre el tiempo social y el biológico. Afecta sobre todo a los cronotipos tardíos, que acumulan deuda de sueño entre semana y la compensan en los días libres. En 501 voluntarios se asoció a peor bienestar psicológico y a mayor consumo de estimulantes; en una población rural de 4051 personas, las puntuaciones de depresión fueron más altas con más de dos horas de jet lag social.",
+   "feats": [
+    "Los cronotipos tardíos muestran la mayor diferencia de horario de sueño entre días laborables y libres (Wittmann 2006)",
+    "La asociación entre cronotipo, bienestar y consumo de cafeína, nicotina y alcohol es más fuerte hasta los 25 años; la más llamativa es con el tabaco, mayor en cronotipos tardíos (Wittmann 2006)",
+    "Población rural (N = 4051): puntuaciones del BDI ajustadas más altas con más de 2 h de jet lag social, con independencia del tabaquismo (Levandovski 2011)",
+    "Más allá de la duración del sueño, el jet lag social se asocia a mayor índice de masa corporal (Roenneberg 2012)",
+    "Se mide con el Munich ChronoType Questionnaire (MCTQ), que recoge los horarios reales de sueño (Wittmann 2006; Levandovski 2011)"
+   ],
+   "note": "Estudios transversales con cuestionarios: no permiten establecer causalidad. Los propios autores piden estudios longitudinales (Levandovski 2011).",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Preguntar por separado por los horarios de sueño en días laborables y libres detecta un desfase que la pregunta genérica por «las horas que duerme» pasa por alto. En adolescentes y adultos jóvenes con ánimo bajo y consumo de tabaco u otros estimulantes, el desfase es un elemento más que valorar. Los fines de semana con horarios muy desplazados, incluidos los ligados al ocio nocturno y al consumo sexualizado de sustancias, producen un desfase análogo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cronotipo",
+        "circ_sueno"
+       ],
+       "t": "cronotipo y trastornos del ritmo"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "tabaco"
+      },
+      {
+       "ids": [
+        "retraso_fase_adol"
+       ],
+       "t": "adolescencia"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Wittmann 2006 es una muestra de voluntarios y Levandovski 2011 una población rural homogénea de Brasil: la generalización es incierta. Las medidas son autoinformadas. El resultado sobre depresión corresponde a puntuaciones del BDI, no a diagnósticos clínicos."
+    }
+   ],
+   "refs": [
+    "Wittmann M et al. (2006). Social jetlag: misalignment of biological and social time. Chronobiol Int 23:497-509 · PMID 16687322",
+    "Levandovski R et al. (2011). Depression scores associate with chronotype and social jetlag in a rural population. Chronobiol Int 28:771-778 · PMID 21895489",
+    "Roenneberg T et al. (2012). Social jetlag and obesity. Curr Biol 22:939-943 · PMID 22578422"
+   ],
+   "rel": [
+    "cronotipo",
+    "circ_sueno",
+    "zeitgebers",
+    "circad",
+    "tabaco",
+    "ddm",
+    "retraso_fase_adol"
+   ]
+  },
+  {
+   "id": "dos_procesos",
+   "n": "Modelo de los dos procesos de regulación del sueño (Borbély)",
+   "ab": "Dos procesos (S y C)",
+   "al": [
+    "two-process model",
+    "proceso S",
+    "proceso C"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "cro",
+   "ring": 1,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "hip",
+   "y": 1982,
+   "tags": [],
+   "desc": "El modelo de Borbély postula que el sueño resulta de la interacción de un proceso homeostático (S), que aumenta durante la vigilia y disminuye durante el sueño, y un proceso controlado por el marcapasos circadiano (C). En la versión cuantitativa de Daan, Beersma y Borbély, el sueño se inicia cuando S alcanza un umbral superior y termina al llegar a uno inferior, umbrales que oscilan con ritmo circadiano. El modelo ha sido el marco conceptual principal de la investigación del sueño durante tres décadas y ha servido de base a tratamientos no farmacológicos en psiquiatría.",
+   "feats": [
+    "Proceso S: variable reguladora que crece en vigilia y decae en sueño; sus constantes de tiempo se derivaron de la densidad de potencia del EEG en sueño normal y tras privación (Daan 1984)",
+    "Proceso C: umbrales de inicio y fin del sueño con ritmo circadiano gobernado por un único marcapasos (Daan 1984)",
+    "Simula la desincronización interna sin claves temporales, la fragmentación del sueño en reposo continuo y la duración del sueño según la fase circadiana (Daan 1984)",
+    "Se propuso un déficit del proceso S para explicar tanto las alteraciones depresivas del sueño como el efecto antidepresivo de la privación de sueño (Borbély 2016)",
+    "El modelo apoyó el desarrollo de tratamientos basados en manipular la fase circadiana, el sueño y la exposición a la luz (Borbély 2016)"
+   ],
+   "note": "Modelo conceptual y matemático. La hipótesis del déficit de S en la depresión es una propuesta, no un hallazgo establecido. Del artículo original de 1982 PubMed no ofrece resumen.",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo da fundamento a intervenciones que el atlas recoge en otras fichas: la restricción del tiempo en cama de la terapia cognitivo-conductual del insomnio actúa sobre la presión homeostática, y la luz y los horarios regulares, sobre el componente circadiano. Ayuda a explicar a quien consulta por qué las siestas largas o acostarse muy pronto pueden empeorar el inicio del sueño.",
+     "links": [
+      {
+       "ids": [
+        "tcci",
+        "insom"
+       ],
+       "t": "insomnio y su tratamiento"
+      },
+      {
+       "ids": [
+        "priv_sueno",
+        "fototer"
+       ],
+       "t": "cronoterapia"
+      },
+      {
+       "ids": [
+        "luz_melatonina",
+        "circad"
+       ],
+       "t": "sistema circadiano"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La revisión de 2016 señala que S y C interactúan de forma continua y que existen osciladores periféricos ligados al metabolismo, lo que matiza la separación original. La aplicación a la depresión procede de un marco teórico. Lo atribuido aquí al artículo de 1982 se ha contrastado a través de Daan 1984 y Borbély 2016, no del original."
+    }
+   ],
+   "refs": [
+    "Borbély AA (1982). A two process model of sleep regulation. Hum Neurobiol 1:195-204 · PMID 7185792",
+    "Daan S, Beersma DG & Borbély AA (1984). Timing of human sleep: recovery process gated by a circadian pacemaker. Am J Physiol 246:R161-R183 · PMID 6696142",
+    "Borbély AA et al. (2016). The two-process model of sleep regulation: a reappraisal. J Sleep Res 25:131-143 · PMID 26762182"
+   ],
+   "rel": [
+    "circad",
+    "priv_sueno",
+    "luz_melatonina",
+    "insom",
+    "tcci",
+    "fototer",
+    "sad"
+   ]
+  },
+  {
+   "id": "hiperactiv_insom",
+   "n": "Modelo de hiperactivación (hyperarousal) del insomnio",
+   "ab": "Hiperactivación",
+   "al": [
+    "hyperarousal",
+    "hiperalerta"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "cro",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2010,
+   "tags": [
+    "chr"
+   ],
+   "desc": "El modelo sostiene que el insomnio es un trastorno de hiperactivación presente las 24 horas, no solo una alteración nocturna. Riemann et al. reunieron datos autonómicos, neuroendocrinos, neuroinmunológicos, electrofisiológicos y de neuroimagen que muestran mayor activación de día y de noche, y conceptualizaron el insomnio como vía final común de una vulnerabilidad genética al desequilibrio entre sistemas de activación e inducción del sueño, estresores y mecanismos perpetuadores conductuales y cognitivos.",
+   "feats": [
+    "Mayor activación diurna y nocturna en estudios autonómicos, neuroendocrinos, electrofisiológicos y de neuroimagen (Riemann 2010)",
+    "PET con fluorodesoxiglucosa en 7 pacientes y 20 controles: mayor metabolismo cerebral global en sueño y vigilia y menor descenso en regiones promotoras de la vigilia al dormir (Nofzinger 2004)",
+    "El insomnio con sueño objetivamente corto sería el fenotipo biológicamente más grave, con activación del sistema del estrés y mayor riesgo de hipertensión, diabetes y deterioro neurocognitivo (Vgontzas 2013)",
+    "El insomnio con duración objetiva normal se asocia a activación cognitivo-emocional y mala percepción del sueño, sin activación del sistema del estrés (Vgontzas 2013)",
+    "Factores perpetuadores y condicionamiento como base de los tratamientos conductuales: control de estímulos y restricción de sueño (Spielman 1987)"
+   ],
+   "note": "El estudio de neuroimagen es muy pequeño. La propuesta de que cada fenotipo responda mejor a tratamientos biológicos o psicológicos es, según sus autores, especulativa (Vgontzas 2013).",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo explica por qué muchas personas con insomnio no están somnolientas de día pese a dormir poco, y por qué el tratamiento se dirige a reducir la activación y los factores perpetuadores más que a sedar. Vgontzas et al. proponen incorporar medidas objetivas de sueño en el domicilio a la valoración habitual. La preocupación y la rumiación forman parte del modelo y enlazan con la ansiedad y la depresión.",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "insomnio_sx"
+       ],
+       "t": "semiología del sueño"
+      },
+      {
+       "ids": [
+        "hha_dep"
+       ],
+       "t": "eje del estrés"
+      },
+      {
+       "ids": [
+        "orexina"
+       ],
+       "t": "antagonistas de orexina"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La mayor parte de los datos es transversal y no permite saber si la hiperactivación precede al insomnio o lo sigue. El término «insomnio primario» de la revisión de 2010 responde a una nosología anterior. El texto de Spielman de 1987 es una revisión conductual: el esquema de factores predisponentes, precipitantes y perpetuadores se le atribuye habitualmente, pero su resumen en PubMed solo menciona los perpetuadores."
+    }
+   ],
+   "refs": [
+    "Riemann D et al. (2010). The hyperarousal model of insomnia: a review of the concept and its evidence. Sleep Med Rev 14:19-31 · PMID 19481481",
+    "Nofzinger EA et al. (2004). Functional neuroimaging evidence for hyperarousal in insomnia. Am J Psychiatry 161:2126-2128 · PMID 15514418",
+    "Vgontzas AN et al. (2013). Insomnia with objective short sleep duration: the most biologically severe phenotype of the disorder. Sleep Med Rev 17:241-254 · PMID 23419741",
+    "Spielman AJ, Caruso LS & Glovinsky PB (1987). A behavioral perspective on insomnia treatment. Psychiatr Clin North Am 10:541-553 · PMID 3332317"
+   ],
+   "rel": [
+    "insom",
+    "tcci",
+    "insomnio_sx",
+    "hha_dep",
+    "orexina",
+    "dos_procesos"
+   ]
+  },
+  {
+   "id": "insomnio_riesgo",
+   "n": "Insomnio como factor de riesgo de trastorno mental",
+   "ab": "Insomnio: riesgo",
+   "al": [
+    "insomnia as a predictor"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "cro",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2019,
+   "tags": [
+    "risk"
+   ],
+   "desc": "El insomnio no es solo síntoma: precede a la aparición de varios trastornos mentales. En un metaanálisis de 13 estudios longitudinales con al menos 12 meses de seguimiento, predijo el inicio de depresión (OR 2,83; IC 1,55-5,17), ansiedad (OR 3,23; IC 1,52-6,85), abuso de alcohol (OR 1,35; IC 1,08-1,67) y psicosis (un estudio; OR 1,28; IC 1,03-1,59). Un metaanálisis anterior de 21 estudios había estimado para la depresión una OR de 2,60 (IC 1,98-3,42).",
+   "feats": [
+    "Depresión: OR 2,83 en 10 estudios; ansiedad: OR 3,23 en 6 estudios (Hertenstein 2019)",
+    "Abuso de alcohol: OR 1,35 en 2 estudios; psicosis: OR 1,28 en un único estudio (Hertenstein 2019)",
+    "Metaanálisis previo de 21 estudios longitudinales: OR 2,60 con efectos aleatorios y 2,10 (IC 1,86-2,38) con efectos fijos tras ajustar valores extremos (Baglioni 2011)",
+    "Las alteraciones del sueño se asocian a ideación y conducta suicida, con riesgos relativos de 1,95 a 2,95 en estudios no ajustados; la depresión no moderó la asociación (Pigeon 2012)",
+    "El riesgo de sesgo de los estudios primarios se consideró moderado (Hertenstein 2019)"
+   ],
+   "note": "Que el insomnio prediga un trastorno no demuestra que tratarlo lo prevenga: los autores piden estudios de intervención a largo plazo (Hertenstein 2019).",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El insomnio persistente en una persona sin otro diagnóstico justifica seguimiento y tratamiento propio, no la espera. Al valorar el riesgo en una persona con malestar intenso conviene preguntar de forma sistemática por el sueño y las pesadillas, porque su asociación con la ideación suicida no se explica solo por la depresión (Pigeon 2012). La asociación con el alcohol invita a explorar su uso como inductor del sueño.",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci",
+        "isi"
+       ],
+       "t": "insomnio: diagnóstico, tratamiento y medida"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "depresión"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "valoración del riesgo"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Las estimaciones para alcohol y psicosis proceden de dos y un estudio. Los estudios primarios no siempre controlan variables intermedias (Baglioni 2011) y definen el insomnio de forma heterogénea. En Pigeon 2012 las asociaciones fueron menores, aunque significativas, en los estudios ajustados."
+    }
+   ],
+   "refs": [
+    "Hertenstein E et al. (2019). Insomnia as a predictor of mental disorders: a systematic review and meta-analysis. Sleep Med Rev 43:96-105 · PMID 30537570",
+    "Baglioni C et al. (2011). Insomnia as a predictor of depression: a meta-analytic evaluation of longitudinal epidemiological studies. J Affect Disord 135:10-19 · PMID 21300408",
+    "Pigeon WR, Pinquart M & Conner K (2012). Meta-analysis of sleep disturbance and suicidal thoughts and behaviors. J Clin Psychiatry 73:e1160-e1167 · PMID 23059158"
+   ],
+   "rel": [
+    "insom",
+    "ddm",
+    "tcci",
+    "ideac_suic",
+    "alcohol",
+    "isi",
+    "hiperactiv_insom"
+   ]
+  },
+  {
+   "id": "retraso_fase_adol",
+   "n": "Retraso de fase del sueño en la adolescencia",
+   "ab": "Retraso fase adolesc.",
+   "al": [
+    "delayed phase in adolescence",
+    "horario escolar"
+   ],
+   "k": "mec",
+   "vw": "eti",
+   "sp": "cro",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2007,
+   "tags": [
+    "child"
+   ],
+   "desc": "Durante la segunda década de la vida el horario de sueño y vigilia se desplaza hacia más tarde. Carskadon mostró en 1993 que la preferencia por horarios tardíos se relaciona con el estadio puberal y no con factores psicosociales, lo que apunta a un componente biológico. Crowley, Acebo y Carskadon lo explican con cambios del proceso circadiano y del homeostático, y consideran el síndrome de retraso de fase, de inicio típico en esta edad, una posible manifestación extrema. El choque con horarios escolares tempranos produce restricción crónica de sueño.",
+   "feats": [
+    "En 183 chicos y 275 chicas de sexto curso, el estadio puberal se relacionó de forma significativa con la preferencia horaria en las chicas, con tendencia similar no significativa en los chicos (Carskadon 1993)",
+    "No se halló relación entre la preferencia horaria y los factores psicosociales estudiados (Carskadon 1993)",
+    "Cambios del proceso circadiano y del homeostático como explicación; el síndrome de retraso de fase sería su expresión extrema (Crowley 2007)",
+    "Retrasar el inicio de las clases 25-60 minutos aumentó el sueño entre 25 y 77 minutos por noche lectiva en seis estudios (Minges y Redeker 2016)",
+    "Algunos de esos estudios hallaron menos somnolencia diurna, depresión y consumo de cafeína (Minges y Redeker 2016)"
+   ],
+   "note": "Carskadon 1993 es un estudio transversal con cuestionarios. La revisión sobre horarios escolares incluye solo seis estudios, tres sin grupo control.",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Ante un adolescente o una adolescente que no se duerme hasta tarde y no logra levantarse, conviene distinguir el retraso de fase esperable por la edad del trastorno de retraso de fase, del insomnio y de un cuadro depresivo, y no interpretarlo de entrada como oposición o desmotivación. La restricción crónica de sueño puede confundirse con inatención o empeorarla [fuente no localizada]. El uso nocturno de pantallas es un factor añadido que el atlas trata en su ficha.",
+     "links": [
+      {
+       "ids": [
+        "circ_sueno",
+        "sueno_inf"
+       ],
+       "t": "trastornos del ritmo y del sueño infantil"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "depresión en la adolescencia"
+      },
+      {
+       "ids": [
+        "pantallas"
+       ],
+       "t": "pantallas"
+      },
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "TDAH"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los datos puberales son transversales y autoinformados. Los estudios sobre el horario escolar usan diseños y medidas heterogéneos, y los autores reclaman ensayos aleatorizados con medidas objetivas de sueño. La carta de Roenneberg et al. (2004) se cita como referencia bibliográfica: PubMed no ofrece resumen y no se le atribuyen aquí datos concretos."
+    }
+   ],
+   "refs": [
+    "Crowley SJ, Acebo C & Carskadon MA (2007). Sleep, circadian rhythms, and delayed phase in adolescence. Sleep Med 8:602-612 · PMID 17383934",
+    "Carskadon MA, Vieira C & Acebo C (1993). Association between puberty and delayed phase preference. Sleep 16:258-262 · PMID 8506460",
+    "Minges KE & Redeker NS (2016). Delayed school start times and adolescent sleep: a systematic review of the experimental evidence. Sleep Med Rev 28:86-95 · PMID 26545246",
+    "Roenneberg T et al. (2004). A marker for the end of adolescence. Curr Biol 14:R1038-R1039 · PMID 15620633"
+   ],
+   "rel": [
+    "circ_sueno",
+    "cronotipo",
+    "sueno_inf",
+    "pantallas",
+    "dep_inf",
+    "dos_procesos",
+    "jetlag_social"
+   ]
+  }
+ ]
+}

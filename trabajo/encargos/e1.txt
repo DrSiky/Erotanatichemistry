@@ -1,0 +1,26 @@
+CONTEXTO
+Atlas nosológico interactivo de psicopatología (un único HTML sin conexión) de un médico psicoterapeuta, psicopatólogo y psicofarmacólogo, experto en chemsex, perito médico-legal en España y defensor del colectivo LGTBIQ. Exige registro preciso, académico y MUY estricto con las referencias: solo se afirma lo que tiene base documental sólida (DSM-5-TR, CIE-11, guías de práctica clínica, revisiones sistemáticas y metaanálisis, estudios indexados en PubMed, obras clásicas de psicopatología citadas con exactitud). Nunca webs generalistas.
+
+REGLAS DE CONTENIDO (obligatorias)
+1. Lo que no puedas verificar en una fuente primaria u oficial NO se elimina si es clínicamente razonable: se conserva marcado con el indicador literal «[fuente no localizada]» pegado a la afirmación (códigos CIE-11: «[fuente oficial no localizada]»; referencias no comprobadas: «[no verificada]» al final de la referencia). Lo que una fuente verificable contradiga, no se escribe.
+2. Toda referencia de artículo debe verificarse en PubMed (carga las herramientas con ToolSearch «select:mcp__PubMed__search_articles,mcp__PubMed__get_article_metadata,mcp__PubMed__lookup_article_by_citation»): autor, año, revista, volumen, páginas y que el dato citado figure en el resumen. Formato: «Apellido A et al. (2019). Título. Revista 12:345-350 · PMID 12345678». Libros y obras clásicas: autor, (año), título, editorial; si no puedes contrastar el contenido concreto, márcalo. Nunca inventes un PMID ni una cifra.
+3. Sin dosis individualizadas ni pautas posológicas (solo, si es imprescindible, límites literales de ficha técnica AEMPS-CIMA nombrando la ficha). En antipsicóticos la prioridad de uso la marcan las guías; la ficha técnica es una nota factual neutra.
+4. Español de España, técnico y claro. Redacción neutra en género («la persona», «quien consulta», «el paciente o la paciente»). Lenguaje no patologizante en orientación sexual e identidad de género. Lenguaje no estigmatizante sobre suicidio («muerte por suicidio»). Nada de identificadores de modelo o de IA.
+5. No dupliques lo que ya dice la ficha: léela antes y aporta contenido nuevo.
+
+ENTORNO
+Repositorio: /home/user/Erotanatichemistry (haz cd en cada comando). Consultas de solo lectura: «node tools/q.js find <regex> [vista]», «node tools/q.js show <id> ...», «node tools/q.js sector <vista> <sector>». Vistas: nos (nosología), sem (semiología), eti (etiopatogenia), ter (terapéutica), hist. Validación de tu parche: «node tools/apply.js <tu_fichero.json> --check» (SIEMPRE con --check: NO apliques el parche, NO modifiques ningún fichero del repositorio, NO ejecutes build.js ni git). Escribe únicamente tus ficheros en /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/. Guarda tu fichero pronto y ve ampliándolo (trabajo incremental), para no perderlo si te interrumpen.
+
+FORMATO DEL PARCHE (JSON válido, UTF-8)
+{"patch":{"<id>":{"secAdd":[{"t":"Título de sección","x":"texto de 120 a 1500 caracteres","links":[{"ids":["id1","id2"],"t":"rótulo breve del enlace"}]}],"refsAdd":["referencia con (año)"],"relAdd":["id"]}},"add":[]}
+Los ids de «links» y «relAdd» deben existir (búscalos con q.js). «links» es opcional pero muy recomendable: enlaza cada sección con los nodos del atlas que menciona.
+
+TAREA: completar ENTIDADES sin secciones. Para cada uno de estos nodos (14): neurosif, huntington, wilson, porfiria, tce_neuro, em_neuro, sreat, pandas, tpsc_med, ncd_leve, sfcme, derm, pica, rumiacion_alim
+lee su ficha (node tools/q.js show <id>) y, como modelo, una entidad ya completa (node tools/q.js show ptsd tb2). Añade con secAdd estas CUATRO secciones, con exactamente estos títulos:
+ a) «Diagnóstico diferencial»: frente a qué entidades y por qué criterio (con links a los nodos).
+ b) «Curso y pronóstico»: inicio, evolución, factores pronósticos, con cifras solo si están verificadas.
+ c) «Abordaje terapéutico por fases»: según guías (NICE, CANMAT, APA, WFSBP, GuíaSalud, guías de neurología cuando proceda), sin dosis; enlaza con las fichas terapéuticas del atlas.
+ d) «Señales de alarma y seguridad»: situaciones de riesgo vital o que obligan a derivación o reevaluación urgente.
+Si el nodo es un constructo histórico o un episodio (no un trastorno), adapta el contenido con rigor en lugar de forzarlo, manteniendo los títulos. Añade con refsAdd las referencias verificadas que sustenten lo escrito (mínimo 2 por nodo) y con relAdd las relaciones nuevas justificadas.
+
+ENTREGA: escribe /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/e1.json (parche válido que pase «node tools/apply.js /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/e1.json --check» con OK) y /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/e1.notas.json con {"dudas":["lo que no pudiste verificar o te genera duda"],"pmid_verificados":[números]}. Responde únicamente «hecho» y dos líneas de resumen.
