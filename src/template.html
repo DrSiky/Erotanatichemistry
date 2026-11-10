@@ -204,6 +204,9 @@ body.eink .nd.cs-l .sh{fill:#fff!important}
 .zoomctl .lblbtn{width:auto;height:auto;padding:6px 10px;font-size:.74rem;font-weight:600;white-space:nowrap;align-self:flex-end;margin-bottom:4px}
 .zoomctl .lblbtn.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 body.eink .zoomctl .lblbtn{border:2px solid #000}body.eink .zoomctl .lblbtn.on{background:#000;color:#fff}
+.zrow{display:flex;gap:6px;align-items:flex-start;justify-content:flex-end}.zcol{display:flex;flex-direction:column;gap:4px}
+.zrot{display:grid;grid-template-columns:auto auto;gap:4px}.zoomctl .zrot button{width:46px;font-size:.7rem;font-weight:600;padding:0}.zoomctl .zrot .z180{grid-column:1 / span 2;width:100%}
+body.eink .zoomctl .zrot button{border:2px solid #000}
 .zoomctl button{width:30px;height:30px;border:1px solid var(--line);background:var(--paper);border-radius:4px;font-size:1rem;box-shadow:0 2px 6px rgba(0,0,0,.08)}
 .viewinfo{position:absolute;left:12px;top:10px;font-size:.72rem;color:var(--muted);z-index:4;max-width:60%;pointer-events:none}
 .viewinfo b{font-family:var(--serif);font-size:1.1rem;color:var(--ink);font-weight:400;display:block}
@@ -355,7 +358,7 @@ body.eink .hubsec{border:2px solid #000}
   <aside class="filters" id="filters" aria-label="Filtros"></aside>
   <main class="main" id="main">
     <div class="viewinfo" id="viewinfo"></div>
-    <div class="zoomctl" id="zoomctl"><button id="bLbl" class="lblbtn" aria-pressed="false" title="Mostrar todas las etiquetas de forma fija, sin depender del zoom (pueden solaparse en las zonas densas)">Etiquetas: automáticas</button><button id="zIn" title="Acercar (+)">+</button><button id="zOut" title="Alejar (−)">−</button><button id="zRst" title="Restablecer (0)">⟲</button></div>
+    <div class="zoomctl" id="zoomctl"><button id="bLbl" class="lblbtn" aria-pressed="false" title="Mostrar todas las etiquetas de forma fija, sin depender del zoom (pueden solaparse en las zonas densas)">Etiquetas: automáticas</button><div class="zrow"><div class="zcol"><button id="zIn" title="Acercar (+)">+</button><button id="zOut" title="Alejar (−)">−</button><button id="zRst" title="Restablecer zoom y giro (0)">⟲</button></div><div class="zrot"><button data-rot="-60" title="Girar 60° a la izquierda">↶60</button><button data-rot="60" title="Girar 60° a la derecha">60↷</button><button data-rot="-120" title="Girar 120° a la izquierda">↶120</button><button data-rot="120" title="Girar 120° a la derecha">120↷</button><button data-rot="180" class="z180" title="Girar 180°">⇅ 180°</button></div></div></div>
   </main>
   <aside class="side" id="side" aria-label="Ficha"><div class="shdr" id="shdr"></div><nav class="toc" id="toc" aria-label="Secciones de la ficha"></nav><div class="sbody" id="sbody"></div><div class="sacts" id="sacts"></div></aside>
 </div>
@@ -472,17 +475,17 @@ function buildRadial(v){const L=layout(v);const V=VIEWS[v];
     el('path',{d:arc(R1+3,R1+12,a0,a1),fill:s.c,opacity:.8},bg);
     const mid=(a0+a1)/2;const bottom=((mid%360)+360)%360>90&&((mid%360)+360)%360<270;const rr=bottom?R1+27:R1+20;
     const pa=polar(rr,bottom?a1:a0),pb=polar(rr,bottom?a0:a1);const large=(a1-a0)>180?1:0;
-    const pid='sl_'+v+'_'+i;el('path',{id:pid,d:'M'+pa+' A'+rr+','+rr+' 0 '+large+' '+(bottom?0:1)+' '+pb,fill:'none'},defs);
+    const pid='sl_'+v+'_'+i;const slp=el('path',{id:pid,d:'M'+pa+' A'+rr+','+rr+' 0 '+large+' '+(bottom?0:1)+' '+pb,fill:'none'},defs);(L.slp=L.slp||[]).push({p:slp,a0,a1});
     const t=el('text',{class:'seclbl',fill:s.c},bg);const tp=el('textPath',{href:'#'+pid,startOffset:'50%','text-anchor':'middle'},t);
     const arcpx=rr*(a1-a0)*Math.PI/180;tp.textContent=(s.t.length*6.4>arcpx&&s.st)?s.st:s.t;if((s.st||s.t).length*6.4>arcpx)t.style.fontSize=Math.max(6,arcpx/((s.st||s.t).length*0.68))+'px';
     const tt=el('title',{},el('path',{d:arc(R1+3,R1+30,a0,a1),fill:'transparent'},bg));tt.textContent=s.t;});
   for(let r=0;r<=L.nr;r++)el('circle',{r:R0+r*L.bw,class:'ringc'},bg);
-  const ra=L.secs[0].a0-0.6;for(let r=1;r<=L.nr;r++){const p=polar(R0+(r-0.5)*L.bw,ra);const t=el('text',{x:p[0],y:p[1],class:'ringlbl','text-anchor':'middle','dominant-baseline':'middle'},bg);t.textContent=['I','II','III','IV','V'][r-1];
+  const ra=L.secs[0].a0-0.6;for(let r=1;r<=L.nr;r++){const p=polar(R0+(r-0.5)*L.bw,ra);const t=el('text',{x:p[0],y:p[1],class:'ringlbl','text-anchor':'middle','dominant-baseline':'middle'},bg);t.textContent=['I','II','III','IV','V'][r-1];(L.upr=L.upr||[]).push({t,x:p[0],y:p[1]});
     const tt=el('title',{},t);tt.textContent='Anillo '+r+': '+V.rings[r-1];}
   el('circle',{r:R0-6,fill:'var(--paper2)',stroke:'var(--line)'},bg);
   const ct=el('text',{class:'center-t',y:-4},bg);ct.textContent=V.center;
   const cs=el('text',{class:'center-s',y:10},bg);cs.textContent=NODES.filter(n=>n.vw===v).length+' nodos';
-  const cs2=el('text',{class:'center-s',y:21},bg);cs2.textContent=V.sectors.length+' sectores · '+L.nr+' anillos';
+  const cs2=el('text',{class:'center-s',y:21},bg);cs2.textContent=V.sectors.length+' sectores · '+L.nr+' anillos';[ct,cs,cs2].forEach(t=>(L.upr=L.upr||[]).push({t,x:0,y:0}));
   const eg=el('g',{class:'edges'},zg);const ng=el('g',{class:'nodes'},zg);
   const items={};
   NODES.filter(n=>n.vw===v).forEach(n=>{const p=L.pos[n.id];if(!p)return;const g=el('g',{class:'nd cs-'+n.cs,transform:'translate('+p.x.toFixed(2)+','+p.y.toFixed(2)+')','data-id':n.id,tabindex:'-1'},ng);
@@ -492,7 +495,7 @@ function buildRadial(v){const L=layout(v);const V=VIEWS[v];
     el('path',{d:shapePath((CFG.KINDS[n.k]||{}).sh,r),class:'sh',fill:col,stroke:col},g);
     const ang=((p.a%360)+360)%360;const flip=ang>180;const lbl=el('text',{class:'lbl',transform:'rotate('+(flip?ang+90:ang-90).toFixed(1)+')',x:flip?-(r+2.5):(r+2.5),'text-anchor':flip?'end':'start','dominant-baseline':'middle'},g);
     items[n.id]={g,lbl,p,n};});
-  RADIAL[v]={svg,zg,eg,ng,L,items,z:{k:1,x:0,y:0}};
+  RADIAL[v]={svg,zg,eg,ng,L,items,z:{k:1,x:0,y:0},rot:0};
   attachZoom(RADIAL[v]);
   svg.addEventListener('click',e=>{const g=e.target.closest('.nd');if(g)select(g.dataset.id,{from:'map'});});
   svg.addEventListener('mouseover',e=>{const g=e.target.closest('.nd');if(!g)return;const n=BY[g.dataset.id];showTip(e,'<b>'+esc(n.n)+'</b><br><span style="opacity:.75">'+esc((CFG.KINDS[n.k]||{}).t||'')+' · '+esc((secOf(n)||{}).t||'')+' · anillo '+n.ring+'</span>');hoverRel(v,n.id,true);});
@@ -522,7 +525,7 @@ function labelsLOD(R){const k=R.z.k;const fs=7/Math.pow(k,0.72);
     const full=k>=2.6||it.g.classList.contains('sel');const txt=full?it.n.n:(it.n.ab||it.n.n);
     const maxc=it.tl?(full?40:Math.max(6,Math.floor(sp/5.5))):(full?60:14);const t=txt.length>maxc?txt.slice(0,maxc-1)+'…':txt;
     if(it.lbl.textContent!==t)it.lbl.textContent=t;it.cand=show;it.lbl.style.display=show?'':'none';it.lbl.style.visibility='visible';it.lbl.style.fontSize=(it.tl?9/Math.pow(k,0.8):fs)+'px';}}
-function setZ(R,z,anim){R.z=z;R.zg.setAttribute('transform','translate('+z.x.toFixed(2)+','+z.y.toFixed(2)+') scale('+z.k.toFixed(3)+')');labelsLOD(R);
+function setZ(R,z,anim){R.z=z;R.zg.setAttribute('transform','translate('+z.x.toFixed(2)+','+z.y.toFixed(2)+') scale('+z.k.toFixed(3)+')'+(R.rot?' rotate('+R.rot+')':''));labelsLOD(R);
   R.eg.querySelectorAll('.edge').forEach(p=>p.style.strokeWidth=(1.1/Math.sqrt(z.k))+'px');}
 function svgPt(svg,cx,cy){const pt=svg.createSVGPoint();pt.x=cx;pt.y=cy;const m=svg.getScreenCTM();return m?pt.matrixTransform(m.inverse()):{x:0,y:0};}
 function zoomAt(R,f,px,py){const z=R.z;const k=Math.min(14,Math.max(0.6,z.k*f));const ff=k/z.k;setZ(R,{k,x:px-(px-z.x)*ff,y:py-(py-z.y)*ff});}
@@ -538,7 +541,7 @@ function attachZoom(R){const svg=R.svg;let drag=null,moved=false;const pts=new M
   svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);
   svg.addEventListener('dblclick',e=>{if(e.target.closest('.nd'))return;const p=svgPt(svg,e.clientX,e.clientY);zoomAt(R,1.8,p.x,p.y);});
   setZ(R,R.z);}
-function focusNode(v,id){const R=RADIAL[v];if(!R||!R.items[id])return;const p=R.items[id].p;const k=Math.max(R.z.k,2.4);setZ(R,{k,x:-p.x*k,y:-p.y*k});}
+function focusNode(v,id){const R=RADIAL[v];if(!R||!R.items[id])return;const p0=R.items[id].p;const t=(R.rot||0)*Math.PI/180;const p={x:p0.x*Math.cos(t)-p0.y*Math.sin(t),y:p0.x*Math.sin(t)+p0.y*Math.cos(t)};const k=Math.max(R.z.k,2.4);setZ(R,{k,x:-p.x*k,y:-p.y*k});}
 function drawEdges(v){const R=RADIAL[v];if(!R)return;R.eg.innerHTML='';
   Object.values(R.items).forEach(it=>it.g.classList.remove('rel','sel'));
   if(!st.sel)return;const n=BY[st.sel];if(!n)return;const me=R.items[n.id];if(me)me.g.classList.add('sel');
@@ -720,11 +723,23 @@ $('#bBack').onclick=()=>{if(st.hpos>0){st.hpos--;select(st.hist[st.hpos],{nohist
 $('#bFwd').onclick=()=>{if(st.hpos<st.hist.length-1){st.hpos++;select(st.hist[st.hpos],{nohist:true});}};
 window.addEventListener('hashchange',()=>{const m=location.hash.match(/id=([^&]+)/);if(m&&m[1]!==st.sel)select(decodeURIComponent(m[1]));});
 
+
+// ---------------- giro de la rueda ----------------
+function applyRot(R){const rot=R.rot||0;const m360=a=>((a%360)+360)%360;
+  for(const id in R.items){const it=R.items[id];if(it.tl)continue;const r=RAD[it.n.cs]||3.5;const flip=m360(it.p.a+rot)>180;const ang=m360(it.p.a);
+    it.lbl.setAttribute('transform','rotate('+(flip?ang+90:ang-90).toFixed(1)+')');it.lbl.setAttribute('x',flip?-(r+2.5):(r+2.5));it.lbl.setAttribute('text-anchor',flip?'end':'start');
+    const sh=it.g.querySelector('.sh');if(sh){if(rot)sh.setAttribute('transform','rotate('+(-rot)+')');else sh.removeAttribute('transform');}}
+  (R.L.slp||[]).forEach(o=>{const mid=m360((o.a0+o.a1)/2+rot);const bottom=mid>90&&mid<270;const rr=bottom?R1+27:R1+20;const pa=polar(rr,bottom?o.a1:o.a0),pb=polar(rr,bottom?o.a0:o.a1);const large=(o.a1-o.a0)>180?1:0;
+    o.p.setAttribute('d','M'+pa+' A'+rr+','+rr+' 0 '+large+' '+(bottom?0:1)+' '+pb);});
+  (R.L.upr||[]).forEach(o=>{if(rot)o.t.setAttribute('transform','rotate('+(-rot)+' '+o.x.toFixed(2)+' '+o.y.toFixed(2)+')');else o.t.removeAttribute('transform');});
+  setZ(R,R.z);}
+function rotBy(d){const R=RADIAL[st.view];if(!R){toast('El giro solo se aplica a las ruedas');return;}R.rot=(((R.rot||0)+d)%360+360)%360;applyRot(R);}
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-rot]');if(b)rotBy(+b.dataset.rot);});
 // ---------------- zoom botones ----------------
 function curR(){return st.view==='hist'?HIST:RADIAL[st.view];}
 $('#zIn').onclick=()=>{const R=curR();if(R)zoomAt(R,1.5,R.timeline?800:0,R.timeline?380:0);};
 $('#zOut').onclick=()=>{const R=curR();if(R)zoomAt(R,1/1.5,R.timeline?800:0,R.timeline?380:0);};
-$('#zRst').onclick=()=>{const R=curR();if(R)setZ(R,{k:1,x:0,y:0});};
+$('#zRst').onclick=()=>{const R=curR();if(!R)return;if(R.rot){R.rot=0;R.z={k:1,x:0,y:0};applyRot(R);}else setZ(R,{k:1,x:0,y:0});};
 
 
 // ---------------- menciones transversales, comparador y recorridos ----------------
