@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Compila una figura: node tools/fig.js <clave> [--png <carpeta>]
+// Compila una figura: node tools/fig.js <clave> [--dry] [--png <carpeta>]   (--dry: comprueba y dibuja sin escribir en src/fig)
 // Lee src/figsrc/<clave>.js, comprueba solapes y enlaces, y escribe src/fig/<clave>.svg, _meta.json y _orden.json.
 const fs = require('fs'), path = require('path');
 const { Fig } = require('./figlib.js');
@@ -31,12 +31,13 @@ if (H >= 1.4 * W) {
   const n = Math.max(2, Math.round(H / (0.55 * W))), step = H / n;
   for (let k = 1; k < n; k++) { let best = null, bd = 1e9; for (const [a, z] of gaps) { const c = (a + z) / 2, d = Math.abs(c - k * step); if (d < bd && c > (cuts[cuts.length - 1] || 0) + step * 0.4) { bd = d; best = c; } } if (best != null && bd < step * 0.5) cuts.push(Math.round(best)); }
 }
-fs.writeFileSync(path.join(R, 'src/fig', key + '.svg'), svg);
+const dry = process.argv.includes('--dry');
+if (!dry) fs.writeFileSync(path.join(R, 'src/fig', key + '.svg'), svg);
 const mf = path.join(R, 'src/fig/_meta.json'), of = path.join(R, 'src/fig/_orden.json');
 const M = JSON.parse(fs.readFileSync(mf, 'utf8')), O = JSON.parse(fs.readFileSync(of, 'utf8'));
 M[key] = { kind: meta.kind, nodes: [...new Set((meta.nodes || []).concat(linked))], cap: meta.cap, refs: meta.refs, title: meta.title, t: meta.title, cuts };
 if (!O.includes(key)) { O.push(key); O.sort(); }
-fs.writeFileSync(mf, JSON.stringify(M, null, 1) + '\n'); fs.writeFileSync(of, JSON.stringify(O, null, 1) + '\n');
+if (!dry) { fs.writeFileSync(mf, JSON.stringify(M, null, 1) + '\n'); fs.writeFileSync(of, JSON.stringify(O, null, 1) + '\n'); }
 console.log('OK ' + key + ': ' + W + '×' + H + ', ' + g.order.length + ' cajas, ' + linked.length + ' enlaces, ' + (cuts.length + 1) + ' panel(es)');
 const pi = process.argv.indexOf('--png');
 if (pi > 0) (async () => {
