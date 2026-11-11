@@ -870,6 +870,827 @@
     "chemsex_ssex",
     "inflam"
    ]
+  },
+  {
+   "id": "prematuridad",
+   "n": "Nacimiento prematuro y riesgo psiquiátrico a lo largo de la vida",
+   "ab": "Prematuridad",
+   "al": [
+    "preterm birth",
+    "gran prematuridad",
+    "muy bajo peso al nacer",
+    "extremely preterm",
+    "fenotipo conductual del prematuro"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2012,
+   "tags": [
+    "child",
+    "risk",
+    "repro"
+   ],
+   "desc": "La edad gestacional al nacer se asocia de forma gradual al riesgo de trastornos del neurodesarrollo y de trastornos psiquiátricos del adulto. En 1 301 522 personas nacidas en Suecia entre 1973 y 1985, haber nacido con menos de 32 semanas multiplicó el riesgo de hospitalización en la edad adulta por psicosis no afectiva (2,5; IC 95 % 1,0-6,0), trastorno depresivo (2,9; 1,8-4,6) y trastorno bipolar (7,4; 2,7-20,6), con riesgos intermedios entre las 32 y las 36 semanas; no se observaron asociaciones similares con el crecimiento fetal no óptimo ni con el Apgar bajo (Nosarti 2012). En la infancia, el riesgo de TDAH es unas tres veces mayor en quienes nacieron muy prematuros o con muy bajo peso (Franz 2018) y la prevalencia de trastorno del espectro autista (TEA) en prematuros evaluados con instrumentos diagnósticos es del 7 % (Agrawal 2018).",
+   "feats": [
+    "TDAH: OR 3,04 (IC 95 % 2,19-4,21) en 12 estudios con diagnóstico categorial; gradiente según la gravedad: OR 2,25 en muy prematuros o de muy bajo peso y 4,05 en extremadamente prematuros o de peso extremadamente bajo; asociación más fuerte con la inatención (Franz 2018)",
+    "TEA: prevalencia combinada del 7 % (IC 95 % 4-9 %) en 18 estudios con 3366 prematuros (mediana de 28 semanas de gestación), con heterogeneidad significativa (Agrawal 2018)",
+    "Cohorte nacional sueca (4 061 795 nacimientos): prevalencia de TEA del 6,1 % en prematuros extremos (22-27 semanas) frente al 1,4 % a término; la asociación apenas se atenuó al comparar hermanos, lo que es compatible con una relación causal (Crump 2021)",
+    "Estudio EPICure (nacidos con menos de 26 semanas, evaluados a los 11 años): trastorno psiquiátrico en el 23 % frente al 9 % de compañeros de clase nacidos a término (OR 3,2); TDAH 11,5 % frente a 2,9 %, sobre todo de presentación inatenta; trastornos emocionales 9,0 % frente a 2,1 %; TEA 8,0 % frente a 0 % (Johnson 2010)",
+    "Cognición: cociente intelectual 0,86 desviaciones estándar menor en muy prematuros y prematuros extremos que en controles, sin mejoría entre las cohortes de 1990 y 2008; la displasia broncopulmonar explicó el 65 % de la varianza entre estudios (Twilhaar 2018)",
+    "Gradiente dosis-respuesta en la edad adulta: entre las 32 y 36 semanas, riesgo 1,6 veces mayor de psicosis no afectiva, 1,3 de trastorno depresivo y 2,7 de trastorno bipolar (Nosarti 2012)"
+   ],
+   "note": "Los riesgos relativos son elevados pero los riesgos absolutos de trastorno grave son bajos, y los intervalos de confianza de las estimaciones para los menores de 32 semanas son amplios (Nosarti 2012). Los metaanálisis muestran heterogeneidad alta (Franz 2018; Agrawal 2018). El estudio sueco de adultos mide hospitalizaciones, no toda la morbilidad. La asociación de los trastornos psiquiátricos con el deterioro cognitivo (OR 3,5 en EPICure) indica que parte del riesgo está mediado por la afectación neurológica global.",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La edad gestacional y el peso al nacer deben figurar en toda historia del desarrollo, también en la de personas adultas valoradas por un posible TDAH o TEA de diagnóstico tardío. El perfil descrito en grandes prematuros combina inatención sin hiperactividad marcada, dificultades sociales y síntomas emocionales, por lo que puede pasar inadvertido en la escuela al no ser disruptivo (Johnson 2010). Los problemas de conducta referidos por la familia a los 2,5 y a los 6 años predijeron de forma independiente el trastorno psiquiátrico a los 11, lo que respalda el cribado temprano en los programas de seguimiento neonatal. La evaluación debe incluir la capacidad intelectual, porque el déficit cognitivo acompaña con frecuencia al cuadro psiquiátrico y condiciona los apoyos educativos.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "TDAH"
+      },
+      {
+       "ids": [
+        "tea",
+        "tea_adulto"
+       ],
+       "t": "trastorno del espectro autista"
+      },
+      {
+       "ids": [
+        "di",
+        "aprend"
+       ],
+       "t": "discapacidad intelectual y aprendizaje"
+      },
+      {
+       "ids": [
+        "compl_obst",
+        "neurodev"
+       ],
+       "t": "complicaciones obstétricas y neurodesarrollo"
+      }
+     ]
+    },
+    {
+     "t": "Valor en la pericia y límites de la atribución causal",
+     "x": "En reclamaciones por daño perinatal o en valoraciones de discapacidad, la prematuridad es un antecedente con respaldo epidemiológico robusto, y la persistencia de la asociación con el TEA en la comparación entre hermanos apoya una interpretación causal a nivel de población (Crump 2021). Aun así, la atribución en un caso individual exige cautela: la prematuridad tiene causas propias (infección, patología placentaria, factores maternos) que pueden actuar por otras vías, el riesgo se concentra en los grados extremos y la mayoría de las personas nacidas prematuras no desarrolla un trastorno psiquiátrico. No es posible distinguir clínicamente un TDAH o un TEA «debidos» a la prematuridad de los de otro origen.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "método pericial y nexo causal"
+      },
+      {
+       "ids": [
+        "confus_fam_prenat"
+       ],
+       "t": "confusión familiar en exposiciones tempranas"
+      },
+      {
+       "ids": [
+        "hered_tdah",
+        "hered_tea"
+       ],
+       "t": "heredabilidad del TDAH y del TEA"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Nosarti C et al. (2012). Preterm birth and psychiatric disorders in young adult life. Arch Gen Psychiatry 69:E1-E8 · PMID 22660967",
+    "Franz AP et al. (2018). Attention-deficit/hyperactivity disorder and very preterm/very low birth weight: a meta-analysis. Pediatrics 141(1) · PMID 29255083",
+    "Agrawal S et al. (2018). Prevalence of autism spectrum disorder in preterm infants: a meta-analysis. Pediatrics 142(3) · PMID 30076190",
+    "Crump C, Sundquist J & Sundquist K (2021). Preterm or early term birth and risk of autism. Pediatrics 148(3) · PMID 34380775",
+    "Johnson S et al. (2010). Psychiatric disorders in extremely preterm children: longitudinal finding at age 11 years in the EPICure study. J Am Acad Child Adolesc Psychiatry 49:453-463 · PMID 20431465",
+    "Twilhaar ES et al. (2018). Cognitive outcomes of children born extremely or very preterm since the 1990s and associated risk factors: a meta-analysis and meta-regression. JAMA Pediatr 172:361-367 · PMID 29459939"
+   ],
+   "rel": [
+    "compl_obst",
+    "neurodev",
+    "tdah",
+    "tea",
+    "di",
+    "esq",
+    "tb1",
+    "infec_prenat",
+    "hered_tdah",
+    "hered_tea"
+   ]
+  },
+  {
+   "id": "confus_fam_prenat",
+   "n": "Exposiciones prenatales y confusión familiar: tabaco, paracetamol y antidepresivos en diseños de hermanos",
+   "ab": "Confusión familiar",
+   "al": [
+    "familial confounding",
+    "sibling comparison design",
+    "diseños cuasiexperimentales",
+    "tabaquismo materno y TDAH",
+    "paracetamol en el embarazo",
+    "ISRS en el embarazo y autismo"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2014,
+   "tags": [
+    "child",
+    "repro",
+    "forense"
+   ],
+   "desc": "Varias exposiciones prenatales se asocian en estudios de cohortes convencionales a TDAH o autismo en la descendencia, pero la asociación desaparece al comparar hermanos discordantes para la exposición, lo que indica confusión por factores genéticos o ambientales compartidos por la familia y no un efecto causal. El tabaquismo materno es el ejemplo canónico: en 813 030 personas nacidas en Suecia, la razón de riesgos de TDAH con consumo alto pasó de 2,50 en población a 0,84 en la comparación entre hermanos (Skoglund 2014). El mismo patrón se ha descrito con el paracetamol (Ahlqvist 2024) y con los antidepresivos en el primer trimestre (Sujan 2017). Estos diseños familiares cuasiexperimentales contrastan hipótesis causales rivales que el ajuste estadístico por covariables medidas no resuelve (D'Onofrio 2013).",
+   "feats": [
+    "Tabaco, metaanálisis convencional: OR de TDAH 1,60 (IC 95 % 1,45-1,76) en 20 estudios, con gradiente según la intensidad del consumo; los propios autores señalan que no resuelve la causalidad (Huang 2018)",
+    "Tabaco, atenuación progresiva en Suecia: razón de riesgos con consumo alto de 2,50 en población, 2,04 al ajustar por confusores medidos, 1,69 entre primos y 0,84 entre hermanos (Skoglund 2014)",
+    "Tabaco, Dinamarca: razón de riesgos ajustada de 2,01 (IC 95 % 1,94-2,07) en el análisis convencional y de 1,07 (0,94-1,22) entre hermanos; la asociación con el bajo peso al nacer sí se mantuvo (OR 1,68), lo que valida el diseño (Obel 2016)",
+    "Diseño de fecundación in vitro (815 familias): la asociación entre tabaco y síntomas de TDAH solo apareció cuando madre e hijo estaban emparentados genéticamente, mientras que la asociación con el menor peso al nacer apareció en ambos grupos (Thapar 2009)",
+    "Paracetamol: en el análisis entre hermanos, sin asociación con autismo (razón de riesgos 0,98; IC 95 % 0,93-1,04), TDAH (0,98; 0,94-1,02) ni discapacidad intelectual (1,01; 0,92-1,10), y sin patrón dosis-respuesta (Ahlqvist 2024)",
+    "Antidepresivos en el primer trimestre: asociación poblacional con TEA (razón de riesgos 2,02) y TDAH (2,21) que desaparece entre hermanos (0,83; IC 95 % 0,62-1,13 y 0,99; 0,79-1,25); persiste un pequeño aumento de parto prematuro (OR 1,34; 1,18-1,52) (Sujan 2017)",
+    "Estrés prenatal y TDAH: en el diseño de fecundación in vitro, la asociación solo se observó en pares madre-hijo emparentados, atribuible a factores heredados (Rice 2010)"
+   ],
+   "note": "Los diseños de hermanos no son infalibles: solo informan las familias discordantes para la exposición, amplifican el sesgo por error de medida y por confusores no compartidos entre hermanos, y pueden carecer de potencia. Un resultado nulo entre hermanos no demuestra inocuidad general de la exposición: el tabaco sigue causando bajo peso al nacer (Obel 2016; Thapar 2009). No todas las asociaciones prenatales se disuelven: la de la prematuridad con el autismo persiste entre hermanos (Crump 2021).",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El primer beneficio es para las familias: muchas madres de niños y niñas con TDAH o autismo cargan con la idea de haberlo causado por fumar, por tomar paracetamol o por tratar su depresión durante el embarazo, y la mejor evidencia disponible no respalda esa atribución (Skoglund 2014; Ahlqvist 2024; Sujan 2017). El segundo es para la decisión terapéutica en el embarazo: el temor al autismo o al TDAH no es un argumento sólido para retirar un antidepresivo que la persona gestante necesita; la decisión debe ponderar el riesgo de recaída y los riesgos realmente documentados. Dejar de fumar sigue estando indicado por sus efectos demostrados sobre el crecimiento fetal, aunque no cabe prometer que reducirá el riesgo de TDAH (Obel 2016). El contraste es el valproato, cuya teratogenia conductual se sostiene con otra calidad de evidencia y que tiene ficha propia.",
+     "links": [
+      {
+       "ids": [
+        "dep_embarazo",
+        "emb_peri",
+        "isrs"
+       ],
+       "t": "depresión en el embarazo y antidepresivos"
+      },
+      {
+       "ids": [
+        "tdah",
+        "tea"
+       ],
+       "t": "TDAH y TEA"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "consumo de tabaco"
+      },
+      {
+       "ids": [
+        "valproato_fertil",
+        "fasd"
+       ],
+       "t": "teratógenos conductuales establecidos"
+      }
+     ]
+    },
+    {
+     "t": "Uso pericial: asociación no es causalidad",
+     "x": "En litigios por daño atribuido a un medicamento o a una exposición durante la gestación es frecuente que se aporte un metaanálisis de estudios de cohortes con una odds ratio significativa como prueba del nexo causal. Los ejemplos de esta ficha muestran por qué no basta: una asociación replicada, con gradiente dosis-respuesta y ajustada por covariables puede deberse por completo a factores familiares no medidos (Skoglund 2014; D'Onofrio 2013). El informe pericial debe preguntarse si existen estudios con comparación entre hermanos, controles negativos (exposición paterna o exposición antes del embarazo, como en Sujan 2017) u otros diseños genéticamente informativos, y jerarquizar la evidencia en consecuencia. La heredabilidad elevada del TDAH y del TEA convierte a la genética familiar en la explicación alternativa que siempre hay que descartar.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "método pericial"
+      },
+      {
+       "ids": [
+        "hered_tdah",
+        "hered_tea",
+        "pleiotropia"
+       ],
+       "t": "heredabilidad y pleiotropía"
+      },
+      {
+       "ids": [
+        "maoa_gxe",
+        "gen_candidatos"
+       ],
+       "t": "otras lecciones metodológicas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Skoglund C et al. (2014). Familial confounding of the association between maternal smoking during pregnancy and ADHD in offspring. J Child Psychol Psychiatry 55:61-68 · PMID 25359172",
+    "Obel C et al. (2016). The risk of attention deficit hyperactivity disorder in children exposed to maternal smoking during pregnancy: a re-examination using a sibling design. J Child Psychol Psychiatry 57:532-537 · PMID 26511313",
+    "Thapar A et al. (2009). Prenatal smoking might not cause attention-deficit/hyperactivity disorder: evidence from a novel design. Biol Psychiatry 66:722-727 · PMID 19596120",
+    "Huang L et al. (2018). Maternal smoking and attention-deficit/hyperactivity disorder in offspring: a meta-analysis. Pediatrics 141(1) · PMID 29288161",
+    "Ahlqvist VH et al. (2024). Acetaminophen use during pregnancy and children's risk of autism, ADHD, and intellectual disability. JAMA 331:1205-1214 · PMID 38592388",
+    "Sujan AC et al. (2017). Associations of maternal antidepressant use during the first trimester of pregnancy with preterm birth, small for gestational age, autism spectrum disorder, and attention-deficit/hyperactivity disorder in offspring. JAMA 317:1553-1562 · PMID 28418479",
+    "D'Onofrio BM et al. (2013). Critical need for family-based, quasi-experimental designs in integrating genetic and social science research. Am J Public Health 103(Suppl 1):S46-S55 · PMID 23927516",
+    "Rice F et al. (2010). The links between prenatal stress and offspring development and psychopathology: disentangling environmental and inherited influences. Psychol Med 40:335-345 · PMID 19476689"
+   ],
+   "rel": [
+    "tdah",
+    "tea",
+    "hered_tdah",
+    "hered_tea",
+    "dep_embarazo",
+    "emb_peri",
+    "isrs",
+    "tabaco",
+    "valproato_fertil",
+    "fasd",
+    "prematuridad",
+    "estres_prenat",
+    "perit_forense"
+   ]
+  },
+  {
+   "id": "edad_relativa_tdah",
+   "n": "Efecto de la edad relativa en el diagnóstico de TDAH",
+   "ab": "Edad relativa (TDAH)",
+   "al": [
+    "relative age effect",
+    "mes de nacimiento y TDAH",
+    "inmadurez relativa en el aula",
+    "los más pequeños de la clase"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2018,
+   "tags": [
+    "child",
+    "risk"
+   ],
+   "desc": "Los niños y las niñas más jóvenes de su curso escolar reciben más diagnósticos de TDAH y más tratamiento farmacológico que sus compañeros de más edad. En un metaanálisis de 25 estudios con más de 8 millones de participantes, el riesgo relativo de diagnóstico fue de 1,34 (IC 95 % 1,26-1,43) para quienes eran relativamente más jóvenes (Caye 2020). El diseño más convincente compara nacimientos a ambos lados de la fecha de corte escolar: en los estados de EE. UU. con corte el 1 de septiembre, la tasa de diagnóstico fue de 85,1 por 10 000 en nacidos en agosto y de 63,6 en nacidos en septiembre, diferencia ausente entre otros meses consecutivos, en los estados con otra fecha de corte y en asma, diabetes u obesidad (Layton 2018). El hallazgo indica que parte de los diagnósticos refleja inmadurez evolutiva normal juzgada con la vara de compañeros casi un año mayores.",
+   "feats": [
+    "Columbia Británica (corte el 31 de diciembre), 6-12 años: diagnóstico un 30 % más probable en niños nacidos en diciembre que en enero (RR 1,30; IC 95 % 1,23-1,37) y un 70 % en niñas (RR 1,70; 1,53-1,88); prescripción un 41 % y un 77 % más probable (Morrow 2012)",
+    "Tratamiento farmacológico en EE. UU.: 52,9 por 10 000 en nacidos en agosto frente a 40,4 en nacidos en septiembre, en estados con corte el 1 de septiembre (Layton 2018)",
+    "Revisión sistemática: 16 de 20 estudios hallaron el efecto; razón de riesgos de 1,27 (IC 95 % 1,19-1,35) para recibir medicación en países con tasas altas de prescripción; evidencia creciente pero heterogénea en los demás países (Holland y Sayal 2019)",
+    "No es solo un sesgo de quien deriva: la menor edad relativa se asoció también a más síntomas de TDAH medidos en tres cohortes epidemiológicas (Caye 2020)",
+    "El efecto no es específico del TDAH: en 1 042 106 niños y niñas del Reino Unido, el cuartil más joven del curso tuvo más diagnósticos de TDAH (razón de riesgos ajustada 1,36), de discapacidad intelectual (1,30) y de depresión (1,31), con gradiente según el trimestre de nacimiento (Root 2019)",
+    "Heterogeneidad muy alta entre estudios (I² del 96,7 %) (Caye 2020)"
+   ],
+   "note": "El efecto es de magnitud modesta y no implica que el TDAH sea un artefacto: explica una fracción de los diagnósticos en el margen. Su tamaño varía entre países y sistemas educativos (Holland y Sayal 2019). Los estudios se basan sobre todo en registros administrativos y de prescripción. No se han verificado para esta ficha estudios realizados en España [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Ante una sospecha de TDAH en la etapa escolar conviene anotar el mes de nacimiento y la posición de edad dentro del curso, y comparar la conducta con la esperable para la edad cronológica y no con la media del aula. En España el curso agrupa a quienes nacen en el mismo año natural, de modo que quienes nacen en los últimos meses del año son los más jóvenes de la clase [fuente no localizada]. Los cuestionarios del profesorado son especialmente sensibles a este sesgo porque el punto de referencia implícito es el grupo. En los casos dudosos de niños y niñas relativamente jóvenes resulta razonable confirmar la persistencia y la presencia de síntomas en varios contextos antes de iniciar tratamiento farmacológico, como recomiendan los autores del metaanálisis al pedir que se considere el nivel de desarrollo (Caye 2020). El hallazgo enlaza con la hipótesis del retraso madurativo cortical: una parte del fenotipo expresa maduración más lenta y no desviación.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "retraso_madur_tdah"
+       ],
+       "t": "TDAH y retraso madurativo"
+      },
+      {
+       "ids": [
+        "metilfenidato",
+        "psicofarm_inf",
+        "estim_seguridad"
+       ],
+       "t": "tratamiento con estimulantes en menores"
+      },
+      {
+       "ids": [
+        "sdq",
+        "cribado_sens_esp"
+       ],
+       "t": "cuestionarios y rendimiento del cribado"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El efecto de la edad relativa demuestra que el contexto de comparación influye en quién recibe el diagnóstico, pero no permite identificar qué diagnósticos individuales son erróneos. Tampoco establece si los más jóvenes están sobrediagnosticados o los mayores infradiagnosticados, aunque los autores canadienses lo interpretan como riesgo de sobrediagnóstico y sobreprescripción (Morrow 2012). La inmadurez relativa puede generar además dificultades reales, académicas y emocionales, como sugiere la asociación con la depresión (Root 2019), que merecen atención aunque no correspondan a un trastorno del neurodesarrollo. En el TDAH de la persona adulta el sesgo pierde relevancia, pero conviene tenerlo presente al valorar retrospectivamente informes escolares.",
+     "links": [
+      {
+       "ids": [
+        "tdah_adulto",
+        "tdah_mujeres"
+       ],
+       "t": "TDAH adulto y en mujeres"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "depresión en la infancia"
+      },
+      {
+       "ids": [
+        "di"
+       ],
+       "t": "discapacidad intelectual"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Layton TJ et al. (2018). Attention deficit-hyperactivity disorder and month of school enrollment. N Engl J Med 379:2122-2130 · PMID 30485780",
+    "Morrow RL et al. (2012). Influence of relative age on diagnosis and treatment of attention-deficit/hyperactivity disorder in children. CMAJ 184:755-762 · PMID 22392937",
+    "Caye A et al. (2020). Relative age and attention-deficit/hyperactivity disorder: data from three epidemiological cohorts and a meta-analysis. J Am Acad Child Adolesc Psychiatry 59:990-997 · PMID 31442562",
+    "Holland J & Sayal K (2019). Relative age and ADHD symptoms, diagnosis and medication: a systematic review. Eur Child Adolesc Psychiatry 28:1417-1429 · PMID 30293121",
+    "Root A et al. (2019). Association of relative age in the school year with diagnosis of intellectual disability, attention-deficit/hyperactivity disorder, and depression. JAMA Pediatr 173:1068-1075 · PMID 31545342"
+   ],
+   "rel": [
+    "tdah",
+    "retraso_madur_tdah",
+    "hered_tdah",
+    "metilfenidato",
+    "psicofarm_inf",
+    "dep_inf",
+    "di",
+    "tdah_adulto",
+    "neurodev"
+   ]
+  },
+  {
+   "id": "privacion_instit",
+   "n": "Privación institucional temprana: estudios de adopción rumanos (ERA) y proyecto de Bucarest (BEIP)",
+   "ab": "Privación instit.",
+   "al": [
+    "institutional deprivation",
+    "English and Romanian Adoptees study",
+    "Bucharest Early Intervention Project",
+    "privación psicosocial grave",
+    "cuasi-autismo",
+    "orfanatos rumanos"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 2017,
+   "tags": [
+    "child",
+    "trauma",
+    "chr"
+   ],
+   "desc": "La crianza en instituciones con privación grave durante los primeros años es el factor ambiental de riesgo del neurodesarrollo mejor establecido causalmente en humanos, gracias a un experimento natural y a un ensayo aleatorizado. En el estudio de personas adoptadas rumanas e inglesas (ERA), quienes pasaron más de 6 meses en instituciones presentaron hasta la edad adulta joven tasas persistentemente más altas de síntomas de trastorno del espectro autista, relación social desinhibida e inatención e hiperactividad que las personas adoptadas británicas sin privación, mientras que quienes pasaron menos de 6 meses apenas difirieron de los controles (Sonuga-Barke 2017). En el proyecto de intervención temprana de Bucarest (BEIP), la asignación aleatoria a acogimiento familiar mejoró el desarrollo cognitivo respecto a continuar en la institución, sobre todo en quienes fueron acogidos a menor edad (Nelson 2007).",
+   "feats": [
+    "Patrón específico de la privación institucional a los 4 y 6 años: problemas de apego, inatención e hiperactividad, rasgos cuasi-autistas y deterioro cognitivo; no se asociaron a la privación las dificultades emocionales, los problemas con iguales ni los de conducta (Rutter 2001)",
+    "Trayectorias hasta los 22-25 años: el deterioro cognitivo del grupo con más de 6 meses de institucionalización remitió hasta tasas normales en la edad adulta joven, mientras que los síntomas emocionales siguieron un patrón de inicio tardío, con aumento marcado en esa etapa (Sonuga-Barke 2017)",
+    "Funcionamiento adulto en el grupo de mayor privación: más bajo rendimiento educativo, desempleo y uso de servicios de salud mental que en los controles; una quinta parte no presentó problemas en ninguna evaluación (Sonuga-Barke 2017)",
+    "Cerebro adulto: volumen cerebral total un 8,6 % menor en 67 personas adoptadas rumanas que en 21 británicas sin privación, en relación con la duración de la privación; la reducción medió estadísticamente la asociación con menor cociente intelectual y más síntomas de TDAH (Mackes 2020)",
+    "BEIP a los 12 años: quienes habían vivido en instituciones tenían más síntomas internalizantes, externalizantes y de TDAH que quienes nunca habían sido institucionalizados; el acogimiento familiar redujo los síntomas externalizantes, pero no los internalizantes ni los de TDAH, y la estabilidad del acogimiento fue un predictor importante (Humphreys 2015)",
+    "Posible período sensible: la recuperación cognitiva a los 42 y 54 meses fue más marcada en quienes fueron acogidos más pequeños (Nelson 2007)"
+   ],
+   "note": "Las condiciones de las instituciones rumanas de la época fueron extremas, y los resultados no se extrapolan sin más al acogimiento residencial actual ni a formas menos graves de negligencia. En el estudio ERA la asignación no fue aleatoria y las muestras en la edad adulta son pequeñas (72 personas en el grupo de mayor privación). No se conoce con precisión el estado previo ni la exposición prenatal de los niños y niñas institucionalizados.",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "En personas adoptadas o con antecedente de institucionalización temprana prolongada, un cuadro de inatención e hiperactividad, dificultades sociales de apariencia autista o sociabilidad indiscriminada puede corresponder a este patrón de privación y no a un TDAH o un TEA de origen predominantemente genético (Rutter 2001). La distinción importa para el pronóstico y para la información a la familia, aunque la respuesta a los tratamientos habituales en este grupo no está establecida [fuente no localizada]. Dos datos merecen transmitirse: el déficit cognitivo puede remitir con los años, y los problemas emocionales pueden aparecer por primera vez en la transición a la vida adulta tras una infancia sin ellos, lo que aconseja no cerrar el seguimiento en la adolescencia (Sonuga-Barke 2017). La duración de la privación, con el umbral de 6 meses del estudio ERA, es el dato de la historia con mayor valor.",
+     "links": [
+      {
+       "ids": [
+        "rad"
+       ],
+       "t": "apego reactivo y relación social desinhibida"
+      },
+      {
+       "ids": [
+        "tdah",
+        "tea",
+        "tea_esq_dd"
+       ],
+       "t": "diagnóstico diferencial con TDAH y TEA"
+      },
+      {
+       "ids": [
+        "apego",
+        "apego_trauma"
+       ],
+       "t": "apego"
+      },
+      {
+       "ids": [
+        "maltrato_inf",
+        "stress"
+       ],
+       "t": "maltrato y adversidad infantil"
+      }
+     ]
+    },
+    {
+     "t": "Relevancia para la protección de la infancia y la pericia",
+     "x": "El BEIP aporta evidencia aleatorizada de que el acogimiento familiar es preferible a la institucionalización para el desarrollo cognitivo, con mayor beneficio cuanto más temprano y más estable es (Nelson 2007; Humphreys 2015). En informes para medidas de protección de menores, estos datos sustentan que la demora en ofrecer un entorno familiar tiene un coste evolutivo y que los cambios repetidos de acogimiento restan beneficio. En la valoración de secuelas, la persistencia de síntomas del neurodesarrollo y la menor talla cerebral tras más de veinte años en familias adoptivas (Mackes 2020) contradicen la idea de que un buen ambiente posterior borra por completo el efecto de la privación temprana; a la vez, una quinta parte de las personas más expuestas no presentó problemas, de modo que el antecedente no permite presumir daño.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "crpd"
+       ],
+       "t": "pericia y derechos"
+      },
+      {
+       "ids": [
+        "ter_fam_inf"
+       ],
+       "t": "intervenciones familiares"
+      },
+      {
+       "ids": [
+        "fkbp5_epigen",
+        "epigenet"
+       ],
+       "t": "mecanismos epigenéticos propuestos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Sonuga-Barke EJS et al. (2017). Child-to-adult neurodevelopmental and mental health trajectories after early life deprivation: the young adult follow-up of the longitudinal English and Romanian Adoptees study. Lancet 389:1539-1548 · PMID 28237264",
+    "Rutter ML et al. (2001). Specificity and heterogeneity in children's responses to profound institutional privation. Br J Psychiatry 179:97-103 · PMID 11483469",
+    "Nelson CA et al. (2007). Cognitive recovery in socially deprived young children: the Bucharest Early Intervention Project. Science 318:1937-1940 · PMID 18096809",
+    "Humphreys KL et al. (2015). Effects of institutional rearing and foster care on psychopathology at age 12 years in Romania: follow-up of an open, randomised controlled trial. Lancet Psychiatry 2:625-634 · PMID 26303560",
+    "Mackes NK et al. (2020). Early childhood deprivation is associated with alterations in adult brain structure despite subsequent environmental enrichment. Proc Natl Acad Sci USA 117:641-649 · PMID 31907309",
+    "van IJzendoorn MH et al. (2020). Institutionalisation and deinstitutionalisation of children 1: a systematic and integrative review of evidence regarding effects on development. Lancet Psychiatry 7:703-720 · PMID 32589867"
+   ],
+   "rel": [
+    "rad",
+    "stress",
+    "maltrato_inf",
+    "apego",
+    "apego_trauma",
+    "tdah",
+    "tea",
+    "neurodev",
+    "epigenet",
+    "fkbp5_epigen",
+    "di"
+   ]
+  },
+  {
+   "id": "adolesc_ventana",
+   "n": "Adolescencia como ventana de vulnerabilidad: edad de inicio de los trastornos y maduración cerebral",
+   "ab": "Ventana adolescente",
+   "al": [
+    "age of onset",
+    "edad de inicio de los trastornos mentales",
+    "adolescent brain development",
+    "maduración prefrontal tardía",
+    "maturity gap",
+    "brecha de madurez"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2022,
+   "tags": [
+    "child",
+    "forense",
+    "risk"
+   ],
+   "desc": "La mayoría de los trastornos mentales comienza antes de la edad adulta. En un metaanálisis de 192 estudios epidemiológicos (708 561 personas), el 34,6 % de los trastornos se había iniciado antes de los 14 años, el 48,4 % antes de los 18 y el 62,5 % antes de los 25, con un pico de inicio a los 14,5 años (Solmi 2022); en la encuesta estadounidense NCS-R, la mitad de los casos comenzó antes de los 14 años y tres cuartas partes antes de los 24 (Kessler 2005). El modelo de la ventana adolescente relaciona esta distribución con la reorganización cerebral del período: la maduración cortical avanza de las áreas sensoriomotoras a las cortezas de asociación de orden superior, que maduran en último lugar (Gogtay 2004). Se discute si el adelgazamiento cortical refleja poda sináptica, si el aumento de sustancia blanca se debe a mielinización y cómo cambia la sensibilidad a la recompensa (Paus 2008).",
+   "feats": [
+    "Inicio por bloques de la CIE-11: trastornos del neurodesarrollo, 61,5 % antes de los 14 años (pico a los 5,5); ansiedad y miedo, 38,1 % antes de los 14; espectro de la esquizofrenia, 3 % antes de los 14, 12,3 % antes de los 18 y 47,8 % antes de los 25 (pico a los 20,5); trastornos del ánimo, 11,5 % antes de los 18 y 34,5 % antes de los 25 (Solmi 2022)",
+    "Mediana de inicio por diagnósticos: fobias, ansiedad de separación, TEA, TDAH y ansiedad social a los 8-13 años; anorexia, bulimia, TOC, atracones y consumo de cannabis a los 17-22; esquizofrenia, trastornos de personalidad, pánico y alcohol a los 25-27; TEPT, depresión, ansiedad generalizada y trastorno bipolar a los 30-35 (Solmi 2022)",
+    "NCS-R: mediana de inicio a los 11 años en los trastornos de ansiedad y del control de impulsos, a los 20 en los de consumo de sustancias y a los 30 en los del ánimo; los inicios tardíos corresponden sobre todo a comorbilidad (Kessler 2005)",
+    "Cartografía longitudinal de la sustancia gris de los 4 a los 21 años en 13 niños y niñas sanos: las cortezas asociativas maduran después de las somatosensoriales y visuales, y las áreas filogenéticamente más antiguas antes que las recientes (Gogtay 2004)",
+    "Brecha de madurez en 5227 personas de 10 a 30 años de 11 países: la capacidad cognitiva alcanza niveles adultos hacia los 16 años, mientras que la madurez psicosocial (autocontrol ante estímulos emocionales, excitantes o de riesgo) no lo hace hasta después de los 18 (Icenogle 2019)",
+    "Los autores del metaanálisis concluyen que los datos cuestionan la división de los servicios de salud mental infantiles y de adultos a los 18 años (Solmi 2022)"
+   ],
+   "note": "La coincidencia temporal entre maduración cerebral e inicio de los trastornos es correlacional: el modelo no demuestra que la reorganización adolescente cause los trastornos. La edad de inicio depende de cómo se defina y suele recogerse de forma retrospectiva. El estudio de Gogtay incluyó 13 participantes. La brecha de madurez describe promedios de grupo en un estudio transversal y no la madurez de una persona concreta (Icenogle 2019).",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La distribución de las edades de inicio fundamenta la intervención temprana y la continuidad asistencial entre los 14 y los 25 años, tramo en el que se concentra la aparición de la psicosis, de buena parte de los trastornos del ánimo y de los trastornos por consumo (Solmi 2022). La transición administrativa a los 18 años coincide con el período de mayor incidencia y es un punto frecuente de pérdida de seguimiento. La secuencia de inicio orienta además la anamnesis: los trastornos de ansiedad y del neurodesarrollo preceden habitualmente en años a los afectivos y por consumo, de modo que en una persona adulta joven conviene buscar el antecedente infantil (Kessler 2005). La exposición a sustancias durante esta ventana, en particular al cannabis, se trata en su ficha específica.",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "urh",
+        "eop"
+       ],
+       "t": "psicosis de inicio y alto riesgo"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "tb_ped",
+        "suic_adol"
+       ],
+       "t": "trastornos afectivos y suicidio en la adolescencia"
+      },
+      {
+       "ids": [
+        "cannabis_psic"
+       ],
+       "t": "cannabis en la adolescencia"
+      },
+      {
+       "ids": [
+        "neurodev",
+        "c4_complemento"
+       ],
+       "t": "poda sináptica y neurodesarrollo"
+      }
+     ]
+    },
+    {
+     "t": "Madurez, capacidad y responsabilidad: uso médico-legal",
+     "x": "La «brecha de madurez» tiene una lectura jurídica directa propuesta por sus autores: es razonable fijar edades distintas para fines legales distintos, una anterior para decisiones que dependen sobre todo de la capacidad cognitiva en condiciones de deliberación y otra posterior para conductas en las que pesa el autocontrol en situaciones de activación emocional (Icenogle 2019). Ello es coherente con que el ordenamiento reconozca capacidad para consentir tratamientos antes de la mayoría de edad y, a la vez, prevea un régimen penal específico para menores; en España lo regula la Ley Orgánica 5/2000 para las personas de 14 a 17 años. En la pericia individual estos datos son contexto y no prueba: informan de tendencias de grupo y no sustituyen la valoración de la madurez, la comprensión y el autocontrol de la persona examinada en relación con el hecho concreto.",
+     "links": [
+      {
+       "ids": [
+        "imputabilidad",
+        "consent_cap"
+       ],
+       "t": "imputabilidad y capacidad para consentir"
+      },
+      {
+       "ids": [
+        "psicofarm_inf",
+        "dg_inf"
+       ],
+       "t": "consentimiento de la persona menor"
+      },
+      {
+       "ids": [
+        "tcond",
+        "func_ejec"
+       ],
+       "t": "trastorno de conducta y funciones ejecutivas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Solmi M et al. (2022). Age at onset of mental disorders worldwide: large-scale meta-analysis of 192 epidemiological studies. Mol Psychiatry 27:281-295 · PMID 34079068",
+    "Kessler RC et al. (2005). Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the National Comorbidity Survey Replication. Arch Gen Psychiatry 62:593-602 · PMID 15939837",
+    "Paus T, Keshavan M & Giedd JN (2008). Why do many psychiatric disorders emerge during adolescence? Nat Rev Neurosci 9:947-957 · PMID 19002191",
+    "Gogtay N et al. (2004). Dynamic mapping of human cortical development during childhood through early adulthood. Proc Natl Acad Sci USA 101:8174-8179 · PMID 15148381",
+    "Giedd JN et al. (1999). Brain development during childhood and adolescence: a longitudinal MRI study. Nat Neurosci 2:861-863 · PMID 10491603",
+    "Icenogle G et al. (2019). Adolescents' cognitive capacity reaches adult levels prior to their psychosocial maturity: evidence for a «maturity gap» in a multinational, cross-sectional sample. Law Hum Behav 43:69-85 · PMID 30762417",
+    "Ley Orgánica 5/2000, de 12 de enero (2000), reguladora de la responsabilidad penal de los menores. Boletín Oficial del Estado núm. 11, de 13 de enero de 2000 [no verificada]"
+   ],
+   "rel": [
+    "neurodev",
+    "c4_complemento",
+    "retraso_madur_tdah",
+    "pep",
+    "urh",
+    "eop",
+    "cannabis_psic",
+    "dep_inf",
+    "suic_adol",
+    "imputabilidad",
+    "consent_cap",
+    "tcond"
+   ]
+  },
+  {
+   "id": "estres_prenat",
+   "n": "Estrés materno prenatal y psicopatología en la descendencia",
+   "ab": "Estrés prenatal",
+   "al": [
+    "prenatal maternal stress",
+    "duelo materno en el embarazo",
+    "programación fetal",
+    "fetal programming",
+    "estrés gestacional"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 2008,
+   "tags": [
+    "repro",
+    "child",
+    "trauma"
+   ],
+   "desc": "Hipótesis según la cual el estrés intenso de la persona gestante altera el neurodesarrollo fetal y aumenta el riesgo de trastornos en la descendencia. Los estudios más rigurosos usan estresores objetivos e independientes de la conducta materna. En 1,38 millones de nacimientos daneses, la muerte de un familiar cercano durante el primer trimestre se asoció a mayor riesgo de esquizofrenia y trastornos relacionados (riesgo relativo ajustado 1,67; IC 95 % 1,02-2,73), sin asociación en otros trimestres ni en los 6 meses previos a la concepción (Khashan 2008). La cohorte expuesta a la invasión de los Países Bajos de mayo de 1940 mostró un pequeño exceso de esquizofrenia (riesgo relativo 1,15; 1,03-1,28) (van Os y Selten 1998). Sin embargo, los diseños genéticamente informativos indican que parte de las asociaciones, en particular con el TDAH, se debe a factores heredados (Rice 2010).",
+   "feats": [
+    "Duelo materno, registros suecos (738 144 nacimientos para resultados infantiles y 2 155 221 para resultados adultos): el estrés en el tercer trimestre se asoció a TEA (razón de riesgos ajustada 1,58; IC 95 % 1,15-2,17) y a TDAH (1,31; 1,04-1,66); sin aumento significativo de trastorno bipolar ni de esquizofrenia tras el estrés preconcepcional (Class 2014)",
+    "Duelo en el primer año posnatal: mayor riesgo de tentativa de suicidio (1,13; IC 95 % 1,02-1,25) y de muerte por suicidio (1,51; 1,08-2,11) en la descendencia; los autores advierten de que estudios previos más pequeños pudieron sobrestimar las asociaciones (Class 2014)",
+    "Invasión de 1940: riesgo relativo de esquizofrenia de 1,28 (IC 95 % 1,07-1,53) con exposición en el primer trimestre; en el segundo trimestre, aumento solo en varones (1,35; 1,05-1,74) (van Os y Selten 1998)",
+    "Metaanálisis: estrés prenatal asociado a TEA (OR 1,64; IC 95 % 1,15-2,34; 15 artículos) y a TDAH (OR 1,72; 1,27-2,34; 12 artículos), con heterogeneidad muy alta (I² del 90 % y del 85 %) (Manzari 2019)",
+    "Diseño de fecundación in vitro: la asociación del estrés prenatal con el peso al nacer, la edad gestacional y la conducta antisocial apareció con y sin parentesco genético madre-hijo; la asociación con la ansiedad se explicó por la ansiedad o depresión materna actual; la del TDAH solo se dio con parentesco genético (Rice 2010)"
+   ],
+   "note": "Evidencia inconsistente: el trimestre de riesgo difiere entre estudios (primero para la esquizofrenia en Khashan 2008 y van Os 1998; tercero para TEA y TDAH en Class 2014), los efectos son pequeños y los intervalos de confianza rozan la unidad. La mayor parte de la literatura mide el estrés por autoinforme, vulnerable a confusión genética y a sesgo de recuerdo. Los mecanismos biológicos propuestos (cortisol materno, función placentaria) proceden sobre todo de modelos animales [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Los datos no justifican mensajes alarmistas a personas embarazadas que atraviesan un duelo u otra adversidad: los aumentos de riesgo son pequeños en términos relativos y mínimos en términos absolutos, y una parte de las asociaciones publicadas no es causal (Rice 2010). El apoyo a la persona gestante en situación de estrés intenso está indicado por su propio bienestar y por los efectos mejor documentados sobre el peso al nacer y la edad gestacional, que sí aparecieron con independencia del parentesco genético. El hallazgo de que la ansiedad infantil se relaciona con la ansiedad o depresión materna actual, y no con el estrés prenatal, orienta la intervención hacia el presente: tratar la psicopatología de quien cuida es una medida preventiva para la descendencia.",
+     "links": [
+      {
+       "ids": [
+        "dep_embarazo",
+        "anx_perinatal",
+        "emb_peri"
+       ],
+       "t": "salud mental perinatal"
+      },
+      {
+       "ids": [
+        "perdida_perinatal",
+        "duelo"
+       ],
+       "t": "duelo"
+      },
+      {
+       "ids": [
+        "confus_fam_prenat"
+       ],
+       "t": "confusión familiar en exposiciones prenatales"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los estudios con estresores objetivos (fallecimiento de un familiar, invasión militar) evitan la confusión por la percepción subjetiva, pero no la confusión familiar: la muerte de un familiar puede asociarse a enfermedad hereditaria o a circunstancias sociales compartidas. Las comparaciones múltiples por trimestre y por diagnóstico elevan la probabilidad de hallazgos espurios, y los resultados no coinciden entre cohortes. El metaanálisis disponible advierte de heterogeneidad importante y de la necesidad de estudios mejor controlados (Manzari 2019). Por ello la ficha se clasifica como hipótesis activa, en contraste con la infección prenatal o las complicaciones obstétricas, y el estrés prenatal no debe presentarse como causa establecida de esquizofrenia, autismo o TDAH.",
+     "links": [
+      {
+       "ids": [
+        "infec_prenat",
+        "compl_obst"
+       ],
+       "t": "otros factores prenatales"
+      },
+      {
+       "ids": [
+        "fkbp5_epigen",
+        "hha_dep"
+       ],
+       "t": "eje HHA y epigenética"
+      },
+      {
+       "ids": [
+        "esq",
+        "tea",
+        "tdah"
+       ],
+       "t": "trastornos estudiados"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Khashan AS et al. (2008). Higher risk of offspring schizophrenia following antenatal maternal exposure to severe adverse life events. Arch Gen Psychiatry 65:146-152 · PMID 18250252",
+    "Class QA et al. (2014). Offspring psychopathology following preconception, prenatal and postnatal maternal bereavement stress. Psychol Med 44:71-84 · PMID 23591021",
+    "van Os J & Selten JP (1998). Prenatal exposure to maternal stress and subsequent schizophrenia. The May 1940 invasion of The Netherlands. Br J Psychiatry 172:324-326 · PMID 9715334",
+    "Manzari N et al. (2019). Prenatal maternal stress and risk of neurodevelopmental disorders in the offspring: a systematic review and meta-analysis. Soc Psychiatry Psychiatr Epidemiol 54:1299-1309 · PMID 31324962",
+    "Rice F et al. (2010). The links between prenatal stress and offspring development and psychopathology: disentangling environmental and inherited influences. Psychol Med 40:335-345 · PMID 19476689"
+   ],
+   "rel": [
+    "infec_prenat",
+    "compl_obst",
+    "neurodev",
+    "esq",
+    "tea",
+    "tdah",
+    "dep_embarazo",
+    "emb_peri",
+    "fkbp5_epigen",
+    "confus_fam_prenat",
+    "stress"
+   ]
+  },
+  {
+   "id": "premorb_cohortes",
+   "n": "Déficits premórbidos del desarrollo en la esquizofrenia: cohortes de nacimiento",
+   "ab": "Déficit premórbido",
+   "al": [
+    "premorbid IQ",
+    "CI premórbido",
+    "precursores neuromotores de la esquizofrenia",
+    "British 1946 birth cohort",
+    "cohorte de Dunedin",
+    "developmental precursors of schizophrenia"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 1994,
+   "tags": [
+    "child",
+    "risk"
+   ],
+   "desc": "El principal apoyo empírico de la hipótesis del neurodesarrollo de la esquizofrenia es que, años antes del primer episodio, quienes la desarrollarán muestran como grupo diferencias motoras, del lenguaje, cognitivas y sociales. En la cohorte británica de 1946 (5362 personas, 30 casos), los futuros casos alcanzaron más tarde los hitos motores, tuvieron más problemas del habla, puntuaciones educativas más bajas a los 8, 11 y 15 años con tendencia lineal en toda la distribución, y preferencia por el juego solitario a los 4 y 6 años (Jones 1994). En la cohorte de Dunedin, las alteraciones neuromotoras, del lenguaje receptivo y cognitivas fueron específicas del trastorno esquizofreniforme frente a la manía y a la ansiedad o depresión (Cannon 2002). Un metaanálisis de estudios poblacionales (4396 casos y más de 745 000 controles) cifra el déficit de cociente intelectual premórbido en un tamaño del efecto de −0,43 (Khandaker 2011).",
+   "feats": [
+    "Relación dosis-respuesta: el riesgo de esquizofrenia aumenta un 3,7 % por cada punto de descenso del CI; afectación similar de medidas verbales y no verbales; mayor déficit premórbido asociado a inicio más temprano (Khandaker 2011)",
+    "Media de CI premórbido aproximadamente media desviación estándar por debajo de la de controles, años antes de los síntomas psicóticos; sin apoyo a un declive relativo durante el período premórbido, pero con descenso significativo asociado al inicio de la psicosis franca en los estudios con medidas antes y después (Woodberry 2008)",
+    "A los 16 años o antes, déficit significativo en CI (d = 0,51) y función motora (d = 0,56), pero no en rendimiento académico general ni en matemáticas; el déficit de CI ya está presente a los 13 años (23 estudios; Dickson 2012)",
+    "Dunedin, seguimiento de 30 años: déficits estáticos, tempranos y estables, en conocimiento verbal y visual, razonamiento y conceptualización, y retrasos dinámicos, con crecimiento más lento que los iguales entre los 7 y los 13 años, en velocidad de procesamiento, atención, resolución de problemas visoespaciales y memoria de trabajo; patrón ausente en la depresión recurrente (Reichenberg 2010)",
+    "Las alteraciones del desarrollo predijeron también síntomas psicóticos autoinformados a los 11 años y fueron independientes de factores socioeconómicos, obstétricos y maternos (Cannon 2002)",
+    "Películas domésticas de la infancia: más anomalías neuromotoras (movimientos coreoatetósicos y posturas de miembros superiores) en quienes desarrollarían esquizofrenia que en sus hermanos sanos, con diferencias significativas solo en los dos primeros años de vida (Walker 1994)"
+   ],
+   "note": "Son diferencias de grupo de tamaño pequeño o moderado, con solapamiento amplio con la población general: en la cohorte británica hubo 30 casos entre 5362 personas y varias asociaciones tenían intervalos de confianza muy amplios (Jones 1994). No tienen valor predictivo individual. La discrepancia entre los estudios sobre si el déficit se amplía antes del inicio (Reichenberg 2010 frente a Khandaker 2011 y Woodberry 2008) sigue abierta.",
+   "sec": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La historia del desarrollo forma parte de la evaluación de un primer episodio psicótico: retraso en la marcha o el lenguaje, dificultades escolares y aislamiento en el juego apoyan, a nivel de probabilidad, un trastorno del espectro de la esquizofrenia frente a una psicosis afectiva, dado que el patrón fue específico frente a la manía en Dunedin (Cannon 2002). El dato cognitivo relevante es doble: existe un déficit previo estable y, además, un descenso asociado al inicio de la psicosis (Woodberry 2008), por lo que el rendimiento tras el primer episodio no debe atribuirse por entero ni a la enfermedad ni al tratamiento. El solapamiento con los trastornos del neurodesarrollo es clínicamente importante, porque los mismos antecedentes pueden corresponder a un TEA, y el diagnóstico diferencial tiene ficha propia. Ninguno de estos antecedentes justifica intervenciones preventivas en la infancia.",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "esq",
+        "eop"
+       ],
+       "t": "primer episodio y esquizofrenia"
+      },
+      {
+       "ids": [
+        "detcog",
+        "neuropsico"
+       ],
+       "t": "deterioro cognitivo y evaluación neuropsicológica"
+      },
+      {
+       "ids": [
+        "tea_esq_dd",
+        "tr_leng",
+        "tdcoord"
+       ],
+       "t": "solapamiento con trastornos del neurodesarrollo"
+      },
+      {
+       "ids": [
+        "urh"
+       ],
+       "t": "estados de alto riesgo"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia y uso pericial",
+     "x": "Con un tamaño del efecto en torno a media desviación estándar, la mayoría de los niños y niñas con CI bajo, retraso motor o juego solitario nunca desarrollará psicosis, y muchas personas con esquizofrenia tuvieron un desarrollo sin incidencias. En la pericia, el déficit premórbido documentado en informes escolares tiene dos usos legítimos: establecer la línea de base para cuantificar el deterioro atribuible a la enfermedad en valoraciones de discapacidad o de capacidad, y situar el inicio del proceso con anterioridad a un acontecimiento al que se pretende atribuir la psicosis. No sirve, en cambio, para afirmar retrospectivamente que el trastorno era previsible o diagnosticable en la infancia. La relación entre CI y riesgo en todo el rango de capacidad es compatible con una contribución del neurodesarrollo y con un efecto protector de la reserva cognitiva (Khandaker 2011).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "whodas2"
+       ],
+       "t": "pericia y valoración de la discapacidad"
+      },
+      {
+       "ids": [
+        "neurodev",
+        "compl_obst",
+        "c4_complemento"
+       ],
+       "t": "hipótesis del neurodesarrollo"
+      },
+      {
+       "ids": [
+        "persona"
+       ],
+       "t": "personalidad premórbida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Jones P et al. (1994). Child development risk factors for adult schizophrenia in the British 1946 birth cohort. Lancet 344:1398-1402 · PMID 7968076",
+    "Cannon M et al. (2002). Evidence for early-childhood, pan-developmental impairment specific to schizophreniform disorder: results from a longitudinal birth cohort. Arch Gen Psychiatry 59:449-456 · PMID 11982449",
+    "Reichenberg A et al. (2010). Static and dynamic cognitive deficits in childhood preceding adult schizophrenia: a 30-year study. Am J Psychiatry 167:160-169 · PMID 20048021",
+    "Khandaker GM et al. (2011). A quantitative meta-analysis of population-based studies of premorbid intelligence and schizophrenia. Schizophr Res 132:220-227 · PMID 21764562",
+    "Woodberry KA, Giuliano AJ & Seidman LJ (2008). Premorbid IQ in schizophrenia: a meta-analytic review. Am J Psychiatry 165:579-587 · PMID 18413704",
+    "Dickson H et al. (2012). Meta-analyses of cognitive and motor function in youth aged 16 years and younger who subsequently develop schizophrenia. Psychol Med 42:743-755 · PMID 21896236",
+    "Walker EF, Savoie T & Davis D (1994). Neuromotor precursors of schizophrenia. Schizophr Bull 20:441-451 · PMID 7526446"
+   ],
+   "rel": [
+    "neurodev",
+    "esq",
+    "pep",
+    "eop",
+    "urh",
+    "detcog",
+    "compl_obst",
+    "c4_complemento",
+    "tea_esq_dd",
+    "persona",
+    "del22q"
+   ]
   }
  ]
 }
