@@ -2301,5 +2301,56 @@
    2470,
    3603
   ]
+ },
+ "mat_monitorizacion": {
+  "kind": "mat",
+  "nodes": [
+   "clozapina",
+   "tb_embarazo",
+   "estimulantes",
+   "oxcarbazepina",
+   "valproato_fertil",
+   "hla_carbamaz",
+   "lm_bip",
+   "litio_embarazo",
+   "vpa_bip",
+   "carbamaz",
+   "lamotrig",
+   "clozapina_monit",
+   "ap_atipicos",
+   "ap_tipicos",
+   "d2_block",
+   "citalopram",
+   "escitalopram",
+   "isrs",
+   "metilfenidato",
+   "atomoxetina",
+   "estim_seguridad"
+  ],
+  "cap": "Matriz por familias (estabilizadores del ánimo, antipsicóticos, antidepresivos y fármacos del TDAH) con lo que cada fuente pide controlar antes de iniciar y durante el seguimiento. Cada periodicidad procede literalmente de la recomendación de NICE o del apartado de la ficha técnica AEMPS-CIMA que se cita en la última columna; los símbolos indican si la fuente fija un intervalo (●●●), si solo pide un control «periódico» o clínico (●●○) o si el texto original no pudo abrirse y el dato se toma de una fuente secundaria indexada (●○○). Cuando dos fuentes difieren se muestran ambas sin resolver la diferencia. No recoge dosis y no sustituye a la ficha técnica vigente ni a los protocolos locales.",
+  "refs": [
+   "NICE (2014, última actualización de 2 de septiembre de 2025). Bipolar disorder: assessment and management. Clinical guideline CG185, recomendaciones 1.2.11-1.2.12, 1.10.5-1.10.8 y 1.10.14-1.10.38",
+   "NICE (2014, última actualización de 4 de septiembre de 2026). Psychosis and schizophrenia in adults: prevention and management. Clinical guideline CG178, recomendaciones 1.3.6.1, 1.3.6.2 y 1.3.6.4",
+   "NICE (2018, última actualización de 13 de septiembre de 2019). Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline NG87, recomendaciones 1.7.4, 1.8.5, 1.8.9 y 1.8.10",
+   "NICE (2022). Depression in adults: treatment and management. NICE guideline NG222, recomendaciones 1.4.24 y 1.4.34",
+   "AEMPS-CIMA (2026). Ficha técnica de Leponex 100 mg comprimidos (clozapina) (n.º de registro 59547), recuadro inicial y apartado 4.4; revisión del texto de febrero de 2026",
+   "AEMPS-CIMA (2024). Ficha técnica de Plenur 400 mg comprimidos de liberación modificada (carbonato de litio) (n.º de registro 48932), apartados 4.2, 4.3 y 4.4; revisión del texto de julio de 2024",
+   "AEMPS-CIMA (2026). Ficha técnica de Depakine Crono 500 mg comprimidos de liberación prolongada (valproato) (n.º de registro 60350), apartados 4.3, 4.4 y 4.6; revisión del texto de septiembre de 2026",
+   "AEMPS-CIMA (2026). Ficha técnica de Tegretol 200 mg comprimidos (carbamazepina) (n.º de registro 39955), apartados 4.2 y 4.4; revisión del texto de agosto de 2026",
+   "AEMPS-CIMA (2025). Ficha técnica de Lamictal 100 mg comprimidos masticables/dispersables (lamotrigina) (n.º de registro 61568), apartados 4.2 y 4.4; revisión del texto de junio de 2025",
+   "AEMPS-CIMA (2023). Ficha técnica de Seropram 30 mg comprimidos recubiertos con película (citalopram) (n.º de registro 63564), apartados 4.3 y 4.4; revisión del texto de octubre de 2023",
+   "AEMPS-CIMA (2024). Ficha técnica de Cipralex 10 mg comprimidos recubiertos con película (escitalopram) (n.º de registro 65230), apartados 4.3 y 4.4; revisión del texto de noviembre de 2024",
+   "AEMPS-CIMA (2026). Ficha técnica de Concerta 18 mg comprimidos de liberación prolongada (metilfenidato) (n.º de registro 65148), apartados 4.2 y 4.4; revisión del texto de febrero de 2026",
+   "AEMPS-CIMA (2024). Ficha técnica de Atomoxetina Cinfa 80 mg cápsulas duras EFG (n.º de registro 82446), apartados 4.2 y 4.4; revisión del texto de noviembre de 2024",
+   "American Diabetes Association, American Psychiatric Association, American Association of Clinical Endocrinologists & North American Association for the Study of Obesity (2004). Consensus development conference on antipsychotic drugs and obesity and diabetes. Diabetes Care 27:596-601 · PMID 14747245 (referencia verificada en PubMed, sin resumen; el texto completo no pudo abrirse, por lo que su calendario se toma de Peña 2018)",
+   "Peña A et al. (2018). Overcoming barriers to monitoring patients taking second-generation antipsychotics. Ment Health Clin 8:49-55 · PMID 29955545 (fuente secundaria: su introducción reproduce el calendario del consenso ADA-APA de 2004)",
+   "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043"
+  ],
+  "title": "Monitorización de seguridad de los psicofármacos: qué se controla y cuándo",
+  "t": "Monitorización de seguridad de los psicofármacos: qué se controla y cuándo",
+  "cuts": [
+   1113,
+   2475
+  ]
  }
 }
