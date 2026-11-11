@@ -26,7 +26,7 @@ const vb = svg.match(/viewBox="0 0 ([\d.]+) ([\d.]+)"/), W = +vb[1], H = +vb[2];
 // cortes de paneles: entre cajas y tablas, sin partir ninguna
 let cuts = [];
 if (H >= 1.4 * W) {
-  const spans = g.order.map(i => g.boxes[i]).map(b => [b.y - 5, b.y + b.h + 5]).concat(g.items.filter(i => i.k === 'table').map(t => [t.y - 5, t.y + t.h + 5])).sort((a, b) => a[0] - b[0]);
+  const spans = g.order.map(i => g.boxes[i]).map(b => [b.y - 5, b.y + b.h + 5]).concat(g.items.filter(i => i.k === 'table').map(t => [t.y - 5, t.y + t.h + 5])).concat(g.items.filter(i => i.k === 'text').map(t => [t.y - t.fs - 4, t.y + t.lines.length * t.fs * 1.3 + 4])).concat(g.items.filter(i => i.k === 'band').map(t => [t.y - 5, t.y + 49])).concat(g.arrows.filter(a => a.a && a.b).map(a => { const ys = [a.a.y, a.a.y + a.a.h, a.b.y, a.b.y + a.b.h]; const lo = Math.min(a.a.y + a.a.h, a.b.y + a.b.h), hi = Math.max(a.a.y, a.b.y); return hi - lo < 260 && hi > lo ? [lo, hi] : null; }).filter(Boolean)).sort((a, b) => a[0] - b[0]);
   const gaps = []; let end = 0; for (const [a, z] of spans) { if (a > end + 12) gaps.push([end, a]); end = Math.max(end, z); } if (H > end + 12) gaps.push([end, H]);
   const n = Math.max(2, Math.round(H / (0.55 * W))), step = H / n;
   for (let k = 1; k < n; k++) { let best = null, bd = 1e9; for (const [a, z] of gaps) { const c = (a + z) / 2, d = Math.abs(c - k * step); if (d < bd && c > (cuts[cuts.length - 1] || 0) + step * 0.4) { bd = d; best = c; } } if (best != null && bd < step * 0.5) cuts.push(Math.round(best)); }
