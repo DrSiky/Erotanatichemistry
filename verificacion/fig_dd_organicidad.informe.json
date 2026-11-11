@@ -1,0 +1,71 @@
+{
+ "pmid_comprobados": 43,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 5, caja e5 (neuroimagen) y meta.refs (NICE CG178)",
+   "antes": "«(NICE TA136, rec. 1.1; recogido en CG178, rec. 1.3.3.2)» y recs. «1.3.3.1, 1.3.3.2, 1.3.6.1 y 1.3.6.2»",
+   "despues": "«(NICE TA136, rec. 1.1)» y recs. «1.3.3.1, 1.3.6.1 y 1.3.6.2»",
+   "fuente": "No se pudo abrir nice.org.uk (HTTP 403) y la atribución a CG178 1.3.3.2 no es comprobable (esa recomendación trata, según el texto conocido de la guía, de la evaluación del TEPT); se conserva solo TA136 rec. 1.1, cuyo contenido es el dibujado."
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 3, fila b3, caja «Catatonía maligna»",
+   "antes": "«Catatonía con alteraciones autonómicas marcadas, que puede elevar de forma peligrosa la tensión arterial, la frecuencia cardiaca y la temperatura (BAP, Rogers 2023)»",
+   "despues": "«Extremo grave del continuo de la catatonía, con hipertermia y disfunción autonómica; suele ser clínicamente indistinguible del síndrome neuroléptico maligno y, ante la sospecha, se retiran los antagonistas dopaminérgicos (BAP, Rogers 2023)»",
+   "fuente": "Rogers 2023, texto completo PMC10101189, sección «Malignant catatonia» y su recomendación; la frase original no aparece en el texto de la guía."
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 4, fila c2 (pregunta)",
+   "antes": "«una de las «banderas rojas» que motivaron el estudio de anticuerpos en personas hospitalizadas por un cuadro psiquiátrico (Herken y Prüss 2017)»",
+   "despues": "«una de las «banderas rojas» de Herken y Prüss (2017): motivaron el estudio de anticuerpos en 14 de sus 100 casos de encefalitis autoinmune»",
+   "fuente": "Herken y Prüss 2017, PMC5311041, tablas 3 y 4: la serie es de 100 encefalitis autoinmunes, de las que solo 31 ingresaron primero en psiquiatría."
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 5, caja e6 (basal antes de un antipsicótico)",
+   "antes": "«glucemia en ayunas o HbA1c»",
+   "despues": "«glucemia en ayunas, HbA1c»",
+   "fuente": "NICE CG178 rec. 1.3.6.1 enumera ambas determinaciones; no se pudo reabrir la guía (HTTP 403), se evita la disyuntiva no comprobada."
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 2, fila a3, caja «Glucocorticoides»",
+   "antes": "«15,7 por 100 personas-año de exposición»",
+   "despues": "«15,7 por 100 personas-año en riesgo, contando todos los ciclos de tratamiento»",
+   "fuente": "Judd 2014, resumen (PMID 25272344)."
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 4, fila c3, caja «Encefalopatía de Hashimoto»",
+   "antes": "«ataxia en el 65 %»",
+   "despues": "«ataxia de la marcha en el 65 %»",
+   "fuente": "Castillo 2006, resumen (PMID 16476807)."
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 2, fila a4, caja «Tiroiditis autoinmune»",
+   "antes": "«Algunas mujeres tienen causas y comorbilidades tratables»",
+   "despues": "«En parte de los casos hay causas y comorbilidades tratables»",
+   "fuente": "Regla de redacción neutra; contenido de Bergink 2016 (PMID 27609245) sin cambios."
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 3, fila b1, caja «Encefalopatía de Wernicke»",
+   "antes": "«En el alcoholismo bastan dos de cuatro signos»",
+   "despues": "«En personas con dependencia del alcohol, el diagnóstico clínico requiere dos de cuatro signos»",
+   "fuente": "Galvin 2010, resumen (PMID 20642790); lenguaje no estigmatizante."
+  }
+ ],
+ "sin_resolver": [
+  "FICHA tce_neuro (no editada): la referencia figura como «Fleminger S (2008). Long-term psychiatric disorders after traumatic brain injury. Eur J Anaesthesiol 25(Suppl 42):123-130 · PMID 17681090». Comprobado en PubMed: el PMID 17681090 es Weber F et al. (2008), «Measuring depth of sedation in intensive care patients with the electroencephalographic Narcotrend Index», Eur J Anaesthesiol 25(2):123-128 (misma revista, volumen y página inicial; de ahí la confusión). El PMID correcto es 18289429, como dice el autor. Referencia tal como debe quedar en la ficha: «Fleminger S (2008). Long-term psychiatric disorders after traumatic brain injury. Eur J Anaesthesiol Suppl 42:123-130 · PMID 18289429» (DOI 10.1017/S0265021507003250; PubMed la indexa en «European Journal of Anaesthesiology. Supplement», vol. 42, págs. 123-30; la forma «Eur J Anaesthesiol 25(Suppl 42):123-130» es la del editor y también es válida, siempre con el PMID 18289429).",
+  "Guías NICE (CG178, TA136, CG103, CG185): nice.org.uk devolvió HTTP 403 y NCBI Bookshelf un control anti-robots, de modo que este verificador no pudo releer el texto literal ni la numeración de las recomendaciones (CG178 1.3.3.1, 1.3.6.1, 1.3.6.2; CG103 1.3.1, 1.6.1, 1.6.3; CG185 1.3.3; TA136 1.1). El contenido dibujado coincide con el texto conocido de esas guías, pero la numeración (sobre todo la de CG103 tras la actualización de 2023 y la de CG185 1.3.3) queda pendiente de una comprobación manual en la web.",
+  "DSM-5-TR (criterio temporal de los cuadros inducidos y plazo de «en torno a 1 mes»): no cotejado en el original; la referencia sigue marcada «[no verificada]» y la caja de límites lo advierte.",
+  "Pollak 2020 (PMID 31669058): solo resumen; el detalle de criterios sigue con «[fuente no localizada]».",
+  "Datos que no constan en el resumen y no se pudieron cotejar a texto completo: McKeith 2017 (fluctuación como rasgo clínico nuclear «parecida al delirium»; coincide con los criterios publicados del consorcio) y Bates 2015/Ducharme 2020 se apoyan solo en el resumen, que sí contiene lo dibujado.",
+  "Filas a5 (antecedentes y exposiciones) y m2 (contenido del informe pericial): siguen sin fuente primaria y con «[fuente no localizada]».",
+  "Enlaces node: los 39 apuntan a fichas existentes y pertinentes. «Encefalitis infecciosa» y «Lesión cerebral estructural o inflamatoria» enlazan con tpsc_med porque el atlas no tiene ficha propia de encefalitis herpética ni de lesión estructural; «Estado epiléptico no convulsivo» enlaza con epilepsia_psic (psiep también lo recoge)."
+ ]
+}
