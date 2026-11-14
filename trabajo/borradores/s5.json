@@ -1,0 +1,2265 @@
+{
+ "patch": {
+  "inhib": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La inhibición se observa antes de preguntar por ella: latencia de respuesta aumentada, habla escasa, lenta y de bajo volumen, mímica pobre, mirada fija, postura encorvada, marcha lenta y reducción de los movimientos espontáneos y de los gestos que acompañan al discurso. Sus manifestaciones nucleares son el habla enlentecida, la disminución del movimiento y el deterioro del rendimiento cognitivo (Buyukdura 2011). Conviene preguntar por la vivencia subjetiva («todo me cuesta», «pienso despacio») y por la variación a lo largo del día, y revisar antes de interpretarla el curso de la enfermedad, la medicación, la edad y el sexo, variables que se asocian a la agitación y al enlentecimiento y que deben controlarse (Sobin y Sackeim 1997). La cuantificación objetiva (actividad motora gruesa, movimientos corporales, habla y tiempo de reacción motora) distingue a las personas deprimidas de los grupos de comparación sanos y psiquiátricos (Sobin y Sackeim 1997). Además de las escalas de Widlöcher y CORE ya citadas, la escala de Hamilton incluye un ítem específico de enlentecimiento valorado por observación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hamd_madrs"
+       ],
+       "t": "Escalas de depresión"
+      },
+      {
+       "ids": [
+        "bradipsiquia"
+       ],
+       "t": "Componente ideativo"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la bradipsiquia aislada se distingue porque la inhibición afecta a la vez al pensamiento, al habla y al movimiento. De la apatía y la abulia, porque en estas falta la iniciativa pero la ejecución, una vez iniciada, no es necesariamente lenta [fuente no localizada]. Del estupor, por el grado: en el estupor se llega al mutismo y a la inmovilidad. Del parkinsonismo (idiopático o inducido por antipsicóticos), por la rigidez, el temblor y la rueda dentada, que se buscan en la exploración del tono. De la pobreza motora de los síntomas negativos, por el contexto afectivo: en una muestra de 187 personas con psicosis, el factor de pobreza motora se asoció de forma particularmente estrecha al síndrome negativo (Peralta y Cuesta 2001). De la sedación farmacológica y de la obnubilación, por el nivel de alerta. De la catatonía hipocinética, por la presencia en esta de signos específicos (catalepsia, flexibilidad cérea, negativismo, mutismo) que deben explorarse de forma activa en toda persona muy inhibida.",
+     "links": [
+      {
+       "ids": [
+        "bradipsiquia",
+        "apatia",
+        "estupor"
+       ],
+       "t": "Bradipsiquia, apatía y estupor"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "aplan_afect",
+        "obnub"
+       ],
+       "t": "Parkinsonismo, síntomas negativos y obnubilación"
+      },
+      {
+       "ids": [
+        "catalepsia",
+        "negativismo",
+        "mutismo"
+       ],
+       "t": "Signos catatónicos que hay que buscar"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es frecuente en la depresión melancólica y en la depresión con síntomas psicóticos (Buyukdura 2011). Su valor diagnóstico es orientador, no patognomónico: los síntomas psicomotores tienen alta validez discriminante y pueden ser los únicos síntomas depresivos que distinguen subtipos de depresión (Sobin y Sackeim 1997). También se observa en la depresión bipolar [fuente no localizada], en la esquizofrenia (como pobreza motora ligada al síndrome negativo; Peralta y Cuesta 2001), en el delirium hipoactivo, en el parkinsonismo por antagonistas dopaminérgicos, en síndromes subcorticales y en el hipotiroidismo [fuente no localizada para las causas médicas]. En cuanto al mecanismo, los estudios de neuroimagen y bioquímicos vinculan los síntomas motores de la depresión con alteraciones de los ganglios basales, de los circuitos ganglios basales-tálamo-corteza y de las vías dopaminérgicas (Sobin y Sackeim 1997; Buyukdura 2011). La evidencia disponible sugiere buena respuesta a la terapia electroconvulsiva cuando hay enlentecimiento; con antidepresivos los datos no son concluyentes (Buyukdura 2011).",
+     "links": [
+      {
+       "ids": [
+        "emel",
+        "dpsic",
+        "ddm",
+        "tb1"
+       ],
+       "t": "Depresión melancólica, psicótica y bipolar"
+      },
+      {
+       "ids": [
+        "esq",
+        "esqneg",
+        "delirium",
+        "huntington",
+        "endocrino"
+       ],
+       "t": "Psicosis y causas médicas"
+      },
+      {
+       "ids": [
+        "dep_neurob",
+        "d2_block",
+        "tec_dep"
+       ],
+       "t": "Mecanismos y tratamiento"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Buyukdura JS, McClintock SM & Croarkin PE (2011). Psychomotor retardation in depression: biological underpinnings, measurement, and treatment. Prog Neuropsychopharmacol Biol Psychiatry 35:395-409 · PMID 21044654",
+    "Sobin C & Sackeim HA (1997). Psychomotor symptoms of depression. Am J Psychiatry 154:4-17 · PMID 8988952",
+    "Peralta V & Cuesta MJ (2001). Motor features in psychotic disorders. I. Factor structure and clinical correlates. Schizophr Res 47:107-116 · PMID 11278127"
+   ],
+   "relAdd": [
+    "emel",
+    "dpsic",
+    "estupor",
+    "apatia",
+    "hamd_madrs",
+    "tec_dep"
+   ]
+  },
+  "agitacion": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La exploración empieza por la seguridad y por la pregunta etiológica: numerosas afecciones médicas y psiquiátricas producen agitación y algunas son potencialmente mortales, de modo que hay que valorar si es probable una causa médica antes de atribuirla a un trastorno mental (Nordstrom 2012). Orientan hacia causa médica el inicio brusco sin antecedentes psiquiátricos, la edad avanzada, las constantes vitales anormales, la alteración de la atención o del nivel de conciencia, la focalidad neurológica y los signos de intoxicación o abstinencia [fuente no localizada para la lista concreta]. Se observa la actividad motora sin finalidad, la tensión, el tono de voz y la capacidad de atender a la desescalada verbal; se pregunta por la inquietud interior y por la necesidad de mover las piernas (acatisia) y por los fármacos y sustancias recientes. La PANSS-EC mostró estructura unifactorial, alfa de Cronbach de 0,86 y buena sensibilidad al cambio en 278 personas con psicosis aguda y agitación atendidas en urgencias (Montoya 2011). La escala de actividad conductual (BARS) de Swift mostró fiabilidad entre evaluadores casi perfecta (Swift 2002); no debe confundirse con la escala de acatisia de Barnes, que comparte acrónimo.",
+     "links": [
+      {
+       "ids": [
+        "panss",
+        "escalas_motor"
+       ],
+       "t": "PANSS-EC y escalas motoras"
+      },
+      {
+       "ids": [
+        "cam",
+        "delirium"
+       ],
+       "t": "Cribado de delirium"
+      },
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "Acatisia"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la acatisia se distingue porque en esta la inquietud se vive como necesidad de moverse, se relaciona en el tiempo con un fármaco y empeora si se aumenta el antipsicótico. De la hiperactividad del TDAH, por el curso: esta es crónica y está presente desde la infancia. Del aumento de actividad de la manía, porque este se dirige a objetivos, mientras que la agitación es improductiva. De la excitación catatónica, porque en ella la hiperactividad carece de propósito y no responde a los estímulos externos, y se acompaña de otros signos catatónicos (Bush 1996). De las estereotipias, por la invariabilidad de estas. De la agresividad: la agitación no implica intención de dañar, aunque puede precederla. Del delirium hiperactivo, por la fluctuación, la inatención y la desorientación, y del estado crepuscular, por el estrechamiento de la conciencia y la amnesia posterior. La ansiedad intensa puede producir inquietud motora indistinguible sin el relato subjetivo.",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "hiperact_impuls",
+        "estereotip"
+       ],
+       "t": "Acatisia, hiperactividad y estereotipias"
+      },
+      {
+       "ids": [
+        "hetero_agr",
+        "ansiedad",
+        "euforia"
+       ],
+       "t": "Agresividad, ansiedad y exaltación"
+      },
+      {
+       "ids": [
+        "obnub",
+        "desorient",
+        "crepusc"
+       ],
+       "t": "Alteraciones de la conciencia"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es un signo inespecífico y transdiagnóstico; su valor reside en la urgencia y en que obliga a un diagnóstico etiológico ordenado (Garriga 2016; Nordstrom 2012). Además de los cuadros enumerados en la ficha, se observa en la intoxicación por estimulantes (metanfetamina, cocaína, catinonas), en la abstinencia de alcohol y de GHB/GBL, en la catatonía excitada y la catatonía maligna, en el síndrome serotoninérgico, en la encefalitis autoinmune, en las encefalopatías metabólicas y en el traumatismo craneoencefálico [fuente no localizada para la enumeración]. En la depresión, la agitación y el enlentecimiento son síntomas psicomotores objetivables con valor discriminante (Sobin y Sackeim 1997); la depresión agitada se discute en las fichas sobre estados mixtos. En el contexto de chemsex conviene pensar a la vez en intoxicación por estimulantes, abstinencia de GHB/GBL y psicosis inducida.",
+     "links": [
+      {
+       "ids": [
+        "metanf",
+        "cocaina",
+        "mefed",
+        "ghb_abst",
+        "dt_alc",
+        "chemsex_s"
+       ],
+       "t": "Sustancias y abstinencias"
+      },
+      {
+       "ids": [
+        "catatonia",
+        "cat_malig",
+        "sind_ser",
+        "nmda",
+        "enc_hep",
+        "tce_neuro"
+       ],
+       "t": "Causas médicas y catatonía"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "mxto",
+        "dmko",
+        "pep",
+        "agit_dem",
+        "psust"
+       ],
+       "t": "Trastornos afectivos, psicosis y demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nordstrom K et al. (2012). Medical evaluation and triage of the agitated patient: consensus statement of the American Association for Emergency Psychiatry Project BETA medical evaluation workgroup. West J Emerg Med 13:3-10 · PMID 22461915",
+    "Montoya A et al. (2011). Validation of the Excited Component of the Positive and Negative Syndrome Scale (PANSS-EC) in a naturalistic sample of 278 patients with acute psychosis and agitation in a psychiatric emergency room. Health Qual Life Outcomes 9:18 · PMID 21447155",
+    "Swift RH et al. (2002). Validation of the behavioural activity rating scale (BARS): a novel measure of activity in agitated patients. J Psychiatr Res 36:87-95 · PMID 11777497",
+    "Sobin C & Sackeim HA (1997). Psychomotor symptoms of depression. Am J Psychiatry 154:4-17 · PMID 8988952",
+    "Bush G, Fink M, Petrides G, Dowling F & Francis A (1996). Catatonia. I. Rating scale and standardized examination. Acta Psychiatr Scand 93:129-136 · PMID 8686483"
+   ],
+   "relAdd": [
+    "metanf",
+    "dt_alc",
+    "catatonia",
+    "dmko",
+    "panss",
+    "escalas_motor",
+    "hetero_agr",
+    "ghb_abst"
+   ]
+  },
+  "estupor": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se explora observando y tocando, no solo preguntando: postura, apertura ocular, parpadeo, seguimiento visual, resistencia a la apertura pasiva de los párpados, tono muscular y respuesta a la movilización pasiva; después se buscan de forma activa los signos catatónicos con la exploración estandarizada de Bush y Francis (catalepsia, flexibilidad cérea, negativismo, obediencia automática). En 339 personas con enfermedad médica o psiquiátrica aguda cribadas con esa escala, la mirada fija fue el signo catatónico más prevalente, y la inmovilidad/estupor el mejor indicador del factor de actividad psicomotora disminuida (Wilson 2015). La exploración física es obligada: constantes vitales, temperatura, hidratación, rigidez y signos de disautonomía, por el riesgo de catatonía maligna y de síndrome neuroléptico maligno, a los que la guía británica dedica atención específica (Rogers 2023). La anamnesis a terceros debe recoger episodios afectivos o psicóticos previos, fármacos recientes y consumo de sustancias. Tras la resolución, el relato retrospectivo de lo vivido durante el episodio ayuda a filiar el tipo de estupor [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "catalepsia",
+        "negativismo",
+        "ambitend",
+        "mutismo"
+       ],
+       "t": "Signos que se exploran"
+      },
+      {
+       "ids": [
+        "cat_malig",
+        "snm"
+       ],
+       "t": "Formas con riesgo vital"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Del coma y de la obnubilación se distingue por la conservación relativa de la conciencia, que se infiere de la apertura ocular, del seguimiento visual y de la reactividad selectiva. Del mutismo aislado, porque en este la motilidad general se conserva. De la inhibición psicomotriz, por el grado. De la cataplejía, porque esta es una pérdida brusca y breve del tono desencadenada por emociones. De las crisis funcionales o disociativas prolongadas y del estado epiléptico no convulsivo, por la semiología del episodio y por el electroencefalograma. Del mutismo acinético por lesión frontal medial y del síndrome de cautiverio, por la exploración neurológica y la neuroimagen [fuente no localizada]. El solapamiento con el delirium es real: la catatonía se reconoce hoy como síndrome que se superpone al delirium y coexiste con afecciones médicas (Walther 2019), de modo que un estupor con fluctuación e inatención exige estudio orgánico aunque haya signos catatónicos.",
+     "links": [
+      {
+       "ids": [
+        "obnub",
+        "mutismo",
+        "inhib",
+        "cataplejia"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "crisis_func",
+        "psiep",
+        "delirium"
+       ],
+       "t": "Crisis funcionales, epilepsia y delirium"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "El estupor es inespecífico respecto de la etiología. Aparece en la catatonía de cualquier causa, en la depresión melancólica y psicótica, en el trastorno bipolar, en la esquizofrenia, en los cuadros disociativos y en enfermedades médicas y neurológicas. El metaanálisis de Solmi (74 estudios, 110 764 personas) halló una prevalencia media de catatonía del 9,0 % en muestras clínicas, que ascendía al 20,6 % cuando había enfermedad médica o neurológica sin trastorno psiquiátrico comórbido (Solmi 2018): el dato obliga a descartar causa orgánica (encefalitis autoinmune, encefalopatías metabólicas, epilepsia, fármacos) ante todo estupor, incluso con antecedentes psiquiátricos. La nosología actual reconoce la alta prevalencia de la catatonía en los trastornos afectivos y no solo en la esquizofrenia (Walther 2019). Berrios (1981) trazó la historia conceptual del término [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "emel",
+        "dpsic",
+        "tb1",
+        "esq"
+       ],
+       "t": "Catatonía, trastornos afectivos y psicosis"
+      },
+      {
+       "ids": [
+        "nmda",
+        "enc_hep",
+        "psiep",
+        "snm",
+        "delirium"
+       ],
+       "t": "Causas médicas"
+      },
+      {
+       "ids": [
+        "conv",
+        "crisis_func"
+       ],
+       "t": "Cuadros disociativos y funcionales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Wilson JE et al. (2015). The diagnostic criteria and structure of catatonia. Schizophr Res 164:256-262 · PMID 25595653",
+    "Solmi M et al. (2018). Prevalence of catatonia and its moderators in clinical samples: results from a meta-analysis and meta-regression analysis. Schizophr Bull 44:1133-1150 · PMID 29140521",
+    "Walther S, Stegmayer K, Wilson JE & Heckers S (2019). Structure and neural mechanisms of catatonia. Lancet Psychiatry 6:610-619 · PMID 31196794",
+    "Rogers JP et al. (2023). Evidence-based consensus guidelines for the management of catatonia: Recommendations from the British Association for Psychopharmacology. J Psychopharmacol 37:327-369 · PMID 37039129",
+    "Berrios GE (1981). Stupor: a conceptual history. Psychol Med 11:677-688 · PMID 7034030"
+   ],
+   "relAdd": [
+    "inhib",
+    "catalepsia",
+    "negativismo",
+    "dpsic",
+    "delirium",
+    "nmda",
+    "snm",
+    "crisis_func",
+    "cat_malig"
+   ]
+  },
+  "catalepsia": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se explora sin anunciar lo que se busca. Durante la exploración del tono, quien examina coloca un brazo de la persona en una postura incómoda y lo suelta: hay catalepsia si la postura se mantiene contra la gravedad, y flexibilidad cérea si al recolocar el miembro se percibe una resistencia leve y uniforme (DSM-5-TR). La adopción de posturas se observa, no se provoca: mantenimiento espontáneo y activo de una postura contra la gravedad, incluidas las posturas corrientes sostenidas durante periodos largos sin reaccionar (Bush 1996). Debe comprobarse el tiempo que se sostiene la postura y si la persona la corrige cuando se le indica. La exploración estandarizada de Bush y Francis añade en la misma maniobra la búsqueda de rueda dentada, Gegenhalten y Mitgehen, lo que permite el diferencial inmediato. En el análisis de teoría de respuesta al ítem de Wilson, la flexibilidad cérea fue el mejor indicador del factor de actividad psicomotora anormal (Wilson 2015).",
+     "links": [
+      {
+       "ids": [
+        "negativismo",
+        "ambitend"
+       ],
+       "t": "Maniobras contiguas: Gegenhalten y Mitgehen"
+      },
+      {
+       "ids": [
+        "catatonia"
+       ],
+       "t": "Síndrome catatónico"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la rigidez parkinsoniana se distingue porque esta opone resistencia en tubo de plomo o en rueda dentada y no conserva las posturas impuestas. De la espasticidad, por el fenómeno de navaja y los signos piramidales. Del Gegenhalten, porque en este la resistencia crece en proporción a la fuerza aplicada, mientras que en la flexibilidad cérea es leve y constante. Del Mitgehen y de la obediencia automática, porque en estos el miembro sigue la presión mínima o la orden, pero no queda fijado. De la distonía aguda, por el dolor, la contracción sostenida y su relación temporal con un antipsicótico. De la cataplejía, término fonéticamente próximo, porque esta es una atonía brusca. Las posturas mantenidas se distinguen de los manierismos y de las estereotipias posturales por su carácter estático. La colaboración voluntaria o por sugestión se descarta repitiendo la maniobra con una instrucción explícita de no mantener la postura.",
+     "links": [
+      {
+       "ids": [
+        "negativismo",
+        "ambitend",
+        "discin_tard"
+       ],
+       "t": "Tono y movimientos inducidos"
+      },
+      {
+       "ids": [
+        "cataplejia",
+        "manierismo",
+        "estereotip"
+       ],
+       "t": "Otros fenómenos motores"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "La catalepsia, la flexibilidad cérea y la adopción de posturas son tres de los doce signos de catatonía del DSM-5-TR, que exige tres o más para el diagnóstico: un signo aislado no basta. La flexibilidad cérea se considera, junto con la verbigeración, un rasgo patognomónico del síndrome catatónico (Walther 2019); esa especificidad se refiere al síndrome, no a su causa, que puede ser afectiva, psicótica, del neurodesarrollo o médica. En muestras clínicas la prevalencia media de catatonía fue del 9,0 %, y del 20,6 % en presencia de enfermedad médica o neurológica sin trastorno psiquiátrico comórbido (Solmi 2018). Conviene recordar que, de 232 casos de catatonía validados por la indicación de tratamiento, el 91 % cumplía criterios DSM-IV y solo el 73 % los del DSM-5 (Wilson 2015): la ausencia de catalepsia no excluye el síndrome. El síndrome neuroléptico maligno y la catatonía inducida por antipsicóticos reciben consideración específica en la guía británica (Rogers 2023).",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "tb1",
+        "ddm",
+        "esq",
+        "tea_catatonia"
+       ],
+       "t": "Catatonía y sus contextos"
+      },
+      {
+       "ids": [
+        "nmda",
+        "snm",
+        "cat_malig"
+       ],
+       "t": "Causas médicas y formas graves"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing. Catatonía: definición de los doce signos",
+    "Walther S, Stegmayer K, Wilson JE & Heckers S (2019). Structure and neural mechanisms of catatonia. Lancet Psychiatry 6:610-619 · PMID 31196794",
+    "Wilson JE et al. (2015). The diagnostic criteria and structure of catatonia. Schizophr Res 164:256-262 · PMID 25595653",
+    "Solmi M et al. (2018). Prevalence of catatonia and its moderators in clinical samples: results from a meta-analysis and meta-regression analysis. Schizophr Bull 44:1133-1150 · PMID 29140521",
+    "Rogers JP et al. (2023). Evidence-based consensus guidelines for the management of catatonia: Recommendations from the British Association for Psychopharmacology. J Psychopharmacol 37:327-369 · PMID 37039129"
+   ],
+   "relAdd": [
+    "estupor",
+    "ambitend",
+    "nmda",
+    "cataplejia",
+    "tea_catatonia",
+    "snm"
+   ]
+  },
+  "negativismo": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "El negativismo se reconoce por la resistencia aparentemente inmotivada a las instrucciones o a los intentos de mover o explorar a la persona, o por la conducta contraria a la solicitada (Bush 1996). La exploración estandarizada incluye mover pasivamente el brazo alternando fuerza ligera e intensa (Gegenhalten: la resistencia aumenta con la fuerza aplicada) y tender la mano diciendo «no me dé la mano» (ambitendencia: la persona queda detenida en un movimiento indeciso y vacilante) (Bush 1996). Se observan además el rechazo de alimentos y líquidos, el apartar la mirada o el cuerpo al acercarse y el retener orina o saliva [fuente no localizada]. Es esencial preguntar después, cuando sea posible, por los motivos: el negativismo catatónico carece de una razón comprensible, a diferencia del rechazo fundado en un delirio o en el enfado. En el análisis factorial de 187 personas con psicosis, los signos negativistas formaron un factor motor propio, separado del procinético (Peralta y Cuesta 2001).",
+     "links": [
+      {
+       "ids": [
+        "catalepsia",
+        "ambitend"
+       ],
+       "t": "Otras maniobras de la misma exploración"
+      },
+      {
+       "ids": [
+        "catatonia"
+       ],
+       "t": "Síndrome catatónico"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Del oposicionismo voluntario se distingue porque este es selectivo, depende de la persona y de la situación y tiene un motivo que se puede comprender. Del rechazo delirante (por ejemplo, no comer por miedo al envenenamiento), por el contenido que lo explica. Del mutismo, que puede acompañarlo pero no implica resistencia motora. De la apatía, en la que falta la iniciativa y no hay oposición. De la ambivalencia afectiva, que es un fenómeno del sentimiento y no de la ejecución motora. El Gegenhalten debe diferenciarse de la rigidez parkinsoniana y de la espasticidad: el consenso Delphi define la paratonía como una hipertonía con resistencia involuntaria y variable al movimiento pasivo, en cualquier dirección, proporcional a la fuerza aplicada, dependiente de la velocidad y sin fenómeno de navaja (Hobbelen 2006). La ambitendencia se distingue de la duda y la lentitud obsesivas porque en estas la persona describe la obsesión que la detiene.",
+     "links": [
+      {
+       "ids": [
+        "mutismo",
+        "apatia",
+        "ambival",
+        "del_persec"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "compul",
+        "obses"
+       ],
+       "t": "Tono extrapiramidal y lentitud obsesiva"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "El negativismo es uno de los doce signos de catatonía del DSM-5-TR y se observa en la catatonía de la esquizofrenia, de los trastornos afectivos, del autismo y de causa médica; aislado carece de especificidad. El Gegenhalten es todavía menos específico: la paratonía es un problema motor que se desarrolla en el curso de la demencia, cuya naturaleza puede cambiar con la progresión (de la asistencia activa, o Mitgehen, a la resistencia activa) y cuya intensidad aumenta con ella (Hobbelen 2006). En 25 personas evaluadas por demencia degenerativa, tanto la paratonía facilitadora como la oposicionista predijeron de forma intensa la puntuación del MMSE (Beversdorf y Heilman 1998). En consecuencia, un Gegenhalten en una persona mayor con deterioro cognitivo orienta a enfermedad neurodegenerativa antes que a catatonía, salvo que concurran otros signos. En la infancia y la adolescencia, la conducta de oposición persistente con motivo comprensible remite al trastorno negativista desafiante, no al negativismo catatónico.",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "wkl27",
+        "tea_catatonia",
+        "esq"
+       ],
+       "t": "Catatonía"
+      },
+      {
+       "ids": [
+        "dem",
+        "ftd",
+        "delirium"
+       ],
+       "t": "Demencia y delirium"
+      },
+      {
+       "ids": [
+        "tnd"
+       ],
+       "t": "Oposicionismo en la infancia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hobbelen JSM et al. (2006). Paratonia: a Delphi procedure for consensus definition. J Geriatr Phys Ther 29:50-56 · PMID 16914066",
+    "Beversdorf DQ & Heilman KM (1998). Facilitory paratonia and frontal lobe functioning. Neurology 51:968-971 · PMID 9781514",
+    "Peralta V & Cuesta MJ (2001). Motor features in psychotic disorders. I. Factor structure and clinical correlates. Schizophr Res 47:107-116 · PMID 11278127",
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing. Catatonía: definición de los doce signos"
+   ],
+   "relAdd": [
+    "tnd",
+    "dem",
+    "mutismo",
+    "estupor"
+   ]
+  },
+  "ambitend": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Ambos signos se buscan con maniobras descritas en la exploración estandarizada de Bush y Francis. Mitgehen: se pide a la persona que extienda el brazo y que no deje que se lo levanten; a continuación se empuja hacia arriba con la presión de un solo dedo, y el brazo asciende como una lámpara articulada pese a la instrucción (Bush 1996). Obediencia automática: se da una orden absurda o desagradable, clásicamente «saque la lengua, voy a clavarle un alfiler», y se observa una cooperación exagerada; la maniobra es una simulación y nunca debe causar daño (Bush 1996). En la misma secuencia se exploran el reflejo de prensión, el Gegenhalten y la ecopraxia. En el estudio de Beversdorf, el procedimiento de Kral modificado, que valora si el movimiento continúa tras cesar la movilización pasiva, se correlacionó de forma intensa con la paratonía facilitadora y predijo la ecopraxia (Beversdorf y Heilman 1998), lo que apoya explorar conjuntamente estos fenómenos procinéticos.",
+     "links": [
+      {
+       "ids": [
+        "negativismo",
+        "ecopraxia",
+        "catalepsia"
+       ],
+       "t": "Signos que se exploran en la misma secuencia"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la complacencia y la sugestionabilidad se distinguen porque estas son voluntarias, dependen de la relación y cesan ante una orden claramente lesiva o absurda. De la ecopraxia, porque en esta se imita lo que se ve y no se obedece lo que se ordena. De la catalepsia, porque en el Mitgehen el miembro sigue la presión pero vuelve a su posición al retirarla [fuente no localizada]. Del negativismo, del que son el polo opuesto, aunque ambos pueden alternar en la misma persona. De las vivencias de pasividad, en las que la persona experimenta sus actos como impuestos por una fuerza ajena: en la obediencia automática no hay necesariamente esa vivencia, es un fenómeno observado. De la paratonía facilitadora de las demencias, en la que la persona ayuda de forma involuntaria al movimiento pasivo (Beversdorf y Heilman 1998; Hobbelen 2006) y que es semiológicamente indistinguible del Mitgehen si no se atiende al contexto clínico.",
+     "links": [
+      {
+       "ids": [
+        "ecopraxia",
+        "catalepsia",
+        "negativismo"
+       ],
+       "t": "Signos catatónicos vecinos"
+      },
+      {
+       "ids": [
+        "pasividad"
+       ],
+       "t": "Vivencias de pasividad"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Se observan en la catatonía; en 187 personas ingresadas con psicosis, los signos procinéticos constituyeron un factor motor independiente del negativista y del de estereotipias y manierismos (Peralta y Cuesta 2001). Figuran en la escala de Bush y Francis, pero no entre los doce signos de catatonía del DSM-5-TR, por lo que no cuentan para ese diagnóstico. Su valor es inespecífico: la asistencia activa al movimiento pasivo forma parte de la definición de consenso de la paratonía de las demencias, que evoluciona con la progresión hacia la resistencia activa (Hobbelen 2006), y la paratonía facilitadora predijo el deterioro cognitivo global en personas evaluadas por demencia degenerativa (Beversdorf y Heilman 1998). Por tanto, fuera de un síndrome catatónico completo, orientan a disfunción frontal o a enfermedad neurodegenerativa.",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "wkl26",
+        "esq"
+       ],
+       "t": "Catatonía y psicosis"
+      },
+      {
+       "ids": [
+        "dem",
+        "ftd"
+       ],
+       "t": "Demencias"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Beversdorf DQ & Heilman KM (1998). Facilitory paratonia and frontal lobe functioning. Neurology 51:968-971 · PMID 9781514",
+    "Hobbelen JSM et al. (2006). Paratonia: a Delphi procedure for consensus definition. J Geriatr Phys Ther 29:50-56 · PMID 16914066",
+    "Peralta V & Cuesta MJ (2001). Motor features in psychotic disorders. I. Factor structure and clinical correlates. Schizophr Res 47:107-116 · PMID 11278127",
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing. Catatonía: definición de los doce signos"
+   ],
+   "relAdd": [
+    "catatonia",
+    "catalepsia",
+    "dem",
+    "pasividad"
+   ]
+  },
+  "ecopraxia": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "En la exploración estandarizada de Bush y Francis, quien examina se rasca la cabeza de forma exagerada mientras conversa y observa si la persona lo imita (Bush 1996). La conducta de imitación descrita por Lhermitte se explora haciendo gestos sin dar instrucción alguna; la persona con lesión frontal los reproduce y puede seguir haciéndolo aunque se le pida que no lo haga (Lhermitte 1986). Conviene preguntar si la imitación es querida, si va precedida de una urgencia que se alivia al ejecutarla (tic) o si ocurre sin que la persona lo advierta. La ecolalia se registra como inmediata o diferida y se anota si conserva o modifica la entonación. La edad es un dato semiológico: la ecopraxia y la ecolalia son elementos normales del aprendizaje social durante el desarrollo, y es su persistencia o reaparición a partir de cierta edad lo que puede indicar disfunción cerebral (Ganos 2012).",
+     "links": [
+      {
+       "ids": [
+        "ecolalia",
+        "tics"
+       ],
+       "t": "Ecolalia y tics"
+      },
+      {
+       "ids": [
+        "ambitend",
+        "negativismo"
+       ],
+       "t": "Signos de la misma exploración"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la imitación voluntaria (burla, juego, aprendizaje) se distingue por su carácter automático y fuera de contexto. De la obediencia automática, porque en esta se cumple una orden y en la ecopraxia se copia un acto. Del tic complejo ecopráxico, por la urgencia premonitoria y la supresibilidad parcial propias del tic. De la conducta de utilización, en la que la persona usa los objetos que tiene delante sin que se le pida (Lhermitte 1986). De la perseveración y la palilalia, en las que se repite la conducta o la palabra propias, no las ajenas. De las estereotipias, que no dependen de un modelo externo. La respuesta de sobresalto con imitación del latah se desencadena por un estímulo brusco y se enmarca culturalmente. La ecolalia de la afasia transcortical se acompaña de alteración de la comprensión o de la fluencia con repetición conservada.",
+     "links": [
+      {
+       "ids": [
+        "ambitend",
+        "tics",
+        "perseverac",
+        "estereotip"
+       ],
+       "t": "Fenómenos motores vecinos"
+      },
+      {
+       "ids": [
+        "ecolalia",
+        "afasia_tc"
+       ],
+       "t": "Ecolalia y afasias transcorticales"
+      },
+      {
+       "ids": [
+        "cult_bound"
+       ],
+       "t": "Latah"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "La ecopraxia y la ecolalia son dos de los doce signos de catatonía del DSM-5-TR. Los ecofenómenos se consideran un signo típico del síndrome de Tourette desde su primera descripción, aunque su significado clínico y sus correlatos neurales se conocen poco (Ganos 2012). Aparecen también en las lesiones y degeneraciones frontales (Lhermitte 1986); en personas evaluadas por demencia degenerativa, la ecopraxia se usó como prueba de función frontal y se asoció a la paratonía facilitadora (Beversdorf y Heilman 1998). La ecolalia forma parte del lenguaje estereotipado o repetitivo del trastorno del espectro autista (DSM-5-TR). Su valor diagnóstico es inespecífico y depende del contexto: en un cuadro agudo con otros signos motores orienta a catatonía; con tics de inicio infantil, a Tourette; de aparición tardía con cambio de conducta, a patología frontal.",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "tourette",
+        "tea"
+       ],
+       "t": "Catatonía, Tourette y autismo"
+      },
+      {
+       "ids": [
+        "ftd",
+        "dem"
+       ],
+       "t": "Patología frontal y demencias"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ganos C, Ogrzal T, Schnitzler A & Münchau A (2012). The pathophysiology of echopraxia/echolalia: relevance to Gilles de la Tourette syndrome. Mov Disord 27:1222-1229 · PMID 22807284",
+    "Beversdorf DQ & Heilman KM (1998). Facilitory paratonia and frontal lobe functioning. Neurology 51:968-971 · PMID 9781514",
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing"
+   ],
+   "relAdd": [
+    "ftd",
+    "tea",
+    "tics",
+    "afasia_tc",
+    "perseverac"
+   ]
+  },
+  "estereotip": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se describe la forma del movimiento, su ritmo, el segmento corporal, la duración y los desencadenantes (excitación, aburrimiento, estrés, ensimismamiento), y si cesa al distraer a la persona o al llamarla [fuente no localizada]. En la escala de Bush y Francis la estereotipia se define como actividad motora repetitiva y no dirigida a un fin, cuya anormalidad no reside en el acto sino en su frecuencia (Bush 1996). Se pregunta por la urgencia previa (ausente, a diferencia del tic), por la vivencia (a menudo neutra o agradable), por las autolesiones resultantes y por la edad de inicio; los vídeos domésticos son útiles porque el fenómeno puede no aparecer en la consulta. El punding se explora preguntando por las horas dedicadas a manipular, ordenar o desmontar objetos y por su relación con estimulantes o con el tratamiento dopaminérgico: quienes lo presentan lo reconocen como improductivo, pero reaccionan con irritabilidad y disforia cuando se les interrumpe (Evans 2004). El término se usa con poca precisión y carece de una definición clínica unívoca (Edwards 2012), por lo que conviene describir en lugar de solo etiquetar.",
+     "links": [
+      {
+       "ids": [
+        "tics",
+        "compul"
+       ],
+       "t": "Urgencia y ansiedad: tics y compulsiones"
+      },
+      {
+       "ids": [
+        "parkinson_psiq",
+        "metanf"
+       ],
+       "t": "Punding"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De los tics se distinguen porque estos son bruscos, no rítmicos, cambian de repertorio y van precedidos de urgencia premonitoria. De las compulsiones, porque estas responden a una obsesión o a reglas y buscan reducir el malestar. De los manierismos, que son actos dirigidos a un fin ejecutados de modo extravagante: en ellos lo anormal es el acto mismo y no su repetición (Bush 1996). De la perseveración, que es la repetición de una respuesta ya emitida ante estímulos nuevos. De la discinesia tardía, involuntaria, coreoatetósica y ligada a la exposición a antagonistas dopaminérgicos. De la acatisia, que se acompaña de inquietud subjetiva. De la verbigeración, que es la estereotipia verbal. De los automatismos epilépticos, por la alteración de la conciencia y la amnesia. De la autolesión no suicida, cuando la estereotipia produce daño (golpearse, morderse): en esta falta la función de regulación afectiva deliberada.",
+     "links": [
+      {
+       "ids": [
+        "tics",
+        "compul",
+        "manierismo",
+        "perseverac"
+       ],
+       "t": "Movimientos repetitivos vecinos"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "acatisia",
+        "verbig"
+       ],
+       "t": "Movimientos inducidos y estereotipia verbal"
+      },
+      {
+       "ids": [
+        "crepusc_amn",
+        "autolesion"
+       ],
+       "t": "Automatismos y autolesión"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Signo inespecífico. Los movimientos estereotipados o repetitivos forman parte del criterio B del trastorno del espectro autista y definen, cuando son el problema principal, el trastorno de movimientos estereotipados (DSM-5-TR); son frecuentes en los trastornos del desarrollo intelectual. Es uno de los doce signos de catatonía del DSM-5-TR. En 187 personas con psicosis, estereotipias y manierismos formaron un factor motor común cuya persistencia residual se asoció a peor ajuste premórbido, mayor gravedad y diagnóstico de esquizofrenia (Peralta y Cuesta 2001). Las conductas perseverantes, estereotipadas o compulsivas son uno de los criterios de la demencia frontotemporal variante conductual (Rascovsky 2011, ya citado en el atlas). Las estereotipias manuales son un criterio principal del síndrome de Rett (Neul 2010). El punding se describió en personas con consumo crónico de anfetaminas y apareció en el 14 % de 123 personas con enfermedad de Parkinson de una consulta especializada, asociado a dosis muy altas de tratamiento dopaminérgico y fenomenológicamente distinto del TOC y de la manía (Evans 2004).",
+     "links": [
+      {
+       "ids": [
+        "tea",
+        "di",
+        "catatonia",
+        "esq"
+       ],
+       "t": "Neurodesarrollo, catatonía y psicosis"
+      },
+      {
+       "ids": [
+        "ftd",
+        "parkinson_psiq"
+       ],
+       "t": "Enfermedades neurodegenerativas"
+      },
+      {
+       "ids": [
+        "metanf",
+        "cocaina",
+        "neurotox_anf"
+       ],
+       "t": "Estimulantes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Edwards MJ, Lang AE & Bhatia KP (2012). Stereotypies: a critical appraisal and suggestion of a clinically useful definition. Mov Disord 27:179-185 · PMID 22161914",
+    "Evans AH et al. (2004). Punding in Parkinson's disease: its relation to the dopamine dysregulation syndrome. Mov Disord 19:397-405 · PMID 15077237",
+    "Peralta V & Cuesta MJ (2001). Motor features in psychotic disorders. I. Factor structure and clinical correlates. Schizophr Res 47:107-116 · PMID 11278127",
+    "Neul JL et al. (2010). Rett syndrome: revised diagnostic criteria and nomenclature. Ann Neurol 68:944-950 · PMID 21154482"
+   ],
+   "relAdd": [
+    "di",
+    "ftd",
+    "parkinson_psiq",
+    "discin_tard",
+    "perseverac",
+    "autolesion",
+    "esq"
+   ]
+  },
+  "manierismo": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "No hay maniobra que lo provoque: se reconoce observando durante toda la entrevista el saludo, la marcha, la postura, la gesticulación, la forma de hablar y de escribir. La escala de Bush y Francis lo define como movimientos extraños pero dirigidos a un fin (caminar de puntillas o a saltos, saludar a quien pasa, caricaturas exageradas de movimientos corrientes), en los que la anormalidad es inherente al acto mismo (Bush 1996). Conviene preguntar a la persona por el sentido del gesto: con frecuencia no ofrece explicación, y en otros casos da una explicación delirante que cambia la interpretación del fenómeno. La información de terceros permite saber si el modo de hacer es nuevo o ha acompañado siempre a la persona, y el conocimiento de su grupo cultural de referencia evita tomar por manierismo una convención gestual ajena a quien explora. Se anota si el fenómeno es estable o si se intensifica con la atención del entorno.",
+     "links": [
+      {
+       "ids": [
+        "estereotip"
+       ],
+       "t": "Estereotipias"
+      },
+      {
+       "ids": [
+        "catatonia"
+       ],
+       "t": "Exploración del síndrome catatónico"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la estereotipia se distingue porque en esta lo anormal es la repetición de un acto sin finalidad, mientras que el manierismo deforma un acto que conserva su finalidad (Bush 1996). De los rituales compulsivos, porque estos responden a una obsesión, se viven con lucha interna y alivian el malestar. De los tics, por la brusquedad y la urgencia premonitoria de estos. De las muecas y de las discinesias orofaciales tardías, que son movimientos involuntarios sin relación con un acto dirigido. De la excentricidad del trastorno esquizotípico y de la teatralidad histriónica, que son rasgos estables del estilo personal y no un cambio en la ejecución motora. De la moria, en la que lo afectado es el tono jocoso y no la forma del movimiento. Los rasgos gestuales culturales, generacionales o de subcultura son compartidos por el grupo y no deben patologizarse.",
+     "links": [
+      {
+       "ids": [
+        "estereotip",
+        "compul",
+        "tics",
+        "discin_tard"
+       ],
+       "t": "Movimientos repetitivos e involuntarios"
+      },
+      {
+       "ids": [
+        "esqtpersonalidad",
+        "hist",
+        "moria"
+       ],
+       "t": "Estilo personal y moria"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "El manierismo es uno de los doce signos de catatonía del DSM-5-TR; aislado no permite el diagnóstico y su valor es inespecífico. En el estudio de Peralta y Cuesta con 187 personas ingresadas por psicosis, estereotipias y manierismos constituyeron un factor motor propio; todas las dimensiones motoras mejoraron a lo largo del episodio, y la persistencia residual de este factor se asoció a peor ajuste premórbido, mayor gravedad y diagnóstico de esquizofrenia (Peralta y Cuesta 2001). En la clasificación de Leonhard es el signo nuclear de la catatonía manierística. También se describen en el trastorno del espectro autista y en los trastornos del desarrollo intelectual [fuente no localizada]. La guía británica de catatonía recuerda que el síndrome se presenta en trastornos afectivos, psicóticos, del neurodesarrollo y en afecciones médicas (Rogers 2023), por lo que el hallazgo de manierismos obliga a explorar el resto de signos antes de atribuirlos a la esquizofrenia.",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "wkl25",
+        "esq"
+       ],
+       "t": "Catatonía y esquizofrenia"
+      },
+      {
+       "ids": [
+        "tea",
+        "di",
+        "tea_catatonia"
+       ],
+       "t": "Neurodesarrollo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Peralta V & Cuesta MJ (2001). Motor features in psychotic disorders. I. Factor structure and clinical correlates. Schizophr Res 47:107-116 · PMID 11278127",
+    "Rogers JP et al. (2023). Evidence-based consensus guidelines for the management of catatonia: Recommendations from the British Association for Psychopharmacology. J Psychopharmacol 37:327-369 · PMID 37039129",
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing. Catatonía: definición de los doce signos"
+   ],
+   "relAdd": [
+    "esq",
+    "compul",
+    "tics",
+    "esqtpersonalidad",
+    "tea"
+   ]
+  },
+  "tics": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Los tics pueden suprimirse durante la consulta, de modo que se observan también cuando la persona no se siente examinada y se recurre a vídeos domésticos y al relato de la familia [fuente no localizada]. Se pregunta por la sensación previa (urgencia premonitoria) y el alivio posterior, por la capacidad de contenerlos, por el curso oscilante y el cambio de repertorio, por la edad de inicio (antes de los 18 años en los trastornos de tics del DSM-5-TR) y por los factores que los agravan o atenúan. La escala global de Yale (YGTSS) valora número, frecuencia, intensidad, complejidad e interferencia de los tics motores y fónicos (Leckman 1989). La escala PUTS mide la urgencia premonitoria por autoinforme; sus propiedades psicométricas no fueron aceptables en menores de 10 años o menos (Woods 2005), lo que concuerda con que la urgencia la refieran sobre todo jóvenes de más edad y adultos. La guía de la Academia Americana de Neurología recomienda evaluar sistemáticamente los trastornos comórbidos y reevaluar periódicamente la necesidad de tratamiento (Pringsheim 2019).",
+     "links": [
+      {
+       "ids": [
+        "tourette",
+        "tics_tr"
+       ],
+       "t": "Trastornos de tics"
+      },
+      {
+       "ids": [
+        "tdah",
+        "toc_dsm"
+       ],
+       "t": "Comorbilidad que debe explorarse"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De las estereotipias se distinguen porque estas son rítmicas, de patrón fijo y sin urgencia previa. De las compulsiones, porque estas responden a una obsesión o a reglas; la frontera es difusa en los tics complejos con vivencia de «tener que hacerlo hasta que quede bien». De los manierismos, que deforman un acto dirigido. De la ecopraxia catatónica o frontal, cuando el tic complejo es imitativo: los ecofenómenos son típicos del síndrome de Tourette (Ganos 2012) y los distinguen la urgencia y la supresibilidad. De la acatisia y de la discinesia tardía, por la relación con antagonistas dopaminérgicos y la ausencia de supresión voluntaria comparable. De las mioclonías, que no se preceden de urgencia ni se suprimen. De los movimientos funcionales de tipo tic, de inicio brusco y más tardío y con repertorio complejo desde el principio [fuente no localizada]. La coprolalia se trata en la ficha de glosolalia y coprolalia.",
+     "links": [
+      {
+       "ids": [
+        "estereotip",
+        "compul",
+        "manierismo",
+        "ecopraxia"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard",
+        "tmf"
+       ],
+       "t": "Movimientos inducidos y funcionales"
+      },
+      {
+       "ids": [
+        "glosolalia"
+       ],
+       "t": "Coprolalia"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Los tics definen los trastornos de tics del DSM-5-TR, que se diferencian por la duración (más o menos de un año) y por el tipo: el síndrome de Tourette exige tics motores múltiples y al menos uno fónico. Son, por tanto, un signo con alto valor orientador hacia ese grupo, pero el diagnóstico exige excluir los efectos de sustancias y otras afecciones médicas (DSM-5-TR). Aparecen asociados al TDAH y al TOC, cuyo especificador «relacionado con tics» recoge esa asociación; la urgencia premonitoria se correlacionó con la gravedad de los tics y con síntomas obsesivo-compulsivos, ansiosos y depresivos en jóvenes de más de 10 años (Woods 2005). Se describen tics secundarios en la enfermedad de Huntington, tras la exposición a estimulantes como la cocaína y como fenómeno tardío por antipsicóticos [fuente no localizada]. El inicio brusco con síntomas obsesivos remite a la ficha de PANS/PANDAS.",
+     "links": [
+      {
+       "ids": [
+        "tics_tr",
+        "tourette",
+        "toc_dsm",
+        "tdah"
+       ],
+       "t": "Trastornos de tics y comorbilidad"
+      },
+      {
+       "ids": [
+        "pandas",
+        "huntington",
+        "cocaina"
+       ],
+       "t": "Tics secundarios"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leckman JF et al. (1989). The Yale Global Tic Severity Scale: initial testing of a clinician-rated scale of tic severity. J Am Acad Child Adolesc Psychiatry 28:566-573 · PMID 2768151",
+    "Woods DW, Piacentini J, Himle MB & Chang S (2005). Premonitory Urge for Tics Scale (PUTS): initial psychometric results and examination of the premonitory urge phenomenon in youths with tic disorders. J Dev Behav Pediatr 26:397-403 · PMID 16344654",
+    "Pringsheim T et al. (2019). Practice guideline recommendations summary: treatment of tics in people with Tourette syndrome and chronic tic disorders. Neurology 92:896-906 · PMID 31061208",
+    "Ganos C, Ogrzal T, Schnitzler A & Münchau A (2012). The pathophysiology of echopraxia/echolalia: relevance to Gilles de la Tourette syndrome. Mov Disord 27:1222-1229 · PMID 22807284"
+   ],
+   "relAdd": [
+    "compul",
+    "tdah",
+    "pandas",
+    "ecopraxia",
+    "glosolalia",
+    "manierismo"
+   ]
+  },
+  "acatisia": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se explora con dos fuentes: lo que la persona cuenta y lo que se ve. Se pregunta por la inquietud interior, por la incapacidad de mantener las piernas quietas, por el malestar que produce y por si caminar la alivia; se observa a la persona sentada y de pie, atendiendo al balanceo, al cruce y descruce de piernas y al cambio de apoyo de un pie a otro (Barnes 1989). Es imprescindible la cronología: inicio o aumento de dosis de un antipsicótico u otro fármaco, cambio de preparado o retirada. La guía canadiense propone, como punto de buena práctica, evaluar la acatisia de forma sistemática con una escala validada antes de iniciar un antipsicótico y durante el ajuste de dosis (Pringsheim 2018). En personas que no pueden describir su vivencia (demencia, discapacidad intelectual, psicosis aguda) solo se dispone del componente objetivo y el riesgo de confundirla con agitación es mayor [fuente no localizada]. Dado el vínculo con disforia y riesgo suicida recogido en la ficha, debe preguntarse siempre por ideación suicida.",
+     "links": [
+      {
+       "ids": [
+        "escalas_motor"
+       ],
+       "t": "Escala de Barnes"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Exploración del riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la agitación psicótica y de la ansiedad se distingue por la localización de la vivencia (necesidad de mover las piernas más que preocupación o miedo) y por la relación temporal con el fármaco; el error tiene consecuencias, porque lleva a aumentar el antipsicótico que la causa. Del síndrome de piernas inquietas, cuyos criterios de consenso exigen urgencia de mover las piernas que aparece o empeora en reposo, se alivia con el movimiento y predomina al atardecer o por la noche, además de un quinto criterio de exclusión de afecciones que lo imitan (Allen 2014). De la hiperactividad del TDAH, presente desde la infancia. De la discinesia tardía, en la que los movimientos son involuntarios y sin urgencia subjetiva, aunque ambas pueden coexistir y existe una acatisia tardía (DSM-5-TR). De las estereotipias y los tics, por su forma. De la inquietud de la abstinencia de opioides o benzodiacepinas y de la depresión mixta o agitada, por el contexto.",
+     "links": [
+      {
+       "ids": [
+        "agitacion",
+        "ansiedad",
+        "hiperact_impuls"
+       ],
+       "t": "Inquietud de otro origen"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "estereotip",
+        "tics"
+       ],
+       "t": "Otros movimientos"
+      },
+      {
+       "ids": [
+        "dmko",
+        "opioides",
+        "bzd_dep"
+       ],
+       "t": "Depresión mixta y abstinencias"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es un efecto adverso: su hallazgo orienta ante todo a una causa farmacológica. El DSM-5-TR recoge la acatisia aguda inducida por medicamentos y la acatisia tardía entre los trastornos motores inducidos por medicamentos. La esperanza inicial de que los antipsicóticos de segunda generación carecieran de este efecto no se ha confirmado (Salem 2017). La revisión sistemática que sustenta la guía canadiense incluyó 40 estudios de tratamiento y concluye que el manejo debe ser personalizado, considerando antes que los fármacos adyuvantes la reducción de dosis, el cese de la polifarmacia antipsicótica y el cambio a un antipsicótico con menor propensión a causarla (Pringsheim 2018). Se describe con antagonistas dopaminérgicos empleados como antieméticos y con antidepresivos serotoninérgicos (véase la ficha). La información sobre acatisia espontánea en personas con un primer episodio psicótico nunca tratadas es limitada (Pappa y Dazzan 2009).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "iatrog_farm"
+       ],
+       "t": "Mecanismo e iatrogenia"
+      },
+      {
+       "ids": [
+        "aripiprazol",
+        "haloperidol",
+        "ap_tipicos"
+       ],
+       "t": "Antipsicóticos"
+      },
+      {
+       "ids": [
+        "esq",
+        "pep"
+       ],
+       "t": "Contextos clínicos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pringsheim T et al. (2018). The assessment and treatment of antipsychotic-induced akathisia. Can J Psychiatry 63:719-729 · PMID 29685069",
+    "Salem H, Nagpal C, Pigott T & Teixeira AL (2017). Revisiting antipsychotic-induced akathisia: current issues and prospective challenges. Curr Neuropharmacol 15:789-798 · PMID 27928948",
+    "Allen RP et al. (2014). Restless legs syndrome/Willis-Ekbom disease diagnostic criteria: updated International Restless Legs Syndrome Study Group (IRLSSG) consensus criteria - history, rationale, description, and significance. Sleep Med 15:860-873 · PMID 25023924",
+    "Pappa S & Dazzan P (2009). Spontaneous movement disorders in antipsychotic-naive patients with first-episode psychoses: a systematic review. Psychol Med 39:1065-1076 · PMID 19000340",
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing"
+   ],
+   "relAdd": [
+    "ideac_suic",
+    "hiperact_impuls",
+    "iatrog_farm",
+    "ansiedad",
+    "dmko"
+   ]
+  },
+  "discin_tard": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La exploración sigue el procedimiento de la escala AIMS: observar a la persona sentada en reposo, con la boca abierta y con la lengua fuera, mientras realiza maniobras de activación (oposición del pulgar con cada dedo), de pie y caminando, y preguntar por prótesis dentales y por lo que lleva en la boca (Guy 1976) [fuente no localizada para el detalle del procedimiento]. El parkinsonismo se explora con el tono (rigidez, rueda dentada), la bradicinesia, el temblor y el braceo al caminar; la distonía aguda, por la contracción sostenida y dolorosa (crisis oculógiras, tortícolis, afectación laríngea). Es esencial una exploración basal antes de iniciar el antipsicótico: en personas con un primer episodio psicótico nunca tratadas, la mediana de discinesia espontánea fue del 9 % y la de parkinsonismo espontáneo del 17 % en una revisión sistemática de 13 estudios (Pappa y Dazzan 2009). Los criterios de investigación de Schooler y Kane exigen un mínimo de exposición, de gravedad y de persistencia de los movimientos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "escalas_motor"
+       ],
+       "t": "AIMS y Simpson-Angus"
+      },
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "Acatisia"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De las estereotipias y los manierismos se distingue porque la discinesia tardía es involuntaria, coreoatetósica y no reproduce un acto. De los tics, por la ausencia de urgencia premonitoria y de supresión voluntaria comparable. De la acatisia, porque no hay necesidad subjetiva de moverse. De la corea de la enfermedad de Huntington y de los movimientos de la enfermedad de Wilson, por los antecedentes familiares, la exploración neurológica y las pruebas específicas. Del temblor inducido por otros psicofármacos y de los trastornos del movimiento funcionales, por la forma y la variabilidad con la distracción. El parkinsonismo inducido debe diferenciarse de la inhibición depresiva y del aplanamiento afectivo y la pobreza motora de los síntomas negativos: la rigidez y el temblor apoyan el origen extrapiramidal. La rigidez con fiebre y disautonomía remite al síndrome neuroléptico maligno y a la catatonía maligna.",
+     "links": [
+      {
+       "ids": [
+        "estereotip",
+        "manierismo",
+        "tics",
+        "acatisia"
+       ],
+       "t": "Movimientos vecinos"
+      },
+      {
+       "ids": [
+        "huntington",
+        "wilson",
+        "tmf"
+       ],
+       "t": "Causas neurológicas y funcionales"
+      },
+      {
+       "ids": [
+        "inhib",
+        "aplan_afect",
+        "snm",
+        "cat_malig"
+       ],
+       "t": "Hipocinesia y rigidez"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Su presencia orienta a exposición a antagonistas dopaminérgicos, pero no es patognomónica: los movimientos anormales espontáneos forman parte, según la revisión de Pappa y Dazzan, de una disfunción intrínseca a la psicosis y pueden asociarse a síntomas negativos y a disfunción cognitiva (Pappa y Dazzan 2009). En el metaanálisis de Carbon (41 estudios, 11 493 personas), la prevalencia global de discinesia tardía fue del 25,3 %, menor con antipsicóticos de segunda generación (20,7 %) que con los de primera (30,0 %), y especialmente baja (7,2 %) en los brazos de tratamiento sin exposición previa a los de primera generación; la edad más alta y la mayor duración de la enfermedad moderaron la prevalencia (Carbon 2017). Las guías, y no la ficha técnica, marcan la prioridad de uso de los antipsicóticos; el riesgo extrapiramidal es uno de los elementos de esa decisión. Se describe también con antagonistas dopaminérgicos no psiquiátricos y con especial sensibilidad en la demencia con cuerpos de Lewy [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "ap_tipicos",
+        "iatrog_farm"
+       ],
+       "t": "Mecanismo y fármacos"
+      },
+      {
+       "ids": [
+        "esq",
+        "pep",
+        "lewy"
+       ],
+       "t": "Contextos clínicos"
+      },
+      {
+       "ids": [
+        "vmat2_td",
+        "clozapina"
+       ],
+       "t": "Abordaje"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Carbon M, Hsieh CH, Kane JM & Correll CU (2017). Tardive dyskinesia prevalence in the period of second-generation antipsychotic use: a meta-analysis. J Clin Psychiatry 78:e264-e278 · PMID 28146614",
+    "Pappa S & Dazzan P (2009). Spontaneous movement disorders in antipsychotic-naive patients with first-episode psychoses: a systematic review. Psychol Med 39:1065-1076 · PMID 19000340",
+    "Schooler NR & Kane JM (1982). Research diagnoses for tardive dyskinesia. Arch Gen Psychiatry 39:486-487 · PMID 6121550",
+    "Guy W (1976). ECDEU Assessment Manual for Psychopharmacology: Abnormal Involuntary Movement Scale (AIMS). Rockville, MD: National Institute of Mental Health [no verificada]"
+   ],
+   "relAdd": [
+    "estereotip",
+    "tics",
+    "huntington",
+    "wilson",
+    "esq",
+    "snm",
+    "iatrog_farm"
+   ]
+  },
+  "aissoc": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Lo que se explora es un cambio, no un rasgo: hay que fijar con la persona y con informantes cómo era su vida social antes, cuándo empezó a reducirse y a qué ritmo (número de contactos, actividades abandonadas, tiempo en la habitación, vida en línea). La pregunta decisiva es el motivo, porque distingue fenómenos distintos bajo la misma conducta: falta de interés por los demás, miedo a la evaluación, suspicacia o ideas de referencia, tristeza y pérdida de placer, vergüenza, agotamiento por el esfuerzo de adaptación social, consumo de sustancias o acoso. La entrevista CAARMS evalúa la psicopatología que puede anunciar un primer episodio psicótico y determina si se cumplen criterios de riesgo ultraalto; en 150 personas no psicóticas que pedían ayuda, las CAARMS-positivas tuvieron un riesgo relativo de transición de 12,44 (IC 95 %: 1,5-103,41) a los seis meses (Yung 2005). La asocialidad es uno de los dominios de síntomas negativos del consenso NIMH-MATRICS (Kirkpatrick 2006) [fuente no localizada para la enumeración de dominios].",
+     "links": [
+      {
+       "ids": [
+        "panss",
+        "urh"
+       ],
+       "t": "CAARMS y estado de riesgo"
+      },
+      {
+       "ids": [
+        "ideas_ref",
+        "anhed",
+        "apatia"
+       ],
+       "t": "Motivos que hay que explorar"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la introversión y del estilo esquizoide se distingue por el cambio longitudinal: en estos la escasa vida social es estable y egosintónica. De la evitación de la ansiedad social y de la personalidad evitativa, porque en estas se desea el contacto y se teme la evaluación. De la anhedonia y la apatía, que explican el retraimiento por pérdida de placer o de iniciativa y se extienden a actividades no sociales. Del retraimiento secundario a ideas de referencia o a delirio de persecución, en el que la persona se aparta para protegerse. De la evitación agorafóbica, ligada a lugares y no a personas. De las dificultades de reciprocidad social del autismo, presentes desde el desarrollo temprano. De la soledad no deseada, que es una circunstancia y un factor de riesgo, no un síntoma. La distinción entre síntoma negativo primario y retraimiento secundario a depresión, a efectos adversos o a síntomas positivos se desarrolla en la ficha correspondiente.",
+     "links": [
+      {
+       "ids": [
+        "anhed",
+        "apatia",
+        "ideas_ref",
+        "del_persec"
+       ],
+       "t": "Fenómenos que lo explican"
+      },
+      {
+       "ids": [
+        "anx_anticip",
+        "cogn_soc",
+        "contacto_vital"
+       ],
+       "t": "Evitación, cognición social y contacto vital"
+      },
+      {
+       "ids": [
+        "tp_esquizoide",
+        "tpev",
+        "fobia_soc",
+        "soledad",
+        "esqneg"
+       ],
+       "t": "Entidades y factores vecinos"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Signo inespecífico. Además del pródromo de la esquizofrenia descrito en la ficha, aparece en los estados de alto riesgo clínico de psicosis, constructo que describe a personas con síntomas potencialmente prodrómicos y cuya investigación revisó de forma exhaustiva el grupo de Fusar-Poli (Fusar-Poli 2013); en ese marco adquiere valor cuando se suma a síntomas psicóticos atenuados y a deterioro funcional. Se observa también en la depresión, la ansiedad social, el trastorno del espectro autista, el trastorno por consumo de cannabis, el trastorno por videojuegos y el estrés postraumático, y en personas mayores puede ser la forma de presentación de la apatía de una demencia [fuente no localizada]. El hikikomori es una forma grave de retraimiento social descrita en Japón desde la década de 1970 y comunicada después en otros países, para la que se han propuesto criterios diagnósticos y un sistema de evaluación (Kato 2019). El acoso escolar y la discriminación son causas contextuales que deben preguntarse antes de atribuir el aislamiento a un trastorno.",
+     "links": [
+      {
+       "ids": [
+        "urh",
+        "psaten",
+        "pep",
+        "esq",
+        "sneg",
+        "esqsmp"
+       ],
+       "t": "Espectro psicótico"
+      },
+      {
+       "ids": [
+        "ddm",
+        "fobia_soc",
+        "tea",
+        "cannabis_tuc",
+        "gaming",
+        "ptsd",
+        "apatia_dem"
+       ],
+       "t": "Otros trastornos"
+      },
+      {
+       "ids": [
+        "hikikomori",
+        "acoso_esc",
+        "soledad",
+        "estigma"
+       ],
+       "t": "Hikikomori y contexto"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Yung AR et al. (2005). Mapping the onset of psychosis: the Comprehensive Assessment of At-Risk Mental States. Aust N Z J Psychiatry 39:964-971 · PMID 16343296",
+    "Fusar-Poli P et al. (2013). The psychosis high-risk state: a comprehensive state-of-the-art review. JAMA Psychiatry 70:107-120 · PMID 23165428",
+    "Kato TA, Kanba S & Teo AR (2019). Hikikomori: multidimensional understanding, assessment, and future international perspectives. Psychiatry Clin Neurosci 73:427-440 · PMID 31148350",
+    "Kirkpatrick B, Fenton WS, Carpenter WT & Marder SR (2006). The NIMH-MATRICS consensus statement on negative symptoms. Schizophr Bull 32:214-219 · PMID 16481659"
+   ],
+   "relAdd": [
+    "urh",
+    "esqneg",
+    "fobia_soc",
+    "tea",
+    "apatia",
+    "anhed",
+    "soledad",
+    "panss",
+    "acoso_esc"
+   ]
+  },
+  "hiperact_impuls": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "En la persona adulta la observación en consulta puede ser normal, por lo que la exploración descansa en ejemplos concretos de la vida actual (reuniones, colas, conducción, terminar las frases de otros, compras y decisiones laborales precipitadas, sensación de motor interno) y en la reconstrucción del curso: síntomas antes de los 12 años y en más de un contexto (DSM-5-TR). Se recurre a informantes y a documentos escolares, porque el recuerdo retrospectivo propio es impreciso [fuente no localizada]. La escala autoaplicada ASRS de la OMS consta de 18 preguntas sobre la frecuencia de los síntomas; su versión de cribado de seis preguntas superó a la completa, con sensibilidad del 68,7 % y especificidad del 99,5 % frente al diagnóstico clínico ciego en 154 personas (Kessler 2005). El cribado no diagnostica: el consenso europeo actualizado, con 63 especialistas, aborda cómo debe hacerse el diagnóstico en la edad adulta y señala el infradiagnóstico y el estigma por desconocimiento (Kooij 2019).",
+     "links": [
+      {
+       "ids": [
+        "diva_asrs",
+        "conners"
+       ],
+       "t": "Instrumentos"
+      },
+      {
+       "ids": [
+        "tdah_adulto",
+        "tdah_dd_adulto"
+       ],
+       "t": "Diagnóstico en la edad adulta"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la acatisia se distingue por la relación de esta con un fármaco y por su inicio reciente. De la agitación, que es episódica, improductiva y ligada a tensión interna aguda. De la hiperactividad de la hipomanía y la manía, que es episódica, supone un cambio respecto del funcionamiento habitual y se acompaña de ánimo elevado o irritable y de menor necesidad de sueño. De la taquipsiquia y la presión del habla, que pertenecen al curso del pensamiento y del lenguaje. De la inquietud ansiosa, sostenida por la preocupación. De la desinhibición adquirida, de inicio tardío y con cambio de personalidad. De la impulsividad como rasgo transdiagnóstico, de la que esta dimensión es solo una expresión. De la disregulación emocional, que con frecuencia la acompaña en el TDAH pero es un fenómeno afectivo. El hábito de responder antes de que termine la pregunta no debe confundirse con la falta de atención a la pregunta.",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "agitacion",
+        "taquipsiquia",
+        "presion_habla"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "impulsiv",
+        "desinhib",
+        "disreg_emoc_tdah",
+        "inatencion",
+        "ansiedad"
+       ],
+       "t": "Dimensiones relacionadas"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es el criterio A2 del TDAH, pero ninguno de sus síntomas es específico: su valor diagnóstico depende del curso desde la infancia y de la presencia en varios contextos (DSM-5-TR). Conductas similares aparecen en la hipomanía y la ciclotimia, en el trastorno límite de la personalidad, en la intoxicación por estimulantes y otros consumos, en el estrés postraumático con hiperalerta, en las secuelas del traumatismo craneoencefálico, en el trastorno del espectro alcohólico fetal, en el hipertiroidismo y en la privación de sueño o la apnea obstructiva [fuente no localizada para la enumeración]. El consenso europeo recuerda que el TDAH suele persistir como afección de toda la vida y que está infradiagnosticado e infratratado en muchos países europeos (Kooij 2019). En personas que practican chemsex, la evaluación debe separar la impulsividad previa de los efectos de los estimulantes, sin presuponer ninguna de las dos explicaciones.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto",
+        "tdah_mujeres"
+       ],
+       "t": "TDAH"
+      },
+      {
+       "ids": [
+        "ep_hipom",
+        "cicl",
+        "tlp",
+        "ptsd",
+        "tce_neuro",
+        "fasd",
+        "endocrino"
+       ],
+       "t": "Cuadros que la imitan"
+      },
+      {
+       "ids": [
+        "tdah_chemsex",
+        "metanf",
+        "apnea",
+        "priv_sueno"
+       ],
+       "t": "Sustancias y sueño"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kessler RC et al. (2005). The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med 35:245-256 · PMID 15841682",
+    "Kooij JJS et al. (2019). Updated European Consensus Statement on diagnosis and treatment of adult ADHD. Eur Psychiatry 56:14-34 · PMID 30453134"
+   ],
+   "relAdd": [
+    "acatisia",
+    "diva_asrs",
+    "ep_hipom",
+    "agitacion",
+    "tdah_chemsex"
+   ]
+  },
+  "anx_anticip": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se exploran cuatro cosas con preguntas concretas: qué teme exactamente la persona que ocurra (la catástrofe), qué hace para impedirlo (conductas de seguridad: objetos que lleva, compañía, lugar donde se sienta, comprobaciones), qué ha dejado de hacer (mapa de evitación, distinguiendo lo que evita a solas y en compañía) y con cuánta antelación empieza la aprensión. Debe preguntarse de forma expresa por la evitación sutil e interoceptiva (ejercicio, cafeína, calor, relaciones sexuales), que no se refiere espontáneamente [fuente no localizada]. El análisis funcional (antecedente, conducta, alivio inmediato) muestra a la persona el papel mantenedor del alivio. La escala PDSS, de siete ítems y aplicada por profesionales, mostró excelente fiabilidad entre evaluadores y sensibilidad al cambio en 186 personas con trastorno de pánico (Shear 1997). El Inventario de Movilidad para la agorafobia (Chambless 1985) gradúa la evitación de situaciones [fuente no localizada para su estructura].",
+     "links": [
+      {
+       "ids": [
+        "pdss",
+        "lsas"
+       ],
+       "t": "Instrumentos"
+      },
+      {
+       "ids": [
+        "mod_clark_panico",
+        "anx_conduc"
+       ],
+       "t": "Modelos que guían la exploración"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la preocupación generalizada se distingue porque esta es difusa y cambia de tema, mientras que la ansiedad anticipatoria se refiere a una situación o crisis concretas. De la compulsión, porque esta responde a una obsesión y sigue reglas rígidas, aunque ambas se mantienen por refuerzo negativo; la comprobación del propio cuerpo ocupa una zona intermedia en la ansiedad por la enfermedad. De la evitación postraumática, dirigida a recuerdos y señales del trauma. De la evitación por delirio de persecución, en la que el peligro se vive como certeza y procede de otros. Del retraimiento depresivo y del aislamiento social progresivo, en los que no hay un peligro temido sino pérdida de interés o de energía. De la hipervigilancia, que es un estado atencional. De la ansiedad en sí, de la que es la forma orientada al futuro: el modelo de Grupe y Nitschke sitúa la incertidumbre sobre una amenaza futura en el centro de la ansiedad patológica (Grupe y Nitschke 2013).",
+     "links": [
+      {
+       "ids": [
+        "obses",
+        "compul",
+        "hipervig",
+        "ansiedad"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "del_persec",
+        "aissoc",
+        "hipervent"
+       ],
+       "t": "Evitación de otro origen y síntomas somáticos"
+      },
+      {
+       "ids": [
+        "preocup_evit",
+        "intol_incert"
+       ],
+       "t": "Preocupación e incertidumbre"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Fenómeno transdiagnóstico de los trastornos de ansiedad y afines; lo que orienta el diagnóstico no es su presencia sino el contenido de lo temido: una nueva crisis en el trastorno de pánico, no poder escapar o recibir ayuda en la agorafobia, la evaluación negativa en la ansiedad social, el objeto o la situación en la fobia específica, la separación en la ansiedad por separación, la enfermedad grave en la ansiedad por la enfermedad (DSM-5-TR). Aparece también en el estrés postraumático, en el TOC, en el trastorno dismórfico corporal, en el rechazo escolar y en el mutismo selectivo. Puede desarrollarse tras episodios médicos reales e imprevisibles (crisis epilépticas, arritmias, hipoglucemias, asma), en cuyo caso el temor no es infundado y la evaluación debe hacerse con el equipo médico [fuente no localizada]. Grupe y Nitschke identifican cinco procesos implicados en la respuesta anticipatoria a la amenaza incierta, cuya alteración daría lugar a respuestas desadaptativas (Grupe y Nitschke 2013).",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "agora",
+        "fobia_soc",
+        "fobia_esp",
+        "anx_sep",
+        "iad",
+        "tag"
+       ],
+       "t": "Trastornos de ansiedad y afines"
+      },
+      {
+       "ids": [
+        "ptsd",
+        "toc_dsm",
+        "tdc",
+        "rechazo_esc",
+        "mutis_sel"
+       ],
+       "t": "Otros cuadros"
+      },
+      {
+       "ids": [
+        "intol_incert",
+        "miedo_circ",
+        "sens_ansiedad"
+       ],
+       "t": "Mecanismos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Shear MK et al. (1997). Multicenter collaborative panic disorder severity scale. Am J Psychiatry 154:1571-1575 · PMID 9356566",
+    "Chambless DL et al. (1985). The Mobility Inventory for Agoraphobia. Behav Res Ther 23:35-44 · PMID 3985915",
+    "Grupe DW & Nitschke JB (2013). Uncertainty and anticipation in anxiety: an integrated neurobiological and psychological perspective. Nat Rev Neurosci 14:488-501 · PMID 23783199"
+   ],
+   "relAdd": [
+    "tag",
+    "iad",
+    "intol_incert",
+    "miedo_circ",
+    "anx_sep",
+    "rechazo_esc",
+    "compul"
+   ]
+  },
+  "rabietas": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La entrevista con la familia recoge frecuencia, duración, desencadenante, contextos y personas ante las que ocurren, conductas durante el episodio (agresión, destrucción, autolesión), tiempo de recuperación y, sobre todo, el estado de ánimo entre rabietas. Se completa con el nivel de lenguaje, el sueño, la audición, el dolor y la respuesta de las personas adultas (qué ocurre justo antes y justo después), además de la observación directa de la interacción cuando es posible. La escala MAP-DB modela el espectro normal-anormal de la conducta disruptiva preescolar en cuatro dimensiones (pérdida del temperamento, incumplimiento, agresión y escasa preocupación por los demás); en 1488 preescolares, solo las dos primeras cubrieron bien las conductas leves y normativas, y la esperabilidad evolutiva y la cualidad de la conducta distinguieron lo normativo de lo atípico (Wakschlag 2014). Para la irritabilidad en edades posteriores, el índice ARI es una medida breve con versiones parental y de autoinforme (Stringaris 2012).",
+     "links": [
+      {
+       "ids": [
+        "cbcl",
+        "conners"
+       ],
+       "t": "Instrumentos generales"
+      },
+      {
+       "ids": [
+        "irritab_cron"
+       ],
+       "t": "Ánimo entre episodios"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la irritabilidad crónica se distingue porque esta es el estado de ánimo persistente entre episodios, y la rabieta es el episodio. De las crisis por sobrecarga sensorial o por cambio de rutina del autismo, que no buscan un resultado y no ceden al obtener lo pedido [fuente no localizada]. De la agresividad proactiva o instrumental, que es planificada y sin desbordamiento emocional. De la agitación de causa médica o tóxica, por el contexto y la exploración. De las protestas de la ansiedad por separación, limitadas al momento de separarse de la figura de apego. De los episodios de la manía pediátrica, que suponen un cambio episódico con otros síntomas maníacos. De los terrores nocturnos y otras parasomnias, que ocurren durante el sueño y con amnesia. De las crisis epilépticas y funcionales, por la semiología del episodio. De la disregulación emocional del TDAH, que es un rasgo más amplio del que la rabieta puede ser una manifestación.",
+     "links": [
+      {
+       "ids": [
+        "irritab_cron",
+        "hetero_agr",
+        "agitacion",
+        "disreg_emoc_tdah"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "sens_tea",
+        "parasomn"
+       ],
+       "t": "Sobrecarga sensorial y parasomnias"
+      },
+      {
+       "ids": [
+        "anx_sep",
+        "tb_ped",
+        "crisis_func"
+       ],
+       "t": "Entidades que hay que diferenciar"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Fenómeno normativo en la edad preescolar y signo inespecífico cuando es atípico. «Pierde la calma con frecuencia» es uno de los síntomas del trastorno negativista desafiante, y los accesos de cólera graves y recurrentes sobre un ánimo irritable persistente definen el trastorno de desregulación disruptiva del estado de ánimo (DSM-5-TR). Se observan además en el TDAH, el trastorno del espectro autista, los trastornos del lenguaje y del desarrollo intelectual, la depresión infantil, la ansiedad por separación y las situaciones de maltrato o adversidad. En síndromes genéticos con fenotipo conductual, como los de Prader-Willi y Smith-Magenis, forman parte del cuadro descrito en sus fichas [fuente no localizada]. El trastorno explosivo intermitente puede diagnosticarse a partir de los 6 años (DSM-5-TR). En muestras clínicas y de voluntarios sanos, la irritabilidad medida con el ARI aumentó de forma gradual desde los controles hasta la desregulación grave del ánimo (Stringaris 2012), lo que apoya una lectura dimensional.",
+     "links": [
+      {
+       "ids": [
+        "tnd",
+        "dmdd",
+        "tdah",
+        "tea",
+        "tr_leng",
+        "di"
+       ],
+       "t": "Trastornos de inicio en la infancia"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "anx_sep",
+        "tei",
+        "maltrato_inf"
+       ],
+       "t": "Otros cuadros y contexto"
+      },
+      {
+       "ids": [
+        "prader_willi",
+        "smith_magenis"
+       ],
+       "t": "Síndromes genéticos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Wakschlag LS et al. (2014). Advancing a multidimensional, developmental spectrum approach to preschool disruptive behavior. J Am Acad Child Adolesc Psychiatry 53:82-96.e3 · PMID 24342388",
+    "Stringaris A et al. (2012). The Affective Reactivity Index: a concise irritability scale for clinical and research settings. J Child Psychol Psychiatry 53:1109-1117 · PMID 22574736",
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing"
+   ],
+   "relAdd": [
+    "anx_sep",
+    "dep_inf",
+    "cbcl",
+    "tei",
+    "sens_tea",
+    "disreg_emoc_tdah",
+    "di",
+    "hetero_agr"
+   ]
+  },
+  "regres_cond": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Hay que documentar con precisión qué habilidad se ha perdido, cuándo se adquirió, cuándo y a qué ritmo se perdió (brusco o insidioso) y si el desarrollo previo era realmente normal o ya mostraba diferencias sutiles. Se pregunta por crisis epilépticas, por cambios en la marcha y en el uso de las manos, por estereotipias manuales, por el sueño, por estresores recientes y por indicadores de maltrato; se exploran el estado de ánimo, la audición y el estado neurológico. En las niñas, la pérdida del uso propositivo de las manos y del lenguaje hablado, las alteraciones de la marcha y las estereotipias manuales son los criterios principales del síndrome de Rett, cuyo diagnóstico exige un periodo de regresión seguido de recuperación o estabilización y es clínico, con independencia del hallazgo molecular (Neul 2010). En adolescentes y adultos con autismo, una pérdida de habilidades con enlentecimiento obliga a explorar signos catatónicos. En personas mayores, la conducta regresiva nueva se evalúa como posible deterioro cognitivo o delirium [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "estereotip",
+        "mutismo"
+       ],
+       "t": "Signos asociados"
+      },
+      {
+       "ids": [
+        "tea_catatonia",
+        "catalepsia",
+        "negativismo"
+       ],
+       "t": "Catatonía en el autismo"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la detención o meseta del desarrollo se distingue porque en esta no se pierde lo adquirido, solo deja de progresar. Del mutismo selectivo, en el que el lenguaje se conserva íntegro en los contextos de confianza. De la inhibición depresiva y de la apatía, en las que la habilidad existe pero no se ejerce. Del negativismo y del oposicionismo, en los que la persona puede pero no accede. De la amnesia y los estados disociativos, por su carácter episódico. De la aparente regresión por aumento de las exigencias del entorno (inicio escolar), en la que las habilidades no han disminuido sino que resultan insuficientes [fuente no localizada]. De la enuresis secundaria aislada, que es un síntoma y no una regresión global. La regresión reactiva conserva la capacidad, fluctúa con el contexto emocional y revierte; la neurológica es más global y persistente y se acompaña de otros signos.",
+     "links": [
+      {
+       "ids": [
+        "mutismo",
+        "inhib",
+        "apatia",
+        "negativismo"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "disoc_amn",
+        "disc_int"
+       ],
+       "t": "Disociación y discapacidad intelectual"
+      },
+      {
+       "ids": [
+        "mutis_sel",
+        "enuresis"
+       ],
+       "t": "Entidades"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "La regresión del lenguaje o motora es un signo de alarma neurológica, inespecífico respecto de la causa. Además del autismo, aparece en el trastorno desintegrativo infantil, descrito por Heller en 1908: comienza más tarde que el autismo y tras un periodo de desarrollo completamente normal, la regresión es más global y grave, las crisis epilépticas son más frecuentes y el pronóstico suele ser peor, por lo que Rosman y Bergia defienden considerarlo distinto del autismo (serie de 6 casos seguidos entre 2,5 y 22 años; Rosman y Bergia 2013). El síndrome de Rett afecta aproximadamente a 1 de cada 10 000 niñas nacidas vivas y se debe a menudo a mutaciones en MECP2 (Neul 2010). Deben considerarse las epilepsias con regresión del lenguaje, la encefalitis autoinmune y las enfermedades metabólicas y neurodegenerativas (véase la ficha). La regresión reactiva se observa tras estresores, en el maltrato y en el estrés postraumático de la primera infancia.",
+     "links": [
+      {
+       "ids": [
+        "tea",
+        "di",
+        "tea_catatonia"
+       ],
+       "t": "Neurodesarrollo"
+      },
+      {
+       "ids": [
+        "nmda",
+        "psiep",
+        "dem",
+        "delirium"
+       ],
+       "t": "Causas neurológicas"
+      },
+      {
+       "ids": [
+        "maltrato_inf",
+        "ptsd",
+        "rad",
+        "anx_sep"
+       ],
+       "t": "Regresión reactiva"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Neul JL et al. (2010). Rett syndrome: revised diagnostic criteria and nomenclature. Ann Neurol 68:944-950 · PMID 21154482",
+    "Rosman NP & Bergia BM (2013). Childhood disintegrative disorder: distinction from autistic disorder and predictors of outcome. J Child Neurol 28:1587-1598 · PMID 23340080"
+   ],
+   "relAdd": [
+    "tea_catatonia",
+    "nmda",
+    "mutis_sel",
+    "dem",
+    "estereotip"
+   ]
+  },
+  "ideac_suic": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pregunta de forma directa y progresiva, siguiendo la secuencia de la C-SSRS: deseo de estar muerto o muerta, pensamientos de quitarse la vida, método, intención, plan, actos preparatorios e intentos (consumados, interrumpidos y abortados). Preguntar no induce la ideación: la revisión de Dazzi no halló en ningún estudio un aumento significativo de la ideación suicida entre quienes fueron preguntados, y sugiere que hablar de ello puede reducirla (Dazzi 2014). Se exploran frecuencia y control de las ideas, motivos para vivir, acceso a medios, estresores recientes, desesperanza, insomnio, agitación, intoxicación y síntomas psicóticos; tras un intento, la intención, la letalidad esperada, las precauciones para no ser descubierto y la reacción al haber sobrevivido. El resultado es una formulación del riesgo y un plan, no una predicción: en el metaanálisis de 365 estudios de 50 años, la predicción fue solo ligeramente superior al azar para todos los desenlaces y no mejoró con el tiempo (Franklin 2017). Se recomienda hablar de «muerte por suicidio» y evitar expresiones que culpabilicen.",
+     "links": [
+      {
+       "ids": [
+        "cssrs",
+        "bhs_beck",
+        "sad_persons"
+       ],
+       "t": "Instrumentos y sus límites"
+      },
+      {
+       "ids": [
+        "aluc_aud",
+        "del_culpa",
+        "acatisia"
+       ],
+       "t": "Síntomas que elevan el riesgo"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la autolesión no suicida se distingue por la intención: en esta el propósito no es morir, aunque ambas coexisten con frecuencia y la intención puede ser ambivalente. De las obsesiones de contenido suicida o de daño, que son intrusivas, egodistónicas y temidas, sin deseo de morir; confundirlas lleva a intervenciones inadecuadas [fuente no localizada]. De las alucinaciones auditivas imperativas, en las que la orden procede de una voz y debe explorarse el grado de obediencia. De las conductas de riesgo y de la impulsividad sin intención letal. De las sobredosis no intencionales, relevantes en el consumo de GHB/GBL y de opioides, donde hay que preguntar por la intención sin presuponerla. De las ideas de muerte sin ideación suicida (pensar en la muerte, deseo de descansar), que constituyen el extremo pasivo del continuo y deben seguir explorándose. Del delirio de culpa o de ruina, que puede motivar la conducta y cambia el abordaje.",
+     "links": [
+      {
+       "ids": [
+        "autolesion",
+        "obses",
+        "aluc_aud",
+        "impulsiv"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "del_culpa",
+        "tristeza_vital"
+       ],
+       "t": "Depresión psicótica y melancolía"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "Sobredosis no intencional"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Fenómeno transdiagnóstico y heterogéneo: la conducta suicida difiere según sexo, edad, región y contexto sociopolítico y se asocia de forma variable a distintos factores de riesgo, lo que sugiere heterogeneidad etiológica; no existe un algoritmo eficaz para predecir el suicidio en la práctica clínica (Turecki y Brent 2016). El periodo posterior al alta hospitalaria psiquiátrica es de riesgo marcado: el metaanálisis de Chung (100 estudios, 17 857 suicidios) estimó 484 suicidios por 100 000 personas-año tras el alta, 1132 en los tres primeros meses y 2078 entre quienes ingresaron por ideas o conductas suicidas, y las tasas siguieron siendo altas durante años (Chung 2017). Los antecedentes de pensamientos y conductas autolesivas predicen de forma débil el intento posterior (razón de odds ponderada 2,14) y la muerte por suicidio (1,54), con sensibilidad baja (Ribeiro 2016). La acatisia, el dolor crónico y la intoxicación son estados que deben buscarse de forma activa.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tb1",
+        "tb2",
+        "mxto",
+        "esq",
+        "tlp",
+        "alcohol",
+        "anor",
+        "ptsd"
+       ],
+       "t": "Trastornos con mayor asociación"
+      },
+      {
+       "ids": [
+        "internamiento",
+        "suic_adol",
+        "suic_mayor"
+       ],
+       "t": "Alta hospitalaria y grupos de edad"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "dolor_cron_prim",
+        "durkheim"
+       ],
+       "t": "Estados y contexto"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Dazzi T, Gribble R, Wessely S & Fear NT (2014). Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence? Psychol Med 44:3361-3363 · PMID 24998511",
+    "Franklin JC et al. (2017). Risk factors for suicidal thoughts and behaviors: a meta-analysis of 50 years of research. Psychol Bull 143:187-232 · PMID 27841450",
+    "Turecki G & Brent DA (2016). Suicide and suicidal behaviour. Lancet 387:1227-1239 · PMID 26385066",
+    "Chung DT et al. (2017). Suicide rates after discharge from psychiatric facilities: a systematic review and meta-analysis. JAMA Psychiatry 74:694-702 · PMID 28564699",
+    "Ribeiro JD et al. (2016). Self-injurious thoughts and behaviors as risk factors for future suicide ideation, attempts, and death: a meta-analysis of longitudinal studies. Psychol Med 46:225-236 · PMID 26370729"
+   ],
+   "relAdd": [
+    "acatisia",
+    "obses",
+    "aluc_aud",
+    "esq",
+    "alcohol",
+    "anor",
+    "mxto",
+    "del_culpa"
+   ]
+  },
+  "autolesion": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pregunta sin juicio y con concreción: métodos, zonas del cuerpo, frecuencia, edad de inicio, último episodio, gravedad médica, si ocurre a solas, qué emoción la precede y qué ocurre después (alivio, vergüenza, culpa). La función se explora de forma abierta: la revisión de Klonsky de 18 estudios encontró evidencia convergente de una función de regulación del afecto (afecto negativo agudo antes, alivio después), apoyo sólido a la función de autocastigo y evidencia modesta de funciones antidisociativa, de influencia interpersonal, antisuicida, de búsqueda de sensaciones y de límites interpersonales (Klonsky 2007). En cada episodio se pregunta por la intención de morir, que puede ser ambivalente. La exploración física de las zonas habituales se hace con consentimiento y sirve también para valorar cuidados de las heridas. La entrevista estructurada SITBI evalúa presencia, frecuencia y características de ideación, planes, gestos e intentos suicidas y autolesión no suicida, con fuerte fiabilidad entre evaluadores en 94 adolescentes y jóvenes (Nock 2007).",
+     "links": [
+      {
+       "ids": [
+        "cssrs"
+       ],
+       "t": "C-SSRS"
+      },
+      {
+       "ids": [
+        "desp_sx",
+        "disforia",
+        "labaf"
+       ],
+       "t": "Estados que la preceden"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Del intento de suicidio se distingue por la ausencia de intención de morir, que debe preguntarse y no inferirse del método. De las estereotipias autolesivas del autismo y de los trastornos del desarrollo intelectual, que son repetitivas, rítmicas y de forma fija. De la excoriación y la tricotilomanía, conductas repetitivas centradas en el cuerpo sin propósito de dañarse. De las compulsiones, ligadas a una obsesión. De la automutilación en la psicosis, motivada por delirios o alucinaciones imperativas y a menudo de mayor gravedad [fuente no localizada]. Del trastorno facticio y de la simulación, en los que la lesión busca asumir el papel de enfermo u obtener un beneficio externo y se oculta su autoría. De las modificaciones corporales socialmente aceptadas (tatuajes, perforaciones), que el criterio propuesto en el DSM-5-TR excluye. De los golpes contra sí durante las rabietas preescolares, propios de esa edad.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "estereotip",
+        "compul",
+        "aluc_aud"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "derm",
+        "ttm",
+        "facticio",
+        "simulacion"
+       ],
+       "t": "Entidades que hay que diferenciar"
+      },
+      {
+       "ids": [
+        "rabietas"
+       ],
+       "t": "Infancia"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "No es específica de ningún trastorno ni equivale a trastorno límite de la personalidad. En muestras no clínicas, la prevalencia agrupada fue del 17,2 % en adolescentes, 13,4 % en adultos jóvenes y 5,5 % en adultos; los factores metodológicos explicaron más de la mitad de la heterogeneidad y, tras ajustarlos, la prevalencia no aumentó con el tiempo (Swannell 2014). Es un criterio del trastorno límite de la personalidad (DSM-5-TR) y se observa en la depresión, los trastornos de la conducta alimentaria, el estrés postraumático y el trauma complejo, los trastornos disociativos, los trastornos por consumo de sustancias y el autismo. Como factor de riesgo, el metaanálisis de 172 estudios longitudinales mostró que los pensamientos y conductas autolesivas previos predicen de forma débil el intento posterior (razón de odds 2,14), con especificidad aceptable y sensibilidad pobre (Ribeiro 2016): justifica la evaluación sistemática del riesgo, no su predicción.",
+     "links": [
+      {
+       "ids": [
+        "tlp",
+        "ddm",
+        "dep_inf",
+        "anor",
+        "bul",
+        "ptsd",
+        "desnos",
+        "tdi"
+       ],
+       "t": "Trastornos asociados"
+      },
+      {
+       "ids": [
+        "tea",
+        "di",
+        "smith_magenis",
+        "tcs"
+       ],
+       "t": "Neurodesarrollo y sustancias"
+      },
+      {
+       "ids": [
+        "suic_adol",
+        "ansi_adol"
+       ],
+       "t": "Adolescencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Klonsky ED (2007). The functions of deliberate self-injury: a review of the evidence. Clin Psychol Rev 27:226-239 · PMID 17014942",
+    "Swannell SV et al. (2014). Prevalence of nonsuicidal self-injury in nonclinical samples: systematic review, meta-analysis and meta-regression. Suicide Life Threat Behav 44:273-303 · PMID 24422986",
+    "Ribeiro JD et al. (2016). Self-injurious thoughts and behaviors as risk factors for future suicide ideation, attempts, and death: a meta-analysis of longitudinal studies. Psychol Med 46:225-236 · PMID 26370729",
+    "Nock MK, Holmberg EB, Photos VI & Michel BD (2007). Self-Injurious Thoughts and Behaviors Interview: development, reliability, and validity in an adolescent sample. Psychol Assess 19:309-317 · PMID 17845122"
+   ],
+   "relAdd": [
+    "estereotip",
+    "derm",
+    "ttm",
+    "tdi",
+    "anor",
+    "bul",
+    "ptsd",
+    "di",
+    "tea",
+    "desnos",
+    "rabietas"
+   ]
+  },
+  "impulsiv": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se explora con ejemplos recientes y por ámbitos (dinero, sexualidad, sustancias, conducción, alimentación, agresión, decisiones laborales y de pareja), preguntando qué ocurrió justo antes (emoción intensa, aburrimiento, oportunidad), si hubo deliberación, qué sintió después y qué consecuencias tuvo. La distinción entre rasgo estable desde la juventud y cambio reciente es la más útil para el diagnóstico. Debe revisarse siempre la medicación: en 3090 personas con enfermedad de Parkinson tratada, el 13,6 % presentaba algún trastorno del control de impulsos (juego 5,0 %, conducta sexual compulsiva 3,5 %, compra compulsiva 5,7 %, atracones 4,3 %), con mayor frecuencia entre quienes tomaban agonistas dopaminérgicos (17,1 % frente a 6,9 %) (Weintraub 2010). Además de los autoinformes citados en la ficha, las tareas de laboratorio separan formas distintas: inhibición de respuesta deficiente, decisión arriesgada e intolerancia a la demora de la recompensa (Dalley y Robbins 2017). La concordancia entre autoinformes y tareas es limitada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "func_ejec",
+        "disejec"
+       ],
+       "t": "Funciones ejecutivas"
+      },
+      {
+       "ids": [
+        "parkinson_psiq",
+        "iatrog_farm"
+       ],
+       "t": "Causas farmacológicas"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la compulsión se distingue por la función: el acto impulsivo busca gratificación o descarga y el compulsivo reduce un malestar ligado a una obsesión, si bien ambos constructos son multidimensionales y sus sustratos se solapan en parte (Fineberg 2010). De la desinhibición, que es la pérdida de las normas sociales previamente respetadas y suele ser adquirida. De la dimensión de hiperactividad-impulsividad del TDAH, que es su expresión en ese trastorno. De la conducta instrumental y planificada, que no es impulsiva aunque sea dañina. De las decisiones tomadas bajo ánimo expansivo, en las que la impulsividad es episódica y congruente con la euforia. De los actos motivados por la inquietud de la acatisia. De los tics, por la urgencia sensorial localizada. De los automatismos con alteración de la conciencia. La búsqueda de sensaciones es un rasgo que no implica por sí mismo falta de control.",
+     "links": [
+      {
+       "ids": [
+        "compul",
+        "desinhib",
+        "hiperact_impuls",
+        "euforia"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "tics",
+        "crepusc_amn"
+       ],
+       "t": "Actos de otro origen"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Signo transdiagnóstico e inespecífico. Se han documentado niveles más altos de impulsividad en el trastorno de conducta, los trastornos de la personalidad, los trastornos por consumo de sustancias y el trastorno bipolar que en otros grupos clínicos o en controles sanos (Moeller 2001); es además rasgo del TDAH y de los trastornos del control de los impulsos. Como cambio adquirido orienta a patología frontal (demencia frontotemporal, traumatismo craneoencefálico) o a causa farmacológica o tóxica, incluidos los agonistas dopaminérgicos (Weintraub 2010) y los estimulantes. La CIE-11 sitúa el trastorno de conducta sexual compulsiva entre los trastornos del control de los impulsos. En cuanto al mecanismo, distintas formas de impulsividad dependen de redes neurales diferenciadas (Dalley y Robbins 2017), y se ha propuesto que las proyecciones del cíngulo anterior y la corteza prefrontal ventromedial al estriado ventral sustentan la conducta impulsiva (Fineberg 2010). En la literatura se ha descrito con algunos agonistas parciales dopaminérgicos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tlp",
+        "tpanti",
+        "tcond",
+        "tb1",
+        "tcs"
+       ],
+       "t": "Trastornos con impulsividad elevada"
+      },
+      {
+       "ids": [
+        "tei",
+        "juegoP",
+        "clepto",
+        "bed",
+        "bul",
+        "hipser"
+       ],
+       "t": "Control de impulsos y afines"
+      },
+      {
+       "ids": [
+        "ftd",
+        "tce_neuro",
+        "parkinson_psiq",
+        "recompensa",
+        "tdah_chemsex"
+       ],
+       "t": "Causas adquiridas y mecanismos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Moeller FG et al. (2001). Psychiatric aspects of impulsivity. Am J Psychiatry 158:1783-1793 · PMID 11691682",
+    "Dalley JW & Robbins TW (2017). Fractionating impulsivity: neuropsychiatric implications. Nat Rev Neurosci 18:158-171 · PMID 28209979",
+    "Weintraub D et al. (2010). Impulse control disorders in Parkinson disease: a cross-sectional study of 3090 patients. Arch Neurol 67:589-595 · PMID 20457959",
+    "Fineberg NA et al. (2010). Probing compulsive and impulsive behaviors, from animal models to endophenotypes: a narrative review. Neuropsychopharmacology 35:591-604 · PMID 19940844"
+   ],
+   "relAdd": [
+    "compul",
+    "tb1",
+    "parkinson_psiq",
+    "ftd",
+    "tce_neuro",
+    "tpanti",
+    "bed",
+    "hipser",
+    "tcond"
+   ]
+  },
+  "compul": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La vergüenza hace que no se refieran de forma espontánea, de modo que se pregunta con ejemplos y de manera expresa por las compulsiones encubiertas: contar, rezar, repasar mentalmente, pedir confirmación a otras personas y evitar. Para cada una se indaga qué ocurriría si no se realizara, cuánto tiempo ocupa, cuánto interfiere, cuánto se resiste y cuánto control se tiene, así como el grado de convicción en la creencia que la sostiene (especificador de introspección del DSM-5-TR) y la participación de la familia en los rituales. La Y-BOCS es una escala aplicada por profesionales, de 10 ítems puntuados de 0 a 4 (rango total 0-40), con subtotales separados para obsesiones y compulsiones y cuya puntuación no depende del tipo de síntomas presentes; mostró excelente fiabilidad entre evaluadores en 40 personas con TOC (Goodman 1989). En la infancia la compulsión puede presentarse sin una obsesión que el niño o la niña sepa formular [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ybocs"
+       ],
+       "t": "Y-BOCS"
+      },
+      {
+       "ids": [
+        "obses",
+        "insight"
+       ],
+       "t": "Obsesión e introspección"
+      },
+      {
+       "ids": [
+        "toc_ped"
+       ],
+       "t": "Infancia"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De los tics complejos se distingue porque estos van precedidos de una urgencia sensorial y no de una obsesión; la frontera es difusa en los fenómenos de «hasta que quede bien». De los manierismos y las estereotipias, que no responden a reglas ni buscan neutralizar un temor. De los actos impulsivos y de las adicciones conductuales, orientados a la gratificación. De las rutinas e intereses restringidos del autismo, que suelen vivirse como agradables o reguladores. De la perseveración, que es repetición sin finalidad por dificultad para cambiar de respuesta. De las conductas de seguridad de los trastornos de ansiedad, menos ritualizadas y ligadas a una situación temida. De la conducta motivada por una idea delirante, aunque existe TOC con introspección ausente. Del punding, repetición compleja inducida por dopaminérgicos o estimulantes, fenomenológicamente distinta del TOC (Evans 2004). Del perfeccionismo egosintónico de la personalidad obsesivo-compulsiva y de los rituales religiosos o culturales compartidos.",
+     "links": [
+      {
+       "ids": [
+        "tics",
+        "manierismo",
+        "estereotip",
+        "perseverac",
+        "impulsiv"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "anx_anticip",
+        "delirio",
+        "idea_sobrev",
+        "pens_magico"
+       ],
+       "t": "Evitación, delirio e ideas sobrevaloradas"
+      },
+      {
+       "ids": [
+        "tpobs",
+        "juegoP"
+       ],
+       "t": "Entidades que hay que diferenciar"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Las compulsiones orientan al TOC, pero no son patognomónicas. Conductas repetitivas con función semejante aparecen en el trastorno dismórfico corporal (comprobación en el espejo, camuflaje), en la ansiedad por la enfermedad (comprobación corporal) y en la anorexia nerviosa (rituales en torno a la comida); la tricotilomanía y la excoriación son conductas repetitivas centradas en el cuerpo, y la revisión de Fineberg propone que la tricotilomanía es más bien un trastorno del control motor de impulsos y que el juego patológico se aproxima a las adicciones (Fineberg 2010). Las conductas compulsivas o ritualizadas figuran entre los criterios de la demencia frontotemporal variante conductual (Rascovsky 2011), por lo que su inicio tardío con cambio de personalidad orienta a patología degenerativa. Se observan también en el síndrome de Tourette, en el autismo y, con inicio brusco en la infancia, en el síndrome PANS/PANDAS. El modelo neural sitúa la conducta compulsiva en el circuito entre la corteza orbitofrontal y el caudado (Fineberg 2010).",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "toc_ped",
+        "tdc",
+        "iad",
+        "acum",
+        "ttm",
+        "derm"
+       ],
+       "t": "Espectro obsesivo-compulsivo"
+      },
+      {
+       "ids": [
+        "anor",
+        "tourette",
+        "tea",
+        "pandas",
+        "ftd"
+       ],
+       "t": "Otros cuadros"
+      },
+      {
+       "ids": [
+        "toc_neuro",
+        "epr"
+       ],
+       "t": "Mecanismo y tratamiento"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Goodman WK et al. (1989). The Yale-Brown Obsessive Compulsive Scale. I. Development, use, and reliability. Arch Gen Psychiatry 46:1006-1011 · PMID 2684084",
+    "Fineberg NA et al. (2010). Probing compulsive and impulsive behaviors, from animal models to endophenotypes: a narrative review. Neuropsychopharmacology 35:591-604 · PMID 19940844",
+    "Evans AH et al. (2004). Punding in Parkinson's disease: its relation to the dopamine dysregulation syndrome. Mov Disord 19:397-405 · PMID 15077237",
+    "Rascovsky K et al. (2011). Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia. Brain 134:2456-2477 · PMID 21810890"
+   ],
+   "relAdd": [
+    "tics",
+    "impulsiv",
+    "ybocs",
+    "toc_ped",
+    "tdc",
+    "acum",
+    "ftd",
+    "tea",
+    "toc_neuro",
+    "epr",
+    "pandas",
+    "manierismo",
+    "anx_anticip"
+   ]
+  },
+  "desinhib": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La persona rara vez la refiere, por lo que la información de alguien cercano es imprescindible. Se piden ejemplos concretos: comentarios a desconocidos, familiaridad excesiva, contacto físico inapropiado, bromas fuera de lugar, hurtos, gastos nuevos, infracciones al conducir, cambios en la conducta alimentaria y sexual. Se fija la edad de inicio, el modo (insidioso o brusco) y el contraste con la personalidad previa. Durante la entrevista se observa la familiaridad con quien explora, las interrupciones, las respuestas precipitadas y la conducta de utilización. El Inventario Neuropsiquiátrico recoge la desinhibición como uno de sus dominios, valorando frecuencia y gravedad a partir de una persona cuidadora (Cummings 1994). El Inventario de Conducta Frontal, de 24 ítems, diferenció la demencia frontal de la enfermedad de Alzheimer y de la demencia depresiva con poco solapamiento, y la desinhibición, la conducta inapropiada y la impulsividad estuvieron entre los síntomas positivos más significativos (Kertesz 1997). Las pruebas cognitivas pueden ser normales al inicio [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "npi"
+       ],
+       "t": "Inventario Neuropsiquiátrico"
+      },
+      {
+       "ids": [
+        "anosog",
+        "insight",
+        "disejec",
+        "cogn_soc"
+       ],
+       "t": "Conciencia de enfermedad y función frontal"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la impulsividad se distingue porque lo afectado es el respeto a las normas sociales antes mantenidas, no solo la rapidez de la decisión. De la moria, que es una jocosidad pueril y vacía que con frecuencia la acompaña en las lesiones frontales. De la expansividad maníaca, que es episódica y se acompaña de ánimo elevado, menor necesidad de sueño y aceleración. De la hiperactividad-impulsividad del TDAH, presente desde la infancia. De la conducta antisocial de larga evolución, que no es un cambio. De la ingenuidad social del autismo, estable desde el desarrollo. De la coprolalia del síndrome de Tourette, que es un tic. De la incontinencia afectiva, que afecta a la expresión emocional. De los cambios de la conducta sexual de otro origen, tratados en su ficha. En la infancia, la relación social desinhibida con personas adultas desconocidas remite al trastorno de relación social desinhibida y a la adversidad temprana.",
+     "links": [
+      {
+       "ids": [
+        "impulsiv",
+        "moria",
+        "euforia",
+        "hiperact_impuls"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "glosolalia",
+        "labil_incont",
+        "sexual_sx",
+        "cogn_soc"
+       ],
+       "t": "Otros fenómenos"
+      },
+      {
+       "ids": [
+        "tpanti",
+        "rad"
+       ],
+       "t": "Entidades que hay que diferenciar"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "La desinhibición conductual precoz es uno de los criterios de la demencia frontotemporal variante conductual (Rascovsky 2011), pero es inespecífica: se solapa con la manía, la esquizofrenia, el TOC, el autismo e incluso los trastornos de la personalidad. Según el consorcio internacional, alrededor del 50 % de las personas con esta demencia recibe antes un diagnóstico psiquiátrico y el retraso diagnóstico medio alcanza los 5-6 años, y también ocurre lo contrario, que trastornos psiquiátricos primarios se diagnostiquen erróneamente como demencia frontotemporal (Ducharme 2020). Su aparición en la edad media de la vida sin antecedentes psiquiátricos orienta, por tanto, a estudio neurológico. Se observa además en el episodio maníaco y la manía secundaria, tras el traumatismo craneoencefálico, en la enfermedad de Huntington, en otras demencias y en el delirium, con agonistas dopaminérgicos y en la intoxicación por alcohol, sedantes, GHB/GBL y estimulantes [fuente no localizada para la enumeración].",
+     "links": [
+      {
+       "ids": [
+        "ftd",
+        "dem",
+        "huntington",
+        "tce_neuro",
+        "delirium"
+       ],
+       "t": "Causas neurológicas"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "mania_sec",
+        "tb_mayor"
+       ],
+       "t": "Manía"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "bzd_dep",
+        "ghb_gbl",
+        "metanf",
+        "parkinson_psiq"
+       ],
+       "t": "Sustancias y fármacos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ducharme S et al. (2020). Recommendations to distinguish behavioural variant frontotemporal dementia from psychiatric disorders. Brain 143:1632-1650 · PMID 32129844",
+    "Cummings JL et al. (1994). The Neuropsychiatric Inventory: comprehensive assessment of psychopathology in dementia. Neurology 44:2308-2314 · PMID 7991117",
+    "Kertesz A, Davidson W & Fox H (1997). Frontal behavioral inventory: diagnostic criteria for frontal lobe dementia. Can J Neurol Sci 24:29-36 · PMID 9043744"
+   ],
+   "relAdd": [
+    "npi",
+    "ep_mania",
+    "alcohol",
+    "ghb_gbl",
+    "huntington",
+    "mania_sec",
+    "parkinson_psiq",
+    "rad",
+    "delirium",
+    "anosog"
+   ]
+  },
+  "hetero_agr": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se reconstruye cada episodio: a quién se dirigió, qué lo desencadenó, si hubo planificación, medios empleados y lesiones, estado en ese momento (intoxicación, síntomas psicóticos de amenaza, alucinaciones imperativas, confusión) y vivencia posterior. Se recogen la edad de la primera conducta violenta, el patrón a lo largo de la vida, la existencia de intención actual y de una posible víctima identificada, el acceso a armas y los factores protectores, contrastando con informantes y documentación. Un primer episodio sin antecedentes exige descartar causa médica o tóxica. La Escala de Agresión Manifiesta registra cuatro categorías (agresión verbal, física contra objetos, contra sí y contra otras personas) y las intervenciones aplicadas (Yudofsky 1986). Los instrumentos de valoración del riesgo sirven más para descartar que para predecir: en 73 muestras con 24 847 personas, el valor predictivo positivo mediano para delito violento fue del 41 % y el negativo del 91 % (Fazel 2012), límite que debe constar en todo informe pericial.",
+     "links": [
+      {
+       "ids": [
+        "riesgo_viol",
+        "pclr",
+        "sara"
+       ],
+       "t": "Instrumentos de valoración del riesgo"
+      },
+      {
+       "ids": [
+        "del_persec",
+        "aluc_aud",
+        "pasividad"
+       ],
+       "t": "Síntomas psicóticos que hay que preguntar"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la agitación se distingue porque esta carece de un objetivo al que dañar. De la irritabilidad y la disforia, que son estados afectivos y no conductas. De la impulsividad, que es una disposición y no implica daño a otros. De las rabietas de la infancia, que son normativas a cierta edad. De la autolesión, por la dirección del daño. De las obsesiones de contenido agresivo, que son intrusivas, egodistónicas y temidas por quien las sufre: tomarlas por intención violenta es un error grave [fuente no localizada]. De la resistencia defensiva durante los cuidados en la demencia o el delirium, que responde al miedo o a la incomprensión de la situación. De las conductas violentas durante el sueño y de los automatismos con alteración de la conciencia, relevantes para la imputabilidad. La distinción entre agresión reactiva e instrumental, ya recogida en la ficha, se establece con la planificación, el desencadenante y la activación emocional.",
+     "links": [
+      {
+       "ids": [
+        "agitacion",
+        "disforia",
+        "impulsiv",
+        "rabietas",
+        "autolesion"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "obses",
+        "parasomn",
+        "crepusc",
+        "crepusc_amn"
+       ],
+       "t": "Obsesiones, sueño y conciencia"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "No es marcador de ningún trastorno. En la encuesta longitudinal NESARC (34 653 personas), el trastorno mental grave por sí solo no predijo la violencia futura; esta se asoció a factores históricos (violencia previa, detención juvenil, maltrato físico), clínicos (abuso de sustancias, amenaza percibida), disposicionales y contextuales (divorcio reciente, desempleo, victimización) (Elbogen y Johnson 2009). En personas con psicosis, el metaanálisis de 110 estudios identificó como factores dinámicos la conducta hostil, el consumo reciente de drogas y alcohol, el mal control de impulsos y la falta de adherencia al tratamiento psicológico y farmacológico, y como factores estáticos más potentes los antecedentes delictivos (Witt 2013). El trastorno explosivo intermitente se reconoce como un trastorno de agresión impulsiva con validez diagnóstica suficiente (Coccaro 2012). Aparece también en el trastorno de conducta y antisocial, la manía, la intoxicación por alcohol y estimulantes, el delirium, la demencia y las secuelas del traumatismo craneoencefálico.",
+     "links": [
+      {
+       "ids": [
+        "tei",
+        "tpanti",
+        "tcond",
+        "esq",
+        "ep_mania"
+       ],
+       "t": "Trastornos mentales"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "tcs",
+        "metanf",
+        "cocaina"
+       ],
+       "t": "Sustancias"
+      },
+      {
+       "ids": [
+        "delirium",
+        "agit_dem",
+        "tce_neuro",
+        "psiep",
+        "maoa_gxe",
+        "estigma"
+       ],
+       "t": "Causas médicas, mecanismos y estigma"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Yudofsky SC et al. (1986). The Overt Aggression Scale for the objective rating of verbal and physical aggression. Am J Psychiatry 143:35-39 · PMID 3942284",
+    "Fazel S, Singh JP, Doll H & Grann M (2012). Use of risk assessment instruments to predict violence and antisocial behaviour in 73 samples involving 24 827 people: systematic review and meta-analysis. BMJ 345:e4692 · PMID 22833604",
+    "Elbogen EB & Johnson SC (2009). The intricate link between violence and mental disorder: results from the National Epidemiologic Survey on Alcohol and Related Conditions. Arch Gen Psychiatry 66:152-161 · PMID 19188537",
+    "Witt K, van Dorn R & Fazel S (2013). Risk factors for violence in psychosis: systematic review and meta-regression analysis of 110 studies. PLoS One 8:e55942 · PMID 23418482",
+    "Coccaro EF (2012). Intermittent explosive disorder as a disorder of impulsive aggression for DSM-5. Am J Psychiatry 169:577-588 · PMID 22535310"
+   ],
+   "relAdd": [
+    "agitacion",
+    "impulsiv",
+    "alcohol",
+    "metanf",
+    "agit_dem",
+    "tcond",
+    "ep_mania",
+    "esq",
+    "delirium",
+    "parasomn",
+    "obses"
+   ]
+  }
+ },
+ "add": []
+}

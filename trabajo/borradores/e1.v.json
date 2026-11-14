@@ -1,0 +1,1847 @@
+{
+ "patch": {
+  "neurosif": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Ninguna presentación psiquiátrica es específica: el diagnóstico diferencial no se resuelve con la psicopatología, sino con la serología. La forma demencial obliga a distinguirla de las demencias degenerativas y, por la desinhibición y el cambio de personalidad, de la demencia frontotemporal variante conductual; la forma expansiva, de la manía primaria y de la manía secundaria a otras causas; la forma depresiva, del trastorno depresivo mayor; y los cuadros alucinatorio-delirantes, de la esquizofrenia. [fuente no localizada] En personas con VIH debe diferenciarse de los trastornos neurocognitivos asociados al VIH, con los que puede coexistir [fuente no localizada]. Orientan a neurosífilis las alteraciones pupilares, la disartria, el temblor y la hiporreflexia [fuente no localizada]. La confirmación exige pruebas treponémicas y no treponémicas en suero y estudio del líquido cefalorraquídeo, cuya interpretación sigue siendo compleja e imperfecta en las fases tardías (Hutto 2001).",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ftd"
+       ],
+       "t": "demencias"
+      },
+      {
+       "ids": [
+        "tb1",
+        "mania_sec",
+        "del_grand"
+       ],
+       "t": "manía y megalomanía"
+      },
+      {
+       "ids": [
+        "ddm",
+        "esq"
+       ],
+       "t": "cuadros primarios"
+      },
+      {
+       "ids": [
+        "vih_ncd"
+       ],
+       "t": "coinfección por VIH"
+      },
+      {
+       "ids": [
+        "tpsc_med"
+       ],
+       "t": "psicosis secundaria"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "La afectación del sistema nervioso puede producirse en cualquier estadio de la infección: las formas precoces son meníngeas, meningovasculares, oculares u óticas, y las tardías (parálisis general y tabes dorsal) aparecen años o décadas después del contagio [fuente no localizada]. Sin tratamiento, la parálisis general progresa hacia la demencia y la muerte, como documentó la psiquiatría del siglo XIX. El tratamiento antibiótico detiene la infección, pero el deterioro cognitivo y el cambio de personalidad ya establecidos pueden ser solo parcialmente reversibles [fuente no localizada], de modo que el factor pronóstico principal es la precocidad del diagnóstico. La guía europea de 2020 destaca la epidemia actual de sífilis precoz en Europa, en particular entre hombres que tienen sexo con hombres (Janier 2021), lo que mantiene vigente el cribado en psiquiatría.",
+     "links": [
+      {
+       "ids": [
+        "wagnerj",
+        "bayle_hit"
+       ],
+       "t": "historia de la parálisis general"
+      },
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "evolución demencial"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, detección: serología de sífilis y prueba de VIH ante psicosis, manía o deterioro cognitivo de causa no aclarada; si es reactiva y hay clínica neuropsiquiátrica, punción lumbar. Fase 2, tratamiento etiológico: penicilina G por vía intravenosa, pauta que ya recoge la ficha y que se remite a las guías de infecciones de transmisión sexual (CDC, Workowski 2021; guía europea, Janier 2021), cuyo detalle no figura en los resúmenes indexados; la guía europea excluye la azitromicina como alternativa en cualquier estadio. Fase 3, tratamiento sintomático: los antipsicóticos y los estabilizadores se usan como coadyuvantes hasta que actúa el tratamiento etiológico, con vigilancia de efectos extrapiramidales y de delirium en un cerebro lesionado [fuente no localizada]; no existen ensayos controlados que establezcan un fármaco de elección [fuente no localizada]. Fase 4, seguimiento: control clínico y serológico según guía, estudio de contactos, cribado de otras infecciones de transmisión sexual y, cuando proceda, intervención de reducción de daños.",
+     "links": [
+      {
+       "ids": [
+        "tpsc_med"
+       ],
+       "t": "estudio de organicidad"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "risperidona",
+        "olanzapina"
+       ],
+       "t": "antipsicóticos (uso sintomático)"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      },
+      {
+       "ids": [
+        "vih_ncd"
+       ],
+       "t": "VIH"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Obligan a valoración urgente: pérdida visual o auditiva aguda (sífilis ocular u ótica), déficit focal o ictus en una persona joven (forma meningovascular), crisis epilépticas y síndrome confusional. En las primeras horas del tratamiento puede aparecer una reacción de Jarisch-Herxheimer (fiebre y empeoramiento transitorio de los síntomas) [fuente no localizada]. La alergia a la penicilina, el embarazo y la coinfección por VIH requieren manejo especializado según las guías (Workowski 2021). En el plano psiquiátrico hay que valorar el riesgo derivado de la megalomanía y la desinhibición (gastos, conducción, exposición a riesgos sexuales), la agitación y la capacidad para decidir. La sífilis es una enfermedad de declaración obligatoria en España [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "síndrome confusional"
+      },
+      {
+       "ids": [
+        "agitacion",
+        "desinhib"
+       ],
+       "t": "riesgo conductual"
+      },
+      {
+       "ids": [
+        "consent_cap"
+       ],
+       "t": "capacidad para consentir"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Workowski KA et al. (2021). Sexually transmitted infections treatment guidelines, 2021. MMWR Recomm Rep 70:1-187 · PMID 34292926",
+    "Janier M et al. (2021). 2020 European guideline on the management of syphilis. J Eur Acad Dermatol Venereol 35:574-588 · PMID 33094521",
+    "Ropper AH (2019). Neurosyphilis. N Engl J Med 381:1358-1363 · PMID 31577877"
+   ],
+   "relAdd": [
+    "ftd",
+    "mania_sec",
+    "delirium"
+   ]
+  },
+  "huntington": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "En la fase prodrómica, antes de la corea, el cuadro puede confundirse con un trastorno depresivo mayor, un trastorno obsesivo-compulsivo, un trastorno de la personalidad o una esquizofrenia; el criterio diferenciador es la historia familiar (herencia autosómica dominante), la aparición de signos motores sutiles y, en último término, el estudio genético de la expansión CAG. La corea debe distinguirse de la discinesia tardía en personas tratadas con antipsicóticos, de la enfermedad de Wilson (cobre, anillo de Kayser-Fleischer), del lupus y de las coreas farmacológicas [fuente no localizada]. El deterioro cognitivo de perfil subcortical y disejecutivo se diferencia de la demencia frontotemporal variante conductual por la genética y la neuroimagen. La apatía, muy frecuente, debe separarse de la depresión, porque su manejo es distinto [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "toc_dsm",
+        "esq"
+       ],
+       "t": "cuadros psiquiátricos primarios"
+      },
+      {
+       "ids": [
+        "discin_tard"
+       ],
+       "t": "discinesia tardía"
+      },
+      {
+       "ids": [
+        "wilson",
+        "pclupus"
+       ],
+       "t": "otras coreas"
+      },
+      {
+       "ids": [
+        "ftd",
+        "dem"
+       ],
+       "t": "demencias"
+      },
+      {
+       "ids": [
+        "apatia"
+       ],
+       "t": "apatía"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Enfermedad neurodegenerativa progresiva, de inicio habitual en la edad adulta media, con relación inversa entre el número de repeticiones CAG y la edad de comienzo [fuente no localizada]. Los síntomas neuropsiquiátricos pueden preceder en años al diagnóstico motor y no siguen un curso paralelo al de la corea. En la cohorte de Hubers (2012), el 20 % de las personas portadoras premotoras y el 20 % de las portadoras con síntomas motores presentaban ideación suicida, frente a ninguna de las no portadoras; el ánimo deprimido fue el único predictor independiente de ideación a los dos años (OR 10,6). No hay, por ahora, tratamiento que modifique el curso de la enfermedad [fuente no localizada], por lo que el pronóstico funcional depende del control sintomático y del apoyo a la persona y a su familia.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "genética y asesoramiento"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Las recomendaciones combinan la evidencia disponible con el acuerdo profesional donde esta falta: la guía internacional de la European Huntington's Disease Network (Bachoud-Lévi 2019), con 219 enunciados, y el consenso de personas expertas sobre agitación, ansiedad, apatía, psicosis y trastornos del sueño (Anderson 2018), que alcanzó acuerdo alto en 107 de 110 enunciados. Fase presintomática: asesoramiento genético antes y después del test predictivo y seguimiento del ánimo. Fase sintomática: abordaje multidisciplinar; la corea que interfiere se trata con inhibidores de VMAT2, vigilando la depresión [fuente no localizada]; los síntomas neuropsiquiátricos, considerados de forma aislada, con las estrategias farmacológicas y no farmacológicas desarrolladas para otras poblaciones (Anderson 2018), entre ellas los antidepresivos serotoninérgicos para la depresión y la irritabilidad y los antipsicóticos para la psicosis y la agitación grave [fuente no localizada]. El consenso insiste en adaptar el tratamiento al conjunto de síntomas coexistentes y limitar la polifarmacia. Fase avanzada: cuidados paliativos, apoyo a quienes cuidan y planificación anticipada de decisiones [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      },
+      {
+       "ids": [
+        "vmat2_td"
+       ],
+       "t": "inhibidores de VMAT2"
+      },
+      {
+       "ids": [
+        "isrs",
+        "sertralina"
+       ],
+       "t": "antidepresivos"
+      },
+      {
+       "ids": [
+        "risperidona",
+        "olanzapina",
+        "aripiprazol"
+       ],
+       "t": "antipsicóticos"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "intervención familiar"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "El riesgo de muerte por suicidio está aumentado y debe explorarse de forma sistemática tanto en personas portadoras premotoras como en la fase motora (Hubers 2012); son momentos de especial vulnerabilidad la comunicación del resultado genético y las primeras pérdidas de autonomía [fuente no localizada]. Los inhibidores de VMAT2 pueden inducir o agravar depresión, lo que exige vigilancia del ánimo durante su uso [fuente no localizada]. Requieren reevaluación urgente la agresividad o la irritabilidad explosiva con riesgo para terceras personas, la disfagia con atragantamientos o pérdida de peso, las caídas y la psicosis de nueva aparición. La capacidad para decidir y para conducir debe revisarse periódicamente, y conviene planificar las voluntades anticipadas mientras la persona conserva la capacidad.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "cssrs"
+       ],
+       "t": "evaluación del riesgo suicida"
+      },
+      {
+       "ids": [
+        "hetero_agr",
+        "disforia"
+       ],
+       "t": "irritabilidad y agresividad"
+      },
+      {
+       "ids": [
+        "consent_cap",
+        "capacidad_jur"
+       ],
+       "t": "capacidad y apoyos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Anderson KE et al. (2018). Clinical management of neuropsychiatric symptoms of Huntington disease: expert-based consensus guidelines on agitation, anxiety, apathy, psychosis and sleep disorders. J Huntingtons Dis 7:355-366 · PMID 30040737",
+    "Bachoud-Lévi AC et al. (2019). International guidelines for the treatment of Huntington's disease. Front Neurol 10:710 · PMID 31333565",
+    "Hubers AA et al. (2012). Suicidality in Huntington's disease. J Affect Disord 136:550-557 · PMID 22119091"
+   ],
+   "relAdd": [
+    "ideac_suic",
+    "asesor_genet",
+    "discin_tard",
+    "ftd"
+   ]
+  },
+  "wilson": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Las manifestaciones psiquiátricas pueden preceder a las hepáticas y neurológicas y conducir a un diagnóstico erróneo: en la revisión de Zimbrean y Schilsky (2014), el 20 % de las personas afectadas había consultado en psiquiatría antes del diagnóstico. Debe sospecharse ante un primer episodio psicótico, un cuadro afectivo o un cambio de personalidad en una persona joven con temblor, distonía, disartria, alteración de las pruebas hepáticas o sensibilidad inusual a los efectos extrapiramidales de los antipsicóticos [fuente no localizada]. Se diferencia de la esquizofrenia de inicio precoz, del trastorno bipolar y de los cuadros inducidos por sustancias mediante la ceruloplasmina, el cobre en orina de 24 horas, la lámpara de hendidura y, en su caso, el estudio genético y la resonancia magnética, según la guía EASL (2012), cuyo resumen indexado no detalla las pruebas. Entre los cuadros neurológicos, de la enfermedad de Huntington y del parkinsonismo inducido por fármacos.",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "eop",
+        "tb1"
+       ],
+       "t": "psicosis y cuadros afectivos primarios"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida por sustancias"
+      },
+      {
+       "ids": [
+        "huntington",
+        "discin_tard"
+       ],
+       "t": "trastornos del movimiento"
+      },
+      {
+       "ids": [
+        "tpsc_med"
+       ],
+       "t": "psicosis secundaria"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Enfermedad progresiva y mortal sin tratamiento, de presentación habitual entre la infancia y la edad adulta joven [fuente no localizada]. Según Zimbrean y Schilsky (2014), entre el 30 % y el 40 % de las personas presenta manifestaciones psiquiátricas en el momento del diagnóstico; cuando estas preceden a la afectación hepática o neurológica, el intervalo medio hasta el diagnóstico fue de 864,3 días. Las prevalencias publicadas son muy variables (depresión mayor, 4-47 %; psicosis, 1,4-11,3 %). El pronóstico depende de la precocidad del tratamiento quelante y de la adherencia de por vida; los síntomas psiquiátricos pueden mejorar, persistir o aparecer después de iniciado el tratamiento. Al inicio de la quelación se ha descrito empeoramiento neurológico en una parte de los casos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      },
+      {
+       "ids": [
+        "tpsc_med"
+       ],
+       "t": "psicosis de causa médica"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, sospecha y confirmación: cribado con ceruloplasmina y cobre urinario y derivación a hepatología o neurología. Fase 2, tratamiento etiológico: quelantes o sales de zinc de por vida, y trasplante hepático en la insuficiencia hepática aguda o la cirrosis descompensada, conforme a las guías EASL (2012) y AASLD (Schilsky 2023); la guía europea advierte de que no existe ningún ensayo aleatorizado de diseño óptimo, por lo que la calidad de la evidencia es baja. Fase 3, tratamiento psiquiátrico sintomático, sin ensayos controlados específicos: se prefieren fármacos con bajo riesgo extrapiramidal y de hepatotoxicidad, y se ajusta la elección a la función hepática [fuente no localizada]. Fase 4, seguimiento conjunto: la guía AASLD propone un abordaje multidisciplinar; la depresión y los problemas cognitivos comprometen la adherencia, que es el principal determinante del pronóstico. Estudio de familiares de primer grado.",
+     "links": [
+      {
+       "ids": [
+        "quetiapina",
+        "aripiprazol"
+       ],
+       "t": "antipsicóticos (uso sintomático; sin guía específica)"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "estudio familiar"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión comórbida"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Son urgencias médicas la insuficiencia hepática aguda (ictericia, coagulopatía, anemia hemolítica) y el empeoramiento neurológico rápido tras iniciar o suspender el tratamiento quelante [fuente no localizada]. La interrupción del tratamiento por una descompensación psiquiátrica o por falta de adherencia puede precipitar un deterioro hepático grave, por lo que cualquier abandono exige reevaluación inmediata [fuente no localizada]. En el uso de antipsicóticos hay que vigilar distonía aguda, parkinsonismo y síndrome neuroléptico maligno. Deben explorarse la ideación suicida, la desinhibición y la impulsividad, y evitarse el alcohol y los fármacos hepatotóxicos.",
+     "links": [
+      {
+       "ids": [
+        "enc_hep"
+       ],
+       "t": "encefalopatía hepática"
+      },
+      {
+       "ids": [
+        "snm",
+        "biperideno"
+       ],
+       "t": "efectos extrapiramidales graves"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "impulsiv"
+       ],
+       "t": "riesgo conductual"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "European Association for the Study of the Liver (2012). EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol 56:671-685 · PMID 22340672",
+    "Schilsky ML et al. (2023). A multidisciplinary approach to the diagnosis and management of Wilson disease: executive summary of the 2022 Practice Guidance on Wilson disease from the American Association for the Study of Liver Diseases. Hepatology 77:1428-1455 · PMID 36152019"
+   ],
+   "relAdd": [
+    "esq",
+    "eop",
+    "snm",
+    "enc_hep"
+   ]
+  },
+  "porfiria": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Las crisis de porfiria aguda simulan muchos cuadros médicos y psiquiátricos agudos, y la falta de reconocimiento clínico retrasa el tratamiento eficaz (Anderson 2005). Debe considerarse ante dolor abdominal intenso sin causa quirúrgica acompañado de ansiedad, insomnio, agitación, confusión o psicosis, sobre todo si coexisten taquicardia, hiponatremia, neuropatía motora o crisis epilépticas. Se diferencia del trastorno psicótico agudo y transitorio, del trastorno de síntomas neurológicos funcionales, del trastorno de síntomas somáticos, del delirium de otra etiología y de la abstinencia de sustancias [fuente no localizada] por un único criterio: el porfobilinógeno urinario, siempre elevado durante la crisis (Stein 2013) y determinable en una muestra de orina aislada (Anderson 2005). Un resultado normal durante los síntomas hace muy improbable el diagnóstico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "tpsc_med"
+       ],
+       "t": "psicosis agudas"
+      },
+      {
+       "ids": [
+        "conv",
+        "somat_sint"
+       ],
+       "t": "cuadros funcionales y somáticos"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Curso en crisis sobre un fondo de latencia: solo una pequeña minoría de quienes portan la mutación llega a presentar crisis (Bissell y Wang 2015). Las crisis son más frecuentes en mujeres, en relación con cambios de la fisiología ovárica, y se desencadenan por determinados fármacos y por la reducción intensa de la ingesta calórica. La mayoría de las personas sufre una o pocas crisis en su vida [fuente no localizada]; una pequeña proporción desarrolla crisis recurrentes (Stein 2013). El pronóstico inmediato depende de la rapidez del diagnóstico y de evitar la progresión a la crisis neurológica; a largo plazo se han descrito dolor crónico, hipertensión, enfermedad renal y riesgo de hepatocarcinoma [fuente no localizada]. Los síntomas psiquiátricos suelen remitir con la crisis, aunque la ansiedad y la depresión persistentes son frecuentes en las formas recurrentes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dolor_cron_prim"
+       ],
+       "t": "dolor crónico"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase aguda, según la guía de la British and Irish Porphyria Network (Stein 2013) y las recomendaciones de Anderson (2005): retirar los factores precipitantes, analgesia eficaz, control de síntomas con medicación segura, atención a la nutrición y al equilibrio hidroelectrolítico y hemina intravenosa, único tratamiento específico de la crisis (Bissell y Wang 2015); en una persona gravemente enferma el tratamiento no debe demorarse a la espera de la cuantificación. Tratamiento psiquiátrico sintomático: todo psicofármaco debe contrastarse antes con las bases de datos de seguridad en porfiria; las fenotiazinas se han considerado clásicamente seguras, y los barbitúricos y varios antiepilépticos, porfirinogénicos [fuente no localizada]. Prevención: educación sobre desencadenantes (fármacos, ayuno, alcohol), estudio familiar y, en las crisis recurrentes, análogos de GnRH, hemina profiláctica o trasplante hepático (Stein 2013); el givosirán redujo un 74 % la tasa anualizada de crisis frente a placebo en el ensayo ENVISION (Balwani 2020), con más acontecimientos adversos hepáticos y renales.",
+     "links": [
+      {
+       "ids": [
+        "carbamaz",
+        "vpa_bip"
+       ],
+       "t": "antiepilépticos potencialmente porfirinogénicos"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "olanzapina"
+       ],
+       "t": "antipsicóticos: comprobar seguridad"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "estudio familiar"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La crisis aguda es una urgencia potencialmente mortal. Señales de gravedad: debilidad muscular progresiva (neuropatía motora que puede evolucionar a tetraparesia e insuficiencia respiratoria), hiponatremia, crisis epilépticas, taquicardia e hipertensión, y confusión o psicosis [fuente no localizada]. Riesgo iatrogénico específico en psiquiatría y urgencias: tratar la agitación, el dolor o las crisis epilépticas con fármacos porfirinogénicos agrava la crisis; por eso, ante una psicosis aguda con dolor abdominal o hiponatremia inexplicados debe solicitarse el porfobilinógeno urinario antes de etiquetar el cuadro como funcional. El ayuno, las dietas muy restrictivas y el consumo de alcohol son desencadenantes que conviene explorar, también en los trastornos de la conducta alimentaria.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "agitacion"
+       ],
+       "t": "confusión y agitación"
+      },
+      {
+       "ids": [
+        "anor"
+       ],
+       "t": "restricción calórica"
+      },
+      {
+       "ids": [
+        "epilepsia_psic"
+       ],
+       "t": "crisis epilépticas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Anderson KE et al. (2005). Recommendations for the diagnosis and treatment of the acute porphyrias. Ann Intern Med 142:439-450 · PMID 15767622",
+    "Stein P et al. (2013). Best practice guidelines on clinical management of acute attacks of porphyria and their complications. Ann Clin Biochem 50:217-223 · PMID 23605132",
+    "Bissell DM & Wang B (2015). Acute hepatic porphyria. J Clin Transl Hepatol 3:17-26 · PMID 26357631",
+    "Balwani M et al. (2020). Phase 3 trial of RNAi therapeutic givosiran for acute intermittent porphyria. N Engl J Med 382:2289-2301 · PMID 32521132"
+   ],
+   "relAdd": [
+    "delirium",
+    "somat_sint",
+    "carbamaz"
+   ]
+  },
+  "tce_neuro": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "La tarea central es atribuir cada síntoma a su origen. La depresión mayor postraumática debe distinguirse de la apatía por lesión frontal (sin tristeza ni cogniciones depresivas) y del afecto pseudobulbar. El cambio de personalidad con desinhibición plantea el diferencial con la demencia frontotemporal variante conductual, de curso progresivo, y con la manía secundaria. El trastorno de estrés postraumático puede coexistir incluso con amnesia del suceso [fuente no localizada], y comparte con el síndrome posconmocional la irritabilidad, el insomnio y las quejas de concentración. La psicosis post-TCE se diferencia de la esquizofrenia por la relación temporal y la presencia de lesión estructural o de epilepsia. El consumo de alcohol y otras sustancias puede ser causa del traumatismo, consecuencia o factor de confusión. En contexto pericial hay que valorar la validez de los síntomas y el estado premórbido.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "apatia",
+        "labil_incont"
+       ],
+       "t": "depresión, apatía y afecto pseudobulbar"
+      },
+      {
+       "ids": [
+        "ftd",
+        "mania_sec",
+        "desinhib"
+       ],
+       "t": "síndrome frontal"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      },
+      {
+       "ids": [
+        "psiep",
+        "esq"
+       ],
+       "t": "psicosis"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm",
+        "perit_forense"
+       ],
+       "t": "valoración pericial"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "En una cohorte de 559 personas adultas hospitalizadas por TCE de leve complicado a grave, el 53,1 % cumplió criterios de depresión mayor al menos una vez durante el primer año; fueron predictores la depresión en el momento de la lesión o previa a ella, la edad más joven y la dependencia de alcohol a lo largo de la vida, y solo el 44 % de quienes tenían depresión recibió antidepresivos o asesoramiento psicológico (Bombardier 2010). La depresión predijo de forma independiente peor calidad de vida al año. En el registro nacional danés, el TCE se asoció a mayor riesgo de muerte por suicidio (razón de tasas de incidencia ajustada 1,90; 2,38 en el TCE grave) (Madsen 2018), y un metaanálisis halló un riesgo relativo de 2,03 tras conmoción o TCE leve (Fralick 2019). La mayoría de las personas con conmoción se recupera por completo; los cambios de personalidad tras lesiones graves tienden a persistir [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "ideac_suic"
+       ],
+       "t": "depresión y riesgo suicida"
+      },
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "deterioro cognitivo"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase aguda y subaguda: tratamiento del delirium postraumático, evitando en lo posible fármacos que empeoren la cognición o reduzcan el umbral convulsivo. Fase de rehabilitación: rehabilitación neuropsicológica, psicoeducación de la persona y su familia y cribado sistemático de la depresión, que está infratratada (Bombardier 2010). Para la depresión se emplean antidepresivos serotoninérgicos y psicoterapia adaptada a los déficits cognitivos, con evidencia limitada [fuente no localizada]; en un ensayo aleatorizado con 94 participantes, la sertralina previno la aparición de trastornos depresivos durante 24 semanas (número necesario a tratar 5,9; IC 95 %: 3,1-71,1), hallazgo pendiente de replicación (Jorge 2016). Irritabilidad y agresividad: intervención conductual y ambiental en primer lugar; el uso de psicofármacos es en gran parte fuera de indicación [fuente no localizada]. Fase crónica: reintegración laboral y social, y abordaje del consumo de sustancias.",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "sertralina",
+        "isrs"
+       ],
+       "t": "antidepresivos"
+      },
+      {
+       "ids": [
+        "hetero_agr",
+        "agitacion"
+       ],
+       "t": "agresividad"
+      },
+      {
+       "ids": [
+        "ips_empleo",
+        "interv_fam"
+       ],
+       "t": "rehabilitación psicosocial"
+      },
+      {
+       "ids": [
+        "phq9"
+       ],
+       "t": "cribado de depresión"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "El riesgo de muerte por suicidio es aproximadamente el doble que en la población sin TCE y aumenta con la gravedad y con el número de contactos médicos por traumatismo (Madsen 2018), por lo que debe evaluarse de forma periódica y no solo en el primer año. Exigen reevaluación neurológica urgente el deterioro cognitivo o conductual nuevo o rápidamente progresivo, la cefalea creciente, las crisis epilépticas y la disminución del nivel de conciencia (hematoma subdural crónico, hidrocefalia, epilepsia postraumática) [fuente no localizada]. La desinhibición y la impulsividad obligan a valorar el riesgo para terceras personas, la conducción y el acceso a medios letales. En la evaluación pericial, la discrepancia entre quejas, hallazgos y funcionamiento requiere pruebas de validez de síntomas antes de concluir.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "cssrs"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "epilepsia_psic"
+       ],
+       "t": "epilepsia postraumática"
+      },
+      {
+       "ids": [
+        "impulsiv",
+        "hetero_agr"
+       ],
+       "t": "riesgo para terceras personas"
+      },
+      {
+       "ids": [
+        "perit_forense",
+        "sims_tomm"
+       ],
+       "t": "pericia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bombardier CH et al. (2010). Rates of major depressive disorder and clinical outcomes following traumatic brain injury. JAMA 303:1938-1945 · PMID 20483970",
+    "Madsen T et al. (2018). Association between traumatic brain injury and risk of suicide. JAMA 320:580-588 · PMID 30120477",
+    "Fralick M et al. (2019). Association of concussion with the risk of suicide: a systematic review and meta-analysis. JAMA Neurol 76:144-151 · PMID 30419085",
+    "Jorge RE et al. (2016). Sertraline for preventing mood disorders following traumatic brain injury: a randomized clinical trial. JAMA Psychiatry 73:1041-1047 · PMID 27626622"
+   ],
+   "relAdd": [
+    "ideac_suic",
+    "ptsd",
+    "apatia",
+    "perit_forense",
+    "delirium",
+    "sertralina"
+   ]
+  },
+  "em_neuro": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Los síntomas de la esclerosis múltiple se solapan con los depresivos: la fatiga, el enlentecimiento, el insomnio y las quejas cognitivas pueden deberse a la enfermedad, a la depresión o a ambas, de modo que el diagnóstico de depresión debe apoyarse en el ánimo, la anhedonia y las cogniciones depresivas más que en los síntomas neurovegetativos [fuente no localizada]. El afecto pseudobulbar (llanto o risa involuntarios y desproporcionados) se distingue de la depresión por la disociación entre expresión y vivencia. La euforia de las formas avanzadas se diferencia de la hipomanía por su carácter estable y la ausencia de aceleración, y de la manía inducida por corticoides por la relación temporal [fuente no localizada]. Los síntomas neurológicos fluctuantes sin correlato en la exploración ni en la resonancia plantean el diferencial con el trastorno de síntomas neurológicos funcionales, que puede coexistir. La psicosis obliga a descartar causa farmacológica y otras enfermedades inflamatorias.",
+     "links": [
+      {
+       "ids": [
+        "dep_med",
+        "ddm"
+       ],
+       "t": "depresión"
+      },
+      {
+       "ids": [
+        "labil_incont"
+       ],
+       "t": "afecto pseudobulbar"
+      },
+      {
+       "ids": [
+        "mania_sec",
+        "corticoides_psiq"
+       ],
+       "t": "manía y corticoides"
+      },
+      {
+       "ids": [
+        "conv"
+       ],
+       "t": "síntomas neurológicos funcionales"
+      },
+      {
+       "ids": [
+        "tpsc_med",
+        "pclupus"
+       ],
+       "t": "psicosis secundaria"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "En la revisión sistemática de Marrie (2015), con 118 estudios, las prevalencias en estudios poblacionales fueron del 23,7 % para la depresión, 21,9 % para la ansiedad, 5,83 % para el trastorno bipolar y 4,3 % para la psicosis; la incidencia está poco estudiada. La comorbilidad psiquiátrica se asocia a peor calidad de vida, más fatiga y menor adherencia al tratamiento modificador de la enfermedad. La depresión no guarda una relación simple con la discapacidad física y puede aparecer en cualquier fase [fuente no localizada]. El deterioro cognitivo (velocidad de procesamiento, memoria) puede estar presente desde fases tempranas y progresa con la enfermedad [fuente no localizada]. La guía de la American Academy of Neurology considera insuficiente la evidencia para determinar los efectos psiquiátricos de los tratamientos modificadores y de los corticoides, así como los factores de riesgo de suicidio (Minden 2014).",
+     "links": [
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      },
+      {
+       "ids": [
+        "fatdep"
+       ],
+       "t": "fatiga"
+      },
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "evaluación cognitiva"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, cribado: la guía de la American Academy of Neurology (Minden 2014) admite, con nivel C, el inventario de depresión de Beck y un instrumento de dos preguntas para la depresión, y una escala específica para el afecto pseudobulbar. Fase 2, tratamiento de la depresión y la ansiedad: la misma guía concluye que la evidencia es insuficiente para apoyar o refutar los antidepresivos y las psicoterapias individuales o grupales evaluados, y que puede considerarse un programa de terapia cognitivo-conductual administrado por teléfono (nivel C); en la práctica se aplican las pautas generales de la depresión, eligiendo fármacos según interacciones y efectos sobre fatiga, función sexual y vejiga [fuente no localizada]. Afecto pseudobulbar: puede considerarse dextrometorfano con quinidina (nivel C). Fase 3: rehabilitación cognitiva, ejercicio adaptado y coordinación con neurología; revisión del tratamiento ante síntomas afectivos coincidentes con corticoides.",
+     "links": [
+      {
+       "ids": [
+        "bdi2",
+        "phq9",
+        "hads"
+       ],
+       "t": "instrumentos de cribado"
+      },
+      {
+       "ids": [
+        "tcc_dep",
+        "activ_conduct"
+       ],
+       "t": "psicoterapia"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "antidepresivos"
+      },
+      {
+       "ids": [
+        "corticoides_psiq"
+       ],
+       "t": "corticoides"
+      },
+      {
+       "ids": [
+        "labil_incont"
+       ],
+       "t": "afecto pseudobulbar"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La ideación suicida debe explorarse de forma activa, en particular cuando coinciden depresión, aislamiento social, consumo de alcohol y progresión reciente de la discapacidad [fuente no localizada]. Requieren reevaluación urgente: manía o psicosis de nueva aparición durante o tras pulsos de corticoides; cambio conductual, confusional o cognitivo subagudo en una persona tratada con inmunosupresores (posibilidad de infección oportunista del sistema nervioso central, como la leucoencefalopatía multifocal progresiva) [fuente no localizada]; y empeoramiento afectivo tras iniciar o cambiar el tratamiento modificador. El empeoramiento neurológico transitorio con fiebre o infección (pseudobrote) no debe interpretarse como funcional sin exploración. Conviene revisar interacciones y carga anticolinérgica de los tratamientos sintomáticos.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "cssrs"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "mania_sec",
+        "corticoides_psiq"
+       ],
+       "t": "manía por corticoides"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "cuadro confusional"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Marrie RA et al. (2015). The incidence and prevalence of psychiatric disorders in multiple sclerosis: a systematic review. Mult Scler 21:305-317 · PMID 25583845",
+    "Minden SL et al. (2014). Evidence-based guideline: assessment and management of psychiatric disorders in individuals with MS: report of the Guideline Development Subcommittee of the American Academy of Neurology. Neurology 82:174-181 · PMID 24376275"
+   ],
+   "relAdd": [
+    "corticoides_psiq",
+    "conv",
+    "ideac_suic"
+   ]
+  },
+  "sreat": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Frente a un primer episodio psicótico primario o un trastorno afectivo, orientan a encefalitis autoinmune el inicio subagudo, las crisis epilépticas, los déficits de memoria, los movimientos anormales, la disautonomía, la catatonia, la hiponatremia y la disminución del nivel de conciencia; el consenso de Pollak (2020) propone categorías de psicosis autoinmune posible, probable y definida para la práctica psiquiátrica. Hay que diferenciarla de la encefalitis anti-NMDA, de las encefalitis infecciosas, del delirium tóxico-metabólico, de la psicosis epiléptica, del lupus neuropsiquiátrico y de las demencias rápidamente progresivas: en la serie de Castillo (2006), las veinte personas con SREAT recibieron inicialmente otro diagnóstico (los más frecuentes: encefalitis vírica, enfermedad de Creutzfeldt-Jakob o demencia degenerativa). Los anticuerpos antitiroideos son poco específicos: se detectaron con frecuencia similar en la encefalitis autoinmune posible (8,1 %) y en los grupos de control (8,2 %), por lo que el diagnóstico de encefalopatía de Hashimoto exige excluir de forma sistemática las encefalitis mediadas por anticuerpos (Mattozzi 2020).",
+     "links": [
+      {
+       "ids": [
+        "nmda"
+       ],
+       "t": "encefalitis anti-NMDA"
+      },
+      {
+       "ids": [
+        "esq",
+        "psbreve",
+        "tpsc_med"
+       ],
+       "t": "psicosis primarias y secundarias"
+      },
+      {
+       "ids": [
+        "delirium",
+        "psiep",
+        "pclupus"
+       ],
+       "t": "otras causas orgánicas"
+      },
+      {
+       "ids": [
+        "catatonia"
+       ],
+       "t": "catatonia"
+      },
+      {
+       "ids": [
+        "dem",
+        "endocrino"
+       ],
+       "t": "demencia y tiroides"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Inicio habitualmente subagudo, en días o semanas, con curso que puede ser monofásico o con recaídas [fuente no localizada]. El pronóstico depende del anticuerpo, de la presencia de un tumor asociado y de la rapidez con que se instaura la inmunoterapia [fuente no localizada]; en las formas con afectación límbica pueden persistir déficits de memoria. Para la encefalopatía de Hashimoto, el nombre «sensible a corticoides» promete más de lo que los datos sostienen: entre las 24 personas que cumplían los criterios previos al tratamiento, solo 6 de las 19 valorables (31,6 %) respondieron por completo a los corticoides, y esos criterios no predijeron la respuesta (Mattozzi 2020). La mediana de edad de inicio fue de 56 años en la serie de Castillo (2006) y de 48 en la de Mattozzi (2020).",
+     "links": [
+      {
+       "ids": [
+        "nmda"
+       ],
+       "t": "comparación con la encefalitis anti-NMDA"
+      },
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "secuelas cognitivas"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, sospecha y estudio: resonancia magnética, electroencefalograma, líquido cefalorraquídeo y anticuerpos neuronales en suero y líquido, con búsqueda de neoplasia según el síndrome, siguiendo los criterios de Graus (2016). Fase 2, inmunoterapia de primera línea: en la encuesta internacional de Abboud (2021), el 84 % de las personas expertas eligió corticoides, solos o combinados con inmunoglobulinas intravenosas o plasmaféresis, para la presentación general. Fase 3, segunda línea si no hay respuesta: el rituximab fue la opción preferida por el 80 % cuando los anticuerpos eran desconocidos. Tratamiento psiquiátrico sintomático: prudente, con preferencia por benzodiacepinas en la catatonia y la agitación y por antipsicóticos de bajo riesgo extrapiramidal, dada la mayor vulnerabilidad a efectos adversos descrita en las encefalitis autoinmunes [fuente no localizada]; el consenso de Pollak (2020) detalla el manejo combinado psiquiátrico e inmunológico. Fase 4: rehabilitación cognitiva y seguimiento conjunto con neurología.",
+     "links": [
+      {
+       "ids": [
+        "nmda",
+        "catatonia"
+       ],
+       "t": "manejo compartido con la encefalitis anti-NMDA"
+      },
+      {
+       "ids": [
+        "quetiapina",
+        "olanzapina"
+       ],
+       "t": "antipsicóticos (uso sintomático prudente)"
+      },
+      {
+       "ids": [
+        "corticoides_psiq"
+       ],
+       "t": "efectos psiquiátricos de los corticoides"
+      },
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "evaluación cognitiva"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Requieren traslado a un entorno médico con monitorización: crisis epilépticas repetidas o estado epiléptico, disminución del nivel de conciencia, disautonomía (inestabilidad de frecuencia cardiaca, tensión arterial o temperatura), hipoventilación, catatonia e hiponatremia. La rigidez, la fiebre y la elevación de creatina-cinasa tras iniciar un antipsicótico obligan a suspenderlo y a descartar un síndrome neuroléptico maligno o un empeoramiento de la propia encefalitis [fuente no localizada]. Una psicosis de inicio agudo con síntomas neurológicos no debe ingresarse en una unidad de psiquiatría sin estudio orgánico. Unos anticuerpos antitiroideos positivos no justifican por sí solos el diagnóstico ni la inmunoterapia (Mattozzi 2020), y los corticoides pueden inducir a su vez síntomas afectivos o psicóticos.",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "catatonia"
+       ],
+       "t": "síndrome neuroléptico maligno y catatonia"
+      },
+      {
+       "ids": [
+        "delirium",
+        "psiep"
+       ],
+       "t": "conciencia y crisis"
+      },
+      {
+       "ids": [
+        "corticoides_psiq"
+       ],
+       "t": "corticoides"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Abboud H et al. (2021). Autoimmune encephalitis: proposed best practice recommendations for diagnosis and acute management. J Neurol Neurosurg Psychiatry 92:757-768 · PMID 33649022",
+    "Mattozzi S et al. (2020). Hashimoto encephalopathy in the 21st century. Neurology 94:e217-e224 · PMID 31882532",
+    "Castillo P et al. (2006). Steroid-responsive encephalopathy associated with autoimmune thyroiditis. Arch Neurol 63:197-202 · PMID 16476807"
+   ],
+   "relAdd": [
+    "catatonia",
+    "endocrino",
+    "snm",
+    "corticoides_psiq"
+   ]
+  },
+  "pandas": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "El rasgo definitorio es el inicio abrupto, en días, de síntomas obsesivo-compulsivos o de restricción alimentaria, lo que lo distingue del trastorno obsesivo-compulsivo pediátrico habitual, de comienzo insidioso. Deben diferenciarse: los trastornos de tics y el síndrome de Tourette, cuyo curso natural es ondulante y puede simular exacerbaciones postinfecciosas; la corea de Sydenham, manifestación mayor de la fiebre reumática [fuente no localizada]; la encefalitis anti-NMDA y otras encefalitis autoinmunes, que cursan con crisis, alteración de conciencia o movimientos anormales; la anorexia nerviosa y el trastorno de evitación o restricción de la ingesta; la psicosis de inicio precoz, y la regresión conductual de otras causas. La conferencia de consenso de 2013 propuso una evaluación sistemática multidisciplinar para delimitar el diagnóstico (Chang 2015). Un título elevado de anticuerpos antiestreptocócicos, frecuente en la infancia, no demuestra relación causal [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "toc_ped",
+        "toc_dsm"
+       ],
+       "t": "TOC de inicio insidioso"
+      },
+      {
+       "ids": [
+        "tics_tr",
+        "tourette"
+       ],
+       "t": "tics"
+      },
+      {
+       "ids": [
+        "nmda",
+        "sreat"
+       ],
+       "t": "encefalitis autoinmunes"
+      },
+      {
+       "ids": [
+        "arfid",
+        "anor"
+       ],
+       "t": "restricción alimentaria"
+      },
+      {
+       "ids": [
+        "eop",
+        "regres_cond"
+       ],
+       "t": "psicosis precoz y regresión"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Se describe un inicio prepuberal y un curso episódico, con remisiones y exacerbaciones que en la descripción original se relacionaron temporalmente con infecciones estreptocócicas (Swedo 1998). La historia natural a largo plazo es poco conocida y no hay cifras pronósticas sólidas: los estudios disponibles son escasos, heterogéneos y con alto riesgo de sesgo (Sigra 2018). Una parte de los casos evoluciona hacia un trastorno obsesivo-compulsivo o de tics de curso crónico indistinguible de las formas habituales [fuente no localizada]. La falta de un biomarcador validado y la controversia sobre la entidad condicionan tanto el infradiagnóstico como el sobrediagnóstico, con el consiguiente riesgo de tratamientos no probados.",
+     "links": [
+      {
+       "ids": [
+        "toc_ped",
+        "tics_tr"
+       ],
+       "t": "evolución a TOC o tics crónicos"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, evaluación: historia detallada del inicio, exploración pediátrica y neurológica, y estudio de infección activa según las recomendaciones de consenso (Chang 2015). Fase 2, tratamiento de base: el del trastorno obsesivo-compulsivo y de los tics en la infancia —terapia cognitivo-conductual con exposición y prevención de respuesta y, si procede, inhibidores selectivos de la recaptación de serotonina—, con apoyo a la familia y a la escuela; antibiótico solo si hay infección estreptocócica documentada. Fase 3, inmunoterapia: la revisión sistemática de Sigra (2018) identificó doce estudios (penicilina, azitromicina, inmunoglobulinas intravenosas, plasmaféresis, amigdalectomía, terapia cognitivo-conductual, antiinflamatorios y corticoides) y concluyó que la investigación rigurosa es escasa y con alto riesgo de sesgo. En el ensayo controlado de Williams (2016), las inmunoglobulinas intravenosas no demostraron superioridad frente a placebo (35 participantes; 35 % frente a 22 % de respuesta a las seis semanas, diferencia no significativa). Por ello la inmunoterapia queda reservada a contextos especializados o de investigación.",
+     "links": [
+      {
+       "ids": [
+        "tcc_inf",
+        "epr"
+       ],
+       "t": "TCC con exposición y prevención de respuesta"
+      },
+      {
+       "ids": [
+        "psicofarm_inf",
+        "isrs"
+       ],
+       "t": "psicofármacos en la infancia"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "apoyo familiar"
+      },
+      {
+       "ids": [
+        "toc_ped"
+       ],
+       "t": "tratamiento del TOC pediátrico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Requieren atención urgente: la restricción grave de alimentos o líquidos con pérdida de peso o deshidratación; la ideación suicida, la autolesión o la agresividad intensa; y la aparición de crisis epilépticas, alteración del nivel de conciencia, catatonia, movimientos coreicos o signos neurológicos focales, que obligan a descartar una encefalitis autoinmune u otra enfermedad neurológica antes de mantener el diagnóstico. En el plano de la seguridad terapéutica, deben evitarse los ciclos prolongados de antibióticos, los corticoides, las inmunoglobulinas o la plasmaféresis fuera de un equipo especializado, por la falta de eficacia demostrada (Sigra 2018; Williams 2016) y por sus riesgos potenciales [fuente no localizada]. La familia necesita una información honesta sobre la incertidumbre diagnóstica.",
+     "links": [
+      {
+       "ids": [
+        "suic_adol",
+        "ansi_adol"
+       ],
+       "t": "riesgo suicida y autolesión"
+      },
+      {
+       "ids": [
+        "nmda",
+        "catatonia"
+       ],
+       "t": "encefalitis y catatonia"
+      },
+      {
+       "ids": [
+        "arfid"
+       ],
+       "t": "restricción alimentaria"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Chang K et al. (2015). Clinical evaluation of youth with pediatric acute-onset neuropsychiatric syndrome (PANS): recommendations from the 2013 PANS Consensus Conference. J Child Adolesc Psychopharmacol 25:3-13 · PMID 25325534",
+    "Sigra S et al. (2018). Treatment of PANDAS and PANS: a systematic review. Neurosci Biobehav Rev 86:51-65 · PMID 29309797",
+    "Williams KA et al. (2016). Randomized, controlled trial of intravenous immunoglobulin for pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections. J Am Acad Child Adolesc Psychiatry 55:860-867.e2 · PMID 27663941"
+   ],
+   "relAdd": [
+    "nmda",
+    "arfid",
+    "eop"
+   ]
+  },
+  "tpsc_med": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "El diagnóstico exige demostrar, por la historia, la exploración o las pruebas complementarias, que la psicosis es consecuencia fisiopatológica directa de la enfermedad. Se diferencia del delirium porque en este la alteración de la atención y de la conciencia es central (el DSM-5-TR no permite el diagnóstico si los síntomas aparecen solo durante un delirium); de la psicosis inducida por sustancias o medicamentos, por la relación temporal con el consumo o la retirada; de la esquizofrenia y otros trastornos psicóticos primarios, por la ausencia de una causa médica plausible, la edad de inicio y el perfil clínico; de la depresión psicótica y la manía, y de la psicosis asociada a los trastornos neurocognitivos mayores. La coexistencia de una enfermedad médica no basta: orientan a psicosis secundaria la presentación atípica, la relación temporal con una causa médica detectable, los indicios de una relación fisiológica causal directa y la ausencia de datos de una psicosis primaria que explique mejor el cuadro (Keshavan y Kaneko 2013).",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida por sustancias"
+      },
+      {
+       "ids": [
+        "esq",
+        "psbreve",
+        "tdelirant",
+        "psi_tardia"
+       ],
+       "t": "psicosis primarias"
+      },
+      {
+       "ids": [
+        "dpsic",
+        "mania_sec"
+       ],
+       "t": "psicosis afectivas"
+      },
+      {
+       "ids": [
+        "lewy",
+        "dem"
+       ],
+       "t": "psicosis en demencias"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "No hay un curso propio: el inicio, la duración y el pronóstico son los de la enfermedad causal. Puede ser un episodio único y reversible cuando la causa se corrige (endocrina, metabólica, carencial, infecciosa o autoinmune tratada a tiempo), recurrente (epilepsia, enfermedades inflamatorias en brotes) o persistente y progresivo (enfermedades neurodegenerativas, lesiones estructurales) [fuente no localizada]. La persistencia de la psicosis tras resolverse la causa obliga a reconsiderar un trastorno psicótico primario desencadenado o coincidente. No se dispone de cifras fiables de frecuencia global, porque dependen del dispositivo asistencial y de la exhaustividad del estudio; no existe un estándar consensuado para el estudio médico inicial del primer episodio psicótico (Freudenreich 2009).",
+     "links": [
+      {
+       "ids": [
+        "psiep",
+        "pclupus",
+        "nmda"
+       ],
+       "t": "causas con curso recurrente o tratable"
+      },
+      {
+       "ids": [
+        "huntington",
+        "lewy"
+       ],
+       "t": "causas neurodegenerativas"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, estudio etiológico escalonado: Freudenreich (2009) propone combinar un cribado amplio, la exclusión de enfermedades concretas seleccionadas por su carácter tratable y su epidemiología, y la obtención de una línea de base médica. Ante signos de alarma se añaden neuroimagen, electroencefalograma, punción lumbar y anticuerpos neuronales, según el consenso sobre psicosis autoinmune (Pollak 2020). Fase 2, tratamiento de la causa, que es el tratamiento principal. Fase 3, tratamiento sintomático con antipsicóticos mientras actúa el etiológico o cuando la causa no es reversible, eligiendo el fármaco por el perfil de riesgo de la enfermedad de base: vulnerabilidad extrapiramidal en las enfermedades de los ganglios basales y en la demencia con cuerpos de Lewy, umbral convulsivo en la epilepsia, metabolismo en la hepatopatía y la nefropatía [fuente no localizada]. Fase 4: reevaluar periódicamente la necesidad del antipsicótico y retirarlo si la causa se ha resuelto.",
+     "links": [
+      {
+       "ids": [
+        "nmda",
+        "sreat"
+       ],
+       "t": "psicosis autoinmune"
+      },
+      {
+       "ids": [
+        "b12",
+        "endocrino",
+        "enc_hep"
+       ],
+       "t": "causas carenciales, endocrinas y metabólicas"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "quetiapina",
+        "risperidona"
+       ],
+       "t": "antipsicóticos (uso sintomático)"
+      },
+      {
+       "ids": [
+        "lewy",
+        "parkinson_psiq",
+        "psiep"
+       ],
+       "t": "poblaciones con riesgo específico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Obligan a un estudio orgánico urgente antes de asumir una psicosis primaria: fiebre, cefalea intensa o signos meníngeos; disminución o fluctuación del nivel de conciencia; crisis epilépticas; signos neurológicos focales o movimientos anormales; catatonia; disautonomía; inicio muy agudo o a edad atípica; alucinaciones visuales, olfativas o táctiles predominantes; deterioro cognitivo rápido; inmunodepresión o infección por VIH, y antecedente reciente de traumatismo craneoencefálico. La reacción adversa desproporcionada a los antipsicóticos (rigidez intensa, hipertermia, confusión) exige suspenderlos y descartar un síndrome neuroléptico maligno o una encefalitis autoinmune (Pollak 2020). La agitación en este contexto se maneja en un entorno médico, con monitorización.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "alteración de conciencia"
+      },
+      {
+       "ids": [
+        "catatonia",
+        "snm"
+       ],
+       "t": "catatonia y síndrome neuroléptico maligno"
+      },
+      {
+       "ids": [
+        "aluc_vis"
+       ],
+       "t": "alucinaciones visuales"
+      },
+      {
+       "ids": [
+        "vih_ncd",
+        "neurosif",
+        "tce_neuro"
+       ],
+       "t": "causas que no deben pasarse por alto"
+      },
+      {
+       "ids": [
+        "agitacion"
+       ],
+       "t": "agitación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Freudenreich O, Schulz SC & Goff DC (2009). Initial medical work-up of first-episode psychosis: a conceptual review. Early Interv Psychiatry 3:10-18 · PMID 21352170",
+    "Pollak TA et al. (2020). Autoimmune psychosis: an international consensus on an approach to the diagnosis and management of psychosis of suspected autoimmune origin. Lancet Psychiatry 7:93-108 · PMID 31669058"
+   ],
+   "relAdd": [
+    "delirium",
+    "psust",
+    "huntington",
+    "lewy",
+    "endocrino",
+    "snm",
+    "tce_neuro",
+    "vih_ncd"
+   ]
+  },
+  "ncd_leve": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Frente al envejecimiento normal y a la queja cognitiva subjetiva, exige un declive objetivado en pruebas estandarizadas respecto al nivel previo. Frente al trastorno neurocognitivo mayor, el criterio es funcional: la persona conserva la independencia en las actividades instrumentales, aunque con mayor esfuerzo o estrategias compensatorias. Frente al delirium, el inicio es insidioso y la atención y el nivel de conciencia están preservados. La depresión de inicio tardío con síntomas cognitivos es el diferencial más frecuente y puede coexistir o preceder a la demencia. Deben descartarse causas potencialmente reversibles: fármacos con carga anticolinérgica o sedante, benzodiacepinas, déficit de vitamina B12, hipotiroidismo, apnea obstructiva del sueño y consumo de alcohol. En personas adultas más jóvenes hay que considerar el trastorno neurocognitivo asociado al VIH, las secuelas de traumatismo craneoencefálico y un TDAH no diagnosticado.",
+     "links": [
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "trastorno neurocognitivo mayor"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "dcog",
+        "dd_dep_dem",
+        "dep_tardia"
+       ],
+       "t": "depresión con síntomas cognitivos"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "bzd_mayor",
+        "b12",
+        "apnea",
+        "endocrino",
+        "alc_tardio"
+       ],
+       "t": "causas reversibles"
+      },
+      {
+       "ids": [
+        "vih_ncd",
+        "tce_neuro",
+        "tdah_adulto"
+       ],
+       "t": "otras causas en adultos jóvenes"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "La guía de la American Academy of Neurology estimó una prevalencia del deterioro cognitivo leve del 6,7 % entre los 60 y los 64 años, que asciende al 25,2 % entre los 80 y los 84, y una incidencia acumulada de demencia del 14,9 % a los dos años en personas mayores de 65 años con deterioro cognitivo leve (Petersen 2018). En el metaanálisis de Mitchell y Shiri-Feshki (2009), con 41 cohortes, la tasa anual ajustada de conversión a demencia fue del 9,6 % en dispositivos especializados y del 4,9 % en estudios comunitarios; la mayoría de las personas no progresó a demencia ni siquiera tras diez años de seguimiento. Una parte se mantiene estable o revierte a la normalidad. Se asocian a mayor riesgo de progresión el subtipo amnésico, la afectación de varios dominios, los biomarcadores de enfermedad de Alzheimer y los síntomas neuropsiquiátricos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "progresión a demencia"
+      },
+      {
+       "ids": [
+        "apoe_psen"
+       ],
+       "t": "genética de la enfermedad de Alzheimer"
+      },
+      {
+       "ids": [
+        "dep_tardia_dem"
+       ],
+       "t": "depresión como factor de riesgo"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Las recomendaciones proceden de la guía de la American Academy of Neurology (Petersen 2018), que figura como retirada en PubMed y debe leerse como referencia histórica reciente. Fase 1, evaluación: confirmar el declive con instrumentos validados, valorar la funcionalidad y buscar factores de riesgo modificables. Fase 2, corrección de causas: retirar en lo posible los fármacos que empeoran la cognición y tratar los síntomas conductuales y neuropsiquiátricos (nivel B). Fase 3, intervenciones: recomendar ejercicio físico regular (nivel B) y, opcionalmente, entrenamiento cognitivo (nivel C); no existe evidencia de calidad que respalde ningún tratamiento farmacológico, y la guía admite no ofrecer inhibidores de la colinesterasa (nivel B) y exige, si se ofrecen, advertir antes de la falta de evidencia (nivel A). Fase 4, seguimiento: monitorizar la cognición a lo largo del tiempo e informar sobre el diagnóstico, el pronóstico y la planificación a largo plazo (nivel B).",
+     "links": [
+      {
+       "ids": [
+        "mmse_moca",
+        "neuropsico"
+       ],
+       "t": "evaluación cognitiva"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "bzd_mayor"
+       ],
+       "t": "deprescripción"
+      },
+      {
+       "ids": [
+        "donepezilo",
+        "galantamina"
+       ],
+       "t": "inhibidores de la colinesterasa"
+      },
+      {
+       "ids": [
+        "gds15"
+       ],
+       "t": "cribado de depresión"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Obligan a reevaluación urgente o preferente: la progresión rápida en semanas o meses; el inicio agudo o fluctuante con alteración de la atención, que sugiere delirium; los signos neurológicos focales, las crisis epilépticas, la alteración de la marcha con incontinencia o el antecedente de caída con traumatismo craneal [fuente no localizada]; y la aparición de psicosis, desinhibición o cambio de personalidad. En el plano de la seguridad hay que explorar la conducción de vehículos, el manejo de la medicación y del dinero, la vulnerabilidad al abuso económico y el riesgo de muerte por suicidio tras la comunicación del diagnóstico, sobre todo si hay depresión [fuente no localizada]. Es el momento adecuado para planificar anticipadamente decisiones y apoyos, mientras la capacidad está conservada.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "ftd",
+        "psi_tardia"
+       ],
+       "t": "cambio conductual o psicosis"
+      },
+      {
+       "ids": [
+        "suic_mayor"
+       ],
+       "t": "suicidio en la persona mayor"
+      },
+      {
+       "ids": [
+        "cap_dem",
+        "capacidad_jur"
+       ],
+       "t": "capacidad y apoyos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Petersen RC et al. (2018). Practice guideline update summary: mild cognitive impairment: report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology. Neurology 90:126-135 · PMID 29282327 (el título lleva en PubMed la etiqueta «[RETIRED]»)",
+    "Mitchell AJ & Shiri-Feshki M (2009). Rate of progression of mild cognitive impairment to dementia: meta-analysis of 41 robust inception cohort studies. Acta Psychiatr Scand 119:252-265 · PMID 19236314"
+   ],
+   "relAdd": [
+    "delirium",
+    "polifarm",
+    "apnea",
+    "b12",
+    "suic_mayor",
+    "cap_dem"
+   ]
+  },
+  "sfcme": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "El síntoma que más discrimina es el malestar postesfuerzo: un empeoramiento desproporcionado y diferido tras esfuerzos físicos o cognitivos mínimos. En el trastorno depresivo mayor predominan la anhedonia, la pérdida de interés y las cogniciones de culpa o inutilidad, y la actividad tiende a mejorar el estado; en este síndrome la persona conserva el deseo de hacer, pero la actividad la empeora [fuente no localizada]. Deben descartarse causas médicas de fatiga (anemia, hipotiroidismo, apnea obstructiva del sueño, enfermedades autoinmunes, efectos de fármacos) y diferenciarse la fibromialgia, en la que domina el dolor generalizado y que con frecuencia coexiste; el trastorno de síntomas somáticos, que se define por pensamientos, emociones y conductas desproporcionados y no por la fatiga en sí; y la afección posterior a la COVID-19, tras la cual una proporción significativa de personas sigue enferma durante meses con un cuadro similar (Bateman 2021). La neurastenia es su antecedente histórico, no un sinónimo.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "fatdep"
+       ],
+       "t": "depresión y fatiga depresiva"
+      },
+      {
+       "ids": [
+        "fibro",
+        "dolor_cron_prim"
+       ],
+       "t": "dolor crónico"
+      },
+      {
+       "ids": [
+        "somat_sint"
+       ],
+       "t": "trastorno de síntomas somáticos"
+      },
+      {
+       "ids": [
+        "apnea",
+        "endocrino"
+       ],
+       "t": "causas médicas"
+      },
+      {
+       "ids": [
+        "covid_psiq",
+        "neurastenia"
+       ],
+       "t": "COVID-19 y neurastenia"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "El inicio sigue con frecuencia a una infección aguda, y el curso es crónico y fluctuante, con recaídas provocadas por el sobreesfuerzo [fuente no localizada]. La gravedad va de formas leves compatibles con una actividad reducida a formas graves con confinamiento en el domicilio o en la cama [fuente no localizada]. La recuperación completa en personas adultas es infrecuente y el pronóstico es mejor en la infancia y la adolescencia [fuente no localizada]. El infradiagnóstico es la norma: se ha estimado que hasta el 91 % de las personas afectadas en Estados Unidos no está diagnosticado, y quienes lo están reciben a menudo tratamientos inadecuados (Bateman 2021). La depresión y la ansiedad comórbidas empeoran la calidad de vida y deben tratarse por sí mismas, sin atribuirles la causa del síndrome.",
+     "links": [
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión comórbida"
+      },
+      {
+       "ids": [
+        "covid_psiq"
+       ],
+       "t": "cuadros postinfecciosos"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, diagnóstico y validación: aplicar criterios clínicos con malestar postesfuerzo, descartar otras causas e informar sin poner en duda la realidad de los síntomas. Fase 2, manejo de la energía (pacing): ajustar la actividad dentro de los límites que no provocan recaída; la guía NICE NG206 (2021) dejó de recomendar la terapia de ejercicio gradual, y varios organismos han retirado esta y la terapia cognitivo-conductual como tratamientos de elección (Bateman 2021). El ensayo PACE había comunicado una mejoría moderada de la fatiga y la función física con ambas intervenciones y ningún beneficio de la terapia de ritmo adaptativo (White 2011); su metodología ha sido objeto de crítica posterior [fuente no localizada]. Fase 3, tratamiento sintomático del sueño, el dolor y la intolerancia ortostática, y de la depresión o la ansiedad comórbidas; la terapia cognitivo-conductual puede ofrecerse como apoyo para afrontar la enfermedad, no como tratamiento curativo [fuente no localizada]. Fase 4: adaptaciones laborales, educativas y sociales.",
+     "links": [
+      {
+       "ids": [
+        "tcci",
+        "insomnio_sx"
+       ],
+       "t": "sueño"
+      },
+      {
+       "ids": [
+        "dolor_cron_prim",
+        "fibro"
+       ],
+       "t": "dolor"
+      },
+      {
+       "ids": [
+        "dep_med",
+        "isrs"
+       ],
+       "t": "depresión comórbida"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Antes de mantener el diagnóstico deben reevaluarse los datos que sugieren otra enfermedad: pérdida de peso inexplicada, fiebre, adenopatías, signos neurológicos focales, inflamación articular, disnea o dolor torácico, y somnolencia diurna con ronquido [fuente no localizada]. Hay que explorar de forma activa la ideación suicida, asociada al dolor, al aislamiento, a la pérdida funcional y a la experiencia de no ser creído o creída [fuente no localizada]. Las formas graves requieren atención domiciliaria y vigilancia de la nutrición y de las complicaciones de la inmovilidad. En el plano de la seguridad terapéutica, los programas de ejercicio con incrementos fijos pueden provocar recaídas, y la sensibilidad a los fármacos aconseja prudencia al introducirlos [fuente no localizada]. Evitar tanto la psicologización como el abandono asistencial.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "apnea",
+        "stopbang"
+       ],
+       "t": "apnea del sueño"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bateman L et al. (2021). Myalgic encephalomyelitis/chronic fatigue syndrome: essentials of diagnosis and management. Mayo Clin Proc 96:2861-2878 · PMID 34454716",
+    "White PD et al. (2011). Comparison of adaptive pacing therapy, cognitive behaviour therapy, graded exercise therapy, and specialist medical care for chronic fatigue syndrome (PACE): a randomised trial. Lancet 377:823-836 · PMID 21334061"
+   ],
+   "relAdd": [
+    "ddm",
+    "covid_psiq",
+    "neurastenia",
+    "apnea"
+   ]
+  },
+  "derm": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Se diferencia de la tricotilomanía por el objeto de la conducta, aunque ambas son conductas repetitivas centradas en el cuerpo y con frecuencia coexisten. En el trastorno dismórfico corporal el rascado busca corregir un defecto percibido en el aspecto; en el trastorno obsesivo-compulsivo responde a obsesiones (por ejemplo, de contaminación); en la parasitosis delirante, a la convicción de infestación; y en la autolesión no suicida, a la intención de dañarse o de regular un afecto intenso. Deben descartarse las dermatosis pruriginosas y la escabiosis, y la excoriación inducida por sustancias: los estimulantes (cocaína, metanfetamina, catinonas) producen formicación y rascado compulsivo, lo que es relevante en el contexto del chemsex [fuente no localizada]. El DSM-5-TR excluye el diagnóstico cuando la conducta se atribuye a una sustancia, a una afección médica o se explica mejor por otro trastorno mental. La exploración clínica debe ser amplia, física y psiquiátrica (Grant 2012).",
+     "links": [
+      {
+       "ids": [
+        "ttm"
+       ],
+       "t": "tricotilomanía"
+      },
+      {
+       "ids": [
+        "tdc",
+        "toc_dsm"
+       ],
+       "t": "espectro obsesivo-compulsivo"
+      },
+      {
+       "ids": [
+        "ekbom"
+       ],
+       "t": "parasitosis delirante"
+      },
+      {
+       "ids": [
+        "autolesion",
+        "ansi_adol"
+       ],
+       "t": "autolesión no suicida"
+      },
+      {
+       "ids": [
+        "psust",
+        "chemsex_s"
+       ],
+       "t": "estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Los estudios comunitarios sitúan la prevalencia entre el 1,4 % y el 5,4 % (Grant 2012). El inicio es más frecuente en la adolescencia, a menudo coincidiendo con el acné, y el curso tiende a ser crónico con fluctuaciones si no se trata [fuente no localizada]. En el ensayo de Grant (2016), el 89 % de las personas participantes eran mujeres, lo que refleja la composición de las muestras clínicas. Las consecuencias son cicatrices, infecciones y un deterioro social marcado por la vergüenza y la evitación, que retrasan la consulta. La comorbilidad con la tricotilomanía, el trastorno obsesivo-compulsivo, el trastorno dismórfico corporal y la depresión condiciona el pronóstico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ttm",
+        "tdc",
+        "toc_dsm"
+       ],
+       "t": "comorbilidad del espectro"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "depresión"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, evaluación: exploración dermatológica, identificación de desencadenantes (activación, aburrimiento, exploración táctil o visual de la piel) y de comorbilidad. Fase 2, psicoterapia: terapia cognitivo-conductual con entrenamiento en reversión de hábitos o terapia conductual potenciada con aceptación (Grant 2012). Fase 3, farmacoterapia cuando la psicoterapia no basta o no está disponible: en un ensayo aleatorizado de 12 semanas con 66 personas adultas, entre las 53 que completaron el estudio, el 47 % mejoró mucho o muchísimo con N-acetilcisteína frente al 19 % con placebo, sin diferencias en el funcionamiento psicosocial (Grant 2016); los inhibidores de la recaptación de serotonina y la naltrexona se citan como otras opciones (Grant 2012). El metaanálisis de Selles (2016) halló un efecto global grande (g = 1,13), pero solo moderado en los ensayos controlados (g = 0,47), y no encontró evidencia sólida a favor de ningún tratamiento concreto. Fase 4: cuidado de las lesiones y prevención de recaídas. Ningún fármaco tiene esta indicación autorizada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ttm"
+       ],
+       "t": "tratamiento compartido con la tricotilomanía"
+      },
+      {
+       "ids": [
+        "isrs",
+        "fluoxetina"
+       ],
+       "t": "inhibidores de la recaptación de serotonina"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Requieren valoración médica: signos de infección de las lesiones (celulitis, absceso, fiebre), sangrado importante, lesiones profundas que necesitan sutura o cirugía y afectación de zonas de riesgo. En el plano psiquiátrico deben explorarse la ideación suicida, frecuente cuando coexisten depresión o trastorno dismórfico corporal [fuente no localizada], y el consumo de estimulantes, cuya presencia cambia el diagnóstico y el abordaje. La convicción de infestación con aporte de muestras de piel orienta a una parasitosis delirante y requiere un abordaje distinto. Las lesiones de inicio brusco, extensas o con uso de instrumentos obligan a reconsiderar una autolesión, una psicosis o un cuadro inducido por sustancias.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "ekbom"
+       ],
+       "t": "parasitosis delirante"
+      },
+      {
+       "ids": [
+        "psust",
+        "red_danos"
+       ],
+       "t": "consumo de estimulantes"
+      },
+      {
+       "ids": [
+        "autolesion"
+       ],
+       "t": "autolesión"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Grant JE et al. (2012). Skin picking disorder. Am J Psychiatry 169:1143-1149 · PMID 23128921",
+    "Grant JE et al. (2016). N-acetylcysteine in the treatment of excoriation disorder: a randomized clinical trial. JAMA Psychiatry 73:490-496 · PMID 27007062",
+    "Selles RR et al. (2016). A systematic review and meta-analysis of psychiatric treatments for excoriation (skin-picking) disorder. Gen Hosp Psychiatry 41:29-37 · PMID 27143352"
+   ],
+   "relAdd": [
+    "tdc",
+    "toc_dsm",
+    "ekbom",
+    "autolesion",
+    "psust"
+   ]
+  },
+  "pica": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "No se diagnostica antes de los dos años, cuando llevarse objetos a la boca es propio del desarrollo, ni cuando la ingesta forma parte de una práctica culturalmente aceptada, como algunas formas de geofagia. Si aparece en el contexto de otro trastorno mental (trastorno del desarrollo intelectual, trastorno del espectro autista, esquizofrenia) o de una afección médica, incluido el embarazo, el DSM-5-TR solo permite el diagnóstico adicional cuando la conducta es lo bastante grave como para requerir atención clínica específica. Se diferencia de la anorexia nerviosa, en la que pueden ingerirse sustancias no nutritivas para controlar el apetito; del trastorno de evitación o restricción de la ingesta; de la ingestión de objetos como autolesión o en el trastorno facticio, cuya finalidad es dañarse u obtener atención sanitaria; de la ingesta motivada por delirios, y de la tricofagia asociada a la tricotilomanía.",
+     "links": [
+      {
+       "ids": [
+        "di",
+        "tea"
+       ],
+       "t": "neurodesarrollo"
+      },
+      {
+       "ids": [
+        "anor",
+        "arfid"
+       ],
+       "t": "trastornos de la conducta alimentaria"
+      },
+      {
+       "ids": [
+        "autolesion"
+       ],
+       "t": "ingestión de objetos como autolesión"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "ingesta delirante"
+      },
+      {
+       "ids": [
+        "ttm"
+       ],
+       "t": "tricofagia"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Puede iniciarse a cualquier edad; en la infancia suele remitir de forma espontánea y en el trastorno del desarrollo intelectual tiende a persistir, con mayor frecuencia cuanto mayor es la gravedad [fuente no localizada]. En el embarazo y el posparto, un metaanálisis de 70 estudios estimó una prevalencia agregada del 27,8 % (IC 95 %: 22,8-33,3), mayor en África, creciente con la prevalencia de anemia y decreciente con el nivel educativo (Fawcett 2016). Otro metaanálisis, con 43 estudios, asoció la pica a una odds de anemia 2,35 veces mayor (IC 95 %: 1,94-2,85) y a concentraciones más bajas de hemoglobina y de zinc, sin poder establecer la dirección causal (Miao 2015). El pronóstico depende de la sustancia ingerida y de las complicaciones médicas más que de la conducta en sí.",
+     "links": [
+      {
+       "ids": [
+        "emb_peri"
+       ],
+       "t": "embarazo y posparto"
+      },
+      {
+       "ids": [
+        "di"
+       ],
+       "t": "discapacidad intelectual"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "No hay guías de práctica clínica específicas ni fármacos con indicación autorizada [fuente no localizada]. Fase 1, evaluación médica: hemograma, ferritina, zinc y plomo en sangre, y pruebas de imagen o parasitológicas según la sustancia ingerida. Fase 2, corrección de las deficiencias detectadas, en particular la ferropenia, con cuya reposición se ha descrito la remisión de la pagofagia [fuente no localizada]. Fase 3, intervención conductual, que es la modalidad con más respaldo en el trastorno del desarrollo intelectual y el autismo: análisis funcional de la conducta, modificación del entorno para retirar las sustancias, enriquecimiento ambiental y refuerzo diferencial de conductas alternativas [fuente no localizada]. Fase 4, formación de familias y personal de apoyo, y tratamiento del trastorno de base. Deben evitarse las medidas restrictivas desproporcionadas, conforme al enfoque de derechos de las personas con discapacidad.",
+     "links": [
+      {
+       "ids": [
+        "di",
+        "tea"
+       ],
+       "t": "intervención en el neurodesarrollo"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "formación de la familia"
+      },
+      {
+       "ids": [
+        "crpd"
+       ],
+       "t": "derechos de las personas con discapacidad"
+      },
+      {
+       "ids": [
+        "emb_peri"
+       ],
+       "t": "embarazo"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Son urgencias médicas el dolor abdominal con vómitos o distensión (obstrucción, perforación o bezoar), la ingestión de objetos punzantes, pilas o imanes, y la ingestión de sustancias tóxicas. La exposición a pintura antigua o a tierra contaminada obliga a determinar el plomo en sangre, por el riesgo de neurotoxicidad, especialmente en la infancia y el embarazo. Otras complicaciones que requieren atención son la anemia grave, las parasitosis, las lesiones dentales y la desnutrición. En una persona con discapacidad intelectual o autismo sin lenguaje, el cambio brusco de conducta, el rechazo del alimento o la irritabilidad pueden ser la única expresión de una complicación abdominal. En el embarazo conviene preguntar de forma directa y sin juicio, porque la conducta suele ocultarse.",
+     "links": [
+      {
+       "ids": [
+        "di",
+        "tea"
+       ],
+       "t": "expresión atípica del dolor"
+      },
+      {
+       "ids": [
+        "emb_peri"
+       ],
+       "t": "embarazo"
+      },
+      {
+       "ids": [
+        "arfid"
+       ],
+       "t": "desnutrición"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Fawcett EJ, Fawcett JM & Mazmanian D (2016). A meta-analysis of the worldwide prevalence of pica during pregnancy and the postpartum period. Int J Gynaecol Obstet 133:277-283 · PMID 26892693",
+    "Miao D, Young SL & Golden CD (2015). A meta-analysis of pica and micronutrient status. Am J Hum Biol 27:84-93 · PMID 25156147"
+   ],
+   "relAdd": [
+    "anor",
+    "ttm",
+    "emb_peri"
+   ]
+  },
+  "rumiacion_alim": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "La regurgitación es repetida, se produce durante la comida o poco después y se sigue de nueva masticación, deglución o expulsión del alimento (Murray 2019); no va precedida de náuseas ni de arcadas. Esto la distingue de la enfermedad por reflujo gastroesofágico, la gastroparesia, la acalasia y el síndrome de vómitos cíclicos, que deben descartarse por la historia clínica y, si hay dudas, con manometría esofágica de alta resolución con impedancia. Frente a la bulimia nerviosa y la anorexia nerviosa, falta la preocupación por el peso y la figura como motivo de la conducta, aunque la regurgitación puede coexistir con un trastorno alimentario. El trastorno está doblemente clasificado: como trastorno funcional gastroduodenal en los criterios de Roma IV (Stanghellini 2016) y como trastorno de la conducta alimentaria en el DSM, lo que explica que se diagnostique tarde o de forma errónea. No debe confundirse con la rumiación cognitiva.",
+     "links": [
+      {
+       "ids": [
+        "bul",
+        "anor",
+        "arfid"
+       ],
+       "t": "trastornos de la conducta alimentaria"
+      },
+      {
+       "ids": [
+        "sii_eje"
+       ],
+       "t": "trastornos del eje intestino-cerebro"
+      },
+      {
+       "ids": [
+        "pica"
+       ],
+       "t": "otros trastornos de la ingestión"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Puede aparecer en lactantes, en personas con trastorno del desarrollo intelectual y en adolescentes y personas adultas sin discapacidad [fuente no localizada]. La revisión de Murray (2019) subraya que es un trastorno a menudo mal diagnosticado o no reconocido, por lo que los síntomas se prolongan y el tratamiento se demora durante periodos largos. No se dispone de cifras fiables de prevalencia ni de pronóstico a largo plazo. Las complicaciones descritas son pérdida de peso, desnutrición, erosión dental, halitosis y evitación de las comidas en público [fuente no localizada]. Cuando se diagnostica y se explica el mecanismo, la respuesta al tratamiento conductual suele ser favorable [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "di"
+       ],
+       "t": "discapacidad intelectual"
+      },
+      {
+       "ids": [
+        "arfid"
+       ],
+       "t": "evitación de la ingesta"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico por fases",
+     "x": "Fase 1, diagnóstico y explicación: el diagnóstico es clínico, por la historia; explicar que la regurgitación se debe a una contracción aprendida de la pared abdominal reduce exploraciones innecesarias y prepara el tratamiento. Fase 2, respiración diafragmática: es el tratamiento recomendado en primer lugar (Murray 2019); en un estudio con 16 pacientes, la mediana de episodios posprandiales pasó de 5 antes a 1 durante la respiración diafragmática con biorretroalimentación y fue de 3 después, en una única sesión de laboratorio; la técnica aumentó la presión de la unión esofagogástrica y restableció el gradiente de presión gastroesofágico (Halland 2016). Fase 3, otras técnicas como complemento o alternativa cuando la respuesta es parcial, y tratamiento de la comorbilidad ansiosa, depresiva o alimentaria. El baclofeno se ha estudiado en casos refractarios [fuente no localizada]. En lactantes y en personas con discapacidad intelectual se emplean intervenciones conductuales y de la interacción durante la alimentación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tcc_e"
+       ],
+       "t": "tratamiento del trastorno alimentario comórbido"
+      },
+      {
+       "ids": [
+        "bul",
+        "arfid"
+       ],
+       "t": "comorbilidad alimentaria"
+      },
+      {
+       "ids": [
+        "di"
+       ],
+       "t": "discapacidad intelectual"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Requieren estudio digestivo antes de aceptar el diagnóstico: disfagia, dolor al tragar, hematemesis, vómitos nocturnos, pérdida de peso importante o anemia [fuente no localizada]. Son motivo de atención preferente la desnutrición, la deshidratación y las alteraciones electrolíticas, sobre todo en lactantes y en personas con discapacidad, así como la sospecha de aspiración (tos durante las comidas, infecciones respiratorias de repetición) [fuente no localizada]. Hay que preguntar de forma directa por restricción de la ingesta, vómito autoinducido y preocupación por el peso, porque un trastorno alimentario encubierto cambia el riesgo y el plan terapéutico. La vergüenza y el aislamiento social asociados justifican explorar el ánimo.",
+     "links": [
+      {
+       "ids": [
+        "anor",
+        "bul"
+       ],
+       "t": "trastorno alimentario encubierto"
+      },
+      {
+       "ids": [
+        "di"
+       ],
+       "t": "población vulnerable"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "ánimo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Murray HB et al. (2019). Diagnosis and treatment of rumination syndrome: a critical review. Am J Gastroenterol 114:562-578 · PMID 30789419",
+    "Halland M et al. (2016). Diaphragmatic breathing for rumination syndrome: efficacy and mechanisms of action. Neurogastroenterol Motil 28:384-391 · PMID 26661735",
+    "Stanghellini V et al. (2016). Gastroduodenal disorders. Gastroenterology 150:1380-1392 · PMID 27147122"
+   ],
+   "relAdd": [
+    "bul",
+    "sii_eje",
+    "di"
+   ]
+  }
+ },
+ "add": []
+}
