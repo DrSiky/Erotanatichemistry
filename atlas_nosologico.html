@@ -276,6 +276,13 @@ body.eink .symr .bar i{background:#000}
 .figwrap{overflow:auto;max-height:76vh;border:1px solid var(--line);background:#fff;margin-top:8px}
 .figwrap svg{display:block;height:auto}
 .figwrap.pm{max-height:66vh}
+.modal.full{padding:0;align-items:stretch;justify-content:stretch}
+.mbox.full{max-width:none;width:100vw;height:100vh;max-height:none;border-radius:0;padding:10px 18px 18px;box-shadow:none}
+.mbox.full>h2{font-size:1.25rem;margin:0 40px 6px 0}
+.mbox.full .figwrap,.mbox.full .figwrap.pm{height:calc(100vh - 128px);max-height:none}
+.mbox.full .mclose{position:fixed;right:14px;top:8px;font-size:1.8rem;z-index:3;background:var(--paper);border-radius:6px;width:40px;height:40px;line-height:1}
+.mbox.full .figpn,.mbox.full .figbar{margin-top:4px}
+@media (max-width:760px){.mbox.full #figin{min-width:1150px}.mbox.full .figbar span{display:none}.mbox.full .figwrap,.mbox.full .figwrap.pm{height:calc(100vh - 150px)}}
 .figpn{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
 .figpn .pcur{font-size:.8rem;color:var(--muted);padding:0 6px}
 .figpn .sbtn.on{border:2px solid var(--accent);font-weight:700}
@@ -933,15 +940,15 @@ $('#mbox').addEventListener('click',e=>{const sa=e.target.closest('[data-sa]');c
 $('#bSym').onclick=showSym;
 
 // ---------------- modales ----------------
-function modal(h,wide){$('#mbox').innerHTML='<button class="mclose" aria-label="Cerrar">×</button>'+h;$('#mbox').classList.toggle('wide',!!wide);$('#modal').classList.add('on');}
+function modal(h,wide){$('#mbox').innerHTML='<button class="mclose" aria-label="Cerrar">×</button>'+h;$('#mbox').classList.toggle('wide',!!wide);$('#mbox').classList.remove('full');$('#modal').classList.remove('full');$('#modal').classList.add('on');}
 const FIG=window.ATLAS_FIG||{},FIGM=window.ATLAS_FIGMETA||{};let figZ=100;
 const FIGK={dd:'Diagnóstico diferencial',circ:'Circuito',mat:'Matriz',mod:'Modelo'};
 function figsOf(id){return Object.keys(FIGM).filter(k=>(FIGM[k].nodes||[]).includes(id)&&FIG[k]);}
 function showFig(k){figZ=100;const m=FIGM[k]||{};const nl=(m.nodes||[]).filter(i=>BY[i]);const cuts=m.cuts||[];FIGP={k:k,cuts:cuts,i:0,full:false};
-  modal('<h2>'+esc(m.t||(BY[k]||{}).n||'Figura')+'</h2><div class="figbar"><button class="sbtn" data-fz="-">−</button><button class="sbtn" data-fz="+">+</button><button class="sbtn" data-fz="0">Ajustar</button><span>Si la figura es alta se divide en paneles (flechas cortadas continúan en el panel contiguo). Las cajas con ↗ abren la ficha del nodo. Esquema conceptual de apoyo: no es un algoritmo ni sustituye al juicio clínico.</span></div>'+(cuts.length?'<div class="figpn" id="figpn"></div><div class="figcont" id="figup" hidden></div>':'')+'<div class="figwrap'+(cuts.length?' pm':'')+'" id="figwrap"><div id="figin" style="width:100%">'+FIG[k]+'</div></div>'
+  modal('<h2>'+esc(m.t||(BY[k]||{}).n||'Figura')+'</h2><div class="figbar"><button class="sbtn" data-fz="-">−</button><button class="sbtn" data-fz="+">+</button><button class="sbtn" data-fz="0">Ajustar</button><span>Las cajas con ↗ abren la ficha del nodo. Pie, fuentes y nodos relacionados, debajo de la figura. Esquema conceptual de apoyo: no sustituye al juicio clínico.</span></div>'+(cuts.length?'<div class="figpn" id="figpn"></div><div class="figcont" id="figup" hidden></div>':'')+'<div class="figwrap'+(cuts.length?' pm':'')+'" id="figwrap"><div id="figin" style="width:100%">'+FIG[k]+'</div></div>'
   +(m.cap?'<p class="figcap">'+esc(m.cap)+'</p>':'')
   +((m.refs||[]).length?'<div class="fl" style="margin-top:6px">Fuentes de la figura</div><ul class="figrefs">'+m.refs.map(r=>'<li>'+linkify(r)+'</li>').join('')+'</ul>':'')
-  +(nl.length?'<div class="fl" style="margin-top:8px">Nodos relacionados</div><div class="chips">'+nl.map(i=>'<a class="chip" data-id="'+i+'">'+esc(BY[i].n)+'</a>').join(' ')+'</div>':''),true);if(cuts.length)figPanel(0);}
+  +(nl.length?'<div class="fl" style="margin-top:8px">Nodos relacionados</div><div class="chips">'+nl.map(i=>'<a class="chip" data-id="'+i+'">'+esc(BY[i].n)+'</a>').join(' ')+'</div>':''),true);$('#mbox').classList.add('full');$('#modal').classList.add('full');$('#mbox').scrollTop=0;if(cuts.length)figPanel(0);}
 let FIGP=null;
 function figPanel(i,full){const P=FIGP;if(!P)return;const svg=document.querySelector('#figin svg');if(!svg)return;if(!P.o)P.o=svg.getAttribute('viewBox').split(' ').map(Number);const W=P.o[2],H=P.o[3];const bounds=[0].concat(P.cuts,[H]);const n=bounds.length-1;P.full=!!full;if(i!=null)P.i=Math.max(0,Math.min(n-1,i));
   const wrap=document.getElementById('figwrap');
