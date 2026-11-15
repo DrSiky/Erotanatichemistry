@@ -653,7 +653,7 @@ function renderSide(n){$('#side').classList.add('has');const sec=secOf(n);const 
   (n.sec||[]).forEach(s=>{const al=/Señales de alarma/i.test(s.t);let q='<div class="fs'+(al?' alarm':'')+'" data-toc="'+esc(s.t)+'"><div class="fl">'+(al?'⚠ ':'')+esc(s.t)+'</div>'+(s.x?'<div class="ft">'+escx(s.x)+'</div>':'');
     (s.links||[]).forEach(l=>{q+='<div class="ft" style="margin-top:4px">'+l.ids.map(i=>BY[i]?'<span class="rchip" data-id="'+i+'">'+esc(BY[i].n)+'</span>':'').join('')+' '+esc(l.t)+'</div>';});q+='</div>';if(al)alarm=q;else h+=q;});
   if(alarm){const dd=h.indexOf('<div class="fs"><div class="fl">Rasgos clave');h=dd>=0?h.slice(0,dd)+alarm+h.slice(dd):alarm+h;}
-  if((window.ATLAS_DOCS||{})[n.id])h+='<div class="fs"><div class="fl">Documento adjunto</div><div class="ft">El atlas completo en PDF va incrustado en este archivo (funciona sin conexión).</div><p style="margin-top:6px"><button class="sbtn big" data-a="pdf"><span><b>Abrir el atlas en PDF</b><small>se abre en una pestaña nueva o se descarga</small></span></button></p></div>';
+  if((window.ATLAS_DOCS||{})[n.id])h+='<div class="fs"><div class="fl">Documento adjunto</div><div class="ft">El documento completo en PDF va incrustado en este archivo (funciona sin conexión).</div><p style="margin-top:6px"><button class="sbtn big" data-a="pdf"><span><b>Abrir el documento en PDF</b><small>se abre en una pestaña nueva o se descarga</small></span></button></p></div>';
   if(n.tx)h+='<div class="fs"><div class="fl">Orientación terapéutica</div><div class="ftx">'+escx(n.tx)+'</div></div>';
   if(n.note)h+='<div class="fs"><div class="fl">Nota nosológica y crítica</div><div class="fnote">'+escx(n.note)+'</div></div>';
   const g=relGroups(n);const gk=VORDER.filter(v=>g[v]);
