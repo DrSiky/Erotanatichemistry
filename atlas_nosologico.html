@@ -106,6 +106,12 @@ body.eink .gn{background:#000;color:#fff}
 .main{grid-column:2;grid-row:2;position:relative;overflow:hidden;background:var(--paper)}
 .side{grid-column:3;grid-row:2;width:420px;background:var(--paper);border-left:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}
 .side.off{display:none}
+.side{position:relative}.side.wide{width:50vw}
+.sidew{position:absolute;left:0;top:50%;transform:translateY(-50%);z-index:6;width:18px;height:64px;padding:0;border:1px solid var(--line);border-left:none;border-radius:0 8px 8px 0;background:var(--paper);color:var(--ink);font-size:.95rem;line-height:1;box-shadow:2px 0 6px rgba(0,0,0,.08);cursor:pointer}
+.sidew:hover{background:var(--paper2)}.sidew:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
+body.eink .sidew{border:2px solid #000;border-left:none;box-shadow:none}
+.side.has .sbody,.side.has .shdr{padding-left:26px}
+.side:not(.has) .sidew{display:none}
 .shdr{padding:12px 16px 10px;border-bottom:1px solid var(--line)}
 .crumbs{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;display:flex;flex-wrap:wrap;gap:4px}
 .crumbs a{cursor:pointer;text-decoration:none;color:var(--muted)}.crumbs a:hover{color:var(--accent)}
@@ -309,7 +315,8 @@ body.eink .hubsec{border:2px solid #000}
 .hubgo{border:2px solid var(--accent)}
 .wkback{border:none;background:none;color:var(--accent);font-size:.78rem;padding:0 0 6px;text-decoration:underline}
 @media (max-width:900px){
-  .side{position:fixed;right:0;top:0;bottom:0;width:min(100%,440px);z-index:60;box-shadow:var(--shadow)}
+  .side,.side.wide{position:fixed;right:0;top:0;bottom:0;width:100%;z-index:60;box-shadow:var(--shadow)}
+  .sidew{display:none!important}
   .side:not(.has){display:none}
   .filters{position:fixed;left:0;top:0;bottom:0;z-index:60;box-shadow:var(--shadow)}
   .app{grid-template-columns:1fr}
@@ -367,7 +374,7 @@ body.eink .hubsec{border:2px solid #000}
     <div class="viewinfo" id="viewinfo"></div>
     <div class="zoomctl" id="zoomctl"><button id="bLbl" class="lblbtn" aria-pressed="false" title="Mostrar todas las etiquetas de forma fija, sin depender del zoom (pueden solaparse en las zonas densas)">Etiquetas: automáticas</button><div class="zrow"><div class="zcol"><button id="zIn" title="Acercar (+)">+</button><button id="zOut" title="Alejar (−)">−</button><button id="zRst" title="Restablecer zoom y giro (0)">⟲</button></div><div class="zrot"><button data-rot="-60" title="Girar 60° a la izquierda">↶60</button><button data-rot="60" title="Girar 60° a la derecha">60↷</button><button data-rot="-120" title="Girar 120° a la izquierda">↶120</button><button data-rot="120" title="Girar 120° a la derecha">120↷</button><button data-rot="180" class="z180" title="Girar 180°">⇅ 180°</button></div></div></div>
   </main>
-  <aside class="side" id="side" aria-label="Ficha"><div class="shdr" id="shdr"></div><nav class="toc" id="toc" aria-label="Secciones de la ficha"></nav><div class="sbody" id="sbody"></div><div class="sacts" id="sacts"></div></aside>
+  <aside class="side" id="side" aria-label="Ficha"><button class="sidew" id="sidew" aria-pressed="false" title="Ensanchar la ficha a media pantalla">◂</button><div class="shdr" id="shdr"></div><nav class="toc" id="toc" aria-label="Secciones de la ficha"></nav><div class="sbody" id="sbody"></div><div class="sacts" id="sacts"></div></aside>
 </div>
 <div class="tip" id="tip"></div>
 <div class="tourbar" id="tourbar"></div>
@@ -939,6 +946,10 @@ $('#mbox').addEventListener('click',e=>{const sa=e.target.closest('[data-sa]');c
   else if(e.target.name==='symsc'){SYM.scope=e.target.value;symRender();}});
 $('#bSym').onclick=showSym;
 
+// ---------------- ancho de la ficha (solo ordenador) ----------------
+function applySideW(on){const sd=$('#side'),b=$('#sidew');sd.classList.toggle('wide',on);b.textContent=on?'▸':'◂';b.title=on?'Estrechar la ficha':'Ensanchar la ficha a media pantalla';b.setAttribute('aria-pressed',on?'true':'false');window.dispatchEvent(new Event('resize'));}
+$('#sidew').onclick=()=>{const on=!$('#side').classList.contains('wide');try{store.set('sideW',on?1:0);}catch(e){}applySideW(on);};
+applySideW(!!(function(){try{return store.get('sideW',0);}catch(e){return 0;}})());
 // ---------------- modales ----------------
 function modal(h,wide){$('#mbox').innerHTML='<button class="mclose" aria-label="Cerrar">×</button>'+h;$('#mbox').classList.toggle('wide',!!wide);$('#mbox').classList.remove('full');$('#modal').classList.remove('full');$('#modal').classList.add('on');}
 const FIG=window.ATLAS_FIG||{},FIGM=window.ATLAS_FIGMETA||{};let figZ=100;
