@@ -1,0 +1,374 @@
+{
+ "redirect": {
+  "psanxfel": "wkl14",
+  "psconf": "wkl15",
+  "psmotil": "wkl16",
+  "iatrad": "riad",
+  "dependogk": "endog",
+  "tds": "duelo",
+  "testrap": "testr",
+  "taggen": "tag",
+  "panic_d": "panic",
+  "poli_brg": "psbreve",
+  "ptsd_dsm": "ptsd",
+  "trauma_compl": "desnos",
+  "agora_dsm": "agora",
+  "anx_salud": "iad",
+  "map_dep": "drt",
+  "tnf": "conv",
+  "circad_nuc": "circad"
+ },
+ "wklTree": {
+  "root": {
+   "q": "¿Cuál es el patrón de curso clínico evaluado longitudinalmente?",
+   "hint": "Evalúe el curso completo, no el corte transversal actual. Fásico con restitutio: el paciente recupera su nivel basal completo entre episodios. Fásico con residuo: hay episodios, pero cada uno deja un residuo que se acumula. Monomorfo: no hay episodios, el deterioro es continuo y unidireccional desde el inicio.",
+   "op": [
+    {
+     "t": "Fásico — restitutio ad integrum completa entre episodios (sin residuo acumulativo)",
+     "n": "A"
+    },
+    {
+     "t": "Fásico — con residuo acumulativo progresivo episodio a episodio (no sistemático bipolar)",
+     "n": "A2b"
+    },
+    {
+     "t": "Monomorfo progresivo — deterioro continuo desde el inicio, sin fases ni remisiones (sistemático)",
+     "n": "B"
+    }
+   ]
+  },
+  "A": {
+   "q": "¿La polaridad es monopolar o bipolar?",
+   "hint": "Monopolar: siempre el mismo polo afectivo. Bipolar: alternancia de polos opuestos en el mismo individuo o en la genealogía directa.",
+   "op": [
+    {
+     "t": "Monopolar — siempre el mismo polo",
+     "n": "A1"
+    },
+    {
+     "t": "Bipolar — alternancia de polos opuestos",
+     "n": "A2"
+    }
+   ]
+  },
+  "A1": {
+   "q": "¿El síndrome afecta simultáneamente las tres esferas (afectividad + pensamiento + psicomotricidad)?",
+   "hint": "Trisistémico: todas las esferas globalmente alteradas. Parcial: solo el dominio afectivo predomina.",
+   "op": [
+    {
+     "t": "Trisistémico — las tres esferas globalmente alteradas",
+     "n": "A1a"
+    },
+    {
+     "t": "Parcial — predominio de la esfera afectiva",
+     "n": "A1b"
+    }
+   ]
+  },
+  "A1a": {
+   "q": "¿Cuál es el polo afectivo dominante del síndrome trisistémico?",
+   "op": [
+    {
+     "t": "Polo maníaco — expansión afectiva, aceleración ideo-verbal, hiperactividad global",
+     "r": [
+      1
+     ]
+    },
+    {
+     "t": "Polo melancólico — tristeza vital, inhibición del pensamiento, bradipsiquia global",
+     "r": [
+      2
+     ]
+    }
+   ]
+  },
+  "A1b": {
+   "q": "¿Cuál es el polo afectivo predominante del síndrome parcial?",
+   "op": [
+    {
+     "t": "Depresivo — tristeza, inhibición o disforia como eje",
+     "n": "A1b_d"
+    },
+    {
+     "t": "Eufórico — elevación, expansión o complacencia como eje",
+     "n": "A1b_e"
+    }
+   ]
+  },
+  "A1b_d": {
+   "q": "¿Cuál es la cualidad psicopatológica nuclear del episodio depresivo?",
+   "op": [
+    {
+     "t": "Agitación tensional — inquietud, disforia agitada, desasosiego como núcleo",
+     "r": [
+      3
+     ]
+    },
+    {
+     "t": "Vivencia corporal ruinosa — enfermedad, daño orgánico, cenestopatía depresiva",
+     "r": [
+      4
+     ]
+    },
+    {
+     "t": "Autotortura y culpa — autoacusación, remordimiento endógeno, tortura moral",
+     "r": [
+      5
+     ]
+    },
+    {
+     "t": "Suspicacia — referencia hostil y desconfianza congruentes con el tono depresivo",
+     "r": [
+      6
+     ]
+    },
+    {
+     "t": "Vacío y no participación — anestesia afectiva sin angustia ni agitación",
+     "r": [
+      7
+     ]
+    }
+   ]
+  },
+  "A1b_e": {
+   "q": "¿Cuál es la cualidad psicopatológica nuclear del episodio eufórico?",
+   "op": [
+    {
+     "t": "Elación vacía sin productividad — contentamiento sin impulso ni creatividad",
+     "r": [
+      8
+     ]
+    },
+    {
+     "t": "Coloración somática paradójica — vivencias corporales raras con tono eufórico",
+     "r": [
+      9
+     ]
+    },
+    {
+     "t": "Exaltación, fervor o inspiración — calidad visionaria o mística",
+     "r": [
+      10
+     ]
+    },
+    {
+     "t": "Confabulaciones grandiosas — narrativas falsas autoelevadoras sin déficit mnésico",
+     "r": [
+      11
+     ]
+    },
+    {
+     "t": "Contentamiento distante — elevación sin participación relacional genuina",
+     "r": [
+      12
+     ]
+    }
+   ]
+  },
+  "A2": {
+   "q": "¿Hay residuo interepisódico acumulativo o el paciente recupera completamente su nivel basal?",
+   "hint": "Residuo: signos psicopatológicos que persisten y crecen entre episodios. Sin residuo: restitutio ad integrum entre episodios.",
+   "op": [
+    {
+     "t": "Sin residuo — restitutio ad integrum completa entre episodios",
+     "n": "A2a"
+    },
+    {
+     "t": "Con residuo progresivo — deterioro esquizofrénico acumulativo",
+     "n": "A2b"
+    }
+   ]
+  },
+  "A2a": {
+   "q": "¿La bipolaridad es afectiva global (trisistémica) o dominio-específica (cicloide aguda)?",
+   "op": [
+    {
+     "t": "Afectiva global trisistémica — manía plena y melancolía plena alternando",
+     "r": [
+      13
+     ]
+    },
+    {
+     "t": "Dominio-específica — bipolaridad psicótica aguda en un solo dominio funcional",
+     "n": "A2a_c"
+    }
+   ]
+  },
+  "A2a_c": {
+   "q": "¿En qué dominio se expresa la bipolaridad psicótica aguda cicloide?",
+   "op": [
+    {
+     "t": "Afectividad — oscilación entre ansiedad-terror y felicidad-éxtasis",
+     "r": [
+      14
+     ]
+    },
+    {
+     "t": "Pensamiento — oscilación entre confusión excitada e inhibición-perplejidad",
+     "r": [
+      15
+     ]
+    },
+    {
+     "t": "Psicomotricidad — oscilación entre hipercinesia y acinesia sin residuo",
+     "r": [
+      16
+     ]
+    }
+   ]
+  },
+  "A2b": {
+   "q": "¿En qué dominio se localiza el residuo esquizofrénico bipolar progresivo?",
+   "op": [
+    {
+     "t": "Afectividad — residuo paranoide cargado afectivamente (suspicacia, hostilidad, grandiosidad)",
+     "r": [
+      17
+     ]
+    },
+    {
+     "t": "Pensamiento — residuo de desorganización verbal (neologismos, desvíos asociativos)",
+     "r": [
+      18
+     ]
+    },
+    {
+     "t": "Psicomotricidad — residuo catatónico acumulándose episodio a episodio",
+     "r": [
+      19
+     ]
+    }
+   ]
+  },
+  "B": {
+   "q": "¿En qué dominio funcional se localiza el deterioro monomorfo progresivo?",
+   "hint": "Identifica cuál de los tres grandes sistemas funcionales organiza el residuo o el deterioro principal.",
+   "op": [
+    {
+     "t": "Afectividad — degradación del juicio afectivo (hebefrenias sistemáticas)",
+     "n": "B_h"
+    },
+    {
+     "t": "Psicomotricidad — trastorno específico del sistema motor (catatonías sistemáticas)",
+     "n": "B_c"
+    },
+    {
+     "t": "Pensamiento — sistema delirante o desorganización formal (parafrenias sistemáticas)",
+     "n": "B_p"
+    }
+   ]
+  },
+  "B_h": {
+   "q": "¿Cuál es la cualidad del residuo del dominio afectivo hebefrénique?",
+   "op": [
+    {
+     "t": "Puerilidad y conducta risible — trivialidad y comportamiento ridículo estables",
+     "r": [
+      20
+     ]
+    },
+    {
+     "t": "Vaciamiento sin profundidad — respuestas afectivas superficiales sin espesor emocional",
+     "r": [
+      21
+     ]
+    },
+    {
+     "t": "Excentricidad rígida — maneras peculiares, hábitos extraños e idiosincrasia fija",
+     "r": [
+      22
+     ]
+    },
+    {
+     "t": "Repliegue autista — clausura relacional progresiva y encapsulamiento interior",
+     "r": [
+      23
+     ]
+    }
+   ]
+  },
+  "B_c": {
+   "q": "¿Cuál es el tipo de trastorno psicomotor residual monomorfo?",
+   "op": [
+    {
+     "t": "Paracinesias — movimientos parásitos grotescos que acompañan los actos voluntarios",
+     "r": [
+      24
+     ]
+    },
+    {
+     "t": "Manierismos — actos artificiosamente ritualizados o pseudoceremoniales",
+     "r": [
+      25
+     ]
+    },
+    {
+     "t": "Procinesia — automatismos de contacto, mitgehen, empuje motor hacia el acto",
+     "r": [
+      26
+     ]
+    },
+    {
+     "t": "Negativismo — gegenhalten, ambitendencia, oposición automática al acto",
+     "r": [
+      27
+     ]
+    },
+    {
+     "t": "Automatismo verbal — respuestas precipitadas, cortocircuito del habla",
+     "r": [
+      28
+     ]
+    },
+    {
+     "t": "Lentitud progresiva — reducción estable de la iniciativa motora y verbal",
+     "r": [
+      29
+     ]
+    }
+   ]
+  },
+  "B_p": {
+   "q": "¿Cuál es el tipo de residuo del pensamiento monomorfo progresivo?",
+   "op": [
+    {
+     "t": "Sistema delirante somático — cenestopatías, daño corporal, influencias físicas",
+     "r": [
+      30
+     ]
+    },
+    {
+     "t": "Alucinaciones verbales sistemáticas — voces estables como residuo central",
+     "r": [
+      31
+     ]
+    },
+    {
+     "t": "Incoherencia formal persistente — desorganización sin remisión ni fases",
+     "r": [
+      32
+     ]
+    },
+    {
+     "t": "Delirio fantástico — contenidos cósmicos, extraordinarios o de gran extravagancia",
+     "r": [
+      33
+     ]
+    },
+    {
+     "t": "Confabulación delirante — pseudomemorias integradas en sistema residual permanente",
+     "r": [
+      34
+     ]
+    },
+    {
+     "t": "Grandiosidad fría y estable — megalomanía sin elevación afectiva",
+     "r": [
+      35
+     ]
+    }
+   ]
+  }
+ },
+ "built": "2026-11-05"
+}

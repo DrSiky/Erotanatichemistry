@@ -1,0 +1,21 @@
+// Uso único: extrae las fuentes de atlas_nosologico.html a src/ (ya ejecutado; se conserva como referencia).
+const fs=require('fs'),vm=require('vm'),path=require('path');
+const R=path.join(__dirname,'..'),S=path.join(R,'src');
+const L=fs.readFileSync(path.join(R,'atlas_nosologico.html'),'utf8').split('\n');
+const iCfg=L.findIndex(l=>l.startsWith('<script>window.ATLAS_CFG')),iData=L.findIndex(l=>l.startsWith('<script>window.ATLAS_DATA=')),iFig=L.findIndex(l=>l.startsWith('<script>window.ATLAS_FIG='));
+const iCfgEnd=L.indexOf('</script>',iCfg);
+if(iData!==iCfgEnd+1||iFig!==iData+1)throw new Error('estructura inesperada');
+const w={};const run=l=>vm.runInNewContext(l.replace(/^<script>/,'').replace(/<\/script>$/,''),{window:w});
+run(L[iData]);run(L[iFig]);
+for(const d of ['data','fig','docs'])fs.mkdirSync(path.join(S,d),{recursive:true});
+fs.writeFileSync(path.join(S,'config.js'),L.slice(iCfg,iCfgEnd+1).join('\n').replace(/^<script>/,'').replace(/\n<\/script>$/,'')+'\n');
+const D=w.ATLAS_DATA;
+fs.writeFileSync(path.join(S,'data/nodes.jsonl'),D.nodes.map(n=>JSON.stringify(n)).join('\n')+'\n');
+const rest=Object.assign({},D);delete rest.nodes;fs.writeFileSync(path.join(S,'data/extra.json'),JSON.stringify(rest,null,1)+'\n');
+fs.writeFileSync(path.join(S,'fig/_orden.json'),JSON.stringify(Object.keys(w.ATLAS_FIG),null,1)+'\n');
+for(const k in w.ATLAS_FIG)fs.writeFileSync(path.join(S,'fig',k+'.svg'),w.ATLAS_FIG[k]);
+fs.writeFileSync(path.join(S,'fig/_meta.json'),JSON.stringify(w.ATLAS_FIGMETA,null,1)+'\n');
+for(const k in (w.ATLAS_DOCS||{}))fs.writeFileSync(path.join(S,'docs',k+'.pdf'),Buffer.from(w.ATLAS_DOCS[k],'base64'));
+const T=L.slice(0,iCfg).concat(['<!--@@CONFIG@@-->','<!--@@DATA@@-->','<!--@@FIGS@@-->'],L.slice(iFig+1));
+fs.writeFileSync(path.join(S,'template.html'),T.join('\n'));
+console.log('nodos',D.nodes.length,'figuras',Object.keys(w.ATLAS_FIG).length,'docs',Object.keys(w.ATLAS_DOCS||{}),'claves extra',Object.keys(rest));

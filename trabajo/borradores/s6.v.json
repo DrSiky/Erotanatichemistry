@@ -1,0 +1,2404 @@
+{
+ "patch": {
+  "inatencion": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La pregunta genérica («¿le cuesta concentrarse?») discrimina poco; conviene pedir ejemplos conductuales recientes en el trabajo, los estudios y el hogar (tareas que quedan a medias, errores por descuido, citas olvidadas, objetos extraviados, necesidad de releer) y su equivalente en la infancia, con boletines escolares y una persona informante cuando sea posible. Interesa la variabilidad: rendimiento conservado en lo novedoso o muy motivador y fallo en lo rutinario. La atención puede parecer normal durante la entrevista, situación nueva y de trato individual, de modo que la observación directa no descarta el síntoma [fuente no localizada]. El cribado de seis preguntas de la ASRS alcanzó una sensibilidad del 68,7 % y una especificidad del 99,5 % frente al diagnóstico clínico ciego en una muestra comunitaria de 154 personas (Kessler 2005); es un cribado y no sustituye a la entrevista diagnóstica. Las pruebas de ejecución continua informan del rendimiento, pero no confirman ni excluyen el síntoma por sí solas.",
+     "links": [
+      {
+       "ids": [
+        "diva_asrs",
+        "conners",
+        "neuropsico"
+       ],
+       "t": "Instrumentos de evaluación del TDAH adulto"
+      },
+      {
+       "ids": [
+        "tdah_adulto",
+        "tdah_dd_adulto"
+       ],
+       "t": "Marco diagnóstico"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "De la distraibilidad se diferencia en que esta designa la captación de la atención por estímulos externos irrelevantes, mientras que la inatención incluye además el fallo de sostenimiento y de organización sin estímulo distractor. La hipoprosexia del delirium es de inicio agudo, fluctúa y se acompaña de alteración del nivel de conciencia. En la depresión la dificultad de concentración es episódica, coincide con el cambio del ánimo y se asocia a enlentecimiento. En la ansiedad y en el trastorno obsesivo la atención no falta, sino que está ocupada por la preocupación o por la obsesión. La hipervigilancia postraumática desplaza la atención hacia la amenaza. La absorción de la despersonalización y el bloqueo del pensamiento interrumpen el curso de la actividad por un mecanismo distinto. La somnolencia diurna produce lapsos que ceden al corregir el sueño. El hiperfoco no excluye la inatención: ambos coexisten en la misma persona.",
+     "links": [
+      {
+       "ids": [
+        "distraib",
+        "obnub",
+        "hipervig",
+        "estrech_conc",
+        "hiperfoco_tdah"
+       ],
+       "t": "Alteraciones vecinas de la atención y la conciencia"
+      },
+      {
+       "ids": [
+        "bradipsiquia",
+        "obses",
+        "desp_sx",
+        "bloqueo"
+       ],
+       "t": "Fenómenos que ocupan o interrumpen la atención"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es un síntoma inespecífico. En el TDAH solo adquiere valor orientador cuando se demuestra inicio en el neurodesarrollo, persistencia y presencia en varios contextos. Es el núcleo del delirium: el DSM-5-TR sitúa la alteración de la atención, junto a la de la conciencia del entorno, en el núcleo de su definición y el Confusion Assessment Method exige la inatención como rasgo obligatorio junto al inicio agudo y el curso fluctuante (Inouye 1990). Figura también, como dificultad para concentrarse, entre los criterios del episodio depresivo mayor, del trastorno de ansiedad generalizada y del trastorno de estrés postraumático, y como distraibilidad en el episodio maníaco (DSM-5-TR). Se observa además en el insomnio crónico y la apnea obstructiva del sueño, en el consumo de alcohol, cannabis y sedantes, con fármacos de carga anticolinérgica o sedante, tras un traumatismo craneoencefálico y en los trastornos neurocognitivos. Una inatención de aparición reciente en la edad adulta obliga a buscar estas causas antes de plantear un TDAH.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto",
+        "tea_adulto"
+       ],
+       "t": "Neurodesarrollo"
+      },
+      {
+       "ids": [
+        "delirium",
+        "cam",
+        "ncd_leve",
+        "dem",
+        "tce_neuro",
+        "insom",
+        "apnea",
+        "polifarm"
+       ],
+       "t": "Causas médicas, neurocognitivas y del sueño"
+      },
+      {
+       "ids": [
+        "ep_depmay",
+        "tag",
+        "ptsd",
+        "ep_mania"
+       ],
+       "t": "Trastornos afectivos, de ansiedad y trauma"
+      },
+      {
+       "ids": [
+        "cannabis_tuc",
+        "alcohol",
+        "bzd_dep",
+        "tdah_sustancias"
+       ],
+       "t": "Sustancias"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kessler RC et al. (2005). The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med 35:245-256 · PMID 15841682",
+    "Inouye SK et al. (1990). Clarifying confusion: the confusion assessment method. A new method for detection of delirium. Ann Intern Med 113:941-948 · PMID 2240918"
+   ],
+   "relAdd": [
+    "delirium",
+    "tdah_dd_adulto",
+    "neuropsico",
+    "apnea"
+   ]
+  },
+  "hiperfoco_tdah": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se explora por autoinforme y con una persona informante: en qué actividades ocurre, cuánto dura, si se pierde la noción del tiempo, si se omiten comidas, sueño u obligaciones, si la persona puede interrumpirse cuando se la reclama y qué sucede con las tareas no elegidas. Conviene distinguirlo de la concentración intensa ordinaria, que se interrumpe sin dificultad y no desplaza necesidades básicas. No existe instrumento con validación clínica ni punto de corte. En 1124 personas adultas sin diagnóstico, la frecuencia de hiperfoco se correlacionó con los rasgos de TDAH, pero 78 pacientes con TDAH no difirieron de controles emparejados en aparición, frecuencia, duración ni generalización del fenómeno, y lo refirieron con menor probabilidad en situaciones educativas y sociales; los autores concluyen que no es específico del TDAH (Groen 2020). El resultado diverge del de Hupfeld (2019), lo que aconseja registrar el fenómeno como dato descriptivo y no como apoyo diagnóstico.",
+     "links": [
+      {
+       "ids": [
+        "diva_asrs",
+        "aq_ados_adir"
+       ],
+       "t": "Evaluación del TDAH y del autismo en la edad adulta"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La hiperprosexia de los estados ansiosos, hipocondríacos o delirantes fija la atención sobre un tema con malestar y sin elección. Los intereses restringidos del autismo son estables, temáticos y de larga duración, mientras que el hiperfoco es un estado transitorio ligado a la tarea. La perseveración repite una respuesta sin interés ni intención. La obsesión y la compulsión se viven como impuestas o indeseadas. El estrechamiento de la conciencia depende de un afecto intenso y deja recuerdo parcial. El aumento de la actividad dirigida a metas de la hipomanía es episódico y se acompaña de cambio del ánimo y de menor necesidad de sueño. La conducta repetitiva y sin finalidad descrita con estimulantes y con fármacos dopaminérgicos (punding) carece del carácter productivo o placentero del hiperfoco [fuente no localizada]. En el uso problemático de videojuegos el rasgo definitorio es la pérdida de control con deterioro, no la absorción.",
+     "links": [
+      {
+       "ids": [
+        "distraib",
+        "perseverac",
+        "estereotip",
+        "estrech_conc"
+       ],
+       "t": "Fenómenos atencionales y de repetición"
+      },
+      {
+       "ids": [
+        "obses",
+        "compul",
+        "ep_hipom"
+       ],
+       "t": "Fenómenos obsesivos y afectivos"
+      },
+      {
+       "ids": [
+        "gaming",
+        "pantallas"
+       ],
+       "t": "Conductas con pérdida de control"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Se ha descrito en el TDAH, en el espectro autista y en la esquizofrenia (Ashinoff y Abu-Akel 2021), y es frecuente en la población general, por lo que su valor diagnóstico es nulo como dato aislado (Groen 2020). En la clínica sirve para explicar un perfil de rendimiento dependiente del interés y de la recompensa inmediata y para identificar riesgos: descuido del sueño, de la alimentación o de las obligaciones. Los estimulantes, prescritos o no, pueden prolongar la dedicación a una sola actividad; en el consumo sexualizado de metanfetamina o catinonas se describen sesiones muy prolongadas centradas en una única conducta, fenómeno que no debe confundirse con el hiperfoco como rasgo [fuente no localizada]. No hay datos que permitan atribuirle valor pronóstico ni orientar con él un tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto",
+        "tea_adulto",
+        "esq"
+       ],
+       "t": "Entidades"
+      },
+      {
+       "ids": [
+        "tdah_chemsex",
+        "metanf",
+        "mefed"
+       ],
+       "t": "Consumo de estimulantes"
+      },
+      {
+       "ids": [
+        "recompensa",
+        "dopa_na_tdah"
+       ],
+       "t": "Mecanismos propuestos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Groen Y et al. (2020). Testing the relation between ADHD and hyperfocus experiences. Res Dev Disabil 107:103789 · PMID 33126147"
+   ],
+   "relAdd": [
+    "gaming",
+    "pantallas",
+    "perseverac"
+   ]
+  },
+  "distraib": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se observa durante la entrevista: la persona interrumpe su discurso por ruidos, objetos o detalles del entorno, pierde el hilo o precisa que se le repitan las preguntas. A la cabecera se exploran la atención inmediata (repetición de dígitos en orden directo), la atención sostenida y la memoria de trabajo (dígitos inversos, meses del año o días de la semana en orden inverso, restas seriadas). El Mini-Mental incluye una tarea de atención y cálculo (Folstein 1975). El resultado se interpreta según la escolaridad, la lengua, los déficits sensoriales y la ansiedad de examen. En el Confusion Assessment Method la inatención es uno de los dos rasgos obligatorios, junto al inicio agudo y el curso fluctuante (Inouye 1990). Varias escalas recogen el fenómeno: el ítem G11 (atención deficiente) de la subescala de psicopatología general de la PANSS y el de dificultades de concentración de la MADRS.",
+     "links": [
+      {
+       "ids": [
+        "cam",
+        "mmse_moca",
+        "panss",
+        "hamd_madrs",
+        "neuropsico"
+       ],
+       "t": "Instrumentos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La distraibilidad maníaca es una captación por estímulos externos que alimenta la fuga de ideas; la inatención del TDAH es crónica y está presente desde la infancia. La aprosexia debe distinguirse de la falta de respuesta por mutismo, estupor, negativismo o afasia, en las que la atención puede estar conservada. En la perplejidad la persona atiende, pero no logra organizar lo percibido. Las alucinaciones auditivas captan la atención y dan una falsa impresión de distraibilidad (actitud de escucha). El bloqueo interrumpe el pensamiento sin estímulo externo. La hiperprosexia se diferencia de la obsesión en que esta se vive como intrusiva y se resiste, y de la hipervigilancia en que esta última explora el entorno en busca de amenaza. La bradipsiquia enlentece las respuestas sin desviar la atención.",
+     "links": [
+      {
+       "ids": [
+        "inatencion",
+        "hiperfoco_tdah",
+        "obnub",
+        "perplejidad",
+        "hipervig"
+       ],
+       "t": "Atención y conciencia"
+      },
+      {
+       "ids": [
+        "fuga_ideas",
+        "bloqueo",
+        "bradipsiquia"
+       ],
+       "t": "Curso del pensamiento"
+      },
+      {
+       "ids": [
+        "mutismo",
+        "estupor",
+        "negativismo",
+        "afasia_wer"
+       ],
+       "t": "Falta de respuesta de otro origen"
+      },
+      {
+       "ids": [
+        "aluc_aud",
+        "obses"
+       ],
+       "t": "Fenómenos que captan la atención"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "La alteración de la atención de inicio agudo y curso fluctuante orienta a delirium: el algoritmo CAM obtuvo sensibilidades del 94-100 % y especificidades del 90-95 % frente al diagnóstico psiquiátrico en 56 personas mayores hospitalizadas o ambulatorias (Inouye 1990). La distraibilidad es criterio B5 del episodio maníaco (DSM-5-TR), con valor solo dentro del síndrome completo. La hipoprosexia aparece en la depresión, en la esquizofrenia como parte del déficit cognitivo, en el TDAH y en los trastornos neurocognitivos. Causas tóxicas y médicas: intoxicación por alcohol, sedantes, GHB o estimulantes, abstinencia de alcohol y de sedantes, fármacos con carga anticolinérgica, encefalopatías metabólicas y traumatismo craneoencefálico. Fuera del delirium su valor diagnóstico es inespecífico.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "enc_hep",
+        "dt_alc",
+        "tce_neuro",
+        "polifarm"
+       ],
+       "t": "Delirium y causas médicas"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "tb1",
+        "ep_depmay",
+        "detcog"
+       ],
+       "t": "Trastornos afectivos y psicóticos"
+      },
+      {
+       "ids": [
+        "tdah",
+        "dem",
+        "lewy"
+       ],
+       "t": "Neurodesarrollo y neurocognitivos"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "bzd_dep",
+        "ghb_gbl",
+        "metanf"
+       ],
+       "t": "Sustancias"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Inouye SK et al. (1990). Clarifying confusion: the confusion assessment method. A new method for detection of delirium. Ann Intern Med 113:941-948 · PMID 2240918",
+    "Folstein MF, Folstein SE & McHugh PR (1975). \"Mini-mental state\". A practical method for grading the cognitive state of patients for the clinician. J Psychiatr Res 12:189-198 · PMID 1202204"
+   ],
+   "relAdd": [
+    "ep_mania",
+    "cam",
+    "mmse_moca",
+    "fuga_ideas",
+    "obnub"
+   ]
+  },
+  "desorient": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pregunta de forma sistemática por el tiempo (día de la semana, fecha, mes, año, estación, momento del día), el lugar (tipo de centro, planta, ciudad, provincia, país), la persona (identidad propia, reconocimiento de familiares y del papel del personal) y la situación (motivo de estar allí). El Mini-Mental explora la orientación temporal y espacial (Folstein 1975), a la que dedica diez de sus treinta puntos [fuente no localizada]. Añade información la conducta: perderse en la planta, confundir al personal con familiares, vestirse para salir de madrugada. Como el delirium fluctúa, la exploración se repite en distintos momentos del día. Antes de dar por desorientada a una persona hay que descartar que no responda por afasia, hipoacusia, mutismo o falta de colaboración. Un error de pocos días en la fecha durante un ingreso prolongado tiene escaso valor [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "mmse_moca",
+        "cam",
+        "neuropsico"
+       ],
+       "t": "Instrumentos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "En la doble orientación la respuesta correcta coexiste con la delirante. En la falsa orientación delirante la persona, con conciencia clara, afirma estar en una cárcel o en un plató: el error procede del delirio y no de un fallo cognitivo. En el síndrome amnésico la desorientación temporal es secundaria a la incapacidad de fijar. La paramnesia reduplicativa añade la convicción de que el lugar está duplicado. En la desrealización la persona sabe dónde está, aunque lo vive como irreal. Las respuestas aproximadas del síndrome de Ganser («pararrespuestas») revelan que la pregunta se ha comprendido. En la perplejidad predomina la extrañeza ante lo que ocurre. La desorientación autopsíquica aislada, con orientación en tiempo y lugar conservada, orienta a amnesia disociativa o a simulación, como recoge la ficha. La afasia de comprensión y la apatía intensa pueden simularla.",
+     "links": [
+      {
+       "ids": [
+        "doble_orient",
+        "delirio",
+        "paramn",
+        "del_ident"
+       ],
+       "t": "Orientación delirante y paramnesias"
+      },
+      {
+       "ids": [
+        "amnesia",
+        "confab",
+        "disoc_amn",
+        "desp_sx"
+       ],
+       "t": "Memoria y disociación"
+      },
+      {
+       "ids": [
+        "perplejidad",
+        "afasia_wer",
+        "apatia",
+        "ganser",
+        "simulacion"
+       ],
+       "t": "Otros imitadores"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es el signo clásico de los cuadros de base orgánica, el tipo de reacción exógena aguda de Bonhoeffer: delirium de cualquier causa, demencias, síndrome de Korsakoff, encefalopatías metabólicas, estado poscrítico, traumatismo craneoencefálico e intoxicaciones por alcohol, sedantes o GHB, así como la abstinencia alcohólica grave. En la esquizofrenia, la manía y la depresión sin complicaciones la orientación suele estar conservada, de modo que su alteración obliga a buscar una causa médica o tóxica. En la persona mayor hospitalizada, una desorientación de inicio agudo es delirium mientras no se demuestre otra cosa [fuente no localizada]. Su valor etiológico es inespecífico: indica disfunción cerebral global o mnésica, no su causa. En el ámbito pericial, la desorientación afecta a la comprensión y es relevante para valorar la capacidad en el momento de los hechos o de la decisión.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "dem",
+        "korsakoff",
+        "enc_hep",
+        "psiep",
+        "tce_neuro",
+        "bonhoeffer_exog"
+       ],
+       "t": "Cuadros orgánicos"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "dt_alc",
+        "bzd_dep",
+        "ghb_gbl"
+       ],
+       "t": "Sustancias"
+      },
+      {
+       "ids": [
+        "help_delirium",
+        "consent_cap",
+        "cap_dem"
+       ],
+       "t": "Prevención y capacidad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Folstein MF, Folstein SE & McHugh PR (1975). \"Mini-mental state\". A practical method for grading the cognitive state of patients for the clinician. J Psychiatr Res 12:189-198 · PMID 1202204",
+    "Inouye SK et al. (1990). Clarifying confusion: the confusion assessment method. A new method for detection of delirium. Ann Intern Med 113:941-948 · PMID 2240918"
+   ],
+   "relAdd": [
+    "korsakoff",
+    "ganser",
+    "cam",
+    "mmse_moca",
+    "bonhoeffer_exog",
+    "obnub"
+   ]
+  },
+  "doble_orient": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se reconoce al contrastar lo que la persona afirma con lo que hace. Primero se explora la orientación convencional (dónde estamos, quién es quien entrevista, qué fecha es) y después la versión delirante, sin confrontar; a continuación se pregunta cómo conviven ambas («usted me dice que este lugar es un cuartel y también que es un hospital: ¿cómo lo entiende?»). La observación de la conducta cotidiana es decisiva: quien se declara soberano hace cola en el comedor, quien se cree envenenado acepta la medicación. Parnas y colaboradores (2021) subrayan que Bleuler no elaboró el concepto, que el fenómeno se manifiesta en diversos fenómenos psicóticos y no solo en el delirio, y que sus antecedentes pueden observarse en fases premórbidas y en el trastorno esquizotípico. No existe un instrumento específico; la entrevista fenomenológica semiestructurada puede ayudar a documentarlo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ease_ins",
+        "jaspers_fen_metodo"
+       ],
+       "t": "Entrevista fenomenológica"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "En la desorientación falta la respuesta correcta; aquí se conserva. En la introspección parcial la persona critica, al menos en parte, su creencia; en la doble orientación ambas realidades coexisten sin corregirse. En el delirio encapsulado la creencia se limita a un tema, pero no hay dos orientaciones simultáneas. La ambivalencia se refiere a afectos o tendencias opuestos, no a dos marcos de realidad. La incongruencia entre relato y conducta puede hacer pensar erróneamente en simulación, que se distingue por el incentivo externo y por la presentación atípica del resto del cuadro. En el trastorno disociativo de identidad los estados alternan en lugar de coexistir. La pseudología cede ante la evidencia. La idea sobrevalorada es comprensible y gobierna la conducta de forma coherente.",
+     "links": [
+      {
+       "ids": [
+        "desorient",
+        "insight",
+        "juicio"
+       ],
+       "t": "Orientación, juicio e introspección"
+      },
+      {
+       "ids": [
+        "delirio",
+        "idea_sobrev",
+        "ambival"
+       ],
+       "t": "Fenómenos delirantes y afectivos"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "pseudologia",
+        "tdi"
+       ],
+       "t": "Imitadores"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Se describe sobre todo en la esquizofrenia de larga evolución y en las parafrenias, y Parnas y colaboradores (2021) la extienden al espectro esquizofrénico en sentido amplio, incluido el trastorno esquizotípico. Su valor diagnóstico es el de un rasgo clásico y orientador del espectro esquizofrénico, pero no se dispone de estudios que cuantifiquen su sensibilidad ni su especificidad [fuente no localizada]. Tiene consecuencias prácticas: la escasa repercusión conductual de un delirio no equivale a escasa convicción ni permite, por sí sola, excluir riesgo; y la conservación de una orientación correcta no garantiza que la capacidad de decisión esté intacta en lo que atañe al contenido delirante, cuestión que debe examinarse para cada decisión concreta.",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "esqtpersonalidad",
+        "esqtclin",
+        "selfips",
+        "ipsei"
+       ],
+       "t": "Espectro esquizofrénico"
+      },
+      {
+       "ids": [
+        "wkl33",
+        "parafr_kr",
+        "paraf_tard"
+       ],
+       "t": "Parafrenias"
+      },
+      {
+       "ids": [
+        "consent_cap",
+        "imputabilidad",
+        "perit_forense"
+       ],
+       "t": "Valoración pericial y de capacidad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Parnas J, Urfer-Parnas A & Stephensen H (2021). Double bookkeeping and schizophrenia spectrum: divided unified phenomenal consciousness. Eur Arch Psychiatry Clin Neurosci 271:1513-1523 · PMID 32901298"
+   ],
+   "relAdd": [
+    "delirio",
+    "insight",
+    "juicio",
+    "selfips",
+    "simulacion"
+   ]
+  },
+  "amnesia": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Memoria anterógrada: registro y recuerdo diferido de una lista breve de palabras tras una tarea de distracción, recuerdo de lo ocurrido durante la entrevista, de la última comida o del nombre de quien entrevista. En el síndrome amnésico la repetición inmediata de dígitos está conservada, lo que lo separa del fallo de registro por inatención. Memoria retrógrada: hechos autobiográficos y públicos fechables por décadas, para buscar el gradiente temporal, contrastados con una persona informante. Deben delimitarse el inicio, la duración, los islotes de recuerdo y lo preservado (memoria semántica y procedimental). Se pregunta por alcohol, benzodiacepinas, GHB y otras sustancias, por crisis epilépticas y por traumatismos. La revisión de Kopelman (2002) ordena las variedades clínicas, transitorias y persistentes, del síndrome amnésico y discute si las amnesias temporal, diencefálica y frontal difieren entre sí.",
+     "links": [
+      {
+       "ids": [
+        "mmse_moca",
+        "neuropsico"
+       ],
+       "t": "Cribado y evaluación neuropsicológica"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "El fallo de registro del delirium, la depresión o la ansiedad se acompaña de atención inmediata alterada y mejora con claves [fuente no localizada]. La amnesia disociativa es en su mayoría retrógrada y afecta sobre todo a la memoria episódico-autobiográfica; la forma anterógrada sin componente retrógrado relevante es rara (Staniloiu y Markowitsch 2014). La pérdida de la identidad personal con capacidad de aprendizaje conservada orienta a origen disociativo o simulado más que orgánico [fuente no localizada]. La confabulación y las paramnesias falsifican el recuerdo más que perderlo. La queja subjetiva de memoria del episodio depresivo suele superar al déficit objetivo. La amnesia lacunar es el vacío que deja un periodo de conciencia alterada (delirium, estado crepuscular, intoxicación) y no implica un trastorno persistente de la memoria.",
+     "links": [
+      {
+       "ids": [
+        "disoc_amn",
+        "simulacion",
+        "ganser"
+       ],
+       "t": "Amnesias no orgánicas"
+      },
+      {
+       "ids": [
+        "confab",
+        "paramn",
+        "recdel"
+       ],
+       "t": "Falsificaciones del recuerdo"
+      },
+      {
+       "ids": [
+        "inatencion",
+        "distraib",
+        "dcog",
+        "crepusc",
+        "obnub"
+       ],
+       "t": "Fallo de registro y lagunas"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Síndrome amnésico persistente: síndrome de Korsakoff, lesiones bilaterales del lóbulo temporal medial (encefalitis, anoxia), traumatismo craneoencefálico y enfermedad de Alzheimer. Formas transitorias: amnesia global transitoria, cuyo correlato es una perturbación transitoria del hipocampo con lesiones focales de difusión en el campo CA1 y cuyos desencadenantes siguen sin aclararse (Bartsch y Deuschl 2010); de 153 casos de amnesia transitoria aguda, 114 cumplieron criterios estrictos de amnesia global transitoria, con pronóstico excelente salvo un 7 % que desarrolló epilepsia temporal, identificable por ataques breves o recurrentes (Hodges y Warlow 1990). Causas farmacológicas y tóxicas: benzodiacepinas e hipnóticos, alcohol (lagunas de intoxicación) y GHB, de importancia en la sumisión química. La terapia electroconvulsiva produce amnesia en torno al tratamiento [fuente no localizada]. Un déficit mnésico grave con atención conservada orienta a lesión diencefálica o temporal medial.",
+     "links": [
+      {
+       "ids": [
+        "korsakoff",
+        "dem",
+        "ncd_leve",
+        "tce_neuro",
+        "sreat"
+       ],
+       "t": "Síndromes amnésicos"
+      },
+      {
+       "ids": [
+        "psiep",
+        "tec_dep"
+       ],
+       "t": "Epilepsia y tratamientos"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "ansiol_bzd",
+        "alcohol",
+        "ghb_gbl",
+        "sumision_q"
+       ],
+       "t": "Sustancias y contexto forense"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kopelman MD (2002). Disorders of memory. Brain 125:2152-2190 · PMID 12244076",
+    "Bartsch T & Deuschl G (2010). Transient global amnesia: functional anatomy and clinical implications. Lancet Neurol 9:205-214 · PMID 20129169",
+    "Hodges JR & Warlow CP (1990). Syndromes of transient amnesia: towards a classification. A study of 153 cases. J Neurol Neurosurg Psychiatry 53:834-843 · PMID 2266362",
+    "Staniloiu A & Markowitsch HJ (2014). Dissociative amnesia. Lancet Psychiatry 1:226-241 · PMID 26360734"
+   ],
+   "relAdd": [
+    "sumision_q",
+    "tce_neuro",
+    "tec_dep",
+    "mmse_moca",
+    "simulacion",
+    "bzd_dep"
+   ]
+  },
+  "confab": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La forma provocada aparece al preguntar por hechos recientes («¿qué hizo ayer?», «¿nos hemos visto antes?»): la respuesta es plausible, falsa y cambia de una ocasión a otra, sin intención de engañar ni beneficio aparente. Las preguntas sugestivas («¿no cenamos juntos anoche?») la ponen de manifiesto, pero deben usarse con prudencia y anotarse como tales. La forma espontánea surge sin estímulo y la persona actúa en consecuencia: se levanta para acudir a una reunión inexistente. Schnider (2003) la interpreta como un fallo en la adaptación del pensamiento a la realidad en curso. El relato se contrasta siempre con una persona informante. La exploración se completa con la memoria anterógrada, las funciones ejecutivas y la conciencia del déficit, ya que la confabulación suele coexistir con amnesia y con anosognosia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "amnesia",
+        "anosog",
+        "disejec",
+        "neuropsico"
+       ],
+       "t": "Exploración asociada"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "El recuerdo delirante se sostiene con convicción fija, es autorreferencial y no requiere amnesia; Kopelman (2010) señala semejanzas entre la confabulación espontánea y la memoria delirante y pide su estudio empírico, a la vez que advierte del limitado poder explicativo de las teorías que pretenden abarcar ambas. En la pseudología hay conciencia, al menos parcial, de la falsedad, una función autoengrandecedora y abandono del relato ante la evidencia. La simulación persigue un incentivo externo. Las paramnesias alteran la familiaridad, no el contenido narrado. Los falsos recuerdos por sugestión se dan en personas sin daño cerebral. Las producciones fantásticas de las parafrenias y la fabulación expansiva de la manía tienen base delirante o afectiva y no amnésica.",
+     "links": [
+      {
+       "ids": [
+        "recdel",
+        "paramn",
+        "pseudologia"
+       ],
+       "t": "Falsificaciones de la memoria"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "facticio"
+       ],
+       "t": "Engaño deliberado"
+      },
+      {
+       "ids": [
+        "delirio",
+        "del_grand",
+        "wkl34",
+        "wkl11"
+       ],
+       "t": "Producción delirante y afectiva"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Síndrome de Korsakoff, lesiones del lóbulo frontal basal y roturas de aneurisma de la arteria comunicante anterior, traumatismo craneoencefálico, demencias y delirium. En el síndrome de Anton la persona con ceguera cortical describe lo que no ve. En la clasificación de Wernicke-Kleist-Leonhard, la euforia confabulatoria y la parafrenia confabulatoria cursan con producción de recuerdos fantásticos sin déficit amnésico. Su presencia junto a amnesia y alteración del control ejecutivo orienta a un origen orgánico, pero no es patognomónica de ninguna etiología ni exclusiva del síndrome de Korsakoff asociado al consumo de alcohol. En el ámbito pericial su reconocimiento evita atribuir intención de engaño a quien no la tiene y obliga a corroborar los testimonios con fuentes independientes.",
+     "links": [
+      {
+       "ids": [
+        "korsakoff",
+        "tce_neuro",
+        "dem",
+        "ftd",
+        "delirium",
+        "alcohol"
+       ],
+       "t": "Cuadros orgánicos"
+      },
+      {
+       "ids": [
+        "wkl11",
+        "wkl34"
+       ],
+       "t": "Formas de Leonhard"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Contexto pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Schnider A (2003). Spontaneous confabulation and the adaptation of thought to ongoing reality. Nat Rev Neurosci 4:662-671 · PMID 12894241",
+    "Kopelman MD (2010). Varieties of confabulation and delusion. Cogn Neuropsychiatry 15:14-37 · PMID 19753493"
+   ],
+   "relAdd": [
+    "recdel",
+    "simulacion",
+    "anosog",
+    "tce_neuro",
+    "dem"
+   ]
+  },
+  "paramn": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pide una descripción libre y después se precisan frecuencia, duración, circunstancias y, sobre todo, los fenómenos acompañantes: sensación epigástrica ascendente, miedo, olores o sabores extraños, desrealización, desconexión del entorno, automatismos y amnesia posterior. En una comparación de 50 pacientes con déjà vu ictal, 50 pacientes neurológicos sin epilepsia y 50 estudiantes, la experiencia fue cualitativamente similar en los tres grupos; la habían tenido el 73,5 % de los pacientes sin epilepsia y el 88 % de los estudiantes. El déjà vu epiléptico fue más frecuente y algo más duradero y se distinguió por «la compañía»: fatiga previa, desrealización, alucinaciones olfativas y gustativas, cefalea, sensaciones abdominales y miedo (Warren-Gash y Zeman 2014). Se valora además si se conserva la crítica (la familiaridad se reconoce como falsa). Para la paramnesia reduplicativa se pregunta dónde se encuentra la persona y si existe «otro» lugar igual.",
+     "links": [
+      {
+       "ids": [
+        "aluc_olf",
+        "desp_sx",
+        "crepusc_amn"
+       ],
+       "t": "Fenómenos acompañantes que conviene buscar"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Los delirios de falsa identificación (Capgras, Frégoli) implican convicción sobre la identidad de personas, mientras que en el déjà vu habitual la crítica está conservada. El recuerdo delirante atribuye significado nuevo a un hecho pasado. La confabulación rellena una laguna con un relato. La desrealización comparte la extrañeza del jamais vu, pero afecta a la vivencia global del entorno y no a un objeto conocido concreto. La ilusión deforma un estímulo presente. La desorientación carece de sentimiento de familiaridad anómalo. Illman y colaboradores (2012) proponen separar el déjà vu, por familiaridad errónea, del déjà vécu, por recolección errónea, y atribuyen parte de la inconsistencia de la literatura a una clasificación deficiente de estas experiencias.",
+     "links": [
+      {
+       "ids": [
+        "del_ident",
+        "capgras",
+        "recdel"
+       ],
+       "t": "Falsa identificación y delirio"
+      },
+      {
+       "ids": [
+        "confab",
+        "amnesia",
+        "desorient"
+       ],
+       "t": "Memoria y orientación"
+      },
+      {
+       "ids": [
+        "desp_sx",
+        "ilusion",
+        "extranamiento"
+       ],
+       "t": "Percepción y vivencia del entorno"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "El déjà vu ocasional es una experiencia normal y, aislado, carece de valor diagnóstico. Cuando es frecuente, prolongado o se acompaña del cortejo descrito orienta a epilepsia del lóbulo temporal (Warren-Gash y Zeman 2014). La paramnesia reduplicativa se considera un síndrome de falsa identificación de contenido específico; una revisión sistemática halló consenso en que su causa puede ser neurológica más que psiquiátrica, con lesiones frontales derechas y bifrontales como factor común, sobre una literatura escasa y sin estudios clínicos sistemáticos (Politis y Loane 2012). Los falsos reconocimientos aparecen en el delirium, las demencias, la manía y las psicosis. Las experiencias de tipo déjà vu se refieren también en estados de ansiedad y de despersonalización y con algunas sustancias y fármacos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "psiep",
+        "epilepsia_psic"
+       ],
+       "t": "Epilepsia"
+      },
+      {
+       "ids": [
+        "delirium",
+        "dem",
+        "tce_neuro"
+       ],
+       "t": "Cuadros neurocognitivos"
+      },
+      {
+       "ids": [
+        "capgras",
+        "esq",
+        "ep_mania"
+       ],
+       "t": "Psicosis y manía"
+      },
+      {
+       "ids": [
+        "desp",
+        "panic"
+       ],
+       "t": "Ansiedad y despersonalización"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Warren-Gash C & Zeman A (2014). Is there anything distinctive about epileptic deja vu? J Neurol Neurosurg Psychiatry 85:143-147 · PMID 23315620",
+    "Politis M & Loane C (2012). Reduplicative paramnesia: a review. Psychopathology 45:337-343 · PMID 22854269",
+    "Illman NA et al. (2012). Déjà experiences in temporal lobe epilepsy. Epilepsy Res Treat 2012:539567 · PMID 22957231"
+   ],
+   "relAdd": [
+    "desp_sx",
+    "epilepsia_psic",
+    "delirium",
+    "dem",
+    "confab"
+   ]
+  },
+  "recdel": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pregunta cuándo «se dio cuenta» la persona y qué hechos del pasado se lo confirman, y se fecha el recuerdo respecto al inicio del episodio: lo característico es que un suceso anterior adquiera su significado solo después de comenzada la psicosis. Conviene separar dos formas: el recuerdo verdadero al que se atribuye un significado nuevo y autorreferencial, y el recuerdo falso que surge ya con certeza. La realidad del hecho se contrasta con personas informantes y con documentos, sin presuponer que sea falso. Si el contenido es una agresión, un abuso u otro delito sufrido, la sospecha de recuerdo delirante no exime de valorar su verosimilitud ni de activar la protección que corresponda. Buchanan (1991) examinó si los recuerdos delirantes merecen el rango de síntoma de primer orden; la tradición schneideriana solo lo concede a la forma con estructura de percepción delirante, en la que un recuerdo real recibe un significado anómalo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "percdel",
+        "ocurr_del",
+        "wahnbewusstheit",
+        "fpr_schneider"
+       ],
+       "t": "Estructura de la vivencia delirante"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La confabulación se asocia a amnesia, varía de una entrevista a otra y carece de autorreferencia; Kopelman (2010) compara la confabulación espontánea con la memoria delirante y señala semejanzas que requieren estudio empírico. La pseudología cede ante la evidencia y cumple una función autoengrandecedora. Los falsos recuerdos por sugestión no tienen convicción delirante y se modifican con la información. La reinterpretación culposa del pasado en la depresión es congruente con el ánimo y, si alcanza rango delirante, se describe como delirio de culpa. Los recuerdos intrusivos del trauma reproducen un hecho real con vivencia de actualidad. En el déjà vécu hay sensación de haber vivido ya el presente, no un recuerdo concreto. La idea sobrevalorada reorganiza la biografía de forma comprensible.",
+     "links": [
+      {
+       "ids": [
+        "confab",
+        "pseudologia",
+        "paramn"
+       ],
+       "t": "Falsificaciones no delirantes del recuerdo"
+      },
+      {
+       "ids": [
+        "del_culpa",
+        "idea_sobrev",
+        "ptsd"
+       ],
+       "t": "Reinterpretaciones afectivas y traumáticas"
+      },
+      {
+       "ids": [
+        "delirio",
+        "ideas_ref"
+       ],
+       "t": "Otras formas de delirio"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Esquizofrenia, trastorno delirante, parafrenias y depresión psicótica, en la que adopta la forma de faltas pasadas reinterpretadas. En los delirios sistematizados sostiene la ampliación retrospectiva del sistema: la persona «comprende ahora» episodios de años atrás. Indica la presencia de una psicosis, pero su especificidad para la esquizofrenia no está establecida (Buchanan 1991 discute su rango). En el ámbito pericial plantea el problema de la credibilidad del testimonio sobre hechos pasados, que debe resolverse con corroboración externa y no por la sola presencia del diagnóstico. No se dispone de instrumentos ni de datos de frecuencia fiables [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "tdelirant",
+        "dpsic",
+        "paranoia"
+       ],
+       "t": "Psicosis"
+      },
+      {
+       "ids": [
+        "wkl34",
+        "parafr_kr",
+        "del_interp",
+        "querul"
+       ],
+       "t": "Parafrenias y delirios sistematizados"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Contexto pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Buchanan A (1991). Delusional memories: first-rank symptoms? Br J Psychiatry 159:472-474 · PMID 1751854",
+    "Kopelman MD (2010). Varieties of confabulation and delusion. Cogn Neuropsychiatry 15:14-37 · PMID 19753493"
+   ],
+   "relAdd": [
+    "confab",
+    "percdel",
+    "fpr_schneider",
+    "delirio",
+    "pseudologia"
+   ]
+  },
+  "pseudologia": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La sospecha nace de relatos llamativos y cambiantes y de inconsistencias entre entrevistas o con la documentación. Se contrasta, con consentimiento, con fuentes colaterales y registros previos. La revisión de 72 casos de King y Ford (1988) fija cuatro rasgos que guían la exploración: relatos no del todo improbables y construidos sobre una matriz de verdad, duraderos, no contados por lucro y de carácter autoengrandecedor, y reconocimiento de la falsedad cuando se confronta a la persona con los hechos. Se explora la función del relato (autoestima, atención, evitación), la existencia de beneficio externo y el grado de conciencia de estar mintiendo, con actitud no acusatoria. No hay instrumento diagnóstico validado ni categoría propia en el DSM-5-TR o la CIE-11. En una muestra autoseleccionada de 623 personas, el 13 % indicó que se consideraba, o que otras personas la consideraban, alguien que miente de forma patológica (numerosas mentiras diarias durante más de seis meses), y este grupo refirió más malestar y peor funcionamiento (Curtis y Hart 2020); el dato no es una prevalencia.",
+     "links": [
+      {
+       "ids": [
+        "sims_tomm",
+        "perit_forense"
+       ],
+       "t": "Detección del engaño y pericia"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Del delirio la separa el reconocimiento de la falsedad ante los hechos (King y Ford 1988). De la confabulación, la ausencia de amnesia y el carácter duradero del relato. Del recuerdo delirante, la falta de convicción inamovible y de autorreferencia. De la simulación, que el relato no se cuenta por un provecho externo. En el trastorno facticio el engaño se centra en el papel de persona enferma; King y Ford consideran la simulación de enfermedad, la peregrinación y la impostura manifestaciones conductuales secundarias de la pseudología. La mentira instrumental del trastorno antisocial persigue un fin concreto. La fabulación expansiva de la manía es episódica y congruente con el ánimo. Dike y colaboradores (2005) subrayan la vaguedad del concepto y dejan abierta la cuestión del grado de control sobre la conducta de mentir.",
+     "links": [
+      {
+       "ids": [
+        "confab",
+        "recdel",
+        "delirio",
+        "del_grand"
+       ],
+       "t": "Falsificaciones sin intención de engañar"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "facticio",
+        "tpanti"
+       ],
+       "t": "Engaño deliberado"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "tdi"
+       ],
+       "t": "Estados afectivos y disociativos"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Trastorno facticio y trastornos de la personalidad narcisista, histriónica y antisocial, y se cita también el trastorno límite [fuente no localizada]. En la serie de King y Ford (1988) ambos sexos estaban representados por igual, la inteligencia era variable y al menos el 40 % presentaba indicios de disfunción del sistema nervioso central, lo que justifica una evaluación neurológica y neuropsicológica cuando el cuadro es de aparición tardía o se acompaña de otros signos. Su valor diagnóstico es inespecífico: describe una conducta, no una entidad. En el ámbito forense su presencia no equivale por sí misma a una alteración de las capacidades cognitivas o volitivas, y la cuestión de la responsabilidad sigue sin resolverse con datos sistemáticos (Dike 2005).",
+     "links": [
+      {
+       "ids": [
+        "facticio",
+        "tpnarc",
+        "hist",
+        "tpanti",
+        "tlp",
+        "tpb"
+       ],
+       "t": "Entidades"
+      },
+      {
+       "ids": [
+        "neuropsico",
+        "ftd",
+        "tce_neuro"
+       ],
+       "t": "Evaluación de organicidad"
+      },
+      {
+       "ids": [
+        "imputabilidad",
+        "perit_forense",
+        "simulacion"
+       ],
+       "t": "Valoración forense"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Dike CC, Baranoski M & Griffith EE (2005). Pathological lying revisited. J Am Acad Psychiatry Law 33:342-349 · PMID 16186198",
+    "Curtis DA & Hart CL (2020). Pathological lying: theoretical and empirical support for a diagnostic entity. Psychiatr Res Clin Pract 2:62-69 · PMID 36101870"
+   ],
+   "relAdd": [
+    "tpanti",
+    "hist",
+    "recdel",
+    "delirio",
+    "perit_forense",
+    "tlp"
+   ]
+  },
+  "func_ejec": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La entrevista se centra en la vida diaria: planificación y priorización, inicio y terminación de tareas, gestión del tiempo, adaptación a cambios imprevistos, control de impulsos y mantenimiento del hilo en tareas de varios pasos, con ejemplos concretos y una persona informante. A la cabecera, la Frontal Assessment Battery reúne seis subpruebas (conceptualización, flexibilidad mental, programación motora, sensibilidad a la interferencia, control inhibitorio y autonomía ambiental), se aplica en unos diez minutos y se correlaciona con el test de Wisconsin; se validó en 121 pacientes con enfermedades neurológicas y 42 controles, no en el TDAH (Dubois 2000). Completan la exploración la fluencia verbal, los dígitos inversos, el Trail Making B y el Stroop. Antes de interpretar un rendimiento bajo se controlan el ánimo, el sueño, el consumo de sustancias, la medicación y el esfuerzo. Las pruebas y las escalas de vida diaria miden aspectos distintos, como recoge la ficha.",
+     "links": [
+      {
+       "ids": [
+        "neuropsico",
+        "diva_asrs",
+        "mmse_moca"
+       ],
+       "t": "Evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La inatención describe el síntoma; la disfunción ejecutiva, el proceso de control que puede subyacer a él. El síndrome disejecutivo adquirido supone una pérdida respecto al nivel previo, frente al patrón estable desde el desarrollo del TDAH. En la apatía falta la motivación para iniciar la conducta, no la capacidad de organizarla. La bradipsiquia enlentece sin desorganizar. En la discapacidad intelectual la limitación es global y no se restringe al control. La perseveración y la impulsividad son manifestaciones parciales de fallo ejecutivo, no sinónimos. La desorganización del pensamiento formal de la psicosis afecta al discurso mismo. La rigidez del autismo y la del trastorno obsesivo-compulsivo de la personalidad se sostienen en preferencias y normas, y la postergación del perfeccionismo, en el miedo al error.",
+     "links": [
+      {
+       "ids": [
+        "inatencion",
+        "disejec",
+        "apatia",
+        "bradipsiquia",
+        "perseverac",
+        "impulsiv"
+       ],
+       "t": "Síntomas vecinos"
+      },
+      {
+       "ids": [
+        "disc_int",
+        "descarril",
+        "pensconc"
+       ],
+       "t": "Limitación global o del pensamiento"
+      },
+      {
+       "ids": [
+        "tea_adulto",
+        "tpobs",
+        "anx_rend"
+       ],
+       "t": "Rigidez y perfeccionismo"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es un hallazgo transdiagnóstico e inespecífico. Además del TDAH y del autismo, un metaanálisis de 113 estudios encontró en el trastorno depresivo mayor un rendimiento inferior al de controles en las medidas neuropsicológicas de función ejecutiva, con tamaños de efecto de 0,32 a 0,97 que el enlentecimiento motor no explica por sí solo, y con indicios de mayor déficit a mayor gravedad sintomática y con medicación psicotrópica (Snyder 2013). Se observa también en la esquizofrenia, el trastorno bipolar, las lesiones y degeneraciones frontales, el traumatismo craneoencefálico, el consumo de alcohol, cannabis y estimulantes, la privación de sueño y con fármacos sedantes o anticolinérgicos. Un perfil ejecutivo bajo no confirma ningún diagnóstico; su interés es funcional y pronóstico.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto",
+        "tea_adulto",
+        "aprend_adulto"
+       ],
+       "t": "Neurodesarrollo"
+      },
+      {
+       "ids": [
+        "ddm",
+        "dcog",
+        "detcog",
+        "tb1"
+       ],
+       "t": "Trastornos afectivos y psicóticos"
+      },
+      {
+       "ids": [
+        "ftd",
+        "tce_neuro",
+        "dvascular"
+       ],
+       "t": "Causas neurológicas"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "cannabis_tuc",
+        "metanf",
+        "polifarm",
+        "priv_sueno"
+       ],
+       "t": "Sustancias, fármacos y sueño"
+      },
+      {
+       "ids": [
+        "red_frontoparietal",
+        "dopa_na_tdah"
+       ],
+       "t": "Mecanismos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Dubois B et al. (2000). The FAB: a Frontal Assessment Battery at bedside. Neurology 55:1621-1626 · PMID 11113214",
+    "Snyder HR (2013). Major depressive disorder is associated with broad impairments on neuropsychological measures of executive function: a meta-analysis and review. Psychol Bull 139:81-132 · PMID 22642228"
+   ],
+   "relAdd": [
+    "ddm",
+    "detcog",
+    "perseverac",
+    "impulsiv"
+   ]
+  },
+  "insight": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se explora con preguntas abiertas y graduadas: «¿qué cree que le está pasando?», «¿a qué lo atribuye?», «¿cree que necesita algún tratamiento?», «¿qué pensaría si esto le ocurriera a otra persona?». Se valora por separado cada dimensión y cada síntoma, porque la introspección no es global ni estable y cambia con la fase del trastorno. Hay que distinguir la introspección de la mera aceptación verbal del diagnóstico, del desacuerdo razonado con un tratamiento y de un modelo explicativo cultural distinto del biomédico. Instrumentos: la SUMD (Amador 1993); la Beck Cognitive Insight Scale, autoinforme de 15 ítems con una subescala de autorreflexión (9) y otra de autocerteza (6), cuyo índice compuesto se obtiene restando la segunda de la primera (Beck 2004); y los ítems específicos de la PANSS (G12, ausencia de juicio e introspección), de la escala de Hamilton para la depresión (ítem 17) y de la escala de manía de Young (ítem 11). El DSM-5-TR incluye un especificador de introspección en el TOC, el trastorno dismórfico corporal y el de acumulación.",
+     "links": [
+      {
+       "ids": [
+        "panss",
+        "hamd_madrs",
+        "ymrs",
+        "ybocs"
+       ],
+       "t": "Instrumentos"
+      },
+      {
+       "ids": [
+        "cfi",
+        "idiomas_malestar"
+       ],
+       "t": "Modelos explicativos y cultura"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La anosognosia es la falta de conciencia de un déficit neurológico por lesión cerebral. La negación es un mecanismo de defensa ante una realidad que se percibe. En la disimulación la persona reconoce los síntomas y los oculta. En la doble orientación coexisten la versión delirante y la correcta sin crítica. El juicio de realidad no equivale a la introspección: cabe admitir que se está enfermo y mantener el delirio, o rechazar el diagnóstico sin presentar síntomas psicóticos. La alexitimia dificulta identificar y nombrar los estados emocionales, no reconocer el trastorno. El rechazo de la etiqueta diagnóstica por temor al estigma, la información insuficiente y el déficit cognitivo pueden simular falta de introspección y se corrigen con medidas distintas.",
+     "links": [
+      {
+       "ids": [
+        "anosog",
+        "juicio",
+        "doble_orient",
+        "alexitim"
+       ],
+       "t": "Fenómenos vecinos"
+      },
+      {
+       "ids": [
+        "mec_defensa",
+        "estigma",
+        "simulacion"
+       ],
+       "t": "Defensa, estigma y disimulación"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Entre el 50 y el 80 % de las personas con diagnóstico de esquizofrenia presentan falta parcial o total de introspección; la mayoría de los estudios la asocian a la adherencia durante la fase de tratamiento, mientras que la relación con la adherencia a largo plazo es incierta (Lincoln 2007, 88 estudios). La asociación entre mejor introspección y depresión es significativa pero débil (r = 0,14 en 59 estudios), modulada por el estigma internalizado y la percepción de la enfermedad (Belvederi Murri 2015). Es pobre también en la manía aguda, la depresión psicótica, el trastorno delirante, la anorexia nerviosa, las demencias y los trastornos por consumo, y variable en el TOC y trastornos relacionados [fuente no localizada]. No es criterio diagnóstico de psicosis ni equivale a incapacidad: la capacidad se valora para cada decisión concreta.",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "tdelirant",
+        "ep_mania",
+        "dpsic"
+       ],
+       "t": "Psicosis y trastornos afectivos"
+      },
+      {
+       "ids": [
+        "tocp",
+        "tdc",
+        "acum",
+        "anor"
+       ],
+       "t": "Espectro obsesivo y alimentario"
+      },
+      {
+       "ids": [
+        "dem",
+        "ftd",
+        "tcs"
+       ],
+       "t": "Neurocognitivos y adicciones"
+      },
+      {
+       "ids": [
+        "adher",
+        "consent_cap",
+        "maccat_t",
+        "internamiento"
+       ],
+       "t": "Adherencia y capacidad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lincoln TM, Lüllmann E & Rief W (2007). Correlates and long-term consequences of poor insight in patients with schizophrenia. A systematic review. Schizophr Bull 33:1324-1342 · PMID 17289653",
+    "Beck AT et al. (2004). A new instrument for measuring insight: the Beck Cognitive Insight Scale. Schizophr Res 68:319-329 · PMID 15099613",
+    "Belvederi Murri M et al. (2015). Is good insight associated with depression among patients with schizophrenia? Systematic review and meta-analysis. Schizophr Res 162:234-247 · PMID 25631453"
+   ],
+   "relAdd": [
+    "tdc",
+    "acum",
+    "anor",
+    "panss",
+    "mec_defensa",
+    "doble_orient",
+    "cfi"
+   ]
+  },
+  "anosog": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La exploración es escalonada: pregunta general («¿por qué está en el hospital?»), pregunta específica sobre la función («¿puede mover el brazo izquierdo?») y confrontación con la ejecución («levante los dos brazos; ¿lo ha hecho?»). En las demencias se mide la discrepancia entre la valoración de la persona y la de quien la cuida, o entre la predicción del rendimiento y el rendimiento real. Se registran el grado (reconocimiento con indiferencia, minimización, negación explícita) y las explicaciones confabuladas. Según la revisión sistemática de Orfei y colaboradores (2007), los cuestionarios disponibles para la anosognosia de la hemiplejía tienen poder discriminativo insuficiente o un foco estrecho, lo que explica que las estimaciones de incidencia tras el ictus oscilen entre el 7 y el 77 %; recomiendan una evaluación multidimensional. Para la enfermedad de Alzheimer tampoco hay consenso sobre la mejor estrategia diagnóstica (Starkstein 2014).",
+     "links": [
+      {
+       "ids": [
+        "neuropsico",
+        "mmse_moca"
+       ],
+       "t": "Evaluación cognitiva"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La negación psicológica es una defensa motivada frente a una enfermedad que se percibe; la anosognosia es un déficit de conciencia por lesión. La falta de introspección de las psicosis se refiere al trastorno mental y no a un déficit neurológico. La heminegligencia es un fallo de atención hacia el hemiespacio y puede coexistir con ella. En la somatoparafrenia se añade una creencia delirante sobre el miembro, que se atribuye a otra persona [fuente no localizada]. La apatía y la amnesia pueden hacer que no se mencione o no se recuerde el déficit sin que falte su reconocimiento cuando se señala. En la afasia de Wernicke el fallo de comprensión dificulta la exploración. La aparente indiferencia ante un síntoma neurológico funcional no es anosognosia: la persona reconoce el síntoma, y ese signo carece de valor discriminativo demostrado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "insight",
+        "mec_defensa"
+       ],
+       "t": "Conciencia de enfermedad y defensa"
+      },
+      {
+       "ids": [
+        "confab",
+        "amnesia",
+        "apatia",
+        "afasia_wer"
+       ],
+       "t": "Fenómenos neuropsicológicos asociados"
+      },
+      {
+       "ids": [
+        "delirio",
+        "del_ident",
+        "deb_func",
+        "conv"
+       ],
+       "t": "Delirio sobre el cuerpo y síntomas funcionales"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Ictus, con afectación predominante del hemisferio derecho (corteza prefrontal y parietotemporal, ínsula y tálamo según Orfei 2007); síndrome de Anton en la ceguera cortical; afasia de Wernicke; síndrome de Korsakoff; traumatismo craneoencefálico; demencia frontotemporal y enfermedad de Alzheimer. En esta última está presente en una proporción elevada de casos leves y aumenta con la progresión; predice apatía y se asocia a menos síntomas depresivos y ansiosos, mayor carga para quien cuida y conductas peligrosas (Starkstein 2014). Orienta a lesión o degeneración cerebral, sin valor localizador estricto. Condiciona la seguridad (conducción, manejo del dinero, medicación), la adherencia a la rehabilitación y la valoración de la capacidad para decidir.",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ftd",
+        "korsakoff",
+        "tce_neuro",
+        "afasia_wer"
+       ],
+       "t": "Cuadros neurológicos"
+      },
+      {
+       "ids": [
+        "apatia_dem",
+        "bpsd"
+       ],
+       "t": "Consecuencias conductuales"
+      },
+      {
+       "ids": [
+        "cap_dem",
+        "consent_cap",
+        "capacidad_jur"
+       ],
+       "t": "Capacidad y medidas de apoyo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Starkstein SE (2014). Anosognosia in Alzheimer's disease: diagnosis, frequency, mechanism and clinical correlates. Cortex 61:64-73 · PMID 25481465",
+    "Orfei MD et al. (2007). Anosognosia for hemiplegia after stroke is a multifaceted phenomenon: a systematic review of the literature. Brain 130:3075-3090 · PMID 17533170"
+   ],
+   "relAdd": [
+    "ftd",
+    "korsakoff",
+    "confab",
+    "cap_dem",
+    "tce_neuro",
+    "apatia"
+   ]
+  },
+  "disejec": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La historia, con una persona informante, busca un cambio respecto al funcionamiento previo: desorganización, pérdida de iniciativa, rigidez, desinhibición y decisiones imprudentes. En la observación se atiende a la perseveración, la impersistencia, la dependencia de los estímulos del entorno y las conductas de imitación y de utilización. A la cabecera se emplean la Frontal Assessment Battery, las series motoras alternantes, las tareas de inhibición tipo go/no-go, la fluencia fonémica, las semejanzas y el Trail Making B; en el estudio original, ni la edad ni la puntuación del Mini-Mental influyeron de forma significativa en la puntuación de la FAB (Dubois 2000); un cribado cognitivo general normal no descarta el síndrome [fuente no localizada]. El grupo GREFEX propuso criterios separados para el síndrome disejecutivo conductual y el cognitivo: en 461 pacientes con distintas enfermedades neurológicas se halló en el 60 %, en ambos dominios en el 26 % y disociado en el 34 %, y uno y otro predijeron de forma independiente la pérdida de autonomía (Godefroy 2010).",
+     "links": [
+      {
+       "ids": [
+        "neuropsico",
+        "mmse_moca",
+        "npi"
+       ],
+       "t": "Instrumentos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La apatía y la inhibición psicomotriz de la depresión se acompañan de ánimo triste y de vivencia de incapacidad, y mejoran con el episodio. El déficit atencional del delirium es agudo y fluctuante. En el síndrome amnésico la planificación está conservada si se dan apoyos de memoria. La afasia transcortical motora reduce la iniciativa verbal sin afectar al resto de la conducta. Los síntomas negativos de la esquizofrenia comparten la abulia, pero tienen otra historia evolutiva. La disfunción ejecutiva del TDAH procede del desarrollo. La desinhibición maníaca es episódica y se acompaña de aceleración y de menor necesidad de sueño, mientras que la frontal es persistente y coexiste con indiferencia o moria. La perseveración y los ecofenómenos de la catatonía forman parte de un síndrome motor más amplio.",
+     "links": [
+      {
+       "ids": [
+        "apatia",
+        "inhib",
+        "desinhib",
+        "moria",
+        "perseverac",
+        "ecopraxia"
+       ],
+       "t": "Afecto, volición y motricidad"
+      },
+      {
+       "ids": [
+        "func_ejec",
+        "inatencion",
+        "amnesia",
+        "afasia_tc",
+        "pobreza_pens"
+       ],
+       "t": "Otras alteraciones cognitivas"
+      },
+      {
+       "ids": [
+        "catatonia",
+        "esqneg",
+        "ep_mania"
+       ],
+       "t": "Síndromes con los que se confunde"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "El perfil neuropsicológico disejecutivo es uno de los seis rasgos de los criterios revisados de la variante conductual de la demencia frontotemporal, que exigen tres de seis para el diagnóstico de posible; en 137 casos con confirmación anatomopatológica, el 86 % los cumplía (Rascovsky 2011). La hipótesis de la depresión vascular atribuye algunos síndromes depresivos geriátricos a la disrupción de los sistemas prefrontales por lesiones isquémicas (Alexopoulos 1997). Aparece además tras traumatismo craneoencefálico grave e ictus y en el deterioro cognitivo leve, la enfermedad de Alzheimer, la esclerosis múltiple y la enfermedad de Parkinson, con perfiles que difieren según la enfermedad (Godefroy 2010); también en la enfermedad de Huntington, la infección por VIH, el trastorno por consumo de alcohol y la esquizofrenia [fuente no localizada]. Su valor etiológico es inespecífico. Un cambio de conducta con perfil disejecutivo de inicio en la edad media o tardía obliga a descartar una causa neurodegenerativa antes de atribuirlo a un trastorno psiquiátrico primario [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ftd",
+        "dem",
+        "ncd_leve",
+        "dvascular",
+        "dep_tardia",
+        "vasc_dep_hit"
+       ],
+       "t": "Demencias y enfermedad cerebrovascular"
+      },
+      {
+       "ids": [
+        "tce_neuro",
+        "em_neuro",
+        "huntington",
+        "parkinson_psiq",
+        "vih_ncd",
+        "korsakoff"
+       ],
+       "t": "Otras causas neurológicas y médicas"
+      },
+      {
+       "ids": [
+        "detcog",
+        "esq",
+        "tdah_adulto",
+        "dcog"
+       ],
+       "t": "Trastornos psiquiátricos"
+      },
+      {
+       "ids": [
+        "red_frontoparietal"
+       ],
+       "t": "Circuitos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Godefroy O et al. (2010). Dysexecutive syndrome: diagnostic criteria and validation study. Ann Neurol 68:855-864 · PMID 21194155",
+    "Rascovsky K et al. (2011). Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia. Brain 134:2456-2477 · PMID 21810890",
+    "Dubois B et al. (2000). The FAB: a Frontal Assessment Battery at bedside. Neurology 55:1621-1626 · PMID 11113214",
+    "Alexopoulos GS et al. (1997). 'Vascular depression' hypothesis. Arch Gen Psychiatry 54:915-922 · PMID 9337771"
+   ],
+   "relAdd": [
+    "tce_neuro",
+    "huntington",
+    "vih_ncd",
+    "perseverac",
+    "moria",
+    "em_neuro"
+   ]
+  },
+  "cogn_soc": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "En la entrevista se observan la reciprocidad, el uso de la mirada y del gesto y la comprensión de ironías, metáforas y sobreentendidos, y se pide a la persona que describa estados mentales propios y ajenos («¿qué cree que pensó su compañera cuando ocurrió?»). La historia del desarrollo y una persona informante son imprescindibles para fechar el inicio. Tareas disponibles: falsa creencia, tarea de las insinuaciones (Hinting), reconocimiento de emociones faciales y Test de los Ojos revisado, que diferenció a 15 personas adultas con síndrome de Asperger o autismo de alto funcionamiento de 239 controles y se correlacionó inversamente con el cociente de espectro autista (Baron-Cohen 2001). Ninguna tarea es diagnóstica, y un rendimiento normal en tareas explícitas no excluye dificultades en la interacción real cuando hay compensación aprendida [fuente no localizada]. El resultado se interpreta según la capacidad intelectual, el lenguaje, la cultura y la ansiedad.",
+     "links": [
+      {
+       "ids": [
+        "aq10",
+        "srs2",
+        "aq_ados_adir",
+        "neuropsico"
+       ],
+       "t": "Instrumentos del atlas"
+      },
+      {
+       "ids": [
+        "tea_camuflaje",
+        "tea_mujeres"
+       ],
+       "t": "Compensación y camuflaje"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La alexitimia afecta a la identificación de las emociones propias. El aplanamiento afectivo reduce la expresión sin implicar un fallo de comprensión del otro. En la ansiedad social las claves se conocen, pero se teme la evaluación. La ideación paranoide supone una atribución excesiva de intenciones, no su ausencia. En la psicopatía se describe una comprensión cognitiva del otro conservada con respuesta empática disminuida [fuente no localizada]. La pérdida de empatía de la demencia frontotemporal es adquirida y progresiva. El retraimiento esquizoide refleja falta de interés más que incapacidad. La discapacidad intelectual, el trastorno del lenguaje y el pensamiento concreto limitan el rendimiento en las tareas por otra vía. El autismo esquizofrénico de la tradición fenomenológica alude a la pérdida de la sintonía prerreflexiva con el mundo común.",
+     "links": [
+      {
+       "ids": [
+        "alexitim",
+        "aplan_afect",
+        "contacto_vital"
+       ],
+       "t": "Afecto y expresión"
+      },
+      {
+       "ids": [
+        "ideas_ref",
+        "del_persec",
+        "jtc"
+       ],
+       "t": "Atribución de intenciones"
+      },
+      {
+       "ids": [
+        "fobia_soc",
+        "tpanti",
+        "tp_esquizoide",
+        "tea_esq_dd",
+        "disc_int",
+        "tr_leng"
+       ],
+       "t": "Entidades que plantean el diferencial"
+      },
+      {
+       "ids": [
+        "pensconc"
+       ],
+       "t": "Pensamiento"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es nuclear en el trastorno del espectro autista, donde tiene inicio en el desarrollo. En la esquizofrenia, un metaanálisis de 36 estudios (1181 pacientes y 936 controles) halló un déficit de teoría de la mente de gran tamaño (d = 0,90-1,08), menor pero presente en pacientes en remisión (d = 0,80), lo que sugiere un componente de rasgo (Bora 2009); estas alteraciones son determinantes importantes del funcionamiento cotidiano (Green 2015). La pérdida de simpatía o empatía es uno de los rasgos de los criterios de la variante conductual de la demencia frontotemporal (Rascovsky 2011). Se describen también alteraciones en el trastorno límite de la personalidad, el trastorno bipolar, el TDAH, el traumatismo craneoencefálico y el consumo crónico de alcohol [fuente no localizada]. El hallazgo es inespecífico: orientan el curso (desde el desarrollo, adquirido o ligado al episodio) y el resto del cuadro.",
+     "links": [
+      {
+       "ids": [
+        "tea",
+        "tea_adulto",
+        "tdah_adulto"
+       ],
+       "t": "Neurodesarrollo"
+      },
+      {
+       "ids": [
+        "esq",
+        "detcog",
+        "esqtpersonalidad"
+       ],
+       "t": "Psicosis"
+      },
+      {
+       "ids": [
+        "ftd",
+        "tce_neuro"
+       ],
+       "t": "Neurocognitivos"
+      },
+      {
+       "ids": [
+        "tlp",
+        "mbt",
+        "emc"
+       ],
+       "t": "Personalidad y tratamiento"
+      },
+      {
+       "ids": [
+        "cogn",
+        "conect_tea",
+        "apego"
+       ],
+       "t": "Mecanismos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bora E, Yucel M & Pantelis C (2009). Theory of mind impairment in schizophrenia: meta-analysis. Schizophr Res 109:1-9 · PMID 19195844",
+    "Baron-Cohen S et al. (2001). The \"Reading the Mind in the Eyes\" Test revised version: a study with normal adults, and adults with Asperger syndrome or high-functioning autism. J Child Psychol Psychiatry 42:241-251 · PMID 11280420",
+    "Green MF, Horan WP & Lee J (2015). Social cognition in schizophrenia. Nat Rev Neurosci 16:620-631 · PMID 26373471",
+    "Rascovsky K et al. (2011). Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia. Brain 134:2456-2477 · PMID 21810890"
+   ],
+   "relAdd": [
+    "esq",
+    "tlp",
+    "alexitim",
+    "tpanti",
+    "fobia_soc",
+    "aq_ados_adir"
+   ]
+  },
+  "juicio": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "El juicio de realidad no se pregunta directamente: se infiere del examen del pensamiento y de la percepción. Interesan el grado de convicción, la capacidad de considerar explicaciones alternativas («¿cabe otra explicación?»), la respuesta ante una prueba en contra planteada como hipótesis, la crítica de las experiencias perceptivas y la coherencia entre la creencia y la conducta. Para el juicio práctico son más informativas las decisiones reales recientes (dinero, seguridad, conducción, tratamiento) y el relato de una persona informante que los supuestos hipotéticos clásicos [fuente no localizada]. La capacidad para decidir se examina mediante cuatro habilidades: comprender la información, apreciar la propia situación, razonar sobre riesgos y beneficios y expresar una elección. Con el MacCAT-T, 40 personas hospitalizadas con esquizofrenia o trastorno esquizoafectivo rindieron peor que 40 controles comunitarios en comprensión y razonamiento, aunque muchas lo hicieron igual de bien (Grisso 1997).",
+     "links": [
+      {
+       "ids": [
+        "maccat_t",
+        "panss"
+       ],
+       "t": "Instrumentos"
+      },
+      {
+       "ids": [
+        "consent_cap",
+        "cap_dem"
+       ],
+       "t": "Marco de la capacidad"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La introspección es la conciencia de padecer un trastorno; el juicio de realidad, la distinción entre lo vivido y lo real: pueden disociarse. La idea sobrevalorada es comprensible y admite cierta duda. Las creencias compartidas por el grupo cultural o religioso de la persona no son delirantes. El pensamiento mágico no alcanza convicción inamovible. La pseudoalucinación y la ilusión se acompañan de crítica. En la despersonalización se conserva el carácter de «como si». La obsesión con introspección ausente plantea el límite con el delirio. En la impulsividad y la desinhibición la persona conoce las consecuencias y no frena la conducta. En la doble orientación coexisten ambos marcos. Una decisión imprudente o contraria al criterio médico no demuestra, por sí misma, alteración del juicio.",
+     "links": [
+      {
+       "ids": [
+        "insight",
+        "idea_sobrev",
+        "pens_magico",
+        "obses",
+        "doble_orient"
+       ],
+       "t": "Introspección y creencias no delirantes"
+      },
+      {
+       "ids": [
+        "pseudoaluc",
+        "ilusion",
+        "desp_sx"
+       ],
+       "t": "Percepción y vivencia del yo"
+      },
+      {
+       "ids": [
+        "impulsiv",
+        "desinhib"
+       ],
+       "t": "Control de la conducta"
+      },
+      {
+       "ids": [
+        "cult_bound",
+        "cfi"
+       ],
+       "t": "Cultura"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "La pérdida del juicio de realidad define lo psicótico en la esquizofrenia, el trastorno delirante, la depresión y la manía con síntomas psicóticos y las psicosis inducidas por sustancias o debidas a enfermedad médica, pero no indica la etiología. En el delirium y las demencias se altera junto con la cognición global. El juicio práctico y social se afecta en la manía (gastos, conductas de riesgo), la variante conductual de la demencia frontotemporal, el traumatismo craneoencefálico, la discapacidad intelectual y las intoxicaciones por alcohol, estimulantes o GHB; esto último es relevante para la validez del consentimiento sexual en contextos de consumo [fuente no localizada]. En la organización límite de la personalidad la prueba de realidad se conserva (Kernberg). El diagnóstico no prejuzga la capacidad, que es específica para cada decisión y momento.",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "tdelirant",
+        "dpsic",
+        "psust",
+        "tpsc_med"
+       ],
+       "t": "Psicosis"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "delirium",
+        "dem",
+        "ftd",
+        "tce_neuro",
+        "di"
+       ],
+       "t": "Manía y cuadros neurocognitivos"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "ghb_gbl",
+        "metanf",
+        "sumision_q"
+       ],
+       "t": "Sustancias y consentimiento"
+      },
+      {
+       "ids": [
+        "imputabilidad",
+        "capacidad_jur",
+        "internamiento",
+        "crpd"
+       ],
+       "t": "Marco jurídico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Grisso T, Appelbaum PS & Hill-Fotouhi C (1997). The MacCAT-T: a clinical tool to assess patients' capacities to make treatment decisions. Psychiatr Serv 48:1415-1419 · PMID 9355168"
+   ],
+   "relAdd": [
+    "maccat_t",
+    "consent_cap",
+    "imputabilidad",
+    "capacidad_jur",
+    "idea_sobrev",
+    "doble_orient"
+   ]
+  },
+  "disc_int": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "El diagnóstico exige documentar los tres criterios del DSM-5-TR: déficit de las funciones intelectuales confirmado por la evaluación clínica y por pruebas estandarizadas individuales, déficit del funcionamiento adaptativo e inicio durante el periodo del desarrollo. La historia recoge hitos, escolaridad y apoyos recibidos; el funcionamiento adaptativo actual se valora con una persona informante en los dominios conceptual, social y práctico. La entrevista se adapta: frases cortas, preguntas abiertas y concretas, más tiempo, apoyos visuales y comprobación de lo comprendido; las preguntas cerradas favorecen la aquiescencia [fuente no localizada]. Para detectar un trastorno mental añadido se busca un cambio respecto a la línea de base (sueño, apetito, pérdida de habilidades, retraimiento, agitación, autolesión) y se descartan antes dolor y enfermedad médica. En 1023 personas adultas con discapacidad intelectual, la prevalencia puntual de problemas de salud mental fue del 40,9 % con diagnóstico clínico y solo del 15,7 % con criterios DSM-IV-TR (Cooper 2007).",
+     "links": [
+      {
+       "ids": [
+        "whodas2",
+        "neuropsico",
+        "di"
+       ],
+       "t": "Funcionamiento y evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "En la demencia y en el deterioro cognitivo asociado a la esquizofrenia hay pérdida desde un nivel previo más alto; en la discapacidad intelectual el déficit procede del desarrollo. Los trastornos específicos del aprendizaje y el trastorno del lenguaje afectan a dominios circunscritos con capacidad general conservada. El autismo puede cursar con o sin discapacidad intelectual y requiere valoración independiente. Los déficits sensoriales, la escolarización insuficiente y la barrera idiomática o cultural reducen el rendimiento en las pruebas sin que exista déficit intelectual. La inhibición depresiva y el mutismo pueden aparentar una capacidad menor de la real. El pensamiento concreto de la esquizofrenia no implica un cociente intelectual bajo. En el contexto pericial debe considerarse el bajo esfuerzo o la simulación de déficit.",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "detcog",
+        "dcog"
+       ],
+       "t": "Deterioro adquirido"
+      },
+      {
+       "ids": [
+        "aprend",
+        "aprend_adulto",
+        "tr_leng",
+        "tea",
+        "tdah"
+       ],
+       "t": "Otros trastornos del neurodesarrollo"
+      },
+      {
+       "ids": [
+        "pensconc",
+        "mutismo",
+        "inhib"
+       ],
+       "t": "Síntomas que aparentan déficit"
+      },
+      {
+       "ids": [
+        "interprete_clinico",
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Cultura y simulación"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "No es un síntoma sino un diagnóstico sindrómico del neurodesarrollo, con causas genéticas (síndromes X frágil, de deleción 22q11.2, de Prader-Willi, de Williams y de Smith-Magenis, y otras variantes en el número de copias) y adquiridas (exposición prenatal al alcohol, complicaciones obstétricas, infecciones). Coexiste con frecuencia con el autismo y el TDAH. En el estudio poblacional de Cooper (2007) el tipo más prevalente de problema de salud mental fueron las alteraciones de conducta, y los criterios CIE-10 y DSM-IV-TR infraestimaron la morbilidad frente a criterios adaptados (DC-LD), lo que indica que los criterios generales se ajustan mal a esta población; es un problema distinto del eclipsamiento diagnóstico, aunque ambos conducen a la infradetección. Son relevantes la pica, las estereotipias y la autolesión. En el ámbito jurídico la discapacidad intelectual no equivale a incapacidad: procede valorar apoyos para cada decisión, así como la vulnerabilidad ante la sugestión y el abuso.",
+     "links": [
+      {
+       "ids": [
+        "x_fragil",
+        "del22q",
+        "prader_willi",
+        "williams",
+        "smith_magenis",
+        "cnv_16p_1q",
+        "cnv"
+       ],
+       "t": "Causas genéticas"
+      },
+      {
+       "ids": [
+        "fasd",
+        "compl_obst",
+        "infec_prenat"
+       ],
+       "t": "Causas adquiridas"
+      },
+      {
+       "ids": [
+        "tea",
+        "tdah",
+        "pica",
+        "estereotip",
+        "autolesion"
+       ],
+       "t": "Comorbilidad y conducta"
+      },
+      {
+       "ids": [
+        "capacidad_jur",
+        "consent_cap",
+        "crpd"
+       ],
+       "t": "Marco jurídico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cooper SA et al. (2007). Mental ill-health in adults with intellectual disabilities: prevalence and associated factors. Br J Psychiatry 190:27-35 · PMID 17197653"
+   ],
+   "relAdd": [
+    "fasd",
+    "pica",
+    "pensconc",
+    "capacidad_jur",
+    "cnv_16p_1q",
+    "estereotip",
+    "autolesion"
+   ]
+  },
+  "disnea_globo": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Disnea funcional: se pide describir la sensación (falta de aire, necesidad de suspirar o de respirar hondo, impresión de no llenar los pulmones), su relación con el reposo, el habla o el esfuerzo y los síntomas acompañantes (parestesias, mareo, opresión torácica). Se observan los suspiros, los bostezos y el predominio torácico alto de la respiración durante la entrevista. En la comparación de 75 pacientes con diagnóstico clínico de síndrome de hiperventilación con 80 personas sin él (personal sanitario, no pacientes con otra causa de disnea), el cuestionario de Nijmegen alcanzó una sensibilidad del 91 % y una especificidad del 95 % (van Dixhoorn y Duivenvoorden 1985); es un cribado, no un diagnóstico. Globo: en el caso descrito por Harvey y colaboradores (2018) la sensación era intermitente, mejoraba al comer y empeoraba al tragar en seco, patrón que se considera característico [fuente no localizada]. Se preguntan de forma expresa las señales de alarma, que obligan a estudio otorrinolaringológico o digestivo: disfagia, odinofagia, pérdida de peso, disfonía o masa cervical.",
+     "links": [
+      {
+       "ids": [
+        "phq15_sss8",
+        "asi3",
+        "pdss"
+       ],
+       "t": "Medidas de carga somática y de ansiedad"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "El ataque de pánico es paroxístico, alcanza su máximo en minutos y se acompaña de miedo intenso; la respiración disfuncional es un patrón crónico. La disnea de causa orgánica aparece con el esfuerzo o el decúbito y se acompaña de signos objetivos; ambas pueden coexistir. La disfagia es la dificultad real para el paso del alimento, a diferencia del globo, que no interfiere con la deglución. El miedo a atragantarse lleva a restringir la ingesta. La cenestopatía y el delirio hipocondríaco se describen de forma extraña y con convicción inamovible. En la ansiedad por enfermedad predomina la preocupación sobre el síntoma. La distonía laríngea aguda por antipsicóticos es brusca y guarda relación temporal con el fármaco [fuente no localizada]. El estridor inspiratorio episódico orienta a obstrucción laríngea inducible [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hipervent",
+        "ataque_panico",
+        "ansiedad",
+        "iad"
+       ],
+       "t": "Ansiedad y pánico"
+      },
+      {
+       "ids": [
+        "cenes",
+        "del_culpa"
+       ],
+       "t": "Fenómenos corporales psicóticos"
+      },
+      {
+       "ids": [
+        "arfid"
+       ],
+       "t": "Deglución e ingesta"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "escalas_motor"
+       ],
+       "t": "Efectos motores de fármacos"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Ambos síntomas son inespecíficos. La disnea funcional se observa en el trastorno de pánico, la ansiedad generalizada, el trastorno de síntomas somáticos y el estrés postraumático, y coexiste con el asma, como recoge la ficha. El globo se asocia al reflujo gastroesofágico y a la hipervigilancia visceral; en el caso clínico comentado por Harvey y colaboradores (2018) el estudio fue normal salvo una hernia de hiato, no hubo respuesta a tres meses de inhibidor de la bomba de protones y se plantearon logopedia, terapia cognitivo-conductual o amitriptilina si los síntomas resultaban más molestos. Los estimulantes, la cafeína y la abstinencia de sedantes pueden desencadenar o agravar la disnea ansiosa [fuente no localizada]. El diagnóstico se apoya en rasgos positivos (patrón respiratorio, mejoría con la ingesta) y no solo en la exclusión.",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "tag",
+        "somat_sint",
+        "ptsd",
+        "anx_med",
+        "anx_sust"
+       ],
+       "t": "Entidades"
+      },
+      {
+       "ids": [
+        "sens_ansiedad",
+        "mod_clark_panico",
+        "sii_eje"
+       ],
+       "t": "Mecanismos"
+      },
+      {
+       "ids": [
+        "exp_interocep",
+        "tcc_panico"
+       ],
+       "t": "Intervención"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "van Dixhoorn J & Duivenvoorden HJ (1985). Efficacy of Nijmegen Questionnaire in recognition of the hyperventilation syndrome. J Psychosom Res 29:199-206 · PMID 4009520",
+    "Harvey PR, Theron BT & Trudgill NJ (2018). Managing a patient with globus pharyngeus. Frontline Gastroenterol 9:208-212 · PMID 30046425"
+   ],
+   "relAdd": [
+    "cenes",
+    "ataque_panico",
+    "arfid",
+    "exp_interocep",
+    "phq15_sss8",
+    "sens_ansiedad"
+   ]
+  },
+  "insomnio_sx": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Historia del sueño de 24 horas: hora de acostarse, latencia, despertares, hora final, siestas, somnolencia y rendimiento diurnos, diferencias entre días laborables y festivos, turnos, pantallas, cafeína, alcohol, otras sustancias y fármacos. Quien comparte la cama informa de ronquidos, pausas respiratorias, movimientos y conductas nocturnas. Una pregunta separa el insomnio de la menor necesidad de sueño: «cuando duerme poco, ¿al día siguiente nota cansancio o se encuentra con energía?». La guía europea recomienda entrevista clínica con historia de sueño, cuestionarios y diarios de sueño, preguntas sobre salud somática y mental y exploración física, y reserva la polisomnografía para la sospecha de otros trastornos del sueño, el insomnio resistente y la percepción errónea del sueño (Riemann 2017). El Insomnia Severity Index es una medida breve y sensible al cambio (Bastien 2001). Las escalas de depresión y de manía incluyen ítems de sueño.",
+     "links": [
+      {
+       "ids": [
+        "isi",
+        "epworth_psqi",
+        "stopbang",
+        "hamd_madrs",
+        "ymrs"
+       ],
+       "t": "Instrumentos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "En la menor necesidad de sueño de la hipomanía no hay fatiga ni queja. En el retraso de fase el sueño es normal si se respeta el horario propio. La privación voluntaria o impuesta (turnos, cuidados, sesiones prolongadas de consumo) no es insomnio, porque falta la oportunidad de dormir. En la percepción errónea, el sueño referido es mucho menor que el registrado. La hipersomnia se distingue de la clinofilia, la fatiga y la apatía, en las que se permanece en cama sin dormir, y de la sedación por fármacos. La acatisia y las piernas inquietas impiden conciliar por necesidad de moverse. Las pesadillas, las parasomnias y la apnea fragmentan el sueño por mecanismos propios. La hipervigilancia postraumática retrasa el sueño por temor a dormirse.",
+     "links": [
+      {
+       "ids": [
+        "ep_hipom",
+        "hsue",
+        "circ_sueno",
+        "cronotipo"
+       ],
+       "t": "Ritmo y necesidad de sueño"
+      },
+      {
+       "ids": [
+        "hips_idiop",
+        "nar",
+        "kls",
+        "apatia",
+        "fatdep"
+       ],
+       "t": "Hipersomnia y sus imitadores"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "parasomn",
+        "apnea",
+        "hipervig"
+       ],
+       "t": "Causas que fragmentan o impiden el sueño"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es un síntoma de casi todos los trastornos mentales y, aislado, inespecífico. El DSM-5-TR incluye el insomnio o la hipersomnia entre los criterios del episodio depresivo mayor y el despertar precoz en el especificador melancólico; la menor necesidad de sueño es criterio del episodio maníaco e hipomaníaco. Aparece en la ansiedad generalizada, el estrés postraumático, las psicosis, el delirium y las demencias. Causas tóxicas y farmacológicas: estimulantes, cafeína, alcohol y su abstinencia, abstinencia de sedantes, opioides, cannabis o GHB, corticoides y algunos antidepresivos. Causas médicas: apnea del sueño, dolor, enfermedad endocrina. En un metaanálisis de 13 estudios longitudinales el insomnio predijo el inicio de depresión (OR 2,83), ansiedad (OR 3,23), abuso de alcohol (OR 1,35) y psicosis (OR 1,28, un solo estudio), con riesgo de sesgo moderado (Hertenstein 2019).",
+     "links": [
+      {
+       "ids": [
+        "ep_depmay",
+        "emel",
+        "eatip",
+        "ep_mania",
+        "ep_hipom"
+       ],
+       "t": "Trastornos afectivos"
+      },
+      {
+       "ids": [
+        "tag",
+        "ptsd",
+        "esq"
+       ],
+       "t": "Ansiedad, trauma y psicosis"
+      },
+      {
+       "ids": [
+        "delirium",
+        "sueno_dem",
+        "apnea",
+        "endocrino",
+        "corticoides_psiq"
+       ],
+       "t": "Neurocognitivos y médicos"
+      },
+      {
+       "ids": [
+        "metanf",
+        "alcohol",
+        "dt_alc",
+        "ghb_abst",
+        "bzd_dep",
+        "chemsex_s"
+       ],
+       "t": "Sustancias"
+      },
+      {
+       "ids": [
+        "insom",
+        "circ_sueno",
+        "circad",
+        "priv_sueno"
+       ],
+       "t": "Trastornos primarios del sueño y cronobiología"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Riemann D et al. (2017). European guideline for the diagnosis and treatment of insomnia. J Sleep Res 26:675-700 · PMID 28875581",
+    "Bastien CH, Vallières A & Morin CM (2001). Validation of the Insomnia Severity Index as an outcome measure for insomnia research. Sleep Med 2:297-307 · PMID 11438246",
+    "Hertenstein E et al. (2019). Insomnia as a predictor of mental disorders: a systematic review and meta-analysis. Sleep Med Rev 43:96-105 · PMID 30537570"
+   ],
+   "relAdd": [
+    "circ_sueno",
+    "apnea",
+    "ep_mania",
+    "ep_hipom",
+    "chemsex_s",
+    "corticoides_psiq",
+    "cronotipo",
+    "ghb_abst",
+    "hips_idiop"
+   ]
+  },
+  "parasomn": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "La anamnesis se hace con una persona testigo: momento de la noche, ojos abiertos o cerrados, complejidad de la conducta, facilidad para despertar, recuerdo del contenido onírico o amnesia, lesiones, frecuencia, repetición en la misma noche y estereotipia. Se recogen los antecedentes infantiles y familiares y los posibles desencadenantes (privación de sueño, fiebre, estrés, fármacos) y el consumo de alcohol. Una grabación doméstica resulta útil. La videopolisomnografía es necesaria para confirmar el trastorno de conducta del sueño REM y cuando hay conductas violentas o sospecha de epilepsia. La escala FLEP, aplicada a 62 pacientes con episodios nocturnos paroxísticos, identificó la epilepsia nocturna del lóbulo frontal con una sensibilidad de 1,0 y una especificidad de 0,90 (Derry 2006). El diagnóstico preciso es imprescindible en los casos medicolegales por violencia durante el sueño (Zadra 2013).",
+     "links": [
+      {
+       "ids": [
+        "epworth_psqi",
+        "stopbang"
+       ],
+       "t": "Instrumentos de sueño"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Las crisis epilépticas nocturnas son breves, estereotipadas y pueden repetirse varias veces en la noche. En el ataque de pánico nocturno la persona despierta por completo y recuerda el episodio. La pesadilla deja un recuerdo detallado del sueño; el terror nocturno, amnesia y difícil despertar. En el trastorno de conducta del sueño REM los ojos están cerrados, la persona suele permanecer en la cama, despierta alerta y relata un sueño coherente con sus movimientos, a diferencia del sonambulismo [fuente no localizada]. Las alucinaciones hipnagógicas y la parálisis del sueño ocurren en la transición entre vigilia y sueño. El delirium y el síndrome vespertino cursan con alteración de la conciencia también en vigilia. Los episodios disociativos nocturnos parten de la vigilia. En el contexto forense debe considerarse la simulación.",
+     "links": [
+      {
+       "ids": [
+        "psiep",
+        "crepusc_amn",
+        "crepusc"
+       ],
+       "t": "Epilepsia y automatismos"
+      },
+      {
+       "ids": [
+        "aluc_hipn",
+        "cataplejia"
+       ],
+       "t": "Fenómenos de la transición vigilia-sueño"
+      },
+      {
+       "ids": [
+        "ataque_panico",
+        "disoc_amn",
+        "crisis_func"
+       ],
+       "t": "Ansiedad y disociación"
+      },
+      {
+       "ids": [
+        "delirium",
+        "sueno_dem",
+        "simulacion"
+       ],
+       "t": "Delirium y simulación"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Parasomnias no REM: frecuentes en la infancia; en la edad adulta se favorecen por la privación de sueño, la apnea y los fármacos [fuente no localizada]; no hay pruebas experimentales directas de que el alcohol predisponga al sonambulismo o lo desencadene, dato decisivo cuando se alega como defensa penal (Pressman 2007). Una revisión sistemática identificó 29 fármacos como posibles desencadenantes de sonambulismo, en cuatro clases (agonistas del receptor de benzodiacepinas y otros moduladores GABA, antidepresivos y serotoninérgicos, antipsicóticos y betabloqueantes); la evidencia más sólida correspondió a zolpidem y oxibato sódico, y el resto se basó en casos (Stallman 2018). Trastorno de conducta del sueño REM: en 1280 pacientes con la forma idiopática confirmada por polisomnografía, la conversión a un síndrome neurodegenerativo manifiesto fue del 6,3 % anual y del 73,5 % a los 12 años (Postuma 2019), por lo que su valor pronóstico es alto. Se asocia también a la narcolepsia y a antidepresivos [fuente no localizada]. Las pesadillas son un síntoma del estrés postraumático.",
+     "links": [
+      {
+       "ids": [
+        "lewy",
+        "parkinson_psiq",
+        "dem"
+       ],
+       "t": "Sinucleinopatías"
+      },
+      {
+       "ids": [
+        "zolpidem",
+        "zopiclona",
+        "ansiol_bzd",
+        "ghb_gbl",
+        "alcohol",
+        "isrs"
+       ],
+       "t": "Fármacos y sustancias"
+      },
+      {
+       "ids": [
+        "nar",
+        "apnea",
+        "sueno_inf",
+        "priv_sueno"
+       ],
+       "t": "Trastornos del sueño"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "Trauma"
+      },
+      {
+       "ids": [
+        "imputabilidad",
+        "perit_forense"
+       ],
+       "t": "Valoración pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Postuma RB et al. (2019). Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder: a multicentre study. Brain 142:744-759 · PMID 30789229",
+    "Zadra A et al. (2013). Somnambulism: clinical aspects and pathophysiological hypotheses. Lancet Neurol 12:285-294 · PMID 23415568",
+    "Derry CP et al. (2006). Distinguishing sleep disorders from seizures: diagnosing bumps in the night. Arch Neurol 63:705-709 · PMID 16682539",
+    "Stallman HM, Kohler M & White J (2018). Medication induced sleepwalking: a systematic review. Sleep Med Rev 37:105-113 · PMID 28363449",
+    "Pressman MR et al. (2007). Alcohol-induced sleepwalking or confusional arousal as a defense to criminal behavior: a review of scientific evidence, methods and forensic considerations. J Sleep Res 16:198-212 · PMID 17542950"
+   ],
+   "relAdd": [
+    "zolpidem",
+    "nar",
+    "aluc_hipn",
+    "psiep",
+    "ghb_gbl",
+    "apnea",
+    "imputabilidad"
+   ]
+  },
+  "apetito_sx": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se distinguen el apetito, el hambre, la saciedad, la ingesta real y el peso, con su evolución y plazo. Se pregunta por qué se come menos: no hay hambre, miedo a ganar peso, miedo a atragantarse o a ser envenenado, aversión sensorial, olvido o falta de medios. En los atracones se precisan la cantidad, la sensación de pérdida de control, la frecuencia y las conductas compensatorias; se pregunta además por ingesta nocturna, preferencia reciente por dulces, ingesta de sustancias no nutritivas y regurgitación. El cuestionario SCOFF es un cribado breve de trastornos alimentarios (Morgan 1999). Se pesa y se talla a la persona en lugar de fiarse del peso referido, y se valoran constantes y analítica si hay restricción o purgas. Las escalas de depresión incluyen ítems de apetito, y los criterios del episodio depresivo mayor (DSM-5-TR) recogen tanto la disminución como el aumento.",
+     "links": [
+      {
+       "ids": [
+        "edeq_scoff",
+        "hamd_madrs"
+       ],
+       "t": "Instrumentos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "La anorexia como síntoma es falta de apetito; en la anorexia nerviosa la restricción obedece al miedo a ganar peso o a la alteración de la imagen corporal y el hambre puede estar conservada. El rechazo de alimentos por delirio de envenenamiento o nihilista, por negativismo catatónico o por fobia a atragantarse no es pérdida de apetito. La anhedonia quita el placer de comer sin suprimir el hambre. La hiperfagia es un aumento sostenido de la ingesta; el atracón, un episodio delimitado con pérdida de control; la hiperoralidad, una tendencia indiscriminada a llevarse cosas a la boca que incluye objetos no comestibles. La pica se dirige de forma persistente a sustancias concretas. El aumento de apetito por fármacos se describe como hambre continua con saciedad disminuida [fuente no localizada]. El globo y la disfagia limitan la ingesta por la deglución.",
+     "links": [
+      {
+       "ids": [
+        "anor",
+        "bul",
+        "bed",
+        "arfid",
+        "pica",
+        "rumiacion_alim"
+       ],
+       "t": "Trastornos alimentarios"
+      },
+      {
+       "ids": [
+        "del_persec",
+        "cotard",
+        "negativismo"
+       ],
+       "t": "Rechazo de alimentos de origen psicótico o motor"
+      },
+      {
+       "ids": [
+        "anhed",
+        "desinhib",
+        "disnea_globo"
+       ],
+       "t": "Síntomas vecinos"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "En la depresión el apetito puede disminuir o aumentar; las personas deprimidas con aumento de apetito mostraron mayor respuesta de regiones de recompensa ante imágenes de comida, y las que lo habían perdido, hipoactivación de la ínsula media (Simmons 2016), lo que apoya dos perfiles distintos. La hiperfagia es rasgo de la depresión atípica y estacional, del síndrome de Kleine-Levin y del síndrome de Prader-Willi. En la demencia frontotemporal, 19 pacientes con variante conductual ingirieron una media de 1344 calorías en un desayuno a demanda frente a 573-710 en la demencia semántica, la enfermedad de Alzheimer y los controles; los autores atribuyen valor diagnóstico a la hiperfagia marcada (Ahmed 2016). Aumentan el apetito varios antipsicóticos, la mirtazapina y el cannabis; lo reducen los estimulantes, con pérdida de peso tras sesiones prolongadas de consumo [fuente no localizada]. Siempre se descarta una causa médica.",
+     "links": [
+      {
+       "ids": [
+        "ep_depmay",
+        "emel",
+        "eatip",
+        "sad"
+       ],
+       "t": "Trastornos afectivos"
+      },
+      {
+       "ids": [
+        "ftd",
+        "kls",
+        "prader_willi",
+        "dem"
+       ],
+       "t": "Neurocognitivos y síndromes genéticos"
+      },
+      {
+       "ids": [
+        "olanzapina",
+        "clozapina",
+        "mirtazapina",
+        "ap_atipicos",
+        "estimulantes"
+       ],
+       "t": "Fármacos"
+      },
+      {
+       "ids": [
+        "cannabis_tuc",
+        "metanf",
+        "mefed",
+        "chemsex_s"
+       ],
+       "t": "Sustancias"
+      },
+      {
+       "ids": [
+        "recompensa",
+        "endocrino"
+       ],
+       "t": "Mecanismos y causas médicas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Simmons WK et al. (2016). Depression-related increases and decreases in appetite: dissociable patterns of aberrant activity in reward and interoceptive neurocircuitry. Am J Psychiatry 173:418-428 · PMID 26806872",
+    "Morgan JF, Reid F & Lacey JH (1999). The SCOFF questionnaire: assessment of a new screening tool for eating disorders. BMJ 319:1467-1468 · PMID 10582927",
+    "Ahmed RM et al. (2016). Assessment of eating behavior disturbance and associated neural networks in frontotemporal dementia. JAMA Neurol 73:282-290 · PMID 26810632"
+   ],
+   "relAdd": [
+    "bul",
+    "sad",
+    "cotard",
+    "olanzapina",
+    "mirtazapina",
+    "chemsex_s",
+    "emel",
+    "anhed"
+   ]
+  },
+  "sexual_sx": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pregunta de forma activa y normalizadora, sin presuponer la orientación sexual, la identidad de género, el tipo de vínculo ni las prácticas: si no se pregunta directamente, la disfunción apenas se comunica (Serretti y Chiesa 2009). Se revisan las fases (deseo, excitación con erección o lubricación, orgasmo y eyaculación, dolor, satisfacción), la cronología respecto al trastorno y a cada fármaco, con una línea de base previa al tratamiento, y el carácter situacional o generalizado. Se pregunta por el consumo de sustancias en contexto sexual (cuáles, vía, frecuencia, existencia de sexo sin consumo) y se distingue el malestar propio del derivado de la desaprobación ajena. La escala ASEX, de cinco ítems (impulso, excitación, erección o lubricación, capacidad de alcanzar el orgasmo y satisfacción con él), puntúa de 5 a 30, con mayor disfunción a mayor puntuación (McGahuey 2000). Según el caso se solicitan prolactina y estudio hormonal y metabólico.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_inv",
+        "hamd_madrs",
+        "ymrs"
+       ],
+       "t": "Instrumentos"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "competencia_cult"
+       ],
+       "t": "Marco de la entrevista"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "El deseo bajo se distingue de la anhedonia global y de la asexualidad, que es una orientación y no un síntoma. La hipersexualidad maníaca es episódica y forma parte del síndrome; la desinhibición frontal es persistente y carece de planificación; el aumento del impulso por fármacos dopaminérgicos guarda relación temporal con el tratamiento. El trastorno de conducta sexual compulsiva de la CIE-11 exige un patrón persistente de fracaso en el control de impulsos sexuales intensos y repetitivos, mantenido durante un periodo prolongado (por ejemplo, seis meses o más) y causante de malestar marcado o deterioro funcional; no debe diagnosticarse por el malestar ligado a juicios morales o a la desaprobación de impulsos o conductas que de otro modo no indicarían psicopatología (Kraus 2018). Las obsesiones de contenido sexual son intrusivas e indeseadas y no se acompañan de búsqueda de la conducta. Las parafilias se definen por el objeto del interés, no por su intensidad. La orientación sexual y la identidad de género no son síntomas.",
+     "links": [
+      {
+       "ids": [
+        "anhed",
+        "desinhib",
+        "impulsiv",
+        "compul",
+        "obses"
+       ],
+       "t": "Afecto y control de la conducta"
+      },
+      {
+       "ids": [
+        "hipser",
+        "parafil",
+        "disf_sex",
+        "ep_mania"
+       ],
+       "t": "Entidades"
+      },
+      {
+       "ids": [
+        "genero",
+        "incong_gen",
+        "ecosieg"
+       ],
+       "t": "Despatologización"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Depresión (descenso del deseo), manía e hipomanía (aumento), ansiedad, estrés postraumático y psicosis. Fármacos: en un metaanálisis, la disfunción sexual emergente con sertralina, venlafaxina, citalopram, paroxetina, fluoxetina, imipramina, fenelzina, duloxetina, escitalopram y fluvoxamina osciló entre el 25,8 y el 80,3 %, sin diferencia frente a placebo para agomelatina, bupropión, moclobemida y mirtazapina, entre otros (Serretti y Chiesa 2009); también los antipsicóticos que elevan la prolactina. En 3090 pacientes con enfermedad de Parkinson, la conducta sexual compulsiva afectó al 3,5 % y los trastornos del control de impulsos fueron más frecuentes con agonistas dopaminérgicos (17,1 % frente a 6,9 %; OR 2,72) (Weintraub 2010). El chemsex es el uso de drogas antes o durante encuentros sexuales planificados para facilitarlos, intensificarlos o prolongarlos, sobre todo metanfetamina, GHB/GBL, mefedrona, cocaína y ketamina (Maxwell 2019). El síntoma es inespecífico.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "ep_mania",
+        "ep_hipom",
+        "ptsd",
+        "esq"
+       ],
+       "t": "Trastornos afectivos y otros"
+      },
+      {
+       "ids": [
+        "isrs",
+        "sertralina",
+        "paroxetina",
+        "bupropion",
+        "mirtazapina",
+        "agomelatina",
+        "risperidona",
+        "paliperidona",
+        "amisulprida"
+       ],
+       "t": "Fármacos"
+      },
+      {
+       "ids": [
+        "parkinson_psiq",
+        "ftd"
+       ],
+       "t": "Dopaminérgicos y cuadros neurológicos"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu",
+        "metanf",
+        "ghb_gbl",
+        "mefed",
+        "poppers",
+        "chemsex_ssex"
+       ],
+       "t": "Uso sexualizado de sustancias"
+      },
+      {
+       "ids": [
+        "endocrino"
+       ],
+       "t": "Causas médicas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Weintraub D et al. (2010). Impulse control disorders in Parkinson disease: a cross-sectional study of 3090 patients. Arch Neurol 67:589-595 · PMID 20457959",
+    "McGahuey CA et al. (2000). The Arizona Sexual Experience Scale (ASEX): reliability and validity. J Sex Marital Ther 26:25-40 · PMID 10693114",
+    "Maxwell S, Shahmanesh M & Gafos M (2019). Chemsex behaviours among men who have sex with men: a systematic review of the literature. Int J Drug Policy 63:74-89 · PMID 30513473",
+    "Kraus SW et al. (2018). Compulsive sexual behaviour disorder in the ICD-11. World Psychiatry 17:109-110 · PMID 29352554"
+   ],
+   "relAdd": [
+    "parkinson_psiq",
+    "desinhib",
+    "anhed",
+    "ep_mania",
+    "isrs",
+    "chemsex_inv",
+    "sdu",
+    "lgb_afirm"
+   ]
+  },
+  "cataplejia": {
+   "secAdd": [
+    {
+     "t": "Exploración clínica",
+     "x": "En la práctica solo puede diagnosticarse por la anamnesis (Overeem 2011). Se pregunta: «cuando se ríe con ganas, cuenta un chiste o se lleva una sorpresa, ¿nota flojedad en la cara, la mandíbula, el cuello o las rodillas?», y se precisan la duración, la conservación de la conciencia, la bilateralidad y la forma de recuperación. En 109 pacientes con déficit demostrado de hipocretina-1, la risa con excitación fue un desencadenante más potente que la simple risa, y el enfado, el principal no humorístico; alrededor del 60 % tenía además ataques espontáneos, el 45 % ataques parciales y completos y el 30 % solo parciales; la mandíbula y la cara se afectaron más que las rodillas en los parciales, el 15 % de los completos duró más de dos minutos y el retorno brusco del tono fue un rasgo importante. Se buscan somnolencia diurna, parálisis del sueño y alucinaciones hipnagógicas. Apoyan el diagnóstico el sueño REM precoz, el déficit de orexina en el líquido cefalorraquídeo y el HLA-DQB1*06:02 (Bassetti 2019).",
+     "links": [
+      {
+       "ids": [
+        "aluc_hipn",
+        "epworth_psqi",
+        "insomnio_sx"
+       ],
+       "t": "Síntomas acompañantes e instrumentos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "En el síncope se pierde la conciencia y hay pródromo vegetativo. Las crisis epilépticas atónicas no dependen de la emoción y pueden alterar la conciencia. Las crisis funcionales y la debilidad funcional suelen durar más, carecen del desencadenante emocional positivo característico y muestran signos positivos en la exploración [fuente no localizada]. La parálisis del sueño ocurre al dormirse o al despertar. El ataque de sueño es un adormecimiento, con pérdida de la conciencia vigil. La catalepsia, pese a la semejanza del término, es el mantenimiento de posturas impuestas dentro de la catatonía. La flojedad con la risa intensa en personas sanas es leve, ocasional y sin caída. En la infancia y cerca del inicio puede adoptar formas atípicas, con hipotonía facial y movimientos anómalos, que se confunden con trastornos del movimiento [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "crisis_func",
+        "deb_func",
+        "conv",
+        "tmf"
+       ],
+       "t": "Fenómenos funcionales y disociativos"
+      },
+      {
+       "ids": [
+        "psiep",
+        "parasomn",
+        "aluc_hipn"
+       ],
+       "t": "Epilepsia y sueño"
+      },
+      {
+       "ids": [
+        "catalepsia",
+        "estupor"
+       ],
+       "t": "Motricidad catatónica"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Es el síntoma de mayor valor diagnóstico de este grupo: se considera patognomónico de la narcolepsia, en concreto del tipo 1 (Bassetti 2019), y aparece casi exclusivamente en personas con depleción de las neuronas orexinérgicas hipotalámicas (Dauvilliers 2014); Overeem y colaboradores (2011) le atribuyen una especificidad cercana al 100 %, aunque señalan que su definición es imprecisa y proponen graduar la certeza diagnóstica en lugar de separar formas típicas y atípicas. Está infradiagnosticada por la variabilidad en la edad de inicio, los desencadenantes, la frecuencia y la intensidad (Dauvilliers 2014). Se han descrito formas secundarias a lesiones hipotalámicas y a algunas enfermedades genéticas [fuente no localizada]. Los antidepresivos y el gamma-hidroxibutirato son los tratamientos más eficaces según la misma revisión; la retirada brusca de un antidepresivo puede agravarla [fuente no localizada]. Las alucinaciones hipnagógicas asociadas no deben interpretarse como psicosis.",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "orexina",
+        "hips_idiop"
+       ],
+       "t": "Narcolepsia y sistema orexinérgico"
+      },
+      {
+       "ids": [
+        "clomipramina",
+        "venlafaxina",
+        "isrs",
+        "ghb_gbl"
+       ],
+       "t": "Fármacos relacionados"
+      },
+      {
+       "ids": [
+        "aluc_hipn",
+        "conv",
+        "esq"
+       ],
+       "t": "Error diagnóstico con cuadros psiquiátricos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Overeem S et al. (2011). The clinical features of cataplexy: a questionnaire study in narcolepsy patients with and without hypocretin-1 deficiency. Sleep Med 12:12-18 · PMID 21145280",
+    "Dauvilliers Y et al. (2014). Cataplexy—clinical aspects, pathophysiology and management strategy. Nat Rev Neurol 10:386-395 · PMID 24890646",
+    "Bassetti CLA et al. (2019). Narcolepsy — clinical spectrum, aetiopathophysiology, diagnosis and treatment. Nat Rev Neurol 15:519-539 · PMID 31324898"
+   ],
+   "relAdd": [
+    "aluc_hipn",
+    "crisis_func",
+    "deb_func",
+    "catalepsia",
+    "hips_idiop"
+   ]
+  }
+ },
+ "add": []
+}

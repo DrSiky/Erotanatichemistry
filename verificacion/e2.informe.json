@@ -1,0 +1,209 @@
+{
+ "pmid_comprobados": 56,
+ "pmid_erroneos": 0,
+ "nota_verificacion": "Comprobados en PubMed los 54 PMID del parche original (autor, año, revista, volumen, páginas y dato atribuido en el resumen), más Blank 2019 (PMID 30671947, ya en la ficha de tdcoord y citado en el texto) y Chaffin 2006 (PMID 16382093, añadido). Ningún PMID erróneo ni cifra discordante. Guías NICE CG178, NG222, CG142 y NG26 cotejadas en nice.org.uk (título, fecha y recomendaciones citadas). Ficha técnica de Invega cotejada en CIMA (apdo. 4.1). CANMAT/ISBD 2018 cotejada en texto completo (PMC5947163, apdo. 6.2.2). Criterios DSM-5-TR y CIE-11: no se dispuso del texto de los manuales en la sesión; revisados sin hallar discrepancias, pero sin cotejo literal.",
+ "cambios": [
+  {
+   "id": "bpv",
+   "gravedad": "mayor",
+   "antes": "tx (ficha existente): «Evitar AD en monoterapia: pueden amplificar la activacion y elevar el riesgo suicida. Valproato (1 linea especifica: eficacia sobre la disforia activada y la agitacion); litio; quetiapina; BZD a corto plazo para la agitacion aguda; TEC en formas graves o con riesgo vital inminente.»",
+   "despues": "Evitar los antidepresivos en monoterapia: pueden amplificar la activación (Koukopoulos); en el trastorno bipolar I solo como adyuvantes de un estabilizador (ISBD, Pacchiarotti 2013). Ningún fármaco alcanza el umbral de primera línea en la depresión con características mixtas del DSM-5 (CANMAT/ISBD, Yatham 2021): cariprazina y lurasidona figuran en segunda línea. El valproato (divalproex) no es primera línea: la guía lo sitúa en segunda línea solo en la manía con características mixtas y en el episodio mixto DSM-IV, y en mujeres con capacidad de gestación está sujeto al plan de prevención de embarazos. Mantenimiento tras un episodio mixto DSM-IV: quetiapina en primera línea y litio en segunda. Benzodiacepinas a corto plazo para la agitación aguda y TEC en formas graves o con riesgo vital inminente [fuente no localizada].",
+   "fuente": "Yatham 2021, PMID 34599629 (resumen: ningún fármaco alcanza primera línea en episodios DSM-5 con características mixtas; divalproex, segunda línea en manía + características mixtas y en episodio mixto DSM-IV; cariprazina y lurasidona, segunda línea en depresión + características mixtas); Pacchiarotti 2013, PMID 24030475. Corrección de campo existente con «set» (ampliación de alcance autorizada)."
+  },
+  {
+   "id": "teasqd",
+   "gravedad": "menor",
+   "antes": "evolución y carga familiar",
+   "despues": "evolución y morbilidad familiar",
+   "fuente": "Cheniaux 2008, PMID 17719092: el resumen dice «family morbidity», no carga familiar."
+  },
+  {
+   "id": "teasqd",
+   "gravedad": "mayor",
+   "antes": "conforme a la guía NICE CG178, cuyo ámbito incluye el trastorno esquizoafectivo; se añade un antidepresivo cuando el síndrome depresivo completo persiste tras optimizar el antipsicótico, y terapia electroconvulsiva en formas graves o con riesgo vital. Nota factual: la ficha técnica de paliperidona oral (Invega, AEMPS-CIMA) incluye el trastorno esquizoafectivo en adultos [fuente no localizada].",
+   "despues": "conforme a la guía NICE CG178, cuyo ámbito incluye el trastorno esquizoafectivo. Puede añadirse un antidepresivo cuando el síndrome depresivo completo persiste tras optimizar el antipsicótico [fuente no localizada]. La CG178 no recomienda la terapia electroconvulsiva para el manejo general de la esquizofrenia y remite a la evaluación TA59, que la contempla en la catatonía grave; en el episodio depresivo grave se siguen las guías de depresión. Nota factual: la ficha técnica de Invega (paliperidona oral, AEMPS-CIMA), apartado 4.1, incluye el tratamiento del trastorno esquizoafectivo en adultos.",
+   "fuente": "NICE CG178 (texto consultado en nice.org.uk: Context y rec. 1.3.5.1, 1.5.7.4): la guía no recomienda antidepresivo añadido en el esquizoafectivo y declara que la TEC «is not recommended for general use in managing schizophrenia». Ficha técnica Invega (CIMA, n.º reg. 107395041), 4.1: «INVEGA está indicado en el tratamiento del trastorno esquizoafectivo en adultos» → se retira el marcador."
+  },
+  {
+   "id": "teasqd",
+   "gravedad": "menor",
+   "antes": "Estabilización y mantenimiento: continuidad del antipsicótico, intervención familiar, terapia cognitivo-conductual para la psicosis, apoyo al empleo y control metabólico. Resistencia: clozapina con su monitorización obligatoria.",
+   "despues": "Estabilización y mantenimiento: continuidad del antipsicótico, intervención familiar, terapia cognitivo-conductual para la psicosis, apoyo al empleo y control metabólico (CG178). Resistencia: clozapina tras dos antipsicóticos ineficaces, con su monitorización.",
+   "fuente": "NICE CG178 rec. 1.4.4.1-2, 1.5.8.1, 1.5.7.2 (verificadas en línea)."
+  },
+  {
+   "id": "teasqd",
+   "gravedad": "menor",
+   "antes": "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)",
+   "despues": "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178). National Institute for Health and Care Excellence",
+   "fuente": "nice.org.uk/guidance/cg178: publicada el 12-02-2014; título confirmado."
+  },
+  {
+   "id": "esqsmp",
+   "gravedad": "mayor",
+   "antes": "tx (ficha existente): «Clozapina (mayor evidencia global para síntomas negativos); antipsicóticos de baja potencia; rehabilitación psicosocial intensiva; cariprazina.»",
+   "despues": "Sin ensayos ni guías específicos de la forma simple [fuente no localizada]; por analogía, guía de la EPA sobre síntomas negativos (Galderisi 2021): descartar y tratar las causas secundarias; no hay recomendación basada en la evidencia sobre qué antipsicótico elegir; considerar el cambio a uno de segunda generación en quien recibe uno de primera; antidepresivo añadido como opción; entrenamiento en habilidades sociales, remediación cognitiva si hay déficit cognitivo, ejercicio físico y rehabilitación psicosocial. Cariprazina superó a risperidona en síntomas negativos predominantes de esquizofrenia estable (Németh 2017), en un ensayo que no incluyó formas simples.",
+   "fuente": "Galderisi 2021, PMID 33726883 (resumen: «it has proven difficult to formulate an evidence-based recommendation for the choice of an antipsychotic»; cambio a segunda generación, antidepresivo añadido, habilidades sociales, remediación cognitiva, ejercicio); Németh 2017, PMID 28185672. La primacía de clozapina y los «antipsicóticos de baja potencia» carecen de respaldo en la guía verificada y se retiran. Corrección de campo existente con «set» (ampliación de alcance autorizada)."
+  },
+  {
+   "id": "esqsmp",
+   "gravedad": "menor",
+   "antes": "cariprazina mejoró la subescala negativa de la PANSS más que risperidona",
+   "despues": "cariprazina mejoró la puntuación del factor de síntomas negativos de la PANSS más que risperidona",
+   "fuente": "Németh 2017, PMID 28185672: la variable principal fue el PANSS-FSNS (factor score for negative symptoms), no la subescala negativa."
+  },
+  {
+   "id": "ep_hipom",
+   "gravedad": "menor",
+   "antes": "y remite a los principios generales del manejo de la manía ante la escasez de ensayos específicos de hipomanía.",
+   "despues": "; señala que los principios generales de evaluación de la manía se aplican a la hipomanía y que muchos antimaníacos habituales, incluidos el litio y la mayoría de los antipsicóticos atípicos, no se han estudiado en ella.",
+   "fuente": "Yatham 2018, texto completo (PMC5947163), apdo. 6.2.2: «The general principles for assessing mania apply to hypomania… many standard medications for mania, including lithium and most atypical antipsychotics, have not been studied in hypomania». La guía habla de evaluación, no de manejo."
+  },
+  {
+   "id": "ep_hipom",
+   "gravedad": "menor",
+   "antes": "se valora un estabilizador o un antipsicótico de segunda generación según las pautas de la guía para el trastorno de base.",
+   "despues": "la guía indica considerar un estabilizador como litio o valproato (divalproex) o un antipsicótico atípico.",
+   "fuente": "Yatham 2018, texto completo: «when hypomania is frequent, severe, or impairing enough to require treatment, clinicians should consider mood stabilizers such as lithium or divalproex and/or atypical antipsychotics»."
+  },
+  {
+   "id": "ep_hipom",
+   "gravedad": "menor",
+   "antes": "por el riesgo de psicosis puerperal.",
+   "despues": "por el riesgo de psicosis puerperal [fuente no localizada].",
+   "fuente": "Afirmación razonable sin fuente verificada en la sesión: se añade marcador."
+  },
+  {
+   "id": "ep_hipom",
+   "gravedad": "menor",
+   "antes": "enlace a «tdah_conduccion» en «Señales de alarma y seguridad»",
+   "despues": "enlace retirado",
+   "fuente": "El nodo «TDAH, conducción y accidentes» no trata la conducción temeraria en la hipomanía: enlace inadecuado."
+  },
+  {
+   "id": "ep_depmay",
+   "gravedad": "menor",
+   "antes": "parten de la decisión compartida y ofrecen psicoterapias estructuradas y antidepresivos según la gravedad, las preferencias y la respuesta previa.",
+   "despues": "parten de la decisión compartida y ofrecen psicoterapias estructuradas y antidepresivos según la gravedad, las preferencias y la respuesta previa; la NG222 indica no ofrecer de forma rutinaria antidepresivos como primera línea en la depresión menos grave.",
+   "fuente": "NICE NG222 (texto consultado en nice.org.uk): «Do not routinely offer antidepressant medication as first-line treatment for less severe depression»."
+  },
+  {
+   "id": "ep_depmay",
+   "gravedad": "menor",
+   "antes": "En el trastorno bipolar no se usan antidepresivos en monoterapia y se siguen las guías específicas.",
+   "despues": "En el trastorno bipolar I los antidepresivos solo se prescriben como adyuvantes de un estabilizador (Pacchiarotti 2013) y se siguen las guías específicas.",
+   "fuente": "Pacchiarotti 2013, PMID 24030475: la restricción del resumen se refiere al trastorno bipolar I."
+  },
+  {
+   "id": "ep_depmay",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Pacchiarotti I et al. (2013). The International Society for Bipolar Disorders (ISBD) task force report on antidepressant use in bipolar disorders. Am J Psychiatry 170:1249-1262 · PMID 24030475",
+   "fuente": "Referencia necesaria para la afirmación sobre antidepresivos en el trastorno bipolar (verificada en PubMed)."
+  },
+  {
+   "id": "ep_depmay",
+   "gravedad": "menor",
+   "antes": "Tras iniciar o aumentar un antidepresivo debe revisarse pronto a la persona, con especial atención en adolescentes y adultos jóvenes [fuente no localizada], para detectar",
+   "despues": "Tras iniciar un antidepresivo debe revisarse pronto a la persona (la guía NICE NG222 fija una revisión a la semana en personas de 18 a 25 años o cuando preocupa el riesgo suicida), para detectar",
+   "fuente": "NICE NG222: «A review 1 week after starting antidepressant medication if a new prescription is for a person aged 18 to 25 years or if there is a particular concern for risk of suicide» → se sustituye el marcador por la fuente."
+  },
+  {
+   "id": "ep_depmay",
+   "gravedad": "menor",
+   "antes": "NICE (2022). Depression in adults: treatment and management (NG222)",
+   "despues": "NICE (2022). Depression in adults: treatment and management (NG222). National Institute for Health and Care Excellence",
+   "fuente": "nice.org.uk/guidance/ng222: publicada el 29-06-2022; título confirmado."
+  },
+  {
+   "id": "asperger",
+   "gravedad": "menor",
+   "antes": "No hay fármacos indicados para las características nucleares [fuente no localizada].",
+   "despues": "La CG142 indica no usar antipsicóticos ni anticonvulsivantes, ni antidepresivos de forma rutinaria, para las características nucleares del autismo en personas adultas.",
+   "fuente": "NICE CG142 rec. 1.4.13, 1.4.21 y 1.4.22 (texto consultado en nice.org.uk) → se sustituye el marcador por la fuente."
+  },
+  {
+   "id": "asperger",
+   "gravedad": "menor",
+   "antes": "NICE (2012). Autism spectrum disorder in adults: diagnosis and management (CG142)",
+   "despues": "NICE (2012). Autism spectrum disorder in adults: diagnosis and management (CG142; última actualización en 2021). National Institute for Health and Care Excellence",
+   "fuente": "nice.org.uk/guidance/cg142: publicada el 27-06-2012, actualizada el 14-06-2021."
+  },
+  {
+   "id": "mutis_sel",
+   "gravedad": "menor",
+   "antes": "En el único estudio controlado a largo plazo,",
+   "despues": "En el primer estudio controlado de evolución a largo plazo,",
+   "fuente": "Steinhausen 2006, PMID 16790010: el resumen dice «first controlled long-term outcome study», no único."
+  },
+  {
+   "id": "mutis_sel",
+   "gravedad": "menor",
+   "antes": "la guía de la AACAP recuerda que el riesgo de suicidalidad asociado a estos fármacos en menores sigue necesitando evaluación (Walter 2020)",
+   "despues": "la guía de la AACAP señala que el grado de riesgo suicida asociado a los ISRS y los IRSN en menores sigue necesitando evaluación (Walter 2020)",
+   "fuente": "Walter 2020, PMID 32439401 («additional evaluation of the degree of suicide risk associated with SSRIs and SNRIs»); se evita el anglicismo «suicidalidad»."
+  },
+  {
+   "id": "rad",
+   "gravedad": "menor",
+   "antes": "en la línea de la guía NICE NG26,",
+   "despues": "en la línea de la guía NICE NG26 (programas de videofeedback y entrenamiento en sensibilidad parental),",
+   "fuente": "NICE NG26 (texto consultado en nice.org.uk)."
+  },
+  {
+   "id": "rad",
+   "gravedad": "mayor",
+   "antes": "No hay psicofármacos indicados para los síntomas nucleares, y las intervenciones coercitivas o de contención física presentadas como «terapias de apego» carecen de respaldo y se han asociado a daños graves (Zeanah 2016).",
+   "despues": "La NG26 indica no tratar las dificultades de apego con fármacos. Las técnicas coercitivas o de contención física presentadas como «terapias de apego» motivaron un informe de la APSAC por su potencial de daño (Chaffin 2006); el parámetro de la AACAP desaconseja su uso [fuente no localizada].",
+   "fuente": "NICE NG26 rec. 1.5.20: «Do not treat attachment difficulties with pharmacological interventions». La advertencia atribuida a Zeanah 2016 no figura en su resumen (PMID 27806867) ni pudo cotejarse en el texto completo (sin acceso); se apoya en Chaffin 2006, PMID 16382093 (resumen: «potentially harmful attachment therapy techniques») y se marca la atribución a la AACAP."
+  },
+  {
+   "id": "rad",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Chaffin M et al. (2006). Report of the APSAC task force on attachment therapy, reactive attachment disorder, and attachment problems. Child Maltreat 11:76-89 · PMID 16382093",
+   "fuente": "Verificada en PubMed (autores, año, revista, volumen, páginas)."
+  },
+  {
+   "id": "rad",
+   "gravedad": "menor",
+   "antes": "NICE (2015). Children's attachment: attachment in children and young people who are adopted from care, in care or at high risk of going into care (NG26)",
+   "despues": "NICE (2015). Children's attachment: attachment in children and young people who are adopted from care, in care or at high risk of going into care (NG26). National Institute for Health and Care Excellence",
+   "fuente": "nice.org.uk/guidance/ng26: publicada el 25-11-2015; título confirmado."
+  },
+  {
+   "id": "rad",
+   "gravedad": "menor",
+   "antes": "enlace a «suic_adol» en «Señales de alarma y seguridad»",
+   "despues": "enlace retirado",
+   "fuente": "El nodo de conducta suicida en la adolescencia no corresponde al rótulo «síntomas emocionales»; el texto no menciona riesgo suicida."
+  },
+  {
+   "id": "fasd",
+   "gravedad": "menor",
+   "antes": "El diagnóstico se apoya en tres ejes: exposición prenatal al alcohol, rasgos faciales característicos y afectación del neurodesarrollo.",
+   "despues": "El diagnóstico valora la exposición prenatal al alcohol, los rasgos faciales característicos, el crecimiento y la afectación del neurodesarrollo.",
+   "fuente": "Coherencia con la ficha (el síndrome completo incluye retraso del crecimiento) y con Hoyme 2016, PMID 27464676."
+  },
+  {
+   "id": "fasd",
+   "gravedad": "menor",
+   "antes": "Fase de prevención: información y cribado del consumo de alcohol en mujeres que planean un embarazo o están embarazadas, e intervención sobre el trastorno por consumo cuando existe. Fase diagnóstica: evaluación multidisciplinar temprana, que es en sí misma un factor protector (Streissguth 2004).",
+   "despues": "Fase de prevención: información y cribado sistemático del consumo de alcohol al planificar el embarazo y durante la gestación, con intervención breve cuando procede (Lange 2017). Fase diagnóstica: evaluación multidisciplinar; el diagnóstico a edad más temprana se asoció a mayor probabilidad de evitar desenlaces adversos (Streissguth 2004).",
+   "fuente": "Lange 2017, PMID 28828483 (cribado sistemático e intervenciones breves); Streissguth 2004, PMID 15308923: lo protector fue el diagnóstico a edad temprana, no la evaluación multidisciplinar. Redacción neutra en género."
+  }
+ ],
+ "sin_resolver": [
+  "Criterios DSM-5-TR y CIE-11 citados (esquizoafectivo: 2 semanas de psicosis sin episodio afectivo y requisito de 1 mes en CIE-11 6A21; apego reactivo: edad de desarrollo de 9 meses y exclusión por TEA; TDC no antes de los 5 años; mutismo selectivo antes de los 5 años; hipomanía emergente con antidepresivos; nota DSM-5 sobre diagnósticos DSM-IV de Asperger; ansiedad social esquizotípica): coherentes con lo que el verificador conoce de los manuales, pero sin cotejo literal por falta de acceso al texto. Conviene comprobarlos contra el manual.",
+  "rad: la recomendación del parámetro AACAP (Zeanah 2016) contra las «terapias de apego» coercitivas no figura en el resumen y el texto completo no es accesible; queda marcada [fuente no localizada] y apoyada en Chaffin 2006.",
+  "esqsmp: requisito de un año de progresión en los criterios de investigación de la CIE-10 (F20.6): sigue marcado [fuente no localizada].",
+  "teasqd (campo tx existente, fuera del alcance autorizado): «clozapina en formas con síntomas negativos prominentes» y «litio coadyuvante» no están respaldados por NICE CG178 (clozapina solo tras dos antipsicóticos ineficaces) ni por Galderisi 2021; convendría revisarlo. Tampoco se verificó la afirmación de la ficha de peor pronóstico que el subtipo bipolar.",
+  "esqtpersonalidad (campo tx existente, fuera de alcance): «Antipsicóticos a dosis bajas (evidencia moderada)» contradice a Kirchner 2018 y Jakobsen 2017 (evidencia limitada, sin recomendaciones basadas en la evidencia); convendría revisarlo.",
+  "bpv: en el nuevo tx se conservan con [fuente no localizada] las benzodiacepinas a corto plazo y la TEC, no cotejadas con guía; la frase «elevar el riesgo suicida» de los antidepresivos se ha retirado del tx por no figurar en las fuentes verificadas.",
+  "esqsmp: el nuevo tx omite clozapina; no se verificó si el texto completo de la guía EPA contiene alguna mención específica a clozapina más allá del resumen.",
+  "Quedan 23 marcadores [fuente no localizada] en las secciones (afirmaciones clínicas razonables no cotejadas) (inicio del esquizoafectivo, ausencia de cohortes de BP-V, uso fuera de indicación de antipsicóticos en el esquizotípico y de ISRS en el mutismo selectivo, ausencia de fármacos para el núcleo del TDC y del TEAF, aspectos periciales y riesgo suicida en el TEAF, ideación suicida compartida en la folie à deux, entre otras).",
+  "Arnone 2006 (PMID 16895601, ya en folie_deux) y las demás referencias preexistentes de las fichas no se reverificaron: fuera de alcance.",
+  "Cook 2016 (PMID 26668194) carece de resumen en PubMed: solo se confirma la cita bibliográfica.",
+  "valproato: las fichas hablan de «mujeres con capacidad de gestación» (terminología AEMPS); no se comprobó si las restricciones vigentes de la AEMPS para varones deben reflejarse."
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "pmid_comprobados": 3,
+ "pmid_erroneos": 0,
+ "fuentes_abiertas": "Texto íntegro descargado y cotejado literalmente: NICE CG185 (act. 02-09-2025), CG178 (act. 04-09-2026), NG87 (act. 13-09-2019), NG222 (29-06-2022); fichas AEMPS-CIMA 59547 (feb. 2026), 48932 (jul. 2024), 60350 (sep. 2026), 39955 (08/2026), 61568 (jun. 2025), 63564 (oct. 2023), 65230 (nov. 2024), 65148 (02/2026), 82446 (nov. 2024). PubMed: 14747245 (sin resumen), 25262043 (OR 6,3 y 11,2-13,5 en el resumen), 29955545 (texto completo PMC6007736).",
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "Fila «Consenso ADA-APA» (antes de iniciar, seguimiento, fuente), leyenda ●○○, cap, refs, caja de límites y footer",
+   "antes": "Calendario dado solo como [fuente no localizada]; faltaban el perímetro de cintura y los antecedentes anuales",
+   "despues": "Calendario completo (peso/IMC 4, 8, 12 semanas y trimestral; TA y glucemia en ayunas 12 semanas y anual; lípidos 12 semanas y cada 5 años; cintura y antecedentes cada año) atribuido al consenso «según lo reproduce Peña 2018»; se conserva «[fuente no localizada]» solo para el texto original, que sigue sin poder abrirse; ●○○ redefinido como dato de fuente secundaria indexada",
+   "fuente": "Peña A et al. (2018) Ment Health Clin 8:49-55 · PMID 29955545 (PMC6007736, introducción); ADA-APA 2004 PMID 14747245 no está en PMC y diabetesjournals.org/Wiley devuelven 403"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Fila «Litio según NICE», nivel plasmático",
+   "antes": "0,8-1,0 al menos 6 meses si hubo recaída con litio o síntomas subumbral (presentado como pauta)",
+   "despues": "«considerar» 0,8-1,0 mmol/L durante un periodo de prueba de al menos 6 meses si hubo recaída con litio o síntomas subumbral con deterioro funcional (1.10.16)",
+   "fuente": "NICE CG185 rec. 1.10.16 («Consider… for a trial period of at least 6 months… with functional impairment»)"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Caja «Valproato y reproducción», título",
+   "antes": "(ficha técnica; medidas de la EMA de 2018)",
+   "despues": "(ficha técnica de Depakine Crono, apdos. 4.3, 4.4 y 4.6)",
+   "fuente": "La atribución a la EMA 2018 no figura en la ficha abierta ni se abrió el documento de la EMA, y las medidas para varones que la caja incluye no son de 2018; se deja solo la fuente realmente cotejada (FT 60350)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Caja «Valproato y reproducción», varones",
+   "antes": "valorar anticoncepción eficaz y no donar esperma…",
+   "despues": "tratar la necesidad de anticoncepción eficaz, también para la pareja, durante el tratamiento y al menos 3 meses después, no donar esperma en ese periodo y reevaluar periódicamente el tratamiento",
+   "fuente": "FT Depakine Crono 60350, apdo. 4.4 «Uso en pacientes varones»"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Fila «Medicación del TDAH según NICE», peso",
+   "antes": "peso cada 3 meses hasta los 10 años (omitía a mayores de 10 años y jóvenes)",
+   "despues": "añadido: a los 3 y 6 meses del inicio y después cada 6 meses en mayores de 10 años y jóvenes",
+   "fuente": "NICE NG87 rec. 1.8.5"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "meta.refs, NG87",
+   "antes": "recomendaciones 1.7.4, 1.8.5 y 1.8.8-1.8.10 (1.8.8 no se dibuja)",
+   "despues": "recomendaciones 1.7.4, 1.8.5, 1.8.9 y 1.8.10",
+   "fuente": "NICE NG87"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Fila «Clozapina», seguimiento",
+   "antes": "mensual durante todo el tratamiento si hubo neutropenia leve",
+   "despues": "…si hubo neutropenia leve ya estabilizada o resuelta; al menos 2 veces por semana mientras el RAN esté entre 1000 y 1500/mm³",
+   "fuente": "FT Leponex 59547, apdo. 4.4"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Fila «Carbamazepina», sodio y niveles",
+   "antes": "mensual durante los 3 primeros meses; «sospecha de malabsorción o de toxicidad»",
+   "despues": "añadido «o en función de las necesidades clínicas»; «trastornos de absorción o de toxicidad al tomar más de un medicamento»",
+   "fuente": "FT Tegretol 39955, apdo. 4.4"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Caja «Carbamazepina y HLA-B*15:02»",
+   "antes": "solo origen chino han o tailandés",
+   "despues": "añadido que la ficha pide considerar la prueba en otras poblaciones asiáticas de riesgo (>15 % en Filipinas y Malasia)",
+   "fuente": "FT Tegretol 39955, apdo. 4.4"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Fila «Litio según NICE», 1.10.21",
+   "antes": "…cada 6 meses",
+   "despues": "…cada 6 meses, y más a menudo si hay deterioro renal o tiroideo o hipercalcemia",
+   "fuente": "NICE CG185 rec. 1.10.21"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Fila «ISRS en personas mayores»",
+   "antes": "las tiazidas (OR 11,2-13,5)",
+   "despues": "el uso concomitante de diuréticos, tiazidas (OR 11,2-13,5)",
+   "fuente": "De Picker 2014, resumen · PMID 25262043"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Caja «Donde las fuentes difieren», pulso y tensión",
+   "antes": "frente a tras cada cambio de dosis (CG185)",
+   "despues": "frente a tras cada cambio de dosis y en la revisión anual (CG185)",
+   "fuente": "NICE CG185 rec. 1.10.8 y 1.2.12"
+  }
+ ],
+ "sin_resolver": [
+  "Consenso ADA-APA 2004 (Diabetes Care 27:596-601, PMID 14747245): no está en PMC ni en acceso abierto (Unpaywall: closed); diabetesjournals.org y Wiley devuelven 403 y web.archive.org corta la conexión. El calendario queda verificado solo en una fuente secundaria indexada (Peña 2018, PMID 29955545) y el texto original conserva «[fuente no localizada]».",
+  "Natremia basal y en las primeras semanas con ISRS en personas de riesgo: ni NG222 ni las fichas de Seropram y Cipralex fijan calendario; se mantiene como práctica habitual con «[fuente no localizada]».",
+  "La ficha lm_bip del atlas cita la ficha de Plenur como «documento de abril de 2025», mientras que el texto de CIMA abierto hoy indica revisión de julio de 2024 (la figura usa julio de 2024); conviene unificar en la ficha del atlas, que no se puede editar desde aquí.",
+  "Fila «Resto de antipsicóticos (trastorno bipolar)» enlazada a ap_tipicos y «Prolactina» a d2_block a falta de fichas específicas (no existen nodos de síndrome metabólico, QT, hiperprolactinemia ni hiponatremia); enlaces aceptables pero no ideales.",
+  "Ficha de Lamictal, apdo. 4.2: en el supuesto de cese de anticonceptivos el texto de CIMA dice literalmente «antes y después del inicio» (probable errata de la ficha); la figura lo resume como «iniciar o retirar».",
+  "Sin dosis: comprobado; solo aparecen umbrales analíticos literales de ficha o guía (litemia, RAN) y las concentraciones «mg» de las denominaciones de las presentaciones."
+ ]
+}
