@@ -1,0 +1,1045 @@
+{
+ "patch": {
+  "d2_block": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La relación entre ocupación D2 y efecto clínico se apoya en una serie corta de estudios PET con [11C]racloprida. Farde 1988 midió una ocupación del 65-85 % en el putamen con once antipsicóticos a dosis clínicas. Nordström 1993, estudio aleatorizado y doble ciego con un antagonista D2 selectivo (racloprida a tres dosis; 13 personas con PET en estado estacionario), halló relación significativa entre ocupación y efecto antipsicótico, y mayor ocupación en quienes presentaron efectos extrapiramidales (p = 0,02). La revisión con análisis agrupado de Uchida 2011 (12 estudios, 82 personas, sin agonistas parciales) sitúa los puntos de corte en el 60 % para una reducción sintomática del 25 %, el 72 % para una del 50 % y el 77-78 % para los efectos extrapiramidales. En la práctica esto significa que subir la dosis más allá del tramo eficaz añade sobre todo efectos motores y prolactina: en el metaanálisis de dosis-respuesta de Leucht 2020, las dosis superiores a la que alcanza el 95 % del efecto máximo no aportaron, en promedio, más eficacia. La elección entre fármacos no se hace por ocupación, sino por eficacia comparada y perfil de tolerabilidad (Huhn 2019; véase la ficha de clase).",
+     "links": [
+      {
+       "ids": [
+        "haloperidol",
+        "risperidona",
+        "amisulprida"
+       ],
+       "t": "antagonistas D2 de referencia"
+      },
+      {
+       "ids": [
+        "ap_atipicos",
+        "ap_tipicos"
+       ],
+       "t": "fichas de clase"
+      },
+      {
+       "ids": [
+        "dopa_hyp",
+        "carlsson_hit"
+       ],
+       "t": "hipótesis dopaminérgica"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La «ventana terapéutica» procede de muestras muy pequeñas (menos de 20 personas por estudio; 82 en el análisis agrupado de Uchida 2011), de adultos jóvenes y de mediciones estriatales con racloprida; no hay ensayos que demuestren que titular la dosis según la ocupación mejore los resultados [fuente no localizada]. No se aplica a tres situaciones. Agonistas parciales: en voluntarios sanos el aripiprazol alcanzó ocupaciones del 40-95 % según la dosis y por encima del 90 % no se observaron efectos extrapiramidales (Yokoi 2002). Clozapina: ocupación D2 del 16-68 % a dosis eficaces, frente al 63-89 % de la risperidona y el 43-89 % de la olanzapina (Kapur 1999). Fármacos de baja ocupación o sin bloqueo D2: la lumateperona mostró una ocupación estriatal máxima media del 39 % a una dosis con eficacia en un ensayo (Vanover 2019) y la xanomelina-trospio no bloquea el receptor. Tampoco explica la falta de respuesta de una parte de las personas pese a una ocupación suficiente, base del concepto de esquizofrenia resistente (véase la ficha correspondiente). La disociación rápida del receptor sigue siendo una hipótesis.",
+     "links": [
+      {
+       "ids": [
+        "aripiprazol",
+        "brexpiprazol",
+        "cariprazina"
+       ],
+       "t": "agonistas parciales"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "cloz"
+       ],
+       "t": "clozapina y resistencia"
+      },
+      {
+       "ids": [
+        "lumateperona",
+        "xanomelina"
+       ],
+       "t": "baja ocupación o mecanismo no D2"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Los efectos adversos graves ligados al bloqueo D2 son dependientes de la exposición o idiosincrásicos y obligan a actuar: distonía aguda (incluida la laríngea), acatisia intensa, parkinsonismo, hiperprolactinemia sintomática, síndrome neuroléptico maligno (rigidez, hipertermia, disautonomía y elevación de CK) y discinesia tardía. La prevalencia media de discinesia tardía en el metaanálisis de Carbon 2017 fue del 25,3 % (41 estudios; 11.493 personas), del 30,0 % con antipsicóticos de primera generación y del 20,7 % con los de segunda. Una ocupación 5-HT2A alta no protege por completo: en Nyberg 1999, con una ocupación D2 media del 82 %, seis personas tratadas con risperidona presentaron efectos extrapiramidales pese a una ocupación 5-HT2A media del 95 %. La aparición de efectos motores con dosis habituales debe hacer pensar en un metabolismo lento por CYP2D6 o en una interacción con inhibidores. En la demencia con cuerpos de Lewy y en la enfermedad de Parkinson los antagonistas D2 pueden provocar reacciones graves (McKeith 1992; ambas son contraindicaciones de la ficha técnica de haloperidol).",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard",
+        "snm"
+       ],
+       "t": "complicaciones motoras y SNM"
+      },
+      {
+       "ids": [
+        "biperideno",
+        "vmat2_td"
+       ],
+       "t": "tratamiento de los efectos motores"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "cyp2d6"
+       ],
+       "t": "metabolismo por CYP2D6"
+      },
+      {
+       "ids": [
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "sensibilidad a neurolépticos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nordström AL et al. (1993). Central D2-dopamine receptor occupancy in relation to antipsychotic drug effects: a double-blind PET study of schizophrenic patients. Biol Psychiatry 33:227-235 · PMID 8097114",
+    "Farde L et al. (1988). Central D2-dopamine receptor occupancy in schizophrenic patients treated with antipsychotic drugs. Arch Gen Psychiatry 45:71-76 · PMID 2892477",
+    "Uchida H et al. (2011). Dopamine D2 receptor occupancy and clinical effects: a systematic review and pooled analysis. J Clin Psychopharmacol 31:497-502 · PMID 21694629",
+    "Yokoi F et al. (2002). Dopamine D2 and D3 receptor occupancy in normal humans treated with the antipsychotic drug aripiprazole (OPC 14597): a study using positron emission tomography and [11C]raclopride. Neuropsychopharmacology 27:248-259 · PMID 12093598",
+    "Kapur S, Zipursky RB & Remington G (1999). Clinical and theoretical implications of 5-HT2 and D2 receptor occupancy of clozapine, risperidone, and olanzapine in schizophrenia. Am J Psychiatry 156:286-293 · PMID 9989565",
+    "Nyberg S et al. (1999). Suggested minimal effective dose of risperidone based on PET-measured D2 and 5-HT2A receptor occupancy in schizophrenic patients. Am J Psychiatry 156:869-875 · PMID 10360125",
+    "Vanover KE et al. (2019). Dopamine D2 receptor occupancy of lumateperone (ITI-007): a positron emission tomography study in patients with schizophrenia. Neuropsychopharmacology 44:598-605 · PMID 30449883",
+    "Leucht S et al. (2020). Dose-response meta-analysis of antipsychotic drugs for acute schizophrenia. Am J Psychiatry 177:342-353 · PMID 31838873",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "Carbon M et al. (2017). Tardive dyskinesia prevalence in the period of second-generation antipsychotic use: a meta-analysis. J Clin Psychiatry 78:e264-e278 · PMID 28146614",
+    "McKeith I et al. (1992). Neuroleptic sensitivity in patients with senile dementia of Lewy body type. BMJ 305:673-678 · PMID 1356550"
+   ],
+   "relAdd": [
+    "snm",
+    "amisulprida",
+    "fg_antipsic",
+    "lewy",
+    "parkinson_psiq"
+   ]
+  },
+  "5ht2a": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Los estudios PET muestran que los antipsicóticos de segunda generación ocupan el receptor 5-HT2A más que el D2 a cualquier dosis: en Kapur 1999 (44 personas) la diferencia fue máxima con clozapina (ocupación D2 del 16-68 %), mientras que risperidona y olanzapina a dosis clínicas habituales alcanzaron la misma ocupación D2 que los antipsicóticos típicos a dosis bajas. En Nyberg 1999 la ocupación 5-HT2A fue del 95 % de media con una ocupación D2 del 82 %, y seis personas tuvieron efectos extrapiramidales; los autores concluyen que una ocupación 5-HT2A alta no los previene por completo. La consecuencia práctica es que el antagonismo 5-HT2A no convierte un fármaco en «atípico» por sí solo: el riesgo motor depende sobre todo de la ocupación D2 y, por tanto, de la dosis. En la comparación clínica, solo cuatro fármacos de segunda generación (amisulprida, clozapina, olanzapina y risperidona) superaron a los de primera en eficacia global, y la amisulprida carece de afinidad 5-HT2A relevante [fuente no localizada]; la eficacia sobre síntomas negativos «no puede ser un componente central de la atipicidad» (Leucht 2009). La elección de fármaco sigue las guías y la evidencia comparativa (véase la ficha de clase), no el cociente de afinidades.",
+     "links": [
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "ocupación D2"
+      },
+      {
+       "ids": [
+        "risperidona",
+        "olanzapina",
+        "clozapina",
+        "amisulprida"
+       ],
+       "t": "fármacos comparados"
+      },
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "ficha de clase"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El papel del receptor 5-HT2A en la eficacia antipsicótica sigue sin demostrarse de forma aislada. La mejor prueba clínica de un bloqueo 5-HT2A sin acción D2 es la pimavanserina: eficaz frente a placebo en la psicosis de la enfermedad de Parkinson (Cummings 2013), con un efecto pequeño sobre síntomas negativos como tratamiento añadido en esquizofrenia estable (ensayo ADVANCE: tamaño del efecto 0,21; p = 0,043; Bugarski-Kirola 2022) y sin autorización en la UE. La afirmación de que el antagonismo 5-HT2A mejora los síntomas negativos por liberación de dopamina prefrontal procede de modelos preclínicos y no se ha confirmado en ensayos comparativos [fuente no localizada]. La clasificación por el cociente de afinidades (Meltzer 1989) es farmacológica, no clínica; el metaanálisis en red de Huhn 2019 concluye que las diferencias de eficacia entre antipsicóticos son graduales más que discretas y que las de efectos adversos son más marcadas. Que el agonismo 5-HT2A de los psicodélicos clásicos produzca alteraciones perceptivas es coherente con la hipótesis, pero no la prueba (véase la ficha correspondiente).",
+     "links": [
+      {
+       "ids": [
+        "pimavanserina",
+        "lumateperona"
+       ],
+       "t": "fármacos de predominio 5-HT2A"
+      },
+      {
+       "ids": [
+        "psicodel_5ht2a"
+       ],
+       "t": "agonismo 5-HT2A"
+      },
+      {
+       "ids": [
+        "ap_tipicos",
+        "ap_atipicos"
+       ],
+       "t": "división en generaciones"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "El antagonismo 5-HT2A no elimina ninguno de los riesgos de clase: los antipsicóticos que lo incorporan mantienen el riesgo de efectos extrapiramidales dependiente de la dosis (Nyberg 1999), de discinesia tardía (prevalencia del 20,7 % con fármacos de segunda generación; Carbon 2017) y la advertencia de mayor mortalidad en personas mayores con demencia. En el metaanálisis de Leucht 2009, con las excepciones de aripiprazol y ziprasidona, los fármacos de segunda generación produjeron más aumento de peso que el haloperidol, lo que traslada la vigilancia al terreno cardiometabólico. Con pimavanserina, el ensayo ADVANCE registró un cambio medio del QTcF de 4,5 ms frente a 0,0 ms con placebo (Bugarski-Kirola 2022); las advertencias de su ficha estadounidense no se han consultado en esta revisión. Señales que obligan a actuar: acatisia o distonía de aparición reciente, aumento rápido de peso o alteración de la glucemia, síncope o palpitaciones y fiebre con rigidez.",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard",
+        "snm"
+       ],
+       "t": "riesgos motores y SNM"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "mortalidad en la demencia"
+      },
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "monitorización metabólica y cardíaca"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kapur S, Zipursky RB & Remington G (1999). Clinical and theoretical implications of 5-HT2 and D2 receptor occupancy of clozapine, risperidone, and olanzapine in schizophrenia. Am J Psychiatry 156:286-293 · PMID 9989565",
+    "Nyberg S et al. (1999). Suggested minimal effective dose of risperidone based on PET-measured D2 and 5-HT2A receptor occupancy in schizophrenic patients. Am J Psychiatry 156:869-875 · PMID 10360125",
+    "Leucht S et al. (2009). Second-generation versus first-generation antipsychotic drugs for schizophrenia: a meta-analysis. Lancet 373:31-41 · PMID 19058842",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "Bugarski-Kirola D et al. (2022). Pimavanserin for negative symptoms of schizophrenia: results from the ADVANCE phase 2 randomised, placebo-controlled trial in North America and Europe. Lancet Psychiatry 9:46-58 · PMID 34861170",
+    "Carbon M et al. (2017). Tardive dyskinesia prevalence in the period of second-generation antipsychotic use: a meta-analysis. J Clin Psychiatry 78:e264-e278 · PMID 28146614",
+    "Cummings J et al. (2013). Pimavanserin for patients with Parkinson's disease psychosis: a randomised, placebo-controlled phase 3 trial. Lancet 383:533-540 · PMID 24183563"
+   ],
+   "relAdd": [
+    "d2_block",
+    "clozapina",
+    "amisulprida",
+    "ap_tipicos",
+    "ap_dem_riesgo"
+   ]
+  },
+  "ap_tipicos": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Las guías no reservan un lugar propio a la primera generación: NICE CG178 y la guía de la APA (Keepers 2020) recomiendan elegir el antipsicótico con la persona según el perfil de efectos adversos, sin priorizar una generación sobre otra. La evidencia comparativa lo respalda. En el metaanálisis de Leucht 2009 (150 ensayos doble ciego; 21.533 participantes), solo amisulprida, clozapina, olanzapina y risperidona superaron a los fármacos de primera generación en eficacia global, con tamaños del efecto pequeños o medianos, y los de segunda generación produjeron menos efectos extrapiramidales que el haloperidol incluso a dosis bajas, pero solo algunos menos que los típicos de baja potencia. En el primer episodio (EUFEST; 498 personas, ensayo abierto), la interrupción a 12 meses fue del 72 % con haloperidol a dosis bajas frente al 33-53 % con los comparadores, con una reducción de síntomas prácticamente igual en todos los grupos (Kahn 2008). El metaanálisis en red de Schneider-Thoma 2026 (256 ensayos doble ciego) confirma diferencias de eficacia pequeñas o medianas y diferencias de tolerabilidad relevantes para la elección individual. El uso actual se concentra en la agitación aguda y en las formulaciones de liberación prolongada (véanse las fichas correspondientes).",
+     "links": [
+      {
+       "ids": [
+        "haloperidol",
+        "clorpromazina",
+        "levomepromazina",
+        "zuclopentixol"
+       ],
+       "t": "fármacos de primera generación"
+      },
+      {
+       "ids": [
+        "ap_atipicos",
+        "ap_lai"
+       ],
+       "t": "fichas de clase"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La comparación entre generaciones depende del diseño: Leucht 2009 excluyó los estudios abiertos porque favorecían sistemáticamente a los fármacos de segunda generación, incluyó sobre todo ensayos a corto plazo y no halló efectos consistentes de moderadores como el patrocinio industrial, la dosis del comparador o la medicación antiparkinsoniana profiláctica. EUFEST fue abierto y su variable principal (interrupción por cualquier causa) no equivale a eficacia, como reconocen sus autores (Kahn 2008). Varios fármacos clásicos tienen pocos ensayos modernos: en Huhn 2019 la confianza en la evidencia fue con frecuencia baja o muy baja y seis fármacos no se diferenciaron de placebo de forma estadísticamente significativa, entre ellos la levomepromazina (diferencia estandarizada −0,03; IC 95 % −0,59 a 0,52). La categoría «típico» agrupa moléculas heterogéneas en potencia y perfil. Estado regulatorio (registro de CIMA, consulta de noviembre de 2026): figuran comercializados en España haloperidol, clorpromazina, levomepromazina, perfenazina, zuclopentixol, pimozida, periciazina y sulpirida (Dogmatil); no hay registros de flufenazina ni de trifluoperazina. Las indicaciones concretas de cada ficha técnica deben consultarse en CIMA.",
+     "links": [
+      {
+       "ids": [
+        "levomepromazina",
+        "zuclopentixol",
+        "clorpromazina"
+       ],
+       "t": "fichas individuales"
+      },
+      {
+       "ids": [
+        "clorpromazina_hit"
+       ],
+       "t": "historia de la clorpromazina"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Riesgos que obligan a actuar: distonía aguda (incluida la laríngea), acatisia, parkinsonismo, síndrome neuroléptico maligno y discinesia tardía, cuya prevalencia con tratamiento actual de primera generación fue del 30,0 % (IC 95 % 26,4-33,8) frente al 20,7 % con segunda generación en el metaanálisis de Carbon 2017. En Huhn 2019 el uso de medicación antiparkinsoniana frente a placebo alcanzó una razón de riesgos de 6,14 con pimozida y la sedación de 10,20 con zuclopentixol. En personas mayores con demencia, los antipsicóticos convencionales se asociaron a un riesgo de muerte igual o mayor que el de los atípicos (véase la ficha de antipsicóticos en la demencia) y la exposición a cualquier antipsicótico a más ictus, sobre todo en la demencia (razón de tasas 3,50; Douglas 2008). Los fármacos de baja potencia añaden hipotensión ortostática, sedación y carga anticolinérgica [fuente no localizada], y la ficha técnica de haloperidol recomienda ECG basal y control del QTc (véase su ficha). La necesidad continuada de un anticolinérgico es una señal para revisar la dosis o el fármaco, no para cronificar la corrección.",
+     "links": [
+      {
+       "ids": [
+        "discin_tard",
+        "acatisia",
+        "snm"
+       ],
+       "t": "complicaciones motoras y SNM"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "mortalidad e ictus en la demencia"
+      },
+      {
+       "ids": [
+        "biperideno",
+        "vmat2_td",
+        "escalas_motor"
+       ],
+       "t": "manejo y medición de efectos motores"
+      },
+      {
+       "ids": [
+        "fg_antipsic"
+       ],
+       "t": "metabolizadores lentos de CYP2D6"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leucht S et al. (2009). Second-generation versus first-generation antipsychotic drugs for schizophrenia: a meta-analysis. Lancet 373:31-41 · PMID 19058842",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "Kahn RS et al. (2008). Effectiveness of antipsychotic drugs in first-episode schizophrenia and schizophreniform disorder: an open randomised clinical trial. Lancet 371:1085-1097 · PMID 18374841",
+    "Schneider-Thoma J et al. (2026). Comparative efficacy and tolerability of antidopaminergic and muscarinic antipsychotics for acute schizophrenia: a network meta-analysis of randomised controlled trials indexed in international English and Chinese databases. Lancet 407:876-891 · PMID 41763745",
+    "Carbon M et al. (2017). Tardive dyskinesia prevalence in the period of second-generation antipsychotic use: a meta-analysis. J Clin Psychiatry 78:e264-e278 · PMID 28146614",
+    "Douglas IJ & Smeeth L (2008). Exposure to antipsychotics and risk of stroke: self controlled case series study. BMJ 337:a1227 · PMID 18755769",
+    "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178) [contenido citado de memoria, no releído en esta revisión: no verificada]",
+    "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo), consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "ap_atipicos",
+    "acatisia"
+   ]
+  },
+  "ap_dem_riesgo": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La revisión Cochrane de 24 ensayos con placebo (6.090 participantes) cuantifica un beneficio pequeño: los antipsicóticos atípicos probablemente reducen algo la agitación (diferencia estandarizada −0,21; IC 95 % −0,30 a −0,12) y tienen un efecto insignificante sobre la psicosis (−0,11); con los típicos la certeza es baja o muy baja. Los autores señalan que la eficacia aparente en la práctica puede explicarse por la evolución favorable observada en los grupos de placebo (Mühlbauer 2021). De ahí que las guías los sitúen como recurso excepcional: NICE NG97 los limita a personas en riesgo de dañarse o dañar a otros, o con agitación, alucinaciones o delirios que causan sufrimiento grave, a la dosis eficaz más baja, durante el menor tiempo posible y con revisión al menos cada seis semanas; la guía de la APA exige evaluación previa de dolor y otros factores modificables, discusión de riesgos y beneficios, intento de reducción y retirada en un máximo de cuatro meses en quien ha respondido y retirada si no hay respuesta tras cuatro semanas, y desaconseja el haloperidol como primera opción fuera del delirium (Reus 2016). La retirada es factible: en la revisión Cochrane de 10 ensayos (632 personas) la interrupción tuvo poco o ningún efecto sobre los síntomas globales (Van Leeuwen 2018).",
+     "links": [
+      {
+       "ids": [
+        "nf_bpsd",
+        "bpsd",
+        "agit_dem"
+       ],
+       "t": "primero, medidas no farmacológicas"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "deprescripción"
+      },
+      {
+       "ids": [
+        "cap_dem"
+       ],
+       "t": "consentimiento y capacidad"
+      },
+      {
+       "ids": [
+        "risperidona",
+        "haloperidol"
+       ],
+       "t": "fármacos con indicación en ficha"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La mortalidad en los ensayos es un resultado impreciso: en Mühlbauer 2021 la razón de riesgos de muerte con atípicos fue 1,36 (IC 95 % 0,90-2,05) y con típicos 1,46 (0,54-4,00), compatible con el metaanálisis de Schneider 2005 pero sin significación propia; las cifras por fármaco proceden de cohortes observacionales expuestas a confusión por indicación. Los ensayos son cortos (10-12 semanas en el metaanálisis de Schneider 2005) y la revisión Cochrane se limita a la enfermedad de Alzheimer y la demencia vascular, sin datos aleatorizados para la demencia con cuerpos de Lewy. La retirada no es inocua en todos los casos: en dos ensayos con personas que habían respondido al antipsicótico, suspenderlo aumentó las recaídas, y los datos sobre mortalidad tras la retirada son insuficientes (Van Leeuwen 2018). La pimavanserina solo mostró ventaja a las 6 semanas, no a las 12, en la psicosis del Alzheimer (Ballard 2018). Estado regulatorio: las indicaciones españolas de risperidona y haloperidol constan en sus fichas técnicas (CIMA); la pimavanserina no figura en el listado de la EMA ni en CIMA (consulta de noviembre de 2026); la autorización europea de brexpiprazol para la agitación del Alzheimer [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "pimavanserina",
+        "brexpiprazol"
+       ],
+       "t": "alternativas en estudio"
+      },
+      {
+       "ids": [
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "poblaciones poco representadas"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Además de la mortalidad, la cohorte inglesa de Mok 2024 (173.910 personas con demencia; 35.339 que iniciaron un antipsicótico) asoció el uso actual a neumonía (HR 2,19), lesión renal aguda (1,72), tromboembolia venosa (1,62), ictus (1,61), fractura (1,43), infarto de miocardio (1,28) e insuficiencia cardíaca (1,27); en los 90 primeros días la incidencia acumulada de neumonía fue del 4,48 % frente al 1,49 % en quienes no los usaban. En la serie de casos autocontrolada de Douglas 2008, la razón de tasas de ictus durante la exposición fue 3,50 en personas con demencia frente a 1,41 sin ella. En la demencia con cuerpos de Lewy confirmada en necropsia, 13 de 16 personas tratadas con neurolépticos reaccionaron de forma adversa y en 7 la reacción fue grave (McKeith 1992): ante parkinsonismo, fluctuaciones o alucinaciones visuales debe descartarse antes de prescribir. Obligan a suspender o reevaluar de inmediato: sedación excesiva, disfagia o tos al tragar, fiebre, caídas, rigidez de aparición rápida, focalidad neurológica, síncope y deshidratación. Cada prescripción debe llevar fecha de revisión documentada.",
+     "links": [
+      {
+       "ids": [
+        "lewy"
+       ],
+       "t": "sensibilidad a neurolépticos en cuerpos de Lewy"
+      },
+      {
+       "ids": [
+        "delirium",
+        "help_delirium"
+       ],
+       "t": "descartar y prevenir el delirium"
+      },
+      {
+       "ids": [
+        "snm",
+        "discin_tard"
+       ],
+       "t": "complicaciones motoras"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga farmacológica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Mühlbauer V et al. (2021). Antipsychotics for agitation and psychosis in people with Alzheimer's disease and vascular dementia. Cochrane Database Syst Rev 12:CD013304 · PMID 34918337",
+    "Van Leeuwen E et al. (2018). Withdrawal versus continuation of long-term antipsychotic drug use for behavioural and psychological symptoms in older people with dementia. Cochrane Database Syst Rev 3:CD007726 · PMID 29605970",
+    "Reus VI et al. (2016). The American Psychiatric Association practice guideline on the use of antipsychotics to treat agitation or psychosis in patients with dementia. Am J Psychiatry 173:543-546 · PMID 27133416",
+    "Mok PLH et al. (2024). Multiple adverse outcomes associated with antipsychotic use in people with dementia: population based matched cohort study. BMJ 385:e076268 · PMID 38631737",
+    "Douglas IJ & Smeeth L (2008). Exposure to antipsychotics and risk of stroke: self controlled case series study. BMJ 337:a1227 · PMID 18755769",
+    "McKeith I et al. (1992). Neuroleptic sensitivity in patients with senile dementia of Lewy body type. BMJ 305:673-678 · PMID 1356550",
+    "Ballard C et al. (2018). Evaluation of the safety, tolerability, and efficacy of pimavanserin versus placebo in patients with Alzheimer's disease psychosis: a phase 2, randomised, placebo-controlled, double-blind study. Lancet Neurol 17:213-222 · PMID 29452684",
+    "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97) [contenido citado de memoria, no releído en esta revisión: no verificada]"
+   ],
+   "relAdd": [
+    "help_delirium",
+    "snm"
+   ]
+  },
+  "fg_antipsic": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Qué dice exactamente cada consorcio. DPWG: es la única guía con recomendaciones posológicas por genotipo para antipsicóticos (Beunk 2024; resumen en la descripción de esta ficha) y no considera imprescindible el genotipado previo, que deja a decisión individual. CPIC: no ha publicado guía para ningún antipsicótico; en su listado de pares gen-fármaco (consulta de noviembre de 2026) constan con nivel provisional, sin guía ni recomendación, CYP2D6-pimozida (A/B), CYP2D6-aripiprazol y CYP2D6-risperidona (B) y, con nivel B/C, CYP2D6 con brexpiprazol, haloperidol, clozapina, zuclopentixol, perfenazina, tioridazina e iloperidona; los pares con MC4R, HTR2C, DRD2 o ANKK1 tienen nivel C o D. El consenso de la International Society of Psychiatric Genetics concluye que la evidencia, las guías y las fichas técnicas apoyan el uso de pruebas para dos genes del citocromo P450 al seleccionar y dosificar varios antidepresivos y antipsicóticos (Bousman 2021). En la práctica, el genotipo es más útil para explicar a posteriori una intolerancia o una falta de respuesta con dosis habituales, junto con la determinación de niveles plasmáticos según el consenso AGNP (Hiemke 2018), que como cribado universal.",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab",
+        "panel_fg"
+       ],
+       "t": "genes, fenotipos y paneles"
+      },
+      {
+       "ids": [
+        "aripiprazol",
+        "risperidona",
+        "haloperidol",
+        "brexpiprazol",
+        "zuclopentixol"
+       ],
+       "t": "fármacos con recomendación DPWG"
+      },
+      {
+       "ids": [
+        "cpic_isrs",
+        "cpic_tca"
+       ],
+       "t": "guías CPIC en antidepresivos"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Las recomendaciones se basan en diferencias de exposición plasmática, no en resultados clínicos: no se ha localizado ningún ensayo aleatorizado que demuestre menos recaídas o menos efectos adversos con la prescripción de antipsicóticos guiada por genotipo en psicosis [fuente no localizada]. El ensayo PREPARE (6.944 personas en siete países europeos, entre ellos España; panel de 12 genes aplicado según las recomendaciones DPWG) redujo las reacciones adversas clínicamente relevantes (21,0 % frente a 27,7 % en quienes tenían un resultado accionable; OR 0,70; IC 95 % 0,54-0,91), pero fue abierto, incluyó fármacos de todas las áreas y no permite aislar el efecto en antipsicóticos (Swen 2023). El estudio de Jukić 2019 es retrospectivo y usa el cambio de fármaco como indicador indirecto de fracaso. El genotipo no recoge la fenoconversión por inhibidores ni los factores no genéticos, y las frecuencias alélicas varían con la ancestría, con la mayoría de los datos procedentes de población europea. Los paneles comerciales combinatorios que incluyen genes farmacodinámicos carecen de respaldo en CPIC, que asigna a esos pares nivel C o D.",
+     "links": [
+      {
+       "ids": [
+        "etnopsicofarm"
+       ],
+       "t": "variación por ancestría"
+      },
+      {
+       "ids": [
+        "panel_fg"
+       ],
+       "t": "paneles farmacogenéticos"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Situaciones en las que conviene sospechar un metabolismo anómalo y actuar: efectos extrapiramidales, sedación o prolongación del QT desproporcionados con dosis habituales de un sustrato de CYP2D6; ausencia de respuesta con adherencia comprobada; y la introducción de un inhibidor potente de CYP2D6 (paroxetina, fluoxetina, bupropión) en quien ya toma el antipsicótico, que equivale funcionalmente a un fenotipo lento. La situación de mayor cautela es la de la pimozida, cuya ficha técnica recoge concentraciones más altas en metabolizadores lentos y contraindica los inhibidores de CYP2D6; la ficha de tetrabenazina (Nitoman, apartado 4.4) también advierte de que la dosificación depende del estado metabolizador CYP2D6 y de los inhibidores concomitantes. Un genotipo normal no descarta la toxicidad ni exime de la monitorización clínica, electrocardiográfica o hematológica que exija cada ficha; en clozapina, los cambios bruscos de consumo de tabaco, las infecciones y la fluvoxamina alteran los niveles con independencia del genotipo [fuente no localizada] (véase la ficha de monitorización). El resultado de una prueba debe registrarse de forma que acompañe a la persona en futuras prescripciones.",
+     "links": [
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "monitorización de clozapina"
+      },
+      {
+       "ids": [
+        "vmat2_td"
+       ],
+       "t": "tetrabenazina y CYP2D6"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard"
+       ],
+       "t": "efectos motores"
+      },
+      {
+       "ids": [
+        "hla_clozapina"
+       ],
+       "t": "genética de la agranulocitosis"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "CPIC, Clinical Pharmacogenetics Implementation Consortium (2026). Listado de pares gen-fármaco (api.cpicpgx.org, pair_view), consulta de noviembre de 2026: pares de antipsicóticos con nivel provisional y sin guía publicada",
+    "Bousman CA et al. (2021). Review and consensus on pharmacogenomic testing in psychiatry. Pharmacopsychiatry 54:5-17 · PMID 33147643",
+    "Hiemke C et al. (2018). Consensus guidelines for therapeutic drug monitoring in neuropsychopharmacology: update 2017. Pharmacopsychiatry 51:9-62 · PMID 28910830",
+    "Swen JJ et al. (2023). A 12-gene pharmacogenetic panel to prevent adverse drug reactions: an open-label, multicentre, controlled, cluster-randomised crossover implementation study. Lancet 401:347-356 · PMID 36739136",
+    "AEMPS-CIMA (2022). Ficha técnica de Nitoman 25 mg comprimidos (tetrabenazina; n.º registro 70142), apartados 4.1, 4.3 y 4.4; texto revisado en agosto de 2022, consultado en noviembre de 2026"
+   ],
+   "relAdd": [
+    "zuclopentixol",
+    "etnopsicofarm",
+    "vmat2_td",
+    "cpic_isrs"
+   ]
+  },
+  "hla_clozapina": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Ninguna guía farmacogenética recomienda hoy una prueba genética antes de iniciar clozapina: la guía DPWG de antipsicóticos se limita a CYP2D6, CYP3A4 y CYP1A2 (Beunk 2024) y en el listado de pares gen-fármaco de CPIC (consulta de noviembre de 2026) la clozapina solo aparece con CYP2D6, HTR2C, MC4R y ANKK1, sin ningún par con genes HLA. La decisión clínica descansa, por tanto, en el recuento de neutrófilos. Lo que sí cambia la práctica es la epidemiología: en el metaanálisis de Myles 2018 (108 estudios) la neutropenia grave afectó al 0,9 %, la muerte relacionada al 0,013 % y el pico de incidencia se situó en el primer mes, con descenso a niveles insignificantes tras el primer año, lo que concentra la vigilancia en las primeras semanas. Y la genética de la neutropenia constitucional: en personas de ancestría africana, la homocigosis para el alelo C de rs2814778 en ACKR1 (genotipo Duffy nulo) se asoció a recuentos más bajos durante el tratamiento y a una probabilidad mucho mayor de tener que suspender la clozapina por neutropenia (OR 20,4; Legge 2019), un fenómeno que no equivale a agranulocitosis inmunomediada y que la ficha técnica contempla como neutropenia étnica benigna (véase la ficha de monitorización).",
+     "links": [
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "umbrales y calendario de hemogramas"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "cloz"
+       ],
+       "t": "clozapina y resistencia"
+      },
+      {
+       "ids": [
+        "etnopsicofarm"
+       ],
+       "t": "ancestría y farmacogenética"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El rendimiento predictivo es insuficiente y ahora puede cuantificarse: en la muestra europea de Konte 2021 (178 casos de neutropenia, 60 de ellos con agranulocitosis, y 1.396 controles), el polimorfismo HLA-DQB1 6672G>C se asoció a agranulocitosis (OR 10,49), pero su sensibilidad fue del 16,67 % para agranulocitosis y del 11,28 % para neutropenia, y solo subió al 53,70 % y al 55,64 % al incorporar estimaciones de ancestría local. Más de cuatro de cada cinco casos, por tanto, no portan el marcador. Los estudios suman pocos casos (163 en el mayor consorcio), mezclan definiciones de neutropenia y agranulocitosis y proceden casi exclusivamente de población europea. No existe ningún estudio prospectivo que haya usado un marcador para modificar la monitorización [fuente no localizada], y el genotipo Duffy nulo se propone como prueba «dependiente de estudios de seguridad adicionales» (Legge 2019). Estado regulatorio: la ficha técnica española mantiene el control hematológico obligatorio (CIMA); la retirada del programa REMS de clozapina por la FDA en 2025 [fuente no localizada] no modifica la ficha europea.",
+     "links": [
+      {
+       "ids": [
+        "hla_carbamaz"
+       ],
+       "t": "contraste con HLA-B*15:02"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "panel_fg"
+       ],
+       "t": "farmacogenética de antipsicóticos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Un resultado genético negativo no debe usarse nunca para espaciar o suprimir hemogramas, ni uno positivo para negar la clozapina a quien la necesita sin valoración hematológica. Obligan a actuar de inmediato, con independencia de cualquier genotipo: fiebre, odinofagia, úlceras orales o cualquier signo de infección, que exigen un hemograma urgente, y un recuento absoluto de neutrófilos por debajo de los umbrales de la ficha técnica, que obliga a seguir su protocolo de interrupción. La letalidad de la neutropenia grave en el metaanálisis de Myles 2018 fue del 2,1 % (IC 95 % 1,6-2,8). En personas con neutropenia constitucional conocida o de ancestría africana, un recuento basal bajo no debe interpretarse como toxicidad sin consultar con hematología, para no privar del fármaco a un grupo en el que la clozapina ya se prescribe menos y se interrumpe más (Legge 2019). La miocarditis y los demás riesgos de la clozapina no se abordan con estos marcadores y se vigilan clínicamente.",
+     "links": [
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "protocolo de monitorización"
+      },
+      {
+       "ids": [
+        "clozapina"
+       ],
+       "t": "ficha del fármaco"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Myles N et al. (2018). Meta-analysis examining the epidemiology of clozapine-associated neutropenia. Acta Psychiatr Scand 138:101-109 · PMID 29786829",
+    "Legge SE et al. (2019). A genome-wide association study in individuals of African ancestry reveals the importance of the Duffy-null genotype in the assessment of clozapine-related neutropenia. Mol Psychiatry 24:328-337 · PMID 30647433",
+    "Konte B et al. (2021). HLA-DQB1 6672G>C (rs113332494) is associated with clozapine-induced neutropenia and agranulocytosis in individuals of European ancestry. Transl Psychiatry 11:214 · PMID 33846298",
+    "CPIC, Clinical Pharmacogenetics Implementation Consortium (2026). Listado de pares gen-fármaco (api.cpicpgx.org, pair_view), consulta de noviembre de 2026: pares de antipsicóticos con nivel provisional y sin guía publicada",
+    "Beunk L et al. (2024). Dutch Pharmacogenetics Working Group (DPWG) guideline for the gene-drug interaction between CYP2D6, CYP3A4 and CYP1A2 and antipsychotics. Eur J Hum Genet 32:278-285 · PMID 37002327"
+   ],
+   "relAdd": [
+    "etnopsicofarm"
+   ]
+  },
+  "lumateperona": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La lumateperona no tiene lugar en las guías europeas porque no está autorizada, y el metaanálisis en red de Huhn 2019 no la incluyó [fuente no localizada]. Su evidencia procede de ensayos frente a placebo. En esquizofrenia, el ensayo de fase 2 (335 personas, 4 semanas) mostró eficacia con una dosis y no con la más alta, con un tamaño del efecto de 0,4 igual al del comparador activo, risperidona, incluida solo para sensibilidad del ensayo (Lieberman 2016). El dato mecanístico más relevante es la ocupación D2 estriatal máxima media del 39 % a esa dosis, sin acatisia ni cambios de prolactina en 10 personas (Vanover 2019): es la base de su buena tolerabilidad motora. En la depresión bipolar I o II, un ensayo de 6 semanas (377 personas) obtuvo una diferencia de −4,6 puntos en la MADRS frente a placebo (tamaño del efecto −0,56), con somnolencia y náuseas como únicos efectos adversos más frecuentes (Calabrese 2021). Como tratamiento añadido al antidepresivo en la depresión mayor con respuesta insuficiente, la diferencia fue de −4,5 puntos (Durgam 2025). CANMAT 2023 no la recoge entre sus opciones de potenciación [fuente no localizada], de modo que en depresión resistente la referencia siguen siendo aripiprazol y brexpiprazol.",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "mecanismo y ocupación"
+      },
+      {
+       "ids": [
+        "dep_bip_tx"
+       ],
+       "t": "depresión bipolar"
+      },
+      {
+       "ids": [
+        "aripiprazol",
+        "brexpiprazol"
+       ],
+       "t": "potenciación según CANMAT 2023"
+      },
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "ficha de clase"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los ensayos publicados son de 4 a 6 semanas y frente a placebo; no se han localizado comparaciones directas con potencia suficiente frente a otros antipsicóticos ni datos aleatorizados de prevención de recaídas publicados [fuente no localizada]. La respuesta a la dosis es irregular: en el ensayo de fase 2 la dosis más alta no se separó de placebo (Lieberman 2016) y en el de fase 3 la más baja tampoco (Correll 2020). En el ensayo de depresión mayor, el 12,4 % interrumpió el tratamiento por efectos adversos frente al 0,8 % con placebo (Durgam 2025), lo que matiza la descripción de «bien tolerada». La modulación glutamatérgica es una propiedad preclínica sin correlato clínico demostrado. Estado regulatorio comprobado: no figura en el listado de medicamentos de la EMA ni en el registro de CIMA (consulta de noviembre de 2026); las aprobaciones de la FDA para la depresión bipolar y, como tratamiento añadido, para la depresión mayor [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "quetiapina",
+        "cariprazina"
+       ],
+       "t": "comparadores autorizados en depresión bipolar"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Como antipsicótico, le es aplicable la advertencia de clase sobre el aumento de mortalidad en personas mayores con psicosis asociada a demencia (véase la ficha correspondiente), y como fármaco con indicación antidepresiva en Estados Unidos, la vigilancia de ideación y conducta suicida al inicio del tratamiento en personas jóvenes; el texto exacto de las advertencias de la ficha estadounidense no se ha consultado en esta revisión [fuente no localizada]. En los ensayos, los efectos adversos más frecuentes fueron somnolencia, náuseas, mareo, sequedad de boca y fatiga, con efectos extrapiramidales infrecuentes (Calabrese 2021; Durgam 2025); la baja ocupación D2 reduce el riesgo motor pero no lo anula, y la experiencia a largo plazo sobre discinesia tardía es limitada. Sin ficha técnica europea no hay un marco de contraindicaciones, interacciones ni ajustes validado por la EMA o la AEMPS; cualquier uso en España sería como medicamento en situaciones especiales, con consentimiento informado específico y un plan de seguimiento documentado.",
+     "links": [
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "mortalidad en la demencia"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard"
+       ],
+       "t": "efectos motores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lieberman JA et al. (2016). ITI-007 for the treatment of schizophrenia: a 4-week randomized, double-blind, controlled trial. Biol Psychiatry 79:952-961 · PMID 26444072",
+    "Vanover KE et al. (2019). Dopamine D2 receptor occupancy of lumateperone (ITI-007): a positron emission tomography study in patients with schizophrenia. Neuropsychopharmacology 44:598-605 · PMID 30449883",
+    "Calabrese JR et al. (2021). Efficacy and safety of lumateperone for major depressive episodes associated with bipolar I or bipolar II disorder: a phase 3 randomized placebo-controlled trial. Am J Psychiatry 178:1098-1106 · PMID 34551584",
+    "Durgam S et al. (2025). Adjunctive lumateperone in patients with major depressive disorder: results from a randomized, double-blind, phase 3 trial. Am J Psychiatry 182:1072-1082 · PMID 41320817",
+    "EMA (2026). Listado público de medicamentos de uso humano (download medicine data), consulta de noviembre de 2026: figura Austedo (deutetrabenazina); sin registros de xanomelina, pimavanserina, lumateperona ni valbenazina"
+   ],
+   "relAdd": [
+    "aripiprazol",
+    "brexpiprazol",
+    "ap_dem_riesgo"
+   ]
+  },
+  "pimavanserina": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El interés clínico de la pimavanserina es que permite tratar la psicosis sin bloqueo dopaminérgico en personas en las que este es peligroso. En la psicosis de la enfermedad de Parkinson es, junto con la clozapina, uno de los fármacos con ensayos controlados positivos [fuente no localizada para la clozapina]; la revisión de medicina basada en la evidencia de la International Parkinson and Movement Disorder Society identifica intervenciones clínicamente útiles o posiblemente útiles para la psicosis (Seppi 2019), aunque la categoría asignada a cada fármaco no consta en su resumen [fuente no localizada]. Fuera de esa indicación los resultados son modestos. En la psicosis de la enfermedad de Alzheimer (181 residentes), la diferencia a las 6 semanas fue de −1,84 puntos en la NPI-NH (d = −0,32; p = 0,045) y desapareció a las 12 semanas (Ballard 2018). En esquizofrenia estable con predominio de síntomas negativos, añadida al antipsicótico durante 26 semanas, la diferencia fue estadísticamente significativa pero pequeña (tamaño del efecto 0,21), y los propios autores dudan de su relevancia clínica (Bugarski-Kirola 2022). En España, al no estar disponible, la secuencia sigue siendo revisar la medicación dopaminérgica y anticolinérgica y, si persiste la psicosis, clozapina con su monitorización.",
+     "links": [
+      {
+       "ids": [
+        "parkinson_psiq",
+        "lewy"
+       ],
+       "t": "psicosis en Parkinson y cuerpos de Lewy"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "clozapina_monit"
+       ],
+       "t": "alternativa autorizada y su control"
+      },
+      {
+       "ids": [
+        "5ht2a"
+       ],
+       "t": "mecanismo"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La base de la indicación estadounidense es un único ensayo positivo de 6 semanas (Cummings 2013) [la existencia de ensayos previos negativos: fuente no localizada]. No hay ensayos aleatorizados frente a clozapina o quetiapina. El ensayo de retirada en psicosis asociada a demencia (Tariot 2021) agrupa varios tipos de demencia, lo que limita las conclusiones por subtipo, y su interrupción anticipada por eficacia [fuente no localizada]. Sobre la mortalidad, la evidencia es observacional y de signo cambiante: en beneficiarios de Medicare con enfermedad de Parkinson (3.227 personas con pimavanserina y 18.442 con antipsicóticos atípicos), la mortalidad fue menor con pimavanserina en los primeros 180 días (HR 0,65; IC 95 % 0,53-0,79), sin ventaja después (HR 1,05) ni en residencias; los autores recuerdan que en los ensayos previos a la comercialización falleció el 11 % de las personas durante el tratamiento abierto (Mosholder 2022). Estado regulatorio comprobado: no figura en el listado de medicamentos de la EMA ni en el registro de CIMA (consulta de noviembre de 2026).",
+     "links": [
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "antipsicóticos en la demencia"
+      },
+      {
+       "ids": [
+        "quetiapina"
+       ],
+       "t": "alternativa de uso extendido"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "No bloquear D2 no la exime de las advertencias que afectan a esta población: mortalidad aumentada en personas mayores con psicosis asociada a demencia (advertencia de clase; su redacción en la ficha estadounidense no se ha consultado [fuente no localizada]) y prolongación del QT. En el ensayo ADVANCE el cambio medio del QTcF fue de 4,5 ms con pimavanserina frente a 0,0 ms con placebo (Bugarski-Kirola 2022), lo que aconseja prudencia al combinarla con otros fármacos que prolongan el QT y ante un QT largo conocido. En el ensayo en Alzheimer, las caídas (23 % en ambos grupos) y la agitación (21 % frente a 14 %) fueron frecuentes (Ballard 2018). En la enfermedad de Parkinson, toda psicosis de inicio o empeoramiento agudo obliga a descartar antes delirium, infección, deshidratación y cambios recientes de medicación dopaminérgica o anticolinérgica. Cualquier uso en España sería como medicamento en situaciones especiales, con información específica a la persona o a quien la represente.",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "descartar delirium"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "advertencia de mortalidad"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "biperideno"
+       ],
+       "t": "carga anticolinérgica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ballard C et al. (2018). Evaluation of the safety, tolerability, and efficacy of pimavanserin versus placebo in patients with Alzheimer's disease psychosis: a phase 2, randomised, placebo-controlled, double-blind study. Lancet Neurol 17:213-222 · PMID 29452684",
+    "Bugarski-Kirola D et al. (2022). Pimavanserin for negative symptoms of schizophrenia: results from the ADVANCE phase 2 randomised, placebo-controlled trial in North America and Europe. Lancet Psychiatry 9:46-58 · PMID 34861170",
+    "Mosholder AD et al. (2022). Mortality among Parkinson's disease patients treated with pimavanserin or atypical antipsychotics: an observational study in Medicare beneficiaries. Am J Psychiatry 179:553-561 · PMID 35702829",
+    "Seppi K et al. (2019). Update on treatments for nonmotor symptoms of Parkinson's disease: an evidence-based medicine review. Mov Disord 34:180-198 · PMID 30653247"
+   ],
+   "relAdd": [
+    "delirium",
+    "clozapina_monit"
+   ]
+  },
+  "xanomelina": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Tres ensayos de 5 semanas en personas hospitalizadas por una exacerbación aguda sostienen su eficacia frente a placebo: diferencia en la PANSS total de −11,6 puntos en el de fase 2 (182 personas; Brannan 2021) y de −8,4 en EMERGENT-3 (256 personas; d = 0,60; Kaul 2024, JAMA Psychiatry). El metaanálisis de los ensayos aleatorizados estima una diferencia estandarizada de −0,56 en la PANSS total, −0,59 en síntomas positivos y −0,33 en negativos, con menor riesgo de aumento de peso igual o superior al 7 % (RR 0,46) y más vómitos, náuseas, hipertensión, sequedad de boca, dispepsia y estreñimiento (Fabiano 2025). En el metaanálisis en red de Schneider-Thoma 2026 (256 ensayos doble ciego; 58.948 participantes), clozapina, amisulprida, olanzapina y risperidona fueron más eficaces que al menos otros tres antipsicóticos; la xanomelina-trospio carece de los efectos adversos del bloqueo dopaminérgico a cambio de efectos colinérgicos y anticolinérgicos, y los autores piden comparaciones directas para confirmar su eficacia. Su posible lugar es el de alternativa cuando los efectos motores, la prolactina o el peso limitan los antagonistas D2; no hay datos que la sitúen en la esquizofrenia resistente, donde la referencia es la clozapina.",
+     "links": [
+      {
+       "ids": [
+        "muscarinico_esq"
+       ],
+       "t": "hipótesis muscarínica"
+      },
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "mecanismo no dopaminérgico"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "cloz"
+       ],
+       "t": "esquizofrenia resistente"
+      },
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "ficha de clase"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los ensayos son cortos (5 semanas), frente a placebo, en personas hospitalizadas (EMERGENT-3, en centros de Estados Unidos y Ucrania) y con financiación del fabricante; Brannan 2021 ya advertía de que hacían falta ensayos más amplios y prolongados. No se han localizado ensayos aleatorizados publicados frente a un antipsicótico activo, de prevención de recaídas ni en primer episodio; los datos a 52 semanas proceden de extensiones abiertas, sin grupo de comparación. El beneficio sobre síntomas negativos y cognición se apoya en variables secundarias y análisis post hoc (Fabiano 2025), y su eficacia como tratamiento añadido a un antipsicótico no está demostrada [fuente no localizada]. El antecedente de 2008 fue un estudio piloto de xanomelina sola en 20 personas (Shekhar 2008). Estado regulatorio comprobado: no figura en el listado de medicamentos de la EMA ni en el registro de CIMA (consulta de noviembre de 2026), por lo que no está autorizada ni comercializada en España; la fecha de aprobación de la FDA (26 de septiembre de 2024) consta en Fabiano 2025.",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "muscarinico_esq"
+       ],
+       "t": "fundamento teórico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "El perfil de riesgo es distinto del de los antagonistas D2 y exige otra vigilancia. En EMERGENT-2 fueron más frecuentes que con placebo el estreñimiento (21 % frente a 10 %), la dispepsia (19 % frente a 8 %), las náuseas (19 % frente a 6 %), los vómitos (14 % frente a 1 %) y la hipertensión (10 % frente a 1 %) (Kaul 2024, Lancet); el metaanálisis añade aumento de la frecuencia cardíaca en decúbito y de los triglicéridos (Fabiano 2025). Conviene controlar la presión arterial y la frecuencia cardíaca al inicio y tras los ajustes, y preguntar por síntomas urinarios y digestivos. El componente anticolinérgico periférico (trospio) hace prever riesgo de retención urinaria, de retención gástrica y de glaucoma de ángulo estrecho, y la combinación se desaconseja en la insuficiencia hepática; estas contraindicaciones proceden de la ficha estadounidense, no consultada en esta revisión [fuente no localizada]. Sumarla a otros anticolinérgicos aumenta la carga anticolinérgica total. La ausencia de efectos extrapiramidales en ensayos de 5 semanas no permite descartar efectos tardíos.",
+     "links": [
+      {
+       "ids": [
+        "polifarm",
+        "biperideno"
+       ],
+       "t": "carga anticolinérgica"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "acatisia"
+       ],
+       "t": "efectos motores (no aumentados en ensayos)"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Brannan SK et al. (2021). Muscarinic cholinergic receptor agonist and peripheral antagonist for schizophrenia. N Engl J Med 384:717-726 · PMID 33626254",
+    "Kaul I et al. (2024). Efficacy and safety of xanomeline-trospium chloride in schizophrenia: a randomized clinical trial (EMERGENT-3). JAMA Psychiatry 81:749-756 · PMID 38691387",
+    "Fabiano N et al. (2025). Efficacy, tolerability, and safety of xanomeline-trospium chloride for schizophrenia: a systematic review and meta-analysis. Eur Neuropsychopharmacol 92:62-73 · PMID 39724748",
+    "Schneider-Thoma J et al. (2026). Comparative efficacy and tolerability of antidopaminergic and muscarinic antipsychotics for acute schizophrenia: a network meta-analysis of randomised controlled trials indexed in international English and Chinese databases. Lancet 407:876-891 · PMID 41763745",
+    "EMA (2026). Listado público de medicamentos de uso humano (download medicine data), consulta de noviembre de 2026: figura Austedo (deutetrabenazina); sin registros de xanomelina, pimavanserina, lumateperona ni valbenazina",
+    "Shekhar A et al. (2008). Selective muscarinic receptor agonist xanomeline as a novel treatment approach for schizophrenia. Am J Psychiatry 165:1033-1039 · PMID 18593778"
+   ],
+   "relAdd": [
+    "clozapina",
+    "cloz",
+    "polifarm"
+   ]
+  },
+  "biperideno": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El anticolinérgico es un tratamiento sintomático de segunda línea para un efecto adverso que, siempre que se pueda, se corrige en su origen. La guía de la APA (Keepers 2020) recomienda un anticolinérgico en la distonía aguda y, en el parkinsonismo inducido, sugiere como alternativas reducir la dosis del antipsicótico, cambiar a otro o añadir el anticolinérgico; para la acatisia propone reducir, cambiar o añadir una benzodiacepina o un betabloqueante, sin recomendar anticolinérgicos. La declaración de consenso de la OMS (1990) ya desaconsejaba su uso profiláctico sistemático en el tratamiento neuroléptico prolongado [contenido no contrastado: sin resumen en PubMed]. La revisión de Desmarais 2012 muestra que la retirada es viable: las tasas de reaparición de síntomas extrapiramidales fueron del 4 % y el 33 % en los dos estudios con antipsicóticos de segunda generación, y los cuatro estudios que evaluaron la cognición hallaron mejoría tras suspenderlo; los autores proponen una retirada gradual en personas estables. En la práctica: prescribirlo con un motivo y una fecha de revisión, y reevaluar su necesidad tras cada cambio de antipsicótico.",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard"
+       ],
+       "t": "síndromes extrapiramidales"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "ap_tipicos",
+        "ap_lai"
+       ],
+       "t": "contextos de uso frecuente"
+      },
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "origen del efecto adverso"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La evidencia que sostiene el uso de anticolinérgicos en los efectos extrapiramidales inducidos es antigua, con ensayos pequeños y de corta duración, realizados en su mayoría con antipsicóticos de primera generación a dosis altas [fuente no localizada]; no se ha localizado ningún ensayo moderno que compare biperideno con la reducción de dosis o el cambio de antipsicótico. Los estudios de retirada son heterogéneos, con tasas de recaída motora del 4 % al 80 % en las series antiguas (Desmarais 2012). La asociación entre carga anticolinérgica y peor rendimiento cognitivo en esquizofrenia es transversal (1.120 personas; Joshi 2021) y la asociación con demencia es observacional (Coupland 2019), por lo que no prueban causalidad, aunque son coherentes con la mejoría cognitiva observada al retirarlos. Tampoco hay evidencia de que traten la discinesia tardía (Bergman 2018). Estado regulatorio comprobado (registro de CIMA, consulta de noviembre de 2026): constan comercializadas las tres presentaciones de Akineton; no hay ningún medicamento registrado con trihexifenidilo.",
+     "links": [
+      {
+       "ids": [
+        "discin_tard",
+        "vmat2_td"
+       ],
+       "t": "discinesia tardía y su tratamiento"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La ficha técnica de Akineton Retard (apartado 4.4) advierte de que las personas de edad avanzada tienen una susceptibilidad especial y de que los anticolinérgicos pueden producirles confusión mental, mareos, agitación, alteraciones del comportamiento y euforia; entre las reacciones adversas recoge delirios, alucinaciones, alteraciones de la memoria y euforia (4.8). Un cuadro confusional agudo con midriasis, taquicardia, sequedad de mucosas, retención urinaria, íleo o hipertermia en quien toma biperideno junto con otros fármacos anticolinérgicos (clozapina, olanzapina, fenotiazinas, tricíclicos) debe tratarse como toxicidad anticolinérgica; la ficha describe además depresión respiratoria y riesgo de colapso circulatorio en la intoxicación grave (4.9). La carga anticolinérgica se asocia a peor cognición en todos los dominios en esquizofrenia (Joshi 2021) y la exposición acumulada a antiparkinsonianos anticolinérgicos a mayor riesgo de demencia (OR ajustada 1,52; IC 95 % 1,16-2,00; Coupland 2019). La euforia que recoge la ficha es coherente con el uso indebido descrito con este fármaco [fuente no localizada]; conviene vigilar las peticiones de aumento o de recetas anticipadas.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "síndrome confusional y su detección"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica en la persona mayor"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "olanzapina",
+        "levomepromazina"
+       ],
+       "t": "fármacos que suman efecto anticolinérgico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516",
+    "World Health Organization heads of centres collaborating in WHO co-ordinated studies on biological aspects of mental illness (1990). Prophylactic use of anticholinergics in patients on long-term neuroleptic treatment. A consensus statement. Br J Psychiatry 156:412 · PMID 1971768",
+    "Desmarais JE, Beauclair L & Margolese HC (2012). Anticholinergics in the era of atypical antipsychotics: short-term or long-term treatment? J Psychopharmacol 26:1167-1174 · PMID 22651987",
+    "Joshi YB et al. (2021). Anticholinergic medication burden-associated cognitive impairment in schizophrenia. Am J Psychiatry 178:838-847 · PMID 33985348",
+    "Coupland CAC et al. (2019). Anticholinergic drug exposure and the risk of dementia: a nested case-control study. JAMA Intern Med 179:1084-1093 · PMID 31233095",
+    "AEMPS-CIMA (2017). Ficha técnica de Akineton Retard 4 mg comprimidos de liberación prolongada (biperideno; n.º registro 51224), apartados 4.2, 4.4, 4.8 y 4.9; texto revisado en agosto de 2017, consultado en noviembre de 2026",
+    "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo), consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "polifarm",
+    "ap_lai",
+    "cam"
+   ]
+  },
+  "vmat2_td": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La guía de la APA (Keepers 2020) recomienda tratar con un inhibidor reversible de VMAT2 la discinesia tardía moderada, grave o incapacitante asociada a antipsicóticos. La revisión sistemática que actualiza la guía de la American Academy of Neurology otorga nivel A a deutetrabenazina y valbenazina («deben recomendarse»), nivel B a clonazepam y Ginkgo biloba, y nivel C a amantadina y tetrabenazina, y concluye que la evidencia es insuficiente para apoyar o refutar la retirada del antipsicótico causal o el cambio de típico a atípico (nivel U; Bhidayasiri 2018). El metaanálisis de Solmi 2018 cuantifica el efecto sobre la AIMS: diferencia estandarizada de −0,40 con deutetrabenazina (2 ensayos; NNT de 7 para una reducción del 50 %) y de −0,58 con valbenazina (4 ensayos; NNT de 4), sin datos metaanalizables de calidad para tetrabenazina. En el ensayo de dosis fijas AIM-TD, solo las dos dosis superiores de deutetrabenazina se separaron de placebo (Anderson 2017). En la práctica: medir la discinesia con la AIMS antes y después, revisar primero el antipsicótico y el anticolinérgico, y reservar el inhibidor de VMAT2 para la discinesia persistente con repercusión funcional.",
+     "links": [
+      {
+       "ids": [
+        "discin_tard",
+        "escalas_motor"
+       ],
+       "t": "diagnóstico y medición con la AIMS"
+      },
+      {
+       "ids": [
+        "biperideno"
+       ],
+       "t": "retirada del anticolinérgico"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "ap_atipicos"
+       ],
+       "t": "optimización del antipsicótico"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los ensayos pivotales duran de 6 a 12 semanas y los datos a un año proceden de extensiones abiertas o con enmascaramiento solo de la dosis; al suspender la valbenazina los síntomas volvieron hacia la gravedad basal en 4 semanas, lo que indica un efecto sintomático y no modificador de la enfermedad (Solmi 2018). No hay comparaciones directas entre inhibidores de VMAT2. Las mejorías en la AIMS (diferencia media ponderada frente a placebo de −1,44 puntos con deutetrabenazina y −2,07 con valbenazina) no siempre se acompañaron de cambios en las impresiones globales de clínicos y pacientes (Solmi 2018). La tetrabenazina carece de ensayos de calidad en discinesia tardía; su eficacia está demostrada en la corea de Huntington (reducción de 5,0 frente a 1,5 unidades en la UHDRS; Huntington Study Group 2006). Estado regulatorio comprobado (consulta de noviembre de 2026): Austedo (deutetrabenazina) consta como autorizado en el listado de la EMA desde el 8 de enero de 2026 para la discinesia tardía moderada o grave en adultos, y no figura en el registro de CIMA; la valbenazina no consta en la EMA ni en CIMA; en CIMA figuran comercializados Nitoman y dos genéricos de tetrabenazina; la ficha técnica de Nitoman (4.1) limita la indicación a los trastornos del movimiento asociados a la corea de Huntington.",
+     "links": [
+      {
+       "ids": [
+        "huntington"
+       ],
+       "t": "corea de Huntington"
+      },
+      {
+       "ids": [
+        "discin_tard"
+       ],
+       "t": "discinesia tardía"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Tetrabenazina. La ficha técnica de Nitoman la contraindica en personas que han intentado suicidarse y en la depresión sin tratar o mal controlada (4.3), y advierte de que puede causar o empeorar la depresión, de que se han notificado pensamientos y comportamiento suicidas, de que deben vigilarse estrechamente estas reacciones e informar a pacientes y cuidadores, y de que, si aparecen, se valore reducir la dosis, iniciar un antidepresivo o interrumpir el tratamiento si son profundos o persisten (4.4). En el ensayo en corea de Huntington hubo, entre los acontecimientos graves del grupo tratado, una muerte por suicidio (ahogamiento) y un caso de inquietud con ideación suicida, frente a ninguno con placebo (Huntington Study Group 2006). La ficha recoge además acatisia e inquietud, parkinsonismo y una prolongación del QTc de unos 8 ms, con precaución ante otros fármacos que lo prolongan. Con deutetrabenazina y valbenazina los ensayos en discinesia tardía no mostraron aumento de depresión ni de suicidio (Solmi 2018), pero excluían a personas inestables; las advertencias del resumen de características de Austedo no se han consultado en esta revisión [fuente no localizada]. Antes de iniciar cualquiera de ellos: explorar el ánimo y la ideación suicida y repetir la exploración en cada revisión.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "cssrs"
+       ],
+       "t": "evaluación de la ideación suicida"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "snm"
+       ],
+       "t": "efectos motores y SNM"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "cyp2d6"
+       ],
+       "t": "CYP2D6 e inhibidores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516",
+    "Bhidayasiri R et al. (2018). Updating the recommendations for treatment of tardive syndromes: a systematic review of new evidence and practical treatment algorithm. J Neurol Sci 389:67-75 · PMID 29454493",
+    "Solmi M et al. (2018). Treatment of tardive dyskinesia with VMAT-2 inhibitors: a systematic review and meta-analysis of randomized controlled trials. Drug Des Devel Ther 12:1215-1238 · PMID 29795977",
+    "Anderson KE et al. (2017). Deutetrabenazine for treatment of involuntary movements in patients with tardive dyskinesia (AIM-TD): a double-blind, randomised, placebo-controlled, phase 3 trial. Lancet Psychiatry 4:595-604 · PMID 28668671",
+    "Huntington Study Group (2006). Tetrabenazine as antichorea therapy in Huntington disease: a randomized controlled trial. Neurology 66:366-372 · PMID 16476934",
+    "AEMPS-CIMA (2022). Ficha técnica de Nitoman 25 mg comprimidos (tetrabenazina; n.º registro 70142), apartados 4.1, 4.3 y 4.4; texto revisado en agosto de 2022, consultado en noviembre de 2026",
+    "EMA (2026). Listado público de medicamentos de uso humano (download medicine data), consulta de noviembre de 2026: figura Austedo (deutetrabenazina); sin registros de xanomelina, pimavanserina, lumateperona ni valbenazina",
+    "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo), consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "ideac_suic",
+    "acatisia",
+    "escalas_motor",
+    "fg_antipsic"
+   ]
+  }
+ },
+ "add": []
+}
