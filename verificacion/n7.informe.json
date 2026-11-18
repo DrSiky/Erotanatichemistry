@@ -1,0 +1,208 @@
+{
+ "pmid_comprobados": 55,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "encef_letargica",
+   "gravedad": "mayor",
+   "antes": "desc sin magnitud de la epidemia; nota: «Las cifras globales de casos y de mortalidad que suelen citarse son estimaciones retrospectivas [fuente no localizada]»",
+   "despues": "Se añaden las cifras con fuente: unos 65 000 casos notificados hasta 1927, mortalidad aguda ≈30 %, la mitad de quienes sobrevivieron con enfermedad neuropsiquiátrica persistente o recurrente (desc, rasgo nuevo y nota); coherente con el apartado 2.1 del dossier psicosis_causa_conocida",
+   "fuente": "Mortimer 2009, Epidemiol Infect 137:449-455, PMID 19144247 (resumen)"
+  },
+  {
+   "id": "encef_letargica",
+   "gravedad": "mayor",
+   "antes": "Formas clínicas de la monografía de von Economo: … (von Economo 1929; trad. inglesa 1931) [fuente no localizada] (rasgo y sección «Descripción clínica original»)",
+   "despues": "Las tres formas se apoyan ahora en una fuente indexada que las atribuye a von Economo (Dale 2007) y en la serie española (Corral-Corral 2007); el marcador queda solo para los detalles de la monografía no cotejada",
+   "fuente": "Dale 2007, Mov Disord 22:2281-2284, PMID 17914719; Corral-Corral 2007, Rev Neurol 44:245-253, PMID 17311216 (resúmenes)"
+  },
+  {
+   "id": "encef_letargica",
+   "gravedad": "mayor",
+   "antes": "La psiquiatría disponía entonces de un único modelo de enfermedad mental con lesión demostrada, la parálisis general de Bayle",
+   "despues": "«tenía entonces en la parálisis general, delimitada por Bayle en 1822, su modelo principal…» con marcador [fuente no localizada]: la afirmación absoluta («único») no tiene fuente y es históricamente discutible",
+   "fuente": "Sin fuente que la sostenga; coherencia con bayle_hit y con el apartado 1 del dossier"
+  },
+  {
+   "id": "discont_ad",
+   "gravedad": "mayor",
+   "antes": "Duración: … (Fava 2015); siete de diez estudios… (Davies y Read 2019) — sin la posición de NICE",
+   "despues": "Se añade lo que dice NICE NG222 rec. 1.4.14 sobre la duración (1-2 semanas por lo general; a veces varias semanas y ocasionalmente meses; más graves si la suspensión es brusca), omitido pese a ser la guía de referencia del nodo",
+   "fuente": "nice.org.uk NG222, rec. 1.4.14 (leída el 18-11-2026)"
+  },
+  {
+   "id": "discont_ad",
+   "gravedad": "mayor",
+   "antes": "tx: «NICE NG222 (rec. 1.4.12-1.4.19) y NG215 (rec. 1.5.6-1.5.11): no suspender de forma brusca salvo circunstancias médicas excepcionales; …» (atribución conjunta; faltaba el manejo de los síntomas)",
+   "despues": "La regla de no suspender bruscamente se atribuye a NG215 rec. 1.5.6, que es quien la formula; se añade el manejo de los síntomas leves y graves de NG222 rec. 1.4.20-1.4.21 (vigilar y tranquilizar; reintroducir a la dosis previa y reducir más despacio), sin cifras",
+   "fuente": "nice.org.uk NG222 rec. 1.4.12-1.4.21 y NG215 rec. 1.5.6-1.5.11 (leídas el 18-11-2026)"
+  },
+  {
+   "id": "discont_ad",
+   "gravedad": "mayor",
+   "antes": "La suspensión brusca solo se justifica ante efectos adversos graves, como una hiponatremia o una hemorragia digestiva alta (NG222, rec. 1.4.16; NG215, rec. 1.5.6)",
+   "despues": "Se separan las dos recomendaciones: NG215 1.5.6 habla de suspensión brusca en circunstancias excepcionales y solo pone como ejemplo la hemorragia digestiva alta; NG222 1.4.16 habla de «retirada más rápida» (no brusca) y es la que cita la hiponatremia",
+   "fuente": "nice.org.uk NG222 rec. 1.4.16 y NG215 rec. 1.5.6 (texto literal)"
+  },
+  {
+   "id": "disf_sexual_psicof",
+   "gravedad": "mayor",
+   "antes": "Reconocimiento regulatorio descrito solo en paráfrasis (desc y rasgo), sin el texto de la recomendación ni comprobación en las fichas técnicas españolas",
+   "despues": "Se añade el texto literal de la recomendación del PRAC (leído en el PDF de ema.europa.eu, apartado 1.3, EPITT 19277, adoptada el 16-5-2019, documento EMA/PRAC/265212/2019 de 11-6-2019) y su redacción vigente en las fichas técnicas de citalopram y escitalopram (CIMA, 4.4); se precisa que afecta también al prospecto y el título de la señal",
+   "fuente": "ema.europa.eu, EMA/PRAC/265212/2019; cima.aemps.es, fichas n.º 67804 y 71430, sección 4.4"
+  },
+  {
+   "id": "disf_sexual_psicof",
+   "gravedad": "mayor",
+   "antes": "combinación de inhibidores de la fosfodiesterasa 5 con nitritos de alquilo («poppers»), contraindicada por riesgo de hipotensión grave [fuente no localizada]; priapismo… con trazodona… [fuente no localizada]",
+   "despues": "Dos advertencias de seguridad pasan a tener fuente oficial: contraindicación de sildenafilo con dadores de óxido nítrico como el nitrito de amilo (ficha técnica, 4.3) y priapismo con trazodona (ficha técnica); el marcador se conserva solo para los antipsicóticos",
+   "fuente": "cima.aemps.es, fichas n.º 80061 (sildenafilo, rev. mayo 2022) y 83568 (trazodona, rev. octubre 2018)"
+  },
+  {
+   "id": "qt_psicof",
+   "gravedad": "mayor",
+   "antes": "la AEMPS… redujo las dosis máximas recomendadas [de citalopram y escitalopram]",
+   "despues": "Se precisa lo que dicen las notas: reducción de la dosis máxima de citalopram (adultos, y límite menor en mayores de 65 años y disfunción hepática) y, para escitalopram, solo en mayores de 65 años; se añade que las contraindicaciones siguen en las fichas técnicas leídas en CIMA",
+   "fuente": "aemps.gob.es, notas MUH (FV) 19/2011 (27-10-2011) y 23/2011 (2-12-2011); cima.aemps.es, fichas n.º 67804 y 71430, sección 4.3"
+  },
+  {
+   "id": "qt_psicof",
+   "gravedad": "mayor",
+   "antes": "No se había leído la ficha técnica en CIMA; la lista de fármacos que prolongan el QT iba con [fuente no localizada] («algunos macrólidos, quinolonas, antifúngicos azólicos y antiarrítmicos») y las cifras de escitalopram se omitían por la errata de la nota",
+   "despues": "Se incorporan las fichas técnicas leídas en CIMA: lista de medicamentos contraindicados (4.5), corrección de electrolitos antes de iniciar y conducta ante arritmia (4.4) y cifras correctas del estudio de QT de escitalopram (5.1: 4,3 ms, IC 90 % 2,2-6,4; 10,7 ms, 8,6-12,8), sin mencionar dosis; los antifúngicos azólicos, que la ficha no nombra, se retiran de la lista",
+   "fuente": "cima.aemps.es, fichas n.º 67804 (citalopram, rev. febrero 2025) y 71430 (escitalopram, rev. enero 2021), secciones 4.3, 4.4, 4.5 y 5.1"
+  },
+  {
+   "id": "qt_psicof",
+   "gravedad": "mayor",
+   "antes": "tx: «NICE NG222 pide ECG, al potenciar con un antipsicótico, en personas… que toman otros fármacos que prolongan el QT, como citalopram o escitalopram» (sin número de recomendación ni advertencia)",
+   "despues": "Se cita la rec. 1.4.34 y se advierte en la nota de la discrepancia de seguridad: NICE contempla la asociación con ECG, mientras que las fichas técnicas españolas de citalopram y escitalopram contraindican asociarlos a medicamentos que prolongan el QT (fenotiazinas, pimozida, haloperidol, etc.)",
+   "fuente": "nice.org.uk NG222 rec. 1.4.34; cima.aemps.es fichas n.º 67804 y 71430, secciones 4.3 y 4.5"
+  },
+  {
+   "id": "hiperprl_ap",
+   "gravedad": "mayor",
+   "antes": "en el estudio PET de Kapur (2000) con haloperidol, recogido en la ficha de antagonismo D2, la probabilidad de hiperprolactinemia aumentaba al superar un 72 % de ocupación (dato tomado de otra ficha, sin verificar y sin referencia)",
+   "despues": "Dato comprobado en el resumen (22 pacientes, primer episodio, umbral del 72 %) y referencia añadida con PMID",
+   "fuente": "Kapur 2000, Am J Psychiatry 157:514-520, PMID 10739409 (resumen)"
+  },
+  {
+   "id": "hiperprl_ap",
+   "gravedad": "mayor",
+   "antes": "la risperidona y la amisulprida se sitúan también en el extremo alto [fuente no localizada]; «la cefalea persistente o los defectos del campo visual [fuente no localizada]»",
+   "despues": "Se contrasta con las fichas técnicas de CIMA: hiperprolactinemia como efecto adverso común de risperidona y recomendación de medir prolactina ante síntomas; amisulprida contraindicada en tumores dependientes de prolactina y con indicación de imagen hipofisaria ante cifras muy altas o signos de tumor (cefalea, defectos del campo visual); el marcador se limita a la posición en el metaanálisis",
+   "fuente": "cima.aemps.es, fichas n.º 66777 (risperidona, rev. octubre 2020), 69797 (amisulprida, rev. septiembre 2024) y 85827 (paliperidona, rev. abril 2024)"
+  },
+  {
+   "id": "encef_letargica",
+   "gravedad": "menor",
+   "antes": "(sin datos españoles)",
+   "despues": "Rasgo nuevo con la serie de 120 casos publicados en España (1918-1936): estacionalidad, formas clínicas, mortalidad del 23 %",
+   "fuente": "Corral-Corral y Quereda 2007, Rev Neurol 44:245-253, PMID 17311216 (resumen)"
+  },
+  {
+   "id": "encef_letargica",
+   "gravedad": "menor",
+   "antes": "La respuesta transitoria a la levodopa de personas con parkinsonismo posencefalítico fue narrada por Sacks (1973) [fuente no localizada]",
+   "despues": "Respuesta a la levodopa documentada con fuente primaria indexada (30 pacientes); Sacks queda como relato no cotejado",
+   "fuente": "Duvoisin 1972, J Neurol Neurosurg Psychiatry 35:487-495, PMID 5049808 (resumen)"
+  },
+  {
+   "id": "encef_letargica",
+   "gravedad": "menor",
+   "antes": "en prueba de la base orgánica de síntomas hasta entonces tenidos por funcionales, como las obsesiones o los cambios del carácter (Lutters 2018)",
+   "despues": "«llamaron la atención sobre la base orgánica de síntomas psiquiátricos como las obsesiones, los trastornos del ánimo o la bradifrenia (Lutters 2018)»: se ajusta a lo que dice el resumen",
+   "fuente": "Lutters 2018, PMID 29555881 (resumen: «drew attention to the organic basis of mental illness»)"
+  },
+  {
+   "id": "encef_letargica",
+   "gravedad": "menor",
+   "antes": "Hoffman y Vilensky (2017) omitido de las referencias; sin fuentes para magnitud, formas clínicas, España y levodopa",
+   "despues": "Se añaden cinco referencias comprobadas en PubMed: Mortimer 2009, Dale 2007, Corral-Corral 2007, Duvoisin 1972 y Hoffman y Vilensky 2017 (esta, solo registro bibliográfico: Brain 140:2246-2251, sin resumen)",
+   "fuente": "PubMed PMID 19144247, 17914719, 17311216, 5049808, 28899018"
+  },
+  {
+   "id": "pelagra_psiq",
+   "gravedad": "menor",
+   "antes": "Nota sin datos del original de Goldberger ni mención del dossier; la sección de diferencial no enlazaba con psicosis_causa_conocida",
+   "despues": "Se añaden los datos bibliográficos del original tal como los da el dossier (sin cotejar, dicho expresamente), la tesis 1 del dossier con marcador y un enlace a psicosis_causa_conocida y neurosif",
+   "fuente": "Dossier psicosis_causa_conocida, apartado 1 y referencia 9; PMID 16550768 (reimpresión, sin resumen)"
+  },
+  {
+   "id": "pelagra_psiq",
+   "gravedad": "menor",
+   "antes": "Hoy es rara en los países occidentales, pero persiste en personas con consumo crónico de alcohol…",
+   "despues": "Se añade que sigue siendo frecuente en algunos países de renta baja (el resumen dice «developing countries»), para no dar una imagen solo occidental de la epidemiología",
+   "fuente": "Pitche 2005, PMID 16207585 (resumen)"
+  },
+  {
+   "id": "discont_ad",
+   "gravedad": "menor",
+   "antes": "Incidencia según Henssler (2024): … 31 % … 17 % … síntomas graves en el 2,8 % frente al 0,6 %",
+   "despues": "Se añade la diferencia del 8 % (IC 95 % 4-12) entre antidepresivo y placebo dentro de los ensayos aleatorizados, que el resumen da junto al 15 %",
+   "fuente": "Henssler 2024, PMID 38851198 (resumen)"
+  },
+  {
+   "id": "discont_ad",
+   "gravedad": "menor",
+   "antes": "las reducciones cortas, de dos a cuatro semanas, muestran un beneficio mínimo…",
+   "despues": "«las reducciones breves, de pocas semanas, que recomendaban las guías…»: se retira la cifra de calendario (el encargo excluye pautas numéricas de reducción) y se aclara que eran las de las guías",
+   "fuente": "Horowitz y Taylor 2019, PMID 30850328 (resumen); regla 3 del encargo"
+  },
+  {
+   "id": "hiponatr_psicof",
+   "gravedad": "menor",
+   "antes": "(sin datos de ficha técnica) y «NICE pide estar alerta… (NG222)» sin número de recomendación",
+   "despues": "Rasgo nuevo con lo que dicen las fichas técnicas de citalopram y escitalopram leídas en CIMA (4.4) y número exacto de la recomendación de NICE (1.4.24)",
+   "fuente": "cima.aemps.es, fichas n.º 67804 y 71430, sección 4.4; nice.org.uk NG222 rec. 1.4.24"
+  },
+  {
+   "id": "hiponatr_psicof",
+   "gravedad": "menor",
+   "antes": "MDMA: encefalopatía hiponatrémica potencialmente mortal… con secreción inadecuada de hormona antidiurética como mecanismo (Hartung 2002)",
+   "despues": "Se precisa la base: serie de 17 casos, datos compatibles con SIADH en 6, dos muertes; lo relativo a MDMA queda con dos fuentes primarias comprobadas",
+   "fuente": "Hartung 2002, QJM 95:431-437, PMID 12096147; Rosenson 2007, Ann Emerg Med 49:164-171, PMID 17084942 (resúmenes)"
+  },
+  {
+   "id": "hiponatr_psicof",
+   "gravedad": "menor",
+   "antes": "la guía europea ordena el tratamiento según la gravedad de los síntomas (Spasovski 2014)",
+   "despues": "«la guía europea de referencia es la de Spasovski (2014), cuyo texto completo no se ha contrastado aquí»: el resumen no describe el contenido de las recomendaciones",
+   "fuente": "Spasovski 2014, PMID 24569125 (resumen; texto completo no accesible)"
+  },
+  {
+   "id": "disf_sexual_psicof",
+   "gravedad": "menor",
+   "antes": "Propuesta clínica de Montejo (2019): … ante deseo bajo, cambio a un fármaco no serotoninérgico o reducción de dosis; ante retraso del orgasmo o anorgasmia, reducción de dosis o cambio…",
+   "despues": "Se completa con lo que el resumen enumera y el autor omitía: asociación de bupropión o aripiprazol para el deseo bajo, «weekend holiday» para el orgasmo, y abordaje también psicoterapéutico",
+   "fuente": "Montejo 2019, J Clin Med 8:1640, PMID 31591339 (resumen)"
+  },
+  {
+   "id": "qt_psicof",
+   "gravedad": "menor",
+   "antes": "…las alteraciones iónicas deben corregirse antes de iniciar estos fármacos [fuente no localizada]; hidroxizina enlazada sin mención en el texto",
+   "despues": "La corrección de electrolitos y la conducta ante arritmia quedan con fuente (ficha técnica, 4.4); se menciona la contraindicación de la hidroxizina leída en CIMA para justificar el enlace",
+   "fuente": "cima.aemps.es, fichas n.º 67804, 71430 y 80887 (hidroxizina, rev. octubre 2024, sección 4.3)"
+  },
+  {
+   "id": "discont_ad",
+   "gravedad": "menor",
+   "antes": "enlace «ideación suicida e inquietud» → ideac_suic, acatisia",
+   "despues": "enlace → ideac_suic, agitacion (sem/psm): la «inquietud o agitación» de la retirada (NG222 rec. 1.4.13) no es acatisia inducida por antipsicóticos",
+   "fuente": "node tools/q.js find agitaci; NG222 rec. 1.4.13"
+  }
+ ],
+ "sin_resolver": [
+  "Los 49 PMID del autor y 6 más (Hoffman y Vilensky 2017 y los cinco añadidos: 19144247, 17914719, 17311216, 5049808, 10739409) se han comprobado en PubMed: autor, año, revista, volumen y páginas correctos y cifras presentes en el resumen. Ningún PMID erróneo. Sin resumen indexado (solo registro): Berger y Vilensky 2014, Hoffman y Vilensky 2017, Funk 2020 y la reimpresión de Goldberger; no se les atribuyen cifras.",
+  "encef_letargica: las obras de von Economo (1917; 1929/1931) y Sacks (1973) siguen sin cotejarse con los originales ([no verificada]); sus datos bibliográficos coinciden con los del dossier psicosis_causa_conocida (refs. 16 y 19). La estimación de más de un millón de casos que el dossier atribuye a Hoffman y Vilensky (2017) no se ha podido comprobar (artículo sin resumen y texto completo inaccesible, 403 en academic.oup.com): va con marcador. Cruchet y la adscripción a la clínica de Wagner-Jauregg, con marcador.",
+  "encef_letargica: el dossier dice que hasta la mitad de los casos murió o quedó con daño permanente; el resumen de Mortimer (2009) dice que la mitad de quienes sobrevivieron tuvo enfermedad persistente o recurrente. El nodo sigue el resumen; conviene que el autor revise la frase del dossier (apartado 2.1). Los anticuerpos anti-D2 que cita el dossier (ref. 22) no se han incorporado por no haberse verificado.",
+  "pelagra_psiq: sin código CIE-11 (no comprobado en la fuente oficial). Hartnup, síndrome carcinoide, Gaspar Casal y el papel de Goldberger frente a la hipótesis infecciosa siguen con [fuente no localizada] (la reimpresión indexada no tiene resumen).",
+  "discont_ad: la inclusión del síndrome en el DSM-5-TR y la crítica a Henssler (2024) por la corta duración de los ensayos siguen con [fuente no localizada]; no se ha podido leer el DSM-5-TR.",
+  "hiponatr_psicof: no se ha podido leer el texto completo de la guía europea (Spasovski 2014): cronología, osmolalidad urinaria, desmielinización osmótica e ionograma basal siguen con marcador. La discrepancia sobre venlafaxina entre De Picker (2014) y Leth-Møller (2016) es real y se expone sin resolver. No hay fuente sobre hiponatremia en chemsex (dicho expresamente).",
+  "disf_sexual_psicof: sin fuente para el priapismo con antipsicóticos, la falta de datos en personas LGTBIQ+ y la relación con el uso sexualizado de sustancias (marcadores conservados). No se dan frecuencias de vortioxetina.",
+  "qt_psicof: la nota AEMPS MUH (FV) 23/2011 contiene una errata en los intervalos de confianza (4,3 ms con IC 90 % 8,6-12,8); se usan los de la ficha técnica (5.1). Decisión editorial pendiente: NICE NG222 rec. 1.4.34 contempla asociar antipsicótico y citalopram/escitalopram con ECG, mientras que las fichas técnicas españolas contraindican la asociación con medicamentos que prolongan el QT; el nodo lo expone en la nota. Umbrales de 450/500 ms extendidos a otros fármacos, Bazett/Fridericia y potenciadores antirretrovirales siguen con marcador. La ficha de citalopram del atlas lleva «la FDA limitó la dosis… [fuente no localizada]»: fuera del alcance de este parche.",
+  "hiperprl_ap: macroprolactina y resto del diferencial, mecanismo tuberoinfundibular y riesgo de descompensación con agonistas dopaminérgicos siguen con marcador (Melmed 2011 y Petersenn 2023 solo se han comprobado por su resumen). El descenso de −77,05 ng/ml de clozapina en Huhn (2019) tiene un intervalo muy amplio (−120,23 a −33,54) y debe leerse con cautela.",
+  "Fichas técnicas de CIMA: se han leído las de un medicamento genérico por principio activo (n.º de registro indicado en cada referencia); el texto puede diferir ligeramente entre titulares y se actualiza. En las referencias se ha omitido la dosis de la presentación para no introducir cifras en mg.",
+  "Vista, sector, tipo y anillo comprobados con «node tools/q.js sector» y con nodes.jsonl: hist/org anillo 5 (como bayle_hit y bonhoeffer_hit), nos/org anillo 3 ev fen (como wilson), ter/ad, ter/otr y ter/ap anillo 2 tradición clinical (como polifarm y ap_dem_riesgo). Sin cambios. Todos los ids de rel y links existen; «parkinson_psiq» (psicosis en la enfermedad de Parkinson) es solo un vecino aproximado para el parkinsonismo posencefalítico."
+ ]
+}
