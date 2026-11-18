@@ -1,0 +1,1194 @@
+{
+ "patch": {
+  "escitalopram": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 lo mantiene entre los 17 antidepresivos de primera línea (nivel 1 de evidencia) y entre los ocho con indicios de respuesta superior (con bupropión, mirtazapina, paroxetina, sertralina, venlafaxina de liberación prolongada, vortioxetina y agomelatina; diferencias de unos 5-10 puntos porcentuales); recuerda además que, en el metaanálisis de Cipriani (2018), escitalopram, agomelatina y vortioxetina reunieron eficacia y aceptabilidad (Lam 2024). NICE NG222 considera los ISRS la primera elección farmacológica para la mayoría de las personas. En el TAG, el metaanálisis en red de Slee (2019) lo sitúa entre los fármacos eficaces con aceptabilidad relativamente buena (diferencia media en HAM-A de -2,45 frente a placebo; ICr 95 % -3,27 a -1,63). En el trastorno de pánico, Chawla (2022) señala a sertralina y escitalopram como los ISRS con remisión alta y riesgo aceptable de efectos adversos, con certeza de moderada a muy baja. En la depresión de niños y adolescentes, Hetrick (2021) estima una reducción «pequeña y sin importancia» en la CDRS-R (DM -2,62; IC 95 % -5,29 a 0,04; certeza moderada). En mayores de 65 años, CANMAT 2023 advierte de que los ISRS pueden ser menos eficaces y de que hiponatremia, sangrado digestivo, daño hepático y QTc son más prominentes. Las indicaciones autorizadas (ficha técnica de Cipralex) son una nota factual: la prioridad de uso la marcan las guías.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "panic",
+        "farm_anx"
+       ],
+       "t": "ansiedad: evidencia en red"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "psicofarm_inf"
+       ],
+       "t": "población infantojuvenil"
+      },
+      {
+       "ids": [
+        "dep_tardia",
+        "fk_mayor"
+       ],
+       "t": "persona mayor"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "ficha de clase"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Es el enantiómero S del citalopram, el ISRS que la revisión de Sánchez y Hyttel (1999) describe como más selectivo sobre la recaptación de serotonina. En la revisión de interacciones de Spina (2008), citalopram y escitalopram figuran entre los antidepresivos con inhibición débil o insignificante de las isoenzimas CYP in vitro, con menor probabilidad de interacciones farmacocinéticas que fluoxetina, paroxetina o fluvoxamina; su propia exposición depende del fenotipo CYP2C19 (guía CPIC 2023: Bousman 2023). Disfunción sexual: en el metaanálisis de Serretti y Chiesa (2009) su tasa supera a la de placebo, aunque ocupa los últimos lugares del orden de impacto (por detrás de sertralina, venlafaxina, citalopram, paroxetina y fluoxetina). Peso: efecto nulo o insignificante a corto plazo en la mayoría de los ISRS (Serretti 2010). QTc: prolonga el intervalo en menor medida que el citalopram (Beach 2018) y CANMAT 2023 no le atribuye un riesgo clínicamente relevante superior (Lam 2024), lo que contrasta con la ficha técnica de Cipralex (4.3, AEMPS-CIMA), que lo contraindica con antecedente de QT largo y junto a otros medicamentos que prolongan el QT. Hígado: entre los antidepresivos con menor potencial hepatotóxico (Voican 2014; Lam 2024). Discontinuación: entre los fármacos con mayor frecuencia de síntomas en Henssler (2024) y riesgo «moderado» en CANMAT 2023. Hiponatremia y sangrado: riesgos de clase (ficha de ISRS e IRSN).",
+     "links": [
+      {
+       "ids": [
+        "citalopram",
+        "cyp2c19",
+        "cpic_isrs"
+       ],
+       "t": "enantiómeros y farmacogenética"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "sexual_sx"
+       ],
+       "t": "disfunción sexual"
+      },
+      {
+       "ids": [
+        "cardio_dep"
+       ],
+       "t": "QTc y cardiopatía"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "riesgos de clase"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Obligan a actuar: síncope, palpitaciones o QTc prolongado, sobre todo con hipopotasemia, bradicardia u otros fármacos que prolongan el QT; la ficha técnica de Cipralex (4.4) indica retirar el tratamiento y hacer un ECG si aparecen signos de arritmia, y Beach (2018) considera el análisis de los demás factores de riesgo la intervención más útil. También: signos de síndrome serotoninérgico tras añadir otro serotoninérgico (la ficha contraindica los IMAO irreversibles, la moclobemida y la linezolida; 4.3), hiponatremia sintomática, viraje maníaco e ideación suicida nueva, sobre todo en menores de 25 años (Stone 2009). Sobredosis: según la ficha técnica (4.9), los datos son limitados, la mayoría de los casos cursó sin síntomas o con síntomas leves y son raros los casos mortales con escitalopram solo; la advertencia de monitorización cardiaca de Isbister (2004) se refiere al citalopram racémico. Sustancias: el pretratamiento con citalopram intravenoso redujo de forma marcada los efectos psicológicos de la MDMA en personas sanas (Liechti 2000); no hay estudio equivalente con escitalopram [fuente no localizada], y la atenuación puede inducir a aumentar la dosis de MDMA (Farré 2007, con paroxetina). No hay estudios formales con mefedrona y otras catinonas, metanfetamina, GHB, poppers o inhibidores de la PDE5 [fuente no localizada]. Con antirretrovirales, el riesgo principal de interacción con drogas recreativas lo aportan ritonavir y cobicistat (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "síndrome serotoninérgico, suicidio y viraje"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "mefed",
+        "metanf",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "sustancias del contexto recreativo"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s",
+        "red_danos"
+       ],
+       "t": "chemsex y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "Chawla N et al. (2022). Drug treatment for panic disorder with or without agoraphobia: systematic review and network meta-analysis of randomised controlled trials. BMJ 376:e066084 · PMID 35045991",
+    "Hetrick SE et al. (2021). New generation antidepressants for depression in children and adolescents: a network meta-analysis. Cochrane Database Syst Rev 5:CD013674 · PMID 34029378",
+    "Sánchez C & Hyttel J (1999). Comparison of the effects of antidepressants and their metabolites on reuptake of biogenic amines and on receptor binding. Cell Mol Neurobiol 19:467-489 · PMID 10379421",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Beach SR et al. (2018). QT prolongation, torsades de pointes, and psychotropic medications: a 5-year update. Psychosomatics 59:105-122 · PMID 29275963",
+    "Voican CS et al. (2014). Antidepressant-induced liver injury: a review for clinicians. Am J Psychiatry 171:404-415 · PMID 24362450",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Isbister GK et al. (2004). Relative toxicity of selective serotonin reuptake inhibitors (SSRIs) in overdose. J Toxicol Clin Toxicol 42:277-285 · PMID 15362595",
+    "Liechti ME et al. (2000). Acute psychological effects of 3,4-methylenedioxymethamphetamine (MDMA, «Ecstasy») are attenuated by the serotonin uptake inhibitor citalopram. Neuropsychopharmacology 22:513-521 · PMID 10731626",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Cipralex 10 mg comprimidos recubiertos con película (escitalopram) (nº de registro 65230), apartados 4.3, 4.4 y 4.9; texto consultado en cima.aemps.es en noviembre de 2026",
+    "NICE (2022). Depression in adults: treatment and management (NG222), recomendaciones 1.4.18, 1.4.22-1.4.24 y 1.5.3 y tablas de opciones de tratamiento; texto consultado en nice.org.uk en noviembre de 2026",
+    "Henssler J et al. (2024). Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis. Lancet Psychiatry 11:526-535 · PMID 38851198",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251"
+   ],
+   "relAdd": [
+    "cpic_isrs",
+    "farm_anx",
+    "dep_inf",
+    "disf_sex",
+    "chemsex_arv",
+    "alucinogenos",
+    "ideac_suic"
+   ]
+  },
+  "citalopram": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En Cipriani (2018) el citalopram figura entre los antidepresivos mejor tolerados en comparaciones directas (con agomelatina, escitalopram, fluoxetina, sertralina y vortioxetina), sin pertenecer al grupo de mayor eficacia. CANMAT 2023 lo mantiene en primera línea (nivel 1), no lo incluye entre los fármacos con indicios de respuesta superior y matiza su perfil cardiaco: reconoce el riesgo sobre el QTc, pero considera bajo el riesgo clínico (Lam 2024). En el trastorno de pánico los ISRS, como clase, ofrecen remisión alta con riesgo bajo de efectos adversos; los destacados son sertralina y escitalopram (Chawla 2022). Persona mayor: en el ensayo CitAD (186 personas con enfermedad de Alzheimer y agitación) el citalopram mejoró la agitación y la sobrecarga de quien cuida, pero empeoró la cognición (-1,05 puntos en el MMSE) y prolongó el QT (18,1 ms), y sus autores concluyeron que estos efectos limitan su aplicación práctica a la dosis ensayada (Porsteinsson 2014); la agitación en la demencia no figura entre las indicaciones de la ficha técnica de Prisdal (4.1, AEMPS-CIMA). En niños y adolescentes con depresión no superó a placebo en el metaanálisis en red de Cipriani (2016), en el que solo la fluoxetina lo hizo. Las indicaciones autorizadas son una nota factual; la prioridad de uso la marcan las guías.",
+     "links": [
+      {
+       "ids": [
+        "agit_dem",
+        "dem"
+       ],
+       "t": "agitación en la demencia (CitAD)"
+      },
+      {
+       "ids": [
+        "panic",
+        "ddm"
+       ],
+       "t": "indicaciones con evidencia en red"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "fluoxetina"
+       ],
+       "t": "depresión infantojuvenil"
+      },
+      {
+       "ids": [
+        "isrs",
+        "escitalopram"
+       ],
+       "t": "clase y enantiómero"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Racemato cuyo efecto inhibidor de la recaptación de serotonina es el más selectivo entre los ISRS clásicos; su metabolito desmetilcitalopram es unas 10 veces menos potente in vitro (Sánchez 1999). A diferencia de fluoxetina, fluvoxamina y paroxetina, su cinética es lineal (Hiemke 2000), y es un inhibidor débil o insignificante de las isoenzimas CYP in vitro, con menor probabilidad de interacciones farmacocinéticas (Spina 2008); su exposición depende del fenotipo CYP2C19 (Bousman 2023). Disfunción sexual: tercer lugar en el orden de impacto del metaanálisis de Serretti y Chiesa (2009), tras sertralina y venlafaxina. Peso: efecto insignificante a corto plazo (Serretti 2010). QTc: es el ISRS que más lo prolonga, aunque la relevancia clínica de esa prolongación sigue sin aclararse (Beach 2018). Hígado: entre los de menor potencial hepatotóxico (Voican 2014; Lam 2024). Hiponatremia y caídas: en la cohorte de personas mayores de Coupland (2011), los ISRS como clase tuvieron las razones de riesgo ajustadas más altas para caídas (1,66) e hiponatremia (1,52). Discontinuación: riesgo «moderado» en la clasificación de CANMAT 2023 (Lam 2024). El sangrado es un riesgo de clase descrito en la ficha de ISRS e IRSN.",
+     "links": [
+      {
+       "ids": [
+        "cyp2c19",
+        "cpic_isrs",
+        "fenot_metab"
+       ],
+       "t": "farmacogenética de CYP2C19"
+      },
+      {
+       "ids": [
+        "cardio_dep"
+       ],
+       "t": "QTc"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "polifarm"
+       ],
+       "t": "persona mayor y polimedicación"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunción sexual"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Sobredosis: en la serie de 469 intoxicaciones por ISRS de Isbister (2004), el citalopram fue la excepción a la relativa seguridad del grupo: el 68 % de sus sobredosis cursó con QTc superior a 440 ms (OR ajustada 5,11 frente a sertralina), y los autores recomiendan valorar la monitorización cardiaca, sobre todo con ingestas grandes o cardiopatía; en el conjunto de los ISRS hubo convulsiones en el 1,9 %, coma en el 2,4 % y síndrome serotoninérgico en el 14 %. Concuerda con su mayor letalidad relativa en Hawton (2010). La ficha técnica de Prisdal (4.3) lo contraindica con IMAO, con antecedente de QT largo y con medicamentos que prolongan el QT. Otras señales: síncope o palpitaciones, hiponatremia en personas mayores (Coupland 2011), viraje maníaco y deterioro cognitivo en la demencia (Porsteinsson 2014). Sustancias: el pretratamiento con citalopram intravenoso redujo de forma marcada los efectos psicológicos de la MDMA en 16 personas voluntarias sanas (Liechti 2000); la atenuación puede inducir a aumentar la dosis de MDMA (Farré 2007, con paroxetina). No hay estudios formales con mefedrona y otras catinonas, metanfetamina, GHB, poppers o inhibidores de la PDE5 [fuente no localizada]; la suma de sustancias que prolongan el QT es un riesgo teórico sin cuantificar [fuente no localizada]. Con antirretrovirales, el mayor potencial de interacción con drogas recreativas corresponde a ritonavir y cobicistat (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "sind_ser"
+       ],
+       "t": "sobredosis, suicidio y toxicidad serotoninérgica"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "mefed",
+        "metanf",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "sustancias"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "chemsex y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Chawla N et al. (2022). Drug treatment for panic disorder with or without agoraphobia: systematic review and network meta-analysis of randomised controlled trials. BMJ 376:e066084 · PMID 35045991",
+    "Porsteinsson AP et al. (2014). Effect of citalopram on agitation in Alzheimer disease: the CitAD randomized clinical trial. JAMA 311:682-691 · PMID 24549548",
+    "Cipriani A et al. (2016). Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis. Lancet 388:881-890 · PMID 27289172",
+    "Sánchez C & Hyttel J (1999). Comparison of the effects of antidepressants and their metabolites on reuptake of biogenic amines and on receptor binding. Cell Mol Neurobiol 19:467-489 · PMID 10379421",
+    "Hiemke C & Härtter S (2000). Pharmacokinetics of selective serotonin reuptake inhibitors. Pharmacol Ther 85:11-28 · PMID 10674711",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Beach SR et al. (2018). QT prolongation, torsades de pointes, and psychotropic medications: a 5-year update. Psychosomatics 59:105-122 · PMID 29275963",
+    "Voican CS et al. (2014). Antidepressant-induced liver injury: a review for clinicians. Am J Psychiatry 171:404-415 · PMID 24362450",
+    "Coupland C et al. (2011). Antidepressant use and risk of adverse outcomes in older people: population based cohort study. BMJ 343:d4551 · PMID 21810886",
+    "Isbister GK et al. (2004). Relative toxicity of selective serotonin reuptake inhibitors (SSRIs) in overdose. J Toxicol Clin Toxicol 42:277-285 · PMID 15362595",
+    "Liechti ME et al. (2000). Acute psychological effects of 3,4-methylenedioxymethamphetamine (MDMA, «Ecstasy») are attenuated by the serotonin uptake inhibitor citalopram. Neuropsychopharmacology 22:513-521 · PMID 10731626",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Prisdal 20 mg comprimidos recubiertos con película (citalopram) (nº de registro 60884), apartados 4.1, 4.3 y 4.5; texto consultado en cima.aemps.es en noviembre de 2026",
+    "Hawton K et al. (2010). Toxicity of antidepressants: rates of suicide relative to prescribing and non-fatal overdose. Br J Psychiatry 196:354-358 · PMID 20435959"
+   ],
+   "relAdd": [
+    "agit_dem",
+    "cpic_isrs",
+    "ideac_suic",
+    "disf_sex",
+    "chemsex_arv",
+    "alucinogenos",
+    "fk_mayor"
+   ]
+  },
+  "fluoxetina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Su posición más sólida es la depresión de niños y adolescentes: en el metaanálisis en red de Cipriani (2016; 34 ensayos, 5260 participantes) fue el único antidepresivo significativamente más eficaz que placebo (DME -0,51; ICr 95 % -0,99 a -0,03) y se toleró mejor que duloxetina e imipramina; la revisión Cochrane de Hetrick (2021) rebaja la magnitud a una reducción «pequeña y sin importancia» en la CDRS-R (DM -2,84; IC 95 % -4,12 a -1,56; certeza moderada). CANMAT 2023 señala que en menores de 25 años pueden preferirse fluoxetina o agomelatina por el balance entre eficacia, reacciones adversas y riesgo de discontinuación (Lam 2024). En el adulto, Cipriani (2018) la sitúa entre las menos eficaces en comparaciones directas y entre las mejor aceptadas, y CANMAT 2023 la mantiene en primera línea sin incluirla entre los fármacos con indicios de respuesta superior. En la bulimia nerviosa, el ensayo multicéntrico de 8 semanas en 387 mujeres mostró que la mayor de las dos dosis ensayadas redujo atracones y vómitos frente a placebo, con un efecto intermedio de la dosis menor (Fluoxetine Bulimia Nervosa Collaborative Study Group 1992). En el TAG figura entre los fármacos eficaces y bien tolerados, con la limitación de muestras pequeñas (Slee 2019). Las indicaciones autorizadas constan en la descripción como nota factual.",
+     "links": [
+      {
+       "ids": [
+        "dep_inf",
+        "psicofarm_inf",
+        "suic_adol"
+       ],
+       "t": "depresión infantojuvenil"
+      },
+      {
+       "ids": [
+        "bul",
+        "tca_adol"
+       ],
+       "t": "bulimia nerviosa"
+      },
+      {
+       "ids": [
+        "isrs",
+        "ddm"
+       ],
+       "t": "clase y depresión del adulto"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Es el ISRS menos selectivo; su metabolito norfluoxetina es un inhibidor de la recaptación de serotonina más potente y selectivo que el fármaco original y de semivida muy prolongada, por lo que contribuye de forma decisiva al efecto, y la fluoxetina es además antagonista 5-HT2C (Sánchez 1999). Su cinética no es lineal y, salvo la norfluoxetina, los metabolitos de los ISRS no contribuyen a la acción clínica (Hiemke 2000). Fluoxetina y norfluoxetina son inhibidores potentes de CYP2D6 (Hiemke 2000; Spina 2008); en la cohorte de Kelly (2010), sin embargo, el aumento de mortalidad por cáncer de mama con tamoxifeno se observó con paroxetina y no con los demás antidepresivos, dato que no invalida la ficha técnica de Fluoxetina Cinfa (4.4 y 4.5, AEMPS-CIMA), según la cual la combinación debe evitarse siempre que sea posible. Peso: se asocia a cierta pérdida ponderal, limitada a la fase aguda (Serretti 2010). Disfunción sexual: tasa superior a placebo, quinto lugar del orden de impacto de Serretti y Chiesa (2009). Discontinuación: riesgo bajo o mínimo en CANMAT 2023, que la exceptúa de la retirada gradual por su semivida larga (Lam 2024). En sobredosis su QTc fue menor que el del citalopram (Isbister 2004). Hiponatremia y sangrado: riesgos de clase (ficha de ISRS e IRSN).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab"
+       ],
+       "t": "inhibición de CYP2D6"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunción sexual"
+      },
+      {
+       "ids": [
+        "paroxetina",
+        "isrs"
+       ],
+       "t": "comparación con otros ISRS"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La semivida larga prolonga cualquier reacción adversa o interacción durante semanas tras la suspensión: de ahí los periodos de lavado frente a los IMAO que recoge la descripción y la persistencia del riesgo de síndrome serotoninérgico al iniciar otro serotoninérgico poco después de retirarla. En menores de 25 años el riesgo de conducta suicida con antidepresivos frente a placebo aumenta (OR 2,30; IC 95 % 1,04 a 5,09) y se aproxima al observado en niños y adolescentes (Stone 2009): NICE NG222 (1.4.22) pide revisar a la semana de iniciar el antidepresivo o de aumentar la dosis a las personas de 18 a 25 años, sin que ello desaconseje tratar. Otras señales: viraje maníaco, activación o inquietud intensa al inicio, convulsiones e hiponatremia. Sustancias: en ocho personas consumidoras de MDMA, la fluoxetina atenuó la mayoría de los efectos subjetivos positivos y el aumento de la frecuencia cardiaca, pero no el de la presión arterial (Tancer 2007); la atenuación puede inducir a aumentar la dosis de MDMA (Farré 2007). Al inhibir CYP2D6, podría elevar la exposición a MDMA y a anfetaminas que se metabolizan por esa vía, como se demostró con paroxetina (Farré 2007), sin estudio propio con fluoxetina [fuente no localizada]. No hay estudios formales con mefedrona y otras catinonas, metanfetamina, GHB, poppers o inhibidores de la PDE5 [fuente no localizada]. Con antirretrovirales, el mayor potencial de interacción con drogas recreativas corresponde a ritonavir y cobicistat (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "maois"
+       ],
+       "t": "lavado y síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_adol",
+        "bp3"
+       ],
+       "t": "suicidio en jóvenes y viraje"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "metanf",
+        "mefed",
+        "chemsex_arv"
+       ],
+       "t": "sustancias y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cipriani A et al. (2016). Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis. Lancet 388:881-890 · PMID 27289172",
+    "Hetrick SE et al. (2021). New generation antidepressants for depression in children and adolescents: a network meta-analysis. Cochrane Database Syst Rev 5:CD013674 · PMID 34029378",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Fluoxetine Bulimia Nervosa Collaborative Study Group (1992). Fluoxetine in the treatment of bulimia nervosa: a multicenter, placebo-controlled, double-blind trial. Arch Gen Psychiatry 49:139-147 · PMID 1550466",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "Sánchez C & Hyttel J (1999). Comparison of the effects of antidepressants and their metabolites on reuptake of biogenic amines and on receptor binding. Cell Mol Neurobiol 19:467-489 · PMID 10379421",
+    "Hiemke C & Härtter S (2000). Pharmacokinetics of selective serotonin reuptake inhibitors. Pharmacol Ther 85:11-28 · PMID 10674711",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Kelly CM et al. (2010). Selective serotonin reuptake inhibitors and breast cancer mortality in women receiving tamoxifen: a population based cohort study. BMJ 340:c693 · PMID 20142325",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Isbister GK et al. (2004). Relative toxicity of selective serotonin reuptake inhibitors (SSRIs) in overdose. J Toxicol Clin Toxicol 42:277-285 · PMID 15362595",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Tancer M & Johanson CE (2007). The effects of fluoxetine on the subjective and physiological effects of 3,4-methylenedioxymethamphetamine (MDMA) in humans. Psychopharmacology (Berl) 189:565-573 · PMID 17047932",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Fluoxetina Cinfa 20 mg cápsulas duras EFG (fluoxetina) (nº de registro 63499), apartados 4.3, 4.4 y 4.5; texto consultado en cima.aemps.es en noviembre de 2026",
+    "NICE (2022). Depression in adults: treatment and management (NG222), recomendaciones 1.4.18, 1.4.22-1.4.24 y 1.5.3 y tablas de opciones de tratamiento; texto consultado en nice.org.uk en noviembre de 2026",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251"
+   ],
+   "relAdd": [
+    "dep_inf",
+    "psicofarm_inf",
+    "suic_adol",
+    "cyp2d6",
+    "disf_sex",
+    "alucinogenos",
+    "chemsex_arv",
+    "maois"
+   ]
+  },
+  "paroxetina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 la mantiene en primera línea y entre los antidepresivos con indicios de respuesta superior (diferencias de unos 5-10 puntos porcentuales), pero la clasifica, con la venlafaxina, como de riesgo alto de síntomas de discontinuación, igual que NICE NG222 (1.4.18), y la señala por sus interacciones clínicamente relevantes (inhibición potente de CYP2D6) (Lam 2024); en Cipriani (2018) figura entre los más eficaces en comparaciones directas sin estar entre los mejor aceptados. En el TAG, Slee (2019) la considera eficaz pero mal tolerada frente a placebo. En la depresión de niños y adolescentes, la revisión Cochrane de Hetrick (2021) no halla una reducción relevante en la CDRS-R (DM -1,43; IC 95 % -3,90 a 1,04; certeza alta). Embarazo: el metaanálisis de Bérard (2016; 23 estudios) asocia la exposición en el primer trimestre a más malformaciones cardiacas mayores (OR 1,28; IC 95 % 1,11 a 1,47), mientras que la cohorte de Huybrechts (2014; 949 504 gestantes) no encontró asociación significativa con la obstrucción del tracto de salida del ventrículo derecho (RR 1,07; IC 95 % 0,59 a 1,93) tras ajustar por la indicación; la ficha técnica de Seroxat (4.6, AEMPS-CIMA) recoge el aumento de riesgo de malformaciones cardiovasculares. Las indicaciones autorizadas son una nota factual: su amplitud no equivale a prioridad de uso.",
+     "links": [
+      {
+       "ids": [
+        "dep_embarazo",
+        "emb_peri",
+        "confus_fam_prenat"
+       ],
+       "t": "embarazo y confusión por indicación"
+      },
+      {
+       "ids": [
+        "tag",
+        "farm_anx"
+       ],
+       "t": "ansiedad"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "población infantojuvenil"
+      },
+      {
+       "ids": [
+        "isrs",
+        "venlafaxina"
+       ],
+       "t": "clase y discontinuación"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Con la sertralina, es el inhibidor más potente de la recaptación de serotonina entre los ISRS (Sánchez 1999) y posee, además, una afinidad moderadamente alta por el transportador de noradrenalina (Owens 1997). Su cinética no es lineal (Hiemke 2000), de modo que las variaciones de dosis producen cambios desproporcionados de concentración, factor que se invoca para explicar la intensidad de la discontinuación [fuente no localizada]. Es un inhibidor potente de CYP2D6 (Hiemke 2000; Spina 2008): en la cohorte de Kelly (2010), en 2430 mujeres de 66 años o más tratadas con tamoxifeno, la proporción de tiempo de uso simultáneo de paroxetina se asoció a un aumento gradual de la mortalidad por cáncer de mama (24 %, 54 % y 91 % para solapamientos del 25 %, 50 % y 75 %), lo que no se observó con otros antidepresivos; la ficha técnica de Seroxat (4.4 y 4.5) indica evitarla, cuando sea posible, durante el tratamiento con tamoxifeno. Peso: con amitriptilina y mirtazapina, es de los antidepresivos con mayor riesgo de ganancia ponderal (Serretti 2010). Disfunción sexual: tasa superior a placebo, cuarto lugar del orden de impacto de Serretti y Chiesa (2009). Hígado: entre los de menor potencial hepatotóxico (Voican 2014). En sobredosis su QTc fue inferior al del citalopram (Isbister 2004). Hiponatremia y sangrado: riesgos de clase (ficha de ISRS e IRSN).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab",
+        "cpic_isrs"
+       ],
+       "t": "CYP2D6 y tamoxifeno"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "sexual_sx"
+       ],
+       "t": "disfunción sexual"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "riesgos de clase"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales que obligan a actuar: síntomas intensos al olvidar tomas o al reducir la dosis (mareo, parestesias, ansiedad, insomnio), que deben distinguirse de una recaída; prescripción concomitante de tamoxifeno (Kelly 2010); deseo o confirmación de embarazo, que exige revisar el tratamiento sin interrumpirlo de forma brusca; viraje maníaco; hiponatremia; dolor ocular agudo con midriasis (glaucoma de ángulo cerrado; ficha técnica de Seroxat, 4.4); e ideación suicida de nueva aparición, sobre todo en menores de 25 años (Stone 2009). La ficha técnica (4.3) la contraindica con IMAO, tioridazina y pimozida. Sustancias: en el ensayo cruzado de Farré (2007), en 12 varones voluntarios sanos, el pretratamiento con paroxetina redujo de forma marcada los efectos fisiológicos y subjetivos de la MDMA pese a elevar un 30 % sus concentraciones plasmáticas; los autores advierten de que la pérdida de efecto puede inducir a tomar dosis mayores, con toxicidad potencialmente mortal. La inhibición de CYP2D6 podría aumentar la exposición a otras anfetaminas, sin estudios formales con metanfetamina, mefedrona u otras catinonas [fuente no localizada]; tampoco los hay con GHB, poppers o inhibidores de la PDE5 [fuente no localizada]. Antirretrovirales: según la ficha técnica (4.5), fosamprenavir/ritonavir redujo alrededor de un 55 % los niveles de paroxetina en personas voluntarias sanas; ritonavir y cobicistat concentran el riesgo de interacción con drogas recreativas (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "riesgos de clase que exigen vigilancia"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "metanf",
+        "mefed",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "sustancias"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s",
+        "red_danos"
+       ],
+       "t": "chemsex y reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "Hetrick SE et al. (2021). New generation antidepressants for depression in children and adolescents: a network meta-analysis. Cochrane Database Syst Rev 5:CD013674 · PMID 34029378",
+    "Bérard A et al. (2016). The risk of major cardiac malformations associated with paroxetine use during the first trimester of pregnancy: a systematic review and meta-analysis. Br J Clin Pharmacol 81:589-604 · PMID 26613360",
+    "Huybrechts KF et al. (2014). Antidepressant use in pregnancy and the risk of cardiac defects. N Engl J Med 370:2397-2407 · PMID 24941178",
+    "Sánchez C & Hyttel J (1999). Comparison of the effects of antidepressants and their metabolites on reuptake of biogenic amines and on receptor binding. Cell Mol Neurobiol 19:467-489 · PMID 10379421",
+    "Owens MJ et al. (1997). Neurotransmitter receptor and transporter binding profile of antidepressants and their metabolites. J Pharmacol Exp Ther 283:1305-1322 · PMID 9400006",
+    "Hiemke C & Härtter S (2000). Pharmacokinetics of selective serotonin reuptake inhibitors. Pharmacol Ther 85:11-28 · PMID 10674711",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Kelly CM et al. (2010). Selective serotonin reuptake inhibitors and breast cancer mortality in women receiving tamoxifen: a population based cohort study. BMJ 340:c693 · PMID 20142325",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Voican CS et al. (2014). Antidepressant-induced liver injury: a review for clinicians. Am J Psychiatry 171:404-415 · PMID 24362450",
+    "Isbister GK et al. (2004). Relative toxicity of selective serotonin reuptake inhibitors (SSRIs) in overdose. J Toxicol Clin Toxicol 42:277-285 · PMID 15362595",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Seroxat 20 mg comprimidos recubiertos con película (paroxetina) (nº de registro 59468), apartados 4.3, 4.4, 4.5 y 4.6; texto consultado en cima.aemps.es en noviembre de 2026",
+    "NICE (2022). Depression in adults: treatment and management (NG222), recomendaciones 1.4.18, 1.4.22-1.4.24 y 1.5.3 y tablas de opciones de tratamiento; texto consultado en nice.org.uk en noviembre de 2026"
+   ],
+   "relAdd": [
+    "dep_embarazo",
+    "cyp2d6",
+    "venlafaxina",
+    "alucinogenos",
+    "chemsex_arv",
+    "ideac_suic",
+    "sind_ser"
+   ]
+  },
+  "fluvoxamina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Su lugar es el TOC. En población pediátrica, el ensayo multicéntrico de Riddle (2001; 120 niños y adolescentes) mostró diferencias significativas frente a placebo en la CY-BOCS desde la primera semana, con un 42 % de respuesta frente al 26 % (reducción de al menos el 25 %), y el insomnio y la astenia como efectos adversos más frecuentes. En el adulto, el metaanálisis en red de Skapinakis (2016) encuentra un efecto de clase de los ISRS sin superioridad de la clomipramina sobre ellos (-1,23; ICr 95 % -3,41 a 0,94) y concluye que la combinación de psicoterapia y fármaco probablemente supera a la psicoterapia sola en el TOC grave. En depresión, CANMAT 2023 la mantiene en primera línea, sin incluirla entre los antidepresivos con indicios de respuesta superior, y la destaca por sus interacciones (inhibición potente de CYP1A2, CYP2C19 y CYP3A4) (Lam 2024). No se han localizado datos específicos de fluvoxamina en las grandes cohortes de embarazo (Huybrechts 2014 y Huybrechts 2015 analizan los ISRS en conjunto) [fuente no localizada]. En personas mayores y polimedicadas, su perfil de interacciones obliga a revisar toda la medicación antes de prescribirla. Las indicaciones autorizadas son una nota factual; la prioridad la marcan las guías.",
+     "links": [
+      {
+       "ids": [
+        "toc_ped",
+        "toc_dsm",
+        "clomipramina"
+       ],
+       "t": "TOC pediátrico y del adulto"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "fk_mayor"
+       ],
+       "t": "polimedicación"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "ficha de clase"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "En el estudio de unión de Narita (1996), la fluvoxamina fue el ISRS con mayor afinidad por los receptores sigma-1 en cerebro de rata (por delante de sertralina, fluoxetina y citalopram; la paroxetina mostró la menor), sin afinidad relevante por los sigma-2; la traducción clínica de este dato sigue sin establecerse. Su cinética no es lineal y carece de metabolitos activos (Hiemke 2000). Inhibe de forma marcada CYP1A2 y CYP2C19 (Hiemke 2000; Spina 2008), por lo que las interacciones clínicamente relevantes se esperan con sustratos de margen terapéutico estrecho; la guía CPIC 2023 formula para ella recomendaciones según el fenotipo CYP2D6, limitadas a los metabolizadores lentos (Bousman 2023). El tabaco, inductor de CYP1A2, podría reducir sus concentraciones [fuente no localizada]; la ficha técnica de Dumirox no lo recoge. Disfunción sexual: en el metaanálisis de Serretti y Chiesa (2009) su tasa supera a la de placebo, pero ocupa el último lugar del orden de impacto entre los fármacos con diferencia significativa. Hígado: entre los antidepresivos con menor potencial hepatotóxico (Voican 2014). Discontinuación: riesgo «moderado» en la clasificación de CANMAT 2023 (Lam 2024). En sobredosis su QTc fue inferior al del citalopram (Isbister 2004). Hiponatremia y sangrado: riesgos de clase (ficha de ISRS e IRSN).",
+     "links": [
+      {
+       "ids": [
+        "cyp2c19",
+        "cpic_isrs",
+        "fenot_metab"
+       ],
+       "t": "isoenzimas y farmacogenética"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "agomelatina",
+        "duloxetina",
+        "melatonina"
+       ],
+       "t": "sustratos afectados"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunción sexual"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La señal de alarma característica es la toxicidad de un fármaco concomitante cuyos niveles eleva. La ficha técnica de Dumirox (AEMPS-CIMA) la contraindica con tizanidina, IMAO y pimozida (4.3), desaconseja asociarla a terfenadina, astemizol o cisaprida por el riesgo de prolongación del QT (4.4) y pide vigilar o reducir la dosis de teofilina, metadona, clozapina, olanzapina, quetiapina, tricíclicos y benzodiacepinas de metabolismo oxidativo (4.5). Antes de añadirla o retirarla debe revisarse toda la medicación, porque la retirada también reduce los niveles del otro fármaco [fuente no localizada]. Como en el resto de la clase: signos de síndrome serotoninérgico tras asociar otro serotoninérgico, viraje maníaco, hiponatremia e ideación suicida de nueva aparición, sobre todo en menores de 25 años (Stone 2009). Sustancias: no hay estudios de interacción con MDMA, mefedrona u otras catinonas, metanfetamina, GHB o poppers [fuente no localizada]; la ficha técnica nombra el sildenafilo en el apartado 4.5, junto a terfenadina, astemizol y cisaprida, sin cuantificar la interacción. Por analogía con otros ISRS, cabe esperar atenuación de los efectos de la MDMA y riesgo de que se aumente su dosis (Farré 2007, con paroxetina) [fuente no localizada para fluvoxamina]. Al inhibir varias isoenzimas, es el ISRS en el que más conviene comprobar las interacciones con la medicación antirretroviral y con las sustancias consumidas; ritonavir y cobicistat concentran el riesgo descrito (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "clozapina",
+        "metadona",
+        "diazepam"
+       ],
+       "t": "fármacos cuyos niveles eleva"
+      },
+      {
+       "ids": [
+        "sind_ser",
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "riesgos de clase"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "alucinogenos",
+        "red_danos"
+       ],
+       "t": "sustancias y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Riddle MA et al. (2001). Fluvoxamine for children and adolescents with obsessive-compulsive disorder: a randomized, controlled, multicenter trial. J Am Acad Child Adolesc Psychiatry 40:222-229 · PMID 11211371",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Huybrechts KF et al. (2014). Antidepressant use in pregnancy and the risk of cardiac defects. N Engl J Med 370:2397-2407 · PMID 24941178",
+    "Huybrechts KF et al. (2015). Antidepressant use late in pregnancy and risk of persistent pulmonary hypertension of the newborn. JAMA 313:2142-2151 · PMID 26034955",
+    "Narita N et al. (1996). Interactions of selective serotonin reuptake inhibitors with subtypes of sigma receptors in rat brain. Eur J Pharmacol 307:117-119 · PMID 8831113",
+    "Hiemke C & Härtter S (2000). Pharmacokinetics of selective serotonin reuptake inhibitors. Pharmacol Ther 85:11-28 · PMID 10674711",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Voican CS et al. (2014). Antidepressant-induced liver injury: a review for clinicians. Am J Psychiatry 171:404-415 · PMID 24362450",
+    "Isbister GK et al. (2004). Relative toxicity of selective serotonin reuptake inhibitors (SSRIs) in overdose. J Toxicol Clin Toxicol 42:277-285 · PMID 15362595",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Dumirox 100 mg comprimidos recubiertos con película (fluvoxamina) (nº de registro 58212), apartados 4.3, 4.4 y 4.5; texto consultado en cima.aemps.es en noviembre de 2026",
+    "Skapinakis P et al. (2016). Pharmacological and psychotherapeutic interventions for management of obsessive-compulsive disorder in adults: a systematic review and network meta-analysis. Lancet Psychiatry 3:730-739 · PMID 27318812"
+   ],
+   "relAdd": [
+    "toc_ped",
+    "clomipramina",
+    "cpic_isrs",
+    "cyp2c19",
+    "polifarm",
+    "chemsex_arv",
+    "metadona"
+   ]
+  },
+  "venlafaxina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 mantiene la venlafaxina de liberación prolongada en primera línea y entre los antidepresivos con indicios de respuesta superior (diferencias de unos 5-10 puntos porcentuales), pero la clasifica, con la paroxetina, como de riesgo alto de síntomas de discontinuación (Lam 2024). El metaanálisis de dosis-respuesta de Furukawa (2019; 77 estudios) muestra una relación dosis-eficacia inicialmente creciente y después más modesta, con la mejor aceptabilidad en el tramo bajo del intervalo autorizado: subir la dosis aporta un beneficio decreciente a costa de más abandonos. En el TAG, Slee (2019) la sitúa entre los fármacos eficaces con aceptabilidad relativamente buena (diferencia media en HAM-A de -2,69; ICr 95 % -3,50 a -1,89). En niños y adolescentes con depresión no superó a placebo y causó más abandonos por efectos adversos (OR 3,19; ICr 95 % 1,01 a 18,70) (Cipriani 2016). Persona mayor: CANMAT 2023 apunta que los IRSN pueden ser más eficaces que los ISRS en mayores de 65 años, pero en la cohorte de Coupland (2011) la venlafaxina estuvo, con trazodona y mirtazapina, entre los fármacos con riesgos más altos para algunos desenlaces adversos, con las reservas propias de un estudio observacional. Las indicaciones autorizadas son una nota factual.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "farm_anx"
+       ],
+       "t": "ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "población infantojuvenil"
+      },
+      {
+       "ids": [
+        "dep_tardia",
+        "fk_mayor"
+       ],
+       "t": "persona mayor"
+      },
+      {
+       "ids": [
+        "isrs",
+        "paroxetina",
+        "desvenlafaxina"
+       ],
+       "t": "clase y fármacos afines"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Su afinidad in vitro por el transportador de noradrenalina es débil: Ki de 2480 nM frente a 82 nM para el de serotonina (razón de 30) en Bymaster (2001), hallazgo que ya describía Owens (1997) y que es coherente con un componente noradrenérgico dependiente de la exposición; la revisión de Sánchez y Hyttel (1999) atribuye al metabolito O-desmetilvenlafaxina, de eliminación más lenta, una contribución probable al efecto. Es un inhibidor débil o insignificante de las isoenzimas CYP in vitro, con baja probabilidad de causar interacciones farmacocinéticas (Spina 2008); la guía CPIC 2023 propone, como recomendación opcional, considerar una alternativa en metabolizadores lentos de CYP2D6 (Bousman 2023). Disfunción sexual: segundo lugar, tras la sertralina, en el orden de impacto de Serretti y Chiesa (2009). Hiponatremia: la revisión de De Picker (2014) estima para la venlafaxina incidencias de entre el 0,08 % y el 70 % según diseño y población, y concluye que el riesgo es relativamente mayor con ISRS y venlafaxina, sobre todo en edad avanzada y con diuréticos tiazídicos. Peso: efecto insignificante a corto plazo (Serretti 2010). El efecto tensional, la toxicidad en sobredosis y la discontinuación constan en la descripción; el sangrado es un riesgo de clase (ficha de ISRS e IRSN).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "cpic_isrs"
+       ],
+       "t": "CYP2D6 y guía CPIC"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunción sexual"
+      },
+      {
+       "ids": [
+        "desvenlafaxina",
+        "duloxetina"
+       ],
+       "t": "otros IRSN"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "riesgos de clase"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Sobredosis: en la cohorte de 538 ingresos por autointoxicación con antidepresivos de Whyte (2003) hubo convulsiones en 7 de 51 sobredosis de venlafaxina (14 %; OR 4,4 frente a los tricíclicos); los autores concluyen que, ante riesgo de convulsiones o de suicidio, conviene considerar otros antidepresivos, lo que concuerda con Hawton (2010). La ficha técnica de Vandral Retard (4.4, AEMPS-CIMA) recoge casos poscomercialización de prolongación del QTc, torsade de pointes y arritmias mortales, sobre todo en sobredosis. Otras señales: cifras tensionales elevadas mantenidas, viraje maníaco, hiponatremia sintomática, síntomas intensos al olvidar tomas e ideación suicida de nueva aparición, en especial en menores de 25 años (Stone 2009). Está contraindicada con IMAO irreversibles (4.3). Sustancias: la ficha técnica (4.4) nombra las anfetaminas entre los agentes cuyo uso concomitante favorece el síndrome serotoninérgico; no se han localizado estudios de interacción con MDMA, mefedrona u otras catinonas, metanfetamina, GHB, poppers o inhibidores de la PDE5 [fuente no localizada]. Con otro IRSN, la duloxetina, se demostró atenuación de los efectos de la MDMA (Hysek 2012). Antirretrovirales: según la ficha técnica (4.5), los inhibidores de CYP3A4 (cita, entre otros, ritonavir y atazanavir) pueden aumentar los niveles de venlafaxina y de su metabolito, por lo que recomienda precaución; los potenciadores concentran además el riesgo con drogas recreativas (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "sind_ser",
+        "bp3"
+       ],
+       "t": "sobredosis, suicidio y viraje"
+      },
+      {
+       "ids": [
+        "metanf",
+        "mefed",
+        "alucinogenos",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "sustancias"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "chemsex y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Furukawa TA et al. (2019). Optimal dose of selective serotonin reuptake inhibitors, venlafaxine, and mirtazapine in major depression: a systematic review and dose-response meta-analysis. Lancet Psychiatry 6:601-609 · PMID 31178367",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "Cipriani A et al. (2016). Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis. Lancet 388:881-890 · PMID 27289172",
+    "Coupland C et al. (2011). Antidepressant use and risk of adverse outcomes in older people: population based cohort study. BMJ 343:d4551 · PMID 21810886",
+    "Bymaster FP et al. (2001). Comparative affinity of duloxetine and venlafaxine for serotonin and norepinephrine transporters in vitro and in vivo, human serotonin receptor subtypes, and other neuronal receptors. Neuropsychopharmacology 25:871-880 · PMID 11750180",
+    "Owens MJ et al. (1997). Neurotransmitter receptor and transporter binding profile of antidepressants and their metabolites. J Pharmacol Exp Ther 283:1305-1322 · PMID 9400006",
+    "Sánchez C & Hyttel J (1999). Comparison of the effects of antidepressants and their metabolites on reuptake of biogenic amines and on receptor binding. Cell Mol Neurobiol 19:467-489 · PMID 10379421",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "Whyte IM, Dawson AH & Buckley NA (2003). Relative toxicity of venlafaxine and selective serotonin reuptake inhibitors in overdose compared to tricyclic antidepressants. QJM 96:369-374 · PMID 12702786",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Hysek CM et al. (2012). Duloxetine inhibits effects of MDMA («ecstasy») in vitro and in humans in a randomized placebo-controlled laboratory study. PLoS One 7:e36476 · PMID 22574166",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Vandral Retard 75 mg cápsulas duras de liberación prolongada (venlafaxina) (nº de registro 62401), apartados 4.3, 4.4, 4.5 y 4.9; texto consultado en cima.aemps.es en noviembre de 2026",
+    "Hawton K et al. (2010). Toxicity of antidepressants: rates of suicide relative to prescribing and non-fatal overdose. Br J Psychiatry 196:354-358 · PMID 20435959"
+   ],
+   "relAdd": [
+    "paroxetina",
+    "cyp2d6",
+    "cpic_isrs",
+    "ideac_suic",
+    "dep_inf",
+    "chemsex_arv",
+    "disf_sex",
+    "farm_anx"
+   ]
+  },
+  "desvenlafaxina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La evidencia comparativa no le concede una posición diferenciada: CANMAT 2023 la mantiene en primera línea sin incluirla entre los antidepresivos con indicios de respuesta superior, aunque la cita entre los de menor tasa de disfunción sexual (con bupropión, mirtazapina, vilazodona, vortioxetina y agomelatina) y le asigna un riesgo «moderado» de síntomas de discontinuación (Lam 2024), mientras que el metaanálisis de Henssler (2024) la sitúa entre los fármacos con mayor frecuencia y gravedad de síntomas. En la depresión de niños y adolescentes, la revisión Cochrane en red de Hetrick (2021) no encuentra diferencia con placebo en la CDRS-R (DM -0,07; IC 95 % -3,51 a 3,36; certeza alta), resultado que no respalda su uso en esa población. En personas mayores, CANMAT 2023 apunta de forma genérica que los IRSN pueden ser más eficaces que los ISRS a partir de los 65 años, sin datos propios de desvenlafaxina [fuente no localizada]. No se han localizado datos específicos de embarazo y lactancia más allá de los de clase que recoge la ficha técnica [fuente no localizada]. La indicación autorizada es una nota factual: su interés es farmacocinético, como alternativa a la venlafaxina cuando preocupa la variabilidad por CYP2D6.",
+     "links": [
+      {
+       "ids": [
+        "venlafaxina",
+        "isrs"
+       ],
+       "t": "fármaco de origen y clase"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "población infantojuvenil"
+      },
+      {
+       "ids": [
+        "cyp2d6"
+       ],
+       "t": "variabilidad por CYP2D6"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunción sexual"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "En el estudio de caracterización de Deecher (2006), la desvenlafaxina mostró una Ki de 40,2 nM para el transportador humano de serotonina y de 558,4 nM para el de noradrenalina (razón aproximada de 14, calculada a partir de esos valores), con unión débil al transportador de dopamina y sin actividad significativa en un amplio panel de dianas no transportadoras, lo que es coherente con un perfil adverso dominado por la acción serotoninérgica y noradrenérgica. En comparación, la venlafaxina muestra una razón de 30 entre ambos transportadores (Bymaster 2001). La guía CPIC 2023 la revisó y no le asignó recomendación, al no depender su metabolismo de CYP2D6 ni de CYP2C19 (Bousman 2023). No se han localizado metaanálisis comparativos que cuantifiquen su efecto sobre el peso, el QTc o la hiponatremia de forma específica [fuente no localizada]: para estos riesgos se aplican, con cautela, los datos de la venlafaxina y de la clase (De Picker 2014).",
+     "links": [
+      {
+       "ids": [
+        "venlafaxina",
+        "duloxetina"
+       ],
+       "t": "comparación entre IRSN"
+      },
+      {
+       "ids": [
+        "cpic_isrs",
+        "cyp2d6"
+       ],
+       "t": "farmacogenética"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "riesgos de clase"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales que obligan a actuar, comunes a los IRSN: cifras tensionales elevadas mantenidas, signos de síndrome serotoninérgico tras asociar otro serotoninérgico, viraje maníaco, hiponatremia sintomática, síntomas intensos al olvidar tomas o al cambiar desde venlafaxina e ideación suicida de nueva aparición, en especial en menores de 25 años (Stone 2009). La ficha técnica de Pristiq (4.3, AEMPS-CIMA) la contraindica con IMAO. Sobredosis: la ficha técnica (4.9) reconoce poca experiencia clínica y casos poscomercialización, algunos mortales, en combinación con alcohol u otros medicamentos; no hay series comparativas propias [fuente no localizada] y parece prudente trasladar la cautela documentada con la venlafaxina (Whyte 2003). Sustancias: la ficha técnica (4.4) nombra las anfetaminas entre los agentes cuyo uso concomitante favorece el síndrome serotoninérgico; no hay estudios de interacción con MDMA, mefedrona u otras catinonas, metanfetamina, GHB, poppers o inhibidores de la PDE5 [fuente no localizada]. Con otro IRSN, la duloxetina, se demostró atenuación de los efectos de la MDMA (Hysek 2012), lo que puede inducir a aumentar la dosis de la sustancia (Farré 2007, con paroxetina). Antirretrovirales: según la ficha técnica (4.5), CYP3A4 interviene mínimamente en su eliminación y un inhibidor potente (ketoconazol) produjo una interacción débil; ritonavir y cobicistat concentran el riesgo de interacción con drogas recreativas (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "riesgos de clase"
+      },
+      {
+       "ids": [
+        "venlafaxina"
+       ],
+       "t": "toxicidad en sobredosis de la venlafaxina"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "metanf",
+        "mefed",
+        "chemsex_arv"
+       ],
+       "t": "sustancias y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Hetrick SE et al. (2021). New generation antidepressants for depression in children and adolescents: a network meta-analysis. Cochrane Database Syst Rev 5:CD013674 · PMID 34029378",
+    "Deecher DC et al. (2006). Desvenlafaxine succinate: a new serotonin and norepinephrine reuptake inhibitor. J Pharmacol Exp Ther 318:657-665 · PMID 16675639",
+    "Bymaster FP et al. (2001). Comparative affinity of duloxetine and venlafaxine for serotonin and norepinephrine transporters in vitro and in vivo, human serotonin receptor subtypes, and other neuronal receptors. Neuropsychopharmacology 25:871-880 · PMID 11750180",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Whyte IM, Dawson AH & Buckley NA (2003). Relative toxicity of venlafaxine and selective serotonin reuptake inhibitors in overdose compared to tricyclic antidepressants. QJM 96:369-374 · PMID 12702786",
+    "Hysek CM et al. (2012). Duloxetine inhibits effects of MDMA («ecstasy») in vitro and in humans in a randomized placebo-controlled laboratory study. PLoS One 7:e36476 · PMID 22574166",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Pristiq 50 mg comprimidos de liberación prolongada (desvenlafaxina) (nº de registro 75560), apartados 4.3, 4.4, 4.5 y 4.9; texto consultado en cima.aemps.es en noviembre de 2026",
+    "Henssler J et al. (2024). Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis. Lancet Psychiatry 11:526-535 · PMID 38851198"
+   ],
+   "relAdd": [
+    "duloxetina",
+    "cyp2d6",
+    "disf_sex",
+    "dep_inf",
+    "ideac_suic",
+    "chemsex_arv",
+    "cpic_isrs"
+   ]
+  },
+  "duloxetina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En el TAG es el fármaco con mayor efecto entre los de aceptabilidad relativamente buena en el metaanálisis en red de Slee (2019): diferencia media en HAM-A de -3,13 frente a placebo (ICr 95 % -4,13 a -2,13). En depresión, Cipriani (2018) la sitúa entre los antidepresivos con más abandonos en comparaciones directas, y CANMAT 2023 la mantiene en primera línea sin incluirla entre los de respuesta superior; señala que en mayores de 65 años los IRSN como la duloxetina pueden ser más eficaces que los ISRS y que aportan más beneficio que estos en el dolor comórbido (Lam 2024). En fibromialgia, Welsch (2018) concluye, con evidencia baja o muy baja, que duloxetina y milnaciprán no aportan beneficio clínicamente relevante en el alivio del dolor del 50 % o más, sí en el del 30 % o más y en la impresión global de mejoría, con más abandonos por efectos adversos: en promedio los daños potenciales superan a los beneficios, aunque una minoría obtiene un alivio sustancial. En niños y adolescentes con depresión causó más abandonos por efectos adversos que placebo (OR 2,80; ICr 95 % 1,20 a 9,42) y se toleró peor que la fluoxetina (Cipriani 2016); el efecto sobre la CDRS-R es de certeza baja (Hetrick 2021). Las indicaciones autorizadas son una nota factual.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "farm_anx"
+       ],
+       "t": "ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "fibro",
+        "dolor_cron_prim"
+       ],
+       "t": "dolor crónico y fibromialgia"
+      },
+      {
+       "ids": [
+        "dep_tardia"
+       ],
+       "t": "persona mayor"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "fluoxetina"
+       ],
+       "t": "población infantojuvenil"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "ficha de clase"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Bloquea ambos transportadores con mucha mayor potencia que la venlafaxina: Ki de 0,8 nM para el de serotonina y de 7,5 nM para el de noradrenalina (razón de 9), frente a 82 y 2480 nM (razón de 30) de la venlafaxina (Bymaster 2001), lo que sustenta su calificación de inhibidor dual equilibrado. Es un inhibidor moderado de CYP2D6 (Spina 2008); la guía CPIC 2023 no formula recomendación para ella (Bousman 2023), y la ficha técnica de Cymbalta (4.5, AEMPS-CIMA) recoge concentraciones casi un 50 % menores en personas fumadoras. Hígado: figura entre los antidepresivos con mayor riesgo de hepatotoxicidad en Voican (2014) y en CANMAT 2023 (Lam 2024); la lesión por antidepresivos suele ser idiosincrásica, hepatocelular, no relacionada con la dosis y de aparición entre varios días y 6 meses tras el inicio, y la vigilancia de las aminotransferasas y la suspensión precoz son las medidas más útiles. Disfunción sexual: tasa superior a placebo, aunque en la parte baja del orden de impacto de Serretti y Chiesa (2009). Peso: efecto insignificante a corto plazo (Serretti 2010). Discontinuación: riesgo «moderado» según CANMAT 2023. Hiponatremia y sangrado: riesgos de clase (ficha de ISRS e IRSN). No se ha localizado un metaanálisis que cuantifique su efecto sobre el QTc [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "venlafaxina",
+        "desvenlafaxina"
+       ],
+       "t": "comparación entre IRSN"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "cpic_isrs",
+        "fluvoxamina"
+       ],
+       "t": "isoenzimas e interacciones"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunción sexual"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "riesgos de clase"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales de alarma propias: ictericia, coluria, prurito, dolor en hipocondrio derecho o astenia intensa obligan a determinar las aminotransferasas y a suspender el fármaco si se confirma el daño, porque la lesión hepática por antidepresivos puede ser irreversible (Voican 2014); la ficha técnica de Cymbalta (4.4, AEMPS-CIMA) pide precaución con otros medicamentos asociados a daño hepático; que el consumo elevado de alcohol agrave este riesgo no consta en el texto consultado [fuente no localizada]. También: hipertensión mantenida, viraje maníaco, hiponatremia, síndrome serotoninérgico e ideación suicida nueva, sobre todo en menores de 25 años (Stone 2009). Sustancias: en el ensayo cruzado de Hysek (2012), en 16 personas sanas, la duloxetina inhibió los efectos de la MDMA (aumento de noradrenalina circulante, presión arterial, frecuencia cardiaca y efectos subjetivos) pese a elevar sus concentraciones plasmáticas; como con la paroxetina (Farré 2007), la pérdida de efecto puede inducir a aumentar la dosis de la sustancia. No hay estudios con mefedrona y otras catinonas, metanfetamina, GHB, poppers o inhibidores de la PDE5 [fuente no localizada]. Está contraindicada con IMAO irreversibles y con fluvoxamina, ciprofloxacino o enoxacino (4.3). Con antirretrovirales, los potenciadores ritonavir y cobicistat concentran el riesgo de interacción con drogas recreativas (Bracchi 2015); su efecto sobre la exposición a duloxetina debe comprobarse en cada pauta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "riesgos de clase"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "mefed",
+        "metanf",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "sustancias"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s",
+        "red_danos"
+       ],
+       "t": "chemsex y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Welsch P et al. (2018). Serotonin and noradrenaline reuptake inhibitors (SNRIs) for fibromyalgia. Cochrane Database Syst Rev 2:CD010292 · PMID 29489029",
+    "Cipriani A et al. (2016). Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis. Lancet 388:881-890 · PMID 27289172",
+    "Hetrick SE et al. (2021). New generation antidepressants for depression in children and adolescents: a network meta-analysis. Cochrane Database Syst Rev 5:CD013674 · PMID 34029378",
+    "Bymaster FP et al. (2001). Comparative affinity of duloxetine and venlafaxine for serotonin and norepinephrine transporters in vitro and in vivo, human serotonin receptor subtypes, and other neuronal receptors. Neuropsychopharmacology 25:871-880 · PMID 11750180",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Voican CS et al. (2014). Antidepressant-induced liver injury: a review for clinicians. Am J Psychiatry 171:404-415 · PMID 24362450",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Hysek CM et al. (2012). Duloxetine inhibits effects of MDMA («ecstasy») in vitro and in humans in a randomized placebo-controlled laboratory study. PLoS One 7:e36476 · PMID 22574166",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica de Cymbalta 30 mg cápsulas duras gastrorresistentes (duloxetina) (nº de registro 04296001), apartados 4.3, 4.4 y 4.5; texto consultado en cima.aemps.es en noviembre de 2026"
+   ],
+   "relAdd": [
+    "desvenlafaxina",
+    "dolor_cron_prim",
+    "farm_anx",
+    "cyp2d6",
+    "ideac_suic",
+    "alucinogenos",
+    "chemsex_arv",
+    "dep_inf"
+   ]
+  },
+  "isrs": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 contabiliza 17 antidepresivos de primera línea entre 31 disponibles: su tabla 3.3 incluye, con nivel 1 de evidencia, los seis ISRS y cinco IRSN, y el texto cita con indicios de respuesta superior a escitalopram, paroxetina, sertralina y venlafaxina (diferencias de unos 5-10 puntos porcentuales). No recomienda el uso rutinario de pruebas farmacogenéticas y sitúa el aumento con aripiprazol o brexpiprazol en la primera línea de las estrategias adyuvantes (Lam 2024); la esketamina, autorizada con condiciones de uso propias, se describe en su ficha. NICE NG222 considera los ISRS la primera elección farmacológica para la mayoría y pide no ofrecer antidepresivos de forma rutinaria como primera línea en la depresión menos grave salvo preferencia informada (1.5.3). Dosis-respuesta: la eficacia de los ISRS crece hasta el tramo bajo del intervalo autorizado y después se aplana, mientras aumentan los abandonos por efectos adversos (Furukawa 2019). En el pánico reúnen remisión alta (RR 1,38) y riesgo bajo de efectos adversos (Chawla 2022); en el TOC muestran un efecto de clase (-3,49 puntos de Y-BOCS) sin que la clomipramina los supere (Skapinakis 2016). Infancia y adolescencia: solo la fluoxetina superó a placebo (Cipriani 2016). Embarazo: sin aumento sustancial de malformaciones cardiacas tras ajustar (RR 1,06; IC 95 % 0,93 a 1,22; Huybrechts 2014) y riesgo modesto de hipertensión pulmonar persistente neonatal (OR ajustada 1,10; IC 95 % 0,94 a 1,29; Huybrechts 2015).",
+     "links": [
+      {
+       "ids": [
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "venlafaxina"
+       ],
+       "t": "fármacos con indicios de mayor eficacia"
+      },
+      {
+       "ids": [
+        "aripiprazol",
+        "brexpiprazol",
+        "esketamina"
+       ],
+       "t": "estrategias ante respuesta insuficiente"
+      },
+      {
+       "ids": [
+        "panic",
+        "toc_dsm",
+        "farm_anx"
+       ],
+       "t": "ansiedad y TOC"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "dep_embarazo",
+        "psicof_lactancia"
+       ],
+       "t": "poblaciones especiales"
+      },
+      {
+       "ids": [
+        "cpic_isrs"
+       ],
+       "t": "guía farmacogenética"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Potencia y selectividad: paroxetina y sertralina son los inhibidores más potentes de la recaptación de serotonina y el citalopram el más selectivo (Sánchez 1999); la venlafaxina tiene afinidad débil por el transportador de noradrenalina y la duloxetina bloquea ambos con alta potencia (Bymaster 2001). Cinética: lineal en sertralina y citalopram y no lineal en fluoxetina, fluvoxamina y paroxetina (Hiemke 2000). Interacciones: fluoxetina y paroxetina inhiben con potencia CYP2D6, la fluvoxamina CYP1A2 y CYP2C19, la duloxetina es inhibidor moderado de CYP2D6, y citalopram, escitalopram y venlafaxina son inhibidores débiles (Spina 2008). Disfunción sexual: del 25,8 % al 80,3 % de las personas tratadas, con este orden decreciente de impacto: sertralina, venlafaxina, citalopram, paroxetina, fluoxetina, duloxetina, escitalopram y fluvoxamina (Serretti 2009). Peso: mayor ganancia con paroxetina y cierta pérdida inicial con fluoxetina (Serretti 2010). Sangrado: probabilidad aproximadamente doble de hemorragia digestiva alta, mayor con AINE, anticoagulantes o antiagregantes y menor con inhibidores de la bomba de protones (Andrade 2010). Hiponatremia: riesgo mayor con ISRS y venlafaxina, sobre todo en edad avanzada y con tiazidas (De Picker 2014). Discontinuación: CANMAT 2023 clasifica como de riesgo alto a paroxetina y venlafaxina, moderado al resto y bajo a fluoxetina (Lam 2024), en línea con NICE NG222 (1.4.18).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "cyp2c19",
+        "fenot_metab",
+        "cpic_isrs"
+       ],
+       "t": "isoenzimas y farmacogenética"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "sexual_sx"
+       ],
+       "t": "disfunción sexual"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "polifarm"
+       ],
+       "t": "persona mayor"
+      },
+      {
+       "ids": [
+        "fluoxetina",
+        "paroxetina",
+        "fluvoxamina",
+        "citalopram",
+        "duloxetina"
+       ],
+       "t": "fichas individuales"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "IMAO: las fichas técnicas de los ocho fármacos de esta rama, consultadas en AEMPS-CIMA, contraindican la asociación (4.3). Suicidalidad: en el metaanálisis de la FDA (372 ensayos, 99 231 adultos) la OR de conducta suicida fue de 2,30 (IC 95 % 1,04 a 5,09) en menores de 25 años, 0,87 entre 25 y 64 y 0,06 desde los 65 (Stone 2009); CANMAT 2023 recuerda que el mes siguiente al inicio o a la suspensión es de mayor riesgo, y NICE NG222 (1.4.22) pide revisar a la semana a las personas de 18 a 25 años. Sobredosis: los ISRS son relativamente seguros, aunque hubo síndrome serotoninérgico en el 14 % de las intoxicaciones y el citalopram prolonga el QTc (Isbister 2004); la venlafaxina es proconvulsivante (Whyte 2003). Persona mayor: caídas e hiponatremia (Coupland 2011); CANMAT 2023 sugiere valorar electrolitos desde los 60 años. Hígado: elevación asintomática de aminotransferasas en el 0,5-3 %, con mayor riesgo para la duloxetina (Voican 2014). Sustancias: citalopram, fluoxetina, paroxetina y duloxetina atenúan los efectos de la MDMA (Liechti 2000; Tancer 2007; Farré 2007; Hysek 2012), lo que puede inducir a aumentar la dosis; la paroxetina eleva además un 30 % la MDMA plasmática. El riesgo de síndrome serotoninérgico con MDMA, catinonas o metanfetamina no está cuantificado en estudios controlados [fuente no localizada], y no hay estudios con GHB, poppers o inhibidores de la PDE5 [fuente no localizada]. Antirretrovirales: el riesgo lo concentran ritonavir y cobicistat (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_adol",
+        "suic_mayor"
+       ],
+       "t": "suicidio según la edad"
+      },
+      {
+       "ids": [
+        "sind_ser",
+        "bp3",
+        "riad"
+       ],
+       "t": "síndrome serotoninérgico y viraje"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "mefed",
+        "catinonas_nuevas",
+        "metanf",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "sustancias"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s",
+        "red_danos"
+       ],
+       "t": "chemsex y reducción de daños"
+      },
+      {
+       "ids": [
+        "maois"
+       ],
+       "t": "combinación contraindicada con IMAO"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Furukawa TA et al. (2019). Optimal dose of selective serotonin reuptake inhibitors, venlafaxine, and mirtazapine in major depression: a systematic review and dose-response meta-analysis. Lancet Psychiatry 6:601-609 · PMID 31178367",
+    "Skapinakis P et al. (2016). Pharmacological and psychotherapeutic interventions for management of obsessive-compulsive disorder in adults: a systematic review and network meta-analysis. Lancet Psychiatry 3:730-739 · PMID 27318812",
+    "Cipriani A et al. (2016). Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis. Lancet 388:881-890 · PMID 27289172",
+    "Huybrechts KF et al. (2014). Antidepressant use in pregnancy and the risk of cardiac defects. N Engl J Med 370:2397-2407 · PMID 24941178",
+    "Huybrechts KF et al. (2015). Antidepressant use late in pregnancy and risk of persistent pulmonary hypertension of the newborn. JAMA 313:2142-2151 · PMID 26034955",
+    "Sánchez C & Hyttel J (1999). Comparison of the effects of antidepressants and their metabolites on reuptake of biogenic amines and on receptor binding. Cell Mol Neurobiol 19:467-489 · PMID 10379421",
+    "Bymaster FP et al. (2001). Comparative affinity of duloxetine and venlafaxine for serotonin and norepinephrine transporters in vitro and in vivo, human serotonin receptor subtypes, and other neuronal receptors. Neuropsychopharmacology 25:871-880 · PMID 11750180",
+    "Hiemke C & Härtter S (2000). Pharmacokinetics of selective serotonin reuptake inhibitors. Pharmacol Ther 85:11-28 · PMID 10674711",
+    "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Andrade C et al. (2010). Serotonin reuptake inhibitor antidepressants and abnormal bleeding: a review for clinicians and a reconsideration of mechanisms. J Clin Psychiatry 71:1565-1575 · PMID 21190637",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "Stone M et al. (2009). Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ 339:b2880 · PMID 19671933",
+    "Isbister GK et al. (2004). Relative toxicity of selective serotonin reuptake inhibitors (SSRIs) in overdose. J Toxicol Clin Toxicol 42:277-285 · PMID 15362595",
+    "Whyte IM, Dawson AH & Buckley NA (2003). Relative toxicity of venlafaxine and selective serotonin reuptake inhibitors in overdose compared to tricyclic antidepressants. QJM 96:369-374 · PMID 12702786",
+    "Coupland C et al. (2011). Antidepressant use and risk of adverse outcomes in older people: population based cohort study. BMJ 343:d4551 · PMID 21810886",
+    "Voican CS et al. (2014). Antidepressant-induced liver injury: a review for clinicians. Am J Psychiatry 171:404-415 · PMID 24362450",
+    "Liechti ME et al. (2000). Acute psychological effects of 3,4-methylenedioxymethamphetamine (MDMA, «Ecstasy») are attenuated by the serotonin uptake inhibitor citalopram. Neuropsychopharmacology 22:513-521 · PMID 10731626",
+    "Tancer M & Johanson CE (2007). The effects of fluoxetine on the subjective and physiological effects of 3,4-methylenedioxymethamphetamine (MDMA) in humans. Psychopharmacology (Berl) 189:565-573 · PMID 17047932",
+    "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+    "Hysek CM et al. (2012). Duloxetine inhibits effects of MDMA («ecstasy») in vitro and in humans in a randomized placebo-controlled laboratory study. PLoS One 7:e36476 · PMID 22574166",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "NICE (2022). Depression in adults: treatment and management (NG222), recomendaciones 1.4.18, 1.4.22-1.4.24 y 1.5.3 y tablas de opciones de tratamiento; texto consultado en nice.org.uk en noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Cipralex (nº de registro 65230), Prisdal (60884), Fluoxetina Cinfa (63499), Seroxat (59468), Dumirox (58212), Vandral Retard (62401), Pristiq (75560) y Cymbalta (04296001), apartado 4.3; textos consultados en cima.aemps.es en noviembre de 2026",
+    "Chawla N et al. (2022). Drug treatment for panic disorder with or without agoraphobia: systematic review and network meta-analysis of randomised controlled trials. BMJ 376:e066084 · PMID 35045991"
+   ],
+   "relAdd": [
+    "aripiprazol",
+    "brexpiprazol",
+    "esketamina",
+    "ideac_suic",
+    "chemsex_arv",
+    "alucinogenos",
+    "maois",
+    "suic_adol",
+    "suic_mayor",
+    "bp3"
+   ]
+  }
+ },
+ "add": []
+}
