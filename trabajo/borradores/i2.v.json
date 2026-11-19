@@ -1,0 +1,1017 @@
+{
+ "patch": {
+  "sdq": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Cuestionario breve creado por Robert Goodman (1997; PMID 9255702) que se completa en unos minutos [fuente no localizada] por los padres o las madres, por el profesorado o, desde los 11 años, por la propia persona joven. No exige formación específica para aplicarlo ni corregirlo, pero la interpretación clínica corresponde a profesionales de salud mental o pediatría. Además de las puntuaciones por escala, sus autores desarrollaron un algoritmo que combina los informes de varios informantes para estimar la probabilidad de trastorno (Goodman 2000). Según el aviso de derechos de autor de su titular (youthinmind, sdqinfo.org), los cuestionarios, también traducidos, no son de dominio público: no pueden modificarse ni aplicarse por subconjuntos de ítems ni traducirse sin autorización; la versión en papel puede fotocopiarse sin coste por particulares u organizaciones sin ánimo de lucro que no cobren a las familias, y las versiones electrónicas requieren autorización previa. La validación y los baremos españoles figuran en la descripción de la ficha (Encuesta Nacional de Salud 2006 y datos normativos de 5 a 17 años).",
+     "links": [
+      {
+       "ids": [
+        "cbcl",
+        "conners"
+       ],
+       "t": "Otras escalas multiinformante infantiles"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "La revisión de 48 estudios (131 223 niños y niñas de 4 a 12 años) halló consistencia interna, fiabilidad test-retest y acuerdo entre evaluadores satisfactorios para las versiones de padres y profesorado, con mayor fiabilidad de subescalas en la del profesorado; 15 de 18 estudios confirmaron la estructura de cinco factores (Stone 2010). En la encuesta británica de salud mental infantil de 1999 (7984 menores de 5 a 15 años), el SDQ multiinformante identificó a quienes tenían un diagnóstico psiquiátrico independiente con una especificidad del 94,6 % y una sensibilidad del 63,3 %; detectó más del 70 % de los trastornos de conducta, hiperactividad, depresivos y algunos de ansiedad, pero menos del 50 % de las fobias específicas, la ansiedad por separación y los trastornos de la conducta alimentaria, y la sensibilidad fue mucho menor con un solo informante (Goodman 2000). En 18 222 menores británicos, las escalas amplias de internalización y externalización mostraron mejor validez discriminante que las cinco escalas por separado, aunque estas se conservan para el cribado de trastorno (Goodman A 2010).",
+     "links": [
+      {
+       "ids": [
+        "anx_sep",
+        "tdah",
+        "tcond"
+       ],
+       "t": "Trastornos con mayor y menor detección"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Interpretar sensibilidad y especificidad"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirve para cribar en atención primaria, escuela y estudios epidemiológicos, para triangular la información de varios contextos y para medir el cambio; no establece diagnósticos. NICE NG87 lo menciona, junto con las escalas de Conners, como herramienta complementaria útil en la evaluación del TDAH, pero establece que el diagnóstico no debe basarse solo en escalas de valoración ni en datos de observación (recomendación 1.3.2). La correspondencia entre informantes es baja-moderada en toda la psicopatología infantil (r medio 0,28 en un metaanálisis de 341 estudios; De Los Reyes 2015), por lo que una discrepancia no invalida ningún informe: orienta sobre el contexto en que aparecen los problemas. Su escasa sensibilidad para fobias, ansiedad por separación y trastornos alimentarios (Goodman 2000) obliga a preguntar específicamente por ellos. No es un instrumento de cribado del autismo ni del trauma [fuente no localizada], y no se ha localizado validación específica en menores con diversidad sexual o de género, cuya puntuación emocional puede reflejar estrés de minorías y no un trastorno [fuente no localizada]. En el ámbito pericial (custodias, daño psíquico) no debe usarse aislado ni con puntos de corte extranjeros: requiere baremos españoles, varios informantes y entrevista.",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "dg_inf"
+       ],
+       "t": "Diversidad sexual y de género en la infancia"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Límites en la pericia"
+      },
+      {
+       "ids": [
+        "ksads"
+       ],
+       "t": "Confirmación diagnóstica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Stone LL et al. (2010). Psychometric properties of the parent and teacher versions of the strengths and difficulties questionnaire for 4- to 12-year-olds: a review. Clin Child Fam Psychol Rev 13:254-274 · PMID 20589428",
+    "Goodman R et al. (2000). Using the Strengths and Difficulties Questionnaire (SDQ) to screen for child psychiatric disorders in a community sample. Br J Psychiatry 177:534-539 · PMID 11102329",
+    "Goodman A, Lamping DL & Ploubidis GB (2010). When to use broader internalising and externalising subscales instead of the hypothesised five subscales on the Strengths and Difficulties Questionnaire (SDQ): data from British parents, teachers and children. J Abnorm Child Psychol 38:1179-1191 · PMID 20623175",
+    "De Los Reyes A et al. (2015). The validity of the multi-informant approach to assessing child and adolescent mental health. Psychol Bull 141:858-900 · PMID 25915035",
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87; actualizada en 2019)"
+   ],
+   "relAdd": [
+    "anx_sep",
+    "genero",
+    "perit_forense",
+    "cribado_sens_esp"
+   ]
+  },
+  "cbcl": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "El sistema procede de la lista de problemas de conducta de Thomas Achenbach, cuyo manual inicial se publicó en 1983 con Craig Edelbrock [fuente no localizada]; la versión vigente para edad escolar se describe en el manual de Achenbach y Rescorla (2001). Son cuestionarios que rellena cada informante (padres o madres, profesorado, la persona joven desde los 11 años), con un tiempo de cumplimentación de unos 15-20 minutos [fuente no localizada]. La aplicación puede delegarse, pero la corrección con el programa oficial y la interpretación de perfiles exigen formación en psicometría [fuente no localizada]. Es material comercial con licencia de la Universidad de Vermont. En España no se ha verificado una baremación de la versión completa, pero sí estudios de validez con muestras clínicas: las escalas orientadas al DSM de la CBCL y del YSR se estudiaron en 420 menores derivados de 8 a 17 años (Lacalle 2012), y la forma breve de seguimiento en escolares de 6 a 8 años (Penelo 2017).",
+     "links": [
+      {
+       "ids": [
+        "sdq",
+        "conners"
+       ],
+       "t": "Alternativas breves o específicas"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En 420 menores españoles derivados a salud mental, la consistencia interna de las escalas orientadas al DSM fue moderada-buena salvo en la de problemas de ansiedad, el acuerdo entre padres e hijos o hijas fue bajo-moderado y las escalas mostraron un poder diagnóstico aceptable frente a una entrevista estructurada y relación con el deterioro funcional (Lacalle 2012). En el metaanálisis de Chang (2016), la escala de problemas de atención de la CBCL tuvo una sensibilidad agrupada de 0,77 y una especificidad de 0,73 para el TDAH (14 estudios), sin diferencias significativas con las escalas de Conners. El metaanálisis de 341 estudios sobre correspondencia entre informantes estimó correlaciones medias de 0,25 en internalización, 0,30 en externalización y 0,28 en conjunto (De Los Reyes 2015), cifra que enmarca la discrepancia habitual entre familia, escuela y autoinforme.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "conners"
+       ],
+       "t": "Rendimiento en el TDAH"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Rendimiento diagnóstico"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Es una herramienta de evaluación dimensional amplia, útil para la línea base, el seguimiento y la investigación; las escalas orientadas al DSM orientan, pero no sustituyen, la entrevista diagnóstica. Las discrepancias entre informantes son la norma y deben interpretarse como información sobre el contexto, no como error (De Los Reyes 2015). La lista incluye dos ítems sobre conducta y deseo de género no normativos, que en grandes cohortes se han usado como medida de no conformidad de género (van Beijsterveldt 2006); puntuarlos como «problema» puede patologizar la diversidad de género, por lo que conviene interpretarlos aparte y con un enfoque afirmativo. Los baremos son estadounidenses o multiculturales por grupos de países, y la baja alfabetización del informante o su propio malestar pueden sesgar las respuestas [fuente no localizada]. En peritajes de familia o de daño psíquico, el perfil sin entrevista, sin varios informantes y sin baremos aplicables no permite conclusiones individuales.",
+     "links": [
+      {
+       "ids": [
+        "dg_inf",
+        "genero"
+       ],
+       "t": "No conformidad de género: interpretación no patologizante"
+      },
+      {
+       "ids": [
+        "ksads",
+        "entrevistas"
+       ],
+       "t": "Entrevista diagnóstica posterior"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Uso pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lacalle M, Ezpeleta L & Doménech JM (2012). DSM-Oriented Scales of the Child Behavior Checklist and Youth Self-Report in clinically referred Spanish children. Span J Psychol 15:377-387 · PMID 22379727",
+    "Chang LY, Wang MY & Tsai PS (2016). Diagnostic accuracy of rating scales for attention-deficit/hyperactivity disorder: a meta-analysis. Pediatrics 137:e20152749 · PMID 26928969",
+    "De Los Reyes A et al. (2015). The validity of the multi-informant approach to assessing child and adolescent mental health. Psychol Bull 141:858-900 · PMID 25915035",
+    "van Beijsterveldt CE, Hudziak JJ & Boomsma DI (2006). Genetic and environmental influences on cross-gender behavior and relation to behavior problems: a study of Dutch twins at ages 7 and 10 years. Arch Sex Behav 35:647-658 · PMID 17109235"
+   ],
+   "relAdd": [
+    "dg_inf",
+    "perit_forense",
+    "entrevistas"
+   ]
+  },
+  "cdi": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Creado por Maria Kovacs a partir del Inventario de Depresión de Beck (Kovacs 1985; PMID 4089116), es un autoinforme que la persona menor completa por escrito o, si lee con dificultad, con lectura en voz alta del profesional [fuente no localizada]. Puede aplicarlo personal sanitario, educativo o investigador, pero la interpretación y la decisión clínica corresponden a profesionales de salud mental. Es un instrumento comercial: el CDI-2 (2011) lo comercializa Multi-Health Systems (catálogo de la editorial), que distribuyó también la versión original [fuente no localizada], y la adaptación española con baremos por edad y sexo la publica TEA Ediciones (del Barrio y Carrasco 2004) [fuente no localizada]. La validación psicométrica española en muestras comunitaria y clínica es la de Figueras Masip (2010), recogida en la descripción de la ficha. Contiene un ítem sobre ideación suicida, por lo que quien lo aplique debe revisar la respuesta en el momento y disponer de un circuito de actuación.",
+     "links": [
+      {
+       "ids": [
+        "suic_adol",
+        "cssrs"
+       ],
+       "t": "Actuación ante ideación suicida"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En el metaanálisis de Stockings (2015), que agrupó 54 estudios (34 542 participantes) del CDI, el BDI, la CES-D y la RADS en niños, niñas y adolescentes, la fiabilidad interna agrupada fue de 0,89 y la sensibilidad y la especificidad fueron moderadas (0,80 y 0,78); cuando el criterio fue una entrevista diagnóstica, el valor predictivo positivo fue mayoritariamente bajo, de modo que los puntos de corte generan muchos falsos positivos, sin diferencias entre muestras clínicas y comunitarias ni entre infancia y adolescencia. La revisión para el USPSTF halló, en 7 estudios (3281 participantes), sensibilidades de los instrumentos de cribado de depresión infantojuvenil entre 0,59 y 0,94 y especificidades entre 0,38 y 0,96 (Viswanathan 2022). Las cifras españolas de fiabilidad y del punto de corte de 19 se recogen en la ficha (Figueras Masip 2010).",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Valor predictivo y prevalencia"
+      },
+      {
+       "ids": [
+        "hamd_madrs"
+       ],
+       "t": "Escalas de depresión adultas"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Útil para cribar síntomas depresivos y medir el cambio durante el tratamiento; no diagnostica. El USPSTF (2022) recomienda el cribado de depresión mayor en adolescentes de 12 a 18 años y considera insuficiente la evidencia para cribar por debajo de los 12 años y para el cribado del riesgo suicida (Mangione 2022); los positivos solo aportan beneficio si se siguen de evaluación y tratamiento [fuente no localizada]. Por su bajo valor predictivo positivo (Stockings 2015), una puntuación alta no equivale a depresión mayor, y una baja no excluye riesgo. El ítem de ideación suicida no es un predictor individual de conducta suicida: NICE NG225 (guía sobre autolesiones) desaconseja usar herramientas y escalas de valoración del riesgo para predecir el suicidio o la repetición de las autolesiones y para decidir quién recibe tratamiento, y pide centrar la valoración psicosocial en las necesidades de la persona con una formulación del riesgo (recomendaciones 1.6.1-1.6.6). En adolescentes lesbianas, gais, bisexuales o trans, las puntuaciones elevadas deben leerse en el contexto del estrés de minorías y no se ha localizado validación específica [fuente no localizada]; en menores de 10 años, con discapacidad intelectual o con escasa competencia lectora, la comprensión limita la validez.",
+     "links": [
+      {
+       "ids": [
+        "dep_inf",
+        "suic_adol"
+       ],
+       "t": "Depresión y conducta suicida en la adolescencia"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Estrés de minorías"
+      },
+      {
+       "ids": [
+        "ksads"
+       ],
+       "t": "Entrevista diagnóstica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Stockings E et al. (2015). Symptom screening scales for detecting major depressive disorder in children and adolescents: a systematic review and meta-analysis of reliability, validity and diagnostic utility. J Affect Disord 174:447-463 · PMID 25553406",
+    "Viswanathan M et al. (2022). Screening for depression and suicide risk in children and adolescents: updated evidence report and systematic review for the US Preventive Services Task Force. JAMA 328:1543-1556 · PMID 36219399",
+    "US Preventive Services Task Force; Mangione CM et al. (2022). Screening for depression and suicide risk in children and adolescents: US Preventive Services Task Force recommendation statement. JAMA 328:1534-1542 · PMID 36219440",
+    "NICE (2022). Self-harm: assessment, management and preventing recurrence (NG225)"
+   ],
+   "relAdd": [
+    "cssrs",
+    "genero",
+    "cribado_sens_esp"
+   ]
+  },
+  "scared": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollado por Boris Birmaher y colaboradores en Pittsburgh (Birmaher 1997; PMID 9100430; versión de 41 ítems en Birmaher 1999), tiene formato paralelo de autoinforme para la persona menor y de heteroinforme para sus padres o madres. Su corrección es una suma simple por escalas y no requiere formación específica para aplicarlo, aunque la interpretación corresponde a profesionales clínicos. Es de libre uso (véase la ficha). Existen versiones ampliadas de 66 a 71 ítems que añaden escalas de estrés postraumático, obsesivo-compulsivo y fobias específicas (Runyon 2018). En España, un estudio con adolescentes con ansiedad social y adolescentes sanos mostró invarianza de medida entre ambos grupos, coeficientes alfa de Cronbach de las escalas entre 0,41 y 0,75, que los autores consideraron aceptables y capacidad para diferenciar ambas muestras (Hale 2013); no se ha localizado un estudio español de puntos de corte frente a entrevista diagnóstica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "Ansiedad social adolescente"
+      },
+      {
+       "ids": [
+        "sdq",
+        "cdi"
+       ],
+       "t": "Otras escalas infantiles de cribado"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "El metaanálisis de Hale (2011), con 25 estudios de Europa, Estados Unidos, Sudáfrica y China, halló propiedades psicométricas robustas para las escalas ligadas a los trastornos de ansiedad del DSM-IV-TR, puntuaciones significativamente mayores en las chicas y un efecto moderador de la edad en las diferencias entre sexos. El metaanálisis de Runyon (2018), con 65 estudios de 1997 a 2017 y versiones de 38 a 71 ítems, mostró consistencia interna excelente del total y de las escalas de pánico, ansiedad generalizada, separación, ansiedad social, estrés postraumático y fobia a animales en ambas versiones, fiabilidad test-retest y acuerdo entre padres e hijos de moderados a altos, y fiabilidad insuficiente para un instrumento de cribado en las escalas de evitación escolar, obsesivo-compulsiva, fobia a la sangre y fobia situacional.",
+     "links": [
+      {
+       "ids": [
+        "rechazo_esc"
+       ],
+       "t": "Fiabilidad limitada de la escala escolar"
+      },
+      {
+       "ids": [
+        "anx_sep",
+        "tag"
+       ],
+       "t": "Escalas con buena fiabilidad"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirve para cribar síntomas de ansiedad, orientar el subtipo y monitorizar la respuesta a la terapia cognitivo-conductual o farmacológica; no diagnostica. Por su baja fiabilidad, la escala de evitación escolar no debe usarse sola para valorar el rechazo escolar (Runyon 2018), y la versión de 41 ítems no explora el TOC ni el estrés postraumático, que requieren instrumentos específicos. Las diferencias por sexo y edad (Hale 2011) aconsejan baremos diferenciados; los puntos de corte de las validaciones norteamericanas no se han comprobado en población española [fuente no localizada]. En menores autistas, los ítems de ansiedad social y somática pueden solaparse con rasgos del espectro, y en menores migrantes o de minorías la expresión somática de la ansiedad varía culturalmente [fuente no localizada]. Una puntuación alta exige entrevista diagnóstica (K-SADS u otra) y valoración del contexto familiar y escolar; no debe emplearse como prueba aislada en informes periciales.",
+     "links": [
+      {
+       "ids": [
+        "toc_ped",
+        "ptsd"
+       ],
+       "t": "TOC y TEPT: requieren otros instrumentos"
+      },
+      {
+       "ids": [
+        "tea"
+       ],
+       "t": "Solapamiento con el autismo"
+      },
+      {
+       "ids": [
+        "ksads",
+        "ybocs"
+       ],
+       "t": "Entrevista y escalas específicas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hale WW 3rd et al. (2011). A meta-analysis of the cross-cultural psychometric properties of the Screen for Child Anxiety Related Emotional Disorders (SCARED). J Child Psychol Psychiatry 52:80-90 · PMID 20662993",
+    "Runyon K, Chesnut SR & Burley H (2018). Screening for childhood anxiety: a meta-analysis of the screen for child anxiety related emotional disorders. J Affect Disord 240:220-229 · PMID 30081293",
+    "Hale WW 3rd et al. (2013). Psychometric properties of the screen for child anxiety related emotional disorders for socially anxious and healthy Spanish adolescents. Span J Psychol 16:E25 · PMID 23866219"
+   ],
+   "relAdd": [
+    "fobia_soc",
+    "toc_ped",
+    "tag",
+    "tea",
+    "ybocs"
+   ]
+  },
+  "ksads": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La familia K-SADS deriva de la entrevista SADS de adultos; la versión presente y de por vida (K-SADS-PL) fue publicada por Joan Kaufman y colaboradores en 1997 (PMID 9204677). Coexisten tres ediciones compatibles con el DSM-IV: la de estado presente (K-SADS-P IVR), que gradúa la gravedad y permite monitorizar la respuesta, y las epidemiológicas K-SADS-E y K-SADS-PL, esencialmente categoriales y con diagnóstico de por vida (Ambrosini 2000). Es heteroaplicada por personal clínico que entrevista por separado a la persona menor y a sus padres o madres e integra las discrepancias; exige un entrenamiento sustancial para lograr fiabilidad (Ambrosini 2000). La versión en papel se distribuye gratuitamente para uso clínico e investigador no comercial [fuente no localizada], mientras que las versiones informatizadas KSADS-COMP son comerciales [fuente no localizada]; en ellas la entrevista clínica combinada duró de media 91,9 minutos y las autoaplicadas, 50,9 (joven) y 63,2 (familia) (Townsend 2020). Las validaciones en español proceden de México (véase la ficha); no se ha localizado una validación en España [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas estructuradas de adultos"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Todas las ediciones muestran buena fiabilidad entre evaluadores, pero la calidad de los datos de validación es limitada (Ambrosini 2000), un rasgo común a las entrevistas que actúan a la vez como prueba y como criterio de referencia. En la KSADS-COMP, los diagnósticos generados por las tres versiones mostraron buena validez convergente con escalas clínicas establecidas y con puntuaciones dimensionales de la propia entrevista, y al integrar las versiones autoaplicadas de joven y familia la concordancia con la entrevista clínica fue de buena a excelente (área bajo la curva 0,89-1,00), en 511 menores de 6 a 18 años y 158 de 11 a 17 (Townsend 2020). Los datos de fiabilidad test-retest de la versión original y de las versiones mexicanas se recogen en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Área bajo la curva y criterio de referencia"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Es un instrumento de confirmación diagnóstica y de investigación, no de cribado: se usa tras un cribado positivo (SDQ, CBCL, SCARED, CDI) o en casos complejos, con comorbilidad o sospecha de trastorno bipolar o psicosis de inicio precoz. Su duración limita el uso asistencial rutinario. La revelación de consumo de sustancias, conducta sexual, autolesiones o violencia depende de entrevistar a la persona adolescente a solas y de explicar los límites de la confidencialidad [fuente no localizada]. Hereda las categorías del DSM, de modo que no debe usarse para patologizar la diversidad de género ni la orientación sexual, y su aplicación en menores autistas o con discapacidad intelectual exige adaptaciones no estandarizadas [fuente no localizada]. En la pericia de menores no hay validación forense específica: aporta sistematicidad, pero el informe debe integrar otras fuentes y declarar sus limitaciones.",
+     "links": [
+      {
+       "ids": [
+        "tb_ped",
+        "eop"
+       ],
+       "t": "Diagnósticos complejos de inicio precoz"
+      },
+      {
+       "ids": [
+        "dg_inf"
+       ],
+       "t": "Diversidad de género: no patologizar"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Uso pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ambrosini PJ (2000). Historical development and present status of the schedule for affective disorders and schizophrenia for school-age children (K-SADS). J Am Acad Child Adolesc Psychiatry 39:49-58 · PMID 10638067",
+    "Townsend L et al. (2020). Development of three web-based computerized versions of the Kiddie Schedule for Affective Disorders and Schizophrenia child psychiatric diagnostic interview: preliminary validity data. J Am Acad Child Adolesc Psychiatry 59:309-325 · PMID 31108163"
+   ],
+   "relAdd": [
+    "perit_forense",
+    "dg_inf"
+   ]
+  },
+  "conners": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Las escalas derivan del trabajo de C. Keith Conners desde finales de los años sesenta [fuente no localizada]; las versiones revisadas para padres y profesorado se publicaron en 1998 (Conners 1998; PMID 9700518 y 9700520) y la tercera edición en 2008. Son cuestionarios heteroaplicados (familia, profesorado) y de autoinforme (Conners 3, 8-18 años), con formas largas y cortas cuyo tiempo de cumplimentación oscila entre unos 5 y 20 minutos [fuente no localizada]. Las distribuye comercialmente Multi-Health Systems y exigen licencia; la interpretación de puntuaciones T corresponde a profesionales con formación en psicometría [fuente no localizada]. La adaptación española de 1997 dio lugar a la EDAH, publicada por TEA Ediciones [fuente no localizada]; los índices breves Conners 3 AI y Conners EC GI se han estudiado en población escolar española (véase la ficha).",
+     "links": [
+      {
+       "ids": [
+        "sdq",
+        "cbcl"
+       ],
+       "t": "Escalas multiinformante de banda ancha"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En el metaanálisis de Chang (2016), con 11 estudios de las escalas de Conners revisadas, la sensibilidad y la especificidad agrupadas para el TDAH fueron de 0,75 y 0,75 para la escala de padres, de 0,72 y 0,84 para la del profesorado y de 0,83 y 0,84 para el cuestionario abreviado de síntomas (ASQ), sin diferencias significativas entre escalas ni frente a la escala de atención de la CBCL (0,77 y 0,73). Los autores concluyen que el rendimiento es moderado y que el formulario abreviado puede ser el más eficiente por su brevedad. La estructura factorial, la clasificación del 85 % con la escala de profesorado y los datos españoles de 1997 y 2017 se recogen en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cbcl"
+       ],
+       "t": "Comparación con la escala de atención de la CBCL"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Rendimiento diagnóstico"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirven para cribar, cuantificar síntomas por contexto y monitorizar la respuesta al tratamiento del TDAH; con sensibilidad y especificidad moderadas (Chang 2016), no establecen ni descartan el diagnóstico. NICE NG87 establece que el diagnóstico de TDAH no debe basarse solo en escalas de valoración o datos de observación, aunque considera las escalas de Conners y el SDQ herramientas complementarias útiles (recomendación 1.3.2); el diagnóstico corresponde a un profesional especialista con formación en TDAH tras una evaluación clínica y psicosocial completa, con historia del desarrollo y psiquiátrica, informes de observadores y exploración del estado mental (1.3.1). Las puntuaciones elevadas no son específicas: ansiedad, trauma, trastornos del sueño, del aprendizaje o del espectro autista y la conducta oposicionista pueden elevar los ítems de inatención e hiperactividad [fuente no localizada]. Las diferencias por sexo y la mayor puntuación bruta en muestras españolas (véase la ficha) aconsejan baremos locales y atención al infradiagnóstico en niñas [fuente no localizada]. En el ámbito escolar o pericial, una puntuación aislada no justifica etiquetas diagnósticas ni conclusiones sobre imputabilidad o responsabilidad.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "estimulantes"
+       ],
+       "t": "TDAH y seguimiento del tratamiento"
+      },
+      {
+       "ids": [
+        "tea",
+        "func_ejec"
+       ],
+       "t": "Diagnóstico diferencial en el neurodesarrollo"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Uso pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Chang LY, Wang MY & Tsai PS (2016). Diagnostic accuracy of rating scales for attention-deficit/hyperactivity disorder: a meta-analysis. Pediatrics 137:e20152749 · PMID 26928969",
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87; actualizada en 2019)"
+   ],
+   "relAdd": [
+    "tea",
+    "func_ejec",
+    "perit_forense"
+   ]
+  },
+  "gds15": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La GDS-30 fue desarrollada por Jerome Yesavage y colaboradores en Stanford (Yesavage 1983; PMID 7183759) y la GDS-15 por Sheikh y Yesavage (1986). Es autoaplicada, con respuestas dicotómicas, y puede leerse en voz alta por cualquier profesional sanitario cuando hay déficit visual, baja alfabetización o fatiga, lo que la hace aplicable en atención primaria, hospital y residencias en pocos minutos [fuente no localizada]. No requiere formación específica para su aplicación, aunque sí para interpretar un resultado positivo y explorar el riesgo. En España se validaron la GDS-30 en atención primaria de Madrid (Fernández-San Martín 2002) y las versiones de 5 y 15 ítems en mayores de 64 años de un centro de salud (Ortega Orcos 2007), además de los estudios en demencia leve-moderada y en residencias recogidos en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cornell"
+       ],
+       "t": "Alternativa heteroaplicada en demencia"
+      },
+      {
+       "ids": [
+        "hamd_madrs"
+       ],
+       "t": "Escalas de depresión generales"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En 192 personas mayores de 64 años de atención primaria de Madrid, frente a la entrevista GMS, la versión española de la GDS-30 tuvo su mejor punto de corte en 9/10, con sensibilidad del 86,7 %, especificidad del 63,1 %, alfa de Cronbach 0,82 y área bajo la curva 0,85; con una prevalencia supuesta del 30 %, el valor predictivo negativo fue del 91,7 % y el positivo del 50,2 %, y el corte óptimo fue inferior al de la versión inglesa (10/11). Las personas con y sin deterioro cognitivo obtuvieron puntuaciones medias similares (Fernández-San Martín 2002). En 301 mayores de 64 años de un centro de salud madrileño (prevalencia de depresión del 14,6 % según criterios DSM-IV), la GDS-15 tuvo sensibilidad 0,818, especificidad 0,977, valor predictivo positivo 0,857 y negativo 0,969, y la GDS-5, sensibilidad 0,864 y especificidad 0,856 (Ortega Orcos 2007). Los metaanálisis internacionales se recogen en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Valores predictivos según prevalencia"
+      },
+      {
+       "ids": [
+        "dep_tardia"
+       ],
+       "t": "Depresión de inicio tardío"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Es un instrumento de cribado y seguimiento; no diagnostica ni gradúa la gravedad con fines terapéuticos. Su alto valor predictivo negativo en atención primaria (Fernández-San Martín 2002) la hace más útil para descartar que para confirmar, y los puntos de corte difieren entre la versión española y la inglesa, por lo que deben usarse los de la validación correspondiente a la población atendida. Rinde peor en demencia moderada, en afasia y en déficits sensoriales graves, y la formulación dicotómica puede resultar extraña en otras culturas o idiomas [fuente no localizada]. No se ha localizado validación específica en personas mayores lesbianas, gais, bisexuales o trans, en quienes el aislamiento y la discriminación acumulada pueden modular las respuestas [fuente no localizada]. Al no explorar específicamente la ideación suicida, una puntuación baja no descarta riesgo en la persona mayor; la valoración del riesgo debe ser clínica y no basarse en escalas predictivas. No debe emplearse aislada para dictámenes sobre capacidad o daño psíquico.",
+     "links": [
+      {
+       "ids": [
+        "suic_mayor",
+        "cssrs"
+       ],
+       "t": "Riesgo suicida en la persona mayor"
+      },
+      {
+       "ids": [
+        "dd_dep_dem"
+       ],
+       "t": "Diferencial con la demencia"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Diversidad sexual y de género"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Fernández-San Martín MI et al. (2002). Validation of the Spanish version of the geriatric depression scale (GDS) in primary care. Int J Geriatr Psychiatry 17:279-287 · PMID 11921157",
+    "Ortega Orcos R et al. (2007). Validation of 5 and 15 items Spanish version of the geriatric depression scale in elderly subjects in primary health care setting [artículo en español]. Rev Clin Esp 207:559-562 · PMID 18021644"
+   ],
+   "relAdd": [
+    "cssrs",
+    "genero",
+    "cribado_sens_esp"
+   ]
+  },
+  "cornell": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollada por George Alexopoulos y colaboradores (Alexopoulos 1988; PMID 3337862), es una escala heteroaplicada por personal clínico que combina una entrevista con la persona cuidadora o el personal que conoce a la persona y una entrevista breve con la propia persona, puntuando la semana previa. En la práctica habitual se entrevista primero al informante y después a la persona, y quien evalúa resuelve las discrepancias con su juicio; los síntomas atribuibles a una discapacidad física no se puntúan [fuente no localizada]. Requiere experiencia en psicopatología geriátrica y en exploración de la demencia. Su uso clínico no exige licencia de pago [fuente no localizada]. La validación de la versión española (Pujol 2001) y los puntos de corte obtenidos en España se recogen en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "gds15"
+       ],
+       "t": "Autoinforme en personas sin demencia avanzada"
+      },
+      {
+       "ids": [
+        "npi"
+       ],
+       "t": "Inventario neuropsiquiátrico al cuidador"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En el metaanálisis de Park y Cho (2022), con 20 estudios y 3499 personas mayores, el área bajo la curva fue igual o superior a 0,9 tanto en personas con demencia como sin ella; la sensibilidad agrupada fue de 0,87 en demencia, 0,84 en muestras mixtas y 0,82 sin demencia, y el área bajo la curva fue de 0,90 con MMSE inferior a 15 y de 0,87 con MMSE de 15 o más, lo que respalda su uso en todo el espectro cognitivo, con mejor rendimiento en la demencia. En la revisión sistemática sobre deterioro cognitivo leve, la Cornell figuró entre los instrumentos con sensibilidad del 100 % frente a un criterio de referencia, pero en estudios únicos y sin datos suficientes para metaanálisis (Wong 2022). Los datos de la validación original y del metaanálisis de Goodarzi (2017) figuran en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "ncd_leve"
+       ],
+       "t": "Deterioro cognitivo leve"
+      },
+      {
+       "ids": [
+        "mmse_moca"
+       ],
+       "t": "Gravedad cognitiva según el MMSE"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Es un instrumento de referencia para cribar y seguir la depresión cuando la demencia limita el autoinforme; Park (2022) lo propone como cribado de primera línea con independencia del estado cognitivo, aunque rinde mejor en la demencia, y en el metaanálisis de Goodarzi la escala de Hamilton tuvo un rendimiento similar (véase la ficha). No diagnostica: un resultado positivo exige entrevista clínica y búsqueda de causas médicas y farmacológicas. Su validez depende del informante: una persona cuidadora agotada o con síntomas depresivos, o un personal de residencia que conoce poco a la persona, pueden sesgar las puntuaciones [fuente no localizada]. Los ítems somáticos y conductuales se solapan con la apatía, el dolor, los trastornos del sueño y la propia demencia, y los puntos de corte varían entre estudios y entornos (véase la ficha). La evidencia en deterioro cognitivo leve procede de estudios aislados (Wong 2022). No se han localizado validaciones en minorías culturales en España [fuente no localizada]. Una puntuación no debe desencadenar por sí sola la prescripción de antidepresivos ni utilizarse aislada en informes sobre capacidad.",
+     "links": [
+      {
+       "ids": [
+        "apatia_dem",
+        "bpsd"
+       ],
+       "t": "Apatía y síntomas conductuales"
+      },
+      {
+       "ids": [
+        "dd_dep_dem",
+        "dep_tardia"
+       ],
+       "t": "Depresión en la persona mayor"
+      },
+      {
+       "ids": [
+        "consent_cap"
+       ],
+       "t": "Capacidad: valoración específica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Park SH & Cho YS (2022). Predictive validity of the Cornell Scale for depression in dementia among older adults with and without dementia: a systematic review and meta-analysis. Psychiatry Res 310:114445 · PMID 35190341",
+    "Wong B, Ismail Z & Goodarzi Z (2022). Detecting depression in persons living with mild cognitive impairment: a systematic review. Int Psychogeriatr 34:453-465 · PMID 35357300"
+   ],
+   "relAdd": [
+    "ncd_leve",
+    "mmse_moca",
+    "consent_cap"
+   ]
+  },
+  "cam": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollado por Sharon Inouye y colaboradores (Inouye 1990; PMID 2240918), el CAM es un instrumento heteroaplicado: quien evalúa realiza primero una breve exploración cognitiva estructurada y una entrevista, y después completa un instrumento de unos diez rasgos cuyo algoritmo abreviado de cuatro rasgos es el que se usa para el diagnóstico [fuente no localizada]. Lo puede aplicar personal médico o de enfermería entrenado; su fiabilidad depende de la formación en exploración de la atención. Sus derechos pertenecen a su autora y su uso clínico no comercial es gratuito con atribución [fuente no localizada]. Las adaptaciones CAM-ICU (pacientes intubados) y la española para hospitales generales, y el 4AT (sin formación específica y en menos de dos minutos; Tieges 2021), se describen en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "mmse_moca",
+        "neuropsico"
+       ],
+       "t": "Exploración cognitiva previa"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "Delirium"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "El metaanálisis de Shi (2013), con 22 estudios y 2442 pacientes frente a criterios DSM-IV, estimó para el CAM una sensibilidad agrupada del 82 % (IC 95 % 69-91) y una especificidad del 99 % (87-100), y para el CAM-ICU del 81 % (57-93) y del 98 % (86-100); ambos se aplicaron en menos de diez minutos por personal entrenado y mostraron mayor especificidad que sensibilidad. La sensibilidad fue inferior a la de la validación original y a la de la revisión de Wei (2008) (véase la ficha); la variabilidad en la formación de quienes evalúan podría contribuir a ello [fuente no localizada]. Para el 4AT, el metaanálisis de Tieges (2021), con 17 estudios (3702 observaciones) en mayores de 65 años de medicina aguda, cirugía, urgencias y residencias, y una prevalencia de delirium del 24,2 %, obtuvo una sensibilidad agrupada de 0,88 y una especificidad de 0,88 (0,86 y 0,89 excluyendo los estudios de ictus).",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Sensibilidad frente a especificidad"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "El CAM y sus derivados detectan la presencia de delirium; no miden su gravedad ni identifican la causa. Por su mayor especificidad que sensibilidad, un resultado negativo no descarta el delirium y no sustituye al juicio clínico (Shi 2013), sobre todo en la forma hipoactiva, en la demencia sin informante que establezca el estado basal y en pacientes con sedación profunda. Las barreras idiomáticas, la sordera y la afasia dificultan la exploración de la atención y del pensamiento [fuente no localizada]. NICE CG103 propone el 4AT como herramienta de evaluación ante indicadores de delirium (véase la ficha). Un CAM positivo obliga a buscar causas como abstinencia alcohólica, toxicidad farmacológica o infección. En contextos médico-legales, un CAM documentado puede apoyar la valoración retrospectiva de la capacidad para consentir, pero no la sustituye [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "sind_ser"
+       ],
+       "t": "Causas tóxicas y de abstinencia"
+      },
+      {
+       "ids": [
+        "consent_cap"
+       ],
+       "t": "Capacidad para consentir"
+      },
+      {
+       "ids": [
+        "help_delirium"
+       ],
+       "t": "Prevención multicomponente"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Shi Q et al. (2013). Confusion assessment method: a systematic review and meta-analysis of diagnostic accuracy. Neuropsychiatr Dis Treat 9:1359-1370 · PMID 24092976",
+    "Tieges Z et al. (2021). Diagnostic accuracy of the 4AT for delirium detection in older adults: systematic review and meta-analysis. Age Ageing 50:733-743 · PMID 33951145"
+   ],
+   "relAdd": [
+    "consent_cap",
+    "neuropsico"
+   ]
+  },
+  "npi": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Creado por Jeffrey Cummings y colaboradores (Cummings 1994; PMID 7991117), el NPI es una entrevista estructurada heteroaplicada a la persona cuidadora que convive o tiene contacto frecuente con la persona: para cada dominio se formula una pregunta de cribado y, si es positiva, subpreguntas, y se gradúan frecuencia, gravedad y malestar de la persona cuidadora. Lo aplica personal clínico o investigador entrenado; el NPI-Q puede autocompletarlo la persona cuidadora. Está sujeto a derechos de autor (véase la ficha). La versión para clínicos NPI-C amplía los dominios y los ítems (78 ítems nuevos tras un panel Delphi) e incorpora un método de valoración clínica, con entrevistas por separado a la persona cuidadora y a la persona con demencia; se estudió en 128 díadas de diez centros y siete idiomas (de Medeiros 2010). Las validaciones españolas del NPI, el NPI-Q y el NPI-NH figuran en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "bpsd"
+       ],
+       "t": "Síntomas psicológicos y conductuales de la demencia"
+      },
+      {
+       "ids": [
+        "cornell"
+       ],
+       "t": "Depresión en la demencia"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "La revisión de Lai (2014) concluye que el NPI tiene una validez de contenido y una consistencia interna razonablemente buenas y una fiabilidad test-retest y entre evaluadores buenas, pero que hay poca información sobre su sensibilidad, especificidad, valores predictivos y, en particular, sensibilidad al cambio. El sistema de puntuación por producto de frecuencia y gravedad genera una distribución discontinua (en cada dominio no existen valores múltiplos de 5, 7 u 11), lo que hace cuestionables los análisis paramétricos, y el instrumento discrimina mal entre trastornos. En el NPI-C, la fiabilidad entre evaluadores fue fuerte en la mayoría de los ítems y la validez convergente con la Apathy Evaluation Scale, la BPRS, el inventario de agitación de Cohen-Mansfield y la Cornell fue de moderada (apatía, agitación) a fuerte (alucinaciones, delirios, depresión) (de Medeiros 2010).",
+     "links": [
+      {
+       "ids": [
+        "agit_dem",
+        "apatia_dem"
+       ],
+       "t": "Agitación y apatía"
+      },
+      {
+       "ids": [
+        "lewy"
+       ],
+       "t": "Psicosis en las demencias"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Describe y cuantifica síntomas neuropsiquiátricos; no diagnostica ni distingue de forma fiable entre tipos de demencia (Lai 2014). Es útil para la línea base, el seguimiento de intervenciones no farmacológicas y farmacológicas y la investigación, y la puntuación de malestar orienta el apoyo a la persona cuidadora. Depende del informante: el agotamiento, la depresión o el conflicto de la persona cuidadora, el escaso contacto del personal de residencia y las diferencias culturales en la tolerancia a ciertas conductas modifican las respuestas [fuente no localizada]. Su escasa información sobre sensibilidad al cambio obliga a prudencia al interpretar diferencias pequeñas. Una puntuación elevada en agitación o psicosis no justifica por sí sola un antipsicótico: obliga a descartar dolor, delirium, infección y causas ambientales. En peritajes sobre capacidad o malos tratos, el NPI aporta descripción sistemática de conductas, pero no prueba su causa.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "Descartar delirium"
+      },
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "Demencia"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Uso pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lai CK (2014). The merits and problems of Neuropsychiatric Inventory as an assessment tool in people with dementia and other neurological disorders. Clin Interv Aging 9:1051-1061 · PMID 25031530",
+    "de Medeiros K et al. (2010). The Neuropsychiatric Inventory-Clinician rating scale (NPI-C): reliability and validity of a revised assessment of neuropsychiatric symptoms in dementia. Int Psychogeriatr 22:984-994 · PMID 20594384"
+   ],
+   "relAdd": [
+    "delirium",
+    "perit_forense"
+   ]
+  },
+  "epds": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollada por John Cox, Jeni Holden y Ruth Sagovsky (Cox 1987; PMID 3651732), es un cuestionario autoaplicado que, según el estudio original, se completa en unos 5 minutos y se corrige de forma sencilla; si hay dificultades de lectura o idioma puede leerse con ayuda, aunque ello modifica las condiciones de validación. Puede administrarla personal de matronería, enfermería, medicina de familia, obstetricia o pediatría sin formación psicométrica específica, pero quien la aplique debe saber actuar ante un resultado positivo y ante la respuesta al ítem de autolesión. Está traducida a numerosos idiomas; las condiciones de uso y la validación española en puérperas y gestantes se recogen en la ficha. Se ha empleado también en padres y parejas no gestantes, con cortes distintos (véase la ficha).",
+     "links": [
+      {
+       "ids": [
+        "whooley_peri"
+       ],
+       "t": "Primer paso: preguntas de Whooley"
+      },
+      {
+       "ids": [
+        "dep_paterna"
+       ],
+       "t": "Uso en padres y parejas"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En la revisión sistemática para el USPSTF (O'Connor 2016), con 23 estudios y 5398 participantes, la versión inglesa de la EPDS con un corte de 13 mostró sensibilidades entre 0,67 (IC 95 % 0,18-0,96) y 1,00 (0,67-1,00) y especificidades consistentemente de 0,87 o superiores en gestantes y puérperas; los datos de los cuestionarios PHQ fueron escasos. Esa revisión halló además que los programas que incluían cribado, con o sin componentes adicionales de tratamiento, redujeron el riesgo de depresión en el seguimiento a los 3-5 meses entre un 18 % y un 59 % en términos relativos (2,1 % a 9,1 % absolutos) frente a la atención habitual. El metaanálisis de datos individuales de Levis (2020) y las validaciones españolas figuran en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Elección del punto de corte"
+      },
+      {
+       "ids": [
+        "dpp",
+        "dep_embarazo"
+       ],
+       "t": "Depresión perinatal"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Es un instrumento de cribado y de seguimiento, no diagnóstico. NICE CG192 propone considerar las dos preguntas de identificación de la depresión (Whooley) en el primer contacto y en el posparto temprano y, si alguna es positiva, considerar la EPDS o el PHQ-9 como parte de una evaluación completa (recomendaciones 1.5.4 y 1.5.5). El beneficio del cribado depende de que existan vías de tratamiento (O'Connor 2016). Los cortes óptimos varían según idioma, cultura, momento perinatal y criterio de referencia, por lo que deben usarse los validados para la población atendida (véase la ficha). No se ha localizado validación en personas trans o no binarias gestantes, ni en madres no gestantes de parejas del mismo sexo [fuente no localizada], cuyo malestar puede incluir estrés de minorías. El ítem de autolesión no es un predictor individual de suicidio: su respuesta positiva obliga a una valoración clínica completa, conforme a NICE NG225, que desaconseja usar herramientas y escalas de valoración del riesgo para predecir el suicidio o la repetición de las autolesiones. No detecta bien la ansiedad ni la psicosis (véase la ficha) y no explora el trauma del parto ni la bipolaridad, y una puntuación aislada no debe usarse en procedimientos de protección de menores o de custodia.",
+     "links": [
+      {
+       "ids": [
+        "anx_perinatal",
+        "tept_parto",
+        "ppp"
+       ],
+       "t": "Lo que la EPDS no detecta bien"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Diversidad de género y familias LGTBIQ"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Uso pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "O'Connor E et al. (2016). Primary care screening for and treatment of depression in pregnant and postpartum women: evidence report and systematic review for the US Preventive Services Task Force. JAMA 315:388-406 · PMID 26813212",
+    "NICE (2020). Antenatal and postnatal mental health: clinical management and service guidance (CG192; publicada en 2014)",
+    "NICE (2022). Self-harm: assessment, management and preventing recurrence (NG225)"
+   ],
+   "relAdd": [
+    "tept_parto",
+    "genero",
+    "perit_forense"
+   ]
+  },
+  "whooley_peri": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Las dos preguntas, tomadas del cuestionario del paciente PRIME-MD y referidas al ánimo deprimido y la anhedonia, fueron validadas por Mary Whooley y colaboradores frente a una entrevista diagnóstica en 536 personas adultas consecutivas de la consulta de atención urgente de un hospital de veteranos de San Francisco (Whooley 1997; PMID 9229283). Se formulan oralmente o por escrito en menos de un minuto [fuente no localizada], con respuesta sí/no, por cualquier profesional sanitario (matronería, enfermería, obstetricia, medicina de familia); no requieren licencia [fuente no localizada], pero sí formación para preguntar con sensibilidad y para actuar ante un positivo. Puede añadirse una tercera pregunta sobre si la persona desea ayuda (Arroll 2005; Mann 2012). No deben confundirse con el PHQ-2, que explora los mismos síntomas en las dos últimas semanas con una escala de frecuencia de 0 a 3: en España, el PHQ-2 se ha validado en 1019 gestantes del primer trimestre (Rodríguez-Muñoz 2017), mientras que no se ha localizado una validación española del formato dicotómico de Whooley en el periparto [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "phq9",
+        "hamd_madrs"
+       ],
+       "t": "PHQ-2 y PHQ-9"
+      },
+      {
+       "ids": [
+        "epds"
+       ],
+       "t": "Siguiente paso: EPDS"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En 1025 pacientes consecutivos de medicina general de Nueva Zelanda, la pregunta de ayuda tuvo por sí sola una sensibilidad del 75 % y una especificidad del 94 % (cociente de verosimilitud positivo 13,0), y añadirla a las dos preguntas de cribado mejoró la especificidad (Arroll 2005). En 1019 gestantes españolas del primer trimestre, con una prevalencia de depresión del 11,1 %, el PHQ-2 tuvo un área bajo la curva de 0,84 y, con un corte de 2, una sensibilidad del 85,4 % y una especificidad del 79,5 % frente al PHQ-9 (Rodríguez-Muñoz 2017); el criterio de referencia fue otro cuestionario y no una entrevista diagnóstica, lo que limita la interpretación. Las cifras de Whooley (1997), Mann (2012), Bosanquet (2015) y Howard (2018) figuran en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Cocientes de verosimilitud"
+      },
+      {
+       "ids": [
+        "dep_embarazo"
+       ],
+       "t": "Depresión durante el embarazo"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Son un filtro inicial de alta sensibilidad y especificidad modesta: un positivo exige una escala más larga (EPDS o PHQ-9) o una entrevista, y un negativo no excluye otros trastornos perinatales. NICE CG192 propone considerar formularlas en el primer contacto con atención primaria o en la visita de inicio del control prenatal y en el posparto temprano, y considerar además preguntar por la ansiedad con el GAD-2; con 3 o más puntos sugiere considerar el GAD-7 o la derivación (recomendaciones 1.5.4 y 1.5.6). La revelación depende de la relación y del contexto: el estigma, la barrera idiomática, la presencia de la pareja durante la consulta y el temor a intervenciones de protección de menores reducen las respuestas afirmativas [fuente no localizada]. Preguntar a solas permite además explorar violencia de pareja. No se han localizado validaciones en personas trans o no binarias gestantes ni en parejas no gestantes [fuente no localizada]. No deben emplearse como prueba diagnóstica ni pericial, y el cribado no mejora los resultados si no se acompaña de vías de evaluación y tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "anx_perinatal"
+       ],
+       "t": "Ansiedad perinatal"
+      },
+      {
+       "ids": [
+        "dpp",
+        "emb_peri"
+       ],
+       "t": "Salud mental perinatal"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Diversidad de género"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Arroll B et al. (2005). Effect of the addition of a «help» question to two screening questions on specificity for diagnosis of depression in general practice: diagnostic validity study. BMJ 331:884 · PMID 16166106",
+    "Rodríguez-Muñoz MF et al. (2017). PHQ-2 as first screening instrument of prenatal depression in primary health care, Spain [artículo en español]. Rev Esp Salud Publica 91:e201701010 · PMID 28134236"
+   ],
+   "relAdd": [
+    "phq9",
+    "genero"
+   ]
+  },
+  "mmse_moca": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Ambos son pruebas heteroaplicadas en entrevista por un profesional sanitario entrenado, con hoja de registro y material sencillo. El MMSE fue publicado por Marshal Folstein, Susan Folstein y Paul McHugh (1975; PMID 1202204) y el MoCA por Ziad Nasreddine y colaboradores (2005; PMID 15817019). En España, Lobo adaptó el MMSE como Mini Examen Cognoscitivo (versiones de 35 y 30 puntos) y Ojeda (2016) aportó normas del MoCA (véase la ficha). Los requisitos de licencia del MMSE y de certificación del MoCA figuran en la ficha; según la web oficial del MoCA, administrar la versión en papel exige completar una formación de una hora. Existen formas alternativas del MoCA para evitar el aprendizaje en evaluaciones repetidas, una versión para personas con déficit visual y una versión básica para baja escolaridad [fuente no localizada]. La corrección exige aplicar las instrucciones estandarizadas: modificar o traducir ítems por cuenta propia invalida las normas y puede infringir los derechos de autor.",
+     "links": [
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "Evaluación neuropsicológica completa"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "El metaanálisis de Carson (2018), con 9 estudios, concluyó que el corte original del MoCA de 26 inflaba los falsos positivos, sobre todo en personas mayores o con menos escolaridad, y que un corte de 23 ofrecía la mejor precisión diagnóstica global para distinguir el envejecimiento cognitivo normal del posible deterioro cognitivo leve. La revisión Cochrane del MMSE como predictor de conversión del deterioro cognitivo leve a demencia (11 estudios, 1569 pacientes) halló sensibilidades del 23 % al 76 % y especificidades del 40 % al 94 % para la demencia de cualquier causa, y del 27 % al 89 % y del 32 % al 90 % para la enfermedad de Alzheimer, sin evidencia que apoye una única aplicación del MMSE como prueba aislada para identificar a quién progresará (Arevalo-Rodriguez 2021). Los datos de rendimiento para la demencia (Cochrane 2015 y 2016, Mitchell 2009) figuran en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "ncd_leve"
+       ],
+       "t": "Deterioro cognitivo leve"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Puntos de corte y falsos positivos"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Son pruebas de cribado y de seguimiento evolutivo, no diagnósticas. NICE NG97 recomienda, cuando se use una prueba cognitiva en la evaluación inicial no especializada, un instrumento cognitivo breve, estructurado y validado, y entre sus ejemplos (10-CS, 6CIT, 6-item screener, MIS, Mini-Cog y TYM) no figuran el MMSE ni el MoCA; advierte además que no debe descartarse la demencia solo porque la puntuación en un instrumento cognitivo sea normal (recomendaciones 1.2.3 y 1.2.4). La escolaridad, el idioma, la cultura, los déficits sensoriales, la depresión, el delirium y la discapacidad intelectual alteran las puntuaciones; el corte de 26 del MoCA genera falsos positivos en personas mayores o con baja escolaridad (Carson 2018), y una única puntuación del MMSE no predice la progresión del deterioro leve (Arevalo-Rodriguez 2021). Una puntuación no equivale a capacidad: la capacidad para consentir o para otorgar actos jurídicos se valora con criterios funcionales específicos y no con un umbral del MMSE. En pericias sobre provisión de apoyos (la Ley 8/2021 sustituyó la incapacitación judicial), testamentifacción o imputabilidad, su uso aislado carece de validación y debe integrarse con evaluación neuropsicológica y clínica.",
+     "links": [
+      {
+       "ids": [
+        "consent_cap",
+        "maccat_t"
+       ],
+       "t": "Capacidad: evaluación específica"
+      },
+      {
+       "ids": [
+        "delirium",
+        "dd_dep_dem"
+       ],
+       "t": "Causas de puntuaciones bajas"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Uso pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Carson N, Leach L & Murphy KJ (2018). A re-examination of Montreal Cognitive Assessment (MoCA) cutoff scores. Int J Geriatr Psychiatry 33:379-388 · PMID 28731508",
+    "Arevalo-Rodriguez I et al. (2021). Mini-Mental State Examination (MMSE) for the early detection of dementia in people with mild cognitive impairment (MCI). Cochrane Database Syst Rev 7:CD010783 · PMID 34313331",
+    "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97)"
+   ],
+   "relAdd": [
+    "perit_forense"
+   ]
+  },
+  "neuropsico": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La ficha agrupa tres niveles. (1) Cribados breves: MMSE (Folstein 1975) y MoCA (Nasreddine 2005), desarrollados en la ficha específica. (2) La MATRICS Consensus Cognitive Battery (MCCB), elaborada por la iniciativa MATRICS del NIMH (Nuechterlein 2008; PMID 18172019) para ensayos clínicos en esquizofrenia: 10 pruebas que cubren siete dominios (velocidad de procesamiento, atención y vigilancia, memoria de trabajo, aprendizaje verbal, aprendizaje visual, razonamiento y resolución de problemas, y cognición social), administradas en una sesión de unos 60 minutos (Kern 2008); es heteroaplicada por evaluadores entrenados y se distribuye comercialmente [fuente no localizada]. Tiene normas españolas (Rodriguez-Jimenez 2012). (3) La evaluación neuropsicológica completa, realizada por profesionales de la neuropsicología con baterías normalizadas; en población española mayor de 49 años, el proyecto NEURONORMA aportó normas multicéntricas de pruebas de atención, lenguaje, visopercepción, praxis, memoria y funciones ejecutivas (Peña-Casanova 2009).",
+     "links": [
+      {
+       "ids": [
+        "mmse_moca"
+       ],
+       "t": "MMSE y MoCA en detalle"
+      },
+      {
+       "ids": [
+        "detcog",
+        "esq"
+       ],
+       "t": "Cognición en la esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "La MCCB se seleccionó mediante un consenso estructurado: de más de 90 pruebas en siete dominios se preseleccionaron 36 y se probaron 20 en 176 personas con esquizofrenia, reevaluadas 167 a las cuatro semanas, eligiendo las 10 finales según fiabilidad test-retest, efectos de práctica, relación con el funcionamiento, practicidad y tolerabilidad (Nuechterlein 2008). La conormalización en 300 personas de la comunidad estadounidense mostró efectos prominentes de la edad y la escolaridad, y efectos del sexo variables según la prueba, lo que obliga a corregir por variables demográficas (Kern 2008). En 210 voluntarios sanos de tres centros españoles, los efectos de edad, sexo y escolaridad fueron comparables a los de la versión original, lo que apoya su uso en España con normas propias (Rodriguez-Jimenez 2012). El rendimiento diagnóstico de los cribados se recoge en la ficha y en la de MMSE y MoCA.",
+     "links": [
+      {
+       "ids": [
+        "mmse_moca"
+       ],
+       "t": "Rendimiento de los cribados"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "La MCCB mide el cambio cognitivo en ensayos e investigación; no es una prueba diagnóstica ni un cribado de demencia. La evaluación neuropsicológica completa está indicada ante dudas diagnósticas (deterioro leve, diferencial con depresión, trastornos del neurodesarrollo en adultos), para planificar la rehabilitación y en peritajes. Las normas deben corresponder a la población evaluada en edad, escolaridad, idioma y cultura (Kern 2008; Peña-Casanova 2009); en personas migrantes, con baja escolaridad, sordas o neurodivergentes (TDAH, autismo, discapacidad intelectual), las puntuaciones bajas pueden reflejar sesgos de la prueba y no deterioro [fuente no localizada]. En el ámbito pericial debe incluir pruebas de validez del rendimiento y de simulación, ya que el bajo esfuerzo invalida la interpretación, y no existe en España un estándar reglado que fije qué batería usar [fuente no localizada]: el informe debe justificar normas, pruebas y limitaciones.",
+     "links": [
+      {
+       "ids": [
+        "sims_tomm"
+       ],
+       "t": "Validez del rendimiento y simulación"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Pericia psiquiátrica"
+      },
+      {
+       "ids": [
+        "dd_dep_dem",
+        "diva_asrs",
+        "aq_ados_adir"
+       ],
+       "t": "Diferencial con depresión y neurodesarrollo adulto"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nuechterlein KH et al. (2008). The MATRICS Consensus Cognitive Battery, part 1: test selection, reliability, and validity. Am J Psychiatry 165:203-213 · PMID 18172019",
+    "Kern RS et al. (2008). The MATRICS Consensus Cognitive Battery, part 2: co-norming and standardization. Am J Psychiatry 165:214-220 · PMID 18172018",
+    "Rodriguez-Jimenez R et al. (2012). The MATRICS consensus cognitive battery (MCCB): co-norming and standardization in Spain. Schizophr Res 134:279-284 · PMID 22192501",
+    "Peña-Casanova J et al. (2009). Spanish Multicenter Normative Studies (NEURONORMA Project): methods and sample characteristics. Arch Clin Neuropsychol 24:307-319 · PMID 19549723"
+   ],
+   "relAdd": [
+    "sims_tomm",
+    "perit_forense",
+    "esq"
+   ]
+  }
+ },
+ "add": []
+}
