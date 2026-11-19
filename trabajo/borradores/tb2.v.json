@@ -1,0 +1,1085 @@
+{
+ "patch": {
+  "ttos_adiccion": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En el alcohol, NICE CG115 (1.3.6) propone considerar acamprosato o naltrexona oral tras una desintoxicación eficaz, junto con una intervención psicológica, y el disulfiram cuando la persona busca la abstinencia y esos fármacos no son adecuados o lo prefiere conociendo sus riesgos; el nalmefeno queda para la reducción del consumo (NICE TA325). La posición concreta de la guía de la BAP (Lingford-Hughes 2012) no se ha contrastado [fuente no localizada]. El metaanálisis de McPheeters (2023; 118 ensayos, 20 976 participantes) respalda acamprosato y naltrexona oral como primera línea: número necesario para tratar de 11 y 18 para evitar el retorno a cualquier consumo, y de 11 con naltrexona para el retorno al consumo excesivo. En opioides, el tratamiento agonista con metadona o buprenorfina es la base (NICE TA114) por su efecto sobre la retención y la mortalidad (Sordo 2017). En tabaco, NICE NG209 y el análisis en red de Lindson (2023) sitúan vareniclina, citisina y terapia sustitutiva combinada entre las opciones más eficaces. En estimulantes no hay fármacos autorizados: en el ensayo ADAPT-2, naltrexona inyectable más bupropión en el trastorno por consumo de metanfetamina logró respuesta en el 13,6 % frente al 2,5 % con placebo, un efecto real pero escaso (Trivedi 2021). Las guías de Socidrogalcohol y los documentos del PNSD siguen un esquema análogo [fuente no localizada]. Indicaciones autorizadas: fichas técnicas AEMPS-CIMA y ficha propia de cada fármaco.",
+     "links": [
+      {
+       "ids": [
+        "naltrexona",
+        "acamprosato",
+        "nalmefeno",
+        "disulfiram"
+       ],
+       "t": "fármacos del alcohol"
+      },
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina",
+        "buvidal"
+       ],
+       "t": "tratamiento agonista opioide"
+      },
+      {
+       "ids": [
+        "vareniclina",
+        "citisina",
+        "nicotina_tsn",
+        "bupropion_tab"
+       ],
+       "t": "deshabituación tabáquica"
+      },
+      {
+       "ids": [
+        "metanf"
+       ],
+       "t": "metanfetamina sin fármaco autorizado"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Los fármacos de las adicciones actúan por mecanismos heterogéneos: antagonismo opioide que atenúa el refuerzo del alcohol (naltrexona; nalmefeno, con agonismo parcial κ); modulación glutamatérgica con eliminación renal casi exclusiva (acamprosato); inhibición irreversible de la aldehído deshidrogenasa con efecto disuasorio (disulfiram); agonismo opioide μ completo de semivida larga y metabolismo por CYP3A4 (metadona) o parcial con efecto techo respiratorio (buprenorfina); agonismo parcial nicotínico α4β2 (vareniclina, de eliminación renal, y citisina), e inhibición de la recaptación de noradrenalina y dopamina con inhibición del CYP2D6 (bupropión). En el metaanálisis de McPheeters (2023) los efectos adversos más característicos fueron digestivos: diarrea con acamprosato (RR 1,58) y náuseas (RR 1,73) y vómitos (RR 1,53) con naltrexona. Las interacciones de clase más relevantes son la abstinencia precipitada al dar un antagonista o la buprenorfina a quien toma un agonista completo (fichas técnicas de Metasedin y Buvidal, 4.5), la potenciación de la depresión respiratoria de los opioides por alcohol, benzodiacepinas y gabapentinoides (mismas fichas) y el aumento de los niveles de clozapina y olanzapina al dejar de fumar por la pérdida de la inducción del CYP1A2 (fichas de TSN, 4.5). La combinación de naltrexona y bupropión en ADAPT-2 produjo síntomas digestivos, temblor, malestar, hiperhidrosis y anorexia (Trivedi 2021).",
+     "links": [
+      {
+       "ids": [
+        "naltrexona",
+        "nalmefeno"
+       ],
+       "t": "antagonistas opioides"
+      },
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "agonistas opioides"
+      },
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "niveles de clozapina al dejar de fumar"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "En los agonistas opioides, la inducción y las semanas tras abandonar el tratamiento son periodos de mortalidad muy elevada (Sordo 2017), y tras una pauta con naltrexona la pérdida de tolerancia aumenta el riesgo de sobredosis si hay recaída; la naloxona debe estar al alcance de la persona y de su entorno. Las fichas técnicas de metadona y Buvidal advierten de depresión respiratoria mortal con alcohol, benzodiacepinas y gabapentinoides; la extensión al GHB/GBL, depresor del SNC del contexto de chemsex, es razonable pero no figura en las fichas [fuente no localizada]. En personas con VIH, el riesgo principal de interacción con las drogas del chemsex aparece con los antirretrovirales potenciados con ritonavir o cobicistat y con algunos no nucleósidos (Bracchi 2015); la ficha de Metasedin recoge que nevirapina, efavirenz y ritonavir pueden reducir los niveles de metadona, y la de Zyntabac que ritonavir y efavirenz reducen la exposición al bupropión (4.5). El disulfiram está contraindicado en la adicción a cocaína (ficha técnica de Antabus, 4.3). El bupropión está contraindicado durante la retirada brusca de alcohol o de benzodiacepinas por el riesgo de convulsiones (ficha de Zyntabac, 4.3). Para interacciones con catinonas, metanfetamina, MDMA, poppers o inhibidores de la PDE5 no hay datos específicos en estas fichas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona para la sobredosis"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "chemsex_s"
+       ],
+       "t": "GHB/GBL y chemsex"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "cocaina"
+       ],
+       "t": "disulfiram y cocaína"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "McPheeters M et al. (2023). Pharmacotherapy for alcohol use disorder: a systematic review and meta-analysis. JAMA 330:1653-1665 · PMID 37934220",
+    "Trivedi MH et al. (2021). Bupropion and naltrexone in methamphetamine use disorder. N Engl J Med 384:140-153 · PMID 33497547",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "Lingford-Hughes AR et al. (2012). BAP updated guidelines: evidence-based guidelines for the pharmacological management of substance abuse, harmful use, addiction and comorbidity: recommendations from BAP. J Psychopharmacol 26:899-952 · PMID 22628390",
+    "NICE (2011). Alcohol-use disorders: diagnosis, assessment and management of harmful drinking and alcohol dependence (CG115)",
+    "NICE (2025). Tobacco: preventing uptake, promoting quitting and treating dependence (NG209; publicada en 2021 y actualizada en 2025)",
+    "NICE (2007). Methadone and buprenorphine for the management of opioid dependence (TA114)",
+    "NICE (2014). Nalmefene for reducing alcohol consumption in people with alcohol dependence (TA325)"
+   ],
+   "relAdd": [
+    "metanf",
+    "chemsex_arv",
+    "red_danos"
+   ]
+  },
+  "nalmefeno": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Su lugar es estrecho y lo marcan las guías, no la lista de indicaciones: NICE TA325 (1.1) lo recomienda, dentro de su autorización, como opción para reducir el consumo en personas con dependencia y nivel de consumo de alto riesgo, sin síntomas físicos de abstinencia ni necesidad de desintoxicación inmediata, y recoge las condiciones de esa autorización: apoyo psicosocial continuado e inicio solo si el consumo de alto riesgo persiste dos semanas después de la evaluación inicial. En quienes buscan la abstinencia, NICE CG115 (1.3.6) propone acamprosato o naltrexona oral, respaldados por el metaanálisis de McPheeters (2023). En el segundo ensayo pivotal europeo (Gual 2013; 718 personas, 24 semanas), el nalmefeno a demanda redujo los días de consumo excesivo frente a placebo (diferencia de -1,7 días al mes; IC 95 % -3,1 a -0,4), pero la reducción del consumo total no alcanzó significación (-5,0 g/día; p = 0,088); el beneficio fue mayor en quienes no habían reducido el consumo antes de la aleatorización, hallazgo coherente con la condición de las dos semanas. No hay ensayos directos frente a naltrexona con objetivo de reducción [fuente no localizada]. Las guías españolas de Socidrogalcohol lo contemplan como opción de reducción de daños [fuente no localizada]. Indicación autorizada y condiciones: ficha técnica de Selincro (AEMPS-CIMA, 4.1), ya resumida en esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "naltrexona",
+        "acamprosato"
+       ],
+       "t": "primera línea si se busca abstinencia"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción del consumo como objetivo"
+      },
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "apoyo psicosocial continuado"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Además de lo descrito sobre su mecanismo y farmacocinética, la ficha técnica de Selincro (4.8), basada en tres ensayos controlados con placebo, señala como reacciones adversas más frecuentes náuseas, mareo, insomnio y cefalea, en su mayoría leves o moderadas, ligadas al inicio del tratamiento y de corta duración. En los estudios clínicos se comunicaron estados confusionales y, raramente, alucinaciones y disociación, también de horas a pocos días y que por lo general no recurrieron con la administración repetida; la ficha advierte que podrían corresponder a psicosis alcohólica, abstinencia alcohólica o enfermedad psiquiátrica comórbida. En Gual (2013) los acontecimientos adversos fueron más frecuentes con nalmefeno, aunque los abandonos por ellos fueron similares a placebo, y hubo mayor mejoría de la impresión clínica global y de las enzimas hepáticas. La toma a demanda implica una exposición intermitente cuya adherencia es difícil de medir [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dt_alc"
+       ],
+       "t": "abstinencia alcohólica en el diferencial"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "síntomas psicóticos asociados a sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señal de alarma principal: cualquier exposición a opioides. Al ser antagonista μ, precipita abstinencia en quien toma metadona, buprenorfina o heroína, y la ficha técnica de Buvidal (4.5) lo nombra expresamente junto con la naltrexona; en contexto de chemsex con uso de opioides o en tratamiento agonista no debe indicarse. La analgesia opioide urgente puede resultar ineficaz, y debe constar en la historia clínica. La aparición de confusión, alucinaciones o disociación obliga a descartar abstinencia alcohólica, delirium o psicosis (ficha de Selincro, 4.8), y el antecedente reciente de abstinencia alcohólica aguda con alucinaciones, convulsiones o delirium tremens es contraindicación (4.3). La ficha recuerda además que tomarlo con alcohol no previene los efectos de la intoxicación (4.5). No hay datos sobre interacciones con GHB/GBL, catinonas, metanfetamina, MDMA, poppers, inhibidores de la PDE5 ni antirretrovirales potenciados [fuente no localizada]; según estudios in vitro no se prevén interacciones relevantes con fármacos metabolizados por las principales enzimas CYP450 y UGT (ficha de Selincro, 4.5), pero la interacción con ritonavir o cobicistat no se ha estudiado in vivo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "metadona",
+        "buvidal"
+       ],
+       "t": "abstinencia precipitada con opioides"
+      },
+      {
+       "ids": [
+        "dt_alc"
+       ],
+       "t": "abstinencia alcohólica complicada"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex con uso de opioides"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Gual A et al. (2013). A randomised, double-blind, placebo-controlled, efficacy study of nalmefene, as-needed use, in patients with alcohol dependence. Eur Neuropsychopharmacol 23:1432-1442 · PMID 23562264",
+    "McPheeters M et al. (2023). Pharmacotherapy for alcohol use disorder: a systematic review and meta-analysis. JAMA 330:1653-1665 · PMID 37934220"
+   ],
+   "relAdd": [
+    "buvidal",
+    "dt_alc"
+   ]
+  },
+  "acamprosato": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE CG115 (1.3.6.1) propone considerarlo, igual que la naltrexona oral, tras una desintoxicación eficaz en la dependencia moderada o grave, junto con una intervención psicológica; la posición de la guía de la BAP no se ha contrastado en su resumen [fuente no localizada]. El metaanálisis de McPheeters (2023) estima un número necesario para tratar de 11 para evitar el retorno a cualquier consumo, frente a 18 con naltrexona oral, y apoya su uso con intervención psicosocial. El metaanálisis de Mann (2004; 17 ensayos, 4087 personas) halló abstinencia continuada a los 6 meses del 36,1 % frente al 23,4 % con placebo (beneficio relativo 1,47; IC 95 % 1,29-1,69). La elección frente a la naltrexona depende del objetivo: en 64 ensayos, el acamprosato tuvo mayor efecto en el mantenimiento de la abstinencia y la naltrexona en la reducción del consumo excesivo y del craving; la desintoxicación previa se asoció a mejores resultados con acamprosato (Maisel 2013). Es una alternativa cuando la naltrexona está contraindicada por consumo de opioides o tratamiento agonista. NICE CG115 (1.3.6.5) indica iniciarlo cuanto antes tras la desintoxicación y retirarlo si el consumo persiste tras 4 a 6 semanas de tratamiento. Socidrogalcohol lo recoge en sus guías de alcoholismo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "naltrexona"
+       ],
+       "t": "comparación por objetivo terapéutico"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "trastorno por consumo de alcohol"
+      },
+      {
+       "ids": [
+        "dt_alc"
+       ],
+       "t": "desintoxicación previa"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Campral (4.8) recoge como muy frecuente la diarrea y como frecuentes el dolor abdominal, las náuseas, los vómitos, la flatulencia, el prurito y la erupción maculopapular; entre los efectos psiquiátricos y sexuales, la disminución de la libido, la frigidez y la impotencia son frecuentes y el aumento de la libido poco frecuente; las reacciones de hipersensibilidad (urticaria, angioedema, anafilaxia) son muy raras. En el metaanálisis de McPheeters (2023) la diarrea fue más frecuente que con placebo (RR 1,58; IC 95 % 1,27-1,97). Al no metabolizarse en el hígado y eliminarse por vía renal, apenas tiene interacciones farmacocinéticas, lo que facilita su combinación con antidepresivos o con tratamiento agonista opioide [fuente no localizada]. El efecto sobre la función sexual merece preguntarse de forma activa, porque puede confundirse con efectos del alcohol o de otros psicofármacos.",
+     "links": [
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual por psicofármacos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La alteración de la función renal lo contraindica (ficha de Campral, 4.3) y su eliminación depende del aclaramiento de creatinina; NICE CG115 (1.3.6.4) pide una valoración médica con urea, electrolitos y pruebas hepáticas antes de iniciarlo, y no recomienda analíticas rutinarias durante el seguimiento (1.3.6.6). Vigilar síntomas depresivos e ideación suicida, más frecuentes en la dependencia alcohólica (4.4). Al no producir reacción con el alcohol, un consumo puntual no obliga a suspenderlo [fuente no localizada], aunque NICE CG115 indica retirarlo si el consumo persiste tras 4 a 6 semanas (1.3.6.5). No hay datos sobre interacciones con GHB/GBL, catinonas, metanfetamina, MDMA, poppers, inhibidores de la PDE5 ni antirretrovirales potenciados [fuente no localizada]; su perfil sin metabolismo hepático hace improbable la interacción farmacocinética, pero no protege frente a la toxicidad de esas sustancias ni de su combinación con alcohol. En personas con VIH y nefrotoxicidad por antirretrovirales (como el tenofovir) la vigilancia renal es especialmente pertinente [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "vigilancia de la ideación suicida"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales y función renal"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Mann K et al. (2004). The efficacy of acamprosate in the maintenance of abstinence in alcohol-dependent individuals: results of a meta-analysis. Alcohol Clin Exp Res 28:51-63 · PMID 14745302",
+    "Maisel NC et al. (2013). Meta-analysis of naltrexone and acamprosate for treating alcohol use disorders: when are these medications most helpful? Addiction 108:275-293 · PMID 23075288",
+    "McPheeters M et al. (2023). Pharmacotherapy for alcohol use disorder: a systematic review and meta-analysis. JAMA 330:1653-1665 · PMID 37934220",
+    "NICE (2011). Alcohol-use disorders: diagnosis, assessment and management of harmful drinking and alcohol dependence (CG115)"
+   ],
+   "relAdd": [
+    "audit"
+   ]
+  },
+  "disulfiram": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE CG115 (1.3.6.3) propone considerarlo, con una intervención psicológica, en quienes buscan la abstinencia y no son candidatos a acamprosato o naltrexona oral, o lo prefieren y comprenden sus riesgos. La revisión de Jørgensen (2011; 11 ensayos, 1527 personas) concluye que el disulfiram supervisado tiene algún efecto sobre la abstinencia a corto plazo, los días hasta la recaída y los días de consumo frente a placebo, ausencia de tratamiento u otros tratamientos, mientras que el efecto a largo plazo sobre la abstinencia no se había evaluado. En el ensayo abierto de Laaksonen (2008; 243 personas), con medicación supervisada durante 12 semanas, el disulfiram fue superior a naltrexona y acamprosato en días de consumo excesivo, consumo semanal y tiempo hasta la primera bebida. En la dependencia de cocaína, la evidencia es baja (Pani 2010) y la ficha técnica de Antabus lo contraindica en esa adicción (4.3). Indicación autorizada: coadyuvante en programas de deshabituación (ficha de Antabus, 4.1), ya resumida en esta ficha. Socidrogalcohol lo contempla en programas supervisados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "naltrexona",
+        "acamprosato"
+       ],
+       "t": "comparadores en los ensayos abiertos"
+      },
+      {
+       "ids": [
+        "cocaina"
+       ],
+       "t": "cocaína: evidencia baja y contraindicación"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Por sí mismo es poco tóxico; los efectos graves derivan de la reacción con el alcohol, ya descrita. La ficha técnica de Antabus (4.8) recoge como frecuentes la somnolencia, la cefalea, la neuritis periférica, la neuritis óptica y la polineuritis, la depresión y la manía, las náuseas, los vómitos, la diarrea y la elevación de transaminasas y bilirrubina; como muy raros, episodios psicóticos, convulsiones, confusión y hepatitis fulminante con necrosis hepática y posible muerte, que suele aparecer en los dos primeros meses. En las primeras semanas puede haber sabor metálico o a ajo, fatiga, impotencia y erupciones acneiformes. Interacciones (4.5) no recogidas antes en esta ficha: aumenta la concentración de fenitoína (controlar niveles), la toxicidad de isoniazida y teofilina, produce reacción psicótica aguda con metronidazol, cuadros confusionales y psicóticos con amitriptilina, e inhibe el metabolismo de la clozapina.",
+     "links": [
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida"
+      },
+      {
+       "ids": [
+        "ep_mania"
+       ],
+       "t": "manía como efecto adverso"
+      },
+      {
+       "ids": [
+        "clozapina"
+       ],
+       "t": "interacción con clozapina"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Suspender y valorar de inmediato ante ictericia, coluria, astenia intensa o dolor abdominal (hepatitis, sobre todo en los dos primeros meses), pérdida de agudeza visual (neuritis óptica), parestesias (neuropatía) o síntomas psicóticos o maníacos (ficha técnica de Antabus, 4.8). En contexto de chemsex: la adicción a cocaína es contraindicación (4.3) porque aumenta los niveles de cocaína y de dopamina; el metronidazol, usado en infecciones de transmisión sexual, está contraindicado (4.3) y puede causar reacción psicótica (4.5); la ficha describe aumento de la toxicidad de la anfetamina en ratas, sin datos en humanos sobre metanfetamina o catinonas [fuente no localizada]. Algunas soluciones orales de antirretrovirales contienen etanol o propilenglicol, y la ficha advierte del aumento de toxicidad del propilenglicol y de la reacción con preparados que contienen alcohol (4.5) [fuente no localizada para el contenido de los antirretrovirales]. No hay datos sobre GHB/GBL, MDMA, poppers ni inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cocaina"
+       ],
+       "t": "contraindicado con cocaína"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "metronidazol en infecciones de transmisión sexual"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales con excipientes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Jørgensen CH et al. (2011). The efficacy of disulfiram for the treatment of alcohol use disorder. Alcohol Clin Exp Res 35:1749-1758 · PMID 21615426",
+    "Laaksonen E et al. (2008). A randomized, multicentre, open-label, comparative trial of disulfiram, naltrexone and acamprosate in the treatment of alcohol dependence. Alcohol Alcohol 43:53-61 · PMID 17965444",
+    "Pani PP et al. (2010). Disulfiram for the treatment of cocaine dependence. Cochrane Database Syst Rev 2010:CD007024 · PMID 20091613"
+   ],
+   "relAdd": [
+    "chemsex_ssex",
+    "psust"
+   ]
+  },
+  "metadona": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías sitúan el tratamiento agonista como base del abordaje de la dependencia de opioides: NICE TA114 recomienda metadona o buprenorfina oral, eligiendo caso por caso, ya recogido en esta ficha. Factores que orientan hacia la metadona son la mejor retención frente a la buprenorfina a dosis flexibles (Mattick 2014) y el fracaso previo con buprenorfina; hacia la buprenorfina orientan el riesgo de sobredosis, la prolongación del QT o las interacciones (véase la ficha de buprenorfina) [fuente no localizada para la comparación global]. El panel de Krantz (2009) recomienda informar del riesgo de arritmia, preguntar por cardiopatía estructural, arritmias y síncope, y realizar ECG antes del inicio, a los 30 días y anualmente, con ECG adicional en dosis altas o ante síncope o convulsiones inexplicadas. En España se dispensa en programas de mantenimiento con metadona de los servicios autonómicos y del PNSD [fuente no localizada]. Indicaciones autorizadas: fichas técnicas de Metasedin y Eptadone (AEMPS-CIMA, 4.1).",
+     "links": [
+      {
+       "ids": [
+        "buprenorfina",
+        "buvidal"
+       ],
+       "t": "alternativa agonista parcial"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "cribado del QT"
+      },
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "trastorno por consumo de opioides"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Metasedin (4.8) señala como reacciones más graves la depresión respiratoria y la hipotensión, con casos de parada respiratoria, shock y parada cardiaca, y como más frecuentes mareo, sedación, náuseas, vómitos e hiperhidrosis; son frecuentes la retención de líquidos, la euforia, las alucinaciones, la visión borrosa y la miosis, y raras la bradicardia, la prolongación del QT y la torsade de pointes. Interacciones (4.5) no recogidas antes en esta ficha: ciprofloxacino eleva los niveles (CYP1A2 y CYP3A4) con riesgo de sedación y depresión respiratoria; el cannabidiol puede aumentarlos; la cimetidina potencia sus efectos; y antirretrovirales como nevirapina, efavirenz, ritonavir y abacavir pueden disminuirlos. Por su eliminación lenta, la tolerancia se desarrolla despacio y tras cada aumento de dosis puede aparecer depresión respiratoria al cabo de una o dos semanas (4.5). La revisión de McCance-Katz (2010) resume las interacciones de relevancia clínica entre metadona y otros fármacos y sustancias de abuso, frecuentes en esta población.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT y torsade de pointes"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Riesgo de muerte por depresión respiratoria en la inducción, tras aumentos de dosis y con depresores asociados: la ficha técnica de Metasedin (4.5) advierte que el alcohol potencia la sedación con hipotensión y depresión respiratoria graves, y que benzodiacepinas y gabapentinoides aumentan el riesgo de sobredosis y muerte; en chemsex, la extensión al GHB/GBL es una analogía farmacológica como depresor del SNC que la ficha no recoge [fuente no localizada]. QT (Krantz 2009): con QTc entre 450 y 500 ms, discutir riesgos y vigilar más; por encima de 500 ms, valorar reducir o suspender la metadona, eliminar factores contribuyentes como los fármacos que favorecen la hipopotasemia o recurrir a otra alternativa; el síncope inexplicado exige ECG. La ficha (4.5) recoge que nevirapina, efavirenz, ritonavir y abacavir pueden reducir los niveles, con casos de abstinencia, aunque también cita el ritonavir entre los inhibidores del CYP3A4 que reducen su aclaramiento: el efecto neto de un régimen potenciado obliga a vigilar abstinencia o sedación; la relación con la recaída no se ha contrastado [fuente no localizada]. Síndrome serotoninérgico con ISRS, IRSN, tricíclicos e IMAO (4.5); con MDMA o catinonas no hay datos en la ficha [fuente no localizada]. La buprenorfina y los antagonistas precipitan abstinencia. Disponer de naloxona.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL y depresión respiratoria"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "ritonavir e inductores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Krantz MJ et al. (2009). QTc interval screening in methadone treatment. Ann Intern Med 150:387-395 · PMID 19153406",
+    "McCance-Katz EF et al. (2010). Drug interactions of clinical importance among the opioids, methadone and buprenorphine, and other frequently prescribed medications: a review. Am J Addict 19:4-16 · PMID 20132117"
+   ],
+   "relAdd": [
+    "ghb_gbl",
+    "sind_ser"
+   ]
+  },
+  "buvidal": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías clásicas de tratamiento agonista (NICE TA114) son anteriores a la formulación depot, y su lugar se apoya en ensayos recientes: en el ensayo australiano DEBUT (Lintzeris 2021; 119 personas estabilizadas con buprenorfina sublingual), la depot semanal o mensual mejoró la satisfacción con el tratamiento a las 24 semanas (82,5 frente a 74,3 puntos; diferencia 8,2; IC 95 % 1,7-14,6) y redujo la carga del tratamiento, sin abandonos por efectos adversos. En el estudio abierto de 48 semanas (Frost 2019; 227 personas), el 73,6 % completó el tratamiento y en quienes procedían de la vía sublingual el 82,8 % de las determinaciones combinadas fueron negativas para opioides. Su uso en personas que valoran la reducción de visitas o la confidencialidad, para evitar el desvío, en prisiones o en zonas de difícil acceso es un criterio clínico no contrastado en guías [fuente no localizada], y no se han localizado comparaciones directas frente a metadona [fuente no localizada]. La situación de comercialización de cada presentación es la de CIMA, ya resumida en esta ficha. Las recomendaciones españolas del PNSD sobre su uso no se han localizado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "buprenorfina"
+       ],
+       "t": "estabilización previa con sublingual"
+      },
+      {
+       "ids": [
+        "metadona"
+       ],
+       "t": "sin comparación directa con metadona"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Buvidal (4.5) indica que no se han realizado estudios de interacciones con el producto y extrapola los de la buprenorfina: metabolismo a norbuprenorfina por CYP3A4 y glucuronidación por UGT1A1. Al evitar el primer paso, se espera que los inhibidores del CYP3A4 (inhibidores de la proteasa como ritonavir, antifúngicos azólicos, macrólidos) tengan menos efecto que con la vía sublingual; si se inicia un inhibidor en una persona que ya recibe Buvidal, la ficha indica pasar a la presentación semanal y vigilar signos de exceso de efecto, y si se retira, vigilar la abstinencia. Riesgo de síndrome serotoninérgico con IMAO, ISRS, IRSN y tricíclicos. En el estudio de 48 semanas, el 20,3 % presentó reacciones en el punto de inyección, casi todas leves o moderadas, y no hubo acontecimientos adversos graves atribuidos al fármaco (Frost 2019); en DEBUT, el 65 % del grupo depot tuvo reacciones adversas, sobre todo locales y leves (Lintzeris 2021).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "ritonavir y otros inhibidores del CYP3A4"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Benzodiacepinas: la ficha técnica de Buvidal (4.5) advierte que la combinación puede causar la muerte por depresión respiratoria y pide advertir a la persona del peligro de autoadministrarse benzodiacepinas no prescritas; lo mismo con gabapentinoides (depresión respiratoria, sedación profunda, coma o muerte) y con el alcohol, que aumenta la sedación. La extensión al GHB/GBL es una analogía como depresor del SNC que la ficha no recoge [fuente no localizada]. Un efecto adverso grave no puede revertirse retirando el depósito con rapidez, por lo que la depresión respiratoria puede requerir naloxona repetida y vigilancia prolongada [fuente no localizada]. En personas con VIH, empezar o suspender un inhibidor del CYP3A4 como el ritonavir obliga a vigilar exceso de efecto o abstinencia (4.5); la ficha no nombra el cobicistat [fuente no localizada]. La analgesia con opioides completos puede ser difícil y conlleva riesgo de sobredosis si se intenta superar el bloqueo parcial. Naltrexona y nalmefeno precipitan abstinencia. No hay datos sobre catinonas, metanfetamina, MDMA, poppers ni inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "benzodiacepinas"
+      },
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      },
+      {
+       "ids": [
+        "naltrexona",
+        "nalmefeno"
+       ],
+       "t": "antagonistas que precipitan abstinencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lintzeris N et al. (2021). Patient-reported outcomes of treatment of opioid dependence with weekly and monthly subcutaneous depot vs daily sublingual buprenorphine: a randomized clinical trial. JAMA Netw Open 4:e219041 · PMID 33970256",
+    "Frost M et al. (2019). Long-term safety of a weekly and monthly subcutaneous buprenorphine depot (CAM2038) in the treatment of adult out-patients with opioid use disorder. Addiction 114:1416-1426 · PMID 31013390",
+    "NICE (2007). Methadone and buprenorphine for the management of opioid dependence (TA114)"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "nalmefeno",
+    "naltrexona"
+   ]
+  },
+  "vareniclina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG209 (1.12.8) la incluye entre las opciones con más probabilidad de éxito junto con la citisiniclina, la TSN combinada y el cigarrillo electrónico con nicotina, siempre con apoyo conductual, en línea con el análisis en red de Lindson (2023). Tres ensayos amplían su uso a situaciones frecuentes en consulta. En personas que no están dispuestas a dejar de fumar en el mes siguiente pero sí a reducir y a intentarlo en tres meses, la vareniclina con objetivo de reducción progresiva logró una abstinencia continuada en las semanas 15-24 del 32,1 % frente al 6,9 % con placebo (RR 4,6) y del 27,0 % frente al 9,9 % en las semanas 21-52 (Ebbert 2015). Añadir un parche de nicotina aumentó la abstinencia continuada a las 12 semanas (55,4 % frente a 40,9 %; OR 1,85) y a las 24 semanas (49,0 % frente a 32,6 %) (Koegelenberg 2014). Añadir bupropión mejoró la abstinencia prolongada a las 12 y 26 semanas, pero no a las 52, con más ansiedad y síntomas depresivos (Ebbert 2014). Las recomendaciones españolas del Comité Nacional para la Prevención del Tabaquismo y de la SEPAR van en la misma línea [fuente no localizada]. Indicación autorizada: ayuda para dejar de fumar en adultos (fichas técnicas AEMPS-CIMA, 4.1), con presentaciones de Champix y genéricos comercializadas según CIMA.",
+     "links": [
+      {
+       "ids": [
+        "nicotina_tsn"
+       ],
+       "t": "combinación con parche de nicotina"
+      },
+      {
+       "ids": [
+        "bupropion_tab"
+       ],
+       "t": "combinación con bupropión"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "trastorno por consumo de tabaco"
+      },
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "personas aún no dispuestas a dejar de fumar"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Según la ficha técnica de Champix (4.8), basada en datos agrupados de 18 ensayos controlados con unas 5000 personas tratadas, la reacción adversa más frecuente es la náusea (28,6 %), en general temprana, leve o moderada y que rara vez obliga a retirar el fármaco; la ficha advierte que no se diferenciaron las reacciones del fármaco de las de la abstinencia de nicotina (disforia, insomnio, irritabilidad, ansiedad, aumento del apetito). Interacciones (4.5): no tiene interacciones clínicamente significativas; su metabolismo supone menos del 10 % del aclaramiento, por lo que los fármacos que actúan sobre el citocromo P450 no alteran previsiblemente su farmacocinética, y no modifica la de metformina, digoxina ni warfarina; la cimetidina aumenta su exposición un 29 % y debe evitarse en la insuficiencia renal grave; los datos sobre la interacción con el alcohol son insuficientes. En la combinación con parche de nicotina, las reacciones cutáneas fueron más frecuentes que con vareniclina sola (14,4 % frente a 7,8 %; Koegelenberg 2014).",
+     "links": [
+      {
+       "ids": [
+        "nicotina_tsn"
+       ],
+       "t": "combinación con TSN"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La ficha técnica de Champix (4.4) pide indicar a la persona que comunique cualquier síntoma cardiovascular nuevo o su empeoramiento y que solicite atención inmediata ante signos de infarto o ictus; en EAGLES y su extensión (Benowitz 2018; 8058 personas), la incidencia de acontecimientos cardiovasculares mayores fue inferior al 0,5 % y no difirió de placebo. Suspender ante hinchazón de cara, lengua o garganta: se han notificado casos raros de angioedema potencialmente mortal con compromiso respiratorio (4.4). Vigilar el ánimo, la conducta y la ideación suicida, como ya se recoge en esta ficha. En chemsex: la ficha describe más efectos embriagadores del alcohol en poscomercialización; no hay datos sobre GHB/GBL, catinonas, metanfetamina, MDMA, poppers ni inhibidores de la PDE5 [fuente no localizada]. Con antirretrovirales potenciados no se esperan interacciones por citocromo dada su eliminación renal (4.5), aunque no hay estudios específicos [fuente no localizada]. Al dejar de fumar pueden subir los niveles de fármacos metabolizados por CYP1A2, como clozapina u olanzapina.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "vigilancia neuropsiquiátrica"
+      },
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "CYP1A2 al dejar de fumar"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ebbert JO et al. (2015). Effect of varenicline on smoking cessation through smoking reduction: a randomized clinical trial. JAMA 313:687-694 · PMID 25688780",
+    "Koegelenberg CF et al. (2014). Efficacy of varenicline combined with nicotine replacement therapy vs varenicline alone for smoking cessation: a randomized clinical trial. JAMA 312:155-161 · PMID 25005652",
+    "Ebbert JO et al. (2014). Combination varenicline and bupropion SR for tobacco-dependence treatment in cigarette smokers: a randomized trial. JAMA 311:155-163 · PMID 24399554",
+    "Benowitz NL et al. (2018). Cardiovascular safety of varenicline, bupropion, and nicotine patch in smokers: a randomized clinical trial. JAMA Intern Med 178:622-631 · PMID 29630702"
+   ],
+   "relAdd": [
+    "ideac_suic"
+   ]
+  },
+  "citisina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG209, en su actualización de 2025 (1.12.8), la sitúa junto a la vareniclina y la terapia sustitutiva combinada, en línea con Lindson (2023); su bajo coste es un argumento de salud pública destacado en el primer ensayo controlado con placebo (West 2011). En ese ensayo polaco (740 personas, con la pauta corta clásica y apoyo mínimo), la abstinencia mantenida a los 12 meses fue del 8,4 % frente al 2,4 % con placebo (diferencia de 6,0 puntos; IC 95 % 2,7-9,2), con más efectos adversos digestivos. En el ensayo estadounidense ORCA-2 (Rigotti 2023; 810 personas), con una pauta y una duración distintas de las autorizadas en España y apoyo conductual, la rama de tratamiento más prolongado logró una abstinencia continuada hasta la semana 24 del 21,1 % frente al 4,8 % con placebo; esos datos no son directamente trasladables a la pauta de Todacitan. En la comparación con vareniclina, ya citada (Courtney 2021), no se demostró la no inferioridad. Las guías españolas de tabaquismo la incluyen como opción de primera línea [fuente no localizada]. Indicación y pauta: ficha técnica de Todacitan (AEMPS-CIMA, 4.1-4.2), ya resumida en esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "vareniclina"
+       ],
+       "t": "comparación con vareniclina"
+      },
+      {
+       "ids": [
+        "nicotina_tsn"
+       ],
+       "t": "terapia sustitutiva combinada"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "trastorno por consumo de tabaco"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Según la ficha técnica de Todacitan (4.8), la proporción de abandonos por reacciones adversas fue del 6-15,5 %, similar a placebo en los estudios controlados; las reacciones fueron en general leves o moderadas, sobre todo digestivas, aparecieron al inicio y desaparecieron durante el tratamiento, y pueden deberse en parte al abandono del tabaco. Figuran como muy frecuentes el aumento del apetito y del peso, el mareo, la irritabilidad, los cambios de humor, la ansiedad, los trastornos del sueño (insomnio, somnolencia, sueños anormales, pesadillas), la cefalea, la taquicardia, la hipertensión, la sequedad de boca, la diarrea, las náuseas, la alteración del gusto y la pirosis. En ORCA-2, las náuseas, los sueños anormales y el insomnio aparecieron en menos del 10 % de cada grupo y el 2,9 % abandonó la citisiniclina por efectos adversos, sin acontecimientos graves relacionados (Rigotti 2023). Su excreción renal mayoritariamente inalterada hace poco probables las interacciones por citocromo [fuente no localizada]."
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Además de las contraindicaciones cardiovasculares ya recogidas, la taquicardia y la hipertensión figuran como muy frecuentes en la ficha técnica de Todacitan (4.8), lo que justifica controlar la presión arterial y la frecuencia cardiaca en personas con riesgo cardiovascular. Seguir fumando durante el tratamiento agrava las reacciones adversas nicotínicas (4.2, 4.5). NICE NG209 no la recomienda en menores de 18 años ni a partir de los 66 (1.12.4-1.12.5). La ficha desaconseja su uso con antituberculosos (4.5). En chemsex: el uso de estimulantes (metanfetamina, catinonas, cocaína) puede sumar efectos simpaticomiméticos a la taquicardia y la hipertensión descritas, sin estudios específicos [fuente no localizada]; no hay datos sobre GHB/GBL, MDMA, poppers, inhibidores de la PDE5 ni antirretrovirales potenciados [fuente no localizada]. La precaución en la esquizofrenia (4.4) obliga a vigilar el estado mental, y al dejar de fumar pueden aumentar los niveles de clozapina y olanzapina.",
+     "links": [
+      {
+       "ids": [
+        "metanf",
+        "mefed",
+        "cocaina"
+       ],
+       "t": "estimulantes y efectos simpaticomiméticos"
+      },
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "niveles de clozapina al dejar de fumar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "West R et al. (2011). Placebo-controlled trial of cytisine for smoking cessation. N Engl J Med 365:1193-1200 · PMID 21991893",
+    "Rigotti NA et al. (2023). Cytisinicline for smoking cessation: a randomized clinical trial. JAMA 330:152-160 · PMID 37432430"
+   ],
+   "relAdd": [
+    "clozapina_monit"
+   ]
+  },
+  "bupropion_tab": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG209 (1.12.9) lo incluye entre las opciones con menor probabilidad de éxito, frente a la vareniclina, la citisiniclina y la terapia sustitutiva combinada (1.12.8), coherente con Lindson (2023); en EAGLES fue menos eficaz que la vareniclina. En el ensayo de Jorenby (1999; 893 personas sin depresión clínica), la abstinencia a los 12 meses fue del 30,3 % con bupropión, del 16,4 % con parche de nicotina y del 15,6 % con placebo; la combinación con parche alcanzó el 35,5 %, sin diferencia significativa frente al bupropión solo, y se asoció a menor ganancia de peso a las 7 semanas. Su combinación con vareniclina mejoró la abstinencia prolongada a corto plazo, pero no a las 52 semanas, con más ansiedad y síntomas depresivos (Ebbert 2014). Resulta útil cuando la persona prefiere un tratamiento no nicotínico y la vareniclina o la citisina no son adecuadas; su valor en la depresión comórbida descansa en su perfil antidepresivo más que en ensayos específicos de deshabituación [fuente no localizada]. Indicación autorizada: ficha técnica de Zyntabac (AEMPS-CIMA, 4.1), ya resumida en esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "vareniclina",
+        "citisina",
+        "nicotina_tsn"
+       ],
+       "t": "opciones de primera línea"
+      },
+      {
+       "ids": [
+        "bupropion"
+       ],
+       "t": "bupropión como antidepresivo"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "depresión comórbida"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "A lo ya descrito sobre el CYP2D6, la ficha técnica de Zyntabac (4.5) añade que se metaboliza a hidroxibupropión principalmente por CYP2B6: inhibidores como clopidogrel, ticlopidina u orfenadrina elevan el bupropión y reducen el metabolito, con consecuencias clínicas desconocidas; inductores como carbamazepina, fenitoína, ritonavir y efavirenz reducen su exposición (ritonavir, entre un 20 y un 80 % según la dosis; efavirenz, en torno al 55 %). Aumenta la exposición al citalopram (Cmax un 30 % y AUC un 40 %) y puede reducir los niveles de digoxina, que suben al retirarlo. Con fármacos que reducen el umbral convulsivo solo debe usarse si el beneficio lo justifica. En Jorenby (1999), el insomnio y la cefalea fueron los efectos adversos más frecuentes y el 11,9 % abandonó por efectos adversos. En EAGLES y su extensión no aumentó los acontecimientos cardiovasculares mayores frente a placebo (Benowitz 2018).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "ritonavir y efavirenz reducen su exposición"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Suspender y no reiniciar ante una convulsión. En chemsex y en personas con VIH: los antirretrovirales potenciados con ritonavir y el efavirenz reducen la exposición al bupropión, y la ficha técnica de Zyntabac (4.5) admite aumentar la dosis sin superar nunca la dosis máxima recomendada, por el riesgo convulsivo. La retirada brusca de alcohol o de benzodiacepinas es contraindicación (4.3); la abstinencia de GHB/GBL comparte el riesgo convulsivo, aunque la ficha no la nombra [fuente no localizada]. El consumo de estimulantes (metanfetamina, catinonas, cocaína) puede reducir el umbral convulsivo y sumar efectos noradrenérgicos y dopaminérgicos [fuente no localizada]; la inhibición del CYP2D6 podría aumentar la exposición a la MDMA, que se metaboliza por esa vía [fuente no localizada]. Síndrome serotoninérgico descrito con ISRS e IRSN (4.5). El antecedente de trastorno bipolar es contraindicación (4.3), y se han notificado raramente menor tolerancia al alcohol y acontecimientos neuropsiquiátricos con su consumo (4.5). Vigilar la aparición de síntomas psicóticos, maníacos o ideación suicida, y recordar que el ánimo bajo puede ser síntoma de la abstinencia de nicotina (4.4).",
+     "links": [
+      {
+       "ids": [
+        "ghb_abst"
+       ],
+       "t": "abstinencia de GHB/GBL"
+      },
+      {
+       "ids": [
+        "metanf",
+        "catinonas_nuevas"
+       ],
+       "t": "estimulantes y umbral convulsivo"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Jorenby DE et al. (1999). A controlled trial of sustained-release bupropion, a nicotine patch, or both for smoking cessation. N Engl J Med 340:685-691 · PMID 10053177",
+    "Ebbert JO et al. (2014). Combination varenicline and bupropion SR for tobacco-dependence treatment in cigarette smokers: a randomized trial. JAMA 311:155-163 · PMID 24399554",
+    "Benowitz NL et al. (2018). Cardiovascular safety of varenicline, bupropion, and nicotine patch in smokers: a randomized clinical trial. JAMA Intern Med 178:622-631 · PMID 29630702",
+    "NICE (2025). Tobacco: preventing uptake, promoting quitting and treating dependence (NG209; publicada en 2021 y actualizada en 2025)",
+    "Lindson N et al. (2023). Pharmacological and electronic cigarette interventions for smoking cessation in adults: component network meta-analyses. Cochrane Database Syst Rev 9:CD015226 · PMID 37696529"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "ghb_abst"
+   ]
+  },
+  "nicotina_tsn": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG209 (1.12.8-1.12.9) señala que la combinación de TSN de acción corta y de acción prolongada tiene más probabilidad de éxito, y cada forma por separado menos. La revisión Cochrane de Theodoulou (2023; 68 estudios, 43 327 participantes) aporta evidencia de certeza alta de que la combinación de parche y forma rápida supera a una sola forma (RR 1,27; IC 95 % 1,17-1,37), de que la forma rápida y el parche en solitario tienen eficacia similar (RR 0,90) y de que el chicle de mayor concentración es más eficaz que el de menor; con certeza moderada, empezar la TSN antes del día de abandono mejora la abstinencia (RR 1,25). Combinar el parche con vareniclina aumentó la abstinencia frente a vareniclina sola (Koegelenberg 2014). En el embarazo, la TSN aumentó la abstinencia al final de la gestación con certeza baja (RR 1,37), efecto que no se confirmó en los ensayos controlados con placebo, sin diferencias en abortos, mortinatos, prematuridad, peso al nacer ni malformaciones (Claire 2020). Indicaciones autorizadas y pautas: fichas técnicas AEMPS-CIMA de cada presentación, comercializadas según CIMA.",
+     "links": [
+      {
+       "ids": [
+        "vareniclina"
+       ],
+       "t": "combinación con vareniclina"
+      },
+      {
+       "ids": [
+        "dep_embarazo",
+        "emb_peri"
+       ],
+       "t": "tabaquismo en el embarazo"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "trastorno por consumo de tabaco"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Nicorette Clear parches (4.8) indica que las reacciones adversas dependen de la dosis y aparecen sobre todo al inicio; alrededor del 20 % presenta reacciones cutáneas leves en las primeras semanas y raramente reacciones alérgicas, incluida la anafilaxia. La ficha advierte que los síntomas de abstinencia de nicotina (humor deprimido, insomnio, irritabilidad, ansiedad, dificultad de concentración, aumento del apetito, mareo, tos, estreñimiento, aftas) pueden confundirse con efectos adversos. En Theodoulou (2023), los acontecimientos cardiacos y graves se midieron de forma irregular y con certeza baja o muy baja, con tasas bajas en general; los abandonos por efectos adversos fueron más frecuentes con el aerosol nasal que con los parches y con los parches de concentración más alta. En el embarazo se describieron cefalea, náuseas y reacciones locales, sin datos agrupables (Claire 2020)."
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Además de las precauciones cardiovasculares y metabólicas ya recogidas, conviene vigilar signos de exceso de nicotina (náuseas, mareo, palpitaciones), sobre todo si la persona sigue fumando con dosis altas [fuente no localizada], y guardar parches y chicles fuera del alcance de niños y mascotas por el riesgo de intoxicación [fuente no localizada]. En el embarazo, la ficha de Nicotinell (4.6) aconseja intentar primero el abandono sin TSN, mientras que NICE NG209 (1.20.6-1.20.7) recomienda considerarla con apoyo conductual desde el inicio de la gestación; conviene informar de la incertidumbre sobre su eficacia (Claire 2020). En chemsex: los estimulantes (metanfetamina, catinonas, cocaína) pueden sumar efectos simpaticomiméticos a la nicotina, sin estudios específicos [fuente no localizada]; no se conocen interacciones relevantes con GHB/GBL, MDMA, poppers, inhibidores de la PDE5 ni antirretrovirales potenciados [fuente no localizada]. Al dejar de fumar, con o sin TSN, se pierde la inducción del CYP1A2 y deben revisarse los niveles de clozapina y olanzapina.",
+     "links": [
+      {
+       "ids": [
+        "metanf",
+        "cocaina"
+       ],
+       "t": "estimulantes"
+      },
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "niveles de clozapina al dejar de fumar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Theodoulou A et al. (2023). Different doses, durations and modes of delivery of nicotine replacement therapy for smoking cessation. Cochrane Database Syst Rev 6:CD013308 · PMID 37335995",
+    "Claire R et al. (2020). Pharmacological interventions for promoting smoking cessation during pregnancy. Cochrane Database Syst Rev 3:CD010078 · PMID 32129504",
+    "Koegelenberg CF et al. (2014). Efficacy of varenicline combined with nicotine replacement therapy vs varenicline alone for smoking cessation: a randomized clinical trial. JAMA 312:155-161 · PMID 25005652"
+   ],
+   "relAdd": [
+    "emb_peri"
+   ]
+  },
+  "psicof_lactancia": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías comparten un principio: la decisión se individualiza y no se debe suspender por sistema ni la lactancia ni un tratamiento eficaz. La Academia Americana de Pediatría señala que solo una pequeña proporción de fármacos está contraindicada en la lactancia o se asocia a efectos en el lactante, por lo que la actitud de suspender por precaución es innecesaria en muchos casos, y remite a LactMed como fuente actualizada (Sachs 2013). La guía danesa de psicofármacos en el embarazo y la lactancia, elaborada por cuatro sociedades científicas, insiste en discutir con la mujer si el fármaco es necesario durante el embarazo y cómo administrarlo (Larsen 2015); sus recomendaciones concretas sobre la lactancia no figuran en el resumen [fuente no localizada]; ACOG (2023) y Howard (2014), ya citados, siguen la misma lógica. En el tratamiento agonista opioide, la ficha técnica de Metasedin (4.6) admite la lactancia cuando el beneficio supera el riesgo, valorando si la dosis de mantenimiento es estable y si hay consumo continuado de sustancias, y la ficha de Buvidal pide precaución; el protocolo n.º 21 de la Academy of Breastfeeding Medicine se dedica a la lactancia en el consumo de sustancias (Reece-Stremtan 2015), aunque su resumen no recoge recomendaciones concretas [fuente no localizada para su contenido]. NICE CG192 y las recomendaciones españolas (e-lactancia, Comité de Lactancia de la AEP) se consultan para cada fármaco [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina",
+        "buvidal"
+       ],
+       "t": "tratamiento agonista y lactancia"
+      },
+      {
+       "ids": [
+        "dpp",
+        "ppp"
+       ],
+       "t": "trastornos mentales del posparto"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "antidepresivos"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La exposición del lactante depende de propiedades del fármaco (baja unión a proteínas, liposolubilidad, bajo peso molecular, semivida larga y metabolitos activos aumentan el paso a la leche) y del niño (prematuridad e inmadurez hepática y renal reducen la eliminación); una dosis relativa del lactante inferior al 10 % se considera orientativamente aceptable [fuente no localizada]. La ficha técnica de Metasedin (4.6) indica que la metadona pasa a la leche en niveles bajos y que la lactancia podría prevenir el síndrome de abstinencia neonatal en recién nacidos expuestos en el útero; la buprenorfina y sus metabolitos se excretan en la leche (ficha de Buvidal, 4.6). Los antidepresivos, el litio, la lamotrigina y el valproato se detallan en el resumen de esta ficha. Para fármacos nuevos o de uso poco frecuente en la lactancia, la ausencia de datos no equivale a seguridad: conviene preferir alternativas con experiencia acumulada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "metadona"
+       ],
+       "t": "metadona en la leche"
+      },
+      {
+       "ids": [
+        "litio_embarazo",
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Signos de alarma en el lactante: somnolencia excesiva, dificultad para despertar, succión débil, pausas respiratorias, escasa ganancia de peso o irritabilidad marcada; obligan a valoración pediátrica inmediata. La ficha técnica de Metasedin (4.6) pide vigilar sedación y dificultades respiratorias del bebé y retirar la lactancia de forma gradual, porque un destete brusco puede aumentar la abstinencia del lactante. El riesgo aumenta con la combinación de sedantes, la prematuridad y el colecho tras tomar fármacos sedantes o alcohol [fuente no localizada]. El consumo activo de sustancias (alcohol, GHB/GBL, metanfetamina, catinonas, MDMA, cocaína, ketamina) durante la lactancia expone al lactante sin datos de seguridad y suele desaconsejarse mientras persista [fuente no localizada]; en chemsex conviene planificar la extracción y el desecho de la leche tras el consumo y la alternativa de alimentación [fuente no localizada]. En madres con VIH, la decisión sobre la lactancia sigue las recomendaciones específicas de VIH [fuente no localizada]. Documentar la decisión y coordinar con pediatría.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "consumo de sustancias en el posparto"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "metanf"
+       ],
+       "t": "sustancias del chemsex"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "VIH y lactancia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sachs HC et al. (2013). The transfer of drugs and therapeutics into human breast milk: an update on selected topics. Pediatrics 132:e796-e809 · PMID 23979084",
+    "Larsen ER et al. (2015). Use of psychotropic drugs during pregnancy and breast-feeding. Acta Psychiatr Scand Suppl (445):1-28 · PMID 26344706",
+    "Reece-Stremtan S et al. (2015). ABM clinical protocol #21: guidelines for breastfeeding and substance use or substance use disorder, revised 2015. Breastfeed Med 10:135-141 · PMID 25836677",
+    "AEMPS-CIMA (2026). Fichas técnicas Metasedin 30 mg comprimidos (n.º registro 62422) y Buvidal 8 mg solución inyectable de liberación prolongada (n.º registro 1181336001), apartado 4.6; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "metadona",
+    "buvidal",
+    "buprenorfina"
+   ]
+  },
+  "ketamina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En España la única ketamina racémica registrada en CIMA es Ketolar, cuya indicación autorizada es la anestesia en intervenciones diagnósticas y quirúrgicas (ficha técnica, 4.1); su uso antidepresivo es fuera de ficha técnica. La esketamina intranasal sí está autorizada y se desarrolla en su propia ficha, sin que esto la sitúe por encima de otras opciones. El grupo de trabajo de CANMAT concluyó que la infusión intravenosa única de ketamina racémica tiene evidencia de nivel 1 en la depresión resistente, que las infusiones repetidas o de mantenimiento solo tienen nivel 3 y que las formulaciones no intravenosas tienen nivel 3 o 4; la consideró una recomendación de tercera línea y limitó las formas orales y otras vías a especialistas vinculados a centros terciarios, por la escasa evidencia y el riesgo de uso indebido y desvío (Swainson 2021). En el ensayo ELEKT-D, en depresión resistente sin síntomas psicóticos, la ketamina fue no inferior a la TEC (respuesta del 55,4 % frente al 41,2 %), con disociación frente a afectación de la memoria con TEC (Anand 2023); el resultado no se extiende a la depresión psicótica, excluida del ensayo. La decisión frente a TEC, EMT u otras potenciaciones se individualiza.",
+     "links": [
+      {
+       "ids": [
+        "esketamina"
+       ],
+       "t": "esketamina intranasal autorizada"
+      },
+      {
+       "ids": [
+        "tec_dep"
+       ],
+       "t": "comparación con TEC"
+      },
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      },
+      {
+       "ids": [
+        "emt"
+       ],
+       "t": "estimulación magnética transcraneal"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Ketolar (4.4) describe una elevación de la presión arterial poco después de la administración, máxima a los pocos minutos, que vuelve a valores basales en unos 15 minutos, con una mediana de aumento del 20-25 %, y reacciones de salida de la anestesia en torno al 12 % (imágenes vívidas, alucinaciones, pesadillas, delirio, sensaciones disociativas), con recurrencias hasta 24 horas después. Interacciones (4.5): los inhibidores del CYP3A4 aumentan sus concentraciones; el diazepam prolonga su semivida; el etanol y otros depresores del SNC potencian la depresión respiratoria; las hormonas tiroideas elevan el riesgo de hipertensión y taquicardia; los simpaticomiméticos aumentan sus efectos simpaticomiméticos; con teofilina o aminofilina se han descrito convulsiones. La revisión sistemática de Short (2018) halló, tras dosis agudas en depresión, más efectos psiquiátricos, psicotomiméticos, cardiovasculares y neurológicos que con placebo, y una evaluación limitada y con sesgo de notificación de la seguridad con dosis repetidas y a largo plazo.",
+     "links": [
+      {
+       "ids": [
+        "esketamina"
+       ],
+       "t": "perfil de la esketamina"
+      },
+      {
+       "ids": [
+        "ketamina_rec"
+       ],
+       "t": "efectos disociativos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Contraindicaciones de la ficha técnica de Ketolar (4.3): personas en las que la elevación de la presión arterial suponga un peligro grave, eclampsia y preeclampsia. Precauciones (4.4): esquizofrenia o psicosis aguda, hipertensión intracraneal o intraocular, convulsiones, hipertiroidismo, cardiopatía isquémica e intoxicación etílica; requiere equipo de reanimación. La ficha no lo indica ni recomienda a largo plazo; el uso prolongado se asocia a cistitis, incluida la hemorrágica, lesión renal aguda, hidronefrosis y hepatotoxicidad (4.4); en el consumo frecuente predominan la cistitis ulcerosa, los déficits de memoria y la dependencia (Morgan 2012). Riesgo de abuso: la ketamina es una droga de uso recreativo y del contexto de chemsex (Bracchi 2015), lo que obliga a explorar el consumo antes de indicarla. El etanol y otros depresores del SNC potencian la depresión respiratoria (4.5); aplicarlo al GHB/GBL es una analogía no recogida en la ficha [fuente no localizada]. Según la ficha, los simpaticomiméticos directos o indirectos aumentan sus efectos simpaticomiméticos y los inhibidores del CYP3A4 elevan su concentración (4.5); incluir en esos grupos a la metanfetamina y las catinonas, o al ritonavir y el cobicistat, es inferencia, no texto de la ficha [fuente no localizada]; el mayor riesgo de interacción con drogas del chemsex se da con regímenes potenciados (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec"
+       ],
+       "t": "ketamina recreativa y cistitis"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "ghb_gbl"
+       ],
+       "t": "chemsex y depresores"
+      },
+      {
+       "ids": [
+        "metanf",
+        "catinonas_nuevas"
+       ],
+       "t": "simpaticomiméticos"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Swainson J et al. (2021). The Canadian Network for Mood and Anxiety Treatments (CANMAT) task force recommendations for the use of racemic ketamine in adults with major depressive disorder. Can J Psychiatry 66:113-125 · PMID 33174760",
+    "Anand A et al. (2023). Ketamine versus ECT for nonpsychotic treatment-resistant major depression. N Engl J Med 388:2315-2325 · PMID 37224232",
+    "Short B et al. (2018). Side-effects associated with ketamine use in depression: a systematic review. Lancet Psychiatry 5:65-78 · PMID 28757132",
+    "Morgan CJ et al. (2012). Ketamine use: a review. Addiction 107:27-38 · PMID 21777321",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica Ketolar 50 mg/ml solución inyectable (ketamina) (n.º registro 47034), apartados 4.1, 4.3, 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "tec_dep",
+    "chemsex_arv",
+    "chemsex_s"
+   ]
+  },
+  "psilocib": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Ninguna guía de práctica clínica recomienda la psilocibina ni la MDMA fuera de ensayos clínicos [fuente no localizada], y en CIMA no figura ningún medicamento autorizado con psilocibina ni con MDMA (consulta de noviembre de 2026). La evidencia sigue siendo de ensayos pequeños: frente a escitalopram, la psilocibina no difirió en la variable principal y las secundarias favorables no se corrigieron por comparaciones múltiples (Carhart-Harris 2021); en depresión mayor, una administración con apoyo psicológico redujo la MADRS frente a niacina (diferencia -12,3) (Raison 2023). En el TEPT, el segundo ensayo de fase III con MDMA asistida redujo el CAPS-5 (-23,7 frente a -14,8; d = 0,7) (Mitchell 2023), pero la FDA no aprobó la solicitud de midomafetamina para el TEPT (carta de respuesta completa de 8 de agosto de 2024) por falta de evidencia sustancial de eficacia y seguridad (efectos «positivos» no registrados, acontecimientos adversos no notificados, durabilidad no demostrada y posible sesgo de expectativa). En Australia se reclasificaron desde el 1 de julio de 2023 para su prescripción por psiquiatras autorizados, solo en TEPT (MDMA) y depresión resistente (psilocibina), según literatura indexada (Nutt 2024) [fuente oficial de la TGA no localizada]; la posición de la EMA no se ha leído en su web [fuente oficial no localizada]. COMP360 tiene ensayos de fase III en depresión resistente registrados (ClinicalTrials.gov NCT05624268 y NCT05711940).",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "ddm"
+       ],
+       "t": "depresión"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      },
+      {
+       "ids": [
+        "esketamina",
+        "ketamina"
+       ],
+       "t": "otros tratamientos de acción rápida"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La psilocibina es un profármaco que se convierte en psilocina, agonista de los receptores 5-HT2A, mecanismo que comparte con los alucinógenos clásicos; la MDMA libera serotonina, noradrenalina y dopamina y se metaboliza en parte por CYP2D6 [fuente no localizada]. En los ensayos, la incidencia de acontecimientos adversos con psilocibina fue similar a la del escitalopram (Carhart-Harris 2021), pero frente a niacina hubo más acontecimientos adversos globales y graves, sin acontecimientos adversos serios (Raison 2023). Con MDMA asistida, siete participantes tuvieron un acontecimiento adverso grave (9,4 % frente a 3,9 %), sin muertes ni acontecimientos serios (Mitchell 2023). Las interacciones farmacocinéticas son relevantes: un caso con ritonavir y saquinavir mostró un efecto prolongado de una dosis pequeña de MDMA y una reacción casi mortal a una dosis pequeña de GHB, atribuida por los autores a la inhibición del citocromo P450 (Harrington 1999). La atenuación del efecto por ISRS y el riesgo de convulsiones con litio se describen en series y notificaciones, sin fuente primaria verificada aquí [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "psicodel_5ht2a"
+       ],
+       "t": "agonismo 5-HT2A"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "ritonavir y MDMA o GHB"
+      },
+      {
+       "ids": [
+        "alucinogenos"
+       ],
+       "t": "alucinógenos clásicos y MDMA"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Fuera de los ensayos, el uso de psilocibina o MDMA es consumo de sustancias no autorizadas, y sus resultados no son extrapolables al uso recreativo ni al autotratamiento. Los ensayos excluyen a personas con antecedentes de psicosis o manía (Raison 2023); la exclusión por antecedentes familiares no se ha contrastado [fuente no localizada]. El riesgo de precipitar episodios psicóticos ya se señala en esta ficha. Con MDMA se esperan aumento de la presión arterial y de la frecuencia cardiaca, hipertermia e hiponatremia, sobre todo en contextos recreativos [fuente no localizada]. En chemsex y en personas con VIH: los antirretrovirales potenciados con ritonavir o cobicistat aumentan el riesgo de toxicidad de MDMA y GHB (Harrington 1999; Bracchi 2015); la combinación de MDMA con ISRS, IMAO, otros serotoninérgicos o catinonas aumenta el riesgo de síndrome serotoninérgico [fuente no localizada]; el uso de poppers e inhibidores de la PDE5 añade riesgo hemodinámico sin datos específicos [fuente no localizada]. Vigilar la conducta suicida tras sesiones con respuesta no mantenida [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "alucinogenos"
+       ],
+       "t": "consumo no terapéutico"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "poppers"
+       ],
+       "t": "poppers e inhibidores de la PDE5"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "psust"
+       ],
+       "t": "psicosis y manía"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Carhart-Harris R et al. (2021). Trial of psilocybin versus escitalopram for depression. N Engl J Med 384:1402-1411 · PMID 33852780",
+    "Raison CL et al. (2023). Single-dose psilocybin treatment for major depressive disorder: a randomized clinical trial. JAMA 330:843-853 · PMID 37651119",
+    "Mitchell JM et al. (2023). MDMA-assisted therapy for moderate to severe PTSD: a randomized, placebo-controlled phase 3 trial. Nat Med 29:2473-2480 · PMID 37709999",
+    "Harrington RD et al. (1999). Life-threatening interactions between HIV-1 protease inhibitors and the illicit drugs MDMA and gamma-hydroxybutyrate. Arch Intern Med 159:2221-2224 · PMID 10527300",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Búsqueda por principio activo en el Centro de Información online de Medicamentos: sin medicamentos autorizados con psilocibina ni con MDMA (midomafetamina); consulta de noviembre de 2026",
+    "U.S. Food and Drug Administration (2024). Complete response letter, NDA 215455, midomafetamine capsules (Lykos Therapeutics), 8 de agosto de 2024. Base de datos de cartas de respuesta completa de la FDA (openFDA); consulta de noviembre de 2026",
+    "Nutt DJ et al. (2024). The Australia story: current status and future challenges for the clinical applications of psychedelics. Br J Pharmacol 183:4048-4057 · PMID 39701143",
+    "ClinicalTrials.gov (2026). Registros NCT05624268 y NCT05711940: ensayos de fase III de COMP360 (psilocibina) en depresión resistente, COMPASS Pathways; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "esketamina",
+    "sind_ser"
+   ]
+  }
+ },
+ "add": []
+}
