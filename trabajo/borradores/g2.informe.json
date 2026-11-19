@@ -1,0 +1,205 @@
+{
+ "pmid_comprobados": 38,
+ "pmid_erroneos": 0,
+ "nota_pmid": "Los 37 PMID del parche original y el añadido (21428768) coinciden en autor, año, revista, volumen y páginas. Hubo dos atribuciones de contenido incorrectas (cifra 58-79 % atribuida implícitamente a Manolio 2009; FXTAS/insuficiencia ovárica atribuida a Finucane 2012), corregidas en «cambios». Bassett 2011 (PMID 21570089) no tiene resumen en PubMed.",
+ "cambios": [
+  {
+   "id": "apoe_psen",
+   "gravedad": "menor",
+   "antes": "casi todas las personas homocigotas ε4 presentaban patología de Alzheimer,",
+   "despues": "casi todas las personas homocigotas ε4 presentaban patología de Alzheimer (penetrancia casi completa de la biología de la enfermedad, que no equivale a certeza de demencia clínica),",
+   "fuente": "Fortea 2024, PMID 38710950 (resumen: «near-full penetrance of AD biology»)"
+  },
+  {
+   "id": "apoe_psen",
+   "gravedad": "menor",
+   "antes": "el efecto protector de ε2 se atenuó en población negra e hispana y no se observó en población del este de Asia",
+   "despues": "el efecto protector de ε2 se atenuó en población negra, no alcanzó significación en población hispana y no se observó en población del este de Asia",
+   "fuente": "Belloy 2023, PMID 37930705 (OR ε2 en hispanos 0,89; IC 95 % 0,72-1,10)"
+  },
+  {
+   "id": "apoe_psen",
+   "gravedad": "menor",
+   "antes": "se replicó, pero sus mecanismos son desconocidos (Belloy 2023).",
+   "despues": "se reprodujo y se replicó en población negra e hispana (Belloy 2023), pero sus mecanismos no están aclarados [fuente no localizada].",
+   "fuente": "Belloy 2023, PMID 37930705: el resumen no menciona mecanismos"
+  },
+  {
+   "id": "apoe_psen",
+   "gravedad": "mayor",
+   "antes": "La heredabilidad estimada en gemelos (58-79 %) supera con creces la explicada por APOE y los loci identificados (Manolio 2009, sobre la heredabilidad perdida en general)",
+   "despues": "La heredabilidad estimada en gemelos suecos (58-79 %; Gatz 2006, citada en la ficha) supera la explicada por APOE y los loci identificados [fuente no localizada], un ejemplo del problema general de la heredabilidad perdida (Manolio 2009)",
+   "fuente": "La cifra 58-79 % procede de Gatz 2006 (PMID 16461860, ya en la ficha), no de Manolio 2009 (PMID 19812666), cuyo resumen no da cifras de Alzheimer"
+  },
+  {
+   "id": "c4_complemento",
+   "gravedad": "menor",
+   "antes": "El hallazgo de C4 no tiene hoy aplicación diagnóstica, pronóstica ni terapéutica: genotipar C4A en una persona no está indicado y ninguna guía lo recomienda [fuente no localizada]. Su valor práctico es explicativo. Permite transmitir a pacientes y familias que la elevada heredabilidad de la esquizofrenia (81 % en el metaanálisis de doce estudios de gemelos, IC 95 % 73-90 %; Sullivan 2003; 79 % en …",
+   "despues": "El hallazgo de C4 no tiene hoy aplicación diagnóstica, pronóstica ni terapéutica: genotipar C4A en una persona no está indicado y ninguna guía lo recomienda [fuente no localizada]. Su valor práctico es explicativo. Permite transmitir a pacientes y familias que la elevada heredabilidad de la esquizofrenia (véase la ficha de heredabilidad) se reparte entre centenares de variantes comunes de efecto p…",
+   "fuente": "Regla 5 (no duplicar): las cifras de Sullivan 2003, Hilker 2018 y Trubetskoy 2022 ya figuran en las fichas hered_esq y gwas_pgc; se enlazan en lugar de repetirse"
+  },
+  {
+   "id": "c4_complemento",
+   "gravedad": "menor",
+   "antes": "refsAdd con Sullivan 2003 (PMID 14662550) y Hilker 2018 (PMID 28987712)",
+   "despues": "retiradas (ya citadas en hered_esq; el texto ya no las usa)",
+   "fuente": "node tools/q.js show hered_esq"
+  },
+  {
+   "id": "cnv_16p_1q",
+   "gravedad": "menor",
+   "antes": "Estas CNV aparecen con frecuencia en el diagnóstico prenatal,",
+   "despues": "Estas CNV se detectan también en el diagnóstico prenatal,",
+   "fuente": "Rosenfeld 2013, PMID 23258348 («encountered in the prenatal setting»; no cuantifica frecuencia)"
+  },
+  {
+   "id": "cyp2c19",
+   "gravedad": "menor",
+   "antes": "para el citalopram en ultrarrápidos, CPIC recomienda una alternativa no metabolizada por CYP2C19 (Bousman 2023, citada en la ficha) y el DPWG no exige ninguna acción; para la sertralina en intermedios, el DPWG tampoco recomienda cambios (Brouwer 2022).",
+   "despues": "para el citalopram en ultrarrápidos, CPIC recomienda considerar una alternativa no metabolizada predominantemente por CYP2C19, con fuerza de recomendación «fuerte» (Bousman 2023, citada en la ficha), y el DPWG no exige ninguna acción; para la sertralina en intermedios, CPIC propone una titulación más lenta y una dosis de mantenimiento menor (recomendación «moderada»), mientras que el DPWG no recomienda cambios (Brouwer 2022).",
+   "fuente": "Tablas de recomendación CPIC (api.cpicpgx.org, guía Bousman 2023, PMID 37032427), consulta de noviembre de 2026; Brouwer 2022, PMID 34782755"
+  },
+  {
+   "id": "cyp2d6",
+   "gravedad": "menor",
+   "antes": "Para la paroxetina en metabolizadores lentos, CPIC propone reducir la dosis inicial y de mantenimiento (Bousman 2023, citada en la ficha),",
+   "despues": "Para la paroxetina en metabolizadores lentos, CPIC propone reducir la dosis inicial, titular más despacio y reducir la de mantenimiento, con fuerza de recomendación «moderada» (Bousman 2023, citada en la ficha),",
+   "fuente": "Tablas de recomendación CPIC (api.cpicpgx.org, guía Bousman 2023, PMID 37032427), consulta de noviembre de 2026; Brouwer 2022, PMID 34782755"
+  },
+  {
+   "id": "cyp2d6",
+   "gravedad": "menor",
+   "antes": "Las pruebas directas al consumidor que informan de CYP2D6 deben confirmarse en un laboratorio clínico,",
+   "despues": "Las pruebas directas al consumidor que informan de CYP2D6 deben confirmarse en un laboratorio clínico [fuente no localizada],",
+   "fuente": "Sin fuente para la necesidad de confirmación; ESHG 2010 (PMID 20736974) exige calidad de laboratorio, no confirmación"
+  },
+  {
+   "id": "del22q",
+   "gravedad": "menor",
+   "antes": "La atención es multidisciplinar y está guiada por recomendaciones internacionales para la infancia (Bassett 2011) y para la edad adulta;",
+   "despues": "La atención es multidisciplinar y está guiada por recomendaciones internacionales de consenso (Bassett 2011) y por recomendaciones específicas para la edad adulta;",
+   "fuente": "Bassett 2011 (PMID 21570089) es una guía práctica general, no limitada a la infancia; sin resumen en PubMed"
+  },
+  {
+   "id": "del22q",
+   "gravedad": "mayor",
+   "antes": "el 13,4 % había desarrollado un trastorno psicótico a una edad media de 16 años,",
+   "despues": "el 13,4 % había recibido el diagnóstico de un trastorno psicótico, con una edad media de 16 años en la última evaluación psiquiátrica,",
+   "fuente": "Vorstman 2015, PMID 25715178: 16,1 años es la edad media en la evaluación más reciente, no la edad de inicio de la psicosis"
+  },
+  {
+   "id": "del22q",
+   "gravedad": "mayor",
+   "antes": "(13,4 % a una edad media de 16 años en el consorcio internacional; Vorstman 2015)",
+   "despues": "(13,4 % con una edad media de 16 años en la última evaluación, en el consorcio internacional; Vorstman 2015)",
+   "fuente": "Vorstman 2015, PMID 25715178"
+  },
+  {
+   "id": "etnopsicofarm",
+   "gravedad": "mayor",
+   "antes": "Las personas con competencia limitada en español tienen derecho a una información comprensible para consentir el análisis (art. 4.1, que exige formatos accesibles), lo que implica intérpretes y materiales adaptados.",
+   "despues": "El consentimiento para un análisis genético ha de ser expreso, específico y por escrito (art. 48.1), lo que en personas con competencia limitada en español exige intérpretes profesionales y materiales traducidos para que la información sea realmente comprensible [fuente no localizada].",
+   "fuente": "Ley 14/2007, art. 4.1 (BOE): los «formatos accesibles» se refieren a personas con discapacidad en investigación biomédica, no a la lengua; art. 48.1 verificado"
+  },
+  {
+   "id": "etnopsicofarm",
+   "gravedad": "menor",
+   "antes": " La información genética no debe usarse para inferir orientación sexual ni identidad de género, usos que carecen de base científica [fuente no localizada].",
+   "despues": "",
+   "fuente": "Afirmación ajena al objeto del nodo (farmacogenética y ancestría) y sin fuente; se retira por pertinencia"
+  },
+  {
+   "id": "etnopsicofarm",
+   "gravedad": "menor",
+   "antes": "Chen 2011 citado en el texto sin referencia en refsAdd",
+   "despues": "añadida la referencia Chen P et al. (2011) N Engl J Med 364:1126-1133 · PMID 21428768",
+   "fuente": "PubMed PMID 21428768 (resumen verificado: 4 877 personas, control histórico, ningún caso de SJS-TEN entre negativos frente a ~10 esperados)"
+  },
+  {
+   "id": "etnopsicofarm",
+   "gravedad": "menor",
+   "antes": "se asoció a una reducción de la incidencia de síndrome de Stevens-Johnson y necrólisis epidérmica tóxica frente a la incidencia histórica (Chen 2011;",
+   "despues": "se asoció a una reducción de la incidencia de síndrome de Stevens-Johnson y necrólisis epidérmica tóxica frente a la incidencia histórica, en un estudio sin grupo control concurrente (Chen 2011;",
+   "fuente": "Chen 2011, PMID 21428768 (control histórico)"
+  },
+  {
+   "id": "maoa_gxe",
+   "gravedad": "menor",
+   "antes": "y la conducta antisocial ha de evaluarse con instrumentos validados de valoración del riesgo y con la historia biográfica.",
+   "despues": "y la conducta antisocial ha de evaluarse con instrumentos validados de valoración del riesgo y con la historia biográfica [fuente no localizada].",
+   "fuente": "Recomendación sin fuente citada"
+  },
+  {
+   "id": "maoa_gxe",
+   "gravedad": "menor",
+   "antes": "solo halló tres loci prometedores con efectos discordantes por sexo, y la mejor puntuación poligénica explicó el 0,17 % de la varianza en una muestra independiente;",
+   "despues": "solo halló tres loci prometedores con efectos discordantes por sexo, y las puntuaciones poligénicas tuvieron una capacidad predictiva mínima (R² = 0,0017 en el modelo óptimo);",
+   "fuente": "Tielbeek 2017, PMID 28979981: el resumen da R² = 0,0017 sin precisar de forma inequívoca la muestra"
+  },
+  {
+   "id": "maoa_gxe",
+   "gravedad": "menor",
+   "antes": "Los GWAS disponibles son de ascendencia europea, y la señal poligénica es mínima y heterogénea por sexo (Tielbeek 2017).",
+   "despues": "El mayor GWAS disponible incluyó solo personas de ascendencia europea, y su señal poligénica fue mínima y heterogénea por sexo (Tielbeek 2017).",
+   "fuente": "Tielbeek 2017, PMID 28979981; la generalización a «los GWAS disponibles» no está documentada"
+  },
+  {
+   "id": "prader_willi",
+   "gravedad": "menor",
+   "antes": "Las series psiquiátricas son pequeñas y la mayoría procede de cohortes nacionales europeas (británica y neerlandesa), con diagnósticos establecidos a partir de viñetas clínicas o entrevistas a cuidadores, lo que limita la precisión en personas con discapacidad intelectual y escasa expresión verbal (Sinnema 2011).",
+   "despues": "Las series psiquiátricas son pequeñas y proceden sobre todo de cohortes europeas (británicas, Boer 2002 y Soni 2007, citadas en la ficha; neerlandesa, Sinnema 2011). En la neerlandesa, los diagnósticos se establecieron a partir de viñetas clínicas redactadas con entrevistas, historia médica, medicación y cuestionarios de conducta y valoradas por dos psiquiatras (Sinnema 2011), un método indirecto que puede limitar la precisión en personas con discapacidad intelectual y escasa expresión verbal [fuente no localizada].",
+   "fuente": "Sinnema 2011, PMID 21454045 (método de viñetas; no menciona «entrevistas a cuidadores» ni cohorte británica)"
+  },
+  {
+   "id": "smith_magenis",
+   "gravedad": "menor",
+   "antes": "Alrededor del 90 % de los casos se deben a una deleción 17p11.2 que incluye RAI1 y el resto a mutaciones del propio gen, por lo que un microarray normal no descarta el síndrome si la clínica es compatible (Poisson 2015).",
+   "despues": "Alrededor del 90 % de los casos se deben a una deleción 17p11.2 que incluye RAI1 y el resto a mutaciones del propio gen (Poisson 2015); por ello, un microarray normal no descarta el síndrome si la clínica es compatible y procede estudiar RAI1 (véase la ficha).",
+   "fuente": "Poisson 2015, PMID 26336863: la inferencia sobre el microarray no está en el resumen; se separa de la cita"
+  },
+  {
+   "id": "smith_magenis",
+   "gravedad": "menor",
+   "antes": "En España, las medidas de apoyo deben respetar",
+   "despues": "En España, en la persona adulta, las medidas de apoyo al ejercicio de la capacidad jurídica deben respetar",
+   "fuente": "Código Civil, art. 249 (redacción de la Ley 8/2021, BOE-A-2021-9233): se aplica a mayores de edad o menores emancipados"
+  },
+  {
+   "id": "williams",
+   "gravedad": "menor",
+   "antes": "En España, las medidas de apoyo deben ser necesarias",
+   "despues": "En España, en la persona adulta, las medidas de apoyo al ejercicio de la capacidad jurídica deben ser necesarias",
+   "fuente": "Código Civil, art. 249 (redacción de la Ley 8/2021): mayores de edad o menores emancipados"
+  },
+  {
+   "id": "williams",
+   "gravedad": "menor",
+   "antes": "[fuente no localizada para el sesgo]",
+   "despues": "[fuente no localizada]",
+   "fuente": "Indicador no literal; se normaliza al marcador obligatorio"
+  },
+  {
+   "id": "x_fragil",
+   "gravedad": "menor",
+   "antes": "cada diagnóstico de mutación de FMR1 tiene amplias implicaciones clínicas y reproductivas para la familia extensa, porque las mutaciones se asocian también al síndrome de temblor-ataxia y a la insuficiencia ovárica prematura;",
+   "despues": "cada diagnóstico de mutación de FMR1 tiene amplias implicaciones clínicas y reproductivas para la familia extensa (Finucane 2012), ya que las mutaciones de FMR1 se asocian también al síndrome de temblor y ataxia asociado al X frágil y a la insuficiencia ovárica prematura (Monaghan 2013);",
+   "fuente": "La asociación con FXTAS e insuficiencia ovárica figura en el resumen de Monaghan 2013 (PMID 23765048), no en el de Finucane 2012 (PMID 22797890)"
+  },
+  {
+   "id": "x_fragil",
+   "gravedad": "mayor",
+   "antes": "la cesión de datos que puedan revelar información de familiares requiere el consentimiento expreso y escrito de todos los interesados (art. 5.2)",
+   "despues": "la cesión a terceros ajenos a la actuación asistencial o investigadora de datos que puedan revelar información de familiares requiere el consentimiento expreso y escrito de todos los interesados (art. 5.2)",
+   "fuente": "Ley 14/2007, art. 5.2 (BOE): el requisito se refiere a la cesión a terceros ajenos a la actuación médico-asistencial o a la investigación"
+  }
+ ],
+ "sin_resolver": [
+  "del22q y williams: probabilidad de transmisión del 50 % en portadores (herencia autosómica dominante); se mantiene con «[fuente no localizada]».",
+  "x_fragil: un microarray normal no descarta el síndrome (la expansión de repeticiones no es una CNV); correcto técnicamente, se mantiene con «[fuente no localizada]».",
+  "cnv_16p_1q: recomendación de la ISPG sobre el microarray en trastornos psiquiátricos con rasgos sindrómicos no contrastada en el texto de la declaración; se mantiene marcada.",
+  "smith_magenis: la pauta de melatonina vespertina y bloqueo beta matinal se apoya en series pequeñas; Poisson 2015 la describe como capaz de aliviar radicalmente los problemas circadianos, sin ensayos controlados citados; se mantiene marcada.",
+  "del22q: el contenido de Bassett 2011 no puede contrastarse en el resumen (no disponible en PubMed); se cita solo como guía práctica de consenso.",
+  "Grados CPIC añadidos (paroxetina en lentos de CYP2D6: moderada; citalopram en ultrarrápidos de CYP2C19: fuerte; sertralina en intermedios de CYP2C19: moderada) tomados de las tablas oficiales de CPIC (api.cpicpgx.org) de la guía Bousman 2023, no del resumen de PubMed.",
+  "Artículos legales contrastados en el texto consolidado del BOE: Ley 14/2007 (arts. 4.1, 5.2, 5.3, 6, 9.3, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 62), Ley 15/2022 (arts. 2.1 y 17.2), Convenio de Oviedo (arts. 11 y 12), LO 10/2007 (art. 4) y Código Civil art. 249 (redacción de la Ley 8/2021); todos correctos salvo el uso del art. 4.1 (etnopsicofarm) y la paráfrasis incompleta del art. 5.2 (x_fragil), corregidos."
+ ]
+}
