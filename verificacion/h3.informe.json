@@ -1,0 +1,413 @@
+{
+ "pmid_comprobados": 82,
+ "pmid_erroneos": 0,
+ "nota_pmid": "Se han comprobado en PubMed los 68 PMID del parche original y 14 PMID nuevos que se han añadido; ningún PMID era inexistente ni estaba mal asignado. Los errores eran de atribución: datos que no figuran en el resumen (p. ej., Pussin y Chiarugi en Kibria y Metcalfe, Görlitz en Baethge, Naturphilosophie en Nagai y Kato, neurastenia en Roelcke, el reparto del Nobel en López-Muñoz). Además había una referencia de Kendler duplicada en kahlbaum_hit y una cita sin PMID de Pillmann 2003 que no existe en PubMed.",
+ "cambios": [
+  {
+   "id": "hipocrates",
+   "gravedad": "menor",
+   "antes": "Surge en una medicina griega que convivía con la curación religiosa en los templos de Asclepio y con la filosofía natural presocrática, y que se propuso observar y explicar la enfermedad sin recurrir a lo sobrenatural (Breitenfeld 2014).",
+   "despues": "Surge en una medicina griega que convivía con la curación religiosa en los templos de Asclepio y con la filosofía natural presocrática [fuente no localizada], y que empezó a observar y explorar al enfermo en una época dominada por el misticismo y la magia (Breitenfeld 2014).",
+   "fuente": "PMID 25027011 (el resumen no menciona los templos de Asclepio ni la filosofía presocrática)"
+  },
+  {
+   "id": "hipocrates",
+   "gravedad": "menor",
+   "antes": "y debe su larga hegemonía sobre todo a la sistematización posterior de Galeno.",
+   "despues": "y debe su larga hegemonía sobre todo a la sistematización posterior de Galeno [fuente no localizada].",
+   "fuente": "Afirmación sin fuente en el parche"
+  },
+  {
+   "id": "hipocrates",
+   "gravedad": "menor",
+   "antes": "Este último tratado rechaza el origen divino de la epilepsia y sitúa en el cerebro la interpretación de la experiencia, la conciencia y la inteligencia (Breitenfeld 2014).",
+   "despues": "Ese tratado, el más importante del Corpus para entender la epilepsia, rechaza su origen divino [fuente no localizada]; y en la obra hipocrática el cerebro aparece como analista del mundo exterior, intérprete de la conciencia y centro de la inteligencia y la voluntad (Breitenfeld 2014).",
+   "fuente": "PMID 25027011: el resumen atribuye la función cerebral a Hipócrates en general y no menciona el rechazo del origen divino"
+  },
+  {
+   "id": "hipocrates",
+   "gravedad": "menor",
+   "antes": "Morong Reyes G & Brangier Peñailillo V (2017). [Indian 'humor' in medical knowledge during the 16th and 17th centuries] (artículo en español). Rev Med Chil 145:920-925 · PMID 29182201",
+   "despues": "Morong R G & Brangier P V (2017). [Indian 'humor' in medical knowledge during the 16th and 17th centuries] (artículo en español). Rev Med Chil 145:920-925 · PMID 29182201",
+   "fuente": "PMID 29182201: autores indexados como Morong R G y Brangier P V"
+  },
+  {
+   "id": "areteo",
+   "gravedad": "menor",
+   "antes": "aunque la datación es insegura y otras fuentes la sitúan entre los siglos I-II o incluso en el IV (Laios 2018).",
+   "despues": "aunque la datación es insegura: Angst y Marneros (2001) lo sitúan en el siglo I y Laios (2018) entre los siglos I-II o incluso en el IV.",
+   "fuente": "PMID 11869749 (siglo I) y PMID 30109853; coherencia con la ficha (s. I-II)"
+  },
+  {
+   "id": "areteo",
+   "gravedad": "menor",
+   "antes": "para Areteo la melancolía es el comienzo y una parte de la manía, y la manía, más que otra enfermedad, un agravamiento de la misma (Marneros 2001).",
+   "despues": "según Marneros (2001), Areteo consideraba la melancolía y la manía dos formas de una misma enfermedad y la manía, una forma más grave de la melancolía.",
+   "fuente": "PMID 11172872: el resumen dice que la manía era una forma más grave de la melancolía; «comienzo y parte» no figura"
+  },
+  {
+   "id": "areteo",
+   "gravedad": "menor",
+   "antes": "la investigación de los estados mixtos kraepelinianos, renovada en las últimas décadas, es la principal zona de contacto entre ambos (Angst y Marneros 2001).",
+   "despues": "la investigación de los estados mixtos kraepelinianos, renacida en las últimas décadas (Angst y Marneros 2001), es una zona de contacto entre ambos.",
+   "fuente": "PMID 11869749 habla del renacimiento de los estados mixtos, no de «la principal zona de contacto»"
+  },
+  {
+   "id": "valencia1409",
+   "gravedad": "menor",
+   "antes": "entre ellos, el Hospital de los Inocentes de Valencia, fundado en 1410 según López-Ibor (2008), destaca por su originalidad (López-Ibor 2008).",
+   "despues": "entre ellos, el Hospital de los Inocentes de Valencia destaca por su originalidad (López-Ibor 2008). Su fundación se fecha en 1410 (López-Ibor 2008) o en 1409, año del sermón del padre Jofré (Espí Forcén 2019).",
+   "fuente": "PMID 18286394 (1410) y PMID 31465312 (1409): discrepancia de fecha presentada con fuentes"
+  },
+  {
+   "id": "valencia1409",
+   "gravedad": "mayor",
+   "antes": "se difundieron por la Península Ibérica durante el siglo XV y poco después por la América hispanohablante, y durante siglos esos establecimientos se consideraron ejemplares y se imitaron en otros países europeos (López-Ibor 2008).",
+   "despues": "se difundieron por la Península Ibérica durante el siglo XV y poco después por la América hispanohablante, y durante siglos esos establecimientos se consideraron ejemplares y se imitaron en otros países europeos (López-Ibor 2008); el modelo de las «casas de locos» llegó también a Filipinas y, según Espí Forcén (2019), influyó en el tratamiento moral de Pinel. Para el siglo XVI, la comedia de Lope de Vega Los locos de Valencia se ha leído como testimonio del ingreso, el trato y los hábitos de la institución (Dieckhöfer 1975).",
+   "fuente": "PMID 31465312 y PMID 1098139: historiografía indexada del Hospital de Inocentes"
+  },
+  {
+   "id": "valencia1409",
+   "gravedad": "menor",
+   "antes": "Ley 14/1986, de 25 de abril, General de Sanidad (1986). BOE núm. 102, de 29 de abril de 1986, artículo 20 (BOE-A-1986-10499)",
+   "despues": "Ley 14/1986, de 25 de abril, General de Sanidad (1986). BOE núm. 102, de 29 de abril de 1986, BOE-A-1986-10499: título I, capítulo III «De la salud mental», artículo 20",
+   "fuente": "Texto consolidado del BOE (BOE-A-1986-10499), consultado: artículo veinte, capítulo III del título I"
+  },
+  {
+   "id": "valencia1409",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Espí Forcén F (2019). Casas de locos: the treatment of the mentally ill in the Hispanic world before the Enlightenment. J Nerv Ment Dis 207:768-772 · PMID 31465312",
+   "fuente": "PMID 31465312"
+  },
+  {
+   "id": "valencia1409",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Dieckhöfer K (1975). [Lope de Vega's comedy «Los locos de Valencia»: a view of a 16th century psychiatric institution] (artículo en alemán con resumen en inglés). Schweiz Arch Neurol Neurochir Psychiatr 116:343-351 · PMID 1098139",
+   "fuente": "PMID 1098139"
+  },
+  {
+   "id": "burton",
+   "gravedad": "menor",
+   "antes": "una intuición que las clasificaciones solo recuperaron en parte con los especificadores de ansiedad,",
+   "despues": "una intuición que el DSM-5 recupera en parte con el especificador de angustia ansiosa, anticipado según Crocq (2015) por Kraepelin,",
+   "fuente": "PMID 26487812 (el especificador se relaciona con Kraepelin, no con Burton)"
+  },
+  {
+   "id": "burton",
+   "gravedad": "menor",
+   "antes": "Fue una obra apreciada por médicos clínicos de los siglos XIX y XX, entre ellos William Osler (Claman 2012),",
+   "despues": "Su recepción médica incluye a William Osler, cuyo vínculo con la obra estudia Claman (2012),",
+   "fuente": "PMID 22670311 sin resumen: solo se usa el título"
+  },
+  {
+   "id": "cullen",
+   "gravedad": "menor",
+   "antes": "La fisiología de la época, con Robert Whytt como predecesor inmediato de Cullen, atribuía al sistema nervioso un papel creciente en la sensibilidad y en la simpatía entre órganos (Dyde 2015).",
+   "despues": "Su predecesor fue Robert Whytt (Dyde 2015), y la fisiología de la época atribuía al sistema nervioso un papel creciente en la sensibilidad y en la simpatía entre órganos [fuente no localizada].",
+   "fuente": "PMID 25766541: el resumen solo nombra a Whytt como predecesor"
+  },
+  {
+   "id": "cullen",
+   "gravedad": "menor",
+   "antes": "Cullen fue apodado «Old Spasm» por la importancia que concedía al espasmo y a la energía nerviosa en su patología (Hunting 2010).",
+   "despues": "Una semblanza lo recuerda por su apodo, «Old Spasm» (Hunting 2010), que la tradición relaciona con la importancia que concedía al espasmo en su patología [fuente no localizada].",
+   "fuente": "PMID 21079260 sin resumen: solo el título respalda el apodo"
+  },
+  {
+   "id": "tuke",
+   "gravedad": "mayor",
+   "antes": "William Tuke (1732-1822), comerciante de té y cuáquero, promovió entonces una institución propia para la Sociedad de los Amigos: el proyecto se fundó en 1792 (Kibria y Metcalfe 2016) y el edificio se abrió en 1796. El movimiento fue coetáneo, aunque independiente, de la reforma de Pinel y Pussin en París y de la de Chiarugi en Florencia (Kibria y Metcalfe 2016).",
+   "despues": "William Tuke (1732-1822), cuáquero (Kibria y Metcalfe 2016) y comerciante de té [fuente no localizada], promovió entonces una institución propia para la Sociedad de los Amigos: Kibria y Metcalfe (2016) fechan su fundación en 1792 y Edginton (1997) sitúa en 1796 la construcción del edificio. Su obra coincidió con enfoques similares en Francia, sobre todo los de Pinel y su discípulo Esquirol (Kibria y Metcalfe 2016), y con la reforma de Chiarugi en Florencia [fuente no localizada].",
+   "fuente": "PMID 24944052 (1792; Pinel y Esquirol, no Pussin ni Chiarugi) y PMID 10671006 (edificio de 1796)"
+  },
+  {
+   "id": "tuke",
+   "gravedad": "menor",
+   "antes": "Ley 14/1986, de 25 de abril, General de Sanidad (1986). BOE núm. 102, de 29 de abril de 1986, artículo 20 (BOE-A-1986-10499)",
+   "despues": "Ley 14/1986, de 25 de abril, General de Sanidad (1986). BOE núm. 102, de 29 de abril de 1986, BOE-A-1986-10499: título I, capítulo III «De la salud mental», artículo 20",
+   "fuente": "Texto consolidado del BOE (BOE-A-1986-10499)"
+  },
+  {
+   "id": "reil",
+   "gravedad": "menor",
+   "antes": "Trabajó en la Alemania de la Naturphilosophie y del romanticismo médico, en plena convulsión política por las guerras napoleónicas, contexto social, religioso y cultural que condicionó los sistemas académicos y asistenciales que defendió (Nagai y Kato 2026).",
+   "despues": "Trabajó en la Alemania del romanticismo médico y de la Naturphilosophie [fuente no localizada], en un periodo de convulsión social, religiosa, cultural y política en Europa, sobre todo en Alemania y Francia, que condicionó los sistemas académicos y médicos que defendió (Nagai y Kato 2026).",
+   "fuente": "PMID 40355397: el resumen habla de convulsión social en Europa, no de Naturphilosophie"
+  },
+  {
+   "id": "reil",
+   "gravedad": "menor",
+   "antes": "Su crítica de la vida moderna como causa de nerviosismo anticipa la neurastenia de finales del XIX y los debates actuales sobre determinantes sociales de la salud mental (Roelcke 1996).",
+   "despues": "Su crítica de la cultura moderna por sus efectos nocivos sobre la salud mental (Roelcke 1996) anticipa, en una lectura retrospectiva, la neurastenia de finales del XIX y los debates actuales sobre determinantes sociales [fuente no localizada].",
+   "fuente": "PMID 8928212: no menciona la neurastenia ni los determinantes sociales"
+  },
+  {
+   "id": "rush",
+   "gravedad": "mayor",
+   "antes": "Benjamin Rush (1746-1813), médico de Filadelfia formado en Edimburgo con Cullen [fuente no localizada], firmante de la Declaración de Independencia y figura pública de la joven república [fuente no localizada],",
+   "despues": "Benjamin Rush (1746-1813), médico de Filadelfia y firmante de la Declaración de Independencia, que estudió en Edimburgo entre 1766 y 1768 y reconoció la influencia de Cullen en su teoría y su práctica (Jones 2014),",
+   "fuente": "PMID 27132351 (Jones 2014): firmante, Edimburgo 1766-1768, influencia de Cullen"
+  },
+  {
+   "id": "rush",
+   "gravedad": "menor",
+   "antes": "Es conocido sobre todo como inventor de la «silla tranquilizadora», que inmovilizaba el cuerpo y la cabeza (Szasz 2005).",
+   "despues": "Szasz (2005) lo recuerda sobre todo como inventor de la «silla tranquilizadora», un sillón para inmovilizar el cuerpo y la cabeza [fuente no localizada para la descripción].",
+   "fuente": "PMID 15981368: no describe el aparato"
+  },
+  {
+   "id": "rush",
+   "gravedad": "menor",
+   "antes": "Su terapéutica de sangrías, purgas e inmovilización está abandonada y se usa hoy como ejemplo del furor therapeuticus, el exceso de confianza en tratamientos heroicos sin prueba de eficacia (Kopperman 2004; Eisenberg 2007), una advertencia vigente para cualquier tratamiento intensivo no contrastado.",
+   "despues": "Su terapéutica de sangrías, purgas e inmovilización está abandonada: ya en 1793 sus sangrías copiosas fueron al principio muy criticadas (Kopperman 2004), y Eisenberg (2007) la presenta como ejemplo de furor therapeuticus, la confianza en tratamientos heroicos sin prueba de eficacia, una advertencia vigente para cualquier tratamiento intensivo no contrastado.",
+   "fuente": "PMID 15356370 y PMID 17403965 (sin resumen; se usa el título)"
+  },
+  {
+   "id": "rush",
+   "gravedad": "mayor",
+   "antes": "Su figura también se revisa por sus ideas sobre raza; la retirada de su efigie del emblema de la Asociación Estadounidense de Psiquiatría y la revisión institucional de su legado no se han contrastado en fuente primaria [fuente no localizada].",
+   "despues": "Su figura también se revisa en relación con la raza: Rush abrazó el abolicionismo (Smith y Driggers 2024), y su actitud hacia la población negra ha sido objeto de análisis historiográfico (Plummer 1970); el contenido de sus ideas raciales y la retirada de su efigie del emblema de la Asociación Estadounidense de Psiquiatría no se han contrastado [fuente no localizada].",
+   "fuente": "PMID 37555471 (abolicionismo) y PMID 4921620 (sin resumen; solo título)"
+  },
+  {
+   "id": "rush",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Jones C (2014). Benjamin Rush, Edinburgh medicine and the rise of physician autobiography. Clio Med 94:97-122 · PMID 27132351",
+   "fuente": "PMID 27132351"
+  },
+  {
+   "id": "rush",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Smith LE & Driggers EA (2024). Science and the 'emancipation of the mind': dreams, the mind, and slavery. J Sleep Res 33:e13995 · PMID 37555471",
+   "fuente": "PMID 37555471"
+  },
+  {
+   "id": "rush",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Plummer BL (1970). Benjamin Rush and the Negro. Am J Psychiatry 127:793-798 · PMID 4921620 (registro comprobado; sin resumen indexado, solo se cita su título)",
+   "fuente": "PMID 4921620"
+  },
+  {
+   "id": "kahlbaum_hit",
+   "gravedad": "menor",
+   "antes": "trabajaron fuera de la universidad y de los grandes manicomios públicos alemanes, en el sanatorio privado de Görlitz (Baethge 2003).",
+   "despues": "trabajaron fuera de la universidad y de los manicomios públicos alemanes (Baethge 2003), en el sanatorio privado de Görlitz (véase la ficha de Hecker).",
+   "fuente": "PMID 14621693 no menciona Görlitz; coherencia con hecker_hit"
+  },
+  {
+   "id": "kahlbaum_hit",
+   "gravedad": "mayor",
+   "antes": "la hebefrenia, publicada por Hecker en 1871; la catatonía (1874), que tiene ficha propia; y la ciclotimia, una forma relativamente benigna de enfermedad maníaco-depresiva con fases depresivas (distimia), hipomaníacas (hipertimia) y mixtas, que Kahlbaum presentó en 1882 y Hecker popularizó (Baethge 2003). Las fuentes discrepan sobre la autoría del término: Brieger y Marneros (1997) atribuyen el término «ciclotimia» a Hecker en 1877 y a Kahlbaum su desarrollo en 1882, junto a la hipertimia y la distimia con posible sintomatología subumbral.",
+   "despues": "la hebefrenia, concepto de Kahlbaum que Hecker popularizó (Baethge 2003) y describió en 1871 (véase su ficha); la catatonía (1874), que tiene ficha propia; y la ciclotimia, una forma relativamente benigna de enfermedad maníaco-depresiva con fases depresivas (distimia), hipomaníacas (hipertimia) y mixtas. Las fuentes discrepan sobre su autoría: Baethge et al. (2003) atribuyen su introducción a Kahlbaum en 1882; Brieger y Marneros (1997), el término a Hecker en 1877 y su desarrollo a Kahlbaum en 1882, junto a la hipertimia y la distimia con posible sintomatología subumbral; y Marneros (2001) la da por descrita originalmente por Kahlbaum (1882) y Hecker (1898). Sin cotejo de los originales, la discrepancia queda abierta.",
+   "fuente": "PMID 14621693, PMID 9298424 y PMID 11172872: discrepancia sobre la autoría de «ciclotimia» presentada con fuentes"
+  },
+  {
+   "id": "kahlbaum_hit",
+   "gravedad": "menor",
+   "antes": "Kendler KS & Engstrom EJ (2017). Kahlbaum, Hecker, and Kraepelin and the transition from psychiatric symptom complexes to empirical disease forms. Am J Psychiatry 174:102-109 · PMID 27523503 (publicación electrónica en 2016)",
+   "despues": "(referencia retirada)",
+   "fuente": "PMID 27523503: la ficha ya contiene esta referencia con el año del volumen impreso (2017); la variante con sufijo la duplicaba"
+  },
+  {
+   "id": "kahlbaum_hit",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Marneros A (2001). Expanding the group of bipolar disorders. J Affect Disord 62:39-44 · PMID 11172872",
+   "fuente": "PMID 11172872"
+  },
+  {
+   "id": "wernicke_hit",
+   "gravedad": "menor",
+   "antes": "Su programa se desarrolló en paralelo y en tensión con el método clínico-longitudinal de Kraepelin, que se impuso en la psiquiatría académica [fuente no localizada].",
+   "despues": "Su búsqueda de «síntomas elementales», de los que derivarían los demás, contrasta con la obra de Kraepelin y con los criterios diagnósticos actuales (Krahl 1998); el enfoque kraepeliniano fue el que se impuso en la psiquiatría académica [fuente no localizada].",
+   "fuente": "PMID 11623615 (Krahl 1998)"
+  },
+  {
+   "id": "wernicke_hit",
+   "gravedad": "menor",
+   "antes": "Entre sus descripciones clínicas figura la psicosis de ansiedad,",
+   "despues": "Desde 1892 postuló diversos síntomas elementales, teoría que da sentido a categorías como la psicosis de ansiedad y la alucinosis y que ni él ni sus seguidores desarrollaron (Krahl 1998). Entre sus descripciones clínicas figura la psicosis de ansiedad,",
+   "fuente": "PMID 11623615"
+  },
+  {
+   "id": "wernicke_hit",
+   "gravedad": "mayor",
+   "antes": "las psicosis cicloides siguen fuera de DSM y CIE.",
+   "despues": "las psicosis cicloides carecen de categoría propia, aunque su historia se refleja en el trastorno psicótico agudo y transitorio de la CIE-10 y el psicótico breve del DSM-IV (Pillmann y Marneros 2003).",
+   "fuente": "PMID 14518487: la afirmación de que están «fuera» de las clasificaciones es inexacta (la ficha pcicloid recoge su solapamiento con el trastorno psicótico agudo polimorfo)"
+  },
+  {
+   "id": "kraepelin_hit",
+   "gravedad": "menor",
+   "antes": "se formó con Wilhelm Wundt en la psicología experimental de Leipzig, y su lección inaugural como catedrático en Dorpat (Tartu) en 1886 muestra",
+   "despues": "se formó con Wilhelm Wundt en la psicología experimental de Leipzig [fuente no localizada], y su lección inaugural en Dorpat (Tartu), que Engstrom y Kendler (2015) fechan en 1886 y Kendler y Jablensky (2011) en 1887, muestra",
+   "fuente": "PMID 26357868 (1886) y PMID 20809997 (1887); Wundt no figura en los resúmenes"
+  },
+  {
+   "id": "kraepelin_hit",
+   "gravedad": "menor",
+   "antes": "Trabajó después en Heidelberg y Múnich, en una psiquiatría",
+   "despues": "Trabajó después en Heidelberg y Múnich [fuente no localizada], en una psiquiatría",
+   "fuente": "No figura en los resúmenes citados"
+  },
+  {
+   "id": "kraepelin_hit",
+   "gravedad": "menor",
+   "antes": " (Engstrom y Kendler 2015); ese icono es el que invocaron los neokraepelinianos de Saint Louis, autores de los criterios de Feighner que prepararon el DSM-III.",
+   "despues": ", un icono creado por los neokraepelinianos (Engstrom y Kendler 2015), entre ellos los autores de los criterios de Feighner [fuente no localizada].",
+   "fuente": "PMID 26357868 menciona a los neokraepelinianos, no a Saint Louis ni a Feighner"
+  },
+  {
+   "id": "kraepelin_hit",
+   "gravedad": "mayor",
+   "antes": "Su figura exige además una lectura crítica de sus ideas sobre degeneración e higiene racial y de su papel institucional: en el instituto de investigación psiquiátrica que fundó en Múnich en 1917 trabajó Ernst Rüdin, cuya genética psiquiátrica derivó en la eugenesia que sostuvo la esterilización forzosa nazi de 1933 y el programa de asesinato de pacientes (Joseph y Wetzel 2013) [fuente no localizada para el detalle institucional].",
+   "despues": "Exige además una lectura crítica: aceptó la teoría de la degeneración (Hoff 2008) y defendió ideas eugenésicas que en la 8.ª edición (1909) amalgamaban degeneración, darwinismo social, racismo y nacionalismo étnico (Yamamura y Murai 2024), aunque no cabe trazar una línea simple y directa hasta los crímenes nazis (Hoff 2008). En el instituto que fundó en Múnich en 1917 [fuente no localizada] trabajó Ernst Rüdin, que ayudó a formular la ley nazi de esterilización eugenésica de 1933 y apoyó el asesinato de niños y pacientes psiquiátricos del programa llamado «eutanasia» (Joseph y Wetzel 2013).",
+   "fuente": "PMID 18516511, PMID 38379314 y PMID 23180223 (la eugenesia de Kraepelin y el papel de Rüdin, con fuente)"
+  },
+  {
+   "id": "kraepelin_hit",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Hoff P (2008). Kraepelin and degeneration theory. Eur Arch Psychiatry Clin Neurosci 258(Suppl 2):12-17 · PMID 18516511",
+   "fuente": "PMID 18516511"
+  },
+  {
+   "id": "kraepelin_hit",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Yamamura K & Murai T (2024). Revisiting Emil Kraepelin's eugenic arguments. Hist Psychiatry 35:206-214 · PMID 38379314",
+   "fuente": "PMID 38379314"
+  },
+  {
+   "id": "freud_hit",
+   "gravedad": "menor",
+   "antes": "y después entró en declive dentro de la psiquiatría (Bos 2005); en Estados Unidos su institucionalización fue más rígida y medicalizada que en Europa (Hale 2001).",
+   "despues": "y después entró en declive (Bos 2005; Hale 2001); en Estados Unidos su institucionalización fue más rígida y medicalizada que en Europa (Hale 2001).",
+   "fuente": "PMID 15981241 sitúa el declive en el caso sueco; PMID 11343295 lo recoge para Estados Unidos"
+  },
+  {
+   "id": "freud_hit",
+   "gravedad": "mayor",
+   "antes": "Las teorías que patologizaban la homosexualidad justificaron su inclusión en el DSM-I y el DSM-II, hasta que la Asociación Estadounidense de Psiquiatría la retiró en 1973 (Drescher 2015); la posición personal de Freud, que en una carta de 1935 negaba que fuera una enfermedad, se cita a menudo, pero no se ha contrastado en fuente primaria [fuente no localizada].",
+   "despues": "El psicoanálisis organizado pasó de la visión temprana de Freud, que veía la homosexualidad como inmadurez, a teorías neofreudianas que la patologizaron (Drescher 2008), tras el rechazo de Rado a la bisexualidad constitucional freudiana (Tontonoz 2017); esas teorías sostuvieron su inclusión en el DSM-I y el DSM-II hasta que la Asociación Estadounidense de Psiquiatría la retiró en 1973 (Drescher 2015). La carta de Freud de 1935 que negaba que fuera una enfermedad se cita a menudo, pero no se ha localizado en fuente primaria ni historiográfica indexada [fuente no localizada].",
+   "fuente": "PMID 18834283 y PMID 28581306; carta de 1935 no localizada en PubMed"
+  },
+  {
+   "id": "freud_hit",
+   "gravedad": "menor",
+   "antes": "enlace «El sueño en la psicopatología actual» a insomnio_sx",
+   "despues": "(enlace retirado: el insomnio no corresponde a la teoría de los sueños)",
+   "fuente": "node tools/q.js show insomnio_sx"
+  },
+  {
+   "id": "freud_hit",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Drescher J (2008). A history of homosexuality and organized psychoanalysis. J Am Acad Psychoanal Dyn Psychiatry 36:443-460 · PMID 18834283",
+   "fuente": "PMID 18834283"
+  },
+  {
+   "id": "freud_hit",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Tontonoz M (2017). Sandor Rado, American psychoanalysis, and the question of bisexuality. Hist Psychol 20:263-289 · PMID 28581306",
+   "fuente": "PMID 28581306"
+  },
+  {
+   "id": "cajal",
+   "gravedad": "mayor",
+   "antes": "Lo hizo en la España de finales del siglo XIX, con escasa tradición investigadora, desde Valencia, Barcelona y Madrid y publicando en revistas propias [fuente no localizada]; tras el Nobel presidió la Junta para Ampliación de Estudios, motor de la ciencia española anterior a la Guerra Civil [fuente no localizada].",
+   "despues": "Su vida refleja el desarrollo gradual de la ciencia española desde el último tercio del siglo XIX, en un periodo de fuertes demandas sociales de progreso científico (Lerma y De Carlos 2014); trabajó en Valencia, Barcelona y Madrid [fuente no localizada]. Impulsó la Junta para Ampliación de Estudios e Investigaciones Científicas, que becó a sus discípulos en laboratorios europeos (Lerma y De Carlos 2014) y que presidió [fuente no localizada].",
+   "fuente": "PMID 25071463 (Cajal y la JAE)"
+  },
+  {
+   "id": "cajal",
+   "gravedad": "menor",
+   "antes": "Su escuela formó a la generación de Achúcarro, Río-Hortega, Tello y Lafora, cuya neuropsiquiatría quedó truncada por la Guerra Civil y el exilio (véase la ficha de Lafora).",
+   "despues": "Su obra y la de Simarro continuaron en discípulos como Achúcarro, Lafora o Fernando de Castro, algunos de los cuales compaginaron la investigación con la práctica psiquiátrica (Baratas Díaz 2007); la Guerra Civil interrumpió esa revitalización y dispersó a muchos científicos (Lerma y De Carlos 2014).",
+   "fuente": "PMID 19845048 y PMID 25071463"
+  },
+  {
+   "id": "cajal",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Lerma J & De Carlos JA (2014). Epilog: Cajal's unique and legitimated school. Front Neuroanat 8:58 · PMID 25071463",
+   "fuente": "PMID 25071463"
+  },
+  {
+   "id": "cajal",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Baratas Díaz A (2007). [Neurociencia en la Junta para Ampliación de Estudios] (artículo en español con resumen en inglés; indexado como Díaz AB). Asclepio 59:115-136 · PMID 19845048",
+   "fuente": "PMID 19845048"
+  },
+  {
+   "id": "cajal",
+   "gravedad": "menor",
+   "antes": "Compartió el Nobel de 1906 con Golgi (López-Muñoz 2006).",
+   "despues": "Compartió el Nobel de 1906 con Golgi (DeFelipe 2006; de Castro 2007).",
+   "fuente": "PMID 16988656 y PMID 17408567 recogen el premio compartido; el resumen de PMID 17027775 no lo dice"
+  },
+  {
+   "id": "hipocrates",
+   "gravedad": "menor",
+   "antes": "La idea de temperamento, en cambio, reaparece transformada en la investigación sobre personalidad premórbida y temperamentos afectivos.",
+   "despues": "La idea de temperamento, en cambio, reaparece transformada en la investigación sobre personalidad premórbida y temperamentos afectivos [fuente no localizada].",
+   "fuente": "Afirmación sin fuente en el parche"
+  },
+  {
+   "id": "wagnerj",
+   "gravedad": "mayor",
+   "antes": "En la Primera Guerra Mundial la psiquiatría militar austrohúngara trató con corrientes eléctricas a soldados con neurosis de guerra, y Wagner-Jauregg fue investigado por ello en 1920 [fuente no localizada].",
+   "despues": "En octubre de 1920 fue objeto de un procedimiento de investigación en el que Freud se pronunció sobre neurosis de guerra, electroterapia y psicoanálisis (Gicklhorn 1972, registro sin resumen: el dato procede de su título); el detalle de las acusaciones y su desenlace no se han contrastado [fuente no localizada].",
+   "fuente": "PMID 4571364 (fuente historiográfica indexada sobre la investigación de 1920)"
+  },
+  {
+   "id": "wagnerj",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Gicklhorn R (1972). [Siegmund Freud on war neuroses, electrotherapy and psychoanalysis. An extract from the record of the investigation proceedings against Wagner-Jauregg in October 1920] (artículo en alemán). Psyche (Stuttg) 26:939-951 · PMID 4571364 (registro comprobado; sin resumen indexado, solo se usa su título)",
+   "fuente": "PMID 4571364"
+  },
+  {
+   "id": "wernicke_hit",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Krahl A et al. (1998). Carl Wernicke and the concept of «elementary symptom». Hist Psychiatry 9:503-508 · PMID 11623615",
+   "fuente": "PMID 11623615"
+  },
+  {
+   "id": "wernicke_hit",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "Pillmann F & Marneros A (2003). Brief and acute psychoses: the development of concepts. Hist Psychiatry 14:161-177 · PMID 14518487",
+   "fuente": "PMID 14518487"
+  },
+  {
+   "id": "wernicke_hit",
+   "gravedad": "mayor",
+   "antes": "Pillmann F (2003). Carl Wernicke and the neurobiological paradigm in psychiatry. Hist Psychiatry 14:449-460",
+   "despues": "Pillmann F (2003). Carl Wernicke and the neurobiological paradigm in psychiatry. Hist Psychiatry 14:449-460 [no verificada: no figura en PubMed y las páginas 411-458 de ese volumen corresponden a Neumärker KJ & Bartsch AJ (2003), Karl Kleist (1879-1960), a pioneer of neuropsychiatry, PMID 14740633]",
+   "fuente": "Búsqueda en PubMed (autor, revista, volumen) y sumario de Hist Psychiatry 14(56 Pt 4), PMID 14740633; se usa «set.refs» con la lista completa porque «set» se aplica después de «refsAdd»"
+  }
+ ],
+ "sin_resolver": [
+  "bayle_hit (fuera del alcance de este parche) cita Kendler y Engstrom con año 2016; el volumen impreso que da PubMed es 2017 (Am J Psychiatry 174(2):102-109; publicación electrónica 13-08-2016, PMID 27523503). En h3.v.json se usa 2017 en kahlbaum_hit y kraepelin_hit; conviene corregir bayle_hit en otro parche.",
+  "wernicke_hit: Pillmann F (2003) «Carl Wernicke and the neurobiological paradigm in psychiatry», Hist Psychiatry 14:449-460, no figura en PubMed (búsqueda por autor, revista, año y volumen); el número 14(56 Pt 4) ocupa las pp. 411-458 con Neumärker y Bartsch (PMID 14740633). Se conserva en set.refs con marcador [no verificada]; habría que cotejarla en el sumario impreso de la revista.",
+  "Autoría de «ciclotimia»: Baethge et al. 2003 (Kahlbaum 1882), Brieger y Marneros 1997 (Hecker 1877) y Marneros 2001 (Kahlbaum 1882 y Hecker 1898). No se ha resuelto sin los originales; se presenta como discrepancia con fuentes.",
+  "Carta de Freud de 1935 a una madre estadounidense: no se ha localizado en PubMed en ninguna fuente primaria ni historiográfica; se conserva con [fuente no localizada].",
+  "Investigación de 1920 a Wagner-Jauregg: se apoya en Gicklhorn 1972 (PMID 4571364), pero solo por el título (no hay resumen); el detalle de las acusaciones y el desenlace siguen marcados.",
+  "Rush: no se han localizado en PubMed el contenido de sus ideas raciales (Plummer 1970 sin resumen) ni la retirada de su efigie del emblema de la APA; Ardent Spirits (1784) y que Medical Inquiries sea el primer tratado estadounidense siguen marcados.",
+  "Obras originales no cotejadas y que siguen con marcador, sin páginas ni citas literales: Littré, Adams, Burton 1621 y la traducción de la AEN, Cullen First Lines, Reil 1803/1808, S. Tuke 1813, Rush 1812 y 1784, Grundriss de Wernicke, Traumdeutung (fecha real de aparición) y la traducción de López-Ballesteros, Textura de Cajal y la edición francesa, comunicación de Wagner-Jauregg de 1918 y Foucault 1961.",
+  "Valencia: no se ha cotejado la documentación fundacional (privilegio de Martín I, bula de Benedicto XIII) ni su integración en el Hospital General; López-Ibor (1410) y Espí Forcén (1409) discrepan en la fecha.",
+  "CIE-11 y la desaparición del agrupamiento «neurótico» (cullen): se mantiene [fuente oficial no localizada]; no se ha consultado el navegador de la OMS.",
+  "Kraepelin: no se han contrastado en resumen indexado la formación con Wundt, Heidelberg/Múnich, las Zählkarten ni la fundación del instituto de Múnich en 1917 (siguen marcados). La fecha de la lección de Dorpat difiere entre Engstrom y Kendler 2015 (1886) y Kendler y Jablensky 2011 (1887); se dan las dos.",
+  "Tuke: la muerte de 1791 en el asilo de York sigue marcada; Kibria y Metcalfe fechan la fundación en 1792 y Edginton la construcción en 1796.",
+  "Karamanou et al. 2013 dicen que Wagner-Jauregg dirigió la clínica de Graz hasta 1928, dato probablemente erróneo; no se usa."
+ ]
+}
