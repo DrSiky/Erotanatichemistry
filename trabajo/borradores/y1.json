@@ -1,0 +1,981 @@
+{
+ "patch": {
+  "dep_cogn_beck": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "En la obra original (Beck 1967, Depression: Clinical, Experimental, and Theoretical Aspects, Hoeber) la depresión se explica por esquemas cognitivos negativos, adquiridos a partir de experiencias tempranas, que permanecen latentes y se activan ante sucesos congruentes con ellos; una vez activados, organizan la tríada cognitiva y generan errores sistemáticos de procesamiento. El manual de tratamiento (Beck, Rush, Shaw y Emery 1979, Cognitive Therapy of Depression, Guilford) traslada esa formulación a una técnica estructurada. El propio Beck (2008) describe la evolución del modelo por etapas: pensamientos automáticos, distorsiones cognitivas, creencias disfuncionales y sesgos de procesamiento de la información, con un modelo de desarrollo en el que las experiencias adversas tempranas predisponen y los estresores congruentes posteriores precipitan (diátesis-estrés), y propone su integración con correlatos genéticos y neurales. Conviene distinguir esta tesis causal de diátesis-estrés, que es la de la fuente primaria, de la versión divulgada que reduce el modelo a «pensar en negativo causa depresión» o a un catálogo de distorsiones, simplificación habitual en la literatura secundaria [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tcc_dep"
+       ],
+       "t": "Terapia cognitiva de Beck"
+      },
+      {
+       "ids": [
+        "indefension",
+        "rum"
+       ],
+       "t": "Modelos cognitivos afines"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La revisión de Haaga, Dyck y Ernst (1991) confirmó las afirmaciones descriptivas del modelo: mayor negatividad de las cogniciones sobre uno mismo, más desesperanza, especificidad de los temas de pérdida para los síndromes depresivos y recuerdo congruente con el estado de ánimo. La investigación posterior sobre reactividad cognitiva, con diseños de inducción de ánimo y longitudinales, apoya la existencia de una vulnerabilidad cognitiva latente en adultos que emerge bajo estrés (Scher, Ingram y Segal 2005). En resultados, el metaanálisis de 115 estudios de Cuijpers et al. (2013) halló un efecto frente a control de g=0,71 (NNT 2,6), que bajó a 0,53 al corregir el sesgo de publicación y en los estudios de mayor calidad; la TCC no difirió de otras psicoterapias ni de la farmacoterapia, y la combinación superó a la farmacoterapia sola (g=0,49). En la práctica, el modelo orienta la evaluación de la desesperanza y de los contenidos cognitivos con instrumentos estandarizados y la formulación individual, y sustenta la terapia cognitiva, la activación conductual y la prevención de recaídas basada en mindfulness.",
+     "links": [
+      {
+       "ids": [
+        "bdi2",
+        "bhs_beck"
+       ],
+       "t": "Evaluación: BDI-II y BHS"
+      },
+      {
+       "ids": [
+        "tcc_dep",
+        "activ_conduct",
+        "mbct"
+       ],
+       "t": "Tratamientos derivados"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "Trastorno depresivo mayor"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Haaga et al. (1991) señalaron que la evidencia de que el pensamiento depresivo sea especialmente inexacto o ilógico es débil y que las hipótesis causales de diátesis-estrés carecían entonces de apoyo sólido. En el plano terapéutico, el análisis de componentes de Jacobson et al. (1996) no mostró ventaja de la terapia completa sobre su componente de activación conductual, y la revisión de Longmore y Worrell (2007) concluyó que hay poca evidencia de que las intervenciones cognitivas específicas aumenten la eficacia y escaso apoyo a que el cambio cognitivo sea la causa de la mejoría sintomática. Además, el efecto de la TCC parece haberse sobreestimado por sesgo de publicación y baja calidad de parte de los ensayos (Cuijpers 2013). En personas expuestas a discriminación, como las del colectivo LGTBIQ, las creencias negativas sobre uno mismo o el mundo pueden reflejar experiencias reales de estigma y no solo distorsiones; la formulación debe incorporar el estrés de minorías (Meyer 2003) para no individualizar un problema social.",
+     "links": [
+      {
+       "ids": [
+        "activ_conduct",
+        "lewinsohn"
+       ],
+       "t": "Activación conductual y modelo de Lewinsohn"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Estrés de minorías y psicoterapia afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Beck AT, Rush AJ, Shaw BF & Emery G (1979). Cognitive Therapy of Depression. New York: Guilford",
+    "Beck AT (2008). The evolution of the cognitive model of depression and its neurobiological correlates. Am J Psychiatry 165:969-977 · PMID 18628348",
+    "Haaga DA, Dyck MJ & Ernst D (1991). Empirical status of cognitive theory of depression. Psychol Bull 110:215-236 · PMID 1946867",
+    "Scher CD, Ingram RE & Segal ZV (2005). Cognitive reactivity and vulnerability: empirical evaluation of construct activation and cognitive diatheses in unipolar depression. Clin Psychol Rev 25:487-510 · PMID 15914266",
+    "Cuijpers P et al. (2013). A meta-analysis of cognitive-behavioural therapy for adult depression, alone and in comparison with other treatments. Can J Psychiatry 58:376-385 · PMID 23870719",
+    "Longmore RJ & Worrell M (2007). Do we need to challenge thoughts in cognitive behavior therapy? Clin Psychol Rev 27:173-187 · PMID 17157970",
+    "Meyer IH (2003). Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: conceptual issues and research evidence. Psychol Bull 129:674-697 · PMID 12956539"
+   ],
+   "relAdd": [
+    "activ_conduct",
+    "mbct",
+    "ddm",
+    "genero"
+   ]
+  },
+  "lewinsohn": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Lewinsohn (1974, «A behavioral approach to depression», en Friedman y Katz, The Psychology of Depression, Winston-Wiley) formuló la depresión como consecuencia de una baja tasa de refuerzo positivo contingente a la respuesta: pocos acontecimientos potencialmente reforzantes en el entorno, déficit de habilidades (sobre todo sociales) para obtenerlos o menor capacidad de disfrutarlos; la escasa actividad resultante reduce aún más el refuerzo y cierra el ciclo. El trabajo empírico inicial de Lewinsohn y Libet (1972, J Abnorm Psychol) relacionó la frecuencia de actividades agradables con el estado de ánimo, base de la programación de actividades. La revisión de Dimidjian et al. (2011), en la que participa el propio Lewinsohn, sitúa en esta obra el origen de la activación conductual y distingue la versión contemporánea de Jacobson y Martell, que desplaza el foco desde el aumento de actividades agradables hacia el análisis funcional de la evitación y el retraimiento (Martell, Addis y Jacobson 2001, Depression in Context, Norton). Atribuir a Lewinsohn el énfasis en la evitación es, por tanto, una lectura retrospectiva de la literatura secundaria.",
+     "links": [
+      {
+       "ids": [
+        "activ_conduct"
+       ],
+       "t": "Activación conductual"
+      },
+      {
+       "ids": [
+        "dep_cogn_beck",
+        "indefension"
+       ],
+       "t": "Modelos coetáneos de la depresión"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis de Cuijpers, van Straten y Warmerdam (2007), con 16 estudios y 780 participantes, halló un efecto grande de la programación de actividades frente a control (0,87) y ninguna diferencia frente a la terapia cognitiva (0,02), con ganancias mantenidas en el seguimiento. La actualización de Ekers et al. (2014), con 26 ensayos y 1524 participantes, confirmó la superioridad frente a control (DME −0,74) y una ventaja frente a la medicación en 4 ensayos (DME −0,42), aunque con estudios de baja calidad y seguimientos cortos. En el ensayo de no inferioridad COBRA (440 adultos con depresión mayor), la activación conductual administrada por profesionales de salud mental con formación breve no fue inferior a la TCC a los 12 meses (diferencia de 0,1 puntos en el PHQ-9) (Richards 2016). Clínicamente, el modelo se traduce en el registro diario de actividad y ánimo, el análisis funcional de la evitación, la programación graduada de actividades valiosas y el abordaje de los déficits de habilidades.",
+     "links": [
+      {
+       "ids": [
+        "activ_conduct",
+        "tcc_dep"
+       ],
+       "t": "Activación conductual y TCC"
+      },
+      {
+       "ids": [
+        "ddm",
+        "hamd_madrs"
+       ],
+       "t": "Depresión mayor y su medición"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Los estudios fundacionales eran correlacionales: la asociación entre actividades agradables y ánimo no establece la dirección causal, y la depresión puede reducir la actividad tanto como la baja actividad la mantiene [fuente no localizada]. El concepto de refuerzo es difícil de medir con independencia de la conducta que pretende explicar, lo que expone el modelo a la circularidad [fuente no localizada]. La revisión de Dimidjian et al. (2011) reconoce que la base empírica de los mecanismos es menos sólida que la de los resultados, y Ekers et al. (2014) advierten de la baja calidad de la mayoría de los ensayos. Por último, una baja disponibilidad de refuerzo puede deberse a condiciones sociales (pobreza, aislamiento, discriminación) y no a un déficit de la persona; la formulación conductual debe contemplar el contexto y no presentarse como explicación individual exclusiva.",
+     "links": [
+      {
+       "ids": [
+        "estigma",
+        "genero"
+       ],
+       "t": "Determinantes sociales"
+      },
+      {
+       "ids": [
+        "anhed",
+        "recompensa"
+       ],
+       "t": "Anhedonia y circuito de recompensa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lewinsohn PM & Libet J (1972). Pleasant events, activity schedules, and depressions. J Abnorm Psychol 79:291-295 · PMID 5033370",
+    "Martell CR, Addis ME & Jacobson NS (2001). Depression in Context: Strategies for Guided Action. New York: Norton",
+    "Dimidjian S et al. (2011). The origins and current status of behavioral activation treatments for depression. Annu Rev Clin Psychol 7:1-38 · PMID 21275642",
+    "Cuijpers P, van Straten A & Warmerdam L (2007). Behavioral activation treatments of depression: a meta-analysis. Clin Psychol Rev 27:318-326 · PMID 17184887",
+    "Ekers D et al. (2014). Behavioural activation for depression; an update of meta-analysis of effectiveness and sub group analysis. PLoS One 9:e100100 · PMID 24936656",
+    "Richards DA et al. (2016). Cost and Outcome of Behavioural Activation versus Cognitive Behavioural Therapy for Depression (COBRA): a randomised, controlled, non-inferiority trial. Lancet 388:871-880 · PMID 27461440"
+   ],
+   "relAdd": [
+    "tcc_dep",
+    "ddm"
+   ]
+  },
+  "anx_rend": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Shafran, Cooper y Fairburn (2002, Behav Res Ther 40:773-791) definieron el perfeccionismo clínico como la dependencia excesiva de la autoevaluación respecto de la búsqueda determinada de estándares personalmente exigentes y autoimpuestos en al menos un ámbito muy relevante, a pesar de sus consecuencias adversas; su modelo cognitivo-conductual describe cómo el incumplimiento lleva a autocrítica y el cumplimiento a reevaluar los estándares al alza, mientras la evitación y las comprobaciones mantienen el ciclo. Esta propuesta es deliberadamente unidimensional y centrada en el perfeccionismo orientado a uno mismo, frente a la tradición multidimensional previa: Hewitt y Flett (1991) distinguieron perfeccionismo orientado a uno mismo, orientado a los demás y socialmente prescrito, y Frost et al. (1990) propusieron otra escala multidimensional (Cogn Ther Res 14:449-468) [fuente no localizada]. La literatura secundaria suele agrupar estas medidas en dos factores, aspiraciones perfeccionistas y preocupaciones perfeccionistas, que no proceden de ninguno de los modelos originales sino de análisis factoriales posteriores [fuente no localizada]. La ansiedad ante la actuación se trata en la ficha de ansiedad social.",
+     "links": [
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "Ansiedad de actuación (ansiedad social)"
+      },
+      {
+       "ids": [
+        "intol_incert"
+       ],
+       "t": "Intolerancia a la incertidumbre"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis de Limburg et al. (2017), con 284 estudios y 2047 tamaños del efecto, mostró que tanto las aspiraciones como las preocupaciones perfeccionistas se asocian con depresión, trastornos de ansiedad, TOC, trastornos alimentarios, autolesiones, ideación suicida y malestar general, en apoyo de su carácter transdiagnóstico. En cuanto al tratamiento, el metaanálisis de Lloyd et al. (2015), con 8 estudios, halló efectos grandes en la reducción de los estándares personales y de la preocupación por los errores, y efectos medianos sobre ansiedad y depresión. Un ensayo aleatorizado comparó la TCC del perfeccionismo presencial con la autoayuda en línea pura (Egan 2014). La aplicación clínica consiste en evaluar el perfeccionismo con escalas multidimensionales, formular su función en el trastorno principal y trabajarlo como diana específica: psicoeducación, experimentos conductuales sobre los estándares, reducción de comprobaciones y autocrítica, y diversificación de las fuentes de autoestima (Egan, Wade, Shafran y Antony 2014, Cognitive-Behavioral Treatment of Perfectionism, Guilford).",
+     "links": [
+      {
+       "ids": [
+        "tcc_dep"
+       ],
+       "t": "Terapia cognitiva"
+      },
+      {
+       "ids": [
+        "anor",
+        "toc_dsm",
+        "tag",
+        "ddm"
+       ],
+       "t": "Trastornos en los que actúa como proceso transdiagnóstico"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Hewitt et al. (2003) replicaron a Shafran y colaboradores que restringir el perfeccionismo a su componente orientado a uno mismo ignora las dinámicas interpersonales y el perfeccionismo socialmente prescrito, que tiene historia, apoyo empírico y relevancia clínica propios; el debate entre definición unidimensional y multidimensional sigue abierto. La base de ensayos es reducida: Lloyd et al. (2015) señalan que se desconoce la dosis y el formato óptimos y que faltan datos en varios trastornos, y la mayoría de las asociaciones de Limburg et al. (2017) proceden de estudios transversales. El metaanálisis de cohortes de Curran y Hill (2019), con 41 641 estudiantes de Estados Unidos, Canadá y Reino Unido entre 1989 y 2016, mostró un aumento lineal de las tres dimensiones, que los autores vinculan con cambios culturales hacia el individualismo competitivo: un argumento para no interpretar el perfeccionismo solo como rasgo individual.",
+     "links": [
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "Determinantes socioculturales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hewitt PL & Flett GL (1991). Perfectionism in the self and social contexts: conceptualization, assessment, and association with psychopathology. J Pers Soc Psychol 60:456-470 · PMID 2027080",
+    "Hewitt PL et al. (2003). Perfectionism is multidimensional: a reply to Shafran, Cooper and Fairburn. Behav Res Ther 41:1221-1236 · PMID 12971942",
+    "Limburg K et al. (2017). The relationship between perfectionism and psychopathology: a meta-analysis. J Clin Psychol 73:1301-1326 · PMID 28026869",
+    "Lloyd S et al. (2015). Can psychological interventions reduce perfectionism? A systematic review and meta-analysis. Behav Cogn Psychother 43:705-731 · PMID 26393777",
+    "Egan SJ et al. (2014). A randomised controlled trial of face to face versus pure online self-help cognitive behavioural treatment for perfectionism. Behav Res Ther 63:107-113 · PMID 25461785",
+    "Curran T & Hill AP (2019). Perfectionism is increasing over time: a meta-analysis of birth cohort differences from 1989 to 2016. Psychol Bull 145:410-429 · PMID 29283599",
+    "Egan SJ, Wade TD, Shafran R & Antony MM (2014). Cognitive-Behavioral Treatment of Perfectionism. New York: Guilford",
+    "Frost RO et al. (1990). The dimensions of perfectionism. Cogn Ther Res 14:449-468 [no verificada]"
+   ],
+   "relAdd": [
+    "anor",
+    "toc_dsm",
+    "tag",
+    "ddm"
+   ]
+  },
+  "anx_conduc": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "En su artículo de 1939 (Psychol Rev 46:553-565), Mowrer propuso que la ansiedad es una respuesta anticipatoria condicionada a señales de peligro que funciona como impulso, y que su reducción refuerza la conducta que la precede, como la evitación. La sistematización como teoría «de dos factores» o «bifactorial», que separa el condicionamiento clásico del miedo y el instrumental de la evitación, corresponde a trabajos posteriores del propio Mowrer (1960, Learning Theory and Behavior, Wiley) y a su recepción en la literatura clínica; atribuir la formulación completa al texto de 1939 es una simplificación de la literatura secundaria. El experimento de Watson y Rayner (1920) con el niño conocido como «pequeño Albert» se cita como precedente de la adquisición condicionada del miedo, aunque se trató de un único caso con un procedimiento poco controlado [fuente no localizada]. Las teorías del aprendizaje contemporáneas reformulan el modelo incorporando el temperamento, la historia previa de aprendizaje y el contexto (Mineka y Zinbarg 2006).",
+     "links": [
+      {
+       "ids": [
+        "evit_exper",
+        "anx_anticip"
+       ],
+       "t": "Evitación y ansiedad anticipatoria"
+      },
+      {
+       "ids": [
+        "inhib_cond"
+       ],
+       "t": "Vulnerabilidad temperamental"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis de Lissek et al. (2005), con 20 estudios de condicionamiento de laboratorio (453 pacientes con trastornos de ansiedad y 455 controles), halló aumentos modestos de la adquisición del miedo y de la respuesta condicionada durante la extinción, pero no en los diseños de discriminación. La actualización de Duits et al. (2015), con 44 estudios (963 pacientes y 1222 controles), mostró sobre todo una mayor respuesta de miedo a la señal de seguridad durante la adquisición, interpretable como déficit de inhibición o generalización del miedo, y una extinción más lenta o reducida. Estos datos sostienen la exposición como tratamiento central de las fobias, la agorafobia, el TOC y el TEPT. El modelo de aprendizaje inhibitorio propone optimizarla mediante la violación de expectativas, la extinción profundizada, la retirada de señales de seguridad, la variabilidad y la práctica en múltiples contextos (Craske 2014); la revisión de Krypotos et al. (2015) resume las estrategias para reducir la evitación desadaptativa y prevenir su retorno.",
+     "links": [
+      {
+       "ids": [
+        "epr",
+        "exp_interocep"
+       ],
+       "t": "Terapias de exposición"
+      },
+      {
+       "ids": [
+        "fobia_esp",
+        "agora",
+        "toc_dsm",
+        "ptsd"
+       ],
+       "t": "Trastornos en los que se aplica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Rachman (1977) mostró que muchas personas con fobias no recuerdan un episodio de condicionamiento, que los miedos no se distribuyen al azar entre los estímulos y que el miedo se adquiere también por modelado e información. La paradoja de la persistencia de la evitación, cuando el estímulo temido ya no se presenta, no se explica bien con el esquema original [fuente no localizada]; la revisión de Krypotos et al. (2015) repasa los modelos teóricos clásicos y contemporáneos del aprendizaje de evitación. Mineka y Zinbarg (2006) reconocen que los primeros enfoques conductuales eran excesivamente simples y fueron criticados con razón, y proponen que las diferencias individuales en temperamento, experiencias previas y contexto explican por qué solo una minoría de quienes viven experiencias aversivas desarrolla un trastorno. En el laboratorio, las diferencias entre pacientes y controles son modestas y dependen del paradigma (Lissek 2005), lo que limita el valor del condicionamiento como explicación etiológica suficiente.",
+     "links": [
+      {
+       "ids": [
+        "mod_clark_panico",
+        "sens_ansiedad"
+       ],
+       "t": "Modelos cognitivos posteriores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Mowrer OH (1960). Learning Theory and Behavior. New York: Wiley",
+    "Mineka S & Zinbarg R (2006). A contemporary learning theory perspective on the etiology of anxiety disorders: it's not what you thought it was. Am Psychol 61:10-26 · PMID 16435973",
+    "Lissek S et al. (2005). Classical fear conditioning in the anxiety disorders: a meta-analysis. Behav Res Ther 43:1391-1424 · PMID 15885654",
+    "Duits P et al. (2015). Updated meta-analysis of classical fear conditioning in the anxiety disorders. Depress Anxiety 32:239-253 · PMID 25703487",
+    "Craske MG et al. (2014). Maximizing exposure therapy: an inhibitory learning approach. Behav Res Ther 58:10-23 · PMID 24864005",
+    "Krypotos AM et al. (2015). Avoidance learning: a review of theoretical models and recent developments. Front Behav Neurosci 9:189 · PMID 26257618"
+   ],
+   "relAdd": [
+    "inhib_cond",
+    "exp_interocep",
+    "toc_dsm",
+    "agora"
+   ]
+  },
+  "sens_ansiedad": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Reiss y McNally (1985, «Expectancy model of fear», en Reiss y Bootzin, Theoretical Issues in Behavior Therapy, Academic Press) [fuente no localizada] situaron la sensibilidad a la ansiedad dentro de un modelo de expectativas en el que el miedo depende de lo que la persona espera que ocurra y de su sensibilidad a esas consecuencias; la sensibilidad a la ansiedad sería un miedo fundamental, junto con el miedo al daño y a la evaluación negativa, y una diferencia individual previa a los trastornos. Reiss et al. (1986) la operacionalizaron con el Anxiety Sensitivity Index y la diferenciaron de la frecuencia de ansiedad. La literatura secundaria la equipara a menudo con el «miedo al miedo» de Goldstein y Chambless (1978, Behav Ther 9:47-59) [fuente no localizada], pero en esa formulación el miedo al miedo es una consecuencia condicionada de haber sufrido ataques de pánico, mientras que en la de Reiss es un factor disposicional que puede preceder a los ataques; la distinción importa para interpretar los estudios prospectivos.",
+     "links": [
+      {
+       "ids": [
+        "asi3"
+       ],
+       "t": "Anxiety Sensitivity Index-3"
+      },
+      {
+       "ids": [
+        "anx_conduc",
+        "mod_clark_panico"
+       ],
+       "t": "Modelos de condicionamiento y cognitivo del pánico"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis de Smits et al. (2008), con 24 ensayos aleatorizados y 1851 participantes, mostró que la TCC reduce la sensibilidad a la ansiedad con efecto grande en muestras que buscan tratamiento (g=1,40) y moderado-grande en muestras de riesgo (g=0,74). En 90 pacientes con pánico tratados con TCC y 40 en lista de espera, la reducción del miedo al miedo medió por completo la mejoría de la discapacidad global y en parte la de la agorafobia, la ansiedad y la frecuencia de crisis (Smits 2004), dato de proceso coherente con el modelo. En prevención, un programa informatizado breve aplicado a 404 personas con puntuaciones altas redujo la sensibilidad a la ansiedad y el miedo subjetivo ante una prueba de inhalación de CO2 al 20 %; la incidencia de diagnósticos fue menor en el grupo tratado, aunque la diferencia no fue significativa en todos los intervalos de seguimiento (Schmidt 2007). Clínicamente, el ASI-3 permite identificar la diana y medir el cambio, y la exposición interoceptiva y la reestructuración de las interpretaciones son las intervenciones de elección.",
+     "links": [
+      {
+       "ids": [
+        "exp_interocep",
+        "tcc_panico",
+        "prot_unif"
+       ],
+       "t": "Intervenciones que la modifican"
+      },
+      {
+       "ids": [
+        "panic",
+        "agora"
+       ],
+       "t": "Pánico y agorafobia"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Lilienfeld, Jacob y Turner (1989) objetaron que los autores del ASI confundían las creencias sobre las consecuencias de la ansiedad con el miedo a esas consecuencias, que la evidencia de validez de constructo era débil y que la ansiedad rasgo podía explicar de forma más parsimoniosa los hallazgos; McNally (1989) replicó aclarando la distinción teórica y aportando datos a favor de ella. El debate sobre la redundancia con la ansiedad rasgo y el neuroticismo continúa en la literatura dimensional [fuente no localizada]. La estructura del instrumento original, unidimensional o multidimensional, fue inestable y obligó a desarrollar el ASI-3 (Taylor 2007). Smits et al. (2008) reconocen que no se conocen bien los mecanismos por los que la TCC reduce la sensibilidad a la ansiedad, y los efectos preventivos del programa de Schmidt et al. (2007) sobre la incidencia de trastornos no alcanzaron significación de forma consistente.",
+     "links": [
+      {
+       "ids": [
+        "hitop_anx"
+       ],
+       "t": "Espectro internalizante"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Reiss S & McNally RJ (1985). Expectancy model of fear. En: Reiss S & Bootzin RR (eds). Theoretical Issues in Behavior Therapy. San Diego: Academic Press [no verificada]",
+    "Goldstein AJ & Chambless DL (1978). A reanalysis of agoraphobia. Behav Ther 9:47-59 [no verificada]",
+    "Smits JAJ et al. (2008). The efficacy of cognitive-behavioral interventions for reducing anxiety sensitivity: a meta-analytic review. Behav Res Ther 46:1047-1054 · PMID 18687421",
+    "Smits JAJ et al. (2004). Mechanism of change in cognitive-behavioral treatment of panic disorder: evidence for the fear of fear mediational hypothesis. J Consult Clin Psychol 72:646-652 · PMID 15301649",
+    "Schmidt NB et al. (2007). Anxiety Sensitivity Amelioration Training (ASAT): a longitudinal primary prevention program targeting cognitive vulnerability. J Anxiety Disord 21:302-319 · PMID 16889931",
+    "Lilienfeld SO, Jacob RG & Turner SM (1989). Comment on Holloway and McNally's (1987) «Effects of anxiety sensitivity on the response to hyperventilation». J Abnorm Psychol 98:100-102 · PMID 2708633",
+    "McNally RJ (1989). Is anxiety sensitivity distinguishable from trait anxiety? Reply to Lilienfeld, Jacob, and Turner (1989). J Abnorm Psychol 98:193-194 · PMID 2708664"
+   ],
+   "relAdd": [
+    "anx_conduc",
+    "tcc_panico"
+   ]
+  },
+  "intol_incert": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El grupo de Laval introdujo el constructo con la Intolerance of Uncertainty Scale (Freeston, Rhéaume, Letarte, Dugas y Ladouceur 1994, «Why do people worry?», Pers Individ Dif 17:791-802) [fuente no localizada] y lo integró en un modelo del TAG cuya primera prueba empírica es Dugas et al. (1998). En la fuente primaria, la intolerancia a la incertidumbre es una característica disposicional que lleva a percibir como inaceptable la posibilidad de un suceso negativo aunque sea improbable, y la preocupación funciona como estrategia para afrontarla. La revisión de Birrell et al. (2011), firmada entre otros por Freeston, reconoce que las definiciones disponibles son categoriales y poco específicas, y que los análisis factoriales de la escala identifican dos factores con 12 ítems estables: deseo de previsibilidad con búsqueda activa de certeza y parálisis cognitiva y conductual ante la incertidumbre, interpretables como respuestas de aproximación y de evitación. Su consideración como factor transdiagnóstico o como «miedo a lo desconocido» es una extensión posterior y no figura en la formulación original del TAG.",
+     "links": [
+      {
+       "ids": [
+        "tag"
+       ],
+       "t": "Trastorno de ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "preocup_evit",
+        "tmc_wells"
+       ],
+       "t": "Otros modelos del TAG"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "En un ensayo aleatorizado con 65 adultos con TAG, la TCC basada en el modelo fue claramente superior a la lista de espera, la relajación aplicada solo marginalmente, y la TCC marginalmente superior a la relajación tras el tratamiento; en el seguimiento a 24 meses ambas se igualaron, aunque solo la TCC siguió mejorando (Dugas 2010). En un estudio de proceso con 28 personas con TAG tratadas con TCC, el cambio en la intolerancia a la incertidumbre medió el cambio en la preocupación y explicó el 59 % de su reducción, mientras que la relación inversa no fue significativa (Bomyea 2015). En población infantil y adolescente, el metaanálisis de 31 estudios halló que explica el 36 % de la varianza de la ansiedad y el 39,7 % de la de la preocupación, aunque casi todos los estudios eran transversales (Osmanağaoğlu 2018). Clínicamente se evalúa con la IUS o su versión breve de 12 ítems (Carleton 2007) y se trabaja con exposición conductual a la incertidumbre y experimentos sobre las conductas de búsqueda de seguridad.",
+     "links": [
+      {
+       "ids": [
+        "tcc_dep",
+        "tmc_wells",
+        "prot_unif"
+       ],
+       "t": "Tratamientos del TAG"
+      },
+      {
+       "ids": [
+        "gad7"
+       ],
+       "t": "Cribado y medida del TAG"
+      },
+      {
+       "ids": [
+        "tcc_inf"
+       ],
+       "t": "TCC en la infancia y la adolescencia"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Birrell et al. (2011) señalan que la validez de constructo de los factores de la escala está por confirmar, en especial en muestras clínicas. La literatura en menores se basa casi por completo en cuestionarios y diseños transversales con muestras comunitarias, lo que impide establecer la dirección causal (Osmanağaoğlu 2018). La expansión transdiagnóstica plantea un problema de especificidad: si la intolerancia a la incertidumbre se asocia con casi todos los trastornos internalizantes, su valor explicativo para el TAG disminuye y puede solaparse con el neuroticismo (véase la nota de la ficha). En el ensayo de Dugas (2010), la ventaja directa frente a la relajación aplicada fue marginal, y en otro ensayo la terapia metacognitiva superó al tratamiento basado en la intolerancia a la incertidumbre (van der Heiden 2012), lo que cuestiona que este sea el proceso central. La revisión de Behar et al. (2009) sitúa el modelo entre otros cinco que comparten el énfasis en la evitación de la experiencia interna.",
+     "links": [
+      {
+       "ids": [
+        "hitop_anx"
+       ],
+       "t": "Espectro internalizante"
+      },
+      {
+       "ids": [
+        "evit_exper"
+       ],
+       "t": "Evitación experiencial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Freeston MH et al. (1994). Why do people worry? Pers Individ Dif 17:791-802 [no verificada]",
+    "Birrell J et al. (2011). Toward a definition of intolerance of uncertainty: a review of factor analytical studies of the Intolerance of Uncertainty Scale. Clin Psychol Rev 31:1198-1208 · PMID 21871853",
+    "Dugas MJ et al. (2010). A randomized clinical trial of cognitive-behavioral therapy and applied relaxation for adults with generalized anxiety disorder. Behav Ther 41:46-58 · PMID 20171327",
+    "Bomyea J et al. (2015). Intolerance of uncertainty as a mediator of reductions in worry in a cognitive behavioral treatment program for generalized anxiety disorder. J Anxiety Disord 33:90-94 · PMID 26037493",
+    "Osmanağaoğlu N, Creswell C & Dodd HF (2018). Intolerance of uncertainty, anxiety, and worry in children and adolescents: a meta-analysis. J Affect Disord 225:80-90 · PMID 28802117",
+    "Carleton RN, Norton MA & Asmundson GJ (2007). Fearing the unknown: a short version of the Intolerance of Uncertainty Scale. J Anxiety Disord 21:105-117 · PMID 16647833",
+    "Behar E et al. (2009). Current theoretical models of generalized anxiety disorder (GAD): conceptual review and treatment implications. J Anxiety Disord 23:1011-1023 · PMID 19700258"
+   ],
+   "relAdd": [
+    "prot_unif",
+    "tcc_inf",
+    "evit_exper"
+   ]
+  },
+  "preocup_evit": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Las fuentes primarias son la definición operativa de la preocupación (Borkovec 1983), los experimentos de laboratorio de 1990 (Borkovec e Inz; Borkovec y Hu) y la exposición sistemática de la teoría en el capítulo de Borkovec, Alcaine y Behar (2004) en Generalized Anxiety Disorder: Advances in Research and Practice (Guilford), precedida por Borkovec (1994, «The nature, functions, and origins of worry», en Davey y Tallis, Worrying, Wiley) [fuente no localizada]. En ellas la preocupación es una actividad conceptual-verbal que suprime la activación somática y emocional, se refuerza negativamente por ese alivio y por la no aparición de los sucesos temidos, e impide el procesamiento emocional necesario para la extinción. El modelo integra además componentes interpersonales y de apego en el origen del TAG [fuente no localizada]. La revisión de Behar et al. (2009) lo clasifica como el único modelo integrado entre cinco contemporáneos y subraya que todos comparten el énfasis en la evitación de las experiencias afectivas internas, lectura secundaria que conviene diferenciar de la tesis fisiológica original.",
+     "links": [
+      {
+       "ids": [
+        "tag"
+       ],
+       "t": "Trastorno de ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "intol_incert",
+        "tmc_wells",
+        "evit_exper"
+       ],
+       "t": "Modelos relacionados"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El ensayo de Borkovec y Costello (1993) comparó terapia no directiva, relajación aplicada y TCC (con exposición imaginal y reestructuración) en el TAG: las dos últimas fueron equivalentes y superiores a la no directiva al final del tratamiento, con mantenimiento de las ganancias y mejor funcionamiento final con TCC; la terapia no directiva generó la mayor profundidad de procesamiento emocional, pero perdió ganancias. El modelo cognitivo de Hirsch y Mathews (2012) recoge el predominio verbal de la preocupación y añade la interacción entre sesgos automáticos de atención e interpretación y el control atencional voluntario, lo que abre dianas de entrenamiento atencional. En el metaanálisis de 41 estudios (2132 pacientes), el efecto de la psicoterapia frente a control fue grande (g=0,84), con indicios de sesgo de publicación y de mayor eficacia de la TCC que de la relajación a largo plazo (Cuijpers 2014). En la práctica, el modelo sustenta la detección temprana de la preocupación, la relajación aplicada y la exposición imaginal concreta.",
+     "links": [
+      {
+       "ids": [
+        "tcc_dep",
+        "tmc_wells",
+        "prot_unif"
+       ],
+       "t": "Tratamientos del TAG"
+      },
+      {
+       "ids": [
+        "sesgo_atencional"
+       ],
+       "t": "Sesgo atencional"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La tesis de que la preocupación suprime la activación fisiológica es la más discutida. Llera y Newman (2014), en 48 personas con TAG y 47 controles, observaron que la inducción de preocupación aumentaba la emocionalidad negativa respecto a la línea base y la mantenía durante exposiciones posteriores, lo que favorece el modelo de evitación del contraste frente al de supresión. El metaanálisis de 60 estudios de Ottaviani et al. (2016) asoció la cognición perseverativa (preocupación y rumiación) con mayor presión arterial, frecuencia cardiaca y cortisol, y con menor variabilidad de la frecuencia cardiaca, es decir, con más activación y no menos, aunque en personas sanas y con moderadores relevantes. Behar et al. (2009) señalan que la evidencia de cada modelo del TAG es parcial y que ninguno ha demostrado superioridad clara. Además, buena parte de los datos procede de muestras universitarias y de tareas de laboratorio con validez ecológica limitada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "rum",
+        "rumiacion_persev"
+       ],
+       "t": "Rumiación y cognición perseverativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Borkovec TD (1994). The nature, functions, and origins of worry. En: Davey GCL & Tallis F (eds). Worrying: Perspectives on Theory, Assessment and Treatment. Chichester: Wiley [no verificada]",
+    "Borkovec TD & Costello E (1993). Efficacy of applied relaxation and cognitive-behavioral therapy in the treatment of generalized anxiety disorder. J Consult Clin Psychol 61:611-619 · PMID 8370856",
+    "Hirsch CR & Mathews A (2012). A cognitive model of pathological worry. Behav Res Ther 50:636-646 · PMID 22863541",
+    "Cuijpers P et al. (2014). Psychological treatment of generalized anxiety disorder: a meta-analysis. Clin Psychol Rev 34:130-140 · PMID 24487344",
+    "Llera SJ & Newman MG (2014). Rethinking the role of worry in generalized anxiety disorder: evidence supporting a model of emotional contrast avoidance. Behav Ther 45:283-299 · PMID 24680226",
+    "Ottaviani C et al. (2016). Physiological concomitants of perseverative cognition: a systematic review and meta-analysis. Psychol Bull 142:231-259 · PMID 26689087",
+    "Behar E et al. (2009). Current theoretical models of generalized anxiety disorder (GAD): conceptual review and treatment implications. J Anxiety Disord 23:1011-1023 · PMID 19700258"
+   ],
+   "relAdd": [
+    "sesgo_atencional",
+    "rumiacion_persev"
+   ]
+  },
+  "mod_clark_panico": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El artículo original de Clark (1986, Behav Res Ther 24:461-470) es breve y programático: propone que el ataque de pánico es consecuencia de interpretar de forma catastrófica sensaciones corporales, enumera las sensaciones y las interpretaciones típicas y deriva predicciones comprobables, como que la manipulación de las interpretaciones debería modificar la probabilidad de un ataque. Clark no niega la vulnerabilidad biológica: la integra como posible fuente de sensaciones o de su intensidad. La hipótesis biológica alternativa más citada es la de la falsa alarma de asfixia de Klein (1993). La literatura secundaria tiende a presentar ambos modelos como excluyentes y a reducir el de Clark a «miedo a las sensaciones», confundiéndolo con la sensibilidad a la ansiedad; en la fuente primaria la cognición relevante es la interpretación catastrófica concreta durante la crisis, no un rasgo estable. Austin y Richards (2001) señalaron que términos clave del modelo («catástrofe», «amenaza», «relacionado con la ansiedad») se han usado con definiciones operativas implícitas y variables.",
+     "links": [
+      {
+       "ids": [
+        "sens_ansiedad"
+       ],
+       "t": "Sensibilidad a la ansiedad"
+      },
+      {
+       "ids": [
+        "panic",
+        "ataque_panico"
+       ],
+       "t": "Trastorno de pánico y ataque de pánico"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "En un ensayo con 43 pacientes, la terapia cognitiva completa y una versión breve con módulos de autoestudio, que requería unas 6,5 horas de terapeuta, fueron superiores a la lista de espera, con efectos grandes y prácticamente idénticos y ganancias mantenidas a 12 meses; las medidas cognitivas al final del tratamiento predijeron la ansiedad de pánico en el seguimiento (Clark 1999). Como evidencia de proceso, en 43 pacientes tratados con TCC durante 12 semanas, el cambio en las interpretaciones catastróficas predijo la reducción posterior de la gravedad, de la frecuencia de crisis, del malestar y de la evitación, mientras que el cambio sintomático no solía predecir el cambio cognitivo posterior, lo que apoya la secuencia temporal propuesta por el modelo (Teachman 2010). Clínicamente, la formulación del círculo vicioso con la persona, la medición de la convicción en las interpretaciones y los experimentos de inducción de sensaciones son el núcleo del tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "tcc_panico",
+        "exp_interocep"
+       ],
+       "t": "TCC del pánico y exposición interoceptiva"
+      },
+      {
+       "ids": [
+        "agora",
+        "hipervent"
+       ],
+       "t": "Agorafobia e hiperventilación"
+      },
+      {
+       "ids": [
+        "farm_anx"
+       ],
+       "t": "Alternativa farmacológica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Roth, Wilhelm y Pettit (2005) concluyeron que la teoría de las cogniciones catastróficas es la menos falsable de las seis teorías del pánico que examinaron, por la naturaleza esquiva de los pensamientos, aunque reconocen que ha estimulado mucho la investigación y la terapia; el círculo vicioso solo es falsable si se especifican las sensaciones internas temidas. Austin y Richards (2001) revisaron la evidencia y la calificaron de parcial o no concluyente en cuanto a que la interpretación catastrófica sea un sesgo exclusivo del pánico y el proceso que sustenta la crisis, y señalaron inconsistencias en su medición. Muchas personas describen ataques sin cogniciones catastróficas identificables, lo que el modelo explica apelando a interpretaciones automáticas no conscientes, explicación difícil de contrastar [fuente no localizada]. Los ensayos de terapia cognitiva proceden en buena parte del grupo que desarrolló el modelo, y el efecto de lealtad del investigador no puede descartarse [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "anx_conduc"
+       ],
+       "t": "Modelo de condicionamiento"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Clark DM et al. (1999). Brief cognitive therapy for panic disorder: a randomized controlled trial. J Consult Clin Psychol 67:583-589 · PMID 10450630",
+    "Teachman BA, Marker CD & Clerkin EM (2010). Catastrophic misinterpretations as a predictor of symptom change during treatment for panic disorder. J Consult Clin Psychol 78:964-973 · PMID 20954759",
+    "Roth WT, Wilhelm FH & Pettit D (2005). Are current theories of panic falsifiable? Psychol Bull 131:171-192 · PMID 15740414",
+    "Austin DW & Richards JC (2001). The catastrophic misinterpretation model of panic disorder. Behav Res Ther 39:1277-1291 · PMID 11686264",
+    "Klein DF (1993). False suffocation alarms, spontaneous panics, and related conditions: an integrative hypothesis. Arch Gen Psychiatry 50:306-317 · PMID 8466392"
+   ],
+   "relAdd": [
+    "farm_anx",
+    "anx_conduc"
+   ]
+  },
+  "mod_clark_wells": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La formulación original es un capítulo de libro (Clark y Wells 1995, en Heimberg, Liebowitz, Hope y Schneier, Social Phobia: Diagnosis, Assessment, and Treatment, Guilford), no un artículo indexado, por lo que gran parte de lo que se le atribuye procede de exposiciones posteriores del propio grupo y de revisiones. Su núcleo es que, al entrar en una situación social temida, se activan supuestos sobre el peligro de la evaluación negativa y la persona pasa a procesarse a sí misma como objeto social, construyendo una impresión de cómo la ven a partir de información interoceptiva; las conductas de seguridad y el procesamiento anticipatorio y posterior impiden la desconfirmación. A diferencia del modelo de Rapee y Heimberg (1997), que concede más peso a la vigilancia de las señales externas de evaluación por parte de la audiencia [fuente no localizada], el de Clark y Wells propone que la atención se desplaza hacia dentro y reduce el procesamiento de la información externa que podría desmentir las creencias. Esta diferencia sobre la dirección de la atención se diluye a menudo en la literatura secundaria, que presenta ambos como un único «modelo cognitivo».",
+     "links": [
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "Trastorno de ansiedad social"
+      },
+      {
+       "ids": [
+        "sesgo_atencional"
+       ],
+       "t": "Sesgo atencional"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "En 60 pacientes con fobia social generalizada, la terapia cognitiva fue superior a la fluoxetina con autoexposición y al placebo con autoexposición a mitad y al final del tratamiento, y mantuvo la superioridad sobre la fluoxetina a los 12 meses (Clark 2003). Frente a la psicoterapia interpersonal, en 117 pacientes, la tasa de respuesta fue del 65,8 % con terapia cognitiva, del 42,1 % con interpersonal y del 7,3 % en lista de espera, y la diferencia se mantuvo al año (68,4 % frente a 31,6 %) (Stangier 2011). En el ensayo multicéntrico SOPHO-NET (495 pacientes), la remisión fue del 36 % con TCC, del 26 % con psicoterapia psicodinámica y del 9 % en lista de espera; la TCC superó a la psicodinámica en remisión pero no en respuesta (60 % frente a 52 %), con efectos entre grupos pequeños (Leichsenring 2013). La revisión de Gregory y Peters (2017), con 41 estudios, observó reducciones en las creencias negativas sobre uno mismo, la atención autofocalizada y la autoevaluación durante la TCC. La evaluación con la LSAS y la formulación individual guían el tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "lsas"
+       ],
+       "t": "LSAS"
+      },
+      {
+       "ids": [
+        "tcc_dep",
+        "psicodin_breve",
+        "farm_anx"
+       ],
+       "t": "Alternativas terapéuticas comparadas"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Gregory y Peters (2017) señalan que relativamente pocos estudios examinaron si el cambio en los procesos relacionados con el yo predice o media la reducción de la ansiedad social, y que las investigaciones tenían muestras pequeñas, no controlaban los síntomas depresivos, carecían de lista de espera y presentaban problemas de medida; ninguno evaluó cambios en la estructura del yo. La superioridad de la terapia cognitiva procede sobre todo de ensayos del grupo de Clark o de grupos colaboradores, mientras que en SOPHO-NET, de investigación independiente y con mayor tamaño muestral, la ventaja de la TCC sobre la psicoterapia psicodinámica fue pequeña y limitada a la remisión (Leichsenring 2013). La ficha recoge ya que el modelo no contempla el temperamento ni la ansiedad social como respuesta proporcionada a la discriminación; en personas LGTBIQ, la vigilancia social puede ser adaptativa en entornos hostiles y la formulación debe distinguir sesgo de amenaza real.",
+     "links": [
+      {
+       "ids": [
+        "inhib_cond"
+       ],
+       "t": "Inhibición conductual"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Estrés de minorías y psicoterapia afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Clark DM et al. (2003). Cognitive therapy versus fluoxetine in generalized social phobia: a randomized placebo-controlled trial. J Consult Clin Psychol 71:1058-1067 · PMID 14622081",
+    "Stangier U et al. (2011). Cognitive therapy vs interpersonal psychotherapy in social anxiety disorder: a randomized controlled trial. Arch Gen Psychiatry 68:692-700 · PMID 21727253",
+    "Leichsenring F et al. (2013). Psychodynamic therapy and cognitive-behavioral therapy in social anxiety disorder: a multicenter randomized controlled trial. Am J Psychiatry 170:759-767 · PMID 23680854",
+    "Gregory B & Peters L (2017). Changes in the self during cognitive behavioural therapy for social anxiety disorder: a systematic review. Clin Psychol Rev 52:1-18 · PMID 27912159"
+   ],
+   "relAdd": [
+    "inhib_cond",
+    "sesgo_atencional",
+    "psicodin_breve",
+    "genero"
+   ]
+  },
+  "evit_exper": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La fuente primaria del constructo es el artículo de Hayes, Wilson, Gifford, Follette y Strosahl (1996, J Consult Clin Psychol 64:1152-1168), cuyo título original dice «Experimental avoidance» por una errata ampliamente reconocida y que debe leerse como «experiential avoidance» [fuente no localizada]. En él se propone una clasificación funcional de la psicopatología basada en procesos y no en síndromes, y se revisa investigación que conceptualiza múltiples formas de psicopatología como intentos poco saludables de escapar de emociones, pensamientos, recuerdos y otras experiencias privadas. El fundamento teórico es la teoría de los marcos relacionales, según la cual el lenguaje permite que los eventos privados adquieran funciones aversivas por relación verbal y no solo por condicionamiento directo (Hayes, Barnes-Holmes y Roche 2001, Relational Frame Theory, Kluwer/Plenum) [fuente no localizada]. Posteriormente el grupo integró la evitación experiencial en el concepto más amplio de inflexibilidad psicológica, con seis procesos (evitación, fusión cognitiva, pérdida de contacto con el presente, yo conceptualizado, falta de valores e inacción); presentar ambos términos como sinónimos es una simplificación habitual de la literatura secundaria.",
+     "links": [
+      {
+       "ids": [
+        "act_hayes"
+       ],
+       "t": "Terapia de aceptación y compromiso"
+      },
+      {
+       "ids": [
+        "anx_conduc",
+        "preocup_evit"
+       ],
+       "t": "Modelos de evitación previos"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "En el metaanálisis de A-Tjak et al. (2015), con 39 ensayos aleatorizados y 1821 pacientes con trastornos mentales o problemas de salud física, la terapia de aceptación y compromiso superó a las condiciones control (g=0,57), a la lista de espera (g=0,82), al placebo psicológico (g=0,51) y al tratamiento habitual (g=0,64), sin diferencias significativas frente a la TCC; también mejoró las medidas de proceso (g=0,56). La revisión sistemática de Stockton et al. (2019), con 12 estudios de mediación publicados entre 2006 y 2015, encontró resultados en general coherentes con el modelo de flexibilidad psicológica, aunque de calidad metodológica limitada y centrados en pocos procesos. En la clínica, el constructo orienta un análisis funcional de las conductas de control y evitación, que se evalúa con el AAQ-II o con instrumentos multidimensionales como el MEAQ, que discrimina mejor que las medidas previas frente al neuroticismo (Gámez 2011), y la intervención con aceptación, defusión, valores y acción comprometida, también integrada en el protocolo unificado y en la MBCT.",
+     "links": [
+      {
+       "ids": [
+        "act_hayes",
+        "prot_unif",
+        "mbct"
+       ],
+       "t": "Intervenciones de tercera generación y transdiagnósticas"
+      },
+      {
+       "ids": [
+        "dbt"
+       ],
+       "t": "Terapia dialéctico-conductual"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "El análisis factorial de Wolgast (2014) mostró que los ítems del AAQ-II se relacionaban más con ítems diseñados para medir malestar que con ítems de aceptación, lo que sugiere que el instrumento capta en buena medida angustia psicológica, un problema serio dado su papel central en la validación del modelo; esta referencia sustenta la objeción recogida en la nota de la ficha. El desarrollo del MEAQ respondió en parte a esas limitaciones de medida (Gámez 2011). En resultados, la revisión de Öst (2014), con 60 ensayos y 4234 participantes, halló un efecto medio pequeño (0,42), sin mejora de la calidad metodológica respecto a 2008 y un efecto pequeño y no significativo frente a tratamientos cognitivos o conductuales (0,16); concluyó que la terapia de aceptación y compromiso no estaba aún bien establecida para ningún trastorno. Las conclusiones divergentes entre metaanálisis, según criterios de inclusión y de calidad, obligan a una lectura prudente. La mediación por la flexibilidad psicológica se apoya en pocos estudios de calidad limitada (Stockton 2019).",
+     "links": [
+      {
+       "ids": [
+        "hitop_anx"
+       ],
+       "t": "Espectro internalizante y afecto negativo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hayes SC, Barnes-Holmes D & Roche B (2001). Relational Frame Theory: A Post-Skinnerian Account of Human Language and Cognition. New York: Kluwer Academic/Plenum [no verificada]",
+    "A-Tjak JGL et al. (2015). A meta-analysis of the efficacy of acceptance and commitment therapy for clinically relevant mental and physical health problems. Psychother Psychosom 84:30-36 · PMID 25547522",
+    "Öst LG (2014). The efficacy of Acceptance and Commitment Therapy: an updated systematic review and meta-analysis. Behav Res Ther 61:105-121 · PMID 25193001",
+    "Wolgast M (2014). What does the Acceptance and Action Questionnaire (AAQ-II) really measure? Behav Ther 45:831-839 · PMID 25311291",
+    "Gámez W et al. (2011). Development of a measure of experiential avoidance: the Multidimensional Experiential Avoidance Questionnaire. Psychol Assess 23:692-713 · PMID 21534697",
+    "Stockton D et al. (2019). Identifying the underlying mechanisms of change during acceptance and commitment therapy (ACT): a systematic review of contemporary mediation studies. Behav Cogn Psychother 47:332-362 · PMID 30284528"
+   ],
+   "relAdd": [
+    "dbt",
+    "intol_incert"
+   ]
+  },
+  "inhib_cond": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La fuente primaria (Kagan, Reznick y Snidman 1988, Science) describe la inhibición conductual ante lo no familiar como una categoría temperamental definida por los extremos de una distribución, no como un continuo, y propone que refleja un umbral bajo de excitabilidad en circuitos límbicos de base en parte heredada; la ficha ya recoge estos datos. La literatura posterior, sobre todo el grupo de Fox, la redefine como dimensión de reactividad y regulación modulable por el entorno, y la vincula al riesgo de ansiedad. Degnan y Fox (2007) subrayan que, aunque es una de las características temperamentales más estables de la infancia, existe una discontinuidad considerable: muchos lactantes y menores muy inhibidos muestran después una conducta social menos retraída, en función de las habilidades de atención y regulación, de los estilos de crianza y de las características del niño o de la niña, y presentan esta discontinuidad como un proceso de resiliencia. Biederman et al. (1990), con hijos e hijas de progenitores con pánico y agorafobia y con la muestra epidemiológica de Kagan, hallaron que los niños y niñas inhibidos tenían mayor riesgo de múltiples trastornos de ansiedad, lo que enlazó el temperamento con la transmisión familiar.",
+     "links": [
+      {
+       "ids": [
+        "persona"
+       ],
+       "t": "Temperamento y personalidad"
+      },
+      {
+       "ids": [
+        "anx_sep",
+        "mutis_sel"
+       ],
+       "t": "Trastornos de ansiedad de inicio infantil"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis prospectivo de Sandstrom, Uher y Pavlova (2020), con 27 estudios y 20 muestras independientes, halló que la inhibición conductual en la infancia aumenta la probabilidad de cualquier trastorno de ansiedad (OR 2,80), con asociación positiva para todos los trastornos de ansiedad, desde pequeña en la fobia específica (OR 1,49) hasta grande en la ansiedad social (OR 5,84). En una cohorte de 126 adolescentes seguidos desde los 4 meses, la inhibición estable según informe materno se asoció con una probabilidad 3,79 veces mayor de ansiedad social a lo largo de la vida, pero no de otros diagnósticos (Chronis-Tuscano 2009). En prevención, un programa grupal de 6 sesiones para familias de preescolares inhibidos redujo los diagnósticos de ansiedad a los 12 meses frente a no intervenir (Rapee 2005), y en 146 preescolares los efectos sobre la frecuencia y gravedad de los trastornos de ansiedad se mantuvieron a 3 años (Rapee 2010). Estos ensayos sustentan el entrenamiento parental y la exposición gradual acompañada como intervención temprana.",
+     "links": [
+      {
+       "ids": [
+        "entren_parental",
+        "tcc_inf"
+       ],
+       "t": "Entrenamiento parental y TCC infantil"
+      },
+      {
+       "ids": [
+        "fobia_soc",
+        "scared"
+       ],
+       "t": "Ansiedad social y cribado infantil"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "En los dos ensayos preventivos de Rapee et al. (2005; 2010) la intervención redujo los trastornos de ansiedad, pero no modificó los niveles de inhibición medidos por informe parental ni por observación de laboratorio, lo que indica que el beneficio no está mediado por un cambio del temperamento y cuestiona la idea de que la inhibición sea en sí misma la diana. La heterogeneidad entre estudios en la definición y medida de la inhibición (informe parental frente a observación, edades, puntos de corte) limita la comparación de las estimaciones de riesgo (Sandstrom 2020). La estabilidad no es absoluta (Degnan y Fox 2007), y en la cohorte de Chronis-Tuscano (2009) la asociación se limitó a la ansiedad social. Es esencial no patologizar la timidez ni las diferencias temperamentales: la inhibición es una variante normal del temperamento y la mayoría de los niños y niñas inhibidos no desarrolla un trastorno; la intervención se justifica por la interferencia funcional, no por el rasgo.",
+     "links": [
+      {
+       "ids": [
+        "acoso_esc"
+       ],
+       "t": "Acoso escolar"
+      },
+      {
+       "ids": [
+        "mod_clark_wells"
+       ],
+       "t": "Modelo cognitivo de la ansiedad social"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Degnan KA & Fox NA (2007). Behavioral inhibition and anxiety disorders: multiple levels of a resilience process. Dev Psychopathol 19:729-746 · PMID 17705900",
+    "Sandstrom A, Uher R & Pavlova B (2020). Prospective association between childhood behavioral inhibition and anxiety: a meta-analysis. J Abnorm Child Psychol 48:57-66 · PMID 31642030",
+    "Chronis-Tuscano A et al. (2009). Stable early maternal report of behavioral inhibition predicts lifetime social anxiety disorder in adolescence. J Am Acad Child Adolesc Psychiatry 48:928-935 · PMID 19625982",
+    "Rapee RM et al. (2005). Prevention and early intervention of anxiety disorders in inhibited preschool children. J Consult Clin Psychol 73:488-497 · PMID 15982146",
+    "Rapee RM et al. (2010). Altering the trajectory of anxiety in at-risk young children. Am J Psychiatry 167:1518-1525 · PMID 20810472",
+    "Biederman J et al. (1990). Psychiatric correlates of behavioral inhibition in young children of parents with and without psychiatric disorders. Arch Gen Psychiatry 47:21-26 · PMID 2294852"
+   ],
+   "relAdd": [
+    "mod_clark_wells",
+    "acoso_esc",
+    "anx_conduc"
+   ]
+  },
+  "apego": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Bowlby (1969, Attachment and Loss, vol. 1: Attachment, Hogarth Press) concibe el apego como un sistema conductual de base evolutiva que busca la proximidad a una figura protectora ante la amenaza y sirve de base segura para la exploración; a través de la experiencia se forman modelos operativos internos de uno mismo y de los demás. Ainsworth, Blehar, Waters y Wall (1978, Patterns of Attachment, Erlbaum) operacionalizaron las diferencias individuales con la Situación Extraña (seguro, evitativo y ambivalente), y el grupo de Main trasladó el estudio al nivel representacional adulto con la Entrevista de Apego Adulto [fuente no localizada]. Fonagy y Target (1997) proponen que la capacidad de mentalizar, es decir, de representar la conducta en términos de estados mentales, se adquiere en el contexto de las relaciones tempranas y depende de que la persona cuidadora comunique comprensión de la intencionalidad del niño o de la niña. Conviene distinguir la teoría del apego, etológica y evolutiva, de su uso psicoterapéutico y de la teoría de la mentalización, que es una elaboración posterior con raíces psicoanalíticas.",
+     "links": [
+      {
+       "ids": [
+        "vinculo_mb",
+        "winnicott"
+       ],
+       "t": "Vínculo temprano y tradición psicoanalítica"
+      },
+      {
+       "ids": [
+        "apego_trauma"
+       ],
+       "t": "Apego desorganizado"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "Validez clínica y de constructo: en el metaanálisis de Fearon et al. (2010), con 69 muestras (n=5947), la inseguridad se asoció con problemas externalizantes (d=0,31), con mayor riesgo en el apego desorganizado (d=0,34); en el de Groh et al. (2012), con 42 muestras (n=4614), la asociación con síntomas internalizantes fue pequeña (d=0,15) y solo significativa para el apego evitativo. En más de 10 500 clasificaciones de la Entrevista de Apego Adulto, los grupos clínicos mostraron más representaciones inseguras y no resueltas; el TLP se asoció con representaciones preocupadas y no resueltas, la depresión con inseguridad pero no con duelo o trauma no resuelto, y el abuso o el TEPT con representaciones mayoritariamente no resueltas (Bakermans-Kranenburg y van IJzendoorn 2009). Evidencia de resultado: en 134 pacientes con TLP, la MBT ambulatoria de 18 meses produjo una disminución más pronunciada de los intentos de suicidio y las hospitalizaciones que el manejo clínico estructurado, aunque ambos mejoraron (Bateman y Fonagy 2009). La evaluación del apego y de la mentalización orienta la formulación y la elección de terapias basadas en el apego en la infancia y en el adulto.",
+     "links": [
+      {
+       "ids": [
+        "mbt",
+        "ter_fam_inf"
+       ],
+       "t": "MBT y terapias basadas en el apego"
+      },
+      {
+       "ids": [
+        "tlp",
+        "ptsd"
+       ],
+       "t": "TLP y TEPT"
+      },
+      {
+       "ids": [
+        "adher"
+       ],
+       "t": "Alianza terapéutica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La estabilidad del apego desde la infancia hasta la adultez temprana es moderada (r=0,39 en 127 trabajos) y deja de ser significativa en intervalos superiores a 15 años, con menor estabilidad en muestras de riesgo (Pinquart 2013), lo que limita la idea de modelos operativos fijos. La transmisión intergeneracional se confirma, pero con efectos menores que hace dos décadas y sin que la sensibilidad parental la explique por completo: persiste la «brecha de transmisión» (Verhage 2016). Keller (2018) critica que la teoría representa una perspectiva occidental de clase media y que su pretensión de universalidad implica juicios morales sobre la crianza en otras culturas. Respecto a la mentalización, Luyten et al. (2020) la presentan como concepto transdiagnóstico, pero los estudios de proceso que demuestren que el cambio en la mentalización media el resultado son aún escasos [fuente no localizada], y Bateman y Fonagy (2009) pidieron replicaciones por grupos independientes. La asociación con la psicopatología internalizante es pequeña (Groh 2012): el apego es un factor de riesgo inespecífico, no una causa suficiente.",
+     "links": [
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "Contexto sociocultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ainsworth MDS, Blehar MC, Waters E & Wall S (1978). Patterns of Attachment: A Psychological Study of the Strange Situation. Hillsdale NJ: Erlbaum",
+    "Fonagy P & Target M (1997). Attachment and reflective function: their role in self-organization. Dev Psychopathol 9:679-700 · PMID 9449001",
+    "Fearon RP et al. (2010). The significance of insecure attachment and disorganization in the development of children's externalizing behavior: a meta-analytic study. Child Dev 81:435-456 · PMID 20438450",
+    "Groh AM et al. (2012). The significance of insecure and disorganized attachment for children's internalizing symptoms: a meta-analytic study. Child Dev 83:591-610 · PMID 22235928",
+    "Bakermans-Kranenburg MJ & van IJzendoorn MH (2009). The first 10,000 Adult Attachment Interviews: distributions of adult attachment representations in clinical and non-clinical groups. Attach Hum Dev 11:223-263 · PMID 19455453",
+    "Bateman A & Fonagy P (2009). Randomized controlled trial of outpatient mentalization-based treatment versus structured clinical management for borderline personality disorder. Am J Psychiatry 166:1355-1364 · PMID 19833787",
+    "Pinquart M, Feussner C & Ahnert L (2013). Meta-analytic evidence for stability in attachments from infancy to early adulthood. Attach Hum Dev 15:189-218 · PMID 23210665",
+    "Verhage ML et al. (2016). Narrowing the transmission gap: a synthesis of three decades of research on intergenerational transmission of attachment. Psychol Bull 142:337-366 · PMID 26653864",
+    "Keller H (2018). Universality claim of attachment theory: children's socioemotional development across cultures. Proc Natl Acad Sci U S A 115:11414-11419 · PMID 30397121",
+    "Luyten P et al. (2020). The mentalizing approach to psychopathology: state of the art and future directions. Annu Rev Clin Psychol 16:297-325 · PMID 32023093"
+   ],
+   "relAdd": [
+    "mbt",
+    "apego_trauma",
+    "tlp",
+    "adher",
+    "winnicott"
+   ]
+  },
+  "apego_trauma": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La categoría de apego desorganizado o desorientado (tipo D) fue descrita por Main y Solomon (1986, «Discovery of an insecure-disorganized/disoriented attachment pattern», en Brazelton y Yogman, Affective Development in Infancy, Ablex) [fuente no localizada] y sistematizada en los procedimientos de codificación de 1990 que recoge la ficha: conductas contradictorias, interrumpidas, de congelación o de aprensión hacia la figura de apego en la Situación Extraña. La hipótesis de Main y Hesse (1990) es que la conducta parental atemorizada o atemorizante, a menudo ligada a pérdidas o traumas no resueltos del progenitor, sitúa al lactante ante una «paradoja» en la que la fuente de protección es a la vez fuente de alarma. Es importante no confundir el apego desorganizado, que es una clasificación observacional de investigación en una relación concreta, con el trastorno de apego reactivo, que es un diagnóstico clínico. Atribuir directamente a Main la predicción del TLP o del TEPT complejo en la edad adulta es una extrapolación de la literatura secundaria, no una afirmación de la fuente primaria.",
+     "links": [
+      {
+       "ids": [
+        "rad"
+       ],
+       "t": "Trastorno de apego reactivo"
+      },
+      {
+       "ids": [
+        "apego"
+       ],
+       "t": "Teoría del apego"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis de van IJzendoorn, Schuengel y Bakermans-Kranenburg (1999), con cerca de 80 estudios y más de 6000 díadas, estableció la fiabilidad y validez discriminante de la categoría: alrededor del 15 % de los lactantes de familias de clase media muestran apego desorganizado, proporción que puede duplicarse o triplicarse en otros contextos o en grupos clínicos, y se asocia con peor manejo del estrés, más problemas externalizantes y conductas disociativas posteriores. En el estudio longitudinal de Minnesota (157 participantes), la desorganización se relacionó con antecedentes ambientales (calidad del cuidado, maltrato) y no con factores endógenos, y predijo psicopatología y disociación en la adolescencia (Carlson 1998). El maltrato se asocia con efectos grandes sobre la desorganización (d=2,19 frente a otras familias de alto riesgo), pero la acumulación de cinco riesgos socioeconómicos tuvo un impacto similar (Cyr 2010). Las intervenciones preventivas aumentan el apego organizado (d=0,35; 16 estudios), con mayor efecto en muestras con maltrato (Facompré 2018); en un ensayo, la intervención ABC redujo la desorganización del 57 % al 32 % (Bernard 2012).",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf",
+        "trauma"
+       ],
+       "t": "Maltrato infantil y trauma"
+      },
+      {
+       "ids": [
+        "ter_fam_inf",
+        "mbt"
+       ],
+       "t": "Intervenciones basadas en el apego"
+      },
+      {
+       "ids": [
+        "des2",
+        "disest"
+       ],
+       "t": "Disociación"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Granqvist et al. (2017), en un consenso firmado por los principales investigadores del área, incluida Main, rebaten cuatro supuestos erróneos difundidos en ámbitos clínicos, de protección infantil y forenses: que las medidas de apego sirvan como evaluación definitiva de una persona en contextos periciales, que el apego desorganizado indique de forma fiable maltrato, que sea un predictor potente de psicopatología y que constituya un rasgo fijo del niño o de la niña; la advertencia es especialmente relevante en la práctica pericial. La mediación por la conducta parental anómala explica solo una pequeña parte de la asociación entre estados mentales no resueltos del progenitor y desorganización (Madigan 2006), y el propio metaanálisis de 1999 señala que la conducta atemorizante no parece el único factor causal. La asociación con la desorganización es comparable en contextos de pobreza acumulada (Cyr 2010), lo que obliga a no individualizar ni culpabilizar a las familias. La predicción específica del TLP y del TEPT complejo en la adultez cuenta con menos evidencia prospectiva que la de la disociación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "desnos",
+        "tlp"
+       ],
+       "t": "TEPT complejo y TLP"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "Determinantes sociales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Main M & Solomon J (1986). Discovery of an insecure-disorganized/disoriented attachment pattern. En: Brazelton TB & Yogman MW (eds). Affective Development in Infancy. Norwood NJ: Ablex [no verificada]",
+    "van IJzendoorn MH, Schuengel C & Bakermans-Kranenburg MJ (1999). Disorganized attachment in early childhood: meta-analysis of precursors, concomitants, and sequelae. Dev Psychopathol 11:225-249 · PMID 16506532",
+    "Carlson EA (1998). A prospective longitudinal study of attachment disorganization/disorientation. Child Dev 69:1107-1128 · PMID 9768489",
+    "Cyr C et al. (2010). Attachment security and disorganization in maltreating and high-risk families: a series of meta-analyses. Dev Psychopathol 22:87-108 · PMID 20102649",
+    "Madigan S et al. (2006). Unresolved states of mind, anomalous parental behavior, and disorganized attachment: a review and meta-analysis of a transmission gap. Attach Hum Dev 8:89-111 · PMID 16818417",
+    "Granqvist P et al. (2017). Disorganized attachment in infancy: a review of the phenomenon and its implications for clinicians and policy-makers. Attach Hum Dev 19:534-558 · PMID 28745146",
+    "Facompré CR, Bernard K & Waters TEA (2018). Effectiveness of interventions in preventing disorganized attachment: a meta-analysis. Dev Psychopathol 30:1-11 · PMID 28397637",
+    "Bernard K et al. (2012). Enhancing attachment organization among maltreated children: results of a randomized clinical trial. Child Dev 83:623-636 · PMID 22239483"
+   ],
+   "relAdd": [
+    "apego",
+    "trauma",
+    "desnos",
+    "disest",
+    "des2",
+    "mbt",
+    "ter_fam_inf"
+   ]
+  }
+ },
+ "add": []
+}
