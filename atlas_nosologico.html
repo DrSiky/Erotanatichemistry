@@ -120,6 +120,7 @@ body.eink .sidew{border:2px solid #000;border-left:none;box-shadow:none}
 .eal{font-size:.74rem;color:var(--muted);font-style:italic;margin-top:3px}
 .badges{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}
 .nv{font-style:italic;font-size:.9em;border-bottom:1px dotted currentColor;color:var(--muted);white-space:normal}
+.aicfg{margin:8px 0;line-height:2.2}.aicfg input{width:260px;max-width:100%}.ailog{max-height:55vh;overflow:auto;margin:8px 0}.aim{padding:8px 10px;margin:6px 0;border:1px solid var(--line,#ccc);border-radius:6px}.aim.user{background:var(--soft,#f4f4f0)}#aiQ{width:100%;box-sizing:border-box;font:inherit}
 .nv.nvs{font-style:normal;font-weight:700;font-size:1em;border-bottom:none;cursor:help;padding:0 1px}
 body.eink .nv{color:#000;border-bottom:1px solid #000}
 .bdg{font-size:.64rem;border:1px solid var(--line);border-radius:3px;padding:1px 6px;color:var(--muted);background:var(--paper2)}
@@ -738,6 +739,7 @@ function renderSide(n){$('#side').classList.add('has');const sec=secOf(n);const 
     (s.links||[]).forEach(l=>{q+='<div class="ft" style="margin-top:4px">'+l.ids.map(i=>BY[i]?'<span class="rchip" data-id="'+i+'">'+esc(BY[i].n)+'</span>':'').join('')+' '+esc(l.t)+'</div>';});q+='</div>';if(al)alarm=q;else h+=q;});
   if(alarm){const dd=h.indexOf('<div class="fs"><div class="fl">Rasgos clave');h=dd>=0?h.slice(0,dd)+alarm+h.slice(dd):alarm+h;}
   {const dc=(window.ATLAS_DOCS||{})[n.id];if(dc){const L=typeof dc==='string'?[['',dc]]:dc;h+='<div class="fs"><div class="fl">'+(L.length>1?'Documentos adjuntos ('+L.length+')':'Documento adjunto')+'</div><div class="ft">'+(L.length>1?'Los documentos completos en PDF van incrustados':'El documento completo en PDF va incrustado')+' en este archivo (funciona sin conexión).</div>'+L.map((d,i)=>'<p style="margin-top:6px"><button class="sbtn big" data-a="pdf" data-i="'+i+'"><span><b>'+(d[0]?esc(d[0]):'Abrir el documento en PDF')+'</b><small>se abre en una pestaña nueva o se descarga</small></span></button></p>').join('')+'</div>';}}
+  if(window.ATLAS_AI)h+='<div class="fs"><div class="fl">Consulta asistida</div><div class="ft">Requiere conexión y una clave de API propia. La respuesta es orientativa: contrástela con las referencias de la ficha.</div><p style="margin-top:6px"><button class="sbtn big" data-a="ai"><span><b>Preguntar a Claude sobre esta ficha</b><small>solo en la copia privada</small></span></button></p></div>';
   if(n.tx)h+='<div class="fs"><div class="fl">Orientación terapéutica</div><div class="ftx">'+escx(n.tx)+'</div></div>';
   if(n.note)h+='<div class="fs"><div class="fl">Nota nosológica y crítica</div><div class="fnote">'+escx(n.note)+'</div></div>';
   const g=relGroups(n);const gk=VORDER.filter(v=>g[v]);
@@ -764,6 +766,7 @@ $('#side').addEventListener('click',e=>{const c=e.target.closest('[data-id]');if
   else if(act==='cmpopen'){showCompare();}
   else if(act==='rmap'){showRelMap(n.id,2);}
   else if(act==='pdf'){const dc=(window.ATLAS_DOCS||{})[n.id];const b64=typeof dc==='string'?dc:(dc&&dc[+a.dataset.i||0]||[])[1];if(b64){try{const bin=atob(b64),u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);const url=URL.createObjectURL(new Blob([u],{type:'application/pdf'}));const w=window.open(url,'_blank');if(!w){const l=document.createElement('a');l.href=url;l.download=n.id+'.pdf';document.body.appendChild(l);l.click();l.remove();}}catch(err){toast('No se pudo abrir el PDF');}}}
+  else if(act==='ai'){showAI(n);}
   else if(act==='symadd'){symAdd({id:n.id});showSym();}
   else if(act==='cmp'){const i=CMP.indexOf(n.id);if(i>=0)CMP.splice(i,1);else{if(CMP.length>=4)CMP.shift();CMP.push(n.id);}$('#cmpN').textContent=CMP.length;renderSide(n);toast(CMP.length+' nodo(s) en comparación');}
   else if(act==='close'){st.sel=null;emptySide();if(RADIAL[st.view])drawEdges(st.view);updHash();}});
@@ -958,6 +961,40 @@ function applySideW(on){const sd=$('#side'),b=$('#sidew');sd.classList.toggle('w
 $('#sidew').onclick=()=>{const on=!$('#side').classList.contains('wide');try{store.set('sideW',on?1:0);}catch(e){}applySideW(on);};
 applySideW(!!(function(){try{return store.get('sideW',0);}catch(e){return 0;}})());
 // ---------------- modales ----------------
+// Consulta asistida (solo si la copia privada define window.ATLAS_AI). La clave la introduce la persona usuaria y se guarda solo en su navegador.
+const AI_MODELS=[['claude-opus-5-5','Claude Opus 5.5'],['claude-sonnet-5-5','Claude Sonnet 5.5'],['claude-haiku-5-5','Claude Haiku 5.5']];
+const aiGet=k=>{try{return localStorage.getItem(k)||''}catch(e){return ''}},aiSet=(k,v)=>{try{v?localStorage.setItem(k,v):localStorage.removeItem(k)}catch(e){}};
+let AIH=null;
+function aiCtx(n){const o={id:n.id,nombre:n.n,descripcion:n.desc,rasgos:n.feats,tratamiento:n.tx,nota:n.note,secciones:(n.sec||[]).map(x=>({titulo:x.t,texto:x.x})),referencias:n.refs,relacionados:(n.rel||[]).map(i=>BY[i]?BY[i].n:i)};return JSON.stringify(o);}
+function aiMd(t){let h=esc(t).replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>');return h.split(/\n{2,}/).map(p=>/^\s*[-•] /m.test(p)?'<ul>'+p.split('\n').filter(x=>x.trim()).map(x=>'<li>'+x.replace(/^\s*[-•]\s*/,'')+'</li>').join('')+'</ul>':'<p>'+p.replace(/\n/g,'<br>')+'</p>').join('');}
+function showAI(n){if(!AIH||AIH.id!==n.id)AIH={id:n.id,msgs:[]};const key=aiGet('atlas_ai_key'),mod=aiGet('atlas_ai_model')||AI_MODELS[0][0],eff=aiGet('atlas_ai_effort')||'high';
+ modal('<h2>Preguntar a Claude: '+esc(n.n)+'</h2><p class="rleg">La pregunta y el contenido de esta ficha se envían a la API de Anthropic con su clave. La clave se guarda solo en este navegador. La respuesta es orientativa y puede contener errores: contrástela con las fuentes.</p>'
+ +'<div class="aicfg"><label>Clave de API <input id="aiKey" type="password" autocomplete="off" placeholder="sk-ant-…" value="'+esc(key)+'"></label> <button class="sbtn" id="aiForget">Olvidar clave</button><br><label>Modelo <select id="aiModel">'+AI_MODELS.map(m=>'<option value="'+m[0]+'"'+(m[0]===mod?' selected':'')+'>'+m[1]+'</option>').join('')+'</select></label> <label>Profundidad <select id="aiEff">'+[['low','baja'],['medium','media'],['high','alta'],['max','máxima']].map(e=>'<option value="'+e[0]+'"'+(e[0]===eff?' selected':'')+'>'+e[1]+'</option>').join('')+'</select></label></div>'
+ +'<div id="aiLog" class="ailog">'+AIH.msgs.map(m=>'<div class="aim '+m.role+'">'+(m.role==='user'?'<b>Pregunta:</b> '+esc(m.content):aiMd(m.content))+'</div>').join('')+'</div>'
+ +'<textarea id="aiQ" rows="3" placeholder="Escriba su pregunta sobre esta ficha…"></textarea><p><button class="sbtn big" id="aiGo"><span><b>Enviar</b></span></button> <button class="sbtn" id="aiNew">Nueva conversación</button> <span id="aiSt" class="rleg"></span></p>',true);
+ $('#aiForget').onclick=()=>{aiSet('atlas_ai_key','');$('#aiKey').value='';toast('Clave borrada de este navegador');};
+ $('#aiNew').onclick=()=>{AIH={id:n.id,msgs:[]};showAI(n);};
+ $('#aiGo').onclick=()=>aiAsk(n);$('#aiQ').onkeydown=e=>{if(e.key==='Enter'&&(e.ctrlKey||e.metaKey))aiAsk(n);};$('#aiQ').focus();}
+async function aiAsk(n){const key=$('#aiKey').value.trim(),q=$('#aiQ').value.trim(),model=$('#aiModel').value,eff=$('#aiEff').value;if(!key){toast('Introduzca su clave de API');return;}if(!q)return;
+ aiSet('atlas_ai_key',key);aiSet('atlas_ai_model',model);aiSet('atlas_ai_effort',eff);
+ AIH.msgs.push({role:'user',content:q});$('#aiQ').value='';const log=$('#aiLog');log.insertAdjacentHTML('beforeend','<div class="aim user"><b>Pregunta:</b> '+esc(q)+'</div><div class="aim assistant" id="aiCur"><i>Pensando…</i></div>');const cur=$('#aiCur');cur.scrollIntoView({block:'end'});$('#aiGo').disabled=true;$('#aiSt').textContent='';
+ const system='Eres un asistente de consulta integrado en un atlas psicopatológico en español, usado por un médico psicopatólogo, psicoterapeuta, psicofarmacólogo y perito médico-legal. Responde en español académico, preciso y ordenado por puntos. Reglas: (1) Distingue lo que dice la ficha del atlas (que se adjunta) de lo que aportas tú; cuando aportes algo que no está en la ficha, dilo. (2) Afirma solo lo que tenga base documental sólida y cita la fuente (autor y año, guía o ficha técnica); si no estás seguro, dilo expresamente y no inventes referencias, cifras ni PMID. (3) Nunca des dosis individualizadas; como máximo, límites literales de ficha técnica citándola. (4) Lenguaje neutro en género y no patologizante. (5) No sustituyes el juicio clínico ni pericial.\n\nFICHA DEL ATLAS (JSON):\n'+aiCtx(n);
+ const body={model,max_tokens:32000,stream:true,system,thinking:{type:'adaptive'},output_config:{effort:eff},messages:AIH.msgs.map(m=>({role:m.role,content:m.content}))};
+ const hdr={'content-type':'application/json','x-api-key':key,'anthropic-version':'2026-10-21','anthropic-dangerous-direct-browser-access':'true'};
+ if(model!=='claude-haiku-5-5'){body.fallbacks='default';hdr['anthropic-beta']='server-side-fallback-2026-07-01';}
+ let out='',stop='';
+ try{const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:hdr,body:JSON.stringify(body)});
+  if(!r.ok){let m='';try{m=(await r.json()).error.message}catch(e){}throw new Error('HTTP '+r.status+(r.status===401?' (clave no válida)':r.status===429?' (límite de uso; reintente más tarde)':'')+(m?': '+m:''));}
+  const rd=r.body.getReader(),dec=new TextDecoder();let buf='';
+  for(;;){const {done,value}=await rd.read();if(done)break;buf+=dec.decode(value,{stream:true});let i;while((i=buf.indexOf('\n\n'))>=0){const ev=buf.slice(0,i);buf=buf.slice(i+2);const dl=ev.split('\n').filter(l=>l.startsWith('data:')).map(l=>l.slice(5).trim()).join('');if(!dl)continue;let d;try{d=JSON.parse(dl)}catch(e){continue}
+   if(d.type==='content_block_delta'&&d.delta&&d.delta.type==='text_delta'){out+=d.delta.text;cur.innerHTML=aiMd(out);}
+   else if(d.type==='message_delta'&&d.delta&&d.delta.stop_reason)stop=d.delta.stop_reason;
+   else if(d.type==='error')throw new Error((d.error&&d.error.message)||'error en la respuesta');}}
+  if(stop==='refusal'&&!out)out='[La solicitud fue declinada por los filtros de seguridad del modelo.]';
+  if(stop==='max_tokens')out+='\n\n[Respuesta cortada por longitud.]';
+  cur.innerHTML=aiMd(out||'[Sin respuesta]');AIH.msgs.push({role:'assistant',content:out||'[Sin respuesta]'});
+ }catch(err){AIH.msgs.pop();cur.innerHTML='<p><b>Error:</b> '+esc(err.message||String(err))+'</p><p class="rleg">Compruebe la conexión y la clave.</p>';}
+ cur.removeAttribute('id');$('#aiGo').disabled=false;}
 function modal(h,wide){$('#mbox').innerHTML='<button class="mclose" aria-label="Cerrar">×</button>'+h;$('#mbox').classList.toggle('wide',!!wide);$('#mbox').classList.remove('full');$('#modal').classList.remove('full');$('#modal').classList.add('on');}
 const FIG=window.ATLAS_FIG||{},FIGM=window.ATLAS_FIGMETA||{};for(const k in FIG)if(FIG[k])FIG[k]=nvSvg(FIG[k]);let figZ=100;
 const FIGK={dd:'Diagnóstico diferencial',circ:'Circuito',mat:'Matriz',mod:'Modelo'};
