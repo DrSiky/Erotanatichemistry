@@ -36,7 +36,7 @@ module.exports = {
       'Ministerio de Gracia y Justicia (1882). Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (BOE-A-1882-6036), arts. 456, 459, 478 y 741 (texto consolidado, boe.es)',
       'Jefatura del Estado (1996). Ley Orgánica 1/1996, de 15 de enero, de Protección Jurídica del Menor (BOE-A-1996-1069), art. 13.1 (texto consolidado, boe.es)'
     ],
-    nodes: ['ganser', 'pseudologia', 'neurtraum', 'histeriaC', 'charcot_hit', 'fibro', 'sfcme', 'fact_psic_med', 'phq15_sss8', 'tx_tnf', 'tmf', 'sens_func', 'autolesion', 'esq', 'ncd_leve', 'scl90r', 'pcl5', 'capacidad_jur', 'whodas2', 'maltrato_inf']
+    nodes: ['ganser', 'pseudologia', 'neurtraum', 'histeriaC', 'charcot_hit', 'fibro', 'sfcme', 'fact_psic_med', 'phq15_sss8', 'tx_tnf', 'tmf', 'sens_func', 'autolesion', 'esq', 'ncd_leve', 'pcl5', 'capacidad_jur', 'whodas2', 'maltrato_inf']
   },
   draw(Fig) {
     const W = 2300;
@@ -85,10 +85,9 @@ module.exports = {
     const hf = Math.max(f2.h, f3.h, f4.h); [f2, f3, f4].forEach(b => { b.h = hf; });
     const g3h = yb + hf + 20 - y;
     F.group({ x: OX, y, w: GW, h: g3h, label: 'Intencionada: el incentivo externo separa la simulación del trastorno facticio' });
-    q2.y = Math.max(q2.y, f1.y + f1.h / 2 - 60);
-    const ya = f1.y + f1.h / 2, ybm = f2.y + f2.h / 2;
-    F.arrow(q2, f1, { from: 'r', to: 'l', fa: Math.min(0.3, (ya - q2.y) / q2.h), via: [[OX - 40, q2.y + q2.h * Math.min(0.3, (ya - q2.y) / q2.h)], [OX - 40, ya]], label: 'Sí', lx: QX + QW + 14 });
-    F.arrow(q2, f2, { from: 'r', to: 'l', fa: 0.8, via: [[OX - 20, q2.y + q2.h * 0.8], [OX - 20, ybm]], label: 'No', lx: QX + QW + 14, ly: q2.y + q2.h * 0.8 - 6 });
+    const ya = f1.y + f1.h / 2, ybm = f2.y + f2.h / 2, faS = Math.max(0.2, Math.min(0.6, (ya - q2.y) / q2.h));
+    F.arrow(q2, f1, { from: 'r', to: 'l', fa: faS, fb: (q2.y + q2.h * faS - f1.y) / f1.h, label: 'Sí', lx: QX + QW + 30 });
+    F.arrow(q2, f2, { from: 'r', to: 'l', fa: 0.88, via: [[OX - 30, q2.y + q2.h * 0.88], [OX - 30, ybm]], label: 'No', lx: QX + QW + 30, ly: q2.y + q2.h * 0.88 - 6 });
     y += Math.max(g3h, q2.y + q2.h - y) + 50;
 
     // Fila final: presentación inválida
@@ -134,7 +133,7 @@ module.exports = {
         [{ t: 'SIRS-2 (SVT, entrevista estructurada)', node: 'sims_tomm' }, 'Estrategias de detección de síntomas psiquiátricos fingidos (Rogers 2010 [no verificada]).',
           { sym: '●○○', t: 'SIRS original, 26 estudios: más sensibilidad y menos especificidad que en el manual; clasificaba mejor con simuladores instruidos que con personas con sospecha real de simulación (Green y Rosenfeld 2011). La SIRS-2 redujo las clasificaciones de fingimiento en personas solicitantes de prestaciones y acusadas (Tylicki 2018).' },
           'Los pacientes genuinos se clasificaban como fingidores con más frecuencia que los participantes no clínicos (Green y Rosenfeld 2011). Parte de quienes la SIRS-2 reclasificó como no fingidores sobrerrepresentaba síntomas en el MMPI-2-RF (Tylicki 2018).'],
-        [{ t: 'MMPI-2-RF, escalas de sobrerrepresentación (SVT)', node: 'scl90r' }, 'Cinco escalas de validez incluidas en un inventario de personalidad, p. ej. Fp-r (psicopatología infrecuente), FBS-r (validez de síntomas) y RBS.',
+        [{ t: 'MMPI-2-RF, escalas de sobrerrepresentación (SVT)', node: 'perit_forense' }, 'Cinco escalas de validez incluidas en un inventario de personalidad, p. ej. Fp-r (psicopatología infrecuente), FBS-r (validez de síntomas) y RBS.',
           { sym: '●●○', t: 'Metaanálisis moderado de 25 estudios: todas discriminan entre respuesta sincera y sobrerrepresentación, con tamaños del efecto de 1,08 (FBS-r) a 1,43 (Fp-r) (Ingram y Ternes 2016).' },
           'La diferencia entre grupos fue menor de lo que sugieren los cortes tradicionales: interpretar en contexto. FBS-r y RBS fueron las menos influidas por moderadores como el grupo de comparación (Ingram y Ternes 2016).']
       ] });

@@ -142,15 +142,15 @@ module.exports = {
     const t3 = F.table({ x: X, y, fs: 17.5,
       cols: [{ w: 360, label: 'Resultado' }, { w: 620, label: 'Población y diseño' }, { w: 830, label: 'Dato' }, { w: 370, label: 'Fuente' }],
       rows: [
-        [{ t: 'Intentos de suicidio a lo largo de la vida', node: 'ideac_suic' }, 'Adultos LGB: 25 estudios poblacionales con grupo heterosexual (11 971 no heterosexuales; 214 344 heterosexuales).', 'RR 2,47 (IC 95 % 1,87-3,28); en hombres gais y bisexuales, RR 4,28 (2,32-7,88).', 'King 2008'],
+        [{ t: 'Intentos de suicidio a lo largo de la vida', node: 'ideac_suic' }, 'Adultos LGB: 25 estudios poblacionales con grupo de comparación (11 971 LGB y 214 344 heterosexuales).', 'RR 2,47 (IC 95 % 1,87-3,28); en hombres gais y bisexuales, RR 4,28 (2,32-7,88).', 'King 2008'],
         [{ t: 'Depresión y trastornos de ansiedad', node: 'ddm' }, 'Mismo metaanálisis; prevalencia a 12 meses o a lo largo de la vida.', 'Riesgo al menos 1,5 veces mayor (RR 1,54-2,58).', 'King 2008'],
         [{ t: 'Dependencia de alcohol y otras sustancias', node: 'alcohol' }, 'Mismo metaanálisis; 12 meses.', 'RR 1,51-4,00; en mujeres lesbianas y bisexuales, alcohol RR 4,00 y drogas RR 3,50.', 'King 2008'],
         [{ t: 'Suicidalidad y depresión en la adolescencia', node: 'suic_adol' }, 'Metaanálisis de estudios con edad media inferior a 18 años.', 'Suicidalidad OR 2,92, creciente con la gravedad: ideación 1,96; intentos 3,18; intentos con atención médica 4,17. Síntomas depresivos d = 0,33.', 'Marshal 2011'],
-        ['Intentos de suicidio en la adolescencia por subgrupo', '35 estudios; 113 468 adolescentes de minorías sexuales y 2 378 987 heterosexuales.', 'OR 3,50 global; 3,71 homosexuales; 4,87 bisexuales; 5,87 jóvenes trans (un solo estudio).', 'di Giacomo 2018'],
+        ['Intentos de suicidio en la adolescencia por subgrupo', '35 estudios; adolescentes de minorías sexuales (113 468) frente a heterosexuales (2 378 987).', 'OR 3,50 global; 3,71 homosexuales; 4,87 bisexuales; 5,87 jóvenes trans (un solo estudio).', 'di Giacomo 2018'],
         [{ t: 'Consumo de sustancias en la adolescencia', node: 'tcs' }, '18 estudios; casi ninguno controló factores de confusión.', 'OR 2,89; mayor en bisexuales y en chicas.', 'Marshal 2008'],
         ['Subgrupos y excepciones', '199 estudios de varias regiones y etapas vitales.', 'Riesgo mayor de depresión, ansiedad, suicidio y problemas por sustancias en la mayoría; bisexuales, el subgrupo de mayor riesgo; alcohol: efectos nulos o inversos en muchos estudios, sobre todo en hombres.', 'Plöderl 2015'],
         [{ t: 'Personas trans: depresión y ansiedad', node: 'tag' }, '1093 personas trans; muestra en línea de EE. UU. (2003), sin grupo de comparación.', 'Depresión clínica 44,1 %; ansiedad 33,2 %; somatización 27,5 %.', 'Bockting 2013'],
-        ['Personas trans: conducta suicida', '65 estudios transversales, sobre todo muestras de conveniencia; heterogeneidad alta.', 'Ideación a lo largo de la vida 50 % (IC 95 % 42-57 %); intentos a lo largo de la vida 29 % (25-34 %).', 'Kohnepoushi 2023'],
+        ['Personas trans: conducta suicida', '65 estudios transversales de distintos países (1990-2022), sin grupo de comparación.', 'Ideación a lo largo de la vida 50 % (IC 95 % 42-57 %); intentos a lo largo de la vida 29 % (25-34 %).', 'Kohnepoushi 2023'],
         [{ t: 'Chemsex', node: 'chemsex_ssex' }, '38 estudios en HSH de países de renta alta.', 'Prevalencias muy heterogéneas según el muestreo; más frecuente en HSH con VIH; más sexo anal sin preservativo.', 'Maxwell 2019']
       ] });
     y = t3.y + 12;
@@ -170,7 +170,7 @@ module.exports = {
     eq(row1);
     y += row1[0].h + 34;
     const row2 = [
-      F.box('w1', { x: ix(0), y, w: IW, type: 'warn', fs: FS, align: 'left', node: 'ecosieg', title: 'Terapias de conversión: dañinas y prohibidas',
+      F.box('w1', { x: ix(0), y, w: IW, type: 'warn', fs: FS, node: 'ecosieg', title: 'Terapias de conversión: dañinas y prohibidas',
         text: 'En 27 715 personas trans, el 19,6 % de quienes habían hablado de su identidad con un profesional refirió esfuerzos de conversión; se asociaron a malestar psicológico grave (ORa 1,56) y a intentos de suicidio (ORa 2,27; 4,15 si fueron antes de los 10 años) (Turban 2020; transversal). La Ley 4/2023 las prohíbe incluso con consentimiento (art. 17); promoverlas o practicarlas es infracción muy grave (art. 79.4.d), con multa de 10 001 a 150 000 € (art. 80.3).' }),
       F.box('i4', { x: ix(1), y, w: IW, type: 'info', fs: FS, align: 'left', node: 'homosex_hist', title: 'Despatologización',
         text: 'La Asociación Americana de Psiquiatría retiró la homosexualidad del DSM-II en 1973 (Drescher 2015). La CIE-11 sitúa la incongruencia de género (HA60, HA61) en el capítulo 17, «Afecciones relacionadas con la salud sexual», fuera de los trastornos mentales (CIE-11 MMS).' }),
@@ -180,7 +180,7 @@ module.exports = {
     eq(row2);
     y += row2[0].h + 50;
     F.box('lim', { x: X, y, w: FW, type: 'lim', fs: FS, align: 'left', title: 'Límites',
-      text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico. La mayor parte de la evidencia es transversal, de autoinforme, con muestras de conveniencia y estadounidense, lo que impide afirmar causalidad y expone a sesgos de selección y de recuerdo; las excepciones parciales son el estudio prospectivo de Hatzenbuehler 2010 y el diseño cuasiexperimental de Raifman 2017. Los tamaños de efecto de los procesos proximales son pequeños (Pachankis 2020; Newcomb 2010). Las personas bisexuales, trans, no binarias e intersexuales, las mujeres y las minorías étnicas están infrarrepresentadas, y la evidencia sobre chemsex se limita a HSH. La prevalencia de conducta suicida en personas trans procede de un metaanálisis de calidad metodológica limitada (Kohnepoushi 2023). Las cifras describen grupos, no a cada persona: la mayoría de las personas LGTBIQ no presenta trastornos mentales.' });
+      text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico. La mayor parte de la evidencia es transversal, de autoinforme, con muestras de conveniencia y estadounidense, lo que impide afirmar causalidad y expone a sesgos de selección y de recuerdo; las excepciones parciales son el estudio prospectivo de Hatzenbuehler 2010 y el diseño cuasiexperimental de Raifman 2017. Los tamaños de efecto de los procesos proximales son pequeños (Pachankis 2020; Newcomb 2010). Las personas bisexuales, trans, no binarias e intersexuales, las mujeres y las minorías étnicas están infrarrepresentadas, y la evidencia sobre chemsex se limita a HSH. La prevalencia de conducta suicida en personas trans procede solo de estudios transversales sin grupo de comparación (Kohnepoushi 2023). Las cifras describen diferencias entre grupos, no el riesgo de cada persona.' });
 
     F.footer('Fuentes principales: Meyer 2003; Hatzenbuehler 2009 y 2010; Testa 2015 y 2017; Pellicane 2022; Raifman 2017; Ryan 2009 y 2010; Pachankis 2015 y 2020; Newcomb 2010; Bockting 2013; Russell 2018; King 2008; Marshal 2008 y 2011; di Giacomo 2018; Plöderl 2015; Kohnepoushi 2023; Maxwell 2019; Lafortune 2021; Turban 2020; APA 2012 y 2015; Drescher 2015; CIE-11 (OMS); Ley 4/2023 (BOE-A-2023-5366). Esquema docente: no sustituye al juicio clínico.');
     return F;

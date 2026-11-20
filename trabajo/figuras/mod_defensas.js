@@ -128,7 +128,8 @@ module.exports = {
     y += 50;
 
     // ---------- Bloque 3: organización de la personalidad ----------
-    y = F.band(y, 'Correspondencia aproximada con la organización de la personalidad (Kernberg) y con el PDM-2', { n: 3 }) + 26;
+    y = F.band(y, 'Correspondencia aproximada con la organización de la personalidad (Kernberg) y con el PDM-2', { n: 3 }) + 30;
+    y = F.text(L, y, 'Las tres primeras cajas van de mayor a menor integración (neurótica, límite, psicótica); las tres dimensiones que las distinguen son identidad, defensas primitivas y prueba de realidad (Lenzenweger 2001).', { fs: 18, w: CW }) + 18;
     const OW = (CW - 4 * 24) / 5, ox = i => L + i * (OW + 24);
     const o = [
       F.box('o_neu', { x: ox(0), y, w: OW, type: 'dx', fs: 18, align: 'left', title: 'Organización neurótica',
@@ -143,8 +144,6 @@ module.exports = {
         text: 'Psicoterapia focalizada en la transferencia, derivada del modelo de Kernberg: en 90 personas con TP límite se asoció a cambios en más dominios que la DBT y el tratamiento de apoyo (Clarkin 2007). En la DBT, un funcionamiento defensivo global más bajo al inicio predijo menos reducción de autolesiones (Euler 2025).' })
     ];
     eq(o);
-    F.arrow(o[0], o[1], { from: 'r', to: 'l', dash: true, label: 'menos integración' });
-    F.arrow(o[1], o[2], { from: 'r', to: 'l', dash: true, label: 'realidad alterada' });
     y = o[0].y + o[0].h + 60;
 
     // ---------- Bloque 4: validez y valor pronóstico ----------
@@ -162,7 +161,7 @@ module.exports = {
     ];
     eq(v);
     y = v[0].y + v[0].h + 30;
-    const c1 = F.box('crit', { x: L, y, w: (CW - 24) * 0.6, type: 'warn', fs: 18, align: 'left', title: 'Límites y críticas de la evidencia',
+    const c1 = F.box('crit', { x: L, y, w: (CW - 24) * 0.6, type: 'info', fs: 18, align: 'left', title: 'Límites y críticas de la evidencia',
       text: 'Fiabilidad modesta por defensa individual (Perry y Cooper 1989), problema que Vaillant reconoce (Vaillant 1994). El ODF por autoinforme (DSQ) no se distinguió del malestar subjetivo y no sustituye a la valoración por observador (Perry y Høglend 1998); medir por autoinforme procesos definidos como inconscientes es discutido (Cramer 2015). No hay estudios que muestren que evaluar las defensas mejore la planificación del tratamiento (Bond 2004). La cohorte Grant eran varones universitarios seleccionados por salud (Vaillant 1976). El estudio de cambio en psicoterapia tenía 21 participantes y un solo grupo (Perry y Bond 2012), y el de DBT, 60 (Euler 2025).' });
     const c2 = F.box('disc', { x: L + (CW - 24) * 0.6 + 24, y, w: (CW - 24) * 0.4, type: 'info', fs: 18, align: 'left', title: 'Discrepancias entre sistemas',
       text: 'Disociación: inmadura para Vaillant (2011), inhibición mental en la DFS (Richardson 2025) y neurótica en la DMRS (Di Giuseppe y Perry 2021). Fantasía autista: distorsión mayor en la DFS y renegación en la DMRS. Recuento de defensas de la DFS: 27 en seis niveles según Blais (1996) y 31 en siete según Richardson (2025). La DMRS divide además el nivel 6 en obsesivo y neurótico, y la imagen propia y ajena en idealización, devaluación y escisión.' });
@@ -170,7 +169,7 @@ module.exports = {
     y = c1.y + c1.h + 40;
 
     F.box('lim', { x: L, y, w: CW, type: 'lim', align: 'left', fs: 19, title: 'Límites de esta figura',
-      text: 'Esquema docente, no instrumento diagnóstico: no sustituye al juicio clínico ni a una evaluación con medidas validadas (DMRS, DFS, DSQ, PDC-2). La correspondencia entre niveles defensivos y organización de la personalidad es aproximada: una misma persona usa defensas de varios niveles y el nivel cambia con el estrés y el tratamiento (Perry y Bond 2012). Las definiciones de la DFS del DSM-IV, la obra original de Kernberg y el texto completo del PDM-2 no se han consultado directamente; los niveles proceden de Richardson (2025), Vaillant (2011) y Di Giuseppe y Perry (2021), y las definiciones del nivel 1 y de la retirada apática quedan sin fuente localizada. «Inmaduro» describe un modo de funcionar, no un juicio sobre la persona.' });
+      text: 'Esquema docente, no instrumento diagnóstico: no sustituye al juicio clínico ni a una evaluación con medidas validadas (DMRS, DFS, DSQ, PDC-2). La correspondencia entre niveles defensivos y organización de la personalidad es aproximada: la DMRS puntúa la proporción de defensas de cada nivel que usa una misma persona (Di Giuseppe y Perry 2021) y el perfil puede cambiar con el tratamiento (Perry y Bond 2012). Las definiciones de la DFS del DSM-IV, la obra original de Kernberg y el texto completo del PDM-2 no se han consultado directamente; los niveles proceden de Richardson (2025), Vaillant (2011) y Di Giuseppe y Perry (2021), y las definiciones del nivel 1 y de la retirada apática quedan sin fuente localizada. «Inmaduro» describe un modo de funcionar, no un juicio sobre la persona.' });
 
     F.footer('Fuentes: Vaillant 1976 (PMID 1267569), 1994 (8040479), 2000 (11392869) y 2011 (22034454); Perry y Cooper 1989 (2712663); Skodol y Perry 1993 (8485979); Perry y Høglend 1998 (9741558); Perry y Bond 2012 (22885667); Perry 2013 (23458114); Di Giuseppe y Perry 2021 (34721167); Bond 1983 (6830412); Andrews 1993 (8473876); Bond 2004 (15590575); Blais 1996 (8932968); Hilsenroth 2003 (14614340); Richardson 2025 (41560670); Euler 2025 (38648578); Cramer 2015 (26583439); Kernberg 1967 (4861171); Lenzenweger 2001 (11793901); Clarkin 2007 (17541052); Lingiardi y McWilliams 2015 (26043343); Tanzilli 2021 (34639429); DSM-IV, apéndice B (APA 1994). Esquema docente de apoyo; no sustituye al juicio clínico.');
     return F;

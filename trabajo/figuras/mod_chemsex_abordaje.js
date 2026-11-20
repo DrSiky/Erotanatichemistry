@@ -127,10 +127,10 @@ module.exports = {
     y = bot(r2[0]) + 46;
 
     // ───────── 4. Intervención
-    y = F.band(y, 'Cómo intervenir: niveles que se ofrecen a la vez, según las necesidades percibidas', { n: 4 }) + 22;
-    const EW = 1180;
+    y = F.band(y, 'Cómo intervenir: oferta integrada que parte de las necesidades y prioridades que percibe la persona (Ministerio de Sanidad 2020)', { n: 4 }) + 22;
+    const EW = 1120, EG = 170;
     const entry = F.box('entry', { x: X, y, w: EW, type: 'q', fs: 18, node: 'chemsex_atencion', title: '¿Dónde y cómo se detecta? Puerta de entrada sin juicio', text: 'Atender donde la persona ya acude (centros de ITS, unidades de VIH, entidades comunitarias LGTBQ+) y no solo derivar; preguntar por el consumo en contexto sexual con estilo empático; la vinculación es el primer objetivo (Ministerio de Sanidad 2020).' });
-    const urg = F.box('urg', { x: X + EW + 60, y, w: IW - EW - 60, type: 'warn', fs: 18, align: 'left', title: 'Derivación urgente (Ministerio de Sanidad 2020)', text: 'Intoxicación grave o coma · delirium · agitación o psicosis aguda · ideación o intento de suicidio · abscesos por inyección · exposición de riesgo al VIH (la PPE se inicia antes de 72 h, idealmente en 24 h) · posible agresión o sumisión química.' });
+    const urg = F.box('urg', { x: X + EW + EG, y, w: IW - EW - EG, type: 'warn', fs: 18, title: 'Derivación urgente (Ministerio de Sanidad 2020)', text: 'Intoxicación grave o coma · delirium · agitación o psicosis aguda · ideación o intento de suicidio · abscesos por inyección · exposición de riesgo al VIH (la PPE se inicia antes de 72 h, idealmente en 24 h) · posible agresión o sumisión química.' });
     eqH(entry, urg);
     y = bot(entry) + 64;
     const gy = y - 22;
@@ -150,9 +150,9 @@ module.exports = {
     ];
     eqH(...lv2);
     const gb = bot(lv2[0]) + 18;
-    F.group({ x: X, y: gy, w: IW, h: gb - gy, label: 'Oferta integrada: se parte de las necesidades y prioridades que percibe la persona (Ministerio de Sanidad 2020)', fill: '#fafaf7' });
-    lv1.forEach((b, i) => F.arrow(entry, b, { from: 'b', to: 't', fa: [0.12, 0.37, 0.63, 0.88][i] }));
-    F.arrow(entry, urg, { from: 'r', to: 'l', label: 'Si hay alarma' });
+    F.group({ x: X, y: gy, w: IW, h: gb - gy, fill: '#fafaf7' });
+    lv1.forEach((b, i) => F.arrow(entry, b, { from: 'b', to: 't' }));
+    F.arrow(entry, urg, { from: 'r', to: 'l', label: 'Alarma' });
     y = gb + 46;
 
     // ───────── 5. Principios

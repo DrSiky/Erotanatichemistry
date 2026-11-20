@@ -51,7 +51,7 @@ module.exports = {
     let y = F.band(100, 'De Wernicke a Perris: la escuela WKL y las cinco familias de psicosis endógenas de Leonhard', { n: 1 }) + 26;
     const HG = 70, HW = (IW - 3 * HG) / 4;
     const h1 = F.box('h_wer', { x: X, y, w: HW, type: 'info', fs: 18, node: 'wernicke_hit', title: 'Wernicke', text: 'Punto de partida de la escuela: Leonhard elabora el concepto de psicosis cicloide sobre hallazgos de Wernicke y Kleist (Pfuhlmann 1998a; Jabs 2002).' });
-    const h2 = F.box('h_kle', { x: X + (HW + HG), y, w: HW, type: 'info', fs: 18, node: 'psciclb', title: 'Kleist', text: 'Describe psicosis «atípicas» episódicas que Kraepelin no lograba ubicar; Leonhard las ordena después (Jabs 2002; Pfuhlmann 1998a).' });
+    const h2 = F.box('h_kle', { x: X + (HW + HG), y, w: HW, type: 'info', fs: 18, node: 'psciclb', title: 'Kleist', text: 'Su obra, con la de Wernicke, facilita que Leonhard delimite las «psicosis atípicas» de Kraepelin (Jabs 2002).' });
     const h3 = F.box('h_leo', { x: X + 2 * (HW + HG), y, w: HW, type: 'dx', fs: 18, node: 'leonhard_hit', title: 'Leonhard (1957)', text: 'Aufteilung der endogenen Psychosen: tres psicosis cicloides (Pfuhlmann 1998a) y psicosis fásicas puras separadas de la enfermedad maníaco-depresiva (Foucher 2020).' });
     const h4 = F.box('h_per', { x: X + 3 * (HW + HG), y, w: HW, type: 'info', fs: 18, node: 'perris', title: 'Perris (1974) y Perris y Brockington (1981)', text: 'La psicosis cicloide como entidad unitaria con criterios operativos (Peralta 2007), y examinados en comparación transcultural (Brockington 1982a).' });
     eqH(h1, h2, h3, h4);
