@@ -26,51 +26,52 @@ module.exports = {
     nodes: ['cie11_hit', 'dsm5_hit', 'rdoc', 'red_sintom', 'smoller_estructura', 'teasqd', 'desp']
   },
   draw(Fig) {
-    const W = 2400;
+    const W = 2560;
     const F = new Fig({ key: 'mod_hitop', title: TITLE, w: W,
       desc: 'Árbol jerárquico de HiTOP: factor p; superespectros de disfunción emocional, psicosis y externalizante; espectros internalizante, somatomorfo, trastorno del pensamiento, desapego, externalizante desinhibido y antagonista; subfactores con las categorías DSM correspondientes y ejemplos de síntomas y rasgos. Tabla de equivalencias con el PID-5, la CIE-11 y los cinco grandes, y recuadros de validez, utilidad y críticas.' });
-    const L = 60, G = 36, FS = 18;
+    const L = 60, X0 = 230, G = 36, FS = 18;
     // Columnas de los seis espectros (el internalizante ocupa el doble)
-    const C = { int: { x: L, w: 600 }, som: { x: 696, w: 300 }, tp: { x: 1032, w: 300 }, des: { x: 1368, w: 300 }, di: { x: 1704, w: 300 }, ant: { x: 2040, w: 300 } };
+    const C = { int: { x: X0, w: 600 }, som: { x: X0 + 636, w: 300 }, tp: { x: X0 + 972, w: 300 }, des: { x: X0 + 1308, w: 300 }, di: { x: X0 + 1644, w: 300 }, ant: { x: X0 + 1980, w: 300 } };
     const eq = bs => { const h = Math.max(...bs.map(b => b.h)); bs.forEach(b => { b.h = h; }); return h; };
-    const lab = (y, s) => F.text(L, y, s, { bold: true, fs: 18, fill: '#333', w: W - 120 });
+    // Rótulo de nivel en la columna izquierda, a la altura de la fila
+    const lab = (y, n, s) => { F.text(L, y + 22, n, { bold: true, fs: 20, w: 150 }); F.text(L, y + 50, s, { fs: 16, fill: '#333', w: 150 }); };
 
     // ---------- Bloque 1: jerarquía ----------
     let y = F.band(90, 'Jerarquía HiTOP: de lo más general (arriba) a lo más específico (abajo); las flechas significan «se divide en»', { n: 1 }) + 34;
     y = F.text(L, y, 'HiTOP no contiene diagnósticos DSM ni CIE, sino los signos y síntomas que los forman; las categorías de los niveles inferiores indican solo dónde caen sobre todo sus síntomas (Conway 2022).', { fs: 18, w: W - 120 }) + 22;
 
-    lab(y, 'Nivel 1 · Superespectro general');
-    const p = F.box('p', { x: 700, y: y + 14, w: 1000, type: 'mec', fs: FS, node: 'p_factor', title: 'Factor general de psicopatología (factor p)',
+    lab(y, 'Nivel 1', 'Superespectro general');
+    const p = F.box('p', { x: X0 + 640, y, w: 1000, type: 'mec', fs: FS, node: 'p_factor', title: 'Factor general de psicopatología (factor p)',
       text: 'Recoge lo que comparten los seis espectros y se supone presente en casi todos los síntomas, en unos más que en otros (Conway 2022). En la cohorte de Dunedin, seguida 20 años desde la adolescencia, los trastornos se explicaban por tres factores (internalizante, externalizante y del pensamiento) y aún mejor por una sola dimensión general (Caspi 2014).' });
-    y = p.y + p.h + 46;
+    y = p.y + p.h + 60;
 
-    lab(y, 'Nivel 2 · Superespectros (hipotéticos según Kotov 2021)');
-    const s1 = F.box('s1', { x: C.int.x, y: y + 14, w: C.som.x + C.som.w - C.int.x, type: 'dx', fs: FS, node: 'hitop_anx', title: 'Disfunción emocional',
+    lab(y, 'Nivel 2', 'Superespectros (hipotéticos según Kotov 2021)');
+    const s1 = F.box('s1', { x: C.int.x, y, w: C.som.x + C.som.w - C.int.x, type: 'dx', fs: FS, node: 'hitop_anx', title: 'Disfunción emocional',
       text: 'Une los espectros internalizante y somatomorfo; ligado en conjunto al afecto negativo o neuroticismo (Watson 2022).' });
-    const s2 = F.box('s2', { x: C.tp.x, y: y + 14, w: C.des.x + C.des.w - C.tp.x, type: 'dx', fs: FS, node: 'esqtclin', title: 'Psicosis',
+    const s2 = F.box('s2', { x: C.tp.x, y, w: C.des.x + C.des.w - C.tp.x, type: 'dx', fs: FS, node: 'esqtclin', title: 'Psicosis',
       text: 'Une trastorno del pensamiento y desapego: genética, factores de riesgo y biomarcadores en parte comunes (Kotov 2020).' });
-    const s3 = F.box('s3', { x: C.di.x, y: y + 14, w: C.ant.x + C.ant.w - C.di.x, type: 'dx', fs: FS, node: 'desinhib', title: 'Externalizante',
+    const s3 = F.box('s3', { x: C.di.x, y, w: C.ant.x + C.ant.w - C.di.x, type: 'dx', fs: FS, node: 'desinhib', title: 'Externalizante',
       text: 'Une los espectros desinhibido y antagonista; incluye sobre todo los trastornos por consumo y los de la personalidad del grupo B (Krueger 2021).' });
     eq([s1, s2, s3]);
     [s1, s2, s3].forEach(s => F.arrow(p, s, { from: 'b', to: 't' }));
-    y = s1.y + s1.h + 46;
+    y = s1.y + s1.h + 60;
 
-    lab(y, 'Nivel 3 · Seis espectros (los cinco primeros, mejor validados; el somatomorfo, con apoyo modesto: Conway 2022)');
+    lab(y, 'Nivel 3', 'Seis espectros');
     const sp = {};
-    sp.int = F.box('e_int', { x: C.int.x, y: y + 14, w: C.int.w, type: 'dx', fs: FS, node: 'tripartito', title: 'Internalizante', text: 'El espectro mayor y más complejo (Watson 2022).' });
-    sp.som = F.box('e_som', { x: C.som.x, y: y + 14, w: C.som.w, type: 'dx', fs: FS, node: 'somat_sint', title: 'Somatomorfo', text: 'El más provisional (Watson 2022).' });
-    sp.tp = F.box('e_tp', { x: C.tp.x, y: y + 14, w: C.tp.w, type: 'dx', fs: FS, node: 'meehl', title: 'Trastorno del pensamiento', text: 'Del juicio de realidad normal al psicoticismo y los delirios (Kotov 2020).' });
-    sp.des = F.box('e_des', { x: C.des.x, y: y + 14, w: C.des.w, type: 'dx', fs: FS, node: 'hitop_tp', title: 'Desapego', text: 'De la introversión al afecto embotado y la abulia (Kotov 2020).' });
-    sp.di = F.box('e_di', { x: C.di.x, y: y + 14, w: C.di.w, type: 'dx', fs: FS, node: 'impulsiv', title: 'Externalizante desinhibido', text: 'Actuar por impulso sin considerar las consecuencias (Krueger 2021).' });
-    sp.ant = F.box('e_ant', { x: C.ant.x, y: y + 14, w: C.ant.w, type: 'dx', fs: FS, node: 'tpb', title: 'Externalizante antagonista', text: 'Relacionarse mediante antipatía y conflicto (Krueger 2021).' });
+    sp.int = F.box('e_int', { x: C.int.x, y, w: C.int.w, type: 'dx', fs: FS, node: 'tripartito', title: 'Internalizante', text: 'El espectro mayor y más complejo (Watson 2022). Con los cuatro siguientes, los cinco espectros mejor validados (Conway 2022).' });
+    sp.som = F.box('e_som', { x: C.som.x, y, w: C.som.w, type: 'dx', fs: FS, node: 'somat_sint', title: 'Somatomorfo', text: 'El más provisional (Watson 2022); apoyo modesto (Conway 2022).' });
+    sp.tp = F.box('e_tp', { x: C.tp.x, y, w: C.tp.w, type: 'dx', fs: FS, node: 'meehl', title: 'Trastorno del pensamiento', text: 'Del juicio de realidad normal al psicoticismo y los delirios (Kotov 2020).' });
+    sp.des = F.box('e_des', { x: C.des.x, y, w: C.des.w, type: 'dx', fs: FS, node: 'hitop_tp', title: 'Desapego', text: 'De la introversión al afecto embotado y la abulia (Kotov 2020).' });
+    sp.di = F.box('e_di', { x: C.di.x, y, w: C.di.w, type: 'dx', fs: FS, node: 'impulsiv', title: 'Externalizante desinhibido', text: 'Actuar por impulso sin considerar las consecuencias (Krueger 2021).' });
+    sp.ant = F.box('e_ant', { x: C.ant.x, y, w: C.ant.w, type: 'dx', fs: FS, node: 'tpb', title: 'Externalizante antagonista', text: 'Relacionarse mediante antipatía y conflicto (Krueger 2021).' });
     eq(Object.values(sp));
-    F.arrow(s1, sp.int, { from: 'b', to: 't', fa: 0.32 }); F.arrow(s1, sp.som, { from: 'b', to: 't', fa: 0.84 });
-    F.arrow(s2, sp.tp, { from: 'b', to: 't', fa: 0.25 }); F.arrow(s2, sp.des, { from: 'b', to: 't', fa: 0.75 });
-    F.arrow(s3, sp.di, { from: 'b', to: 't', fa: 0.25 }); F.arrow(s3, sp.ant, { from: 'b', to: 't', fa: 0.75 });
-    y = sp.int.y + sp.int.h + 46;
+    F.arrow(s1, sp.int, { from: 'b', to: 't', fa: 300 / 936 }); F.arrow(s1, sp.som, { from: 'b', to: 't', fa: 786 / 936 });
+    F.arrow(s2, sp.tp, { from: 'b', to: 't', fa: 150 / 636 }); F.arrow(s2, sp.des, { from: 'b', to: 't', fa: 486 / 636 });
+    F.arrow(s3, sp.di, { from: 'b', to: 't', fa: 150 / 636 }); F.arrow(s3, sp.ant, { from: 'b', to: 't', fa: 486 / 636 });
+    y = sp.int.y + sp.int.h + 60;
 
-    lab(y, 'Niveles 4 y 5 · Subfactores (marcos) y síndromes, con la categoría DSM-5-TR más próxima (cajas enlazadas)');
-    const gy = y + 16, CF = 17;
+    lab(y, 'Niveles 4 y 5', 'Subfactores (marcos) y síndromes: categoría DSM-5-TR más próxima (cajas)');
+    const gy = y, CF = 17;
     // Marco de subfactor con cajas compactas apiladas. items: [title, node, text?]
     const grp = (id, x, y0, w, label, items) => {
       let yy = y0 + 40; const bs = [];
@@ -93,7 +94,7 @@ module.exports = {
     const gDe = grp('g_des', C.des.x, gy, C.des.w, 'Desapego', [['Síntomas negativos', 'esqneg'], ['T. esquizoide', 'tp_esquizoide', 'solo desapego'], ['T. evitativo', 'tpev', 'solo desapego']]);
     // Externalizantes
     const gDi = grp('g_di', C.di.x, gy, C.di.w, 'Consumo y desinhibición', [['TDAH', 'tdah'], ['Consumo de alcohol', 'alcohol'], ['Consumo de otras sustancias', 'tcs']]);
-    const gAn = grp('g_an', C.ant.x, gy, C.ant.w, 'Antagonismo', [['T. narcisista', 'tpnarc'], ['T. histriónico', 'hist'], ['T. paranoide', 'tparano']]);
+    const gAn = grp('g_an', C.ant.x, gy, C.ant.w, 'Antagonismo', [['T. narcisista', 'tpnarc'], ['T. histriónico', 'hist'], ['T. paranoide', 'tparano', 'también psicosis (Kotov 2020)']]);
     const myT = Math.max(gDi.bottom, gAn.bottom) + 16, mw = C.ant.x + C.ant.w - C.di.x;
     // Marco común a los dos espectros externalizantes: rasgos de ambos
     const mx = [['T. antisocial', 'tpanti'], ['T. de conducta', 'tcond'], ['T. negativista desafiante', 'tnd'], ['T. explosivo intermitente', 'tei'], ['T. límite (provisional)', 'tlp', 'carga sobre todo en internalización']];
@@ -106,9 +107,9 @@ module.exports = {
     F.arrow(sp.som, gSo, { from: 'b', to: 't' }); F.arrow(sp.tp, gT, { from: 'b', to: 't' }); F.arrow(sp.des, gDe, { from: 'b', to: 't' });
     F.arrow(sp.di, gDi, { from: 'b', to: 't' }); F.arrow(sp.ant, gAn, { from: 'b', to: 't' });
 
-    y = Math.max(gM.bottom, gA.bottom, gSo.bottom, gT.bottom, gDe.bottom, gMx.y + gMx.h) + 46;
-    lab(y, 'Nivel 6 · Componentes sintomáticos y rasgos desadaptativos: las unidades básicas (más de 100 propuestos: Kotov 2021); ejemplos');
-    const ky = y + 14;
+    y = Math.max(gM.bottom, gA.bottom, gSo.bottom, gT.bottom, gDe.bottom, gMx.y + gMx.h) + 60;
+    lab(y, 'Nivel 6', 'Componentes y rasgos: unidades básicas (más de 100 propuestos: Kotov 2021); ejemplos');
+    const ky = y;
     const k = [
       F.box('k_int', { x: C.int.x, y: ky, w: C.int.w, type: 'info', fs: CF, node: 'anhed', title: 'Anhedonia; pánico, insomnio, ansiedad social', text: 'La anhedonia, como componente, es diana para desarrollar tratamientos (Kotov 2021); subescalas homogéneas del IDAS (Conway 2022).' }),
       F.box('k_som', { x: C.som.x, y: ky, w: C.som.w, type: 'info', fs: CF, title: 'Malestar corporal', text: 'Indicadores principales del espectro (Watson 2022).' }),
@@ -122,7 +123,7 @@ module.exports = {
 
     // ---------- Bloque 2: personalidad ----------
     y = F.band(y, 'Correspondencia aproximada con los rasgos de personalidad: PID-5 (DSM-5-TR, Sección III) y CIE-11', { n: 2 }) + 22;
-    const t = F.table({ x: L, y, fs: 18, cols: [{ w: 330, label: 'Espectro HiTOP' }, { w: 400, label: 'Dominio del PID-5 (criterio B del modelo alternativo)' }, { w: 560, label: 'Calificador de rasgo de la CIE-11' }, { w: 400, label: 'Cinco grandes: polo desadaptativo' }, { w: 590, label: 'Fuente y matiz' }],
+    const t = F.table({ x: L, y, fs: 18, cols: [{ w: 330, label: 'Espectro HiTOP' }, { w: 400, label: 'Dominio del PID-5 (criterio B del modelo alternativo)' }, { w: 560, label: 'Calificador de rasgo de la CIE-11' }, { w: 400, label: 'Cinco grandes: polo desadaptativo' }, { w: 750, label: 'Fuente y matiz' }],
       rows: [
         [{ t: 'Internalizante', node: 'hitop_anx' }, 'Afecto negativo', 'Afectividad negativa (la perseveración, faceta del afecto negativo, se aproxima a la anancastia)', 'Neuroticismo', 'Kotov 2017; Watson 2022; equivalencias CIE-11: tabla 7 de Bach y First 2018'],
         [{ t: 'Somatomorfo', node: 'somat_sint' }, 'Sin dominio propio', 'Sin calificador propio', 'Sin equivalente', 'Los cinco dominios del PID-5 (Krueger 2012) y de la CIE-11 (Bach y First 2018) no incluyen un dominio somático'],
@@ -152,7 +153,7 @@ module.exports = {
         text: 'Estabilidad a dos semanas de 0,88 (psicoticismo) y 0,89 (desapego) frente a 0,44-0,63 en los trastornos de la personalidad del grupo (Kotov 2020); 0,86 en desinhibición y antagonismo del PID-5 frente a kappa test-retest de 0,40 (consumo de alcohol) y 0,21 (antisocial) en el DSM-5 (Krueger 2021); kappa de 0,28 en depresión mayor y 0,20 en TAG en los ensayos de campo del DSM-5 (Watson 2022).' }),
       F.box('v3', { x: vx(2), y, w: VW, type: 'info', fs: FS, align: 'left', node: 'pleiotropia', title: 'Genética y validadores',
         text: 'Se espera que unos genes actúen en el factor general y otros en espectros, subfactores o síntomas concretos (Waszczuk 2020). Superespectro psicótico heredable en un 73 % (Kotov 2020); correlación genética de 0,80 entre depresión y TAG (Watson 2022). Propuesta de uso clínico: rangos de gravedad de 1,0-1,5 DE (leve), 1,5-2,0 (moderado) y > 2,0 (grave) (Kotov 2021).' }),
-      F.box('v4', { x: vx(3), y, w: VW, type: 'warn', fs: FS, align: 'left', node: 'p_factor', title: 'Límites y críticas',
+      F.box('v4', { x: vx(3), y, w: VW, type: 'info', fs: FS, align: 'left', node: 'p_factor', title: 'Límites y críticas',
         text: 'Incompleto: de 19 clases del DSM-5 recoge 8 completas, 6 en parte y 5 no; somatomorfo y manía, provisionales; validez incierta fuera de los 15-65 años (Kotov 2021). El modelo bifactorial puede generar un factor general artefactual (Kotov 2021). No hay pruebas de que usar HiTOP mejore los resultados clínicos frente al DSM, y la estructura simple factorial no representa bien el espacio de los síntomas (Haeffel 2022).' })
     ];
     eq(v);
