@@ -54,7 +54,7 @@ module.exports = {
       'U.S. Food and Drug Administration, CDER (2024). Complete response letter, NDA 215455 (midomafetamine capsules, Lykos Therapeutics), 8/8/2024. Consultada via openFDA (api.fda.gov/transparency/crl) en noviembre de 2026',
       'World Health Organization (2026; consulta). CIE-11 para estadisticas de mortalidad y morbilidad: 6C49 (trastornos por uso de alucinogenos), 6C4C (MDMA o drogas relacionadas), 6C4D (drogas disociativas, incluidas ketamina y fenciclidina). icd.who.int'
     ],
-    nodes: ['alucinogenos', 'psilocib', 'psicodel_5ht2a', 'ketamina', 'esketamina', 'ketamina_rec', 'pred_coding', 'red_danos']
+    nodes: ['alucinogenos', 'psilocib', 'psicodel_5ht2a', 'ketamina', 'esketamina', 'ketamina_rec', 'pred_coding', 'red_danos', 'estim_monoam', 'hiponatr_psicof', 'bdnf_np', 'desp_sx', 'opioide_endog', 'psust', 'sind_ser', 'qt_psicof']
   },
   draw(Fig) {
     const W = 2300, X = 60, FW = W - 2 * X;
@@ -81,25 +81,25 @@ module.exports = {
     const b1 = col(0,
       { id: 'c_clas', node: 'alucinogenos', title: 'Psicodelicos clasicos', text: 'Psilocibina, LSD, DMT (ayahuasca) y mescalina' },
       { node: 'psicodel_5ht2a', title: 'Diana: agonismo 5-HT2A cortical', text: 'Agonistas o agonistas parciales del receptor 5-HT2A, con especial relevancia en las piramidales de capa V (Nichols 2016).' },
-      { title: 'Mecanismo (hipotesis)', text: 'El bloqueo con ketanserina (antagonista 5-HT2A) suprime los efectos de la psilocibina (Vollenweider 1998) y de la LSD (Preller 2017): evidencia en personas. El modelo REBUS propone que relajan las creencias previas de alto nivel elevando la entropia cortical (Carhart-Harris 2019): marco teorico. Plasticidad via TrkB y mTOR en modelos celulares y animales (Ly 2018; Moliner 2023).' },
+      { node: 'pred_coding', title: 'Mecanismo (hipotesis)', text: 'El bloqueo con ketanserina (antagonista 5-HT2A) suprime los efectos de la psilocibina (Vollenweider 1998) y de la LSD (Preller 2017): evidencia en personas. El modelo REBUS propone que relajan las creencias previas de alto nivel elevando la entropia cortical (Carhart-Harris 2019): marco teorico. Plasticidad via TrkB y mTOR en modelos celulares y animales (Ly 2018; Moliner 2023).' },
       { title: 'Efectos agudos (en personas)', text: 'Cambios perceptivos y del yo, afecto intensificado; descenso de flujo y conectividad en nodos de la red por defecto, proporcional a la intensidad subjetiva (Carhart-Harris 2012). Ayahuasca: aumento leve de presion diastolica (Riba 2003).' });
 
     const b2 = col(1,
       { id: 'c_mdma', node: 'alucinogenos', title: 'Entactogeno: MDMA', text: '3,4-metilendioximetanfetamina' },
-      { title: 'Diana: liberacion de serotonina', text: 'Invierte el transportador de serotonina (SERT) y el vesicular y provoca liberacion de serotonina, y tambien de dopamina (Rudnick 1992; Green 2003).' },
+      { node: 'estim_monoam', title: 'Diana: liberacion de serotonina', text: 'Invierte el transportador de serotonina (SERT) y el vesicular y provoca liberacion de serotonina, y tambien de dopamina (Rudnick 1992; Green 2003).' },
       { title: 'Mecanismo (hipotesis)', text: 'El efecto prosocial se ha atribuido a oxitocina: la MDMA eleva la oxitocina plasmatica (Kirkpatrick 2014), pero la respuesta subjetiva no se correlaciono con ese nivel (hipotesis parcial). En animales hay perdida duradera de terminales serotoninergicos; en personas la neurotoxicidad es equivoca (Green 2003).' },
-      { title: 'Efectos agudos (en personas)', text: 'Euforia, sociabilidad y activacion; aumento de frecuencia cardiaca y presion arterial dependiente de dosis (Kirkpatrick 2014). Riesgo de hipertermia e hiponatremia (bloque 3).' });
+      { node: 'hiponatr_psicof', title: 'Efectos agudos (en personas)', text: 'Euforia, sociabilidad y activacion; aumento de frecuencia cardiaca y presion arterial dependiente de dosis (Kirkpatrick 2014). Riesgo de hipertermia e hiponatremia (bloque 3).' });
 
     const b3 = col(2,
       { id: 'c_ket', node: 'ketamina', title: 'Disociativos: ketamina y esketamina', text: 'Ketamina racemica; esketamina (enantiomero S)' },
       { node: 'ketamina_rec', title: 'Diana: antagonismo NMDA', text: 'Antagonistas no competitivos del receptor glutamatergico NMDA (Krystal 1994).' },
-      { title: 'Mecanismo (hipotesis)', text: 'Efecto antidepresivo rapido ya descrito con ketamina IV (Berman 2000). Hipotesis de sinaptogenesis: activacion de mTOR y formacion de espinas en corteza prefrontal (Li 2010, en roedores). Metabolitos (2R,6R)-HNK con accion antidepresiva independiente de NMDA en raton (Zanos 2016). La naltrexona atenuo el efecto antidepresivo, no el disociativo: posible papel del sistema opioide (Williams 2018).' },
-      { title: 'Efectos agudos (en personas)', text: 'Sintomas disociativos y perceptivos, sedacion, nausea y aumento transitorio de la presion arterial (Krystal 1994; ficha de Spravato 4.8). A dosis subanestesicas, sintomas tipo esquizofrenia (Krystal 1994).' });
+      { node: 'bdnf_np', title: 'Mecanismo (hipotesis)', text: 'Efecto antidepresivo rapido ya descrito con ketamina IV (Berman 2000). Hipotesis de sinaptogenesis: activacion de mTOR y formacion de espinas en corteza prefrontal (Li 2010, en roedores). Metabolitos (2R,6R)-HNK con accion antidepresiva independiente de NMDA en raton (Zanos 2016). La naltrexona atenuo el efecto antidepresivo, no el disociativo: posible papel del sistema opioide (Williams 2018).' },
+      { node: 'desp_sx', title: 'Efectos agudos (en personas)', text: 'Sintomas disociativos y perceptivos, sedacion, nausea y aumento transitorio de la presion arterial (Krystal 1994; ficha de Spravato 4.8). A dosis subanestesicas, sintomas tipo esquizofrenia (Krystal 1994).' });
 
     const b4 = col(3,
       { id: 'c_ibo', node: 'alucinogenos', title: 'Ibogaina y agonistas kappa', text: 'Ibogaina (Tabernanthe iboga); salvinorina A (Salvia divinorum)' },
       { title: 'Diana multiple / kappa-opioide', text: 'Ibogaina y noribogaina: afinidad micromolar por NMDA, opioides kappa/mu y sigma-2 (Litjens 2016). Salvinorina A: agonista kappa selectivo, sin accion 5-HT2A (Roth 2002).' },
-      { title: 'Mecanismo (hipotesis)', text: 'La salvinorina A muestra que no todo efecto alucinatorio pasa por 5-HT2A: la via kappa produce distorsiones perceptivas (Roth 2002). La ibogaina interesa en adiccion, pero con señal de cardiotoxicidad y evidencia clinica muy limitada (bloque 3).' },
+      { node: 'opioide_endog', title: 'Mecanismo (hipotesis)', text: 'La salvinorina A muestra que no todo efecto alucinatorio pasa por 5-HT2A: la via kappa produce distorsiones perceptivas (Roth 2002). La ibogaina interesa en adiccion, pero con señal de cardiotoxicidad y evidencia clinica muy limitada (bloque 3).' },
       { title: 'Efectos agudos (en personas)', text: 'Ibogaina: estado oniroide prolongado; en una serie observacional de 30 veteranos con lesion cerebral traumatica se asociaron mejoras funcionales, con magnesio para mitigar el riesgo cardiaco (Cherian 2024, estudio abierto sin grupo control).' });
 
     y = Math.max(b1, b2, b3, b4) + 28;
@@ -154,11 +154,11 @@ module.exports = {
     const RW = (FW - 2 * 30) / 3;
     const rc = i => X + i * (RW + 30);
     const y3 = y;
-    const r1 = F.box('r_psi', { x: rc(0), y: y3, w: RW, type: 'warn', fs: FS, align: 'left',
+    const r1 = F.box('r_psi', { x: rc(0), y: y3, w: RW, type: 'warn', fs: FS, node: 'psust',
       title: 'Psicosis, HPPD y cuadro agudo', text: 'La toxicidad aguda por alucinogenos puede cursar con psicosis: en una serie europea de urgencias, 20,9% de las presentaciones por LSD y 18,8% por setas con psilocibina (Vallersnes 2016). El trastorno perceptivo persistente por alucinogenos (HPPD) reexperimenta distorsiones visuales; se asocia a sintomas disociativos y a ansiedad previa (Halpern 2018). Precaucion especial con antecedentes de psicosis o trastorno bipolar (ficha de Spravato 4.4). La CIE-11 no tiene categoria especifica para el HPPD [fuente oficial no localizada].' });
-    const r2 = F.box('r_ser', { x: rc(1), y: y3, w: RW, type: 'warn', fs: FS, align: 'left',
+    const r2 = F.box('r_ser', { x: rc(1), y: y3, w: RW, type: 'warn', fs: FS, node: 'sind_ser',
       title: 'Interaccion serotoninergica y convulsiones', text: 'La MDMA y otras sustancias serotoninergicas combinadas con ISRS, IRSN o IMAO pueden desencadenar toxicidad serotoninergica: emergencia por exceso de serotonina (Boyer 2005; ficha del nodo). Combinacion con IMAO especialmente peligrosa. Señal de convulsiones con psicodelicos clasicos junto a litio, no con lamotrigina, en una serie de relatos (Nayak 2021, evidencia debil pero concordante). Hiponatremia y SIADH por MDMA, agravados por ingesta de agua (Hartung 2002).' });
-    const r3 = F.box('r_cv', { x: rc(2), y: y3, w: RW, type: 'warn', fs: FS, align: 'left',
+    const r3 = F.box('r_cv', { x: rc(2), y: y3, w: RW, type: 'warn', fs: FS, node: 'qt_psicof',
       title: 'Riesgo cardiovascular y valvular', text: 'Esketamina: aumento transitorio de la presion arterial; contraindicada si un ascenso tensional supone riesgo grave, como en vasculopatia aneurismatica o episodio cardiovascular reciente (ficha de Spravato 4.3). Ibogaina y noribogaina bloquean el canal hERG, con riesgo de prolongacion del QT y arritmia (Koenig 2014; Alper 2016); fallecimientos descritos, casi siempre con comorbilidad cardiovascular o policonsumo (Alper 2012). Uso cronico de agonistas 5-HT2B (MDMA, algunos psicodelicos): riesgo teorico de valvulopatia (Rothman 2000; Droogmans 2007; Tagen 2023).' });
     y = Math.max(r1.y + r1.h, r2.y + r2.h, r3.y + r3.h) + 18;
     const r4 = F.box('r_man', { x: X, y, w: FW, type: 'act', fs: FS, align: 'left', node: 'red_danos',
