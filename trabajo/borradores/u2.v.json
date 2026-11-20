@@ -1,0 +1,757 @@
+{
+ "patch": {
+  "desprescr_bzd": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG215 (2022) pide plantear la retirada si el fármaco ya no beneficia, han surgido problemas de dependencia, el trastorno se ha resuelto, los daños superan a los beneficios o la persona lo desea (rec. 1.5.1); recomienda reducir de forma lenta y escalonada, con decrementos proporcionales a la dosis (1.5.11), valorar el paso a una benzodiacepina de semivida larga (1.5.13) y la TCC grupal (1.5.23), y no ofrecer valproato ni buspirona (1.5.22) ni otro fármaco que cause dependencia (1.5.21). NICE CG113 limita las benzodiacepinas en la ansiedad generalizada a medidas breves en crisis (rec. 1.2.26) y desaconseja prescribirlas en el pánico (1.3.20). En el insomnio crónico, la ESRS sitúa la TCC-I como primera línea y admite benzodiacepinas y agonistas del receptor benzodiacepínico para el tratamiento a corto plazo (hasta 4 semanas) y solo en algunos casos un uso más largo (Riemann 2023); la AASM solo formula recomendaciones débiles para algunos hipnóticos (Sateia 2017). En atención primaria española, una intervención estructurada con pauta escrita logró la abstinencia a 12 meses en el 45 % frente al 15 % (Vicens 2014); en mayores, la retirada supervisada con psicoterapia (OR 5,06; Gould 2014) y la educación directa (27 % frente a 5 %; Tannenbaum 2014) superaron a los controles. Las ayudas farmacológicas tienen evidencia de calidad baja o muy baja (Baandrup 2018). La ficha técnica de Orfidal limita la duración total del tratamiento a 8-12 semanas, incluida la retirada.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "panic",
+        "insom"
+       ],
+       "t": "ansiedad generalizada, pánico e insomnio"
+      },
+      {
+       "ids": [
+        "tcci"
+       ],
+       "t": "TCC para el insomnio"
+      },
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "benzodiacepinas en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Las benzodiacepinas potencian la inhibición sináptica mediada por el GABA al unirse a receptores específicos del sistema nervioso central (ficha técnica de Orfidal, 5.1). Con semanas de uso continuado puede perderse parte del efecto hipnótico, y el riesgo de dependencia física y psíquica crece con la dosis y la duración y es mayor con antecedentes de consumo de alcohol u otras drogas (4.4). La semivida condiciona la retirada: con las de acción corta el cuadro puede aparecer incluso con niveles plasmáticos terapéuticos (4.4), razón del paso a una de semivida larga (NICE NG215, rec. 1.5.13). El lorazepam se glucuronida, carece de metabolitos activos y no es sustrato relevante del citocromo P450 (5.2), aunque la ficha advierte de que los inhibidores de enzimas hepáticas, en especial del citocromo P450, pueden potenciar a las benzodiacepinas, y en menor grado a las que solo se conjugan (4.5). La abstinencia va de la disforia leve y el insomnio a un síndrome grave con calambres, vómitos, sudoración, temblor y convulsiones; también cefalea, irritabilidad, desrealización, despersonalización, hiperacusia, parestesias, hipersensibilidad sensorial y ansiedad o insomnio de rebote (4.4). NICE NG215 advierte de que la retirada puede durar meses y los síntomas ser tardíos o persistentes (1.5.9), y orienta a distinguirlos de la reaparición del trastorno de base por su inicio rápido tras una reducción, su cualidad distinta o mayor intensidad o su novedad (1.5.17).",
+     "links": [
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "dependencia de sedantes e hipnóticos"
+      },
+      {
+       "ids": [
+        "lorazepam",
+        "diazepam",
+        "alprazolam"
+       ],
+       "t": "benzodiacepinas de semivida corta, intermedia y larga"
+      },
+      {
+       "ids": [
+        "zolpidem",
+        "zopiclona"
+       ],
+       "t": "hipnóticos Z"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La interrupción repentina o la reducción rápida tras un uso continuado puede provocar reacciones de abstinencia potencialmente mortales, con convulsiones (ficha técnica de Orfidal, 4.2 y 4.4); NICE NG215 solo admite la suspensión brusca en circunstancias médicas excepcionales (1.5.6). Convulsiones, delirium, alucinaciones o tendencias suicidas durante la reducción son signos de abstinencia grave y exigen valoración urgente (4.4). Las benzodiacepinas pueden enmascarar tendencias suicidas y no deben usarse solas en la ansiedad asociada a depresión (4.4). La combinación con opioides puede producir sedación profunda, depresión respiratoria, coma y muerte (4.4); con opioides de prescripción, el uso concurrente duplicó las urgencias o ingresos por sobredosis (OR ajustada 2,14; Sun 2017). La ficha recoge muertes por sobredosis con otros depresores, alcohol o sustancias ilícitas (4.4); la ficha de Xyrem pide evitar oxibato de sodio y benzodiacepinas por riesgo de depresión respiratoria (4.5); extenderlo al GHB/GBL del chemsex es una inferencia [fuente no localizada]. Con antirretrovirales potenciados con ritonavir algunas benzodiacepinas están contraindicadas: comprobar la ficha del antirretroviral (véase la ficha de interacciones con antirretrovirales). El insomnio o la ansiedad de rebote pueden empujar al consumo no prescrito de sedantes o de GHB/GBL [fuente no localizada]. En el embarazo, NICE CG192 propone considerar la retirada gradual (rec. 1.4.19).",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "ghb_abst"
+       ],
+       "t": "GHB/GBL y su abstinencia"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "chemsex e interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "opioides",
+        "alcohol"
+       ],
+       "t": "opioides y alcohol"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "Vicens C et al. (2014). Comparative efficacy of two interventions to discontinue long-term benzodiazepine use: cluster randomised controlled trial in primary care. Br J Psychiatry 204:471-479 · PMID 24526745",
+    "Gould RL et al. (2014). Interventions for reducing benzodiazepine use in older people: meta-analysis of randomised controlled trials. Br J Psychiatry 204:98-107 · PMID 24493654",
+    "Tannenbaum C et al. (2014). Reduction of inappropriate benzodiazepine prescriptions among older adults through direct patient education: the EMPOWER cluster randomized trial. JAMA Intern Med 174:890-898 · PMID 24733354",
+    "Baandrup L et al. (2018). Pharmacological interventions for benzodiazepine discontinuation in chronic benzodiazepine users. Cochrane Database Syst Rev 3:CD011481 · PMID 29543325",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769",
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management. NICE guideline CG113 (recomendaciones 1.2.26 y 1.3.20)",
+    "NICE (2014). Antenatal and postnatal mental health: clinical management and service guidance. NICE guideline CG192 (recomendación 1.4.19)",
+    "AEMPS-CIMA (2026). Ficha técnica de Orfidal 1 mg comprimidos (lorazepam) (nº de registro 49796), apartados 4.2, 4.4, 5.1 y 5.2; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Xyrem 500 mg/ml solución oral (oxibato de sodio) (nº de registro 05312001), apartados 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "tag",
+    "panic",
+    "tcci",
+    "ghb_gbl",
+    "chemsex_arv",
+    "opioides",
+    "alcohol"
+   ]
+  },
+  "lamotrig": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT/ISBD 2018 sitúa la lamotrigina en primera línea del mantenimiento del trastorno bipolar I (nivel 1), indicada sobre todo cuando predomina la polaridad depresiva, y no adecuada en monoterapia con episodios maníacos frecuentes; en la depresión bipolar I es primera línea en monoterapia (nivel 2) y como adición (nivel 2), en la depresión bipolar II es segunda línea, y no ha demostrado eficacia antimaníaca (nivel 1 negativo) (Yatham 2018). La BAP 2016 propone considerarla en la depresión bipolar, habitualmente añadida a un fármaco que prevenga la manía, y en el largo plazo cuando la depresión es la carga principal; en el trastorno bipolar II admite la monoterapia (Goodwin 2016). NICE CG185 la contempla en la depresión bipolar moderada o grave como opción en monoterapia o añadida al litio (rec. 1.6.3 y 1.6.4) y pide no ofrecerla en la manía (1.5.12). Evidencia comparativa: en el primer ensayo en depresión bipolar I, la respuesta por CGI fue del 51 % con la dosis más alta frente al 26 % con placebo (Calabrese 1999); en un metaanálisis en red de 50 ensayos fue superior a placebo en la depresión bipolar (Bahji 2020). La titulación lenta retrasa su efecto, por lo que la falta de mejoría precoz no predice la no respuesta como con otros fármacos (Yatham 2018). Nota factual: en España, la ficha técnica de Lamictal restringe la indicación en el trastorno bipolar a la prevención de episodios depresivos en el tipo I con predominio depresivo.",
+     "links": [
+      {
+       "ids": [
+        "lm_bip",
+        "poldom"
+       ],
+       "t": "litio y polaridad predominante"
+      },
+      {
+       "ids": [
+        "quetiapina",
+        "lurasidona"
+       ],
+       "t": "alternativas de primera línea en la depresión bipolar"
+      },
+      {
+       "ids": [
+        "dep_bip_tx",
+        "tb2"
+       ],
+       "t": "depresión bipolar y trastorno bipolar II"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Bloqueante, dependiente del uso y del voltaje, de los canales de sodio voltaje-dependientes, que inhibe la descarga neuronal repetitiva y la liberación de glutamato; su mecanismo en el trastorno bipolar no está establecido (ficha técnica de Lamictal, 5.1). In vitro se comporta como antiarrítmico débil de clase IB (4.4 y 5.1) y es un inhibidor débil de la dihidrofolato reductasa (4.4). En voluntarios no alteró la coordinación ni produjo sedación subjetiva, a diferencia de fenitoína y diazepam (5.1). Interacciones mayores (4.5): además de valproato, inductores y estrógenos, el lopinavir/ritonavir redujo a la mitad el área bajo la curva de lamotrigina, probablemente por inducción de la glucuronidación (van der Lee 2006), y el atazanavir/ritonavir la redujo un 32 %. Efectos adversos: alrededor del 10 % presenta un exantema no grave y entre el 0,3 y el 1 % uno grave (Yatham 2018); en un registro alemán, más del 90 % de los casos de Stevens-Johnson y necrólisis epidérmica tóxica con antiepilépticos ocurrió en los primeros 63 días de uso (Mockenhaupt 2005). La cefalea fue el único efecto adverso más frecuente que con placebo en el ensayo de Calabrese (1999). La ficha recoge además DRESS con meningitis aséptica y linfohistiocitosis hemofagocítica (4.4). La BAP la incluye entre los fármacos con riesgo teratógeno bajo o nulo (Goodwin 2016).",
+     "links": [
+      {
+       "ids": [
+        "hla_carbamaz"
+       ],
+       "t": "farmacogenética de las reacciones cutáneas"
+      },
+      {
+       "ids": [
+        "vpa_bip",
+        "carbamaz"
+       ],
+       "t": "valproato y carbamazepina como moduladores de su metabolismo"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Exantema durante la titulación: consultar de inmediato (NICE CG185, rec. 1.10.37) y retirar el fármaco salvo que el exantema no esté claramente relacionado (ficha técnica de Lamictal, 4.4). Fiebre, exantema, adenopatías, citopenias o alteración hepática en las primeras 4 semanas obligan a descartar una linfohistiocitosis hemofagocítica y a suspender el fármaco, y tras una meningitis aséptica no debe reintroducirse (4.4). Cardiopatía estructural o funcional, síndrome de Brugada u otras canalopatías: considerar consulta con cardiología antes de iniciar; precaución con otros bloqueantes de canales de sodio (4.4). Vigilar el empeoramiento depresivo y la ideación o conducta suicida (4.4); no se recomienda en menores de 18 años (4.2). Tras una interrupción, valorar una nueva escalada (4.2). La ficha exige retirada gradual en la epilepsia (4.4), pero en el trastorno bipolar admite suspender el tratamiento sin reducción gradual (4.2); NICE CG185 aconseja reducirla en al menos 4 semanas para disminuir la recaída (1.10.39). Estrógenos, semana sin toma, embarazo y posparto modifican los niveles (4.4 y 4.6); NICE CG192 aconseja medirlos con frecuencia en torno al embarazo (1.4.32). En personas con VIH, iniciar o retirar lopinavir/ritonavir o atazanavir/ritonavir obliga a revisar la lamotrigina y vigilar sus niveles (4.2 y 4.5). Con GHB/GBL, catinonas, metanfetamina, MDMA, poppers o inhibidores de la PDE5: [fuente no localizada]; la ficha no recoge interacción con el alcohol.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_ssex"
+       ],
+       "t": "VIH, PrEP y antirretrovirales"
+      },
+      {
+       "ids": [
+        "tb_embarazo",
+        "litio_embarazo"
+       ],
+       "t": "embarazo en el trastorno bipolar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Goodwin GM et al. (2016). Evidence-based guidelines for treating bipolar disorder: revised third edition recommendations from the British Association for Psychopharmacology. J Psychopharmacol 30:495-553 · PMID 26979387",
+    "NICE (2014, actualizada). Bipolar disorder: assessment and management. NICE guideline CG185 (recomendaciones 1.5.12, 1.6.3, 1.6.4 y 1.10.36-1.10.39)",
+    "Calabrese JR et al. (1999). A double-blind placebo-controlled study of lamotrigine monotherapy in outpatients with bipolar I depression. J Clin Psychiatry 60:79-88 · PMID 10084633",
+    "Bahji A et al. (2020). Comparative efficacy and tolerability of pharmacological treatments for the treatment of acute bipolar depression: a systematic review and network meta-analysis. J Affect Disord 269:154-184 · PMID 32339131",
+    "van der Lee MJ et al. (2006). Lopinavir/ritonavir reduces lamotrigine plasma concentrations in healthy subjects. Clin Pharmacol Ther 80:159-168 · PMID 16890577",
+    "Mockenhaupt M et al. (2005). Risk of Stevens-Johnson syndrome and toxic epidermal necrolysis in new users of antiepileptics. Neurology 64:1134-1138 · PMID 15824335",
+    "NICE (2014). Antenatal and postnatal mental health: clinical management and service guidance. NICE guideline CG192 (recomendación 1.4.32)"
+   ],
+   "relAdd": [
+    "quetiapina",
+    "lurasidona",
+    "chemsex_arv",
+    "ideac_suic",
+    "tb_embarazo"
+   ]
+  },
+  "carbamaz": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT/ISBD 2018 reconoce a la carbamazepina evidencia de nivel 1 en la manía aguda, pero la relega a segunda línea por su seguridad y tolerabilidad; las combinaciones de carbamazepina u oxcarbazepina con litio o valproato son tercera línea (nivel 3). En el mantenimiento es segunda línea (nivel 2, con apoyo de ensayos con comparador activo), en la depresión bipolar I tercera línea (nivel 2) y en el mantenimiento del tipo II tercera línea (nivel 3); los ensayos de olanzapina o risperidona añadidas a carbamazepina fueron negativos, probablemente por inducción enzimática (Yatham 2018). La BAP 2016 la considera menos eficaz que el litio en el mantenimiento y casi exclusivamente activa frente a la recaída maníaca, utilizable si el litio no es eficaz, sobre todo sin el patrón clásico de manía eufórica episódica (Goodwin 2016). Evidencia comparativa: en la manía, la formulación de liberación prolongada logró un 41,5 % de respondedores frente al 22,4 % con placebo (Weisler 2004), resultado replicado (Weisler 2005); en el mantenimiento, el litio fue superior en pacientes sin tratamiento previo con eutimizantes (Hartong 2003) y con criterios amplios de fracaso terapéutico (Greil 1997); en un metaanálisis en red no superó a placebo en la depresión bipolar (Bahji 2020). NICE CG192 pide no ofrecerla para un problema de salud mental a quien planifica un embarazo, está embarazada o piensa amamantar (rec. 1.4.30). Las indicaciones autorizadas en España constan en los rasgos de esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio como referencia del mantenimiento"
+      },
+      {
+       "ids": [
+        "oxcarbazepina"
+       ],
+       "t": "oxcarbazepina"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "dep_bip_tx"
+       ],
+       "t": "manía y depresión bipolar"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Bloquea los canales de sodio dependientes del uso y del voltaje, reduce la liberación de glutamato y estabiliza las membranas hiperexcitadas; su efecto antimaníaco podría deberse al menor recambio de dopamina y noradrenalina (ficha técnica de Tegretol, 5.1). Farmacocinética (5.2): unión a proteínas del 70-80 %; su metabolito activo, el 10,11-epóxido, alcanza en torno al 30 % de los niveles del fármaco; la semivida pasa de unas 36 h tras dosis única a 16-24 h con la administración repetida por autoinducción. Interacciones (4.5): los inhibidores del CYP3A4 (azoles, fluoxetina, fluvoxamina, inhibidores de la proteasa como ritonavir) elevan sus niveles; a su vez reduce los de clozapina, haloperidol, olanzapina, quetiapina, risperidona, aripiprazol y paliperidona, bupropión, sertralina y tricíclicos, metadona, buprenorfina y tramadol, tadalafilo, inhibidores de la proteasa del VIH y anticonceptivos hormonales. Con litio o neurolépticos puede aumentar la neurotoxicidad incluso con niveles terapéuticos, y con diuréticos causar hiponatremia sintomática. Efectos adversos: en la manía predominaron mareo (39,3 %), somnolencia (30,3 %) y náuseas (23,8 %), con aumento del colesterol total (Weisler 2005); la ficha recoge hiponatremia frecuente por efecto similar al de la ADH, descenso de hormonas tiroideas, alteraciones del metabolismo óseo, actividad anticolinérgica leve y disfunción sexual o espermatogénesis anormal (4.4 y 4.8).",
+     "links": [
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "hiponatremia por psicofármacos"
+      },
+      {
+       "ids": [
+        "quetiapina",
+        "clozapina",
+        "olanzapina"
+       ],
+       "t": "antipsicóticos cuyos niveles reduce"
+      },
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "tratamiento con agonistas opioides"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Exantema, fiebre, adenopatías o alteraciones hematológicas o hepáticas, sobre todo en los primeros meses, obligan a suspender y valorar DRESS, Stevens-Johnson o necrólisis epidérmica tóxica; el cribado de HLA-B*15:02 y HLA-A*31:01 se desarrolla en su ficha propia. Función hepática al inicio y periódicamente, con suspensión inmediata si empeora; sodio en quien recibe diuréticos o fármacos asociados a secreción inadecuada de ADH; contraindicada con IMAO (ficha técnica de Tegretol, 4.3 y 4.4). Vigilar ideación y conducta suicida (4.4). Anticoncepción eficaz, preferiblemente no hormonal, durante el tratamiento y dos semanas después; planificar el cambio de fármaco antes de la concepción (4.4 y 4.6). Reduce la tolerancia al alcohol y la ficha aconseja la abstinencia (4.5). En personas con VIH, los inhibidores de la proteasa potenciados con ritonavir elevan la carbamazepina, con riesgo de mareo, ataxia y diplopía, mientras que la carbamazepina reduce los niveles de los inhibidores de la proteasa (4.5): la ficha técnica de Edurant contraindica además la rilpivirina con carbamazepina (4.3) (véase la ficha de interacciones con antirretrovirales). También reduce los niveles de tadalafilo y de metadona o buprenorfina (4.5). Con MDMA, cuyo uso se asocia a hiponatremia, cabe un riesgo aditivo [fuente no localizada]; interacciones con GHB/GBL, catinonas, metanfetamina o poppers [fuente no localizada]. En la intoxicación: ensanchamiento del QRS, síncope y paro cardíaco (4.9).",
+     "links": [
+      {
+       "ids": [
+        "hla_carbamaz"
+       ],
+       "t": "cribado de HLA"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "poppers"
+       ],
+       "t": "antirretrovirales y sustancias del contexto sexual"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "ideac_suic"
+       ],
+       "t": "alcohol y riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Goodwin GM et al. (2016). Evidence-based guidelines for treating bipolar disorder: revised third edition recommendations from the British Association for Psychopharmacology. J Psychopharmacol 30:495-553 · PMID 26979387",
+    "Weisler RH et al. (2004). A multicenter, randomized, double-blind, placebo-controlled trial of extended-release carbamazepine capsules as monotherapy for bipolar disorder patients with manic or mixed episodes. J Clin Psychiatry 65:478-484 · PMID 15119909",
+    "Weisler RH et al. (2005). Extended-release carbamazepine capsules as monotherapy for acute mania in bipolar disorder: a multicenter, randomized, double-blind, placebo-controlled trial. J Clin Psychiatry 66:323-330 · PMID 15766298",
+    "Hartong EG et al. (2003). Prophylactic efficacy of lithium versus carbamazepine in treatment-naive bipolar patients. J Clin Psychiatry 64:144-151 · PMID 12633122",
+    "Greil W et al. (1997). Lithium versus carbamazepine in the maintenance treatment of bipolar disorders--a randomised study. J Affect Disord 43:151-161 · PMID 9165384",
+    "Bahji A et al. (2020). Comparative efficacy and tolerability of pharmacological treatments for the treatment of acute bipolar depression: a systematic review and network meta-analysis. J Affect Disord 269:154-184 · PMID 32339131",
+    "NICE (2014). Antenatal and postnatal mental health: clinical management and service guidance. NICE guideline CG192 (recomendación 1.4.30)",
+    "AEMPS-CIMA (2026). Ficha técnica de Edurant 25 mg comprimidos recubiertos con película (rilpivirina) (nº de registro 11736001), apartado 4.3; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "lm_bip",
+    "ep_mania",
+    "dep_bip_tx",
+    "chemsex_arv",
+    "alcohol",
+    "metadona",
+    "quetiapina"
+   ]
+  },
+  "oxcarbazepina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Ninguna guía la sitúa entre los eutimizantes de primera o segunda línea. CANMAT/ISBD 2018 la clasifica según los rasgos de esta ficha; la BAP 2016 admite considerarla en el mantenimiento por extrapolación desde la carbamazepina, por su menor potencial de interacciones (Goodwin 2016), y las guías NICE CG185 y CG192 no la mencionan. La revisión Cochrane reunió siete ensayos con 368 participantes, todos en manía, hipomanía, episodios mixtos o ciclación rápida y de calidad metodológica relativamente baja: el único ensayo frente a placebo, en población pediátrica, no mostró diferencias en la respuesta (OR 2,10; IC 95 % 0,94-4,73), no hubo ensayos controlados con placebo en adultos ni diferencias frente a valproato, y como adición al litio redujo las puntuaciones de depresión más que la carbamazepina en un ensayo de 52 personas (Vasudev 2011). En el ensayo pediátrico (116 participantes de 7 a 18 años), la mejoría en la YMRS fue similar a la del placebo y el 19 % abandonó por efectos adversos, frente al 4 % (Wagner 2006). Conclusión de la revisión: no hay ensayos suficientes de calidad adecuada para establecer su eficacia ni su aceptabilidad en los episodios agudos (Vasudev 2011). Nota factual: en España su única indicación autorizada es la epilepsia (ficha técnica de Trileptal, 4.1), por lo que en el trastorno bipolar su uso es fuera de indicación.",
+     "links": [
+      {
+       "ids": [
+        "carbamaz",
+        "vpa_bip",
+        "lm_bip"
+       ],
+       "t": "eutimizantes con mejor evidencia"
+      },
+      {
+       "ids": [
+        "epilepsia_psic"
+       ],
+       "t": "epilepsia y psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Actúa sobre todo a través de su metabolito monohidroxiderivado (MHD), que bloquea los canales de sodio voltaje-dependientes, estabiliza las membranas hiperexcitadas e inhibe la descarga repetitiva (ficha técnica de Trileptal, 5.1). El MHD supone en torno al 70 % de la radiactividad plasmática y se une a proteínas en un 40 % (5.2). Interacciones (4.5): oxcarbazepina y MHD inhiben el CYP2C19 y pueden elevar la fenitoína; reducen el área bajo la curva del etinilestradiol un 48-52 % y la del levonorgestrel un 32-52 %; los inductores potentes (carbamazepina, fenitoína, fenobarbital, rifampicina) reducen el MHD un 29-49 %; la combinación con litio puede aumentar la neurotoxicidad y la interacción con IMAO es teóricamente posible por su parentesco estructural con los tricíclicos. Hiponatremia: la ficha recoge sodio inferior a 125 mmol/l hasta en el 2,7 % de los pacientes (4.4 y 4.8); en una serie de personas con epilepsia, la hiponatremia (sodio de 134 mEq/l o menos) afectó al 29,9 % con oxcarbazepina frente al 13,5 % con carbamazepina, y la grave (128 mEq/l o menos) al 12,4 % frente al 2,8 %; la edad avanzada fue factor de riesgo y, una vez instaurada, persistió (Dong 2005). Entre el 25 y el 30 % de quienes reaccionaron a la carbamazepina presentan hipersensibilidad cruzada (4.4). Otros efectos: mareo, somnolencia, diplopía y ataxia, hipotiroidismo poco frecuente, pérdida de densidad mineral ósea en tratamientos largos y, muy raramente, bloqueo auriculoventricular (4.4 y 4.8).",
+     "links": [
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "hiponatremia por psicofármacos"
+      },
+      {
+       "ids": [
+        "carbamaz",
+        "hla_carbamaz"
+       ],
+       "t": "reactividad cruzada con carbamazepina"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Medir el sodio antes de empezar en quien tiene un trastorno renal con sodio bajo o recibe diuréticos, desmopresina o AINE, y de nuevo en las semanas siguientes (ficha técnica de Trileptal, 4.4); la hiponatremia puede causar, muy raramente, crisis epilépticas, encefalopatía, confusión o disminución del nivel de conciencia (4.8). Exantema o fiebre: suspender y valorar Stevens-Johnson, necrólisis epidérmica tóxica o hipersensibilidad multiorgánica; informar del riesgo cruzado a quien reaccionó a la carbamazepina (4.4). Signos de agranulocitosis, anemia aplásica, pancitopenia o hepatitis obligan a evaluar y a considerar la retirada (4.4). Vigilar pensamientos y conductas suicidas (4.4). Retirada gradual por el riesgo de aumento de crisis (4.4). Puede anular la eficacia de los anticonceptivos hormonales: se recomienda una anticoncepción altamente eficaz, preferiblemente no hormonal, como los dispositivos intrauterinos (4.4 y 4.6). Precaución con el alcohol por efecto sedante sinérgico (4.4). En personas con VIH, la ficha técnica de Edurant contraindica la rilpivirina con oxcarbazepina por el descenso de sus concentraciones y el riesgo de pérdida de su efecto terapéutico (4.3); revisar la ficha de cada antirretroviral (véase la ficha de interacciones con antirretrovirales). La MDMA se asocia a hiponatremia y cabe un riesgo aditivo [fuente no localizada]; interacciones con GHB/GBL, catinonas, metanfetamina, poppers o inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_ssex"
+       ],
+       "t": "antirretrovirales y salud sexual"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "ideac_suic"
+       ],
+       "t": "alcohol y riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Goodwin GM et al. (2016). Evidence-based guidelines for treating bipolar disorder: revised third edition recommendations from the British Association for Psychopharmacology. J Psychopharmacol 30:495-553 · PMID 26979387",
+    "Vasudev A et al. (2011). Oxcarbazepine for acute affective episodes in bipolar disorder. Cochrane Database Syst Rev 12:CD004857 · PMID 22161387",
+    "Wagner KD et al. (2006). A double-blind, randomized, placebo-controlled trial of oxcarbazepine in the treatment of bipolar disorder in children and adolescents. Am J Psychiatry 163:1179-1186 · PMID 16816222",
+    "Dong X et al. (2005). Hyponatremia from oxcarbazepine and carbamazepine. Neurology 65:1976-1978 · PMID 16380624",
+    "AEMPS-CIMA (2026). Ficha técnica de Edurant 25 mg comprimidos recubiertos con película (rilpivirina) (nº de registro 11736001), apartados 4.3 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "alcohol",
+    "hla_carbamaz"
+   ]
+  },
+  "hla_carbamaz": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La ficha técnica de Tegretol pide, siempre que sea posible, determinar HLA-B*1502 antes de iniciar carbamazepina en personas de origen chino han o tailandés (prevalencia del 10 %) y no usarla en portadores salvo que no exista otra opción, y considerar la prueba en otras poblaciones asiáticas de riesgo (más del 15 % en Filipinas y Malasia). Sobre HLA-A*3101 la ficha es menos restrictiva: considera insuficientes los datos para recomendar el cribado y admite el fármaco en portadores conocidos de ascendencia europea o japonesa si el beneficio supera al riesgo (4.4); la guía CPIC, con independencia del origen, desaconseja iniciar carbamazepina en portadores de HLA-A*31:01 si hay alternativas, y carbamazepina u oxcarbazepina en portadores de HLA-B*15:02 (Phillips 2018). La ficha de Trileptal extiende la valoración de HLA-B*1502 a la oxcarbazepina por semejanza estructural y recomienda, si se hace, un genotipado de alta resolución (4.4). En un metaanálisis de 16 estudios, la OR global de HLA-B*1502 para Stevens-Johnson o necrólisis epidérmica tóxica por carbamazepina fue de 79,84, con 115,32 en chinos han, 54,43 en tailandeses y 221,00 en malasios, y ningún caso portador en personas blancas o japonesas (Tangamornsuksan 2013). En chinos han, el alelo se asoció también, con menor fuerza, a estas reacciones por fenitoína (OR 3,50) y, en metaanálisis, por lamotrigina (OR 3,59) (Cheung 2013).",
+     "links": [
+      {
+       "ids": [
+        "carbamaz",
+        "oxcarbazepina",
+        "lamotrig"
+       ],
+       "t": "fármacos implicados"
+      },
+      {
+       "ids": [
+        "etnopsicofarm",
+        "panel_fg"
+       ],
+       "t": "etnopsicofarmacología y paneles farmacogenéticos"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Mecanismo: la molécula HLA-B*1502 cargada con péptidos endógenos presenta directamente la carbamazepina a linfocitos T citotóxicos, sin necesidad de metabolismo intracelular ni de procesamiento antigénico; la unión depende del grupo 5-carboxamida del anillo tricíclico y de residuos del surco de unión, y otros alelos de la familia HLA-B75 también pueden presentarla (Wei 2012). Es un modelo de interacción farmacológica directa con el sistema HLA distinto de la alergia mediada por haptenos [fuente no localizada]. Cronología: más del 90 % de los casos de Stevens-Johnson y necrólisis epidérmica tóxica asociados a antiepilépticos en un registro alemán ocurrió en los primeros 63 días de uso (Mockenhaupt 2005), y la ficha de Tegretol sitúa el mayor riesgo en los primeros meses. Frecuencia: entre 1 y 6 casos por 10 000 pacientes en poblaciones mayoritariamente caucásicas, con un riesgo unas 10 veces mayor en algunos países asiáticos (4.4). Fenotipos: HLA-A*3101 eleva el riesgo de reacciones cutáneas, en su mayoría menos graves, del 5,0 % al 26,0 % en ascendencia europea, y su ausencia lo reduce al 3,8 %; HLA-B*1502 no predice el síndrome de hipersensibilidad ni el exantema maculopapular leve (4.4). Entre el 25 y el 30 % de quienes reaccionaron a la carbamazepina presentan hipersensibilidad con oxcarbazepina (ficha técnica de Trileptal, 4.4).",
+     "links": [
+      {
+       "ids": [
+        "hla_clozapina"
+       ],
+       "t": "otros marcadores HLA en psicofarmacología"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia farmacológica"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Exantema progresivo con ampollas o lesiones mucosas obliga a suspender de inmediato: el diagnóstico precoz y la retirada inmediata del fármaco sospechoso se asocian a mejor pronóstico, y tras un Stevens-Johnson o una necrólisis epidérmica tóxica por carbamazepina no debe volver a utilizarse (ficha técnica de Tegretol, 4.4). Como un exantema leve puede ser difícil de distinguir de los signos tempranos de una reacción grave, se mantiene una vigilancia estrecha y se retira si empeora (4.4). Las reacciones inmediatas (urticaria, angioedema, anafilaxia) exigen interrumpir y cambiar de tratamiento (4.4). El genotipado no sustituye a la vigilancia clínica: muchos portadores tratados no enferman y personas negativas de cualquier origen pueden desarrollar la reacción (4.4). Ante una reacción grave a carbamazepina hay que evitar la oxcarbazepina por el riesgo cruzado (ficha técnica de Trileptal, 4.4) y valorar con cautela la fenitoína y la lamotrigina en portadores de HLA-B*15:02 (Cheung 2013). Conviene registrar el alelo en la historia clínica para futuras prescripciones [fuente no localizada]. No se ha localizado información sobre si el consumo de sustancias en contexto de chemsex modifica este riesgo [fuente no localizada]; en personas con VIH, otros fármacos del tratamiento o de la profilaxis pueden producir reacciones cutáneas que dificultan la atribución causal [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "carbamaz",
+        "oxcarbazepina",
+        "lamotrig"
+       ],
+       "t": "fármacos implicados"
+      },
+      {
+       "ids": [
+        "chemsex_ssex",
+        "vih_ncd"
+       ],
+       "t": "VIH y chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Tangamornsuksan W et al. (2013). Relationship between the HLA-B*1502 allele and carbamazepine-induced Stevens-Johnson syndrome and toxic epidermal necrolysis: a systematic review and meta-analysis. JAMA Dermatol 149:1025-1032 · PMID 23884208",
+    "Cheung YK et al. (2013). HLA-B alleles associated with severe cutaneous reactions to antiepileptic drugs in Han Chinese. Epilepsia 54:1307-1314 · PMID 23692434",
+    "Wei CY et al. (2012). Direct interaction between HLA-B and carbamazepine activates T cells in patients with Stevens-Johnson syndrome. J Allergy Clin Immunol 129:1562-1569 · PMID 22322005",
+    "Mockenhaupt M et al. (2005). Risk of Stevens-Johnson syndrome and toxic epidermal necrolysis in new users of antiepileptics. Neurology 64:1134-1138 · PMID 15824335",
+    "AEMPS-CIMA (2026). Ficha técnica de Tegretol 200 mg comprimidos (carbamazepina) (nº de registro 39955), apartado 4.4; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Trileptal 300 mg comprimidos recubiertos con película (oxcarbazepina) (nº de registro 63093), apartado 4.4; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "oxcarbazepina",
+    "iatrog_farm"
+   ]
+  },
+  "vpa_bip": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT/ISBD 2018 sitúa el valproato en primera línea de la manía aguda (nivel 1), solo o con un antipsicótico atípico, y del mantenimiento (nivel 1); en la depresión bipolar I es segunda línea (nivel 2). Lo prefiere con episodios previos múltiples, ánimo irritable o disfórico, consumo de sustancias comórbido o antecedente de traumatismo craneal, con cautela en personas con capacidad de gestar (Yatham 2018). La BAP 2016 le reconoce una base de ensayos más débil que la del litio, algo menos eficaz en la prevención de recaídas y, en general, no indicado en personas con capacidad de gestar (Goodwin 2016). NICE CG185, en la manía, propone añadirlo al antipsicótico cuando añadir litio no es eficaz o no es adecuado (rec. 1.5.6) y, en el largo plazo, para combinarlo con litio o con un antipsicótico tras fracasar el litio y dos antipsicóticos (1.7.8-1.7.10); pide no iniciarlo en atención primaria (1.2.8) y remite a las medidas de la MHRA, que desaconsejan iniciarlo en menores de 55 años de cualquier sexo salvo acuerdo documentado de dos especialistas. En el ensayo BALANCE (330 personas con trastorno bipolar I, hasta 24 meses), la monoterapia con valproato previno peor las recaídas que el litio (HR 0,71 a favor del litio) y que la combinación de ambos (HR 0,59) (Geddes 2010). NICE NG215 desaconseja ofrecer valproato como ayuda en la retirada de benzodiacepinas (rec. 1.5.22). Nota factual: la indicación autorizada en España figura en los rasgos (ficha técnica de Depakine Crono, 4.1).",
+     "links": [
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "mxto"
+       ],
+       "t": "manía y estados mixtos"
+      },
+      {
+       "ids": [
+        "desprescr_bzd"
+       ],
+       "t": "retirada de benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Su mecanismo principal parece relacionado con el aumento de la acción inhibitoria del GABA (ficha técnica de Depakine Crono, 5.1); se une fuertemente a proteínas plasmáticas, de forma dependiente de la dosis y saturable (5.2). Interacciones mayores (4.5): duplica casi la semivida de la lamotrigina, con más riesgo de exantema grave; desplaza la fenitoína y aumenta su fracción libre; los carbapenémicos reducen sus niveles un 60-100 % en unos dos días, por lo que la combinación no se recomienda; los inductores (fenitoína, fenobarbital, carbamazepina) bajan sus niveles y elevan el riesgo de hepatotoxicidad e hiperamonemia; con topiramato o acetazolamida se ha descrito encefalopatía hiperamonémica; el ácido acetilsalicílico aumenta su fracción libre y el riesgo hemorrágico; lopinavir y ritonavir los reducen, y el valproato puede aumentar la toxicidad de la zidovudina. Efectos adversos (4.4 y 4.8): molestias digestivas iniciales, aumento de peso, temblor muy frecuente, trombocitopenia y anemia frecuentes, alteraciones de la coagulación, hepatotoxicidad grave poco frecuente, pancreatitis muy rara e hiperamonemia. En 230 mujeres con trastorno bipolar, la oligoamenorrea con hiperandrogenismo apareció en el 10,5 % con valproato frente al 1,4 % con otros anticonvulsivantes o litio (RR 7,5), siempre en los primeros 12 meses (Joffe 2006), aunque un metaanálisis posterior no confirmó un aumento del síndrome de ovario poliquístico (Yatham 2018).",
+     "links": [
+      {
+       "ids": [
+        "lamotrig",
+        "carbamaz"
+       ],
+       "t": "interacciones con otros eutimizantes"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Contraindicado, entre otros supuestos, en hepatitis aguda o crónica, antecedente de hepatitis grave, porfiria hepática, trastornos del ciclo de la urea y enfermedad mitocondrial por mutaciones de POLG (ficha técnica de Depakine Crono, 4.3). Función hepática antes de empezar y periódicamente en los 6 primeros meses; ante dolor abdominal agudo, amilasemia y, si hay pancreatitis, suspender; ataxia, alteración de la conciencia o vómitos sugieren hiperamonemia (4.4). NICE CG185 pide peso, hemograma y pruebas hepáticas al inicio, a los 6 meses y cada año (1.10.29-1.10.33). Vigilar ideación suicida (4.4). Reproducción: tras el PRAC, la AEMPS lo contraindicó en el embarazo en el trastorno bipolar y en personas con capacidad de gestar salvo falta de alternativa y plan de prevención de embarazos (MUH (FV) 3/2018); en 2024 recomendó en varones inicio y supervisión por especialista, valorar la anticoncepción del paciente y su pareja y no donar semen durante el tratamiento y 3 meses después, por un posible aumento de trastornos del neurodesarrollo en la descendencia (5 % frente a 3 %; HR ajustado 1,50) de causalidad incierta (MUH (FV) 01/2024; EMA 2024). Alcohol: no tomarlo (4.4). GHB: el valproato inhibe la GHB deshidrogenasa y aumentó un 25 % la exposición al oxibato de sodio, con más somnolencia y deterioro cognitivo (ficha de Xyrem, 4.5); extenderlo al GHB/GBL recreativo es una inferencia [fuente no localizada]. Catinonas, metanfetamina, MDMA o poppers: [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "valproato_fertil",
+        "tb_embarazo"
+       ],
+       "t": "programa de prevención de embarazos"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "chemsex_s"
+       ],
+       "t": "GHB/GBL y chemsex"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "alcohol"
+       ],
+       "t": "riesgo suicida y alcohol"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Goodwin GM et al. (2016). Evidence-based guidelines for treating bipolar disorder: revised third edition recommendations from the British Association for Psychopharmacology. J Psychopharmacol 30:495-553 · PMID 26979387",
+    "BALANCE investigators and collaborators; Geddes JR et al. (2010). Lithium plus valproate combination therapy versus monotherapy for relapse prevention in bipolar I disorder (BALANCE): a randomised open-label trial. Lancet 375:385-395 · PMID 20092882",
+    "Joffe H et al. (2006). Valproate is associated with new-onset oligoamenorrhea with hyperandrogenism in women with bipolar disorder. Biol Psychiatry 59:1078-1086 · PMID 16448626",
+    "NICE (2014, actualizada). Bipolar disorder: assessment and management. NICE guideline CG185 (recomendaciones 1.2.8, 1.5.6, 1.7.8-1.7.10 y 1.10.27-1.10.35, y recuadro 1 de medidas de la MHRA)",
+    "AEMPS (2018). Ácido valproico: nuevas medidas para evitar la exposición durante el embarazo. Nota informativa MUH (FV) 3/2018 (13 de febrero de 2018)",
+    "AEMPS (2024). Recomendaciones sobre el uso de valproato en varones para evitar el posible riesgo de trastornos del neurodesarrollo en sus hijos tras la exposición paterna. Nota informativa MUH (FV) 01/2024 (15 de enero de 2024)",
+    "European Medicines Agency (2024). Potential risk of neurodevelopmental disorders in children born to men treated with valproate medicines: PRAC recommends precautionary measures (12 de enero de 2024)",
+    "AEMPS-CIMA (2026). Ficha técnica de Xyrem 500 mg/ml solución oral (oxibato de sodio) (nº de registro 05312001), apartados 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "lm_bip",
+    "ghb_gbl",
+    "chemsex_arv",
+    "desprescr_bzd",
+    "lamotrig"
+   ]
+  },
+  "dep_bip_tx": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT/ISBD 2018, en la depresión bipolar I: primera línea en monoterapia para quetiapina (nivel 1), litio, lamotrigina y lurasidona (nivel 2), y lurasidona o lamotrigina como adición; segunda línea para valproato, cariprazina, olanzapina-fluoxetina, terapia electroconvulsiva y antidepresivos ISRS o bupropión añadidos a un eutimizante o antipsicótico; tercera línea para carbamazepina y olanzapina en monoterapia. En la depresión bipolar II solo la quetiapina es de primera línea; litio, lamotrigina, bupropión añadido, TEC, sertralina y venlafaxina son de segunda (Yatham 2018). La BAP 2016 propone quetiapina, lurasidona u olanzapina, olanzapina-fluoxetina como única opción antidepresiva con apoyo específico, lamotrigina añadida a un antimaníaco y TEC con alto riesgo suicida, resistencia o psicosis (Goodwin 2016). NICE CG185 ofrece olanzapina-fluoxetina o quetiapina y, según preferencia, olanzapina o lamotrigina (rec. 1.6.3). En un metaanálisis en red de 50 ensayos fueron superiores a placebo valproato, olanzapina-fluoxetina, olanzapina, quetiapina, cariprazina y lamotrigina, y no litio ni carbamazepina (Bahji 2020); añadir un antidepresivo a un eutimizante no aumentó la recuperación sostenida (23,5 % frente a 27,3 %; Sachs 2007). Nota factual: de los antipsicóticos citados, en España solo la quetiapina tiene indicación en los episodios depresivos del trastorno bipolar; lurasidona y cariprazina solo en esquizofrenia (fichas técnicas de Seroquel Prolong, Latuda y Reagila, 4.1).",
+     "links": [
+      {
+       "ids": [
+        "quetiapina",
+        "lurasidona",
+        "cariprazina"
+       ],
+       "t": "antipsicóticos en la depresión bipolar"
+      },
+      {
+       "ids": [
+        "lamotrig",
+        "lm_bip"
+       ],
+       "t": "lamotrigina y litio"
+      },
+      {
+       "ids": [
+        "tec_dep"
+       ],
+       "t": "terapia electroconvulsiva"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Los fármacos de primera línea tienen mecanismos y perfiles distintos, que se desarrollan en sus fichas. Más de la mitad de los pacientes cita la sedación como motivo de falta de adherencia; aparece en el 30-50 % con antipsicóticos atípicos frente al 8-13 % con placebo, más con quetiapina, clozapina y olanzapina, y en el 21-29 % con valproato (Yatham 2018). Con cariprazina, en la depresión bipolar I, los efectos adversos más frecuentes fueron la acatisia y el insomnio, con un aumento de peso algo mayor que con placebo (Durgam 2016); la acatisia puede confundirse con agitación o con empeoramiento clínico (Yatham 2018). La lamotrigina exige una titulación lenta por el riesgo de exantema, lo que retrasa su efecto; el litio tiene un margen terapéutico estrecho (ficha técnica de Plenur, 4.4). Antidepresivos: en un registro sueco de 3240 personas con trastorno bipolar, la monoterapia antidepresiva se asoció a más episodios maníacos en los tres meses siguientes (HR 2,83), riesgo que no se observó con un eutimizante concomitante (HR 0,79) (Viktorin 2014). Interacciones (4.3): Seroquel Prolong contraindica los inhibidores del CYP3A4, como los inhibidores de la proteasa del VIH; Latuda, los inhibidores potentes (ritonavir, cobicistat) y los inductores potentes como la carbamazepina, y Reagila, los inhibidores e inductores potentes o moderados.",
+     "links": [
+      {
+       "ids": [
+        "quetiapina",
+        "lurasidona",
+        "cariprazina"
+       ],
+       "t": "perfiles de los antipsicóticos"
+      },
+      {
+       "ids": [
+        "isrs",
+        "bupropion"
+       ],
+       "t": "antidepresivos"
+      },
+      {
+       "ids": [
+        "carbamaz"
+       ],
+       "t": "inducción enzimática por carbamazepina"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Más del 70 % de las muertes por suicidio y de las tentativas en el trastorno bipolar ocurre en la fase depresiva, y los episodios depresivos con características mixtas conllevan un riesgo aún mayor a corto plazo (Yatham 2018). Cuando urge una respuesta rápida, como en el riesgo suicida elevado o la deshidratación, quetiapina y lurasidona se separaron del placebo desde la primera semana, y la TEC puede adelantarse (Yatham 2018). Siguiendo al grupo de trabajo de la ISBD, los antidepresivos deben evitarse o usarse con cautela, y no en monoterapia en el trastorno bipolar I (Pacchiarotti 2013; Viktorin 2014): la aparición de hipomanía, manía o características mixtas obliga a revisarlos. Ciclación rápida: CANMAT considera imperativo retirar antidepresivos, estimulantes y otros fármacos que la favorezcan, y aconseja retirar las sustancias de forma gradual para evitar la abstinencia (Yatham 2018); en el chemsex, la metanfetamina y las catinonas pueden precipitar o enmascarar viraje, psicosis o depresión de bajada [fuente no localizada]. Combinar antipsicóticos sedantes con GHB/GBL, alcohol, benzodiacepinas u opioides suma depresión del sistema nervioso central [fuente no localizada]. En personas con VIH tratadas con antirretrovirales potenciados, revisar las contraindicaciones de quetiapina, lurasidona y cariprazina con inhibidores del CYP3A4 (véase la ficha de interacciones con antirretrovirales). En embarazo, la elección se rige por la ficha de trastorno bipolar y embarazo.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "mxto"
+       ],
+       "t": "riesgo suicida y estados mixtos"
+      },
+      {
+       "ids": [
+        "crapid",
+        "metanf",
+        "catinonas_nuevas"
+       ],
+       "t": "ciclación rápida y estimulantes"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "ghb_gbl"
+       ],
+       "t": "antirretrovirales y GHB/GBL"
+      },
+      {
+       "ids": [
+        "tb_embarazo"
+       ],
+       "t": "trastorno bipolar y embarazo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Goodwin GM et al. (2016). Evidence-based guidelines for treating bipolar disorder: revised third edition recommendations from the British Association for Psychopharmacology. J Psychopharmacol 30:495-553 · PMID 26979387",
+    "NICE (2014, actualizada). Bipolar disorder: assessment and management. NICE guideline CG185 (recomendación 1.6.3)",
+    "Bahji A et al. (2020). Comparative efficacy and tolerability of pharmacological treatments for the treatment of acute bipolar depression: a systematic review and network meta-analysis. J Affect Disord 269:154-184 · PMID 32339131",
+    "Sachs GS et al. (2007). Effectiveness of adjunctive antidepressant treatment for bipolar depression. N Engl J Med 356:1711-1722 · PMID 17392295",
+    "Viktorin A et al. (2014). The risk of switch to mania in patients with bipolar disorder during treatment with an antidepressant alone and in combination with a mood stabilizer. Am J Psychiatry 171:1067-1073 · PMID 24935197",
+    "Durgam S et al. (2016). An 8-week randomized, double-blind, placebo-controlled evaluation of the safety and efficacy of cariprazine in patients with bipolar I depression. Am J Psychiatry 173:271-281 · PMID 26541814",
+    "AEMPS-CIMA (2026). Fichas técnicas de Seroquel Prolong (quetiapina; nº de registro 69646), Latuda (lurasidona; nº de registro 114913009) y Reagila (cariprazina; nº de registro 1171209001), apartados 4.1 y 4.3; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "ideac_suic",
+    "chemsex_arv",
+    "metanf",
+    "tb_embarazo",
+    "carbamaz"
+   ]
+  },
+  "litio_embarazo": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La ficha técnica de Plenur contraindica el litio en el embarazo y la lactancia (4.3) y aconseja suspenderlo si el embarazo es planificado (4.6). Las guías contemplan excepciones: NICE CG192 pide no ofrecer litio a quien planifica un embarazo o está embarazada salvo que los antipsicóticos no hayan sido eficaces, informando del riesgo cardiaco fetal de magnitud incierta y de los niveles posiblemente altos en la leche (1.4.33-1.4.34). Si la gestante toma litio y está bien, propone considerar retirarlo de forma gradual en 4 semanas, explicando que suspenderlo puede no eliminar el riesgo cardiaco y que existe riesgo de recaída, sobre todo posparto; si no está bien o el riesgo de recaída es alto, considerar el cambio gradual a un antipsicótico, la suspensión con reintroducción en el segundo trimestre o mantenerlo si un antipsicótico probablemente no será eficaz (1.4.35-1.4.36). La BAP 2016 sitúa el litio entre los fármacos de riesgo teratógeno bajo o nulo y, tras la exposición en el primer trimestre, aconseja ecografía de alta resolución a las 16-18 semanas (Goodwin 2016); CANMAT/ISBD 2018 recomienda una ecografía fetal en ese caso (Yatham 2018). En un metaanálisis de 37 estudios, la recaída posparto fue del 66 % sin medicación durante el embarazo frente al 23 % con profilaxis (Wesseloo 2016). Mantener el litio en el embarazo o la lactancia es un uso en contraindicación de ficha que exige decisión compartida y documentada.",
+     "links": [
+      {
+       "ids": [
+        "tb_embarazo",
+        "ppp"
+       ],
+       "t": "recaída posparto y psicosis puerperal"
+      },
+      {
+       "ids": [
+        "lamotrig",
+        "quetiapina"
+       ],
+       "t": "alternativas durante el embarazo"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "El litio se equilibra por completo a través de la placenta: en 42 casos, la razón entre la concentración en sangre de cordón y la materna fue de 1,05 en un amplio intervalo de litemias (Newport 2005). Su eliminación es renal y la función renal cambia de forma gradual durante el embarazo y bruscamente en el parto, por lo que la ficha técnica pide controlar la litemia con atención y ajustar el tratamiento (ficha técnica de Plenur, 4.6); el aclaramiento renal varía un 30-50 % con los cambios en la ingesta de sodio (4.5). En el recién nacido, las litemias más altas en el parto (superiores a 0,64 mEq/l) se asociaron a puntuaciones de Apgar más bajas, estancias más largas y más complicaciones neurológicas y neuromusculares, y una suspensión breve antes del parto redujo la litemia materna (Newport 2005). La ficha recoge bocio neonatal, malformaciones cardiovasculares como la anomalía de Ebstein, e hipotonía o intoxicación en el neonato, y contraindica la lactancia porque se excreta en la leche (4.3 y 4.6). Interacciones relevantes en el embarazo y el posparto (4.5): los AINE usados como analgésicos tras el parto, los IECA, los antagonistas de la angiotensina II, los diuréticos tiazídicos y el metronidazol elevan la litemia; las xantinas como la cafeína y la sobrecarga de sodio la reducen. El litio se concentra en la tiroides y puede producir hipotiroidismo (4.4), lo que obliga a vigilar la función tiroidea materna [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "farmacología general del litio"
+      },
+      {
+       "ids": [
+        "psicof_lactancia"
+       ],
+       "t": "psicofármacos en la lactancia"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Vómitos, diarrea, sudoración excesiva, fiebre o dietas restrictivas causan pérdida de sal y agua y elevan la litemia; ante sudoración excesiva, diarrea o fiebre alta la ficha indica reducir o interrumpir temporalmente el litio (ficha técnica de Plenur, 4.4), lo que hace de la hiperémesis gravídica una situación de riesgo. Los efectos tóxicos pueden aparecer con litemias de alrededor de 1,5 mEq/l o incluso menores y exigen la retirada inmediata (4.4). En el parto, NICE CG192 pide parto hospitalario, vigilancia obstétrica de la litemia y del balance hídrico por el riesgo de deshidratación e intoxicación, suspender el litio durante el trabajo de parto y medir la litemia 12 h después de la última toma (rec. 1.4.37); la ficha aconseja suspenderlo cerca del parto, reiniciarlo unos días después y observar al recién nacido (4.6). Son contraindicaciones el embarazo y la lactancia, la insuficiencia renal grave, la enfermedad cardiovascular grave o con arritmia, la deshidratación o depleción de sodio graves, el síndrome de Brugada y el hipotiroidismo no tratado (4.3). El litio puede precipitar un síndrome serotoninérgico con otros serotoninérgicos (4.4); la combinación con MDMA, la deshidratación y la hipertermia asociadas a su consumo podrían elevar la litemia y el riesgo serotoninérgico [fuente no localizada]. Interacciones con GHB/GBL, catinonas, metanfetamina, poppers, inhibidores de la PDE5 o antirretrovirales potenciados en la gestante [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "chemsex_s"
+       ],
+       "t": "MDMA y chemsex"
+      },
+      {
+       "ids": [
+        "ppp",
+        "emb_peri"
+       ],
+       "t": "periodo perinatal"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2014). Antenatal and postnatal mental health: clinical management and service guidance. NICE guideline CG192 (recomendaciones 1.4.33-1.4.37)",
+    "Goodwin GM et al. (2016). Evidence-based guidelines for treating bipolar disorder: revised third edition recommendations from the British Association for Psychopharmacology. J Psychopharmacol 30:495-553 · PMID 26979387",
+    "Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Wesseloo R et al. (2016). Risk of postpartum relapse in bipolar disorder and postpartum psychosis: a systematic review and meta-analysis. Am J Psychiatry 173:117-127 · PMID 26514657",
+    "Newport DJ et al. (2005). Lithium placental passage and obstetrical outcome: implications for clinical management during late pregnancy. Am J Psychiatry 162:2162-2170 · PMID 16263858",
+    "AEMPS-CIMA (2026). Ficha técnica de Plenur 400 mg comprimidos de liberación modificada (carbonato de litio) (nº de registro 48932), apartados 4.3, 4.4, 4.5 y 4.6; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "quetiapina",
+    "sind_ser",
+    "alucinogenos"
+   ]
+  }
+ },
+ "add": []
+}
