@@ -1,0 +1,306 @@
+{
+ "corregidos": [
+  {
+   "id": "clozapina",
+   "punto": "[a1] clozapina: «indicación para reducir la conducta suicida» no figura en la sección 4.1 de Leponex",
+   "antes": "y con indicación para reducir la conducta suicida en esquizofrenia (InterSePT)",
+   "despues": "y con reducción de la conducta suicida en esquizofrenia demostrada frente a olanzapina (InterSePT, Meltzer 2003), indicación que no figura en la ficha técnica española (Leponex, 4.1)",
+   "fuente": "AEMPS-CIMA, ficha técnica de Leponex 100 mg (n.º registro 59547), consulta 20-11-2026, sección 4.1; Meltzer HY et al. (2003) · PMID 12511175"
+  },
+  {
+   "id": "quetiapina",
+   "punto": "[a1] quetiapina: marcador [fuente no localizada] sobre uso indebido ya cubierto por Vento 2020",
+   "antes": "En personas con consumo de sustancias se ha descrito uso indebido de quetiapina [fuente no localizada].",
+   "despues": "En personas con consumo de sustancias se ha descrito uso indebido de quetiapina (Vento 2020).",
+   "fuente": "Vento AE et al. (2020). Subst Use Misuse 55:304-313 · PMID 31573374 (ya en refs)"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "punto": "[a2] ap_dem_riesgo: estado de la pimavanserina en la EMA marcado como [fuente oficial no localizada]",
+   "antes": "Pimavanserina (no figura en CIMA en la consulta de noviembre de 2026; su estado en la EMA [fuente oficial no localizada]): en un ensayo de retirada en psicosis asociada a demencia, recaída del 13 % frente al 28 % con placebo (Tariot 2021); brexpiprazol autorizado por la FDA en 2023 para la agitación del Alzheimer, con efecto pequeño (Lee 2023)",
+   "despues": "Pimavanserina (no figura en CIMA ni en el listado de medicamentos de la EMA en la consulta de noviembre de 2026): en un ensayo de retirada en psicosis asociada a demencia, recaída del 13 % frente al 28 % con placebo (Tariot 2021); brexpiprazol autorizado por la FDA en 2023 para la agitación del Alzheimer, con efecto pequeño (Lee 2023)",
+   "fuente": "EMA, fichero oficial «medicines output – medicines JSON report» (2765 registros, marca temporal 20-11-2026): sin registro de pimavanserina; CIMA (API REST, practiv1=pimavanserina): 0 resultados; la referencia EMA (2026) ya figura en refs"
+  },
+  {
+   "id": "biperideno",
+   "punto": "[a2] biperideno: la descripción no menciona que Artane y Kemadren están comercializados",
+   "antes": "La vía parenteral se usa en la distonía aguda [fuente no localizada].",
+   "despues": "La vía parenteral se usa en la distonía aguda [fuente no localizada]. Otros anticolinérgicos comercializados en España: trihexifenidilo (Artane) y prociclidina (Kemadren) (AEMPS-CIMA).",
+   "fuente": "AEMPS-CIMA, API REST (20-11-2026): Artane 2 mg (38334) y 5 mg (38333) y Kemadren 5 mg (38206), comercializados; la referencia AEMPS-CIMA (2026) del registro ya figura en refs"
+  },
+  {
+   "id": "clozapina_monit",
+   "punto": "[a2] clozapina_monit: calendario de Leponex (el calendario de la desc ya coincide); la sección de alarmas daba un umbral de suspensión erróneo",
+   "antes": "(hemograma urgente, suspender si RAN < 1500/mm³ según la ficha, derivación hematológica si es menor)",
+   "despues": "(hemograma urgente; según la ficha, controles dos veces por semana si el RAN baja de 1500/mm³ y suspensión inmediata si es menor de 1000/mm³, con evaluación hematológica)",
+   "fuente": "AEMPS-CIMA, ficha técnica de Leponex 100 mg (n.º registro 59547), consulta 20-11-2026, sección 4.4 y tabla 1"
+  },
+  {
+   "id": "munip",
+   "punto": "[b1] munip desc: «Prevalencia <5% de todos los trastornos bipolares»",
+   "antes": "Prevalencia <5% de todos los trastornos bipolares. Mayor frecuencia reportada en culturas no occidentales y en adultos mayores.",
+   "despues": "Su proporción varía mucho entre muestras: 16,3 % de los TB I en una serie clínica turca retrospectiva (Yazici 2002); prevalencia de manía pura o con depresión leve del 1,7-1,8 % en dos estudios epidemiológicos (Angst y Grobler 2015). Mayor frecuencia reportada en culturas no occidentales y en adultos mayores.",
+   "fuente": "Yazici O et al. (2002) · PMID 12167505; Angst J & Grobler C (2015) · PMID 25631618"
+  },
+  {
+   "id": "munip",
+   "punto": "[b1] munip tx: «litio (especialmente eficaz en manía pura recurrente)»",
+   "antes": "Similar al TB I: litio (especialmente eficaz en manía pura recurrente), valproato, antipsicóticos atípicos en agudo.",
+   "despues": "Como el TB I según las guías (CANMAT/ISBD 2018): litio, valproato, antipsicóticos atípicos en agudo; el uso de litio sigue la ficha técnica de Plenur (CIMA). En la única serie comparativa localizada, la respuesta profiláctica al litio fue menor que en el resto del TB I (Yazici 2002).",
+   "fuente": "Yazici O et al. (2002) · PMID 12167505 (menor respuesta profiláctica al litio); Yatham LN et al. (2018) · PMID 29536616"
+  },
+  {
+   "id": "riad",
+   "punto": "[b1]/[b2] riad: «ADT > ISRS > IRSN en riesgo de viraje»",
+   "antes": "ADT > ISRS > IRSN en riesgo de viraje",
+   "despues": "Riesgo de viraje mayor con tricíclicos, tetracíclicos e IRSN (en especial venlafaxina) que con ISRS y bupropión (Pacchiarotti 2013; Post 2006)",
+   "fuente": "Pacchiarotti I et al. (2013) · PMID 24030475; Post RM et al. (2006) · PMID 16880481 (ambas ya en refs)"
+  },
+  {
+   "id": "riad",
+   "punto": "[b2] riad: umbral de ciclación rápida «>4 episodios/año»",
+   "antes": "Ciclado rápido inducido: >4 episodios/año tras inicio de AD",
+   "despues": "Ciclado rápido inducido: al menos 4 episodios en 12 meses tras iniciar el antidepresivo (CIE-11, 6A80.5)",
+   "fuente": "OMS, CIE-11, entidad 567063364 «Rapid cycling» (6A80.5), definición oficial: «at least four» episodios en los últimos 12 meses (API de la OMS, consulta 20-11-2026)"
+  },
+  {
+   "id": "bpvi",
+   "punto": "[b1] bpvi: «Menor historia familiar de bipolaridad que formas de inicio temprano»",
+   "antes": "Menor historia familiar de bipolaridad que formas de inicio temprano (fenotipo diferente)",
+   "despues": "Historia familiar: la menor carga familiar en el inicio tardío es un hallazgo débil o inconsistente (Depp y Jeste 2004); en la serie de BP-VI de Ng (2008) la mayoría tenía antecedentes familiares de bipolaridad o de trastornos afines",
+   "fuente": "Depp CA & Jeste DV (2004) · PMID 15383127; Ng B et al. (2008) · PMID 17889374 (ambas ya en refs)"
+  },
+  {
+   "id": "bpvi",
+   "punto": "[b1] bpvi: «Respuesta favorable a litio: marcador retrospectivo» sin fuente",
+   "antes": "Respuesta favorable a litio: puede ser marcador retrospectivo de bipolaridad subyacente",
+   "despues": "Respuesta favorable a litio: puede ser marcador retrospectivo de bipolaridad subyacente [fuente no localizada]",
+   "fuente": "Sin fuente localizada: Ng 2008 describe beneficio de eutimizantes y antipsicóticos atípicos en general, no del litio como marcador"
+  },
+  {
+   "id": "bpvi",
+   "punto": "[b1] bpvi tx: litio debe remitir a la ficha técnica de Plenur",
+   "antes": "Litio (eficacia documentada; monitorizar funcion renal y tiroidea mas estrictamente en mayores);",
+   "despues": "Litio según la ficha técnica de Plenur (CIMA, n.º reg. 48932), que advierte de un mayor riesgo de toxicidad en personas de edad avanzada y pide precaución y monitorización de la función renal (4.2, 4.4);",
+   "fuente": "AEMPS-CIMA, ficha técnica de Plenur 400 mg (n.º registro 48932), secciones 4.2 y 4.4, consulta 20-11-2026"
+  },
+  {
+   "id": "bpvi",
+   "punto": "[b1] bpvi: referencia Akiskal 2002 sin verificar",
+   "antes": "Akiskal HS (2002). Classification, diagnosis and boundaries of bipolar disorders: a review. En: Maj M et al. (eds). Bipolar Disorder. WPA Series. Chichester: Wiley",
+   "despues": "Akiskal HS (2002). Classification, diagnosis and boundaries of bipolar disorders: a review. En: Maj M et al. (eds). Bipolar Disorder. WPA Series. Chichester: Wiley [no verificada]",
+   "fuente": "Capítulo de libro sin registro en PubMed; no comprobado"
+  },
+  {
+   "id": "vcir",
+   "punto": "[b2] vcir tx: «IPSRT ... como primera línea no farmacológica»",
+   "antes": "IPSRT (Interpersonal and Social Rhythm Therapy, Frank et al.) como primera línea no farmacológica;",
+   "despues": "IPSRT (Interpersonal and Social Rhythm Therapy, Frank et al.), adyuvante de tercera línea en depresión aguda y mantenimiento según CANMAT/ISBD 2018, en la que la psicoeducación es la intervención psicosocial de primera línea en mantenimiento (Yatham 2018);",
+   "fuente": "Yatham LN et al. (2018) · PMID 29536616, tabla 10 y apartado 2.6.4 del texto completo (PMC5947163) (ya en refs)"
+  },
+  {
+   "id": "vcir",
+   "punto": "[b2] vcir tx: melatonina de liberación prolongada sin fuente (mismo defecto señalado en hsue)",
+   "antes": "melatonina de liberación prolongada;",
+   "despues": "melatonina de liberación prolongada [fuente no localizada];",
+   "fuente": "Sin mención en CANMAT/ISBD 2018 (texto completo PMC5947163 revisado: no aparece melatonina)"
+  },
+  {
+   "id": "hsue",
+   "punto": "[b2] hsue tx: «melatonina de liberación prolongada» sin fuente localizada",
+   "antes": "melatonina de liberación prolongada;",
+   "despues": "melatonina de liberación prolongada [fuente no localizada];",
+   "fuente": "Sin fuente localizada; no figura en CANMAT/ISBD 2018 (PMC5947163)"
+  },
+  {
+   "id": "duloxetina",
+   "punto": "[d1] duloxetina: «precaución […] con el consumo importante de alcohol» atribuido a 4.4",
+   "antes": "Hepatotoxicidad (4.4): daño hepático predominantemente hepatocelular notificado; precaución con otros fármacos hepatotóxicos y con el consumo importante de alcohol",
+   "despues": "Hepatotoxicidad (4.4): daño hepático predominantemente hepatocelular notificado; precaución con otros fármacos hepatotóxicos. Con el alcohol, la ficha (4.5) aconseja precaución por su acción central",
+   "fuente": "AEMPS-CIMA, ficha técnica de Cymbalta 30 mg (n.º registro 04296001), secciones 4.4 (hepatitis: sin mención del alcohol) y 4.5 (precaución con alcohol y sustancias de acción central), consulta 20-11-2026"
+  },
+  {
+   "id": "duloxetina",
+   "punto": "[d1] duloxetina tx: «evitar en consumo de alcohol elevado»",
+   "antes": "evitar en consumo de alcohol elevado.",
+   "despues": "precaución con el alcohol y otras sustancias de acción central (ficha técnica, 4.5).",
+   "fuente": "AEMPS-CIMA, ficha técnica de Cymbalta (04296001), sección 4.5"
+  },
+  {
+   "id": "reboxetina",
+   "punto": "[d2] reboxetina: fecha de la ficha técnica de Irenor",
+   "antes": "AEMPS-CIMA (2026). Ficha técnica de Irenor 4 mg comprimidos (reboxetina) (nº de registro 63157), apartados 4.1-4.6 y 5.2; documento de mayo de 2025, consulta de noviembre de 2026",
+   "despues": "AEMPS-CIMA (2026). Ficha técnica de Irenor 4 mg comprimidos (reboxetina) (nº de registro 63157), apartados 4.1-4.6 y 5.2; documento publicado en CIMA en mayo de 2025, con fecha de revisión del texto de octubre de 2023, consulta de noviembre de 2026",
+   "fuente": "CIMA, Irenor 4 mg (63157): sección 10 «Octubre 2023»; documento con fecha de carga 22-05-2025 (API REST, 20-11-2026)"
+  },
+  {
+   "id": "bupropion",
+   "punto": "[d2] bupropión: fecha de la ficha técnica de Elontril",
+   "antes": "AEMPS-CIMA (2026). Ficha técnica de Elontril 150 mg comprimidos de liberación modificada (bupropión) (nº de registro 68615), apartados 4.1-4.6 y 5.2; documento de octubre de 2026, consulta de noviembre de 2026",
+   "despues": "AEMPS-CIMA (2026). Ficha técnica de Elontril 150 mg comprimidos de liberación modificada (bupropión) (nº de registro 68615), apartados 4.1-4.6 y 5.2; documento publicado en CIMA en octubre de 2026, con fecha de revisión del texto de julio de 2026, consulta de noviembre de 2026",
+   "fuente": "CIMA, Elontril 150 mg (68615): sección 10 «07/2026»; documento con fecha de carga 01-10-2026 (API REST, 20-11-2026)"
+  },
+  {
+   "id": "cpic_isrs",
+   "punto": "[d3] cpic_isrs desc: «opcional en lentos y moderada en intermedios»",
+   "antes": "(recomendación opcional en lentos y moderada en intermedios)",
+   "despues": "(recomendación opcional tanto en intermedios como en lentos)",
+   "fuente": "Bousman CA et al. (2023) · PMID 37032427, tabla 4 y apartado «CYP2B6-sertraline dosing recommendations» (PMC10564324): «these recommendations are optional»"
+  },
+  {
+   "id": "tca_dep",
+   "punto": "[d3] tca_dep tx: pauta «Imipramina 150-300mg» sin citar ficha técnica",
+   "antes": "Imipramina 150-300mg; clomipramina en TOC y dep. grave.",
+   "despues": "Segunda línea en depresión mayor (CANMAT 2023; Lam 2024); elección del tricíclico y posología según la ficha técnica de cada fármaco, con valoración previa del riesgo de sobredosis, por el que CANMAT recomienda preferir los ISRS (Lam 2024).",
+   "fuente": "Lam RW et al. (2024) · PMID 38711351: tabla 3.3 (tricíclicos en segunda línea, nivel 1), recuadro 7.1 y apartado de seguridad (riesgo en sobredosis; preferir ISRS) (PMC11351064); fichas técnicas ya citadas en refs"
+  },
+  {
+   "id": "tca_dep",
+   "punto": "[d3] tca_dep desc: «La clomipramina sigue siendo el más eficaz en TOC» y «Mayor eficacia que ISRS en melancolía»",
+   "antes": "Mayor eficacia que ISRS en melancolía. La clomipramina sigue siendo el más eficaz en TOC.",
+   "despues": "Ligeramente más eficaces que los ISRS en pacientes hospitalizados (Anderson 2000); su superioridad específica en la melancolía no tiene fuente localizada [fuente no localizada]. En el TOC, la clomipramina no superó a los ISRS en el metaanálisis en red de Skapinakis (2016).",
+   "fuente": "Skapinakis P et al. (2016) · PMID 27318812 (clomipramina frente a ISRS -1,23; ICrI 95 % -3,41 a 0,94); Anderson IM (2000) · PMID 10760555 (ES -0,23 en hospitalizados)"
+  },
+  {
+   "id": "moclobemida",
+   "punto": "[d3] moclobemida tx: «Segunda línea en CANMAT 2016»",
+   "antes": "Segunda línea en CANMAT 2016 (Kennedy 2016).",
+   "despues": "Segunda línea en CANMAT 2023 (Lam 2024), sin cambio respecto a 2016 (Kennedy 2016).",
+   "fuente": "Lam RW et al. (2024) · PMID 38711351, tabla 3.3 (moclobemida en segunda línea, nivel 1; imagen leída en PMC11351064) (ya en refs)"
+  },
+  {
+   "id": "nortriptilina",
+   "punto": "[d3] nortriptilina tx: «segunda línea en depresión (CANMAT 2016)»",
+   "antes": "segunda línea en depresión (CANMAT 2016);",
+   "despues": "segunda línea en depresión (CANMAT 2023; Lam 2024);",
+   "fuente": "Lam RW et al. (2024) · PMID 38711351, tabla 3.3 (ya en refs)"
+  },
+  {
+   "id": "imipramina",
+   "punto": "[d3] imipramina tx: «segunda línea en depresión (CANMAT 2016)»",
+   "antes": "Hoy de segunda línea en depresión (CANMAT 2016)",
+   "despues": "Hoy de segunda línea en depresión (CANMAT 2023; Lam 2024)",
+   "fuente": "Lam RW et al. (2024) · PMID 38711351, tabla 3.3 (ya en refs)"
+  },
+  {
+   "id": "em_neuro",
+   "punto": "[e1] em_neuro tx: ISRS y psicoterapia sin matizar el nivel U de la AAN",
+   "antes": "Tratamiento de la depresión (ISRS, psicoterapia);",
+   "despues": "Tratamiento de la depresión con antidepresivos y psicoterapia, aunque la guía de la AAN considera insuficiente la evidencia de su eficacia específica en la esclerosis múltiple (nivel U) y solo admite con nivel C la terapia cognitivo-conductual telefónica (Minden 2014);",
+   "fuente": "Minden SL et al. (2014) · PMID 24376275 (ya en refs)"
+  },
+  {
+   "id": "teasqd",
+   "punto": "[e2] teasqd tx: «clozapina en formas con síntomas negativos prominentes» y «litio coadyuvante»",
+   "antes": "AD + antipsicóticos; litio coadyuvante; TEC en formas depresivas graves; clozapina en formas con síntomas negativos prominentes.",
+   "despues": "AD + antipsicóticos; litio coadyuvante [fuente no localizada]; TEC en formas depresivas graves; clozapina tras falta de respuesta a dos antipsicóticos a dosis y tiempo adecuados (NICE CG178, 1.5.7.2).",
+   "fuente": "NICE CG178, recomendación 1.5.7.2 (leída en nice.org.uk, 20-11-2026; ya en refs); litio: sin fuente localizada (NICE CG178 no lo recoge)"
+  },
+  {
+   "id": "teasqd",
+   "punto": "[e2] teasqd feats: clozapina por síntomas negativos (mismo error que el tx)",
+   "antes": "Clozapina: considerar en formas con síntomas negativos y deterioro cognitivo prominentes",
+   "despues": "Clozapina: indicada tras falta de respuesta a dos antipsicóticos, uno de ellos de segunda generación distinto de la clozapina (NICE CG178)",
+   "fuente": "NICE CG178, recomendación 1.5.7.2"
+  },
+  {
+   "id": "esqtpersonalidad",
+   "punto": "[e2] esqtpersonalidad tx: «Antipsicóticos a dosis bajas (evidencia moderada)»",
+   "antes": "Antipsicóticos a dosis bajas (evidencia moderada);",
+   "despues": "Antipsicóticos a dosis bajas (evidencia limitada, insuficiente todavía para recomendaciones basadas en la evidencia: Kirchner 2018; Jakobsen 2017);",
+   "fuente": "Kirchner SK et al. (2018) · PMID 30282970; Jakobsen KD et al. (2017) · PMID 28347257 (ambas ya en refs)"
+  },
+  {
+   "id": "dt_alc",
+   "punto": "[fig_dd_toxindromes_chemsex] dt_alc: cronología atribuida a Mirijello 2015",
+   "antes": "crisis convulsivas (habitualmente 12-48 h) y delirium tremens (48-96 h)",
+   "despues": "crisis convulsivas (habitualmente 24-48 h) y delirium tremens (habitualmente 48-72 h, aunque puede comenzar hasta 10 días después)",
+   "fuente": "Mirijello A et al. (2015) · PMID 25666543, apartado 3 y tabla 1 (PMC4978420): crisis 24-48 h; delirium tremens 48-72 h, hasta 10 días después"
+  },
+  {
+   "id": "dt_alc",
+   "punto": "[fig_dd_toxindromes_chemsex] dt_alc feats: cronología atribuida a Mirijello 2015",
+   "antes": "Cronología aproximada tras la última ingesta: temblor y síntomas autonómicos (6-24 h), alucinosis (12-24 h), crisis (12-48 h) y delirium tremens (48-96 h); el orden y los plazos varían entre personas y fuentes (Mirijello 2015)",
+   "despues": "Cronología aproximada tras la última ingesta: temblor y síntomas autonómicos (6-24 h), alucinosis (12-24 h), crisis (24-48 h) y delirium tremens (48-72 h, hasta 10 días después); el orden y los plazos varían entre personas y fuentes (Mirijello 2015)",
+   "fuente": "Mirijello A et al. (2015) · PMID 25666543, tabla 1"
+  },
+  {
+   "id": "dt_alc",
+   "punto": "[fig_dd_toxindromes_chemsex] dt_alc «Curso y pronóstico»: cronología atribuida a Mirijello 2015",
+   "antes": "crisis (hasta las 48 h) y delirium tremens (48-96 h); los plazos varían según la fuente (Mirijello 2015)",
+   "despues": "crisis (24-48 h) y delirium tremens (48-72 h, aunque puede comenzar hasta 10 días después); los plazos varían según la fuente (Mirijello 2015)",
+   "fuente": "Mirijello A et al. (2015) · PMID 25666543, apartado 3 y tabla 1"
+  }
+ ],
+ "ya_corregidos": [
+  {
+   "id": "pimavanserina",
+   "punto": "[a2] «Cummings 2013» en la ficha de pimavanserina",
+   "estado": "La ficha ya cita «Cummings 2014» en rasgos y secciones y la referencia es Cummings J et al. (2014) Lancet 383:533-540 · PMID 24183563; no queda ningún «Cummings 2013» en nodes.jsonl"
+  },
+  {
+   "id": "clozapina_monit",
+   "punto": "[a2] calendario hematológico de Leponex",
+   "estado": "La desc ya recoge RAN semanal 18 semanas, mensual hasta el año, cada 12 semanas el segundo año y anual desde los 24 meses, en coincidencia con la ficha 4.4 releída; solo se ha corregido el umbral de suspensión de la sección de alarmas (véase corregidos)"
+  }
+ ],
+ "sin_resolver": [
+  {
+   "id": "(varios antipsicóticos)",
+   "punto": "[a1] fichas técnicas no releídas (Xeplion, Trevicta, Byannli, Clopixol Acufase, Seroquel Prolong)",
+   "motivo": "Nota de alcance del verificador, no un error concreto en una ficha; no hay nada que corregir"
+  },
+  {
+   "id": "clozapina, quetiapina, brexpiprazol, cariprazina, lurasidona, ziprasidona",
+   "punto": "[a1] enlaces a inmunometab_dep rotulados como riesgo metabólico",
+   "motivo": "No es un error de contenido: el nodo inmunometab_dep trata expresamente de la relación entre depresión, obesidad y síndrome metabólico y el atlas no tiene un nodo general de síndrome metabólico al que redirigir; cambiar el destino exigiría crear contenido nuevo. Decisión editorial pendiente"
+  },
+  {
+   "id": "(fichas de antidepresivos)",
+   "punto": "[d1] dosis máximas de ficha técnica en fichas publicadas",
+   "motivo": "Nota del verificador sin error concreto: las reglas permiten los límites literales de ficha técnica citando la ficha; no se identifica ningún rasgo erróneo"
+  },
+  {
+   "id": "tca_dep",
+   "punto": "[d3] Gillman 2007: solo se contrastó el resumen",
+   "motivo": "Nota de método; no señala un error concreto"
+  },
+  {
+   "id": "imipramina, maois",
+   "punto": "[d3] estados de suministro y comercialización en CIMA (Tofranil, Tranilcipromina Aristo) y vía de medicamento extranjero",
+   "motivo": "Datos variables por fecha, ya marcados en la ficha; la vía de acceso como medicamento extranjero sigue sin fuente oficial localizada"
+  },
+  {
+   "id": "teasqd",
+   "punto": "[e2] «Peor pronóstico que el subtipo bipolar» (desc y feats)",
+   "motivo": "No reconfirmado ni refutado en esta sesión (búsqueda en PubMed sin una fuente concluyente); el verificador no lo dio por erróneo, solo por no verificado"
+  },
+  {
+   "id": "fig_dd_percepcion (src/fig)",
+   "punto": "[fig_dd_percepcion] graduación ●●○ «orgánico» de la fila visual frente a Ohayon 2000",
+   "motivo": "Graduación cualitativa sin error confirmado; requiere decisión del autor, no una corrección documental"
+  }
+ ],
+ "svg": [],
+ "pmid_comprobados": [
+  "12511175",
+  "31573374",
+  "24183563",
+  "12167505",
+  "25631618",
+  "24030475",
+  "16880481",
+  "15383127",
+  "17889374",
+  "29536616",
+  "37032427",
+  "27318812",
+  "10760555",
+  "38711351",
+  "24376275",
+  "30282970",
+  "28347257",
+  "21565468",
+  "25666543"
+ ]
+}

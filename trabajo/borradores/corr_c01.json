@@ -1,0 +1,438 @@
+{
+ "patch": {
+  "wernicke_hit": {
+   "set": {
+    "refs": [
+     "Wernicke C (1900). Grundriss der Psychiatrie in klinischen Vorlesungen. Leipzig: Thieme",
+     "Pillmann F & Marneros A (2001). [Carl Wernicke: his impact past and present] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 69:488-494 · PMID 11602926",
+     "Jäger M (2019). [The psychopathology of the Wernicke-Kleist-Leonhard School and its relevance for present-day psychiatry] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 87:103-111 · PMID 30125911",
+     "Braun B (2020). [Carl Wernicke (1848-1905) and the «Wernicke-Kleist-Leonhard school»: connections to «Erlangen School» of psychiatry] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 88:652-660 · PMID 31639863",
+     "Sinha S et al. (2019). Wernicke encephalopathy: clinical pearls. Mayo Clin Proc 94:1065-1072 · PMID 31171116",
+     "Angst J & Marneros A (2001). Bipolarity from ancient to modern times: conception, birth and rebirth. J Affect Disord 67:3-19 · PMID 11869749",
+     "Pillmann F (2003). Carl Wernicke (1848-1905). J Neurol 250:1390-1391 · PMID 14648163 (registro comprobado; sin resumen indexado)",
+     "Ungvari GS (1993). The Wernicke-Kleist-Leonhard school of psychiatry. Biol Psychiatry 34:749-752 · PMID 8292677 (registro comprobado; sin resumen indexado)",
+     "Krahl A et al. (1998). Carl Wernicke and the concept of «elementary symptom». Hist Psychiatry 9:503-508 · PMID 11623615",
+     "Pillmann F & Marneros A (2003). Brief and acute psychoses: the development of concepts. Hist Psychiatry 14:161-177 · PMID 14518487"
+    ]
+   }
+  },
+  "pdss": {
+   "secReplace": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollada por Shear y colaboradores en el estudio multicéntrico colaborativo de tratamiento del trastorno de pánico (Shear 1997, Am J Psychiatry 154:1571-1575 · PMID 9356566), inspirada en la estructura de la Y-BOCS [fuente no localizada]. Heteroaplicada mediante entrevista semiestructurada breve, siete ítems de 0 a 4 sobre el último mes [fuente no localizada]: frecuencia de ataques, malestar durante ellos, ansiedad anticipatoria, evitación agorafóbica, evitación de sensaciones corporales e interferencia laboral y social. Requiere un diagnóstico ya establecido de trastorno de pánico y entrenamiento del evaluador en los anclajes de cada ítem; existe versión autoaplicada (PDSS-SR). Uso libre en investigación y clínica [fuente no localizada]. Validación española de la versión heteroaplicada en 94 pacientes con trastorno de pánico (Fuste 2018 · PMID 29573755) y de la autoaplicada en 124 (Santacana 2014 · PMID 24850072).",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "agora"
+       ],
+       "t": "Trastorno de pánico y agorafobia"
+      },
+      {
+       "ids": [
+        "ataque_panico"
+       ],
+       "t": "Ataque de pánico"
+      },
+      {
+       "ids": [
+        "ybocs"
+       ],
+       "t": "Ficha de clase: escalas obsesivas y de ansiedad"
+      }
+     ]
+    }
+   ],
+   "set": {
+    "note": "No es un instrumento diagnóstico: el corte de 8 tiene especificidad limitada. Hay validación española de la versión heteroaplicada (94 pacientes con trastorno de pánico; Fuste 2018 · PMID 29573755) y de la autoaplicada (124 pacientes; Santacana 2014 · PMID 24850072)."
+   }
+  },
+  "asi3": {
+   "featsReplace": [
+    [
+     "Las subescalas orientan el tratamiento: las preocupaciones físicas a la exposición interoceptiva, las cognitivas a la despersonalización y el miedo a la locura, y las sociales a la ansiedad social (Taylor 2007) [fuente no localizada]",
+     "Se ha propuesto que las subescalas orienten el tratamiento: las preocupaciones físicas a la exposición interoceptiva, las cognitivas a la despersonalización y el miedo a la locura, y las sociales a la ansiedad social (Taylor 2007) [fuente no localizada], pero en población adulta española aportan poco más allá de la puntuación total (Altungy 2023)"
+    ]
+   ],
+   "set": {
+    "tx": "Evaluación de la vulnerabilidad y de la respuesta a la exposición interoceptiva en el pánico y en programas transdiagnósticos; también en cribado de riesgo en consumo de sustancias y en TEPT [fuente no localizada]. La versión española participó en la validación original (muestra de Sandín en Taylor 2007); tiene además validación independiente en 919 personas adultas de la comunidad (Altungy 2023 · PMID 37493153)."
+   }
+  },
+  "des2": {
+   "featsReplace": [
+    [
+     "Sin validación española localizada en PubMed [fuente no localizada]; existen la versión DES-T (taxón) y el Cuestionario de Disociación Somatomorfa (SDQ-20) como complementos.",
+     "Estudio español de validación transcultural en población general (Icarán 1996), cuyo resumen no aporta cifras de fiabilidad ni validez; existen la versión DES-T (taxón) y el Cuestionario de Disociación Somatomorfa (SDQ-20) como complementos."
+    ]
+   ]
+  },
+  "dbrec": {
+   "set": {
+    "desc": "Episodios depresivos completos de duración <2 semanas, altamente recurrentes (≥12/año en la forma clásica). Subumbrales para DSM-5 por criterio temporal. La CIE-11 (MMS 2025-01) no tiene categoría propia: solo cabe la residual 6A7Y (otros trastornos depresivos especificados). Alto riesgo suicida.",
+    "refs": [
+     "Angst J & Hochstrasser B (1994). Recurrent brief depression: the Zurich Study. J Clin Psychiatry 55(Suppl):3-9 · PMID 8077170",
+     "CIE-10 (OMS, 1992), F38.10 Trastorno depresivo breve recurrente",
+     "DSM-5-TR (2022), Otro trastorno depresivo especificado: depresión breve recurrente",
+     "Angst J et al. (1990). Recurrent brief depression: a new subtype of affective disorder. J Affect Disord 19:87-98 · PMID 2142703",
+     "Montgomery DB et al. (1994). Lack of efficacy of fluoxetine in recurrent brief depression and suicidal attempts. Eur Arch Psychiatry Clin Neurosci 244:211-215 · PMID 7888419",
+     "Pezawas L et al. (2003). Recurrent brief depression--past and future. Prog Neuropsychopharmacol Biol Psychiatry 27:75-83 · PMID 12551729",
+     "OMS (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS), versión 2025-01: 6A7Y Otros trastornos depresivos especificados (tabulación oficial, icd.who.int)"
+    ]
+   }
+  },
+  "fatdep": {
+   "featsReplace": [
+    [
+     "Fatiga y falta de energía como síntomas residuales dominantes (>60% de los pacientes en remisión)",
+     "Fatiga y falta de energía como síntomas residuales dominantes (>60% de los pacientes en remisión) [fuente no localizada]"
+    ],
+    [
+     "Predictor más potente de recaída temprana (Paykel et al.: OR 3-4 vs. remisión completa)",
+     "Predictor muy potente de recaída temprana: 76 % de recaídas con síntomas residuales frente a 25 % sin ellos (Paykel 1995); OR 3,65 para recaída precoz (Judd 1998)"
+    ],
+    [
+     "Bupropión y modafinilo: eficacia específica para fatiga residual documentada",
+     "Bupropión: menos fatiga residual que con ISRS en un análisis agrupado post hoc de 6 ensayos (19,5 % frente a 30,2 % en remitentes; preliminar; Papakostas 2006). Modafinilo como potenciador: sin diferencias en las puntuaciones totales de fatiga en el ensayo principal (Fava 2005) y efecto modesto en metaanálisis (Goss 2013); uso fuera de ficha técnica (AEMPS-CIMA: solo somnolencia excesiva por narcolepsia en adultos)"
+    ]
+   ],
+   "set": {
+    "desc": "Fatiga, inhibición cognitiva y anhedonia persistentes tras remisión aparente del EDM. Predictor muy potente de recaída temprana según Paykel et al. (1995). Fava los denominó \"síntomas residuales\".",
+    "tx": "Bupropión (noradrenérgico/dopaminérgico: menos fatiga residual que con ISRS en un análisis agrupado post hoc, resultado preliminar; Papakostas 2006); modafinilo como adyuvante (efecto modesto sobre la fatiga en metaanálisis, Goss 2013; uso fuera de ficha técnica: en España solo está autorizado para la somnolencia excesiva asociada a narcolepsia en adultos, AEMPS-CIMA); activación física estructurada; tratamiento del sueño; estrategias de higiene del sueño.",
+    "refs": [
+     "Paykel ES et al. (1995). Residual symptoms after partial remission: an important outcome in depression. Psychol Med 25:1171-1180 · PMID 8637947",
+     "Fava GA et al. (1998). Prevention of recurrent depression with cognitive behavioral therapy: preliminary findings. Arch Gen Psychiatry 55:816-820 · PMID 9736008",
+     "Nierenberg AA et al. (2010). Residual symptoms after remission of major depressive disorder with citalopram and risk of relapse: a STAR*D report. Psychol Med 40:41-50 · PMID 19460188",
+     "Judd LL et al. (1998). Major depressive disorder: a prospective study of residual subthreshold depressive symptoms as predictor of rapid relapse. J Affect Disord 50:97-108 · PMID 9858069",
+     "Nierenberg AA et al. (1999). Residual symptoms in depressed patients who respond acutely to fluoxetine. J Clin Psychiatry 60:221-225 · PMID 10221281",
+     "Papakostas GI et al. (2006). Resolution of sleepiness and fatigue in major depressive disorder: a comparison of bupropion and the selective serotonin reuptake inhibitors. Biol Psychiatry 60:1350-1355 · PMID 16934768",
+     "Fava M, Thase ME & DeBattista C (2005). A multicenter, placebo-controlled study of modafinil augmentation in partial responders to selective serotonin reuptake inhibitors with persistent fatigue and sleepiness. J Clin Psychiatry 66:85-93 · PMID 15669893",
+     "Goss AJ et al. (2013). Modafinil augmentation therapy in unipolar and bipolar depression: a systematic review and meta-analysis of randomized controlled trials. J Clin Psychiatry 74:1101-1107 · PMID 24330897",
+     "AEMPS-CIMA (2026). Ficha técnica de Modafinilo Aurovitas 100 mg comprimidos EFG (nº de registro 75919), apartado 4.1; consulta de noviembre de 2026"
+    ]
+   }
+  },
+  "rum": {
+   "featsReplace": [
+    [
+     "Rumiación brooding (pasiva): foco en síntomas y sus causas; solo esta es patógena",
+     "Rumiación brooding (pasiva): foco en síntomas y sus causas; es el componente más asociado a la depresión (Treynor 2003)"
+    ],
+    [
+     "Factor predictor de inicio, duración y recurrencia del EDM",
+     "Predice de forma más consistente el inicio del EDM que su duración, que solo predice en interacción con estilos cognitivos negativos (Nolen-Hoeksema 2008); recurrencia [fuente no localizada]"
+    ]
+   ]
+  },
+  "denmsc": {
+   "featsReplace": [
+    [
+     "Mayor expresión somática en contextos culturales con menor verbalización afectiva",
+     "La frecuencia de la presentación somática varía entre centros y países, también en función de los médicos y de los sistemas sanitarios, no solo de diferencias culturales (Simon 1999)"
+    ]
+   ],
+   "set": {
+    "desc": "Concepto histórico para síndromes somáticos o conductuales que ocultan una depresión subyacente. Especialmente relevante en atención primaria y medicina interna; la frecuencia de la presentación somática varía entre centros y países, también en función de los médicos y de los sistemas sanitarios (Simon 1999).",
+    "tx": "AD con perfil noradrenérgico (eficacia específica de los IRSN sobre el componente doloroso [fuente no localizada]); abordaje interdisciplinar con medicina interna.",
+    "note": "El concepto sigue siendo clínicamente útil en atención primaria y medicina interna para identificar depresiones con presentación somática dominante. Esencial en el diagnóstico diferencial del síndrome de fatiga crónica y la fibromialgia."
+   }
+  },
+  "diog": {
+   "featsReplace": [
+    [
+     "No es un diagnóstico DSM ni CIE: puede asociarse a demencia (especialmente frontotemporal [fuente no localizada]), psicosis, alcoholismo o trastorno de acumulación, aunque en la serie original de Clark (1975) la mitad no mostraba trastorno psiquiátrico [fuente no localizada].",
+     "No es un diagnóstico DSM ni CIE: puede asociarse a demencia (especialmente frontotemporal [fuente no localizada]), psicosis, alcoholismo o trastorno de acumulación, aunque en la serie original de Clark (1975) la mitad no mostraba trastorno psiquiátrico."
+    ]
+   ],
+   "set": {
+    "desc": "Autoabandono extremo en personas mayores, con vivienda y aspecto personal muy descuidados, aislamiento social y rechazo de ayuda; en ocasiones, acumulación de basura (síllogomanía). La serie hospitalaria original (Clark 1975) describió una mortalidad elevada (46 %)."
+   }
+  },
+  "mania_sec": {
+   "featsReplace": [
+    [
+     "Inicio tardío, sin antecedentes familiares, con signos neurológicos o cognitivos",
+     "Inicio tardío, con signos neurológicos o cognitivos; los antecedentes familiares de trastorno afectivo no la excluyen (Robinson 1988)"
+    ]
+   ],
+   "set": {
+    "desc": "Síndrome maníaco causado por una enfermedad física, una lesión cerebral o un fármaco, sin historia afectiva previa. Krauthammer y Klerman (1978) lo delimitaron frente a la manía primaria. Se sospecha ante un primer episodio tardío, con signos neurológicos o una historia atípica (Satzer 2016); la ausencia de antecedentes familiares no es un criterio fiable: en la manía tras lesión cerebral fueron más frecuentes los antecedentes familiares de trastorno afectivo (Robinson 1988)."
+   }
+  },
+  "schou_hit": {
+   "secReplace": [
+    {
+     "t": "Legado y lectura actual",
+     "x": "La disputa de 1968-1970 es un episodio fundacional de la psicofarmacología basada en ensayos: obligó a pasar de la impresión clínica a diseños controlados y popularizó el ensayo de discontinuación como forma de estudiar la profilaxis [fuente no localizada para esta valoración general]. El litio quedó establecido como tratamiento de mantenimiento del trastorno bipolar y de algunas depresiones recurrentes, y la guía CANMAT/ISBD lo incluye entre los tratamientos de primera línea en la fase de mantenimiento del trastorno bipolar I (Yatham 2018); la evidencia sobre la reducción de la muerte por suicidio y de la mortalidad global se resume en la ficha del descubrimiento del litio. También pervive la cultura de la monitorización: el control de la litemia, que la ficha atribuye a Schou y Baastrup (1967), y la vigilancia renal y tiroidea son hoy requisitos de su ficha técnica (AEMPS); que la vigilancia renal y tiroidea se debiera al grupo danés no se ha documentado [fuente no localizada]. Se ha criticado que la escasa promoción de un fármaco sin patente haya favorecido a eutimizantes más recientes, como recoge la ficha de Cade.",
+     "links": [
+      {
+       "ids": [
+        "litio_hit",
+        "lm_bip",
+        "tb1"
+       ],
+       "t": "Litio hoy"
+      },
+      {
+       "ids": [
+        "drec",
+        "ideac_suic"
+       ],
+       "t": "Depresión recurrente y prevención del suicidio"
+      }
+     ]
+    }
+   ],
+   "set": {
+    "refs": [
+     "Schou M et al. (1954). The treatment of manic psychoses by the administration of lithium salts. J Neurol Neurosurg Psychiatry 17:250-260 · PMID 13212414",
+     "Baastrup PC & Schou M (1967). Lithium as a prophylactic agents. Its effect against recurrent depressions and manic-depressive psychosis. Arch Gen Psychiatry 16:162-172 · PMID 6019331",
+     "Schou M & Baastrup PC (1967). Lithium treatment of manic-depressive disorder. Dosage and control. JAMA 201:696-698 · PMID 6071830",
+     "Blackwell B & Shepherd M (1968). Prophylactic lithium: another therapeutic myth? An examination of the evidence to date. Lancet 1:968-971 · PMID 4171596 (registro comprobado; sin resumen indexado)",
+     "Baastrup PC, Poulsen JC, Schou M, Thomsen K & Amdisen A (1970). Prophylactic lithium: double blind discontinuation in manic-depressive and recurrent-depressive disorders. Lancet 2:326-330 · PMID 4194439 (registro comprobado; sin resumen indexado)",
+     "Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616"
+    ]
+   }
+  },
+  "ellen_west": {
+   "set": {
+    "desc": "Dos textos clínicos de Ludwig Binswanger (1881-1966), director del sanatorio Bellevue de Kreuzlingen, ilustran el análisis existencial aplicado. En Über Ideenflucht (1933) estudió la fuga de ideas maníaca no como síntoma aislado sino como forma de existencia: un modo de ser-en-el-mundo «saltarín», festivo y sin arraigo, en el que la temporalidad y la espacialidad vividas se transforman en conjunto. El caso Ellen West (1944-1945) narra la historia de una paciente, bajo seudónimo, con una grave patología alimentaria (restricción, atracones, miedo a engordar, abuso de laxantes), depresión y conflicto entre un «mundo etéreo» de ideales y un «mundo de la tumba» de la corporalidad; tras consultar a otros psiquiatras, entre ellos Bleuler (constitución psicopática esquizoide según la literatura secundaria) y Kraepelin (melancolía) [diagnósticos de los consultores: fuente no localizada], Binswanger la dio de alta sabiendo el riesgo y la paciente murió por suicidio a los pocos días, a los 33 años. El caso, difundido en Estados Unidos por Existence (1958), es objeto de debate ético sobre el «suicidio permitido» (Maltsberger 1996) y de revisión histórica (Vandereycken 2003; Akavia 2008)."
+   }
+  },
+  "sarro_hit": {
+   "featsReplace": [
+    [
+     "Introducción del psicodrama y la psicoterapia de grupo en España en los años sesenta (Lévy 2021)",
+     "Introducción del psicodrama y la psicoterapia de grupo en España en los años sesenta (Lévy 2022)"
+    ]
+   ],
+   "secReplace": [
+    {
+     "t": "Aportación y obra original",
+     "x": "Los datos documentales de su archivo (Viena 1925-1927, formación inacabada con Helene Deutsch, cátedra de 1950), ya expuestos en la ficha, permiten distinguir el hecho de su uso (Lévy Lazcano 2025). Lévy Lazcano interpreta que Sarró construyó una genealogía psicoanalítica a partir del encuentro con Freud para legitimarse científica y profesionalmente dentro y fuera de España: es decir, el relato del encuentro es también una estrategia, no solo un dato. Su correspondencia con Jacob Levy Moreno documenta la recepción del psicodrama en la España de los sesenta y el proceso que llevó al doctorado honoris causa de Moreno (Lévy et al. 2022). Su obra escrita propia, incluidos sus trabajos sobre el delirio, no se ha cotejado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "freud_hit",
+        "breuer_freud"
+       ],
+       "t": "Freud y el psicoanálisis vienés"
+      },
+      {
+       "ids": [
+        "psicodin_breve"
+       ],
+       "t": "psicoterapia psicodinámica"
+      }
+     ]
+    }
+   ],
+   "set": {
+    "desc": "Ramón Sarró (1900-1993), psiquiatra catalán, estudió en Viena entre 1925 y 1927, conoció a Sigmund Freud y se formó con Helene Deutsch, atendiendo a pacientes bajo supervisión en el Ambulatorium vienés, aunque no completó su formación psicoanalítica (Lévy Lazcano 2025). Tras volver a España y pasar a formar parte del establecimiento médico del franquismo desde 1939, obtuvo en 1950 la cátedra de Psiquiatría de la Universidad de Barcelona, desde la que difundió ideas psicoanalíticas en la esfera pública (Lévy Lazcano 2025). Mantuvo correspondencia con Jacob Levy Moreno y contribuyó a la recepción del psicodrama en España en los años sesenta; la Universidad de Barcelona concedió a Moreno el doctorado honoris causa (Lévy 2022). Su archivo personal se conserva en la Biblioteca de Cataluña.",
+    "refs": [
+     "Lévy Lazcano S (2025). The construction of a psychoanalytic genealogy: Ramon Sarró and the meeting with Freud. Hist Psychol 28:220-240 · PMID 41037447",
+     "Lévy S, Huertas-Maestro M & Huertas R (2022). The reception of psychodrama in Spain: correspondence between Jacob Levy Moreno and Ramón Sarró. Hist Psychol 25:56-67 · PMID 34726442 (publicación electrónica 2021)",
+     "González de Pablo Á (2017). Christian psychopathology: psychiatry and knowledge for the sake of salvation in the early years of Francoism. Dynamis 37:45-64 · PMID 29206007",
+     "Campos R & Novella E (2017). Mental hygiene in early Francoism: from racial hygiene to the prevention of mental illness (1939-1960). Dynamis 37:65-87 · PMID 29206008",
+     "Campos R (2016). Authoritarianism and punitive eugenics: racial hygiene and national Catholicism during Francoism, 1936-1945. Hist Cienc Saude Manguinhos 23 (Suppl 1):131-148 · PMID 28198929",
+     "Druet AC (2017). Psychoanalysis and the transition to democracy in Spain. Hist Cienc Saude Manguinhos 24 (Suppl 1):63-78 · PMID 29236808",
+     "Huertas-Maestro M (2023). [The reception of Freudo-Marxism in the Spain of late Francoism and the Transition, 1975-1978] (artículo en español con resumen en inglés). Hist Cienc Saude Manguinhos 30:e2023016 · PMID 37194752"
+    ]
+   }
+  },
+  "lafora_hit": {
+   "featsReplace": [
+    [
+     "Estudios experimentales del cuerpo calloso y de la demencia senil (Giménez-Roldán 2014)",
+     "Estudios experimentales del cuerpo calloso y de la demencia senil (Giménez-Roldán 2015)"
+    ],
+    [
+     "Exilio en México tras la Guerra Civil (1936-1939) (Giménez-Roldán 2014)",
+     "Exilio en México tras la Guerra Civil (1936-1939) (Giménez-Roldán 2015)"
+    ]
+   ],
+   "secReplace": [
+    {
+     "t": "Contexto histórico",
+     "x": "Rodríguez Lafora se formó en la Escuela Neurológica de Madrid (1885-1939), el grupo de histólogos y clínicos reunidos en torno a Cajal y Simarro (Giménez-Roldán 2015; de Castro 2019). Como otros de su generación, completó su formación en el extranjero: la literatura secundaria sitúa sus trabajos anatomopatológicos junto a figuras como Kraepelin, Alzheimer, Vogt, Oppenheim o Brodmann (Fernández-Armayor et al. 1997), y su estancia en Estados Unidos, donde se hizo la descripción de 1911, no se ha contrastado en detalle [fuente no localizada]. La psiquiatría española de comienzos del siglo XX era sobre todo asilar y se modernizó con esta generación neuropsiquiátrica, que unía laboratorio y clínica [fuente no localizada]; la Guerra Civil interrumpió ese proyecto y dispersó a sus miembros (Giménez-Roldán 2015).",
+     "links": [
+      {
+       "ids": [
+        "cajal"
+       ],
+       "t": "Cajal y la escuela neurológica española"
+      },
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "neuropatología de la demencia"
+      }
+     ]
+    },
+    {
+     "t": "Legado y lectura actual",
+     "x": "El epónimo pervive en la nosología neurológica: la enfermedad de Lafora es una epilepsia mioclónica progresiva autosómica recesiva, con crisis, mioclonías y deterioro cognitivo marcado que puede preceder a las crisis; el gen EPM2A (laforina, 6q24), localizado en 1995, explica en torno al 80 % de los casos y EPM2B (malina, 6p22) una parte menor; los cuerpos de Lafora son agregados de poliglucosanos que pueden demostrarse en biopsia cutánea axilar, y en las formas típicas la muerte sobreviene entre 4 y 10 años tras el inicio (Genton 2007; Pondrelli 2021). Para la psiquiatría, el deterioro cognitivo de inicio adolescente, que puede preceder a las crisis y mioclonías (Genton 2007), y las alucinaciones visuales asociadas a crisis occipitales [fuente no localizada] obligan a incluirla en el diagnóstico diferencial de una psicosis o un deterioro con epilepsia refractaria. Su figura representa la neuropsiquiatría anatomoclínica española anterior a 1936, cuya continuidad rompieron la guerra y el exilio (Giménez-Roldán 2015).",
+     "links": [
+      {
+       "ids": [
+        "psicosis_causa_conocida"
+       ],
+       "t": "psicosis y deterioro de causa neurológica"
+      },
+      {
+       "ids": [
+        "mira_hit",
+        "sarro_hit"
+       ],
+       "t": "otros psiquiatras españoles del periodo"
+      }
+     ]
+    }
+   ],
+   "set": {
+    "desc": "Gonzalo Rodríguez Lafora (1886-1971), neuropsiquiatra de la Escuela Neurológica Española, discípulo de Luis Simarro y colaborador de Cajal, describió la epilepsia mioclónica progresiva con cuerpos de inclusión (enfermedad de Lafora, hacia 1911 [fuente no localizada la fecha exacta]), hoy reconocida como una enfermedad autosómica recesiva causada por mutaciones en EPM2A o NHLRC1 con acumulación de glucógeno anómalo (Giménez-Roldán 2015; Pondrelli 2021). También realizó estudios experimentales del cuerpo calloso y estudios clinicopatológicos de la demencia senil (Giménez-Roldán 2015), y en 1924 fue el primero en aplicar en España la malarioterapia de la parálisis general (Villasante 2020). Tras la Guerra Civil se exilió en México, como otros intelectuales de la Madrid School of Neurology.",
+    "refs": [
+     "Giménez-Roldán S (2015). The Madrid School of Neurology (1885-1939). Rev Neurol (Paris) 171:5-15 · PMID 25444449 (publicación electrónica 2014)",
+     "Villasante O (2020). Malaria therapy in Spain: 100 years after its introduction as a treatment for the general paralysis of the insane. Hist Psychiatry 31:325-340 · PMID 32349552",
+     "de Castro F (2019). Cajal and the Spanish Neurological School: neuroscience would have been a different story without them. Front Cell Neurosci 13:187 · PMID 31178695",
+     "Pondrelli F et al. (2021). Natural history of Lafora disease: a prognostic systematic review and individual participant data meta-analysis. Orphanet J Rare Dis 16:362 · PMID 34399803",
+     "Nanduri AS et al. (2008). The maestro don Gonzalo Rodríguez-Lafora. Epilepsia 49:943-947 · PMID 18266749",
+     "Fernández-Armayor V et al. (1997). [Lafora and neuropathology] (artículo en español). Rev Neurol 25:2036-2039 · PMID 9528052",
+     "Genton P (2007). [Lafora's disease (EPM2)] (artículo en francés con resumen en inglés). Rev Neurol (Paris) 163:47-53 · PMID 17304172",
+     "Lafora GR & Glueck B (1911). Beitrag zur Histopathologie der myoklonischen Epilepsie. Z Gesamte Neurol Psychiatr 6:1-14 · DOI 10.1007/BF02863929 (no indexado en PubMed; datos bibliográficos comprobados en el registro del editor; contenido no cotejado)"
+    ]
+   }
+  },
+  "citalopram": {
+   "set": {
+    "desc": "ISRS racémico (mezcla de R- y S-citalopram). Indicaciones autorizadas (ficha técnica de Prisdal, AEMPS-CIMA): depresión y prevención de recaídas, trastorno de angustia con o sin agorafobia y TOC. Su rasgo distintivo de seguridad es la prolongación dosis-dependiente del QT: la FDA limitó la dosis diaria en 2011-2012 (FDA 2012; Gerlach 2018) y la ficha técnica española fija un máximo de 40 mg/día (20 mg en mayores de 65 años, en insuficiencia hepática y en metabolizadores lentos de CYP2C19) y lo contraindica con antecedente de QT largo o con fármacos que prolongan el QT. Semivida de unos 33 h y metabolismo por CYP2C19 (38 %), CYP3A4 (31 %) y CYP2D6 (31 %), lo que reduce el riesgo de interacciones por inhibición de una sola vía (ficha técnica, 4.5 y 5.2). En la serie de Hawton (2010) tuvo mayor letalidad en sobredosis que los demás ISRS, aunque muy inferior a los tricíclicos.",
+    "refs": [
+     "AEMPS-CIMA (2026). Ficha técnica de Prisdal 20 mg comprimidos recubiertos con película (citalopram) (nº de registro 60884), apartados 4.1-4.6 y 5.2; documento de enero de 2024, consulta de noviembre de 2026",
+     "FDA, U.S. Food and Drug Administration (2012). Abnormal heart rhythms associated with high doses of Celexa (citalopram hydrobromide): Drug Safety Communication (24 de agosto de 2011, revisada el 28 de marzo de 2012)",
+     "Castro VM et al. (2013). QT interval and antidepressant use: a cross sectional study of electronic health records. BMJ 346:f288 · PMID 23360890",
+     "Hawton K et al. (2010). Toxicity of antidepressants: rates of suicide relative to prescribing and non-fatal overdose. Br J Psychiatry 196:354-358 · PMID 20435959",
+     "NICE (2022). Depression in adults: treatment and management (NG222)",
+     "Kennedy SH et al. (2016). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2016 clinical guidelines for the management of adults with major depressive disorder: section 3. Pharmacological treatments. Can J Psychiatry 61:540-560 · PMID 27486148",
+     "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+     "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+     "Chawla N et al. (2022). Drug treatment for panic disorder with or without agoraphobia: systematic review and network meta-analysis of randomised controlled trials. BMJ 376:e066084 · PMID 35045991",
+     "Porsteinsson AP et al. (2014). Effect of citalopram on agitation in Alzheimer disease: the CitAD randomized clinical trial. JAMA 311:682-691 · PMID 24549548",
+     "Cipriani A et al. (2016). Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis. Lancet 388:881-890 · PMID 27289172",
+     "Sánchez C & Hyttel J (1999). Comparison of the effects of antidepressants and their metabolites on reuptake of biogenic amines and on receptor binding. Cell Mol Neurobiol 19:467-489 · PMID 10379421",
+     "Hiemke C & Härtter S (2000). Pharmacokinetics of selective serotonin reuptake inhibitors. Pharmacol Ther 85:11-28 · PMID 10674711",
+     "Spina E, Santoro V & D'Arrigo C (2008). Clinically relevant pharmacokinetic drug interactions with second-generation antidepressants: an update. Clin Ther 30:1206-1227 · PMID 18691982",
+     "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+     "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+     "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+     "Beach SR et al. (2018). QT prolongation, torsades de pointes, and psychotropic medications: a 5-year update. Psychosomatics 59:105-122 · PMID 29275963",
+     "Voican CS et al. (2014). Antidepressant-induced liver injury: a review for clinicians. Am J Psychiatry 171:404-415 · PMID 24362450",
+     "Coupland C et al. (2011). Antidepressant use and risk of adverse outcomes in older people: population based cohort study. BMJ 343:d4551 · PMID 21810886",
+     "Isbister GK et al. (2004). Relative toxicity of selective serotonin reuptake inhibitors (SSRIs) in overdose. J Toxicol Clin Toxicol 42:277-285 · PMID 15362595",
+     "Liechti ME et al. (2000). Acute psychological effects of 3,4-methylenedioxymethamphetamine (MDMA, «Ecstasy») are attenuated by the serotonin uptake inhibitor citalopram. Neuropsychopharmacology 22:513-521 · PMID 10731626",
+     "Farré M et al. (2007). Pharmacological interaction between 3,4-methylenedioxymethamphetamine (ecstasy) and paroxetine: pharmacological effects and pharmacokinetics. J Pharmacol Exp Ther 323:954-962 · PMID 17890444",
+     "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+     "AEMPS-CIMA (2026). Ficha técnica de Prisdal 20 mg comprimidos recubiertos con película (citalopram) (nº de registro 60884), apartados 4.1, 4.3 y 4.5; texto consultado en cima.aemps.es en noviembre de 2026",
+     "Gerlach LB et al. (2018). Assessing responsiveness of health systems to drug safety warnings. Am J Geriatr Psychiatry 26:476-483 · PMID 29066038"
+    ]
+   }
+  },
+  "dupcat": {
+   "set": {
+    "refs": [
+     "Marshall M et al. (2005). Association between duration of untreated psychosis and outcome in cohorts of first-episode patients: a systematic review. Arch Gen Psychiatry 62:975-983 · PMID 16143729",
+     "Melle I et al. (2004). Reducing the duration of untreated first-episode psychosis: effects on clinical presentation (TIPS). Arch Gen Psychiatry 61:143-150 · PMID 14757590",
+     "NHS England (2016). Implementing the Early Intervention in Psychosis Access and Waiting Time Standard",
+     "Perkins DO et al. (2005). Relationship between duration of untreated psychosis and outcome in first-episode schizophrenia: a critical review and meta-analysis. Am J Psychiatry 162:1785-1804 · PMID 16199825",
+     "Penttilä M et al. (2014). Duration of untreated psychosis as predictor of long-term outcome in schizophrenia: systematic review and meta-analysis. Br J Psychiatry 205:88-94 · PMID 25252316",
+     "Howes OD et al. (2021). The clinical significance of duration of untreated psychosis: an umbrella review and random-effects meta-analysis. World Psychiatry 20:75-95 · PMID 33432766",
+     "Drake RJ et al. (2020). Effect of delaying treatment of first-episode psychosis on symptoms and social outcomes: a longitudinal analysis and modelling study. Lancet Psychiatry 7:602-610 · PMID 32563307",
+     "Lloyd-Evans B et al. (2011). Initiatives to shorten duration of untreated psychosis: systematic review. Br J Psychiatry 198:256-263 · PMID 21972275",
+     "Correll CU et al. (2018). Comparison of early intervention services vs treatment as usual for early-phase psychosis: a systematic review, meta-analysis, and meta-regression. JAMA Psychiatry 75:555-565 · PMID 29800949",
+     "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)",
+     "Ministerio de Sanidad (2009). Guía de Práctica Clínica sobre la Esquizofrenia y el Trastorno Psicótico Incipiente. Guías de Práctica Clínica en el SNS (GuiaSalud). Agència d'Avaluació de Tecnologia i Recerca Mèdiques"
+    ]
+   }
+  },
+  "bsabs": {
+   "secReplace": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El concepto es de Gerd Huber y la escuela de Bonn. Las fuentes primarias son Huber G (1966), «Reine Defektsyndrome und Basisstadien endogener Psychosen», Fortschritte der Neurologie-Psychiatrie 34:409-426, y Huber G (1983), «Das Konzept substratnaher Basissymptome und seine Bedeutung für Theorie und Therapie schizophrener Erkrankungen», Nervenarzt 54:23-32. El instrumento es la Bonner Skala für die Beurteilung von Basissymptomen (Gross, Huber, Klosterkötter y Linz; Berlin: Springer, 1987), cuyo acrónimo BSABS corresponde a Bonn Scale for the Assessment of Basic Symptoms. Según Huber y Gross (1989), se llaman «básicos» porque constituyen la base de la sintomatología psicótica productiva, y la persona los vive y comunica como deficiencias que puede afrontar y compensar; los autores los presentan como una vía para superar la dicotomía entre psicopatología positiva y negativa. Lo que la fuente primaria no contiene son los criterios de riesgo COPER y COGDIS ni el SPI-A, desarrollados después por el grupo de Colonia (Schultze-Lutter et al. 2012). Tampoco son exclusivos del pródromo: se describen a lo largo de todo el curso de los trastornos psicóticos (Schultze-Lutter 2009).",
+     "links": [
+      {
+       "ids": [
+        "ease_ins"
+       ],
+       "t": "SPI-A y EASE"
+      },
+      {
+       "ids": [
+        "cenes"
+       ],
+       "t": "cenestesias"
+      },
+      {
+       "ids": [
+        "urh"
+       ],
+       "t": "alto riesgo psicótico"
+      }
+     ]
+    }
+   ],
+   "set": {
+    "n": "Síntomas básicos / BSABS (Huber 1966; Gross et al. 1987)",
+    "desc": "Los síntomas básicos (Huber, 1966; Gross, Huber, Klosterkötter y Linz, 1987) son alteraciones subjetivas sutiles de la cognición, afecto, percepción y motoricidad que pueden preceder en años a los síntomas psicóticos positivos (media de 6,3 años hasta la transición en series de Bonn; Huber y Gross 1989), aunque se describen a lo largo de todo el curso de los trastornos psicóticos (Schultze-Lutter 2009). La BSABS (Bonn Scale for the Assessment of Basic Symptoms; Bonner Skala für die Beurteilung von Basissymptomen) los operacionaliza. Base de los programas de detección de estados de alto riesgo clínico (CHR) de psicosis."
+   }
+  },
+  "hiperf": {
+   "featsReplace": [
+    [
+     "Sass & Parnas (2001): hiperreflexividad como mecanismo central en esquizofrenia",
+     "Sass (1992); Sass y Parnas (2003): hiperreflexividad como mecanismo central en esquizofrenia"
+    ]
+   ],
+   "secReplace": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El término procede de Louis A. Sass, Madness and Modernism: Insanity in the Light of Modern Art, Literature, and Thought (New York: Basic Books, 1992), obra que, como indica su subtítulo, lee la esquizofrenia a la luz del arte y el pensamiento modernos. La definición verificable en la literatura indexada es la de Sass y Parnas (2003): formas de autoconciencia exagerada en las que aspectos de uno mismo se viven como si fueran objetos externos; allí la hiperreflexividad es una de las dos caras de la alteración de la ipseidad, junto a la disminución de la autoafección. Dos precisiones separan la fuente de su vulgarización. Primera: no se refiere ante todo a una reflexión intelectual voluntaria; Sass distingue una forma operativa, automática, en la que lo que normalmente es tácito irrumpe en el foco de la conciencia, y una forma reflexiva secundaria [fuente no localizada]. Segunda: la revisión de 2018 diferencia factores primarios y secundarios y admite que parte de la expresión es reactiva, defensiva o casi intencional (Sass et al. 2018).",
+     "links": [
+      {
+       "ids": [
+        "selfips",
+        "ipsei"
+       ],
+       "t": "modelo de la ipseidad"
+      },
+      {
+       "ids": [
+        "fen_contemp"
+       ],
+       "t": "fenomenología contemporánea"
+      }
+     ]
+    }
+   ],
+   "set": {
+    "desc": "Sass (1992) y Sass y Parnas (2003) proponen la hiperreflexividad como mecanismo fenomenológico central en la esquizofrenia: el sujeto se convierte en objeto de su propia observación reflexiva, produciendo distancia patológica entre el yo observador y el yo experimentado.",
+    "refs": [
+     "Sass LA (1992). Madness and Modernism: Insanity in the Light of Modern Art, Literature, and Thought. New York: Basic Books",
+     "Sass LA & Parnas J (2003). Schizophrenia, consciousness, and the self. Schizophr Bull 29:427-444 · PMID 14609238",
+     "Nelson B et al. (2012). Basic self-disturbance predicts psychosis onset in the ultra high risk for psychosis \"prodromal\" population. Schizophr Bull 38:1277-1287 · PMID 22349924",
+     "Sass L, Pienkos E, Nelson B & Medford N (2013). Anomalous self-experience in depersonalization and schizophrenia: a comparative investigation. Conscious Cogn 22:430-441 · PMID 23454432",
+     "Sass LA (2014). Self-disturbance and schizophrenia: structure, specificity, pathogenesis (Current issues, New directions). Schizophr Res 152:5-11 · PMID 23773296",
+     "Sass L et al. (2018). Varieties of Self Disorder: A Bio-Pheno-Social Model of Schizophrenia. Schizophr Bull 44:720-727 · PMID 29529266",
+     "Mishara AL (2007). Missing links in phenomenological clinical neuroscience: why we still are not there yet. Curr Opin Psychiatry 20:559-569 · PMID 17921755",
+     "Sass L & Feyaerts J (2024). Schizophrenia, the very idea: on self-disorder, hyperreflexivity, and the diagnostic concept. Schizophr Res 267:473-486 · PMID 38693032",
+     "Raballo A, Poletti M, Preti A & Parnas J (2021). The Self in the Spectrum: A Meta-analysis of the Evidence Linking Basic Self-Disorders and Schizophrenia. Schizophr Bull 47:1007-1017 · PMID 33479736"
+    ]
+   }
+  },
+  "selfips": {
+   "set": {
+    "tx": "Antipsicóticos; psicoterapia fenomenológica; MBSR adaptado [fuente no localizada: no hay ensayos controlados de tratamientos dirigidos a estas anomalías]."
+   }
+  }
+ }
+}
