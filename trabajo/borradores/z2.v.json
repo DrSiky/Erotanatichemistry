@@ -1,0 +1,383 @@
+{
+ "patch": {
+  "hitop_tp": {
+   "secAdd": [
+    {
+     "t": "Estructura del espectro de desapego y antagonismo en HiTOP",
+     "x": "Según la revisión fundacional, la patología de la personalidad converge en cinco dominios: afectividad negativa, desapego, desinhibición, antagonismo y psicoticismo. El reanálisis de 33 estudios factoriales de diagnósticos de personalidad (O'Connor 2005, en Kotov 2017) halló cuatro dimensiones, entre ellas antagonismo (antisocial, narcisista, histriónico, límite y paranoide) y desapego (esquizoide, esquizotípico y evitativo, con carga negativa del histriónico). Cuatro dominios son variantes desadaptativas del modelo de cinco factores (neuroticismo, extraversión baja, responsabilidad baja y amabilidad baja); el psicoticismo no tiene equivalente claro (Kotov 2017). Los análisis conjuntos emparejan internalización con afectividad negativa, trastorno del pensamiento con psicoticismo y externalización con desinhibición y antagonismo, que HiTOP separa en dos espectros externalizantes; en 2017 el desapego parecía propio de la personalidad (Kotov 2017), y en 2020 ya incluía los síntomas negativos (Kotov 2020). Es la estructura del PID-5, adoptada en la Sección III del DSM-5 (Kotov 2017). Conway et al. (2022) consideran estos cinco espectros los mejor validados y el somatomorfo, de apoyo modesto. Un metaanálisis de 35 estudios (120 596 participantes, 23 diagnósticos DSM) halló cinco dimensiones con buen ajuste y jerarquía coherente con HiTOP, y recomienda sustituir diagnósticos por rasgos y síntomas (Ringwald 2023). Ninguno de estos trabajos los compara con la CIE-11.",
+     "links": [
+      {
+       "ids": [
+        "pid5_lpfs"
+       ],
+       "t": "PID-5 y modelo alternativo"
+      },
+      {
+       "ids": [
+        "tpanti",
+        "tpnarc",
+        "hist",
+        "tlp",
+        "tparano"
+       ],
+       "t": "antagonismo"
+      },
+      {
+       "ids": [
+        "tp_esquizoide",
+        "tpev",
+        "esqtpersonalidad"
+       ],
+       "t": "desapego"
+      },
+      {
+       "ids": [
+        "esqtclin",
+        "desinhib",
+        "hitop_anx"
+       ],
+       "t": "superespectros"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Conway CC, Forbes MK, South SC & HiTOP Consortium (2022). A Hierarchical Taxonomy of Psychopathology (HiTOP) primer for mental health researchers. Clin Psychol Sci 10:236-258 (publicado en línea en 2021) · PMID 35599839",
+    "Kotov R et al. (2020). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): I. Psychosis superspectrum. World Psychiatry 19:151-172 · PMID 32394571",
+    "Ringwald WR, Forbes MK & Wright AGC (2023). Meta-analysis of structural evidence for the Hierarchical Taxonomy of Psychopathology (HiTOP) model. Psychol Med 53:533-546 · PMID 33988108"
+   ],
+   "relAdd": [
+    "esqtclin",
+    "desinhib"
+   ]
+  },
+  "p_factor": {
+   "secAdd": [
+    {
+     "t": "Factor general en la investigación con HiTOP (Conway et al. 2022)",
+     "x": "Conway et al. (2022) sitúan el factor general en la cima del modelo y lo describen como un distrés y deterioro generales que impregnan casi toda la psicopatología, unos síntomas más que otros. En el modelo bifactorial, todas las variables cargan en un factor general y la varianza restante se reparte en factores específicos no correlacionados; en el de orden superior, el factor general es una variable de segundo orden que recoge las correlaciones entre los factores internalizante, externalizante y del pensamiento. Señalan que estudios empíricos y de simulación han mostrado limitaciones del bifactorial, que hay indicios de que se ha aplicado sin crítica o malinterpretado y que por ello crece el uso del de orden superior. De una comparación de Forbes et al. (2021) en la que ambos factores generales fueron robustos y de rendimiento similar extraen tres recomendaciones: no elegir el modelo solo por los índices de ajuste, examinar la fiabilidad de las variables latentes y ser cautos al interpretar efectos únicos de cada factor. Advierten también de que parcializar predictores correlacionados puede cambiar el significado del constructo. Kotov et al. (2017) añaden que el análisis sucesivo con más factores apoya el factor p, pero también estructuras intermedias significativas entre él y los espectros. Fuera del consorcio, Haeffel et al. (2022) objetan que la estructura simple factorial no representa adecuadamente el espacio dimensional de los síntomas.",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp",
+        "hitop_anx"
+       ],
+       "t": "HiTOP"
+      },
+      {
+       "ids": [
+        "red_sintom"
+       ],
+       "t": "alternativa de redes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Conway CC, Forbes MK, South SC & HiTOP Consortium (2022). A Hierarchical Taxonomy of Psychopathology (HiTOP) primer for mental health researchers. Clin Psychol Sci 10:236-258 (publicado en línea en 2021) · PMID 35599839",
+    "Haeffel GJ et al. (2022). The Hierarchical Taxonomy of Psychopathology (HiTOP) is not an improvement over the DSM. Clin Psychol Sci 10:285-290 · PMID 36299281"
+   ],
+   "relAdd": []
+  },
+  "esqtclin": {
+   "secAdd": [
+    {
+     "t": "Superespectro psicótico en HiTOP (Kotov et al. 2020)",
+     "x": "El consorcio agrupa dos espectros en un superespectro psicótico. El trastorno del pensamiento, hoy también llamado psicoticismo, va del pensamiento convencional a percepciones y cogniciones con escaso anclaje en la realidad e incluye los síntomas positivos y la esquizotipia positiva. El desapego abarca volición, sociabilidad y expresión afectiva, de la introversión a la esquizotipia negativa y los síntomas negativos. Esquizofrenia, trastornos esquizofreniforme y esquizoafectivo y trastornos de la personalidad esquizotípico y paranoide se elevan en ambos; el esquizoide y el evitativo, solo en desapego; manía y disociación se incluyen de forma provisional. El superespectro se estima heredable en un 73 %; los antipsicóticos son relativamente específicos del psicoticismo. La estabilidad a dos semanas fue de 0,88 (psicoticismo) y 0,89 (desapego), frente a 0,44-0,63 en los trastornos de la personalidad del grupo (Kotov 2020). Jonas et al. (2024) amplían el modelo a 14 componentes y dos dominios auxiliares, cognición y deterioro funcional: los cambios en psicoticismo predicen el inicio y los de desapego y cognición, el curso posterior. La revisión complementaria estima una fiabilidad, capacidad explicativa y precisión pronóstica aproximadamente dobles que las de los diagnósticos, pero faltan estudios en pacientes con psicosis franca (Kotov 2024). Faltan catatonía, puntos de corte para decisiones clínicas y patrones temporales de curso (Kotov 2020; Jonas 2024).",
+     "links": [
+      {
+       "ids": [
+        "esqtpersonalidad",
+        "tp_esquizoide",
+        "tpev",
+        "tparano",
+        "esq"
+       ],
+       "t": "diagnósticos del superespectro"
+      },
+      {
+       "ids": [
+        "sneg",
+        "esqneg"
+       ],
+       "t": "síntomas negativos"
+      },
+      {
+       "ids": [
+        "urh",
+        "cannabis_psic"
+       ],
+       "t": "riesgo y cannabis"
+      },
+      {
+       "ids": [
+        "hitop_tp",
+        "meehl"
+       ],
+       "t": "HiTOP y taxón"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2020). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): I. Psychosis superspectrum. World Psychiatry 19:151-172 · PMID 32394571",
+    "Jonas KG et al. (2024). Psychosis superspectrum I: nosology, etiology, and lifespan development. Mol Psychiatry 29:1005-1019 · PMID 38200290",
+    "Kotov R et al. (2024). Psychosis superspectrum II: neurobiology, treatment, and implications. Mol Psychiatry 29:1293-1309 · PMID 38351173"
+   ],
+   "relAdd": [
+    "hitop_tp"
+   ]
+  },
+  "meehl": {
+   "secAdd": [
+    {
+     "t": "La esquizotipia en el modelo HiTOP",
+     "x": "HiTOP parte de un supuesto opuesto al taxón: Kotov et al. (2017) sostienen que ningún trastorno mental se ha establecido como entidad categorial discreta y que los modelos dimensionales ajustan mejor que las clases latentes, aunque admiten que, si aparecieran categorías, podrían incorporarse con modelos de mezcla factorial. El informe sobre psicosis reconoce que probablemente existen clases latentes aún no identificadas y se presenta como heredero de los modelos de espectro que van de la normalidad a la patología de la personalidad y la esquizofrenia; la esquizotipia positiva corresponde al psicoticismo y la negativa al desapego (Kotov 2020). La ubicación del trastorno esquizotípico ha variado: en los estudios revisados en 2017 cargaba, según la muestra, en desapego, antagonismo o trastorno del pensamiento (Kotov 2017). En un seguimiento a 20 años tras una primera hospitalización (131 con esquizofrenia, 144 con otras psicosis y 304 sin psicosis), los grupos diferían en promedio en psicoticismo y desapego, pero se solapaban sin zonas de rareza y pocas puntuaban alto en ambos (Kotov 2022), un dato descriptivo que no es una prueba taxométrica. Lenzenweger (2018), en la línea de Meehl, defiende la esquizotipia como organización latente de la personalidad que no se reduce al trastorno esquizotípico ni a una forma de medida, y señala que la mayoría de quienes estudian la esquizofrenia no la considera benigna, frente a quienes la ven como dimensión normal.",
+     "links": [
+      {
+       "ids": [
+        "esqtclin",
+        "esqtpersonalidad"
+       ],
+       "t": "esquizotipia y trastorno esquizotípico"
+      },
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "HiTOP"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): a dimensional alternative to traditional nosologies. J Abnorm Psychol 126:454-477 · PMID 28333488",
+    "Kotov R et al. (2020). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): I. Psychosis superspectrum. World Psychiatry 19:151-172 · PMID 32394571",
+    "Kotov R et al. (2022). Reconceptualizing schizophrenia in the Hierarchical Taxonomy Of Psychopathology (HiTOP). Schizophr Res 242:73-77 · PMID 35144862",
+    "Lenzenweger MF (2018). Schizotypy, schizotypic psychopathology and schizophrenia. World Psychiatry 17:25-26 · PMID 29352536"
+   ],
+   "relAdd": [
+    "hitop_tp"
+   ]
+  },
+  "desinhib": {
+   "secAdd": [
+    {
+     "t": "Superespectro externalizante en HiTOP (Krueger et al. 2021)",
+     "x": "Este síntoma, pérdida adquirida del control social, no equivale al rasgo que HiTOP llama externalización desinhibida. Krueger et al. (2021) definen el espectro desinhibido como tendencia a actuar por impulso sin considerar las consecuencias y el antagonista como tendencia a relacionarse mediante antipatía y conflicto. En el desinhibido sitúan el TDAH y los trastornos por consumo de alcohol y otras sustancias; en el antagonista, los trastornos de la personalidad narcisista, paranoide e histriónico; el trastorno de conducta, el antisocial, el explosivo intermitente, el negativista desafiante y el límite tienen rasgos de ambos; el límite solo se incluye provisionalmente, porque carga sobre todo en internalización. Como validadores citan heredabilidades en jóvenes del 60-80 % para el TDAH y en torno al 50 % para los trastornos por consumo de alcohol, la práctica ausencia de riesgos ambientales específicos de un trastorno, el bajo control esforzado infantil como antecedente y la P300 visual reducida como mejor marcador neurofisiológico. En utilidad, el kappa test-retest del DSM-5 fue 0,40 para el trastorno por consumo de alcohol y 0,21 para el antisocial, mientras que los dominios de desinhibición y antagonismo del PID-5 mostraron una estabilidad a dos semanas de 0,86. Reconocen en la evidencia biológica muestras pequeñas, estudios de un solo trastorno y pocos diseños longitudinales, y piden más diseños genéticamente informativos y estudiar el antagonismo infantil.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tcs",
+        "alcohol"
+       ],
+       "t": "externalizante desinhibido"
+      },
+      {
+       "ids": [
+        "tpnarc",
+        "tparano",
+        "hist"
+       ],
+       "t": "externalizante antagonista"
+      },
+      {
+       "ids": [
+        "tpanti",
+        "tcond",
+        "tei",
+        "tnd",
+        "tlp"
+       ],
+       "t": "cargas mixtas"
+      },
+      {
+       "ids": [
+        "impulsiv",
+        "hitop_tp"
+       ],
+       "t": "impulsividad y HiTOP"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Krueger RF et al. (2021). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): II. Externalizing superspectrum. World Psychiatry 20:171-193 · PMID 34002506"
+   ],
+   "relAdd": [
+    "hitop_tp",
+    "tdah",
+    "tcs"
+   ]
+  },
+  "pid5_lpfs": {
+   "secAdd": [
+    {
+     "t": "Medición dimensional de HiTOP",
+     "x": "Kotov et al. (2017) no disponían de una medida integrada y propusieron baterías que cubrieran varios niveles de la jerarquía (p. ej., ASEBA, IDAS, SANS y SAPS, PID-5, CAT-PD, ESI o PAI) hasta crear una con normas por estratos demográficos, versiones para informantes y rangos de puntuación para decisiones clínicas. Kotov, Krueger y Watson (2018) proponen un uso escalonado: cribado breve de los seis espectros y medidas largas solo en los elevados. Conway et al. (2022) añaden el IDAS-II, el PID-5 de 220 y 100 ítems y el SPECTRA; Simms et al. (2022) describen la primera fase del desarrollo de medidas propias, y Cicero et al. (2024) presentan el HiTOP-SR. El manual del HiTOP-DAT (Jonas 2021) describe una batería electrónica gratuita de 40-60 minutos con medidas libres normadas en población comunitaria (CAT-PD, IDAS-II, CAPE positiva, AUDIT, DUDIT, PHQ-15 y WHODAS), con puntuaciones T y aviso al profesional si ideación suicida o autolesión alcanzan T 65, umbral bajo que no sustituye la evaluación clínica del riesgo. Límites que reconoce: solo adultos y autoinforme, sin escalas de validez, normas distintas por escala con grupos poco representados, sin puntos de corte clínicos e interpretación obligada según contexto cultural y estrés de minorías. No consta validación española [fuente no localizada]. Haeffel et al. (2022) objetan que no hay pruebas de que usar HiTOP mejore los resultados clínicos. En 2017, Krueger (PID-5) y Clark (SNAP-2) declararon conflictos de interés.",
+     "links": [
+      {
+       "ids": [
+        "cbcl"
+       ],
+       "t": "ASEBA"
+      },
+      {
+       "ids": [
+        "panss"
+       ],
+       "t": "SANS y SAPS"
+      },
+      {
+       "ids": [
+        "hitop_tp",
+        "p_factor"
+       ],
+       "t": "modelo HiTOP"
+      },
+      {
+       "ids": [
+        "mbc"
+       ],
+       "t": "atención basada en medidas"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "estrés de minorías"
+      },
+      {
+       "ids": [
+        "phq15_sss8"
+       ],
+       "t": "PHQ-15"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "cssrs"
+       ],
+       "t": "evaluación del riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): a dimensional alternative to traditional nosologies. J Abnorm Psychol 126:454-477 · PMID 28333488",
+    "Conway CC, Forbes MK, South SC & HiTOP Consortium (2022). A Hierarchical Taxonomy of Psychopathology (HiTOP) primer for mental health researchers. Clin Psychol Sci 10:236-258 (publicado en línea en 2021) · PMID 35599839",
+    "Kotov R, Krueger RF & Watson D (2018). A paradigm shift in psychiatric classification: the Hierarchical Taxonomy Of Psychopathology (HiTOP). World Psychiatry 17:24-25 · PMID 29352543",
+    "Simms LJ et al. (2022). Development of measures for the Hierarchical Taxonomy of Psychopathology (HiTOP): a collaborative scale development project. Assessment 29:3-16 · PMID 34013772",
+    "Cicero DC et al. (2024). State of the science: the Hierarchical Taxonomy of Psychopathology (HiTOP). Behav Ther 55:1114-1129 · PMID 39443056",
+    "Jonas KG, Stanton K, Simms L, Mullins-Sweatt SN et al. (2021). HiTOP Digital Assessment and Tracker (HiTOP-DAT) Manual. Consorcio HiTOP, documento técnico no indexado (versión del 5 de octubre de 2021 depositada en OSF, osf.io/8hngd)",
+    "Haeffel GJ et al. (2022). The Hierarchical Taxonomy of Psychopathology (HiTOP) is not an improvement over the DSM. Clin Psychol Sci 10:285-290 · PMID 36299281"
+   ],
+   "relAdd": [
+    "cbcl",
+    "panss",
+    "mbc"
+   ]
+  },
+  "tripartito": {
+   "secAdd": [
+    {
+     "t": "Del modelo tripartito a HiTOP",
+     "x": "Kotov et al. (2017) sitúan la investigación sobre la estructura del afecto (Tellegen 1985) y su aplicación a las dimensiones de los síntomas de ansiedad y depresión (Clark y Watson 1991) entre los antecedentes de la nosología cuantitativa, junto a los análisis factoriales de la comorbilidad que revelaron dimensiones de orden superior. La continuidad es también de autoría: Watson es uno de los tres autores que redactaron la revisión fundacional del consorcio y Clark figura entre sus coautores (Kotov 2017). Conway et al. (2022) explican que el IDAS, diseñado para medir los componentes nucleares del espectro internalizante, se construyó a partir de la teoría tripartita y sus sucesoras (Clark y Watson 1991; Mineka et al. 1998), con subescalas homogéneas como pánico, insomnio o ansiedad social. Donde el modelo tripartito proponía un afecto negativo común y dos componentes específicos, HiTOP organiza el espectro internalizante en subfactores de distrés, miedo, patología alimentaria y problemas sexuales, con el pánico cargando en miedo y distrés (Kotov 2017), y Watson et al. (2022) vinculan todo el superespectro de disfunción emocional con las diferencias individuales en afecto negativo o neuroticismo, eco del componente común del modelo original.",
+     "links": [
+      {
+       "ids": [
+        "hitop_anx"
+       ],
+       "t": "espectro internalizante"
+      },
+      {
+       "ids": [
+        "p_factor"
+       ],
+       "t": "factor general"
+      },
+      {
+       "ids": [
+        "panic"
+       ],
+       "t": "pánico entre miedo y distrés"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): a dimensional alternative to traditional nosologies. J Abnorm Psychol 126:454-477 · PMID 28333488",
+    "Conway CC, Forbes MK, South SC & HiTOP Consortium (2022). A Hierarchical Taxonomy of Psychopathology (HiTOP) primer for mental health researchers. Clin Psychol Sci 10:236-258 (publicado en línea en 2021) · PMID 35599839",
+    "Watson D et al. (2022). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): III. Emotional dysfunction superspectrum. World Psychiatry 21:26-54 · PMID 35015357"
+   ],
+   "relAdd": [
+    "hitop_tp"
+   ]
+  },
+  "hitop_anx": {
+   "secAdd": [
+    {
+     "t": "Superespectro de disfunción emocional (HiTOP)",
+     "x": "Watson et al. (2022) reúnen los espectros internalizante y somatomorfo en un superespectro de disfunción emocional, vinculado en conjunto al afecto negativo o neuroticismo. El internalizante es el mayor y más complejo, con cuatro subfactores: distrés (emocionalidad negativa generalizada), miedo, patología alimentaria y problemas sexuales; la manía queda como constructo intersticial, porque otros estudios la vinculan al trastorno del pensamiento, donde el informe sobre psicosis la había colocado provisionalmente (Kotov 2020). El somatomorfo es el espectro más provisional, con indicadores sobre todo de malestar corporal. Kotov et al. (2017) ya advertían de que el pánico carga en miedo y distrés, de que el TOC es un miembro débil del miedo que se solapa con el trastorno del pensamiento y de que miedo y distrés se correlacionan tanto que varios estudios no pudieron separarlos. Watson et al. citan una correlación genética de 0,80 entre depresión y ansiedad generalizada, menor con fobia específica y pánico (0,34 y 0,63), y beneficio transdiagnóstico de la TCC, del Protocolo Unificado y de ISRS e IRSN; como argumento de utilidad, la baja fiabilidad entre evaluadores de las categorías en los ensayos de campo del DSM-5 (kappa 0,28 en depresión mayor y 0,20 en TAG). Reconocen que el superespectro es provisional, límites imprecisos del espectro, ubicación pendiente de la ansiedad por la salud, muestras pequeñas y escasa investigación ambiental del somatomorfo.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tag",
+        "ptsd"
+       ],
+       "t": "distrés"
+      },
+      {
+       "ids": [
+        "panic",
+        "fobia_soc",
+        "agora",
+        "toc_dsm"
+       ],
+       "t": "miedo"
+      },
+      {
+       "ids": [
+        "anor",
+        "bul",
+        "disf_sex"
+       ],
+       "t": "alimentarios y sexuales"
+      },
+      {
+       "ids": [
+        "somat_sint",
+        "iad"
+       ],
+       "t": "somatomorfo y ansiedad por la salud"
+      },
+      {
+       "ids": [
+        "prot_unif",
+        "tripartito"
+       ],
+       "t": "tratamiento y precursores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Watson D et al. (2022). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): III. Emotional dysfunction superspectrum. World Psychiatry 21:26-54 · PMID 35015357",
+    "Kotov R et al. (2020). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): I. Psychosis superspectrum. World Psychiatry 19:151-172 · PMID 32394571"
+   ],
+   "relAdd": [
+    "somat_sint",
+    "iad"
+   ]
+  }
+ },
+ "add": []
+}
