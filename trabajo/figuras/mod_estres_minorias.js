@@ -37,7 +37,7 @@ module.exports = {
       'Organización Mundial de la Salud (2025). CIE-11 para estadísticas de mortalidad y morbilidad, tabulación simple oficial (MMS): capítulo 17, Afecciones relacionadas con la salud sexual; HA60 Incongruencia de género en la adolescencia o la edad adulta; HA61 Incongruencia de género en la infancia',
       'Ley 4/2023, de 28 de febrero (2023), para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI. BOE núm. 51, de 1 de marzo de 2023 (BOE-A-2023-5366), arts. 17, 79.4.d y 80.3 · texto consolidado cotejado en boe.es (noviembre de 2026)'
     ],
-    nodes: ['competencia_cult', 'racismo_sm', 'carga_alostatica', 'hooker_hit', 'dsd', 'dg_inf', 'prot_unif', 'sdu', 'red_danos', 'cssrs', 'autolesion', 'ptsd', 'derrota_soc']
+    nodes: ['incong_gen', 'competencia_cult', 'racismo_sm', 'carga_alostatica', 'hooker_hit', 'dsd', 'dg_inf', 'prot_unif', 'sdu', 'red_danos', 'cssrs', 'autolesion', 'ptsd', 'derrota_soc']
   },
   draw(Fig) {
     const W = 2300, X = 60, FW = W - 2 * X, FS = 18;
@@ -126,7 +126,7 @@ module.exports = {
     const t2 = F.table({ x: X, y, fs: 18,
       cols: [{ w: 330, label: 'Componente' }, { w: 640, label: 'Contenido' }, { w: 1210, label: 'Qué se sabe' }],
       rows: [
-        [{ t: 'Estresores distales (externos)', node: 'incong_gen' }, 'Discriminación, rechazo, victimización y no afirmación de la identidad de género (Testa 2017).',
+        [{ t: 'Estresores distales (externos)', node: 'estigma' }, 'Discriminación, rechazo, victimización y no afirmación de la identidad de género (Testa 2017).',
           'En 816 adultos trans y de género diverso, todos se asociaron a ideación suicida actual; el rechazo, la no afirmación y la victimización, a través de la transfobia interiorizada y las expectativas negativas (Testa 2017; muestra de conveniencia, transversal).'],
         ['Estresores proximales (internos)', 'Transfobia interiorizada, expectativas negativas y no revelación de la identidad (Testa 2017).',
           '85 estudios transversales: estrés distal, expectativas de rechazo, transfobia interiorizada y ocultación se asociaron a más depresión, ideación e intentos de suicidio; efectos mayores para las expectativas de rechazo y la transfobia interiorizada (Pellicane 2022).'],
