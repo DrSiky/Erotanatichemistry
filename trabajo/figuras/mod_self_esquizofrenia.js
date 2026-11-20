@@ -40,6 +40,7 @@ module.exports = {
       'Sass L, Pienkos E, Nelson B & Medford N (2013). Anomalous self-experience in depersonalization and schizophrenia: a comparative investigation. Conscious Cogn 22:430-441 · PMID 23454432',
       'Sass LA (2014). Self-disturbance and schizophrenia: structure, specificity, pathogenesis (Current issues, New directions). Schizophr Res 152:5-11 · PMID 23773296',
       'Sass L et al. (2018). Varieties of self disorder: a bio-pheno-social model of schizophrenia. Schizophr Bull 44:720-727 · PMID 29529266',
+      'Sass L & Feyaerts J (2024). Schizophrenia, the very idea: on self-disorder, hyperreflexivity, and the diagnostic concept. Schizophr Res 267:473-486 · PMID 38693032',
       'Mishara AL (2007). Missing links in phenomenological clinical neuroscience: why we still are not there yet. Curr Opin Psychiatry 20:559-569 · PMID 17921755',
       'Minkowski E (1927). La schizophrénie: psychopathologie des schizoïdes et des schizophrènes. Paris: Payot. Citado a través de Parnas y Bovet 1991; original [no verificada]',
       'Blankenburg W (1971). Der Verlust der natürlichen Selbstverständlichkeit: ein Beitrag zur Psychopathologie symptomarmer Schizophrenien. Stuttgart: Enke. Citado a través de Parnas y Bovet 1991; original [no verificada]',
@@ -77,13 +78,13 @@ module.exports = {
     yr += 14;
     const aD = stack(0, yr, [
       { id: 'a_mink', node: 'contacto_vital', title: 'Pérdida del contacto vital con la realidad (Minkowski 1927)',
-        text: 'Trastorno generador de la esquizofrenia según Minkowski; el autismo se entiende como fenómeno relacional (sujeto-mundo) y no como mero retraimiento (Parnas y Bovet 1991).' },
+        text: 'Minkowski concibe el autismo como «pérdida del contacto vital con la realidad»; la fenomenología lo entiende como fenómeno relacional (sujeto-mundo), frente al énfasis de Bleuler en el retraimiento (Parnas y Bovet 1991).' },
       { id: 'a_blank', node: 'blankenburg', title: 'Pérdida de la evidencia natural (Blankenburg 1971)',
         text: '«Crisis global del sentido común» (Parnas y Bovet 1991); reformulada como desconexión del sentido común: falta de sintonización intuitiva con los demás y daño de la red de conocimiento social (Stanghellini 2000).' }
     ], 'dx');
     const aI = stack(1, yr, [
       { id: 'a_eawe', node: 'ease_ins', title: 'EAWE (Sass et al. 2017)',
-        text: 'Entrevista semiestructurada de la experiencia del mundo vivido: 75 ítems en 6 dominios (espacio y objetos, tiempo y acontecimientos, otras personas, lenguaje, atmósfera, orientación existencial). La «atmósfera» recoge el sentido global de realidad, familiaridad, vitalidad, significado o relevancia (Sass 2017). Ni Minkowski ni Blankenburg tienen instrumento propio.' }
+        text: 'Entrevista semiestructurada de la experiencia del mundo vivido: 75 ítems en 6 dominios (espacio y objetos, tiempo y acontecimientos, otras personas, lenguaje, atmósfera, orientación existencial). La «atmósfera» recoge el sentido global de realidad, familiaridad, vitalidad, significado o relevancia. Se basa en la tradición de la psicopatología fenomenológica (Sass 2017).' }
     ], 'act');
     const aE = stack(2, yr, [
       { id: 'a_ev', node: 'fen_contemp', title: 'Evidencia escasa y reciente',
@@ -98,7 +99,7 @@ module.exports = {
     yr = y + 14;
     const bD = stack(0, yr, [
       { id: 'b_hub', node: 'bsabs', title: 'Síntomas básicos (Huber)',
-        text: 'Alteraciones subjetivas, subclínicas, del pensamiento, la percepción y otras funciones, que la persona vive y comunica como deficiencias que puede afrontar y compensar; se llaman «básicos» porque serían la base de la sintomatología psicótica productiva (Huber y Gross 1989; Schultze-Lutter 2009).' }
+        text: 'Alteraciones subjetivas y subclínicas (p. ej., interferencia del pensamiento, alteraciones del lenguaje receptivo, distorsiones visuales; Klosterkötter 2001) que la persona vive y comunica como deficiencias que puede afrontar y compensar; se llaman «básicos» porque serían la base de la sintomatología psicótica productiva (Huber y Gross 1989; Schultze-Lutter 2009).' }
     ], 'dx');
     const bI = stack(1, yr, [
       { id: 'b_bsabs', node: 'bsabs', title: 'BSABS (Gross et al. 1987) y SPI-A (Schultze-Lutter 2007)',
@@ -119,13 +120,13 @@ module.exports = {
       { id: 'c_self', node: 'selfips', title: 'Esquizofrenia como trastorno del self (Sass y Parnas 2003)',
         text: 'Alteración básica de la conciencia que subyace y antecede a los síntomas positivos, negativos y de desorganización, con dos distorsiones complementarias del acto de conciencia (Sass y Parnas 2003). Descripción clínica de las anomalías no psicóticas en fases prodrómicas y en el trastorno esquizotípico: Parnas y Handest 2003.' },
       { id: 'c_hip', node: 'hiperf', title: 'Componente 1: hiperreflexividad',
-        text: 'Autoconciencia exagerada en la que aspectos de uno mismo se viven como objetos externos (Sass y Parnas 2003).' },
+        text: 'Formas de autoconciencia exagerada en las que aspectos de uno mismo se viven como si fueran objetos externos (Sass y Parnas 2003).' },
       { id: 'c_aut', node: 'ipsei', title: 'Componente 2: disminución de la autoafección (presencia de sí)',
-        text: 'Sentido debilitado de existir como fuente vital de la propia conciencia y acción (Sass y Parnas 2003). Revisión de 2018: se añade la alteración del «asidero» (grip) sobre la realidad (Sass 2018).' }
+        text: 'Sentido debilitado de existir como fuente vital de la propia conciencia y acción (Sass y Parnas 2003). Se acompaña de una alteración del «asidero» (grip o hold) sobre el mundo, ya presente en la formulación de 2003 (Sass y Parnas 2003; Sass y Feyaerts 2024).' }
     ], 'dx');
     const cI = stack(1, yr, [
       { id: 'c_ease', node: 'ease_ins', title: 'EASE (Parnas et al. 2005)',
-        text: 'Lista semiestructurada de 57 ítems en 5 dominios: corriente de conciencia, presencia e identidad básica, experiencia corporal, demarcación («límites del yo») y reorientación existencial (Nordgaard y Parnas 2014). Entrevista en profundidad: la persona describe con sus palabras y quien entrevista juzga si corresponde al fenómeno.' }
+        text: 'Lista de comprobación de inspiración fenomenológica (Møller 2011): 57 ítems en 5 dominios solapados: corriente de conciencia, presencia e identidad básica, experiencia corporal, demarcación («límites del yo») y reorientación existencial (Nordgaard y Parnas 2014). Se aplica mediante entrevista en la que la persona describe sus experiencias con sus palabras [fuente no localizada].' }
     ], 'act');
     const cE = stack(2, yr, [
       { id: 'c_fiab', node: 'pep', title: 'Fiabilidad',
@@ -143,23 +144,23 @@ module.exports = {
     y = F.band(y, 'Relación con el alto riesgo clínico de psicosis (CHR): qué añaden las anomalías del self', { n: 2 }) + 30;
     const RW = 520, RG = 50, rx = i => L + i * (RW + RG);
     const r1 = F.box('r_chr', { x: rx(0), y, w: RW, type: 'dx', fs: FS, align: 'left', node: 'urh', title: 'Alto riesgo clínico (CHR-P)',
-      text: 'Criterios de riesgo ultra-alto (CAARMS, SIPS) y criterio COGDIS (EPA). Riesgo acumulado de transición: 15 % al año, 25 % a los 3 años y 28 % pasados 4 años (130 estudios, 9222 personas; Salazar de Pablo 2021), inferior al 22 % y 36 % estimados en 2012 (Fusar-Poli 2012).' });
+      text: 'Criterios de riesgo ultra-alto (CAARMS, SIPS) y criterio COGDIS (EPA). Riesgo acumulado de transición: 15 % al año, 25 % a los 3 años y 28 % pasados 4 años (130 estudios, 9222 personas; Salazar de Pablo 2021), inferior al 22 % al año y 36 % a los 3 años estimados en 2012 (Fusar-Poli 2012).' });
     const r2 = F.box('r_nel', { x: rx(1), y, w: RW, type: 'info', fs: FS, align: 'left', node: 'caarms_sips', title: 'Las anomalías del self dentro del CHR',
       text: '49 personas en riesgo ultra-alto y 52 controles, seguimiento medio de 569 días: la EASE total predijo el tiempo hasta la transición controlando otros predictores (p < 0,05) (Nelson 2012). 47 jóvenes de 14-25 años en servicios comunitarios: se agregan en quienes cumplen CHR y, combinadas con él, delimitan un subgrupo con peor funcionamiento (Raballo 2016). CHR frente a controles sanos, g = 2,0 (Raballo 2021).' });
-    const r3 = F.box('r_pred', { x: rx(2), y, w: RW, type: 'info', fs: FS, align: 'left', node: 'aper', title: 'Predicen el espectro, no solo la psicosis',
-      text: 'Estudio prodrómico de Copenhague: 151 primeros ingresos seguidos 60 meses, 37 % de conversión al espectro; la perplejidad y las anomalías del self basales fueron los mejores predictores (Parnas 2011). 39 adolescentes consultantes no psicóticos, 7 años: 9 (23,1 %) con trastorno del espectro, predicho por las anomalías del self y no por los síntomas prodrómicos (Koren 2020).' });
+    const r3 = F.box('r_pred', { x: rx(2), y, w: RW, type: 'info', fs: FS, align: 'left', node: 'esqtpersonalidad', title: 'Predicen el espectro, no solo la psicosis',
+      text: 'Estudio prodrómico de Copenhague: 151 primeros ingresos en posible fase inicial de psicosis, seguidos 60 meses, 37 % de conversión al espectro; la perplejidad y las anomalías del self basales fueron los mejores predictores (Parnas 2011). 39 adolescentes consultantes no psicóticos, 7 años: 9 (23,1 %) con trastorno del espectro, predicho por las anomalías del self y no por los síntomas prodrómicos (Koren 2020).' });
     const r4 = F.box('r_esq', { x: rx(3), y, w: W - 60 - rx(3), type: 'dx', fs: FS, align: 'left', node: 'esq', title: 'Espectro de la esquizofrenia',
       text: 'Esquizofrenia y trastorno esquizotípico con niveles similares de anomalías del self (Nordgaard y Parnas 2014). De 40 personas con trastorno esquizotípico, 10 pasaron a esquizofrenia en 5 años, todas con anomalías del self basales: los autores lo leen como fluctuación dentro de un mismo trastorno (Nordgaard 2021).' });
     const rh = Math.max(r1.h, r2.h, r3.h, r4.h); [r1, r2, r3, r4].forEach(b => { b.h = rh; });
     F.arrow(r1, r2, { from: 'r', to: 'l' }); F.arrow(r2, r3, { from: 'r', to: 'l' }); F.arrow(r3, r4, { from: 'r', to: 'l' });
     y = r1.y + rh + 30;
     const SW = (W - 120 - 2 * 30) / 3, sx = i => L + i * (SW + 30);
-    const s1 = F.box('s_est', { x: sx(0), y, w: SW, type: 'info', fs: FS, align: 'left', node: 'proceso_desarrollo', title: 'Rasgo estable, no estado',
+    const s1 = F.box('s_est', { x: sx(0), y, w: SW, type: 'info', fs: FS, align: 'left', node: 'selfips', title: 'Rasgo estable, no estado',
       text: 'Persistencia elevada a 5 años en 96 primeros ingresos con una escala precursora de 25 ítems (Nordgaard 2017) y en 48 pacientes con la EASE completa, cuyo nivel basal predijo la evolución sintomática pero no la funcional (Nordgaard 2018); correlación de 0,64 entre adolescencia y juventud (Koren 2020).' });
     const s2 = F.box('s_gen', { x: sx(1), y, w: SW, type: 'info', fs: FS, align: 'left', node: 'meehl', title: 'Vulnerabilidad sin psicosis',
       text: '218 familiares no afectados de 6 familias multiplex: las anomalías del self aumentan de forma gradual desde quienes no tienen trastorno hasta el trastorno esquizotípico de la personalidad, con independencia de los síntomas negativos y del trastorno formal del pensamiento subclínicos (Raballo y Parnas 2011).' });
-    const s3 = F.box('s_uso', { x: sx(2), y, w: SW, type: 'act', fs: FS, align: 'left', node: 'esqtclin', title: 'Qué se propone para la práctica',
-      text: 'Explorar las anomalías del self en quien cumple criterios CHR para «estrechar» el grupo y reducir falsos positivos (Nelson 2012; Raballo 2016), y como complemento de la evaluación clínica habitual en el inicio de la psicosis (Møller 2011). La guía de la EPA recomienda los criterios de riesgo ultra-alto y COGDIS, no la EASE (Schultze-Lutter 2015).' });
+    const s3 = F.box('s_uso', { x: sx(2), y, w: SW, type: 'act', fs: FS, align: 'left', node: 'ease_ins', title: 'Qué se propone para la práctica',
+      text: 'Explorar las anomalías del self en quien cumple criterios CHR para «estrechar» el grupo y reducir falsos positivos (Nelson 2012; Raballo 2016), y como complemento de la evaluación clínica habitual en el inicio de la psicosis (Møller 2011). La guía de la EPA basa la detección del alto riesgo en los criterios de riesgo ultra-alto y de síntomas básicos (COGDIS); las anomalías del self no forman parte de esos criterios (Schultze-Lutter 2015).' });
     const sh = Math.max(s1.h, s2.h, s3.h); [s1, s2, s3].forEach(b => { b.h = sh; });
     y = s1.y + sh + 60;
 
@@ -172,17 +173,17 @@ module.exports = {
       F.box('v_esp', { x: vx(1), y, w: VW, type: 'info', fs: FS, align: 'left', node: 'extranamiento', title: 'Especificidad relativa',
         text: 'En informes publicados de manía, depresión psicótica, despersonalización e introspección intensa aparecen alienación de pensamientos y cuerpo y desvanecimiento del self y del mundo; faltaría la erosión grave del self mínimo (Sass 2014). Estudios exploratorios, no comparaciones clínicas directas.' }),
       F.box('v_noso', { x: vx(2), y, w: VW, type: 'info', fs: FS, align: 'left', node: 'psaten', title: 'Lugar en las clasificaciones',
-        text: 'Las anomalías del self no forman parte de los criterios del DSM-5-TR ni de la CIE-11 [fuente no localizada]. La CIE-11 incluye el trastorno esquizotípico (6A22) en el bloque de esquizofrenia y otros trastornos psicóticos primarios, junto a la esquizofrenia (6A20) (OMS, CIE-11 MMS). El DSM-5-TR recoge el síndrome de psicosis atenuada en la Sección III [no verificada].' }),
+        text: 'Ni el DSM-5-TR ni la CIE-11 incluyen las anomalías del self básico medidas con la EASE como criterio diagnóstico [fuente no localizada]. La CIE-11 incluye el trastorno esquizotípico (6A22) en el bloque de esquizofrenia y otros trastornos psicóticos primarios, junto a la esquizofrenia (6A20) (OMS, CIE-11 MMS). El DSM-5-TR recoge el síndrome de psicosis atenuada en la Sección III [no verificada].' }),
       F.box('v_crit', { x: vx(3), y, w: VW, type: 'info', fs: FS, align: 'left', node: 'husserl', title: 'Críticas al modelo',
-        text: 'Las pretensiones de que el modelo hiperreflexividad-ipseidad restrinja la neurociencia son injustificadas, y la corriente cita fuera de contexto a Binswanger, Blankenburg y von Weizsäcker (Mishara 2007). Los propios autores revisan el modelo: factores primarios y secundarios, trauma y cultura, y solapamiento con trastornos disociativos y de pánico (Sass 2018).' })
+        text: 'Mishara (2007) considera injustificadas las pretensiones optimistas de que conceptos como el modelo hiperreflexividad-ipseidad restrinjan la neurociencia, y señala que esta corriente descuida o cita fuera de contexto a Binswanger, Blankenburg y von Weizsäcker. Los propios autores revisan el modelo: factores primarios y secundarios, trauma y cultura, y solapamiento con la despersonalización, la desrealización y el trastorno de pánico (Sass 2018).' })
     ];
     const vh = Math.max(...v.map(b => b.h)); v.forEach(b => { b.h = vh; });
     y = v[0].y + vh + 44;
 
     F.box('lim', { x: L, y, w: W - 120, type: 'lim', align: 'left', fs: 19, title: 'Límites de esta figura',
-      text: 'Esquema docente, no instrumento diagnóstico: no sustituye al juicio clínico ni a la exploración psicopatológica. La EASE, la EAWE y la SPI-A exigen formación específica [fuente no localizada] y no ofrecen puntos de corte validados para decisiones individuales [fuente no localizada]. Gran parte de la evidencia procede de pocos grupos de investigación (sobre todo de Copenhague, Melbourne, Italia y Bonn-Colonia), con muestras pequeñas y evaluadores formados por los autores de los instrumentos. Los valores predictivos de Klosterkötter (2001) proceden de una población derivada con una probabilidad previa cercana al 50 % y no se trasladan a la población general. Las descripciones de Minkowski y Blankenburg se citan a través de fuentes secundarias indexadas; sus obras originales no se han cotejado. Ninguna de estas anomalías justifica por sí sola un diagnóstico ni un tratamiento antipsicótico.' });
+      text: 'Esquema docente, no instrumento diagnóstico: no sustituye al juicio clínico ni a la exploración psicopatológica. La fiabilidad de la EASE se ha establecido entre entrevistadores formados (Nordgaard y Parnas 2014); la EASE, la EAWE y la SPI-A no ofrecen puntos de corte validados para decisiones individuales [fuente no localizada]. Gran parte de la evidencia procede de pocos grupos de investigación (sobre todo de Copenhague, Melbourne, Italia y Bonn-Colonia) y de muestras pequeñas. Los valores predictivos de Klosterkötter (2001) proceden de una población derivada con una probabilidad previa cercana al 50 % y no se trasladan a la población general. Las descripciones de Minkowski y Blankenburg se citan a través de fuentes secundarias indexadas; sus obras originales no se han cotejado. Ninguna de estas anomalías justifica por sí sola un diagnóstico ni un tratamiento antipsicótico.' });
 
-    F.footer('Fuentes: Sass y Parnas 2003 (PMID 14609238); Parnas y Handest 2003 (12658621); Parnas 2005, EASE (16179811); Sass 2017, EAWE (28268224); Conerty 2017 (28095382); Madeira 2019 (31307860); Parnas y Bovet 1991 (2001623); Stanghellini 2000 (11087011); Huber y Gross 1989 (2697899); Schultze-Lutter 2009 (19074497), 2012 (22239566) y 2015, guía EPA (25735810); Klosterkötter 2001 (11177117); Møller 2011 (21847006); Nordgaard y Parnas 2014 (24476579); Haug 2012 (22759943); Raballo 2021 (33479736); Henriksen 2021 (34688345); Nelson 2012 (22349924); Raballo 2016 (26757754); Parnas 2011 (21991279); Koren 2020 (31889574); Raballo y Parnas 2011 (20176859); Nordgaard 2017 (27720316), 2018 (28865064) y 2021 (34392248); Salazar de Pablo 2021 (34259821); Fusar-Poli 2012 (22393215); Sass 2013 (23454432), 2014 (23773296) y 2018 (29529266); Mishara 2007 (17921755); CIE-11 MMS (OMS). Esquema docente de apoyo; no sustituye al juicio clínico.');
+    F.footer('Fuentes: Sass y Parnas 2003 (PMID 14609238); Parnas y Handest 2003 (12658621); Parnas 2005, EASE (16179811); Sass 2017, EAWE (28268224); Conerty 2017 (28095382); Madeira 2019 (31307860); Parnas y Bovet 1991 (2001623); Stanghellini 2000 (11087011); Huber y Gross 1989 (2697899); Schultze-Lutter 2009 (19074497), 2012 (22239566) y 2015, guía EPA (25735810); Klosterkötter 2001 (11177117); Møller 2011 (21847006); Nordgaard y Parnas 2014 (24476579); Haug 2012 (22759943); Raballo 2021 (33479736); Henriksen 2021 (34688345); Nelson 2012 (22349924); Raballo 2016 (26757754); Parnas 2011 (21991279); Koren 2020 (31889574); Raballo y Parnas 2011 (20176859); Nordgaard 2017 (27720316), 2018 (28865064) y 2021 (34392248); Salazar de Pablo 2021 (34259821); Fusar-Poli 2012 (22393215); Sass 2013 (23454432), 2014 (23773296) y 2018 (29529266); Sass y Feyaerts 2024 (38693032); Mishara 2007 (17921755); CIE-11 MMS (OMS). Esquema docente de apoyo; no sustituye al juicio clínico.');
     return F;
   }
 };

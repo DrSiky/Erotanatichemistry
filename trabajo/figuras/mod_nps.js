@@ -75,7 +75,6 @@ module.exports = {
     const b3 = F.box('lect', { x: X + 2 * (CW3 + 30), y, w: CW3, type: 'act', fs: 19, align: 'left', node: 'tcs', title: 'Cómo usar la matriz',
       text: 'Primero el síndrome dominante (simpaticomimético, depresor, disociativo o alucinógeno-serotoninérgico); después la familia probable; después el riesgo propio de esa familia (potencia, adulteración, abstinencia) y el principio de manejo. La confirmación analítica es retrospectiva y, para muchas NPS, no está disponible en el laboratorio asistencial (Armenian 2018; Gameli 2024): la decisión clínica no la espera.' });
     const h1 = Math.max(b1.h, b2.h, b3.h); [b1, b2, b3].forEach(b => { b.h = h1; });
-    F.arrow(b2, b3, { from: 'r', to: 'l' });
     y = b1.y + h1 + 46;
 
     // ───────── 2. Matriz de familias
