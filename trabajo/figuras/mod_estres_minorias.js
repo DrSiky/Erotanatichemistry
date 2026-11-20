@@ -26,7 +26,8 @@ module.exports = {
       'Marshal MP et al. (2008). Sexual orientation and adolescent substance use: a meta-analysis and methodological review. Addiction 103:546-556 · PMID 18339100',
       'di Giacomo E et al. (2018). Estimating the risk of attempted suicide among sexual minority youths: a systematic review and meta-analysis. JAMA Pediatr 172:1145-1152 · PMID 30304350',
       'Plöderl M & Tremblay P (2015). Mental health of sexual minorities. A systematic review. Int Rev Psychiatry 27:367-385 · PMID 26552495',
-      'Kohnepoushi P et al. (2023). Prevalence of suicidal thoughts and attempts in the transgender population of the world: a systematic review and meta-analysis. Ann Gen Psychiatry 22:28 · PMID 37543583',
+      'Symes ER, Santo T Jr, Sutherland R, Lynch M, Taylor S, Lewis P & Degenhardt L (2026). Prevalence of mental health outcomes among trans and gender diverse adults: a global systematic review and meta-analysis. Psychol Med 56:e324 · PMID 42847484',
+      'Dolezal ML, Decker M & Littleton H (2023). Examining the second-order factor structure of the Gender Minority Stress and Resilience Scale. J Interpers Violence 38:12233-12244 · PMID 37553879',
       'Maxwell S, Shahmanesh M & Gafos M (2019). Chemsex behaviours among men who have sex with men: a systematic review of the literature. Int J Drug Policy 63:74-89 · PMID 30513473',
       'Lafortune D et al. (2021). Psychological and interpersonal factors associated with sexualized drug use among men who have sex with men: a mixed-methods systematic review. Arch Sex Behav 50:427-460 · PMID 33108566',
       'Turban JL, Beckwith N, Reisner SL & Keuroghlian AS (2020). Association between recalled exposure to gender identity conversion efforts and psychological distress and suicide attempts among transgender adults. JAMA Psychiatry 77:68-76 · PMID 31509158',
@@ -59,7 +60,7 @@ module.exports = {
     const y0 = y;
     const c1 = col(cx(0), y0, CW, '1 · Estigma estructural', [
       ['s1', { type: 'info', node: 'estigma', title: 'Leyes y políticas discriminatorias',
-        text: 'Tras las prohibiciones del matrimonio entre personas del mismo sexo de 2004-2005 en EE. UU., aumentaron en las personas LGB de esos estados los trastornos del ánimo (36,6 %), la ansiedad generalizada (248,2 %) y los trastornos por alcohol (41,9 %); no en los demás estados ni en las personas heterosexuales (Hatzenbuehler 2010; estudio prospectivo poblacional).' }],
+        text: 'Tras las prohibiciones del matrimonio entre personas del mismo sexo de 2004-2005 en EE. UU., aumentaron en las personas LGB de esos estados los trastornos del ánimo (36,6 %), la ansiedad generalizada (248,2 %) y los trastornos por alcohol (41,9 %); no aumentaron de forma significativa en los demás estados ni en la misma magnitud en las personas heterosexuales (Hatzenbuehler 2010; estudio prospectivo poblacional).' }],
       ['s2', { type: 'info', node: 'determ_soc_sm', title: 'Políticas protectoras',
         text: 'La aprobación del matrimonio igualitario se asoció a 0,6 puntos porcentuales menos de intentos de suicidio en secundaria (7 % relativo), concentrados en el alumnado de minorías sexuales (Raifman 2017; 762 678 estudiantes; diferencias en diferencias).' }]
     ]);
@@ -75,7 +76,7 @@ module.exports = {
       ['p1', { type: 'dx', node: 'hipervig', title: 'Expectativa de rechazo',
         text: 'Anticipar el rechazo por la identidad estigmatizada (Meyer 2003). En personas trans, junto con la transfobia interiorizada, el estresor con mayor asociación a depresión y suicidalidad (Pellicane 2022).' }],
       ['p2', { type: 'dx', title: 'Ocultación',
-        text: '193 estudios (n = 92 236): asociación pequeña con problemas internalizantes (r = 0,126) y pequeña e inversa con problemas de consumo (r = −0,061): ocultar protege de la discriminación pero aísla (Pachankis 2020).' }],
+        text: '193 estudios (n = 92 236): asociación pequeña con problemas internalizantes (r = 0,126) y pequeña e inversa con problemas de consumo (r = −0,061): ocultar puede generar el estrés de esconderse, proteger de la discriminación y alejar de la comunidad y sus apoyos (Pachankis 2020).' }],
       ['p3', { type: 'dx', node: 'genero', title: 'Homofobia o transfobia interiorizada',
         text: '31 estudios (n = 5831): efecto pequeño a moderado sobre depresión y ansiedad, mayor sobre la depresión (Newcomb 2010).' }]
     ]);
@@ -84,13 +85,13 @@ module.exports = {
       ['m2', { type: 'mec', node: 'soledad', title: 'Problemas sociales e interpersonales', text: 'aislamiento social' }],
       ['m3', { type: 'mec', node: 'indefension', title: 'Procesos cognitivos', text: 'desesperanza, baja autoestima' }],
       ['m4', { type: 'info', title: 'Procesos comunes a todas las personas',
-        text: 'El estrés ligado al estigma los eleva y ellos median su efecto; son dianas tratables con TCC (Hatzenbuehler 2009).' }]
+        text: 'El estrés ligado al estigma los eleva y ellos median su efecto; son susceptibles de intervención, p. ej., con TCC (Hatzenbuehler 2009).' }]
     ], 20);
     const c5 = col(cx(4), y0, CW, '5 · Consecuencias (bloque 3)', [
       ['o1', { type: 'dx', node: 'ddm', title: 'Depresión' }],
       ['o2', { type: 'dx', node: 'tag', title: 'Trastornos de ansiedad' }],
       ['o3', { type: 'warn', node: 'ideac_suic', title: 'Ideación e intentos de suicidio' }],
-      ['o4', { type: 'dx', node: 'tcs', title: 'Consumo de alcohol y otras sustancias', text: 'el alcohol, con resultados dispares en hombres (Plöderl 2015)' }],
+      ['o4', { type: 'dx', node: 'tcs', title: 'Consumo de alcohol y otras sustancias', text: 'en el alcohol, muchos estudios no hallan diferencias o las hallan inversas, sobre todo en hombres (Plöderl 2015)' }],
       ['o5', { type: 'dx', node: 'chemsex_s', title: 'Chemsex',
         text: 'en hombres GBHSH; entre sus motivos, afrontar emociones dolorosas o estrés y buscar pertenencia (Lafortune 2021)' }]
     ]);
@@ -118,7 +119,7 @@ module.exports = {
     F.arrow(rg, c3, { from: 't', to: 'b', fa: (cx(2) + CW / 2 - X) / rg.w, dash: true, label: 'amortigua' });
     F.arrow(rg, c4, { from: 't', to: 'b', fa: (cx(3) + CW / 2 - X) / rg.w, dash: true, label: 'amortigua' });
     const n5 = F.box('n5', { x: cx(4), y, w: CW, type: 'info', fs: 17, title: 'Interseccionalidad',
-      text: 'Las personas bisexuales son el subgrupo de mayor riesgo en la mayoría de los estudios (Plöderl 2015). El rechazo familiar fue mayor en hombres latinos (Ryan 2009).' });
+      text: 'Las personas bisexuales presentan el mayor riesgo en la mayoría de los estudios (Plöderl 2015). Los hombres latinos refirieron más reacciones familiares de rechazo (Ryan 2009).' });
     y = Math.max(rg.y + rg.h, n5.y + n5.h) + 60;
 
     // ---------- Bloque 2 ----------
@@ -132,8 +133,8 @@ module.exports = {
           '85 estudios transversales: estrés distal, expectativas de rechazo, transfobia interiorizada y ocultación se asociaron a más depresión, ideación e intentos de suicidio; efectos mayores para las expectativas de rechazo y la transfobia interiorizada (Pellicane 2022).'],
         [{ t: 'Vía interpersonal', node: 'ideac_suic' }, 'Pertenencia frustrada y sensación de ser una carga (teoría interpersonal del suicidio).',
           'Median la relación de la transfobia interiorizada y las expectativas negativas con la ideación suicida (Testa 2017).'],
-        [{ t: 'Resiliencia', node: 'wpath_soc8' }, 'Apoyo de iguales, apoyo familiar, orgullo identitario y afirmación de género.',
-          'Apoyo de otras personas trans como moderador (Bockting 2013); nombre elegido (Russell 2018). La escala GMSR incluye también factores de resiliencia (Testa 2015) [componentes no cotejados en el texto original].']
+        [{ t: 'Resiliencia', node: 'wpath_soc8' }, 'En la escala GMSR, orgullo y conexión comunitaria (Testa 2015, descrita en Dolezal 2023); otros estudios añaden apoyo de iguales y familiar, y afirmación de género.',
+          'Apoyo de otras personas trans como moderador entre estigma y malestar (Bockting 2013); uso del nombre elegido (Russell 2018).']
       ] });
     y = t2.y + 60;
 
@@ -147,10 +148,10 @@ module.exports = {
         [{ t: 'Dependencia de alcohol y otras sustancias', node: 'alcohol' }, 'Mismo metaanálisis; 12 meses.', 'RR 1,51-4,00; en mujeres lesbianas y bisexuales, alcohol RR 4,00 y drogas RR 3,50.', 'King 2008'],
         [{ t: 'Suicidalidad y depresión en la adolescencia', node: 'suic_adol' }, 'Metaanálisis de estudios con edad media inferior a 18 años.', 'Suicidalidad OR 2,92, creciente con la gravedad: ideación 1,96; intentos 3,18; intentos con atención médica 4,17. Síntomas depresivos d = 0,33.', 'Marshal 2011'],
         ['Intentos de suicidio en la adolescencia por subgrupo', '35 estudios; adolescentes de minorías sexuales (113 468) frente a heterosexuales (2 378 987).', 'OR 3,50 global; 3,71 homosexuales; 4,87 bisexuales; 5,87 jóvenes trans (un solo estudio).', 'di Giacomo 2018'],
-        [{ t: 'Consumo de sustancias en la adolescencia', node: 'tcs' }, '18 estudios; casi ninguno controló factores de confusión.', 'OR 2,89; mayor en bisexuales y en chicas.', 'Marshal 2008'],
+        [{ t: 'Consumo de sustancias en la adolescencia', node: 'tcs' }, '18 estudios; muy pocos controlaron factores de confusión.', 'OR 2,89; mayor en bisexuales y en chicas.', 'Marshal 2008'],
         ['Subgrupos y excepciones', '199 estudios de varias regiones y etapas vitales.', 'Riesgo mayor de depresión, ansiedad, suicidio y problemas por sustancias en la mayoría; bisexuales, el subgrupo de mayor riesgo; alcohol: efectos nulos o inversos en muchos estudios, sobre todo en hombres.', 'Plöderl 2015'],
-        [{ t: 'Personas trans: depresión y ansiedad', node: 'tag' }, '1093 personas trans; muestra en línea de EE. UU. (2003), sin grupo de comparación.', 'Depresión clínica 44,1 %; ansiedad 33,2 %; somatización 27,5 %.', 'Bockting 2013'],
-        ['Personas trans: conducta suicida', '65 estudios transversales de distintos países (1990-2022), sin grupo de comparación.', 'Ideación a lo largo de la vida 50 % (IC 95 % 42-57 %); intentos a lo largo de la vida 29 % (25-34 %).', 'Kohnepoushi 2023'],
+        [{ t: 'Personas trans adultas: depresión, ansiedad y TEPT', node: 'tag' }, '207 estudios; 134 071 personas trans y de género diverso de 52 países; sin grupo de comparación propio.', 'Depresión 40,1 % (IC 95 % 35,6-44,8); ansiedad 29,8 % (20,3-40,2); TEPT 23,6 % (14,9-33,5); síntomas por encima del umbral de cribado o diagnóstico clínico.', 'Symes 2026'],
+        [{ t: 'Personas trans adultas: conducta suicida y autolesiones', node: 'autolesion' }, 'Mismo metaanálisis; últimos 12 meses, autoinforme.', 'Ideación 43,1 % (38,9-47,3); intentos 9,3 % (7,7-11,0); autolesiones no suicidas 26,1 % (20,4-32,2); superiores a las estimaciones de la población general.', 'Symes 2026'],
         [{ t: 'Chemsex', node: 'chemsex_ssex' }, '38 estudios en HSH de países de renta alta.', 'Prevalencias muy heterogéneas según el muestreo; más frecuente en HSH con VIH; más sexo anal sin preservativo.', 'Maxwell 2019']
       ] });
     y = t3.y + 12;
@@ -170,8 +171,8 @@ module.exports = {
     eq(row1);
     y += row1[0].h + 34;
     const row2 = [
-      F.box('w1', { x: ix(0), y, w: IW, type: 'warn', fs: FS, node: 'ecosieg', title: 'Terapias de conversión: dañinas y prohibidas',
-        text: 'En 27 715 personas trans, el 19,6 % de quienes habían hablado de su identidad con un profesional refirió esfuerzos de conversión; se asociaron a malestar psicológico grave (ORa 1,56) y a intentos de suicidio (ORa 2,27; 4,15 si fueron antes de los 10 años) (Turban 2020; transversal). La Ley 4/2023 las prohíbe incluso con consentimiento (art. 17); promoverlas o practicarlas es infracción muy grave (art. 79.4.d), con multa de 10 001 a 150 000 € (art. 80.3).' }),
+      F.box('w1', { x: ix(0), y, w: IW, type: 'warn', fs: FS, node: 'ecosieg', title: 'Prácticas de conversión: dañinas y prohibidas',
+        text: 'Las llamadas «terapias de conversión» no tratan ningún trastorno. En 27 715 personas trans, el 19,6 % de quienes habían hablado de su identidad con un profesional refirió esfuerzos de conversión; frente a otras terapias, se asociaron a malestar psicológico grave (ORa 1,56) y a intentos de suicidio (ORa 2,27; 4,15 si fueron antes de los 10 años) (Turban 2020; transversal). La Ley 4/2023 prohíbe las dirigidas a modificar la orientación, la identidad sexual o la expresión de género, incluso con consentimiento (art. 17); promoverlas o practicarlas es infracción muy grave (art. 79.4.d), con multa de 10 001 a 150 000 € (art. 80.3).' }),
       F.box('i4', { x: ix(1), y, w: IW, type: 'info', fs: FS, align: 'left', node: 'homosex_hist', title: 'Despatologización',
         text: 'La Asociación Americana de Psiquiatría retiró la homosexualidad del DSM-II en 1973 (Drescher 2015). La CIE-11 sitúa la incongruencia de género (HA60, HA61) en el capítulo 17, «Afecciones relacionadas con la salud sexual», fuera de los trastornos mentales (CIE-11 MMS).' }),
       F.box('i5', { x: ix(2), y, w: IW, type: 'act', fs: FS, align: 'left', node: 'chemsex_atencion', title: 'Chemsex y consumo sin estigma',
@@ -180,9 +181,9 @@ module.exports = {
     eq(row2);
     y += row2[0].h + 50;
     F.box('lim', { x: X, y, w: FW, type: 'lim', fs: FS, align: 'left', title: 'Límites',
-      text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico. La mayor parte de la evidencia es transversal, de autoinforme, con muestras de conveniencia y estadounidense, lo que impide afirmar causalidad y expone a sesgos de selección y de recuerdo; las excepciones parciales son el estudio prospectivo de Hatzenbuehler 2010 y el diseño cuasiexperimental de Raifman 2017. Los tamaños de efecto de los procesos proximales son pequeños (Pachankis 2020; Newcomb 2010). Las personas bisexuales, trans, no binarias e intersexuales, las mujeres y las minorías étnicas están infrarrepresentadas, y la evidencia sobre chemsex se limita a HSH. La prevalencia de conducta suicida en personas trans procede solo de estudios transversales sin grupo de comparación (Kohnepoushi 2023). Las cifras describen diferencias entre grupos, no el riesgo de cada persona.' });
+      text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico. La mayor parte de la evidencia es transversal, de autoinforme, con muestras de conveniencia y estadounidense, lo que impide afirmar causalidad y expone a sesgos de selección y de recuerdo; las excepciones parciales son el estudio prospectivo de Hatzenbuehler 2010 y el diseño cuasiexperimental de Raifman 2017. Los tamaños de efecto de los procesos proximales son pequeños (Pachankis 2020; Newcomb 2010). Se necesitan muestras más diversas y representativas (Pellicane 2022); hay pocos datos sobre personas no binarias (Symes 2026) e intersexuales, y las revisiones sobre chemsex citadas se limitan a HSH. Las prevalencias en personas trans carecen de grupo de comparación propio y varían según el método de evaluación, el reclutamiento y la región (Symes 2026). Las cifras describen diferencias entre grupos, no el riesgo de cada persona.' });
 
-    F.footer('Fuentes principales: Meyer 2003; Hatzenbuehler 2009 y 2010; Testa 2015 y 2017; Pellicane 2022; Raifman 2017; Ryan 2009 y 2010; Pachankis 2015 y 2020; Newcomb 2010; Bockting 2013; Russell 2018; King 2008; Marshal 2008 y 2011; di Giacomo 2018; Plöderl 2015; Kohnepoushi 2023; Maxwell 2019; Lafortune 2021; Turban 2020; APA 2012 y 2015; Drescher 2015; CIE-11 (OMS); Ley 4/2023 (BOE-A-2023-5366). Esquema docente: no sustituye al juicio clínico.');
+    F.footer('Fuentes principales: Meyer 2003; Hatzenbuehler 2009 y 2010; Testa 2015 y 2017; Pellicane 2022; Raifman 2017; Ryan 2009 y 2010; Pachankis 2015 y 2020; Newcomb 2010; Bockting 2013; Russell 2018; King 2008; Marshal 2008 y 2011; di Giacomo 2018; Plöderl 2015; Symes 2026; Dolezal 2023; Maxwell 2019; Lafortune 2021; Turban 2020; APA 2012 y 2015; Drescher 2015; CIE-11 (OMS); Ley 4/2023 (BOE-A-2023-5366). Esquema docente: no sustituye al juicio clínico.');
     return F;
   }
 };

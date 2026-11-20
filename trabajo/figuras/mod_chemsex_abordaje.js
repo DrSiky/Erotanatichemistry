@@ -152,7 +152,7 @@ module.exports = {
     const gb = bot(lv2[0]) + 18;
     F.group({ x: X, y: gy, w: IW, h: gb - gy, fill: '#fafaf7' });
     lv1.forEach((b, i) => F.arrow(entry, b, { from: 'b', to: 't' }));
-    F.arrow(entry, urg, { from: 'r', to: 'l', label: 'Alarma' });
+    F.arrow(entry, urg, { from: 'r', to: 'l', label: 'Urgencia' });
     y = gb + 46;
 
     // ───────── 5. Principios
@@ -166,7 +166,7 @@ module.exports = {
     eqH(...p);
     y = bot(p[0]) + 40;
 
-    F.box('lim', { x: X, y, w: IW, type: 'lim', fs: 18, align: 'left', title: 'Límites', text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico, a los protocolos locales ni a toxicología. Las asociaciones del bloque 2 no prueban causalidad y proceden sobre todo de GBHSH de países de renta alta; los datos sobre mujeres trans y personas no binarias son escasos (Rodríguez-González 2025). Las cifras proceden de muestras clínicas o de conveniencia y no son prevalencias poblacionales. Los ensayos de PrEP y de TCC afirmativa no se hicieron en personas que practican chemsex. No contiene dosis ni pautas de consumo o de tratamiento; la serie de desintoxicación de GHB citada se hizo con ingreso en centros de adicciones (Dijkstra 2017). No se han localizado guías NICE ni de GuíaSalud específicas del chemsex ni un consenso clínico de la EMCDDA/EUDA [fuente no localizada].' });
+    F.box('lim', { x: X, y, w: IW, type: 'lim', fs: 18, align: 'left', title: 'Límites', text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico, a los protocolos locales ni a toxicología. Las asociaciones del bloque 2 no prueban causalidad y proceden sobre todo de GBHSH de países de renta alta; los datos sobre mujeres trans y personas no binarias son escasos (Rodríguez-González 2025). Las cifras proceden de muestras clínicas o de conveniencia y no son prevalencias poblacionales. Los ensayos de PrEP y de TCC afirmativa no se diseñaron específicamente para personas que practican chemsex. No contiene dosis ni pautas de consumo o de tratamiento; la serie de desintoxicación de GHB citada se hizo con ingreso en centros de adicciones (Dijkstra 2017). No se han localizado guías NICE ni de GuíaSalud específicas del chemsex ni un consenso clínico de la EMCDDA/EUDA [fuente no localizada].' });
 
     F.footer('Fuentes: Ministerio de Sanidad 2020 (documento técnico Abordaje del fenómeno del chemsex); Maxwell 2019; Edmundson 2018; González-Baeza 2018 y 2023; Pufall 2018; Rosińska 2018; Meyer 2003; Pollard 2018; Lafortune 2021; Deimel 2016; Hibbert 2019; Bourne 2015; Dolengevich-Segal 2019; Schreck 2021; Hockenhull 2017; Moreno-Gámez 2022; Íncera-Fernández 2021 y 2025; Strasser 2023; Connolly 2025; McCormack 2016; Molina 2015; Strong 2022; Pozo-Herce 2024; Pachankis 2015; Shoptaw 2005; Dijkstra 2017; Hillier 2024; Rodríguez-González 2025; fichas técnicas AEMPS-CIMA (Truvada, Xyrem, Viagra); CIE-11 MMS (OMS); DSM-5-TR. Esquema docente de comprensión y abordaje: no es una guía de consumo ni de tratamiento.');
     return F;
