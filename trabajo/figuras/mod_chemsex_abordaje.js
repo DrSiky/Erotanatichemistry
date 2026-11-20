@@ -44,7 +44,7 @@ module.exports = {
       'Organización Mundial de la Salud (2025). CIE-11 para estadísticas de mortalidad y morbilidad (CIE-11 MMS), tabulación simple (icd.who.int): 6C45, 6C46, 6C47, 6C4D y 6C4F',
       'American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, 5.ª ed., texto revisado (DSM-5-TR). Trastornos relacionados con sustancias. Washington, DC: APA Publishing [texto original no cotejado en esta figura]'
     ],
-    nodes: ['chemsex_inv', 'vih_metanf_snc', 'homosex_hist', 'apego_trauma', 'tdah_chemsex', 'ddm', 'naloxona']
+    nodes: ['chemsex_inv', 'vih_metanf_snc', 'homosex_hist', 'apego_trauma', 'tdah_chemsex']
   },
   draw(Fig) {
     const W = 2300, X = 60, IW = W - 2 * X, G = 24, FS = 18;
@@ -60,7 +60,7 @@ module.exports = {
     // ───────── 1. Definición
     y = F.band(y, 'Qué es: definición, sustancias y magnitud', { n: 1 }) + 22;
     const c1 = cols(3, G);
-    const d1 = F.box('def', { x: c1[0].x, y, w: c1[0].w + 120, type: 'dx', fs: FS, node: 'chemsex_s', title: 'Chemsex', text: 'Uso de drogas antes o durante encuentros sexuales planificados para facilitar, intensificar, prolongar o sostener la experiencia, sobre todo entre GBHSH (Maxwell 2019). En España: «uso intencionado de drogas para tener relaciones sexuales por un período largo de tiempo», de horas a días; el tiempo es el elemento clave, porque a más tiempo, más exposición a riesgos (Ministerio de Sanidad 2020). Es un fenómeno, no un diagnóstico: si procede, se diagnostica el trastorno por consumo de cada sustancia (DSM-5-TR; CIE-11 6C45-6C4F).' });
+    const d1 = F.box('def', { x: c1[0].x, y, w: c1[0].w + 120, type: 'dx', fs: FS, node: 'chemsex_s', title: 'Chemsex', text: 'Uso de drogas antes o durante encuentros sexuales planificados para facilitar, intensificar, prolongar o sostener la experiencia, sobre todo entre GBHSH (Maxwell 2019). En España: «uso intencionado de drogas para tener relaciones sexuales por un período largo de tiempo», de horas a días; el tiempo es el elemento clave, porque a más tiempo, más exposición a riesgos (Ministerio de Sanidad 2020). Es un fenómeno, no un diagnóstico: si procede, se diagnostica el trastorno por consumo de cada sustancia (DSM-5-TR; CIE-11: 6C45 cocaína, 6C46 estimulantes, incluida la metanfetamina, 6C47 catinonas sintéticas, 6C4D disociativos, 6C4F varias sustancias).' });
     const d2 = F.box('sdu', { x: c1[1].x + 120 + G / 2, y, w: c1[1].w - 60, type: 'info', fs: FS, node: 'sdu', title: 'Uso sexualizado de drogas (USD)', text: 'Categoría más amplia: cualquier consumo en contexto sexual (Edmundson 2018). «No todo consumo de drogas en un contexto sexual es chemsex»: este se vincula a la cultura sexual gay (Ministerio de Sanidad 2020).' });
     const d3 = F.box('prev', { x: c1[2].x + 60 + G / 2, y, w: c1[2].w - 60 - G / 2, type: 'info', fs: FS, title: 'Magnitud: muy variable', text: 'Chemsex en el último año: 29,1 % de 742 GBHSH con VIH en Madrid (González-Baeza 2018) y 29,5 % en clínicas de VIH de Inglaterra y Gales (Pufall 2018). Drogas de chemsex en el último encuentro: 3,4 % en 13 ciudades europeas (Rosińska 2018). Las cifras dependen de la definición y la muestra (Edmundson 2018; Maxwell 2019).' });
     eqH(d1, d2, d3);
@@ -71,12 +71,12 @@ module.exports = {
       ['s_ghb', 'ghb_gbl', 'GHB / GBL', 'Depresor; margen estrecho entre dosis buscada y tóxica.'],
       ['s_mef', 'mefed', 'Mefedrona y otras catinonas', 'Estimulantes; también inyectadas.'],
       ['s_ket', 'ketamina_rec', 'Ketamina', 'Disociativo.'],
-      ['s_coc', 'cocaina', 'Cocaína', 'Estimulante; frecuente en policonsumo.'],
+      ['s_coc', 'cocaina', 'Cocaína', 'Estimulante.'],
       ['s_pop', 'poppers', 'Poppers y sildenafilo', 'Vasodilatadores: su combinación causa hipotensión grave.']
     ].map(([id, node, t, x], i) => F.box(id, { x: c6[i].x, y, w: c6[i].w, type: 'drug', fs: 17, node, title: t, text: x }));
     eqH(...subs);
     y = bot(subs[0]) + 10;
-    y = F.text(X, y + 18, 'Sustancias y riesgos según Maxwell 2019 y Ministerio de Sanidad 2020 (el documento español añade éxtasis y alcohol, y subraya que el policonsumo es habitual); la vía intravenosa (slamming) es la de mayor riesgo (Ministerio de Sanidad 2020).', { fs: 17, w: IW, fill: '#333' }) + 30;
+    y = F.text(X, y + 18, 'Sustancias y riesgos según Maxwell 2019 y Ministerio de Sanidad 2020 (el documento español añade poppers, éxtasis y sildenafilo, y subraya que el policonsumo es habitual); la vía intravenosa (slamming) es la de mayor riesgo (Ministerio de Sanidad 2020).', { fs: 17, w: IW, fill: '#333' }) + 30;
 
     // ───────── 2. Vulnerabilidad
     y = F.band(y, 'Por qué: factores de vulnerabilidad y función atribuida al consumo (asociaciones, no causas demostradas)', { n: 2 }) + 22;
@@ -104,7 +104,7 @@ module.exports = {
     L.forEach((b, i) => F.arrow(b, mec, { from: 'r', to: 'l', fb: [0.3, 0.5, 0.7][i], dash: true }));
     R.forEach((b, i) => F.arrow(b, mec, { from: 'l', to: 'r', fb: [0.3, 0.5, 0.7][i], dash: true }));
     y = vBot + 18;
-    y = F.text(X, y + 18, 'Calidad de la evidencia: casi todo procede de estudios transversales, cualitativos o de muestras clínicas no representativas; las flechas discontinuas indican asociación descrita, no causalidad (Maxwell 2019; Lafortune 2021). Muchos GBHSH que practican chemsex no lo viven como un problema (Hibbert 2019).', { fs: 17, w: IW, fill: '#333' }) + 30;
+    y = F.text(X, y + 18, 'Calidad de la evidencia: casi todo procede de estudios transversales, cualitativos o de muestras clínicas no representativas; las flechas discontinuas indican asociación descrita, no causalidad (Maxwell 2019; Lafortune 2021). Algunas personas que practican chemsex parecen satisfechas con esa conducta (Hibbert 2019).', { fs: 17, w: IW, fill: '#333' }) + 30;
 
     // ───────── 3. Riesgos
     y = F.band(y, 'Qué daños: riesgos principales', { n: 3 }) + 22;
@@ -113,7 +113,7 @@ module.exports = {
       F.box('r_its', { x: c4[0].x, y, w: c4[0].w, type: 'warn', fs: 17, node: 'chemsex_ssex', title: 'ITS, VIH y hepatitis C', text: 'En GBHSH con VIH, el chemsex se asoció a coito anal sin preservativo (ORa 5,73), ITS bacteriana (ORa 2,65) y hepatitis C (ORa 6,58) (Pufall 2018). En Madrid, hepatitis C asociada al slamsex (OR 5,2) (González-Baeza 2018).' }),
       F.box('r_slam', { x: c4[1].x, y, w: c4[1].w, type: 'warn', fs: 17, node: 'slam', title: 'Inyección (slamming)', text: '15,7 % de quienes practicaban chemsex en U-SEX; más psicopatología, ideas paranoides y conducta suicida que sin inyección (Dolengevich-Segal 2019). Abscesos, flebitis, sepsis y endocarditis (Ministerio de Sanidad 2020). Metanfetamina y mefedrona, las más inyectadas (Schreck 2021).' }),
       F.box('r_ghb', { x: c4[2].x, y, w: c4[2].w, type: 'warn', fs: 17, node: 'ghb_gbl', title: 'Sobredosis de GHB/GBL', text: 'La mayoría de 30 entrevistados había sufrido sobredosis, sobre todo de GHB/GBL (Bourne 2015). Alcohol y otros depresores, incluso en pequeñas cantidades, facilitan el coma (Ministerio de Sanidad 2020). Las muertes asociadas al GHB en Londres aumentaron un 119 % en 2015 respecto a 2014 (Hockenhull 2017).' }),
-      F.box('r_dep', { x: c4[3].x, y, w: c4[3].w, type: 'warn', fs: 17, node: 'ghb_abst', title: 'Dependencia y abstinencia', text: 'Más dependencia y abstinencia con la inyección (Dolengevich-Segal 2019). La abstinencia de GHB/GBL puede ser grave (véase la ficha). Dependencia más frecuente por vía intravenosa que por cualquier otra (Ministerio de Sanidad 2020).' })
+      F.box('r_dep', { x: c4[3].x, y, w: c4[3].w, type: 'warn', fs: 17, node: 'ghb_abst', title: 'Dependencia y abstinencia', text: 'Más dependencia y abstinencia con la inyección (Dolengevich-Segal 2019). Abstinencia de GHB/GBL: véase la ficha. Dependencia más frecuente por vía intravenosa que por cualquier otra (Ministerio de Sanidad 2020).' })
     ];
     eqH(...r1);
     y = bot(r1[0]) + G;
@@ -143,14 +143,14 @@ module.exports = {
     eqH(...lv1);
     y = bot(lv1[0]) + G;
     const lv2 = [
-      F.box('i_dep', { x: c4[0].x + 16, y, w: c4[0].w - 16, type: 'act', fs: 17, node: 'tcs', title: 'Tratamiento de la dependencia', text: 'Metanfetamina en GBHSH: manejo de contingencias, solo o con TCC, mejor que la TCC estándar en retención y orinas negativas (Shoptaw 2005). GHB: desintoxicación hospitalaria; con GHB farmacéutico, 85 % completada y 69 % de recaídas a los 3 meses (Dijkstra 2017), un uso sin indicación en ficha (Xyrem, FT 4.1).' }),
+      F.box('i_dep', { x: c4[0].x + 16, y, w: c4[0].w - 16, type: 'act', fs: 17, node: 'tcs', title: 'Tratamiento de la dependencia', text: 'Metanfetamina en GBHSH: manejo de contingencias, solo o con TCC, mejor que la TCC estándar en retención y orinas negativas (Shoptaw 2005). GHB: en 274 ingresos, la desintoxicación con GHB farmacéutico se completó en el 85 % y el 69 % recayó en 3 meses (Dijkstra 2017); el oxibato sódico solo está indicado en la narcolepsia con cataplejía (Xyrem, FT 4.1).' }),
       F.box('i_sm', { x: c4[1].x, y, w: c4[1].w, type: 'act', fs: 17, node: 'lgb_afirm', title: 'Salud mental', text: 'Valorar psicosis, depresión y conducta suicida; diagnóstico del trastorno por consumo con criterios DSM-5 y valoración del policonsumo (Ministerio de Sanidad 2020). Psicoterapia afirmativa LGTBIQ (véase la ficha).' }),
       F.box('i_com', { x: c4[2].x, y, w: c4[2].w, type: 'act', fs: 17, node: 'chemsex_atencion', title: 'Recursos comunitarios', text: 'Entidades LGTBQ+ como referencia; pares formados como agentes de salud y cibereducadores; consultas integradas de varios servicios en un mismo espacio (Ministerio de Sanidad 2020).' }),
       F.box('i_ev', { x: c4[3].x, y, w: c4[3].w - 16, type: 'info', fs: 17, title: 'Evidencia de eficacia', text: 'Escasa y heterogénea: 12 estudios, sin acuerdo sobre la mejor estrategia (Íncera-Fernández 2025). Se piden modelos de reducción de daños adaptados a cada subgrupo (Strong 2022) y formación en todos los servicios (Hillier 2024).' })
     ];
     eqH(...lv2);
     const gb = bot(lv2[0]) + 18;
-    F.group({ x: X, y: gy, w: IW, h: gb - gy, label: 'Oferta simultánea, no escalonada: cada persona elige por dónde empezar (Ministerio de Sanidad 2020)', fill: '#fafaf7' });
+    F.group({ x: X, y: gy, w: IW, h: gb - gy, label: 'Oferta integrada: se parte de las necesidades y prioridades que percibe la persona (Ministerio de Sanidad 2020)', fill: '#fafaf7' });
     lv1.forEach((b, i) => F.arrow(entry, b, { from: 'b', to: 't', fa: [0.12, 0.37, 0.63, 0.88][i] }));
     F.arrow(entry, urg, { from: 'r', to: 'l', label: 'Si hay alarma' });
     y = gb + 46;
@@ -161,12 +161,12 @@ module.exports = {
     const p = [
       F.box('p_jui', { x: c3[0].x, y, w: c3[0].w, type: 'dx', fs: 18, node: 'genero', title: 'Sin juicio moral ni estigma', text: 'Evitar la discriminación y la estigmatización; tener en cuenta la orientación sexual, la vivencia del VIH y los condicionantes culturales (Ministerio de Sanidad 2020). El miedo al juicio aleja de la ayuda profesional (Bourne 2015).' }),
       F.box('p_cen', { x: c3[1].x, y, w: c3[1].w, type: 'dx', fs: 18, node: 'red_danos', title: 'Centrada en la persona', text: 'Partir de las necesidades, prioridades y motivaciones de la persona; integrar enfoques de abstinencia y de reducción de riesgos. Muchas demandas iniciales no buscan la abstinencia (Ministerio de Sanidad 2020).' }),
-      F.box('p_cul', { x: c3[2].x, y, w: c3[2].w, type: 'dx', fs: 18, node: 'lgb_afirm', title: 'Competencia cultural e inclusión', text: 'Formación obligada en competencias culturales LGTBQ+ (Ministerio de Sanidad 2020). Incluir a mujeres trans, personas no binarias y otras orientaciones, poco visibles en los estudios (Rodríguez-González 2025).' })
+      F.box('p_cul', { x: c3[2].x, y, w: c3[2].w, type: 'dx', fs: 18, node: 'lgb_afirm', title: 'Competencia cultural e inclusión', text: 'La formación debe incluir competencias culturales LGTBQ+ (Ministerio de Sanidad 2020). Incluir a mujeres trans, personas no binarias y otras orientaciones, poco visibles en los estudios (Rodríguez-González 2025).' })
     ];
     eqH(...p);
     y = bot(p[0]) + 40;
 
-    F.box('lim', { x: X, y, w: IW, type: 'lim', fs: 18, align: 'left', title: 'Límites', text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico, a los protocolos locales ni a toxicología. Las asociaciones del bloque 2 no prueban causalidad y proceden sobre todo de GBHSH de países de renta alta; ninguna fuente citada aporta datos propios suficientes de mujeres trans ni de personas no binarias. Las cifras proceden de muestras clínicas o de conveniencia y no son prevalencias poblacionales. Los ensayos de PrEP y de TCC afirmativa no se hicieron en personas que practican chemsex. No contiene dosis ni pautas de consumo o de tratamiento; la desintoxicación de GHB se hace con supervisión especializada. No se han localizado guías NICE ni de GuíaSalud específicas del chemsex ni un consenso clínico de la EMCDDA/EUDA [fuente no localizada].' });
+    F.box('lim', { x: X, y, w: IW, type: 'lim', fs: 18, align: 'left', title: 'Límites', text: 'Esquema docente, no algoritmo: no sustituye al juicio clínico, a los protocolos locales ni a toxicología. Las asociaciones del bloque 2 no prueban causalidad y proceden sobre todo de GBHSH de países de renta alta; ninguna fuente citada aporta datos propios suficientes de mujeres trans ni de personas no binarias. Las cifras proceden de muestras clínicas o de conveniencia y no son prevalencias poblacionales. Los ensayos de PrEP y de TCC afirmativa no se hicieron en personas que practican chemsex. No contiene dosis ni pautas de consumo o de tratamiento; la desintoxicación de GHB requiere supervisión especializada [fuente no localizada]. No se han localizado guías NICE ni de GuíaSalud específicas del chemsex ni un consenso clínico de la EMCDDA/EUDA [fuente no localizada].' });
 
     F.footer('Fuentes: Ministerio de Sanidad 2020 (documento técnico Abordaje del fenómeno del chemsex); Maxwell 2019; Edmundson 2018; González-Baeza 2018 y 2023; Pufall 2018; Rosińska 2018; Meyer 2003; Pollard 2018; Lafortune 2021; Deimel 2016; Hibbert 2019; Bourne 2015 (2 artículos); Dolengevich-Segal 2019; Schreck 2021; Hockenhull 2017; Moreno-Gámez 2022; Íncera-Fernández 2021 y 2025; Strasser 2023; Connolly 2025; McCormack 2016; Molina 2015; Strong 2022; Pozo-Herce 2024; Pachankis 2015; Shoptaw 2005; Dijkstra 2017; Hillier 2024; Rodríguez-González 2025; fichas técnicas AEMPS-CIMA (Truvada, Xyrem); CIE-11 MMS (OMS); DSM-5-TR. Esquema docente de comprensión y abordaje: no es una guía de consumo ni de tratamiento.');
     return F;

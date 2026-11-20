@@ -11,15 +11,15 @@ module.exports = {
       'Leonhard K (1957). Aufteilung der endogenen Psychosen. Berlín: Akademie-Verlag [no verificada en el original]',
       'Perris C (1974). A study of cycloid psychoses. Acta Psychiatr Scand Suppl 253 [no indexada en PubMed; no verificada en el original]',
       'Perris C & Brockington IF (1981). Cycloid psychoses and their relation to the major psychoses. En: Perris C, Struwe G & Jansson B (eds). Biological Psychiatry 1981. Ámsterdam: Elsevier, pp. 447-450 [original no cotejado; criterios tomados de la tabla 1 de Giné Servén 2021]',
-      'Brockington IF, Perris C & Meltzer HY (1982). Cycloid psychoses: diagnosis and heuristic value. J Nerv Ment Dis 170:651-656 · PMID 7119764',
-      'Brockington IF, Perris C, Kendell RE, Hillier VE & Wainwright S (1982). The course and outcome of cycloid psychosis. Psychol Med 12:97-105 · PMID 7079434',
+      'Brockington IF, Perris C & Meltzer HY (1982a). Cycloid psychoses: diagnosis and heuristic value. J Nerv Ment Dis 170:651-656 · PMID 7119764',
+      'Brockington IF, Perris C, Kendell RE, Hillier VE & Wainwright S (1982b). The course and outcome of cycloid psychosis. Psychol Med 12:97-105 · PMID 7079434',
       'Foucher JR et al. (2020). Wernicke-Kleist-Leonhard phenotypes of endogenous psychoses: a review of their validity. Dialogues Clin Neurosci 22:37-49 · PMID 32699504',
       'Jabs BE, Pfuhlmann B, Bartsch AJ, Cetkovich-Bakmas MG & Stöber G (2002). Cycloid psychoses: from clinical concepts to biological foundations. J Neural Transm 109:907-919 · PMID 12111477',
-      'Pfuhlmann B (1998). Das Konzept der zykloiden Psychosen. Entwicklung, klinische Bedeutung und Stand der Forschung. Fortschr Neurol Psychiatr 66:1-9 · PMID 9530551',
-      'Pfuhlmann B, Franzek E, Stöber G, Cetkovich-Bakmas M & Beckmann H (1997). On interrater reliability for Leonhard\'s classification of endogenous psychoses. Psychopathology 30:100-105 · PMID 9168566',
-      'Pfuhlmann B et al. (1997). Die Bedeutung der differenzierten Analyse formaler Denkstörungen bei Verwirrtheitspsychose und Kataphasie: Inkohärenz der Themenwahl und Inkohärenz mit logischen und sprachlichen Fehlern. Fortschr Neurol Psychiatr 65:531-539 · PMID 9451565',
+      'Pfuhlmann B (1998a). Das Konzept der zykloiden Psychosen. Entwicklung, klinische Bedeutung und Stand der Forschung. Fortschr Neurol Psychiatr 66:1-9 · PMID 9530551',
+      'Pfuhlmann B, Franzek E, Stöber G, Cetkovich-Bakmas M & Beckmann H (1997a). On interrater reliability for Leonhard\'s classification of endogenous psychoses. Psychopathology 30:100-105 · PMID 9168566',
+      'Pfuhlmann B et al. (1997b). Die Bedeutung der differenzierten Analyse formaler Denkstörungen bei Verwirrtheitspsychose und Kataphasie: Inkohärenz der Themenwahl und Inkohärenz mit logischen und sprachlichen Fehlern. Fortschr Neurol Psychiatr 65:531-539 · PMID 9451565',
       'Pfuhlmann B, Jabs B, Althaus G et al. (2004). Cycloid psychoses are not part of a bipolar affective spectrum: results of a controlled family study. J Affect Disord 83:11-19 · PMID 15546641',
-      'Pfuhlmann B, Stöber G, Franzek E & Beckmann H (1998). Cycloid psychoses predominate in severe postpartum psychiatric disorders. J Affect Disord 50:125-134 · PMID 9858072',
+      'Pfuhlmann B, Stöber G, Franzek E & Beckmann H (1998b). Cycloid psychoses predominate in severe postpartum psychiatric disorders. J Affect Disord 50:125-134 · PMID 9858072',
       'Pfuhlmann B, Stöber G & Beckmann H (2002). Postpartum psychoses: prognosis, risk factors, and treatment. Curr Psychiatry Rep 4:185-190 · PMID 12003680',
       'Jabs BE et al. (2004). Differences in quality of life and course of illness between cycloid and schizophrenic psychoses - a comparative study. World J Biol Psychiatry 5:136-142 · PMID 15346537',
       'Franzek E & Beckmann H (1998). Different genetic background of schizophrenia spectrum psychoses: a twin study. Am J Psychiatry 155:76-83 · PMID 9433342',
@@ -50,10 +50,10 @@ module.exports = {
     // ---------- Bloque 1: escuela y familias ----------
     let y = F.band(100, 'De Wernicke a Perris: la escuela WKL y las cinco familias de psicosis endógenas de Leonhard', { n: 1 }) + 26;
     const HG = 70, HW = (IW - 3 * HG) / 4;
-    const h1 = F.box('h_wer', { x: X, y, w: HW, type: 'info', fs: 18, node: 'wernicke_hit', title: 'Wernicke (1900)', text: 'Psiquiatría de base neuroanatómica, punto de partida de la escuela (Jabs 2002; Pfuhlmann 1998a).' });
-    const h2 = F.box('h_kle', { x: X + (HW + HG), y, w: HW, type: 'info', fs: 18, node: 'psciclb', title: 'Kleist', text: 'Psicosis marginales episódicas y de buen pronóstico, fuera de la locura maníaco-depresiva y de la demencia precoz (Jabs 2002).' });
-    const h3 = F.box('h_leo', { x: X + 2 * (HW + HG), y, w: HW, type: 'dx', fs: 18, node: 'leonhard_hit', title: 'Leonhard (1957)', text: 'Aufteilung der endogenen Psychosen: tres psicosis cicloides y psicosis fásicas puras separadas de la enfermedad maníaco-depresiva (Pfuhlmann 1998a).' });
-    const h4 = F.box('h_per', { x: X + 3 * (HW + HG), y, w: HW, type: 'info', fs: 18, node: 'perris', title: 'Perris (1974) y Perris y Brockington (1981)', text: 'La psicosis cicloide como entidad unitaria con criterios operativos (Peralta 2007), aplicados en Londres y Suecia (Brockington 1982a).' });
+    const h1 = F.box('h_wer', { x: X, y, w: HW, type: 'info', fs: 18, node: 'wernicke_hit', title: 'Wernicke', text: 'Punto de partida de la escuela: Leonhard elabora el concepto de psicosis cicloide sobre hallazgos de Wernicke y Kleist (Pfuhlmann 1998a; Jabs 2002).' });
+    const h2 = F.box('h_kle', { x: X + (HW + HG), y, w: HW, type: 'info', fs: 18, node: 'psciclb', title: 'Kleist', text: 'Describe psicosis «atípicas» episódicas que Kraepelin no lograba ubicar; Leonhard las ordena después (Jabs 2002; Pfuhlmann 1998a).' });
+    const h3 = F.box('h_leo', { x: X + 2 * (HW + HG), y, w: HW, type: 'dx', fs: 18, node: 'leonhard_hit', title: 'Leonhard (1957)', text: 'Aufteilung der endogenen Psychosen: tres psicosis cicloides (Pfuhlmann 1998a) y psicosis fásicas puras separadas de la enfermedad maníaco-depresiva (Foucher 2020).' });
+    const h4 = F.box('h_per', { x: X + 3 * (HW + HG), y, w: HW, type: 'info', fs: 18, node: 'perris', title: 'Perris (1974) y Perris y Brockington (1981)', text: 'La psicosis cicloide como entidad unitaria con criterios operativos (Peralta 2007), y examinados en comparación transcultural (Brockington 1982a).' });
     eqH(h1, h2, h3, h4);
     F.arrow(h1, h2, { from: 'r', to: 'l' }); F.arrow(h2, h3, { from: 'r', to: 'l' }); F.arrow(h3, h4, { from: 'r', to: 'l' });
     y = bot(h1) + 26;
@@ -135,7 +135,7 @@ module.exports = {
     const o3 = F.box('o_dsm', { x: X + 2 * (OW + 30), y, w: OW, type: 'info', fs: 18, align: 'left', node: 'tpsbr', title: 'DSM: sin categoría', text: 'Con el DSM-III y los RDC, los casos londinenses quedaban como esquizoafectivos o afectivos con psicosis no congruente (Brockington 1982b); hoy suelen diagnosticarse de esquizoafectivos o esquizofrénicos (Foucher 2020). Estabilidad del trastorno psicótico breve: 45 % en 4,2 años (Castagnini 2022).' });
     const o4 = F.box('o_pp', { x: X + 3 * (OW + 30), y, w: OW, type: 'info', fs: 18, align: 'left', node: 'ppp', title: 'Psicosis posparto', text: '39 casos graves revisados a los 12,5 años de media: 54 % eran cicloides según Leonhard, con predominio de la psicosis de la motilidad; con la CIE-10, 28 % depresión unipolar y 21 % F23 (Pfuhlmann 1998b). Las cicloides predominan en la psicosis puerperal (Pfuhlmann 2002).' });
     eqH(o1, o2, o3, o4);
-    F.arrow(n2, o2, { from: 'b', to: 't', label: 'solapamiento parcial', lx: o2.x + o2.w / 2 + 12, ly: n2.y + n2.h + 30 });
+    { const ax = o2.x + o2.w * 0.62; F.arrow(n2, o2, { from: 'b', to: 't', fa: (ax - n2.x) / n2.w, fb: 0.62, label: 'solapamiento parcial', lx: ax + 12, ly: n2.y + n2.h + 30 }); }
     y = bot(o1) + 46;
 
     // ---------- Bloque 5: seguridad y tratamiento ----------
