@@ -11,7 +11,7 @@ module.exports = {
       'Jaspers K (1913). Allgemeine Psychopathologie. Berlin: Springer (trad. esp.: Psicopatología general. México: Fondo de Cultura Económica) [obra primaria no cotejada]',
       'Jaspers K (1910). Eifersuchtswahn. Ein Beitrag zur Frage: «Entwicklung einer Persönlichkeit» oder «Prozess»? Z Gesamte Neurol Psychiatr 1:567-637 [no verificada]',
       'Lanteri-Laura G (1962). [The concept of process in K. Jaspers\' psychopathology research; título original en francés no cotejado]. Evol Psychiatr (Paris) 27:459-499 · PMID 13928712',
-      'Jaspers K (1968). The phenomenological approach in psychopathology. Br J Psychiatry 114:1313-1323 · PMID 5702272',
+      'Jaspers K (1968). The phenomenological approach in psychopathology [trad. inglesa del artículo de 1912 «Die phänomenologische Forschungsrichtung in der Psychopathologie»]. Br J Psychiatry 114:1313-1323 · PMID 5702272',
       'Schneider K (1950). Klinische Psychopathologie. Stuttgart: Thieme (trad. esp.: Psicopatología clínica. Madrid: Triacastela, 1997) [obra primaria no cotejada]',
       'Conrad K (1958). Die beginnende Schizophrenie: Versuch einer Gestaltanalyse des Wahns. Stuttgart: Thieme [obra primaria no cotejada]',
       'Kretschmer E (1918). Der sensitive Beziehungswahn. Berlin: Springer [obra primaria no cotejada]',
@@ -23,7 +23,7 @@ module.exports = {
       'Brücher K (2012). [Jaspers and the problem of understanding: a plea for revision]. Fortschr Neurol Psychiatr 80:213-220 · PMID 22009272',
       'Villareal H & Aragona M (2014). [El concepto de «comprensión» (Verstehen) en Karl Jaspers]. Vertex 25:262-265 · PMID 25546640',
       'Ghaemi SN (2007). Existence and pluralism: the rediscovery of Karl Jaspers. Psychopathology 40:75-82 · PMID 17215593',
-      'Walker C (1991). Delusion: what did Jaspers really say? Br J Psychiatry Suppl (14):94-103 · PMID 1840789',
+      'Walker C (1991). Delusion: what did Jaspers really say? Br J Psychiatry Suppl (14):94-103 · PMID 1840789 [sin resumen en PubMed; contenido no cotejado]',
       'Walker C (2014). Karl Jaspers on the disease entity: Kantian ideas and Weberian ideal types. Hist Psychiatry 25:317-334 · PMID 25114147',
       'Kendler KS & Campbell J (2014). Expanding the domain of the understandable in psychiatric illness: an updating of the Jasperian framework of explanation and understanding. Psychol Med 44:1-7 · PMID 23343526',
       'Fuchs T (2010). Subjectivity and intersubjectivity in psychiatric diagnosis. Psychopathology 43:268-274 · PMID 20516753',
@@ -32,7 +32,6 @@ module.exports = {
       'Sanati A & Kyratsous M (2015). Epistemic injustice in assessment of delusions. J Eval Clin Pract 21:479-485 · PMID 25828924',
       'Piedade VL & Messas G (2026). Back to Karl Jaspers\' incomprehensibility of schizophrenia: a longitudinal approach. Hist Psychiatry 37:284-298 · PMID 41852271',
       'Mishara AL & Fusar-Poli P (2013). The phenomenology and neurobiology of delusion formation during psychosis onset: Jaspers, Truman symptoms, and aberrant salience. Schizophr Bull 39:278-286 · PMID 23354468',
-      'Yung AR & McGorry PD (1996). The prodromal phase of first-episode psychosis: past and current conceptualizations. Schizophr Bull 22:353-370 · PMID 8782291',
       'Spitzer M (1990). On defining delusions. Compr Psychiatry 31:377-397 · PMID 2225797',
       'Findeis H (2020). [The understanding of God by Kant and the contribution to the psychopathological definition of delusion]. Nervenarzt 91:808-813 · PMID 31889216',
       'Sass LA & Byrom G (2015a). Self-disturbance and the bizarre: on incomprehensibility in schizophrenic delusions. Psychopathology 48:293-300 · PMID 26346263',
@@ -73,20 +72,20 @@ module.exports = {
     y = F.text(L, y + 18, 'Tipo de caja: doble borde = tesis de Jaspers · trazo continuo = intérpretes y críticos · trazo discontinuo = evidencia empírica (●●● metaanálisis o revisión sistemática · ●●○ estudios empíricos primarios: muestras clínicas, casos o viñetas). Los símbolos indican el diseño, no la certeza ni el tamaño del efecto.', { fs: 18, w: W - 2 * L }) + 18;
     const m = [
       F.box('m1', { x: cx(0), y, w: CW, type: 'dx', fs: FS, node: 'jaspers_fen_metodo', align: 'left', title: 'Fenomenología: comprensión estática',
-        text: 'Representación (Vergegenwärtigung) intuitiva y sin prejuicios, y descripción de los fenómenos conscientes tal como se dan a quien los vive; Jaspers la introdujo en la psicopatología siguiendo a Husserl (Häfner 2015; Jaspers 1968).' }),
-      F.box('m2', { x: cx(1), y, w: CW, type: 'dx', fs: FS, node: 'jaspers_compr', align: 'left', title: 'Comprensión genética (Verstehen)',
-        text: 'En perspectiva longitudinal, la empatía capta cómo unos fenómenos psíquicos surgen de otros. La ruptura de esas conexiones de sentido se interpreta como signo de enfermedad o de paso de un desarrollo natural a un proceso somático (Häfner 2015).' }),
-      F.box('m3', { x: cx(2), y, w: CW, type: 'dx', fs: FS, node: 'pluralismo', align: 'left', title: 'Explicación causal (Erklären)',
-        text: 'Conexiones objetivas de las ciencias naturales. Jaspers conservó la distinción tajante de Dilthey entre explicar y comprender (Aragona 2019) y defendió un pluralismo de métodos, cada uno con sus presupuestos y límites (Ghaemi 2007).' }),
+        text: 'Modo transversal: representación (Vergegenwärtigung) intuitiva y sin prejuicios, y descripción de los fenómenos conscientes tal como se dan a quien los vive (Jaspers 1968). Según Häfner (2015), Jaspers la introdujo en la psicopatología siguiendo a Husserl.' }),
+      F.box('m2', { x: cx(1), y, w: CW, type: 'dx', fs: FS, node: 'jaspers_compr', align: 'left', title: 'Comprensión genética',
+        text: 'Modo longitudinal, empático o racional: capta cómo unos fenómenos psíquicos surgen de otros. Estática y genética son dos modos del comprender (Verstehen). La ruptura de esas conexiones de sentido se interpreta como signo de enfermedad o de paso de un desarrollo natural a un proceso somático (Häfner 2015).' }),
+      F.box('m3', { x: cx(2), y, w: CW, type: 'dx', fs: FS, node: 'jaspers_hit', align: 'left', title: 'Explicación causal (Erklären)',
+        text: 'Conexiones causales objetivas de las ciencias naturales. Frente a Weber, que mezclaba explicación y comprensión, Jaspers conservó la distinción más tajante de Dilthey (Aragona 2019) y defendió un pluralismo de métodos, cada uno con sus presupuestos y límites (Ghaemi 2007).' }),
       F.box('m4', { x: cx(3), y, w: CW, type: 'dx', fs: FS, node: 'jaspers_1913', align: 'left', title: 'Forma frente a contenido',
-        text: 'Distinción tomada de la Analítica trascendental de Kant y aplicada a todo el conocimiento psicopatológico (Walker 2014). En la clínica: el modo de la vivencia (percibir, representar, saber) frente a su tema (persecución, celos) [formulación clínica: fuente no localizada].' })
+        text: 'Distinción tomada de la Analítica trascendental de Kant y aplicada a todo el conocimiento psicopatológico (Walker 2014). En la clínica, la forma es el modo alterado de la vivencia (p. ej., voz oída fuera frente a habla interior; Häfner 2015) y el contenido, su tema (persecución, celos).' })
     ];
     eq(m);
     y = bottom(m) + 50;
     const r = [
       F.box('r1', { x: cx(0), y, w: CW, type: 'act', fs: FS, node: 'husserl', align: 'left', title: '¿Cuánto Husserl? Lecturas discordantes',
         text: 'Kumazaki (2013) pone en duda la influencia profunda de Husserl y Dilthey: la «fenomenología» de Jaspers es una psicología descriptiva de estados empíricos y su comprensión mezcla empatía y tipo ideal racional.' }),
-      F.box('r2', { x: cx(1), y, w: CW, type: 'act', fs: FS, node: 'jaspers_hit', align: 'left', title: '¿Qué es comprender?',
+      F.box('r2', { x: cx(1), y, w: CW, type: 'act', fs: FS, node: 'jaspers_compr', align: 'left', title: '¿Qué es comprender?',
         text: 'Comprensión más empática que la de Weber (Aragona 2019); o bien, rechazo de la hermenéutica de la empatía que se le atribuye (Brücher 2012). «Ser comprensible» como propiedad relacional que exige un proceso intersubjetivo (Villareal y Aragona 2014).' }),
       F.box('r3', { x: cx(2), y, w: CW, type: 'act', fs: FS, node: 'ideas_ref', align: 'left', title: 'Comprensión asistida por la explicación',
         text: 'Kendler y Campbell (2014): modelos de saliencia dopaminérgica (ideas de referencia) y de control motor anticipatorio (acciones hechas) descomponen síntomas que Jaspers juzgó incomprensibles en elementos comunes a casi todas las personas.' }),
@@ -97,27 +96,27 @@ module.exports = {
     m.forEach((b, i) => F.arrow(b, r[i], { from: 'b', to: 't', label: i === 0 ? 'reinterpretado por' : null }));
     y = bottom(r) + 26;
     const rc = F.box('rc', { x: L, y, w: W - 2 * L, type: 'act', fs: FS, node: 'cfi', align: 'left', title: 'Crítica ética y epistémica de la comprensión empática',
-      text: 'La comprensión empática arriesga errores diagnósticos y formas de daño epistémico (cooptación y objetivación); se propone sustituirla por una escucha virtuosa (Spencer y Broome 2026). Juzgar un delirio por estereotipos de irracionalidad, extravagancia o incomprensibilidad puede producir injusticia testimonial (Sanati y Kyratsous 2015). Explorar el contexto cultural antes de calificar algo de incomprensible [recomendación: fuente no localizada].' });
+      text: 'La comprensión empática arriesga errores diagnósticos y formas de daño epistémico (cooptación y objetivación); Spencer y Broome (2026) proponen sustituirla por la escucha virtuosa de Fricker. Juzgar un delirio por estereotipos de irracionalidad, extravagancia o incomprensibilidad puede producir injusticia testimonial (Sanati y Kyratsous 2015). Explorar el contexto cultural antes de calificar algo de incomprensible [recomendación: fuente no localizada].' });
     y = rc.y + rc.h + 60;
 
     // ---------- Bloque 2: reacción, desarrollo, proceso ----------
     y = F.band(y, 'Curso de la vida psíquica: reacción vivencial, desarrollo de la personalidad y proceso', { n: 2 }) + 30;
     const QW = 860, qx = L + (3 * CW + 2 * G - QW) / 2;
     const q = F.box('q2', { x: qx, y, w: QW, type: 'q', fs: 19, title: '¿Lo nuevo se sigue de modo comprensible de la personalidad, la disposición y las vivencias?',
-      text: 'Criterio de Jaspers: continuidad de sentido de una vida (Häfner 2013); la incomprensibilidad tiene niveles fenomenológico, biográfico y existencial (Piedade y Messas 2026).' });
+      text: 'Criterio de Jaspers: continuidad de sentido de una vida; su ruptura como signo de enfermedad es el «teorema de Jaspers» (von Baeyer, citado por Häfner 2015). Piedade y Messas (2026) distinguen niveles fenomenológico, biográfico y existencial de la incomprensibilidad.' });
     const qi = F.box('q2i', { x: cx(3), y, w: CW, type: 'dx', fs: 17, align: 'left', title: 'Origen de la alternativa',
-      text: 'Jaspers la planteó en su estudio del delirio celotípico: «¿desarrollo de una personalidad o proceso?» (Jaspers 1910 [no verificada]); Lanteri-Laura (1962) dedicó un estudio al concepto de proceso en Jaspers.' });
+      text: 'Jaspers introdujo la noción de proceso en su estudio del delirio celotípico (1910): «¿desarrollo de una personalidad o proceso?» (Häfner 2015). Lanteri-Laura (1962) dedicó un estudio al concepto de proceso en Jaspers.' });
     eq([q, qi]);
     y = q.y + q.h + 70;
     const c = [
       F.box('c1', { x: cx(0), y, w: CW, type: 'dx', fs: FS, node: 'reac_viv_anormal', align: 'left', title: 'Reacción vivencial',
         text: 'Contenido en relación comprensible con la vivencia; no habría aparecido sin ella; su curso depende de ella (Jaspers 1913). Antecedente conceptual de los trastornos de adaptación y por estrés [fuente no localizada].' }),
       F.box('c2', { x: cx(1), y, w: CW, type: 'dx', fs: FS, node: 'sensit_bezieh', align: 'left', title: 'Desarrollo de la personalidad',
-        text: 'Evolución comprensible desde la disposición y las vivencias, también cuando es anormal (Jaspers 1913). Kretschmer (1918) describió el delirio sensitivo de referencia como desarrollo comprensible desde el carácter sensitivo.' }),
+        text: 'Evolución comprensible desde la disposición y las vivencias, también cuando es anormal (Jaspers 1913). Kretschmer (1918) describió el delirio sensitivo de referencia como desarrollo comprensible; según Häfner (2015), Jaspers rechazó esa tesis, como la de Gaupp sobre la paranoia.' }),
       F.box('c3', { x: cx(2), y, w: CW, type: 'dx', fs: FS, node: 'proceso_desarrollo', align: 'left', title: 'Proceso',
-        text: 'Irrupción de algo incomprensible en un desarrollo comprensible: indica un fenómeno extraconsciente o el paso a un proceso somático (Häfner 2013); Jaspers lo atribuyó a un proceso neurobiológico que interrumpe el desarrollo de la personalidad (Mishara y Fusar-Poli 2013).' }),
+        text: 'Cambio patológico, incomprensible y permanente de la vida psíquica que irrumpe en un desarrollo comprensible (Häfner 2015); indica un fenómeno extraconsciente o el paso a un proceso somático (Häfner 2013). Jaspers distinguió proceso psíquico y proceso orgánico cerebral [fuente no localizada]. Mishara y Fusar-Poli (2013) lo leen como proceso neurobiológico.' }),
       F.box('c4', { x: cx(3), y, w: CW, type: 'act', fs: FS, node: 'esq', align: 'left', title: 'Críticas',
-        text: 'La esquizofrenia sigue siendo un «tipo ideal» weberiano a la espera de la entidad real que Jaspers anticipaba (Walker 2014). La fase prodrómica es heterogénea y difícil de medir con fiabilidad (Yung y McGorry 1996). Riesgo de circularidad entre proceso e incomprensibilidad [fuente no localizada].' })
+        text: 'La distinción apodíctica entre desarrollo comprensible y proceso causalmente explicable obstaculizó la explicación interpretativa de delirios y alucinaciones (Häfner 2015). La esquizofrenia sigue siendo un «tipo ideal» weberiano a la espera de la entidad real que Jaspers anticipaba (Walker 2014).' })
     ];
     eq(c);
     [[0, 0.12, 'Sí'], [1, 0.5, 'Sí'], [2, 0.88, 'No']].forEach(([i, fa, lb]) => F.arrow(q, c[i], { from: 'b', to: 't', fa, label: lb, lx: c[i].x + c[i].w / 2 + 10, ly: c[i].y - 10 }));
@@ -127,10 +126,10 @@ module.exports = {
     // ---------- Bloque 3: delirio ----------
     y = F.band(y, 'El delirio: criterios externos, idea deliroide y vivencia delirante primaria', { n: 3 }) + 30;
     const d1 = F.box('d1', { x: cx(0), y, w: CW + 120, type: 'dx', fs: FS, node: 'delirio', align: 'left', title: 'Criterios externos del delirio',
-      text: '(1) certeza subjetiva extraordinaria, (2) incorregibilidad y (3) imposibilidad o falsedad del contenido: Jaspers fue el primero en enunciarlos y pasaron a los manuales (Spitzer 1990). Para Jaspers eran «externos»: había que ir más allá de ellos para reconocer una vivencia primaria atribuible a la enfermedad (Sass y Byrom 2015a; Walker 1991).' });
+      text: '(1) certeza subjetiva extraordinaria, (2) incorregibilidad y (3) imposibilidad o falsedad del contenido: Jaspers fue el primero en enunciarlos y pasaron a los libros de texto (Spitzer 1990). Para Jaspers eran «externos»: había que ir más allá de ellos para reconocer una vivencia primaria atribuible a la enfermedad (Sass y Byrom 2015a).' });
     const QW3 = 700, q3x = cx(0) + CW + 120 + 170;
     const q3 = F.box('q3', { x: q3x, y, w: QW3, type: 'q', fs: 19, title: '¿La idea deriva de modo comprensible de un afecto, una vivencia o la personalidad?',
-      text: 'Juicio de comprensibilidad de quien explora (Jaspers 1913); depende de su conocimiento del contexto cultural y biográfico (Cermolacce 2010).' });
+      text: 'Juicio de quien explora, respecto de la biografía, las motivaciones y el contexto histórico-cultural (Mishara y Fusar-Poli 2013); depende también del encuentro intersubjetivo (Cermolacce 2010).' });
     const dsec = F.box('d2', { x: q3x + QW3 + 110, y, w: W - L - (q3x + QW3 + 110), type: 'dx', fs: FS, node: 'del_culpa', align: 'left', title: 'Idea deliroide (secundaria)',
       text: 'Comprensible a partir de un afecto, la personalidad o la situación (Jaspers 1913); por ejemplo, ideas de ruina que se siguen de un ánimo melancólico [ejemplo: fuente no localizada].' });
     eq([d1, q3, dsec]);
@@ -139,33 +138,33 @@ module.exports = {
     y = q3.y + q3.h + 60;
     const PW = 1300, px = (W - PW) / 2;
     const pr = F.box('pr', { x: px, y, w: PW, type: 'dx', fs: 19, node: 'wahnbewusstheit', title: 'Vivencia delirante primaria (delirio auténtico)',
-      text: 'Psicológicamente irreductible e incomprensible: transformación primaria de la conciencia de significado, incluida la conciencia delirante de un hecho sin base perceptiva (Jaspers 1913). Su incomprensibilidad remitiría a un proceso (Mishara y Fusar-Poli 2013).' });
+      text: 'Psicológicamente irreductible e incomprensible, vivida como inmediata y evidente: transformación primaria de la conciencia de significado, incluida la conciencia delirante sin base perceptiva. De ella nacen las ideas delirantes auténticas (echte Wahnideen) (Jaspers 1913; Hayashi 2021). Su remisión a un proceso neurobiológico es lectura de Mishara y Fusar-Poli (2013).' });
     F.arrow(q3, pr, { from: 'b', to: 't', fb: (q3.x + q3.w / 2 - pr.x) / pr.w, label: 'No', lx: q3.x + q3.w / 2 + 12, ly: pr.y - 18 });
     y = pr.y + pr.h + 60;
     const f = [
       F.box('f1', { x: cx(0), y, w: CW, type: 'dx', fs: FS, node: 'percdel', align: 'left', title: 'Percepción delirante',
-        text: 'Una percepción real adquiere un significado anormal (Jaspers 1913; Schneider 1950). Fuchs (2005) la describe como desenlace del humor delirante.' }),
-      F.box('f2', { x: cx(1), y, w: CW, type: 'dx', fs: FS, node: 'ocurr_del', align: 'left', title: 'Ocurrencia (representación) delirante',
-        text: 'Idea súbita vivida con certeza sin base perceptiva (Jaspers 1913). En Hayashi (2021), la intuición delirante se asoció a delirios de grandeza.' }),
+        text: 'Una percepción real adquiere un significado anormal. Schneider exigió que no hubiera relación entre percepción y significado; Jaspers admitía ideas de referencia iniciadas por percepciones reales (Hayashi 2021). Fuchs (2005): desenlace del humor delirante.' }),
+      F.box('f2', { x: cx(1), y, w: CW, type: 'dx', fs: FS, node: 'ocurr_del', align: 'left', title: 'Representación delirante (ocurrencia)',
+        text: 'Idea o intuición súbita vivida con certeza sin base perceptiva (Jaspers 1913; Hayashi 2021). Schneider la llamó ocurrencia delirante (Wahneinfall) (Schneider 1950). En Hayashi (2021) se asoció a delirios de grandeza.' }),
       F.box('f3', { x: cx(2), y, w: CW, type: 'dx', fs: FS, node: 'recdel', align: 'left', title: 'Recuerdo delirante',
-        text: 'Recuerdo reinterpretado o surgido con significado delirante; Jaspers lo agrupa con las representaciones delirantes (Jaspers 1913). Explorado como forma propia en Hayashi (2021).' }),
+        text: 'Jaspers describe, entre las representaciones delirantes, el recuerdo que surge como confirmación del delirio; «recuerdo delirante» es una paráfrasis posterior de Sims, término que Jaspers no usó (Hayashi 2021).' }),
       F.box('f4', { x: cx(3), y, w: CW, type: 'dx', fs: FS, node: 'wahnstimm', align: 'left', title: 'Humor (atmósfera) delirante',
-        text: 'El entorno se vuelve enigmático, inquietante y escénico; los objetos cobran expresión fisonómica (Fuchs 2005). Trasfondo que suele preceder a las demás formas (Mishara y Fusar-Poli 2013).' })
+        text: 'El entorno se vuelve enigmático, inquietante y escénico; los objetos cobran expresión fisonómica (Fuchs 2005). Mishara y Fusar-Poli (2013) lo sitúan, con los síntomas «Truman», en el origen del inicio psicótico.' })
     ];
     eq(f);
     f.forEach((b, i) => F.arrow(pr, b, { from: 'b', to: 't', fa: 0.08 + 0.28 * i }));
     y = bottom(f) + 30;
     const fe = F.box('fe', { x: L, y, w: W - 2 * L, type: 'info', fs: FS, align: 'left', title: '●●○ Evidencia: el delirio primario como origen referido por las personas',
-      text: '108 personas con esquizofrenia o trastorno esquizoafectivo y delirio persistente, entrevista semiestructurada creada para el estudio (DOAI) con propiedades psicométricas sólidas: el 93 % refirió fenómenos de delirio primario como origen de su delirio y el 84 % los presentaba en ese momento; la percepción y el humor delirantes se asociaron a temas persecutorios (Hayashi 2021). Estudio transversal y retrospectivo, sin grupo de comparación: muestra el relato de origen, no su causalidad.' });
+      text: '108 personas con esquizofrenia o trastorno esquizoafectivo y delirio persistente, entrevista semiestructurada creada para el estudio (DOAI) con propiedades psicométricas sólidas: el 93 % refirió fenómenos de delirio primario como origen de su delirio y el 84 % los presentaba en ese momento; la percepción y el humor delirantes se asociaron a temas persecutorios (Hayashi 2021). Estudio transversal, con posible sesgo de recuerdo y sin grupo de comparación: muestra el relato de origen, no su causalidad ni su secuencia temporal (Hayashi 2021).' });
     y = fe.y + fe.h + 60;
 
     // ---------- Bloque 4: recepción ----------
     y = F.band(y, 'Recepción: Schneider, Conrad y la psicopatología fenomenológica contemporánea', { n: 4 }) + 30;
     const a = [
       F.box('a1', { x: cx(0), y, w: CW, type: 'act', fs: FS, node: 'fpr_schneider', align: 'left', title: 'Schneider: síntomas de primer rango',
-        text: 'Aplicó la metodología de Jaspers al estudio de la esquizofrenia (Hoenig 1983). Entre los síntomas de primer rango, de mayor peso diagnóstico, incluyó la percepción delirante (Schneider 1950).' }),
+        text: 'Aplicó la metodología de Jaspers al estudio de la esquizofrenia (Hoenig 1983). Entre los síntomas de primer rango, de mayor peso diagnóstico en ausencia de enfermedad somática, incluyó la percepción delirante (Schneider 1950).' }),
       F.box('a2', { x: cx(1), y, w: CW, type: 'act', fs: FS, node: 'apofania', align: 'left', title: 'Conrad: análisis gestáltico del delirio',
-        text: 'Se centró en las vivencias de las fases prodrómica y psicótica inicial y en el papel del humor (Mishara 2010). Fases: trema, apofanía, anastrofé y apocalipsis (Conrad 1958; Sass y Byrom 2015b).' }),
+        text: 'Se centró en las vivencias de las fases prodrómica y psicótica inicial y en el papel del humor (Mishara 2010). Secuencia trema, apofanía y apocalipsis (Hambrecht y Häfner 1993); apofanía y anastrofé nombran cambios del mundo y del yo (Sass y Byrom 2015b).' }),
       F.box('a3', { x: cx(2), y, w: CW, type: 'act', fs: FS, node: 'matussek_gestalt', align: 'left', title: 'Matussek: descontextualización',
         text: 'Estudió los cambios del mundo percibido al comienzo del delirio primario (Matussek 1952); su noción de descontextualización perceptiva sigue en la discusión actual sobre el humor delirante (Sass y Byrom 2015b).' }),
       F.box('a4', { x: cx(3), y, w: CW, type: 'act', fs: FS, node: 'intencionalidad', align: 'left', title: 'Fuchs: del humor a la percepción delirante',
@@ -175,7 +174,7 @@ module.exports = {
     y = bottom(a) + 34;
     const b = [
       F.box('b1', { x: cx(0), y, w: CW, type: 'act', fs: FS, node: 'segundo_rango', align: 'left', title: 'Schneider: segundo rango',
-        text: 'La ocurrencia delirante, a diferencia de la percepción delirante, queda entre los síntomas de segundo rango (Schneider 1950). Con la percepción delirante intentó prescindir del criterio de imposibilidad (Spitzer 1990).' }),
+        text: 'La ocurrencia delirante, a diferencia de la percepción delirante, queda entre los síntomas de segundo rango (Schneider 1950). Con la percepción delirante intentó prescindir del criterio de imposibilidad; Spitzer (1990) juzga errónea esa definición.' }),
       F.box('b2', { x: cx(1), y, w: CW, type: 'act', fs: FS, node: 'apocalipsis_conrad', align: 'left', title: 'Conrad: secuencia de fases',
         text: 'Modelo de fases del inicio de la esquizofrenia muy influyente en la psiquiatría alemana; su orden empírico se ha puesto a prueba (Hambrecht y Häfner 1993; véase la matriz).' }),
       F.box('b3', { x: cx(2), y, w: CW, type: 'act', fs: FS, node: 'intersubj_sinton', align: 'left', title: 'Stanghellini: psicopatología centrada en la persona',
@@ -189,7 +188,7 @@ module.exports = {
     const HW = Math.floor((W - 2 * L - G) / 2);
     const k = [
       F.box('k1', { x: L, y, w: HW, type: 'act', fs: FS, node: 'delirio', align: 'left', title: 'Críticas a los criterios externos del delirio',
-        text: 'Spitzer (1990): la definición del DSM-III-R es incoherente; propone definir el delirio por el modo en que se afirman ciertos contenidos sobre la realidad externa, sin juzgar si son verdaderos. Findeis (2020): el criterio de imposibilidad del contenido puede ser innecesario. Parnas, Sass y Zahavi (2013): los síntomas no se captan con definiciones operativas descontextualizadas.' }),
+        text: 'Spitzer (1990): la definición del DSM-III-R presenta incoherencias; propone definir el delirio por el modo en que se afirman ciertos contenidos sobre la realidad externa, sin juzgar si son verdaderos. Findeis (2020): el criterio de imposibilidad del contenido puede ser innecesario. Parnas, Sass y Zahavi (2013): los síntomas no se captan con definiciones operativas descontextualizadas.' }),
       F.box('k2', { x: L + HW + G, y, w: HW, type: 'act', fs: FS, node: 'saliencia', align: 'left', title: 'Del humor delirante a la saliencia aberrante',
         text: 'Mishara y Fusar-Poli (2013) presentan el humor delirante y los síntomas «Truman» como núcleo del inicio psicótico y los relacionan con los modelos de saliencia aberrante y desregulación dopaminérgica: el delirio se forma por pérdida de contexto en su origen perceptivo y vivencial. Hipótesis compatibles, no demostradas por la fenomenología.' })
     ];
@@ -197,22 +196,22 @@ module.exports = {
     y = bottom(k) + 60;
 
     // ---------- Bloque 5: matriz de evidencia ----------
-    y = F.band(y, 'Tesis de Jaspers y de Schneider frente a la evidencia empírica', { n: 5 }) + 22;
+    y = F.band(y, 'Tesis de Jaspers, Schneider y Conrad frente a la evidencia empírica', { n: 5 }) + 22;
     const t = F.table({ x: L, y, fs: 17, cols: [{ w: 330, label: 'Tesis (autor)' }, { w: 420, label: 'Cómo se ha operativizado' }, { w: 1060, label: 'Estudios y resultado principal' }, { w: 470, label: 'Diseño y valoración' }],
       rows: [
-        [{ t: 'Incomprensibilidad como criterio (Jaspers)', node: 'jaspers_compr' }, 'Delirio «extravagante» del DSM-III-R/IV, descrito en origen como absurdo o incomprensible (Cermolacce 2010)', 'Psiquiatras con 40 ideas delirantes: kappa < 0,40 con o sin definición estructurada (Flaum 1991). 180 delirios: kappa 0,64 con la definición del DSM-III-R (Spitzer RL 1993). 50 psiquiatras con 30 viñetas: acuerdo de moderado a escaso (Mojtabai 1995). En primeros ingresos, kappa 0,68 para la extravagancia frente a 0,86 para los síntomas de primer rango (Tanenberg-Karant 1995). Revisión: los delirios en general se diagnostican con fiabilidad; los extravagantes, no (Bell 2006). El DSM-5 retiró su peso especial (Sass y Byrom 2015a)', { sym: '●●○', t: 'estudios sobre la extravagancia, no sobre el juicio jaspersiano; sin estudios de fiabilidad de la incomprensibilidad como tal [fuente no localizada]' }],
+        [{ t: 'Incomprensibilidad como criterio (Jaspers)', node: 'jaspers_compr' }, 'Delirio «extravagante» del DSM-III-R/IV, descrito en origen como absurdo o incomprensible (Cermolacce 2010)', 'Psiquiatras con 40 ideas delirantes: kappa < 0,40 con o sin definición estructurada (Flaum 1991). 180 delirios: kappa 0,64 con la definición del DSM-III-R (Spitzer RL 1993). 50 psiquiatras con 30 viñetas: kappa de moderado a regular, insuficiente para la práctica (Mojtabai 1995). En primeros ingresos, kappa 0,68 para la extravagancia frente a 0,86 para los síntomas de primer rango (Tanenberg-Karant 1995). Revisión: los delirios en general se diagnostican con fiabilidad; los extravagantes, no (Bell 2006). El DSM-5 retiró su peso especial (Sass y Byrom 2015a)', { sym: '●●○', t: 'estudios sobre la extravagancia, no sobre el juicio jaspersiano; sin estudios de fiabilidad de la incomprensibilidad como tal [fuente no localizada]' }],
         [{ t: 'Vivencia delirante primaria como origen (Jaspers)', node: 'wahnbewusstheit' }, 'Entrevista DOAI: percepción, recuerdo, humor e intuición delirantes', '108 personas con esquizofrenia o trastorno esquizoafectivo: 93 % refiere fenómenos primarios como origen y 84 % los presenta; asociaciones con temas persecutorios (percepción y humor) y de grandeza (intuición) (Hayashi 2021). Según los autores, primera verificación empírica del concepto', { sym: '●●○', t: 'transversal, sin comparación con otros diagnósticos; relato retrospectivo' }],
         [{ t: 'Fases del inicio del delirio (Conrad)', node: 'conrad_1958' }, 'Evaluación retrospectiva de la sintomatología inicial en el estudio ABC', '267 primeros ingresos representativos: el trema se confirmó como primera fase frecuente; no se validó el orden propuesto entre apofanía y apocalipsis (Hambrecht y Häfner 1993)', { sym: '●●○', t: 'modelo solo parcialmente generalizable; datos retrospectivos' }],
         [{ t: 'Síntomas de primer rango (Schneider)', node: 'schneider_1950' }, 'Presencia de uno o más síntomas de primer rango frente al diagnóstico clínico', 'Cochrane, 21 estudios y 6253 participantes: sensibilidad 57 % y especificidad 81,4 % frente a todos los diagnósticos; frente a otras psicosis, 58 % y 74,7 % (Soares-Weiser 2015). En 660 ingresados, razón de verosimilitud 1,06 con criterios de Feighner (Peralta y Cuesta 1999). Presentes en el 70 % de la esquizofrenia, el 29 % del trastorno bipolar psicótico y el 18 % de la depresión psicótica (Tanenberg-Karant 1995)', { sym: '●●●', t: 'estudios antiguos de calidad limitada; Nordgaard (2008) pide restarles peso hasta aclarar su estatus' }],
         [{ t: 'Certeza e incorregibilidad (Jaspers)', node: 'delirio' }, 'Medidas dimensionales de la convicción y otras dimensiones del delirio', 'Nueve casos únicos: dimensiones desincronizadas y sin covariación (Brett-Jones 1987). 1136 ingresados: 29 % con delirio definido o posible; las convicciones religiosas y de grandeza fueron las más firmes y la estructura dimensional fue estable entre diagnósticos (Appelbaum 1999)', { sym: '●●○', t: 'la convicción es graduable y variable, no un todo o nada' }],
-        [{ t: 'Discontinuidad entre delirio y creencia normal', node: 'tdelirant' }, 'Inventario PDI en población general y en pacientes', 'Cada ítem fue suscrito, de media, por una de cada cuatro personas adultas; las puntuaciones de población general y de pacientes se solaparon y se diferenciaron por malestar, preocupación y convicción (Peters 1999)', { sym: '●●○', t: 'apoya un continuo; el inventario mide ideación, no vivencias primarias' }]
+        [{ t: 'Discontinuidad entre delirio y creencia normal', node: 'delirio' }, 'Inventario PDI en población general y en pacientes', 'Cada ítem fue suscrito, de media, por una de cada cuatro personas adultas; las puntuaciones de población general y de pacientes se solaparon y se diferenciaron por malestar, preocupación y convicción (Peters 1999)', { sym: '●●○', t: 'apoya un continuo; el inventario mide ideación, no vivencias primarias' }]
       ] });
     y = t.y + 40;
 
     F.box('lim', { x: L, y, w: W - 2 * L, type: 'lim', align: 'left', fs: 19, title: 'Límites de esta figura',
-      text: 'Esquema docente: no es un algoritmo diagnóstico ni sustituye al juicio clínico. La obra primaria de Jaspers, Schneider, Conrad y Kretschmer no se ha cotejado: su contenido se resume a partir de fuentes secundarias indexadas, y la exposición de la tipología de vivencias delirantes sigue la lectura habitual de la Psicopatología general. Los intérpretes discrepan sobre qué entendía Jaspers por comprender. La incomprensibilidad, el proceso y el delirio primario son conceptos teóricos; la evidencia empírica disponible se refiere sobre todo a operativizaciones afines (extravagancia, síntomas de primer rango, dimensiones del delirio), con estudios antiguos o de diseño limitado. Calificar algo de «incomprensible» depende de quien explora y de su conocimiento cultural y biográfico.' });
+      text: 'Esquema docente: no es un algoritmo diagnóstico ni sustituye al juicio clínico. La obra primaria de Jaspers, Schneider, Conrad y Kretschmer no se ha cotejado: su contenido se resume a partir de fuentes secundarias indexadas, y la exposición de la tipología de vivencias delirantes sigue la lectura habitual de la Psicopatología general. Los intérpretes discrepan sobre qué entendía Jaspers por comprender. La incomprensibilidad, el proceso y el delirio primario son conceptos teóricos; la evidencia empírica disponible se refiere sobre todo a operativizaciones afines (extravagancia, síntomas de primer rango, dimensiones del delirio), con estudios antiguos o de diseño limitado. Calificar algo de «incomprensible» depende de quien explora, del contexto biográfico y cultural y del encuentro intersubjetivo (Mishara y Fusar-Poli 2013; Cermolacce 2010).' });
 
-    F.footer('Fuentes: Jaspers 1913 y 1968 (PMID 5702272); Schneider 1950; Conrad 1958; Häfner 2013 (24121445) y 2015 (25987860); Walker 1991 (1840789) y 2014 (25114147); Aragona 2019 (31130019); Kumazaki 2013 (24573260); Brücher 2012 (22009272); Kendler y Campbell 2014 (23343526); Fuchs 2005 (15905636) y 2010 (20516753); Stanghellini 2007 (17215592) y 2013 (23314193); Parnas 2013 (23267191); Bovet y Parnas 1993 (8235460); Sass y Byrom 2015 (26346263; 26043327); Spitzer 1990 (2225797); Mishara 2010 (19965934); Mishara y Fusar-Poli 2013 (23354468); Hambrecht y Häfner 1993 (8112705); Hayashi 2021 (33905443); Cermolacce 2010 (20142381); Bell 2006 (16857345); Soares-Weiser 2015 (25879096); Peralta y Cuesta 1999 (10448450); Nordgaard 2008 (17562695); Appelbaum 1999 (10588408); Peters 1999 (10478789). Esquema docente de apoyo; no sustituye al juicio clínico.');
+    F.footer('Fuentes: Jaspers 1913 y 1968 (PMID 5702272); Schneider 1950; Conrad 1958; Häfner 2013 (24121445) y 2015 (25987860); Walker 1991 (1840789) y 2014 (25114147); Aragona 2019 (31130019); Kumazaki 2013 (24573260); Brücher 2012 (22009272); Kendler y Campbell 2014 (23343526); Fuchs 2005 (15905636) y 2010 (20516753); Stanghellini 2007 (17215592) y 2013 (23314193); Parnas 2013 (23267191); Bovet y Parnas 1993 (8235460); Sass y Byrom 2015 (26346263; 26043327); Spitzer 1990 (2225797); Mishara 2010 (19965934); Mishara y Fusar-Poli 2013 (23354468); Piedade y Messas 2026 (41852271); Spencer y Broome 2026 (41675301); Hambrecht y Häfner 1993 (8112705); Hayashi 2021 (33905443); Cermolacce 2010 (20142381); Bell 2006 (16857345); Soares-Weiser 2015 (25879096); Peralta y Cuesta 1999 (10448450); Nordgaard 2008 (17562695); Appelbaum 1999 (10588408); Peters 1999 (10478789). Esquema docente de apoyo; no sustituye al juicio clínico.');
     return F;
   }
 };
