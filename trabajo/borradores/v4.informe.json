@@ -1,0 +1,293 @@
+{
+ "pmid_comprobados": 72,
+ "pmid_erroneos": 0,
+ "nota_pmid": "Se comprobaron en PubMed los 72 PMID únicos del parche original (autor, año, revista, volumen, páginas y dato en el resumen): ninguno tenía metadatos erróneos. También se comprobaron 5 PMID nuevos (31581800, 37322064, 28641372, 33145770, 32161557) y PMID ya presentes en las fichas usados como contraste (22945416, 10482346, 22193673, 23760347, 30718848, 38191549, 42713711). Los errores encontrados eran de atribución o interpretación, no bibliográficos.",
+ "cambios": [
+  {
+   "id": "mayberg",
+   "gravedad": "menor",
+   "antes": "en el ensayo multicéntrico aleatorizado (90 pacientes;",
+   "despues": "en el ensayo multicéntrico aleatorizado BROADEN (NCT00617162; 90 pacientes;",
+   "fuente": "Holtzheimer 2017, PMID 28988904 (registro NCT00617162)"
+  },
+  {
+   "id": "mayberg",
+   "gravedad": "mayor",
+   "antes": "ilustra la distancia entre una serie abierta prometedora y la eficacia demostrada.",
+   "despues": "ilustra la distancia entre una serie abierta prometedora y la eficacia demostrada; en cambio, el seguimiento abierto de 28 pacientes durante 4 a 8 años mantuvo tasas de respuesta de al menos el 50 % y de remisión de al menos el 30 % (Crowell 2019), discrepancia que puede deberse al diseño abierto, a la duración del seguimiento o a la colocación del electrodo, factor que los autores del ensayo proponen investigar (Holtzheimer 2017).",
+   "fuente": "Crowell 2019, PMID 31581800; Holtzheimer 2017, PMID 28988904"
+  },
+  {
+   "id": "mayberg",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "refsAdd: Crowell AL et al. (2019). Long-term outcomes of subcallosal cingulate deep brain stimulation for treatment-resistant depression. Am J Psychiatry 176:949-956 · PMID 31581800",
+   "fuente": "Equilibrio de la evidencia de la estimulación del cíngulo subcalloso (seguimiento abierto frente a ensayo negativo)"
+  },
+  {
+   "id": "mayberg",
+   "gravedad": "menor",
+   "antes": "relAdd: drt, rumiacion_persev",
+   "despues": "relAdd: drt",
+   "fuente": "rumiacion_persev ya figura en las relaciones de la ficha (q.js show mayberg)"
+  },
+  {
+   "id": "dmn",
+   "gravedad": "menor",
+   "antes": "y la red por defecto se altera de forma inespecífica en casi todos los trastornos estudiados (Whitfield-Gabrieli y Ford 2012)",
+   "despues": "y la red por defecto se altera en numerosos trastornos neuropsiquiátricos, lo que limita su especificidad (Whitfield-Gabrieli y Ford 2012)",
+   "fuente": "Whitfield-Gabrieli y Ford 2012, PMID 22224834 (no afirma «casi todos»)"
+  },
+  {
+   "id": "dmn",
+   "gravedad": "menor",
+   "antes": "link psilocib en «Relación con otros niveles explicativos»",
+   "despues": "enlace retirado",
+   "fuente": "La sección no menciona la psilocibina"
+  },
+  {
+   "id": "disconex",
+   "gravedad": "menor",
+   "antes": "la cronicidad, que no siempre se controlan.",
+   "despues": "la cronicidad, que no siempre se controlan [fuente no localizada].",
+   "fuente": "Afirmación sin fuente; Kelly 2018 (PMID 29038599) no la recoge"
+  },
+  {
+   "id": "dep_neurob",
+   "gravedad": "menor",
+   "antes": "como el estrés de minorías descrito por Meyer (2003), actúan a través del eje del estrés y de la inflamación,",
+   "despues": "como el estrés de minorías descrito por Meyer (2003), se han propuesto como vías hacia la depresión a través del eje del estrés y de la inflamación,",
+   "fuente": "Meyer 2003 (PMID 12956539) describe un modelo psicosocial, no un mecanismo biológico demostrado"
+  },
+  {
+   "id": "nmda_psic",
+   "gravedad": "mayor",
+   "antes": "un patrón compatible con desinhibición pero también con efectos de medicación y fase.",
+   "despues": "un patrón que varía con la fase de la enfermedad; la metarregresión no halló relación con la edad, la gravedad ni la dosis de antipsicótico.",
+   "fuente": "Merritt 2016, PMID 27304221: «Meta-regression found no association with age, symptom severity, or antipsychotic dose»"
+  },
+  {
+   "id": "nmda_psic",
+   "gravedad": "menor",
+   "antes": "y solo uno de seis brazos activos mostró ventaja como coadyuvante (Bugarski-Kirola 2016).",
+   "despues": "y solo uno de seis brazos activos mostró una ventaja pequeña como coadyuvante sobre los síntomas positivos persistentes (Bugarski-Kirola 2016).",
+   "fuente": "Bugarski-Kirola 2016, PMID 27816567 (variable principal: síntomas positivos)"
+  },
+  {
+   "id": "nmda_psic",
+   "gravedad": "menor",
+   "antes": "cuya alteración sería en gran parte secundaria a otros factores; la hipofunción NMDA",
+   "despues": "cuya alteración se debería predominantemente a otros factores; según el modelo clásico recogido en la ficha, la hipofunción NMDA",
+   "fuente": "McCutcheon 2020, PMID 31922684 («predominantly due to other factors»); Olney y Farber 1995 en la ficha"
+  },
+  {
+   "id": "dopa_na_tdah",
+   "gravedad": "menor",
+   "antes": "en el que la metanfetamina y otros estimulantes pueden confundirse con automedicación del TDAH.",
+   "despues": "en el que el uso de metanfetamina y otros estimulantes puede responder en parte a una automedicación de síntomas de TDAH no diagnosticado [fuente no localizada].",
+   "fuente": "Afirmación sin fuente; redacción aclarada"
+  },
+  {
+   "id": "dopa_na_tdah",
+   "gravedad": "menor",
+   "antes": "se centran en población infantil masculina y de ascendencia europea, y el infradiagnóstico",
+   "despues": "se centran en población infantil masculina y de ascendencia europea [fuente no localizada], y el infradiagnóstico",
+   "fuente": "Cortese 2018 (PMID 30097390) solo respalda la corta duración"
+  },
+  {
+   "id": "dopa_hyp",
+   "gravedad": "mayor",
+   "antes": "a las preferencias de la persona, según las guías.",
+   "despues": "a las preferencias de la persona, como proponen los propios autores.",
+   "fuente": "Huhn 2019, PMID 31303314: la recomendación procede de los autores; no se ha verificado la atribución a guías"
+  },
+  {
+   "id": "dopa_hyp",
+   "gravedad": "mayor",
+   "antes": ", lo que apoya derivar pronto a clozapina en la resistencia en lugar de intensificar el bloqueo D2.",
+   "despues": ", lo que sugiere una fisiopatología distinta en parte de la resistencia y ayuda a entender por qué intensificar el bloqueo D2 resulta poco útil en ella [fuente no localizada]; NICE CG178 (2014) indica ofrecer clozapina cuando no ha habido respuesta adecuada a dos antipsicóticos a dosis adecuadas.",
+   "fuente": "Demjaha 2012, PMID 23034655 (no hace recomendación terapéutica); NICE CG178 (2014)"
+  },
+  {
+   "id": "dopa_hyp",
+   "gravedad": "menor",
+   "antes": "por lo que su alteración sería en gran parte secundaria a otros factores.",
+   "despues": "por lo que su alteración se debería predominantemente a otros factores.",
+   "fuente": "McCutcheon 2020, PMID 31922684"
+  },
+  {
+   "id": "monoamin",
+   "gravedad": "mayor",
+   "antes": "La caída de la hipótesis como explicación causal no invalida los tratamientos que generó:",
+   "despues": "Que la versión simple de la hipótesis (un déficit de serotonina como causa) carezca de apoyo consistente no invalida los tratamientos que generó:",
+   "fuente": "Moncrieff 2023 (PMID 35854107) y Jauhar 2023 (PMID 37322065): debate abierto; se evita presentar la hipótesis como «caída»"
+  },
+  {
+   "id": "monoamin",
+   "gravedad": "mayor",
+   "antes": "La diferencia con el placebo aumenta con la gravedad inicial y es pequeña en la depresión leve o moderada, sobre todo por una menor respuesta al placebo en los casos muy graves (Kirsch 2008), lo que apoya priorizar la psicoterapia y otras intervenciones en cuadros leves y reservar el fármaco para cuadros moderados o graves, en línea con las guías [fuente no localizada].",
+   "despues": "En los ensayos remitidos a la FDA, la diferencia con el placebo aumentó con la gravedad inicial: prácticamente nula en niveles moderados y relativamente pequeña incluso en la depresión muy grave, sobre todo por una menor respuesta al placebo en los casos más graves (Kirsch 2008). En esa línea, NICE NG222 (2022) desaconseja ofrecer de forma sistemática antidepresivos como primera línea en la depresión menos grave, salvo preferencia de la persona.",
+   "fuente": "Kirsch 2008, PMID 18303940 (no incluyó depresión leve; «virtually no difference at moderate levels»); NICE NG222 (2022)"
+  },
+  {
+   "id": "monoamin",
+   "gravedad": "menor",
+   "antes": "«desequilibrio químico», que no tiene respaldo y puede",
+   "despues": "«desequilibrio químico», que no tiene respaldo empírico en su forma simple y puede",
+   "fuente": "Moncrieff 2023; Jauhar 2023 (ambos rechazan la versión simplificada)"
+  },
+  {
+   "id": "monoamin",
+   "gravedad": "mayor",
+   "antes": "sostuvieron que el sistema serotoninérgico sí está implicado en la depresión (Jauhar 2023).",
+   "despues": "sostuvieron que el sistema serotoninérgico sí está implicado en la depresión (Jauhar 2023); los autores de la revisión respondieron en una réplica titulada «The serotonin hypothesis of depression: both long discarded and still supported?» (Moncrieff 2023b).",
+   "fuente": "Moncrieff 2023b, PMID 37322064 (réplica sin resumen; solo se cita su título)"
+  },
+  {
+   "id": "monoamin",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "refsAdd: Moncrieff J et al. (2023b). The serotonin hypothesis of depression: both long discarded and still supported? Mol Psychiatry 28:3160-3163 · PMID 37322064",
+   "fuente": "Réplica de Moncrieff a Jauhar 2023 (equilibrio del debate); sin resumen en PubMed, citada solo por su título"
+  },
+  {
+   "id": "gaba_interneur",
+   "gravedad": "menor",
+   "antes": "por lo que su empleo en la psicosis se limita a la agitación o la catatonia.",
+   "despues": "por lo que su empleo en la psicosis se limita a la agitación o la catatonia [fuente no localizada].",
+   "fuente": "Afirmación clínica sin fuente en el parche"
+  },
+  {
+   "id": "hha_dep",
+   "gravedad": "menor",
+   "antes": "debe descartarse una causa endocrina o farmacológica.",
+   "despues": "debe descartarse una causa endocrina o farmacológica, en coherencia con el criterio de exclusión del episodio depresivo mayor del DSM-5-TR (efectos fisiológicos de una sustancia o de otra afección médica).",
+   "fuente": "DSM-5-TR, criterio C del episodio depresivo mayor"
+  },
+  {
+   "id": "hha_dep",
+   "gravedad": "menor",
+   "antes": "Las muestras proceden casi siempre de países de renta alta.",
+   "despues": "Las muestras proceden casi siempre de países de renta alta [fuente no localizada].",
+   "fuente": "Afirmación sin fuente"
+  },
+  {
+   "id": "hha_dep",
+   "gravedad": "menor",
+   "antes": "FKBP5 modula la sensibilidad del receptor de glucocorticoides en interacción con el trauma.",
+   "despues": "FKBP5 modula la sensibilidad del receptor de glucocorticoides en interacción con el trauma, con los matices de replicación que recoge su ficha.",
+   "fuente": "Coherencia con la ficha fkbp5_epigen (Binder 2008, Klengel 2013)"
+  },
+  {
+   "id": "inflam",
+   "gravedad": "menor",
+   "antes": "en 37 estudios con 13.541 pacientes, la prevalencia",
+   "despues": "en 37 estudios con 13.541 pacientes y 155.728 controles, de muestras hospitalarias, ambulatorias y poblacionales, la prevalencia",
+   "fuente": "Osimo 2019, PMID 31258105 (población)"
+  },
+  {
+   "id": "inflam",
+   "gravedad": "menor",
+   "antes": "con una odds ratio de 1,46 frente a controles emparejados (Osimo 2019).",
+   "despues": "con una odds ratio de 1,46 para PCR > 3 mg/L frente a controles emparejados en 17 estudios (Osimo 2019).",
+   "fuente": "Osimo 2019, PMID 31258105"
+  },
+  {
+   "id": "inflam",
+   "gravedad": "menor",
+   "antes": "En el ensayo con infliximab en depresión resistente, el efecto se limitó a quienes tenían marcadores inflamatorios elevados (Raison 2013).",
+   "despues": "En el ensayo con infliximab en 60 pacientes con depresión resistente no hubo diferencia global con el placebo; el cambio favoreció al fármaco solo con PCR ultrasensible basal superior a 5 mg/L (Raison 2013).",
+   "fuente": "Raison 2013, PMID 22945416; se evita duplicar la ficha y se añade la cifra"
+  },
+  {
+   "id": "inflam",
+   "gravedad": "menor",
+   "antes": "y en monoterapia (−0,41; N = 8.825),",
+   "despues": "y en monoterapia, en muestras que incluían personas con síntomas depresivos sin diagnóstico de depresión mayor (−0,41; N = 8.825; I² = 93 %),",
+   "fuente": "Köhler-Forsberg 2019, PMID 30834514"
+  },
+  {
+   "id": "inflam",
+   "gravedad": "menor",
+   "antes": "el de Dowlati (2010) halló elevación de TNF-α e IL-6 pero no de otras citocinas.",
+   "despues": "el de Dowlati (2010), con 24 estudios (TNF-α en 438 pacientes y 350 controles; IL-6 en 492 y 400), halló elevación de ambas pero no de otras citocinas.",
+   "fuente": "Dowlati 2010, PMID 20015486 (población)"
+  },
+  {
+   "id": "inflam",
+   "gravedad": "mayor",
+   "antes": "y el sesgo de muestra por ascendencia y nivel socioeconómico, que se asocia a la propia inflamación, rara vez se analiza [fuente no localizada].",
+   "despues": "y, aunque en el metaanálisis de Osimo (2019) la prevalencia de inflamación no varió con la etnia, el nivel socioeconómico, asociado a la propia inflamación, rara vez se controla [fuente no localizada].",
+   "fuente": "Osimo 2019, PMID 31258105: prevalencia no asociada a la etnia"
+  },
+  {
+   "id": "inflam",
+   "gravedad": "menor",
+   "antes": "el maltrato infantil se asoció a un riesgo 1,80 veces mayor de PCR elevada a los 32 años, independiente de otros riesgos tempranos, del estrés adulto y de la conducta de salud (Danese 2007)",
+   "despues": "el maltrato infantil se asoció a un riesgo 1,80 veces mayor de PCR clínicamente relevante a los 32 años, que se mantuvo entre 1,58 y 1,76 al ajustar por otros riesgos tempranos, el estrés adulto y la salud y conducta de salud adultas (Danese 2007)",
+   "fuente": "Danese 2007, PMID 17229839 (1,80 es la estimación sin ajustar)"
+  },
+  {
+   "id": "autoinm_infec",
+   "gravedad": "menor",
+   "antes": "La interleucina 6 elevada a los 9 años se asoció",
+   "despues": "La interleucina 6 a los 9 años (tercil superior frente al inferior) se asoció",
+   "fuente": "Khandaker 2014, PMID 25133871"
+  },
+  {
+   "id": "circad",
+   "gravedad": "menor",
+   "antes": "El UK Biobank es una muestra de mediana edad, mayoritariamente de ascendencia europea y con mejor salud que la población general [fuente no localizada].",
+   "despues": "El UK Biobank no es representativo de la población: sus participantes, de 40 a 69 años al reclutamiento, vivían en zonas menos desfavorecidas, fumaban y bebían menos y tenían menos problemas de salud, con sesgo de «voluntario sano» (Fry 2017), y son mayoritariamente de ascendencia europea [fuente no localizada].",
+   "fuente": "Fry 2017, PMID 28641372"
+  },
+  {
+   "id": "circad",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "refsAdd: Fry A et al. (2017). Comparison of sociodemographic and health-related characteristics of UK Biobank participants with those of the general population. Am J Epidemiol 186:1026-1034 · PMID 28641372",
+   "fuente": "Sustenta el sesgo de selección del UK Biobank"
+  },
+  {
+   "id": "priv_sueno",
+   "gravedad": "mayor",
+   "antes": "sin diferencias según el tipo de privación, el diagnóstico o la medicación (Boland 2017); su uso",
+   "despues": "sin diferencias según el tipo de privación, el diagnóstico o la medicación (Boland 2017); en cambio, en ocho estudios controlados (368 pacientes), añadir privación de sueño al tratamiento habitual no redujo significativamente los síntomas a la semana (diferencia media estandarizada −0,29; Ioannou 2021). Su uso",
+   "fuente": "Ioannou 2021, PMID 33145770"
+  },
+  {
+   "id": "priv_sueno",
+   "gravedad": "mayor",
+   "antes": "El riesgo de viraje se ha estudiado sobre todo en series italianas con litio concomitante [fuente no localizada], lo que limita su generalización.",
+   "despues": "El riesgo de viraje procede sobre todo de series de casos: en 206 personas con depresión bipolar tratadas con tres ciclos de privación, sola o con medicación heterogénea, fue del 4,85 % a manía y del 5,83 % a hipomanía, cifras comparables a las de los antidepresivos (Colombo 1999, en la ficha); las series revisadas por Ioannou (2021) oscilan entre el 2,7 y el 10,7 %, y el metaanálisis de Ramirez-Mahaluf (2020) en depresión bipolar no halló diferencias de viraje entre las estrategias comparadas.",
+   "fuente": "Colombo 1999, PMID 10482346 (medicación heterogénea, no litio); Ioannou 2021, PMID 33145770; Ramirez-Mahaluf 2020, PMID 32161557"
+  },
+  {
+   "id": "priv_sueno",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "refsAdd: Ioannou M et al. (2021). Sleep deprivation as treatment for depression: systematic review and meta-analysis. Acta Psychiatr Scand 143:22-35 · PMID 33145770",
+   "fuente": "Equilibrio de eficacia y datos de viraje"
+  },
+  {
+   "id": "priv_sueno",
+   "gravedad": "menor",
+   "antes": "(sin referencia)",
+   "despues": "refsAdd: Ramirez-Mahaluf JP et al. (2020). Effectiveness of sleep deprivation in treating acute bipolar depression as augmentation strategy: a systematic review and meta-analysis. Front Psychiatry 11:70 · PMID 32161557",
+   "fuente": "Metaanálisis en depresión bipolar solicitado; viraje sin diferencias"
+  }
+ ],
+ "sin_resolver": [
+  "biomark_bip (referencias previas sin PMID, no modificables con refsAdd): Caporali 2026 es PMID 42537498, título exacto «The impact of functional architecture dynamics in bipolar disorder staging», Neuroimage Clin 51:104045 (123 personas en cinco estadios; en la ficha el título no es exacto). Zhao 2026 es PMID 42702788, Zhao S et al., «EEG biomarkers for affective disorders diagnosis: an evaluation and validation study», Hum Brain Mapp 47:e70628: la muestra mezcla esquizofrenia, trastorno esquizoafectivo, TB (n = 32) y TDM; calificarlo de «prueba de concepto» de diagnóstico afectivo es impreciso. Ji 2021 es PMID 34153355, Ji S et al., «Aberrant temporal variability in brain regions during risk decision making in patients with bipolar I disorder: a dynamic effective connectivity study», Neuroscience 469:68-78 (48 TB-I y 53 controles: cuadra con la ficha). Conviene sustituir las tres referencias por las versiones completas con PMID.",
+  "biomark_bip: la referencia Jiang 2024 (PMID 38191549) no tiene título en la ficha: «Identifying misdiagnosed bipolar disorder using support vector machine: feature selection based on fMRI of follow-up confirmed affective disorders». Sus cifras cuadran con el resumen.",
+  "mod_anim_bip: Narain 2026 es PMID 42711407, Narain P et al., Mol Psychiatry (aún sin volumen ni páginas), título exacto «Distinct depressive-like behavioural phenotypes in mice exhibit unique patterns of transcriptional perturbations across habenular cell subtypes». Es un modelo de estrés por derrota social crónica, con transcriptómica de la habénula, aplicado a la depresión y la resiliencia, no a la depresión bipolar: su inclusión en esta ficha y la viñeta «Fenotipos depresivos distintos con perfiles transcriptómicos propios» deberían matizarse, o bien llevarse a habenula_lat.",
+  "bdnf_np (texto previo de la ficha, fuera del alcance del parche): la viñeta «BDNF reducido en depresión mayor: correlaciona con severidad» la contradice Molendijk 2014 (PMID 23958957), que no halla asociación consistente con la gravedad. Hay que corregirla en la ficha.",
+  "circad (texto previo de la ficha): «Privación de sueño: respuesta antidepresiva rápida en ≈60 %» (Wu y Bunney 1990) no cuadra con Boland 2017 (45-50 %) ni con Ioannou 2021 (sin efecto significativo en ensayos controlados a la semana). Conviene matizarla.",
+  "monoamin: la réplica de Moncrieff et al. 2023 (PMID 37322064) no tiene resumen en PubMed; solo se cita su existencia y su título, sin atribuirle contenido.",
+  "NICE NG222 (2022: no ofrecer de forma sistemática antidepresivos como primera línea en la depresión menos grave, salvo preferencia) y NICE CG178 (2014: clozapina tras falta de respuesta a dos antipsicóticos a dosis adecuadas) se citan por su contenido, que es conocido y ya figura citado en otras fichas del atlas. No se han cotejado en línea en esta sesión ni se da número de recomendación: conviene comprobarlo antes de publicar.",
+  "microbiota: que HELIUS sea una cohorte «multiétnica» es un rasgo conocido de la cohorte, pero no figura en el resumen de Radjabzadeh 2022 (PMID 36473852).",
+  "mayberg: el carácter monocéntrico de PReDICT (Dunlop 2017) no figura en el resumen. El texto solo afirma un mismo grupo académico (Emory), lo que respaldan las afiliaciones de McGrath 2013 y Dunlop 2017.",
+  "Siguen marcados «[fuente no localizada]», por ser clínicamente razonables pero no verificados: la diversidad de las muestras (mayberg, dmn, disconex, nmda_psic, dopa_hyp, dopa_na_tdah, hha_dep, circad); la mejora de la atención con estimulantes en personas sin TDAH; el valor predictivo funcional del deterioro cognitivo; la inespecificidad de las alteraciones gamma; la maduración tardía de las interneuronas y el cannabis; el BDNF sérico y las plaquetas; la ausencia de estudios en personas trans o no binarias; el uso de benzodiacepinas limitado a agitación o catatonia; la automedicación con estimulantes en el chemsex; la utilidad escasa de intensificar el bloqueo D2 en la resistencia; y los factores de confusión inespecíficos en la difusión (disconex).",
+  "El riesgo de viraje con privación de sueño ya no queda sin fuente: se sustenta en Colombo 1999 (ya presente en la ficha), Ioannou 2021 y Ramirez-Mahaluf 2020. Boland 2017 (PMID 28937707) no aporta datos de viraje en su resumen."
+ ]
+}
