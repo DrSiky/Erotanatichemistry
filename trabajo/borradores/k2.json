@@ -1,0 +1,1828 @@
+{
+ "patch": {
+  "psciclb": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Karl Kleist delimitó en Fráncfort las «psicosis degenerativas autóctonas» (Kleist 1921, Z Ges Neurol Psychiatr 69:1-11) y, en 1928, agrupó como psicosis marginales (Randpsychosen) las formas cicloides, paranoides y epileptoides, situadas en el margen de la locura maníaco-depresiva y de la demencia precoz (Kleist 1928, Schweiz Arch Neurol Psychiatr 23:3-37). «Autóctona» designaba un origen endógeno no explicable por causa exógena ni reactiva, y «degenerativa» remitía a la teoría de la degeneración hereditaria del siglo XIX. Su marco era neuroanatómico: heredero de Wernicke, Kleist buscaba sistemas cerebrales alterados para cada cuadro. Literatura secundaria: la revisión de Jabs et al. (2002) sitúa el concepto moderno en la delimitación fenotípica de Leonhard y atribuye a Wernicke y Kleist su preparación; Leonhard (1957) conservó el término «cicloide» pero lo restringió a tres formas bipolares. La ficha de las psicosis cicloides (pcicloid) recoge la versión operativa posterior.",
+     "links": [
+      {
+       "ids": [
+        "kleist_hit",
+        "wernicke_hit",
+        "leonhard_hit"
+       ],
+       "t": "escuela Wernicke-Kleist-Leonhard"
+      },
+      {
+       "ids": [
+        "pcicloid",
+        "morel"
+       ],
+       "t": "concepto operativo y teoría de la degeneración"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "No existe instrumento específico para el concepto kleistiano. En la entrevista, lo que conserva valor es la pregunta longitudinal: episodios psicóticos agudos, polimorfos y fásicos, con recuperación sin defecto entre ellos, en ausencia de causa orgánica o tóxica demostrable (delirium, sustancias, epilepsia), que deben descartarse primero. La documentación del episodio puede apoyarse en escalas generales de psicosis y en la impresión clínica global (fichas panss y cgi_bprs) y en sistemas descriptivos como el AMDP (ficha entrevistas). Los datos empíricos disponibles (Peralta y Cuesta 2003) se refieren a los criterios operativos de Perris y Brockington, no a la clasificación original de Kleist, que nunca se operativizó. Ninguna guía de práctica clínica contempla esta categoría: el tratamiento sigue las recomendaciones generales del primer episodio psicótico y de las psicosis agudas, con reevaluación diagnóstica longitudinal.",
+     "links": [
+      {
+       "ids": [
+        "panss",
+        "cgi_bprs",
+        "entrevistas"
+       ],
+       "t": "instrumentos de documentación"
+      },
+      {
+       "ids": [
+        "delirium",
+        "psust",
+        "pep"
+       ],
+       "t": "exclusión orgánica y primer episodio"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "Ni el DSM-5-TR ni la CIE-11 recogen las psicosis marginales. La CIE-10 (OMS 1992) incluía la «psicosis cicloide» como término de inclusión del trastorno psicótico agudo polimorfo (F23.0 y F23.1); la CIE-11 la reabsorbe en el trastorno psicótico agudo y transitorio (6A23 [fuente oficial no localizada]), restringido al tipo polimorfo. En el DSM-5-TR los casos se reparten entre el trastorno psicótico breve, el esquizofreniforme, el esquizoafectivo y los episodios afectivos con características psicóticas. La traducción gana fiabilidad, pero pierde tres ideas de Kleist: el carácter endógeno no reactivo, la agrupación por afinidad (cicloides, paranoides, epileptoides) y la hipótesis de sistemas cerebrales específicos. Las formas que sobrevivieron se describen en las fichas wkl14, wkl15 y wkl16.",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "tpsbr",
+        "tesqfren"
+       ],
+       "t": "categorías actuales de destino"
+      },
+      {
+       "ids": [
+        "wkl14",
+        "wkl15",
+        "wkl16"
+       ],
+       "t": "formas cicloides de Leonhard"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La doctrina de la degeneración en la que se apoyaba el adjetivo «degenerativo» carece de validez y tuvo usos estigmatizantes; hoy solo tiene interés histórico. La correspondencia entre cuadro clínico y sistema cerebral que Kleist postulaba no se ha demostrado. Su grupo marginal era heterogéneo, como reconoce el propio título de 1928 al reunir formas cicloides, paranoides y epileptoides. Los estudios empíricos sobre el sucesor operativo muestran heterogeneidad interna (subgrupos afectivo y no afectivo) y escasa concordancia con las categorías oficiales (Peralta y Cuesta 2003), y las psicosis breves en general presentan alta tasa de cambio diagnóstico en el seguimiento (Castagnini y Fusar-Poli 2017). No hay ensayos controlados de tratamiento específicos.",
+     "links": [
+      {
+       "ids": [
+        "pcicloid",
+        "psbreve"
+       ],
+       "t": "validez del sucesor operativo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Jabs BE et al. (2002). Cycloid psychoses: from clinical concepts to biological foundations. J Neural Transm 109:907-919 · PMID 12111477",
+    "Peralta V & Cuesta MJ (2003). Cycloid psychosis: a clinical and nosological study. Psychol Med 33:443-453 · PMID 12701665",
+    "Castagnini AC & Fusar-Poli P (2017). Diagnostic validity of ICD-10 acute and transient psychotic disorders and DSM-5 brief psychotic disorder. Eur Psychiatry 45:104-113 · PMID 28756108",
+    "Organización Mundial de la Salud (1992). CIE-10. Trastornos mentales y del comportamiento: descripciones clínicas y pautas para el diagnóstico. Ginebra: OMS"
+   ],
+   "relAdd": [
+    "perris",
+    "bouf",
+    "morel"
+   ]
+  },
+  "pcicloid": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Leonhard (1957, Aufteilung der endogenen Psychosen, Berlín: Akademie-Verlag) definió las psicosis cicloides como psicosis endógenas fásicas, bipolares dentro de cada dominio y sin defecto, con tres formas: angustia-felicidad, confusional excitada-inhibida y de la motilidad. La versión operativa procede de Perris y Brockington (1981): inicio agudo de un estado psicótico no atribuible a sustancias ni lesión cerebral y, al menos, varios de estos rasgos: confusión con perplejidad, ideas delirantes no congruentes con el ánimo, alucinaciones, angustia masiva (pan-anxiety), felicidad o éxtasis, trastornos de la motilidad, preocupación por la muerte y oscilaciones del ánimo insuficientes para un diagnóstico afectivo (enumeración y umbral exactos [fuente no localizada]). Brockington, Perris y Meltzer (1982, J Nerv Ment Dis 170:651-656) discutieron su valor diagnóstico y heurístico. Literatura secundaria: Jabs et al. (2002).",
+     "links": [
+      {
+       "ids": [
+        "wkl14",
+        "wkl15",
+        "wkl16"
+       ],
+       "t": "tres formas leonhardianas"
+      },
+      {
+       "ids": [
+        "perplejidad",
+        "oneir"
+       ],
+       "t": "perplejidad y alteración de la conciencia"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "En la entrevista se explora el ritmo del episodio (horas o días), la perplejidad, la angustia que invade la totalidad de la vivencia, los momentos de felicidad o inspiración, la inhibición o excitación motora y la preocupación por la muerte, junto con la ausencia de pródromo deficitario y la recuperación completa de episodios previos. Las escalas generales (fichas panss, cgi_bprs) documentan la gravedad, y la catatonía, si aparece, se evalúa como síndrome propio. En 660 pacientes ingresados por psicosis, el 10,3 % cumplía los criterios de Perris y Brockington; el diagnóstico discriminaba bien frente a otras psicosis (95 % de casos bien clasificados), con síntomas psicóticos y de primer rango comparables a la esquizofrenia, pero más cercano a los trastornos afectivos en la mayoría de variables y con más estresores psicosociales (Peralta y Cuesta 2003). El tratamiento con litio o TEC se apoya en series clínicas, no en ensayos ni en guías.",
+     "links": [
+      {
+       "ids": [
+        "panss",
+        "cgi_bprs",
+        "catatonia"
+       ],
+       "t": "evaluación del episodio"
+      },
+      {
+       "ids": [
+        "lm_bip",
+        "tec_dep"
+       ],
+       "t": "litio y TEC"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "Las psicosis cicloides no corresponden a ninguna categoría oficial: frente a los diagnósticos del DSM-III-R, DSM-IV y CIE-10 la concordancia fue pobre (kappa < 0,22) y ninguna definición formal de psicosis remitente las representaba bien (Peralta y Cuesta 2003). La CIE-10 las nombraba como término de inclusión del trastorno psicótico agudo polimorfo; la CIE-11 las sitúa en el trastorno psicótico agudo y transitorio (6A23 [fuente oficial no localizada]); en el DSM-5-TR se dispersan entre trastorno psicótico breve, esquizofreniforme, esquizoafectivo y episodios afectivos con síntomas psicóticos. La traducción pierde el criterio longitudinal de remisión sin defecto y la bipolaridad intraepisódica, y gana fiabilidad. Su posición intermedia la emparenta con el trastorno esquizoafectivo y con el continuo afectivo-psicótico.",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "tpsbr",
+        "tesqfren"
+       ],
+       "t": "categorías CIE y DSM"
+      },
+      {
+       "ids": [
+        "teasqb",
+        "cbipesq",
+        "psaf"
+       ],
+       "t": "frontera afectivo-psicótica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "El constructo es heterogéneo: Peralta y Cuesta (2003) diferenciaron subgrupos afectivo y no afectivo, con mejor evolución global del no afectivo. Las psicosis de inicio agudo y corta duración son poco frecuentes, se estudian en muestras pequeñas y muestran tasas altas de transición a esquizofrenia y, en menor medida, a trastornos afectivos, lo que limita la validez predictiva de cualquier etiqueta de buen pronóstico (Castagnini y Fusar-Poli 2017). No hay ensayos aleatorizados de tratamiento ni marcadores biológicos validados, y la lista operativa de Perris y Brockington solapa con criterios de episodio esquizoafectivo y de episodio mixto con síntomas psicóticos.",
+     "links": [
+      {
+       "ids": [
+        "psmx",
+        "teasqb"
+       ],
+       "t": "solapamientos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Brockington IF, Perris C & Meltzer HY (1982). Cycloid psychoses: diagnosis and heuristic value. J Nerv Ment Dis 170:651-656 · PMID 7119764",
+    "Peralta V & Cuesta MJ (2003). Cycloid psychosis: a clinical and nosological study. Psychol Med 33:443-453 · PMID 12701665",
+    "Castagnini AC & Fusar-Poli P (2017). Diagnostic validity of ICD-10 acute and transient psychotic disorders and DSM-5 brief psychotic disorder. Eur Psychiatry 45:104-113 · PMID 28756108"
+   ],
+   "relAdd": [
+    "perris",
+    "psbreve",
+    "catatonia"
+   ]
+  },
+  "perris": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Carlo Perris, en Umeå (Suecia), publicó «A study of cycloid psychoses» (1974, Acta Psychiatr Scand Suppl 253), estudio clínico, familiar y catamnésico que trató la psicosis cicloide como entidad unitaria más que como tres enfermedades leonhardianas. Ocho años antes había defendido la separación entre psicosis bipolares y depresiones unipolares recurrentes (Perris 1966, Acta Psychiatr Scand Suppl 194), en paralelo a Angst. Su aportación decisiva fue operativa: con Brockington propuso criterios diagnósticos explícitos (Perris y Brockington 1981) y con Brockington y Meltzer examinó su aplicación transcultural y su valor heurístico (Brockington, Perris y Meltzer 1982, J Nerv Ment Dis 170:651-656). Literatura secundaria: Peralta y Cuesta (2003) los usaron como estándar de investigación.",
+     "links": [
+      {
+       "ids": [
+        "pcicloid",
+        "leonhard_hit"
+       ],
+       "t": "concepto de partida"
+      },
+      {
+       "ids": [
+        "tb1",
+        "ddm"
+       ],
+       "t": "distinción unipolar-bipolar"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "El valor práctico de la escuela de Perris es haber convertido una descripción fenomenológica en una lista verificable en la cabecera del paciente: inicio agudo, exclusión de causas tóxicas y orgánicas y presencia de varios rasgos (perplejidad, angustia masiva, éxtasis, trastornos motores, preocupación por la muerte, delirios incongruentes, oscilaciones del ánimo). Con esos criterios, el 10,3 % de 660 pacientes psicóticos hospitalizados recibió el diagnóstico, con buena validez discriminante (Peralta y Cuesta 2003). Las cifras de agregación familiar y de recuperación del estudio sueco original no se han podido contrastar en el texto [fuente no localizada]. En clínica, el diagnóstico obliga a seguimiento longitudinal y a revisar la indicación de tratamiento antipsicótico prolongado conforme a las guías del primer episodio.",
+     "links": [
+      {
+       "ids": [
+        "perplejidad",
+        "pep",
+        "psicpref"
+       ],
+       "t": "exploración y seguimiento"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "Los criterios de Perris y Brockington no se incorporaron a ningún manual oficial. Sus casos corresponden en la CIE-11 al trastorno psicótico agudo y transitorio (6A23 [fuente oficial no localizada]) y en el DSM-5-TR al trastorno psicótico breve, al esquizofreniforme o a episodios afectivos con síntomas psicóticos, con concordancia pobre (kappa < 0,22) frente a los manuales de su época (Peralta y Cuesta 2003). Se gana una definición unitaria y replicable; se pierde la diferenciación de Leonhard entre formas afectiva, confusional y motora, que el atlas conserva en fichas propias. La distinción unipolar-bipolar de Perris (1966), en cambio, sí pasó a los manuales.",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "tpsbr"
+       ],
+       "t": "categorías actuales"
+      },
+      {
+       "ids": [
+        "wkl14",
+        "wkl15",
+        "wkl16"
+       ],
+       "t": "subformas leonhardianas"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Tratar la psicosis cicloide como entidad unitaria oculta subgrupos con evolución distinta: Peralta y Cuesta (2003) encontraron diferencias entre las formas afectiva y no afectiva. Los criterios se validaron sobre todo en series hospitalarias europeas, lo que limita su generalización; las psicosis breves muestran una inestabilidad diagnóstica considerable en el seguimiento (Fusar-Poli et al. 2016, estabilidad prospectiva del trastorno psicótico agudo y transitorio o breve de 0,56). Faltan estudios prospectivos amplios que repliquen los hallazgos familiares suecos con métodos actuales.",
+     "links": [
+      {
+       "ids": [
+        "pcicloid",
+        "psbreve"
+       ],
+       "t": "validez del constructo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Brockington IF, Perris C & Meltzer HY (1982). Cycloid psychoses: diagnosis and heuristic value. J Nerv Ment Dis 170:651-656 · PMID 7119764",
+    "Peralta V & Cuesta MJ (2003). Cycloid psychosis: a clinical and nosological study. Psychol Med 33:443-453 · PMID 12701665",
+    "Fusar-Poli P et al. (2016). Diagnostic stability of ICD/DSM first episode psychosis diagnoses: meta-analysis. Schizophr Bull 42:1395-1406 · PMID 26980142",
+    "Perris C & Brockington IF (1981). Cycloid psychoses and their relation to the major psychoses. En: Perris C, Struwe G & Jansson B (eds). Biological Psychiatry 1981. Amsterdam: Elsevier, pp. 447-450 [no verificada]"
+   ],
+   "relAdd": [
+    "pcicloid",
+    "psciclb",
+    "leonhard_hit",
+    "psbreve"
+   ]
+  },
+  "bouf": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Valentin Magnan, en Sainte-Anne, describió la bouffée délirante como un delirio de aparición súbita, «como un rayo en cielo sereno», polimorfo en temas y modalidades alucinatorias, con fluctuación del ánimo y de la conciencia, curso breve y recuperación, que atribuía a la predisposición de los «degenerados». La exposición sistemática figura en Magnan y Legrain (1895, Les dégénérés: état mental et syndromes épisodiques, París: Rueff) y en la tesis de Legrain (1886, Du délire chez les dégénérés); la fecha de 1893 del título remite a las lecciones clínicas de Magnan, cuya edición exacta no se ha contrastado [fuente no localizada]. La fórmula del rayo en cielo sereno es una atribución tradicional cuyo pasaje original no se ha localizado [fuente no localizada]. Literatura secundaria: Pichot (1982) y los criterios empíricos franceses de Pull, Pull y Pichot (1987).",
+     "links": [
+      {
+       "ids": [
+        "delirio_magnan",
+        "morel"
+       ],
+       "t": "Magnan y la teoría de la degeneración"
+      },
+      {
+       "ids": [
+        "fen_francesa"
+       ],
+       "t": "tradición francesa"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La entrevista busca un inicio brusco (horas o pocos días) en una persona sin antecedentes de deterioro, delirios múltiples y cambiantes, alucinaciones de varias modalidades, labilidad afectiva y oscilaciones de la claridad de conciencia con perplejidad; deben descartarse primero delirium, intoxicación o abstinencia (incluidas las drogas del chemsex) y causas médicas. En un estudio alemán de cinco años, 42 de 1036 pacientes (4,1 %) cumplieron criterios CIE-10 de trastorno psicótico agudo y transitorio y solo el 28,6 % de ellos cumplía además los criterios franceses de bouffée délirante; estos pacientes eran más jóvenes y tuvieron mejor situación laboral en el seguimiento, la única diferencia significativa (Pillmann et al. 2003). El tratamiento sigue las pautas generales de las psicosis agudas, con seguimiento longitudinal.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "psust",
+        "chemsex_s"
+       ],
+       "t": "diagnóstico diferencial orgánico y tóxico"
+      },
+      {
+       "ids": [
+        "perplejidad",
+        "panss"
+       ],
+       "t": "exploración"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "La bouffée délirante es una de las raíces históricas del trastorno psicótico agudo y transitorio de la CIE-10 (F23), que la citaba como término de inclusión, y de su heredero en la CIE-11 (6A23 [fuente oficial no localizada]), limitado al tipo polimorfo (Pillmann et al. 2003). En el DSM-5-TR equivale aproximadamente al trastorno psicótico breve (menos de un mes) o al esquizofreniforme si se prolonga. La traducción gana un umbral temporal explícito y pierde la oscilación de la conciencia, el polimorfismo como rasgo nuclear y la referencia al terreno predisponente. Se emparenta con las psicosis cicloides alemanas y con las psicosis reactivas escandinavas, tres tradiciones nacionales de psicosis agudas de buen pronóstico.",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "tpsbr"
+       ],
+       "t": "categorías actuales"
+      },
+      {
+       "ids": [
+        "pcicloid",
+        "wimmer"
+       ],
+       "t": "tradiciones paralelas"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "El sustrato teórico original, la degeneración, está abandonado. La operativización francesa resultó demasiado estrecha: en la serie de Pillmann et al. (2003) menos de un tercio de los casos de trastorno agudo y transitorio cumplía sus criterios, y la ventaja pronóstica fue modesta. Las psicosis breves en general muestran estabilidad diagnóstica limitada en el seguimiento (Fusar-Poli et al. 2016) y una parte evoluciona a esquizofrenia o a trastornos afectivos (Castagnini y Fusar-Poli 2017), por lo que la etiqueta no garantiza el buen pronóstico. La mayor frecuencia descrita en población migrante obliga a valorar el contexto cultural y el estrés de aculturación antes de interpretar el cuadro.",
+     "links": [
+      {
+       "ids": [
+        "estres_acultur",
+        "context",
+        "cfi"
+       ],
+       "t": "contexto cultural y migratorio"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pillmann F et al. (2003). Bouffée délirante and ICD-10 acute and transient psychoses: a comparative study. Aust N Z J Psychiatry 37:327-333 · PMID 12780472",
+    "Castagnini AC & Fusar-Poli P (2017). Diagnostic validity of ICD-10 acute and transient psychotic disorders and DSM-5 brief psychotic disorder. Eur Psychiatry 45:104-113 · PMID 28756108",
+    "Fusar-Poli P et al. (2016). Diagnostic stability of ICD/DSM first episode psychosis diagnoses: meta-analysis. Schizophr Bull 42:1395-1406 · PMID 26980142"
+   ],
+   "relAdd": [
+    "psbreve",
+    "pcicloid",
+    "wimmer"
+   ]
+  },
+  "langf": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Gabriel Langfeldt, en Oslo, publicó The Schizophreniform States (1939, Copenhague: Munksgaard), donde separó, a partir del seguimiento de pacientes, una «esquizofrenia verdadera» de inicio insidioso y evolución deficitaria de unos estados esquizofreniformes con inicio agudo, factores precipitantes, rasgos afectivos o confusionales y buen pronóstico. Volvió sobre el tema en «The prognosis in schizophrenia» (Langfeldt 1956, Acta Psychiatr Neurol Scand Suppl 110:7-66), cuyo contenido no se ha podido contrastar en el resumen indexado [fuente no localizada]. El criterio de Langfeldt era pronóstico y procesual (en la línea de la distinción jaspersiana entre proceso y desarrollo), no temporal. Literatura secundaria: Strakowski (1994) revisa la validez del heredero operativo.",
+     "links": [
+      {
+       "ids": [
+        "jaspers_compr",
+        "dementia_praecox"
+       ],
+       "t": "proceso frente a desarrollo"
+      },
+      {
+       "ids": [
+        "tesqfren"
+       ],
+       "t": "heredero operativo"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "Lo que sigue vigente de Langfeldt son los indicadores de buen pronóstico, que el DSM-5-TR conserva como especificador del trastorno esquizofreniforme: inicio de los síntomas psicóticos prominentes en las cuatro semanas siguientes al primer cambio de conducta, confusión o perplejidad, buen funcionamiento previo y ausencia de afecto aplanado. En la entrevista se exploran con la anamnesis de terceros y la cronología del primer cambio. El valor predictivo es limitado: en el metaanálisis de Fusar-Poli et al. (2016) la estabilidad prospectiva del diagnóstico esquizofreniforme fue de 0,29, la más baja de todas las psicosis, con cambios sobre todo hacia la esquizofrenia. Clínicamente obliga a seguimiento estrecho y a aplicar las guías del primer episodio psicótico sin presuponer cronicidad ni benignidad.",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "dupcat",
+        "psicpref"
+       ],
+       "t": "primer episodio e intervención temprana"
+      },
+      {
+       "ids": [
+        "perplejidad"
+       ],
+       "t": "indicador de buen pronóstico"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "El DSM-III transformó el concepto pronóstico de Langfeldt en una categoría definida por duración: el trastorno esquizofreniforme del DSM-5-TR exige los criterios A de esquizofrenia durante al menos un mes y menos de seis, con o sin características de buen pronóstico. La CIE-11 carece de esta categoría: con un mes de síntomas exige diagnosticar esquizofrenia (6A20 [fuente oficial no localizada]) o, si el cuadro es polimorfo y breve, trastorno psicótico agudo y transitorio. Se pierde el sentido original, porque el término designa hoy tanto esquizofrenias incipientes como psicosis remitentes; se gana una regla operativa. Se relaciona con las psicosis reactivas de Wimmer y con las cicloides de Leonhard.",
+     "links": [
+      {
+       "ids": [
+        "tesqfren",
+        "esq",
+        "psbreve"
+       ],
+       "t": "categorías DSM y CIE"
+      },
+      {
+       "ids": [
+        "wimmer",
+        "pcicloid"
+       ],
+       "t": "conceptos afines"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Strakowski (1994), en una revisión de 30 publicaciones con metaanálisis de validadores, no halló apoyo para la validez del trastorno esquizofreniforme como entidad distinta ni como subtipo de esquizofrenia o de trastorno afectivo: los criterios identifican un grupo heterogéneo de esquizofrenias de inicio reciente, trastornos esquizoafectivos, trastornos afectivos atípicos y un pequeño subgrupo de psicosis no afectiva remitente. La baja estabilidad diagnóstica confirmada después (Fusar-Poli et al. 2016) refuerza la crítica. La dicotomía de Langfeldt también se ha cuestionado porque el pronóstico es un continuo y depende del tratamiento y del entorno social, no solo de la forma de inicio.",
+     "links": [
+      {
+       "ids": [
+        "cbipesq",
+        "cont_psic"
+       ],
+       "t": "alternativas dimensionales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Langfeldt G (1956). The prognosis in schizophrenia. Acta Psychiatr Neurol Scand Suppl 110:7-66 · PMID 13372372",
+    "Strakowski SM (1994). Diagnostic validity of schizophreniform disorder. Am J Psychiatry 151:815-824 · PMID 8184991",
+    "Fusar-Poli P et al. (2016). Diagnostic stability of ICD/DSM first episode psychosis diagnoses: meta-analysis. Schizophr Bull 42:1395-1406 · PMID 26980142",
+    "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington DC: APA Publishing"
+   ],
+   "relAdd": [
+    "tesqfren",
+    "wimmer",
+    "pep",
+    "pcicloid"
+   ]
+  },
+  "wimmer": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: August Wimmer, en la monografía conmemorativa del hospital de Sankt Hans de Copenhague, describió las «formas psicógenas de enfermedad mental» (Wimmer 1916, Psykogene Sindssygdomsformer): psicosis desencadenadas por un acontecimiento vital, cuyo contenido refleja el conflicto, con inicio agudo y tendencia a la recuperación. Fue la base de la tradición escandinava de psicosis psicógenas o reactivas, sistematizada por Strömgren (1974). El criterio de psicogenicidad procede de Jaspers: relación temporal, comprensibilidad del contenido y curso ligado a la situación. Literatura secundaria: Jauch y Carpenter (1988) revisan su historia como posible «tercera psicosis» y Ungvari y Mullen (2000) su progresiva desaparición de las clasificaciones.",
+     "links": [
+      {
+       "ids": [
+        "reac_viv_anormal",
+        "jaspers_compr",
+        "triada_etiol"
+       ],
+       "t": "psicogenia y reacción vivencial"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La entrevista reconstruye la secuencia acontecimiento-psicosis y la relación entre el contenido delirante y el conflicto. Ungvari y Mullen (2000) describen cuadros de inicio abrupto, forma y contenido cambiantes y resolución completa en días o semanas, desencadenados por miedo abrumador, amenaza de destrucción inminente, aislamiento social (prisión, inmigración, sordera), duelo o conflictos sexuales o interpersonales intensos, sobre un fondo de vulnerabilidad (trastorno de personalidad, daño orgánico o experiencias sensibilizantes). En personas migrantes y en minorías conviene la Entrevista de Formulación Cultural para no confundir expresiones culturales de malestar con síntomas psicóticos. El abordaje combina tratamiento sintomático breve, atención al estresor y seguimiento.",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "duelo_migra_ulises",
+        "trauma"
+       ],
+       "t": "estresor, cultura y trauma"
+      },
+      {
+       "ids": [
+        "testr",
+        "duelo"
+       ],
+       "t": "reacciones a estrés y duelo"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "El DSM-III recogió la «psicosis reactiva breve»; el DSM-5-TR la integra en el trastorno psicótico breve con el especificador «con factor(es) de estrés notable(s)», junto a «sin factor de estrés» y «con inicio en el periparto». La CIE-10 permitía codificar el trastorno psicótico agudo y transitorio «con estrés agudo asociado»; la CIE-11 (6A23 [fuente oficial no localizada]) no conserva un subtipo reactivo [fuente oficial no localizada]. Se pierde el criterio de comprensibilidad, que daba sentido clínico y psicoterapéutico al cuadro; se gana neutralidad etiológica. El concepto enlaza con la reacción vivencial anormal de Schneider, con la bouffée délirante y con la psicosis esquizofreniforme de Langfeldt.",
+     "links": [
+      {
+       "ids": [
+        "tpsbr",
+        "psbreve"
+       ],
+       "t": "categorías actuales"
+      },
+      {
+       "ids": [
+        "bouf",
+        "langf",
+        "reac_viv_anormal"
+       ],
+       "t": "conceptos afines"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Jauch y Carpenter (1988) señalaron que los estudios de validación de la psicosis reactiva carecían de criterios bien definidos y de métodos modernos, por lo que su condición de tercera psicosis no estaba demostrada. La psicogenicidad es difícil de establecer: los acontecimientos vitales son frecuentes, su datación es retrospectiva y la comprensibilidad depende del observador. Ungvari y Mullen (2000) defienden, en sentido contrario, que el abandono del concepto empobrece la clínica al renunciar a integrar biografía, personalidad y contexto social. Las psicosis breves muestran además transiciones frecuentes a otros diagnósticos (Castagnini y Fusar-Poli 2017).",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "esq"
+       ],
+       "t": "transición diagnóstica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Jauch DA & Carpenter WT (1988). Reactive psychosis. I. Does the pre-DSM-III concept define a third psychosis? J Nerv Ment Dis 176:72-81 · PMID 3276813",
+    "Ungvari GS & Mullen PE (2000). Reactive psychoses revisited. Aust N Z J Psychiatry 34:458-467 · PMID 10881970",
+    "Castagnini AC & Fusar-Poli P (2017). Diagnostic validity of ICD-10 acute and transient psychotic disorders and DSM-5 brief psychotic disorder. Eur Psychiatry 45:104-113 · PMID 28756108"
+   ],
+   "relAdd": [
+    "tpsbr",
+    "psbreve",
+    "bouf",
+    "langf",
+    "jaspers_compr"
+   ]
+  },
+  "psaf": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "«Psicosis afectiva aguda» no es una categoría de un autor ni de un manual: es un término clínico descriptivo para psicosis de inicio agudo en las que el componente afectivo (euforia intensa, angustia o disforia graves) domina el cuadro y el pronóstico episódico es favorable. Recoge la herencia de varias tradiciones de psicosis agudas de buen pronóstico: las psicosis cicloides de Leonhard y su operativización por Perris y Brockington, la bouffée délirante francesa y las psicosis reactivas escandinavas, así como el subgrupo afectivo de psicosis cicloides descrito por Peralta y Cuesta (2003). No existe obra original que la defina; las referencias son literatura secundaria y deben leerse como apoyo del área fronteriza, no de una entidad validada [fuente no localizada para una definición canónica].",
+     "links": [
+      {
+       "ids": [
+        "pcicloid",
+        "bouf",
+        "wimmer"
+       ],
+       "t": "tradiciones de origen"
+      },
+      {
+       "ids": [
+        "wkl14"
+       ],
+       "t": "psicosis de angustia-felicidad"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "Ante una psicosis aguda con fuerte carga afectiva, la exploración debe precisar si existe un episodio maníaco, depresivo o mixto completo (en cuyo caso el diagnóstico es afectivo con características psicóticas), la congruencia de los delirios con el ánimo, la perplejidad y la fluctuación, y los antecedentes personales y familiares de trastorno bipolar. Son útiles las escalas de manía y de depresión junto a las de psicosis (fichas ymrs, hamd_madrs, panss) y la evaluación sistemática del riesgo suicida (ficha cssrs). En la serie de Peralta y Cuesta (2003), el subgrupo afectivo de psicosis cicloides tuvo peor evolución global que el no afectivo, lo que matiza la idea de benignidad. Si se cumple un episodio afectivo, el tratamiento sigue las guías del trastorno bipolar o depresivo con síntomas psicóticos.",
+     "links": [
+      {
+       "ids": [
+        "ymrs",
+        "hamd_madrs",
+        "panss",
+        "cssrs"
+       ],
+       "t": "instrumentos"
+      },
+      {
+       "ids": [
+        "tb1",
+        "ddm",
+        "psmx"
+       ],
+       "t": "diagnósticos afectivos de referencia"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "Ni el DSM-5-TR ni la CIE-11 contienen esta categoría. Según la duración y la estructura del cuadro, se codifica como episodio maníaco o depresivo con características psicóticas, trastorno esquizoafectivo, trastorno psicótico breve o esquizofreniforme (DSM-5-TR), o trastorno psicótico agudo y transitorio (CIE-11, 6A23 [fuente oficial no localizada]). La CIE-10 la acercaba al F23 cuando no se cumplía un episodio afectivo. La traducción oficial gana fiabilidad; se pierde la idea de un grupo intermedio con identidad propia en el continuo afectivo-psicótico, que el atlas trata en la ficha del continuo bipolar-esquizoafectivo-esquizofrénico.",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "tpsbr",
+        "teasqb"
+       ],
+       "t": "categorías oficiales"
+      },
+      {
+       "ids": [
+        "cbipesq",
+        "gradiente_pg"
+       ],
+       "t": "continuo afectivo-psicótico"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Al no tener criterios propios, el término puede usarse de forma inconsistente y no permite estimar fiabilidad ni prevalencia. Las psicosis agudas presentan tasas altas de cambio diagnóstico en el seguimiento: en el metaanálisis de Fusar-Poli et al. (2016) la estabilidad del trastorno psicótico agudo y transitorio o breve fue de 0,56, frente a 0,84 de las psicosis del espectro afectivo. La revisión de Castagnini y Fusar-Poli (2017) concluye que las psicosis de corta duración carecen de hallazgos neurobiológicos y de poder predictivo suficiente, aunque recomienda mantenerlas separadas de las psicosis persistentes.",
+     "links": [
+      {
+       "ids": [
+        "psbreve",
+        "pep"
+       ],
+       "t": "estabilidad diagnóstica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Peralta V & Cuesta MJ (2003). Cycloid psychosis: a clinical and nosological study. Psychol Med 33:443-453 · PMID 12701665",
+    "Fusar-Poli P et al. (2016). Diagnostic stability of ICD/DSM first episode psychosis diagnoses: meta-analysis. Schizophr Bull 42:1395-1406 · PMID 26980142",
+    "Castagnini AC & Fusar-Poli P (2017). Diagnostic validity of ICD-10 acute and transient psychotic disorders and DSM-5 brief psychotic disorder. Eur Psychiatry 45:104-113 · PMID 28756108"
+   ],
+   "relAdd": [
+    "pcicloid",
+    "psbreve",
+    "tb1",
+    "psmx",
+    "cbipesq"
+   ]
+  },
+  "psmx": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El concepto de estado mixto procede de Kraepelin (Lehrbuch, 8.ª ed., 1909-1915) y de Weygandt (1899, Über die Mischzustände des manisch-depressiven Irreseins [no verificada]), que describieron combinaciones de los componentes de ánimo, pensamiento y actividad; Koukopoulos amplió después el campo a la depresión agitada y mixta. El DSM-IV exigía un episodio mixto con criterios completos de manía y de depresión; el DSM-5 lo sustituyó por el especificador «con características mixtas», aplicable a episodios maníacos, hipomaníacos y depresivos, que recoge síntomas subumbrales no solapados del polo opuesto (Vieta y Valentí 2013). El grupo de trabajo de la ISBD revisó la estructura sintomática y propuso criterios para investigación y clínica (Swann et al. 2013). «Episodio mixto-psicótico» es, por tanto, una denominación clínica: mixtura afectiva más características psicóticas, congruentes o no con el ánimo.",
+     "links": [
+      {
+       "ids": [
+        "mixtos_krp",
+        "koukopoulos_hit",
+        "kraepelin_1913"
+       ],
+       "t": "tradición de los estados mixtos"
+      },
+      {
+       "ids": [
+        "dsm2"
+       ],
+       "t": "depresión con síntomas mixtos"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La entrevista debe buscar activamente los síntomas del polo opuesto, que el paciente o la paciente rara vez refiere espontáneamente: aceleración del pensamiento, inquietud, insomnio con energía, irritabilidad o disforia en el seno de una depresión, o tristeza y desesperanza en plena manía; después se exploran delirios y alucinaciones y su congruencia afectiva. Son útiles las escalas de manía y de depresión en paralelo (fichas ymrs y hamd_madrs) y la evaluación estructurada del riesgo suicida (ficha cssrs). Según la ISBD, los estados mixtos se asocian a un curso más recurrente, inicio precoz y más comorbilidad ansiosa, relacionada con el estrés y con sustancias (Swann et al. 2013); deben descartarse inducción por estimulantes u otras drogas, también en contexto de chemsex. El tratamiento sigue las guías del trastorno bipolar (CANMAT e ISBD 2018); las recomendaciones específicas para la mixtura con psicosis y la cautela con antidepresivos en monoterapia no se han contrastado en el resumen [fuente no localizada]. La TEC se reserva a formas graves o con riesgo vital.",
+     "links": [
+      {
+       "ids": [
+        "ymrs",
+        "hamd_madrs",
+        "cssrs"
+       ],
+       "t": "instrumentos"
+      },
+      {
+       "ids": [
+        "tb_induc",
+        "chemsex_s",
+        "tec_dep"
+       ],
+       "t": "inducción tóxica y TEC"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "En el DSM-5-TR se codifica como episodio maníaco o depresivo «con características mixtas» y «con características psicóticas» (congruentes o no congruentes con el estado de ánimo), dentro del trastorno bipolar I o del depresivo mayor. La CIE-11 conserva el episodio mixto dentro del trastorno bipolar de tipo I, con el calificador de síntomas psicóticos (códigos [fuente oficial no localizada]). Si los síntomas psicóticos persisten al menos dos semanas sin episodio afectivo, el diagnóstico pasa a trastorno esquizoafectivo. El especificador del DSM-5 gana sensibilidad para la mixtura subumbral; se pierde la entidad del episodio mixto pleno. Clínicamente linda con las psicosis cicloides, cuya oscilación intraepisódica recuerda la mixtura, y con el trastorno esquizoafectivo bipolar.",
+     "links": [
+      {
+       "ids": [
+        "tb1",
+        "ddm"
+       ],
+       "t": "diagnósticos de base"
+      },
+      {
+       "ids": [
+        "teasqb",
+        "pcicloid",
+        "psaf"
+       ],
+       "t": "frontera afectivo-psicótica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Vieta y Valentí (2013) advierten que no está claro cómo manejarán los clínicos la depresión mayor con características mixtas ni su efecto sobre la dicotomía bipolar-unipolar y la fiabilidad, y que la eficacia de los tratamientos del antiguo episodio mixto sobre el nuevo especificador necesita estudios propios. La exclusión de los síntomas solapados (agitación, irritabilidad, distraibilidad) ha sido criticada por dejar fuera precisamente la depresión agitada descrita por Koukopoulos [fuente no localizada]. Los datos de riesgo suicida en mixtura con psicosis proceden sobre todo de estudios observacionales sin cifras comparables entre sí, por lo que el atlas evita cuantificarlo.",
+     "links": [
+      {
+       "ids": [
+        "koukopoulos_hit",
+        "dsm2"
+       ],
+       "t": "depresión agitada y mixta"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Vieta E & Valentí M (2013). Mixed states in DSM-5: implications for clinical care, education, and research. J Affect Disord 148:28-36 · PMID 23561484",
+    "Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616"
+   ],
+   "relAdd": [
+    "mixtos_krp",
+    "koukopoulos_hit",
+    "tb1",
+    "teasqb",
+    "ymrs"
+   ]
+  },
+  "cbipesq": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Crow (1986, Br J Psychiatry 149:419-429) opuso a la dicotomía de Kraepelin tres observaciones: no se ha demostrado una distribución bimodal de los rasgos clínicos, la enfermedad afectiva parece predisponer a esquizofrenia en generaciones posteriores y las psicosis esquizoafectivas no se separan de ninguno de los dos prototipos en estudios familiares. Propuso un continuo desde la depresión unipolar, pasando por el trastorno bipolar y la psicosis esquizoafectiva, hasta la esquizofrenia típica, con grados crecientes de defecto; su hipótesis genética concreta (un «virogén» con replicaciones) no se ha confirmado. Craddock y Owen (2005, Br J Psychiatry 186:364-366) actualizaron la crítica con datos de genética molecular. Literatura secundaria: Cardno y Owen (2014) revisan la relación genética entre los tres trastornos.",
+     "links": [
+      {
+       "ids": [
+        "einheit",
+        "dementia_praecox",
+        "locura_md"
+       ],
+       "t": "psicosis única y dicotomía"
+      },
+      {
+       "ids": [
+        "kraepelin_hit"
+       ],
+       "t": "Kraepelin"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "En la práctica, el modelo invita a evaluar por separado las dimensiones afectiva y psicótica en cada episodio y a lo largo del tiempo (fichas panss, ymrs, hamd_madrs) y a recoger antecedentes familiares de ambos espectros. Datos verificados: en registros suecos con más de 9 millones de personas, la heredabilidad fue del 64 % para la esquizofrenia y del 59 % para el trastorno bipolar, y la comorbilidad entre ambos se debió en un 63 % a efectos genéticos aditivos comunes (Lichtenstein et al. 2009); estudios familiares, de gemelos y de adopción estiman una correlación genética en torno a 0,6 (Cardno y Owen 2014); el consorcio PGC identificó loci compartidos, entre ellos CACNA1C y CACNB2 (2013). Las puntuaciones poligénicas no tienen hoy utilidad diagnóstica individual. El tratamiento se rige por el diagnóstico categorial y las guías correspondientes.",
+     "links": [
+      {
+       "ids": [
+        "panss",
+        "ymrs",
+        "hamd_madrs"
+       ],
+       "t": "evaluación dimensional"
+      },
+      {
+       "ids": [
+        "hered_esq",
+        "hered_bip",
+        "prs_clin"
+       ],
+       "t": "genética y límites clínicos"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "El DSM-5-TR y la CIE-11 mantienen las categorías de esquizofrenia, trastorno esquizoafectivo y trastorno bipolar, pero incorporan herramientas dimensionales: el DSM-5-TR incluye en la sección III una escala de gravedad de las dimensiones de la psicosis valorada por el clínico, y la CIE-11 añade calificadores de síntomas para los trastornos psicóticos primarios (positivos, negativos, depresivos, maníacos, psicomotores y cognitivos). Los modelos de investigación RDoC y HiTOP van más allá y prescinden de las categorías. El continuo gana coherencia con la genética; pierde la utilidad práctica de categorías que orientan tratamiento y pronóstico.",
+     "links": [
+      {
+       "ids": [
+        "teasqb",
+        "teasqd",
+        "esq",
+        "tb1"
+       ],
+       "t": "categorías del continuo"
+      },
+      {
+       "ids": [
+        "rdoc",
+        "hitop_tp",
+        "gradiente_pg",
+        "pleiotropia"
+       ],
+       "t": "modelos dimensionales y genéticos"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "El solapamiento genético no equivale a identidad: las variantes estructurales raras (CNV) influyen más en la esquizofrenia que en el trastorno bipolar (Cardno y Owen 2014), y la heredabilidad compartida se extiende a casi todos los trastornos psiquiátricos, no solo a los del eje afectivo-psicótico (Brainstorm Consortium 2018), lo que resta especificidad al continuo. Con biomarcadores cerebrales, Clementz et al. (2016) identificaron tres biotipos de psicosis que no respetaban los límites diagnósticos, mientras que las categorías DSM se ordenaban en un único continuo de gravedad; el resultado cuestiona tanto la dicotomía como un continuo unidimensional simple.",
+     "links": [
+      {
+       "ids": [
+        "smoller_estructura",
+        "pleiotropia"
+       ],
+       "t": "estructura genética"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lichtenstein P et al. (2009). Common genetic determinants of schizophrenia and bipolar disorder in Swedish families: a population-based study. Lancet 373:234-239 · PMID 19150704",
+    "Cardno AG & Owen MJ (2014). Genetic relationships between schizophrenia, bipolar disorder, and schizoaffective disorder. Schizophr Bull 40:504-515 · PMID 24567502",
+    "Clementz BA et al. (2016). Identification of distinct psychosis biotypes using brain-based biomarkers. Am J Psychiatry 173:373-384 · PMID 26651391",
+    "Brainstorm Consortium, Anttila V et al. (2018). Analysis of shared heritability in common disorders of the brain. Science 360:eaap8757 · PMID 29930110"
+   ],
+   "relAdd": [
+    "kasanin",
+    "teasqb",
+    "rdoc",
+    "hered_esq",
+    "hered_bip"
+   ]
+  },
+  "cont_psic": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Antecedente primario: Strauss (1969, Arch Gen Psychiatry 21:581-586) propuso, con datos de escalas, tratar alucinaciones y delirios como puntos de un continuo y no como fenómenos de todo o nada. Van Os et al. (2009) formularon el modelo de propensión-persistencia-deterioro: las experiencias psicóticas son frecuentes, casi siempre transitorias, y solo cuando persisten y se acompañan de malestar, deterioro y búsqueda de ayuda se convierten en trastorno. Linscott y van Os (2013) actualizaron la epidemiología. Debe distinguirse el continuo de experiencias en la población general del continuo de gravedad entre diagnósticos (ficha cbipesq) y del continuo histórico de la psicosis única (ficha einheit).",
+     "links": [
+      {
+       "ids": [
+        "cbipesq",
+        "einheit"
+       ],
+       "t": "otros sentidos de «continuo»"
+      },
+      {
+       "ids": [
+        "aluc",
+        "delirio",
+        "ideas_ref"
+       ],
+       "t": "fenómenos implicados"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "En personas que no buscan ayuda, una experiencia aislada (oír el propio nombre, sentirse observado) no justifica diagnóstico: se explora frecuencia, persistencia, convicción, malestar, repercusión funcional y contexto (trauma, cannabis, privación de sueño, sustancias). En la encuesta mundial de la OMS (31 261 adultos, 18 países), la prevalencia vital fue del 5,8 %, con experiencias alucinatorias (5,2 %) mucho más frecuentes que delirantes (1,3 %), y un tercio refirió una sola ocurrencia (McGrath et al. 2015). En cohortes poblacionales, el riesgo anual de transición a psicosis clínica fue del 0,56 % frente al 0,16 % sin experiencias, con efecto dosis-respuesta según gravedad y persistencia (Kaymaz et al. 2012). Las dimensiones positiva, negativa y depresiva se replican en población general con instrumentos autoaplicados (Stefanis et al. 2002). En quien consulta, se usan las entrevistas de estado mental de riesgo.",
+     "links": [
+      {
+       "ids": [
+        "caarms_sips",
+        "psaten",
+        "psicpref"
+       ],
+       "t": "estado mental de riesgo"
+      },
+      {
+       "ids": [
+        "trauma",
+        "cannabis_psic"
+       ],
+       "t": "factores de persistencia"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "El DSM-5-TR sitúa el síndrome de psicosis atenuada en la sección III, entre las afecciones que requieren más estudio, y como ejemplo de otro trastorno del espectro de la esquizofrenia especificado; la CIE-11 no tiene categoría equivalente y recoge la vulnerabilidad dentro del trastorno esquizotípico (código [fuente oficial no localizada]). Las experiencias psicóticas aisladas en población general no son diagnóstico. El modelo gana una visión no estigmatizante y epidemiológicamente realista; pierde el umbral claro que la clínica necesita para decidir tratamiento. Se relaciona con la esquizotipia, la psicosis atenuada y las teorías transdiagnósticas.",
+     "links": [
+      {
+       "ids": [
+        "psaten",
+        "esqtclin",
+        "esqtpersonalidad"
+       ],
+       "t": "categorías próximas"
+      },
+      {
+       "ids": [
+        "rdoc"
+       ],
+       "t": "enfoque transdiagnóstico"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "David (2010, Psychol Med 40:1935-1942) sostiene que el continuo se ha convertido en dogma sin distinguir entre la variación de la gravedad de los fenómenos y la distribución de síntomas o factores de riesgo en la población, que tienen implicaciones distintas, y que la evidencia sobre continuos de delirios y alucinaciones puede discutirse por motivos metodológicos y conceptuales. Los cuestionarios autoaplicados confunden creencias culturales o religiosas, experiencias hipnagógicas o efectos de sustancias con experiencias psicóticas, lo que exige formulación cultural. La baja tasa de transición (Kaymaz et al. 2012) desaconseja etiquetar o medicar a quien no consulta.",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "aluc_hipn"
+       ],
+       "t": "falsos positivos culturales y fisiológicos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Strauss JS (1969). Hallucinations and delusions as points on continua function: rating scale evidence. Arch Gen Psychiatry 21:581-586 · PMID 5823480",
+    "McGrath JJ et al. (2015). Psychotic experiences in the general population: a cross-national analysis based on 31,261 respondents from 18 countries. JAMA Psychiatry 72:697-705 · PMID 26018466",
+    "Kaymaz N et al. (2012). Do subthreshold psychotic experiences predict clinical outcomes in unselected non-help-seeking population-based samples? A systematic review and meta-analysis, enriched with new results. Psychol Med 42:2239-2253 · PMID 22260930",
+    "David AS (2010). Why we need more debate on whether psychotic symptoms lie on a continuum with normality. Psychol Med 40:1935-1942 · PMID 20624330",
+    "Stefanis NC et al. (2002). Evidence that three dimensions of psychosis have a distribution in the general population. Psychol Med 32:347-358 · PMID 11866327"
+   ],
+   "relAdd": [
+    "caarms_sips",
+    "esqtclin",
+    "cannabis_psic",
+    "cbipesq"
+   ]
+  },
+  "kasanin": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Jacob Kasanin publicó «The acute schizoaffective psychoses» (1933, Am J Psychiatry 90:97-126), reimpreso como artículo seminal en 1994 (Am J Psychiatry 151, supl. 6:144-154). Describió nueve casos de personas jóvenes con psicosis de inicio súbito, mezcla de rasgos afectivos y esquizofrénicos y recuperación; la relevancia atribuida a desencadenantes vitales y al buen ajuste previo procede de la literatura secundaria y no se ha contrastado en el texto original [fuente no localizada]. El término nació, pues, para designar una psicosis aguda de buen pronóstico, más próxima a las psicosis cicloides o reactivas que al trastorno esquizoafectivo actual. Literatura secundaria: Cheniaux et al. (2008) y Malhi et al. (2008) revisan la historia y validez del concepto.",
+     "links": [
+      {
+       "ids": [
+        "pcicloid",
+        "wimmer"
+       ],
+       "t": "psicosis agudas de buen pronóstico"
+      },
+      {
+       "ids": [
+        "teasqb",
+        "teasqd"
+       ],
+       "t": "trastorno esquizoafectivo actual"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La exploración actual del cuadro esquizoafectivo exige una cronología minuciosa: cuándo coinciden los síntomas afectivos y psicóticos, cuánto duran los síntomas psicóticos sin episodio afectivo y qué proporción del tiempo total de enfermedad ocupan los episodios afectivos; un gráfico vital ayuda. Las escalas de psicosis, manía y depresión documentan cada dimensión (fichas panss, ymrs, hamd_madrs, cdss). La fiabilidad es el problema central: en un metaanálisis de 25 estudios con 7912 pacientes, el kappa entre evaluadores del trastorno esquizoafectivo fue de 0,57, inferior al de sus diagnósticos diferenciales (Santelmann et al. 2016), y la estabilidad prospectiva del diagnóstico en primeros episodios fue de 0,72 (Fusar-Poli et al. 2016). De ahí la recomendación de reevaluar el diagnóstico periódicamente. El tratamiento sigue las guías del polo dominante.",
+     "links": [
+      {
+       "ids": [
+        "panss",
+        "ymrs",
+        "hamd_madrs",
+        "cdss"
+       ],
+       "t": "instrumentos"
+      },
+      {
+       "ids": [
+        "teasqb",
+        "teasqd"
+       ],
+       "t": "fichas clínicas"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "El DSM-5-TR define el trastorno esquizoafectivo por un periodo ininterrumpido con episodio afectivo mayor concurrente con el criterio A de esquizofrenia, delirios o alucinaciones durante al menos dos semanas sin episodio afectivo y presencia de síntomas afectivos durante la mayor parte de la duración total; distingue los tipos bipolar y depresivo. La CIE-11 exige que ambos síndromes se cumplan de forma simultánea o con pocos días de diferencia dentro del mismo episodio, durante al menos un mes (código [fuente oficial no localizada]). Respecto a Kasanin se pierde el carácter agudo y benigno y se gana una regla operativa, aunque frágil. El concepto ocupa la zona media del continuo afectivo-psicótico.",
+     "links": [
+      {
+       "ids": [
+        "teasqb",
+        "teasqd",
+        "cbipesq"
+       ],
+       "t": "nosología y continuo"
+      },
+      {
+       "ids": [
+        "esq",
+        "tb1"
+       ],
+       "t": "polos de referencia"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La revisión sistemática de Cheniaux et al. (2008) halló que el trastorno esquizoafectivo ocupa una posición intermedia entre esquizofrenia y trastornos afectivos sin una separación nítida de ninguno, y no se comporta ni como forma atípica de uno de ellos ni como comorbilidad ni como trastorno independiente. Malhi et al. (2008) lo consideran la condición fronteriza prototípica y propusieron suprimirlo en futuras revisiones del DSM. A ello se suman su baja fiabilidad (Santelmann et al. 2016) y la dificultad de aplicar el criterio de «mayor parte de la duración» de forma retrospectiva.",
+     "links": [
+      {
+       "ids": [
+        "cbipesq",
+        "einheit"
+       ],
+       "t": "alternativas al modelo categorial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kasanin J (1994). The acute schizoaffective psychoses. 1933. Am J Psychiatry 151(6 Suppl):144-154 · PMID 8192190",
+    "Cheniaux E et al. (2008). Does schizoaffective disorder really exist? A systematic review of the studies that compared schizoaffective disorder with schizophrenia or mood disorders. J Affect Disord 106:209-217 · PMID 17719092",
+    "Malhi GS et al. (2008). Schizoaffective disorder: diagnostic issues and future recommendations. Bipolar Disord 10:215-230 · PMID 18199238",
+    "Santelmann H et al. (2016). Interrater reliability of schizoaffective disorder compared with schizophrenia, bipolar disorder, and unipolar depression: a systematic review and meta-analysis. Schizophr Res 176:357-363 · PMID 27461400",
+    "Fusar-Poli P et al. (2016). Diagnostic stability of ICD/DSM first episode psychosis diagnoses: meta-analysis. Schizophr Bull 42:1395-1406 · PMID 26980142"
+   ],
+   "relAdd": [
+    "teasqd",
+    "cbipesq",
+    "pcicloid"
+   ]
+  },
+  "einheit": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuentes primarias: Ernst Albert Zeller, director de Winnenthal, describió una sucesión de estadios de una misma enfermedad (Zeller 1838); Wilhelm Griesinger la incorporó a su tratado (Griesinger 1845, Die Pathologie und Therapie der psychischen Krankheiten, Stuttgart: Krabbe), y Heinrich Neumann la llevó al extremo al afirmar que solo existe una forma de trastorno mental (Neumann 1859, Lehrbuch der Psychiatrie, Erlangen: Enke). La secuencia típica iba de los estados de ánimo alterados (melancolía, manía) a la locura parcial y a la demencia. En España, Bartolomé Llopis defendió una psicosis única en el siglo XX (Llopis 1954 [no verificada]). Literatura secundaria: Berrios y Beer (1994, Hist Psychiatry 5:13-36) ofrecen la historia conceptual de referencia.",
+     "links": [
+      {
+       "ids": [
+        "griesinger",
+        "chiarugi_hit"
+       ],
+       "t": "autores de la psicosis única"
+      },
+      {
+       "ids": [
+        "kahlbaum_hit",
+        "kraepelin_hit"
+       ],
+       "t": "reacción nosológica"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "Como doctrina histórica no tiene instrumento propio ni implicación terapéutica directa. Su interés clínico actual es indirecto: recuerda que una misma persona puede recorrer en el tiempo cuadros afectivos, psicóticos y deficitarios, por lo que el diagnóstico transversal debe revisarse a lo largo del curso. Esa idea reaparece en los modelos de estadificación clínica, que proponen ordenar diagnóstico e intervenciones según la fase y la progresión del trastorno a través de las fronteras diagnósticas (McGorry et al. 2006), y en la evaluación dimensional de la psicosis. La evidencia genética de riesgo compartido entre esquizofrenia y trastorno bipolar (Lichtenstein et al. 2009) se cita a menudo como resonancia moderna, aunque no demuestra una enfermedad única.",
+     "links": [
+      {
+       "ids": [
+        "cbipesq",
+        "pep",
+        "psicpref"
+       ],
+       "t": "curso y estadificación"
+      },
+      {
+       "ids": [
+        "hered_esq",
+        "hered_bip"
+       ],
+       "t": "genética compartida"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "Ningún manual vigente adopta la psicosis única: el DSM-5-TR y la CIE-11 son categoriales, aunque añaden dimensiones (escala de gravedad de la psicosis en la sección III del DSM-5-TR; calificadores de síntomas en la CIE-11). Su descendencia conceptual está en los modelos de continuo de Crow (1986) y en la crítica de Craddock y Owen (2005) a la dicotomía kraepeliniana, así como en los enfoques transdiagnósticos (RDoC, HiTOP). La nosología kahlbaumiana y kraepeliniana, basada en el curso, se construyó precisamente frente a ella. Se gana parsimonia; se pierde la capacidad de diferenciar pronóstico y tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "cbipesq",
+        "dementia_praecox",
+        "locura_md"
+       ],
+       "t": "dicotomía y continuo"
+      },
+      {
+       "ids": [
+        "rdoc",
+        "hitop_tp"
+       ],
+       "t": "enfoques transdiagnósticos"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La doctrina se apoyaba en una secuencia de estadios observada en asilos, con pacientes crónicos y sin control de causas orgánicas (sífilis, epilepsia, alcohol) que luego se separaron como entidades; la propia parálisis general progresiva mostró que cuadros clínicos variados podían tener causa específica. Berrios y Beer (1994) subrayan que «psicosis única» designó posiciones distintas según el autor, por lo que no constituye una teoría homogénea. El riesgo genético compartido moderno abarca muchos trastornos psiquiátricos y no solo los psicóticos (Brainstorm Consortium 2018), de modo que no rehabilita la tesis de una enfermedad única.",
+     "links": [
+      {
+       "ids": [
+        "griesinger",
+        "pleiotropia"
+       ],
+       "t": "historia y genética"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Craddock N & Owen MJ (2005). The beginning of the end for the Kraepelinian dichotomy. Br J Psychiatry 186:364-366 · PMID 15863738",
+    "Crow TJ (1986). The continuum of psychosis and its implication for the structure of the gene. Br J Psychiatry 149:419-429 · PMID 3814925",
+    "McGorry PD et al. (2006). Clinical staging of psychiatric disorders: a heuristic framework for choosing earlier, safer and more effective interventions. Aust N Z J Psychiatry 40:616-622 · PMID 16866756",
+    "Lichtenstein P et al. (2009). Common genetic determinants of schizophrenia and bipolar disorder in Swedish families: a population-based study. Lancet 373:234-239 · PMID 19150704",
+    "Brainstorm Consortium, Anttila V et al. (2018). Analysis of shared heritability in common disorders of the brain. Science 360:eaap8757 · PMID 29930110",
+    "Llopis B (1954). La psicosis única. Arch Neurobiol (Madr) 17:3-41 [no verificada]"
+   ],
+   "relAdd": [
+    "kahlbaum_hit",
+    "kraepelin_hit",
+    "rdoc"
+   ]
+  },
+  "tocp": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La visión clásica del TOC (Westphal, Janet, Jaspers) exigía que la persona reconociera el carácter absurdo de sus obsesiones; la clínica mostró pronto que una parte no lo hace. Kozak y Foa (1994) revisaron obsesiones, ideas sobrevaloradas y delirios en el TOC y concluyeron que las creencias obsesivas no pueden dicotomizarse según la introspección y que es más adecuado un continuo de fuerza de la convicción. El DSM-IV introdujo el especificador «con poca conciencia de enfermedad»; el DSM-5 (2013) y el DSM-5-TR (2022) lo ampliaron a tres niveles: introspección buena o aceptable, pobre y ausente o con creencias delirantes, de modo que la convicción delirante sobre el contenido obsesivo no obliga por sí sola a diagnosticar un trastorno psicótico. Es una entidad clínica actual, no un constructo histórico.",
+     "links": [
+      {
+       "ids": [
+        "insight",
+        "idea_sobrev",
+        "delirio"
+       ],
+       "t": "introspección, idea sobrevalorada y delirio"
+      },
+      {
+       "ids": [
+        "toc_dsm",
+        "toc_r5c"
+       ],
+       "t": "TOC y concepto clásico"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La introspección se explora preguntando qué probabilidad atribuye la persona a la consecuencia temida, si otros comparten su creencia, cómo explica que no se cumpla y si podría estar equivocada; conviene hacerlo para cada obsesión, porque varía entre contenidos y en el tiempo. La Escala de Evaluación de Creencias de Brown (BABS), de siete ítems y aplicada por el clínico, mostró excelente fiabilidad entre evaluadores y test-retest, no se correlacionó con la gravedad sintomática y fue sensible al cambio (Eisen et al. 1998); la gravedad se mide aparte con la Y-BOCS (ficha ybocs). En 106 pacientes seguidos tres años, el 22 % tenía introspección pobre, con más gravedad obsesiva y depresiva, inicio más precoz, más antecedentes familiares del espectro esquizofrénico y más comorbilidad esquizotípica; alcanzaron menos remisiones, necesitaron más ensayos terapéuticos y recibieron más potenciación con antipsicóticos (Catapano et al. 2010).",
+     "links": [
+      {
+       "ids": [
+        "ybocs",
+        "insight"
+       ],
+       "t": "medición de gravedad e introspección"
+      },
+      {
+       "ids": [
+        "esqtpersonalidad"
+       ],
+       "t": "comorbilidad esquizotípica"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "DSM-5-TR: especificador de introspección del TOC, extendido a todo el capítulo de trastornos obsesivo-compulsivos y relacionados (dismórfico corporal, acumulación). CIE-11: el TOC (6B20 [fuente oficial no localizada]) se califica como «con introspección aceptable o buena» o «con introspección escasa o ausente»; la agrupación obsesivo-compulsiva incluye trastorno dismórfico corporal, referencia olfativa, hipocondría y acumulación (Stein et al. 2016). Diagnóstico diferencial: trastorno delirante (contenido no obsesivo, sin rituales neutralizadores), esquizofrenia (otros síntomas psicóticos, desorganización), trastorno esquizotípico, depresión con ideas de culpa y TPOC (rasgos egosintónicos). La traducción gana al evitar el falso diagnóstico de psicosis; puede perderse la vigilancia ante una psicosis incipiente.",
+     "links": [
+      {
+       "ids": [
+        "tdelirant",
+        "esq",
+        "tpobs"
+       ],
+       "t": "diagnóstico diferencial"
+      },
+      {
+       "ids": [
+        "tdc",
+        "sro",
+        "acum"
+       ],
+       "t": "introspección en el espectro"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La introspección fluctúa con la ansiedad y la exposición, y la BABS recoge la convicción de un momento concreto. Los resultados sobre su relación con la gravedad son discordantes: no se correlacionó en la validación de la BABS (Eisen et al. 1998) y sí en la cohorte de Catapano et al. (2010). La potenciación con antipsicóticos en el TOC resistente a inhibidores de la recaptación de serotonina se apoya en nueve ensayos con 278 participantes: diferencia absoluta de respuesta de 0,22, mayor con tics (0,43), respuesta significativa solo en un tercio y tras al menos tres meses de inhibidor a la máxima dosis tolerada (Bloch et al. 2006). La etiqueta de introspección ausente no debe justificar por sí sola un tratamiento antipsicótico prolongado ni restar indicación a la exposición con prevención de respuesta.",
+     "links": [
+      {
+       "ids": [
+        "epr",
+        "isrs"
+       ],
+       "t": "tratamiento de primera línea"
+      },
+      {
+       "ids": [
+        "tics",
+        "tourette"
+       ],
+       "t": "TOC con tics"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kozak MJ & Foa EB (1994). Obsessions, overvalued ideas, and delusions in obsessive-compulsive disorder. Behav Res Ther 32:343-353 · PMID 8192634",
+    "Catapano F et al. (2010). Obsessive-compulsive disorder with poor insight: a three-year prospective study. Prog Neuropsychopharmacol Biol Psychiatry 34:323-330 · PMID 20015461",
+    "Bloch MH et al. (2006). A systematic review: antipsychotic augmentation with treatment refractory obsessive-compulsive disorder. Mol Psychiatry 11:622-632 · PMID 16585942",
+    "Stein DJ et al. (2016). The classification of obsessive-compulsive and related disorders in the ICD-11. J Affect Disord 190:663-674 · PMID 26590514"
+   ],
+   "relAdd": [
+    "toc_dsm",
+    "ybocs",
+    "tdelirant",
+    "tdc",
+    "sro"
+   ]
+  },
+  "sro": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Pryse-Phillips (1971, Acta Psychiatr Scand 47:484-509) dio nombre al síndrome a partir de una serie clínica inglesa; el resumen indexado no está disponible y los detalles de la serie no se han contrastado [fuente no localizada]. Feusner, Phillips y Stein (2010) fijaron el núcleo: preocupación por la creencia de emitir un olor corporal desagradable u ofensivo que otras personas no perciben, con malestar y discapacidad notables, descrita de forma consistente en distintas culturas durante más de un siglo. Recordaron que el DSM-IV y la CIE-10 solo lo mencionaban dentro del trastorno delirante de tipo somático y que el DSM-IV aludía al temor a resultar ofensivo por el olor como síntoma del taijin kyofusho. Literatura secundaria: Begum y McKenna (2011) revisaron la casuística mundial.",
+     "links": [
+      {
+       "ids": [
+        "taijin_kyofusho",
+        "koro"
+       ],
+       "t": "síndromes de expresión cultural"
+      },
+      {
+       "ids": [
+        "tdelirant"
+       ],
+       "t": "trastorno delirante somático"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "En 20 pacientes evaluados con medidas semiestructuradas, la preocupación se centraba en la boca (75 %), las axilas (60 %) y los genitales (35 %); el 85 % tenía creencias delirantes, el 77 % pensamiento autorreferencial y el 85 % decía percibir el olor; el 95 % realizaba conductas repetitivas (duchas excesivas, comprobaciones), el 40 % había permanecido recluido al menos una semana, el 68 % refería ideación suicida y el 32 % intentos de suicidio; el 44 % había buscado tratamiento médico, quirúrgico u odontológico, siempre ineficaz (Phillips y Menard 2011). Exploración: preguntar con tacto por olores, rituales y evitación, evaluar la introspección (BABS, ficha tocp) y el riesgo suicida (ficha cssrs), y descartar olor real, alucinaciones olfativas de origen epiléptico o psicótico y depresión. En 84 casos publicados, más de dos tercios mejoraron o se recuperaron, con mejor respuesta a antidepresivos y psicoterapia que a neurolépticos (Begum y McKenna 2011).",
+     "links": [
+      {
+       "ids": [
+        "aluc_olf",
+        "epilepsia_psic",
+        "ideas_ref"
+       ],
+       "t": "diagnóstico diferencial perceptivo"
+      },
+      {
+       "ids": [
+        "cssrs",
+        "tocp"
+       ],
+       "t": "riesgo suicida e introspección"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "La CIE-11 incluye el trastorno de referencia olfativa (6B22 [fuente oficial no localizada]) en la agrupación de trastornos obsesivo-compulsivos y relacionados, junto al dismórfico corporal, la hipocondría y la acumulación (Stein et al. 2016), con el calificador de introspección. El DSM-5-TR lo recoge como ejemplo de otro trastorno obsesivo-compulsivo y relacionado especificado y menciona el jikoshu-kyofu como variante cultural del taijin kyofusho. El paso desde el trastorno delirante gana coherencia fenomenológica (rituales, comprobación, evitación) y orienta hacia tratamientos del espectro obsesivo; se pierde la categoría única que agrupaba las convicciones somáticas no compartidas. Se relaciona con el trastorno dismórfico corporal, el delirio sensitivo de referencia y la ansiedad social.",
+     "links": [
+      {
+       "ids": [
+        "tdc",
+        "toc_espec",
+        "sensit_bezieh"
+       ],
+       "t": "afinidades nosológicas"
+      },
+      {
+       "ids": [
+        "fobia_soc",
+        "cfi"
+       ],
+       "t": "ansiedad social y formulación cultural"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La evidencia procede de casos publicados (Begum y McKenna 2011) y de series pequeñas sin grupo control (Phillips y Menard 2011); no hay ensayos aleatorizados, por lo que las recomendaciones terapéuticas son extrapoladas del TOC y del trastorno dismórfico corporal. Feusner et al. (2010) reconocieron que la investigación es aún muy limitada y que su clasificación óptima no está clara, aunque desaconsejaron considerarlo un subtipo de trastorno delirante. La frontera con las formas culturales japonesas y coreanas de ansiedad interpersonal obliga a una formulación cultural cuidadosa y no patologizante. El alto porcentaje de creencias delirantes en las series especializadas puede reflejar sesgo de derivación.",
+     "links": [
+      {
+       "ids": [
+        "taijin_kyofusho",
+        "cfi"
+       ],
+       "t": "variación cultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Feusner JD, Phillips KA & Stein DJ (2010). Olfactory reference syndrome: issues for DSM-V. Depress Anxiety 27:592-599 · PMID 20533369",
+    "Begum M & McKenna PJ (2011). Olfactory reference syndrome: a systematic review of the world literature. Psychol Med 41:453-461 · PMID 20529415",
+    "Phillips KA & Menard W (2011). Olfactory reference syndrome: demographic and clinical features of imagined body odor. Gen Hosp Psychiatry 33:398-406 · PMID 21762838",
+    "Stein DJ et al. (2016). The classification of obsessive-compulsive and related disorders in the ICD-11. J Affect Disord 190:663-674 · PMID 26590514"
+   ],
+   "relAdd": [
+    "tdc",
+    "tdelirant",
+    "toc_espec",
+    "tocp",
+    "fobia_soc"
+   ]
+  },
+  "anancasmo": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El término agrupa dos tradiciones que conviene separar. La psicopatológica alemana: Kurt Schneider (1923, Die psychopathischen Persönlichkeiten, Leipzig y Viena: Deuticke) describió, entre las personalidades inseguras de sí mismas, a las anancásticas, con representaciones obsesivas vividas como absurdas y resistidas; la acuñación del término «anancasmo» suele atribuirse a Donath (1897) [fuente no localizada]. La psicoanalítica: Freud describió en el caso del «hombre de las ratas» (Freud 1909, Bemerkungen über einen Fall von Zwangsneurose, Jahrb Psychoanal Psychopathol Forsch 1:357-421 [no verificada]) la neurosis obsesiva como ambivalencia amor-odio con aislamiento del afecto, anulación y pensamiento omnipotente, y en Carácter y erotismo anal (1908) el carácter ordenado, ahorrativo y obstinado. Janet (1903) aportó la psicastenia (Pitman 1987).",
+     "links": [
+      {
+       "ids": [
+        "schneider_hit",
+        "freud_hit",
+        "psicastenia"
+       ],
+       "t": "Schneider, Freud y Janet"
+      },
+      {
+       "ids": [
+        "ambival",
+        "pens_magico"
+       ],
+       "t": "ambivalencia y pensamiento mágico"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La exploración debe distinguir el síntoma (obsesiones egodistónicas, resistidas, con rituales neutralizadores: TOC) del rasgo (perfeccionismo, rigidez, escrupulosidad, control y dificultad para delegar, generalmente egosintónicos: personalidad anancástica o TPOC). En la CIE-11, la anancastia se registra como calificador de dominio de rasgo de un trastorno o dificultad de la personalidad; Bach y First (2018) proponen que la gravedad oriente la intensidad del tratamiento y los rasgos su foco y estilo. En el modelo alternativo del DSM-5 se evalúa mediante el perfeccionismo rígido del PID-5 (ficha pid5_lpfs). En el TOC, el tratamiento de primera línea es la exposición con prevención de respuesta (ficha epr); los rasgos anancásticos coexistentes modulan la alianza y el ritmo de la terapia.",
+     "links": [
+      {
+       "ids": [
+        "tpobs",
+        "pid5_lpfs",
+        "hitop_tp"
+       ],
+       "t": "evaluación del rasgo"
+      },
+      {
+       "ids": [
+        "toc_dsm",
+        "epr"
+       ],
+       "t": "síntoma y tratamiento"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "La «neurosis obsesiva» desapareció como categoría con el DSM-III; sus herederos son el TOC (síntoma) y el trastorno de la personalidad obsesivo-compulsiva (rasgo) en el DSM-5-TR, y en la CIE-11 el TOC dentro de los trastornos obsesivo-compulsivos y relacionados y el trastorno de la personalidad con rasgo prominente de anancastia, al que la agrupación obsesiva remite mediante referencia cruzada (Stein et al. 2016). La CIE-10 aún usaba «trastorno anancástico de la personalidad». Se gana al separar síntoma y carácter, que requieren abordajes distintos; se pierde la comprensión unitaria, psicodinámica o caracterológica, que veía en ambos una misma organización.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "tpobs"
+       ],
+       "t": "herederos actuales"
+      },
+      {
+       "ids": [
+        "psicopat_sch"
+       ],
+       "t": "personalidades psicopáticas de Schneider"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La teoría freudiana de la neurosis obsesiva (regresión anal-sádica) no ha recibido validación empírica comparable a la de los modelos cognitivo-conductuales y neurobiológicos [fuente no localizada]. La relación entre TOC y personalidad anancástica es parcial: ni todas las personas con TOC tienen rasgos anancásticos ni a la inversa [fuente no localizada]. Pitman (1987) señaló que de Janet perduran sobre todo las observaciones clínicas, mientras que sus ideas teóricas han quedado anticuadas, y lo mismo puede decirse de la tipología de Schneider. La ubicación de la anancastia como dominio independiente o como polo opuesto de la desinhibición sigue en discusión [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp",
+        "pid5_lpfs"
+       ],
+       "t": "modelos dimensionales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bach B & First MB (2018). Application of the ICD-11 classification of personality disorders. BMC Psychiatry 18:351 · PMID 30373564",
+    "Stein DJ et al. (2016). The classification of obsessive-compulsive and related disorders in the ICD-11. J Affect Disord 190:663-674 · PMID 26590514",
+    "Pitman RK (1987). Pierre Janet on obsessive-compulsive disorder (1903). Review and commentary. Arch Gen Psychiatry 44:226-232 · PMID 3827518",
+    "Freud S (1908). Charakter und Analerotik. Psychiatr-Neurol Wochenschr 9:465-467 [no verificada]"
+   ],
+   "relAdd": [
+    "toc_dsm",
+    "freud_hit",
+    "pid5_lpfs"
+   ]
+  },
+  "toc_espec": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Eric Hollander editó Obsessive-Compulsive Related Disorders (1993, Washington DC: American Psychiatric Press) y resumió con Wong el modelo del espectro (Hollander y Wong 1995, J Clin Psychiatry 56 supl. 4:3-6): un conjunto de trastornos con pensamientos o conductas repetitivas, ordenados en una dimensión compulsividad-impulsividad y con hipótesis de neurobiología y respuesta terapéutica compartidas. Literatura secundaria: Phillips et al. (2010), en la preparación del DSM-5, recomendaron crear una agrupación del espectro obsesivo-compulsivo, quizá dentro de una categoría supraordinada de ansiedad y espectro obsesivo; Stein et al. (2016) expusieron el fundamento de la agrupación de la CIE-11. Los polos del modelo se describen en los rasgos de esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "tdc",
+        "acum",
+        "ttm",
+        "derm"
+       ],
+       "t": "trastornos del espectro"
+      },
+      {
+       "ids": [
+        "toc_neuro",
+        "habito_dirigido"
+       ],
+       "t": "hipótesis neurobiológicas"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "El valor práctico del espectro es la búsqueda sistemática de comorbilidad: ante un TOC conviene preguntar por preocupación dismórfica, acumulación, arrancamiento de pelo, pellizcado de piel, olor corporal y tics, y a la inversa. La gravedad se mide con la Y-BOCS y sus adaptaciones (ficha ybocs) y la introspección con la BABS (ficha tocp). El tratamiento es específico de cada trastorno: exposición con prevención de respuesta e inhibidores de la recaptación de serotonina en TOC y trastorno dismórfico corporal, TCC específica en la acumulación y técnicas de reversión del hábito en las conductas repetitivas centradas en el cuerpo (fichas ttm y derm). El polo impulsivo (juego, cleptomanía, conducta sexual compulsiva) se trata con modelos propios.",
+     "links": [
+      {
+       "ids": [
+        "ybocs",
+        "tocp"
+       ],
+       "t": "instrumentos"
+      },
+      {
+       "ids": [
+        "epr",
+        "isrs"
+       ],
+       "t": "tratamientos del polo compulsivo"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "El DSM-5 (2013) creó el capítulo de trastornos obsesivo-compulsivos y relacionados (TOC, dismórfico corporal, acumulación, tricotilomanía, excoriación, inducidos por sustancias o por otra afección médica y otros especificados, como la referencia olfativa), pero dejó la ansiedad por enfermedad entre los trastornos de síntomas somáticos. La CIE-11 incluye además la hipocondría y el trastorno de referencia olfativa y remite mediante referencia cruzada al síndrome de Tourette, clasificado como neurológico, y a la anancastia de la personalidad (Stein et al. 2016). El polo impulsivo quedó fuera: el trastorno de conducta sexual compulsiva se sitúa en los trastornos del control de impulsos de la CIE-11, que precisa que el malestar derivado solo de juicios morales o de desaprobación social no basta para el diagnóstico [fuente oficial no localizada para la redacción literal].",
+     "links": [
+      {
+       "ids": [
+        "iad",
+        "sro",
+        "tourette"
+       ],
+       "t": "diferencias DSM-CIE"
+      },
+      {
+       "ids": [
+        "hipser",
+        "juegoP",
+        "clepto"
+       ],
+       "t": "polo impulsivo"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "El modelo amplio de Hollander no sobrevivió íntegro: el polo impulsivo se separó y la respuesta a inhibidores de la recaptación de serotonina no es común a todo el espectro (escasa en la tricotilomanía). Stein et al. (2016) reconocen que existen conceptualizaciones alternativas con mérito y base empírica y que el apoyo neurobiológico a la agrupación es aún emergente; Phillips et al. (2010) planteaban incluso una categoría supraordinada con los trastornos de ansiedad. El término «compulsivo» aplicado a conductas sexuales debe usarse con cautela para no patologizar prácticas consentidas, orientaciones o identidades por motivos morales, también en el contexto del chemsex.",
+     "links": [
+      {
+       "ids": [
+        "hipser",
+        "chemsex_s"
+       ],
+       "t": "sexualidad y chemsex"
+      },
+      {
+       "ids": [
+        "ttm"
+       ],
+       "t": "respuesta farmacológica dispar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hollander E & Wong CM (1995). Obsessive-compulsive spectrum disorders. J Clin Psychiatry 56 Suppl 4:3-6 · PMID 7713863",
+    "Phillips KA et al. (2010). Should an obsessive-compulsive spectrum grouping of disorders be included in DSM-V? Depress Anxiety 27:528-555 · PMID 20533367",
+    "Stein DJ et al. (2016). The classification of obsessive-compulsive and related disorders in the ICD-11. J Affect Disord 190:663-674 · PMID 26590514"
+   ],
+   "relAdd": [
+    "toc_dsm",
+    "tdc",
+    "acum",
+    "ttm",
+    "derm",
+    "sro",
+    "hipser"
+   ]
+  },
+  "toc_r5b": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Henri Legrand du Saulle publicó La folie du doute (avec délire du toucher) (1875, París: Delahaye), donde describió dudas incesantes, escrúpulos, interrogaciones y comprobaciones, junto a un temor al contacto con rituales de evitación y lavado, en personas que conservaban la conciencia del carácter morboso de su estado. En el francés de la época, «délire» no equivalía a delirio en sentido moderno, y «folie» designaba la enfermedad mental en general. La descripción de una evolución por fases sucesivas que se le atribuye no se ha contrastado en el original [fuente no localizada]. Literatura secundaria: Berrios (1989) muestra que hasta la década de 1850 estos fenómenos se consideraban una variante de la locura y que, tras oscilar entre neurosis y psicosis, alcanzaron definición clínica y nosológica plena a finales de la década de 1880.",
+     "links": [
+      {
+       "ids": [
+        "esquirol_hit",
+        "fen_francesa"
+       ],
+       "t": "tradición francesa"
+      },
+      {
+       "ids": [
+        "toc_r5c"
+       ],
+       "t": "tradición alemana contemporánea"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La duda patológica y el temor al contacto anticipan dos de las dimensiones sintomáticas actuales del TOC: comprobación y contaminación-lavado (ficha toc_dsm). En la entrevista, la duda se reconoce porque la persona sabe que ha cerrado la puerta y aun así no puede dar el acto por concluido; la sensación de que algo no está «del todo bien» se relacionó especialmente con la comprobación y el orden, y más con los rasgos obsesivos que con otras formas de psicopatología (Coles et al. 2003). La gravedad se evalúa con la Y-BOCS y su lista de síntomas (ficha ybocs). La conservación de la conciencia que subrayaba Legrand du Saulle es hoy un continuo, no un requisito (Kozak y Foa 1994). El tratamiento de referencia es la exposición con prevención de respuesta (ficha epr).",
+     "links": [
+      {
+       "ids": [
+        "ybocs",
+        "epr",
+        "toc_dsm"
+       ],
+       "t": "evaluación y tratamiento actuales"
+      },
+      {
+       "ids": [
+        "compul",
+        "tocp"
+       ],
+       "t": "comprobación e introspección"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "La folie du doute corresponde al trastorno obsesivo-compulsivo del DSM-5-TR y de la CIE-11 (6B20 [fuente oficial no localizada]), sobre todo a sus presentaciones de comprobación y contaminación; ninguno de los dos manuales conserva la duda como entidad separada. Se gana un marco unitario y tratamientos eficaces; se pierde la riqueza descriptiva de la duda como vivencia (la incapacidad de cerrar un acto) y el matiz de la escrupulosidad moral y religiosa, que hoy se codifica dentro de los pensamientos inaceptables. Su descendencia conceptual incluye la psicastenia de Janet y los modelos de incompletud.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "psicastenia"
+       ],
+       "t": "herederos"
+      },
+      {
+       "ids": [
+        "intol_incert"
+       ],
+       "t": "intolerancia a la incertidumbre"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Los diagnósticos retrospectivos de casos del siglo XIX son inciertos y dependen de traducciones de términos («délire», «folie») cuyo sentido ha cambiado. La teoría de la degeneración, marco explicativo de la época según Berrios (1989), está abandonada. Agrupar el temor al contacto con la duda mezcla lo que hoy se consideran dimensiones parcialmente distintas del TOC, y la exigencia de conciencia conservada excluiría a quienes tienen introspección pobre, que la evidencia actual sitúa en el mismo trastorno (Kozak y Foa 1994).",
+     "links": [
+      {
+       "ids": [
+        "tocp",
+        "morel"
+       ],
+       "t": "introspección y degeneración"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kozak MJ & Foa EB (1994). Obsessions, overvalued ideas, and delusions in obsessive-compulsive disorder. Behav Res Ther 32:343-353 · PMID 8192634",
+    "Coles ME et al. (2003). «Not just right experiences»: perfectionism, obsessive-compulsive features and general psychopathology. Behav Res Ther 41:681-700 · PMID 12732376"
+   ],
+   "relAdd": [
+    "toc_dsm",
+    "toc_r5c",
+    "ybocs"
+   ]
+  },
+  "toc_r5c": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Carl Westphal presentó en Berlín y publicó «Über Zwangsvorstellungen» (1878, Arch Psychiatr Nervenkr 8:734-750). Definió las representaciones obsesivas como contenidos que irrumpen en primer plano de la conciencia contra la voluntad, no pueden apartarse, son reconocidas por la persona como anormales y ajenas, con la inteligencia conservada, y no derivan de un estado afectivo; la formulación literal de la definición no se ha contrastado en el original [fuente no localizada]. Su tesis era intelectualista: un trastorno primario del curso de las representaciones, no del afecto. El mismo autor describió la agorafobia (Westphal 1871 [no verificada]). Literatura secundaria: Berrios (1989) sitúa a Westphal frente a las hipótesis volitivas y emocionales que predominaron en Francia después de 1890.",
+     "links": [
+      {
+       "ids": [
+        "obses",
+        "griesinger"
+       ],
+       "t": "obsesión y psiquiatría alemana"
+      },
+      {
+       "ids": [
+        "toc_r5b"
+       ],
+       "t": "tradición francesa contemporánea"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "Los rasgos de Westphal siguen estructurando la exploración de la obsesión (ficha obses): intrusividad, vivencia de ajenidad respecto a la voluntad (aunque se reconozcan como propios del pensamiento, a diferencia de la inserción del pensamiento psicótica), reconocimiento de su carácter excesivo y resistencia. La Y-BOCS conserva ítems de resistencia y de control sobre obsesiones y compulsiones (ficha ybocs). En la práctica, la diferencia con la rumiación depresiva, la preocupación ansiosa y el pensamiento delirante se basa en esos rasgos y en la presencia de rituales neutralizadores. El reconocimiento del absurdo ya no es criterio obligatorio: se ha sustituido por la graduación de la introspección (Kozak y Foa 1994).",
+     "links": [
+      {
+       "ids": [
+        "obses",
+        "ybocs",
+        "jaspers_yo"
+       ],
+       "t": "exploración de la obsesión"
+      },
+      {
+       "ids": [
+        "tag",
+        "ddm",
+        "delirio"
+       ],
+       "t": "diferencial del pensamiento repetitivo"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "La definición de obsesión del DSM-5-TR (pensamientos, impulsos o imágenes recurrentes, intrusivos y no deseados, que la persona intenta ignorar, suprimir o neutralizar) y la de la CIE-11 descienden directamente de Westphal. La expresión «obsesivo-compulsivo» suele explicarse como resultado de la doble traducción de Zwangsvorstellung, como «obsession» en el Reino Unido y «compulsion» en Estados Unidos [fuente no localizada]. Se pierde la tesis de un trastorno primario del pensamiento independiente del afecto y el requisito de juicio conservado; se gana un concepto aplicable a todo el continuo de introspección. Se relaciona con la folie du doute, la psicastenia y el anancasmo.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "tocp",
+        "compul"
+       ],
+       "t": "TOC actual"
+      },
+      {
+       "ids": [
+        "psicastenia",
+        "anancasmo"
+       ],
+       "t": "conceptos afines"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La exigencia de reconocimiento del carácter anormal excluye a quienes tienen introspección pobre o ausente, que la evidencia sitúa dentro del mismo trastorno (Kozak y Foa 1994). La tesis intelectualista de Westphal quedó en minoría frente a las explicaciones emocionales que se impusieron a partir de 1890 (Berrios 1989), y los modelos actuales integran componentes cognitivos, emocionales y de hábito. La ajenidad descrita por Westphal puede confundirse con fenómenos de pasividad psicóticos si no se precisa que el pensamiento se vive como propio.",
+     "links": [
+      {
+       "ids": [
+        "tocp",
+        "habito_dirigido",
+        "toc_neuro"
+       ],
+       "t": "modelos actuales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Berrios GE (1989). Obsessive-compulsive disorder: its conceptual history in France during the 19th century. Compr Psychiatry 30:283-295 · PMID 2667880",
+    "Kozak MJ & Foa EB (1994). Obsessions, overvalued ideas, and delusions in obsessive-compulsive disorder. Behav Res Ther 32:343-353 · PMID 8192634"
+   ],
+   "relAdd": [
+    "toc_dsm",
+    "toc_r5b",
+    "compul",
+    "anancasmo"
+   ]
+  },
+  "diog": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Macmillan y Shaw (1966, Br Med J 2:1032-1037) describieron el «deterioro senil de los hábitos de limpieza personal y ambiental». Clark, Mankikar y Gray (1975) propusieron el epónimo a partir de 30 personas mayores (14 hombres y 16 mujeres) ingresadas por enfermedad aguda con autoabandono extremo: viviendas sucias y desordenadas, aspecto descuidado sin vergüenza, acumulación de basura en algunos casos (silogomanía), vida en solitario salvo dos, sin pobreza ni vivienda deficiente como problema principal, y rechazo persistente de ayuda en un tercio. La mortalidad fue del 46 % y la mitad no mostraba trastorno psiquiátrico, con inteligencia superior a la media; lo interpretaron como reacción tardía al estrés en cierto tipo de personalidad. El resumen del artículo verifica así las dos cifras que la descripción de la ficha marcaba como no localizadas.",
+     "links": [
+      {
+       "ids": [
+        "acum",
+        "alc_tardio"
+       ],
+       "t": "acumulación y alcohol"
+      },
+      {
+       "ids": [
+        "dem",
+        "ftd"
+       ],
+       "t": "causas neurocognitivas"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "Exige una valoración geriátrica integral, a menudo en el domicilio: estado nutricional (Clark et al. describieron déficits de hierro, folato, vitamina B12, vitamina C, calcio, vitamina D, proteínas, agua y potasio), caídas, enfermedad física, cribado cognitivo y de funciones ejecutivas (ficha mmse_moca), depresión, psicosis, alcohol y acumulación. El autoabandono notificado a servicios sociales se asoció en una cohorte comunitaria de 9318 personas mayores a un riesgo de muerte al año casi seis veces mayor (HR 5,82), que persistía después (HR 1,88) y no se limitaba a quienes tenían peor función cognitiva o física (Dong et al. 2009). La capacidad para decidir debe evaluarse de forma específica (ficha maccat_t); el marco legal de apoyos e internamiento se detalla en las fichas de acumulación y de capacidad jurídica. El programa inicial es conductual y social; no hay información suficiente sobre tratamiento farmacológico (Cipriani et al. 2012).",
+     "links": [
+      {
+       "ids": [
+        "mmse_moca",
+        "maccat_t",
+        "cap_dem"
+       ],
+       "t": "evaluación cognitiva y de capacidad"
+      },
+      {
+       "ids": [
+        "capacidad_jur",
+        "internamiento"
+       ],
+       "t": "marco legal"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "No es un diagnóstico del DSM-5-TR ni de la CIE-11: es un síndrome descriptivo que obliga a buscar el trastorno subyacente y codificarlo (trastorno neurocognitivo, especialmente frontotemporal; trastorno de acumulación si se cumplen sus criterios; depresión; esquizofrenia o trastorno delirante; trastorno por consumo de alcohol; rasgos de personalidad). Pavlou y Lachs (2006) propusieron considerar el autoabandono de la persona mayor como síndrome geriátrico, por su etiología multifactorial, su asociación independiente con la mortalidad y el papel del deterioro cognitivo y la depresión como factores de riesgo. Frente al trastorno de acumulación, lo nuclear aquí es el autoabandono de la higiene y la salud, con o sin acopio.",
+     "links": [
+      {
+       "ids": [
+        "acum",
+        "ftd",
+        "dem",
+        "ddm"
+       ],
+       "t": "diagnósticos subyacentes"
+      },
+      {
+       "ids": [
+        "tpobs",
+        "tdelirant"
+       ],
+       "t": "personalidad y psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La literatura es de baja calidad: de 54 artículos revisados, 24 eran series de casos y 13 teóricos, de calidad metodológica muy variable (Pavlou y Lachs 2006). La serie de Clark procedía de pacientes hospitalizados por enfermedad aguda, lo que explica en parte la mortalidad elevada. La asociación con la demencia frontotemporal se apoya en muestras seleccionadas (36 % en estudios citados por Cipriani et al. 2012) y fue cuestionada como presentación propia de esa demencia (Lebert 2005). El epónimo es discutible, porque Diógenes de Sínope practicaba la austeridad, no la acumulación [fuente no localizada]. La intervención debe equilibrar protección y autonomía y evitar el edadismo y la retirada forzosa como sustituto del tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "ftd",
+        "consent_cap"
+       ],
+       "t": "demencia y autonomía"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Macmillan D & Shaw P (1966). Senile breakdown in standards of personal and environmental cleanliness. Br Med J 2:1032-1037 · PMID 5919035",
+    "Pavlou MP & Lachs MS (2006). Could self-neglect in older adults be a geriatric syndrome? J Am Geriatr Soc 54:831-842 · PMID 16696752",
+    "Dong X et al. (2009). Elder self-neglect and abuse and mortality risk in a community-dwelling population. JAMA 302:517-526 · PMID 19654386",
+    "Cipriani G et al. (2012). Diogenes syndrome in patients suffering from dementia. Dialogues Clin Neurosci 14:455-460 · PMID 23393422",
+    "Lebert F (2005). Diogene syndrome, a clinical presentation of fronto-temporal dementia or not? Int J Geriatr Psychiatry 20:1203-1204 · PMID 16315145"
+   ],
+   "relAdd": [
+    "ftd",
+    "mmse_moca",
+    "maccat_t",
+    "capacidad_jur"
+   ]
+  },
+  "psicastenia": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Fuente primaria: Pierre Janet, Les obsessions et la psychasthénie (1903, París: Alcan), en dos volúmenes, el segundo firmado con Fulgence Raymond [no verificada]. Janet ordenó los fenómenos en niveles: obsesiones y compulsiones; «agitaciones forzadas» (manías mentales, tics, angustias difusas) y, en la base, el estado psicasténico, con sentimientos de incompletud, de irrealidad y de automatismo, que atribuía a un descenso de la tensión psicológica y de la función de lo real. Era el par opuesto de la histeria en su clasificación de las neurosis. Literatura secundaria: Pitman (1987) resumió la obra y subrayó como aportaciones duraderas las agitaciones forzadas, el estado psicasténico subyacente y el fracaso específico de adaptación a la realidad; Summerfeldt (2004) actualizó la incompletud.",
+     "links": [
+      {
+       "ids": [
+        "janet_hit",
+        "histeriaC"
+       ],
+       "t": "Janet y la histeria"
+      },
+      {
+       "ids": [
+        "toc_r5b",
+        "anancasmo"
+       ],
+       "t": "tradiciones obsesivas"
+      }
+     ]
+    },
+    {
+     "t": "Exploración y valor clínico",
+     "x": "La incompletud se explora preguntando si los rituales buscan evitar un daño o, más bien, lograr la sensación de que algo está «bien hecho» o «completo». En muestras universitarias, las experiencias de «no estar del todo bien» se relacionaron con rasgos obsesivos y con el perfeccionismo desadaptativo, especialmente con comprobación y orden, y más con el TOC que con ansiedad social, preocupación o depresión (Coles et al. 2003). Summerfeldt (2004) propone que la incompletud refleja una disfunción sensorial-afectiva, por lo que los métodos conductuales de habituación (exposición con prevención de respuesta) son más aplicables que las técnicas cognitivas convencionales, con ganancias a largo plazo modestas y riesgo de recaída si no se practican. La despersonalización del psicasténico se evalúa hoy como síntoma propio (ficha desp_sx).",
+     "links": [
+      {
+       "ids": [
+        "epr",
+        "ybocs"
+       ],
+       "t": "tratamiento y medición"
+      },
+      {
+       "ids": [
+        "desp",
+        "desp_sx"
+       ],
+       "t": "despersonalización"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "La psicastenia no existe en el DSM-5-TR ni en la CIE-11; sus componentes se reparten entre el TOC (y la dimensión de incompletud), los trastornos fóbicos y de ansiedad, el trastorno de despersonalización-desrealización, los tics y el trastorno de la personalidad obsesivo-compulsiva o la anancastia. El término sobrevive en la escala 7 (Pt) del MMPI. La dispersión gana precisión diagnóstica; pierde la hipótesis de un estado de base común, que reaparece en la investigación sobre incompletud y en los modelos transdiagnósticos. Se relaciona con la neurastenia de Beard, con la folie du doute y con el anancasmo de Schneider.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "tpobs",
+        "tics"
+       ],
+       "t": "herederos nosológicos"
+      },
+      {
+       "ids": [
+        "neurastenia"
+       ],
+       "t": "neurastenia"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Pitman (1987) advierte que las ideas teóricas de Janet han quedado anticuadas y que el valor de la obra reside en sus descubrimientos clínicos: la tensión psicológica es una metáfora energética no operativizable. La categoría era muy amplia y heterogénea, solapada con la neurastenia y con lo que hoy son trastornos de ansiedad, de personalidad y disociativos. Berrios (1989) muestra que la psicastenia formó parte del giro hacia explicaciones emocionales y volitivas de las obsesiones en la Francia de finales del siglo XIX, más que de un modelo validado. La evidencia sobre la incompletud procede en gran parte de muestras no clínicas (Coles et al. 2003).",
+     "links": [
+      {
+       "ids": [
+        "neurastenia",
+        "toc_r5b"
+       ],
+       "t": "contexto histórico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pitman RK (1987). Pierre Janet on obsessive-compulsive disorder (1903). Review and commentary. Arch Gen Psychiatry 44:226-232 · PMID 3827518",
+    "Coles ME et al. (2003). «Not just right experiences»: perfectionism, obsessive-compulsive features and general psychopathology. Behav Res Ther 41:681-700 · PMID 12732376",
+    "Berrios GE (1989). Obsessive-compulsive disorder: its conceptual history in France during the 19th century. Compr Psychiatry 30:283-295 · PMID 2667880"
+   ],
+   "relAdd": [
+    "neurastenia",
+    "histeriaC",
+    "tpobs",
+    "desp_sx"
+   ]
+  }
+ },
+ "add": []
+}
