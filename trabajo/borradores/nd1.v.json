@@ -1,0 +1,903 @@
+{
+ "patch": {
+  "chemsex_s": {
+   "relAdd": [
+    "apps_contacto",
+    "sexo_sin_drogas",
+    "uropatia_ketam",
+    "chemsex_trans_muj"
+   ]
+  },
+  "sdu": {
+   "relAdd": [
+    "apps_contacto",
+    "chemsex_trans_muj"
+   ]
+  },
+  "soledad": {
+   "relAdd": [
+    "apps_contacto"
+   ]
+  },
+  "genero": {
+   "relAdd": [
+    "apps_contacto"
+   ]
+  },
+  "homoneg_int": {
+   "relAdd": [
+    "apps_contacto"
+   ]
+  },
+  "disf_sex": {
+   "relAdd": [
+    "sexo_sin_drogas"
+   ]
+  },
+  "chemsex_atencion": {
+   "relAdd": [
+    "sexo_sin_drogas"
+   ]
+  },
+  "lgb_afirm": {
+   "relAdd": [
+    "sexo_sin_drogas"
+   ]
+  },
+  "ketamina_rec": {
+   "relAdd": [
+    "tusi",
+    "uropatia_ketam"
+   ]
+  },
+  "mdma": {
+   "relAdd": [
+    "tusi"
+   ]
+  },
+  "red_danos": {
+   "relAdd": [
+    "tusi"
+   ]
+  },
+  "catinonas_nuevas": {
+   "relAdd": [
+    "tusi"
+   ]
+  },
+  "ketamina": {
+   "relAdd": [
+    "uropatia_ketam"
+   ]
+  },
+  "dolor_cron_prim": {
+   "relAdd": [
+    "uropatia_ketam"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "chemsex_trans_muj"
+   ]
+  },
+  "wpath_soc8": {
+   "relAdd": [
+    "chemsex_trans_muj"
+   ]
+  },
+  "ghb_gbl": {
+   "relAdd": [
+    "chemsex_trans_muj"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "apps_contacto",
+   "n": "Aplicaciones de contactos y salud mental en hombres gais, bisexuales y otros HSH",
+   "ab": "Apps de contactos",
+   "al": [
+    "apps de citas",
+    "aplicaciones de citas",
+    "aplicaciones geosociales",
+    "aplicaciones de geolocalización",
+    "dating apps",
+    "Grindr"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2017,
+   "tags": [
+    "lgtbi",
+    "chemsex"
+   ],
+   "desc": "Las aplicaciones de contactos con geolocalización son hoy una de las principales vías por las que hombres gais, bisexuales y otros hombres que tienen sexo con hombres (HSH) buscan amistad, pareja o encuentros sexuales. En la revisión sistemática de Zou y Fan (2017), quienes las usaban eran más jóvenes y tenían más conductas sexuales de riesgo e ITS, pero también se habían hecho la prueba del VIH con más frecuencia. Los estudios cualitativos sitúan en ellas la puerta de entrada a muchas primeras experiencias de chemsex (Nimbi 2020), y el metaanálisis de Cela y Wood (2026) asocia su uso a malestar emocional, preocupación por la apariencia y patrones de uso desregulados, con mayor vulnerabilidad corporal en mujeres y en hombres de minorías sexuales. Son un factor contextual, no una causa: en hombres gais y bisexuales chinos, la asociación entre intensidad de uso y soledad estaba mediada por el estigma percibido e interiorizado (Cao y Smith 2023), y el papel general del estrés de minorías en estas asociaciones no está cuantificado [fuente no localizada]; y las mismas plataformas son un canal privilegiado de prevención.",
+   "feats": [
+    "Revisión sistemática: los HSH que usan aplicaciones geosociales son más jóvenes, con más estudios e ingresos, más conductas sexuales de riesgo e ITS y más pruebas del VIH a lo largo de la vida (OR agrupada 2,1), con prevalencia de VIH similar a la de quienes no las usan (Zou y Fan 2017)",
+    "En 30 HSH italianos que practicaban chemsex, las primeras experiencias se producían sobre todo a través de aplicaciones de geolocalización y de parejas sexuales (Nimbi 2020)",
+    "Barcelona, programa de pruebas rápidas captado por aplicaciones (2016-2023): aumentaron el chemsex y el trabajo sexual y disminuyó el uso del preservativo; el chemsex en el último año se asoció a sífilis activa (ORa 2,80) (Alarcón Gutiérrez 2024)",
+    "Metaanálisis de 27 estudios (21 263 personas): el uso de aplicaciones de citas basadas en deslizar se asoció a malestar emocional, preocupación por la apariencia, alteración de la imagen corporal y sensibilidad interpersonal, con el mayor efecto para la desregulación conductual (g = 0,44); sin efecto significativo en el bienestar general (Cela y Wood 2026)",
+    "En 371 hombres gais y bisexuales chinos, la intensidad de uso se asoció a más soledad, mediada en serie por el estigma percibido y el estigma sexual interiorizado (encuesta transversal; Cao y Smith 2023)",
+    "En 1039 HSH australianos captados en Grindr, los hombres racializados sufrían más racismo sexual, asociado a menor autoestima y, a través de ella, a menor satisfacción vital (Thai 2020)",
+    "El acoso sexual a través de aplicaciones de citas oscila entre el 57 % y el 88,8 % de los usuarios, es más frecuente en mujeres y en minorías sexuales y se asocia a depresión, ansiedad, TEPT, soledad y menor autoestima (Gewirtz-Meydan 2024)"
+   ],
+   "tx": "No es una entidad que se trate, sino un contexto que se evalúa: preguntar sin juicio por el uso de aplicaciones, sus motivos (amistad, pareja, sexo, entretenimiento), el tiempo y la sensación de control, la relación con el consumo y el estado de ánimo. Intervenciones posibles: trabajo sobre soledad, autoestima, imagen corporal y estigma interiorizado con psicoterapia afirmativa; estrategias de control del uso cuando la persona lo vive como problemático; y aprovechamiento de las propias aplicaciones para la promoción de pruebas de VIH e ITS, PrEP y reducción de daños en chemsex.",
+   "note": "Casi todos los estudios son transversales, con muestras de conveniencia captadas en las propias aplicaciones, por lo que no permiten establecer la dirección de la asociación; el metaanálisis de Cela y Wood (2026) subraya la falta de evidencia longitudinal y mecanicista. El «uso compulsivo» de aplicaciones no es una categoría diagnóstica del DSM-5-TR ni de la CIE-11; describirlo como adicción carece de base. Debe evitarse cualquier lectura que patologice la búsqueda de sexo o de pareja por medios digitales, práctica normativa en la población general y en el colectivo LGTBIQ.",
+   "sec": [
+    {
+     "t": "Asociación con el chemsex y la salud sexual",
+     "x": "En los estudios cualitativos, las aplicaciones aparecen como vía de acceso a las primeras experiencias de chemsex (Nimbi 2020). En entrevistas a 31 HSH seronegativos de Hong Kong, el preservativo se usaba habitualmente salvo en personas jóvenes e inexpertas o cuando había consumo de drogas antes o durante el sexo, y los encuentros abusivos llevaban a cambiar los hábitos de búsqueda y a desconfiar (Choi 2021). En 412 usuarios de 50 años o más en Brasil, el chemsex se asoció a la infección por VIH (ORa 3,97) (Queiroz 2019). En el programa de pruebas de Barcelona, el chemsex aumentó entre 2016 y 2023 y se asoció a sífilis (Alarcón Gutiérrez 2024). Estos datos describen asociaciones en muestras captadas en las propias aplicaciones, no un efecto causal de la tecnología.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "chemsex y uso sexualizado de drogas"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "VIH, PrEP e ITS"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "consentimiento y violencia sexual"
+      }
+     ]
+    },
+    {
+     "t": "Uso compulsivo, soledad, autoestima e imagen corporal",
+     "x": "El metaanálisis de Cela y Wood (2026) encontró asociaciones pequeñas o moderadas entre el uso de aplicaciones de citas y el malestar emocional, la preocupación por la apariencia y la imagen corporal, y la desregulación conductual, con mayor vulnerabilidad corporal en mujeres y en hombres de minorías sexuales; los autores sugieren que la abundancia de opciones podría correlacionarse con patrones de uso compulsivo, sin que los datos permitan inferir mecanismos. En hombres gais y bisexuales chinos, el uso intenso se asoció a más soledad a través del estigma percibido e interiorizado (Cao y Smith 2023); en Grindr, el racismo sexual se asoció a menor autoestima (Thai 2020); y entre 195 jóvenes usuarios de Grindr de Los Ángeles, la homofobia sufrida, la presencia de una persona del entorno contraria a su orientación, la conexión con la comunidad y el apoyo emocional predecían los síntomas depresivos (Gibbs y Rice 2016). El hábito de uso fue un determinante significativo del uso continuado (Aitken y Taylor 2024).",
+     "links": [
+      {
+       "ids": [
+        "soledad"
+       ],
+       "t": "soledad"
+      },
+      {
+       "ids": [
+        "homoneg_int",
+        "genero",
+        "estigma"
+       ],
+       "t": "estigma y estrés de minorías"
+      },
+      {
+       "ids": [
+        "racismo_sm"
+       ],
+       "t": "racismo"
+      },
+      {
+       "ids": [
+        "tdc"
+       ],
+       "t": "imagen corporal"
+      },
+      {
+       "ids": [
+        "hipser",
+        "pantallas"
+       ],
+       "t": "conducta sexual compulsiva y uso problemático de pantallas"
+      }
+     ]
+    },
+    {
+     "t": "Oportunidades de prevención e intervención",
+     "x": "En los estudios revisados por Zou y Fan (2017) se llegaron a captar hasta 676 HSH en un solo día a través de aplicaciones y recomendaron usarlas en la prevención del VIH en colaboración con sus desarrolladores. En Barcelona, un programa de pruebas rápidas de VIH, sífilis y hepatitis C captado mediante aplicaciones permitió vigilar tendencias y detectar el aumento del chemsex (Alarcón Gutiérrez 2024). En Hong Kong se ha diseñado un ensayo aleatorizado de una intervención web interactiva para usuarios de aplicaciones dirigida a preservativo, pruebas y chemsex; solo se ha publicado el protocolo (Choi 2020). En consulta, la anamnesis del uso de aplicaciones abre la conversación sobre consumo, consentimiento, acoso, soledad y autoestima, y la psicoterapia afirmativa puede abordar el estigma interiorizado que media la soledad [fuente no localizada para la eficacia específica en usuarios de aplicaciones].",
+     "links": [
+      {
+       "ids": [
+        "red_danos",
+        "chemsex_atencion"
+       ],
+       "t": "reducción de daños y modelos de atención"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "psicoterapia afirmativa"
+      },
+      {
+       "ids": [
+        "apoyo_pares"
+       ],
+       "t": "apoyo entre iguales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Zou H & Fan S (2017). Characteristics of men who have sex with men who use smartphone geosocial networking applications and implications for HIV interventions: a systematic review and meta-analysis. Arch Sex Behav 46:885-894 — doi:10.1007/s10508-016-0709-3 · PMID 27043837",
+    "Cela H & Wood G (2026). A systematic review and meta-analysis of the mental health correlates of swiping-based dating app use. Commun Psychol 4 — doi:10.1038/s44271-026-00488-7 · PMID 42393202",
+    "Nimbi FM et al. (2020). Chemsex in Italy: experiences of men who have sex with men consuming illicit drugs to enhance and prolong their sexual activity. J Sex Med 17:1875-1884 — doi:10.1016/j.jsxm.2020.07.001 · PMID 32727698",
+    "Alarcón Gutiérrez M et al. (2024). Trends in sexual health of gay, bisexual, and other men who have sex with men, and transgender individuals: apps driven testing program for HIV and other STIs in Barcelona, Spain (2016-2023). J Community Health 49:429-438 — doi:10.1007/s10900-023-01310-9 · PMID 38063976",
+    "Cao B & Smith K (2023). Gay dating apps in China: do they alleviate or exacerbate loneliness? The serial mediation effect of perceived and internalized sexuality stigma. J Homosex 70:347-363 — doi:10.1080/00918369.2021.1984751 · PMID 34613888",
+    "Thai M (2020). Sexual racism is associated with lower self-esteem and life satisfaction in men who have sex with men. Arch Sex Behav 49:347-353 — doi:10.1007/s10508-019-1456-z · PMID 31407193",
+    "Gewirtz-Meydan A et al. (2024). Dating apps: a new emerging platform for sexual harassment? A scoping review. Trauma Violence Abuse 25:752-763 — doi:10.1177/15248380231162969 · PMID 37036157",
+    "Gibbs JJ & Rice E (2016). The social context of depression symptomology in sexual minority male youth: determinants of depression in a sample of Grindr users. J Homosex 63:278-299 — doi:10.1080/00918369.2015.1083773 · PMID 26295497",
+    "Aitken BC & Taylor L (2024). Uses and grindifications: examining the motivators and antecedents of Grindr usage among GBMSM. J Homosex 71:3403-3425 — doi:10.1080/00918369.2023.2297953 · PMID 38266178",
+    "Queiroz AAFLN et al. (2019). Vulnerability to HIV among older men who have sex with men users of dating apps in Brazil. Braz J Infect Dis 23:298-306 — doi:10.1016/j.bjid.2019.07.005 · PMID 31472125",
+    "Choi KWY et al. (2021). The experience of using dating applications for sexual hook-ups: a qualitative exploration among HIV-negative men who have sex with men in Hong Kong. J Sex Res 58:785-794 — doi:10.1080/00224499.2021.1886227 · PMID 33656408",
+    "Choi EPH et al. (2020). The safe use of dating applications among men who have sex with men: a study protocol for a randomised controlled trial to evaluate an interactive web-based intervention to reduce risky sexual behaviours. BMC Public Health 20:795 — doi:10.1186/s12889-020-08914-z · PMID 32460748"
+   ],
+   "rel": [
+    "chemsex_s",
+    "sdu",
+    "chemsex_ssex",
+    "soledad",
+    "homoneg_int",
+    "genero",
+    "estigma",
+    "racismo_sm",
+    "tdc",
+    "lgb_afirm",
+    "pantallas",
+    "hipser"
+   ],
+   "cie": []
+  },
+  {
+   "id": "sexo_sin_drogas",
+   "n": "Recuperar la sexualidad sin drogas tras el chemsex: intervención psicológica y sexológica",
+   "ab": "Sexo sin drogas",
+   "al": [
+    "sexo sobrio",
+    "sober sex",
+    "sexualidad tras el chemsex",
+    "rehabilitación sexual en el chemsex",
+    "terapia sexual en el chemsex"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "tcc",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 2021,
+   "tags": [
+    "chemsex",
+    "lgtbi"
+   ],
+   "desc": "Conjunto de intervenciones psicológicas y sexológicas dirigidas a que quien ha reducido o dejado el chemsex pueda tener una vida sexual satisfactoria sin sustancias, objetivo que las personas atendidas suelen señalar como central y que condiciona el mantenimiento de los cambios [fuente no localizada]. En entrevistas a hombres que practicaban chemsex, el sexo con drogas se vivía como transgresor e intenso y el sexo sobrio como más íntimo pero muy afectado por la ansiedad de desempeño (Nimbi 2021); en una muestra española, más apoyo social y más deseo y excitación predecían más sexo sin drogas (Sánchez-Ocaña 2025). No existen ensayos controlados de intervenciones específicas para esta transición: lo que se propone se apoya en estudios observacionales y cualitativos, en la eficacia general de la terapia sexual y en opinión de expertos, que se señala como tal.",
+   "feats": [
+    "En 31 hombres cisgénero italianos con uso sexualizado de drogas, las sustancias aumentaban el deseo, la excitación subjetiva, la desinhibición, la duración y la percepción de intimidad, pero podían dificultar la erección y la eyaculación; el sexo sobrio se describía como más íntimo y lastrado por la ansiedad de desempeño (Nimbi 2021)",
+    "Algunos de esos hombres recurrían al chemsex para afrontar el ánimo depresivo, la ansiedad, el estrés y los problemas sexuales previos (Nimbi 2021), mecanismo también recogido en la revisión sistemática de 35 estudios de Lafortune et al. (2021) junto con mejorar el rendimiento sexual, reducir inhibiciones y buscar intimidad o pertenencia",
+    "En 160 HSH captados en España, menos apoyo social y más vías de administración predecían más chemsex; más apoyo social, más deseo y excitación y menos vías de administración predecían más sexo sin drogas (Sánchez-Ocaña 2025)",
+    "En 252 personas hispanohablantes con uso sexualizado de sustancias, la inflexibilidad psicológica fue el predictor más fuerte de hipersexualidad (β = 0,48) y de consumo (β = 0,25), y la soledad se asoció a ambos; los autores proponen la terapia de aceptación y compromiso, sin datos de eficacia (Rico y Montesinos 2025)",
+    "Heterogeneidad: en la encuesta EMIS checa, el 55 % de los 87 hombres que practicaban chemsex había tenido sexo sobrio en las 4 semanas previas, y el grupo de chemsex en conjunto refería más satisfacción con su vida sexual que el grupo de comparación, sin diferencias en salud mental (Uholyeva 2022), mientras que en 175 jóvenes polacos el chemsex se asoció a menor bienestar sexual y más estrés percibido (Gerymski 2023)",
+    "Eficacia general de la terapia sexual: en 20 ensayos frente a lista de espera, las intervenciones psicológicas mejoraron la gravedad de los síntomas (d = 0,58) y la satisfacción sexual (d = 0,47), con mejor evidencia en el deseo hipoactivo y el trastorno orgásmico femeninos; no hay ensayos en población que sale del chemsex (Frühauf 2013)"
+   ],
+   "tx": "Abordaje escalonado, afirmativo y acordado con la persona: evaluación sexológica completa; psicoeducación sobre la readaptación del deseo y la excitación sin estimulantes; trabajo sobre ansiedad de desempeño, vergüenza y homonegatividad interiorizada; focalización sensorial y reintroducción gradual de la intimidad; identificación de los estímulos sexuales asociados al consumo como desencadenantes dentro de la prevención de recaídas; fortalecimiento del apoyo social y de la conexión comunitaria; terapia de pareja cuando proceda; tratamiento médico de la disfunción eréctil según su ficha técnica (las fichas técnicas AEMPS-CIMA de los inhibidores de la PDE-5, como sildenafilo, los contraindican con donadores de óxido nítrico, como el nitrito de amilo o «poppers», y con nitratos). Gran parte de estas recomendaciones procede de opinión de expertos y de la extrapolación de la terapia sexual general.",
+   "note": "Evidencia muy limitada: estudios cualitativos y transversales con muestras pequeñas o de conveniencia, casi todas de hombres cisgénero gais y bisexuales; la consulta internacional de medicina sexual subraya las muestras pequeñas, los diseños transversales y la escasez de instrumentos validados en población LGTBIQ (Garcia 2025). No se han localizado ensayos de intervenciones específicas para recuperar la sexualidad tras el chemsex. El objetivo no es imponer la abstinencia sexual ni un modelo normativo de sexualidad: algunas personas eligen reducir daños sin abandonar el uso sexualizado de drogas, y esa elección debe respetarse (Sánchez-Ocaña 2025).",
+   "sec": [
+    {
+     "t": "Problemas sexuales al dejar el chemsex",
+     "x": "Tras un periodo de sexo asociado casi siempre a estimulantes y GHB/GBL, la persona puede encontrarse con un deseo bajo o ausente, dificultad para excitarse, problemas de erección o de eyaculación, anhedonia sexual, sensación de que el sexo sin drogas es «plano» y dificultad para la intimidad emocional [fuente no localizada; descripción basada en la experiencia clínica y la opinión de expertos]. La ansiedad de desempeño en el sexo sobrio sí está documentada (Nimbi 2021), igual que el uso del chemsex para afrontar problemas sexuales previos, emociones dolorosas o inhibiciones (Lafortune 2021). El consumo crónico de GHB se asocia a peor salud sexual (Tay 2022). Antes de atribuir los síntomas a la abstinencia hay que descartar causas médicas y farmacológicas (VIH y antirretrovirales, hipogonadismo, depresión y antidepresivos) y valorar si hubo experiencias sexuales no consentidas.",
+     "links": [
+      {
+       "ids": [
+        "disf_sex",
+        "sexual_sx"
+       ],
+       "t": "disfunciones y alteraciones sexuales"
+      },
+      {
+       "ids": [
+        "anhed"
+       ],
+       "t": "anhedonia"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "metanf",
+        "mefed"
+       ],
+       "t": "sustancias del chemsex"
+      },
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual por psicofármacos"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "consentimiento"
+      }
+     ]
+    },
+    {
+     "t": "Intervención psicológica y sexológica",
+     "x": "No hay un protocolo validado, y lo que sigue combina evidencia indirecta con opinión de expertos. Las intervenciones psicológicas tienen eficacia moderada frente a lista de espera en las disfunciones sexuales en general, con mejor evidencia en el deseo hipoactivo y el trastorno orgásmico femeninos (Frühauf 2013); la focalización sensorial de Masters y Johnson (1970) permite reintroducir el contacto sin exigencia de rendimiento, aunque su aplicación tras el chemsex no se ha evaluado [opinión de expertos]. El trabajo sobre la ansiedad de desempeño, la vergüenza y la homonegatividad interiorizada encaja con la psicoterapia afirmativa. La inflexibilidad psicológica y la soledad se asocian al uso sexualizado de sustancias, lo que da base teórica, no empírica, a la terapia de aceptación y compromiso (Rico y Montesinos 2025); la extensión a las intervenciones basadas en mindfulness o compasión es opinión de expertos [fuente no localizada]. Dentro de la prevención de recaídas conviene identificar los estímulos sexuales asociados al consumo (aplicaciones, lugares, horarios, pornografía, parejas de consumo) y planificar alternativas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "homoneg_int"
+       ],
+       "t": "psicoterapia afirmativa y homonegatividad interiorizada"
+      },
+      {
+       "ids": [
+        "mbct",
+        "cft"
+       ],
+       "t": "mindfulness y compasión"
+      },
+      {
+       "ids": [
+        "entrev_motiv",
+        "manejo_conting"
+       ],
+       "t": "intervenciones motivacionales y conductuales"
+      },
+      {
+       "ids": [
+        "apps_contacto"
+       ],
+       "t": "aplicaciones de contactos"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia disponible y sus límites",
+     "x": "Los estudios que abordan la sexualidad sin drogas en el chemsex son cualitativos (Nimbi 2021) o transversales (Sánchez-Ocaña 2025; Uholyeva 2022; Gerymski 2023; Rico y Montesinos 2025), con muestras pequeñas y captadas por conveniencia, y no permiten inferir causalidad. La consulta internacional de medicina sexual de 2024 incluyó el chemsex entre los temas de salud sexual de la población LGTBIQ y destacó la falta de diseños longitudinales y de medidas validadas (Garcia 2025). La metaetnografía de Hawkinson et al. (2024) muestra que los hombres despliegan estrategias propias para aumentar los beneficios y reducir los riesgos del chemsex, lo que obliga a reconocer tanto el placer como el malestar al plantear objetivos. Por ello, la recomendación de integrar la intervención sexológica en la atención al chemsex se apoya en consenso clínico y no en ensayos [opinión de expertos].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "chemsex y uso sexualizado de drogas"
+      },
+      {
+       "ids": [
+        "chemsex_atencion",
+        "red_danos"
+       ],
+       "t": "modelos de atención y reducción de daños"
+      }
+     ]
+    },
+    {
+     "t": "Apoyo social, pareja y comunidad",
+     "x": "En la muestra española, el menor apoyo social percibido predijo más chemsex y el mayor apoyo social, más sexo sin drogas (Sánchez-Ocaña 2025), y en hombres australianos el chemsex se asoció a menor conexión con la comunidad LGTBIQ junto con más malestar psicológico (Demant 2026). Por ello, la recuperación de la sexualidad no se limita a la técnica sexológica: incluye reconstruir redes de amistad no ligadas al consumo, espacios de ocio y de encuentro sin sustancias y, cuando la persona tiene pareja, terapia de pareja para renegociar acuerdos, intimidad y confianza [fuente no localizada para la eficacia]. Los grupos de apoyo entre iguales de entidades comunitarias LGTBIQ ofrecen un espacio para hablar de sexo sin juicio, aunque su eficacia específica no se ha evaluado en ensayos.",
+     "links": [
+      {
+       "ids": [
+        "soledad"
+       ],
+       "t": "soledad"
+      },
+      {
+       "ids": [
+        "apoyo_pares"
+       ],
+       "t": "apoyo entre iguales"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "estrés de minorías"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Nimbi FM et al. (2021). Sex in chemsex: sexual response, motivations, and sober sex in a group of Italian men who have sex with men with sexualized drug use. J Sex Med 18:1955-1969 — doi:10.1016/j.jsxm.2021.09.013 · PMID 34756552",
+    "Sánchez-Ocaña A et al. (2025). Exploring the role of social support and sexual functioning: a study of chemsex and sober sex in men who have sex with men. J Sex Res 62:1303-1312 — doi:10.1080/00224499.2024.2415997 · PMID 39417539",
+    "Lafortune D et al. (2021). Psychological and interpersonal factors associated with sexualized drug use among men who have sex with men: a mixed-methods systematic review. Arch Sex Behav 50:427-460 — doi:10.1007/s10508-020-01741-8 · PMID 33108566",
+    "Rico R & Montesinos F (2025). A contextual behavioral model of chemsex: structural equation modeling of psychological predictors of hypersexuality and drug use. Front Psychol 16:1672471 — doi:10.3389/fpsyg.2025.1672471 · PMID 41341731",
+    "Uholyeva X & Pitoňák M (2022). Chemsex users in Czechia: EMIS survey. Cent Eur J Public Health 30:86-92 — doi:10.21101/cejph.a6923 · PMID 35876596",
+    "Gerymski R & Magoń W (2023). Chemsex and sexual well-being in young Polish men. Int J Environ Res Public Health 20:6163 — doi:10.3390/ijerph20126163 · PMID 37372750",
+    "Frühauf S et al. (2013). Efficacy of psychological interventions for sexual dysfunction: a systematic review and meta-analysis. Arch Sex Behav 42:915-933 — doi:10.1007/s10508-012-0062-0 · PMID 23559141",
+    "Garcia MM et al. (2025). Sexual function and dysfunction in the LGBTQIA+ community-including before and after gender-affirming surgery: recommendations from the Fifth International Consultation on Sexual Medicine (ICSM 2024). Sex Med Rev 13:283-300 — doi:10.1093/sxmrev/qeaf024 · PMID 40341954",
+    "Hawkinson DE, Witzel TC & Gafos M (2024). Exploring practices to enhance benefits and reduce risks of chemsex among gay, bisexual, and other men who have sex with men: a meta-ethnography. Int J Drug Policy 127:104398 — doi:10.1016/j.drugpo.2024.104398 · PMID 38555721",
+    "Tay E, Lo WKW & Murnion B (2022). Current insights on the impact of gamma-hydroxybutyrate (GHB) abuse. Subst Abuse Rehabil 13:13-23 — doi:10.2147/SAR.S315720 · PMID 35173515",
+    "Demant D et al. (2026). Chemsex: associations with sexual, psychosocial and social health in Australian gay and bisexual men. Subst Use Misuse 61:287-295 — doi:10.1080/10826084.2025.2554865 · PMID 40911380",
+    "Masters WH & Johnson VE (1970). Human Sexual Inadequacy. Boston: Little, Brown (focalización sensorial; aplicación al chemsex no contrastada)"
+   ],
+   "rel": [
+    "chemsex_s",
+    "sdu",
+    "disf_sex",
+    "sexual_sx",
+    "lgb_afirm",
+    "homoneg_int",
+    "chemsex_atencion",
+    "manejo_conting",
+    "entrev_motiv",
+    "mbct",
+    "apoyo_pares",
+    "apps_contacto"
+   ],
+   "cie": []
+  },
+  {
+   "id": "chemsex_trans_muj",
+   "n": "Consumo sexualizado de drogas en mujeres, personas trans y no binarias y personas heterosexuales",
+   "ab": "SDU fuera de los HSH",
+   "al": [
+    "chemsex en mujeres",
+    "chemsex en mujeres trans",
+    "chemsex heterosexual",
+    "uso sexualizado de drogas en mujeres que tienen sexo con mujeres",
+    "chemsex en personas no binarias"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 2019,
+   "tags": [
+    "chemsex",
+    "lgtbi",
+    "sexdif"
+   ],
+   "desc": "El chemsex se ha descrito y estudiado casi exclusivamente en hombres gais, bisexuales y otros HSH cisgénero, pero el uso sexualizado de drogas existe también en mujeres de cualquier orientación, en mujeres trans, en personas no binarias y en personas heterosexuales. La revisión sistemática de Hibbert et al. (2021) incluyó 75 estudios: 71 medían el uso sexualizado en HSH y solo 4 en personas trans, y concluyó que falta investigación en mujeres que tienen sexo con mujeres y en personas trans pese a la alta prevalencia de VIH en las mujeres trans; el análisis bibliométrico de Muschialli et al. (2025) confirma que la literatura apenas atiende a las comunidades trans y al uso consentido en personas heterosexuales cisgénero, y que en las mujeres se ha centrado en la agresión facilitada por drogas. Los datos disponibles son escasos, transversales y heterogéneos, pero apuntan a especificidades de género (violencia sexual, imagen corporal, invisibilidad) y a barreras de acceso a servicios pensados para HSH.",
+   "feats": [
+    "Mujeres que tienen sexo con mujeres (Reino Unido, 1501 participantes): el 39 % refirió consumo de drogas en el último año y el 17 % del total uso sexualizado; este se asoció a identificarse como bisexual (ORa 2,55) y a tener cinco o más parejas (ORa 4,50), y el consumo general a agresión sexual reciente (ORa 2,35) y malestar psicológico (Hibbert 2019)",
+    "Brasil (3924 personas de minorías sexuales y de género): prevalencia de uso sexualizado del 28,8 %; las mujeres trans tenían una odds de uso sexualizado 2,44 veces mayor que los HSH (OR 2,44), con independencia del uso de PrEP (Jalil 2022)",
+    "Italia (encuesta en línea, 1828 personas): el 13,6 % refirió chemsex y el 35,9 % de quienes lo practicaban eran mujeres; el resumen no desglosa la orientación sexual (Bellomi 2024)",
+    "Bruselas (7 mujeres de distintas orientaciones): motivaciones de desinhibición, conexión emocional, intensificación sexual o afrontamiento de dificultades sexuales previas; consecuencias somáticas (cistitis, dolor genital), psicológicas y de consumo; el consentimiento en el sexo en grupo como preocupación central (Davous 2026)",
+    "Australia (26 personas heterosexuales que usaban GHB, 19 mujeres): uso para manejar síntomas psíquicos, ganar confianza, facilitar el sexo y, en mujeres, aliviar la conciencia corporal; estrategias de reducción de daños entre mujeres frente a la violencia sexual; el miedo a la policía retrasaba la petición de ayuda (Hudson-Buhagiar 2026)",
+    "Sur de Vietnam (1000 HSH y mujeres trans): consumo de estimulantes de tipo anfetamínico en los tres meses previos del 49,4 %, asociado al sexo transaccional (Vi 2025)"
+   ],
+   "tx": "Preguntar por el consumo en contextos sexuales a todas las personas, con independencia de su género u orientación, sin presuponer prácticas ni parejas; adaptar la reducción de daños (GHB, combinaciones, consentimiento) y la oferta de salud sexual (PrEP, ITS, anticoncepción, embarazo) a cada persona; incluir sistemáticamente la exploración de violencia sexual y de pareja; en personas trans, coordinar con la atención de afirmación de género y revisar las interacciones con el tratamiento hormonal [fuente no localizada para interacciones específicas]; ofrecer espacios y grupos no limitados a HSH.",
+   "note": "Evidencia muy escasa: encuestas transversales con muestras de conveniencia, estudios cualitativos con pocos participantes y ningún ensayo de intervención específico. Las definiciones de chemsex y de uso sexualizado varían entre estudios, lo que impide comparar prevalencias (véase la ficha de uso sexualizado de drogas). La categoría epidemiológica «HSH» invisibiliza a las mujeres trans y a las personas no binarias, que a menudo se agregan a muestras de HSH. Evitar la lectura de las mujeres solo como víctimas de sumisión química: también hay uso consentido y buscado de sustancias en el sexo, que la literatura apenas ha estudiado en personas heterosexuales cisgénero (Muschialli 2025).",
+   "sec": [
+    {
+     "t": "Datos disponibles por grupos",
+     "x": "Mujeres que tienen sexo con mujeres: en el Reino Unido, el 17 % de 1501 participantes refirió uso sexualizado de drogas en el último año, más en las bisexuales y en quienes tenían más parejas (Hibbert 2019). Mujeres trans: en Brasil tenían la mayor probabilidad de uso sexualizado de todas las minorías estudiadas (Jalil 2022), y en Vietnam el consumo de estimulantes en HSH y mujeres trans se asoció al sexo transaccional (Vi 2025). Personas no binarias: aparecen en pequeño número en algunas muestras (91 de 3924 en Jalil 2022) sin análisis propio. Mujeres sin desglose por orientación: en Italia más de un tercio de quienes referían chemsex eran mujeres (Bellomi 2024). Personas heterosexuales: en Australia se ha descrito el uso de GHB con fines sexuales, entre otros, en personas heterosexuales, sobre todo mujeres (Hudson-Buhagiar 2026), y se ha propuesto ampliar el concepto a un «chemsex heterosexual» (Pirani 2019); una revisión francesa lo describe también en población heterosexual y trans (Le Bouëdec 2026). Faltan datos españoles específicos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sdu",
+        "chemsex_s"
+       ],
+       "t": "uso sexualizado de drogas y chemsex"
+      },
+      {
+       "ids": [
+        "wpath_soc8"
+       ],
+       "t": "atención a personas trans"
+      },
+      {
+       "ids": [
+        "trabajo_sexual"
+       ],
+       "t": "trabajo sexual"
+      }
+     ]
+    },
+    {
+     "t": "Especificidades de género",
+     "x": "En mujeres, la violencia sexual atraviesa la experiencia del consumo: la agresión sexual reciente se asoció al consumo de drogas en mujeres que tienen sexo con mujeres (Hibbert 2019), el consentimiento en el sexo en grupo fue una preocupación central en mujeres de Bruselas (Davous 2026) y las mujeres heterosexuales australianas que usaban GHB desarrollaban prácticas de protección mutua frente a la violencia sexual (Hudson-Buhagiar 2026). En esa muestra, el GHB se usaba también para aliviar la conciencia corporal o la dismorfia, y aparecía la búsqueda intencionada de la inconsciencia ligada a juegos de límites, con ideas erróneas sobre cómo revertir la sobredosis (Hudson-Buhagiar 2026). Las mujeres de Bruselas describieron cistitis y dolor genital entre las consecuencias somáticas (Davous 2026). En mujeres trans, la investigación sobre uso sexualizado es escasa pese a su alta prevalencia de VIH (Hibbert 2021); en una muestra mixta de HSH y mujeres trans de Vietnam, el consumo de estimulantes se asoció al sexo transaccional (Vi 2025), y el papel del estrés de minorías en esta población no está cuantificado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "consentimiento y violencia sexual"
+      },
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      },
+      {
+       "ids": [
+        "tdc"
+       ],
+       "t": "imagen corporal"
+      },
+      {
+       "ids": [
+        "genero",
+        "genero_sm"
+       ],
+       "t": "estrés de minorías y género"
+      },
+      {
+       "ids": [
+        "uropatia_ketam"
+       ],
+       "t": "diferencial de la cistitis: ketamina"
+      }
+     ]
+    },
+    {
+     "t": "Barreras de acceso y propuestas",
+     "x": "Las mujeres entrevistadas en Bruselas describieron una triple invisibilización, como mujeres, como consumidoras socialmente integradas y como personas que practican chemsex, y pedían a atención primaria actitudes informadas, no estigmatizantes y orientadas a la reducción de daños (Davous 2026). El miedo a la intervención policial retrasaba o impedía la petición de ayuda ante una sobredosis de GHB, y las personas participantes describían estigma por parte de iguales que consumían y que no consumían (Hudson-Buhagiar 2026). Los servicios de chemsex se han diseñado para HSH cisgénero: la revisión de intervenciones de Íncera-Fernández et al. (2025), que incluía también a personas trans y no binarias, solo halló 12 estudios, con evidencia limitada. Se recomienda preguntar a todas las personas por el consumo en el sexo, explorar violencia sexual, ofrecer salud sexual y reproductiva adaptada y formar a los equipos [opinión de expertos; fuente no localizada para la eficacia].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_atencion",
+        "red_danos"
+       ],
+       "t": "modelos de atención y reducción de daños"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      },
+      {
+       "ids": [
+        "apoyo_pares"
+       ],
+       "t": "apoyo entre iguales"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "psicoterapia afirmativa"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Hibbert MP et al. (2019). Associations with drug use and sexualised drug use among women who have sex with women (WSW) in the UK: findings from the LGBT Sex and Lifestyles Survey. Int J Drug Policy 74:292-298 — doi:10.1016/j.drugpo.2019.07.034 · PMID 31358403",
+    "Hibbert MP et al. (2021). A narrative systematic review of sexualised drug use and sexual health outcomes among LGBT people. Int J Drug Policy 93:103187 — doi:10.1016/j.drugpo.2021.103187 · PMID 33771421",
+    "Jalil EM et al. (2022). High rates of sexualized drug use or chemsex among Brazilian transgender women and young sexual and gender minorities. Int J Environ Res Public Health 19:1704 — doi:10.3390/ijerph19031704 · PMID 35162728",
+    "Bellomi F et al. (2024). Prevalence and characteristics of chemsex: a cross-sectional observational study. Eur Addict Res 30:43-51 — doi:10.1159/000534898 · PMID 38151006",
+    "Muschialli L et al. (2025). Sexualized drug use and chemsex: a bibliometric and content analysis of published literature. J Psychoactive Drugs 57:321-332 — doi:10.1080/02791072.2024.2367614 · PMID 38961638",
+    "Davous M et al. (2026). Chemsex among women: specifities, risks, and expectations in general practice. Br J Gen Pract 76(Suppl 1):bjgp26X745173 — doi:10.3399/bjgp26X745173 · PMID 42134960",
+    "Hudson-Buhagiar K et al. (2026). «A fine line between euphoria and death»: a qualitative study exploring gamma-hydroxybutyrate (GHB) use among people who identify as heterosexual living in Australia. Harm Reduct J 23 — doi:10.1186/s12954-026-01405-1 · PMID 41652464",
+    "Vi VTT et al. (2025). Chemsex and beyond: a study of factors associated with substance use among men who have sex with men and transgender women in Southern Vietnam to develop informed HIV and STI prevention and intervention programs. Indian J Psychol Med 47:584-590 — doi:10.1177/02537176241258715 · PMID 39564262",
+    "Pirani F, Lo Faro AF & Tini A (2019). Is the issue of chemsex changing? Clin Ter 170:e337-e338 — doi:10.7417/CT.2019.2157 · PMID 31612189",
+    "Le Bouëdec D et al. (2026). Chemsex, drugs and consequences: a short review. Therapie 81:287-296 — doi:10.1016/j.therap.2025.11.006 · PMID 41381266",
+    "Íncera-Fernández D et al. (2025). A systematic review of intervention strategies aimed at chemsex users. Int J Drug Policy 140:104795 — doi:10.1016/j.drugpo.2025.104795 · PMID 40334305"
+   ],
+   "rel": [
+    "sdu",
+    "chemsex_s",
+    "sumision_q",
+    "ghb_gbl",
+    "wpath_soc8",
+    "genero",
+    "genero_sm",
+    "trabajo_sexual",
+    "chemsex_atencion",
+    "red_danos",
+    "estigma"
+   ],
+   "cie": []
+  },
+  {
+   "id": "tusi",
+   "n": "«Tusi» o «cocaína rosa»: mezcla de composición variable",
+   "ab": "Tusi (cocaína rosa)",
+   "al": [
+    "tusi",
+    "cocaína rosa",
+    "pink cocaine",
+    "tucibi",
+    "tusibí",
+    "cocaína rosada"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2023,
+   "tags": [
+    "emerg",
+    "risk"
+   ],
+   "desc": "«Tusi» (transcripción fonética de «2C», la familia de feniletilaminas psicodélicas) o «cocaína rosa» designa un polvo, habitualmente teñido de rosa, que pese a su nombre rara vez contiene compuestos 2C (Palamar 2023) y a menudo tampoco cocaína (Vernich 2026). Los análisis de servicios de control de sustancias, decomisos y casos forenses muestran que suele ser una mezcla de ketamina y MDMA a la que se añaden en proporciones variables cafeína, metanfetamina u otras anfetaminas, cocaína, catinonas sintéticas, opioides, benzodiacepinas o fármacos de venta libre (Abukahok 2025; Moore 2025; Vernich 2026). Surgido en Colombia hacia 2010, se ha extendido por América Latina, Estados Unidos, Australia y Europa, con presencia destacada en España (Christodoulou 2026). Su riesgo principal es la composición impredecible: la persona no sabe qué consume ni en qué cantidad.",
+   "feats": [
+    "Nombre engañoso: «tusi» procede de «2C», pero en 960 muestras decomisadas por la DEA desde 2020 solo cuatro contenían 2C-B (Christodoulou 2026); según varios estudios de análisis de sustancias, la mayoría de las muestras contienen ketamina, a menudo con MDMA (Palamar 2023)",
+    "Italia: en seis muestras de cuatro decomisos (2024-2025), todas contenían ketamina (11,0-56,3 %) y MDMA (2,8-27,3 %), cinco cafeína, dos 2C-B y ninguna cocaína (Vernich 2026)",
+    "Miami-Dade: ocho muertes (2020-2024) con polvos «tusi»; ketamina en los 14 polvos analizados y MDMA en la mayoría, además de cocaína, MDA, metanfetamina, oxicodona, alprazolam, eutilona, difenhidramina o loratadina; ninguno contenía fentanilo ni 2C-B (Moore 2025)",
+    "De esas ocho muertes, cinco fueron accidentales (cuatro por sobredosis y una caída) y tres muertes por suicidio; en todas había varias sustancias en sangre además de ketamina y MDMA (Moore 2025)",
+    "España: los datos de laboratorio muestran un aumento de la concentración de ketamina en el tusi a lo largo del tiempo, y las encuestas españolas y colombianas, más inicios de consumo, policonsumo y errores sobre su contenido (Abukahok 2025)",
+    "Nueva York: el 2,7 % de los asistentes a clubes de música electrónica refirió consumo en el último año; quienes lo referían daban positivo en saliva con más frecuencia para cocaína, ketamina, MDMA, metanfetamina o catinonas, a veces sin saber que las habían tomado (Palamar 2025)"
+   ],
+   "tx": "No hay tratamiento específico: el manejo de la intoxicación es el de los componentes presentes (disociativo, entactógeno, estimulante, opioide o sedante), guiado por la clínica y, si es posible, por análisis toxicológico, ya que la persona suele desconocer qué ha tomado (Palamar 2023; Abukahok 2025). Ante un síndrome opioide, la naloxona revierte el componente opioide pero no el de la ketamina [fuente no localizada específica del tusi; coherente con la ficha de ketamina recreativa]. Reducción de daños: análisis de sustancias (drug checking), información sobre la composición variable y las combinaciones de riesgo, no consumir a solas y evitar mezclar con alcohol, GHB/GBL u otros depresores [fuente no localizada para el consejo de combinaciones específico del tusi]. Valorar trastorno por consumo de ketamina o de estimulantes y uropatía por ketamina en el consumo repetido.",
+   "note": "La literatura es escasa y reciente: revisiones narrativas, análisis de decomisos con pocas muestras, una serie forense y encuestas transversales. Las cifras de composición proceden de muestras no representativas y cambian con el mercado. No se han localizado en PubMed los informes de los servicios españoles de análisis de sustancias, por lo que no se citan sus porcentajes [fuente no localizada]. No existe código CIE-11 propio: se codifica según el componente implicado (p. ej., 6C4D disociativos o 6C4C MDMA). No se han localizado estudios sobre el uso del tusi en contextos sexuales: su vínculo con el chemsex es solo de proximidad farmacológica (contiene con frecuencia ketamina, MDMA o catinonas, sustancias presentes en el uso sexualizado de drogas), no de datos de uso, por lo que no se le asigna la etiqueta de chemsex.",
+   "sec": [
+    {
+     "t": "Composición: lo que muestran los análisis",
+     "x": "Los estudios coinciden en que el núcleo habitual es la ketamina, casi siempre presente, combinada con MDMA, y en que el resto de la mezcla es muy variable (Palamar 2023; Abukahok 2025). En los decomisos italianos, la ketamina oscilaba entre el 11,0 % y el 56,3 % y la MDMA entre el 2,8 % y el 27,3 %; cinco de seis muestras tenían cafeína, una efedrina y un precursor de síntesis de ketamina, y dos 2C-B (Vernich 2026). En Australia se decomisaron 133 kg de «cocaína rosa» en 2024 con purezas de ketamina del 6,8 % al 51,3 % y de MDMA del 15,8 % al 33,2 % (Christodoulou 2026). Un programa chileno de análisis entre iguales encontró las 48 muestras de tusi muy heterogéneas (Obregón-Berg 2026). En la serie forense de Miami ningún polvo contenía fentanilo (Moore 2025), pero en Colombia se han documentado análogos de fentanilo en muestras de ketamina y de MDMA (Bórquez 2026).",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec"
+       ],
+       "t": "ketamina"
+      },
+      {
+       "ids": [
+        "mdma"
+       ],
+       "t": "MDMA"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "anfetaminas",
+        "catinonas_nuevas"
+       ],
+       "t": "estimulantes"
+      },
+      {
+       "ids": [
+        "opioides_sint"
+       ],
+       "t": "opioides sintéticos"
+      }
+     ]
+    },
+    {
+     "t": "Riesgos clínicos de una composición impredecible",
+     "x": "Los daños derivan sobre todo de la mezcla y no de un componente aislado (Abukahok 2025): la combinación de un disociativo con estimulantes o entactógenos puede producir agitación, desorientación, hipertermia, toxicidad simpaticomimética y conductas de riesgo, y la presencia ocasional de opioides o benzodiacepinas añade depresión respiratoria (Palamar 2023; Moore 2025) [fuente no localizada para la descripción clínica detallada]. Quien cree tomar un psicodélico 2C o cocaína recibe en realidad ketamina y MDMA, con riesgo de dosificación errónea y de efectos inesperados (Palamar 2023). En la serie de Miami, tres de las ocho muertes fueron muertes por suicidio y dos fueron caídas desde altura (una accidental y otra por suicidio), lo que obliga a valorar el estado mental y el riesgo suicida (Moore 2025). En España se ha comunicado un caso de meningitis linfocitaria aséptica con hipertensión intracraneal en un contexto probable de consumo de tusi (Cartanyà-Gutiérrez 2026; carta sin resumen, contenido no contrastado). El consumo repetido expone a la uropatía por ketamina.",
+     "links": [
+      {
+       "ids": [
+        "uropatia_ketam"
+       ],
+       "t": "uropatía por ketamina"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "Presencia en Europa y España",
+     "x": "Originado en Colombia hacia 2010, el tusi se ha difundido por América Latina, Estados Unidos, Australia, el sudeste asiático y Europa, con presencia notable en España (Christodoulou 2026). La revisión epidemiológica de Abukahok et al. (2025), que integra literatura revisada por pares, programas de análisis de sustancias, toxicología y datos policiales de 2020 a 2025, recoge que los datos de laboratorio españoles muestran un aumento de la concentración de ketamina con el tiempo y que las encuestas españolas y colombianas registran más inicios de consumo, más policonsumo y errores sobre su contenido. En Italia, las incautaciones de 2024 y 2025 confirmaron ketamina y MDMA en todas las muestras y 2C-B en dos (Vernich 2026). Los informes anuales de los servicios españoles de análisis de sustancias no están indexados en PubMed y no se han podido contrastar [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "análisis de sustancias"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "nuevas sustancias psicoactivas y psicosis inducida"
+      }
+     ]
+    },
+    {
+     "t": "Evaluación y abordaje",
+     "x": "Preguntar explícitamente por «tusi» o «cocaína rosa» al explorar el consumo, y explicar que su contenido real suele ser ketamina con MDMA y otras sustancias, porque muchas personas lo ignoran (Palamar 2023; Palamar 2025). En urgencias, tratar según el síndrome predominante y solicitar análisis toxicológico cuando condicione el manejo; la autodeclaración infraestima la exposición a ketamina y MDMA, por lo que se recomienda combinarla con pruebas toxicológicas en investigación y vigilancia (Palamar 2023). En el seguimiento, valorar trastorno por consumo de ketamina o de estimulantes, síntomas urinarios, estado de ánimo y riesgo suicida. La reducción de daños se apoya en el análisis de sustancias y en la información sobre la variabilidad de la mezcla (Abukahok 2025; Obregón-Berg 2026).",
+     "links": [
+      {
+       "ids": [
+        "red_danos",
+        "entrev_motiv"
+       ],
+       "t": "reducción de daños y entrevista motivacional"
+      },
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "trastorno por consumo"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Palamar JJ (2023). Tusi: a new ketamine concoction complicating the drug landscape. Am J Drug Alcohol Abuse 49:546-550 — doi:10.1080/00952990.2023.2207716 · PMID 37162319",
+    "Palamar JJ et al. (2025). Tusi use among the New York City nightclub-attending population. Addiction 120:1646-1654 — doi:10.1111/add.70069 · PMID 40254751",
+    "Moore DM et al. (2025). Tusi but not 2C: a Miami-Dade medical examiner case series highlighting the variable drug composition in colored powder paraphernalia. J Forensic Sci 70:1208-1216 — doi:10.1111/1556-4029.70012 · PMID 40082214",
+    "Abukahok N, Fitzgerald ND & Palamar JJ (2025). An update on the epidemiology of tusi («pink cocaine»). Curr Addict Rep 12:90 — doi:10.1007/s40429-025-00706-y · PMID 41583387",
+    "Christodoulou MC, Agapiou A & Stylianou M (2026). Analytical challenges and health implications of «Tusi» (2C): a critical review. Crit Rev Anal Chem 56:1981-2002 — doi:10.1080/10408347.2025.2555456 · PMID 40938357",
+    "Vernich F et al. (2026). Chemical variability and emerging trends in pink cocaine in Italy: a forensic perspective on a complex drug mixture. Forensic Sci Int 391:113190 — doi:10.1016/j.forsciint.2026.113190 · PMID 43025270",
+    "Obregón-Berg C et al. (2026). Peer-led drug checking in Chile: a case study of the country's first harm reduction service at electronic music events. Harm Reduct J 23 — doi:10.1186/s12954-026-01419-9 · PMID 41691295",
+    "Bórquez I et al. (2026). Emergence of synthetic drugs in South America: insights from Brazil, Chile, and Colombia. Harm Reduct J 23 — doi:10.1186/s12954-026-01480-4 · PMID 42243908",
+    "Cartanyà-Gutiérrez A et al. (2026). Aseptic lymphocytic meningitis and intracranial hypertension in a probable context of consumption of «tusi» or «pink cocaine». Neurologia (Engl Ed) 41:501946 — doi:10.1016/j.nrleng.2026.501946 · PMID 42178045 (carta sin resumen; contenido no contrastado)"
+   ],
+   "rel": [
+    "ketamina_rec",
+    "mdma",
+    "cocaina",
+    "anfetaminas",
+    "catinonas_nuevas",
+    "opioides_sint",
+    "red_danos",
+    "psust",
+    "uropatia_ketam",
+    "alucinogenos"
+   ],
+   "cie": []
+  },
+  {
+   "id": "uropatia_ketam",
+   "n": "Uropatía y cistitis ulcerosa por ketamina",
+   "ab": "Uropatía por ketamina",
+   "al": [
+    "cistitis por ketamina",
+    "cistitis ulcerosa asociada a ketamina",
+    "vejiga de ketamina",
+    "ketamine bladder",
+    "uropatía inducida por ketamina"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2007,
+   "tags": [
+    "chemsex",
+    "organic",
+    "chr"
+   ],
+   "desc": "Afectación inflamatoria y fibrosante del tracto urinario asociada al consumo recreativo repetido de ketamina, descrita por Shahani et al. (2007) como cistitis ulcerosa asociada a ketamina. Cursa con síntomas de llenado intensos (frecuencia, urgencia, disuria, dolor suprapúbico, hematuria) con urocultivo estéril, reducción de la capacidad vesical y, en las formas avanzadas, afectación del tracto superior (estenosis ureteral, hidronefrosis, insuficiencia renal). El metaanálisis de Chan et al. (2022; 45 estudios, 4921 pacientes) confirma el predominio de los síntomas del tracto inferior y la necesidad de abstinencia para cualquier mejoría. Las encuestas muestran una relación con la dosis y la frecuencia de consumo (Winstock 2012). Esta ficha amplía el apunte urológico del nodo de ketamina recreativa con la clínica, el diagnóstico, el tratamiento escalonado y el pronóstico.",
+   "feats": [
+    "Metaanálisis de 45 estudios (4921 pacientes): frecuencia miccional 77,1 %, urgencia 69,9 %, dolor suprapúbico 60,4 % e hidronefrosis 30,2 %; capacidad vesical funcional agrupada de unos 95 ml y flujo máximo de 8,69 ml/s (Chan 2022)",
+    "Serie urológica de Hong Kong (59 consumidores): 42 de los 59 (71 %) tenían una cistoscopia con inflamación epitelial semejante a la cistitis intersticial, las 12 biopsias disponibles mostraban rasgos de cistitis intersticial y en los 47 estudios urodinámicos había hiperactividad del detrusor o menor distensibilidad vesical, con o sin reflujo vesicoureteral (Chu 2008)",
+    "Relación dosis-respuesta: en 1285 consumidores recientes de una encuesta en línea, el 26,6 % refería síntomas urinarios, asociados de forma significativa tanto a la dosis como a la frecuencia de consumo (Winstock 2012)",
+    "Mecanismos propuestos: toxicidad directa de la ketamina y sus metabolitos urinarios sobre el urotelio con pérdida de la función de barrera y apoptosis, inflamación neurógena o mediada por IgE, activación de la vía óxido nítrico sintasa inducible-citocinas-ciclooxigenasa y fibrosis (Castellani 2020)",
+    "Progresión: de 875 pacientes documentados en 23 estudios quirúrgicos, el 22 % precisó cirugía reconstructiva; la duración del consumo era de 4,4 años en los operados frente a 3,4 en los no operados, lo que sugiere una evolución rápida hacia la vejiga terminal (Vizgan 2023)",
+    "Contexto terapéutico: una revisión no halló pruebas convincentes de uropatía con la ketamina o esketamina usadas en psiquiatría; en 14 ensayos aleatorizados la prevalencia de síntomas urológicos apenas difería de la de los grupos de comparación (Andrade 2025)"
+   ],
+   "tx": "La abstinencia de ketamina es el primer paso y condición para cualquier mejoría (Chan 2022; Castellani 2020). Abordaje multidisciplinar coordinado entre urología, adicciones y salud mental, según la vía asistencial del consenso de la British Association of Urological Surgeons (Belal 2024). Fases iniciales: analgesia, antiinflamatorios y anticolinérgicos para el alivio sintomático, protectores de la mucosa vesical como el pentosano polisulfato o el ácido hialurónico (Chen 2011), instilación intravesical de ácido hialurónico, hidrodistensión o toxina botulínica intravesical; fases terminales: enterocistoplastia de ampliación o derivación urinaria (Castellani 2020; Vizgan 2023). Plan analgésico que no dependa de la propia ketamina. Sin pautas posológicas en esta ficha.",
+   "note": "La evidencia procede de series de casos, estudios transversales y revisiones narrativas o sistemáticas de baja calidad metodológica; no hay ensayos controlados de los tratamientos. La relación dosis-respuesta en humanos se basa en datos autodeclarados (Winstock 2012) y en modelos animales (Song 2016); no existe un umbral de dosis acumulada seguro establecido. Los datos de prevalencia de consumidores recreativos no deben extrapolarse al uso terapéutico supervisado (Andrade 2025). La CIE-11 no tiene una categoría específica: puede codificarse como otra cistitis especificada (GC00.Y) junto con el trastorno por consumo de disociativos (6C4D) [fuente oficial no localizada para esta combinación].",
+   "sec": [
+    {
+     "t": "Clínica y diagnóstico",
+     "x": "El cuadro típico es el de una persona joven con síntomas de llenado intensos y fluctuantes (frecuencia, urgencia, disuria, incontinencia de urgencia, hematuria dolorosa) y dolor suprapúbico o perineal, con piuria o microhematuria y urocultivo estéril (Chu 2008; Chen 2011). La afectación del tracto superior es menos frecuente (hidronefrosis agrupada del 30,2 %; Chan 2022) y se relaciona con la vejiga contraída, la estenosis ureteral o el reflujo vesicoureteral (Castellani 2020). Diagnóstico: anamnesis explícita y sin juicio del consumo de ketamina ante cualquier cistitis abacteriana recurrente; urocultivo, función renal, ecografía del aparato urinario, diario miccional y flujometría; la cistoscopia muestra cistitis ulcerosa con denudación urotelial, y la biopsia, inflamación crónica (Chan 2022). El diferencial incluye la infección urinaria, la cistitis intersticial o síndrome de dolor vesical, la tuberculosis urinaria y el carcinoma in situ [fuente no localizada para el listado].",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec"
+       ],
+       "t": "ketamina recreativa"
+      },
+      {
+       "ids": [
+        "dolor_cron_prim"
+       ],
+       "t": "dolor crónico"
+      }
+     ]
+    },
+    {
+     "t": "Relación con la dosis acumulada y fisiopatología",
+     "x": "Los síntomas urinarios se asociaron de forma significativa con la dosis y con la frecuencia de consumo en una encuesta de consumidores recreativos (Winstock 2012), y en ratas la reducción del intervalo miccional y de la capacidad vesical, la fibrosis y la apoptosis submucosa aumentaron con la dosis (Song 2016). En las series quirúrgicas, quienes necesitaron cirugía reconstructiva llevaban de media solo un año más de consumo que quienes no la necesitaron (4,4 frente a 3,4 años), por lo que la progresión a vejiga terminal puede medirse en meses (Vizgan 2023). Para el uso terapéutico de mantenimiento, la revisión de Andrade (2025) señala como factores de riesgo plausibles las dosis más altas, la mayor frecuencia, la mayor duración del tratamiento y la vía oral, y atribuye el daño a la exposición del urotelio a la ketamina y sus metabolitos en la orina más que en la circulación. No se ha establecido un umbral de dosis acumulada seguro.",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec",
+        "tcs"
+       ],
+       "t": "consumo y trastorno por consumo"
+      },
+      {
+       "ids": [
+        "ketamina",
+        "esketamina"
+       ],
+       "t": "ketamina terapéutica"
+      }
+     ]
+    },
+    {
+     "t": "Tratamiento y pronóstico",
+     "x": "La abstinencia es imprescindible en todas las fases; sin ella los tratamientos médicos y quirúrgicos fracasan y los síntomas recidivan (Chan 2022; Katsiari 2024). En la enfermedad precoz se han usado analgésicos, antiinflamatorios y anticolinérgicos, instilaciones intravesicales de ácido hialurónico, hidrodistensión e inyección intravesical de toxina botulínica A; en la enfermedad terminal, con síntomas intratables y capacidad vesical mínima, la recomendación es la enterocistoplastia de ampliación o la derivación urinaria (Castellani 2020). El consenso de la British Association of Urological Surgeons establece una vía de evaluación y tratamiento para los ámbitos programado y urgente (Belal 2024). Pronóstico: el 51 % de quienes describieron su evolución mejoró al dejar el consumo (Winstock 2012), pero la enfermedad avanzada solo es parcialmente reversible (Katsiari 2024) y puede llevar a insuficiencia renal crónica y diálisis (Chu 2008).",
+     "links": [
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje desde adicciones y salud mental",
+     "x": "El dolor vesical crea un círculo vicioso: la persona puede consumir más ketamina para aliviar el dolor que la propia ketamina provoca [fuente no localizada para el mecanismo concreto], por lo que el abordaje multidisciplinar, el plan analgésico alternativo y el tratamiento del trastorno por consumo forman parte del tratamiento urológico (Katsiari 2024; Abdelrahman 2025). En una serie británica de 65 pacientes, el 41,5 % no acudió a las citas, y los autores piden intervención psicosocial precoz y clínicas multidisciplinares (Shkoukani 2025). Conviene integrar la entrevista motivacional, el cribado de depresión, ansiedad, disociación y riesgo suicida, y la reducción de daños para quien no puede dejar el consumo de inmediato: informar de los síntomas de alarma y facilitar la derivación temprana a urología (Winstock 2012). En contextos de chemsex o de consumo de «tusi», preguntar por la ketamina de forma explícita, porque puede ir incluida en mezclas sin que la persona lo sepa (Palamar 2023).",
+     "links": [
+      {
+       "ids": [
+        "entrev_motiv",
+        "red_danos"
+       ],
+       "t": "entrevista motivacional y reducción de daños"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "uso sexualizado de drogas"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Shahani R et al. (2007). Ketamine-associated ulcerative cystitis: a new clinical entity. Urology 69:810-812 — doi:10.1016/j.urology.2007.01.038 · PMID 17482909",
+    "Chu PSK et al. (2008). The destruction of the lower urinary tract by ketamine abuse: a new syndrome? BJU Int 102:1616-1622 — doi:10.1111/j.1464-410X.2008.07920.x · PMID 18680495",
+    "Chen CH et al. (2011). Ketamine-snorting associated cystitis. J Formos Med Assoc 110:787-791 — doi:10.1016/j.jfma.2011.11.010 · PMID 22248834",
+    "Winstock AR et al. (2012). The prevalence and natural history of urinary symptoms among recreational ketamine users. BJU Int 110:1762-1766 — doi:10.1111/j.1464-410X.2012.11028.x · PMID 22416998",
+    "Song M et al. (2016). The fibrosis of ketamine, a noncompetitive N-methyl-d-aspartic acid receptor antagonist dose-dependent change in a ketamine-induced cystitis rat model. Drug Chem Toxicol 39:206-212 — doi:10.3109/01480545.2015.1079916 · PMID 26324997",
+    "Castellani D et al. (2020). What urologists need to know about ketamine-induced uropathy: a systematic review. Neurourol Urodyn 39:1049-1062 — doi:10.1002/nau.24341 · PMID 32212278",
+    "Chan EOT et al. (2022). Systematic review and meta-analysis of ketamine-associated uropathy. Hong Kong Med J 28:466-474 — doi:10.12809/hkmj209194 · PMID 36464318",
+    "Vizgan G et al. (2023). Ketamine-induced uropathy: a narrative systemic review of surgical outcomes of reconstructive surgery. BJUI Compass 4:377-384 — doi:10.1002/bco2.239 · PMID 37334018",
+    "Katsiari T et al. (2024). Newer therapies and surgical management of ketamine-induced uropathy: a review. Urologia 91:199-206 — doi:10.1177/03915603231208094 · PMID 37897311",
+    "Belal M et al.; BAUS Section of Female, Neurological and Urodynamic Urology (2024). British Association of Urological Surgeons consensus statements on the management of ketamine uropathy. BJU Int 134:148-154 — doi:10.1111/bju.16404 · PMID 38778743",
+    "Abdelrahman A & Belal M (2025). Rare but relevant: ketamine-induced cystitis - an in-depth review for addiction medicine. Addiction 120:1689-1693 — doi:10.1111/add.70052 · PMID 40181691",
+    "Andrade C (2025). Ketamine-associated uropathy during therapeutic and nontherapeutic use: prevalence, clinical features, mechanisms, and strategies for risk reduction. J Clin Psychiatry 86:25f16083 — doi:10.4088/JCP.25f16083 · PMID 40965833",
+    "Shkoukani ZW et al. (2025). Ketamine-induced uropathy in a high-prevalence region: knowledge, diagnostic practices, and treatment patterns among primary and secondary care providers. Cureus 17:e86373 — doi:10.7759/cureus.86373 · PMID 40688826",
+    "Palamar JJ (2023). Tusi: a new ketamine concoction complicating the drug landscape. Am J Drug Alcohol Abuse 49:546-550 — doi:10.1080/00952990.2023.2207716 · PMID 37162319"
+   ],
+   "rel": [
+    "ketamina_rec",
+    "ketamina",
+    "esketamina",
+    "tcs",
+    "dolor_cron_prim",
+    "chemsex_s",
+    "sdu",
+    "red_danos",
+    "entrev_motiv",
+    "tusi"
+   ],
+   "cie": []
+  }
+ ]
+}
