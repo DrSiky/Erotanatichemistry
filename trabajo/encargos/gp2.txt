@@ -1,0 +1,41 @@
+CONTEXTO
+Atlas nosológico interactivo de psicopatología (un único HTML sin conexión) de un médico psicoterapeuta, psicopatólogo y psicofarmacólogo, experto en chemsex, perito médico-legal en España y defensor del colectivo LGTBIQ. Exige registro preciso, académico y MUY estricto con las referencias: solo se afirma lo que tiene base documental sólida (DSM-5-TR, CIE-11, guías de práctica clínica, revisiones sistemáticas y metaanálisis, estudios indexados en PubMed, obras clásicas de psicopatología citadas con exactitud). Nunca webs generalistas.
+
+REGLAS DE CONTENIDO (obligatorias)
+1. Lo que no puedas verificar en una fuente primaria u oficial NO se elimina si es clínicamente razonable: se conserva marcado con el indicador literal «[fuente no localizada]» pegado a la afirmación (códigos CIE-11: «[fuente oficial no localizada]»; referencias no comprobadas: «[no verificada]» al final de la referencia). Lo que una fuente verificable contradiga, no se escribe.
+2. Toda referencia de artículo debe verificarse en PubMed (carga las herramientas con ToolSearch «select:mcp__PubMed__search_articles,mcp__PubMed__get_article_metadata,mcp__PubMed__lookup_article_by_citation»): autor, año, revista, volumen, páginas y que el dato citado figure en el resumen. Formato: «Apellido A et al. (2019). Título. Revista 12:345-350 · PMID 12345678». Libros y obras clásicas: autor, (año), título, editorial; si no puedes contrastar el contenido concreto, márcalo. Nunca inventes un PMID ni una cifra.
+3. Sin dosis individualizadas ni pautas posológicas (solo, si es imprescindible, límites literales de ficha técnica AEMPS-CIMA nombrando la ficha). En antipsicóticos la prioridad de uso la marcan las guías; la ficha técnica es una nota factual neutra.
+4. Español de España, técnico y claro. Redacción neutra en género («la persona», «quien consulta», «el paciente o la paciente»). Lenguaje no patologizante en orientación sexual e identidad de género. Lenguaje no estigmatizante sobre suicidio («muerte por suicidio»). Nada de identificadores de modelo o de IA.
+5. No dupliques lo que ya dice la ficha: léela antes y aporta contenido nuevo.
+
+ENTORNO
+Repositorio: /home/user/Erotanatichemistry (haz cd en cada comando). Consultas de solo lectura: «node tools/q.js find <regex> [vista]», «node tools/q.js show <id> ...», «node tools/q.js sector <vista> <sector>». Vistas: nos (nosología), sem (semiología), eti (etiopatogenia), ter (terapéutica), hist. Validación de tu parche: «node tools/apply.js <tu_fichero.json> --check» (SIEMPRE con --check: NO apliques el parche, NO modifiques ningún fichero del repositorio, NO ejecutes build.js ni git). Escribe únicamente tus ficheros en /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/. Guarda tu fichero pronto y ve ampliándolo (trabajo incremental), para no perderlo si te interrumpen.
+
+FORMATO DEL PARCHE (JSON válido, UTF-8)
+{"patch":{"<id>":{"secAdd":[{"t":"Título de sección","x":"texto de 120 a 1500 caracteres","links":[{"ids":["id1","id2"],"t":"rótulo breve del enlace"}]}],"refsAdd":["referencia con (año)"],"relAdd":["id"]}},"add":[]}
+Los ids de «links» y «relAdd» deben existir (búscalos con q.js). «links» es opcional pero muy recomendable: enlaza cada sección con los nodos del atlas que menciona.
+
+TAREA: COMPLETAR FICHAS INCOMPLETAS ya publicadas. Para cada nodo de esta lista, lee primero la ficha completa (node tools/q.js show <id>) y añade SOLO lo que se indica, con contenido nuevo, documentado y sin duplicar lo existente. Las secciones nuevas llevan títulos propios que no repitan los existentes (p. ej., «Diagnóstico diferencial», «Curso y pronóstico», «Evidencia y controversias», «Mecanismo de acción», «Seguridad y monitorización», según el tipo de nodo) y enlazan con links a los nodos que mencionan. En fichas de fármacos, lo relativo a la ficha técnica se toma literalmente de CIMA (cima.aemps.es) citando la ficha y el apartado; nada de dosis individualizadas. Toda referencia nueva va también en refsAdd. Guarda el parche con frecuencia: es una lista larga.
+ - dmko (Depresión mixta (Koukopoulos)): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - estim_seguridad (Seguridad de los estimulantes: riesgo cardiovascular, psicosis y uso indebido): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - suic_adol (Conducta suicida en la adolescencia: epidemiología, señales de alarma y prevención): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - psicofarm_inf (Psicofármacos en la infancia y la adolescencia: indicaciones autorizadas y consentimiento del menor): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - anx_perinatal (Ansiedad perinatal (trastornos de ansiedad en el embarazo y el posparto)): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - susto (Susto (espanto, pérdida del alma)): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - refugio_tept (Salud mental de personas refugiadas y solicitantes de asilo: trauma, tortura y TEPT): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - olanzapina (Olanzapina (oral, IM y pamoato Zypadhera)): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - ap_atipicos (Antipsicóticos de segunda y tercera generación): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - dos_procesos (Modelo de los dos procesos de regulación del sueño (Borbély)): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - neuroadapt_sed (Neuroadaptación a sedantes: tolerancia y kindling): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - habito_dirigido (Control dirigido a objetivos frente a hábito): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - carga_alostatica (Alostasis y carga alostática (McEwen)): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - edad_relativa_tdah (Efecto de la edad relativa en el diagnóstico de TDAH): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - ep_depmay (Episodio depresivo mayor): tx: falta el campo de tratamiento o manejo (añádelo con "set":{"tx":"..."}; sin dosis)
+ - locu_circ (Locura circular / Folie circulaire (Falret 1854)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - wahnstimm (Humor delirante / Wahnstimmung (Jaspers)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - terapesq (Terapia de Esquemas (Young)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - raft (Reactividad afectiva elevada): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - delirio_magnan (Delirio crónico de evolución sistemática (Magnan)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - ace_ranzcp (Modelo ACE de caracterización de la depresión (RANZCP)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+
+ENTREGA: escribe /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp2.json (parche válido que pase «node tools/apply.js /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp2.json --check» con OK) y /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp2.notas.json con {"dudas":["lo que no pudiste verificar o te genera duda"],"pmid_verificados":[números]}. Responde únicamente «hecho» y dos líneas de resumen.
