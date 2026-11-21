@@ -1,0 +1,813 @@
+{
+ "patch": {
+  "psicodin_breve": {
+   "relAdd": [
+    "contratransfer",
+    "bion_hit",
+    "jung_hit"
+   ]
+  },
+  "tfp": {
+   "relAdd": [
+    "contratransfer"
+   ]
+  },
+  "mbt": {
+   "relAdd": [
+    "contratransfer",
+    "bion_hit"
+   ]
+  },
+  "tlp": {
+   "relAdd": [
+    "contratransfer"
+   ]
+  },
+  "lgb_afirm": {
+   "relAdd": [
+    "contratransfer",
+    "sartre_mala_fe"
+   ]
+  },
+  "klein_pos": {
+   "relAdd": [
+    "bion_hit"
+   ]
+  },
+  "winnicott": {
+   "relAdd": [
+    "bion_hit"
+   ]
+  },
+  "freud_hit": {
+   "relAdd": [
+    "bion_hit",
+    "jung_hit"
+   ]
+  },
+  "esq": {
+   "relAdd": [
+    "bion_hit",
+    "jung_hit"
+   ]
+  },
+  "bleuler_4a": {
+   "relAdd": [
+    "jung_hit"
+   ]
+  },
+  "hitop_tp": {
+   "relAdd": [
+    "jung_hit"
+   ]
+  },
+  "anx_exist": {
+   "relAdd": [
+    "kierkegaard_ang",
+    "sartre_mala_fe"
+   ]
+  },
+  "yalom_dadas": {
+   "relAdd": [
+    "kierkegaard_ang",
+    "sartre_mala_fe"
+   ]
+  },
+  "binswang": {
+   "relAdd": [
+    "kierkegaard_ang"
+   ]
+  },
+  "laing": {
+   "relAdd": [
+    "kierkegaard_ang",
+    "sartre_mala_fe"
+   ]
+  },
+  "sent_existenciales": {
+   "relAdd": [
+    "kierkegaard_ang"
+   ]
+  },
+  "laing_hit": {
+   "relAdd": [
+    "sartre_mala_fe"
+   ]
+  },
+  "fuchs_cuerpo": {
+   "relAdd": [
+    "sartre_mala_fe"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "contratransfer",
+   "n": "Contratransferencia: de Freud a la concepción totalista y su investigación empírica",
+   "ab": "Contratransferencia",
+   "al": [
+    "countertransference",
+    "Gegenübertragung",
+    "respuesta emocional del terapeuta",
+    "concepción totalista",
+    "identificación concordante y complementaria"
+   ],
+   "k": "mod",
+   "vw": "ter",
+   "sp": "psd",
+   "ring": 2,
+   "trad": "psychoan",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1950,
+   "tags": [],
+   "desc": "Conjunto de reacciones afectivas, cognitivas y conductuales del terapeuta ante quien consulta. Freud la introdujo en 1910 como un obstáculo nacido de los conflictos no resueltos del analista, que debía reconocer y superar [fuente no localizada para la formulación literal]. Paula Heimann (1950) propuso entender la respuesta emocional del analista como instrumento para investigar el inconsciente del paciente, y Heinrich Racker (1957) desarrolló esta concepción ampliada [contenido de ambos textos no cotejado]. La investigación empírica posterior ha medido estas reacciones con cuestionarios clínicos, ha hallado patrones asociados de forma sistemática a la patología de la personalidad (Betan 2005; Colli 2014) y, en tres metaanálisis, ha relacionado las reacciones no manejadas con peores resultados y su manejo con mejores resultados (Hayes 2011; Hayes 2018). Hoy se considera un fenómeno transteórico, no exclusivo del psicoanálisis.",
+   "feats": [
+    "Concepción clásica (Freud 1910): la contratransferencia como obstáculo derivado de los conflictos del analista, que exige autoanálisis [fuente no localizada para la cita literal]",
+    "Concepción totalista (Heimann 1950): toda la respuesta emocional del analista como instrumento para comprender al paciente; Kernberg (1965) sistematizó el contraste entre ambas concepciones [contenido no cotejado: los registros no tienen resumen]",
+    "Racker (1957): identificaciones concordantes (con el yo del paciente) y complementarias (con sus objetos internos) [contenido no cotejado: el registro de PubMed no tiene resumen]",
+    "Betan et al. (2005): 181 psiquiatras y psicólogos clínicos; el Countertransference Questionnaire dio ocho factores coherentes e independientes de la orientación teórica, asociados de forma predecible con la patología del eje II",
+    "Colli et al. (2014): 203 clínicos; el TLP se asoció con respuestas de impotencia, desbordamiento y sobreimplicación, y los trastornos paranoide y antisocial con sentirse criticado o maltratado; más reacciones negativas con pacientes de menor funcionamiento",
+    "Hayes et al. (2018): reacciones contratransferenciales y resultado, r = −0,16 (14 estudios, N = 973); manejo y atenuación de las reacciones, r = −0,27 (13 estudios); manejo exitoso y resultado, r = 0,39 (9 estudios, N = 392), con heterogeneidad significativa"
+   ],
+   "tx": "Principios de manejo: supervisión clínica, terapia personal y autoconocimiento del terapeuta, comprensión conceptual de la dinámica del paciente, regulación de la propia ansiedad y empatía [conjunto de factores no cotejado en el resumen de Hayes 2018]. Uso diagnóstico prudente: la propia reacción es una hipótesis que se contrasta con otros datos de la exploración, no una prueba. Evitar actuar la contratransferencia (rechazo, sobreimplicación, transgresión de límites).",
+   "note": "La investigación es mayoritariamente correlacional, con informes del propio clínico y muestras pequeñas. En Betan (2005) y Colli (2014) el mismo terapeuta valoró la personalidad del paciente y sus propias respuestas, lo que comparte varianza de método. Los metaanálisis de 2011 y 2018 discrepan en si los factores de manejo atenúan las reacciones (no significativo en 2011; significativo en 2018) y muestran heterogeneidad alta. La contratransferencia no autoriza a atribuir al paciente estados del terapeuta sin contraste.",
+   "sec": [
+    {
+     "t": "Historia del concepto: de obstáculo a instrumento",
+     "x": "Freud mencionó por primera vez la contratransferencia en su conferencia de Núremberg de 1910 sobre las perspectivas futuras de la terapia psicoanalítica, como influencia del paciente sobre los sentimientos inconscientes del médico que este debía reconocer y dominar [fuente no localizada para la cita literal]. Durante cuatro décadas predominó esta concepción restrictiva. Winnicott (1949) defendió en «Hate in the counter-transference» que el odio objetivo del analista ante ciertos pacientes graves debía reconocerse y no negarse [no verificada]. Heimann (1950), en un breve artículo del International Journal of Psycho-Analysis, sostuvo que la respuesta emocional del analista es una de sus herramientas más importantes para investigar el inconsciente del paciente [contenido no cotejado; artículo no indexado en PubMed]. En Buenos Aires, Racker describió las identificaciones concordantes y complementarias (Racker 1957; Estudios sobre técnica psicoanalítica, 1960) [contenido no cotejado]. Kernberg (1965) ordenó el debate contraponiendo una concepción clásica, restringida a las reacciones neuróticas del analista ante la transferencia, y otra totalista, que abarca toda su respuesta emocional [contenido no cotejado: registro sin resumen].",
+     "links": [
+      {
+       "ids": [
+        "freud_hit"
+       ],
+       "t": "Freud"
+      },
+      {
+       "ids": [
+        "winnicott",
+        "klein_pos"
+       ],
+       "t": "Winnicott y Klein"
+      },
+      {
+       "ids": [
+        "kernberg",
+        "bion_hit"
+       ],
+       "t": "Kernberg y Bion"
+      }
+     ]
+    },
+    {
+     "t": "Investigación empírica",
+     "x": "Betan, Heim, Zittel Conklin y Westen (2005) estudiaron una muestra nacional aleatoria de 181 psiquiatras y psicólogos clínicos norteamericanos, que valoraron a un paciente elegido al azar. El análisis factorial del Countertransference Questionnaire dio ocho factores: desbordado o desorganizado, impotente o insuficiente, positivo, especial o sobreimplicado, sexualizado, desconectado, parental o protector y criticado o maltratado, independientes de la orientación teórica y asociados de forma predecible con la patología del eje II; el retrato agregado ante la personalidad narcisista se parecía a las descripciones clínicas clásicas. Colli, Tanzilli, Dimaggio y Lingiardi (2014), con 203 clínicos y la SWAP-200, replicaron asociaciones específicas: TLP con impotencia, desbordamiento y sobreimplicación; trastornos paranoide y antisocial con sentirse criticado; esquizotípico y narcisista con desconexión; evitativo con respuestas positivas y protectoras. Hayes, Gelso y Hummel (2011) metaanalizaron la relación con el resultado (r = −0,16; 10 estudios, N = 769) y hallaron que el manejo exitoso se asociaba con mejores resultados (r = 0,56; 7 estudios); la actualización de 2018 obtuvo r = −0,16 (14 estudios), r = −0,27 para la atenuación por los factores de manejo y r = 0,39 (9 estudios) para manejo y resultado.",
+     "links": [
+      {
+       "ids": [
+        "tlp",
+        "tpnarc",
+        "tparano",
+        "tpanti",
+        "tpev"
+       ],
+       "t": "Trastornos de la personalidad"
+      },
+      {
+       "ids": [
+        "esqtpersonalidad"
+       ],
+       "t": "Personalidad esquizotípica"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y ámbitos sensibles",
+     "x": "En las psicoterapias manualizadas para trastornos de la personalidad la contratransferencia tiene un papel explícito: la TFP la utiliza para identificar la díada de relación objetal activada en la sesión y la MBT pide al terapeuta reconocer y comunicar sus propios estados mentales cuando la mentalización se pierde [descripción técnica no cotejada en los manuales]. La experiencia subjetiva del clínico durante la entrevista se ha estudiado también en la tradición fenomenológica como dato diagnóstico, en continuidad con el sentimiento praecox. Hay ámbitos en los que la vigilancia es especialmente necesaria: el riesgo suicida, donde el rechazo o la impotencia del terapeuta pueden traducirse en evitación; el trabajo con personas LGTBIQ o con prácticas de chemsex, donde actitudes propias no examinadas sobre la sexualidad o el consumo pueden operar como contratransferencia y patologizar lo que no es patológico; y la pericia médico-legal, donde la simpatía o la hostilidad hacia la persona peritada son una fuente de sesgo que debe explicitarse [fuente no localizada para estas aplicaciones específicas].",
+     "links": [
+      {
+       "ids": [
+        "tfp",
+        "mbt",
+        "psicodin_breve"
+       ],
+       "t": "TFP, MBT y psicoterapia psicodinámica"
+      },
+      {
+       "ids": [
+        "praecox_gefuhl",
+        "intersubj_sinton"
+       ],
+       "t": "Experiencia subjetiva del clínico"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Riesgo suicida"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "chemsex_s"
+       ],
+       "t": "Psicoterapia afirmativa y chemsex"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Hayes JA, Gelso CJ & Hummel AM (2011). Managing countertransference. Psychotherapy (Chic) 48:88-97 · PMID 21401279",
+    "Hayes JA, Gelso CJ, Goldberg S & Kivlighan DM (2018). Countertransference management and effective psychotherapy: meta-analytic findings. Psychotherapy (Chic) 55:496-507 · PMID 30335461",
+    "Betan E, Heim AK, Zittel Conklin C & Westen D (2005). Countertransference phenomena and personality pathology in clinical practice: an empirical investigation. Am J Psychiatry 162:890-898 · PMID 15863790",
+    "Colli A, Tanzilli A, Dimaggio G & Lingiardi V (2014). Patient personality and therapist response: an empirical investigation. Am J Psychiatry 171:102-108 · PMID 24077643",
+    "Kernberg O (1965). The concept of countertransference. J Am Psychoanal Assoc 13:38-56 · PMID 14261795",
+    "Racker H (1957). The meanings and uses of countertransference. Psychoanal Q 26:303-357 · PMID 13465913",
+    "Heimann P (1950). On counter-transference. Int J Psychoanal 31:81-84 [no indexado en PubMed; no verificada]",
+    "Winnicott DW (1949). Hate in the counter-transference. Int J Psychoanal 30:69-74 [no verificada]",
+    "Freud S (1910). Die zukünftigen Chancen der psychoanalytischen Therapie. Zentralblatt für Psychoanalyse 1 [no verificada]",
+    "Racker H (1960). Estudios sobre técnica psicoanalítica. Buenos Aires: Paidós [no verificada]"
+   ],
+   "rel": [
+    "psicodin_breve",
+    "tfp",
+    "mbt",
+    "kernberg",
+    "klein_pos",
+    "winnicott",
+    "praecox_gefuhl",
+    "tlp",
+    "tpnarc",
+    "freud_hit"
+   ]
+  },
+  {
+   "id": "bion_hit",
+   "n": "Wilfred Bion: continente-contenido, función alfa y partes psicótica y no psicótica de la personalidad (1957-1962)",
+   "ab": "Bion",
+   "al": [
+    "W. R. Bion",
+    "continente-contenido",
+    "función alfa",
+    "elementos beta",
+    "supuestos básicos",
+    "Experiences in Groups",
+    "Learning from Experience"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "psychoan",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1957,
+   "tags": [],
+   "desc": "Wilfred R. Bion (1897-1979), psicoanalista británico analizado por Melanie Klein, elaboró primero una teoría de los grupos (Experiences in Groups, London: Tavistock, 1961) y después, a partir del análisis de pacientes psicóticos en los años cincuenta, una teoría del pensamiento: «Differentiation of the psychotic from the non-psychotic personalities» (1957), «A theory of thinking» (1962) y Learning from Experience (London: Heinemann, 1962). Sus conceptos de función alfa, elementos beta y relación continente-contenido describen cómo la experiencia emocional en bruto se transforma en material pensable, en el modelo de una madre que recibe y elabora la angustia del lactante (Brown 2012; Mawson 2017). Han influido en la técnica psicodinámica y en la teoría del campo analítico, pero son construcciones teóricas y clínicas: no se ha localizado contraste empírico directo de ninguna de ellas.",
+   "feats": [
+    "Partes psicótica y no psicótica de la personalidad (1957): en el análisis de pacientes psicóticos, Bion observó que desmantelaban su capacidad de conocer la realidad como defensa frente a verdades emocionales insoportables, junto a un funcionamiento que conservaba el contacto con ella (Brown 2012; Bergstein 2018)",
+    "Función alfa: transforma las impresiones sensoriales y emociones en bruto (elementos beta) en elementos aptos para soñar, pensar y recordar; sus factores incluyen la relación continente-contenido, el equilibrio PS↔D y la ensoñación o reverie (Brown 2012)",
+    "Continente-contenido: modelo de la respuesta materna a la angustia del lactante extendido a la interpretación; Mawson (2017) lo relaciona con las formulaciones tempranas de Freud sobre el origen de la angustia",
+    "Grupos de supuesto básico (dependencia, lucha-huida, emparejamiento) frente al grupo de trabajo orientado a la tarea (Experiences in Groups, 1961; descritos así en Nelson et al. 2015)",
+    "Origen biográfico: experiencia traumática como comandante de carros de combate en la Primera Guerra Mundial, revisitada en su teoría del pensamiento (Brown 2012); Roth (2013) vincula con ella la omisión de la violencia homicida en su teoría de los grupos",
+    "Evidencia: búsqueda en PubMed sin estudios que contrasten empíricamente la función alfa, la distinción psicótico/no psicótico o los supuestos básicos; la literatura indexada es teórica, histórica o de casos"
+   ],
+   "note": "Distinguir teoría de evidencia: los conceptos de Bion proceden de la observación clínica y de una formalización deliberadamente abstracta; su valor es heurístico para la técnica y la supervisión. Constructos próximos con investigación empírica, como la mentalización o la función reflexiva, son operacionalizaciones distintas y no validan por sí mismos el modelo bioniano [fuente no localizada para la filiación directa]. Maier (2016) plantea la hipótesis de que el modelo del continente debe algo, por criptomnesia, a las Tavistock Lectures de Jung, lo que es una conjetura histórica.",
+   "sec": [
+    {
+     "t": "Contexto histórico",
+     "x": "Bion combatió como joven comandante de carros de combate en la Primera Guerra Mundial, experiencia traumática que, según Brown (2012), quedó sin elaborar y reaparece en su teoría del pensamiento. Tras la Segunda Guerra Mundial trabajó con grupos en la Clínica Tavistock, después del llamado experimento de Northfield con pacientes militares [fuente no localizada]; de ahí surgieron los artículos reunidos en Experiences in Groups (1961). En los años cincuenta, analizado por Melanie Klein y ya miembro de la Sociedad Británica de Psicoanálisis, se dedicó al análisis de pacientes psicóticos (Brown 2012). Presentó «Differentiation of the psychotic from the non-psychotic personalities» ante la Sociedad Británica el 5 de octubre de 1955, y Winnicott le escribió dos días después comentando el material clínico (Manica 2023); el texto se publicó en 1957. Roth (2013) ha señalado que la teoría grupal de Bion omitió la violencia homicida en los grupos, omisión que relaciona con su propia experiencia bélica.",
+     "links": [
+      {
+       "ids": [
+        "klein_pos"
+       ],
+       "t": "Klein: posiciones e identificación proyectiva"
+      },
+      {
+       "ids": [
+        "winnicott"
+       ],
+       "t": "Winnicott"
+      },
+      {
+       "ids": [
+        "freud_hit"
+       ],
+       "t": "Freud"
+      }
+     ]
+    },
+    {
+     "t": "Aportación y obra original",
+     "x": "En el trabajo de 1957 Bion describe en la persona con psicosis la coexistencia de una parte psicótica, que ataca los vínculos y el aparato perceptivo mediante escisión e identificación proyectiva, y una parte no psicótica [descripción del original no cotejada: el registro de PubMed no tiene resumen]. En «A theory of thinking» (1962) y Learning from Experience (1962) introduce la función alfa, que convierte los elementos beta, impresiones sensoriales y emocionales no digeridas, en elementos alfa aptos para el sueño, el pensamiento y la memoria; el pensamiento nace de tolerar la frustración y requiere una relación continente-contenido en la que la madre, mediante su capacidad de ensoñación, recibe y transforma lo que el lactante no puede elaborar (Brown 2012; Mawson 2017). Grotstein (2009) subraya que Bion entiende el soñar como proceso continuo, diurno y nocturno, que procesa la experiencia. En los grupos distingue el grupo de trabajo, orientado a la tarea y a la realidad, de la mentalidad de supuesto básico (dependencia, lucha-huida, emparejamiento). Schneider (2015) y Civitarese (2021) sostienen que su teoría de los grupos fue el punto de partida de su teoría del pensamiento individual.",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "Esquizofrenia"
+      },
+      {
+       "ids": [
+        "mec_defensa"
+       ],
+       "t": "Mecanismos de defensa"
+      },
+      {
+       "ids": [
+        "lacan_psicosis"
+       ],
+       "t": "Otra lectura psicoanalítica de la psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Teoría frente a evidencia y legado",
+     "x": "Ninguno de los conceptos centrales de Bion ha sido sometido a contraste empírico directo: no se ha localizado en PubMed ningún estudio que mida la función alfa, que distinga de forma operativa las partes psicótica y no psicótica o que pruebe la existencia de los supuestos básicos. Los supuestos básicos se utilizan como marco descriptivo en análisis de casos organizacionales, como la tripulación aislada de Biosphere 2 (Nelson 2015) o la formación de residentes de psiquiatría durante la pandemia de COVID-19 (Lim 2020), y existe un modelo matemático de su dinámica (Dal Forno y Merlone 2013), pero nada de ello constituye una prueba. Su influencia clínica es amplia: en la escucha de los estados del terapeuta como información sobre el paciente, en la supervisión, en la teoría del campo analítico y en la psicoterapia psicodinámica de la psicosis. Las tradiciones de investigación sobre apego y mentalización estudian empíricamente fenómenos emparentados, pero con conceptos y métodos propios.",
+     "links": [
+      {
+       "ids": [
+        "contratransfer"
+       ],
+       "t": "Contratransferencia"
+      },
+      {
+       "ids": [
+        "mbt",
+        "apego"
+       ],
+       "t": "Mentalización y apego"
+      },
+      {
+       "ids": [
+        "psicodin_breve"
+       ],
+       "t": "Psicoterapia psicodinámica"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Bion WR (1957). Differentiation of the psychotic from the non-psychotic personalities. Int J Psychoanal 38:266-275 · PMID 13438602",
+    "Bion WR (1962). The psycho-analytic study of thinking. A theory of thinking. Int J Psychoanal 43:306-310 · PMID 13968380",
+    "Bion WR (1961). Experiences in Groups and Other Papers. London: Tavistock",
+    "Bion WR (1962). Learning from Experience. London: Heinemann",
+    "Brown LJ (2012). Bion's discovery of alpha function: thinking under fire on the battlefield and in the consulting room. Int J Psychoanal 93:1191-1214 · PMID 23043400",
+    "Bergstein A (2018). The psychotic part of the personality: Bion's expeditions into unmapped mental life. J Am Psychoanal Assoc 66:193-220 · PMID 29708415",
+    "Mawson C (2017). Interpretation as Freud's specific action, and Bion's container-contained. Int J Psychoanal 98:1519-1532 · PMID 28542871",
+    "Manica M (2023). A letter from Winnicott to Bion: an imaginative conjecture to illustrate a paradigm transformation. Psychoanal Q 92:263-288 · PMID 37556779",
+    "Grotstein JS (2009). Dreaming as a 'curtain of illusion': revisiting the 'royal road' with Bion as our guide. Int J Psychoanal 90:733-752 · PMID 19709022",
+    "Roth B (2013). Bion, basic assumptions, and violence: a corrective reappraisal. Int J Group Psychother 63:524-543 · PMID 24004012",
+    "Schneider JA (2015). Bion's thinking about groups: a study of influence and originality. Psychoanal Q 84:415-440 · PMID 25876541",
+    "Civitarese G (2021). Experiences in Groups as a key to «late» Bion. Int J Psychoanal 102:1071-1096 · PMID 34180781",
+    "Nelson M, Gray K & Allen JP (2015). Group dynamics challenges: insights from Biosphere 2 experiments. Life Sci Space Res (Amst) 6:79-86 · PMID 26256631",
+    "Lim CT, Harris ZB & Caan MP (2020). A psychiatric residency in the era of COVID-19: a Bionian perspective. Psychodyn Psychiatry 48:259-270 · PMID 32996847",
+    "Dal Forno A & Merlone U (2013). Nonlinear dynamics in work groups with Bion's basic assumptions. Nonlinear Dynamics Psychol Life Sci 17:295-315 · PMID 23517610",
+    "Maier C (2016). Bion and C.G. Jung. How did the container-contained model find its thinker? The fate of a cryptomnesia. J Anal Psychol 61:134-154 · PMID 27000691"
+   ],
+   "rel": [
+    "klein_pos",
+    "winnicott",
+    "esq",
+    "mbt",
+    "apego",
+    "psicodin_breve",
+    "contratransfer",
+    "jung_hit",
+    "freud_hit",
+    "mec_defensa"
+   ]
+  },
+  {
+   "id": "jung_hit",
+   "n": "Carl G. Jung: psicología de la dementia praecox (1907), complejos y tipos psicológicos",
+   "ab": "Jung",
+   "al": [
+    "C. G. Jung",
+    "psicología analítica",
+    "experimento de asociación de palabras",
+    "complejo de tono afectivo",
+    "Psychologische Typen",
+    "MBTI"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "psychoan",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1907,
+   "tags": [],
+   "desc": "Carl Gustav Jung (1875-1961), psiquiatra suizo, se formó en el hospital Burghölzli de Zúrich, dirigido por Eugen Bleuler [fuente no localizada para los detalles del cargo], donde desarrolló con sus colaboradores el experimento de asociación de palabras y el concepto de complejo de tono afectivo. En Über die Psychologie der Dementia praecox (Halle: Marhold, 1907) aplicó esa teoría a la psicosis, en una lectura comprensiva de los síntomas que influyó en Bleuler y en la tesis de Sabina Spielrein (Skea 2006). Su estrecha colaboración con Freud terminó en ruptura en 1913 (Falzeder 2020). En Psychologische Typen (Zürich: Rascher, 1921) describió las actitudes introvertida y extravertida y cuatro funciones psicológicas; de ahí deriva el Myers-Briggs Type Indicator (MBTI), cuyo modelo de tipos no ha resistido el análisis psicométrico (McCrae y Costa 1989).",
+   "feats": [
+    "Experimento de asociación: las perturbaciones de la respuesta ante palabras estímulo se interpretaron como indicadores de complejos; Solomon (2003) lo presenta como una verificación temprana de la represión, del complejo y de la existencia de lo inconsciente",
+    "Über die Psychologie der Dementia praecox (1907): síntomas psicóticos comprendidos desde complejos de tono afectivo; Spielrein siguió este estilo en su tesis de 1911 sobre los delirios de una paciente del Burghölzli (Skea 2006)",
+    "Ruptura con Freud (1913): diferencias sobre la libido, la sexualidad y la religión (Solomon 2003; Falzeder 2020) y, según Hoffer (2001), rechazo del método de asociación libre, que Jung llegó a ver como reductivo y regresivo",
+    "Tipos psicológicos (1921): actitudes introvertida y extravertida y funciones de pensamiento, sentimiento, sensación e intuición [contenido de la obra no cotejado con el original]",
+    "MBTI: McCrae y Costa (1989), con 468 adultos, no hallaron apoyo para preferencias dicotómicas ni tipos cualitativamente distintos; el instrumento mide cuatro dimensiones relativamente independientes, vinculadas con cuatro de los cinco grandes factores",
+    "Fierro (2024): Carl Rogers concluyó en 1927, con sus propios datos, que los tests de asociación de palabras no tenían valor clínico efectivo en niños"
+   ],
+   "note": "Las aportaciones psiquiátricas tempranas de Jung (asociación, complejos, psicología de la dementia praecox) se distinguen de su psicología analítica posterior (inconsciente colectivo, arquetipos, individuación), que queda fuera de la psicopatología empírica y apenas tiene contraste. La relación terapéutica con Sabina Spielrein y su actuación institucional en la psicoterapia alemana de los años treinta siguen siendo objeto de controversia historiográfica [fuente no localizada]. Elms (2005) revisa cuarenta biografías de Jung, de calidad muy desigual, entre hagiografías y patografías.",
+   "sec": [
+    {
+     "t": "Contexto histórico: el Burghölzli y la psicología experimental",
+     "x": "A comienzos del siglo XX el Burghölzli de Zúrich era un centro donde convivían la nosología kraepeliniana, la psicología experimental de las asociaciones y el interés por el psicoanálisis; Bleuler aceptaba la dementia praecox como unidad clínica, pero buscaba comprender sus síntomas psicológicamente. Jung y sus colaboradores publicaron los Diagnostische Assoziationsstudien (Leipzig: Barth, 1906-1909) [no verificada], que medían tiempos de reacción y perturbaciones de la respuesta y, en algunos trabajos, cambios psicogalvánicos [fuente no localizada]. Sabina Spielrein fue en 1904 el primer caso psicoanalítico de Jung en el Burghölzli (Skea 2006), y Hoffer (2001) analiza cómo combinó en ese tratamiento el método de asociación libre de Freud con sus propios experimentos de asociación entre 1904 y 1905. Fierro (2024) reconstruye la difusión de los tests de asociación en la psicología clínica temprana hasta Carl Rogers, que los abandonó por falta de validez.",
+     "links": [
+      {
+       "ids": [
+        "bleuler_4a"
+       ],
+       "t": "Bleuler y las cuatro aes"
+      },
+      {
+       "ids": [
+        "morel"
+       ],
+       "t": "La dementia praecox antes de Kraepelin"
+      },
+      {
+       "ids": [
+        "freud_hit"
+       ],
+       "t": "Freud"
+      }
+     ]
+    },
+    {
+     "t": "Aportación y obra original",
+     "x": "Über die Psychologie der Dementia praecox (1907) sostiene que los síntomas de la enfermedad pueden comprenderse a partir de complejos de fuerte carga afectiva que se independizan de la personalidad consciente; Jung no descartó un factor orgánico o tóxico asociado [fuente no localizada para la formulación precisa]. La obra fue decisiva en el acercamiento a Freud, con quien mantuvo entre 1906 y 1913 una correspondencia y una colaboración intensas; Falzeder (2020) reconstruye a partir de esas cartas en qué coincidían y en qué discrepaban. Solomon (2003) describe la relación como un encuentro incompleto, en el que Freud buscaba un continuador fiel y Jung una figura paterna que le concediera autonomía; la ruptura tuvo causas teóricas, como la ampliación de la libido y del complejo a temas universales, y la rivalidad por explicar la religión, que se hizo visible con la versión de 1912 de Wandlungen und Symbole der Libido. Howe (2022) recuerda que las aportaciones de Jung a la comprensión y el trato de la psicosis aguda, previas a su psicología analítica, siguen siendo poco reconocidas.",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "Esquizofrenia"
+      },
+      {
+       "ids": [
+        "schreber"
+       ],
+       "t": "Teoría psicoanalítica de la paranoia"
+      },
+      {
+       "ids": [
+        "jaspers_1913"
+       ],
+       "t": "Jaspers: comprender y explicar"
+      }
+     ]
+    },
+    {
+     "t": "Tipos psicológicos, MBTI y legado",
+     "x": "De Psychologische Typen (1921) procede la distinción entre introversión y extraversión, que la psicología de la personalidad conservó como dimensión, no como tipo. El MBTI, construido después sobre esta tipología y muy usado en orientación profesional y empresas, presenta problemas psicométricos documentados: McCrae y Costa (1989) no hallaron apoyo para tipos dicotómicos y propusieron interpretar sus cuatro índices desde el modelo de cinco factores; Harasym et al. (1995), en 259 estudiantes de enfermería, encontraron que las escalas sensación-intuición y juicio-percepción se fundían en una sola, de modo que el instrumento medía tres escalas bipolares y no cuatro. Revisiones anteriores habían informado de fiabilidad aceptable (Carlson 1985), lo que no resuelve el problema de la estructura tipológica. No es un instrumento clínico ni diagnóstico. Maier (2016) sugiere una posible influencia de las Tavistock Lectures de Jung en el modelo del continente de Bion.",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "Modelos dimensionales de la personalidad"
+      },
+      {
+       "ids": [
+        "bion_hit"
+       ],
+       "t": "Bion"
+      },
+      {
+       "ids": [
+        "psicodin_breve"
+       ],
+       "t": "Psicoterapia psicodinámica"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Jung CG (1907). Über die Psychologie der Dementia praecox: Ein Versuch. Halle: Carl Marhold",
+    "Jung CG (1921). Psychologische Typen. Zürich: Rascher",
+    "Jung CG (Hrsg.) (1906). Diagnostische Assoziationsstudien, Bd. 1. Leipzig: Barth [no verificada]",
+    "Solomon HM (2003). Freud and Jung: an incomplete encounter. J Anal Psychol 48:553-569 · PMID 14661373",
+    "Falzeder E (2020). Freud and Jung on Freud and Jung. J Anal Psychol 65:116-135 · PMID 31972878",
+    "Hoffer A (2001). Jung's analysis of Sabina Spielrein and his use of Freud's free association method. J Anal Psychol 46:117-128 · PMID 11227104",
+    "Skea BR (2006). Sabina Spielrein: out from the shadow of Jung and Freud. J Anal Psychol 51:527-552 · PMID 16918798",
+    "Howe AJ (2022). Jung and working with acute psychosis. Psychodyn Psychiatry 50:444-448 · PMID 36047799",
+    "McCrae RR & Costa PT (1989). Reinterpreting the Myers-Briggs Type Indicator from the perspective of the five-factor model of personality. J Pers 57:17-40 · PMID 2709300",
+    "Harasym PH, Leong EJ, Juschka BB, Lucier GE & Lorscheider FL (1995). Myers-Briggs psychological type and achievement in anatomy and physiology. Am J Physiol 268:S61-S65 · PMID 7598175",
+    "Carlson JG (1985). Recent assessments of the Myers-Briggs Type Indicator. J Pers Assess 49:356-365 · PMID 3900330",
+    "Fierro C (2024). A supposedly objective thing I'll never use again: word association and the quest for validity and reliability in emotional adjustment research from Carl Jung to Carl Rogers (1898-1927). J Hist Behav Sci 60:e22272 · PMID 37264555",
+    "Elms AC (2005). Jung's lives. J Hist Behav Sci 41:331-346 · PMID 16196047",
+    "Maier C (2016). Bion and C.G. Jung. How did the container-contained model find its thinker? The fate of a cryptomnesia. J Anal Psychol 61:134-154 · PMID 27000691"
+   ],
+   "rel": [
+    "bleuler_4a",
+    "freud_hit",
+    "esq",
+    "schreber",
+    "hitop_tp",
+    "bion_hit",
+    "psicodin_breve",
+    "jaspers_1913"
+   ]
+  },
+  {
+   "id": "kierkegaard_ang",
+   "n": "Kierkegaard: la angustia como posibilidad y la desesperación (1844, 1849)",
+   "ab": "Kierkegaard",
+   "al": [
+    "Søren Kierkegaard",
+    "Begrebet Angest",
+    "El concepto de la angustia",
+    "Sygdommen til Døden",
+    "La enfermedad mortal",
+    "Vigilius Haufniensis",
+    "Anti-Climacus"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "fen",
+   "ring": 4,
+   "trad": "existential",
+   "cs": "l",
+   "ev": "fen",
+   "y": 1844,
+   "tags": [],
+   "desc": "Søren Kierkegaard (1813-1855), filósofo y teólogo danés, publicó con seudónimo Begrebet Angest (Copenhague, 1844; firmado por Vigilius Haufniensis) y Sygdommen til Døden (Copenhague, 1849; firmado por Anti-Climacus). En la primera, la angustia no es un síntoma sino una condición constitutiva del ser humano, vinculada a la libertad y a la posibilidad (Caprara 2003); en la segunda, la desesperación es la «enfermedad mortal» del yo, entendido como una relación que se relaciona consigo misma y que fracasa en llegar a ser ella misma. Ambas obras son antecedentes reconocidos de la psiquiatría y la psicoterapia existenciales (Binswanger, May, Yalom). No son teorías clínicas ni tienen contraste empírico: aportan un vocabulario para describir la experiencia de quien consulta, que se ha usado en estudios cualitativos sobre la supervivencia al cáncer y la autolesión (Knox 2020; Jønsson 2026).",
+   "feats": [
+    "Angustia sin objeto: Kierkegaard la vincula a la libertad como posibilidad, distinta del miedo ante un objeto determinado; para él, como después para Heidegger, no es un síntoma patológico sino un acceso privilegiado al conocimiento de sí (Caprara 2003)",
+    "El yo como síntesis de finito e infinito, temporal y eterno, posibilidad y necesidad, y como relación que se relaciona consigo misma (La enfermedad mortal, 1849); Knox (2020) usa este modelo para leer los relatos de desesperación de 14 supervivientes de cáncer de larga evolución",
+    "Formas de la desesperación descritas en La enfermedad mortal: no saberse en posesión de un yo, no querer ser uno mismo y querer desesperadamente ser uno mismo [formulación según la tradición de traducción; no cotejada con el original]",
+    "Spitzer (1977), en la British Journal of Psychiatry, recurrió a las conjeturas de Kierkegaard sobre la emergencia conjunta de conciencia y angustia para interpretar datos empíricos sobre autoconciencia y ansiedad derivados de hipótesis de Laing",
+    "Jønsson, Li y Steno (2026), a partir de la reflexión kierkegaardiana sobre el yo y la desesperación, proponen el concepto de «selfhood enactuado» para comprender la autolesión en 19 personas con enfermedad mental seguidas durante cuatro años",
+    "Kierkegaard estudió con el filósofo y psicólogo Sibbern y entendió la psicología como un saber poético e imaginativo sobre la subjetividad, opuesto al auge de la estadística y las ciencias naturales (Pind 2016; Klempe 2013)"
+   ],
+   "note": "La desesperación kierkegaardiana es una categoría ontológica y religiosa, no un sinónimo de depresión ni de desesperanza clínica; trasladarla sin más a la clínica puede llevar a normalizar como «existencial» un trastorno tratable o un riesgo suicida que debe evaluarse siempre [fuente no localizada para la advertencia]. Las patografías retrospectivas de Kierkegaard (trastorno bipolar, epilepsia del lóbulo temporal, porfiria, entre otras; Schioldann y Søgaard 2013) son especulativas y no deben usarse para leer su obra como síntoma. Las ediciones españolas citadas no se han cotejado.",
+   "sec": [
+    {
+     "t": "Delimitación conceptual: angustia y desesperación",
+     "x": "La ficha de ansiedad existencial recoge ya la fórmula de la angustia como vértigo de la libertad y su prolongación en Heidegger, May y Tillich; aquí interesa la estructura del argumento. El concepto de la angustia (1844) se presenta como una deliberación psicológica sobre el pecado original [subtítulo no cotejado con el original]: la angustia aparece en la inocencia como relación ambigua con una posibilidad que todavía no es nada, de modo que es a la vez atracción y repulsión. Caprara (2003) resume que, para Kierkegaard y después para Heidegger, la angustia no es un síntoma patológico sino un estado que da acceso privilegiado al conocimiento de sí, en contraste con el enfoque biomédico. La enfermedad mortal (1849) define al ser humano como síntesis de opuestos y al yo como la relación que se relaciona consigo misma; la desesperación es el desequilibrio de esa relación, una enfermedad «mortal» no porque cause la muerte, sino porque quien desespera no puede morir ni vivir del todo [paráfrasis según la tradición de lectura; no cotejada]. Kierkegaard la presenta como universal y a menudo inadvertida, y el remedio que propone es religioso: la fe [no cotejado con el original].",
+     "links": [
+      {
+       "ids": [
+        "anx_exist"
+       ],
+       "t": "Ansiedad existencial"
+      },
+      {
+       "ids": [
+        "ansiedad"
+       ],
+       "t": "Ansiedad y angustia"
+      },
+      {
+       "ids": [
+        "sent_existenciales"
+       ],
+       "t": "Sentimientos existenciales"
+      }
+     ]
+    },
+    {
+     "t": "Recepción en la psiquiatría existencial",
+     "x": "La lectura psiquiátrica de Kierkegaard fue temprana y amplia, aunque buena parte de ella está en revistas sin resumen indexado. Skinhøj y Skinhøj (1955) estudiaron su presencia en la psicología norteamericana; Tosquelles (1955) analizó una psicosis aguda desde la esfera estética de la existencia kierkegaardiana, y Adler-Vonessen (1971) comparó la angustia en Kierkegaard, Freud y Heidegger [contenido de los tres trabajos no cotejado: sin resumen]. Rollo May dedicó a Kierkegaard un lugar central en The Meaning of Anxiety (1950), y Yalom (1980) lo sitúa en la genealogía de la psicoterapia existencial junto a Heidegger y Sartre [extensión de estas lecturas no cotejada]. En el análisis existencial de Binswanger la influencia es sobre todo indirecta, a través de Heidegger [fuente no localizada]. Spitzer (1977) es un ejemplo poco frecuente de uso de Kierkegaard para interpretar datos empíricos: la autoconciencia se asociaba con ansiedad en el conjunto, mientras que el acto de reflexión parecía reducirla en los puntos sobre los que se aplicaba.",
+     "links": [
+      {
+       "ids": [
+        "binswang",
+        "boss_daseins"
+       ],
+       "t": "Análisis existencial y Daseinsanálisis"
+      },
+      {
+       "ids": [
+        "yalom_dadas"
+       ],
+       "t": "Yalom"
+      },
+      {
+       "ids": [
+        "laing"
+       ],
+       "t": "Laing"
+      },
+      {
+       "ids": [
+        "sartre_mala_fe"
+       ],
+       "t": "Sartre"
+      }
+     ]
+    },
+    {
+     "t": "Valor para la clínica y límites",
+     "x": "El modelo del yo como relación consigo mismo ofrece una manera de describir experiencias de pérdida de identidad que el lenguaje sintomático capta mal. Knox (2020) halló en 14 supervivientes de cáncer de larga evolución dificultades existenciales graves para encontrar un suelo firme en el sentido de sí, que leyó como relatos de desesperación en el sentido de La enfermedad mortal. Jønsson, Li y Steno (2026) proponen comprender la autolesión no solo como síntoma, sino como un modo de restaurar el yo. Chung y Hill (1993) usaron el concepto kierkegaardiano de yo para describir la lucha psicológica de niñas y niños víctimas de abuso sexual. La revisión de experiencias vividas de personas que han intentado suicidarse (Fusar-Poli et al. 2026) recoge vivencias de desesperanza y desesperación, de escisión del yo entre la decisión de vivir o morir y de futuro clausurado, que pueden describirse con este vocabulario sin que ello sustituya la evaluación del riesgo. Los límites son claros: no hay operacionalización ni estudios controlados, y la dimensión religiosa del autor no es separable de su obra.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Ideación suicida"
+      },
+      {
+       "ids": [
+        "autolesion"
+       ],
+       "t": "Autolesión"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "Trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "logoter"
+       ],
+       "t": "Psicoterapia existencial"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Kierkegaard S [Vigilius Haufniensis] (1844). Begrebet Angest. Kjøbenhavn: C. A. Reitzel [editorial no verificada]",
+    "Kierkegaard S [Anti-Climacus] (1849). Sygdommen til Døden. Kjøbenhavn: C. A. Reitzel [editorial no verificada]",
+    "Kierkegaard S (2007). El concepto de la angustia. Trad. D. Gutiérrez Rivero. Madrid: Alianza [no verificada]",
+    "Kierkegaard S (2008). La enfermedad mortal. Trad. D. Gutiérrez Rivero. Madrid: Trotta [no verificada]",
+    "Caprara A (2003). [An hermeneutic approach to health-disease relationship] (en portugués). Cad Saude Publica 19:923-931 · PMID 12973558",
+    "Knox JBL (2020). Stories of despair: a Kierkegaardian read of suffering and selfhood in survivorship. Med Health Care Philos 23:61-72 · PMID 31144094",
+    "Jønsson ABR, Li EX & Steno AM (2026). Enacted restoration of selfhood: a Kierkegaardian perspective on self-harm among people with mental illness. Cult Med Psychiatry 50:17 · PMID 41691565",
+    "Spitzer SP (1977). Reflective processes and anxiety. Br J Psychiatry 130:386-391 · PMID 870129",
+    "Pind JL (2016). The psychologist as a poet: Kierkegaard and psychology in 19th-century Copenhagen. Hist Psychol 19:352-370 · PMID 27348573",
+    "Klempe SH (2013). Kierkegaard and psychology as the science of the «multifarious life». Integr Psychol Behav Sci 47:367-375 · PMID 23604954",
+    "Chung MC & Hill R (1993). On describing the psychological struggle of child sexual abuse victims through Kierkegaard's concept of self. Child Psychiatry Hum Dev 24:81-90 · PMID 7507019",
+    "Schioldann J & Søgaard I (2013). Søren Kierkegaard (1813-55): a bicentennial pathographical review. Hist Psychiatry 24:387-398 · PMID 24573750",
+    "Fusar-Poli P, Esposito CM, Estradé A et al. (2026). The lived experience of persons who attempt suicide: a bottom-up review co-designed, co-produced and co-written by experts by experience and academics. World Psychiatry 25:34-49 · PMID 41536099",
+    "Skinhøj E & Skinhøj K (1955). Søren Kierkegaard in American psychology. Acta Psychiatr Neurol Scand 30:315-325 · PMID 13301894 [contenido no cotejado: sin resumen]",
+    "Tosquelles F (1955). [Analysis of an acute psychosis; the sphere of esthetic existence according to Kierkegaard] (en francés). Evol Psychiatr (Paris) 1:159-181 · PMID 14365758 [contenido no cotejado: sin resumen]",
+    "Adler-Vonessen H (1971). [Anxiety in the concepts of S. Kierkegaard, S. Freud, and M. Heidegger] (en alemán). Psyche (Stuttg) 25:692-715 · PMID 4939197 [contenido no cotejado: sin resumen]",
+    "May R (1950). The Meaning of Anxiety. New York: Ronald Press",
+    "Yalom ID (1980). Existential Psychotherapy. New York: Basic Books"
+   ],
+   "rel": [
+    "anx_exist",
+    "binswang",
+    "yalom_dadas",
+    "sent_existenciales",
+    "logoter",
+    "ideac_suic",
+    "sartre_mala_fe",
+    "ansiedad",
+    "autolesion"
+   ]
+  },
+  {
+   "id": "sartre_mala_fe",
+   "n": "Sartre: mala fe, la mirada del otro y la vergüenza (L'Être et le Néant, 1943)",
+   "ab": "Sartre: mala fe",
+   "al": [
+    "Jean-Paul Sartre",
+    "El ser y la nada",
+    "mauvaise foi",
+    "le regard",
+    "ser-para-otro",
+    "psicoanálisis existencial",
+    "vergüenza"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "fen",
+   "ring": 4,
+   "trad": "existential",
+   "cs": "l",
+   "ev": "fen",
+   "y": 1943,
+   "tags": [
+    "lgtbi"
+   ],
+   "desc": "En L'Être et le Néant. Essai d'ontologie phénoménologique (Paris: Gallimard, 1943), Jean-Paul Sartre (1905-1980) describe la mala fe (mauvaise foi) como un autoengaño en el que la conciencia huye de su libertad, y la mirada (le regard) del otro como la experiencia por la que el sujeto se descubre objeto para otro; la vergüenza es el afecto que revela ese ser-para-otro (Dolezal y Rose 2023). Propuso un psicoanálisis existencial que busca el proyecto original libremente elegido en lugar de determinantes inconscientes, y que Chessick (1984) considera irreconciliable con el freudiano. Laing y Cooper difundieron a Sartre en la psiquiatría británica, y la psicopatología fenomenológica actual usa su análisis del cuerpo para otro en los trastornos alimentarios (Mancini y Esposito 2021) y en la ansiedad social. Son conceptos filosóficos sin contraste empírico directo, útiles para describir la experiencia de quien consulta.",
+   "feats": [
+    "Mala fe: la conciencia se trata a sí misma como cosa fija o niega su situación para eludir la libertad y la responsabilidad; Klass y Offenkrantz (1976) la equiparan a la renegación (disavowal) en la transferencia de pacientes con trastorno narcisista de la personalidad",
+    "La mirada: el ejemplo del voyeur sorprendido en el pasillo muestra la estructura de la vergüenza como afecto relacional fundante; Dolezal y Rose (2023) lo aplican a la vergüenza pública durante la pandemia de COVID-19 y lo sitúan en el contexto de la ocupación alemana de París",
+    "Cuerpo para otro: Mancini y Esposito (2021) toman de Sartre el «cuerpo vivido para otro» para su modelo de desproporción óptico-cenestésica de los trastornos alimentarios, con alienación del propio cuerpo, asco, vergüenza y preocupación por cómo se aparece a los demás",
+    "Psicoanálisis existencial: busca el proyecto original de la persona y no complejos determinados por el pasado; Chessick (1984) lo considera fundamentalmente opuesto al psicoanálisis freudiano en epistemología, concepción de la psicopatología y psicoterapia",
+    "Laing y Cooper presentaron la filosofía de Sartre de 1950-1960 en Reason and Violence (London: Tavistock, 1964), y Laing reconoció su influencia en El yo dividido [extensión de la influencia no cotejada]",
+    "Ansiedad social: en entrevistas repetidas a ocho personas, el cuerpo vivido, normalmente ausente de la experiencia, se vivía como cuerpo objeto atrapado por el otro e incapaz de actuar con libertad (Kristiansen 2023), en convergencia con el análisis sartreano de la mirada"
+   ],
+   "note": "Sartre no escribió una psicopatología, y sus análisis son ontológicos, no clínicos. La literatura psiquiátrica que los usa es teórica, de casos o cualitativa, con muestras pequeñas. La noción de mala fe no debe convertirse en un juicio moral sobre quien consulta: describir una estrategia de autoengaño no equivale a atribuir culpa. La aplicación a la vergüenza en personas LGTBIQ es una extrapolación razonable, no un resultado de investigación [fuente no localizada]. Las ediciones españolas citadas no se han cotejado.",
+   "sec": [
+    {
+     "t": "Delimitación conceptual: mala fe, mirada y vergüenza",
+     "x": "En L'Être et le Néant (1943) la conciencia (el para-sí) se define por su libertad y por no coincidir nunca consigo misma. La mala fe es la conducta por la que la conciencia se miente sobre esa libertad, ya sea identificándose con su facticidad, como si fuera una cosa con naturaleza fija, ya sea negando su situación; Sartre la ilustra con el camarero que representa en exceso su papel y con la mujer que, en una cita, deja su mano sin decidir [ejemplos según la tradición de lectura; no cotejados con el original]. En la tercera parte, el ser-para-otro se revela en la mirada: al ser visto, el sujeto se experimenta como objeto juzgado por una libertad ajena, y la vergüenza es vergüenza de uno mismo ante el otro [paráfrasis no cotejada]. Dolezal y Rose (2023) subrayan que Sartre hace de la vergüenza un afecto relacional fundante y que el otro de la mirada puede ser indiferenciado, una audiencia anónima. El análisis se completa con el cuerpo para otro, que la psicopatología fenomenológica ha retomado.",
+     "links": [
+      {
+       "ids": [
+        "kierkegaard_ang"
+       ],
+       "t": "Kierkegaard: angustia y libertad"
+      },
+      {
+       "ids": [
+        "leib_korper",
+        "fuchs_cuerpo"
+       ],
+       "t": "Cuerpo vivido y cuerpo objeto"
+      },
+      {
+       "ids": [
+        "husserl"
+       ],
+       "t": "Fenomenología"
+      }
+     ]
+    },
+    {
+     "t": "Psicoanálisis existencial y recepción psiquiátrica",
+     "x": "Sartre opuso al psicoanálisis freudiano un psicoanálisis existencial que no busca complejos determinados por la historia infantil, sino el proyecto original con el que cada persona elige su modo de ser, y lo ensayó en biografías como Saint Genet, comédien et martyr (Paris: Gallimard, 1952) [no verificada]. Chessick (1984) sostiene que ambos enfoques parten de premisas epistemológicas distintas y llegan a concepciones irreconciliables del ser humano, de la psicopatología y de la psicoterapia. Klass y Offenkrantz (1976) usaron la reflexión, la temporalidad y el ser-para-otro, a partir de La náusea (1938) y El ser y la nada, para explicar la estructura y la inestabilidad de las transferencias en el trastorno narcisista de la personalidad: el paciente necesita sostener, mediante mala fe, que el terapeuta actúa libremente, y sentirse la ocasión única de su calidez. Laing y Cooper llevaron a Sartre a la psiquiatría británica (Reason and Violence, 1964), y Yalom (1980) lo incorpora a su sistematización de la libertad y la responsabilidad como preocupaciones últimas [extensión no cotejada].",
+     "links": [
+      {
+       "ids": [
+        "laing",
+        "laing_hit"
+       ],
+       "t": "Laing y la antipsiquiatría"
+      },
+      {
+       "ids": [
+        "tpnarc",
+        "kohut"
+       ],
+       "t": "Narcisismo y vergüenza"
+      },
+      {
+       "ids": [
+        "yalom_dadas"
+       ],
+       "t": "Yalom: libertad y responsabilidad"
+      }
+     ]
+    },
+    {
+     "t": "Vergüenza y mirada en la psicopatología actual",
+     "x": "La fenomenología clínica ha convertido el cuerpo para otro en una herramienta descriptiva. Mancini y Esposito (2021) proponen que en los trastornos alimentarios el cuerpo se vive ante todo como objeto mirado por otro y no desde dentro, y Esposito y Stanghellini (2020) derivan de ello una psicoterapia en la que la mirada del clínico se vuelve reconocimiento y no alienación. En la ansiedad social, Kristiansen (2023) describe en ocho personas la vivencia de un cuerpo esclavizado por el otro, que se oculta o se maneja como una marioneta, y propone tratar el trastorno como interpersonal y no solo cognitivo. Yamada et al. (2000) describieron en trastornos alimentarios una secuencia de vergüenza, alienación y aislamiento que interpretaron con Kierkegaard y Sartre. Fuchs ha analizado la vergüenza como afecto corporal e intersubjetivo en la depresión y el trastorno dismórfico corporal [Fuchs 2002 no verificada]. En personas LGTBIQ, la vergüenza interiorizada y la vigilancia ante la mirada ajena descritas en el modelo de estrés de minorías pueden leerse con este vocabulario, que sitúa el origen del malestar en la relación con un otro estigmatizante y no en la orientación o la identidad [fuente no localizada para la aplicación].",
+     "links": [
+      {
+       "ids": [
+        "anor",
+        "tdc"
+       ],
+       "t": "Trastornos alimentarios y dismorfia corporal"
+      },
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "Ansiedad social"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "Estrés de minorías y psicoterapia afirmativa"
+      },
+      {
+       "ids": [
+        "sistema_cft"
+       ],
+       "t": "Vergüenza en el modelo de la compasión"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Sartre JP (1943). L'Être et le Néant. Essai d'ontologie phénoménologique. Paris: Gallimard",
+    "Sartre JP (1966). El ser y la nada. Trad. J. Valmar. Buenos Aires: Losada [no verificada]",
+    "Sartre JP (1952). Saint Genet, comédien et martyr. Paris: Gallimard [no verificada]",
+    "Laing RD & Cooper DG (1964). Reason and Violence: A Decade of Sartre's Philosophy, 1950-1960. London: Tavistock [no verificada]",
+    "Chessick RD (1984). Sartre and Freud. Am J Psychother 38:229-238 · PMID 6742243",
+    "Klass DB & Offenkrantz W (1976). Sartre's contribution to the understanding of narcissism. Int J Psychoanal Psychother 5:547-565 · PMID 955803",
+    "Dolezal L & Rose A (2023). A Sartrean analysis of pandemic shaming. Phenomenol Cogn Sci 22:1235-1253 · PMID 36713813",
+    "Mancini M & Esposito CM (2021). Lived body and the Other's gaze: a phenomenological perspective on feeding and eating disorders. Eat Weight Disord 26:2523-2529 · PMID 33544360",
+    "Esposito CM & Stanghellini G (2020). The pathogenic and therapeutic potential of the gaze of the Other in the clinic of «eating disorders». Psychopathology 53:291-297 · PMID 32882702",
+    "Kristiansen MV (2023). Forcing an effortless stance: the lived body in social anxiety disorder. Psychopathology 56:430-439 · PMID 36787718",
+    "Yamada Y, Itaya Y & Yamada T (2000). [Phenomenological study on the process to onset and the structure of symptoms in eating disorders] (en japonés). Seishin Shinkeigaku Zasshi 102:68-91 · PMID 10810894",
+    "Fuchs T (2002). The phenomenology of shame, guilt and the body in body dysmorphic disorder and depression. J Phenomenol Psychol 33:223-243 [no verificada]",
+    "Yalom ID (1980). Existential Psychotherapy. New York: Basic Books"
+   ],
+   "rel": [
+    "kierkegaard_ang",
+    "laing",
+    "laing_hit",
+    "leib_korper",
+    "fuchs_cuerpo",
+    "tpnarc",
+    "anor",
+    "fobia_soc",
+    "lgb_afirm",
+    "yalom_dadas"
+   ]
+  }
+ ]
+}
