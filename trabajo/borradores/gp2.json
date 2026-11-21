@@ -1,0 +1,706 @@
+{
+ "patch": {
+  "dmko": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "La agitación psíquica, la irritabilidad y la labilidad que definen la depresión mixta obligan a descartar otros cuadros. Acatisia: inquietud motora subjetiva y objetiva ligada al inicio o aumento de un antipsicótico, un ISRS u otro fármaco, con predominio de la necesidad de moverse sobre la tensión interna y el pensamiento atropellado. Activación o viraje por antidepresivos: en la serie de 1026 pacientes con episodio depresivo índice del Centro Lucio Bini, un tercio (346) presentaba depresión mixta y en 173 casos su comienzo se asoció a antidepresivos (Koukopoulos 2007). Depresión ansiosa o trastorno de ansiedad generalizada comórbido: la ansiedad no se acompaña de aceleración del pensamiento, locuacidad ni ausencia de inhibición. Trastorno límite de la personalidad y TDAH: la reactividad afectiva y la impulsividad son rasgos persistentes y no se limitan al episodio; en el estudio BRIDGE-II-MIX ambas comorbilidades se asociaron a la definición amplia de estado mixto, lo que exige reconstruir la historia longitudinal (Perugi 2015). Intoxicación o abstinencia de estimulantes, alcohol o sedantes, e hipertiroidismo, que pueden reproducir el cuadro [fuente no localizada]. Episodio mixto con predominio maníaco: aquí el ánimo es expansivo o eufórico y no depresivo.",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "agitacion"
+       ],
+       "t": "acatisia y agitación"
+      },
+      {
+       "ids": [
+        "riad",
+        "sens_ad"
+       ],
+       "t": "empeoramiento y viraje con antidepresivos"
+      },
+      {
+       "ids": [
+        "tag",
+        "tlp",
+        "tdah_adulto"
+       ],
+       "t": "ansiedad, TLP y TDAH"
+      },
+      {
+       "ids": [
+        "tb_induc",
+        "mxto"
+       ],
+       "t": "inducción por sustancias y episodio mixto"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia y controversias",
+     "x": "El debate central es la amplitud de la definición. El especificador «con características mixtas» del DSM-5 excluye la irritabilidad, la agitación psicomotora y la distraibilidad por solaparse con la depresión, mientras que Koukopoulos las sitúa en el núcleo (Koukopoulos 2013). En el estudio multinacional BRIDGE-II-MIX (2811 adultos con episodio depresivo mayor), solo el 7,5 % cumplía el especificador DSM-5, frente al 29,1 % con una definición de investigación de al menos tres síntomas maníacos o hipomaníacos; los más frecuentes fueron justamente el ánimo irritable (32,6 %), la labilidad (29,8 %), la distraibilidad (24,4 %) y la agitación psicomotora (16,1 %), mientras que euforia, grandiosidad e hipersexualidad fueron raras (Perugi 2015). La definición amplia se asoció a más validadores bipolares: diagnóstico de trastorno bipolar, antecedentes familiares de manía, intentos de suicidio, inicio precoz y viraje con antidepresivos (Perugi 2015). La validación de los criterios de Koukopoulos fue interna, en 435 pacientes (sensibilidad 76,4 %, especificidad 86,3 %), y los autores piden una validación externa (Sani 2014). Las recomendaciones terapéuticas de esta escuela (evitar antidepresivos, preferir TEC, antipsicóticos o anticonvulsivos; Koukopoulos 2007) proceden de series clínicas retrospectivas y no de ensayos controlados en esta población.",
+     "links": [
+      {
+       "ids": [
+        "dsm2",
+        "mxto"
+       ],
+       "t": "especificador mixto del DSM-5"
+      },
+      {
+       "ids": [
+        "agdep",
+        "koukopoulos_hit"
+       ],
+       "t": "agitación depresiva y obra de Koukopoulos"
+      },
+      {
+       "ids": [
+        "dep_bip_tx",
+        "vpa_bip",
+        "lm_bip"
+       ],
+       "t": "tratamiento de la depresión bipolar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Koukopoulos A et al. (2007). Melancholia agitata and mixed depression. Acta Psychiatr Scand Suppl 433:50-57 · PMID 17280571",
+    "Perugi G et al. (2015). Mixed features in patients with a major depressive episode: the BRIDGE-II-MIX study. J Clin Psychiatry 76:e351-e358 · PMID 25830457"
+   ],
+   "relAdd": [
+    "mxto",
+    "riad",
+    "tag"
+   ]
+  },
+  "estim_seguridad": {
+   "secAdd": [
+    {
+     "t": "El otro lado de la balanza: riesgos del TDAH no tratado",
+     "x": "La decisión de prescribir debe ponderar también los riesgos del TDAH sin tratamiento. En una cohorte nacional sueca analizada con emulación de ensayo diana (148 578 personas de 6 a 64 años con diagnóstico incidente), iniciar la medicación en los tres meses siguientes al diagnóstico se asoció a menor mortalidad por cualquier causa a dos años (39,1 frente a 48,1 por 10 000; HR 0,79; IC 95 % 0,70-0,88), a expensas de las causas no naturales —lesiones accidentales, suicidio e intoxicaciones— (HR 0,75; 0,66-0,86), sin diferencia significativa en la mortalidad por causas naturales (HR 0,86; 0,71-1,05) (Li 2024). En 2 319 450 pacientes estadounidenses, el análisis intraindividual mostró un riesgo de accidentes de tráfico atendidos en urgencias un 38 % menor en varones y un 42 % menor en mujeres durante los meses con medicación (Chang 2017). Son estudios observacionales: el diseño intraindividual controla los factores estables de cada persona, pero no los que cambian con el tiempo. El beneficio poblacional no sustituye la evaluación individual del riesgo cardiovascular, psicótico y de uso indebido.",
+     "links": [
+      {
+       "ids": [
+        "tdah_conduccion"
+       ],
+       "t": "TDAH, conducción y accidentes"
+      },
+      {
+       "ids": [
+        "tdah_adulto",
+        "ideac_suic"
+       ],
+       "t": "TDAH adulto y riesgo suicida"
+      },
+      {
+       "ids": [
+        "metilfenidato",
+        "lisdexanfetamina"
+       ],
+       "t": "fármacos estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Psicosis y manía: matices de la evidencia",
+     "x": "El riesgo psicótico no es uniforme entre fármacos ni poblaciones. En un estudio sueco de registros con diseño intraindividual (23 898 personas de 12 a 30 años que iniciaron metilfenidato), la incidencia de episodios psicóticos en las 12 semanas posteriores al inicio no fue mayor que en las 12 previas, ni en quienes no tenían antecedentes de psicosis (IRR 1,04; IC 95 % 0,80-1,34) ni en quienes sí los tenían (0,95; 0,69-1,30); los autores cuestionan la práctica de evitar sistemáticamente el metilfenidato tras una psicosis (Hollis 2019). El dato contrasta con el exceso de riesgo de la anfetamina frente al metilfenidato ya recogido en esta ficha (Moran 2019). En 2307 adultos con trastorno bipolar que iniciaron metilfenidato, la monoterapia se asoció a un aumento de episodios maníacos en los tres meses siguientes (HR 6,7; IC 95 % 2,0-22,4), mientras que con un estabilizador concomitante el riesgo no aumentó (HR 0,6; 0,4-0,9) (Viktorin 2017). Los autores concluyen que debe descartarse con cuidado un trastorno bipolar antes de iniciar un psicoestimulante en monoterapia. Ambos estudios son observacionales y de registros.",
+     "links": [
+      {
+       "ids": [
+        "tb1",
+        "tb_induc"
+       ],
+       "t": "trastorno bipolar y manía inducida"
+      },
+      {
+       "ids": [
+        "psust",
+        "tdah_dd_adulto"
+       ],
+       "t": "psicosis inducida y diagnóstico diferencial del TDAH adulto"
+      },
+      {
+       "ids": [
+        "metilfenidato"
+       ],
+       "t": "metilfenidato"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Li L et al. (2024). ADHD pharmacotherapy and mortality in individuals with ADHD. JAMA 331:850-860 · PMID 38470385",
+    "Chang Z et al. (2017). Association between medication use for attention-deficit/hyperactivity disorder and risk of motor vehicle crashes. JAMA Psychiatry 74:597-603 · PMID 28492937",
+    "Hollis C et al. (2019). Methylphenidate and the risk of psychosis in adolescents and young adults: a population-based cohort study. Lancet Psychiatry 6:651-658 · PMID 31221557",
+    "Viktorin A et al. (2017). The risk of treatment-emergent mania with methylphenidate in bipolar disorder. Am J Psychiatry 174:341-348 · PMID 27690517"
+   ],
+   "relAdd": [
+    "tdah_conduccion",
+    "tb1",
+    "psust"
+   ]
+  },
+  "suic_adol": {
+   "secAdd": [
+    {
+     "t": "Intervenciones con evidencia controlada",
+     "x": "Dos ensayos aleatorizados sostienen la terapia dialéctico-conductual adaptada a adolescentes. En 77 adolescentes con autolesiones recientes y repetidas atendidos en servicios comunitarios noruegos, la DBT-A (19 semanas) superó a la atención habitual reforzada en la reducción de autolesiones, ideación suicida y síntomas depresivos (Mehlum 2014). En 173 adolescentes de 12 a 18 años con un intento previo y autolesiones repetidas, seis meses de DBT redujeron los intentos, la autolesión no suicida y la autolesión total frente a una terapia de apoyo individual y grupal (intentos: OR 0,30; IC 95 % 0,10-0,91); la ventaja se atenuó y dejó de ser significativa entre los 6 y los 12 meses (McCauley 2018). En prevención universal, el ensayo europeo por conglomerados SEYLE (11 110 alumnos de 168 centros en diez países de la Unión Europea) comparó tres programas con un grupo control: solo el programa Youth Aware of Mental Health, dirigido al propio alumnado, se asoció a los 12 meses a menos intentos incidentes (0,70 % frente a 1,51 %; OR 0,45; IC 95 % 0,24-0,85) y a menos ideación grave (OR 0,50) (Wasserman 2015).",
+     "links": [
+      {
+       "ids": [
+        "dbt"
+       ],
+       "t": "terapia dialéctico-conductual"
+      },
+      {
+       "ids": [
+        "autolesion",
+        "ansi_adol"
+       ],
+       "t": "autolesión no suicida"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Mehlum L et al. (2014). Dialectical behavior therapy for adolescents with repeated suicidal and self-harming behavior: a randomized trial. J Am Acad Child Adolesc Psychiatry 53:1082-1091 · PMID 25245352",
+    "McCauley E et al. (2018). Efficacy of dialectical behavior therapy for adolescents at high risk for suicide: a randomized clinical trial. JAMA Psychiatry 75:777-785 · PMID 29926087",
+    "Wasserman D et al. (2015). School-based suicide prevention programmes: the SEYLE cluster-randomised, controlled trial. Lancet 385:1536-1544 · PMID 25579833"
+   ]
+  },
+  "psicofarm_inf": {
+   "secAdd": [
+    {
+     "t": "Ensayos pediátricos de referencia",
+     "x": "Tres conjuntos de datos sostienen buena parte de la práctica. En el ensayo TADS (439 adolescentes de 12 a 17 años con depresión mayor, 12 semanas), la respuesta fue del 71,0 % con fluoxetina más TCC, del 60,6 % con fluoxetina sola, del 43,2 % con TCC sola y del 34,8 % con placebo; la ideación suicida clínicamente significativa (29 % al inicio) mejoró en los cuatro grupos, hubo siete intentos (1,6 %) y ningún suicidio (March 2004). El metaanálisis en red de Cipriani (2016; 34 ensayos, 5260 participantes, 14 antidepresivos) halló que solo la fluoxetina fue superior al placebo en eficacia (DME −0,51), con calidad de la evidencia muy baja en la mayoría de las comparaciones, y que imipramina, venlafaxina y duloxetina causaron más abandonos por efectos adversos. En el ensayo CAMS (488 niños, niñas y adolescentes de 7 a 17 años con ansiedad por separación, ansiedad generalizada o fobia social), la mejoría fue del 80,7 % con TCC más sertralina, del 59,7 % con TCC, del 54,9 % con sertralina y del 23,7 % con placebo, sin más ideación suicida con sertralina que con placebo (Walkup 2008). La sertralina no tiene indicación autorizada en España en los trastornos de ansiedad pediátricos distintos del TOC (véase el rasgo sobre su ficha técnica).",
+     "links": [
+      {
+       "ids": [
+        "fluoxetina",
+        "sertralina"
+       ],
+       "t": "fluoxetina y sertralina"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "suic_adol"
+       ],
+       "t": "depresión infantojuvenil y conducta suicida"
+      },
+      {
+       "ids": [
+        "farm_anx"
+       ],
+       "t": "farmacoterapia de la ansiedad"
+      }
+     ]
+    },
+    {
+     "t": "Riesgo cardiometabólico de los antipsicóticos en menores",
+     "x": "La población infantojuvenil parece especialmente vulnerable al aumento de peso. En la cohorte no aleatorizada SATIETY, con 272 jóvenes de 4 a 19 años sin exposición previa a antipsicóticos, tras una mediana de 10,8 semanas el peso aumentó 8,5 kg con olanzapina, 6,1 kg con quetiapina, 5,3 kg con risperidona y 4,4 kg con aripiprazol, frente a 0,2 kg en el pequeño grupo no tratado; olanzapina y quetiapina elevaron de forma significativa el colesterol total, los triglicéridos y el colesterol no HDL, risperidona los triglicéridos, y aripiprazol no produjo cambios metabólicos significativos (Correll 2009). Las limitaciones son la falta de aleatorización, el grupo de comparación de solo 15 pacientes y las pérdidas de seguimiento. En la práctica, esto refuerza tres principios ya recogidos en la ficha: reservar el antipsicótico a indicaciones claras, medir peso, perímetro abdominal, glucemia y lípidos antes de empezar y en las primeras semanas, y revisar periódicamente la necesidad de mantenerlo. La elección entre fármacos debe considerar el perfil metabólico junto con la indicación autorizada en ficha técnica y las guías [fuente no localizada para una pauta de monitorización pediátrica concreta].",
+     "links": [
+      {
+       "ids": [
+        "olanzapina",
+        "quetiapina",
+        "risperidona",
+        "aripiprazol"
+       ],
+       "t": "antipsicóticos estudiados"
+      },
+      {
+       "ids": [
+        "ap_atipicos",
+        "inmunometab_dep"
+       ],
+       "t": "antipsicóticos atípicos y riesgo metabólico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "March J et al. (2004). Fluoxetine, cognitive-behavioral therapy, and their combination for adolescents with depression: Treatment for Adolescents With Depression Study (TADS) randomized controlled trial. JAMA 292:807-820 · PMID 15315995",
+    "Cipriani A et al. (2016). Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis. Lancet 388:881-890 · PMID 27289172",
+    "Walkup JT et al. (2008). Cognitive behavioral therapy, sertraline, or a combination in childhood anxiety. N Engl J Med 359:2753-2766 · PMID 18974308",
+    "Correll CU et al. (2009). Cardiometabolic risk of second-generation antipsychotic medications during first-time use in children and adolescents. JAMA 302:1765-1773 · PMID 19861668"
+   ],
+   "relAdd": [
+    "sertralina",
+    "olanzapina",
+    "risperidona"
+   ]
+  },
+  "anx_perinatal": {
+   "secAdd": [
+    {
+     "t": "Repercusiones obstétricas y evidencia terapéutica",
+     "x": "La ansiedad prenatal no es inocua para el embarazo. En un metaanálisis de 29 estudios prospectivos, se asoció a más parto pretérmino (OR 1,54; IC 95 % 1,39-1,70; 16 estudios) y pretérmino espontáneo (OR 1,41), a menor peso al nacer (diferencia media −56 g) y más bajo peso (OR 1,80), a recién nacidos pequeños para la edad gestacional (OR 1,48) y a menor perímetro cefálico, sin asociación con preeclampsia, cesárea ni puntuación de Apgar; los autores advierten que se desconoce si tratar la ansiedad modifica estas asociaciones (Grigoriadis 2018). La base terapéutica específica es escasa: en una revisión sistemática de 78 estudios sobre el tratamiento de los trastornos depresivos, de ansiedad y relacionados con el trauma en el periodo perinatal, 73 se centraban en la depresión y solo 5 en la ansiedad o el trauma, con un único ensayo aleatorizado; la TCC y la psicoterapia interpersonal mostraron beneficio frente a control, sobre todo en depresión, y los ISRS fueron superiores al placebo pero no a un tratamiento activo como la TCC (Nillni 2018). Las recomendaciones para la ansiedad perinatal se extrapolan, por tanto, en buena parte de la evidencia en depresión perinatal y en ansiedad fuera del embarazo.",
+     "links": [
+      {
+       "ids": [
+        "prematuridad",
+        "compl_obst"
+       ],
+       "t": "prematuridad y complicaciones obstétricas"
+      },
+      {
+       "ids": [
+        "farm_anx",
+        "dep_embarazo"
+       ],
+       "t": "farmacoterapia y depresión en el embarazo"
+      },
+      {
+       "ids": [
+        "emb_peri"
+       ],
+       "t": "marco perinatal"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Grigoriadis S et al. (2018). Maternal anxiety during pregnancy and the association with adverse perinatal outcomes: systematic review and meta-analysis. J Clin Psychiatry 79:17r12011 · PMID 30192449",
+    "Nillni YI et al. (2018). Treatment of depression, anxiety, and trauma-related disorders during the perinatal period: a systematic review. Clin Psychol Rev 66:136-148 · PMID 29935979"
+   ],
+   "relAdd": [
+    "prematuridad"
+   ]
+  },
+  "susto": {
+   "secAdd": [
+    {
+     "t": "Variación regional y estatus nosológico",
+     "x": "Las descripciones antropológicas clásicas del susto procedían sobre todo de comunidades indígenas y tenían varias décadas. Un estudio comparativo con población mestiza o ladina de Guatemala, México y el sur de Texas, que combinó entrevistas abiertas a informantes clave y entrevistas estructuradas a muestras representativas, halló bastante coherencia entre regiones en lo que se considera que es el susto, sus causas, sus síntomas y su tratamiento, con variaciones regionales notables en los remedios y una diferencia entre las descripciones antiguas y las actuales en cuanto a la etiología atribuida (Weller 2002). Este hallazgo apoya tratarlo como un concepto cultural compartido y no como una rareza local, pero también advierte contra trasladar sin más las descripciones antiguas a quien consulta hoy. El susto figuró en el DSM-IV como «síndrome ligado a la cultura» (Weller 2002); el DSM-5-TR lo reformula como concepto cultural de malestar y lo aborda mediante la formulación cultural, sin criterios diagnósticos propios. La CIE-11 no le asigna una categoría [fuente oficial no localizada]. En la práctica, conviene preguntar a la persona qué entiende por susto en su comunidad de origen en lugar de presuponer un significado único.",
+     "links": [
+      {
+       "ids": [
+        "cult_bound",
+        "idiomas_malestar"
+       ],
+       "t": "conceptos culturales del malestar"
+      },
+      {
+       "ids": [
+        "sanadores_trad"
+       ],
+       "t": "remedios y sanación tradicional"
+      },
+      {
+       "ids": [
+        "nervios_idioma",
+        "ataque_nervios"
+       ],
+       "t": "nervios y ataque de nervios"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Weller SC et al. (2002). Regional variation in Latino descriptions of susto. Cult Med Psychiatry 26:449-472 · PMID 12572769"
+   ]
+  },
+  "refugio_tept": {
+   "secAdd": [
+    {
+     "t": "Intervenciones con evidencia",
+     "x": "Las intervenciones psicosociales son eficaces en personas refugiadas y solicitantes de asilo con malestar psicológico. En un metaanálisis de 26 ensayos aleatorizados (1959 participantes, adultos y menores), redujeron los síntomas de TEPT (DME −0,71; 20 estudios), de depresión (DME −1,02) y de ansiedad (DME −1,05) frente a la atención habitual, la lista de espera o el placebo psicológico, con evidencia de calidad moderada, heterogeneidad alta y mantenimiento del efecto a un mes o más pese a la persistencia de estresores posmigratorios; la mayor parte de la evidencia correspondía a terapias cognitivo-conductuales con un componente centrado en el trauma (Turrini 2019). Las limitaciones son el número reducido de ensayos y de participantes y la escasez de datos sobre funcionamiento y calidad de vida. Los autores concluyen que estas intervenciones deben ofrecerse de forma sistemática en la atención sanitaria de esta población. La elección concreta entre TCC centrada en el trauma, EMDR o terapia de exposición narrativa sigue las guías generales del TEPT, con adaptación cultural e intérprete profesional [fuente no localizada para la adaptación cultural como modificador del efecto].",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "emdr_proc"
+       ],
+       "t": "TEPT y EMDR"
+      },
+      {
+       "ids": [
+        "interprete_clinico",
+        "cfi"
+       ],
+       "t": "intérprete y formulación cultural"
+      }
+     ]
+    },
+    {
+     "t": "Estresores posmigratorios y detención",
+     "x": "Además del trauma previo a la migración, el entorno de acogida influye en la evolución. Una revisión de la literatura concluye que los factores socioeconómicos, sociales e interpersonales, así como los relacionados con el procedimiento de asilo y la política migratoria, afectan al funcionamiento psicológico de las personas refugiadas y solicitantes de asilo (Li 2016). La detención administrativa es el caso más estudiado: en una revisión sistemática de diez estudios con personas adultas, menores y adolescentes detenidos por motivos migratorios, todos hallaron niveles elevados de problemas de salud mental —ansiedad, depresión, TEPT, autolesiones e ideación suicida—, la duración de la detención se asoció a mayor gravedad del malestar y, aunque hubo una mejoría inicial tras la liberación, el impacto negativo persistió en los estudios longitudinales; los autores señalan limitaciones metodológicas, pero sugieren un efecto adverso independiente de la detención (Robjant 2009). Para la clínica y la pericia, esto obliga a registrar las condiciones de acogida y de detención como factores de mantenimiento, y a no atribuir automáticamente toda la sintomatología al trauma previo.",
+     "links": [
+      {
+       "ids": [
+        "estres_acultur",
+        "duelo_migra_ulises"
+       ],
+       "t": "estrés de aculturación y duelo migratorio"
+      },
+      {
+       "ids": [
+        "determ_soc_sm",
+        "context"
+       ],
+       "t": "determinantes sociales"
+      },
+      {
+       "ids": [
+        "protocolo_estambul"
+       ],
+       "t": "documentación pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Turrini G et al. (2019). Efficacy and acceptability of psychosocial interventions in asylum seekers and refugees: systematic review and meta-analysis. Epidemiol Psychiatr Sci 28:376-388 · PMID 30739625",
+    "Li SSY, Liddell BJ & Nickerson A (2016). The relationship between post-migration stress and psychological disorders in refugees and asylum seekers. Curr Psychiatry Rep 18:82 · PMID 27436307",
+    "Robjant K, Hassan R & Katona C (2009). Mental health implications of detaining asylum seekers: systematic review. Br J Psychiatry 194:306-312 · PMID 19336779"
+   ],
+   "relAdd": [
+    "emdr_proc"
+   ]
+  },
+  "olanzapina": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción y perfil receptorial",
+     "x": "En estudios de unión a receptores en tejido de rata y en células con receptores humanos, la olanzapina mostró alta afinidad por los receptores dopaminérgicos D1, D2 y D4, serotoninérgicos 5-HT2A, 5-HT2C y 5-HT3, alfa-1 adrenérgicos, histamínicos H1 y los cinco subtipos muscarínicos, y afinidad menor por los alfa-2 adrenérgicos, los 5-HT1, el GABA-A, los beta-adrenérgicos y los sitios de las benzodiacepinas; su perfil fue comparable al de la clozapina y claramente distinto del de haloperidol, risperidona o quetiapina (Bymaster 1996). Esta multiplicidad de dianas permite relacionar, de forma orientativa, el antagonismo D2 con el efecto antipsicótico y la hiperprolactinemia, el bloqueo H1 con la sedación y el aumento del apetito, el muscarínico con el estreñimiento, la sequedad de boca y el riesgo anticolinérgico en personas mayores, y el alfa-1 con la hipotensión ortostática [fuente no localizada para la correspondencia receptor-efecto en humanos]. La hipótesis alternativa de Kapur y Seeman, que atribuye la atipicidad a una disociación rápida del receptor D2 más que a la afinidad 5-HT2A, se formuló para el conjunto de los antipsicóticos atípicos (Kapur 2001; véase la ficha de antipsicóticos de segunda y tercera generación).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "antagonismo D2 y 5-HT2A"
+      },
+      {
+       "ids": [
+        "clozapina"
+       ],
+       "t": "clozapina, perfil receptorial afín"
+      },
+      {
+       "ids": [
+        "apetito_sx",
+        "hiperprl_ap"
+       ],
+       "t": "apetito y prolactina"
+      }
+     ]
+    },
+    {
+     "t": "Eficacia comparada",
+     "x": "En el metaanálisis de Leucht (2009; 150 ensayos doble ciego, 21 533 participantes), la olanzapina fue uno de los cuatro antipsicóticos de segunda generación superiores a los de primera generación en eficacia global, con un tamaño de efecto pequeño (−0,28; IC 95 % −0,38 a −0,18), junto con clozapina, amisulprida y risperidona. En el ensayo pragmático CATIE (1493 personas con esquizofrenia crónica, hasta 18 meses), el 74 % abandonó la medicación asignada; la tasa fue del 64 % con olanzapina, frente al 75 % con perfenazina, el 82 % con quetiapina, el 74 % con risperidona y el 79 % con ziprasidona, y el tiempo hasta el abandono fue significativamente mayor con olanzapina que con quetiapina o risperidona; a cambio, la olanzapina se asoció a más abandonos por aumento de peso o efectos metabólicos y a mayores incrementos de peso, glucosa y lípidos (Lieberman 2005). Estos datos explican su posición: ventaja modesta de eficacia y de permanencia en tratamiento frente a un coste metabólico que pesa más cuanto más joven es la persona y más largo el tratamiento previsto.",
+     "links": [
+      {
+       "ids": [
+        "ap_atipicos",
+        "ap_tipicos"
+       ],
+       "t": "segunda frente a primera generación"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "amisulprida",
+        "risperidona",
+        "quetiapina",
+        "ziprasidona"
+       ],
+       "t": "comparadores"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bymaster FP et al. (1996). Radioreceptor binding profile of the atypical antipsychotic olanzapine. Neuropsychopharmacology 14:87-96 · PMID 8822531",
+    "Kapur S & Seeman P (2001). Does fast dissociation from the dopamine D2 receptor explain the action of atypical antipsychotics?: a new hypothesis. Am J Psychiatry 158:360-369 · PMID 11229973",
+    "Leucht S et al. (2009). Second-generation versus first-generation antipsychotic drugs for schizophrenia: a meta-analysis. Lancet 373:31-41 · PMID 19058842",
+    "Lieberman JA et al. (2005). Effectiveness of antipsychotic drugs in patients with chronic schizophrenia. N Engl J Med 353:1209-1223 · PMID 16172203"
+   ],
+   "relAdd": [
+    "hiperprl_ap",
+    "ap_tipicos"
+   ]
+  },
+  "ap_atipicos": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción: qué define la atipicidad",
+     "x": "Se han propuesto dos explicaciones principales de la atipicidad, entendida como efecto antipsicótico con menos efectos extrapiramidales. La hipótesis multirreceptorial atribuye el perfil al antagonismo 5-HT2A combinado con un antagonismo D2 más débil [fuente no localizada para la formulación original de Meltzer]. Kapur y Seeman (2001) revisaron datos moleculares, animales, de neuroimagen y clínicos y propusieron otra: la ocupación D2 óptima basta para el efecto antipsicótico atípico, la ausencia de efectos motores depende de una ocupación D2 baja y no de una ocupación 5-HT2 alta, y si la ocupación D2 es excesiva la atipicidad se pierde aunque la ocupación 5-HT2 sea alta; el mejor predictor in vitro de atipicidad fue la disociación rápida del receptor D2, que haría al fármaco más tolerante con la transmisión dopaminérgica fisiológica. Los agonistas parciales D2/D3 (aripiprazol, brexpiprazol, cariprazina) siguen otro principio: estabilizar la señal dopaminérgica en lugar de bloquearla por completo [fuente no localizada]. Ninguna hipótesis explica por sí sola las diferencias metabólicas, que dependen sobre todo de otras dianas como los receptores H1 y 5-HT2C [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "antagonismo D2 y 5-HT2A"
+      },
+      {
+       "ids": [
+        "aripiprazol",
+        "brexpiprazol",
+        "cariprazina"
+       ],
+       "t": "agonistas parciales"
+      },
+      {
+       "ids": [
+        "dopa_hyp"
+       ],
+       "t": "hipótesis dopaminérgica"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia y controversias: ¿una clase homogénea?",
+     "x": "La etiqueta «segunda generación» agrupa fármacos muy distintos. En el metaanálisis de Leucht (2009; 150 ensayos doble ciego, 21 533 participantes), solo cuatro fueron más eficaces que los de primera generación en eficacia global, con efectos pequeños o moderados (clozapina −0,52, amisulprida −0,31, olanzapina −0,28 y risperidona −0,13); los demás no lo fueron, ni siquiera en síntomas negativos, por lo que la eficacia sobre estos no puede considerarse un componente nuclear de la atipicidad. Todos produjeron menos efectos extrapiramidales que el haloperidol, pero pocos menos que los antipsicóticos típicos de baja potencia, y casi todos, salvo aripiprazol y ziprasidona, más aumento de peso que el haloperidol. Los ensayos pragmáticos matizaron la ventaja: en CATIE, la perfenazina mostró una eficacia similar a la de quetiapina, risperidona y ziprasidona (Lieberman 2005), y en CUtLASS 1 (227 personas que necesitaban cambiar de tratamiento) los de segunda generación distintos de la clozapina no mejoraron la calidad de vida a un año frente a los de primera generación, con costes similares (Jones 2006). La conclusión es elegir fármaco a fármaco según eficacia, efectos adversos y preferencias, no por generación.",
+     "links": [
+      {
+       "ids": [
+        "ap_tipicos"
+       ],
+       "t": "antipsicóticos de primera generación"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "olanzapina",
+        "amisulprida",
+        "risperidona"
+       ],
+       "t": "fármacos con ventaja de eficacia"
+      },
+      {
+       "ids": [
+        "escalas_motor"
+       ],
+       "t": "efectos extrapiramidales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kapur S & Seeman P (2001). Does fast dissociation from the dopamine D2 receptor explain the action of atypical antipsychotics?: a new hypothesis. Am J Psychiatry 158:360-369 · PMID 11229973",
+    "Leucht S et al. (2009). Second-generation versus first-generation antipsychotic drugs for schizophrenia: a meta-analysis. Lancet 373:31-41 · PMID 19058842",
+    "Lieberman JA et al. (2005). Effectiveness of antipsychotic drugs in patients with chronic schizophrenia. N Engl J Med 353:1209-1223 · PMID 16172203",
+    "Jones PB et al. (2006). Randomized controlled trial of the effect on quality of life of second- vs first-generation antipsychotic drugs in schizophrenia: Cost Utility of the Latest Antipsychotic Drugs in Schizophrenia Study (CUtLASS 1). Arch Gen Psychiatry 63:1079-1087 · PMID 17015810"
+   ]
+  },
+  "dos_procesos": {
+   "secAdd": [
+    {
+     "t": "Evidencia experimental",
+     "x": "Dos líneas de investigación posteriores al modelo dieron contenido empírico a sus procesos. Sobre el proceso S, la microdiálisis en gatos en libertad de movimiento mostró que la concentración extracelular de adenosina en el prosencéfalo basal colinérgico aumentaba durante la vigilia espontánea frente al sueño de ondas lentas, crecía de forma progresiva con la vigilia prolongada y descendía lentamente durante el sueño de recuperación; además, elevarla localmente con un inhibidor de su transporte reprodujo el patrón de sueño posterior a la vigilia prolongada, lo que la propone como mediador del efecto somnógeno de la vigilia (Porkka-Heiskanen 1997). Sobre la interacción de S y C, el protocolo de desincronización forzada (ocho varones durante 33 a 36 días sin claves temporales, con un ciclo de reposo-actividad de 28 horas) permitió separar ambos componentes: la actividad de ondas lentas disminuyó a lo largo de cada episodio de sueño con apenas modulación circadiana, mientras que el sueño REM y la actividad de husos mostraron ritmos circadianos marcados; la interacción no aditiva de ambos procesos favorece, en condiciones de sincronización, la consolidación del sueño y de la vigilia (Dijk y Czeisler 1995). Son datos de experimentación animal y de muestras humanas pequeñas, coherentes con el modelo pero no exclusivos de él.",
+     "links": [
+      {
+       "ids": [
+        "circad",
+        "circ_sueno"
+       ],
+       "t": "sistema circadiano y sus trastornos"
+      },
+      {
+       "ids": [
+        "priv_sueno",
+        "insom"
+       ],
+       "t": "privación de sueño e insomnio"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Porkka-Heiskanen T et al. (1997). Adenosine: a mediator of the sleep-inducing effects of prolonged wakefulness. Science 276:1265-1268 · PMID 9157887",
+    "Dijk DJ & Czeisler CA (1995). Contribution of the circadian pacemaker and the sleep homeostat to sleep propensity, sleep structure, electroencephalographic slow waves, and sleep spindle activity in humans. J Neurosci 15:3526-3538 · PMID 7751928"
+   ],
+   "relAdd": [
+    "circ_sueno"
+   ]
+  },
+  "neuroadapt_sed": {
+   "secAdd": [
+    {
+     "t": "Correlatos clínicos en humanos",
+     "x": "La traducción clínica del kindling procede sobre todo del alcohol. En 6818 varones ingresados para desintoxicación en 172 centros de veteranos de Estados Unidos, quienes presentaron convulsiones o problemas graves de abstinencia tenían más desintoxicaciones y hospitalizaciones previas relacionadas con el alcohol; quienes los habían tenido en el episodio índice tendieron a repetirlos en el reingreso, y los autores sugieren considerar tratamiento anticonvulsivo en personas con muchas desintoxicaciones previas (Booth y Blow 1993). En el GHB/GBL, la neuroadaptación rápida tiene una consecuencia práctica: en un estudio observacional multicéntrico neerlandés con 229 pacientes dependientes (274 ingresos), la desintoxicación mediante titulación y retirada gradual con GHB farmacéutico se completó con éxito en el 85 % de los casos, redujo los síntomas de abstinencia y el craving, y tuvo como complicaciones principales hipertensión y ansiedad; sin embargo, el 69 % recayó en los tres meses siguientes (Dijkstra 2017). El estudio no fue aleatorizado ni comparativo con benzodiacepinas, que siguen siendo la opción habitual. La alta tasa de recaída recuerda que la desintoxicación aborda la neuroadaptación, no la dependencia.",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "kindling"
+       ],
+       "t": "abstinencia alcohólica y kindling"
+      },
+      {
+       "ids": [
+        "ghb_abst",
+        "ghb_gbl"
+       ],
+       "t": "abstinencia de GHB/GBL"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Booth BM & Blow FC (1993). The kindling hypothesis: further evidence from a U.S. national study of alcoholic men. Alcohol Alcohol 28:593-598 · PMID 8274184",
+    "Dijkstra BAG et al. (2017). Detoxification with titration and tapering in gamma-hydroxybutyrate (GHB) dependent patients: the Dutch GHB monitor project. Drug Alcohol Depend 170:164-173 · PMID 27923198"
+   ],
+   "relAdd": [
+    "chemsex_s"
+   ]
+  },
+  "habito_dirigido": {
+   "secAdd": [
+    {
+     "t": "Paradigmas experimentales y hallazgos de neuroimagen",
+     "x": "La distinción entre ambos sistemas se mide con tareas de laboratorio. La tarea de decisión en varios pasos de Daw et al. (2011) permitió separar en la elección humana las influencias basadas en modelo y libres de modelo; contra lo esperado, la señal BOLD del estriado ventral reflejó ambas en la misma proporción que explicaba la conducta, lo que cuestiona la idea de un aprendiz libre de modelo independiente y apunta a una arquitectura más integrada. En el TOC, un paradigma de evitación de descargas eléctricas con resonancia funcional (37 pacientes y 33 controles) mostró una formación excesiva de hábitos de evitación —respuestas que persistían al retirar la amenaza—, asociada a hiperactivación del caudado, que también se relacionó con la urgencia subjetiva de realizar el hábito; los autores interpretan que el sesgo hacia el hábito deriva de un fallo del sistema dirigido a objetivos más que de una acumulación anómala de asociaciones estímulo-respuesta (Gillan 2015). Este hallazgo enlaza el modelo con la clínica de la exposición con prevención de respuesta: la evitación, una vez automatizada, se mantiene aunque la amenaza haya desaparecido [fuente no localizada para la vinculación terapéutica].",
+     "links": [
+      {
+       "ids": [
+        "toc_neuro",
+        "toc_dsm"
+       ],
+       "t": "TOC y su circuito"
+      },
+      {
+       "ids": [
+        "epr"
+       ],
+       "t": "exposición con prevención de respuesta"
+      },
+      {
+       "ids": [
+        "recompensa"
+       ],
+       "t": "sistema de recompensa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Daw ND et al. (2011). Model-based influences on humans' choices and striatal prediction errors. Neuron 69:1204-1215 · PMID 21435563",
+    "Gillan CM et al. (2015). Functional neuroimaging of avoidance habits in obsessive-compulsive disorder. Am J Psychiatry 172:284-293 · PMID 25526600"
+   ],
+   "relAdd": [
+    "epr"
+   ]
+  },
+  "carga_alostatica": {
+   "secAdd": [
+    {
+     "t": "Adversidad temprana y medición",
+     "x": "El modelo se ha usado para explicar cómo la adversidad infantil «se mete bajo la piel». Una revisión recoge que los niños y niñas expuestos a maltrato muestran menor volumen de la corteza prefrontal, mayor activación del eje hipotálamo-hipófisis-adrenal y niveles más altos de inflamación que quienes no lo sufrieron, y que en personas adultas con antecedentes de maltrato se observan además menor volumen hipocampal; los autores proponen que la activación crónica de estos sistemas conduce a carga y sobrecarga alostática con efectos a largo plazo sobre el envejecimiento biológico, aunque advierten de los límites de inferir trayectorias a partir de estudios transversales (Danese y McEwen 2012). En cuanto a la medición, otra revisión describe índices que integran marcadores neuroendocrinos, inmunitarios, metabólicos y cardiovasculares y que, en numerosos estudios, predicen morbilidad y mortalidad más allá de los métodos biomédicos tradicionales; identifica factores de riesgo y de protección y propone políticas de envejecimiento saludable (Juster 2010). La traducción práctica sigue siendo poblacional: la adversidad temprana debe recogerse en la historia clínica como factor de riesgo somático y psiquiátrico, sin que un índice concreto permita decisiones individuales.",
+     "links": [
+      {
+       "ids": [
+        "stress",
+        "maltrato_inf"
+       ],
+       "t": "adversidad infantil y maltrato"
+      },
+      {
+       "ids": [
+        "hha_dep",
+        "inflam"
+       ],
+       "t": "eje HHA e inflamación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Danese A & McEwen BS (2012). Adverse childhood experiences, allostasis, allostatic load, and age-related disease. Physiol Behav 106:29-39 · PMID 21888923",
+    "Juster RP, McEwen BS & Lupien SJ (2010). Allostatic load biomarkers of chronic stress and impact on health and cognition. Neurosci Biobehav Rev 35:2-16 · PMID 19822172"
+   ],
+   "relAdd": [
+    "maltrato_inf"
+   ]
+  },
+  "edad_relativa_tdah": {
+   "secAdd": [
+    {
+     "t": "Evidencia internacional y hallazgos discordantes",
+     "x": "Una revisión sistemática de 19 estudios en 13 países (más de 15,4 millones de niños y niñas) halló el efecto en 17 de ellos; solo dos estudios daneses encontraron un efecto débil o nulo, que los autores atribuyen a la práctica frecuente de retrasar el inicio escolar de quienes parecen inmaduros. No hubo relación consistente entre las tasas de diagnóstico o prescripción de cada país y la intensidad del efecto, que fue fuerte en la mayoría de los territorios con tasas bajas, lo que cuestiona que una prevalencia baja garantice un diagnóstico preciso (Whitely 2019). Un estudio sueco ilustra la discordancia entre registros y síntomas: en Suecia (con un diseño en el que los nacidos en noviembre o diciembre son los más jóvenes de su curso), el diagnóstico y el tratamiento fueron más frecuentes en nacidos en noviembre o diciembre que en enero o febrero, con un máximo a los 6 años (OR 1,8) para el diagnóstico y a los 7 (OR 1,6) para la medicación, pero en dos cohortes de gemelos no hubo diferencias por mes de nacimiento en los síntomas informados por los progenitores a los 9 años ni en los autoinformados en la edad adulta (Halldner 2014). Este resultado difiere del de Caye (2020), que sí halló más síntomas en los más jóvenes, y deja abierta la proporción del efecto que corresponde a sesgo de evaluación frente a dificultades reales.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "retraso_madur_tdah"
+       ],
+       "t": "TDAH y retraso madurativo"
+      },
+      {
+       "ids": [
+        "metilfenidato"
+       ],
+       "t": "tratamiento farmacológico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Whitely M et al. (2019). Attention deficit hyperactivity disorder late birthdate effect common in both high and low prescribing international jurisdictions: a systematic review. J Child Psychol Psychiatry 60:380-391 · PMID 30317644",
+    "Halldner L et al. (2014). Relative immaturity and ADHD: findings from nationwide registers, parent- and self-reports. J Child Psychol Psychiatry 55:897-904 · PMID 24673585"
+   ]
+  },
+  "ep_depmay": {
+   "set": {
+    "tx": "Depende del trastorno de base, que debe establecerse antes de tratar (unipolar, bipolar, inducido o secundario a enfermedad médica). Trastorno depresivo mayor: decisión compartida entre psicoterapias estructuradas (TCC, activación conductual, psicoterapia interpersonal) y antidepresivos según gravedad, preferencias y respuesta previa, sin antidepresivos rutinarios de primera línea en la depresión menos grave (NICE NG222; CANMAT 2023); TEC en formas graves, psicóticas o con riesgo vital. Trastorno bipolar: antidepresivos solo como adyuvantes de un estabilizador y según las guías específicas (Pacchiarotti 2013). Fases de continuación y mantenimiento con revisión periódica, retirada gradual y vigilancia del riesgo suicida y del viraje. Sin dosis individualizadas."
+   }
+  },
+  "locu_circ": {
+   "featsAdd": [
+    "Frente a la creencia entonces extendida en una alienación mental única con manifestaciones diversas, Falret sostuvo que existían entidades morbosas separadas, distinguibles por su expresión sindrómica y su evolución, y consideraba la folie circulaire, junto con la parálisis general, la única enfermedad mental verdadera identificada hasta entonces; recuperó su autonomía en 1966 con Angst y Perris (Pichot 2004)"
+   ]
+  },
+  "wahnstimm": {
+   "featsAdd": [
+    "Lectura fenomenológica de Fuchs (2005): el humor delirante sería una parálisis del componente intencional o «gnóstico» de la percepción que libera sus cualidades fisonómicas y expresivas (componente «pático»), de modo que la constitución intersubjetiva de la realidad cede ante significados idiosincrásicos que desembocan en la percepción delirante"
+   ]
+  },
+  "terapesq": {
+   "featsAdd": [
+    "Formato grupal añadido a la psicoterapia individual habitual: en un ensayo con 32 pacientes con TLP, 30 sesiones de grupo durante ocho meses no tuvieron abandonos (25 % con tratamiento habitual) y, al final, el 94 % frente al 16 % ya no cumplía criterios de TLP; muestra pequeña (Farrell 2009)"
+   ],
+   "refsAdd": [
+    "Farrell JM, Shaw IA & Webber MA (2009). A schema-focused approach to group psychotherapy for outpatients with borderline personality disorder: a randomized controlled trial. J Behav Ther Exp Psychiatry 40:317-328 · PMID 19176222"
+   ]
+  },
+  "raft": {
+   "featsAdd": [
+    "En la revisión sistemática de Marwaha (2014; 37 estudios), las 24 medidas de inestabilidad afectiva identificadas evalúan cuatro facetas —oscilación, intensidad, capacidad de regulación y cambio afectivo desencadenado por el entorno, esta última la más próxima a la reactividad—, y ningún instrumento las cubre todas"
+   ]
+  },
+  "delirio_magnan": {
+   "featsAdd": [
+    "Entre las décadas de 1880 y 1930 la escuela francesa desarrolló categorías propias, apartadas de las clasificaciones internacionales (bouffée délirante y delirios crónicos), y la psiquiatría francesa actual tiende a converger con el DSM-5 y la CIE-11 (Crocq 2015)"
+   ]
+  },
+  "ace_ranzcp": {
+   "featsAdd": [
+    "Justificación de partida: los autores atribuyen el tratamiento subóptimo de los trastornos del ánimo, en parte, a la falta de especificidad de los diagnósticos actuales, y proponen caracterizar a cada paciente desde varias perspectivas igualmente importantes para ganar especificidad terapéutica (Malhi 2018)"
+   ]
+  }
+ },
+ "add": []
+}

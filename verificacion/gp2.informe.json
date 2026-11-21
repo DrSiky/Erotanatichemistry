@@ -1,0 +1,124 @@
+{
+ "pmid_comprobados": 43,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "dmko",
+   "gravedad": "menor",
+   "antes": "Acatisia: inquietud motora subjetiva y objetiva ligada al inicio o aumento de un antipsicótico, un ISRS u otro fármaco, con predominio de la necesidad de moverse sobre la tensión interna y el pensamiento atropellado.",
+   "despues": "Acatisia: inquietud motora subjetiva y objetiva ligada al inicio o aumento de un antipsicótico, un ISRS u otro fármaco, con predominio de la necesidad de moverse sobre la tensión interna y el pensamiento atropellado [fuente no localizada].",
+   "fuente": "Afirmación clínica sin referencia: se marca"
+  },
+  {
+   "id": "dmko",
+   "gravedad": "mayor",
+   "antes": "en la serie de 1026 pacientes con episodio depresivo índice del Centro Lucio Bini, un tercio (346) presentaba depresión mixta y en 173 casos su comienzo se asoció a antidepresivos (Koukopoulos 2007).",
+   "despues": "en la revisión retrospectiva del Centro Lucio Bini (1026 pacientes con episodio depresivo índice), 346 (33 %) presentaban depresión mixta y, según el resumen, en 173 su comienzo se asoció a antidepresivos; las cifras del resumen no son internamente coherentes (138 casos espontáneos presentados como el 44 %, y 138 + 173 no suman 346), y son solo orientativas (Koukopoulos 2007).",
+   "fuente": "PMID 17280571: resumen con cifras incoherentes (346 = 33 %; 138 = '44 %'; 173 asociadas a AD); se explicita la incoherencia y el diseño retrospectivo"
+  },
+  {
+   "id": "dmko",
+   "gravedad": "menor",
+   "antes": "Depresión ansiosa o trastorno de ansiedad generalizada comórbido: la ansiedad no se acompaña de aceleración del pensamiento, locuacidad ni ausencia de inhibición.",
+   "despues": "Depresión ansiosa o trastorno de ansiedad generalizada comórbido: la ansiedad no se acompaña de aceleración del pensamiento, locuacidad ni ausencia de inhibición [fuente no localizada].",
+   "fuente": "Afirmación clínica sin referencia: se marca"
+  },
+  {
+   "id": "dmko",
+   "gravedad": "mayor",
+   "antes": "El especificador «con características mixtas» del DSM-5 excluye la irritabilidad, la agitación psicomotora y la distraibilidad por solaparse con la depresión, mientras que Koukopoulos las sitúa en el núcleo (Koukopoulos 2013).",
+   "despues": "El especificador «con características mixtas» del DSM-5 excluye la irritabilidad, la agitación psicomotora y la distraibilidad por solaparse con la depresión, mientras que los criterios de Koukopoulos sitúan la agitación, la irritabilidad y la labilidad afectiva en el núcleo (Sani 2014; Koukopoulos 2013).",
+   "fuente": "PMID 24856547 (Sani 2014): 'Koukopoulos' broad criteria include agitation, irritability and mood lability as core features'; la distraibilidad no es criterio nuclear de Koukopoulos; PMID 23818531 es un editorial sin ese detalle"
+  },
+  {
+   "id": "suic_adol",
+   "gravedad": "menor",
+   "antes": "comparó tres programas con un grupo control: solo el programa",
+   "despues": "comparó tres programas con un grupo control, excluyendo del análisis a quienes ya tenían intentos previos o ideación grave basal: solo el programa",
+   "fuente": "PMID 25579833: el análisis excluyó a alumnado con intento previo o ideación grave en las 2 semanas previas"
+  },
+  {
+   "id": "psicofarm_inf",
+   "gravedad": "menor",
+   "antes": "La sertralina no tiene indicación autorizada en España en los trastornos de ansiedad pediátricos distintos del TOC (véase el rasgo sobre su ficha técnica).",
+   "despues": "En España, la ficha técnica de Besitran (sertralina), apartado 4.4, establece que «sertralina no debe utilizarse en el tratamiento de niños y adolescentes menores de 18 años, excepto en los pacientes de 6 a 17 años con trastorno obsesivo compulsivo», de modo que su uso en los trastornos de ansiedad de CAMS es fuera de indicación (AEMPS-CIMA, consultada el 21-11-2026).",
+   "fuente": "CIMA, ficha técnica Besitran 50 mg (n.º registro 59717), apartados 4.1 y 4.4, consultada 21-11-2026: texto literal"
+  },
+  {
+   "id": "psicofarm_inf",
+   "gravedad": "menor",
+   "antes": "link ap_atipicos+inmunometab_dep «antipsicóticos atípicos y riesgo metabólico»",
+   "despues": "link ap_atipicos «antipsicóticos atípicos» (inmunometab_dep trata de depresión inmunometabólica, no del riesgo de antipsicóticos en menores)",
+   "fuente": "node tools/q.js show inmunometab_dep"
+  },
+  {
+   "id": "neuroadapt_sed",
+   "gravedad": "menor",
+   "antes": "en un estudio observacional multicéntrico neerlandés con 229 pacientes dependientes (274 ingresos)",
+   "despues": "en un estudio observacional multicéntrico en seis centros neerlandeses con 229 pacientes dependientes (274 ingresos)",
+   "fuente": "PMID 27923198"
+  },
+  {
+   "id": "neuroadapt_sed",
+   "gravedad": "menor",
+   "antes": "El estudio no fue aleatorizado ni comparativo con benzodiacepinas, que siguen siendo la opción habitual.",
+   "despues": "El estudio no fue aleatorizado ni comparativo con benzodiacepinas, que los propios autores describen como agentes considerados generalmente de primera elección a partir de series de casos (Dijkstra 2017).",
+   "fuente": "PMID 27923198: 'Based on case reports, benzodiazepines are generally regarded as first-choice agents'"
+  },
+  {
+   "id": "ap_atipicos",
+   "gravedad": "menor",
+   "antes": "y casi todos, salvo aripiprazol y ziprasidona, más aumento de peso que el haloperidol.",
+   "despues": "y casi todos, salvo aripiprazol y ziprasidona, más aumento de peso que el haloperidol, aunque no más que los de baja potencia.",
+   "fuente": "PMID 19058842"
+  },
+  {
+   "id": "ap_atipicos",
+   "gravedad": "menor",
+   "antes": "los de segunda generación distintos de la clozapina no mejoraron la calidad de vida a un año frente a los de primera generación, con costes similares (Jones 2006).",
+   "despues": "los de segunda generación distintos de la clozapina no mejoraron la calidad de vida a un año frente a los de primera generación, con una tendencia a favor de estos y costes similares (Jones 2006).",
+   "fuente": "PMID 17015810"
+  },
+  {
+   "id": "edad_relativa_tdah",
+   "gravedad": "menor",
+   "antes": "en Suecia (con un diseño en el que los nacidos en noviembre o diciembre son los más jóvenes de su curso), el diagnóstico",
+   "despues": "en los registros nacionales suecos, donde el estudio toma a los nacidos en noviembre o diciembre como los relativamente más inmaduros, el diagnóstico",
+   "fuente": "PMID 24673585: la comparación es noviembre-diciembre frente a enero-febrero; el resumen no describe el sistema escolar"
+  },
+  {
+   "id": "habito_dirigido",
+   "gravedad": "mayor",
+   "antes": "Sección «Implicaciones clínicas»: enlace tcs rotulado «conducta sexual compulsiva»",
+   "despues": "secReplace con texto idéntico; enlace hipser (T. de conducta sexual compulsiva, CIE-11 6C72) rotulado «conducta sexual compulsiva» y tcs reubicado como «adicciones (trastornos por consumo de sustancias)»; relAdd hipser",
+   "fuente": "node tools/q.js find 'sexual compuls|hipersex' → hipser; tcs = Trastornos por consumo de sustancias"
+  },
+  {
+   "id": "ep_depmay",
+   "gravedad": "menor",
+   "antes": "…(NICE NG222; CANMAT 2023); TEC en formas graves, psicóticas o con riesgo vital.",
+   "despues": "…(NICE NG222; Lam 2024); TEC como opción … (UK ECT Review Group 2003) [fuente no localizada para la formulación literal de las guías]",
+   "fuente": "Referencias ya presentes en el nodo (Lam 2024 PMID 38711351; UK ECT Review Group PMID 12642045); NG222 no cotejada literalmente"
+  },
+  {
+   "id": "terapesq",
+   "gravedad": "menor",
+   "antes": "…muestra pequeña (Farrell 2009)",
+   "despues": "…muestra pequeña, a diferencia del gran ensayo multicéntrico en que el formato predominantemente grupal no superó al tratamiento habitual (Farrell 2009; Arntz 2022)",
+   "fuente": "PMID 19176222; coherencia con la sección «Indicaciones, límites y seguridad» del nodo (Arntz 2022)"
+  },
+  {
+   "id": "ace_ranzcp",
+   "gravedad": "menor",
+   "antes": "los autores atribuyen el tratamiento subóptimo …, en parte, a la falta de especificidad de los diagnósticos actuales",
+   "despues": "lo atribuyen sobre todo a la escasa comprensión de la fisiopatología y señalan la falta de especificidad diagnóstica como problema central",
+   "fuente": "PMID 30328224 (resumen)"
+  }
+ ],
+ "sin_resolver": [
+  "dmko: las cifras del resumen de Koukopoulos 2007 (PMID 17280571) son internamente incoherentes; sin acceso al texto completo no se puede saber cuál es la errata (138 frente a 44 %, o la suma 138 + 173 ≠ 346). Se citan como orientativas.",
+  "ep_depmay: la formulación de las indicaciones de TEC en NICE NG222 y CANMAT 2023 no se ha cotejado literalmente en el texto de las guías (marcada).",
+  "Fuera de alcance, observado: el campo tx de dmko afirma 'valproato 1ª línea por eficacia específica en disforia y agitación' sin referencia; convendría revisarlo.",
+  "olanzapina/ap_atipicos: no se añadió ningún dato atribuido a ficha técnica, por lo que no hubo nada que cotejar en CIMA en esos nodos."
+ ]
+}
