@@ -1,0 +1,199 @@
+{
+ "pmid_comprobados": 40,
+ "pmid_erroneos": 0,
+ "nota_pmid": "Los 40 PMID existen y coinciden en autor, año, revista, volumen y páginas (MEDLINE vía E-utilities). Atribuciones de contenido corregidas: Matar 2018 (RR de recaída con IC que cruza 1), Haddad 2004 (no trata sulpirida, QT ni eliminación renal), Huhn 2019 (precisión del dato de amisulprida y dato de sulpirida en síntomas depresivos), Peters 1994 («possibly» bajo potencial de abuso), Mula 2012 (lenguaje/fluidez verbal), Hong 2022 (ansiedad preoperatoria). Sin resumen: Reus 2018 (29301420), Keepers 2020 (32867516), Iglesias 2000 (11184770, carta).",
+ "cotejo_cima": "Literal cotejado en CIMA (HTML de fichas técnicas): Dogmatil Fuerte 48558 y Dogmatil inyectable 48557 (4.1-4.9, 5.1, 5.2; primera autorización 07/10/1969); Sulpirida Kern 73195, Ansium 53295 y Tepazepan 51519 (4.1); Tiaprizal 54279, 54263 y 54264 (4.1-4.9, 5.1, 5.2; autorización 22/09/1978; revisión septiembre 2023); Topamax 61873 (4.1, 4.3-4.6, 4.8, 5.1; revisión 03/2024) y materiales del PPE (febrero 2024; tarjeta marzo 2026); Neurontin 60621 (4.1, 4.3-4.6, 5.1, 5.2; revisión enero 2026). Flufenazina: sin registros en CIMA (principio activo y nombres, incluidos no autorizados). Nota AEMPS MUH(FV) 06/2023 (04/09/2023) leída en aemps.gob.es: coincide con lo atribuido.",
+ "cotejo_nice": "NICE CG100 (1.1.3.1, 1.1.4.1, 1.1.5.1), CG115 (1.3.6; sin menciones de topiramato ni gabapentina) y CG178 (1.3.5.1) leídos en nice.org.uk: confirmados y marcadores retirados.",
+ "cambios": [
+  {
+   "id": "sulpirida",
+   "gravedad": "menor",
+   "antes": "Es el precursor farmacológico de la amisulprida, con la que comparte",
+   "despues": "Comparte con la amisulprida, benzamida posterior,",
+   "fuente": "Sin fuente para «precursor farmacológico»; se reformula de forma neutra"
+  },
+  {
+   "id": "sulpirida",
+   "gravedad": "mayor",
+   "antes": "La idea clásica de una sulpirida «desinhibidora» o antidepresiva a dosis bajas y antipsicótica a dosis altas procede de la propia ficha (5.1), pero no de ensayos controlados",
+   "despues": "La distinción clásica entre dosis bajas eficaces sobre la sintomatología negativa y dosis altas eficaces sobre los síntomas positivos figura en la propia ficha (5.1), que no habla de efecto antidepresivo, pero no procede de ensayos controlados",
+   "fuente": "Ficha técnica Dogmatil Fuerte 48558, 5.1 (literal: 150-600 mg/día sobre sintomatología negativa; 600-1.600 mg/día sobre síntomas positivos; no menciona efecto «desinhibidor» ni antidepresivo)"
+  },
+  {
+   "id": "sulpirida",
+   "gravedad": "menor",
+   "antes": "y ambas se eliminan casi íntegramente por el riñón, por lo que comparten la necesidad de ajuste en la insuficiencia renal, el riesgo de prolongación del QT y una hiperprolactinemia marcada (Haddad y Wieck 2004).",
+   "despues": "y ambas se eliminan casi íntegramente por el riñón, por lo que comparten la necesidad de ajuste en la insuficiencia renal, el riesgo de prolongación del QT y la hiperprolactinemia (ficha técnica de Dogmatil, 4.2, 4.4 y 4.8; la amisulprida figura entre los antipsicóticos que elevan la prolactina en Haddad y Wieck 2004).",
+   "fuente": "Resumen PMID 15456328: menciona la amisulprida, no la sulpirida, ni la eliminación renal ni el QT; se restringe la atribución"
+  },
+  {
+   "id": "sulpirida",
+   "gravedad": "mayor",
+   "antes": "cuenta con metaanálisis en red que la sitúan entre los antipsicóticos más eficaces (Huhn 2019).",
+   "despues": "fue en el metaanálisis en red de Huhn (2019; 32 fármacos) la que más redujo los síntomas positivos (DME −0,69 frente a placebo); en ese mismo análisis, la sulpirida obtuvo la mayor reducción de los síntomas depresivos (DME −0,90; IC creíble 95 % −1,36 a −0,44), con confianza en la evidencia a menudo baja o muy baja.",
+   "fuente": "Resumen PMID 31303314: amisulprida −0,69 en síntomas positivos; sulpirida −0,90 en síntomas depresivos; confianza baja o muy baja"
+  },
+  {
+   "id": "sulpirida",
+   "gravedad": "menor",
+   "antes": "NICE CG178 (1.3.5.1) y la guía de la APA (Keepers 2020) no priorizan fármacos concretos y remiten a la elección compartida según el perfil de efectos adversos;",
+   "despues": "NICE CG178 (1.3.5.1) no prioriza fármacos concretos y remite a la elección compartida informando de los efectos metabólicos, extrapiramidales, cardiovasculares (QT) y hormonales (prolactina) de cada uno, en línea con la guía de la APA (Keepers 2020) [fuente no localizada];",
+   "fuente": "NICE CG178 1.3.5.1 leído en nice.org.uk (texto literal confirmado); Keepers 2020 (PMID 32867516) sin resumen en PubMed, contenido no contrastado"
+  },
+  {
+   "id": "sulpirida",
+   "gravedad": "menor",
+   "antes": "en esquizofrenia recomiendan elegir con la persona según el perfil de efectos adversos (NICE CG178; Keepers 2020)",
+   "despues": "en esquizofrenia, NICE CG178 (1.3.5.1) recomienda elegir el antipsicótico con la persona informando de los efectos adversos previsibles de cada fármaco (en el mismo sentido, Keepers 2020 [fuente no localizada])",
+   "fuente": "NICE CG178 1.3.5.1 (nice.org.uk); Keepers 2020 sin resumen"
+  },
+  {
+   "id": "sulpirida",
+   "gravedad": "menor",
+   "antes": "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1",
+   "despues": "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1 [2009, modificada en 2014]; texto consultado en nice.org.uk en noviembre de 2026",
+   "fuente": "nice.org.uk/guidance/cg178/chapter/Recommendations"
+  },
+  {
+   "id": "sulpirida",
+   "gravedad": "menor",
+   "antes": "Am J Psychiatry 177:868-872 · PMID 32867516 [sin resumen en PubMed]",
+   "despues": "Am J Psychiatry 177:868-872 · PMID 32867516 [sin resumen en PubMed; contenido no contrastado en el texto completo]",
+   "fuente": "PubMed PMID 32867516"
+  },
+  {
+   "id": "tiaprida",
+   "gravedad": "mayor",
+   "antes": "las benzodiacepinas siguen siendo el tratamiento de referencia del síndrome de abstinencia y de la prevención de convulsiones y delirium (NICE CG100) [fuente no localizada]; la tiaprida carece de efecto anticonvulsivo y, en personas con riesgo de abstinencia grave, la revisión de Peters (1994) exige asociar tratamiento para la alucinosis y las convulsiones.",
+   "despues": "NICE CG100 recomienda considerar una benzodiacepina o carbamazepina para la abstinencia aguda (1.1.3.1), lorazepam oral como primera línea en el delirium tremens (1.1.4.1) y una benzodiacepina de acción rápida en las convulsiones por abstinencia (1.1.5.1), y no menciona la tiaprida; esta no previene las convulsiones (la ficha advierte de que los neurolépticos reducen el umbral convulsivo, 4.4) y, en personas con riesgo de abstinencia grave, la revisión de Peters (1994) exige asociar tratamiento para la alucinosis y las convulsiones.",
+   "fuente": "NICE CG100, recomendaciones 1.1.3.1, 1.1.4.1 y 1.1.5.1, leídas en nice.org.uk (noviembre de 2026); ficha técnica Tiaprizal 54279, 4.4; resumen PMID 7521826"
+  },
+  {
+   "id": "tiaprida",
+   "gravedad": "menor",
+   "antes": "NICE (2010). Alcohol-use disorders: diagnosis and management of physical complications (CG100) [no verificada]",
+   "despues": "NICE (2010). Alcohol-use disorders: diagnosis and management of physical complications (CG100; actualizada en 2017), recomendaciones 1.1.3.1, 1.1.4.1 y 1.1.5.1; texto consultado en nice.org.uk en noviembre de 2026",
+   "fuente": "nice.org.uk/guidance/cg100/chapter/Recommendations"
+  },
+  {
+   "id": "tiaprida",
+   "gravedad": "menor",
+   "antes": "subrayaba su escasa interacción con el alcohol y su bajo potencial de abuso frente a las benzodiacepinas",
+   "despues": "subrayaba que, a diferencia de las benzodiacepinas, no afecta a la vigilancia y tiene un bajo potencial de interacción con el alcohol y posiblemente de abuso",
+   "fuente": "Resumen PMID 7521826 («low potential for interaction with alcohol (ethanol), and possibly for abuse»)"
+  },
+  {
+   "id": "tiaprida",
+   "gravedad": "menor",
+   "antes": "la alternativa con evidencia específica para la discinesia tardía son los inhibidores de VMAT2.",
+   "despues": "la alternativa con evidencia específica para la discinesia tardía son los inhibidores de VMAT2 (véase su ficha); la tiaprida no tiene esa indicación autorizada en España.",
+   "fuente": "Ficha técnica Tiaprizal 54279, 4.1; ficha vmat2_td del atlas"
+  },
+  {
+   "id": "flufenazina",
+   "gravedad": "mayor",
+   "antes": "sin diferencia clara en estado global a medio plazo en un ensayo pequeño y menos recaídas a largo plazo con alta heterogeneidad (RR 0,39; IC 95 % 0,05-3,31; certeza muy baja)",
+   "despues": "sin diferencia clara en estado global a medio plazo en un ensayo pequeño y una estimación no concluyente de menos recaídas a largo plazo (dos ensayos pequeños, alta heterogeneidad; RR 0,39; IC 95 % 0,05-3,31, que incluye el 1; certeza muy baja)",
+   "fuente": "Resumen PMID 29893410: IC 95 % 0,05-3,31 cruza la unidad; no permite afirmar menos recaídas"
+  },
+  {
+   "id": "flufenazina",
+   "gravedad": "menor",
+   "antes": "los antipsicóticos depot típicos disponibles se reducen al decanoato de zuclopentixol.",
+   "despues": "los antipsicóticos depot típicos registrados en CIMA se reducen al decanoato de zuclopentixol (Clopixol Depot; sin registros de decanoato de haloperidol, pipotiazina ni flupentixol depot en la misma consulta).",
+   "fuente": "API REST de CIMA, consulta de noviembre de 2026 (Clopixol Depot 60874 comercializado; sin resultados para los demás)"
+  },
+  {
+   "id": "flufenazina",
+   "gravedad": "menor",
+   "antes": "[fuente no localizada sobre la vía concreta]",
+   "despues": "[fuente no localizada]",
+   "fuente": "Encargo: indicador literal obligatorio «[fuente no localizada]»"
+  },
+  {
+   "id": "topiramato",
+   "gravedad": "mayor",
+   "antes": "sugiere ofrecer topiramato o gabapentina a quienes desean reducir o abandonar el consumo y los prefieren, o no toleran o no responden a naltrexona y acamprosato [recomendación no contrastada en el texto completo]; NICE CG115 no lo incluye entre los fármacos recomendados [fuente no localizada].",
+   "despues": "sugiere ofrecer topiramato o gabapentina a quienes desean reducir o abandonar el consumo y los prefieren, o no toleran o no responden a naltrexona y acamprosato [fuente no localizada]; NICE CG115 recomienda acamprosato o naltrexona oral junto a una intervención psicológica, y disulfiram como alternativa (1.3.6), sin mencionar el topiramato.",
+   "fuente": "NICE CG115, recomendaciones 1.3.6, leídas en nice.org.uk (noviembre de 2026; sin ninguna mención de topiramato ni gabapentina); Reus 2018 sin resumen y texto completo no accesible"
+  },
+  {
+   "id": "topiramato",
+   "gravedad": "mayor",
+   "antes": "La revisión del PRAC que motivó las medidas de 2023 se inició a raíz de los estudios nórdicos sobre neurodesarrollo; su fecha de inicio (2022) no se ha contrastado en el documento oficial [fuente no localizada].",
+   "despues": "La revisión que motivó las medidas de 2023 fue un arbitraje del artículo 31 iniciado a petición de la agencia francesa tras una revisión de señal (julio-septiembre de 2022) basada en los estudios nórdicos: comenzó el 1 de septiembre de 2022, el PRAC emitió su recomendación el 31 de agosto de 2023 y la posición del CMDh es del 10 de noviembre de 2023 (EMA).",
+   "fuente": "EMA, página del arbitraje «Topiramate – Article 31 referral» (ema.europa.eu), consultada en noviembre de 2026"
+  },
+  {
+   "id": "topiramato",
+   "gravedad": "menor",
+   "antes": "y bajo peso para la edad gestacional en el 18 % frente al 5 %.",
+   "despues": "y recién nacidos pequeños para la edad gestacional en el 18 % frente al 5 % (registro norteamericano).",
+   "fuente": "Ficha técnica Topamax 61873, 4.6 (literal: «pequeño para la edad gestacional (SGA)... 18 % en comparación con el 5 %»)"
+  },
+  {
+   "id": "topiramato",
+   "gravedad": "menor",
+   "antes": "dependen de la dosis y del ritmo de escalada, y afectan sobre todo a la fluidez verbal; las comparaciones con levetiracetam y lamotrigina le son desfavorables.",
+   "despues": "dependen de la dosis y del ritmo de escalada; fuera de los problemas del lenguaje los datos no son concluyentes, frente a los antiepilépticos clásicos solo la fluidez verbal muestra diferencias claras y las comparaciones con levetiracetam y lamotrigina le son desfavorables.",
+   "fuente": "Resumen PMID 25083242"
+  },
+  {
+   "id": "topiramato",
+   "gravedad": "menor",
+   "antes": "AEMPS (2023). Topiramato: nuevas medidas para evitar la exposición en mujeres embarazadas. Nota de seguridad MUH(FV) 06/2023, 4 de septiembre de 2023",
+   "despues": "AEMPS (2023). Topiramato: nuevas medidas para evitar la exposición en mujeres embarazadas. Nota de seguridad MUH(FV) 06/2023, 4 de septiembre de 2023 (aemps.gob.es; enlazada desde CIMA)",
+   "fuente": "API de notas de CIMA (nregistro 61873) y aemps.gob.es"
+  },
+  {
+   "id": "topiramato",
+   "gravedad": "menor",
+   "antes": "(sin referencias de NICE CG115 ni de EMA)",
+   "despues": "Añadidas referencias NICE CG115 (2011) y EMA (2023) Article 31 referral",
+   "fuente": "nice.org.uk; ema.europa.eu"
+  },
+  {
+   "id": "gabapentina",
+   "gravedad": "menor",
+   "antes": "sugiere topiramato o gabapentina cuando la persona los prefiere o no tolera o no responde a naltrexona y acamprosato [recomendación no contrastada en el texto completo];",
+   "despues": "sugiere topiramato o gabapentina cuando la persona los prefiere o no tolera o no responde a naltrexona y acamprosato [fuente no localizada], mientras que NICE CG115 no la menciona entre los fármacos recomendados (1.3.6);",
+   "fuente": "NICE CG115 en nice.org.uk (0 menciones de gabapentina); encargo: marcador literal"
+  },
+  {
+   "id": "gabapentina",
+   "gravedad": "menor",
+   "antes": "en Hong (2022) solo hubo cuatro ensayos doble ciego en trastorno bipolar, sin síntesis cuantitativa posible, y resultados no concluyentes en insomnio; el efecto más claro en ansiedad se observó en la ansiedad preoperatoria (DME −0,92).",
+   "despues": "en Hong (2022) solo hubo cuatro ensayos doble ciego en trastorno bipolar, sin síntesis cuantitativa posible, y resultados no concluyentes en insomnio; en ansiedad, los autores destacan la ansiedad preoperatoria (gabapentina DME −0,92; IC 95 % −1,32 a −0,52), dentro de un intervalo de efectos entre −2,25 y −0,25 en el conjunto de estados de ansiedad.",
+   "fuente": "Resumen PMID 34819636 (no establece que sea «el efecto más claro»)"
+  },
+  {
+   "id": "gabapentina",
+   "gravedad": "menor",
+   "antes": "[fuente no localizada específica para GHB]",
+   "despues": "[fuente no localizada]",
+   "fuente": "Encargo: marcador literal obligatorio"
+  },
+  {
+   "id": "gabapentina",
+   "gravedad": "menor",
+   "antes": "pero no se ha localizado la nota de seguridad de la AEMPS o la evaluación del PRAC que las incorporó [fuente no localizada].",
+   "despues": "pero no se ha localizado la nota de seguridad de la AEMPS o la evaluación del PRAC que las incorporó (la API de notas de CIMA no devuelve ninguna nota para Neurontin) [fuente no localizada]. El uso no médico se desarrolla en la ficha de uso no médico de gabapentinoides.",
+   "fuente": "API de notas de CIMA (nregistro 60621: lista vacía, noviembre de 2026)"
+  },
+  {
+   "id": "gabapentina",
+   "gravedad": "menor",
+   "antes": "sin enlace a gabap_nomed",
+   "despues": "gabap_nomed añadido en links de la sección «Abuso, dependencia y combinación con opioides» y en rel; relAdd recíproco gabap_nomed→gabapentina en patch",
+   "fuente": "node tools/q.js show gabap_nomed (nodo existente)"
+  }
+ ],
+ "sin_resolver": [
+  "Reus 2018 (guía APA de alcohol, PMID 29301420): sin resumen en PubMed y sin texto completo accesible (psychiatryonline 403; PMC sin texto descargable); la recomendación sobre topiramato/gabapentina se conserva con «[fuente no localizada]».",
+  "Keepers 2020 (guía APA de esquizofrenia, PMID 32867516): sin resumen; la atribución se conserva con «[fuente no localizada]».",
+  "Iglesias 2000 (PMID 11184770): carta sin resumen; solo se usa para la existencia de un caso de torsade de pointes (título).",
+  "Flufenazina: año de introducción (1959), cronología de los ésteres y fecha de retirada en España (y de la asociación con nortriptilina) sin fuente primaria; siguen marcados.",
+  "Gabapentina: no se ha localizado nota AEMPS ni evaluación PRAC que introdujera las advertencias de dependencia y depresión respiratoria (la API de notas de CIMA no devuelve notas para Neurontin).",
+  "Sulpirida: sin ensayos indexados para el vértigo refractario (marcado)."
+ ]
+}
