@@ -1,0 +1,788 @@
+{
+ "patch": {
+  "imputabilidad": {
+   "relAdd": [
+    "peligrosidad"
+   ]
+  },
+  "riesgo_viol": {
+   "relAdd": [
+    "peligrosidad"
+   ]
+  },
+  "salud_penit": {
+   "relAdd": [
+    "peligrosidad"
+   ]
+  },
+  "hetero_agr": {
+   "relAdd": [
+    "peligrosidad"
+   ]
+  },
+  "perit_forense": {
+   "relAdd": [
+    "peligrosidad",
+    "incapacidad_lab",
+    "acoso_laboral",
+    "dano_psiquico",
+    "resp_profesional"
+   ]
+  },
+  "ddm": {
+   "relAdd": [
+    "incapacidad_lab"
+   ]
+  },
+  "tAdapt": {
+   "relAdd": [
+    "incapacidad_lab",
+    "acoso_laboral"
+   ]
+  },
+  "desempleo_suic": {
+   "relAdd": [
+    "incapacidad_lab"
+   ]
+  },
+  "simulacion": {
+   "relAdd": [
+    "incapacidad_lab",
+    "dano_psiquico"
+   ]
+  },
+  "ptsd": {
+   "relAdd": [
+    "acoso_laboral",
+    "dano_psiquico"
+   ]
+  },
+  "stres_vital": {
+   "relAdd": [
+    "acoso_laboral"
+   ]
+  },
+  "acoso_esc": {
+   "relAdd": [
+    "acoso_laboral"
+   ]
+  },
+  "facticio": {
+   "relAdd": [
+    "dano_psiquico"
+   ]
+  },
+  "sims_tomm": {
+   "relAdd": [
+    "dano_psiquico"
+   ]
+  },
+  "internamiento": {
+   "relAdd": [
+    "resp_profesional"
+   ]
+  },
+  "consent_cap": {
+   "relAdd": [
+    "resp_profesional"
+   ]
+  },
+  "ideac_suic": {
+   "relAdd": [
+    "resp_profesional"
+   ]
+  },
+  "secreto_prof": {
+   "relAdd": [
+    "resp_profesional"
+   ]
+  },
+  "agitacion": {
+   "relAdd": [
+    "resp_profesional"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "peligrosidad",
+   "n": "Peligrosidad criminal y medidas de seguridad (CP, arts. 6 y 95-108)",
+   "ab": "Peligrosidad criminal",
+   "al": [
+    "medidas de seguridad",
+    "pronóstico de peligrosidad",
+    "libertad vigilada",
+    "internamiento en centro psiquiátrico penitenciario",
+    "predicción de violencia"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1995,
+   "tags": [
+    "forense",
+    "risk"
+   ],
+   "desc": "En el Código Penal la peligrosidad criminal es el fundamento de las medidas de seguridad: debe haberse exteriorizado en la comisión de un hecho previsto como delito, y la medida no puede ser más gravosa ni más larga que la pena abstractamente aplicable ni exceder lo necesario para prevenir la peligrosidad del autor (art. 6). Es un concepto jurídico, no un diagnóstico: el tribunal la infiere «del hecho y de las circunstancias personales del sujeto» como pronóstico de probabilidad de nuevos delitos (art. 95.1). La psiquiatría aporta la descripción del trastorno, su relación con la conducta y una valoración estructurada del riesgo, con sus márgenes de error.",
+   "feats": [
+    "Requisitos acumulativos (art. 95.1 CP): haber cometido un hecho previsto como delito y un pronóstico de comportamiento futuro que revele la probabilidad de comisión de nuevos delitos; si la pena posible no es privativa de libertad, solo caben medidas no privativas (art. 95.2)",
+    "Catálogo (art. 96 CP): privativas, el internamiento en centro psiquiátrico, de deshabituación o educativo especial; no privativas, la inhabilitación profesional, la expulsión de extranjeros sin residencia legal, la libertad vigilada, la custodia familiar y la privación del derecho a conducir o a tener y portar armas",
+    "Revisión dinámica: cese en cuanto desaparezca la peligrosidad criminal, sustitución o suspensión (art. 97 CP), con propuesta al menos anual del Juez de Vigilancia Penitenciaria en las medidas privativas de libertad, valorando los informes de los facultativos (art. 98.1); en las no privativas el tribunal recaba esos informes (art. 98.2); la persona sometida a la medida es oída (art. 98.3)",
+    "La negativa a someterse a tratamiento médico, o a continuar uno inicialmente consentido, no se considera quebrantamiento de la medida, aunque el tribunal puede sustituir el tratamiento por otra medida aplicable (art. 100.3 CP)",
+    "La libertad vigilada puede incluir la obligación de seguir tratamiento médico externo o de someterse a control médico periódico (art. 106.1.k CP), y para imponerla o concretarla el tribunal debe valorar los informes de los facultativos que asisten a la persona (art. 105)",
+    "Los instrumentos de riesgo tienen un valor predictivo positivo limitado y no deben ser el único criterio para decidir privaciones de libertad (Fazel 2012; Douglas T 2017); el exceso de la violencia en la psicosis se explica en gran parte por la comorbilidad con consumo de sustancias (Fazel 2009)"
+   ],
+   "tx": "El informe pericial sobre peligrosidad debe distinguir el estado mental en el momento del hecho (imputabilidad) del pronóstico actual, identificar factores de riesgo dinámicos y tratables (adherencia, consumo de sustancias, síntomas activos, apoyo social), proponer la medida menos restrictiva compatible con la gestión del riesgo y explicitar el instrumento usado, su validación en población comparable y la incertidumbre del pronóstico. La revisión periódica exige informes clínicos actualizados que documenten la evolución.",
+   "note": "La peligrosidad es una categoría jurídica sin equivalente diagnóstico. La literatura sobre predicción de violencia procede sobre todo de Norteamérica y el norte de Europa; no se han localizado estudios españoles que validen el pronóstico del art. 95 CP en personas sometidas a medidas de seguridad, ni datos oficiales recientes sobre la duración real de los internamientos penitenciarios psiquiátricos [fuente no localizada]. Los aspectos de imputabilidad (arts. 20, 21 y 101-104 CP) se tratan en su propia ficha.",
+   "sec": [
+    {
+     "t": "Marco normativo",
+     "x": "El Código Penal (texto consolidado) configura un sistema dualista: la pena responde a la culpabilidad y la medida de seguridad a la peligrosidad criminal (art. 6). Las medidas se aplican por el juez o tribunal, previos los informes que estime convenientes (art. 95.1), a quien ha sido declarado exento de responsabilidad por los números 1.º, 2.º o 3.º del art. 20 (arts. 101-103) o con eximente incompleta (art. 104). En la concurrencia de pena y medida privativas de libertad se cumple primero la medida, que se abona para la pena, y al alzarla el tribunal puede suspender el resto de la pena si su ejecución pusiera en peligro los efectos conseguidos (sistema vicarial, art. 99). Al imponer la medida privativa o durante su ejecución, el tribunal puede añadir medidas no privativas: libertad vigilada y custodia familiar hasta cinco años, y hasta diez la libertad vigilada cuando el Código lo disponga expresamente y la privación del derecho a conducir o a la tenencia de armas (art. 105). La inhabilitación profesional, de uno a cinco años, exige que el hecho se cometiera con abuso del ejercicio profesional o en relación con él y que pueda deducirse peligro de reiteración (art. 107); para personas extranjeras sin residencia legal, el tribunal acuerda como regla la expulsión en sustitución de la medida, salvo que excepcionalmente y de forma motivada aprecie que la naturaleza del delito justifica su cumplimiento en España (art. 108).",
+     "links": [
+      {
+       "ids": [
+        "imputabilidad"
+       ],
+       "t": "Eximentes y arts. 101-104"
+      },
+      {
+       "ids": [
+        "salud_penit"
+       ],
+       "t": "Salud mental en prisión"
+      },
+      {
+       "ids": [
+        "internamiento"
+       ],
+       "t": "Internamiento civil (art. 763 LEC)"
+      }
+     ]
+    },
+    {
+     "t": "Aplicación clínica y pericial",
+     "x": "El art. 95 exige un pronóstico, y la pericia lo aborda mejor con guías de juicio profesional estructurado (HCR-20 V3) que con impresiones clínicas no estructuradas o con escalas actuariales aisladas [fuente no localizada]. En lugar de un juicio dicotómico («peligroso» o «no peligroso»), el informe debe describir escenarios de riesgo plausibles, los factores que los aumentan o reducen y las medidas de gestión, incluido el tratamiento. En la psicosis, el metaanálisis de Fazel (2009; 20 estudios, 18 423 personas) halló una razón de probabilidades de violencia de 2,1 sin comorbilidad por sustancias frente a 8,9 con ella, similar a la de quienes abusan de sustancias sin psicosis: el consumo es un objetivo terapéutico prioritario en el plan de gestión. Las revisiones de los arts. 97-98 requieren informes clínicos longitudinales; la mejoría sostenida con adherencia y abstinencia debe constar expresamente, porque el cese procede «en cuanto desaparezca la peligrosidad». Tras el alta de hospitales psiquiátricos de seguridad (35 estudios, 12 056 pacientes), la mortalidad por suicidio fue de 325 por 100 000 personas-año, mientras que la reincidencia parecía menor que en muchos grupos de comparación (Fazel 2016): el cese de la medida exige planificar antes la continuidad asistencial.",
+     "links": [
+      {
+       "ids": [
+        "riesgo_viol",
+        "sara",
+        "pclr"
+       ],
+       "t": "Instrumentos de riesgo"
+      },
+      {
+       "ids": [
+        "esq",
+        "psust"
+       ],
+       "t": "Psicosis y sustancias"
+      },
+      {
+       "ids": [
+        "hetero_agr"
+       ],
+       "t": "Heteroagresividad"
+      }
+     ]
+    },
+    {
+     "t": "Límites y controversias",
+     "x": "Douglas, Pugh, Singh, Savulescu y Fazel (2017) advierten de que hay pocos datos relevantes, fiables y no sesgados sobre la precisión predictiva de los instrumentos, y que se necesitan para evitar una confianza excesiva en las puntuaciones, ajustar cada herramienta a su contexto y proteger frente a formas problemáticas de discriminación y estigmatización. Szmukler y Rose (2013) sostienen que las expectativas poco realistas sobre la evaluación del riesgo en la práctica psiquiátrica general generan costes para las personas con enfermedad mental, para los profesionales y para los servicios: deterioran la confianza en la relación clínica y producen prácticas que vulneran el principio de justicia y aumentan la discriminación. En el plano jurídico, la CRPD prohíbe que la discapacidad justifique por sí una privación de libertad (art. 14), lo que obliga a fundar la medida en el hecho cometido y en un pronóstico individual, no en el diagnóstico. El límite temporal de los arts. 6 y 101-104 impide medidas indefinidas, pero la reiteración de propuestas de mantenimiento sin datos de evolución nuevos convierte la revisión anual en un trámite [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "crpd"
+       ],
+       "t": "CRPD, art. 14"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "Estigma y discriminación"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Sesgos periciales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995). Texto consolidado, BOE-A-1995-25444, arts. 6 y 95-108",
+    "Fazel S et al. (2012). Use of risk assessment instruments to predict violence and antisocial behaviour in 73 samples involving 24 827 people: systematic review and meta-analysis. BMJ 345:e4692 · PMID 22833604",
+    "Fazel S et al. (2009). Schizophrenia and violence: systematic review and meta-analysis. PLoS Med 6:e1000120 · PMID 19668362",
+    "Douglas T et al. (2017). Risk assessment tools in criminal justice and forensic psychiatry: the need for better data. Eur Psychiatry 42:134-137 · PMID 28371726",
+    "Szmukler G & Rose N (2013). Risk assessment in mental health care: values and costs. Behav Sci Law 31:125-140 · PMID 23296543",
+    "Fazel S et al. (2016). Patient outcomes following discharge from secure psychiatric hospitals: systematic review and meta-analysis. Br J Psychiatry 208:17-25 · PMID 26729842",
+    "Douglas KS et al. (2013). HCR-20 V3: Assessing Risk for Violence. Burnaby: Simon Fraser University"
+   ],
+   "rel": [
+    "imputabilidad",
+    "riesgo_viol",
+    "perit_forense",
+    "salud_penit",
+    "hetero_agr",
+    "esq",
+    "psust",
+    "crpd",
+    "sara",
+    "pclr",
+    "internamiento"
+   ]
+  },
+  {
+   "id": "incapacidad_lab",
+   "n": "Incapacidad temporal y permanente por trastorno mental (LGSS, RDL 8/2015)",
+   "ab": "Incapacidad laboral",
+   "al": [
+    "baja laboral",
+    "incapacidad temporal",
+    "incapacidad permanente",
+    "IT",
+    "IP",
+    "Equipo de Valoración de Incapacidades",
+    "EVI",
+    "inspección médica"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "fen",
+   "y": 2015,
+   "tags": [
+    "forense"
+   ],
+   "desc": "La incapacidad temporal (IT) protege a la persona trabajadora que recibe asistencia sanitaria y está impedida para el trabajo, con una duración máxima de 365 días prorrogables por otros 180 cuando se presume la curación (art. 169 LGSS). La incapacidad permanente (IP) contributiva es la situación de quien, tras el tratamiento prescrito, presenta reducciones anatómicas o funcionales graves, susceptibles de determinación objetiva y previsiblemente definitivas, que disminuyen o anulan su capacidad laboral; desde la Ley 3/2024 el tratamiento previo puede no exigirse cuando las reducciones ya están suficientemente objetivadas y son previsiblemente definitivas (art. 193.1 LGSS). En los trastornos mentales la «determinación objetiva» descansa en la exploración psicopatológica, la evolución documentada y el tratamiento realizado, no en el diagnóstico aislado.",
+   "feats": [
+    "El parte de baja lo expide el médico del servicio público de salud tras un reconocimiento que permita determinar objetivamente la incapacidad para el trabajo habitual, y consigna diagnóstico codificado, ocupación y duración estimada (RD 625/2014, art. 2); en contingencias profesionales cubiertas por una mutua, lo emiten sus servicios médicos",
+    "Hasta los 365 días, la inspección médica del INSS puede emitir el alta a todos los efectos; agotado ese plazo es la única competente para el alta, la prórroga o la propuesta de incapacidad permanente (art. 170 LGSS); frente al alta que emite agotado ese plazo, la persona puede manifestar su disconformidad ante la inspección del servicio público de salud en cuatro días naturales (art. 170.3)",
+    "Las mutuas pueden formular propuestas motivadas de alta en contingencias comunes, que la inspección médica del servicio público de salud remite al facultativo que emite los partes para que confirme la baja o expida el alta; si se confirma la baja deben constar el diagnóstico, el tratamiento y las causas de la discrepancia, y sin respuesta en cinco días la mutua puede solicitar el alta al INSS (RD 625/2014, art. 6)",
+    "El subsidio puede suspenderse si, sin causa razonable, la persona rechaza o abandona el tratamiento indicado, y denegarse o anularse si actúa fraudulentamente (art. 175 LGSS)",
+    "Grados de IP vigentes mientras no se desarrolle el art. 194 (disp. trans. 26.ª LGSS): parcial (disminución no inferior al 33 % del rendimiento sin impedir las tareas fundamentales), total para la profesión habitual, absoluta para todo trabajo y gran incapacidad",
+    "La calificación la propone el Equipo de Valoración de Incapacidades, con un médico inspector y un facultativo del INSS entre sus vocales, mediante dictámenes-propuesta preceptivos y no vinculantes; resuelve la dirección provincial del INSS (RD 1300/1995, arts. 1-3)"
+   ],
+   "tx": "El informe clínico para IT o IP debe describir síntomas, exploración, pruebas, tratamientos ensayados (fármacos, psicoterapia, duración y adherencia), respuesta y limitaciones funcionales concretas en relación con las tareas de la profesión, evitando juicios sobre el grado, que corresponden a la entidad gestora. En la IT prolongada conviene plantear de forma precoz el retorno al trabajo: la evidencia es sólida para las intervenciones con contacto con el lugar de trabajo y las multicomponente, y moderada para la reincorporación gradual (Mikkelsen 2018).",
+   "note": "La duración óptima orientativa de la IT por diagnóstico procede de tablas que la Administración pone a disposición de los médicos (RD 625/2014, art. 2.2); su contenido para los trastornos mentales no se ha cotejado aquí [fuente no localizada]. La evidencia sobre intervenciones de retorno al trabajo procede sobre todo de países nórdicos y Países Bajos, con sistemas de protección distintos. La redacción del art. 193 se modificó por la Ley 3/2024 y el art. 169.1.a por el Real Decreto-ley 31/2026 con efectos de 1-12-2026 (sin cambio en los plazos de 365 + 180 días); se cita el texto consolidado de boe.es consultado en noviembre de 2026.",
+   "sec": [
+    {
+     "t": "Marco normativo",
+     "x": "La LGSS distingue la IT, situación transitoria ligada a la asistencia sanitaria (art. 169), de la IP, que debe derivar, como regla, de una IT previa, salvo excepciones legales (art. 193.2). El subsidio de IT se extingue, entre otras causas, por el transcurso de 545 días naturales desde la baja, por alta por curación o mejoría que permita realizar el trabajo habitual, por alta con o sin declaración de IP o por la incomparecencia injustificada a los reconocimientos de la inspección del INSS o de la mutua (art. 174.1). Agotado el plazo máximo, el estado de la persona se examina en un máximo de 90 días a efectos de calificar la IP, plazo que puede demorarse si la expectativa de recuperación lo aconseja, sin rebasar 730 días sumados (art. 174.2). La IP cabe aunque la recuperación sea posible si se estima médicamente incierta o a largo plazo (art. 193.1). Toda resolución de IP fija el plazo a partir del cual puede pedirse la revisión por agravación o mejoría, y la revisión por error de diagnóstico puede instarse en cualquier momento antes de la edad de jubilación (art. 200.2). Es accidente de trabajo la enfermedad no profesional que se contrae con motivo de la realización del trabajo si se prueba que tuvo por causa exclusiva su ejecución (art. 156.2.e), vía por la que se ha discutido la contingencia profesional de trastornos derivados de conflictos laborales [fuente no localizada sobre su aplicación jurisprudencial].",
+     "links": [
+      {
+       "ids": [
+        "acoso_laboral"
+       ],
+       "t": "Acoso laboral y contingencia"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Pericia psiquiátrica"
+      }
+     ]
+    },
+    {
+     "t": "Criterios clínicos y papel de la inspección y del perito",
+     "x": "El trastorno mental justifica la IT cuando sus síntomas impiden las tareas fundamentales del puesto: no basta el diagnóstico, sino su repercusión funcional y la necesidad de tratamiento. Para la IP, la ley exige que las reducciones sean graves, objetivables y previsiblemente definitivas tras el tratamiento prescrito, salvo que la patología, su estadio y su evolución previsible las objetiven ya de forma suficiente (art. 193.1); en los trastornos mentales el expediente suele apoyarse en ensayos terapéuticos adecuados en tiempo y forma, adherencia y evolución longitudinal. La inspección médica del INSS y el EVI valoran el expediente; el perito de parte o judicial, en el proceso social, debe describir limitaciones concretas (concentración, tolerancia al estrés, contacto con el público, turnicidad, conducción, manejo de riesgos), contrastar fuentes y valorar la validez de los síntomas, sin pronunciarse sobre el grado. WHODAS 2.0 y la exploración neuropsicológica ayudan a objetivar el funcionamiento. En una cohorte española de 7112 personas en baja por trastorno mental (2008-2012), la mayor edad, los trastornos mentales graves, el trabajo por cuenta propia, el contrato temporal y el sector inmobiliario y de la construcción se asociaron a bajas de más de 60 días (Real 2016): la duración no depende solo de la clínica.",
+     "links": [
+      {
+       "ids": [
+        "whodas2",
+        "neuropsico"
+       ],
+       "t": "Medida del funcionamiento"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Validez de los síntomas"
+      },
+      {
+       "ids": [
+        "ddm",
+        "tAdapt",
+        "tag"
+       ],
+       "t": "Diagnósticos frecuentes en la IT"
+      }
+     ]
+    },
+    {
+     "t": "Retorno al trabajo y límites",
+     "x": "En un metaanálisis de 32 estudios con datos agregables (9459 personas en baja por trastornos mentales comunes, de estrés, somatomorfos o de la personalidad), las intervenciones mejoraron el retorno al trabajo con un tamaño de efecto pequeño (0,14), con evidencia sólida para las que incluyen contacto con el lugar de trabajo y para las multicomponente, y moderada para el retorno gradual (Mikkelsen 2018). Las psicoterapias redujeron la baja frente a la atención habitual con efectos también pequeños (g = 0,15), sin diferencias entre enfoques centrados en el trabajo, resolución de problemas, terapia cognitivo-conductual o atención colaborativa (Salomonsson 2018). Las expectativas positivas de retorno y la autoeficacia predicen la reincorporación, y la mayor edad, las bajas previas y la mayor carga sintomática la dificultan (Fisker 2022). La pérdida del empleo tras una baja prolongada no es neutra, dada la asociación entre desempleo y suicidio recogida en su ficha, por lo que el seguimiento clínico no debe interrumpirse durante los trámites. El estigma puede llevar a ocultar el diagnóstico en el parte o a evitar la baja, y la confidencialidad del diagnóstico frente a la empresa debe preservarse.",
+     "links": [
+      {
+       "ids": [
+        "desempleo_suic"
+       ],
+       "t": "Desempleo y suicidio"
+      },
+      {
+       "ids": [
+        "estigma",
+        "secreto_prof"
+       ],
+       "t": "Estigma y confidencialidad"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social (2015). Texto consolidado (redacción de la Ley 3/2024 en el art. 193), BOE-A-2015-11724, arts. 156, 169, 170, 174, 175, 193, 194, 200 y disposición transitoria vigésima sexta",
+    "Real Decreto 625/2014, de 18 de julio, por el que se regulan determinados aspectos de la gestión y control de los procesos por incapacidad temporal en los primeros trescientos sesenta y cinco días de su duración (2014). Texto consolidado, BOE-A-2014-7684, arts. 2 y 6",
+    "Real Decreto 1300/1995, de 21 de julio, por el que se desarrolla, en materia de incapacidades laborales del sistema de la Seguridad Social, la Ley 42/1994 (1995). Texto consolidado, BOE-A-1995-19848, arts. 1-3",
+    "Mikkelsen MB & Rosholm M (2018). Systematic review and meta-analysis of interventions aimed at enhancing return to work for sick-listed workers with common mental disorders, stress-related disorders, somatoform disorders and personality disorders. Occup Environ Med 75:675-686 · PMID 29954920",
+    "Salomonsson S et al. (2018). Sickness absence: a systematic review and meta-analysis of psychological treatments for individuals on sick leave due to common mental disorders. Psychol Med 48:1954-1965 · PMID 29380722",
+    "Fisker J et al. (2022). Predictors of return to work for people on sick leave with common mental disorders: a systematic review and meta-analysis. Int Arch Occup Environ Health 95:1-13 · PMID 35106629",
+    "Real E et al. (2016). Factors associated with long-term sickness absence due to mental disorders: a cohort study of 7.112 patients during the Spanish economic crisis. PLoS One 11:e0146382 · PMID 26730603"
+   ],
+   "rel": [
+    "perit_forense",
+    "ddm",
+    "tAdapt",
+    "tag",
+    "simulacion",
+    "sims_tomm",
+    "whodas2",
+    "desempleo_suic",
+    "estigma",
+    "secreto_prof",
+    "acoso_laboral"
+   ]
+  },
+  {
+   "id": "acoso_laboral",
+   "n": "Acoso laboral (mobbing) como factor de riesgo psicopatológico y objeto pericial",
+   "ab": "Acoso laboral",
+   "al": [
+    "mobbing",
+    "acoso moral en el trabajo",
+    "acoso psicológico laboral",
+    "workplace bullying",
+    "psicoterror laboral"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1990,
+   "tags": [
+    "forense",
+    "risk"
+   ],
+   "desc": "Leymann (1990) describió el mobbing como la situación en que varias personas de un lugar de trabajo se confabulan contra una persona trabajadora y la someten a acoso psicológico, con consecuencias psicológicas y laborales graves, y analizó sus fases. Es un estresor psicosocial, no un diagnóstico: la clínica asociada se codifica según el cuadro que presente la persona (trastorno de adaptación, depresivo, de ansiedad o de estrés postraumático), y la CIE-11 no tiene una categoría específica de acoso laboral; como factor que influye en el estado de salud puede usarse QD83 «Problema con las condiciones de empleo», cuyo título no menciona el acoso [fuente oficial no localizada para su uso específico en el acoso]. La relación con la salud mental es consistente y bidireccional.",
+   "feats": [
+    "Metaanálisis (Verkuil 2015): en datos transversales (N = 115 783) el acoso se asoció a síntomas depresivos (r = 0,28), ansiosos (r = 0,34) y de estrés (r = 0,37); en datos longitudinales (N = 54 450) predijo problemas de salud mental posteriores (r = 0,21)",
+    "Bidireccionalidad: los problemas de salud mental basales también se asociaron a exposición posterior al acoso (r = 0,18; Verkuil 2015), lo que obliga a reconstruir la cronología en toda valoración pericial",
+    "En una cohorte noruega representativa de 1846 personas, ser víctima de acoso predijo ideación suicida posterior (OR 2,05), pero la ideación basal no predijo acoso posterior (Nielsen MB 2015)",
+    "Código Penal: castiga con prisión de seis meses a dos años a quienes, en una relación laboral o funcionarial y prevaliéndose de su superioridad, realicen de forma reiterada actos hostiles o humillantes que, sin llegar a trato degradante, supongan grave acoso (art. 173.1, párr. 3.º)",
+    "El Estatuto de los Trabajadores reconoce el derecho a la consideración debida a la dignidad, incluida la protección frente al acoso por origen racial o étnico, religión o convicciones, discapacidad, edad u orientación sexual, y frente al acoso sexual y por razón de sexo (art. 4.2.e)"
+   ],
+   "tx": "En la clínica, preguntar por el entorno laboral ante cuadros ansioso-depresivos o de adaptación de inicio en la vida adulta, tratar el cuadro presente según sus guías y valorar la ideación suicida. La función asistencial no incluye calificar jurídicamente el acoso: el informe clínico recoge el relato de la persona como tal relato, la clínica observada y su evolución. Orientar hacia los cauces de prevención de la empresa, la inspección de trabajo y el asesoramiento jurídico sin asumir el papel de perito.",
+   "note": "La mayoría de los estudios son transversales y de autoinforme, con riesgo de sesgo de respuesta (Verkuil 2015). La revisión de Leach (2017) no halló cohortes prospectivas de calidad que ajustaran por características del trabajo y morbilidad psiquiátrica previa al estudiar la conducta suicida. Las definiciones operativas varían entre estudios (frecuencia, duración, superioridad jerárquica o no), lo que dificulta comparar prevalencias. El criterio de Leymann de exposición al menos semanal durante al menos seis meses se cita ampliamente, pero no figura en el resumen de su artículo de 1990 [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Consecuencias psicopatológicas",
+     "x": "Leymann (1990) describió consecuencias psicológicas y laborales graves y fases sucesivas del proceso; la secuencia que culmina en la exclusión del mercado laboral se atribuye a obras posteriores del autor [fuente no localizada]. La evidencia posterior confirma una asociación consistente con depresión, ansiedad y estrés (Verkuil 2015) y con ideación suicida: en la revisión de Leach (2017), 8 de 12 estudios estimaron una asociación positiva, pero solo un estudio transversal no representativo examinó la conducta suicida y la baja calidad de los diseños impide descartar explicaciones alternativas. El estudio longitudinal noruego de Nielsen (2015), con tres mediciones, apoya que el acoso precede a la ideación suicida. Clínicamente, los cuadros más frecuentes son el trastorno de adaptación y los depresivos y de ansiedad [fuente no localizada para su frecuencia relativa]; el TEPT exige, en el DSM-5-TR, exposición a muerte real o amenaza, lesión grave o violencia sexual, criterio A que el acoso psicológico sin violencia física no suele cumplir, de modo que la sintomatología postraumática debe describirse sin forzar ese diagnóstico.",
+     "links": [
+      {
+       "ids": [
+        "tAdapt",
+        "ddm",
+        "tag"
+       ],
+       "t": "Adaptación, depresión y ansiedad"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT y criterio A"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Ideación suicida"
+      }
+     ]
+    },
+    {
+     "t": "Marco legal y valoración pericial",
+     "x": "Además del art. 173.1 CP, la Ley de Prevención de Riesgos Laborales define los daños derivados del trabajo como enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo (art. 4.3.º), incluye entre las condiciones de trabajo las relativas a su organización y ordenación (art. 4.7.º.d) y obliga a planificar la prevención integrando la organización del trabajo y las relaciones sociales (art. 15.1.g), con deber empresarial de protección eficaz (art. 14) y de evaluación de riesgos (art. 16). En Seguridad Social, la enfermedad contraída con motivo del trabajo es accidente de trabajo si se prueba su causa exclusiva (art. 156.2.e LGSS). La pericia no puede acreditar los hechos de acoso, que corresponden a la prueba testifical y documental: debe establecer el estado psicopatológico, su cronología respecto de los hechos alegados, el estado anterior, la existencia de otros estresores y la validez de los síntomas, y expresar el nexo en términos de compatibilidad y probabilidad. Pruebas de validez de síntomas y la exploración de fuentes colaterales reducen el riesgo de confundir la exageración con la lesión.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "dano_psiquico"
+       ],
+       "t": "Pericia y daño psíquico"
+      },
+      {
+       "ids": [
+        "incapacidad_lab"
+       ],
+       "t": "Contingencia profesional e IT"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Validez de los síntomas"
+      }
+     ]
+    },
+    {
+     "t": "Riesgo de sobrediagnóstico y grupos vulnerables",
+     "x": "El término «mobbing» se ha extendido en el lenguaje común y se aplica a conflictos laborales, cambios organizativos o un estilo de mando autoritario que no reúnen la sistematicidad y la intención de exclusión de la definición de Leymann [fuente no localizada]. Calificar como acoso cualquier malestar laboral puede patologizar conflictos normales, cronificar la vivencia de victimización y desplazar el foco desde el tratamiento; a la inversa, negar el acoso por falta de criterio A o por escasa objetividad revictimiza. Que los problemas de salud mental previos aumenten la exposición posterior (Verkuil 2015) no resta valor al acoso, pero exige analizar el estado anterior. Las personas LGTBIQ, las personas con discapacidad y las de minorías étnicas pueden sufrir formas de acoso discriminatorio que la ley identifica de forma expresa (art. 4.2.e del Estatuto de los Trabajadores), y la vivencia de discriminación se suma al estrés de minorías.",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "racismo_sm"
+       ],
+       "t": "Estrés de minorías y discriminación"
+      },
+      {
+       "ids": [
+        "acoso_esc"
+       ],
+       "t": "Acoso escolar"
+      },
+      {
+       "ids": [
+        "stres_vital",
+        "derrota_soc"
+       ],
+       "t": "Estrés psicosocial y derrota social"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leymann H (1990). Mobbing and psychological terror at workplaces. Violence Vict 5:119-126 · PMID 2278952",
+    "Verkuil B et al. (2015). Workplace bullying and mental health: a meta-analysis on cross-sectional and longitudinal data. PLoS One 10:e0135225 · PMID 26305785",
+    "Nielsen MB et al. (2015). Workplace bullying and suicidal ideation: a 3-wave longitudinal Norwegian study. Am J Public Health 105:e23-e28 · PMID 26378852",
+    "Leach LS et al. (2017). Workplace bullying and the association with suicidal ideation/thoughts and behaviour: a systematic review. Occup Environ Med 74:72-79 · PMID 27663985",
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995). Texto consolidado, BOE-A-1995-25444, art. 173.1",
+    "Ley 31/1995, de 8 de noviembre, de prevención de Riesgos Laborales (1995). Texto consolidado, BOE-A-1995-24292, arts. 4, 14, 15 y 16",
+    "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores (2015). Texto consolidado, BOE-A-2015-11430, art. 4.2.e",
+    "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, 5th ed., Text Revision (DSM-5-TR). Washington DC: APA"
+   ],
+   "rel": [
+    "tAdapt",
+    "ddm",
+    "tag",
+    "ptsd",
+    "ideac_suic",
+    "perit_forense",
+    "simulacion",
+    "stres_vital",
+    "derrota_soc",
+    "genero",
+    "acoso_esc",
+    "estigma"
+   ]
+  },
+  {
+   "id": "dano_psiquico",
+   "n": "Valoración del daño psíquico: lesión, secuela, daño moral y baremo de tráfico (Ley 35/2015)",
+   "ab": "Daño psíquico",
+   "al": [
+    "daño psicológico",
+    "secuela psíquica",
+    "daño moral",
+    "baremo de tráfico",
+    "tabla 2.A.1",
+    "nexo causal",
+    "estado anterior"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "fen",
+   "y": 2015,
+   "tags": [
+    "forense",
+    "trauma"
+   ],
+   "desc": "El daño psíquico es la alteración psicopatológica clínicamente diagnosticable y causalmente vinculada a un hecho lesivo; el daño moral es el sufrimiento, la aflicción o la pérdida de calidad de vida que el derecho indemniza aunque no constituya un trastorno (distinción doctrinal [fuente no localizada]). El sistema de valoración de los daños en accidentes de circulación (RDL 8/2004 en la redacción de las Leyes 35/2015 y 5/2025) separa ambos planos: el baremo médico (tabla 2.A.1) puntúa la secuela según su intensidad y gravedad anatómico-funcional, sin considerar edad, sexo ni repercusión en las actividades (art. 97.1), y la pérdida de calidad de vida se valora aparte como perjuicio moral particular (arts. 107-108).",
+   "feats": [
+    "Secuela: deficiencia física, intelectual, orgánica o sensorial que deriva de una lesión y permanece una vez finalizado el proceso de curación (art. 93.1 RDL 8/2004); se valora una sola vez aunque su sintomatología aparezca en varios apartados del baremo (art. 97.3)",
+    "Tabla 2.A.1 vigente (Ley 5/2025, BOE núm. 178, pág. 99449): trastorno por estrés postraumático leve 4-10 puntos, moderado 11-15 y grave 16-25 (01158-01160); trastorno adaptativo y otros trastornos neuróticos leve 4-10 y moderado 11-15 (01161.1-01161.2); las cuatro categorías del apartado son excluyentes entre sí",
+    "Tabla 2.A.1 vigente: trastorno depresivo mayor crónico leve 4-10, moderado 11-15, grave 16-30 y muy grave 31-60 (01162-01164.2); síntomas residuales 1-3 (01165); agravación o desestabilización de demencia no traumática 1-25 y de otros trastornos mentales 1-10 (01166-01167); en los casos graves o muy graves pueden pedirse estudios forenses del cumplimiento terapéutico",
+    "Para el TEPT el baremo exige un accidente de naturaleza excepcionalmente amenazante o catastrófica, con lesiones graves o mortales y en el que la víctima se haya visto directamente involucrada, diagnóstico, tratamiento y seguimiento continuados por especialista en psiquiatría e informe psiquiátrico tras la estabilización; en el adaptativo y el depresivo admite también psicología clínica",
+    "Estado previo: si la agravación no está prevista específicamente en el baremo, se puntúa con la fórmula (M − m) / [1 − (m/100)], donde M es la puntuación actual y m la preexistente (art. 100.2 RDL 8/2004)",
+    "En las personas involucradas en procesos de compensación, tres cuartas partes del exceso de síntomas ya estaban presentes al inicio y la mejoría posterior fue algo menor (Elbers 2013), un sesgo que el perito debe considerar sin presumir simulación"
+   ],
+   "tx": "Valorar el daño psíquico cuando el cuadro se ha estabilizado y tras un tratamiento adecuado; documentar la historia previa (antecedentes, tratamientos, bajas), la cronología, la intensidad del hecho y la evolución con tratamiento; usar entrevistas estructuradas e instrumentos con escalas de validez, y separar en el informe el diagnóstico, la puntuación propuesta, el razonamiento causal y el grado de certeza.",
+   "note": "La Ley 5/2025 sustituyó la tabla 2.A.1 y elevó las puntuaciones psiquiátricas respecto de la versión de la Ley 35/2015 (BOE núm. 228, pág. 84872: TEPT leve 1-2, moderado 3-5, grave 6-15; depresivo mayor crónico grave 16-25; distimia 1-3). Según su disposición final novena, las modificaciones del título IV se aplican a los accidentes ocurridos tras su entrada en vigor (26-07-2025), por lo que la versión de 2015 sigue siendo la referencia para accidentes anteriores [fuente no localizada para la aplicación temporal concreta del anexo]. Su aplicación fuera de los accidentes de circulación es orientativa y depende del criterio de cada tribunal [fuente no localizada para la doctrina jurisprudencial concreta]. Los criterios del baremo remiten al DSM-5 y a la CIE-10, no a la CIE-11. Los aspectos generales del método pericial se tratan en su propia ficha.",
+   "sec": [
+    {
+     "t": "Daño psíquico frente a daño moral",
+     "x": "La distinción no es académica: el perito psiquiatra o psicólogo dictamina sobre el daño psíquico, mientras que el daño moral lo aprecia el tribunal a partir de los hechos y, en su caso, de la pericia [fuente no localizada]. En el sistema de tráfico, el perjuicio psicofísico básico incluye «el daño moral ordinario que le es inherente» (art. 104.1); hay daños morales complementarios cuando una sola secuela alcanza al menos 60 puntos o las concurrentes al menos 80 (art. 105.1), y la pérdida de calidad de vida se gradúa en muy grave, grave, moderada o leve según la pérdida de autonomía para las actividades esenciales y de desarrollo personal; la limitación o pérdida parcial de la actividad laboral se considera perjuicio leve con independencia de los puntos y, en los demás casos, con secuelas de seis puntos o menos se presume que no existe, salvo que se acredite (art. 108.5, redacción de la Ley 5/2025). En consecuencia, un cuadro adaptativo resuelto puede generar indemnización por lesión temporal y perjuicio moral sin dejar secuela psiquiátrica puntuable, y el dolor emocional proporcionado a una pérdida no es por sí un trastorno. El informe médico debe ajustarse a las reglas del sistema y entregarse tanto a la aseguradora como a la persona lesionada (art. 37).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Lesión y secuela en la pericia"
+      },
+      {
+       "ids": [
+        "tAdapt"
+       ],
+       "t": "Trastorno de adaptación"
+      },
+      {
+       "ids": [
+        "reac_viv_anormal"
+       ],
+       "t": "Reacción vivencial anormal"
+      }
+     ]
+    },
+    {
+     "t": "Nexo causal y estado anterior",
+     "x": "El nexo se razona con criterios de cronología, intensidad del hecho, adecuación entre el hecho y el cuadro, continuidad sintomática y exclusión de otras causas; el sistema de tráfico formaliza criterios análogos (exclusión, cronológico, topográfico y de intensidad) para los traumatismos menores de la columna (art. 135.1), que la doctrina pericial aplica por analogía al daño psíquico [fuente no localizada]. En los supervivientes de accidentes de tráfico, la prevalencia de TEPT varía entre el 6 % y el 45 % según los estudios, y son predictores consistentes la rumiación sobre el trauma, la amenaza percibida para la vida, la falta de apoyo social, la gravedad del trastorno de estrés agudo, los problemas físicos persistentes, los antecedentes emocionales y de ansiedad y la implicación en litigios o compensaciones (Heron-Delaney 2013). Los antecedentes no excluyen el daño: el baremo valora la agravación del estado previo y, tanto en la versión de 2015 como en la de 2025, excluye expresamente del apartado de trastornos permanentes del humor los casos con patología afectiva previa, que se valoran como agravación. Una persona vulnerable puede sufrir un daño mayor ante el mismo hecho, y el informe debe separar lo preexistente de lo añadido.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "pcl5"
+       ],
+       "t": "TEPT y su medida"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ddp"
+       ],
+       "t": "Depresión mayor y distimia"
+      },
+      {
+       "ids": [
+        "stres_vital"
+       ],
+       "t": "Sucesos vitales"
+      }
+     ]
+    },
+    {
+     "t": "Simulación, exageración y trastorno facticio",
+     "x": "En una encuesta a neuropsicólogos clínicos estadounidenses sobre 33 531 casos anuales, se estimó probable simulación o exageración en el 29 % de los casos de lesiones personales, el 30 % de los de incapacidad, el 19 % de los penales y el 8 % de los médicos, con tasas que variaban según la parte que derivaba el caso (Mittenberg 2002); son estimaciones de expertos, no prevalencias medidas, y no se trasladan sin más a la población española [fuente no localizada para datos españoles]. La simulación se infiere por convergencia de datos: discrepancias entre registros, autoinforme y conducta observada, síntomas inverosímiles y resultados por debajo de los puntos de corte en pruebas de validez. Hay que diferenciarla del trastorno facticio, sin incentivo externo evidente, y de la amplificación sintomática por malestar o por el propio proceso de reclamación (Elbers 2013). Un resultado anómalo en una sola prueba no basta para afirmarla, y la etiqueta de simulación tiene consecuencias graves para la persona.",
+     "links": [
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Simulación y pruebas de validez"
+      },
+      {
+       "ids": [
+        "facticio"
+       ],
+       "t": "Trastorno facticio"
+      },
+      {
+       "ids": [
+        "mmpi",
+        "pai_inv"
+       ],
+       "t": "Escalas de validez"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ley 35/2015, de 22 de septiembre, de reforma del sistema para la valoración de los daños y perjuicios causados a las personas en accidentes de circulación (2015). BOE núm. 228, 23-09-2015, BOE-A-2015-10197, tabla 2.A.1, capítulo «Psiquiatría y psicología clínica» (pág. 84872; versión sustituida por la Ley 5/2025)",
+    "Ley 5/2025, de 24 de julio, por la que se modifican el texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor y la Ley 20/2015 (2025). BOE núm. 178, 25-07-2025, BOE-A-2025-15424, anexo, tabla 2.A.1 (pág. 99449) y disposición final novena",
+    "Real Decreto Legislativo 8/2004, de 29 de octubre, por el que se aprueba el texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor (2004). Texto consolidado (incluidas las modificaciones de la Ley 5/2025), BOE-A-2004-18911, arts. 37, 93, 97, 100, 104, 105, 107, 108 y 135",
+    "Elbers NA et al. (2013). Do compensation processes impair mental health? A meta-analysis. Injury 44:674-683 · PMID 22244996",
+    "Heron-Delaney M et al. (2013). A systematic review of predictors of posttraumatic stress disorder (PTSD) for adult road traffic crash survivors. Injury 44:1413-1422 · PMID 23916902",
+    "Mittenberg W et al. (2002). Base rates of malingering and symptom exaggeration. J Clin Exp Neuropsychol 24:1094-1102 · PMID 12650234",
+    "Echeburúa E, Corral P & Amor PJ (2002). Evaluación del daño psicológico en las víctimas de delitos violentos. Psicothema 14:139-146 [no verificada]"
+   ],
+   "rel": [
+    "perit_forense",
+    "ptsd",
+    "simulacion",
+    "facticio",
+    "sims_tomm",
+    "tAdapt",
+    "ddm",
+    "ddp",
+    "pcl5",
+    "mmpi",
+    "pai_inv",
+    "reac_viv_anormal",
+    "stres_vital",
+    "acoso_laboral"
+   ]
+  },
+  {
+   "id": "resp_profesional",
+   "n": "Responsabilidad profesional en psiquiatría: suicidio, contención mecánica y consentimiento",
+   "ab": "Responsab. profesional",
+   "al": [
+    "mala praxis en psiquiatría",
+    "responsabilidad sanitaria",
+    "lex artis",
+    "contención mecánica",
+    "sujeción",
+    "deber de cuidado",
+    "responsabilidad patrimonial"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2022,
+   "tags": [
+    "forense",
+    "risk"
+   ],
+   "desc": "La responsabilidad profesional del psiquiatra puede ser penal (homicidio o lesiones por imprudencia grave o menos grave, arts. 142 y 152 CP), civil (reparación del daño causado por acción u omisión con culpa o negligencia, art. 1902 del Código Civil) o patrimonial de la Administración en la sanidad pública (art. 32 de la Ley 40/2015), además de deontológica. Su eje es la adecuación a la lex artis: no se responde del resultado, sino de no haber puesto los medios exigibles según el conocimiento disponible. En psiquiatría, los ámbitos más sensibles son la valoración del riesgo suicida, la contención mecánica y el consentimiento, con un número de reclamaciones y de condenas bajo en la serie española disponible (Martin-Fumadó 2015).",
+   "feats": [
+    "Homicidio por imprudencia grave: prisión de uno a cuatro años y, si es profesional, inhabilitación especial de tres a seis años; por imprudencia menos grave, multa, y solo perseguible por denuncia de la persona agraviada o su representante salvo con vehículo (art. 142 CP)",
+    "Responsabilidad patrimonial: no son indemnizables los daños derivados de hechos que no se hubiesen podido prever o evitar según el estado de los conocimientos de la ciencia o de la técnica en el momento de producirse (art. 34.1 Ley 40/2015)",
+    "Serie catalana 1986-2009: 94 reclamaciones en psiquiatría, sobre todo por diagnóstico (63,8 %, incluida la valoración del riesgo suicida); en la mitad el daño alegado fue la muerte; 95,8 % archivadas o desestimadas y dos condenas (Martin-Fumadó 2015)",
+    "La categorización de pacientes en «alto riesgo» de suicidio tiene sensibilidad del 56 % y especificidad del 79 %, y el 5,5 % de quienes se clasifican de alto riesgo mueren por suicidio en un seguimiento medio de 63 meses (Large 2016)",
+    "Fiscalía General del Estado: principios de cuidado, excepcionalidad, necesidad apreciada por prescripción facultativa, proporcionalidad, provisionalidad y prohibición de exceso en el uso de contenciones (Instrucción 1/2022, conclusión 2.ª)",
+    "Comité de Bioética de España (7-6-2016): la prescripción de contenciones es competencia del facultativo; la indicación, el uso y el tipo de contención se registran siempre en la historia clínica (recomendaciones 3 y 7, citadas literalmente en la Instrucción 1/2022)"
+   ],
+   "tx": "La mejor protección frente a la responsabilidad coincide con la buena práctica: evaluación y registro de la conducta suicida en cada contacto relevante con un plan de seguridad individualizado, continuidad asistencial tras el alta, información comprensible y consentimiento documentado, contención solo como último recurso, prescrita, proporcionada, supervisada y registrada, y revisión de los incidentes graves con enfoque de aprendizaje y no solo defensivo.",
+   "note": "No se cita jurisprudencia concreta porque no se ha podido verificar el texto de sentencias en fuentes oficiales para este nodo; las afirmaciones sobre la doctrina de los tribunales relativa al suicidio de pacientes ingresados se dejan sin desarrollar [fuente no localizada]. La serie de reclamaciones disponible procede de un solo colegio profesional y de un periodo anterior a 2010. El informe del Comité de Bioética está localizado en su web oficial (comitedebioetica.isciii.es, Informe-Contenciones-CBE.pdf), pero no pudo descargarse por un certificado TLS caducado y error 503; sus recomendaciones se citan literalmente a través de la Instrucción 1/2022 publicada en el BOE.",
+   "sec": [
+    {
+     "t": "Suicidio de pacientes y deber de cuidado",
+     "x": "La muerte por suicidio de un paciente o una paciente en tratamiento es la causa de reclamación más grave en psiquiatría, pero el deber exigible es de medios: valorar el riesgo con la información disponible, documentar el razonamiento y adoptar medidas proporcionadas. La predicción individual no es posible con precisión útil: en 53 muestras de 37 estudios, la clasificación de alto riesgo apenas superó la asociación de factores aislados y no mejoró con el tiempo (Large 2016), lo que desaconseja basar decisiones o defensas en puntuaciones de escalas. Lo que sí está bien establecido son los periodos de máxima vulnerabilidad: en 100 estudios, la tasa tras el alta psiquiátrica fue de 484 por 100 000 personas-año, de 1132 en los tres primeros meses y de 2078 en quienes ingresaron por ideas o conductas suicidas (Chung 2017). La continuidad asistencial precoz tras el alta, la atención a la familia y la limitación del acceso a medios son, por tanto, elementos centrales de la diligencia debida [fuente no localizada para su valoración jurisprudencial]. El homicidio imprudente profesional se castiga en el art. 142 CP; la inducción y la cooperación al suicidio se tipifican en el art. 143, con exclusión de la responsabilidad penal en la prestación de ayuda a morir conforme a la ley orgánica reguladora de la eutanasia (art. 143.5).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "cssrs"
+       ],
+       "t": "Ideación suicida y su evaluación"
+      },
+      {
+       "ids": [
+        "suic_mayor"
+       ],
+       "t": "Suicidio en la persona mayor"
+      },
+      {
+       "ids": [
+        "internamiento"
+       ],
+       "t": "Ingreso involuntario"
+      }
+     ]
+    },
+    {
+     "t": "Contención mecánica",
+     "x": "La Instrucción 1/2022 de la Fiscalía General del Estado (BOE núm. 36, 11-02-2022) exige prescripción facultativa en cada caso salvo peligro inminente, con ratificación posterior; consentimiento informado conforme a la Ley 41/2002, explícito para cada situación y momento, sin valor de los consentimientos genéricos o diferidos, con las excepciones legales; protocolo de uso con vigilancia permanente y controles periódicos, y documentación de la indicación, el uso, el tipo y la duración. Recoge literalmente recomendaciones del Comité de Bioética de España de 7 de junio de 2016: buscar alternativas antes de indicarlas, dado que su uso en España es más frecuente que en el entorno (recomendación 1); aplicarlas solo el tiempo estrictamente necesario y de forma proporcional (6), y registrarlas siempre en la historia clínica (7). El Defensor del Pueblo, como Mecanismo Nacional de Prevención de la Tortura, registró en las Cortes en junio de 2026 la guía «Buenas prácticas en las contenciones mecánicas», que extiende a la hospitalización psiquiátrica y a los centros sociosanitarios la de 2017, referida solo a centros penitenciarios; atribuye la indicación al facultativo, admite que enfermería la inicie en urgencias con confirmación médica y fija controles al menos cada 15 minutos la primera hora y nunca más espaciados de una hora (apartados 7.4-7.5). En una revisión sistemática, la incidencia de TEPT tras el aislamiento o la contención osciló entre el 25 % y el 47 % (Chieze 2019).",
+     "links": [
+      {
+       "ids": [
+        "agitacion"
+       ],
+       "t": "Agitación psicomotriz"
+      },
+      {
+       "ids": [
+        "crpd"
+       ],
+       "t": "CRPD y coerción"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "Trauma tras la coerción"
+      }
+     ]
+    },
+    {
+     "t": "Consentimiento, información y documentación",
+     "x": "Toda actuación en el ámbito de la salud requiere el consentimiento libre y voluntario de la persona afectada tras recibir la información adecuada (art. 8.1 Ley 41/2002), y todo profesional está obligado a la correcta prestación de sus técnicas, a los deberes de información y documentación clínica y al respeto de las decisiones adoptadas libre y voluntariamente (art. 2.6). Las excepciones son tasadas: riesgo para la salud pública o riesgo inmediato grave para la integridad física o psíquica cuando no es posible obtener la autorización (art. 9.2), y el consentimiento por representación cuando el paciente o la paciente no es capaz de decidir, a criterio del médico responsable (art. 9.3.a), siempre atendiendo al mayor beneficio para su vida o salud (art. 9.6). En psiquiatría, la capacidad debe valorarse por decisión y momento, y su ausencia documentarse. Información y registro son también la prueba de la diligencia: la historia clínica que recoge la valoración del riesgo, las alternativas consideradas y su motivación es el principal documento en cualquier reclamación. Las declaraciones anticipadas deben consultarse: en un metaanálisis de 13 ensayos (2970 pacientes), el subgrupo de declaraciones anticipadas redujo los ingresos obligatorios (RR 0,77), a diferencia de las órdenes de tratamiento ambulatorio obligatorio (de Jong 2016). A la persona con discapacidad se le ofrecen los apoyos necesarios para que pueda consentir por sí misma (art. 9.7).",
+     "links": [
+      {
+       "ids": [
+        "consent_cap",
+        "maccat_t"
+       ],
+       "t": "Capacidad para consentir"
+      },
+      {
+       "ids": [
+        "capacidad_jur",
+        "cap_dem"
+       ],
+       "t": "Apoyos y planificación anticipada"
+      },
+      {
+       "ids": [
+        "secreto_prof"
+       ],
+       "t": "Confidencialidad"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995). Texto consolidado, BOE-A-1995-25444, arts. 142, 143 y 152",
+    "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil (1889). Texto consolidado, BOE-A-1889-4763, arts. 1902 y 1903",
+    "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (2015). Texto consolidado, BOE-A-2015-10566, arts. 32 y 34",
+    "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica (2002). Texto consolidado, BOE-A-2002-22188, arts. 2, 8 y 9 (incluido el 9.7)",
+    "Fiscalía General del Estado (2022). Instrucción 1/2022, de 19 de enero, sobre el uso de medios de contención mecánicos o farmacológicos en unidades psiquiátricas o de salud mental y centros residenciales y/o sociosanitarios de personas mayores y/o con discapacidad. BOE núm. 36, 11-02-2022, págs. 18260-18279, BOE-A-2022-2221 (FIS-I-2022-00001)",
+    "Comité de Bioética de España (2016). Consideraciones éticas y jurídicas sobre el uso de contenciones mecánicas y farmacológicas en los ámbitos social y sanitario. Madrid: CBE, aprobado el 7-6-2016. Web oficial: comitedebioetica.isciii.es/wp-content/uploads/2023/10/Informe-Contenciones-CBE.pdf (localizado, no descargado; recomendaciones citadas a través de la Instrucción 1/2022)",
+    "Defensor del Pueblo (2026). Buenas prácticas en las contenciones mecánicas. Madrid: Defensor del Pueblo, Mecanismo Nacional de Prevención de la Tortura (registrado en las Cortes Generales, junio de 2026; PDF oficial en defensordelpueblo.es)",
+    "Martin-Fumadó C et al. (2015). Medical professional liability in psychiatry. Actas Esp Psiquiatr 43:205-212 · PMID 26631303",
+    "Large M et al. (2016). Meta-analysis of longitudinal cohort studies of suicide risk assessment among psychiatric patients: heterogeneity in results and lack of improvement over time. PLoS One 11:e0156322 · PMID 27285387",
+    "Chung DT et al. (2017). Suicide rates after discharge from psychiatric facilities: a systematic review and meta-analysis. JAMA Psychiatry 74:694-702 · PMID 28564699",
+    "Chieze M et al. (2019). Effects of seclusion and restraint in adult psychiatry: a systematic review. Front Psychiatry 10:491 · PMID 31404294",
+    "de Jong MH et al. (2016). Interventions to reduce compulsory psychiatric admissions: a systematic review and meta-analysis. JAMA Psychiatry 73:657-664 · PMID 27249180"
+   ],
+   "rel": [
+    "internamiento",
+    "consent_cap",
+    "ideac_suic",
+    "cssrs",
+    "suic_mayor",
+    "agitacion",
+    "secreto_prof",
+    "capacidad_jur",
+    "crpd",
+    "maccat_t",
+    "perit_forense",
+    "cap_dem"
+   ]
+  }
+ ]
+}
