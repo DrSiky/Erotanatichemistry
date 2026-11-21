@@ -40,6 +40,7 @@ for (const id in (P.patch || {})) {
   (p.featsReplace || []).forEach(([a]) => { if (!(n.feats || []).includes(a)) errs.push(id + ': featsReplace sin coincidencia exacta: ' + String(a).slice(0, 50)); });
   (p.refsAdd || []).forEach(r => chkRef(id, r));
   (p.relAdd || []).forEach(i => { if (!exists(i)) errs.push(id + ': relAdd a nodo inexistente ' + i); });
+  if (p.set && 'cie' in p.set && !Array.isArray(p.set.cie)) errs.push(id + ': cie debe ser una lista');
 }
 for (const n of (P.add || [])) {
   const id = n.id || '(sin id)';
@@ -54,6 +55,7 @@ for (const n of (P.add || [])) {
   if (n.ev && !CFG.EV[n.ev]) errs.push(id + ': evidencia desconocida ' + n.ev);
   (n.tags || []).forEach(t => { if (!CFG.TAGS[t]) errs.push(id + ': etiqueta desconocida ' + t); });
   if (!n.n) errs.push(id + ': sin nombre');
+  if ('cie' in n && !Array.isArray(n.cie)) errs.push(id + ': cie debe ser una lista, p. ej. ["6C46"]');
   if (!n.ab || n.ab.length > 22) errs.push(id + ': abreviatura ausente o de más de 22 caracteres');
   if (!n.desc || n.desc.length < 150 || n.desc.length > 1200) errs.push(id + ': descripción de ' + (n.desc || '').length + ' caracteres (150-1200)');
   if (!Array.isArray(n.feats) || n.feats.length < 4) errs.push(id + ': menos de 4 rasgos');
