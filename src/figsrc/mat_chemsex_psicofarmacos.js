@@ -52,7 +52,7 @@ module.exports = {
       desc: 'Matriz de ocho sustancias del contexto del chemsex frente a nueve familias de psicofármacos, con el mecanismo de cada interacción, su fuente y el grado de base documental; tabla de mecanismos (serotoninérgico, depresión respiratoria aditiva, hipertensivo, hipotensión con nitritos e inhibidores de la PDE-5, CYP2D6, CYP3A4, GHB deshidrogenasa, umbral convulsivo, QT y atenuación del efecto); combinaciones de alarma, conducta y límites.' });
 
     let y = 92;
-    y = F.text(X, y + 18, 'Cómo leerla: ●●● contraindicación o advertencia expresa en ficha técnica, o casos mortales publicados · ●●○ interacción descrita en ficha técnica o en un ensayo en humanos · ●○○ extrapolación por clase o por mecanismo · — sin datos localizados (no significa «sin riesgo»). Los símbolos gradúan la base documental, no la magnitud del riesgo. Mecanismos: SER serotoninérgico · DEP depresión del SNC y respiratoria aditiva · HTA hipertensivo · CONV umbral convulsivo · QT · FC farmacocinético (CYP) · ATEN el psicofármaco atenúa el efecto buscado · MetHb metahemoglobinemia. «FT» = ficha técnica AEMPS-CIMA, con su apartado. Sin dosis. ↗ abre la ficha del atlas.', { fs: 19, w: FW }) + 10;
+    y = F.text(X, y + 18, 'Cómo leerla: ●●● contraindicación o advertencia expresa en ficha técnica, o casos mortales publicados · ●●○ interacción descrita en ficha técnica o en un ensayo en humanos · ●●○ [como clase]: la ficha técnica nombra la clase (p. ej., «anfetaminas»), no la sustancia concreta · ●○○ extrapolación por clase farmacológica no nombrada en la ficha o por mecanismo · — sin datos localizados (no significa «sin riesgo»). Los símbolos gradúan la base documental, no la magnitud del riesgo. Mecanismos: SER serotoninérgico · DEP depresión del SNC y respiratoria aditiva · HTA hipertensivo · CONV umbral convulsivo · QT · FC farmacocinético (CYP) · ATEN el psicofármaco atenúa el efecto buscado · MetHb metahemoglobinemia. «FT» = ficha técnica AEMPS-CIMA, con su apartado. Sin dosis. ↗ abre la ficha del atlas.', { fs: 19, w: FW }) + 10;
 
     // ───────── 1. Matriz sustancia × psicofármaco
     y = F.band(y, 'Matriz: sustancia del chemsex × familia de psicofármaco', { n: 1 }) + 16;
@@ -107,12 +107,12 @@ module.exports = {
         { sym: '●●○', t: 'CONV: «uso de estimulantes», factor de riesgo (Elontril 4.4). FC: el bupropión inhibe CYP2D6 (4.5) y la mefedrona depende de CYP2D6 in vitro (Pedersen 2013) [inferencia]' },
         N, N, N, N, N, N],
       [{ t: 'Metanfetamina', node: 'metanf' },
-        { sym: '●○○', t: 'SER: descrito, raro, con anfetaminas e ISRS o IRSN (Elvanse 4.5) [por clase]' },
-        { sym: '●●●', t: 'HTA: las anfetaminas, como clase, contraindicadas (tranilcipromina 4.3; Elvanse 4.3); crisis hipertensiva e hiperpirexia, a veces mortal (Elvanse 4.5)' },
+        { sym: '●●○', t: 'SER: descrito, raro, con anfetaminas e ISRS o IRSN (Elvanse 4.5) [como clase]' },
+        { sym: '●●○', t: 'HTA: las anfetaminas, como clase, contraindicadas (tranilcipromina 4.3; Elvanse 4.3); crisis hipertensiva e hiperpirexia, a veces mortal (Elvanse 4.5)' },
         { sym: '●●○', t: 'CONV: estimulantes, factor de riesgo (Elontril 4.4)' },
         N,
-        { sym: '●○○', t: 'ATEN: haloperidol y clorpromazina inhiben el efecto estimulante de las anfetaminas (Elvanse 4.5; Haloperidol Esteve 4.5) [por clase]' },
-        { sym: '●○○', t: 'ATEN: el litio inhibe el efecto estimulante (Elvanse 4.5) [por clase]' },
+        { sym: '●●○', t: 'ATEN: haloperidol y clorpromazina inhiben el efecto estimulante de las anfetaminas (Elvanse 4.5; Haloperidol Esteve 4.5) [como clase]' },
+        { sym: '●●○', t: 'ATEN: el litio inhibe el efecto estimulante (Elvanse 4.5) [como clase]' },
         N,
         { sym: '●○○', t: 'HTA: precaución con fármacos que elevan la presión arterial (Concerta 4.5)' },
         N],
