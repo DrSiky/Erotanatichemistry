@@ -1,0 +1,860 @@
+{
+ "patch": {
+  "clepto": {
+   "relAdd": [
+    "compras_comp"
+   ]
+  },
+  "hipser": {
+   "relAdd": [
+    "compras_comp"
+   ]
+  },
+  "juegoP": {
+   "relAdd": [
+    "compras_comp"
+   ]
+  },
+  "acum": {
+   "relAdd": [
+    "compras_comp"
+   ]
+  },
+  "impulsiv": {
+   "relAdd": [
+    "compras_comp"
+   ]
+  },
+  "tr_leng": {
+   "relAdd": [
+    "tartamudez"
+   ]
+  },
+  "fobia_soc": {
+   "relAdd": [
+    "tartamudez"
+   ]
+  },
+  "mutis_sel": {
+   "relAdd": [
+    "tartamudez"
+   ]
+  },
+  "tics_tr": {
+   "relAdd": [
+    "tartamudez"
+   ]
+  },
+  "acatisia": {
+   "relAdd": [
+    "piernas_inquietas"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "piernas_inquietas"
+   ]
+  },
+  "mirtazapina": {
+   "relAdd": [
+    "piernas_inquietas"
+   ]
+  },
+  "pregabalina": {
+   "relAdd": [
+    "piernas_inquietas"
+   ]
+  },
+  "ekbom": {
+   "relAdd": [
+    "piernas_inquietas"
+   ]
+  },
+  "apnea": {
+   "relAdd": [
+    "piernas_inquietas"
+   ]
+  },
+  "perit_forense": {
+   "relAdd": [
+    "salud_penit"
+   ]
+  },
+  "riesgo_viol": {
+   "relAdd": [
+    "salud_penit"
+   ]
+  },
+  "opioides": {
+   "relAdd": [
+    "salud_penit",
+    "sinhogar"
+   ]
+  },
+  "estigma": {
+   "relAdd": [
+    "salud_penit",
+    "sinhogar"
+   ]
+  },
+  "desig": {
+   "relAdd": [
+    "salud_penit",
+    "sinhogar"
+   ]
+  },
+  "determ_soc_sm": {
+   "relAdd": [
+    "sinhogar"
+   ]
+  },
+  "recovery": {
+   "relAdd": [
+    "sinhogar"
+   ]
+  },
+  "ips_empleo": {
+   "relAdd": [
+    "sinhogar"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "compras_comp",
+   "n": "Compra compulsiva (oniomanía)",
+   "ab": "Compra compulsiva",
+   "al": [
+    "Oniomanía",
+    "Trastorno de compra compulsiva",
+    "Compulsive buying-shopping disorder (CBSD)",
+    "Buying-shopping disorder",
+    "Compra patológica"
+   ],
+   "k": "sin",
+   "vw": "nos",
+   "sp": "ins",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "meta",
+   "y": 1994,
+   "tags": [],
+   "cie": [
+    "6C7Y"
+   ],
+   "desc": "Preocupación excesiva por comprar e impulsos de compra vividos como irresistibles, con episodios repetidos de compra desadaptativa que causan malestar, deterioro, problemas económicos y conflictos familiares pese a los intentos fallidos de controlarlos (Müller 2019). La prevalencia combinada en estudios representativos de población adulta es del 4,9 % (Maraz 2016). No figura como trastorno en el DSM-5-TR; en la CIE-11 no tiene categoría propia: el término «compulsive buying-shopping disorder» figura en el índice como término asignado a 6C7Y, otros trastornos especificados del control de los impulsos, y la herramienta de codificación lo cita como ejemplo de esa categoría (Müller 2023). Parte de la literatura propone clasificarla como adicción comportamental.",
+   "feats": [
+    "Criterios operativos preliminares de McElroy (1994): conducta de compra vivida como incontrolable; malestar marcado, consumo de tiempo o dificultades familiares, sociales, laborales o económicas; y aparición no limitada a episodios hipomaníacos o maníacos",
+    "Secuencia fenomenológica: preocupación por comprar, tensión o ansiedad previa a la compra y alivio tras ella (Black 2007), seguidos con frecuencia de culpa y arrepentimiento posteriores (Müller 2019)",
+    "Prevalencia combinada del 4,9 % en estudios representativos de población adulta, del 8,3 % en universitarios y del 16,2 % en muestras reclutadas en contextos de compra; se asocia a menor edad y a sexo femenino, con gran heterogeneidad atribuible a instrumentos y marcos temporales distintos (Maraz 2016)",
+    "Comorbilidad elevada: en 20 casos clínicos, el 95 % tenía un trastorno afectivo mayor a lo largo de la vida, el 80 % trastornos de ansiedad, el 40 % otros trastornos del control de impulsos y el 35 % trastornos de la conducta alimentaria (McElroy 1994)",
+    "En personas con trastornos de la conducta alimentaria, la prevalencia combinada de compra compulsiva o patológica comórbida es del 19 % (Devoe 2021)",
+    "Iatrogenia dopaminérgica: en 3090 personas con enfermedad de Parkinson, el 5,7 % presentaba compra compulsiva y los trastornos del control de impulsos fueron más frecuentes con agonistas dopaminérgicos (OR 2,72) (Weintraub 2010)"
+   ],
+   "tx": "La base es psicológica: la TCC grupal es la opción con mejor respaldo, aunque los estudios tienen calidad metodológica limitada (Hague 2016; Müller 2023). Los ISRS y el topiramato no superaron al placebo en ensayos controlados (Müller 2023); ningún fármaco tiene esta indicación autorizada [fuente no localizada]. Tratar la comorbilidad afectiva, ansiosa, alimentaria y por consumo; descartar hipomanía y fármacos dopaminérgicos. Asesoramiento económico, terapia de pareja o familiar y grupos de ayuda mutua como Deudores Anónimos pueden complementar el tratamiento (Black 2007).",
+   "note": "Entidad sin criterios oficiales ni categoría propia: su lugar (control de impulsos, espectro obsesivo-compulsivo o adicción comportamental) sigue en debate (Müller 2019). En la CIE-11 MMS, 6C7Y es una categoría residual y la compra compulsiva solo aparece como término de índice asignado a ella, sin descripción clínica ni pautas diagnósticas propias. Las cifras de prevalencia proceden sobre todo de cuestionarios de cribado, no de entrevistas clínicas, y no debe patologizarse el consumo habitual o el gasto elevado sin pérdida de control ni deterioro.",
+   "sec": [
+    {
+     "t": "Fenomenología y estado nosológico",
+     "x": "El fenómeno se describió hace más de un siglo (Müller 2019); el término oniomanía se atribuye a Kraepelin y Bleuler [fuente no localizada]. Su núcleo es la preocupación por comprar, con impulsos de compra experimentados como irresistibles y episodios recurrentes de compra excesiva que la persona no consigue frenar pese a reconocer la pérdida de autocontrol; lo adquirido suele importar menos que el acto de comprar y puede quedar sin usar [fuente no localizada]. Las consecuencias incluyen deudas, discordia familiar, deterioro laboral y peor calidad de vida (Müller 2019). El DSM-5-TR no la incluye como trastorno; en la CIE-11 se codifica como otro trastorno especificado del control de los impulsos (6C7Y), categoría a la que el índice asigna el término «compulsive buying-shopping disorder» y que la herramienta de codificación ilustra con ella (Müller 2023). Un grupo internacional de expertos defiende considerarla una adicción comportamental (Müller 2019). La compra en línea ha ganado peso, pero ningún ensayo terapéutico ha estudiado específicamente esta forma (Müller 2023).",
+     "links": [
+      {
+       "ids": [
+        "clepto",
+        "hipser",
+        "impulsiv"
+       ],
+       "t": "trastornos del control de los impulsos"
+      },
+      {
+       "ids": [
+        "juegoP",
+        "gaming"
+       ],
+       "t": "adicciones comportamentales"
+      },
+      {
+       "ids": [
+        "acum",
+        "toc_dsm"
+       ],
+       "t": "espectro obsesivo-compulsivo"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial y comorbilidad",
+     "x": "El diferencial principal es la hipomanía o la manía, en las que el gasto excesivo es episódico y se acompaña de elevación del ánimo y menor necesidad de sueño; los criterios de McElroy exigen que la conducta no aparezca solo en esos episodios (McElroy 1994). Deben descartarse los efectos de los agonistas dopaminérgicos, asociados a trastornos del control de impulsos, incluida la compra compulsiva (Weintraub 2010). Con el trastorno de acumulación comparte la adquisición excesiva, pero en este domina la dificultad para desprenderse de los objetos [fuente no localizada]. La comorbilidad es la regla: trastornos afectivos y de ansiedad, consumo de sustancias, trastornos de la conducta alimentaria y otros trastornos del control de impulsos; muchas personas cumplen criterios de un trastorno de la personalidad, sin un perfil de personalidad específico (Black 2007). En los trastornos de la conducta alimentaria, alrededor de una de cada cinco personas presenta compra compulsiva comórbida (Devoe 2021), por lo que conviene cribarla en ese contexto.",
+     "links": [
+      {
+       "ids": [
+        "ep_hipom",
+        "ep_mania",
+        "tb1",
+        "tb2"
+       ],
+       "t": "hipomanía y manía"
+      },
+      {
+       "ids": [
+        "parkinson_psiq"
+       ],
+       "t": "iatrogenia dopaminérgica"
+      },
+      {
+       "ids": [
+        "acum"
+       ],
+       "t": "trastorno de acumulación"
+      },
+      {
+       "ids": [
+        "bul",
+        "bed"
+       ],
+       "t": "trastornos de la conducta alimentaria"
+      },
+      {
+       "ids": [
+        "ddm",
+        "tag"
+       ],
+       "t": "comorbilidad afectiva y ansiosa"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico y evidencia",
+     "x": "Una revisión sistemática de 29 estudios (17 de psicoterapia y 12 de farmacoterapia) halló efectos grandes para la psicoterapia grupal y la farmacoterapia, pero solo 5 estudios tenían alta calidad metodológica y existía riesgo de sesgo de publicación; la psicoterapia grupal se consideró la opción más prometedora (Hague 2016). La actualización prerregistrada de Müller (2023) incluyó 13 estudios: la TCC grupal redujo los síntomas en diseños con lista de espera, mientras que los ISRS y el topiramato no mostraron superioridad frente a placebo; el riesgo de sesgo de comunicación fue alto y no se estudiaron los mecanismos de cambio. En la práctica: evaluación de la comorbilidad y del riesgo económico, entrevista motivacional, TCC centrada en desencadenantes emocionales, control de estímulos (tarjetas, compras en línea) y reestructuración cognitiva [fuente no localizada], con asesoramiento económico, terapia de pareja y Deudores Anónimos como apoyos (Black 2007). El tratamiento de una depresión comórbida puede aliviar la conducta, aunque esta evidencia es observacional (McElroy 1994).",
+     "links": [
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "entrevista motivacional"
+      },
+      {
+       "ids": [
+        "tcc_dep"
+       ],
+       "t": "terapia cognitiva"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "ISRS"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "American Psychiatric Association (2022). Manual diagnóstico y estadístico de los trastornos mentales, 5.ª ed., texto revisado (DSM-5-TR). Washington, DC: APA Publishing",
+    "OMS (2026). CIE-11 para estadísticas de mortalidad y morbilidad, versión 2026-01: 6C7Y Other specified impulse control disorders, con el término de índice «Compulsive buying-shopping disorder»",
+    "Maraz A, Griffiths MD & Demetrovics Z (2016). The prevalence of compulsive buying: a meta-analysis. Addiction 111:408-419 · PMID 26517309",
+    "Müller A et al. (2019). Buying-shopping disorder—is there enough evidence to support its inclusion in ICD-11? CNS Spectr 24:374-379 · PMID 30604662",
+    "Müller A et al. (2023). Update on treatment studies for compulsive buying-shopping disorder: a systematic review. J Behav Addict 12:631-651 · PMID 37450373",
+    "Hague B, Hall J & Kellett S (2016). Treatments for compulsive buying: a systematic review of the quality, effectiveness and progression of the outcome evidence. J Behav Addict 5:379-394 · PMID 27640529",
+    "Black DW (2007). A review of compulsive buying disorder. World Psychiatry 6:14-18 · PMID 17342214",
+    "McElroy SL et al. (1994). Compulsive buying: a report of 20 cases. J Clin Psychiatry 55:242-248 · PMID 8071278",
+    "Devoe DJ et al. (2021). The prevalence of impulse control disorders and behavioral addictions in eating disorders: a systematic review and meta-analysis. Front Psychiatry 12:724034 · PMID 35069274",
+    "Weintraub D et al. (2010). Impulse control disorders in Parkinson disease: a cross-sectional study of 3090 patients. Arch Neurol 67:589-595 · PMID 20457959"
+   ],
+   "rel": [
+    "clepto",
+    "hipser",
+    "juegoP",
+    "acum",
+    "impulsiv",
+    "bul",
+    "bed",
+    "ep_hipom",
+    "parkinson_psiq",
+    "gaming"
+   ]
+  },
+  {
+   "id": "tartamudez",
+   "n": "Trastorno de la fluidez de inicio en la infancia (tartamudez)",
+   "ab": "Tartamudez",
+   "al": [
+    "Tartamudez",
+    "Disfemia",
+    "Trastorno del desarrollo de la fluidez del habla (CIE-11)",
+    "Childhood-onset fluency disorder",
+    "Stuttering"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "ndev",
+   "ring": 1,
+   "trad": "dsm",
+   "cs": "h",
+   "ev": "crit",
+   "y": 2013,
+   "tags": [
+    "child"
+   ],
+   "cie": [
+    "6A01.1"
+   ],
+   "desc": "Alteración de la fluidez y de la organización temporal del habla, inadecuada para la edad y el nivel de lenguaje, con repeticiones de sonidos y sílabas, prolongaciones, bloqueos y palabras emitidas con tensión, que genera ansiedad al hablar o limita la comunicación, la participación social o el rendimiento. El DSM-5-TR lo sitúa entre los trastornos de la comunicación del neurodesarrollo y la CIE-11 lo codifica como trastorno del desarrollo de la fluidez del habla (6A01.1). Suele comenzar antes de los 5 años (Yairi 2013), con alta tasa de recuperación natural; en la edad adulta se asocia con frecuencia a trastorno de ansiedad social (Blumgart 2010).",
+   "feats": [
+    "DSM-5-TR (criterio A): alteraciones persistentes de la fluidez, con una o más de: repeticiones de sonidos y sílabas, prolongaciones de consonantes y vocales, palabras fragmentadas, bloqueos audibles o silenciosos, circunloquios, palabras producidas con exceso de tensión física y repeticiones de palabras monosilábicas completas (APA 2022)",
+    "DSM-5-TR (criterios B-D): causa ansiedad al hablar o limita la comunicación eficaz, la participación social o el rendimiento académico o laboral; inicio en el periodo temprano del desarrollo; no atribuible a déficit motor del habla o sensorial, a disfluencia por lesión neurológica u otra afección médica, ni mejor explicado por otro trastorno mental (APA 2022)",
+    "Incidencia acumulada del 11,2 % hasta los 4 años en una cohorte comunitaria australiana de 1619 niños y niñas; predijeron el inicio el sexo masculino, el nivel educativo materno más alto y la gemelaridad; solo el 6,3 % se recuperó en los 12 meses siguientes al inicio (Reilly 2013)",
+    "La mayor parte del riesgo de inicio se concentra antes de los 5 años; la incidencia a lo largo de la vida podría superar el 5 % y la prevalencia media ser inferior al 1 %, lo que refleja una alta recuperación natural; los estudios genéticos apuntan a genes candidatos (Yairi 2013)",
+    "En 200 adultos que tartamudean, la prevalencia puntual de trastorno de ansiedad social fue de al menos el 40 % (Blumgart 2010); en adultos que buscan tratamiento, las probabilidades de fobia social fueron entre 16 y 34 veces mayores que en controles (Iverach 2009)",
+    "El programa Lidcombe redujo la frecuencia de tartamudeo en preescolares frente a control (1,5 % frente a 3,9 % de sílabas tartamudeadas a los 9 meses; Jones 2005) y es la intervención con mayor nivel de evidencia en edad preescolar (Brignell 2021)"
+   ],
+   "tx": "Valoración logopédica especializada, con audiometría y exploración del lenguaje; en preescolares, intervención temprana directa (programa Lidcombe, con la mejor evidencia) o indirecta, que también se mostró eficaz (Brignell 2021). En la edad escolar y la adolescencia no hay evidencia de alto nivel (Brignell 2021). En la persona adulta, técnicas de reestructuración del habla [fuente no localizada] y evaluación y tratamiento de la ansiedad social, idealmente mediante colaboración entre logopedia y psicología (Iverach 2014). Ningún fármaco tiene esta indicación [fuente no localizada].",
+   "note": "La tartamudez no es un trastorno de ansiedad ni se debe a un problema emocional del niño o la niña o a la crianza [fuente no localizada]; la ansiedad social del adulto es en gran medida una consecuencia que debe diagnosticarse y tratarse por sí misma (Iverach 2014). El DSM-IV dificultaba diagnosticar fobia social en quien tartamudea (Blumgart 2010). La recuperación natural es alta en conjunto (Yairi 2013), pero lenta en el primer año tras el inicio (Reilly 2013), por lo que no está justificado esperar indefinidamente si persiste o genera malestar. La evidencia de los ensayos procede sobre todo de Australia y Nueva Zelanda.",
+   "sec": [
+    {
+     "t": "Curso, remisión y factores pronósticos",
+     "x": "El inicio se produce sobre todo en la etapa preescolar: la mayor parte del riesgo de comenzar ha pasado a los 5 años; la proporción entre varones y mujeres cerca del inicio es menor de lo que se pensaba, y los estudios longitudinales y de prevalencia respaldan altas tasas de recuperación natural, con subtipos persistente y recuperado diferenciables (Yairi 2013). En la cohorte comunitaria Early Language in Victoria, la incidencia acumulada a los 4 años fue del 11,2 %; los niños y niñas que tartamudeaban tenían de media mejor lenguaje y cognición no verbal y mejor calidad de vida relacionada con la salud que sus iguales, y solo el 6,3 % se había recuperado al año del inicio (Reilly 2013). En el primer año tras el inicio no suelen observarse efectos adversos (Reilly 2013); la persistencia en la edad escolar reduce la probabilidad de remisión espontánea [fuente no localizada]. Los antecedentes familiares de tartamudez persistente se consideran un factor de riesgo de persistencia [fuente no localizada]. Si aparece por primera vez en la edad adulta, el DSM-5-TR la remite al trastorno de la fluidez de inicio en la edad adulta (APA 2022), y conviene descartar causas neurológicas o farmacológicas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tr_leng"
+       ],
+       "t": "trastorno del lenguaje"
+      },
+      {
+       "ids": [
+        "tea",
+        "tdah"
+       ],
+       "t": "otros trastornos del neurodesarrollo"
+      }
+     ]
+    },
+    {
+     "t": "Ansiedad social y repercusión psicológica",
+     "x": "La investigación antigua sobre ansiedad y tartamudez fue inconsistente por muestras pequeñas y medidas unidimensionales; los estudios recientes con cuestionarios de ansiedad social y entrevistas diagnósticas en muestras amplias muestran una tasa muy alta de trastorno de ansiedad social en adultos que tartamudean (Iverach 2014). En 200 adultos, la prevalencia puntual fue de al menos el 40 %, con riesgo elevado de la forma generalizada (Blumgart 2010); en 92 adultos que buscaban tratamiento, las probabilidades de cualquier trastorno de ansiedad en 12 meses fueron 6-7 veces mayores, las de fobia social 16-34 veces y las de ansiedad generalizada unas 4 veces (Iverach 2009). Con el DSM-IV se tendía a atribuir toda la ansiedad social a la tartamudez, lo que podía dejarla sin tratar (Blumgart 2010). La evitación de palabras y situaciones, la anticipación de burlas y el acoso escolar contribuyen al malestar [fuente no localizada]. Diferencial con el mutismo selectivo, en el que el silencio depende del contexto y no hay disfluencia [fuente no localizada]. La prevalencia en la infancia y la adolescencia está por determinar (Iverach 2014).",
+     "links": [
+      {
+       "ids": [
+        "fobia_soc",
+        "mod_clark_wells",
+        "lsas"
+       ],
+       "t": "ansiedad social"
+      },
+      {
+       "ids": [
+        "tag"
+       ],
+       "t": "ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "mutis_sel"
+       ],
+       "t": "mutismo selectivo"
+      },
+      {
+       "ids": [
+        "acoso_esc"
+       ],
+       "t": "acoso escolar"
+      }
+     ]
+    },
+    {
+     "t": "Tratamiento: programa Lidcombe y otras intervenciones",
+     "x": "El programa Lidcombe es un tratamiento conductual administrado por las figuras parentales bajo supervisión logopédica, basado en comentarios verbales a la fluidez y al tartamudeo durante conversaciones cotidianas [fuente no localizada]. En un ensayo aleatorizado pragmático con 54 preescolares de 3 a 6 años en Nueva Zelanda, el porcentaje de sílabas tartamudeadas a los 9 meses fue del 1,5 % con Lidcombe frente al 3,9 % en el grupo control, una diferencia de más del doble de la mínima clínicamente relevante (Jones 2005). Una revisión sistemática con metaanálisis de 8 ensayos (riesgo de sesgo moderado) concluyó que tanto Lidcombe como los enfoques indirectos basados en el modelo de demandas y capacidades reducen la tartamudez en preescolares, que Lidcombe tiene el mayor nivel de evidencia, que la telepráctica y el formato grupal son tan eficaces como la atención presencial individual y que no hay evidencia de alto nivel para escolares ni adolescentes (Brignell 2021). En adultos, la TCC para la ansiedad social se recomienda junto al tratamiento del habla, aunque su eficacia en esta población requiere confirmación (Iverach 2014).",
+     "links": [
+      {
+       "ids": [
+        "tcc_inf"
+       ],
+       "t": "TCC en la infancia"
+      },
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "tratamiento de la ansiedad social"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "American Psychiatric Association (2022). Manual diagnóstico y estadístico de los trastornos mentales, 5.ª ed., texto revisado (DSM-5-TR). Washington, DC: APA Publishing",
+    "OMS (2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6A01.1 Developmental speech fluency disorder (denominación oficial en inglés; la traducción española no se ha cotejado)",
+    "Yairi E & Ambrose N (2013). Epidemiology of stuttering: 21st century advances. J Fluency Disord 38:66-87 · PMID 23773662",
+    "Reilly S et al. (2013). Natural history of stuttering to 4 years of age: a prospective community-based study. Pediatrics 132:460-467 · PMID 23979093",
+    "Blumgart E, Tran Y & Craig A (2010). Social anxiety disorder in adults who stutter. Depress Anxiety 27:687-692 · PMID 20058242",
+    "Iverach L et al. (2009). Prevalence of anxiety disorders among adults seeking speech therapy for stuttering. J Anxiety Disord 23:928-934 · PMID 19595561",
+    "Iverach L & Rapee RM (2014). Social anxiety disorder and stuttering: current status and future directions. J Fluency Disord 40:69-82 · PMID 24929468",
+    "Jones M et al. (2005). Randomised controlled trial of the Lidcombe programme of early stuttering intervention. BMJ 331:659 · PMID 16096286",
+    "Brignell A et al. (2021). Interventions for children and adolescents who stutter: a systematic review, meta-analysis, and evidence map. J Fluency Disord 70:105843 · PMID 33743406"
+   ],
+   "rel": [
+    "tr_leng",
+    "fobia_soc",
+    "mutis_sel",
+    "tea",
+    "tdah",
+    "tics_tr",
+    "acoso_esc",
+    "tcc_inf"
+   ]
+  },
+  {
+   "id": "piernas_inquietas",
+   "n": "Síndrome de piernas inquietas (enfermedad de Willis-Ekbom)",
+   "ab": "Piernas inquietas",
+   "al": [
+    "Enfermedad de Willis-Ekbom",
+    "SPI",
+    "Restless legs syndrome (RLS)",
+    "RLS/WED"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "ins",
+   "ring": 1,
+   "trad": "icsd",
+   "cs": "h",
+   "ev": "guia",
+   "y": 2014,
+   "tags": [
+    "organic"
+   ],
+   "cie": [
+    "7A80"
+   ],
+   "desc": "Trastorno sensitivo-motor del sueño caracterizado por necesidad imperiosa de mover las piernas, habitualmente con sensaciones desagradables, que empieza o empeora en reposo, se alivia con el movimiento y predomina por la tarde o la noche; produce insomnio de conciliación y malestar diurno. Diagnóstico clínico con los criterios del IRLSSG (Allen 2014); la CIE-11 lo clasifica entre los trastornos del movimiento relacionados con el sueño (7A80) y el DSM-5-TR entre los trastornos del sueño-vigilia. Su relevancia psiquiátrica es triple: se asocia a ansiedad y depresión (Ohayon 2012), puede inducirse o agravarse con psicofármacos (Perez-Lloret 2012; Kolla 2018) y se confunde con la acatisia. No debe confundirse con el síndrome de Ekbom de parasitosis delirante.",
+   "feats": [
+    "Criterios IRLSSG 2014: necesidad de mover las piernas, generalmente acompañada o causada por sensaciones desagradables; comienza o empeora en reposo; se alivia parcial o totalmente con el movimiento mientras dura; aparece solo o empeora por la tarde o la noche; y no se explica únicamente por otra afección (criterio de diagnóstico diferencial añadido en 2014) (Allen 2014)",
+    "Especificadores IRLSSG: curso crónico-persistente o intermitente y SPI clínicamente significativo; los criterios pediátricos y de la persona adulta se unificaron (Allen 2014)",
+    "Prevalencia en población adulta del 1,9 % al 4,6 % cuando se aplica el diagnóstico diferencial; mayor en mujeres y creciente con la edad en Europa y Norteamérica; asociación constante con síntomas de ansiedad y depresión (Ohayon 2012)",
+    "Ferropenia: la deficiencia cerebral de hierro interviene en la fisiopatología; estudiar ferritina y saturación de transferrina en todo SPI clínicamente significativo; por consenso no contrastado empíricamente, en adultos se suplementa hierro oral o intravenoso si la ferritina es ≤75 ng/ml o la saturación <20 %, y solo intravenoso con ferritina de 75-100 ng/ml (Allen 2018; Winkelman 2025)",
+    "Inducción y agravamiento farmacológico: en farmacovigilancia francesa se asoció sobre todo a antidepresivos, neurolépticos y tramadol (Perez-Lloret 2012); con antidepresivos la aparición o el empeoramiento son poco frecuentes, más con mirtazapina (Kolla 2018)",
+    "Aumento (augmentation) con fármacos dopaminérgicos, incluso a dosis bajas; por ello la AASM desaconseja su uso estándar y recomienda con fuerza gabapentina, pregabalina, gabapentina enacarbilo y carboximaltosa férrica intravenosa con parámetros férricos adecuados (las demás formulaciones de hierro intravenoso reciben recomendación condicional) (García-Borreguero 2016; Winkelman 2025)"
+   ],
+   "tx": "Primer paso: corregir factores agravantes (alcohol, cafeína, fármacos antihistamínicos, serotoninérgicos y antidopaminérgicos, apnea obstructiva no tratada) y estudiar el hierro (Winkelman 2025). Guía AASM: recomendación fuerte para ligandos α2δ (gabapentina enacarbilo, gabapentina, pregabalina) y carboximaltosa férrica intravenosa con parámetros férricos adecuados; condicional para sulfato ferroso oral, dipiridamol, opioides y estimulación del nervio peroneo; condicional en contra del uso estándar de levodopa, pramipexol, ropinirol y rotigotina por el riesgo de aumento, y en contra de bupropión, clonazepam, carbamazepina, valproato y valeriana (Winkelman 2025). En España, la ficha técnica de Lyrica (AEMPS-CIMA) no incluye el síndrome de piernas inquietas entre las indicaciones de la pregabalina, por lo que su uso es fuera de ficha técnica; comprobar la indicación autorizada de cada fármaco en CIMA.",
+   "note": "Diagnóstico clínico; no requiere polisomnografía [fuente no localizada]. En pacientes psiquiátricos, distinguirlo de la acatisia antes de añadir o retirar fármacos. Los datos sobre antidepresivos proceden de estudios de diseño pobre y poblaciones heterogéneas (Kolla 2018), y los de farmacovigilancia indican una reacción adversa muy rara (Perez-Lloret 2012). Los umbrales de ferritina son de consenso y no se han contrastado empíricamente (Winkelman 2025). La guía AASM se publicó en línea en 2024 y en papel en 2025. El epónimo Ekbom también designa la parasitosis delirante, entidad distinta.",
+   "sec": [
+    {
+     "t": "Diagnóstico diferencial en psiquiatría: acatisia y otros",
+     "x": "El quinto criterio del IRLSSG exige que los síntomas no se expliquen solo por otra afección (Allen 2014): calambres, mialgias, estasis venosa, edema, artritis, molestias posturales o movimientos habituales de los pies [fuente no localizada]. En psiquiatría el diferencial clave es la acatisia: inquietud interior más generalizada, sin predominio vespertino claro ni alivio específico con el movimiento de las piernas, relacionada temporalmente con el inicio o el aumento de un antipsicótico o, con menor frecuencia, de un ISRS [fuente no localizada]. También debe distinguirse de la ansiedad con inquietud motora, de la agitación depresiva y, en la infancia, del TDAH [fuente no localizada]. Ambos cuadros pueden coexistir, y antipsicóticos y antidepresivos figuran entre los fármacos asociados al síndrome de piernas inquietas en farmacovigilancia (Perez-Lloret 2012). El insomnio de conciliación secundario puede diagnosticarse erróneamente como insomnio primario o ansiedad; preguntar siempre por sensaciones en las piernas al acostarse [fuente no localizada]. La asociación con ansiedad y depresión es constante en los estudios poblacionales (Ohayon 2012).",
+     "links": [
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "acatisia"
+      },
+      {
+       "ids": [
+        "insom",
+        "insomnio_sx"
+       ],
+       "t": "insomnio"
+      },
+      {
+       "ids": [
+        "tag",
+        "ddm",
+        "agdep"
+       ],
+       "t": "ansiedad, depresión y agitación"
+      },
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "TDAH en la infancia"
+      },
+      {
+       "ids": [
+        "ekbom"
+       ],
+       "t": "no confundir con la parasitosis delirante"
+      }
+     ]
+    },
+    {
+     "t": "Psicofármacos que inducen o agravan el síndrome",
+     "x": "En la base francesa de farmacovigilancia (1984-2009), los fármacos sospechosos más frecuentes fueron los antidepresivos (amitriptilina, escitalopram, mianserina, mirtazapina, duloxetina), los neurolépticos (tioridazina, loxapina, risperidona, aripiprazol) y el tramadol, con odds ratios de notificación de 15,9, 17,8 y 18,2, aunque la reacción es muy rara (Perez-Lloret 2012). Una revisión sistemática de 18 estudios prospectivos concluyó que la aparición o el empeoramiento tras iniciar un antidepresivo son poco frecuentes; la mirtazapina se asoció a tasas más altas, un estudio pequeño sugirió efecto de la venlafaxina, sertralina, fluoxetina y amitriptilina aumentaron movimientos periódicos de las extremidades sin repercusión clínica aparente, el bupropión podría reducir los síntomas a corto plazo y los antidepresivos sedantes como trazodona y doxepina no parecen agravar los movimientos periódicos (Kolla 2018). La guía AASM incluye los fármacos antihistamínicos, serotoninérgicos y antidopaminérgicos entre los factores agravantes que deben abordarse primero, aunque desaconseja el bupropión como tratamiento del síndrome (Winkelman 2025). Las directrices sobre el aumento citan antidepresivos y antihistamínicos entre los factores extrínsecos que hay que corregir (García-Borreguero 2016).",
+     "links": [
+      {
+       "ids": [
+        "mirtazapina",
+        "isrs",
+        "venlafaxina",
+        "trazodona",
+        "bupropion"
+       ],
+       "t": "antidepresivos"
+      },
+      {
+       "ids": [
+        "aripiprazol",
+        "d2_block"
+       ],
+       "t": "antipsicóticos"
+      },
+      {
+       "ids": [
+        "hidroxizina"
+       ],
+       "t": "antihistamínicos"
+      }
+     ]
+    },
+    {
+     "t": "Tratamiento según guías y aumento dopaminérgico",
+     "x": "La guía de la AASM, basada en revisión sistemática y GRADE, establece como buenas prácticas estudiar el hierro (ferritina y saturación de transferrina, idealmente por la mañana), corregir los factores agravantes y considerar el perfil de seguridad en el embarazo, donde el síndrome es frecuente (Winkelman 2025). Recomienda con fuerza la gabapentina enacarbilo, la gabapentina, la pregabalina y la carboximaltosa férrica intravenosa con parámetros férricos adecuados; sugiere el sulfato ferroso oral, el hierro intravenoso de otras formulaciones, el dipiridamol, los opioides y la estimulación bilateral del nervio peroneo; y sugiere no usar de forma estándar levodopa, pramipexol, ropinirol ni rotigotina, que solo se plantean si la persona prioriza el alivio a corto plazo frente al riesgo de aumento; la cabergolina se desaconseja con fuerza (Winkelman 2025). El aumento es el empeoramiento de los síntomas inducido por el tratamiento dopaminérgico, con inicio más temprano, mayor intensidad o extensión a otras partes del cuerpo [fuente no localizada]; puede aparecer incluso con dosis bajas, y para prevenirlo pueden preferirse los ligandos α2δ como tratamiento inicial; su manejo empieza por corregir el hierro y retirar antidepresivos o antihistamínicos agravantes (García-Borreguero 2016). En enfermedad renal terminal la guía sugiere gabapentina, hierro sacarosa intravenoso y vitamina C (Winkelman 2025).",
+     "links": [
+      {
+       "ids": [
+        "pregabalina"
+       ],
+       "t": "pregabalina"
+      },
+      {
+       "ids": [
+        "parkinson_psiq"
+       ],
+       "t": "efectos de los agonistas dopaminérgicos"
+      },
+      {
+       "ids": [
+        "apnea"
+       ],
+       "t": "apnea obstructiva del sueño"
+      },
+      {
+       "ids": [
+        "emb_peri"
+       ],
+       "t": "embarazo"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Allen RP et al. (2014). Restless legs syndrome/Willis-Ekbom disease diagnostic criteria: updated International Restless Legs Syndrome Study Group (IRLSSG) consensus criteria—history, rationale, description, and significance. Sleep Med 15:860-873 · PMID 25023924",
+    "OMS (2022). CIE-11 para estadísticas de mortalidad y morbilidad, 7A80 Síndrome de piernas inquietas",
+    "American Psychiatric Association (2022). Manual diagnóstico y estadístico de los trastornos mentales, 5.ª ed., texto revisado (DSM-5-TR). Washington, DC: APA Publishing",
+    "Winkelman JW et al. (2025). Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 21:137-152 · PMID 39324694",
+    "García-Borreguero D et al. (2016). Guidelines for the first-line treatment of restless legs syndrome/Willis-Ekbom disease, prevention and treatment of dopaminergic augmentation: a combined task force of the IRLSSG, EURLSSG, and the RLS-foundation. Sleep Med 21:1-11 · PMID 27448465",
+    "Allen RP et al. (2018). Evidence-based and consensus clinical practice guidelines for the iron treatment of restless legs syndrome/Willis-Ekbom disease in adults and children: an IRLSSG task force report. Sleep Med 41:27-44 · PMID 29425576",
+    "Ohayon MM, O'Hara R & Vitiello MV (2012). Epidemiology of restless legs syndrome: a synthesis of the literature. Sleep Med Rev 16:283-295 · PMID 21795081",
+    "Kolla BP, Mansukhani MP & Bostwick JM (2018). The influence of antidepressants on restless legs syndrome and periodic limb movements: a systematic review. Sleep Med Rev 38:131-140 · PMID 28822709",
+    "Perez-Lloret S et al. (2012). Drugs associated with restless legs syndrome: a case/noncase study in the French Pharmacovigilance Database. J Clin Psychopharmacol 32:824-827 · PMID 23131889"
+   ],
+   "rel": [
+    "acatisia",
+    "insom",
+    "ekbom",
+    "mirtazapina",
+    "pregabalina",
+    "apnea",
+    "ddm",
+    "tag",
+    "hidroxizina",
+    "parkinson_psiq"
+   ]
+  },
+  {
+   "id": "salud_penit",
+   "n": "Salud mental en prisión",
+   "ab": "Salud mental prisión",
+   "al": [
+    "Salud mental penitenciaria",
+    "Psiquiatría penitenciaria",
+    "Personas privadas de libertad y salud mental",
+    "Prison mental health"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2012,
+   "tags": [
+    "forense",
+    "risk"
+   ],
+   "desc": "Las personas privadas de libertad presentan mayor prevalencia de todos los trastornos mentales estudiados que la población general, con baja detección y tratamiento, y mayor riesgo de muerte por cualquier causa, muerte por suicidio, autolesiones, violencia y victimización (Fazel 2016). En el mundo, alrededor del 3,6-3,9 % tiene una psicosis y el 10-14 % una depresión mayor (Fazel y Seewald 2012); los trastornos por consumo de sustancias son aún más frecuentes (Fazel 2017b). En España, la Secretaría General de Instituciones Penitenciarias aplica el Programa Marco de Atención Integral a Enfermos Mentales en centros penitenciarios (PAIEM) (SGIP 2009), y dos hospitales psiquiátricos penitenciarios, en Sevilla (Massé-García 2017) y Alicante (Runte-Geidel 2014), atienden a personas con trastorno mental grave declaradas inimputables de todo el país (Calcedo-Barba 2024). Se desconoce cuánto contribuye la prisión a la enfermedad, pero las carencias de tratamiento y de atención tras la excarcelación empeoran los resultados (Fazel 2011).",
+   "feats": [
+    "Metaanálisis de 109 muestras con 33 588 personas presas de 24 países: psicosis en el 3,6 % de los varones y el 3,9 % de las mujeres; depresión mayor en el 10,2 % y el 14,1 %; prevalencia de psicosis mayor en países de ingresos bajos y medios (5,5 %) ; sin aumento a lo largo del tiempo, salvo la depresión en Estados Unidos (Fazel y Seewald 2012)",
+    "Al ingreso en prisión, el 24 % tiene un trastorno por consumo de alcohol; los trastornos por consumo de drogas afectan al 30 % de los varones y al 51 % de las mujeres, con tendencia creciente (Fazel 2017b)",
+    "Muerte por suicidio: 3906 casos en 24 países de ingresos altos entre 2011 y 2014; tasas superiores a 100 por 100 000 personas presas en varios países nórdicos y de Europa occidental, con razones de tasas frente a la población general típicamente mayores de 3 en varones y de 9 en mujeres (Fazel 2017a)",
+    "Tras la excarcelación, el riesgo de muerte en las dos primeras semanas fue 12,7 veces el de la población general y el de muerte por sobredosis, 129 veces; las principales causas fueron sobredosis, enfermedad cardiovascular, homicidio y suicidio (Binswanger 2007)",
+    "España: en 707 varones presos, prevalencia de trastorno mental del 84,4 % a lo largo de la vida y del 41,2 % en el último mes (ansiedad 23,3 %, consumo de sustancias 17,5 %, trastornos afectivos 14,9 %, psicosis 4,2 %) (Vicens 2011)",
+    "Los tratamientos sustitutivos con opioides reducen las recaídas en el consumo y posiblemente la reincidencia; las mujeres y las personas mayores presas tienen necesidades diferenciadas (Fazel 2016)"
+   ],
+   "tx": "Mejorar la detección y el tratamiento de los trastornos psiquiátricos, mantener los tratamientos sustitutivos con opioides y atender las necesidades específicas de mujeres y personas mayores (Fazel 2016). Cribado sistemático al ingreso de salud mental, consumo y riesgo suicida; prevención del suicidio en los momentos de mayor riesgo, como el ingreso o el aislamiento; y continuidad asistencial al salir, con enlace con servicios comunitarios y naloxona para prevenir la sobredosis [fuente no localizada]. En España, el PAIEM se propone detectar, diagnosticar y tratar a todas las personas internas con un trastorno mental, mejorar su calidad de vida y autonomía y optimizar su reincorporación social con derivación a recursos sociosanitarios comunitarios (SGIP 2009).",
+   "note": "Las prevalencias varían mucho entre estudios y países; muchas proceden de entrevistas estructuradas en muestras de conveniencia, y no se sabe en qué medida la prisión aumenta la incidencia de trastornos mentales (Fazel 2016). El estudio español incluyó solo varones (Vicens 2011). Debe evitarse la asociación estigmatizante entre trastorno mental y delito: la mayoría de las personas con trastorno mental no comete delitos violentos [fuente no localizada]. La descripción del PAIEM procede de su protocolo de aplicación de 2009 y puede no reflejar su desarrollo posterior; la organización asistencial difiere entre comunidades autónomas (Calcedo-Barba 2024).",
+   "sec": [
+    {
+     "t": "Prevalencia, suicidio y mortalidad",
+     "x": "Más de 10 millones de personas están encarceladas en el mundo; la prevalencia de todos los trastornos mentales investigados es mayor que en la población general, y existe riesgo aumentado de mortalidad por cualquier causa, muerte por suicidio, autolesiones, violencia y victimización (Fazel 2016). Las prevalencias de psicosis y depresión mayor se han mantenido altas de forma consistente durante cuatro décadas (Fazel y Seewald 2012). Las mujeres, las personas de 55 años o más y la población juvenil presentan tasas más altas de muchos trastornos (Fazel 2011). Las tasas de muerte por suicidio en prisión superan las 100 por 100 000 al año en varios países europeos y no se asociaron a la tasa de suicidio de la población general ni a la mayoría de los factores penitenciarios estudiados, lo que exige datos individuales (Fazel 2017a). El periodo inmediato a la excarcelación es crítico, sobre todo por sobredosis (Binswanger 2007). Las personas excluidas socialmente, incluidas las presas, tienen razones de mortalidad estandarizadas muy elevadas, mayores en mujeres (Aldridge 2018).",
+     "links": [
+      {
+       "ids": [
+        "durkheim",
+        "cssrs"
+       ],
+       "t": "suicidio y su evaluación"
+      },
+      {
+       "ids": [
+        "opioides",
+        "naloxona",
+        "opioides_sint"
+       ],
+       "t": "sobredosis tras la excarcelación"
+      },
+      {
+       "ids": [
+        "esq",
+        "ddm",
+        "ptsd",
+        "tpanti"
+       ],
+       "t": "trastornos frecuentes"
+      }
+     ]
+    },
+    {
+     "t": "Consumo de sustancias y patología dual",
+     "x": "Aproximadamente una cuarta parte de quienes ingresan en prisión, de ambos sexos, tiene un trastorno por consumo de alcohol, y la prevalencia de trastornos por consumo de drogas es al menos igual en varones y mayor en mujeres, con aumento en las últimas décadas (Fazel 2017b). En España, el trastorno por consumo de sustancias fue el diagnóstico más frecuente a lo largo de la vida en varones presos (76,2 %), seguido de ansiedad (45,3 %), trastornos afectivos (41 %) y psicosis (10,7 %) (Vicens 2011). En un centro penitenciario español, la mitad de las consultas de atención primaria estaba relacionada con problemas de salud mental y el diagnóstico más frecuente de derivación fue la depresión asociada a trastorno adictivo (Arroyo 2007). Los ensayos muestran que los tratamientos sustitutivos con opioides reducen las recaídas y posiblemente la reincidencia (Fazel 2016). La reducción de daños (programas de metadona, intercambio de jeringuillas, naloxona al salir) y el tratamiento integrado de la patología dual son pilares del abordaje [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "opioides",
+        "cocaina"
+       ],
+       "t": "trastornos por consumo"
+      },
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "tratamiento con agonistas opioides"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    },
+    {
+     "t": "Programas en España y hospitales psiquiátricos penitenciarios",
+     "x": "El protocolo de aplicación del PAIEM de la Secretaría General de Instituciones Penitenciarias (septiembre de 2009), que revisó un Programa Marco previo, fija un único equipo multidisciplinar de salud mental por centro y tres líneas de actuación: atención clínica, rehabilitación con programa individualizado y reincorporación social con continuidad de cuidados en la red comunitaria (SGIP 2009). La sanidad penitenciaria es estatal salvo en Cataluña, el País Vasco y Navarra; los modelos vasco y catalán integran equipos de salud mental a tiempo completo en el sistema autonómico (Calcedo-Barba 2024). Los hospitales psiquiátricos penitenciarios de Sevilla y Alicante atienden a personas inimputables con trastorno mental grave de toda España (Calcedo-Barba 2024): el art. 101 del Código Penal permite el internamiento para tratamiento de quien queda exento por anomalía o alteración psíquica (art. 20.1.º), sin superar la duración de la pena que habría correspondido, y el art. 104, además de la pena, en la eximente incompleta. En 50 pacientes con esquizofrenia del hospital de Sevilla, el abordaje integral se asoció a menor vulnerabilidad psicótica y a una reincidencia del 6 %, siempre en personas con patología dual, sin poder inferir causalidad (Massé-García 2017). Tras la excarcelación conviene reevaluar el riesgo de violencia considerando exclusión social y consumo; la HCR-20 mostró alta validez predictiva en una muestra madrileña de 44 personas (Fernández-García-Andrade 2020).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "riesgo_viol"
+       ],
+       "t": "pericia y valoración del riesgo"
+      },
+      {
+       "ids": [
+        "recovery",
+        "ips_empleo"
+       ],
+       "t": "rehabilitación y recuperación"
+      },
+      {
+       "ids": [
+        "sinhogar",
+        "estigma"
+       ],
+       "t": "exclusión social y estigma"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Fazel S & Seewald K (2012). Severe mental illness in 33,588 prisoners worldwide: systematic review and meta-regression analysis. Br J Psychiatry 200:364-373 · PMID 22550330",
+    "Fazel S et al. (2016). Mental health of prisoners: prevalence, adverse outcomes, and interventions. Lancet Psychiatry 3:871-881 · PMID 27426440",
+    "Fazel S & Baillargeon J (2011). The health of prisoners. Lancet 377:956-965 · PMID 21093904",
+    "Fazel S, Ramesh T & Hawton K (2017a). Suicide in prisons: an international study of prevalence and contributory factors. Lancet Psychiatry 4:946-952 · PMID 29179937",
+    "Fazel S, Yoon IA & Hayes AJ (2017b). Substance use disorders in prisoners: an updated systematic review and meta-regression analysis in recently incarcerated men and women. Addiction 112:1725-1739 · PMID 28543749",
+    "Binswanger IA et al. (2007). Release from prison—a high risk of death for former inmates. N Engl J Med 356:157-165 · PMID 17215533",
+    "Aldridge RW et al. (2018). Morbidity and mortality in homeless individuals, prisoners, sex workers, and individuals with substance use disorders in high-income countries: a systematic review and meta-analysis. Lancet 391:241-250 · PMID 29137869",
+    "Vicens E et al. (2011). The prevalence of mental disorders in Spanish prisons. Crim Behav Ment Health 21:321-332 · PMID 21706528",
+    "Arroyo JM & Ortega E (2007). [A quality improvement program for mental health care in prison: an evaluation of the results (2000-2005)]. Rev Esp Sanid Penit 9:6-15 · PMID 23128610",
+    "Massé-García P, Lamas-Bosque FJ & Massé-Palomo A (2017). Impact on the psychotic vulnerability of the therapeutic approach in the Prison Psychiatric Hospital in Seville (Spain). Rev Esp Sanid Penit 19:13-18 · PMID 28327886",
+    "Fernández-García-Andrade R et al. (2020). Mental illness and social exclusion: assessment of the risk of violence after release. Rev Esp Sanid Penit 22:23-31 · PMID 32406478",
+    "Secretaría General de Instituciones Penitenciarias, Dirección General de Coordinación Territorial y Medio Abierto (2009). Protocolo de aplicación del Programa Marco de Atención Integral a Enfermos Mentales en Centros Penitenciarios (PAIEM). Septiembre de 2009",
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995), arts. 20.1.º, 101 y 104. BOE núm. 281, de 24/11/1995; texto consolidado en boe.es (BOE-A-1995-25444)",
+    "Calcedo-Barba A et al. (2024). Indifferent minds, broken system: a critical examination of mental health care provision for Spain's incarcerated population with serious mental illnesses. Front Psychiatry 15:1340155 · PMID 39234620",
+    "Runte-Geidel A et al. (2014). Study of coercive measures in prisons and secure psychiatric hospitals: the views of inmates and caregivers. Rev Esp Sanid Penit 16:3-10 · PMID 24615372"
+   ],
+   "rel": [
+    "estigma",
+    "desig",
+    "opioides",
+    "metadona",
+    "esq",
+    "ptsd",
+    "riesgo_viol",
+    "perit_forense",
+    "red_danos",
+    "sinhogar"
+   ]
+  },
+  {
+   "id": "sinhogar",
+   "n": "Sinhogarismo y salud mental",
+   "ab": "Sinhogarismo",
+   "al": [
+    "Personas en situación de sinhogarismo",
+    "Personas sin hogar",
+    "Exclusión residencial",
+    "Homelessness"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2008,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Las personas en situación de sinhogarismo tienen una carga de trastornos mentales muy superior a la de la población general: en países de ingresos altos, alrededor de tres de cada cuatro presentan algún trastorno mental actual, sobre todo por consumo de alcohol y otras drogas, trastornos del espectro de la esquizofrenia y depresión mayor (Gutwinski 2021). Sus causas combinan factores individuales, entre ellos los problemas de salud mental y de consumo, y estructurales, de los que la disponibilidad de vivienda asequible se considera el más importante (Fazel 2014). La mortalidad prematura es muy elevada, sobre todo por suicidio y lesiones no intencionadas (Fazel 2014). El modelo Housing First (vivienda primero), evaluado en el ensayo canadiense At Home/Chez Soi, mejora con rapidez la estabilidad residencial de las personas con trastorno mental grave (Aubry 2016).",
+   "feats": [
+    "Primer metaanálisis (29 encuestas, 5684 personas, 7 países occidentales): dependencia del alcohol entre el 8,1 % y el 58,5 %, de drogas entre el 4,5 % y el 54,2 % y enfermedad psicótica entre el 2,8 % y el 42,3 %, con gran heterogeneidad; la dependencia del alcohol aumentó en las últimas décadas (Fazel 2008)",
+    "Actualización (39 publicaciones, 8049 personas, países de ingresos altos): algún trastorno mental actual en el 76,2 %; trastornos por consumo de alcohol 36,7 %, por consumo de drogas 21,7 %, espectro de la esquizofrenia 12,4 % y depresión mayor 12,6 % (Gutwinski 2021)",
+    "Mortalidad: en poblaciones socialmente excluidas (personas sin hogar, presas, que ejercen trabajo sexual o con trastornos por consumo), razón de mortalidad estandarizada de 11,86 en mujeres y 7,88 en varones, con predominio de causas externas (Aldridge 2018)",
+    "Housing First con tratamiento asertivo comunitario (950 participantes, 5 ciudades canadienses): 71 % del tiempo en vivienda estable frente a 29 % con la atención habitual, acceso más rápido a la vivienda y mejoras de calidad de vida y funcionamiento atenuadas al segundo año (Aubry 2016)",
+    "Housing First con gestión intensiva de casos en necesidades moderadas (1198 participantes): más días con vivienda estable a 24 meses, sin mejora de la calidad de vida genérica (Stergiopoulos 2015)",
+    "En España, el programa Hábitat (HOGAR SÍ y Provivienda) aplica Housing First desde 2014 y en un ensayo controlado aleatorizado (2015-2020, 18 meses) logró mejoras significativas en la mayoría de las áreas analizadas (Martín-Fernández 2024); en Madrid, un equipo de calle de salud mental (ECASAM) atiende a personas sin hogar con trastorno mental grave (Fernández-García-Andrade 2020)"
+   ],
+   "tx": "Acceso inmediato a una vivienda estable sin exigir tratamiento o abstinencia previos (Housing First), con apoyo de tratamiento asertivo comunitario o gestión intensiva de casos según la necesidad (Aubry 2016; Stergiopoulos 2015); equipos de calle y atención de salud mental de proximidad; tratamiento de la patología dual y reducción de daños; revisión periódica de cómo los servicios evalúan, tratan y siguen a estas personas (Gutwinski 2021). Prevención en grupos de alto riesgo, como quienes salen de prisión, de hospitales psiquiátricos o del sistema de protección a la infancia (Fazel 2014).",
+   "note": "Las prevalencias dependen mucho del método de muestreo, del país y de la proporción de mujeres; faltan datos sobre mujeres, personas migrantes y necesidades asistenciales no cubiertas (Gutwinski 2021). Las cifras de mortalidad de Aldridge (2018) agregan cuatro poblaciones excluidas y no son específicas del sinhogarismo. El modelo Housing First mejora sobre todo la estabilidad residencial; sus efectos sobre la sintomatología y la calidad de vida son menores o se atenúan (Aubry 2016; Stergiopoulos 2015). Lenguaje: hablar de «personas en situación de sinhogarismo», no de «indigentes», y evitar atribuir la situación solo a la enfermedad mental.",
+   "sec": [
+    {
+     "t": "Prevalencia de trastornos mentales",
+     "x": "El metaanálisis de Fazel (2008) reunió 29 encuestas basadas en entrevistas a muestras no seleccionadas de personas sin hogar de siete países: los trastornos más frecuentes fueron la dependencia del alcohol y de otras drogas, y las prevalencias de enfermedad psicótica y trastornos de la personalidad superaban a las de la población general de igual edad, con heterogeneidad muy alta. La actualización de Gutwinski (2021), limitada a países de ingresos altos y a diagnósticos con criterios estandarizados, estimó una prevalencia media de algún trastorno mental actual del 76,2 %, con predominio de los trastornos por consumo de alcohol (36,7 %) y de drogas (21,7 %), seguidos del espectro de la esquizofrenia (12,4 %) y la depresión mayor (12,6 %); el método de muestreo, el lugar y la proporción de sexos explicaron parte de la heterogeneidad. Los autores concluyen que la elevada carga de trastornos por consumo y del espectro de la esquizofrenia debe orientar el desarrollo de servicios. Se describen además tasas altas de enfermedades infecciosas y no transmisibles, con envejecimiento acelerado (Fazel 2014).",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "opioides",
+        "cocaina"
+       ],
+       "t": "trastornos por consumo"
+      },
+      {
+       "ids": [
+        "esq",
+        "ddm",
+        "tlp"
+       ],
+       "t": "psicosis, depresión y personalidad"
+      },
+      {
+       "ids": [
+        "vih_ncd"
+       ],
+       "t": "comorbilidad infecciosa"
+      }
+     ]
+    },
+    {
+     "t": "Causas, mortalidad y determinantes estructurales",
+     "x": "Las causas del sinhogarismo resultan de la interacción entre factores individuales (pobreza, problemas familiares, problemas de salud mental y de consumo) y estructurales, de los que la disponibilidad de vivienda de bajo coste se considera el más importante (Fazel 2014). Las personas sin hogar tienen más mortalidad prematura que el resto de la población, sobre todo por suicidio y lesiones no intencionadas, acuden más a urgencias y encuentran barreras para mantener el contacto con los servicios y la adherencia a los tratamientos (Fazel 2014). En una revisión de 337 estudios en países de ingresos altos, la mortalidad por todas las causas aumentó en el 99 % de los datos extraídos en las poblaciones socialmente excluidas, con mayor efecto relativo en las mujeres y con las causas externas (lesiones, intoxicaciones) como primera categoría (Aldridge 2018). La salida de prisión, de hospitales psiquiátricos y del sistema de protección a la infancia son transiciones de alto riesgo (Fazel 2014). El estigma y la discriminación dificultan el acceso a la vivienda, al empleo y a la atención sanitaria [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "desig",
+        "determ_soc_sm"
+       ],
+       "t": "pobreza y determinantes sociales"
+      },
+      {
+       "ids": [
+        "salud_penit"
+       ],
+       "t": "salida de prisión"
+      },
+      {
+       "ids": [
+        "estigma",
+        "soledad"
+       ],
+       "t": "estigma y aislamiento"
+      },
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "adversidad infantil"
+      }
+     ]
+    },
+    {
+     "t": "Housing First: At Home/Chez Soi y programa Hábitat",
+     "x": "Housing First ofrece de entrada una vivienda independiente y dispersa, sin condicionarla a tratamiento ni abstinencia, junto con apoyos de salud mental [fuente no localizada]. En el ensayo multicéntrico canadiense At Home/Chez Soi, las personas con trastorno mental grave asignadas a Housing First con tratamiento asertivo comunitario pasaron el 71 % del tiempo en vivienda estable frente al 29 % con la atención habitual, accedieron antes a la vivienda (73 frente a 220 días) y mostraron mejor calidad de vida y funcionamiento comunitario, aunque las diferencias se atenuaron al segundo año (Aubry 2016). En participantes con necesidades moderadas, la vivienda dispersa con gestión intensiva de casos aumentó la estabilidad residencial a 24 meses sin mejorar la calidad de vida genérica (Stergiopoulos 2015). En España, el programa Hábitat (HOGAR SÍ y Provivienda) introdujo el modelo en 2014; su evaluación mediante ensayo controlado aleatorizado entre 2015 y 2020, con grupo control y 18 meses de seguimiento, halló mejoras significativas en la mayoría de las áreas analizadas, más allá de la vivienda, y compensación parcial de su coste en otros servicios (Martín-Fernández 2024). El enfoque se integra con la reducción de daños, el empleo con apoyo y el modelo de recuperación.",
+     "links": [
+      {
+       "ids": [
+        "recovery",
+        "ips_empleo"
+       ],
+       "t": "recuperación y empleo con apoyo"
+      },
+      {
+       "ids": [
+        "red_danos",
+        "entrev_motiv"
+       ],
+       "t": "reducción de daños y motivación"
+      },
+      {
+       "ids": [
+        "psicpref"
+       ],
+       "t": "intervención temprana en psicosis"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Fazel S et al. (2008). The prevalence of mental disorders among the homeless in western countries: systematic review and meta-regression analysis. PLoS Med 5:e225 · PMID 19053169",
+    "Gutwinski S et al. (2021). The prevalence of mental disorders among homeless people in high-income countries: an updated systematic review and meta-regression analysis. PLoS Med 18:e1003750 · PMID 34424908",
+    "Fazel S, Geddes JR & Kushel M (2014). The health of homeless people in high-income countries: descriptive epidemiology, health consequences, and clinical and policy recommendations. Lancet 384:1529-1540 · PMID 25390578",
+    "Aldridge RW et al. (2018). Morbidity and mortality in homeless individuals, prisoners, sex workers, and individuals with substance use disorders in high-income countries: a systematic review and meta-analysis. Lancet 391:241-250 · PMID 29137869",
+    "Aubry T et al. (2016). A multiple-city RCT of Housing First with assertive community treatment for homeless Canadians with serious mental illness. Psychiatr Serv 67:275-281 · PMID 26620289",
+    "Stergiopoulos V et al. (2015). Effect of scattered-site housing using rent supplements and intensive case management on housing stability among homeless adults with mental illness: a randomized trial. JAMA 313:905-915 · PMID 25734732",
+    "Fernández-García-Andrade R et al. (2020). Mental illness and social exclusion: assessment of the risk of violence after release. Rev Esp Sanid Penit 22:23-31 · PMID 32406478",
+    "Martín-Fernández JA, Martínez-Cantos JL & Panadero Herrero S (2024). Evaluación de un programa Housing First: buscando una solución viable para transformar la vida de las personas sin hogar. Rev Esp Sociol 33(2):a226 · DOI 10.22325/fes/res.2024.226 (no indexada en PubMed)",
+    "HOGAR SÍ (2026). Housing First: evaluación de la metodología Housing First en España (programa Hábitat de HOGAR SÍ y Provivienda). hogarsi.org/housing-first, consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "desig",
+    "determ_soc_sm",
+    "estigma",
+    "esq",
+    "alcohol",
+    "opioides",
+    "recovery",
+    "ips_empleo",
+    "salud_penit",
+    "soledad",
+    "red_danos"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1010 @@
+{
+ "patch": {
+  "nortriptilina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 mantiene los tricíclicos en segunda línea (tabla 3.3) por su perfil de efectos adversos y de seguridad, y señala a la nortriptilina como el de menos efectos anticolinérgicos e hipotensores, con buen perfil de seguridad y eficacia en personas mayores y en la depresión tras un ictus; los tricíclicos conservan un papel en la depresión resistente y de difícil tratamiento, sus niveles séricos ayudan a ajustar el tratamiento y, tras una TEC eficaz, el litio combinado con nortriptilina o con venlafaxina previno mejor las recaídas que el antidepresivo solo (Lam 2024). NICE NG222 pide no iniciar de forma rutinaria tricíclicos (salvo lofepramina) si hay riesgo significativo de suicidio (1.4.23) y sitúa el cambio a un tricíclico en atención especializada (1.9.5). No figura entre los 21 antidepresivos del metaanálisis en red de Cipriani (2018), que de los tricíclicos solo incluyó amitriptilina y clomipramina. En dolor neuropático, la revisión Cochrane halló poca evidencia y no respalda su uso como primera línea (Derry 2015). Embarazo y lactancia: sin recomendación específica de guía localizada [fuente no localizada]; la ficha técnica de Norfenazin no la recomienda en el embarazo salvo necesidad clara, pide controlar niveles séricos por los cambios cinéticos y advierte de que se excreta en la leche (4.6). Nota factual: indicación autorizada limitada al trastorno depresivo mayor en adultos; Norfenazin consta autorizado y comercializado en CIMA (noviembre de 2026).",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "amitriptilina"
+       ],
+       "t": "clase y tricíclico de referencia en dolor"
+      },
+      {
+       "ids": [
+        "drt",
+        "tec_dep",
+        "lm_bip"
+       ],
+       "t": "resistencia y prevención de recaídas tras TEC"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "polifarm"
+       ],
+       "t": "uso en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Amina secundaria con inhibición predominante de la recaptación de noradrenalina; según Gillman (2007), nortriptilina y desipramina reúnen las características farmacológicas más favorables de la clase como inhibidores noradrenérgicos y generan pocas interacciones. Su exposición depende de CYP2D6 y no de CYP2C19: los inhibidores potentes de esta enzima (p. ej., fluoxetina) pueden elevar de forma marcada las concentraciones de tricíclicos, y la guía CPIC recoge la propuesta de tratar a quien los recibe como a un metabolizador lento; hasta un 20 % de las personas tratadas por depresión puede comportarse como metabolizador lento (Hicks 2017). Perfil comparativo: los tricíclicos se asocian a menos hiponatremia que los ISRS (odds ratios de 1,1-4,9 frente a 1,5-21,6; De Picker 2014); en el metaanálisis de peso corporal el tricíclico asociado a mayor ganancia fue la amitriptilina (Serretti 2010), aunque la ficha técnica de Norfenazin recoge el aumento de peso como muy frecuente y la disminución de la libido como frecuente (4.8); no se han localizado datos comparativos de disfunción sexual [fuente no localizada]. En una cohorte de mayores de 65 años los tricíclicos no presentaron la razón de riesgo más alta en ningún desenlace adverso, con posible confusión por indicación (Coupland 2011). Síndrome de discontinuación: CANMAT 2023 clasifica a los tricíclicos en riesgo moderado y NICE recuerda que la retirada puede producir síntomas con cualquier clase (Lam 2024; NICE NG222, 1.4.18).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "cpic_tca",
+        "fenot_metab"
+       ],
+       "t": "dependencia de CYP2D6 y fenoconversión"
+      },
+      {
+       "ids": [
+        "fluoxetina",
+        "paroxetina"
+       ],
+       "t": "inhibidores potentes de CYP2D6"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "polifarm"
+       ],
+       "t": "efectos adversos comparados"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Sobredosis: el mecanismo principal es el bloqueo de los canales de sodio cardiacos, con prolongación de PR, QRS y QT, arritmias e hipotensión; las arritmias graves y la muerte suelen ocurrir en las primeras 24 horas y el nivel de conciencia al ingreso es el predictor clínico más sensible de complicaciones (Thanacoody 2005; ficha técnica de Norfenazin, 4.9). NICE NG222 pide valorar esa toxicidad y, si es preciso, limitar la cantidad disponible si hay riesgo de suicidio, con revisión precoz en personas de 18 a 25 años (1.2.12 y 1.4.22). Viraje: los tricíclicos se asociaron a más manía que los inhibidores de la recaptación de serotonina (Tondo 2010) y, en depresión bipolar, a un 10 % de virajes frente al 3,2 % del resto de antidepresivos (Gijsman 2004). IMAO: aunque Gillman (2007) la considera farmacológicamente segura con ellos, rige la contraindicación de la ficha técnica (4.3). Consumo y chemsex: la ficha técnica de Norvir prevé que el ritonavir a dosis antirretrovirales aumente la nortriptilina por inhibición de CYP2D6; el cobicistat es un inhibidor débil de CYP2D6 (ficha de Tybost); la magnitud a dosis de potenciador no se ha localizado [fuente no localizada]. La ficha de Norfenazin no recomienda asociarla a simpaticomiméticos, cuyos efectos cardiovasculares puede potenciar (4.5); la extensión a metanfetamina, MDMA o catinonas es plausible, sin datos clínicos localizados [fuente no localizada]; sin datos sobre GHB, poppers o inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_mayor"
+       ],
+       "t": "letalidad en sobredosis y riesgo suicida"
+      },
+      {
+       "ids": [
+        "bp3",
+        "riad"
+       ],
+       "t": "viraje por antidepresivos"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "metanf",
+        "mefed"
+       ],
+       "t": "antirretrovirales potenciados y estimulantes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Gillman PK (2007). Tricyclic antidepressant pharmacology and therapeutic drug interactions updated. Br J Pharmacol 151:737-748 · PMID 17471183",
+    "Thanacoody HKR & Thomas SHL (2005). Tricyclic antidepressant poisoning: cardiovascular toxicity. Toxicol Rev 24:205-214 · PMID 16390222",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "Derry S et al. (2015). Nortriptyline for neuropathic pain in adults. Cochrane Database Syst Rev 1:CD011209 · PMID 25569864",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Coupland C et al. (2011). Antidepressant use and risk of adverse outcomes in older people: population based cohort study. BMJ 343:d4551 · PMID 21810886",
+    "Tondo L, Vázquez G & Baldessarini RJ (2010). Mania associated with antidepressant treatment: comprehensive meta-analytic review. Acta Psychiatr Scand 121:404-414 · PMID 19958306",
+    "Gijsman HJ et al. (2004). Antidepressants for bipolar depression: a systematic review of randomized, controlled trials. Am J Psychiatry 161:1537-1547 · PMID 15337640",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "AEMPS-CIMA (2026). Ficha técnica de Norfenazin 25 mg comprimidos (nortriptilina) (nº de registro 48463), apartados 4.3, 4.5, 4.6, 4.8 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5, y de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartados 4.4 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de información online de medicamentos: estado de autorización y de comercialización de las presentaciones de nortriptilina, clomipramina, imipramina, moclobemida y tranilcipromina (cima.aemps.es); consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "drt",
+    "tec_dep",
+    "cyp2d6",
+    "chemsex_arv",
+    "bp3"
+   ]
+  },
+  "clomipramina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En depresión, CANMAT 2023 sitúa los tricíclicos en segunda línea (tabla 3.3) y cita la clomipramina como opción con posible especificidad cuando la depresión mayor coexiste con un trastorno obsesivo-compulsivo (Lam 2024). En el metaanálisis en red de Cipriani (2018) fue el único fármaco con peor aceptabilidad que placebo (OR de abandonos 1,30; ICrI 95 % 1,01-1,68) y figuró entre los de mayor tasa de abandonos en las comparaciones directas. NICE NG222 pide no iniciar de forma rutinaria tricíclicos (salvo lofepramina) si hay riesgo significativo de suicidio (1.4.23) y sitúa el cambio a un tricíclico en atención especializada (1.9.5). En el trastorno de pánico, la revisión Cochrane mostró beneficio de los tricíclicos como clase frente a placebo, con más abandonos por efectos adversos; NICE y la BAP consideran de primera línea a los ISRS por su perfil más favorable (Bighelli 2018). El lugar en el TOC se detalla en la ficha (Skapinakis 2016) y en los nodos enlazados. No se ha localizado el grado de recomendación actual en la cataplejía [fuente no localizada]. Poblaciones: la autorización pediátrica se limita al TOC y a la enuresis nocturna, esta a partir de los 5 años (ficha técnica de Anafranil, 4.1); en edad avanzada la ficha pide precaución y aumentos prudentes (4.2). Nota factual: las indicaciones autorizadas en fobias y crisis de angustia no equivalen a una prioridad de uso en las guías actuales; Anafranil consta autorizado y comercializado en CIMA (noviembre de 2026).",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "toc_ped",
+        "isrs"
+       ],
+       "t": "TOC: ISRS antes que clomipramina"
+      },
+      {
+       "ids": [
+        "panic",
+        "farm_anx"
+       ],
+       "t": "pánico y farmacoterapia de la ansiedad"
+      },
+      {
+       "ids": [
+        "tca_dep",
+        "nar",
+        "polifarm"
+       ],
+       "t": "clase, cataplejía y carga anticolinérgica"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Según Gillman (2007), es el único antidepresivo disponible con buena evidencia de inhibición clínicamente relevante de la recaptación tanto de serotonina como de noradrenalina; el componente noradrenérgico corresponde a su metabolito desmetilado (véase la ficha). Como amina terciaria, CYP2C19 la convierte en la amina secundaria y CYP2D6 hidroxila ambas a compuestos menos activos; en los metabolizadores lentos de CYP2C19 cabe esperar un predominio serotoninérgico por menor desmetilación, y la guía CPIC considera razonable extrapolarle, con grado opcional, las recomendaciones formuladas para amitriptilina y nortriptilina (Hicks 2017). La ficha técnica de Anafranil recoge que los inhibidores de CYP2D6 elevan la clomipramina y su metabolito activo y que la fluvoxamina multiplicó por cuatro sus niveles (4.5). Efectos adversos: perfil anticolinérgico de clase (boca seca, estreñimiento; Lam 2024); el metaanálisis de disfunción sexual emergente no ofrece estimación para la clomipramina (Serretti 2009), pero la ficha técnica clasifica como muy frecuentes los trastornos de la libido, la disfunción eréctil y el aumento de peso (4.8); la hiponatremia es menos frecuente con tricíclicos que con ISRS (De Picker 2014). QTc y umbral convulsivo: véase la ficha. Síndrome de discontinuación: riesgo moderado para la clase según CANMAT 2023 (Lam 2024); la ficha técnica describe síntomas tras la retirada súbita (4.8) y NICE recuerda que pueden aparecer con cualquier clase (NG222, 1.4.18).",
+     "links": [
+      {
+       "ids": [
+        "cyp2c19",
+        "cyp2d6",
+        "cpic_tca"
+       ],
+       "t": "metabolismo y farmacogenética"
+      },
+      {
+       "ids": [
+        "fluvoxamina",
+        "paroxetina",
+        "fluoxetina"
+       ],
+       "t": "ISRS que elevan sus niveles"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "sexual_sx"
+       ],
+       "t": "efectos sexuales"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Síndrome serotoninérgico: es el tricíclico con mayor potencia sobre el transportador de serotonina y su ficha técnica contraindica los IMAO (14 días antes o después) y la moclobemida (Anafranil, 4.3); la combinación de moclobemida con clomipramina o con un ISRS se ha asociado, aunque raramente, a síndrome serotoninérgico potencialmente letal (Bonnet 2003), y en una serie, 11 de 21 personas (55 %) que tomaron moclobemida con otro serotoninérgico desarrollaron toxicidad (Isbister 2003). Sobredosis: bloqueo de canales de sodio con ensanchamiento del QRS, arritmias e hipotensión, sobre todo en las primeras 24 horas (Thanacoody 2005); la ficha técnica advierte de que el peligro puede durar de 4 a 6 días y de que en la infancia cualquier ingesta accidental es grave (4.9); limitar la cantidad dispensada si hay riesgo suicida (NICE NG222, 1.2.12) y revisar pronto a las personas de 18 a 25 años (1.4.22). Viraje maníaco: mayor con tricíclicos que con ISRS (Tondo 2010; Gijsman 2004). Consumo y chemsex: la toxicidad serotoninérgica al sumarse a liberadores de serotonina (MDMA, catinonas, metanfetamina) es plausible, sin series localizadas [fuente no localizada]; la ficha advierte de que potencia el efecto cardiovascular de simpaticomiméticos (4.5); ritonavir y cobicistat inhiben CYP3A y, en distinto grado, CYP2D6 (fichas de Norvir y Tybost), con magnitud no localizada [fuente no localizada]; sin datos sobre GHB, poppers o inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "moclobemida",
+        "maois"
+       ],
+       "t": "toxicidad serotoninérgica con IMAO"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "sobredosis y viraje"
+      },
+      {
+       "ids": [
+        "alucinogenos",
+        "mefed",
+        "chemsex_arv"
+       ],
+       "t": "MDMA, catinonas y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Gillman PK (2007). Tricyclic antidepressant pharmacology and therapeutic drug interactions updated. Br J Pharmacol 151:737-748 · PMID 17471183",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "Bighelli I et al. (2018). Antidepressants versus placebo for panic disorder in adults. Cochrane Database Syst Rev 4:CD010676 · PMID 29620793",
+    "Bonnet U (2003). Moclobemide: therapeutic use and clinical studies. CNS Drug Rev 9:97-140 · PMID 12595913",
+    "Isbister GK et al. (2003). Moclobemide poisoning: toxicokinetics and occurrence of serotonin toxicity. Br J Clin Pharmacol 56:441-450 · PMID 12968990",
+    "Thanacoody HKR & Thomas SHL (2005). Tricyclic antidepressant poisoning: cardiovascular toxicity. Toxicol Rev 24:205-214 · PMID 16390222",
+    "Tondo L, Vázquez G & Baldessarini RJ (2010). Mania associated with antidepressant treatment: comprehensive meta-analytic review. Acta Psychiatr Scand 121:404-414 · PMID 19958306",
+    "Gijsman HJ et al. (2004). Antidepressants for bipolar depression: a systematic review of randomized, controlled trials. Am J Psychiatry 161:1537-1547 · PMID 15337640",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "AEMPS-CIMA (2026). Ficha técnica de Anafranil 25 mg comprimidos recubiertos (clomipramina) (nº de registro 44656), apartados 4.1-4.3, 4.5, 4.8 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5, y de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartados 4.4 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de información online de medicamentos: estado de autorización y de comercialización de las presentaciones de nortriptilina, clomipramina, imipramina, moclobemida y tranilcipromina (cima.aemps.es); consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "moclobemida",
+    "toc_ped",
+    "cyp2c19",
+    "cyp2d6",
+    "chemsex_arv"
+   ]
+  },
+  "imipramina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 mantiene a los tricíclicos en segunda línea para la depresión mayor (tabla 3.3), con un papel en los cuadros resistentes o de difícil tratamiento cuando fallan las opciones de primera y segunda línea (Lam 2024); NICE NG222 pide no iniciarlos de forma rutinaria (salvo lofepramina) si hay riesgo significativo de suicidio (1.4.23) y sitúa el cambio a un tricíclico en atención especializada (1.9.5). No figura entre los 21 antidepresivos del metaanálisis en red de Cipriani (2018). En el trastorno de pánico, los tricíclicos como clase superaron a placebo en respuesta y en abandonos por cualquier causa, pero con más abandonos por efectos adversos, y las guías NICE y BAP dan prioridad a los ISRS (Bighelli 2018). En el dolor neuropático, la revisión Cochrane halló poca evidencia, de muy baja calidad, que respalde su uso (Hearn 2014). En la enuresis su lugar queda por detrás de las alarmas (Caldwell 2016). Poblaciones: en mayores de 65 años los tricíclicos no mostraron la razón de riesgo más alta en ningún desenlace adverso, con posible confusión por indicación (Coupland 2011), pero la carga anticolinérgica de las aminas terciarias obliga a valorar alternativas [fuente no localizada]. Nota factual: la ficha técnica de Tofranil contraindica el embarazo, la lactancia y el uso en menores de 18 años para la depresión (4.3); Tofranil consta autorizado y comercializado en CIMA, con problemas de suministro señalados para las presentaciones de 25 y 50 mg (noviembre de 2026).",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "drt"
+       ],
+       "t": "clase y depresión resistente"
+      },
+      {
+       "ids": [
+        "panic",
+        "farm_anx",
+        "enuresis"
+       ],
+       "t": "pánico y enuresis"
+      },
+      {
+       "ids": [
+        "amitriptilina",
+        "dolor_cron_prim",
+        "polifarm"
+       ],
+       "t": "dolor y persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Amina terciaria que inhibe la recaptación de serotonina y noradrenalina; CYP2C19 la desmetila a desipramina, amina secundaria de predominio noradrenérgico con características farmacológicas favorables como inhibidor de la recaptación de noradrenalina (Gillman 2007), y CYP2D6 hidroxila ambas a compuestos menos activos. La guía CPIC considera razonable extrapolarle, con grado opcional, las recomendaciones de amitriptilina y nortriptilina, y recuerda que los inhibidores potentes de CYP2D6 elevan de forma marcada los niveles de tricíclicos (Hicks 2017). Efectos adversos comparados: en el metaanálisis de disfunción sexual emergente la imipramina superó a placebo y se situó tras sertralina, venlafaxina, citalopram, paroxetina y fluoxetina en orden de impacto (Serretti 2009); la clase produce sobre todo efectos anticolinérgicos (Lam 2024), menos hiponatremia que los ISRS (De Picker 2014) e hipotensión por bloqueo alfa-adrenérgico, evidente en la intoxicación (Thanacoody 2005). El metaanálisis de peso no la identifica entre los fármacos con mayor ganancia (Serretti 2010), aunque la ficha técnica de Tofranil recoge el aumento de peso como muy frecuente (4.8). Síndrome de discontinuación: figura entre los fármacos con mayor frecuencia y gravedad de síntomas (Henssler 2024), lo que refuerza la cautela al retirarla que pide NICE NG222 (1.4.18).",
+     "links": [
+      {
+       "ids": [
+        "cyp2c19",
+        "cyp2d6",
+        "cpic_tca"
+       ],
+       "t": "desmetilación, hidroxilación y farmacogenética"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "sexual_sx"
+       ],
+       "t": "disfunción sexual emergente"
+      },
+      {
+       "ids": [
+        "isrs",
+        "monoamin"
+       ],
+       "t": "comparación con ISRS"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Sobredosis: causa cardiotoxicidad por bloqueo de los canales de sodio (prolongación de PR, QRS y QT, arritmias) e hipotensión; las arritmias graves y la muerte suelen producirse en las primeras 24 horas y un QRS superior a 100 ms predice mejor la toxicidad cardiovascular que la concentración plasmática, con sensibilidad solo moderada (Thanacoody 2005); la ficha técnica de Tofranil añade que el peligro puede durar de 4 a 6 días (4.9). Si hay riesgo suicida, NICE NG222 pide valorar esa toxicidad y limitar la cantidad disponible (1.2.12), con revisión precoz en personas de 18 a 25 años (1.4.22). Viraje: 10 % con tricíclicos frente al 3,2 % con otros antidepresivos en depresión bipolar (Gijsman 2004) y mayor riesgo que con ISRS (Tondo 2010). IMAO: contraindicados, incluida la moclobemida (Tofranil, 4.3); la ficha de la tranilcipromina contraindica expresamente la imipramina. Consumo y chemsex: la ficha de Tofranil advierte de que potencia el efecto cardiovascular de los simpaticomiméticos (4.5); la extensión a metanfetamina, MDMA y catinonas es plausible, sin datos clínicos localizados [fuente no localizada]. La ficha técnica de Norvir prevé que el ritonavir a dosis antirretrovirales aumente la imipramina por inhibición de CYP2D6; la magnitud a dosis de potenciador o con cobicistat no se ha localizado [fuente no localizada]. Sin datos sobre GHB, poppers o inhibidores de la PDE5, aunque el bloqueo alfa-adrenérgico hace verosímil una hipotensión aditiva [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_adol"
+       ],
+       "t": "toxicidad en sobredosis y riesgo suicida"
+      },
+      {
+       "ids": [
+        "bp3",
+        "riad",
+        "maois"
+       ],
+       "t": "viraje y combinación con IMAO"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "metanf",
+        "poppers"
+       ],
+       "t": "sustancias y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "Bighelli I et al. (2018). Antidepressants versus placebo for panic disorder in adults. Cochrane Database Syst Rev 4:CD010676 · PMID 29620793",
+    "Coupland C et al. (2011). Antidepressant use and risk of adverse outcomes in older people: population based cohort study. BMJ 343:d4551 · PMID 21810886",
+    "Gillman PK (2007). Tricyclic antidepressant pharmacology and therapeutic drug interactions updated. Br J Pharmacol 151:737-748 · PMID 17471183",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "Thanacoody HKR & Thomas SHL (2005). Tricyclic antidepressant poisoning: cardiovascular toxicity. Toxicol Rev 24:205-214 · PMID 16390222",
+    "Gijsman HJ et al. (2004). Antidepressants for bipolar depression: a systematic review of randomized, controlled trials. Am J Psychiatry 161:1537-1547 · PMID 15337640",
+    "Tondo L, Vázquez G & Baldessarini RJ (2010). Mania associated with antidepressant treatment: comprehensive meta-analytic review. Acta Psychiatr Scand 121:404-414 · PMID 19958306",
+    "Hearn L et al. (2014). Imipramine for neuropathic pain in adults. Cochrane Database Syst Rev 2014(5):CD010769 · PMID 24838845",
+    "AEMPS-CIMA (2026). Ficha técnica de Tofranil 25 mg comprimidos recubiertos (imipramina) (nº de registro 31004), apartados 4.3, 4.5, 4.8 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5, y de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartados 4.4 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de información online de medicamentos: estado de autorización y de comercialización de las presentaciones de nortriptilina, clomipramina, imipramina, moclobemida y tranilcipromina (cima.aemps.es); consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "enuresis",
+    "cyp2c19",
+    "cyp2d6",
+    "chemsex_arv",
+    "bp3"
+   ]
+  },
+  "tca_dep": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG222: los ISRS son la primera elección para la mayoría de las personas; los tricíclicos «son peligrosos en sobredosis» y no deben iniciarse de forma rutinaria (salvo lofepramina) cuando hay riesgo significativo de suicidio (1.4.23); el cambio a un tricíclico tras una respuesta insuficiente se sitúa en atención especializada (1.9.5), y se admiten entre las opciones para los síntomas depresivos crónicos (1.10.2 y 1.10.6). CANMAT 2023: son tratamientos eficaces, rebajados a segunda línea (tabla 3.3) por su perfil de efectos adversos y de seguridad; conservan un papel importante en la depresión resistente y de difícil tratamiento, con posible especificidad de la amitriptilina en el dolor comórbido y de la clomipramina en el TOC comórbido, y la ventaja de que los niveles séricos orientan el ajuste (Lam 2024). Evidencia comparativa: Cipriani (2018) solo incluyó dos tricíclicos; la amitriptilina obtuvo la odds ratio de respuesta más alta frente a placebo (2,13; ICrI 95 % 1,89-2,41), y amitriptilina y clomipramina estuvieron entre los fármacos con más abandonos en las comparaciones directas. Otros ámbitos se tratan en las fichas individuales: dolor neuropático (amitriptilina), TOC (clomipramina), pánico y enuresis (imipramina). El grado de recomendación en las guías APA, WFSBP, BAP de depresión y GuíaSalud no se ha contrastado [fuente no localizada]. Nota factual: las indicaciones autorizadas de cada tricíclico constan en su ficha técnica y no determinan la prioridad de uso.",
+     "links": [
+      {
+       "ids": [
+        "amitriptilina",
+        "nortriptilina",
+        "clomipramina",
+        "imipramina"
+       ],
+       "t": "fichas individuales"
+      },
+      {
+       "ids": [
+        "isrs",
+        "drt",
+        "ddp"
+       ],
+       "t": "primera línea, resistencia y depresión crónica"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida como criterio de elección"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Inhiben la recaptación de serotonina y noradrenalina: las aminas terciarias (amitriptilina, clomipramina, imipramina) tienen un efecto serotoninérgico más pronunciado y las secundarias (nortriptilina, desipramina) uno más noradrenérgico; CYP2C19 desmetila las terciarias a secundarias y CYP2D6 hidroxila unas y otras a metabolitos menos activos, con un primer paso hepático cercano al 50 % (Hicks 2017). Sus afinidades por receptores y su perfil de inhibición enzimática explican efectos e interacciones (Gillman 2007). Efectos adversos comparados: predominan los anticolinérgicos, como boca seca y estreñimiento (Lam 2024); hiponatremia menos frecuente que con ISRS (odds ratios de 1,1-4,9 frente a 1,5-21,6; De Picker 2014); en el metaanálisis de peso destaca la amitriptilina (Serretti 2010), si bien las fichas técnicas de Norfenazin, Anafranil y Tofranil recogen el aumento de peso como muy frecuente (4.8); disfunción sexual emergente demostrada para la imipramina (Serretti 2009); hipotensión por bloqueo alfa-adrenérgico y taquicardia sinusal anticolinérgica (Thanacoody 2005). En mayores de 65 años, la cohorte de Coupland (2011) no halló para los tricíclicos la razón de riesgo más alta en ningún desenlace adverso, con posible confusión por indicación. Síndrome de discontinuación: riesgo moderado como clase (Lam 2024); la imipramina figura entre los fármacos con mayor frecuencia y gravedad (Henssler 2024).",
+     "links": [
+      {
+       "ids": [
+        "cyp2c19",
+        "cyp2d6",
+        "cpic_tca",
+        "fenot_metab"
+       ],
+       "t": "metabolismo y farmacogenética"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "fk_mayor"
+       ],
+       "t": "carga anticolinérgica en la persona mayor"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "monoamin"
+       ],
+       "t": "efectos sexuales y mecanismo monoaminérgico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Sobredosis: principal riesgo grave de la clase. El bloqueo de los canales de sodio cardiacos prolonga PR, QRS y QT y causa arritmias e hipotensión; el deterioro es rápido y la muerte suele ocurrir en las primeras 24 horas (Thanacoody 2005). La letalidad relativa fue muy superior a la de venlafaxina, mirtazapina e ISRS (Hawton 2010). NICE NG222 pide valorar la toxicidad en sobredosis y limitar la cantidad disponible si hay riesgo de suicidio (1.2.12, 1.4.23) y revisar pronto a las personas de 18 a 25 años (1.4.22). Viraje maníaco: más frecuente que con ISRS (Tondo 2010); 10 % frente al 3,2 % en depresión bipolar (Gijsman 2004). Combinaciones: las fichas técnicas contraindican los IMAO y NICE pide evitar esa asociación (NG222, 1.9); ninguna combinación de tricíclico e ISRS es lo bastante segura para aplicarse sin conocimiento experto (Gillman 2007), y los inhibidores potentes de CYP2D6 elevan sus niveles (Hicks 2017). Consumo y chemsex: la ficha técnica de Norvir prevé que el ritonavir a dosis antirretrovirales aumente imipramina, amitriptilina y nortriptilina por inhibición de CYP2D6; la magnitud a dosis de potenciador o con cobicistat no se ha localizado [fuente no localizada]. Las fichas de los tricíclicos advierten de que potencian el efecto cardiovascular de los simpaticomiméticos (4.5); la interacción con metanfetamina, MDMA, catinonas, GHB, poppers o inhibidores de la PDE5 es plausible por efectos aditivos, sin datos clínicos localizados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "sind_ser"
+       ],
+       "t": "sobredosis y toxicidad serotoninérgica"
+      },
+      {
+       "ids": [
+        "bp3",
+        "riad",
+        "maois"
+       ],
+       "t": "viraje y combinación con IMAO"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "metanf",
+        "mefed",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "sustancias del chemsex y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "Gillman PK (2007). Tricyclic antidepressant pharmacology and therapeutic drug interactions updated. Br J Pharmacol 151:737-748 · PMID 17471183",
+    "Thanacoody HKR & Thomas SHL (2005). Tricyclic antidepressant poisoning: cardiovascular toxicity. Toxicol Rev 24:205-214 · PMID 16390222",
+    "Hawton K et al. (2010). Toxicity of antidepressants: rates of suicide relative to prescribing and non-fatal overdose. Br J Psychiatry 196:354-358 · PMID 20435959",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "Coupland C et al. (2011). Antidepressant use and risk of adverse outcomes in older people: population based cohort study. BMJ 343:d4551 · PMID 21810886",
+    "Henssler J et al. (2024). Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis. Lancet Psychiatry 11:526-535 · PMID 38851198",
+    "Tondo L, Vázquez G & Baldessarini RJ (2010). Mania associated with antidepressant treatment: comprehensive meta-analytic review. Acta Psychiatr Scand 121:404-414 · PMID 19958306",
+    "Gijsman HJ et al. (2004). Antidepressants for bipolar depression: a systematic review of randomized, controlled trials. Am J Psychiatry 161:1537-1547 · PMID 15337640",
+    "AEMPS-CIMA (2026). Fichas técnicas de Norfenazin 25 mg (nortriptilina) (nº de registro 48463), Anafranil 25 mg (clomipramina) (nº de registro 44656) y Tofranil 25 mg (imipramina) (nº de registro 31004), apartados 4.3, 4.5, 4.8 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5, y de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartados 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "isrs",
+    "drt",
+    "ideac_suic",
+    "bp3",
+    "chemsex_arv"
+   ]
+  },
+  "moclobemida": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 la mantiene en segunda línea, con nivel 1 de evidencia, y reserva la tercera línea a los IMAO irreversibles fenelzina y tranilcipromina (tabla 3.3; Lam 2024). NICE NG222 la nombra, junto a los tricíclicos, los IMAO irreversibles y la amisulprida a dosis bajas, entre las alternativas para los síntomas depresivos crónicos que no responden a ISRS o IRSN, en entornos especializados o tras consulta especializada, con un lavado adecuado en los cambios (1.10.6). Evidencia: el metaanálisis de Lotufo-Neto (1999) la halló superior a placebo, tan eficaz como los tricíclicos y mejor tolerada, al menos comparable a los ISRS y algo menos eficaz, aunque mejor tolerada, que los IMAO clásicos, con poca evidencia de utilidad específica en la depresión con síntomas vegetativos inversos. No figura entre los 21 antidepresivos de Cipriani (2018). En la fobia social los ensayos controlados son discordantes y en el pánico solo hay comparaciones con fluoxetina y clomipramina, sin control con placebo (Bonnet 2003). Poblaciones: la ausencia de efectos anticolinérgicos y cardiovasculares relevantes la hace atractiva en personas mayores (Bonnet 2003); en el embarazo no se ha demostrado su inocuidad y pasa a la leche en pequeña cantidad, por lo que la ficha técnica de Manerix pide sopesar beneficios y riesgos (4.6); contraindicada en niños (4.3). Nota factual: indicación autorizada en depresión mayor; Manerix 150 y 300 mg constan autorizados y comercializados en CIMA (noviembre de 2026).",
+     "links": [
+      {
+       "ids": [
+        "maois",
+        "tranilcipromina",
+        "tca_dep"
+       ],
+       "t": "clase y alternativas de segunda y tercera línea"
+      },
+      {
+       "ids": [
+        "ddp",
+        "eatip",
+        "fobia_soc",
+        "panic"
+       ],
+       "t": "depresión crónica, atípica y ansiedad"
+      },
+      {
+       "ids": [
+        "dep_embarazo",
+        "psicof_lactancia",
+        "fk_mayor"
+       ],
+       "t": "embarazo, lactancia y edad avanzada"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Inhibidor reversible y selectivo de la MAO-A que aumenta la disponibilidad de serotonina, noradrenalina y dopamina (ficha técnica de Manerix, 5.1). Sustrato de CYP2C19; según la revisión de Bonnet (2003) inhibe CYP1A2, CYP2C19 y CYP2D6, aunque con pocas interacciones farmacocinéticas de relevancia clínica comunicadas, y su semivida corta permite cambiar de fármaco en 24 horas. Tolerabilidad comparada: mareo, náuseas e insomnio más frecuentes que con placebo; efectos anticolinérgicos y antihistamínicos insignificantes, sin aumento de peso ni efecto proconvulsivo, y sin deterioro psicomotor, cognitivo o cardiovascular a dosis terapéuticas (Bonnet 2003). La disfunción sexual emergente no difirió de placebo en el metaanálisis de Serretti (2009) y fue mucho menos frecuente que con ISRS (Bonnet 2003). La ficha técnica recoge como muy frecuentes los trastornos del sueño, el mareo, la cefalea, la sequedad de boca y las náuseas, como frecuente la hipotensión y como rara la hiponatremia (4.8); el riesgo de hiponatremia de los IMAO no pudo establecerse por falta de datos (De Picker 2014). La interacción con la tiramina solo adquiriría relevancia clínica por encima del intervalo posológico habitual (Bonnet 2003). No se han localizado datos de prolongación del QTc ni de sangrado [fuente no localizada]. Discontinuación: CANMAT 2023 asigna a los IMAO un riesgo moderado (Lam 2024).",
+     "links": [
+      {
+       "ids": [
+        "cyp2c19",
+        "cyp2d6"
+       ],
+       "t": "sustrato e inhibidor enzimático"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "sexual_sx",
+        "isrs"
+       ],
+       "t": "ventaja sexual frente a ISRS"
+      },
+      {
+       "ids": [
+        "monoamin"
+       ],
+       "t": "mecanismo monoaminérgico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Toxicidad serotoninérgica: en 106 intoxicaciones, la moclobemida sola produjo efectos menores incluso con ingestas masivas, pero 11 de 21 personas (55 %) que la tomaron con otro serotoninérgico, a veces a dosis terapéuticas, desarrollaron toxicidad serotoninérgica, grave en 6, con hipertermia y rigidez que exigieron intubación (Isbister 2003); la ficha técnica coincide en que la sobredosis combinada puede comprometer la vida (4.9). MDMA: hay dos series de cuatro muertes cada una por la combinación de MDMA y moclobemida, atribuidas a síndrome serotoninérgico; en la primera nadie tenía prescrita la moclobemida y se tomó para potenciar el éxtasis, y en la segunda, australiana, dos casos tenían concentraciones compatibles con dosis prescritas (Vuori 2003; Pilgrim 2012). Es la interacción mejor documentada de este bloque y obliga a preguntar por el consumo antes de prescribir y a informar de forma explícita. La ficha técnica advierte de que el efecto de los simpaticomiméticos sistémicos puede potenciarse y prolongarse (4.5); con mefedrona, otras catinonas o metanfetamina el riesgo es análogo por mecanismo, sin series localizadas [fuente no localizada]; sin datos sobre GHB, poppers, inhibidores de la PDE5 o antirretrovirales potenciados [fuente no localizada]. Otros: suspender ante manía o hipomanía (4.4), aunque el riesgo de viraje no parece mayor que con otros antidepresivos (Bonnet 2003); ideación suicida recogida como poco frecuente (4.8).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "alucinogenos"
+       ],
+       "t": "MDMA y síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "mefed",
+        "catinonas_nuevas",
+        "metanf",
+        "sdu"
+       ],
+       "t": "catinonas, metanfetamina y uso sexualizado"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "ideación suicida y viraje"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lotufo-Neto F, Trivedi M & Thase ME (1999). Meta-analysis of the reversible inhibitors of monoamine oxidase type A moclobemide and brofaromine for the treatment of depression. Neuropsychopharmacology 20:226-247 · PMID 10063483",
+    "Bonnet U (2003). Moclobemide: therapeutic use and clinical studies. CNS Drug Rev 9:97-140 · PMID 12595913",
+    "Isbister GK et al. (2003). Moclobemide poisoning: toxicokinetics and occurrence of serotonin toxicity. Br J Clin Pharmacol 56:441-450 · PMID 12968990",
+    "Vuori E et al. (2003). Death following ingestion of MDMA (ecstasy) and moclobemide. Addiction 98:365-368 · PMID 12603236",
+    "Pilgrim JL et al. (2012). Serotonin toxicity involving MDMA (ecstasy) and moclobemide. Forensic Sci Int 215:184-188 · PMID 21570786",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "AEMPS-CIMA (2026). Ficha técnica de Manerix 150 mg comprimidos recubiertos con película (moclobemida) (nº de registro 59169), apartados 4.3-4.6, 4.8, 4.9 y 5.1; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de información online de medicamentos: estado de autorización y de comercialización de las presentaciones de nortriptilina, clomipramina, imipramina, moclobemida y tranilcipromina (cima.aemps.es); consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "alucinogenos",
+    "mefed",
+    "ddp",
+    "cyp2c19",
+    "clomipramina"
+   ]
+  },
+  "tranilcipromina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Tercera línea en las guías: CANMAT 2023 rebaja a esa posición a los IMAO irreversibles (tabla 3.3) por su seguridad y por las restricciones dietéticas y farmacológicas, pero los considera eficaces en la depresión resistente y pide tenerlos en cuenta cuando fallan los tratamientos de primera y segunda línea (Lam 2024). NICE NG222 exige que el cambio hacia o desde un IMAO se haga en atención especializada o con su asesoramiento (1.9.5) y los nombra entre las alternativas para la depresión crónica que no responde a ISRS o IRSN (1.10.6). Evidencia: en el metaanálisis de Ricken (2017) fue superior a placebo (log OR 0,509; IC 95 % 0,026-0,993; 4 estudios) y equivalente a otros antidepresivos (10 estudios); en depresión resistente tras tricíclicos e ISRS superó a placebo (un estudio) y a antidepresivos no establecidos, y fue equivalente a otros IMAO y a una combinación de antidepresivos, con una posible ventaja en la depresión atípica. Shulman (2013) añade la depresión bipolar entre sus usos. No figura entre los 21 antidepresivos de Cipriani (2018). Otras opciones para la depresión resistente (potenciación, esketamina, TEC) se describen en sus propios nodos, sin jerarquía establecida aquí. Poblaciones: autorizada solo en adultos; embarazo y lactancia, véase la ficha. Nota factual: indicación restringida a la falta de respuesta a dos antidepresivos (ficha técnica de Tranilcipromina Aristo, 4.1); en CIMA consta autorizada y no comercializada (noviembre de 2026).",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "eatip",
+        "maois"
+       ],
+       "t": "resistencia, rasgos atípicos y clase"
+      },
+      {
+       "ids": [
+        "esketamina",
+        "tec_dep",
+        "ap_atipicos"
+       ],
+       "t": "otras opciones en depresión resistente"
+      },
+      {
+       "ids": [
+        "moclobemida"
+       ],
+       "t": "IMAO reversible comercializado"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Inhibidor irreversible y no selectivo de la MAO-A y la MAO-B, con inhibición adicional de la recaptación de noradrenalina en la parte alta del intervalo posológico; aumenta serotonina, noradrenalina, dopamina y aminas traza (feniletilamina). La semivida farmacocinética es de unas 2 horas, pero la semivida farmacodinámica ronda una semana por la irreversibilidad de la inhibición; a dosis terapéuticas solo inhibe CYP2A6, de modo que su potencial de interacciones farmacocinéticas hacia otros fármacos es bajo y sus interacciones relevantes son farmacodinámicas (Ulrich 2017). Perfil comparativo: riesgo bajo o nulo de efectos anticolinérgicos centrales, sedación, alteraciones de la conducción cardiaca, aumento de peso, efectos sobre la hemostasia e interacciones farmacocinéticas (Ricken 2017). La ficha técnica de Tranilcipromina Aristo clasifica como muy frecuentes el insomnio, la hipotensión y la reacción ortostática, como frecuentes el aumento o la pérdida de peso y como raras la anorgasmia, la disfunción eréctil y los trastornos de la eyaculación (4.8); en el metaanálisis de Serretti (2009) el IMAO irreversible con disfunción sexual superior a placebo fue la fenelzina. El riesgo de hiponatremia de los IMAO no pudo establecerse (De Picker 2014). Discontinuación: riesgo moderado para los IMAO según CANMAT 2023 (Lam 2024); la ficha técnica pide evitar la interrupción brusca por fenómenos de abstinencia como ansiedad, inquietud, trastornos del sueño, somnolencia o delirio (4.2).",
+     "links": [
+      {
+       "ids": [
+        "monoamin",
+        "estim_monoam"
+       ],
+       "t": "aminas y estructura anfetamínica"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "efectos sexuales de los IMAO"
+      },
+      {
+       "ids": [
+        "maois",
+        "moclobemida"
+       ],
+       "t": "comparación dentro de la clase"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Crisis hipertensiva: por tiramina de la dieta o por simpaticomiméticos; es infrecuente (Flockhart 2012) y el esfuerzo que exige la dieta pudo haberse sobrestimado (Ricken 2017), pero la ficha técnica mantiene la restricción desde 1 día antes hasta 14 días después del tratamiento (4.4). Toxicidad serotoninérgica grave con serotoninérgicos (Ulrich 2017); CANMAT 2023 cita los antitusivos con dextrometorfano, la combinación dextrometorfano-bupropión, los inhibidores de la recaptación de serotonina y el hipérico (Lam 2024). Sobredosis: toxicidad similar a la de amitriptilina e imipramina según la distancia entre dosis terapéuticas y tóxicas (Ulrich 2017), «toxicidad aguda considerable» en la ficha técnica (4.9), dato relevante si hay riesgo suicida (NICE NG222, 1.2.12). Consumo y chemsex: la ficha contraindica los simpaticomiméticos indirectos y las anfetaminas por riesgo de crisis hipertensivas graves (4.3 y 4.5); con la moclobemida hay dos series de cuatro muertes cada una por la combinación con MDMA (Vuori 2003; Pilgrim 2012), y el riesgo con un IMAO irreversible debe presumirse al menos igual; no se han localizado series con tranilcipromina y MDMA, mefedrona, otras catinonas o metanfetamina [fuente no localizada]. Como la inhibición persiste alrededor de una semana (Ulrich 2017), omitir tomas antes de consumir no elimina el riesgo. Sin datos sobre GHB, poppers, inhibidores de la PDE5 o antirretrovirales potenciados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "alucinogenos",
+        "mefed",
+        "metanf"
+       ],
+       "t": "liberadores de monoaminas"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu",
+        "catinonas_nuevas"
+       ],
+       "t": "contexto de chemsex"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "toxicidad en sobredosis"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ricken R et al. (2017). Tranylcypromine in mind (Part II): review of clinical pharmacology and meta-analysis of controlled studies in depression. Eur Neuropsychopharmacol 27:714-731 · PMID 28579071",
+    "Ulrich S, Ricken R & Adli M (2017). Tranylcypromine in mind (Part I): review of pharmacology. Eur Neuropsychopharmacol 27:697-713 · PMID 28655495",
+    "Shulman KI, Herrmann N & Walker SE (2013). Current place of monoamine oxidase inhibitors in the treatment of depression. CNS Drugs 27:789-797 · PMID 23934742",
+    "Flockhart DA (2012). Dietary restrictions and drug interactions with monoamine oxidase inhibitors: an update. J Clin Psychiatry 73 Suppl 1:17-24 · PMID 22951238",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Vuori E et al. (2003). Death following ingestion of MDMA (ecstasy) and moclobemide. Addiction 98:365-368 · PMID 12603236",
+    "Pilgrim JL et al. (2012). Serotonin toxicity involving MDMA (ecstasy) and moclobemide. Forensic Sci Int 215:184-188 · PMID 21570786",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "AEMPS-CIMA (2026). Ficha técnica de Tranilcipromina Aristo 10 mg comprimidos recubiertos con película (tranilcipromina) (nº de registro 88523), apartados 4.1-4.5, 4.8 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de información online de medicamentos: estado de autorización y de comercialización de las presentaciones de nortriptilina, clomipramina, imipramina, moclobemida y tranilcipromina (cima.aemps.es); consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "alucinogenos",
+    "ideac_suic",
+    "tec_dep",
+    "sdu"
+   ]
+  },
+  "maois": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023: los IMAO irreversibles son eficaces en la depresión mayor, rebajados a tercera línea por su perfil de seguridad y por las restricciones dietéticas y farmacológicas, mientras que la moclobemida permanece en segunda línea (tabla 3.3); son eficaces en la depresión resistente, tienen un mecanismo distinto al de los fármacos de primera y segunda línea y deben considerarse cuando estos fracasan. La guía mantiene que los especificadores melancólico y atípico no se asocian a recomendaciones terapéuticas específicas, lo que matiza la asociación clásica entre IMAO y depresión atípica (Lam 2024; compárese con Henkel 2006). NICE NG222: el cambio hacia, desde o entre IMAO debe hacerse en atención especializada o con su asesoramiento (1.9.5); moclobemida e IMAO irreversibles figuran entre las alternativas, en entornos especializados, para los síntomas depresivos crónicos que no responden a ISRS o IRSN (1.10.6); y la combinación de un IMAO con un ISRS, un IRSN o un tricíclico es potencialmente peligrosa y debe evitarse. Evidencia: la tranilcipromina supera a placebo e iguala a otros antidepresivos (Ricken 2017); la moclobemida iguala a tricíclicos e ISRS y es algo menos eficaz que los IMAO clásicos (Lotufo-Neto 1999). Su escaso uso se atribuye a falta de promoción y temores excesivos (Shulman 2013). Ningún IMAO figura entre los 21 antidepresivos de Cipriani (2018). El grado de recomendación en APA, WFSBP, BAP y GuíaSalud no se ha contrastado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tranilcipromina",
+        "moclobemida"
+       ],
+       "t": "fichas individuales"
+      },
+      {
+       "ids": [
+        "drt",
+        "eatip",
+        "ddp"
+       ],
+       "t": "resistencia, rasgos atípicos y depresión crónica"
+      },
+      {
+       "ids": [
+        "isrs",
+        "tca_dep"
+       ],
+       "t": "clases con las que no deben combinarse"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Los IMAO clásicos inhiben de forma irreversible la MAO-A y la MAO-B y elevan serotonina, noradrenalina, dopamina y aminas traza, de modo que el efecto persiste alrededor de una semana pese a una semivida plasmática de unas 2 horas en el caso de la tranilcipromina (Ulrich 2017); la moclobemida inhibe de forma reversible y selectiva la MAO-A y permite cambiar de fármaco en 24 horas (Bonnet 2003). Interacciones: esencialmente farmacodinámicas (serotoninérgicos, simpaticomiméticos, tiramina); en el plano farmacocinético, la tranilcipromina solo inhibe CYP2A6 (Ulrich 2017) y la moclobemida es sustrato de CYP2C19 e inhibe CYP1A2, CYP2C19 y CYP2D6 (Bonnet 2003). Perfil comparativo: riesgo bajo o nulo de efectos anticolinérgicos, sedación, alteraciones de la conducción cardiaca, aumento de peso y efectos hemostáticos con tranilcipromina (Ricken 2017); con moclobemida, efectos anticolinérgicos y antihistamínicos insignificantes y sin aumento de peso (Bonnet 2003). Disfunción sexual: superior a placebo con fenelzina y sin diferencia con moclobemida (Serretti 2009). Hiponatremia: riesgo no establecido por datos insuficientes (De Picker 2014). Tensión arterial: la ficha técnica de Tranilcipromina Aristo recoge como muy frecuentes la hipotensión y la reacción ortostática, y la de Manerix la hipotensión como frecuente (4.8). Discontinuación: riesgo moderado según CANMAT 2023 (Lam 2024); NICE incluye a los IMAO entre las clases con síntomas de retirada (NG222, 1.4.18).",
+     "links": [
+      {
+       "ids": [
+        "monoamin",
+        "estim_monoam"
+       ],
+       "t": "metabolismo de las monoaminas"
+      },
+      {
+       "ids": [
+        "cyp2c19",
+        "cyp2d6"
+       ],
+       "t": "inhibición enzimática de la moclobemida"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "efectos sexuales comparados"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "CANMAT 2023 resume el riesgo: interacciones potencialmente mortales (síndrome serotoninérgico y crisis hipertensiva) con fármacos que afectan al metabolismo de las monoaminas, como los antitusivos con dextrometorfano, la combinación dextrometorfano-bupropión y los inhibidores de la recaptación de serotonina, con el hipérico y con alimentos ricos en tiramina (Lam 2024). Ambas complicaciones son infrecuentes (Flockhart 2012). Sobredosis: la moclobemida sola causa efectos menores, pero con un serotoninérgico produjo toxicidad serotoninérgica en el 55 % de los casos (Isbister 2003); la toxicidad de la tranilcipromina es comparable a la de amitriptilina e imipramina (Ulrich 2017). Consumo y chemsex: hay dos series de cuatro muertes cada una por MDMA con moclobemida, tomada en parte sin prescripción para potenciar el éxtasis (Vuori 2003; Pilgrim 2012); la ficha de la tranilcipromina contraindica anfetaminas y simpaticomiméticos indirectos (4.3) y la de Manerix advierte de la potenciación de los simpaticomiméticos (4.5); la extensión a mefedrona, otras catinonas y metanfetamina se apoya en el mecanismo, sin series localizadas [fuente no localizada]. Con un IMAO irreversible, omitir tomas antes del consumo no protege, porque la inhibición dura alrededor de una semana (Ulrich 2017). Sin datos sobre GHB, poppers, inhibidores de la PDE5 o antirretrovirales potenciados [fuente no localizada]. La anamnesis de sustancias, sin juicio moral, es parte obligada de la prescripción.",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "alucinogenos",
+        "mefed",
+        "metanf"
+       ],
+       "t": "toxicidad serotoninérgica y simpaticomimética"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu",
+        "catinonas_nuevas"
+       ],
+       "t": "uso sexualizado de drogas"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "sobredosis"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Ricken R et al. (2017). Tranylcypromine in mind (Part II): review of clinical pharmacology and meta-analysis of controlled studies in depression. Eur Neuropsychopharmacol 27:714-731 · PMID 28579071",
+    "Ulrich S, Ricken R & Adli M (2017). Tranylcypromine in mind (Part I): review of pharmacology. Eur Neuropsychopharmacol 27:697-713 · PMID 28655495",
+    "Lotufo-Neto F, Trivedi M & Thase ME (1999). Meta-analysis of the reversible inhibitors of monoamine oxidase type A moclobemide and brofaromine for the treatment of depression. Neuropsychopharmacology 20:226-247 · PMID 10063483",
+    "Bonnet U (2003). Moclobemide: therapeutic use and clinical studies. CNS Drug Rev 9:97-140 · PMID 12595913",
+    "Shulman KI, Herrmann N & Walker SE (2013). Current place of monoamine oxidase inhibitors in the treatment of depression. CNS Drugs 27:789-797 · PMID 23934742",
+    "Flockhart DA (2012). Dietary restrictions and drug interactions with monoamine oxidase inhibitors: an update. J Clin Psychiatry 73 Suppl 1:17-24 · PMID 22951238",
+    "Isbister GK et al. (2003). Moclobemide poisoning: toxicokinetics and occurrence of serotonin toxicity. Br J Clin Pharmacol 56:441-450 · PMID 12968990",
+    "Vuori E et al. (2003). Death following ingestion of MDMA (ecstasy) and moclobemide. Addiction 98:365-368 · PMID 12603236",
+    "Pilgrim JL et al. (2012). Serotonin toxicity involving MDMA (ecstasy) and moclobemide. Forensic Sci Int 215:184-188 · PMID 21570786",
+    "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+    "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+    "AEMPS-CIMA (2026). Fichas técnicas de Manerix 150 mg (moclobemida) (nº de registro 59169), apartados 4.5 y 4.8, y de Tranilcipromina Aristo 10 mg (tranilcipromina) (nº de registro 88523), apartados 4.3 y 4.8; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "alucinogenos",
+    "mefed",
+    "drt",
+    "sdu",
+    "tca_dep",
+    "isrs"
+   ]
+  },
+  "cpic_isrs": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Recomendaciones y grado (Bousman 2023). CYP2D6-paroxetina: en ultrarrápidos, elegir una alternativa no dependiente de CYP2D6 (moderada); en intermedios, dosis inicial menor y titulación más lenta (opcional); en lentos, reducción de la dosis inicial y de mantenimiento con titulación lenta (moderada). Fluvoxamina: en lentos, dosis inicial reducida con titulación lenta o alternativa (opcional); sin recomendación en ultrarrápidos por falta de datos. Venlafaxina: en lentos, considerar una alternativa (opcional). Vortioxetina: en ultrarrápidos, alternativa (opcional); en lentos, dosis inicial reducida o alternativa (moderada). CYP2C19-citalopram y escitalopram: en ultrarrápidos, alternativa no dependiente de CYP2C19 (fuerte); en rápidos, dosis inicial habitual y, si no hay respuesta, aumento o cambio (opcional); en intermedios, titulación más lenta y mantenimiento menor (moderada); en lentos, alternativa o, si se usan, dosis inicial menor, titulación lenta y mantenimiento reducido (fuerte). Sertralina: en lentos de CYP2C19, dosis inicial y mantenimiento reducidos o alternativa (moderada); por CYP2B6, titulación más lenta en intermedios y mantenimiento reducido o alternativa en lentos (ambas opcionales). Sin recomendación genotípica: fluoxetina y duloxetina (nivel C), desvenlafaxina, levomilnaciprán, milnaciprán y vilazodona, y los genes SLC6A4 y HTR2A (nivel C). Cuantía de los ajustes: tablas 2-4 de la guía. Pediatría: son aplicables las de citalopram, escitalopram y sertralina.",
+     "links": [
+      {
+       "ids": [
+        "paroxetina",
+        "fluvoxamina",
+        "venlafaxina"
+       ],
+       "t": "sustratos de CYP2D6 con recomendación"
+      },
+      {
+       "ids": [
+        "escitalopram",
+        "sertralina",
+        "cyp2c19"
+       ],
+       "t": "sustratos de CYP2C19"
+      },
+      {
+       "ids": [
+        "fluoxetina",
+        "duloxetina",
+        "desvenlafaxina"
+       ],
+       "t": "sin recomendación genotípica"
+      },
+      {
+       "ids": [
+        "fenot_metab",
+        "panel_fg"
+       ],
+       "t": "fenotipos y paneles comerciales"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Base farmacocinética de la guía (Bousman 2023). La paroxetina inhibe su propio metabolismo por CYP2D6 de forma dependiente de la dosis, de modo que los metabolizadores normales e intermedios pueden convertirse funcionalmente en intermedios o lentos al alcanzar el estado estacionario; en los lentos ese efecto es mínimo y no está claro que los ultrarrápidos lleguen a fenoconvertirse. Paroxetina y fluoxetina son inhibidores potentes de CYP2D6. En la fluoxetina, CYP2D6 forma S-norfluoxetina, de actividad similar al fármaco original, y no se sabe si el genotipo altera la suma de ambos ni los resultados clínicos, razón por la que no hay recomendación. La venlafaxina se convierte por CYP2D6 en su metabolito activo O-desmetilvenlafaxina: el genotipo cambia el cociente entre ambos, con impacto clínico incierto, aunque el fenotipo lento se ha asociado a efectos adversos. En la sertralina concurren CYP2C19 y CYP2B6, y la combinación de dos fenotipos no normales puede justificar un cambio que un solo gen no justificaría (tabla 5 de la guía). Para citalopram, la guía recoge la advertencia de la FDA que limita la dosis máxima en lentos de CYP2C19 por riesgo de prolongación del QT; las fichas técnicas españolas contienen una restricción equivalente (véase la ficha). La guía pide integrar interacciones, edad, función renal y hepática, dieta y consumo de sustancias al ajustar o elegir alternativa.",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "cyp2c19",
+        "fenot_metab"
+       ],
+       "t": "enzimas y fenoconversión"
+      },
+      {
+       "ids": [
+        "paroxetina",
+        "fluoxetina",
+        "venlafaxina",
+        "sertralina"
+       ],
+       "t": "fármacos comentados"
+      },
+      {
+       "ids": [
+        "isrs",
+        "fk_mayor"
+       ],
+       "t": "clase y factores no genéticos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Qué situaciones obligan a actuar: un fenotipo lento conocido (CYP2C19 con citalopram, escitalopram o sertralina; CYP2D6 con paroxetina, fluvoxamina, venlafaxina o vortioxetina) anticipa concentraciones más altas y mayor probabilidad de efectos adversos, y con citalopram se suma el riesgo de prolongación del QT; un fenotipo ultrarrápido anticipa concentraciones bajas y menor probabilidad de beneficio (Bousman 2023; Jukić 2018). Límites: quien está estable, con un tratamiento eficaz y bien tolerado, puede no beneficiarse de cambios basados en el genotipo, que es solo un dato más (Bousman 2023); CANMAT 2023 no recomienda el uso rutinario de estas pruebas y las reserva para efectos adversos graves o inusuales a dosis bajas o falta de respuesta a dosis terapéuticas (Lam 2024). El genotipo no sustituye la vigilancia clínica del síndrome serotoninérgico, del viraje ni de la ideación suicida al inicio [fuente no localizada]. Contexto de chemsex: la guía menciona el consumo de sustancias entre los factores que deben valorarse, sin recomendaciones concretas; la ficha técnica de Norvir prevé que el ritonavir a dosis antirretrovirales aumente fluoxetina, paroxetina y sertralina por inhibición de CYP2D6, pero el efecto a dosis de potenciador o con cobicistat no forma parte de la guía ni se ha localizado [fuente no localizada]; tampoco hay evidencia localizada de que el genotipo de CYP2D6 modifique de forma clínicamente útil el riesgo de combinar ISRS y MDMA [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "riesgos que el genotipo no predice"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "alucinogenos"
+       ],
+       "t": "potenciadores antirretrovirales y MDMA"
+      },
+      {
+       "ids": [
+        "cpic_tca",
+        "fg_antipsic"
+       ],
+       "t": "otras guías farmacogenéticas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "AEMPS-CIMA (2026). Fichas técnicas de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5, y de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartados 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "paroxetina",
+    "fluvoxamina",
+    "venlafaxina",
+    "escitalopram",
+    "sertralina",
+    "fluoxetina",
+    "chemsex_arv"
+   ]
+  },
+  "cpic_tca": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Recomendaciones y grado (Hicks 2017); el grado corresponde a amitriptilina y nortriptilina (a amitriptilina en CYP2C19); en los fenotipos no normales, la extrapolación a los demás tricíclicos es opcional. CYP2D6: en ultrarrápidos, evitar el tricíclico por posible ineficacia y considerar un fármaco no metabolizado por CYP2D6; si se usa, considerar una dosis objetivo mayor con monitorización de niveles (fuerte). En intermedios, considerar una reducción de la dosis inicial con monitorización (moderada). En lentos, evitar el tricíclico por riesgo de efectos adversos; si se usa, considerar una reducción mayor de la dosis inicial con monitorización (fuerte). CYP2C19, aminas terciarias: en ultrarrápidos y rápidos, evitarlas y considerar un fármaco no metabolizado por CYP2C19, como nortriptilina o desipramina, o monitorizar niveles (opcional); en intermedios, dosis inicial habitual (fuerte); en lentos, evitarlas o, si se usan, considerar una reducción de la dosis inicial con monitorización (moderada). Cuantía de los ajustes: tablas 2 y 3 de la guía. Se refieren a las dosis iniciales propias de la depresión: a las dosis bajas del dolor neuropático no se recomienda modificarlas en lentos o intermedios, pero sí vigilar los efectos adversos, y en ultrarrápidos de CYP2D6 cabe considerar alternativas. Pediatría: datos escasos, sin evidencia que impida extrapolar. Para fenotipos combinados hay una tabla específica basada en datos limitados.",
+     "links": [
+      {
+       "ids": [
+        "amitriptilina",
+        "nortriptilina"
+       ],
+       "t": "fármacos con recomendación directa"
+      },
+      {
+       "ids": [
+        "clomipramina",
+        "imipramina"
+       ],
+       "t": "extrapolación de grado opcional"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "cyp2c19",
+        "fenot_metab"
+       ],
+       "t": "genes y fenotipos"
+      },
+      {
+       "ids": [
+        "dolor_cron_prim"
+       ],
+       "t": "dosis bajas en dolor"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Fundamento farmacológico (Hicks 2017). CYP2C19 desmetila las aminas terciarias a secundarias activas (amitriptilina a nortriptilina, imipramina a desipramina) y CYP2D6 hidroxila unas y otras a metabolitos menos activos. Las terciarias tienen un efecto serotoninérgico más marcado y las secundarias uno más noradrenérgico, de modo que el fenotipo de CYP2C19 altera además el equilibrio entre ambos: en los lentos predomina la inhibición de la recaptación de serotonina; la evidencia de que ese desequilibrio modifique los resultados es limitada, y de ahí el grado opcional de varias recomendaciones. Los tricíclicos se absorben bien, con un primer paso medio cercano al 50 %; su aclaramiento es en general lineal, aunque la vía de hidroxilación puede saturarse. Fenoconversión: los inhibidores potentes de CYP2D6, como la fluoxetina, pueden aumentar de forma marcada las concentraciones, y la guía sugiere tratar a quien los toma como a un metabolizador lento; hasta el 20 % de las personas tratadas por depresión se convierte funcionalmente en metabolizador lento. La edad avanzada, la hepatopatía y la función renal reducida pueden exigir dosis menores con independencia del genotipo. La monitorización de niveles plasmáticos es la herramienta que la guía asocia a todas las recomendaciones no estándar; los intervalos de referencia proceden del consenso AGNP (Hiemke 2018), enlazado en las fichas individuales.",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "monoamin"
+       ],
+       "t": "farmacología de clase"
+      },
+      {
+       "ids": [
+        "fluoxetina",
+        "paroxetina"
+       ],
+       "t": "inhibidores que fenoconvierten"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "polifarm"
+       ],
+       "t": "factores no genéticos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "El riesgo que la guía pretende evitar es la toxicidad dependiente de la concentración en metabolizadores lentos (o fenoconvertidos) y el fracaso terapéutico en ultrarrápidos (Hicks 2017). La toxicidad grave de los tricíclicos es cardiaca, por bloqueo de canales de sodio con prolongación de PR, QRS y QT, arritmias e hipotensión (Thanacoody 2005); que un fenotipo lento con dosis estándar la reproduzca es una inferencia razonable, pero la frecuencia de eventos cardiacos graves según el genotipo no se ha localizado [fuente no localizada]. Situaciones que obligan a actuar: efectos adversos desproporcionados a dosis bajas, falta de respuesta con buena adherencia, o inicio de un inhibidor potente de CYP2D6 en quien toma un tricíclico; en todas ellas procede medir niveles y revisar la comedicación. El genotipo no sustituye la valoración del riesgo de suicidio ni la prudencia con la cantidad dispensada (véase la ficha de clase). Contexto de chemsex: la guía no aborda los antirretrovirales; la ficha técnica de Norvir prevé que el ritonavir a dosis antirretrovirales aumente imipramina, amitriptilina y nortriptilina por inhibición de CYP2D6; la magnitud a dosis de potenciador o con cobicistat, inhibidor débil de CYP2D6 (ficha de Tybost), no se ha localizado [fuente no localizada]. Tampoco se han localizado datos sobre el papel del genotipo en la interacción de los tricíclicos con MDMA, catinonas, metanfetamina, GHB, poppers o inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "ideac_suic"
+       ],
+       "t": "toxicidad y riesgo suicida"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "fenot_metab"
+       ],
+       "t": "fenoconversión por antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "cpic_isrs",
+        "panel_fg"
+       ],
+       "t": "otras guías y paneles"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Thanacoody HKR & Thomas SHL (2005). Tricyclic antidepressant poisoning: cardiovascular toxicity. Toxicol Rev 24:205-214 · PMID 16390222",
+    "Hiemke C et al. (2018). Consensus guidelines for therapeutic drug monitoring in neuropsychopharmacology: update 2017. Pharmacopsychiatry 51:9-62 · PMID 28910830",
+    "AEMPS-CIMA (2026). Fichas técnicas de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5, y de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartados 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "fluoxetina",
+    "paroxetina",
+    "chemsex_arv",
+    "ideac_suic",
+    "dolor_cron_prim"
+   ]
+  }
+ },
+ "add": []
+}

@@ -1,0 +1,510 @@
+{
+ "patch": {
+  "consent_cap": {
+   "secAdd": [
+    {
+     "t": "Planificación anticipada en salud mental",
+     "x": "Las instrucciones previas permiten a una persona mayor de edad, capaz y libre, manifestar por escrito su voluntad sobre los cuidados y el tratamiento para cuando no pueda expresarla, y designar un representante que actúe como interlocutor con el equipo; no se aplican si son contrarias al ordenamiento jurídico o a la lex artis o si no corresponden al supuesto previsto, y la historia clínica debe recoger de forma razonada las anotaciones al respecto (Ley 41/2002, art. 11.1-11.3); son revocables por escrito en cualquier momento (art. 11.4). En psiquiatría, los planes de crisis conjuntos, negociados entre la persona y el equipo, redujeron la hospitalización o el tratamiento obligatorios del 27 % al 13 % en un ensayo con 160 pacientes con psicosis o trastorno bipolar no psicótico (Henderson 2004), pero no tuvieron efecto significativo en el ensayo multicéntrico CRIMSON con 569 participantes, salvo una mejor relación terapéutica, con indicios de implantación incompleta (Thornicroft 2013). Una sesión estructurada de facilitación hizo que el 61 % (frente al 3 % del grupo control) completara una voluntad anticipada psiquiátrica o designara a un representante, y nadie la usó para rechazar todo tratamiento (Swanson 2006). En España, las instrucciones previas han tenido escasa implantación por falta de formación y de difusión, una tramitación compleja y restos de cultura paternalista (Herreros 2020); su uso específico en salud mental no se ha cuantificado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "internamiento"
+       ],
+       "t": "Internamiento involuntario"
+      },
+      {
+       "ids": [
+        "capacidad_jur",
+        "crpd"
+       ],
+       "t": "Apoyos y voluntad de la persona"
+      },
+      {
+       "ids": [
+        "cap_dem"
+       ],
+       "t": "Planificación en la demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Henderson C et al. (2004). Effect of joint crisis plans on use of compulsory treatment in psychiatry: single blind randomised controlled trial. BMJ 329:136 · PMID 15240438",
+    "Thornicroft G et al. (2013). Clinical outcomes of Joint Crisis Plans to reduce compulsory treatment for people with psychosis: a randomised controlled trial. Lancet 381:1634-1641 · PMID 23537606",
+    "Swanson JW et al. (2006). Facilitated psychiatric advance directives: a randomized trial of an intervention to foster advance treatment planning among persons with severe mental illness. Am J Psychiatry 163:1943-1951 · PMID 17074946",
+    "Herreros B et al. (2020). Why have Advance Directives failed in Spain? BMC Med Ethics 21:113 · PMID 33198746"
+   ],
+   "relAdd": [
+    "secreto_prof"
+   ]
+  },
+  "sara": {
+   "relAdd": [
+    "violencia_genero"
+   ]
+  },
+  "ptsd": {
+   "relAdd": [
+    "violencia_genero",
+    "abuso_sexual_inf"
+   ]
+  },
+  "perit_forense": {
+   "relAdd": [
+    "violencia_genero",
+    "abuso_sexual_inf",
+    "secreto_prof"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "violencia_genero"
+   ]
+  },
+  "genero": {
+   "relAdd": [
+    "violencia_genero"
+   ]
+  },
+  "maltrato_inf": {
+   "relAdd": [
+    "abuso_sexual_inf",
+    "secreto_prof"
+   ]
+  },
+  "falsa_memoria": {
+   "relAdd": [
+    "abuso_sexual_inf"
+   ]
+  },
+  "desnos": {
+   "relAdd": [
+    "abuso_sexual_inf"
+   ]
+  },
+  "internamiento": {
+   "relAdd": [
+    "secreto_prof"
+   ]
+  },
+  "psicofarm_inf": {
+   "relAdd": [
+    "secreto_prof"
+   ]
+  },
+  "riesgo_viol": {
+   "relAdd": [
+    "violencia_genero",
+    "secreto_prof"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "violencia_genero",
+   "n": "Violencia de género y en la pareja: secuelas psicopatológicas, valoración pericial y riesgo",
+   "ab": "Violencia de género",
+   "al": [
+    "violencia de pareja",
+    "violencia en la pareja",
+    "intimate partner violence",
+    "IPV",
+    "violencia doméstica",
+    "LO 1/2004"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2004,
+   "tags": [
+    "forense",
+    "trauma",
+    "risk",
+    "lgtbi"
+   ],
+   "desc": "La LO 1/2004 define la violencia de género como la que, como manifestación de la discriminación, la desigualdad y las relaciones de poder de los hombres sobre las mujeres, ejercen sobre ellas quienes sean o hayan sido sus cónyuges o estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia; comprende la violencia física y psicológica, incluidas las agresiones a la libertad sexual, las amenazas, las coacciones y la privación arbitraria de libertad (art. 1.1 y 1.3), y también la ejercida sobre familiares o allegados menores para dañar a la mujer (violencia vicaria, art. 1.4). En un metaanálisis de estudios longitudinales, la violencia en la pareja se asoció en mujeres a la aparición de síntomas depresivos (OR 1,97) y de intentos de suicidio, y los síntomas depresivos predijeron a su vez nueva victimización (OR 1,93) (Devries 2013). La violencia en parejas del mismo sexo y contra personas trans está documentada con frecuencias similares o superiores, aunque con muestras de menor calidad.",
+   "feats": [
+    "Mujeres: la violencia en la pareja se asocia con depresión (OR 2,04-3,14), TEPT (OR 2,15-2,66) y suicidalidad (OR 2,17-5,52) en 201 estudios con 250 599 mujeres; la violencia psicológica a lo largo de la vida es la forma más prevalente (White 2024)",
+    "Relación bidireccional: las mujeres con trastornos depresivos (OR 2,77), de ansiedad (OR 4,08) o TEPT (OR 7,34) tienen mayor probabilidad de haber sufrido violencia de pareja; los escasos estudios longitudinales no permiten establecer la dirección causal (Trevillion 2012)",
+    "Al menos uno de cada siete homicidios en el mundo y el 38,6 % de los homicidios de mujeres (frente al 6,3 % de los de hombres) los comete la pareja; suele ser la culminación de una larga historia de maltrato (Stöckl 2013)",
+    "Código Penal: el art. 153.1 castiga el menoscabo psíquico, la lesión de menor gravedad o el maltrato de obra cuando la ofendida es o ha sido esposa o mujer ligada al autor por análoga relación de afectividad, o persona especialmente vulnerable conviviente; los arts. 153.2 y 173.2 (violencia habitual) alcanzan a quien sea o haya sido cónyuge o pareja sin restringir el sexo de la víctima",
+    "Parejas del mismo sexo: en hombres que tienen sexo con hombres, la violencia de pareja se da con tasas similares o superiores a las de las mujeres (Finneran 2013) y se asocia a síntomas depresivos (OR 1,52) y consumo de sustancias (OR 1,88) (Buller 2014); las personas trans tienen 1,66 veces más riesgo de violencia de pareja que las cisgénero (Peitzmeier 2020)",
+    "La formación y el apoyo a los equipos de atención primaria, con una vía de derivación a profesionales especializados, multiplicaron las derivaciones (razón de tasas 22,1) y la identificación registrada (3,1) sin necesidad de cribado universal (Feder 2011)"
+   ],
+   "tx": "Preguntar en un entorno privado y seguro, sin la pareja presente, ante indicadores clínicos (síntomas depresivos o postraumáticos, intentos de suicidio, lesiones inexplicadas, consultas reiteradas, embarazo); creer y no culpabilizar; valorar el riesgo vital inmediato y planificar la seguridad; emitir el parte de lesiones cuando proceda (art. 355 LECrim; Código de Deontología Médica 2022, art. 31.1.2) e informar a la persona de ello y de los recursos especializados; tratar los trastornos con intervenciones basadas en la evidencia (las terapias psicológicas probablemente reducen la depresión y pueden reducir la ansiedad, Hameed 2020) y coordinar con servicios sociales, asistencia jurídica y, en su caso, con la unidad de valoración forense integral. Usar un lenguaje que no reduzca a la persona a la condición de víctima ni presuponga la orientación sexual o la identidad de género de la pareja.",
+   "note": "La mayoría de los datos son transversales y proceden de países de renta alta; la bidireccionalidad entre trastorno mental y victimización (Trevillion 2012; Devries 2013) obliga en la pericia a separar la patología previa del daño atribuible. La evidencia en parejas del mismo sexo procede sobre todo de muestras de conveniencia estadounidenses sin definiciones validadas (Finneran 2013; Badenes-Ribera 2016), por lo que las cifras no deben extrapolarse sin cautela. En la revisión Cochrane, las terapias psicológicas no mostraron efecto claro sobre el TEPT ni sobre la reexposición a la violencia (Hameed 2020). La edición vigente del protocolo común sanitario del SNS no se ha podido contrastar en fuente primaria [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Marco normativo y protocolos sanitarios",
+     "x": "La LO 1/2004 (texto consolidado) obliga a las administraciones sanitarias, en el seno del Consejo Interterritorial del SNS, a promover la detección precoz y la formación continuada del personal sanitario (art. 15) y crea en ese Consejo una Comisión contra la Violencia de Género que evalúa la aplicación del protocolo sanitario (art. 16). Las administraciones con competencias sanitarias deben promover y difundir protocolos con pautas uniformes de actuación, en el ámbito público y privado, que impulsen la prevención, la detección precoz y la intervención continuada, y que se refieran expresamente a las relaciones con la Administración de Justicia cuando exista constatación o sospecha fundada de daños físicos o psíquicos (art. 32.3); deben considerarse de forma especial las mujeres con mayor riesgo o más dificultades de acceso: minorías, inmigrantes, mujeres en exclusión social, con discapacidad, mayores o del medio rural (art. 32.4). Los servicios forenses deben contar con unidades de valoración forense integral que diseñen protocolos de actuación global e integral, con especial atención a la violencia vicaria (disposición adicional segunda, en la redacción de la LO 10/2022). Quien conozca un delito público por razón de su profesión está obligado a denunciarlo (art. 262 LECrim), y el Código de Deontología Médica de 2022 autoriza revelar el secreto, en sus justos límites, en los partes de lesiones y en los casos de maltrato (art. 31.1).",
+     "links": [
+      {
+       "ids": [
+        "secreto_prof"
+       ],
+       "t": "Secreto profesional y sus límites"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Pericia psiquiátrica"
+      }
+     ]
+    },
+    {
+     "t": "Valoración pericial del daño psíquico y del riesgo",
+     "x": "La pericia psiquiátrica o psicológica en violencia de pareja describe el estado mental actual, su evolución y su relación con los hechos denunciados: TEPT (con instrumentos como PCL-5 o CAPS-5), TEPT complejo, depresión, ideación y conducta suicida, consumo de sustancias y repercusión funcional. Dado que los trastornos depresivos predicen nueva victimización (Devries 2013) y que la probabilidad de haber sufrido violencia es mayor en mujeres con cualquier trastorno mental (Trevillion 2012), el informe debe reconstruir la historia previa con fuentes colaterales y razonar el nexo causal, sin atribuir todo el cuadro a los hechos ni descartarlo por la existencia de patología anterior. La valoración de la credibilidad del relato corresponde al tribunal, que aprecia las pruebas según su conciencia (art. 741 LECrim); la exploración de la simulación ha de hacerse con pruebas de validez y no como sospecha por defecto. En la valoración del riesgo, la policía española usa las herramientas propias del Sistema VioGén (VPR y VPER; López-Ossorio 2017), mientras que las guías de juicio profesional estructurado, como la SARA, tienen una capacidad predictiva modesta (véase su ficha). Como la violencia de pareja es la causa de más de un tercio de los homicidios de mujeres y suele culminar una larga historia de maltrato, Stöckl et al. (2013) recomiendan valorar el riesgo en distintos puntos de la atención sanitaria.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "desnos",
+        "pcl5"
+       ],
+       "t": "TEPT, TEPT complejo y PCL-5"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ideac_suic"
+       ],
+       "t": "Depresión e ideación suicida"
+      },
+      {
+       "ids": [
+        "sara",
+        "riesgo_viol"
+       ],
+       "t": "SARA y valoración del riesgo"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Simulación y pruebas de validez"
+      }
+     ]
+    },
+    {
+     "t": "Parejas del mismo sexo y personas trans",
+     "x": "La LO 1/2004 solo comprende la violencia de hombres sobre mujeres con quienes mantienen o mantuvieron una relación de afectividad. La violencia en parejas del mismo sexo y la ejercida contra personas trans quedan fuera de su marco asistencial y judicial específico, pero están protegidas por el Código Penal, cuyos arts. 153.2 y 173.2 se refieren a quien sea o haya sido cónyuge o persona ligada por análoga relación de afectividad sin distinción de sexo. La evidencia indica que el problema no es menor: en hombres que tienen sexo con hombres, todas las formas de violencia de pareja aparecen con tasas similares o superiores a las documentadas en mujeres (Finneran 2013) y la victimización se asocia a consumo de sustancias, síntomas depresivos, infección por VIH y sexo anal sin protección (Buller 2014); en mujeres lesbianas, la forma más prevalente es la violencia emocional o psicológica (Badenes-Ribera 2016); y las personas trans tienen 2,2 veces más riesgo de violencia física y 2,5 veces más de violencia sexual en la pareja que las cisgénero (Peitzmeier 2020). Salvo la de personas trans, estas revisiones señalan muestras no probabilísticas e instrumentos o definiciones no validados. En la clínica conviene preguntar por la pareja sin presuponer su sexo, explorar el control coercitivo vinculado a la amenaza de revelar la orientación o la identidad [fuente no localizada], y en el contexto del chemsex, la violencia sexual facilitada por drogas.",
+     "links": [
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Diversidad sexual y de género"
+      },
+      {
+       "ids": [
+        "sumision_q",
+        "chemsex_ssex"
+       ],
+       "t": "Violencia sexual y chemsex"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género (2004). BOE-A-2004-21760, 29-12-2004 (texto consolidado), arts. 1, 15, 16, 32 y disposición adicional segunda",
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995). BOE-A-1995-25444 (texto consolidado), arts. 153 y 173.2",
+    "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (1882). BOE-A-1882-6036 (texto consolidado), arts. 262, 355 y 741",
+    "Consejo General de Colegios Oficiales de Médicos (2022). Código de Deontología Médica. Madrid: CGCOM (edición oficial, cgcom.es), arts. 27 y 31",
+    "Devries KM et al. (2013). Intimate partner violence and incident depressive symptoms and suicide attempts: a systematic review of longitudinal studies. PLoS Med 10:e1001439 · PMID 23671407",
+    "Trevillion K et al. (2012). Experiences of domestic violence and mental disorders: a systematic review and meta-analysis. PLoS One 7:e51740 · PMID 23300562",
+    "White SJ et al. (2024). Global prevalence and mental health outcomes of intimate partner violence among women: a systematic review and meta-analysis. Trauma Violence Abuse 25:494-511 · PMID 36825800",
+    "Stöckl H et al. (2013). The global prevalence of intimate partner homicide: a systematic review. Lancet 382:859-865 · PMID 23791474",
+    "Feder G et al. (2011). Identification and Referral to Improve Safety (IRIS) of women experiencing domestic violence with a primary care training and support programme: a cluster randomised controlled trial. Lancet 378:1788-1795 · PMID 22000683",
+    "Hameed M et al. (2020). Psychological therapies for women who experience intimate partner violence. Cochrane Database Syst Rev 7:CD013017 · PMID 32608505",
+    "Finneran C & Stephenson R (2013). Intimate partner violence among men who have sex with men: a systematic review. Trauma Violence Abuse 14:168-185 · PMID 23271429",
+    "Buller AM et al. (2014). Associations between intimate partner violence and health among men who have sex with men: a systematic review and meta-analysis. PLoS Med 11:e1001609 · PMID 24594975",
+    "Badenes-Ribera L et al. (2016). Intimate partner violence in self-identified lesbians: a systematic review of its prevalence and correlates. Trauma Violence Abuse 17:284-297 · PMID 26018210",
+    "Peitzmeier SM et al. (2020). Intimate partner violence in transgender populations: systematic review and meta-analysis of prevalence and correlates. Am J Public Health 110:e1-e14 · PMID 32673114",
+    "López-Ossorio JJ et al. (2017). Risk factors related to intimate partner violence police recidivism in Spain. Int J Clin Health Psychol 17:107-119 · PMID 30487886"
+   ],
+   "rel": [
+    "ptsd",
+    "desnos",
+    "ddm",
+    "ideac_suic",
+    "sara",
+    "riesgo_viol",
+    "perit_forense",
+    "sumision_q",
+    "genero",
+    "maltrato_inf",
+    "pcl5",
+    "simulacion",
+    "chemsex_ssex",
+    "emb_peri",
+    "trauma"
+   ]
+  },
+  {
+   "id": "abuso_sexual_inf",
+   "n": "Abuso sexual infantil: secuelas, revelación, valoración del testimonio y prueba preconstituida",
+   "ab": "Abuso sexual infantil",
+   "al": [
+    "ASI",
+    "child sexual abuse",
+    "CSA",
+    "violencia sexual contra la infancia",
+    "agresión sexual a menores"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2021,
+   "tags": [
+    "child",
+    "trauma",
+    "forense",
+    "risk"
+   ],
+   "desc": "En un metaanálisis de 65 artículos de 22 países, el 7,9 % de los hombres y el 19,7 % de las mujeres refirieron algún tipo de abuso sexual antes de los 18 años (Pereda 2009). Una revisión paraguas de 19 metaanálisis (559 estudios primarios) halló asociación con 26 de 28 desenlaces a largo plazo, con OR de 2,2 a 3,3 para seis de ocho diagnósticos psiquiátricos adultos; solo las revisiones sobre TEPT, esquizofrenia y abuso de sustancias alcanzaron alta calidad (Hailes 2019). El abuso sexual infantil actúa como factor de riesgo general e inespecífico de psicopatología, con efectos de magnitud pequeña a moderada (Maniglio 2009). En España, la LO 8/2021 (LOPIVI) impone un deber de comunicación cualificado al personal sanitario y la LECrim obliga a practicar la declaración de menores de catorce años como prueba preconstituida en la instrucción de los delitos que enumera, entre ellos los delitos contra la libertad e indemnidad sexuales (art. 449 ter).",
+   "feats": [
+    "Asociaciones psiquiátricas más intensas: trastorno conversivo (OR 3,3), trastorno límite de la personalidad (OR 2,9), ansiedad (OR 2,7) y depresión (OR 2,7); la calidad de los metaanálisis sobre trastorno límite y ansiedad fue baja (Hailes 2019)",
+    "Factor de riesgo inespecífico: en 14 revisiones con más de 270 000 personas, las asociaciones con trastornos médicos, psicológicos, conductuales y sexuales fueron de magnitud pequeña a moderada y dependieron de la fuente y el tamaño de la muestra (Maniglio 2009)",
+    "La revelación es un proceso iterativo e interactivo, no un acto único; la edad y el género influyen en ella y las barreras siguen superando a los facilitadores (Alaggia 2019)",
+    "LOPIVI: el personal cualificado de los centros sanitarios que advierta indicios de violencia contra una persona menor debe comunicarlo de inmediato a los servicios sociales y, si su salud o seguridad está amenazada, a las Fuerzas y Cuerpos de Seguridad o al Ministerio Fiscal (art. 16.1-16.2)",
+    "Prueba preconstituida: la audiencia de la persona menor de catorce años o con discapacidad necesitada de especial protección se practica en todo caso en la instrucción de los delitos que enumera el art. 449 ter (entre ellos, contra la libertad e indemnidad sexuales), con contradicción, presencia de la defensa letrada y grabación audiovisual, y puede reproducirse en el juicio (LECrim, arts. 449 bis, 449 ter y 730.2)",
+    "El CBCA, diseñado para declaraciones de abuso sexual infantil (Amado 2016), en 60 declaraciones reales de presuntas víctimas alcanzó una exactitud global del 75 %: identificó el 90 % de las alegaciones confirmadas, pero su capacidad para reconocer los casos no confirmados fue inferior al azar, y sus puntuaciones se asociaron a la edad (Welle 2016)"
+   ],
+   "tx": "Ante una revelación: escuchar con calma, permitir el relato libre sin preguntas sugestivas ni repetidas, registrar literalmente lo dicho y el contexto, no confrontar al presunto agresor ni investigar, garantizar la seguridad inmediata y comunicar conforme a la LOPIVI y al art. 262 LECrim. El tratamiento de las secuelas sigue las guías del trauma en la infancia y la adolescencia (véase la ficha de maltrato infantil). La terapia no debe orientarse a recuperar o confirmar recuerdos (véase la ficha de memoria falsa) [fuente no localizada], y quien trata no debe actuar como perito de su paciente (Código de Deontología Médica 2022, art. 76.7).",
+   "note": "La evidencia sobre secuelas procede de estudios observacionales con heterogeneidad elevada y solo unas pocas revisiones son de alta calidad (Hailes 2019). La presencia de síntomas no prueba el abuso y su ausencia no lo descarta, dada la inespecificidad de las secuelas (Maniglio 2009). Las técnicas de análisis de credibilidad (CBCA/SVA) no son una prueba diagnóstica del abuso: su validez en casos reales es limitada, dependen de la edad y de la calidad de la entrevista, y su generalización a otros contextos no está respaldada (Amado 2016; Welle 2016). La valoración que hace la jurisprudencia española de los informes de credibilidad no se ha podido contrastar en este nodo [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Revelación y primera escucha",
+     "x": "Alaggia et al. (2019), en una revisión de 33 estudios publicados entre 2000 y 2016, concluyen que la revelación del abuso sexual infantil es un proceso iterativo e interactivo que se produce mejor en un contexto relacional; que la edad y el género influyen significativamente; que los modelos actuales son socioecológicos (factores individuales, familiares, contextuales y culturales); y que las barreras se identifican con más frecuencia que los facilitadores. La revelación puede ser tardía, parcial o producirse en la edad adulta [fuente no localizada], lo que la clínica de adultos debe tener presente. La LOPIVI establece el deber de comunicación de toda la ciudadanía (art. 15) y uno cualificado para el personal sanitario, que además debe prestar atención inmediata a la víctima y colaborar con las autoridades (art. 16.4); reconoce a niños, niñas y adolescentes el derecho a comunicar por sí mismos la violencia (art. 17) y obliga a las administraciones sanitarias a promover la elaboración de protocolos específicos que contemplen a las víctimas con discapacidad, problemas graves del neurodesarrollo o problemas de salud mental, garantizando una atención a la salud mental integral, reparadora y adecuada a su edad (art. 38). En la primera escucha conviene preguntar poco y abierto, y no repetir la entrevista, porque cada nueva exploración puede contaminar el relato [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "Maltrato infantil"
+      },
+      {
+       "ids": [
+        "secreto_prof"
+       ],
+       "t": "Deber de comunicación y secreto"
+      }
+     ]
+    },
+    {
+     "t": "Testimonio, credibilidad y prueba preconstituida",
+     "x": "La Statement Validity Assessment (SVA) integra el análisis de contenido basado en criterios (CBCA), que aplica 19 criterios de realidad a la declaración transcrita (Welle 2016) según la hipótesis de Undeutsch (Amado 2016), con una lista de validez que considera la entrevista, la persona y el contexto [fuente no localizada]. Un metaanálisis en adultos corroboró la hipótesis de Undeutsch, pero los resultados no fueron generalizables y algunos criterios no discriminaron (Amado 2016). En 60 declaraciones reales de presuntas víctimas, la fiabilidad entre evaluadores fue de 0,74 y la exactitud global del 75 %, pero su capacidad para identificar los casos no confirmados fue inferior al azar y las puntuaciones aumentaban con la edad (Welle 2016). Por ello, el informe pericial debe presentarse como valoración de la calidad del relato y del procedimiento con que se obtuvo, no como dictamen sobre la veracidad (sobre la entrevista estructurada del NICHD, Lamb 2007, véase memoria falsa). En España, cuando una persona menor de catorce años o con discapacidad necesitada de especial protección declara como testigo en la instrucción de, entre otros, delitos contra la libertad e indemnidad sexuales, la audiencia se practica en todo caso como prueba preconstituida; puede hacerse mediante equipos psicosociales a quienes las partes trasladan sus preguntas a través de la autoridad judicial, se graba siempre y se evita la confrontación visual con la persona investigada (art. 449 ter LECrim).",
+     "links": [
+      {
+       "ids": [
+        "falsa_memoria"
+       ],
+       "t": "Sugestionabilidad y protocolo NICHD"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Pericia forense"
+      },
+      {
+       "ids": [
+        "simulacion"
+       ],
+       "t": "Validez del relato"
+      }
+     ]
+    },
+    {
+     "t": "Secuelas psicopatológicas y abordaje clínico",
+     "x": "La revisión paraguas de Hailes et al. (2019), con 4 089 547 participantes, encontró asociación del abuso sexual infantil con seis de ocho diagnósticos psiquiátricos adultos, con todos los desenlaces psicosociales negativos estudiados (OR 1,2-3,4) y con todas las enfermedades físicas analizadas (OR 1,4-1,9). Si se asume causalidad, la fracción atribuible poblacional alcanzaría el 14,4 % para el trastorno conversivo. Maniglio (2009), en una revisión de revisiones, lo considera un factor de riesgo general e inespecífico, lo que no respalda la idea de un síndrome específico del abuso sexual. En la clínica conviene explorar sistemáticamente el TEPT y el TEPT complejo, los síntomas disociativos y funcionales, la depresión, la autolesión, el consumo de sustancias y las dificultades en la sexualidad y el vínculo, sin inferir el abuso a partir de ellos. En personas adultas que relatan abuso en la infancia, el objetivo terapéutico es la elaboración y el funcionamiento actual, no la reconstrucción judicial de los hechos; si la persona decide denunciar, se le informa de los recursos y de la conveniencia de una valoración por profesionales distintos de quienes la tratan.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "desnos"
+       ],
+       "t": "TEPT y TEPT complejo"
+      },
+      {
+       "ids": [
+        "conv",
+        "tlp"
+       ],
+       "t": "Trastorno conversivo y trastorno límite"
+      },
+      {
+       "ids": [
+        "ddm",
+        "autolesion"
+       ],
+       "t": "Depresión y autolesión"
+      },
+      {
+       "ids": [
+        "disoc_amn"
+       ],
+       "t": "Disociación y memoria"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Pereda N et al. (2009). The prevalence of child sexual abuse in community and student samples: a meta-analysis. Clin Psychol Rev 29:328-338 · PMID 19371992",
+    "Hailes HP et al. (2019). Long-term outcomes of childhood sexual abuse: an umbrella review. Lancet Psychiatry 6:830-839 · PMID 31519507",
+    "Maniglio R (2009). The impact of child sexual abuse on health: a systematic review of reviews. Clin Psychol Rev 29:647-657 · PMID 19733950",
+    "Alaggia R et al. (2019). Facilitators and barriers to child sexual abuse (CSA) disclosures: a research update (2000-2016). Trauma Violence Abuse 20:260-283 · PMID 29333973",
+    "Amado BG et al. (2016). Criteria-Based Content Analysis (CBCA) reality criteria in adults: a meta-analytic review. Int J Clin Health Psychol 16:201-210 · PMID 30487863",
+    "Welle I et al. (2016). A call to improve the validity of criterion-based content analysis (CBCA): results from a field-based study including 60 children's statements of sexual abuse. J Forensic Leg Med 43:111-119 · PMID 27570234",
+    "Lamb ME et al. (2007). A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: a review of research using the NICHD Investigative Interview Protocol. Child Abuse Negl 31:1201-1231 · PMID 18023872",
+    "Ley Orgánica 8/2021, de 4 de junio, de protección integral a la infancia y la adolescencia frente a la violencia (2021). BOE-A-2021-9347 (texto consolidado), arts. 15-17 y 38",
+    "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (1882). BOE-A-1882-6036 (texto consolidado), arts. 262, 449 bis, 449 ter y 730",
+    "Consejo General de Colegios Oficiales de Médicos (2022). Código de Deontología Médica. Madrid: CGCOM (edición oficial, cgcom.es), art. 76.7"
+   ],
+   "rel": [
+    "maltrato_inf",
+    "falsa_memoria",
+    "ptsd",
+    "desnos",
+    "conv",
+    "tlp",
+    "perit_forense",
+    "stress",
+    "disoc_amn",
+    "simulacion",
+    "autolesion",
+    "ddm",
+    "trauma",
+    "violencia_genero"
+   ]
+  },
+  {
+   "id": "secreto_prof",
+   "n": "Secreto profesional y confidencialidad en salud mental: marco legal, límites y peritaje",
+   "ab": "Secreto profesional",
+   "al": [
+    "confidencialidad",
+    "secreto médico",
+    "deber de sigilo",
+    "deber de proteger",
+    "duty to warn",
+    "Tarasoff"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "fen",
+   "y": 2002,
+   "tags": [
+    "forense"
+   ],
+   "desc": "Toda persona tiene derecho a que se respete el carácter confidencial de los datos referentes a su salud y a que nadie acceda a ellos sin autorización amparada por la ley (Ley 41/2002, art. 7.1); quien elabore o acceda a la documentación clínica está obligado a guardar la reserva debida (art. 2.7). El Código Penal castiga al profesional que, incumpliendo su obligación de sigilo o reserva, divulgue los secretos de otra persona con prisión de uno a cuatro años, multa e inhabilitación especial de dos a seis años (art. 199.2). El Código de Deontología Médica de 2022 define el secreto como uno de los pilares de la relación clínica y un bien social que genera una obligación inexcusable (art. 27.1), lo extiende a lo que el médico haya visto y deducido y al contenido de la historia clínica (art. 27.2) y lo mantiene tras la muerte del paciente o la paciente (art. 29.3). En salud mental, donde la información es especialmente sensible, el secreto es condición de la alianza terapéutica [fuente no localizada], pero tiene límites legales y deontológicos tasados.",
+   "feats": [
+    "Código Penal: revelar secretos ajenos conocidos por razón del oficio o de relaciones laborales se castiga con prisión de uno a tres años (art. 199.1); la divulgación por un profesional con obligación de sigilo, con prisión de uno a cuatro años, multa de doce a veinticuatro meses e inhabilitación de dos a seis años (art. 199.2)",
+    "Excepciones deontológicas (Código de Deontología Médica 2022, art. 31.1): certificaciones de nacimiento y defunción, partes de lesiones, actuación como perito o forense, requerimiento como testigo, casos de maltrato, enfermedades de declaración obligatoria, sospecha de trata o tráfico de órganos, silencio que perjudique gravemente al paciente o a terceros o produzca peligro colectivo, y autorización del paciente",
+    "Acceso a la historia clínica con fines judiciales: se preservan separados los datos identificativos de los clínicos salvo que la autoridad judicial considere imprescindible unificarlos, y el acceso se limita estrictamente a los fines de cada caso (Ley 41/2002, art. 16.3)",
+    "El paciente o la paciente tiene derecho de acceso a su historia, pero no en perjuicio de la confidencialidad de terceras personas ni de las anotaciones subjetivas de los profesionales (Ley 41/2002, art. 18.3)",
+    "Entre los 16 y los 18 años, la persona menor tiene derecho al secreto incluso ante sus progenitores, salvo situación de riesgo grave (Código de Deontología Médica 2022, art. 14.5)",
+    "Quien conozca un delito público por razón de su profesión debe denunciarlo (art. 262 LECrim); la exención del art. 263 alcanza a abogados, procuradores y ministros de culto, no al personal médico"
+   ],
+   "tx": "Informar desde la primera consulta de la confidencialidad y de sus límites; ante un posible deber de revelación, intentar primero que la propia persona comunique o autorice; revelar solo lo estrictamente necesario, al destinatario competente; registrar en la historia el razonamiento, las alternativas consideradas y lo comunicado; y consultar con la comisión deontológica del colegio o con el comité de ética asistencial en los casos dudosos. En la docencia, las sesiones clínicas, las publicaciones y las redes sociales, anonimizar siempre (Código de Deontología Médica 2022, arts. 28.5 y 29.2).",
+   "note": "No se ha localizado en España una norma específica equivalente a los estatutos estadounidenses del «deber de proteger» ni jurisprudencia verificada que lo configure [fuente no localizada]; el fundamento de la revelación por riesgo grave para terceros es deontológico (art. 31.1.9 del Código de 2022) y, en caso de delito inminente, penal (art. 450 CP). Incluso donde existen esos estatutos, la decisión depende del juicio clínico y ético (Kachigian & Felthous 2004). En Canadá, la obligación de proteger depende de la evolución de la jurisprudencia y corresponde al psiquiatra conocer su estado (Chaimowitz 2000). La literatura sobre el conflicto entre la confidencialidad del peritaje y los deberes de comunicación procede sobre todo de Estados Unidos y no es trasladable sin más al derecho español.",
+   "sec": [
+    {
+     "t": "Marco normativo",
+     "x": "La Ley 41/2002 (texto consolidado) sitúa la intimidad entre los principios básicos de toda actividad relacionada con la documentación clínica (art. 2.1), obliga a la reserva debida a quien la elabore o acceda a ella (art. 2.7), reconoce el derecho a la confidencialidad de los datos de salud (art. 7.1) y obliga a los centros a adoptar las medidas oportunas para garantizarlo y a elaborar, cuando proceda, normas y procedimientos protocolizados que garanticen el acceso legal a los datos (art. 7.2). Los profesionales asistenciales acceden a la historia como instrumento para la asistencia (art. 16.1), el personal de gestión solo a los datos relacionados con sus funciones (art. 16.4) y todo el personal que accede queda sujeto al deber de secreto (art. 16.6). El Código Penal tipifica la revelación de secretos conocidos por razón del oficio (art. 199.1) y la divulgación por un profesional obligado al sigilo (art. 199.2). El Código de Deontología Médica de 2022 añade que ser médico no autoriza a acceder a la información de pacientes con quienes no se tiene relación profesional (art. 27.3), que el deber de secreto rige también en el ámbito social, laboral y familiar (art. 27.4), que no se debe colaborar con bases de datos que no garanticen la confidencialidad (art. 28.3), que en el trabajo en equipo cada médico responde de la totalidad de los datos (art. 30.3) y que solo se comunica información confidencial a otro médico cuando es necesario para el beneficio del paciente (art. 30.4).",
+     "links": [
+      {
+       "ids": [
+        "consent_cap"
+       ],
+       "t": "Ley 41/2002 y consentimiento"
+      }
+     ]
+    },
+    {
+     "t": "Límites: riesgo grave para terceros, denuncia y protección de menores",
+     "x": "El secreto es la regla y se preserva hasta donde sea posible (Código de Deontología Médica 2022, art. 31.1). Su revelación, siempre en sus justos límites, se admite cuando el silencio perjudicaría gravemente al propio paciente o a otras personas o produciría un peligro colectivo (art. 31.1.9), en los casos de maltrato (art. 31.1.5) y en los partes de lesiones (art. 31.1.2). En las infecciones de transmisión sexual, el paciente debe saber que, si no informa a sus parejas, el médico podría quedar relevado del secreto ante un riesgo grave para terceros (art. 61.4). En el plano legal, la LECrim obliga a quien conozca un delito público por razón de su profesión a denunciarlo (art. 262), el Código Penal castiga a quien, pudiendo, no acuda a la autoridad para impedir un delito contra la vida, la integridad, la salud o la libertad sexual de cuya comisión próxima o actual tenga noticia (art. 450.2), y la LOPIVI impone al personal sanitario la comunicación inmediata de indicios de violencia contra personas menores (art. 16). En Estados Unidos, tras el caso Tarasoff, el análisis de 76 sentencias en estados con leyes sobre el deber de proteger mostró una aplicación heterogénea, y el clínico sigue dependiendo de su juicio clínico y ético (Kachigian & Felthous 2004). En la práctica, la amenaza seria y concreta contra una persona identificable justifica revelar lo necesario para protegerla; la ideación agresiva sin plan ni destinatario no lo justifica por sí sola [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "riesgo_viol",
+        "hetero_agr"
+       ],
+       "t": "Valoración del riesgo de violencia"
+      },
+      {
+       "ids": [
+        "violencia_genero",
+        "abuso_sexual_inf"
+       ],
+       "t": "Violencia de género y abuso sexual infantil"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "ITS y salud sexual"
+      }
+     ]
+    },
+    {
+     "t": "Secreto y peritaje",
+     "x": "El médico perito está sujeto al secreto profesional con las únicas excepciones previstas en el Código y en la normativa sobre confidencialidad (Código de Deontología Médica 2022, art. 76.2) y debe revelar solo la información estrictamente necesaria para la finalidad de la pericia (art. 76.4). El cargo de perito es incompatible con ser o haber sido médico asistencial de la persona peritada, por la lealtad debida al paciente y la imparcialidad exigible (art. 76.7), y es contrario a la deontología que el médico asistencial se ofrezca como testigo-perito; si se le obliga, debe limitarse a los hechos conocidos (art. 76.8). Antes de explorar o consultar la documentación clínica, informa a la persona de su identidad, de quién le nombra, de la misión encomendada y de que sus manifestaciones pueden constar en el informe y hacerse públicas (art. 76.9); si descubre un riesgo importante para la vida o la salud de la persona o de terceros, lo comunica primero al interesado y, valorando el caso, a la autoridad (art. 76.11). En Estados Unidos, romper la confidencialidad en una evaluación pericial carece de guía clara cuando se descubren, por ejemplo en redes sociales, amenazas o abusos (MacIntyre 2024), y un tribunal de California consideró que los peritos contratados por el abogado quedan amparados por el privilegio de su trabajo y no deben comunicar sospechas de maltrato ni cumplir deberes tipo Tarasoff (Lareau 2015), criterio sin equivalente acreditado en España [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Pericia psiquiátrica"
+      },
+      {
+       "ids": [
+        "imputabilidad"
+       ],
+       "t": "Imputabilidad"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica (2002). BOE-A-2002-22188 (texto consolidado), arts. 2, 7, 16 y 18",
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995). BOE-A-1995-25444 (texto consolidado), arts. 199 y 450",
+    "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (1882). BOE-A-1882-6036 (texto consolidado), arts. 262 y 263",
+    "Ley Orgánica 8/2021, de 4 de junio, de protección integral a la infancia y la adolescencia frente a la violencia (2021). BOE-A-2021-9347 (texto consolidado), art. 16",
+    "Consejo General de Colegios Oficiales de Médicos (2022). Código de Deontología Médica. Madrid: CGCOM (edición oficial, cgcom.es), arts. 14.5, 27-31, 61.4 y 76",
+    "Kachigian C & Felthous AR (2004). Court responses to Tarasoff statutes. J Am Acad Psychiatry Law 32:263-273 · PMID 15515914",
+    "MacIntyre MR et al. (2024). From posts to protection: ethical considerations regarding forensic psychiatrists and a duty to warn based on social media. Behav Sci Law 42:130-148 · PMID 38389201",
+    "Lareau CR (2015). Attorney work product privilege trumps mandated child abuse reporting law: the case of Elijah W. v. Superior Court. Int J Law Psychiatry 42-43:43-48 · PMID 26404507",
+    "Chaimowitz GA et al. (2000). The duty to warn and protect: impact on practice. Can J Psychiatry 45:899-904 · PMID 11190358"
+   ],
+   "rel": [
+    "perit_forense",
+    "imputabilidad",
+    "internamiento",
+    "consent_cap",
+    "riesgo_viol",
+    "hetero_agr",
+    "psicofarm_inf",
+    "violencia_genero",
+    "abuso_sexual_inf",
+    "chemsex_ssex",
+    "maltrato_inf",
+    "adher"
+   ]
+  }
+ ]
+}

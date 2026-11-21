@@ -1,0 +1,597 @@
+{
+ "patch": {
+  "tea_suicidio": {
+   "secAdd": [
+    {
+     "t": "Evidencia metaanalítica y de registros",
+     "x": "Los datos clínicos iniciales se han confirmado en síntesis cuantitativas. Un metaanálisis de 31 estudios observacionales halló una odds ratio agrupada de 3,32 (IC 95 % 2,60-4,24) para la suicidalidad y de 3,18 para la conducta autolesiva en personas autistas, con resultados consistentes entre ámbitos clínicos y no clínicos y entre población infantil y adulta (Blanchard 2021). Otro metaanálisis de diez estudios (10,4 millones de personas) estimó un riesgo relativo de muerte por suicidio de 2,85, significativamente mayor en mujeres que en varones autistas, y unas 13 400 muertes por suicidio en exceso en 2021 en el mundo (Santomauro 2024). En jóvenes autistas (≤25 años), la prevalencia agregada fue del 25,2 % para la ideación, del 8,3 % para los intentos y del 0,2 % para la muerte por suicidio, con cifras más altas en autoinforme que en informe parental (O'Halloran 2022). En los registros suecos (54 168 personas autistas), el riesgo máximo se concentró en el autismo sin discapacidad intelectual con TDAH comórbido (OR de muerte por suicidio 13,09), y los familiares de personas autistas también presentaron más conducta suicida (Hirvikoski 2020).",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "di"
+       ],
+       "t": "comorbilidad que modula el riesgo"
+      },
+      {
+       "ids": [
+        "tea_mujeres"
+       ],
+       "t": "exceso de riesgo en mujeres autistas"
+      },
+      {
+       "ids": [
+        "autolesion"
+       ],
+       "t": "conducta autolesiva"
+      }
+     ]
+    },
+    {
+     "t": "Factores modificables y límites de la evidencia",
+     "x": "En el registro sueco, el ajuste por comorbilidad psiquiátrica atenuó las estimaciones de riesgo, y los autores concluyen que la vigilancia de la conducta suicida debe acompañarse del tratamiento de la comorbilidad (Hirvikoski 2020). En jóvenes autistas, las experiencias adversas en la infancia fueron factores de riesgo intensos y la resiliencia actuó como factor protector; la revisión propone una evaluación del riesgo participativa, con intervención precoz y promoción de la resiliencia (O'Halloran 2022). Las discrepancias entre autoinforme e informe de cuidadores aconsejan preguntar directamente a la persona y no basarse solo en informantes (O'Halloran 2022). No se han localizado ensayos aleatorizados de intervenciones de prevención del suicidio diseñadas específicamente para población autista [fuente no localizada]. La geografía de los estudios es limitada (Santomauro 2024), la heterogeneidad entre muestras es alta y la definición de autismo varía entre registros, cohortes clínicas y autoinforme, lo que obliga a interpretar las cifras como órdenes de magnitud y no como riesgos individuales.",
+     "links": [
+      {
+       "ids": [
+        "stress"
+       ],
+       "t": "adversidad infantil"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "cssrs"
+       ],
+       "t": "evaluación del riesgo suicida"
+      },
+      {
+       "ids": [
+        "tea_adulto",
+        "tea_camuflaje"
+       ],
+       "t": "autismo adulto y camuflaje"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hirvikoski T et al. (2020). Individual risk and familial liability for suicide attempt and suicide in autism: a population-based study. Psychol Med 50:1463-1474 · PMID 31238998",
+    "Blanchard A et al. (2021). Risk of self-harm in children and adults with autism spectrum disorder: a systematic review and meta-analysis. JAMA Netw Open 4:e2130272 · PMID 34665237",
+    "Santomauro DF et al. (2024). The global burden of suicide mortality among people on the autism spectrum: a systematic review, meta-analysis, and extension of estimates from the Global Burden of Disease Study 2021. Psychiatry Res 341:116150 · PMID 39197224",
+    "O'Halloran L, Coey P & Wilson C (2022). Suicidality in autistic youth: a systematic review and meta-analysis. Clin Psychol Rev 93:102144 · PMID 35290800"
+   ],
+   "relAdd": [
+    "tdah",
+    "stress"
+   ]
+  },
+  "tmf": {
+   "secAdd": [
+    {
+     "t": "Evidencia terapéutica y controversias",
+     "x": "Antes del ensayo Physio4FMD, un estudio aleatorizado de viabilidad con 57 personas analizadas mostró que, a los 6 meses, el 72 % del grupo de fisioterapia especializada se consideraba mejorado frente al 18 % del tratamiento habitual, con efecto moderado-grande en la función física del SF-36 (diferencia ajustada 19,8 puntos) y sin efectos adversos (Nielsen 2017); el contraste con el ensayo de fase 3 (Nielsen 2024), en el que el comparador era fisioterapia neurológica comunitaria y no tratamiento habitual, ilustra cómo los estudios pequeños y con controles débiles sobrestiman el efecto. En la distonía funcional, un ensayo piloto doble ciego (14 aleatorizados, 10 completaron) no encontró beneficio añadido de la toxina botulínica previa a 12 sesiones de TCC, que fue la que se asoció a mejoría (Vizcarra 2019). En el temblor funcional, 12 semanas de TCC en una serie no controlada de 15 personas lograron remisión o casi remisión en el 73,3 %, con cambios en la actividad del cíngulo anterior durante el procesamiento emocional (Espay 2019; evidencia de clase III). En conjunto, la base empírica sigue formada por muestras pequeñas, y la superioridad de una modalidad concreta no está establecida.",
+     "links": [
+      {
+       "ids": [
+        "tx_tnf"
+       ],
+       "t": "tratamiento del trastorno neurológico funcional"
+      },
+      {
+       "ids": [
+        "conv"
+       ],
+       "t": "trastorno de síntomas neurológicos funcionales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nielsen G et al. (2017). Randomised feasibility study of physiotherapy for patients with functional motor symptoms. J Neurol Neurosurg Psychiatry 88:484-490 · PMID 27694498",
+    "Vizcarra JA et al. (2019). OnabotulinumtoxinA and cognitive behavioral therapy in functional dystonia: a pilot randomized clinical trial. Parkinsonism Relat Disord 63:174-178 · PMID 30777651",
+    "Espay AJ et al. (2019). Clinical and neural responses to cognitive behavioral therapy for functional tremor. Neurology 93:e1787-e1798 · PMID 31586023"
+   ]
+  },
+  "rechazo_esc": {
+   "secAdd": [
+    {
+     "t": "Evidencia de las intervenciones",
+     "x": "Los ensayos aleatorizados disponibles son pocos y pequeños. En 34 niños y niñas de 5 a 15 años, cuatro semanas de TCC individual con entrenamiento de padres y profesorado en manejo conductual mejoraron la asistencia escolar, el miedo, la ansiedad, la depresión y el afrontamiento frente a lista de espera, con mantenimiento a los 3 meses (King 1998). Sin embargo, en 56 menores con «fobia escolar», 12 semanas de TCC no superaron a un control de atención con apoyo educativo: ambos devolvieron al aula y redujeron la ansiedad y la depresión, sin diferencias al iniciar el curso siguiente (Last 1998). En 61 menores de 7 a 14 años con rechazo ansioso, la combinación de terapia individual y formación de familia y profesorado no fue mejor que cada componente por separado; la terapia solo con el menor fue la menos eficaz para la asistencia inmediatamente tras el tratamiento, pero se igualó en el seguimiento a 4,5 meses (Heyne 2002). Estos datos apoyan las intervenciones psicosociales estructuradas, pero no la superioridad de un formato concreto ni de la TCC frente a un apoyo bien organizado.",
+     "links": [
+      {
+       "ids": [
+        "tcc_inf"
+       ],
+       "t": "TCC en la infancia y la adolescencia"
+      },
+      {
+       "ids": [
+        "entren_parental"
+       ],
+       "t": "entrenamiento parental"
+      },
+      {
+       "ids": [
+        "anx_sep",
+        "fobia_soc"
+       ],
+       "t": "trastornos de ansiedad subyacentes"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "Los datos de seguimiento a largo plazo son escasos. En un estudio sueco de seguimiento a 20-29 años de 35 personas tratadas entre los 7 y los 12 años por fobia escolar con ansiedad por separación, comparadas con 35 pacientes psiquiátricos infantiles sin rechazo escolar y 35 personas de la población general, el grupo con fobia escolar había tenido más consultas psiquiátricas en la edad adulta, vivía con sus progenitores con más frecuencia que la población general y tenía menos hijos que ambos grupos de comparación; en cambio, el grupo psiquiátrico sin rechazo escolar presentó peor ajuste psicosocial y más delitos (Flakierska-Praquin 1997). En la infancia, la persistencia de la evitación consolida la ansiedad y el retraso académico, y las ausencias prolongadas complican el retorno [fuente no localizada]. El pronóstico depende sobre todo del trastorno subyacente, de la edad de inicio (peor en la adolescencia) y de la rapidez de la reincorporación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "anx_sep"
+       ],
+       "t": "ansiedad por separación"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "depresión infantil"
+      },
+      {
+       "ids": [
+        "tcond"
+       ],
+       "t": "absentismo con trastorno de conducta"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "King NJ et al. (1998). Cognitive-behavioral treatment of school-refusing children: a controlled evaluation. J Am Acad Child Adolesc Psychiatry 37:395-403 · PMID 9549960",
+    "Last CG, Hansen C & Franco N (1998). Cognitive-behavioral treatment of school phobia. J Am Acad Child Adolesc Psychiatry 37:404-411 · PMID 9549961",
+    "Heyne D et al. (2002). Evaluation of child therapy and caregiver training in the treatment of school refusal. J Am Acad Child Adolesc Psychiatry 41:687-695 · PMID 12049443",
+    "Flakierska-Praquin N, Lindström M & Gillberg C (1997). School phobia with separation anxiety disorder: a comparative 20- to 29-year follow-up study of 35 school refusers. Compr Psychiatry 38:17-22 · PMID 8980867"
+   ]
+  },
+  "anx_mayor": {
+   "secAdd": [
+    {
+     "t": "Evaluación y evidencia de la TCC",
+     "x": "Para medir la ansiedad en la vejez se dispone de un instrumento específico, la Geriatric Anxiety Inventory (GAI): 20 ítems de respuesta dicotómica referidos a la última semana, autoaplicados o administrados por personal de enfermería, desarrollados en 452 personas mayores de la comunidad y 46 pacientes de psicogeriatría; mostró alfa de Cronbach de 0,91-0,93, fiabilidad interobservador y test-retest excelentes y, con un punto de corte de 10/11, una sensibilidad del 75 % y una especificidad del 84 % para el TAG del DSM-IV en la muestra psicogeriátrica (Pachana 2007). Respecto de la psicoterapia, un metaanálisis de 12 ensayos aleatorizados halló que la TCC reduce la ansiedad con efecto moderado frente a lista de espera o tratamiento habitual, pero con efecto pequeño y no significativo al final del tratamiento frente a controles activos, con diferencia significativa solo a los 6 meses; el tipo de grupo control fue el único moderador del tamaño del efecto, y los autores sugieren una eficacia menor que en la edad laboral (Gould 2012). La TCC es eficaz en la vejez, pero su ventaja sobre un contacto terapéutico estructurado es modesta.",
+     "links": [
+      {
+       "ids": [
+        "gad7"
+       ],
+       "t": "otros instrumentos de cribado de ansiedad"
+      },
+      {
+       "ids": [
+        "tag"
+       ],
+       "t": "trastorno de ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "tcci"
+       ],
+       "t": "TCC adaptada para el insomnio"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pachana NA et al. (2007). Development and validation of the Geriatric Anxiety Inventory. Int Psychogeriatr 19:103-114 · PMID 16805925",
+    "Gould RL, Coulson MC & Howard RJ (2012). Efficacy of cognitive behavioral therapy for anxiety disorders in older people: a meta-analysis and meta-regression of randomized controlled trials. J Am Geriatr Soc 60:218-229 · PMID 22283717"
+   ]
+  },
+  "reac_viv_anormal": {
+   "secAdd": [
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "Los dos criterios operativos con que Schneider definía la anormalidad de la reacción sobreviven casi literalmente en el trastorno de adaptación del DSM-5-TR: el malestar debe ser desproporcionado respecto de la gravedad o intensidad del estresor, teniendo en cuenta el contexto externo y los factores culturales (anormalidad por intensidad), y los síntomas aparecen en los 3 meses siguientes al estresor y no se mantienen más de 6 meses una vez que el estresor o sus consecuencias han cesado (dependencia de aparición y de curso en el sentido de Jaspers) (DSM-5-TR). Lo que no ha sobrevivido es la comprensibilidad de contenido como criterio: las categorías actuales exigen un nexo temporal y un estresor identificable, pero no que el explorador «comprenda» la relación de sentido entre la vivencia y el síntoma. La CIE-11 agrupa en un capítulo de trastornos específicamente asociados con el estrés el trastorno de estrés postraumático, el TEPT complejo, el duelo prolongado y el trastorno de adaptación, y sitúa la reacción aguda al estrés fuera de los trastornos mentales, como respuesta normal a un suceso extremo [fuente oficial no localizada]; esta última decisión recoge la idea schneideriana de que la reacción en sí no es enfermedad. Kendler y Campbell (2014) proponen, en sentido inverso, ampliar el dominio de lo comprensible con explicaciones neuropsicológicas.",
+     "links": [
+      {
+       "ids": [
+        "tAdapt"
+       ],
+       "t": "trastorno de adaptación"
+      },
+      {
+       "ids": [
+        "testr",
+        "ptsd",
+        "desnos",
+        "duelo"
+       ],
+       "t": "trastornos asociados al estrés"
+      },
+      {
+       "ids": [
+        "jaspers_compr"
+       ],
+       "t": "comprender y explicar en Jaspers"
+      }
+     ]
+    }
+   ],
+   "relAdd": [
+    "tAdapt"
+   ]
+  },
+  "brain_fag": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias",
+     "x": "La historia del término cuestiona su carácter de síndrome «africano»: la expresión «brain fag» se acuñó en Gran Bretaña hacia 1850 para el agotamiento mental atribuido al exceso de estudio, ganó relevancia tras la escolarización obligatoria de 1870, se difundió por las colonias británicas mientras declinaba en la metrópoli y reapareció un siglo después en África occidental descrita como síndrome dependiente de la cultura (Ayonrinde 2020). Ya en 1983 se propuso que era un término erróneo que debía sustituirse por diagnósticos de neurosis ansiosa o depresiva (Jegede 1983). En 622 estudiantes de secundaria rurales de Sudáfrica, el 25 % refería síntomas de brain fag, asociados a la puntuación de depresión pero no a la de ansiedad, lo que los autores interpretaron como expresión fundamentalmente depresiva (Peltzer 1998). En aprendices nigerianos formados en el sistema tradicional de aprendizaje los síntomas fueron poco frecuentes y se relacionaron con el dominio del inglés, no con el nivel socioeconómico (Morakinyo 2002). En una encuesta a 102 psiquiatras nigerianos, el 98 % reconocía el término pero solo el 22 % lo diagnosticaba, prefiriendo diagnósticos ansiosos, afectivos y somáticos: los autores hablan de declive nosológico o de posible extinción del síndrome (Ayonrinde 2015).",
+     "links": [
+      {
+       "ids": [
+        "cult_bound"
+       ],
+       "t": "síndromes dependientes de la cultura"
+      },
+      {
+       "ids": [
+        "neurastenia"
+       ],
+       "t": "neurastenia y agotamiento por exceso de trabajo intelectual"
+      },
+      {
+       "ids": [
+        "ddm",
+        "tag"
+       ],
+       "t": "diagnósticos alternativos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ayonrinde OA (2020). 'Brain fag': a syndrome associated with 'overstudy' and mental exhaustion in 19th century Britain. Int Rev Psychiatry 32:520-535 · PMID 32589474",
+    "Ayonrinde OA, Obuaya C & Adeyemi SO (2015). Brain fag syndrome: a culture-bound syndrome that may be approaching extinction. BJPsych Bull 39:156-161 · PMID 26755946",
+    "Peltzer K et al. (1998). Brain fag symptoms in rural South African secondary school pupils. Psychol Rep 83:1187-1196 · PMID 10079714",
+    "Morakinyo O & Peltzer K (2002). 'Brain fag' symptoms in apprentices in Nigeria. Psychopathology 35:362-366 · PMID 12590195",
+    "Jegede RO (1983). Psychiatric illness in African students: «brain fag» syndrome revisited. Can J Psychiatry 28:188-192 · PMID 6850499"
+   ]
+  },
+  "pregabalina": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción y evidencia en el TAG",
+     "x": "Según la ficha técnica de Lyrica (AEMPS-CIMA, apartado 5.1), la pregabalina es un análogo del ácido gamma-aminobutírico que se une a una subunidad auxiliar (proteína α2-δ) de los canales de calcio dependientes del voltaje en el sistema nervioso central. En el TAG se estudió en 6 ensayos controlados de 4-6 semanas, un ensayo de 8 semanas en personas de edad avanzada y un estudio de prevención de recaídas con fase doble ciego de 6 meses; el alivio se observó desde la primera semana en la HAM-A, y en los ensayos de 4-8 semanas el 52 % de quienes recibieron pregabalina frente al 38 % con placebo mejoró al menos un 50 % la puntuación total (ficha técnica, 5.1). Un metaanálisis de 8 ensayos (n = 2299) halló un efecto pequeño-moderado frente a placebo (g de Hedges 0,37), sin heterogeneidad y sin más abandonos que con placebo (Generoso 2017). En el metaanálisis en red de 89 ensayos (25 441 pacientes), pregabalina fue más eficaz que placebo en la HAM-A (diferencia media −2,79) con aceptabilidad relativamente buena, en un rango similar a duloxetina, venlafaxina y escitalopram (Slee 2019). Estos datos proceden de ensayos breves y no informan del riesgo de uso indebido, que solo emergió tras la comercialización.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "farm_anx"
+       ],
+       "t": "farmacoterapia del TAG"
+      },
+      {
+       "ids": [
+        "gaba_interneur"
+       ],
+       "t": "sistema GABAérgico"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "ISRS como alternativa"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones, sobredosis y conducción",
+     "x": "Interacciones (ficha técnica de Lyrica, 4.5): por su excreción renal inalterada, su metabolismo inferior al 2 % y la ausencia de unión a proteínas, no es probable que produzca interacciones farmacocinéticas ni sea susceptible a ellas; no se observaron interacciones farmacocinéticas relevantes con anticonvulsivantes, lorazepam, oxicodona ni etanol. Sin embargo, la pregabalina puede potenciar los efectos del etanol y del lorazepam, tiene un efecto aditivo en la alteración cognitiva y motora de la oxicodona, y tras la comercialización se han notificado insuficiencia respiratoria, coma y muerte con opioides u otros depresores del SNC. Reacciones adversas (4.8): las más frecuentes son mareos y somnolencia; los abandonos por reacciones adversas fueron del 12 % frente al 5 % con placebo; el estado de ánimo eufórico figura como reacción frecuente y la drogodependencia con frecuencia no conocida, dato relevante para el uso indebido. Sobredosis (4.9): somnolencia, confusión, agitación, inquietud, crisis epilépticas y, rara vez, coma; tratamiento de soporte y, si fuese necesario, hemodiálisis. Conducción (4.7): influencia pequeña o moderada; se aconseja no conducir hasta conocer el efecto individual. En contextos de chemsex con GHB/GBL u opioides, la suma de depresores del SNC es la combinación de mayor riesgo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "ghb_gbl"
+       ],
+       "t": "combinaciones con depresores del SNC"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "benzodiacepinas y dependencia"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Generoso MB et al. (2017). Pregabalin for generalized anxiety disorder: an updated systematic review and meta-analysis. Int Clin Psychopharmacol 32:49-55 · PMID 27643884",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "AEMPS-CIMA (2026). Ficha técnica de Lyrica 25 mg cápsulas duras (pregabalina) (nº de registro 04279003), apartados 4.5, 4.7, 4.8, 4.9 y 5.1; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "chemsex_s"
+   ]
+  },
+  "buprenorfina": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción e inducción según la ficha técnica",
+     "x": "Según la ficha técnica de Buprenorfina/Naloxona Aurovitas (AEMPS-CIMA, apartado 5.1), la buprenorfina es un agonista/antagonista parcial que se une a los receptores μ y κ; su eficacia de mantenimiento se atribuye a la unión lentamente reversible a los receptores μ, y en estudios de farmacología clínica en personas dependientes se observaron efectos techo. La naloxona tiene efecto pequeño o nulo por vía sublingual por su metabolismo de primer paso casi completo, pero por vía intravenosa produce marcados efectos antagonistas y abstinencia, lo que dificulta el abuso por esa vía. La eficacia procede sobre todo de un ensayo de un año con una fase aleatorizada doble ciego de 4 semanas en 326 personas dependientes de heroína: la proporción de orinas negativas para opioides fue superior a placebo tanto con la combinación como con buprenorfina sola (5.1). Inducción (4.2): para evitar la abstinencia precipitada debe iniciarse con signos objetivos y claros de abstinencia (p. ej., puntuación leve-moderada en la escala COWS); con heroína u opioides de acción rápida, no antes de seis horas tras el último consumo, y con metadona, no antes de 24 horas y tras reducir su dosis hasta el límite que fija la ficha, teniendo en cuenta la semivida prolongada de la metadona.",
+     "links": [
+      {
+       "ids": [
+        "metadona"
+       ],
+       "t": "paso desde metadona"
+      },
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      }
+     ]
+    },
+    {
+     "t": "Reacciones adversas, sobredosis y conducción",
+     "x": "Reacciones adversas (ficha técnica de Buprenorfina/Naloxona Aurovitas, 4.8): en los ensayos pivotales, el 72,5 % de los pacientes (342 de 472) notificó alguna; las más frecuentes fueron estreñimiento y síntomas propios de la abstinencia (insomnio, cefalea, náuseas, hiperhidrosis y dolor), y se consideraron graves algunas notificaciones de convulsiones, vómitos, diarrea y elevación de las pruebas de función hepática; la tabla recoge además hepatitis aguda, necrosis hepática y depresión respiratoria. Sobredosis (4.9): la depresión respiratoria es el síntoma principal y puede causar parada respiratoria y muerte; se acompañan somnolencia, miosis, hipotensión, náuseas, vómitos o trastornos del habla. La ficha recomienda naloxona pese a su efecto modesto para revertir la depresión respiratoria de la buprenorfina; como la naloxona se elimina antes que la buprenorfina, los síntomas pueden reaparecer y puede requerirse infusión continua o dosis repetidas, con vigilancia prolongada. Conducción (4.7): influencia leve a moderada, sobre todo durante la inducción y el ajuste de dosis, y mayor con alcohol u otros depresores del SNC. Para la práctica, esto significa que una respuesta inicial a la naloxona no permite dar el alta precoz tras una sobredosis [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "naloxona",
+        "red_danos"
+       ],
+       "t": "sobredosis y reducción de daños"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "ghb_gbl"
+       ],
+       "t": "depresores del SNC concomitantes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "AEMPS-CIMA (2026). Ficha técnica de Buprenorfina/Naloxona Aurovitas 8 mg/2 mg comprimidos sublinguales EFG (n.º registro 84792), apartados 4.2, 4.7, 4.8, 4.9 y 5.1; consulta de noviembre de 2026"
+   ]
+  },
+  "kindling_abst_alc": {
+   "secAdd": [
+    {
+     "t": "Evidencia clínica posterior",
+     "x": "Dos líneas de datos posteriores a Brown (1988) han reforzado la hipótesis con muestras mucho mayores. En 6818 varones ingresados para desintoxicación breve en 172 centros de veteranos de EE. UU., quienes presentaron crisis epilépticas o problemas de abstinencia graves tenían más desintoxicaciones y hospitalizaciones previas por alcohol; además, en un reingreso posterior, quienes habían tenido problemas de abstinencia tendían a repetirlos y quienes habían tenido crisis, a presentar de nuevo crisis. Los autores lo consideran confirmación del efecto kindling en una muestra multicéntrica y sugieren valorar tratamiento anticonvulsivante en personas con muchas desintoxicaciones previas (Booth y Blow 1993). Un metaanálisis de 15 estudios en pacientes hospitalizados encontró que el mejor predictor de delirium tremens o de crisis de abstinencia era el antecedente de un episodio similar (OR 2,58 para delirium tremens y 2,8 para crisis), junto con la trombocitopenia y la hipopotasemia; ni el sexo ni la hepatopatía comórbida fueron predictores, y hubo heterogeneidad significativa y sesgo de publicación (Goodson 2014). Que la historia previa prediga el episodio siguiente es compatible con el kindling, pero también con diferencias individuales estables de vulnerabilidad, de modo que estos datos no demuestran por sí solos el mecanismo de sensibilización progresiva.",
+     "links": [
+      {
+       "ids": [
+        "dt_alc"
+       ],
+       "t": "delirium tremens y abstinencia alcohólica"
+      },
+      {
+       "ids": [
+        "neuroadapt_sed"
+       ],
+       "t": "neuroadaptación a sedantes"
+      },
+      {
+       "ids": [
+        "ciwa_ar"
+       ],
+       "t": "valoración de la gravedad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Booth BM & Blow FC (1993). The kindling hypothesis: further evidence from a U.S. national study of alcoholic men. Alcohol Alcohol 28:593-598 · PMID 8274184",
+    "Goodson CM, Clark BJ & Douglas IS (2014). Predictors of severe alcohol withdrawal syndrome: a systematic review and meta-analysis. Alcohol Clin Exp Res 38:2664-2677 · PMID 25346507"
+   ],
+   "relAdd": [
+    "neuroadapt_sed"
+   ]
+  },
+  "estim_monoam": {
+   "secAdd": [
+    {
+     "t": "Correlatos en humanos: ocupación del transportador y velocidad de entrada",
+     "x": "La tomografía por emisión de positrones ha permitido trasladar parte del modelo a personas. En consumidores habituales de cocaína, las dosis intravenosas de consumo habitual bloquearon entre el 60 % y el 77 % del DAT; la intensidad del «subidón» autorreferido se correlacionó con el grado de ocupación, hizo falta bloquear al menos el 47 % de los transportadores para percibir el efecto, y su curso temporal siguió la concentración de cocaína en el estriado (Volkow 1997). El metilfenidato oral a dosis terapéuticas también produce un bloqueo dependiente de la dosis que probablemente supera el 50 % del DAT, pero su pico cerebral no se alcanza hasta unos 60 minutos tras la toma (Volkow 1998). La comparación sugiere que el potencial de refuerzo no depende solo del transportador diana y del grado de ocupación, sino también de la vía y la velocidad de llegada al cerebro: la misma diana farmacológica se asocia a perfiles de riesgo muy distintos según se administre por vía oral o por vías rápidas (intravenosa, fumada, intranasal), lo que es pertinente para el slamming en contextos de chemsex [fuente no localizada para la extrapolación a las catinonas]. No hay estudios equivalentes de ocupación del transportador en humanos con mefedrona, MDPV u otras catinonas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cocaina"
+       ],
+       "t": "cocaína"
+      },
+      {
+       "ids": [
+        "dopa_na_tdah"
+       ],
+       "t": "metilfenidato y dopamina en el TDAH"
+      },
+      {
+       "ids": [
+        "slam"
+       ],
+       "t": "consumo inyectado (slamming)"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Volkow ND et al. (1997). Relationship between subjective effects of cocaine and dopamine transporter occupancy. Nature 386:827-830 · PMID 9126740",
+    "Volkow ND et al. (1998). Dopamine transporter occupancies in the human brain induced by therapeutic doses of oral methylphenidate. Am J Psychiatry 155:1325-1331 · PMID 9766762"
+   ]
+  },
+  "circ_antisocial": {
+   "secAdd": [
+    {
+     "t": "Hallazgos en población juvenil y especificador de rasgos insensibles",
+     "x": "En adultos de la comunidad con trastorno antisocial de la personalidad, sin lesiones cerebrales evidentes, se describió una reducción del 11 % del volumen de sustancia gris prefrontal y menor actividad autonómica durante un estresor social, que predecían la pertenencia al grupo con independencia de los factores de riesgo psicosocial (Raine 2000). En la adolescencia, el componente insensible-no emocional muestra un correlato propio: jóvenes de 10 a 17 años con rasgos insensibles y trastorno de conducta o negativista desafiante presentaron menor activación amigdalina ante caras de miedo (no ante caras neutras o de ira) que controles y que jóvenes con TDAH, con menor conectividad entre amígdala y corteza prefrontal ventromedial, inversamente relacionada con la gravedad (Marsh 2008). En niños con problemas de conducta, la respuesta amigdalina a caras de miedo presentadas de forma enmascarada (preatencional) fue menor con rasgos insensibles altos que con rasgos bajos, sin explicarse por síntomas de conducta, TDAH, ansiedad o depresión (Viding 2012). Estos datos sustentan la idea de dos vías hacia la conducta antisocial y el especificador «con emociones prosociales limitadas» del trastorno de conducta en el DSM-5-TR, pero proceden de muestras pequeñas y no autorizan clasificar a un menor concreto por neuroimagen.",
+     "links": [
+      {
+       "ids": [
+        "tcond"
+       ],
+       "t": "trastorno de conducta"
+      },
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "TDAH como grupo de comparación"
+      },
+      {
+       "ids": [
+        "tpanti"
+       ],
+       "t": "trastorno antisocial de la personalidad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Raine A et al. (2000). Reduced prefrontal gray matter volume and reduced autonomic activity in antisocial personality disorder. Arch Gen Psychiatry 57:119-127 · PMID 10665614",
+    "Marsh AA et al. (2008). Reduced amygdala response to fearful expressions in children and adolescents with callous-unemotional traits and disruptive behavior disorders. Am J Psychiatry 165:712-720 · PMID 18281412",
+    "Viding E et al. (2012). Amygdala response to preattentive masked fear in children with conduct problems: the role of callous-unemotional traits. Am J Psychiatry 169:1109-1116 · PMID 23032389"
+   ],
+   "relAdd": [
+    "tcond"
+   ]
+  },
+  "falsa_memoria": {
+   "secAdd": [
+    {
+     "t": "Entrevista forense y testimonio infantil",
+     "x": "La revisión histórica de Ceci y Bruck (1993) sobre la sugestionabilidad del testigo infantil concluye que existen diferencias de edad fiables en la sugestionabilidad, explicadas por factores cognitivos, sociales y biológicos, pero que incluso los niños y niñas muy pequeños pueden recordar mucha información forensemente relevante: el problema no es la incapacidad del menor, sino la forma de preguntar. De ahí se derivan protocolos estructurados que priorizan las preguntas abiertas de recuerdo libre, evitan las sugestivas y las repetidas, y establecen las reglas básicas de la entrevista antes de abordar los hechos. Los estudios controlados muestran que la calidad de las entrevistas de investigación mejora de forma fiable y notable cuando se emplea el protocolo del NICHD, y los autores afirman que ninguna otra técnica ha demostrado una eficacia similar (Lamb 2007). Para el peritaje esto implica valorar no solo el relato, sino el procedimiento por el que se obtuvo: número de entrevistas previas, tipo de preguntas, intervención de familiares o terapeutas e información posterior al suceso. En España, la declaración de menores y de personas con discapacidad puede practicarse como prueba preconstituida para evitar entrevistas repetidas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "pericia psiquiátrica"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "sumisión química y testimonio"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ceci SJ & Bruck M (1993). Suggestibility of the child witness: a historical review and synthesis. Psychol Bull 113:403-439 · PMID 8316609",
+    "Lamb ME et al. (2007). A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: a review of research using the NICHD Investigative Interview Protocol. Child Abuse Negl 31:1201-1231 · PMID 18023872"
+   ],
+   "relAdd": [
+    "perit_forense"
+   ]
+  },
+  "vih_metanf_snc": {
+   "secAdd": [
+    {
+     "t": "Mecanismos experimentales de la interacción",
+     "x": "Los modelos celulares y animales apuntan al sistema dopaminérgico de los ganglios basales como punto de convergencia. La infección por VIH se dirige de forma selectiva a los ganglios basales con pérdida de neuronas dopaminérgicas, y las proteínas virales gp120 y Tat son tóxicas para estas neuronas de manera sinérgica con la metanfetamina y la cocaína (Nath 2000). En cultivos de neuronas humanas, la exposición aguda combinada a gp120 o Tat y a metanfetamina o cocaína produjo respuestas neurotóxicas sinérgicas, medidas por el potencial de membrana mitocondrial y la muerte neuronal, que el 17β-estradiol previno en parte a través de receptores estrogénicos (Turchan 2001). En ratas, Tat intraestriatal sola redujo un 16 % el contenido estriatal de dopamina, la metanfetamina sola un 37-42 % la liberación y el contenido, y la combinación un 70-78 % (Cass 2003); en otro modelo, la combinación indujo mayor y más sostenida expresión de interleucina-1β y TNF-α en la sustancia negra y alteraciones motoras de tipo parkinsoniano más persistentes (Liu 2014). Estos hallazgos dan plausibilidad biológica a la aditividad observada en personas, pero proceden de dosis y vías experimentales no equiparables al consumo humano, y el efecto protector estrogénico no se ha trasladado a la clínica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "neurotox_anf"
+       ],
+       "t": "neurotoxicidad de las anfetaminas"
+      },
+      {
+       "ids": [
+        "inflam"
+       ],
+       "t": "neuroinflamación"
+      },
+      {
+       "ids": [
+        "vih_ncd"
+       ],
+       "t": "trastornos neurocognitivos asociados al VIH"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nath A et al. (2000). Neurotoxicity and dysfunction of dopaminergic systems associated with AIDS dementia. J Psychopharmacol 14:222-227 · PMID 11106300",
+    "Turchan J et al. (2001). Estrogen protects against the synergistic toxicity by HIV proteins, methamphetamine and cocaine. BMC Neurosci 2:3 · PMID 11252157",
+    "Cass WA et al. (2003). HIV-1 protein Tat potentiation of methamphetamine-induced decreases in evoked overflow of dopamine in the striatum of the rat. Brain Res 984:133-142 · PMID 12932847",
+    "Liu Z et al. (2014). HIV transactivator of transcription enhances methamphetamine-induced Parkinson's-like behavior in the rats. Neuroreport 25:860-864 · PMID 24911386"
+   ]
+  },
+  "bsabs": {
+   "set": {
+    "tx": "Los síntomas básicos no son en sí una indicación de tratamiento, sino de evaluación especializada: exploración con SPI-A o SPI-CY y, si se cumplen criterios de alto riesgo clínico (COGDIS o criterios de riesgo ultra-alto), seguimiento en un programa de intervención precoz con información honesta sobre un riesgo que la mayoría de las personas identificadas no llega a materializar. En el metaanálisis de la guía de intervención de la EPA (15 estudios, 1394 personas), la intervención precoz, tanto psicológica como farmacológica, redujo las tasas de transición a los 6-48 meses, pero no mejoró el funcionamiento más que las condiciones control, y fue menos eficaz en muestras juveniles (Schmidt 2015). NICE CG178 recomienda TCC individual, con o sin intervención familiar, y desaconseja ofrecer antipsicóticos para reducir el riesgo o prevenir la psicosis en personas con riesgo aumentado. Se tratan la comorbilidad (depresión, ansiedad, consumo de cannabis) y las dificultades funcionales, y se reevalúa periódicamente."
+   },
+   "refsAdd": [
+    "Schmidt SJ et al. (2015). EPA guidance on the early intervention in clinical high risk states of psychoses. Eur Psychiatry 30:388-404 · PMID 25749390",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), apartado 1.2 sobre personas con riesgo aumentado de psicosis"
+   ]
+  },
+  "pica": {
+   "set": {
+    "tx": "Sin guías de práctica clínica específicas ni fármacos con indicación autorizada [fuente no localizada]. Primero, evaluación y tratamiento médico: hemograma, ferritina, zinc y plomo, corrección de la ferropenia y manejo de las complicaciones (obstrucción, intoxicación por plomo, parasitosis) (Leung y Hon 2019). En la infancia con desarrollo típico suele resolverse con supervisión y aprendizaje para discriminar lo comestible de lo no comestible, atendiendo a las necesidades emocionales y a las condiciones socioeconómicas de la familia (Leung y Hon 2019). En la discapacidad intelectual y el autismo, el análisis aplicado de la conducta es la intervención con apoyo empírico más sólido (Matson 2013): en 34 estudios, la mayoría de diseño de caso único, la combinación de refuerzo y procedimientos de reducción de la respuesta cumplió criterios de tratamiento bien establecido, con reducciones de al menos el 80 % en 25 estudios bien diseñados (Hagopian 2011). La práctica actual se aleja de las técnicas aversivas en favor de procedimientos positivos (Matson 2013), con formación de familias y personal de apoyo y respeto a los derechos de la persona."
+   },
+   "refsAdd": [
+    "Hagopian LP, Rooker GW & Rolider NU (2011). Identifying empirically supported treatments for pica in individuals with intellectual disabilities. Res Dev Disabil 32:2114-2120 · PMID 21862281",
+    "Matson JL et al. (2013). Pica in persons with developmental disabilities: approaches to treatment. Res Dev Disabil 34:2564-2571 · PMID 23747942",
+    "Leung AKC & Hon KL (2019). Pica: a common condition that is commonly missed - an update review. Curr Pediatr Rev 15:164-169 · PMID 30868957"
+   ]
+  },
+  "meehl": {
+   "featsAdd": [
+    "Análisis taxométrico (MAXCOV-HITMAX) de ítems de la escala de aberración perceptiva en 1093 universitarios: resultado compatible con un taxón latente de esquizotipia con tasa base aproximada del 10 % en población general, acorde con las conjeturas de Meehl (Lenzenweger y Korfine 1992)",
+    "Signos nucleares de la esquizotipia en la formulación de 1962: deslizamiento cognitivo, aversividad interpersonal, anhedonia y ambivalencia (Meehl 1962) [fuente no localizada para el contraste literal del texto original]"
+   ],
+   "refsAdd": [
+    "Lenzenweger MF & Korfine L (1992). Confirming the latent structure and base rate of schizotypy: a taxometric analysis. J Abnorm Psychol 101:567-571 · PMID 1500614"
+   ]
+  },
+  "mbt": {
+   "featsAdd": [
+    "MBT grupal en adolescentes con TLP (n = 112, ensayo aleatorizado): sin diferencias frente al tratamiento habitual en la puntuación de rasgos límite ni en autolesión o depresión al final del año; remisión del 29 % en ambos grupos y más abandonos con MBT (29 % completó menos de la mitad de las sesiones frente al 7 %) (Beck 2020)"
+   ],
+   "refsAdd": [
+    "Beck E et al. (2020). Mentalization-based treatment in groups for adolescents with borderline personality disorder: a randomized controlled trial. J Child Psychol Psychiatry 61:594-604 · PMID 31702058"
+   ]
+  },
+  "griesinger": {
+   "featsAdd": [
+    "Precursor de la atención comunitaria: propuso asilos urbanos vinculados a hospitales generales para el tratamiento breve de los casos agudos, cooperación estrecha con los apoyos naturales y alojamiento protegido para quien lo necesitara, frente al modelo de asilo rural, que se impuso en su época (Rössler 1994); la comisión de expertos alemana de 1975 retomó sus ideas (Rössler 1992)"
+   ],
+   "refsAdd": [
+    "Rössler W, Riecher-Rössler A & Meise U (1994). Wilhelm Griesinger and the concept of community care in 19th-century Germany. Hosp Community Psychiatry 45:818-822 · PMID 7982700",
+    "Rössler W (1992). [Wilhelm Griesinger and community care] (en alemán). Nervenarzt 63:257-261 · PMID 1603184"
+   ]
+  },
+  "cft": {
+   "featsAdd": [
+    "Primer metaanálisis de ensayos aleatorizados de CFT en población clínica (15 estudios, 2013-2022): mejoría de la autocompasión y la autotranquilización frente a control, con efectos de pequeños a grandes; calidad metodológica «poco clara» en 7 de 15 estudios y 74,9 % de participantes mujeres (Millard 2023)",
+    "Reducción de la autocrítica y aumento de la capacidad de autotranquilización en 7 ensayos controlados (n = 640) y 7 estudios observacionales (n = 207), con efecto variable según el diseño y la subescala empleada (Vidal y Soldevilla 2023)"
+   ],
+   "refsAdd": [
+    "Millard LA et al. (2023). The effectiveness of compassion focused therapy with clinical populations: a systematic review and meta-analysis. J Affect Disord 326:168-192 · PMID 36649790",
+    "Vidal J & Soldevilla JM (2023). Effect of compassion-focused therapy on self-criticism and self-soothing: a meta-analysis. Br J Clin Psychol 62:70-81 · PMID 36172899"
+   ]
+  },
+  "tuke": {
+   "featsAdd": [
+    "El Retreat, desarrollado por la familia cuáquera Tuke, formó con el West Riding Lunatic Asylum de Wakefield (investigación cerebral con Crichton-Browne) y el eje Leeds-Wakefield de Allbutt (docencia y primera cátedra de psiquiatría) la «tríada dorada» de Yorkshire en la psiquiatría victoriana (Rollin y Reynolds 2018)"
+   ]
+  }
+ },
+ "add": []
+}

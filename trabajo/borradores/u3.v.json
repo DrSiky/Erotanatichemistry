@@ -1,0 +1,1471 @@
+{
+ "patch": {
+  "tcc_dep": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Aaron T. Beck formuló el modelo a partir de observaciones clínicas sobre el contenido idiosincrásico y las distorsiones del pensamiento en la depresión (Beck 1963) y lo sistematizó en el manual de Beck, Rush, Shaw y Emery (1979). El modelo postula que esquemas o creencias nucleares disfuncionales, activados por acontecimientos, generan pensamientos automáticos negativos sobre uno mismo, el mundo y el futuro (tríada cognitiva) que mantienen el ánimo deprimido. El procedimiento es estructurado, colaborativo y limitado en el tiempo: agenda por sesión, programación de actividades y tareas graduadas al inicio, registro y examen de pensamientos automáticos, experimentos conductuales, trabajo posterior con supuestos y creencias nucleares y prevención de recaídas. El formato clásico es individual; NICE NG222 prevé habitualmente 8 sesiones de TCC individual en la depresión menos grave y 16 en la más grave, ampliables si hay comorbilidad o síntomas residuales (tablas 1 y 2), y existen versiones grupales y de autoayuda. En el análisis de componentes de Jacobson (150 personas), el tratamiento completo no superó a la activación conductual sola ni a la activación más modificación de pensamientos automáticos, lo que cuestiona la especificidad del trabajo con esquemas (Jacobson 1996). NICE pide un profesional con formación y competencia específicas que siga manuales actuales (NG222); la acreditación en España no consta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dep_cogn_beck"
+       ],
+       "t": "modelo cognitivo de la depresión"
+      },
+      {
+       "ids": [
+        "activ_conduct",
+        "lewinsohn"
+       ],
+       "t": "componente conductual"
+      },
+      {
+       "ids": [
+        "bdi2"
+       ],
+       "t": "medición de resultados"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis más amplio (409 ensayos, 52 702 pacientes), la TCC superó a controles como tratamiento habitual y lista de espera con g = 0,79 (IC 95 % 0,70-0,89), efecto mantenido a 6-12 meses; su ventaja sobre otras psicoterapias fue mínima (g = 0,06) y no significativa en la mayoría de los análisis de sensibilidad; no difirió de la farmacoterapia a corto plazo y fue superior a 6-12 meses (g = 0,34), con pocos ensayos; el tratamiento combinado superó a la farmacoterapia sola, pero no a la TCC sola (Cuijpers 2023). Un metaanálisis previo de 115 estudios advirtió de sobreestimación: g = 0,71 frente a control, que bajaba a 0,53 tras corregir el sesgo de publicación y en los estudios de mayor calidad (Cuijpers 2013). En depresión moderada-grave, la terapia cognitiva fue comparable a la medicación en fase aguda (DeRubeis 2005), y quienes respondieron recayeron menos tras retirarla que quienes abandonaron la medicación (30,8 % frente a 76,2 %), sin diferencia con quienes la mantuvieron (30,8 % frente a 47,2 %) (Hollon 2005). NICE NG222 (2022) considera de primera línea todas las opciones de sus tablas: en la depresión menos grave (rec. 1.5.2, tabla 1) la TCC grupal y la individual figuran tras la autoayuda guiada, y en la más grave (rec. 1.6.1, tabla 2) la combinación de TCC individual y antidepresivo encabeza la lista, seguida de la TCC individual; la TCC grupal no figura en la tabla 2.",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "comparador farmacológico"
+      },
+      {
+       "ids": [
+        "mbct"
+       ],
+       "t": "prevención de recaídas con MBCT"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en el trastorno depresivo mayor leve a grave en adultos, sola o combinada con antidepresivo, y especialmente cuando la persona la prefiere o se busca reducir recaídas tras finalizar (Hollon 2005); también es eficaz como autoayuda no guiada (g = 0,45) y en población infantojuvenil (g = 0,41), con efectos menores que frente a control en adultos (Cuijpers 2023). No es la opción aislada adecuada en la depresión con síntomas psicóticos, riesgo suicida inminente o deterioro cognitivo marcado, que requieren abordaje médico prioritario [fuente no localizada]. En 18 estudios que comunicaban deterioro, la mediana de empeoramiento clínicamente significativo con psicoterapia fue del 4 % (más del 10 % en algunos) y el riesgo fue menor que en los grupos control (RR 0,39), aunque solo el 6 % de los ensayos informaba de este desenlace (Cuijpers 2018). Las adaptaciones culturales de las intervenciones psicológicas superan a las versiones no adaptadas (g = 0,52; Hall 2016), y una TCC transdiagnóstica centrada en el estrés de minorías redujo los síntomas depresivos frente a lista de espera en hombres gais y bisexuales jóvenes (Pachankis 2015). En España, las psicoterapias individuales, de grupo o familiares figuran en la cartera común de atención especializada en salud mental del SNS (Real Decreto 1030/2006, anexo III, apdo. 7), y la TCC grupal transdiagnóstica añadida al tratamiento habitual fue eficaz en atención primaria (PsicAP; Cano-Vindel 2022).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "evaluación del riesgo suicida"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "adaptación afirmativa y estrés de minorías"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "adaptación cultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Beck AT (1963). Thinking and depression. I. Idiosyncratic content and cognitive distortions. Arch Gen Psychiatry 9:324-333 · PMID 14045261",
+    "Hollon SD et al. (2005). Prevention of relapse following cognitive therapy vs medications in moderate to severe depression. Arch Gen Psychiatry 62:417-422 · PMID 15809409",
+    "Cuijpers P et al. (2013). A meta-analysis of cognitive-behavioural therapy for adult depression, alone and in comparison with other treatments. Can J Psychiatry 58:376-385 · PMID 23870719",
+    "Cuijpers P et al. (2023). Cognitive behavior therapy vs. control conditions, other psychotherapies, pharmacotherapies and combined treatment for depression: a comprehensive meta-analysis including 409 trials with 52,702 patients. World Psychiatry 22:105-115 · PMID 36640411",
+    "Jacobson NS et al. (1996). A component analysis of cognitive-behavioral treatment for depression. J Consult Clin Psychol 64:295-304 · PMID 8871414",
+    "Cuijpers P et al. (2018). Negative effects of psychotherapies for adult depression: a meta-analysis of deterioration rates. J Affect Disord 239:138-145 · PMID 30005327",
+    "Hall GCN et al. (2016). A meta-analysis of cultural adaptations of psychological interventions. Behav Ther 47:993-1014 · PMID 27993346",
+    "Pachankis JE et al. (2015). LGB-affirmative cognitive-behavioral therapy for young adult gay and bisexual men: a randomized controlled trial of a transdiagnostic minority stress approach. J Consult Clin Psychol 83:875-889 · PMID 26147563",
+    "Cano-Vindel A et al. (2022). Transdiagnostic group cognitive behavioural therapy for emotional disorders in primary care: the results of the PsicAP randomized controlled trial. Psychol Med 52:3336-3348 · PMID 33550995",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Real Decreto 1030/2006, de 15 de septiembre, por el que se establece la cartera de servicios comunes del Sistema Nacional de Salud y el procedimiento para su actualización (2006). BOE núm. 222"
+   ],
+   "relAdd": [
+    "mbct",
+    "lgb_afirm",
+    "phq9"
+   ]
+  },
+  "activ_conduct": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Deriva del modelo conductual de Lewinsohn, según el cual la depresión se asocia a una baja tasa de refuerzo positivo contingente a la respuesta, y de la programación de actividades incluida en la terapia cognitiva de Beck. El análisis de componentes de Jacobson (1996; 150 personas), en el que la terapia cognitiva completa no produjo mejores resultados que la activación conductual sola, impulsó su desarrollo como tratamiento autónomo, manualizado por Martell, Addis y Jacobson (2001, Depression in Context, Norton), con una versión breve de Lejuez y colaboradores (BATD; Lejuez 2001). El procedimiento combina automonitorización del ánimo y la actividad, identificación de valores y de patrones de evitación (análisis funcional), programación graduada de actividades, resolución de problemas y trabajo sobre la rumiación como conducta. El formato es individual o grupal y relativamente breve; en COBRA se exigían al menos 8 sesiones para el análisis por protocolo y la aplicaba personal de salud mental junior con formación menos intensiva que la de psicoterapeutas (Richards 2016). NICE pide que la imparta un profesional con formación y competencia específicas, siguiendo manuales actuales (NG222, tablas 1 y 2); no constan estándares formales de acreditación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lewinsohn"
+       ],
+       "t": "modelo conductual de Lewinsohn"
+      },
+      {
+       "ids": [
+        "tcc_dep"
+       ],
+       "t": "terapia cognitiva de Beck"
+      },
+      {
+       "ids": [
+        "rum"
+       ],
+       "t": "rumiación como conducta"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El metaanálisis de 16 estudios (780 personas) sobre programación de actividades halló un efecto grande frente a control (0,87; IC 95 % 0,60-1,15) y ninguna diferencia frente a la terapia cognitiva (0,02 en 10 estudios), con beneficios mantenidos en el seguimiento (Cuijpers 2007). La actualización de 26 ensayos (1524 participantes) confirmó la superioridad frente a controles (DME -0,74) y frente a medicación en 4 ensayos (DME -0,42), aunque la calidad de la mayoría de los estudios era baja y los seguimientos cortos (Ekers 2014). En el ensayo de Dimidjian (241 adultos), entre las personas con depresión más grave la activación conductual fue comparable a la medicación antidepresiva y ambas superaron a la terapia cognitiva (Dimidjian 2006). En COBRA (440 adultos), la activación aplicada por personal junior no fue inferior a la TCC de psicoterapeutas a los 12 meses (diferencia 0,1 puntos en el PHQ-9; margen 1,9) (Richards 2016). NICE NG222 (2022) incluye la activación conductual grupal e individual (habitualmente 8 sesiones) entre las opciones de primera línea de la depresión menos grave (rec. 1.5.2, tabla 1) y la individual (habitualmente 12-16 sesiones) en la más grave, tras la combinación de TCC y antidepresivo y la TCC individual (rec. 1.6.1, tabla 2).",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "phq9"
+       ],
+       "t": "PHQ-9 como desenlace"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "comparación con antidepresivos"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en la depresión mayor del adulto de cualquier gravedad, y especialmente útil donde escasean psicoterapeutas, porque puede delegarse en profesionales con menos formación sin pérdida de eficacia (Richards 2016). COBRA excluyó a personas con dependencia de alcohol o drogas, riesgo suicida agudo o intento en los 2 meses previos, deterioro cognitivo, trastorno bipolar o síntomas psicóticos, por lo que la evidencia no se extiende directamente a esos grupos (Richards 2016). En ese ensayo hubo 15 acontecimientos adversos graves relacionados con la depresión pero no con el tratamiento (3 en activación conductual y 12 en TCC), sobre todo sobredosis y autolesiones, lo que exige vigilar el riesgo durante cualquier psicoterapia (Richards 2016). La mediana de deterioro clínicamente significativo en psicoterapias de la depresión ronda el 4 % (Cuijpers 2018). Su lenguaje basado en valores y actividades facilita la adaptación cultural, y las intervenciones adaptadas superan a las no adaptadas (Hall 2016); no constan ensayos específicos en minorías sexuales y de género [fuente no localizada]. Su disponibilidad en el SNS como programa diferenciado no está documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "vigilancia del riesgo suicida"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "adaptación cultural"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "atención afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Jacobson NS et al. (1996). A component analysis of cognitive-behavioral treatment for depression. J Consult Clin Psychol 64:295-304 · PMID 8871414",
+    "Dimidjian S et al. (2006). Randomized trial of behavioral activation, cognitive therapy, and antidepressant medication in the acute treatment of adults with major depression. J Consult Clin Psychol 74:658-670 · PMID 16881773",
+    "Cuijpers P, van Straten A & Warmerdam L (2007). Behavioral activation treatments of depression: a meta-analysis. Clin Psychol Rev 27:318-326 · PMID 17184887",
+    "Ekers D et al. (2014). Behavioural activation for depression; an update of meta-analysis of effectiveness and sub group analysis. PLoS One 9:e100100 · PMID 24936656",
+    "Lejuez CW, Hopko DR & Hopko SD (2001). A brief behavioral activation treatment for depression: treatment manual. Behav Modif 25:255-286 · PMID 11317637",
+    "Martell CR, Addis ME & Jacobson NS (2001). Depression in Context: Strategies for Guided Action. New York: W. W. Norton",
+    "Cuijpers P et al. (2018). Negative effects of psychotherapies for adult depression: a meta-analysis of deterioration rates. J Affect Disord 239:138-145 · PMID 30005327",
+    "NICE (2022). Depression in adults: treatment and management (NG222)"
+   ],
+   "relAdd": [
+    "phq9",
+    "rum"
+   ]
+  },
+  "tcc_panico": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Confluyen dos tradiciones. La cognitiva parte del modelo de Clark (1986), que define el ataque de pánico como resultado de la interpretación catastrófica de sensaciones corporales normales o ansiosas (palpitaciones como infarto inminente, mareo como desmayo o locura), lo que genera un círculo vicioso de amenaza percibida, aprensión y más sensaciones; la conductual, de Barlow y Craske, centra el tratamiento del control del pánico en el miedo condicionado a las señales interoceptivas y la sensibilidad a la ansiedad. Ambos protocolos son individuales y breves (la ficha recoge sus componentes), pero existen versiones grupales, intensivas y por internet. La terapia cognitiva usa formulaciones personalizadas del círculo vicioso, experimentos conductuales de inducción de síntomas para poner a prueba las predicciones catastróficas y retirada sistemática de conductas de seguridad como sentarse, agarrarse o llevar benzodiacepinas encima. NICE CG113 pide que la TCC la impartan solo personas formadas y supervisadas que demuestren adherencia a protocolos con base empírica (rec. 1.3.14), con 7-14 horas en total (1.3.15) en sesiones semanales completadas en un máximo de 4 meses (1.3.16).",
+     "links": [
+      {
+       "ids": [
+        "mod_clark_panico"
+       ],
+       "t": "modelo cognitivo de Clark"
+      },
+      {
+       "ids": [
+        "exp_interocep",
+        "sens_ansiedad"
+       ],
+       "t": "exposición interoceptiva y sensibilidad a la ansiedad"
+      },
+      {
+       "ids": [
+        "ataque_panico"
+       ],
+       "t": "ataque de pánico"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "Frente a placebo psicológico o farmacológico, la TCC de los trastornos de ansiedad muestra efectos moderados, pero el trastorno de pánico se sitúa entre los de efecto más débil: en 27 ensayos el menor tamaño del efecto correspondió al pánico (Hofmann y Smits 2008) y en 41 ensayos (2843 personas), con g = 0,56 global sobre el trastorno diana, los efectos en el pánico fueron pequeños a moderados (Carpenter 2018). Esto contrasta con los efectos grandes frente a lista de espera y obliga a interpretar la eficacia según el comparador. La TCC por internet o por ordenador, frente a controles como tratamiento habitual, lista de espera o placebo, obtuvo g = 0,80 en 64 ensayos de depresión, pánico, ansiedad social y ansiedad generalizada, con beneficio en los cuatro trastornos y resultados equivalentes a la TCC presencial en 9 comparaciones directas (Andrews 2018), aunque el análisis de componentes asocia el formato presencial a mayor eficacia (Pompoli 2018). La revisión Cochrane califica de baja la calidad de toda la red de terapias psicológicas del pánico (Pompoli 2016).",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "agora"
+       ],
+       "t": "trastorno de pánico y agorafobia"
+      },
+      {
+       "ids": [
+        "pdss"
+       ],
+       "t": "PDSS como desenlace"
+      },
+      {
+       "ids": [
+        "isrs",
+        "farm_anx"
+       ],
+       "t": "alternativa farmacológica"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "NICE CG113 propone autoayuda en el pánico leve-moderado (rec. 1.3.9) y considerar la TCC en el moderado-grave con o sin agorafobia, o un antidepresivo si es de larga evolución o se rechaza o no funcionó la intervención psicológica (1.3.12); es preferible cuando la persona desea evitar la medicación o busca un efecto que persista tras finalizar (Barlow 2000). Antes de los ejercicios de inducción de síntomas conviene descartar o estabilizar enfermedad cardiorrespiratoria, epilepsia o embarazo, criterio clínico de los manuales [fuente no localizada]. El abandono no difirió entre TCC y placebo en el conjunto de los trastornos de ansiedad, salvo en el TEPT (Carpenter 2018), y no constan efectos adversos graves atribuibles al tratamiento en los metaanálisis citados [fuente no localizada]. En consumo de estimulantes, cocaína o sustancias del contexto sexual, los ataques pueden ser inducidos por la sustancia y requieren evaluación diferencial antes de aplicar el protocolo estándar. Las adaptaciones culturales de las intervenciones psicológicas mejoran los resultados frente a versiones no adaptadas (Hall 2016); no constan ensayos específicos en minorías sexuales y de género [fuente no localizada]. En el SNS se ofrece dentro de la psicoterapia de los servicios de salud mental (Real Decreto 1030/2006) y la TCC grupal transdiagnóstica en atención primaria redujo la ansiedad frente al tratamiento habitual (Cano-Vindel 2022).",
+     "links": [
+      {
+       "ids": [
+        "anx_sust"
+       ],
+       "t": "ansiedad inducida por sustancias"
+      },
+      {
+       "ids": [
+        "hipervent"
+       ],
+       "t": "hiperventilación"
+      },
+      {
+       "ids": [
+        "prot_unif"
+       ],
+       "t": "alternativa transdiagnóstica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Clark DM (1986). A cognitive approach to panic. Behav Res Ther 24:461-470 · PMID 3741311",
+    "Hofmann SG & Smits JAJ (2008). Cognitive-behavioral therapy for adult anxiety disorders: a meta-analysis of randomized placebo-controlled trials. J Clin Psychiatry 69:621-632 · PMID 18363421",
+    "Carpenter JK et al. (2018). Cognitive behavioral therapy for anxiety and related disorders: a meta-analysis of randomized placebo-controlled trials. Depress Anxiety 35:502-514 · PMID 29451967",
+    "Andrews G et al. (2018). Computer therapy for the anxiety and depression disorders is effective, acceptable and practical health care: an updated meta-analysis. J Anxiety Disord 55:70-78 · PMID 29422409",
+    "Hall GCN et al. (2016). A meta-analysis of cultural adaptations of psychological interventions. Behav Ther 47:993-1014 · PMID 27993346",
+    "Cano-Vindel A et al. (2022). Transdiagnostic group cognitive behavioural therapy for emotional disorders in primary care: the results of the PsicAP randomized controlled trial. Psychol Med 52:3336-3348 · PMID 33550995",
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management (CG113), actualizada en 2020"
+   ],
+   "relAdd": [
+    "anx_sust"
+   ]
+  },
+  "exp_interocep": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Su base teórica es el condicionamiento interoceptivo: las sensaciones corporales que preceden a los ataques se convierten en señales condicionadas de miedo, y la sensibilidad a la ansiedad amplifica su valor de amenaza; el modelo cognitivo de Clark (1986) añade que la interpretación catastrófica de esas sensaciones mantiene el círculo del pánico. El procedimiento empieza con una prueba de síntomas en la que se ensayan varios ejercicios y se puntúan la intensidad, la ansiedad y la semejanza con las crisis; con ello se construye una jerarquía y se practica en consulta y luego en casa y en situaciones naturales. En un ensayo con 120 personas con sensibilidad a la ansiedad elevada, una sesión de exposición interoceptiva intensiva redujo más la sensibilidad a la ansiedad y el miedo a la respiración por pajita que la versión de baja intensidad prescrita en el protocolo de Barlow y Craske o que la escritura expresiva, y las versiones de baja intensidad produjeron más sensibilización; la tolerancia al miedo y la reducción de expectativas negativas mediaron el efecto (Deacon 2013). Su aplicación exige formación en terapias de exposición y supervisión [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "interocepcion"
+       ],
+       "t": "interocepción"
+      },
+      {
+       "ids": [
+        "mod_clark_panico"
+       ],
+       "t": "modelo cognitivo del pánico"
+      },
+      {
+       "ids": [
+        "asi3"
+       ],
+       "t": "medición de la sensibilidad a la ansiedad"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La evidencia más sólida procede del pánico, donde es el componente asociado a mayor eficacia en el metaanálisis en red de componentes (Pompoli 2018) y forma parte de los protocolos evaluados en los ensayos de referencia (Barlow 2000). La comparación directa de formatos favorece la exposición intensiva frente a la de baja intensidad en un ensayo de una sola sesión con población analógica, sin diferencias en el mantenimiento durante el seguimiento (Deacon 2013). Fuera del pánico, un ensayo de 110 personas con síndrome del intestino irritable halló que 10 sesiones de TCC con exposición interoceptiva a las sensaciones viscerales superaron a un control de atención en varios desenlaces y a la gestión del estrés en algunos dominios (Craske 2011). En el TEPT solo existen datos preliminares: en una serie de 7 casos con 4 sesiones de exposición interoceptiva seguidas de exposición al trauma, cuatro participantes dejaron de cumplir criterios al mes (Wald y Taylor 2007). No constan recomendaciones de guía específicas para la técnica aislada, que las guías valoran como parte de la TCC del pánico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "panic"
+       ],
+       "t": "trastorno de pánico"
+      },
+      {
+       "ids": [
+        "sii_eje"
+       ],
+       "t": "síndrome del intestino irritable"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en el trastorno de pánico y la agorafobia, y con evidencia preliminar en el síndrome del intestino irritable (Craske 2011), el TEPT (Wald y Taylor 2007) y otros cuadros en los que las sensaciones físicas son temidas (Boettcher 2016). Los efectos adversos esperables son malestar transitorio, mareo o náuseas durante los ejercicios; el principal riesgo terapéutico es la sensibilización cuando la exposición es breve o se interrumpe antes de que cambie la expectativa de catástrofe (Deacon 2013). Requiere cribado médico previo en asma, epilepsia, cardiopatía o embarazo, y adaptar los ejercicios en lugar de suprimirlos [fuente no localizada]. En personas que consumen estimulantes o poppers en contextos sexuales, las sensaciones inducidas pueden reproducir efectos de la sustancia, lo que obliga a integrar la exposición en una formulación que incluya el consumo, sin juicios morales [fuente no localizada]. No constan adaptaciones culturales ni para minorías sexuales y de género evaluadas específicamente [fuente no localizada]. En el SNS se aplica dentro de la TCC del pánico, sin programa diferenciado documentado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "agora"
+       ],
+       "t": "agorafobia"
+      },
+      {
+       "ids": [
+        "poppers",
+        "anx_sust"
+       ],
+       "t": "sustancias que inducen sensaciones"
+      },
+      {
+       "ids": [
+        "tcc_panico"
+       ],
+       "t": "TCC del pánico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Clark DM (1986). A cognitive approach to panic. Behav Res Ther 24:461-470 · PMID 3741311",
+    "Deacon B et al. (2013). Maximizing the efficacy of interoceptive exposure by optimizing inhibitory learning: a randomized controlled trial. Behav Res Ther 51:588-596 · PMID 23872701",
+    "Craske MG et al. (2011). A cognitive-behavioral treatment for irritable bowel syndrome using interoceptive exposure to visceral sensations. Behav Res Ther 49:413-421 · PMID 21565328",
+    "Wald J & Taylor S (2007). Efficacy of interoceptive exposure therapy combined with trauma-related exposure therapy for posttraumatic stress disorder: a pilot study. J Anxiety Disord 21:1050-1060 · PMID 17270392"
+   ],
+   "relAdd": [
+    "sii_eje",
+    "ptsd"
+   ]
+  },
+  "epr": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Victor Meyer describió en 1966 la modificación de las expectativas en pacientes con rituales obsesivos mediante exposición a lo temido con prevención de los rituales (Meyer 1966); Edna Foa y colaboradores la protocolizaron para el TOC y desarrollaron la exposición prolongada para el TEPT (manual de Foa, Rothbaum, Riggs y Murdock de 1991, según Powers 2010). El modelo clásico de procesamiento emocional sostenía que la exposición activa la estructura de miedo e introduce información correctora; el modelo actual de aprendizaje inhibitorio entiende que se forma una nueva asociación de seguridad que compite con la original y que se potencia violando expectativas, variando contextos y eliminando las conductas de seguridad (Craske 2014). En el TOC se construye una jerarquía de situaciones y se practica exposición en vivo e imaginada con abstención de rituales y de búsqueda de reaseguración, con tareas diarias entre sesiones; en el ensayo de Foa se aplicó en formato intensivo durante 4 semanas seguido de 8 sesiones semanales de mantenimiento (Foa 2005). La exposición prolongada para el TEPT combina exposición imaginada al recuerdo traumático y exposición en vivo, y en el ensayo con mujeres veteranas se aplicó en 10 sesiones semanales de 90 minutos (Schnurr 2007). NICE NG116 pide para las TCC centradas en el trauma, incluida la exposición prolongada, un manual validado, típicamente 8-12 sesiones y profesionales formados con supervisión continuada (rec. 1.6.17).",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "compul"
+       ],
+       "t": "TOC y compulsiones"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "exposición prolongada en el TEPT"
+      },
+      {
+       "ids": [
+        "exp_interocep"
+       ],
+       "t": "exposición interoceptiva"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el TOC, el metaanálisis de 37 ensayos con Y-BOCS halló efectos muy grandes de la TCC frente a lista de espera (1,31) y placebo (1,33), superioridad frente a la medicación antidepresiva (0,55) y ninguna ventaja significativa de añadir medicación frente a TCC más placebo; EPR y terapia cognitiva no difirieron (Öst 2015). En el ensayo de Foa (122 adultos), la EPR igualó a la combinación con clomipramina y ambas superaron a la clomipramina sola, con respuesta del 62 % con EPR, 42 % con clomipramina, 70 % con la combinación y 8 % con placebo en la muestra tratada (Foa 2005). En el TEPT, 13 ensayos (675 participantes) mostraron un efecto grande de la exposición prolongada frente a lista de espera o placebo psicológico (g = 1,08), sin diferencias con otras terapias activas como el procesamiento cognitivo o el EMDR (Powers 2010); frente a terapia centrada en el presente, más mujeres veteranas dejaron de cumplir criterios (41,0 % frente a 27,8 %; Schnurr 2007). En las fobias específicas, la exposición superó al no tratamiento, al placebo y a otras psicoterapias en 33 ensayos (Wolitzky-Taylor 2008).",
+     "links": [
+      {
+       "ids": [
+        "ybocs"
+       ],
+       "t": "Y-BOCS"
+      },
+      {
+       "ids": [
+        "clomipramina"
+       ],
+       "t": "comparador farmacológico"
+      },
+      {
+       "ids": [
+        "fobia_esp"
+       ],
+       "t": "fobias específicas"
+      },
+      {
+       "ids": [
+        "emdr_proc"
+       ],
+       "t": "EMDR como alternativa"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "NICE CG31 recomienda en el TOC del adulto TCC con EPR, de baja intensidad en el deterioro leve, intensiva o un ISRS en el moderado y combinada con ISRS en el grave (rec. 1.5.1.1-1.5.1.4); NICE NG116 incluye la exposición prolongada entre las TCC centradas en el trauma del TEPT (1.6.16), y en fobias específicas la exposición es la opción mejor respaldada (Wolitzky-Taylor 2008). Una revisión concluye que la exposición prolongada puede usarse con seguridad y eficacia en personas con disociación, trastorno límite, psicosis, conducta suicida o autolesiva, trastornos por consumo de sustancias o depresión mayor, con tratamiento integrado o simultáneo cuando la comorbilidad es grave (van Minnen 2012). En el TEPT el abandono con TCC fue mayor que con placebo (29,0 % frente a 17,2 %) (Carpenter 2018), lo que obliga a preparar y dosificar. Los efectos indeseables son el aumento transitorio de ansiedad y la sensibilización si la exposición es insuficiente [fuente no localizada]. En el TOC con temas sexuales u obsesiones sobre la orientación o la identidad, el terapeuta debe distinguir obsesión de exploración identitaria y no tratar como síntoma una orientación o identidad vivida con coherencia [fuente no localizada]. Las adaptaciones culturales mejoran los resultados (Hall 2016). Disponible en las unidades de salud mental del SNS como parte de la psicoterapia (Real Decreto 1030/2006), con acceso a formatos intensivos limitado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tlp",
+        "tcs"
+       ],
+       "t": "comorbilidad no contraindica"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "conducta suicida"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "atención afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Meyer V (1966). Modification of expectations in cases with obsessional rituals. Behav Res Ther 4:273-280 · PMID 5978682",
+    "Öst LG et al. (2015). Cognitive behavioral treatments of obsessive-compulsive disorder. A systematic review and meta-analysis of studies published 1993-2014. Clin Psychol Rev 40:156-169 · PMID 26117062",
+    "Powers MB et al. (2010). A meta-analytic review of prolonged exposure for posttraumatic stress disorder. Clin Psychol Rev 30:635-641 · PMID 20546985",
+    "Schnurr PP et al. (2007). Cognitive behavioral therapy for posttraumatic stress disorder in women: a randomized controlled trial. JAMA 297:820-830 · PMID 17327524",
+    "Wolitzky-Taylor KB et al. (2008). Psychological approaches in the treatment of specific phobias: a meta-analysis. Clin Psychol Rev 28:1021-1037 · PMID 18410984",
+    "van Minnen A et al. (2012). Examining potential contraindications for prolonged exposure therapy for PTSD. Eur J Psychotraumatol 3:18805 · PMID 22893847",
+    "Carpenter JK et al. (2018). Cognitive behavioral therapy for anxiety and related disorders: a meta-analysis of randomized placebo-controlled trials. Depress Anxiety 35:502-514 · PMID 29451967",
+    "NICE (2005). Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)",
+    "NICE (2018). Post-traumatic stress disorder (NG116)"
+   ],
+   "relAdd": [
+    "emdr_proc",
+    "tlp"
+   ]
+  },
+  "tmc_wells": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Adrian Wells (Universidad de Mánchester) formuló el modelo metacognitivo del TAG en 1995 (Behavioural and Cognitive Psychotherapy 23:301-320, revista no indexada en PubMed) y lo enmarcó en el modelo de la función ejecutiva autorreguladora (S-REF), formulado con Gerald Matthews (Wells y Matthews 1996); el manual de referencia es Wells (2009). A diferencia de la TCC estándar, no discute la veracidad de los pensamientos, sino la relación de la persona con ellos: el objetivo es desactivar el síndrome cognitivo-atencional (preocupación y rumiación perseverantes, vigilancia de amenazas y estrategias de afrontamiento contraproducentes) modificando las creencias metacognitivas que lo sostienen. El formato habitual es individual y breve: en el ensayo abierto inicial (10 pacientes con TAG) la recuperación fue del 87,5 % al terminar y del 75 % a los 6 y 12 meses (Wells y King 2006), y en el ensayo en depresión se permitieron hasta 24 sesiones de hasta 60 minutos aplicadas por psicólogos clínicos formados (Callesen 2020). Existen versiones grupales y en régimen residencial (Johnson 2017). La formación acreditada se imparte sobre todo a través del instituto fundado por el autor [fuente no localizada en detalle], lo que concentra la investigación en su entorno.",
+     "links": [
+      {
+       "ids": [
+        "preocup_evit",
+        "rumiacion_persev"
+       ],
+       "t": "preocupación y rumiación perseverantes"
+      },
+      {
+       "ids": [
+        "tag"
+       ],
+       "t": "trastorno de ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "sesgo_atencional"
+       ],
+       "t": "vigilancia de amenazas"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "Más allá del TAG (datos ya recogidos en la ficha), la terapia metacognitiva se ha comparado con TCC en otros trastornos. En depresión mayor (174 adultos en atención primaria), no difirió de la TCC en la escala de Hamilton, con efecto suelo elevado, pero fue superior en el BDI-II al final (-5,49 puntos) y a los 6 meses, con recuperación del 74 % frente al 52 % y del 74 % frente al 56 %, respectivamente; los autores reconocen como limitaciones que solo hubo dos terapeutas (uno trató al 69 %), posibles efectos de lealtad porque el investigador principal es el creador del modelo y diferencias en el tiempo de terapia (Callesen 2020). En trastornos de ansiedad comórbidos en régimen residencial (90 pacientes con TEPT, fobia social o pánico), la terapia metacognitiva redujo más la ansiedad al final (d = 0,7), pero no hubo diferencias al año, porque el grupo de TCC siguió mejorando; ambos tratamientos fueron eficaces (Johnson 2017). Frente a lista de espera los efectos son grandes, pero frente a controles activos las ventajas son menores y dependen de pocos ensayos (Normann y Morina 2018). No consta recomendación específica en NICE, APA ni GuíaSalud [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "depresión mayor"
+      },
+      {
+       "ids": [
+        "bdi2"
+       ],
+       "t": "BDI-II como desenlace"
+      },
+      {
+       "ids": [
+        "fobia_soc",
+        "panic",
+        "ptsd"
+       ],
+       "t": "trastornos de ansiedad comórbidos"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en el TAG y como alternativa a la TCC en depresión y en trastornos de ansiedad comórbidos cuando predominan la preocupación y la rumiación, con evidencia prometedora pero procedente en gran medida del grupo del autor (Callesen 2020; Nordahl 2018). Los ensayos excluyen habitualmente la psicosis, el trastorno bipolar, el consumo de sustancias y el riesgo suicida agudo [fuente no localizada en detalle], por lo que en esas situaciones la técnica no tiene respaldo propio. No se han comunicado efectos adversos específicos ni tasas de deterioro [fuente no localizada]; como en toda psicoterapia, conviene monitorizar el empeoramiento clínico (Cuijpers 2018). Su enfoque en procesos y no en contenidos permite aplicarla sin discutir creencias culturales o religiosas, aunque no constan ensayos de adaptación cultural ni en minorías sexuales y de género [fuente no localizada]; en personas LGTBIQ, la rumiación sobre experiencias de discriminación no debe tratarse como un sesgo sin validar antes el estresor real. Su oferta en el SNS es escasa y depende de profesionales con formación específica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "estrés de minorías y rumiación"
+      },
+      {
+       "ids": [
+        "mbct"
+       ],
+       "t": "alternativa basada en mindfulness"
+      },
+      {
+       "ids": [
+        "tcc_dep"
+       ],
+       "t": "TCC de Beck como comparador"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Wells A & King P (2006). Metacognitive therapy for generalized anxiety disorder: an open trial. J Behav Ther Exp Psychiatry 37:206-212 · PMID 16125666",
+    "Callesen P et al. (2020). Metacognitive therapy versus cognitive behaviour therapy in adults with major depression: a parallel single-blind randomised trial. Sci Rep 10:7878 · PMID 32398710",
+    "Johnson SU et al. (2017). Metacognitive therapy versus disorder-specific CBT for comorbid anxiety disorders: a randomized controlled trial. J Anxiety Disord 50:103-112 · PMID 28651207",
+    "Cuijpers P et al. (2018). Negative effects of psychotherapies for adult depression: a meta-analysis of deterioration rates. J Affect Disord 239:138-145 · PMID 30005327",
+    "Wells A & Matthews G (1996). Modelling cognition in emotional disorder: the S-REF model. Behav Res Ther 34:881-888 · PMID 8990539"
+   ],
+   "relAdd": [
+    "ddm",
+    "sesgo_atencional"
+   ]
+  },
+  "prot_unif": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollado por David H. Barlow y el equipo del Center for Anxiety and Related Disorders de la Universidad de Boston (manual de Barlow y colaboradores, 2011, Oxford University Press; segunda edición de 2018, catalogada desde diciembre de 2017). Parte de la hipótesis de que los trastornos de ansiedad, depresivos y relacionados comparten un temperamento neurótico y un estilo de respuesta a las emociones negativas basado en la evitación y la supresión, de modo que un único protocolo centrado en la regulación emocional podría tratarlos sin manuales específicos para cada diagnóstico. Se organiza en módulos secuenciales (fijación de objetivos y motivación, psicoeducación sobre las emociones, conciencia emocional centrada en el presente, flexibilidad cognitiva, contrarrestar las conductas emocionales, tolerancia a las sensaciones físicas mediante exposición interoceptiva, exposición emocional y prevención de recaídas). El primer ensayo controlado permitió hasta 18 sesiones individuales (Farchione 2012) y el ensayo de equivalencia, hasta 16 sesiones en 16-21 semanas (Barlow 2017). En España se ha aplicado en formato grupal en los centros públicos de salud mental (Osma 2022). La formación se basa en el manual del terapeuta y supervisión [fuente no localizada en detalle].",
+     "links": [
+      {
+       "ids": [
+        "evit_exper"
+       ],
+       "t": "evitación emocional"
+      },
+      {
+       "ids": [
+        "hitop_anx"
+       ],
+       "t": "espectro internalizante"
+      },
+      {
+       "ids": [
+        "exp_interocep"
+       ],
+       "t": "módulo de exposición interoceptiva"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "Frente a lista de espera de 16 semanas, 37 pacientes con un trastorno de ansiedad principal mejoraron en gravedad clínica, ansiedad, depresión y afecto, con mantenimiento a 6 meses (Farchione 2012). En el ensayo de equivalencia (223 pacientes con pánico, ansiedad generalizada, TOC o ansiedad social), tanto el protocolo unificado (d = -0,93) como los protocolos específicos de cada trastorno (d = -1,08) superaron a la lista de espera, la reducción de la gravedad fue estadísticamente equivalente entre ambos al final y a los 6 meses, y la probabilidad de completar el tratamiento fue mayor con el protocolo unificado (OR 3,11) (Barlow 2017). El metaanálisis de 15 estudios (1244 participantes) halló reducciones de efecto grande en ansiedad, depresión y varios trastornos, incluido el límite de la personalidad, y efectos moderados en estrategias de regulación emocional, aunque reúne estudios de diseño diverso (Sakiris y Berle 2019). En el SNS español, el formato grupal frente a TCC individual específica como tratamiento habitual (488 participantes) mejoró más la depresión, la ansiedad y la calidad de vida (Osma 2022) y fue no inferior a los 15 meses, con menos abandonos (Peris-Baquero y Osma 2023).",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "tag",
+        "toc_dsm",
+        "fobia_soc"
+       ],
+       "t": "trastornos de ansiedad estudiados"
+      },
+      {
+       "ids": [
+        "tlp"
+       ],
+       "t": "trastorno límite"
+      },
+      {
+       "ids": [
+        "tcc_panico"
+       ],
+       "t": "protocolo específico como comparador"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado en trastornos emocionales (ansiedad, depresión y cuadros relacionados), especialmente con comorbilidad, cuando conviene un único protocolo y en formato grupal para reducir listas de espera en servicios públicos (Osma 2022). La evidencia en depresión mayor como diagnóstico principal es menor que en ansiedad, porque los ensayos de referencia seleccionaron trastornos de ansiedad (Barlow 2017). No sustituye al tratamiento específico en psicosis, trastorno bipolar en fase aguda, trastornos alimentarios graves o consumo de sustancias activo [fuente no localizada]. No se han descrito efectos adversos específicos; la mayor retención frente a protocolos específicos sugiere buena tolerabilidad (Barlow 2017). Es el protocolo del que se adaptó la TCC afirmativa de 10 sesiones para hombres gais y bisexuales jóvenes (ESTEEM, según el texto completo del ensayo), que redujo los síntomas depresivos, los problemas con el alcohol y la compulsividad sexual frente a lista de espera al abordar el estrés de minorías (Pachankis 2015). En España existe un ensayo multicéntrico en la red pública de salud mental (Osma 2022) y una intervención transdiagnóstica grupal distinta, PsicAP, en atención primaria (Cano-Vindel 2022).",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "adaptación afirmativa ESTEEM"
+      },
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "consumo de sustancias"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "depresión"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Farchione TJ et al. (2012). Unified protocol for transdiagnostic treatment of emotional disorders: a randomized controlled trial. Behav Ther 43:666-678 · PMID 22697453",
+    "Sakiris N & Berle D (2019). A systematic review and meta-analysis of the Unified Protocol as a transdiagnostic emotion regulation based intervention. Clin Psychol Rev 72:101751 · PMID 31271848",
+    "Osma J et al. (2022). Effectiveness of the Unified Protocol for transdiagnostic treatment of emotional disorders in group format in Spain: results from a randomized controlled trial with 6-months follow-up. Psychother Res 32:329-342 · PMID 34132170",
+    "Peris-Baquero O & Osma J (2023). Unified Protocol for the transdiagnostic treatment of emotional disorders in group format in Spain: results of a noninferiority randomized controlled trial at 15 months after treatment onset. Depress Anxiety 2023:1981377 · PMID 40224586",
+    "Pachankis JE et al. (2015). LGB-affirmative cognitive-behavioral therapy for young adult gay and bisexual men: a randomized controlled trial of a transdiagnostic minority stress approach. J Consult Clin Psychol 83:875-889 · PMID 26147563",
+    "Cano-Vindel A et al. (2022). Transdiagnostic group cognitive behavioural therapy for emotional disorders in primary care: the results of the PsicAP randomized controlled trial. Psychol Med 52:3336-3348 · PMID 33550995"
+   ],
+   "relAdd": [
+    "lgb_afirm",
+    "tag",
+    "tlp",
+    "ddm"
+   ]
+  },
+  "tcci": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Integra técnicas desarrolladas por separado: el control de estímulos de Bootzin (1972), la restricción del tiempo en cama de Spielman, que en 35 pacientes con insomnio crónico mejoró la latencia, la vigilia y la eficiencia del sueño con mantenimiento a unas 36 semanas (Spielman 1987), y la terapia cognitiva de las creencias disfuncionales sobre el sueño, sistematizada por Charles Morin (1993, Insomnia: Psychological Assessment and Management, Guilford). Su base teórica es el modelo de las 3 P de Spielman (factores predisponentes, precipitantes y perpetuadores; Spielman 1987b) y la hiperactivación cognitiva y fisiológica, junto con el modelo de los dos procesos de regulación del sueño. El procedimiento parte de diarios de sueño y combina restricción del tiempo en cama ajustada a la eficiencia, control de estímulos, reestructuración cognitiva, relajación e higiene del sueño; la higiene del sueño aislada no se recomienda como tratamiento (Edinger 2021). El formato estándar es individual o grupal de unas 4-8 sesiones [fuente no localizada en detalle], con versiones breves, digitales y por internet. Requiere formación en medicina conductual del sueño; en Europa existe acreditación de la European Sleep Research Society [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dos_procesos"
+       ],
+       "t": "modelo de los dos procesos"
+      },
+      {
+       "ids": [
+        "hiperactiv_insom"
+       ],
+       "t": "hiperactivación"
+      },
+      {
+       "ids": [
+        "isi"
+       ],
+       "t": "evaluación con el ISI"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En 20 ensayos (1162 adultos con insomnio crónico sin comorbilidad) frente a comparadores inactivos, la TCC-I presencial redujo la latencia de sueño en 19 minutos y la vigilia tras el inicio del sueño en 26 minutos y aumentó la eficiencia en un 9,9 %, con mejoría del tiempo total no significativa (7,6 minutos) y efectos mantenidos; no se comunicaron efectos adversos (Trauer 2015). En el insomnio comórbido con trastornos psiquiátricos o médicos (37 ensayos), el 36,0 % alcanzó la remisión frente al 16,9 % con control o comparador (OR 3,28), con efecto pequeño sobre la enfermedad asociada, mayor en las psiquiátricas (Wu 2015). La TCC-I por internet, en 11 ensayos (1460 participantes), obtuvo efectos comparables a la presencial, mayores con más apoyo clínico (Zachariae 2016). La guía europea la recomienda como primera línea en adultos de cualquier edad (recomendación fuerte, evidencia de alta calidad) y reserva los hipnóticos para cuando no es eficaz o no está disponible (Riemann 2017); la AASM recomienda la TCC-I multicomponente (fuerte) y sugiere el control de estímulos, la restricción de sueño y la relajación como componentes únicos (condicional) (Edinger 2021).",
+     "links": [
+      {
+       "ids": [
+        "insom"
+       ],
+       "t": "insomnio crónico"
+      },
+      {
+       "ids": [
+        "bzd_mayor",
+        "zolpidem"
+       ],
+       "t": "alternativa farmacológica de segunda línea"
+      },
+      {
+       "ids": [
+        "ddm",
+        "anx_mayor"
+       ],
+       "t": "insomnio comórbido"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en el insomnio crónico del adulto, incluida la persona mayor y el insomnio comórbido con depresión, ansiedad u otras enfermedades (Riemann 2017; Wu 2015), y como estrategia para la retirada de hipnóticos. La restricción de sueño produce efectos adversos transitorios: en 16 pacientes redujo el tiempo total de sueño objetivo entre 69 y 91 minutos durante la fase aguda y aumentó la somnolencia diurna y los fallos de vigilancia, que se normalizaron a los 3 meses (Kyle 2014), por lo que conviene advertir sobre la conducción y el manejo de maquinaria. Se debe adaptar o posponer la restricción en el trastorno bipolar (la privación de sueño puede precipitar manía), la epilepsia y la apnea obstructiva no tratada, y descartar otros trastornos del sueño antes de iniciarla [fuente no localizada en detalle]. La disponibilidad es limitada en el SNS y la versión digital es una vía de acceso [fuente no localizada]. No constan adaptaciones evaluadas para minorías sexuales y de género [fuente no localizada]; en personas con consumo de estimulantes o GHB en contextos de chemsex, el insomnio puede formar parte del cuadro de consumo y requiere una formulación integrada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "priv_sueno",
+        "tb1"
+       ],
+       "t": "riesgo de manía por privación de sueño"
+      },
+      {
+       "ids": [
+        "apnea",
+        "epilepsia_psic"
+       ],
+       "t": "comorbilidades que exigen adaptación"
+      },
+      {
+       "ids": [
+        "chemsex_atencion"
+       ],
+       "t": "insomnio y chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Spielman AJ, Saskin P & Thorpy MJ (1987). Treatment of chronic insomnia by restriction of time in bed. Sleep 10:45-56 · PMID 3563247",
+    "Trauer JM et al. (2015). Cognitive behavioral therapy for chronic insomnia: a systematic review and meta-analysis. Ann Intern Med 163:191-204 · PMID 26054060",
+    "Wu JQ et al. (2015). Cognitive behavioral therapy for insomnia comorbid with psychiatric and medical conditions: a meta-analysis. JAMA Intern Med 175:1461-1472 · PMID 26147487",
+    "Zachariae R et al. (2016). Efficacy of internet-delivered cognitive-behavioral therapy for insomnia: a systematic review and meta-analysis of randomized controlled trials. Sleep Med Rev 30:1-10 · PMID 26615572",
+    "Riemann D et al. (2017). European guideline for the diagnosis and treatment of insomnia. J Sleep Res 26:675-700 · PMID 28875581",
+    "Edinger JD et al. (2021). Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 17:255-262 · PMID 33164742",
+    "Kyle SD et al. (2014). Sleep restriction therapy for insomnia is associated with reduced objective total sleep time, increased daytime somnolence, and objectively impaired vigilance: implications for the clinical management of insomnia disorder. Sleep 37:229-237 · PMID 24497651",
+    "Morin CM (1993). Insomnia: Psychological Assessment and Management. New York: Guilford Press",
+    "Bootzin RR (1972). Stimulus control treatment for insomnia. Proceedings of the American Psychological Association 7:395-396 [no verificada]",
+    "Spielman AJ, Caruso LS & Glovinsky PB (1987). A behavioral perspective on insomnia treatment. Psychiatr Clin North Am 10:541-553 · PMID 3332317"
+   ],
+   "relAdd": [
+    "priv_sueno",
+    "apnea"
+   ]
+  },
+  "tcc_e": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Christopher Fairburn (Universidad de Oxford) desarrolló primero la TCC para la bulimia nerviosa (CBT-BN) [fuente no localizada en detalle: obra original] y, en 2003, con Zafra Cooper y Roz Shafran, la reformuló como teoría y tratamiento transdiagnóstico de los trastornos alimentarios (Fairburn 2003); el manual de referencia es Fairburn (2008, Cognitive Behavior Therapy and Eating Disorders, Guilford). El núcleo psicopatológico es la sobrevaloración de la figura, el peso y su control, que conduce a dieta estricta, atracones, conductas compensatorias y comprobación o evitación corporal; la versión ampliada añade módulos para la intolerancia emocional, el perfeccionismo clínico, la baja autoestima y las dificultades interpersonales. En pacientes sin bajo peso marcado se aplica en 20 sesiones a lo largo de 20 semanas (Fairburn 2009; Fairburn 2015) y en la anorexia nerviosa de adultos se han usado entre 25 y 40 sesiones en unos 10 meses (Byrne 2017). Sus pilares son la monitorización en tiempo real, el pesaje semanal en consulta, la alimentación regular y el trabajo con la sobrevaloración corporal. El tratamiento basado en la familia (Maudsley), recogido en la ficha, sigue otro modelo. Requiere formación específica con supervisión [fuente no localizada en detalle: sistema de acreditación].",
+     "links": [
+      {
+       "ids": [
+        "anor",
+        "bul",
+        "bed"
+       ],
+       "t": "trastornos alimentarios"
+      },
+      {
+       "ids": [
+        "edeq_scoff"
+       ],
+       "t": "evaluación con EDE-Q"
+      },
+      {
+       "ids": [
+        "ter_fam_inf"
+       ],
+       "t": "tratamiento basado en la familia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En 154 pacientes con trastornos alimentarios sin bajo peso marcado, ambas versiones de la TCC-E superaron a la lista de espera de 8 semanas, con cambios equivalentes y mantenidos; a las 60 semanas el 51,3 % tenía rasgos alimentarios a menos de una desviación típica de la media poblacional, sin diferencias según el diagnóstico (Fairburn 2009). Frente a la psicoterapia interpersonal (130 pacientes, 20 sesiones cada una), la remisión fue del 65,5 % frente al 33,3 % al terminar y del 69,4 % frente al 49,0 % a las 60 semanas (Fairburn 2015). En la bulimia nerviosa, 20 sesiones de TCC en 5 meses superaron a 2 años de psicoterapia psicoanalítica semanal en el cese de atracones y purgas (42 % frente a 6 % a los 5 meses; 44 % frente a 15 % a los 2 años) (Poulsen 2014). En la anorexia nerviosa de adultos (120 personas), la TCC-E no difirió del manejo clínico de apoyo especializado ni de MANTRA, con remisión media del 28,3 % a los 12 meses (Byrne 2017). El metaanálisis de 79 ensayos confirma la superioridad de la TCC dirigida por terapeuta frente a lista de espera y otras psicoterapias en bulimia y trastorno por atracón, sin diferencia frente a antidepresivos, aunque con muchos ensayos de baja calidad (Linardon 2017). NICE NG69 (2017) antepone la autoayuda guiada en bulimia (rec. 1.5.2) y atracón (1.4.2); después, TCC-ED individual en bulimia (1.5.4-1.5.5) y grupal en atracón (1.4.4), y en la anorexia del adulto considera TCC-ED individual, MANTRA o SSCM (1.3.4-1.3.5).",
+     "links": [
+      {
+       "ids": [
+        "ipt_dep"
+       ],
+       "t": "psicoterapia interpersonal"
+      },
+      {
+       "ids": [
+        "psicodin_breve"
+       ],
+       "t": "psicoterapia psicodinámica"
+      },
+      {
+       "ids": [
+        "bul",
+        "bed"
+       ],
+       "t": "bulimia y atracón"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Tratamiento psicológico de referencia en bulimia nerviosa y trastorno por atracón del adulto cuando la autoayuda guiada no basta o no es aceptable (NICE NG69, 1.4.4 y 1.5.4), y una de las tres opciones en la anorexia nerviosa del adulto (1.3.4), donde ningún tratamiento psicológico ha demostrado superioridad (Byrne 2017). La anorexia con bajo peso grave, inestabilidad médica o riesgo vital requiere antes estabilización y, en adolescentes, se prefiere el tratamiento basado en la familia (Lock 2010). Los efectos adversos específicos no están bien descritos [fuente no localizada]; el pesaje y la exposición a alimentos temidos aumentan transitoriamente la ansiedad, y la monitorización médica es imprescindible en conductas purgativas. El abandono es frecuente: solo el 60 % completó el tratamiento en anorexia (Byrne 2017) y el 22,3 % no completó o fue retirado en el ensayo frente a IPT (Fairburn 2015). Las minorías sexuales presentan más alteraciones alimentarias, sobre todo los varones, con riesgo elevado en personas trans y de minorías étnicas, y faltan estudios de tratamiento específicos para estos grupos (Calzo 2017); en personas trans la insatisfacción corporal puede vincularse a la disforia de género y debe formularse con enfoque afirmativo [fuente no localizada]. En el SNS se ofrece en unidades de trastornos alimentarios, con disponibilidad desigual [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tca_adol"
+       ],
+       "t": "trastornos alimentarios en la adolescencia"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "minorías sexuales y de género"
+      },
+      {
+       "ids": [
+        "wpath_soc8"
+       ],
+       "t": "atención afirmativa a personas trans"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Fairburn CG (2008). Cognitive Behavior Therapy and Eating Disorders. New York: Guilford Press",
+    "Fairburn CG et al. (2009). Transdiagnostic cognitive-behavioral therapy for patients with eating disorders: a two-site trial with 60-week follow-up. Am J Psychiatry 166:311-319 · PMID 19074978",
+    "Fairburn CG et al. (2015). A transdiagnostic comparison of enhanced cognitive behaviour therapy (CBT-E) and interpersonal psychotherapy in the treatment of eating disorders. Behav Res Ther 70:64-71 · PMID 26000757",
+    "Poulsen S et al. (2014). A randomized controlled trial of psychoanalytic psychotherapy or cognitive-behavioral therapy for bulimia nervosa. Am J Psychiatry 171:109-116 · PMID 24275909",
+    "Byrne S et al. (2017). A randomised controlled trial of three psychological treatments for anorexia nervosa. Psychol Med 47:2823-2833 · PMID 28552083",
+    "Linardon J et al. (2017). The efficacy of cognitive-behavioral therapy for eating disorders: a systematic review and meta-analysis. J Consult Clin Psychol 85:1080-1094 · PMID 29083223",
+    "Calzo JP et al. (2017). Eating disorders and disordered weight and shape control behaviors in sexual minority populations. Curr Psychiatry Rep 19:49 · PMID 28660475",
+    "NICE (2017). Eating disorders: recognition and treatment (NG69)"
+   ],
+   "relAdd": [
+    "ipt_dep",
+    "genero"
+   ]
+  },
+  "tccp": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El primer antecedente es el caso que Aaron T. Beck publicó en 1952 sobre la psicoterapia ambulatoria de una persona con esquizofrenia crónica y un delirio basado en culpa prestada (Beck 1952); el enfoque se desarrolló en el Reino Unido desde los años noventa con el manual de Kingdon y Turkington (1994, Cognitive-Behavioral Therapy of Schizophrenia, Guilford). Parte de un modelo de continuidad entre experiencias psicóticas y normales: las voces y las creencias inusuales se entienden a partir de la vulnerabilidad, el estrés, los sesgos de razonamiento y las valoraciones que la persona hace de ellas, y el objetivo principal es reducir el malestar y la discapacidad más que eliminar el síntoma. El procedimiento es individual y colaborativo: alianza, normalización, formulación compartida, examen de las evidencias de las creencias, estrategias de afrontamiento de las voces y prevención de recaídas. NICE CG178 indica TCC individual de al menos 16 sesiones planificadas, según un manual con eficacia probada (rec. 1.3.7.1). Existen variantes focalizadas, como la intervención de 6 sesiones en 8 semanas sobre la preocupación en el delirio persecutorio (Freeman 2015) o la terapia AVATAR para las voces (Craig 2018). Requiere formación específica en psicosis y supervisión [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "del_persec",
+        "aluc_aud"
+       ],
+       "t": "delirio persecutorio y voces"
+      },
+      {
+       "ids": [
+        "jtc"
+       ],
+       "t": "sesgos de razonamiento"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El metaanálisis con análisis de sesgos halló efectos pequeños: -0,33 en síntomas globales (34 estudios), -0,25 en positivos (33) y -0,13 en negativos (34); en los estudios con evaluación enmascarada, el efecto sobre los positivos bajó a -0,08 y dejó de ser significativo, y el tipo de control no moderó el efecto (Jauhar 2014). En personas con trastornos del espectro de la esquizofrenia que habían decidido no tomar antipsicóticos (74 participantes), la terapia cognitiva añadida al tratamiento habitual redujo la PANSS total frente a tratamiento habitual solo (diferencia -6,52), con la recomendación de un ensayo definitivo mayor (Morrison 2014). En el ensayo WIT (150 personas con delirio persecutorio persistente), 6 sesiones centradas en la preocupación redujeron la preocupación y el delirio frente al tratamiento habitual, con mantenimiento a 24 semanas, y el cambio en la preocupación explicó el 66 % del cambio en el delirio (Freeman 2015). La terapia AVATAR redujo las voces frente a terapia de apoyo (Craig 2018). NICE CG178 recomienda ofrecer TCC a todas las personas con psicosis o esquizofrenia, en fase aguda o posterior (rec. 1.4.4.1), y en síntomas persistentes o remisión (1.5.4.1), lo que contrasta con la pequeña magnitud de los efectos metaanalíticos (Jauhar 2014).",
+     "links": [
+      {
+       "ids": [
+        "panss"
+       ],
+       "t": "PANSS"
+      },
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "tratamiento antipsicótico"
+      },
+      {
+       "ids": [
+        "emc"
+       ],
+       "t": "entrenamiento metacognitivo"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada como complemento del tratamiento farmacológico en la esquizofrenia y otras psicosis, en síntomas positivos persistentes y malestar asociado, en el delirio persecutorio con preocupación elevada (Freeman 2015) y como opción para quienes rechazan los antipsicóticos (Morrison 2014); en estados mentales de alto riesgo NICE recomienda TCC individual con o sin intervención familiar y desaconseja los antipsicóticos (CG178, rec. 1.2.3.1-1.2.3.2). Su efecto sobre los síntomas negativos es mínimo (Jauhar 2014). En un ensayo de 198 pacientes, los acontecimientos adversos graves (intentos de suicidio, crisis suicidas y exacerbaciones graves) fueron 10 con TCC y 5 con remediación cognitiva, sin diferencia significativa, aunque un subgrupo empeoró notablemente y puede requerir atención más intensiva (Klingberg 2012); en WIT no se atribuyó ningún acontecimiento adverso al tratamiento (Freeman 2015), y en el ensayo de Morrison hubo 2 acontecimientos adversos graves con terapia cognitiva y 6 con tratamiento habitual (Morrison 2014). Las creencias religiosas o culturales compartidas por el grupo de referencia no deben tratarse como delirio, que el DSM-5-TR excluye en estos casos, lo que exige competencia cultural y, si procede, intérprete profesional. En personas LGTBIQ, la vigilancia y la desconfianza ante experiencias reales de discriminación deben distinguirse del delirio persecutorio [fuente no localizada]. Su disponibilidad en el SNS es limitada y desigual [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "urh",
+        "eop"
+       ],
+       "t": "alto riesgo y primeros episodios"
+      },
+      {
+       "ids": [
+        "competencia_cult",
+        "interprete_clinico"
+       ],
+       "t": "competencia cultural e intérprete"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Beck AT (1952). Successful outpatient psychotherapy of a chronic schizophrenic with a delusion based on borrowed guilt. Psychiatry 15:305-312 · PMID 12983446",
+    "Kingdon DG & Turkington D (1994). Cognitive-Behavioral Therapy of Schizophrenia. New York: Guilford Press",
+    "Jauhar S et al. (2014). Cognitive-behavioural therapy for the symptoms of schizophrenia: systematic review and meta-analysis with examination of potential bias. Br J Psychiatry 204:20-29 · PMID 24385461",
+    "Morrison AP et al. (2014). Cognitive therapy for people with schizophrenia spectrum disorders not taking antipsychotic drugs: a single-blind randomised controlled trial. Lancet 383:1395-1403 · PMID 24508320",
+    "Freeman D et al. (2015). Effects of cognitive behaviour therapy for worry on persecutory delusions in patients with psychosis (WIT): a parallel, single-blind, randomised controlled trial with a mediation analysis. Lancet Psychiatry 2:305-313 · PMID 26360083",
+    "Klingberg S et al. (2012). Adverse effects of cognitive behavioral therapy and cognitive remediation in schizophrenia: results of the treatment of negative symptoms study. J Nerv Ment Dis 200:569-576 · PMID 22759932",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), con actualizaciones posteriores",
+    "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington DC: APA Publishing"
+   ],
+   "relAdd": [
+    "jtc",
+    "panss",
+    "competencia_cult"
+   ]
+  },
+  "emc": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollado por Steffen Moritz (Centro Médico Universitario de Hamburgo-Eppendorf) y Todd S. Woodward (Universidad de Columbia Británica), que lo presentaron como traslación de la investigación básica sobre sesgos cognitivos en la esquizofrenia a una intervención (Moritz y Woodward 2007). Se basa en la hipótesis de que sesgos como el salto a conclusiones, el estilo atributivo monocausal y autoexculpatorio, la resistencia a la evidencia contraria, el exceso de confianza en los errores de memoria y los déficits de teoría de la mente contribuyen a la formación y mantenimiento del delirio; no discute directamente el contenido delirante, sino que hace experimentar los sesgos con ejercicios lúdicos. El formato estándar es grupal, con módulos semanales sobre cada sesgo, autoestima y estado de ánimo; en el ensayo de seguimiento a 3 años se ofrecieron hasta 16 sesiones (Moritz 2014) y en el ensayo español, 8 sesiones semanales (Ochoa 2017). Existe una versión individualizada (MCT+). Los materiales son gratuitos y están traducidos al castellano [fuente no localizada en detalle]. Puede aplicarlo personal de salud mental con formación breve en el programa, sin la especialización que exige la TCC para la psicosis [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "jtc"
+       ],
+       "t": "salto a conclusiones"
+      },
+      {
+       "ids": [
+        "cogn_soc"
+       ],
+       "t": "teoría de la mente"
+      },
+      {
+       "ids": [
+        "delirio"
+       ],
+       "t": "delirio"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El metaanálisis más reciente (43 estudios; 1816 participantes en el análisis cuantitativo) asoció el entrenamiento metacognitivo, en comparaciones con controles diversos que el resumen no especifica, con mejoría de los síntomas positivos (g = 0,50), los delirios (g = 0,69), las alucinaciones (g = 0,26), los sesgos cognitivos (g = 0,16), la autoestima (g = 0,17), los síntomas negativos (g = 0,23) y el funcionamiento (g = 0,41), mantenida hasta 1 año, sin efecto significativo en la calidad de vida; los estudios incluían diseños diversos con calidad heterogénea (Penney 2022). En un ensayo bicéntrico (150 pacientes con antipsicóticos), el entrenamiento grupal redujo más el delirio en la PANSS que el entrenamiento neuropsicológico (COGPACK) a los 3 años, con mejoras tardías en autoestima y calidad de vida; solo el 61,3 % completó el seguimiento (Moritz 2014). En el ensayo multicéntrico español (126 personas con psicosis de inicio reciente), frente a un grupo psicoeducativo con elementos cognitivo-conductuales, mejoró más el insight cognitivo, el salto a conclusiones y la tolerancia a la frustración (Ochoa 2017). NICE CG178 no lo menciona (comprobado en el texto de las recomendaciones) y no consta en otras guías [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "panss"
+       ],
+       "t": "PANSS"
+      },
+      {
+       "ids": [
+        "insight"
+       ],
+       "t": "insight cognitivo"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado como complemento del tratamiento antipsicótico en la esquizofrenia y otras psicosis con delirios, desde el primer episodio (Ochoa 2017) hasta fases crónicas (Moritz 2014), y útil donde no hay acceso a TCC individual para la psicosis por su bajo coste y formato grupal. No sustituye a la medicación ni a la TCC individual; las personas con agitación grave, deterioro cognitivo marcado o fase aguda pueden no beneficiarse del formato grupal [fuente no localizada]. No se han comunicado efectos adversos específicos en los estudios citados [fuente no localizada]; el abandono a largo plazo es apreciable (Moritz 2014). Su lenguaje no confrontativo y la existencia de versiones traducidas facilitan la aplicación transcultural, aunque la adaptación de los ejemplos al contexto cultural de la persona es recomendable [fuente no localizada]; no constan datos específicos en minorías sexuales y de género [fuente no localizada]. En España se ha evaluado en 9 centros públicos (Ochoa 2017) y se aplica en algunos programas de primeros episodios, sin cobertura homogénea documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "eop"
+       ],
+       "t": "primeros episodios psicóticos"
+      },
+      {
+       "ids": [
+        "tccp"
+       ],
+       "t": "TCC para la psicosis"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "adaptación cultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Moritz S et al. (2014). Sustained and \"sleeper\" effects of group metacognitive training for schizophrenia: a randomized clinical trial. JAMA Psychiatry 71:1103-1111 · PMID 25103718",
+    "Penney D et al. (2022). Immediate and sustained outcomes and moderators associated with metacognitive training for psychosis: a systematic review and meta-analysis. JAMA Psychiatry 79:417-429 · PMID 35320347",
+    "Ochoa S et al. (2017). Randomized control trial to assess the efficacy of metacognitive training compared with a psycho-educational group in people with a recent-onset psychosis. Psychol Med 47:1573-1584 · PMID 28166848"
+   ],
+   "relAdd": [
+    "esq",
+    "eop",
+    "cogn_soc",
+    "panss"
+   ]
+  },
+  "tcc_tdah": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Los programas de referencia parten de un modelo en el que los déficits neuropsicológicos del TDAH (atención, inhibición, funciones ejecutivas) dificultan aprender y usar estrategias compensatorias, lo que acumula fracasos, evitación y pensamientos negativos que a su vez mantienen el deterioro. El protocolo de Steven Safren (Hospital General de Massachusetts) se diseñó para adultos ya estabilizados con medicación y con síntomas residuales, con módulos nucleares de psicoeducación, organización y planificación, reducción de la distraibilidad y reestructuración cognitiva, y módulos opcionales sobre procrastinación, ira y comunicación [fuente no localizada en detalle: estructura modular del manual], con evaluación inicial en un ensayo piloto (Safren 2005). La terapia metacognitiva de Mary Solanto es grupal, de 12 semanas, y enseña gestión del tiempo, organización y planificación junto con el abordaje de cogniciones depresivas y ansiosas que socavan la autorregulación (Solanto 2010). En Alemania, el programa grupal estructurado del estudio COMPAS, inspirado en la terapia dialéctico-conductual [fuente no localizada en detalle], se aplicó semanalmente 12 semanas y luego mensualmente hasta completar un año (Philipsen 2015). Requiere formación en TCC y conocimiento específico del TDAH adulto [fuente no localizada en detalle].",
+     "links": [
+      {
+       "ids": [
+        "func_ejec"
+       ],
+       "t": "funciones ejecutivas"
+      },
+      {
+       "ids": [
+        "tdah_adulto"
+       ],
+       "t": "TDAH en la persona adulta"
+      },
+      {
+       "ids": [
+        "dbt"
+       ],
+       "t": "programas inspirados en la DBT"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo piloto de Safren (31 adultos medicados con síntomas persistentes), la TCC añadida a la medicación redujo los síntomas de TDAH evaluados por un evaluador independiente y autoinformados, así como la ansiedad y la depresión, con un 56 % de respondedores frente al 13 % con medicación sola (Safren 2005). La terapia metacognitiva grupal de Solanto (88 adultos) superó a la psicoterapia de apoyo en grupo en los síntomas de inatención según la persona, un informante y un evaluador ciego, con mayor probabilidad de respuesta (OR 5,41) (Solanto 2010). En COMPAS (419 adultos analizados), la psicoterapia grupal estructurada no superó al manejo clínico individual en el índice de TDAH a los 3 meses, mientras que el metilfenidato fue superior al placebo con ambos abordajes psicológicos; la psicoterapia grupal sí fue mejor en la impresión clínica global de eficacia (Philipsen 2015). Este resultado ilustra que el efecto se reduce cuando el comparador es un control activo, en línea con los metaanálisis recogidos en la ficha. NICE NG87 (2018) propone considerar tratamiento no farmacológico en adultos que deciden no medicarse, tienen dificultades de adherencia o no responden o no toleran la medicación (rec. 1.5.16), o combinado con ella si persiste el deterioro (1.5.17), con al menos una intervención psicológica estructurada de apoyo centrada en el TDAH y seguimiento regular, que puede incluir elementos o un curso completo de TCC (1.5.18).",
+     "links": [
+      {
+       "ids": [
+        "metilfenidato"
+       ],
+       "t": "metilfenidato como comparador"
+      },
+      {
+       "ids": [
+        "inatencion"
+       ],
+       "t": "inatención"
+      },
+      {
+       "ids": [
+        "estim_adulto"
+       ],
+       "t": "tratamiento farmacológico"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en adultos con TDAH que mantienen síntomas o deterioro pese a la medicación, que no la toleran o no la desean, y en presencia de ansiedad o depresión comórbidas (Safren 2005; Kooij 2019). La combinación con medicación ofrece mejores resultados que la psicoterapia con placebo (Philipsen 2015). Los ensayos suelen excluir el consumo activo de sustancias, el trastorno bipolar no estabilizado y la psicosis [fuente no localizada en detalle], aunque la comorbilidad con trastornos por consumo es frecuente y requiere integrar ambos tratamientos. No se han descrito efectos adversos específicos [fuente no localizada]; la dificultad para mantener la asistencia y las tareas es la principal barrera, lo que justifica recordatorios y formatos breves. No constan adaptaciones evaluadas para minorías sexuales y de género [fuente no localizada]; en personas que practican chemsex con TDAH, el consumo de estimulantes puede funcionar como automedicación y debe abordarse desde la reducción de daños [fuente no localizada]. En el SNS el acceso a programas grupales de TCC para TDAH adulto es escaso y depende de unidades específicas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tdah_sustancias"
+       ],
+       "t": "TDAH y consumo de sustancias"
+      },
+      {
+       "ids": [
+        "chemsex_atencion",
+        "red_danos"
+       ],
+       "t": "chemsex y reducción de daños"
+      },
+      {
+       "ids": [
+        "disreg_emoc_tdah"
+       ],
+       "t": "disregulación emocional"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Safren SA et al. (2005). Cognitive-behavioral therapy for ADHD in medication-treated adults with continued symptoms. Behav Res Ther 43:831-842 · PMID 15896281",
+    "Solanto MV et al. (2010). Efficacy of meta-cognitive therapy for adult ADHD. Am J Psychiatry 167:958-968 · PMID 20231319",
+    "Philipsen A et al. (2015). Effects of group psychotherapy, individual counseling, methylphenidate, and placebo in the treatment of adult attention-deficit/hyperactivity disorder: a randomized clinical trial. JAMA Psychiatry 72:1199-1210 · PMID 26536057",
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87), con actualizaciones posteriores"
+   ],
+   "relAdd": [
+    "metilfenidato",
+    "tdah_sustancias"
+   ]
+  },
+  "tcc_inf": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Philip C. Kendall (Universidad de Temple) desarrolló el programa Coping Cat para la ansiedad infantil, evaluado en dos ensayos aleatorizados frente a lista de espera, el primero con 16 sesiones en 47 participantes de 9 a 13 años (Kendall 1994; Kendall 1997). El modelo combina el aprendizaje social y el procesamiento cognitivo adaptado al desarrollo: la primera mitad enseña a reconocer las señales físicas de ansiedad, identificar pensamientos ansiosos, resolver problemas y autoevaluarse y recompensarse, y la segunda practica la exposición graduada; en el segundo ensayo, la exposición activa posterior a la fase cognitivo-educativa pareció el principal componente de cambio (Kendall 1997). Los formatos individual, grupal y con implicación de padres y madres se consideran probablemente eficaces, sin diferencias significativas entre el formato individual y el grupal ni según la implicación parental (Silverman 2008). En la depresión adolescente, los protocolos combinan activación conductual, reestructuración y resolución de problemas; en el ensayo IMPACT la mediana fue de 9 sesiones de TCC (Goodyer 2017). La aplicación requiere formación en TCC y en desarrollo infantil, con supervisión, y conocimiento del trabajo con familias y centros escolares [fuente no localizada en detalle].",
+     "links": [
+      {
+       "ids": [
+        "anx_sep",
+        "fobia_soc"
+       ],
+       "t": "trastornos de ansiedad infantil"
+      },
+      {
+       "ids": [
+        "epr"
+       ],
+       "t": "exposición graduada"
+      },
+      {
+       "ids": [
+        "entren_parental"
+       ],
+       "t": "implicación de padres y madres"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el segundo ensayo de Coping Cat (94 niños y niñas de 9 a 13 años), la TCC superó a la lista de espera en diagnóstico, autoinformes, informes de padres, madres y docentes y observación conductual; las ganancias situaron a la mayoría dentro del rango normativo y se mantuvieron al año, sin moderación por edad ni comorbilidad (Kendall 1997). La revisión de 32 estudios con criterios de Chambless clasificó la TCC individual, la grupal y la grupal con padres como probablemente eficaces, sin tratamiento bien establecido según esos criterios (Silverman 2008). En la depresión adolescente moderada-grave atendida en servicios especializados (IMPACT, 470 pacientes de 11 a 17 años), la TCC no fue inferior a la psicoterapia psicoanalítica breve, pero ninguna superó a una intervención psicosocial breve a las 36, 52 u 86 semanas, sin diferencias en costes ni en efectos adversos físicos (Goodyer 2017). Estos datos, junto con los metaanálisis y ensayos combinados recogidos en la ficha, indican efectos más sólidos en ansiedad que en depresión y dependientes del comparador. NICE NG134 recomienda ofrecer TCC individual durante al menos 3 meses entre los 12 y 18 años con depresión moderada-grave (rec. 1.6.5) y la incluye entre las opciones a considerar entre los 5 y 11 años (1.6.4).",
+     "links": [
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "depresión infantojuvenil"
+      },
+      {
+       "ids": [
+        "psicodin_breve"
+       ],
+       "t": "psicoterapia psicodinámica como comparador"
+      },
+      {
+       "ids": [
+        "ansi_adol"
+       ],
+       "t": "ansiedad adolescente"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en trastornos de ansiedad, TOC y depresión de niños, niñas y adolescentes, con la exposición como componente central en ansiedad y TOC (Kendall 1997). En depresión moderada-grave del adolescente, la TCC, la psicoterapia psicoanalítica breve y una intervención psicosocial breve obtuvieron resultados similares a medio plazo (Goodyer 2017), por lo que la preferencia de la familia y del joven y la disponibilidad deben guiar la elección. La evidencia es más limitada en menores de 7 años, discapacidad intelectual y TEA, que requieren adaptaciones (ver ficha). Durante el tratamiento de la depresión conviene vigilar la ideación suicida, especialmente si se combina con antidepresivos, según las advertencias de la ficha técnica de la fluoxetina (ver ficha). No se han descrito efectos adversos específicos de la TCC infantil en los estudios citados [fuente no localizada]. En adolescentes LGTBIQ, la evaluación debe considerar el acoso escolar y el rechazo familiar como estresores reales, sin patologizar la orientación ni la identidad, y es recomendable un enfoque afirmativo [fuente no localizada en detalle: ensayos específicos en jóvenes]. En el SNS se ofrece en las unidades de salud mental infantojuvenil, con listas de espera y disponibilidad desigual entre comunidades [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "toc_ped"
+       ],
+       "t": "TOC pediátrico"
+      },
+      {
+       "ids": [
+        "tea",
+        "di"
+       ],
+       "t": "adaptaciones en TEA y discapacidad intelectual"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "adolescentes LGTBIQ"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "vigilancia del riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kendall PC et al. (1997). Therapy for youths with anxiety disorders: a second randomized clinical trial. J Consult Clin Psychol 65:366-380 · PMID 9170760",
+    "Silverman WK, Pina AA & Viswesvaran C (2008). Evidence-based psychosocial treatments for phobic and anxiety disorders in children and adolescents. J Clin Child Adolesc Psychol 37:105-130 · PMID 18444055",
+    "Goodyer IM et al. (2017). Cognitive behavioural therapy and short-term psychoanalytical psychotherapy versus a brief psychosocial intervention in adolescents with unipolar major depressive disorder (IMPACT): a multicentre, pragmatic, observer-blind, randomised controlled superiority trial. Lancet Psychiatry 4:109-119 · PMID 27914903",
+    "NICE (2019). Depression in children and young people: identification and management (NG134)"
+   ],
+   "relAdd": [
+    "psicodin_breve",
+    "lgb_afirm"
+   ]
+  },
+  "pcit": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Sheila M. Eyberg (Universidad de Florida) desarrolló la PCIT [fuente no localizada en detalle: obra fundacional de Eyberg] a partir de la teoría del apego y del aprendizaje social: la fase centrada en la persona menor busca fortalecer una relación cálida y receptiva, condición para que funcionen después los límites, y la fase dirigida por el adulto aplica el modelo de Hanf de órdenes claras y consecuencias consistentes no violentas. El manual clínico de referencia es McNeil y Hembree-Kigin (2010, Parent-Child Interaction Therapy, 2ª ed., Springer). Cada sesión incluye una observación codificada de la interacción con un sistema estandarizado, y el avance de fase depende de alcanzar criterios de dominio, lo que hace la duración variable. El terapeuta entrena a la figura parental en tiempo real desde fuera de la sala mediante auricular. La revisión de 1996-2007 de Eyberg, Nelson y Boggs identificó 16 tratamientos con base empírica para la conducta disruptiva infantojuvenil (Eyberg 2008); la clasificación concreta de la PCIT no figura en el resumen [fuente no localizada en detalle]. La certificación como terapeuta exige formación acreditada por PCIT International, casos supervisados y fiabilidad en la codificación [fuente no localizada en detalle].",
+     "links": [
+      {
+       "ids": [
+        "tnd"
+       ],
+       "t": "trastorno negativista desafiante"
+      },
+      {
+       "ids": [
+        "rabietas"
+       ],
+       "t": "rabietas"
+      },
+      {
+       "ids": [
+        "entren_parental"
+       ],
+       "t": "entrenamiento parental conductual"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En familias con maltrato físico (110 progenitores con múltiples notificaciones previas, violencia grave, bajos ingresos y altos niveles de depresión, consumo de sustancias y conducta antisocial), la PCIT se comparó con un grupo comunitario estándar de crianza (control activo): a una mediana de 850 días, el 19 % de quienes recibieron PCIT tuvo una nueva notificación por maltrato físico frente al 49 % del grupo comunitario; añadir servicios individualizados no mejoró el resultado, y el efecto se explicó por la reducción de las interacciones negativas (Chaffin 2004). En familias mexicoamericanas con hijos e hijas de 3 a 7 años (58 familias), tanto la versión culturalmente adaptada (GANA) como la estándar mejoraron la conducta; GANA superó al tratamiento habitual en medidas parentales y observacionales y no difirió de la PCIT estándar, que también superó al tratamiento habitual en casi todas las medidas observacionales (McCabe y Yeh 2009). Estos ensayos con comparador activo complementan los metaanálisis frente a control recogidos en la ficha. NICE CG158 recomienda programas de entrenamiento parental basados en el aprendizaje social, grupales o individuales, para familias con hijos e hijas de 3 a 11 años (rec. 1.5.1-1.5.4), sin nombrar la PCIT (comprobado en el texto).",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "maltrato infantil"
+      },
+      {
+       "ids": [
+        "tcond"
+       ],
+       "t": "trastorno de conducta"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "adaptación cultural"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en problemas de conducta de inicio precoz y trastorno negativista desafiante en niños y niñas de 2 a 7 años, y en familias con maltrato físico para prevenir nuevas notificaciones (Chaffin 2004), siempre coordinada con los servicios de protección cuando hay riesgo activo. Para mayores de 7 años y adolescentes la evidencia es escasa [fuente no localizada]. No se han descrito efectos adversos específicos [fuente no localizada]; el tiempo fuera exige pautas precisas y supervisión para evitar su uso punitivo, y la PCIT excluye el castigo físico. El abandono es una limitación frecuente, aunque en el ensayo con familias mexicoamericanas no difirió entre las condiciones (McCabe y Yeh 2009). La adaptación cultural no fue superior a la versión estándar en ese ensayo, lo que sugiere que el modelo es transferible con ajustes lingüísticos y de contenido (McCabe y Yeh 2009). Es aplicable a familias diversas, incluidas las homoparentales y monoparentales, sin evidencia de diferencias de eficacia [fuente no localizada]. Su disponibilidad en el SNS es muy limitada por la exigencia de equipamiento y certificación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "protección infantil"
+      },
+      {
+       "ids": [
+        "anx_sep"
+       ],
+       "t": "adaptaciones a la ansiedad por separación"
+      },
+      {
+       "ids": [
+        "tcc_inf"
+       ],
+       "t": "TCC infantojuvenil"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Eyberg SM, Nelson MM & Boggs SR (2008). Evidence-based psychosocial treatments for children and adolescents with disruptive behavior. J Clin Child Adolesc Psychol 37:215-237 · PMID 18444059",
+    "Chaffin M et al. (2004). Parent-child interaction therapy with physically abusive parents: efficacy for reducing future abuse reports. J Consult Clin Psychol 72:500-510 · PMID 15279533",
+    "McCabe K & Yeh M (2009). Parent-child interaction therapy for Mexican Americans: a randomized clinical trial. J Clin Child Adolesc Psychol 38:753-759 · PMID 20183659",
+    "McNeil CB & Hembree-Kigin TL (2010). Parent-Child Interaction Therapy. 2ª ed. New York: Springer"
+   ],
+   "relAdd": [
+    "competencia_cult"
+   ]
+  },
+  "entren_parental": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Su base teórica es el modelo de coerción familiar de Gerald Patterson (1982, Coercive Family Process, Castalia), según el cual las conductas disruptivas se mantienen por ciclos de refuerzo negativo mutuo entre la figura parental y la persona menor, junto con la teoría del aprendizaje social. Incredible Years fue desarrollado por Carolyn Webster-Stratton (Universidad de Washington) con un formato grupal basado en el visionado de viñetas en vídeo, discusión y role-play, y módulos complementarios para la persona menor y el profesorado; Triple P, de Matthew Sanders (Universidad de Queensland), se organiza en cinco niveles de intensidad creciente, desde la información universal hasta la intervención familiar intensiva. En el ensayo de Webster-Stratton y Hammond (97 familias con hijos e hijas de 4 a 8 años), el entrenamiento parental, el entrenamiento infantil y su combinación superaron a la lista de espera, y la combinación produjo los cambios clínicamente más significativos al año (Webster-Stratton y Hammond 1997). Los programas se aplican por profesionales formados y acreditados por cada organización, con supervisión y control de fidelidad al manual [fuente no localizada en detalle].",
+     "links": [
+      {
+       "ids": [
+        "tnd",
+        "tcond"
+       ],
+       "t": "problemas de conducta"
+      },
+      {
+       "ids": [
+        "pcit"
+       ],
+       "t": "PCIT"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "intervención familiar"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En un metaanálisis de 154 ensayos aleatorizados frente a control, el efecto sobre la conducta disruptiva aumentó con el nivel de intervención: d = -0,21 en prevención universal, -0,27 en selectiva, -0,55 en indicada y -0,69 en tratamiento; de 26 técnicas, el refuerzo positivo, en particular el elogio, y las consecuencias naturales o lógicas se asociaron a efectos mayores, y otras como la construcción de la relación o el autocontrol parental solo mejoraron los efectos en tratamiento (Leijten 2019). En 17 ensayos de 4 programas trasladados desde Estados Unidos o Australia a 10 países (1558 niños y niñas), los 14 aleatorizados mostraron efectos sustanciales frente a sus grupos control (DME -0,71), comparables a los de los países de origen y mayores en regiones culturalmente más distantes, sin necesidad de adaptaciones extensas (Gardner 2016). El ensayo de Webster-Stratton y Hammond (1997) mostró mantenimiento al año y ventaja de combinar el trabajo con la persona menor y con sus progenitores. Estos datos se suman a la revisión Cochrane y a los metaanálisis de Incredible Years y Triple P recogidos en la ficha. NICE CG158 recomienda programas grupales de entrenamiento parental para familias con hijos e hijas de 3 a 11 años, de 10-16 sesiones según un manual evaluado en ensayo, e individuales si el grupo no es viable (rec. 1.5.1-1.5.4).",
+     "links": [
+      {
+       "ids": [
+        "tnd"
+       ],
+       "t": "trastorno negativista desafiante"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "transferencia transcultural"
+      },
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "TDAH"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado en problemas de conducta de inicio precoz, trastorno negativista desafiante y trastorno de conducta en la infancia, como complemento en el TDAH y como prevención selectiva o indicada en familias con factores de riesgo; los efectos son mayores cuanto más grave es la situación de partida (Leijten 2019). No sustituye a la intervención de protección ante maltrato activo (ver ficha). No se han descrito efectos adversos en los ensayos [fuente no localizada]; las técnicas de disciplina deben ser no violentas, y las consecuencias naturales o lógicas figuran entre los componentes eficaces (Leijten 2019). La transferencia entre países es viable y los efectos fueron mayores en sociedades con valores de crianza centrados en la supervivencia que en las más individualistas (Gardner 2016). Los programas son aplicables a familias diversas, incluidas las homoparentales, monoparentales y reconstituidas, aunque los materiales deben revisarse para no presuponer un modelo familiar heterosexual [fuente no localizada]. En España se han implantado programas de parentalidad positiva desde servicios sociales y sanitarios con desigual cobertura [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "maltrato y protección"
+      },
+      {
+       "ids": [
+        "rabietas",
+        "dmdd"
+       ],
+       "t": "irritabilidad infantil"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "diversidad familiar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Patterson GR (1982). Coercive Family Process. Eugene (Oregón): Castalia",
+    "Webster-Stratton C & Hammond M (1997). Treating children with early-onset conduct problems: a comparison of child and parent training interventions. J Consult Clin Psychol 65:93-109 · PMID 9103739",
+    "Leijten P et al. (2019). Meta-analyses: key parenting program components for disruptive child behavior. J Am Acad Child Adolesc Psychiatry 58:180-190 · PMID 30738545",
+    "Gardner F, Montgomery P & Knerr W (2016). Transporting evidence-based parenting programs for child problem behavior (age 3-10) between countries: systematic review and meta-analysis. J Clin Child Adolesc Psychol 45:749-762 · PMID 25785902"
+   ],
+   "relAdd": [
+    "competencia_cult",
+    "maltrato_inf"
+   ]
+  },
+  "emdr_proc": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Francine Shapiro describió en 1989 la desensibilización mediante movimientos oculares: provocar series de movimientos sacádicos rítmicos mientras la persona mantiene en mente el aspecto más destacado del recuerdo traumático, con reducción de la ansiedad, cambios en la valoración cognitiva del recuerdo y cese de reexperimentaciones, según un caso y un estudio controlado previo (Shapiro 1989, J Behav Ther Exp Psychiatry; Shapiro 1989, J Trauma Stress). El modelo teórico propuesto por la autora, el procesamiento adaptativo de la información, sostiene que el trauma queda almacenado de forma disfuncional y que la estimulación bilateral facilita su integración; es una hipótesis no demostrada, y la explicación experimental más respaldada es la sobrecarga de la memoria de trabajo (van den Hout y Engelhard 2012). El protocolo estándar tiene 8 fases (recogidas en la ficha), con estimulación bilateral visual, táctil o auditiva y evaluación de las unidades subjetivas de perturbación y de la validez de la cognición positiva; NICE NG116 indica que siga un manual validado, en fases, con típicamente 8-12 sesiones (más si hay traumas múltiples) y aplicado por profesionales formados con supervisión continuada (rec. 1.6.20). La formación se acredita en España a través de la Asociación EMDR España, vinculada a EMDR Europe, con formación en niveles y supervisión [fuente no localizada en detalle].",
+     "links": [
+      {
+       "ids": [
+        "trauma"
+       ],
+       "t": "trauma psicológico"
+      },
+      {
+       "ids": [
+        "epr"
+       ],
+       "t": "terapias de exposición"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La revisión Cochrane (70 estudios, 4761 participantes) halló que la TCC centrada en el trauma individual y el EMDR superaron a la lista de espera o al tratamiento habitual en síntomas de TEPT evaluados por clínicos (EMDR: DME -1,17; 6 estudios, 183 personas), sin diferencias inmediatas entre TCC centrada en el trauma, EMDR y manejo del estrés, con evidencia de calidad muy baja (Bisson 2013). Una revisión posterior de 64 ensayos frente a controles asignó al EMDR una solidez de la evidencia baja a moderada, con NNT < 4 para perder el diagnóstico, y señaló la falta de datos sobre efectos adversos (Cusack 2016). En 114 ensayos (8171 participantes), la TCC centrada en el trauma y el EMDR mostraron efectos clínicamente importantes (EMDR frente a lista de espera o tratamiento habitual: DME -1,23 en 11 ensayos, calidad baja), base de las guías ISTSS 2018 (Lewis 2020). El efecto añadido de los movimientos oculares (frente al mismo procedimiento sin ellos) fue moderado en 15 ensayos clínicos (d = 0,41) y grande en 11 de laboratorio (d = 0,74) (Lee y Cuijpers 2013). NICE NG116 manda ofrecerlo en adultos con TEPT de más de 3 meses tras un trauma no relacionado con el combate (rec. 1.6.19), considerarlo a 1-3 meses si se prefiere (1.6.18) y, de 7 a 17 años, solo si no hay respuesta o implicación en la TCC centrada en el trauma (1.6.13); la OMS (2013) recomienda considerarlo, como la TCC centrada en el trauma, en adultos y en la infancia y adolescencia (recomendación estándar; Tol 2014).",
+     "links": [
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      },
+      {
+       "ids": [
+        "epr"
+       ],
+       "t": "exposición prolongada como alternativa"
+      },
+      {
+       "ids": [
+        "desnos"
+       ],
+       "t": "TEPT complejo"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado en el TEPT del adulto como alternativa de primera línea a la TCC centrada en el trauma (Lewis 2020), con la salvedad del trauma de combate, que NICE excluye de su recomendación (NG116, 1.6.19); en la infancia es de segunda línea para NICE (1.6.13) y opción para la OMS (Tol 2014), y en el TEPT complejo la evidencia es menor [fuente no localizada en detalle]. La revisión Cochrane observó algo más de abandono en los grupos de tratamiento activo que en los controles (Bisson 2013), y la mayoría de los ensayos no recoge efectos adversos (Cusack 2016). En la disociación grave, la psicosis activa, el riesgo suicida elevado o el consumo intenso de sustancias suele recomendarse una fase de estabilización y valoración previa, criterio clínico con apoyo empírico limitado [fuente no localizada]. La extensión del EMDR a indicaciones sin respaldo y la formación comercial han motivado críticas sobre su especificidad, por lo que debe aplicarse dentro de un plan basado en la evidencia [fuente no localizada]. En personas LGTBIQ, los recuerdos de violencia, acoso o rechazo vinculados a la orientación o la identidad deben abordarse con un enfoque afirmativo; en víctimas de agresión sexual en contextos de chemsex, la evaluación debe incluir el consumo sin estigmatizar [fuente no localizada]. En el SNS su disponibilidad depende de la formación de cada profesional [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "disest",
+        "des2"
+       ],
+       "t": "disociación"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "atención afirmativa"
+      },
+      {
+       "ids": [
+        "chemsex_atencion"
+       ],
+       "t": "trauma y chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Shapiro F (1989). Eye movement desensitization: a new treatment for post-traumatic stress disorder. J Behav Ther Exp Psychiatry 20:211-217 · PMID 2576656",
+    "Bisson JI et al. (2013). Psychological therapies for chronic post-traumatic stress disorder (PTSD) in adults. Cochrane Database Syst Rev (12):CD003388 · PMID 24338345",
+    "Cusack K et al. (2016). Psychological treatments for adults with posttraumatic stress disorder: a systematic review and meta-analysis. Clin Psychol Rev 43:128-141 · PMID 26574151",
+    "Lewis C et al. (2020). Psychological therapies for post-traumatic stress disorder in adults: systematic review and meta-analysis. Eur J Psychotraumatol 11:1729633 · PMID 32284821",
+    "Lee CW & Cuijpers P (2013). A meta-analysis of the contribution of eye movements in processing emotional memories. J Behav Ther Exp Psychiatry 44:231-239 · PMID 23266601",
+    "NICE (2018). Post-traumatic stress disorder (NG116)",
+    "Tol WA et al. (2014). World Health Organization guidelines for management of acute stress, PTSD, and bereavement: key challenges on the road ahead. PLoS Med 11:e1001769 · PMID 25514024"
+   ],
+   "relAdd": [
+    "ptsd",
+    "epr",
+    "desnos",
+    "lgb_afirm"
+   ]
+  }
+ },
+ "add": []
+}

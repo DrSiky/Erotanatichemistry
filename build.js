@@ -21,7 +21,10 @@ for(const f of fs.readdirSync(path.join(S,'fig')))if(f.endsWith('.svg')&&!orden.
 for(const k in meta){if(!figs[k])errs.push('metadatos de una figura inexistente: '+k);for(const i of meta[k].nodes||[])if(!ids.has(i))errs.push('figura '+k+': nodo inexistente '+i);}
 // --- documentos incrustados
 const docs={};const dd=path.join(S,'docs');
-if(fs.existsSync(dd))for(const f of fs.readdirSync(dd).sort())if(/\.pdf$/i.test(f)){const k=f.replace(/\.pdf$/i,'');if(!ids.has(k))errs.push('documento sin nodo: '+f);docs[k]=fs.readFileSync(path.join(dd,f)).toString('base64');}
+// nombre: <id>.pdf (documento único) o <id>~<orden>.pdf (varios por ficha); rótulos opcionales en docs/_rotulos.json {fichero: rótulo}
+const rot=fs.existsSync(path.join(dd,'_rotulos.json'))?JSON.parse(fs.readFileSync(path.join(dd,'_rotulos.json'),'utf8')):{};
+if(fs.existsSync(dd))for(const f of fs.readdirSync(dd).sort())if(/\.pdf$/i.test(f)){const k=f.replace(/\.pdf$/i,'').replace(/~.*$/,'');if(!ids.has(k))errs.push('documento sin nodo: '+f);const b=fs.readFileSync(path.join(dd,f)).toString('base64');
+  if(/~/.test(f)||rot[f]){if(typeof docs[k]==='string')docs[k]=[['',docs[k]]];(docs[k]=docs[k]||[]).push([rot[f]||'',b]);}else if(docs[k])docs[k].unshift(['',b]);else docs[k]=b;}
 if(errs.length){console.error(errs.join('\n'));process.exit(1);}
 // --- composición
 const html=rd('template.html')

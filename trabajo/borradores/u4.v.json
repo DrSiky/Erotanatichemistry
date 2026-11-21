@@ -1,0 +1,1304 @@
+{
+ "patch": {
+  "dbt": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollada por Marsha M. Linehan en la Universidad de Washington; el manual fundacional es Linehan MM (1993), Cognitive-Behavioral Treatment of Borderline Personality Disorder (Nueva York: Guilford), acompañado del manual de entrenamiento en habilidades del mismo año. Su modelo teórico es biosocial: la desregulación emocional generalizada resultaría de la transacción entre una vulnerabilidad emocional de base (alta sensibilidad, reactividad intensa y retorno lento a la línea basal) y un entorno invalidante que no enseña a etiquetar ni modular las emociones. El tratamiento estándar dura un año y organiza los objetivos en una jerarquía explícita: primero las conductas que amenazan la vida (suicidas y autolesivas), después las que interfieren con la terapia y, por último, las que deterioran la calidad de vida. El paciente o la paciente registra a diario conductas y emociones en una tarjeta de autorregistro, y las sesiones individuales se apoyan en el análisis en cadena de cada episodio. Existen adaptaciones manualizadas para adolescentes con implicación familiar (DBT-A), para trastornos por consumo de sustancias y para el TEPT asociado (DBT-PE) [fuente no localizada]. La aplicación fiel exige formación intensiva acreditada y la participación semanal de todo el equipo en la reunión de consulta, que forma parte del tratamiento y no es opcional [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tlp",
+        "autolesion"
+       ],
+       "t": "TLP y autolesión"
+      },
+      {
+       "ids": [
+        "raft",
+        "disreg_emoc_tdah"
+       ],
+       "t": "Desregulación emocional"
+      },
+      {
+       "ids": [
+        "evit_exper"
+       ],
+       "t": "Evitación experiencial"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo de Linehan et al. (2006) con 101 mujeres con TLP y conducta suicida reciente, la DBT se comparó con tratamiento comunitario por terapeutas expertos no conductuales (control activo que igualaba experiencia, adhesión al modelo, formación y prestigio de los terapeutas): las participantes con DBT tuvieron la mitad de probabilidad de intento de suicidio, menos hospitalizaciones por ideación suicida, menos visitas a urgencias psiquiátricas y menos abandonos durante dos años. El metaanálisis de DeCou et al. (2019; 18 ensayos controlados) halló reducción de la violencia autodirigida (d = −0,32) y del uso de servicios de crisis (d = −0,38), sin efecto significativo sobre la ideación suicida. En la revisión Cochrane de Storebø et al. (2020; 75 ensayos, 4507 participantes), la DBT fue el modelo más estudiado: frente al tratamiento habitual redujo la gravedad del TLP (DME −0,60; 3 ensayos), la autolesión (DME −0,28; 7 ensayos) y mejoró el funcionamiento psicosocial (DME −0,36), siempre con evidencia de calidad baja según GRADE. En adolescentes de 12 a 18 años con intentos previos, la DBT superó a la terapia de apoyo individual y grupal (control activo) en intentos, autolesión no suicida y autolesión total a los seis meses, sin diferencias de 6 a 12 meses (McCauley 2018). NICE CG78 (2009) indica considerar un programa integral de DBT en mujeres con TLP para quienes reducir la autolesión recurrente sea prioritario (recomendación 1.3.4.5; NICE no asigna grados).",
+     "links": [
+      {
+       "ids": [
+        "suic_adol",
+        "ansi_adol"
+       ],
+       "t": "Conducta suicida y autolesión adolescente"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Ideación y conducta suicida"
+      },
+      {
+       "ids": [
+        "mbt",
+        "tfp",
+        "terapesq"
+       ],
+       "t": "Otras psicoterapias del TLP"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicación principal: TLP con conducta suicida o autolesiva recurrente, y desregulación emocional grave en adolescentes con autolesiones repetidas. Su ventaja diferencial está en las conductas (intentos, autolesión, uso de urgencias) más que en la ideación suicida o en la gravedad global, donde las diferencias con otros tratamientos específicos del TLP no son claras (Storebø 2020). La revisión Cochrane no pudo valorar los efectos adversos por falta de datos, de modo que la seguridad de la psicoterapia en este campo está poco documentada; en la práctica, el riesgo principal es la aplicación parcial (solo el grupo de habilidades, sin terapia individual ni equipo de consulta), cuya eficacia no equivale a la del programa completo [fuente no localizada]. Los ensayos reclutaron sobre todo mujeres (95 % en McCauley 2018), por lo que la generalización a hombres y a personas trans o no binarias es limitada; existen experiencias de adaptación cultural y para minorías sexuales y de género, sin ensayos controlados que las respalden [fuente no localizada]. En personas LGTBIQ, el componente de validación debe extenderse a la experiencia de discriminación, sin interpretar como distorsión la expectativa de rechazo fundada (modelo de estrés de minorías). En el SNS se ofrece en programas específicos de TLP de algunos servicios autonómicos, sin cobertura homogénea documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Estrés de minorías y psicoterapia afirmativa"
+      },
+      {
+       "ids": [
+        "stepps"
+       ],
+       "t": "Complemento grupal: STEPPS"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Linehan MM et al. (2006). Two-year randomized controlled trial and follow-up of dialectical behavior therapy vs therapy by experts for suicidal behaviors and borderline personality disorder. Arch Gen Psychiatry 63:757-766 · PMID 16818865",
+    "DeCou CR, Comtois KA & Landes SJ (2019). Dialectical behavior therapy is effective for the treatment of suicidal behavior: a meta-analysis. Behav Ther 50:60-72 · PMID 30661567",
+    "Storebø OJ et al. (2020). Psychological therapies for people with borderline personality disorder. Cochrane Database Syst Rev 5:CD012955 · PMID 32368793",
+    "McCauley E et al. (2018). Efficacy of dialectical behavior therapy for adolescents at high risk for suicide: a randomized clinical trial. JAMA Psychiatry 75:777-785 · PMID 29926087",
+    "NICE (2009). Borderline personality disorder: recognition and management (CG78), recomendaciones 1.3.4.4-1.3.4.5"
+   ],
+   "relAdd": [
+    "tlp",
+    "ideac_suic",
+    "lgb_afirm"
+   ]
+  },
+  "act_hayes": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Formulada por Steven C. Hayes, Kirk D. Strosahl y Kelly G. Wilson; obra fundacional: Hayes SC, Strosahl KD & Wilson KG (1999), Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change (Nueva York: Guilford). Su rasgo distintivo es la vinculación con un programa de investigación básica sobre lenguaje y cognición humanos, la teoría de los marcos relacionales, enraizada en el análisis de conducta (Hayes et al. 2006). El modelo de flexibilidad psicológica se suele representar como un hexágono de seis procesos interrelacionados: aceptación, defusión cognitiva, contacto con el momento presente, yo como contexto, valores y acción comprometida; su inverso es la inflexibilidad psicológica, cuyo eje es la evitación experiencial. A diferencia de la reestructuración cognitiva, la ACT no busca modificar el contenido de los pensamientos sino la relación funcional con ellos, mediante metáforas, ejercicios experienciales y tareas conductuales guiadas por valores. Se aplica en formato individual, grupal, breve (hasta 4 sesiones en psicosis) o autoaplicado con apoyo; no existe una duración estándar única. No hay una acreditación oficial obligatoria; la formación se basa en talleres experienciales y supervisión de casos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "evit_exper"
+       ],
+       "t": "Evitación experiencial e inflexibilidad psicológica"
+      },
+      {
+       "ids": [
+        "mbct",
+        "dbt"
+       ],
+       "t": "Otras terapias de tercera generación"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El metaanálisis de A-Tjak et al. (2015; 39 ensayos, 1821 pacientes con trastornos mentales o problemas somáticos) halló superioridad de la ACT frente a lista de espera (g = 0,82), placebo psicológico (g = 0,51) y tratamiento habitual (g = 0,64), sin diferencias significativas frente a la TCC establecida. La revisión más crítica de Öst (2014; 60 ensayos, 4234 participantes) estimó un efecto medio pequeño (0,42), sin mejora de la calidad metodológica respecto a su revisión de 2008, y un efecto pequeño y no significativo (0,16) frente a tratamientos cognitivos o conductuales; según sus criterios, la ACT era probablemente eficaz en dolor crónico y acúfenos, posiblemente eficaz en depresión, síntomas psicóticos, TOC, ansiedad mixta, consumo de drogas y estrés laboral, y no estaba aún bien establecida para ningún trastorno. En psicosis, un ensayo con 80 pacientes ingresados con síntomas positivos comparó cuatro sesiones de ACT añadidas al tratamiento habitual frente a tratamiento habitual: la tasa de rehospitalización a cuatro meses fue la mitad, con mayor comunicación de síntomas y menor credibilidad atribuida a ellos (Bach y Hayes 2002). La guía NICE NG193 (2021), recomendación 1.2.3, indica considerar la ACT o la TCC para el dolor en personas de 16 años o más con dolor crónico primario, aplicadas por profesionales con formación adecuada (NICE no asigna grados; «considerar» expresa menor fuerza que «ofrecer»).",
+     "links": [
+      {
+       "ids": [
+        "dolor_cron_prim",
+        "fibro"
+       ],
+       "t": "Dolor crónico primario y fibromialgia"
+      },
+      {
+       "ids": [
+        "tag",
+        "ddm",
+        "toc_dsm"
+       ],
+       "t": "Ansiedad, depresión y TOC"
+      },
+      {
+       "ids": [
+        "tccp"
+       ],
+       "t": "TCC para la psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Puede considerarse en dolor crónico primario y como alternativa o complemento de la TCC en ansiedad, depresión, TOC, consumo de sustancias y síntomas psicóticos, sobre todo cuando predomina un patrón de evitación experiencial; la evidencia comparativa no la sitúa por encima de la TCC (A-Tjak 2015; Öst 2014). Sus límites son la heterogeneidad de protocolos, el pequeño tamaño de muchos ensayos y el elevado peso de estudios realizados por grupos con fidelidad al modelo. No se dispone de estimaciones sistemáticas de efectos adversos ni de deterioro atribuible [fuente no localizada]; en la psicosis aguda, la defusión no debe usarse para invalidar la vivencia ni sustituir al tratamiento farmacológico indicado. Por su énfasis en valores elegidos por la propia persona, se considera adaptable a contextos culturales diversos y a personas LGTBIQ, en quienes puede trabajarse la vergüenza y el estigma interiorizado sin plantear la orientación o la identidad como problema a modificar; los datos controlados en minorías sexuales y de género son escasos [fuente no localizada]. Cualquier intervención orientada a cambiar la orientación sexual o la identidad de género es contraria a la ética y está prohibida en España (Ley 4/2023, art. 17). Disponibilidad en el SNS: aplicada por profesionales de psicología clínica de forma no homogénea [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "ecosieg"
+       ],
+       "t": "Psicoterapia afirmativa y prohibición de terapias de conversión"
+      },
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "Trastornos por consumo de sustancias"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hayes SC et al. (2006). Acceptance and commitment therapy: model, processes and outcomes. Behav Res Ther 44:1-25 · PMID 16300724",
+    "Öst LG (2014). The efficacy of Acceptance and Commitment Therapy: an updated systematic review and meta-analysis. Behav Res Ther 61:105-121 · PMID 25193001",
+    "Bach P & Hayes SC (2002). The use of acceptance and commitment therapy to prevent the rehospitalization of psychotic patients: a randomized controlled trial. J Consult Clin Psychol 70:1129-1139 · PMID 12362963",
+    "NICE (2021). Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain (NG193), recomendación 1.2.3"
+   ],
+   "relAdd": [
+    "tccp",
+    "tag",
+    "ecosieg"
+   ]
+  },
+  "mbct": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollada por Zindel V. Segal, J. Mark G. Williams y John D. Teasdale a partir del programa de reducción del estrés basado en mindfulness de Jon Kabat-Zinn; obra fundacional: Segal ZV, Williams JMG & Teasdale JD (2002), Mindfulness-Based Cognitive Therapy for Depression: A New Approach to Preventing Relapse (Nueva York: Guilford). Su base teórica es la hipótesis de la activación diferencial: en personas con episodios previos, un estado de ánimo disfórico leve reactiva patrones de pensamiento depresógeno que mantienen y amplifican la disforia; el programa entrena para reconocer esos patrones y desvincularse de ellos, desvinculándose del pensamiento depresógeno activado por la disforia (Teasdale 2000); el manual describe ese entrenamiento como el paso de un modo mental de «hacer» a uno de «ser» (Segal 2002) [fuente no localizada]. Estructura: programa grupal de ocho sesiones semanales, con práctica formal diaria en casa (escáner corporal, atención a la respiración, movimiento consciente, espacio de respiración de tres minutos) e integración de psicoeducación cognitiva sobre la depresión y un plan de prevención de recaídas. Se aplica en remisión, no en el episodio agudo. Los instructores deben tener práctica personal de meditación continuada y formación acreditada con supervisión; existen guías de buena práctica para formadores en el Reino Unido [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "rum",
+        "rumiacion_persev"
+       ],
+       "t": "Rumiación"
+      },
+      {
+       "ids": [
+        "dep_cogn_beck"
+       ],
+       "t": "Modelo cognitivo de la depresión"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo original (Teasdale 2000; 145 personas recuperadas de depresión recurrente), la MBCT añadida al tratamiento habitual redujo el riesgo de recaída frente a tratamiento habitual solo en quienes tenían tres o más episodios (77 % de la muestra), no con dos episodios. La réplica de Ma y Teasdale (2004), con el mismo diseño (MBCT añadida a tratamiento habitual frente a tratamiento habitual solo), mostró recaídas del 36 % frente al 78 % en 55 pacientes con tres o más episodios. En PREVENT (Kuyken 2015; 424 pacientes de 95 centros de atención primaria británicos con tres o más episodios), la MBCT con apoyo para reducir o retirar el antidepresivo no fue superior al mantenimiento antidepresivo (control activo) en tiempo hasta la recaída a 24 meses (HR 0,89; IC 95 % 0,67-1,18), con efectos adversos graves similares. El metaanálisis de datos individuales (Kuyken 2016; 9 ensayos, 1258 pacientes) halló menor riesgo de recaída a 60 semanas frente a no recibir MBCT (HR 0,69) y frente a tratamientos activos (HR 0,79); el número de episodios previos no moderó significativamente el efecto, que fue mayor en quienes tenían más síntomas residuales. NICE NG222 (2022), recomendación 1.8.5, indica considerar un curso de TCC grupal o de MBCT para quienes remitieron con antidepresivos, tienen riesgo elevado de recaída y no desean continuar con la medicación (o junto con ella), y la 1.8.6 pide centrarlo en habilidades de prevención de recaídas; NICE no asigna grados.",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "Trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "discont_ad"
+       ],
+       "t": "Retirada de antidepresivos"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada como prevención de recaídas en depresión recurrente en remisión total o parcial, especialmente con síntomas residuales, y como alternativa para quien prefiere reducir el antidepresivo con apoyo clínico (PREVENT). No está diseñada para el episodio depresivo agudo grave, la ideación suicida activa ni la psicosis, y en esas situaciones debe priorizarse el tratamiento indicado por las guías [fuente no localizada]. La práctica meditativa intensiva puede desencadenar malestar transitorio, revivencias traumáticas o despersonalización en una minoría, por lo que se recomienda cribado previo de trauma y disociación y permitir adaptar los ejercicios; en PREVENT ningún acontecimiento adverso se atribuyó a la intervención (Kuyken 2015). La mayoría de participantes de los ensayos fueron mujeres de mediana edad (75 % en Kuyken 2016) y de origen europeo, con escasa información sobre otros grupos culturales, minorías sexuales y de género o personas con bajo nivel educativo [fuente no localizada]. En el SNS se ofrece en algunos servicios de salud mental y atención primaria en formato grupal, sin cobertura homogénea documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "act_hayes"
+       ],
+       "t": "ACT"
+      },
+      {
+       "ids": [
+        "trauma",
+        "desp"
+       ],
+       "t": "Trauma y despersonalización"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Segal ZV, Williams JMG & Teasdale JD (2002). Mindfulness-Based Cognitive Therapy for Depression: A New Approach to Preventing Relapse. New York: Guilford",
+    "Ma SH & Teasdale JD (2004). Mindfulness-based cognitive therapy for depression: replication and exploration of differential relapse prevention effects. J Consult Clin Psychol 72:31-40 · PMID 14756612",
+    "Kuyken W et al. (2015). Effectiveness and cost-effectiveness of mindfulness-based cognitive therapy compared with maintenance antidepressant treatment in the prevention of depressive relapse or recurrence (PREVENT): a randomised controlled trial. Lancet 386:63-73 · PMID 25907157",
+    "NICE (2022). Depression in adults: treatment and management (NG222), recomendaciones 1.8.5-1.8.6"
+   ],
+   "relAdd": [
+    "discont_ad",
+    "rumiacion_persev"
+   ]
+  },
+  "cft": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Creada por Paul Gilbert (Derby, Reino Unido). Además del libro divulgativo citado en la ficha, la exposición teórica de referencia es Gilbert P (2014), The origins and nature of compassion focused therapy (Br J Clin Psychol 53:6-41). La CFT parte de un análisis evolutivo y funcional de los sistemas motivacionales sociales (vivir en grupo, rango, cuidado de la descendencia, alianzas) y de los sistemas emocionales de amenaza, búsqueda de recursos y calma-seguridad; sostiene que las competencias cognitivas humanas recientes (imaginar, anticipar, mentalizar, construir un yo socialmente contextualizado) pueden desorganizar los sistemas más antiguos, lo que denomina «cerebro complicado», y que cultivar motivos afiliativos hacia uno mismo y hacia los demás permite reorganizarlos (Gilbert 2014). Procedimiento: formulación funcional de la vergüenza y la autocrítica, psicoeducación sobre los tres sistemas, entrenamiento de la mente compasiva (respiración tranquilizadora, imaginería del yo compasivo, escritura compasiva, trabajo con sillas) y exposición gradual al miedo a la compasión. No existe un manual universal estandarizado ni número fijo de sesiones, carencia señalada por las revisiones (Craig 2020); la formación se ofrece en talleres y supervisión de grupos vinculados al autor [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sistema_cft"
+       ],
+       "t": "Modelo de los tres sistemas (no se repite aquí)"
+      },
+      {
+       "ids": [
+        "apego",
+        "cogn_soc"
+       ],
+       "t": "Apego y cognición social"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La revisión sistemática temprana de Leaviss y Uttley (2015) incluyó 14 estudios, solo tres de ellos ensayos aleatorizados; los resultados eran mayoritariamente favorables, en especial en personas con alta autocrítica, pero los autores concluyeron que hacían falta ensayos amplios y de calidad antes de considerarla práctica basada en la evidencia. La revisión de Craig et al. (2020) en poblaciones clínicas la describe como prometedora en diversos problemas de salud mental, sobre todo en formato grupal de al menos 12 horas, con buena aceptabilidad, y reclama un manual estandarizado y más ensayos controlados por las limitaciones metodológicas. El metaanálisis de Kirby et al. (2017), que agrupa intervenciones basadas en la compasión en general y no solo la CFT (21 ensayos aleatorizados, 1285 participantes), halló, frente a grupos control, efectos sobre autocompasión (d = 0,70), depresión (d = 0,64), ansiedad (d = 0,49) y malestar psicológico (d = 0,47), que se mantenían al incluir controles activos, aunque basados sobre todo en muestras pequeñas. No consta recomendación específica de NICE, APA ni GuíaSalud para la CFT [fuente no localizada]; NICE NG222 no la incluye entre las opciones de sus tablas 1 y 2 para la depresión. Calidad global de la evidencia: baja o preliminar.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tlp"
+       ],
+       "t": "Depresión y TLP"
+      },
+      {
+       "ids": [
+        "mbct",
+        "act_hayes"
+       ],
+       "t": "Terapias de tercera generación con más evidencia"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Se propone como intervención transdiagnóstica para personas con vergüenza y autocrítica elevadas, que responden peor a la reestructuración cognitiva porque «entienden» racionalmente la alternativa pero no la sienten creíble; puede añadirse a tratamientos de primera línea en depresión, trastornos de la personalidad, trastornos alimentarios o trauma, sin sustituirlos [fuente no localizada]. Un fenómeno clínico propio es el miedo a la compasión: en personas con historias de abuso o apego inseguro, los ejercicios afiliativos pueden activar inicialmente amenaza, recuerdos dolorosos o duelo, lo que exige graduación y una formulación explícita (Gilbert 2014). No hay datos sistemáticos de efectos adversos ni de deterioro [fuente no localizada]. Su foco en la vergüenza la hace pertinente para el estrés de minorías en personas LGTBIQ (vergüenza internalizada, autocrítica ligada al estigma), siempre que la compasión no se use para naturalizar la discriminación sino junto al reconocimiento de su origen social; no hay ensayos específicos publicados que lo respalden [fuente no localizada]. En el SNS no consta una oferta estructurada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "Estrés de minorías y vergüenza internalizada"
+      },
+      {
+       "ids": [
+        "trauma",
+        "apego_trauma"
+       ],
+       "t": "Trauma y apego"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Gilbert P (2014). The origins and nature of compassion focused therapy. Br J Clin Psychol 53:6-41 · PMID 24588760",
+    "Craig C, Hiskey S & Spector A (2020). Compassion focused therapy: a systematic review of its effectiveness and acceptability in clinical populations. Expert Rev Neurother 20:385-400 · PMID 32196399",
+    "Kirby JN, Tellegen CL & Steindl SR (2017). A meta-analysis of compassion-based interventions: current state of knowledge and future directions. Behav Ther 48:778-792 · PMID 29029675"
+   ],
+   "relAdd": [
+    "lgb_afirm",
+    "apego"
+   ]
+  },
+  "stepps": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Programa desarrollado en la Universidad de Iowa por Nancee Blum, Don St. John, Bruce Pfohl y colaboradores, descrito inicialmente en Blum et al. (2002) y evaluado en ensayo aleatorizado en 2008. Es un programa grupal manualizado de 20 semanas que combina elementos cognitivo-conductuales y entrenamiento en habilidades con un componente sistémico (Blum 2008). Su premisa es reformular el TLP como un trastorno de la intensidad emocional y de la previsibilidad, y enseñar a la persona a manejarlo como haría con una enfermedad crónica. Se organiza en tres bloques: conciencia del trastorno (identificar distorsiones o «filtros» y la escalada emocional), habilidades de manejo emocional (distanciamiento, comunicación, desafío de pensamientos, distracción, resolución de problemas) y habilidades de manejo conductual (alimentación, sueño, ejercicio, relaciones, conductas autolesivas) [fuente no localizada]. El componente sistémico forma a familiares, parejas y profesionales del entorno, el llamado equipo de refuerzo, en el mismo lenguaje del programa. Lo conducen dos facilitadores, habitualmente profesionales sanitarios no necesariamente psicoterapeutas, tras formación específica en el manual; existe un programa de continuación de un año para mantener las habilidades [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tlp"
+       ],
+       "t": "Trastorno límite de la personalidad"
+      },
+      {
+       "ids": [
+        "emoc_expr",
+        "interv_fam"
+       ],
+       "t": "Entorno familiar y psicoeducación"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo de Blum et al. (2008; 124 pacientes ambulatorios analizados), STEPPS añadido al tratamiento habitual se comparó con tratamiento habitual solo: mejoró más la puntuación total de la escala de Zanarini y sus dominios afectivo, cognitivo, interpersonal e impulsivo, así como impulsividad, afectividad negativa, ánimo y funcionamiento global, con tamaños de efecto moderados a grandes, mantenidos en su mayoría al año. No hubo diferencias en intentos de suicidio, autolesiones ni hospitalizaciones, aunque fueron menos las visitas a urgencias; el abandono fue alto en ambos grupos. Un ensayo neerlandés en condiciones de práctica habitual (Bos et al. 2011; 168 pacientes) comparó STEPPS con terapia individual complementaria frente a tratamiento habitual: STEPPS mejoró más la psicopatología general y específica del TLP y la calidad de vida al final del tratamiento y a los seis meses, con mayor beneficio cuanto mayor era la gravedad basal, independientemente de que se cumplieran o no los criterios categoriales del DSM-IV. La revisión Cochrane de 2012 clasificó STEPPS como intervención no integral con resultados alentadores basados en estudios únicos, y concluyó que ninguno de los tratamientos del TLP tenía una base de evidencia muy robusta y que se necesitan réplicas (Stoffers 2012). NICE CG78 no menciona STEPPS; su recomendación 1.3.4.4 desaconseja las intervenciones psicológicas breves (menos de tres meses) específicas para el TLP fuera de un servicio con enfoque integrado.",
+     "links": [
+      {
+       "ids": [
+        "dbt",
+        "mbt"
+       ],
+       "t": "Tratamientos integrales del TLP"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado como complemento, no sustituto, de la atención individual en personas con TLP o rasgos límite clínicamente significativos, especialmente con gravedad elevada y en servicios públicos donde no se dispone de tratamientos integrales intensivos; su formato grupal breve y el uso de facilitadores no especializados lo hacen más accesible. Sus límites son la ausencia de efecto demostrado sobre la conducta suicida y las autolesiones (Blum 2008), por lo que no reemplaza a la DBT cuando ese es el objetivo prioritario, y la alta tasa de abandono. La revisión Cochrane no encontró datos de efectos adversos en ninguna psicoterapia del TLP (Stoffers 2012). Se ha aplicado en población penitenciaria y en adolescentes, con estudios no controlados [fuente no localizada]. No hay datos sobre su adaptación a minorías sexuales y de género; el componente sistémico debe contar con el consentimiento de la persona sobre a quién se implica, y en personas LGTBIQ incluir a la familia elegida cuando la de origen sea fuente de rechazo [fuente no localizada]. En España se ha implantado en algunos servicios de salud mental [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "autolesion",
+        "ideac_suic"
+       ],
+       "t": "Autolesión y conducta suicida"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "Psicoterapia afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bos EH, van Wel EB, Appelo MT & Verbraak MJ (2011). Effectiveness of Systems Training for Emotional Predictability and Problem Solving (STEPPS) for borderline personality problems in a 'real-world' sample: moderation by diagnosis or severity? Psychother Psychosom 80:173-181 · PMID 21389754",
+    "Stoffers JM et al. (2012). Psychological therapies for people with borderline personality disorder. Cochrane Database Syst Rev (8):CD005652 · PMID 22895952"
+   ],
+   "relAdd": [
+    "tlp",
+    "dbt",
+    "interv_fam"
+   ]
+  },
+  "terapesq": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Creada por Jeffrey E. Young como ampliación de la terapia cognitiva de Beck para pacientes con trastornos de la personalidad y problemas crónicos que no respondían a la TCC estándar; la primera formulación es Young JE (1990), Cognitive Therapy for Personality Disorders: A Schema-Focused Approach (Sarasota: Professional Resource Exchange) [no verificada], y el manual de referencia Young, Klosko y Weishaar (2003). El modelo postula que la frustración de necesidades emocionales nucleares en la infancia (apego seguro, autonomía, expresión emocional, límites realistas, espontaneidad) genera esquemas desadaptativos tempranos, y que el afrontamiento de estos mediante rendición, evitación o sobrecompensación da lugar a los modos de esquema; el modelo de modos se desarrolló sobre todo para el TLP. Técnicas: cognitivas, experienciales (reprocesamiento en imaginación, trabajo con sillas), conductuales de ruptura de patrones y la relación terapéutica como «reparentalización limitada» y confrontación empática. En los ensayos neerlandeses se aplicó con dos sesiones semanales durante tres años en el TLP (Giesen-Bloo 2006) y 50 sesiones en otros trastornos de la personalidad (Bamelis 2014); el formato combinado individual y grupal se aplicó durante dos años (Arntz 2022). La International Society of Schema Therapy acredita a terapeutas y supervisores [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tcc_dep",
+        "dep_cogn_beck"
+       ],
+       "t": "Terapia cognitiva de Beck"
+      },
+      {
+       "ids": [
+        "apego",
+        "apego_trauma"
+       ],
+       "t": "Apego y trauma temprano"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo de Giesen-Bloo et al. (2006; 88 pacientes con TLP), tras tres años, la terapia de esquemas superó a la terapia focalizada en la transferencia (otra psicoterapia específica) en recuperación (RR 2,18) y en mejoría clínica fiable (RR 2,33), con menor riesgo de abandono y mayor calidad de vida. En el ensayo multicéntrico de Bamelis et al. (2014; 323 pacientes con trastornos de la personalidad del grupo C, paranoide, histriónico o narcisista en 12 centros), 50 sesiones de terapia de esquemas lograron mayor proporción de recuperación a los tres años del inicio que el tratamiento habitual y que la psicoterapia orientada a la clarificación, con menos abandonos que el tratamiento habitual; las diferencias se observaron en medidas por entrevista, no en autoinformes, y los terapeutas formados con ejercicios obtuvieron mejores resultados que los formados con clases teóricas. En el ensayo internacional de Arntz et al. (2022; 495 pacientes con TLP en cinco países), la combinación individual y grupal fue superior al tratamiento habitual optimizado (d = 1,14) y al formato predominantemente grupal (d = 0,84), que no difirió del tratamiento habitual, con mayor retención. En la revisión Cochrane del TLP la mayoría de los ensayos correspondían a DBT y MBT, y la terapia de esquemas contaba con muchos menos (Storebø 2020). NICE CG78 (2009) no la menciona de forma específica; no consta recomendación en GuíaSalud [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tlp",
+        "tpev",
+        "tpdep"
+       ],
+       "t": "TLP y trastornos del grupo C"
+      },
+      {
+       "ids": [
+        "tfp"
+       ],
+       "t": "Comparador: TFP"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en TLP, sobre todo en formato combinado individual y grupal, y en trastornos de la personalidad del grupo C, paranoide, histriónico y narcisista (Bamelis 2014); se ha propuesto en depresión crónica y en trastornos alimentarios con evidencia más limitada [fuente no localizada]. El formato predominantemente grupal no debe ofrecerse como sustituto equivalente, pues no superó al tratamiento habitual (Arntz 2022). Su duración e intensidad son elevadas y la competencia del terapeuta influye en los resultados, lo que obliga a formación práctica con supervisión. No hay datos sistemáticos de efectos adversos; las técnicas experienciales de reprocesamiento de recuerdos traumáticos pueden aumentar transitoriamente el malestar y deben dosificarse en personas con disociación grave [fuente no localizada]. El concepto de necesidades nucleares es culturalmente sensible: la autonomía o la expresión emocional se valoran de forma distinta según el contexto, y en personas LGTBIQ los esquemas de defectuosidad o vergüenza pueden tener su origen en rechazo familiar o social real ligado a la orientación o la identidad, que no deben patologizarse sino reconocerse en la formulación [fuente no localizada]. En el SNS su disponibilidad es limitada y no documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Estrés de minorías"
+      },
+      {
+       "ids": [
+        "disest",
+        "desnos"
+       ],
+       "t": "Disociación y trauma complejo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bamelis LL, Evers SM, Spinhoven P & Arntz A (2014). Results of a multicenter randomized controlled trial of the clinical effectiveness of schema therapy for personality disorders. Am J Psychiatry 171:305-322 · PMID 24322378",
+    "Arntz A et al. (2022). Effectiveness of predominantly group schema therapy and combined individual and group schema therapy for borderline personality disorder: a randomized clinical trial. JAMA Psychiatry 79:287-299 · PMID 35234828",
+    "Young JE (1990). Cognitive Therapy for Personality Disorders: A Schema-Focused Approach. Sarasota: Professional Resource Exchange [no verificada]"
+   ],
+   "relAdd": [
+    "tlp",
+    "tfp",
+    "tpdep"
+   ]
+  },
+  "somexp": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollada por el biofísico y psicólogo Peter A. Levine a partir de observaciones etológicas de las respuestas de inmovilidad en animales; obra fundacional: Levine PA (1997), Waking the Tiger (Berkeley: North Atlantic Books). Payne, Levine y Crane-Godreau (2015) la presentan como una terapia que utiliza la interocepción y la propiocepción como elementos nucleares: la atención guiada a las sensaciones corporales permitiría modificar los patrones de activación del sistema nervioso autónomo asociados al recuerdo traumático, en lugar de centrarse en la narración verbal del suceso. A los procedimientos ya descritos en la ficha se añaden la orientación a recursos (localizar sensaciones de seguridad o anclaje antes de aproximarse al material traumático) y, en algunos practicantes, el uso del contacto físico; profesionales y pacientes identifican ambos como factores específicos del método (Kuhfuß 2021). En el único ensayo aleatorizado se aplicaron 15 sesiones semanales individuales (Brom 2017). La formación la imparte una organización privada vinculada al autor durante unos tres años, sin acreditación sanitaria oficial [fuente no localizada]. Su base neurofisiológica, frecuentemente ligada a la teoría polivagal, no está validada empíricamente como mecanismo de acción [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "trauma"
+       ],
+       "t": "TEPT y trauma"
+      },
+      {
+       "ids": [
+        "emdr_proc"
+       ],
+       "t": "Psicoterapias centradas en el trauma de primera línea"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El ensayo de Brom et al. (2017) aleatorizó a 63 personas con TEPT según el DSM-IV-TR a 15 sesiones de Somatic Experiencing (n = 33) o a lista de espera (n = 30): se observaron efectos significativos sobre la gravedad de los síntomas postraumáticos (d = 0,94 a 1,26) y sobre la depresión (d = 0,7 a 1,08), tanto al final como en el seguimiento. Es un comparador débil, sin control activo; parte del equipo autor pertenece a un instituto de formación en trauma vinculado al método [fuente no localizada]. La revisión de alcance de Kuhfuß et al. (2021) identificó 83 artículos, de los que 16 cumplieron los criterios: aportan evidencia preliminar de efectos positivos sobre síntomas del TEPT, síntomas afectivos y somáticos y bienestar, pero la calidad global y el riesgo de sesgo son mixtos, y concluye que se necesitan ensayos aleatorizados no sesgados. No existen metaanálisis ni comparaciones directas con TCC centrada en el trauma o EMDR. La guía NICE NG116 (2018) para el TEPT del adulto indica ofrecer TCC individual centrada en el trauma cuando han pasado más de un mes desde el suceso (recomendación 1.6.16) y ofrecer EMDR cuando han pasado más de tres meses desde un trauma no relacionado con el combate (1.6.19); la Somatic Experiencing no figura en sus recomendaciones (NICE no asigna grados). Calidad de la evidencia: muy baja.",
+     "links": [
+      {
+       "ids": [
+        "emdr_proc",
+        "ptsd"
+       ],
+       "t": "Tratamientos recomendados del TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "No es un tratamiento de primera línea del TEPT; puede considerarse, en su caso, como complemento en personas que no toleran o no responden a las psicoterapias centradas en el trauma recomendadas, o con predominio de síntomas somáticos y de hiperactivación, siempre informando del nivel de evidencia [fuente no localizada]. No debe retrasar el acceso a tratamientos de eficacia demostrada ni aplicarse como única intervención en TEPT complejo, disociación grave o riesgo suicida. El uso del contacto físico exige consentimiento explícito, límites claros y especial cautela en supervivientes de violencia sexual, y su aplicación por personas sin titulación sanitaria plantea riesgos de intrusismo y ausencia de supervisión clínica [fuente no localizada]. No se han comunicado datos sistemáticos de efectos adversos. Tampoco hay estudios en minorías sexuales y de género ni adaptaciones culturales evaluadas [fuente no localizada]. En España no forma parte de la cartera de servicios del SNS y su práctica es principalmente privada [fuente no localizada]. Desde el punto de vista pericial, su uso no sustituye a la evaluación ni al tratamiento basados en guías.",
+     "links": [
+      {
+       "ids": [
+        "desnos",
+        "disest"
+       ],
+       "t": "TEPT complejo y disociación"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Payne P, Levine PA & Crane-Godreau MA (2015). Somatic experiencing: using interoception and proprioception as core elements of trauma therapy. Front Psychol 6:93 · PMID 25699005",
+    "Kuhfuß M, Maldei T, Hetmanek A & Baumann N (2021). Somatic experiencing - effectiveness and key factors of a body-oriented trauma therapy: a scoping literature review. Eur J Psychotraumatol 12:1929023 · PMID 34290845",
+    "NICE (2018). Post-traumatic stress disorder (NG116), recomendaciones 1.6.16 y 1.6.19"
+   ],
+   "relAdd": [
+    "ptsd",
+    "emdr_proc",
+    "trauma"
+   ]
+  },
+  "lgb_afirm": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La psicoterapia afirmativa no es una escuela independiente sino una posición clínica que puede integrarse en distintos modelos: parte de que las orientaciones sexuales y las identidades y expresiones de género diversas son variantes de la experiencia humana y no trastornos, y de que el exceso de malestar psicológico observado en estas poblaciones se explica en buena medida por el estrés de minorías descrito por Meyer (2003). El protocolo mejor estudiado es ESTEEM (Effective Skills to Empower Effective Men), de John E. Pachankis y colaboradores: una TCC transdiagnóstica de 10 sesiones individuales que adapta principios de la TCC transdiagnóstica, al parecer del Protocolo Unificado [fuente no localizada], a las vías cognitivas, afectivas y conductuales por las que el estrés de minorías deteriora la salud, como la expectativa de rechazo, la vergüenza interiorizada, el ocultamiento, la evitación y el consumo de sustancias como afrontamiento (Pachankis 2019, protocolo; Pachankis 2015). Componentes: psicoeducación sobre estrés de minorías, conciencia emocional, reevaluación de cogniciones ligadas al estigma, reducción de la evitación, refuerzo de la asertividad y del apoyo social, y validación de la identidad. Requiere formación específica en salud LGTBIQ y supervisión; la competencia del terapeuta incluye revisar los propios sesgos y conocer los recursos comunitarios [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Estrés de minorías y despatologización"
+      },
+      {
+       "ids": [
+        "prot_unif"
+       ],
+       "t": "Protocolo Unificado"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "Competencia y humildad culturales"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "Además del ensayo piloto frente a lista de espera ya descrito en la ficha, el ensayo de tres brazos de Pachankis et al. (2022) aleatorizó a 254 hombres gais y bisexuales jóvenes sin VIH (67,2 % de minorías raciales o étnicas) con depresión, ansiedad o trastorno relacionado con estrés o trauma y conductas de riesgo de transmisión del VIH a ESTEEM (10 sesiones), a 10 sesiones de orientación psicológica afirmativa comunitaria (control activo) o solo a prueba y consejo sobre VIH. En el resultado primario (cualquier conducta de riesgo de transmisión del VIH a 8 meses) ESTEEM no fue significativamente superior a la prueba y consejo sobre VIH (RR 0,89); en depresión, ansiedad, consumo, suicidalidad y número de diagnósticos mostró tamaños de efecto mayores que ambos comparadores, sin significación tras corregir por comparaciones múltiples, porque los controles fueron más eficaces de lo previsto. En un análisis exploratorio del mismo ensayo, la pertenencia a minorías negra o latina fue el único moderador significativo: estos participantes redujeron más su índice de comorbilidad con ESTEEM que con las condiciones control, sobre todo en ansiedad y consumo de alcohol y drogas (Keefe 2023). La evidencia procede casi exclusivamente de hombres cisgénero gais y bisexuales en Estados Unidos y es de calidad baja a moderada; no consta grado de recomendación en NICE ni GuíaSalud [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_ssex"
+       ],
+       "t": "Chemsex y salud sexual"
+      },
+      {
+       "ids": [
+        "tcs",
+        "ddm",
+        "tag"
+       ],
+       "t": "Consumo, depresión y ansiedad"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada para personas LGTBIQ con malestar ligado al estigma, la discriminación, el ocultamiento o el rechazo familiar, y como marco transversal de toda psicoterapia con estas poblaciones, incluidos el chemsex y la prevención del suicidio. Lo opuesto a la práctica afirmativa son los esfuerzos de cambio de orientación sexual o de identidad de género: en 27 715 personas trans adultas de Estados Unidos, haber estado expuestas a esfuerzos de conversión de la identidad de género se asoció, frente a terapia sin ese objetivo, con malestar psicológico grave (ORa 1,56) e intentos de suicidio a lo largo de la vida (ORa 2,27; 4,15 si fue antes de los 10 años) (Turban 2020; transversal, no causal). Los Standards of Care de la WPATH, versión 8 (Coleman 2022), recomiendan en su capítulo 18 (Salud mental) que no se ofrezcan terapias «reparadoras» o «de conversión» dirigidas a cambiar la identidad de género y la expresión de género vivida hacia el sexo asignado al nacer (declaración 18.10; en adolescencia, 6.5). En España, la Ley 4/2023 prohíbe las terapias de conversión de la orientación, la identidad sexual o la expresión de género, incluso consentidas (art. 17), y su práctica es infracción muy grave (art. 79.4.d). La adaptación a mujeres, personas trans y no binarias, mayores y migrantes apenas se ha estudiado; la interseccionalidad (racialización, VIH, migración) puede modular el beneficio (Keefe 2023). Sin efectos adversos específicos comunicados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ecosieg"
+       ],
+       "t": "Terapias de conversión y su prohibición"
+      },
+      {
+       "ids": [
+        "wpath_soc8",
+        "incong_gen"
+       ],
+       "t": "WPATH SOC-8 e incongruencia de género"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "chemsex_atencion"
+       ],
+       "t": "Suicidio y atención al chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pachankis JE et al. (2019). Project ESTEEM protocol: a randomized controlled trial of an LGBTQ-affirmative treatment for young adult sexual minority men's mental and sexual health. BMC Public Health 19:1086 · PMID 31399071",
+    "Pachankis JE et al. (2022). LGBQ-affirmative cognitive-behavioral therapy for young gay and bisexual men's mental and sexual health: a three-arm randomized controlled trial. J Consult Clin Psychol 90:459-477 · PMID 35482652",
+    "Keefe JR et al. (2023). Moderators of LGBQ-affirmative cognitive behavioral therapy: ESTEEM is especially effective among Black and Latino sexual minority men. J Consult Clin Psychol 91:150-164 · PMID 36780265",
+    "Turban JL, Beckwith N, Reisner SL & Keuroghlian AS (2020). Association between recalled exposure to gender identity conversion efforts and psychological distress and suicide attempts among transgender adults. JAMA Psychiatry 77:68-76 · PMID 31509158",
+    "Coleman E et al. (2022). Standards of Care for the Health of Transgender and Gender Diverse People, Version 8. Int J Transgend Health 23(Suppl 1):S1-S259 · PMID 36238954",
+    "Ley 4/2023, de 28 de febrero (2023), para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI. BOE núm. 51 (BOE-A-2023-5366), arts. 17 y 79.4.d"
+   ],
+   "relAdd": [
+    "prot_unif",
+    "ideac_suic"
+   ]
+  },
+  "mbt": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollada por Anthony Bateman y Peter Fonagy en el Hospital St Ann de Londres; manual fundacional: Bateman A & Fonagy P (2004), Psychotherapy for Borderline Personality Disorder: Mentalization-Based Treatment (Oxford: Oxford University Press). Integra teoría del apego, psicoanálisis y cognición social: la mentalización se adquiere en el contexto de relaciones de apego seguras en las que el cuidador refleja de forma marcada y contingente los estados del niño; cuando el apego se activa bajo amenaza, la persona con TLP pierde la capacidad de mentalizar y reaparecen modos prementalizadores (equivalencia psíquica, modo simulado y modo teleológico). El terapeuta adopta una postura de «no saber», curiosa y centrada en el aquí y ahora, interviene cuando la mentalización se colapsa y la reconstruye antes de explorar contenidos, evitando interpretaciones complejas que sobrecargan a quien no puede mentalizar en ese momento. Se ha aplicado en hospitalización parcial (18 meses, seguidos de 18 meses de grupo de mantenimiento) y en formato ambulatorio de 18 meses con sesión individual y grupal semanal (Bateman y Fonagy 2008, 2009). Existen adaptaciones para adolescentes (MBT-A; Rossouw y Fonagy 2012) y, con menor evaluación, para familias, trastorno antisocial y trastornos alimentarios [fuente no localizada]. Los autores la consideran relativamente poco exigente en formación, lo que facilita su implantación en servicios generales (Bateman y Fonagy 2009).",
+     "links": [
+      {
+       "ids": [
+        "apego",
+        "apego_trauma"
+       ],
+       "t": "Apego y mentalización"
+      },
+      {
+       "ids": [
+        "cogn_soc"
+       ],
+       "t": "Cognición social"
+      },
+      {
+       "ids": [
+        "winnicott"
+       ],
+       "t": "Antecedentes psicoanalíticos"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el seguimiento a ocho años del primer ensayo (Bateman y Fonagy 2008; 41 pacientes), cinco años después de concluir la MBT en hospitalización parcial, el grupo tratado seguía siendo superior al tratamiento habitual en suicidalidad (23 % frente a 74 %), persistencia del diagnóstico (13 % frente a 87 %), uso de servicios y de medicación, funcionamiento global y situación laboral o educativa, aunque el funcionamiento social seguía deteriorado. En el ensayo ambulatorio (Bateman y Fonagy 2009; 134 pacientes), la MBT se comparó con un manejo clínico estructurado (control activo con terapeutas de igual experiencia): ambos grupos mejoraron sustancialmente y la MBT mostró un descenso más pronunciado de los intentos de suicidio y las hospitalizaciones; los autores pidieron replicación por grupos independientes. En adolescentes con autolesiones y depresión (Rossouw y Fonagy 2012; 80 participantes), la MBT-A redujo más la autolesión y la depresión que el tratamiento habitual. En la revisión Cochrane (Storebø 2020) la MBT fue el segundo modelo más estudiado, con siete ensayos: frente al tratamiento habitual redujo la autolesión (RR 0,62; 3 ensayos) y la suicidalidad (RR 0,10; 3 ensayos), con evidencia de calidad baja según GRADE para todos estos resultados. NICE CG78 (2009) no recomienda la MBT de forma específica (solo menciona la DBT, recomendación 1.3.4.5).",
+     "links": [
+      {
+       "ids": [
+        "tlp",
+        "autolesion"
+       ],
+       "t": "TLP y autolesión"
+      },
+      {
+       "ids": [
+        "ansi_adol",
+        "suic_adol"
+       ],
+       "t": "Autolesión y suicidio adolescente"
+      },
+      {
+       "ids": [
+        "dbt"
+       ],
+       "t": "DBT"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en TLP de adultos, especialmente con conducta suicida, autolesiones y hospitalizaciones repetidas, y en adolescentes con autolesión y rasgos límite emergentes. La calificación de «nivel de evidencia A» o de «primera línea» no se sostiene: la revisión Cochrane califica como de calidad baja (GRADE) toda la evidencia de la MBT frente al tratamiento habitual (Storebø 2020), los propios autores reclamaron replicación por grupos independientes (Bateman y Fonagy 2009) y NICE CG78 no la recomienda específicamente. La propia teoría advierte del riesgo de intervenciones psicoterapéuticas que exigen mentalización compleja (interpretaciones de transferencia profundas, exploración intensa del trauma) en fases de alta activación, que podrían aumentar la desorganización; es un argumento teórico sin datos sistemáticos de deterioro [fuente no localizada]. No hay datos sistemáticos de efectos adversos. Por su foco en los estados mentales en contexto relacional, puede incorporar la experiencia de discriminación y de estigma en personas LGTBIQ y de minorías culturales; no hay ensayos específicos en estas poblaciones [fuente no localizada]. En España se ofrece en algunos programas públicos de trastornos de la personalidad, sin cobertura homogénea documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "competencia_cult"
+       ],
+       "t": "Adaptación a minorías"
+      },
+      {
+       "ids": [
+        "tfp",
+        "terapesq"
+       ],
+       "t": "Otras psicoterapias del TLP"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bateman A & Fonagy P (2004). Psychotherapy for Borderline Personality Disorder: Mentalization-Based Treatment. Oxford: Oxford University Press",
+    "Bateman A & Fonagy P (2008). 8-year follow-up of patients treated for borderline personality disorder: mentalization-based treatment versus treatment as usual. Am J Psychiatry 165:631-638 · PMID 18347003",
+    "Rossouw TI & Fonagy P (2012). Mentalization-based treatment for self-harm in adolescents: a randomized controlled trial. J Am Acad Child Adolesc Psychiatry 51:1304-1313 · PMID 23200287",
+    "Storebø OJ et al. (2020). Psychological therapies for people with borderline personality disorder. Cochrane Database Syst Rev 5:CD012955 · PMID 32368793"
+   ],
+   "relAdd": [
+    "tlp",
+    "autolesion",
+    "dbt"
+   ]
+  },
+  "tfp": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollada por Otto F. Kernberg, John F. Clarkin, Frank E. Yeomans y colaboradores en el Weill Cornell Medical College a partir de la teoría de las relaciones objetales de Kernberg y de su concepto de organización límite de la personalidad (Kernberg OF (1984), Severe Personality Disorders: Psychotherapeutic Strategies, New Haven: Yale University Press). El modelo entiende que en la organización límite coexisten representaciones escindidas del self y del otro, cargadas de afectos extremos (idealizadas y persecutorias), que se activan alternativamente y producen difusión de identidad. La técnica se apoya en un contrato terapéutico explícito previo al tratamiento (asistencia, manejo de conductas suicidas y autolesivas, límites del contacto fuera de sesión), en la observación de las díadas objetales que se actualizan en la relación con el terapeuta y en la clarificación, confrontación e interpretación en el aquí y ahora, con neutralidad técnica que se abandona solo ante el riesgo. El objetivo es integrar las representaciones escindidas en una identidad más coherente. Los ensayos aplicaron dos sesiones individuales semanales durante uno a tres años (Clarkin 2007; Doering 2010; Giesen-Bloo 2006). Requiere formación psicodinámica avanzada y supervisión con evaluación de la adherencia al manual [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "kernberg"
+       ],
+       "t": "Organización borderline de la personalidad"
+      },
+      {
+       "ids": [
+        "klein_pos",
+        "mec_defensa"
+       ],
+       "t": "Escisión y mecanismos de defensa"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo de Clarkin et al. (2007; 90 pacientes), un año de TFP, de DBT o de terapia dinámica de apoyo produjo mejorías comparables en depresión, ansiedad, funcionamiento global y ajuste social; la TFP y la DBT se asociaron con mejoría de la suicidalidad, y solo la TFP predijo cambios en irritabilidad y agresión verbal y directa, en un diseño sin grupo de tratamiento habitual. En el ensayo de Doering et al. (2010; 104 mujeres ambulatorias), la TFP superó a la psicoterapia por terapeutas comunitarios experimentados (control activo) en síntomas límite (d = 1,6), funcionamiento psicosocial, organización de la personalidad e ingresos, con menos abandonos (38,5 % frente a 67,3 %) y menos intentos de suicidio; la autolesión no cambió en ninguno de los grupos. En cambio, frente a la terapia de esquemas durante tres años, la TFP tuvo más abandonos y menor recuperación (Giesen-Bloo 2006). La revisión Cochrane de 2012 identificó efectos significativos de la TFP frente a control solo en estimaciones de estudios únicos, sin metaanálisis posible, y concluyó que ninguna psicoterapia del TLP tenía una base de evidencia muy robusta (Stoffers 2012); en la actualización de 2020 la mayoría de los ensayos correspondían a DBT y MBT (Storebø 2020). Por tanto, la TFP no alcanza un «nivel de evidencia A»: la evidencia es de calidad baja. NICE CG78 (2009) no la recomienda de forma específica; en GuíaSalud no consta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dbt",
+        "terapesq"
+       ],
+       "t": "Comparadores: DBT y terapia de esquemas"
+      },
+      {
+       "ids": [
+        "tlp"
+       ],
+       "t": "TLP"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en TLP y otros trastornos de la personalidad con organización límite, incluido el narcisista, en personas capaces de sostener un encuadre de dos sesiones semanales durante periodos prolongados; el contrato inicial la hace aplicable a pacientes con conducta suicida siempre que acepten sus condiciones. Límites: duración e intensidad elevadas, exigencia de formación especializada y escasa disponibilidad; su efecto sobre la autolesión no está demostrado (Doering 2010) y fue inferior a la terapia de esquemas en el único ensayo comparativo directo (Giesen-Bloo 2006). La revisión Cochrane no encontró datos de efectos adversos de ninguna psicoterapia del TLP (Stoffers 2012). La interpretación de la agresión en la transferencia exige cautela en personas con trauma interpersonal grave, para no reproducir dinámicas de culpabilización [fuente no localizada]. La teoría clásica de las relaciones objetales contenía formulaciones patologizantes de la homosexualidad que hoy se consideran superadas; la práctica actual debe diferenciar la difusión de identidad de la exploración legítima de la orientación sexual o la identidad de género [fuente no localizada]. Disponibilidad en el SNS: muy limitada y no documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tpnarc"
+       ],
+       "t": "Trastorno narcisista"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Despatologización de la diversidad sexual y de género"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Clarkin JF, Levy KN, Lenzenweger MF & Kernberg OF (2007). Evaluating three treatments for borderline personality disorder: a multiwave study. Am J Psychiatry 164:922-928 · PMID 17541052",
+    "Giesen-Bloo J et al. (2006). Outpatient psychotherapy for borderline personality disorder: randomized trial of schema-focused therapy vs transference-focused psychotherapy. Arch Gen Psychiatry 63:649-658 · PMID 16754838",
+    "Kernberg OF (1984). Severe Personality Disorders: Psychotherapeutic Strategies. New Haven: Yale University Press",
+    "Stoffers JM et al. (2012). Psychological therapies for people with borderline personality disorder. Cochrane Database Syst Rev (8):CD005652 · PMID 22895952"
+   ],
+   "relAdd": [
+    "kernberg",
+    "tlp",
+    "dbt",
+    "terapesq"
+   ]
+  },
+  "psicodin_breve": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Derivan del psicoanálisis freudiano y de sus desarrollos (psicología del yo, relaciones objetales, psicología del self, teoría del apego). Las formas breves se sistematizaron en la segunda mitad del siglo XX: David Malan en la Clínica Tavistock (Malan DH (1976), The Frontier of Brief Psychotherapy, Nueva York: Plenum), Habib Davanloo con la psicoterapia dinámica breve intensiva, Peter Sifneos y Lester Luborsky, cuyo manual de psicoterapia de apoyo-expresiva (Luborsky L (1984), Principles of Psychoanalytic Psychotherapy: A Manual for Supportive-Expressive Treatment, Nueva York: Basic Books) introdujo el tema relacional conflictivo central como foco operativo. Rasgos comunes: delimitación de un foco conflictivo o relacional, atención a los afectos evitados y a las defensas, exploración de patrones repetitivos en las relaciones actuales, pasadas y con el terapeuta, y uso de la relación terapéutica como vía de cambio. La revisión Cochrane incluyó como breves las terapias psicodinámicas individuales de 40 horas o menos (Abbass 2014); el metaanálisis de larga duración incluyó terapias de al menos un año o 50 sesiones (Leichsenring y Rabung 2008). La práctica exige formación psicodinámica reglada y supervisión prolongada; los manuales facilitan la investigación y la evaluación de la adherencia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "mec_defensa",
+        "freud_hit"
+       ],
+       "t": "Defensas y psicoanálisis freudiano"
+      },
+      {
+       "ids": [
+        "kohut",
+        "klein_pos"
+       ],
+       "t": "Psicología del self y relaciones objetales"
+      },
+      {
+       "ids": [
+        "pdm2",
+        "opd2"
+       ],
+       "t": "Diagnóstico psicodinámico"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La revisión Cochrane de Abbass et al. (2014; 33 ensayos, 2173 participantes con trastornos mentales comunes) halló mayor mejoría con la psicoterapia psicodinámica breve que con lista de espera, tratamiento habitual o contacto mínimo en síntomas generales, ansiedad, depresión, problemas interpersonales y ajuste social a corto y medio plazo, salvo en síntomas somáticos a corto plazo; los efectos crecían en el seguimiento, aunque algunos perdían significación, con heterogeneidad importante. En depresión, el metaanálisis de Driessen et al. (2015; 54 estudios, 33 ensayos aleatorizados, 3946 participantes) mostró superioridad frente a condiciones control (d = 0,49 a 0,69) y ausencia de diferencias con otras psicoterapias al final (d = −0,14) y en el seguimiento (d = −0,06). En la fobia social, un ensayo multicéntrico con 495 pacientes comparó psicoterapia psicodinámica manualizada, TCC y lista de espera: ambas superaron a la lista de espera, con remisión del 26 % frente al 36 % con TCC, diferencia significativa a favor de esta en remisión pero no en respuesta (Leichsenring 2013). Calidad de la evidencia: moderada a baja según el trastorno; NICE NG222 incluye la psicoterapia psicodinámica breve entre los tratamientos de primera línea para la depresión menos grave (tabla 1, recomendación 1.5.2; habitualmente 8 a 16 sesiones) y más grave (tabla 2, recomendación 1.6.1; habitualmente 16 sesiones); NICE no asigna grados.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tag",
+        "fobia_soc"
+       ],
+       "t": "Depresión y ansiedad"
+      },
+      {
+       "ids": [
+        "tcc_dep"
+       ],
+       "t": "Comparador: TCC"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Puede ofrecerse en depresión, trastornos de ansiedad y trastornos de la personalidad, y es especialmente apropiada cuando predominan problemas relacionales repetitivos, conflictos de identidad o dificultad para reconocer emociones; las variantes manualizadas para el TLP (MBT, TFP) tienen fichas propias. En la fobia social es menos eficaz que la TCC en remisión (Leichsenring 2013), por lo que la TCC sigue siendo de primera elección. Se consideran contraindicaciones relativas de las formas breves expresivas la psicosis aguda, el riesgo suicida elevado sin contención, el consumo activo grave y la escasa capacidad para tolerar la ansiedad que generan las confrontaciones [fuente no localizada]. No hay datos sistemáticos de efectos adversos; los manuales de apoyo-expresiva permiten graduar el componente de apoyo en personas más frágiles [fuente no localizada]. Históricamente, sectores del psicoanálisis consideraron la homosexualidad una patología del desarrollo, posición abandonada por las asociaciones psicoanalíticas actuales; la práctica contemporánea debe ser afirmativa con la diversidad sexual y de género [fuente no localizada]. En el SNS su disponibilidad depende de cada servicio y no está documentada de forma homogénea [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "mbt",
+        "tfp"
+       ],
+       "t": "Variantes manualizadas para el TLP"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Práctica afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Abbass AA et al. (2014). Short-term psychodynamic psychotherapies for common mental disorders. Cochrane Database Syst Rev (7):CD004687 · PMID 24984083",
+    "Driessen E et al. (2015). The efficacy of short-term psychodynamic psychotherapy for depression: a meta-analysis update. Clin Psychol Rev 42:1-15 · PMID 26281018",
+    "Leichsenring F et al. (2013). Psychodynamic therapy and cognitive-behavioral therapy in social anxiety disorder: a multicenter randomized controlled trial. Am J Psychiatry 170:759-767 · PMID 23680854",
+    "Malan DH (1976). The Frontier of Brief Psychotherapy. New York: Plenum",
+    "Luborsky L (1984). Principles of Psychoanalytic Psychotherapy: A Manual for Supportive-Expressive Treatment. New York: Basic Books",
+    "NICE (2022). Depression in adults: treatment and management (NG222), recomendaciones 1.5.2 y 1.6.1 (tablas 1 y 2)"
+   ],
+   "relAdd": [
+    "ddm",
+    "lgb_afirm"
+   ]
+  },
+  "ipt_dep": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollada por Gerald L. Klerman, Myrna M. Weissman y colaboradores en la década de 1970 como tratamiento manualizado de la depresión para el programa colaborativo del NIMH; el manual fundacional (Klerman, Weissman, Rounsaville y Chevron, 1984) figura en la ficha, y su actualización es Weissman MM, Markowitz JC & Klerman GL (2000), Comprehensive Guide to Interpersonal Psychotherapy (Nueva York: Basic Books). Su base teórica combina la escuela interpersonal de Adolf Meyer y Harry Stack Sullivan, la teoría del apego de Bowlby y la evidencia empírica sobre acontecimientos vitales y apoyo social en la depresión; no presupone que las relaciones causen la depresión, sino que el inicio y el mantenimiento de los síntomas se dan en un contexto interpersonal sobre el que se puede intervenir. Técnicamente, adopta el modelo médico (se asigna a la persona el «rol de enfermo» de forma temporal), elabora un inventario interpersonal, vincula los síntomas con una de las áreas problema y trabaja con clarificación, análisis de la comunicación, manejo de afectos y ensayo de conductas. No interpreta la transferencia ni explora la infancia. Existen formatos grupal, telefónico, para adolescentes (IPT-A), perinatal y de mantenimiento mensual. La formación incluye un curso y casos supervisados con grabación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "duelo",
+        "duelo_vejez"
+       ],
+       "t": "Duelo como área problema"
+      },
+      {
+       "ids": [
+        "apego"
+       ],
+       "t": "Teoría del apego"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el programa colaborativo del NIMH (Elkin 1989), 250 pacientes ambulatorios con depresión mayor recibieron 16 semanas de IPT, TCC, imipramina con manejo clínico o placebo con manejo clínico: no hubo diferencias entre las dos psicoterapias, ninguna fue significativamente inferior a la imipramina y solo la IPT mostró una evidencia limitada de eficacia específica frente al placebo; en el subgrupo más grave hubo cierta evidencia a favor de la IPT y evidencia sólida a favor de la imipramina. El metaanálisis global de Cuijpers et al. (2016; 90 estudios, 11 434 participantes) halló en la depresión aguda un efecto moderado a grande frente a control (g = 0,60), sin diferencias frente a otras psicoterapias (g = 0,06) ni frente a la farmacoterapia (g = −0,13), con ventaja del tratamiento combinado sobre la IPT sola (g = 0,24); la IPT previno la aparición de depresión mayor en depresión subumbral y la de mantenimiento redujo las recaídas. También mostró efectos en trastornos alimentarios, algo menores que la TCC en fase aguda, y en trastornos de ansiedad. La mayoría de los estudios tenía riesgo de sesgo según Cochrane, sin indicios de que alterara los resultados. NICE NG222 incluye la IPT entre los tratamientos de primera línea para la depresión menos grave (tabla 1, recomendación 1.5.2; habitualmente 8 a 16 sesiones) y más grave (tabla 2, recomendación 1.6.1; habitualmente 16 sesiones); NICE no asigna grados.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "dep_inf"
+       ],
+       "t": "Depresión en adultos y adolescentes"
+      },
+      {
+       "ids": [
+        "tcc_dep"
+       ],
+       "t": "Comparador: terapia cognitiva"
+      },
+      {
+       "ids": [
+        "imipramina"
+       ],
+       "t": "Comparador farmacológico: imipramina"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en depresión mayor del adulto, de la adolescencia, perinatal y de la vejez, como monoterapia o combinada con antidepresivos (la combinación supera a la IPT sola, g = 0,24; Cuijpers 2016), y como mantenimiento. En el subgrupo más grave del programa del NIMH la evidencia fue sólida para la imipramina y limitada para la IPT (Elkin 1989). Su foco en problemas actuales concretos facilita la adaptación cultural: en un ensayo aleatorizado por conglomerados en 30 aldeas rurales de Uganda, 16 sesiones semanales de IPT grupal adaptada localmente redujeron la proporción de personas con depresión mayor al 6,5 % frente al 54,7 % en las aldeas control sin intervención (Bolton 2003). Las áreas de transición de rol y disputas de rol permiten trabajar la salida del armario, el rechazo familiar, la transición de género, la migración o el duelo por VIH sin patologizar la identidad; los estudios específicos en minorías sexuales y de género son escasos [fuente no localizada]. No se dispone de datos sistemáticos de efectos adversos [fuente no localizada]. En el SNS forma parte de las psicoterapias que aplican profesionales de psicología clínica y psiquiatría, sin oferta estructurada documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dep_embarazo",
+        "dep_tardia"
+       ],
+       "t": "Depresión perinatal y tardía"
+      },
+      {
+       "ids": [
+        "duelo_migra_ulises",
+        "refugio_tept"
+       ],
+       "t": "Migración y adaptación cultural"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "Psicoterapia afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Weissman MM, Markowitz JC & Klerman GL (2000). Comprehensive Guide to Interpersonal Psychotherapy. New York: Basic Books",
+    "Elkin I et al. (1989). National Institute of Mental Health Treatment of Depression Collaborative Research Program: general effectiveness of treatments. Arch Gen Psychiatry 46:971-982 · PMID 2684085",
+    "Cuijpers P et al. (2016). Interpersonal psychotherapy for mental health problems: a comprehensive meta-analysis. Am J Psychiatry 173:680-687 · PMID 27032627",
+    "Bolton P et al. (2003). Group interpersonal psychotherapy for depression in rural Uganda: a randomized controlled trial. JAMA 289:3117-3124 · PMID 12813117",
+    "NICE (2022). Depression in adults: treatment and management (NG222), recomendaciones 1.5.2 y 1.6.1 (tablas 1 y 2)"
+   ],
+   "relAdd": [
+    "ddm",
+    "dep_inf",
+    "dep_embarazo",
+    "lgb_afirm"
+   ]
+  },
+  "ipsrt": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Desarrollada por Ellen Frank y colaboradores en la Universidad de Pittsburgh; manual: Frank E (2005), Treating Bipolar Disorder: A Clinician's Guide to Interpersonal and Social Rhythm Therapy (Nueva York: Guilford). Añade a la IPT de Klerman y Weissman un componente de regulación de los ritmos sociales (Frank 2005). Parte de que los acontecimientos vitales desestabilizan el trastorno bipolar no solo por su carga emocional, sino porque alteran las rutinas diarias (horas de levantarse, primer contacto social, comidas, trabajo, acostarse) que actúan como sincronizadores del reloj circadiano. Procedimiento: historia de episodios ligada a acontecimientos y cambios de rutina; registro semanal con la Social Rhythm Metric para identificar irregularidades y fijar objetivos graduales de regularidad; trabajo interpersonal sobre las áreas de la IPT con un área añadida, el duelo por el «yo sano perdido»; y preparación de estrategias ante desencadenantes previsibles (viajes con cambio horario, turnos de noche, privación de sueño). Se aplica como complemento de la farmacoterapia, con sesiones semanales en fase aguda y espaciadas en mantenimiento; los ensayos llegaron hasta 30 sesiones en nueve meses (Miklowitz 2007). Requiere formación previa en IPT [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "zeitgebers",
+        "circad"
+       ],
+       "t": "Zeitgebers sociales y ritmos circadianos"
+      },
+      {
+       "ids": [
+        "ipt_dep"
+       ],
+       "t": "IPT de base"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo de Frank et al. (2005; 175 personas con trastorno bipolar I en episodio agudo) se compararon IPSRT y manejo clínico intensivo (control activo) en fase aguda y de mantenimiento: no hubo diferencias en el tiempo hasta la estabilización, pero quienes recibieron IPSRT en la fase aguda permanecieron más tiempo sin nuevos episodios, con independencia del mantenimiento; aumentar la regularidad de los ritmos sociales se asoció con menor recurrencia. En STEP-BD (Miklowitz 2007; 293 pacientes con depresión bipolar I o II), la psicoterapia intensiva (terapia focalizada en la familia, IPSRT o TCC) se comparó con una intervención psicoeducativa breve de tres sesiones: la recuperación al año fue del 64,4 % frente al 51,5 %, más rápida y con mayor probabilidad de estar clínicamente bien en cualquier mes, sin diferencias entre las tres psicoterapias intensivas. En 100 jóvenes de 15 a 36 años con alta comorbilidad, la IPSRT no superó a una atención de apoyo especializada (control activo); ambas mejoraron (Inder 2015). Calidad de la evidencia: moderada a baja [fuente no localizada]. NICE CG185 (2014) no nombra la IPSRT, pero indica ofrecer en la depresión bipolar una intervención psicológica específica del trastorno bipolar con manual publicado, o TCC, IPT o terapia conductual de pareja (rec. 1.6.1), y una intervención estructurada de ese tipo para prevenir recaídas (1.7.3); NICE no asigna grados.",
+     "links": [
+      {
+       "ids": [
+        "tb1",
+        "tb2",
+        "dep_bip_tx"
+       ],
+       "t": "Trastorno bipolar y depresión bipolar"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "Terapia focalizada en la familia y psicoeducación"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada como complemento de la farmacoterapia en trastorno bipolar I y II, sobre todo en la fase depresiva aguda y para prevenir recurrencias en personas cuyos episodios se relacionan con alteraciones del sueño y de las rutinas. No sustituye al tratamiento farmacológico de mantenimiento ni es un tratamiento de la manía aguda [fuente no localizada]. Su ventaja frente a intervenciones de apoyo bien estructuradas no se ha reproducido en jóvenes con comorbilidad elevada (Inder 2015), y frente a psicoeducación breve la superioridad se demostró para el conjunto de psicoterapias intensivas, no para la IPSRT de forma aislada (Miklowitz 2007). No hay datos sistemáticos de efectos adversos [fuente no localizada]. La regularización de horarios debe adaptarse a condiciones laborales y culturales (trabajo a turnos, ramadán, ocio nocturno); en hombres gais y bisexuales con chemsex, las sesiones prolongadas sin dormir son un desestabilizador cronobiológico relevante que puede abordarse con enfoque de reducción de daños sin estigmatizar [fuente no localizada]. Disponibilidad en el SNS: limitada y no documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "priv_sueno",
+        "circ_sueno"
+       ],
+       "t": "Privación de sueño y ritmo circadiano"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "Chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Frank E (2005). Treating Bipolar Disorder: A Clinician's Guide to Interpersonal and Social Rhythm Therapy. New York: Guilford",
+    "Inder ML et al. (2015). Randomized, controlled trial of Interpersonal and Social Rhythm Therapy for young people with bipolar disorder. Bipolar Disord 17:128-138 · PMID 25346391",
+    "NICE (2014). Bipolar disorder: assessment and management (CG185), recomendaciones 1.6.1 y 1.7.3"
+   ],
+   "relAdd": [
+    "tb2",
+    "dep_bip_tx",
+    "chemsex_s"
+   ]
+  },
+  "ter_fam_inf": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Bajo esta etiqueta conviven modelos con orígenes distintos. La terapia familiar sistémica nace de la teoría general de sistemas y de la cibernética aplicadas a la familia: la escuela estructural de Salvador Minuchin (Minuchin S (1974), Families and Family Therapy, Cambridge MA: Harvard University Press), las escuelas estratégicas y la de Milán, que entienden el síntoma como parte de pautas relacionales que lo mantienen. La terapia multisistémica fue desarrollada por Scott Henggeler y colaboradores (Henggeler SW et al. (1998), Multisystemic Treatment of Antisocial Behavior in Children and Adolescents, Nueva York: Guilford) sobre el modelo socioecológico de Bronfenbrenner: un terapeuta con baja carga de casos, disponible a cualquier hora, interviene en el domicilio, la escuela y el barrio [fuente no localizada], durante 3 a 5 meses (Fonagy 2018). La terapia familiar basada en el apego, de Guy Diamond y colaboradores, se organiza en cinco tareas secuenciales: reencuadre relacional, alianza con el adolescente, alianza con los progenitores, reparación del apego en sesiones conjuntas y promoción de la autonomía [fuente no localizada], a lo largo de unas 16 semanas (Diamond 2019). La terapia familiar funcional es un modelo breve por fases (compromiso, cambio conductual, generalización) [fuente no localizada]. Los modelos manualizados exigen formación y supervisión de fidelidad; la terapia multisistémica se aplica mediante licencia con control de adherencia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "apego",
+        "rad"
+       ],
+       "t": "Apego en la infancia"
+      },
+      {
+       "ids": [
+        "entren_parental",
+        "pcit"
+       ],
+       "t": "Intervenciones parentales"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "Los resultados favorables de la ficha deben leerse junto a dos ensayos de diseño más riguroso. En el ensayo pragmático START (Fonagy 2018), realizado en Inglaterra con 684 familias de adolescentes de 11 a 17 años con conducta antisocial moderada a grave, la terapia multisistémica seguida de la atención habitual no redujo el internamiento fuera del hogar a 18 meses frente a la atención habitual sola (13 % frente a 11 %; OR 1,25; IC 95 % 0,77-2,05), y los autores concluyeron que no debía preferirse a la atención habitual como intervención de elección; los resultados fuera de Estados Unidos ya eran dudosos. En un segundo ensayo de la terapia familiar basada en el apego (Diamond 2019; 129 adolescentes con ideación suicida, el 49 % afroamericanos), esta no fue superior a una terapia de apoyo no directiva reforzada con componente familiar (control activo): ambas redujeron de forma intensa la ideación suicida y los síntomas depresivos, con tasas de respuesta del 69,1 % y del 62,3 %, lo que puede atribuirse a factores comunes o a regresión a la media. Con estos datos, la calidad global de la evidencia es moderada para el tratamiento basado en la familia en la anorexia y baja o heterogénea para las restantes indicaciones [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tcond",
+        "suic_adol"
+       ],
+       "t": "Trastorno de conducta y conducta suicida adolescente"
+      },
+      {
+       "ids": [
+        "tca_adol",
+        "tcc_e"
+       ],
+       "t": "Tratamiento basado en la familia en TCA"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Las indicaciones y contraindicaciones generales figuran en la ficha. Al elegir el modelo, la terapia multisistémica es costosa y su ventaja sobre una atención habitual bien organizada no se confirmó en un ensayo pragmático en Inglaterra (Fonagy 2018), y la ventaja específica de la terapia basada en el apego frente a un apoyo bien estructurado no se ha replicado (Diamond 2019). Sin datos sistemáticos de efectos adversos, las sesiones conjuntas pueden exponer al menor a críticas o revelaciones prematuras, por lo que debe valorarse su seguridad antes de reunir a la familia [fuente no localizada]. En adolescentes lesbianas, gais y bisexuales, el rechazo familiar es un determinante de salud: en 224 jóvenes adultos blancos y latinos, un rechazo familiar elevado durante la adolescencia se asoció, frente a quienes refirieron rechazo nulo o bajo, con una probabilidad 8,4 veces mayor de intentos de suicidio y 5,9 veces mayor de depresión elevada (odds ratio; Ryan 2009; diseño retrospectivo). Una adaptación de la terapia basada en el apego para adolescentes LGB con ideación suicida dedica más tiempo a trabajar con los progenitores su decepción, enfado y miedos y sus respuestas invalidantes sutiles; en un estudio abierto con 10 participantes hubo alta retención y descenso de la ideación (Diamond 2012). La terapia familiar nunca debe orientarse a cambiar la orientación o la identidad del menor. Disponibilidad en el SNS: variable según comunidad autónoma [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "Afirmación y estrés de minorías"
+      },
+      {
+       "ids": [
+        "ecosieg"
+       ],
+       "t": "Prohibición de terapias de conversión"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Fonagy P et al. (2018). Multisystemic therapy versus management as usual in the treatment of adolescent antisocial behaviour (START): a pragmatic, randomised controlled, superiority trial. Lancet Psychiatry 5:119-133 · PMID 29307527",
+    "Diamond GS et al. (2019). A randomized controlled trial: attachment-based family and nondirective supportive treatments for youth who are suicidal. J Am Acad Child Adolesc Psychiatry 58:721-731 · PMID 30768418",
+    "Diamond GM et al. (2012). Attachment-based family therapy for suicidal lesbian, gay, and bisexual adolescents: a treatment development study and open trial with preliminary findings. Psychotherapy (Chic) 49:62-71 · PMID 22181026",
+    "Ryan C, Huebner D, Diaz RM & Sanchez J (2009). Family rejection as a predictor of negative health outcomes in white and Latino lesbian, gay, and bisexual young adults. Pediatrics 123:346-352 · PMID 19117902",
+    "Minuchin S (1974). Families and Family Therapy. Cambridge MA: Harvard University Press",
+    "Henggeler SW et al. (1998). Multisystemic Treatment of Antisocial Behavior in Children and Adolescents. New York: Guilford"
+   ],
+   "relAdd": [
+    "lgb_afirm",
+    "ecosieg",
+    "pcit"
+   ]
+  },
+  "interv_fam": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Las intervenciones familiares en la psicosis surgieron en las décadas de 1970 y 1980 a partir de la investigación británica sobre emoción expresada (crítica, hostilidad y sobreimplicación emocional como predictores de recaída) y se manualizaron en modelos psicoeducativos y conductuales (Anderson CM, Reiss DJ & Hogarty GE (1986), Schizophrenia and the Family, Nueva York: Guilford). Componentes comunes: información sobre el trastorno, alianza con la familia, comunicación, resolución de problemas, manejo de crisis y atención a la carga de los cuidadores. NICE CG178 (recomendación 1.3.7.2) establece que la intervención familiar en psicosis incluya a la persona afectada cuando sea factible, dure entre 3 meses y 1 año e incluya al menos 10 sesiones planificadas. En el trastorno bipolar, la terapia focalizada en la familia de Miklowitz consta de 21 sesiones de psicoeducación, entrenamiento en comunicación y resolución de problemas durante nueve meses (Miklowitz 2003), y la psicoeducación grupal del Programa de Trastornos Bipolares del Hospital Clínic de Barcelona, de seis meses, se centra en la conciencia de enfermedad, la adherencia, la detección precoz de pródromos y la regularidad de hábitos (Colom F & Vieta E (2006), Psychoeducation Manual for Bipolar Disorder, Cambridge: Cambridge University Press). Las aplica personal de salud mental con formación específica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "emoc_expr"
+       ],
+       "t": "Emoción expresada familiar"
+      },
+      {
+       "ids": [
+        "ipsrt"
+       ],
+       "t": "Regularidad de ritmos sociales"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En la revisión Cochrane de Pharoah et al. (2010; 53 ensayos), la intervención familiar frente a la atención estándar redujo la frecuencia de recaídas en la esquizofrenia (32 ensayos, 2981 participantes; RR 0,55; NNT 7), podría reducir los ingresos (RR 0,78; NNT 8) y mejoró la adherencia a la medicación (RR 0,60; NNT 6), el funcionamiento social y la emoción expresada; no hubo datos sobre su efecto en el suicidio, y los autores advierten que los efectos pueden estar sobrestimados por la baja calidad metodológica. En el trastorno bipolar, la terapia focalizada en la familia con farmacoterapia se comparó con un manejo de crisis menos intensivo con farmacoterapia (101 pacientes): hubo menos recaídas a dos años (35 % frente a 54 %; HR 0,38), mayor reducción de síntomas y mejor adherencia (Miklowitz 2003). La psicoeducación grupal de Barcelona, comparada con un grupo no estructurado (control activo) en 120 pacientes eutímicos, alargó el tiempo hasta la recurrencia y redujo las recurrencias (3,86 frente a 8,37) y los días de enfermedad aguda (154 frente a 586) a cinco años (Colom 2009). NICE CG178 (2014) indica ofrecer intervención familiar a todas las familias de personas con psicosis o esquizofrenia que convivan o mantengan contacto estrecho con ellas (recomendación 1.4.4.2; en el primer episodio, 1.3.4.1), y NICE CG185 la extiende al trastorno bipolar (1.7.2); NICE no asigna grados.",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "tb1"
+       ],
+       "t": "Esquizofrenia y trastorno bipolar"
+      },
+      {
+       "ids": [
+        "ipsrt"
+       ],
+       "t": "Otras psicoterapias del trastorno bipolar"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en psicosis y esquizofrenia, sobre todo en los primeros episodios y con recaídas frecuentes o elevada emoción expresada, y en el trastorno bipolar tras un episodio y en fase de estabilidad; la psicoeducación grupal exige eutimia. Requiere el consentimiento de la persona afectada sobre la información compartida, y debe ajustarse cuando la familia es fuente de violencia o abuso. El concepto de emoción expresada puede vivirse como culpabilizador si no se presenta como respuesta comprensible a una situación de estrés y no como causa del trastorno [fuente no localizada]. No se encontraron datos de que la intervención familiar aumente o reduzca el suicidio (Pharoah 2010), y no hay datos sistemáticos de otros efectos adversos. La emoción expresada y la estructura familiar varían entre culturas, por lo que los programas deben adaptarse; existen adaptaciones evaluadas en China y otros contextos no occidentales [fuente no localizada]. En personas LGTBIQ, el término «familia» debe incluir a la familia elegida, la pareja y la red de apoyo, y la psicoeducación puede abordar actitudes de rechazo hacia la orientación o la identidad. En España, la psicoeducación familiar y grupal se ofrece en unidades de salud mental y programas de trastorno mental grave de diversas comunidades autónomas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "competencia_cult"
+       ],
+       "t": "Familia elegida y adaptación cultural"
+      },
+      {
+       "ids": [
+        "ter_fam_inf"
+       ],
+       "t": "Terapia familiar en la infancia y la adolescencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Miklowitz DJ et al. (2003). A randomized study of family-focused psychoeducation and pharmacotherapy in the outpatient management of bipolar disorder. Arch Gen Psychiatry 60:904-912 · PMID 12963672",
+    "Colom F et al. (2009). Group psychoeducation for stabilised bipolar disorders: 5-year outcome of a randomised clinical trial. Br J Psychiatry 194:260-265 · PMID 19252157",
+    "Colom F & Vieta E (2006). Psychoeducation Manual for Bipolar Disorder. Cambridge: Cambridge University Press",
+    "Anderson CM, Reiss DJ & Hogarty GE (1986). Schizophrenia and the Family. New York: Guilford",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendaciones 1.3.7.2 y 1.4.4.2"
+   ],
+   "relAdd": [
+    "ipsrt",
+    "lgb_afirm"
+   ]
+  },
+  "psicoter_fen": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Las propuestas de la ficha comparten un procedimiento más que un manual: suspender provisionalmente las categorías diagnósticas para describir con la persona la estructura de su experiencia (temporalidad, espacialidad, corporalidad, intersubjetividad, sentido del yo), comprender después esa experiencia en su contexto biográfico y de valores, y solo entonces explorar qué posición adopta la persona ante ella; es la secuencia que Stanghellini (2019) denomina fenomenológica, hermenéutica y dinámica. El instrumental procede de la psicopatología fenomenológica clásica (Jaspers, Binswanger, Minkowski) y contemporánea, y se apoya en entrevistas semiestructuradas de la experiencia anómala del yo como la EASE [fuente no localizada]. La posición del terapeuta es de interlocutor que ayuda a dar forma narrativa a la vivencia, sin interpretar desde una teoría previa ni corregir su contenido. No hay número de sesiones, formato ni duración estandarizados, salvo en las terapias corporales evaluadas en ensayo (20 sesiones; Martin 2016). Tampoco existe acreditación formal: la formación se adquiere en programas universitarios de psicopatología fenomenológica y en supervisión clínica [fuente no localizada]. Una aproximación cercana y manualizada es la terapia de reflexión metacognitiva e insight (MERIT) de Lysaker, que trabaja la autorreflexión, la comprensión de la mente del otro, la descentración y el dominio, y se aplicó en 40 sesiones en su ensayo aleatorizado (de Jong 2019).",
+     "links": [
+      {
+       "ids": [
+        "jaspers_fen_metodo",
+        "binswang"
+       ],
+       "t": "Método fenomenológico clásico"
+      },
+      {
+       "ids": [
+        "ease_ins",
+        "selfips"
+       ],
+       "t": "Experiencia anómala del yo y EASE"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "Para la psicoterapia fenomenológica individual en sentido estricto no hay ensayos controlados, metaanálisis ni recomendaciones de guías; la evidencia se limita a estudios cualitativos, análisis de transcripciones y series de casos [fuente no localizada]. Los únicos datos aleatorizados proceden de intervenciones afines. Además de la terapia de movimiento ya recogida en la ficha (Martin 2016), el ensayo de MERIT (de Jong 2019) aleatorizó a 70 personas con esquizofrenia a 40 sesiones de MERIT o a tratamiento habitual: en el análisis por intención de tratar la metacognición mejoró en ambos grupos sin diferencias al final del tratamiento, pero el grupo MERIT siguió mejorando mientras el control volvía a la línea basal, con diferencias significativas en el seguimiento; solo 18 de 35 participantes completaron la terapia, en parte por abandono de terapeutas, y no hubo efectos sobre síntomas psicóticos, insight cognitivo, teoría de la mente, empatía, depresión, autoestigma, calidad de vida ni funcionamiento social. La guía NICE CG178 indica ofrecer TCC (recomendación 1.4.4.1) e intervención familiar (1.4.4.2) en la psicosis y considerar terapias artísticas, sobre todo para los síntomas negativos (1.4.4.3); las psicoterapias fenomenológicas no figuran entre sus recomendaciones (NICE no asigna grados). Calidad de la evidencia: muy baja.",
+     "links": [
+      {
+       "ids": [
+        "tccp",
+        "interv_fam"
+       ],
+       "t": "Psicoterapias recomendadas en psicosis"
+      },
+      {
+       "ids": [
+        "esqneg",
+        "esq"
+       ],
+       "t": "Síntomas negativos y esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Puede integrarse como orientación de la exploración y del encuentro clínico en el espectro esquizofrénico, la depresión melancólica y los trastornos de la personalidad, siempre añadida a los tratamientos recomendados por las guías y sin sustituirlos; es especialmente útil cuando la persona no se reconoce en los modelos explicativos habituales o cuando el objetivo es reconstruir la narrativa del yo tras la psicosis. Límites: ausencia de manual, de criterios de competencia y de ensayos que permitan estimar beneficios o daños; el riesgo práctico principal es que una exploración muy detallada de experiencias anómalas aumente la angustia o la perplejidad en fases agudas, o que retrase un tratamiento eficaz [fuente no localizada]. Su énfasis en la experiencia de primera persona, los valores y la narrativa la hace compatible con la competencia cultural y con un abordaje no patologizante de la orientación sexual y la identidad de género: la vivencia del cuerpo y del género se describe tal como la persona la experimenta, sin presuponer patología [fuente no localizada]. No existe oferta estructurada en el SNS; su influencia se ejerce sobre todo a través de la formación en psicopatología descriptiva de los profesionales de salud mental [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "competencia_cult",
+        "genero"
+       ],
+       "t": "Competencia cultural y despatologización"
+      },
+      {
+       "ids": [
+        "recovery"
+       ],
+       "t": "Modelo de recuperación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "de Jong S et al. (2019). Metacognitive reflection and insight therapy (MERIT) for patients with schizophrenia. Psychol Med 49:303-313 · PMID 29692285",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendaciones 1.4.4.1-1.4.4.3",
+    "Lysaker PH & Klion RE (2017). Recovery, Meaning-Making, and Severe Mental Illness: A Comprehensive Guide to Metacognitive Reflection and Insight Therapy. New York: Routledge"
+   ],
+   "relAdd": [
+    "tccp",
+    "ease_ins",
+    "recovery"
+   ]
+  },
+  "logoter": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La logoterapia fue desarrollada por el neurólogo y psiquiatra vienés Viktor E. Frankl; además de la obra de 1946 citada en la ficha, su exposición clínica sistemática es Frankl VE (1946), Ärztliche Seelsorge (Viena: Deuticke). Su antropología concibe a la persona en tres dimensiones (somática, psíquica y noética o espiritual) y sitúa la motivación básica en la voluntad de sentido; la frustración existencial y el vacío existencial darían lugar a las llamadas neurosis noógenas [fuente no localizada]. Técnicas clásicas: intención paradójica (desear o provocar irónicamente lo temido para romper la ansiedad anticipatoria), derreflexión (desviar la atención de la autoobservación excesiva hacia tareas y personas) y diálogo socrático sobre valores creativos, vivenciales y de actitud ante el sufrimiento inevitable. Las psicoterapias existenciales de Rollo May e Irvin Yalom trabajan las preocupaciones últimas, muerte, libertad, aislamiento y sinsentido, sin manual único. La terapia centrada en el sentido de William Breitbart traduce estos conceptos a un formato grupal manualizado de ocho sesiones semanales para personas con cáncer avanzado (Breitbart 2010, 2015). La formación en logoterapia la imparten institutos privados, sin acreditación sanitaria oficial [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "frankl",
+        "valores_etica"
+       ],
+       "t": "Logoterapia y valores"
+      },
+      {
+       "ids": [
+        "yalom_dadas",
+        "anx_exist"
+       ],
+       "t": "Preocupaciones existenciales"
+      },
+      {
+       "ids": [
+        "boss_daseins",
+        "binswang"
+       ],
+       "t": "Análisis existencial"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El metaanálisis de Vos, Craig y Cooper (2015) halló 21 ensayos aleatorizados de terapias existenciales e incluyó 15 con datos propios (1792 participantes): frente a grupos control, las terapias de sentido (6 estudios) tuvieron efectos, calificados de grandes por los autores, sobre el sentido vital al final (d = 0,65) y en el seguimiento (d = 0,57) y moderados sobre la psicopatología (d = 0,47) y la autoeficacia (d = 0,48); la terapia de apoyo-expresiva tuvo efectos pequeños sobre la psicopatología (d = 0,20) y las variantes experienciales y cognitivo-existenciales no mostraron efectos significativos; los autores subrayan el escaso número y la baja calidad de los estudios. En un ensayo piloto con 90 pacientes con tumores sólidos avanzados, la psicoterapia grupal centrada en el sentido superó a la psicoterapia grupal de apoyo (control activo) en bienestar espiritual y sentido vital, con mejoras en ansiedad y deseo de morir (Breitbart 2010). En el ensayo definitivo con 253 pacientes, frente al mismo comparador, mejoró la calidad de vida y redujo la depresión y la desesperanza también en el análisis por intención de tratar; otros resultados solo fueron significativos en quienes asistieron al menos a tres sesiones (Breitbart 2015). No hay ensayos controlados de calidad de la logoterapia clásica de Frankl ni de la intención paradójica como tratamientos de trastornos mentales [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "Depresión en enfermedad médica"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Deseo de muerte e ideación suicida"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "La indicación mejor respaldada es el malestar existencial y espiritual, la desesperanza y el deseo de adelantar la muerte en personas con cáncer avanzado, mediante formatos estructurados como la terapia centrada en el sentido (Breitbart 2015; Vos 2015). En el resto de trastornos mentales puede utilizarse como enfoque complementario centrado en valores, duelo, crisis vitales o ansiedad ante la muerte, sin sustituir a los tratamientos con evidencia [fuente no localizada]. Límites: evidencia escasa y heterogénea, y riesgo de que se confunda con consejo moral o religioso, ajeno a la neutralidad clínica. La intención paradójica debe emplearse con cautela y no en personas con riesgo suicida, psicosis o conductas peligrosas [fuente no localizada]. No hay datos sistemáticos de efectos adversos. La búsqueda de sentido debe respetar la pluralidad de cosmovisiones, religiosas o no, y en personas LGTBIQ nunca debe utilizarse para presentar la orientación sexual o la identidad de género como un conflicto de valores que haya que resolver; puede, en cambio, acompañar la elaboración de experiencias de exclusión, duelo y construcción de proyecto vital [fuente no localizada]. En el SNS la terapia centrada en el sentido se aplica en algunos servicios de psicooncología y cuidados paliativos, sin oferta estructurada documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "duelo",
+        "duelo_vejez"
+       ],
+       "t": "Duelo"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "ecosieg"
+       ],
+       "t": "Práctica afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Vos J, Craig M & Cooper M (2015). Existential therapies: a meta-analysis of their effects on psychological outcomes. J Consult Clin Psychol 83:115-128 · PMID 25045907",
+    "Breitbart W et al. (2010). Meaning-centered group psychotherapy for patients with advanced cancer: a pilot randomized controlled trial. Psychooncology 19:21-28 · PMID 19274623",
+    "Frankl VE (1946). Ärztliche Seelsorge. Wien: Deuticke"
+   ],
+   "relAdd": [
+    "dep_med",
+    "duelo"
+   ]
+  }
+ },
+ "add": []
+}

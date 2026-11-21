@@ -1,0 +1,205 @@
+{
+ "pmid_comprobados": 30,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "desprescr_bzd",
+   "gravedad": "menor",
+   "antes": "limita benzodiacepinas y agonistas del receptor benzodiacepínico al uso de hasta 4 semanas (Riemann 2023)",
+   "despues": "admite benzodiacepinas y agonistas del receptor benzodiacepínico para el tratamiento a corto plazo (hasta 4 semanas) y solo en algunos casos un uso más largo (Riemann 2023)",
+   "fuente": "Riemann 2023, PMID 38016484 (resumen: «short-term treatment of insomnia (≤ 4 weeks). Longer-term treatment ... may be initiated in some cases»)"
+  },
+  {
+   "id": "desprescr_bzd",
+   "gravedad": "menor",
+   "antes": "a diferencia de las benzodiacepinas de metabolismo oxidativo, más expuestas a inhibidores e inductores del CYP3A4 [fuente no localizada]",
+   "despues": "aunque la ficha advierte de que los inhibidores de enzimas hepáticas, en especial del citocromo P450, pueden potenciar a las benzodiacepinas, y en menor grado a las que solo se conjugan (4.5)",
+   "fuente": "Ficha técnica de Orfidal (CIMA), 4.5, leída en esta sesión"
+  },
+  {
+   "id": "desprescr_bzd",
+   "gravedad": "menor",
+   "antes": "Convulsiones, delirium, alucinaciones o ideación suicida durante la reducción exigen valoración urgente.",
+   "despues": "Convulsiones, delirium, alucinaciones o tendencias suicidas durante la reducción son signos de abstinencia grave y exigen valoración urgente (4.4).",
+   "fuente": "Ficha técnica de Orfidal (CIMA), 4.4"
+  },
+  {
+   "id": "desprescr_bzd",
+   "gravedad": "mayor",
+   "antes": "en el chemsex, la combinación con GHB/GBL aumenta mucho el riesgo de depresión respiratoria (véase la ficha de GHB/GBL)",
+   "despues": "la ficha de Xyrem pide evitar oxibato de sodio y benzodiacepinas por riesgo de depresión respiratoria (4.5); extenderlo al GHB/GBL del chemsex es una inferencia [fuente no localizada] (véase la ficha de GHB/GBL)",
+   "fuente": "Ficha técnica de Xyrem (CIMA), 4.5; la afirmación original carecía de fuente"
+  },
+  {
+   "id": "desprescr_bzd",
+   "gravedad": "menor",
+   "antes": "; en 315 428 personas con opioides, el uso concurrente duplicó las urgencias o ingresos por sobredosis (OR ajustada 2,14; Sun 2017)",
+   "despues": "; con opioides de prescripción, el uso concurrente duplicó las urgencias o ingresos por sobredosis (OR ajustada 2,14; Sun 2017)",
+   "fuente": "Sun 2017, PMID 28292769 (recorte de longitud; dato conservado)"
+  },
+  {
+   "id": "lamotrig",
+   "gravedad": "menor",
+   "antes": "Exantema durante la titulación: consultar de inmediato (NICE CG185, rec. 1.10.37) y suspender salvo causa claramente ajena.",
+   "despues": "Exantema durante la titulación: consultar de inmediato (NICE CG185, rec. 1.10.37) y retirar el fármaco salvo que el exantema no esté claramente relacionado (ficha técnica de Lamictal, 4.4).",
+   "fuente": "Ficha técnica de Lamictal (CIMA), 4.4"
+  },
+  {
+   "id": "lamotrig",
+   "gravedad": "mayor",
+   "antes": "Si se interrumpe, la reintroducción exige valorar una nueva escalada (4.2); la retirada debe ser gradual (4.4), durante al menos 4 semanas para reducir la recaída (NICE CG185, rec. 1.10.39).",
+   "despues": "Si se interrumpe, la reintroducción exige valorar una nueva escalada (4.2). La retirada gradual que exige la ficha se refiere a la epilepsia, por las crisis de rebote (4.4); en el trastorno bipolar la ficha no observó más efectos adversos con la suspensión brusca (4.2), pero NICE CG185 aconseja reducirla en al menos 4 semanas para disminuir la recaída (1.10.39).",
+   "fuente": "Ficha técnica de Lamictal (CIMA), 4.2 («Discontinuación de Lamictal en pacientes con trastorno bipolar») y 4.4 («Precauciones relacionadas con la epilepsia»); NICE CG185 1.10.39"
+  },
+  {
+   "id": "lamotrig",
+   "gravedad": "menor",
+   "antes": "Cardiopatía estructural o funcional, síndrome de Brugada u otras canalopatías: valorar con cardiología antes de iniciar, y precaución con otros bloqueantes de canales de sodio (4.4).",
+   "despues": "Cardiopatía estructural o funcional, síndrome de Brugada u otras canalopatías: considerar consulta con cardiología antes de iniciar; precaución con otros bloqueantes de canales de sodio (4.4).",
+   "fuente": "Ficha técnica de Lamictal (CIMA), 4.4 (recorte de longitud)"
+  },
+  {
+   "id": "oxcarbazepina",
+   "gravedad": "mayor",
+   "antes": "Ninguna guía la sitúa entre los eutimizantes de primera o segunda línea. Además de la clasificación de CANMAT/ISBD 2018 recogida en los rasgos (combinación con litio o valproato en la manía como tercera línea, adición en el mantenimiento con nivel 4), las guías NICE de trastorno bipolar (CG185) y de salud mental perinatal (CG192) no la mencionan entre sus opciones.",
+   "despues": "Ninguna guía la sitúa entre los eutimizantes de primera o segunda línea. CANMAT/ISBD 2018 la clasifica según los rasgos de esta ficha; la BAP 2016 admite considerarla en el mantenimiento por extrapolación desde la carbamazepina, por su menor potencial de interacciones (Goodwin 2016), y las guías NICE CG185 y CG192 no la mencionan.",
+   "fuente": "Goodwin 2016 (BAP), PMID 26979387, texto completo PMC4922419: «Oxcarbazepine may be considered by extrapolation because of its lower potential for such interactions (I)»; la frase original omitía esta recomendación de la BAP"
+  },
+  {
+   "id": "hla_carbamaz",
+   "gravedad": "mayor",
+   "antes": "Sobre HLA-A*3101 la ficha es más prudente que la guía CPIC: considera insuficientes los datos para recomendar su cribado antes de iniciar el tratamiento y, en portadores conocidos de ascendencia europea o japonesa, admite el fármaco si el beneficio supera al riesgo (4.4).",
+   "despues": "Sobre HLA-A*3101 la ficha es menos restrictiva: considera insuficientes los datos para recomendar el cribado y admite el fármaco en portadores conocidos de ascendencia europea o japonesa si el beneficio supera al riesgo (4.4); la guía CPIC, con independencia del origen, desaconseja iniciar carbamazepina en portadores de HLA-A*31:01 si hay alternativas, y carbamazepina u oxcarbazepina en portadores de HLA-B*15:02 (Phillips 2018).",
+   "fuente": "Ficha técnica de Tegretol (CIMA), 4.4; Phillips 2018 (CPIC), PMID 29392710, texto completo PMC5847474 (tablas 2 y 3: «If patient is carbamazepine-naïve and alternative agents are available, do not use carbamazepine. Strong»; «These recommendations hold irrespective of the patient’s region of origin or ethnic group»)"
+  },
+  {
+   "id": "hla_carbamaz",
+   "gravedad": "menor",
+   "antes": "Evidencia comparativa: en un metaanálisis de 16 estudios, la OR global",
+   "despues": "En un metaanálisis de 16 estudios, la OR global",
+   "fuente": "recorte de longitud"
+  },
+  {
+   "id": "hla_carbamaz",
+   "gravedad": "menor",
+   "antes": "(prevalencia del 10 %) y no usarla en portadores salvo que no exista otra opción; aconseja considerar la prueba en otras poblaciones asiáticas de riesgo (más del 15 % en Filipinas y Malasia) y señala que la prevalencia es inferior al 1 % en ascendencia europea, africana, hispana, japonesa y coreana.",
+   "despues": "(prevalencia del 10 %) y no usarla en portadores salvo que no exista otra opción, y considerar la prueba en otras poblaciones asiáticas de riesgo (más del 15 % en Filipinas y Malasia).",
+   "fuente": "Ficha técnica de Tegretol (CIMA), 4.4; la prevalencia inferior al 1 % ya figura en los rasgos de carbamaz (recorte para no duplicar)"
+  },
+  {
+   "id": "vpa_bip",
+   "gravedad": "menor",
+   "antes": "NICE CG185 lo reserva para añadirlo cuando el litio no basta o no es adecuado en la manía (rec. 1.5.6)",
+   "despues": "NICE CG185, en la manía, propone añadirlo al antipsicótico cuando añadir litio no es eficaz o no es adecuado (rec. 1.5.6)",
+   "fuente": "NICE CG185 1.5.6, leída en nice.org.uk"
+  },
+  {
+   "id": "vpa_bip",
+   "gravedad": "mayor",
+   "antes": "Reproducción: la EMA (2018) prohibió su uso en el embarazo por trastorno bipolar y lo contraindicó en personas con capacidad de gestar salvo cumplimiento del programa de prevención de embarazos; en 2024 su comité de farmacovigilancia recomendó en varones [...] falta estudio con GHB/GBL recreativo [fuente no localizada]",
+   "despues": "Reproducción citada a las notas de la AEMPS MUH (FV) 3/2018 y 01/2024 (leídas) y EMA 2024, con la condición «salvo falta de alternativa» y los datos del estudio (5 % frente a 3 %; HR 1,50); contraindicaciones completadas con porfiria hepática; la extensión al GHB/GBL recreativo, marcada como inferencia",
+   "fuente": "AEMPS MUH (FV) 3/2018 (13-2-2018) y MUH (FV) 01/2024 (15-1-2024), aemps.gob.es; EMA, nota de prensa del PRAC de 12-1-2024; ficha técnica de Depakine Crono (CIMA), 4.3; ficha técnica de Xyrem (CIMA), 4.5"
+  },
+  {
+   "id": "dep_bip_tx",
+   "gravedad": "menor",
+   "antes": "litio, sertralina, venlafaxina, lamotrigina y TEC son de segunda (Yatham 2018)",
+   "despues": "litio, lamotrigina, bupropión añadido, TEC, sertralina y venlafaxina son de segunda (Yatham 2018)",
+   "fuente": "Yatham 2018, PMID 29536616, texto completo PMC5947163, tabla 19 (omitía el bupropión adyuvante)"
+  },
+  {
+   "id": "dep_bip_tx",
+   "gravedad": "menor",
+   "antes": "Nota factual: de estos fármacos, en España solo la quetiapina tiene indicación en los episodios depresivos del trastorno bipolar; lurasidona y cariprazina solo la tienen en esquizofrenia",
+   "despues": "Nota factual: de los antipsicóticos citados, en España solo la quetiapina tiene indicación en los episodios depresivos del trastorno bipolar; lurasidona y cariprazina solo en esquizofrenia",
+   "fuente": "Fichas técnicas de Seroquel Prolong, Latuda y Reagila (CIMA), 4.1; la de Plenur indica «episodios maniacodepresivos», por lo que «de estos fármacos» era impreciso"
+  },
+  {
+   "id": "dep_bip_tx",
+   "gravedad": "menor",
+   "antes": "Interacciones: quetiapina, lurasidona y cariprazina dependen del CYP3A4 y sus fichas contraindican la combinación con inhibidores potentes como el ritonavir (véanse sus fichas); la carbamazepina reduce los niveles de varios de estos fármacos (ficha técnica de Tegretol, 4.5).",
+   "despues": "Interacciones (4.3): Seroquel Prolong contraindica los inhibidores del CYP3A4, como los inhibidores de la proteasa del VIH; Latuda, los inhibidores potentes (ritonavir, cobicistat) y los inductores potentes como la carbamazepina, y Reagila, los inhibidores e inductores potentes o moderados.",
+   "fuente": "Fichas técnicas de Seroquel Prolong, Latuda y Reagila (CIMA), 4.3, leídas en esta sesión"
+  },
+  {
+   "id": "dep_bip_tx",
+   "gravedad": "menor",
+   "antes": "Consumo de sustancias: antidepresivos, sustancias de abuso y estimulantes pueden asociarse a la ciclación rápida, por lo que su retirada es imperativa en ese contexto (Yatham 2018)",
+   "despues": "Ciclación rápida: CANMAT considera imperativo retirar antidepresivos, estimulantes y otros fármacos que la favorezcan, y aconseja retirar las sustancias de forma gradual para evitar la abstinencia (Yatham 2018)",
+   "fuente": "Yatham 2018, texto completo PMC5947163, apartado de ciclación rápida"
+  },
+  {
+   "id": "litio_embarazo",
+   "gravedad": "mayor",
+   "antes": "NICE CG192 pide no ofrecer litio",
+   "despues": "La ficha técnica de Plenur contraindica el litio en el embarazo y la lactancia (4.3) y aconseja suspenderlo si el embarazo es planificado (4.6). Las guías contemplan excepciones: NICE CG192 pide no ofrecer litio",
+   "fuente": "Ficha técnica de Plenur (CIMA), 4.3 («Embarazo y lactancia») y 4.6, leídas literalmente; regla del atlas: Plenur prevalece"
+  },
+  {
+   "id": "litio_embarazo",
+   "gravedad": "menor",
+   "antes": ", informando de un riesgo de malformación cardiaca fetal en el primer trimestre de magnitud incierta, de los niveles posiblemente altos en la leche y de la necesidad de una monitorización más frecuente (rec. 1.4.33-1.4.34)",
+   "despues": ", informando del riesgo cardiaco fetal de magnitud incierta y de los niveles posiblemente altos en la leche (1.4.33-1.4.34)",
+   "fuente": "NICE CG192 (recorte de longitud)"
+  },
+  {
+   "id": "litio_embarazo",
+   "gravedad": "mayor",
+   "antes": "Evidencia comparativa: en un metaanálisis de 37 estudios, la recaída posparto en el trastorno bipolar fue del 66 % sin medicación durante el embarazo frente al 23 % con profilaxis (Wesseloo 2016). Nota factual: la ficha técnica de Plenur incluye el embarazo y la lactancia entre sus contraindicaciones (4.3), por lo que mantenerlo exige una decisión compartida y documentada.",
+   "despues": "En un metaanálisis de 37 estudios, la recaída posparto fue del 66 % sin medicación durante el embarazo frente al 23 % con profilaxis (Wesseloo 2016). Mantener el litio en el embarazo o la lactancia es un uso en contraindicación de ficha que exige decisión compartida y documentada.",
+   "fuente": "Ficha técnica de Plenur (CIMA), 4.3; Wesseloo 2016, PMID 26514657"
+  },
+  {
+   "id": "litio_embarazo",
+   "gravedad": "menor",
+   "antes": "La BAP 2016 sitúa el litio entre los fármacos con riesgo teratógeno bajo o nulo y aconseja, tras la exposición en el primer trimestre, ofrecer diagnóstico prenatal con ecografía de alta resolución a las 16-18 semanas (Goodwin 2016)",
+   "despues": "La BAP 2016 sitúa el litio entre los fármacos de riesgo teratógeno bajo o nulo y, tras la exposición en el primer trimestre, aconseja ecografía de alta resolución a las 16-18 semanas (Goodwin 2016)",
+   "fuente": "Goodwin 2016, texto completo PMC4922419 (recorte de longitud; contenido verificado)"
+  },
+  {
+   "id": "litio_embarazo",
+   "gravedad": "menor",
+   "antes": "y suspender el litio 24-48 h antes del parto redujo la litemia materna en 0,28 mEq/l (Newport 2005)",
+   "despues": "y una suspensión breve antes del parto redujo la litemia materna (Newport 2005)",
+   "fuente": "Newport 2005, PMID 16263858; se retira el intervalo horario para no sugerir una pauta"
+  },
+  {
+   "id": "litio_embarazo",
+   "gravedad": "mayor",
+   "antes": "y advierte de su excreción en la leche (4.6)",
+   "despues": "y contraindica la lactancia porque se excreta en la leche (4.3 y 4.6)",
+   "fuente": "Ficha técnica de Plenur (CIMA), 4.3 y 4.6"
+  },
+  {
+   "id": "litio_embarazo",
+   "gravedad": "mayor",
+   "antes": "El síndrome de Brugada, el hipotiroidismo no tratado, la insuficiencia renal grave y la deshidratación o depleción de sodio graves son contraindicaciones (4.3).",
+   "despues": "Son contraindicaciones el embarazo y la lactancia, la insuficiencia renal grave, la enfermedad cardiovascular grave o con arritmia, la deshidratación o depleción de sodio graves, el síndrome de Brugada y el hipotiroidismo no tratado (4.3).",
+   "fuente": "Ficha técnica de Plenur (CIMA), 4.3: la lista original omitía embarazo y lactancia y la cardiopatía"
+  },
+  {
+   "id": "vpa_bip",
+   "gravedad": "menor",
+   "antes": "con cautela en mujeres en edad fértil (Yatham 2018)",
+   "despues": "con cautela en personas con capacidad de gestar (Yatham 2018)",
+   "fuente": "Regla 4 del encargo (redacción neutra); Yatham 2018: «women of childbearing age»"
+  },
+  {
+   "id": "vpa_bip",
+   "gravedad": "menor",
+   "antes": "no indicado en mujeres con capacidad de gestar (Goodwin 2016)",
+   "despues": "no indicado en personas con capacidad de gestar (Goodwin 2016)",
+   "fuente": "Regla 4 del encargo (redacción neutra)"
+  }
+ ],
+ "sin_resolver": [
+  "litio_embarazo (texto publicado): la ficha técnica de Plenur (CIMA, nº 48932) incluye literalmente «Embarazo y lactancia» en 4.3 (contraindicaciones). La descripción publicada dice solo que la ficha «indica no administrarlo en el embarazo» y el rasgo y el tx hablan de «recomendación de suspenderlo». Corrección propuesta para la descripción: «La ficha técnica de Plenur contraindica el litio en el embarazo y la lactancia (4.3) e indica no administrarlo en el embarazo, sobre todo en el primer trimestre, y suspenderlo si el embarazo es planificado (4.6)». Para el tx: sustituir «se aparta de la recomendación de la ficha técnica de suspenderlo en el embarazo planificado» por «es un uso en contraindicación de ficha técnica (Plenur, 4.3)». Advertir también que reinstaurar el litio tras el parto choca con la contraindicación en la lactancia (4.3 y 4.6). Cambiar «ecocardiografía fetal a las 18-20 semanas [fuente no localizada]» por «ecografía de alta resolución a las 16-18 semanas tras la exposición en el primer trimestre (Goodwin 2016, BAP; CANMAT 2018: ecografía fetal)».",
+  "oxcarbazepina (texto publicado): Dong 2005 (PMID 16380624; resumen comprobado: hiponatremia con sodio de 134 mEq/l o menos en el 29,9 % con oxcarbazepina frente al 13,5 % con carbamazepina, y grave, con 128 mEq/l o menos, en el 12,4 % frente al 2,8 %) y la ficha de Trileptal (4.4 y 4.8: sodio inferior a 125 mmol/l hasta en el 2,7 %) sustentan la «mayor frecuencia de hiponatremia» de la descripción, así que puede retirarse su «[fuente no localizada]» citando Dong 2005. En el tx, el control del sodio con diuréticos, desmopresina o AINE está en la ficha de Trileptal (4.4), por lo que también podría retirarse su marcador, con la salvedad de que la ficha no menciona los ISRS.",
+  "vpa_bip (texto publicado): la descripción dice «Contraindicado en mujeres en edad fértil». No es exacto (la ficha de Depakine Crono, 4.3, y la nota de la AEMPS MUH (FV) 3/2018 lo contraindican salvo que no haya alternativa y se cumpla el plan de prevención de embarazos) y no usa redacción neutra. Propuesta: «Contraindicado en el embarazo en el trastorno bipolar y en personas con capacidad de gestar salvo falta de alternativa y cumplimiento del plan de prevención de embarazos (ficha técnica, 4.3; AEMPS 2018)».",
+  "dep_bip_tx (texto publicado): el tx «Lurasidona (1ª línea, TB-I y TB-II)» contradice CANMAT/ISBD 2018 (tabla 19: en la depresión bipolar II solo la quetiapina es de primera línea, y la lurasidona no figura). El rasgo «Fármacos con aprobación: quetiapina, lurasidona, cariprazina, lumateperona, olanzapina-fluoxetina» corresponde a aprobaciones de la FDA: en España, lurasidona (Latuda) y cariprazina (Reagila) solo tienen indicación en esquizofrenia (CIMA, 4.1). Conviene aclararlo en la ficha publicada.",
+  "CANMAT/ISBD 2018 (PMID 29536616): metadatos comprobados en PubMed (Yatham LN et al., Bipolar Disord 2018;20:97-170). Las tablas de jerarquía 14 y 17 son imágenes en PMC. Los niveles de evidencia citados se contrastaron con el texto, salvo el nivel 2 de la lamotrigina en monoterapia y como adición en la depresión bipolar I, que coincide con el resumen (primera línea) pero no se pudo leer en la tabla.",
+  "desprescr_bzd: la remisión a la ficha chemsex_arv sobre ritonavir y benzodiacepinas es coherente con lo publicado (la ficha de Norvir contraindica midazolam oral, triazolam, diazepam, clorazepato, estazolam y flurazepam). La ficha técnica de Norvir no se ha leído en CIMA en esta sesión.",
+  "Nota de la EMA de 2018 sobre valproato y embarazo: el servidor de la EMA devolvió el error 429 y no se pudo leer. El contenido se sustenta en la nota de la AEMPS MUH (FV) 3/2018, que sí se leyó y que recoge las recomendaciones del PRAC. La nota de prensa del PRAC de 12 de enero de 2024 y la nota de la AEMPS MUH (FV) 01/2024 sí se leyeron.",
+  "Riesgo aditivo de hiponatremia o de efecto serotoninérgico con MDMA (carbamazepina, oxcarbazepina, litio) y las demás interacciones con sustancias del chemsex: se mantienen con «[fuente no localizada]» porque no se ha encontrado fuente primaria."
+ ]
+}

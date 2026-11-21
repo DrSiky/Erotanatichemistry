@@ -1,0 +1,1132 @@
+{
+ "patch": {
+  "panss": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La PANSS se publicó en 1987 (Kay, Fiszbein y Opler) como escala heteroaplicada de 30 ítems puntuados de 1 a 7 a partir de una entrevista clínica semiestructurada, información del personal y de la familia; la distribución por subescalas ya figura en la ficha. El tiempo de aplicación habitual es de 30-50 minutos y el marco temporal, la última semana [fuente no localizada]. Exige formación específica y entrenamiento en fiabilidad con casos grabados; los derechos de autor pertenecen al editor comercial (Multi-Health Systems), por lo que su uso en ensayos está sujeto a licencia [fuente no localizada]. Instrumentos complementarios de síntomas negativos: la SANS (Andreasen 1982) define cinco complejos (aplanamiento afectivo, alogia, abulia, anhedonia y alteración atencional); la BNSS (Kirkpatrick 2011) tiene 13 ítems y cinco dominios (aplanamiento, alogia, asociabilidad, anhedonia y abulia); la CAINS (Kring 2013) tiene 13 ítems en dos escalas, expresión (4) y motivación-placer (9). Validaciones españolas: PANSS en 100 pacientes con esquizofrenia DSM-III-R (Peralta y Cuesta 1994) y BNSS en un estudio multicéntrico con 20 pacientes (Mané 2014).",
+     "links": [
+      {
+       "ids": [
+        "sneg",
+        "esqneg"
+       ],
+       "t": "síntomas negativos"
+      },
+      {
+       "ids": [
+        "cgi_bprs"
+       ],
+       "t": "BPRS y CGI"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "entrevistas estructuradas"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En 82 pacientes con esquizofrenia aguda y crónica, la fiabilidad entre evaluadores de las cuatro escalas de la PANSS estuvo en torno a 0,80 y hubo validez de criterio y de constructo; las escalas positiva y negativa se correlacionaron de forma inversa una vez descontada la psicopatología general (Kay 1988). La validación española confirmó la buena fiabilidad entre evaluadores y la validez de criterio frente a la SAPS y la SANS, pero halló una consistencia interna modesta y una validez factorial insuficiente de la escala positiva, compatible con al menos tres síndromes (positivo, desorganización y negativo) (Peralta y Cuesta 1994). Un modelo de consenso de cinco factores ajustó mejor que las tres subescalas originales en 458 pacientes de origen europeo (CFI 0,970) y 164 japoneses (CFI 0,964) (Wallwork 2012). La SANS mostró una fiabilidad entre evaluadores excelente cuando los síntomas se definen por indicadores conductuales (Andreasen 1982). La BNSS obtuvo coeficientes de correlación intraclase de 0,93 en la puntuación total y de 0,89-0,95 en las subescalas (Kirkpatrick 2011); su versión española, 0,97, con test-retest r = 0,95 y alfa 0,98 (Mané 2014). La CAINS, en 162 pacientes ambulatorios, fue independiente de la depresión, los efectos adversos y la cognición, y se asoció al funcionamiento laboral, social y de vida independiente (Kring 2013).",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "pensconc",
+        "descarril"
+       ],
+       "t": "desorganización"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "La PANSS es la medida de gravedad y de cambio de referencia en ensayos y unidades especializadas; no es un instrumento diagnóstico, sino que cuantifica síntomas una vez establecido el diagnóstico con entrevista clínica o estructurada. Las equivalencias con la CGI y los porcentajes de mejoría ya se recogen en la ficha «cgi_bprs». Los criterios de consenso de remisión sintomática usan umbrales de gravedad mantenidos en el tiempo y no porcentajes de cambio (Andreasen 2005; véase «rempar»). La conferencia de consenso NIMH-MATRICS consideró insuficientes las escalas clásicas para los síntomas negativos y recomendó medir por separado aplanamiento, alogia, asociabilidad, anhedonia y abulia, origen de la BNSS y la CAINS (Kirkpatrick 2011; Kring 2013). Límites: la puntuación depende del entrevistador y de su formación; ítems como el contenido inusual del pensamiento o la suspicacia exigen valorar el contexto cultural, religioso y de discriminación (véase «cfi»), y los rasgos autistas o la depresión pueden puntuarse erróneamente como síntomas negativos [fuente no localizada]. Su uso pericial para inferir imputabilidad o peligrosidad carece de validación [fuente no localizada]; describe síntomas en un momento, no capacidades jurídicas.",
+     "links": [
+      {
+       "ids": [
+        "rempar"
+       ],
+       "t": "remisión"
+      },
+      {
+       "ids": [
+        "cfi",
+        "context"
+       ],
+       "t": "formulación cultural"
+      },
+      {
+       "ids": [
+        "cdss"
+       ],
+       "t": "depresión en esquizofrenia"
+      },
+      {
+       "ids": [
+        "imputabilidad",
+        "perit_forense"
+       ],
+       "t": "pericia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kay SR, Opler LA & Lindenmayer JP (1988). Reliability and validity of the positive and negative syndrome scale for schizophrenics. Psychiatry Res 23:99-110 · PMID 3363019",
+    "Peralta Martín V & Cuesta Zorita MJ (1994). Validación de la escala de los síndromes positivo y negativo (PANSS) en una muestra de esquizofrénicos españoles. Actas Luso Esp Neurol Psiquiatr Cienc Afines 22:171-177 · PMID 7810373",
+    "Wallwork RS et al. (2012). Searching for a consensus five-factor model of the Positive and Negative Syndrome Scale for schizophrenia. Schizophr Res 137:246-250 · PMID 22356801",
+    "Andreasen NC (1982). Negative symptoms in schizophrenia. Definition and reliability. Arch Gen Psychiatry 39:784-788 · PMID 7165477",
+    "Kirkpatrick B et al. (2011). The brief negative symptom scale: psychometric properties. Schizophr Bull 37:300-305 · PMID 20558531",
+    "Kring AM et al. (2013). The Clinical Assessment Interview for Negative Symptoms (CAINS): final development and validation. Am J Psychiatry 170:165-172 · PMID 23377637",
+    "Mané A et al. (2014). Spanish adaptation and validation of the Brief Negative Symptoms Scale. Compr Psychiatry 55:1726-1729 · PMID 24997648",
+    "Andreasen NC et al. (2005). Remission in schizophrenia: proposed criteria and rationale for consensus. Am J Psychiatry 162:441-449 · PMID 15741458"
+   ],
+   "relAdd": [
+    "cfi",
+    "esqneg"
+   ]
+  },
+  "cgi_bprs": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La CGI procede del manual ECDEU del NIMH (Guy 1976): dos ítems heteroaplicados de 7 puntos (gravedad y mejoría) y un índice de eficacia que combina mejoría y efectos adversos [fuente no localizada para el índice]; se puntúa tras la valoración clínica habitual y requiere experiencia con la población tratada. Hay adaptaciones específicas: la CGI-BP para el trastorno bipolar corrige incoherencias de escala, fija los periodos de comparación y separa los efectos adversos de la mejoría, con manual de uso (Spearing 1997); la CGI-SCH, desarrollada en España dentro del estudio SOHO, puntúa por separado los síntomas positivos, negativos, depresivos y cognitivos y la gravedad global (Haro 2003). La BPRS (Overall y Gorham 1962) es heteroaplicada mediante entrevista; la versión ampliada de 24 ítems con anclajes conductuales se usa en investigación [fuente no localizada]. Ninguna de las dos tiene licencia comercial conocida [fuente no localizada]. Validación española de la CGI-SCH: el estudio original incluyó centros españoles (Haro 2003); validación española de la BPRS [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tb1",
+        "tb2"
+       ],
+       "t": "trastorno bipolar"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "panss"
+       ],
+       "t": "PANSS"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En la validación de la CGI-SCH en 114 pacientes con esquizofrenia, las correlaciones con la PANSS y la GAF fueron altas (la mayoría por encima de 0,75, sobre todo en síntomas positivos y negativos) y la fiabilidad entre evaluadores fue sustancial (CCI > 0,70) en todas las dimensiones salvo la depresiva (CCI 0,64); fue sensible al cambio (Haro 2003). La CGI-BP mostró fiabilidad entre evaluadores en análisis preliminares (Spearing 1997). En el metaanálisis de 26 análisis factoriales de la BPRS (17 620 personas), los 18 ítems se agruparon en cuatro componentes nucleares y, en una solución de cinco, en afecto (ansiedad, culpa, depresión, somático), síntomas positivos, síntomas negativos, resistencia (hostilidad, falta de cooperación, suspicacia) y activación; este último componente solo se sostuvo bien en muestras de esquizofrenia (Shafer 2005). La CGI global no tiene propiedades de sensibilidad o especificidad diagnósticas, porque no es un instrumento diagnóstico.",
+     "links": [
+      {
+       "ids": [
+        "mbc"
+       ],
+       "t": "atención basada en medidas"
+      },
+      {
+       "ids": [
+        "sneg"
+       ],
+       "t": "síntomas negativos"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: la CGI sirve como medida mínima de gravedad y cambio en la práctica y en estudios observacionales; la CGI-SCH se propuso expresamente para la práctica clínica habitual por su brevedad (Haro 2003) y la CGI-BP para seguir episodios maníacos y depresivos y la profilaxis (Spearing 1997). La BPRS aporta un perfil sintomático más amplio que la PANSS en menos tiempo y es útil en servicios generales e investigación de efectividad. Límites: la CGI refleja el juicio de un clínico concreto y su marco de referencia, por lo que no es comparable entre evaluadores sin anclajes ni formación; la CGI-I mezcla mejoría y tolerabilidad si no se separan, problema que motivó la CGI-BP (Spearing 1997). La subescala depresiva de la BPRS discrimina peor que la CDSS (ver «cdss»). En población migrante, con barreras idiomáticas o en personas neurodivergentes, la valoración global puede confundir diferencias de comunicación con gravedad [fuente no localizada]; conviene intérprete profesional. No debe usarse en pericia como medida de gravedad sin otra exploración estructurada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cdss"
+       ],
+       "t": "CDSS"
+      },
+      {
+       "ids": [
+        "interprete_clinico",
+        "cfi"
+       ],
+       "t": "idioma y cultura"
+      },
+      {
+       "ids": [
+        "ymrs",
+        "hamd_madrs"
+       ],
+       "t": "escalas afectivas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Haro JM et al. (2003). The Clinical Global Impression-Schizophrenia scale: a simple instrument to measure the diversity of symptoms present in schizophrenia. Acta Psychiatr Scand Suppl (416):16-23 · PMID 12755850",
+    "Spearing MK et al. (1997). Modification of the Clinical Global Impressions (CGI) Scale for use in bipolar illness (BP): the CGI-BP. Psychiatry Res 73:159-171 · PMID 9481807",
+    "Shafer A (2005). Meta-analysis of the brief psychiatric rating scale factor structure. Psychol Assess 17:324-335 · PMID 16262458"
+   ],
+   "relAdd": [
+    "tb1",
+    "interprete_clinico"
+   ]
+  },
+  "caarms_sips": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La CAARMS (Yung 2005, Melbourne) y la SIPS con la escala SOPS (Miller 2003, Yale) son entrevistas semiestructuradas heteroaplicadas que exigen un evaluador clínico entrenado; la SIPS alcanzó fiabilidad excelente tras un taller de día y medio (Miller 2003). La SOPS consta de 19 ítems (Comparelli 2011), lo que precisa el número de ítems no localizado en la ficha. La duración de la entrevista suele superar la hora [fuente no localizada]. Ambas requieren registro o permiso de sus autores para su uso [fuente no localizada]. La guía de la Asociación Europea de Psiquiatría recomienda evaluar en paralelo los criterios de ultra alto riesgo y el criterio de síntomas básicos de alteraciones cognitivas (COGDIS), evaluado con la SPI-A (Schultze-Lutter 2015; véase «ease_ins»). Validación española: la CAARMS-S, en un estudio longitudinal con 36 personas de ultra alto riesgo, 43 con primer episodio y 14 controles del programa de intervención temprana de Cataluña (Barajas 2026); la versión española de la SOPS tiene estructura factorial similar a la inglesa y la italiana, según Comparelli 2011, sin cita primaria verificada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "urh",
+        "psaten"
+       ],
+       "t": "alto riesgo y psicosis atenuada"
+      },
+      {
+       "ids": [
+        "bsabs",
+        "ease_ins"
+       ],
+       "t": "síntomas básicos (SPI-A)"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "CAARMS-S (Barajas 2026): consistencia interna alfa 0,93 y fiabilidad interobservador CCI 0,92; validez de constructo por diferencias en la subescala positiva de la PANSS entre grupos y correlaciones con la PANSS positiva (0,608), negativa (0,495) y general (0,577); fue sensible al cambio, más que la PANSS en síntomas negativos; solo un participante de ultra alto riesgo (3,3 %) transitó a psicosis a 6 meses, cifra que impide estimar validez predictiva. SOPS italiana en 128 personas que consultaban por primera vez: estructura trifactorial (positiva, negativa y general, con la desorganización repartida) que explicó el 90 % de la varianza y validez convergente con la BPRS (Comparelli 2011). En el metaanálisis de la EPA (42 muestras, más de 4000 personas), las tasas de transición fueron similares con criterios de ultra alto riesgo y con COGDIS hasta los 2 años y mayores con COGDIS después; el criterio de riesgo genético con deterioro funcional apenas se cumplió y no mostró efecto significativo, y la transición fue menor en niños y adolescentes (Schultze-Lutter 2015). La precisión global (AUC 0,90) ya consta en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "pep"
+       ],
+       "t": "primer episodio"
+      },
+      {
+       "ids": [
+        "panss"
+       ],
+       "t": "PANSS"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirven para identificar a personas que solicitan ayuda y cumplen criterios de alto riesgo clínico, ofrecerles seguimiento e intervenciones psicosociales y medir su evolución; no diagnostican psicosis ni predicen individualmente quién la desarrollará. La EPA recomienda aplicarlas solo en personas con problemas mentales que buscan ayuda, combinar criterios de ultra alto riesgo y COGDIS, y tener en cuenta que en menores la transición es menor (Schultze-Lutter 2015). NICE CG178 desaconseja los antipsicóticos para reducir el riesgo de psicosis (ya en la ficha). Límites: el valor predictivo cae fuera de servicios especializados; el consumo de sustancias (incluido el chemsex con estimulantes) puede generar síntomas atenuados que no equivalen a riesgo endógeno [fuente no localizada]; las experiencias espirituales, el estrés de minorías y la discriminación pueden puntuarse como suspicacia o ideas inusuales si no se contextualizan (véanse «cfi» y «genero») [fuente no localizada]. La etiqueta de «riesgo» tiene efectos de estigma y no debe trasladarse a informes laborales o periciales como pronóstico.",
+     "links": [
+      {
+       "ids": [
+        "tccp"
+       ],
+       "t": "TCC para psicosis"
+      },
+      {
+       "ids": [
+        "genero",
+        "cfi"
+       ],
+       "t": "minorías y cultura"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "valor predictivo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Schultze-Lutter F et al. (2015). EPA guidance on the early detection of clinical high risk states of psychoses. Eur Psychiatry 30:405-416 · PMID 25735810",
+    "Comparelli A et al. (2011). Factor-structure of the Italian version of the Scale Of Prodromal Symptoms (SOPS): a comparison with the English version. Epidemiol Psychiatr Sci 20:45-54 · PMID 21657115",
+    "Barajas A et al. (2026). Detection of psychosis risk: reliability and validity of the Spanish version of the Comprehensive Assessment of At-Risk Mental States interview (CAARMS-S). Front Psychol 17:1726125 · PMID 42052045"
+   ],
+   "relAdd": [
+    "ease_ins",
+    "genero"
+   ]
+  },
+  "cdss": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollada por Addington, Addington y Schissel (1990) en Calgary y presentada en su forma definitiva en 1993; heteroaplicada mediante entrevista semiestructurada con preguntas guía para cada ítem y un último ítem observacional, con marco temporal de las dos semanas previas [fuente no localizada]. Su aplicación dura unos 15-20 minutos [fuente no localizada] y la puede realizar un clínico entrenado en entrevista psiquiátrica; los autores facilitan el manual y piden registro para su uso, aunque el uso clínico no comercial es gratuito [fuente no localizada]. Su contenido (ítems y anclajes) no se reproduce aquí. Validación española: Sarró 2004 (cifras en la ficha).",
+     "links": [
+      {
+       "ids": [
+        "hamd_madrs"
+       ],
+       "t": "escalas de depresión"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "entrevista"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Especificidad frente a síntomas negativos y extrapiramidales: en 100 pacientes ambulatorios y 50 ingresados con esquizofrenia, la CDSS no se correlacionó con la escala de Simpson-Angus y solo débilmente (0,33) con la subescala negativa de la PANSS en ingresados; el análisis factorial confirmatorio apoyó la separación entre depresión, síntomas negativos y extrapiramidales (índice de bondad de ajuste 0,89) (Addington 1994). Comparación con la HAM-D en 112 pacientes ingresados, 89 reevaluados a los 3 meses: la CDSS no se correlacionó con los síntomas positivos ni negativos, mientras que la HAM-D sí, y tuvo menos factores y menor solapamiento, por lo que es una medida de depresión más específica en esta población (Addington 1996). El rendimiento diagnóstico (sensibilidad y especificidad en el corte 5) procede de la versión española y figura en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "escalas_motor"
+       ],
+       "t": "Simpson-Angus"
+      },
+      {
+       "ids": [
+        "sneg"
+       ],
+       "t": "síntomas negativos"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: medir y seguir la depresión en personas con esquizofrenia en fase aguda, postpsicótica o estable, y separarla de los síntomas negativos y de la acatisia o el parkinsonismo farmacológicos (Addington 1994, 1996). No es un instrumento diagnóstico de episodio depresivo ni sustituye la valoración del riesgo suicida: su ítem de suicidio no debe utilizarse como predictor individual, en línea con la advertencia de la guía NICE NG225 sobre las escalas de riesgo [fuente no localizada para su aplicación específica a la CDSS]. Límites: se validó sobre todo en adultos con esquizofrenia de larga evolución; en primeros episodios, adolescentes, trastorno esquizoafectivo o psicosis por sustancias su rendimiento está menos estudiado [fuente no localizada]; el ítem de ideas de referencia de culpa requiere cuidado si hay ideación delirante. En personas con poca expresión emocional por rasgos autistas o diferencias culturales en la expresión del malestar, el ítem observado puede sesgarse [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      },
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "acatisia"
+      },
+      {
+       "ids": [
+        "dpsic"
+       ],
+       "t": "depresión postpsicótica"
+      },
+      {
+       "ids": [
+        "pep"
+       ],
+       "t": "primer episodio"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Addington D, Addington J & Maticka-Tyndale E (1994). Specificity of the Calgary Depression Scale for schizophrenics. Schizophr Res 11:239-244 · PMID 8193062",
+    "Addington D, Addington J & Atkinson M (1996). A psychometric comparison of the Calgary Depression Scale for Schizophrenia and the Hamilton Depression Rating Scale. Schizophr Res 19:205-212 · PMID 8789919",
+    "NICE (2022). Self-harm: assessment, management and preventing recurrence (NG225)"
+   ],
+   "relAdd": [
+    "pep"
+   ]
+  },
+  "ease_ins": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La EASE (Parnas 2005) es una lista de comprobación semiestructurada de inspiración fenomenológica para explorar, en entrevista abierta y en profundidad, las anomalías de la experiencia del self en cinco dominios; la EAWE (Sass 2017) amplía la exploración a la experiencia del mundo, y la SPI-A (Schultze-Lutter 2007) evalúa los síntomas básicos de los que derivan los criterios COPER y COGDIS. Son heteroaplicadas; la EASE consta de 57 ítems [fuente no localizada] y su aplicación suele durar entre una y dos horas [fuente no localizada]. Exigen una formación específica en psicopatología fenomenológica, habitualmente mediante cursos acreditados por los autores y entrevistas grabadas [fuente no localizada]. Los manuales se publican en revistas científicas (EASE en Psychopathology) o como libro (SPI-A, editorial Fioriti). Validación española de la EASE, la EAWE o la SPI-A [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "selfips",
+        "ipsei"
+       ],
+       "t": "trastornos del self"
+      },
+      {
+       "ids": [
+        "bsabs"
+       ],
+       "t": "síntomas básicos"
+      },
+      {
+       "ids": [
+        "caarms_sips"
+       ],
+       "t": "entrevistas de alto riesgo"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Fiabilidad de la EASE en 25 pacientes con primer episodio psicótico entrevistados y reevaluados a ciegas mediante vídeo: consistencia interna alfa superior a 0,87, correlación global entre evaluadores superior a 0,80 y kappa media de 0,65 (0,51-0,73 según el dominio), con acuerdo muy bueno o bueno en 29 de 44 ítems (Møller 2011). Validez: en 100 primeros ingresos consecutivos, las anomalías del self se agruparon de forma significativa en el espectro de la esquizofrenia, sin diferencias entre esquizofrenia y trastorno esquizotípico; la escala mostró un solo factor, consistencia interna excelente y correlaciones moderadas con las dimensiones psicopatológicas clásicas (Nordgaard y Parnas 2014). En el metaanálisis de 27 estudios transversales, quienes tenían un trastorno del espectro de la esquizofrenia puntuaron más alto que los controles sanos (g de Hedges 1,8), que las personas con otros trastornos mentales (1,9), que las personas con trastornos bipolares o afectivos (1,8) y que las de alto riesgo clínico (1,6), con heterogeneidad de despreciable a alta (Raballo 2021). La SPI-A aporta el criterio COGDIS, cuyas tasas de transición a psicosis superan a las de los criterios de ultra alto riesgo a partir de los 2 años (Schultze-Lutter 2015).",
+     "links": [
+      {
+       "ids": [
+        "esqtpersonalidad",
+        "esqtclin"
+       ],
+       "t": "esquizotipia"
+      },
+      {
+       "ids": [
+        "pep"
+       ],
+       "t": "primer episodio"
+      },
+      {
+       "ids": [
+        "urh"
+       ],
+       "t": "alto riesgo"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: apoyo al diagnóstico diferencial del espectro de la esquizofrenia en primeros episodios y en estados de alto riesgo, investigación del fenotipo de vulnerabilidad e integración de la tradición fenomenológica en la clínica (Møller 2011; Nordgaard y Parnas 2014). La guía de la EPA recomienda evaluar los síntomas básicos (COGDIS) junto a los criterios de ultra alto riesgo (Schultze-Lutter 2015). No son pruebas de cribado ni diagnósticas por sí mismas: no ofrecen puntos de corte validados para decisiones individuales [fuente no localizada]. Límites: la evidencia procede de pocos grupos, sobre todo nórdicos e italianos, con evaluadores formados por los propios autores; la generalización a otros idiomas y culturas está por demostrar [fuente no localizada]. Experiencias de despersonalización, disociación traumática, consumo de sustancias (cannabis, ketamina, estimulantes) o diferencias de procesamiento en personas autistas pueden parecerse a las anomalías del self y deben diferenciarse en la entrevista [fuente no localizada]. Su uso pericial carece de validación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "desp",
+        "des2"
+       ],
+       "t": "despersonalización y disociación"
+      },
+      {
+       "ids": [
+        "tea_esq_dd"
+       ],
+       "t": "TEA frente a esquizotipia"
+      },
+      {
+       "ids": [
+        "fen_contemp"
+       ],
+       "t": "fenomenología contemporánea"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Møller P et al. (2011). Examination of anomalous self-experience in first-episode psychosis: interrater reliability. Psychopathology 44:386-390 · PMID 21847006",
+    "Nordgaard J & Parnas J (2014). Self-disorders and the schizophrenia spectrum: a study of 100 first hospital admissions. Schizophr Bull 40:1300-1307 · PMID 24476579",
+    "Raballo A et al. (2021). The self in the spectrum: a meta-analysis of the evidence linking basic self-disorders and schizophrenia. Schizophr Bull 47:1007-1017 · PMID 33479736",
+    "Schultze-Lutter F et al. (2015). EPA guidance on the early detection of clinical high risk states of psychoses. Eur Psychiatry 30:405-416 · PMID 25735810"
+   ],
+   "relAdd": [
+    "caarms_sips",
+    "esqtpersonalidad",
+    "pep"
+   ]
+  },
+  "pcl5": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La PCL-5 (Weathers y colaboradores, Centro Nacional para el TEPT de EE. UU., 2013 [fuente no localizada]; evaluación psicométrica inicial publicada por Blevins 2015) es autoaplicada y la puede administrar cualquier profesional sanitario; su interpretación clínica corresponde a un profesional con formación en trauma. La CAPS-5 (Weathers 2018) es una entrevista heteroaplicada de unos 45-60 minutos [fuente no localizada] que exige formación específica. Para la CIE-11, el Cuestionario Internacional de Trauma (ITQ) es un autoinforme de 12 ítems que operativiza el TEPT y el TEPT complejo, obtenido mediante teoría de respuesta al ítem en 1051 personas de comunidad y 247 de muestra clínica del Reino Unido, y de libre acceso (Cloitre 2018). Validaciones españolas de la PCL-5: en 233 pacientes con traumatismo craneoencefálico de cuatro hospitales españoles evaluados a los 6 meses (Haghish 2024) y en 52 profesionales de enfermería de salud mental de Madrid (Jiménez-Fernández 2024); validación española de la CAPS-5 y del ITQ [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      },
+      {
+       "ids": [
+        "desnos"
+       ],
+       "t": "TEPT complejo"
+      },
+      {
+       "ids": [
+        "tce_neuro"
+       ],
+       "t": "traumatismo craneoencefálico"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Versión española en traumatismo craneoencefálico (n = 233; 12,2 % con TEPT provisional): alfa 0,95, correlaciones de 0,70 con el GAD-7 y de 0,74 con el PHQ-9, ítems separables de ambos en el análisis factorial y ajuste solo parcial del modelo de cuatro factores del DSM-5 frente a los modelos de seis y siete factores (Haghish 2024). En enfermería de salud mental (n = 52), alfa 0,929 y 0,935 en test y retest, con reproducibilidad excelente (Jiménez-Fernández 2024). Equivalencia entre idiomas: en el estudio europeo CENTER-TBI, el modelo del DSM-5 mostró invarianza de medida entre seis versiones (incluida la española) (Bockhop 2022). Equivalencia entre grupos: en 3720 jóvenes adultos expuestos a trauma, con amplia representación latina, asiática y negra, hubo invarianza escalar por raza-etnia y género; las mujeres puntuaron más alto en todos los grupos de síntomas (Gallagher 2026). En 596 puertorriqueños tras huracanes frente a 459 personas blancas no latinas, la invarianza fue solo parcial (el ítem de alteración de la memoria funcionó de forma distinta) y el modelo híbrido de siete factores fue el que mejor ajustó (Hidalgo 2026). En 156 veteranos, los puntos de corte previos de la PCL-5 mostraron utilidad diagnóstica de aceptable a buena frente a la CAPS-5 (Lee 2026).",
+     "links": [
+      {
+       "ids": [
+        "gad7",
+        "phq9"
+       ],
+       "t": "GAD-7 y PHQ-9"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "rendimiento del cribado"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: cribado de síntomas de TEPT tras exposición confirmada, medida de gravedad y de cambio durante terapias centradas en el trauma (NICE NG116), y medida de resultado en investigación; la CAPS-5 para el diagnóstico estructurado. No es diagnóstica: no valora el criterio A, la duración, el deterioro ni el diagnóstico diferencial, y no capta los síntomas de autoorganización del TEPT complejo, para los que se usa el ITQ (Cloitre 2018). Poblaciones: en traumatismo craneoencefálico, los síntomas cognitivos y de activación se solapan con las secuelas neurológicas (Haghish 2024); en población latina el ítem de memoria puede no ser equivalente (Hidalgo 2026). En personas LGTBIQ+, la violencia por prejuicio, la discriminación sostenida y el estrés de minorías pueden no encajar en un único suceso índice, lo que exige una exploración narrativa complementaria [fuente no localizada]. Pericia: como autoinforme con validez aparente, es vulnerable a la exageración y a la simulación; en la pericia española del daño psíquico no debe usarse aislada, sino junto con entrevista clínica estructurada, información colateral y pruebas de validez de síntomas [fuente no localizada]; en asilo y tortura rige el Protocolo de Estambul.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "sims_tomm"
+       ],
+       "t": "pericia y simulación"
+      },
+      {
+       "ids": [
+        "protocolo_estambul",
+        "refugio_tept"
+       ],
+       "t": "tortura y asilo"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "estrés de minorías"
+      },
+      {
+       "ids": [
+        "ybocs"
+       ],
+       "t": "escalas de ansiedad (CAPS-5)"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cloitre M et al. (2018). The International Trauma Questionnaire: development of a self-report measure of ICD-11 PTSD and complex PTSD. Acta Psychiatr Scand 138:536-546 · PMID 30178492",
+    "Haghish EF et al. (2024). Validating the Spanish translation of the posttraumatic stress disorder checklist (PCL-5) in a sample of individuals with traumatic brain injury. Front Psychol 15:1216435 · PMID 38911962",
+    "Jiménez-Fernández R et al. (2024). Reliability and validity of the Posttraumatic Stress Disorder Checklist for DSM-5 (PCL-5) test for post-traumatic stress disorder in mental health nurses in Spain. Arch Psychiatr Nurs 50:122-128 · PMID 38789224",
+    "Bockhop F et al. (2022). Measurement invariance of six language versions of the post-traumatic stress disorder checklist for DSM-5 in civilians after traumatic brain injury. Sci Rep 12:16571 · PMID 36195725",
+    "Gallagher MW et al. (2026). Measurement invariance of the PTSD Checklist for DSM-5 across race/ethnicity and gender. J Trauma Stress 39:871-883 · PMID 42333805",
+    "Hidalgo JE et al. (2026). Posttraumatic stress disorder factor structure in hurricane-affected Puerto Ricans: a PTSD Checklist for DSM-5 comparison with non-Latiné White individuals. J Trauma Stress 39:44-56 · PMID 40956133",
+    "Lee DJ et al. (2026). A psychometric examination of computerized adaptive measures of posttraumatic stress disorder among military veterans. Psychol Assess 38:132-141 · PMID 41182773"
+   ],
+   "relAdd": [
+    "tce_neuro",
+    "perit_forense",
+    "protocolo_estambul",
+    "genero"
+   ]
+  },
+  "des2": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Bernstein y Putnam publicaron la DES en 1986 en J Nerv Ment Dis (PMID 3783140); el DES-II de Carlson y Putnam (1993) apareció en la revista Dissociation, no indexada en PubMed. Es autoaplicada, se completa en unos 10 minutos [fuente no localizada] y puede administrarla cualquier profesional sanitario, aunque su interpretación exige experiencia en trastornos disociativos y en trauma. Se distribuye de forma libre para uso clínico y de investigación [fuente no localizada]. Validación española: en una muestra de población española, las puntuaciones fueron similares a las de estudios estadounidenses y europeos, pero los pacientes psiquiátricos tuvieron notable dificultad con el concepto de «porcentaje del tiempo» con que se cuantifica cada experiencia (Icarán 1996); esto corrige la ausencia de validación española señalada en la ficha. La DES se ha usado en muestras españolas junto al SDQ-20 para la disociación somatomorfa [fuente no localizada para su validación].",
+     "links": [
+      {
+       "ids": [
+        "tdi"
+       ],
+       "t": "trastorno de identidad disociativo"
+      },
+      {
+       "ids": [
+        "desp",
+        "disoc_amn"
+       ],
+       "t": "despersonalización y amnesia"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Rendimiento como cribado del trastorno de identidad disociativo (entonces «personalidad múltiple») en un estudio multicéntrico con 1051 personas: sensibilidad y especificidad del 76 % en el análisis discriminante; en un subgrupo de 883 con tasas de base más parecidas a las de un servicio psiquiátrico típico, sensibilidad del 76 % y especificidad del 85 %; el corte de 30 dio resultados similares. Aplicando el teorema de Bayes, solo el 17 % de quienes puntuaban 30 o más tenían el trastorno, mientras que el 99 % de quienes puntuaban menos de 30 no lo tenían (Carlson 1993). Por tanto, el corte de 30 está verificado para esta población, pero con un valor predictivo positivo bajo. En 225 veteranos de Vietnam afroamericanos, blancos e hispanos, la exposición a estrés bélico se asoció a más disociación en los tres grupos y las diferencias entre grupos étnicos desaparecieron al controlar la exposición (Zatzick 1994). Las medias por diagnóstico (Lyssenko 2018) figuran en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "valores predictivos"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: cribado de síntomas disociativos en servicios de salud mental, de trauma y de trastornos de la personalidad, y medida dimensional en investigación; una puntuación alta indica la necesidad de una entrevista diagnóstica específica, no un diagnóstico (Carlson 1993). Su alto valor predictivo negativo permite descartar con bastante seguridad el trastorno de identidad disociativo en puntuaciones bajas en contextos clínicos similares a los estudiados, pero el positivo es bajo (Carlson 1993). Límites: la dificultad para estimar porcentajes de tiempo afecta a la fiabilidad en pacientes españoles (Icarán 1996); la absorción e imaginación es frecuente en población general, en adolescentes y en algunas personas neurodivergentes, lo que puede elevar la puntuación sin patología [fuente no localizada]; las experiencias religiosas o culturales de trance requieren contexto (véase «cfi»). El consumo de ketamina, GHB o cannabis induce disociación transitoria que debe registrarse antes de interpretar la escala [fuente no localizada]. Pericia: como autoinforme transparente es vulnerable a la exageración; en la pericia española no permite afirmar un trastorno disociativo ni la amnesia de un hecho sin entrevista estructurada (SCID-D) y pruebas de validez de síntomas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "sims_tomm"
+       ],
+       "t": "pericia y validez de síntomas"
+      },
+      {
+       "ids": [
+        "cfi",
+        "cult_bound"
+       ],
+       "t": "contexto cultural"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex y disociativos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Carlson EB et al. (1993). Validity of the Dissociative Experiences Scale in screening for multiple personality disorder: a multicenter study. Am J Psychiatry 150:1030-1036 · PMID 8317572",
+    "Icarán E, Colom R & Orengo-García F (1996). Estudio de validación de la escala de experiencias disociativas con muestra de población española. Actas Luso Esp Neurol Psiquiatr Cienc Afines 24:7-10 · PMID 8900971",
+    "Zatzick DF et al. (1994). Does trauma-linked dissociation vary across ethnic groups? J Nerv Ment Dis 182:576-582 · PMID 7931206"
+   ],
+   "relAdd": [
+    "perit_forense",
+    "chemsex_s"
+   ]
+  },
+  "diva_asrs": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "DIVA: entrevista semiestructurada heteroaplicada desarrollada en los Países Bajos por Kooij y Francken (DIVA 2.0, 2010) [fuente no localizada para la cita primaria]; la versión DIVA-5, adaptada a los criterios del DSM-5, se publicó en 2019 (Di Lorenzo 2025). Recorre por separado los 18 criterios en la edad adulta y en la infancia con ejemplos concretos y explora el deterioro en distintas áreas vitales [fuente no localizada para su número]; dura de 60 a 90 minutos [fuente no localizada] y debe aplicarla un clínico con experiencia en TDAH, idealmente con un informante. Es de libre acceso tras registro (Ramos-Quiroga 2019). ASRS: autoinforme de la OMS creado por Kessler (2005), con 18 ítems y un cribado de 6; la ASRS-5 de 6 ítems se adaptó al DSM-5 (Ustun 2017). Lleva menos de 5 minutos y la puede administrar cualquier profesional; su uso clínico es gratuito [fuente no localizada]. Validación española: ASRS v1.1 en adicciones y en consulta ambulatoria (Daigre 2009; Ramos-Quiroga 2009) y DIVA 2.0 en pacientes españoles (Ramos-Quiroga 2019); DIVA-5 y ASRS-5 sin validación española localizada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tdah_adulto"
+       ],
+       "t": "TDAH adulto"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "entrevistas estructuradas"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "DIVA-5 en otros idiomas: en la versión coreana, en 279 personas de nueve consultas psiquiátricas, la precisión diagnóstica frente al juicio de dos psiquiatras fue del 92 %, con sensibilidad 91,30 % y especificidad 93,62 % (Hong 2020); en la versión farsi, en 120 adultos derivados para evaluación, el acuerdo diagnóstico con la SCID-5 fue del 81,66 % y la fiabilidad test-retest y entre evaluadores fue de buena a excelente (Zamani 2021); en la versión italiana, en 132 personas de un centro de cribado, la consistencia interna fue de 0,61-0,78 y las correlaciones con la escala de Barkley de 0,47-0,61 (Di Lorenzo 2025). Las cifras de la DIVA 2.0 y de la ASRS (Kessler 2005; Ustun 2017; Daigre 2009; Ramos-Quiroga 2009; Pettersson 2018) ya constan en la ficha; en conjunto muestran que la ASRS tiene buena especificidad en población general pero pierde especificidad en muestras clínicas y de adicciones, donde los síntomas de otros trastornos elevan la puntuación.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "valores predictivos"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: la ASRS sirve para cribar en atención primaria, adicciones y salud mental; la DIVA estructura la entrevista diagnóstica, que siempre integra la historia del desarrollo, informantes y el diagnóstico diferencial. El consenso europeo actualizado subraya que el TDAH adulto sigue infradiagnosticado y que existen instrumentos de cribado y diagnóstico, pero que el diagnóstico es clínico (Kooij 2019); la guía NICE NG87 exige la evaluación por un especialista con historia completa [fuente no localizada para el texto literal]. Límites: los cribados se elevan en ansiedad, depresión, trastorno bipolar, trastorno límite, trauma y consumo de estimulantes, incluido el chemsex (véase «tdah_dd_adulto»); el recuerdo retrospectivo de la infancia es poco fiable sin informante. Las mujeres y las personas con alta capacidad compensatoria pueden puntuar por debajo del umbral pese a un deterioro real (Kooij 2019 señala la necesidad de investigar las diferencias de género). La coexistencia con el autismo es frecuente y exige explorar ambos. En pericia y en solicitudes de estimulantes o adaptaciones, la ASRS es fácil de exagerar y no debe usarse sin entrevista, informantes y, si procede, pruebas de validez de síntomas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tdah_dd_adulto"
+       ],
+       "t": "diagnóstico diferencial"
+      },
+      {
+       "ids": [
+        "tdah_chemsex",
+        "tdah_sustancias"
+       ],
+       "t": "TDAH y sustancias"
+      },
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "infradiagnóstico en mujeres"
+      },
+      {
+       "ids": [
+        "sims_tomm"
+       ],
+       "t": "validez de síntomas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kooij JJS et al. (2019). Updated European Consensus Statement on diagnosis and treatment of adult ADHD. Eur Psychiatry 56:14-34 · PMID 30453134",
+    "Hong M et al. (2020). Validity of the Korean version of DIVA-5: a semi-structured diagnostic interview for adult ADHD. Neuropsychiatr Dis Treat 16:2371-2376 · PMID 33116536",
+    "Zamani L et al. (2021). Reliability, criterion and concurrent validity of the Farsi translation of DIVA-5: a semi-structured diagnostic interview for adults with ADHD. J Atten Disord 25:1666-1675 · PMID 32486881",
+    "Di Lorenzo R et al. (2025). Validity of the Italian version of DIVA-5: semi-structured diagnostic interview for adult ADHD based on the DSM-5 criteria. Healthcare (Basel) 13:244 · PMID 39942433",
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87)"
+   ],
+   "relAdd": [
+    "tdah_dd_adulto",
+    "tdah_chemsex",
+    "genero_sm"
+   ]
+  },
+  "aq_ados_adir": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "ADOS-2 (Lord y colaboradores, 2012; edición original del ADOS-G en 2000): observación semiestructurada estandarizada mediante actividades y conversación, en cinco módulos (incluido el de niños pequeños) [fuente no localizada] según la edad y el lenguaje expresivo; el módulo 4 se aplica a adolescentes y adultos con lenguaje fluido en unos 40-60 minutos [fuente no localizada]. ADI-R (Lord, Rutter y Le Couteur 1994): entrevista a la madre, el padre u otro cuidador sobre la historia del desarrollo, de unas dos o tres horas [fuente no localizada]. Ambos tienen derechos de autor del editor Western Psychological Services y adaptación española comercializada por TEA Ediciones [fuente no localizada]; para su uso clínico se exige un curso oficial y, para investigación, acreditación de fiabilidad [fuente no localizada]. El AQ-10 se trata en la ficha «aq10». Validación española específica del ADOS-2 o del ADI-R en adultos [fuente no localizada]; la versión española del AQ abreviado mostró validez convergente moderada con el ADOS-2 (Lugo-Marín 2019).",
+     "links": [
+      {
+       "ids": [
+        "aq10"
+       ],
+       "t": "AQ y AQ-10"
+      },
+      {
+       "ids": [
+        "tea_adulto"
+       ],
+       "t": "TEA adulto"
+      },
+      {
+       "ids": [
+        "srs2"
+       ],
+       "t": "SRS-2"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En el metaanálisis de 22 estudios en niños con modelo jerárquico de curvas ROC, el ADOS-2 rindió mejor que el ADI-R: sensibilidad 0,89-0,92 y especificidad 0,81-0,85 para el ADOS-2, y 0,75 y 0,82 para el ADI-R, cuya especificidad fue mayor en muestras de investigación (0,85) que en clínicas (0,72); los estudios en contextos clínicos eran pocos (Lebersfeld 2021). En adultos, la revisión sistemática de 20 estudios concluyó que los instrumentos diagnósticos tienen cierta utilidad entre personas derivadas, pero con especificidad relativamente baja, y que el rendimiento de los cuestionarios cae en las muestras de derivación y al diferenciar el autismo de otros trastornos mentales (Wigham 2019). En 75 adultos de centros comunitarios de salud mental, el ADOS-2 módulo 4 identificó a todas las personas autistas, pero dio un 30 % de falsos positivos entre las personas con psicosis (Maddox 2017). El rendimiento del algoritmo revisado del módulo 4 en muestras de investigación (Hus y Lord 2014) consta en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "tea_esq_dd"
+       ],
+       "t": "TEA frente a psicosis"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "rendimiento diagnóstico"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: apoyo estructurado a la evaluación diagnóstica por un equipo con experiencia, junto con la historia del desarrollo, la observación en varios contextos y la valoración de la comorbilidad (NICE CG142); ninguno establece el diagnóstico por sí solo. Una puntuación del ADOS-2 por encima del corte en una persona con psicosis, ansiedad social grave, depresión o trauma no equivale a autismo (Maddox 2017; Wigham 2019), y una puntuación por debajo no lo descarta en personas que camuflan (véase «tea_camuflaje»). El ADI-R depende de un informante con recuerdo fiable de la primera infancia, a menudo ausente en el diagnóstico tardío, en personas migrantes o en quienes tienen relaciones familiares rotas, situación más frecuente en personas LGTBIQ+ [fuente no localizada]. Las normas proceden sobre todo de niños varones de países anglosajones; en mujeres, personas no binarias y otras culturas la validez es menor o desconocida [fuente no localizada]. En pericia (capacidad, imputabilidad, custodia), el ADOS-2 describe la conducta observada en una sesión y no debe usarse como prueba única del diagnóstico ni de sus consecuencias jurídicas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tea_camuflaje",
+        "tea_mujeres"
+       ],
+       "t": "camuflaje y fenotipo femenino"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "diversidad de género"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "pericia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lebersfeld JB et al. (2021). Systematic review and meta-analysis of the clinical utility of the ADOS-2 and the ADI-R in diagnosing autism spectrum disorders in children. J Autism Dev Disord 51:4101-4114 · PMID 33475930",
+    "Wigham S et al. (2019). Psychometric properties of questionnaires and diagnostic measures for autism spectrum disorders in adults: a systematic review. Autism 23:287-305 · PMID 29439585",
+    "Maddox BB et al. (2017). The accuracy of the ADOS-2 in identifying autism among adults with complex psychiatric conditions. J Autism Dev Disord 47:2703-2709 · PMID 28589494",
+    "Lugo-Marín J et al. (2019). Spanish validation of the Autism Quotient Short Form questionnaire for adults with autism spectrum disorder. J Autism Dev Disord 49:4375-4389 · PMID 31378833",
+    "NICE (2012). Autism spectrum disorder in adults: diagnosis and management (CG142)"
+   ],
+   "relAdd": [
+    "tea_esq_dd",
+    "perit_forense"
+   ]
+  },
+  "aq10": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "El AQ fue desarrollado por Baron-Cohen y colaboradores en el Centro de Investigación del Autismo de Cambridge (2001); el AQ-10 por Allison, Auyeung y Baron-Cohen (2012). Ambos son autoaplicados (existen versiones para progenitores de niños y adolescentes), con respuesta en escala de cuatro opciones que se puntúa de forma dicotómica [fuente no localizada]; el AQ completo requiere unos 10-15 minutos y el AQ-10 menos de 5 [fuente no localizada]. Puede administrarlo cualquier profesional; la interpretación corresponde a un clínico que conozca sus límites. El centro de Cambridge lo distribuye de forma gratuita para uso clínico e investigador [fuente no localizada]. Hay una forma abreviada (AQ-Short, 28 ítems) [fuente no localizada para el número]. Validación española: el AQ-Short se adaptó y validó en 46 adultos autistas, 41 familiares, 17 personas con trastornos del espectro de la esquizofrenia y 190 adultos no clínicos (Lugo-Marín 2019); validación española del AQ-10 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "aq_ados_adir"
+       ],
+       "t": "ADOS-2 y ADI-R"
+      },
+      {
+       "ids": [
+        "tea_adulto",
+        "tea"
+       ],
+       "t": "autismo"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "AQ-Short en español: análisis factorial confirmatorio con dos factores de orden superior (conducta social y números-patrones) y cuatro subescalas (habilidades sociales, rutinas, cambio e imaginación), muy buena estructura interna y fiabilidad test-retest, validez convergente moderada con el ADOS-2, diferencias del grupo autista frente a los demás y diferencias de sexo solo en el grupo no clínico (Lugo-Marín 2019). AQ-10 en 149 adultos autistas y 134 controles: el AQ-50, el AQ-Short y el AQ-10 tuvieron sensibilidad, especificidad y área bajo la curva muy similares en los cortes propuestos, con escasa diferencia entre el AQ-10 y el AQ completo (Booth 2013). En la revisión sistemática de medidas para adultos, la sensibilidad y la especificidad de los cuestionarios fueron mejores en personas con diagnóstico ya confirmado que en personas derivadas para evaluación, y la discriminación frente a otros trastornos mentales fue especialmente limitada (Wigham 2019). Las cifras del estudio original, del AQ-10 de Allison y de Ashwood ya constan en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "efecto de la muestra"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: el AQ-10 es el cribado recomendado por NICE CG142 para decidir la derivación de adultos sin discapacidad intelectual moderada o grave; el AQ completo sirve para medir rasgos en investigación. No es diagnóstico: en servicios de salud mental, un único cuestionario no identifica bien a quien no es autista ni distingue el autismo de otros trastornos (Wigham 2019). Sesgos: las personas que camuflan, muchas mujeres y quienes tienen poca introspección sobre su funcionamiento social pueden puntuar bajo; la ansiedad social y la depresión elevan la puntuación. En cinco cohortes con 641 860 personas, las personas trans y de género diverso puntuaron más alto en autoinformes de rasgos autistas, sistematización y sensibilidad sensorial y más bajo en empatía, con independencia de tener diagnóstico de autismo (Warrier 2020); ello obliga a no interpretar el AQ de forma aislada en consultas de identidad de género y a no usar la puntuación para cuestionar la identidad de la persona. La adaptación cultural y lingüística de ítems sobre intereses y relaciones sociales es limitada [fuente no localizada]. No tiene validez pericial.",
+     "links": [
+      {
+       "ids": [
+        "tea_camuflaje",
+        "tea_mujeres"
+       ],
+       "t": "camuflaje y mujeres"
+      },
+      {
+       "ids": [
+        "genero",
+        "dg_inf"
+       ],
+       "t": "diversidad de género"
+      },
+      {
+       "ids": [
+        "alexitim"
+       ],
+       "t": "alexitimia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Booth T et al. (2013). Brief report: an evaluation of the AQ-10 as a brief screening instrument for ASD in adults. J Autism Dev Disord 43:2997-3000 · PMID 23640304",
+    "Lugo-Marín J et al. (2019). Spanish validation of the Autism Quotient Short Form questionnaire for adults with autism spectrum disorder. J Autism Dev Disord 49:4375-4389 · PMID 31378833",
+    "Wigham S et al. (2019). Psychometric properties of questionnaires and diagnostic measures for autism spectrum disorders in adults: a systematic review. Autism 23:287-305 · PMID 29439585",
+    "Warrier V et al. (2020). Elevated rates of autism, other neurodevelopmental and psychiatric diagnoses, and autistic traits in transgender and gender-diverse individuals. Nat Commun 11:3959 · PMID 32770077"
+   ],
+   "relAdd": [
+    "genero",
+    "tea_camuflaje",
+    "tea_mujeres"
+   ]
+  },
+  "srs2": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La SRS fue creada por Constantino y colaboradores (validación inicial en 2003) y la SRS-2 (Constantino y Gruber 2012) la distribuye comercialmente Western Psychological Services con derechos de autor [fuente no localizada para la licencia]. Consta de 65 ítems puntuados de 1 a 4 [fuente no localizada] que cumplimenta un informante (progenitor, docente, pareja) o la propia persona en la forma adulta de autoinforme; dura 15-20 minutos y la puntuación debe interpretarla un profesional con formación en evaluación del desarrollo. Proporciona una puntuación total y subescalas de conciencia, cognición, comunicación y motivación sociales y de conductas restringidas y repetitivas [fuente no localizada]. Validación española: la SRS-2 para progenitores se estudió en 528 niños y adolescentes con autismo, TDAH o sin diagnóstico, y de ella se derivó una forma breve de 10 ítems (El-Bouhali-Abdellaoui 2025); validación española de la forma adulta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tea",
+        "tea_adulto"
+       ],
+       "t": "autismo"
+      },
+      {
+       "ids": [
+        "aq_ados_adir"
+       ],
+       "t": "ADOS-2 y ADI-R"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Estructura: en 9635 informes que abarcaban edades, gravedades e informantes diversos, un modelo de dos factores (comunicación social y conductas restringidas y repetitivas) ajustó de forma aceptable, con invarianza de medida apreciable por edad, sexo e informante (autoinforme frente a otros), menor entre poblaciones clínicas y no clínicas, y correlaciones entre dominios muy altas (0,66-0,92) (Frazier 2014). Versión española para progenitores (n = 528): estructura unidimensional, alfa 0,96; con un corte de 60 o más, sensibilidad del 69,4 % y especificidad del 88,5 % para autismo; la forma breve de 10 ítems tuvo alfa 0,92, área bajo la curva 0,863 y, con un corte de 5 o más, sensibilidad del 83,8 % y especificidad del 75,3 % (El-Bouhali-Abdellaoui 2025). Las cifras de Constantino 2003 y de la adaptación alemana figuran en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "TDAH"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "puntos de corte"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: medida cuantitativa de rasgos autistas para apoyar la evaluación diagnóstica, describir gravedad, contrastar contextos con varios informantes y seguir la evolución en intervenciones o en estudios del fenotipo ampliado; la forma breve española se propone como cribado en población infantil española (El-Bouhali-Abdellaoui 2025). No diagnostica: la elevada correlación entre dominios y la menor invarianza entre población clínica y general (Frazier 2014) indican que mide una dimensión amplia de dificultad social que también se eleva en TDAH, ansiedad y trastornos de conducta. Los puntos de corte verificados proceden de niños y adolescentes españoles con autismo, TDAH o sin diagnóstico; no se trasladan a adultos [fuente no localizada]. La puntuación depende de las expectativas sociales del informante, que varían con la cultura, el género asignado y la diversidad familiar [fuente no localizada]; en personas trans o de género diverso conviene contrastar varios informantes. No tiene validación pericial.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "cogn_soc"
+       ],
+       "t": "TDAH y cognición social"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "diversidad de género"
+      },
+      {
+       "ids": [
+        "aq10"
+       ],
+       "t": "AQ-10"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Frazier TW et al. (2014). Confirmatory factor analytic structure and measurement invariance of quantitative autistic traits measured by the social responsiveness scale-2. Autism 18:31-44 · PMID 24019124",
+    "El-Bouhali-Abdellaoui F et al. (2025). Psychometric properties of the Social Responsiveness Scale 2nd Edition (SRS-2) and development of a short version in a Spanish sample. J Autism Dev Disord (publicación en línea anticipada) · PMID 40944767"
+   ],
+   "relAdd": [
+    "tea_adulto",
+    "genero"
+   ]
+  },
+  "pid5_lpfs": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "PID-5: autoinforme construido por el grupo de trabajo de personalidad del DSM-5 (Krueger 2012), con respuesta de 0 a 3 [fuente no localizada]; la versión completa requiere 30-40 minutos [fuente no localizada]. La Asociación Americana de Psiquiatría publicó además una forma breve (PID-5-BF) disponible en la web del DSM-5 para su uso (Anderson 2018); hay versión para informantes [fuente no localizada]. LPFS: escala heteroaplicada de cuatro elementos y cinco niveles incluida en la sección III del DSM-5-TR; sus versiones de autoinforme más usadas son la LPFS-SR y la LPFS-BF 2.0, de 12 ítems [fuente no localizada para el número]. La puede usar cualquier clínico formado en evaluación de la personalidad; para la LPFS heteroaplicada se recomienda una entrevista semiestructurada (STiP-5.1 o SCID-5-AMPD) [fuente no localizada]. Validaciones españolas: PID-5 en muestras clínica y comunitaria (Gutiérrez 2017, en la ficha); LPFS-BF 2.0 en población adulta dentro de un estudio en cuatro idiomas (Le Corff 2022) y en 570 adolescentes castellanohablantes (Balzen 2024); LPFS-SR en 1409 personas de dos poblaciones españolas (Sorrel 2022).",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "modelos dimensionales"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "entrevistas estructuradas"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "PID-5-BF: fiabilidad y estructura factorial adecuadas, asociaciones esperables con los trastornos de la sección II y con medidas de psicopatología internalizante y externalizante, y un patrón de correlaciones comparable al de la versión completa y la forma breve de 100 ítems, lo que apoya su uso como cribado de rasgos desadaptativos (Anderson 2018). LPFS-BF 2.0: el modelo de dos factores (self e interpersonal) ajustó bien en las versiones neerlandesa, inglesa, francesa y española, con invarianza configural y métrica por idioma y género e invarianza escalar parcial; las puntuaciones fueron mayores en quienes referían un trastorno mental o habían consultado (Le Corff 2022). En adolescentes españoles (168 con antecedente de negligencia parental y 402 de la comunidad) ajustó un modelo unidimensional con invarianza por género y edad, consistencia interna adecuada y correlaciones negativas con empatía y función reflexiva y positivas con alexitimia, pero la puntuación no distinguió a los adolescentes con negligencia de los comunitarios (Balzen 2024). En población española, el inventario de cinco factores para la CIE-11 se correlacionó de forma alta con la LPFS-SR (Sorrel 2022).",
+     "links": [
+      {
+       "ids": [
+        "tlp"
+       ],
+       "t": "trastorno límite"
+      },
+      {
+       "ids": [
+        "alexitim"
+       ],
+       "t": "alexitimia"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: descripción dimensional de la gravedad (LPFS) y del perfil de rasgos (PID-5) para planificar el tratamiento, comunicar un perfil comprensible y seguir el cambio; la PID-5-BF como cribado de rasgos desadaptativos (Anderson 2018). Aproxima también el modelo de la CIE-11, que solo exige gravedad y especificadores de rasgos (véase «hitop_tp»). No diagnostica por sí solo un trastorno de la personalidad y carece de escalas de validez de respuesta y de puntos de corte clínicos establecidos (Al-Dajani 2016, en la ficha), por lo que es vulnerable a la exageración o la minimización. Límites: el estado afectivo, el trauma reciente y el consumo de sustancias elevan las puntuaciones de afecto negativo y desinhibición [fuente no localizada]; en minorías sexuales y de género, el estrés de minorías y la discriminación pueden inflar el afecto negativo o el desapego sin que ello indique patología de la personalidad [fuente no localizada]; la LPFS-BF 2.0 solo alcanzó invarianza escalar parcial entre idiomas (Le Corff 2022). En la pericia española (imputabilidad, custodia, idoneidad), el PID-5 y la LPFS no están baremados con población forense ni incorporan control de la simulación, por lo que no deben sustentar por sí solos conclusiones periciales [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "estrés de minorías"
+      },
+      {
+       "ids": [
+        "perit_forense",
+        "imputabilidad"
+       ],
+       "t": "pericia"
+      },
+      {
+       "ids": [
+        "p_factor"
+       ],
+       "t": "factor p"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Anderson JL, Sellbom M & Salekin RT (2018). Utility of the Personality Inventory for DSM-5-Brief Form (PID-5-BF) in the measurement of maladaptive personality and psychopathology. Assessment 25:596-607 · PMID 27827808",
+    "Le Corff Y et al. (2022). Construct validity of the Dutch, English, French, and Spanish LPFS-BF 2.0: measurement invariance across language and gender and criterion validity. J Pers Disord 36:662-679 · PMID 36454156",
+    "Balzen KM et al. (2024). The Spanish version of the Level of Personality Functioning Scale - Brief Form 2.0 (LPFS-BF 2.0): psychometric evaluation in adolescents who have suffered from parental abuse and neglect and a community sample. Scand J Child Adolesc Psychiatr Psychol 12:20240012 · PMID 39717151",
+    "Sorrel MA et al. (2022). Psychometric properties of the Five-Factor Personality Inventory for ICD-11 (FFiCD) in Spanish community samples. Psychol Assess 34:281-293 · PMID 34855438"
+   ],
+   "relAdd": [
+    "genero",
+    "perit_forense",
+    "alexitim"
+   ]
+  },
+  "phq15_sss8": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "PHQ-15: módulo somático del Patient Health Questionnaire de Spitzer, Kroenke y Williams, publicado como escala independiente por Kroenke, Spitzer y Williams (2002); autoaplicado, en unos 3-5 minutos [fuente no localizada], con marco temporal de las cuatro semanas previas [fuente no localizada]. SSS-8 (Gierk 2014): versión abreviada de 8 ítems derivada del PHQ-15, con marco de los últimos 7 días [fuente no localizada]. SSD-12 (Toussaint 2016): 12 ítems sobre pensamientos, sentimientos y conductas relacionados con los síntomas (criterio B del DSM-5). Los tres son autoinformes que puede administrar cualquier profesional; su interpretación exige una valoración médica de los síntomas. El PHQ-15 se distribuye sin coste para uso clínico [fuente no localizada]. Validación española: PHQ-15 en personas con depresión o ansiedad (Ros Montalbán 2010, en la ficha); SSS-8 y SSD-12 sin validación española indexada localizada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "somat_sint"
+       ],
+       "t": "trastorno de síntomas somáticos"
+      },
+      {
+       "ids": [
+        "phq9"
+       ],
+       "t": "PHQ-9"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Rendimiento diagnóstico del PHQ-15 en 308 pacientes de dos consultas de atención primaria alemanas examinados con entrevista estructurada: se correlacionó 0,63 con el número total de síntomas y con el de síntomas somatomorfos; aunque no distingue síntomas con o sin explicación médica, recoge muchos síntomas somatomorfos, y el corte de 10 fue el óptimo para el diagnóstico de trastorno somatomorfo, con sensibilidad del 80,2 % y especificidad del 58,5 %; los autores advierten que el corte debe ajustarse al propósito clínico o de investigación (Körber 2011). En una revisión sistemática de 40 cuestionarios de síntomas somáticos, el PHQ-15 y la subescala de somatización del SCL-90 fueron los más adecuados para estudios a gran escala, por sus propiedades psicométricas, contenido, brevedad y disponibilidad en muchos idiomas (Zijlema 2013). Las cifras de Kroenke 2002, Gierk 2014 y Toussaint 2016 constan en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "scl90r"
+       ],
+       "t": "SCL-90-R"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "puntos de corte"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: cuantificar la carga de síntomas somáticos y su cambio en atención primaria, interconsulta, unidades de dolor y trastornos funcionales, y en investigación epidemiológica (Zijlema 2013); la SSD-12 añade la dimensión psicológica necesaria para el diagnóstico del DSM-5. No son diagnósticos: la baja especificidad del PHQ-15 (58,5 % en el corte 10) implica muchos falsos positivos (Körber 2011), y una puntuación alta no indica que los síntomas carezcan de base orgánica. Riesgos de mal uso: emplearlo para etiquetar como «psicógeno» a quien tiene una enfermedad médica no diagnosticada, o para negar prestaciones o bajas; varios ítems (dolor menstrual o en las relaciones sexuales, síntomas digestivos) se ven afectados por enfermedades ginecológicas, infecciones de transmisión sexual, tratamientos hormonales de afirmación de género o tratamiento antirretroviral, que deben registrarse [fuente no localizada]. Las expresiones somáticas del malestar varían entre culturas (véase «idiomas_malestar»). En pericia de daño o incapacidad, al ser autoinformes sin control de validez, no deben usarse aislados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "conv",
+        "crisis_func"
+       ],
+       "t": "trastornos funcionales"
+      },
+      {
+       "ids": [
+        "dolor_cron_prim",
+        "fibro"
+       ],
+       "t": "dolor crónico"
+      },
+      {
+       "ids": [
+        "idiomas_malestar",
+        "cult_bound"
+       ],
+       "t": "expresión cultural"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "pericia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Körber S et al. (2011). Classification characteristics of the Patient Health Questionnaire-15 for screening somatoform disorders in a primary care setting. J Psychosom Res 71:142-147 · PMID 21843748",
+    "Zijlema WL et al. (2013). How to assess common somatic symptoms in large-scale studies: a systematic review of questionnaires. J Psychosom Res 74:459-468 · PMID 23731742"
+   ],
+   "relAdd": [
+    "scl90r",
+    "dolor_cron_prim",
+    "idiomas_malestar"
+   ]
+  },
+  "whiteley": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Índice de Whiteley: autoinforme de Pilowsky (1967) con 14 ítems de respuesta sí/no, hoy también en formato Likert de 5 puntos (Welch 2009) y en versiones de 7 (Fink 1999) y 6 ítems (Fergus 2018). HAI: autoinforme de Salkovskis y colaboradores (2002), con una versión breve de 14 ítems (SHAI) de propiedades comparables a la completa y una versión de estado sensible al tratamiento (Salkovskis 2002). Ambos se completan en menos de 10 minutos [fuente no localizada], los puede administrar cualquier profesional sanitario y son de uso libre en la práctica clínica [fuente no localizada]. Validación española del índice de Whiteley y del SHAI [fuente no localizada]; la Whiteley-6 mostró invarianza de medida en personas latinas atendidas en un centro comunitario de EE. UU., probablemente en inglés (Fergus 2018).",
+     "links": [
+      {
+       "ids": [
+        "iad"
+       ],
+       "t": "ansiedad por enfermedad"
+      },
+      {
+       "ids": [
+        "phq15_sss8"
+       ],
+       "t": "escalas somáticas"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "HAI: alta consistencia interna y fiabilidad; las personas con hipocondría puntuaron más que las que tenían trastorno de pánico, fobia social o ningún trastorno; la versión de estado se correlacionó muy alto con la valoración clínica por entrevista y detectó el efecto del tratamiento cognitivo-conductual (Salkovskis 2002). Puntos de corte: en 347 adultos (158 con ansiedad grave por la salud según el DSM-IV, 97 con TOC y 92 controles) evaluados con la entrevista ADIS, los cortes óptimos para identificar ansiedad grave por la salud fueron 67 en el HAI de 64 ítems [fuente no localizada para la versión exacta], 47 en las Illness Attitude Scales y 5 en el índice de Whiteley, con sensibilidad y especificidad del 92,6-99,4 % y valores predictivos del 91,6-99,4 % sin ajustar por prevalencia (Hedman 2015). Whiteley-6: modelo bifactorial (un factor general y dos específicos) con invarianza configural, métrica y escalar entre 183 personas negras, 173 latinas y 177 blancas en atención primaria (Fergus 2018). Las cifras de la Whiteley-7 (Fink 1999) constan en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm"
+       ],
+       "t": "TOC"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "valores predictivos"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Uso: cribado y medida de gravedad y cambio de la ansiedad por la salud en atención primaria, consultas médicas con demanda repetida y tratamientos cognitivo-conductuales (Salkovskis 2002; Hedman 2015). Los cortes de Hedman 2015 se obtuvieron en una muestra sueca con alta prevalencia del trastorno y controles sanos, por lo que su valor predictivo será menor en atención primaria o en servicios médicos [fuente no localizada para la cifra en otros contextos]. No diagnostica el trastorno de ansiedad por enfermedad ni lo distingue del trastorno de síntomas somáticos, del TOC o de la depresión. Límites: en personas con enfermedad médica grave o incierta, la preocupación puede ser proporcionada; en personas con VIH, en quienes practican chemsex con exposición repetida a infecciones o en quienes han sufrido discriminación sanitaria, la preocupación por la salud puede tener base real y no debe patologizarse sin contexto [fuente no localizada]. La estructura factorial cambia con el formato de respuesta (Welch 2009), por lo que no deben compararse puntuaciones de versiones distintas. Sin validación pericial.",
+     "links": [
+      {
+       "ids": [
+        "somat_sint",
+        "iad"
+       ],
+       "t": "diagnóstico diferencial"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "chemsex y salud sexual"
+      },
+      {
+       "ids": [
+        "tdc",
+        "ybocs"
+       ],
+       "t": "espectro obsesivo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hedman E et al. (2015). Optimal cut-off points on the Health Anxiety Inventory, Illness Attitude Scales and Whiteley Index to identify severe health anxiety. PLoS One 10:e0123412 · PMID 25849477",
+    "Fergus TA, Kelley LP & Griggs JO (2018). The Whiteley Index-6: an examination of measurement invariance among self-identifying Black, Latino, and White respondents in primary care. Assessment 25:247-258 · PMID 27121080"
+   ],
+   "relAdd": [
+    "chemsex_ssex",
+    "toc_dsm"
+   ]
+  }
+ },
+ "add": []
+}

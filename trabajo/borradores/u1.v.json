@@ -1,0 +1,1201 @@
+{
+ "patch": {
+  "ansiol_bzd": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías restringen las benzodiacepinas a usos breves y concretos. En el TAG, NICE CG113 no las ofrece salvo como medida a corto plazo durante crisis (1.2.26) y, en el trastorno de pánico, establece que se asocian a peor evolución a largo plazo y no deben prescribirse (1.3.20). En el insomnio crónico, la guía europea sitúa la TCC-I en primera línea y admite benzodiacepinas y agonistas del receptor benzodiacepínico solo a corto plazo (≤ 4 semanas, nivel A), con uso más prolongado en algunos casos tras ponderar ventajas e inconvenientes (nivel B) (Riemann 2023). Evidencia comparativa: en el TAG fueron eficaces pero peor toleradas que placebo (Slee 2019); en el insomnio, eficaces en el tratamiento agudo y superiores a la melatonina, con peor tolerabilidad y sin datos a largo plazo (De Crescenzo 2022); en el pánico, sin diferencia de respuesta frente a antidepresivos, con evidencia de baja calidad (Bighelli 2016). En la abstinencia alcohólica, solo el diazepam en pauta fija redujo el delirium tremens en un metaanálisis en red (Bahji 2022). En el embarazo y el posparto, NICE CG192 solo las admite para la ansiedad grave y la agitación a corto plazo (1.4.18). Las indicaciones autorizadas difieren entre principios activos: véanse las fichas individuales.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "panic",
+        "farm_anx"
+       ],
+       "t": "ansiedad: guías y alternativas"
+      },
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio: TCC-I primero"
+      },
+      {
+       "ids": [
+        "dt_alc",
+        "anx_perinatal"
+       ],
+       "t": "abstinencia alcohólica y periodo perinatal"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Moduladores alostéricos positivos del receptor GABA-A; las diferencias clínicas entre principios activos dependen sobre todo de la farmacocinética. El diazepam tiene semivida larga y metabolito activo y se metaboliza por CYP2C19 y CYP3A4; el alprazolam depende de CYP3A4 (fichas técnicas de Valium y Trankimazin, 4.5); el lormetazepam se elimina de forma casi exclusiva por glucuronidación a un conjugado inactivo (ficha técnica de Noctamid, 5.2). Efectos adversos de clase: sedación, alteración psicomotriz, amnesia anterógrada incluso a dosis terapéuticas y reacciones paradójicas (agitación, agresividad, alucinaciones) (ficha técnica de Valium, 4.4). En conducción, el uso de benzodiacepinas se asoció a más colisiones de tráfico en estudios de casos y controles (OR 1,61; IC 95 % 1,21-2,13) y de cohortes (OR 1,60), con mayor desviación de la posición lateral en pruebas en carretera (Rapoport 2009). Uso indebido: en 2017 las benzodiacepinas y otros tranquilizantes fueron la tercera sustancia de uso indebido en Estados Unidos (alrededor del 2,2 % de la población), asociado al consumo de otras sustancias, a la prescripción previa y a trastornos psiquiátricos, y a mortalidad y conductas de riesgo para VIH y VHC (Votaw 2019).",
+     "links": [
+      {
+       "ids": [
+        "neuroadapt_sed",
+        "bzd_dep"
+       ],
+       "t": "tolerancia y dependencia"
+      },
+      {
+       "ids": [
+        "diazepam",
+        "alprazolam",
+        "lormetazepam",
+        "lorazepam"
+       ],
+       "t": "fichas por principio activo"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Opioides: el uso concomitante con opioides se asoció a más visitas a urgencias o ingresos por sobredosis (OR ajustada 2,14; IC 95 % 2,05-2,24) (Sun 2017); las fichas técnicas advierten de sedación profunda, depresión respiratoria, coma y muerte y reservan la combinación para cuando no hay alternativa (ficha técnica de Trankimazin, 4.4). Alcohol y otros depresores: evitar la asociación por riesgo de coma o muerte (ficha técnica de Valium, 4.4). GHB/GBL: producen depresión del SNC y respiratoria (Schep 2012); la magnitud de su potenciación con benzodiacepinas no está cuantificada [fuente no localizada]; a la vez, las benzodiacepinas son el tratamiento de elección de la abstinencia de GHB (Schep 2012). Antirretrovirales potenciados: el ritonavir está contraindicado con diazepam y clorazepato (ficha técnica de Norvir, 4.3) y el cobicistat puede aumentar las concentraciones de diazepam (ficha técnica de Tybost, 4.5); el riesgo mayor de interacción en el chemsex se concentra en las pautas potenciadas (Bracchi 2015). Uso para mitigar la bajada de estimulantes (metanfetamina, catinonas, MDMA) e interacciones con poppers o inhibidores de la PDE5 [fuente no localizada]. Embarazo: sin aumento global de malformaciones (OR 1,13; IC 95 % 0,99-1,30), pero sí con antidepresivo concomitante (OR 1,40) (Grigoriadis 2019); hipotonía, hipotermia y depresión respiratoria neonatal con uso tardío (ficha técnica de Valium, 4.6).",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "alcohol"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "ghb_abst"
+       ],
+       "t": "GHB: intoxicación y abstinencia"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "metanf",
+        "mefed"
+       ],
+       "t": "chemsex e interacciones"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management (CG113), recomendaciones 1.2.25, 1.2.26, 1.3.20 y 1.3.21; consulta de noviembre de 2026",
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "Bighelli I et al. (2016). Antidepressants and benzodiazepines for panic disorder in adults. Cochrane Database Syst Rev 9:CD011567 · PMID 27618521",
+    "Bahji A et al. (2022). Comparative efficacy and safety of pharmacotherapies for alcohol withdrawal: a systematic review and network meta-analysis. Addiction 117:2591-2601 · PMID 35194860",
+    "NICE (2014). Antenatal and postnatal mental health: clinical management and service guidance (CG192), recomendaciones 1.4.18 y 1.4.19; consulta de noviembre de 2026",
+    "Rapoport MJ et al. (2009). Benzodiazepine use and driving: a meta-analysis. J Clin Psychiatry 70:663-673 · PMID 19389334",
+    "Votaw VR et al. (2019). The epidemiology of benzodiazepine misuse: a systematic review. Drug Alcohol Depend 200:95-114 · PMID 31121495",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartado 4.5; consulta de noviembre de 2026",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "Grigoriadis S et al. (2019). Benzodiazepine use during pregnancy alone or in combination with an antidepressant and congenital malformations: systematic review and meta-analysis. J Clin Psychiatry 80:18r12412 · PMID 31294935",
+    "AEMPS-CIMA (2026). Ficha técnica de Valium 5 mg comprimidos (diazepam) (nº de registro 39409), apartados 4.4-4.6 y 5.2; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Trankimazin 0,50 mg comprimidos (alprazolam) (nº de registro 56026), apartados 4.4-4.6; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "tag",
+    "panic",
+    "anx_perinatal",
+    "alcohol",
+    "opioides"
+   ]
+  },
+  "bzd_mayor": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Además de los criterios explícitos (Beers, STOPP/START), las guías generales aportan el marco de manejo. NICE NG215 pide revisiones periódicas de quien toma una benzodiacepina o un fármaco Z, con frecuencia adaptada a la persona y a su deterioro cognitivo (1.4.1), y plantear la retirada cuando ya no aporta beneficio o los daños superan a los beneficios (1.5.1), mediante decisión compartida (1.5.2). La guía europea recomienda la TCC-I como primera línea del insomnio crónico a cualquier edad, también con comorbilidad, y admite melatonina de liberación prolongada hasta 3 meses en mayores de 55 años (nivel B) (Riemann 2023). En personas mayores con demencia y ritmo sueño-vigilia irregular, la AASM recomienda no usar fármacos promotores del sueño (grado de confianza de primer nivel) ni melatonina (Auger 2015). La deprescripción es factible: en el ensayo EMPOWER (303 usuarios crónicos de 65-95 años), un folleto educativo dirigido a la persona logró la suspensión en el 27 % frente al 5 % a los 6 meses (NNT 4) y una reducción de dosis en otro 11 %, sin interacción con la edad mayor de 80 años ni con la polifarmacia (Tannenbaum 2014).",
+     "links": [
+      {
+       "ids": [
+        "desprescr_bzd",
+        "polifarm"
+       ],
+       "t": "deprescripción"
+      },
+      {
+       "ids": [
+        "tcci",
+        "melatonina"
+       ],
+       "t": "alternativas en el insomnio"
+      },
+      {
+       "ids": [
+        "sueno_dem",
+        "dem"
+       ],
+       "t": "sueño en la demencia"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Fármacos Z y benzodiacepinas no difieren en riesgo de fractura: en un metaanálisis, la fractura de cadera se asoció a benzodiacepinas (RR 1,52; IC 95 % 1,37-1,68) y a fármacos Z (RR 1,90; 1,68-2,13), con el mayor riesgo en el uso de corta duración (RR 2,40 y 2,39), es decir, en quienes inician el tratamiento (Donnelly 2017). Conducción: más colisiones con benzodiacepinas (OR 1,61 en estudios de casos y controles) y mayor dificultad para mantener la trayectoria en pruebas en carretera (Rapoport 2009). Los antihistamínicos sedantes no son una alternativa segura: la ficha técnica de Atarax no recomienda la hidroxizina en edad avanzada y señala precaución por efectos anticolinérgicos en glaucoma, obstrucción urinaria, demencia y miastenia (4.2 y 4.4). Una benzodiacepina glucuronizada sin metabolitos activos, como el lormetazepam (ficha técnica de Noctamid, 5.2), evita la acumulación por vía oxidativa, sin que ello anule el riesgo de caídas. Las modificaciones farmacocinéticas y farmacodinámicas del envejecimiento se tratan en la ficha correspondiente.",
+     "links": [
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "farmacocinética en la vejez"
+      },
+      {
+       "ids": [
+        "hidroxizina",
+        "lormetazepam",
+        "zolpidem"
+       ],
+       "t": "fármacos implicados"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Vigilar especialmente las primeras semanas de tratamiento, cuando el riesgo de fractura de cadera es máximo (Donnelly 2017). Señales de alarma: caídas, confusión o delirium, somnolencia diurna, deterioro de la conducción y efectos paradójicos. Con opioides, riesgo de sedación profunda, depresión respiratoria, coma y muerte (fichas técnicas de Noctamid y Stilnox, 4.4). Asociaciones de riesgo frecuentes en la vejez: melatonina más zolpidem (mayor alteración de la atención, la memoria y la coordinación que el zolpidem solo; ficha técnica de Circadin, 4.5), antihistamínicos sedantes y alcohol (fichas técnicas de Atarax y Valium, 4.4). Las personas mayores que viven con el VIH en tratamiento con ritonavir no deben recibir diazepam (ficha técnica de Norvir, 4.3). El consumo de sustancias recreativas en personas mayores en contexto sexual carece de datos específicos [fuente no localizada]. Salvo circunstancias médicas excepcionales, no debe suspenderse de forma brusca (NICE NG215, 1.5.6), y la pauta de reducción debe pactarse con la persona (1.5.10).",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "complicación a vigilar"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "Auger RR et al. (2015). Clinical practice guideline for the treatment of intrinsic circadian rhythm sleep-wake disorders (ASWPD, DSWPD, N24SWD and ISWRD). An update for 2015: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 11:1199-1236 · PMID 26414986",
+    "Tannenbaum C et al. (2014). Reduction of inappropriate benzodiazepine prescriptions among older adults through direct patient education: the EMPOWER cluster randomized trial. JAMA Intern Med 174:890-898 · PMID 24733354",
+    "Donnelly K et al. (2017). Benzodiazepines, Z-drugs and the risk of hip fracture: a systematic review and meta-analysis. PLoS One 12:e0174730 · PMID 28448593",
+    "Rapoport MJ et al. (2009). Benzodiazepine use and driving: a meta-analysis. J Clin Psychiatry 70:663-673 · PMID 19389334",
+    "AEMPS-CIMA (2026). Ficha técnica de Atarax 25 mg comprimidos recubiertos con película (hidroxizina) (nº de registro 26308), apartados 4.2, 4.4, 4.5 y 5.2; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Noctamid 1 mg comprimidos (lormetazepam) (nº de registro 56296), apartados 4.3-4.6 y 5.2; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Circadin 2 mg comprimidos de liberación prolongada (melatonina) (nº de registro 07392003), apartados 4.4-4.6; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Stilnox 10 mg comprimidos recubiertos con película (zolpidem) (nº de registro 58470), apartados 4.4 y 4.6; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Valium 5 mg comprimidos (diazepam) (nº de registro 39409), apartados 4.4-4.6 y 5.2; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "melatonina",
+    "hidroxizina",
+    "chemsex_arv"
+   ]
+  },
+  "diazepam": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En la abstinencia alcohólica, un metaanálisis en red de 149 ensayos (10 692 participantes) halló que el diazepam en pauta fija redujo las convulsiones frente a placebo (OR 0,16; IC 95 % 0,04-0,59) y fue el único tratamiento que redujo el delirium tremens (OR 0,19; 0,05-0,76), con evidencia limitada por riesgo de sesgo e imprecisión (Bahji 2022). En la abstinencia de GHB/GBL, las benzodiacepinas se consideran el tratamiento de elección (Schep 2012). En el TAG, NICE CG113 limita las benzodiacepinas a crisis y a corto plazo (1.2.26), y en el pánico desaconseja su prescripción (1.3.20). En el embarazo y el posparto, solo para la ansiedad grave y la agitación a corto plazo, valorando la retirada gradual en quien planifica un embarazo o lacta (NICE CG192, 1.4.18 y 1.4.19). Nota factual: la ficha técnica de Valium autoriza ansiedad, deprivación alcohólica, dolor musculoesquelético y espasticidad, y coadyuvancia anticonvulsiva; la prioridad de uso la marcan las guías.",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "ciwa_ar"
+       ],
+       "t": "abstinencia alcohólica"
+      },
+      {
+       "ids": [
+        "ghb_abst"
+       ],
+       "t": "abstinencia de GHB"
+      },
+      {
+       "ids": [
+        "anx_perinatal",
+        "tag"
+       ],
+       "t": "ansiedad y periodo perinatal"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Interacciones farmacodinámicas recogidas en la ficha técnica de Valium (4.5): potencia los efectos opioides subjetivos de la metadona, aumenta la sedación y la miosis y empeora el tiempo de reacción, sin interacción farmacocinética; con levodopa se ha descrito pérdida reversible del control de la enfermedad de Parkinson. Interacciones con antirretrovirales: el ritonavir aumenta sus concentraciones y la combinación está contraindicada por sedación excesiva y depresión respiratoria (ficha técnica de Norvir, 4.3); con cobicistat la interacción no se ha estudiado, pero se esperan concentraciones mayores y puede ser necesario reducir la dosis con monitorización (ficha técnica de Tybost, 4.5). Efectos adversos de clase: amnesia anterógrada dependiente de la dosis, que puede acompañarse de alteraciones del comportamiento, y reacciones paradójicas (intranquilidad, agresividad, delirios, ira, pesadillas, alucinaciones), que obligan a suspender (ficha técnica de Valium, 4.4). En conducción, mayor riesgo de colisiones con benzodiacepinas (OR 1,61) (Rapoport 2009).",
+     "links": [
+      {
+       "ids": [
+        "metadona",
+        "opioides"
+       ],
+       "t": "interacción con metadona"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Contraindicación farmacológica relevante en VIH: no asociar con ritonavir (ficha técnica de Norvir, 4.3); revisar también las pautas con cobicistat (ficha técnica de Tybost, 4.5) y consultar con el equipo de VIH antes de usarlo, por ejemplo, en una desintoxicación de GHB. Alcohol y depresores del SNC: la asociación puede causar sedación intensa, coma o muerte y depresión respiratoria o cardiovascular (ficha técnica de Valium, 4.4); en el contexto de chemsex, por extrapolación de la advertencia de la ficha técnica sobre depresores del SNC, esto incluye GHB/GBL, depresor del SNC y respiratorio (Schep 2012). Con opioides, el uso concomitante de benzodiacepinas se asocia a más sobredosis atendidas (OR ajustada 2,14) (Sun 2017). Embarazo: con uso continuado o dosis altas en el parto, hipotermia, hipotonía, hipotensión y depresión respiratoria neonatal, y síndrome de abstinencia neonatal (ficha técnica de Valium, 4.6). Uso con estimulantes (metanfetamina, catinonas, MDMA) para mitigar la bajada e interacciones con poppers o inhibidores de la PDE5 [fuente no localizada]. Señales de alarma: somnolencia excesiva, respiración lenta, confusión, caídas, y escalada de dosis.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides",
+        "alcohol"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "metanf"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bahji A et al. (2022). Comparative efficacy and safety of pharmacotherapies for alcohol withdrawal: a systematic review and network meta-analysis. Addiction 117:2591-2601 · PMID 35194860",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartado 4.5; consulta de noviembre de 2026",
+    "Rapoport MJ et al. (2009). Benzodiazepine use and driving: a meta-analysis. J Clin Psychiatry 70:663-673 · PMID 19389334",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769"
+   ],
+   "relAdd": [
+    "ghb_abst",
+    "metadona",
+    "chemsex_arv",
+    "anx_perinatal",
+    "ciwa_ar"
+   ]
+  },
+  "clonazepam": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En España su única indicación autorizada es la epilepsia; los demás usos son fuera de indicación. En el trastorno de conducta del sueño REM, la AASM sugiere el clonazepam (recomendación condicional) para la forma aislada y la secundaria a enfermedad médica, al mismo nivel que la melatonina de liberación inmediata, junto con medidas de seguridad del entorno de sueño (Howell 2023). En el trastorno de pánico, un ensayo de dosis fijas (n = 413) diferenció del placebo las dosis intermedias y altas, con más somnolencia y ataxia en las más altas y, durante la retirada gradual, empeoramiento sin regreso a la situación basal (Rosenbaum 1997); no se hallaron diferencias clínicas entre benzodiacepinas en la revisión Cochrane (Bighelli 2016). Pese a ello, NICE CG113 desaconseja prescribir benzodiacepinas en el pánico por peor evolución a largo plazo (1.3.20) y reserva los antidepresivos para el tratamiento prolongado.",
+     "links": [
+      {
+       "ids": [
+        "parasomn",
+        "lewy"
+       ],
+       "t": "trastorno de conducta del sueño REM"
+      },
+      {
+       "ids": [
+        "panic",
+        "farm_anx"
+       ],
+       "t": "trastorno de pánico"
+      },
+      {
+       "ids": [
+        "epilepsia_psic"
+       ],
+       "t": "epilepsia"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Precauciones de la ficha técnica de Rivotril (4.4): en lactantes y niños pequeños puede aumentar la salivación y la secreción bronquial; precaución en apnea del sueño, insuficiencia pulmonar crónica, insuficiencia renal o hepática y personas mayores o debilitadas; en la porfiria se considera probablemente no porfirogénico, con datos contradictorios. Reacciones paradójicas descritas: inquietud, agitación, agresividad, pesadillas, alucinaciones y psicosis. En el ensayo de pánico, la depresión, el mareo, la fatiga y la irritabilidad fueron más frecuentes con clonazepam que con placebo, sin relación con la dosis (Rosenbaum 1997). Embarazo (4.6): no puede excluirse que cause malformaciones y los antiepilépticos en conjunto muestran indicios de teratogenia. A diferencia del diazepam, la ficha técnica de Norvir no lo cita entre las benzodiacepinas contraindicadas; su metabolismo por CYP3A4 hace esperable una interacción con ritonavir o cobicistat, no cuantificada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "anx_perinatal"
+       ],
+       "t": "embarazo"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Alcohol y depresores del SNC: evitar la asociación por sedación intensa con riesgo de coma o muerte y depresión respiratoria o cardiovascular; usar con especial precaución en la intoxicación aguda por alcohol o drogas (ficha técnica de Rivotril, 4.4), lo que, por extrapolación de la advertencia de la ficha técnica sobre depresores del SNC, incluye las intoxicaciones por GHB/GBL, cuyo efecto depresor del SNC y respiratorio está documentado (Schep 2012). Opioides: el uso concomitante de benzodiacepinas se asocia a más sobredosis (OR ajustada 2,14) (Sun 2017). Dependencia: su semivida larga y su potencia dificultan la retirada [fuente no localizada]; en el ensayo de pánico, la retirada gradual fue tolerada, pero con empeoramiento clínico (Rosenbaum 1997); la suspensión brusca en epilepsia puede precipitar un estatus. Embarazo: retirada gradual planificada (NICE CG192, 1.4.19). Interacciones con estimulantes (metanfetamina, catinonas, MDMA), poppers o inhibidores de la PDE5 [fuente no localizada]. Señales de alarma: sedación, ataxia, caídas, alteraciones de conducta, desinhibición y solicitudes de recetas anticipadas.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides",
+        "alcohol"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd"
+       ],
+       "t": "dependencia y retirada"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Howell M et al. (2023). Management of REM sleep behavior disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 19:759-768 · PMID 36515157",
+    "Rosenbaum JF, Moroz G & Bowden CL (1997). Clonazepam in the treatment of panic disorder with or without agoraphobia: a dose-response study of efficacy, safety, and discontinuance. J Clin Psychopharmacol 17:390-400 · PMID 9315990",
+    "Bighelli I et al. (2016). Antidepressants and benzodiazepines for panic disorder in adults. Cochrane Database Syst Rev 9:CD011567 · PMID 27618521",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769"
+   ],
+   "relAdd": [
+    "parasomn",
+    "lewy",
+    "chemsex_arv",
+    "ghb_gbl"
+   ]
+  },
+  "alprazolam": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías verificadas limitan su papel: NICE CG113 no ofrece benzodiacepinas en el TAG salvo como medida a corto plazo durante crisis (1.2.26) y establece que en el trastorno de pánico se asocian a peor evolución a largo plazo y no deben prescribirse (1.3.20); en la ansiedad social, NICE CG159 no recomienda ofrecerlas de forma sistemática (1.6.2). Evidencia comparativa: en el TAG, las benzodiacepinas fueron eficaces pero peor toleradas que placebo, frente a duloxetina, pregabalina, venlafaxina y escitalopram, eficaces y con aceptabilidad relativamente buena (Slee 2019); en el pánico, sin diferencia de respuesta frente a antidepresivos (evidencia de baja calidad) y con menos abandonos (muy baja calidad), sin diferencias entre benzodiacepinas (Bighelli 2016). En el embarazo y el posparto, solo para la ansiedad grave y la agitación a corto plazo (NICE CG192, 1.4.18). Nota factual: la ficha técnica española la autoriza solo en la ansiedad grave o incapacitante a corto plazo.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "panic",
+        "fobia_soc"
+       ],
+       "t": "trastornos de ansiedad"
+      },
+      {
+       "ids": [
+        "farm_anx",
+        "escitalopram",
+        "duloxetina"
+       ],
+       "t": "alternativas de primera línea"
+      },
+      {
+       "ids": [
+        "anx_perinatal"
+       ],
+       "t": "periodo perinatal"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Interacción bifásica con ritonavir: tras 2 días de ritonavir, el AUC de una dosis única de alprazolam aumentó 2,5 veces; tras 10 días no se observó inhibición por inducción del metabolismo, por lo que la precaución es máxima en los primeros días de la coadministración (ficha técnica de Norvir, 4.5); la ficha técnica de Trankimazin indica que esta interacción exige ajustar la dosis o suspender el alprazolam (4.5). Toxicidad en sobredosis: en 2063 intoxicaciones por una sola benzodiacepina, el alprazolam se asoció a estancias 1,27 veces más largas y a una probabilidad 2,06 veces mayor de ingreso en cuidados intensivos que otras benzodiacepinas, con más uso de flumazenilo (14 % frente a 8 %) y de ventilación mecánica (16 % frente a 11 %) (Isbister 2004). Las gotas orales contienen etanol (17,7 % p/v) y propilenglicol (ficha técnica de Trankimazin, 4.4), dato relevante en personas con trastorno por consumo de alcohol. Embarazo (4.6): los estudios de cohortes no asocian la exposición en el primer trimestre a malformaciones mayores; algunos estudios de casos y controles describen más hendidura palatina, con riesgo absoluto inferior a 2 por 1000.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "ritonavir y cobicistat"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "gotas con etanol"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Evitar en personas con riesgo de autointoxicación, dada su mayor toxicidad en sobredosis (Isbister 2004). Con opioides, sedación profunda, depresión respiratoria, coma y muerte; reservar la combinación para cuando no haya alternativa, con la dosis eficaz más baja y la duración más breve (ficha técnica de Trankimazin, 4.4). En el chemsex: antirretrovirales potenciados con ritonavir (efecto inhibidor inicial y después inductor; ficha técnica de Norvir, 4.5); con cobicistat, que la ficha técnica de Tybost no cita con el alprazolam, un aumento de su exposición es una extrapolación por la vía CYP3A4 [fuente no localizada]; riesgo mayor de interacción en las pautas potenciadas (Bracchi 2015); el alcohol y, por extrapolación de la advertencia de la ficha técnica sobre depresores del SNC, el GHB/GBL suman depresión del SNC y respiratoria (ficha técnica de Trankimazin, 4.4 y 4.5; Schep 2012). El uso indebido de benzodiacepinas se asocia al consumo de otras sustancias y a conductas de riesgo para VIH y VHC (Votaw 2019). Uso con estimulantes para mitigar la bajada e interacciones con poppers o inhibidores de la PDE5 [fuente no localizada]. Señales de alarma: ansiedad interdosis, escalada de dosis, sedación con respiración lenta y síntomas de retirada graves (despersonalización, alucinaciones, convulsiones; ficha técnica de Trankimazin, 4.4) tras suspensión brusca.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd"
+       ],
+       "t": "dependencia y retirada"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo de autointoxicación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "Bighelli I et al. (2016). Antidepressants and benzodiazepines for panic disorder in adults. Cochrane Database Syst Rev 9:CD011567 · PMID 27618521",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "Isbister GK et al. (2004). Alprazolam is relatively more toxic than other benzodiazepines in overdose. Br J Clin Pharmacol 58:88-95 · PMID 15206998",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "Votaw VR et al. (2019). The epidemiology of benzodiazepine misuse: a systematic review. Drug Alcohol Depend 200:95-114 · PMID 31121495",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartado 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "fobia_soc",
+    "escitalopram",
+    "alcohol",
+    "ideac_suic"
+   ]
+  },
+  "lormetazepam": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La guía europea sitúa la TCC-I como primera línea del insomnio crónico y admite las benzodiacepinas a corto plazo (≤ 4 semanas, nivel A), con uso más prolongado solo en algunos casos tras ponderar ventajas e inconvenientes (nivel B) (Riemann 2023). La guía de la AASM, centrada en fármacos aprobados por la FDA, formula recomendaciones débiles para temazepam y triazolam y no incluye el lormetazepam (Sateia 2017). En el metaanálisis en red más amplio, las benzodiacepinas fueron eficaces en el tratamiento agudo y superiores a melatonina, ramelteón y zaleplón, pero causaron más efectos adversos que placebo y carecen de datos a largo plazo (De Crescenzo 2022). NICE NG215 pide revisiones periódicas y plantear la retirada cuando el beneficio desaparece (1.4.1 y 1.5.1). En el embarazo, la ficha técnica de Noctamid desaconseja su uso como precaución general (4.6) y NICE CG192 limita las benzodiacepinas a la ansiedad grave y la agitación a corto plazo (1.4.18).",
+     "links": [
+      {
+       "ids": [
+        "tcci",
+        "insom"
+       ],
+       "t": "TCC-I e insomnio"
+      },
+      {
+       "ids": [
+        "daridorexant",
+        "zolpidem",
+        "melatonina"
+       ],
+       "t": "otras opciones hipnóticas"
+      },
+      {
+       "ids": [
+        "desprescr_bzd"
+       ],
+       "t": "deprescripción"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Su eliminación casi exclusiva por glucuronidación a un conjugado inactivo, excretado por orina (ficha técnica de Noctamid, 5.2), evita metabolitos activos; la ficha técnica de Norvir no lo cita, y la ausencia de interacción con ritonavir o cobicistat, esperable por esa vía, no está documentada [fuente no localizada]. Perfil de efectos adversos de las benzodiacepinas hipnóticas: más personas con efectos adversos que con placebo, doxepina o zaleplón (De Crescenzo 2022); fractura de cadera (RR 1,52), con el mayor riesgo al iniciar el tratamiento (RR 2,40) (Donnelly 2017); más colisiones de tráfico (OR 1,61) y peor control de la trayectoria al conducir (Rapoport 2009). La ficha técnica (4.4) añade tolerancia, insomnio de rebote, amnesia anterógrada y reacciones paradójicas; precaución en la insuficiencia renal grave.",
+     "links": [
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "riesgos en la persona mayor"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Opioides: el uso concomitante puede provocar sedación, depresión respiratoria, coma y muerte, y debe reservarse para cuando no hay alternativas, con dosis y duración limitadas (ficha técnica de Noctamid, 4.4). La ficha técnica lo contraindica en la intoxicación aguda por alcohol, hipnóticos, analgésicos o psicótropos (4.3), situación que, por extrapolación, puede incluir los consumos de GHB/GBL, cuyo efecto depresor del SNC y respiratorio está documentado (Schep 2012). Con opioides prescritos, la combinación con benzodiacepinas se asoció a más visitas a urgencias o ingresos por sobredosis (OR ajustada 2,14) (Sun 2017). Interacciones con estimulantes (metanfetamina, catinonas, MDMA), poppers o inhibidores de la PDE5 [fuente no localizada]. Embarazo, parto y lactancia: no utilizar como precaución general; quien pueda quedar embarazada debe consultar para retirarlo al planificar un embarazo (ficha técnica de Noctamid, 4.6). Señales de alarma: caídas, confusión, conductas complejas con amnesia, uso diario prolongado y escalada.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides",
+        "alcohol"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "dependencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "Donnelly K et al. (2017). Benzodiazepines, Z-drugs and the risk of hip fracture: a systematic review and meta-analysis. PLoS One 12:e0174730 · PMID 28448593",
+    "Rapoport MJ et al. (2009). Benzodiazepine use and driving: a meta-analysis. J Clin Psychiatry 70:663-673 · PMID 19389334",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769"
+   ],
+   "relAdd": [
+    "melatonina",
+    "ghb_gbl"
+   ]
+  },
+  "zolpidem": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La AASM sugiere el zolpidem (recomendación débil) para el insomnio de conciliación y de mantenimiento frente a no tratar (Sateia 2017); la guía europea lo incluye entre los agonistas del receptor benzodiacepínico para uso a corto plazo (≤ 4 semanas, nivel A), tras la TCC-I (Riemann 2023). Evidencia comparativa: eficaz en el tratamiento agudo, pero con más abandonos por efectos adversos que placebo (OR 1,79; IC 95 % 1,25-2,50; certeza moderada); en el tratamiento prolongado, menos abandonos totales que el ramelteón, pero más abandonos por efectos adversos que placebo (OR 2,00), y la eszopiclona fue más eficaz que el zolpidem (certeza muy baja) (De Crescenzo 2022). NICE NG215 incluye los fármacos Z entre los medicamentos que requieren información previa, revisiones y retirada pactada (1.3.1, 1.4.1 y 1.5.1). Embarazo: la ficha técnica de Stilnox no recomienda su uso, aunque datos de cohortes con más de 1000 embarazos no muestran malformaciones (4.6).",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "zopiclona",
+        "daridorexant",
+        "lormetazepam"
+       ],
+       "t": "alternativas comparadas"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Interacciones con antirretrovirales: con ritonavir, aumento del AUC del 28 % y de la Cmáx del 22 %, coadministrable con vigilancia de la sedación excesiva (ficha técnica de Norvir, 4.5); con cobicistat, interacción no estudiada, con posible necesidad de reducir la dosis (ficha técnica de Tybost, 4.5). Con melatonina de liberación prolongada se ha descrito una interacción farmacodinámica transitoria con mayor alteración de la atención, la memoria y la coordinación que con zolpidem solo (ficha técnica de Circadin, 4.5). En el síndrome de QT largo congénito, la ficha técnica pide valorar con cuidado la relación beneficio-riesgo por la reducción in vitro de corrientes hERG a concentraciones muy altas (ficha técnica de Stilnox, 4.4). Fractura de cadera con fármacos Z (RR 1,90; IC 95 % 1,68-2,13), sin diferencia relevante con las benzodiacepinas y con el mayor riesgo al inicio (Donnelly 2017).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "ritonavir y cobicistat"
+      },
+      {
+       "ids": [
+        "melatonina",
+        "qt_psicof"
+       ],
+       "t": "interacciones y QT"
+      },
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "fracturas en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Opioides: la asociación puede causar sedación, depresión respiratoria, coma y muerte y debe reservarse para cuando no hay alternativa (ficha técnica de Stilnox, 4.4). Suicidio: estudios epidemiológicos sugieren más ideación, intentos y muerte por suicidio con benzodiacepinas e hipnóticos, incluido el zolpidem, sin relación causal establecida; en personas con síntomas depresivos, prescribir la menor cantidad posible (ficha técnica de Stilnox, 4.4). En el chemsex: el alcohol y, por extrapolación de la advertencia de la ficha técnica sobre depresores del SNC, el GHB/GBL suman depresión del SNC (Schep 2012); los antirretrovirales potenciados aumentan su exposición (fichas técnicas de Norvir y Tybost, 4.5). Las conductas complejas con amnesia tienen además relevancia forense y en la violencia sexual facilitada por sustancias [fuente no localizada]. Interacciones con estimulantes, poppers o inhibidores de la PDE5 [fuente no localizada]. Señales de alarma: conductas nocturnas sin recuerdo, somnolencia al conducir por la mañana, escalada de dosis y uso diurno.",
+     "links": [
+      {
+       "ids": [
+        "sumision_q",
+        "crepusc_amn"
+       ],
+       "t": "relevancia forense"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "depresores asociados"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "NICE (2022). Medicines associated with dependence or withdrawal symptoms: safe prescribing and withdrawal management for adults (NG215), recomendaciones 1.3.1, 1.4.1-1.4.3, 1.5.1 y 1.5.10; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartado 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Circadin 2 mg comprimidos de liberación prolongada (melatonina) (nº de registro 07392003), apartados 4.4-4.6; consulta de noviembre de 2026",
+    "Donnelly K et al. (2017). Benzodiazepines, Z-drugs and the risk of hip fracture: a systematic review and meta-analysis. PLoS One 12:e0174730 · PMID 28448593",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383"
+   ],
+   "relAdd": [
+    "melatonina",
+    "qt_psicof",
+    "ideac_suic"
+   ]
+  },
+  "zopiclona": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La guía europea admite los agonistas del receptor benzodiacepínico a corto plazo (≤ 4 semanas, nivel A) cuando la TCC-I no basta (Riemann 2023); la guía de la AASM evalúa la eszopiclona, pero no la zopiclona racémica (Sateia 2017). En el metaanálisis en red de De Crescenzo (2022), la zopiclona fue más eficaz que placebo en el tratamiento agudo, pero con más abandonos por efectos adversos que placebo (OR 2,00; certeza muy baja) y que eszopiclona (OR 1,82), daridorexant (OR 3,45) y suvorexant (OR 3,13), con certeza baja. NICE NG215 exige informar antes de iniciar, revisar periódicamente y pactar la retirada (1.3.1, 1.4.1 y 1.5.10). Embarazo: la ficha técnica de Limovan no recomienda su uso, aunque datos de cohortes con más de 1000 embarazos no muestran malformaciones (4.6).",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "zolpidem",
+        "daridorexant"
+       ],
+       "t": "comparadores"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Efectos adversos (ficha técnica de Limovan, 4.8): la disgeusia con sabor amargo es el efecto más frecuente, seguida de somnolencia residual; la amnesia anterógrada es rara, aumenta con la dosis y puede asociarse a conductas inadecuadas. La ficha técnica (4.4) advierte de que no deben realizarse actividades que requieran alerta o coordinación completas tras la toma, en particular durante las 12 horas siguientes. Fractura de cadera con fármacos Z (RR 1,90), con el mayor riesgo en el uso de corta duración (RR 2,39) (Donnelly 2017). Interacciones con antirretrovirales: la ficha técnica de Limovan menciona el ritonavir entre los inhibidores de CYP3A4; la ficha técnica de Tybost no la cita, y una interacción con cobicistat, esperable por la misma vía, no está documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "riesgos en la persona mayor"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Opioides: la asociación puede causar sedación, depresión respiratoria, coma y muerte y debe reservarse para cuando no hay alternativa (ficha técnica de Limovan, 4.4). Conducción: no conducir ni manejar maquinaria sin alerta completa, especialmente en las 12 horas siguientes (4.4). En el chemsex: el alcohol y, por extrapolación de la advertencia de la ficha técnica sobre depresores del SNC, el GHB/GBL suman depresión del SNC y respiratoria (Schep 2012), y el riesgo de interacción con antirretrovirales se concentra en las pautas potenciadas (Bracchi 2015). Interacciones con estimulantes, poppers o inhibidores de la PDE5 [fuente no localizada]. Señales de alarma: conductas complejas durante el sueño con amnesia (suspender), somnolencia matutina, caídas en personas mayores, uso diario prolongado e insomnio de rebote al suspender.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "parasomn",
+        "crepusc_amn"
+       ],
+       "t": "conductas complejas del sueño"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "Donnelly K et al. (2017). Benzodiazepines, Z-drugs and the risk of hip fracture: a systematic review and meta-analysis. PLoS One 12:e0174730 · PMID 28448593",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartado 4.5; consulta de noviembre de 2026",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268"
+   ],
+   "relAdd": [
+    "daridorexant",
+    "parasomn"
+   ]
+  },
+  "daridorexant": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La guía europea admite el daridorexant a corto plazo (≤ 4 semanas, nivel A) y los antagonistas de orexina hasta 3 meses o más en algunos casos (nivel A), siempre tras la TCC-I (Riemann 2023). La guía de la AASM de 2017 es anterior a su autorización y solo evaluó el suvorexant entre los antagonistas de orexina (Sateia 2017). En el metaanálisis en red de De Crescenzo (2022), el daridorexant puede ser eficaz en el tratamiento agudo, pero la información a largo plazo era insuficiente; la zopiclona causó más abandonos por efectos adversos que el daridorexant (OR 3,45). Después, la extensión doble ciego de 40 semanas (804 participantes) no mostró somnolencia matutina ni rebote o síntomas de retirada tras la suspensión, y mantuvo la mejoría del sueño y del funcionamiento diurno, más clara con la dosis alta (Kunz 2023), estudio promovido por el fabricante (Idorsia), con autores empleados de la compañía.",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "orexina"
+       ],
+       "t": "antagonistas de orexina"
+      },
+      {
+       "ids": [
+        "zopiclona",
+        "zolpidem"
+       ],
+       "t": "comparadores"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Interacciones adicionales de la ficha técnica de Quviviq (4.5): el efavirenz, inductor moderado de CYP3A4, redujo el AUC un 61 % y la Cmáx un 35 %, por lo que los inductores moderados o potentes pueden reducir su eficacia; su solubilidad depende del pH gástrico. Respiración (4.4): no aumentó las apneas-hipopneas ni causó desaturación en la apnea obstructiva leve, moderada o grave, ni desaturación en la EPOC moderada; precaución en la EPOC grave. Potencial de abuso (4.4): sin indicios de abuso ni de abstinencia en los ensayos con insomnio, pero en usuarios de sustancias sin insomnio, a dosis supraterapéuticas, la «afinidad por el fármaco» fue similar a la del zolpidem. En la extensión a largo plazo, la incidencia de efectos adversos fue similar entre grupos (35-40 %) (Kunz 2023).",
+     "links": [
+      {
+       "ids": [
+        "apnea"
+       ],
+       "t": "apnea del sueño"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "inductores e inhibidores"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "potencial de abuso"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Contraindicado con inhibidores potentes de CYP3A4, entre ellos el ritonavir; los inductores (efavirenz) reducen su exposición (ficha técnica de Quviviq, 4.3 y 4.5), lo que obliga a revisar todo el tratamiento antirretroviral; el cobicistat no figura en la ficha técnica de Tybost con este fármaco y su asimilación a los inhibidores potentes es una extrapolación. Alcohol y depresores del SNC: advertir del consumo de alcohol y prescribir con precaución con otros depresores por efectos aditivos (4.4); en el chemsex, por extrapolación, esto incluye el GHB/GBL (Schep 2012). Antecedentes de abuso de alcohol u otras sustancias: supervisión estrecha (4.4). Conducción: no conducir si persiste somnolencia, sobre todo los primeros días (4.4). Interacciones con estimulantes, poppers o inhibidores de la PDE5 [fuente no localizada]. Señales de alarma: parálisis del sueño, alucinaciones hipnagógicas, síntomas de tipo cataplejía y empeoramiento depresivo.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "ghb_gbl"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "nar",
+        "cataplejia"
+       ],
+       "t": "síntomas de tipo narcolepsia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "Kunz D et al. (2023). Long-term safety and tolerability of daridorexant in patients with insomnia disorder. CNS Drugs 37:93-106 · PMID 36484969",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartado 4.5; consulta de noviembre de 2026",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383"
+   ],
+   "relAdd": [
+    "apnea",
+    "zopiclona",
+    "bzd_dep"
+   ]
+  },
+  "melatonina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías distinguen formulación, edad y trastorno. La guía europea admite la melatonina de liberación prolongada hasta 3 meses en el insomnio de mayores de 55 años (nivel B) y no recomienda la de liberación rápida para el insomnio (nivel A) (Riemann 2023); la AASM sugiere no usar melatonina en el insomnio crónico del adulto (recomendación débil) (Sateia 2017). En los trastornos intrínsecos del ritmo circadiano, la AASM respalda la melatonina administrada en el momento adecuado en la fase retrasada de sueño-vigilia, en el ritmo no de 24 horas de las personas ciegas y en el ritmo irregular de niños y adolescentes con trastornos neurológicos, y recomienda no usarla en personas mayores con demencia (Auger 2015). En el trastorno de conducta del sueño REM, sugiere la melatonina de liberación inmediata (condicional), al mismo nivel que el clonazepam (Howell 2023). Evidencia comparativa: efecto modesto en el insomnio primario (latencia −7,1 minutos; sueño total +8,3 minutos), que no se atenúa con el uso continuado (Ferracioli-Oda 2013), y sin beneficio relevante en el metaanálisis en red de De Crescenzo (2022).",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "circ_sueno"
+       ],
+       "t": "insomnio y ritmo circadiano"
+      },
+      {
+       "ids": [
+        "parasomn",
+        "clonazepam"
+       ],
+       "t": "trastorno de conducta del sueño REM"
+      },
+      {
+       "ids": [
+        "sueno_dem",
+        "tea"
+       ],
+       "t": "poblaciones especiales"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Farmacocinética de la melatonina oral de liberación inmediata en una revisión sistemática de 22 estudios: biodisponibilidad de alrededor del 15 % (9-33 %), Tmáx de unos 50 minutos y semivida de unos 45 minutos, con gran variabilidad de la Cmáx y del aclaramiento; la modifican la edad, la cafeína, el tabaco, los anticonceptivos orales, la ingesta y la fluvoxamina (Harpsøe 2015). Interacciones farmacodinámicas (ficha técnica de Circadin, 4.5): el alcohol reduce su eficacia sobre el sueño y no debe ingerirse junto con ella; puede potenciar la sedación de benzodiacepinas y fármacos Z, y con zolpidem se observó mayor alteración de la atención, la memoria y la coordinación que con zolpidem solo. Perfil de efectos adversos benigno en comparación con otros hipnóticos (Ferracioli-Oda 2013).",
+     "links": [
+      {
+       "ids": [
+        "fluvoxamina"
+       ],
+       "t": "interacción con fluvoxamina"
+      },
+      {
+       "ids": [
+        "zolpidem",
+        "luz_melatonina"
+       ],
+       "t": "interacciones y fisiología"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La ficha técnica de Circadin no la recomienda en enfermedades autoinmunes por falta de datos (4.4) ni durante el embarazo o cuando se busca un embarazo, por ausencia de datos clínicos (4.6). Evitar el alcohol, que reduce su eficacia, y vigilar la sedación aditiva con benzodiacepinas e hipnóticos Z (4.5). En personas mayores con demencia, la AASM recomienda no usarla para el ritmo sueño-vigilia irregular (Auger 2015). Los complementos alimenticios no están sujetos a ficha técnica y su contenido real no está garantizado [fuente no localizada]. Interacciones con sustancias de uso recreativo, poppers, inhibidores de la PDE5 o antirretrovirales potenciados [fuente no localizada]. Señales de alarma: somnolencia diurna, uso como sustituto de un tratamiento etiológico (apnea, depresión) y falta de respuesta a los 3 meses.",
+     "links": [
+      {
+       "ids": [
+        "sueno_dem"
+       ],
+       "t": "demencia"
+      },
+      {
+       "ids": [
+        "apnea",
+        "ddm"
+       ],
+       "t": "causas a descartar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "Auger RR et al. (2015). Clinical practice guideline for the treatment of intrinsic circadian rhythm sleep-wake disorders (ASWPD, DSWPD, N24SWD and ISWRD). An update for 2015: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 11:1199-1236 · PMID 26414986",
+    "Howell M et al. (2023). Management of REM sleep behavior disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 19:759-768 · PMID 36515157",
+    "Ferracioli-Oda E et al. (2013). Meta-analysis: melatonin for the treatment of primary sleep disorders. PLoS One 8:e63773 · PMID 23691095",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "Harpsøe NG et al. (2015). Clinical pharmacokinetics of melatonin: a systematic review. Eur J Clin Pharmacol 71:901-909 · PMID 26008214"
+   ],
+   "relAdd": [
+    "parasomn",
+    "clonazepam",
+    "zolpidem",
+    "sueno_dem"
+   ]
+  },
+  "hidroxizina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE CG113 establece que los antihistamínicos sedantes no deben prescribirse en el trastorno de pánico (1.3.21) y, para el TAG, propone la pregabalina, no la hidroxizina, cuando no se toleran ISRS ni IRSN (1.2.25). La guía europea no recomienda los antihistamínicos para el insomnio (nivel A) (Riemann 2023). La evidencia en el TAG procede de pocos ensayos con alto riesgo de sesgo (véase la ficha del nodo), y la hidroxizina no figura entre los fármacos destacados en el resumen del metaanálisis en red de Slee (2019). En la persona mayor, la ficha técnica de Atarax no recomienda su uso (4.2). Nota factual: indicación autorizada en la ansiedad sintomática del adulto y en el prurito.",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "tag",
+        "farm_anx"
+       ],
+       "t": "ansiedad: guías"
+      },
+      {
+       "ids": [
+        "insom"
+       ],
+       "t": "insomnio"
+      },
+      {
+       "ids": [
+        "pregab",
+        "pregabalina"
+       ],
+       "t": "alternativas no benzodiacepínicas"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Interacciones metabólicas (ficha técnica de Atarax, 4.5 y 5.2): la hidroxizina inhibe CYP2D6 y, a dosis elevadas, puede interaccionar con sus sustratos; inhibe CYP2C9, CYP2C19 y CYP3A4 solo a concentraciones superiores a las terapéuticas. Efectos anticolinérgicos: precaución en glaucoma, obstrucción del flujo vesical, motilidad gastrointestinal reducida, miastenia gravis y demencia, y ajuste con otros depresores del SNC o anticolinérgicos (4.4). Convulsiones: precaución en riesgo elevado; más notificaciones en niños (4.4). QT: una revisión de farmacovigilancia del titular (1955-2016) identificó 59 notificaciones de prolongación del QT o torsade de pointes; salvo en sobredosis intencionales, todas tenían al menos otro factor de riesgo, sobre todo cardiopatía con fármacos arritmogénicos, y los estudios de patch-clamp mostraron bloqueo de hERG dependiente de la concentración (Schlit 2017).",
+     "links": [
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT por psicofármacos"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Contraindicada con QT largo conocido, congénito o adquirido, con factores de riesgo de prolongación del QT (enfermedad cardiovascular, hipopotasemia, hipomagnesemia, bradicardia significativa, antecedente familiar de muerte súbita), con fármacos que prolongan el QT y en el embarazo y la lactancia (ficha técnica de Atarax, 4.3 y 4.5); la combinación de cardiopatía y fármacos arritmogénicos concentra los casos notificados (Schlit 2017). Evitar el alcohol (ficha técnica de Atarax, 4.4). En el chemsex: la inhibición de CYP2D6 (4.5) podría elevar la exposición a sustancias metabolizadas en parte por esa vía, como la MDMA, interacción no estudiada [fuente no localizada]; el efecto sobre el QT de su combinación con estimulantes (metanfetamina, catinonas, cocaína) no está documentado [fuente no localizada]. Su ausencia de potencial de dependencia la hace atractiva en personas con trastorno por consumo, pero la sedación se suma a la del alcohol (4.4 y 4.5) y, por extrapolación, a la de GHB/GBL y opioides; los inhibidores potentes de CYP3A4/5 pueden elevar su concentración (4.5), lo que por extrapolación afecta a ritonavir y cobicistat [fuente no localizada]. Señales de alarma: palpitaciones, síncope, confusión o retención urinaria en mayores y convulsiones.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "alucinogenos",
+        "metanf"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management (CG113), recomendaciones 1.2.25, 1.2.26, 1.3.20 y 1.3.21; consulta de noviembre de 2026",
+    "Schlit AF et al. (2017). Risk of QT prolongation and torsade de pointes associated with exposure to hydroxyzine: re-evaluation of an established drug. Pharmacol Res Perspect 5:e00309 · PMID 28480041",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879"
+   ],
+   "relAdd": [
+    "panic",
+    "insom",
+    "alucinogenos",
+    "polifarm"
+   ]
+  },
+  "buspirona": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En el TAG, el metaanálisis en red de Slee (2019) halló la buspirona eficaz y bien tolerada frente a placebo, con la limitación de muestras pequeñas, mientras que duloxetina, pregabalina, venlafaxina y escitalopram mostraron eficacia con aceptabilidad relativamente buena con más datos. Como potenciación de un ISRS en la depresión mayor sin remisión con citalopram (STAR*D), la remisión fue similar con buspirona y con bupropión (30,1 % frente a 29,7 % en la HRSD-17), pero el bupropión redujo más los síntomas y causó menos abandonos por intolerancia (12,5 % frente a 20,6 %) (Trivedi 2006). Las recomendaciones de NICE CG113 verificadas no la mencionan. Nota factual: sin medicamento autorizado en CIMA en noviembre de 2026 (véase la ficha del nodo), por lo que su uso en España requeriría medicamento extranjero.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "farm_anx"
+       ],
+       "t": "TAG"
+      },
+      {
+       "ids": [
+        "ddm",
+        "isrs"
+       ],
+       "t": "potenciación en la depresión"
+      },
+      {
+       "ids": [
+        "pregab"
+       ],
+       "t": "alternativas no benzodiacepínicas"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Metabolismo por CYP3A: el ritonavir, como antirretroviral o potenciador, aumenta previsiblemente sus concentraciones, y se recomienda vigilar la eficacia y las reacciones adversas (ficha técnica de Norvir, 4.5); con cobicistat la interacción no se ha estudiado, pero se esperan concentraciones mayores y puede ser necesario reducir la dosis con monitorización (ficha técnica de Tybost, 4.5). En STAR*D, la potenciación con buspirona se toleró peor que con bupropión, con más abandonos por intolerancia (Trivedi 2006). Sin acción sobre el receptor GABA-A, carece de tolerancia cruzada con benzodiacepinas y no previene su abstinencia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "no sustituye a las benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Contraindicada con IMAO como la tranilcipromina por aumento grave de la presión arterial, y con riesgo de síndrome serotoninérgico con otros serotoninérgicos (véase la ficha del nodo). En el chemsex: los antirretrovirales potenciados con ritonavir o cobicistat aumentan su exposición (fichas técnicas de Norvir y Tybost, 4.5), y el riesgo de interacción se concentra en esas pautas (Bracchi 2015); la combinación con MDMA u otros serotoninérgicos recreativos no está estudiada [fuente no localizada]. Al no existir ficha técnica española, los controles se basan en la del país de origen del medicamento importado [fuente no localizada]. Señales de alarma: agitación, temblor, mioclonías, hipertermia o hipertensión tras añadir otro serotoninérgico.",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "tranilcipromina"
+       ],
+       "t": "síndrome serotoninérgico e IMAO"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "alucinogenos"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "Trivedi MH et al. (2006). Medication augmentation after the failure of SSRIs for depression. N Engl J Med 354:1243-1252 · PMID 16554526",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartado 4.5; consulta de noviembre de 2026",
+    "Bracchi M et al. (2015). Increasing use of «party drugs» in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268"
+   ],
+   "relAdd": [
+    "ddm",
+    "chemsex_arv",
+    "alucinogenos"
+   ]
+  },
+  "pregab": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE CG113 propone la pregabalina en el TAG cuando no se toleran ISRS ni IRSN, recordando que en el Reino Unido es sustancia controlada desde 2019 y que debe evaluarse el antecedente de abuso (1.2.25); los antihistamínicos sedantes no deben prescribirse en el trastorno de pánico (1.3.21). En el metaanálisis en red del TAG, la pregabalina (diferencia de medias en la HAM-A −2,79) figuró entre los fármacos eficaces con aceptabilidad relativamente buena, y la buspirona fue eficaz, aunque con muestras pequeñas (Slee 2019). En el embarazo, CG113 remite a las advertencias de la MHRA sobre pregabalina (1.2.25). Nota factual: la ficha técnica de Lyrica autoriza el dolor neuropático, la epilepsia como tratamiento combinado y el TAG en adultos (4.1); la buspirona carece de presentación en CIMA y la hidroxizina se autoriza en la ansiedad sintomática y el prurito. Las fichas de cada fármaco desarrollan su perfil.",
+     "links": [
+      {
+       "ids": [
+        "pregabalina",
+        "buspirona",
+        "hidroxizina"
+       ],
+       "t": "fichas individuales"
+      },
+      {
+       "ids": [
+        "tag",
+        "farm_anx"
+       ],
+       "t": "TAG"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Las tres alternativas difieren en farmacocinética. La pregabalina se excreta inalterada por vía renal, con metabolismo inferior al 2 %, sin inhibición enzimática ni unión a proteínas, por lo que apenas tiene interacciones farmacocinéticas, y su aclaramiento es proporcional al de creatinina (ficha técnica de Lyrica, 4.2 y 4.5). La buspirona depende de CYP3A (ficha técnica de Norvir, 4.5), y la hidroxizina inhibe CYP2D6 (ficha técnica de Atarax, 4.5). Potencial de abuso de la pregabalina: la euforia es un efecto adverso frecuente y el abuso se concentra en personas con antecedentes de consumo, sobre todo de opioides (Schjerning 2016). En una cohorte sueca con comparación intraindividual, los gabapentinoides se asociaron a más conducta suicida (HR 1,26), sobredosis no intencionales (1,24), lesiones (1,22) e incidentes de tráfico (1,13), con riesgos mayores para la pregabalina que para la gabapentina y en personas de 15 a 24 años (Molero 2019).",
+     "links": [
+      {
+       "ids": [
+        "pregabalina"
+       ],
+       "t": "pregabalina"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "opioides"
+       ],
+       "t": "riesgos asociados"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Pregabalina y opioides: en un estudio observacional, la combinación se asoció a mayor riesgo de muerte relacionada con opioides (OR ajustada 1,68; IC 95 % 1,19-2,36) (ficha técnica de Lyrica, 4.4). Embarazo: en un estudio nórdico de más de 2700 embarazos expuestos en el primer trimestre, las malformaciones congénitas graves fueron algo más frecuentes (5,9 % frente a 4,1 %; cociente de prevalencia ajustado 1,14; IC 95 % 0,96-1,35) (ficha técnica de Lyrica, 4.6); la ficha técnica pide anticoncepción eficaz y no usarla salvo beneficio claramente superior (4.4 y 4.6). En el chemsex, la pregabalina se suma a la depresión del SNC de los opioides (ficha técnica de Lyrica, 4.4) y, por extrapolación, a la del GHB/GBL (Schep 2012); la hidroxizina exige revisar el QT y la buspirona evitar los IMAO y vigilar el síndrome serotoninérgico. Los demás riesgos de la pregabalina (depresión respiratoria, retirada, angioedema) se detallan en su ficha.",
+     "links": [
+      {
+       "ids": [
+        "pregabalina",
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "qt_psicof",
+        "sind_ser"
+       ],
+       "t": "QT y síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "anx_perinatal"
+       ],
+       "t": "embarazo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management (CG113), recomendaciones 1.2.25, 1.2.26, 1.3.20 y 1.3.21; consulta de noviembre de 2026",
+    "Slee A et al. (2019). Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet 393:768-777 · PMID 30712879",
+    "AEMPS-CIMA (2026). Ficha técnica de Lyrica 50 mg cápsulas duras (pregabalina) (nº de registro 104279009), apartados 4.1, 4.2 y 4.4-4.6; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "Schjerning O et al. (2016). Abuse potential of pregabalin: a systematic review. CNS Drugs 30:9-25 · PMID 26767525",
+    "Molero Y et al. (2019). Associations between gabapentinoids and suicidal behaviour, unintentional overdoses, injuries, road traffic incidents, and violent crime: population based cohort study in Sweden. BMJ 365:l2147 · PMID 31189556",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383"
+   ],
+   "relAdd": [
+    "ideac_suic",
+    "opioides",
+    "anx_perinatal",
+    "ghb_gbl"
+   ]
+  },
+  "propranolol_ans": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías verificadas no recomiendan los betabloqueantes en los trastornos de ansiedad. NICE CG159 propone en la ansiedad social la TCC individual y, si se opta por fármacos, un ISRS (escitalopram o sertralina) (1.3.6), sin mencionar los betabloqueantes, y no recomienda ofrecer de forma sistemática benzodiacepinas, anticonvulsivos, tricíclicos ni antipsicóticos (1.6.2); las recomendaciones de NICE CG113 sobre TAG y pánico tampoco los incluyen. La evidencia se limita a la ansiedad de actuación con síntomas periféricos y a estudios pequeños (véase la ficha del nodo). Nota factual: la ficha técnica de Sumial recoge el tratamiento de la sintomatología periférica de la ansiedad (taquicardia, temblor) entre otras indicaciones cardiovasculares y neurológicas (4.1).",
+     "links": [
+      {
+       "ids": [
+        "fobia_soc",
+        "mod_clark_wells"
+       ],
+       "t": "ansiedad social: TCC primero"
+      },
+      {
+       "ids": [
+        "escitalopram",
+        "sertralina"
+       ],
+       "t": "ISRS recomendados"
+      },
+      {
+       "ids": [
+        "propranolol"
+       ],
+       "t": "ficha del propranolol"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Interacciones de la ficha técnica de Sumial (4.5): verapamilo y diltiazem pueden causar hipotensión grave, bradicardia e insuficiencia cardiaca; cimetidina e hidralazina elevan sus niveles, y el alcohol podría elevarlos; quinidina, propafenona y varias dihidropiridinas aumentan su concentración y la rifampicina la reduce; el propranolol aumenta las concentraciones de teofilina, warfarina, tioridazina y rizatriptán (AUC un 70-80 % mayor); puede exacerbar la hipertensión de rebote al retirar la clonidina. Efectos adversos y precauciones (4.4 y 4.8): broncoespasmo, a veces mortal, en asma; prolongación de la respuesta hipoglucémica a la insulina e hipoglucemia grave aislada; peor respuesta a la adrenalina en la anafilaxia; exacerbación de la psoriasis y casos aislados de síndrome miasténico.",
+     "links": [
+      {
+       "ids": [
+        "propranolol"
+       ],
+       "t": "perfil general"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "interacciones con psicofármacos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Toxicidad en sobredosis: en una serie australiana, el propranolol fue el único betabloqueante asociado a convulsiones y a muerte, la toxicidad apareció en las primeras 6 horas y un QRS > 100 ms se asoció a convulsiones, por lo que debe evitarse en personas con riesgo de autointoxicación (Reith 1996); el hallazgo electrocardiográfico más frecuente en la intoxicación sintomática es el bloqueo auriculoventricular de primer grado (Love 2002). Contraindicaciones (ficha técnica de Sumial, 4.3): asma o broncoespasmo, bradicardia, bloqueos, shock cardiogénico, hipotensión, acidosis metabólica, ayuno prolongado y predisposición a la hipoglucemia. Embarazo: solo si es claramente esencial, por reducción de la perfusión placentaria (4.6). Interacciones con cocaína y otros estimulantes, poppers o inhibidores de la PDE5 [fuente no localizada]. Señales de alarma: síncope, disnea o sibilancias, bradicardia sintomática e hipoglucemia inadvertida.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo de autointoxicación"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "poppers"
+       ],
+       "t": "estimulantes y poppers"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2013). Social anxiety disorder: recognition, assessment and treatment (CG159), recomendaciones 1.3.6 y 1.6.2; consulta de noviembre de 2026",
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management (CG113), recomendaciones 1.2.25, 1.2.26, 1.3.20 y 1.3.21; consulta de noviembre de 2026",
+    "Reith DM et al. (1996). Relative toxicity of beta blockers in overdose. J Toxicol Clin Toxicol 34:273-278 · PMID 8667464",
+    "Love JN et al. (2002). Electrocardiographic changes associated with beta-blocker toxicity. Ann Emerg Med 40:603-610 · PMID 12447337"
+   ],
+   "relAdd": [
+    "escitalopram",
+    "sertralina",
+    "ideac_suic",
+    "cocaina"
+   ]
+  }
+ },
+ "add": []
+}

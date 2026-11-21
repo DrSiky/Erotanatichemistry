@@ -1,0 +1,26 @@
+{
+ "pmid_comprobados": 14,
+ "pmid_lista": ["27037733","31018613","35695047","36813556","40772002","42036737","22003419","18332858","14748556","21154379","26969125","21886449","13678134","5467774"],
+ "pmid_erroneos": 0,
+ "cambios": [
+  {"id":"oxido_nitroso","gravedad":"menor","antes":"hiperintensidad T2 medular en el 68 % de los casos (Oussalah 2019), típicamente en los cordones posteriores de la médula cervical","despues":"68 % (Oussalah 2019); cuando se especificaba, afectación de cordones posteriores, típicamente cervical","fuente":"Marsden 2022 (PMID 35695047): «dorsal column change where specified, typically involving the cervical spine»; Oussalah solo da el 68 %."},
+  {"id":"oxido_nitroso","gravedad":"mayor","antes":"La metionina y fármacos como la naltrexona o el aripiprazol se mencionan como opciones emergentes sin evidencia suficiente","despues":"metionina pendiente de investigación (Marsden); naltrexona y aripiprazol citados como emergentes en una revisión de alcance, sin ensayos controlados [fuente no localizada]","fuente":"Marsden 2022: «Research exploring B12 and methionine therapy is required»; Cornelio 2025 (PMID 40772002) los cita como «emerging pharmacologic agents»."},
+  {"id":"oxido_nitroso","gravedad":"menor","antes":"la toxicidad crónica depende de la intensidad y la duración del consumo","despues":"la toxicidad crónica es dependiente de la dosis","fuente":"Marsden 2022: «dose-dependent nature of chronic N2O toxicity»; se evita además cualquier detalle de patrón de uso."},
+  {"id":"oxido_nitroso","gravedad":"menor","antes":"ev=meta","despues":"ev=obs","fuente":"Los metaanálisis/revisiones (Oussalah 2019, Marsden 2022) agregan exclusivamente casos y series publicados."},
+  {"id":"inhalantes","gravedad":"menor","antes":"el término «sudden sniffing death» procede de Bass (1970) / descrito por Bass (1970)","despues":"la expresión da título al artículo de Bass (1970)","fuente":"PMID 5467774 sin resumen; la prioridad histórica del término no es comprobable."},
+  {"id":"inhalantes","gravedad":"menor","antes":"No hay ensayos aleatorizados ni controlados sobre el tratamiento del trastorno por consumo de inhalantes","despues":"La revisión Cochrane no encontró ningún ECA ni ensayo clínico controlado (búsqueda hasta 2010)","fuente":"Konghom 2010 (PMID 21154379): «No studies fulfilling the inclusion criteria», búsqueda hasta febrero de 2010."},
+  {"id":"inhalantes","gravedad":"menor","antes":"Es frecuente en la adolescencia temprana ... socioeconómicamente desfavorecidas (Baydala 2010)","despues":"adolescencia temprana (Lubman 2008); minorías y marginación (Baydala 2010); infancia y adolescencia desfavorecidas (Konghom 2010)","fuente":"Baydala no menciona la adolescencia temprana ni el nivel socioeconómico en esos términos; sí Lubman 2008 y Konghom 2010."},
+  {"id":"inhalantes","gravedad":"menor","antes":"Que estos cambios reviertan con la abstinencia está poco investigado (Lubman 2008) / note: reversibilidad poco estudiada","despues":"efectos graves y a menudo irreversibles (Baydala 2010); mecanismos de reversibilidad apenas investigados en estudios preclínicos (Lubman 2008)","fuente":"Baydala 2010 (PMID 21886449): «serious and often irreversible effects»; Lubman 2008 (PMID 18332858) se refiere a investigación preclínica."},
+  {"id":"inhalantes","gravedad":"menor","antes":"enlace vih_ncd «otros trastornos neurocognitivos de causa orgánica»","despues":"enlace retirado","fuente":"vih_ncd es la ficha de trastornos neuropsiquiátricos asociados al VIH: enlace no pertinente."}
+ ],
+ "comprobaciones": [
+  "Todas las cifras de Oussalah 2019, Marsden 2022, Garakani 2016, Garriga-Solé 2026, Paris 2023, Howard 2011, Anderson 2003 y Filley 2004 figuran en sus resúmenes; autor, año, revista, volumen y páginas coinciden.",
+  "Códigos CIE-11 6C4B, 6C4B.0-6C4B.71, 6D72.13, 6D84.2, 6C4E y XM73B5 (bajo gases anestésicos depresores del SNC) comprobados en la tabulación MMS; la asignación del N2O a 6C4E sigue marcada [fuente oficial no localizada].",
+  "Sin dosis ni pautas; lenguaje neutro; parche validado con apply.js --check: OK (11 parches, 2 nodos nuevos)."
+ ],
+ "sin_resolver": [
+  "Afirmación del DSM-5-TR (N2O y nitritos como «otras sustancias») no cotejada con el texto: la referencia mantiene [no verificada].",
+  "Prevalencia del N2O en el chemsex y mecanismo arrítmico de la muerte súbita por inhalación siguen marcados [fuente no localizada]; la etiqueta chemsex del nodo oxido_nitroso carece de apoyo bibliográfico específico.",
+  "Faltan datos epidemiológicos españoles verificados (p. ej., ESTUDES/EDADES)."
+ ]
+}

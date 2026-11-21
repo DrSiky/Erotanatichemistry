@@ -1,0 +1,1592 @@
+{
+ "patch": {
+  "clozapina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La ficha técnica de Leponex (4.1) la reserva para la esquizofrenia resistente —falta de mejoría satisfactoria tras al menos dos antipsicóticos distintos, uno de ellos atípico, a dosis y tiempo adecuados—, para quien presenta reacciones adversas neurológicas graves no tratables con otros antipsicóticos y para la psicosis de la enfermedad de Parkinson cuando ha fallado el tratamiento estándar. NICE CG178 (1.5.7.2) la indica tras fallar dos antipsicóticos, y la guía APA 2020 la recomienda (1B) en la resistencia y cuando el riesgo de suicidio sigue siendo considerable pese a otros tratamientos, y la sugiere (2C) ante un riesgo persistente de conducta agresiva (Keepers 2020). En el metaanálisis de Siskind (2016) superó a otros antipsicóticos en síntomas positivos a corto y largo plazo (NNT 9); sus autores proponen replantearla si no hay respuesta a los 6 meses. Fuera de la resistencia obtuvo el mayor efecto global frente a placebo en los metaanálisis en red (DME 0,88 en Leucht 2013; -0,89 en Huhn 2019). En una cohorte sueca de 29 823 personas se asoció a uno de los menores riesgos de rehospitalización (HR 0,53; IC 95 % 0,48-0,58 frente al no uso) y de fracaso terapéutico (Tiihonen 2017). En primeros episodios, los autores de OPTiMiSE proponen adelantarla tras un solo fracaso (Kahn 2018). En personas con esquizofrenia y consumo de sustancias, un metaanálisis de 19 ensayos pequeños la halló superior a otros antipsicóticos en la reducción del consumo (Krause 2019).",
+     "links": [
+      {
+       "ids": [
+        "cloz",
+        "kane_hit"
+       ],
+       "t": "resistencia y ensayo fundacional"
+      },
+      {
+       "ids": [
+        "pep",
+        "psust"
+       ],
+       "t": "primer episodio y consumo de sustancias"
+      },
+      {
+       "ids": [
+        "parkinson_psiq",
+        "lewy"
+       ],
+       "t": "psicosis en la enfermedad de Parkinson"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "conducta suicida"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Según la ficha técnica (5.1), bloquea débilmente los receptores D1, D2, D3 y D5 y con potencia el D4, con efectos antiadrenérgico α, anticolinérgico, antihistamínico y antiserotoninérgico; no induce catalepsia y no eleva la prolactina o lo hace mínimamente. De ahí su perfil: en Huhn (2019) fue el antipsicótico con menor uso de antiparkinsonianos (RR 0,46) y con menor prolactina frente a placebo; en Leucht (2013), el de menos efectos extrapiramidales (OR 0,30) y más sedación (OR 8,82). En lo metabólico comparte con la olanzapina el peor perfil: mayor aumento de peso (3,01 kg), de colesterol total, de triglicéridos y de glucosa frente a placebo (Pillinger 2019). Reacciones muy frecuentes según la ficha (4.8): somnolencia, mareo, taquicardia, estreñimiento e hipersalivación. Farmacocinética (5.2): metabolismo casi completo por CYP1A2 y CYP3A4 y, en menor medida, CYP2C19 y CYP2D6; semivida terminal media de 12 h; los alimentos no modifican la absorción. El humo del tabaco induce el CYP1A2: la relación concentración/dosis es menor en quien fuma (Tsuda 2014), y se han descrito intoxicaciones al dejar de fumar tabaco y cannabis (Zullino 2002). La ficha (4.5) añade que los anticonceptivos hormonales inhiben su metabolismo y pueden obligar a ajustar el tratamiento, que rifampicina, fenitoína y omeprazol reducen sus concentraciones, que el litio aumenta el riesgo de síndrome neuroléptico maligno y que con valproato se han descrito crisis epilépticas y delirium.",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "muscarinico_esq"
+       ],
+       "t": "mecanismo receptorial"
+      },
+      {
+       "ids": [
+        "tabaco",
+        "cannabis_tuc",
+        "nicotina_tsn"
+       ],
+       "t": "humo, CYP1A2 y cesación"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "fenot_metab",
+        "fluvoxamina"
+       ],
+       "t": "vías CYP e inhibidores"
+      },
+      {
+       "ids": [
+        "lm_bip",
+        "vpa_bip"
+       ],
+       "t": "litio y valproato"
+      },
+      {
+       "ids": [
+        "apetito_sx",
+        "inmunometab_dep"
+       ],
+       "t": "efectos metabólicos"
+      },
+      {
+       "ids": [
+        "snm",
+        "epilepsia_psic"
+       ],
+       "t": "síndrome neuroléptico maligno y crisis epilépticas"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La monitorización hematológica, cardíaca y metabólica se detalla en su ficha propia; aquí, lo que la complementa. Hipomotilidad gastrointestinal: en la farmacovigilancia de Australia y Nueva Zelanda (43 132 personas expuestas) se notificaron cuadros graves en 37 de cada 10 000 y al menos 29 muertes (letalidad del 18 %), y pocas personas recibían laxantes (Every-Palmer 2017); la ficha técnica pide diagnosticar y tratar activamente el estreñimiento. Hipotensión ortostática y colapso, rara vez con parada cardíaca o respiratoria: más probables al inicio, con escalada rápida y con benzodiacepinas (4.4). La suspensión brusca puede causar recaída y rebote colinérgico (sudoración, cefalea, náuseas, vómitos, diarrea); tras una interrupción de más de 2 días la ficha exige reiniciar la titulación (4.2). Sustancias: la ficha desaconseja el alcohol por la suma de sedación y contraindica el fármaco en las psicosis alcohólicas u otras psicosis tóxicas y en la intoxicación medicamentosa (4.3). En un estudio controlado con ocho varones con adicción a la cocaína, el pretratamiento con clozapina elevó de forma dependiente de la dosis las concentraciones séricas de cocaína, atenuó sus efectos subjetivos y presores y causó un episodio casi sincopal (Farren 2000). Sobre GHB/GBL, mefedrona o metanfetamina no se ha localizado estudio específico; la suma de depresión del sistema nervioso central con GHB/GBL es esperable por mecanismo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "clozapina_monit",
+        "hla_clozapina"
+       ],
+       "t": "protocolo de monitorización"
+      },
+      {
+       "ids": [
+        "ansiol_bzd",
+        "alcohol"
+       ],
+       "t": "depresores del sistema nervioso central"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "ghb_gbl",
+        "mefed",
+        "metanf"
+       ],
+       "t": "sustancias de uso recreativo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Siskind D et al. (2016). Clozapine v. first- and second-generation antipsychotics in treatment-refractory schizophrenia: systematic review and meta-analysis. Br J Psychiatry 209:385-392 · PMID 27388573",
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "Pillinger T et al. (2019). Comparative effects of 18 antipsychotics on metabolic function in patients with schizophrenia, predictors of metabolic dysregulation, and association with psychopathology: a systematic review and network meta-analysis. Lancet Psychiatry 7:64-77 · PMID 31860457",
+    "Tiihonen J et al. (2017). Real-World Effectiveness of Antipsychotic Treatments in a Nationwide Cohort of 29 823 Patients With Schizophrenia. JAMA Psychiatry 74:686-693 · PMID 28593216",
+    "Kahn RS et al. (2018). Amisulpride and olanzapine followed by open-label treatment with clozapine in first-episode schizophrenia and schizophreniform disorder (OPTiMiSE): a three-phase switching study. Lancet Psychiatry 5:797-807 · PMID 30115598",
+    "Krause M et al. (2019). Efficacy, acceptability and tolerability of antipsychotics in patients with schizophrenia and comorbid substance use. A systematic review and meta-analysis. Eur Neuropsychopharmacol 29:32-45 · PMID 30472164",
+    "Every-Palmer S & Ellis PM (2017). Clozapine-Induced Gastrointestinal Hypomotility: A 22-Year Bi-National Pharmacovigilance Study of Serious or Fatal 'Slow Gut' Reactions, and Comparison with International Drug Safety Advice. CNS Drugs 31:699-709 · PMID 28623627",
+    "Tsuda Y, Saruwatari J & Yasui-Furukori N (2014). Meta-analysis: the effects of smoking on the disposition of two commonly used antipsychotic agents, olanzapine and clozapine. BMJ Open 4:e004216 · PMID 24595134",
+    "Zullino DF et al. (2002). Tobacco and cannabis smoking cessation can lead to intoxication with clozapine or olanzapine. Int Clin Psychopharmacol 17:141-3 · PMID 11981356",
+    "Farren CK et al. (2000). Significant interaction between clozapine and cocaine in cocaine addicts. Drug Alcohol Depend 59:153-63 · PMID 10891628",
+    "AEMPS-CIMA (2026). Ficha técnica Leponex 100 mg comprimidos (n.º registro 59547), secciones 4.1, 4.2, 4.3, 4.4, 4.5, 4.8, 5.1 y 5.2",
+    "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516 [sin resumen en PubMed; enunciados contrastados en el material oficial de la guía en psychiatry.org, noviembre de 2026]",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)"
+   ],
+   "relAdd": [
+    "pep",
+    "psust",
+    "cocaina",
+    "ansiol_bzd",
+    "parkinson_psiq",
+    "cannabis_tuc"
+   ]
+  },
+  "clorpromazina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Las guías consultadas no le reservan un lugar propio: NICE CG178 solo la nombra para advertir de la fotosensibilidad (1.3.6.11). La guía alemana S3 parte de que los antipsicóticos disponibles no difieren mucho en eficacia y recomienda elegir el tratamiento agudo según el perfil de efectos adversos motores, metabólicos, sexuales, cardíacos y hematológicos (Hasan 2020). La evidencia comparativa la sitúa en la zona media-baja de eficacia: DME 0,38 (IC 95 % 0,23-0,54) frente a placebo en el metaanálisis de Leucht (2013), con una estimación puntual inferior a las de clozapina, amisulprida, olanzapina, risperidona o haloperidol, entre otros. El metaanálisis que la comparó con 43 antipsicóticos (128 ensayos, 10 667 participantes) la halló menos eficaz que clozapina, olanzapina, zotepina y clomacrán, más eficaz que cuatro fármacos hoy en desuso y sin diferencias significativas con los 28 restantes; como la mayoría de las comparaciones carecía de potencia (mediana de 50 participantes), sus autores concluyen que la tesis de la eficacia equivalente de los antipsicóticos nunca se apoyó en pruebas (Samara 2014). En la esquizofrenia resistente fue el comparador frente al que se demostró la clozapina (Kane 1988), y en un ensayo pequeño (19 personas por rama) no difirió de la levomepromazina en la tasa de respuesta final (Lal 2006). Nota factual: las indicaciones autorizadas en España, de redacción antigua, constan en la descripción de esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "clorpromazina_hit",
+        "kane_hit"
+       ],
+       "t": "hitos históricos"
+      },
+      {
+       "ids": [
+        "ap_tipicos",
+        "haloperidol",
+        "levomepromazina"
+       ],
+       "t": "primera generación"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "cloz"
+       ],
+       "t": "resistencia"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Largactil (5.1) atribuye el efecto antipsicótico al bloqueo dopaminérgico límbico y el síndrome extrapiramidal al bloqueo estriatal, y le reconoce actividad antiemética y ansiolítica. Su perfil clínico es el de una fenotiazina de baja potencia: la ficha (4.8) clasifica como muy frecuentes el aumento de peso, la sedación y somnolencia, la hipotensión ortostática, la sequedad de boca, el estreñimiento, la acatisia, el síndrome extrapiramidal y la discinesia, incluida la tardía; y como frecuentes la hiperprolactinemia con amenorrea, la intolerancia a la glucosa, las convulsiones y la prolongación del QT. Interacciones (4.5): es un inhibidor potente del CYP2D6 (eleva, por ejemplo, la amitriptilina); los inhibidores del CYP1A2, como ciprofloxacino o fluvoxamina, aumentan sus concentraciones; los antiácidos con aluminio, magnesio o calcio reducen su absorción y deben separarse al menos 2 h; los anticolinérgicos suman efectos atropínicos, y disminuye el efecto antihipertensivo de la guanetidina. La ficha no menciona el tabaco; que el humo, inductor del CYP1A2, reduzca sus concentraciones es plausible por esa vía metabólica [fuente no localizada]. No se han localizado estimaciones comparativas de su efecto sobre prolactina, lípidos o QTc en los metaanálisis en red consultados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "dopa_hyp"
+       ],
+       "t": "bloqueo dopaminérgico"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab",
+        "fg_antipsic",
+        "fluvoxamina"
+       ],
+       "t": "CYP2D6 y CYP1A2"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard",
+        "biperideno"
+       ],
+       "t": "efectos motores"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "tabaco"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Obligan a actuar según la ficha técnica (4.4): hipertermia inexplicada con rigidez y alteraciones autonómicas (síndrome neuroléptico maligno: suspender); fiebre o dolor de garganta (hemograma, e interrupción ante cambios importantes del recuento); distensión y dolor abdominal (íleo paralítico: emergencia); crisis convulsivas (suspender); ictericia o signos de daño hepático, con casos graves notificados; y síncope o palpitaciones, por el riesgo de torsade de pointes, mayor con bradicardia, hipopotasemia y QT largo congénito o adquirido. En tratamientos prolongados la ficha recomienda controles hematológicos y oftalmológicos. Se han notificado tromboembolismo venoso e hiperglucemia. Combinaciones no recomendadas: litio (síndrome confusional, hipertonía e hiperreflexia), levodopa y antiparkinsonianos dopaminérgicos, y otros fármacos que prolongan el QT. Sustancias: la ficha indica evitar el alcohol, que potencia la sedación, y advierte del efecto aditivo con opioides, benzodiacepinas, barbitúricos y otros depresores del sistema nervioso central. En la sobredosis describe parkinsonismo grave, convulsiones y coma, sin antídoto específico, con monitorización respiratoria y cardíaca. No se ha localizado fuente específica sobre su combinación con GHB/GBL ni con estimulantes del contexto del chemsex; como inhibidor del CYP2D6 podría elevar las concentraciones de sustancias que dependen de esa enzima, como la metanfetamina o la MDMA [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "delirium"
+       ],
+       "t": "urgencias neuropsiquiátricas"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "opioides",
+        "ansiol_bzd"
+       ],
+       "t": "depresores"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "metanf",
+        "chemsex_s"
+       ],
+       "t": "contexto de chemsex"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Samara MT et al. (2014). Chlorpromazine versus every other antipsychotic for schizophrenia: a systematic review and meta-analysis challenging the dogma of equal efficacy of antipsychotic drugs. Eur Neuropsychopharmacol 24:1046-55 · PMID 24766970",
+    "Lal S et al. (2006). Levomepromazine versus chlorpromazine in treatment-resistant schizophrenia: a double-blind randomized trial. J Psychiatry Neurosci 31:271-9 · PMID 16862245",
+    "Hasan A et al. (2020). Schizophrenia. Dtsch Arztebl Int 117:412-419 · PMID 32865492",
+    "Kane J et al. (1988). Clozapine for the treatment-resistant schizophrenic: a double-blind comparison with chlorpromazine. Arch Gen Psychiatry 45:789-796 · PMID 3046553"
+   ],
+   "relAdd": [
+    "clozapina",
+    "cyp2d6",
+    "discin_tard",
+    "acatisia",
+    "ap_dem_riesgo",
+    "fg_antipsic"
+   ]
+  },
+  "levomepromazina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "No figura como opción diferenciada en la evidencia comparativa: en el metaanálisis de Huhn (2019) su efecto frente a placebo fue el menor de los 32 fármacos, con un intervalo que incluye la ausencia de efecto, y la revisión Cochrane no encontró ventaja clara sobre otros antipsicóticos (Sivaraman 2010). El único ensayo doble ciego localizado, en esquizofrenia resistente con criterios de Kane (19 personas por rama), no halló diferencias con la clorpromazina en la tasa de respuesta final (10 frente a 8 de 19), aunque el análisis longitudinal favoreció ligeramente a la levomepromazina; ambos brazos mejoraron respecto de la situación basal, y la acatisia se asoció a falta de respuesta (Lal 2006). Fuera de la psicosis, su uso más extendido es el paliativo: una revisión sistemática de 33 artículos (sedación paliativa, náuseas, delirium e inquietud, dolor) concluyó que se emplea ampliamente, pero que la evidencia se limita a series abiertas y casos (niveles 2b a 5), y reclama ensayos aleatorizados (Dietz 2013). NICE CG178, que remite la elección a una decisión compartida según los efectos adversos (1.3.5.1), no la menciona en sus recomendaciones; que la guía S3 alemana (Hasan 2020) tampoco le asigne un lugar no pudo contrastarse en su texto completo [fuente no localizada]. Nota factual: las indicaciones autorizadas en España, incluida la coadyuvante en la fase terminal, constan en la descripción de esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "clorpromazina",
+        "haloperidol",
+        "ap_tipicos"
+       ],
+       "t": "primera generación"
+      },
+      {
+       "ids": [
+        "cloz",
+        "kane_hit"
+       ],
+       "t": "resistencia"
+      },
+      {
+       "ids": [
+        "delirium",
+        "agitacion"
+       ],
+       "t": "delirium y agitación"
+      },
+      {
+       "ids": [
+        "insomnio_sx"
+       ],
+       "t": "sedación e insomnio"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Sinogan (5.1) la describe como una fenotiazina alifática con actividad antidopaminérgica de intensidad media —responsable del efecto antipsicótico, de los efectos extrapiramidales y de la hiperprolactinemia—, actividad antihistamínica que causa una sedación importante y es más potente que la de otras fenotiazinas, propiedades adrenolíticas y anticolinérgicas marcadas y una actividad analgésica importante; no detalla subtipos de receptor. La ficha (4.8) no asigna frecuencia a la mayoría de las reacciones; enumera sedación o somnolencia, síndromes extrapiramidales y discinesia tardía, efectos anticolinérgicos, hipotensión postural, hiperprolactinemia, aumento de peso, prolongación del QT y torsade de pointes, agranulocitosis, ictericia y daño hepático, fotosensibilidad, priapismo y enterocolitis necrótica. Interacciones (4.5): inhibe el CYP2D6 y puede elevar antidepresivos, antiarrítmicos, betabloqueantes, codeína y dextrometorfano; potencia los antihipertensivos e inhibe el efecto de la guanetidina; suma efectos atropínicos con los anticolinérgicos; con litio se han descrito cuadros neuropsiquiátricos similares al síndrome neuroléptico maligno o a la intoxicación por litio; los antiácidos con aluminio, magnesio o calcio deben separarse al menos 2 h. No se han localizado estimaciones comparativas fiables de su efecto sobre peso, prolactina o QTc frente a otros antipsicóticos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "bloqueo dopaminérgico"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab",
+        "fg_antipsic"
+       ],
+       "t": "inhibición del CYP2D6"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "acatisia"
+       ],
+       "t": "efectos motores"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La ficha técnica contraindica la ingestión de alcohol: aumenta el efecto sedante y puede causar depresión respiratoria (4.5). El mismo efecto aditivo, con riesgo de depresión respiratoria, se describe con opiáceos, metadona, barbitúricos, hipnóticos, ansiolíticos, antihistamínicos H1 y clonidina, lo que tiene relevancia directa en personas con consumo de alcohol, opioides o benzodiacepinas. Para el GHB/GBL, depresor del sistema nervioso central habitual en el chemsex, no se ha localizado fuente específica; el riesgo aditivo es esperable por mecanismo [fuente no localizada]. Obligan a actuar (4.4): fiebre persistente, dolor de garganta o infección (hemograma); hipertermia con rigidez (síndrome neuroléptico maligno: suspender de inmediato); dolor y distensión abdominal (íleo paralítico: tratamiento urgente); síncope o palpitaciones, por el riesgo de torsade de pointes, mayor con bradicardia, hipopotasemia y QT largo; e hipotensión ortostática, sobre todo en personas mayores. La ficha recoge además la mayor mortalidad de las personas mayores con demencia tratadas con antipsicóticos (1,6-1,7 veces la del placebo), el tromboembolismo venoso, la hiperglucemia y el descenso del umbral convulsivo. En la sobredosis describe convulsiones, parkinsonismo grave y coma, sin antídoto específico. Su empleo como sedante de rescate no exime del ECG ni de los controles que la ficha establece.",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "opioides",
+        "metadona",
+        "ansiol_bzd"
+       ],
+       "t": "depresores con riesgo respiratorio"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "chemsex_s",
+        "red_danos"
+       ],
+       "t": "chemsex y reducción de daños"
+      },
+      {
+       "ids": [
+        "snm"
+       ],
+       "t": "síndrome neuroléptico maligno"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo",
+        "bzd_mayor"
+       ],
+       "t": "personas mayores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lal S et al. (2006). Levomepromazine versus chlorpromazine in treatment-resistant schizophrenia: a double-blind randomized trial. J Psychiatry Neurosci 31:271-9 · PMID 16862245",
+    "Dietz I et al. (2013). Evidence for the use of Levomepromazine for symptom control in the palliative care setting: a systematic review. BMC Palliat Care 12:2 · PMID 23331515",
+    "Hasan A et al. (2020). Schizophrenia. Dtsch Arztebl Int 117:412-419 · PMID 32865492",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)"
+   ],
+   "relAdd": [
+    "alcohol",
+    "opioides",
+    "delirium",
+    "cyp2d6",
+    "snm",
+    "ap_dem_riesgo",
+    "discin_tard"
+   ]
+  },
+  "zuclopentixol": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Antipsicótico de primera generación con formulación de acción prolongada. En la cohorte sueca de 29 823 personas con esquizofrenia, el zuclopentixol inyectable de acción prolongada estuvo entre los tratamientos con menor riesgo de rehospitalización psiquiátrica (HR 0,53; IC 95 % 0,48-0,57 frente a no usar antipsicótico), junto al palmitato de paliperidona mensual y la clozapina, y los inyectables en conjunto redujeron ese riesgo respecto de sus equivalentes orales (HR 0,78; 0,72-0,84) (Tiihonen 2017; datos observacionales con análisis intraindividual). La revisión Cochrane del decanoato (4 ensayos, todos frente a otros depot) encontró menos recaídas (NNT 8; IC 95 % 5-53), más efectos adversos (NNH 5) y menor necesidad de anticolinérgicos (NNT 9), con datos escasos y antiguos (Coutinho 2000). El metaanálisis de Kishimoto (2021) respalda los inyectables como clase frente a los orales en hospitalización o recaída. La elección del inyectable se rige por el perfil de efectos adversos (guía S3 alemana, Hasan 2020) y por las preferencias de la persona, con los mismos criterios que la vía oral (NICE CG178, 1.5.6.1); NICE no nombra ningún inyectable concreto. En la tranquilización rápida, NICE NG10 (1.4.37) recomienda lorazepam intramuscular solo o haloperidol con prometazina intramusculares y no menciona el acetato; su evidencia aleatorizada se resume en la descripción. Nota factual: las tres presentaciones y sus indicaciones autorizadas constan en la descripción de esta ficha.",
+     "links": [
+      {
+       "ids": [
+        "ap_lai",
+        "ap_tipicos"
+       ],
+       "t": "clases y formulaciones"
+      },
+      {
+       "ids": [
+        "paliperidona",
+        "clozapina"
+       ],
+       "t": "comparadores en la cohorte sueca"
+      },
+      {
+       "ids": [
+        "agitacion",
+        "hetero_agr"
+       ],
+       "t": "agitación y agresividad"
+      },
+      {
+       "ids": [
+        "esq",
+        "rempar"
+       ],
+       "t": "mantenimiento de la esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Clopixol Depot (5.1) describe alta afinidad in vitro por los receptores D1 y D2, α1-adrenérgicos y 5-HT2, afinidad débil por H1 y ausencia de afinidad muscarínica y de bloqueo α2; in vivo predomina la afinidad D2, y eleva la prolactina. Reacciones muy frecuentes (4.8): somnolencia, acatisia, hipercinesia, hipocinesia y sequedad de boca; frecuentes: temblor, distonía, discinesia, aumento de peso y del apetito, disminución de la libido, taquicardia, hipersalivación y estreñimiento. Farmacocinética del decanoato (5.2): el éster, muy lipófilo, se libera lentamente del vehículo oleoso y se hidroliza a zuclopentixol; el pico sérico se alcanza a los 3-7 días; se metaboliza por sulfoxidación, N-desalquilación y glucuronidación a metabolitos inactivos, con excreción sobre todo fecal, y parte de la vía depende del CYP2D6 polimórfico. Interacciones (4.5): los inhibidores del CYP2D6 pueden reducir su aclaramiento; con antidepresivos tricíclicos hay inhibición metabólica mutua; reduce el efecto de la levodopa, de los fármacos adrenérgicos y de la guanetidina, y el litio aumenta el riesgo de neurotoxicidad. No se han localizado datos comparativos sólidos sobre su efecto en peso, lípidos o QTc frente a otros antipsicóticos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "bloqueo dopaminérgico"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab",
+        "fg_antipsic"
+       ],
+       "t": "CYP2D6 y farmacogenética"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard",
+        "escalas_motor"
+       ],
+       "t": "efectos motores y su medida"
+      },
+      {
+       "ids": [
+        "sexual_sx"
+       ],
+       "t": "prolactina y sexualidad"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Con el decanoato, cualquier efecto adverso grave persiste semanas: el síndrome neuroléptico maligno (rigidez, hipertermia, alteración autonómica) obliga a suspender las inyecciones y a un soporte prolongado. La ficha técnica (4.4) desaconseja el uso profiláctico rutinario de antiparkinsonianos y advierte de que pueden empeorar la discinesia tardía. Otras señales: disfagia (riesgo de aspiración), discrasias sanguíneas (leucopenia, neutropenia, agranulocitosis) ante fiebre o infección, riesgo de hipotermia en personas mayores en situación crítica, tromboembolismo venoso, descompensación glucémica y glaucoma de ángulo estrecho. QT: evitar la combinación con antiarrítmicos de clase Ia y III, tioridazina y determinados macrólidos, antihistamínicos y quinolonas (4.5). En personas mayores con demencia, la ficha recoge el pequeño aumento de mortalidad y el mayor riesgo cerebrovascular. Sustancias: está contraindicado ante la reducción del nivel de conciencia de cualquier causa, incluida la intoxicación por alcohol, barbitúricos u opiáceos (4.3), y potencia la sedación del alcohol y de otros depresores; esto condiciona su uso —en especial el del acetato, cuyo efecto dura días— en urgencias con intoxicación mixta o no aclarada. La ficha no menciona expresamente el GHB/GBL, pero su intoxicación cursa con disminución de la conciencia y queda comprendida en el tenor literal de esa contraindicación («independientemente de su origen»).",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "discin_tard",
+        "biperideno"
+       ],
+       "t": "complicaciones motoras y anticolinérgicos"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "opioides",
+        "ghb_gbl"
+       ],
+       "t": "intoxicaciones con disminución de la conciencia"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      },
+      {
+       "ids": [
+        "ap_lai"
+       ],
+       "t": "persistencia del depot"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Tiihonen J et al. (2017). Real-World Effectiveness of Antipsychotic Treatments in a Nationwide Cohort of 29 823 Patients With Schizophrenia. JAMA Psychiatry 74:686-693 · PMID 28593216",
+    "Coutinho E, Fenton M & Quraishi S (2000). Zuclopenthixol decanoate for schizophrenia and other serious mental illnesses. Cochrane Database Syst Rev 1999:CD001164 · PMID 10796607",
+    "Kishimoto T et al. (2021). Long-acting injectable versus oral antipsychotics for the maintenance treatment of schizophrenia: a systematic review and comparative meta-analysis of randomised, cohort, and pre-post studies. Lancet Psychiatry 8:387-404 · PMID 33862018",
+    "Hasan A et al. (2020). Schizophrenia. Dtsch Arztebl Int 117:412-419 · PMID 32865492",
+    "NICE (2015). Violence and aggression: short-term management in mental health, health and community settings (NG10)"
+   ],
+   "relAdd": [
+    "acatisia",
+    "cyp2d6",
+    "alcohol",
+    "opioides",
+    "ghb_gbl",
+    "biperideno",
+    "ap_dem_riesgo"
+   ]
+  },
+  "paliperidona": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Esquizofrenia: eficacia intermedia-alta en fase aguda (DME 0,50; IC 95 % 0,39-0,60 en Leucht 2013). En el metaanálisis en red de mantenimiento, la paliperidona oral obtuvo la estimación más favorable de prevención de recaídas (RR 0,20; ICr 95 % 0,05-0,41), aunque sus autores no ven pruebas claras de superioridad de ningún antipsicótico y aconsejan elegir por tolerabilidad (Schneider-Thoma 2022). El palmitato mensual fue el tratamiento con menor riesgo de rehospitalización en la cohorte sueca (HR 0,51; IC 95 % 0,41-0,64; Tiihonen 2017). Frente a placebo redujo las recurrencias (RR 0,28 en el ensayo diseñado para ello) y no difirió de la risperidona inyectable en abandonos ni en recurrencia (Nussbaum 2012); frente al decanoato de haloperidol no hubo diferencia en el fracaso de eficacia (HR 0,98; IC 95 % 0,65-1,47), con más aumento de peso y de prolactina con paliperidona y más acatisia con haloperidol (McEvoy 2014). Trastorno esquizoafectivo: el intervalo de dosis alto de la forma oral superó al placebo en la PANSS y el bajo no (Canuso 2010), dentro del primer programa de registro en esta entidad. Trastorno bipolar: CANMAT/ISBD 2018 incluye la paliperidona en monoterapia entre las opciones de primera línea de la manía aguda (nivel 1), pero no recomienda combinarla con litio o valproato por falta de eficacia añadida (Yatham 2018); la manía no figura entre las indicaciones de la ficha técnica española. Las formulaciones inyectables se tratan en la ficha de clase.",
+     "links": [
+      {
+       "ids": [
+        "ap_lai",
+        "risperidona",
+        "haloperidol"
+       ],
+       "t": "inyectables y comparadores"
+      },
+      {
+       "ids": [
+        "teasqb",
+        "teasqd"
+       ],
+       "t": "trastorno esquizoafectivo"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "tb1"
+       ],
+       "t": "manía"
+      },
+      {
+       "ids": [
+        "esq",
+        "rempar"
+       ],
+       "t": "mantenimiento"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Invega (5.1) describe unión firme a los receptores 5-HT2 y D2, bloqueo α1 y, en menor medida, H1 y α2. Es el antipsicótico con mayor elevación de prolactina en los dos metaanálisis en red (Leucht 2013; Huhn 2019); frente al decanoato de haloperidol, la prolactina máxima fue claramente superior, sobre todo en mujeres (McEvoy 2014). Peso: en ensayos a corto plazo, aumento medio de 1,24 kg frente a placebo y mayor riesgo de ganar un 7 % o más (RR 2,17) (De Hert 2012); con el palmitato, 1,34 kg más que con placebo (Nussbaum 2012). Frente a quetiapina produjo más uso de antiparkinsonianos y más prolactina en un ensayo (Asmal 2013). Reacciones más frecuentes según la ficha (4.8): cefalea, insomnio, sedación o somnolencia, parkinsonismo, acatisia, taquicardia, temblor, distonía y aumento de peso. Farmacocinética clínicamente relevante: se elimina sobre todo por el riñón, con escasas interacciones por el citocromo P450; la ficha indica tomarla siempre en ayunas o siempre con el desayuno, porque la comida rica en grasa aumenta la exposición; el valproato eleva la exposición a paliperidona y la carbamazepina la reduce; no se recomienda asociarla a risperidona oral por exposición aditiva al mismo principio activo. Tabaco: no es sustrato del CYP1A2 y la ficha no espera que fumar altere su farmacocinética; la exposición algo menor observada en quienes fuman se considera sin relevancia clínica (5.2).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "mecanismo"
+      },
+      {
+       "ids": [
+        "sexual_sx",
+        "disf_sex"
+       ],
+       "t": "hiperprolactinemia y sexualidad"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "biperideno",
+        "escalas_motor"
+       ],
+       "t": "efectos extrapiramidales"
+      },
+      {
+       "ids": [
+        "vpa_bip",
+        "carbamaz"
+       ],
+       "t": "interacciones con eutimizantes"
+      },
+      {
+       "ids": [
+        "apetito_sx"
+       ],
+       "t": "peso"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales que obligan a actuar según la ficha técnica de Invega (4.4): priapismo (consulta urgente si no cede en 3-4 horas); fiebre con rigidez (síndrome neuroléptico maligno), con mayor riesgo y mayor sensibilidad a los antipsicóticos en la enfermedad de Parkinson y la demencia con cuerpos de Lewy; síntomas de hiperprolactinemia, con precaución en tumores dependientes de prolactina; alteración de la termorregulación con ejercicio intenso, calor extremo, deshidratación o anticolinérgicos; y prolongación del QT en personas con cardiopatía, antecedentes familiares o fármacos que lo alargan. El efecto antiemético puede enmascarar una sobredosis u otra enfermedad. El comprimido de liberación prolongada no se deforma: no debe usarse en estenosis digestiva grave ni en disfagia. Antes de una cirugía de cataratas hay que avisar al equipo de oftalmología por el síndrome del iris flácido intraoperatorio. En la insuficiencia renal aumenta la exposición, y la ficha la excluye con aclaramiento de creatinina inferior a 10 ml/min. Con los palmitatos, los efectos adversos no pueden revertirse retirando el fármaco. Sustancias: la ficha pide precaución con el alcohol y otros fármacos de acción central. El calor, la deshidratación y el esfuerzo prolongado de las sesiones largas con estimulantes coinciden con los factores de alteración térmica que la ficha enumera, aunque no se ha localizado un estudio específico en el contexto del chemsex [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "síndrome neuroléptico maligno y sensibilidad"
+      },
+      {
+       "ids": [
+        "ap_lai"
+       ],
+       "t": "persistencia de los inyectables"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "metanf",
+        "mefed",
+        "alcohol"
+       ],
+       "t": "estimulantes, calor y alcohol"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Schneider-Thoma J et al. (2022). Comparative efficacy and tolerability of 32 oral and long-acting injectable antipsychotics for the maintenance treatment of adults with schizophrenia: a systematic review and network meta-analysis. Lancet 399:824-836 · PMID 35219395",
+    "Tiihonen J et al. (2017). Real-World Effectiveness of Antipsychotic Treatments in a Nationwide Cohort of 29 823 Patients With Schizophrenia. JAMA Psychiatry 74:686-693 · PMID 28593216",
+    "Nussbaum AM & Stroup TS (2012). Paliperidone palmitate for schizophrenia. Cochrane Database Syst Rev 2012:CD008296 · PMID 22696377",
+    "McEvoy JP et al. (2014). Effectiveness of paliperidone palmitate vs haloperidol decanoate for maintenance treatment of schizophrenia: a randomized clinical trial. JAMA 311:1978-87 · PMID 24846035",
+    "Canuso CM et al. (2010). A randomized, double-blind, placebo-controlled study of 2 dose ranges of paliperidone extended-release in the treatment of subjects with schizoaffective disorder. J Clin Psychiatry 71:587-98 · PMID 20492853",
+    "Yatham LN et al. (2018). CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "De Hert M et al. (2012). Body weight and metabolic adverse effects of asenapine, iloperidone, lurasidone and paliperidone in the treatment of schizophrenia and bipolar disorder: a systematic review and exploratory meta-analysis. CNS Drugs 26:733-59 · PMID 22900950",
+    "Asmal L et al. (2013). Quetiapine versus other atypical antipsychotics for schizophrenia. Cochrane Database Syst Rev 2013:CD006625 · PMID 24249315"
+   ],
+   "relAdd": [
+    "teasqb",
+    "ep_mania",
+    "sexual_sx",
+    "acatisia",
+    "lewy",
+    "haloperidol",
+    "fg_antipsic",
+    "ap_dem_riesgo"
+   ]
+  },
+  "quetiapina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Esquizofrenia: eficacia algo inferior a la de otros atípicos. DME 0,44 frente a placebo (Leucht 2013); en la revisión Cochrane, puntuaciones finales de la PANSS peores que con olanzapina, risperidona y paliperidona, de significado clínico incierto (Asmal 2013); y en la cohorte sueca figuró entre los antipsicóticos con mayor riesgo de rehospitalización (HR 0,91; IC 95 % 0,83-1,00 frente a no uso; Tiihonen 2017). En primeros episodios (EUFEST), el abandono a un año fue menor que con haloperidol (53 % frente a 72 %; HR 0,52), con una reducción sintomática similar en todos los brazos (Kahn 2008). Trastorno bipolar: es donde las guías le dan más peso. CANMAT/ISBD 2018 la sitúa en primera línea en la manía aguda, en la depresión bipolar I (nivel 1) y en el mantenimiento, y destaca que en la depresión se separó del placebo desde la primera semana (Yatham 2018). Depresión mayor: CANMAT 2023 recomienda la forma de liberación prolongada como potenciador de segunda línea —pese a su nivel 1 de evidencia— por la sedación y los efectos metabólicos, por detrás de aripiprazol y brexpiprazol (Lam 2024). Uso a dosis bajas como hipnótico o ansiolítico: en una cohorte danesa frente a hipnóticos Z (60 566 frente a 454 567 personas) se asoció a más acontecimientos cardiovasculares mayores (HR ajustada 1,13; IC 95 % 1,02-1,24) y a más muerte cardiovascular (1,26; 1,11-1,43), y sus autores desaconsejan ese uso (Højlund 2022). Nota factual: las indicaciones autorizadas constan en la descripción.",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "pep"
+       ],
+       "t": "esquizofrenia y primer episodio"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "dep_bip_tx",
+        "tb1",
+        "tb2"
+       ],
+       "t": "trastorno bipolar"
+      },
+      {
+       "ids": [
+        "drt",
+        "aripiprazol",
+        "brexpiprazol"
+       ],
+       "t": "potenciación en la depresión"
+      },
+      {
+       "ids": [
+        "insom",
+        "insomnio_sx",
+        "tcci"
+       ],
+       "t": "insomnio: alternativas con evidencia"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Según la ficha técnica de Seroquel (5.1), la quetiapina y su metabolito activo norquetiapina actúan sobre receptores 5-HT2 y D2, con mayor selectividad por 5-HT2, y tienen alta afinidad por receptores histaminérgicos y α1-adrenérgicos; la norquetiapina añade afinidad moderada-alta por varios receptores muscarínicos, inhibición del transportador de noradrenalina y agonismo parcial 5-HT1A, a los que la ficha atribuye una posible contribución antidepresiva. Perfil comparativo (Asmal 2013): frente a olanzapina, menos antiparkinsonianos (RR 0,51), menos aumento de peso y de glucosa, y más prolongación del QTc (diferencia media 4,81 ms); frente a risperidona, menos antiparkinsonianos (RR 0,5) y menos prolactina, pero más colesterol; frente a ziprasidona, menos efectos extrapiramidales y prolactina, pero más sedación, más aumento de peso (RR 2,22) y de colesterol. La ficha (4.8) clasifica como muy frecuentes la somnolencia, el mareo, la sequedad de boca, la cefalea, el aumento de peso, la elevación de triglicéridos y colesterol total con descenso del HDL, el descenso de la hemoglobina, los síntomas extrapiramidales y los síntomas de retirada. Interacciones no recogidas arriba (4.5): la tioridazina aumenta su aclaramiento en torno al 70 %, y la quetiapina puede dar falsos positivos para metadona y antidepresivos tricíclicos en los enzimoinmunoensayos, que deben confirmarse por cromatografía; el dato importa en los programas con metadona y en los cribados toxicológicos.",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "mecanismo"
+      },
+      {
+       "ids": [
+        "olanzapina",
+        "risperidona",
+        "ziprasidona"
+       ],
+       "t": "comparadores directos"
+      },
+      {
+       "ids": [
+        "apetito_sx",
+        "inmunometab_dep"
+       ],
+       "t": "peso y metabolismo"
+      },
+      {
+       "ids": [
+        "metadona",
+        "opioides"
+       ],
+       "t": "falsos positivos en cribado de metadona"
+      },
+      {
+       "ids": [
+        "fg_antipsic"
+       ],
+       "t": "CYP3A4"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales de la ficha técnica (4.4) menos conocidas: neutropenia grave y agranulocitosis, con casos mortales (vigilar las infecciones y el recuento de neutrófilos); miocardiopatía y miocarditis (valorar la suspensión ante la sospecha); pancreatitis, a menudo con hipertrigliceridemia, litiasis biliar o consumo de alcohol; estreñimiento y obstrucción intestinal, con notificaciones mortales; síndrome de apnea del sueño, con precaución si hay sobrepeso o depresores centrales; disfagia y aspiración; efectos anticolinérgicos (retención urinaria, glaucoma de ángulo estrecho), y tromboembolismo venoso. Sobredosis (4.9): somnolencia, taquicardia, hipotensión y efectos anticolinérgicos, con posible prolongación del QT, convulsiones, depresión respiratoria, coma y muerte; no hay antídoto, y en la hipotensión deben evitarse la adrenalina y la dopamina. Uso indebido: la ficha pide precaución ante antecedentes de consumo problemático de alcohol u otras drogas; una revisión sistemática (87 registros) lo halló sobre todo en personas con adicciones o con problemas con la justicia, y no ve motivo para fiscalizarla, pero sí para vigilar su uso en poblaciones seleccionadas (Vento 2020). Con alcohol y otros depresores, la ficha pide precaución; para la combinación con GHB/GBL no se ha localizado fuente específica, y la suma de sedación y depresión respiratoria es esperable por mecanismo [fuente no localizada]. La contraindicación con inhibidores del CYP3A4 consta en los rasgos.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "vih_ncd"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "depresores"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida y sobredosis"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Asmal L et al. (2013). Quetiapine versus other atypical antipsychotics for schizophrenia. Cochrane Database Syst Rev 2013:CD006625 · PMID 24249315",
+    "Tiihonen J et al. (2017). Real-World Effectiveness of Antipsychotic Treatments in a Nationwide Cohort of 29 823 Patients With Schizophrenia. JAMA Psychiatry 74:686-693 · PMID 28593216",
+    "Kahn RS et al. (2008). Effectiveness of antipsychotic drugs in first-episode schizophrenia and schizophreniform disorder: an open randomised clinical trial. Lancet 371:1085-97 · PMID 18374841",
+    "Yatham LN et al. (2018). CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Højlund M et al. (2022). Use of low-dose quetiapine increases the risk of major adverse cardiovascular events: results from a nationwide active comparator-controlled cohort study. World Psychiatry 21:444-451 · PMID 36073694",
+    "Vento AE et al. (2020). Quetiapine Abuse Fourteen Years Later: Where Are We Now? A Systematic Review. Subst Use Misuse 55:304-313 · PMID 31573374"
+   ],
+   "relAdd": [
+    "pep",
+    "insom",
+    "metadona",
+    "opioides",
+    "alcohol",
+    "olanzapina",
+    "ziprasidona",
+    "ideac_suic"
+   ]
+  },
+  "brexpiprazol": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Esquizofrenia: eficacia aguda demostrada pero modesta —en Huhn (2019), la menor reducción de síntomas positivos de los fármacos comparados— y eficacia de mantenimiento: en personas estabilizadas con brexpiprazol, la recaída inminente fue del 13,5 % frente al 38,5 % con placebo (HR 0,29; IC 95 % 0,16-0,55), en un ensayo interrumpido precozmente por eficacia (Fleischhacker 2017). Las guías que ordenan la elección por tolerabilidad (guía S3 alemana, Hasan 2020; NICE CG178, 1.3.5.1) no destacan un fármaco concreto; su atractivo es el perfil metabólico, que Pillinger (2019) sitúa entre los más benignos junto a aripiprazol, cariprazina, lurasidona y ziprasidona. Depresión mayor: CANMAT 2023 recomienda aripiprazol y brexpiprazol como potenciadores de primera línea por su eficacia y tolerabilidad, por delante de cariprazina (segunda línea, por contar con menos estudios), de olanzapina, quetiapina de liberación prolongada y risperidona (segunda línea por sus efectos adversos) y de ziprasidona (tercera línea) (Lam 2024). En los dos ensayos de fase 3, la ventaja sobre placebo en la MADRS a las 6 semanas fue de unos 2 a 3 puntos en los dos niveles de dosis que se separaron del placebo; el más bajo no alcanzó la significación. Acatisia y aumento de peso fueron los efectos más comunes (Thase 2015). Nota factual: la ficha técnica española recoge solo la esquizofrenia, de modo que el uso como potenciador antidepresivo queda fuera de ficha en España.",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "aripiprazol",
+        "cariprazina"
+       ],
+       "t": "potenciación antidepresiva"
+      },
+      {
+       "ids": [
+        "esq",
+        "rempar"
+       ],
+       "t": "esquizofrenia y mantenimiento"
+      },
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "clase"
+      },
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "riesgo metabólico"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Rxulti (5.1) describe agonismo parcial 5-HT1A y D2 y antagonismo 5-HT2A y α1B/α2C, todos con afinidad subnanomolar. Farmacocinética: semivida terminal de unas 91 h (86 h para el metabolito DM-3411) y toma indiferente respecto de los alimentos (4.2); además de lo ya dicho sobre el CYP3A4, los inhibidores potentes del CYP2D6 (paroxetina, fluoxetina, quinidina) y el fenotipo metabolizador lento obligan a ajustar el tratamiento según la ficha (4.2, 4.5). Efectos adversos: en los ensayos recogidos en la ficha, los más frecuentes en adultos fueron la acatisia (5,6 %) y el aumento de peso (3,9 %). En el metaanálisis de los antipsicóticos de aprobación reciente, la incidencia ponderada de acatisia fue del 10,0 % (IC 95 % 7,4-13,5), por debajo de la de lurasidona (12,7 %) y significativamente menor que la de cariprazina (17,2 %) (Demyttenaere 2019); en la depresión, la acatisia aumentó con la dosis (Thase 2015). Metabólico: entre los perfiles más benignos (Pillinger 2019; cifras en los rasgos). Prolactina: elevación generalmente leve (4.4). QTc: sin prolongación clínicamente relevante a dosis terapéuticas y supraterapéuticas, con una señal de mayor efecto en mujeres en un análisis de subgrupos (5.1). Sedación: la somnolencia figura entre las reacciones más frecuentes en adolescentes (4,5 %). Tabaco: no es sustrato del CYP1A2 y, según la ficha, fumar no debe alterar su farmacocinética (5.2).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "mecanismo"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab",
+        "fg_antipsic"
+       ],
+       "t": "CYP2D6, CYP3A4 y farmacogenética"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "escalas_motor"
+       ],
+       "t": "acatisia y su medida"
+      },
+      {
+       "ids": [
+        "lurasidona",
+        "cariprazina"
+       ],
+       "t": "comparadores en acatisia"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Trastornos del control de los impulsos: la ficha técnica (4.4) advierte de juego patológico y comportamiento sexual compulsivo, entre otros, que conviene preguntar de forma activa; en quien practica chemsex, la aparición o el aumento de conductas sexuales compulsivas tras iniciar un agonista parcial dopaminérgico obliga a revisar el tratamiento (criterio clínico derivado de esa advertencia). Otras señales de la ficha: acatisia e inquietud, que pueden confundirse con agitación o ansiedad; ideación suicida; disfagia con riesgo de aspiración; alteración de la termorregulación; leucopenia, neutropenia y agranulocitosis; tromboembolismo venoso; hipotensión ortostática y síncope, y rabdomiólisis con elevación de la creatina-fosfocinasa, con posible efecto aditivo de fármacos como las estatinas (4.5, 4.8). No se recomienda en personas mayores con demencia por el aumento de mortalidad. Sustancias: la ficha pide precaución con el alcohol y con otros fármacos de acción central de efectos solapados, como los opiáceos. Los antirretrovirales potenciados con ritonavir o cobicistat exigen el ajuste descrito en los rasgos. Que el esfuerzo prolongado y los estimulantes eleven por sí mismos la creatina-fosfocinasa y compliquen su interpretación, y la interacción de brexpiprazol con metanfetamina, mefedrona o GHB/GBL, carecen de un estudio específico localizado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "juegoP",
+        "hipser",
+        "impulsiv"
+       ],
+       "t": "control de los impulsos"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_arv"
+       ],
+       "t": "chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "ideac_suic"
+       ],
+       "t": "acatisia y riesgo suicida"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "opioides"
+       ],
+       "t": "depresores"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Fleischhacker WW et al. (2017). Efficacy and Safety of Brexpiprazole (OPC-34712) as Maintenance Treatment in Adults with Schizophrenia: a Randomized, Double-Blind, Placebo-Controlled Study. Int J Neuropsychopharmacol 20:11-21 · PMID 27566723",
+    "Thase ME et al. (2015). Efficacy and safety of adjunctive brexpiprazole 2 mg in major depressive disorder: a phase 3, randomized, placebo-controlled study in patients with inadequate response to antidepressants. J Clin Psychiatry 76:1224-31 · PMID 26301701",
+    "Thase ME et al. (2015). Adjunctive brexpiprazole 1 and 3 mg for patients with major depressive disorder following inadequate response to antidepressants: a phase 3, randomized, double-blind study. J Clin Psychiatry 76:1232-40 · PMID 26301771",
+    "Demyttenaere K et al. (2019). Medication-Induced Akathisia with Newly Approved Antipsychotics in Patients with a Severe Mental Illness: A Systematic Review and Meta-Analysis. CNS Drugs 33:549-566 · PMID 31065941",
+    "Hasan A et al. (2020). Schizophrenia. Dtsch Arztebl Int 117:412-419 · PMID 32865492",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)"
+   ],
+   "relAdd": [
+    "juegoP",
+    "hipser",
+    "cyp2d6",
+    "lurasidona",
+    "impulsiv",
+    "ideac_suic"
+   ]
+  },
+  "cariprazina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Esquizofrenia: su rasgo diferencial es el efecto sobre los síntomas negativos predominantes, donde superó a la risperidona en un ensayo amplio y bien controlado para los síntomas negativos secundarios, aunque patrocinado por el fabricante; el mismo metaanálisis recuerda que solo la amisulprida superó al placebo en esa población (Krause 2018). En el mantenimiento, la recaída fue del 24,8 % frente al 47,5 % con placebo (HR 0,45; IC 95 % 0,28-0,73) entre quienes se habían estabilizado, una minoría de los incluidos (264 de 765 completaron la fase abierta) (Durgam 2016); en el metaanálisis en red de mantenimiento su estimación fue la menos favorable, con un intervalo que incluye la ausencia de efecto (RR 0,65; ICr 95 % 0,16-1,14) (Schneider-Thoma 2022). Trastorno bipolar: CANMAT/ISBD 2018 la incluye entre las opciones de primera línea de la manía aguda (nivel 1) y como segunda línea en la depresión bipolar I, sin recomendación para el mantenimiento por falta de datos (Yatham 2018); un ensayo de fase 3 posterior confirmó la eficacia en la depresión bipolar I, con diferencias de 2,5 y 3,0 puntos en la MADRS frente a placebo (Earley 2019). Depresión mayor: CANMAT 2023 la sitúa como potenciador de segunda línea, por detrás de aripiprazol y brexpiprazol, al contar con menos estudios (Lam 2024). Nota factual: la ficha técnica española recoge solo la esquizofrenia en adultos; los demás usos quedan fuera de ficha en España.",
+     "links": [
+      {
+       "ids": [
+        "esqneg",
+        "defcar",
+        "amisulprida",
+        "risperidona"
+       ],
+       "t": "síntomas negativos"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "dep_bip_tx",
+        "tb1"
+       ],
+       "t": "trastorno bipolar"
+      },
+      {
+       "ids": [
+        "drt",
+        "aripiprazol",
+        "brexpiprazol"
+       ],
+       "t": "potenciación antidepresiva"
+      },
+      {
+       "ids": [
+        "rempar"
+       ],
+       "t": "mantenimiento"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Reagila (5.1) da afinidades (Ki) de 0,085-0,3 nM para D3, 0,49-0,71 nM para D2 y 1,4-2,6 nM para 5-HT1A, sobre los que actúa como agonista parcial, y antagonismo 5-HT2B (0,58-1,1 nM), 5-HT2A (18,8 nM) y H1 (23,3 nM), con baja afinidad por 5-HT2C y α1 y sin afinidad muscarínica apreciable. Farmacocinética (5.2): semividas efectivas de unos 2 días para cariprazina y desmetilcariprazina y de unos 8 días para didesmetilcariprazina; el 90 % del estado de equilibrio se alcanza en unas 3 semanas y, tras la suspensión, la concentración total cae a la mitad en unos 7 días y más del 90 % en unas 3 semanas, y los efectos se prolongan tras la retirada. Puede tomarse con o sin alimentos; inhibe la glucoproteína P in vitro, por lo que la ficha pide vigilar dabigatrán y digoxina, y no modificó de forma relevante los anticonceptivos orales estudiados (4.5). Efectos adversos: los más frecuentes en la ficha son la acatisia (19 %) y el parkinsonismo (17,5 %); en el metaanálisis de antipsicóticos recientes tuvo la mayor incidencia de acatisia (17,2 %; IC 95 % 13,4-22,1; OR 4,35 frente a placebo) (Demyttenaere 2019), y CANMAT/ISBD la cita entre los atípicos con más efectos extrapiramidales (Yatham 2018). Perfil metabólico entre los más benignos (Pillinger 2019). QTc: sin prolongación frente a placebo en el estudio específico a dosis supraterapéuticas (5.1). Tabaco: no es sustrato del CYP1A2 y, según la ficha, no debe alterar su farmacocinética (5.2).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "dopa_hyp"
+       ],
+       "t": "agonismo parcial D3/D2"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "fenot_metab"
+       ],
+       "t": "CYP3A4 y farmacogenética"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "biperideno",
+        "escalas_motor"
+       ],
+       "t": "acatisia y parkinsonismo"
+      },
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "perfil metabólico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La acatisia y la inquietud aparecen pronto tras el inicio y exigen vigilancia estrecha en la primera fase (ficha técnica, 4.4); pueden confundirse con agitación psicótica y, por la acumulación de metabolitos, ceden con lentitud tras un ajuste (criterio clínico acorde con la farmacocinética de la ficha). La ficha advierte además de conducta suicida poco después de iniciar o cambiar el tratamiento, discinesia tardía, empeoramiento del parkinsonismo, hipotensión ortostática e hipertensión, hiperglucemia y aumento de peso, convulsiones, tromboembolismo venoso y síndrome neuroléptico maligno; recomienda revisión oftalmológica si aparecen síntomas visuales (opacidades del cristalino en estudios animales, sin relación causal establecida en humanos), y recoge elevación de la creatina-fosfocinasa y rabdomiólisis (4.8). Sustancias: la ficha recomienda evitar el alcohol (4.2) y pide precaución con otros fármacos de acción central. Las contraindicaciones con inhibidores e inductores del CYP3A4, que incluyen ritonavir, cobicistat, efavirenz y etravirina, figuran en los rasgos: con un régimen antirretroviral potenciado la cariprazina no es una opción y, por su larga semivida, la interacción persiste semanas después de retirarla. No se ha localizado ningún estudio de su combinación con metanfetamina, mefedrona o GHB/GBL [fuente no localizada]. La exigencia de anticoncepción muy eficaz se mantiene hasta 10 semanas después de la última toma, según la ficha.",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "ideac_suic"
+       ],
+       "t": "acatisia y riesgo suicida"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "vih_ncd"
+       ],
+       "t": "antirretrovirales"
+      },
+      {
+       "ids": [
+        "snm",
+        "discin_tard"
+       ],
+       "t": "complicaciones motoras graves"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "metanf",
+        "mefed",
+        "ghb_gbl"
+       ],
+       "t": "alcohol y sustancias del chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Krause M et al. (2018). Antipsychotic drugs for patients with schizophrenia and predominant or prominent negative symptoms: a systematic review and meta-analysis. Eur Arch Psychiatry Clin Neurosci 268:625-639 · PMID 29368205",
+    "Durgam S et al. (2016). Long-term cariprazine treatment for the prevention of relapse in patients with schizophrenia: A randomized, double-blind, placebo-controlled trial. Schizophr Res 176:264-271 · PMID 27427558",
+    "Schneider-Thoma J et al. (2022). Comparative efficacy and tolerability of 32 oral and long-acting injectable antipsychotics for the maintenance treatment of adults with schizophrenia: a systematic review and network meta-analysis. Lancet 399:824-836 · PMID 35219395",
+    "Yatham LN et al. (2018). CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Earley W et al. (2019). Cariprazine Treatment of Bipolar Depression: A Randomized Double-Blind Placebo-Controlled Phase 3 Study. Am J Psychiatry 176:439-448 · PMID 30845817",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Demyttenaere K et al. (2019). Medication-Induced Akathisia with Newly Approved Antipsychotics in Patients with a Severe Mental Illness: A Systematic Review and Meta-Analysis. CNS Drugs 33:549-566 · PMID 31065941"
+   ],
+   "relAdd": [
+    "amisulprida",
+    "ep_mania",
+    "dep_bip_tx",
+    "tb1",
+    "risperidona",
+    "snm",
+    "discin_tard",
+    "ideac_suic"
+   ]
+  },
+  "lurasidona": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Esquizofrenia: eficacia aguda en el extremo bajo del intervalo (DME 0,33; IC 95 % 0,21-0,45 en Leucht 2013); en un ensayo de 6 semanas no difirió significativamente de la olanzapina en el cambio de la PANSS total, aunque solo la olanzapina superó al placebo en tasa de respuesta (Meltzer 2011). Su lugar lo define la tolerabilidad: la guía S3 alemana recomienda elegir el antipsicótico por el perfil de efectos adversos (Hasan 2020), y lurasidona figura entre los de perfil metabólico más benigno (Pillinger 2019) y fue el de menor efecto sobre el QTc en los dos metaanálisis en red (Leucht 2013; Huhn 2019). Depresión bipolar: CANMAT/ISBD 2018 la recomienda en primera línea en la depresión bipolar I, en monoterapia (nivel 2) y asociada a litio o valproato (nivel 1), y la señala, con quetiapina, como opción cuando se necesita una respuesta rápida, por haberse separado del placebo desde la primera semana (Yatham 2018). El efecto transdiagnóstico sobre los síntomas depresivos ya consta en los rasgos de esta ficha. Nota factual: la ficha técnica española recoge la esquizofrenia en adultos y en adolescentes desde los 13 años; la depresión bipolar queda fuera de ficha en España.",
+     "links": [
+      {
+       "ids": [
+        "dep_bip_tx",
+        "tb1",
+        "lm_bip",
+        "vpa_bip"
+       ],
+       "t": "depresión bipolar"
+      },
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "clase"
+      },
+      {
+       "ids": [
+        "esq",
+        "olanzapina"
+       ],
+       "t": "esquizofrenia y comparador"
+      },
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "riesgo cardiometabólico"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Latuda (5.1) da afinidades de 0,994 nM para D2, 0,47 nM para 5-HT2A y 0,495 nM para 5-HT7, bloqueo α2c (10,8 nM) y α2a (40,7 nM) y agonismo parcial 5-HT1A (6,38 nM), sin unión a receptores histaminérgicos ni muscarínicos. Farmacocinética (5.2): semivida de 20-40 h; con alimentos la Cmax aumenta 2-3 veces y el área bajo la curva 1,5-2 veces. En dos estudios cruzados, la exposición en ayunas fue aproximadamente la mitad que tras una comida, resultó similar con comidas de 350 a 1000 kcal y no dependió del contenido en grasa; sus autores concluyen que debe tomarse con al menos 350 kcal (Preskorn 2013). Una toma sin comida suficiente supone, por tanto, menor exposición, lo que importa en personas con horarios irregulares o con anorexia por estimulantes (criterio clínico). Además de las contraindicaciones con inhibidores e inductores potentes del CYP3A4, los inhibidores moderados (diltiazem, eritromicina, fluconazol, verapamilo) aumentan la exposición y los inductores leves o moderados pueden reducir la eficacia (4.5). Efectos adversos: acatisia y somnolencia son los muy frecuentes de la ficha (4.8); la acatisia fue más frecuente con la dosis alta en el ensayo de Meltzer (2011), y su incidencia ponderada fue del 12,7 % (OR 3,74 frente a placebo) (Demyttenaere 2019). Peso: 0,49 kg más que placebo a corto plazo, sin aumento significativo del riesgo de ganar un 7 % o más (De Hert 2012). Eleva la prolactina por antagonismo D2 (4.4).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "mecanismo"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "chemsex_arv"
+       ],
+       "t": "CYP3A4 e interacciones"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "escalas_motor"
+       ],
+       "t": "acatisia"
+      },
+      {
+       "ids": [
+        "apetito_sx",
+        "metanf"
+       ],
+       "t": "alimentación y estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales que obligan a actuar: acatisia o inquietud intensas al inicio, que pueden vivirse como un empeoramiento; la ficha técnica (4.4) recuerda que la conducta suicida es inherente a la psicosis y se notifica sobre todo poco después de iniciar o cambiar el tratamiento. Vigilar además el parkinsonismo (y su agravamiento en la enfermedad de Parkinson), la discinesia tardía, la hipotensión ortostática por antagonismo α1 —con control de constantes en personas vulnerables—, el peso y la glucemia en personas con diabetes o en riesgo, y los síntomas de hiperprolactinemia. La ficha no la ha estudiado en personas mayores con demencia y remite al aumento de mortalidad y de riesgo cerebrovascular observado con otros atípicos. Interacciones que cambian la conducta: los antirretrovirales potenciados con ritonavir o cobicistat y los azoles que inhiben con potencia el CYP3A4 la contraindican (véanse los rasgos); el zumo de pomelo debe evitarse, y con alcohol y otros fármacos de acción central la ficha pide precaución. La advertencia de síndrome serotoninérgico con otros serotoninérgicos, ya recogida en los rasgos, es pertinente ante el consumo de MDMA, mefedrona u otras sustancias serotoninérgicas, aunque no se ha localizado un estudio específico de la combinación [fuente no localizada]; tampoco hay datos localizados sobre GHB/GBL [fuente no localizada]. Ante la falta de respuesta, conviene comprobar que se toma con una comida suficiente antes de concluir que es ineficaz.",
+     "links": [
+      {
+       "ids": [
+        "acatisia",
+        "ideac_suic"
+       ],
+       "t": "acatisia y riesgo suicida"
+      },
+      {
+       "ids": [
+        "sind_ser",
+        "mefed"
+       ],
+       "t": "síndrome serotoninérgico y sustancias serotoninérgicas"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "vih_ncd"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "parkinson_psiq",
+        "discin_tard"
+       ],
+       "t": "trastornos del movimiento"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "Meltzer HY et al. (2011). Lurasidone in the treatment of schizophrenia: a randomized, double-blind, placebo- and olanzapine-controlled study. Am J Psychiatry 168:957-67 · PMID 21676992",
+    "Yatham LN et al. (2018). CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Preskorn S et al. (2013). Effect of food on the pharmacokinetics of lurasidone: results of two randomized, open-label, crossover studies. Hum Psychopharmacol 28:495-505 · PMID 24014143",
+    "Demyttenaere K et al. (2019). Medication-Induced Akathisia with Newly Approved Antipsychotics in Patients with a Severe Mental Illness: A Systematic Review and Meta-Analysis. CNS Drugs 33:549-566 · PMID 31065941",
+    "De Hert M et al. (2012). Body weight and metabolic adverse effects of asenapine, iloperidone, lurasidone and paliperidone in the treatment of schizophrenia and bipolar disorder: a systematic review and exploratory meta-analysis. CNS Drugs 26:733-59 · PMID 22900950",
+    "Hasan A et al. (2020). Schizophrenia. Dtsch Arztebl Int 117:412-419 · PMID 32865492"
+   ],
+   "relAdd": [
+    "sind_ser",
+    "olanzapina",
+    "ideac_suic",
+    "lm_bip",
+    "vpa_bip",
+    "discin_tard"
+   ]
+  },
+  "amisulprida": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Es uno de los antipsicóticos mejor situados en la evidencia comparativa. En Leucht (2013) ocupó el segundo lugar en eficacia global tras la clozapina (DME 0,66; IC 95 % 0,53-0,78) y el primero en menor abandono por cualquier causa (OR 0,43); en Huhn (2019), el primero en síntomas positivos. En síntomas negativos predominantes es el único antipsicótico que superó al placebo (4 ensayos, 590 participantes; DME 0,47; IC 95 % 0,23-0,71), con una mejoría paralela de la depresión que impide atribuir el efecto solo a los síntomas negativos primarios (Krause 2018). En primeros episodios, el abandono a un año fue del 40 % frente al 72 % con haloperidol (HR 0,37; IC 95 % 0,24-0,57) en EUFEST (Kahn 2008), y en OPTiMiSE el 56 % alcanzó la remisión tras 4 semanas de amisulprida abierta, sin ventaja de cambiar a olanzapina en quienes no remitieron (Kahn 2018). En el ensayo pragmático BeSt InTro redujo la PANSS total a las 52 semanas más que aripiprazol y olanzapina (32,7 frente a 21,9 y 23,3 puntos), con diferencias de efectos adversos en general pequeñas (Johnsen 2020). La guía S3 alemana recomienda elegir por perfil de efectos adversos (Hasan 2020); su combinación con clozapina en la resistencia se trata en la ficha de esquizofrenia resistente. La ficha técnica advierte de que su eficacia a largo plazo en la prevención de recaídas no se ha demostrado en ensayos ciegos (5.1). Nota factual: la indicación autorizada en España es la esquizofrenia.",
+     "links": [
+      {
+       "ids": [
+        "esqneg",
+        "defcar",
+        "cariprazina"
+       ],
+       "t": "síntomas negativos"
+      },
+      {
+       "ids": [
+        "pep",
+        "haloperidol",
+        "olanzapina",
+        "aripiprazol"
+       ],
+       "t": "primer episodio y comparadores"
+      },
+      {
+       "ids": [
+        "cloz",
+        "clozapina"
+       ],
+       "t": "resistencia y combinación con clozapina"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Solian (5.1) describe afinidad selectiva por los receptores D2 y D3, no por D1, D4 y D5 ni por receptores serotoninérgicos, α-adrenérgicos, H1, colinérgicos o sigma. En animales, a dosis altas bloquea los receptores D2 postsinápticos límbicos más que los estriatales, y a dosis bajas bloquea de preferencia los receptores D2/D3 presinápticos, lo que aumenta la liberación de dopamina y explicaría su efecto desinhibidor; a esa actividad límbica preferente atribuye la ficha su escasa tendencia a producir efectos extrapiramidales. Aun así, la ficha (4.8) clasifica como muy frecuentes los síntomas extrapiramidales (temblor, rigidez, acatisia, discinesia), y como frecuentes los derivados de la hiperprolactinemia (galactorrea, amenorrea, ginecomastia, disfunción eréctil), la distonía aguda, la somnolencia, el insomnio, la hipotensión y el aumento de peso. Fue el antipsicótico menos sedante en Leucht (2013) (OR 1,42 frente a placebo), y CANMAT/ISBD la cita, con risperidona y paliperidona, entre los que más elevan la prolactina (Yatham 2018). Farmacocinética (5.2): unión a proteínas del 16 %; una comida rica en hidratos de carbono reduce el área bajo la curva y la Cmax, con relevancia clínica desconocida. Interacciones (4.5): sucralfato y antiácidos con magnesio o aluminio reducen su absorción, y la clozapina puede aumentar sus concentraciones. Al no metabolizarse por el citocromo P450, no es previsible que el tabaco la afecte [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "dopa_hyp"
+       ],
+       "t": "selectividad D2/D3"
+      },
+      {
+       "ids": [
+        "sexual_sx",
+        "disf_sex"
+       ],
+       "t": "hiperprolactinemia"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "biperideno",
+        "escalas_motor"
+       ],
+       "t": "efectos extrapiramidales"
+      },
+      {
+       "ids": [
+        "risperidona",
+        "paliperidona"
+       ],
+       "t": "otros fármacos con hiperprolactinemia"
+      },
+      {
+       "ids": [
+        "clozapina"
+       ],
+       "t": "interacción con clozapina"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales según la ficha técnica (4.4): galactorrea, amenorrea, disfunción sexual o síntomas visuales o de masa hipofisaria (medir la prolactina; ante sospecha de prolactinoma, estudio de imagen y suspensión si se confirma); síncope o palpitaciones (QT), con precaución en cardiopatía y antecedentes familiares; fiebre o infección inexplicadas (leucopenia, neutropenia o agranulocitosis: hemograma inmediato); síntomas de daño hepático, por la toxicidad grave notificada; convulsiones; hiperglucemia en personas con diabetes o en riesgo, y tromboembolismo venoso. La retirada debe ser gradual. En personas mayores con demencia, mayor riesgo de muerte y de ictus con antipsicóticos. Sobredosis (4.9): somnolencia, hipotensión, síntomas extrapiramidales y coma, con muertes notificadas sobre todo en combinación con otros psicótropos; no hay antídoto, la hemodiálisis apenas la elimina y se requiere monitorización cardíaca por el riesgo de QT largo. Sustancias: la ficha no recomienda el alcohol, que potencia sus efectos centrales, y pide tener en cuenta los depresores del sistema nervioso central. La prolongación del QT es un argumento de prudencia ante el consumo de cocaína u otros estimulantes con efecto arrítmico (criterio clínico), sin que se haya localizado un estudio específico de la combinación [fuente no localizada]. A largo plazo, la hiperprolactinemia puede causar ginecomastia y osteoporosis (Yatham 2018), lo que justifica reevaluar el fármaco si se mantiene elevada.",
+     "links": [
+      {
+       "ids": [
+        "sexual_sx",
+        "disf_sex"
+       ],
+       "t": "síntomas de hiperprolactinemia"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "sobredosis"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "cocaina",
+        "metanf"
+       ],
+       "t": "alcohol y estimulantes"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Krause M et al. (2018). Antipsychotic drugs for patients with schizophrenia and predominant or prominent negative symptoms: a systematic review and meta-analysis. Eur Arch Psychiatry Clin Neurosci 268:625-639 · PMID 29368205",
+    "Kahn RS et al. (2008). Effectiveness of antipsychotic drugs in first-episode schizophrenia and schizophreniform disorder: an open randomised clinical trial. Lancet 371:1085-97 · PMID 18374841",
+    "Kahn RS et al. (2018). Amisulpride and olanzapine followed by open-label treatment with clozapine in first-episode schizophrenia and schizophreniform disorder (OPTiMiSE): a three-phase switching study. Lancet Psychiatry 5:797-807 · PMID 30115598",
+    "Johnsen E et al. (2020). Amisulpride, aripiprazole, and olanzapine in patients with schizophrenia-spectrum disorders (BeSt InTro): a pragmatic, rater-blind, semi-randomised trial. Lancet Psychiatry 7:945-954 · PMID 33069317",
+    "Yatham LN et al. (2018). CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Hasan A et al. (2020). Schizophrenia. Dtsch Arztebl Int 117:412-419 · PMID 32865492"
+   ],
+   "relAdd": [
+    "pep",
+    "cariprazina",
+    "clozapina",
+    "cloz",
+    "haloperidol",
+    "olanzapina",
+    "aripiprazol",
+    "disf_sex",
+    "acatisia"
+   ]
+  },
+  "ziprasidona": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Esquizofrenia: eficacia algo inferior a la de los atípicos más eficaces. DME 0,39 (IC 95 % 0,30-0,49) frente a placebo (Leucht 2013); en la revisión Cochrane fue menos eficaz que olanzapina (diferencia de 8,32 puntos en la PANSS total) y que risperidona (3,91 puntos), y peor aceptada que ambas, con una tasa global de abandono del 59,1 % que limita la validez de los resultados; su ventaja principal fue la baja propensión al aumento de peso y a las alteraciones asociadas (Komossa 2009). En primeros episodios (EUFEST), el abandono a un año fue menor que con haloperidol (45 % frente a 72 %; HR 0,51; IC 95 % 0,32-0,81) (Kahn 2008). En las guías que eligen por tolerabilidad (guía S3 alemana, Hasan 2020; NICE CG178, 1.3.5.1) encaja como opción para quien prioriza evitar el daño metabólico y tiene un QT basal normal (criterio clínico). Trastorno bipolar: CANMAT/ISBD 2018 la sitúa en segunda línea en la manía aguda (nivel 1), relegada por consideraciones de seguridad y tolerabilidad, y no recomienda añadirla a litio o valproato por falta de eficacia añadida (Yatham 2018). Depresión mayor: CANMAT 2023 la incluye como potenciador de tercera línea por resultados de eficacia dispares (Lam 2024), uso que queda fuera de la ficha técnica española. Nota factual: las indicaciones autorizadas (esquizofrenia, manía y, en la forma intramuscular, agitación en la esquizofrenia) constan en la descripción.",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "pep",
+        "haloperidol"
+       ],
+       "t": "esquizofrenia y primer episodio"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "tb1",
+        "lm_bip",
+        "vpa_bip"
+       ],
+       "t": "manía"
+      },
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "potenciación antidepresiva"
+      },
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "riesgo metabólico"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Zeldox (5.1) describe alta afinidad por D2 y aún mayor por 5-HT2A; afinidad igual o superior a la de D2 por 5-HT2C, 5-HT1D y 5-HT1A; afinidad moderada por los transportadores de serotonina y noradrenalina y por H1 y α1, y muy escasa por M1. Alimentos: en personas voluntarias sanas, el área bajo la curva fue entre un 48 % y un 101 % mayor con comida que en ayunas según la dosis, la absorción solo fue proporcional a la dosis con comida y el contenido en grasa no resultó determinante (Miceli 2007). Interacciones (ficha técnica, 4.5): la carbamazepina reduce la exposición en torno a un 35 % y el ketoconazol la eleva menos de un 40 %, y se han notificado casos aislados de síndrome serotoninérgico con serotoninérgicos como los ISRS. Perfil comparativo (Komossa 2009): menos aumento de peso que olanzapina (-3,82 kg), quetiapina y risperidona, y menos colesterol que las tres; algo más de efectos extrapiramidales que olanzapina (RR 1,43) y más prolactina que quetiapina, pero menos trastornos del movimiento y menos prolactina que risperidona. QTc: en los ensayos de esquizofrenia de la ficha, un aumento de 30-60 ms se observó en el 12,3 % de los trazados frente al 7,5 % con placebo, y un QTc superior a 500 ms en el 0,1 % frente al 0,2 % (5.1). Reacciones más frecuentes (4.8): insomnio, somnolencia, cefalea y agitación. Tabaco: el estudio farmacocinético de la ficha no halló diferencias significativas entre quienes fuman y quienes no (5.2).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "mecanismo"
+      },
+      {
+       "ids": [
+        "olanzapina",
+        "quetiapina",
+        "risperidona"
+       ],
+       "t": "comparadores directos"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "apetito_sx"
+       ],
+       "t": "alimentación y peso"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "carbamaz"
+       ],
+       "t": "interacciones"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "El QT gobierna su seguridad: las contraindicaciones, la corrección previa de potasio y magnesio y la suspensión con QTc superior a 500 ms figuran en los rasgos de esta ficha; mareo, palpitaciones o síncope obligan además a un ECG inmediato (criterio clínico acorde con la ficha técnica). Reacciones cutáneas graves: ante un exantema con fiebre o afectación sistémica (DRESS) debe suspenderse (4.4). Otras señales de la ficha: síndrome neuroléptico maligno; discinesia tardía, con especial vulnerabilidad en el trastorno bipolar; priapismo; hiperprolactinemia; tromboembolismo venoso, y falta de experiencia en la insuficiencia hepática grave. En personas mayores con demencia la ficha recoge un riesgo triple de acontecimientos cerebrovasculares y un pequeño aumento de mortalidad, y recuerda que no está autorizada para las alteraciones de conducta de la demencia. Sustancias: la ficha pide precaución con el alcohol y los fármacos de acción central y contraindica la asociación con otros fármacos que prolongan el QT. La metadona, por su efecto sobre el QT [fuente no localizada], y la cocaína plantean una suma de riesgo arrítmico, sin que se haya localizado un estudio específico de la combinación [fuente no localizada]. La advertencia de síndrome serotoninérgico (4.5) es pertinente ante el consumo de MDMA, mefedrona u otras sustancias serotoninérgicas [fuente no localizada]. En el estudio ZODIAC la mortalidad no suicida no fue mayor que con olanzapina (véase la descripción).",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "discin_tard"
+       ],
+       "t": "complicaciones neurológicas"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "metadona",
+        "mefed"
+       ],
+       "t": "sustancias con riesgo arrítmico o serotoninérgico"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Komossa K et al. (2009). Ziprasidone versus other atypical antipsychotics for schizophrenia. Cochrane Database Syst Rev 2009:CD006627 · PMID 19821380",
+    "Kahn RS et al. (2008). Effectiveness of antipsychotic drugs in first-episode schizophrenia and schizophreniform disorder: an open randomised clinical trial. Lancet 371:1085-97 · PMID 18374841",
+    "Yatham LN et al. (2018). CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Miceli JJ et al. (2007). The effect of food on the absorption of oral ziprasidone. Psychopharmacol Bull 40:58-68 · PMID 18007569",
+    "Hasan A et al. (2020). Schizophrenia. Dtsch Arztebl Int 117:412-419 · PMID 32865492"
+   ],
+   "relAdd": [
+    "pep",
+    "haloperidol",
+    "olanzapina",
+    "quetiapina",
+    "risperidona",
+    "sind_ser",
+    "metadona",
+    "drt",
+    "snm",
+    "discin_tard"
+   ]
+  },
+  "asenapina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Manía: CANMAT/ISBD 2018 la incluye entre las opciones de primera línea de la manía aguda (nivel 1) y del mantenimiento del trastorno bipolar I, donde señala que previene tanto la manía como la depresión, con mayor magnitud para la manía; en la agitación aguda la cita como opción sublingual de segunda línea y, como tratamiento complementario, entre las de tercera línea de la depresión bipolar (nivel 4) (Yatham 2018). Esquizofrenia: en Leucht (2013) su eficacia frente a placebo fue de las menores (DME 0,38; IC 95 % 0,25-0,51), y la revisión Cochrane frente a placebo (6 ensayos, 1835 participantes, todos patrocinados por la industria y cinco con alto riesgo de sesgo por abandonos) considera que la evidencia, de calidad baja o muy baja, hace difícil recomendarla en esta indicación (Hay 2015). Una revisión narrativa recuerda que la forma sublingual está aprobada en muchas jurisdicciones para la esquizofrenia y los episodios maníacos o mixtos, y que existe una formulación transdérmica aprobada por la FDA en 2019 para la esquizofrenia en adultos (Musselman 2021); en la Unión Europea, el único medicamento con asenapina de autorización centralizada es Sycrest, en comprimidos sublinguales (EMA), y CIMA no recoge ninguna presentación transdérmica en España (consultas de noviembre de 2026). Nota factual: en la ficha técnica española la indicación se limita a los episodios maníacos moderados o graves del trastorno bipolar I en adultos, como consta en la descripción.",
+     "links": [
+      {
+       "ids": [
+        "ep_mania",
+        "tb1",
+        "mxto"
+       ],
+       "t": "manía y rasgos mixtos"
+      },
+      {
+       "ids": [
+        "dep_bip_tx"
+       ],
+       "t": "depresión bipolar"
+      },
+      {
+       "ids": [
+        "agitacion"
+       ],
+       "t": "agitación"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Sycrest (5.1) describe alta afinidad por numerosos receptores de serotonina, por los dopaminérgicos D1 a D4, por los α1 y α2-adrenérgicos y por H1, afinidad moderada por H2 y ninguna apreciable por los receptores muscarínicos; actúa como antagonista. Administración (4.2): el comprimido se deja disolver bajo la lengua, sin masticarlo ni tragarlo; no se debe comer ni beber durante 10 minutos, y si se toman otros medicamentos, la asenapina va la última. Beber agua a los 2 o a los 5 minutos reduce la exposición un 19 % y un 10 %, respectivamente (5.2). Semivida terminal de unas 24 h. El tabaco, inductor del CYP1A2, no altera su aclaramiento según la ficha (5.2). Interacciones (4.5): además del efecto de la fluvoxamina, la asenapina casi duplica la exposición a la paroxetina (es, como máximo, un inhibidor débil del CYP2D6). En la insuficiencia hepática grave la exposición aumenta unas 7 veces y no se recomienda (4.4). Efectos adversos: somnolencia y ansiedad son los más notificados en la ficha; la disgeusia y la hipoestesia oral, propias de la vía sublingual, y las restricciones de comida y bebida son obstáculos para su uso (Musselman 2021). Acatisia: incidencia ponderada del 6,8 % (IC 95 % 5,1-9,0), significativamente menor que con lurasidona y cariprazina (Demyttenaere 2019). Peso: a corto plazo, 1,16 kg más que placebo y mayor riesgo de ganar un 7 % o más (RR 4,09) (De Hert 2012). QT: sin prolongación clínicamente relevante según la ficha (4.4).",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "mecanismo"
+      },
+      {
+       "ids": [
+        "tabaco",
+        "fluvoxamina",
+        "cyp2d6"
+       ],
+       "t": "CYP1A2, CYP2D6 y tabaco"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "lurasidona",
+        "cariprazina"
+       ],
+       "t": "acatisia comparada"
+      },
+      {
+       "ids": [
+        "apetito_sx"
+       ],
+       "t": "peso"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Hipersensibilidad: tras la comercialización se han notificado reacciones graves, incluida la anafilaxia; la hinchazón de lengua o garganta, la dificultad para respirar o un exantema tras una toma obligan a suspender y a atención urgente (ficha técnica, 4.4 y 4.8). Hipotensión ortostática y síncope, sobre todo al inicio y en personas mayores o con cardiopatía. Somnolencia y caídas. Disfagia, notificada de forma esporádica. Otras advertencias de clase: síndrome neuroléptico maligno, convulsiones, discinesia tardía, hiperprolactinemia, hiperglucemia y mayor mortalidad en personas mayores con demencia. Sustancias: la ficha indica que debe evitarse el alcohol durante el tratamiento (4.5) y pide precaución con otros fármacos de acción central. El antagonismo α1 hace esperable la suma de hipotensión con vasodilatadores como los nitritos de alquilo (poppers) o los inhibidores de la fosfodiesterasa 5, sin que se haya localizado una fuente específica [fuente no localizada]; tampoco se han localizado datos sobre su combinación con GHB/GBL o estimulantes [fuente no localizada]. En la agitación maníaca intensa, la colaboración que exige la vía sublingual y la restricción de líquidos pueden hacerla impracticable (criterio clínico); un comprimido tragado apenas se absorbe (biodisponibilidad inferior al 2 % según la ficha), lo que en la práctica equivale a una toma omitida.",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "discin_tard"
+       ],
+       "t": "advertencias de clase"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "poppers",
+        "ghb_gbl"
+       ],
+       "t": "alcohol y sustancias del contexto sexual"
+      },
+      {
+       "ids": [
+        "agitacion",
+        "ep_mania"
+       ],
+       "t": "agitación maníaca"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "personas mayores con demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Yatham LN et al. (2018). CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-62 · PMID 23810019",
+    "Hay A et al. (2015). Asenapine versus placebo for schizophrenia. Cochrane Database Syst Rev 2015:CD011458 · PMID 26599405",
+    "Musselman M, Faden J & Citrome L (2021). Asenapine: an atypical antipsychotic with atypical formulations. Ther Adv Psychopharmacol 11:20451253211035269 · PMID 34540197",
+    "Demyttenaere K et al. (2019). Medication-Induced Akathisia with Newly Approved Antipsychotics in Patients with a Severe Mental Illness: A Systematic Review and Meta-Analysis. CNS Drugs 33:549-566 · PMID 31065941",
+    "De Hert M et al. (2012). Body weight and metabolic adverse effects of asenapine, iloperidone, lurasidone and paliperidone in the treatment of schizophrenia and bipolar disorder: a systematic review and exploratory meta-analysis. CNS Drugs 26:733-59 · PMID 22900950",
+    "EMA (2026). Sycrest (asenapina): ficha del medicamento y EPAR en ema.europa.eu, y relación de medicamentos de uso humano con autorización centralizada, consultadas en noviembre de 2026"
+   ],
+   "relAdd": [
+    "esq",
+    "agitacion",
+    "dep_bip_tx",
+    "acatisia",
+    "tabaco",
+    "cyp2d6",
+    "poppers",
+    "alcohol",
+    "lurasidona",
+    "cariprazina"
+   ]
+  }
+ },
+ "add": []
+}

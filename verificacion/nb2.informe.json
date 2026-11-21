@@ -1,0 +1,77 @@
+{
+ "pmid_comprobados": 27,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "clonidina",
+   "gravedad": "menor",
+   "antes": "NICE NG87 reserva la clonidina, ante tics atribuibles al estimulante, a menores de 18 años con asesoramiento de un servicio terciario [fuente no localizada].",
+   "despues": "NICE NG87 contempla la clonidina (fuera de ficha) ante tics atribuibles al estimulante solo en menores de 18 años y tras asesoramiento de un servicio terciario de TDAH (1.8.14), y no la recomienda en el TDAH con alteraciones del sueño, rabietas o tics sin ese asesoramiento (1.7.17).",
+   "fuente": "NICE NG87, recomendaciones 1.7.17 y 1.8.14 (nice.org.uk, consulta de noviembre de 2026)"
+  },
+  {
+   "id": "clonidina",
+   "gravedad": "menor",
+   "antes": "(sin referencia a NICE NG87)",
+   "despues": "refsAdd: NICE (2018) NG87, recomendaciones 1.7.17 y 1.8.14",
+   "fuente": "nice.org.uk/guidance/ng87"
+  },
+  {
+   "id": "clonidina",
+   "gravedad": "menor",
+   "antes": "La hipotensión y otros efectos adversos fueron más probables con los agonistas α2 (RR 1,92), sin diferencias en la finalización de la desintoxicación,",
+   "despues": "Frente a la metadona, la hipotensión y otros efectos adversos fueron más probables con los agonistas α2 (RR 1,92; calidad baja), sin diferencias en la finalización de la desintoxicación,",
+   "fuente": "Gowing 2016, PMID 27140827 (resumen)"
+  },
+  {
+   "id": "baclofeno",
+   "gravedad": "menor",
+   "antes": "la revisión de Paille (2021) subraya que los ensayos no confirmaron la eficacia alegada.",
+   "despues": "la revisión de Paille (2021) señala que los datos de los ensayos publicados no confirman un alto nivel de eficacia.",
+   "fuente": "Paille 2021, PMID 34106538 (resumen: «do not confirm a high level of efficacy»)"
+  },
+  {
+   "id": "baclofeno",
+   "gravedad": "menor",
+   "antes": "Puede considerarse tras naltrexona, acamprosato o nalmefeno, sobre todo",
+   "despues": "Puede considerarse tras naltrexona, acamprosato o nalmefeno [fuente no localizada], sobre todo",
+   "fuente": "Orden de elección sin respaldo en guía citada; Agabio 2023 solo compara con placebo y, con evidencia muy incierta, con acamprosato y naltrexona"
+  },
+  {
+   "id": "baclofeno",
+   "gravedad": "menor",
+   "antes": "enlace «trastorno por consumo de alcohol» → alcohol, alc_tardio",
+   "despues": "enlace → alcohol (alc_tardio es el trastorno de inicio tardío, no mencionado en la sección)",
+   "fuente": "node tools/q.js show alc_tardio"
+  },
+  {
+   "id": "prazosina",
+   "gravedad": "menor",
+   "antes": "Fuera de ficha técnica en España: el uso exige justificarlo en la historia clínica,",
+   "despues": "Fuera de ficha técnica en España: el uso tiene carácter excepcional, se limita a situaciones sin alternativas terapéuticas autorizadas para el paciente y exige justificarlo en la historia clínica,",
+   "fuente": "Real Decreto 1015/2009, art. 13.1 (boe.es, BOE-A-2009-12002)"
+  },
+  {
+   "id": "dexmedetomidina",
+   "gravedad": "mayor",
+   "antes": "La formulación sublingual no consta en CIMA",
+   "despues": "La ficha estadounidense vigente (DailyMed, noviembre de 2026), tras suplementos de eficacia aprobados el 19 de noviembre de 2025 y el 13 de noviembre de 2026, distingue además un uso en entorno no supervisado, apoyado en un estudio ambulatorio de 12 semanas controlado con placebo cuyo objetivo era la seguridad (208 pacientes; somnolencia en las 24 horas del 49,0 % frente al 40,6 %, sequedad de boca del 14,7 % frente al 3,8 %). La formulación sublingual no consta en CIMA",
+   "fuente": "DailyMed, ficha de Igalmi (setid 99476e8c-2527-4cb0-9d67-9f9cd91343c6, publicada el 16-11-2026), apartados 2.2 y 6.1; openFDA Drugs@FDA NDA 215390 (SUPPL 2 y 3, eficacia)"
+  },
+  {
+   "id": "dexmedetomidina",
+   "gravedad": "menor",
+   "antes": "aprobación de 5 de abril de 2022 (Drugs@FDA) y ficha técnica estadounidense (DailyMed, versión de noviembre de 2026)",
+   "despues": "aprobación de 5 de abril de 2022 y suplementos de eficacia de 19 de noviembre de 2025 y 13 de noviembre de 2026 (Drugs@FDA) y ficha técnica estadounidense (DailyMed, versión de 16 de noviembre de 2026), apartados 1, 2.2, 5.1-5.3 y 6.1",
+   "fuente": "openFDA Drugs@FDA NDA 215390; DailyMed"
+  }
+ ],
+ "sin_resolver": [
+  "Guía PADIS (Devlin 2018, PMID 30113379): la recomendación condicional de dexmedetomidina en adultos ventilados con delirium cuya agitación impide el destete no figura en el resumen y el texto completo no fue accesible; se mantiene «[fuente no localizada]».",
+  "EMA: no se localizó EPAR ni autorización para la película sublingual de dexmedetomidina (página de Igalmi inexistente); se mantiene el marcador.",
+  "Ficha de Dexdor en CIMA (HTML, n.º 11718006): no incluye el aviso de mortalidad en pacientes de UCI de 65 años o menos (SPICE III); sí figura, literalmente, en la información de producto de la EMA (PDF en español, apartado 4.4), que es la que se cita.",
+  "Bacloville (Rigal 2020, PMID 31833590): PubMed no muestra resumen; las cifras (62 centros, 57 % frente a 36 %, 62 % frente a 55 %, acontecimientos graves 85 frente a 36, siete y tres muertes) se cotejaron con el resumen del editor recuperado vía Crossref.",
+  "Incoherencia externa no corregida (fuera de alcance): la ficha guanfacina cita Hirota (2013) cuando PubMed fecha la edición en febrero de 2014; el nodo clonidina usa (2014).",
+  "Guanfacina tiene ficha propia (id guanfacina; también no_estim_tdah) y la ficha clonidina remite a ella en la descripción, el tratamiento, las secciones y rel; en CIMA consta además el genérico Paxneury, con la misma indicación (TDAH de 6 a 17 años)."
+ ]
+}

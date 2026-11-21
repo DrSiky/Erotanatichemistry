@@ -1,0 +1,1462 @@
+{
+ "patch": {
+  "fk_mayor": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Los cambios farmacocinéticos y farmacodinámicos se traducen en la práctica en una revisión estructurada de la medicación con criterios explícitos. Los criterios Beers 2023 de la American Geriatrics Society se aplican a personas de 65 años o más en todos los ámbitos asistenciales salvo los cuidados paliativos y el final de la vida, y su propio panel advierte que deben apoyar, no sustituir, la decisión clínica compartida (AGS 2023). La versión 3 de STOPP/START, validada por consenso Delphi europeo, reúne 190 criterios: 133 de prescripción potencialmente inapropiada y 57 de omisiones de prescripción (O'Mahony 2023), lo que obliga a buscar también la infraprescripción. La carga anticolinérgica acumulada merece una vigilancia específica: en un estudio de casos y controles anidado en atención primaria inglesa (58.769 casos de demencia y 225.574 controles de 55 años o más), la mayor exposición a anticolinérgicos fuertes se asoció a una OR ajustada de 1,49 para demencia, con asociaciones significativas para los antidepresivos anticolinérgicos (1,29), los antipsicóticos (1,70) y los antiparkinsonianos (1,52) (Coupland 2019). Por ello, entre psicofármacos de eficacia comparable conviene ponderar el perfil anticolinérgico, documentar la carga total y revisarla de forma periódica.",
+     "links": [
+      {
+       "ids": [
+        "polifarm",
+        "bzd_mayor"
+       ],
+       "t": "polifarmacia y criterios de Beers"
+      },
+      {
+       "ids": [
+        "delirium",
+        "dem"
+       ],
+       "t": "delirium y demencia"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia farmacológica"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los criterios explícitos son instrumentos de consenso y no reglas validadas en ensayos: Beers procede de un panel estadounidense y su texto reconoce que pueden requerirse consideraciones adicionales en otros países (AGS 2023), y STOPP/START se validó con un panel de 11 especialistas de 8 países europeos (O'Mahony 2023); su aplicabilidad a otras poblaciones, ascendencias y sistemas sanitarios no está demostrada. La asociación entre anticolinérgicos y demencia procede de un diseño observacional: aunque persistió con ventanas de exposición de 3 a 13 y de 5 a 20 años antes del diagnóstico, no excluye por completo la confusión por indicación ni la prescripción por síntomas prodrómicos (Coupland 2019). El sexo es una fuente de variabilidad poco incorporada a la prescripción: en una revisión de 86 fármacos, 76 mostraban valores farmacocinéticos más altos en mujeres y, cuando la farmacocinética era mayor en ellas, el 96 % se asociaba a más reacciones adversas en mujeres; la mayoría de los fármacos se aprobaron con ensayos realizados sobre todo en hombres (Zucker y Prendergast 2020). Faltan datos específicos de personas mayores trans en tratamiento hormonal [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "sexo, género y salud mental"
+      },
+      {
+       "ids": [
+        "etnopsicofarm"
+       ],
+       "t": "variación por ancestría"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, la edad se suma a la variación de los citocromos: los fenotipos metabolizadores de CYP2D6 y CYP2C19, cuya frecuencia difiere entre ascendencias, modifican la exposición con independencia del envejecimiento, por lo que la farmacogenética y la geriatría deben leerse juntas. En el nivel neurobiológico, la menor reserva colinérgica y homeostática explica que la misma exposición produzca delirium, caídas o deterioro cognitivo en la persona frágil. En el nivel psicológico y social, la polifarmacia suele reflejar atención fragmentada, soledad y dificultades de acceso, y la deprescripción exige conocer qué significa cada fármaco para quien lo toma. Desde la perspectiva fenomenológica, la vivencia de enlentecimiento o de «niebla» puede ser iatrogénica y no un rasgo de la vejez. Hay controversias abiertas: el panel de Beers subraya que sus criterios están diseñados para Estados Unidos (AGS 2023), y la propuesta de reducir sistemáticamente las dosis en mujeres (Zucker y Prendergast 2020) no está incorporada a las fichas técnicas ni a las guías [fuente no localizada]; en la persona mayor, el riesgo de infratratamiento coexiste con el de toxicidad.",
+     "links": [
+      {
+       "ids": [
+        "fenot_metab",
+        "cyp2d6",
+        "cyp2c19"
+       ],
+       "t": "farmacogenética"
+      },
+      {
+       "ids": [
+        "soledad",
+        "duelo_vejez"
+       ],
+       "t": "soledad y vejez"
+      },
+      {
+       "ids": [
+        "help_delirium"
+       ],
+       "t": "prevención del delirium"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "By the 2023 American Geriatrics Society Beers Criteria® Update Expert Panel (2023). American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults. J Am Geriatr Soc 71:2052-2081 · PMID 37139824",
+    "O'Mahony D et al. (2023). STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 14:625-632 · PMID 37256475",
+    "Coupland CAC et al. (2019). Anticholinergic drug exposure and the risk of dementia: a nested case-control study. JAMA Intern Med 179:1084-1093 · PMID 31233095",
+    "Zucker I & Prendergast BJ (2020). Sex differences in pharmacokinetics predict adverse drug reactions in women. Biol Sex Differ 11:32 · PMID 32503637"
+   ],
+   "relAdd": [
+    "fenot_metab",
+    "etnopsicofarm",
+    "cyp2d6",
+    "cyp2c19",
+    "dem"
+   ]
+  },
+  "dep_tardia_dem": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La cronología de los síntomas orienta la evaluación. En la cohorte Whitehall II (10.189 personas seguidas 28 años), los síntomas depresivos en la mediana edad, incluso crónicos o recurrentes, no aumentaron el riesgo de demencia (HR 1,21 y 1,02, no significativos), mientras que los presentes en la fase tardía sí (HR 1,72; 1,67 si eran crónicos); las diferencias en síntomas depresivos aparecieron unos 11 años antes del diagnóstico y se multiplicaron por más de nueve en el año del diagnóstico (Singh-Manoux 2017). Por tanto, una depresión de inicio tardío justifica una evaluación cognitiva basal y un seguimiento tras la remisión, sin presumir que toda depresión previa sea un pródromo. En sentido opuesto, un estudio genético con correlación genómica y aleatorización mendeliana encontró una base genética compartida y un efecto causal de la depresión sobre la enfermedad de Alzheimer, pero no en la dirección inversa (Harerimana 2022). La Comisión Lancet de 2024 mantiene la depresión entre los factores de riesgo potencialmente modificables (Livingston 2024). La depresión debe tratarse por sí misma; la prevención de la demencia como beneficio añadido no está demostrada.",
+     "links": [
+      {
+       "ids": [
+        "dd_dep_dem",
+        "dcog"
+       ],
+       "t": "diferencial depresión-demencia"
+      },
+      {
+       "ids": [
+        "mmse_moca"
+       ],
+       "t": "cribado cognitivo"
+      },
+      {
+       "ids": [
+        "dep_tardia"
+       ],
+       "t": "depresión de inicio tardío"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los estudios disponibles son observacionales y sus resultados no coinciden del todo: el metaanálisis de Ownby, ya citado en la ficha, interpretó que un intervalo largo entre depresión y demencia apoyaba un papel de factor de riesgo, mientras que Whitehall II no halló exceso de riesgo con los síntomas de la mediana edad y concluyó que los datos son más compatibles con un pródromo o con causas comunes (Singh-Manoux 2017). La aleatorización mendeliana descansa en supuestos (ausencia de pleiotropía horizontal, instrumentos válidos) que no pueden verificarse por completo, y los GWAS de depresión y Alzheimer en que se basa proceden sobre todo de personas de ascendencia europea [fuente no localizada para este estudio concreto] (Harerimana 2022). Whitehall II se compone de funcionariado londinense con un 67 % de hombres (Singh-Manoux 2017), lo que limita la generalización a mujeres, a otros niveles socioeconómicos y a otros países. Las fracciones atribuibles de la Comisión Lancet son estimaciones que asumen causalidad (Livingston 2024) [fuente no localizada para el supuesto metodológico]. No hay ensayos que muestren que tratar la depresión reduzca la incidencia de demencia.",
+     "links": [
+      {
+       "ids": [
+        "prs",
+        "gwas_pgc"
+       ],
+       "t": "genética de la depresión"
+      },
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "sesgo de sexo y género"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, la correlación genómica entre depresión y Alzheimer (Harerimana 2022) convive con genes de efecto mayor como APOE ε4, de modo que la depresión tardía puede marcar una vulnerabilidad compartida. En el nivel neurobiológico confluyen la enfermedad cerebrovascular (depresión vascular), el eje hipotálamo-hipófisis-adrenal, la inflamación y el depósito de amiloide, sin que ninguno explique por sí solo la asociación. En el nivel psicológico, la apatía y la disfunción ejecutiva difuminan la frontera entre depresión y deterioro incipiente. En el nivel social, la soledad, el duelo, la pobreza y la baja escolarización aumentan el riesgo de ambas condiciones y son objetivos de salud pública, no responsabilidades individuales. Desde la fenomenología, la vivencia de enlentecimiento del tiempo y de pérdida de iniciativa puede preceder a la objetivación de déficits. La controversia central sigue abierta: factor de riesgo causal (Harerimana 2022) frente a pródromo o causa común (Singh-Manoux 2017).",
+     "links": [
+      {
+       "ids": [
+        "apoe_psen",
+        "hered_dep"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "dvascular",
+        "hha_dep",
+        "inflam"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "soledad",
+        "duelo_vejez",
+        "desig"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "minkowski",
+        "apatia_dem"
+       ],
+       "t": "tiempo vivido y apatía"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Singh-Manoux A et al. (2017). Trajectories of depressive symptoms before diagnosis of dementia: a 28-year follow-up study. JAMA Psychiatry 74:712-718 · PMID 28514478",
+    "Harerimana NV et al. (2022). Genetic evidence supporting a causal role of depression in Alzheimer's disease. Biol Psychiatry 92:25-33 · PMID 35177243",
+    "Livingston G et al. (2024). Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. Lancet 404:572-628 · PMID 39096926"
+   ],
+   "relAdd": [
+    "apoe_psen",
+    "hha_dep",
+    "inflam",
+    "mmse_moca",
+    "apatia_dem"
+   ]
+  },
+  "b12": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "No existe una prueba de referencia para definir el déficit de cobalamina: la guía británica de hematología recomienda la cobalamina sérica como primera prueba y el ácido metilmalónico plasmático como segunda línea, considera la homocisteína menos específica, pide rangos de referencia locales y, ante discordancia entre un resultado normal y una clínica sugestiva, no retrasar el tratamiento para evitar el daño neurológico (Devalia 2014). En personas tratadas con metformina, el seguimiento del Diabetes Prevention Program mostró más cifras bajas de B12 a los 5 años (4,3 % frente a 2,3 % con placebo) y un aumento del riesgo de déficit por cada año de uso (OR 1,13), por lo que sus autores proponen valorar la determinación periódica (Aroda 2016). En la revisión sistemática de casos de uso recreativo de óxido nitroso (91 casos), predominaron las secuelas neurológicas (72 casos, con mieloneuropatía y degeneración combinada subaguda) y hubo 11 con manifestaciones psiquiátricas, entre ellas psicosis, con B12 baja o en el límite bajo en 52 (Garakani 2016): conviene preguntar por este consumo de forma explícita y sin juicio, también en contextos festivos y de chemsex.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "consumo en contexto sexual y festivo"
+      },
+      {
+       "ids": [
+        "tpsc_med",
+        "dcog"
+       ],
+       "t": "psicosis y deterioro cognitivo"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "fármacos que reducen la B12"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La relación causal entre el déficit de B12 y la psicosis o la depresión descansa sobre todo en series de casos, como la de Lindenbaum ya citada, y en la mejoría tras la reposición, sin ensayos controlados en población psiquiátrica. La literatura sobre óxido nitroso es una recopilación de casos publicados, con el consiguiente sesgo de publicación y sin denominador para estimar riesgos (Garakani 2016). La reducción de la homocisteína con vitaminas del grupo B no mejoró la cognición: en el metaanálisis de 11 ensayos con datos de unas 22.000 personas, bajar la homocisteína un 25-28 % no tuvo efecto significativo sobre ningún dominio cognitivo ni sobre la función global (Clarke 2014), lo que desaconseja extrapolar de la hiperhomocisteinemia a un beneficio cognitivo general. Los puntos de corte de cobalamina varían según el método y no permiten separar con nitidez el déficit clínico del subclínico (Devalia 2014). El estudio sobre metformina se realizó en centros de Estados Unidos con personas con prediabetes y sobrepeso (Aroda 2016). Que la reversibilidad dependa de la duración del déficit es clínicamente razonable [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ncd_leve"
+       ],
+       "t": "deterioro cognitivo"
+      },
+      {
+       "ids": [
+        "korsakoff",
+        "pelagra_psiq"
+       ],
+       "t": "otros déficits vitamínicos"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico, la cobalamina y el folato participan en la remetilación de la homocisteína y en el metabolismo del ácido metilmalónico; su déficit afecta a la mielina, lo que explica la degeneración combinada subaguda y una vía plausible hacia la clínica psiquiátrica [fuente no localizada para el mecanismo psiquiátrico concreto]. En el nivel genético, el papel de variantes del metabolismo del folato sobre el riesgo psiquiátrico sigue en debate [fuente no localizada]. En el nivel social, el riesgo se concentra en la vejez, la gastritis atrófica, la polifarmacia, la inseguridad alimentaria y las dietas sin suplementación, y en el uso recreativo de óxido nitroso en contextos festivos; el abordaje debe ser informativo y de reducción de daños, no punitivo. En el nivel psicológico y fenomenológico, la presentación puede imitar una depresión o una psicosis primaria, y el término histórico «locura megaloblástica» recuerda que la etiología médica se sospecha antes de que haya anemia. Este nodo se articula con los otros cuadros carenciales del atlas y con la evaluación orgánica obligada ante una psicosis atípica.",
+     "links": [
+      {
+       "ids": [
+        "pelagra_psiq",
+        "korsakoff"
+       ],
+       "t": "cuadros carenciales"
+      },
+      {
+       "ids": [
+        "desig"
+       ],
+       "t": "pobreza y desigualdad"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Devalia V et al. (2014). Guidelines for the diagnosis and treatment of cobalamin and folate disorders. Br J Haematol 166:496-513 · PMID 24942828",
+    "Aroda VR et al. (2016). Long-term metformin use and vitamin B12 deficiency in the Diabetes Prevention Program Outcomes Study. J Clin Endocrinol Metab 101:1754-1761 · PMID 26900641",
+    "Garakani A et al. (2016). Neurologic, psychiatric, and other medical manifestations of nitrous oxide abuse: a systematic review of the case literature. Am J Addict 25:358-369 · PMID 27037733",
+    "Clarke R et al. (2014). Effects of homocysteine lowering with B vitamins on cognitive aging: meta-analysis of 11 trials with cognitive data on 22,000 individuals. Am J Clin Nutr 100:657-666 · PMID 24965307"
+   ],
+   "relAdd": [
+    "chemsex_s",
+    "sdu",
+    "polifarm",
+    "desig"
+   ]
+  },
+  "apnea": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La apnea obstructiva es muy frecuente: con criterios de la AASM de 2012 y un índice de apnea-hipopnea de 5 o más, se estimaron 936 millones de adultos afectados de 30 a 69 años en el mundo (Benjafield 2019). En el trastorno mental grave, el metaanálisis de Stubbs halló una prevalencia del 25,7 % en estudios clínicos (36,3 % en depresión mayor, 24,5 % en trastorno bipolar y 15,4 % en esquizofrenia), con la edad y el índice de masa corporal como predictores (Stubbs 2016): el cribado sistemático con instrumentos validados está justificado en estas personas. El tratamiento mejora los síntomas depresivos: en el análisis secundario del ensayo SAVE (2.410 pacientes con apnea moderada o grave y enfermedad cardiovascular), la CPAP redujo la probabilidad de depresión clínicamente significativa (OR ajustada 0,80), con mayor efecto si había síntomas previos, y el metaanálisis de 20 ensayos (4.255 participantes) mostró una diferencia estandarizada de −0,18, sin efecto sobre la ansiedad (Zheng 2019). El beneficio fue mucho mayor en los ensayos con población deprimida al inicio que en los que no lo estaba (Povitz 2014).",
+     "links": [
+      {
+       "ids": [
+        "stopbang",
+        "epworth_psqi"
+       ],
+       "t": "cribado"
+      },
+      {
+       "ids": [
+        "ddm",
+        "cardio_dep"
+       ],
+       "t": "depresión y riesgo cardiovascular"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La heterogeneidad entre ensayos de CPAP es alta (I² 71 %) y el efecto fue mayor en los diseños paralelos que en los cruzados (Povitz 2014); el efecto medio sobre la depresión es pequeño (−0,18) y en SAVE se estudió una población con enfermedad cardiovascular establecida (Zheng 2019), por lo que no se puede extrapolar sin más a personas jóvenes o sin cardiopatía. La estimación mundial de prevalencia se apoyó en datos fiables de solo 16 países (17 estudios) y extrapoló al resto según índice de masa corporal, «raza» y proximidad geográfica, sin analizar los síntomas (Benjafield 2019): es un modelo, no una medición. La prevalencia en el trastorno mental grave procede de pocos estudios con gran imprecisión en las cohortes poblacionales (Stubbs 2016). La infradetección en mujeres, por presentaciones con insomnio, fatiga o cefalea más que ronquido y apneas observadas, es clínicamente razonable [fuente no localizada]. La dirección causal entre apnea y depresión no está resuelta: comparten obesidad, sedentarismo y psicofármacos.",
+     "links": [
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "sesgos de sexo y género"
+      },
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "obesidad e inmunometabolismo"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico, la hipoxia intermitente, la fragmentación del sueño y la activación inflamatoria y simpática ofrecen vías plausibles hacia la fatiga, el ánimo bajo y la disfunción cognitiva, y conectan con la carga alostática y con la relación entre depresión y enfermedad cardiovascular. En el nivel farmacológico, el aumento de peso asociado a antipsicóticos y los sedantes (benzodiacepinas, opioides) agravan el cuadro. En el nivel psicológico, la fatiga y la somnolencia diurna se confunden con la anhedonia y la inhibición depresiva; que la CPAP redujera la depresión con independencia de la mejoría de la somnolencia (Zheng 2019) sugiere que el efecto no es solo un artefacto de los ítems somáticos de las escalas. En el nivel social, la obesidad, la precariedad laboral y el acceso desigual a la polisomnografía condicionan el diagnóstico. Desde la fenomenología, la pérdida de vitalidad corporal no equivale a la tristeza vital melancólica, y la distinción orienta la exploración. La controversia sobre si la depresión de la apnea es una entidad propia o un solapamiento sintomático sigue abierta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "carga_alostatica",
+        "inflam"
+       ],
+       "t": "carga alostática e inflamación"
+      },
+      {
+       "ids": [
+        "fatdep",
+        "sfcme"
+       ],
+       "t": "fatiga"
+      },
+      {
+       "ids": [
+        "sent_vitales"
+       ],
+       "t": "sentimientos vitales"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "benzodiacepinas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Benjafield AV et al. (2019). Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis. Lancet Respir Med 7:687-698 · PMID 31300334",
+    "Stubbs B et al. (2016). The prevalence and predictors of obstructive sleep apnea in major depressive disorder, bipolar disorder and schizophrenia: a systematic review and meta-analysis. J Affect Disord 197:259-267 · PMID 26999550",
+    "Zheng D et al. (2019). Effects of continuous positive airway pressure on depression and anxiety symptoms in patients with obstructive sleep apnoea: results from the sleep apnoea cardiovascular Endpoint randomised trial and meta-analysis. EClinicalMedicine 11:89-96 · PMID 31312807",
+    "Povitz M et al. (2014). Effect of treatment of obstructive sleep apnea on depressive symptoms: systematic review and meta-analysis. PLoS Med 11:e1001762 · PMID 25423175"
+   ],
+   "relAdd": [
+    "cardio_dep",
+    "carga_alostatica",
+    "inflam",
+    "fatdep",
+    "inmunometab_dep"
+   ]
+  },
+  "cardio_dep": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La magnitud de la asociación es moderada: en el metaanálisis de 30 cohortes prospectivas (893.850 participantes y 59.062 casos), la depresión se asoció a un riesgo relativo de 1,30 tanto para cardiopatía coronaria como para infarto de miocardio (Gan 2014). Tratar la depresión en la persona con cardiopatía es seguro y útil para el ánimo, pero no ha demostrado reducir los eventos cardiacos. En SADHART (369 pacientes con depresión mayor tras infarto o angina inestable), la sertralina no modificó la fracción de eyección ni el QTc frente a placebo, y la respuesta clínica fue mayor en la depresión recurrente o más grave (Glassman 2002). En ENRICHD (2.481 pacientes tras infarto, 1.084 mujeres), la TCC, con ISRS cuando estaba indicado, mejoró la depresión y el apoyo social percibido, pero la supervivencia libre de eventos fue idéntica (75,8 % frente a 75,9 %) a los 29 meses (Berkman 2003). La consecuencia práctica es cribar la depresión tras un evento coronario con instrumentos validados y tratarla por su propio valor, coordinando la atención cardiológica y de salud mental, sin prometer un beneficio pronóstico no demostrado.",
+     "links": [
+      {
+       "ids": [
+        "sertralina",
+        "escitalopram"
+       ],
+       "t": "antidepresivos en la cardiopatía"
+      },
+      {
+       "ids": [
+        "hads",
+        "phq9"
+       ],
+       "t": "cribado"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Que la depresión sea un factor causal independiente no está establecido. El metaanálisis de 54 estudios observacionales (146.538 participantes) mostró que el ajuste por la función ventricular izquierda, disponible solo en ocho estudios pronósticos, redujo el riesgo relativo de 2,18 a 1,53, una atenuación del 48 %, y concluyó que el ajuste incompleto y sesgado impide afirmar la independencia (Nicholson 2006). En el metaanálisis de Gan, la asociación fue de 1,36 con seguimientos menores de 15 años y de 1,09, no significativa, con seguimientos más largos, y no puede descartarse el sesgo de publicación (Gan 2014), lo que es compatible con causalidad inversa por enfermedad subclínica. Los ensayos de tratamiento (SADHART, ENRICHD) no se diseñaron para detectar efectos sobre la mortalidad cardiaca o no los hallaron, y en ENRICHD la mejoría del grupo control redujo el contraste (Berkman 2003). Las cohortes proceden sobre todo de países de renta alta; la representación de mujeres, minorías étnicas y personas de bajo nivel socioeconómico es desigual [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "desig",
+        "racismo_sm"
+       ],
+       "t": "sesgos de muestra"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico, la inflamación, la disfunción autonómica, el eje hipotálamo-hipófisis-adrenal y la carga alostática se proponen como vías comunes, y el subtipo inmunometabólico de la depresión ofrece un puente con el riesgo cardiometabólico. En el nivel conductual intervienen el tabaco, el sedentarismo y la menor adherencia, que actúan a la vez como mediadores y como factores de confusión. En el nivel social, el apoyo social percibido bajo se asoció en ENRICHD a peor pronóstico y fue diana de la intervención (Berkman 2003); la pobreza, la discriminación y la soledad elevan tanto la depresión como la enfermedad cardiovascular, y su abordaje es una cuestión de salud pública y de derechos, no de responsabilidad individual. La apnea del sueño comparte factores con ambas. Desde la perspectiva fenomenológica y psicosomática, el miedo a la recaída y la vivencia del corazón como órgano amenazado modulan la recuperación. La controversia se sitúa entre el reconocimiento de la depresión como factor de mal pronóstico por la AHA, ya citado en la ficha, y la cautela metodológica de Nicholson (2006).",
+     "links": [
+      {
+       "ids": [
+        "inflam",
+        "hha_dep",
+        "carga_alostatica",
+        "inmunometab_dep"
+       ],
+       "t": "vías neurobiológicas"
+      },
+      {
+       "ids": [
+        "soledad",
+        "determ_soc_sm",
+        "desig"
+       ],
+       "t": "determinantes sociales"
+      },
+      {
+       "ids": [
+        "apnea"
+       ],
+       "t": "apnea del sueño"
+      },
+      {
+       "ids": [
+        "fact_psic_med"
+       ],
+       "t": "factores psicológicos en la enfermedad médica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Gan Y et al. (2014). Depression and the risk of coronary heart disease: a meta-analysis of prospective cohort studies. BMC Psychiatry 14:371 · PMID 25540022",
+    "Glassman AH et al. (2002). Sertraline treatment of major depression in patients with acute MI or unstable angina. JAMA 288:701-709 · PMID 12169073",
+    "Berkman LF et al. (2003). Effects of treating depression and low perceived social support on clinical events after myocardial infarction: the Enhancing Recovery in Coronary Heart Disease Patients (ENRICHD) randomized trial. JAMA 289:3106-3116 · PMID 12813116",
+    "Nicholson A, Kuper H & Hemingway H (2006). Depression as an aetiologic and prognostic factor in coronary heart disease: a meta-analysis of 6362 events among 146 538 participants in 54 observational studies. Eur Heart J 27:2763-2774 · PMID 17082208"
+   ],
+   "relAdd": [
+    "apnea",
+    "soledad",
+    "determ_soc_sm",
+    "phq9",
+    "hha_dep"
+   ]
+  },
+  "epilepsia_psic": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La relación entre epilepsia y trastornos psiquiátricos es bidireccional. En una cohorte emparejada del General Practice Research Database británico (3.773 personas con epilepsia incidente de 10 a 60 años y 14.025 controles), la incidencia de psicosis, depresión y ansiedad estaba aumentada en cada uno de los tres años previos al diagnóstico de epilepsia (razón de tasas de incidencia 1,5-15,7) y en los tres posteriores (2,2-10,9), y la conducta suicida lo estaba antes del diagnóstico (3,1-4,5) y en el primer año tras él (5,3) (Hesdorffer 2012). De ello se deriva evaluar de forma sistemática la salud mental y el riesgo suicida al diagnosticar una epilepsia, y considerar la epilepsia en presentaciones psicóticas o afectivas atípicas. El consenso de la Comisión de Aspectos Neuropsiquiátricos de la ILAE establece pautas para depresión, ansiedad, psicosis, crisis no epilépticas, disfunción cognitiva, efectos neuroconductuales de los antiepilépticos y suicidio, y recomienda integrar el conocimiento psiquiátrico en los servicios de epilepsia (Kerr 2011). La diferenciación con las crisis funcionales y la revisión del antiepiléptico ante cambios conductuales forman parte de esa evaluación.",
+     "links": [
+      {
+       "ids": [
+        "psiep"
+       ],
+       "t": "psicosis epiléptica"
+      },
+      {
+       "ids": [
+        "crisis_func"
+       ],
+       "t": "crisis funcionales"
+      },
+      {
+       "ids": [
+        "sreat"
+       ],
+       "t": "riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los datos de cohorte proceden de registros de atención primaria de un solo país y de diagnósticos codificados; las condiciones de referencia (eccema y cirugía aguda) también se asociaron a la epilepsia en el primer y tercer año tras el diagnóstico (Hesdorffer 2012), lo que sugiere que parte del exceso puede deberse a un mayor contacto asistencial y a sesgo de detección. Que el aumento sea previo al diagnóstico de epilepsia no prueba un mecanismo común: la epilepsia pudo estar presente sin diagnosticar. Las recomendaciones de la ILAE se basan en un proceso Delphi y en la práctica clínica, no en ensayos específicos para cada situación (Kerr 2011). La normalización forzada de Landolt descansa en observaciones clínicas y series de casos, sin estudios controlados [fuente no localizada]. La carga psicológica de la epilepsia está mediada en parte por el estigma (exclusión escolar, laboral y matrimonial) descrito en todo el mundo (de Boer 2008), lo que introduce confusión social en cualquier asociación con la depresión o la ansiedad. La investigación procede sobre todo de países de renta alta, mientras que la mayor carga de epilepsia se concentra en los de renta baja [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "efectos de los antiepilépticos"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La bidireccionalidad sugiere, según Hesdorffer (2012), mecanismos fisiopatológicos comunes que reducen el umbral convulsivo y aumentan el riesgo psiquiátrico y suicida; su naturaleza (genética, inflamatoria, estructural del lóbulo temporal o autoinmune, como en la encefalitis anti-NMDA) no está establecida. En el nivel farmacológico, algunos antiepilépticos con efectos psiquiátricos y la normalización forzada plantean la controversia de si la psicosis es consecuencia de la supresión de las crisis o de efectos del fármaco [fuente no localizada]. En el nivel psicológico y social, el estigma, las restricciones (conducción, empleo) y la imprevisibilidad de las crisis generan ansiedad, baja autoestima y aislamiento (de Boer 2008); la perspectiva de derechos exige combatir esa discriminación. En el nivel fenomenológico, las auras del lóbulo temporal (despersonalización, déjà vu, alucinaciones olfativas, distorsiones perceptivas) ofrecen un modelo para estudiar vivencias que en otros contextos se atribuyen a trastornos primarios, y la tradición histórica, de Hipócrates a la neuropsiquiatría japonesa, enlaza con este nodo.",
+     "links": [
+      {
+       "ids": [
+        "nmda"
+       ],
+       "t": "encefalitis autoinmune"
+      },
+      {
+       "ids": [
+        "desp",
+        "paramn",
+        "aluc_olf",
+        "distors_perc"
+       ],
+       "t": "vivencias del aura"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma y derechos"
+      },
+      {
+       "ids": [
+        "hipocrates",
+        "kimura"
+       ],
+       "t": "tradición histórica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hesdorffer DC et al. (2012). Epilepsy, suicidality, and psychiatric disorders: a bidirectional association. Ann Neurol 72:184-191 · PMID 22887468",
+    "Kerr MP et al. (2011). International consensus clinical practice statements for the treatment of neuropsychiatric conditions associated with epilepsy. Epilepsia 52:2133-2138 · PMID 21955156",
+    "de Boer HM, Mula M & Sander JW (2008). The global burden and stigma of epilepsy. Epilepsy Behav 12:540-546 · PMID 18280210"
+   ],
+   "relAdd": [
+    "estigma",
+    "sreat",
+    "iatrog_farm"
+   ]
+  },
+  "ictus_dep": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La depresión afecta a cerca de un tercio de las personas que sobreviven a un ictus: el metaanálisis de 61 estudios observacionales (25.488 personas) estimó una frecuencia agrupada del 31 %, sin cambios respecto a la revisión de 2005, del 25 % entre uno y cinco años y del 23 % a los cinco años (Hackett y Pickles 2014). La declaración científica de la AHA/ASA la asocia a peor recuperación, recurrencia vascular, peor calidad de vida y mortalidad, y reconoce la incertidumbre sobre los factores predisponentes y las mejores estrategias de prevención y tratamiento (Towfighi 2017). El ensayo FOCUS (3.127 pacientes en 103 hospitales británicos) mostró que la fluoxetina durante seis meses tras el ictus agudo no mejoró la funcionalidad (OR común 0,951), redujo la depresión de nueva aparición (13,43 % frente a 17,21 %) y aumentó las fracturas (2,88 % frente a 1,47 %); sus autores no apoyan su uso sistemático para prevenir la depresión ni para promover la recuperación (FOCUS Trial Collaboration 2019). La práctica razonable es el cribado repetido con instrumentos adaptados a la afasia y el tratamiento de la depresión establecida, sopesando el riesgo de caídas y fracturas.",
+     "links": [
+      {
+       "ids": [
+        "fluoxetina"
+       ],
+       "t": "fluoxetina"
+      },
+      {
+       "ids": [
+        "afasia_bro",
+        "afasia_cond"
+       ],
+       "t": "evaluación en la afasia"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Las estimaciones de frecuencia varían mucho entre estudios por la definición de depresión, el instrumento, el momento de la evaluación y la exclusión frecuente de personas con afasia o deterioro cognitivo (Hackett y Pickles 2014), lo que probablemente infraestima la carga en quienes tienen lesiones más graves. FOCUS se realizó solo en el Reino Unido y con un único fármaco; sus resultados no pueden generalizarse a otros antidepresivos ni a la depresión ya establecida (FOCUS Trial Collaboration 2019), y contradicen las expectativas de beneficio funcional basadas en ensayos pequeños previos. La hipótesis de una relación específica entre la localización de la lesión (frontal izquierda) y la depresión no se ha replicado de forma consistente [fuente no localizada]. Distinguir depresión de apatía, labilidad emocional, fatiga postictus y afasia es difícil y no siempre se hizo en los estudios. La representación de personas de distintas ascendencias y de países de renta baja, donde se concentra la carga del ictus, es limitada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "apatia",
+        "labaf",
+        "labil_incont"
+       ],
+       "t": "diagnóstico diferencial"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico se proponen la disrupción de circuitos frontoestriatales, la enfermedad de sustancia blanca, la inflamación y los cambios de neuroplasticidad, y la depresión postictus se solapa con la depresión vascular de inicio tardío y con la relación entre depresión y demencia. En el nivel psicológico, la pérdida brusca de funciones, de roles y de autonomía es un acontecimiento vital mayor, y la depresión puede ser a la vez reacción y consecuencia lesional; la propia declaración de la AHA/ASA admite que los factores predisponentes siguen sin aclararse (Towfighi 2017). En el nivel social, el apoyo familiar, el acceso a la rehabilitación y la situación económica condicionan la recuperación. En el nivel fenomenológico, la alteración del cuerpo vivido (hemiplejía, negligencia, afasia) transforma la relación con el propio cuerpo y con los demás, y la aprosodia puede hacer que la tristeza no se exprese o que se atribuya erróneamente. El debate entre el modelo lesional y el modelo reactivo no está resuelto y probablemente ambos operan a la vez [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dvascular",
+        "vasc_dep_hit",
+        "dep_tardia_dem"
+       ],
+       "t": "depresión vascular y demencia"
+      },
+      {
+       "ids": [
+        "inflam"
+       ],
+       "t": "inflamación"
+      },
+      {
+       "ids": [
+        "leib_korper"
+       ],
+       "t": "cuerpo vivido"
+      },
+      {
+       "ids": [
+        "aprosodia"
+       ],
+       "t": "aprosodia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hackett ML & Pickles K (2014). Part I: frequency of depression after stroke: an updated systematic review and meta-analysis of observational studies. Int J Stroke 9:1017-1025 · PMID 25117911",
+    "Towfighi A et al. (2017). Poststroke depression: a scientific statement for healthcare professionals from the American Heart Association/American Stroke Association. Stroke 48:e30-e43 · PMID 27932603",
+    "FOCUS Trial Collaboration (2019). Effects of fluoxetine on functional outcomes after acute stroke (FOCUS): a pragmatic, double-blind, randomised, controlled trial. Lancet 393:265-274 · PMID 30528472"
+   ],
+   "relAdd": [
+    "fluoxetina",
+    "inflam",
+    "leib_korper"
+   ]
+  },
+  "corticoides_psiq": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "En una cohorte de atención primaria británica con 372.696 personas tratadas con glucocorticoides orales, frente a personas con la misma enfermedad de base no tratadas, el tratamiento se asoció a un riesgo mucho mayor de suicidio o tentativa (HR 6,89), delirium o confusión (5,14), manía (4,35), depresión (1,83) y trastorno de pánico (1,45). El delirium y la manía fueron más frecuentes en hombres mayores, la conducta suicida en personas jóvenes, y el riesgo fue mayor con antecedentes neuropsiquiátricos y con dosis más altas (Fardet 2012). De ahí se desprenden tres medidas prácticas: preguntar por antecedentes psiquiátricos antes de iniciar un ciclo, informar a la persona y a su familia de los posibles efectos para facilitar la detección precoz, como proponen los autores, y explorar de forma activa el sueño, el ánimo y la ideación suicida durante el tratamiento y en la retirada. La reducción de la dosis cuando la enfermedad de base lo permite es la primera medida, coordinada con quien prescribe el corticoide; el tratamiento sintomático se ajusta al síndrome y a la situación médica.",
+     "links": [
+      {
+       "ids": [
+        "sreat"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "delirium",
+        "mania_sec"
+       ],
+       "t": "delirium y manía secundaria"
+      },
+      {
+       "ids": [
+        "insomnio_sx"
+       ],
+       "t": "insomnio"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los datos proceden de registros de atención primaria con diagnósticos codificados; aunque la comparación se hizo con personas con la misma enfermedad no tratadas, la gravedad de la enfermedad de base, que motiva el tratamiento, puede confundir la asociación (confusión por indicación) (Fardet 2012). El estudio se limitó a ciclos orales en atención primaria, de modo que no informa directamente sobre los pulsos intravenosos hospitalarios ni las personas ingresadas. Para las vías locales solo hay datos transversales: en la cohorte poblacional neerlandesa Lifelines (83.592 adultos), el uso de corticoides inhalados se asoció a más trastornos del ánimo (OR 1,40) y de ansiedad (OR 1,19) y a peor función ejecutiva (Savas 2020), un diseño que no permite establecer causalidad. Las series clínicas clásicas, como la de Brown y Chandler ya citada en la ficha, son pequeñas. No hay ensayos controlados que sustenten la profilaxis farmacológica sistemática de los síntomas psiquiátricos inducidos por corticoides [fuente no localizada]. La distinta distribución por edad y sexo de los desenlaces (Fardet 2012) puede reflejar diferencias de vulnerabilidad, pero también de diagnóstico y registro; faltan datos desagregados por ascendencia y por identidad de género [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia farmacológica"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neuroendocrino, los glucocorticoides exógenos reproducen de forma aguda una exposición que en otros cuadros es endógena: el hipercortisolismo del síndrome de Cushing, la hiperactividad del eje hipotálamo-hipófisis-adrenal en la depresión y, en sentido contrario, la retroalimentación aumentada descrita en el TEPT; los receptores de glucocorticoides del hipocampo y de la corteza prefrontal son la diana común [fuente no localizada para el mecanismo concreto de cada síndrome]. En el nivel psicológico, el insomnio y la activación inicial pueden preceder a la manía o a la irritabilidad, y la retirada puede desencadenar síntomas depresivos. En el nivel social y asistencial, la fragmentación entre especialidades retrasa la detección, y las diferencias por edad y sexo (Fardet 2012) obligan a una vigilancia diferenciada sin estereotipos. En el nivel fenomenológico, la euforia y la aceleración inducidas pueden vivirse como bienestar y no comunicarse. Es controvertido si los síndromes afectivos inducidos por corticoides comparten mecanismo con el trastorno bipolar primario o predicen una vulnerabilidad posterior [fuente no localizada]. Los esteroides anabolizantes androgénicos son un fenómeno distinto, con su propia ficha.",
+     "links": [
+      {
+       "ids": [
+        "endocrino",
+        "hha_dep",
+        "hha_tept"
+       ],
+       "t": "eje hipotálamo-hipófisis-adrenal"
+      },
+      {
+       "ids": [
+        "euforia",
+        "irritab_cron"
+       ],
+       "t": "euforia e irritabilidad"
+      },
+      {
+       "ids": [
+        "eaa_psiq"
+       ],
+       "t": "esteroides anabolizantes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Fardet L, Petersen I & Nazareth I (2012). Suicidal behavior and severe neuropsychiatric disorders following glucocorticoid therapy in primary care. Am J Psychiatry 169:491-497 · PMID 22764363",
+    "Savas M et al. (2020). Systemic and local corticosteroid use is associated with reduced executive cognition, and mood and anxiety disorders. Neuroendocrinology 110:282-291 · PMID 31220843"
+   ],
+   "relAdd": [
+    "hha_dep",
+    "hha_tept"
+   ]
+  },
+  "parkinson_psiq": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La psicosis es la norma más que la excepción en la evolución: en una cohorte poblacional noruega de 230 pacientes seguidos 12 años, el 60 % desarrolló alucinaciones o delirios, con una incidencia de 79,7 por 1.000 personas-año; la edad de inicio más alta, las dosis equivalentes de levodopa más altas y el probable trastorno de conducta del sueño REM fueron factores de riesgo independientes (Forsaa 2010). En la cohorte de Sídney, a los 20 años el 83 % de las personas supervivientes tenía demencia y el 74 % había presentado alucinaciones (Hely 2008). Ello justifica preguntar de forma activa por fenómenos menores (sensación de presencia, ilusiones) y explorar el sueño REM y la cognición en cada revisión. La clozapina mejoró la psicosis sin empeorar el parkinsonismo en un ensayo aleatorizado de cuatro semanas con 60 pacientes, con un caso de leucopenia que obligó a suspenderla (Parkinson Study Group 1999), lo que exige la monitorización hematológica de su ficha técnica. Al reducir los agonistas dopaminérgicos por un trastorno del control de impulsos, conviene anticipar un síndrome de retirada: lo presentó el 19 % de quienes redujeron el agonista en una cohorte, todos con trastorno del control de impulsos previo (Rabinak y Nirenberg 2010).",
+     "links": [
+      {
+       "ids": [
+        "sens_presencia",
+        "aluc_vis"
+       ],
+       "t": "fenómenos psicóticos menores"
+      },
+      {
+       "ids": [
+        "clozapina",
+        "clozapina_monit"
+       ],
+       "t": "clozapina y monitorización"
+      },
+      {
+       "ids": [
+        "juegoP",
+        "hipser"
+       ],
+       "t": "trastornos del control de impulsos"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Las cohortes longitudinales son pocas y de ámbito local: la noruega mide la psicosis con un solo ítem de la UPDRS (Forsaa 2010) y la de Sídney atribuye la demencia a una interacción de patologías múltiples con escasas necropsias (Hely 2008), por lo que las cifras no son directamente extrapolables a otras poblaciones ni a la atención actual con otros perfiles de fármacos. El ensayo de clozapina fue pequeño y breve (Parkinson Study Group 1999). El síndrome de retirada de agonistas se describió en un estudio retrospectivo con 26 personas que redujeron el fármaco (Rabinak y Nirenberg 2010), sin estimaciones poblacionales fiables. Los trastornos del control de impulsos se infradeclaran por vergüenza o por no relacionarlos con la medicación, y las diferencias por sexo en su expresión (juego, compras, hipersexualidad) pueden reflejar sesgos de exploración y de valoración social de las conductas [fuente no localizada]. La evidencia sobre pimavanserina procede de un ensayo de fase 3 ya citado, y el fármaco no figuraba en CIMA en la consulta realizada.",
+     "links": [
+      {
+       "ids": [
+        "pimavanserina"
+       ],
+       "t": "pimavanserina"
+      },
+      {
+       "ids": [
+        "sexual_sx"
+       ],
+       "t": "exploración de la sexualidad sin juicio"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico, la psicosis de la enfermedad de Parkinson resulta de la interacción entre la neurodegeneración propia (cuerpos de Lewy corticales, déficit colinérgico) y la estimulación dopaminérgica; que el trastorno de conducta del sueño REM y la edad predigan la psicosis con independencia de la dosis (Forsaa 2010) indica que no es un simple efecto farmacológico, lo que matiza la visión clásica de «psicosis inducida por fármacos». Los trastornos del control de impulsos ilustran el papel de la estimulación de receptores D2/D3 en el circuito de recompensa y en la sensibilización incentiva, y el síndrome de retirada de agonistas (Rabinak y Nirenberg 2010) los aproxima a la neuroadaptación de las adicciones. En el nivel psicológico y social, la vergüenza, la carga familiar y las consecuencias económicas o legales del juego y de la hipersexualidad requieren un abordaje sin culpabilización. En el nivel fenomenológico, la sensación de presencia y las ilusiones de paso, a menudo con introspección conservada, cuestionan la equiparación entre alucinación y pérdida del juicio de realidad.",
+     "links": [
+      {
+       "ids": [
+        "lewy",
+        "dopa_hyp"
+       ],
+       "t": "neurodegeneración y dopamina"
+      },
+      {
+       "ids": [
+        "recompensa",
+        "incent_sensib",
+        "neuroadapt_adicc"
+       ],
+       "t": "recompensa y sensibilización incentiva"
+      },
+      {
+       "ids": [
+        "aluc_func"
+       ],
+       "t": "alucinación e introspección"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Forsaa EB et al. (2010). A 12-year population-based study of psychosis in Parkinson disease. Arch Neurol 67:996-1001 · PMID 20697051",
+    "Hely MA et al. (2008). The Sydney multicenter study of Parkinson's disease: the inevitability of dementia at 20 years. Mov Disord 23:837-844 · PMID 18307261",
+    "Parkinson Study Group (1999). Low-dose clozapine for the treatment of drug-induced psychosis in Parkinson's disease. N Engl J Med 340:757-763 · PMID 10072410",
+    "Rabinak CA & Nirenberg MJ (2010). Dopamine agonist withdrawal syndrome in Parkinson disease. Arch Neurol 67:58-63 · PMID 20065130"
+   ],
+   "relAdd": [
+    "recompensa",
+    "incent_sensib",
+    "neuroadapt_adicc",
+    "clozapina_monit",
+    "dem"
+   ]
+  },
+  "covid_psiq": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El seguimiento a dos años de 1.284.437 personas con COVID-19 emparejadas con personas con otras infecciones respiratorias mostró trayectorias distintas según el desenlace: el riesgo de trastornos del ánimo y de ansiedad volvió al nivel basal a los 43 y 58 días, mientras que el de déficit cognitivo («niebla mental»), demencia, trastornos psicóticos y epilepsia seguía aumentado al final del seguimiento; en la infancia no aumentaron los trastornos del ánimo ni de ansiedad a los seis meses, pero sí el déficit cognitivo, con un horizonte de riesgo finito (Taquet 2022). En veteranos estadounidenses, la infección se asoció a más trastornos de ansiedad (HR 1,35), depresivos (1,39) y deterioro neurocognitivo (1,80), también en quienes no fueron hospitalizados (Xie 2022). En el metaanálisis de Ceban, el 32 % refería fatiga y el 22 % deterioro cognitivo 12 semanas o más tras el diagnóstico (Ceban 2022). La definición de consenso de la OMS sitúa la afección post-COVID-19 en torno a los tres meses del inicio, con síntomas de al menos dos meses no explicables por otro diagnóstico (Soriano 2022). Procede evaluar la cognición de forma objetiva y repetida, sin atribuir de entrada los síntomas a ansiedad.",
+     "links": [
+      {
+       "ids": [
+        "dcog",
+        "ncd_leve"
+       ],
+       "t": "deterioro cognitivo"
+      },
+      {
+       "ids": [
+        "sfcme"
+       ],
+       "t": "fatiga crónica"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "encefalopatía aguda y delirium"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los grandes estudios se basan en registros electrónicos: los diagnósticos dependen de la codificación y del contacto asistencial, que fue mayor tras la COVID-19, y el emparejamiento por puntuación de propensión no elimina la confusión no medida (Taquet 2022; Xie 2022). La red TriNetX procede sobre todo de Estados Unidos y la cohorte de Xie, de la población de veteranos del Departamento de Asuntos de Veteranos, cuya composición por edad, sexo y nivel socioeconómico difiere de la población general [fuente no localizada para la composición concreta]. Las proporciones de fatiga y deterioro cognitivo tienen una heterogeneidad extrema (I² de 99,1 % y 98,0 %) y dependen de definiciones y medidas muy diversas (Ceban 2022). La definición de la OMS es provisional y se espera que cambie con el conocimiento (Soriano 2022). La pandemia añadió duelo, aislamiento, desempleo y desigualdad en el acceso, que afectaron de forma desproporcionada a grupos racializados y empobrecidos [fuente no localizada], y que son difíciles de separar del efecto de la infección. Los riesgos estimados corresponden a variantes y estados de vacunación concretos.",
+     "links": [
+      {
+       "ids": [
+        "desig",
+        "desempleo_suic",
+        "duelo_vejez"
+       ],
+       "t": "determinantes sociales de la pandemia"
+      },
+      {
+       "ids": [
+        "racismo_sm"
+       ],
+       "t": "racismo y desigualdad"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico se proponen la inflamación sistémica y neuroinflamación, la afectación vascular y la hipoxia, con la encefalopatía aguda como marcador de gravedad; el metaanálisis de Ceban describe elevación de marcadores proinflamatorios en un subgrupo (Ceban 2022), sin un mecanismo único demostrado. Que el riesgo de psicosis, demencia y epilepsia persista mientras el de ansiedad y depresión se normaliza (Taquet 2022) sugiere procesos distintos para los desenlaces neurológicos y para las reacciones afectivas comunes. En el nivel psicológico, la incertidumbre, el estigma de la enfermedad y la deslegitimación de los síntomas agravan el malestar. En el nivel social, la pérdida de empleo, la precariedad y el duelo actuaron sobre toda la población. En el nivel fenomenológico, la fatiga y la «niebla mental» se describen como una pérdida de la disponibilidad corporal y cognitiva que no coincide con la anhedonia depresiva. Existe controversia sobre la superposición de la afección post-COVID-19 con la encefalomielitis miálgica y sobre el peso relativo de los mecanismos orgánicos y funcionales [fuente no localizada]; el modelo biopsicosocial permite integrarlos sin reducir uno a otro.",
+     "links": [
+      {
+       "ids": [
+        "inflam"
+       ],
+       "t": "inflamación"
+      },
+      {
+       "ids": [
+        "sfcme",
+        "fatdep"
+       ],
+       "t": "fatiga"
+      },
+      {
+       "ids": [
+        "biopsicosocial"
+       ],
+       "t": "modelo biopsicosocial"
+      },
+      {
+       "ids": [
+        "tpsc_med"
+       ],
+       "t": "psicosis secundaria"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Taquet M et al. (2022). Neurological and psychiatric risk trajectories after SARS-CoV-2 infection: an analysis of 2-year retrospective cohort studies including 1 284 437 patients. Lancet Psychiatry 9:815-827 · PMID 35987197",
+    "Xie Y, Xu E & Al-Aly Z (2022). Risks of mental health outcomes in people with covid-19: cohort study. BMJ 376:e068993 · PMID 35172971",
+    "Ceban F et al. (2022). Fatigue and cognitive impairment in Post-COVID-19 Syndrome: a systematic review and meta-analysis. Brain Behav Immun 101:93-135 · PMID 34973396",
+    "Soriano JB et al. (2022). A clinical case definition of post-COVID-19 condition by a Delphi consensus. Lancet Infect Dis 22:e102-e107 · PMID 34951953"
+   ],
+   "relAdd": [
+    "dcog",
+    "ncd_leve",
+    "fatdep",
+    "biopsicosocial",
+    "desig"
+   ]
+  },
+  "toc_neuro": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo de circuitos no modifica la primera línea, que sigue siendo psicológica: en el metaanálisis de 37 ensayos aleatorizados de TCC para el TOC, el tamaño del efecto frente a lista de espera fue de 1,31 y frente a placebo de 1,33; la TCC superó a la medicación antidepresiva (0,55) y su combinación con fármaco no fue significativamente mejor que la TCC con placebo (0,25) (Öst 2015). La exposición con prevención de respuesta encaja con los hallazgos de laboratorio: las personas con TOC mostraron un déficit del control dirigido a metas y una mayor dependencia de los hábitos, con más «deslices de acción» tras la desvalorización del resultado (Gillan 2011), lo que apoya trabajar sobre la conducta repetida y no solo sobre las creencias. El modelo de extinción del miedo (Milad y Rauch 2012) sugiere además optimizar la exposición con los principios del aprendizaje inhibitorio. La estimulación cerebral profunda queda reservada a casos muy refractarios en centros especializados. Ningún hallazgo de neuroimagen tiene hoy utilidad diagnóstica o pronóstica individual.",
+     "links": [
+      {
+       "ids": [
+        "epr"
+       ],
+       "t": "exposición con prevención de respuesta"
+      },
+      {
+       "ids": [
+        "habito_dirigido",
+        "compul"
+       ],
+       "t": "hábito y compulsión"
+      },
+      {
+       "ids": [
+        "dbs"
+       ],
+       "t": "estimulación cerebral profunda"
+      },
+      {
+       "ids": [
+        "toc_dsm"
+       ],
+       "t": "trastorno obsesivo-compulsivo"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La causalidad del circuito solo se ha probado en animales: la hiperactivación optogenética repetida de la vía corteza orbitofrontal-estriado ventromedial en ratones produjo un aumento progresivo y persistente del acicalamiento, revertido con fluoxetina crónica (Ahmari 2013), pero el acicalamiento es un indicador indirecto que no reproduce obsesiones ni la vivencia egodistónica. En humanos, el megaanálisis ENIGMA (1.830 pacientes y 1.759 controles) halló efectos pequeños: hipocampo menor (d −0,13) y pálido mayor (d 0,16) en adultos, más marcados en pacientes medicados, y tálamo mayor solo en población pediátrica no medicada (d 0,38) (Boedhoe 2017), lo que señala la medicación y el desarrollo como factores de confusión. El metaanálisis de conectividad en reposo (18 estudios, 541 pacientes) halló hipoconectividad en las redes frontoparietal y de saliencia y entre redes, más allá del bucle orbitofrontal-estriatal (Gürsel 2018). Los ensayos de TCC presentan problemas metodológicos que sus propios revisores señalan (Öst 2015). La mayoría de las muestras proceden de Europa, Norteamérica y Asia oriental [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "red_frontoparietal",
+        "red_saliencia"
+       ],
+       "t": "redes a gran escala"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, la heredabilidad moderada del TOC y su solapamiento con los tics y el síndrome de Tourette sitúan el circuito como un fenotipo intermedio, no como causa única. En el nivel neurobiológico coexisten dos modelos que Milad y Rauch (2012) proponen integrar: el de bucles corticoestriatales segregados con inhibición conductual deficiente y otro que incorpora la corteza orbitofrontal lateral y medial, el cíngulo anterior dorsal y los circuitos amigdalocorticales, con una extinción del miedo alterada; Gürsel (2018) añade el modelo de triple red y une ambos a través de las regiones frontoparietales. En el nivel psicológico, la controversia enfrenta el modelo de hábito (Gillan 2011) con los modelos cognitivos centrados en la responsabilidad y la duda. En el nivel social, el estigma y la trivialización del TOC retrasan la consulta. En el nivel fenomenológico, la descripción clásica de la duda obsesiva y de la vivencia del tiempo detenido (von Gebsattel) recuerda que la experiencia subjetiva de lo incompleto no se deduce del circuito.",
+     "links": [
+      {
+       "ids": [
+        "hered_toc",
+        "tourette"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "miedo_circ"
+       ],
+       "t": "extinción del miedo"
+      },
+      {
+       "ids": [
+        "vongebsatt",
+        "anancasmo",
+        "toc_r5b"
+       ],
+       "t": "fenomenología de la obsesión"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Öst LG et al. (2015). Cognitive behavioral treatments of obsessive-compulsive disorder. A systematic review and meta-analysis of studies published 1993-2014. Clin Psychol Rev 40:156-169 · PMID 26117062",
+    "Gillan CM et al. (2011). Disruption in the balance between goal-directed behavior and habit learning in obsessive-compulsive disorder. Am J Psychiatry 168:718-726 · PMID 21572165",
+    "Milad MR & Rauch SL (2012). Obsessive-compulsive disorder: beyond segregated cortico-striatal pathways. Trends Cogn Sci 16:43-51 · PMID 22138231",
+    "Ahmari SE et al. (2013). Repeated cortico-striatal stimulation generates persistent OCD-like behavior. Science 340:1234-1239 · PMID 23744948",
+    "Boedhoe PSW et al. (2017). Distinct subcortical volume alterations in pediatric and adult OCD: a worldwide meta- and mega-analysis. Am J Psychiatry 174:60-69 · PMID 27609241",
+    "Gürsel DA et al. (2018). Frontoparietal areas link impairments of large-scale intrinsic brain networks with aberrant fronto-striatal interactions in OCD: a meta-analysis of resting-state functional connectivity. Neurosci Biobehav Rev 87:151-160 · PMID 29410103"
+   ],
+   "relAdd": [
+    "epr",
+    "toc_dsm",
+    "miedo_circ",
+    "red_frontoparietal",
+    "red_saliencia",
+    "tourette",
+    "vongebsatt"
+   ]
+  },
+  "red_saliencia": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La red de saliencia no tiene aplicación diagnóstica, pero su estudio ha reforzado la perspectiva transdiagnóstica. En un metaanálisis de 193 estudios de morfometría (15.892 personas con esquizofrenia, trastorno bipolar, depresión, adicción, TOC o ansiedad), la pérdida de sustancia gris convergía en el cíngulo anterior dorsal y en ambas ínsulas, regiones que formaban una red interconectada en personas sanas y cuyo menor volumen se asociaba a peor función ejecutiva (Goodkind 2015). Un metaanálisis funcional posterior (283 experimentos; 5.493 pacientes y 5.728 controles) halló alteraciones comunes del control cognitivo en una red de «demanda múltiple» que conecta con la red cíngulo-insular (McTeague 2017). Estos hallazgos sostienen el interés por tratamientos transdiagnósticos y por las intervenciones sobre la interocepción, cuya evaluación y uso clínico requieren todavía consenso metodológico (Khalsa 2018); no justifican pruebas de imagen en la práctica asistencial ni una intervención dirigida a la red.",
+     "links": [
+      {
+       "ids": [
+        "prot_unif"
+       ],
+       "t": "tratamiento transdiagnóstico"
+      },
+      {
+       "ids": [
+        "interocepcion",
+        "exp_interocep"
+       ],
+       "t": "interocepción"
+      },
+      {
+       "ids": [
+        "func_ejec"
+       ],
+       "t": "función ejecutiva"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La fiabilidad de las medidas de conectividad es baja: en el metaanálisis de 25 estudios, la fiabilidad test-retest media de las conexiones individuales fue «pobre» (coeficiente de correlación intraclase 0,29) (Noble 2019), lo que limita cualquier uso individual. El metaanálisis transdiagnóstico excluyó los trastornos de inicio infantil y se basó en coordenadas de picos (Goodkind 2015), y la convergencia puede reflejar factores comunes no específicos, como la medicación, la cronicidad, el consumo de sustancias, el estrés crónico o la desventaja socioeconómica, más que un sustrato etiológico compartido [fuente no localizada]. Los estudios de neuroimagen proceden mayoritariamente de países de renta alta, con escasa diversidad de ascendencia y sin datos sobre identidad de género [fuente no localizada]. La propuesta de que la ínsula anterior sea un correlato neural de la conciencia (Craig 2009) es una hipótesis teórica, no un hecho establecido.",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "desig",
+        "stress"
+       ],
+       "t": "factores sociales de confusión"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico, la ínsula anterior re-representa la interocepción y se propone como base de los sentimientos subjetivos y de la conciencia del estado corporal (Craig 2009), lo que tiende un puente directo con el nivel fenomenológico: la vivencia del cuerpo propio, la despersonalización, el pánico y la anhedonia corporal pueden describirse en términos de interocepción alterada. La hoja de ruta de la interocepción en salud mental la vincula con los trastornos de ansiedad, del ánimo, de la conducta alimentaria, adictivos y de síntomas somáticos (Khalsa 2018). En el nivel psicológico, la red se relaciona con los modelos cognitivos de interpretación catastrófica de sensaciones corporales. En el nivel social, la vigilancia sostenida ante la amenaza propia del estrés crónico y de la discriminación es un candidato plausible para modular esta red, sin demostración directa [fuente no localizada]. Las controversias principales son la confusión con la saliencia aberrante dopaminérgica, ya señalada en la ficha, y la tensión entre las clasificaciones categoriales y el sustrato común transdiagnóstico (Goodkind 2015), que enlaza con los enfoques dimensionales como RDoC o HiTOP.",
+     "links": [
+      {
+       "ids": [
+        "leib_korper",
+        "desp"
+       ],
+       "t": "cuerpo vivido y despersonalización"
+      },
+      {
+       "ids": [
+        "mod_clark_panico"
+       ],
+       "t": "modelo cognitivo del pánico"
+      },
+      {
+       "ids": [
+        "rdoc",
+        "hitop_anx"
+       ],
+       "t": "enfoques dimensionales"
+      },
+      {
+       "ids": [
+        "hipervig"
+       ],
+       "t": "hipervigilancia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Goodkind M et al. (2015). Identification of a common neurobiological substrate for mental illness. JAMA Psychiatry 72:305-315 · PMID 25651064",
+    "McTeague LM et al. (2017). Identification of common neural circuit disruptions in cognitive control across psychiatric disorders. Am J Psychiatry 174:676-685 · PMID 28320224",
+    "Craig AD (2009). How do you feel--now? The anterior insula and human awareness. Nat Rev Neurosci 10:59-70 · PMID 19096369",
+    "Khalsa SS et al. (2018). Interoception and mental health: a roadmap. Biol Psychiatry Cogn Neurosci Neuroimaging 3:501-513 · PMID 29884281",
+    "Noble S, Scheinost D & Constable RT (2019). A decade of test-retest reliability of functional connectivity: a systematic review and meta-analysis. Neuroimage 203:116157 · PMID 31494250"
+   ],
+   "relAdd": [
+    "prot_unif",
+    "exp_interocep",
+    "leib_korper",
+    "rdoc",
+    "func_ejec",
+    "mod_clark_panico"
+   ]
+  },
+  "red_frontoparietal": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La aplicación más concreta de la conectividad de esta red es la selección de la diana de estimulación magnética transcraneal en la depresión. Con datos de reposo de 98 personas sanas, los puntos de la corteza prefrontal dorsolateral izquierda con mejor eficacia clínica publicada eran los más anticorrelacionados con el cíngulo subgenual, y el resultado se reprodujo en 13 pacientes con depresión (Fox 2012). Sobre esa base, la terapia de neuromodulación de Stanford, un protocolo acelerado de estimulación theta-burst intermitente con diana individualizada por conectividad, redujo la puntuación MADRS a las cuatro semanas un 52,5 % frente a un 11,1 % con estimulación simulada en el análisis intermedio de un ensayo doble ciego con 29 participantes con depresión resistente (Cole 2022). En el plano cognitivo, la alteración común de la red de «demanda múltiple» en distintos trastornos (McTeague 2017) apoya evaluar la función ejecutiva de forma sistemática, porque condiciona la adherencia y la recuperación funcional. Fuera de la investigación, la neuroimagen de esta red no tiene uso diagnóstico.",
+     "links": [
+      {
+       "ids": [
+        "emt",
+        "drt"
+       ],
+       "t": "estimulación magnética y depresión resistente"
+      },
+      {
+       "ids": [
+        "func_ejec",
+        "disejec"
+       ],
+       "t": "función ejecutiva"
+      },
+      {
+       "ids": [
+        "adher"
+       ],
+       "t": "adherencia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La diana por conectividad se derivó de forma retrospectiva a partir de la eficacia publicada de distintos puntos y de datos normativos de personas sanas, con validación en solo 13 pacientes (Fox 2012). El ensayo de la terapia de Stanford comunicó un análisis intermedio con 29 participantes (Cole 2022): el efecto es grande, pero la muestra es pequeña y la replicación independiente, la duración del efecto y la comparación con protocolos convencionales están por establecer. La fiabilidad test-retest de las conexiones individuales es baja (correlación intraclase media 0,29; Noble 2019), lo que dificulta la individualización. La idea de que el sistema de control frontoparietal actúe como un «sistema inmunitario de la mente» que regula los síntomas es una propuesta teórica de sus autores (Cole 2014), no un hecho demostrado. Las muestras de neuroimagen son mayoritariamente de países de renta alta y de ascendencia europea, y la desventaja socioeconómica, que se asocia al rendimiento ejecutivo, rara vez se controla [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "desig"
+       ],
+       "t": "desigualdad socioeconómica"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico, la red frontoparietal se define por centros flexibles que regulan sistemas distribuidos (visuales, límbicos, motores) según los objetivos; Cole (2014) propone que un control intacto protege frente a diversos trastornos al regular síntomas como la ansiedad excesiva mediante la amígdala, y describe alteraciones de su conectividad global en múltiples enfermedades mentales. En el nivel psicológico, esa función se corresponde con la regulación emocional, la reevaluación cognitiva y la flexibilidad, dianas de la TCC y de los tratamientos transdiagnósticos, y su fallo se relaciona con la rumiación en la depresión. En el nivel social, la adversidad temprana y la pobreza moldean el desarrollo de las funciones ejecutivas, lo que obliga a interpretar las diferencias de grupo como efecto del contexto y no como rasgo fijo [fuente no localizada]. En el nivel fenomenológico, la vivencia de esfuerzo, de bloqueo o de pérdida de iniciativa no se reduce a un déficit de control. La controversia teórica enfrenta la visión de un control descendente centralizado con la de una red que coordina de forma distribuida (Cole 2014; McTeague 2017).",
+     "links": [
+      {
+       "ids": [
+        "rum",
+        "ddm"
+       ],
+       "t": "rumiación y depresión"
+      },
+      {
+       "ids": [
+        "prot_unif"
+       ],
+       "t": "tratamiento transdiagnóstico"
+      },
+      {
+       "ids": [
+        "miedo_circ"
+       ],
+       "t": "regulación de la amígdala"
+      },
+      {
+       "ids": [
+        "stress",
+        "maltrato_inf"
+       ],
+       "t": "adversidad temprana"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Fox MD et al. (2012). Efficacy of transcranial magnetic stimulation targets for depression is related to intrinsic functional connectivity with the subgenual cingulate. Biol Psychiatry 72:595-603 · PMID 22658708",
+    "Cole EJ et al. (2022). Stanford Neuromodulation Therapy (SNT): a double-blind randomized controlled trial. Am J Psychiatry 179:132-141 · PMID 34711062",
+    "Cole MW, Repovš G & Anticevic A (2014). The frontoparietal control system: a central role in mental health. Neuroscientist 20:652-664 · PMID 24622818",
+    "McTeague LM et al. (2017). Identification of common neural circuit disruptions in cognitive control across psychiatric disorders. Am J Psychiatry 174:676-685 · PMID 28320224",
+    "Noble S, Scheinost D & Constable RT (2019). A decade of test-retest reliability of functional connectivity: a systematic review and meta-analysis. Neuroimage 203:116157 · PMID 31494250"
+   ],
+   "relAdd": [
+    "emt",
+    "drt",
+    "prot_unif",
+    "miedo_circ",
+    "adher"
+   ]
+  },
+  "conect_tea": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Los estudios multicéntricos han hecho más reproducibles los hallazgos, pero no los han convertido en herramienta clínica. El consorcio ABIDE reunió 1.112 estudios de RM funcional en reposo (539 personas autistas y 573 controles de 7 a 64 años) y, en un análisis de 360 varones autistas y 403 controles, detectó tanto hipo como hiperconectividad, con predominio de la hipoconectividad corticocortical e interhemisférica (Di Martino 2014). En cuatro grandes cohortes, Holiga encontró patrones reproducibles de hipoconectividad en regiones sensoriomotoras e hiperconectividad en cortezas prefrontales y parietales; sin embargo, la relación moderada con los síntomas y el amplio solapamiento con los controles impiden su uso diagnóstico o como medida de eficacia (Holiga 2019). En consecuencia, el diagnóstico sigue siendo clínico, con instrumentos validados, y conviene explicar a las personas autistas y a sus familias que no existe una «prueba cerebral» del autismo. El marco de la neurodiversidad orienta la atención hacia los apoyos, las fortalezas y el contexto, no solo hacia los déficits (Pellicano y den Houting 2022).",
+     "links": [
+      {
+       "ids": [
+        "aq_ados_adir",
+        "tea_adulto"
+       ],
+       "t": "diagnóstico clínico"
+      },
+      {
+       "ids": [
+        "sens_tea"
+       ],
+       "t": "sensorialidad"
+      },
+      {
+       "ids": [
+        "tea"
+       ],
+       "t": "trastorno del espectro autista"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El movimiento de la persona en el escáner genera correlaciones espurias pero sistemáticas: reduce muchas correlaciones a larga distancia y aumenta las de corta distancia, incluso tras las correcciones habituales (Power 2012), un patrón que reproduce exactamente la «sobreconectividad local con desconexión a larga distancia» y obliga a revisar los estudios que no lo controlaron. Las muestras están sesgadas por sexo: los análisis principales de ABIDE se limitaron a varones (Di Martino 2014), y la razón entre chicos y chicas en el autismo se acerca más a 3:1 que al 4:1 habitual, con un probable sesgo diagnóstico que deja sin diagnosticar a muchas chicas (Loomes 2017). Las personas con discapacidad intelectual, mínimamente verbales o que no toleran la resonancia están infrarrepresentadas, igual que la diversidad de ascendencia y de países [fuente no localizada]. Holiga (2019) no halló efecto de la edad, el sexo ni la medicación sobre su fenotipo, pero el solapamiento con controles sigue siendo amplio.",
+     "links": [
+      {
+       "ids": [
+        "tea_mujeres",
+        "tea_camuflaje"
+       ],
+       "t": "sesgo de sexo y camuflaje"
+      },
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, la alta heredabilidad del autismo y las variantes raras de gran efecto, como las CNV recurrentes, se proponen como origen de alteraciones del desarrollo sináptico y del equilibrio excitación-inhibición, de las que la conectividad sería un fenotipo intermedio, no una causa demostrada. En el nivel psicológico, la teoría se invoca para explicar la integración de información compleja, la cognición social y la sensorialidad atípica. En el nivel social, el camuflaje, el diagnóstico tardío en mujeres y el estigma condicionan la salud mental de las personas autistas con independencia de cualquier diferencia cerebral. En el nivel fenomenológico, los relatos en primera persona de sobrecarga sensorial y de percepción del detalle aportan datos que la neuroimagen no recoge. La controversia teórica de fondo enfrenta el paradigma médico centrado en el déficit con el de la neurodiversidad, que critica la sobrevaloración de los déficits, el foco en el individuo frente a su contexto y la estrechez de perspectiva, y propone una ciencia participativa (Pellicano y den Houting 2022).",
+     "links": [
+      {
+       "ids": [
+        "hered_tea",
+        "cnv_16p_1q"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "cogn_soc"
+       ],
+       "t": "cognición social"
+      },
+      {
+       "ids": [
+        "tea_camuflaje",
+        "tea_mujeres",
+        "estigma"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "tea_suicidio"
+       ],
+       "t": "salud mental de las personas autistas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Di Martino A et al. (2014). The autism brain imaging data exchange: towards a large-scale evaluation of the intrinsic brain architecture in autism. Mol Psychiatry 19:659-667 · PMID 23774715",
+    "Holiga Š et al. (2019). Patients with autism spectrum disorders display reproducible functional connectivity alterations. Sci Transl Med 11:eaat9223 · PMID 30814340",
+    "Power JD et al. (2012). Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. Neuroimage 59:2142-2154 · PMID 22019881",
+    "Loomes R, Hull L & Mandy WPL (2017). What is the male-to-female ratio in autism spectrum disorder? A systematic review and meta-analysis. J Am Acad Child Adolesc Psychiatry 56:466-474 · PMID 28545751",
+    "Pellicano E & den Houting J (2022). Annual Research Review: Shifting from 'normal science' to neurodiversity in autism science. J Child Psychol Psychiatry 63:381-396 · PMID 34730840"
+   ],
+   "relAdd": [
+    "tea_camuflaje",
+    "tea_mujeres",
+    "aq_ados_adir",
+    "cnv_16p_1q",
+    "tea_suicidio"
+   ]
+  },
+  "recompensa": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La anhedonia no es un constructo único: Treadway y Zald proponen distinguir el déficit de placer (consumatorio) del déficit de motivación y de toma de decisiones sobre recompensas («anhedonia decisional»), dado que la dopamina interviene sobre todo en los aspectos motivacionales (Treadway y Zald 2011). En la evaluación conviene, por tanto, explorar por separado el disfrute, la anticipación y la disposición a esforzarse. En el metaanálisis de 38 estudios de RM funcional y 12 de EEG, la depresión se asoció a menor activación estriatal ante la retroalimentación de recompensa y a una negatividad relacionada con la retroalimentación atenuada, más marcada en menores de 18 años; en estudios longitudinales, ambas alteraciones precedieron al inicio de la depresión en adolescentes (Keren 2018). Estos hallazgos refuerzan las intervenciones que trabajan la motivación y el contacto con experiencias gratificantes, como la activación conductual [fuente no localizada para su mecanismo], y la vigilancia del riesgo en adolescentes. En las adicciones y en el chemsex, la exploración debe incluir qué función cumple la sustancia (placer, desinhibición, alivio del malestar o de la soledad) sin juicio moral.",
+     "links": [
+      {
+       "ids": [
+        "anhed",
+        "apatia"
+       ],
+       "t": "anhedonia y apatía"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "depresión en la adolescencia"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La evidencia sobre el papel de la dopamina en la anhedonia ha sido contradictoria, en parte por una definición insuficiente que mezcla placer y motivación (Treadway y Zald 2011), y los modelos animales miden sobre todo conductas motivadas, que no equivalen a la vivencia humana de falta de placer. El metaanálisis de Keren reunió estudios con tareas y regiones de interés heterogéneas y algunos efectos solo aparecieron al incluir análisis por regiones de interés (Keren 2018); la menor activación estriatal es un hallazgo de grupo sin valor diagnóstico. La inferencia inversa (atribuir un estado mental a la activación de una región) es un riesgo constante en esta literatura [fuente no localizada]. El modelo de enfermedad cerebral de la adicción descansa sobre todo en estudios de neuroimagen y en modelos animales (Volkow 2016), y su interpretación es disputada (Lewis 2018). Las muestras proceden de forma mayoritaria de países de renta alta, con escasa información sobre ascendencia, orientación sexual o identidad de género [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "adiccion_3fases",
+        "neuroadapt_adicc"
+       ],
+       "t": "modelo neurobiológico de la adicción"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neurobiológico, el circuito se articula con los opioides endógenos, la habénula lateral y la sensibilización incentiva. En el nivel psicológico y social, el modelo del estrés de minorías explica el exceso de trastornos mentales en personas lesbianas, gais y bisexuales por un entorno hostil de estigma, prejuicio y discriminación, con procesos como las experiencias de prejuicio, la expectativa de rechazo, la ocultación y la homofobia interiorizada (Meyer 2003); Hatzenbuehler propone que ese estrés eleva la desregulación emocional, los problemas interpersonales y los procesos cognitivos de riesgo, que median su relación con la depresión, la ansiedad y el trastorno por consumo de alcohol (Hatzenbuehler 2009). Este marco permite comprender el uso sexualizado de drogas sin patologizar la orientación sexual: la búsqueda de recompensa se inscribe en un contexto social. En el nivel fenomenológico, la anhedonia se vive como pérdida de resonancia del mundo. La controversia teórica central enfrenta el modelo de enfermedad cerebral de la adicción (Volkow 2016) con la propuesta de que los cambios cerebrales reflejan aprendizaje y no enfermedad (Lewis 2018).",
+     "links": [
+      {
+       "ids": [
+        "opioide_endog",
+        "habenula_lat",
+        "incent_sensib"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "genero",
+        "estigma"
+       ],
+       "t": "estrés de minorías"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu",
+        "metanf"
+       ],
+       "t": "chemsex y uso sexualizado de drogas"
+      },
+      {
+       "ids": [
+        "sent_vitales"
+       ],
+       "t": "fenomenología de la anhedonia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Treadway MT & Zald DH (2011). Reconsidering anhedonia in depression: lessons from translational neuroscience. Neurosci Biobehav Rev 35:537-555 · PMID 20603146",
+    "Keren H et al. (2018). Reward processing in depression: a conceptual and meta-analytic review across fMRI and EEG studies. Am J Psychiatry 175:1111-1120 · PMID 29921146",
+    "Volkow ND, Koob GF & McLellan AT (2016). Neurobiologic advances from the brain disease model of addiction. N Engl J Med 374:363-371 · PMID 26816013",
+    "Lewis M (2018). Brain change in addiction as learning, not disease. N Engl J Med 379:1551-1560 · PMID 30332573",
+    "Meyer IH (2003). Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: conceptual issues and research evidence. Psychol Bull 129:674-697 · PMID 12956539",
+    "Hatzenbuehler ML (2009). How does sexual minority stigma \"get under the skin\"? A psychological mediation framework. Psychol Bull 135:707-730 · PMID 19702379"
+   ],
+   "relAdd": [
+    "chemsex_s",
+    "sdu",
+    "genero",
+    "estigma",
+    "dep_inf",
+    "metanf"
+   ]
+  },
+  "miedo_circ": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo de la extinción como aprendizaje inhibitorio ha cambiado la forma de aplicar la exposición: en lugar de buscar solo la habituación, Craske y colaboradores proponen violar expectativas, profundizar la extinción combinando estímulos, introducir refuerzos ocasionales, retirar las señales de seguridad, variar los estímulos y contextos, usar claves de recuperación y etiquetar el afecto (Craske 2014). Los intentos de potenciar farmacológicamente la extinción han tenido resultados modestos: en el metaanálisis con datos individuales de 21 ensayos (1.047 participantes con fobia, ansiedad social, pánico, TOC o TEPT), la D-cicloserina añadida a la TCC de exposición mostró un efecto pequeño al final del tratamiento (d −0,25), no significativo en el seguimiento (Mataix-Cols 2017). En un ensayo de 60 personas con TEPT de larga evolución, la reactivación del recuerdo traumático tras propranolol, según la teoría de la reconsolidación, redujo la CAPS 11,5 puntos más que con placebo, y sus autores piden replicación con seguimiento largo (Brunet 2018). La exposición sigue siendo el tratamiento de base; la reconsolidación es todavía experimental.",
+     "links": [
+      {
+       "ids": [
+        "epr",
+        "exp_interocep"
+       ],
+       "t": "terapias de exposición"
+      },
+      {
+       "ids": [
+        "propranolol"
+       ],
+       "t": "propranolol"
+      },
+      {
+       "ids": [
+        "ptsd",
+        "panic"
+       ],
+       "t": "TEPT y pánico"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El condicionamiento del miedo en humanos implica una red más amplia que el triángulo amígdala-hipocampo-prefrontal: el metaanálisis de 27 estudios de RM funcional (677 participantes) describió un patrón consistente que se asemeja a la red autonómico-interoceptiva central, con desactivaciones coordinadas que podrían corresponder al procesamiento de señales de seguridad (Fullana 2016). La investigación sobre condicionamiento del miedo afronta problemas de replicabilidad y una gran heterogeneidad de diseños, medidas y análisis, que catorce laboratorios europeos han intentado ordenar con recomendaciones comunes (Lonsdorf 2017). Los modelos animales estudian respuestas defensivas conductuales y fisiológicas, no el sentimiento consciente de miedo, y no distinguir ambos niveles ha dificultado la traslación terapéutica (LeDoux y Pine 2016). El ensayo con propranolol es pequeño y de un solo grupo investigador (Brunet 2018). Las muestras experimentales son sobre todo estudiantes universitarios de países de renta alta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "interocepcion",
+        "red_saliencia"
+       ],
+       "t": "red autonómico-interoceptiva"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "LeDoux y Pine proponen un marco de dos sistemas: los circuitos subcorticales que generan respuestas defensivas y los sistemas corticales que producen el sentimiento consciente de miedo o ansiedad, de modo que actuar sobre la amígdala no equivale a tratar la vivencia subjetiva (LeDoux y Pine 2016); esta distinción articula el nivel neurobiológico con el psicológico y el fenomenológico, donde la angustia tiene una dimensión existencial que no se agota en el condicionamiento. En el nivel psicológico, el modelo de Mowrer, los sesgos atencionales y los modelos cognitivos del pánico describen cómo la evitación mantiene el miedo. En el nivel social, el estrés de minorías incluye la expectativa de rechazo y la vigilancia ante el prejuicio (Meyer 2003): la hipervigilancia de una persona LGTBIQ o racializada puede ser una respuesta aprendida a amenazas reales, no un sesgo cognitivo patológico, y la intervención debe incluir la protección de derechos y no solo la extinción individual. En el nivel neuroendocrino, el eje hipotálamo-hipófisis-adrenal y el sistema endocannabinoide modulan la extinción. La controversia entre el modelo clásico del «circuito del miedo» y el de dos sistemas sigue abierta.",
+     "links": [
+      {
+       "ids": [
+        "anx_conduc",
+        "sesgo_atencional",
+        "mod_clark_panico"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "genero",
+        "racismo_sm",
+        "hipervig"
+       ],
+       "t": "estrés de minorías y vigilancia"
+      },
+      {
+       "ids": [
+        "anx_exist"
+       ],
+       "t": "angustia existencial"
+      },
+      {
+       "ids": [
+        "hha_tept",
+        "sist_endocannab"
+       ],
+       "t": "nivel neuroendocrino"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Craske MG et al. (2014). Maximizing exposure therapy: an inhibitory learning approach. Behav Res Ther 58:10-23 · PMID 24864005",
+    "Mataix-Cols D et al. (2017). D-cycloserine augmentation of exposure-based cognitive behavior therapy for anxiety, obsessive-compulsive, and posttraumatic stress disorders: a systematic review and meta-analysis of individual participant data. JAMA Psychiatry 74:501-510 · PMID 28122091",
+    "Brunet A et al. (2018). Reduction of PTSD symptoms with pre-reactivation propranolol therapy: a randomized controlled trial. Am J Psychiatry 175:427-433 · PMID 29325446",
+    "Fullana MA et al. (2016). Neural signatures of human fear conditioning: an updated and extended meta-analysis of fMRI studies. Mol Psychiatry 21:500-508 · PMID 26122585",
+    "Lonsdorf TB et al. (2017). Don't fear 'fear conditioning': methodological considerations for the design and analysis of studies on human fear acquisition, extinction, and return of fear. Neurosci Biobehav Rev 77:247-285 · PMID 28263758",
+    "LeDoux JE & Pine DS (2016). Using neuroscience to help understand fear and anxiety: a two-system framework. Am J Psychiatry 173:1083-1093 · PMID 27609244",
+    "Meyer IH (2003). Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: conceptual issues and research evidence. Psychol Bull 129:674-697 · PMID 12956539"
+   ],
+   "relAdd": [
+    "epr",
+    "exp_interocep",
+    "genero",
+    "racismo_sm",
+    "hipervig",
+    "interocepcion",
+    "red_saliencia",
+    "anx_exist",
+    "red_frontoparietal",
+    "toc_neuro"
+   ]
+  }
+ },
+ "add": []
+}

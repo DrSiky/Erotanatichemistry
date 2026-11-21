@@ -1,0 +1,1120 @@
+{
+ "patch": {
+  "pregabalina": {
+   "relAdd": [
+    "gabap_nomed"
+   ],
+   "featsAdd": [
+    "Uso no médico, combinación con opioides y abstinencia: véase el nodo de uso no médico de gabapentinoides"
+   ]
+  },
+  "pregab": {
+   "relAdd": [
+    "gabap_nomed"
+   ]
+  },
+  "opioides": {
+   "relAdd": [
+    "kratom",
+    "otc_abuso",
+    "gabap_nomed"
+   ],
+   "featsAdd": [
+    "Opioides de acceso fácil o atípicos (loperamida, codeína, kratom) y potenciación por gabapentinoides: véanse los nodos de abuso de fármacos de venta libre, kratom y uso no médico de gabapentinoides"
+   ]
+  },
+  "bzd_dep": {
+   "relAdd": [
+    "sedantes_tus",
+    "gabap_nomed"
+   ],
+   "featsAdd": [
+    "Criterios DSM-5-TR, especificadores y codificación CIE-11 (6C44.0-6C44.71): véase el nodo de trastorno por consumo de sedantes, hipnóticos o ansiolíticos"
+   ]
+  },
+  "ansiol_bzd": {
+   "relAdd": [
+    "sedantes_tus"
+   ]
+  },
+  "desprescr_bzd": {
+   "relAdd": [
+    "sedantes_tus"
+   ]
+  },
+  "bzd_mayor": {
+   "relAdd": [
+    "sedantes_tus"
+   ]
+  },
+  "neuroadapt_sed": {
+   "relAdd": [
+    "sedantes_tus"
+   ]
+  },
+  "alucinogenos": {
+   "relAdd": [
+    "ayahuasca"
+   ],
+   "featsAdd": [
+    "Ayahuasca (DMT con β-carbolinas inhibidoras de la MAO): riesgo propio de síndrome serotoninérgico con antidepresivos; véase su nodo"
+   ]
+  },
+  "psicodel_5ht2a": {
+   "relAdd": [
+    "ayahuasca"
+   ]
+  },
+  "sind_ser": {
+   "relAdd": [
+    "ayahuasca",
+    "otc_abuso"
+   ]
+  },
+  "maois": {
+   "relAdd": [
+    "ayahuasca",
+    "otc_abuso"
+   ]
+  },
+  "ketamina_rec": {
+   "relAdd": [
+    "otc_abuso"
+   ]
+  },
+  "anx_sust": {
+   "relAdd": [
+    "cafeina"
+   ],
+   "featsAdd": [
+    "La cafeína es una causa frecuente de ansiedad inducida (CIE-11 6C48.40) y desencadena crisis en la mitad de los pacientes con trastorno de pánico en estudios de provocación (Klevebrant 2022): véase el nodo de cafeína"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "cafeina"
+   ]
+  },
+  "cocaina": {
+   "relAdd": [
+    "cafeina"
+   ]
+  },
+  "tcs": {
+   "relAdd": [
+    "cafeina",
+    "kratom",
+    "gabap_nomed",
+    "otc_abuso",
+    "sedantes_tus",
+    "ayahuasca"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "cafeina",
+   "n": "Cafeína: intoxicación, abstinencia y trastornos inducidos",
+   "ab": "Cafeína",
+   "al": [
+    "caffeine",
+    "cafeinismo",
+    "bebidas energéticas",
+    "trastorno por consumo de cafeína",
+    "abstinencia de cafeína"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 2,
+   "trad": "dsm",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2013,
+   "tags": [
+    "risk",
+    "emerg"
+   ],
+   "cie": [
+    "6C48"
+   ],
+   "desc": "La cafeína es la sustancia psicoactiva más consumida del mundo (Clark 2017; Meredith 2013). Antagonista de los receptores de adenosina, en dosis bajas o moderadas es en general segura, pero produce cuadros clínicos reconocidos: intoxicación, abstinencia, trastorno de ansiedad inducido y trastorno del sueño inducido (DSM-5-TR). El DSM-5-TR sitúa el trastorno por consumo de cafeína en la sección III, entre las afecciones que requieren más estudio, mientras que la CIE-11 (6C48) incluye episodio de consumo nocivo, patrón de consumo nocivo, intoxicación, abstinencia y trastorno de ansiedad inducido, sin categoría de dependencia. Las bebidas energéticas y su mezcla con alcohol concentran buena parte del riesgo en adolescentes y adultos jóvenes (Seifert 2011; O'Brien 2008).",
+   "feats": [
+    "Abstinencia validada: de 49 categorías de síntomas, diez cumplieron criterios de validez (cefalea, fatiga, menor energía, menor alerta, somnolencia, menor satisfacción, ánimo deprimido, dificultad de concentración, irritabilidad y embotamiento); inicio a las 12-24 h, pico a las 20-51 h y duración de 2 a 9 días (Juliano 2004)",
+    "En los estudios experimentales de abstinencia, la cefalea apareció en el 50 % y el malestar o deterioro funcional clínicamente significativo en el 13 %; la gravedad aumentó con el consumo diario habitual (Juliano 2004)",
+    "Sueño: la cafeína alarga la latencia de sueño, reduce el tiempo total y la eficiencia, disminuye el sueño de ondas lentas y aumenta los despertares, con relación dosis-respuesta y horaria y mayor sensibilidad en personas mayores (revisión sistemática de Clark 2017)",
+    "Pánico: en el metaanálisis de provocación con cafeína, el 51,1 % de 237 pacientes con trastorno de pánico tuvo una crisis tras la cafeína y ninguno tras placebo, frente al 1,7 % de controles sanos (Klevebrant 2022)",
+    "CIE-11 6C48: episodio de consumo nocivo (6C48.0), patrón de consumo nocivo (6C48.1), intoxicación (6C48.2), abstinencia (6C48.3) y trastorno de ansiedad inducido por cafeína (6C48.40); la tabulación no contiene dependencia de cafeína ni trastorno del sueño inducido por cafeína (OMS, CIE-11 MMS)",
+    "Mezcla de alcohol y bebidas energéticas: en 4271 universitarios, quienes la consumían tuvieron más episodios de consumo intensivo y más consecuencias adversas (lesiones, conducir con alguien ebrio, abusos sexuales sufridos o cometidos), incluso ajustando por la cantidad de alcohol (O'Brien 2008)"
+   ],
+   "tx": "Intoxicación: retirar la fuente, medidas de soporte, ECG y monitorización si hay taquiarritmia, vómitos persistentes, convulsiones o ingesta masiva (comprimidos o polvo de cafeína), con valoración toxicológica urgente (Willson 2018). Abstinencia: información y reducción gradual del consumo para evitarla [fuente no localizada para la pauta concreta]. Ansiedad e insomnio: preguntar sistemáticamente por el consumo de café, té, refrescos, bebidas energéticas y fármacos con cafeína antes de diagnosticar un trastorno primario o prescribir ansiolíticos o hipnóticos; la reducción o supresión es la primera medida (Klevebrant 2022; Clark 2017). Bebidas energéticas: cribado en adolescentes y en personas con epilepsia, cardiopatía, diabetes o trastornos del ánimo (Seifert 2011) y desaconsejar su mezcla con alcohol.",
+   "note": "La mayor parte de la evidencia sobre abstinencia procede de estudios experimentales en adultos; la fiabilidad, validez y prevalencia del trastorno por consumo de cafeína no están establecidas y por ello el DSM-5-TR lo mantiene en la sección III (Meredith 2013). Los estudios de sueño se han hecho sobre todo en varones adultos occidentales (Clark 2017). En el metaanálisis de pánico solo se usaron cantidades altas de cafeína y no puede extrapolarse a consumos menores (Klevebrant 2022). Las muertes por cafeína en personas jóvenes con consumos no considerados tóxicos no están bien explicadas (Willson 2018).",
+   "sec": [
+    {
+     "t": "Criterios diagnósticos y posición nosológica",
+     "x": "El DSM-5-TR reconoce cuatro diagnósticos con criterios operativos en la sección II: intoxicación por cafeína (consumo reciente elevado y al menos cinco signos como inquietud, nerviosismo, excitación, insomnio, rubor facial, diuresis, molestias digestivas, sacudidas musculares, pensamiento o discurso inconexo, taquicardia o arritmia, periodos de infatigabilidad o agitación psicomotora), abstinencia de cafeína (tras el cese o la reducción de un consumo diario prolongado, tres o más de: cefalea, fatiga o somnolencia, ánimo disfórico o irritabilidad, dificultad de concentración y síntomas pseudogripales), trastorno de ansiedad inducido y trastorno del sueño inducido por cafeína [fuente no localizada para la enumeración literal; American Psychiatric Association 2022]. La inclusión de la abstinencia se apoyó en la revisión de Juliano y Griffiths, que pedía su incorporación al DSM y la revisión de los criterios de la CIE (Juliano 2004). El trastorno por consumo de cafeína figura solo en la sección III: los estudios clínicos muestran que algunas personas no logran reducir el consumo pese a conocer sus problemas, pero falta establecer fiabilidad, validez y prevalencia (Meredith 2013). La CIE-11 (6C48) codifica el consumo nocivo, la intoxicación, la abstinencia y el trastorno de ansiedad inducido, pero no la dependencia ni el trastorno del sueño inducido.",
+     "links": [
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "marco general de los trastornos por consumo"
+      },
+      {
+       "ids": [
+        "anx_sust"
+       ],
+       "t": "ansiedad inducida por sustancias"
+      },
+      {
+       "ids": [
+        "insom",
+        "insomnio_sx"
+       ],
+       "t": "insomnio"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "La cafeína es una causa frecuente y evitable de ansiedad e insomnio que se pasa por alto si no se pregunta de forma específica. En el trastorno de pánico, la provocación con cafeína desencadenó crisis en la mitad de los pacientes y apenas en controles sanos, y aumentó la ansiedad subjetiva más en pacientes que en controles (Klevebrant 2022): ante crisis de angustia o un cuadro compatible con trastorno de ansiedad generalizada, el consumo debe cuantificarse antes de diagnosticar un trastorno primario. En el insomnio, la cafeína prolonga la latencia y fragmenta el sueño de forma dependiente de la dosis y del horario (Clark 2017); en un ensayo, la tomada 6 h antes de acostarse redujo todavía de forma significativa el tiempo total de sueño (Drake 2013). La intoxicación debe diferenciarse de la causada por otros estimulantes (cocaína, anfetaminas, catinonas), del hipertiroidismo, del feocromocitoma, de la abstinencia de alcohol o sedantes y de los fármacos simpaticomiméticos; la abstinencia de cafeína puede confundirse con migraña, depresión, cuadro gripal o cefalea postoperatoria en ayunas [fuente no localizada para este último ejemplo].",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "tag"
+       ],
+       "t": "pánico y ansiedad generalizada"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "estimulantes"
+       ],
+       "t": "otros estimulantes"
+      },
+      {
+       "ids": [
+        "circ_sueno"
+       ],
+       "t": "ritmos de sueño-vigilia"
+      }
+     ]
+    },
+    {
+     "t": "Bebidas energéticas y mezcla con alcohol",
+     "x": "Según encuestas de autoinforme, entre el 30 % y el 50 % de adolescentes y adultos jóvenes consumen bebidas energéticas, que a menudo contienen cantidades altas de cafeína; se han descrito efectos adversos graves sobre todo en jóvenes con epilepsia, diabetes, alteraciones cardiacas o trastornos del ánimo o de la conducta y en quienes toman ciertos fármacos, y de las 5448 sobredosis de cafeína notificadas en Estados Unidos en 2007 el 46 % ocurrió en menores de 19 años (Seifert 2011). La mezcla con alcohol se ha asociado a un patrón de consumo más intensivo: en una muestra aleatoria de 4271 universitarios, quienes la tomaban tuvieron casi el doble de días de consumo intensivo y de embriaguez semanal y más consecuencias adversas, incluidas agresiones sexuales sufridas o cometidas, lesiones y conducir o viajar con una persona ebria, incluso tras ajustar por la cantidad de alcohol (O'Brien 2008). Que la cafeína atenúe la sensación subjetiva de embriaguez sin reducir el deterioro es una hipótesis plausible [fuente no localizada]. En contextos de ocio nocturno y de uso sexualizado de drogas conviene preguntar por estas mezclas.",
+     "links": [
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "trastorno por consumo de alcohol"
+      },
+      {
+       "ids": [
+        "ansi_adol"
+       ],
+       "t": "ansiedad en la adolescencia"
+      },
+      {
+       "ids": [
+        "sdu",
+        "red_danos"
+       ],
+       "t": "uso sexualizado de drogas y reducción de daños"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La toxicidad grave se asocia sobre todo a ingestas de varios gramos, típicamente con comprimidos o cafeína en polvo, y puede ser mortal; se han descrito además efectos graves y muertes en personas jóvenes con consumos que no se consideraban tóxicos, todavía mal explicados (Willson 2018). Exigen atención urgente (112) las palpitaciones con taquicardia o arritmia, el dolor torácico, los vómitos incoercibles, la agitación intensa, la confusión y las convulsiones. Es prudente considerar una ingesta intencionada de comprimidos o polvo de cafeína como potencial intento de suicidio y valorar el riesgo [fuente no localizada]. En el embarazo, en cardiopatías, en epilepsia y en la adolescencia la tolerancia es menor (Seifert 2011). La EFSA consideró que en adultos sanos los consumos habituales de hasta unos 400 mg al día no plantean problemas de seguridad, y en el embarazo y la lactancia hasta unos 200 mg al día (EFSA 2015) [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "evaluación del riesgo suicida"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "arritmias y fármacos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Juliano LM & Griffiths RR (2004). A critical review of caffeine withdrawal: empirical validation of symptoms and signs, incidence, severity, and associated features. Psychopharmacology (Berl) 176:1-29 · PMID 15448977",
+    "Meredith SE, Juliano LM, Hughes JR & Griffiths RR (2013). Caffeine use disorder: a comprehensive review and research agenda. J Caffeine Res 3:114-130 · PMID 24761279",
+    "Clark I & Landolt HP (2017). Coffee, caffeine, and sleep: a systematic review of epidemiological studies and randomized controlled trials. Sleep Med Rev 31:70-78 · PMID 26899133",
+    "Drake C et al. (2013). Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed. J Clin Sleep Med 9:1195-1200 · PMID 24235903",
+    "Klevebrant L & Frick A (2022). Effects of caffeine on anxiety and panic attacks in patients with panic disorder: a systematic review and meta-analysis. Gen Hosp Psychiatry 74:22-31 · PMID 34871964",
+    "Seifert SM et al. (2011). Health effects of energy drinks on children, adolescents, and young adults. Pediatrics 127:511-528 · PMID 21321035",
+    "O'Brien MC et al. (2008). Caffeinated cocktails: energy drink consumption, high-risk drinking, and alcohol-related consequences among college students. Acad Emerg Med 15:453-460 · PMID 18439201",
+    "Willson C (2018). The clinical toxicology of caffeine: a review and case study. Toxicol Rep 5:1140-1152 · PMID 30505695",
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C48 Trastornos debidos al consumo de cafeína",
+    "EFSA Panel on Dietetic Products, Nutrition and Allergies (2015). Scientific opinion on the safety of caffeine. EFSA Journal 13(5):4102 [no verificada]"
+   ],
+   "rel": [
+    "tcs",
+    "anx_sust",
+    "insom",
+    "insomnio_sx",
+    "panic",
+    "tag",
+    "alcohol",
+    "estimulantes",
+    "cocaina",
+    "circ_sueno",
+    "ansi_adol",
+    "sdu"
+   ]
+  },
+  {
+   "id": "kratom",
+   "n": "Kratom (Mitragyna speciosa): dependencia, abstinencia y toxicidad",
+   "ab": "Kratom",
+   "al": [
+    "Mitragyna speciosa",
+    "mitraginina",
+    "7-hidroximitraginina",
+    "ketum",
+    "kratom"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2014,
+   "tags": [
+    "emerg",
+    "risk"
+   ],
+   "desc": "Las hojas de Mitragyna speciosa, árbol del Sudeste Asiático, se han usado tradicionalmente contra la fatiga, el dolor, la diarrea y la abstinencia de opioides, y desde hace dos décadas se venden en Europa y Estados Unidos por internet y en tiendas (Prozialeck 2012). Sus alcaloides principales, mitraginina y 7-hidroximitraginina, son agonistas parciales del receptor opioide μ con acciones en otros receptores, lo que explica un perfil mixto estimulante y opioide (Kruegel 2018). El consumo regular produce dependencia, abstinencia de tipo opioide y craving (Singh 2014), y las exposiciones notificadas a centros toxicológicos incluyen desenlaces graves y muertes, sobre todo con otras sustancias (Post 2019). No figura en las listas de las convenciones internacionales de fiscalización y su régimen legal varía entre países.",
+   "feats": [
+    "Mitraginina y 7-hidroximitraginina: agonistas parciales μ y antagonistas competitivos κ y δ, con agonismo sesgado hacia la proteína G y acciones adrenérgicas, serotoninérgicas y dopaminérgicas poco caracterizadas (Kruegel 2018)",
+    "La mitraginina se transforma por CYP3A en 7-hidroximitraginina, agonista μ mucho más potente que explicaría la mayor parte de la analgesia mediada por receptores opioides en ratones (Kruegel 2019)",
+    "Dependencia: en 293 consumidores regulares de Malasia, más de la mitad presentaba dependencia grave y el 45 % moderada; tomar tres o más vasos al día se asoció a dependencia grave, abstinencia y craving incontrolable (Singh 2014)",
+    "Abstinencia: espasmos y dolores musculares, insomnio, lagrimeo y rinorrea, sofocos, fiebre, hiporexia y diarrea, con inquietud, tensión, ira, tristeza y nerviosismo (Singh 2014)",
+    "Centros toxicológicos de Estados Unidos (2011-2017): 1807 exposiciones; en las de kratom como sustancia principal, 31,8 % de ingresos y 51,9 % de desenlaces médicos graves; 11 muertes, dos con kratom solo; agitación (22,9 %) y taquicardia (21,4 %) como efectos más frecuentes; siete exposiciones neonatales, cinco con abstinencia (Post 2019)",
+    "Motivos de consumo en una encuesta en línea a 8049 usuarios de Estados Unidos: autotratamiento del dolor (68 %) y de problemas emocionales o mentales (66 %) y de la abstinencia de opioides de prescripción (Grundmann 2017; muestra captada a través de una asociación de consumidores)"
+   ],
+   "tx": "No hay ensayos clínicos ni guías específicas. La abstinencia y el trastorno por consumo se abordan como un trastorno por consumo de opioides: una revisión sistemática con serie de casos describe el tratamiento con buprenorfina-naloxona en 8 pacientes (Weiss 2021), evidencia de muy baja calidad. La naloxona es razonable ante depresión respiratoria por analogía con otros agonistas μ [fuente no localizada]. Valorar además los motivos del consumo (dolor crónico, ánimo, abstinencia de opioides) y ofrecer su tratamiento basado en la evidencia, intervenciones psicosociales y reducción de daños, con especial atención al policonsumo (Post 2019).",
+   "note": "La farmacología humana es poco conocida: buena parte procede de estudios in vitro y en animales (Kruegel 2018, 2019). Los datos de dependencia proceden de usuarios tradicionales de Malasia (Singh 2014) y los de uso occidental de encuestas autoseleccionadas (Grundmann 2017). La causalidad de las muertes es difícil de establecer porque casi siempre hay otras sustancias (Post 2019; Olsen 2019), y la variabilidad y posible adulteración de los productos comerciales limita cualquier extrapolación [fuente no localizada]. El régimen regulatorio cambia con rapidez y debe comprobarse en la fuente oficial vigente.",
+   "sec": [
+    {
+     "t": "Farmacología y efectos clínicos",
+     "x": "El kratom combina efectos estimulantes con dosis bajas y efectos opioides sedantes y analgésicos con dosis altas; esta descripción bifásica es clásica pero se apoya sobre todo en relatos y encuestas [fuente no localizada para la relación dosis-efecto en humanos]. La mitraginina, alcaloide mayoritario, y la 7-hidroximitraginina actúan como agonistas parciales del receptor μ y antagonistas κ y δ, con un sesgo de señalización hacia la proteína G que en modelos animales se ha relacionado con menos depresión respiratoria que los opioides clásicos, aunque esta ventaja no está demostrada en humanos (Kruegel 2018). En hígado humano y de ratón, CYP3A transforma la mitraginina en 7-hidroximitraginina, metabolito mucho más potente que explicaría la mayor parte del efecto analgésico opioide (Kruegel 2019); por ello, los inhibidores o inductores de CYP3A (entre ellos el ritonavir y el cobicistat) podrían modificar sus efectos [fuente no localizada para interacciones clínicas]. En la encuesta de Grundmann, los efectos negativos fueron sobre todo digestivos (náuseas, estreñimiento) y se concentraron en tomas altas y frecuentes (Grundmann 2017).",
+     "links": [
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "estimulantes"
+       ],
+       "t": "estimulantes"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales potenciados"
+      }
+     ]
+    },
+    {
+     "t": "Dependencia, abstinencia y diagnóstico",
+     "x": "El consumo regular produce tolerancia, dependencia física, abstinencia de tipo opioide y craving, más intensos con mayor frecuencia de consumo (Singh 2014). Una parte de quienes consumen kratom lo hace para autotratar la abstinencia de opioides o el dolor, y el propio kratom puede generar dependencia física y un trastorno por consumo de opioides (Weiss 2021; Grundmann 2017). El DSM-5-TR no tiene una categoría propia: el cuadro puede registrarse como trastorno por consumo de otra sustancia (o desconocida), y la CIE-11 dispone de la categoría 6C4E (trastornos debidos al consumo de otras sustancias psicoactivas especificadas, incluidos medicamentos) [fuente oficial no localizada para la asignación del kratom a estas categorías]. Los inmunoensayos habituales de opioides no detectan la mitraginina [fuente no localizada], por lo que la anamnesis dirigida es esencial, sobre todo en personas con dolor crónico, en tratamiento con agonistas opioides o con síntomas de abstinencia sin consumo declarado de opioides.",
+     "links": [
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "criterios generales de trastorno por consumo"
+      },
+      {
+       "ids": [
+        "cows"
+       ],
+       "t": "escala de abstinencia de opioides"
+      },
+      {
+       "ids": [
+        "dolor_cron_prim"
+       ],
+       "t": "dolor crónico"
+      }
+     ]
+    },
+    {
+     "t": "Toxicidad y señales de alarma",
+     "x": "En los centros toxicológicos de Estados Unidos se notificaron 1807 exposiciones entre 2011 y 2017, dos tercios en 2016-2017; la mayoría eran adultos, varones e intencionadas. Las exposiciones a varias sustancias se asociaron a más ingresos (OR 2,80) y más desenlaces graves (OR 2,25) que las de kratom solo, y hubo 11 muertes, dos con kratom como única sustancia (Post 2019). Entre los efectos del kratom solo predominaron la agitación o irritabilidad y la taquicardia (Post 2019). Los CDC han descrito muertes por sobredosis no intencional con kratom detectado, casi siempre junto a otras sustancias (Olsen 2019) [fuente no localizada: resumen no disponible para contrastar las cifras]. Se han descrito además convulsiones, hepatotoxicidad y psicosis [fuente no localizada]. Requieren atención urgente (112) la somnolencia profunda o la depresión respiratoria, las convulsiones, la agitación intensa, la ictericia y cualquier consumo combinado con opioides, benzodiacepinas, alcohol, gabapentinoides o GHB/GBL. La exposición durante el embarazo puede producir abstinencia neonatal (Post 2019).",
+     "links": [
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "ansiol_bzd"
+       ],
+       "t": "otros depresores del SNC"
+      },
+      {
+       "ids": [
+        "gabap_nomed"
+       ],
+       "t": "uso no médico de gabapentinoides"
+      }
+     ]
+    },
+    {
+     "t": "Situación regulatoria",
+     "x": "El kratom, la mitraginina y la 7-hidroximitraginina no figuran en las listas de la Convención Única de 1961 ni del Convenio de 1971 [fuente oficial no localizada para la comprobación en las listas vigentes]. El Comité de Expertos en Farmacodependencia de la OMS lo examinó en su 44.ª reunión (2021) y concluyó que la información disponible no justificaba una revisión crítica [fuente no localizada]. El régimen nacional es heterogéneo: en 2012 era ilegal en muchos países, mientras que en Estados Unidos no estaba fiscalizado y la DEA lo había incluido en su lista de sustancias de interés (Prozialeck 2012); la FDA ha emitido advertencias sobre su consumo [fuente no localizada]. No se ha localizado una disposición estatal española específica sobre el kratom ni una ficha técnica autorizada en CIMA [fuente oficial no localizada]; su venta como complemento o producto botánico no garantiza composición ni pureza. Estos datos deben comprobarse en la fuente oficial vigente antes de cualquier uso pericial.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "pericia psiquiátrica"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Prozialeck WC, Jivan JK & Andurkar SV (2012). Pharmacology of kratom: an emerging botanical agent with stimulant, analgesic and opioid-like effects. J Am Osteopath Assoc 112:792-799 · PMID 23212430",
+    "Kruegel AC & Grundmann O (2018). The medicinal chemistry and neuropharmacology of kratom: a preliminary discussion of a promising medicinal plant and analysis of its potential for abuse. Neuropharmacology 134:108-120 · PMID 28830758",
+    "Kruegel AC et al. (2019). 7-Hydroxymitragynine is an active metabolite of mitragynine and a key mediator of its analgesic effects. ACS Cent Sci 5:992-1001 · PMID 31263758",
+    "Singh D, Müller CP & Vicknasingam BK (2014). Kratom (Mitragyna speciosa) dependence, withdrawal symptoms and craving in regular users. Drug Alcohol Depend 139:132-137 · PMID 24698080",
+    "Grundmann O (2017). Patterns of kratom use and health impact in the US: results from an online survey. Drug Alcohol Depend 176:63-70 · PMID 28521200",
+    "Post S et al. (2019). Kratom exposures reported to United States poison control centers: 2011-2017. Clin Toxicol (Phila) 57:847-854 · PMID 30786220",
+    "Olsen EO et al. (2019). Notes from the field: unintentional drug overdose deaths with kratom detected — 27 states, July 2016-December 2017. MMWR Morb Mortal Wkly Rep 68:326-327 · PMID 30973850",
+    "Weiss ST & Douglas HE (2021). Treatment of kratom withdrawal and dependence with buprenorphine/naloxone: a case series and systematic literature review. J Addict Med 15:167-172 · PMID 32858563",
+    "OMS, Expert Committee on Drug Dependence (2021). Forty-fourth meeting: pre-review of kratom, mitragynine and 7-hydroxymitragynine. Ginebra: OMS [no verificada]",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C4E Trastornos debidos al consumo de otras sustancias psicoactivas especificadas, incluidos medicamentos"
+   ],
+   "rel": [
+    "opioides",
+    "tcs",
+    "naloxona",
+    "buprenorfina",
+    "cows",
+    "dolor_cron_prim",
+    "estimulantes",
+    "chemsex_arv",
+    "red_danos",
+    "ghb_gbl"
+   ]
+  },
+  {
+   "id": "gabap_nomed",
+   "n": "Uso no médico de gabapentinoides (pregabalina y gabapentina)",
+   "ab": "Gabapentinoides (UNM)",
+   "al": [
+    "abuso de pregabalina",
+    "abuso de gabapentina",
+    "gabapentinoid misuse",
+    "lyrica no médica",
+    "pregabalina y opioides"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2017,
+   "tags": [
+    "risk",
+    "chemsex",
+    "emerg"
+   ],
+   "desc": "La pregabalina y la gabapentina, ligandos α2δ de prescripción frecuente, se consumen también fuera de indicación médica, sobre todo por personas con trastornos por consumo de opioides u otras sustancias (Bonnet 2017; Evoy 2017). Su capacidad adictiva propia es limitada, con la pregabalina algo más adictiva que la gabapentina, pero combinadas con opioides y otros depresores aumentan la depresión respiratoria y el riesgo de muerte (Gomes 2017; Lyndon 2017). Las fichas técnicas autorizadas en España advierten de dependencia incluso a dosis terapéuticas, abuso, uso incorrecto, depresión respiratoria grave y síntomas de abstinencia tras la suspensión (fichas técnicas de Neurontin y Lyrica, AEMPS-CIMA). Este nodo trata el uso no médico; la farmacología y el uso terapéutico se describen en las fichas de pregabalina y de alternativas no benzodiacepínicas.",
+   "feats": [
+    "Revisión sistemática de 106 estudios: sin evidencia convincente de un poder adictivo vigoroso; población de riesgo, personas con trastornos por consumo actuales o pasados, sobre todo de opioides y policonsumo, que prefieren la pregabalina; las sobredosis puras parecen relativamente seguras, pero pueden ser letales mezcladas con opioides y sedantes (Bonnet 2017)",
+    "Gabapentina y opioides (Ontario, 1256 casos y 4619 controles): la coprescripción se asoció a más muerte relacionada con opioides (OR ajustada 1,49; IC 95 % 1,18-1,88), con un aumento cercano al 60 % con dosis moderadas y altas de gabapentina (Gomes 2017)",
+    "Inglaterra y Gales: las muertes con gabapentinoides pasaron de menos de una al año antes de 2009 a 137 en 2015, el 79 % con opioides, en paralelo al aumento de prescripciones; quienes consumían heroína describieron que la pregabalina potenciaba la heroína y temían «lagunas» y sobredosis (Lyndon 2017)",
+    "Ficha técnica de Neurontin (AEMPS-CIMA, 4.4): la gabapentina puede provocar dependencia incluso a dosis terapéuticas; antes de prescribirla debe evaluarse el riesgo de uso incorrecto, abuso o dependencia y vigilar tolerancia, aumento de dosis y búsqueda compulsiva",
+    "Abstinencia de gabapentina (ficha técnica de Neurontin, 4.4): suele aparecer en las primeras 48 h tras suspender o reducir; ansiedad, insomnio, náuseas, dolores, sudoración, temblor, cefalea, depresión, sensación anormal, mareo y malestar; puede indicar dependencia",
+    "Interacción con opioides (ficha técnica de Neurontin, 4.5): notificaciones de depresión respiratoria, sedación y muerte con depresores del SNC, sobre todo en personas frágiles o mayores, con enfermedad respiratoria grave, polimedicadas o con trastornos por consumo; la morfina aumentó el AUC de la gabapentina un 44 % en voluntarios sanos"
+   ],
+   "tx": "Prevención: antes de prescribir, evaluar antecedentes de trastornos por consumo, consumo actual de opioides, benzodiacepinas, alcohol o GHB/GBL y riesgo respiratorio, como exigen las fichas técnicas (Neurontin y Lyrica, 4.4); en personas con antecedentes de trastorno por consumo, evitar los gabapentinoides o, si son imprescindibles, usarlos con monitorización estricta de la prescripción (Bonnet 2017). Uso no médico establecido: entrevista sin juicio, información sobre el riesgo de la combinación con opioides, naloxona en el entorno de quien consume opioides, tratamiento del trastorno por consumo de opioides subyacente y retirada gradual supervisada, nunca brusca, por la abstinencia y el riesgo convulsivo [fuente no localizada para la pauta de retirada]. No hay fármacos con eficacia demostrada para el trastorno por consumo de gabapentinoides [fuente no localizada].",
+   "note": "La evidencia procede de farmacovigilancia, estudios de casos y controles y series; no hay ensayos sobre el tratamiento del uso no médico. Las asociaciones observacionales con la muerte relacionada con opioides pueden estar influidas por confusión no medida (Gomes 2017). La revisión de Bonnet 2017 no encontró publicaciones sobre personas que buscaran tratamiento por consumo de gabapentinoides, lo que puede reflejar infradiagnóstico más que ausencia del problema. Las revisiones difieren en el énfasis: Schjerning 2016 concluye que la pregabalina tiene un potencial de abuso clínico importante, sobre todo con antecedentes de consumo, mientras que Bonnet 2017 no halla evidencia convincente de un poder adictivo vigoroso. La situación de control varía: en el Reino Unido son sustancias controladas desde 2019 (NICE CG113, véase la ficha de pregabalina, buspirona e hidroxicina); en España no se ha localizado una medida de fiscalización equivalente [fuente oficial no localizada].",
+   "sec": [
+    {
+     "t": "Patrones de uso no médico y población de riesgo",
+     "x": "El uso no médico se concentra en personas con trastornos por consumo de opioides o policonsumo, que describen la pregabalina como fácil de obtener y como potenciadora de la heroína (Lyndon 2017). La revisión sistemática de Bonnet y Scherbaum halló solo cuatro casos con síntomas conductuales de dependencia (CIE-10) en personas sin antecedentes de abuso, y concluyó que la pregabalina es algo más adictiva que la gabapentina por la magnitud de los síntomas, el paso de la prescripción a la autoadministración y su duración (Bonnet 2017). Los motivos descritos incluyen potenciar los opioides, aliviar la abstinencia de opioides o de alcohol y buscar euforia o sedación [fuente no localizada para la frecuencia relativa]. En el chemsex, la pregabalina puede sumarse a otros depresores como el GHB/GBL, con potenciación de la depresión del SNC por extrapolación (véase la ficha de pregabalina). Señales de sospecha: escalada de dosis, solicitud anticipada de recetas, obtención en varios dispositivos o fuera del circuito sanitario y consumo junto a opioides, benzodiacepinas o alcohol (fichas técnicas de Neurontin y Lyrica, 4.4).",
+     "links": [
+      {
+       "ids": [
+        "pregabalina",
+        "pregab"
+       ],
+       "t": "fichas de pregabalina"
+      },
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "ghb_gbl"
+       ],
+       "t": "chemsex y GHB/GBL"
+      }
+     ]
+    },
+    {
+     "t": "Combinación con opioides y depresión respiratoria",
+     "x": "La interacción farmacodinámica con los opioides es el principal riesgo vital. En una cohorte poblacional de Ontario, la gabapentina concomitante se asoció a un aumento de la muerte relacionada con opioides (OR ajustada 1,49), sin asociación para los AINE usados como control (Gomes 2017); para la pregabalina, la ficha técnica de Lyrica recoge una OR ajustada de 1,68 en un estudio observacional (véase la ficha de pregabalina, buspirona e hidroxicina). En ratones, una dosis baja de pregabalina que por sí sola no deprimía la respiración revirtió la tolerancia a la depresión respiratoria por morfina, y una dosis alta la sumó a la de la morfina: la combinación podría aumentar el riesgo de sobredosis tanto por pérdida de tolerancia como por efecto aditivo (Lyndon 2017). La ficha técnica de Neurontin (4.4) advierte de depresión respiratoria grave con función respiratoria comprometida, enfermedad respiratoria o neurológica, insuficiencia renal, uso de depresores del SNC y edad avanzada, y en 4.5 describe un aumento del 44 % del AUC de gabapentina con morfina.",
+     "links": [
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      },
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "tratamiento con agonistas opioides"
+      },
+      {
+       "ids": [
+        "ansiol_bzd"
+       ],
+       "t": "benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Abstinencia, dependencia y retirada",
+     "x": "Tras suspender o reducir la gabapentina pueden aparecer síntomas de abstinencia, habitualmente en las primeras 48 h, como ansiedad, insomnio, náuseas, dolores, sudoración, temblor, cefalea, depresión y mareo (ficha técnica de Neurontin, 4.4); la ficha técnica de Lyrica recoge para la pregabalina insomnio, cefalea, náuseas, ansiedad, sudoración, convulsiones y diarrea (véase la ficha de pregabalina). La presencia de abstinencia no equivale a trastorno por consumo: el DSM-5-TR no computa tolerancia ni abstinencia cuando el fármaco se usa bajo supervisión médica adecuada, y el diagnóstico exige un patrón de pérdida de control, craving o consumo pese al daño. En el DSM-5-TR el cuadro puede registrarse como trastorno por consumo de otra sustancia, y en la CIE-11 en la categoría 6C4E [fuente oficial no localizada para la asignación de los gabapentinoides a estas categorías]. La retirada debe ser gradual y planificada con la persona, coordinada con el tratamiento del trastorno por consumo de opioides si lo hay [fuente no localizada para la pauta].",
+     "links": [
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "criterios de trastorno por consumo"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "sedantes_tus"
+       ],
+       "t": "dependencia de sedantes"
+      },
+      {
+       "ids": [
+        "desprescr_bzd"
+       ],
+       "t": "principios de retirada gradual"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Bonnet U & Scherbaum N (2017). How addictive are gabapentin and pregabalin? A systematic review. Eur Neuropsychopharmacol 27:1185-1215 · PMID 28988943",
+    "Evoy KE, Morrison MD & Saklad SR (2017). Abuse and misuse of pregabalin and gabapentin. Drugs 77:403-426 · PMID 28144823",
+    "Gomes T et al. (2017). Gabapentin, opioids, and the risk of opioid-related death: a population-based nested case-control study. PLoS Med 14:e1002396 · PMID 28972983",
+    "Gomes T et al. (2018). Pregabalin and the risk for opioid-related death: a nested case-control study. Ann Intern Med 169:732-734 · PMID 30140853",
+    "Lyndon A et al. (2017). Risk to heroin users of polydrug use of pregabalin or gabapentin. Addiction 112:1580-1589 · PMID 28493329",
+    "Schjerning O et al. (2016). Abuse potential of pregabalin: a systematic review. CNS Drugs 30:9-25 · PMID 26767525",
+    "AEMPS-CIMA (2026). Ficha técnica de Neurontin 300 mg cápsulas duras (gabapentina) (nº de registro 60621), apartados 4.4 y 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Lyrica 50 mg cápsulas duras (pregabalina) (nº de registro 104279009), apartados 4.1, 4.2 y 4.4-4.6; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "pregabalina",
+    "pregab",
+    "opioides",
+    "bzd_dep",
+    "ghb_gbl",
+    "chemsex_s",
+    "naloxona",
+    "metadona",
+    "dolor_cron_prim",
+    "tcs",
+    "desprescr_bzd"
+   ]
+  },
+  {
+   "id": "otc_abuso",
+   "n": "Abuso de fármacos de venta libre o de uso común (dextrometorfano, loperamida, codeína, antihistamínicos, tropicamida)",
+   "ab": "Abuso de fármacos OTC",
+   "al": [
+    "over-the-counter misuse",
+    "dextrometorfano recreativo",
+    "DXM",
+    "loperamida y opioides",
+    "abuso de difenhidramina",
+    "tropicamida intravenosa",
+    "codeína"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2017,
+   "tags": [
+    "risk",
+    "emerg",
+    "child"
+   ],
+   "desc": "Varios medicamentos de venta sin receta o de prescripción habitual se consumen con fines no médicos por sus efectos psicoactivos o para aliviar la abstinencia de opioides: el antitusivo dextrometorfano (efectos disociativos y psicosis a dosis altas), el antidiarreico loperamida (agonista μ, con cardiotoxicidad grave en sobredosis), la codeína, los antihistamínicos sedantes como la difenhidramina y el dimenhidrinato (efectos anticolinérgicos) y el colirio de tropicamida inyectado. Las fichas técnicas autorizadas en España recogen advertencias específicas de abuso y toxicidad. Las presentaciones son baratas, accesibles y en general no se detectan en los cribados de orina habituales, por lo que el problema se infradiagnostica (Martinak 2017). En España, la codeína y la tropicamida requieren prescripción médica, mientras que el dextrometorfano, la loperamida y la difenhidramina o el dimenhidrinato tienen presentaciones sin receta (CIMA).",
+   "feats": [
+    "Dextrometorfano: la ficha técnica (Cinfatós antitusivo, 4.4) lo califica de potencialmente adictivo, advierte de consumo excesivo y dependencia, pide precaución en adolescentes, adultos jóvenes y antecedentes de abuso, y advierte de síndrome serotoninérgico potencialmente mortal con ISRS, IMAO e inhibidores de CYP2D6",
+    "Dextrometorfano en dosis muy altas: psicosis con síntomas similares a la fenciclidina (delirios, alucinaciones, paranoia); no se detecta en los cribados de orina estándar (Martinak 2017, caso clínico); en California los casos notificados de abuso se multiplicaron por diez entre 1999 y 2004, con un 74,5 % entre los 9 y los 17 años (Bryner 2006)",
+    "Loperamida: la ficha técnica (Fortasec, 4.4 y 4.9) describe prolongación de QT y QRS, torsade de pointes, otras arritmias ventriculares graves, parada cardiaca, síncope y muertes en sobredosis, posible desenmascaramiento de un síndrome de Brugada y abuso como sustituto de opioides",
+    "Loperamida en Estados Unidos: aumento del 91 % de las exposiciones intencionadas notificadas a centros toxicológicos entre 2010 y 2015, con 15 muertes, 8 con loperamida sola (Vakkalanka 2017)",
+    "Dimenhidrinato (sal de difenhidramina): la ficha técnica (Cinfamar, 4.4 y 4.9) advierte de abuso, sobre todo en adolescentes y adultos jóvenes, y describe en la sobredosis un cuadro atropínico con alucinaciones, convulsiones, coma y psicosis",
+    "Tropicamida: uso intravenoso del colirio, sobre todo en Europa del Este y en personas con dependencia de opioides, que refieren que potencia la heroína y atenúa la abstinencia (Bellman 2022; Bozkurt 2015; Spagnolo 2013)"
+   ],
+   "tx": "Detección: preguntar de forma explícita por medicamentos sin receta, antitusivos, antidiarreicos, antihistamínicos y colirios en toda historia toxicológica, en adolescentes y en personas con trastorno por consumo de opioides (Thomas 2009). Intoxicación: soporte y valoración urgente; con loperamida, monitorización con ECG del QT y vigilancia prolongada por la duración de acción superior a la de la naloxona (ficha técnica de Fortasec, 4.9); con dextrometorfano, valorar síndrome serotoninérgico y psicosis (ficha técnica de Cinfatós antitusivo, 4.9); con antihistamínicos, síndrome anticolinérgico y convulsiones (ficha técnica de Cinfamar, 4.9). Trastorno de base: cuando el uso busca aliviar la abstinencia de opioides, ofrecer tratamiento con agonistas opioides y abordaje del trastorno por consumo de opioides; retirada gradual en los casos de dependencia de antihistamínicos (Thomas 2009, caso clínico).",
+   "note": "La evidencia procede casi por completo de casos, series y datos de centros toxicológicos, sobre todo de Estados Unidos y Europa del Este; la prevalencia en España no se ha localizado [fuente no localizada]. Las fichas técnicas citadas son de presentaciones concretas; otras presentaciones del mismo principio activo pueden diferir en la redacción. El abuso de tropicamida se documenta sobre todo en revisiones narrativas y casos clínicos (Bellman 2022).",
+   "sec": [
+    {
+     "t": "Dextrometorfano: efectos disociativos, psicosis y síndrome serotoninérgico",
+     "x": "El dextrometorfano, antitusivo presente en numerosas presentaciones sin receta, produce a dosis muy superiores a las terapéuticas un estado disociativo y psicosis con delirios, alucinaciones y paranoia semejantes a los de la fenciclidina (Martinak 2017); su perfil se superpone al de la ketamina y otros disociativos, cuya ficha trata lo común [fuente no localizada para el mecanismo NMDA en estas fuentes]. Es más frecuente en adolescentes: en los centros toxicológicos de California los casos se multiplicaron por diez entre 1999 y 2004, con máxima frecuencia a los 15 y 16 años (Bryner 2006). La sobredosis cursa con náuseas, vómitos, distonía, agitación, confusión, nistagmo, ataxia, taquicardia, prolongación del QTc, psicosis tóxica con alucinaciones visuales y, en las masivas, coma, depresión respiratoria y convulsiones (ficha técnica de Cinfatós antitusivo, 4.9). Se metaboliza por CYP2D6, con efectos aumentados en metabolizadores lentos (alrededor del 10 % de la población) y con inhibidores de CYP2D6, y no debe asociarse a IMAO, ISRS ni bupropión por el riesgo de síndrome serotoninérgico (ficha técnica, 4.4 y 4.5). Algunas presentaciones combinadas contienen además antihistamínicos o paracetamol, con toxicidad añadida [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec"
+       ],
+       "t": "ketamina y disociativos"
+      },
+      {
+       "ids": [
+        "sind_ser",
+        "maois",
+        "isrs"
+       ],
+       "t": "síndrome serotoninérgico, IMAO e ISRS"
+      },
+      {
+       "ids": [
+        "cyp2d6"
+       ],
+       "t": "farmacogenética de CYP2D6"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida"
+      }
+     ]
+    },
+    {
+     "t": "Loperamida y codeína: opioides de acceso fácil",
+     "x": "La loperamida es un agonista μ cuyos efectos centrales no aparecen a dosis terapéuticas por su baja biodisponibilidad y escasa penetración en el SNC, pero sí con ingestas muy superiores; se usa para autotratar la abstinencia o como sustituto de opioides, y se han descrito arritmias ventriculares, ensanchamiento del QRS, prolongación del QTc y muertes (Eggleston 2017). La ficha técnica de Fortasec recoge cardiotoxicidad grave y mortal en sobredosis, depresión del SNC con miosis y depresión respiratoria, abstinencia tras el cese en quienes la usan en exceso y la necesidad de monitorizar con ECG el QT; como su acción dura más que la de la naloxona, puede requerirse naloxona repetida y vigilancia durante al menos 48 h (4.4 y 4.9). La codeína se transforma por CYP2D6 en morfina; los metabolizadores ultrarrápidos tienen más riesgo de toxicidad y los menores de 12 años más riesgo de reacciones graves, y su uso repetido puede producir tolerancia, dependencia y trastorno por consumo de opioides (ficha técnica de Codeisan, 4.4). En España, las 26 presentaciones con codeína comercializadas en CIMA requieren prescripción médica, mientras que las 21 de loperamida se dispensan sin receta (AEMPS-CIMA, consulta de noviembre de 2026).",
+     "links": [
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "prolongación del QT"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab"
+       ],
+       "t": "fenotipos metabolizadores"
+      }
+     ]
+    },
+    {
+     "t": "Antihistamínicos sedantes y tropicamida: abuso anticolinérgico",
+     "x": "La difenhidramina, antihistamínico con acción antimuscarínica usado como hipnótico sin receta, tiene potencial de abuso: en la revisión de Thomas y colaboradores, todos los casos publicados cumplían criterios DSM-IV de dependencia, con un vínculo aparente con el tratamiento antipsicótico, y una paciente toleró una retirada gradual sin recaída a los seis meses (Thomas 2009). La ficha técnica del dimenhidrinato (Cinfamar) advierte de abuso en adolescentes y adultos jóvenes y pide evaluar el riesgo en personas con trastornos psicóticos o antecedentes de abuso; la sobredosis produce un cuadro atropínico con midriasis, rubor, excitación, alucinaciones, confusión, ataxia, convulsiones, coma y psicosis (4.4 y 4.9). La tropicamida, colirio antimuscarínico, se inyecta por vía intravenosa, sobre todo en Europa del Este, como alternativa barata o complemento de la heroína (Bellman 2022); en casos publicados se refiere que potencia la heroína y retrasa la abstinencia (Bozkurt 2015; Spagnolo 2013). Su ficha técnica española advierte de reacciones psicóticas y trastornos de conducta en personas sensibles a anticolinérgicos (Colirofta tropicamida, 4.4). El abuso de anticolinérgicos antiparkinsonianos en pacientes con psicosis comparte este perfil [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "biperideno"
+       ],
+       "t": "anticolinérgicos antiparkinsonianos"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium anticolinérgico"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica"
+      },
+      {
+       "ids": [
+        "slam"
+       ],
+       "t": "consumo inyectado"
+      }
+     ]
+    },
+    {
+     "t": "Evaluación y señales de alarma",
+     "x": "El DSM-5-TR permite registrar estos cuadros como trastornos por consumo de opioides (loperamida, codeína) o de otra sustancia (dextrometorfano, antihistamínicos, tropicamida), y la CIE-11 incluye la categoría 6C4E de otras sustancias psicoactivas especificadas, incluidos medicamentos; la tabulación de la CIE-11 dispone de códigos de extensión de sustancia para dextrometorfano (XM9UV0) y loperamida (XM86N4) (OMS, CIE-11 MMS) [fuente oficial no localizada para la asignación diagnóstica concreta de cada fármaco]. La anamnesis debe incluir compras repetidas en varias farmacias, envases vacíos, consumo en adolescentes y en personas con trastornos psicóticos o con dependencia de opioides (Thomas 2009). Exigen atención urgente (112): síncope, palpitaciones o arritmia y QT prolongado (loperamida, dextrometorfano); sedación con miosis y depresión respiratoria (loperamida, codeína); fiebre, rigidez, clonus y agitación (dextrometorfano con serotoninérgicos); confusión con midriasis, piel seca y caliente, retención urinaria o convulsiones (antihistamínicos, tropicamida); y psicosis aguda. El riesgo suicida debe valorarse ante toda sobredosis intencionada.",
+     "links": [
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "marco de los trastornos por consumo"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "eop"
+       ],
+       "t": "psicosis de inicio temprano"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Martinak B et al. (2017). Dextromethorphan in cough syrup: the poor man's psychosis. Psychopharmacol Bull 47:59-63 · PMID 28936010",
+    "Bryner JK et al. (2006). Dextromethorphan abuse in adolescence: an increasing trend: 1999-2004. Arch Pediatr Adolesc Med 160:1217-1222 · PMID 17146018",
+    "Eggleston W, Clark KH & Marraffa JM (2017). Loperamide abuse associated with cardiac dysrhythmia and death. Ann Emerg Med 69:83-86 · PMID 27140747",
+    "Vakkalanka JP, Charlton NP & Holstege CP (2017). Epidemiologic trends in loperamide abuse and misuse. Ann Emerg Med 69:73-78 · PMID 27823872",
+    "Thomas A et al. (2009). Diphenhydramine abuse and detoxification: a brief review and case report. J Psychopharmacol 23:101-105 · PMID 18308811",
+    "Bellman V et al. (2022). Abuse of tropicamide eye drops: review of clinical data. Braz J Psychiatry 44:522-531 · PMID 35739063",
+    "Bozkurt M et al. (2015). Intravenous abuse of tropicamide in opioid use disorder: presentation of 2 cases. Subst Abus 36:170-173 · PMID 24892477",
+    "Spagnolo PA, Badiani A & Nencini P (2013). Polydrug abuse by intravenous use of heroin and tropicamide-containing eyedrops. Clin Neuropharmacol 36:100-101 · PMID 23673915",
+    "AEMPS-CIMA (2026). Ficha técnica de Cinfatós antitusivo 2 mg/ml solución oral (dextrometorfano) (nº de registro 57623), apartados 4.4, 4.5 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Fortasec 2 mg cápsulas duras (loperamida) (nº de registro 56523), apartados 4.4 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Codeisan 28,7 mg comprimidos (codeína) (nº de registro 1778), apartado 4.4; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Cinfamar 50 mg comprimidos recubiertos (dimenhidrinato) (nº de registro 60839), apartados 4.4 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Colirofta tropicamida 10 mg/ml colirio en solución (nº de registro 57050), apartado 4.4; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "opioides",
+    "ketamina_rec",
+    "sind_ser",
+    "maois",
+    "isrs",
+    "cyp2d6",
+    "qt_psicof",
+    "naloxona",
+    "biperideno",
+    "delirium",
+    "psust",
+    "tcs",
+    "polifarm"
+   ]
+  },
+  {
+   "id": "sedantes_tus",
+   "n": "Trastorno por consumo de sedantes, hipnóticos o ansiolíticos: criterios DSM-5-TR y CIE-11",
+   "ab": "TC sedantes/hipnóticos",
+   "al": [
+    "sedative, hypnotic, or anxiolytic use disorder",
+    "dependencia de benzodiacepinas",
+    "abuso de fármacos Z",
+    "barbitúricos",
+    "6C44"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 1,
+   "trad": "dsm",
+   "cs": "h",
+   "ev": "crit",
+   "y": 2013,
+   "tags": [
+    "risk",
+    "elderly",
+    "chemsex",
+    "forense"
+   ],
+   "cie": [
+    "6C44"
+   ],
+   "desc": "Categoría diagnóstica del DSM-5-TR y de la CIE-11 (6C44) para los problemas derivados del consumo de benzodiacepinas, fármacos Z (zolpidem, zopiclona, zaleplón), barbitúricos y otros sedantes. Abarca el trastorno por consumo con sus niveles de gravedad, la intoxicación, la abstinencia (con alteraciones perceptivas o convulsiones) y los trastornos mentales inducidos. Su rasgo nosológico distintivo es separar la dependencia fisiológica esperable del uso terapéutico prolongado, que por sí sola no constituye trastorno, del patrón de pérdida de control y consumo pese al daño. Este nodo se centra en los criterios y la codificación; el curso clínico, el manejo de la dependencia y la retirada se desarrollan en las fichas de dependencia de sedantes y de desprescripción de benzodiacepinas.",
+   "feats": [
+    "DSM-5-TR: patrón problemático durante 12 meses con al menos 2 de 11 criterios (control deficiente, deterioro social, consumo de riesgo y criterios farmacológicos: tolerancia y abstinencia); gravedad leve (2-3), moderada (4-5) o grave (6 o más) [fuente no localizada para la cita literal; APA 2022]",
+    "Excepción clave: la tolerancia y la abstinencia no se computan cuando el fármaco se toma bajo supervisión médica adecuada (DSM-5-TR), lo que impide diagnosticar trastorno solo por dependencia fisiológica",
+    "CIE-11 6C44: episodio de consumo nocivo (6C44.0), patrón de consumo nocivo (6C44.1), dependencia (6C44.2), intoxicación (6C44.3), abstinencia (6C44.4, sin complicaciones, con alteraciones de la percepción, con convulsiones o con ambas: 6C44.40-6C44.43), delirium (6C44.5), trastorno psicótico (6C44.6) y trastornos del estado de ánimo y de ansiedad inducidos (6C44.70, 6C44.71) (OMS, CIE-11 MMS)",
+    "Epidemiología en Estados Unidos (2015-2016): uso de benzodiacepinas en el último año en el 12,6 % de los adultos, con uso indebido en el 2,2 % (17,2 % del uso total), máximo entre los 18 y 25 años (5,2 %); la fuente más frecuente del uso indebido sin receta fue un amigo o familiar (Maust 2019)",
+    "Fármacos Z: 33 240 reacciones adversas de uso indebido, abuso, dependencia y abstinencia notificadas a EudraVigilance (23 420 con zolpidem); el zolpidem se asoció más a uso indebido y abstinencia, y la zopiclona a sobredosis (Schifano 2019)",
+    "Ficha técnica de Stilnox (zolpidem, 4.4): riesgo de abuso y dependencia física y psíquica que aumenta con la dosis y la duración, más frecuente con tratamientos de más de 4 semanas; la abstinencia puede incluir alucinaciones, delirio o convulsiones epilépticas, y se describen comportamientos complejos del sueño con amnesia"
+   ],
+   "tx": "Los principios de manejo se desarrollan en las fichas de dependencia de sedantes y de desprescripción: no suspender de forma brusca por el riesgo de convulsiones y delirium, reducción gradual, pactada e individualizada, con apoyo psicológico (TCC-I y TCC para la ansiedad) y tratamiento de la comorbilidad (Parr 2009; Soyka 2017, revisión sin resumen disponible) [fuente no localizada para el contenido concreto de Soyka 2017]. En el trastorno por consumo con uso no médico o policonsumo (opioides, alcohol, GHB/GBL), coordinar con recursos de adicciones, valorar el riesgo de sobredosis y ofrecer naloxona si hay opioides. La abstinencia complicada (convulsiones, delirium, alucinaciones) requiere manejo hospitalario.",
+   "note": "Los criterios proceden de los manuales diagnósticos y la epidemiología citada es estadounidense; la de España no se ha incluido en este nodo [fuente no localizada]. La diferencia entre uso indebido (misuse), dependencia fisiológica y trastorno por consumo varía entre estudios, lo que dificulta comparar prevalencias (Votaw 2019). Los barbitúricos apenas se prescriben hoy como ansiolíticos o hipnóticos, y su abstinencia grave se conoce por literatura clásica [fuente no localizada]. Los datos de farmacovigilancia infraestiman el problema real (Schifano 2019).",
+   "sec": [
+    {
+     "t": "Intoxicación y abstinencia: criterios y especificadores",
+     "x": "La intoxicación (DSM-5-TR) exige cambios conductuales o psicológicos desadaptativos tras el consumo y al menos uno de estos signos: habla disártrica, incoordinación, marcha inestable, nistagmo, alteración de la atención o la memoria, y estupor o coma [fuente no localizada para la enumeración literal; APA 2022]. La abstinencia exige el cese o la reducción tras un consumo prolongado y dos o más de: hiperactividad autonómica, temblor de manos, insomnio, náuseas o vómitos, alucinaciones o ilusiones transitorias, agitación psicomotora, ansiedad y crisis epilépticas tonicoclónicas generalizadas, con el especificador «con alteraciones de la percepción» [fuente no localizada para la enumeración literal; APA 2022]. La CIE-11 codifica por separado la abstinencia sin complicaciones (6C44.40), con alteraciones de la percepción (6C44.41), con convulsiones (6C44.42) y con ambas (6C44.43), lo que obliga a registrar explícitamente el riesgo convulsivo. La ficha técnica de Stilnox recoge para el zolpidem, además de rebote del insomnio, alucinaciones, delirio y convulsiones epilépticas en la abstinencia. El kindling por exposiciones y retiradas repetidas está bien documentado en el alcohol y se extrapola con menos certeza a las benzodiacepinas (véase neuroadaptación a sedantes).",
+     "links": [
+      {
+       "ids": [
+        "neuroadapt_sed",
+        "kindling"
+       ],
+       "t": "neuroadaptación y kindling"
+      },
+      {
+       "ids": [
+        "delirium",
+        "dt_alc"
+       ],
+       "t": "delirium y abstinencia alcohólica"
+      },
+      {
+       "ids": [
+        "zolpidem",
+        "zopiclona"
+       ],
+       "t": "fármacos Z"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial y problemas de codificación",
+     "x": "La distinción central es entre dependencia fisiológica sin trastorno, propia del tratamiento prolongado a dosis prescritas, y trastorno por consumo: el DSM-5-TR excluye la tolerancia y la abstinencia del recuento cuando el uso es supervisado, de modo que el diagnóstico descansa en la escalada no pautada, la obtención de recetas en varios dispositivos o fuera del circuito sanitario, el consumo con fines no médicos o junto a otras sustancias y el uso pese al daño. La CIE-11 diferencia además el consumo nocivo sin dependencia (6C44.0 y 6C44.1). Los síntomas de abstinencia deben distinguirse de la recurrencia del trastorno de ansiedad o del insomnio que motivó la prescripción (véase dependencia de sedantes). Otros problemas de codificación: los gabapentinoides no pertenecen a esta categoría en la tabulación de la CIE-11 y su uso indebido se registra aparte; el GHB/GBL tiene su propio nodo en el atlas [fuente oficial no localizada para la categoría CIE-11 del GHB]; y en el policonsumo con depresores la CIE-11 ofrece la categoría 6C4F (múltiples sustancias psicoactivas especificadas). En la persona mayor, el uso prolongado a dosis estables plantea un problema de prescripción inapropiada más que de trastorno por consumo (criterios de Beers y STOPP/START).",
+     "links": [
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "dependencia de sedantes: curso y manejo"
+      },
+      {
+       "ids": [
+        "gabap_nomed"
+       ],
+       "t": "uso no médico de gabapentinoides"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "ghb_abst"
+       ],
+       "t": "GHB/GBL y su abstinencia"
+      },
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "benzodiacepinas en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Epidemiología del uso indebido y poblaciones de riesgo",
+     "x": "En la revisión sistemática de Votaw y colaboradores (351 artículos), las benzodiacepinas y otros tranquilizantes fueron en 2017 la tercera droga ilegal o de prescripción más usada de forma indebida en Estados Unidos (alrededor del 2,2 % de la población), con tasas similares en otros países; el uso indebido se asoció a consumo de otras sustancias, a tener una prescripción y a síntomas o trastornos psiquiátricos, y a mortalidad, conductas de riesgo para VIH y VHC, peor calidad de vida, criminalidad y consumo continuado durante el tratamiento (Votaw 2019). En la encuesta nacional estadounidense de 2015-2016, el uso indebido fue máximo entre los 18 y 25 años y se asoció con fuerza al uso indebido de opioides o estimulantes de prescripción; las personas de 50 años o más tendían más a tomarlas con mayor frecuencia de la prescrita y para dormir (Maust 2019). En contextos de chemsex, las benzodiacepinas se usan para mitigar el descenso tras estimulantes y se combinan con GHB/GBL, con riesgo de depresión respiratoria [fuente no localizada para la frecuencia].",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "estimulantes"
+       ],
+       "t": "policonsumo con opioides y estimulantes"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "ansiol_bzd"
+       ],
+       "t": "benzodiacepinas e hipnóticos Z"
+      }
+     ]
+    },
+    {
+     "t": "Desprescripción y retirada: remisión a fichas específicas",
+     "x": "La retirada se desarrolla en la ficha de desprescripción de benzodiacepinas: reducción escalonada a lo largo de semanas o meses, adaptada a la tolerancia de la persona, con TCC para el insomnio o la ansiedad y especial prioridad en personas mayores; la sustitución por una benzodiacepina de vida media larga es una opción en casos seleccionados sin ventaja demostrada sobre la reducción gradual sola (Parr 2009). La revisión de Soyka resume los mismos principios para la dependencia de benzodiacepinas: retirada gradual, intervenciones psicológicas y tratamiento de los trastornos subyacentes (Soyka 2017) [fuente no localizada: resumen no disponible para contrastar el contenido]. En el metaanálisis de Parr, la reducción gradual (OR 5,96) y las intervenciones breves (OR 4,37) superaron a la atención habitual, añadir tratamiento psicológico a la reducción mejoró el resultado (OR 1,82) y la sustitución farmacológica brusca fue menos eficaz que la reducción gradual sola (OR 0,30) (Parr 2009). En el trastorno por consumo con uso no médico, a diferencia de la dependencia iatrogénica, la retirada exige además abordar el resto de sustancias, la motivación y la reducción de daños, y puede requerir ingreso cuando hay dosis altas, policonsumo con alcohol o antecedentes de convulsiones o delirium [fuente no localizada]. En personas mayores, la desprescripción se apoya en los criterios de Beers y STOPP/START (ficha de benzodiacepinas en la persona mayor).",
+     "links": [
+      {
+       "ids": [
+        "desprescr_bzd"
+       ],
+       "t": "desprescripción de benzodiacepinas"
+      },
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "persona mayor"
+      },
+      {
+       "ids": [
+        "tcci"
+       ],
+       "t": "TCC para el insomnio"
+      },
+      {
+       "ids": [
+        "entrev_motiv",
+        "red_danos"
+       ],
+       "t": "entrevista motivacional y reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "American Psychiatric Association (2022). DSM-5-TR. Washington, DC: APA Publishing",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C44 Trastornos debidos al consumo de sedantes, hipnóticos o ansiolíticos",
+    "Votaw VR et al. (2019). The epidemiology of benzodiazepine misuse: a systematic review. Drug Alcohol Depend 200:95-114 · PMID 31121495",
+    "Maust DT, Lin LA & Blow FC (2019). Benzodiazepine use and misuse among adults in the United States. Psychiatr Serv 70:97-106 · PMID 30554562",
+    "Schifano F et al. (2019). An insight into Z-drug abuse and dependence: an examination of reports to the European Medicines Agency database of suspected adverse drug reactions. Int J Neuropsychopharmacol 22:270-277 · PMID 30722037",
+    "Soyka M (2017). Treatment of benzodiazepine dependence. N Engl J Med 376:1147-1157 · PMID 28328330",
+    "Parr JM et al. (2009). Effectiveness of current treatment approaches for benzodiazepine discontinuation: a meta-analysis. Addiction 104:13-24 · PMID 18983627",
+    "AEMPS-CIMA (2026). Ficha técnica de Stilnox 10 mg comprimidos recubiertos con película (zolpidem) (nº de registro 58470), apartado 4.4; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "bzd_dep",
+    "ansiol_bzd",
+    "desprescr_bzd",
+    "bzd_mayor",
+    "neuroadapt_sed",
+    "kindling",
+    "zolpidem",
+    "zopiclona",
+    "diazepam",
+    "delirium",
+    "tcs",
+    "opioides",
+    "ghb_gbl",
+    "tcci",
+    "dt_alc"
+   ]
+  },
+  {
+   "id": "ayahuasca",
+   "n": "Ayahuasca y DMT: efectos, interacciones con psicofármacos y psicosis",
+   "ab": "Ayahuasca / DMT",
+   "al": [
+    "ayahuasca",
+    "yagé",
+    "N,N-dimetiltriptamina",
+    "DMT",
+    "harmina",
+    "harmalina",
+    "Banisteriopsis caapi",
+    "Psychotria viridis"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2003,
+   "tags": [
+    "cultural",
+    "risk",
+    "emerg"
+   ],
+   "cie": [
+    "6C49"
+   ],
+   "desc": "La ayahuasca es una decocción amazónica, habitualmente de Banisteriopsis caapi y Psychotria viridis, que combina la N,N-dimetiltriptamina (DMT), alucinógeno agonista 5-HT2A inactivo por vía oral, con β-carbolinas (harmina, harmalina, tetrahidroharmina) que inhiben la monoaminooxidasa y permiten su absorción (Riba 2003; McKenna 2004). Se usa en contextos rituales indígenas y mestizos, en iglesias sincréticas brasileñas, en el llamado turismo de ayahuasca y en entornos recreativos o pseudoterapéuticos (McKenna 2004). Lo común a los alucinógenos serotoninérgicos (mecanismo 5-HT2A, reacciones de angustia, trastorno perceptivo persistente) se desarrolla en las fichas de alucinógenos y de mecanismo de los psicodélicos; este nodo aborda lo específico: la inhibición de la MAO y sus interacciones con psicofármacos serotoninérgicos, la psicosis, la toxicidad notificada y el marco ritual y regulatorio.",
+   "feats": [
+    "Farmacología humana (ensayo doble ciego, 18 voluntarios): efectos subjetivos con pico a las 1,5-2 h, coincidente con el pico de DMT, aumento de la presión diastólica con la dosis alta y niveles plasmáticos de harmina mínimos, lo que sugiere una inhibición de la MAO sobre todo intestinal y hepática que evita el primer paso de la DMT (Riba 2003)",
+    "Interacción con ISRS: la inhibición de la MAO por los alcaloides harmala combinada con ISRS puede producir un síndrome serotoninérgico con desenlace potencialmente grave (Callaway 1998)",
+    "Centros toxicológicos de Estados Unidos (2005-2015): 538 exposiciones, mediana de edad 21 años, 81 % varones; alucinaciones (35 %), taquicardia (34 %), agitación (34 %), hipertensión (16 %); 28 intubaciones, 4 paradas cardiacas, 7 paradas respiratorias, 12 convulsiones y 3 muertes (Heise 2017)",
+    "Psicosis: revisión sistemática de casos con ayahuasca o DMT, muchos con antecedentes personales o familiares de psicosis o manía o consumo de otras drogas, aunque no todos; incidencia aparentemente rara en contextos rituales y recreativos (dos Santos 2017)",
+    "Uso ritual regular: en 127 miembros de iglesias que la consumen y 115 controles religiosos, sin indicios de desajuste psicológico, deterioro de la salud mental ni deterioro cognitivo al año (Bouso 2012), con posibles sesgos de selección",
+    "Ensayo aleatorizado en depresión resistente (n = 29): efecto antidepresivo frente a placebo a los 1, 2 y 7 días (respuesta del 64 % frente al 27 % a los 7 días) tras una sola toma en un entorno controlado (Palhano-Fontes 2019)"
+   ],
+   "tx": "Intoxicación: entorno tranquilo, benzodiacepinas para la agitación (usadas en el 30 % de las exposiciones notificadas; Heise 2017), control de constantes, temperatura y ECG y valoración de síndrome serotoninérgico si hay coingestión de psicofármacos. Psicosis persistente: manejo como psicosis inducida por sustancias, con seguimiento por el riesgo de evolución a un trastorno primario. Prevención: preguntar por ceremonias o retiros previstos o recientes en toda persona que tome antidepresivos u otros serotoninérgicos e informar del riesgo de la combinación con IMAO reversibles (Callaway 1998); quienes tengan antecedentes personales o familiares de psicosis o de manía deberían evitar los alucinógenos (dos Santos 2017). No es un tratamiento autorizado para ninguna indicación.",
+   "note": "La evidencia clínica es escasa: un único ensayo aleatorizado pequeño en depresión resistente (Palhano-Fontes 2019), estudios observacionales en usuarios rituales con posible autoselección (Bouso 2012), datos de centros toxicológicos sin confirmación analítica sistemática (Heise 2017) y casos clínicos (dos Santos 2017; Callaway 1998). La composición de las preparaciones es muy variable y pueden añadirse otras plantas (McKenna 2004). La magnitud real del riesgo serotoninérgico con cada psicofármaco no está cuantificada [fuente no localizada]. El régimen legal varía entre países y debe comprobarse en la fuente oficial vigente.",
+   "sec": [
+    {
+     "t": "Inhibición de la MAO e interacciones con psicofármacos",
+     "x": "La particularidad farmacológica de la ayahuasca es la asociación de un alucinógeno triptamínico con inhibidores de la MAO: las β-carbolinas impiden la degradación de la DMT en el intestino y el hígado (McKenna 2004), y en voluntarios los niveles plasmáticos de harmina fueron mínimos, compatibles con una acción predominantemente periférica (Riba 2003). La harmina y la harmalina se describen como inhibidores reversibles y selectivos de la MAO-A [fuente no localizada en las fuentes citadas]. La combinación con ISRS puede causar un síndrome serotoninérgico grave (Callaway 1998), y por extensión cabe esperar el mismo riesgo con IRSN, clomipramina, trazodona, litio, triptanes, tramadol, dextrometorfano, MDMA y otros serotoninérgicos, y con los IMAO prescritos (moclobemida, tranilcipromina) [fuente no localizada para cada fármaco]. Con estimulantes y simpaticomiméticos existe además riesgo de crisis hipertensiva por la inhibición de la MAO [fuente no localizada]. No se ha establecido un intervalo seguro tras suspender un antidepresivo; la suspensión de un tratamiento eficaz para participar en una ceremonia expone además a recaída y síntomas de discontinuación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "maois",
+        "moclobemida",
+        "tranilcipromina"
+       ],
+       "t": "IMAO"
+      },
+      {
+       "ids": [
+        "isrs",
+        "fluoxetina"
+       ],
+       "t": "ISRS"
+      },
+      {
+       "ids": [
+        "otc_abuso"
+       ],
+       "t": "dextrometorfano"
+      }
+     ]
+    },
+    {
+     "t": "Psicosis, manía y otras reacciones psiquiátricas",
+     "x": "En la revisión sistemática de dos Santos, Bouso y Hallak se localizaron tres series y dos casos de episodios psicóticos asociados a ayahuasca y tres casos asociados a DMT; varios afectaban a personas con antecedentes personales y posiblemente familiares de esquizofrenia, trastorno esquizofreniforme, manía o depresión psicóticas, manía no psicótica o consumo concomitante de otras drogas, pero también hubo casos sin estos antecedentes (dos Santos 2017). La incidencia parece rara tanto en contextos rituales como recreativos, y el cribado psiquiátrico previo en contextos controlados reduce de forma notable las reacciones psicóticas (dos Santos 2017). Ante una psicosis tras una ceremonia, el diagnóstico diferencial incluye la psicosis inducida (que puede evolucionar hacia un trastorno primario), el primer episodio de un trastorno psicótico o bipolar desencadenado, el síndrome serotoninérgico con confusión, la intoxicación por otras plantas añadidas y la deshidratación por vómitos repetidos [fuente no localizada para estos dos últimos]. Las experiencias intensas pueden dejar angustia, despersonalización o reexperimentación perceptiva, que se abordan en la ficha de alucinógenos.",
+     "links": [
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "tb_induc"
+       ],
+       "t": "manía y viraje inducido"
+      },
+      {
+       "ids": [
+        "alucinogenos"
+       ],
+       "t": "alucinógenos: lo común"
+      },
+      {
+       "ids": [
+        "desp"
+       ],
+       "t": "despersonalización"
+      }
+     ]
+    },
+    {
+     "t": "Contexto ritual, cultural y regulatorio",
+     "x": "La ayahuasca forma parte de la etnomedicina y el chamanismo de pueblos amazónicos, de la medicina popular mestiza y del sacramento de iglesias sincréticas brasileñas, algunas extendidas a Europa y Norteamérica, y crece el turismo de ayahuasca en la Amazonia (McKenna 2004). La evaluación debe respetar el significado cultural y religioso del consumo y distinguir el uso ritual pautado del uso recreativo o de los retiros comerciales con supervisión sanitaria incierta [fuente no localizada]. Los usuarios rituales regulares estudiados no mostraron deterioro psicológico ni cognitivo al año (Bouso 2012). En el plano regulatorio, la DMT figura en la Lista I del Convenio sobre Sustancias Sicotrópicas de 1971 [fuente oficial no localizada para la comprobación en la lista vigente], mientras que la situación de las plantas y preparados es distinta y se ha resuelto de forma diversa por los tribunales; en Estados Unidos, una iglesia obtuvo resoluciones favorables para su uso religioso (McKenna 2004). En España no se ha localizado una norma específica sobre la ayahuasca y la jurisprudencia no es uniforme [fuente no localizada], aspecto relevante en la pericia.",
+     "links": [
+      {
+       "ids": [
+        "psiq_transcultural",
+        "cult_bound"
+       ],
+       "t": "psiquiatría cultural"
+      },
+      {
+       "ids": [
+        "perit_forense",
+        "imputabilidad"
+       ],
+       "t": "pericia e imputabilidad"
+      },
+      {
+       "ids": [
+        "psicodel_5ht2a"
+       ],
+       "t": "mecanismo de los psicodélicos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "En las exposiciones notificadas a centros toxicológicos de Estados Unidos, el 63 % tuvo efectos clínicos moderados o graves y hubo intubaciones, paradas cardiacas y respiratorias, convulsiones y tres muertes (Heise 2017). Requieren atención urgente (112): fiebre, rigidez, clonus, temblor, sudoración profusa o agitación tras la toma, sobre todo en quien toma antidepresivos u otros serotoninérgicos (síndrome serotoninérgico); hipertensión grave con cefalea intensa o dolor torácico; convulsiones; alteración de conciencia; vómitos incoercibles; y psicosis o conducta de riesgo para la persona o terceros. Tienen mayor riesgo quienes toman serotoninérgicos o IMAO, quienes tienen antecedentes personales o familiares de psicosis o manía (dos Santos 2017) y quienes tienen cardiopatía o hipertensión por el aumento de la presión arterial (Riba 2003) [fuente no localizada para la magnitud del riesgo cardiovascular]. Las experiencias en retiros sin supervisión sanitaria pueden asociarse a vulnerabilidad frente a abusos, aspecto a explorar con tacto [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo para la persona"
+      },
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Riba J et al. (2003). Human pharmacology of ayahuasca: subjective and cardiovascular effects, monoamine metabolite excretion, and pharmacokinetics. J Pharmacol Exp Ther 306:73-83 · PMID 12660312",
+    "McKenna DJ (2004). Clinical investigations of the therapeutic potential of ayahuasca: rationale and regulatory challenges. Pharmacol Ther 102:111-129 · PMID 15163593",
+    "Callaway JC & Grob CS (1998). Ayahuasca preparations and serotonin reuptake inhibitors: a potential combination for severe adverse interactions. J Psychoactive Drugs 30:367-369 · PMID 9924842",
+    "dos Santos RG, Bouso JC & Hallak JEC (2017). Ayahuasca, dimethyltryptamine, and psychosis: a systematic review of human studies. Ther Adv Psychopharmacol 7:141-157 · PMID 28540034",
+    "Heise CW & Brooks DE (2017). Ayahuasca exposure: descriptive analysis of calls to US poison control centers from 2005 to 2015. J Med Toxicol 13:245-248 · PMID 27896660",
+    "Bouso JC et al. (2012). Personality, psychopathology, life attitudes and neuropsychological performance among ritual users of ayahuasca: a longitudinal study. PLoS One 7:e42421 · PMID 22905130",
+    "Palhano-Fontes F et al. (2019). Rapid antidepressant effects of the psychedelic ayahuasca in treatment-resistant depression: a randomized placebo-controlled trial. Psychol Med 49:655-663 · PMID 29903051",
+    "Boyer EW & Shannon M (2005). The serotonin syndrome. N Engl J Med 352:1112-1120 · PMID 15784664",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C49 Trastornos debidos al consumo de alucinógenos",
+    "Naciones Unidas (1971). Convenio sobre Sustancias Sicotrópicas, Lista I [no verificada]"
+   ],
+   "rel": [
+    "alucinogenos",
+    "psicodel_5ht2a",
+    "sind_ser",
+    "maois",
+    "moclobemida",
+    "tranilcipromina",
+    "isrs",
+    "psust",
+    "psilocib",
+    "psiq_transcultural",
+    "drt",
+    "5ht2a"
+   ]
+  }
+ ]
+}

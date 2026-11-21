@@ -1,0 +1,187 @@
+{
+ "patch": {
+  "ambival": {
+   "set": {
+    "rel": [
+     "bleuler_4a",
+     "anancasmo",
+     "negativismo",
+     "duelo_melanc",
+     "paratimia",
+     "esq",
+     "catatonia",
+     "toc_dsm",
+     "tlp",
+     "obses",
+     "esqtclin",
+     "meehl"
+    ]
+   }
+  },
+  "ambitend": {
+   "set": {
+    "rel": [
+     "wkl26",
+     "negativismo",
+     "ecopraxia",
+     "catalepsia",
+     "catatonia",
+     "dem",
+     "pasividad"
+    ]
+   }
+  },
+  "litio_embarazo": {
+   "set": {
+    "desc": "El litio atraviesa la placenta. La asociación inicial con la anomalía de Ebstein se estimó en un riesgo relativo de 400 a partir de un registro de casos voluntarios, cifra que los estudios caso-control y de cohortes posteriores redujeron drásticamente (Cohen 1994). La estimación actual procede de Patorno (2017): en 1.325.563 embarazos de Medicaid (2000-2010), las malformaciones cardiacas ocurrieron en el 2,41 % de los 663 niños expuestos a litio, el 1,15 % de los no expuestos y el 1,39 % de los expuestos a lamotrigina; el riesgo relativo ajustado fue de 1,65 (IC 95 % 1,02-2,68) y dependiente de la dosis: 1,11 (0,46-2,64) con 600 mg al día o menos, 1,60 (0,67-3,80) con 601-900 y 3,22 (1,47-7,02) con más de 900 mg; Munk-Olsen (2018) halló más reingresos neonatales (aOR 1,62) y malformaciones mayores tras el primer trimestre (aOR 1,71), y Fornaro (2020) estimó OR 1,81 para cualquier anomalía y 1,86 para las cardiacas. La ficha técnica de Plenur contraindica el litio en el embarazo y la lactancia (4.3), indica no administrarlo en el embarazo, sobre todo en el primer trimestre, y recomienda suspenderlo si el embarazo es planificado (4.6) (CIMA).",
+    "tx": "Planificación preconcepcional con decisión compartida: en el trastorno bipolar grave, la suspensión del litio conlleva un alto riesgo de recaída (véase la ficha de trastorno bipolar y embarazo), por lo que mantenerlo (decisión individual que supone un uso en contraindicación de la ficha técnica de Plenur, 4.3, aunque la ficha contempla en 4.6 los controles necesarios si se considera esencial mantenerlo) con la dosis mínima eficaz (Fornaro 2020), repartida en varias tomas [fuente no localizada], la monitorización estrecha de litemia y función renal, ecografía de alta resolución a las 16-18 semanas tras la exposición en el primer trimestre (Goodwin 2016) y el parto en un centro con seguimiento neonatal es una opción razonable. La alternativa es cambiar a lamotrigina o a un antipsicótico. El litio no debe suspenderse de forma brusca. Reinstaurar o intensificar tras el parto como profilaxis de la psicosis puerperal, teniendo en cuenta que la ficha técnica contraindica la lactancia durante el tratamiento (4.3 y 4.6).",
+    "note": "La confusión por indicación (gravedad del trastorno y otras exposiciones) y el pequeño número de casos expuestos limitan la precisión; la ficha técnica contraindica el litio en el embarazo y la lactancia (4.3), lo que obliga a documentar la decisión. El riesgo absoluto de malformación cardiaca sigue siendo bajo (en torno al 2,4 % en el estudio de referencia)."
+   },
+   "featsReplace": [
+    [
+     "Ficha técnica (CIMA): no administrar en el embarazo, sobre todo en el primer trimestre; contracepción durante el tratamiento; en embarazo planificado, se recomienda suspender el litio; si se considera esencial mantenerlo, controlar la litemia, suspender cerca del parto y reiniciar unos días después; observar al recién nacido (hipotonía, intoxicación)",
+     "Ficha técnica (CIMA): contraindicado en el embarazo y la lactancia (4.3); no administrar en el embarazo, sobre todo en el primer trimestre; contracepción durante el tratamiento; en embarazo planificado, se recomienda suspender el litio; si se considera esencial mantenerlo, controlar la litemia, suspender cerca del parto y reiniciar unos días después; observar al recién nacido (hipotonía, intoxicación) (4.6)"
+    ]
+   ]
+  },
+  "oxcarbazepina": {
+   "set": {
+    "desc": "Análogo 10-ceto de la carbamazepina que actúa a través de su metabolito activo monohidroxiderivado (MHD), bloqueante de canales de sodio dependientes de voltaje. En España su única indicación autorizada es la epilepsia (crisis parciales con o sin generalización secundaria, en monoterapia o terapia combinada, en adultos y niños de 6 años o más) (ficha técnica de Trileptal, AEMPS-CIMA); su uso en el trastorno bipolar es fuera de indicación y se apoya en evidencia mucho más débil que la de la carbamazepina. Semivida aparente de 1,3-2,3 h para el fármaco original y de unas 9 h para el MHD (5.2). Respecto a la carbamazepina tiene menor inducción enzimática (inductor débil de CYP3A4/5), menos riesgo hematológico y hepático [fuente no localizada], mayor frecuencia de hiponatremia (Dong 2005; ficha técnica, 4.4) y reactividad cruzada cutánea posible (4.4 y 4.5). La estructura química de la oxcarbazepina es similar a la de la carbamazepina y, en personas con HLA-B*1502, la ficha técnica pide valorar el riesgo-beneficio. En el registro EURAP, las malformaciones mayores tras exposición en monoterapia fueron del 3,0 % (Tomson 2018).",
+    "tx": "No es un eutimizante de primera ni de segunda línea; se emplea como alternativa a la carbamazepina en epilepsia y, de forma individual y fuera de indicación, en bipolar con intolerancia a la carbamazepina, con control de sodio y medidas anticonceptivas adicionales. Control del sodio sérico antes de iniciar y en los primeros meses en personas con trastorno renal con sodio bajo o tratadas con fármacos que lo reducen (diuréticos, desmopresina, AINE), factores especialmente importantes en personas mayores (ficha técnica de Trileptal, 4.4); la ficha no menciona los ISRS [fuente no localizada]. Ver la ficha técnica de Trileptal para su posología."
+   }
+  },
+  "vpa_bip": {
+   "set": {
+    "desc": "El valproato (Emrich, 1980) demostró eficacia antimaníaca y profiláctica en TB. Segunda línea tras litio. Eficacia particular en formas mixtas y ciclado rápido. Por su teratogenicidad, en el trastorno bipolar está contraindicado en el embarazo y en personas con capacidad de gestar salvo que se cumplan las condiciones del Plan de Prevención de Embarazos (ficha técnica, 4.3; AEMPS 2018).",
+    "tx": "Manía aguda y mantenimiento en el TB I como alternativa al litio; restricciones estrictas en personas con capacidad de gestar (ficha técnica, 4.3)."
+   },
+   "featsReplace": [
+    [
+     "Teratogenicidad: defectos del tubo neural y alteraciones del neurodesarrollo; contraindicado en mujeres en edad fértil salvo programa de prevención de embarazos (EMA 2018)",
+     "Teratogenicidad: defectos del tubo neural y alteraciones del neurodesarrollo; contraindicado en personas con capacidad de gestar salvo programa de prevención de embarazos (EMA 2018)"
+    ]
+   ]
+  },
+  "dep_bip_tx": {
+   "set": {
+    "tx": "Lurasidona (1ª línea en la depresión del TB I; en la del TB II solo la quetiapina es de primera línea y la lurasidona no figura entre las opciones; CANMAT/ISBD 2018); quetiapina; lamotrigina; litio + AP atípico."
+   },
+   "featsReplace": [
+    [
+     "Fármacos con aprobación: quetiapina (TB I y II), lurasidona (TB I), cariprazina (TB I), lumateperona (TB I y II), olanzapina-fluoxetina",
+     "Fármacos con aprobación de la FDA en depresión bipolar: quetiapina (TB I y II), lurasidona (TB I), cariprazina (TB I), lumateperona (TB I y II), olanzapina-fluoxetina; en España, lurasidona (Latuda) y cariprazina (Reagila) solo tienen indicación en esquizofrenia (fichas técnicas, 4.1)"
+    ]
+   ],
+   "refsAdd": [
+    "AEMPS-CIMA (2026). Ficha técnica de Latuda 37 mg comprimidos recubiertos con película (lurasidona) (nº de registro 114913009), apartado 4.1; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Reagila 3 mg cápsulas duras (cariprazina) (nº de registro 1171209011), apartado 4.1; consulta de noviembre de 2026"
+   ]
+  },
+  "emdr_proc": {
+   "featsReplace": [
+    [
+     "Recomendado por la OMS (2013) para el TEPT en adultos, junto a la TCC centrada en el trauma",
+     "Recomendado por la OMS (2013) para el TEPT en adultos y en la infancia y adolescencia, junto a la TCC centrada en el trauma (recomendación estándar; Tol 2014)"
+    ]
+   ]
+  },
+  "mbt": {
+   "set": {
+    "desc": "La MBT es una psicoterapia específica para el TLP, con evidencia de calidad baja frente al tratamiento habitual (Storebø 2020), basada en el desarrollo de la mentalización: la habilidad para comprender los estados mentales propios y ajenos.",
+    "tx": "Psicoterapia individual + grupal; 18 meses; evidencia de calidad baja en TLP (Storebø 2020)."
+   },
+   "featsReplace": [
+    [
+     "MBT: nivel de evidencia A en TLP — reduce intentos de suicidio y hospitalización",
+     "MBT: evidencia de calidad baja (GRADE) frente a tratamiento habitual: autolesión RR 0,62 (3 ensayos) y suicidalidad RR 0,10 (3 ensayos) (Storebø 2020); NICE CG78 no la recomienda específicamente"
+    ]
+   ],
+   "refsAdd": [
+    "NICE (2009). Borderline personality disorder: recognition and management. NICE guideline CG78 (recomendación 1.3.4.5)"
+   ]
+  },
+  "tfp": {
+   "set": {
+    "desc": "La TFP trabaja la transferencia como escenario de activación de relaciones objetales patológicas y difusión de identidad. Evidencia de calidad baja en TLP: efectos frente a control solo en estimaciones de estudios únicos (Stoffers 2012) e inferior a la terapia de esquemas en recuperación y abandonos (Giesen-Bloo 2006); NICE CG78 no la recomienda específicamente."
+   },
+   "refsAdd": [
+    "NICE (2009). Borderline personality disorder: recognition and management. NICE guideline CG78 (recomendación 1.3.4.5)"
+   ]
+  },
+  "cap_dem": {
+   "featsReplace": [
+    [
+     "Capacidad testamentaria: el Código Civil (art. 663, redactado por la Ley 8/2021) excluye de testar a quien en el momento de testar no pueda conformar o expresar su voluntad ni aun con ayuda de medios o apoyos; el notario puede requerir informe facultativo",
+     "Capacidad testamentaria: el Código Civil (art. 663, redactado por la Ley 8/2021) excluye de testar a quien en el momento de testar no pueda conformar o expresar su voluntad ni aun con ayuda de medios o apoyos; el art. 665 deja al juicio del notario si la persona con discapacidad puede comprender y manifestar el alcance de sus disposiciones, sin mencionar informe facultativo"
+    ]
+   ]
+  },
+  "desempleo_suic": {
+   "set": {
+    "desc": "El desempleo es un factor de riesgo de suicidio documentado desde Durkheim. En el análisis longitudinal de 63 países (2000-2011), el riesgo relativo de suicidio asociado al desempleo fue de 1,20 a 1,30 en todas las regiones, con 41 148 suicidios asociados al desempleo en 2007 y 46 131 en 2009 (4983 de exceso desde la crisis de 2008); el efecto fue mayor donde el desempleo de partida era bajo, y el aumento de la tasa de suicidio precedió en unos seis meses al del paro (Nordt 2015). El metaanálisis de Milner (2013) muestra que el riesgo es mayor en los primeros años de desempleo y persiste en el paro de larga duración; al ajustar por trastorno mental previo la asociación se atenúa (RR 1,58 a 1,15) y queda en el límite de la significación, sin que sea posible distinguir causalidad de selección (Milner 2014). La relación sería mayor en varones (Milner 2014) y podría modularse por la protección social (Stuckler 2009)."
+   }
+  },
+  "ictus_dep": {
+   "set": {
+    "desc": "La depresión es una complicación frecuente del ictus que aumenta la discapacidad y la mortalidad. Los ensayos aleatorizados muestran eficacia de los antidepresivos tanto en el tratamiento como en la prevención; la fluoxetina precoz no mejoró la recuperación funcional en tres grandes ensayos (FOCUS, AFFINITY, EFFECTS) y aumentó las fracturas. Se implican inflamación, enfermedad de sustancia blanca, alteraciones de la neuroplasticidad y del glutamato."
+   },
+   "featsReplace": [
+    [
+     "Antidepresivos eficaces en tratamiento y prevención (metaanálisis de ECA)",
+     "Antidepresivos eficaces en tratamiento y prevención (metaanálisis de ECA); en la prevención, la fluoxetina redujo la depresión de nueva aparición (FOCUS, EFFECTS) a costa de más fracturas, y FOCUS no apoya su uso preventivo sistemático"
+    ]
+   ]
+  },
+  "corticoides_psiq": {
+   "set": {
+    "desc": "Los glucocorticoides pueden producir manía, depresión, psicosis, pánico, delirium, conducta suicida y alteraciones cognitivas. Las consecuencias neuropsiquiátricas graves se han estimado, en atención primaria británica, en 15,7 por 100 personas-año en todos los ciclos y 22,2 en los primeros ciclos (Fardet 2012, recogido en Judd 2014); en el resumen del estudio primario, la cifra de 22,2 se refiere a suicidio o tentativa, depresión, manía, delirium o confusión y pánico. El riesgo varía con la dosis, la edad, el sexo y los antecedentes psiquiátricos."
+   }
+  },
+  "cardio_dep": {
+   "set": {
+    "desc": "La depresión se asocia a mayor riesgo de cardiopatía isquémica (RR 1,30; Gan 2014), aunque no está establecido que sea un factor de riesgo independiente (Nicholson 2006), y empeora el pronóstico tras el infarto; a su vez, la enfermedad cardiovascular aumenta el riesgo de depresión. Mecanismos: inflamación, disfunción autonómica, eje HHA, conducta de salud. La American Heart Association la reconoce como factor de riesgo de mal pronóstico."
+   }
+  },
+  "mod_anim_bip": {
+   "featsReplace": [
+    [
+     "Fenotipos depresivos distintos con perfiles transcriptómicos propios (Narain 2026)",
+     "En modelos de depresión por estrés (derrota social crónica), fenotipos depresivos distintos muestran firmas transcriptómicas propias en la habénula (Narain 2026); no son modelos específicos de depresión bipolar"
+    ]
+   ],
+   "set": {
+    "refs": [
+     "Kirshenbaum GS et al. (2011). Mania-like behavior induced by genetic dysfunction of the neuron-specific Na+,K+-ATPase α3 sodium pump. Proc Natl Acad Sci USA 108:18144-18149. doi:10.1073/pnas.1108416108 · PMID 22025725",
+     "Narain P et al. (2026). Distinct depressive-like behavioural phenotypes in mice exhibit unique patterns of transcriptional perturbations across habenular cell subtypes. Mol Psychiatry. doi:10.1038/s41380-026-03843-6 · PMID 42711407",
+     "Roybal K et al. (2007). Mania-like behavior induced by disruption of CLOCK. Proc Natl Acad Sci USA 104:6406-6411 · PMID 17379666",
+     "Nestler EJ & Hyman SE (2010). Animal models of neuropsychiatric disorders. Nat Neurosci 13:1161-1169 · PMID 20877280",
+     "Beery AK & Zucker I (2011). Sex bias in neuroscience and biomedical research. Neurosci Biobehav Rev 35:565-572 · PMID 20620164"
+    ]
+   }
+  },
+  "bdnf_np": {
+   "featsReplace": [
+    [
+     "BDNF reducido en depresión mayor: correlaciona con severidad y volumen hipocampal",
+     "BDNF sérico reducido en la depresión mayor sin tratamiento, con efecto menor al corregir el sesgo de publicación y sin asociación consistente con la gravedad (Molendijk 2014); relación con el volumen hipocampal [fuente no localizada]"
+    ]
+   ]
+  },
+  "evit_exper": {
+   "set": {
+    "note": "El constructo es amplio y los ítems de su medida (AAQ-II) se relacionan más con ítems de malestar psicológico que con ítems de aceptación (Wolgast 2014), lo que plantea dudas sobre su validez discriminante, aunque Bond (2011) informó de validez incremental y discriminante apropiadas. Es útil como principio formulativo transdiagnóstico más que como diagnóstico."
+   }
+  },
+  "apego_trauma": {
+   "set": {
+    "desc": "Main (1986): apego desorganizado (tipo D) — el cuidador es simultáneamente fuente de seguridad y de miedo. Se asocia prospectivamente a más disociación en la adultez joven (Ogawa 1997), pero no es un predictor fuerte de psicopatología ni un rasgo fijo (Granqvist 2017); la predicción específica del TLP tiene menos apoyo prospectivo [fuente no localizada]."
+   },
+   "featsReplace": [
+    [
+     "Predictor de disociación adulta, TLP y DESNOS",
+     "Asociado prospectivamente a disociación adulta (Ogawa 1997); no es un predictor fuerte de psicopatología (Granqvist 2017) y su relación específica con TLP y DESNOS tiene menos apoyo [fuente no localizada]"
+    ]
+   ]
+  }
+ }
+}

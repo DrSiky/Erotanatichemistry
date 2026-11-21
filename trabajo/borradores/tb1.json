@@ -1,0 +1,1351 @@
+{
+ "patch": {
+  "estimulantes": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La guía NICE NG87 ordena la secuencia por edad: en niños desde 5 años y adolescentes, metilfenidato (de acción corta o larga) en primera línea, cambio a lisdexanfetamina si no hay beneficio suficiente tras 6 semanas a dosis adecuada, dexanfetamina si la lisdexanfetamina funciona pero su perfil prolongado no se tolera, y atomoxetina o guanfacina si no se toleran ambos estimulantes o no responden a ensayos separados (1.7.7-1.7.10); en adultos, lisdexanfetamina o metilfenidato en primera línea y atomoxetina como alternativa (1.7.11-1.7.15). Las personas con ansiedad, tics o autismo deben recibir las mismas opciones (1.7.18), con titulación más lenta y vigilancia más frecuente en presencia de comorbilidad (1.7.28). En el metaanálisis en red de adultos de Ostinelli (2025), 113 ensayos con 14 887 participantes, solo los estimulantes y la atomoxetina redujeron los síntomas nucleares a 12 semanas tanto en escalas autoaplicadas como del clínico, sin eficacia demostrada en calidad de vida y con evidencia escasa a largo plazo; la atomoxetina y la guanfacina fueron menos aceptables que el placebo. En niños, la revisión Cochrane de metilfenidato halló mejoría de los síntomas valorados por el profesorado con calidad muy baja de la evidencia (Storebø 2015). Las fichas de metilfenidato y lisdexanfetamina desarrollan las indicaciones autorizadas en España.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "trastorno tratado"
+      },
+      {
+       "ids": [
+        "metilfenidato",
+        "lisdexanfetamina",
+        "atomoxetina",
+        "guanfacina"
+       ],
+       "t": "fármacos de la secuencia NICE"
+      },
+      {
+       "ids": [
+        "estim_adulto",
+        "no_estim_tdah"
+       ],
+       "t": "indicaciones en adultos"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Metilfenidato y anfetaminas aumentan la disponibilidad sináptica de dopamina y noradrenalina con mecanismos distintos (bloqueo de transportadores frente a liberación), por lo que comparten el perfil de efectos de clase: menor apetito y peso, insomnio, aumento de frecuencia cardíaca y tensión arterial, y riesgo de tics, ansiedad o psicosis en personas vulnerables. NICE NG87 fija la vigilancia: talla cada 6 meses en menores, peso a los 3 y 6 meses y después semestral, frecuencia cardíaca y tensión arterial antes y después de cada cambio de dosis y cada 6 meses, y desaconseja analíticas o ECG rutinarios sin indicación clínica (1.8.5, 1.8.9 y 1.8.10). Ambas fichas españolas advierten de síndrome serotoninérgico con fármacos serotoninérgicos (fichas de Concerta y Elvanse). La anfetamina es sensible al pH urinario: la orina alcalina reduce su excreción y alarga su semivida, y la acidificación la acorta (Elvanse, 4.5). La exposición al tratamiento se asoció en estudios intraindividuales a menos visitas urgentes por accidentes de tráfico (OR 0,62 en varones y 0,58 en mujeres; Chang 2017) y por problemas relacionados con sustancias (OR 0,65 y 0,69; Quinn 2017).",
+     "links": [
+      {
+       "ids": [
+        "estim_monoam",
+        "dopa_na_tdah"
+       ],
+       "t": "mecanismo monoaminérgico"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "tdah_conduccion",
+        "tdah_sustancias"
+       ],
+       "t": "resultados en registros"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "NICE NG87 pide, antes de iniciar, valoración del riesgo de uso indebido y desvío, pulso, tensión arterial y evaluación cardiovascular, y derivación a cardiología si hay cardiopatía congénita, muerte súbita cardíaca de un familiar de primer grado menor de 40 años, síncope de esfuerzo, palpitaciones paroxísticas, dolor torácico sugestivo o hipertensión (1.7.4-1.7.5). Ante taquicardia en reposo mantenida, arritmia o tensión sistólica elevada en dos mediciones se reduce la dosis y se deriva (1.8.11); ante un episodio psicótico o maníaco agudo se suspende la medicación (1.7.19). Con riesgo de mal uso, NICE desaconseja formulaciones de liberación inmediata o fácilmente inyectables o esnifables (1.7.24). En el trastorno bipolar sin eutimizante, el metilfenidato en monoterapia se asoció a más manía (HR 6,7), no así con eutimizante (Viktorin 2017). En chemsex, la combinación con metanfetamina, catinonas, cocaína o MDMA suma efecto simpaticomimético [fuente no localizada]; los inhibidores de la proteasa, sobre todo ritonavir, pueden inhibir el metabolismo de las anfetaminas (Antoniou 2002) y el mayor riesgo de interacción con drogas de uso recreativo se concentra en pautas potenciadas con ritonavir o cobicistat (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "estim_seguridad"
+       ],
+       "t": "seguridad desarrollada"
+      },
+      {
+       "ids": [
+        "tdah_chemsex",
+        "chemsex_arv",
+        "metanf",
+        "catinonas_nuevas",
+        "cocaina"
+       ],
+       "t": "chemsex e interacciones"
+      },
+      {
+       "ids": [
+        "tb_induc"
+       ],
+       "t": "viraje maníaco"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87), recomendaciones 1.7.4-1.8.16 (texto vigente consultado en noviembre de 2026)",
+    "Ostinelli EG et al. (2025). Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry 12:32-43 · PMID 39701638",
+    "Storebø OJ et al. (2015). Methylphenidate for attention-deficit/hyperactivity disorder in children and adolescents: Cochrane systematic review with meta-analyses and trial sequential analyses of randomised clinical trials. BMJ 351:h5203 · PMID 26608309",
+    "Chang Z et al. (2017). Association between medication use for attention-deficit/hyperactivity disorder and risk of motor vehicle crashes. JAMA Psychiatry 74:597-603 · PMID 28492937",
+    "Quinn PD et al. (2017). ADHD medication and substance-related problems. Am J Psychiatry 174:877-885 · PMID 28659039",
+    "Viktorin A et al. (2017). The risk of treatment-emergent mania with methylphenidate in bipolar disorder. Am J Psychiatry 174:341-348 · PMID 27690517",
+    "Antoniou T & Tseng AL (2002). Interactions between recreational drugs and antiretroviral agents. Ann Pharmacother 36:1598-1613 · PMID 12243611",
+    "Bracchi M et al. (2015). Increasing use of 'party drugs' in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Fichas técnicas de Concerta 18 mg (n.º registro 65148) y Elvanse 30 mg (77642), apartados 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "tdah_chemsex",
+    "tdah_sustancias",
+    "tdah_conduccion",
+    "sind_ser",
+    "tdah_adulto"
+   ]
+  },
+  "metilfenidato": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Según NICE NG87, el metilfenidato, de acción corta o larga, es la primera línea farmacológica en niños desde 5 años y adolescentes (1.7.7) y una de las dos opciones de primera línea en adultos junto con la lisdexanfetamina (1.7.11); en adultos sin respuesta suficiente tras 6 semanas con lisdexanfetamina se considera cambiar a metilfenidato (1.7.13). NICE recomienda pensar en formulaciones de liberación modificada de una toma por adherencia, estigma y menor riesgo de mal uso y desvío (1.7.20), y admite combinar una forma de liberación modificada por la mañana con una inmediata en otro momento del día para prolongar el efecto (1.7.22). En la revisión Cochrane pediátrica (38 ensayos paralelos con 5111 participantes), el metilfenidato mejoró los síntomas valorados por el profesorado (DME -0,77) sin aumento de efectos adversos graves pero con más efectos no graves (RR 1,29), con un 96,8 % de ensayos de alto riesgo de sesgo y calidad muy baja (Storebø 2015). En adultos con TDAH y dependencia de anfetamina excarcelados, el metilfenidato OROS redujo los síntomas y aumentó las orinas negativas y la retención (Konstenius 2014), aunque con dosis superiores a las de la ficha española. Indicaciones y condiciones de uso autorizadas: ver la descripción de esta ficha y la de estim_adulto.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "indicación"
+      },
+      {
+       "ids": [
+        "estim_adulto"
+       ],
+       "t": "indicaciones en adultos en España"
+      },
+      {
+       "ids": [
+        "tdah_sustancias"
+       ],
+       "t": "TDAH con consumo de sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Bloquea DAT y NET sin liberar monoaminas, con efecto dependiente de la concentración plasmática, lo que explica las diferencias clínicas entre formas de liberación inmediata, modificada y osmótica [fuente no localizada]. El alcohol interacciona de forma farmacocinética: en un ensayo cruzado en 20 adultos, el etanol tomado antes o después del metilfenidato elevó la Cmax de d-metilfenidato un 40 % y el AUC un 25 %, con formación del metabolito de transesterificación etilfenidato; las mujeres refirieron más efecto estimulante pese a menor exposición (Patrick 2007). La ficha de Concerta advierte de síndrome serotoninérgico con fármacos serotoninérgicos, que obliga a suspender el metilfenidato lo antes posible si se sospecha, y pide precaución en personas con dependencia conocida de drogas o alcohol por riesgo de abuso, mal uso o tráfico. En la revisión Cochrane pediátrica no hubo más efectos adversos graves que con placebo, pero sí más efectos no graves (RR 1,29; Storebø 2015). NICE NG87 indica vigilar peso, talla, frecuencia cardíaca y tensión arterial y no hacer analíticas ni ECG rutinarios sin indicación (1.8.5-1.8.10).",
+     "links": [
+      {
+       "ids": [
+        "estim_monoam"
+       ],
+       "t": "transportadores de monoaminas"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "interacción con alcohol"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Suspender ante un episodio psicótico o maníaco agudo (NICE NG87, 1.7.19); ante tics de nueva aparición, valorar si guardan relación con el estimulante y si el deterioro supera al beneficio, y reducir dosis o cambiar de fármaco (1.8.13-1.8.14); ante convulsiones nuevas o agravadas, revisar y retirar lo que pueda contribuir (1.8.16). En el trastorno bipolar, el inicio en monoterapia se asoció a un riesgo de manía claramente mayor en los 3 meses siguientes (HR 6,7; IC 95 % 2,0-22,4), sin aumento cuando había eutimizante (HR 0,6) (Viktorin 2017). En chemsex: el alcohol eleva la exposición al metilfenidato (Patrick 2007); la coadministración con MDMA, catinonas o metanfetamina suma toxicidad simpaticomimética y serotoninérgica [fuente no localizada]; la ficha no describe interacción con GHB/GBL, poppers ni inhibidores de la PDE5 [fuente no localizada], y el metilfenidato no depende del citocromo P450, por lo que no se esperan interacciones farmacocinéticas relevantes con ritonavir o cobicistat [fuente no localizada]. NICE desaconseja formulaciones inyectables o esnifables con riesgo de desvío (1.7.24).",
+     "links": [
+      {
+       "ids": [
+        "tb_induc",
+        "tics"
+       ],
+       "t": "manía y tics"
+      },
+      {
+       "ids": [
+        "tdah_chemsex",
+        "chemsex_arv",
+        "metanf",
+        "catinonas_nuevas"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "estim_seguridad"
+       ],
+       "t": "seguridad de los estimulantes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Storebø OJ et al. (2015). Methylphenidate for attention-deficit/hyperactivity disorder in children and adolescents: Cochrane systematic review with meta-analyses and trial sequential analyses of randomised clinical trials. BMJ 351:h5203 · PMID 26608309",
+    "Konstenius M et al. (2014). Methylphenidate for attention deficit hyperactivity disorder and drug relapse in criminal offenders with substance dependence: a 24-week randomized placebo-controlled trial. Addiction 109:440-449 · PMID 24118269",
+    "Patrick KS et al. (2007). Influence of ethanol and gender on methylphenidate pharmacokinetics and pharmacodynamics. Clin Pharmacol Ther 81:346-353 · PMID 17339864",
+    "Viktorin A et al. (2017). The risk of treatment-emergent mania with methylphenidate in bipolar disorder. Am J Psychiatry 174:341-348 · PMID 27690517"
+   ],
+   "relAdd": [
+    "estim_seguridad",
+    "tdah_chemsex",
+    "alcohol",
+    "tdah_adulto",
+    "tb_induc",
+    "chemsex_arv"
+   ]
+  },
+  "lisdexanfetamina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG87 la sitúa en segunda posición en niños y adolescentes, tras un ensayo de 6 semanas de metilfenidato a dosis adecuada sin beneficio suficiente (1.7.8), y como opción de primera línea en adultos junto con el metilfenidato (1.7.11), con cambio entre ambos si uno no basta (1.7.12-1.7.13); si responde pero no se tolera su efecto prolongado, se considera dexanfetamina (1.7.9 y 1.7.14). El metaanálisis en red de adultos (Ostinelli 2025) agrupa los estimulantes como la intervención con beneficio a corto plazo sobre síntomas nucleares en escalas autoaplicadas y del clínico, sin efecto demostrado en calidad de vida. En TDAH con trastorno por consumo de cocaína, las sales mixtas de anfetamina de liberación prolongada junto con TCC mejoraron los síntomas y las semanas negativas para cocaína (Levin 2015), con dosis altas que no son extrapolables a la lisdexanfetamina ni a la ficha española. La indicación española en adultos y en niños tras metilfenidato figura en la descripción de esta ficha y en estim_adulto.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "indicación"
+      },
+      {
+       "ids": [
+        "estim_adulto",
+        "metilfenidato"
+       ],
+       "t": "alternativa de primera línea"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "tdah_sustancias"
+       ],
+       "t": "comorbilidad con cocaína"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Profármaco hidrolizado en la sangre a dexanfetamina, que libera dopamina y noradrenalina e inhibe su recaptación. Según la ficha de Elvanse (4.5), la lisdexanfetamina no inhibió ni indujo in vitro las principales isoformas del CYP450 y no alteró de forma clínicamente relevante la farmacocinética de sustratos de CYP1A2, CYP2D6, CYP2C19 o CYP3A in vivo, aunque la dexanfetamina puede ser un inhibidor débil de CYP2D6. El pH urinario es determinante: los acidificantes (ácido ascórbico, tiazidas, dieta rica en proteína animal) aumentan su excreción y acortan su semivida, y los alcalinizantes (bicarbonato, dieta rica en frutas y verduras, infecciones urinarias, vómitos) la alargan. Se han notificado casos raros de síndrome serotoninérgico con ISRS e IRSN y con sobredosis de anfetaminas, y la ficha pide prescribir y dispensar la menor cantidad posible para minimizar el riesgo de sobredosis. La vigilancia de peso, talla, frecuencia cardíaca y tensión arterial sigue NICE NG87 (1.8.5-1.8.11).",
+     "links": [
+      {
+       "ids": [
+        "estim_monoam"
+       ],
+       "t": "liberación de monoaminas"
+      },
+      {
+       "ids": [
+        "cyp2d6"
+       ],
+       "t": "CYP2D6"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Suspender ante psicosis o manía aguda (NICE NG87, 1.7.19); la psicosis de novo con estimulantes fue más frecuente con anfetaminas que con metilfenidato en jóvenes (ver estim_seguridad). Ante taquicardia mantenida, arritmia o hipertensión en dos mediciones, reducir dosis y derivar (1.8.11). En chemsex, el riesgo principal es la suma con estimulantes de uso recreativo (metanfetamina, catinonas, cocaína, MDMA), con toxicidad cardiovascular, hipertermia y psicosis [fuente no localizada para la combinación con lisdexanfetamina]; la combinación con MDMA añade riesgo serotoninérgico por analogía con lo descrito en la ficha para ISRS e IRSN [fuente no localizada]. Los inhibidores de la proteasa, especialmente ritonavir, pueden inhibir el metabolismo de las anfetaminas (Antoniou 2002), y las pautas potenciadas con ritonavir o cobicistat concentran el riesgo de interacción con drogas recreativas (Bracchi 2015). Los vómitos o la orina alcalina prolongan la exposición (Elvanse, 4.5). No hay datos específicos con GHB/GBL, poppers ni inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "estim_seguridad"
+       ],
+       "t": "psicosis y riesgo cardiovascular"
+      },
+      {
+       "ids": [
+        "metanf",
+        "catinonas_nuevas",
+        "cocaina",
+        "chemsex_arv",
+        "tdah_chemsex"
+       ],
+       "t": "chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "neurotox_anf"
+       ],
+       "t": "neurotoxicidad anfetamínica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ostinelli EG et al. (2025). Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry 12:32-43 · PMID 39701638",
+    "Levin FR et al. (2015). Extended-release mixed amphetamine salts vs placebo for comorbid adult attention-deficit/hyperactivity disorder and cocaine use disorder: a randomized clinical trial. JAMA Psychiatry 72:593-602 · PMID 25887096",
+    "Antoniou T & Tseng AL (2002). Interactions between recreational drugs and antiretroviral agents. Ann Pharmacother 36:1598-1613 · PMID 12243611",
+    "Bracchi M et al. (2015). Increasing use of 'party drugs' in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268"
+   ],
+   "relAdd": [
+    "estim_seguridad",
+    "chemsex_arv",
+    "tdah_chemsex",
+    "cyp2d6",
+    "sind_ser",
+    "tdah_adulto",
+    "cocaina"
+   ]
+  },
+  "estim_adulto": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "En adultos, NICE NG87 ofrece lisdexanfetamina o metilfenidato en primera línea (1.7.11), con cambio de uno a otro tras 6 semanas sin beneficio suficiente (1.7.12-1.7.13), dexanfetamina si la lisdexanfetamina funciona pero su efecto prolongado no se tolera (1.7.14) y atomoxetina cuando no se toleran o no responden ambos (1.7.15); la guanfacina en adultos solo con asesoramiento de un servicio terciario (1.7.17) y segunda opinión si no responde a uno o más estimulantes y a un no estimulante (1.7.16). El metaanálisis en red más amplio en adultos (Ostinelli 2025: 113 ensayos, 14 887 participantes) halló que estimulantes (DME -0,61 en escalas del clínico) y atomoxetina (-0,51) eran las únicas intervenciones con beneficio sobre los síntomas nucleares a 12 semanas en ambos tipos de escala, con certeza entre muy baja y moderada, sin efecto sobre calidad de vida; los estimulantes fueron tan aceptables como el placebo. En comorbilidad con trastorno por consumo de estimulantes, los ensayos con anfetamina (Levin 2015) y metilfenidato (Konstenius 2014) muestran beneficio sobre TDAH y consumo con dosis superiores a las de las fichas españolas.",
+     "links": [
+      {
+       "ids": [
+        "tdah_adulto"
+       ],
+       "t": "TDAH del adulto"
+      },
+      {
+       "ids": [
+        "no_estim_tdah",
+        "atomoxetina"
+       ],
+       "t": "alternativas no estimulantes"
+      },
+      {
+       "ids": [
+        "tdah_sustancias"
+       ],
+       "t": "comorbilidad con sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Metilfenidato (bloqueo de DAT y NET) y lisdexanfetamina (profármaco de dexanfetamina, liberadora de monoaminas) difieren en farmacocinética e interacciones: el metilfenidato no depende del CYP450 y su exposición aumenta con el alcohol (Cmax de d-metilfenidato +40 %, AUC +25 %, con formación de etilfenidato; Patrick 2007), mientras que la excreción de la anfetamina depende del pH urinario y la dexanfetamina puede inhibir débilmente CYP2D6 (Elvanse, 4.5). Ambos pueden producir síndrome serotoninérgico con fármacos serotoninérgicos (fichas de Concerta y Elvanse). En adultos, el tratamiento se asoció en análisis intraindividuales con menos visitas urgentes por accidentes de tráfico (Chang 2017) y por problemas con sustancias (Quinn 2017). NICE NG87 pide pesar cada 6 meses a los adultos, valorar el IMC si hay cambio de peso, controlar frecuencia cardíaca y tensión arterial antes y después de cada ajuste y cada 6 meses y no hacer ECG rutinarios sin indicación clínica (1.8.5-1.8.10).",
+     "links": [
+      {
+       "ids": [
+        "metilfenidato",
+        "lisdexanfetamina"
+       ],
+       "t": "fichas de cada fármaco"
+      },
+      {
+       "ids": [
+        "tdah_conduccion"
+       ],
+       "t": "conducción"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "interacción con alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Antes de iniciar, NICE NG87 exige valorar el riesgo de uso indebido y desvío, los antecedentes cardiovasculares y la tensión arterial, con derivación a cardiología ante síncope de esfuerzo, palpitaciones paroxísticas, dolor torácico, soplo o hipertensión del adulto (1.7.4-1.7.5); con riesgo de mal uso no deben ofrecerse formulaciones de liberación inmediata o fácilmente inyectables o esnifables (1.7.24), y se recomienda prudencia ante posible desvío para rendimiento o supresión del apetito (1.7.23). En el adulto con trastorno bipolar, el metilfenidato sin eutimizante se asoció a más manía (Viktorin 2017). En chemsex: alcohol y metilfenidato elevan la exposición al fármaco (Patrick 2007); ritonavir puede inhibir el metabolismo de las anfetaminas (Antoniou 2002) y las pautas antirretrovirales potenciadas concentran el riesgo de interacción (Bracchi 2015); la suma con metanfetamina, catinonas o MDMA no se ha estudiado con estimulantes de prescripción [fuente no localizada]. La seguridad cardiovascular y psicótica se desarrolla en estim_seguridad.",
+     "links": [
+      {
+       "ids": [
+        "estim_seguridad"
+       ],
+       "t": "seguridad desarrollada"
+      },
+      {
+       "ids": [
+        "tdah_chemsex",
+        "chemsex_arv",
+        "metanf"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "tdah_dd_adulto"
+       ],
+       "t": "descartar bipolaridad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ostinelli EG et al. (2025). Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry 12:32-43 · PMID 39701638",
+    "Levin FR et al. (2015). Extended-release mixed amphetamine salts vs placebo for comorbid adult attention-deficit/hyperactivity disorder and cocaine use disorder: a randomized clinical trial. JAMA Psychiatry 72:593-602 · PMID 25887096",
+    "Konstenius M et al. (2014). Methylphenidate for attention deficit hyperactivity disorder and drug relapse in criminal offenders with substance dependence: a 24-week randomized placebo-controlled trial. Addiction 109:440-449 · PMID 24118269",
+    "Patrick KS et al. (2007). Influence of ethanol and gender on methylphenidate pharmacokinetics and pharmacodynamics. Clin Pharmacol Ther 81:346-353 · PMID 17339864",
+    "Chang Z et al. (2017). Association between medication use for attention-deficit/hyperactivity disorder and risk of motor vehicle crashes. JAMA Psychiatry 74:597-603 · PMID 28492937",
+    "Quinn PD et al. (2017). ADHD medication and substance-related problems. Am J Psychiatry 174:877-885 · PMID 28659039",
+    "Viktorin A et al. (2017). The risk of treatment-emergent mania with methylphenidate in bipolar disorder. Am J Psychiatry 174:341-348 · PMID 27690517",
+    "Antoniou T & Tseng AL (2002). Interactions between recreational drugs and antiretroviral agents. Ann Pharmacother 36:1598-1613 · PMID 12243611",
+    "Bracchi M et al. (2015). Increasing use of 'party drugs' in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "alcohol",
+    "atomoxetina"
+   ]
+  },
+  "atomoxetina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG87 la ofrece, junto con la guanfacina, a niños desde 5 años y adolescentes que no toleran metilfenidato ni lisdexanfetamina o no responden a ensayos separados de 6 semanas con ambos (1.7.10), y en adultos cuando no se toleran o no responden ambos estimulantes (1.7.15); también es una alternativa ante tics relacionados con estimulantes (1.8.14). En el metaanálisis en red de adultos fue, con los estimulantes, la única intervención con beneficio sobre los síntomas nucleares en escalas autoaplicadas (DME -0,38) y del clínico (-0,51), pero menos aceptable que el placebo por abandonos (OR 1,43) (Ostinelli 2025). En el ensayo de fase III de Hervas (2014), con un brazo de atomoxetina como referencia, la diferencia frente a placebo en la ADHD-RS-IV fue de -3,8 con atomoxetina y de -8,9 con guanfacina, sin que el estudio estuviera diseñado para compararlas. La ausencia de control como estupefaciente la hace útil cuando hay riesgo de desvío. La indicación española en niños, adolescentes y adultos figura en la descripción de esta ficha y en no_estim_tdah.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "indicación"
+      },
+      {
+       "ids": [
+        "no_estim_tdah",
+        "guanfacina"
+       ],
+       "t": "no estimulantes"
+      },
+      {
+       "ids": [
+        "tics"
+       ],
+       "t": "tics por estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Inhibidor selectivo del transportador de noradrenalina, que en la corteza prefrontal aumenta también la dopamina extracelular [fuente no localizada]. Su exposición depende del genotipo de CYP2D6, y la guía CPIC (Brown 2019) formula recomendaciones terapéuticas según el fenotipo metabolizador; con inhibidores potentes de CYP2D6 la exposición se multiplica (ver descripción). La ficha de Atomoxetina Cinfa añade precaución con salbutamol u otros agonistas β2 por vía sistémica o nebulizada a dosis altas, por potenciación cardiovascular; con prolongación del QT congénita, adquirida o familiar; y con antecedentes de convulsiones, con suspensión si aparecen crisis nuevas sin otra causa (4.4-4.5). NICE NG87 indica vigilar la disfunción sexual (eréctil y eyaculatoria) en jóvenes y adultos (1.8.15). En el análisis de 7961 pacientes de ensayos, los eventos hepáticos fueron sobre todo elevaciones leves de transaminasas, y en 4 años de farmacovigilancia tres casos de lesión hepática reversible se consideraron probablemente relacionados (Bangs 2008, Drug Saf).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "etnopsicofarm"
+       ],
+       "t": "farmacogenética CYP2D6"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT"
+      },
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Conducta suicida: en 14 ensayos pediátricos la ideación suicida fue del 0,37 % con atomoxetina frente al 0 % con placebo (diferencia de incidencia 0,46; p = 0,016), sin suicidios consumados ni diferencias frente a metilfenidato; número necesario para dañar de 227 (Bangs 2008, J Am Acad Child Adolesc Psychiatry). Hepatotoxicidad: suspender y no reintroducir ante ictericia o evidencia analítica de lesión hepática (Bangs 2008, Drug Saf; ficha técnica). Suspender ante psicosis o manía aguda (NICE NG87, 1.7.19). En chemsex: la atomoxetina carece de potencial de abuso relevante, pero la suma con estimulantes de uso recreativo (metanfetamina, catinonas, cocaína, MDMA) puede aumentar la carga noradrenérgica y cardiovascular [fuente no localizada]; los fármacos que inhiben CYP2D6 elevan su exposición (Brown 2019), y el efecto de ritonavir o cobicistat sobre la atomoxetina no se ha localizado en fuentes verificadas [fuente no localizada]. Sin datos con GHB/GBL, poppers o inhibidores de la PDE5 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "tdah_chemsex"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "cyp2d6"
+       ],
+       "t": "inhibidores de CYP2D6"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87), recomendaciones 1.7.4-1.8.16 (texto vigente consultado en noviembre de 2026)",
+    "Ostinelli EG et al. (2025). Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry 12:32-43 · PMID 39701638",
+    "Hervas A et al. (2014). Efficacy and safety of extended-release guanfacine hydrochloride in children and adolescents with attention-deficit/hyperactivity disorder: a randomized, controlled, phase III trial. Eur Neuropsychopharmacol 24:1861-1872 · PMID 25453486",
+    "Brown JT et al. (2019). Clinical Pharmacogenetics Implementation Consortium guideline for cytochrome P450 (CYP)2D6 genotype and atomoxetine therapy. Clin Pharmacol Ther 106:94-102 · PMID 30801677",
+    "Bangs ME et al. (2008). Hepatic events associated with atomoxetine treatment for attention-deficit hyperactivity disorder. Drug Saf 31:345-354 · PMID 18366245",
+    "Bangs ME et al. (2008). Meta-analysis of suicide-related behavior events in patients treated with atomoxetine. J Am Acad Child Adolesc Psychiatry 47:209-218 · PMID 18176331"
+   ],
+   "relAdd": [
+    "cyp2d6",
+    "qt_psicof",
+    "disf_sexual_psicof",
+    "tdah_adulto",
+    "chemsex_arv",
+    "tics",
+    "estim_adulto"
+   ]
+  },
+  "guanfacina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG87 la ofrece, como la atomoxetina, a niños desde 5 años y adolescentes que no toleran metilfenidato ni lisdexanfetamina o no responden a ensayos separados de 6 semanas con ambos (1.7.10), y la propone como alternativa ante tics relacionados con estimulantes en ese grupo de edad (1.8.14); en adultos, al ser uso fuera de indicación, solo con asesoramiento de un servicio terciario de TDAH (1.7.17). En el ensayo de fase III de Hervas (2014), en 6-17 años, la guanfacina de liberación prolongada mejoró la ADHD-RS-IV frente a placebo (diferencia ajustada -8,9), la impresión clínica global y los dominios de aprendizaje y familia de la WFIRS-P, con un brazo de atomoxetina como referencia (-3,8). En adultos, el metaanálisis en red la encontró menos aceptable que el placebo (OR de abandono 3,70) sin beneficio demostrado sobre síntomas (Ostinelli 2025). La indicación pediátrica española se recoge en la descripción de esta ficha y en no_estim_tdah.",
+     "links": [
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "indicación pediátrica"
+      },
+      {
+       "ids": [
+        "no_estim_tdah",
+        "atomoxetina"
+       ],
+       "t": "alternativas no estimulantes"
+      },
+      {
+       "ids": [
+        "tics",
+        "tourette"
+       ],
+       "t": "tics"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Agonista α2A con efecto sedante e hipotensor que condiciona su tolerabilidad: en el ensayo de Hervas (2014) los efectos más frecuentes fueron somnolencia, cefalea y fatiga, en su mayoría leves o moderados. Según la ficha de Intuniv, no inhibe las principales isoenzimas del CYP450 ni se espera que induzca CYP3A, CYP1A2 o CYP2B6; su asociación con ácido valproico puede aumentar las concentraciones de valproato, posiblemente por competencia en la glucuronidación, por lo que conviene vigilar efectos aditivos sobre el SNC y valorar niveles de valproico; con otros depresores del SNC (alcohol, sedantes, fenotiazinas, barbitúricos o benzodiacepinas) hay que prever sedación aditiva, y quien la toma no debe beber alcohol. La interacción con inhibidores e inductores de CYP3A4 figura en la descripción de esta ficha. NICE NG87 indica reducir la dosis o cambiar de fármaco ante hipotensión ortostática mantenida o síncopes (1.8.12).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "CYP3A4 y potenciadores"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "alcohol"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Hipotensión ortostática mantenida o síncopes obligan a reducir la dosis o cambiar de fármaco (NICE NG87, 1.8.12); la retirada brusca expone a hipertensión de rebote (ficha técnica, ver descripción). En chemsex, los riesgos son farmacodinámicos y farmacocinéticos: la sedación se suma a la de alcohol, benzodiacepinas y otros depresores (ficha de Intuniv), y por analogía cabe esperar suma con GHB/GBL y opioides, con riesgo de depresión del nivel de conciencia [fuente no localizada]; la hipotensión podría potenciarse con poppers e inhibidores de la PDE5 [fuente no localizada]; ritonavir, inhibidor potente de CYP3A4, aumenta su exposición (ficha técnica) y cabe esperar lo mismo con cobicistat [fuente no localizada]; Bracchi (2015) sitúa en los potenciadores el principal riesgo de interacción. Los estimulantes de uso recreativo pueden enmascarar la sedación y su cese brusco desenmascararla [fuente no localizada]. Vigilar frecuencia cardíaca, tensión arterial y QT con fármacos que lo prolongan.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "alcohol",
+        "opioides"
+       ],
+       "t": "depresores del SNC"
+      },
+      {
+       "ids": [
+        "poppers"
+       ],
+       "t": "poppers y PDE5"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hervas A et al. (2014). Efficacy and safety of extended-release guanfacine hydrochloride in children and adolescents with attention-deficit/hyperactivity disorder: a randomized, controlled, phase III trial. Eur Neuropsychopharmacol 24:1861-1872 · PMID 25453486",
+    "Ostinelli EG et al. (2025). Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry 12:32-43 · PMID 39701638",
+    "Bracchi M et al. (2015). Increasing use of 'party drugs' in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica Intuniv 1 mg comprimidos de liberación prolongada (n.º registro 1151040002), apartados 4.4, 4.5 y 5.2; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "ghb_gbl",
+    "alcohol",
+    "poppers",
+    "tics",
+    "qt_psicof",
+    "tdah_chemsex"
+   ]
+  },
+  "no_estim_tdah": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La posición de los no estimulantes en NICE NG87 es de segunda línea: atomoxetina o guanfacina en niños desde 5 años y adolescentes que no toleran o no responden a metilfenidato y lisdexanfetamina (1.7.10), y atomoxetina en adultos en la misma situación (1.7.15); la guanfacina en adultos solo con asesoramiento de un servicio terciario (1.7.17), y si no hay respuesta a uno o más estimulantes y a un no estimulante, segunda opinión o derivación terciaria (1.7.16). Ante tics atribuibles al estimulante, NICE propone reducir dosis o cambiar a guanfacina (solo en menores), atomoxetina o clonidina (1.8.14). En el metaanálisis en red de adultos (Ostinelli 2025), la atomoxetina redujo los síntomas nucleares de forma comparable a los estimulantes en escalas autoaplicadas, pero atomoxetina (OR de abandono 1,43) y guanfacina (OR 3,70) fueron menos aceptables que el placebo. En niños y adolescentes, el ensayo de Hervas (2014) mostró beneficio de la guanfacina frente a placebo con un brazo de atomoxetina de referencia.",
+     "links": [
+      {
+       "ids": [
+        "atomoxetina",
+        "guanfacina"
+       ],
+       "t": "fichas de cada fármaco"
+      },
+      {
+       "ids": [
+        "estim_adulto"
+       ],
+       "t": "primera línea en adultos"
+      },
+      {
+       "ids": [
+        "tics"
+       ],
+       "t": "tics por estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Los dos fármacos actúan sobre la neurotransmisión noradrenérgica por vías distintas: la atomoxetina inhibe el transportador de noradrenalina y depende de CYP2D6 (guía CPIC con recomendaciones por genotipo; Brown 2019), y la guanfacina es un agonista α2A metabolizado por CYP3A4/5 que no inhibe ni induce las principales isoenzimas (ficha de Intuniv). Sus perfiles adversos son opuestos: la atomoxetina aumenta frecuencia cardíaca y tensión arterial, puede producir disfunción sexual que NICE pide vigilar (1.8.15) y requiere precaución con agonistas β2 sistémicos, QT largo y convulsiones (ficha de atomoxetina, 4.4-4.5); la guanfacina produce somnolencia, cefalea y fatiga (Hervas 2014), hipotensión y bradicardia, sedación aditiva con alcohol y depresores y aumento de valproato (ficha de Intuniv). Los eventos hepáticos con atomoxetina fueron en su mayoría elevaciones leves de transaminasas, con tres casos probables de lesión hepática reversible en farmacovigilancia (Bangs 2008, Drug Saf).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6"
+       ],
+       "t": "CYP2D6"
+      },
+      {
+       "ids": [
+        "qt_psicof",
+        "disf_sexual_psicof"
+       ],
+       "t": "QT y función sexual"
+      },
+      {
+       "ids": [
+        "dopa_na_tdah"
+       ],
+       "t": "base noradrenérgica"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Atomoxetina: ideación suicida más frecuente que con placebo en ensayos pediátricos (0,37 % frente a 0 %; Bangs 2008, J Am Acad Child Adolesc Psychiatry) y retirada definitiva ante ictericia o lesión hepática (Bangs 2008, Drug Saf). Guanfacina: hipotensión ortostática o síncopes obligan a reducir dosis o cambiar (NICE NG87, 1.8.12), y la retirada debe ser gradual. Ambos se suspenden ante psicosis o manía aguda (1.7.19). En el contexto de chemsex, su ausencia de potencial de abuso los hace preferibles cuando hay riesgo de desvío de estimulantes, pero: la guanfacina suma sedación con alcohol y depresores (ficha de Intuniv), por analogía con GHB/GBL y opioides [fuente no localizada], y ritonavir aumenta su exposición por inhibición de CYP3A4 (ficha técnica), previsiblemente también cobicistat [fuente no localizada]; la atomoxetina con estimulantes de uso recreativo puede sumar carga cardiovascular [fuente no localizada]. Las pautas antirretrovirales potenciadas concentran el riesgo de interacción con drogas recreativas (Bracchi 2015).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "ghb_gbl",
+        "tdah_chemsex"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "estim_seguridad"
+       ],
+       "t": "comparación con estimulantes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87), recomendaciones 1.7.4-1.8.16 (texto vigente consultado en noviembre de 2026)",
+    "Ostinelli EG et al. (2025). Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry 12:32-43 · PMID 39701638",
+    "Hervas A et al. (2014). Efficacy and safety of extended-release guanfacine hydrochloride in children and adolescents with attention-deficit/hyperactivity disorder: a randomized, controlled, phase III trial. Eur Neuropsychopharmacol 24:1861-1872 · PMID 25453486",
+    "Brown JT et al. (2019). Clinical Pharmacogenetics Implementation Consortium guideline for cytochrome P450 (CYP)2D6 genotype and atomoxetine therapy. Clin Pharmacol Ther 106:94-102 · PMID 30801677",
+    "Bangs ME et al. (2008). Hepatic events associated with atomoxetine treatment for attention-deficit hyperactivity disorder. Drug Saf 31:345-354 · PMID 18366245",
+    "Bangs ME et al. (2008). Meta-analysis of suicide-related behavior events in patients treated with atomoxetine. J Am Acad Child Adolesc Psychiatry 47:209-218 · PMID 18176331",
+    "Bracchi M et al. (2015). Increasing use of 'party drugs' in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "AEMPS-CIMA (2026). Ficha técnica Intuniv 1 mg comprimidos de liberación prolongada (n.º registro 1151040002), apartados 4.4, 4.5 y 5.2; consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "cyp2d6",
+    "qt_psicof",
+    "chemsex_arv",
+    "ghb_gbl",
+    "tdah_chemsex",
+    "tics"
+   ]
+  },
+  "modafinilo": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "La guía de práctica clínica de la American Academy of Sleep Medicine, elaborada con GRADE, recomienda con fuerza el modafinilo para la narcolepsia en adultos, al mismo nivel que pitolisant, oxibato sódico y solriamfetol, y sugiere de forma condicional armodafinilo, dexanfetamina y metilfenidato; también recomienda el modafinilo en la hipersomnia idiopática del adulto (Maski 2021). La guía europea de la EAN, la ESRS y la European Narcolepsy Network recomienda para la somnolencia diurna excesiva del adulto siestas programadas, modafinilo, pitolisant, oxibato sódico y solriamfetol (recomendaciones fuertes), y metilfenidato y derivados anfetamínicos (débiles); el modafinilo no trata la cataplejía, para la que propone oxibato sódico, venlafaxina y clomipramina; en niños, el modafinilo figura como recomendación débil (Bassetti 2021), mientras que la ficha española no lo recomienda en menores de 18 años. En España, la única indicación autorizada es la somnolencia excesiva de la narcolepsia en adultos (ver descripción); la hipersomnia idiopática, la apnea con somnolencia residual y otros usos son fuera de ficha.",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "cataplejia"
+       ],
+       "t": "narcolepsia y cataplejía"
+      },
+      {
+       "ids": [
+        "hips_idiop"
+       ],
+       "t": "hipersomnia idiopática"
+      },
+      {
+       "ids": [
+        "apnea"
+       ],
+       "t": "somnolencia residual en apnea"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Su mecanismo incluye el bloqueo del transportador de dopamina: en un estudio PET en 10 varones sanos, dosis terapéuticas ocuparon el DAT en caudado, putamen y núcleo accumbens (reducción de la unión de [11C]cocaína del 39-54 %) y aumentaron la dopamina extracelular, incluida la del accumbens, por lo que los autores advierten de su potencial de abuso y dependencia en poblaciones vulnerables (Volkow 2009). La ficha de Modiodal reconoce un potencial de dependencia demostrado en estudios y pide cautela con antecedentes de alcoholismo o abuso de fármacos o sustancias. Como inductor de CYP3A4/5 (y de CYP1A2 y CYP2B6 in vitro), reduce las concentraciones de sustratos con primer paso intestinal importante, entre ellos ciclosporina (descenso del 50 % en un caso), inhibidores de la proteasa del VIH, buspirona, triazolam, midazolam, antagonistas del calcio y estatinas; por posible supresión de CYP2C9 puede disminuir el aclaramiento de la warfarina; y en personas con déficit de CYP2D6 cobra importancia la vía CYP2C19 para algunos tricíclicos e ISRS (ficha de Modiodal, 4.5).",
+     "links": [
+      {
+       "ids": [
+        "estim_monoam"
+       ],
+       "t": "transportador de dopamina"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "cyp2c19"
+       ],
+       "t": "vías metabólicas"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "inhibidores de la proteasa"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Además de las reacciones cutáneas graves, los efectos psiquiátricos y la contraindicación cardiovascular recogidos en la descripción, la ficha de Modiodal obliga a revisar los tratamientos concomitantes: puede reducir la eficacia de los inhibidores de la proteasa del VIH y de la ciclosporina, y alterar el efecto de la warfarina (4.5). En personas con VIH que practican chemsex, esto añade un riesgo de fracaso virológico con antirretrovirales metabolizados por CYP3A4 [fuente no localizada para estudios clínicos], mientras que los potenciadores (ritonavir, cobicistat) concentran el riesgo de interacción con drogas recreativas (Bracchi 2015). El bloqueo del DAT (Volkow 2009) justifica vigilar el uso no prescrito para prolongar la vigilia en sesiones; su combinación con metanfetamina, catinonas, cocaína o MDMA suma carga simpaticomimética [fuente no localizada]. La inducción de CYP3A4 podría reducir midazolam y triazolam (ficha técnica), sin datos con GHB/GBL, poppers ni inhibidores de la PDE5 [fuente no localizada]. Anticoncepción no hormonal adicional según ficha.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "metanf",
+        "catinonas_nuevas"
+       ],
+       "t": "estimulantes de uso recreativo"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "VIH y salud sexual"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Maski K et al. (2021). Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 17:1881-1893 · PMID 34743789",
+    "Bassetti CLA et al. (2021). European guideline and expert statements on the management of narcolepsy in adults and children. Eur J Neurol 28:2815-2830 · PMID 34173695",
+    "Volkow ND et al. (2009). Effects of modafinil on dopamine and dopamine transporters in the male human brain: clinical implications. JAMA 301:1148-1154 · PMID 19293415",
+    "Bracchi M et al. (2015). Increasing use of 'party drugs' in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268"
+   ],
+   "relAdd": [
+    "chemsex_arv",
+    "estim_monoam",
+    "metanf",
+    "cyp2d6",
+    "chemsex_ssex"
+   ]
+  },
+  "propranolol": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "Fuera de la psiquiatría, NICE CG150 considera el propranolol, junto con topiramato y amitriptilina, para la prevención de la migraña tras discutir beneficios y riesgos (1.3.18). En la acatisia inducida por antipsicóticos, el metaanálisis en red de Gerolymos (2024), con 15 ensayos y 492 participantes, halló que mirtazapina, biperideno y vitamina B6 se asociaron a la mayor eficacia, y que trazodona, mianserina y propranolol eran alternativas eficaces frente a placebo con un perfil algo menos favorable; los análisis de sensibilidad no confirmaron el resultado del propranolol. Su uso en la ansiedad de actuación se apoya en la indicación sintomática de la ficha y se desarrolla en propranolol_ans; en los trastornos de ansiedad y en la prevención del TEPT la evidencia es insuficiente (ver descripción). No se ha localizado una recomendación de NICE que lo sitúe en los trastornos de ansiedad [fuente no localizada para guías que lo recomienden]. Las indicaciones autorizadas en España (ficha de Sumial) figuran en la descripción.",
+     "links": [
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "acatisia por antipsicóticos"
+      },
+      {
+       "ids": [
+        "propranolol_ans",
+        "fobia_soc"
+       ],
+       "t": "ansiedad de actuación"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Betabloqueante no selectivo y lipófilo. La ficha de Sumial describe interacciones farmacodinámicas mayores: con antagonistas del calcio con efecto inotrópico negativo (verapamilo, diltiazem) se potencian la bradicardia y los trastornos de conducción, sobre todo con disfunción ventricular; puede exacerbar la hipertensión de rebote tras retirar clonidina, por lo que el betabloqueante se retira varios días antes que la clonidina, y si se sustituye clonidina por betabloqueante este se introduce varios días después; y el alcohol podría aumentar sus concentraciones plasmáticas (4.5). Sobre los efectos adversos psiquiátricos, un análisis cuantitativo de 15 ensayos con más de 35 000 personas no halló aumento significativo de síntomas depresivos con betabloqueantes, con un pequeño aumento de fatiga (1 caso adicional por cada 57 personas tratadas al año) y de disfunción sexual (1 por cada 199), sin diferencias según la liposolubilidad (Ko 2002). La depresión no debe atribuirse por defecto al betabloqueante sin valorar otras causas.",
+     "links": [
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia psiquiátrica de fármacos"
+      },
+      {
+       "ids": [
+        "cardio_dep"
+       ],
+       "t": "cardiopatía y depresión"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Contraindicaciones y retirada gradual figuran en la descripción. Cocaína y otros simpaticomiméticos: durante tres décadas se ha citado la estimulación α no contrarrestada tras betabloqueantes en personas con cocaína como contraindicación absoluta, pese a una evidencia limitada e inconsistente (Richards 2017); en la intoxicación aguda por cocaína, metanfetamina o catinonas la decisión corresponde a urgencias y su extrapolación a estas sustancias no está establecida [fuente no localizada]. Los poppers (nitritos de alquilo) y los inhibidores de la PDE5 producen vasodilatación e hipotensión, que podría sumarse al efecto del propranolol [fuente no localizada]. El alcohol podría aumentar sus concentraciones (ficha de Sumial, 4.5). Al enmascarar la taquicardia, puede ocultar signos de hipoglucemia, de tirotoxicosis y de toxicidad simpaticomimética [fuente no localizada para esta última]. Con clonidina, verapamilo o diltiazem, vigilancia de frecuencia cardíaca y conducción según ficha. No se ha localizado interacción relevante con antirretrovirales potenciados ni con GHB/GBL [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cocaina",
+        "metanf",
+        "catinonas_nuevas"
+       ],
+       "t": "estimulantes"
+      },
+      {
+       "ids": [
+        "poppers"
+       ],
+       "t": "poppers y PDE5"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "chemsex_s"
+       ],
+       "t": "alcohol y chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2012). Headaches in over 12s: diagnosis and management (CG150), recomendación 1.3.18 (consulta de noviembre de 2026)",
+    "Gerolymos C et al. (2024). Drug efficacy in the treatment of antipsychotic-induced akathisia: a systematic review and network meta-analysis. JAMA Netw Open 7:e241527 · PMID 38451521",
+    "Ko DT et al. (2002). Beta-blocker therapy and symptoms of depression, fatigue, and sexual dysfunction. JAMA 288:351-357 · PMID 12117400",
+    "Richards JR et al. (2017). β-Blockers, cocaine, and the unopposed α-stimulation phenomenon. J Cardiovasc Pharmacol Ther 22:239-249 · PMID 28399647"
+   ],
+   "relAdd": [
+    "cocaina",
+    "poppers",
+    "disf_sexual_psicof",
+    "iatrog_farm",
+    "chemsex_s"
+   ]
+  },
+  "donepezilo": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG97 recomienda los tres inhibidores de la acetilcolinesterasa (donepezilo, galantamina, rivastigmina) en monoterapia como opciones para el Alzheimer leve a moderado, iniciando normalmente por el de menor coste de adquisición (1.5.2 y 1.5.6), considerar añadir memantina en la enfermedad moderada y ofrecerla en la grave en quien ya recibe un inhibidor (1.5.4), y no suspender el inhibidor solo porque aumente la gravedad. En la demencia con cuerpos de Lewy leve a moderada, ofrecer donepezilo o rivastigmina, y considerarlos en la grave (1.5.10 y 1.5.12); en la demencia vascular, solo si se sospecha Alzheimer, demencia de Parkinson o de Lewy comórbidos (1.5.14); no ofrecerlos en la demencia frontotemporal ni en el deterioro cognitivo de la esclerosis múltiple (1.5.15-1.5.16). En Alzheimer grave institucionalizado, el donepezilo mejoró la cognición (SIB +5,7) y frenó el deterioro funcional frente a placebo, con más abandonos por efectos adversos (20 frente a 8) (Winblad 2006), aunque la ficha española limita la indicación hasta el estadio moderadamente grave (ver descripción).",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "lewy"
+       ],
+       "t": "Alzheimer y Lewy"
+      },
+      {
+       "ids": [
+        "memantina",
+        "rivastigmina",
+        "galantamina"
+       ],
+       "t": "alternativas y combinación"
+      },
+      {
+       "ids": [
+        "ncd_leve"
+       ],
+       "t": "sin indicación en deterioro leve"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Aumenta la acetilcolina sináptica al inhibir de forma reversible la acetilcolinesterasa central. La ficha de Aricept describe efectos farmacodinámicos de clase relevantes en la persona mayor: probable potenciación de la relajación muscular tipo succinilcolina durante la anestesia; sinergia con bloqueantes neuromusculares, agonistas colinérgicos y betabloqueantes con efecto sobre la conducción cardíaca; interferencia con fármacos anticolinérgicos; vigilancia de síntomas ulcerosos en quien tiene antecedentes de úlcera o toma AINE; y precaución en asma o enfermedad pulmonar obstructiva por su acción colinomimética (4.4-4.5). En una cohorte poblacional de 19 803 personas mayores con demencia tratadas con inhibidores de la colinesterasa, las visitas hospitalarias por síncope (HR 1,76), bradicardia (1,69), implantación de marcapasos (1,49) y fractura de cadera (1,18) fueron más frecuentes que en controles (Gill 2009). La incontinencia urinaria nueva puede desencadenar una cascada de prescripción con anticolinérgicos (HR 1,55; Gill 2005).",
+     "links": [
+      {
+       "ids": [
+        "polifarm",
+        "iatrog_farm"
+       ],
+       "t": "cascada de prescripción"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "farmacología en la persona mayor"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "bradicardia y QT"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Síncope, caídas, bradicardia o necesidad de marcapasos deben hacer revisar el tratamiento (Gill 2009); informar al equipo de anestesia por la potenciación de la succinilcolina (ficha de Aricept). Evitar asociar anticolinérgicos para tratar la incontinencia sin valorar antes el papel del propio donepezilo (Gill 2005; NICE NG97 sobre minimizar la carga anticolinérgica, 1.6.1-1.6.2). En personas mayores con VIH, el donepezilo se metaboliza por CYP3A4 y CYP2D6 y su concentración aumenta con ketoconazol (ver descripción), por lo que cabe esperar un aumento con ritonavir o cobicistat [fuente no localizada]. El alcohol, como inductor, reduce sus concentraciones según la ficha. No se han localizado datos sobre interacciones con GHB/GBL, catinonas, metanfetamina, MDMA, poppers ni inhibidores de la PDE5 [fuente no localizada]; la bradicardia podría agravar la hipotensión por vasodilatadores [fuente no localizada]. Antipsicóticos en demencia: riesgo de mortalidad e ictus y de reacciones de hipersensibilidad grave en la demencia con cuerpos de Lewy (NICE NG97, 1.7.4).",
+     "links": [
+      {
+       "ids": [
+        "ap_dem_riesgo",
+        "lewy"
+       ],
+       "t": "antipsicóticos en demencia"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "vih_ncd"
+       ],
+       "t": "VIH y antirretrovirales"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "revisión de la medicación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Winblad B et al. (2006). Donepezil in patients with severe Alzheimer's disease: double-blind, parallel-group, placebo-controlled study. Lancet 367:1057-1065 · PMID 16581404",
+    "Gill SS et al. (2009). Syncope and its consequences in patients with dementia receiving cholinesterase inhibitors: a population-based cohort study. Arch Intern Med 169:867-873 · PMID 19433698",
+    "Gill SS et al. (2005). A prescribing cascade involving cholinesterase inhibitors and anticholinergic drugs. Arch Intern Med 165:808-813 · PMID 15824303",
+    "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97), recomendaciones 1.5.2-1.5.16 y 1.6.1-1.6.3 (texto vigente consultado en noviembre de 2026)"
+   ],
+   "relAdd": [
+    "polifarm",
+    "fk_mayor",
+    "qt_psicof",
+    "ap_dem_riesgo",
+    "chemsex_arv"
+   ]
+  },
+  "rivastigmina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG97 la incluye entre los tres inhibidores de la acetilcolinesterasa recomendados en monoterapia para el Alzheimer leve a moderado (1.5.2) y, con el donepezilo, como opción a ofrecer en la demencia con cuerpos de Lewy leve a moderada y a considerar en la grave (1.5.10 y 1.5.12). NICE NG71 recomienda ofrecer un inhibidor de la colinesterasa en la demencia de la enfermedad de Parkinson leve o moderada, considerarlo en la grave y reservar la memantina para cuando no se toleran o están contraindicados (1.5.22-1.5.24). En la demencia con cuerpos de Lewy, un ensayo aleatorizado de 120 pacientes mostró menos apatía, ansiedad, delirios y alucinaciones con rivastigmina, con respuesta (mejoría ≥30 %) en el 63 % frente al 30 % con placebo, y pérdida del beneficio al suspenderla (McKeith 2000); el consenso del DLB Consortium reconoce que sus recomendaciones de manejo se basan sobre todo en opinión experta por la escasez de ensayos (McKeith 2017). Las indicaciones autorizadas en España, incluida la demencia de Parkinson, figuran en la descripción.",
+     "links": [
+      {
+       "ids": [
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "Lewy y Parkinson"
+      },
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "Alzheimer"
+      },
+      {
+       "ids": [
+        "donepezilo",
+        "memantina"
+       ],
+       "t": "alternativas"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Inhibe la acetilcolinesterasa y la butirilcolinesterasa por carbamilación pseudoirreversible [fuente no localizada para la inhibición de butirilcolinesterasa], con hidrólisis por las propias colinesterasas y sin interacciones previstas por CYP (ver descripción). Según la ficha de Exelon, la nicotina aumenta un 23 % el aclaramiento oral de rivastigmina en Alzheimer (análisis poblacional con 75 personas fumadoras y 549 no fumadoras), y puede interferir con fármacos anticolinérgicos (5.2 y 4.5). La vía transdérmica mejora la tolerabilidad digestiva: en el ensayo IDEAL (1195 personas con Alzheimer, 24 semanas), el parche de 10 cm² tuvo eficacia similar a las cápsulas con aproximadamente dos tercios menos de náuseas (7,2 % frente a 23,1 %) y vómitos (6,2 % frente a 17,0 %), sin diferencia significativa con placebo y con buena tolerancia cutánea (Winblad 2007). Como clase, los inhibidores de la colinesterasa se asociaron a más síncope, bradicardia, marcapasos y fractura de cadera (Gill 2009).",
+     "links": [
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "tabaco y aclaramiento"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "farmacología en la persona mayor"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "anticolinérgicos"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Vigilar peso, síntomas digestivos, frecuencia cardíaca y caídas (Gill 2009); con parches, los errores de aplicación (varios parches a la vez o sin retirar el anterior) se han asociado a sobredosis colinérgica [fuente no localizada]. Antipsicóticos: en la demencia con cuerpos de Lewy y en la de Parkinson pueden empeorar el parkinsonismo y provocar reacciones graves de sensibilidad (NICE NG97, 1.7.4), lo que da un valor añadido a la mejoría de las alucinaciones con rivastigmina (McKeith 2000). Evitar cascadas con anticolinérgicos para la incontinencia (Gill 2005). Cambios bruscos en el hábito tabáquico modifican su aclaramiento (ficha de Exelon). Al no metabolizarse por CYP, no se esperan interacciones farmacocinéticas relevantes con ritonavir o cobicistat [fuente no localizada]; no hay datos sobre GHB/GBL, estimulantes de uso recreativo, MDMA, poppers ni inhibidores de la PDE5 [fuente no localizada], aunque la bradicardia colinérgica podría sumarse a la hipotensión por vasodilatadores [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ap_dem_riesgo",
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "sensibilidad a antipsicóticos"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "cascada de prescripción"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2017). Parkinson's disease in adults (NG71), recomendaciones 1.5.22-1.5.24 (consulta de noviembre de 2026)",
+    "McKeith I et al. (2000). Efficacy of rivastigmine in dementia with Lewy bodies: a randomised, double-blind, placebo-controlled international study. Lancet 356:2031-2036 · PMID 11145488",
+    "McKeith IG et al. (2017). Diagnosis and management of dementia with Lewy bodies: fourth consensus report of the DLB Consortium. Neurology 89:88-100 · PMID 28592453",
+    "Winblad B et al. (2007). IDEAL: a 6-month, double-blind, placebo-controlled study of the first skin patch for Alzheimer disease. Neurology 69:S14-S22 · PMID 17646619",
+    "Gill SS et al. (2009). Syncope and its consequences in patients with dementia receiving cholinesterase inhibitors: a population-based cohort study. Arch Intern Med 169:867-873 · PMID 19433698",
+    "Gill SS et al. (2005). A prescribing cascade involving cholinesterase inhibitors and anticholinergic drugs. Arch Intern Med 165:808-813 · PMID 15824303"
+   ],
+   "relAdd": [
+    "tabaco",
+    "polifarm",
+    "fk_mayor",
+    "ap_dem_riesgo"
+   ]
+  },
+  "galantamina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG97 la incluye entre los inhibidores de la acetilcolinesterasa recomendados en monoterapia para el Alzheimer leve a moderado, con inicio normalmente por el de menor coste de adquisición (1.5.2 y 1.5.6), y no suspender el tratamiento solo por el aumento de la gravedad. En la demencia con cuerpos de Lewy leve a moderada la sitúa por detrás: solo considerar galantamina si donepezilo y rivastigmina no se toleran (1.5.11). En la demencia vascular, solo si se sospecha Alzheimer, demencia de Parkinson o de Lewy comórbidos (1.5.14), y no en la demencia frontotemporal (1.5.15). Para la demencia de la enfermedad de Parkinson, NICE NG71 recomienda «un inhibidor de la colinesterasa» sin especificar (1.5.22), pero la ficha española de galantamina no recoge esa indicación (ver descripción). Los datos comparativos con otros inhibidores proceden de la revisión Cochrane y del consenso de la BAP citados en la descripción; no se han localizado ensayos directos de calidad que muestren superioridad entre ellos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "Alzheimer"
+      },
+      {
+       "ids": [
+        "lewy"
+       ],
+       "t": "Lewy: tercera opción"
+      },
+      {
+       "ids": [
+        "donepezilo",
+        "rivastigmina"
+       ],
+       "t": "inhibidores preferentes en Lewy"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Inhibidor competitivo de la acetilcolinesterasa; se le atribuye además una modulación alostérica de receptores nicotínicos [fuente no localizada]. La ficha de Reminyl recoge interacciones farmacodinámicas con fármacos que reducen significativamente la frecuencia cardíaca, como digoxina, betabloqueantes, algunos antagonistas del calcio y amiodarona, y precaución en síndrome del seno enfermo, trastornos de la conducción supraventricular y alteraciones electrolíticas no corregidas (hiperpotasemia, hipopotasemia); prescripción cuidadosa en asma grave, enfermedad pulmonar obstructiva o infección pulmonar activa; y probable potenciación de la relajación muscular tipo succinilcolina durante la anestesia, sobre todo con déficit de pseudocolinesterasa. A dosis terapéuticas no modificó la cinética de la digoxina, aunque persiste la interacción farmacodinámica (4.4-4.5). Su metabolismo por CYP2D6 y CYP3A4 y las interacciones con paroxetina y ketoconazol se describen en la descripción. La asociación de clase con síncope, bradicardia y fractura de cadera procede de cohortes poblacionales (Gill 2009).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6"
+       ],
+       "t": "CYP2D6"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "persona mayor"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "conducción cardíaca"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Revisar el tratamiento ante síncope, bradicardia o caídas (Gill 2009) y avisar a anestesia (ficha de Reminyl). Evitar la cascada de prescripción con anticolinérgicos urinarios (Gill 2005). En personas con VIH, la galantamina se metaboliza por CYP2D6 y CYP3A4 y el ketoconazol aumenta su biodisponibilidad (ver descripción), de modo que ritonavir o cobicistat podrían aumentar su exposición y los efectos colinérgicos [fuente no localizada]; la paroxetina, inhibidora de CYP2D6, también la eleva (ver descripción). No se han localizado datos sobre GHB/GBL, catinonas, metanfetamina, MDMA, poppers ni inhibidores de la PDE5 [fuente no localizada]. En deterioro cognitivo leve no está indicada por falta de beneficio y aumento de mortalidad en dos ensayos (ver descripción). Antipsicóticos en Lewy y Parkinson: riesgo de reacciones de sensibilidad graves (NICE NG97, 1.7.4).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "cascada de prescripción"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "antipsicóticos en demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2017). Parkinson's disease in adults (NG71), recomendaciones 1.5.22-1.5.24 (consulta de noviembre de 2026)",
+    "Gill SS et al. (2009). Syncope and its consequences in patients with dementia receiving cholinesterase inhibitors: a population-based cohort study. Arch Intern Med 169:867-873 · PMID 19433698",
+    "Gill SS et al. (2005). A prescribing cascade involving cholinesterase inhibitors and anticholinergic drugs. Arch Intern Med 165:808-813 · PMID 15824303",
+    "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97), recomendaciones 1.5.2-1.5.16 y 1.6.1-1.6.3 (texto vigente consultado en noviembre de 2026)"
+   ],
+   "relAdd": [
+    "lewy",
+    "cyp2d6",
+    "polifarm",
+    "fk_mayor",
+    "chemsex_arv"
+   ]
+  },
+  "memantina": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG97 recomienda la memantina en monoterapia en el Alzheimer moderado cuando hay intolerancia o contraindicación a los inhibidores de la acetilcolinesterasa y en el Alzheimer grave (1.5.3); en quien ya recibe un inhibidor, considerar añadirla en la enfermedad moderada y ofrecerla en la grave (1.5.4). En la demencia con cuerpos de Lewy, considerarla si los inhibidores no se toleran o están contraindicados (1.5.13), igual que en la demencia de Parkinson según NICE NG71 (1.5.24); no ofrecerla en la demencia frontotemporal ni en el deterioro cognitivo de la esclerosis múltiple (1.5.15-1.5.16), y en la vascular solo con sospecha de patología mixta (1.5.14). La evidencia de la combinación es discordante: en 404 personas con Alzheimer moderado-grave y donepezilo estable, añadir memantina mejoró cognición (SIB), actividades diarias, impresión global y conducta, con menos abandonos por efectos adversos (7,4 % frente a 12,4 %) (Tariot 2004), mientras que en DOMINO la combinación no superó al donepezilo solo (ver descripción).",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "Alzheimer, Lewy y Parkinson"
+      },
+      {
+       "ids": [
+        "donepezilo"
+       ],
+       "t": "combinación con donepezilo"
+      },
+      {
+       "ids": [
+        "agit_dem"
+       ],
+       "t": "sin indicación en agitación"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "Antagonista NMDA de baja afinidad, de eliminación renal casi completa y sin metabolismo relevante por CYP (ver descripción). La ficha de Ebixa añade interacciones no recogidas en esta ficha: un caso clínico publicado sugiere riesgo con fenitoína; con hidroclorotiazida o combinaciones que la contengan pueden descender los niveles séricos del diurético; y en la insuficiencia renal moderada o grave la dosis se ajusta según el aclaramiento de creatinina, sin cambios en la leve (4.2 y 4.5). Sobre la conducción, la ficha señala que el Alzheimer moderado a grave ya compromete la capacidad de conducir y que Ebixa tiene una influencia leve a moderada, por lo que se debe advertir a los pacientes ambulatorios (4.7). En el ensayo de Tariot (2004), añadida a donepezilo, se toleró bien y hubo menos abandonos por efectos adversos que con placebo. Su perfil anticolinérgico es nulo, lo que la hace compatible con las recomendaciones de NICE NG97 de minimizar la carga anticolinérgica (1.6.1-1.6.2) [fuente no localizada para la ausencia de actividad anticolinérgica].",
+     "links": [
+      {
+       "ids": [
+        "nmda_psic"
+       ],
+       "t": "receptor NMDA"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "función renal en la persona mayor"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "carga anticolinérgica"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La ficha desaconseja asociarla con ketamina, amantadina o dextrometorfano por riesgo de psicosis farmacotóxica (ver descripción); en el contexto de chemsex, el uso recreativo de ketamina es el escenario de riesgo más previsible, y su gravedad clínica en personas mayores con demencia no se ha estudiado [fuente no localizada]. La orina alcalina reduce mucho su eliminación renal (ver descripción). No se han localizado datos sobre GHB/GBL, catinonas, metanfetamina, MDMA, poppers ni inhibidores de la PDE5 [fuente no localizada]. Al no depender de CYP, no se esperan interacciones farmacocinéticas relevantes con ritonavir o cobicistat, pero en personas mayores con VIH la polifarmacia, la función renal y las interacciones requieren revisión periódica (Back 2020). Vigilar convulsiones en epilepsia, ajustar a la función renal y advertir sobre la conducción (ficha de Ebixa).",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec",
+        "ketamina"
+       ],
+       "t": "ketamina"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "vih_ncd"
+       ],
+       "t": "VIH en la persona mayor"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "polifarmacia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Tariot PN et al. (2004). Memantine treatment in patients with moderate to severe Alzheimer disease already receiving donepezil: a randomized controlled trial. JAMA 291:317-324 · PMID 14734594",
+    "NICE (2017). Parkinson's disease in adults (NG71), recomendaciones 1.5.22-1.5.24 (consulta de noviembre de 2026)",
+    "Back D & Marzolini C (2020). The challenge of HIV treatment in an era of polypharmacy. J Int AIDS Soc 23:e25449 · PMID 32011104"
+   ],
+   "relAdd": [
+    "lewy",
+    "parkinson_psiq",
+    "agit_dem",
+    "fk_mayor",
+    "polifarm",
+    "chemsex_arv",
+    "vih_ncd"
+   ]
+  },
+  "polifarm": {
+   "secAdd": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "NICE NG5 propone revisiones estructuradas de la medicación cuando haya un propósito claro, que recojan la visión de la persona y de su familia o cuidadores, todos los fármacos prescritos, sin receta y complementarios, su seguridad, eficacia, adecuación y concordancia con las guías, los factores de riesgo de reacciones adversas y la monitorización necesaria (1.4.1-1.4.3), y considera herramientas de cribado como STOPP/START en personas mayores (1.1.9). NICE NG97 pide minimizar los fármacos con carga anticolinérgica, buscar alternativas al valorar la derivación por sospecha de demencia y en las revisiones de quienes viven con demencia, y reconoce que no hay evidencia para preferir una escala de carga anticolinérgica concreta (1.6.1-1.6.3). La deprescripción sistemática es factible: con el algoritmo Good Palliative-Geriatric Practice, en 70 personas mayores de la comunidad se recomendó retirar el 58 % de los fármacos, con éxito en el 81 % de las retiradas, sin eventos adversos atribuibles y con mejoría global percibida en el 88 % (Garfinkel 2010). La educación directa al paciente es eficaz: en EMPOWER, el 27 % abandonó las benzodiacepinas frente al 5 % con atención habitual (Tannenbaum 2014).",
+     "links": [
+      {
+       "ids": [
+        "desprescr_bzd",
+        "bzd_mayor"
+       ],
+       "t": "deprescripción de benzodiacepinas"
+      },
+      {
+       "ids": [
+        "dem",
+        "ncd_leve"
+       ],
+       "t": "carga anticolinérgica y demencia"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "farmacología en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "El perfil farmacológico de la polifarmacia en la persona mayor resulta de la suma de cambios farmacocinéticos (menor aclaramiento renal y hepático, más grasa corporal), sensibilidad farmacodinámica aumentada e interacciones (ver fk_mayor). Un mecanismo característico es la cascada de prescripción, en la que un efecto adverso se interpreta como un problema nuevo y se trata con otro fármaco: en 44 884 personas mayores con demencia, quienes recibieron un inhibidor de la colinesterasa tuvieron más probabilidad de recibir después un anticolinérgico para la incontinencia urinaria (4,5 % frente a 3,1 %; HR 1,55), combinación de efectos opuestos (Gill 2005). Los inhibidores de la colinesterasa se asociaron, además, a más síncope, bradicardia, marcapasos y fractura de cadera (Gill 2009). En las personas mayores con VIH, las comorbilidades asociadas a la edad, la disfunción orgánica y los cambios fisiológicos aumentan las interacciones, los errores de dosificación y el uso inapropiado, y la revisión recomienda conciliación, revisión y priorización de la medicación (Back 2020).",
+     "links": [
+      {
+       "ids": [
+        "donepezilo",
+        "rivastigmina",
+        "galantamina"
+       ],
+       "t": "inhibidores de la colinesterasa"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia farmacológica"
+      },
+      {
+       "ids": [
+        "vih_ncd"
+       ],
+       "t": "VIH en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Señales que deben activar una revisión: caídas, síncope, delirium, deterioro cognitivo o funcional nuevo, hiponatremia, incontinencia de reciente aparición y cualquier síntoma tratado con un fármaco añadido sin valorar la posible causa iatrogénica (Gill 2005; Gill 2009). La retirada se hace de un fármaco cada vez y de forma gradual en los que producen abstinencia (ver descripción). En personas mayores con VIH, los antirretrovirales potenciados con ritonavir o cobicistat son el principal origen de interacciones (Back 2020; Bracchi 2015), y la revisión debe incluir las drogas de uso recreativo, también en edades avanzadas: el chemsex introduce GHB/GBL, metanfetamina, catinonas, MDMA, ketamina, poppers e inhibidores de la PDE5, con interacciones descritas entre drogas recreativas y antirretrovirales (Antoniou 2002). La combinación de depresores del SNC (benzodiacepinas, opioides, GHB/GBL, alcohol) en la persona mayor aumenta el riesgo de sedación, caídas y depresión respiratoria [fuente no localizada para estudios específicos en mayores]. Incluir siempre sustancias sin receta y complementarias (NICE NG5, 1.4.3).",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "hiponatr_psicof"
+       ],
+       "t": "delirium e hiponatremia"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "ghb_gbl",
+        "poppers"
+       ],
+       "t": "chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "alc_tardio"
+       ],
+       "t": "alcohol en la persona mayor"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "NICE (2015). Medicines optimisation: the safe and effective use of medicines to enable the best possible outcomes (NG5), recomendaciones 1.1.9 y 1.4.1-1.4.3 (consulta de noviembre de 2026)",
+    "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97), recomendaciones 1.5.2-1.5.16 y 1.6.1-1.6.3 (texto vigente consultado en noviembre de 2026)",
+    "Garfinkel D & Mangin D (2010). Feasibility study of a systematic approach for discontinuation of multiple medications in older adults: addressing polypharmacy. Arch Intern Med 170:1648-1654 · PMID 20937924",
+    "Tannenbaum C et al. (2014). Reduction of inappropriate benzodiazepine prescriptions among older adults through direct patient education: the EMPOWER cluster randomized trial. JAMA Intern Med 174:890-898 · PMID 24733354",
+    "Gill SS et al. (2005). A prescribing cascade involving cholinesterase inhibitors and anticholinergic drugs. Arch Intern Med 165:808-813 · PMID 15824303",
+    "Gill SS et al. (2009). Syncope and its consequences in patients with dementia receiving cholinesterase inhibitors: a population-based cohort study. Arch Intern Med 169:867-873 · PMID 19433698",
+    "Back D & Marzolini C (2020). The challenge of HIV treatment in an era of polypharmacy. J Int AIDS Soc 23:e25449 · PMID 32011104",
+    "Bracchi M et al. (2015). Increasing use of 'party drugs' in people living with HIV on antiretrovirals: a concern for patient safety. AIDS 29:1585-1592 · PMID 26372268",
+    "Antoniou T & Tseng AL (2002). Interactions between recreational drugs and antiretroviral agents. Ann Pharmacother 36:1598-1613 · PMID 12243611"
+   ],
+   "relAdd": [
+    "donepezilo",
+    "rivastigmina",
+    "galantamina",
+    "vih_ncd",
+    "chemsex_arv",
+    "ghb_gbl"
+   ]
+  }
+ },
+ "add": []
+}

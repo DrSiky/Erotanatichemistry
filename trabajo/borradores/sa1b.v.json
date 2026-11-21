@@ -1,0 +1,415 @@
+{
+ "patch": {
+  "b12": {
+   "relAdd": [
+    "oxido_nitroso"
+   ]
+  },
+  "delirium": {
+   "relAdd": [
+    "oxido_nitroso",
+    "inhalantes"
+   ]
+  },
+  "ketamina_rec": {
+   "relAdd": [
+    "oxido_nitroso"
+   ]
+  },
+  "poppers": {
+   "relAdd": [
+    "oxido_nitroso",
+    "inhalantes"
+   ],
+   "featsAdd": [
+    "Los inhalantes volátiles distintos de los nitritos (disolventes, colas, aerosoles, gases) y el óxido nitroso tienen fichas propias en el atlas"
+   ]
+  },
+  "chemsex_s": {
+   "relAdd": [
+    "oxido_nitroso"
+   ]
+  },
+  "sdu": {
+   "relAdd": [
+    "oxido_nitroso"
+   ]
+  },
+  "red_danos": {
+   "relAdd": [
+    "oxido_nitroso",
+    "inhalantes"
+   ]
+  },
+  "sustanc": {
+   "relAdd": [
+    "oxido_nitroso",
+    "inhalantes"
+   ]
+  },
+  "tcs": {
+   "relAdd": [
+    "inhalantes",
+    "oxido_nitroso"
+   ],
+   "featsAdd": [
+    "Inhalantes volátiles (CIE-11 6C4B) y óxido nitroso recreativo: véanse sus fichas propias"
+   ]
+  },
+  "psust": {
+   "relAdd": [
+    "oxido_nitroso",
+    "inhalantes"
+   ]
+  },
+  "dem": {
+   "relAdd": [
+    "inhalantes"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "oxido_nitroso",
+   "n": "Óxido nitroso recreativo: déficit funcional de vitamina B12, mielopatía y síntomas psiquiátricos",
+   "ab": "Óxido nitroso",
+   "al": [
+    "N2O",
+    "gas de la risa",
+    "gas hilarante"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2019,
+   "tags": [
+    "chemsex",
+    "emerg",
+    "organic",
+    "child"
+   ],
+   "cie": [
+    "6C4E Trastornos debidos al consumo de otras sustancias psicoactivas especificadas, incluidos medicamentos (asignación del óxido nitroso a esta categoría) [fuente oficial no localizada]",
+    "XM73B5 Óxido nitroso (código de extensión de sustancia)"
+   ],
+   "desc": "El óxido nitroso (N2O) es un gas anestésico cuyo uso recreativo ha aumentado con rapidez entre personas jóvenes; en el Reino Unido se describe como la segunda droga recreativa más consumida en ese grupo de edad (Paris 2023). El consumo crónico e intenso produce un déficit funcional de vitamina B12 que se expresa sobre todo como degeneración combinada subaguda de la médula, mielopatía y polineuropatía, con posibles síntomas psiquiátricos (psicosis, depresión, agitación). Como la B12 sérica puede ser normal, la homocisteína y el ácido metilmalónico son los marcadores clave (Marsden 2022). Reconocido a tiempo, el cuadro es tratable, pero puede dejar discapacidad permanente en personas jóvenes (Paris 2023). La CIE-11 no tiene una categoría propia: solo lo recoge como código de extensión de sustancia (XM73B5).",
+   "feats": [
+    "Mecanismo: oxidación de la metilcobalamina con alteración de la producción de mielina (Cornelio 2025); la revisión sistemática de Marsden (2022) atribuye la toxicidad a un déficit funcional de B12, dependiente de la intensidad del consumo",
+    "En 100 casos publicados (mediana de edad 27 años; 57 % de uso recreativo) predominaron parestesias (80 %), marcha inestable (58 %) y debilidad (43 %), con degeneración combinada subaguda (28 %), mielopatía (26 %) y polineuropatía desmielinizante generalizada (23 %) (Oussalah 2019)",
+    "La B12 sérica fue normal o alta en 133 de 243 casos de series y en 37 de 84 casos aislados; la homocisteína y el ácido metilmalónico solían estar elevados y la macrocitosis y la anemia fueron poco frecuentes (Marsden 2022)",
+    "Resonancia magnética: hiperintensidad T2 medular en el 68 % de los casos (Oussalah 2019); cuando se especificaba, la alteración afectaba a los cordones posteriores, típicamente en la médula cervical, y los estudios de conducción nerviosa mostraron sobre todo polineuropatía sensitivomotora (Marsden 2022)",
+    "Psicosis: en 20 casos analizados (17 hombres y 3 mujeres, de 20 a 45 años) eran frecuentes el trastorno por consumo previo, sobre todo de alcohol, y la escalada del consumo de N2O antes del episodio; todas las personas fueron hospitalizadas (Garriga-Solé 2026)",
+    "Otras complicaciones médicas descritas: neumomediastino y congelación; en la revisión de casos se hallaron 11 publicaciones con 29 muertes relacionadas con el consumo de N2O (Garakani 2016)"
+   ],
+   "tx": "Abstinencia del gas como primera intervención y reposición de vitamina B12, que es el tratamiento de elección en la toxicidad crónica (Marsden 2022), con valoración neurológica precoz; la vía, la pauta y la duración deben ajustarse a los protocolos de neurología y hematología, sin que existan guías consensuadas (Paris 2023). En la psicosis asociada, la abstinencia, la reposición de B12 y el tratamiento antipsicótico se acompañaron de mejoría en la mayoría de los casos publicados (Garriga-Solé 2026). El papel de la metionina está pendiente de investigación (Marsden 2022) y la naltrexona y el aripiprazol solo se citan como fármacos emergentes en una revisión de alcance (Cornelio 2025), sin ensayos controlados que los respalden [fuente no localizada]. Abordaje sin juicio, con información y reducción de daños.",
+   "note": "La evidencia procede casi por completo de casos y series publicados, con sesgo de publicación y sin denominador para estimar riesgos; el metaanálisis de Oussalah (2019) es de datos individuales de casos, no de cohortes. Marsden (2022) advierte de que su propuesta diagnóstica requiere validación prospectiva y Paris (2023) señala que no hay guías consensuadas de tratamiento. La revisión de Cornelio (2025) es de alcance (scoping) y no evalúa la calidad de los estudios. La CIE-11 no ofrece una categoría específica para el óxido nitroso: su asignación a 6C4E es una inferencia no confirmada en fuente oficial.",
+   "sec": [
+    {
+     "t": "Diagnóstico y diagnóstico diferencial",
+     "x": "El diagnóstico exige preguntar de forma explícita y sin juicio por el consumo de óxido nitroso ante una persona joven con parestesias, inestabilidad de la marcha o debilidad, o con un cuadro psiquiátrico atípico. Una B12 sérica normal no excluye la toxicidad: la homocisteína y el ácido metilmalónico, habitualmente elevados, son los biomarcadores más útiles (Marsden 2022); en el metaanálisis de casos estaban elevados en el 90,3 % y el 93,8 % de quienes tenían determinación (Oussalah 2019). La resonancia de la médula cervical y los estudios de conducción completan la valoración (Marsden 2022). El diagnóstico diferencial incluye otras causas de déficit de B12 o folato, otras mielopatías y polineuropatías [fuente no localizada para el listado], la psicosis primaria o inducida por otras sustancias y el delirium de causa médica.",
+     "links": [
+      {
+       "ids": [
+        "b12"
+       ],
+       "t": "déficit de vitamina B12 y folato"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida por sustancias"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "trastornos por consumo de sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Síntomas psiquiátricos, curso y pronóstico",
+     "x": "En la revisión sistemática de casos de Garakani (2016), 72 de 91 casos tuvieron secuelas neurológicas y 11 manifestaciones psiquiátricas, entre ellas psicosis. La revisión de alcance de Cornelio (2025) describe depresión, ideas delirantes y agitación en adolescentes y propone como mecanismos el antagonismo del receptor NMDA y la liberación de opioides endógenos, con posible dependencia. En la serie de Garriga-Solé (2026) los cuadros psicóticos cursaron con delirios y alucinaciones y a menudo con complicaciones neurológicas; la evolución fue variable, con mejoría en la mayoría tras la abstinencia, la reposición de B12 y los antipsicóticos. En la toxicidad neurológica la recuperación parcial fue la evolución más descrita (Marsden 2022): el reconocimiento precoz condiciona el pronóstico (Paris 2023).",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec",
+        "nmda_psic"
+       ],
+       "t": "antagonismo NMDA y disociativos"
+      },
+      {
+       "ids": [
+        "dep_induc"
+       ],
+       "t": "depresión inducida por sustancias"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje y reducción de daños",
+     "x": "La intervención combina el tratamiento médico (abstinencia y reposición de B12) con una aproximación motivacional y no estigmatizante. La información útil para quien consume incluye que la toxicidad crónica es dependiente de la dosis (Marsden 2022) y que hormigueos, entumecimiento, torpeza o inestabilidad al caminar son motivos para dejar el gas y consultar sin demora [fuente no localizada para el consejo concreto]. Entre las complicaciones agudas descritas figuran la congelación y el neumomediastino (Garakani 2016). En salud pública se proponen campañas educativas, control normativo y programas de prevención escolar (Cornelio 2025). En la evaluación del uso sexualizado de drogas conviene preguntar también por el óxido nitroso [fuente no localizada para su prevalencia en el chemsex].",
+     "links": [
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      },
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "entrevista motivacional"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "chemsex y uso sexualizado de drogas"
+      },
+      {
+       "ids": [
+        "ttos_adiccion"
+       ],
+       "t": "fármacos para las adicciones"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Parestesias progresivas, inestabilidad de la marcha o debilidad en una persona que consume óxido nitroso orientan a degeneración combinada subaguda y requieren valoración médica urgente, porque el tratamiento precoz puede evitar una discapacidad permanente (Paris 2023). Ideas delirantes, alucinaciones, agitación o confusión obligan a descartar un delirium o una causa orgánica antes de atribuir el cuadro a una psicosis primaria; en la serie de Garriga-Solé (2026) todas las personas con psicosis precisaron hospitalización. La revisión de Garakani (2016) recoge muertes relacionadas con el consumo, por lo que la pérdida de conciencia durante el consumo es una urgencia [fuente no localizada para el mecanismo de las muertes].",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium y causa orgánica"
+      },
+      {
+       "ids": [
+        "b12"
+       ],
+       "t": "degeneración combinada subaguda por déficit de B12"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Garakani A et al. (2016). Neurologic, psychiatric, and other medical manifestations of nitrous oxide abuse: a systematic review of the case literature. Am J Addict 25:358-369 · PMID 27037733",
+    "Oussalah A et al. (2019). Global burden related to nitrous oxide exposure in medical and recreational settings: a systematic review and individual patient data meta-analysis. J Clin Med 8:551 · PMID 31018613",
+    "Marsden P et al. (2022). Review article: Clinical manifestations and outcomes of chronic nitrous oxide misuse: a systematic review. Emerg Med Australas 34:492-503 · PMID 35695047",
+    "Paris A et al. (2023). Nitrous oxide-induced subacute combined degeneration of the cord: diagnosis and treatment. Pract Neurol 23:222-228 · PMID 36813556",
+    "Cornelio VC et al. (2025). Impact of nitrous oxide on neuropsychiatric impairment in adolescents: a scoping review. Cureus 17:e89448 · PMID 40772002",
+    "Garriga-Solé L et al. (2026). Psychosis related to nitrous oxide misuse: a case series and systematic review. Clin Psychopharmacol Neurosci 24:252-276 · PMID 42036737",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad (tabulación simplificada MMS): XM73B5 Nitrous oxide (código de extensión de sustancia); 6C4E Disorders due to use of other specified psychoactive substances, including medications"
+   ],
+   "rel": [
+    "b12",
+    "delirium",
+    "ketamina_rec",
+    "psust",
+    "chemsex_s",
+    "sdu",
+    "red_danos",
+    "tcs",
+    "poppers",
+    "dep_induc",
+    "entrev_motiv"
+   ]
+  },
+  {
+   "id": "inhalantes",
+   "n": "Inhalantes volátiles: intoxicación, muerte súbita por inhalación, neurotoxicidad y trastorno por consumo",
+   "ab": "Inhalantes volátiles",
+   "al": [
+    "disolventes",
+    "sustancias volátiles",
+    "colas y pegamentos",
+    "aerosoles"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 1,
+   "trad": "cie",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2011,
+   "tags": [
+    "risk",
+    "emerg",
+    "organic",
+    "child",
+    "chr"
+   ],
+   "cie": [
+    "6C4B",
+    "6C4B.3",
+    "6C4B.4",
+    "6C4B.5",
+    "6C4B.6",
+    "6D72.13",
+    "6D84.2"
+   ],
+   "desc": "El consumo de inhalantes es la inhalación deliberada de una sustancia volátil para alcanzar un estado mental alterado (Baydala 2010). Se trata de productos farmacológicamente diversos (disolventes, colas, pinturas y otros aerosoles, gases propelentes, combustibles), elegidos por su bajo precio y su disponibilidad legal (Baydala 2010; Anderson 2003). La experimentación es frecuente en la adolescencia temprana (Lubman 2008); afecta a menudo a edades más jóvenes que otras drogas, es especialmente frecuente en poblaciones minoritarias y marginadas (Baydala 2010) y en la infancia y la adolescencia socioeconómicamente desfavorecidas (Konghom 2010). Agudamente puede causar muerte súbita por inhalación, asfixia y lesiones; el consumo crónico daña el sistema nervioso central, el corazón, el riñón y el hígado (Anderson 2003). La CIE-11 lo codifica en 6C4B. Los nitritos de alquilo (poppers) y el óxido nitroso tienen fichas propias en el atlas.",
+   "feats": [
+    "Más de 22 millones de personas de 12 años o más en Estados Unidos habían consumido inhalantes, con más de 750.000 inicios al año; pese a ello es la forma de consumo menos estudiada, la «epidemia olvidada» (Howard 2011)",
+    "Casi el 20 % del alumnado de secundaria había experimentado con sustancias inhaladas en las encuestas estadounidenses; el consumo puede producir euforia y llegar a ser adictivo (Anderson 2003)",
+    "Riesgos agudos: síndrome de muerte súbita por inhalación, asfixia y lesiones graves como caídas, quemaduras y congelación (Anderson 2003); la expresión «sudden sniffing death» da título al artículo de Bass (1970)",
+    "Neurotoxicidad crónica: la leucoencefalopatía por tolueno afecta a la mielina del SNC y su componente más incapacitante es la demencia; se detecta por la clínica, la evaluación neuroconductual y la resonancia magnética (Filley 2004)",
+    "Sin pruebas de laboratorio específicas que confirmen la inhalación: el diagnóstico descansa en una anamnesis minuciosa y un alto índice de sospecha; no hay antídotos y el tratamiento de la intoxicación es de soporte (Anderson 2003)",
+    "La revisión Cochrane no encontró ningún ensayo aleatorizado ni ensayo clínico controlado sobre el tratamiento de la dependencia o el abuso de inhalantes (búsqueda hasta 2010; Konghom 2010)"
+   ],
+   "tx": "Intoxicación: tratamiento de soporte, sin antídotos (Anderson 2003), con monitorización y atención a la posibilidad de arritmias y traumatismos [fuente no localizada para la monitorización concreta]. Trastorno por consumo en adolescentes: los datos preliminares apoyan un abordaje multimodal con consejo individual (intervención breve cognitivo-conductual), terapia familiar y programas de actividad y vinculación, reservando el tratamiento residencial para las presentaciones graves (Nguyen 2016). Evaluación neurológica y neuropsicológica en el consumo crónico. Cribado y derivación precoz (Baydala 2010).",
+   "note": "La revisión Cochrane no halló ningún ensayo que cumpliera los criterios de inclusión, por lo que no pueden extraerse conclusiones para la práctica (Konghom 2010); las recomendaciones de Nguyen (2016) son una síntesis narrativa de datos preliminares. Los datos epidemiológicos citados son de Estados Unidos y Canadá y no deben extrapolarse a España sin fuentes propias. La posible reversibilidad de la neurotoxicidad con la abstinencia apenas se ha investigado en estudios preclínicos (Lubman 2008). Los criterios del DSM-5-TR se mencionan sin cotejo literal del texto.",
+   "sec": [
+    {
+     "t": "Intoxicación y muerte súbita por inhalación",
+     "x": "Los efectos conductuales agudos de los inhalantes se explican sobre todo por cambios en la actividad de receptores y canales iónicos: activación de los receptores GABA-A, de glicina y 5-HT3 e inhibición del receptor NMDA, con interacciones inespecíficas a concentraciones altas (Lubman 2008). La intoxicación (CIE-11 6C4B.3) produce un cuadro depresor con euforia inicial [fuente no localizada para la descripción clínica detallada] y puede complicarse con delirium inducido (6C4B.5). El síndrome de muerte súbita por inhalación, que da título al artículo de Bass (1970), puede ocurrir en un consumo aislado [fuente no localizada]; se atribuye clásicamente a arritmias cardiacas [fuente no localizada para el mecanismo]. A ello se suman la asfixia y las lesiones por caídas, quemaduras o congelación (Anderson 2003). No hay antídoto y el tratamiento es de soporte.",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium inducido"
+      },
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "trastornos por consumo de sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Neurotoxicidad y daño orgánico crónico",
+     "x": "El consumo crónico se asocia de forma consistente a efectos tóxicos importantes, con deterioro neurológico y neuropsicológico y cambios difusos y sutiles de la sustancia blanca (Lubman 2008). El tolueno es la neurotoxina mejor estudiada: la exposición intensa y prolongada produce una leucoencefalopatía cuyo componente más incapacitante es la demencia (Filley 2004); la CIE-11 recoge la demencia (6D84.2) y el trastorno amnésico (6D72.13) debidos al consumo de inhalantes volátiles. El consumo crónico puede dañar además el corazón, el riñón y el hígado, y durante el embarazo puede causar anomalías fetales (Anderson 2003); el tolueno tiene efectos teratógenos en seres humanos y en modelos animales (Filley 2004). Los efectos del consumo crónico son graves y a menudo irreversibles (Baydala 2010), y los mecanismos de una posible reversibilidad con la abstinencia apenas se han investigado (Lubman 2008).",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ncd_leve"
+       ],
+       "t": "trastorno neurocognitivo mayor y leve"
+      }
+     ]
+    },
+    {
+     "t": "Clasificación y diagnóstico",
+     "x": "La CIE-11 agrupa en 6C4B los trastornos debidos al consumo de inhalantes volátiles: episodio de consumo nocivo (6C4B.0), patrón de consumo nocivo (6C4B.1), dependencia (6C4B.2), intoxicación (6C4B.3), abstinencia (6C4B.4), delirium (6C4B.5), trastorno psicótico (6C4B.6) y trastornos del estado de ánimo (6C4B.70) y de ansiedad (6C4B.71) inducidos. El DSM-5-TR describe el trastorno por consumo y la intoxicación por inhalantes y clasifica el óxido nitroso y los nitritos como «otras sustancias» (APA 2022). No existen pruebas de laboratorio específicas: el diagnóstico se apoya en la anamnesis y en un alto índice de sospecha (Anderson 2003); en adolescentes ayudan el autoinforme de la persona y de su familia y los signos médicos registrados por el médico o la médica (Nguyen 2016).",
+     "links": [
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "trastornos por consumo"
+      },
+      {
+       "ids": [
+        "psust",
+        "dep_induc",
+        "anx_sust"
+       ],
+       "t": "trastornos psicóticos, depresivos y de ansiedad inducidos"
+      },
+      {
+       "ids": [
+        "poppers",
+        "oxido_nitroso"
+       ],
+       "t": "poppers y óxido nitroso"
+      },
+      {
+       "ids": [
+        "dast10"
+       ],
+       "t": "cribado de consumo de drogas"
+      }
+     ]
+    },
+    {
+     "t": "Población adolescente, prevención y tratamiento",
+     "x": "La experimentación con inhalantes es frecuente en la adolescencia temprana, una etapa de intensa maduración cerebral en la que apenas se ha estudiado el impacto neurobiológico del consumo repetido (Lubman 2008). El consumo se asocia con fuerza a los determinantes sociales de la salud y es especialmente frecuente en poblaciones minoritarias y marginadas; el cribado amplio y la derivación precoz se han acompañado de mejoras mentales, físicas y sociales (Baydala 2010). Para la prevención son útiles la psicoeducación, el entrenamiento en habilidades y la reducción del acceso a los productos; para el tratamiento, los datos preliminares apoyan el consejo individual, la terapia familiar y los programas de actividad y vinculación (Nguyen 2016). Ningún tratamiento ha sido evaluado en ensayos controlados (Konghom 2010).",
+     "links": [
+      {
+       "ids": [
+        "ter_fam_inf"
+       ],
+       "t": "terapia familiar en la adolescencia"
+      },
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "entrevista motivacional"
+      },
+      {
+       "ids": [
+        "desig"
+       ],
+       "t": "pobreza y desigualdad"
+      },
+      {
+       "ids": [
+        "tcond",
+        "tdah_sustancias"
+       ],
+       "t": "trastorno de conducta y TDAH con consumo"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Howard MO et al. (2011). Inhalant use and inhalant use disorders in the United States. Addict Sci Clin Pract 6:18-31 · PMID 22003419",
+    "Lubman DI et al. (2008). Inhalant abuse among adolescents: neurobiological considerations. Br J Pharmacol 154:316-326 · PMID 18332858",
+    "Filley CM et al. (2004). The effects of toluene on the central nervous system. J Neuropathol Exp Neurol 63:1-12 · PMID 14748556",
+    "Konghom S et al. (2010). Treatment for inhalant dependence and abuse. Cochrane Database Syst Rev (12):CD007537 · PMID 21154379",
+    "Nguyen J et al. (2016). Adolescent inhalant use prevention, assessment, and treatment: a literature synthesis. Int J Drug Policy 31:15-24 · PMID 26969125",
+    "Baydala L (2010). Inhalant abuse. Paediatr Child Health 15:443-454 · PMID 21886449",
+    "Anderson CE et al. (2003). Recognition and prevention of inhalant abuse. Am Fam Physician 68:869-874 · PMID 13678134",
+    "Bass M (1970). Sudden sniffing death. JAMA 212:2075-2079 · PMID 5467774 (sin resumen en PubMed; citado solo como origen del término)",
+    "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington, DC: American Psychiatric Association Publishing. Trastornos relacionados con inhalantes [no verificada]",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad (tabulación simplificada MMS): 6C4B Disorders due to use of volatile inhalants y subcategorías; 6D72.13; 6D84.2"
+   ],
+   "rel": [
+    "tcs",
+    "oxido_nitroso",
+    "poppers",
+    "delirium",
+    "dem",
+    "ncd_leve",
+    "psust",
+    "red_danos",
+    "ter_fam_inf",
+    "desig",
+    "tcond",
+    "sustanc"
+   ]
+  }
+ ]
+}

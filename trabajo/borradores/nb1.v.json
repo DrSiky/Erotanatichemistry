@@ -1,0 +1,853 @@
+{
+ "patch": {
+  "ap_tipicos": {
+   "relAdd": [
+    "sulpirida",
+    "flufenazina"
+   ]
+  },
+  "amisulprida": {
+   "relAdd": [
+    "sulpirida",
+    "tiaprida"
+   ]
+  },
+  "hiperprl_ap": {
+   "relAdd": [
+    "sulpirida"
+   ]
+  },
+  "clozapina": {
+   "relAdd": [
+    "sulpirida"
+   ]
+  },
+  "dpsic": {
+   "relAdd": [
+    "sulpirida"
+   ]
+  },
+  "tourette": {
+   "relAdd": [
+    "sulpirida",
+    "tiaprida"
+   ]
+  },
+  "huntington": {
+   "relAdd": [
+    "tiaprida"
+   ]
+  },
+  "dt_alc": {
+   "relAdd": [
+    "tiaprida",
+    "gabapentina"
+   ]
+  },
+  "agit_dem": {
+   "relAdd": [
+    "tiaprida"
+   ]
+  },
+  "discin_tard": {
+   "relAdd": [
+    "tiaprida",
+    "flufenazina"
+   ]
+  },
+  "ap_lai": {
+   "relAdd": [
+    "flufenazina"
+   ]
+  },
+  "zuclopentixol": {
+   "relAdd": [
+    "flufenazina"
+   ]
+  },
+  "alcohol": {
+   "relAdd": [
+    "topiramato",
+    "gabapentina"
+   ]
+  },
+  "bed": {
+   "relAdd": [
+    "topiramato"
+   ]
+  },
+  "valproato_fertil": {
+   "relAdd": [
+    "topiramato"
+   ]
+  },
+  "vpa_bip": {
+   "relAdd": [
+    "topiramato"
+   ]
+  },
+  "epilepsia_psic": {
+   "relAdd": [
+    "topiramato"
+   ]
+  },
+  "pregabalina": {
+   "relAdd": [
+    "gabapentina"
+   ]
+  },
+  "opioides": {
+   "relAdd": [
+    "gabapentina"
+   ]
+  },
+  "farm_anx": {
+   "relAdd": [
+    "gabapentina"
+   ]
+  },
+  "haloperidol": {
+   "relAdd": [
+    "flufenazina"
+   ]
+  },
+  "gabap_nomed": {
+   "relAdd": [
+    "gabapentina"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "sulpirida",
+   "n": "Sulpirida (Dogmatil) y las benzamidas sustituidas",
+   "ab": "Sulpirida",
+   "al": [
+    "Dogmatil",
+    "Dogmatil Fuerte",
+    "sulpiride",
+    "benzamida sustituida",
+    "Psicocen"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1969,
+   "tags": [
+    "elderly"
+   ],
+   "desc": "Benzamida sustituida (grupo ATC N05AL01, «antipsicóticos: benzamidas») que, según la ficha técnica (5.1), antagoniza de forma específica los receptores dopaminérgicos D2 y D3. Fichas AEMPS-CIMA de referencia: Dogmatil Fuerte 200 mg comprimidos (n.º de registro 48558; primera autorización en España en 1969) y Dogmatil 50 mg/ml solución inyectable (48557). Indicaciones autorizadas (4.1): trastornos depresivos con síntomas psicóticos, en combinación con antidepresivos cuando estos solos han sido ineficaces, y otras formas graves de depresión resistentes a los antidepresivos; vértigo sin respuesta al tratamiento antivertiginoso habitual, y psicosis agudas y crónicas. Comparte con la amisulprida, benzamida posterior, el perfil D2/D3, la eliminación renal y la hiperprolactinemia. La evidencia de ensayos es escasa: la revisión Cochrane de Soares (2000) reunió 18 estudios pequeños y de baja calidad, sin diferencias claras con otros antipsicóticos y sin datos de ensayo que respalden su pretendida eficacia sobre los síntomas negativos.",
+   "feats": [
+    "Contraindicaciones (4.3, Dogmatil Fuerte): tumores dependientes de prolactina (prolactinoma, cáncer de mama), feocromocitoma, asociación con levodopa o antiparkinsonianos (incluido ropinirol), porfiria aguda, QTc superior a 440 ms o riesgo añadido: bradicardia inferior a 50 lpm, arritmias sintomáticas, cardiopatía relevante o tratamiento con antiarrítmicos de clase I o III u fármacos que prolongan el QT.",
+    "Farmacocinética (5.2): biodisponibilidad oral del 25-35 % con amplia variabilidad interindividual, escasa difusión cerebral, ausencia de metabolismo activo y eliminación renal inalterada con semivida de unas 7 h; la ficha obliga a reducir la dosis según el aclaramiento de creatinina y advierte de concentraciones plasmáticas mayores en personas mayores (4.2).",
+    "Reacciones adversas frecuentes (4.8): hiperprolactinemia, galactorrea y dolor mamario, sedación o somnolencia, insomnio, síntomas extrapiramidales (parkinsonismo, temblor, acatisia), estreñimiento, aumento de enzimas hepáticas, exantema maculopapular y aumento de peso; poco frecuentes, amenorrea, alteración del orgasmo, disfunción eréctil, distonía e hipotensión ortostática (ficha técnica de Dogmatil Fuerte).",
+    "Interacciones (4.5): contraindicada con levodopa y antiparkinsonianos y con zumo de pomelo; no recomendada con alcohol ni con fármacos que prolongan el QT o inducen bradicardia o hipopotasemia (entre ellos metadona, haloperidol, pimozida, litio y antidepresivos imipramínicos); sucralfato y antiácidos con magnesio o aluminio reducen su absorción, y el litio aumenta el riesgo de síntomas extrapiramidales.",
+    "Embarazo y lactancia (4.6): datos humanos muy limitados; no se recomienda en el embarazo ni en mujeres en edad fértil sin anticoncepción eficaz salvo que el beneficio lo justifique; riesgo de síntomas extrapiramidales o de retirada en el recién nacido expuesto en el tercer trimestre; se excreta en la leche en cantidades bastante grandes.",
+    "Potenciación de la clozapina: en la revisión Cochrane de Wang (2010; 4 ensayos, 221 participantes con esquizofrenia resistente o síntomas negativos prominentes) la falta de respuesta tendió a ser menor con sulpirida añadida (RR 0,58; IC 95 % 0,3-1,09), con más trastornos del movimiento y prolactina más alta, pero menos hipersalivación (RR 0,49)."
+   ],
+   "tx": "Antipsicótico de segunda línea. En esquizofrenia, NICE CG178 (1.3.5.1) no prioriza fármacos concretos y remite a la elección compartida informando de los efectos metabólicos, extrapiramidales, cardiovasculares (QT) y hormonales (prolactina) de cada uno, en línea con la guía de la APA (Keepers 2020) [fuente no localizada]; dentro de las benzamidas, la amisulprida dispone de una evidencia comparativa mucho más sólida (véase su ficha). El uso con algún respaldo de ensayos es la potenciación de la clozapina en la esquizofrenia resistente (Wang 2010), con datos de baja calidad. Antes de iniciarla: ECG si hay factores de riesgo de QT, corrección del potasio, ajuste a la función renal y vigilancia de la prolactina y de los síntomas extrapiramidales. No se dan pautas individualizadas: límites y requisitos según la ficha técnica AEMPS-CIMA.",
+   "note": "La distinción clásica entre dosis bajas eficaces sobre la sintomatología negativa y dosis altas eficaces sobre los síntomas positivos figura en la propia ficha (5.1), que no habla de efecto antidepresivo, pero no procede de ensayos controlados: Soares (2000) concluye que esa pretensión sobre los síntomas negativos no se basa en ensayos, y la revisión de Wang y Sampson (2014) solo halló dos ensayos frente a placebo (113 participantes) sin diferencias claras. Algunas fichas de cápsulas de 50 mg (p. ej., Sulpirida Kern Pharma, n.º 73195) conservan indicaciones de redacción histórica («neurosis», «somatizaciones neuróticas», «involución psíquica de la senectud»), sin respaldo de ensayos modernos [fuente no localizada]. También existen en CIMA asociaciones fijas de sulpirida con diazepam (Ansium; Tepazepan, con piridoxina) cuyas indicaciones son el insomnio o la ansiedad y la depresión con ansiedad generalizada, y que suman los riesgos de la benzodiacepina a los del antagonista D2.",
+   "sec": [
+    {
+     "t": "Indicaciones en España y lugar en las guías",
+     "x": "Las fichas de Dogmatil (comprimidos 48558 e inyectable 48557) autorizan tres usos (4.1): depresión con síntomas psicóticos o depresión grave resistente, siempre en combinación con antidepresivos; vértigo refractario, y psicosis agudas y crónicas. La ficha del inyectable conserva además una enumeración histórica («esquizofrenia, delirios crónicos, autismo; trastornos graves del comportamiento; estados neuróticos con inhibición y depresión»). Las guías actuales no reservan un lugar propio a la sulpirida: en esquizofrenia, NICE CG178 (1.3.5.1) recomienda elegir el antipsicótico con la persona informando de los efectos adversos previsibles de cada fármaco (en el mismo sentido, Keepers 2020 [fuente no localizada]), y en la depresión psicótica la combinación de referencia es un antidepresivo con un antipsicótico, sin preferencia demostrada por la sulpirida [fuente no localizada]. Para el vértigo refractario no se han localizado ensayos controlados indexados que justifiquen la indicación [fuente no localizada]. En la práctica, la indicación psiquiátrica más defendible es la psicosis, y aun así con una base de ensayos débil (Soares 2000; Wang y Sampson 2014).",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "dpsic",
+        "drt"
+       ],
+       "t": "esquizofrenia, depresión psicótica y resistente"
+      },
+      {
+       "ids": [
+        "ap_atipicos",
+        "ap_tipicos"
+       ],
+       "t": "antipsicóticos de primera y segunda generación"
+      }
+     ]
+    },
+    {
+     "t": "Sulpirida y amisulprida en perspectiva",
+     "x": "Ambas son benzamidas sustituidas con antagonismo selectivo D2/D3 sin afinidad relevante por receptores serotoninérgicos, histaminérgicos o colinérgicos, y ambas se eliminan casi íntegramente por el riñón, por lo que comparten la necesidad de ajuste en la insuficiencia renal, el riesgo de prolongación del QT y la hiperprolactinemia (ficha técnica de Dogmatil, 4.2, 4.4 y 4.8; la amisulprida figura entre los antipsicóticos que elevan la prolactina en Haddad y Wieck 2004). Las diferencias son de evidencia más que de mecanismo: la sulpirida tiene una biodisponibilidad oral baja y variable (25-35 %) y escasa difusión cerebral según su ficha (5.2), y sus ensayos son antiguos, pequeños y de baja calidad, mientras que la amisulprida, autorizada en España solo para la esquizofrenia (Solian), fue en el metaanálisis en red de Huhn (2019; 32 fármacos) la que más redujo los síntomas positivos (DME −0,69 frente a placebo); en ese mismo análisis, la sulpirida obtuvo la mayor reducción de los síntomas depresivos (DME −0,90; IC creíble 95 % −1,36 a −0,44), con confianza en la evidencia a menudo baja o muy baja. La tiaprida, tercera benzamida comercializada, se usa en indicaciones neurológicas y en la abstinencia alcohólica. Elegir sulpirida en lugar de amisulprida para una psicosis exige, por tanto, una razón concreta (respuesta previa, tolerancia, preferencia informada).",
+     "links": [
+      {
+       "ids": [
+        "amisulprida",
+        "tiaprida"
+       ],
+       "t": "otras benzamidas"
+      },
+      {
+       "ids": [
+        "hiperprl_ap",
+        "qt_psicof"
+       ],
+       "t": "prolactina y QT"
+      },
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "antagonismo D2"
+      }
+     ]
+    },
+    {
+     "t": "Otros usos: clozapina, tics y asociaciones con benzodiacepinas",
+     "x": "La potenciación de la clozapina en la esquizofrenia resistente es el uso con más ensayos: en Wang (2010) la sulpirida añadida tendió a reducir la falta de respuesta a corto plazo (RR 0,58; IC 95 % 0,3-1,09; tres ensayos, 193 participantes) a costa de más trastornos del movimiento y de prolactina, con menos hipersalivación y menos aumento de peso; a largo plazo no hubo diferencias en estado global ni recaídas (un ensayo, 70 participantes). En el síndrome de Tourette, la revisión de Besag (2021) incluyó ensayos de sulpirida y tiaprida entre los antipsicóticos con alguna mejoría frente a placebo, con estudios en general pequeños, breves y anteriores a los estándares CONSORT. Las asociaciones fijas con diazepam presentes en CIMA (Ansium; Tepazepan) tienen indicaciones de insomnio, ansiedad o depresión con ansiedad generalizada y añaden el riesgo de dependencia de la benzodiacepina, por lo que no deben confundirse con el uso antipsicótico.",
+     "links": [
+      {
+       "ids": [
+        "clozapina"
+       ],
+       "t": "clozapina"
+      },
+      {
+       "ids": [
+        "tourette",
+        "tics_tr"
+       ],
+       "t": "tics y Tourette"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "dependencia de benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Según la ficha técnica (4.4 y 4.8): síncope, palpitaciones o QTc prolongado (riesgo de torsade de pointes, arritmia ventricular y muerte súbita); hipertermia de origen no aclarado, incluso sin rigidez, como posible síndrome neuroléptico maligno, que obliga a suspender todos los antipsicóticos; fiebre o infección inexplicadas por posible leucopenia, neutropenia o agranulocitosis; hiponatremia o secreción inadecuada de hormona antidiurética; tromboembolismo venoso; convulsiones en personas con epilepsia, y crisis hipertensivas en personas hipertensas, sobre todo mayores. En personas mayores con demencia, la ficha recoge un riesgo de muerte de 1,6 a 1,7 veces el del placebo con antipsicóticos y un riesgo de ictus triplicado con algunos atípicos. En sobredosis (4.9) pueden aparecer discinesias con tortícolis, protrusión lingual y trismo, parkinsonismo con riesgo vital y coma; no hay antídoto, se elimina parcialmente por hemodiálisis y se recomienda monitorización cardiaca hasta la recuperación.",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "qt_psicof"
+       ],
+       "t": "síndrome neuroléptico maligno y QT"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "antipsicóticos en la demencia"
+      },
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "hiponatremia por psicofármacos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Soares BG, Fenton M & Chue P (2000). Sulpiride for schizophrenia. Cochrane Database Syst Rev 1999(2):CD001162 · PMID 10796605",
+    "Wang J & Sampson S (2014). Sulpiride versus placebo for schizophrenia. Cochrane Database Syst Rev 2014(4):CD007811 · PMID 24729184",
+    "Wang J et al. (2010). Sulpiride augmentation for schizophrenia. Cochrane Database Syst Rev 2010(1):CD008125 · PMID 20091661",
+    "Besag FM et al. (2021). Pharmacological treatment for Tourette syndrome in children and adults: what is the quality of the evidence? A systematic review. J Psychopharmacol 35:1037-1061 · PMID 34286606",
+    "Haddad PM & Wieck A (2004). Antipsychotic-induced hyperprolactinaemia: mechanisms, clinical features and management. Drugs 64:2291-2314 · PMID 15456328",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1 [2009, modificada en 2014]; texto consultado en nice.org.uk en noviembre de 2026",
+    "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516 [sin resumen en PubMed; contenido no contrastado en el texto completo]",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "AEMPS-CIMA (2026). Ficha técnica de Dogmatil Fuerte 200 mg comprimidos (sulpirida; n.º de registro 48558) y de Dogmatil 50 mg/ml solución inyectable (n.º de registro 48557), apartados 4.1-4.9, 5.1 y 5.2; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Sulpirida Kern Pharma 50 mg cápsulas (n.º de registro 73195), Ansium cápsulas duras (53295) y Tepazepan cápsulas duras (51519), apartado 4.1; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "amisulprida",
+    "ap_tipicos",
+    "ap_atipicos",
+    "d2_block",
+    "hiperprl_ap",
+    "qt_psicof",
+    "clozapina",
+    "dpsic",
+    "drt",
+    "esq",
+    "tiaprida",
+    "tourette"
+   ]
+  },
+  {
+   "id": "tiaprida",
+   "n": "Tiaprida (Tiaprizal)",
+   "ab": "Tiaprida",
+   "al": [
+    "Tiaprizal",
+    "tiapride",
+    "Tiapridal",
+    "benzamida sustituida"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 1978,
+   "tags": [
+    "elderly"
+   ],
+   "desc": "Benzamida sustituida (ATC N05AL03) que, según la ficha técnica (5.1), muestra in vitro selectividad por los receptores dopaminérgicos D2 y D3, sin afinidad por receptores serotoninérgicos, noradrenérgicos ni histaminérgicos, y es especialmente activa sobre receptores previamente sensibilizados a la dopamina, lo que la ficha relaciona con su efecto antidiscinético. Fichas AEMPS-CIMA: Tiaprizal 100 mg comprimidos (n.º de registro 54279), 100 mg solución inyectable (54263) y 12 mg/ml gotas orales (54264), autorizados en 1978. Indicaciones (4.1): comprimidos e inyectable, «tratamiento a corto plazo de estados de agitación y agresividad en pacientes alcohólicos» (literal de la ficha) y casos graves de corea de Huntington; las gotas, solo la corea de Huntington. No tiene indicación autorizada en España para la agitación de la persona mayor, la discinesia tardía ni los tics. La revisión sistemática de Zangani (2022) solo halló seis ensayos aleatorizados en psiquiatría (1982-2010), cuatro en abstinencia alcohólica y dos en agitación en la demencia, sin diferencias con los comparadores activos y con riesgo de sesgo moderado o alto.",
+   "feats": [
+    "Contraindicaciones (4.3): tumores dependientes de prolactina (prolactinoma, cáncer de mama), feocromocitoma y asociación con levodopa u otros dopaminérgicos; la ficha desaconseja su uso en la enfermedad de Parkinson salvo circunstancias especiales y pide precaución en personas mayores por riesgo de disminución del nivel de conciencia y coma (4.4).",
+    "Intervalo QT (4.4): puede prolongarlo y favorecer torsade de pointes; la ficha pide vigilar bradicardia inferior a 55 lpm, hipopotasemia, QT largo congénito y fármacos que prolongan el QT, y advierte de que el alcohol puede alterar los electrolitos y prolongar el QT; con la forma inyectable, monitorización cardiaca continua si es posible y ECG previo. Caso publicado de torsade de pointes (Iglesias 2000).",
+    "Farmacocinética (5.2): biodisponibilidad oral e intramuscular del 75-78 %, unión a proteínas prácticamente nula, metabolismo de hasta el 15 % y eliminación urinaria mayoritariamente inalterada, con semivida de 3-5 h que en la insuficiencia renal grave llega a 21,6 h; la ficha exige reducir la dosis en la insuficiencia renal y no en la hepática.",
+    "Reacciones adversas frecuentes (4.8): hiperprolactinemia (amenorrea, galactorrea, ginecomastia, disfunción eréctil, reversible al suspender), somnolencia, insomnio, agitación, indiferencia, mareo, cefalea, parkinsonismo y astenia; poco frecuentes, acatisia, distonía, confusión y alucinaciones; raras, prolongación del QT, hiponatremia y depresión respiratoria si se combina con otros depresores del SNC.",
+    "Interacciones (4.5): contraindicada con agonistas dopaminérgicos (cabergolina, quinagolida) fuera de la enfermedad de Parkinson; no recomendada con alcohol ni con fármacos que inducen torsade de pointes (antiarrítmicos Ia y III, metadona y neurolépticos como sulpirida, haloperidol, flufenazina o zuclopentixol); con opioides, benzodiacepinas, hipnóticos y antidepresivos sedantes aumenta la depresión central.",
+    "Agitación y agresividad en personas mayores con deterioro cognitivo (Allain 2000; 306 participantes, 21 días, doble ciego): respondieron el 63 % con tiaprida, el 69 % con haloperidol y el 49 % con placebo, y presentaron algún síntoma extrapiramidal el 16 %, el 34 % y el 17 %, respectivamente; es un uso no autorizado en España."
+   ],
+   "tx": "En la agitación y la agresividad durante la abstinencia alcohólica, NICE CG100 recomienda considerar una benzodiacepina o carbamazepina para la abstinencia aguda (1.1.3.1), lorazepam oral como primera línea en el delirium tremens (1.1.4.1) y una benzodiacepina de acción rápida en las convulsiones por abstinencia (1.1.5.1), y no menciona la tiaprida; esta no previene las convulsiones (la ficha advierte de que los neurolépticos reducen el umbral convulsivo, 4.4) y, en personas con riesgo de abstinencia grave, la revisión de Peters (1994) exige asociar tratamiento para la alucinosis y las convulsiones. En la corea de Huntington es una de las opciones preferidas en Europa junto a tetrabenazina, olanzapina y risperidona (Coppen 2017). Ajuste renal según la ficha técnica, ECG si hay factores de riesgo de QT o se usa la vía parenteral, y vigilancia del nivel de conciencia y de las caídas en personas mayores. Sin pautas individualizadas.",
+   "note": "La base de ensayos es antigua y pequeña. Dose y Lange (2000) afirmaron que la tiaprida no se había implicado en la inducción de discinesia tardía y que no supera una ocupación D2 del 80 %, pero la ficha española (4.8) recoge la discinesia tardía como con todos los neurolépticos tras más de 3 meses de tratamiento, por lo que no puede considerarse exenta. El uso en la agitación de la demencia, frecuente en algunos países europeos, choca con las advertencias de la ficha sobre mortalidad e ictus en personas mayores con demencia tratadas con antipsicóticos. La retirada súbita del mercado neerlandés obligó a importar el fármaco a la mitad de las personas con Huntington que lo tomaban en una cohorte (Feleus 2022), lo que ilustra su dependencia de la disponibilidad local.",
+   "sec": [
+    {
+     "t": "Indicaciones autorizadas y evidencia por uso",
+     "x": "Abstinencia alcohólica: cuatro de los seis ensayos de la revisión de Zangani (2022) corresponden a esta indicación, sin diferencias de eficacia ni de tolerabilidad frente a comparadores activos. La combinación de tiaprida y carbamazepina redujo los síntomas de abstinencia en el metaanálisis de Latifi y Messer (2019), cuyos autores advierten de que su seguridad no quedó probada. Corea de Huntington: en la revisión de Feleus (2022), la mayoría de los estudios mostró mejoría de la corea, con efectos adversos raros y leves y muestras pequeñas; en el ensayo pragmático abierto Neuro-HD (Youssov 2025; 179 participantes, 52 semanas) la corea mejoró con tetrabenazina y olanzapina, y la tiaprida redujo la irritabilidad. Agitación en la demencia: no superó al haloperidol y produjo menos síntomas extrapiramidales (Allain 2000). Tics: un ensayo cruzado doble ciego en 17 menores mostró efecto sobre los tics sin deterioro cognitivo medible (Eggers 1988), y la revisión de Besag (2021) la incluye entre los fármacos con algún ensayo positivo frente a placebo.",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "alcohol"
+       ],
+       "t": "abstinencia y consumo de alcohol"
+      },
+      {
+       "ids": [
+        "huntington"
+       ],
+       "t": "enfermedad de Huntington"
+      },
+      {
+       "ids": [
+        "agit_dem"
+       ],
+       "t": "agitación en la demencia"
+      },
+      {
+       "ids": [
+        "tourette",
+        "tics_tr"
+       ],
+       "t": "tics y Tourette"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico frente a otras benzamidas",
+     "x": "Como la sulpirida y la amisulprida, la tiaprida es un antagonista selectivo D2/D3 de eliminación renal, con hiperprolactinemia y prolongación del QT como riesgos compartidos. Su ficha la presenta como un neuroléptico sin sedación, catalepsia ni deterioro cognitivo en estudios animales (5.1), y la revisión de Peters (1994) subrayaba que, a diferencia de las benzodiacepinas, no afecta a la vigilancia y tiene un bajo potencial de interacción con el alcohol y posiblemente de abuso, motivo de su uso en la desintoxicación ambulatoria en Europa. La ficha clínica, sin embargo, enumera somnolencia, mareo, confusión, alucinaciones y caídas en personas mayores (4.8), y riesgo de coma por acumulación en la insuficiencia renal (4.4), de modo que el perfil «limpio» de los modelos animales no se traslada sin más a la clínica. En los movimientos anormales inducidos por antipsicóticos, la alternativa con evidencia específica para la discinesia tardía son los inhibidores de VMAT2 (véase su ficha); la tiaprida no tiene esa indicación autorizada en España.",
+     "links": [
+      {
+       "ids": [
+        "sulpirida",
+        "amisulprida"
+       ],
+       "t": "otras benzamidas"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "vmat2_td"
+       ],
+       "t": "discinesia tardía e inhibidores de VMAT2"
+      },
+      {
+       "ids": [
+        "hiperprl_ap"
+       ],
+       "t": "hiperprolactinemia"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Según la ficha técnica: hipertermia de origen desconocido, incluso sin rigidez o con fiebre baja, como posible síndrome neuroléptico maligno (suspender lo antes posible bajo supervisión); síncope, palpitaciones o QTc prolongado; disminución del nivel de conciencia en personas mayores o con insuficiencia renal; fiebre o infecciones inexplicadas (leucopenia, neutropenia, agranulocitosis); hiponatremia; trombosis venosa profunda o embolia pulmonar, y convulsiones en personas con epilepsia. En personas mayores con demencia, la ficha recoge un riesgo de muerte de 1,6 a 1,7 veces el del placebo y un riesgo de eventos cerebrovasculares tres veces superior con algunos atípicos. En embarazo no se recomienda, ni en mujeres en edad fértil sin anticoncepción eficaz (4.6). Sobredosis (4.9): somnolencia, sedación, coma, hipotensión y síntomas extrapiramidales, con muertes sobre todo en combinación con otros psicótropos; la hemodiálisis no es útil y se recomienda monitorización cardiaca.",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "qt_psicof"
+       ],
+       "t": "síndrome neuroléptico maligno y QT"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "antipsicóticos en la demencia"
+      },
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "hiponatremia por psicofármacos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Zangani C et al. (2022). Efficacy of tiapride in the treatment of psychiatric disorders: a systematic review. Hum Psychopharmacol 37:e2842 · PMID 35313032",
+    "Peters DH & Faulds D (1994). Tiapride. A review of its pharmacology and therapeutic potential in the management of alcohol dependence syndrome. Drugs 47:1010-1032 · PMID 7521826",
+    "Latifi S & Messer T (2019). The efficacy of tiapride and carbamazepine combination therapy in reducing alcohol withdrawal symptoms: a systematic review and meta-analysis. Pharmacopsychiatry 52:209-216 · PMID 30522144",
+    "Allain H et al. (2000). Double blind study of tiapride versus haloperidol and placebo in agitation and aggressiveness in elderly patients with cognitive impairment. Psychopharmacology (Berl) 148:361-366 · PMID 10928308",
+    "Feleus S et al. (2022). The many faces of Huntington's chorea treatment: the impact of sudden withdrawal of tiapride after 40 years of use and a systematic review. J Pers Med 12:589 · PMID 35455705",
+    "Youssov K et al. (2025). Comparison of tetrabenazine, tiapride and olanzapine in Huntington's disease: a one-year French randomized multicenter study (Neuro-HD). Parkinsonism Relat Disord 140:108017 · PMID 41014964",
+    "Coppen EM & Roos RAC (2017). Current pharmacological approaches to reduce chorea in Huntington's disease. Drugs 77:29-46 · PMID 27988871",
+    "Dose M & Lange HW (2000). The benzamide tiapride: treatment of extrapyramidal motor and other clinical syndromes. Pharmacopsychiatry 33:19-27 · PMID 10721880",
+    "Eggers C, Rothenberger A & Berghaus U (1988). Clinical and neurobiological findings in children suffering from tic disease following treatment with tiapride. Eur Arch Psychiatry Neurol Sci 237:223-229 · PMID 2974416",
+    "Iglesias E et al. (2000). Tiapride-induced torsade de pointes. Am J Med 109:509 · PMID 11184770 [carta sin resumen en PubMed; contenido no contrastado]",
+    "Besag FM et al. (2021). Pharmacological treatment for Tourette syndrome in children and adults: what is the quality of the evidence? A systematic review. J Psychopharmacol 35:1037-1061 · PMID 34286606",
+    "NICE (2010). Alcohol-use disorders: diagnosis and management of physical complications (CG100; actualizada en 2017), recomendaciones 1.1.3.1, 1.1.4.1 y 1.1.5.1; texto consultado en nice.org.uk en noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Tiaprizal 100 mg comprimidos (tiaprida; n.º de registro 54279; revisión de septiembre de 2023), Tiaprizal 100 mg solución inyectable (54263) y Tiaprizal 12 mg/ml gotas orales en solución (54264), apartados 4.1-4.9, 5.1 y 5.2; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "amisulprida",
+    "sulpirida",
+    "huntington",
+    "dt_alc",
+    "alcohol",
+    "agit_dem",
+    "tourette",
+    "tics_tr",
+    "discin_tard",
+    "vmat2_td",
+    "ap_dem_riesgo",
+    "qt_psicof",
+    "hiperprl_ap"
+   ]
+  },
+  {
+   "id": "flufenazina",
+   "n": "Flufenazina oral y decanoato depot (no comercializada en España)",
+   "ab": "Flufenazina",
+   "al": [
+    "fluphenazine",
+    "decanoato de flufenazina",
+    "Modecate",
+    "Moditen",
+    "fenotiazina piperazínica"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 4,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "meta",
+   "y": 1959,
+   "tags": [
+    "chr"
+   ],
+   "desc": "Fenotiazina piperazínica de alta potencia, antagonista D2, que fue uno de los primeros fármacos clasificados como antipsicóticos y estuvo ampliamente disponible durante cinco décadas (Matar 2018). Se desarrolló en forma oral y en dos ésteres de acción prolongada, el enantato (Moditen) y el decanoato (Modecate), este último el más usado (Adams y Eisenbruch 2000); el decanoato fue uno de los primeros antipsicóticos depot y sirvió de modelo a los inyectables de larga duración [fuente no localizada]. Estado en España: la consulta del registro de CIMA (API REST, búsqueda por principio activo y por nombre, incluidos los no autorizados) no devuelve ningún medicamento con flufenazina en noviembre de 2026, por lo que no hay ficha técnica española de referencia; los antipsicóticos depot típicos registrados en CIMA se reducen al decanoato de zuclopentixol (Clopixol Depot; sin registros de decanoato de haloperidol, pipotiazina ni flupentixol depot en la misma consulta). Su interés actual es histórico y comparativo: es comparador frecuente en los ensayos clásicos y sus efectos extrapiramidales superan a los de los típicos de baja potencia (Tardy 2014).",
+   "feats": [
+    "Eficacia frente a placebo (Matar 2018; 7 ensayos de 1964-1999, 439 participantes): sin diferencia clara en estado global a medio plazo en un ensayo pequeño y una estimación no concluyente de menos recaídas a largo plazo (dos ensayos pequeños, alta heterogeneidad; RR 0,39; IC 95 % 0,05-3,31, que incluye el 1; certeza muy baja), con más acatisia (RR 3,43) y rigidez (RR 3,54) a corto plazo.",
+    "Prevención de recaídas: en el metaanálisis de Leucht (2012; 65 ensayos), los depot redujeron las recaídas más que los orales (RR 0,31 frente a 0,46), y el decanoato de flufenazina estuvo entre los de mayor efecto frente a placebo (RR 0,23; IC 95 % 0,14-0,39).",
+    "Depot frente a oral (Adams y Eisenbruch 2000; 6 ensayos en personas ya estabilizadas con flufenazina oral): sin diferencias en recaída, abandono, ánimo depresivo ni efectos adversos; los autores señalan que el uso del depot se basaba en el juicio clínico más que en ensayos.",
+    "Frente a típicos de baja potencia (Tardy 2014; 7 ensayos, 1.567 participantes): respuesta similar (55 % en ambos grupos) y más trastornos del movimiento (RR 2,11), acatisia (RR 2,28) y distonía (RR 2,66), pero menos sedación (RR 0,31), mareo y sequedad de boca.",
+    "Frente a atípicos (Sampford 2016; 4 ensayos, 202 participantes, con amisulprida, risperidona, quetiapina y olanzapina): sin diferencias claras en respuesta ni en abandono, con evidencia de muy baja calidad y riesgo de sesgo en la notificación de efectos adversos.",
+    "Cognición: en el metaanálisis en red de Feber (2025; 68 ensayos), la flufenazina y el haloperidol se situaron entre los peor clasificados (flufenazina DME 0,15; IC 95 % −0,39 a 0,69), y los autores aconsejan evitar los antagonistas dopaminérgicos de primera generación cuando preocupa el déficit cognitivo."
+   ],
+   "tx": "Sin uso asistencial en España por falta de comercialización; si una persona llega tratada desde otro país, la continuidad exige valorar el cambio a un inyectable disponible (zuclopentixol decanoato o un atípico de larga duración) o su obtención como medicamento extranjero [fuente no localizada]. Los principios del depot típico se mantienen: indicación en la esquizofrenia con recaídas por adherencia irregular, vigilancia estrecha de acatisia, parkinsonismo y discinesia tardía, y uso de la mínima exposición eficaz. No se dan pautas individualizadas.",
+   "note": "La flufenazina aparece en guías y textos anglosajones y en los ensayos clásicos de mantenimiento, por lo que conviene conocerla al leer la literatura y al atender a personas tratadas en otros países. El año de introducción (finales de la década de 1950) y la cronología de sus ésteres depot no se han contrastado en una fuente primaria [fuente no localizada]. Tampoco se ha localizado documentación oficial sobre la fecha de retirada en España del decanoato ni de la asociación de flufenazina con nortriptilina antes comercializada [fuente no localizada]. Al no existir ficha técnica española, los datos de seguridad proceden de revisiones sistemáticas y no de un texto regulatorio nacional.",
+   "sec": [
+    {
+     "t": "Estado de comercialización y lugar histórico",
+     "x": "La búsqueda en el registro de CIMA (noviembre de 2026) por principio activo y por nombre, incluidos los medicamentos no autorizados, no devuelve ningún registro de flufenazina; la ficha de antipsicóticos de primera generación del atlas recoge el mismo hallazgo. El decanoato de flufenazina fue, junto al de haloperidol, uno de los inyectables con los que se demostró que el depot reduce las recaídas en la esquizofrenia: en el metaanálisis de Leucht (2012), el depot haloperidol (RR 0,14) y el de flufenazina (RR 0,23) mostraron los mayores efectos frente a placebo. Su desaparición del mercado español deja el decanoato de zuclopentixol como único depot típico disponible, junto a los atípicos de larga duración (risperidona, paliperidona, aripiprazol, olanzapina).",
+     "links": [
+      {
+       "ids": [
+        "ap_lai",
+        "zuclopentixol"
+       ],
+       "t": "inyectables de acción prolongada"
+      },
+      {
+       "ids": [
+        "ap_tipicos"
+       ],
+       "t": "antipsicóticos de primera generación"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo y perfil de efectos adversos",
+     "x": "Como fenotiazina de alta potencia, su efecto antipsicótico deriva del antagonismo D2, con escasa acción anticolinérgica y sedante en comparación con la clorpromazina o la levomepromazina; de ahí su perfil: menos sedación, mareo, sequedad de boca, náuseas y vómitos que los típicos de baja potencia, y más acatisia, distonía, rigidez y temblor (Tardy 2014). Frente a placebo, la acatisia y la rigidez fueron más frecuentes a corto plazo (Matar 2018). Los riesgos de clase incluyen discinesia tardía, síndrome neuroléptico maligno e hiperprolactinemia. En la esquizofrenia resistente, la flufenazina quedó por debajo de clozapina y olanzapina en el metaanálisis en red de Dong (2024; 60 estudios), y en cognición se situó entre los peor clasificados (Feber 2025).",
+     "links": [
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "antagonismo D2"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard",
+        "snm"
+       ],
+       "t": "acatisia, discinesia tardía y SNM"
+      },
+      {
+       "ids": [
+        "biperideno"
+       ],
+       "t": "anticolinérgicos para el parkinsonismo"
+      },
+      {
+       "ids": [
+        "clorpromazina",
+        "haloperidol"
+       ],
+       "t": "típicos de baja y alta potencia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Casi todos los ensayos con flufenazina son anteriores a los estándares actuales: los siete ensayos frente a placebo se publicaron entre 1964 y 1999 y aportan evidencia de certeza baja o muy baja (Matar 2018), los de depot frente a oral incluyeron solo a personas ya estables con el fármaco oral y no responden a la pregunta clínica de la adherencia irregular (Adams y Eisenbruch 2000), y las comparaciones con atípicos son pocas, pequeñas y breves (Sampford 2016). Aun así, los autores de Cochrane concluyen que su papel como antipsicótico eficaz no queda en entredicho, aunque, si están disponibles, otros fármacos baratos con menos efectos adversos pueden ser igual de eficaces (Matar 2018).",
+     "links": [
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "antipsicóticos de segunda generación"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Matar HE, Almerie MQ & Sampson SJ (2018). Fluphenazine (oral) versus placebo for schizophrenia. Cochrane Database Syst Rev 6:CD006352 · PMID 29893410",
+    "Adams CE & Eisenbruch M (2000). Depot fluphenazine for schizophrenia. Cochrane Database Syst Rev (2):CD000307 · PMID 10796340",
+    "Leucht S et al. (2012). Antipsychotic drugs versus placebo for relapse prevention in schizophrenia: a systematic review and meta-analysis. Lancet 379:2063-2071 · PMID 22560607",
+    "Tardy M et al. (2014). Fluphenazine versus low-potency first-generation antipsychotic drugs for schizophrenia. Cochrane Database Syst Rev 2014(8):CD009230 · PMID 25087165",
+    "Sampford JR et al. (2016). Fluphenazine (oral) versus atypical antipsychotics for schizophrenia. Cochrane Database Syst Rev 7:CD010832 · PMID 27370402",
+    "Feber L et al. (2025). Antipsychotic drugs and cognitive function: a systematic review and network meta-analysis. JAMA Psychiatry 82:47-56 · PMID 39412783",
+    "Dong S et al. (2024). A network meta-analysis of efficacy, acceptability, and tolerability of antipsychotics in treatment-resistant schizophrenia. Eur Arch Psychiatry Clin Neurosci 274:917-928 · PMID 37526675",
+    "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo «flufenazina» y por nombre, incluidos no autorizados: sin resultados), consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "ap_tipicos",
+    "ap_lai",
+    "zuclopentixol",
+    "haloperidol",
+    "clorpromazina",
+    "d2_block",
+    "discin_tard",
+    "acatisia",
+    "snm",
+    "esq",
+    "biperideno"
+   ]
+  },
+  {
+   "id": "topiramato",
+   "n": "Topiramato: usos psiquiátricos fuera de ficha y Programa de Prevención de Embarazos",
+   "ab": "Topiramato",
+   "al": [
+    "Topamax",
+    "topiramate",
+    "monosacárido sulfamato-sustituido",
+    "Acomicil"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1998,
+   "tags": [
+    "repro",
+    "risk"
+   ],
+   "desc": "Antiepiléptico (monosacárido sulfamato-sustituido) de mecanismo exacto desconocido: la ficha técnica (5.1) describe bloqueo de canales de sodio dependientes de estado, potenciación de la actividad GABA en receptores GABA-A no sensibles a benzodiacepinas, antagonismo del subtipo AMPA/kainato del receptor de glutamato e inhibición débil de algunas isoenzimas de la anhidrasa carbónica. Ficha AEMPS-CIMA de referencia: Topamax 25 mg comprimidos recubiertos con película (n.º de registro 61873; Janssen-Cilag), con numerosos genéricos. Indicaciones (4.1): epilepsia (monoterapia desde los 6 años; tratamiento concomitante desde los 2 años, incluidas las crisis del síndrome de Lennox-Gastaut) y profilaxis de la migraña en adultos tras evaluar con cuidado otras alternativas. No tiene indicación psiquiátrica autorizada en España: sus usos en el trastorno por consumo de alcohol, el trastorno por atracón y el aumento de peso por antipsicóticos son fuera de ficha y deben sopesarse frente a la teratogenia, el Programa de Prevención de Embarazos (AEMPS, nota MUH(FV) 06/2023) y sus efectos cognitivos.",
+   "feats": [
+    "Contraindicaciones (4.3): en la profilaxis de la migraña, durante el embarazo y en mujeres fértiles sin anticoncepción altamente eficaz; en la epilepsia, durante el embarazo salvo que no exista alternativa apropiada y en mujeres fértiles sin anticoncepción altamente eficaz, con la única excepción de quien, sin alternativa, planifica un embarazo plenamente informada de los riesgos.",
+    "Teratogenia (4.6): prevalencia de malformaciones congénitas en monoterapia del 4,3 % frente al 1,4 % sin antiepilépticos en el registro norteamericano y de hasta el 9,5 % frente al 3,0 % en registros nórdicos (labio leporino y paladar hendido, hipospadias), dependiente de la dosis, y recién nacidos pequeños para la edad gestacional en el 18 % frente al 5 % (registro norteamericano).",
+    "Neurodesarrollo: en la cohorte nórdica de Bjørk (2022), la exposición prenatal en monoterapia se asoció a trastorno del espectro autista (HR ajustada 2,8; IC 95 % 1,4-5,7) y discapacidad intelectual (3,5; 1,4-8,6); en la cohorte estadounidense de Hernández-Díaz (2024), tras ajustar por indicación, la HR para autismo fue 0,96 (0,56-1,65). La ficha recoge ambos resultados.",
+    "Efectos cognitivos (4.4 y 4.8): entre las reacciones con incidencia superior al 5 % figuran bradifrenia, trastorno de la expresión del lenguaje, alteración de la atención y deterioro de la memoria; la ficha cita casos en adultos que obligaron a reducir la dosis o suspender. Según Mula (2012), hasta el 10 % refiere quejas cognitivas, precoces y dependientes de la dosis.",
+    "Ánimo y suicidio (4.4 y 4.8): mayor incidencia de alteraciones del estado de ánimo y depresión; en ensayos doble ciego, los acontecimientos relacionados con el suicidio aparecieron en el 0,5 % con topiramato (46 de 8.652) frente al 0,2 % con placebo (8 de 4.045); se describen además trastornos psicóticos, alucinaciones, paranoia y, con menor frecuencia, manía e hipomanía.",
+    "Otras advertencias (4.4): acidosis metabólica hiperclorémica, nefrolitiasis (hidratación adecuada), miopía aguda con glaucoma secundario de ángulo cerrado, sobre todo en el primer mes, defectos del campo visual, oligohidrosis e hipertermia, hiperamonemia con o sin encefalopatía, pérdida de peso y reacciones cutáneas graves (Stevens-Johnson, necrólisis epidérmica tóxica).",
+    "Interacciones (4.5): posible pérdida de eficacia de los anticonceptivos hormonales y sangrado intermenstrual, por lo que la ficha aconseja añadir un método de barrera; fenitoína y carbamazepina reducen sus concentraciones; con valproato, hiperamonemia e hipotermia; con litio, control de litemia; la hidroclorotiazida eleva su exposición y suma hipopotasemia."
+   ],
+   "tx": "Uso fuera de ficha. En el trastorno por consumo de alcohol, la guía de la APA (Reus 2018) sugiere ofrecer topiramato o gabapentina a quienes desean reducir o abandonar el consumo y los prefieren, o no toleran o no responden a naltrexona y acamprosato [fuente no localizada]; NICE CG115 recomienda acamprosato o naltrexona oral junto a una intervención psicológica, y disulfiram como alternativa (1.3.6), sin mencionar el topiramato. En el trastorno por atracón con obesidad hay ensayos positivos (McElroy 2007). Para el aumento de peso por antipsicóticos la metformina tiene mejor respaldo (Mizuno 2014; Agarwal 2022). En una mujer con capacidad de gestación: prueba de embarazo previa, anticoncepción altamente eficaz y uso de los materiales del Programa de Prevención de Embarazos publicados en CIMA (formulario de conocimiento del riesgo, guía y tarjeta para la paciente). Vigilar ánimo, ideación suicida, cognición, bicarbonato y síntomas oculares. Sin pautas individualizadas.",
+   "note": "La eficacia en alcohol procede de pocos ensayos: el metaanálisis de Blodgett (2014) reunió 7 ensayos (1.125 participantes) con efectos pequeños o moderados sobre la abstinencia (g = 0,468) y el consumo intenso (g = 0,406); la comparación favorable con naltrexona y acamprosato que sugieren sus autores es indirecta. En la población psiquiátrica, los efectos sobre el lenguaje, la atención y el ánimo pueden confundirse con el trastorno de base y limitan la adherencia. La revisión que motivó las medidas de 2023 fue un arbitraje del artículo 31 iniciado a petición de la agencia francesa tras una revisión de señal (julio-septiembre de 2022) basada en los estudios nórdicos: comenzó el 1 de septiembre de 2022, el PRAC emitió su recomendación el 31 de agosto de 2023 y la posición del CMDh es del 10 de noviembre de 2023 (EMA). Las medidas reguladoras se dirigen a las indicaciones autorizadas, pero su lógica (riesgo fetal) es igualmente aplicable al uso fuera de ficha.",
+   "sec": [
+    {
+     "t": "Ficha técnica frente a usos psiquiátricos",
+     "x": "Trastorno por consumo de alcohol: en el ensayo de Johnson (2003; 150 participantes, 12 semanas) el topiramato redujo 2,88 bebidas al día, un 27,6 % los días de consumo intenso y aumentó un 26,2 % los días de abstinencia frente a placebo, con descenso de la GGT; el metaanálisis de Blodgett (2014) confirmó efectos pequeños o moderados. Trastorno por atracón con obesidad: en el ensayo multicéntrico de McElroy (2007; 394 participantes) la remisión de los atracones fue del 58 % frente al 29 % y el peso bajó 4,5 kg frente a una ganancia de 0,2 kg, con abandono por efectos adversos del 16 % frente al 8 %. Aumento de peso por antipsicóticos: el efecto agrupado difirió de placebo en Mizuno (2014), que sitúa la metformina como primera opción farmacológica, y en prevención la revisión Cochrane de Agarwal (2022) no halló un efecto claro (DM −4,82 kg; IC 95 % −9,99 a 0,35; 3 estudios; certeza muy baja). En estimulantes las señales son débiles (véanse las fichas de cocaína y anfetaminas).",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "naltrexona",
+        "acamprosato"
+       ],
+       "t": "alcohol y fármacos de primera línea"
+      },
+      {
+       "ids": [
+        "bed"
+       ],
+       "t": "trastorno por atracón"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "anfetaminas"
+       ],
+       "t": "estimulantes"
+      },
+      {
+       "ids": [
+        "gabapentina"
+       ],
+       "t": "gabapentina"
+      }
+     ]
+    },
+    {
+     "t": "Programa de Prevención de Embarazos (AEMPS 2023)",
+     "x": "La nota de seguridad de la AEMPS MUH(FV) 06/2023 (4 de septiembre de 2023) recoge la evaluación del PRAC tras dos estudios nórdicos que sugerían un riesgo 2-3 veces mayor de autismo, discapacidad intelectual y TDAH en hijos de madres con epilepsia expuestas, y un tercer estudio estadounidense sin ese aumento. Las medidas: en epilepsia, contraindicación en el embarazo salvo ausencia de alternativa y en mujeres con capacidad de gestación sin anticoncepción altamente eficaz; la contraindicación equivalente en la migraña ya existía; y un plan de prevención de embarazos. La ficha vigente (4.4) exige prueba de embarazo antes de iniciar, información completa, consulta especializada si se planifica un embarazo y, en niñas, reevaluación al llegar la menarquia. CIMA publica los materiales (formulario de conocimiento del riesgo e información para profesionales, versión de febrero de 2024; tarjeta para la paciente, versión de marzo de 2026). Comparte lógica con el plan del valproato.",
+     "links": [
+      {
+       "ids": [
+        "valproato_fertil",
+        "vpa_bip"
+       ],
+       "t": "plan de prevención del valproato"
+      },
+      {
+       "ids": [
+        "lamotrig"
+       ],
+       "t": "lamotrigina"
+      }
+     ]
+    },
+    {
+     "t": "Efectos cognitivos y psiquiátricos",
+     "x": "El topiramato es uno de los antiepilépticos con peor perfil cognitivo documentado [fuente no localizada]: la ficha (4.8) lista entre las reacciones más frecuentes bradifrenia, trastorno de la expresión del lenguaje, alteración de la atención y deterioro de la memoria, y como poco frecuentes afasia, disfasia, disgrafia y lenguaje repetitivo. Mula (2012) estima que hasta el 10 % refiere quejas cognitivas, que aparecen en las primeras 6 semanas, dependen de la dosis y del ritmo de escalada; fuera de los problemas del lenguaje los datos no son concluyentes, frente a los antiepilépticos clásicos solo la fluidez verbal muestra diferencias claras y las comparaciones con levetiracetam y lamotrigina le son desfavorables. En psiquiatría importan además la depresión, la ideación y conducta suicida, los síntomas psicóticos y, raramente, la manía (ficha, 4.4 y 4.8). Ante una anomia o un enlentecimiento de nueva aparición en quien toma topiramato, la primera hipótesis debe ser el fármaco antes que una enfermedad neurodegenerativa o un empeoramiento psiquiátrico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "afasia_tc"
+       ],
+       "t": "anomia y trastornos del lenguaje"
+      },
+      {
+       "ids": [
+        "epilepsia_psic",
+        "psiep"
+       ],
+       "t": "psicosis y antiepilépticos"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Johnson BA et al. (2003). Oral topiramate for treatment of alcohol dependence: a randomised controlled trial. Lancet 361:1677-1685 · PMID 12767733",
+    "Blodgett JC et al. (2014). A meta-analysis of topiramate's effects for individuals with alcohol use disorders. Alcohol Clin Exp Res 38:1481-1488 · PMID 24796492",
+    "McElroy SL et al. (2007). Topiramate for the treatment of binge eating disorder associated with obesity: a placebo-controlled study. Biol Psychiatry 61:1039-1048 · PMID 17258690",
+    "Reus VI et al. (2018). The American Psychiatric Association practice guideline for the pharmacological treatment of patients with alcohol use disorder. Am J Psychiatry 175:86-90 · PMID 29301420 [sin resumen en PubMed; contenido de la recomendación no contrastado en el texto completo]",
+    "Mizuno Y et al. (2014). Pharmacological strategies to counteract antipsychotic-induced weight gain and metabolic adverse effects in schizophrenia: a systematic review and meta-analysis. Schizophr Bull 40:1385-1403 · PMID 24636967",
+    "Agarwal SM et al. (2022). Pharmacological interventions for prevention of weight gain in people with schizophrenia. Cochrane Database Syst Rev 10:CD013337 · PMID 36190739",
+    "Mula M (2012). Topiramate and cognitive impairment: evidence and clinical implications. Ther Adv Drug Saf 3:279-289 · PMID 25083242",
+    "Bjørk MH et al. (2022). Association of prenatal exposure to antiseizure medication with risk of autism and intellectual disability. JAMA Neurol 79:672-681 · PMID 35639399",
+    "Hernández-Díaz S et al. (2024). Risk of autism after prenatal topiramate, valproate, or lamotrigine exposure. N Engl J Med 390:1069-1079 · PMID 38507750",
+    "AEMPS (2023). Topiramato: nuevas medidas para evitar la exposición en mujeres embarazadas. Nota de seguridad MUH(FV) 06/2023, 4 de septiembre de 2023 (aemps.gob.es; enlazada desde CIMA)",
+    "NICE (2011). Alcohol-use disorders: diagnosis, assessment and management of harmful drinking (high-risk drinking) and alcohol dependence (CG115), recomendaciones 1.3.6; texto consultado en nice.org.uk en noviembre de 2026",
+    "EMA (2023). Topiramate – Article 31 referral (PRAC-CMDh): inicio del procedimiento 01/09/2022, recomendación del PRAC 31/08/2023, posición del CMDh 10/11/2023; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Topamax 25 mg comprimidos recubiertos con película (topiramato; n.º de registro 61873), apartados 4.1, 4.3-4.6, 4.8 y 5.1, y materiales informativos del Programa de Prevención de Embarazos; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "alcohol",
+    "bed",
+    "vpa_bip",
+    "valproato_fertil",
+    "epilepsia_psic",
+    "psiep",
+    "naltrexona",
+    "acamprosato",
+    "gabapentina",
+    "afasia_tc",
+    "cocaina",
+    "anfetaminas",
+    "ideac_suic",
+    "lamotrig"
+   ]
+  },
+  {
+   "id": "gabapentina",
+   "n": "Gabapentina (Neurontin): usos fuera de ficha y riesgo de abuso",
+   "ab": "Gabapentina",
+   "al": [
+    "Neurontin",
+    "gabapentin",
+    "gabapentinoide",
+    "ligando α2δ"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1995,
+   "tags": [
+    "risk",
+    "chemsex"
+   ],
+   "desc": "Análogo estructural del GABA que, según la ficha técnica (5.1), no se une a los receptores GABA-A ni GABA-B ni altera el metabolismo del GABA, sino que se une con alta afinidad a la subunidad α2δ de los canales de calcio dependientes de voltaje. Ficha AEMPS-CIMA de referencia: Neurontin 300 mg cápsulas duras (n.º de registro 60621; primera autorización en 1995; texto revisado en enero de 2026), con numerosos genéricos. Indicaciones (4.1): epilepsia (crisis parciales con o sin generalización secundaria, en terapia combinada desde los 6 años y en monoterapia desde los 12) y dolor neuropático periférico en adultos, como la neuropatía diabética dolorosa y la neuralgia posherpética. No tiene indicación psiquiátrica en España: su uso en ansiedad, trastorno por consumo de alcohol, insomnio o trastorno bipolar es fuera de ficha, con evidencia moderada en estados de ansiedad y mínima en trastorno bipolar e insomnio (Hong 2022) y modesta en alcohol (Kranzler 2019). La ficha advierte de dependencia incluso a dosis terapéuticas, abuso, síntomas de abstinencia y depresión respiratoria grave, en especial con opioides.",
+   "feats": [
+    "Uso indebido, abuso y dependencia (4.4): puede provocar dependencia incluso a dosis terapéuticas; las personas con antecedentes de abuso de sustancias tienen mayor riesgo; antes de prescribir debe evaluarse ese riesgo y, durante el tratamiento, vigilar tolerancia, aumento de la dosis y búsqueda compulsiva del fármaco (ficha técnica de Neurontin).",
+    "Síntomas de abstinencia (4.4): pueden aparecer en las primeras 48 horas tras suspender o reducir (ansiedad, insomnio, náuseas, dolores, sudoración, temblor, cefalea, depresión, mareo, malestar) y sugieren dependencia; la ficha indica retirar de forma gradual durante un mínimo de una semana, sea cual sea la indicación.",
+    "Opioides y depresión respiratoria (4.4 y 4.5): la ficha recoge depresión respiratoria grave, con mayor riesgo en personas mayores y con función respiratoria comprometida, enfermedad neurológica, insuficiencia renal o depresores del SNC; la morfina elevó un 44 % el AUC de gabapentina, y la coprescripción con opioides se asoció a más muertes por opioides (OR ajustada 1,49; IC 95 % 1,18-1,88; Gomes 2017).",
+    "Farmacocinética (5.2): absorción saturable (la biodisponibilidad disminuye al aumentar la dosis; alrededor del 60 % con 300 mg según la ficha técnica), sin unión a proteínas ni metabolismo, y eliminación renal inalterada con semivida de 5-7 h; requiere ajuste a la función renal; los antiácidos con aluminio o magnesio reducen su biodisponibilidad hasta un 24 % (4.5).",
+    "Otras advertencias (4.4): reacciones cutáneas graves (Stevens-Johnson, necrólisis epidérmica tóxica, DRESS), anafilaxia, pensamientos y conductas suicidas (riesgo de clase de los antiepilépticos), pancreatitis aguda, exacerbación de miastenia grave, mareo y somnolencia con caídas, confusión, pérdida de conciencia y posible agravamiento de crisis de ausencia.",
+    "Embarazo y lactancia (4.6): en un estudio nórdico con más de 1.700 embarazos expuestos en el primer trimestre no aumentaron las malformaciones mayores ni los trastornos del neurodesarrollo; se ha notificado síndrome de abstinencia neonatal, con mayor riesgo si hay exposición concomitante a opioides; se excreta en la leche."
+   ],
+   "tx": "Uso fuera de ficha y de segunda o tercera línea. En el trastorno por consumo de alcohol, la guía de la APA (Reus 2018) sugiere topiramato o gabapentina cuando la persona los prefiere o no tolera o no responde a naltrexona y acamprosato [fuente no localizada], mientras que NICE CG115 no la menciona entre los fármacos recomendados (1.3.6); el beneficio más consistente es la reducción de días de consumo intenso (Kranzler 2019), quizá mayor en quienes tienen síntomas de abstinencia (Anton 2020). En ansiedad existen alternativas autorizadas (ISRS/IRSN, pregabalina; véase la ficha de farmacoterapia de la ansiedad). Antes de prescribir: cribado de trastornos por consumo (especialmente opioides, benzodiacepinas, pregabalina, GHB/GBL y alcohol), función renal y respiratoria, objetivo y duración pactados, y retirada gradual de al menos una semana (ficha técnica de Neurontin). Sin pautas individualizadas.",
+   "note": "La evidencia psiquiátrica procede de ensayos pequeños y heterogéneos: en Hong (2022) solo hubo cuatro ensayos doble ciego en trastorno bipolar, sin síntesis cuantitativa posible, y resultados no concluyentes en insomnio; en ansiedad, los autores destacan la ansiedad preoperatoria (gabapentina DME −0,92; IC 95 % −1,32 a −0,52), dentro de un intervalo de efectos entre −2,25 y −0,25 en el conjunto de estados de ansiedad. En Kranzler (2019) solo el porcentaje de días de consumo intenso favoreció claramente a la gabapentina (g = −0,64; IC 95 % −1,22 a −0,06). Las advertencias de dependencia, abstinencia y depresión respiratoria figuran en la ficha española vigente, pero no se ha localizado la nota de seguridad de la AEMPS o la evaluación del PRAC que las incorporó (la API de notas de CIMA no devuelve ninguna nota para Neurontin) [fuente no localizada]. El uso no médico se desarrolla en la ficha de uso no médico de gabapentinoides. En contextos de chemsex, la suma con GHB/GBL se infiere de la advertencia general de la ficha sobre depresores del SNC [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Usos fuera de ficha: alcohol, ansiedad e insomnio",
+     "x": "Alcohol: en el ensayo de Mason (2014; 150 participantes, 12 semanas) la abstinencia completa fue del 17,0 % con la dosis más alta frente al 4,1 % con placebo, y la ausencia de consumo intenso del 44,7 % frente al 22,5 %, con mejoría lineal del sueño, el ánimo y el craving; en el de Anton (2020; 90 evaluables) más personas no tuvieron días de consumo intenso (27 % frente a 9 %), con beneficio concentrado en quienes tenían más síntomas de abstinencia previos. El metaanálisis de Kranzler (2019; 7 ensayos) solo halló beneficio claro en el porcentaje de días de consumo intenso. Ansiedad e insomnio: en Hong (2022; 55 ensayos doble ciego con gabapentinoides) hubo un efecto consistente pero no universal en estados de ansiedad, evidencia mínima en trastorno bipolar y resultados no concluyentes en insomnio, por lo que los autores aconsejan usarla en estas indicaciones solo con una justificación sólida.",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "dt_alc"
+       ],
+       "t": "consumo y abstinencia de alcohol"
+      },
+      {
+       "ids": [
+        "topiramato",
+        "naltrexona",
+        "acamprosato"
+       ],
+       "t": "otros fármacos para el alcohol"
+      },
+      {
+       "ids": [
+        "tag",
+        "farm_anx"
+       ],
+       "t": "ansiedad generalizada y su farmacoterapia"
+      },
+      {
+       "ids": [
+        "insom"
+       ],
+       "t": "insomnio"
+      }
+     ]
+    },
+    {
+     "t": "Abuso, dependencia y combinación con opioides",
+     "x": "El uso no médico se trata en su ficha propia. La revisión de Bonnet y Scherbaum (2017; 106 estudios) no halló un poder adictivo vigoroso en personas sin antecedentes, pero sí que la población de riesgo son quienes tienen o han tenido otros trastornos por consumo, sobre todo de opioides y policonsumo, que la pregabalina parece algo más adictiva que la gabapentina, y que las sobredosis pueden ser mortales en mezcla con opioides y sedantes. Evoy (2017) describe consumo de dosis supraterapéuticas en busca de euforia y la presencia creciente de gabapentinoides en análisis toxicológicos post mortem. En el estudio de casos y controles de Gomes (2017; 1.256 muertes por opioides), la coprescripción se asoció a mayor mortalidad, con un aumento cercano al 60 % a dosis moderadas y altas. Por ello, en programas de metadona o buprenorfina, en personas que usan opioides o GHB/GBL en contextos de chemsex y en quienes ya toman pregabalina o benzodiacepinas, la gabapentina exige una indicación clara y supervisión estrecha.",
+     "links": [
+      {
+       "ids": [
+        "gabap_nomed"
+       ],
+       "t": "uso no médico de gabapentinoides"
+      },
+      {
+       "ids": [
+        "opioides",
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "opioides y tratamientos agonistas"
+      },
+      {
+       "ids": [
+        "pregabalina",
+        "bzd_dep"
+       ],
+       "t": "pregabalina y benzodiacepinas"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "chemsex_s"
+       ],
+       "t": "GHB/GBL y chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Según la ficha técnica de Neurontin (4.4): somnolencia intensa, bradipnea o confusión, sobre todo con opioides u otros depresores, en personas mayores o con insuficiencia renal o respiratoria (posible depresión respiratoria grave); petición de dosis crecientes, pérdida de recetas o búsqueda compulsiva del fármaco (uso indebido o dependencia); ansiedad, insomnio, sudoración o temblor al reducir la dosis (abstinencia); exantema con fiebre, adenopatías o afectación orgánica (Stevens-Johnson, necrólisis epidérmica tóxica, DRESS: suspender y no reintroducir); hinchazón de labios o lengua y disnea (anafilaxia); dolor abdominal intenso (pancreatitis); debilidad fluctuante en personas con miastenia grave; pensamientos o conductas suicidas, y aumento de crisis o aparición de crisis de ausencia. En el recién nacido expuesto, vigilar el síndrome de abstinencia neonatal.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "farmacocinética en la persona mayor"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Mason BJ et al. (2014). Gabapentin treatment for alcohol dependence: a randomized clinical trial. JAMA Intern Med 174:70-77 · PMID 24190578",
+    "Kranzler HR et al. (2019). A meta-analysis of the efficacy of gabapentin for treating alcohol use disorder. Addiction 114:1547-1555 · PMID 31077485",
+    "Anton RF et al. (2020). Efficacy of gabapentin for the treatment of alcohol use disorder in patients with alcohol withdrawal symptoms: a randomized clinical trial. JAMA Intern Med 180:728-736 · PMID 32150232",
+    "Hong JSW et al. (2022). Gabapentin and pregabalin in bipolar disorder, anxiety states, and insomnia: systematic review, meta-analysis, and rationale. Mol Psychiatry 27:1339-1349 · PMID 34819636",
+    "Gomes T et al. (2017). Gabapentin, opioids, and the risk of opioid-related death: a population-based nested case-control study. PLoS Med 14:e1002396 · PMID 28972983",
+    "Bonnet U & Scherbaum N (2017). How addictive are gabapentin and pregabalin? A systematic review. Eur Neuropsychopharmacol 27:1185-1215 · PMID 28988943",
+    "Evoy KE, Morrison MD & Saklad SR (2017). Abuse and misuse of pregabalin and gabapentin. Drugs 77:403-426 · PMID 28144823",
+    "Reus VI et al. (2018). The American Psychiatric Association practice guideline for the pharmacological treatment of patients with alcohol use disorder. Am J Psychiatry 175:86-90 · PMID 29301420 [sin resumen en PubMed; contenido de la recomendación no contrastado en el texto completo]",
+    "AEMPS-CIMA (2026). Ficha técnica de Neurontin 300 mg cápsulas duras (gabapentina; n.º de registro 60621; revisión de enero de 2026), apartados 4.1, 4.3-4.7, 5.1 y 5.2; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "gabap_nomed",
+    "pregabalina",
+    "pregab",
+    "alcohol",
+    "dt_alc",
+    "farm_anx",
+    "opioides",
+    "metadona",
+    "buprenorfina",
+    "insom",
+    "tag",
+    "bzd_dep",
+    "ghb_gbl",
+    "chemsex_s",
+    "topiramato"
+   ]
+  }
+ ]
+}

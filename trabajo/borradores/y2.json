@@ -1,0 +1,953 @@
+{
+ "patch": {
+  "trauma": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El término «trauma» se usa en dos sentidos que conviene separar. En sentido nosológico estricto, el DSM-5-TR exige para el TEPT la exposición a muerte real o amenaza de muerte, lesión grave o violencia sexual (criterio A), y la CIE-11 describe un acontecimiento o serie de acontecimientos de naturaleza extremadamente amenazante u horrible. En sentido amplio, la literatura epidemiológica habla de «adversidad infantil» (abuso, negligencia, pérdida parental, acoso), que no siempre cumple el criterio A. La obra fundacional del trauma complejo es Herman JL (1992), Trauma and Recovery (New York: Basic Books), junto con su artículo del mismo año en J Trauma Stress 5:377-391, donde propone un síndrome propio para la victimización prolongada y repetida; la CIE-11 lo recogió como TEPT complejo. La tesis de que el trauma es un factor transdiagnóstico que «modula» depresión, psicosis o TLP no procede de Herman, sino de la literatura epidemiológica posterior (metaanálisis de adversidad y psicosis o depresión). Las raíces históricas (Janet, Breuer y Freud) se tratan en sus fichas propias.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "desnos"
+       ],
+       "t": "TEPT y TEPT complejo"
+      },
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "Maltrato infantil"
+      },
+      {
+       "ids": [
+        "janet_hit",
+        "breuer_freud"
+       ],
+       "t": "Antecedentes históricos"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La asociación entre adversidad temprana y psicopatología adulta es robusta. En las Encuestas Mundiales de Salud Mental de la OMS (51 945 personas adultas, 21 países), las adversidades infantiles explicaban el 29,8 % de todos los trastornos, con escasa especificidad entre diagnósticos (Kessler et al., 2010). En psicosis, la adversidad infantil se asoció con una OR global de 2,78 (IC 95 % 2,34-3,31) y un riesgo atribuible poblacional estimado del 33 % (Varese et al., 2012). En depresión, el maltrato infantil multiplicó por 2,66-3,73 el riesgo y duplicó la probabilidad de curso crónico o resistente (Nelson et al., 2017). En tratamiento, la revisión sistemática de 114 ECA (8171 participantes) respalda como primera línea la TCC centrada en el trauma (terapia de procesamiento cognitivo, terapia cognitiva, exposición prolongada) y el EMDR (Lewis et al., 2020). En TEPT ligado a abuso infantil, el formato por fases STAIR seguido de exposición logró más remisiones sostenidas que la exposición precedida de apoyo (27 % frente a 13 %) y menos empeoramientos (Cloitre et al., 2010). Clínicamente se traduce en preguntar de forma sistemática y no intrusiva por experiencias adversas y cribar con instrumentos validados.",
+     "links": [
+      {
+       "ids": [
+        "emdr_proc",
+        "epr"
+       ],
+       "t": "EMDR y exposición"
+      },
+      {
+       "ids": [
+        "pcl5",
+        "des2"
+       ],
+       "t": "Instrumentos de cribado"
+      },
+      {
+       "ids": [
+        "esq",
+        "ddm"
+       ],
+       "t": "Psicosis y depresión"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Primero, la medida: las medidas prospectivas y retrospectivas de maltrato infantil identifican grupos de personas distintos, con un acuerdo pobre (kappa 0,19; Baldwin et al., 2019), lo que obliga a cautela al atribuir causalidad a partir de recuerdos adultos y, en el ámbito pericial, a no inferir un trauma desde un cuadro clínico. Segundo, la especificidad: la adversidad se asocia con casi todas las clases de trastorno (Kessler et al., 2010), de modo que no explica por qué una persona desarrolla una psicosis y otra una depresión; los mediadores siguen sin determinarse. Tercero, la confusión genética y familiar: las asociaciones observacionales no descartan factores compartidos [fuente no localizada]. Cuarto, el tratamiento del trauma complejo: en el metaanálisis de intervenciones para síntomas de TEPT complejo, los beneficios fueron menores frente a intervenciones no específicas y el trauma de inicio infantil se asoció con peor resultado (Karatzias et al., 2019). Por último, la expansión del concepto de trauma a cualquier adversidad diluye su utilidad nosológica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf",
+        "desnos"
+       ],
+       "t": "Maltrato y TEPT complejo"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "Ámbito pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lewis C et al. (2020). Psychological therapies for post-traumatic stress disorder in adults: systematic review and meta-analysis. Eur J Psychotraumatol 11:1729633 · PMID 32284821",
+    "Cloitre M et al. (2010). Treatment for PTSD related to childhood abuse: a randomized controlled trial. Am J Psychiatry 167:915-924 · PMID 20595411",
+    "Nelson J et al. (2017). Childhood maltreatment and characteristics of adult depression: meta-analysis. Br J Psychiatry 210:96-104 · PMID 27908895",
+    "Baldwin JR et al. (2019). Agreement between prospective and retrospective measures of childhood maltreatment: a systematic review and meta-analysis. JAMA Psychiatry 76:584-593 · PMID 30892562",
+    "Karatzias T et al. (2019). Psychological interventions for ICD-11 complex PTSD symptoms: systematic review and meta-analysis. Psychol Med 49:1761-1775 · PMID 30857567",
+    "Herman JL (1992). Complex PTSD: a syndrome in survivors of prolonged and repeated trauma. J Trauma Stress 5:377-391 [no verificada]"
+   ],
+   "relAdd": [
+    "ptsd",
+    "desnos",
+    "emdr_proc"
+   ]
+  },
+  "sistema_cft": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Paul Gilbert formula un modelo evolucionista y funcional de la regulación emocional con tres sistemas: amenaza-protección, búsqueda de recursos o incentivo, y calma-satisfacción-afiliación. La exposición original divulgativa es Gilbert P (2009), The Compassionate Mind (London: Constable); la formulación técnica de referencia es Gilbert P (2014), The origins and nature of compassion focused therapy, Br J Clin Psychol 53:6-41. En ese artículo, la terapia focalizada en la compasión (CFT) se basa en un análisis de los sistemas motivacionales sociales y en la idea de un «cerebro complicado» (tricky brain), en el que las capacidades cognitivas recientes (imaginar, anticipar, mentalizar) pueden desorganizar los sistemas emocionales más antiguos; la CFT propone cultivar motivos afiliativos y compasión hacia uno mismo y hacia otros. La correspondencia de cada sistema con circuitos neuroquímicos concretos (dopamina, oxitocina, opioides) es una propuesta heurística del autor más que un hallazgo establecido [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cft"
+       ],
+       "t": "Terapia focalizada en la compasión"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La revisión sistemática temprana de Leaviss y Uttley (2015), con 14 estudios (3 ECA), halló resultados mayoritariamente favorables, sobre todo en personas con alta autocrítica, y concluyó que la CFT es prometedora en trastornos del ánimo pero necesita ensayos amplios y de calidad antes de considerarse práctica basada en la evidencia. El metaanálisis de 21 ECA de intervenciones basadas en la compasión (1285 participantes; Kirby et al., 2017) mostró efectos moderados en autocompasión (d = 0,70), depresión (d = 0,64), ansiedad (d = 0,49) y malestar psicológico (d = 0,47), que se mantenían frente a controles activos, aunque con muestras predominantemente pequeñas. En poblaciones clínicas, el metaanálisis de 15 ECA y estudios piloto aleatorizados de CFT (Millard et al., 2023) mostró mejoras en autocompasión y autotranquilización frente a controles, con efectos pequeños en depresión (0,24-0,25). En la práctica clínica el modelo se usa como formulación psicoeducativa: ayuda a la persona a entender la vergüenza y la autocrítica como respuestas del sistema de amenaza, no como defectos de carácter, y guía ejercicios de imaginería compasiva y regulación. Resulta pertinente en contextos de estrés de minorías, donde la vergüenza internalizada es un objetivo terapéutico.",
+     "links": [
+      {
+       "ids": [
+        "cft",
+        "mbct"
+       ],
+       "t": "CFT y terapias de tercera generación"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "Estrés de minorías"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "Depresión"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "El modelo de los tres sistemas es una construcción teórica integradora, no una taxonomía validada de forma independiente; su apoyo empírico procede sobre todo de la eficacia de la terapia derivada, lo que no demuestra la validez del modelo explicativo. La evidencia de resultado es todavía limitada: la revisión de Leaviss y Uttley (2015) señaló pocos ECA y calidad metodológica variable, y el metaanálisis de Kirby et al. (2017) advirtió de tamaños muestrales pequeños y de la necesidad de mayor rigor y especificidad sobre los destinatarios de la compasión. En el metaanálisis de Millard et al. (2023), la calidad metodológica fue «poco clara» en 7 de 15 estudios y el 74,88 % de participantes eran mujeres. Buena parte de los estudios combinan intervenciones heterogéneas bajo la etiqueta de «compasión», lo que dificulta atribuir los efectos a la CFT en sentido estricto. Faltan estudios de mediación que demuestren que el cambio en el equilibrio entre sistemas precede a la mejoría clínica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cft"
+       ],
+       "t": "CFT"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leaviss J & Uttley L (2015). Psychotherapeutic benefits of compassion-focused therapy: an early systematic review. Psychol Med 45:927-945 · PMID 25215860",
+    "Kirby JN, Tellegen CL & Steindl SR (2017). A meta-analysis of compassion-based interventions: current state of knowledge and future directions. Behav Ther 48:778-792 · PMID 29029675",
+    "Millard LA et al. (2023). The effectiveness of compassion focused therapy with clinical populations: a systematic review and meta-analysis. J Affect Disord 326:168-192 · PMID 36649790"
+   ],
+   "relAdd": [
+    "lgb_afirm",
+    "ddm"
+   ]
+  },
+  "persona": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La ficha reúne tres tradiciones que no dicen lo mismo. La constitucional de Kretschmer E (1921), Körperbau und Charakter (Berlin: Springer), vinculaba tipos corporales y temperamentos con las psicosis; la fenomenológica de Tellenbach H (1961), Melancholie (Berlin: Springer), describió el typus melancholicus (orden, escrupulosidad, dependencia de la norma) como constelación premórbida de la melancolía; y la de Akiskal, que sostiene que los temperamentos afectivos (depresivo, ciclotímico, hipertímico, irritable, ansioso) son expresiones subumbrales del espectro bipolar y los operativiza con el TEMPS-A. A estas se suma el enfoque de rasgos de la psicología de la personalidad (neuroticismo, extraversión, responsabilidad), que no presupone continuidad de proceso con el trastorno. La tesis de que el temperamento «es» el mismo proceso que el trastorno es propia de la escuela de Akiskal; los estudios de rasgos solo establecen asociaciones y vulnerabilidad.",
+     "links": [
+      {
+       "ids": [
+        "inhib_cond"
+       ],
+       "t": "Inhibición conductual"
+      },
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "Modelos dimensionales de personalidad"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis de Kotov et al. (2010; 175 estudios) mostró que todos los trastornos depresivos, de ansiedad y por uso de sustancias analizados tenían neuroticismo elevado (d medio = 1,65) y responsabilidad baja (d medio = -1,01); la desinhibición se asoció sobre todo con los trastornos por uso de sustancias. Como estos datos son en su mayoría transversales, importa el metaanálisis prospectivo de Jeronimus et al. (2016; 59 estudios, 443 313 participantes): el neuroticismo predijo ansiedad, depresión y malestar inespecífico (d = 0,50-0,70), efecto que se reducía a la mitad al ajustar por síntomas basales y antecedentes psiquiátricos, pero que apenas decaía con el tiempo. Clínicamente, la evaluación del temperamento y de los rasgos informa la formulación del caso, la previsión del curso y la elección psicoterapéutica (por ejemplo, intervenciones transdiagnósticas dirigidas al afecto negativo), sin convertirse en diana diagnóstica independiente.",
+     "links": [
+      {
+       "ids": [
+        "prot_unif"
+       ],
+       "t": "Protocolo unificado (afecto negativo)"
+      },
+      {
+       "ids": [
+        "pid5_lpfs",
+        "hitop_tp"
+       ],
+       "t": "Evaluación dimensional"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "Depresión mayor"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La relación entre personalidad y trastorno admite varios modelos (vulnerabilidad, espectro, cicatriz, efecto del estado o causas comunes) que los datos observacionales no permiten separar con claridad; el hecho de que el efecto prospectivo del neuroticismo se reduzca a la mitad al ajustar por síntomas basales (Jeronimus et al., 2016) muestra que parte de la asociación refleja psicopatología previa. Las medidas autoinformadas de rasgos se contaminan con el estado de ánimo actual. Las tipologías clásicas (Kretschmer, typus melancholicus) tienen valor descriptivo e histórico, pero su apoyo empírico es escaso o procede de muestras pequeñas y retrospectivas [fuente no localizada]. La tesis de Akiskal de continuidad entre temperamento afectivo y trastorno bipolar es influyente pero discutida, y el TEMPS-A no ha demostrado utilidad predictiva suficiente para decisiones individuales [fuente no localizada]. Hablar de «personalidad premórbida» no debe implicar atribuir el trastorno al carácter de la persona.",
+     "links": [
+      {
+       "ids": [
+        "premorb_cohortes"
+       ],
+       "t": "Estudios de cohortes premórbidas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2010). Linking «big» personality traits to anxiety, depressive, and substance use disorders: a meta-analysis. Psychol Bull 136:768-821 · PMID 20804236",
+    "Jeronimus BF et al. (2016). Neuroticism's prospective association with mental disorders halves after adjustment for baseline symptoms and psychiatric history, but the adjusted association hardly decays with time: a meta-analysis on 59 longitudinal/prospective studies with 443 313 participants. Psychol Med 46:2883-2906 · PMID 27523506",
+    "Kretschmer E (1921). Körperbau und Charakter. Berlin: Springer"
+   ],
+   "relAdd": [
+    "hitop_tp",
+    "ddm"
+   ]
+  },
+  "adher": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La ficha une dos constructos distintos. La alianza terapéutica fue formulada por Bordin ES (1979), The generalizability of the psychoanalytic concept of the working alliance, Psychother Theory Res Pract 16:252-260, como un concepto transteórico con tres componentes: acuerdo en los objetivos, acuerdo en las tareas y vínculo afectivo. Bordin parte del concepto psicoanalítico de alianza de trabajo (Greenson, Zetzel) y lo generaliza a cualquier psicoterapia; la idea de que la alianza sea por sí misma un mecanismo de cambio es una interpretación posterior. La adherencia, por su parte, designa el grado en que la conducta de la persona (tomar la medicación, acudir a las citas, seguir las recomendaciones) coincide con lo acordado con el profesional; el término sustituyó a «cumplimiento» para subrayar la decisión compartida. Ambos constructos se relacionan, pero la adherencia farmacológica depende también de efectos adversos, complejidad del régimen, insight y contexto social.",
+     "links": [
+      {
+       "ids": [
+        "insight"
+       ],
+       "t": "Insight"
+      },
+      {
+       "ids": [
+        "fact_psic_med"
+       ],
+       "t": "Factores psicológicos en afecciones médicas"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "El metaanálisis de Horvath et al. (2011; 190 fuentes, más de 14 000 tratamientos) estimó una correlación alianza-resultado de r = 0,275; la actualización de Flückiger et al. (2018; 295 estudios, más de 30 000 pacientes) obtuvo r = 0,278 (equivalente a d = 0,579), consistente entre perspectivas de evaluación, orientaciones terapéuticas y países, y similar en psicoterapia por internet. En adherencia farmacológica, el metaanálisis de Leucht et al. (2012; 65 ensayos, 6493 pacientes) mostró que mantener el antipsicótico tras la estabilización reducía la recaída al año (27 % frente a 64 % con placebo; RR 0,40), y que las formulaciones depot la reducían más que las orales (RR 0,31 frente a 0,46). Clínicamente: monitorizar la alianza de forma sistemática, reparar rupturas, acordar objetivos explícitos, decidir de forma compartida, simplificar el régimen, explorar efectos adversos y, cuando procede, ofrecer inyectables de liberación prolongada.",
+     "links": [
+      {
+       "ids": [
+        "ap_lai"
+       ],
+       "t": "Antipsicóticos inyectables de acción prolongada"
+      },
+      {
+       "ids": [
+        "mbc"
+       ],
+       "t": "Atención basada en medidas"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "Psicoeducación"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "La asociación alianza-resultado es correlacional y su interpretación causal está discutida: la alianza podría ser un subproducto de la mejoría temprana o un factor común que permite actuar a los ingredientes específicos. Zilcha-Mano (2017) propone distinguir un componente de rasgo (la tendencia general de la persona a establecer relaciones satisfactorias) y un componente de estado (el cambio en esa tendencia dentro de la relación terapéutica), y sostiene que solo este último haría a la alianza terapéutica en sentido propio. La heterogeneidad entre estudios es considerable (Flückiger et al., 2018). En adherencia, los ensayos de mantenimiento comparan con retirada a placebo en personas estabilizadas, de modo que no informan sobre cada paciente o paciente concreto; además, los efectos adversos (aumento de peso, trastornos del movimiento, sedación) fueron más frecuentes con antipsicóticos (Leucht et al., 2012) y deben sopesarse. Culpar a la persona de la «no adherencia» ignora los factores del sistema sanitario y del vínculo.",
+     "links": [
+      {
+       "ids": [
+        "ap_lai"
+       ],
+       "t": "LAI"
+      },
+      {
+       "ids": [
+        "insight"
+       ],
+       "t": "Insight"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Horvath AO et al. (2011). Alliance in individual psychotherapy. Psychotherapy 48:9-16 · PMID 21401269",
+    "Leucht S et al. (2012). Antipsychotic drugs versus placebo for relapse prevention in schizophrenia: a systematic review and meta-analysis. Lancet 379:2063-2071 · PMID 22560607",
+    "Zilcha-Mano S (2017). Is the alliance really therapeutic? Revisiting this question in light of recent methodological advances. Am Psychol 72:311-325 · PMID 28481579"
+   ],
+   "relAdd": [
+    "ap_lai"
+   ]
+  },
+  "duelo_melanc": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "En Freud S (1917), Trauer und Melancholie (Int Z Ärztl Psychoanal 4:288-301), el duelo y la melancolía comparten el dolor, la pérdida de interés por el mundo y la inhibición, pero solo la melancolía añade una rebaja del sentimiento de sí que se expresa en autorreproches. Freud propone que, tras una elección de objeto de base narcisista, la libido retirada no se desplaza a otro objeto sino que se retrae al yo y establece una identificación con el objeto abandonado: «la sombra del objeto cayó sobre el yo»; la ambivalencia explica que los reproches dirigidos al objeto se vuelvan contra el propio yo. El propio texto advierte que la definición de melancolía es incierta y que algunas formas sugieren afecciones más somáticas que psicógenas, de modo que no pretende validez general. El papel del superyó como instancia crítica se desarrolla después, en Freud S (1923), Das Ich und das Es (Wien: Internationaler Psychoanalytischer Verlag). La lectura kleiniana (Klein M, 1940, Mourning and its relation to manic-depressive states, Int J Psychoanal 21:125-153) amplía el modelo a todo duelo, lo que es ya literatura posterior y no tesis freudiana.",
+     "links": [
+      {
+       "ids": [
+        "klein_pos"
+       ],
+       "t": "Posición depresiva (Klein)"
+      },
+      {
+       "ids": [
+        "ambival"
+       ],
+       "t": "Ambivalencia afectiva"
+      },
+      {
+       "ids": [
+        "duelo",
+        "ddm"
+       ],
+       "t": "Duelo prolongado y depresión mayor"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La hipótesis concreta de la identificación con el objeto perdido no se ha contrastado de forma experimental. Sí tienen apoyo empírico desarrollos derivados: el modelo de dos polaridades de Blatt (relación interpersonal frente a autodefinición, con sus formas depresivas «anaclítica» y «introyectiva» o autocrítica) acumula investigación clínica, evolutiva y transcultural (Luyten y Blatt, 2013). En resultados, la psicoterapia psicodinámica breve para la depresión fue superior a los controles en depresión, psicopatología general y calidad de vida (d = 0,49-0,69) y no difirió de otras psicoterapias (Driessen et al., 2015); la revisión paraguas de Leichsenring et al. (2023) califica de alta calidad la evidencia en trastornos depresivos. La distinción freudiana resuena en el debate sobre la exclusión por duelo: Zisook et al. (2012) concluyeron que la depresión tras un duelo no difiere de la depresión mayor en otros contextos (carga genética, curso, respuesta a antidepresivos). Clínicamente invita a explorar en el duelo la autocrítica, la ambivalencia hacia la persona fallecida y la pérdida de autoestima, y a diferenciar el duelo prolongado del episodio depresivo.",
+     "links": [
+      {
+       "ids": [
+        "psicodin_breve",
+        "ipt_dep"
+       ],
+       "t": "Psicoterapia psicodinámica e IPT"
+      },
+      {
+       "ids": [
+        "duelo",
+        "duelo_vejez",
+        "perdida_perinatal"
+       ],
+       "t": "Formas de duelo"
+      },
+      {
+       "ids": [
+        "cft"
+       ],
+       "t": "Abordaje de la autocrítica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Conviene distinguir tres planos. Validez clínica: la descripción de la autocrítica y de la ambivalencia en el duelo complicado sigue siendo útil en la entrevista y es coherente con la fenomenología de la culpa melancólica. Evidencia de proceso: no hay estudios que demuestren que la identificación con el objeto perdido o la vuelta de la hostilidad contra el yo medien la aparición de la depresión; la hipótesis de la «hostilidad vuelta contra sí» no ha recibido apoyo empírico consistente [fuente no localizada]. Evidencia de resultado: la eficacia de la psicoterapia psicodinámica en depresión (Driessen et al., 2015; Leichsenring et al., 2023) no valida por sí misma la teoría freudiana de 1917, porque los tratamientos actuales son manualizados y no se derivan exclusivamente de ella. Además, el texto se basó en un número indeterminado de casos clínicos no descritos y en un concepto de melancolía anterior a las clasificaciones operativas; su extrapolación a la depresión mayor actual es una lectura de la literatura secundaria. Los datos de Zisook et al. (2012) cuestionan separar la depresión por el mero contexto de pérdida.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "endog"
+       ],
+       "t": "Depresión mayor y endógena"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Driessen E et al. (2015). The efficacy of short-term psychodynamic psychotherapy for depression: a meta-analysis update. Clin Psychol Rev 42:1-15 · PMID 26281018",
+    "Luyten P & Blatt SJ (2013). Interpersonal relatedness and self-definition in normal and disrupted personality development: retrospect and prospect. Am Psychol 68:172-183 · PMID 23586492",
+    "Zisook S et al. (2012). The bereavement exclusion and DSM-5. Depress Anxiety 29:425-443 · PMID 22495967",
+    "Leichsenring F et al. (2023). The status of psychodynamic psychotherapy as an empirically supported treatment for common mental disorders - an umbrella review based on updated criteria. World Psychiatry 22:286-304 · PMID 37159376",
+    "Klein M (1940). Mourning and its relation to manic-depressive states. Int J Psychoanal 21:125-153 [no verificada]",
+    "Freud S (1923). Das Ich und das Es. Wien: Internationaler Psychoanalytischer Verlag"
+   ],
+   "relAdd": [
+    "psicodin_breve",
+    "endog"
+   ]
+  },
+  "klein_pos": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Melanie Klein describió la posición depresiva en Klein M (1935), A contribution to the psychogenesis of manic-depressive states (Int J Psychoanal 16:145-174), y la posición esquizo-paranoide junto con la identificación proyectiva en Klein M (1946), Notes on some schizoid mechanisms (Int J Psychoanal 27:99-110). Para Klein, las «posiciones» no son fases que se superan, sino configuraciones de ansiedades, defensas y relaciones de objeto que alternan a lo largo de la vida: en la esquizo-paranoide predominan la escisión entre objeto bueno y malo y la ansiedad persecutoria; en la depresiva, la integración del objeto total, la ambivalencia, la culpa y la reparación. El texto de 1946 sitúa estas operaciones en los primeros meses de vida y las atribuye a fantasías inconscientes del lactante. La ampliación de la identificación proyectiva como comunicación y la noción de continente proceden de Bion WR (1962), Learning from Experience (London: Heinemann), y su uso en la organización límite y en la técnica de la TFP es elaboración de Kernberg; ambas son literatura posterior y no tesis kleinianas originales.",
+     "links": [
+      {
+       "ids": [
+        "kernberg"
+       ],
+       "t": "Organización borderline (Kernberg)"
+      },
+      {
+       "ids": [
+        "duelo_melanc"
+       ],
+       "t": "Duelo y melancolía"
+      },
+      {
+       "ids": [
+        "mec_defensa"
+       ],
+       "t": "Escisión e identificación proyectiva como defensas"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La teoría evolutiva kleiniana no se ha contrastado directamente, pero algunos constructos derivados son medibles. El Splitting Index, autoinforme basado en la noción de escisión de Kernberg, mostró consistencia interna, estabilidad a cuatro semanas y correlación con medidas de trastorno límite y narcisista (Gould et al., 1996). En un estudio con entrevistas dinámicas puntuadas (n = 107), la escisión de la imagen propia y ajena fue central en el trastorno límite (Perry et al., 2013). En resultados, la TFP, que trabaja la escisión en la transferencia, fue superior al tratamiento por psicoterapeutas comunitarios expertos en sintomatología límite (d = 1,6) y en organización de la personalidad (d = 1,0), con menos abandonos (38,5 % frente a 67,3 %) y menos tentativas de suicidio (Doering et al., 2010); en otro ensayo, TFP y DBT se asociaron con mejoría de la suicidalidad (Clarkin et al., 2007). Clínicamente, la distinción entre ansiedad persecutoria y ansiedad depresiva orienta la lectura de la transferencia y de la contratransferencia y ayuda a entender oscilaciones entre idealización y devaluación.",
+     "links": [
+      {
+       "ids": [
+        "tfp",
+        "mbt",
+        "dbt"
+       ],
+       "t": "TFP, MBT y DBT"
+      },
+      {
+       "ids": [
+        "tlp"
+       ],
+       "t": "Trastorno límite"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Validez clínica: los conceptos de escisión, identificación proyectiva y reparación tienen amplio uso descriptivo y valor para organizar la experiencia de la relación terapéutica. Evidencia de proceso: existen medidas de escisión y de defensas que se asocian con la patología límite (Gould et al., 1996; Perry et al., 2013), pero no demuestran el origen infantil que Klein postula. Evidencia de resultado: los ensayos de TFP (Clarkin et al., 2007; Doering et al., 2010) evalúan un tratamiento manualizado derivado de Kernberg, no la teoría de Klein, y sus muestras son moderadas. La objeción conceptual principal es la atribución de fantasías complejas a lactantes de pocos meses, difícil de conciliar con la investigación evolutiva sobre las capacidades representacionales tempranas [fuente no localizada]; véase Stern DN (1985), The Interpersonal World of the Infant (New York: Basic Books). Las propias disputas internas del psicoanálisis británico en las «Discusiones controvertidas» de 1941-1945 cuestionaron ya esa cronología [fuente no localizada]. La infalsabilidad de muchas inferencias sobre fantasías inconscientes limita su contrastación.",
+     "links": [
+      {
+       "ids": [
+        "apego"
+       ],
+       "t": "Apego y mentalización"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Doering S et al. (2010). Transference-focused psychotherapy v. treatment by community psychotherapists for borderline personality disorder: randomised controlled trial. Br J Psychiatry 196:389-395 · PMID 20435966",
+    "Clarkin JF et al. (2007). Evaluating three treatments for borderline personality disorder: a multiwave study. Am J Psychiatry 164:922-928 · PMID 17541052",
+    "Gould JR, Prentice NM & Ainslie RC (1996). The Splitting Index: construction of a scale measuring the defense mechanism of splitting. J Pers Assess 66:414-430 · PMID 8869581",
+    "Bion WR (1962). Learning from Experience. London: Heinemann",
+    "Stern DN (1985). The Interpersonal World of the Infant. New York: Basic Books"
+   ],
+   "relAdd": [
+    "tlp",
+    "apego"
+   ]
+  },
+  "mec_defensa": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El concepto de defensa aparece en Freud S (1894), Die Abwehr-Neuropsychosen (Neurol Zentralbl 13), y la sistematización clásica es Freud A (1936), Das Ich und die Abwehrmechanismen (Wien: Internationaler Psychoanalytischer Verlag), que describe las defensas como operaciones del yo frente a la angustia procedente del ello, el superyó o la realidad. La jerarquía por niveles de madurez (psicóticas, inmaduras, neuróticas y maduras) y su estudio prospectivo son aportación de Vaillant GE (1977), Adaptation to Life (Boston: Little, Brown), basada en el seguimiento longitudinal de varones universitarios (estudio Grant). El DSM-IV incorporó en un apéndice una Escala de Funcionamiento Defensivo con siete niveles; el DSM-5 no la conservó [fuente no localizada]. Perry desarrolló la Defense Mechanism Rating Scales (DMRS), puntuada por observadores, y Bond el Defense Style Questionnaire (DSQ), autoinformado. La continuidad entre las defensas «primitivas» kleinianas y la organización límite es una síntesis de Kernberg.",
+     "links": [
+      {
+       "ids": [
+        "klein_pos",
+        "kernberg"
+       ],
+       "t": "Defensas primitivas"
+      },
+      {
+       "ids": [
+        "insight"
+       ],
+       "t": "Insight"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "Vaillant (2000) presentó datos longitudinales según los cuales la madurez defensiva es bastante independiente de la clase social, la educación y el CI, y se relaciona con la salud mental positiva. La revisión de Bond (2004) sobre el DSQ halló que la adaptatividad del estilo defensivo se correlaciona con la salud mental, que el trastorno límite se asocia con más defensas desadaptativas y distorsionadoras de la imagen, y que las defensas se vuelven más adaptativas cuando mejoran los síntomas. En 107 personas con trastornos de la personalidad, las defensas explicaron más varianza en el trastorno límite y menos en el esquizotípico (Perry et al., 2013). En psicoterapia dinámica de larga duración (n = 21), el cambio en el funcionamiento defensivo a los 2,5 años se asoció con mejoría del funcionamiento (rs = 0,60) y de los síntomas (rs = 0,58) a los cinco años (Perry y Bond, 2012). Clínicamente, identificar el nivel defensivo ayuda a formular el caso, anticipar dificultades de alianza y graduar la técnica (más apoyo frente a defensas inmaduras, más interpretación frente a defensas neuróticas).",
+     "links": [
+      {
+       "ids": [
+        "psicodin_breve",
+        "tfp"
+       ],
+       "t": "Psicoterapias dinámicas"
+      },
+      {
+       "ids": [
+        "pdm2",
+        "opd2"
+       ],
+       "t": "Diagnóstico psicodinámico"
+      },
+      {
+       "ids": [
+        "tlp",
+        "tpnarc"
+       ],
+       "t": "Trastornos de la personalidad"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Validez clínica: el lenguaje de las defensas es ampliamente compartido y útil para describir estilos de afrontamiento. Evidencia de proceso: existe una base empírica razonable con medidas de observador y de autoinforme, aunque medir por autoinforme procesos definidos como inconscientes es una paradoja metodológica discutida en la literatura (Cramer, 2015). Evidencia de resultado: el estudio de Perry y Bond (2012) es pequeño y sin grupo control, por lo que la mediación de las defensas en el cambio es una hipótesis plausible y no un hecho establecido. Bond (2004) subraya que no hay estudios que demuestren que evaluar las defensas mejore la planificación del tratamiento. El solapamiento con constructos de afrontamiento y regulación emocional de otras tradiciones no está resuelto, y la jerarquía de madurez de Vaillant procede inicialmente de una muestra masculina, blanca y universitaria, lo que limita su generalización [fuente no localizada]. Calificar una defensa de «inmadura» describe un funcionamiento, no un juicio moral sobre la persona.",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "Modelos dimensionales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Vaillant GE (2000). Adaptive mental mechanisms: their role in a positive psychology. Am Psychol 55:89-98 · PMID 11392869",
+    "Bond M (2004). Empirical studies of defense style: relationships with psychopathology and change. Harv Rev Psychiatry 12:263-278 · PMID 15590575",
+    "Perry JC, Presniak MD & Olson TR (2013). Defense mechanisms in schizotypal, borderline, antisocial, and narcissistic personality disorders. Psychiatry 76:32-52 · PMID 23458114",
+    "Cramer P (2015). Understanding defense mechanisms. Psychodyn Psychiatry 43:523-552 · PMID 26583439",
+    "Freud S (1894). Die Abwehr-Neuropsychosen. Neurol Zentralbl 13 [no verificada]"
+   ],
+   "relAdd": [
+    "tlp",
+    "opd2"
+   ]
+  },
+  "schreber": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "La fuente primaria es Schreber DP (1903), Denkwürdigkeiten eines Nervenkranken (Leipzig: Mutze), relato autobiográfico de un magistrado sajón; Freud nunca lo trató y analizó solo el texto en Freud S (1911), Psychoanalytische Bemerkungen über einen autobiographisch beschriebenen Fall von Paranoia (Jahrb Psychoanal Psychopathol Forsch 3:9-68). Allí propone dos tesis distintas: que la formación delirante es en realidad un intento de curación o reconstrucción tras la retirada de la libido del mundo, y que las variedades de la paranoia derivan de las formas de contradecir la proposición «yo (un hombre) le amo (a él)». La literatura secundaria añadió otras lecturas: Niederland WG (1959), Schreber: father and son (Psychoanal Q 28:151-169), relacionó el delirio con la pedagogía autoritaria del padre, Moritz Schreber; Schatzman M (1973), Soul Murder (New York: Random House), y Lothane Z (1992), In Defense of Schreber (Hillsdale, NJ: Analytic Press), revisaron el contexto familiar y psiquiátrico; Lacan (1955-1956) lo releyó como forclusión del Nombre-del-Padre.",
+     "links": [
+      {
+       "ids": [
+        "lacan_psicosis"
+       ],
+       "t": "Lectura lacaniana"
+      },
+      {
+       "ids": [
+        "paranoia",
+        "weltuntergang"
+       ],
+       "t": "Paranoia y vivencia de fin del mundo"
+      },
+      {
+       "ids": [
+        "freud_hit"
+       ],
+       "t": "Freud"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La tesis del delirio como intento de restitución tiene un paralelo parcial en el modelo de la paranoia como defensa: el metaanálisis de Murphy et al. (2018; 64 estudios) confirmó un sesgo atribucional externalizador asociado a la gravedad de la paranoia (r = 0,18), pero contradijo que la autoestima explícita se preserve, pues se correlacionó negativamente con la paranoia (r = -0,26). La tesis homosexual se examinó en estudios de mediados del siglo XX, como el de Klaf y Davis (1960) en 150 casos y controles, cuyo contenido no se ha podido contrastar en el resumen [fuente no localizada]. En cambio, sí hay datos prospectivos de que la discriminación percibida, incluida la debida a la orientación sexual, se asocia con la aparición de ideación delirante (0,5 % sin discriminación frente a 2,7 % con discriminación en más de un ámbito; Janssen et al., 2003). La comprensión actual de los delirios persecutorios como creencias de amenaza mantenidas por preocupación, baja autoconfianza, sesgos de razonamiento y conductas de seguridad (Freeman, 2016) orienta la TCC para la psicosis.",
+     "links": [
+      {
+       "ids": [
+        "tccp",
+        "emc"
+       ],
+       "t": "TCC y entrenamiento metacognitivo para la psicosis"
+      },
+      {
+       "ids": [
+        "del_persec"
+       ],
+       "t": "Delirio de persecución"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Estrés de minorías"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Validez clínica: el caso conserva un valor histórico y didáctico extraordinario para la descripción del delirio, la vivencia de fin del mundo y la relación entre delirio y sentido. Evidencia de proceso y de resultado: no hay estudios que respalden la hipótesis de que la persecución derive de la negación de un deseo homosexual; esta tesis se apoya en un único texto autobiográfico, sin entrevista clínica, y reflejaba la patologización de la homosexualidad propia de su época. Hoy debe considerarse superada: en las personas LGTBIQ, la ideación paranoide se relaciona de forma más verosímil con la exposición a la discriminación (Janssen et al., 2003) que con un deseo reprimido, y atribuir el delirio a la orientación sexual resulta estigmatizante. La tesis restitutiva solo recibe un apoyo parcial e indirecto (Murphy et al., 2018). El diagnóstico retrospectivo de Schreber (paranoia, esquizofrenia paranoide o trastorno afectivo con síntomas psicóticos) es incierto [fuente no localizada]. Las lecturas familiares de Niederland y Schatzman son interpretaciones históricas, no pruebas causales.",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Lenguaje no patologizante y psicoterapia afirmativa"
+      },
+      {
+       "ids": [
+        "paranoia"
+       ],
+       "t": "Paranoia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Murphy P et al. (2018). The paranoia as defence model of persecutory delusions: a systematic review and meta-analysis. Lancet Psychiatry 5:913-929 · PMID 30314852",
+    "Janssen I et al. (2003). Discrimination and delusional ideation. Br J Psychiatry 182:71-76 · PMID 12509322",
+    "Freeman D (2016). Persecutory delusions: a cognitive perspective on understanding and treatment. Lancet Psychiatry 3:685-692 · PMID 27371990",
+    "Niederland WG (1959). Schreber: father and son. Psychoanal Q 28:151-169 · PMID 13667987",
+    "Klaf FS & Davis CA (1960). Homosexuality and paranoid schizophrenia: a survey of 150 cases and controls. Am J Psychiatry 116:1070-1075 · PMID 14409564",
+    "Schatzman M (1973). Soul Murder: Persecution in the Family. New York: Random House",
+    "Lothane Z (1992). In Defense of Schreber: Soul Murder and Psychiatry. Hillsdale, NJ: Analytic Press"
+   ],
+   "relAdd": [
+    "tccp",
+    "genero"
+   ]
+  },
+  "lacan_psicosis": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Las fuentes primarias son el seminario de 1955-1956, publicado como Lacan J (1981), Le Séminaire, Livre III: Les psychoses (Paris: Seuil), y el escrito «D'une question préliminaire à tout traitement possible de la psychose» (1958), recogido en Lacan J (1966), Écrits (Paris: Seuil). En ellos Lacan parte del caso Schreber y propone que la psicosis se define por la forclusión (Verwerfung) del significante del Nombre-del-Padre: lo rechazado del orden simbólico retorna en lo real, sobre todo como alucinación verbal, y el desencadenamiento se produce cuando la persona es convocada a un lugar que exigiría ese significante; el delirio funciona como metáfora delirante que restablece cierta estabilidad. La literatura secundaria subraya que esta tesis de los años cincuenta se modificó en la obra tardía de Lacan, centrada en la incompletud de lo simbólico (Vanheule, 2023), y que la «psicosis ordinaria» de Jacques-Alain Miller, formulada a finales de los años noventa, amplía el concepto a formas no desencadenadas y a modos de estabilización (Redmond, 2013).",
+     "links": [
+      {
+       "ids": [
+        "schreber"
+       ],
+       "t": "Caso Schreber"
+      },
+      {
+       "ids": [
+        "delirio",
+        "esq"
+       ],
+       "t": "Delirio y esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "No existen ensayos controlados de tratamientos de orientación lacaniana en psicosis ni estudios que operativicen la forclusión [fuente no localizada]; la base disponible son estudios de caso y elaboraciones teóricas, como el seguimiento de un año de un joven con síndrome de Down y experiencias psicóticas descrito por Vanheule (2023). Se han propuesto convergencias con la investigación sobre la dificultad de las personas con esquizofrenia para comprender el lenguaje figurado y contextualizar la información verbal, que Ribolsi et al. (2015) relacionan con la ausencia de metaforización postulada por Lacan; se trata de una analogía teórica, no de una contrastación. En la clínica, el enfoque orienta hacia la escucha del delirio como trabajo de la persona para dar sentido, la prudencia ante intervenciones que puedan precipitar un desencadenamiento, la atención a las suplencias que estabilizan y un manejo cuidadoso de la transferencia. Estas orientaciones son compatibles con un enfoque de recuperación, pero no sustituyen a los tratamientos con evidencia de resultado recomendados por las guías.",
+     "links": [
+      {
+       "ids": [
+        "tccp",
+        "psicoter_fen"
+       ],
+       "t": "TCC para la psicosis y psicoterapia fenomenológica"
+      },
+      {
+       "ids": [
+        "psicodin_breve"
+       ],
+       "t": "Psicoterapia psicodinámica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Validez clínica: el modelo ofrece una lectura fina del lenguaje, la alucinación verbal y la función del delirio, y tiene gran implantación en la clínica psicoanalítica de lengua francesa, española y latinoamericana. Evidencia de proceso: los conceptos (Nombre-del-Padre, forclusión, suplencia) carecen de definiciones operativas y de medidas fiables, lo que impide contrastarlos; las convergencias con la neurociencia son conceptuales (Ribolsi et al., 2015). Evidencia de resultado: no hay ensayos controlados. El diagnóstico estructural categórico (neurosis, psicosis, perversión) choca con los datos que muestran un continuo de gravedad de las experiencias paranoides en la población general (Freeman, 2016). Sokal A y Bricmont J (1997), Impostures intellectuelles (Paris: Odile Jacob), criticaron el uso impropio de nociones matemáticas en Lacan. Leer la «función paterna» como una exigencia de familia con padre varón carece de apoyo y resultaría estigmatizante para familias diversas, incluidas las LGTBIQ; los autores lacanianos contemporáneos la entienden como función simbólica y no como figura biológica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "fen_francesa"
+       ],
+       "t": "Tradición francesa"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Diversidad familiar y de género"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Vanheule S (2023). Treating psychosis today: a Lacanian take. J Am Psychoanal Assoc 71:883-906 · PMID 38140978",
+    "Redmond JD (2013). Contemporary perspectives on Lacanian theories of psychosis. Front Psychol 4:350 · PMID 23825465",
+    "Ribolsi M, Feyaerts J & Vanheule S (2015). Metaphor in psychosis: on the possible convergence of Lacanian theory and neuro-scientific research. Front Psychol 6:664 · PMID 26089805",
+    "Freeman D (2016). Persecutory delusions: a cognitive perspective on understanding and treatment. Lancet Psychiatry 3:685-692 · PMID 27371990",
+    "Sokal A & Bricmont J (1997). Impostures intellectuelles. Paris: Odile Jacob"
+   ],
+   "relAdd": [
+    "tccp",
+    "psicoter_fen"
+   ]
+  },
+  "kohut": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Las obras originales son Kohut H (1971), The Analysis of the Self (New York: International Universities Press), y Kohut H (1977), The Restoration of the Self (New York: International Universities Press); la síntesis técnica final es Kohut H (1984), How Does Analysis Cure? (Chicago: University of Chicago Press). En 1971 Kohut describe el narcisismo como una línea de desarrollo independiente de la del amor objetal y define las transferencias especular e idealizadora como reactivaciones de necesidades evolutivas del self; la transferencia gemelar o de alter ego figuraba entonces como variante de la especular y solo en 1984 se presenta como una dimensión propia. En 1977 formula el self bipolar (ambiciones e ideales) y una psicología del self «en sentido amplio» que va más allá del narcisismo. La oposición sistemática entre el modelo deficitario de Kohut y el modelo de conflicto de Kernberg, así como la derivación hacia la intersubjetividad (Stolorow y otros), proceden de la literatura posterior.",
+     "links": [
+      {
+       "ids": [
+        "tpnarc"
+       ],
+       "t": "Trastorno de personalidad narcisista"
+      },
+      {
+       "ids": [
+        "kernberg"
+       ],
+       "t": "Kernberg"
+      },
+      {
+       "ids": [
+        "winnicott"
+       ],
+       "t": "Winnicott"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "Los constructos de Kohut apenas se han sometido a contrastación directa. Glassman (1988) aplicó modelado causal a las tesis rivales de Kernberg y Kohut y halló apoyo para ambas, aunque sugirió que la psicología del self podía explicarse de forma más parsimoniosa como un caso particular del modelo de Kernberg. La investigación sobre narcisismo patológico distingue de forma consistente una dimensión de grandiosidad y otra de vulnerabilidad: el Pathological Narcissism Inventory recoge en esta última la autoestima contingente, la ocultación del self y la devaluación, y sus escalas se asocian con vergüenza y malestar interpersonal (Pincus et al., 2009); las redes nomológicas del narcisismo grandioso y vulnerable resultaron no relacionadas (Miller et al., 2011). La vertiente vulnerable es la más próxima a la fragilidad de la autoestima descrita por Kohut. En proceso terapéutico, la empatía del terapeuta predice el resultado (r = 0,28; Elliott et al., 2018), dato coherente con el énfasis kohutiano, aunque no específico de su técnica. Clínicamente orienta a tolerar las transferencias idealizadoras y especulares y a reparar los fallos empáticos.",
+     "links": [
+      {
+       "ids": [
+        "tpnarc"
+       ],
+       "t": "Narcisismo"
+      },
+      {
+       "ids": [
+        "psicodin_breve",
+        "adher"
+       ],
+       "t": "Psicoterapia y relación terapéutica"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Validez clínica: la descripción de la fragilidad narcisista, la vergüenza y la necesidad de reconocimiento es útil, en especial en presentaciones de narcisismo vulnerable que los criterios categoriales del DSM recogen mal. Evidencia de proceso: los conceptos de objeto del self y de transferencia especular o idealizadora carecen de medidas validadas de uso extendido [fuente no localizada]; el apoyo indirecto procede de la investigación sobre empatía (Elliott et al., 2018) y sobre narcisismo vulnerable (Pincus et al., 2009). Evidencia de resultado: no hay ensayos controlados de la psicoterapia de la psicología del self como tratamiento específico [fuente no localizada]. Desde el psicoanálisis, Kernberg objetó que el modelo deficitario infravalora la agresión y el conflicto, y el estudio de Glassman (1988) no permite decidir entre ambos modelos. Atribuir la patología del self exclusivamente a fallos empáticos de los cuidadores simplifica una etiología multifactorial e introduce un sesgo de culpabilización de las familias.",
+     "links": [
+      {
+       "ids": [
+        "kernberg",
+        "tfp"
+       ],
+       "t": "Modelo de conflicto y TFP"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Glassman M (1988). Kernberg and Kohut: a test of competing psychoanalytic models of narcissism. J Am Psychoanal Assoc 36:597-625 · PMID 3171069",
+    "Pincus AL et al. (2009). Initial construction and validation of the Pathological Narcissism Inventory. Psychol Assess 21:365-379 · PMID 19719348",
+    "Miller JD et al. (2011). Grandiose and vulnerable narcissism: a nomological network analysis. J Pers 79:1013-1042 · PMID 21204843",
+    "Elliott R et al. (2018). Therapist empathy and client outcome: an updated meta-analysis. Psychotherapy 55:399-410 · PMID 30335453",
+    "Kohut H (1984). How Does Analysis Cure? Chicago: University of Chicago Press"
+   ],
+   "relAdd": [
+    "psicodin_breve"
+   ]
+  },
+  "winnicott": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "Winnicott formuló sus conceptos en artículos breves: Winnicott DW (1953), Transitional objects and transitional phenomena (Int J Psychoanal 34:89-97), sobre la primera posesión «no-yo» y la zona intermedia de experiencia; Winnicott DW (1960), The theory of the parent-infant relationship (Int J Psychoanal 41:585-595), donde desarrolla el sostén (holding) y la dependencia absoluta del lactante; y «Ego distortion in terms of true and false self» (1960), recogido en Winnicott DW (1965), The Maturational Processes and the Facilitating Environment (London: Hogarth Press). La elaboración sobre el juego y la cultura está en Winnicott DW (1971), Playing and Reality (London: Tavistock). La madre «suficientemente buena» designa una adaptación inicialmente casi completa y luego gradualmente decreciente a las necesidades del bebé; la lectura contemporánea de esta noción como función de cuidado, que puede ejercer cualquier figura de crianza con independencia de su género o vínculo biológico, es interpretación posterior [fuente no localizada]. El falso self no es en Winnicott un rasgo patológico en sí: existe un grado normal de adaptación social.",
+     "links": [
+      {
+       "ids": [
+        "kohut",
+        "klein_pos"
+       ],
+       "t": "Kohut y Klein"
+      },
+      {
+       "ids": [
+        "apego"
+       ],
+       "t": "Apego y mentalización"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La teoría de Winnicott no se ha contrastado como tal, pero algunos fenómenos que describe tienen correlatos empíricos. El metaanálisis de De Wolff y van IJzendoorn (1997; 66 estudios, N = 4176) halló una asociación moderada entre sensibilidad parental y seguridad del apego (r = 0,24), y concluyó que la sensibilidad es una condición importante pero no exclusiva, idea próxima a la de un cuidado «suficientemente bueno» más que perfecto. Harter et al. (1996) estudiaron en adolescentes la conducta de «falso self» (actuar de formas que no son el «yo real»): la calidad y el nivel del apoyo parental percibido predecían la esperanza en el apoyo futuro, y esta la conducta de falso self; quienes la atribuían a la devaluación de sí mostraban más afecto depresivo, mientras que la experimentación de roles se asociaba con mejor autoestima. Un estudio pequeño en universitarios (n = 45) observó una mejor recuperación fisiológica del estrés cuando podían tocar su objeto de apego (Ko et al., 2024). Clínicamente, el encuadre como ambiente de sostén y la atención a la sensación de futilidad o de no ser auténtico orientan el trabajo en trastornos de la personalidad.",
+     "links": [
+      {
+       "ids": [
+        "mbt",
+        "psicodin_breve"
+       ],
+       "t": "MBT y psicoterapia psicodinámica"
+      },
+      {
+       "ids": [
+        "apego_trauma"
+       ],
+       "t": "Apego desorganizado"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Validez clínica: las nociones de sostén, espacio transicional y falso self son descriptivamente fecundas y han influido en la técnica y en la comprensión de la creatividad. Evidencia de proceso: proceden de la observación pediátrica y psicoanalítica, sin métodos sistemáticos; los estudios empíricos afines (De Wolff y van IJzendoorn, 1997; Harter et al., 1996) usan constructos de la teoría del apego y de la psicología del self, no operativizaciones winnicottianas. La universalidad del objeto transicional se ha cuestionado con datos transculturales: Hong y Townes (1976) compararon lactantes de Corea y de Estados Unidos, aunque el resumen no está disponible para contrastar las cifras [fuente no localizada]. Evidencia de resultado: no hay ensayos de una terapia específicamente winnicottiana. La centralidad de la madre en los textos originales refleja el modelo familiar de su época. En personas LGTBIQ, ocultar la propia identidad en entornos hostiles es una respuesta adaptativa al estrés de minorías y no debe interpretarse como un falso self patológico.",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Estrés de minorías y psicoterapia afirmativa"
+      },
+      {
+       "ids": [
+        "laing"
+       ],
+       "t": "Laing"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Winnicott DW (1960). The theory of the parent-infant relationship. Int J Psychoanal 41:585-595 · PMID 13785877",
+    "De Wolff MS & van IJzendoorn MH (1997). Sensitivity and attachment: a meta-analysis on parental antecedents of infant attachment. Child Dev 68:571-591 · PMID 9306636",
+    "Harter S et al. (1996). A model of the effects of perceived parent and peer support on adolescent false self behavior. Child Dev 67:360-374 · PMID 8625718",
+    "Hong KM & Townes BD (1976). Infants' attachment to inanimate objects. A cross-cultural study. J Am Acad Child Psychiatry 15:49-61 · PMID 1254847",
+    "Ko CH et al. (2024). Exploring the relationship between transitional object attachment and emotion regulation in college students. Healthcare (Basel) 13:39 · PMID 39791646",
+    "Winnicott DW (1971). Playing and Reality. London: Tavistock"
+   ],
+   "relAdd": [
+    "apego",
+    "mbt"
+   ]
+  },
+  "pdm2": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El Manual Diagnóstico Psicodinámico tuvo una primera edición en 2006 (PDM Task Force, Silver Spring, MD: Alliance of Psychoanalytic Organizations) y una segunda, Lingiardi V y McWilliams N (eds.) (2017), Psychodynamic Diagnostic Manual, Second Edition (New York: Guilford Press), presentada en World Psychiatry (Lingiardi y McWilliams, 2015). Su propósito declarado no es sustituir al DSM ni a la CIE, sino complementarlos con una descripción del funcionamiento de la persona: el eje P sitúa la organización de la personalidad en un continuo de niveles (sano, neurótico, límite, psicótico) y describe estilos de personalidad; el eje M perfila doce capacidades mentales (regulación afectiva, mentalización, identidad, relaciones, defensas, entre otras); y el eje S recoge la experiencia subjetiva de los síntomas, con secciones para la infancia, la adolescencia y la vejez. La herramienta operativa es la Psychodiagnostic Chart (PDC-2). La graduación en niveles de organización hereda el modelo estructural de Kernberg, lo que es una filiación teórica reconocida más que una aportación original del manual.",
+     "links": [
+      {
+       "ids": [
+        "kernberg"
+       ],
+       "t": "Niveles de organización (Kernberg)"
+      },
+      {
+       "ids": [
+        "opd2"
+       ],
+       "t": "OPD-2"
+      },
+      {
+       "ids": [
+        "mec_defensa"
+       ],
+       "t": "Defensas"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La evidencia psicométrica es todavía limitada. En un estudio con estudiantes de doctorado en psicología con poca experiencia clínica, la PDC-2 mostró una fiabilidad interjueces adecuada para los dos ejes principales: el 52 % de la varianza de la puntuación global de organización de la personalidad (eje P) y el 29 % de la del eje M se debían al consenso entre evaluadores, con coeficientes de correlación intraclase de 0,59 a 0,90 para las puntuaciones globales; las valoraciones convergían con las de expertos y con la Escala de Nivel de Funcionamiento de la Personalidad (LPFS) del DSM-5 (Biberdzic y Grenyer, 2023). En la práctica clínica, el PDM-2 se usa para la formulación del caso y la planificación del tratamiento: estimar el nivel de organización orienta sobre la intensidad y el encuadre de la psicoterapia, el perfil del eje M señala capacidades que trabajar y el eje S incorpora la vivencia de quien consulta, en línea con un diagnóstico centrado en la persona.",
+     "links": [
+      {
+       "ids": [
+        "pid5_lpfs",
+        "hitop_tp"
+       ],
+       "t": "LPFS y modelos dimensionales"
+      },
+      {
+       "ids": [
+        "psicodin_breve",
+        "tfp",
+        "mbt"
+       ],
+       "t": "Tratamientos psicodinámicos"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "El PDM-2 no es una clasificación oficial y carece de la base de estudios de campo de la CIE-11 o del DSM-5-TR [fuente no localizada]. Su validación es incipiente: el estudio de fiabilidad disponible es de muestra reducida y la propia investigación señala como limitación la supuesta necesidad de formación y experiencia considerables para aplicarlo (Biberdzic y Grenyer, 2023). Buena parte de la investigación procede de grupos vinculados a sus autores [fuente no localizada]. El eje P se solapa conceptualmente con el criterio A del modelo alternativo del DSM-5 y con la gravedad de la personalidad de la CIE-11, de modo que su valor incremental sobre estas medidas está por demostrar. Desde la distinción entre planos, el manual aporta sobre todo validez clínica descriptiva y utilidad para la formulación; su relación con los resultados terapéuticos no se ha estudiado de forma sistemática [fuente no localizada]. Como todo sistema que gradúa la «salud» de la personalidad, exige cuidado para no convertir diferencias culturales, sexuales o de género en indicadores de patología.",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp",
+        "pid5_lpfs"
+       ],
+       "t": "Modelos dimensionales oficiales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Biberdzic M & Grenyer BFS (2023). How much training do we need? Assessing the validity and interrater reliability of the PDM-2's Psychodiagnostic Chart among less experienced clinicians. J Pers Assess 105:436-444 · PMID 35771210",
+    "PDM Task Force (2006). Psychodynamic Diagnostic Manual. Silver Spring, MD: Alliance of Psychoanalytic Organizations"
+   ],
+   "relAdd": [
+    "psicodin_breve"
+   ]
+  },
+  "opd2": {
+   "secAdd": [
+    {
+     "t": "Delimitación conceptual",
+     "x": "El Diagnóstico Psicodinámico Operacionalizado fue desarrollado desde 1992 por un grupo de trabajo de psicoanalistas y psiquiatras de lengua alemana; la segunda edición se publicó como Arbeitskreis OPD (2006), OPD-2: Operationalisierte Psychodynamische Diagnostik (Bern: Huber), y en inglés como OPD Task Force (2008). Su objetivo es reducir la dependencia de la inferencia clínica mediante descripciones de anclaje y criterios operativos para cuatro ejes psicodinámicos: experiencia de la enfermedad y prerrequisitos para el tratamiento (I), patrones relacionales disfuncionales (II), conflictos repetitivos (III) y nivel de integración estructural (IV), a los que se añade el diagnóstico según la CIE (V). La entrevista OPD es semiestructurada y la integración de los ejes permite definir focos terapéuticos. La influencia del eje estructural en el criterio A del modelo alternativo del DSM-5 es una conexión defendida por autores del propio grupo OPD (Zimmermann et al., 2012).",
+     "links": [
+      {
+       "ids": [
+        "pdm2"
+       ],
+       "t": "PDM-2"
+      },
+      {
+       "ids": [
+        "pid5_lpfs"
+       ],
+       "t": "Criterio A (LPFS)"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia empírica y aplicación clínica",
+     "x": "La revisión de Cierpka et al. (2007) resumió una fiabilidad buena en contextos de investigación y aceptable para fines clínicos, con indicios de validez de contenido, de criterio y de constructo para los distintos ejes. El eje de integración estructural (OPD-LSIA) mostró fiabilidad, validez y una asociación elevada con las valoraciones de trastorno de la personalidad por observadores (Zimmermann et al., 2012). Para facilitar su uso rutinario se desarrolló el cuestionario de estructura OPD-SQ, que en 1112 personas de muestras clínicas y no clínicas tuvo buena consistencia interna en todas las subescalas, diferenció a pacientes con y sin trastorno de la personalidad y correlacionó con seguridad del apego y neuroticismo (Ehrenthal et al., 2012). En la práctica, el OPD-2 se emplea para seleccionar focos (un conflicto, un déficit estructural o un patrón relacional) en psicoterapias psicodinámicas breves y en programas hospitalarios, y para valorar el cambio estructural a lo largo del tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "psicodin_breve",
+        "tfp"
+       ],
+       "t": "Psicoterapias psicodinámicas focales"
+      },
+      {
+       "ids": [
+        "kernberg"
+       ],
+       "t": "Estructura de la personalidad"
+      }
+     ]
+    },
+    {
+     "t": "Límites y críticas",
+     "x": "Los propios autores de la revisión de 2007 reconocen que el sistema debería formularse de manera más práctica para el uso clínico (Cierpka et al., 2007), y su aplicación exige un entrenamiento específico y entrevistas largas [fuente no localizada]. La fiabilidad, buena en investigación, desciende en condiciones clínicas habituales, y la mayor parte de la evidencia procede de grupos de lengua alemana vinculados al desarrollo del sistema, con escasa replicación independiente [fuente no localizada]. El eje de conflictos se apoya en inferencias más interpretativas que el eje estructural y su fiabilidad suele ser menor [fuente no localizada]. Distinguiendo planos: el OPD-2 tiene buena validez clínica descriptiva y evidencia psicométrica razonable para el eje estructural; la evidencia de que la planificación focal basada en el OPD mejore los resultados frente a otras formas de planificación es limitada [fuente no localizada]. Su solapamiento con la LPFS y con la gravedad de la personalidad de la CIE-11 plantea la cuestión de su valor añadido.",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "Modelos dimensionales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cierpka M et al. (2007). The operationalized psychodynamic diagnostics system: clinical relevance, reliability and validity. Psychopathology 40:209-220 · PMID 17396047",
+    "Zimmermann J et al. (2012). Assessing the level of structural integration using operationalized psychodynamic diagnosis (OPD): implications for DSM-5. J Pers Assess 94:522-532 · PMID 22808938",
+    "Ehrenthal JC et al. (2012). The OPD Structure Questionnaire (OPD-SQ): first results on reliability and validity [en alemán]. Psychother Psychosom Med Psychol 62:25-32 · PMID 22271173",
+    "Arbeitskreis OPD (2006). OPD-2: Operationalisierte Psychodynamische Diagnostik. Bern: Huber"
+   ],
+   "relAdd": [
+    "psicodin_breve"
+   ]
+  }
+ },
+ "add": []
+}

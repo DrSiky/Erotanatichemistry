@@ -1,0 +1,652 @@
+{
+ "patch": {
+  "ptsd": {
+   "relAdd": [
+    "prazosina"
+   ]
+  },
+  "parasomn": {
+   "relAdd": [
+    "prazosina"
+   ]
+  },
+  "desnos": {
+   "relAdd": [
+    "prazosina"
+   ]
+  },
+  "guanfacina": {
+   "relAdd": [
+    "clonidina"
+   ]
+  },
+  "tourette": {
+   "relAdd": [
+    "clonidina"
+   ]
+  },
+  "cows": {
+   "relAdd": [
+    "clonidina"
+   ]
+  },
+  "no_estim_tdah": {
+   "relAdd": [
+    "clonidina"
+   ]
+  },
+  "alcohol": {
+   "relAdd": [
+    "baclofeno"
+   ]
+  },
+  "ghb_abst": {
+   "relAdd": [
+    "baclofeno"
+   ]
+  },
+  "nalmefeno": {
+   "relAdd": [
+    "baclofeno"
+   ]
+  },
+  "acamprosato": {
+   "relAdd": [
+    "baclofeno"
+   ]
+  },
+  "naltrexona": {
+   "relAdd": [
+    "baclofeno"
+   ]
+  },
+  "delirium": {
+   "relAdd": [
+    "dexmedetomidina"
+   ]
+  },
+  "agitacion": {
+   "relAdd": [
+    "dexmedetomidina"
+   ]
+  },
+  "dt_alc": {
+   "relAdd": [
+    "dexmedetomidina"
+   ]
+  },
+  "haloperidol": {
+   "relAdd": [
+    "dexmedetomidina"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "prazosina",
+   "n": "Prazosina (Minipres)",
+   "ab": "Prazosina",
+   "al": [
+    "Minipres",
+    "prazosin",
+    "antagonista alfa-1",
+    "prazosina en las pesadillas del TEPT"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1979,
+   "tags": [
+    "trauma"
+   ],
+   "desc": "Antagonista selectivo de los receptores adrenérgicos α1 postsinápticos, derivado quinazolínico (código ATC C02CA01). Ficha técnica AEMPS-CIMA de referencia: Minipres 1 mg, 2 mg y 5 mg comprimidos (n.º registro 55064, 55063 y 55062; Pfizer; comercializados). Indicaciones (4.1): hipertensión arterial esencial y secundaria, enfermedad o fenómeno de Raynaud y síntomas de obstrucción al flujo urinario por hiperplasia benigna de próstata; no tiene ninguna indicación psiquiátrica. Su uso en las pesadillas asociadas al TEPT es fuera de ficha: se apoya en ensayos positivos de pequeño tamaño (Raskind 2013) y fue contradicho por el mayor ensayo multicéntrico en veteranos, negativo en pesadillas y calidad del sueño (Raskind 2018). El metaanálisis de Reist (2021), que incluye ese ensayo, mantiene un beneficio agrupado con heterogeneidad y pocos estudios. La guía VA/DoD 2023 sugiere la prazosina para las pesadillas del TEPT (débil a favor), pero sugiere no usarla para el TEPT en su conjunto (débil en contra).",
+   "feats": [
+    "Contraindicación (4.3): hipersensibilidad a las quinazolinas, al principio activo o a los excipientes; es la única contraindicación que recoge la ficha técnica de Minipres (AEMPS-CIMA).",
+    "Fenómeno de primera dosis (4.4): un pequeño porcentaje de pacientes responde de forma brusca con hipotensión ortostática, mareo, debilidad o, raramente, pérdida de conocimiento, sobre todo al inicio; la ficha técnica de Minipres indica empezar con dosis bajas, escalar gradualmente y advertir de las situaciones con riesgo de lesión.",
+    "Interacciones (4.4 y 4.5): efecto antihipertensivo aditivo con diuréticos y otros antihipertensivos; con inhibidores de la fosfodiesterasa 5 puede causar hipotensión sintomática; falsos positivos en las pruebas de feocromocitoma por excreción urinaria de AVM y MHFG (ficha técnica de Minipres).",
+    "Priapismo e iris flácido (4.4): se han notificado erecciones prolongadas y priapismo con bloqueantes α1, incluida la prazosina, y una erección de más de 4 horas exige asistencia inmediata; antes de una cirugía de cataratas debe comunicarse el tratamiento actual o previo por el síndrome de iris flácido intraoperatorio (ficha técnica de Minipres).",
+    "Reacciones adversas psiquiátricas y neurológicas (4.8): frecuentes depresión, nerviosismo, mareo, somnolencia, cefalea, síncope y pérdida de consciencia; infrecuente insomnio; raras alucinaciones y agravamiento de una narcolepsia preexistente (ficha técnica de Minipres).",
+    "Embarazo y lactancia (4.6): en el embarazo, solo si el beneficio supera el riesgo; se excreta en pequeñas cantidades en la leche y no debe administrarse durante la lactancia. No se recomienda en menores de 18 años y en personas mayores se aconseja titulación cuidadosa por mayor sensibilidad a la hipotensión ortostática (4.2).",
+    "En el ensayo PACT (Raskind 2018; 304 veteranos), la prazosina redujo la presión sistólica en decúbito 6,7 mmHg más que el placebo a las 10 semanas, y la ideación suicida nueva o agravada se registró en el 8 % de los tratados con prazosina frente al 15 % con placebo."
+   ],
+   "tx": "Fuera de ficha técnica en España: el uso tiene carácter excepcional, se limita a situaciones sin alternativas terapéuticas autorizadas para el paciente y exige justificarlo en la historia clínica, informar de beneficios y riesgos y obtener el consentimiento (Real Decreto 1015/2009, art. 13). Opción para las pesadillas asociadas al TEPT, preferentemente junto a la psicoterapia centrada en el trauma y tras decisión compartida (VA/DoD 2023: débil a favor; AASM 2018: «puede usarse»); no se recomienda para el TEPT en su conjunto (VA/DoD 2023). Control de la presión arterial y del ortostatismo al inicio y en cada escalada, advertencia sobre conducción y caídas, y revisión de antihipertensivos e inhibidores de la PDE5 según la ficha técnica AEMPS-CIMA de Minipres.",
+   "note": "La evidencia es discordante: los ensayos positivos son pequeños y se hicieron sobre todo en militares y veteranos varones, mientras que el ensayo de mayor tamaño (Raskind 2018) fue negativo, con una respuesta placebo elevada según el metaanálisis de Reist (2021). Es incierta la extrapolación a población civil, a mujeres y a trauma no bélico [fuente no localizada]. En contextos de chemsex, la interacción con inhibidores de la PDE5 consta en la ficha, y la suma con poppers (nitritos de alquilo, vasodilatadores) podría potenciar la hipotensión, sin estudios específicos [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Ensayos clínicos y metaanálisis en las pesadillas del TEPT",
+     "x": "En soldados en activo con TEPT de combate y pesadillas, el ensayo de 15 semanas de Raskind (2013; 67 participantes) mostró eficacia de la prazosina sobre las pesadillas, la calidad del sueño, el funcionamiento global, la puntuación CAPS y el grupo de síntomas de hiperactivación, con buena tolerancia. En cambio, el ensayo multicéntrico PACT de la VA (Raskind 2018; 304 veteranos con TEPT crónico y pesadillas frecuentes) no halló diferencias frente a placebo a las 10 semanas en el ítem B2 de la CAPS (sueños recurrentes angustiosos), en el índice de calidad del sueño de Pittsburgh ni en la impresión clínica global de cambio, ni tampoco a las 26 semanas. El metaanálisis de Reist (2021), con seis ensayos aleatorizados controlados con placebo y 429 pacientes, incluido el anterior, halló un beneficio agrupado sobre las pesadillas (diferencia de medias estandarizada −0,75), la calidad del sueño (−0,57) y los síntomas globales de TEPT (−0,31), y atribuye el resultado negativo del gran ensayo a una respuesta placebo elevada; los propios autores advierten de la heterogeneidad de diseños y poblaciones y del pequeño número de estudios.",
+     "links": [
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      },
+      {
+       "ids": [
+        "parasomn"
+       ],
+       "t": "pesadillas y parasomnias"
+      },
+      {
+       "ids": [
+        "pcl5",
+        "epworth_psqi"
+       ],
+       "t": "CAPS y PSQI"
+      }
+     ]
+    },
+    {
+     "t": "Posición de las guías",
+     "x": "La guía VA/DoD de 2023 (versión 4.0) sugiere la prazosina para el tratamiento de las pesadillas asociadas al TEPT, con recomendación débil a favor (recomendación 32), y a la vez sugiere no utilizarla, igual que divalproex, guanfacina, ketamina, risperidona, tiagabina y vortioxetina, para el tratamiento del TEPT en su conjunto (recomendación 18, débil en contra); además, considera insuficiente la evidencia para recomendar o desaconsejar la terapia de ensayo en imaginación en las pesadillas (recomendación 33). Su sinopsis (Schnurr 2024) prioriza las psicoterapias manualizadas centradas en el trauma sobre la farmacoterapia. El documento de posición de la AASM (Morgenthaler 2018) recomienda la terapia de ensayo en imaginación para las pesadillas asociadas al TEPT y para el trastorno de pesadillas, y sitúa la prazosina entre las opciones que «pueden usarse» en ambos casos, junto con otras como la clonidina, la trazodona o el topiramato en el TEPT. La discrepancia entre ambas guías sobre la terapia de ensayo en imaginación conviene explicarla a quien consulta.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "desnos"
+       ],
+       "t": "TEPT y TEPT complejo"
+      },
+      {
+       "ids": [
+        "guanfacina",
+        "clonidina"
+       ],
+       "t": "agonistas α2"
+      },
+      {
+       "ids": [
+        "trazodona"
+       ],
+       "t": "trazodona"
+      }
+     ]
+    },
+    {
+     "t": "Estado en España y seguridad práctica",
+     "x": "En CIMA constan Minipres 1, 2 y 5 mg (Pfizer), comercializados y con indicaciones exclusivamente cardiovasculares y urológicas, por lo que el uso psiquiátrico se rige por el artículo 13 del Real Decreto 1015/2009: carácter excepcional, justificación en la historia clínica, información de beneficios y riesgos y consentimiento. El mecanismo propuesto en las pesadillas es la atenuación de la hiperactividad noradrenérgica central durante el sueño [fuente no localizada]; la ficha solo describe el bloqueo α1 periférico (5.1). Los riesgos prácticos son el síncope de primera dosis, la hipotensión ortostática en personas mayores (4.2) y la suma con otros antihipertensivos y con inhibidores de la PDE5 (4.5), y por analogía con poppers [fuente no localizada]. Antes de una cirugía de cataratas hay que comunicar el tratamiento por el riesgo de iris flácido, y una erección de más de 4 horas requiere atención urgente (4.4).",
+     "links": [
+      {
+       "ids": [
+        "poppers",
+        "chemsex_s"
+       ],
+       "t": "PDE5, poppers y chemsex"
+      },
+      {
+       "ids": [
+        "bzd_mayor",
+        "fk_mayor"
+       ],
+       "t": "persona mayor"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica Minipres 1 mg, 2 mg y 5 mg comprimidos (n.º registro 55064, 55063 y 55062), apartados 4.1-4.8 y 5.1; consulta de noviembre de 2026",
+    "Raskind MA et al. (2013). A trial of prazosin for combat trauma PTSD with nightmares in active-duty soldiers returned from Iraq and Afghanistan. Am J Psychiatry 170:1003-1010 · PMID 23846759",
+    "Raskind MA et al. (2018). Trial of prazosin for post-traumatic stress disorder in military veterans. N Engl J Med 378:507-517 · PMID 29414272",
+    "Reist C et al. (2021). Prazosin for treatment of post-traumatic stress disorder: a systematic review and meta-analysis. CNS Spectr 26:338-344 · PMID 32362287",
+    "U.S. Department of Veterans Affairs y Department of Defense (2023). VA/DoD Clinical Practice Guideline for Management of Posttraumatic Stress Disorder and Acute Stress Disorder, versión 4.0. Provider Summary, recomendaciones 18, 32 y 33",
+    "Schnurr PP et al. (2024). The management of posttraumatic stress disorder and acute stress disorder: synopsis of the 2023 U.S. Department of Veterans Affairs and U.S. Department of Defense clinical practice guideline. Ann Intern Med 177:363-374 · PMID 38408360",
+    "Morgenthaler TI et al. (2018). Position paper for the treatment of nightmare disorder in adults: an American Academy of Sleep Medicine position paper. J Clin Sleep Med 14:1041-1055 · PMID 29852917",
+    "BOE (2009). Real Decreto 1015/2009, de 19 de junio, por el que se regula la disponibilidad de medicamentos en situaciones especiales, artículo 13"
+   ],
+   "rel": [
+    "ptsd",
+    "desnos",
+    "parasomn",
+    "trauma",
+    "trazodona",
+    "guanfacina",
+    "clonidina",
+    "poppers",
+    "insom"
+   ]
+  },
+  {
+   "id": "clonidina",
+   "n": "Clonidina (Catapresan)",
+   "ab": "Clonidina",
+   "al": [
+    "Catapresan",
+    "clonidine",
+    "agonista alfa-2",
+    "clonidina en psiquiatría"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1972,
+   "tags": [
+    "child"
+   ],
+   "desc": "Agonista de los receptores adrenérgicos α2 y de imidazolina de acción central que reduce las eferencias simpáticas (código ATC C02AC01). Ficha técnica AEMPS-CIMA de referencia: Catapresan 0,150 mg comprimidos (n.º registro 50669; comercializado). Indicación (4.1): hipertensión arterial en todas sus formas; no recoge indicaciones psiquiátricas y no se recomienda en menores de 18 años (4.2); en CIMA no constan formas de liberación prolongada ni la lofexidina. Sus usos psiquiátricos son, por tanto, fuera de ficha: abstinencia de opioides, donde la revisión Cochrane de agonistas α2 muestra menos abstinencia grave y más finalización del tratamiento que con placebo (Gowing 2016); TDAH en la infancia, con eficacia en ensayos y metaanálisis (Hirota 2014), y tics con TDAH comórbido (Tourette's Syndrome Study Group 2002; Weisman 2013). La guanfacina, el otro agonista α2 de uso psiquiátrico, sí está autorizada en España en el TDAH de 6 a 17 años y tiene ficha propia en este atlas, a la que se remite para su perfil.",
+   "feats": [
+    "Contraindicaciones (4.3): hipersensibilidad y bradiarritmia grave por síndrome del nódulo sinusal o por bloqueo auriculoventricular de segundo o tercer grado (ficha técnica de Catapresan, AEMPS-CIMA).",
+    "Retirada (4.4): tras la interrupción súbita después de un tratamiento prolongado con dosis elevadas se han notificado inquietud, palpitaciones, elevación rápida de la presión arterial, nerviosismo, temblor, cefalea o náuseas; la ficha indica reducir la dosis gradualmente en 2-4 días y, si hay un betabloqueante, retirar primero este (ficha técnica de Catapresan).",
+    "Advertencia pediátrica (4.4.1): con el uso fuera de ficha de clonidina junto con metilfenidato en niños con TDAH se han observado reacciones adversas graves, incluida la muerte, por lo que la ficha técnica de Catapresan no recomienda esta combinación.",
+    "Interacciones (4.5): potencia los depresores del sistema nervioso central y el alcohol; bradicardia con betabloqueantes o digitálicos; los antidepresivos tricíclicos y los neurolépticos con bloqueo α pueden agravar la hipotensión ortostática y reducir el efecto hipotensor; los AINE pueden disminuir su eficacia (ficha técnica de Catapresan).",
+    "Reacciones adversas (4.8): muy frecuentes mareo, sedación, hipotensión ortostática y sequedad de boca; frecuentes depresión, trastornos del sueño, cefalea, estreñimiento y disfunción eréctil; poco frecuentes delirios, alucinaciones y pesadillas; de frecuencia no conocida, estado confusional y disminución de la libido (ficha técnica de Catapresan).",
+    "Farmacocinética y poblaciones (5.2 y 4.6): semivida de eliminación de 5 a 25,5 horas, que puede llegar a 41 horas con deterioro renal grave; alrededor del 70 % se elimina por la orina, en gran parte inalterada, por lo que la insuficiencia renal exige un ajuste minucioso (4.4). Es preferible evitarla en el embarazo y no debe utilizarse durante la lactancia (ficha técnica de Catapresan).",
+    "Sobredosis (4.9): depresión simpática generalizada con miosis, letargia, bradicardia, hipotensión, hipotermia, somnolencia hasta el coma y depresión respiratoria con apnea; puede aparecer hipertensión paradójica por estimulación α1 periférica (ficha técnica de Catapresan)."
+   ],
+   "tx": "Uso psiquiátrico fuera de ficha técnica en España, con justificación en la historia clínica, información y consentimiento (Real Decreto 1015/2009, art. 13). En la abstinencia de opioides, alternativa sintomática cuando no se emplea la sustitución con agonistas opioides, con control de presión arterial y frecuencia cardiaca (Gowing 2016). En el TDAH infantil y en los tics con TDAH comórbido es preferible la guanfacina, autorizada en el TDAH de 6 a 17 años; NICE NG87 contempla la clonidina (fuera de ficha) ante tics atribuibles al estimulante solo en menores de 18 años y tras asesoramiento de un servicio terciario de TDAH (1.8.14), y no la recomienda en el TDAH con alteraciones del sueño, rabietas o tics sin ese asesoramiento (1.7.17). Retirada gradual y vigilancia cardiovascular según la ficha técnica AEMPS-CIMA de Catapresan.",
+   "note": "La ficha española de Catapresan afirma que en los ensayos pediátricos de TDAH, síndrome de Tourette y tartamudeo no se ha demostrado la eficacia de la clonidina y que no se ha establecido su seguridad en menores (5.1.4), lo que contrasta con los ensayos positivos con clonidina de liberación prolongada (Jain 2011) y con el del Tourette's Syndrome Study Group (2002); esta discrepancia regulatoria debe explicarse a las familias. La sedación es el principal factor limitante (moderada o grave en el 28 % en ese ensayo). En chemsex, la potenciación de depresores centrales que recoge la ficha hace prever sedación aditiva con GHB/GBL y opioides [fuente no localizada], y una desintoxicación de opioides con clonidina no exime de la prevención de sobredosis por pérdida de tolerancia [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Abstinencia de opioides",
+     "x": "La revisión Cochrane de Gowing (2016; 26 ensayos, 1728 participantes) incluye clonidina, lofexidina, guanfacina y tizanidina. Con evidencia de calidad moderada, los agonistas α2 fueron más eficaces que el placebo para reducir la probabilidad de abstinencia grave (RR 0,32) y aumentaron la finalización del tratamiento (RR 1,95). Frente a pautas descendentes de metadona, la gravedad máxima de la abstinencia podría ser algo mayor, sin diferencias significativas; los signos y síntomas aparecieron y se resolvieron antes, y el tratamiento fue más corto. Frente a la metadona, la hipotensión y otros efectos adversos fueron más probables con los agonistas α2 (RR 1,92; calidad baja), sin diferencias en la finalización de la desintoxicación, y los datos no bastan para comparar entre sí los distintos agonistas α2. En España la lofexidina no consta en CIMA y la clonidina se emplea fuera de ficha; la escala COWS ayuda a objetivar la abstinencia y a ajustar el tratamiento sintomático.",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "opioides_sint"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "cows"
+       ],
+       "t": "escala COWS"
+      },
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "agonistas opioides"
+      }
+     ]
+    },
+    {
+     "t": "TDAH y tics",
+     "x": "En el ensayo factorial del Tourette's Syndrome Study Group (2002; 136 niños con TDAH y trastorno de tics crónico), la clonidina y el metilfenidato mejoraron el TDAH frente a placebo, con el mayor beneficio para la combinación; la clonidina ayudó sobre todo en impulsividad e hiperactividad, la gravedad de los tics disminuyó en todos los grupos activos y el 28 % de quienes recibían clonidina refirió sedación moderada o grave. La clonidina de liberación prolongada (Jain 2011; 236 pacientes de 6 a 17 años) mejoró la ADHD-RS-IV frente a placebo desde la segunda semana. El metaanálisis de Hirota (2014) confirma la eficacia de los agonistas α2 en monoterapia y como complemento de estimulantes, a costa de fatiga, sedación y somnolencia y de efectos hipotensores y bradicardizantes con la clonidina de liberación inmediata. En los tics, el beneficio de los agonistas α2 se concentra en quienes tienen TDAH comórbido y es pequeño y no significativo sin él (Weisman 2013). La advertencia de la ficha española sobre la combinación con metilfenidato obliga a extremar la vigilancia cardiovascular.",
+     "links": [
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "TDAH"
+      },
+      {
+       "ids": [
+        "tics_tr",
+        "tourette",
+        "tics"
+       ],
+       "t": "tics y Tourette"
+      },
+      {
+       "ids": [
+        "guanfacina",
+        "no_estim_tdah"
+       ],
+       "t": "guanfacina y no estimulantes"
+      },
+      {
+       "ids": [
+        "metilfenidato",
+        "estim_seguridad"
+       ],
+       "t": "metilfenidato y seguridad"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad en la práctica psiquiátrica",
+     "x": "Los riesgos clínicos principales son la sedación, la hipotensión ortostática, la bradicardia y la hipertensión de rebote si se suspende bruscamente (4.4 y 4.8). Por la potenciación de los depresores centrales y del alcohol (4.5), la combinación con benzodiacepinas u opioides exige precaución, y cabe esperar lo mismo con GHB/GBL [fuente no localizada]. Los tricíclicos y los antipsicóticos con bloqueo α1 pueden agravar el ortostatismo y anular el efecto hipotensor (4.5), y si se asocia un betabloqueante hay que retirarlo antes que la clonidina (4.4), como recoge también la ficha de propranolol del atlas. La ficha pide precaución en personas con depresión (4.4) y recoge la depresión como reacción frecuente (4.8), lo que obliga a vigilar el estado de ánimo. La AASM sitúa la clonidina entre las opciones que «pueden usarse» en las pesadillas asociadas al TEPT (Morgenthaler 2018), también fuera de ficha en España.",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "opioides",
+        "ghb_gbl"
+       ],
+       "t": "depresores centrales"
+      },
+      {
+       "ids": [
+        "propranolol"
+       ],
+       "t": "betabloqueantes"
+      },
+      {
+       "ids": [
+        "ap_tipicos",
+        "ap_atipicos"
+       ],
+       "t": "antipsicóticos con bloqueo α1"
+      },
+      {
+       "ids": [
+        "prazosina",
+        "ptsd"
+       ],
+       "t": "pesadillas del TEPT"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica Catapresan 0,150 mg comprimidos (n.º registro 50669), apartados 4.1-4.9, 5.1.4 y 5.2; consulta de noviembre de 2026",
+    "Gowing L et al. (2016). Alpha2-adrenergic agonists for the management of opioid withdrawal. Cochrane Database Syst Rev 2016:CD002024 · PMID 27140827",
+    "Tourette's Syndrome Study Group (2002). Treatment of ADHD in children with tics: a randomized controlled trial. Neurology 58:527-536 · PMID 11865128",
+    "Jain R et al. (2011). Clonidine extended-release tablets for pediatric patients with attention-deficit/hyperactivity disorder. J Am Acad Child Adolesc Psychiatry 50:171-179 · PMID 21241954",
+    "Hirota T, Schwartz S & Correll CU (2014). Alpha-2 agonists for attention-deficit/hyperactivity disorder in youth: a systematic review and meta-analysis of monotherapy and add-on trials to stimulant therapy. J Am Acad Child Adolesc Psychiatry 53:153-173 · PMID 24472251",
+    "Weisman H et al. (2013). Systematic review: pharmacological treatment of tic disorders—efficacy of antipsychotic and alpha-2 adrenergic agonist agents. Neurosci Biobehav Rev 37:1162-1171 · PMID 23099282",
+    "Morgenthaler TI et al. (2018). Position paper for the treatment of nightmare disorder in adults: an American Academy of Sleep Medicine position paper. J Clin Sleep Med 14:1041-1055 · PMID 29852917",
+    "BOE (2009). Real Decreto 1015/2009, de 19 de junio, por el que se regula la disponibilidad de medicamentos en situaciones especiales, artículo 13",
+    "NICE (2018). Attention deficit hyperactivity disorder: diagnosis and management (NG87), recomendaciones 1.7.17 y 1.8.14 (actualizada en 2019)"
+   ],
+   "rel": [
+    "guanfacina",
+    "tdah",
+    "tics_tr",
+    "tourette",
+    "opioides",
+    "cows",
+    "no_estim_tdah",
+    "propranolol",
+    "prazosina",
+    "metilfenidato"
+   ]
+  },
+  {
+   "id": "baclofeno",
+   "n": "Baclofeno (Lioresal)",
+   "ab": "Baclofeno",
+   "al": [
+    "Lioresal",
+    "baclofen",
+    "agonista GABA-B",
+    "baclofeno en el alcohol"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "l",
+   "ev": "meta",
+   "y": 1974,
+   "tags": [
+    "chemsex",
+    "risk"
+   ],
+   "desc": "Agonista GABA-B que deprime la transmisión refleja medular e inhibe la liberación de glutamato y aspartato (ATC M03BX01). Ficha técnica AEMPS-CIMA de referencia: Lioresal 10 mg y 25 mg comprimidos (n.º registro 52180 y 52181; Novartis; comercializados); hay genéricos orales y formas intratecales. Indicaciones (4.1): espasticidad en esclerosis múltiple, lesiones medulares y otras enfermedades cerebrales en adultos, y espasticidad de origen cerebral y espasmos de origen medular en la población pediátrica; el trastorno por consumo de alcohol no figura entre ellas. Desde 2018 Francia es el único país que lo ha autorizado en la dependencia del alcohol, y solo como apoyo a la reducción del consumo (Rolland 2025). La revisión Cochrane (Agabio 2023; 17 ensayos, 1818 participantes) concluye que probablemente reduce el riesgo de recaída y aumenta los días de abstinencia frente a placebo, sin efecto sobre los días de consumo intenso ni las bebidas por día de consumo. Los ensayos franceses a dosis altas divergieron: ALPADIR fue negativo en abstinencia (Reynaud 2017) y Bacloville, positivo en consumo de bajo riesgo pero con más acontecimientos adversos graves (Rigal 2020).",
+   "feats": [
+    "Advertencias psiquiátricas (4.4): precaución y vigilancia en trastornos psicóticos, esquizofrenia, trastornos depresivos o maníacos, estados confusionales o enfermedad de Parkinson (riesgo de exacerbación); se han notificado episodios de suicidio y relacionados con el suicidio, casi siempre con otros factores de riesgo como consumo de alcohol, depresión o intentos previos (ficha técnica de Lioresal, AEMPS-CIMA).",
+    "Uso indebido y dependencia (4.4): se han notificado casos de uso indebido, abuso y dependencia; precaución en personas con antecedentes de trastorno por uso de sustancias y vigilancia de aumentos de dosis, conductas de búsqueda del fármaco o tolerancia (ficha técnica de Lioresal).",
+    "Retirada brusca (4.4): ansiedad, confusión, delirio, alucinaciones, estados psicóticos, manía o paranoia, convulsiones con estado epiléptico, discinesia, taquicardia, hipertermia y rabdomiólisis, sobre todo tras tratamientos largos; salvo urgencia, la retirada debe ser gradual en aproximadamente 1-2 semanas (ficha técnica de Lioresal).",
+    "Insuficiencia renal y encefalopatía (4.4): se elimina en gran parte inalterado por vía renal; se han observado signos de sobredosis y encefalopatía tóxica con dosis bajas en insuficiencia renal y en hemodiálisis, y encefalopatía reversible a dosis terapéuticas, que obliga a suspender (ficha técnica de Lioresal).",
+    "Interacciones (4.5): con otros depresores del SNC, opioides o alcohol aumentan la sedación y el riesgo de depresión respiratoria; con litio se agravaron síntomas hipercinéticos; con tricíclicos, hipotonía pronunciada; con levodopa, confusión, alucinaciones y agitación; los fármacos que reducen la función renal pueden causar toxicidad (ficha técnica de Lioresal).",
+    "Reacciones adversas (4.8): muy frecuentes sedación, somnolencia y náuseas; frecuentes depresión respiratoria, confusión, mareo, alucinaciones, depresión, insomnio, euforia, pesadillas e hipotensión; la ficha recoge apnea central del sueño con dosis elevadas en pacientes con dependencia del alcohol (ficha técnica de Lioresal).",
+    "Embarazo y lactancia (4.6): atraviesa la placenta, con toxicidad embriofetal en animales y convulsiones neonatales por retirada tras la exposición intrauterina; no debe usarse en el embarazo ni en la lactancia salvo que el beneficio supere el riesgo (ficha técnica de Lioresal).",
+    "En la cohorte del seguro de enfermedad francés (Chaignot 2018; 165 334 pacientes, 47 614 expuestos a baclofeno), el baclofeno se asoció a más hospitalizaciones (HR 1,13) y muertes (HR 1,31) que los fármacos autorizados para el alcohol, con un riesgo creciente con la dosis (HR de muerte 2,27 con dosis altas)."
+   ],
+   "tx": "Fuera de ficha técnica en España en el trastorno por consumo de alcohol, con justificación, información y consentimiento (Real Decreto 1015/2009, art. 13). Puede considerarse tras naltrexona, acamprosato o nalmefeno [fuente no localizada], sobre todo para mantener la abstinencia tras la desintoxicación, que es donde la revisión Cochrane muestra beneficio (Agabio 2023), y en la cirrosis alcohólica, donde un ensayo aleatorizado mostró más abstinencia sin efectos hepáticos (Addolorato 2007). Evitar o extremar la precaución en insuficiencia renal, epilepsia, riesgo de suicidio no abordado y uso concomitante de otros depresores; titulación y retirada graduales y vigilancia del ánimo, del nivel de conciencia y de la respiración según la ficha técnica AEMPS-CIMA de Lioresal.",
+   "note": "La posición regulatoria es heterogénea. En Francia, tras una década de uso fuera de ficha con dosis muy altas, la autorización de 2018 se limitó a la reducción del consumo, y la Sociedad Francesa de Alcohología propone ampliarla al mantenimiento de la abstinencia a la luz de la revisión Cochrane (Rolland 2025); la revisión de Paille (2021) señala que los datos de los ensayos publicados no confirman un alto nivel de eficacia. En España ninguna ficha de baclofeno en CIMA recoge indicación en el alcohol (consulta de noviembre de 2026) y no se ha localizado una nota específica de la AEMPS sobre este uso [fuente no localizada]. Las mayores tasas de acontecimientos graves en Bacloville y la señal de mortalidad dependiente de la dosis en la cohorte francesa desaconsejan las dosis altas. Su combinación con GHB/GBL puede sumar depresión del SNC y respiratoria [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Ensayos franceses: ALPADIR y Bacloville",
+     "x": "ALPADIR (Reynaud 2017) aleatorizó a 320 pacientes con dependencia del alcohol tras la desintoxicación a una dosis objetivo alta y fija de baclofeno o a placebo: la proporción de abstinencia continua durante 20 semanas fue baja y similar (11,9 % frente a 10,5 %), la reducción del consumo no fue significativa (diferencia de 10,9 gramos diarios a los 6 meses), el deseo de consumo medido con la OCDS disminuyó de forma significativa y no se observaron problemas de seguridad mayores. Bacloville (Rigal 2020), pragmático, de 12 meses y en 62 centros de atención primaria, aleatorizó a 320 personas con consumo de alto riesgo a baclofeno con titulación individual hasta dosis muy altas o a placebo: el éxito, definido como consumo nulo o de bajo riesgo en el último mes, fue del 57 % frente al 36 % (21 puntos), pero sin contar como fracaso a quienes pasaron a baclofeno abierto la diferencia fue de 62 % frente a 55 % y dejó de ser significativa. Hubo acontecimientos adversos graves en 85 frente a 36 pacientes, con siete y tres muertes, respectivamente.",
+     "links": [
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "trastorno por consumo de alcohol"
+      },
+      {
+       "ids": [
+        "naltrexona",
+        "nalmefeno",
+        "acamprosato"
+       ],
+       "t": "fármacos autorizados para el alcohol"
+      },
+      {
+       "ids": [
+        "audit"
+       ],
+       "t": "cribado del consumo"
+      }
+     ]
+    },
+    {
+     "t": "Metaanálisis y posición regulatoria",
+     "x": "La revisión Cochrane actualizada (Agabio 2023; 17 ensayos con 1818 participantes con dependencia del alcohol) halló, con certeza moderada, que el baclofeno probablemente reduce el riesgo de recaída frente a placebo (RR 0,87), resultado confirmado en quienes habían completado la desintoxicación, y con certeza alta que aumenta el porcentaje de días de abstinencia (diferencia de medias de 9,07 puntos); no hubo diferencias en los días de consumo intenso ni en las bebidas por día de consumo. Paradójicamente, la autorización francesa de 2018 se concedió solo para apoyar la reducción del consumo, objetivo en el que la revisión no halló efecto, y la Sociedad Francesa de Alcohología ha pedido extenderla al mantenimiento de la abstinencia (Rolland 2025). En personas con cirrosis alcohólica, el ensayo de Addolorato (2007; 84 pacientes) obtuvo abstinencia en el 71 % con baclofeno frente al 29 % con placebo, sin efectos adversos hepáticos. En España el uso sigue siendo fuera de ficha.",
+     "links": [
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "trastorno por consumo de alcohol"
+      },
+      {
+       "ids": [
+        "ttos_adiccion"
+       ],
+       "t": "fármacos para las adicciones"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad, GHB y chemsex",
+     "x": "Los riesgos más relevantes en la población con consumo de alcohol son la sedación con depresión respiratoria al combinarlo con alcohol, opioides u otros depresores (4.5), la apnea central del sueño con dosis elevadas, la encefalopatía, la toxicidad en insuficiencia renal, el descenso del umbral convulsivo, los episodios relacionados con el suicidio y el síndrome de retirada con delirio, psicosis y convulsiones si se suspende bruscamente (4.4 y 4.8). En la dependencia de GHB, muy ligada al chemsex, un estudio neerlandés multicéntrico, abierto y no aleatorizado (Beurmanjer 2018; 107 pacientes) observó tras la desintoxicación menos recaídas y abandonos con baclofeno añadido al tratamiento habitual, sin reducción de los consumos aislados, y los autores piden ensayos aleatorizados antes de recomendarlo. Comparte con el GHB la acción GABA-B, por lo que la combinación no supervisada puede sumar depresión del nivel de conciencia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "ghb_abst"
+       ],
+       "t": "GHB/GBL y su abstinencia"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "red_danos"
+       ],
+       "t": "chemsex y reducción de daños"
+      },
+      {
+       "ids": [
+        "neuroadapt_sed"
+       ],
+       "t": "neuroadaptación a sedantes"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica Lioresal 10 mg comprimidos (n.º registro 52180), apartados 4.1-4.9 y 5.1-5.2; consulta de noviembre de 2026",
+    "Agabio R et al. (2023). Baclofen for alcohol use disorder. Cochrane Database Syst Rev 1:CD012557 · PMID 36637087",
+    "Reynaud M et al. (2017). A randomized, placebo-controlled study of high-dose baclofen in alcohol-dependent patients—the ALPADIR study. Alcohol Alcohol 52:439-446 · PMID 28525555",
+    "Rigal L et al. (2020). Titrated baclofen for high-risk alcohol consumption: a randomized placebo-controlled trial in out-patients with 1-year follow-up. Addiction 115:1265-1276 · PMID 31833590",
+    "Chaignot C et al. (2018). Risk of hospitalisation and death related to baclofen for alcohol use disorders: comparison with nalmefene, acamprosate, and naltrexone in a cohort study of 165 334 patients between 2009 and 2015 in France. Pharmacoepidemiol Drug Saf 27:1239-1248 · PMID 30251424",
+    "Rolland B et al. (2025). Should the French approval of baclofen for alcohol dependence be extended to abstinence maintenance? Encephale 51:335-337 · PMID 39244501",
+    "Paille F (2021). [Baclofen in the treatment of alcohol addiction: a French saga]. Rev Med Suisse 17:1122-1125 · PMID 34106538",
+    "Addolorato G et al. (2007). Effectiveness and safety of baclofen for maintenance of alcohol abstinence in alcohol-dependent patients with liver cirrhosis: randomised, double-blind controlled study. Lancet 370:1915-1922 · PMID 18068515",
+    "Beurmanjer H et al. (2018). Baclofen to prevent relapse in gamma-hydroxybutyrate (GHB)-dependent patients: a multicentre, open-label, non-randomized, controlled trial. CNS Drugs 32:437-442 · PMID 29651711",
+    "BOE (2009). Real Decreto 1015/2009, de 19 de junio, por el que se regula la disponibilidad de medicamentos en situaciones especiales, artículo 13"
+   ],
+   "rel": [
+    "alcohol",
+    "naltrexona",
+    "nalmefeno",
+    "acamprosato",
+    "disulfiram",
+    "ttos_adiccion",
+    "ghb_gbl",
+    "ghb_abst",
+    "chemsex_s",
+    "neuroadapt_sed"
+   ]
+  },
+  {
+   "id": "dexmedetomidina",
+   "n": "Dexmedetomidina (Dexdor; película sublingual Igalmi)",
+   "ab": "Dexmedetomidina",
+   "al": [
+    "Dexdor",
+    "dexmedetomidine",
+    "Igalmi",
+    "dexmedetomidina sublingual",
+    "agonista alfa-2 sedante"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2011,
+   "tags": [
+    "emerg",
+    "elderly"
+   ],
+   "desc": "Agonista selectivo de los receptores adrenérgicos α2 con efecto simpaticolítico y sedante mediado por la inhibición del locus coeruleus (código ATC N05CM18), que produce una sedación de la que se puede despertar a la persona con facilidad. Ficha técnica de referencia: Dexdor 100 microgramos/ml concentrado para solución para perfusión (n.º registro 11718006; Orion; autorización centralizada, uso hospitalario), además de genéricos intravenosos. Indicaciones (4.1): sedación de adultos en la UCI que no requieran una sedación más profunda que despertar ante la estimulación verbal (RASS de 0 a −3) y sedación de adultos no intubados en procedimientos diagnósticos o quirúrgicos; ni el delirium ni la agitación psiquiátrica son indicaciones autorizadas. En la UCI se asoció a menos delirium que las benzodiacepinas (Pandharipande 2007; Riker 2009) y aumentó las horas sin ventilación en el delirium agitado (Reade 2016). La película sublingual (Igalmi) fue aprobada por la FDA en abril de 2022 para la agitación aguda asociada a esquizofrenia, trastorno esquizoafectivo o trastorno bipolar I o II en adultos, tras dos ensayos de fase 3 positivos (Citrome 2022; Preskorn 2022); no consta en CIMA.",
+   "feats": [
+    "Contraindicaciones (4.3): hipersensibilidad, bloqueo cardiaco avanzado (grado 2 o 3) sin marcapasos, hipotensión no controlada y enfermedad cerebrovascular aguda (ficha técnica de Dexdor, AEMPS-CIMA).",
+    "Monitorización (4.4): su uso se limita a cuidados intensivos, quirófano y procedimientos diagnósticos, con monitorización cardiaca continua durante la perfusión y vigilancia respiratoria en no intubados por riesgo de depresión respiratoria y apnea; no debe administrarse en bolo ni se recomienda dosis de carga en la UCI (ficha técnica de Dexdor).",
+    "Mortalidad en pacientes de UCI de 65 años o menos (4.4): en SPICE III (3904 pacientes) no hubo diferencia global de mortalidad a 90 días (29,1 % en ambos grupos), pero se asoció a mayor mortalidad en ese grupo de edad (odds ratio 1,26; intervalo de credibilidad del 95 % 1,02-1,56), sobre todo en ingresos no posoperatorios (información de producto de Dexdor, EMA).",
+    "Efectos cardiovasculares (4.4 y 4.8): hipotensión, hipertensión y bradicardia en aproximadamente el 25 %, el 15 % y el 13 % de los pacientes de UCI; se han notificado parada sinusal transitoria y parada cardiaca, a menudo precedidas de bradicardia o bloqueo auriculoventricular, y los mayores de 65 años son más propensos a la hipotensión (ficha técnica de Dexdor).",
+    "Otras advertencias (4.4): carece de acción anticonvulsivante; puede inducir hipertermia resistente al enfriamiento; los agonistas α2 se han asociado raramente a reacciones de abstinencia, con agitación e hipertensión, tras la supresión brusca de un uso prolongado (ficha técnica de Dexdor).",
+    "Interacciones (4.5): aumento de los efectos sedantes, anestésicos y cardiorrespiratorios con anestésicos, sedantes, hipnóticos y opioides, confirmado con isoflurano, propofol, alfentanilo y midazolam; posible interacción con sustratos del CYP2B6 y suma de hipotensión y bradicardia con betabloqueantes (ficha técnica de Dexdor).",
+    "Película sublingual (ficha estadounidense de Igalmi): hipotensión ortostática a las 2 horas en el 18 % y el 16 % con las dos dosis estudiadas frente al 9 % con placebo; prolonga el QT, por lo que se evita con otros fármacos que lo alargan; tras tomarla no se debe conducir ni manejar maquinaria peligrosa en al menos 8 horas; no está indicada para prevenir la agitación (FDA, NDA 215390).",
+    "Embarazo y lactancia (4.6): toxicidad reproductiva en animales; no debe utilizarse en el embarazo salvo que la situación clínica lo requiera; se excreta en la leche y hay que decidir entre interrumpir la lactancia o el tratamiento (ficha técnica de Dexdor)."
+   ],
+   "tx": "En España, solo en el ámbito hospitalario autorizado (UCI, quirófano y procedimientos). En el delirium de la persona críticamente enferma la base es la prevención no farmacológica y el tratamiento de la causa; la guía PADIS sugiere la dexmedetomidina en adultos ventilados con delirium cuya agitación impide el destete o la extubación [fuente no localizada]. En la agitación psiquiátrica aguda fuera de la UCI, la película sublingual no está disponible en España y el uso de las formas intravenosas fuera de ficha no está respaldado por ensayos en ese ámbito [fuente no localizada]; se mantienen la desescalada verbal y los fármacos autorizados. Monitorización cardiaca y hemodinámica y valoración de la señal de mortalidad en pacientes de 65 años o menos según la información de producto de Dexdor (ficha técnica).",
+   "note": "La evidencia en delirium procede de la UCI y sobre todo de comparaciones con benzodiacepinas; SPICE III (Shehabi 2019) no redujo la mortalidad y la mayoría de los pacientes asignados a dexmedetomidina necesitaron propofol complementario en los dos primeros días. En la agitación de la esquizofrenia y del trastorno bipolar, los ensayos incluyeron agitación leve a moderada en personas capaces de autoadministrarse la película, y la ficha estadounidense detalla la exclusión de quienes tenían antecedentes de síncope, presión arterial o frecuencia cardiaca bajas, hipovolemia, hipotensión ortostática o habían recibido benzodiacepinas, otros hipnóticos o antipsicóticos en las 4 horas previas, lo que limita la extrapolación a la agitación grave de urgencias. La ficha estadounidense vigente (DailyMed, noviembre de 2026), tras suplementos de eficacia aprobados el 19 de noviembre de 2025 y el 13 de noviembre de 2026, distingue además un uso en entorno no supervisado, apoyado en un estudio ambulatorio de 12 semanas controlado con placebo cuyo objetivo era la seguridad (208 pacientes; somnolencia en las 24 horas del 49,0 % frente al 40,6 %, sequedad de boca del 14,7 % frente al 3,8 %). La formulación sublingual no consta en CIMA (consulta de noviembre de 2026) y no se ha localizado una autorización de la EMA [fuente no localizada]. Como adyuvante en la abstinencia alcohólica en la UCI, la evidencia es de calidad baja o muy baja (Polintan 2023).",
+   "sec": [
+    {
+     "t": "Delirium y agitación en la UCI",
+     "x": "En el ensayo MENDS (Pandharipande 2007; 106 adultos con ventilación mecánica), la sedación con dexmedetomidina frente a lorazepam proporcionó más días vivos sin delirium ni coma (mediana de 7 frente a 3) y menos coma. En SEDCOM (Riker 2009; 375 pacientes), frente a midazolam, el tiempo en el objetivo de sedación fue similar, pero la prevalencia de delirium durante el tratamiento fue del 54 % frente al 76,6 % y la extubación se adelantó 1,9 días, a costa de más bradicardia (42,2 % frente a 18,9 %). En DahLIA (Reade 2016; 74 pacientes ventilados con delirium agitado en quienes no se consideraba posible extubar), añadir dexmedetomidina al tratamiento habitual aumentó las horas sin ventilación en 7 días (diferencia de medianas de 17 horas), acortó el tiempo hasta la extubación y aceleró la resolución del delirium. La ficha de Dexdor recoge la reducción del delirium medido con la CAM-ICU frente a midazolam (5.1).",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "delirium y su detección"
+      },
+      {
+       "ids": [
+        "lorazepam",
+        "ansiol_bzd"
+       ],
+       "t": "benzodiacepinas"
+      },
+      {
+       "ids": [
+        "help_delirium"
+       ],
+       "t": "prevención no farmacológica"
+      }
+     ]
+    },
+    {
+     "t": "Agitación en esquizofrenia y trastorno bipolar: película sublingual",
+     "x": "En el ensayo de fase 3 en esquizofrenia o trastorno esquizoafectivo (Citrome 2022; 380 adultos con agitación leve a moderada), las dos dosis de dexmedetomidina sublingual redujeron la subescala de excitación de la PANSS (PEC) a las 2 horas más que el placebo (diferencias de −5,5 y −3,7 puntos). En el trastorno bipolar I o II (Preskorn 2022; 380 adultos), las diferencias fueron de −5,4 y −4,1 puntos, con efecto desde los 20 minutos; la somnolencia afectó al 21,4 % y al 20,6 % frente al 4,8 % con placebo, y hubo más sequedad de boca, hipotensión y mareo. Un análisis posterior estimó un número necesario para tratar de 3 a 4 para la respuesta a las 2 horas y un número necesario para dañar de 7 para la somnolencia (Citrome 2022). La FDA aprobó la película (Igalmi, NDA 215390) el 5 de abril de 2022 para la agitación aguda asociada a esas enfermedades en adultos, sin indicación preventiva ni sobre la enfermedad de base.",
+     "links": [
+      {
+       "ids": [
+        "agitacion"
+       ],
+       "t": "agitación psicomotriz"
+      },
+      {
+       "ids": [
+        "esq",
+        "teasqb"
+       ],
+       "t": "esquizofrenia y esquizoafectivo"
+      },
+      {
+       "ids": [
+        "tb1",
+        "tb2"
+       ],
+       "t": "trastorno bipolar"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "olanzapina",
+        "lorazepam"
+       ],
+       "t": "alternativas autorizadas en la agitación"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad práctica y uso en España",
+     "x": "En España solo constan en CIMA formas intravenosas de uso hospitalario, indicadas para la sedación en la UCI y en procedimientos; su empleo específico para tratar el delirium o la agitación es fuera de ficha y exige justificación, información y consentimiento (Real Decreto 1015/2009, art. 13). Los riesgos clave son la hipotensión, la bradicardia con posible parada sinusal o cardiaca, la hipertensión transitoria por vasoconstricción y la mayor mortalidad en pacientes de UCI de 65 años o menos que recoge la información de producto tras SPICE III (Shehabi 2019). La película sublingual prolonga el QT según la ficha estadounidense. En la abstinencia alcohólica de la UCI, el metaanálisis de Polintan (2023), con evidencia de calidad baja o muy baja, no halló diferencias significativas en la estancia como adyuvante de las benzodiacepinas, aunque los ensayos aleatorizados agrupados apuntaban a un beneficio, y la bradicardia y la hipotensión fueron más frecuentes. Al retirar una perfusión prolongada puede aparecer agitación con hipertensión por abstinencia de agonista α2 (4.4).",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "ciwa_ar"
+       ],
+       "t": "abstinencia alcohólica"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT"
+      },
+      {
+       "ids": [
+        "clonidina",
+        "guanfacina"
+       ],
+       "t": "otros agonistas α2"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica Dexdor 100 microgramos/ml concentrado para solución para perfusión (n.º registro 11718006), apartados 4.1-4.8 y 5.1; consulta de noviembre de 2026",
+    "EMA (2026). Dexdor: información del producto (EPAR), apartado 4.4, Mortalidad en pacientes UCI ≤ 65 años; consulta de noviembre de 2026",
+    "FDA (2022). Igalmi (dexmedetomidine) sublingual or buccal film, NDA 215390: aprobación de 5 de abril de 2022 y suplementos de eficacia de 19 de noviembre de 2025 y 13 de noviembre de 2026 (Drugs@FDA) y ficha técnica estadounidense (DailyMed, versión de 16 de noviembre de 2026), apartados 1, 2.2, 5.1-5.3 y 6.1",
+    "Pandharipande PP et al. (2007). Effect of sedation with dexmedetomidine vs lorazepam on acute brain dysfunction in mechanically ventilated patients: the MENDS randomized controlled trial. JAMA 298:2644-2653 · PMID 18073360",
+    "Riker RR et al. (2009). Dexmedetomidine vs midazolam for sedation of critically ill patients: a randomized trial. JAMA 301:489-499 · PMID 19188334",
+    "Reade MC et al. (2016). Effect of dexmedetomidine added to standard care on ventilator-free time in patients with agitated delirium: a randomized clinical trial. JAMA 315:1460-1468 · PMID 26975647",
+    "Shehabi Y et al. (2019). Early sedation with dexmedetomidine in critically ill patients. N Engl J Med 380:2506-2517 · PMID 31112380",
+    "Citrome L et al. (2022). Sublingual dexmedetomidine for the treatment of acute agitation in adults with schizophrenia or schizoaffective disorder: a randomized placebo-controlled trial. J Clin Psychiatry 83:22m14447 · PMID 36198061",
+    "Preskorn SH et al. (2022). Effect of sublingual dexmedetomidine vs placebo on acute agitation associated with bipolar disorder: a randomized clinical trial. JAMA 327:727-736 · PMID 35191924",
+    "Citrome L et al. (2022). Sublingual dexmedetomidine for agitation associated with schizophrenia or bipolar disorder: a post hoc analysis of number needed to treat, number needed to harm, and likelihood to be helped or harmed. Adv Ther 39:4821-4835 · PMID 36002761",
+    "Devlin JW et al. (2018). Clinical practice guidelines for the prevention and management of pain, agitation/sedation, delirium, immobility, and sleep disruption in adult patients in the ICU. Crit Care Med 46:e825-e873 · PMID 30113379",
+    "Polintan ETT et al. (2023). Adjunctive dexmedetomidine in alcohol withdrawal syndrome: a systematic review and meta-analysis of retrospective cohort studies and randomized controlled trials. Ann Pharmacother 57:696-705 · PMID 36258676",
+    "BOE (2009). Real Decreto 1015/2009, de 19 de junio, por el que se regula la disponibilidad de medicamentos en situaciones especiales, artículo 13"
+   ],
+   "rel": [
+    "delirium",
+    "agitacion",
+    "haloperidol",
+    "lorazepam",
+    "esq",
+    "tb1",
+    "dt_alc",
+    "cam",
+    "clonidina",
+    "guanfacina",
+    "qt_psicof"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,614 @@
+{
+ "patch": {
+  "lm_bip": {
+   "secAdd": [
+    {
+     "t": "Evidencia comparada frente a otros estabilizadores",
+     "x": "El ensayo BALANCE asignó de forma aleatoria y abierta a 330 personas con trastorno bipolar I, tras un periodo de preinclusión con la combinación, a litio en monoterapia, valproato en monoterapia o ambos, con seguimiento de hasta 24 meses. Necesitaron una nueva intervención por un episodio afectivo el 54 % con la combinación, el 59 % con litio y el 69 % con valproato: el litio fue superior al valproato (HR 0,71; IC 95 % 0,51-1,00) y la combinación también (HR 0,59; 0,42-0,83), mientras que el ensayo no pudo confirmar ni descartar una ventaja de la combinación frente al litio solo (HR 0,82; 0,58-1,17) (Geddes 2010). El beneficio debe ponderarse con su perfil de toxicidad: en la revisión sistemática de 385 estudios, el litio se asoció a menor capacidad de concentración urinaria, hipotiroidismo clínico (OR 5,78 frente a placebo), aumento del calcio y de la parathormona y ganancia de peso frente a placebo (OR 1,89), pero no frente a olanzapina; la reducción media del filtrado glomerular no fue significativa y el riesgo absoluto de tratamiento renal sustitutivo fue bajo (18 de 3369 pacientes, 0,5 %), de ahí la recomendación de medir el calcio antes y durante el tratamiento (McKnight 2012).",
+     "links": [
+      {
+       "ids": [
+        "vpa_bip"
+       ],
+       "t": "valproato como comparador"
+      },
+      {
+       "ids": [
+        "endocrino"
+       ],
+       "t": "efectos tiroideos y paratiroideos"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo de acción y predictores de respuesta",
+     "x": "Medio siglo después de su introducción, el mecanismo por el que el litio estabiliza el ánimo no está aclarado. La revisión de Malhi (2013) resume efectos en varios niveles: reduce la neurotransmisión excitadora (dopamina y glutamato) y aumenta la inhibidora (GABA); actúa sobre segundos mensajeros (adenilato ciclasa, vía del fosfoinositol y proteína cinasa C); y ejerce acciones neuroprotectoras, con menor estrés oxidativo, aumento del BDNF y de Bcl-2 y menor apoptosis por inhibición de la glucógeno sintasa cinasa 3; parece preservar o aumentar el volumen de la corteza prefrontal, el hipocampo y la amígdala. La misma revisión califica de modesta la evidencia de su eficacia en la depresión. La respuesta individual es variable y heredable: en el estudio de asociación del genoma completo del consorcio ConLiGen (2563 pacientes, respuesta medida con la escala de Alda), un único locus del cromosoma 21, que contiene dos genes de ARN largos no codificantes, alcanzó significación genómica, y en una cohorte prospectiva independiente de 73 pacientes en monoterapia con litio quienes portaban los alelos asociados a respuesta recayeron menos (Hou 2016). Ningún marcador genético está validado para decidir la prescripción en la clínica.",
+     "links": [
+      {
+       "ids": [
+        "hered_bip",
+        "prs"
+       ],
+       "t": "genética del trastorno bipolar"
+      },
+      {
+       "ids": [
+        "litio_hit",
+        "schou_hit"
+       ],
+       "t": "historia del litio"
+      },
+      {
+       "ids": [
+        "clock_genes"
+       ],
+       "t": "genes del reloj"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Geddes JR et al. (2010). Lithium plus valproate combination therapy versus monotherapy for relapse prevention in bipolar I disorder (BALANCE): a randomised open-label trial. Lancet 375:385-395 · PMID 20092882",
+    "McKnight RF et al. (2012). Lithium toxicity profile: a systematic review and meta-analysis. Lancet 379:721-728 · PMID 22265699",
+    "Malhi GS et al. (2013). Potential mechanisms of action of lithium in bipolar disorder. Current understanding. CNS Drugs 27:135-153 · PMID 23371914",
+    "Hou L et al. (2016). Genetic variants associated with response to lithium treatment in bipolar disorder: a genome-wide association study. Lancet 387:1085-1093 · PMID 26806518"
+   ]
+  },
+  "fact_psic_med": {
+   "secAdd": [
+    {
+     "t": "Intervenciones con evidencia: atención colaborativa",
+     "x": "El ensayo TEAMcare ilustra cómo actuar a la vez sobre el factor psicológico y la enfermedad médica. En 14 centros de atención primaria, 214 personas con depresión y diabetes o cardiopatía coronaria mal controladas fueron asignadas a atención habitual o a un modelo colaborativo en el que una enfermera supervisada por personal médico, en coordinación con el médico o la médica de familia, aplicaba un manejo basado en guías orientado a objetivos. A los 12 meses, el grupo de intervención mejoró más la hemoglobina glucosilada (diferencia 0,58 %), el colesterol LDL (6,9 mg/dl), la presión arterial sistólica (5,1 mmHg) y la puntuación de depresión SCL-20 (0,40 puntos), recibió más ajustes de insulina, antihipertensivos y antidepresivos, y refirió mejor calidad de vida y mayor satisfacción con la atención (Katon 2010). El resultado respalda el planteamiento de esta categoría: la depresión que interfiere con el autocuidado se trata como un objetivo médico más, con seguimiento estructurado y no solo con derivación. El ensayo no se diseñó sobre la categoría del DSM-5-TR, sino sobre la comorbilidad entre depresión y enfermedad crónica.",
+     "links": [
+      {
+       "ids": [
+        "dep_med",
+        "cardio_dep"
+       ],
+       "t": "depresión en enfermedad médica y cardiopatía"
+      },
+      {
+       "ids": [
+        "adher"
+       ],
+       "t": "adherencia"
+      },
+      {
+       "ids": [
+        "biopsicosocial"
+       ],
+       "t": "modelo biopsicosocial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Katon WJ et al. (2010). Collaborative care for patients with depression and chronic illnesses. N Engl J Med 363:2611-2620 · PMID 21190455"
+   ]
+  },
+  "enuresis": {
+   "secAdd": [
+    {
+     "t": "Fisiopatología y genética",
+     "x": "La enuresis se consideró durante mucho tiempo un trastorno sobre todo psiquiátrico, pero desde finales del siglo XX se reconoce el papel crucial de factores somáticos: poliuria nocturna por déficit de vasopresina, hiperactividad nocturna del detrusor y umbral de despertar elevado. El modelo clásico combina poliuria con umbral de despertar alto, o hiperactividad del detrusor con umbral alto; Nevéus (2017) lo matiza: los problemas psicológicos están sobrerrepresentados y en una minoría podrían ser causa o factor agravante, la poliuria no siempre depende de la vasopresina, la hiperactividad del detrusor puede relacionarse con el estreñimiento y el sueño de estos niños y niñas puede ser profundo pero también estar perturbado (obstrucción de la vía aérea, vejiga distendida), de modo que el umbral de despertar elevado podría ser consecuencia y no causa. La herencia es el factor etiológico principal, modulado por factores somáticos y psicosociales: la transmisión más frecuente es autosómica dominante con penetrancia alta (90 %), un tercio de los casos son esporádicos, se han identificado cuatro loci sin relación específica con el tipo de escape y todos los subtipos de enuresis nocturna (primaria, secundaria y combinada diurna y nocturna) muestran una influencia genética comparable (von Gontard 2001).",
+     "links": [
+      {
+       "ids": [
+        "sueno_inf",
+        "apnea"
+       ],
+       "t": "sueño y vía aérea"
+      },
+      {
+       "ids": [
+        "encopresis"
+       ],
+       "t": "estreñimiento y eliminación"
+      },
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "comorbilidad psiquiátrica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nevéus T (2017). Pathogenesis of enuresis: towards a new understanding. Int J Urol 24:174-182 · PMID 28208214",
+    "von Gontard A et al. (2001). The genetics of enuresis: a review. J Urol 166:2438-2443 · PMID 11696807"
+   ]
+  },
+  "psi_tardia": {
+   "secAdd": [
+    {
+     "t": "Déficit sensorial y riesgo posterior de demencia",
+     "x": "Dos líneas de evidencia sostienen la vigilancia sensorial y cognitiva. En los metaanálisis de Linszen (2016), la hipoacusia se asoció a alucinaciones (OR 1,40), delirios (OR 1,55), síntomas psicóticos (OR 2,23) y delirium (OR 2,67), y la exposición temprana a la hipoacusia a esquizofrenia posterior (OR 3,15); entre los mecanismos propuestos figuran la soledad, la menor teoría de la mente, las alteraciones de la monitorización de la fuente y la desaferentación, y los autores recomiendan evaluar y tratar precozmente la hipoacusia. En el registro nacional danés (12 616 personas con primer contacto por esquizofrenia a partir de los 40 años y 7712 a partir de los 60), el riesgo de recibir un diagnóstico de demencia en un seguimiento de 3 a 4,6 años fue unas tres veces mayor que en pacientes con artrosis (RR 3,47 y 3,15) y unas dos veces mayor que en la población general (RR 2,36 y 2,21) (Kørner 2009). Al tratarse de diagnósticos de registro y de un seguimiento breve, no puede descartarse que una parte de los casos fueran demencias incipientes no reconocidas en el primer contacto; el dato refuerza la necesidad de repetir la evaluación cognitiva.",
+     "links": [
+      {
+       "ids": [
+        "soledad"
+       ],
+       "t": "aislamiento social"
+      },
+      {
+       "ids": [
+        "aluc_aud",
+        "delirium"
+       ],
+       "t": "alucinaciones y delirium"
+      },
+      {
+       "ids": [
+        "dem",
+        "ncd_leve"
+       ],
+       "t": "evolución a demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Linszen MMJ et al. (2016). Increased risk of psychosis in patients with hearing impairment: review and meta-analyses. Neurosci Biobehav Rev 62:1-20 · PMID 26743858",
+    "Kørner A et al. (2009). Late and very-late first-contact schizophrenia and the risk of dementia: a nationwide register based study. Int J Geriatr Psychiatry 24:61-67 · PMID 18561206"
+   ]
+  },
+  "perdida_perinatal": {
+   "secAdd": [
+    {
+     "t": "Evidencia sobre intervenciones psicológicas",
+     "x": "Uno de los pocos ensayos aleatorizados en este campo evaluó una intervención cognitivo-conductual por internet de 5 semanas para progenitores tras la pérdida de un hijo durante el embarazo, con tres fases: autoconfrontación con lo vivido, reestructuración cognitiva y comunicación social de la experiencia. Participaron 228 personas (92 % mujeres), asignadas a tratamiento o a lista de espera. El grupo tratado redujo significativamente los síntomas de estrés postraumático, duelo prolongado, depresión y ansiedad, con tamaños del efecto de 0,84 a 1,02 en estrés postraumático y duelo prolongado del inicio al final del tratamiento; la mejoría continuó hasta los 12 meses y el abandono fue del 14 % (Kersting 2013). Sus límites son la comparación con lista de espera, que no controla la atención recibida, y una muestra mayoritariamente femenina, por lo que informa poco sobre el duelo de los padres y de las parejas no gestantes, y no recoge la identidad de género de quienes participaron. Las intervenciones de baja intensidad y acceso fácil son una opción razonable cuando persisten los síntomas, sin sustituir la valoración clínica del riesgo.",
+     "links": [
+      {
+       "ids": [
+        "duelo",
+        "dduelo"
+       ],
+       "t": "duelo prolongado"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "estrés postraumático"
+      },
+      {
+       "ids": [
+        "dep_embarazo"
+       ],
+       "t": "salud mental perinatal"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kersting A et al. (2013). Brief Internet-based intervention reduces posttraumatic stress and prolonged grief in parents after the loss of a child during pregnancy: a randomized controlled trial. Psychother Psychosom 82:372-381 · PMID 24061387"
+   ]
+  },
+  "dhat": {
+   "secAdd": [
+    {
+     "t": "Antecedentes históricos y datos clínicos",
+     "x": "La revisión de la literatura mundial de Deb y Balhara (2013) documenta descripciones de cuadros equiparables en China, Europa, América y Rusia en distintas épocas, y recuerda que la concepción del semen como «sustancia del alma», cuya pérdida acarrea consecuencias físicas y psíquicas, se encuentra ya en Aristóteles y Galeno; señala además que la CIE-10 y el DSM-IV-TR no ofrecían pautas para diagnosticar estos cuadros en el texto principal. Entre los datos clínicos tempranos, una serie india de 50 varones consecutivos atendidos por problemas de potencia sexual encontró que el 62 % refería el dhat como síntoma principal, sobre todo adultos jóvenes; el diagnóstico asociado fue depresión en el 48 % y neurosis de ansiedad en el 16 %, y no se identificó trastorno psiquiátrico en el 32 % (Singh 1985). Este último dato importa en la clínica: una parte de quienes consultan no cumple criterios de ningún trastorno, y el abordaje se centra entonces en la psicoeducación respetuosa con el modelo explicativo y en evitar exploraciones y tratamientos innecesarios. Las series proceden de consultas especializadas del subcontinente indio, con sesgo de selección evidente.",
+     "links": [
+      {
+       "ids": [
+        "cult_bound",
+        "cfi"
+       ],
+       "t": "conceptos culturales de malestar y formulación cultural"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "ddm"
+       ],
+       "t": "disfunción sexual y depresión asociadas"
+      },
+      {
+       "ids": [
+        "galeno_hit"
+       ],
+       "t": "medicina galénica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Deb KS & Balhara YPS (2013). Dhat syndrome: a review of the world literature. Indian J Psychol Med 35:326-331 · PMID 24379489",
+    "Singh G (1985). Dhat syndrome revisited. Indian J Psychiatry 27:119-122 · PMID 21927085"
+   ]
+  },
+  "agomelatina": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "Según la ficha técnica de Valdoxan (apartado 5.1), la agomelatina es agonista de los receptores melatoninérgicos MT1 y MT2 y antagonista de 5-HT2C, sin afinidad por los receptores adrenérgicos α o β, histaminérgicos, colinérgicos, dopaminérgicos ni benzodiazepínicos; resincroniza los ritmos circadianos en modelos animales, aumenta la liberación de dopamina y noradrenalina específicamente en la corteza frontal sin influir en los niveles extracelulares de serotonina y, en humanos, adelanta la fase del sueño, reduce la temperatura corporal e induce liberación de melatonina. La ficha no atribuye expresamente el aumento frontal de catecolaminas al bloqueo 5-HT2C; esa atribución es una hipótesis farmacológica [fuente no localizada]. Su desarrollo partió de la hipótesis de que actuar sobre los receptores melatoninérgicos, dado el papel sincronizador de la melatonina sobre unos ritmos circadianos alterados en la depresión, ofrecería una vía no monoaminérgica; autorizada en Europa en 2009, sus desarrolladores la presentan como el primer antidepresivo aprobado que incorpora un mecanismo de acción no monoaminérgico (de Bodinat 2010), revisión del laboratorio fabricante que conviene leer junto a los metaanálisis independientes. La relevancia clínica de la acción cronobiológica en una persona concreta no se ha demostrado, y la mejoría del sueño puede contribuir a las puntuaciones de las escalas que incluyen ítems de insomnio [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "melatonina",
+        "luz_melatonina"
+       ],
+       "t": "melatonina y sistema circadiano"
+      },
+      {
+       "ids": [
+        "circad"
+       ],
+       "t": "ritmos circadianos y psicopatología"
+      },
+      {
+       "ids": [
+        "ad_atip"
+       ],
+       "t": "antidepresivos de mecanismo atípico"
+      }
+     ]
+    },
+    {
+     "t": "Prevención de recaídas y controversias sobre la eficacia",
+     "x": "En el ensayo de continuación de Goodwin (2009), quienes habían respondido a 8-10 semanas de agomelatina fueron aleatorizados a seguir con ella (165) o a pasar a placebo (174) durante 24 semanas: la recaída acumulada a 6 meses fue del 21,7 % frente al 46,6 %, la tolerabilidad fue similar a la del placebo y la suspensión brusca no se siguió de un patrón de recaídas precoces ni de efectos adversos sugestivos de abstinencia. El metaanálisis independiente de Koesters (2013), que incluyó 10 ensayos de fase aguda y 3 de prevención de recaídas (7 de ellos no publicados), matiza ese resultado: en la fase aguda la ventaja frente a placebo fue de 1,51 puntos en la escala de Hamilton (IC 99 % 0,73-2,29), con efecto sobre la respuesta pero no sobre la remisión, y al combinar los tres estudios de prevención la diferencia no fue significativa (RR 0,78; IC 99 % 0,41-1,48). Ninguno de los ensayos negativos se había publicado, y los autores concluyen que una diferencia clínicamente importante frente a placebo es improbable y que existe un sesgo de publicación sustancial. Esta discordancia podría explicar en parte la distinta posición de las guías [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "vortioxetina"
+       ],
+       "t": "otro antidepresivo multimodal"
+      },
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "función sexual y antidepresivos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "de Bodinat C et al. (2010). Agomelatine, the first melatonergic antidepressant: discovery, characterization and development. Nat Rev Drug Discov 9:628-642 · PMID 20577266",
+    "Goodwin GM et al. (2009). Agomelatine prevents relapse in patients with major depressive disorder without evidence of a discontinuation syndrome: a 24-week randomized, double-blind, placebo-controlled trial. J Clin Psychiatry 70:1128-1137 · PMID 19689920",
+    "Koesters M et al. (2013). Agomelatine efficacy and acceptability revisited: systematic review and meta-analysis of published and unpublished randomised trials. Br J Psychiatry 203:179-187 · PMID 23999482",
+    "AEMPS-CIMA (2026). Ficha técnica de Valdoxan 25 mg comprimidos recubiertos con película (agomelatina) (nº de registro 08499003), apartado 5.1 Propiedades farmacodinámicas; consulta de noviembre de 2026"
+   ]
+  },
+  "ap_lai": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias: ensayos frente a estudios naturalísticos",
+     "x": "La ventaja de los inyectables depende del diseño del estudio. En un metaanálisis de 21 ensayos aleatorizados (5176 pacientes), los inyectables no redujeron la recaída frente a los orales (RR 0,93; IC 95 % 0,80-1,08); solo los de primera generación, casi todos ensayos con flufenazina publicados hasta 1991, fueron superiores, un hallazgo vulnerable a sesgo de cohorte (Kishimoto 2014); la actualización de 2021 citada en la ficha, con más ensayos, sí halló una ventaja modesta, y ambos trabajos advierten que los ensayos representan peor a las personas atendidas en la práctica. En fases tempranas, dos ensayos apuntan en la misma dirección favorable: en 86 personas tras un primer episodio, la risperidona inyectable redujo las exacerbaciones o recaídas a 12 meses frente a la oral (5 % frente a 33 %), con mejor adherencia (Subotnik 2015); y en el ensayo PRELAPSE, aleatorizado por centros (39 centros, 489 personas de 18 a 35 años con menos de 5 años de tratamiento), fomentar el aripiprazol mensual retrasó la primera hospitalización (HR 0,56; IC 95 % 0,34-0,92), con un NNT de 7 (Kane 2020). En la cohorte sueca de 29 823 personas, el uso de inyectables se asoció a una mortalidad un 33 % menor que la de los orales equivalentes (HR 0,67; 0,56-0,80), aunque varios autores estaban afiliados a un fabricante y el diseño observacional no excluye confusión residual (Taipale 2018).",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "eop"
+       ],
+       "t": "primer episodio y psicosis temprana"
+      },
+      {
+       "ids": [
+        "risperidona",
+        "aripiprazol",
+        "paliperidona"
+       ],
+       "t": "moléculas estudiadas"
+      },
+      {
+       "ids": [
+        "adher"
+       ],
+       "t": "adherencia"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad y monitorización",
+     "x": "Además de los efectos adversos propios de cada antipsicótico, la vía depot plantea riesgos específicos. El más estudiado es el síndrome de delirium o sedación postinyección de la olanzapina pamoato: en unas 45 000 inyecciones administradas a 2054 pacientes en ensayos clínicos apareció en el 0,07 % de las inyecciones (1,4 % de los pacientes), con un cuadro de sobredosis de olanzapina (sedación, confusión, disartria, alteración de la marcha o pérdida de conciencia) sin descensos clínicamente relevantes de las constantes; comenzó entre el momento de la inyección y las 3-5 horas, con una mediana de 25 minutos, todos los pacientes se recuperaron en 1,5-72 horas y no se identificaron factores de riesgo claros. Se atribuye a la entrada intravascular accidental de parte de la dosis y obliga a una técnica de inyección correcta y a un periodo de observación posterior (Detke 2010, estudio del fabricante), cuya duración fija la ficha técnica de Zypadhera. En todos los preparados conviene registrar el lugar y la fecha de cada inyección y vigilar las reacciones en el lugar de inyección [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "olanzapina"
+       ],
+       "t": "olanzapina pamoato"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium postinyección"
+      },
+      {
+       "ids": [
+        "hiperprl_ap",
+        "fg_antipsic"
+       ],
+       "t": "prolactina y farmacogenética"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kishimoto T et al. (2014). Long-acting injectable vs oral antipsychotics for relapse prevention in schizophrenia: a meta-analysis of randomized trials. Schizophr Bull 40:192-213 · PMID 23256986",
+    "Subotnik KL et al. (2015). Long-acting injectable risperidone for relapse prevention and control of breakthrough symptoms after a recent first episode of schizophrenia: a randomized clinical trial. JAMA Psychiatry 72:822-829 · PMID 26107752",
+    "Kane JM et al. (2020). Effect of long-acting injectable antipsychotics vs usual care on time to first hospitalization in early-phase schizophrenia: a randomized clinical trial. JAMA Psychiatry 77:1217-1224 · PMID 32667636",
+    "Taipale H et al. (2018). Antipsychotics and mortality in a nationwide cohort of 29,823 patients with schizophrenia. Schizophr Res 197:274-280 · PMID 29274734",
+    "Detke HC et al. (2010). Post-injection delirium/sedation syndrome in patients with schizophrenia treated with olanzapine long-acting injection, I: analysis of cases. BMC Psychiatry 10:43 · PMID 20537128"
+   ]
+  },
+  "mapa_integr": {
+   "secAdd": [
+    {
+     "t": "Marcos dimensionales y de espectro de referencia",
+     "x": "Según su índice, el documento dedica una ampliación a la nosología dimensional (HiTOP, RDoC, espectro y estadificación) y se inscribe en la tradición del espectro afectivo. Conviene conocer las fuentes primarias de esos marcos para leerlo con criterio. Akiskal y Pinto (1999) defendieron un retorno parcial al concepto amplio de enfermedad maníaco-depresiva de Kraepelin, con prototipos de los subtipos bipolares I a IV, y justificaron la ampliación por la utilidad de los estabilizadores en depresiones con rasgos bipolares atenuados que no alcanzan los criterios de bipolar II o hipomanía; los propios autores reconocían que hacía falta más investigación. El modelo HiTOP construye síndromes a partir de la covariación observada de los síntomas, agrupa los síndromes que coocurren en espectros y los describe de forma dimensional para afrontar los límites arbitrarios, la comorbilidad, la heterogeneidad y la inestabilidad diagnóstica; sus autores lo presentan como un trabajo en curso (Kotov 2017). Los Research Domain Criteria del NIMH se propusieron como marco de clasificación para la investigación de los trastornos mentales (Insel 2010). Ninguno de estos marcos sustituye a los criterios del DSM-5-TR o de la CIE-11 en la decisión diagnóstica individual, y la correspondencia entre estas fuentes y las láminas del atlas no se ha cotejado al incorporarlo.",
+     "links": [
+      {
+       "ids": [
+        "akiskal_hit",
+        "bipsft",
+        "koukopoulos_hit"
+       ],
+       "t": "espectro bipolar (Akiskal, Koukopoulos)"
+      },
+      {
+       "ids": [
+        "hitop_anx",
+        "hitop_tp"
+       ],
+       "t": "modelo HiTOP en el atlas"
+      },
+      {
+       "ids": [
+        "rdoc",
+        "estagio"
+       ],
+       "t": "RDoC y estadificación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Akiskal HS & Pinto O (1999). The evolving bipolar spectrum. Prototypes I, II, III, and IV. Psychiatr Clin North Am 22:517-534 · PMID 10550853",
+    "Kotov R et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): a dimensional alternative to traditional nosologies. J Abnorm Psychol 126:454-477 · PMID 28333488",
+    "Insel T et al. (2010). Research domain criteria (RDoC): toward a new classification framework for research on mental disorders. Am J Psychiatry 167:748-751 · PMID 20595427"
+   ]
+  },
+  "insomnio_riesgo": {
+   "secAdd": [
+    {
+     "t": "Ensayos de prevención mediante TCC-I",
+     "x": "Dos ensayos aleatorizados han puesto a prueba la hipótesis preventiva. En 291 personas de 60 años o más con trastorno de insomnio y sin depresión en el último año, dos meses de terapia cognitivo-conductual para el insomnio (TCC-I) frente a educación sobre el sueño redujeron la depresión mayor incidente o recurrente durante el seguimiento (12,2 % frente a 25,9 %; HR 0,51; IC 95 % 0,29-0,88), y quienes lograron una remisión sostenida del insomnio con TCC-I tuvieron un riesgo aún menor (HR 0,17); el seguimiento a 36 meses lo completó solo algo más de la mitad de la muestra (Irwin 2022). En el ensayo OASIS, 3755 estudiantes universitarios con insomnio recibieron TCC-I digital o atención habitual: a las 10 semanas disminuyeron el insomnio (d de Cohen 1,11), la paranoia (d 0,19) y las experiencias alucinatorias (d 0,24), y la mejoría del insomnio medió el cambio en los síntomas psicóticos; los autores consideran que el resultado apoya un papel causal del insomnio, pero señalan que falta comprobar su generalización fuera de la población universitaria (Freeman 2017), y dos de sus autores estaban afiliados a Big Health Ltd. Estos datos refuerzan, sin cerrarla, la cuestión planteada en la nota: el efecto preventivo se ha mostrado en poblaciones concretas y con efectos pequeños sobre los síntomas psicóticos.",
+     "links": [
+      {
+       "ids": [
+        "tcci",
+        "insom"
+       ],
+       "t": "TCC-I e insomnio"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "prevención de la depresión"
+      },
+      {
+       "ids": [
+        "psaten",
+        "urh"
+       ],
+       "t": "síntomas psicóticos atenuados"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Irwin MR et al. (2022). Prevention of incident and recurrent major depression in older adults with insomnia: a randomized clinical trial. JAMA Psychiatry 79:33-41 · PMID 34817561",
+    "Freeman D et al. (2017). The effects of improving sleep on mental health (OASIS): a randomised controlled trial with mediation analysis. Lancet Psychiatry 4:749-758 · PMID 28888927"
+   ]
+  },
+  "habenula_lat": {
+   "secAdd": [
+    {
+     "t": "Anatomía funcional y conexiones",
+     "x": "La habénula es una estructura epitalámica muy conservada en la evolución que influye en la elección conductual a través de los sistemas neuromoduladores, sobre todo dopaminérgico y serotoninérgico. Al inhibir las neuronas liberadoras de dopamina, su activación suprime la conducta motora cuando el animal no obtiene la recompensa esperada o anticipa un resultado aversivo; participa además en las respuestas al dolor, el estrés, la ansiedad, el sueño y la recompensa, y su disfunción se ha asociado a la depresión, la esquizofrenia y la psicosis inducida por drogas (Hikosaka 2010). La revisión de Proulx, Hikosaka y Malinow (2014) integra los registros neuronales en monos, que muestran que la habénula lateral emite señales de «valor negativo» hacia los sistemas dopaminérgico y serotoninérgico, con experimentos optogenéticos en roedores sobre su función normal y patológica, y discute cómo su desregulación podría participar en las conductas de tipo depresivo. La inhibición de las neuronas dopaminérgicas se produciría en buena parte de forma indirecta, a través de interneuronas GABAérgicas del tegmento rostromedial [fuente no localizada]. La implicación en la psicosis y en el sueño amplía el interés de la estructura más allá de la depresión, aunque con evidencia todavía menos consolidada.",
+     "links": [
+      {
+       "ids": [
+        "recompensa",
+        "anhed"
+       ],
+       "t": "recompensa y anhedonia"
+      },
+      {
+       "ids": [
+        "dopa_hyp",
+        "esq"
+       ],
+       "t": "dopamina y psicosis"
+      },
+      {
+       "ids": [
+        "dbs"
+       ],
+       "t": "neuromodulación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hikosaka O (2010). The habenula: from stress evasion to value-based decision-making. Nat Rev Neurosci 11:503-513 · PMID 20559337",
+    "Proulx CD, Hikosaka O & Malinow R (2014). Reward processing by the lateral habenula in normal and depressive behaviors. Nat Neurosci 17:1146-1152 · PMID 25157511"
+   ]
+  },
+  "interocepcion": {
+   "secAdd": [
+    {
+     "t": "Medición de la interocepción y sus límites",
+     "x": "La palabra interocepción agrupa capacidades distintas. Garfinkel et al. (2015) diferencian la precisión interoceptiva (rendimiento en pruebas objetivas de detección del latido cardiaco), la sensibilidad interoceptiva (valoración subjetiva mediante entrevistas o cuestionarios) y la conciencia interoceptiva (correspondencia metacognitiva entre confianza y precisión); en 80 personas sanas las tres dimensiones fueron distintas y disociables, y solo se correspondían en el subgrupo con mayor precisión. La prueba más usada para la precisión, el recuento de latidos, tiene problemas serios: en 572 participantes, más del 95 % de los errores fueron infraestimaciones, la correlación entre latidos reales y referidos fue baja (r = 0,16), la puntuación dependía de la frecuencia cardiaca y variaba con la duración de los intervalos (Zamariola 2018). Para la dimensión subjetiva se dispone de cuestionarios multidimensionales como el MAIA, de 32 ítems y ocho conceptos, que sus autores presentan como punto de partida para la investigación (Mehling 2012). En consecuencia, los hallazgos de «interocepción alterada» en un trastorno deben leerse según la dimensión y el método empleados, y ninguna de estas medidas tiene valor diagnóstico individual.",
+     "links": [
+      {
+       "ids": [
+        "exp_interocep"
+       ],
+       "t": "exposición interoceptiva"
+      },
+      {
+       "ids": [
+        "panic",
+        "alexitim"
+       ],
+       "t": "pánico y alexitimia"
+      },
+      {
+       "ids": [
+        "somat_sint"
+       ],
+       "t": "síntomas somáticos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Garfinkel SN et al. (2015). Knowing your own heart: distinguishing interoceptive accuracy from interoceptive awareness. Biol Psychol 104:65-74 · PMID 25451381",
+    "Zamariola G et al. (2018). Interoceptive accuracy scores from the heartbeat counting task are problematic: evidence from simple bivariate correlations. Biol Psychol 137:12-17 · PMID 29944964",
+    "Mehling WE et al. (2012). The Multidimensional Assessment of Interoceptive Awareness (MAIA). PLoS One 7:e48230 · PMID 23133619"
+   ]
+  },
+  "eaa_psiq": {
+   "secAdd": [
+    {
+     "t": "Tratamiento de la dependencia y de la retirada",
+     "x": "Sin ensayos controlados en la dependencia de EAA, Kanayama et al. (2010) proponen, desde el razonamiento etiológico, abordar al menos tres mecanismos. Primero, los trastornos de la imagen corporal como la dismorfia muscular, que pueden mantener el consumo por sus efectos anabolizantes y responder a tratamientos psicológicos o farmacológicos. Segundo, la supresión del eje hipotálamo-hipófiso-gonadal, que puede causar hipogonadismo durante la retirada: la disforia prolongada o la depresión mayor resultantes pueden llevar a reanudar el consumo, y los autores proponen reactivar el eje con gonadotropina coriónica humana o clomifeno y añadir antidepresivos cuando la depresión no responde al tratamiento endocrino; se trata de una propuesta sin respaldo de ensayos y, en España, ni la gonadotropina coriónica (fichas técnicas de Ovitrelle y Gonasi, 4.1) ni el clomifeno (ficha técnica de Omifin, 4.1) tienen indicación autorizada en varones (sus indicaciones son de reproducción en mujeres): su uso sería fuera de ficha técnica y exige valoración endocrinológica. Tercero, los efectos hedónicos de los EAA, que compartirían mecanismos con las drogas adictivas clásicas, en especial los opioides: la naltrexona bloquea la dependencia de EAA en animales, y por inferencia los tratamientos de la dependencia de opioides podrían ser útiles. Los autores prevén más demanda asistencial a medida que envejecen quienes empezaron a consumir en los años ochenta.",
+     "links": [
+      {
+       "ids": [
+        "tdc"
+       ],
+       "t": "dismorfia muscular"
+      },
+      {
+       "ids": [
+        "dep_induc"
+       ],
+       "t": "depresión de retirada"
+      },
+      {
+       "ids": [
+        "naltrexona",
+        "opioides"
+       ],
+       "t": "analogía con la dependencia de opioides"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kanayama G et al. (2010). Treatment of anabolic-androgenic steroid dependence: emerging evidence and its implications. Drug Alcohol Depend 109:6-13 · PMID 20188494",
+    "AEMPS-CIMA (2026). Fichas técnicas de Ovitrelle 250 microgramos solución inyectable (coriogonadotropina alfa) (nº de registro 100165007) y Gonasi kit 5.000 UI (gonadotropina coriónica) (nº de registro 86002), apartado 4.1; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Omifin 50 mg comprimidos (clomifeno) (nº de registro 43880), apartado 4.1; consulta de noviembre de 2026"
+   ]
+  },
+  "adolesc_ventana": {
+   "secAdd": [
+    {
+     "t": "Modelos explicativos y controversias",
+     "x": "El modelo de sistemas duales explica la conducta adolescente por un desarrollo desigual: una respuesta aumentada a los incentivos y a los contextos socioemocionales, sostenida por sistemas límbicos «de abajo arriba», coincide con un control de impulsos todavía inmaduro, dependiente de sistemas prefrontales «de arriba abajo»; el desequilibrio sería mayor en adolescentes con alta reactividad emocional y explicaría los cambios no lineales de conducta respecto a la infancia y la edad adulta (Casey 2008). Pfeifer y Allen (2012) cuestionan ese esquema: parte de la evidencia reciente es incompatible con él y proponen modelos basados en redes que relacionen estructura y función, y cerebro y conducta, a lo largo del tiempo. Una tercera propuesta entiende la adolescencia como un periodo crítico para la corteza prefrontal: los procesos celulares, de circuito y de sistemas que la maduran se corresponden con los mecanismos que gobiernan los periodos críticos de los sistemas sensoriales en la infancia temprana, lo que ofrece un marco para entender cómo la experiencia y la neurobiología contribuyen a la aparición de psicopatología en esta etapa (Larsen & Luna 2018). Los tres modelos son explicaciones de grupo, no pruebas aplicables a una persona concreta.",
+     "links": [
+      {
+       "ids": [
+        "func_ejec"
+       ],
+       "t": "control ejecutivo"
+      },
+      {
+       "ids": [
+        "recompensa"
+       ],
+       "t": "sensibilidad a la recompensa"
+      },
+      {
+       "ids": [
+        "neurodev",
+        "tcond"
+       ],
+       "t": "neurodesarrollo y conducta"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Casey BJ, Jones RM & Hare TA (2008). The adolescent brain. Ann N Y Acad Sci 1124:111-126 · PMID 18400927",
+    "Pfeifer JH & Allen NB (2012). Arrested development? Reconsidering dual-systems models of brain function in adolescence and disorders. Trends Cogn Sci 16:322-329 · PMID 22613872",
+    "Larsen B & Luna B (2018). Adolescence as a neurobiological critical period for the development of higher-order cognition. Neurosci Biobehav Rev 94:179-195 · PMID 30201220"
+   ]
+  },
+  "aprend": {
+   "set": {
+    "tx": "Tratamiento educativo y logopédico, no farmacológico: detección precoz con exploración sensorial previa, evaluación psicopedagógica y del lenguaje, e intervención específica, explícita e intensiva (instrucción fonética sistemática en la dislexia, la única con eficacia confirmada en el metaanálisis de Galuschka 2014; refuerzo del procesamiento numérico en la discalculia, Butterworth 2011). Adaptaciones de acceso en el aula y en la evaluación, coordinación entre familia, escuela y servicios sanitarios, y tratamiento de la comorbilidad (TDAH, ansiedad, depresión) según sus guías. Las lentes o filtros coloreados y los entrenamientos auditivos carecen de eficacia demostrada (Galuschka 2014)."
+   }
+  },
+  "apego_trauma": {
+   "featsAdd": [
+    "En el metaanálisis de 69 muestras (5947 menores), el apego desorganizado se asoció a más problemas externalizantes (d = 0,34; IC 95 % 0,18-0,50), con efectos más débiles para el apego evitativo (d = 0,12) y no significativos para el resistente (d = 0,11) (Fearon 2010)"
+   ],
+   "refsAdd": [
+    "Fearon RP et al. (2010). The significance of insecure attachment and disorganization in the development of children's externalizing behavior: a meta-analytic study. Child Dev 81:435-456 · PMID 20438450"
+   ]
+  },
+  "pensconc": {
+   "featsAdd": [
+    "La interpretación de refranes se abandonó en buena parte como prueba por su escasa fiabilidad y validez; en 31 pacientes con esquizofrenia se correlacionó con la teoría de la mente, la función ejecutiva y la inteligencia, y la teoría de la mente explicó alrededor del 39 % de su varianza (Brüne & Bodenstein 2005)"
+   ],
+   "refsAdd": [
+    "Brüne M & Bodenstein L (2005). Proverb comprehension reconsidered: 'theory of mind' and the pragmatic use of language in schizophrenia. Schizophr Res 75:233-239 · PMID 15885515",
+    "Thoma P & Daum I (2006). Neurocognitive mechanisms of figurative language processing: evidence from clinical dysfunctions. Neurosci Biobehav Rev 30:1182-1205 · PMID 17079014"
+   ],
+   "relAdd": [
+    "cogn_soc"
+   ]
+  },
+  "prot_unif": {
+   "featsAdd": [
+    "Metaanálisis de 19 ensayos aleatorizados y 13 estudios pre-post (2183 participantes, de la infancia a la edad adulta): efecto combinado sobre ansiedad y depresión de g = 0,45 en los ensayos y 0,76 en los estudios pre-post, superior a controles pasivos y activos y moderado por la experiencia del terapeuta y las adaptaciones del protocolo (Carlucci 2021)"
+   ],
+   "refsAdd": [
+    "Carlucci L, Saggino A & Balsamo M (2021). On the efficacy of the unified protocol for transdiagnostic treatment of emotional disorders: a systematic review and meta-analysis. Clin Psychol Rev 87:101999 · PMID 34098412"
+   ]
+  },
+  "cogn": {
+   "featsAdd": [
+    "En la esquizofrenia, la memoria verbal se asoció a todos los tipos de resultado funcional y la vigilancia a la resolución de problemas sociales y a la adquisición de habilidades, mientras que los síntomas psicóticos no se asociaron al resultado en ninguno de los estudios revisados (Green 1996)",
+    "La batería de consenso MATRICS (MCCB) seleccionó 10 pruebas para representar siete dominios cognitivos como estándar de medida del cambio cognitivo en ensayos de tratamientos para la esquizofrenia (Nuechterlein 2008)",
+    "Remediación cognitiva en esquizofrenia (40 estudios, 2104 participantes): efectos duraderos sobre la cognición global y el funcionamiento, mayores en pacientes clínicamente estables y, sobre el funcionamiento, cuando se combina con rehabilitación psiquiátrica (Wykes 2011)",
+    "Ejercicio aeróbico en esquizofrenia (10 ensayos, 385 pacientes): mejora de la cognición global (g = 0,33; IC 95 % 0,13-0,53), de la memoria de trabajo, la cognición social y la atención, con mayor efecto bajo supervisión profesional y solo una tendencia no significativa a mayor beneficio con más ejercicio; sin efecto significativo en velocidad de procesamiento, memoria verbal y visual ni razonamiento (Firth 2017)"
+   ],
+   "refsAdd": [
+    "Nuechterlein KH et al. (2008). The MATRICS Consensus Cognitive Battery, part 1: test selection, reliability, and validity. Am J Psychiatry 165:203-213 · PMID 18172019"
+   ]
+  },
+  "areteo": {
+   "featsAdd": [
+    "Fuera de la psiquiatría dejó descripciones clásicas del asma, la epilepsia, la neumonía y el tétanos, las primeras descripciones claras de la enfermedad celíaca y la difteria, y dio nombre a la diabetes (Tekiner 2015)"
+   ]
+  },
+  "oneir": {
+   "refsAdd": [
+    "Wegener K et al. (1995). [An oneiroid experience during severe acute polyradiculoneuritis] (artículo en francés con resumen en inglés). Ann Med Psychol (Paris) 153:121-126 · PMID 7741405",
+    "Alekseeva AG & Tiganov AS (2014). [The typology of oneiroid-catatonic states in schizophrenia] (artículo en ruso con resumen en inglés). Zh Nevrol Psikhiatr Im S S Korsakova 114:36-41 · PMID 25726778"
+   ]
+  }
+ },
+ "add": []
+}

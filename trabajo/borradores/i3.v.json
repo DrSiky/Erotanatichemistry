@@ -1,0 +1,949 @@
+{
+ "patch": {
+  "chemsex_inv": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Escala autoaplicada construida y validada en España por Del Pozo-Herce et al. (2024; Nurs Rep 14:2226-2245 · PMID 39311174) mediante cuestionario en línea difundido entre enero y abril de 2023; la muestra de 563 hombres que tienen sexo con hombres tenía una edad media de 36 años (DE 9,2) y era cisgénero en un 97,7 %. Al haber nacido en castellano no requiere adaptación transcultural para España; no consta una versión validada en otras lenguas cooficiales ni en variantes latinoamericanas [fuente no localizada]. Se respondió en castellano (el conocimiento del español era criterio de inclusión) y la versión final figura en un apéndice del artículo, publicado con licencia Creative Commons CC BY 4.0 (texto completo de Del Pozo-Herce 2024); no se han publicado tiempo de aplicación, requisitos de formación del evaluador ni normas de corrección e interpretación [fuente no localizada]. Por su contenido (inestabilidad emocional, síntomas psicóticos, percepción corporal y riesgo suicida), cualquier respuesta que sugiera ideación suicida o psicosis exige exploración clínica inmediata por un profesional, no solo la puntuación.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_atencion"
+       ],
+       "t": "Chemsex: clínica y atención"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "metanf"
+       ],
+       "t": "Riesgo suicida y psicosis por estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "La evidencia publicada procede del propio equipo: validación de contenido por un panel Delphi de expertos españoles en dos rondas (Del Pozo-Herce 2023, que dejó un cuestionario de 52 ítems; el texto completo de 2024 describe 30 expertos) y, en el estudio de construcción, análisis factorial exploratorio y confirmatorio con cuatro factores, alfa de Cronbach superior a 0,87 y omega de McDonald superior a 0,88 en todas las dimensiones y buen ajuste de los 42 ítems (Del Pozo-Herce 2024). Es, por tanto, evidencia de validez factorial y consistencia interna. No se han publicado fiabilidad test-retest, validez de criterio frente a entrevista diagnóstica estructurada, validez convergente con instrumentos establecidos (AUDIT, DAST, PHQ-9, C-SSRS), sensibilidad al cambio ni puntos de corte con sensibilidad y especificidad, que los autores remiten a investigaciones futuras (Del Pozo-Herce 2024, texto completo). La revisión sistemática de Íncera-Fernández (2021) sobre salud mental y uso sexualizado de drogas en HSH (12 estudios) señala precisamente la falta de uniformidad de los instrumentos de recogida de datos como limitación del campo, lo que sitúa a la escala como propuesta inicial pendiente de replicación independiente.",
+     "links": [
+      {
+       "ids": [
+        "audit",
+        "dast10",
+        "phq9",
+        "cssrs"
+       ],
+       "t": "Instrumentos de comparación pendientes"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Puede servir para estructurar la exploración de dominios de salud mental en HSH que practican chemsex y para investigación, pero no para diagnosticar un trastorno por consumo ni para estratificar el riesgo individual: carece de puntos de corte y de validez predictiva. No mide patrón, vía (inyección o «slam») ni sustancias concretas, que según la revisión de Maxwell (2019; 38 estudios) son sobre todo metanfetamina, GHB/GBL, mefedrona, cocaína y ketamina; debe completarse con historia toxicológica, AUDIT o DAST-10 y exploración de la ideación suicida con instrumentos validados. La muestra casi exclusivamente cisgénero impide extrapolar a mujeres trans, personas no binarias o mujeres; tampoco se ha estudiado en el uso sexualizado de drogas en heterosexuales, descrito en España en cerca del 12 % de una muestra de 1181 personas heterosexuales de 18 a 78 años (Íncera-Fernández 2022). No hay guías clínicas que lo recomienden [fuente no localizada]. Su uso pericial carece de base. Aplicarlo en un marco afirmativo, sin patologizar la orientación sexual.",
+     "links": [
+      {
+       "ids": [
+        "slam",
+        "ghb_gbl",
+        "metanf"
+       ],
+       "t": "Sustancias y vía inyectada"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "Marco afirmativo y estrés de minorías"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Maxwell S, Shahmanesh M & Gafos M (2019). Chemsex behaviours among men who have sex with men: a systematic review of the literature. Int J Drug Policy 63:74-89 · PMID 30513473",
+    "Íncera-Fernández D, Gámez-Guadix M & Moreno-Guillén S (2021). Mental health symptoms associated with sexualized drug use (chemsex) among men who have sex with men: a systematic review. Int J Environ Res Public Health 18:13299 · PMID 34948907",
+    "Íncera-Fernández D, Román FJ & Gámez-Guadix M (2022). Risky sexual practices, sexually transmitted infections, motivations, and mental health among heterosexual women and men who practice sexualized drug use in Spain. Int J Environ Res Public Health 19:6387 · PMID 35681972",
+    "Del Pozo-Herce P et al. (2023). Application of the Delphi method for content validity analysis of a questionnaire to determine the risk factors of the chemsex. Healthcare (Basel) 11:2905 · PMID 37958049"
+   ],
+   "relAdd": [
+    "lgb_afirm",
+    "ghb_gbl",
+    "metanf",
+    "ideac_suic"
+   ]
+  },
+  "audit": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollado en el proyecto colaborativo de la OMS por Saunders et al. (1993; Addiction 88:791-804 · PMID 8329970). Puede usarse como autoinforme o como entrevista breve, en papel o en formato electrónico, por profesionales sanitarios no especialistas tras una formación mínima en el concepto de unidad de bebida estándar [fuente no localizada para los requisitos de formación]; su aplicación lleva unos pocos minutos [fuente no localizada]. Es de dominio público y la OMS distribuye el manual sin coste (Babor 2001). Además de la validación española del cuestionario completo (Rubio Valladolid 1998), en España se derivaron y probaron dos formas abreviadas, AUDIT-3 y AUDIT-4, en 255 pacientes de cinco centros de atención primaria de Cataluña, con la valoración clínica del consumo de riesgo como patrón de referencia (Gual 2002; Alcohol Alcohol 37:591-596 · PMID 12414553).",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "tcs"
+       ],
+       "t": "Consumo de alcohol y trastornos por consumo"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "La revisión de Reinert y Allen (2007) concluye que la versión inglesa tiene validez de criterio para la dependencia y para problemas menos graves, con fiabilidad test-retest y consistencia interna favorables, pero que en mujeres el corte de 8 debe rebajarse tanto para consumo de riesgo como para dependencia o consumo perjudicial. En el metaanálisis de Kriston (2008; 14 estudios, sobre todo de atención primaria en Europa y Estados Unidos) no hubo diferencias significativas de exactitud global entre el AUDIT y el AUDIT-C; las razones de verosimilitud positivas agrupadas para consumo de riesgo fueron 6,62 y 2,99, y para cualquier trastorno por consumo 4,03 y 3,82, respectivamente, con indicios no concluyentes de que el AUDIT completo identifica mejor la dependencia en población general y en pacientes ingresados. En la muestra catalana, AUDIT-3 y AUDIT-4 mostraron áreas bajo la curva equivalentes a las del AUDIT de 10 ítems en hombres y mujeres (Gual 2002).",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Sensibilidad, especificidad y razones de verosimilitud"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Es un instrumento de cribado del espectro de consumo (de riesgo, perjudicial y dependencia probable), no un instrumento diagnóstico: un resultado positivo obliga a una evaluación clínica según los criterios DSM-5-TR o CIE-11. Sirve además para monitorizar cambios tras una intervención breve. La guía NICE CG115 (recomendación 1.2.1.4) indica usar herramientas formales de evaluación, entre ellas el AUDIT para la identificación y como medida rutinaria de resultado, junto con SADQ o LDQ para la gravedad de la dependencia y la CIWA-Ar para la abstinencia. Rinde peor o está menos estudiado en adolescentes, personas mayores y versiones no inglesas (Reinert 2007); en adolescentes la evidencia de validez se concentra en el AUDIT y el CRAFFT, mientras que la de formas ultrabreves como el AUDIT-C no está establecida (Harris 2014). No se han localizado validaciones específicas en minorías sexuales y de género [fuente no localizada]; en chemsex el alcohol suele no ser la sustancia principal, por lo que un AUDIT bajo no descarta riesgo. En pericia solo documenta lo que la persona declara y es sensible a la minimización.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_inv",
+        "dast10"
+       ],
+       "t": "Cribado de otras drogas y chemsex"
+      },
+      {
+       "ids": [
+        "entrev_motiv",
+        "red_danos"
+       ],
+       "t": "Intervención tras el cribado"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Reinert DF & Allen JP (2007). The alcohol use disorders identification test: an update of research findings. Alcohol Clin Exp Res 31:185-199 · PMID 17250609",
+    "Gual A et al. (2002). AUDIT-3 and AUDIT-4: effectiveness of two short forms of the alcohol use disorders identification test. Alcohol Alcohol 37:591-596 · PMID 12414553",
+    "Kriston L et al. (2008). Meta-analysis: are 3 questions enough to detect unhealthy alcohol use? Ann Intern Med 149:879-888 · PMID 19075207",
+    "Harris SK, Louis-Jacques J & Knight JR (2014). Screening and brief intervention for alcohol and other abuse. Adolesc Med State Art Rev 25:126-156 · PMID 25022191"
+   ]
+  },
+  "dast10": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Creado por Skinner (1982; Addict Behav 7:363-371 · PMID 7183189) a partir de una versión de 28 ítems, de la que derivan las formas de 20 y 10 ítems. Es un autoinforme de respuesta dicotómica, aplicable también como entrevista, que se responde en pocos minutos [fuente no localizada para el tiempo] y no exige formación especializada; la puntuación es la suma de respuestas que indican problema, con un ítem de sentido inverso [fuente no localizada]. Los derechos pertenecen a su autor, que permite su uso clínico no comercial [fuente no localizada]. Existe una versión adolescente (Yudko 2007). No se ha localizado en PubMed una validación española del DAST-10 [fuente no localizada]; las traducciones que circulan en castellano carecen de estudios psicométricos indexados. Explora consecuencias del consumo de drogas distintas del alcohol, por lo que en la práctica se usa junto con el AUDIT.",
+     "links": [
+      {
+       "ids": [
+        "audit"
+       ],
+       "t": "AUDIT para el alcohol"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "La revisión de Yudko (2007), que abarca la literatura de 1982 a 2005, describe fiabilidad test-retest, interítem e ítem-total de moderada a alta y niveles de validez, sensibilidad y especificidad de moderados a altos en todas las versiones, sin metaanálisis formal. En 395 pacientes de un programa de hospitalización parcial psiquiátrica, con la entrevista SCID-IV como referencia en una submuestra de 67, la sensibilidad y la especificidad del DAST-10 fueron comparables a las de una pregunta única de cribado, que mostró mayor área bajo la curva; la concordancia entre ambas fue moderada (kappa 0,4) (Hearon 2015). En pacientes en tratamiento ambulatorio y residencial, el DUDIT correlacionó 0,85 con el DAST-10, lo que apoya su validez convergente (Voluse 2012). Los puntos de corte de uso habitual no se han podido verificar en un estudio primario indexado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Rendimiento diagnóstico del cribado"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Cribado de problemas por drogas en atención primaria, urgencias y salud mental; un positivo exige evaluación diagnóstica del trastorno por consumo, de la sustancia, la vía y la abstinencia. No sirve para diagnosticar ni para cuantificar el consumo; aunque Skinner lo diseñó también para la investigación de la evaluación del tratamiento (Skinner 1982), su sensibilidad al cambio individual en la práctica clínica no está establecida [fuente no localizada]. En adolescentes su validez no está establecida (Harris 2014), y en población psiquiátrica grave una pregunta única puede ser igual de eficiente (Hearon 2015). Al referirse a los últimos 12 meses y depender de la autodeclaración, infraestima en contextos de control (laboral, judicial, custodia de menores) y no debe emplearse en pericia como prueba de ausencia de consumo. No explora el uso sexualizado de drogas ni la vía inyectada; en chemsex conviene añadir la exploración específica. No constan estudios en minorías sexuales y de género [fuente no localizada]. Para el cannabis, la cocaína o los opioides, su positividad orienta, pero no gradúa la gravedad según criterios DSM-5-TR.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_inv",
+        "slam"
+       ],
+       "t": "Chemsex y vía inyectada"
+      },
+      {
+       "ids": [
+        "cannabis_tuc",
+        "cocaina",
+        "opioides"
+       ],
+       "t": "Trastornos por sustancias concretas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hearon BA et al. (2015). Improving the efficiency of drug use disorder screening in psychiatric settings: validation of a single-item screen. Am J Drug Alcohol Abuse 41:173-176 · PMID 25700005",
+    "Voluse AC et al. (2012). Psychometric properties of the Drug Use Disorders Identification Test (DUDIT) with substance abusers in outpatient and residential treatment. Addict Behav 37:36-41 · PMID 21937169",
+    "Harris SK, Louis-Jacques J & Knight JR (2014). Screening and brief intervention for alcohol and other abuse. Adolesc Med State Art Rev 25:126-156 · PMID 25022191"
+   ],
+   "relAdd": [
+    "slam"
+   ]
+  },
+  "fagerstrom": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Revisión del Fagerström Tolerance Questionnaire publicada por Heatherton et al. (1991; Br J Addict 86:1119-1127 · PMID 1932883). Autoinforme de seis ítems con opciones de respuesta de distinto peso, que puede leerse también como entrevista breve; se completa en pocos minutos y no requiere formación específica [fuente no localizada para tiempo y formación]. Uso libre sin licencia [fuente no localizada]. En España se aplicó a una muestra representativa de 646 fumadores gallegos (Becoña y Vázquez 1998; Psychol Rep 83:1455-1458 · PMID 10079737), que es la referencia indexada de la versión española; no se ha localizado una validación con criterio bioquímico en población española [fuente no localizada]. Explora conductas de consumo de cigarrillos (momento del primer cigarrillo, cantidad, dificultad para abstenerse, consumo pese a enfermedad), no la dependencia psicológica, la motivación ni el uso de otros productos de nicotina.",
+     "links": [
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "Tabaquismo"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Pomerleau (1994) estudió la estabilidad test-retest del FTQ en voluntarios de laboratorio estadounidenses y en fumadores ingresados por depresión en París, y la del FTND solo en una submuestra estadounidense: ambos fueron muy fiables, con validez frente a cotinina, años de consumo y el factor «adictivo» de un cuestionario de motivos; la consistencia interna del FTND fue algo superior a la del FTQ, y la puntuación del FTQ no se relacionó con la gravedad depresiva. La revisión sistemática de Meneses-Gaya (2009; 26 estudios hasta 2007) confirmó su fiabilidad en distintos contextos, pero reclamó más estudios con instrumentos de referencia validados. La revisión de Sharma (2021; 33 estudios de 2000 a 2019, 25 con alfa de Cronbach) describe calidades psicométricas cuestionables en las versiones adaptadas a distintas culturas y etnias. No se han verificado cifras de sensibilidad y especificidad frente a un diagnóstico DSM-5-TR de trastorno por consumo de tabaco [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Validez de criterio"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirve para graduar la dependencia física del cigarrillo al inicio de un tratamiento de cesación y para orientar su intensidad, junto con la medida de monóxido de carbono espirado; no es un instrumento diagnóstico del trastorno por consumo de tabaco ni mide la motivación para dejar de fumar, que se explora con la entrevista motivacional. Según la revisión de Sharma (2021), puede no captar adecuadamente el patrón de consumo en fumadores ligeros, usuarios de cigarrillo electrónico y consumidores de tabaco sin humo, y sus versiones adaptadas rinden de forma desigual entre culturas. En personas con trastorno mental grave, en quienes el tabaquismo es muy prevalente [fuente no localizada], no se han localizado estudios psicométricos específicos en España [fuente no localizada]. Tampoco constan estudios en minorías sexuales y de género, pese a su mayor prevalencia de tabaquismo [fuente no localizada]. No tiene aplicación pericial reconocida.",
+     "links": [
+      {
+       "ids": [
+        "ttos_adiccion",
+        "entrev_motiv"
+       ],
+       "t": "Tratamiento de la adicción y motivación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pomerleau CS et al. (1994). Reliability of the Fagerstrom Tolerance Questionnaire and the Fagerstrom Test for Nicotine Dependence. Addict Behav 19:33-39 · PMID 8197891",
+    "Meneses-Gaya IC et al. (2009). Psychometric properties of the Fagerström Test for Nicotine Dependence. J Bras Pneumol 35:73-82 · PMID 19219334",
+    "Sharma MK et al. (2021). Psychometric properties of Fagerstrom Test of Nicotine Dependence: a systematic review. Ind Psychiatry J 30:207-216 · PMID 35017802"
+   ]
+  },
+  "ciwa_ar": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Versión revisada y abreviada publicada por Sullivan et al. (1989; Br J Addict 84:1353-1357 · PMID 2597811). Es heteroaplicada: combina la observación de signos (temblor, sudoración, agitación) con la pregunta directa por síntomas (náuseas, ansiedad, alteraciones perceptivas, cefalea, orientación). La aplica habitualmente personal de enfermería o médico entrenado en sus anclajes de puntuación, de forma repetida durante la abstinencia [fuente no localizada para los requisitos de formación]. Es de dominio público [fuente no localizada]. No se ha localizado en PubMed una validación española publicada [fuente no localizada]; en la práctica se usan traducciones incluidas en protocolos hospitalarios. Exige que la persona pueda comunicarse en un idioma compartido, lo que limita su uso con barreras idiomáticas sin intérprete.",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "dt_alc"
+       ],
+       "t": "Abstinencia alcohólica y delirium tremens"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "El artículo original solo resume que la forma breve conserva la validez y la fiabilidad de la versión larga (Sullivan 1989); las cifras concretas no figuran en el resumen [fuente no localizada]. La CIWA-Ar mide gravedad actual, no predice quién desarrollará una abstinencia grave. Para esa pregunta, la revisión sistemática de Wood (2018; 14 estudios de alta calidad, 71 295 pacientes hospitalizados) encontró que ningún síntoma o signo aislado descarta la abstinencia grave; el antecedente de delirium tremens (razón de verosimilitud 2,9) y una presión sistólica basal de 140 mm Hg o más (1,7) la hacen más probable, y la escala PAWSS fue la combinación más útil (razón de verosimilitud 174 con cuatro o más hallazgos y 0,07 con tres o menos), aunque la mayoría de las herramientas no estaban plenamente validadas.",
+     "links": [
+      {
+       "ids": [
+        "kindling_abst_alc",
+        "alc_tardio"
+       ],
+       "t": "Factores de gravedad de la abstinencia"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Indicada para graduar la abstinencia alcohólica y guiar el tratamiento por síntomas en unidades que dispongan de protocolo y personal entrenado; no es un instrumento de cribado del consumo (para eso, el AUDIT) ni de predicción de complicaciones (Wood 2018). Rinde peor cuando la persona no puede comunicarse (delirium establecido, sedación, intubación, demencia avanzada, barrera idiomática) y cuando otras causas elevan sus ítems: ansiedad primaria, dolor, sepsis, hipertiroidismo, abstinencia de benzodiacepinas o de GHB/GBL, frecuente en chemsex, o efecto de estimulantes. Los betabloqueantes y otros fármacos pueden enmascarar signos [fuente no localizada]. La guía de la ASAM (Mayo-Smith 1997) y las guías NICE enmarcan su uso: CG100 (1.1.2.2) propone seguir protocolos locales y considerar una herramienta como la CIWA-Ar como complemento del juicio clínico, y CG115 (1.3.5.8) considera una medida formal como la CIWA-Ar en la abstinencia asistida, sobre todo con pauta guiada por síntomas. En una muestra aleatoria de 124 pacientes médicos y quirúrgicos tratados con el protocolo CIWA-Ar en un hospital general, solo el 48 % cumplía a la vez los dos requisitos de comunicación verbal y consumo reciente de alcohol (Hecksel 2008). No tiene uso pericial validado para estimar retrospectivamente el grado de dependencia.",
+     "links": [
+      {
+       "ids": [
+        "ghb_abst",
+        "ansiol_bzd"
+       ],
+       "t": "Abstinencias que la imitan"
+      },
+      {
+       "ids": [
+        "audit",
+        "delirium"
+       ],
+       "t": "Cribado y diagnóstico diferencial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Wood E et al. (2018). Will this hospitalized patient develop severe alcohol withdrawal syndrome? The Rational Clinical Examination systematic review. JAMA 320:825-833 · PMID 30167704",
+    "Hecksel KA et al. (2008). Inappropriate use of symptom-triggered therapy for alcohol withdrawal in the general hospital. Mayo Clin Proc 83:274-279 · PMID 18315992"
+   ]
+  },
+  "cows": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Publicada por Wesson y Ling (2003; J Psychoactive Drugs 35:253-259 · PMID 12924748) como escala clínica de libre reproducción. Es heteroaplicada: la mayor parte de los ítems son signos observables o medidos (frecuencia cardiaca en reposo, tamaño pupilar, sudoración, piloerección, rinorrea, bostezos, temblor) y unos pocos se preguntan (dolores, molestias digestivas, ansiedad). La aplican profesionales sanitarios con entrenamiento básico en su puntuación [fuente no localizada para los requisitos de formación]; su aplicación es breve [fuente no localizada]. No se ha localizado una validación española indexada [fuente no localizada]. Se complementa con las escalas de Handelsman (1987): la SOWS, autoaplicada, con 16 síntomas puntuados de 0 a 4, y la OOWS, con 13 signos observables registrados como presentes o ausentes durante un periodo de observación; ambas aumentaron tras reto con naloxona y no con placebo, con buena fiabilidad entre evaluadores para la OOWS.",
+     "links": [
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "Trastorno por consumo de opioides"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "La validación de Tompkins (2009) se hizo en 46 personas dependientes de opioides estabilizadas con morfina en régimen residencial, con retos doble ciego de naloxona y placebo. Tras naloxona, la puntuación media máxima fue 7,6, alcanzada en torno a los 30 minutos; tras placebo, 1,3. Además de la correlación con la CINA y la consistencia interna ya descritas, la COWS correlacionó 0,57 con escalas analógicas visuales de «mal efecto de la droga» y de «sentirse enfermo», y el placebo no elevó ninguna medida, lo que apoya la validez concurrente y discriminante. No hay estudios indexados localizados con sensibilidad, especificidad o área bajo la curva frente a un patrón diagnóstico, ni de fiabilidad entre evaluadores [fuente no localizada]. Los tramos de gravedad figuran en la plantilla anexa a la publicación original, no en un estudio de validación (Wesson y Ling 2003; el resumen solo menciona la plantilla reproducible) [fuente no localizada para los tramos en el resumen].",
+     "links": [
+      {
+       "ids": [
+        "ciwa_ar"
+       ],
+       "t": "Escala equivalente para el alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirve para documentar la abstinencia objetiva de opioides, decidir el momento de la primera dosis de buprenorfina según el protocolo del centro y la ficha técnica AEMPS de la buprenorfina, y vigilar la evolución; no diagnostica el trastorno por consumo ni mide el riesgo de sobredosis. La validación con naloxona en personas estabilizadas con morfina no se ha replicado, en lo localizado, con opioides sintéticos de alta potencia como el fentanilo, cuya cinética puede alterar el momento de la inducción [fuente no localizada]. Los signos autonómicos se confunden con ansiedad, abstinencia de alcohol, benzodiacepinas o GHB/GBL y con enfermedad intercurrente, por lo que en policonsumo, incluido el chemsex, la escala solo informa del componente opioide. Algunos fármacos (betabloqueantes, clonidina) atenúan signos como la frecuencia cardiaca [fuente no localizada]. No tiene uso pericial validado para establecer retrospectivamente la dependencia.",
+     "links": [
+      {
+       "ids": [
+        "ghb_abst",
+        "ttos_adiccion"
+       ],
+       "t": "Diagnóstico diferencial y tratamiento"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "Reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Tompkins DA et al. (2009). Concurrent validation of the Clinical Opiate Withdrawal Scale (COWS) and single-item indices against the Clinical Institute Narcotic Assessment (CINA) opioid withdrawal instrument. Drug Alcohol Depend 105:154-159 · PMID 19647958",
+    "Handelsman L et al. (1987). Two new rating scales for opiate withdrawal. Am J Drug Alcohol Abuse 13:293-308 · PMID 3687892"
+   ]
+  },
+  "cssrs": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollada en la Universidad de Columbia y publicada en su validación inicial por Posner et al. (2011; Am J Psychiatry 168:1266-1277 · PMID 22193671). Es una entrevista semiestructurada con preguntas guía y, para quien la aplica, definiciones operativas de cada categoría; dispone de versiones de cribado, para toda la vida o basal y de seguimiento desde la última visita, con versiones para distintos contextos [fuente no localizada para el catálogo de versiones]. Puede aplicarla personal clínico y no clínico con formación, y los autores ofrecen formación y uso gratuito para fines clínicos y de investigación sin ánimo de lucro [fuente no localizada]. La validación española en 467 pacientes ambulatorios es la de Al-Halabí et al. (2016; Rev Psiquiatr Salud Ment 9:134-142 · PMID 27158026).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "autolesion"
+       ],
+       "t": "Ideación, conducta suicida y autolesión"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Los tres estudios de Posner (2011) incluyeron 124 adolescentes con intento previo, 312 adolescentes con depresión en un ensayo farmacológico y 237 adultos atendidos en urgencias psiquiátricas: alta sensibilidad y especificidad de la clasificación de conductas frente a otra escala y un comité independiente, y, en adolescentes con intento previo, la peor ideación a lo largo de la vida predijo intentos durante el estudio, mientras que la escala de ideación de Beck no lo hizo. En 237 veteranos atendidos en urgencias psiquiátricas y seguidos seis meses, la subescala de intensidad predijo intentos reales e interrumpidos y los puntos de corte de gravedad se asociaron a intentos (Matarazzo 2019). En la validación española, la intensidad y la gravedad correlacionaron 0,44 y la gravedad diferenció a pacientes con y sin intento (Al-Halabí 2016).",
+     "links": [
+      {
+       "ids": [
+        "bhs_beck"
+       ],
+       "t": "Escala de ideación de Beck"
+      },
+      {
+       "ids": [
+        "suic_adol"
+       ],
+       "t": "Conducta suicida en la adolescencia"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Es útil para explorar de forma sistemática y con lenguaje común la ideación y la conducta, documentar cambios y comunicar entre equipos; no es un instrumento para predecir quién va a morir por suicidio. El metaanálisis de Carter (2017) halló, para todas las escalas combinadas, valores predictivos positivos agrupados de 5,5 % para suicidio y 26,3 % para autolesión, y concluyó que ninguna clasificación de alto riesgo era clínicamente útil. La guía NICE NG225 (autolesión) indica no usar herramientas ni escalas de riesgo, ni la estratificación global en riesgo bajo, medio o alto, para predecir el suicidio futuro o la repetición de la autolesión ni para decidir a quién ofrecer tratamiento o dar el alta (recomendaciones 1.6.1-1.6.4), y centrar la evaluación en las necesidades con una formulación del riesgo (1.6.5-1.6.6); la guía no menciona la C-SSRS, pero en coherencia con ella solo cabe integrarla en esa evaluación psicosocial y en un plan de seguridad. Las validaciones proceden mayoritariamente de adolescentes, veteranos y pacientes psiquiátricos estadounidenses; no se han localizado estudios específicos en personas autistas, con discapacidad intelectual o en minorías sexuales y de género [fuente no localizada]. En pericia, su resultado no permite inferir retrospectivamente la previsibilidad de una muerte por suicidio.",
+     "links": [
+      {
+       "ids": [
+        "sad_persons",
+        "cribado_sens_esp"
+       ],
+       "t": "Límites de la predicción individual"
+      },
+      {
+       "ids": [
+        "tea_suicidio",
+        "genero"
+       ],
+       "t": "Poblaciones poco estudiadas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Matarazzo BB et al. (2019). Predictive validity of the Columbia-Suicide Severity Rating Scale among a cohort of at-risk veterans. Suicide Life Threat Behav 49:1255-1265 · PMID 30368871",
+    "Carter G et al. (2017). Predicting suicidal behaviours using clinical instruments: systematic review and meta-analysis of positive predictive values for risk scales. Br J Psychiatry 210:387-395 · PMID 28302700"
+   ],
+   "relAdd": [
+    "suic_adol",
+    "tea_suicidio"
+   ]
+  },
+  "bhs_beck": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La BHS fue publicada por Beck et al. (1974; J Consult Clin Psychol 42:861-865 · PMID 4436473) y la SSI por Beck, Kovacs y Weissman (1979; J Consult Clin Psychol 47:343-352 · PMID 469082). La BHS es autoaplicada, con respuesta verdadero o falso, y se completa en pocos minutos; la SSI es una entrevista que realiza un clínico formado sobre la ideación actual [fuente no localizada para tiempos y requisitos de formación]. Existe además una versión autoaplicada de la escala de ideación (BSS) [fuente no localizada]. Tienen derechos de autor; la ficha atribuye su distribución a Pearson, pero no se ha podido confirmar la comercialización de la SSI de entrevista ni la existencia de una edición española comercial [fuente no localizada]. En población española, la BHS se aplicó junto con el Herth Hope Index en 682 personas con intento de suicidio previo (Sánchez-Teruel 2020; Actas Esp Psiquiatr 48:163-168 · PMID 32920781); en castellano existe también una validación colombiana en pacientes con riesgo suicida (Rueda-Jaimes 2018). No se ha localizado una validación española indexada de la SSI [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "dep_cogn_beck"
+       ],
+       "t": "Ideación suicida y modelo cognitivo de Beck"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En 244 pacientes colombianos con riesgo suicida atendidos en consulta y urgencias, la BHS mostró consistencia interna de 0,9 (Kuder-Richardson 20), cuatro dimensiones que explicaban la mitad de la varianza, correlación positiva con un cuestionario de conducta suicida (0,48) y negativa con el inventario de razones para vivir (-0,52); con un corte de 12 o más, el valor predictivo negativo para suicidio o intento a 30 días fue 98,4 % y el positivo solo 14,8 % (Rueda-Jaimes 2018). En la muestra española de personas con intento previo, el Herth Hope Index correlacionó -0,77 con la BHS, lo que apoya su validez divergente (Sánchez-Teruel 2020). En adolescentes con intento previo, la SSI no predijo intentos durante el seguimiento, a diferencia de la peor ideación vital medida con la C-SSRS (Posner 2011). Las cifras de McMillan (2007) ya recogidas en la ficha confirman el patrón de alta sensibilidad y baja especificidad.",
+     "links": [
+      {
+       "ids": [
+        "cssrs"
+       ],
+       "t": "Comparación con la C-SSRS"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Valor predictivo y prevalencia"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "La BHS es útil para medir la desesperanza como diana terapéutica y como resultado en terapia cognitiva; la SSI estructura la exploración de la ideación actual. Ninguna sirve para clasificar a una persona como de alto o bajo riesgo de muerte por suicidio: en el metaanálisis de Carter (2017) ninguna clasificación de alto riesgo fue clínicamente útil, porque la baja prevalencia limita el valor predictivo positivo, y la guía NICE NG225 indica no usar herramientas ni escalas de riesgo para predecir el suicidio futuro o la repetición de la autolesión, ni para decidir a quién ofrecer tratamiento o dar el alta (recomendaciones 1.6.1-1.6.2). El valor predictivo negativo elevado tampoco permite tranquilizar ni dar el alta sin una evaluación psicosocial. Al ser autoaplicada y de respuesta dicotómica, la BHS depende de la comprensión lectora y de la disposición a declarar; rinde de forma desconocida en personas con discapacidad intelectual, autistas o con lenguas y culturas distintas de las de validación [fuente no localizada]. No hay datos específicos en minorías sexuales y de género [fuente no localizada]. En pericia no permite reconstruir el riesgo previo a una muerte.",
+     "links": [
+      {
+       "ids": [
+        "tcc_dep",
+        "ddm"
+       ],
+       "t": "Desesperanza en la depresión y su tratamiento"
+      },
+      {
+       "ids": [
+        "sad_persons"
+       ],
+       "t": "Contraejemplo de validez predictiva"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Rueda-Jaimes GE et al. (2018). Validation of the Beck Hopelessness Scale in patients with suicide risk. Rev Psiquiatr Salud Ment 11:86-93 · PMID 27914883",
+    "Sánchez-Teruel D, Robles-Bello MA & Camacho-Conde JA (2020). Validity of the Spanish version of the Herth Hope Index and the Beck Hopelessness Scale in people who have attempted suicide. Actas Esp Psiquiatr 48:163-168 · PMID 32920781",
+    "Carter G et al. (2017). Predicting suicidal behaviours using clinical instruments: systematic review and meta-analysis of positive predictive values for risk scales. Br J Psychiatry 210:387-395 · PMID 28302700",
+    "Posner K et al. (2011). The Columbia-Suicide Severity Rating Scale: initial validity and internal consistency findings from three multisite studies with adolescents and adults. Am J Psychiatry 168:1266-1277 · PMID 22193671",
+    "NICE (2022). Self-harm: assessment, management and preventing recurrence (NG225)"
+   ]
+  },
+  "sad_persons": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Propuesta por Patterson et al. (1983; Psychosomatics 24:343-345, 348-349 · PMID 6867245) como ayuda mnemotécnica y docente. Es una lista heteroaplicada de diez factores que el profesional marca como presentes o ausentes a partir de la entrevista, sin preguntas estandarizadas, en uno o dos minutos [fuente no localizada para el tiempo]; no requiere formación específica y es de dominio público [fuente no localizada]. Hockberger y Rothstein (1988; J Emerg Med 6:99-107 · PMID 3290325), al no poder validar la versión original para decidir el ingreso, propusieron una versión modificada (MSPS); como tampoco esta se correlacionó con el destino de los pacientes, la ponderaron con dos puntos para cuatro criterios asociados a la hospitalización y uno para los seis restantes. No existe validación española [fuente no localizada]; circula en manuales y protocolos de urgencias en castellano sin estudio psicométrico.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "Evaluación de la ideación y la conducta suicida"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En la versión modificada, Hockberger y Rothstein (1988) describieron en 100 pacientes consecutivos de urgencias que una puntuación de 6 o más tenía sensibilidad del 94 % y especificidad del 71 % para identificar la necesidad de ingreso, confirmada en 82 pacientes adicionales; pero el criterio de referencia era la decisión de hospitalizar, no la conducta suicida posterior, lo que introduce circularidad, y el seguimiento a 6-12 meses de los dados de alta solo registró ausencia de muertes. Los estudios con desenlaces reales (Bolton 2012; Katz 2017, ya citados en la ficha) muestran un rendimiento cercano al azar. El metaanálisis de Carter (2017) sitúa el valor predictivo positivo agrupado de las escalas de riesgo en 5,5 % para el suicidio y 26,3 % para la autolesión.",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Sesgo de incorporación y valor predictivo"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Su única utilidad defendible es docente: recordar factores de riesgo que deben explorarse en la entrevista. No debe usarse para decidir el alta, el ingreso ni la intensidad del seguimiento; la guía NICE NG225 indica no usar herramientas ni escalas de riesgo, ni la estratificación global en riesgo bajo, medio o alto, para predecir el suicidio futuro o la repetición de la autolesión ni para decidir a quién ofrecer tratamiento o dar el alta (recomendaciones 1.6.1-1.6.4), y centrar la evaluación en las necesidades con una formulación del riesgo (1.6.5-1.6.6). Incorpora factores demográficos que penalizan o favorecen a grupos enteros (sexo, edad, estado civil) y que no reflejan la situación de la persona concreta; tampoco recoge factores relevantes en minorías sexuales y de género, como el rechazo familiar o la discriminación [fuente no localizada para la omisión como causa de error]. En pericia, una puntuación baja registrada en la historia no demuestra que el riesgo fuera bajo ni que la muerte fuera imprevisible, y una puntuación alta no demuestra lo contrario.",
+     "links": [
+      {
+       "ids": [
+        "cssrs",
+        "bhs_beck"
+       ],
+       "t": "Exploración estructurada alternativa"
+      },
+      {
+       "ids": [
+        "genero",
+        "perit_forense"
+       ],
+       "t": "Estrés de minorías y peritación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hockberger RS & Rothstein RJ (1988). Assessment of suicide potential by nonpsychiatrists using the SAD PERSONS score. J Emerg Med 6:99-107 · PMID 3290325",
+    "Carter G et al. (2017). Predicting suicidal behaviours using clinical instruments: systematic review and meta-analysis of positive predictive values for risk scales. Br J Psychiatry 210:387-395 · PMID 28302700"
+   ],
+   "relAdd": [
+    "genero",
+    "perit_forense"
+   ]
+  },
+  "sara": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollada por Kropp, Hart, Webster y Eaves, con ediciones de 1994, 1995 y 1998 citadas en el estudio de validación, y con datos de fiabilidad y validez publicados por Kropp y Hart (2000; Law Hum Behav 24:101-118 · PMID 10693321). Es una guía de juicio profesional estructurado que se completa con entrevista a la persona evaluada y, cuando es posible, a la víctima, más revisión de expedientes policiales y judiciales; requiere formación en valoración del riesgo y en violencia de pareja, y el manual es comercial [fuente no localizada para los requisitos formales]. La adaptación española es de Andrés-Pueyo y López (2005; Publicacions i Edicions de la Universitat de Barcelona), según la cita de sus propios autores (Andrés-Pueyo, López y Álvarez 2008, Papeles del Psicólogo 29:107-122); no se ha localizado en PubMed un estudio psicométrico de la versión española [fuente no localizada]. En España, la valoración policial del riesgo se hace con las herramientas propias del Sistema VioGén (VPR y VPER), no con la SARA (López-Ossorio 2017).",
+     "links": [
+      {
+       "ids": [
+        "riesgo_viol",
+        "hetero_agr"
+       ],
+       "t": "Riesgo de violencia y heteroagresividad"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En el promedio ponderado de Messing y Thaller (2013), el área bajo la curva de la SARA para predecir reincidencia fue 0,628 (seis estudios), inferior a la del ODARA (0,666) y semejante a la del Danger Assessment (0,618), lo que corresponde a un efecto pequeño; además, solo en el 45 % de las 20 medidas incluidas el instrumento se había aplicado correctamente. Como referencia española de la valoración policial, en 6613 casos nuevos de violencia de pareja la reincidencia policial a seis meses fue del 7,4 %, y 46 de los 65 indicadores del Sistema VioGén se asociaron significativamente a ella (López-Ossorio 2017). Fuera de PubMed, los autores de la adaptación describen un estudio retrospectivo en 102 agresores de pareja juzgados en Barcelona (2004-2005), con la SARA puntuada a posteriori sobre expedientes y seguimiento de 12 meses: la valoración global clasificó correctamente al 85 % de los reincidentes y al 72 % de los no reincidentes (Andrés-Pueyo 2008); faltan estudios prospectivos e independientes en España [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Área bajo la curva y prevalencia"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirve para estructurar la valoración y, sobre todo, planificar la gestión del riesgo y la protección de la víctima; no sirve para establecer si una agresión ocurrió ni para atribuir culpabilidad. Las propias revisiones advierten de su uso fuera del contexto para el que se creó y de que la elección debe atender al entorno, al desenlace, a la formación del evaluador y al acceso a la información (Messing 2013). Su validación procede sobre todo de hombres condenados en Canadá; la validez en mujeres agresoras, parejas del mismo sexo, personas trans y otras culturas está poco estudiada [fuente no localizada]. En España, el tribunal valora los dictámenes periciales según las reglas de la sana crítica (art. 348 LEC) y, en el proceso penal, aprecia las pruebas «según su conciencia» (art. 741 LECrim): el informe debe explicitar fuentes, limitaciones predictivas y que la puntuación no prueba el hecho. La disposición adicional segunda de la LO 1/2004 encarga a las unidades de valoración forense integral diseñar protocolos de actuación en violencia de género; no se ha localizado qué instrumentos prescriben [fuente no localizada]. El sesgo de adscripción del perito se ha demostrado con otros instrumentos de riesgo (Murrie 2013).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Peritación forense"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Diversidad de las parejas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Messing JT & Thaller J (2013). The average predictive validity of intimate partner violence risk assessment instruments. J Interpers Violence 28:1537-1558 · PMID 23262817",
+    "López-Ossorio JJ et al. (2017). Risk factors related to intimate partner violence police recidivism in Spain. Int J Clin Health Psychol 17:107-119 · PMID 30487886",
+    "Murrie DC et al. (2013). Are forensic experts biased by the side that retained them? Psychol Sci 24:1889-1897 · PMID 23969777",
+    "Andrés-Pueyo A & López S (2005). Manual para la valoración del riesgo de violencia contra la pareja (SARA; adaptación española). Barcelona: Publicacions i Edicions de la Universitat de Barcelona (datos editoriales según Andrés-Pueyo 2008; contenido no contrastado)",
+    "Ley Orgánica 1/2004 (2004), de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género (BOE núm. 313, 29-12-2004)",
+    "Ley 1/2000 (2000), de 7 de enero, de Enjuiciamiento Civil (BOE núm. 7, 08-01-2000)",
+    "Real Decreto de 14 de septiembre de 1882 (1882), por el que se aprueba la Ley de Enjuiciamiento Criminal (Gaceta de Madrid núm. 260, 17-09-1882)",
+    "Andrés-Pueyo A, López S & Álvarez E (2008). Valoración del riesgo de violencia contra la pareja por medio de la SARA. Papeles del Psicólogo 29:107-122 (revista no indexada en PubMed)"
+   ],
+   "relAdd": [
+    "genero"
+   ]
+  },
+  "pclr": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Publicada por Hare en 1991, con segunda edición del manual técnico en 2003 (Multi-Health Systems). Heteroaplicada: el evaluador puntúa cada ítem a partir de una entrevista semiestructurada larga y de la revisión de documentación colateral; la versión de cribado PCL:SV tiene 12 ítems [fuente no localizada para la PCL:SV]. Según la ficha editorial de la versión española, la entrevista dura de 90 a 120 minutos, la revisión de la documentación unos 60 y la puntuación unos 15. Tiene derechos de autor (Multi-Health Systems; la versión española la distribuye TEA Ediciones, hoy Hogrefe TEA) y su adquisición exige el nivel de cualificación C del catálogo; los requisitos de formación específica no se han verificado [fuente no localizada]. La estandarización española en 117 reclusos varones es la de Moltó, Poy y Torrubia (2000; J Pers Disord 14:84-96 · PMID 10746208), y la versión comercial española la publica TEA Ediciones; su autoría (atribuida a Torrubia et al.) y año (2010) no se han podido confirmar [no verificada]. No se han localizado normas españolas para mujeres, población clínica no penitenciaria ni adolescentes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tpanti",
+        "cleckley"
+       ],
+       "t": "Constructo de psicopatía"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En la muestra penitenciaria española, la fiabilidad entre evaluadores y la consistencia interna fueron altas y similares a las de otros países, con réplica de la estructura bifactorial y patrones de correlación diferenciados de cada factor con medidas de personalidad y de historia delictiva (Moltó 2000). Como predictor, en la metarregresión de Singh (2011; 68 estudios, 25 980 participantes, nueve instrumentos) los instrumentos rindieron mejor en muestras de mayor edad y predominantemente blancas, un dato relevante para la equidad de su aplicación a minorías étnicas. En un experimento con 108 psicólogos y psiquiatras forenses que puntuaron los mismos expedientes, quienes creían trabajar para la acusación asignaron puntuaciones de riesgo más altas que quienes creían trabajar para la defensa, con tamaños de efecto de hasta 0,85 (Murrie 2013; que la PCL-R fuera uno de los dos instrumentos no consta en el resumen [fuente no localizada en el resumen]). En el uso real, en 23 juicios estadounidenses de internamiento civil de agresores sexuales en los que peritos de partes contrarias puntuaron a la misma persona, las diferencias favorecían a la parte que contrataba y la correlación intraclase de acuerdo absoluto del total fue 0,39, muy inferior a la de los estudios de investigación (Murrie 2008).",
+     "links": [
+      {
+       "ids": [
+        "riesgo_viol"
+       ],
+       "t": "Comparación con otras herramientas de riesgo"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "La PCL-R mide un constructo de personalidad útil en investigación y en la descripción pericial; no es un diagnóstico CIE-11 ni DSM-5-TR, ni un instrumento de riesgo, ni dice nada por sí sola sobre la imputabilidad: el art. 20.1.º del Código Penal exime a quien, al tiempo de la infracción y a causa de una anomalía o alteración psíquica, no pueda comprender su ilicitud o actuar conforme a esa comprensión. En el proceso civil el dictamen se valora según la sana crítica (art. 348 LEC) y el perito declara actuar con la mayor objetividad posible (art. 335.2 LEC); en el penal, el tribunal aprecia las pruebas «según su conciencia» (art. 741 LECrim): el perito debe exponer el procedimiento, las fuentes colaterales y las limitaciones. Riesgos de mal uso: sesgo de adscripción (Murrie 2008; Murrie 2013), menor validez predictiva de los instrumentos de riesgo en muestras jóvenes y no predominantemente blancas (Singh 2011), uso de normas norteamericanas en población española, aplicación sin documentación colateral y efecto estigmatizante de la etiqueta en decisiones penitenciarias. No hay validación en personas autistas, en quienes la reducción aparente de expresividad afectiva podría puntuarse erróneamente [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "imputabilidad",
+        "perit_forense"
+       ],
+       "t": "Imputabilidad y pericia"
+      },
+      {
+       "ids": [
+        "tea_adulto"
+       ],
+       "t": "TEA adulto: riesgo de confusión"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Murrie DC et al. (2013). Are forensic experts biased by the side that retained them? Psychol Sci 24:1889-1897 · PMID 23969777",
+    "Hare RD (2010). PCL-R. Escala de Evaluación de Psicopatía de Hare Revisada (versión española). Madrid: TEA Ediciones (editorial confirmada en hare.org; autoría de la adaptación —Torrubia et al.— y año [no verificada])",
+    "Ley Orgánica 10/1995 (1995), de 23 de noviembre, del Código Penal (BOE núm. 281, 24-11-1995)",
+    "Ley 1/2000 (2000), de 7 de enero, de Enjuiciamiento Civil (BOE núm. 7, 08-01-2000)",
+    "Real Decreto de 14 de septiembre de 1882 (1882), por el que se aprueba la Ley de Enjuiciamiento Criminal (Gaceta de Madrid núm. 260, 17-09-1882)",
+    "Murrie DC et al. (2008). Does interrater (dis)agreement on Psychopathy Checklist scores in sexually violent predator trials suggest partisan allegiance in forensic evaluations? Law Hum Behav 32:352-362 · PMID 17616792"
+   ],
+   "relAdd": [
+    "tea_adulto"
+   ]
+  },
+  "riesgo_viol": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Ficha de clase que agrupa los instrumentos de valoración del riesgo de violencia. El HCR-20 V3 (Douglas et al. 2013) es una guía de juicio profesional estructurado con factores históricos, clínicos y de gestión del riesgo (diez, cinco y cinco en la versión 2, según Arbach y Andrés-Pueyo 2007, Papeles del Psicólogo 28:174-186; la misma distribución en la V3 [fuente no localizada]); se completa con entrevista y revisión de expedientes, por profesionales con formación en evaluación y en el manual, publicada por la Universidad Simon Fraser. La adaptación española autorizada de la versión 2 es la de Hilterman y Andrés-Pueyo (2005; Universitat de Barcelona), según Arbach y Andrés-Pueyo (2007). La PCL-R mide psicopatía y se trata en su ficha. Las herramientas actuariales (por ejemplo, el VRAG o el LSI-R) suman factores con pesos fijos [fuente no localizada para su estructura]. La SARA es la guía específica para la violencia de pareja, y en España la valoración policial de víctimas usa el Sistema VioGén.",
+     "links": [
+      {
+       "ids": [
+        "pclr",
+        "sara"
+       ],
+       "t": "PCL-R y SARA"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "Además de los valores predictivos ya recogidos en la ficha, el metaanálisis de Fazel (2012; 73 muestras de 13 países, 24 847 participantes según el resumen —24 827 en el título—, seguimiento medio de 49,6 meses) estimó un número mediano necesario para detener de 2 y un número mediano de altas seguras de 10; las herramientas rindieron mejor para la violencia que para delitos sexuales o generales. El metaanálisis de Yang (2010) halló que nueve instrumentos predicen la violencia con eficacia moderada y prácticamente intercambiable, y la metarregresión de Singh (2011) encontró mejor rendimiento en muestras de mayor edad y predominantemente blancas. En una muestra española de personas con esquizofrenia u otras psicosis internadas por delitos violentos y seguidas 18 meses en un hospital psiquiátrico penitenciario, el HCR-20 predijo la violencia con áreas bajo la curva de 0,78 a 0,80 (SanSegundo 2018).",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "Esquizofrenia y violencia"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Valor predictivo y número necesario"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirven para estructurar la evaluación, identificar factores modificables y planificar la gestión del riesgo; no para decidir por sí solos detenciones, condenas o altas, como advierten Fazel (2012) y Yang (2010). Su valor predictivo positivo moderado implica que muchas personas clasificadas de alto riesgo no serán violentas, con consecuencias estigmatizantes para quienes tienen un trastorno mental grave. Rinden peor en personas jóvenes y en minorías étnicas (Singh 2011), y no se han localizado estudios en minorías sexuales y de género ni en personas autistas o con discapacidad intelectual en España [fuente no localizada]. En la pericia española, el dictamen se valora según las reglas de la sana crítica (art. 348 LEC) y, en el proceso penal, el tribunal aprecia las pruebas «según su conciencia» (art. 741 LECrim): debe explicitar el instrumento, su validación en una población comparable, las fuentes colaterales y la incertidumbre. El sesgo de adscripción de algunos peritos según la parte que los contrata se ha demostrado experimentalmente (Murrie 2013).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "hetero_agr"
+       ],
+       "t": "Pericia y heteroagresividad"
+      },
+      {
+       "ids": [
+        "disc_int",
+        "tea"
+       ],
+       "t": "Poblaciones sin validación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Yang M, Wong SCP & Coid J (2010). The efficacy of violence prediction: a meta-analytic comparison of nine risk assessment tools. Psychol Bull 136:740-767 · PMID 20804235",
+    "Singh JP, Grann M & Fazel S (2011). A comparative study of violence risk assessment tools: a systematic review and metaregression analysis of 68 studies involving 25,980 participants. Clin Psychol Rev 31:499-513 · PMID 21255891",
+    "SanSegundo MS et al. (2018). Prediction of violence, suicide behaviors and suicide ideation in a sample of institutionalized offenders with schizophrenia and other psychosis. Front Psychol 9:1385 · PMID 30131743",
+    "Murrie DC et al. (2013). Are forensic experts biased by the side that retained them? Psychol Sci 24:1889-1897 · PMID 23969777",
+    "Hilterman E & Andrés-Pueyo A (2005). HCR-20. Guía para la valoración del riesgo de comportamientos violentos (adaptación española). Barcelona: Universitat de Barcelona (datos editoriales según Arbach y Andrés-Pueyo 2007; contenido no contrastado)",
+    "Ley 1/2000 (2000), de 7 de enero, de Enjuiciamiento Civil (BOE núm. 7, 08-01-2000)",
+    "Real Decreto de 14 de septiembre de 1882 (1882), por el que se aprueba la Ley de Enjuiciamiento Criminal (Gaceta de Madrid núm. 260, 17-09-1882)",
+    "Arbach K & Andrés-Pueyo A (2007). Valoración del riesgo de violencia en enfermos mentales con el HCR-20. Papeles del Psicólogo 28:174-186 (revista no indexada en PubMed)"
+   ]
+  },
+  "sims_tomm": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "SIMS: inventario autoaplicado de respuesta verdadero o falso publicado por Smith y Burger (1997; J Am Acad Psychiatry Law 25:183-189 · PMID 9213290), de 75 ítems según la reseña de la adaptación española, que se completa en unos 15 minutos [fuente no localizada]; la adaptación española (Widows y Smith; adaptación de González-Ordi y Santamaría) la publica TEA Ediciones (reseña de Infocop, 2010). TOMM: prueba de validez del rendimiento de Tombaugh (1996), de reconocimiento visual con dos ensayos y uno de retención (Martin 2020), aplicada por profesionales con formación en neuropsicología [fuente no localizada para los requisitos]. SIRS-2: entrevista estructurada de Rogers, Sewell y Gillard (2010) para la simulación de síntomas psiquiátricos, larga y aplicada por profesionales formados [fuente no localizada para la duración]. Los tres tienen derechos de autor y distribución comercial. No se han localizado validaciones españolas indexadas del TOMM ni de la SIRS-2 [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "simulacion",
+        "neuropsico"
+       ],
+       "t": "Simulación y evaluación neuropsicológica"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "SIMS: en el estudio original, 476 estudiantes universitarios asignados a siete condiciones de simulación o a responder con sinceridad; el metaanálisis de van Impelen (2014; 31 estudios, 4009 protocolos) añade que discrimina bien entre simuladores instruidos y respondedores sinceros y es bastante resistente al entrenamiento, y que subir el punto de corte mejora la especificidad a costa de la sensibilidad. TOMM: en el metaanálisis de Martin (2020; 60 artículos de 1997 a 2017), los cortes tradicionales del segundo ensayo y de la retención tuvieron especificidad de 0,96 a 0,98 y sensibilidad de 0,46 a 0,56, y un corte modificado de menos de 49 elevó la sensibilidad (0,59-0,70) manteniendo especificidad de 0,91 a 0,97, corte que los autores reservan a personas sin sospecha de deterioro importante. En una muestra española con traumatismo craneoencefálico leve y simuladores instruidos, el IOP-29 y el IOP-M mostraron buena exactitud de clasificación y aportaron una perspectiva distinta de la del SIMS (Puente-López 2024).",
+     "links": [
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Sensibilidad, especificidad y tasa base"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Son medidas de validez de los síntomas o del rendimiento: indican que una presentación no es interpretable o es improbable, pero no prueban la intención ni el incentivo externo que definen la simulación; esa conclusión es pericial y debe integrar entrevista, observación, documentación y congruencia longitudinal. El SIMS puede sobrestimar la simulación en esquizofrenia, discapacidad intelectual y crisis no epilépticas psicógenas (van Impelen 2014), y la especificidad del TOMM con cortes tradicionales cae muy por debajo de lo aceptable en personas con demencia, aunque se mantiene por encima de 0,90 en la mayoría de quienes no tienen el inglés como lengua principal (Martin 2020). La mayoría de los estudios usan simuladores instruidos, no litigantes reales. En España, el dictamen se valora según las reglas de la sana crítica (art. 348 LEC) y, en el proceso penal, el tribunal aprecia las pruebas «según su conciencia» (art. 741 LECrim); el informe debe nombrar la versión, los cortes y la población de referencia, y evitar etiquetar como simulación lo que puede ser un trastorno facticio, disociativo o un déficit real.",
+     "links": [
+      {
+       "ids": [
+        "facticio",
+        "disoc_amn",
+        "dem"
+       ],
+       "t": "Diagnóstico diferencial"
+      },
+      {
+       "ids": [
+        "perit_forense",
+        "disc_int"
+       ],
+       "t": "Pericia y poblaciones vulnerables"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Martin PK et al. (2020). A systematic review and meta-analysis of the Test of Memory Malingering in adults: two decades of deception detection. Clin Neuropsychol 34:88-119 · PMID 31357918",
+    "Puente-López E et al. (2024). Classification accuracy and resistance to coaching of the Spanish version of the Inventory of Problems-29 and the Inventory of Problems-Memory: a simulation study with mTBI patients. Clin Neuropsychol 38:738-762 · PMID 37615421",
+    "Widows MR & Smith GP (2009). SIMS. Inventario Estructurado de Simulación de Síntomas. Adaptación española de González-Ordi H y Santamaría P. Madrid: TEA Ediciones (autores y editorial según reseña de Infocop 2010; año [no verificada])",
+    "Ley 1/2000 (2000), de 7 de enero, de Enjuiciamiento Civil (BOE núm. 7, 08-01-2000)",
+    "Real Decreto de 14 de septiembre de 1882 (1882), por el que se aprueba la Ley de Enjuiciamiento Criminal (Gaceta de Madrid núm. 260, 17-09-1882)"
+   ],
+   "relAdd": [
+    "neuropsico",
+    "dem",
+    "disc_int"
+   ]
+  },
+  "maccat_t": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollada por Grisso, Appelbaum y Hill-Fotouhi (1997; Psychiatr Serv 48:1415-1419 · PMID 9355168) en el marco de los estudios MacArthur sobre capacidad para el tratamiento [fuente no localizada], con guía clínica en Grisso y Appelbaum (1998). Es una entrevista semiestructurada heteroaplicada que el clínico adapta a la información concreta de la decisión en curso (trastorno, tratamiento propuesto, beneficios, riesgos y alternativas), por lo que debe prepararse antes de cada uso. La aplican médicos u otros profesionales sanitarios con formación en el modelo de cuatro capacidades y en el manual [fuente no localizada para los requisitos formales]. Tiene derechos de autor [fuente no localizada para la editorial]. Validaciones españolas: Hernando Robles et al. (2012; Rev Calid Asist 27:85-91 · PMID 22115930) y Alvarez Marrodán et al. (2014; Med Clin (Barc) 143:201-204 · PMID 24216012).",
+     "links": [
+      {
+       "ids": [
+        "consent_cap",
+        "capacidad_jur"
+       ],
+       "t": "Capacidad para consentir y apoyos"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En la revisión sistemática de Okai (2007; 37 artículos), se identificaron 29 instrumentos distintos de evaluación de la capacidad, con definiciones heterogéneas pero fiabilidad entre evaluadores alta; la incapacidad para decidir sobre el tratamiento fue frecuente (mediana del 29 %), aunque la mayoría de las personas ingresadas en psiquiatría eran capaces, y los factores más asociados a incapacidad fueron la psicosis, la gravedad sintomática, el ingreso involuntario y el rechazo del tratamiento, no las variables sociodemográficas. Estos datos son coherentes con la validación original, en la que el bajo rendimiento se asoció a síntomas concretos y no al diagnóstico (Grisso 1997). La MacCAT-T no tiene punto de corte validado para dictaminar incapacidad: la puntuación ordena la información y el juicio sigue siendo clínico [fuente no localizada para la ausencia de un corte consensuado].",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "insight"
+       ],
+       "t": "Psicosis, insight y capacidad"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Indicada cuando hay dudas razonables sobre la capacidad para una decisión sanitaria concreta; no evalúa la capacidad en abstracto ni otras capacidades (testamentaria, patrimonial, procesal). El rechazo del tratamiento, aunque se asocie estadísticamente a incapacidad (Okai 2007), no la prueba: debe evitarse evaluar solo a quien discrepa. En el marco español, la Ley 8/2021 sustituye la incapacitación por un sistema de apoyos al ejercicio de la capacidad jurídica regido por la voluntad, deseos y preferencias de la persona y por los principios de necesidad y proporcionalidad (art. 249 del Código Civil en su redacción), en línea con el artículo 12 de la Convención; en el ámbito sanitario, la Ley 41/2002 exige ofrecer a la persona con discapacidad las medidas de apoyo pertinentes, incluida información en formatos accesibles, para favorecer que consienta por sí misma (art. 9.7). Rinde peor con barreras idiomáticas o culturales, sordera, afasia, discapacidad intelectual o estilos comunicativos autistas si no se adapta la información [fuente no localizada]. En pericia, la entrevista documenta el razonamiento en un momento dado; no permite inferir retrospectivamente la capacidad en una fecha anterior sin otras fuentes.",
+     "links": [
+      {
+       "ids": [
+        "crpd",
+        "internamiento"
+       ],
+       "t": "Convención de la ONU e internamiento"
+      },
+      {
+       "ids": [
+        "disc_int",
+        "cap_dem"
+       ],
+       "t": "Discapacidad intelectual y demencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Okai D et al. (2007). Mental capacity in psychiatric patients: systematic review. Br J Psychiatry 191:291-297 · PMID 17906238",
+    "Ley 8/2021 (2021), de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica (BOE núm. 132, 03-06-2021)"
+   ],
+   "relAdd": [
+    "crpd",
+    "disc_int"
+   ]
+  },
+  "whodas2": {
+   "secAdd": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "Desarrollado por la OMS dentro del proyecto conjunto OMS/NIH y descrito por Üstün et al. (2010; Bull World Health Organ 88:815-823 · PMID 21076562), con manual de la OMS del mismo año. Tiene versiones de 36 y 12 ítems, y una híbrida de 12+24 [fuente no localizada para la versión híbrida], aplicables por entrevista, autoinforme o informante; el periodo de referencia son los 30 días previos [fuente no localizada]. La versión de 36 ítems por entrevista lleva unos 20 minutos [fuente no localizada]. Puede aplicarlo personal sanitario con una formación breve en el manual [fuente no localizada]. Es de uso libre con autorización de la OMS. La versión española del instrumento original se describió en su fase piloto (Vázquez-Barquero 2000), y la de 36 ítems heteroaplicada se estudió en 291 pacientes con trastorno bipolar I atendidos en consultas españolas (Guilera 2015; J Affect Disord 174:353-360 · PMID 25553398).",
+     "links": [
+      {
+       "ids": [
+        "dsm5_hit",
+        "crpd"
+       ],
+       "t": "DSM-5 y marco de la discapacidad"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas e instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Propiedades psicométricas",
+     "x": "En la muestra española de trastorno bipolar I, el dominio de participación tuvo el mayor porcentaje de datos perdidos (2,7 %); el modelo de seis factores correlacionados fue el de mejor ajuste; el alfa de Cronbach osciló entre 0,73 (cuidado personal) y 0,92 (actividades de la vida), con 0,96 para la puntuación total, y la escala diferenció a pacientes según la intensidad sintomática y la situación laboral; no se estudiaron la estabilidad temporal ni la sensibilidad al cambio (Guilera 2015). La revisión sistemática internacional de Federici (2017) identificó 810 estudios en 94 países, traducciones a 47 lenguas y dialectos y un 40 % de estudios en psiquiatría, con fuertes correlaciones con otras medidas de limitación de la actividad, pero sin una diferencia mínima clínicamente importante establecida.",
+     "links": [
+      {
+       "ids": [
+        "tb1"
+       ],
+       "t": "Trastorno bipolar I"
+      },
+      {
+       "ids": [
+        "mbc"
+       ],
+       "t": "Medición basada en la medida"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y límites",
+     "x": "Sirve para describir el funcionamiento en los dominios de la CIF y seguir su evolución en rehabilitación y en trastorno mental grave, y el DSM-5 lo propone en su sección III como medida de discapacidad (Gold 2014). No diagnostica ni mide la gravedad sintomática, y la falta de una diferencia mínima clínicamente importante (Federici 2017) limita su uso para decidir si un cambio individual es relevante. Al depender de la autopercepción, puede infra- o sobreestimar la discapacidad cuando hay anosognosia, deterioro cognitivo o incentivos externos; la versión por informante ayuda, pero introduce el sesgo del informante [fuente no localizada]. Su validación en población infantil es reciente y procede de México [fuente no localizada en muestra española]. En España, la valoración oficial del grado de discapacidad y la incapacidad laboral se rigen por baremos y procedimientos propios, de modo que el WHODAS 2.0 puede complementar un dictamen pericial, pero no sustituir esos baremos ni probar por sí mismo la incapacidad para el trabajo.",
+     "links": [
+      {
+       "ids": [
+        "recovery",
+        "ips_empleo"
+       ],
+       "t": "Recuperación y empleo"
+      },
+      {
+       "ids": [
+        "perit_forense",
+        "anosog"
+       ],
+       "t": "Pericia y anosognosia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Guilera G et al. (2015). Disability in bipolar I disorder: the 36-item World Health Organization Disability Assessment Schedule 2.0. J Affect Disord 174:353-360 · PMID 25553398",
+    "Federici S et al. (2017). World Health Organization disability assessment schedule 2.0: an international systematic review. Disabil Rehabil 39:2347-2380 · PMID 27820966",
+    "Díaz-Castro L et al. (2024). Validation of the World Health Organization's Disability Assessment Schedule 2.0 for children with mental disorders in specialized health-care services. Front Psychiatry 15:1415133 · PMID 39744547",
+    "Üstün TB et al. (2010). Measuring health and disability: manual for WHO Disability Assessment Schedule (WHODAS 2.0). Ginebra: Organización Mundial de la Salud (OMS)"
+   ],
+   "relAdd": [
+    "tb1",
+    "anosog"
+   ]
+  }
+ },
+ "add": []
+}

@@ -1,0 +1,1173 @@
+{
+ "patch": {
+  "vuln_gen": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La vulnerabilidad poligénica no se traduce hoy en pruebas diagnósticas: la herramienta clínica principal sigue siendo la historia familiar, que el PGC se propone convertir en conocimiento biológico, clínico y terapéutico (Sullivan 2018). Las indicaciones de estudio genético respaldadas por guías se limitan a las variantes raras de gran efecto: la secuenciación de exoma o genoma se recomienda como prueba de primer o segundo nivel en anomalías congénitas, retraso del desarrollo o discapacidad intelectual (Manickam 2021), y las CNV se clasifican en cinco categorías según la norma conjunta ACMG-ClinGen (Riggs 2020). La farmacogenética es el único ámbito de aplicación inmediata: el consenso de la ISPG respalda el genotipado de dos genes del citocromo P450 para orientar la elección y la dosificación de varios antidepresivos y antipsicóticos de uso común, y de genes HLA con carbamazepina, oxcarbazepina y fenitoína (Bousman 2021), con recomendaciones operativas de CPIC (Bousman 2023) y DPWG (Brouwer 2022; Beunk 2024). Como todas las personas portan un número mayor o menor de variantes de riesgo para cada trastorno (Andreassen 2023), el riesgo se comunica como probabilidad poblacional dentro del asesoramiento genético.",
+     "links": [
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      },
+      {
+       "ids": [
+        "cnv",
+        "del22q"
+       ],
+       "t": "variantes raras de gran efecto"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "cyp2c19",
+        "cpic_isrs"
+       ],
+       "t": "farmacogenética"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Las variantes comunes identificadas explican solo una parte de la agregación familiar, la llamada heredabilidad perdida, cuyas fuentes siguen en debate (Manolio 2009). Salvo en un subgrupo de personas con TEA, pocas personas con un trastorno psiquiátrico tienen una causa genética única y determinista (Sullivan y Geschwind 2019). La investigación de interacción gen-ambiente se basó sobre todo en genes candidatos, con las limitaciones conocidas, y se está desplazando hacia enfoques genómicos y poligénicos (Assary 2018). El 67 % de los estudios de puntuaciones poligénicas publicados entre 2008 y 2017 incluyó solo participantes de ascendencia europea, y su capacidad predictiva es menor en otras ascendencias (Duncan 2019). En el plano comunicativo, el metaanálisis de 28 estudios experimentales mostró que las explicaciones biogenéticas reducen la culpa atribuida (g de Hedges −0,32) pero aumentan el pesimismo pronóstico (0,26) y quizá el estereotipo de peligrosidad (0,20), este último con posible sesgo de publicación (Kvaale 2013): la palabra «vulnerabilidad» no debe deslizarse hacia el determinismo.",
+     "links": [
+      {
+       "ids": [
+        "gen_candidatos"
+       ],
+       "t": "genes candidatos"
+      },
+      {
+       "ids": [
+        "prs",
+        "prs_clin"
+       ],
+       "t": "puntuaciones poligénicas"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "En España, la Ley 14/2007 de Investigación biomédica regula, exclusivamente en el ámbito sanitario, los análisis genéticos y el tratamiento de datos genéticos de carácter personal (art. 1.2). Exige consentimiento expreso y específico por escrito (art. 48.1), reconoce el derecho a no ser informado (art. 49), somete a deber de secreto permanente a quien accede a datos genéticos (art. 51.1) y prohíbe la discriminación por características genéticas o por negarse a un análisis genético (art. 6). Las pruebas que detectan predisposición o susceptibilidad solo pueden hacerse con fines médicos o de investigación médica y con asesoramiento genético cuando esté indicado (art. 9.3; Convenio de Oviedo, art. 12), y los datos genéticos de carácter personal no pueden utilizarse con fines comerciales (art. 45.c). La Ley 15/2022 incluye la «predisposición genética a sufrir patologías y trastornos» entre los motivos de discriminación prohibidos (art. 2.1). Las pruebas directas al consumidor que informan de «riesgos» psiquiátricos quedan fuera del circuito de asesoramiento y acreditación que la ley exige a los análisis con fines sanitarios (arts. 55 y 56) [fuente no localizada para su encaje jurídico concreto], y la reinterpretación de sus datos brutos por terceros genera resultados patogénicos espurios (Horton 2019).",
+     "links": [
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "PRS como prueba clínica"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "discriminación"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "uso pericial"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sullivan PF et al. (2018). Psychiatric genomics: an update and an agenda. Am J Psychiatry 175:15-27 · PMID 28969442",
+    "Manickam K et al. (2021). Exome and genome sequencing for pediatric patients with congenital anomalies or intellectual disability: an evidence-based clinical guideline of the American College of Medical Genetics and Genomics (ACMG). Genet Med 23:2029-2037 · PMID 34211152",
+    "Riggs ER et al. (2020). Technical standards for the interpretation and reporting of constitutional copy-number variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics (ACMG) and the Clinical Genome Resource (ClinGen). Genet Med 22:245-257 · PMID 31690835",
+    "Bousman CA et al. (2021). Review and consensus on pharmacogenomic testing in psychiatry. Pharmacopsychiatry 54:5-17 · PMID 33147643",
+    "Andreassen OA et al. (2023). New insights from the last decade of research in psychiatric genetics: discoveries, challenges and clinical implications. World Psychiatry 22:4-24 · PMID 36640404",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Sullivan PF & Geschwind DH (2019). Defining the genetic, genomic, cellular, and diagnostic architectures of psychiatric disorders. Cell 177:162-183 · PMID 30901538",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861",
+    "Horton R et al. (2019). Direct-to-consumer genetic testing with third party interpretation: beware of spurious results. Emerg Top Life Sci 3:669-674 · PMID 32915220",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Instrumento de ratificación del Convenio para la protección de los derechos humanos y la dignidad del ser humano con respecto a las aplicaciones de la Biología y la Medicina (Convenio relativo a los derechos humanos y la biomedicina), hecho en Oviedo el 4 de abril de 1997 (1999), arts. 11 y 12. BOE-A-1999-20638",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "estigma",
+    "cyp2c19",
+    "cpic_isrs"
+   ]
+  },
+  "hered_esq": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Ninguna prueba genética está indicada de forma sistemática en la esquizofrenia; la información útil procede de los riesgos empíricos familiares ya recogidos en la ficha. La excepción son las variantes raras: en el mayor estudio colaborativo sobre la deleción 22q11.2 (1 402 portadores), el 41 % de los adultos mayores de 25 años presentaba un trastorno psicótico (Schneider 2014), y la penetrancia global de las CNV asociadas a esquizofrenia para cualquier trastorno oscila entre el 10,6 % y el 100 %, con la mayor parte del riesgo dirigido a trastornos de inicio precoz (Kirov 2014). Ante rasgos sindrómicos, discapacidad intelectual o malformaciones, el estudio de CNV y su clasificación siguen la norma ACMG-ClinGen (Riggs 2020). En farmacogenética, la guía DPWG recomienda adaptar la pauta según el fenotipo metabolizador CYP2D6 previsto para aripiprazol, brexpiprazol, haloperidol, pimozida, risperidona y zuclopentixol, no requiere ninguna acción para clozapina, olanzapina o quetiapina con CYP2D6 ni para clozapina u olanzapina con CYP1A2, y reserva el genotipado previo a la valoración individual, no a todos los pacientes (Beunk 2024). La elección del antipsicótico la marcan las guías clínicas; la farmacogenética solo informa el ajuste.",
+     "links": [
+      {
+       "ids": [
+        "del22q",
+        "cnv_16p_1q"
+       ],
+       "t": "CNV de riesgo"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "clozapina"
+       ],
+       "t": "farmacogenética de antipsicóticos"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El GWAS de 2014 identificó 108 loci en 36 989 casos, con enriquecimiento en genes expresados en el cerebro y en tejidos con funciones inmunitarias (PGC 2014), y la cifra ascendió después a 287 loci (ficha), pero el número de loci no equivale a capacidad predictiva individual. La revisión de 25 genes candidatos históricos (COMT, DISC1, DTNBP1, NRG1, entre otros) concluyó que esa literatura no aportó conocimientos claros, probablemente por falta de potencia estadística (Farrell 2015), y como grupo esos genes no se asocian a la esquizofrenia más que conjuntos control de genes no candidatos (Johnson 2017). La concordancia monocigótica de un tercio (ficha) deja amplio espacio a factores ambientales y estocásticos, y la investigación de interacción gen-ambiente, basada sobre todo en genes candidatos, solo recientemente ha adoptado enfoques genómicos (Assary 2018). Las puntuaciones poligénicas pierden rendimiento fuera de la ascendencia europea (Duncan 2019). Las explicaciones biogenéticas aumentan el pesimismo pronóstico y, posiblemente, el estereotipo de peligrosidad (Kvaale 2013), un riesgo especialmente grave en la esquizofrenia.",
+     "links": [
+      {
+       "ids": [
+        "gen_candidatos"
+       ],
+       "t": "genes candidatos"
+      },
+      {
+       "ids": [
+        "gwas_pgc"
+       ],
+       "t": "GWAS del PGC"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "La información genética en la esquizofrenia afecta a toda la familia. La Ley 14/2007 exige el consentimiento expreso y escrito de todos los interesados para ceder a terceros datos que puedan revelar información de familiares (art. 5.2), ordena comunicar de forma individualizada los resultados de los análisis hechos a varios miembros de una familia (art. 51.2) y, cuando la persona ha ejercido su derecho a no ser informada, solo permite informar a familiares biológicos si es necesario para evitarles un grave perjuicio para la salud (art. 49.2). En las decisiones reproductivas, el asesoramiento debe respetar en todo caso el criterio de la persona interesada (art. 55.1). Ningún dato genético, sea una CNV o una puntuación poligénica, permite inferir peligrosidad, imputabilidad o credibilidad en un procedimiento judicial [fuente no localizada], y la discriminación por características genéticas está prohibida (Ley 14/2007, art. 6; Ley 15/2022, art. 2.1). Empresas privadas ofrecen ya cribado poligénico de embriones para riesgos psiquiátricos, una práctica sobre la que la ISPG ha pedido cautela, más investigación y supervisión (Lencz 2022).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "pericia y genética"
+      },
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "PRS y embriones"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "discriminación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Schneider M et al. (2014). Psychiatric disorders from childhood to adulthood in 22q11.2 deletion syndrome: results from the International Consortium on Brain and Behavior in 22q11.2 Deletion Syndrome. Am J Psychiatry 171:627-639 · PMID 24577245",
+    "Kirov G et al. (2014). The penetrance of copy number variations for schizophrenia and developmental delay. Biol Psychiatry 75:378-385 · PMID 23992924",
+    "Riggs ER et al. (2020). Technical standards for the interpretation and reporting of constitutional copy-number variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics (ACMG) and the Clinical Genome Resource (ClinGen). Genet Med 22:245-257 · PMID 31690835",
+    "Beunk L et al. (2024). Dutch Pharmacogenetics Working Group (DPWG) guideline for the gene-drug interaction between CYP2D6, CYP3A4 and CYP1A2 and antipsychotics. Eur J Hum Genet 32:278-285 · PMID 37002327",
+    "Schizophrenia Working Group of the Psychiatric Genomics Consortium (2014). Biological insights from 108 schizophrenia-associated genetic loci. Nature 511:421-427 · PMID 25056061",
+    "Farrell MS et al. (2015). Evaluating historical candidate genes for schizophrenia. Mol Psychiatry 20:555-562 · PMID 25754081",
+    "Johnson EC et al. (2017). No evidence that schizophrenia candidate genes are more associated with schizophrenia than noncandidate genes. Biol Psychiatry 82:702-708 · PMID 28823710",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861",
+    "Lencz T et al. (2022). Concerns about the use of polygenic embryo screening for psychiatric and cognitive traits. Lancet Psychiatry 9:838-844 · PMID 35931093",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "estigma",
+    "perit_forense",
+    "cyp2d6"
+   ]
+  },
+  "hered_bip": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El dato genético de mayor valor clínico en el trastorno bipolar es la historia familiar, que orienta el diagnóstico diferencial de un episodio depresivo (ficha de indicadores de bipolaridad). La arquitectura genética distingue parcialmente los subtipos: el bipolar I se correlaciona genéticamente con la esquizofrenia, impulsado por la psicosis, mientras que el bipolar II se correlaciona más con la depresión mayor (Stahl 2019), y la puntuación poligénica de esquizofrenia se asocia a rasgos psicóticos y a la edad de inicio dentro del trastorno bipolar (Ruderfer 2018). En la respuesta al litio, el GWAS de 2 563 pacientes del consorcio ConLiGen identificó un locus en el cromosoma 21 (Hou 2016), y una mayor carga poligénica de esquizofrenia se asoció inversamente con la respuesta (ConLi+Gen 2018); ninguno de estos hallazgos sirve hoy para decidir la prescripción. Con carbamazepina y oxcarbazepina, el consenso de la ISPG respalda el estudio de genes HLA (Bousman 2021). El riesgo para la descendencia se comunica con las cifras empíricas de registro dentro del asesoramiento genético.",
+     "links": [
+      {
+       "ids": [
+        "ind_bipdep"
+       ],
+       "t": "indicadores de bipolaridad"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      },
+      {
+       "ids": [
+        "gradiente_pg",
+        "tb1",
+        "tb2"
+       ],
+       "t": "subtipos y gradiente poligénico"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La diferencia entre la heredabilidad estimada en gemelos y en registros, ya recogida en la ficha, muestra la dependencia del método. En el GWAS de 2019, ocho de las 19 variantes significativas en la fase de descubrimiento dejaron de serlo en el análisis combinado, lo que es compatible con efectos pequeños, potencia limitada y heterogeneidad genética (Stahl 2019). Los marcadores de respuesta al litio proceden de valoraciones retrospectivas con la escala de Alda y su confirmación prospectiva es limitada (Hou 2016) [fuente no localizada para el estado actual de replicación]. Las muestras son de ascendencia europea (Stahl 2019) y las puntuaciones poligénicas pierden rendimiento en otras poblaciones (Duncan 2019). Las variantes comunes explican solo una parte de la agregación familiar (Manolio 2009), y la investigación de interacción gen-ambiente solo recientemente ha incorporado enfoques genómicos (Assary 2018). Las correlaciones genéticas con la esquizofrenia no justifican tratar ambos diagnósticos como intercambiables en la clínica individual.",
+     "links": [
+      {
+       "ids": [
+        "pleiotropia"
+       ],
+       "t": "pleiotropía"
+      },
+      {
+       "ids": [
+        "cbipesq"
+       ],
+       "t": "continuo bipolar-esquizofrénico"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "El trastorno bipolar plantea con frecuencia decisiones reproductivas y de planificación del embarazo (fichas de embarazo): el asesoramiento sobre el riesgo de recurrencia en la descendencia debe respetar en todo caso el criterio de la persona interesada (Ley 14/2007, art. 55.1) y distinguir el riesgo genético del riesgo farmacológico. Un análisis genético con fines sanitarios requiere consentimiento expreso y específico por escrito (art. 48.1). Un genotipo HLA o de metabolizador es información compartida con familiares biológicos; su revelación a terceros exige el consentimiento expreso y escrito de la persona (art. 51.1) y, si afecta a familiares, de todos los interesados (art. 5.2). Durante un episodio maníaco o depresivo grave la capacidad para consentir puede estar comprometida, por lo que conviene diferir los análisis no urgentes [fuente no localizada]. La predisposición genética no puede fundamentar ninguna discriminación (Ley 14/2007, art. 6; Ley 15/2022, art. 2.1), y los datos genéticos de carácter personal no pueden usarse con fines comerciales (Ley 14/2007, art. 45.c).",
+     "links": [
+      {
+       "ids": [
+        "tb_embarazo",
+        "litio_embarazo"
+       ],
+       "t": "embarazo y litio"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Stahl EA et al. (2019). Genome-wide association study identifies 30 loci associated with bipolar disorder. Nat Genet 51:793-803 · PMID 31043756",
+    "Bipolar Disorder and Schizophrenia Working Group of the Psychiatric Genomics Consortium (2018). Genomic dissection of bipolar disorder and schizophrenia, including 28 subphenotypes. Cell 173:1705-1715 · PMID 29906448",
+    "Hou L et al. (2016). Genetic variants associated with response to lithium treatment in bipolar disorder: a genome-wide association study. Lancet 387:1085-1093 · PMID 26806518",
+    "International Consortium on Lithium Genetics (ConLi+Gen) (2018). Association of polygenic score for schizophrenia and HLA antigen and inflammation genes with response to lithium in bipolar affective disorder: a genome-wide association study. JAMA Psychiatry 75:65-74 · PMID 29121268",
+    "Bousman CA et al. (2021). Review and consensus on pharmacogenomic testing in psychiatry. Pharmacopsychiatry 54:5-17 · PMID 33147643",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "lm_bip",
+    "tb_embarazo"
+   ]
+  },
+  "hered_dep": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La genética de la depresión no cambia hoy el diagnóstico, pero puede informar la prescripción. La guía CPIC de 2023 formula recomendaciones según CYP2D6, CYP2C19 y CYP2B6 para los antidepresivos inhibidores de la recaptación de serotonina y concluye que los datos sobre SLC6A4 y HTR2A no respaldan su uso clínico (Bousman 2023). La guía DPWG clasifica el genotipado de CYP2C19 antes de escitalopram, citalopram y sertralina, y de CYP2D6 antes de paroxetina, como «potencialmente beneficioso», a valorar de forma individual (Brouwer 2022); para los tricíclicos existe guía CPIC basada en CYP2D6 y CYP2C19 (Hicks 2017). El GWAS de 135 458 casos identificó 44 loci, mostró relaciones genéticas con el nivel educativo, el índice de masa corporal y la esquizofrenia y concluyó que todas las personas portan un número mayor o menor de factores de riesgo genético, compatible con un continuo de riesgo subyacente al fenotipo clínico (Wray 2018). La historia familiar de depresión recurrente y de bipolaridad sigue siendo el dato genético más útil en la consulta.",
+     "links": [
+      {
+       "ids": [
+        "cpic_isrs",
+        "cyp2c19",
+        "cyp2d6"
+       ],
+       "t": "farmacogenética de antidepresivos"
+      },
+      {
+       "ids": [
+        "ind_bipdep"
+       ],
+       "t": "bipolaridad en la depresión"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los genes candidatos clásicos, como 5-HTTLPR, no se confirmaron en muestras grandes (ficha). La heterogeneidad del fenotipo depresivo reduce la potencia de los estudios y explica en parte la menor heredabilidad. Las inferencias causales del GWAS, que señalan el menor nivel educativo y el mayor índice de masa corporal como factores putativamente causales (Wray 2018), dependen de supuestos metodológicos no comprobables por completo [fuente no localizada para la crítica metodológica]. La utilidad de los paneles farmacogenéticos combinatorios comerciales no está demostrada (ficha correspondiente), y las guías CPIC y DPWG se refieren a pares gen-fármaco concretos, no a algoritmos propietarios. La interacción entre riesgo genético y sucesos vitales, paradigma de la investigación gen-ambiente, se apoyó en genes candidatos y solo recientemente se aborda con enfoques genómicos y poligénicos (Assary 2018). La ascendencia europea predominante limita la transferencia de los resultados (Duncan 2019). Una lectura biogenética de la depresión puede reducir la culpa, pero aumenta el pesimismo pronóstico (Kvaale 2013).",
+     "links": [
+      {
+       "ids": [
+        "gen_candidatos",
+        "stres_vital"
+       ],
+       "t": "genes candidatos y estrés"
+      },
+      {
+       "ids": [
+        "panel_fg"
+       ],
+       "t": "paneles comerciales"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "Los tests farmacogenéticos de antidepresivos se ofrecen también fuera del sistema sanitario. Según la Ley 14/2007, los análisis genéticos con fines sanitarios requieren consentimiento expreso y específico por escrito (art. 48.1), asesoramiento genético apropiado (art. 55), personal cualificado y centros acreditados (arts. 56 y 57); el art. 9.3 contempla expresamente el estudio de las diferencias interindividuales en la respuesta a los fármacos. Un genotipo de metabolizador es información permanente que afecta a otros tratamientos y a familiares: los profesionales del centro donde se conserva la historia clínica acceden a él en tanto sea pertinente para la asistencia (art. 50.1), y su revelación a terceros requiere consentimiento expreso y escrito (art. 51.1). La mayor heredabilidad estimada en mujeres que en hombres (ficha) es una diferencia poblacional que no autoriza lecturas esencialistas sobre el sexo o el género [fuente no localizada]. La depresión no debe presentarse como un destino genético: el ambiente individual explica la mayor parte de la varianza (ficha), y la predisposición genética no puede motivar discriminación (Ley 15/2022, art. 2.1).",
+     "links": [
+      {
+       "ids": [
+        "panel_fg"
+       ],
+       "t": "paneles comerciales"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "diversidad sexual y de género"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Brouwer JMJL et al. (2022). Dutch Pharmacogenetics Working Group (DPWG) guideline for the gene-drug interaction between CYP2C19 and CYP2D6 and SSRIs. Eur J Hum Genet 30:1114-1120 · PMID 34782755",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "Wray NR et al. (2018). Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression. Nat Genet 50:668-681 · PMID 29700475",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "panel_fg",
+    "cyp2c19"
+   ]
+  },
+  "hered_tdah": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "No existe una prueba genética diagnóstica del TDAH y el estudio genético rutinario no está indicado [fuente no localizada para una recomendación expresa]; la excepción son los rasgos sindrómicos, la discapacidad intelectual o las anomalías congénitas, en los que la ACMG recomienda considerar la secuenciación de exoma o genoma como prueba de primer o segundo nivel (Manickam 2021). En el mayor estudio de la deleción 22q11.2, el TDAH fue el trastorno más frecuente en la infancia (37,1 %) (Schneider 2014), lo que justifica valorar el TDAH en ese síndrome, no estudiar la deleción en todo TDAH. La farmacogenética relevante se limita a la atomoxetina con CYP2D6 (ficha) y, cuando coexisten depresión o ansiedad, a los antidepresivos (Bousman 2023). El TDAH se agrupa genéticamente con otros trastornos del neurodesarrollo (ficha de pleiotropía) dentro de uno de los cuatro factores genéticos amplios descritos para once trastornos (Grotzinger 2022), lo que apoya explorar el TEA y otras condiciones del neurodesarrollo en la evaluación. El riesgo de recurrencia se comunica a partir de los datos familiares.",
+     "links": [
+      {
+       "ids": [
+        "atomoxetina",
+        "no_estim_tdah"
+       ],
+       "t": "atomoxetina"
+      },
+      {
+       "ids": [
+        "del22q"
+       ],
+       "t": "deleción 22q11.2"
+      },
+      {
+       "ids": [
+        "hered_tea",
+        "pleiotropia"
+       ],
+       "t": "solapamiento con TEA"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La heredabilidad del 74 % es una estimación poblacional: no indica qué parte del TDAH de una persona es genética ni excluye efectos ambientales relevantes, como la prematuridad (ficha correspondiente). Las variantes comunes explican alrededor de un tercio de esa heredabilidad (ficha) y el resto sigue sin identificar, como en otros rasgos complejos (Manolio 2009). Los estudios de genes candidatos e interacción gen-ambiente que dominaron la literatura, entre ellos los dopaminérgicos, comparten las limitaciones de esa era (Assary 2018). Las puntuaciones poligénicas de TDAH derivan de muestras sobre todo europeas y pierden rendimiento en otras ascendencias (Duncan 2019). Que el riesgo poligénico se asocie a rasgos cognitivos en la población general (ficha) no autoriza a usarlo para clasificar a menores en el ámbito escolar. La existencia de un continuo genético entre rasgos y diagnóstico no resuelve dónde situar el umbral clínico.",
+     "links": [
+      {
+       "ids": [
+        "prematuridad",
+        "confus_fam_prenat"
+       ],
+       "t": "factores ambientales y confusión familiar"
+      },
+      {
+       "ids": [
+        "prs"
+       ],
+       "t": "puntuaciones poligénicas"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "La mayoría de los análisis genéticos relacionados con el TDAH se plantean en menores. La Ley 14/2007 exige consentimiento expreso y específico por escrito (art. 48.1) y, cuando se analizan varios miembros de una familia, la comunicación individualizada de resultados, que en menores se dirige a sus tutores o representantes legales (art. 51.2); conviene implicar al niño, la niña o el adolescente según su madurez [fuente no localizada para la norma asistencial aplicable]. Las pruebas de predisposición solo pueden hacerse con fines médicos o de investigación médica (art. 9.3; Convenio de Oviedo, art. 12), lo que excluye su uso para la selección escolar o deportiva. La Ley 15/2022 prohíbe la discriminación por predisposición genética (art. 2.1), también en el acceso al empleo y las condiciones de trabajo (art. 9). Las pruebas directas al consumidor que ofrecen perfiles de «talento» infantil proporcionan información de calidad dudosa y su reinterpretación por terceros genera resultados espurios (Horton 2019).",
+     "links": [
+      {
+       "ids": [
+        "tdah_adulto"
+       ],
+       "t": "TDAH en la edad adulta"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "discriminación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Manickam K et al. (2021). Exome and genome sequencing for pediatric patients with congenital anomalies or intellectual disability: an evidence-based clinical guideline of the American College of Medical Genetics and Genomics (ACMG). Genet Med 23:2029-2037 · PMID 34211152",
+    "Schneider M et al. (2014). Psychiatric disorders from childhood to adulthood in 22q11.2 deletion syndrome: results from the International Consortium on Brain and Behavior in 22q11.2 Deletion Syndrome. Am J Psychiatry 171:627-639 · PMID 24577245",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Grotzinger AD et al. (2022). Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis. Nat Genet 54:548-559 · PMID 35513722",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Horton R et al. (2019). Direct-to-consumer genetic testing with third party interpretation: beware of spurious results. Emerg Top Life Sci 3:669-674 · PMID 32915220",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Instrumento de ratificación del Convenio para la protección de los derechos humanos y la dignidad del ser humano con respecto a las aplicaciones de la Biología y la Medicina (Convenio relativo a los derechos humanos y la biomedicina), hecho en Oviedo el 4 de abril de 1997 (1999), arts. 11 y 12. BOE-A-1999-20638",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "atomoxetina",
+    "estigma"
+   ]
+  },
+  "hered_tea": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El TEA es la condición del neurodesarrollo con indicaciones genéticas más sólidas. La ACMG recomienda considerar la secuenciación de exoma o genoma como prueba de primer o segundo nivel en anomalías congénitas, retraso del desarrollo o discapacidad intelectual, por su mayor rendimiento diagnóstico frente a las pruebas estándar, su posible mejor coste-efectividad si se solicita pronto y su utilidad en el manejo clínico y en los resultados familiares y reproductivos (Manickam 2021); la guía específica del TEA y el consenso sobre microarray ya figuran en la ficha. Las CNV se clasifican con el sistema de cinco categorías de la ACMG y ClinGen, que separa la clasificación de la variante de sus implicaciones para cada persona (Riggs 2020). Las CNV asociadas a esquizofrenia tienen una penetrancia varias veces mayor para retraso del desarrollo, TEA o malformaciones que para la propia esquizofrenia (Kirov 2014). Un resultado positivo permite asesorar sobre la recurrencia y vigilar las comorbilidades del síndrome identificado; no sustituye ni modifica los apoyos psicoeducativos y conductuales.",
+     "links": [
+      {
+       "ids": [
+        "x_fragil",
+        "cnv_16p_1q",
+        "del22q"
+       ],
+       "t": "causas genéticas identificables"
+      },
+      {
+       "ids": [
+        "di"
+       ],
+       "t": "discapacidad intelectual"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Salvo en un subgrupo de personas con TEA, pocas personas con un trastorno psiquiátrico tienen una causa genética única y determinista (Sullivan y Geschwind 2019); incluso con estudio completo, en la mayoría de las personas autistas no se identifica una variante causal [fuente no localizada para la cifra]. La clasificación de las CNV incluye la categoría de significado incierto y se basa en un marco cuantitativo de evidencia (Riggs 2020); la interpretación puede cambiar al acumularse datos [fuente no localizada]. Las estimaciones de heredabilidad oscilan según el método y los supuestos (ficha). Las puntuaciones poligénicas derivan de muestras de ascendencia europea y pierden rendimiento en otras (Duncan 2019), y las variantes comunes de efecto pequeño carecen de utilidad predictiva individual. La heredabilidad elevada no informa sobre el grado de apoyo que necesitará cada persona ni sobre su pronóstico funcional.",
+     "links": [
+      {
+       "ids": [
+        "prs"
+       ],
+       "t": "puntuaciones poligénicas"
+      },
+      {
+       "ids": [
+        "neurodev"
+       ],
+       "t": "neurodesarrollo"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "Los estudios genéticos del TEA se hacen a menudo en menores y tienen implicaciones para hermanos y progenitores. La Ley 14/2007 exige consentimiento expreso y específico por escrito (art. 48.1), comunicación individualizada de resultados a cada familiar y, en menores, a sus tutores o representantes legales (art. 51.2), y asesoramiento genético apropiado que respete el criterio de la persona interesada (art. 55). La secuenciación de exoma o genoma puede revelar hallazgos inesperados: en investigación, la ley obliga a advertir de esa posibilidad y de la facultad de decidir si se reciben (art. 47.4), y en la asistencia rige el derecho a no ser informado (art. 49). El lenguaje debe evitar presentar a las personas autistas como defectos que corregir y respetar la perspectiva de la neurodiversidad [fuente no localizada]. El cribado poligénico de embriones para rasgos psiquiátricos y cognitivos plantea problemas científicos y éticos sobre los que la ISPG pide cautela (Lencz 2022), y la Ley 15/2022 prohíbe la discriminación por predisposición genética (art. 2.1).",
+     "links": [
+      {
+       "ids": [
+        "tea_adulto"
+       ],
+       "t": "TEA en la edad adulta"
+      },
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "PRS y embriones"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Manickam K et al. (2021). Exome and genome sequencing for pediatric patients with congenital anomalies or intellectual disability: an evidence-based clinical guideline of the American College of Medical Genetics and Genomics (ACMG). Genet Med 23:2029-2037 · PMID 34211152",
+    "Riggs ER et al. (2020). Technical standards for the interpretation and reporting of constitutional copy-number variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics (ACMG) and the Clinical Genome Resource (ClinGen). Genet Med 22:245-257 · PMID 31690835",
+    "Kirov G et al. (2014). The penetrance of copy number variations for schizophrenia and developmental delay. Biol Psychiatry 75:378-385 · PMID 23992924",
+    "Sullivan PF & Geschwind DH (2019). Defining the genetic, genomic, cellular, and diagnostic architectures of psychiatric disorders. Cell 177:162-183 · PMID 30901538",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Lencz T et al. (2022). Concerns about the use of polygenic embryo screening for psychiatric and cognitive traits. Lancet Psychiatry 9:838-844 · PMID 35931093",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "asesor_genet",
+    "estigma"
+   ]
+  },
+  "hered_toc": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La genética del TOC no tiene todavía aplicación diagnóstica. El metaanálisis GWAS de 53 660 casos y 2 044 417 controles identificó 30 loci independientes y 249 posibles genes efectores, estimó que unas 11 500 variantes explican el 90 % de la heredabilidad genética del TOC y halló riesgo genético compartido con 65 de 112 fenotipos, entre ellos todos los trastornos psiquiátricos examinados y, en particular, ansiedad, depresión, anorexia nerviosa y síndrome de Tourette (Strom 2025). Este solapamiento respalda la exploración sistemática de esas comorbilidades en quien consulta y en sus familiares. Cuando se prescriben inhibidores de la recaptación de serotonina, existen recomendaciones farmacogenéticas de CPIC (Bousman 2023) y de DPWG (Brouwer 2022) basadas en CYP2D6 y CYP2C19, mientras que la guía CPIC no respalda el uso clínico de SLC6A4 ni de HTR2A (Bousman 2023). La comunicación del riesgo familiar se apoya en el estudio poblacional sueco recogido en la ficha, con su riesgo proporcional al grado de parentesco.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "toc_neuro"
+       ],
+       "t": "TOC: clínica y neurobiología"
+      },
+      {
+       "ids": [
+        "tourette",
+        "hered_an"
+       ],
+       "t": "comorbilidad genética"
+      },
+      {
+       "ids": [
+        "cpic_isrs"
+       ],
+       "t": "guía CPIC"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Hasta 2018, el mayor metaanálisis (2 688 casos de ascendencia europea y 7 037 controles) no halló ninguna variante con significación genómica, estimó una heredabilidad SNP de 0,28 y las puntuaciones poligénicas de cada estudio explicaron solo el 0,9 % y el 0,3 % de la varianza fenotípica en la otra muestra (IOCDF-GC y OCGAS 2018). Que el número de loci pase de cero a 30 refleja sobre todo el aumento del tamaño muestral, no un cambio en el efecto de cada variante, que sigue siendo pequeño. Las estimaciones de gemelos se basaron sobre todo en medidas dimensionales y no en diagnósticos (ficha), y el riesgo elevado en parejas no biológicas (ficha) indica emparejamiento selectivo, que puede sesgar las estimaciones genéticas [fuente no localizada para la magnitud del sesgo]. Las puntuaciones poligénicas pierden rendimiento fuera de la ascendencia europea (Duncan 2019). Los factores ambientales no compartidos pesan al menos tanto como los genéticos (ficha), y la investigación gen-ambiente se ha apoyado en genes candidatos de replicación limitada (Assary 2018).",
+     "links": [
+      {
+       "ids": [
+        "gen_candidatos"
+       ],
+       "t": "genes candidatos"
+      },
+      {
+       "ids": [
+        "prs"
+       ],
+       "t": "puntuaciones poligénicas"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "La información genética puede alimentar en algunas personas con TOC dudas, culpa o comprobaciones sobre la transmisión a la descendencia, y la búsqueda repetida de pruebas puede funcionar como una conducta de neutralización [fuente no localizada]; el asesoramiento debe evitar que la prueba se convierta en un ritual. Ningún test genético predice hoy el TOC, de modo que una prueba predictiva carecería de la finalidad médica que exige la ley (Ley 14/2007, art. 9.3; Convenio de Oviedo, art. 12). Los análisis con fines sanitarios requieren consentimiento expreso y específico por escrito (art. 48.1) y asesoramiento genético apropiado (art. 55), y la persona conserva el derecho a no ser informada (art. 49). El solapamiento genético con Tourette o con anorexia no debe utilizarse para etiquetar a familiares asintomáticos. La predisposición genética no puede motivar discriminación (Ley 14/2007, art. 6; Ley 15/2022, art. 2.1), y las pruebas directas al consumidor que ofrecen perfiles de riesgo proporcionan información de calidad dudosa (Horton 2019).",
+     "links": [
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "discriminación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Strom NI et al. (2025). Genome-wide analyses identify 30 loci associated with obsessive-compulsive disorder. Nat Genet 57:1389-1401 · PMID 40360802",
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Brouwer JMJL et al. (2022). Dutch Pharmacogenetics Working Group (DPWG) guideline for the gene-drug interaction between CYP2C19 and CYP2D6 and SSRIs. Eur J Hum Genet 30:1114-1120 · PMID 34782755",
+    "International Obsessive Compulsive Disorder Foundation Genetics Collaborative (IOCDF-GC) and OCD Collaborative Genetics Association Studies (OCGAS) (2018). Revealing the complex genetic architecture of obsessive-compulsive disorder using meta-analysis. Mol Psychiatry 23:1181-1188 · PMID 28761083",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Horton R et al. (2019). Direct-to-consumer genetic testing with third party interpretation: beware of spurious results. Emerg Top Life Sci 3:669-674 · PMID 32915220",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Instrumento de ratificación del Convenio para la protección de los derechos humanos y la dignidad del ser humano con respecto a las aplicaciones de la Biología y la Medicina (Convenio relativo a los derechos humanos y la biomedicina), hecho en Oviedo el 4 de abril de 1997 (1999), arts. 11 y 12. BOE-A-1999-20638",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "cpic_isrs",
+    "asesor_genet"
+   ]
+  },
+  "hered_an": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La genética de la anorexia nerviosa no tiene aplicación diagnóstica ni terapéutica, pero cambia el modo de explicar el trastorno. El primer GWAS con un locus significativo, en 3 495 casos y 10 982 controles, estimó una heredabilidad SNP de 0,20 y halló correlaciones genéticas positivas con esquizofrenia, neuroticismo, nivel educativo y colesterol HDL, y negativas con índice de masa corporal, insulina, glucosa y lípidos, y sus autores propusieron una etiología a la vez psiquiátrica y metabólica (Duncan 2017), ampliada después por el GWAS de 2019 recogido en la ficha. El TOC comparte riesgo genético con la anorexia nerviosa (Strom 2025), lo que apoya explorar síntomas obsesivo-compulsivos. Explicar a la persona y a su familia que existe un componente heredable puede reducir la atribución de culpa, pero debe hacerse sin transmitir pesimismo pronóstico (Kvaale 2013). La rehabilitación nutricional y las psicoterapias con evidencia siguen siendo el tratamiento (ficha).",
+     "links": [
+      {
+       "ids": [
+        "anor"
+       ],
+       "t": "anorexia nerviosa"
+      },
+      {
+       "ids": [
+        "hered_toc"
+       ],
+       "t": "relación con el TOC"
+      },
+      {
+       "ids": [
+        "apetito_sx",
+        "inmunometab_dep"
+       ],
+       "t": "vertiente metabólica"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La heredabilidad de gemelos tiene un intervalo de confianza muy amplio (ficha), y la heredabilidad SNP de 0,20 (Duncan 2017) deja sin identificar buena parte de la contribución genética, como en otros rasgos complejos (Manolio 2009). Las correlaciones genéticas metabólicas son hallazgos estadísticos cuyo mecanismo no se conoce, y la hipótesis metabo-psiquiátrica no se ha traducido todavía en intervenciones [fuente no localizada]. Las muestras son de ascendencia europea y mayoritariamente de mujeres, por lo que los resultados no pueden generalizarse sin más a hombres, a personas trans o no binarias ni a otras ascendencias [fuente no localizada para la composición por sexo]; la transferencia de puntuaciones poligénicas entre ascendencias es limitada (Duncan 2019). La genética no mide los factores socioculturales ni las presiones sobre el cuerpo, que siguen siendo relevantes, y la investigación gen-ambiente específica es escasa [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "pleiotropia"
+       ],
+       "t": "correlaciones genéticas"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "diversidad sexual y de género"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "La anorexia nerviosa afecta a menudo a adolescentes. Un análisis genético requiere consentimiento expreso y específico por escrito (Ley 14/2007, art. 48.1) y, en menores, la comunicación de los resultados a sus tutores o representantes legales (art. 51.2); la desnutrición grave puede comprometer la capacidad de decisión y obliga a valorarla antes de cualquier prueba no urgente [fuente no localizada]. Los datos genéticos están sometidos a deber de secreto permanente (art. 51.1) y no pueden usarse con fines comerciales (art. 45.c), algo relevante ante los servicios directos al consumidor de nutrigenética, cuya información es de calidad dudosa (Horton 2019). Las explicaciones genéticas no deben presentarse como destino ni ofrecer argumentos que refuercen la restricción alimentaria [fuente no localizada]. En personas trans o no binarias, la evaluación debe distinguir la restricción alimentaria del malestar corporal relacionado con el género sin patologizar la identidad [fuente no localizada]. La predisposición genética no puede motivar discriminación (Ley 15/2022, art. 2.1).",
+     "links": [
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "despatologización de la identidad"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Duncan L et al. (2017). Significant locus and metabolic genetic correlations revealed in genome-wide association study of anorexia nervosa. Am J Psychiatry 174:850-858 · PMID 28494655",
+    "Strom NI et al. (2025). Genome-wide analyses identify 30 loci associated with obsessive-compulsive disorder. Nat Genet 57:1389-1401 · PMID 40360802",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Horton R et al. (2019). Direct-to-consumer genetic testing with third party interpretation: beware of spurious results. Emerg Top Life Sci 3:669-674 · PMID 32915220",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "genero"
+   ]
+  },
+  "gwas_pgc": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Los GWAS del PGC no son pruebas diagnósticas, pero tienen consecuencias clínicas indirectas. Han establecido que los trastornos psiquiátricos son poligénicos y que, salvo en un subgrupo de personas con TEA, pocas personas con un trastorno psiquiátrico tienen una causa genética única y determinista (Sullivan y Geschwind 2019). Han situado la biología en tejidos concretos: en la esquizofrenia, el GWAS de 36 989 casos halló 108 loci con enriquecimiento en genes expresados en el cerebro y, de forma independiente, en tejidos con funciones inmunitarias, además de señales en DRD2 y en genes glutamatérgicos de relevancia terapéutica conocida o potencial (PGC 2014). En la depresión, los 44 loci de 135 458 casos se asociaron a rasgos clínicos, y las dianas de los antidepresivos mostraron un enriquecimiento de señales de menor magnitud (Wray 2018). El programa del PGC persigue hallazgos «accionables» que revelen biología, informen la práctica y ofrezcan nuevas dianas (Sullivan 2018). En la consulta, su aportación principal es un modelo de vulnerabilidad acumulada para el asesoramiento genético.",
+     "links": [
+      {
+       "ids": [
+        "c4_complemento"
+       ],
+       "t": "señal inmunitaria (C4)"
+      },
+      {
+       "ids": [
+        "nmda_psic"
+       ],
+       "t": "vía glutamatérgica"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La significación genómica no equivale a causalidad: los loci deben traducirse a genes, tipos celulares y momentos del desarrollo, una arquitectura funcional y celular todavía poco conocida (Sullivan y Geschwind 2019). Las variantes identificadas explican una fracción de la heredabilidad familiar (Manolio 2009). En el trastorno bipolar, ocho de las 19 señales del descubrimiento no alcanzaron significación en el análisis combinado, lo que es compatible con efectos pequeños, potencia limitada y heterogeneidad genética (Stahl 2019). El 67 % de los estudios de puntuaciones poligénicas de 2008-2017 incluyó solo personas de ascendencia europea y el 3,8 % se hizo en cohortes de ascendencia africana, hispana o indígena (Duncan 2019). La definición del fenotipo mediante autoinforme o registros aumenta el tamaño muestral a costa de heterogeneidad [fuente no localizada]. El fracaso de los genes candidatos clásicos muestra que la plausibilidad biológica previa no garantiza asociación (Farrell 2015).",
+     "links": [
+      {
+       "ids": [
+        "gen_candidatos"
+       ],
+       "t": "genes candidatos"
+      },
+      {
+       "ids": [
+        "prs",
+        "prs_clin"
+       ],
+       "t": "puntuaciones poligénicas"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "Los GWAS dependen de grandes biobancos y del intercambio internacional de datos. En España, la obtención de muestras biológicas con fines de investigación biomédica requiere consentimiento escrito y revocable (Ley 14/2007, art. 58.1); los datos genéticos solo pueden usarse con fines epidemiológicos, de salud pública, de investigación o de docencia con consentimiento expreso o previa anonimización (art. 50.2), y se prohíbe utilizar datos de salud con fines distintos de los consentidos (art. 5.3). Antes de consentir un análisis genético con fines de investigación, la persona debe recibir por escrito la finalidad, el destino de la muestra, quién accederá a los resultados, la posibilidad de descubrimientos inesperados y su implicación para los familiares (art. 47). La Ley Orgánica 3/2018 trata los datos genéticos dentro de las categorías especiales del Reglamento (UE) 2016/679 (disposición adicional decimoséptima). Si no es posible publicar resultados sin identificar a los sujetos fuente, se necesita su consentimiento (Ley 14/2007, art. 51.1). La infrarrepresentación de poblaciones no europeas es también una cuestión de equidad (Duncan 2019).",
+     "links": [
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "implicaciones legales de la PRS"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "equidad y discriminación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sullivan PF & Geschwind DH (2019). Defining the genetic, genomic, cellular, and diagnostic architectures of psychiatric disorders. Cell 177:162-183 · PMID 30901538",
+    "Schizophrenia Working Group of the Psychiatric Genomics Consortium (2014). Biological insights from 108 schizophrenia-associated genetic loci. Nature 511:421-427 · PMID 25056061",
+    "Wray NR et al. (2018). Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression. Nat Genet 50:668-681 · PMID 29700475",
+    "Sullivan PF et al. (2018). Psychiatric genomics: an update and an agenda. Am J Psychiatry 175:15-27 · PMID 28969442",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Stahl EA et al. (2019). Genome-wide association study identifies 30 loci associated with bipolar disorder. Nat Genet 51:793-803 · PMID 31043756",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Farrell MS et al. (2015). Evaluating historical candidate genes for schizophrenia. Mol Psychiatry 20:555-562 · PMID 25754081",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (2018), art. 9 y disposición adicional decimoséptima. BOE-A-2018-16673"
+   ],
+   "relAdd": [
+    "asesor_genet"
+   ]
+  },
+  "pleiotropia": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La pleiotropía tiene tres consecuencias prácticas. Primera, el riesgo familiar no es específico de diagnóstico: los estudios familiares suecos recogidos en las fichas de heredabilidad muestran correlaciones genéticas del bipolar con la depresión y con la esquizofrenia, y el asesoramiento debe reflejarlo. Segunda, las CNV de riesgo son pleiotrópicas: su penetrancia es varias veces mayor para retraso del desarrollo, TEA o malformaciones que para esquizofrenia (Kirov 2014). Tercera, el análisis de 11 trastornos identificó cuatro factores genéticos amplios (neurodesarrollo, compulsivo, psicótico e internalizante) y 152 loci independientes que actúan sobre ellos (Grotzinger 2022), y el TOC comparte riesgo genético con todos los trastornos psiquiátricos examinados (Strom 2025). Los trastornos psiquiátricos comparten además influencias genéticas con estructuras cerebrales, función cognitiva, fenotipos inmunológicos y enfermedad cardiovascular, de posible importancia clínica (Andreassen 2023), lo que refuerza la atención a la salud física y la exploración sistemática de la comorbilidad.",
+     "links": [
+      {
+       "ids": [
+        "hered_bip",
+        "hered_esq"
+       ],
+       "t": "riesgo familiar cruzado"
+      },
+      {
+       "ids": [
+        "cnv_16p_1q",
+        "cnv"
+       ],
+       "t": "CNV pleiotrópicas"
+      },
+      {
+       "ids": [
+        "hered_toc"
+       ],
+       "t": "TOC"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Una correlación genética alta no demuestra mecanismos compartidos: puede reflejar errores de clasificación, heterogeneidad fenotípica o relaciones causales entre trastornos (ficha). Junto a los loci de efecto concordante hay loci de efecto antagónico (ficha), y nueve loci actúan de forma heterogénea dentro de un mismo factor (Grotzinger 2022). Pese a correlaciones moderadas o altas entre los 11 trastornos, una dimensión única de riesgo genético tuvo escasa utilidad tanto en los correlatos biológico-conductuales como en las variantes individuales (Grotzinger 2022), lo que matiza la lectura genética del factor p. Las estimaciones dependen del tamaño y la ascendencia de cada GWAS, desiguales entre trastornos y mayoritariamente europeas (Duncan 2019). La heredabilidad captada por variantes comunes es solo una parte de la heredabilidad familiar (Manolio 2009). Los factores genéticos amplios no equivalen a entidades clínicas validadas.",
+     "links": [
+      {
+       "ids": [
+        "p_factor"
+       ],
+       "t": "factor p"
+      },
+      {
+       "ids": [
+        "smoller_estructura"
+       ],
+       "t": "estructura de la psicopatología"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "La pleiotropía multiplica las implicaciones de cualquier dato genético: un resultado obtenido por un motivo puede informar sobre el riesgo de otros trastornos en la persona y en sus familiares. En investigación, la Ley 14/2007 obliga a advertir de la posibilidad de descubrimientos inesperados, de la facultad de decidir si se reciben y de la implicación de la información para los familiares (art. 47); en todo análisis rige el derecho a no ser informado (art. 49), y ceder datos que revelen información de familiares requiere el consentimiento expreso y escrito de todos los interesados (art. 5.2). Los datos no pueden utilizarse con fines distintos de los consentidos (art. 5.3). En el peritaje, las correlaciones genéticas entre trastornos no permiten atribuir a una persona un diagnóstico distinto del establecido clínicamente [fuente no localizada]. Presentar la pleiotropía como una «vulnerabilidad general» puede estigmatizar a familias enteras; la predisposición genética está protegida frente a la discriminación (Ley 14/2007, art. 6; Ley 15/2022, art. 2.1).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "peritaje"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kirov G et al. (2014). The penetrance of copy number variations for schizophrenia and developmental delay. Biol Psychiatry 75:378-385 · PMID 23992924",
+    "Grotzinger AD et al. (2022). Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis. Nat Genet 54:548-559 · PMID 35513722",
+    "Strom NI et al. (2025). Genome-wide analyses identify 30 loci associated with obsessive-compulsive disorder. Nat Genet 57:1389-1401 · PMID 40360802",
+    "Andreassen OA et al. (2023). New insights from the last decade of research in psychiatric genetics: discoveries, challenges and clinical implications. World Psychiatry 22:4-24 · PMID 36640404",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "cnv",
+    "perit_forense"
+   ]
+  },
+  "smoller_estructura": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo tiene consecuencias más conceptuales que operativas. Si las fronteras genéticas no coinciden con las diagnósticas, la evaluación debe explorar sistemáticamente síntomas transdiagnósticos y no detenerse en el primer diagnóstico categorial. La revisión de la última década concluye que los trastornos psiquiátricos parecen situarse en continuos genéticos y comparten gran parte del riesgo, lo que apoya que los diagnósticos actuales no representan entidades patogénicas diferenciadas, y que las puntuaciones poligénicas todavía no aportan información clínicamente accionable (Andreassen 2023). La estructura de cuatro factores genéticos (neurodesarrollo, compulsivo, psicótico e internalizante) descrita en 11 trastornos (Grotzinger 2022) puede orientar la investigación transdiagnóstica [fuente no localizada para su aplicación terapéutica]. Sullivan y Geschwind (2019) plantean que el solapamiento obliga a reevaluar y refinar la arquitectura diagnóstica con datos genéticos y neurobiológicos; mientras tanto, el diagnóstico sigue siendo clínico.",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp",
+        "rdoc"
+       ],
+       "t": "modelos dimensionales"
+      },
+      {
+       "ids": [
+        "pleiotropia"
+       ],
+       "t": "pleiotropía"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El análisis de 11 trastornos halló escasa utilidad de una dimensión única de riesgo genético común, tanto en los correlatos biológico-conductuales como en las variantes individuales (Grotzinger 2022), lo que matiza los modelos de un factor general. Las estructuras genéticas dependen de qué trastornos disponen de GWAS potentes, de la ascendencia de las muestras (Duncan 2019) y de los criterios diagnósticos con que se definieron los casos, por lo que el argumento corre el riesgo de circularidad [fuente no localizada]. Las variantes comunes explican solo una parte de la heredabilidad (Manolio 2009), y los factores ambientales compartidos entre trastornos no forman parte de estos modelos. Ninguna nosología basada en la genética ha sido validada de forma prospectiva [fuente no localizada]. La comparación con la hipertensión o la hipercolesterolemia (ficha) ilustra la dimensionalidad, pero esos rasgos tienen una medida continua directa de la que la psicopatología carece.",
+     "links": [
+      {
+       "ids": [
+        "p_factor"
+       ],
+       "t": "factor general"
+      },
+      {
+       "ids": [
+        "gwas_pgc"
+       ],
+       "t": "GWAS"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "Una nosología informada por la genética tendría consecuencias jurídicas, porque los diagnósticos fundamentan prestaciones, incapacidades, peritajes y decisiones de aseguradoras. Mientras no exista validación clínica, ningún perfil genético debe sustituir al diagnóstico clínico en informes periciales o administrativos [fuente no localizada]. El uso de datos genéticos para fines distintos de los consentidos está prohibido (Ley 14/2007, art. 5.3), igual que la discriminación por características genéticas o por negarse a un análisis genético (art. 6) y por razón del patrimonio genético (Convenio de Oviedo, art. 11). La reconceptualización dimensional puede reducir la reificación de las categorías, pero también extender la etiqueta de riesgo a personas sin trastorno; la Ley 15/2022 incluye la predisposición genética a sufrir patologías y trastornos entre los motivos de discriminación prohibidos (art. 2.1). Las implicaciones legales de las puntuaciones poligénicas se tratan en su ficha.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "peritaje"
+      },
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "PRS como prueba clínica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Andreassen OA et al. (2023). New insights from the last decade of research in psychiatric genetics: discoveries, challenges and clinical implications. World Psychiatry 22:4-24 · PMID 36640404",
+    "Grotzinger AD et al. (2022). Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis. Nat Genet 54:548-559 · PMID 35513722",
+    "Sullivan PF & Geschwind DH (2019). Defining the genetic, genomic, cellular, and diagnostic architectures of psychiatric disorders. Cell 177:162-183 · PMID 30901538",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Instrumento de ratificación del Convenio para la protección de los derechos humanos y la dignidad del ser humano con respecto a las aplicaciones de la Biología y la Medicina (Convenio relativo a los derechos humanos y la biomedicina), hecho en Oviedo el 4 de abril de 1997 (1999), arts. 11 y 12. BOE-A-1999-20638",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "perit_forense",
+    "prs_clin"
+   ]
+  },
+  "prs": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La ficha de la PRS como prueba clínica ya desarrolla su rendimiento, sus límites y su marco legal; aquí se resumen las implicaciones etiopatogénicas. La PRS operativiza la idea de que todas las personas portan variantes de riesgo para cada trastorno, desde un riesgo bajo hasta uno alto, y las herramientas actuales no aportan información clínicamente accionable (Andreassen 2023). En investigación permite estudiar subfenotipos: la PRS de esquizofrenia se asocia a rasgos psicóticos y a la edad de inicio en el trastorno bipolar (Ruderfer 2018) y se asoció inversamente con la respuesta al litio (ConLi+Gen 2018). En el TOC, las PRS de un estudio predijeron el estado de caso en otro, pero solo explicaron el 0,3-0,9 % de la varianza fenotípica (IOCDF-GC y OCGAS 2018). Su uso se limita hoy a ensayos y estudios de cohortes; no debe solicitarse con fines diagnósticos ni para decisiones reproductivas.",
+     "links": [
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "PRS como prueba clínica"
+      },
+      {
+       "ids": [
+        "gradiente_pg"
+       ],
+       "t": "gradiente poligénico"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El 67 % de los estudios de PRS de su primera década (2008-2017) incluyó solo personas de ascendencia europea y otro 19 % solo de ascendencia del este de Asia; apenas el 3,8 % se realizó en cohortes de ascendencia africana, hispana o indígena, y el rendimiento de las puntuaciones derivadas de muestras europeas es menor en otras ascendencias (Duncan 2019). Las PRS solo capturan la parte de la heredabilidad atribuible a variantes comunes, a su vez una fracción de la heredabilidad familiar (Manolio 2009). Numerosos factores reducen su capacidad predictiva en la selección de embriones (Turley 2021). La interacción entre PRS y exposiciones ambientales es un campo emergente, heredero de la era de los genes candidatos (Assary 2018). Interpretar un percentil alto como destino es un error conceptual que favorece el pesimismo pronóstico (Kvaale 2013).",
+     "links": [
+      {
+       "ids": [
+        "gen_candidatos"
+       ],
+       "t": "genes candidatos"
+      },
+      {
+       "ids": [
+        "exposoma"
+       ],
+       "t": "exposoma"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "La ficha de la PRS como prueba clínica analiza ya los artículos de la Ley 14/2007 sobre consentimiento, asesoramiento, acreditación y no discriminación. A ello se añade el cribado poligénico de embriones: empresas privadas lo ofrecen a personas que se someten a fecundación in vitro, con consecuencias posibles como seleccionar rasgos adversos, alterar la demografía, aumentar las desigualdades y desvalorizar determinados rasgos (Turley 2021); la ISPG fue la primera sociedad biomédica en pronunciarse e insta a la cautela, a más investigación y a la supervisión (Lencz 2022). En España, el análisis genético de preembriones in vitro no transferidos se rige por la ley sobre técnicas de reproducción asistida (Ley 14/2007, art. 48.4) [fuente no localizada para su aplicación al cribado poligénico], las pruebas de predisposición solo pueden hacerse con fines médicos y asesoramiento genético (art. 9.3; Convenio de Oviedo, art. 12) y los datos genéticos personales no pueden usarse con fines comerciales (art. 45.c). Los resultados directos al consumidor reinterpretados por terceros pueden ser espurios (Horton 2019).",
+     "links": [
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "marco legal de la PRS"
+      },
+      {
+       "ids": [
+        "asesor_genet"
+       ],
+       "t": "asesoramiento genético"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Andreassen OA et al. (2023). New insights from the last decade of research in psychiatric genetics: discoveries, challenges and clinical implications. World Psychiatry 22:4-24 · PMID 36640404",
+    "Bipolar Disorder and Schizophrenia Working Group of the Psychiatric Genomics Consortium (2018). Genomic dissection of bipolar disorder and schizophrenia, including 28 subphenotypes. Cell 173:1705-1715 · PMID 29906448",
+    "International Consortium on Lithium Genetics (ConLi+Gen) (2018). Association of polygenic score for schizophrenia and HLA antigen and inflammation genes with response to lithium in bipolar affective disorder: a genome-wide association study. JAMA Psychiatry 75:65-74 · PMID 29121268",
+    "International Obsessive Compulsive Disorder Foundation Genetics Collaborative (IOCDF-GC) and OCD Collaborative Genetics Association Studies (OCGAS) (2018). Revealing the complex genetic architecture of obsessive-compulsive disorder using meta-analysis. Mol Psychiatry 23:1181-1188 · PMID 28761083",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Turley P et al. (2021). Problems with using polygenic scores to select embryos. N Engl J Med 385:78-86 · PMID 34192436",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861",
+    "Lencz T et al. (2022). Concerns about the use of polygenic embryo screening for psychiatric and cognitive traits. Lancet Psychiatry 9:838-844 · PMID 35931093",
+    "Horton R et al. (2019). Direct-to-consumer genetic testing with third party interpretation: beware of spurious results. Emerg Top Life Sci 3:669-674 · PMID 32915220",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Instrumento de ratificación del Convenio para la protección de los derechos humanos y la dignidad del ser humano con respecto a las aplicaciones de la Biología y la Medicina (Convenio relativo a los derechos humanos y la biomedicina), hecho en Oviedo el 4 de abril de 1997 (1999), arts. 11 y 12. BOE-A-1999-20638"
+   ],
+   "relAdd": [
+    "asesor_genet",
+    "lm_bip"
+   ]
+  },
+  "gen_candidatos": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La lección de los genes candidatos tiene aplicación directa en la consulta, porque algunos paneles comerciales siguen informando de polimorfismos de esa era (ficha de paneles farmacogenéticos). La guía CPIC de 2023 revisó SLC6A4, el gen del transportador de serotonina que contiene el polimorfismo 5-HTTLPR, y HTR2A, y concluyó que los datos existentes no respaldan su uso clínico para prescribir antidepresivos (Bousman 2023); sus recomendaciones operativas se limitan a CYP2D6, CYP2C19 y CYP2B6. El consenso de la ISPG respalda igualmente solo genes del citocromo P450 y HLA (Bousman 2021). Ante un informe que interprete COMT, BDNF o 5-HTTLPR como base para elegir tratamiento, procede explicar que esos marcadores carecen de validez clínica establecida [fuente no localizada para COMT y BDNF en este contexto] y remitir a las guías CPIC y DPWG. El caso sirve además para enseñar a quien consulta a leer con cautela un hallazgo genético aislado.",
+     "links": [
+      {
+       "ids": [
+        "panel_fg"
+       ],
+       "t": "paneles comerciales"
+      },
+      {
+       "ids": [
+        "cpic_isrs"
+       ],
+       "t": "guía CPIC de antidepresivos"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La revisión de 25 genes candidatos históricos de la esquizofrenia, que combinó metaanálisis, el mayor GWAS disponible y la valoración de investigadores y de 24 expertos en genética de la esquizofrenia, concluyó que esa literatura no aportó conocimientos claros sobre la base genética del trastorno, probablemente por potencia estadística insuficiente (Farrell 2015). Como grupo, las variantes de los genes candidatos más estudiados no se asociaron a la esquizofrenia más que las de conjuntos control de genes no candidatos, y los pocos asociados no destacaban frente a muchos genes no candidatos con asociaciones más fuertes; los autores advierten de que probablemente ocurrirá lo mismo en otros rasgos complejos (Johnson 2017). La investigación de interacción gen-ambiente, basada en candidatos y en el modelo de diátesis-estrés, se desplaza hacia enfoques genómicos y hacia marcos como la susceptibilidad diferencial (Assary 2018).",
+     "links": [
+      {
+       "ids": [
+        "gwas_pgc"
+       ],
+       "t": "GWAS"
+      },
+      {
+       "ids": [
+        "fkbp5_epigen",
+        "maoa_gxe"
+       ],
+       "t": "otros candidatos gen-ambiente"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "Los genes candidatos se han invocado en procedimientos judiciales, como la variante de baja actividad de MAOA en la valoración de conductas violentas (ficha correspondiente) [fuente no localizada para casos concretos en España]; la falta de replicación desaconseja cualquier uso pericial de estos marcadores para inferir peligrosidad o responsabilidad [fuente no localizada]. La comercialización de perfiles de «genes del estrés» o «de la depresión» plantea conflicto con la exigencia de que las pruebas de predisposición tengan fines médicos y asesoramiento genético (Ley 14/2007, art. 9.3; Convenio de Oviedo, art. 12) y con la prohibición de usar datos genéticos personales con fines comerciales (Ley 14/2007, art. 45.c), y sus datos reinterpretados por terceros pueden dar resultados espurios (Horton 2019). La difusión de hallazgos no replicados alimenta un determinismo genético que aumenta el pesimismo pronóstico (Kvaale 2013), y la discriminación por predisposición genética está prohibida (Ley 15/2022, art. 2.1).",
+     "links": [
+      {
+       "ids": [
+        "maoa_gxe"
+       ],
+       "t": "MAOA y conducta antisocial"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "peritaje"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+    "Bousman CA et al. (2021). Review and consensus on pharmacogenomic testing in psychiatry. Pharmacopsychiatry 54:5-17 · PMID 33147643",
+    "Farrell MS et al. (2015). Evaluating historical candidate genes for schizophrenia. Mol Psychiatry 20:555-562 · PMID 25754081",
+    "Johnson EC et al. (2017). No evidence that schizophrenia candidate genes are more associated with schizophrenia than noncandidate genes. Biol Psychiatry 82:702-708 · PMID 28823710",
+    "Assary E et al. (2018). Gene-environment interaction and psychiatric disorders: review and future directions. Semin Cell Dev Biol 77:133-143 · PMID 29051054",
+    "Horton R et al. (2019). Direct-to-consumer genetic testing with third party interpretation: beware of spurious results. Emerg Top Life Sci 3:669-674 · PMID 32915220",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Instrumento de ratificación del Convenio para la protección de los derechos humanos y la dignidad del ser humano con respecto a las aplicaciones de la Biología y la Medicina (Convenio relativo a los derechos humanos y la biomedicina), hecho en Oviedo el 4 de abril de 1997 (1999), arts. 11 y 12. BOE-A-1999-20638",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "panel_fg",
+    "cpic_isrs",
+    "perit_forense"
+   ]
+  },
+  "gradiente_pg": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El gradiente poligénico ayuda a entender por qué el trastorno esquizoafectivo bipolar y el bipolar I con síntomas psicóticos comparten rasgos con la esquizofrenia. En 53 555 casos y 54 065 controles se identificaron 114 loci con significación genómica que implican vías sinápticas y neuronales compartidas, cuatro regiones que diferencian el bipolar de la esquizofrenia y asociaciones de la puntuación poligénica de esquizofrenia con los rasgos psicóticos y la edad de inicio en el bipolar (Ruderfer 2018). El bipolar I se correlaciona genéticamente con la esquizofrenia, impulsado por la psicosis, mientras que el bipolar II se correlaciona más con la depresión mayor (Stahl 2019). Una mayor carga poligénica de esquizofrenia se asoció inversamente con la respuesta al litio (ConLi+Gen 2018). Ninguno de estos hallazgos permite hoy clasificar a una persona ni elegir su tratamiento: en la clínica, el gradiente se traduce en atención a los síntomas psicóticos y al curso, no en pruebas genéticas.",
+     "links": [
+      {
+       "ids": [
+        "teasqb",
+        "tb1",
+        "tb2"
+       ],
+       "t": "subtipos del continuo"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      },
+      {
+       "ids": [
+        "cbipesq"
+       ],
+       "t": "continuo bipolar-esquizofrénico"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El gradiente describe diferencias medias entre grupos con distribuciones muy solapadas (ficha). Los resultados dependen de las definiciones diagnósticas de partida, de la fiabilidad del diagnóstico de trastorno esquizoafectivo [fuente no localizada] y del tamaño desigual de los subgrupos. Los estudios son de ascendencia europea (Stahl 2019) y las puntuaciones poligénicas pierden rendimiento en otras ascendencias (Duncan 2019). El análisis de 11 trastornos encontró escasa utilidad de una dimensión única de riesgo genético común (Grotzinger 2022), por lo que el gradiente psicótico-afectivo no debe extrapolarse a un continuo general de toda la psicopatología. Las variantes comunes explican solo una fracción de la heredabilidad familiar (Manolio 2009), y las variantes raras y los factores ambientales podrían modificar el gradiente [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "pleiotropia",
+        "p_factor"
+       ],
+       "t": "pleiotropía y factor p"
+      },
+      {
+       "ids": [
+        "prs"
+       ],
+       "t": "puntuaciones poligénicas"
+      }
+     ]
+    },
+    {
+     "t": "Consideraciones éticas y legales",
+     "x": "Usar una puntuación poligénica para reasignar un diagnóstico, por ejemplo de trastorno bipolar a esquizoafectivo, carece de validez y podría tener consecuencias en prestaciones, peritajes o seguros [fuente no localizada]. Cualquier análisis genético con fines sanitarios exige consentimiento expreso y específico por escrito y asesoramiento genético apropiado (Ley 14/2007, arts. 48.1 y 55), y los datos no pueden utilizarse con fines distintos de los consentidos (art. 5.3). Comunicar a una persona con trastorno bipolar que tiene «más carga genética de esquizofrenia» puede aumentar el pesimismo pronóstico y el estigma (Kvaale 2013). La predisposición genética está protegida frente a la discriminación (Ley 14/2007, art. 6; Ley 15/2022, art. 2.1). Las implicaciones legales generales de las puntuaciones poligénicas se tratan en la ficha de la PRS como prueba clínica.",
+     "links": [
+      {
+       "ids": [
+        "prs_clin"
+       ],
+       "t": "PRS como prueba clínica"
+      },
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bipolar Disorder and Schizophrenia Working Group of the Psychiatric Genomics Consortium (2018). Genomic dissection of bipolar disorder and schizophrenia, including 28 subphenotypes. Cell 173:1705-1715 · PMID 29906448",
+    "Stahl EA et al. (2019). Genome-wide association study identifies 30 loci associated with bipolar disorder. Nat Genet 51:793-803 · PMID 31043756",
+    "International Consortium on Lithium Genetics (ConLi+Gen) (2018). Association of polygenic score for schizophrenia and HLA antigen and inflammation genes with response to lithium in bipolar affective disorder: a genome-wide association study. JAMA Psychiatry 75:65-74 · PMID 29121268",
+    "Duncan L et al. (2019). Analysis of polygenic risk score usage and performance in diverse human populations. Nat Commun 10:3328 · PMID 31346163",
+    "Grotzinger AD et al. (2022). Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis. Nat Genet 54:548-559 · PMID 35513722",
+    "Manolio TA et al. (2009). Finding the missing heritability of complex diseases. Nature 461:747-753 · PMID 19812666",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861",
+    "Ley 14/2007, de 3 de julio, de Investigación biomédica (2007), arts. 1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58. Boletín Oficial del Estado núm. 159, de 4 de julio de 2007 (BOE-A-2007-12945)",
+    "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (2022), arts. 2.1 y 9. BOE-A-2022-11589"
+   ],
+   "relAdd": [
+    "lm_bip",
+    "estigma"
+   ]
+  }
+ },
+ "add": []
+}

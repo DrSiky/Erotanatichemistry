@@ -1,0 +1,96 @@
+{
+ "pmid_comprobados": 14,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "pid5_lpfs",
+   "gravedad": "mayor",
+   "antes": "Dos secciones nuevas («Medición dimensional de HiTOP» y «El HiTOP-DAT: evaluación y seguimiento clínico»)",
+   "despues": "Una sola sección «Medición dimensional de HiTOP» que integra el HiTOP-DAT, como pedía el encargo (una sección por nodo); se abrevia la lista de instrumentos de Kotov 2017 para no reproducir la columna de su tabla 1",
+   "fuente": "Encargo original; Kotov 2017 tabla 1 (PDF p. 12)"
+  },
+  {
+   "id": "desinhib",
+   "gravedad": "mayor",
+   "antes": "kappa test-retest 0,40 (alcohol) y 0,21 (antisocial) «frente a omegas de 0,80 (desinhibición) y 0,83 (antagonismo)»",
+   "despues": "Se compara con la estabilidad a dos semanas de 0,86 de los dominios de desinhibición y antagonismo del PID-5 (comparar un kappa test-retest con una consistencia interna era metodológicamente engañoso)",
+   "fuente": "Krueger 2021, World Psychiatry 20:182 y 184 (PDF p. 35 y 37), PMID 34002506"
+  },
+  {
+   "id": "pid5_lpfs",
+   "gravedad": "mayor",
+   "antes": "Jonas KG, Stanton K, Simms L, Mullins-Sweatt SN, Kotov R, Cicero D, Ruggero C et al. (2021)... documento técnico sin fecha de edición (año estimado) [no verificada]",
+   "despues": "Jonas KG, Stanton K, Simms L, Mullins-Sweatt SN et al. (2021)... documento técnico no indexado (versión del 5 de octubre de 2021 depositada en OSF, osf.io/8hngd)",
+   "fuente": "Proyecto OSF 8hngd del consorcio (creado 23-9-2021; fichero «HiTOP Manual 10.5.21.pdf»), enlazado desde hitop-system.org; texto coincidente con el PDF del autor (p. 1-58). El orden de autores omitía a Gillett, Dainer, Nelson, Cohn y Guillot entre Mullins-Sweatt y Kotov"
+  },
+  {
+   "id": "pid5_lpfs",
+   "gravedad": "menor",
+   "antes": "Sin críticas externas",
+   "despues": "Se añade Haeffel 2022: no hay pruebas de que usar HiTOP mejore los resultados clínicos (más su referencia)",
+   "fuente": "Haeffel 2022, resumen, PMID 36299281"
+  },
+  {
+   "id": "hitop_tp",
+   "gravedad": "menor",
+   "antes": "Un reanálisis de 33 estudios ... halló un factor de antagonismo ... y otro de desapego",
+   "despues": "El reanálisis de 33 estudios (O'Connor 2005, en Kotov 2017) halló cuatro dimensiones, entre ellas antagonismo y desapego",
+   "fuente": "Kotov 2017, PDF p. 7"
+  },
+  {
+   "id": "esqtclin",
+   "gravedad": "menor",
+   "antes": "los antipsicóticos actúan sobre el psicoticismo y mucho menos sobre el desapego",
+   "despues": "los antipsicóticos son relativamente específicos del psicoticismo",
+   "fuente": "Kotov 2020, World Psychiatry 19:159 (PDF p. 11)"
+  },
+  {
+   "id": "esqtclin",
+   "gravedad": "menor",
+   "antes": "faltan estudios de utilidad en psicosis franca",
+   "despues": "pero faltan estudios en pacientes con psicosis franca",
+   "fuente": "Kotov 2024, resumen, PMID 38351173"
+  },
+  {
+   "id": "meehl",
+   "gravedad": "menor",
+   "antes": "la mayoría de los clínicos no la considera benigna",
+   "despues": "la mayoría de quienes estudian la esquizofrenia no la considera benigna (se añade el tamaño de los grupos: 131, 144 y 304)",
+   "fuente": "Lenzenweger 2018, World Psychiatry 17:25; Kotov 2022, Schizophr Res 242:74, fig. 1"
+  },
+  {
+   "id": "desinhib",
+   "gravedad": "menor",
+   "antes": "heredabilidades del 60-80 % para el TDAH",
+   "despues": "heredabilidades en jóvenes del 60-80 %",
+   "fuente": "Krueger 2021, p. 176 (estudios con gemelos jóvenes)"
+  },
+  {
+   "id": "hitop_anx",
+   "gravedad": "menor",
+   "antes": "límites que reconocen sin mencionar el carácter provisional del superespectro",
+   "despues": "Se añade que el superespectro es provisional",
+   "fuente": "Watson 2022, World Psychiatry 21:43 (PDF p. 63)"
+  },
+  {
+   "id": "p_factor",
+   "gravedad": "menor",
+   "antes": "De una comparación en la que ambos factores generales fueron robustos",
+   "despues": "De una comparación de Forbes et al. (2021) en la que...",
+   "fuente": "Conway 2021/2022, p. 5"
+  },
+  {
+   "id": "hitop_tp",
+   "gravedad": "menor",
+   "antes": "adoptada por el modelo alternativo del DSM-5; «Ninguno los compara con los dominios de la CIE-11»",
+   "despues": "adoptada en la Sección III del DSM-5; «Ninguno de estos trabajos los compara con la CIE-11» (y recortes para el límite de 1500 caracteres)",
+   "fuente": "Kotov 2017, PDF p. 13"
+  }
+ ],
+ "sin_resolver": [
+  "Conway et al.: año 2022 (impreso; en línea 2021) en refsAdd frente a «Conway et al. 2021» en el texto y en el título de p_factor impuesto por el encargo; bibliográficamente correcto, pero el editor puede querer homogeneizarlo.",
+  "La equivalencia «Es la estructura del PID-5, adoptada en la Sección III del DSM-5» y la cifra 0,86 proceden de Kotov 2017 y Krueger 2021, respectivamente, no de los resúmenes indexados (cotejadas en el PDF).",
+  "La afirmación de que no consta validación española del HiTOP-DAT sigue con [fuente no localizada].",
+  "Lenzenweger 2018 y Kotov 2022 no tienen resumen en PubMed; sus datos se cotejaron solo en el PDF (WP 17:25; Schizophr Res 242:73-74)."
+ ]
+}
