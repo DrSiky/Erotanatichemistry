@@ -1,0 +1,752 @@
+{
+ "patch": {
+  "dt_alc": {
+   "relAdd": [
+    "clometiazol",
+    "clorazepato"
+   ]
+  },
+  "alcohol": {
+   "relAdd": [
+    "clometiazol",
+    "cianamida"
+   ]
+  },
+  "ansiol_bzd": {
+   "relAdd": [
+    "clometiazol",
+    "clorazepato",
+    "midazolam",
+    "bromazepam"
+   ]
+  },
+  "agit_dem": {
+   "relAdd": [
+    "clometiazol"
+   ]
+  },
+  "disulfiram": {
+   "relAdd": [
+    "cianamida"
+   ]
+  },
+  "ttos_adiccion": {
+   "relAdd": [
+    "cianamida"
+   ]
+  },
+  "enc_hep": {
+   "relAdd": [
+    "cianamida"
+   ]
+  },
+  "diazepam": {
+   "relAdd": [
+    "clorazepato"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "clorazepato",
+    "midazolam"
+   ]
+  },
+  "agitacion": {
+   "relAdd": [
+    "midazolam"
+   ]
+  },
+  "lorazepam": {
+   "relAdd": [
+    "midazolam"
+   ]
+  },
+  "epilepsia_psic": {
+   "relAdd": [
+    "midazolam"
+   ]
+  },
+  "tag": {
+   "relAdd": [
+    "bromazepam"
+   ]
+  },
+  "fobia_soc": {
+   "relAdd": [
+    "bromazepam"
+   ]
+  },
+  "hidroxizina": {
+   "relAdd": [
+    "bromazepam"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "clometiazol",
+   "n": "Clometiazol (Distraneurine)",
+   "ab": "Clometiazol",
+   "al": [
+    "Distraneurine",
+    "clometiazol",
+    "clomethiazole",
+    "chlormethiazole",
+    "derivado tiazólico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "tags": [
+    "risk",
+    "elderly",
+    "emerg"
+   ],
+   "desc": "Derivado tiazólico relacionado estructuralmente con la porción tiazol de la vitamina B1; sedante e hipnótico de acción corta con efecto anticonvulsivo. Ficha técnica AEMPS-CIMA de referencia: Distraneurine 192 mg cápsulas blandas (n.º registro 46186; titular Cheplapharm, comercializado por Laboratorios Rubio; comercializado). Indicaciones (4.1): inquietud, agitación y estados confusionales de origen orgánico en pacientes de edad avanzada; insomnio grave en pacientes de edad avanzada cuando otros tratamientos no han sido efectivos o están contraindicados; y síntomas de la abstinencia alcohólica aguda, incluido el delirium tremens, «bajo una supervisión hospitalaria estricta». La ficha desaconseja administrarlo más de 10 días consecutivos (4.2); lo contraindica en la insuficiencia respiratoria aguda, en la disfunción respiratoria de origen central, incluida la intoxicación por depresores del SNC (alcohol, sedantes, hipnóticos), y en la miastenia gravis (4.3), y advierte de colapso cardiorrespiratorio mortal al combinarlo con otros depresores y de que no debe prescribirse a quien siga consumiendo alcohol (4.4).",
+   "feats": [
+    "Mecanismo (ficha técnica de Distraneurine, 5.1; ATC N05CM02): potencia la respuesta a GABA y glicina mediante un lugar asociado al canal de cloruro del receptor GABA-A y actúa directamente sobre los canales de cloruro, sin efecto sobre los aminoácidos excitadores; la ficha lo considera un mecanismo distinto del de benzodiacepinas y barbitúricos",
+    "Farmacocinética (5.2): biodisponibilidad oral baja y variable (5-60 %), unas 10 veces mayor en la cirrosis grave por pérdida del primer paso hepático; semivida de unas 4 h, de hasta 8 h en mayores y de unas 9 h en la cirrosis avanzada; metabolismo por CYP2A6, CYP3A4/5 y CYP2B6 con un metabolito activo (NLA-715)",
+    "Interacciones (4.5): el alcohol reduce su primer paso y eleva su concentración; la cimetidina inhibe su metabolismo; inhibe el CYP2E1 (aclaramiento de clorzoxazona tres veces menor); bradicardia intensa descrita con propranolol; la carbamazepina aumentó su aclaramiento un 30 % por vía intravenosa; evitar con diazóxido",
+    "Dependencia (4.4): dependencia física con convulsiones, temblor y psicosis orgánica tras dosis altas prolongadas, asociada sobre todo, según la ficha, a la prescripción indiscriminada a personas con trastorno por consumo de alcohol en régimen ambulatorio; serie británica de 17 casos de abuso o dependencia, varios con consumo excesivo de alcohol (Gregg 1979)",
+    "Efectos adversos (4.8): hormigueo y congestión nasal a los 15-20 minutos de la toma y conjuntivitis (frecuentes), hipersecreción bronquial y nasofaríngea (poco frecuente), ictericia y hepatitis colestásica (raras); parada cardíaca y depresión respiratoria de frecuencia no conocida, sobre todo con dosis altas y otros depresores",
+    "Sobredosis (4.9): sin antídoto específico; manejo similar al de la intoxicación por barbitúricos (vía aérea, intubación y ventilación); riesgo mortal mayor con alcohol u otros depresores y con cirrosis; en una serie medicolegal alemana se describieron 18 muertes en las que el clometiazol tuvo un papel esencial (Klug 1984)"
+   ],
+   "tx": "En la abstinencia alcohólica, alternativa a las benzodiacepinas de semivida larga solo en régimen hospitalario, en ciclos breves, con la persona ya sin beber y con vigilancia de la sedación y de la respiración (ficha técnica de Distraneurine, 4.1-4.4). No prescribir de forma ambulatoria a personas con trastorno por consumo de alcohol, ni a quien sigue bebiendo o consume otros depresores (incluido GHB/GBL), ni en insuficiencia respiratoria. En personas mayores, uso breve, revisado y con reducción progresiva. Sin pautas individualizadas: límites y precauciones según la ficha técnica AEMPS-CIMA.",
+   "note": "La evidencia aleatorizada es antigua, de tamaño pequeño y heterogénea, y procede sobre todo de Alemania y Austria, donde su uso es habitual; no hay metaanálisis específicos. Sus indicaciones en la agitación y el insomnio del anciano se apoyan en la ficha técnica más que en ensayos actuales, y chocan con el riesgo de sedación excesiva y de depresión respiratoria en esa población; como criterio clínico, el balance beneficio-riesgo en mayores debe revisarse caso a caso [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "Las guías sitúan a las benzodiacepinas como tratamiento de referencia de la abstinencia alcohólica: NICE CG100 recomienda considerar una benzodiacepina o carbamazepina (1.1.3.1); la mención del clometiazol como alternativa de uso hospitalario en esa guía es [fuente no localizada]. La revisión sistemática de Williams y McBride (1998; 14 ensayos controlados con placebo) observó que los 12 fármacos estudiados superaban al placebo, pero que esa superioridad solo se había replicado con benzodiacepinas y clometiazol, y propuso una benzodiacepina de acción larga como primera elección. En comparaciones directas, el clometiazol no difirió del GHB en síntomas de abstinencia ni en medicación adicional (Nimmerrichter 2002; 98 pacientes, doble ciego) ni del diazepam o la tiaprida con carbamazepina en eficacia y seguridad (Lucht 2003; 127 pacientes, abierto). En un estudio retrospectivo emparejado (152 pacientes), clometiazol y diazepam redujeron los síntomas por igual, con tratamiento más corto y menos antipsicóticos concomitantes con clometiazol, resultado limitado por el diseño (Sychla 2017). En pacientes politraumatizados en UCI, la combinación de clometiazol y haloperidol prolongó la ventilación mecánica por más neumonías (Spies 1996), coherente con la hipersecreción bronquial descrita en la ficha técnica.",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "ciwa_ar"
+       ],
+       "t": "abstinencia alcohólica y su graduación"
+      },
+      {
+       "ids": [
+        "diazepam",
+        "ansiol_bzd"
+       ],
+       "t": "benzodiacepinas de referencia"
+      },
+      {
+       "ids": [
+        "tiaprida",
+        "carbamaz"
+       ],
+       "t": "alternativas no benzodiacepínicas"
+      }
+     ]
+    },
+    {
+     "t": "Sueño, rebote y neuroadaptación",
+     "x": "En un ensayo doble ciego con polisomnografía en 20 pacientes con dependencia del alcohol, el clometiazol suprimió de forma marcada el sueño REM durante la desintoxicación y su retirada se siguió de rebote de REM y de peor continuidad y arquitectura del sueño que con placebo; los autores lo interpretan como insomnio de rebote y como indicio de que los fármacos que refuerzan la transmisión GABAérgica pueden perpetuar la neuroadaptación causada por el alcohol (Gann 2004). El dato es relevante para dos usos de la ficha técnica: la tentación de prolongar el clometiazol tras la desintoxicación para tratar el insomnio persistente, que la ficha limita al menor número de dosis y a no más de 10 días con reducción progresiva (4.2), y su indicación en el insomnio grave del anciano, en el que la ficha advierte además de somnolencia matinal, amnesia y alteración de la capacidad de reacción (4.7). Como en otros sedantes, la tolerancia y el rebote obligan a pactar la duración desde el inicio y a ofrecer alternativas no farmacológicas para el insomnio crónico [fuente no localizada para la extrapolación específica al clometiazol].",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "neuroadapt_sed",
+        "kindling_abst_alc"
+       ],
+       "t": "neuroadaptación a sedantes y kindling"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad en el consumo de sustancias",
+     "x": "Depresión respiratoria y colapso cardiorrespiratorio: el riesgo se concentra en la combinación con alcohol, sobre todo en la cirrosis, y con benzodiacepinas u otros depresores; la ficha técnica contraindica su uso en la intoxicación por depresores del SNC (4.3) y pide reducir la dosis si coinciden en el tiempo (4.4). Por extrapolación de esa contraindicación, incluye la intoxicación por GHB/GBL, depresor del SNC y respiratorio (Schep 2012); no hay datos específicos sobre clometiazol y GHB recreativo [fuente no localizada]. Vigilar hipersecreción bronquial y evitar el decúbito supino durante la desintoxicación (4.2), y tener presente que la sedación puede enmascarar un coma hepático (4.4). Interacciones con antirretrovirales potenciados (ritonavir, cobicistat): el clometiazol se metaboliza en parte por CYP3A4/5, pero la ficha no recoge datos con estos fármacos [fuente no localizada]. Uso indebido: la dependencia y el abuso se describieron sobre todo en personas con trastorno por consumo de alcohol tratadas de forma ambulatoria (Gregg 1979), y el fármaco ha intervenido en muertes medicolegales, a veces sin detectarse en el cribado toxicológico general (Klug 1984). Conducción: induce sueño y amnesia; no conducir hasta comprobar que la capacidad no está afectada (4.7).",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "alcohol"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "enc_hep",
+        "sedantes_tus"
+       ],
+       "t": "encefalopatía hepática y trastorno por consumo de sedantes"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Distraneurine 192 mg cápsulas blandas (clometiazol) (n.º registro 46186), apartados 4.1-4.9, 5.1 y 5.2; consulta de noviembre de 2026",
+    "Williams D & McBride AJ (1998). The drug treatment of alcohol withdrawal symptoms: a systematic review. Alcohol Alcohol 33:103-115 · PMID 9566471",
+    "Nimmerrichter AA et al. (2002). Double-blind controlled trial of gamma-hydroxybutyrate and clomethiazole in the treatment of alcohol withdrawal. Alcohol Alcohol 37:67-73 · PMID 11825860",
+    "Lucht M et al. (2003). Alcohol withdrawal treatment in intoxicated vs non-intoxicated patients: a controlled open-label study with tiapride/carbamazepine, clomethiazole and diazepam. Alcohol Alcohol 38:168-175 · PMID 12634266",
+    "Sychla H, Gründer G & Lammertz SE (2017). Comparison of clomethiazole and diazepam in the treatment of alcohol withdrawal syndrome in clinical practice. Eur Addict Res 23:211-218 · PMID 28898879",
+    "Spies CD et al. (1996). Therapy of alcohol withdrawal syndrome in intensive care unit patients following trauma: results of a prospective, randomized trial. Crit Care Med 24:414-422 · PMID 8625628",
+    "Gann H et al. (2004). Polysomnography during withdrawal with clomethiazole or placebo in alcohol dependent patients: a double-blind and randomized study. Pharmacopsychiatry 37:228-235 · PMID 15359376",
+    "Gregg E & Akhter I (1979). Chlormethiazole abuse. Br J Psychiatry 134:627-629 · PMID 476374",
+    "Klug E & Schneider V (1984). Clomethiazole poisoning [artículo en alemán]. Z Rechtsmed 93:89-94 · PMID 6516604",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "NICE (2010). Alcohol-use disorders: diagnosis and management of physical complications (CG100; actualizada en 2017), recomendación 1.1.3.1"
+   ],
+   "rel": [
+    "dt_alc",
+    "alcohol",
+    "ansiol_bzd",
+    "diazepam",
+    "delirium",
+    "agit_dem",
+    "insom",
+    "ciwa_ar",
+    "sedantes_tus",
+    "ghb_gbl",
+    "carbamaz",
+    "tiaprida",
+    "enc_hep",
+    "bzd_mayor",
+    "neuroadapt_sed"
+   ]
+  },
+  {
+   "id": "cianamida",
+   "n": "Cianamida (Colme)",
+   "ab": "Cianamida",
+   "al": [
+    "Colme",
+    "cianamida",
+    "cyanamide",
+    "carbimida cálcica",
+    "interdictor del alcohol",
+    "fármaco aversivo"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 4,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "tags": [
+    "risk",
+    "organic"
+   ],
+   "desc": "Inhibidor de la aldehído deshidrogenasa usado como interdictor o disuasor del alcohol: si la persona bebe, la acumulación de acetaldehído desencadena una reacción aversiva con taquicardia, rubor, palpitaciones y disnea. En España se usó en solución oral con el nombre comercial Colme [fuente no localizada]. En la consulta de CIMA de noviembre de 2026 no figura ningún medicamento autorizado con cianamida, ni con el nombre Colme ni en el código ATC N07BB02, y el grupo N07BB solo incluye disulfiram, acamprosato, nalmefeno y naltrexona; su situación registral actual y la fecha de una eventual revocación o retirada son [fuente oficial no localizada]. Frente al disulfiram produce un pico de acetaldehído mayor y más malestar, pero el efecto se atenúa con la ingesta repetida (Peachey 1983, con carbimida cálcica). Su rasgo diferencial es la hepatotoxicidad: hepatocitos en vidrio esmerilado PAS positivos, descritos inicialmente en España (Vázquez 1980; Bruguera 1987), con inflamación portal y fibrosis que pueden progresar incluso sin consumo de alcohol (Suzuki 2000).",
+   "feats": [
+    "Situación en CIMA (consulta de noviembre de 2026): sin resultados para el principio activo cianamida, para el nombre Colme ni para el código ATC N07BB02; dentro del grupo de fármacos para la dependencia del alcohol, el único interdictor autorizado es el disulfiram (Antabus) [fuente oficial no localizada sobre la retirada de Colme]",
+    "Reacción con el alcohol: con carbimida cálcica, aumento de acetaldehído, taquicardia y descenso de la presión diastólica proporcionales a la cantidad de etanol, percibidos solo con las cantidades mayores y con gran variabilidad individual; también enlentece el metabolismo del etanol (Brien 1979)",
+    "Comparación con disulfiram en bebedores sociales: pico de acetaldehído mayor con carbimida, más palpitaciones y disnea y menos intención de beber, pero con bebidas repetidas el acetaldehído descendió un 85 % con carbimida y un 35 % con disulfiram, base biológica de la creencia de poder «quemar» el efecto bebiendo (Peachey 1983)",
+    "Eficacia: en un ensayo aleatorizado, doble ciego, con placebo y cruce (128 personas con dependencia del alcohol), el consumo se redujo por igual con carbimida y con placebo, y el 78 % creyó recibir el fármaco durante todo el estudio: efecto disuasor sobre todo psicológico (Peachey 1989a)",
+    "Hepatotoxicidad: inclusiones citoplasmáticas en vidrio esmerilado, PAS positivas y orceína negativas, en todas las biopsias tomadas durante el tratamiento y en algunas años después de suspenderlo; marcador histológico del fármaco, reproducido en la rata (Vázquez 1983; Guillén 1984; Bruguera 1987)",
+    "Fibrosis sin consumo de alcohol: casos de fibrosis septal progresiva con hepatocitos en vidrio esmerilado tras años de tratamiento en abstinencia completa, con ecografía hiperecogénica y elevación leve de transaminasas que pueden confundirse con esteatosis (Suzuki 2000)",
+    "Frente al disulfiram, más reelevaciones de ALT tras la desintoxicación (19,4 % frente a 5,9 %), más frecuentes con tratamientos previos (Tamai 2000); en el registro español de hepatotoxicidad se notificaron casos con carbimida cálcica y con disulfiram (Verge 2006)"
+   ],
+   "tx": "Sin papel en las guías actuales: NICE CG115 y la guía de la BAP (Lingford-Hughes 2012) recogen el disulfiram como interdictor y la cianamida no figura entre sus recomendaciones [fuente no localizada]. Si una persona aún la toma (existencias antiguas o adquisición en otro país), vigilar la función hepática y, ante transaminasas alteradas en abstinencia, valorar la derivación a hepatología antes de atribuirlas al alcohol. Las alternativas autorizadas en España son acamprosato, naltrexona, nalmefeno y disulfiram supervisado, con intervención psicosocial. No se dan pautas posológicas.",
+   "note": "La evidencia procede de ensayos de los años setenta y ochenta, en su mayoría con carbimida cálcica citratada, y de series histológicas españolas y japonesas; no hay metaanálisis. La equivalencia clínica entre la cianamida en solución y la carbimida cálcica es [fuente no localizada]. La ausencia de hepatotoxicidad analítica en el ensayo de cuatro meses de Peachey (1989b) contrasta con las lesiones histológicas constantes de las series de biopsias, discrepancia que puede deberse a la menor sensibilidad de las transaminasas frente a la histología y a la distinta duración de la exposición [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Mecanismo y reacción cianamida-etanol",
+     "x": "Como el disulfiram, la cianamida inhibe la aldehído deshidrogenasa y provoca acumulación de acetaldehído cuando se bebe; que actúe mediante un metabolito generado por la catalasa y que su inhibición sea más breve y reversible que la del disulfiram es [fuente no localizada]. En un estudio controlado con placebo en voluntarios con alcoholismo, la carbimida cálcica administrada 12 h antes del etanol produjo elevación de acetaldehído, taquicardia y descenso de la presión diastólica, con intensidad proporcional a la cantidad de alcohol; las personas solo percibieron la reacción con las cantidades mayores, cuando la frecuencia cardíaca superaba 100 lpm, y la duración fue breve y muy variable entre individuos (Brien 1979). En bebedores sociales, frente al disulfiram, el pico de acetaldehído fue mayor y la reacción más molesta, pero ninguno de los dos fármacos produjo aversión suficiente para impedir que se siguiera bebiendo, y con bebidas repetidas el acetaldehído se redujo un 85 % con carbimida (Peachey 1983). Las interacciones con otros fármacos, con el metronidazol usado en infecciones de transmisión sexual o con drogas recreativas como cocaína o GHB/GBL no están documentadas en fuentes verificables [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "disulfiram"
+       ],
+       "t": "otro inhibidor de la aldehído deshidrogenasa"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "trastorno por consumo de alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Hepatotoxicidad: lesión en vidrio esmerilado",
+     "x": "Vázquez y Cervera describieron en 1980 la lesión hepática asociada a la cianamida en personas con alcoholismo. En un estudio prospectivo con biopsia en diez pacientes tratados, las inclusiones citoplasmáticas, de estructura similar a los cuerpos de Lafora, aparecieron en todas las biopsias obtenidas durante el tratamiento y en dos tomadas 3 y 7 años después de suspenderlo, por lo que se consideró una lesión predecible (Vázquez 1983); la lesión, con glucógeno en gránulos beta, se reprodujo en la rata con o sin etanol (Guillén 1984). En Barcelona, los hepatocitos en vidrio esmerilado PAS positivos y orceína negativos aparecieron en los nueve pacientes en tratamiento con cianamida y en ninguno de los 15 tratados con disulfiram, con más inflamación portal y fibrosis, por lo que se propusieron como marcador histológico del fármaco (Bruguera 1987). En Japón, la recaída en el consumo durante el tratamiento se asoció a cuerpos acidófilos e inflamación portal crecientes en biopsias seriadas (Yokoyama 1995), y en algunas personas abstinentes tratadas durante años progresó una fibrosis septal (Suzuki 2000). Frente al disulfiram, las reelevaciones de ALT tras la desintoxicación fueron más frecuentes con cianamida (Tamai 2000).",
+     "links": [
+      {
+       "ids": [
+        "enc_hep"
+       ],
+       "t": "complicaciones hepáticas"
+      },
+      {
+       "ids": [
+        "lafora_hit"
+       ],
+       "t": "cuerpos de Lafora"
+      }
+     ]
+    },
+    {
+     "t": "Lugar actual en el tratamiento del trastorno por consumo de alcohol",
+     "x": "El ensayo aleatorizado de Peachey (1989a; 128 personas, cuatro meses) no halló diferencias entre carbimida y placebo en la reducción del consumo, con abstinencia alta en ambos brazos y la convicción mayoritaria de estar recibiendo el fármaco, lo que apunta a un efecto disuasor psicológico ligado a la expectativa, como ocurre con el disulfiram en los ensayos ciegos. En el mismo ensayo no hubo hepatotoxicidad analítica; el recuento leucocitario subió de forma leve y reversible, y una persona con función tiroidea previamente reducida desarrolló hipotiroidismo, por lo que los autores recomendaron vigilar el tiroides (Peachey 1989b). En el registro español de hepatotoxicidad se describieron casos de daño hepático con carbimida y disulfiram, y sus autores plantearon reevaluar el papel de estos fármacos (Verge 2006). Con la falta de eficacia frente a placebo, la hepatotoxicidad histológica y la ausencia de autorización vigente en CIMA, su uso actual carece de justificación; la persona que la haya tomado durante años debe tener un seguimiento hepático aunque mantenga la abstinencia (Suzuki 2000). No hay datos sobre su uso en chemsex ni con otras sustancias [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "naltrexona",
+        "acamprosato",
+        "nalmefeno"
+       ],
+       "t": "alternativas autorizadas"
+      },
+      {
+       "ids": [
+        "ttos_adiccion",
+        "disulfiram"
+       ],
+       "t": "tratamientos de las adicciones y disulfiram supervisado"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Nomenclátor de medicamentos autorizados: búsqueda por principio activo cianamida, nombre Colme y código ATC N07BB; sin resultados para cianamida; consulta de noviembre de 2026",
+    "Vázquez JJ & Cervera S (1980). Cyanamide-induced liver injury in alcoholics. Lancet 1:361-362 · PMID 6101808",
+    "Vázquez JJ et al. (1983). Cyanamide-induced liver injury. A predictable lesion. Liver 3:225-230 · PMID 6323909",
+    "Guillén FJ & Vázquez JJ (1984). Cyanamide-induced liver cell injury. Experimental study in the rat. Lab Invest 50:385-393 · PMID 6323849",
+    "Bruguera M et al. (1987). Cyanamide hepatotoxicity. Incidence and clinico-pathological features. Liver 7:216-222 · PMID 3683093",
+    "Yokoyama A et al. (1995). Cyanamide-associated alcoholic liver disease: a sequential histological evaluation. Alcohol Clin Exp Res 19:1307-1311 · PMID 8561306",
+    "Suzuki Y et al. (2000). Cyanamide-induced liver dysfunction after abstinence in alcoholics: a long-term follow-up study on four cases. Alcohol Clin Exp Res 24(4 Suppl):100S-105S · PMID 10803790",
+    "Tamai H et al. (2000). Comparison of cyanamide and disulfiram in effects on liver function. Alcohol Clin Exp Res 24(4 Suppl):97S-99S · PMID 10803789",
+    "Verge C et al. (2006). Adverse hepatic reactions associated with calcium carbimide and disulfiram therapy: is there still a role for these drugs? World J Gastroenterol 12:5078-5080 · PMID 16937512",
+    "Brien JF et al. (1979). The calcium carbimide-ethanol interaction: effects of ethanol dose. Clin Pharmacol Ther 25:454-463 · PMID 371903",
+    "Peachey JE et al. (1983). A placebo-controlled double-blind comparative clinical study of the disulfiram- and calcium carbimide-acetaldehyde mediated ethanol reactions in social drinkers. Alcohol Clin Exp Res 7:180-187 · PMID 6346921",
+    "Peachey JE et al. (1989a). Calcium carbimide in alcoholism treatment. Part 1: A placebo-controlled, double-blind clinical trial of short-term efficacy. Br J Addict 84:877-887 · PMID 2673441",
+    "Peachey JE et al. (1989b). Calcium carbimide in alcoholism treatment. Part 2: Medical findings of a short-term, placebo-controlled, double-blind clinical trial. Br J Addict 84:1359-1366 · PMID 2688764",
+    "Lingford-Hughes AR et al. (2012). BAP updated guidelines: evidence-based guidelines for the pharmacological management of substance abuse, harmful use, addiction and comorbidity: recommendations from BAP. J Psychopharmacol 26:899-952 · PMID 22628390",
+    "NICE (2011). Alcohol-use disorders: diagnosis, assessment and management of harmful drinking and alcohol dependence (CG115)"
+   ],
+   "rel": [
+    "alcohol",
+    "disulfiram",
+    "naltrexona",
+    "acamprosato",
+    "nalmefeno",
+    "ttos_adiccion",
+    "enc_hep",
+    "dt_alc"
+   ]
+  },
+  {
+   "id": "clorazepato",
+   "n": "Clorazepato dipotásico (Tranxilium)",
+   "ab": "Clorazepato",
+   "al": [
+    "Tranxilium",
+    "clorazepato",
+    "clorazepato dipotásico",
+    "clorazepate",
+    "profármaco del nordazepam"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "tags": [
+    "risk",
+    "chemsex",
+    "elderly"
+   ],
+   "desc": "Profármaco benzodiacepínico de semivida larga: alrededor del 80 % se transforma en N-desmetildiazepam (nordazepam), su principal metabolito activo, con una semivida de eliminación de unas 40 h (ficha técnica de Tranxilium, AEMPS-CIMA, 5.2). Comercializado en España como Tranxilium (Neuraxpharm): cápsulas de 5, 10 y 15 mg (n.º registro 48985, 48986 y 52112), comprimidos de 50 mg (55689) y polvo y disolvente para solución inyectable de 20 mg (51378), además de genéricos. Indicaciones (4.1): las cápsulas, en «todas las manifestaciones de ansiedad» cuya intensidad no alcance una dimensión psiquiátrica, incluidos el insomnio, los estados depresivos con componente ansioso y la ansiedad del enfermo grave; los comprimidos de 50 mg, en la ansiedad de intensidad psiquiátrica, el alcoholismo crónico y las curas de desintoxicación y deshabituación etílica o de otras drogas; el inyectable, en la ansiolisis o sedación de urgencia, incluidos el alcoholismo y las curas de desintoxicación, la anestesia y el tétanos. La ficha limita la duración a 4-12 semanas con retirada gradual (4.4).",
+   "feats": [
+    "Contraindicaciones (ficha técnica de Tranxilium, 4.3): hipersensibilidad a benzodiacepinas, miastenia gravis, insuficiencia respiratoria descompensada o severa, síndrome de apnea del sueño e insuficiencia hepática severa; las cápsulas de 5 mg no deben darse a menores de 30 meses y las de 10 y 15 mg no son adecuadas en niños",
+    "Insuficiencia renal y hepática (4.4): la ficha pide ajustar la dosis en la insuficiencia renal por cambios en la semivida del desmetildiazepam y en su unión a proteínas (96,9 %); en la insuficiencia hepática puede causar encefalopatía; en mayores, más somnolencia, debilidad muscular y caídas",
+    "Interacciones (4.5): potenciación con alcohol, opioides (incluida la buprenorfina), antipsicóticos, antidepresivos, antihistamínicos sedantes, barbitúricos y clonidina; con analgésicos opioides puede aumentar la euforia y facilitar la dependencia psíquica; más riesgo de colapso con paro cardíaco o respiratorio con clozapina",
+    "Oxibato de sodio (4.4): la ficha pide evitar su uso concomitante por aumento del riesgo de depresión respiratoria; el oxibato es la sal sódica del GHB, por lo que la advertencia es directamente pertinente para el GHB/GBL recreativo",
+    "Antirretrovirales: el ritonavir está contraindicado con clorazepato por riesgo de sedación excesiva y depresión respiratoria (ficha técnica de Norvir, 4.3)",
+    "Acumulación de nordazepam: dos casos de coma prolongado tras dosis habituales en la abstinencia alcohólica, con ventilación mecánica durante 10 días e infusión continua de flumazenil, atribuidos a la acumulación del metabolito, en un caso con actividad reducida de CYP3A4 (Guglielminotti 1999)",
+    "Epilepsia: revisión farmacológica que destaca su perfil singular (semivida larga del metabolito activo y aparición lenta de tolerancia), con necesidad de ensayos controlados más amplios para definir su papel (Riss 2008)"
+   ],
+   "tx": "Ansiolítico de semivida larga para uso breve, con plan de retirada desde el inicio (ficha técnica de Tranxilium, 4.4; NICE CG113, 1.2.26). En la abstinencia alcohólica, alternativa a otras benzodiacepinas de acción larga, con precaución en hepatopatía, edad avanzada e insuficiencia respiratoria por la acumulación de nordazepam (Guglielminotti 1999); en la hepatopatía avanzada son preferibles las benzodiacepinas glucuronizadas sin metabolitos activos. Contraindicado con ritonavir y a evitar con oxibato de sodio y, por extensión, con GHB/GBL. Sin pautas individualizadas: límites según la ficha técnica AEMPS-CIMA.",
+   "note": "La evidencia específica del clorazepato es escasa y antigua: no hay metaanálisis propios en la ansiedad ni en la abstinencia alcohólica, y su posición se extrapola de la clase (véase la ficha de benzodiacepinas e hipnóticos Z). Las indicaciones de la ficha española conservan una terminología anterior a las clasificaciones actuales (neurosis, distonías neurovegetativas, ansiedad de la mujer menopáusica), sin correspondencia directa con DSM-5-TR ni CIE-11.",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "Las guías no distinguen el clorazepato de otras benzodiacepinas: en el TAG, NICE CG113 solo admite benzodiacepinas a corto plazo durante crisis (1.2.26) y en el trastorno de pánico desaconseja su prescripción (1.3.20); en la abstinencia alcohólica, NICE CG100 recomienda considerar una benzodiacepina o carbamazepina (1.1.3.1). El metaanálisis en red de Bahji (2022) halló que solo el diazepam en pauta fija redujo el delirium tremens; un análisis específico del clorazepato en esa red es [fuente no localizada]. La evidencia propia en la abstinencia alcohólica se limita a una serie retrospectiva de 226 ingresos tratados durante cinco días en la que no hubo ninguna convulsión, frente a 7-40 esperadas según la historia de los pacientes y la literatura, dato sin grupo control (Haddox 1987). Una revisión clásica sobre la elección de benzodiacepina en la abstinencia alcohólica proponía basarse en la disponibilidad de formas no orales, el efecto anticonvulsivo, la potenciación con el alcohol y la semivida (Keeler 1977), criterios que explican el uso del clorazepato inyectable en España, cuya ficha incluye el alcoholismo y las curas de desintoxicación entre las situaciones de sedación de urgencia (ficha técnica de Tranxilium 20 mg inyectable, 4.1).",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "panic",
+        "farm_anx"
+       ],
+       "t": "ansiedad: guías y alternativas"
+      },
+      {
+       "ids": [
+        "dt_alc",
+        "diazepam",
+        "ciwa_ar"
+       ],
+       "t": "abstinencia alcohólica"
+      }
+     ]
+    },
+    {
+     "t": "Farmacología: profármaco y nordazepam",
+     "x": "Según la ficha técnica de Tranxilium (5.1), sus efectos ansiolítico, sedante, hipnótico, anticonvulsivante, miorrelajante y amnésico derivan de una acción agonista sobre el complejo de receptores GABA-omega (BZD1 y BZD2) que modula la apertura del canal de cloruro, y puede observarse farmacodependencia en animales y humanos. Tras la absorción oral, rápida, el 80 % se transforma en N-desmetildiazepam; el pico plasmático se alcanza en una hora, la semivida de eliminación es de unas 40 h y se eliminan por la orina conjugados inactivos de oxazepam y de desmetildiazepam (5.2). Ese metabolito es el mismo que el principal metabolito activo del diazepam, lo que explica la acumulación con la administración repetida, más acusada en personas mayores, en la hepatopatía y cuando la oxidación hepática está reducida [fuente no localizada para la comparación con el diazepam]. La ficha recoge que los inhibidores del citocromo P450 pueden potenciar a las benzodiacepinas (4.5) y que cambiar a una benzodiacepina de acción corta puede precipitar síntomas de retirada (4.4). En dos pacientes tratados con dosis habituales en la abstinencia alcohólica, la acumulación de nordazepam produjo un coma que obligó a ventilación mecánica prolongada y a infusión continua de flumazenil (Guglielminotti 1999).",
+     "links": [
+      {
+       "ids": [
+        "gaba_interneur"
+       ],
+       "t": "transmisión GABAérgica"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "bzd_mayor"
+       ],
+       "t": "acumulación en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad en el consumo de sustancias",
+     "x": "Opioides: el uso concomitante puede causar sedación, depresión respiratoria, coma y muerte; reservarlo a falta de alternativas, con la dosis eficaz más baja y la menor duración (ficha técnica de Tranxilium, 4.4), y la ficha añade que con analgésicos opioides puede aumentar la euforia y facilitar la dependencia psíquica (4.5). GHB/GBL: la ficha pide evitar el oxibato de sodio por depresión respiratoria (4.4), advertencia que alcanza al GHB recreativo, aunque la magnitud de la interacción con dosis recreativas no está cuantificada [fuente no localizada]. Antirretrovirales: el ritonavir está contraindicado (ficha técnica de Norvir, 4.3), por lo que antes de usarlo, por ejemplo en una desintoxicación de GHB, debe revisarse la pauta antirretroviral. Dependencia y retirada (4.4): el riesgo aumenta con la dosis, la duración y los antecedentes de consumo de alcohol u otras drogas; la retirada brusca puede causar despersonalización, hiperacusia, intolerancia a la luz y al contacto, alucinaciones o convulsiones. Embarazo (4.6): no recomendado; con dosis altas al final de la gestación, sedación, hipotonía y síndrome de abstinencia neonatal. Señales de alarma: somnolencia excesiva, respiración lenta, caídas y escalada de dosis.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "ghb_abst",
+        "opioides"
+       ],
+       "t": "depresores y abstinencia de GHB"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd"
+       ],
+       "t": "dependencia y retirada"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Tranxilium 10 mg cápsulas duras (clorazepato dipotásico) (n.º registro 48986), apartados 4.1-4.6, 5.1 y 5.2; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Tranxilium 50 mg comprimidos recubiertos con película (n.º registro 55689) y Tranxilium 20 mg polvo y disolvente para solución inyectable (n.º registro 51378), apartado 4.1; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "Guglielminotti J et al. (1999). Prolonged sedation requiring mechanical ventilation and continuous flumazenil infusion after routine doses of clorazepam for alcohol withdrawal syndrome. Intensive Care Med 25:1435-1436 · PMID 10660854",
+    "Haddox VG et al. (1987). Clorazepate use may prevent alcohol withdrawal convulsions. West J Med 146:695-696 · PMID 2887072",
+    "Keeler MH & Miller WC (1977). Selection among benzodiazepines for alcohol withdrawal. South Med J 70:970-973 · PMID 329424",
+    "Riss J et al. (2008). Benzodiazepines in epilepsy: pharmacology and pharmacokinetics. Acta Neurol Scand 118:69-86 · PMID 18384456",
+    "Bahji A et al. (2022). Comparative efficacy and safety of pharmacotherapies for alcohol withdrawal: a systematic review and network meta-analysis. Addiction 117:2591-2601 · PMID 35194860",
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management (CG113), recomendaciones 1.2.26 y 1.3.20",
+    "NICE (2010). Alcohol-use disorders: diagnosis and management of physical complications (CG100; actualizada en 2017), recomendación 1.1.3.1"
+   ],
+   "rel": [
+    "ansiol_bzd",
+    "diazepam",
+    "lorazepam",
+    "dt_alc",
+    "alcohol",
+    "bzd_dep",
+    "desprescr_bzd",
+    "chemsex_arv",
+    "ghb_gbl",
+    "ghb_abst",
+    "opioides",
+    "tag",
+    "sedantes_tus",
+    "bzd_mayor"
+   ]
+  },
+  {
+   "id": "midazolam",
+   "n": "Midazolam (oral, inyectable y bucal)",
+   "ab": "Midazolam",
+   "al": [
+    "Dormicum",
+    "Buccolam",
+    "Oroxelam",
+    "midazolam intramuscular",
+    "midazolam bucal",
+    "imidazobenzodiacepina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "tags": [
+    "emerg",
+    "risk",
+    "chemsex",
+    "child"
+   ],
+   "desc": "Imidazobenzodiacepina de inicio rápido y acción breve, cuyas sales hidrosolubles permiten la inyección, metabolizada casi exclusivamente por CYP3A4 a alfa-hidroximidazolam (ficha técnica de Midazolam Normon, AEMPS-CIMA, 4.5 y 5.2). En España está autorizado y comercializado en tres formas con indicaciones distintas (4.1): comprimidos (Dormicum 7,5 mg, n.º registro 59023), para el tratamiento a corto plazo del insomnio en adultos y mayores de 12 años; solución inyectable y para perfusión (p. ej., Midazolam Normon 1 mg/ml, 63936, y 5 mg/ml, 65796; vías intravenosa, intramuscular y rectal), para la sedación consciente en procedimientos, la premedicación e inducción anestésica, la anestesia combinada y la sedación en UCI; y solución bucal (Buccolam, 11709001-11709004, de autorización centralizada; Oroxelam, 85756-85759), para las crisis convulsivas agudas y prolongadas desde los 3 meses hasta la edad adulta, administrada por padres o cuidadores solo cuando hay diagnóstico de epilepsia. La agitación psicomotriz y el estatus epiléptico tratado por vía intramuscular no figuran entre las indicaciones de las fichas españolas.",
+   "feats": [
+    "Inyectable (ficha técnica de Midazolam Normon, 4.4): usar solo con equipo de reanimación; puede deprimir la contractilidad miocárdica y causar apnea; depresión y parada respiratoria y parada cardíaca, más probables con inyección rápida o dosis alta; precaución en mayores de 60 años y en insuficiencia respiratoria, renal, hepática o cardíaca",
+    "Absorción (5.2): tras inyección intramuscular, rápida y completa, con pico a los 30 minutos y biodisponibilidad superior al 90 %; por vía rectal, del 50 %; unión a proteínas del 96-98 %; amnesia anterógrada breve tras la administración intramuscular o intravenosa (5.1)",
+    "Interacciones (4.5): azoles, macrólidos, verapamilo, diltiazem e inhibidores de la proteasa aumentan la exposición, sobre todo por vía oral (con eritromicina o claritromicina, AUC casi cuatro veces mayor); con saquinavir, semivida intravenosa de 4,1 a 9,5 h; más depresión respiratoria con opioides, fenobarbital u otras benzodiacepinas; evitar el alcohol",
+    "Comprimidos (ficha técnica de Dormicum, 4.3): contraindicados con inhibidores o inductores muy potentes del CYP3A, incluidos los inhibidores de la proteasa del VIH potenciados con ritonavir, y en miastenia gravis, insuficiencia respiratoria grave, apnea del sueño e insuficiencia hepática grave",
+    "Estatus epiléptico prehospitalario (RAMPART): midazolam intramuscular frente a lorazepam intravenoso, crisis ausentes a la llegada a urgencias sin rescate en el 73,4 % frente al 63,4 % (diferencia de 10 puntos; IC 95 % 4,0-16,1), con intubación y recurrencias similares (Silbergleit 2012)",
+    "Crisis en la infancia: midazolam bucal frente a diazepam rectal en urgencias, éxito terapéutico del 56 % frente al 27 % (diferencia del 29 %; IC 95 % 16-41), sin diferencias en depresión respiratoria (McIntyre 2005)",
+    "Estados Unidos: la FDA autorizó el midazolam intramuscular en vial (Seizalam, NDA 209566) para el estatus epiléptico en adultos y, por bioequivalencia, un autoinyector intramuscular con la misma indicación (NDA 216359) (FDA 2023)"
+   ],
+   "tx": "Usos autorizados en España: sedación de procedimientos, anestesia y UCI (inyectable), insomnio a corto plazo (comprimidos) y crisis prolongadas en epilepsia diagnosticada (bucal). La sedación intramuscular de la agitación grave es un uso fuera de ficha técnica, con evidencia de mayor rapidez que haloperidol con prometazina (TREC 2003), pero con riesgo de depresión respiratoria y más necesidad de nuevas dosis (Isbister 2010); exige pulsioximetría y medios de reanimación. NICE NG10 (1.4.37) recomienda en la tranquilización rápida lorazepam intramuscular o haloperidol con prometazina. Evitar con alcohol, opioides, GHB/GBL y antirretrovirales potenciados. Sin pautas individualizadas.",
+   "note": "Los ensayos de agitación incluyen poblaciones mixtas de urgencias, a menudo intoxicadas, y la baja frecuencia de complicaciones respiratorias observada (Klein 2018) procede de servicios con monitorización, no extrapolable a unidades sin medios de soporte. La ficha vigente de Buccolam extiende la indicación a adultos; la fecha de esa modificación es [fuente no localizada]. En España, el uso intramuscular en las crisis es fuera de ficha técnica pese a la evidencia de RAMPART.",
+   "sec": [
+    {
+     "t": "Agitación aguda: evidencia y estatus fuera de ficha",
+     "x": "Ninguna ficha técnica española de midazolam incluye la agitación. En urgencias psiquiátricas de Río de Janeiro (301 personas, ensayo pragmático abierto), el midazolam intramuscular dejó tranquilas o dormidas a los 20 minutos al 89 % frente al 67 % con haloperidol más prometazina (RR 1,32; IC 95 % 1,16-1,49), con igualdad hacia la hora; hubo una depresión respiratoria transitoria con midazolam y una crisis convulsiva con la combinación (TREC 2003). La revisión Cochrane de haloperidol con prometazina concluyó que el midazolam tranquiliza con especial rapidez, pero que midazolam y lorazepam causan depresión respiratoria (Huf 2016). En el ensayo DORM (91 pacientes con conducta violenta), la duración de la agitación no difirió frente a droperidol, pero el midazolam requirió más sedación adicional (62 % frente a 33 %) y causó más efectos adversos por sedación excesiva (28 % frente a 6 %) (Isbister 2010); en la revisión Cochrane de droperidol, tres de unas 70 personas con midazolam necesitaron manejo de la vía aérea (Khokhar 2016). En un estudio observacional de 737 pacientes, a los 15 minutos el midazolam sedó a más personas que ziprasidona y haloperidol, con eventos adversos infrecuentes (Klein 2018). NICE NG10 no lo incluye entre sus opciones (1.4.37).",
+     "links": [
+      {
+       "ids": [
+        "agitacion",
+        "haloperidol",
+        "olanzapina"
+       ],
+       "t": "agitación y alternativas"
+      },
+      {
+       "ids": [
+        "lorazepam",
+        "dexmedetomidina"
+       ],
+       "t": "otras opciones sedantes"
+      }
+     ]
+    },
+    {
+     "t": "Crisis epilépticas: formas bucal e intramuscular",
+     "x": "La solución bucal es la única forma con indicación en las crisis en España: Buccolam y Oroxelam están autorizados para las crisis convulsivas agudas y prolongadas desde los 3 meses hasta la edad adulta, administrados por padres o cuidadores solo si hay diagnóstico de epilepsia, y en lactantes de 3 a 6 meses únicamente en un hospital con monitorización y equipo de reanimación (fichas técnicas, 4.1). En un ensayo multicéntrico en urgencias pediátricas sin acceso venoso, el midazolam bucal logró el cese de la crisis en 10 minutos durante al menos una hora sin depresión respiratoria que requiriera intervención en el 56 % frente al 27 % con diazepam rectal (McIntyre 2005). La vía intramuscular figura en la ficha del inyectable solo para la premedicación y como vía excepcional por ser dolorosa (4.2); el ensayo RAMPART, en 893 niños y adultos tratados por técnicos de emergencias, mostró no inferioridad y superioridad del midazolam intramuscular por autoinyector frente al lorazepam intravenoso, gracias sobre todo a una administración más rápida (Silbergleit 2012). En Estados Unidos, la FDA autoriza el midazolam intramuscular para el estatus epiléptico en adultos (FDA 2023); en España ese uso es fuera de ficha técnica. Ante crisis atípicas en el contexto psiquiátrico, considerar el diagnóstico diferencial con las crisis funcionales.",
+     "links": [
+      {
+       "ids": [
+        "epilepsia_psic",
+        "psiep"
+       ],
+       "t": "epilepsia y psicosis"
+      },
+      {
+       "ids": [
+        "crisis_func"
+       ],
+       "t": "crisis funcionales"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad: interacciones y chemsex",
+     "x": "Antirretrovirales: por su dependencia casi exclusiva del CYP3A4, los comprimidos están contraindicados con inhibidores de la proteasa potenciados con ritonavir (ficha técnica de Dormicum, 4.3), y la ficha del inyectable pide reducir sistemáticamente la dosis en perfusión prolongada con inhibidores de la proteasa distintos del saquinavir (ficha técnica de Midazolam Normon, 4.5); el midazolam oral también está contraindicado con cobicistat (ficha técnica de Tybost, 4.3). Depresores: alcohol, opioides y otras benzodiacepinas potencian la sedación y la depresión respiratoria (4.5); por extrapolación, el GHB/GBL, depresor del SNC y respiratorio (Schep 2012), sin datos específicos de interacción [fuente no localizada]. Amnesia anterógrada (ficha técnica de Dormicum, 4.4; Midazolam Normon, 5.1): relevante en la valoración de agresiones sexuales facilitadas por fármacos, aunque la frecuencia con que interviene el midazolam en ellas es [fuente no localizada]. Sobredosis: puede considerarse flumazenilo bajo estrecha monitorización; su semivida, de alrededor de 1 hora, obliga a vigilar tras desaparecer su efecto y a extremar la precaución con fármacos que bajan el umbral convulsivo, como los tricíclicos (ficha técnica de Dormicum, 4.9).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "sumisión química"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Midazolam Normon 1 mg/ml solución inyectable y para perfusión EFG (n.º registro 63936), apartados 4.1-4.5, 5.1 y 5.2; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Dormicum 7,5 mg comprimidos recubiertos con película (midazolam) (n.º registro 59023), apartados 4.1, 4.3, 4.4, 4.5 y 4.9; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Fichas técnicas de Buccolam 2,5 mg solución bucal (n.º registro 11709001) y Oroxelam 10 mg solución bucal (n.º registro 85756), apartados 4.1 y 4.3; consulta de noviembre de 2026",
+    "Silbergleit R et al. (2012). Intramuscular versus intravenous therapy for prehospital status epilepticus. N Engl J Med 366:591-600 · PMID 22335736",
+    "McIntyre J et al. (2005). Safety and efficacy of buccal midazolam versus rectal diazepam for emergency treatment of seizures in children: a randomised controlled trial. Lancet 366:205-210 · PMID 16023510",
+    "TREC Collaborative Group (2003). Rapid tranquillisation for agitated patients in emergency psychiatric rooms: a randomised trial of midazolam versus haloperidol plus promethazine. BMJ 327:708-713 · PMID 14512476",
+    "Huf G et al. (2016). Haloperidol plus promethazine for psychosis-induced aggression. Cochrane Database Syst Rev 11:CD005146 · PMID 27885664",
+    "Isbister GK et al. (2010). Randomized controlled trial of intramuscular droperidol versus midazolam for violence and acute behavioral disturbance: the DORM study. Ann Emerg Med 56:392-401 · PMID 20868907",
+    "Khokhar MA & Rathbone J (2016). Droperidol for psychosis-induced aggression or agitation. Cochrane Database Syst Rev 12:CD002830 · PMID 27976370",
+    "Klein LR et al. (2018). Intramuscular midazolam, olanzapine, ziprasidone, or haloperidol for treating acute agitation in the emergency department. Ann Emerg Med 72:374-385 · PMID 29885904",
+    "FDA (2023). Summary review for regulatory action: Midazolam Injection (autoinjector), NDA 216359, Rafa Laboratories; listed drug Seizalam (NDA 209566) for status epilepticus in adults",
+    "NICE (2015). Violence and aggression: short-term management in mental health, health and community settings (NG10), recomendación 1.4.37",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (nº de registro 113872001), apartados 4.3 y 4.5; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "agitacion",
+    "ansiol_bzd",
+    "lorazepam",
+    "haloperidol",
+    "olanzapina",
+    "dexmedetomidina",
+    "chemsex_arv",
+    "ghb_gbl",
+    "sumision_q",
+    "opioides",
+    "insom",
+    "epilepsia_psic",
+    "crisis_func",
+    "delirium",
+    "sedantes_tus"
+   ]
+  },
+  {
+   "id": "bromazepam",
+   "n": "Bromazepam (Lexatin)",
+   "ab": "Bromazepam",
+   "al": [
+    "Lexatin",
+    "bromazepam",
+    "benzodiacepina de semivida intermedia"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Benzodiacepina de semivida intermedia (unas 20 h) sin metabolitos de semivida más larga que el fármaco original, con biodisponibilidad del 60 %, pico plasmático en 2 h y metabolismo hepático en el que participa el CYP1A2, sin implicación relevante del CYP3A4 ni del CYP2C9 (ficha técnica de Lexatin, AEMPS-CIMA, 5.2). Comercializado en España como Lexatin 1,5 mg y 3 mg cápsulas duras (n.º registro 53560 y 55751; Cheplapharm) y como genéricos. Indicaciones (4.1): enfermedades que cursen con ansiedad, angustia, obsesiones, compulsiones, fobias e hipocondrías; reacciones emocionales exageradas ante situaciones conflictivas y de estrés; dificultad de contacto interpersonal y de comunicación, trastornos de la conducta, agresividad excesiva, inadaptaciones escolares y como auxiliar en psicoterapia; organoneurosis y somatizaciones, siempre que el trastorno sea intenso o limite la actividad. La duración no debe exceder de 8 a 12 semanas (4.4). En personas mayores, las concentraciones en estado estacionario son de media casi el doble que en personas jóvenes (5.2).",
+   "feats": [
+    "Contraindicaciones (ficha técnica de Lexatin, 4.3): hipersensibilidad a benzodiacepinas, insuficiencia respiratoria grave, insuficiencia hepática grave (riesgo de encefalopatía), miastenia gravis y síndrome de apnea del sueño",
+    "Interacciones (4.5): la fluvoxamina (inhibidor de CYP1A2) multiplica por 2,4 el AUC y por 1,9 la semivida; la cimetidina reduce el aclaramiento un 50 %; la ficha pide precaución y reducir la dosis con inhibidores potentes de CYP3A4 (azoles, inhibidores de la proteasa, macrólidos), aunque el itraconazol no modificó su farmacocinética (5.2)",
+    "Depresión y suicidio (4.4): no usar en monoterapia de la depresión ni de la ansiedad asociada a depresión y limitar la cantidad prescrita ante tendencias suicidas; precaución extrema con antecedentes de alcoholismo o drogadicción, y abuso notificado con mayor frecuencia en personas con policonsumo",
+    "TAG: en un ensayo aleatorizado de 12 semanas (334 pacientes), la hidroxizina superó al placebo y no difirió del bromazepam, que produjo más somnolencia (Llorca 2002)",
+    "Ansiedad social: un único ensayo controlado sugiere una eficacia del bromazepam similar a la de los ISRS, con problemas de efectos adversos y dependencia y necesidad de confirmación (Versiani 2000; Blanco 2002)",
+    "Retirada de benzodiacepinas: como fármaco de sustitución durante cuatro semanas, eficacia similar a la ciamemazina en ansiedad de rebote y éxito de retirada a seis meses (65,5 % frente a 66,7 %) (Lemoine 2006)",
+    "Intoxicación: fue la benzodiacepina más frecuente en una serie de 387 intoxicaciones puras por benzodiacepinas, con más coma, insuficiencia respiratoria y neumonía aspirativa en mayores (Vukcević 2016); puede causar coma prolongado pese a su semivida teórica (Lakhal 2010)"
+   ],
+   "tx": "Ansiolítico de uso breve con plan de retirada desde el inicio (ficha técnica de Lexatin, 4.4; NICE CG113, 1.2.26). Evitarlo en la depresión sin antidepresivo, en antecedentes de trastorno por consumo de sustancias y, ante riesgo autolítico, limitar la cantidad dispensada; en personas mayores, dosis menores (ficha técnica, 4.2 y 5.2). Revisar fluvoxamina y otros inhibidores de CYP1A2 y CYP3A4. Retirada gradual. Sin pautas individualizadas: límites según la ficha técnica AEMPS-CIMA.",
+   "note": "Las indicaciones de la ficha española (obsesiones, compulsiones, hipocondría, inadaptaciones escolares, auxiliar en psicoterapia) no se corresponden con las recomendaciones actuales, que en el TOC y en la ansiedad por la salud priorizan la psicoterapia y los ISRS [fuente no localizada para cada guía]. La evidencia propia del bromazepam procede de ensayos antiguos y pequeños, sin metaanálisis específicos.",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "Las guías no individualizan el bromazepam: NICE CG113 limita las benzodiacepinas en el TAG a usos breves durante crisis (1.2.26) y desaconseja su prescripción en el pánico (1.3.20), y NICE CG159 no recomienda ofrecerlas de forma sistemática en la ansiedad social. La evidencia comparativa propia es limitada. En el TAG, un ensayo multicéntrico doble ciego de 12 semanas con 334 pacientes ambulatorios usó el bromazepam como comparador activo: la hidroxizina superó al placebo en la escala de Hamilton y no difirió del bromazepam, que causó más somnolencia (Llorca 2002). En la ansiedad social, una revisión de 19 ensayos controlados con placebo situó a clonazepam y bromazepam, con un ensayo cada uno, en una eficacia similar a la de los ISRS, pero con efectos adversos y dependencia (Versiani 2000), y otra revisión pidió más estudios para confirmar esos resultados aislados (Blanco 2002). En la ansiedad de la enfermedad de Parkinson, una revisión narrativa lo considera útil, sin ensayos que permitan cuantificarlo (Lauterbach 2005). Nota factual: la ficha española mantiene indicaciones amplias (obsesiones, compulsiones, hipocondría, trastornos de conducta e inadaptaciones escolares); la prioridad de uso la marcan las guías.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "hidroxizina",
+        "farm_anx"
+       ],
+       "t": "TAG y alternativas"
+      },
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "ansiedad social"
+      },
+      {
+       "ids": [
+        "parkinson_psiq"
+       ],
+       "t": "ansiedad en la enfermedad de Parkinson"
+      }
+     ]
+    },
+    {
+     "t": "Farmacocinética y personas mayores",
+     "x": "Según la ficha técnica de Lexatin (5.2), el bromazepam se absorbe con rapidez, alcanza el pico en 2 h y tiene una biodisponibilidad absoluta del 60 %; el estado estacionario se logra en 5-9 días, con concentraciones 3-4 veces superiores a las de una dosis única. Se une a proteínas en un 70 %, con un volumen de distribución de unos 50 litros, y se metaboliza en el hígado a 3-hidroxi-bromazepam, menos activo, y a un derivado de la piridina inactivo; solo el 2 % se elimina inalterado por la orina. El itraconazol y el fluconazol no modificaron su farmacocinética, mientras que la interacción intensa con fluvoxamina indica participación del CYP1A2. En personas mayores, la concentración máxima es mayor, la fracción libre aumenta y el aclaramiento disminuye, con concentraciones en estado estacionario casi dobles y mayor sensibilidad farmacodinámica, por lo que la ficha recomienda reducir la dosis. No hay datos farmacocinéticos en la insuficiencia renal. La posible reducción de sus concentraciones por la inducción del CYP1A2 que produce el tabaco fumado no está estudiada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "fk_mayor",
+        "bzd_mayor"
+       ],
+       "t": "farmacocinética en la persona mayor"
+      },
+      {
+       "ids": [
+        "fluvoxamina"
+       ],
+       "t": "interacción con fluvoxamina"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad: intoxicación, dependencia y consumo",
+     "x": "Intoxicación: en una serie serbia de 387 intoxicaciones voluntarias puras por benzodiacepinas, el bromazepam fue el fármaco más frecuente, y las personas mayores presentaron más coma, estancias más largas, insuficiencia respiratoria y neumonía aspirativa, y necesitaron flumazenilo con más frecuencia (Vukcević 2016); se ha descrito un coma prolongado, con extubación al decimosexto día, tras una ingesta masiva y sin insuficiencia renal ni hepática, pese a su semivida teórica moderada (Lakhal 2010). Dependencia (ficha técnica de Lexatin, 4.4): el riesgo aumenta con la dosis, la duración y los antecedentes de consumo; la retirada brusca puede causar desrealización, despersonalización, hiperacusia, hipersensibilidad a la luz y al contacto, alucinaciones o convulsiones, y cambiar a una benzodiacepina de eliminación más corta puede precipitar abstinencia. Opioides y otros depresores (4.5): efecto aditivo con alcohol, antipsicóticos, antidepresivos, anticonvulsivantes y antihistamínicos sedantes, con depresión cardiorrespiratoria, y especial atención con opioides en mayores; con opioides también puede aumentar la euforia y la dependencia psíquica. En el chemsex, por extrapolación de esa advertencia, incluye el GHB/GBL (Schep 2012); con antirretrovirales potenciados, la ficha pide precaución con los inhibidores de la proteasa sin datos específicos de cobicistat [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd",
+        "sedantes_tus"
+       ],
+       "t": "dependencia y retirada"
+      },
+      {
+       "ids": [
+        "opioides",
+        "ghb_gbl",
+        "chemsex_arv"
+       ],
+       "t": "depresores y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Lexatin 1,5 mg cápsulas duras (bromazepam) (n.º registro 53560), apartados 4.1-4.5, 5.1 y 5.2; consulta de noviembre de 2026",
+    "Llorca PM et al. (2002). Efficacy and safety of hydroxyzine in the treatment of generalized anxiety disorder: a 3-month double-blind study. J Clin Psychiatry 63:1020-1027 · PMID 12444816",
+    "Versiani M (2000). A review of 19 double-blind placebo-controlled studies in social anxiety disorder (social phobia). World J Biol Psychiatry 1:27-33 · PMID 12607230",
+    "Blanco C, Antia SX & Liebowitz MR (2002). Pharmacotherapy of social anxiety disorder. Biol Psychiatry 51:109-120 · PMID 11801236",
+    "Lemoine P et al. (2006). Double-blind, comparative study of cyamemazine vs. bromazepam in the benzodiazepine withdrawal syndrome. Prog Neuropsychopharmacol Biol Psychiatry 30:131-137 · PMID 16243418",
+    "Vukcević NP et al. (2016). Benzodiazepine poisoning in elderly. Vojnosanit Pregl 73:234-238 · PMID 27295906",
+    "Lakhal K et al. (2010). Protracted deep coma after bromazepam poisoning. Int J Clin Pharmacol Ther 48:79-83 · PMID 20040343",
+    "Lauterbach EC (2005). The neuropsychiatry of Parkinson's disease. Minerva Med 96:155-173 · PMID 16175159",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "NICE (2011). Generalised anxiety disorder and panic disorder in adults: management (CG113), recomendaciones 1.2.26 y 1.3.20",
+    "NICE (2013). Social anxiety disorder: recognition, assessment and treatment (CG159)"
+   ],
+   "rel": [
+    "ansiol_bzd",
+    "tag",
+    "fobia_soc",
+    "hidroxizina",
+    "fluvoxamina",
+    "bzd_dep",
+    "desprescr_bzd",
+    "bzd_mayor",
+    "sedantes_tus",
+    "opioides",
+    "alprazolam",
+    "lorazepam",
+    "parkinson_psiq",
+    "farm_anx"
+   ]
+  }
+ ]
+}

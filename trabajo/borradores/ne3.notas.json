@@ -1,0 +1,13 @@
+{"dudas":[
+"Colme (cianamida): la API REST de CIMA (consulta de noviembre de 2026) no devuelve ningún medicamento con cianamida, ni con el nombre Colme ni con ATC N07BB02 (el grupo N07BB solo incluye Antabus, Campral, Selincro, Tranalex y Revia no comercializado). No se ha localizado la fecha ni el motivo de revocación o retirada; por eso el nodo va en el anillo 4 (histórico) y la situación registral se marca [fuente oficial no localizada]. Si el atlas tiene constancia de que sigue comercializado, conviene cambiar a anillo 3.",
+"Cianamida: casi toda la evidencia de eficacia y reacción con etanol se obtuvo con carbimida cálcica citratada (Temposil); la equivalencia con la cianamida en solución (Colme) va marcada [fuente no localizada].",
+"Clometiazol: no se ha podido abrir NICE CG100 (HTTP 403); la mención del clometiazol como alternativa hospitalaria en esa guía va marcada [fuente no localizada]. Solo se cita la recomendación 1.1.3.1 tal como ya figura verificada en otros nodos del atlas.",
+"Midazolam: la ficha de Buccolam (autorización centralizada; consulta CIMA) extiende ya la indicación a adultos («desde los 3 meses a adultos»); no se ha localizado la fecha de esa modificación. La FDA (Seizalam, NDA 209566; autoinyector NDA 216359) se apoya en el resumen de revisión de la FDA de 2023, comprobado en su texto.",
+"Midazolam: NICE NG10 1.4.37 se cita tal como ya figura en otro nodo del atlas (lorazepam IM o haloperidol con prometazina); no se ha podido abrir la guía (HTTP 403).",
+"No se incluye el campo «y» (año) en ninguno de los cinco nodos porque no se ha podido verificar en fuente primaria la fecha de síntesis o comercialización.",
+"No se incluye «cie» (no procede para fármacos).",
+"No se han encontrado en PubMed datos específicos de clometiazol, clorazepato, bromazepam, midazolam ni cianamida en el contexto del chemsex; las interacciones con GHB/GBL se presentan por extrapolación de las fichas técnicas y marcadas cuando procede. Para el clorazepato, la advertencia de la ficha sobre el oxibato de sodio (sal sódica del GHB) es directa.",
+"Ninguno de los cinco existía previamente en el atlas con otro nombre (búsquedas q.js find por nombre genérico y comercial sin resultados)."
+],
+"pmid_verificados":["9566471","11825860","12634266","28898879","8625628","15359376","476374","6516604","22746383","6101808","6323909","6323849","3683093","8561306","10803790","10803789","16937512","371903","6346921","2673441","2688764","22628390","10660854","2887072","329424","18384456","35194860","22335736","16023510","14512476","27885664","20868907","27976370","29885904","12444816","12607230","11801236","16243418","27295906","20040343","16175159"]
+}
