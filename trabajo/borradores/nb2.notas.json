@@ -1,0 +1,43 @@
+{
+ "dudas": [
+  "Ninguno de los cuatro fármacos tenía ficha propia (q.js find: prazosin, clonidin, baclofen, dexmedetom). La guanfacina sí la tiene (id guanfacina, y no_estim_tdah): el nodo clonidina remite a ella y no duplica su perfil.",
+  "Fichas técnicas cotejadas en CIMA (noviembre de 2026): Minipres 55064/55063/55062 (4.1 solo HTA, Raynaud e HBP); Catapresan 50669 (4.1 solo HTA; 4.4.1 advertencia de muerte con metilfenidato; 5.1.4 eficacia pediátrica no demostrada en TDAH/Tourette); Lioresal 52180 (4.1 solo espasticidad; también Combix 89367 e Inabex 91597, misma indicación); Dexdor 11718006 (la versión HTML de CIMA no incluye el aviso SPICE III de mortalidad en ≤65 años; se tomó de la información de producto de la EMA, enlazada por CIMA como PDF). Lofexidina e Igalmi no constan en CIMA.",
+  "Igalmi: aprobación FDA de 5-4-2022 (NDA 215390) comprobada en Drugs@FDA (openFDA); la ficha estadounidense se leyó vía openFDA/DailyMed. Constan suplementos de eficacia aprobados en 2025 y 2026 (probablemente ampliación de entorno de uso) cuyo contenido no se ha podido leer (accessdata.fda.gov bloqueado); no se mencionan. No se localizó EPAR de la EMA (página inexistente) y se marca «[fuente no localizada]».",
+  "VA/DoD 2023: recomendaciones 18 (débil en contra de prazosina para el TEPT global), 32 (débil a favor para pesadillas) y 33 (insuficiente para IRT) comprobadas en el Provider Summary v4.0 (healthquality.va.gov).",
+  "Real Decreto 1015/2009, art. 13 (uso en condiciones diferentes de las autorizadas) cotejado en boe.es.",
+  "Marcados [fuente no localizada]: recomendación PADIS concreta sobre dexmedetomidina en delirium agitado (no figura en el resumen); recomendación NICE NG87 sobre clonidina en tics por estimulantes (ya presente en la ficha tics del atlas, no cotejada); mecanismo noradrenérgico central de la prazosina en pesadillas; interacciones por analogía con poppers y GHB/GBL; ausencia de nota de la AEMPS sobre baclofeno en alcohol; ausencia de autorización de la EMA para la película sublingual.",
+  "Posición de la ANSM: la autorización francesa de 2018 limitada a la reducción del consumo se apoya en Rolland 2025 (Encephale) y Paille 2021; no se cita el nombre comercial francés ni la dosis máxima autorizada por no haberse verificado en fuente oficial.",
+  "Incoherencia menor detectada en el atlas (no corregida, fuera de alcance): la ficha guanfacina cita Hirota (2013) con J Am Acad Child Adolesc Psychiatry 53:153-73; PubMed fecha la edición en 2014 (epub diciembre de 2013). En el nodo clonidina se cita como (2014).",
+  "Anillos elegidos: prazosina 2 (débil a favor en VA/DoD, metaanálisis positivo con ECR negativo), clonidina 2 (Cochrane de calidad moderada en abstinencia de opioides; fuera de ficha), baclofeno 3 (beneficio modesto, fuera de ficha, señal de seguridad), dexmedetomidina 2 (ECR en UCI; agitación psiquiátrica solo con formulación no disponible en España). Revisable por el autor.",
+  "relAdd añadidos: prazosina ← ptsd, parasomn, desnos; clonidina ← guanfacina, tourette, cows, no_estim_tdah; baclofeno ← alcohol, ghb_abst, nalmefeno, acamprosato, naltrexona; dexmedetomidina ← delirium, agitacion, dt_alc, haloperidol."
+ ],
+ "pmid_verificados": [
+  "11865128",
+  "18068515",
+  "18073360",
+  "19188334",
+  "21241954",
+  "23099282",
+  "23846759",
+  "24472251",
+  "26975647",
+  "27140827",
+  "28525555",
+  "29414272",
+  "29651711",
+  "29852917",
+  "30113379",
+  "30251424",
+  "31112380",
+  "31833590",
+  "32362287",
+  "34106538",
+  "35191924",
+  "36002761",
+  "36198061",
+  "36258676",
+  "36637087",
+  "38408360",
+  "39244501"
+ ]
+}
