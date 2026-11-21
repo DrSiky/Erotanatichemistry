@@ -1,0 +1,22 @@
+{
+ "pmid_comprobados": 31,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {"id":"anfetaminas","gravedad":"menor","antes":"Mecanismo liberador descrito sin fuente; mecanismo de la MDMA atribuido solo por contraste","despues":"Añadida referencia Sulzer 2005 (PMID 15955613) al mecanismo liberador no exocitótico y a la liberación catecolaminérgica; incorporada a refs","fuente":"Sulzer D et al. (2005) Prog Neurobiol 75:406-433; doi:10.1016/j.pneurobio.2005.04.003"},
+  {"id":"anfetaminas","gravedad":"menor","antes":"'La dexanfetamina y la lisdexanfetamina son medicamentos autorizados para el TDAH'","despues":"Precisado que en España solo consta autorizada la lisdexanfetamina; la dexanfetamina marcada [fuente no localizada]","fuente":"coherencia con nodos estim_adulto y lisdexanfetamina del atlas"},
+  {"id":"anfetaminas","gravedad":"menor","antes":"Afirmaciones sin fuente: vías rápidas aumentan refuerzo; efecto prolongado facilita sesiones; sesiones sin dormir atribuidas a Maxwell 2019; antipsicótico 'tiempo mínimo'","despues":"Marcadas con [fuente no localizada]; separada de Maxwell 2019 la afirmación sobre sesiones sin dormir, que la revisión no cuantifica","fuente":"Maxwell 2019 PMID 30513473 (no cuantifica duración de sesiones)"},
+  {"id":"mdma","gravedad":"menor","antes":"'liberación preferente de serotonina' y 'más probable con IMAO/CYP2D6' sin fuente","despues":"Marcadas [fuente no localizada]","fuente":"Kalant 2001 PMID 11599334 (describe perfil mixto, no cuantifica preferencia)"},
+  {"id":"mdma","gravedad":"menor","antes":"Reducción de daños con lista de medidas (pausas, hidratación) sin fuente","despues":"Reescrita hacia información de riesgos (hipertermia, hiponatremia) con Campbell y Rosner 2008 y marcador en interacciones","fuente":"Campbell & Rosner 2008 PMID 18684895"},
+  {"id":"mdma","gravedad":"menor","antes":"Neurotoxicidad animal 'a dosis próximas a las de consumo humano' sin cita en esa frase","despues":"Añadida cita McCann 1998 en la frase","fuente":"McCann 1998 PMID 9807990"},
+  {"id":"cannab_sint","gravedad":"menor","antes":"Formas de consumo (pulverizados/líquidos para vapear) y tratamiento de la psicosis sin fuente","despues":"Atribuida la forma 'disuelto sobre vegetal seco y fumado' a CDC 2013; vapeo y antipsicótico marcados [fuente no localizada]","fuente":"CDC 2013 PMID 23407124"},
+  {"id":"opioides_sint","gravedad":"mayor","antes":"Enlace de la sección 'Compuestos y farmacología' apuntaba a sind_ser con rótulo 'fentanilo y síndrome serotoninérgico' (el fentanilo no es serotoninérgico de forma relevante; atribución no sostenida)","despues":"Enlace redirigido a naloxona; rótulo corregido","fuente":"Dahan 2024 PMID 38481848; sind_ser (nodo del atlas) no lista fentanilo como causa típica más allá de mención"},
+  {"id":"opioides_sint","gravedad":"menor","antes":"Frase de Moss y Carlo (2019) presentaba como establecido el 'margen estrecho efecto/depresión'; autores vinculados a fabricante de naloxona","despues":"Reformulada a los hechos del resumen (inicio rápido, concentraciones elevadas) y el nexo causal marcado [fuente no localizada]; conflicto ya advertido en note","fuente":"Moss & Carlo 2019 PMID 30777088 (afiliación Adamis Pharmaceuticals)"},
+  {"id":"opioides_sint","gravedad":"menor","antes":"'La naloxona no revierte los efectos de la xilacina' (absoluto)","despues":"Matizado a 'probablemente no revierte', conforme a Dahan 2024","fuente":"Dahan 2024 PMID 38481848 ('naloxone is probably ineffective' para xilacina)"},
+  {"id":"opioides_sint","gravedad":"menor","antes":"Benzodiacepinas de diseño como adulterante frecuente, sin fuente","despues":"Marcada [fuente no localizada]","fuente":"n/a"}
+ ],
+ "sin_resolver": [
+  "Holland 2024 (PMID 38224702): comentario en Lancet Public Health sin resumen en PubMed; se conserva con marcador 'contenido no contrastado' (verificados autor, año, revista, volumen y páginas).",
+  "Difusión europea/española de nitazenos y detección en heroína/comprimidos falsificados: se conservan con [fuente no localizada]; la cifra de ≥200 muertes sí consta en Ujváry 2021.",
+  "Inclusión del HHC en la categoría CIE-11 6C42: no explicitada en la tabulación oficial; conservada con [fuente oficial no localizada]. Códigos 6C46, 6C4C, 6C42, 6C42.4 y 6C43 confirmados en la tabulación de la OMS."
+ ]
+}
