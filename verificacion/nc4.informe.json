@@ -1,0 +1,194 @@
+{
+ "pmid_comprobados": 34,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "hipoglucemia_psiq",
+   "gravedad": "mayor",
+   "antes": "\"cie\":\"5A41\"",
+   "despues": "\"cie\":[\"5A41\"]",
+   "fuente": "Formato exigido por tools/apply.js; código comprobado en SimpleTabulation ICD-11 MMS 2025"
+  },
+  {
+   "id": "tirotoxicosis_psiq",
+   "gravedad": "mayor",
+   "antes": "\"cie\":\"5A02\"",
+   "despues": "\"cie\":[\"5A02\"]",
+   "fuente": "Formato exigido por tools/apply.js; código comprobado en SimpleTabulation ICD-11 MMS 2025"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "mayor",
+   "antes": "\"cie\":\"5A51\"",
+   "despues": "\"cie\":[\"5A51\"]",
+   "fuente": "Formato exigido por tools/apply.js; código comprobado en SimpleTabulation ICD-11 MMS 2025"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "mayor",
+   "antes": "\"cie\":\"GB61\"",
+   "despues": "\"cie\":[\"GB61\"]",
+   "fuente": "Formato exigido por tools/apply.js; código comprobado en SimpleTabulation ICD-11 MMS 2025"
+  },
+  {
+   "id": "hipoglucemia_psiq",
+   "gravedad": "menor",
+   "antes": "produce confusión, cambios de personalidad y conducta extraña, amnesia del episodio y crisis epilépticas, y la respuesta autonómica añade sudoración y temblor (Dizon 1999); si se prolonga, puede llegar al coma [fuente no localizada].",
+   "despues": "produce confusión, cambios de personalidad o conducta extraña y amnesia del episodio, y la respuesta autonómica añade sudoración y temblor (Dizon 1999); en esa serie el diagnóstico previo erróneo más frecuente fue la epilepsia. Si se prolonga, puede causar crisis epilépticas y coma [fuente no localizada].",
+   "fuente": "PMID 10190379: el resumen no enumera las crisis epilépticas entre los síntomas, sino la epilepsia como diagnóstico previo erróneo (39 %)"
+  },
+  {
+   "id": "hipoglucemia_psiq",
+   "gravedad": "menor",
+   "antes": "El insulinoma se trata con cirugía [fuente no localizada];",
+   "despues": "El insulinoma se trata con extirpación quirúrgica, tras la cual la supervivencia a largo plazo de la forma benigna es normal (Service 1991);",
+   "fuente": "PMID 1677058: «After successful surgical removal... for patients with benign disease, the long-term survival is normal»"
+  },
+  {
+   "id": "tirotoxicosis_psiq",
+   "gravedad": "menor",
+   "antes": "se acompaña de ansiedad, irritabilidad, labilidad, insomnio y, con menor frecuencia, de manía, depresión o psicosis; la hiperactividad adrenérgica explica gran parte de la clínica (Bunevicius 2006).",
+   "despues": "se acompaña de trastornos de ansiedad y del estado de ánimo y, a veces, de disfunción cognitiva, atribuidos en gran parte a la hiperactividad adrenérgica (Bunevicius 2006), así como de irritabilidad e insomnio [fuente no localizada]; con menor frecuencia precipita psicosis afectivas agudas, maníacas o depresivas (Brownlie 2000).",
+   "fuente": "PMID 17044727 solo menciona trastornos afectivos y de ansiedad y, a veces, disfunción cognitiva; la psicosis procede de PMID 10802519"
+  },
+  {
+   "id": "tirotoxicosis_psiq",
+   "gravedad": "menor",
+   "antes": "la exposición a litio fue 4,7 veces más probable en la tiroiditis silente que en la enfermedad de Graves",
+   "despues": "las probabilidades (odds) de exposición a litio fueron 4,7 veces mayores en la tiroiditis silente que en la enfermedad de Graves (IC 95 % 1,3-17)",
+   "fuente": "PMID 11678833: «odds of lithium exposure were increased 4.7-fold (95% CI: 1.3, 17)»"
+  },
+  {
+   "id": "tirotoxicosis_psiq",
+   "gravedad": "menor",
+   "antes": "con una exposición al litio 4,7 veces más probable en la tiroiditis silente que en la enfermedad de Graves (Miller y Daniels 2001)",
+   "despues": "con odds de exposición al litio 4,7 veces mayores en la tiroiditis silente que en la enfermedad de Graves en una revisión retrospectiva (Miller y Daniels 2001)",
+   "fuente": "PMID 11678833"
+  },
+  {
+   "id": "tirotoxicosis_psiq",
+   "gravedad": "menor",
+   "antes": "La guía de la American Thyroid Association de 2017 dedica recomendaciones específicas a la tirotoxicosis y la tiroiditis del posparto (Alexander 2017).",
+   "despues": "La guía de la American Thyroid Association de 2017 incluye recomendaciones sobre la tirotoxicosis en el embarazo y sobre la enfermedad tiroidea del posparto (Alexander 2017).",
+   "fuente": "PMID 28056690: el resumen enumera «thyrotoxicosis in pregnancy» y el periodo posparto, sin precisar el alcance que se le atribuía"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "menor",
+   "antes": "presenta hipercalcemia en estudios transversales (Albert 2013; Meehan 2018)",
+   "despues": "presenta hipercalcemia en un estudio transversal y otro retrospectivo (Albert 2013; Meehan 2018)",
+   "fuente": "PMID 29260296 es retrospectivo, no transversal"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "menor",
+   "antes": "(194 personas con hiperparatiroidismo primario y 186 controles con nódulo tiroideo)",
+   "despues": "(194 personas con hiperparatiroidismo primario y 186 controles con nódulo tiroideo no tóxico)",
+   "fuente": "PMID 23560281"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "menor",
+   "antes": "sin beneficio a uno y dos años en 191, pese a peor calidad de vida basal que los controles sanos (Bollerslev 2007)",
+   "despues": "191 aleatorizadas, con datos a uno y dos años de 119 y 99, sin beneficio de la cirugía pese a peor calidad de vida basal que los controles sanos (Bollerslev 2007)",
+   "fuente": "PMID 17284629: datos a 1 año n=119 y a 2 años n=99"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "menor",
+   "antes": "sin enmascaramiento y con controles de cirugía tiroidea (Weber 2013; Espiritu 2011)",
+   "despues": "sin enmascaramiento y con controles con enfermedad tiroidea benigna (Weber 2013; Espiritu 2011)",
+   "fuente": "PMID 23560281: controles con nódulo tiroideo no tóxico; solo Espiritu (PMID 21917870) especifica cirugía tiroidea"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "menor",
+   "antes": "En los estudios prospectivos con controles de cirugía tiroidea,",
+   "despues": "En los estudios prospectivos con controles con enfermedad tiroidea benigna,",
+   "fuente": "PMID 23560281; PMID 21917870"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "menor",
+   "antes": "usan como controles a personas operadas del tiroides",
+   "despues": "usan como controles a personas con enfermedad tiroidea benigna (operadas, en el estudio de Espiritu)",
+   "fuente": "PMID 23560281; PMID 21917870"
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "gravedad": "menor",
+   "antes": "como reconocen Albert (2013) y Meehan (2018), que piden estudios prospectivos.",
+   "despues": "como reconoce Albert (2013); Meehan (2018) pide estudios prospectivos.",
+   "fuente": "PMID 23870428 (limitación explícita); PMID 29260296 («Prospective studies are needed»)"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "menor",
+   "antes": "pero los ensayos con sertralina frente a placebo han sido negativos (Hedayati 2017; Friedli 2017).",
+   "despues": "pero los ensayos con sertralina frente a placebo no han mostrado beneficio: negativo en la ERC sin diálisis (Hedayati 2017) y no concluyente en hemodiálisis por su tamaño y sus abandonos (Friedli 2017).",
+   "fuente": "PMID 28126706: «trial size and the substantial dropout render consideration of benefit inconclusive»"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "menor",
+   "antes": "y los ensayos con sertralina frente a placebo fueron negativos (Hedayati 2017; Friedli 2017)",
+   "despues": "y los ensayos con sertralina frente a placebo no mostraron beneficio (Hedayati 2017) o no fueron concluyentes (Friedli 2017)",
+   "fuente": "PMID 29101402; PMID 28126706"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "mayor",
+   "antes": "Lo que se atribuye a las fichas técnicas procede de las fichas AEMPS-CIMA ya contrastadas en las fichas de fármacos del atlas, no de una nueva lectura en CIMA.",
+   "despues": "Lo atribuido a las fichas técnicas se ha cotejado literalmente en CIMA (apartados 4.2, 4.3, 4.4 y 5.2) el 21-11-2026; no se reproducen las pautas de ajuste.",
+   "fuente": "Fichas técnicas AEMPS-CIMA nº 48932, 04296001, 04279003, 60621, 62401, 63994 y 107395045"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "menor",
+   "antes": "la mejoría fue idéntica en ambos grupos",
+   "despues": "la mejoría fue prácticamente igual en ambos grupos (−4,1 frente a −4,2 puntos en la QIDS-C16)",
+   "fuente": "PMID 29101402"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "menor",
+   "antes": "el riesgo aumenta ya en fases tempranas de la ERC, de forma proporcional al descenso del filtrado (Kurella Tamura 2008).",
+   "despues": "la prevalencia del deterioro aumenta ya en fases tempranas de la ERC, un 11 % por cada 10 ml/min/1,73 m² de descenso del filtrado por debajo de 60, y los autores proponen cribarlo en todo adulto con ERC (Kurella Tamura 2008).",
+   "fuente": "PMID 18585836: la asociación global es no lineal; el 11 % se refiere a filtrados < 60"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "mayor",
+   "antes": "Sin indicar pautas, lo que recogen las fichas técnicas españolas (AEMPS-CIMA) ya contrastadas en el atlas: la ficha de Plenur contraindica el litio en la insuficiencia renal grave y señala que su semivida se alarga en la insuficiencia renal; la de Cymbalta contraindica la duloxetina con aclaramiento de creatinina inferior a 30 ml/min; la de Lyrica describe la eliminación renal inalterada de la pregabalina, con aclaramiento proporcional al de creatinina y ajuste en la insuficiencia renal; la de Neurontin advierte de depresión respiratoria grave con gabapentina, con más riesgo en la insuficiencia renal; la de Vandral Retard indica ajustar la venlafaxina; la de Solian, que el aclaramiento de la amisulprida se reduce 2,5-3 veces y exige ajuste; y la de Invega, que la exposición a la paliperidona aumenta y la excluye con aclaramiento inferior a 10 ml/min. La revisión de European Renal Best Practice añade la reducción del aclaramiento de bupropión, reboxetina, milnaciprán y desvenlafaxina (Nagler 2012).",
+   "despues": "Sin indicar pautas, lo que dicen las fichas técnicas españolas (AEMPS-CIMA, consultadas el 21-11-2026) sobre la insuficiencia renal: la de Plenur contraindica el litio en la insuficiencia renal grave, pide vigilar estrechamente la litemia en la leve o moderada y señala que la semivida de eliminación puede aumentar en la insuficiencia renal; la de Cymbalta, que la duloxetina no se debe utilizar con aclaramiento de creatinina inferior a 30 ml/min; la de Lyrica, que la pregabalina se elimina sobre todo por vía renal inalterada, con aclaramiento directamente proporcional al de creatinina, y que la dosis se reduce de forma individualizada; la de Neurontin, que la gabapentina se elimina inalterada solo por vía renal, que precisa ajuste en la insuficiencia renal y en hemodiálisis y que la insuficiencia renal aumenta el riesgo de depresión respiratoria grave; la de Vandral Retard, que es necesario ajustar la venlafaxina en la insuficiencia renal grave y en hemodiálisis; la de Solian, que el aclaramiento sistémico de la amisulprida se reduce por un factor de 2,5 a 3 y que la dosis debe reducirse; y la de Invega, que las concentraciones de paliperidona aumentan y que no se debe administrar con aclaramiento inferior a 10 ml/min. Nagler (2012) añade la reducción del aclaramiento de bupropión, reboxetina, milnaciprán y desvenlafaxina.",
+   "fuente": "Cotejo literal en CIMA: Plenur 4.2/4.3/4.4/5.2; Cymbalta 4.2/4.3; Lyrica 4.2/5.2; Neurontin 4.2/4.4/5.2; Vandral Retard 4.2/5.2; Solian 4.2/5.2; Invega 4.4. Contenido coincidente con el original, se precisan formulaciones literales (p. ej., venlafaxina: ajuste en IR grave y hemodiálisis; Plenur: vigilancia de litemia en IR leve-moderada)"
+  },
+  {
+   "id": "uremia_dialisis",
+   "gravedad": "mayor",
+   "antes": "AEMPS-CIMA (2026). Fichas técnicas de Plenur 400 mg (litio, nº 48932), Cymbalta 30 mg (duloxetina, nº 04296001), Lyrica 25 mg (pregabalina, nº 04279003), Neurontin 300 mg (gabapentina, nº 60621), Vandral Retard 75 mg (venlafaxina, nº 62401), Solian 100 mg (amisulprida, nº 63994) e Invega 6 mg (paliperidona, nº 107395045); apartados 4.2-4.4 y 5.2, según lo recogido en las fichas de fármacos del atlas [no verificada en nueva consulta]",
+   "despues": "AEMPS-CIMA (2026). Fichas técnicas de Plenur 400 mg (litio, nº 48932; 4.2, 4.3, 4.4, 5.2), Cymbalta 30 mg (duloxetina, nº 04296001; 4.2, 4.3), Lyrica 25 mg (pregabalina, nº 04279003; 4.2, 5.2), Neurontin 300 mg (gabapentina, nº 60621; 4.2, 4.4, 5.2), Vandral Retard 75 mg (venlafaxina, nº 62401; 4.2, 5.2), Solian 100 mg (amisulprida, nº 63994; 4.2, 5.2) e Invega 6 mg (paliperidona, nº 107395045; 4.4), consultadas el 21-11-2026. https://cima.aemps.es",
+   "fuente": "CIMA, consulta directa de las siete fichas"
+  },
+  {
+   "id": "porfiria",
+   "gravedad": "mayor",
+   "antes": "Esa base la mantienen el Centro Noruego de Porfiria (NAPOS) y la European Porphyria Network (EPNET) [fuente no localizada].",
+   "despues": "Hoy la mantiene el Centro Noruego de Porfiria (NAPOS) en colaboración con la International Porphyria Network (IPNET), y clasifica los fármacos por su riesgo de desencadenar crisis en la porfiria aguda intermitente, la porfiria variegata y la coproporfiria hereditaria a partir de la experiencia clínica internacional, los casos publicados y consideraciones teóricas, con cierto grado de incertidumbre (NAPOS 2026).",
+   "fuente": "https://www.drugs-porphyria.org (consultado el 21-11-2026): «© Napos 2026 ... In cooperation with Ipnet»; no figura EPNET"
+  },
+  {
+   "id": "porfiria",
+   "gravedad": "menor",
+   "antes": "(sin referencia a la base)",
+   "despues": "Norwegian Porphyria Centre (NAPOS) (2026). The Drug Database for Acute Porphyria. https://www.drugs-porphyria.org",
+   "fuente": "web oficial de la base"
+  }
+ ],
+ "sin_resolver": [
+  "Guías ATA 2016 (Ross) y 2017 (Alexander), Endocrine Society 2009 (Cryer) y V Taller de hiperparatiroidismo (Bilezikian 2022) contrastadas solo por su resumen en PubMed; lo que exige el texto completo queda marcado.",
+  "NICE CG185 (monitorización del calcio con litio) se toma de las fichas «endocrino» y «lm_bip» del atlas, sin nueva lectura de la guía.",
+  "No se ha localizado en la ficha técnica de Plenur una interacción específica litio-amiodarona; el nodo las trata solo como causas de tirotoxicosis.",
+  "Afirmaciones clínicas razonables sin fuente primaria localizada se mantienen con «[fuente no localizada]» (coma y crisis por neuroglucopenia prolongada, glucemia capilar antes de sedar, crisis tirotóxica e hipercalcemia grave como urgencias, retirada de la diálisis y capacidad, entre otras)."
+ ]
+}
