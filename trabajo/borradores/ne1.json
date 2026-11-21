@@ -1,0 +1,806 @@
+{
+ "patch": {
+  "ad_atip": {
+   "relAdd": [
+    "mianserina"
+   ]
+  },
+  "mirtazapina": {
+   "relAdd": [
+    "mianserina"
+   ]
+  },
+  "drt": {
+   "relAdd": [
+    "mianserina"
+   ]
+  },
+  "dep_tardia": {
+   "relAdd": [
+    "mianserina"
+   ]
+  },
+  "tca_dep": {
+   "relAdd": [
+    "maprotilina",
+    "doxepina",
+    "trimipramina",
+    "dosulepina"
+   ]
+  },
+  "epilepsia_psic": {
+   "relAdd": [
+    "maprotilina"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "maprotilina"
+   ]
+  },
+  "cyp2d6": {
+   "relAdd": [
+    "maprotilina"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "doxepina",
+    "trimipramina"
+   ]
+  },
+  "amitriptilina": {
+   "relAdd": [
+    "doxepina",
+    "dosulepina"
+   ]
+  },
+  "bzd_mayor": {
+   "relAdd": [
+    "doxepina"
+   ]
+  },
+  "cpic_tca": {
+   "relAdd": [
+    "doxepina",
+    "trimipramina"
+   ]
+  },
+  "dpsic": {
+   "relAdd": [
+    "trimipramina"
+   ]
+  },
+  "ideac_suic": {
+   "relAdd": [
+    "dosulepina"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "mianserina",
+   "n": "Mianserina",
+   "ab": "Mianserina",
+   "al": [
+    "mianserin",
+    "Lantanon",
+    "Tolvon",
+    "antidepresivo tetracíclico piperazino-azepínico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1979,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Antidepresivo tetracíclico del grupo piperazino-azepina, químicamente no relacionado con los tricíclicos según su ficha técnica. En España está autorizado y comercializado como Lantanon (comprimidos de 10 y 30 mg; nº de registro 54407 y 55690), con la indicación literal de «mejorar los síntomas de depresión en aquellos casos de enfermedad depresiva en los que la terapéutica farmacológica está indicada» (ficha técnica, 4.1). Bloquea los receptores α2, inhibe la recaptación de noradrenalina e interactúa con receptores de serotonina; su antagonismo H1 y α1 explica la sedación (5.1). Carece de acción anticolinérgica a dosis terapéuticas, pero obliga a vigilar la depresión medular (granulocitopenia y agranulocitosis) y el QT. CANMAT 2023 lo sitúa, junto con la mirtazapina, como adición de segunda línea en la depresión de difícil tratamiento (Lam 2024).",
+   "feats": [
+    "Estado en España (AEMPS-CIMA): Lantanon 10 mg (nº 54407, autorizado desde 1979) y 30 mg (nº 55690, desde 1981), ambos comercializados; titular Organon Salud; código ATC N06AX03",
+    "Contraindicaciones (ficha técnica de Lantanon, 4.3): manía, enfermedad hepática grave y uso concomitante con IMAO; la ficha exige dos semanas de separación con IMAO en ambos sentidos, incluidos moclobemida, tranilcipromina y linezolid (4.5)",
+    "Depresión medular (4.4): granulocitopenia o agranulocitosis, en general tras 4-6 semanas de tratamiento, reversibles al suspender y más frecuentes en edad avanzada; ante fiebre, dolor de garganta o estomatitis debe suspenderse y pedirse un hemograma",
+    "QT (4.4 y 4.9): QT prolongado y torsade de pointes poscomercialización; considerar suspender o reducir si el QTc supera 500 ms o aumenta más de 60 ms; en sobredosis predomina la sedación prolongada, con arritmias, convulsiones e hipotensión grave raras",
+    "Farmacocinética (5.2): biodisponibilidad del 20 %, unión a proteínas del 95 %, semivida de 21-61 horas y estado de equilibrio en unos 6 días; los antiepilépticos inductores de CYP3A4 (fenitoína, carbamazepina) reducen sus concentraciones (4.5)",
+    "Evidencia: en la depresión asociada al cáncer los ensayos con mianserina mostraron una reducción robusta de las puntuaciones a partir de 4 semanas (DME 0,60; IC 95 % 0,24-0,95), con menos abandonos por efectos adversos que placebo (Riblet 2014)"
+   ],
+   "tx": "Antidepresivo de segunda línea en España, útil sobre todo como adición a un ISRS en la depresión con respuesta insuficiente (CANMAT 2023; Lam 2024) o cuando se busca un perfil sedante sin efecto anticolinérgico. Requiere informar a la persona sobre los signos de infección que obligan a consultar y pedir hemograma, ECG basal si hay factores de riesgo de QT y evitar el alcohol. Posología y retirada según la ficha técnica de Lantanon; dispensación limitada al inicio si hay riesgo suicida (4.4).",
+   "note": "La mayor parte de los ensayos de mianserina son antiguos, pequeños o se realizaron en poblaciones concretas (cáncer, pacientes hospitalizados); no figura en el metaanálisis en red de Cipriani (2018), por lo que su eficacia comparada con los antidepresivos actuales es incierta. La frecuencia real de agranulocitosis no figura en la ficha técnica española (frecuencia no conocida) [fuente no localizada para una tasa fiable].",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías",
+     "x": "CANMAT 2023 no considera la mianserina entre los antidepresivos de primera línea en monoterapia, pero la recoge, junto con la mirtazapina, como adición de segunda línea en la depresión de difícil tratamiento, por detrás de aripiprazol y brexpiprazol (Lam 2024). El fundamento es el metaanálisis de 39 ensayos en el que combinar un inhibidor de la recaptación con un antagonista α2 presináptico superó a las demás combinaciones (DME 0,37; Henssler 2022). Los ensayos individuales con mianserina son pequeños: en 104 personas sin respuesta a fluoxetina, añadir mianserina redujo más la HAM-D a las 6 semanas que seguir solo con fluoxetina (tamaño del efecto 0,665), y el cambio a mianserina dio resultados intermedios (Ferreri 2001); en 31 pacientes hospitalizados, la adición a fluoxetina logró un 60 % de respuesta frente al 9 % con fluoxetina sola (Maes 1999). En prevención de recurrencias solo hay un ensayo de 22 pacientes (4 de 9 recurrencias con mianserina frente a 13 de 13 con placebo; Kishimoto 1994). NICE NG222 no menciona la mianserina; su grado en las guías BAP, WFSBP y en Maudsley no se ha contrastado [fuente no localizada]. En personas refugiadas con TEPT, la mianserina añadida al tratamiento habitual no superó al control a los 6 meses (Nielsen 2024).",
+     "links": [
+      {
+       "ids": [
+        "mirtazapina",
+        "ad_atip"
+       ],
+       "t": "antagonistas α2 de referencia"
+      },
+      {
+       "ids": [
+        "drt",
+        "isrs",
+        "fluoxetina"
+       ],
+       "t": "adición en respuesta insuficiente"
+      },
+      {
+       "ids": [
+        "ptsd",
+        "refugio_tept"
+       ],
+       "t": "ensayo negativo en refugiados con TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y poblaciones especiales",
+     "x": "La ficha técnica de Lantanon atribuye su efecto antidepresivo al bloqueo α2 presináptico y a la inhibición de la recaptación de noradrenalina, y su efecto sedante al antagonismo H1 y α1; su estructura carece de la cadena lateral responsable de la acción anticolinérgica de los tricíclicos, y en sobredosis es menos cardiotóxica que estos (5.1). La sedación aparece en los primeros días y la ficha advierte que reducir la dosis no siempre la disminuye pero puede comprometer la eficacia (4.8). Otros efectos recogidos con frecuencia no conocida: aumento de peso, hipotensión, bradicardia tras la dosis inicial, edema, artralgia, síndrome de piernas inquietas, convulsiones, síndrome neuroléptico maligno y alteración hepática. En personas mayores, una serie de 169 pacientes hospitalizados no halló cambios farmacocinéticos relevantes con la edad, aunque los neurolépticos elevaron sus concentraciones (Leinonen 1994); aun así, la agranulocitosis parece más frecuente en edad avanzada (4.4). En el embarazo y la lactancia los datos son limitados y la ficha pide sopesar beneficio y riesgo (4.6). No debe usarse en menores de 18 años (4.2 y 4.4). En insomnio primario, la revisión Cochrane solo halló un ensayo con mianserina, sin datos agrupables (Everitt 2018).",
+     "links": [
+      {
+       "ids": [
+        "fk_mayor",
+        "dep_tardia"
+       ],
+       "t": "uso en la persona mayor"
+      },
+      {
+       "ids": [
+        "peso_psicof",
+        "piernas_inquietas"
+       ],
+       "t": "efectos adversos propios"
+      },
+      {
+       "ids": [
+        "insom"
+       ],
+       "t": "evidencia escasa en insomnio"
+      },
+      {
+       "ids": [
+        "dep_embarazo",
+        "psicof_lactancia"
+       ],
+       "t": "embarazo y lactancia"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Hematología: fiebre, dolor de garganta, estomatitis u otros signos de infección obligan a suspender y a obtener un hemograma completo; el riesgo se concentra entre las semanas 4 y 6 (ficha técnica de Lantanon, 4.4). Corazón: precaución con síndrome de QT largo congénito, edad superior a 65 años, sexo femenino, cardiopatía estructural, insuficiencia renal o hepática, inhibidores de su metabolismo y otros fármacos que prolongan el QTc (algunos antipsicóticos y antibióticos); corregir antes hipopotasemia e hipomagnesemia. También debe interrumpirse si aparecen ictericia o convulsiones, y puede precipitar hipomanía en el trastorno bipolar. Riesgo suicida: como con otros antidepresivos, vigilancia estrecha al inicio y tras cambios de dosis y entrega de cantidades limitadas (4.4). Consumo de sustancias y chemsex: la ficha recomienda evitar el alcohol por potenciación de la depresión del sistema nervioso central (4.5); la suma de sedación con GHB/GBL, benzodiacepinas u opioides es plausible por mecanismo, sin estudios específicos [fuente no localizada]. Con antirretrovirales potenciados (ritonavir, cobicistat) no se han localizado datos de interacción con mianserina [fuente no localizada]; su metabolismo por desmetilación y oxidación y la inducción por inductores de CYP3A4 sugieren vigilar la respuesta.",
+     "links": [
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "prolongación del QT"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "bp3"
+       ],
+       "t": "riesgo suicida y viraje"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "depresores y antirretrovirales en chemsex"
+      },
+      {
+       "ids": [
+        "maois",
+        "moclobemida"
+       ],
+       "t": "contraindicación con IMAO"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Lantanon 10 mg y 30 mg comprimidos recubiertos con película (mianserina) (nº de registro 54407 y 55690), apartados 4.1-4.9, 5.1 y 5.2; texto revisado en marzo de 2015; ambos registros autorizados y comercializados, consulta de noviembre de 2026",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Henssler J et al. (2022). Combining antidepressants vs antidepressant monotherapy for treatment of patients with acute depression: a systematic review and meta-analysis. JAMA Psychiatry 79:300-312 · PMID 35171215",
+    "Ferreri M et al. (2001). Benefits from mianserin augmentation of fluoxetine in patients with major depression non-responders to fluoxetine alone. Acta Psychiatr Scand 103:66-72 · PMID 11202131",
+    "Maes M et al. (1999). Pindolol and mianserin augment the antidepressant activity of fluoxetine in hospitalized major depressed patients, including those with treatment resistance. J Clin Psychopharmacol 19:177-182 · PMID 10211920",
+    "Kishimoto A et al. (1994). Prophylactic effect of mianserin on recurrent depression. Acta Psychiatr Scand 89:46-51 · PMID 8140906",
+    "Riblet N et al. (2014). Reevaluating the role of antidepressants in cancer-related depression: a systematic review and meta-analysis. Gen Hosp Psychiatry 36:466-473 · PMID 24950919",
+    "Leinonen E, Koponen H & Lepola U (1994). Serum mianserin and ageing. Prog Neuropsychopharmacol Biol Psychiatry 18:833-845 · PMID 7972855",
+    "Nielsen A et al. (2024). Imagery rehearsal therapy and mianserin for trauma-affected refugees: follow-up of a randomized controlled trial. Torture 34:79-94 · PMID 39469959",
+    "Everitt H et al. (2018). Antidepressants for insomnia in adults. Cochrane Database Syst Rev 5:CD010753 · PMID 29761479",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251"
+   ],
+   "rel": [
+    "ad_atip",
+    "mirtazapina",
+    "ddm",
+    "drt",
+    "fluoxetina",
+    "qt_psicof",
+    "fk_mayor",
+    "maois",
+    "insom",
+    "isrs"
+   ]
+  },
+  {
+   "id": "maprotilina",
+   "n": "Maprotilina",
+   "ab": "Maprotilina",
+   "al": [
+    "maprotiline",
+    "Ludiomil",
+    "antidepresivo tetracíclico noradrenérgico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 4,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1973,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antidepresivo tetracíclico con inhibición potente y selectiva de la recaptación de noradrenalina, efecto muy limitado sobre la de serotonina, marcado antagonismo H1, afinidad débil o moderada por α1 y efecto anticolinérgico moderado (ficha técnica de Ludiomil, 5.1). En España, Ludiomil 25 mg y 75 mg (nº de registro 51648 y 55706) tiene como indicación literal «el tratamiento del trastorno de depresión mayor» en adultos (4.1), pero según AEMPS-CIMA ambos registros figuran sin comercializar y con la autorización en situación de suspensión desde el 1 de junio de 2026, por lo que hoy no está disponible por los cauces ordinarios. Su rasgo diferencial es el riesgo convulsivo: está contraindicada en trastornos convulsivos o con umbral bajo (4.3) y se la sitúa entre los antidepresivos con mayor potencial epileptógeno (Pisani 2002). Metabolismo principal por CYP2D6, con una exposición aproximadamente un 250 % mayor en metabolizadores lentos (5.2).",
+   "feats": [
+    "Estado en España (AEMPS-CIMA, noviembre de 2026): Ludiomil 25 mg (nº 51648, autorizado en 1973) y 75 mg (nº 55706, en 1981), titular Amdipharm; no comercializados y con autorización suspendida desde el 1 de junio de 2026; código ATC N06AA21",
+    "Contraindicaciones (ficha técnica de Ludiomil, 4.3): trastorno convulsivo o umbral bajo (daño cerebral, alcoholismo), trastornos de la conducción o infarto reciente, insuficiencia renal o hepática grave, glaucoma de ángulo estrecho, retención urinaria, IMAO e intoxicación aguda por alcohol, hipnóticos o psicofármacos",
+    "Convulsiones: casos raros a dosis terapéuticas, con más riesgo si se asocian antipsicóticos, si se retiran bruscamente benzodiacepinas o si se aumenta la dosis de forma repentina (ficha técnica, 4.4); las revisiones la sitúan, junto con la clomipramina, entre los antidepresivos más epileptógenos (Pisani 2002) y la desaconsejan en la epilepsia (Górska 2018)",
+    "Farmacocinética (5.2): biodisponibilidad del 66-70 %, concentración máxima a las 8 horas, semivida de 43-45 horas, metabolito activo desmetilmaprotilina; desmetilación sobre todo por CYP2D6 y en parte por CYP1A2; mayor exposición y semivida en mayores de 65 años",
+    "Prevención de recaídas: en un ensayo de 1141 pacientes ambulatorios en remisión, la recaída actuarial al año fue del 16 % con la dosis completa, del 23,8 % con media dosis y del 31,5-37,5 % con placebo (Rouillon 1991)",
+    "Sobredosis (4.9): cuadro similar al de los tricíclicos, con síntomas a partir de unas 4 horas, máxima gravedad a las 24 horas y riesgo que puede prolongarse 4-6 días por absorción retardada, semivida larga y circulación enterohepática; QRS superior a 0,12 s requiere bicarbonato sódico"
+   ],
+   "tx": "Sin uso actual en España por la suspensión de su autorización y la falta de comercialización (AEMPS-CIMA, 2026). Si se mantuviera un tratamiento previo o se obtuviera por otra vía, las precauciones de la ficha técnica de Ludiomil incluyen descartar epilepsia y factores que bajan el umbral convulsivo, ECG en personas mayores o con cardiopatía, control periódico de leucocitos en los primeros meses, función hepática y renal en tratamientos largos, revisión dental y retirada gradual (4.4). En la persona que lo tomaba, el cambio a otro antidepresivo sigue los principios generales de sustitución y de prevención de síntomas de discontinuación.",
+   "note": "La suspensión de la autorización en junio de 2026 figura en CIMA sin que se haya localizado la causa (comercial o de seguridad) [fuente no localizada]. Los datos de eficacia proceden de ensayos antiguos patrocinados por el fabricante; no figura en el metaanálisis en red de Cipriani (2018). Su clasificación como tetracíclico no la exime de la toxicidad cardiaca y convulsiva propia de los antidepresivos cíclicos.",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica y estado regulatorio",
+     "x": "NICE NG222 no nombra la maprotilina, y su grado de recomendación en CANMAT 2023, BAP, WFSBP y Maudsley no se ha contrastado [fuente no localizada]. Como antidepresivo cíclico, se le aplica la advertencia de NICE sobre la toxicidad de los tricíclicos en sobredosis y la necesidad de limitar la cantidad prescrita si hay riesgo de suicidio (1.4.23). La evidencia específica más sólida es de prevención: en un ensayo multicéntrico francés de un año, con 1141 pacientes que habían remitido con maprotilina, la tasa de recaída fue menor con la dosis completa que con media dosis y que con placebo, sin diferencias de reacciones adversas frente a placebo (Rouillon 1991). En España su situación es singular: la ficha técnica de Ludiomil se actualizó en diciembre de 2024, pero los dos registros figuran en CIMA como no comercializados y con autorización suspendida desde el 1 de junio de 2026. Por ello se sitúa en el anillo histórico del atlas, a revisar si se reanuda la comercialización. La equivalencia de dosis con otros antidepresivos y la elección de alternativas se hacen según sus fichas técnicas.",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "isrs"
+       ],
+       "t": "alternativas disponibles"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ideac_suic"
+       ],
+       "t": "indicación y riesgo en sobredosis"
+      },
+      {
+       "ids": [
+        "discont_ad"
+       ],
+       "t": "sustitución y retirada"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y de efectos adversos",
+     "x": "La ficha técnica de Ludiomil la describe como un antidepresivo que comparte propiedades terapéuticas con los tricíclicos, pero cuya acción principal es la inhibición de la recaptación de noradrenalina en estructuras corticales, con efecto muy limitado sobre la de serotonina; su marcada actividad H1 explica la somnolencia y su efecto anticolinérgico moderado, la sequedad de boca (5.1). Las reacciones más frecuentes son neurológicas: somnolencia, mareo, cefalea, temblor leve y mioclonías, además de fatiga y sequedad de boca; el aumento de peso y las convulsiones figuran como frecuentes, igual que los trastornos de la conducción con ensanchamiento del QRS (4.8). La ficha recoge además fotosensibilidad, caries en tratamientos prolongados, íleo paralítico en personas mayores, psicosis farmacógena nocturna en mayores predispuestos, activación psicótica en la esquizofrenia y viraje maníaco en el trastorno bipolar (4.4). Farmacogenética: en metabolizadores lentos de CYP2D6 (5-10 % de la población caucásica) la exposición es aproximadamente un 250 % mayor, y en ultrarrápidos cabe esperar menor efecto (5.2). Embarazo: casos aislados sugieren malformaciones y la ficha propone suspender al menos 7 semanas antes del parto, si el estado clínico lo permite, para evitar síntomas neonatales (4.6).",
+     "links": [
+      {
+       "ids": [
+        "cyp2d6",
+        "fenot_metab"
+       ],
+       "t": "metabolismo por CYP2D6"
+      },
+      {
+       "ids": [
+        "peso_psicof",
+        "qt_psicof"
+       ],
+       "t": "peso y conducción cardiaca"
+      },
+      {
+       "ids": [
+        "bp3",
+        "dep_embarazo"
+       ],
+       "t": "viraje y embarazo"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma, interacciones y consumo de sustancias",
+     "x": "Epilepsia y umbral convulsivo: contraindicada si hay trastorno convulsivo, daño cerebral o alcoholismo (ficha técnica de Ludiomil, 4.3); el riesgo aumenta con antipsicóticos (fenotiazinas, risperidona, que además elevan sus niveles), con la retirada brusca de benzodiacepinas y con la terapia electroconvulsiva simultánea, que solo debe hacerse con estrecha vigilancia (4.4). Se han descrito primeras crisis a dosis terapéuticas (Hoffman 1982). Corazón: taquicardia y fibrilación ventricular y torsade de pointes, algunas mortales; no combinar con quinidina, propafenona ni tioridazina (4.4 y 4.5). Interacciones farmacocinéticas: los inhibidores de CYP2D6 (fluoxetina, paroxetina, fluvoxamina, sertralina, citalopram, terbinafina, propranolol, quinina) pueden elevarla de forma considerable, y la moclobemida, contraindicada, elevó un 25 % sus niveles en una serie abierta (König 1997). Chemsex y consumo: la ficha advierte de posible exposición alta con antirretrovirales por inhibición de CYP2D6 (4.5), potencia los simpaticomiméticos y contraindica su uso en la intoxicación aguda por alcohol, hipnóticos o psicofármacos (4.3); la combinación con estimulantes (metanfetamina, catinonas) o con GHB/GBL no se ha estudiado, y el riesgo convulsivo y cardiovascular aditivo se infiere por mecanismo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "epilepsia_psic",
+        "tec_dep"
+       ],
+       "t": "umbral convulsivo y TEC"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "metanf",
+        "mefed",
+        "ghb_gbl"
+       ],
+       "t": "antirretrovirales y sustancias del chemsex"
+      },
+      {
+       "ids": [
+        "moclobemida",
+        "maois",
+        "sind_ser"
+       ],
+       "t": "IMAO contraindicados"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Ludiomil 25 mg y 75 mg comprimidos recubiertos con película (maprotilina) (nº de registro 51648 y 55706), apartados 4.1-4.9, 5.1 y 5.2; texto revisado en diciembre de 2024; autorización en situación de suspensión desde el 1 de junio de 2026 y sin comercialización, consulta de noviembre de 2026",
+    "Pisani F et al. (2002). Effects of psychotropic drugs on seizure threshold. Drug Saf 25:91-110 · PMID 11888352",
+    "Górska N et al. (2018). Antidepressants in epilepsy. Neurol Neurochir Pol 52:657-661 · PMID 30131174",
+    "Hoffman BF & Wachsmuth R (1982). Maprotiline and seizures. J Clin Psychiatry 43:117-118 · PMID 6801027",
+    "Rouillon F et al. (1991). Prophylactic efficacy of maprotiline on unipolar depression relapse. J Clin Psychiatry 52:423-431 · PMID 1938979",
+    "König F et al. (1997). Trimipramine and maprotiline plasma levels during combined treatment with moclobemide in therapy-resistant depression. Pharmacopsychiatry 30:125-127 · PMID 9271778",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251"
+   ],
+   "rel": [
+    "tca_dep",
+    "ddm",
+    "epilepsia_psic",
+    "cyp2d6",
+    "chemsex_arv",
+    "qt_psicof",
+    "maois",
+    "tec_dep"
+   ]
+  },
+  {
+   "id": "doxepina",
+   "n": "Doxepina",
+   "ab": "Doxepina",
+   "al": [
+    "doxepin",
+    "Sinequan",
+    "Silenor",
+    "tricíclico dibenzoxepínico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1970,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Antidepresivo tricíclico dibenzoxepínico, amina terciaria con metabolito activo (desmetildoxepina) y potente antagonismo H1. En España está autorizado y comercializado como Sinequan 25 mg cápsulas duras (nº de registro 49028), con la indicación literal «tratamiento de los episodios de depresión mayor» (ficha técnica, 4.1); es el único medicamento con doxepina en AEMPS-CIMA y no existe presentación autorizada para el insomnio. En Estados Unidos, la FDA aprobó en 2010 Silenor (comprimidos de 3 y 6 mg; NDA 022036) para el insomnio caracterizado por dificultad para mantener el sueño, efecto atribuido al antagonismo H1 (ficha de la FDA, 1 y 12.1). La guía de la AASM sugiere, con recomendación débil, la doxepina para el insomnio de mantenimiento (Sateia 2017). A dosis antidepresivas comparte la toxicidad de los tricíclicos: en sobredosis fue más tóxica que la amitriptilina (índice relativo 2,6; Hawton 2010).",
+   "feats": [
+    "Estado en España (AEMPS-CIMA): Sinequan 25 mg cápsulas duras (nº 49028), autorizado desde 1970 y comercializado (envases de 30 y 100 cápsulas); titular Farmasierra; código ATC N06AA12; sin presentaciones de baja dosis para insomnio",
+    "Contraindicaciones (ficha técnica de Sinequan, 4.3): glaucoma de ángulo agudo, tendencia a la retención urinaria y tratamiento con IMAO, que deben suspenderse al menos dos semanas antes por riesgo de síndrome serotoninérgico (4.5)",
+    "Advertencias (4.4): efecto arritmogénico con ECG previo recomendado si hay factores de riesgo cardiovascular; descenso del umbral convulsivo; hipotensión ortostática y efectos anticolinérgicos en edad avanzada; síndrome de abstinencia con la retirada brusca; somnolencia diurna",
+    "Farmacocinética (5.2): primer paso hepático del 55-87 % con formación de desmetildoxepina; unión a proteínas del 76 %; semivida de 8-24 horas (media 17) y de 33-80 horas (media 51) para el metabolito; metabolismo por CYP2C19 y CYP2D6, y en menor grado CYP1A2 y CYP2C9 (ficha de Silenor de la FDA, 7.1)",
+    "Silenor (FDA): indicada en el insomnio con dificultad para mantener el sueño, con ensayos de hasta 3 meses; contraindicada con IMAO en las dos semanas previas y en glaucoma de ángulo estrecho no tratado o retención urinaria grave; no recomendada en apnea del sueño grave; reevaluar si el insomnio persiste a los 7-10 días",
+    "Insomnio: la doxepina a dosis bajas tuvo un efecto pequeño o moderado sobre el mantenimiento y la duración del sueño, no sobre su inicio, sin efectos residuales significativos al día siguiente, en ensayos todos patrocinados por la industria (Yeung 2015)"
+   ],
+   "tx": "Antidepresivo tricíclico de segunda línea en depresión mayor (CANMAT 2023; Lam 2024), con las precauciones de la clase: ECG previo si hay riesgo cardiovascular, cantidades limitadas si hay riesgo suicida y retirada gradual (ficha técnica de Sinequan, 4.2 y 4.4). En el insomnio de mantenimiento, la doxepina a dosis bajas tiene respaldo de ensayos y una recomendación débil de la AASM (Sateia 2017), pero en España no hay presentación autorizada para esa indicación ni para esas dosis, por lo que su uso sería fuera de indicación y precedido de la terapia cognitivo-conductual para el insomnio como primera opción.",
+   "note": "Los ensayos de doxepina a dosis bajas en insomnio son pocos, de corta duración (hasta 12 semanas) y patrocinados por el fabricante (Yeung 2015; Everitt 2018); no hay datos de uso prolongado. Los datos de seguridad de Silenor no son extrapolables a las dosis antidepresivas de Sinequan, cuya toxicidad en sobredosis es la de un tricíclico (Hawton 2010). La autorización por la EMA no se ha localizado en ningún procedimiento centralizado [fuente oficial no localizada].",
+   "sec": [
+    {
+     "t": "Doxepina a dosis bajas en el insomnio: FDA, guías y ensayos",
+     "x": "La FDA aprobó Silenor el 17 de marzo de 2010 (NDA 022036), en comprimidos de 3 y 6 mg, para el insomnio caracterizado por dificultad para mantener el sueño; la ficha atribuye el efecto al antagonismo H1 y pide reevaluar a la persona si el insomnio persiste tras 7-10 días, por posible trastorno subyacente (apartados 1, 5.1 y 12.1). Advierte de pensamiento anómalo y conductas complejas como conducir dormido, de empeoramiento de la depresión con ideación suicida, de efectos aditivos con alcohol y depresores, y no la recomienda en la apnea del sueño grave. Ensayos: en 240 personas mayores con insomnio primario, 12 semanas de doxepina a dosis bajas mejoraron el tiempo de vigilia tras el inicio del sueño, el tiempo total de sueño y la eficiencia, sin efectos residuales ni anticolinérgicos significativos (Krystal 2010); en 221 adultos, 5 semanas mejoraron el mantenimiento sin insomnio de rebote al suspender (Krystal 2011). La revisión Cochrane halló una mejora moderada de la calidad subjetiva del sueño con tricíclicos, casi todos doxepina (DME -0,39; 4 ensayos, 518 participantes), sin datos de uso prolongado (Everitt 2018), y un metaanálisis en red en mayores situó la doxepina a dosis bajas como la opción con mejor tiempo total de sueño y eficiencia (Chiu 2021). La AASM la sugiere para el insomnio de mantenimiento con recomendación débil (Sateia 2017).",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio crónico y su tratamiento de primera línea"
+      },
+      {
+       "ids": [
+        "zolpidem",
+        "daridorexant",
+        "trazodona"
+       ],
+       "t": "otros fármacos para el insomnio"
+      },
+      {
+       "ids": [
+        "bzd_mayor",
+        "fk_mayor"
+       ],
+       "t": "hipnóticos en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Estado en España y lugar en la depresión",
+     "x": "En AEMPS-CIMA solo figura Sinequan 25 mg cápsulas duras (nº de registro 49028), autorizado desde 1970 y comercializado, con la indicación única de episodios de depresión mayor (ficha técnica, 4.1); su eficacia y seguridad no se han establecido en menores de 18 años (4.2). No hay ningún medicamento autorizado en España con doxepina para el insomnio ni presentaciones de baja dosis, y la ficha de Sinequan no recoge esa indicación; tampoco se ha localizado autorización centralizada de la EMA [fuente oficial no localizada]. En la depresión, la doxepina comparte con los demás tricíclicos la segunda línea de CANMAT 2023 (Lam 2024) y la advertencia de NICE NG222 de no iniciarlos de forma rutinaria, salvo la lofepramina, cuando hay riesgo significativo de suicidio (1.4.23). No figura entre los 21 antidepresivos del metaanálisis en red de Cipriani (2018). Su grado de recomendación específico en BAP, WFSBP y Maudsley no se ha contrastado [fuente no localizada]. La guía CPIC la incluye entre los tricíclicos cuya exposición, eficacia y seguridad dependen tanto de CYP2D6 como de CYP2C19 (Hicks 2017), lo que justifica considerar el genotipo o las interacciones cuando se usa a dosis antidepresivas.",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "amitriptilina"
+       ],
+       "t": "clase tricíclica"
+      },
+      {
+       "ids": [
+        "cpic_tca",
+        "cyp2d6",
+        "cyp2c19"
+       ],
+       "t": "farmacogenética CPIC"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ideac_suic"
+       ],
+       "t": "indicación y riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma, interacciones y consumo de sustancias",
+     "x": "Sobredosis: en el estudio británico de Hawton (2010), la doxepina fue más tóxica que la amitriptilina (índice de toxicidad relativa 2,6), dentro de una clase con una razón de letalidad de 13,8 frente a 0,5 de los ISRS; una revisión sistemática posterior concluyó que su toxicidad en sobredosis es similar a la de amitriptilina, clomipramina, dosulepina, trimipramina e imipramina, menor que la de la desipramina y mayor que la de la lofepramina (Taylor 2024). Interacciones (ficha técnica de Sinequan, 4.5): IMAO, por riesgo de síndrome serotoninérgico; inhibidores o sustratos de CYP2D6 como quinidina e ISRS, que elevan sus concentraciones; cimetidina, que duplica la exposición según la ficha de Silenor (7.2); potenciación de alcohol, benzodiacepinas y anestésicos generales; aumento del efecto cardiovascular de adrenalina, efedrina, isoprenalina y noradrenalina, y reducción del efecto de guanetidina y quizá clonidina; un caso de hipoglucemia grave con tolazamida. Consumo de sustancias y chemsex: la ficha pide evitar el alcohol (4.2); la sedación aditiva con GHB/GBL u opioides y la interacción con estimulantes simpaticomiméticos (metanfetamina, catinonas, cocaína) se infieren por mecanismo, sin estudios específicos [fuente no localizada]. Tampoco se han localizado datos con ritonavir o cobicistat [fuente no localizada], aunque la dependencia de CYP2D6 sugiere vigilancia.",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "maois"
+       ],
+       "t": "síndrome serotoninérgico con IMAO"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "metanf",
+        "mefed",
+        "chemsex_arv"
+       ],
+       "t": "sustancias del chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "qt_psicof",
+        "polifarm"
+       ],
+       "t": "cardiotoxicidad y carga anticolinérgica"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Sinequan 25 mg cápsulas duras (doxepina) (nº de registro 49028), apartados 4.1-4.5, 5.1 y 5.2; texto revisado en septiembre de 2023; único medicamento con doxepina registrado en CIMA, autorizado y comercializado, consulta de noviembre de 2026",
+    "FDA (2026). Silenor (doxepin hydrochloride) tablets: prescribing information, NDA 022036 (aprobación original de 17 de marzo de 2010), apartados 1, 4, 5, 7 y 12.1; versión de abril de 2026 consultada en openFDA, noviembre de 2026",
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "Yeung WF et al. (2015). Doxepin for insomnia: a systematic review of randomized placebo-controlled trials. Sleep Med Rev 19:75-83 · PMID 25047681",
+    "Krystal AD et al. (2010). Efficacy and safety of doxepin 1 mg and 3 mg in a 12-week sleep laboratory and outpatient trial of elderly subjects with chronic primary insomnia. Sleep 33:1553-1561 · PMID 21102997",
+    "Krystal AD et al. (2011). Efficacy and safety of doxepin 3 and 6 mg in a 35-day sleep laboratory trial in adults with chronic primary insomnia. Sleep 34:1433-1442 · PMID 21966075",
+    "Everitt H et al. (2018). Antidepressants for insomnia in adults. Cochrane Database Syst Rev 5:CD010753 · PMID 29761479",
+    "Chiu HY et al. (2021). Comparative efficacy and safety of hypnotics for insomnia in older adults: a systematic review and network meta-analysis. Sleep 44:zsaa260 · PMID 33249496",
+    "Hawton K et al. (2010). Toxicity of antidepressants: rates of suicide relative to prescribing and non-fatal overdose. Br J Psychiatry 196:354-358 · PMID 20435959",
+    "Taylor D, Poulou S & Clark I (2024). The cardiovascular safety of tricyclic antidepressants in overdose and in clinical use. Ther Adv Psychopharmacol 14:20451253241243297 · PMID 38827015",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251"
+   ],
+   "rel": [
+    "tca_dep",
+    "amitriptilina",
+    "insom",
+    "ddm",
+    "cpic_tca",
+    "bzd_mayor",
+    "tcci",
+    "trazodona",
+    "zolpidem",
+    "sind_ser"
+   ]
+  },
+  {
+   "id": "trimipramina",
+   "n": "Trimipramina",
+   "ab": "Trimipramina",
+   "al": [
+    "trimipramine",
+    "Surmontil",
+    "tricíclico atípico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 1964,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antidepresivo tricíclico de estructura próxima a la imipramina pero con un perfil farmacológico atípico: según su ficha técnica no inhibe la recaptación de noradrenalina, tiene propiedades sedantes de probable origen histaminérgico, efecto anticolinérgico central y periférico y un efecto cardiaco similar a la quinidina (Surmontil, 5.1). En España está autorizado como Surmontil 25 mg comprimidos (nº de registro 40115), con las indicaciones literales «estados depresivos de todo tipo», «trastornos psicosomáticos de fondo depresivo» y «estados de ansiedad y alteraciones del sueño» (4.1). Figura como comercializado, pero su única presentación (CN 830836) tiene un problema de suministro activo desde mayo de 2016 y puede solicitarse como medicamento extranjero (AEMPS-CIMA). A diferencia de otros antidepresivos, no suprime el sueño REM (Riemann 2002).",
+   "feats": [
+    "Estado en España (AEMPS-CIMA): Surmontil 25 mg (nº 40115), autorizado desde 1964, titular Neuraxpharm Spain; problema de suministro activo desde mayo de 2016 con previsión hasta diciembre de 2027 y posibilidad de solicitud como medicamento extranjero; código ATC N06AA06",
+    "Contraindicaciones (ficha técnica de Surmontil, 4.3): riesgo de glaucoma de ángulo agudo, retención urinaria por problemas uretroprostáticos, infarto de miocardio reciente, IMAO irreversibles y sultoprida, ingestión de alcohol y asociación con clonidina, guanetidina y similares",
+    "Advertencias (4.4): síndrome de abstinencia con la retirada; viraje maníaco; descenso del umbral convulsivo; QT prolongado dependiente de la dosis; mayor riesgo de diabetes mellitus con tricíclicos; síndrome serotoninérgico con otros serotoninérgicos; no usar en menores de 18 años",
+    "Farmacocinética (5.2): concentración máxima a las 2 horas, absorción retardada en sobredosis por tránsito intestinal lento, semivida de 9-11 horas, metabolito activo desmetiltrimipramina, unión a proteínas del 95 %; la guía CPIC la incluye entre los tricíclicos dependientes de CYP2D6 y CYP2C19 (Hicks 2017)",
+    "Insomnio primario: en un ensayo polisomnográfico con 55 pacientes mejoró la eficiencia del sueño frente a placebo, sin aumentar el tiempo total de sueño (variable principal), sin suprimir el REM y sin rebote al retirarla (Riemann 2002)",
+    "Depresión psicótica: en un ensayo doble ciego multicéntrico con 94 pacientes, la trimipramina en monoterapia no fue inferior a la combinación de amitriptilina y haloperidol en la reducción de la HAM-D (Künzel 2009)"
+   ],
+   "tx": "Tricíclico de uso restringido en España por el problema de suministro persistente; cuando se emplea, sigue las precauciones de la clase (ECG si hay cardiopatía o edad avanzada, cantidades limitadas ante riesgo suicida, retirada gradual) y las de su ficha técnica, que contraindica el alcohol. Su perfil sedante y la ausencia de supresión del REM han motivado su uso en depresión con insomnio y en insomnio primario, con ensayos pequeños; la terapia cognitivo-conductual para el insomnio sigue siendo la primera opción en el insomnio crónico.",
+   "note": "La evidencia es escasa y procede sobre todo de grupos alemanes con ensayos pequeños o abiertos (Hohagen 1994; Riemann 2002; Wehmeier 2005); no figura en el metaanálisis en red de Cipriani (2018). La indicación española en «estados de ansiedad y alteraciones del sueño» es histórica y no se apoya en ensayos modernos [fuente no localizada]. El mecanismo antidepresivo sigue sin aclarar según la propia ficha técnica.",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica y evidencia",
+     "x": "No hay recomendaciones específicas para la trimipramina en NICE NG222, y su grado en CANMAT, BAP, WFSBP y Maudsley no se ha contrastado [fuente no localizada]; se le aplican las recomendaciones generales de los tricíclicos: segunda línea en la depresión mayor (CANMAT 2023; Lam 2024) y no iniciarlos de forma rutinaria, salvo la lofepramina, si hay riesgo significativo de suicidio (NICE NG222, 1.4.23). Ensayos disponibles: en 41 personas de 61 a 85 años con depresión mayor, eficacia y tolerabilidad similares a las de la fluoxetina en 6 semanas (Wehmeier 2005); en un análisis polisomnográfico exploratorio de 19 pacientes mayores, la trimipramina mejoró la eficiencia y el tiempo total de sueño sin cambiar el REM, mientras que la fluoxetina lo redujo (Wolf 2001). En la depresión con síntomas psicóticos, la monoterapia con trimipramina no fue inferior a amitriptilina más haloperidol, sin efectos adversos graves (Künzel 2009), aunque las guías mantienen la combinación de antidepresivo y antipsicótico o la TEC como estándar [fuente no localizada para la comparación directa]. En insomnio primario, la revisión Cochrane incluyó un ensayo con trimipramina dentro del grupo de tricíclicos, con mejora moderada de la calidad subjetiva del sueño (Everitt 2018).",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "isrs",
+        "fluoxetina"
+       ],
+       "t": "clase tricíclica y comparadores"
+      },
+      {
+       "ids": [
+        "dpsic",
+        "tec_dep"
+       ],
+       "t": "depresión psicótica"
+      },
+      {
+       "ids": [
+        "dep_tardia",
+        "fk_mayor"
+       ],
+       "t": "depresión en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Perfil farmacológico y sueño",
+     "x": "La ficha técnica de Surmontil describe un tricíclico sedante, anticolinérgico, que potencia la respuesta simpática y tiene un efecto quinidínico sobre el corazón; aunque está relacionado químicamente con la imipramina, no inhibe la recaptación de noradrenalina, y su patrón electroencefalográfico difiere del de esta (5.1). Una revisión de los primeros estudios añade que, en modelos animales, no inhibe la recaptación sinaptosómica de serotonina ni de noradrenalina ni desensibiliza los receptores β adrenérgicos, y que tiene efectos atípicos sobre el sueño REM (Pecknold 1989). Esa singularidad se ha estudiado en el insomnio: en un estudio piloto con registro domiciliario, 15 pacientes con insomnio primario mejoraron la eficiencia y el tiempo total de sueño, sin insomnio de rebote al retirar el fármaco en el conjunto de la muestra y con sequedad de boca como principal efecto adverso (Hohagen 1994); en el ensayo controlado con placebo y lormetazepam, la mejora de la eficiencia no se acompañó de aumento del tiempo total de sueño, que era la variable principal, y los autores reconocen que el tamaño muestral era insuficiente (Riemann 2002). Interacción con IMAO: la ficha admite, en casos individuales de depresión refractaria y con precauciones, añadir un IMAO reversible, mientras que los irreversibles deben suspenderse 14 días antes (4.5); en una serie abierta, la moclobemida elevó un 39 % sus niveles (König 1997).",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "lormetazepam",
+        "tcci"
+       ],
+       "t": "insomnio y comparadores"
+      },
+      {
+       "ids": [
+        "moclobemida",
+        "maois",
+        "drt"
+       ],
+       "t": "combinación con IMAO en depresión refractaria"
+      },
+      {
+       "ids": [
+        "cpic_tca",
+        "cyp2c19",
+        "cyp2d6"
+       ],
+       "t": "farmacogenética"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma, interacciones y consumo de sustancias",
+     "x": "Toxicidad: una revisión sistemática encontró para la trimipramina una toxicidad en sobredosis similar a la de amitriptilina, clomipramina, dosulepina, doxepina e imipramina, menor que la de la desipramina y mayor que la de la lofepramina (Taylor 2024). La ficha técnica de Surmontil advierte de QT prolongado dependiente de la dosis y pide evitar otros fármacos que lo prolongan, causan bradicardia o hipopotasemia o inhiben su metabolismo (antimicóticos imidazólicos, IMAO irreversibles) (4.4 y 4.5). Síndrome serotoninérgico con ISRS, IRSN, IMAO, litio, triptanes, tramadol, linezolid, triptófano, hipérico y buprenorfina u otros opioides (4.5). Los ISRS pueden elevar las concentraciones de ambos antidepresivos por competencia de sustratos, igual que antipsicóticos y cimetidina. Consumo de sustancias y chemsex: el alcohol está contraindicado (4.3) y la ficha enumera como depresores aditivos derivados morfínicos, hipnóticos, barbitúricos y benzodiacepinas; los simpaticomiméticos pueden causar hipertensión paroxística con arritmias ventriculares (4.5). Con GHB/GBL, metanfetamina, catinonas o MDMA no hay estudios, y el riesgo aditivo sedante, serotoninérgico o cardiovascular se infiere por mecanismo [fuente no localizada]; tampoco se han localizado datos con antirretrovirales potenciados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "qt_psicof"
+       ],
+       "t": "síndrome serotoninérgico y QT"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "metanf",
+        "mefed",
+        "chemsex_arv"
+       ],
+       "t": "sustancias del chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "toxicidad en sobredosis"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Surmontil 25 mg comprimidos recubiertos con película (trimipramina) (nº de registro 40115), apartados 4.1-4.5, 5.1 y 5.2; texto revisado en junio de 2022; problema de suministro activo para el CN 830836 desde mayo de 2016, con posibilidad de solicitarlo como medicamento extranjero, consulta de noviembre de 2026",
+    "Riemann D et al. (2002). Trimipramine in primary insomnia: results of a polysomnographic double-blind controlled study. Pharmacopsychiatry 35:165-174 · PMID 12237787",
+    "Hohagen F et al. (1994). Treatment of primary insomnia with trimipramine: an alternative to benzodiazepine hypnotics? Eur Arch Psychiatry Clin Neurosci 244:65-72 · PMID 7948056",
+    "Wolf R et al. (2001). Differential effects of trimipramine and fluoxetine on sleep in geriatric depression. Pharmacopsychiatry 34:60-65 · PMID 11302565",
+    "Wehmeier PM et al. (2005). Fluoxetine versus trimipramine in the treatment of depression in geriatric patients. Pharmacopsychiatry 38:13-16 · PMID 15706460",
+    "Künzel HE et al. (2009). Outcome in delusional depression comparing trimipramine monotherapy with a combination of amitriptyline and haloperidol: a double-blind multicenter trial. J Psychiatr Res 43:702-710 · PMID 19038406",
+    "Pecknold JC & Luthe L (1989). Trimipramine, anxiety, depression and sleep. Drugs 38 Suppl 1:25-31 · PMID 2693052",
+    "Everitt H et al. (2018). Antidepressants for insomnia in adults. Cochrane Database Syst Rev 5:CD010753 · PMID 29761479",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "König F et al. (1997). Trimipramine and maprotiline plasma levels during combined treatment with moclobemide in therapy-resistant depression. Pharmacopsychiatry 30:125-127 · PMID 9271778",
+    "Taylor D, Poulou S & Clark I (2024). The cardiovascular safety of tricyclic antidepressants in overdose and in clinical use. Ther Adv Psychopharmacol 14:20451253241243297 · PMID 38827015",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251"
+   ],
+   "rel": [
+    "tca_dep",
+    "insom",
+    "dpsic",
+    "cpic_tca",
+    "imipramina",
+    "ddm",
+    "moclobemida",
+    "sind_ser",
+    "qt_psicof"
+   ]
+  },
+  {
+   "id": "dosulepina",
+   "n": "Dosulepina (dotiepina)",
+   "ab": "Dosulepina",
+   "al": [
+    "dosulepin",
+    "dothiepin",
+    "dotiepina",
+    "Prothiaden",
+    "tricíclico dibenzotiepínico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 4,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antidepresivo tricíclico de estructura dibenzotiepínica, amina terciaria emparentada con la amitriptilina, con inhibición de la recaptación de serotonina y noradrenalina y efectos antihistamínicos y anticolinérgicos propios de la clase [fuente no localizada para su perfil receptorial concreto]. No figura en AEMPS-CIMA con ninguna denominación (dosulepina, dotiepina o Prothiaden), ni como medicamento autorizado ni como anulado, por lo que no está disponible en España; tampoco se ha localizado autorización centralizada de la EMA [fuente oficial no localizada]. Su interés actual es sobre todo toxicológico y médico-legal: en datos británicos de 2000-2006 fue el tricíclico con mayor toxicidad relativa en sobredosis respecto a la amitriptilina (índice 2,7; Hawton 2010), y se ha descrito entre los antidepresivos con más muertes por intoxicación en el Reino Unido (Buckley 2002) [fuente no localizada para la cifra].",
+   "feats": [
+    "Estado en España: sin registros en AEMPS-CIMA por principio activo («dosulepina», «dotiepina») ni por nombre comercial («Prothiaden»), en búsquedas que incluyen medicamentos anulados (noviembre de 2026); no hay ficha técnica española de referencia",
+    "Toxicidad en sobredosis: en el estudio de Hawton (2010), con muertes por intoxicación en Inglaterra y Gales y autointoxicaciones no mortales de 2000 a 2006, la dosulepina fue más tóxica que la amitriptilina (índice relativo 2,7), en una clase con razón de letalidad de 13,8 frente a 0,5 de los ISRS",
+    "Revisión sistemática de 30 informes de mortalidad: los índices de toxicidad fatal de todos los tricíclicos, salvo la lofepramina, fueron del mismo orden de magnitud, y la dosulepina mostró una toxicidad similar a la de amitriptilina, clomipramina, doxepina, trimipramina e imipramina (Taylor 2024)",
+    "Eficacia: en la revisión Cochrane de fluoxetina frente a otros antidepresivos, la fluoxetina fue menos eficaz que la dosulepina en respuesta (OR 2,13; IC 95 % 1,08-4,20; 2 ensayos, 144 participantes), con significado clínico incierto y ensayos que en su mayoría no describían detalles metodológicos (Magni 2013)",
+    "Guías: NICE NG222 no menciona la dosulepina, pero mantiene para todos los tricíclicos, salvo la lofepramina, la recomendación de no iniciarlos de forma rutinaria cuando hay riesgo significativo de suicidio (1.4.23); la recomendación previa británica de no iniciar ni cambiar a dosulepina no se ha contrastado en su fuente original [fuente no localizada]"
+   ],
+   "tx": "Sin uso en España. En la práctica clínica española su relevancia se limita a personas que la reciben de otro país (Reino Unido, Irlanda u otros donde haya estado disponible [fuente no localizada]) y a la valoración toxicológica o pericial de intoxicaciones: ante una ingesta, el manejo es el de la sobredosis por tricíclicos, con monitorización del ECG y del QRS. Si una persona procedente de otro país la toma, el cambio a un antidepresivo autorizado en España debe ser gradual y valorar el riesgo de sobredosis y las interacciones.",
+   "note": "La evidencia de eficacia es antigua y escasa, y la comparación de toxicidad entre tricíclicos está sujeta a confusión por la gravedad de la depresión de quienes los reciben y por los patrones de prescripción (Taylor 2024); las diferencias entre los resultados de Hawton (2010) y de Taylor (2024) reflejan métodos e índices distintos. La situación regulatoria en el Reino Unido y en otros países de la Unión Europea no se ha contrastado en fuentes oficiales [fuente oficial no localizada].",
+   "sec": [
+    {
+     "t": "Estado regulatorio y lugar en la terapéutica",
+     "x": "Las búsquedas en AEMPS-CIMA por principio activo y por nombre comercial no devuelven ningún medicamento con dosulepina, autorizado o anulado, lo que indica que no se comercializa en España y que no hay ficha técnica española de referencia; tampoco se ha localizado autorización por procedimiento centralizado de la EMA [fuente oficial no localizada]. En la guía británica vigente de depresión, NICE NG222, la dosulepina ya no aparece; la guía solo advierte, para todos los tricíclicos, que son peligrosos en sobredosis, que la lofepramina tiene el mejor perfil de seguridad y que no deben iniciarse de forma rutinaria si hay riesgo significativo de suicidio (1.4.23). La recomendación británica de no iniciar ni cambiar a dosulepina por su cardiotoxicidad y toxicidad en sobredosis, y su inclusión entre los medicamentos que no deben prescribirse de forma rutinaria en atención primaria del NHS, no se han podido contrastar en sus documentos originales [fuente no localizada]. Su grado en CANMAT, BAP, WFSBP y Maudsley no se ha comprobado [fuente no localizada]. En eficacia, la única señal localizada procede de dos ensayos pequeños frente a fluoxetina (Magni 2013), insuficiente para atribuirle ventajas. Por todo ello se sitúa en el anillo histórico del atlas.",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "amitriptilina"
+       ],
+       "t": "clase tricíclica y fármaco emparentado"
+      },
+      {
+       "ids": [
+        "fluoxetina",
+        "isrs"
+       ],
+       "t": "comparación con fluoxetina"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "ddm"
+       ],
+       "t": "riesgo suicida como criterio de exclusión"
+      }
+     ]
+    },
+    {
+     "t": "Toxicidad en sobredosis y valoración médico-legal",
+     "x": "El estudio de Hawton (2010) relacionó las muertes por intoxicación con un solo antidepresivo (veredictos de suicidio o de intención indeterminada en Inglaterra y Gales) con las prescripciones y con las autointoxicaciones no mortales atendidas en seis hospitales; los dos índices dieron resultados casi idénticos y, dentro de los tricíclicos, la dosulepina (2,7) y la doxepina (2,6) fueron más tóxicas que la amitriptilina. La revisión sistemática de Taylor (2024), con 30 informes de mortalidad en sobredosis y 14 estudios observacionales de eventos cardiovasculares en uso clínico, matizó que todos los tricíclicos salvo la lofepramina tienen índices de toxicidad fatal del mismo orden de magnitud, que la desipramina parece algo más letal y que todas las medidas están sujetas a factores externos y a confusión. El mecanismo de la toxicidad es el común a la clase: bloqueo de los canales de sodio cardiacos con prolongación de PR, QRS y QT, arritmias, hipotensión, convulsiones y coma, con deterioro rápido en las primeras horas (véase la ficha de la clase). En la pericia médico-legal de una muerte o de una intoxicación con dosulepina conviene recordar que su presencia en España implica obtención fuera de los cauces nacionales [fuente no localizada para datos españoles], y que el análisis toxicológico debe interpretarse con los límites de los índices poblacionales.",
+     "links": [
+      {
+       "ids": [
+        "tca_dep",
+        "doxepina"
+       ],
+       "t": "cardiotoxicidad de la clase"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QRS y QT en sobredosis"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "autointoxicación y suicidio"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones y consumo de sustancias",
+     "x": "Al no existir ficha técnica española, las interacciones solo pueden inferirse de las comunes a los tricíclicos terciarios [fuente no localizada para datos específicos de dosulepina]: contraindicación con IMAO por riesgo de síndrome serotoninérgico, aumento de concentraciones con inhibidores de CYP2D6 (fluoxetina, paroxetina, bupropión), potenciación de la sedación con alcohol, benzodiacepinas, opioides y otros depresores, suma de efectos anticolinérgicos y aumento del efecto cardiovascular de los simpaticomiméticos. La guía CPIC no la nombra entre los tricíclicos analizados en el resumen de su actualización de 2016 (Hicks 2017). En contexto de chemsex no se han localizado datos clínicos: la asociación con GHB/GBL o alcohol puede sumar depresión del sistema nervioso central, y con metanfetamina, catinonas o cocaína puede agravar la toxicidad cardiovascular y convulsiva, siempre por mecanismo y sin estudios específicos [fuente no localizada]; con ritonavir o cobicistat tampoco hay datos publicados localizados [fuente no localizada]. Para quien la recibe procedente de otro país, la revisión de las sustancias de consumo y de los antirretrovirales es parte de la conciliación de la medicación.",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "maois"
+       ],
+       "t": "síndrome serotoninérgico con IMAO"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "cpic_tca"
+       ],
+       "t": "metabolismo por CYP2D6"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "metanf",
+        "mefed",
+        "chemsex_arv"
+       ],
+       "t": "sustancias del chemsex y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Centro de información online de medicamentos: búsqueda por principio activo «dosulepina» y «dotiepina» y por nombre comercial «Prothiaden», sin registros autorizados ni anulados; consulta de noviembre de 2026",
+    "Hawton K et al. (2010). Toxicity of antidepressants: rates of suicide relative to prescribing and non-fatal overdose. Br J Psychiatry 196:354-358 · PMID 20435959",
+    "Taylor D, Poulou S & Clark I (2024). The cardiovascular safety of tricyclic antidepressants in overdose and in clinical use. Ther Adv Psychopharmacol 14:20451253241243297 · PMID 38827015",
+    "Magni LR et al. (2013). Fluoxetine versus other types of pharmacotherapy for depression. Cochrane Database Syst Rev 7:CD004185 · PMID 24353997",
+    "NICE (2022). Depression in adults: treatment and management (NG222)",
+    "Hicks JK et al. (2017). Clinical Pharmacogenetics Implementation Consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clin Pharmacol Ther 102:37-44 · PMID 27997040",
+    "Buckley NA & McManus PR (2002). Fatal toxicity of serotoninergic and other antidepressant drugs: analysis of United Kingdom mortality data. BMJ 325:1332-1333 · PMID 12468481 (sin resumen en PubMed; datos concretos no contrastados) [no verificada]"
+   ],
+   "rel": [
+    "tca_dep",
+    "amitriptilina",
+    "ideac_suic",
+    "ddm",
+    "qt_psicof",
+    "doxepina",
+    "fluoxetina"
+   ]
+  }
+ ]
+}
