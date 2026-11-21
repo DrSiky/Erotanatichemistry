@@ -1,0 +1,781 @@
+{
+ "patch": {
+  "audit": {
+   "relAdd": [
+    "assist_oms"
+   ]
+  },
+  "dast10": {
+   "relAdd": [
+    "assist_oms"
+   ]
+  },
+  "chemsex_inv": {
+   "relAdd": [
+    "assist_oms"
+   ]
+  },
+  "chemsex_s": {
+   "relAdd": [
+    "assist_oms"
+   ]
+  },
+  "red_danos": {
+   "relAdd": [
+    "assist_oms"
+   ]
+  },
+  "entrev_motiv": {
+   "relAdd": [
+    "assist_oms"
+   ]
+  },
+  "sims_tomm": {
+   "relAdd": [
+    "mmpi",
+    "pai_inv"
+   ]
+  },
+  "simulacion": {
+   "relAdd": [
+    "mmpi",
+    "pai_inv"
+   ]
+  },
+  "perit_forense": {
+   "relAdd": [
+    "mmpi",
+    "pai_inv",
+    "riesgo_sexual",
+    "wais"
+   ]
+  },
+  "hitop_tp": {
+   "relAdd": [
+    "mmpi",
+    "pai_inv"
+   ]
+  },
+  "pid5_lpfs": {
+   "relAdd": [
+    "mmpi",
+    "pai_inv"
+   ]
+  },
+  "di": {
+   "relAdd": [
+    "wais"
+   ]
+  },
+  "disc_int": {
+   "relAdd": [
+    "wais"
+   ]
+  },
+  "neuropsico": {
+   "relAdd": [
+    "wais"
+   ]
+  },
+  "capacidad_jur": {
+   "relAdd": [
+    "wais"
+   ]
+  },
+  "imputabilidad": {
+   "relAdd": [
+    "wais",
+    "mmpi"
+   ]
+  },
+  "riesgo_viol": {
+   "relAdd": [
+    "riesgo_sexual"
+   ]
+  },
+  "parafil": {
+   "relAdd": [
+    "riesgo_sexual"
+   ]
+  },
+  "pclr": {
+   "relAdd": [
+    "riesgo_sexual"
+   ]
+  },
+  "sara": {
+   "relAdd": [
+    "riesgo_sexual"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "assist_oms",
+   "n": "Prueba de detección de consumo de alcohol, tabaco y sustancias (ASSIST) de la OMS e intervención breve vinculada",
+   "ab": "ASSIST (OMS)",
+   "al": [
+    "Alcohol, Smoking and Substance Involvement Screening Test",
+    "ASSIST",
+    "ASSIST v3.1",
+    "ASSIST-11",
+    "ASSIST-Lite"
+   ],
+   "k": "ins",
+   "vw": "ter",
+   "sp": "ins",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 2002,
+   "tags": [
+    "chemsex"
+   ],
+   "desc": "Entrevista breve de cribado desarrollada para la Organización Mundial de la Salud por un grupo internacional de investigación para detectar el consumo de sustancias psicoactivas y sus problemas en atención primaria (WHO ASSIST Working Group 2002). A diferencia del AUDIT o del DAST-10, explora en una sola aplicación tabaco, alcohol, cannabis, cocaína, estimulantes de tipo anfetamínico, inhalantes, sedantes, alucinógenos, opioides y otras sustancias, y da una puntuación de implicación específica por sustancia que se clasifica en riesgo bajo, moderado o alto (Humeniuk 2012). Cada nivel orienta una respuesta: consejo general, intervención breve o derivación a evaluación especializada. Hay validación española en atención primaria y unidades de adicciones (Rubio Valladolid 2014) y en pacientes psiquiátricos ingresados (López-Lazcano 2022). El manual de la OMS indica que el cuestionario y los materiales de sus apéndices pueden fotocopiarse y usarse libremente siguiendo sus instrucciones (Humeniuk 2010).",
+   "feats": [
+    "Fiabilidad test-retest en 236 participantes de nueve centros de nueve países: kappas medias de 0,58 a 0,90 por ítem y de 0,61 (sedantes) a 0,78 (opioides) por clase de sustancia (WHO ASSIST Working Group 2002).",
+    "Validación multicéntrica internacional en 1047 participantes de tratamiento de adicciones y atención primaria: correlaciones con el ASI-Lite de 0,76 a 0,88 y con el AUDIT de 0,82; cortes con sensibilidades del 54-97 % y especificidades del 50-96 % según la sustancia (Humeniuk 2008).",
+    "Bandas de riesgo del manual de la OMS (versión 3.1): alcohol 0-10 bajo, 11-26 moderado y 27 o más alto; resto de sustancias 0-3 bajo, 4-26 moderado y 27 o más alto. La puntuación suma las preguntas 2 a 7; la inyección (pregunta 8) no puntúa, pero inyectarse más de 4 veces al mes de media en los últimos tres meses indica riesgo alto (Humeniuk 2010).",
+    "Versión española: 485 pacientes de atención primaria y unidades de adicciones del Área 11 de Madrid; buena sensibilidad y especificidad para separar uso, abuso y dependencia y validez concurrente con MINI-Plus, AUDIT, RTQ y SDS (Rubio Valladolid 2014).",
+    "En 202 pacientes psiquiátricos ingresados en Barcelona, consistencia interna de la puntuación total de 0,92 (alfa) y correlación con el AUDIT de 0,86 y con el DAST de 0,83 (López-Lazcano 2022).",
+    "La forma abreviada ASSIST-11, aplicada a 82 243 personas de 42 países, fue unidimensional e invariante entre identidades de género y orientaciones sexuales, aunque con consistencia interna baja (alfa 0,63; Lee 2023)."
+   ],
+   "tx": "Cribado de todas las sustancias en una única aplicación; riesgo bajo: información general y refuerzo; riesgo moderado: intervención breve con estilo motivacional y material de autoayuda; riesgo alto o inyección frecuente en los últimos tres meses: evaluación diagnóstica, abordaje de la reducción de daños y derivación especializada. No sustituye al diagnóstico clínico ni a la valoración de la abstinencia (CIWA-Ar, COWS).",
+   "note": "Es un instrumento de cribado, no diagnóstico: una puntuación alta no equivale a un trastorno por consumo según la CIE-11 o el DSM-5-TR. Los cortes óptimos varían entre poblaciones (el estudio chileno rebajó el de riesgo alto de 27 a 21; Soto-Brandt 2014). La eficacia de la intervención breve vinculada procede de seguimientos de tres meses y no se reprodujo en todos los entornos (Humeniuk 2012; Poblete 2017). En el cuestionario la ketamina figura entre los alucinógenos, y el manual sitúa el GHB y las drogas de diseño en el apartado de otras sustancias (Humeniuk 2010); en contextos de chemsex conviene especificar en ese apartado GHB/GBL, mefedrona y otras catinonas [fuente no localizada para la recomendación].",
+   "sec": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "La OMS encargó el ASSIST a un grupo internacional de investigación; el estudio inicial se hizo en Australia, Brasil, Irlanda, India, Israel, los Territorios Palestinos, Puerto Rico, el Reino Unido y Zimbabue, con un 60 % de la muestra procedente de servicios de tratamiento de adicciones (WHO ASSIST Working Group 2002). Se aplica como entrevista, aunque existen formatos autoaplicados: en atención primaria de Nueva York, una versión autoadministrada por ordenador con audio, en inglés o en español, tuvo una concordancia test-retest del 90-98 % (McNeely 2014). Sus ocho preguntas recorren el consumo alguna vez en la vida, la frecuencia en los últimos tres meses, el deseo intenso, los problemas asociados, el abandono de obligaciones, la preocupación de terceros, los intentos fallidos de control y el consumo inyectado; la puntuación específica de cada sustancia suma las preguntas 2 a 7, y la inyección se valora aparte como indicador de riesgo (Humeniuk 2010).",
+     "links": [
+      {
+       "ids": [
+        "audit",
+        "dast10",
+        "fagerstrom"
+       ],
+       "t": "Cribados de una sola sustancia"
+      },
+      {
+       "ids": [
+        "entrevistas"
+       ],
+       "t": "Entrevistas estructuradas"
+      }
+     ]
+    },
+    {
+     "t": "Intervención breve vinculada: eficacia y límites",
+     "x": "En un ensayo aleatorizado en atención primaria de Australia, Brasil, India y Estados Unidos con 731 personas en riesgo moderado por cannabis, cocaína, estimulantes de tipo anfetamínico u opioides, una intervención breve de consejo motivacional de 13,8 minutos de media redujo a los tres meses las puntuaciones de implicación frente a una lista de espera, salvo en el centro estadounidense; los autores lo consideran eficaz al menos a corto plazo (Humeniuk 2012). En cambio, en un ensayo chileno con 806 personas de atención primaria, urgencias y comisarías, la intervención breve no superó a un folleto informativo en las puntuaciones de alcohol, cannabis ni cocaína a los tres meses, con un 62 % de seguimiento (Poblete 2017). La intervención se apoya en los principios de la entrevista motivacional y debe integrarse con la reducción de daños cuando la persona no se plantea la abstinencia.",
+     "links": [
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "Entrevista motivacional"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "Reducción de daños"
+      },
+      {
+       "ids": [
+        "cannabis_tuc",
+        "cocaina",
+        "opioides"
+       ],
+       "t": "Sustancias del ensayo"
+      }
+     ]
+    },
+    {
+     "t": "Uso en España, en salud mental y en chemsex",
+     "x": "La versión española se validó en el Área 11 de Madrid (Rubio Valladolid 2014) y en la unidad de agudos de psiquiatría del Hospital Clínic de Barcelona, donde las subescalas de tabaco, alcohol y cannabis fueron unidimensionales y la validez discriminativa fue buena (López-Lazcano 2022), lo que apoya su uso para detectar consumo de riesgo en patología dual. En Madrid se lanzó en 2015 una versión web para la población general: de 1657 personas que la completaron en seis meses, el 78,9 % dio positivo para al menos una sustancia y el 31,8 % refirió policonsumo (López-Rodríguez y Rubio Valladolid 2018). En consultas de chemsex, el ASSIST ofrece un perfil global de riesgo por sustancia, mientras que el ChemSex Inventory explora el contexto sexual del consumo; ambos son complementarios [fuente no localizada para su uso combinado]. Su invariancia de medida entre orientaciones sexuales e identidades de género se ha documentado en la forma ASSIST-11 (Lee 2023), no en la completa.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_inv",
+        "chemsex_s"
+       ],
+       "t": "Evaluación del chemsex"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "Tabaco"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Diversidad sexual y de género"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Rendimiento de los cribados"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "WHO ASSIST Working Group (2002). The Alcohol, Smoking and Substance Involvement Screening Test (ASSIST): development, reliability and feasibility. Addiction 97:1183-1194 · PMID 12199834",
+    "Humeniuk R et al. (2008). Validation of the Alcohol, Smoking And Substance Involvement Screening Test (ASSIST). Addiction 103:1039-1047 · PMID 18373724",
+    "Humeniuk R et al. (2012). A randomized controlled trial of a brief intervention for illicit drugs linked to the Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) in clients recruited from primary health-care settings in four countries. Addiction 107:957-966 · PMID 22126102",
+    "Rubio Valladolid G et al. (2014). Validation of the Spanish version of the Alcohol, Smoking and Substance Involvement Screening Test (ASSIST). Psicothema 26:180-185 · PMID 24755018",
+    "López-Lazcano AI et al. (2022). Validation of the Alcohol Smoking and Substance Involvement Screening Test (ASSIST) in acute psychiatric inpatients. Adicciones 34:259-272 · PMID 34171103",
+    "Poblete F et al. (2017). A randomized controlled trial of a brief intervention for alcohol and drugs linked to the Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) in primary health care in Chile. Addiction 112:1462-1469 · PMID 28239995",
+    "Soto-Brandt G et al. (2014). Evidencias de validez en Chile del Alcohol, Smoking and Substance Involvement Screening Test (ASSIST). Adicciones 26:291-302 · PMID 25578000",
+    "Lee CT et al. (2023). The eleven-item Alcohol, Smoking and Substance Involvement Screening Test (ASSIST-11): cross-cultural psychometric evaluation across 42 countries. J Psychiatr Res 165:16-27 · PMID 37453212",
+    "McNeely J et al. (2014). Test-retest reliability of a self-administered Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) in primary care patients. J Subst Abuse Treat 47:93-101 · PMID 24629887",
+    "López-Rodríguez JA & Rubio Valladolid G (2018). Web-based Alcohol, Smoking, and Substance Involvement Screening Test results for the general Spanish population: cross-sectional study. J Med Internet Res 20:e57 · PMID 29453188",
+    "Humeniuk R, Henry-Edwards S, Ali R, Poznyak V & Monteiro M (2010). The Alcohol, Smoking and Substance Involvement Screening Test (ASSIST): manual for use in primary care. Ginebra: Organización Mundial de la Salud · ISBN 978 92 4 159938 2 (traducción española de la OPS, 2011)"
+   ],
+   "rel": [
+    "audit",
+    "dast10",
+    "fagerstrom",
+    "entrev_motiv",
+    "red_danos",
+    "chemsex_inv",
+    "chemsex_s",
+    "cribado_sens_esp",
+    "tabaco",
+    "cannabis_tuc",
+    "cocaina",
+    "opioides",
+    "entrevistas",
+    "alcohol"
+   ]
+  },
+  {
+   "id": "mmpi",
+   "n": "Inventario Multifásico de Personalidad de Minnesota (MMPI-2, MMPI-2-RF y MMPI-3): escalas de validez y uso pericial",
+   "ab": "MMPI-2 / RF / 3",
+   "al": [
+    "Minnesota Multiphasic Personality Inventory",
+    "MMPI-2",
+    "MMPI-2-RF",
+    "MMPI-3",
+    "Inventario Multifásico de Personalidad de Minnesota"
+   ],
+   "k": "ins",
+   "vw": "ter",
+   "sp": "ins",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 1989,
+   "tags": [
+    "forense"
+   ],
+   "desc": "Familia de autoinformes de respuesta verdadero o falso para evaluar psicopatología y personalidad, con escalas de validez que detectan la respuesta inconsistente, la sobredeclaración y la infradeclaración de síntomas. El MMPI-2 (Butcher et al. 1989) conserva las escalas clínicas clásicas; el MMPI-2-RF reorganiza el contenido en escalas clínicas reestructuradas (RC) y de problemas específicos; el MMPI-3 actualiza ítems y normas, y su estructura se ha alineado con los espectros de la taxonomía jerárquica HiTOP en muestras de salud mental y penitenciarias (Sellbom 2021). En metaanálisis, la escala de psicopatología infrecuente (Fp) es el indicador de sobredeclaración más eficaz del MMPI-2 (d = 2,02; Rogers 2003) y del MMPI-2-RF (Fp-r, d = 1,43; Ingram y Ternes 2016). En España se usan la adaptación del MMPI-2 de Ávila-Espada y Jiménez-Gómez (1999; autoría citada en Gómez-Gil 2008) y la del MMPI-2-RF de Santamaría, ambas de TEA Ediciones (catálogo del editor) [no se ha localizado adaptación española publicada del MMPI-3]. Material con derechos de autor y distribución comercial.",
+   "feats": [
+    "Metaanálisis de 65 estudios de simulación con el MMPI-2 más 11 diagnósticos: Fp (d = 2,02) es especialmente eficaz y con cortes más consistentes; F es eficaz, Fb no se recomienda de rutina y Ds es útil por su estrategia y pocos falsos positivos (Rogers 2003).",
+    "Metaanálisis de 25 estudios del MMPI-2-RF: las cinco escalas de sobredeclaración discriminan con tamaños de efecto de 1,08 (FBS-r) a 1,43 (Fp-r); FBS-r y RBS son las menos influidas por moderadores (Ingram y Ternes 2016).",
+    "MMPI-3, diseño de simulación: Fp (g = 1,29), RBS (g = 1,11) y F (g = 1,05) diferenciaron a quienes simulaban de pacientes con psicopatología genuina (Reeves 2022).",
+    "MMPI-3 en 550 evaluaciones forenses de discapacidad: RBS, seguida de Fs, F y FBS, separó mejor a quienes respondían de forma genuina de los casos de disfunción neurocognitiva simulada (Tylicki 2022).",
+    "Número de ítems: unos 567 en el MMPI-2, 338 en el MMPI-2-RF y 335 en el MMPI-3, según sus manuales [fuente no localizada]; el MMPI original es de Hathaway y McKinley (1943) [no verificada en su contenido].",
+    "Riesgo de falsos positivos: en 102 personas internadas en un centro psiquiátrico penitenciario español que respondieron con instrucciones estándar, las escalas de sobredeclaración del MMPI-2 (F, Fb, F-K, Fp, Ds, FBS) las clasificaban como simuladoras (Osuna 2015)."
+   ],
+   "tx": "Herramienta complementaria de la entrevista clínica y forense; la interpretación debe partir de las escalas de validez, contrastarse con la historia, la observación y fuentes colaterales, y apoyarse en pruebas de validez de rendimiento cuando se alegan déficits cognitivos.",
+   "note": "Una elevación de las escalas de sobredeclaración no diagnostica simulación: la psicopatología grave genuina (sobre todo psicótica) eleva F, Fb y otras escalas (Osuna 2015), y las diferencias entre grupos honestos y simuladores son más estrechas de lo que sugieren los cortes tradicionales (Ingram y Ternes 2016). Las normas de la adaptación española del MMPI-2-RF no se han contrastado aquí, y no se ha localizado adaptación española del MMPI-3 [fuente no localizada]. Algunos ítems del MMPI-2-RF y del MMPI-3 pueden ser respaldados por desconfianza cultural y no por paranoia clínica: en universitarios, el estudiantado negro y latino los respaldó más que el blanco, aunque en pacientes forenses el patrón global no difirió (Dixon 2023). La escala Mf (masculinidad-feminidad) del MMPI-2 refleja concepciones de género de su época y no debe interpretarse como indicador de patología en personas LGTBIQ [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Estructura y versiones",
+     "x": "El MMPI-2 mantiene las diez escalas clínicas clásicas, escalas de contenido y suplementarias, y escalas de validez de inconsistencia (VRIN, TRIN), sobredeclaración (F, Fb, Fp, FBS) e infradeclaración (L, K, S) [fuente no localizada para la lista completa]. El MMPI-2-RF sustituye las escalas clínicas, muy saturadas de un factor general de malestar, por escalas clínicas reestructuradas (RC) y añade escalas de problemas específicos y de personalidad PSY-5 [fuente no localizada]. El MMPI-3 conserva ese enfoque con normas nuevas; un estudio con 1537 personas de salud mental y 452 internos de prisión replicó en lo esencial los seis espectros de HiTOP con sus escalas de problemas específicos y las RC6 y RC8 (Sellbom 2021). Esa vinculación con modelos dimensionales lo acerca al PID-5 y al modelo alternativo del DSM-5, aunque no los sustituye.",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "Modelos dimensionales (HiTOP)"
+      },
+      {
+       "ids": [
+        "pid5_lpfs"
+       ],
+       "t": "PID-5 y LPFS"
+      },
+      {
+       "ids": [
+        "scl90r"
+       ],
+       "t": "Otros autoinformes de síntomas"
+      }
+     ]
+    },
+    {
+     "t": "Escalas de validez en la pericia",
+     "x": "La pericia penal, civil y laboral exige comprobar la credibilidad de los síntomas declarados. En el MMPI-2, Fp (síntomas raros incluso en pacientes) es el indicador más robusto y Ds tiene pocos falsos positivos (Rogers 2003); en el MMPI-2-RF todas las escalas de sobredeclaración son eficaces, con efectos de 1,08 a 1,43 (Ingram y Ternes 2016); en el MMPI-3, RBS fue la que mejor separó a quienes respondían de forma genuina de los casos de disfunción neurocognitiva simulada en 550 evaluaciones forenses de discapacidad (Tylicki 2022). Estas escalas miden validez de síntomas, no de rendimiento: cuando se alegan déficits de memoria o atención hay que añadir pruebas de validez de rendimiento como el TOMM. Las conclusiones deben formularse como compatibilidad o incompatibilidad con una presentación genuina, integrando todas las fuentes, y nunca como diagnóstico de simulación basado en una sola escala.",
+     "links": [
+      {
+       "ids": [
+        "simulacion",
+        "facticio"
+       ],
+       "t": "Simulación y trastorno facticio"
+      },
+      {
+       "ids": [
+        "sims_tomm"
+       ],
+       "t": "SIMS, TOMM y SIRS-2"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Pericia psiquiátrica"
+      }
+     ]
+    },
+    {
+     "t": "Poblaciones especiales, sesgos y límites",
+     "x": "En internos psiquiátricos penitenciarios españoles declarados incapaces para ser juzgados, el perfil clínico coincidía con el diagnóstico psicótico, pero las escalas de sobredeclaración los clasificaban como simuladores, mientras que las de manejo de la impresión (L, Wsd, Od) no los clasificaban como sobredeclarantes y resultaron indicadores robustos de respuesta honesta (Osuna 2015): en psicosis, una F alta es esperable. En 163 personas trans evaluadas en Barcelona con la adaptación española del MMPI-2, salvo en la escala Mf las puntuaciones clínicas medias estaban en rango normal y la mayoría no presentaba psicopatología (Gómez-Gil 2008), dato coherente con la despatologización de la diversidad de género. En universitarios negros y latinos, parte de la respuesta a ítems persecutorios del MMPI-2-RF y del MMPI-3 puede reflejar desconfianza cultural y no paranoia clínica, diferencia que no se observó de forma global en pacientes forenses (Dixon 2023). En Perú, la versión hispana del MMPI-2 mostró elevaciones de F (T 60-65) frente a las normas estadounidenses, en línea con otras poblaciones latinoamericanas (Scott y Pampa 2000).",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "wpath_soc8"
+       ],
+       "t": "Diversidad de género y despatologización"
+      },
+      {
+       "ids": [
+        "salud_penit",
+        "imputabilidad"
+       ],
+       "t": "Ámbito penitenciario e imputabilidad"
+      },
+      {
+       "ids": [
+        "psiq_transcultural"
+       ],
+       "t": "Sesgo cultural"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Rogers R et al. (2003). Detection of feigned mental disorders: a meta-analysis of the MMPI-2 and malingering. Assessment 10:160-177 · PMID 12801188",
+    "Ingram PB & Ternes MS (2016). The detection of content-based invalid responding: a meta-analysis of the MMPI-2-Restructured Form's (MMPI-2-RF) over-reporting validity scales. Clin Neuropsychol 30:473-496 · PMID 27214667",
+    "Reeves CK, Brown TA & Sellbom M (2022). An examination of the MMPI-3 validity scales in detecting overreporting of psychological problems. Psychol Assess 34:517-527 · PMID 35201824",
+    "Tylicki JL, Gervais RO & Ben-Porath YS (2022). Examination of the MMPI-3 over-reporting scales in a forensic disability sample. Clin Neuropsychol 36:1878-1901 · PMID 33319631",
+    "Sellbom M, Kremyar AJ & Wygant DB (2021). Mapping MMPI-3 scales onto the hierarchical taxonomy of psychopathology. Psychol Assess 33:1153-1168 · PMID 34323552",
+    "Osuna E et al. (2015). Analysis of response patterns on the MMPI-2 in psychiatric prison inmates. Int J Clin Health Psychol 15:29-36 · PMID 30487818",
+    "Gómez-Gil E, Vidal-Hagemeijer A & Salamero M (2008). MMPI-2 characteristics of transsexuals requesting sex reassignment: comparison of patients in prehormonal and presurgical phases. J Pers Assess 90:368-374 · PMID 18584445",
+    "Dixon JN et al. (2023). Adapting assessment processes to consider cultural mistrust in forensic practices: an example with the MMPI instruments. Law Hum Behav 47:292-306 · PMID 36931864",
+    "Scott RL & Pampa WM (2000). The MMPI-2 in Perú: a normative study. J Pers Assess 74:95-105 · PMID 10779935",
+    "Butcher JN, Dahlstrom WG, Graham JR, Tellegen A & Kaemmer B (1989). MMPI-2: Manual for administration and scoring. Minneapolis: University of Minnesota Press [no verificada]",
+    "Ávila-Espada A & Jiménez-Gómez F (1999). Inventario Multifásico de Personalidad de Minnesota-2 (MMPI-2): adaptación española. Madrid: TEA Ediciones (autoría citada en Gómez-Gil 2008; editorial según el catálogo del editor; contenido del manual no contrastado)",
+    "Ben-Porath YS & Tellegen A (2020). MMPI-3: Manual for administration, scoring, and interpretation. Minneapolis: University of Minnesota Press [no verificada]"
+   ],
+   "rel": [
+    "simulacion",
+    "sims_tomm",
+    "perit_forense",
+    "facticio",
+    "hitop_tp",
+    "pid5_lpfs",
+    "scl90r",
+    "imputabilidad",
+    "salud_penit",
+    "genero",
+    "pai_inv",
+    "psiq_transcultural"
+   ]
+  },
+  {
+   "id": "pai_inv",
+   "n": "Inventario de Evaluación de la Personalidad (PAI) y su adaptación española",
+   "ab": "PAI",
+   "al": [
+    "Personality Assessment Inventory",
+    "PAI",
+    "Inventario de Evaluación de la Personalidad",
+    "PAI-A"
+   ],
+   "k": "ins",
+   "vw": "ter",
+   "sp": "ins",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1991,
+   "tags": [
+    "forense"
+   ],
+   "desc": "Autoinforme multidimensional de psicopatología y personalidad de Morey (1991, 2007) con 22 escalas, 11 de ellas clínicas (Burneo-Garcés 2020); las restantes son de validez, de consideraciones para el tratamiento e interpersonales, sin ítems compartidos entre escalas [fuente no localizada para el desglose y la ausencia de solapamiento]. Responde en una escala graduada de cuatro opciones, no dicotómica [fuente no localizada]. Incluye tres medidas de sobredeclaración —la escala de impresión negativa (NIM), el índice de simulación (MAL) y la función discriminante de Rogers (RDF)—, todas predictoras potentes de la simulación en metaanálisis (Hawes y Boccaccini 2009). La adaptación española de Ortiz-Tallo, Santamaría, Cardenal y Sánchez (2011), editada por TEA Ediciones (catálogo del editor; un coautor de la tipificación figura con filiación en TEA Ediciones), se tipificó en 940 personas de población general española (Ortiz-Tallo 2015). Es una alternativa al MMPI en la evaluación clínica y forense; su material tiene derechos de autor.",
+   "feats": [
+    "Metaanálisis de detección de la sobredeclaración: NIM (d = 1,48; 23 estudios), MAL (d = 1,15) y RDF (d = 1,13) predicen la simulación no entrenada; con entrenamiento, NIM d = 1,59 y RDF d = 1,65 (Hawes y Boccaccini 2009).",
+    "Los cortes NIM ≥81 y MAL ≥3 dieron la mejor clasificación global; los efectos fueron mayores en estudios de simulación que en grupos criterio y al simular trastornos graves que ansiosos o depresivos (Hawes y Boccaccini 2009).",
+    "Tipificación española en 940 personas (461 hombres y 479 mujeres) y chilena en 569; las medias chilenas fueron más altas, con tamaños de efecto pequeños o moderados, y hubo diferencias por sexo (Ortiz-Tallo 2015).",
+    "En 811 hombres condenados en Ecuador con la adaptación española, modelos de cuatro y tres factores (con un factor propio de consumo de sustancias) ajustaron mejor; alfas de 0,49 a 0,89 (Burneo-Garcés 2020).",
+    "En pacientes ambulatorios mayoritariamente hispanohablantes, NIM y la escala de distorsión negativa (NDS) detectaron la simulación con efectos moderados o grandes, y el índice defensivo (DEF) la defensividad con un efecto muy grande (M = 1,68; Correa 2020)."
+   ],
+   "tx": "Evaluación amplia de psicopatología, rasgos de personalidad, riesgo de autolesión y agresividad, y factores que condicionan el tratamiento; en pericia, interpretar primero las escalas de validez e integrar con entrevista, historia y fuentes colaterales.",
+   "note": "La versión española europea (PAIE-S) no debe asumirse equivalente para personas bilingües latinoamericanas: en 53 bilingües, solo la mitad de sus escalas alcanzó alfa >0,70 (Kois 2019). Algunas escalas tienen consistencia interna baja en población penitenciaria (Burneo-Garcés 2020). Las cifras de validez proceden sobre todo de diseños de simulación, con efectos menores en grupos criterio reales (Hawes y Boccaccini 2009). No se han localizado estudios de equivalencia de medida en personas LGTBIQ ni en personas autistas [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Estructura y aplicación",
+     "x": "El PAI se diseñó con escalas sin ítems compartidos, lo que facilita la interpretación de cada constructo [fuente no localizada para la justificación de diseño]. Las 11 escalas clínicas abarcan quejas somáticas, ansiedad y trastornos relacionados, depresión, manía, paranoia, esquizofrenia, rasgos límite y antisociales, y problemas con el alcohol y con las drogas [fuente no localizada para la lista]. En 811 penados, los modelos factoriales basados en las dimensiones de malestar general, exaltación del ánimo y dominancia, y consumo y psicopatía ajustaron bien, y mejor aún al separar el consumo de sustancias como factor propio (Burneo-Garcés 2020). Su lectura dimensional lo aproxima a los modelos jerárquicos de psicopatología. La versión española se publicó en 2011 y su tipificación en población general española figura en Ortiz-Tallo (2015); hay versión para adolescentes (PAI-A), con adaptación española en TEA Ediciones [fuente no localizada en PubMed para su validación].",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "Modelos dimensionales"
+      },
+      {
+       "ids": [
+        "tlp",
+        "tpanti"
+       ],
+       "t": "Rasgos límite y antisociales"
+      },
+      {
+       "ids": [
+        "mmpi"
+       ],
+       "t": "Comparación con el MMPI"
+      }
+     ]
+    },
+    {
+     "t": "Validez de respuesta y uso pericial",
+     "x": "Para la sobredeclaración, el metaanálisis de Hawes y Boccaccini (2009) recomienda NIM ≥81 y MAL ≥3 por su clasificación global, y advierte que el rendimiento baja cuando se compara a simuladores con pacientes reales en lugar de con personas sin trastorno. Para la infradeclaración, el índice defensivo destacó en pacientes hispanohablantes (Correa 2020), algo relevante en evaluaciones de custodia, de idoneidad o penitenciarias en las que la persona tiende a minimizar. El PAI no sustituye a una entrevista estructurada como la SIRS-2 ni a pruebas de validez de rendimiento cuando se alegan déficits cognitivos [fuente no localizada para la recomendación]. En la pericia española, el informe debe precisar la versión y las normas usadas y señalar que ningún índice aislado establece la simulación.",
+     "links": [
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Detección de la simulación"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Pericia psiquiátrica"
+      }
+     ]
+    },
+    {
+     "t": "Diversidad lingüística y cultural, y límites",
+     "x": "La tipificación española y la chilena difieren en sus medias, con efectos pequeños o moderados, lo que obliga a usar normas del país de la persona evaluada (Ortiz-Tallo 2015). En bilingües latinoamericanos, las puntuaciones en la versión inglesa fueron a menudo más altas que en la europea española y la escala de egocentrismo antisocial no convergió (Kois 2019). En la adaptación argentina, aplicada a 998 adultos no clínicos de Buenos Aires, la mayoría de las escalas mostraron diferencias por sexo y respecto a la muestra estadounidense (Stover 2015). En población penitenciaria, el consumo de sustancias se comporta como un factor propio, y algunas escalas tienen fiabilidad baja (Burneo-Garcés 2020). Todo ello aconseja prudencia al aplicar el PAI a personas migrantes o con español de otra variante.",
+     "links": [
+      {
+       "ids": [
+        "psiq_transcultural",
+        "interprete_clinico"
+       ],
+       "t": "Evaluación transcultural y barrera idiomática"
+      },
+      {
+       "ids": [
+        "salud_penit"
+       ],
+       "t": "Ámbito penitenciario"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Hawes SW & Boccaccini MT (2009). Detection of overreporting of psychopathology on the Personality Assessment Inventory: a meta-analytic review. Psychol Assess 21:112-124 · PMID 19290771",
+    "Ortiz-Tallo M et al. (2015). Spanish and Chilean standardizations of the Personality Assessment Inventory: the influence of sex. Span J Psychol 18:E48 · PMID 26169605",
+    "Burneo-Garcés C et al. (2020). Psychometric properties of the Spanish adaptation of the Personality Assessment Inventory in correctional settings: an ESEM study. J Pers Assess 102:75-87 · PMID 30024281",
+    "Correa AA, Rogers R & Williams MM (2020). Malingering and defensiveness on the Spanish Personality Assessment Inventory: an initial investigation with mostly Spanish-speaking outpatients. Assessment 27:1163-1175 · PMID 29929387",
+    "Kois LE et al. (2019). Internal consistency and convergent validity of the Personality Assessment Inventory English and European-Spanish version with English/Spanish bilinguals. Span J Psychol 22:E31 · PMID 31155018",
+    "Stover JB, Solano AC & Liporace MF (2015). Personality Assessment Inventory: psychometric analyses of its Argentinean version. Psychol Rep 117:799-823 · PMID 26595301",
+    "Ortiz-Tallo M, Santamaría P, Cardenal V & Sánchez MP (2011). PAI. Inventario de Evaluación de la Personalidad: adaptación española. Madrid: TEA Ediciones (año citado en Burneo-Garcés 2020; autoría y editorial según el catálogo de TEA Ediciones; contenido del manual no contrastado)",
+    "Morey LC (1991). Personality Assessment Inventory: professional manual (2.ª ed., 2007). Odessa (FL): Psychological Assessment Resources [no verificada]"
+   ],
+   "rel": [
+    "mmpi",
+    "simulacion",
+    "sims_tomm",
+    "perit_forense",
+    "hitop_tp",
+    "tlp",
+    "tpanti",
+    "salud_penit",
+    "psiq_transcultural",
+    "pid5_lpfs"
+   ]
+  },
+  {
+   "id": "wais",
+   "n": "Escalas de inteligencia de Wechsler para adultos (WAIS-IV y WAIS-5): índices, discapacidad intelectual y pericia",
+   "ab": "WAIS-IV / WAIS-5",
+   "al": [
+    "Wechsler Adult Intelligence Scale",
+    "WAIS-IV",
+    "WAIS-5",
+    "Escala de inteligencia de Wechsler para adultos",
+    "CI total"
+   ],
+   "k": "ins",
+   "vw": "ter",
+   "sp": "ins",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2008,
+   "tags": [
+    "forense"
+   ],
+   "desc": "Baterías de aplicación individual para estimar el funcionamiento intelectual en adultos mediante subtests agrupados en índices y un cociente intelectual total (CIT). El WAIS-IV, con 15 subtests, se tipificó en España con una muestra representativa de 743 personas, en la que el modelo bifactorial (factor general g más factores de grupo) fue el que mejor ajustó (Abad 2016). El WAIS-5 (Pearson, 2024) amplía a 20 subtests principales y secundarios con una muestra de tipificación estadounidense de 2020 personas, aunque un análisis independiente no respaldó sus cinco factores y apoyó interpretar sobre todo el CIT como estimación de g (Canivez 2026). La prueba es imprescindible, pero no suficiente, para diagnosticar un trastorno del desarrollo intelectual: el DSM-5-TR exige además déficits de conducta adaptativa con inicio en el desarrollo y gradúa la gravedad por el funcionamiento adaptativo (APA 2022). No se ha localizado una adaptación española publicada del WAIS-5 [fuente no localizada].",
+   "feats": [
+    "Tipificación española del WAIS-IV: 743 personas (374 mujeres, 369 varones); mejor ajuste bifactorial, invariancia parcial entre niveles educativos y escasa validez incremental de los índices de comprensión verbal y velocidad de procesamiento sobre el CIT (Abad 2016).",
+    "Un análisis independiente del WAIS-IV halló que una estructura inspirada en el modelo Cattell-Horn-Carroll (Gc, Gf, Gv, memoria a corto plazo y velocidad) describe mejor el rendimiento que la de puntuación publicada, y falta de invariancia entre edades (Benson 2010).",
+    "WAIS-5: análisis factorial de los 20 subtests en la muestra de tipificación (n = 2020): cuatro factores con razonamiento visoespacial y fluido fusionados, dominados por g, frente a los cinco del manual (Canivez 2026).",
+    "Efecto Flynn: metaanálisis de 285 estudios con una ganancia media de 2,31 puntos por década, y de 2,93 en las pruebas modernas de Wechsler y Stanford-Binet; las normas envejecidas inflan el CI (Trahan 2014).",
+    "La elección de normas cambia el resultado: en 305 ejecutivos colombianos de alto nivel educativo, las normas españolas del WAIS-IV daban entre 3 y 11 puntos menos que las colombianas (Duggan 2019)."
+   ],
+   "tx": "Aplicación por profesionales con formación en evaluación psicométrica [fuente no localizada para los requisitos del editor]; interpretar el CIT con su intervalo de confianza, valorar la conducta adaptativa con instrumentos y fuentes independientes, considerar la lengua, la escolarización y los déficits sensoriales o motores, y verificar la validez del rendimiento en contextos de incentivo externo.",
+   "note": "El CI no diagnostica por sí solo la discapacidad intelectual ni determina la capacidad jurídica: tras la Ley 8/2021 lo relevante son los apoyos que necesita la persona. Los índices tienen poca validez incremental sobre el CIT (Abad 2016; Canivez 2026), por lo que el análisis de perfiles y de discrepancias entre índices debe hacerse con cautela. Las normas extranjeras o antiguas sesgan el resultado (Duggan 2019; Trahan 2014). En personas bilingües, las normas medias generan muchos falsos positivos de puntuación baja, que los autores atribuyen a la escolarización y al bilingüismo (Ontiveros 2026).",
+   "sec": [
+    {
+     "t": "Estructura e índices",
+     "x": "El WAIS-IV agrupa sus subtests en cuatro índices —comprensión verbal, razonamiento perceptivo, memoria de trabajo y velocidad de procesamiento— que se integran en el CIT [fuente no localizada para la composición exacta de cada índice]. Su estructura se ha reinterpretado desde el modelo Cattell-Horn-Carroll (Benson 2010), y en la tipificación española el factor general domina, con una relevancia de g algo menor en niveles educativos altos (Abad 2016). El WAIS-5 separa los dominios visoespacial y de razonamiento fluido e incorpora una tarea de velocidad de denominación sin respuesta motora, útil cuando hay limitaciones motoras: en 100 personas de 70 a 85 años de una unidad de demencias se asoció sobre todo con otras medidas de velocidad (Van Dyke 2026). En su muestra normativa, las habilidades verbales se mantuvieron más tiempo con la edad y la velocidad de procesamiento declinó de forma rápida y continua (Winter 2025).",
+     "links": [
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "Evaluación neuropsicológica"
+      },
+      {
+       "ids": [
+        "dem"
+       ],
+       "t": "Demencia y envejecimiento cognitivo"
+      }
+     ]
+    },
+    {
+     "t": "Discapacidad intelectual y capacidad",
+     "x": "Para el DSM-5-TR, el diagnóstico de trastorno del desarrollo intelectual requiere déficits intelectuales confirmados por evaluación clínica y pruebas estandarizadas individuales, déficits de conducta adaptativa e inicio en el periodo del desarrollo; las puntuaciones en torno a dos desviaciones típicas por debajo de la media, considerando el error de medida, orientan al déficit intelectual (APA 2022) [fuente no localizada para el margen numérico exacto]. Una ganancia poblacional de unos 3 puntos por década con las pruebas de Wechsler (Trahan 2014) hace que una tipificación de hace una década pueda sobrestimar el CI, algo decisivo cerca del umbral diagnóstico. En España, la Ley 8/2021 sustituyó la incapacitación por medidas de apoyo, de modo que el informe debe describir capacidades y necesidades de apoyo concretas, no solo un CI. La discapacidad intelectual coexiste con frecuencia con el TEA y con otros trastornos mentales.",
+     "links": [
+      {
+       "ids": [
+        "di",
+        "disc_int"
+       ],
+       "t": "Discapacidad intelectual"
+      },
+      {
+       "ids": [
+        "capacidad_jur",
+        "crpd"
+       ],
+       "t": "Capacidad jurídica y apoyos"
+      },
+      {
+       "ids": [
+        "tea"
+       ],
+       "t": "Trastorno del espectro autista"
+      }
+     ]
+    },
+    {
+     "t": "Uso pericial y fuentes de error",
+     "x": "En la pericia penal, el funcionamiento intelectual interviene en la valoración de la imputabilidad (art. 20.1 del Código Penal, anomalía o alteración psíquica) y de la capacidad para comprender el proceso; en la civil, en las medidas de apoyo; y en la laboral, en el daño tras un traumatismo craneoencefálico. Las fuentes de error son conocidas: normas de otro país (las españolas infraestimaron el CI de una muestra colombiana; Duggan 2019), bilingüismo y escolarización (en 60 bilingües mexicano-estadounidenses, con el corte de puntuación escalar ≤7 en los subtests principales, falsos positivos del 32 % con la versión mexicana y del 53 % con la estadounidense, reducidos a ≤3 % al estimar el nivel previo con una prueba de vocabulario; Ontiveros 2026), normas envejecidas (Trahan 2014) y rendimiento insuficiente por falta de esfuerzo, que exige pruebas de validez de rendimiento cuando hay incentivo externo. El informe debe declarar la versión, las normas y el intervalo de confianza.",
+     "links": [
+      {
+       "ids": [
+        "imputabilidad",
+        "perit_forense"
+       ],
+       "t": "Imputabilidad y pericia"
+      },
+      {
+       "ids": [
+        "tce_neuro"
+       ],
+       "t": "Traumatismo craneoencefálico"
+      },
+      {
+       "ids": [
+        "sims_tomm",
+        "simulacion"
+       ],
+       "t": "Validez del rendimiento"
+      },
+      {
+       "ids": [
+        "psiq_transcultural"
+       ],
+       "t": "Sesgo cultural y lingüístico"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Abad FJ et al. (2016). The relationships between WAIS-IV factor index scores and educational level: a bifactor model approach. Psychol Assess 28:987-1000 · PMID 26322798",
+    "Benson N, Hulac DM & Kranzler JH (2010). Independent examination of the Wechsler Adult Intelligence Scale-Fourth Edition (WAIS-IV): what does the WAIS-IV measure? Psychol Assess 22:121-130 · PMID 20230158",
+    "Canivez GL et al. (2026). Construct validity of the WAIS-5: complementary exploratory and confirmatory factor analyses of the 20 primary and secondary subtests. Assessment (publicación anticipada en línea) · PMID 41693426",
+    "Trahan LH et al. (2014). The Flynn effect: a meta-analysis. Psychol Bull 140:1332-1360 · PMID 24979188",
+    "Duggan EC et al. (2019). Contributing towards a cultural neuropsychology assessment decision-making framework: comparison of WAIS-IV norms from Colombia, Chile, Mexico, Spain, United States, and Canada. Arch Clin Neuropsychol 34:657-681 · PMID 30295696",
+    "Ontiveros G & Gasquoine PG (2026). False positive low score rates on Wechsler Adult Intelligence Scale-IV México and U.S. version core subtests from neurologically intact, balanced bilingual, Mexican Americans. Arch Clin Neuropsychol 41(3) · PMID 41947583",
+    "Winter EL et al. (2025). Cognitive aging revisited: a cross-sectional analysis of the WAIS-5. J Intell 13:85 · PMID 40710818",
+    "Van Dyke SA et al. (2026). Examination of WAIS-5 naming speed quantity within a multidisciplinary dementia clinic. Appl Neuropsychol Adult (publicación anticipada en línea) · PMID 42010951",
+    "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, 5.ª ed., texto revisado (DSM-5-TR). Washington DC: APA. Discapacidad intelectual (trastorno del desarrollo intelectual)",
+    "Wechsler D (2008). WAIS-IV: Wechsler Adult Intelligence Scale, 4.ª ed. San Antonio: NCS Pearson; adaptación española (de la Guía E, Hernández A, Paradell E y Vallar F), Madrid: Pearson Educación, 2012 (datos según la evaluación de tests del Consejo General de la Psicología y el catálogo del editor; contenido no contrastado)",
+    "Ley 8/2021 (2021), de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica (BOE núm. 132, 03-06-2021)",
+    "Ley Orgánica 10/1995 (1995), de 23 de noviembre, del Código Penal, art. 20.1 (BOE núm. 281, 24-11-1995)"
+   ],
+   "rel": [
+    "di",
+    "disc_int",
+    "neuropsico",
+    "imputabilidad",
+    "perit_forense",
+    "capacidad_jur",
+    "tea",
+    "tce_neuro",
+    "sims_tomm",
+    "dem",
+    "crpd"
+   ]
+  },
+  {
+   "id": "riesgo_sexual",
+   "n": "Valoración del riesgo de violencia sexual: SVR-20 y Static-99R (actuarial frente a juicio profesional estructurado)",
+   "ab": "SVR-20 / Static-99R",
+   "al": [
+    "Sexual Violence Risk-20",
+    "SVR-20",
+    "Static-99R",
+    "Static-99",
+    "riesgo de reincidencia sexual"
+   ],
+   "k": "ins",
+   "vw": "ter",
+   "sp": "ins",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2009,
+   "tags": [
+    "forense",
+    "risk"
+   ],
+   "desc": "Instrumentos para estimar y gestionar el riesgo de reincidencia en personas que han cometido delitos sexuales. El Static-99R es una escala actuarial de factores estáticos derivada del Static-99 (Hanson y Thornton 2000) con nuevos pesos para la edad, que corrigen la sobrestimación del riesgo en personas mayores (Helmus 2012). El SVR-20 es una guía de juicio profesional estructurado de 20 factores; su adaptación española, del Grupo de Estudios Avanzados en Violencia de la Universitat de Barcelona, predijo la reincidencia sexual en 163 internos con un área bajo la curva de 0,83 (Pérez Ramírez 2008). En el metaanálisis de Hanson y Morton-Bourgon (2009; 118 muestras, 45 398 personas, 16 países), las medidas actuariales empíricas fueron más precisas que el juicio profesional no estructurado para todos los desenlaces, y el juicio estructurado quedó en una posición intermedia. Complementa la ficha general de valoración del riesgo de violencia.",
+   "feats": [
+    "Metaanálisis de 536 hallazgos de 118 muestras: las medidas actuariales empíricas superaron al juicio no estructurado para reincidencia sexual, violenta y general, y sus propios tamaños de efecto fueron moderados o grandes (d medios de 0,67 a 0,97); el juicio estructurado fue intermedio (Hanson y Morton-Bourgon 2009).",
+    "Static-99: creado combinando los ítems del RRASOR y del SACJ-Min; en cuatro muestras de Canadá y el Reino Unido (n = 1301), área bajo la curva de 0,71 para reincidencia sexual y 0,69 para violenta (Hanson y Thornton 2000).",
+    "Static-99R: nuevos pesos por edad a partir de 8390 personas de 24 muestras; precisión relativa solo algo mayor, pero estimaciones absolutas de reincidencia mucho mejor ajustadas en personas mayores (Helmus 2012).",
+    "SVR-20, adaptación española: estudio retrospectivo de 163 expedientes con seguimiento de 4 años; clasificó bien al 79,9 % de quienes no reincidieron y al 70,8 % de quienes sí, con área bajo la curva de 0,83 (Pérez Ramírez 2008).",
+    "Revisión sistemática de 43 estudios en varones adultos: todos los instrumentos mostraron al menos precisión moderada; la calidad de la investigación primaria es variable y hay posible sesgo de los desarrolladores (Tully 2013)."
+   ],
+   "tx": "Usar el instrumento para estructurar la evaluación y orientar la intensidad del tratamiento y la supervisión según el principio de riesgo, necesidad y responsividad; combinar factores estáticos con dinámicos y protectores, y comunicar el riesgo con su incertidumbre.",
+   "note": "La precisión es moderada y se aplica a grupos, no a individuos: una puntuación alta no establece que una persona concreta vaya a reincidir. Las tasas observadas pueden quedar muy por debajo de las que dan las normas de los autores, como ocurrió con la CPORT en España (Soldino 2021). Los instrumentos diseñados para predecir delitos sexuales o delincuencia general rindieron peor que los diseñados para la violencia (Fazel 2012) y no predijeron la reincidencia sexual en una muestra alemana de autores de homicidio sexual (Hill 2012). No se ha localizado una validación española publicada del Static-99R [fuente no localizada]. La orientación sexual no es un factor de riesgo; los ítems que codifican el sexo de las víctimas recogen un patrón de victimización, no la homosexualidad [fuente no localizada para la formulación del ítem].",
+   "sec": [
+    {
+     "t": "Actuarial frente a juicio profesional estructurado",
+     "x": "Las escalas actuariales como el Static-99R suman factores históricos con pesos fijos y traducen la puntuación en tasas de reincidencia observadas en muestras normativas; su ventaja es la fiabilidad y la precisión (Hanson y Morton-Bourgon 2009), y su límite, que apenas incluyen factores modificables. Las guías de juicio profesional estructurado como el SVR-20 enumeran factores de ajuste psicosocial, de historia delictiva sexual y de planes de futuro [fuente no localizada para las tres secciones del manual], y dejan la conclusión final al evaluador, lo que favorece la planificación de la gestión. En los Países Bajos, la asignación clínica al tratamiento solo se correlacionó de forma baja o moderada con el riesgo según Static-99R, PCL:SV y SVR-20: muchos autores de abuso a menores recibieron tratamiento más intensivo del indicado y muchos autores de violación, menos (Smid 2013). Los factores protectores (SAPROF) añadieron capacidad predictiva por encima del HCR-20 y del SVR-20 en 83 pacientes forenses (de Vries Robbé 2015).",
+     "links": [
+      {
+       "ids": [
+        "riesgo_viol"
+       ],
+       "t": "Valoración general del riesgo de violencia"
+      },
+      {
+       "ids": [
+        "pclr"
+       ],
+       "t": "PCL-R"
+      },
+      {
+       "ids": [
+        "cribado_sens_esp"
+       ],
+       "t": "Valor predictivo y calibración"
+      }
+     ]
+    },
+    {
+     "t": "Uso en España",
+     "x": "La adaptación española del SVR-20 (Martínez, Hilterman y Andrés-Pueyo 2005) procede del Grupo de Estudios Avanzados en Violencia de la Universitat de Barcelona y cuenta con validación local publicada, con buena discriminación en internos penitenciarios (Pérez Ramírez 2008, de cuyo equipo forman parte Martínez García y Andrés Pueyo) [no verificada para el año de la adaptación]. Para el material de abuso sexual infantil en línea, la herramienta CPORT se aplicó a 304 hombres detenidos en España: la reincidencia sexual a cinco años fue del 2,3 %, la discriminación fue modesta (área bajo la curva de 0,57 para CPORT y 0,70 para el CASIC en quienes solo tenían ese tipo de delito) y las tasas observadas fueron mucho menores que las esperadas por las normas de sus autores (Soldino 2021). En la pericia, el dictamen debe explicitar el instrumento, las normas, la población de validación y los límites, y su valoración corresponde al órgano judicial junto con el resto de la prueba.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "imputabilidad"
+       ],
+       "t": "Pericia penal"
+      },
+      {
+       "ids": [
+        "salud_penit"
+       ],
+       "t": "Ámbito penitenciario"
+      }
+     ]
+    },
+    {
+     "t": "Sesgos, comunicación del riesgo y no estigmatización",
+     "x": "La selección de normas del Static-99R no es neutra: en 109 evaluadores estadounidenses, quienes trabajaban para la defensa preferían tasas a 5 años y de muestras rutinarias, e intervalos de confianza, y quienes trabajaban para la acusación, tasas a 10 años y de muestras de alto riesgo (Chevalier 2015); el sesgo de adscripción general se trata en la ficha de pericia psiquiátrica. El informe debe dar tasas con intervalos de confianza y horizonte temporal explícitos. El riesgo de violencia sexual depende de la conducta y de factores criminógenos, no de la orientación sexual, la identidad de género ni la presencia de una parafilia sin conducta delictiva: ni el interés parafílico equivale a delito ni el delito a un diagnóstico de trastorno parafílico. Los tratamientos han mostrado un efecto limitado sobre la reincidencia (véase la ficha de parafilias), por lo que la gestión combina tratamiento, supervisión y apoyo social.",
+     "links": [
+      {
+       "ids": [
+        "parafil"
+       ],
+       "t": "Parafilias y trastornos parafílicos"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "Orientación sexual e identidad de género"
+      },
+      {
+       "ids": [
+        "tpanti"
+       ],
+       "t": "Rasgos antisociales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Hanson RK & Morton-Bourgon KE (2009). The accuracy of recidivism risk assessments for sexual offenders: a meta-analysis of 118 prediction studies. Psychol Assess 21:1-21 · PMID 19290762",
+    "Hanson RK & Thornton D (2000). Improving risk assessments for sex offenders: a comparison of three actuarial scales. Law Hum Behav 24:119-136 · PMID 10693322",
+    "Helmus L et al. (2012). Improving the predictive accuracy of Static-99 and Static-2002 with older sex offenders: revised age weights. Sex Abuse 24:64-101 · PMID 21844404",
+    "Pérez Ramírez M et al. (2008). [Recidivism risk assessment in sex offenders] (artículo en español). Psicothema 20:205-210 · PMID 18413079",
+    "Tully RJ, Chou S & Browne KD (2013). A systematic review on the effectiveness of sex offender risk assessment tools in predicting sexual recidivism of adult male sex offenders. Clin Psychol Rev 33:287-316 · PMID 23334335",
+    "Smid WJ et al. (2013). Treatment referral for sex offenders based on clinical judgment versus actuarial risk assessment: match and analysis of mismatch. J Interpers Violence 28:2273-2289 · PMID 23422846",
+    "de Vries Robbé M et al. (2015). Assessing protective factors for sexually violent offending with the SAPROF. Sex Abuse 27:51-70 · PMID 25210106",
+    "Hill A et al. (2012). The utility of risk assessment instruments for the prediction of recidivism in sexual homicide perpetrators. J Interpers Violence 27:3553-3578 · PMID 22645029",
+    "Soldino V, Carbonell-Vayá EJ & Seigfried-Spellar KC (2021). Spanish validation of the Child Pornography Offender Risk Tool. Sex Abuse 33:503-528 · PMID 32482122",
+    "Chevalier CS et al. (2015). Static-99R reporting practices in sexually violent predator cases: does norm selection reflect adversarial allegiance? Law Hum Behav 39:209-218 · PMID 25495715",
+    "Fazel S et al. (2012). Use of risk assessment instruments to predict violence and antisocial behaviour in 73 samples involving 24 827 people: systematic review and meta-analysis. BMJ 345:e4692 · PMID 22833604",
+    "Boer DP, Hart SD, Kropp PR & Webster CD (1997). Manual for the Sexual Violence Risk-20. Burnaby: Simon Fraser University; adaptación española del Grupo de Estudios Avanzados en Violencia de la Universitat de Barcelona (Pérez Ramírez 2008), atribuida a Martínez M, Hilterman E y Andrés-Pueyo A (2005) [no verificada]"
+   ],
+   "rel": [
+    "riesgo_viol",
+    "pclr",
+    "parafil",
+    "perit_forense",
+    "imputabilidad",
+    "salud_penit",
+    "cribado_sens_esp",
+    "tpanti",
+    "sara",
+    "genero"
+   ]
+  }
+ ]
+}
