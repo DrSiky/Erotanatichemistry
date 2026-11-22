@@ -1,0 +1,709 @@
+{
+ "patch": {
+  "kleist_hit": {
+   "relAdd": [
+    "kleist_afasias",
+    "neele_fasicas"
+   ]
+  },
+  "wkl18": {
+   "relAdd": [
+    "kleist_afasias"
+   ]
+  },
+  "neolog": {
+   "relAdd": [
+    "kleist_afasias"
+   ]
+  },
+  "sejuncion_wernicke": {
+   "relAdd": [
+    "kleist_afasias"
+   ]
+  },
+  "leonhard_hit": {
+   "relAdd": [
+    "neele_fasicas",
+    "trostorff_hit"
+   ]
+  },
+  "angst_hit": {
+   "relAdd": [
+    "neele_fasicas"
+   ]
+  },
+  "wkl13": {
+   "relAdd": [
+    "neele_fasicas"
+   ]
+  },
+  "wkl2": {
+   "relAdd": [
+    "neele_fasicas"
+   ]
+  },
+  "wkl19": {
+   "relAdd": [
+    "trostorff_hit",
+    "estacion_wkl"
+   ]
+  },
+  "wkl_sistematicas": {
+   "relAdd": [
+    "trostorff_hit",
+    "estacion_wkl"
+   ]
+  },
+  "wurzburg_escuela": {
+   "relAdd": [
+    "trostorff_hit",
+    "estacion_wkl",
+    "kleist_afasias"
+   ]
+  },
+  "infec_prenat": {
+   "relAdd": [
+    "estacion_wkl"
+   ]
+  },
+  "compl_obst": {
+   "relAdd": [
+    "estacion_wkl"
+   ]
+  },
+  "pcicloid": {
+   "relAdd": [
+    "estacion_wkl",
+    "trostorff_hit"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "kleist_afasias",
+   "n": "Kleist y los trastornos del lenguaje en las psicosis: paralogia, paragramatismo y esquizofasia (Gehirnpathologie, 1934)",
+   "ab": "Kleist: lenguaje",
+   "al": [
+    "Kleist y la esquizofasia",
+    "paralogia",
+    "paragramatismo",
+    "Gehirnpathologie",
+    "afasia y psicosis",
+    "Sprachstörungen bei Psychosen"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1934,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "Karl Kleist llevó a la psicopatología del lenguaje el método de Wernicke: comparar los trastornos verbales de las psicosis con los de las afasias por lesión focal y atribuirlos a sistemas cerebrales definidos (Neumärker y Bartsch 2003; Teichmann 1990). Desde un trabajo temprano sobre afasia y enfermedad mental (Kleist 1914) [no verificada] hasta su síntesis neurológica Gehirnpathologie (1934), elaborada a partir de los heridos cerebrales de la Primera Guerra Mundial, separó en las psicosis alteraciones del pensamiento análogas a la parafasia (paralogia), alteraciones de la construcción gramatical (paragramatismo) y el cuadro de habla desorganizada con comprensión relativamente conservada que se conocía como esquizofasia [fuente no localizada para la terminología exacta de cada obra]. Leonhard recogió esa herencia en la catafasia, una esquizofrenia no sistemática definida por el trastorno formal del pensamiento y del habla (Pfuhlmann 1998).",
+   "feats": [
+    "Método: correlación entre síntoma psíquico y sistema cerebral a partir del análisis de lesiones, considerada la mejor localización disponible en su época (Neumärker y Bartsch 2003)",
+    "Paralogia y paragramatismo como equivalentes psicóticos de la parafasia y del trastorno sintáctico afásico; en la catafasia se describen descarrilamiento lógico, pensamiento paralógico, paragramatismos, agramatismos y neologismos (Pfuhlmann 1998)",
+    "Exposición tardía en inglés de su correlación entre síntomas esquizofrénicos y patología cerebral (Kleist 1960); registro comprobado, sin resumen indexado",
+    "Herencia leonhardiana: la catafasia sustituye a la esquizofasia como forma con curso propio, separada de la psicosis confusional cicloide, cuyo trastorno se limita a la organización temática del discurso (Pfuhlmann 1997)",
+    "Lectura actual: la afasiología separa por lesión el agramatismo (área de Broca) del paragramatismo (circunvoluciones temporales superior y media posteriores izquierdas) (Matchin 2020); en la catafasia se ha descrito hipoperfusión bilateral de la unión temporoparietal (Foucher 2018)",
+    "Límite: en un estudio de casos únicos, el trastorno formal del pensamiento no se asoció al rendimiento en una batería de afasia, sino a un déficit semántico expresivo que respeta la denominación (Oh 2002)"
+   ],
+   "note": "Las obras originales de Kleist (1914, 1934) no se han cotejado y no se citan páginas; la atribución de cada término (Paralogie, Paragrammatismus, Schizophasie) a una obra concreta queda marcada como no localizada. El término esquizofasia procede de Kraepelin y hoy se usa de forma genérica (de Oliveira-Souza 2023). La analogía con la afasia es una hipótesis de trabajo de la escuela WKL: los estudios neuropsicológicos y de neuroimagen modernos la apoyan solo en parte y no demuestran lesiones focales en las psicosis.",
+   "sec": [
+    {
+     "t": "Contexto: de la afasia de Wernicke a las psicosis",
+     "x": "Wernicke había descrito la afasia sensorial y propuesto con la sejunción un mecanismo común para la desorganización del pensamiento psicótico; Kleist, su discípulo, aplicó la misma lógica con un material clínico nuevo: las lesiones cerebrales por arma de fuego de la Primera Guerra Mundial, que le permitieron estudiar alteraciones focales del lenguaje, la praxis y la percepción (Neumärker y Bartsch 2003). Teichmann (1990) resume que Kleist intentó atribuir síntomas distintos a centros funcionales y circuitos reguladores definidos. Si un trastorno del lenguaje de origen lesional tiene una forma reconocible, razonaba la escuela, un trastorno psicótico con forma análoga debía implicar el mismo sistema, aunque sin lesión macroscópica [fuente no localizada para la formulación literal]. Esta premisa distingue a Kleist de Bleuler, que entendía la relajación asociativa como síntoma fundamental psicológico y transversal a todo el grupo de las esquizofrenias.",
+     "links": [
+      {
+       "ids": [
+        "sejuncion_wernicke",
+        "wernicke_hit"
+       ],
+       "t": "Wernicke: sejunción y afasia"
+      },
+      {
+       "ids": [
+        "afasia_wer"
+       ],
+       "t": "afasia sensorial"
+      },
+      {
+       "ids": [
+        "bleuler_4a"
+       ],
+       "t": "relajación asociativa de Bleuler"
+      }
+     ]
+    },
+    {
+     "t": "Aportación: paralogia, paragramatismo y esquizofasia",
+     "x": "Kleist separó en las psicosis varios niveles de alteración verbal: la paralogia, en la que los conceptos se sustituyen o desplazan como las palabras en la parafasia; el paragramatismo, con frases de construcción errónea o fusionada; y la esquizofasia, habla muy desorganizada con neologismos en una persona que conserva comprensión y conducta relativamente ordenadas [fuente no localizada para las definiciones literales de Kleist]. Su obra neurológica principal, Gehirnpathologie (Leipzig, Barth, 1934) [no verificada], sistematizaba la localización de estas funciones. La descripción clínica moderna de la catafasia recoge esos mismos elementos: descarrilamiento lógico, pensamiento paralógico, incoherencia con contaminaciones hasta la ensalada de palabras en la forma excitada, y en el habla verbalizaciones extrañas, paragramatismos, agramatismos y a veces neologismos; las alucinaciones e ideas delirantes son accesorias y no definen el síndrome (Pfuhlmann 1998).",
+     "links": [
+      {
+       "ids": [
+        "neolog"
+       ],
+       "t": "neologismos y paralogismos"
+      },
+      {
+       "ids": [
+        "incoher",
+        "descarril"
+       ],
+       "t": "incoherencia y descarrilamiento"
+      },
+      {
+       "ids": [
+        "kleist_hit"
+       ],
+       "t": "Kleist y Gehirnpathologie"
+      }
+     ]
+    },
+    {
+     "t": "De la esquizofasia de Kleist a la catafasia de Leonhard",
+     "x": "Leonhard denominó catafasia a la forma en que este trastorno del pensamiento y del lenguaje es el núcleo y la situó entre las esquizofrenias no sistemáticas, con curso fluctuante, remisiones incompletas y defecto de gravedad variable con afecto aplanado y algo eufórico (Pfuhlmann 1998); dedicó un trabajo específico a su extensión (Leonhard 1961). La escuela añadió un criterio diferencial fino: en la psicosis confusional cicloide se altera la organización temática del discurso, pero los conceptos se enlazan con corrección lógica; en la catafasia los errores alcanzan la lógica, la semántica y la sintaxis, lo que se ha interpretado como afectación de sistemas más básicos y peor pronóstico (Pfuhlmann 1997). Von Trostorff documentó correlatos gráficos del trastorno en dibujos espontáneos de pacientes con catafasia (von Trostorff 1988), y en un estudio búlgaro de 44 casos con más de 10 años de evolución la esquizofasia solo era reconocible en una tercera fase, precedida por paralogismos, verbigeración, neologismos y perseveración (Kirov 1990).",
+     "links": [
+      {
+       "ids": [
+        "wkl18"
+       ],
+       "t": "catafasia"
+      },
+      {
+       "ids": [
+        "wkl15"
+       ],
+       "t": "psicosis confusional cicloide"
+      },
+      {
+       "ids": [
+        "wkl32",
+        "wkl28"
+       ],
+       "t": "diferenciales: parafrenia incoherente y catatonía de habla pronta"
+      },
+      {
+       "ids": [
+        "trostorff_hit"
+       ],
+       "t": "Sigrid von Trostorff"
+      }
+     ]
+    },
+    {
+     "t": "Lectura actual y límites",
+     "x": "La afasiología moderna da cierto respaldo a la idea de que el paragramatismo es un trastorno distinto del agramatismo: en 53 pacientes con ictus izquierdo, el agramatismo se asoció a lesión del área de Broca y el paragramatismo a lesión de las circunvoluciones temporales superior y media posteriores izquierdas (Matchin 2020). En la catafasia, un estudio de flujo sanguíneo cerebral regional con resonancia magnética halló hipoperfusión bilateral de la unión temporoparietal, disociada de la hiperperfusión motora y premotora izquierda de la catatonía periódica (Foucher 2018). Sin embargo, el trastorno formal del pensamiento de la esquizofrenia no equivale a una afasia: en casos únicos, el rendimiento en una batería de afasia dependía del deterioro intelectual general y no del trastorno formal, que se caracterizó como anomalía semántica expresiva con denominación conservada (Oh 2002). La correspondencia es, por tanto, de forma y de red funcional, no de lesión focal [fuente no localizada para esta síntesis].",
+     "links": [
+      {
+       "ids": [
+        "afasia_bro",
+        "afasia_wer"
+       ],
+       "t": "agramatismo y afasia sensorial"
+      },
+      {
+       "ids": [
+        "wkl19"
+       ],
+       "t": "catatonía periódica"
+      },
+      {
+       "ids": [
+        "wurzburg_escuela"
+       ],
+       "t": "validación empírica posterior"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Neumärker KJ & Bartsch AJ (2003). Karl Kleist (1879-1960) - a pioneer of neuropsychiatry. Hist Psychiatry 14:411-458 · PMID 14740633",
+    "Teichmann G (1990). The influence of Karl Kleist on the nosology of Karl Leonhard. Psychopathology 23:267-276 · PMID 2084780",
+    "Kleist K (1934). Gehirnpathologie, vornehmlich auf Grund der Kriegserfahrungen. Leipzig: Barth [no verificada; páginas no cotejadas]",
+    "Kleist K (1914). Aphasie und Geisteskrankheit. Münch Med Wochenschr 61:8-12 [no verificada]",
+    "Kleist K (1960). Schizophrenic symptoms and cerebral pathology. J Ment Sci 106:246-255 · PMID 14409774 (registro comprobado; sin resumen indexado; contenido no cotejado)",
+    "Pfuhlmann B, Franzek E & Stöber G (1998). [Cataphasia: a psychosis of the schizophrenic domain distinguished by formal thought disorders and speech characteristics] (artículo en alemán con resumen en inglés). Nervenarzt 69:257-263 · PMID 9565981",
+    "Pfuhlmann B, Franzek E & Stöber G (1997). [The importance of differential analysis of formal thought disorders in confusion psychosis and cataphasia] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 65:531-539 · PMID 9451565",
+    "Leonhard K (1961). [The scope of nonsystematic schizophrenias, especially cataphasia] (artículo en alemán). Arch Psychiatr Nervenkr Z Gesamte Neurol Psychiatr 202:513-526 · PMID 14464120 (registro comprobado; sin resumen indexado)",
+    "von Trostorff S (1988). [Diagnosis of «cataphasia» based on a drawing] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 40:415-420 · PMID 3186850",
+    "Kirov K (1990). Studies of the course of schizophasia. Psychopathology 23:339-341 · PMID 2084786",
+    "Matchin W et al. (2020). Agrammatism and paragrammatism: a cortical double dissociation revealed by lesion-symptom mapping. Neurobiol Lang (Camb) 1:208-225 · PMID 34296193",
+    "Foucher JR et al. (2018). A double dissociation between two psychotic phenotypes: periodic catatonia and cataphasia. Prog Neuropsychopharmacol Biol Psychiatry 86:363-369 · PMID 29559372",
+    "Oh TM, McCarthy RA & McKenna PJ (2002). Is there a schizophasia? A study applying the single case approach to formal thought disorder in schizophrenia. Neurocase 8:233-244 · PMID 12119320",
+    "de Oliveira-Souza R (2023). Kraepelin's schizophasia: chaotic speech with preservation of comprehension and activities of daily living. Cortex 165:160-171 · PMID 37290345"
+   ],
+   "rel": [
+    "kleist_hit",
+    "wkl18",
+    "wkl15",
+    "wkl32",
+    "sejuncion_wernicke",
+    "wernicke_hit",
+    "afasia_wer",
+    "neolog",
+    "incoher",
+    "descarril",
+    "leonhard_hit",
+    "leonhard_expresion",
+    "wurzburg_escuela"
+   ]
+  },
+  {
+   "id": "neele_fasicas",
+   "n": "Edda Neele: Die phasischen Psychosen nach ihrem Erscheinungs- und Erbbild (1949) y la separación monopolar-bipolar",
+   "ab": "Neele (1949)",
+   "al": [
+    "Edda Neele",
+    "Die phasischen Psychosen",
+    "psicosis fásicas",
+    "monopolar y bipolar",
+    "escuela de Frankfurt"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "dep",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1949,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "Edda Neele, colaboradora de Kleist en la clínica de Frankfurt, publicó en 1949 la monografía Die phasischen Psychosen nach ihrem Erscheinungs- und Erbbild (Leipzig, Barth) [no verificada], un estudio del cuadro clínico y de la carga familiar de las psicosis fásicas. Según Teichmann (1990), la diferenciación entre psicosis afectivas unipolares y bipolares se basa en el trabajo conjunto de Kleist, Edda Neele y Leonhard. Su estudio se sitúa entre el término «monopolar» de Kleist (1947), recordado por Angst et al. (1978), y la sistemática de Leonhard (1957), que distinguió las psicosis fásicas puras de la enfermedad maníaco-depresiva; las confirmaciones independientes de Angst y de Perris llegaron en 1966. El contenido detallado de la monografía (muestra, cifras de riesgo familiar) no se ha cotejado y no se reproduce.",
+   "feats": [
+    "Autoría compartida de la separación: Teichmann (1990) atribuye la diferenciación unipolar-bipolar al trabajo en equipo de Kleist, Edda Neele y Leonhard",
+    "Cronología: término «depresión monopolar» de Kleist (1947) y Leonhard (1957), cuyo uso como sinónimo de «unipolar» propusieron Angst et al. (1978); monografía de Neele (1949) [contenido no cotejado]",
+    "Marco de Kleist: sus «fasofrenias» agrupaban la enfermedad maníaco-depresiva, los trastornos afectivos unipolares y las psicosis marginales (Neumärker y Bartsch 2003)",
+    "Continuidad en Leonhard: formas monopolares y bipolares distinguibles por curso y por patrón sintomático, con carga hereditaria alta en la enfermedad maníaco-depresiva y muy baja en las formas puras, euforias incluidas (Leonhard 1987)",
+    "Confirmación exterior: Perris (1966) y Angst (1966) verificaron de forma independiente la distinción; Perris (1990) subrayó el peso de la obra de Leonhard en la clasificación internacional",
+    "Antecedente francés: tras 1899 los autores franceses mantuvieron la melancolía autónoma separada de la locura maníaco-depresiva, anticipando la dicotomía unipolar-bipolar antes de Leonhard y Angst (Haustgen y Akiskal 2006)"
+   ],
+   "note": "La monografía de Neele no se ha cotejado: editorial, extensión, tamaño de la muestra y cifras de riesgo familiar quedan sin verificar y no se citan. La terminología original de Neele (fásico, uni/monopolar, bipolar) no se ha comprobado en el texto [fuente no localizada]. La prioridad en la separación unipolar-bipolar es materia de debate historiográfico: la escuela WKL, la tradición francesa y los estudios de 1966 reclaman aportaciones distintas.",
+   "sec": [
+    {
+     "t": "Contexto: la escisión de la locura maníaco-depresiva",
+     "x": "Kraepelin había reunido en la locura maníaco-depresiva todas las psicosis afectivas periódicas y circulares, sin separar las que solo presentan depresión. En la clínica de Frankfurt, Kleist mantuvo el programa contrario: sus «fasofrenias» incluían la enfermedad maníaco-depresiva, los trastornos afectivos unipolares y las psicosis marginales, y su método rechazaba, siempre que era posible, la suposición de entidades nosológicas mixtas (Neumärker y Bartsch 2003). El término «depresión monopolar» se atribuye a Kleist (1947) y a Leonhard (1957) (Angst et al. 1978). En ese entorno, Edda Neele recibió el encargo de estudiar sistemáticamente el cuadro clínico y la herencia de las psicosis fásicas [fuente no localizada para el encargo concreto]; la monografía resultante apareció en 1949 (Neele 1949) [no verificada].",
+     "links": [
+      {
+       "ids": [
+        "locura_md",
+        "kraepelin_1913"
+       ],
+       "t": "locura maníaco-depresiva de Kraepelin"
+      },
+      {
+       "ids": [
+        "kleist_hit"
+       ],
+       "t": "Kleist en Frankfurt"
+      }
+     ]
+    },
+    {
+     "t": "Aportación: cuadro clínico y herencia de las psicosis fásicas",
+     "x": "El título de la obra anuncia su método: describir las psicosis fásicas por su cuadro clínico (Erscheinungsbild) y por su cuadro hereditario (Erbbild), es decir, contrastar la clasificación clínica con la morbilidad en las familias. Teichmann (1990) atribuye la separación entre formas unipolares y bipolares al trabajo conjunto de Kleist, Neele y Leonhard, y sostiene que, por esa contribución, sería más correcto hablar de sistema de clasificación de Kleist-Leonhard. El resultado se incorporó a la Aufteilung de Leonhard (1957) [no verificada], donde las psicosis fásicas puras (melancolía y manía puras, depresiones puras y euforias puras) se separan de la enfermedad maníaco-depresiva multiforme. Leonhard (1987) resumió la tesis central: formas monopolares y bipolares se distinguen por curso y por patrón sintomático, y la carga familiar es alta en la bipolar y muy baja en las formas puras, en particular en las euforias. Las cifras propias de Neele no se han cotejado.",
+     "links": [
+      {
+       "ids": [
+        "wkl1",
+        "wkl2"
+       ],
+       "t": "manía pura y melancolía pura"
+      },
+      {
+       "ids": [
+        "wkl3",
+        "wkl4",
+        "wkl5",
+        "wkl6",
+        "wkl7"
+       ],
+       "t": "depresiones puras"
+      },
+      {
+       "ids": [
+        "wkl8",
+        "wkl9",
+        "wkl10",
+        "wkl11",
+        "wkl12"
+       ],
+       "t": "euforias puras"
+      },
+      {
+       "ids": [
+        "wkl13"
+       ],
+       "t": "enfermedad maníaco-depresiva"
+      }
+     ]
+    },
+    {
+     "t": "Recepción: Leonhard, Angst, Perris y la clasificación actual",
+     "x": "En 1966 Perris, en Umeå, y Angst, en Zúrich, publicaron de forma independiente estudios familiares y de curso que fundamentaron la distinción bipolar-unipolar (Perris 1966; Angst 1966) [la monografía de Angst no se ha cotejado]; Angst y Marneros (2001) reconocen que verificaron opiniones de la escuela de Wernicke-Kleist-Leonhard. Angst et al. (1978) propusieron usar «unipolar» como sinónimo del «monopolar» de Kleist y Leonhard, y advirtieron que un 10 % de las depresiones monopolares cambió después a bipolar. En la escuela de Leonhard, von Trostorff siguió estudiando la carga hereditaria de las formas bipolares y monopolares (von Trostorff 1968). La recepción de Neele fuera del ámbito germanoparlante fue escasa y su nombre rara vez figura en las historias anglosajonas de la bipolaridad [fuente no localizada]. Haustgen y Akiskal (2006) recuerdan además un antecedente francés: la melancolía autónoma, separada de la locura maníaco-depresiva tras 1899.",
+     "links": [
+      {
+       "ids": [
+        "angst_hit"
+       ],
+       "t": "Angst, Perris y Winokur"
+      },
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard (1957)"
+      },
+      {
+       "ids": [
+        "conv_bip"
+       ],
+       "t": "conversión de unipolar a bipolar"
+      },
+      {
+       "ids": [
+        "trostorff_hit"
+       ],
+       "t": "von Trostorff"
+      },
+      {
+       "ids": [
+        "munip"
+       ],
+       "t": "manía unipolar"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Neele E (1949). Die phasischen Psychosen nach ihrem Erscheinungs- und Erbbild. Leipzig: Barth [no verificada; editorial y contenido no cotejados]",
+    "Teichmann G (1990). The influence of Karl Kleist on the nosology of Karl Leonhard. Psychopathology 23:267-276 · PMID 2084780",
+    "Neumärker KJ & Bartsch AJ (2003). Karl Kleist (1879-1960) - a pioneer of neuropsychiatry. Hist Psychiatry 14:411-458 · PMID 14740633",
+    "Angst J et al. (1978). The course of affective disorders. I. Change of diagnosis of monopolar, unipolar, and bipolar illness. Arch Psychiatr Nervenkr 226:57-64 · PMID 708227",
+    "Leonhard K (1987). [Differential diagnosis and different etiologies of monopolar and bipolar phasic psychoses] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 39:524-533 · PMID 3432442",
+    "Perris C (1990). The importance of Karl Leonhard's classification of endogenous psychoses. Psychopathology 23:282-290 · PMID 2084782",
+    "Perris C (1966). A study of bipolar (manic-depressive) and unipolar recurrent depressive psychoses. I. Genetic investigation. Acta Psychiatr Scand Suppl 194:15-44 · PMID 5229227",
+    "Angst J & Marneros A (2001). Bipolarity from ancient to modern times: conception, birth and rebirth. J Affect Disord 67:3-19 · PMID 11869749",
+    "von Trostorff S (1968). [On the hereditary tendency in bipolar and monopolar phasic psychosis] (artículo en alemán). Schweiz Arch Neurol Neurochir Psychiatr 102:235-243 · PMID 5686574 (registro comprobado; sin resumen indexado)",
+    "Haustgen T & Akiskal H (2006). French antecedents of «contemporary» concepts in the American Psychiatric Association's classification of bipolar (mood) disorders. J Affect Disord 96:149-163 · PMID 17092563",
+    "Leonhard K (1957). Aufteilung der endogenen Psychosen. Berlín: Akademie-Verlag [no verificada; páginas no cotejadas]",
+    "Angst J (1966). Zur Ätiologie und Nosologie endogener depressiver Psychosen. Berlín: Springer [no verificada]"
+   ],
+   "rel": [
+    "leonhard_hit",
+    "kleist_hit",
+    "angst_hit",
+    "wkl1",
+    "wkl2",
+    "wkl13",
+    "locura_md",
+    "munip",
+    "conv_bip",
+    "tb1"
+   ]
+  },
+  {
+   "id": "trostorff_hit",
+   "n": "Sigrid von Trostorff: herencia, catamnesis y pronóstico de las psicosis endógenas en la escuela de Leonhard (Berlín, 1965-1990)",
+   "ab": "von Trostorff",
+   "al": [
+    "Sigrid von Trostorff",
+    "S. von Trostorff",
+    "Charité",
+    "catamnesis leonhardiana",
+    "herencia de las psicosis endógenas"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1975,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "Sigrid von Trostorff, psiquiatra de la clínica psiquiátrica y neurológica de la Universidad Humboldt de Berlín (Charité), fue la principal colaboradora de Karl Leonhard en la etapa berlinesa [fuente no localizada para la valoración comparativa]. Sus trabajos dieron a la clasificación de Leonhard buena parte de su base familiar y pronóstica: en 604 pacientes, la carga familiar de psicosis fue del 15,9 % en las esquizofrenias sistemáticas, del 50,8 % en las no sistemáticas y del 22,1 % en las psicosis cicloides (von Trostorff 1975); describió transmisión en varias generaciones compatible con herencia dominante en la catatonía periódica (von Trostorff 1981); y, con Leonhard, confirmó en una catamnesis de 1986 el 93 % de los diagnósticos y pronósticos establecidos entre 1969 y 1973 (von Trostorff y Leonhard 1990). Estudió además temperamentos prepsicóticos, gemelos monocigóticos, factores desencadenantes y la expresión gráfica de las psicosis.",
+   "feats": [
+    "Patrón familiar (604 casos): familiares enfermos en el 15,9 % de las sistemáticas, el 50,8 % de las no sistemáticas y el 22,1 % de las cicloides; fluctuaciones bipolares en el 1,6 %, el 49,7 % y el 78,8 %, respectivamente (von Trostorff 1975)",
+    "Curso hospitalario en la misma serie: estancia media de 16,9, 13,8 y 8,2 años y nunca dados de alta tras el primer ingreso el 37,5 %, el 25,7 % y el 9,6 % de sistemáticas, no sistemáticas y cicloides (von Trostorff 1975)",
+    "Catatonía periódica: en 143 pacientes, enfermedad en sucesión directa en cuatro generaciones en cinco ocasiones y en tres generaciones en 17, compatible con herencia dominante; la catafasia fue la siguiente en carga familiar (von Trostorff 1981)",
+    "Catamnesis: el 93 % de los diagnósticos y pronósticos leonhardianos de 1969-1973 se confirmaron en 1986 (von Trostorff y Leonhard 1990)",
+    "Gemelos monocigóticos: el síndrome diagnóstico se observaba casi siempre en ambos miembros, mientras los cambios de humor accesorios, el curso y la gravedad diferían (von Trostorff 1977)",
+    "Factores desencadenantes: causas endocrinas en el 17,5 % de las formas bipolares, el 8,5 % de las cicloides y el 4,4 % de las unipolares; causas psíquicas sobre todo en las psicosis fásicas puras (12,7 %) (von Trostorff 1988)"
+   ],
+   "note": "La obra de von Trostorff procede casi por completo de una sola clínica, con diagnósticos establecidos por la propia escuela y publicada sobre todo en alemán en una revista de la República Democrática Alemana; la confirmación catamnésica del 93 % la realizaron los mismos autores del diagnóstico inicial, lo que limita su independencia [fuente no localizada para esta valoración metodológica]. Su hipótesis de herencia recesiva de la parafrenia afectiva a partir de matrimonios consanguíneos (von Trostorff 1967; 1986) no se ha cotejado más allá del título. Los resultados familiares de las sistemáticas han sido discutidos por estudios posteriores en familias multiplex (Peralta 2016). Datos biográficos (fechas, formación) no localizados en fuentes indexadas.",
+   "sec": [
+    {
+     "t": "Contexto: la escuela de Leonhard en Berlín Este",
+     "x": "Tras su paso por Frankfurt y Erfurt, Leonhard dirigió desde 1957 la clínica psiquiátrica de la Charité en Berlín Este [fuente no localizada para las fechas], donde reunió series amplias de pacientes hospitalizados seguidos durante décadas. Von Trostorff, adscrita a esa clínica (von Trostorff y Leonhard 1990), publicó entre 1965 y 1990 una larga serie de trabajos de la escuela, la mayoría en la revista Psychiatrie, Neurologie und medizinische Psychologie, editada en Leipzig. Su programa respondía a la pregunta central de Leonhard: si las formas que él separaba por la clínica eran también distintas por su herencia y por su curso. Sus primeros trabajos psiquiátricos indexados abordan la psicosis expansivo-confabulatoria tras traumatismo craneal (von Trostorff 1965) y los temperamentos prepsicóticos en las psicosis cicloides (von Trostorff 1966).",
+     "links": [
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard y la Aufteilung"
+      },
+      {
+       "ids": [
+        "neele_fasicas"
+       ],
+       "t": "precedente de Frankfurt: Neele"
+      }
+     ]
+    },
+    {
+     "t": "Aportación: herencia diferencial de los grupos de Leonhard",
+     "x": "En su estudio de 604 pacientes (309 sistemáticas, 191 no sistemáticas y 104 cicloides), las tres agrupaciones diferían en curso y en herencia: las sistemáticas tenían la estancia más larga y la menor carga familiar (2,3 % de padres y 2,4 % de hermanos enfermos), las no sistemáticas la mayor (11,6 % y 10,9 %) y las cicloides valores intermedios (5,0 % y 3,0 %); dentro de las no sistemáticas destacaba la catatonía periódica por el número de familiares con psicosis (von Trostorff 1975). En 143 casos de catatonía periódica documentó la enfermedad en tres y cuatro generaciones sucesivas y la apoyó con la morbilidad de medio hermanos, a favor de una herencia dominante (von Trostorff 1981). La escuela de Würzburg halló después un riesgo de morbilidad del 26,9 % en familiares de primer grado con anticipación (Stöber 1995). También estudió la herencia en las psicosis fásicas bipolares y monopolares (von Trostorff 1968).",
+     "links": [
+      {
+       "ids": [
+        "wkl_sistematicas"
+       ],
+       "t": "sistemáticas frente a no sistemáticas"
+      },
+      {
+       "ids": [
+        "wkl19"
+       ],
+       "t": "catatonía periódica"
+      },
+      {
+       "ids": [
+        "wkl17"
+       ],
+       "t": "parafrenia afectiva"
+      },
+      {
+       "ids": [
+        "pcicloid"
+       ],
+       "t": "psicosis cicloides"
+      }
+     ]
+    },
+    {
+     "t": "Pronóstico, catamnesis y otros trabajos",
+     "x": "Con Leonhard publicó la catamnesis más citada de la escuela: el 93 % de los diagnósticos y pronósticos iniciales hechos entre 1969 y 1973 se confirmaron en 1986, lo que los autores presentaron como alternativa a sistemas sin validez pronóstica demostrada (von Trostorff y Leonhard 1990). En 1000 pacientes hospitalizados halló malos rendimientos escolares también en psicosis cicloides y fásicas unipolares y atribuyó el exceso al sesgo de hospitalización, no a la esquizofrenia (von Trostorff 1980). Comparó factores desencadenantes endocrinos, físicos y psíquicos en seis formas de psicosis (von Trostorff 1988), analizó la producción artística como ayuda al diagnóstico diferencial (von Trostorff 1978) y siguió con éxito a adolescentes con anorexia nerviosa tratados con la terapia individual de Leonhard (von Trostorff 1985).",
+     "links": [
+      {
+       "ids": [
+        "leonhard_neurosis"
+       ],
+       "t": "terapia individual de Leonhard"
+      },
+      {
+       "ids": [
+        "wkl18"
+       ],
+       "t": "catafasia y dibujo"
+      },
+      {
+       "ids": [
+        "kleist_afasias"
+       ],
+       "t": "trastornos del lenguaje en la escuela WKL"
+      }
+     ]
+    },
+    {
+     "t": "Legado y lectura crítica",
+     "x": "Sus cifras alimentaron la tesis, desarrollada después en Würzburg, de que las sistemáticas tienen escasa carga hereditaria y mayor peso de factores exógenos, y las no sistemáticas, sobre todo la catatonía periódica, una carga alta (Stöber 1995). Esa tesis no se ha replicado por completo: en 441 familias multiplex la esquizofrenia sistemática alcanzó la familiaridad más alta (Peralta 2016), una discrepancia que puede depender del diseño (probandos consecutivos hospitalizados frente a familias con varios afectados) [fuente no localizada]. Con Leonhard propuso también que la catafasia había aumentado en tiempos recientes y comenzaba antes, sin dejar de considerarla hereditaria (Leonhard y von Trostorff 1986), una afirmación que no se ha contrastado con datos epidemiológicos independientes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "wurzburg_escuela"
+       ],
+       "t": "escuela de Würzburg"
+      },
+      {
+       "ids": [
+        "estacion_wkl"
+       ],
+       "t": "factores prenatales y estacionales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "von Trostorff S (1975). [Pattern of familial psychoses: systematic and unsystematic schizophrenia and cycloid psychoses] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 27:80-100 · PMID 1197448",
+    "von Trostorff S (1981). [The dominant inheritance of periodic catatonia] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 33:158-166 · PMID 7244040",
+    "von Trostorff S & Leonhard K (1990). Catamnesis of endogenous psychoses according to the differential diagnostic method of Karl Leonhard. Psychopathology 23:259-262 · PMID 2084778",
+    "von Trostorff S (1977). [Determination of similarity and dissimilarity of endogenous psychoses in monozygotic twins based on a differential diagnosis] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 29:164-175 · PMID 560023",
+    "von Trostorff S (1988). [Provoking endogenous psychoses] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 40:278-283 · PMID 3205901",
+    "von Trostorff S (1980). [Connection between reduced mental abilities and endogenous psychosis (examination of 1000 hospitalized patients)] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 32:430-442 · PMID 7413870",
+    "von Trostorff S (1978). [Art of patients with endogenous psychosis as an approach to differential diagnosis] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 30:476-482, 499-512 · PMID 724832",
+    "von Trostorff S (1966). [Prepsychotic temperaments in cycloid psychoses] (artículo en alemán). Arch Psychiatr Nervenkr 208:61-90 · PMID 5968199 (registro comprobado; sin resumen indexado)",
+    "von Trostorff S (1968). [On the hereditary taint of cycloid psychoses, asystematic and systematic schizophrenias] (artículo en alemán). Psychiatr Neurol Med Psychol (Leipz) 20:98-106 · PMID 5731861 (registro comprobado; sin resumen indexado)",
+    "von Trostorff S (1968). [On the hereditary tendency in bipolar and monopolar phasic psychosis] (artículo en alemán). Schweiz Arch Neurol Neurochir Psychiatr 102:235-243 · PMID 5686574 (registro comprobado; sin resumen indexado)",
+    "von Trostorff S (1967). [Repletive emotional paraphrenia in related marriages] (artículo en alemán). Fortschr Neurol Psychiatr Grenzgeb 35:412-429 · PMID 5182402 (registro comprobado; sin resumen indexado)",
+    "von Trostorff S (1986). [The recessive inheritance of affective paraphrenia (the incidence in consanguineous marriages)] (artículo en alemán). Psychiatr Neurol Med Psychol Beih 33:108-115 · PMID 3101078 (registro comprobado; sin resumen indexado)",
+    "von Trostorff S (1985). [Catamnestic studies in patients with anorexia nervosa in puberty] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 37:90-100 · PMID 3991815",
+    "von Trostorff S (1988). [Diagnosis of «cataphasia» based on a drawing] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 40:415-420 · PMID 3186850",
+    "Leonhard K & von Trostorff S (1986). [Has the cataphasic form of schizophrenia increased in modern times?] (artículo en alemán). Psychiatr Neurol Med Psychol (Leipz) 38:443-449 · PMID 3491374",
+    "von Trostorff S (1965). [Contribution to the clinical picture of expansive-confabulatory psychosis following brain injury] (artículo en alemán). Psychiatr Neurol Med Psychol (Leipz) 17:465-474 · PMID 5874954 (registro comprobado; sin resumen indexado)",
+    "Stöber G et al. (1995). Periodic catatonia: a schizophrenic subtype with major gene effect and anticipation. Eur Arch Psychiatry Clin Neurosci 245:135-141 · PMID 7669819",
+    "Peralta V et al. (2016). Familiality of psychotic disorders: a polynosologic study in multiplex families. Schizophr Bull 42:975-983 · PMID 26707865"
+   ],
+   "rel": [
+    "leonhard_hit",
+    "wkl_sistematicas",
+    "wkl19",
+    "wkl17",
+    "wkl18",
+    "pcicloid",
+    "wurzburg_escuela",
+    "leonhard_neurosis",
+    "kleist_hit"
+   ]
+  },
+  {
+   "id": "estacion_wkl",
+   "n": "Estación de nacimiento e infecciones prenatales en las esquizofrenias sistemáticas, no sistemáticas y psicosis cicloides (Würzburg)",
+   "ab": "Estación natal y WKL",
+   "al": [
+    "efecto estacional de nacimiento",
+    "season of birth",
+    "infección prenatal y Leonhard",
+    "Franzek y Beckmann",
+    "Stöber"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "ndv",
+   "ring": 3,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1992,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "El exceso de nacimientos en invierno y primavera entre las personas con esquizofrenia es uno de los hallazgos epidemiológicos más constantes, aunque pequeño: un 5-8 % (Torrey 1997) y una odds ratio agrupada de 1,07 en el hemisferio norte (Davies 2003). El grupo de Würzburg (Franzek, Beckmann, Stöber) propuso que este efecto medio oculta subgrupos opuestos cuando se aplica la clasificación de Leonhard: el exceso invernal se concentraba en las formas sin carga genética evidente (esquizofrenias sistemáticas y psicosis cicloides), mientras las no sistemáticas, de alta carga familiar, mostraban un déficit de nacimientos en esos meses (Franzek y Beckmann 1993; Beckmann y Franzek 1992). Estudios retrospectivos de infecciones maternas apuntaron en la misma dirección: segundo trimestre en las sistemáticas (Stöber 1994) y primer trimestre en las cicloides (Stöber 1997).",
+   "feats": [
+    "1299 pacientes con esquizofrenia por DSM-III-R: ligero exceso de nacimientos invernales y primaverales que se mantenía solo en cicloides y sistemáticas; las no sistemáticas mostraban un descenso, debido a catatonía periódica y catafasia y no a parafrenia afectiva (Franzek y Beckmann 1993)",
+    "507 pacientes con alta carga familiar: déficit claro de nacimientos en un periodo definido de invierno y primavera, más evidente con la clasificación de Leonhard (Beckmann y Franzek 1992)",
+    "Infecciones maternas: 16 de 80 madres de pacientes crónicos refirieron una infección grave en el embarazo, 11 en el segundo trimestre; las del quinto mes se dieron exclusivamente en las sistemáticas (Stöber 1994)",
+    "Psicosis cicloides: asociación significativa con infecciones respiratorias del primer trimestre (gripe, resfriado febril) en 40 madres por grupo, sin asociación en la enfermedad maníaco-depresiva (Stöber 1997)",
+    "Catatonía sistemática: riesgo de morbilidad del 4,6 % en familiares, inicio temprano y predominio masculino, interpretado como vulnerabilidad del feto varón a la infección de mitad de gestación (Stöber 1998)",
+    "Efecto general: exceso del 5-8 % en más de 250 estudios, relacionado probablemente con nacimiento urbano e historia familiar negativa y sin correlación con subtipos clínicos convencionales (Torrey 1997)"
+   ],
+   "tx": "No tiene traducción terapéutica directa. En la anamnesis, la estación de nacimiento carece de valor predictivo individual; la historia obstétrica e infecciosa del embarazo puede ayudar a formular la hipótesis etiológica en una persona con una forma sistemática o cicloide, sin modificar el tratamiento [fuente no localizada]. La prevención de infecciones en la gestación se justifica por sí misma, no por este efecto.",
+   "note": "Las muestras de Würzburg proceden de una sola región, con diagnósticos leonhardianos hechos por la propia escuela y datos de infección obtenidos por recuerdo materno retrospectivo, sensible al sesgo de recuerdo; la hipótesis del exceso de abortos y muertes perinatales en fetos de alto riesgo genético no se ha comprobado directamente. El efecto estacional general es pequeño (atribuible poblacional del 3,3 %; Davies 2003) y la evidencia serológica de la gripe materna es insuficiente (Selten y Termorshuizen 2017). No se ha localizado una réplica independiente de la división estacional por subgrupos de Leonhard [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Hallazgo general frente a subgrupos de Leonhard",
+     "x": "Las revisiones generales describen un exceso del 5-8 % de nacimientos en invierno y primavera tanto en la esquizofrenia como en el trastorno bipolar, sin relación con el sexo, la clase social, las complicaciones obstétricas medibles ni los subtipos clínicos convencionales, y probablemente asociado al nacimiento urbano y a la ausencia de antecedentes familiares (Torrey 1997). El metaanálisis de ocho estudios del hemisferio norte, con 126 196 pacientes, estimó una odds ratio de 1,07 (IC 95 % 1,05-1,08), con una pequeña correlación positiva con la latitud (Davies 2003). La aportación de Würzburg fue mostrar que la clasificación de Leonhard separa grupos con efectos opuestos: exceso invernal en cicloides y sistemáticas y déficit en las no sistemáticas, sobre todo catatonía periódica y catafasia (Franzek y Beckmann 1993). La relación con la historia familiar negativa descrita por Torrey es coherente con esta lectura [fuente no localizada para la comparación explícita].",
+     "links": [
+      {
+       "ids": [
+        "infec_prenat"
+       ],
+       "t": "infección prenatal en general"
+      },
+      {
+       "ids": [
+        "wkl_sistematicas"
+       ],
+       "t": "sistemáticas frente a no sistemáticas"
+      },
+      {
+       "ids": [
+        "wkl19",
+        "wkl18",
+        "wkl17"
+       ],
+       "t": "no sistemáticas: catatonía periódica, catafasia, parafrenia afectiva"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo propuesto: interacción gen-ambiente",
+     "x": "Franzek y Beckmann (1996) formularon la hipótesis de los «efectos nocivos»: agentes exógenos predominantes en la estación fría, entre ellos la gripe, afectarían al cerebro fetal en el segundo trimestre, periodo crítico de maduración, y serían de importancia etiológica mayor en las formas esporádicas. En fetos de alto riesgo genético, cuyo neurodesarrollo ya estaría alterado, la misma noxa causaría más abortos, mortinatos y muertes súbitas del lactante, lo que explicaría el déficit de nacimientos invernales en las no sistemáticas (Beckmann y Franzek 1992; Franzek y Beckmann 1996). En la catatonía sistemática, una infección prenatal predijo el diagnóstico (34 % de expuestos frente al 8 % en la periódica), mientras la psicosis parental predijo la catatonía periódica (Stöber 2002). En las psicosis cicloides se añadió la asociación con anomalías ventriculares en tomografía compatibles con lesiones prenatales o perinatales (Franzek 1996).",
+     "links": [
+      {
+       "ids": [
+        "neurodev"
+       ],
+       "t": "marco del neurodesarrollo"
+      },
+      {
+       "ids": [
+        "compl_obst"
+       ],
+       "t": "complicaciones obstétricas"
+      },
+      {
+       "ids": [
+        "pcicloid",
+        "wkl16"
+       ],
+       "t": "psicosis cicloides"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia y estado actual",
+     "x": "Los datos de infección proceden de entrevistas retrospectivas a las madres, con muestras de 40 a 80 casos por grupo (Stöber 1994; Stöber 1997), y los diagnósticos de una sola escuela. La hipótesis de la mortalidad fetal selectiva no se midió en esos estudios. En el plano general, la evidencia de la gripe materna como factor de riesgo de psicosis se considera insuficiente: el estudio serológico más citado usaba una sola muestra de suero, y los estudios ecológicos de la pandemia de 1957 fueron negativos (Selten y Termorshuizen 2017). Torrey (1997) enumera otras explicaciones del efecto estacional, como genes de expresión estacional, luz, nutrición, tóxicos o temperatura, compatibles también con el patrón de Würzburg. El valor del modelo es heurístico: si la heterogeneidad diagnóstica diluye los efectos ambientales, los estudios que estratifican por fenotipos finos podrían detectar asociaciones mayores [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "wurzburg_escuela"
+       ],
+       "t": "escuela de Würzburg"
+      },
+      {
+       "ids": [
+        "trostorff_hit"
+       ],
+       "t": "datos familiares previos de von Trostorff"
+      },
+      {
+       "ids": [
+        "sad"
+       ],
+       "t": "estacionalidad en los trastornos afectivos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Torrey EF et al. (1997). Seasonality of births in schizophrenia and bipolar disorder: a review of the literature. Schizophr Res 28:1-38 · PMID 9428062",
+    "Davies G et al. (2003). A systematic review and meta-analysis of Northern Hemisphere season of birth studies in schizophrenia. Schizophr Bull 29:587-593 · PMID 14609251",
+    "Beckmann H & Franzek E (1992). Deficit of birthrates in winter and spring months in distinct subgroups of mainly genetically determined schizophrenia. Psychopathology 25:57-64 · PMID 1502293",
+    "Franzek E & Beckmann H (1992). Season-of-birth effect reveals the existence of etiologically different groups of schizophrenia. Biol Psychiatry 32:375-378 · PMID 1420652 (registro comprobado; sin resumen indexado)",
+    "Franzek E & Beckmann H (1993). [Schizophrenia and birth seasonality: contrary results in relation to genetic risk] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 61:22-26 · PMID 8440510",
+    "Franzek E & Beckmann H (1996). Gene-environment interaction in schizophrenia: season-of-birth effect reveals etiologically different subgroups. Psychopathology 29:14-26 · PMID 8711071",
+    "Stöber G, Franzek E & Beckmann H (1994). [Pregnancy infections in mothers of chronic schizophrenic patients. The significance of differential nosology] (artículo en alemán con resumen en inglés). Nervenarzt 65:175-182 · PMID 8177358",
+    "Stöber G et al. (1997). First-trimester maternal gestational infection and cycloid psychosis. Acta Psychiatr Scand 96:319-324 · PMID 9395147",
+    "Stöber G et al. (1998). Gender differences and age of onset in the catatonic subtypes of schizophrenia. Psychopathology 31:307-312 · PMID 9780397",
+    "Stöber G et al. (2002). Exposure to prenatal infections, genetics and the risk of systematic and periodic catatonia. J Neural Transm (Vienna) 109:921-929 · PMID 12111478",
+    "Franzek E et al. (1996). Is computerized tomography ventricular abnormality related to cycloid psychosis? Biol Psychiatry 40:1255-1266 · PMID 8959290",
+    "Selten JP & Termorshuizen F (2017). The serological evidence for maternal influenza as risk factor for psychosis in offspring is insufficient: critical review and meta-analysis. Schizophr Res 183:2-9 · PMID 27856157"
+   ],
+   "rel": [
+    "infec_prenat",
+    "wkl_sistematicas",
+    "compl_obst",
+    "wurzburg_escuela",
+    "wkl19",
+    "pcicloid",
+    "neurodev",
+    "esq",
+    "premorb_cohortes"
+   ]
+  }
+ ]
+}
