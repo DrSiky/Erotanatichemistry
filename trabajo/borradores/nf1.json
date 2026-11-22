@@ -1,0 +1,941 @@
+{
+ "patch": {
+  "psiep": {
+   "relAdd": [
+    "levetiracetam",
+    "perampanel",
+    "vigabatrina"
+   ]
+  },
+  "epilepsia_psic": {
+   "relAdd": [
+    "levetiracetam",
+    "vigabatrina"
+   ]
+  },
+  "iatrog_farm": {
+   "relAdd": [
+    "levetiracetam",
+    "perampanel",
+    "zonisamida",
+    "amantadina"
+   ]
+  },
+  "dep_induc": {
+   "relAdd": [
+    "levetiracetam",
+    "vigabatrina"
+   ]
+  },
+  "vpa_bip": {
+   "relAdd": [
+    "levetiracetam",
+    "zonisamida"
+   ]
+  },
+  "hetero_agr": {
+   "relAdd": [
+    "perampanel",
+    "levetiracetam"
+   ]
+  },
+  "ketamina": {
+   "relAdd": [
+    "perampanel"
+   ]
+  },
+  "bed": {
+   "relAdd": [
+    "zonisamida"
+   ]
+  },
+  "topiramato": {
+   "relAdd": [
+    "zonisamida",
+    "levetiracetam",
+    "perampanel"
+   ]
+  },
+  "peso_psicof": {
+   "relAdd": [
+    "zonisamida",
+    "amantadina"
+   ]
+  },
+  "alcohol": {
+   "relAdd": [
+    "zonisamida"
+   ]
+  },
+  "cocaina": {
+   "relAdd": [
+    "vigabatrina"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "doxilamina"
+   ]
+  },
+  "hidroxizina": {
+   "relAdd": [
+    "doxilamina"
+   ]
+  },
+  "bzd_mayor": {
+   "relAdd": [
+    "doxilamina"
+   ]
+  },
+  "polifarm": {
+   "relAdd": [
+    "doxilamina",
+    "amantadina"
+   ]
+  },
+  "biperideno": {
+   "relAdd": [
+    "amantadina"
+   ]
+  },
+  "snm": {
+   "relAdd": [
+    "amantadina"
+   ]
+  },
+  "catatonia": {
+   "relAdd": [
+    "amantadina"
+   ]
+  },
+  "memantina": {
+   "relAdd": [
+    "amantadina"
+   ]
+  },
+  "lewy": {
+   "relAdd": [
+    "amantadina"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "levetiracetam",
+   "n": "Levetiracetam (Keppra): efectos adversos psiquiátricos y conductuales",
+   "ab": "Levetiracetam",
+   "al": [
+    "Keppra",
+    "levetiracetam",
+    "LEV",
+    "ligando de SV2A"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2002,
+   "tags": [
+    "risk",
+    "forense"
+   ],
+   "desc": "Antiepiléptico derivado de la pirrolidona, sin indicación psiquiátrica, cuya relevancia para la psiquiatría reside en su perfil de efectos adversos conductuales. Según la ficha técnica de Keppra (AEMPS-CIMA), está indicado en monoterapia de las crisis de inicio parcial en mayores de 16 años con epilepsia de nuevo diagnóstico y como tratamiento concomitante de las crisis de inicio parcial desde 1 mes de edad, de las crisis mioclónicas de la epilepsia mioclónica juvenil y de las tónico-clónicas generalizadas primarias desde los 12 años (4.1). La ficha advierte de que puede causar síntomas psicóticos y anomalías del comportamiento, como irritabilidad y agresividad, y obliga a vigilar cambios de ánimo o de personalidad; recoge además el aumento pequeño del riesgo de pensamientos y conductas suicidas común a los antiepilépticos (4.4). En una cohorte clínica de 4085 adultos fue el antiepiléptico con mayor tasa de efectos psiquiátricos y conductuales (22,1 %) (Chen 2017), y en el metaanálisis de 96 ensayos se asoció a irritabilidad frente a placebo (OR 2,55) (Fröling 2026).",
+   "feats": [
+    "Estado en España (CIMA): Keppra comprimidos recubiertos, solución oral y concentrado para perfusión (UCB Pharma; p. ej., Keppra 250 mg, nº de registro 00146004), comercializado, de autorización centralizada por la EMA, con genéricos; prescripción médica (la perfusión, de uso hospitalario)",
+    "Mecanismo (ficha técnica de Keppra, 5.1): todavía por dilucidar; se une a la proteína 2A de las vesículas sinápticas (SV2A), implicada en la exocitosis de neurotransmisores, inhibe parcialmente las corrientes de Ca2+ de tipo N y reduce la liberación de Ca2+ intraneuronal",
+    "Reacciones psiquiátricas (4.8): frecuentes la depresión, la hostilidad o agresividad, la ansiedad, el insomnio y el nerviosismo o irritabilidad; poco frecuentes el intento de suicidio, la ideación suicida, las alteraciones psicóticas, las alucinaciones, la cólera y la agitación; raros el suicidio consumado, los trastornos de personalidad y el delirio; TOC muy raro en personas con antecedentes",
+    "Infancia (ficha técnica de Keppra, 4.8): las reacciones psiquiátricas y conductuales fueron más frecuentes que en adultos; entre los 4 y los 16 años, agresividad en el 8,2 % y comportamiento anormal en el 5,6 %; de 1 mes a 4 años, irritabilidad en el 11,7 %; el cuestionario CBCL mostró empeoramiento de la conducta agresiva en el ensayo controlado, no confirmado en la extensión abierta",
+    "Predictores (Josephson 2019): en 1173 personas con epilepsia, el 14,1 % presentó un síntoma o trastorno psiquiátrico en los 2 años siguientes; se asociaron el sexo femenino, la privación social y los antecedentes de depresión (OR 2,20), ansiedad (OR 1,74) y consumo recreativo de drogas (OR 2,02)",
+    "Psicosis inducida por antiepilépticos: en la serie de Chen (2016), el uso actual de levetiracetam fue más frecuente en la psicosis inducida (84,6 % frente a 20,2 %), con predominio de conducta y pensamiento desorganizados y sin curso crónico",
+    "Sin interacciones farmacocinéticas relevantes con los antiepilépticos clásicos ni con los anticonceptivos orales; reduce el aclaramiento del metotrexato y el macrogol oral puede disminuir su eficacia (ficha técnica de Keppra, 4.5)"
+   ],
+   "tx": "Antes de prescribirlo o al valorar a quien lo toma, explorar antecedentes de depresión, ansiedad, conducta suicida y consumo de drogas, que elevan el riesgo de reacciones psiquiátricas (Josephson 2019). Informar a la persona y a su entorno para que consulten ante irritabilidad, cambios de humor o de personalidad, ideación suicida o síntomas psicóticos. Si aparecen, la ficha técnica de Keppra indica modificar el tratamiento o retirarlo de forma gradual (4.4), decisión que debe tomarse con neurología: la retirada brusca puede precipitar crisis. Ante un cuadro psiquiátrico de nueva aparición en una persona con epilepsia, revisar los antiepilépticos iniciados o aumentados recientemente.",
+   "note": "Las cifras de frecuencia proceden de ensayos breves y de cohortes clínicas no aleatorizadas, con definiciones heterogéneas del desenlace psiquiátrico; en adultos sin comorbilidad psiquiátrica, el metaanálisis de Ramírez-Guerrero (2026) solo confirmó más somnolencia y astenia frente a placebo, sin diferencia en depresión frente a otros antiepilépticos. El mecanismo de los efectos conductuales es desconocido; la hipótesis que los atribuye a la unión a SV2A no está demostrada [fuente no localizada]. La conducta agresiva atribuida al fármaco puede tener relevancia pericial, pero el nexo causal exige valorar la cronología, la dosis, la retirada y los factores de riesgo previos [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Perfil psiquiátrico: magnitud del riesgo y factores predisponentes",
+     "x": "La ficha técnica de Keppra (AEMPS-CIMA) dedica un apartado específico a los comportamientos anómalos y agresivos (4.4): el fármaco puede causar síntomas psicóticos e irritabilidad o agresividad, y si aparecen se debe modificar el tratamiento o interrumpirlo de forma gradual. La evidencia agregada concuerda en la dirección del efecto. En 96 ensayos aleatorizados (7145 personas expuestas), el levetiracetam se asoció frente a placebo a somnolencia (OR 1,80), irritabilidad (OR 2,55) y astenia, con más agresividad e irritabilidad descritas que con brivaracetam en la síntesis cualitativa, aunque sin diferencias significativas en la comparación indirecta (Fröling 2026). En la práctica clínica, en 4085 adultos que iniciaban un antiepiléptico, los efectos psiquiátricos y conductuales aparecieron en el 22,1 % de quienes tomaban levetiracetam, con mayor tasa de intolerancia (17,7 %) y de retirada (8,3 %) que con el conjunto de los demás (Chen 2017). Los antecedentes de depresión, ansiedad o consumo recreativo de drogas, el sexo femenino y la privación social aumentan el riesgo, que ascendió hasta el 49 % cuando concurrían todos los factores (Josephson 2019).",
+     "links": [
+      {
+       "ids": [
+        "iatrog_farm",
+        "dep_induc"
+       ],
+       "t": "síntomas psiquiátricos inducidos por fármacos"
+      },
+      {
+       "ids": [
+        "hetero_agr"
+       ],
+       "t": "agresividad y violencia"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación y conducta suicida"
+      }
+     ]
+    },
+    {
+     "t": "Psicosis, conducta suicida y diagnóstico diferencial en la epilepsia",
+     "x": "La psicosis asociada al levetiracetam suele ser aguda, con desorganización conductual y del pensamiento, y en la serie de Melbourne ninguna psicosis inducida por antiepilépticos siguió un curso crónico, a diferencia del 40,5 % de las demás psicosis en epilepsia; el sexo femenino y la afectación temporal se asociaron a la forma inducida (Chen 2016). Debe diferenciarse de la psicosis postictal, de la interictal y de la normalización forzada. Respecto al suicidio, la ficha técnica de Keppra recoge casos de suicidio, intento e ideación suicida y el pequeño aumento de riesgo observado en el metaanálisis de ensayos de antiepilépticos (4.4). En una cohorte británica de más de 5 millones de personas, el uso de antiepilépticos no se asoció a más episodios relacionados con el suicidio en la epilepsia (OR 0,59), pero sí en la depresión (OR 1,65) (Arana 2010), lo que subraya la importancia de la comorbilidad depresiva. La sobredosis cursa con somnolencia, agitación, agresión, disminución del nivel de consciencia, depresión respiratoria y coma; no hay antídoto y la hemodiálisis elimina el 60 % del fármaco (ficha técnica de Keppra, 4.9).",
+     "links": [
+      {
+       "ids": [
+        "epilepsia_psic",
+        "psiep"
+       ],
+       "t": "psicosis y epilepsia"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida por sustancias y fármacos"
+      }
+     ]
+    },
+    {
+     "t": "Consumo de sustancias, alcohol y valoración pericial",
+     "x": "El consumo recreativo de drogas previo duplicó la probabilidad de un efecto adverso psiquiátrico tras iniciar levetiracetam (OR 2,02) (Josephson 2019), un dato que conviene tener presente en personas que practican chemsex y reciben este antiepiléptico, aunque no hay estudios específicos en esa población [fuente no localizada]. La ficha técnica de Keppra indica que no se dispone de datos sobre la interacción con el alcohol (4.5). Como tratamiento del trastorno por consumo de alcohol, en un ensayo controlado con zonisamida, topiramato y levetiracetam, este último solo redujo el porcentaje de días de consumo intenso, sin efecto en las bebidas diarias ni en los días de consumo (Knapp 2015); no es una opción respaldada por las guías [fuente no localizada]. En el ámbito médico-legal, la irritabilidad, la hostilidad o la agresividad figuran como reacciones frecuentes de la ficha (4.8); al valorar una conducta violenta en una persona tratada, la pericia debe documentar la cronología respecto al inicio o los cambios de dosis, la respuesta a la retirada y la existencia de factores de riesgo independientes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "topiramato"
+       ],
+       "t": "antiepilépticos en el trastorno por alcohol"
+      },
+      {
+       "ids": [
+        "perit_forense",
+        "riesgo_viol"
+       ],
+       "t": "valoración pericial"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Keppra 250 mg comprimidos recubiertos con película (levetiracetam) (nº de registro 00146004), apartados 4.1, 4.3-4.6, 4.8, 4.9 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "Chen B et al. (2017). Psychiatric and behavioral side effects of antiepileptic drugs in adults with epilepsy. Epilepsy Behav 76:24-31 · PMID 28931473",
+    "Josephson CB et al. (2019). Prediction tools for psychiatric adverse effects after levetiracetam prescription. JAMA Neurol 76:440-446 · PMID 30688969",
+    "Fröling E et al. (2026). Reassessing the adverse event profiles of levetiracetam and brivaracetam: a systematic review and meta-analysis. J Neurol 273 · PMID 41824075",
+    "Ramírez-Guerrero S et al. (2026). Neuropsychiatric adverse effects associated with the use of levetiracetam in adults: a systematic review and meta-analysis. Med Princ Pract 1-22 · PMID 42149799",
+    "Chen Z et al. (2016). Psychotic disorders induced by antiepileptic drugs in people with epilepsy. Brain 139:2668-2678 · PMID 27503872",
+    "Arana A et al. (2010). Suicide-related events in patients treated with antiepileptic drugs. N Engl J Med 363:542-551 · PMID 20818889",
+    "Knapp CM et al. (2015). Zonisamide, topiramate, and levetiracetam: efficacy and neuropsychological effects in alcohol use disorders. J Clin Psychopharmacol 35:34-42 · PMID 25427171"
+   ],
+   "rel": [
+    "psiep",
+    "epilepsia_psic",
+    "iatrog_farm",
+    "dep_induc",
+    "ideac_suic",
+    "hetero_agr",
+    "vpa_bip",
+    "topiramato",
+    "lamotrig",
+    "perampanel",
+    "psust"
+   ]
+  },
+  {
+   "id": "perampanel",
+   "n": "Perampanel (Fycompa): agresividad, ideación homicida y potencial de abuso",
+   "ab": "Perampanel",
+   "al": [
+    "Fycompa",
+    "perampanel",
+    "antagonista AMPA"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 2012,
+   "tags": [
+    "risk",
+    "forense"
+   ],
+   "desc": "Antiepiléptico antagonista selectivo y no competitivo de los receptores ionotrópicos de glutamato de tipo AMPA, el primero de su clase (ficha técnica de Fycompa, 5.1). Indicado en España como tratamiento concomitante de las crisis de inicio parcial desde los 4 años y de las crisis tonicoclónicas generalizadas primarias desde los 7 años en la epilepsia idiopática generalizada (4.1). Su interés psiquiátrico procede de la advertencia de la ficha sobre agresividad y trastorno psicótico: conducta agresiva, hostil y anormal, más frecuente a dosis altas, pensamientos de lesionar a otros, agresiones físicas o conductas amenazantes en menos del 1 % de los participantes en ensayos y casos notificados de ideación homicida (4.4). La ficha estadounidense lleva un recuadro de advertencia por reacciones psiquiátricas y conductuales graves (FDA 2022). En los ensayos de fase III, los acontecimientos de hostilidad o agresión de la definición estricta afectaron al 2,8 % y al 6,3 % de los dos grupos de dosis más altas frente al 0,7 % con placebo (Ettinger 2015). Tiene además potencial de abuso con efectos disociativos a dosis supraterapéuticas.",
+   "feats": [
+    "Estado en España (CIMA): Fycompa comprimidos recubiertos y suspensión oral (Eisai; p. ej., Fycompa 2 mg, nº de registro 12776001), comercializado, de autorización centralizada por la EMA; existen genéricos comercializados (perampanel Cinfa, Combix, Teva); medicamento sujeto a prescripción médica",
+    "Advertencia de la ficha técnica de Fycompa (4.4): agresividad, ira, irritabilidad y trastorno psicótico más frecuentes a dosis altas, en su mayoría leves o moderados; pensamientos de lesionar a otros, agresiones físicas o amenazas en menos del 1 % en los ensayos; casos de ideación homicida; reducir la dosis y valorar la suspensión si los síntomas son graves",
+    "FDA (2022): recuadro de advertencia por reacciones psiquiátricas y conductuales graves o potencialmente mortales (agresión, hostilidad, irritabilidad, ira, ideación y amenazas homicidas), en personas con y sin antecedentes psiquiátricos o de agresividad; sustancia controlada de la lista III en EE. UU.",
+    "Ensayos de fase III (Ettinger 2015): acontecimientos psiquiátricos en el 17,2 % y el 22,4 % con las dos dosis más altas estudiadas frente al 12,4 % con placebo; retirada por hostilidad o agresión en el 1,6 % frente al 0,7 %, y acontecimientos graves en el 0,7 % frente al 0,2 %; vigilancia especial durante la titulación",
+    "Interacciones (ficha técnica de Fycompa, 4.5): su aclaramiento se triplica con carbamazepina y se duplica con oxcarbazepina o fenitoína; los inductores potentes (rifampicina, hipérico) reducen sus concentraciones; a dosis altas disminuye la exposición al levonorgestrel, por lo que se recomienda un método anticonceptivo adicional no hormonal",
+    "Alcohol (4.5 y 5.1): efectos aditivos o supraaditivos sobre la alerta y la capacidad de conducción, y aumento del enfado, la confusión y la depresión en el perfil del estado de ánimo; el efecto puede extenderse a otros depresores del SNC"
+   ],
+   "tx": "Antes de iniciarlo, explorar antecedentes de agresividad, trastornos psiquiátricos y consumo de sustancias, e informar a la persona y a su entorno para que comuniquen de inmediato cambios de humor o de conducta (ficha técnica de Fycompa, 4.4). Vigilar especialmente durante la titulación y con las dosis altas; ante síntomas, reducir la dosis y, si son graves, valorar con neurología la suspensión. Evitar el alcohol y otros depresores del SNC y considerar el potencial de abuso en personas con antecedentes de consumo (4.4). Su semivida prolongada hace que los efectos adversos y de la sobredosis puedan durar (4.9).",
+   "note": "La relación con la conducta homicida se apoya en notificaciones y en tasas bajas de acontecimientos graves en ensayos de 12-19 semanas; la ficha española habla de ideación homicida, no de conducta homicida consumada. En un análisis agrupado, la comedicación con levetiracetam o topiramato no aumentó la tasa de hostilidad o agresión (Chung 2017). No hay datos publicados sobre su uso indebido en contextos de chemsex [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Agresividad y conducta violenta: datos de ensayos y relevancia pericial",
+     "x": "En el análisis agrupado de los tres ensayos de fase III en crisis parciales, los acontecimientos de hostilidad o agresión según la consulta normalizada MedDRA amplia afectaron al 12,3 % y al 20,4 % de los grupos de dosis más altas frente al 5,7 % con placebo, con relación clara con la dosis; los acontecimientos graves fueron raros (0,7 % frente a 0,2 %), y en personas sin epilepsia de los ensayos de fase I y II las tasas fueron similares a placebo (Ettinger 2015). Un análisis posterior de cuatro ensayos no halló más hostilidad o agresión cuando se asociaba a levetiracetam o topiramato, dos antiepilépticos con perfil conductual desfavorable (Chung 2017). La ficha técnica de Fycompa indica que en los adolescentes la agresividad fue más frecuente que en los adultos, y en el estudio pediátrico abierto lo fueron la somnolencia, la irritabilidad, la agresividad y la agitación (4.8). En la sobredosis se describen alteración del estado mental, agitación, comportamiento agresivo y coma (4.9). En una pericia por conducta violenta en una persona tratada, la cronología respecto al inicio o al aumento de dosis y la mejoría al reducirla son los elementos que apoyan el nexo causal [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hetero_agr",
+        "riesgo_viol"
+       ],
+       "t": "agresividad y valoración del riesgo"
+      },
+      {
+       "ids": [
+        "perit_forense",
+        "peligrosidad"
+       ],
+       "t": "pericia e imputabilidad"
+      },
+      {
+       "ids": [
+        "levetiracetam"
+       ],
+       "t": "otro antiepiléptico con perfil conductual"
+      }
+     ]
+    },
+    {
+     "t": "Potencial de abuso, efectos disociativos y consumo de sustancias",
+     "x": "La ficha técnica de Fycompa pide precaución en personas con antecedentes de abuso de sustancias y vigilar signos de abuso (4.4). En los estudios de potencial de abuso en personas consumidoras recreativas de múltiples drogas, las dosis supraterapéuticas produjeron puntuaciones de euforia similares a las de la ketamina y el alprazolam y de subidón («high») comparables a las de la ketamina, con efectos disociativos (sensación de flotar, de estar ausente o desapegado) similares a los de la ketamina; el agrado por el fármaco fue menor que con ketamina y los efectos desagradables, mayores (FDA 2022). Por ello está fiscalizado en EE. UU. en la lista III; en España no figura en las listas de estupefacientes ni psicótropos [fuente no localizada]. En el contexto del chemsex, la suma con alcohol y otros depresores del SNC empeora la alerta y el estado de ánimo (ficha, 4.5), y la combinación con GHB/GBL o ketamina no se ha estudiado, por lo que su riesgo de sedación profunda solo puede inferirse [fuente no localizada]. No se conocen interacciones farmacocinéticas con antirretrovirales documentadas en la ficha; los inhibidores de CYP3A pueden aumentar su exposición (4.5).",
+     "links": [
+      {
+       "ids": [
+        "ketamina",
+        "ghb_gbl"
+       ],
+       "t": "sustancias con efectos disociativos o depresores"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_arv"
+       ],
+       "t": "chemsex e interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo, suicidio y lugar en el tratamiento",
+     "x": "El perampanel no compite con el AMPA por su sitio de unión, inhibe el aumento de calcio intracelular inducido por AMPA pero no por NMDA, y no prolonga el intervalo QTc (ficha técnica de Fycompa, 5.1). En voluntarios sanos, la alerta disminuyó de forma dependiente de la dosis y el estado de ánimo empeoró solo con la dosis más alta, en relación con una reducción general de la alerta (5.1). La ficha recoge además el pequeño aumento de ideación y conducta suicida de los antiepilépticos sin poder descartarlo para el perampanel, con ideación e intento de suicidio entre las reacciones poco frecuentes (4.4 y 4.8), y las reacciones cutáneas graves (DRESS, síndrome de Stevens-Johnson) que obligan a la suspensión definitiva. Es un antiepiléptico de uso complementario sin indicación ni uso psiquiátrico; en el metaanálisis en red de cinco antiepilépticos de amplio espectro en epilepsia refractaria se comparó su eficacia y tolerabilidad con lamotrigina, levetiracetam, topiramato y lacosamida (Wang 2023). Para la psiquiatría, su papel es reconocer y manejar sus efectos adversos.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "efectos psiquiátricos de los fármacos"
+      },
+      {
+       "ids": [
+        "psiep"
+       ],
+       "t": "psicopatología en la epilepsia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Fycompa 2 mg comprimidos recubiertos con película (perampanel) (nº de registro 12776001), apartados 4.1, 4.3-4.5, 4.8, 4.9 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "FDA (2022). Fycompa (perampanel) prescribing information: boxed warning «Serious psychiatric and behavioral reactions» y apartado 9 «Drug abuse and dependence»; etiqueta revisada en diciembre de 2022, consultada en la base openFDA en noviembre de 2026",
+    "Ettinger AB et al. (2015). Psychiatric and behavioral adverse events in randomized clinical studies of the noncompetitive AMPA receptor antagonist perampanel. Epilepsia 56:1252-1263 · PMID 26140524",
+    "Chung S et al. (2017). Perampanel with concomitant levetiracetam and topiramate: post hoc analysis of adverse events related to hostility and aggression. Epilepsy Behav 75:79-85 · PMID 28830031",
+    "Wang H et al. (2023). Efficacy and safety of five broad-spectrum antiseizure medications for adjunctive treatment of refractory epilepsy: a systematic review and network meta-analysis. CNS Drugs 37:883-913 · PMID 37589821"
+   ],
+   "rel": [
+    "iatrog_farm",
+    "hetero_agr",
+    "psiep",
+    "ketamina",
+    "levetiracetam",
+    "topiramato",
+    "riesgo_viol",
+    "ideac_suic",
+    "perit_forense",
+    "alcohol"
+   ]
+  },
+  {
+   "id": "zonisamida",
+   "n": "Zonisamida (Zonegran): efectos psiquiátricos y uso estudiado en atracones, peso y alcohol",
+   "ab": "Zonisamida",
+   "al": [
+    "Zonegran",
+    "zonisamide",
+    "Nyzol",
+    "Zonesme",
+    "sulfonamida antiepiléptica"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2005,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antiepiléptico derivado benzisoxazólico con un grupo sulfonamida que actúa sobre los canales de sodio y de calcio dependientes del voltaje, modula la inhibición mediada por GABA y tiene una débil actividad inhibidora de la anhidrasa carbónica (ficha técnica de Zonegran, 5.1). En España está indicada en monoterapia de las crisis parciales con o sin generalización secundaria en adultos con epilepsia de nuevo diagnóstico y como tratamiento concomitante de estas crisis desde los 6 años (4.1). Comparte con el topiramato la pérdida de peso, la acidosis metabólica y la nefrolitiasis, y se ha estudiado fuera de indicación en el trastorno por atracón con obesidad, en la obesidad y en el trastorno por consumo de alcohol, con ensayos pequeños y positivos que no han llevado a ninguna autorización ni recomendación de guía [fuente no localizada]. Sus reacciones psiquiátricas incluyen depresión, agitación, irritabilidad, trastorno psicótico, agresividad, alucinaciones y pensamientos e intentos suicidas (4.8); en una cohorte clínica, fue junto con el levetiracetam el antiepiléptico con más efectos psiquiátricos y conductuales (9,7 %) (Chen 2017).",
+   "feats": [
+    "Estado en España (CIMA): Zonegran cápsulas duras (Amdipharm; p. ej., Zonegran 100 mg, nº de registro 04307004), comercializado, de autorización centralizada por la EMA, y numerosos genéricos (Nyzol, Zonesme y otros); medicamento sujeto a prescripción médica",
+    "Contraindicaciones (ficha técnica de Zonegran, 4.3): hipersensibilidad a la zonisamida, a los excipientes o a las sulfonamidas, y alergia al cacahuete o a la soja por contener aceite vegetal hidrogenado de soja",
+    "Advertencias (4.4): exantema grave y síndrome de Stevens-Johnson, discrasias sanguíneas de tipo sulfonamida, miopía aguda con glaucoma de ángulo cerrado, pensamientos y conductas suicidas, cálculos renales, acidosis metabólica hiperclorémica con posible hiperamonemia y encefalopatía, golpe de calor por hipohidrosis, pancreatitis, rabdomiólisis y pérdida de peso",
+    "Reacciones psiquiátricas (4.8): agitación, irritabilidad, estado confusional, depresión, inestabilidad afectiva, ansiedad, insomnio, trastorno psicótico, furia, agresividad, pensamientos suicidas, intento de suicidio y alucinaciones; en la cohorte de Chen (2017), efectos psiquiátricos y conductuales en el 9,7 % y retirada o reducción por ellos en el 7,9 %",
+    "Trastorno por atracón con obesidad (McElroy 2006): en 60 pacientes durante 16 semanas, más reducción que con placebo de la frecuencia de atracones, el peso, el IMC y la gravedad clínica; ocho abandonos por efectos adversos con zonisamida frente a cuatro con placebo, entre ellos quejas psicológicas y cognitivas",
+    "Obesidad: pérdida del 6,0 % frente al 1,0 % del peso a 16 semanas con dieta hipocalórica (Gadde 2003); en un ensayo de 1 año con 225 personas, solo la dosis más alta superó a placebo (−6,8 % frente a −3,7 %), con más efectos gastrointestinales, neurológicos y psiquiátricos (Gadde 2012)",
+    "Interacciones (4.5): metabolizada en parte por CYP3A4, N-acetiltransferasas y glucuronidación; los inductores (carbamazepina, fenitoína, fenobarbital) reducen su exposición; precaución con otros inhibidores de la anhidrasa carbónica (topiramato, acetazolamida), con fármacos que favorecen la urolitiasis y con anticolinérgicos por el riesgo de golpe de calor"
+   ],
+   "tx": "No tiene indicación psiquiátrica autorizada. Su uso en el trastorno por atracón, la obesidad o el trastorno por consumo de alcohol es experimental y fuera de ficha técnica, y debe reservarse a contextos de investigación o a decisiones individualizadas y documentadas tras fracasar las opciones con mejor evidencia. En quien la toma por epilepsia, vigilar la aparición de depresión, irritabilidad, síntomas psicóticos e ideación suicida, el peso y el bicarbonato si hay factores de riesgo de acidosis, e indicar una hidratación abundante (ficha técnica de Zonegran, 4.4). Ante letargia o cambios del estado mental, descartar encefalopatía hiperamonémica, sobre todo con valproato.",
+   "note": "Los ensayos en atracones, obesidad y alcohol son pequeños, de corta duración y, en su mayoría, de un solo centro, con tasas de abandono por efectos adversos relevantes; la pérdida de peso en la epilepsia y en estos ensayos no justifica su uso como anorexígeno. En personas con un trastorno de la conducta alimentaria restrictivo o con bajo peso, la pérdida de peso que describe la ficha técnica (4.4) es un riesgo añadido [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Trastorno por atracón, obesidad y peso: qué muestran los ensayos",
+     "x": "La pérdida de peso, recogida como advertencia en la ficha técnica de Zonegran (4.4), motivó su estudio fuera de indicación. En el trastorno por atracón asociado a obesidad, un ensayo aleatorizado de 16 semanas y un solo centro con 60 pacientes halló con zonisamida una reducción más rápida de la frecuencia de atracones, del peso, del IMC, de la gravedad clínica y de las puntuaciones de compulsividad alimentaria y desinhibición que con placebo; abandonaron por efectos adversos ocho personas con zonisamida y cuatro con placebo, por fracturas accidentales, quejas psicológicas y cognitivas (McElroy 2006). En la obesidad, un ensayo de 16 semanas con dieta hipocalórica obtuvo una pérdida del 6,0 % frente al 1,0 % del peso corporal (Gadde 2003), pero en el ensayo de 1 año solo la dosis más alta superó a placebo y con una incidencia elevada de efectos adversos gastrointestinales, neurológicos y psiquiátricos (Gadde 2012). Ninguna autoridad reguladora la ha autorizado para estos usos y no figura entre las recomendaciones farmacológicas de las guías del trastorno por atracón [fuente no localizada]; a diferencia del topiramato, tampoco hay metaanálisis específicos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "bed",
+        "bul"
+       ],
+       "t": "trastorno por atracón y bulimia"
+      },
+      {
+       "ids": [
+        "topiramato",
+        "naltrexona_bupropion"
+       ],
+       "t": "otros fármacos estudiados en atracones y peso"
+      },
+      {
+       "ids": [
+        "peso_psicof"
+       ],
+       "t": "manejo del peso con psicofármacos"
+      }
+     ]
+    },
+    {
+     "t": "Efectos psiquiátricos y cognitivos",
+     "x": "La ficha técnica de Zonegran incluye entre las reacciones adversas un abanico psiquiátrico amplio (agitación, irritabilidad, depresión, inestabilidad afectiva, ansiedad, insomnio, trastorno psicótico, furia, agresividad, alucinaciones, pensamientos suicidas e intento de suicidio) y neurológico (bradifrenia, trastorno de la atención y de la memoria, trastorno del habla) (4.8), además de la advertencia de clase sobre pensamientos y conductas suicidas (4.4). En la cohorte de 4085 adultos de Chen (2017), la zonisamida se asoció significativamente a más efectos psiquiátricos y conductuales (9,7 %) y a más intolerancia por ellos (7,9 %) que el conjunto de los demás antiepilépticos, solo por detrás del levetiracetam. En el trastorno por consumo de alcohol, zonisamida y topiramato produjeron reducciones modestas, similares entre sí, de la fluidez verbal y de la memoria de trabajo, pero solo con topiramato aumentó el enlentecimiento mental subjetivo (Knapp 2015). La encefalopatía hiperamonémica secundaria a la acidosis metabólica, con riesgo mayor si se asocia valproato, debe sospecharse ante letargia o cambios del estado mental (ficha, 4.4).",
+     "links": [
+      {
+       "ids": [
+        "iatrog_farm",
+        "dep_induc"
+       ],
+       "t": "síntomas psiquiátricos inducidos por fármacos"
+      },
+      {
+       "ids": [
+        "levetiracetam"
+       ],
+       "t": "comparación con levetiracetam"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "psust"
+       ],
+       "t": "suicidio y psicosis inducida"
+      }
+     ]
+    },
+    {
+     "t": "Consumo de sustancias: alcohol y particularidades en el chemsex",
+     "x": "En un ensayo piloto aleatorizado de 12 semanas con 40 personas con dependencia del alcohol, la zonisamida redujo más que placebo los días de consumo intenso, las bebidas por semana y el deseo de beber, sin efecto sobre los días de abstinencia y con buena tolerancia (Arias 2010). En un segundo ensayo controlado, zonisamida y topiramato redujeron las bebidas diarias, el porcentaje de días de consumo y de consumo intenso con tamaños de efecto similares (Knapp 2015). No es un tratamiento autorizado ni recomendado por las guías del trastorno por consumo de alcohol [fuente no localizada]. En el contexto del chemsex no hay datos específicos; la hipohidrosis y el riesgo de golpe de calor que describe la ficha técnica de Zonegran (4.4) podrían sumarse a la hipertermia de los estimulantes y de la MDMA en sesiones prolongadas, combinación no estudiada [fuente no localizada]. La ficha no recoge interacciones con antirretrovirales; al metabolizarse en parte por CYP3A4, los inhibidores y los inductores de esta vía pueden modificar su exposición (4.5).",
+     "links": [
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "trastorno por consumo de alcohol"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "mdma",
+        "anfetaminas"
+       ],
+       "t": "chemsex y estimulantes"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Zonegran 100 mg cápsulas duras (zonisamida) (nº de registro 04307004), apartados 4.1, 4.3-4.5, 4.8 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "McElroy SL et al. (2006). Zonisamide in the treatment of binge eating disorder with obesity: a randomized controlled trial. J Clin Psychiatry 67:1897-1906 · PMID 17194267",
+    "Gadde KM et al. (2003). Zonisamide for weight loss in obese adults: a randomized controlled trial. JAMA 289:1820-1825 · PMID 12684361",
+    "Gadde KM et al. (2012). Zonisamide for weight reduction in obese adults: a 1-year randomized controlled trial. Arch Intern Med 172:1557-1564 · PMID 23147455",
+    "Arias AJ et al. (2010). Placebo-controlled trial of zonisamide for the treatment of alcohol dependence. J Clin Psychopharmacol 30:318-322 · PMID 20473070",
+    "Knapp CM et al. (2015). Zonisamide, topiramate, and levetiracetam: efficacy and neuropsychological effects in alcohol use disorders. J Clin Psychopharmacol 35:34-42 · PMID 25427171",
+    "Chen B et al. (2017). Psychiatric and behavioral side effects of antiepileptic drugs in adults with epilepsy. Epilepsy Behav 76:24-31 · PMID 28931473"
+   ],
+   "rel": [
+    "bed",
+    "topiramato",
+    "peso_psicof",
+    "alcohol",
+    "iatrog_farm",
+    "levetiracetam",
+    "bul",
+    "psiep",
+    "ideac_suic",
+    "naltrexona_bupropion"
+   ]
+  },
+  {
+   "id": "vigabatrina",
+   "n": "Vigabatrina (Sabrilex): psicosis, depresión y defectos del campo visual",
+   "ab": "Vigabatrina",
+   "al": [
+    "Sabrilex",
+    "vigabatrin",
+    "Sabril",
+    "Kigabeq",
+    "gamma-vinil-GABA",
+    "inhibidor de la GABA-transaminasa"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "meta",
+   "y": 1992,
+   "tags": [
+    "risk",
+    "child"
+   ],
+   "desc": "Antiepiléptico diseñado como inhibidor selectivo e irreversible de la GABA-transaminasa, que eleva las concentraciones cerebrales de GABA (ficha técnica de Sabrilex, 5.1). En España está indicada en combinación en la epilepsia parcial resistente, con o sin generalización secundaria, cuando otras combinaciones han sido inadecuadas o mal toleradas, y en monoterapia en los espasmos infantiles (síndrome de West) (4.1). Su principal limitación son los defectos del campo visual, de prevalencia elevada (en torno a un tercio según la ficha; 44 % de 1678 personas expuestas en la revisión de Maguire 2010), habitualmente asintomáticos, probablemente irreversibles y detectables solo con perimetría sistemática (4.4). En psiquiatría importan la depresión y la psicosis: en los ensayos controlados, depresión en el 12,1 % frente al 3,5 % y psicosis en el 2,5 % frente al 0,3 % con placebo (Levinson y Devinsky 1999). La ficha pide precaución en personas con antecedentes de psicosis, depresión o problemas de conducta (4.4). Se ensayó en la dependencia de cocaína con resultados contradictorios.",
+   "feats": [
+    "Estado en España (CIMA): Sabrilex 500 mg comprimidos recubiertos (nº de registro 59361) y granulado para solución oral (nº 59809), de Sanofi Aventis, comercializados, de prescripción médica y tratamiento de larga duración; Kigabeq comprimidos solubles y Vigzip solución oral figuran autorizados pero no comercializados",
+    "Campo visual (ficha técnica de Sabrilex, 4.4 y 5.1): reducción concéntrica bilateral, más nasal; examen oftalmológico antes de iniciar, en las primeras 4 semanas, cada 3-6 meses y 3-6 meses después de suspender; no recomendada si ya existe un defecto clínicamente relevante; en el estudio de fase IV, defectos en el 46,7 % de los adultos tratados en la última evaluación",
+    "Revisión sistemática de 32 estudios observacionales (Maguire 2010): pérdida de campo visual en el 44 % de las personas expuestas frente al 7 % de los controles; 52 % en adultos y 34 % en niños; riesgo relativo de 4,0; mayor con la dosis acumulada y la edad",
+    "Reacciones psiquiátricas (4.8): frecuentes la agitación, la agresión, el nerviosismo, la depresión, la reacción paranoide y el insomnio; poco frecuentes la hipomanía, la manía y el trastorno psicótico; raro el intento de suicidio; en niños, excitación y agitación muy frecuentes; reversibles en general al reducir o retirar de forma gradual",
+    "Encefalopatía (4.4): sedación, estupor y confusión marcados con ondas lentas en el EEG poco después del inicio, favorecidos por una dosis inicial o un escalado superiores a los recomendados y por la insuficiencia renal; edema intramielínico y alteraciones en la RM en lactantes",
+    "Interacciones (4.5): no se metaboliza ni se une a proteínas y no induce el citocromo P450; reduce de forma gradual las concentraciones de fenitoína en un 16-33 %; suprime la actividad de ALT y AST, que dejan de ser fiables; la asociación con clonazepam puede aumentar la sedación"
+   ],
+   "tx": "Antiepiléptico de reserva por el riesgo visual (Maguire 2010; ficha técnica de Sabrilex, 4.4). En quien la toma, cribar antecedentes de psicosis, depresión y trastornos de conducta, informar a la persona y a sus cuidadores, y vigilar la aparición de depresión, síntomas psicóticos o maníacos e ideación suicida, sobre todo en los primeros meses. Ante síntomas psiquiátricos, valorar con neurología la reducción o la retirada gradual (la ficha técnica indica una retirada progresiva en 2-4 semanas para evitar el rebote de crisis); los antipsicóticos y antidepresivos pueden usarse según la clínica (Levinson y Devinsky 1999).",
+   "note": "Los datos psiquiátricos proceden de ensayos de 12-18 semanas de los años noventa, por lo que no permiten conclusiones sobre la latencia ni la evolución a largo plazo (Levinson y Devinsky 1999). Su uso en la dependencia de cocaína es experimental: un ensayo unicéntrico positivo no se replicó en un ensayo multicéntrico con baja adherencia (Somoza 2013). La agencia estadounidense mantiene un recuadro de advertencia por pérdida visual permanente (FDA 2024). En la revisión Cochrane de 11 ensayos en epilepsia parcial resistente, la vigabatrina aumentó la probabilidad de reducir al menos un 50 % las crisis (RR 2,58) y también la de retirada del tratamiento (RR 2,49) (Hemming 2013).",
+   "sec": [
+    {
+     "t": "Depresión, psicosis y manía: magnitud y manejo",
+     "x": "La revisión de los ensayos doble ciego controlados con placebo en epilepsia parcial resistente mostró con vigabatrina más depresión (12,1 % frente a 3,5 %) y más psicosis (2,5 % frente a 0,3 %), sin diferencias en reacción agresiva, síntomas maníacos, agitación, labilidad emocional, ansiedad ni intento de suicidio; la depresión fue habitualmente leve, y solo 9 de los 49 casos se consideraron graves (abandono, ingreso, intento de suicidio o depresión psicótica); la psicosis fue en general transitoria y respondió a la reducción o retirada del fármaco o a los antipsicóticos (Levinson y Devinsky 1999). La ficha técnica de Sabrilex señala que la depresión fue frecuente en los ensayos pero raramente obligó a suspender el tratamiento, que las reacciones aparecieron en personas con y sin antecedentes psiquiátricos y que fueron reversibles en general con la reducción o la retirada gradual (4.4 y 4.8). La retirada brusca puede provocar un rebote de crisis (4.4), y la desaparición de la actividad epiléptica obliga a considerar también la hipótesis de la normalización forzada, cuya existencia sigue debatida.",
+     "links": [
+      {
+       "ids": [
+        "epilepsia_psic",
+        "psiep"
+       ],
+       "t": "psicosis y epilepsia"
+      },
+      {
+       "ids": [
+        "dep_induc",
+        "iatrog_farm"
+       ],
+       "t": "depresión inducida por fármacos"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida por fármacos"
+      }
+     ]
+    },
+    {
+     "t": "Defectos del campo visual: vigilancia y repercusiones",
+     "x": "La pérdida visual asociada a la vigabatrina se reconoció ocho años después de su comercialización (Maguire 2010). En 32 estudios observacionales con 1678 personas expuestas, el 44 % presentó pérdida de campo visual frente al 7 % de 406 controles, con estimaciones del 52 % en adultos y del 34 % en niños y un riesgo relativo de 4,0; la dosis acumulada y la edad se asociaron a más riesgo, y los autores concluyen que debe reservarse para cuando no haya alternativa o el beneficio supere el riesgo (Maguire 2010). La ficha técnica de Sabrilex describe una reducción concéntrica bilateral, más marcada en el sector nasal, que puede llegar a la visión en túnel y que suele ser asintomática incluso cuando es grave; recomienda perimetría o, si no es posible, electrorretinografía o tomografía de coherencia óptica, y no asociarla a otros fármacos retinotóxicos (4.4). En personas con discapacidad intelectual o con dificultades para comunicar síntomas, la pérdida puede pasar inadvertida; un deterioro funcional o conductual de nueva aparición puede deberse a la pérdida visual y no a un trastorno psiquiátrico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "psiep"
+       ],
+       "t": "psicopatología en la epilepsia"
+      },
+      {
+       "ids": [
+        "di",
+        "disc_int"
+       ],
+       "t": "discapacidad intelectual y comunicación de síntomas"
+      }
+     ]
+    },
+    {
+     "t": "Uso estudiado en la dependencia de cocaína y otras sustancias",
+     "x": "La inhibición de la GABA-transaminasa motivó su estudio en adicciones. En un ensayo aleatorizado de 9 semanas con 103 personas en libertad condicional en México con dependencia de cocaína, la abstinencia completa al final del ensayo fue del 28,0 % con vigabatrina frente al 7,5 % con placebo, con mejor retención y sin diferencias en efectos adversos (Brodie 2009). Sin embargo, el ensayo multicéntrico estadounidense con 186 participantes no halló diferencias en ningún desenlace; los niveles urinarios sugerían que entre el 40 % y el 60 % de quienes recibían vigabatrina no la tomaban, y no se observó deterioro visual en las 13 semanas (Somoza 2013). Con esta evidencia contradictoria y el riesgo visual acumulativo, no tiene lugar en el tratamiento de los trastornos por consumo de estimulantes [fuente no localizada]. En personas con consumo de sustancias que la reciben por epilepsia, la sedación puede sumarse a la de otros depresores (la ficha técnica de Sabrilex lo señala con el clonazepam, 4.4); la combinación con GHB/GBL, que también actúa sobre el sistema GABA, no se ha estudiado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cocaina",
+        "anfetaminas"
+       ],
+       "t": "trastornos por consumo de estimulantes"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "chemsex_s"
+       ],
+       "t": "GHB/GBL y chemsex"
+      },
+      {
+       "ids": [
+        "ttos_adiccion"
+       ],
+       "t": "fármacos para las adicciones"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Sabrilex 500 mg comprimidos recubiertos con película (vigabatrina) (nº de registro 59361), apartados 4.1, 4.3-4.5, 4.8 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "Levinson DF & Devinsky O (1999). Psychiatric adverse events during vigabatrin therapy. Neurology 53:1503-1511 · PMID 10534259",
+    "Maguire MJ et al. (2010). Prevalence of visual field loss following exposure to vigabatrin therapy: a systematic review. Epilepsia 51:2423-2431 · PMID 21070215",
+    "Hemming K et al. (2013). Vigabatrin for refractory partial epilepsy. Cochrane Database Syst Rev 2013:CD007302 · PMID 23440814",
+    "Brodie JD et al. (2009). Randomized, double-blind, placebo-controlled trial of vigabatrin for the treatment of cocaine dependence in Mexican parolees. Am J Psychiatry 166:1269-1277 · PMID 19651710",
+    "Somoza EC et al. (2013). A multisite, double-blind, placebo-controlled clinical trial to evaluate the safety and efficacy of vigabatrin for treating cocaine dependence. JAMA Psychiatry 70:630-637 · PMID 23575810",
+    "FDA (2024). Vigabatrin (Vigadrone) prescribing information: boxed warning «Permanent vision loss»; etiqueta revisada en noviembre de 2024, consultada en la base openFDA en noviembre de 2026"
+   ],
+   "rel": [
+    "epilepsia_psic",
+    "psiep",
+    "dep_induc",
+    "iatrog_farm",
+    "cocaina",
+    "psust",
+    "ghb_gbl",
+    "ttos_adiccion",
+    "levetiracetam",
+    "di"
+   ]
+  },
+  {
+   "id": "doxilamina",
+   "n": "Doxilamina (Dormidina y otros): hipnótico antihistamínico sin receta",
+   "ab": "Doxilamina",
+   "al": [
+    "Dormidina",
+    "doxylamine",
+    "hidrogenosuccinato de doxilamina",
+    "antihistamínico H1 sedante",
+    "Cariban (con piridoxina)"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 1990,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Antihistamínico H1 de primera generación derivado de la etanolamina, antagonista competitivo, reversible e inespecífico de los receptores H1, con acción hipnótica, sedante, antiemética y anticolinérgica (ficha técnica de Dormidina doxilamina, 5.1). En España se dispensa sin receta como Dormidina y numerosas marcas, indicada en el tratamiento sintomático a corto plazo del insomnio ocasional en mayores de 18 años (4.1), sin superar los 7 días salvo criterio médico (4.2 y 4.4); asociada a piridoxina (Cariban, Bonjesta), con receta, se indica en las náuseas y vómitos del embarazo. La ficha técnica la contraindica en el asma, la bronquitis crónica, el enfisema, el glaucoma, la hipertrofia prostática, la obstrucción pilórica o vesical, la insuficiencia renal o hepática grave, la lactancia y con IMAO o inhibidores potentes del CYP450, entre ellos fluoxetina, fluvoxamina, paroxetina, bupropión y ritonavir (4.3). Los efectos anticolinérgicos, la sedación diurna y las caídas preocupan en la persona mayor, y la intoxicación produce un síndrome anticolinérgico con riesgo de rabdomiólisis. Las guías no recomiendan los antihistamínicos para el insomnio (Riemann 2023).",
+   "feats": [
+    "Estado en España (CIMA): Dormidina doxilamina 12,5 y 25 mg comprimidos (Esteve; nº de registro 58658 para 25 mg), comercializados, sin receta; otras marcas sin receta (Normodorm, Dormirel, Dormikern, Dulsueños, genéricos) y en combinados antigripales nocturnos; con piridoxina, con receta, para las náuseas del embarazo",
+    "Contraindicaciones (ficha técnica de Dormidina doxilamina, 4.3): asma, bronquitis crónica, enfisema, glaucoma, hipertrofia prostática, úlcera péptica estenosante, obstrucción piloroduodenal o del cuello vesical, insuficiencia renal o hepática grave, lactancia, IMAO e inhibidores potentes del CYP450 (fluoxetina, fluvoxamina, paroxetina, bupropión, macrólidos, amiodarona, ritonavir, indinavir, azoles, terbinafina)",
+    "Advertencias (4.4): no más de 7 días salvo criterio médico; precaución en epilepsia por descenso del umbral convulsivo, insuficiencia cardiaca, hipertensión y QT largo; efecto aditivo con alcohol, hipnóticos y otros depresores; potenciación anticolinérgica con tricíclicos; mayor riesgo de caídas y de efectos anticolinérgicos en mayores de 65 años",
+    "Reacciones adversas (4.8): somnolencia muy frecuente; boca seca, estreñimiento, visión borrosa, retención urinaria, mareo, cefalea, insomnio y nerviosismo frecuentes; pesadillas poco frecuentes; agitación rara, sobre todo en ancianos; temblor y convulsiones raros",
+    "Intoxicación (4.9): somnolencia o estimulación, síndrome anticolinérgico (midriasis, fiebre, boca seca, taquicardia), agitación, confusión, alucinaciones, delirio, psicosis, convulsiones, depresión respiratoria, coma y muerte; rabdomiólisis con insuficiencia renal; sin antídoto; no usar epinefrina para la hipotensión",
+    "Rabdomiólisis tras sobredosis: en 27 pacientes ingresados, el 59 % la desarrolló y la cantidad ingerida fue su único predictor fiable (Jo 2007); en 169 pacientes con CK inicial normal, el 21 % la presentó de forma diferida, asociada a la cantidad ingerida y a la taquicardia al ingreso (Kim 2011)"
+   ],
+   "tx": "No es un tratamiento recomendado para el insomnio crónico: la primera línea es la TCC-I, y la guía europea desaconseja los antihistamínicos (Riemann 2023). Si se usa para el insomnio ocasional, limitarlo al plazo de la ficha técnica (no más de 7 días salvo criterio médico) y revisar contraindicaciones e interacciones, en especial con ISRS inhibidores del CYP2D6, bupropión, antirretrovirales potenciados y otros anticolinérgicos o depresores. Preguntar de forma activa por su consumo, porque se adquiere sin receta. Evitar en personas mayores y con deterioro cognitivo. En la intoxicación, tratamiento de soporte con determinación seriada de CK por el riesgo de rabdomiólisis diferida (ficha técnica, 4.9; Kim 2011).",
+   "note": "La evidencia de eficacia en el insomnio es escasa, antigua y procede de ensayos pequeños; las revisiones concluyen que los antihistamínicos sin receta carecen de evidencia sólida y que la tolerancia aparece pronto (Vande Griend 2012; Culpepper 2015), aunque la ficha técnica indica que no se ha observado tolerancia con doxilamina (4.4). La ficha recoge entre los inhibidores contraindicados el ritonavir, pero no el cobicistat; su extensión a este potenciador es una inferencia [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Lugar en el tratamiento del insomnio y uso sin receta",
+     "x": "La guía europea de insomnio de 2023 no recomienda los antihistamínicos para el tratamiento del insomnio (Riemann 2023), y la TCC-I es el tratamiento de primera línea del insomnio crónico. Una revisión de ensayos aleatorizados con antagonistas H1 concluyó que, salvo la doxepina a dosis bajas, los resultados son dispares y limitados por el tamaño muestral, que los antihistamínicos sin receta podrían tener un papel breve en adultos jóvenes y que la tolerancia se desarrolla con rapidez (Vande Griend 2012). Otra revisión sistemática de los hipnóticos de venta libre no identificó ensayos recientes con doxilamina que cumplieran los criterios y concluyó que estos productos carecen de evidencia sólida de eficacia y seguridad (Culpepper 2015). La ficha técnica de Dormidina doxilamina limita su uso al insomnio ocasional, de días a una semana, en mayores de 18 años, y desaconseja conducir al menos durante los primeros días por la disminución de la alerta (4.2 y 4.7). Su venta sin receta favorece el uso prolongado sin supervisión, la autoprescripción en el insomnio crónico y su omisión en la anamnesis farmacológica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "insomnio_sx"
+       ],
+       "t": "insomnio"
+      },
+      {
+       "ids": [
+        "tcci"
+       ],
+       "t": "TCC para el insomnio"
+      },
+      {
+       "ids": [
+        "orexina",
+        "melatonina",
+        "zolpidem"
+       ],
+       "t": "otros hipnóticos"
+      }
+     ]
+    },
+    {
+     "t": "Efectos anticolinérgicos, persona mayor e intoxicación",
+     "x": "La ficha técnica de Dormidina doxilamina describe sequedad de boca, estreñimiento, retención urinaria y visión borrosa, con más somnolencia diurna, vértigo y riesgo de caídas en la persona mayor, especialmente sensible a la actividad anticolinérgica (4.4); la agitación es una reacción rara, sobre todo en ancianos (4.8). Estos efectos se suman a los de otros fármacos anticolinérgicos (antidepresivos, antiparkinsonianos, neurolépticos, antiespasmódicos) y contribuyen a la carga anticolinérgica y al riesgo de delirium. En la intoxicación aparecen somnolencia o estimulación del SNC, síndrome anticolinérgico, rubefacción, taquicardia, alucinaciones, delirio, psicosis, convulsiones, coma y, en casos graves, rabdomiólisis con insuficiencia renal (ficha, 4.9), complicación descrita desde los años ochenta (Köppel 1987). En una serie prospectiva, el 59 % de 27 intoxicados desarrolló rabdomiólisis y el 19 % de ellos, insuficiencia renal aguda (Jo 2007); en otra de 169 pacientes con CK normal al ingreso, el 21 % la desarrolló de forma diferida (Kim 2011). Como la doxilamina se emplea en intentos de suicidio, toda intoxicación exige valoración del riesgo suicida [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "polifarm",
+        "bzd_mayor"
+       ],
+       "t": "carga anticolinérgica y persona mayor"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "valoración del riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones relevantes en psiquiatría, VIH y chemsex",
+     "x": "La ficha técnica de Dormidina doxilamina contraindica su uso con IMAO y con inhibidores enzimáticos potentes del CYP450, porque se desconocen las enzimas que la metabolizan; la lista incluye fluoxetina, fluvoxamina, paroxetina, bupropión, nefazodona, macrólidos, amiodarona, azoles e inhibidores de la proteasa como ritonavir e indinavir (4.3 y 4.5). Para quien recibe antirretrovirales potenciados, esta contraindicación es directamente aplicable con ritonavir; con cobicistat, la ficha no lo menciona [fuente no localizada]. La ficha advierte además del efecto aditivo con alcohol, hipnóticos, sedantes, ansiolíticos, opioides y antipsicóticos (4.4 y 4.5), por lo que su combinación con GHB/GBL, frecuente en el chemsex como ayuda para dormir tras sesiones con estimulantes, puede potenciar la depresión del SNC [fuente no localizada]. Tampoco debe asociarse a fármacos que prolongan el QT ni a los que producen hipopotasemia o hipomagnesemia (4.5). La hidroxizina, otro antihistamínico sedante del atlas, comparte el perfil anticolinérgico pero tiene indicación en ansiedad y más datos sobre el QT.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "antirretrovirales y chemsex"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "alcohol"
+       ],
+       "t": "depresores del SNC"
+      },
+      {
+       "ids": [
+        "hidroxizina",
+        "qt_psicof"
+       ],
+       "t": "antihistamínicos sedantes y QT"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Dormidina doxilamina 25 mg comprimidos recubiertos con película (nº de registro 58658), apartados 4.1-4.9 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Cariban 10 mg/10 mg cápsulas duras de liberación modificada (doxilamina/piridoxina) (nº de registro 44139), apartado 4.1; consulta de noviembre de 2026",
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "Vande Griend JP & Anderson SL (2012). Histamine-1 receptor antagonism for treatment of insomnia. J Am Pharm Assoc 52:e210-e219 · PMID 23229983",
+    "Culpepper L & Wingertzahn MA (2015). Over-the-counter agents for the treatment of occasional disturbed sleep or transient insomnia: a systematic review of efficacy and safety. Prim Care Companion CNS Disord 17 · PMID 27057416",
+    "Jo YI et al. (2007). Risk factors for rhabdomyolysis following doxylamine overdose. Hum Exp Toxicol 26:617-621 · PMID 17884948",
+    "Kim HJ et al. (2011). The associative factors of delayed-onset rhabdomyolysis in patients with doxylamine overdose. Am J Emerg Med 29:903-907 · PMID 21159475",
+    "Köppel C, Ibe K & Oberdisse U (1987). Rhabdomyolysis in doxylamine overdose. Lancet 1:442-443 · PMID 2880231"
+   ],
+   "rel": [
+    "insom",
+    "hidroxizina",
+    "bzd_mayor",
+    "polifarm",
+    "delirium",
+    "tcci",
+    "zolpidem",
+    "chemsex_arv",
+    "ghb_gbl",
+    "pitolisant",
+    "insomnio_sx"
+   ]
+  },
+  {
+   "id": "amantadina",
+   "n": "Amantadina (Amantadine Level): síntomas extrapiramidales, catatonía, SNM y psicosis inducida",
+   "ab": "Amantadina",
+   "al": [
+    "Amantadine Level",
+    "amantadine",
+    "derivado del adamantano",
+    "antagonista NMDA dopaminérgico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1967,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Agente dopaminérgico derivado del adamantano que libera dopamina y noradrenalina e impide su recaptación, con antagonismo de los canales NMDA en los ganglios basales y débil actividad anticolinérgica (ficha técnica de Amantadine Level, 5.1). En España solo hay un medicamento autorizado y comercializado, Amantadine Level 100 mg cápsulas (nº de registro 44541), indicado en el tratamiento y la profilaxis de la gripe A y en los síntomas de la enfermedad de Parkinson (rigidez, temblor, hipocinesia y acinesia) (4.1). En psiquiatría se usa fuera de ficha técnica en el parkinsonismo inducido por antipsicóticos (ensayos pequeños y antiguos), como coadyuvante en la catatonía (casos y series; mencionada entre los antagonistas NMDA por Hirjak 2024) y en el síndrome neuroléptico maligno moderado o grave, con evidencia limitada (Strawn 2007). La propia ficha desaconseja asociarla a antagonistas dopaminérgicos y contraindica su uso con haloperidol, clorpromazina, pimozida y otros fármacos que prolongan el QT (4.5), lo que condiciona su empleo junto a antipsicóticos. Produce con frecuencia alucinaciones, confusión, pesadillas y depresión, y raramente psicosis (4.8).",
+   "feats": [
+    "Estado en España (CIMA): Amantadine Level 100 mg cápsulas duras (Laboratorios ERN; nº de registro 44541), autorizado desde 1967 y comercializado, de prescripción médica y tratamiento de larga duración; único medicamento con amantadina en CIMA",
+    "Contraindicaciones (ficha técnica de Amantadine Level, 4.3): insuficiencia cardiaca grave, miocardiopatía o miocarditis, bloqueo AV de segundo o tercer grado, bradicardia, QT prolongado o antecedentes de arritmias ventriculares, fármacos que prolongan el QT, embarazo y lactancia, convulsiones, úlcera gástrica, insuficiencia renal grave y glaucoma de ángulo cerrado",
+    "Interacciones (4.5): contraindicada con antiarrítmicos IA y III, haloperidol, clorpromazina, tioridazina, pimozida, tricíclicos y otros fármacos que prolongan el QT; evitar antagonistas dopaminérgicos (butirofenonas, fenotiazinas, tioxantenos, metoclopramida); los anticolinérgicos (biperideno, trihexifenidilo) intensifican la confusión y las alucinaciones; la memantina potencia sus efectos",
+    "Reacciones psiquiátricas (4.8): frecuentes la somnolencia o el insomnio, la depresión, la agitación, las alucinaciones, la confusión y las pesadillas; raras la desorientación, la psicosis y el síndrome neuroléptico; trastornos del control de impulsos (juego, hipersexualidad, compras, ingesta compulsiva) de frecuencia no conocida; pensamientos y conductas suicidas notificados (4.4)",
+    "Retirada (4.4): evitar la interrupción brusca, sobre todo con neurolépticos, por casos de síndrome neuroléptico maligno o catatonía inducida por neurolépticos tras retirar la amantadina; en el Parkinson puede precipitar crisis acinéticas",
+    "Eliminación renal casi exclusiva sin metabolismo, con ajuste obligado al aclaramiento de creatinina y riesgo de intoxicación en la insuficiencia renal y en la persona mayor; control electrocardiográfico del QT (ficha técnica de Amantadine Level, 4.2 y 4.4)",
+    "Intoxicación (4.9): hiperexcitabilidad, temblor, ataxia, convulsiones, arritmias y psicosis tóxica con confusión y alucinaciones visuales, hasta el coma, sobre todo asociada a otros antiparkinsonianos; puede tratarse la neurotoxicidad con fisostigmina"
+   ],
+   "tx": "Fármaco de uso fuera de ficha en psiquiatría, de segunda línea o coadyuvante: en el parkinsonismo inducido, como alternativa a los anticolinérgicos cuando se quiere evitar la carga anticolinérgica; en la catatonía, si las benzodiacepinas fracasan o no se toleran y no se dispone de TEC, y en el SNM, junto a la retirada del antipsicótico y el soporte intensivo. Antes de usarla, ECG, función renal y revisión de fármacos que prolongan el QT (la ficha técnica contraindica la combinación con varios antipsicóticos). Vigilar alucinaciones, confusión, insomnio y control de impulsos, y no suspenderla de forma brusca si la persona recibe antipsicóticos (ficha técnica de Amantadine Level, 4.4).",
+   "note": "La evidencia en el parkinsonismo inducido procede de ensayos cruzados pequeños de los años setenta; en la catatonía y en el SNM, de casos y series sin ensayos controlados (Strawn 2007; Rogers 2023). La recomendación concreta y el grado que la guía de la BAP de 2023 asigna a la amantadina en la catatonía son [fuente no localizada]. En la discinesia tardía, la guía estadounidense le asigna un nivel C (véase el nodo de inhibidores de VMAT2).",
+   "sec": [
+    {
+     "t": "Parkinsonismo inducido por antipsicóticos: evidencia y contradicción con la ficha",
+     "x": "En un ensayo doble ciego, controlado con placebo y cruzado con 39 pacientes psiquiátricos ingresados, la amantadina y el trihexifenidilo fueron igual de eficaces en el parkinsonismo inducido por fármacos, con menos efectos adversos y menos graves con amantadina (Fann y Lake 1976). Este perfil la convierte en una alternativa cuando se quiere evitar la carga anticolinérgica (deterioro cognitivo, delirium, persona mayor) [fuente no localizada]. Sin embargo, la ficha técnica española de Amantadine Level indica que los antagonistas dopaminérgicos (butirofenonas, fenotiazinas, tioxantenos) deben evitarse en quien la toma y contraindica expresamente su combinación con haloperidol, clorpromazina, tioridazina y pimozida por el riesgo de prolongación del QT (4.5). El uso junto a antipsicóticos es, por tanto, fuera de ficha y exige ECG, corrección de electrólitos y elección de un antipsicótico con menor efecto sobre el QT [fuente no localizada]. Asociarla a biperideno u otros anticolinérgicos intensifica la confusión y las alucinaciones (4.5). En la ganancia de peso por antipsicóticos, un metaanálisis de 5 ensayos (n = 265) halló una reducción de 2,22 kg frente a placebo, con más insomnio (Zheng 2017).",
+     "links": [
+      {
+       "ids": [
+        "biperideno"
+       ],
+       "t": "anticolinérgicos para el parkinsonismo inducido"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "acatisia",
+        "vmat2_td"
+       ],
+       "t": "síntomas extrapiramidales"
+      },
+      {
+       "ids": [
+        "qt_psicof",
+        "peso_psicof"
+       ],
+       "t": "QT y peso con antipsicóticos"
+      }
+     ]
+    },
+    {
+     "t": "Catatonía y síndrome neuroléptico maligno",
+     "x": "En la catatonía, las benzodiacepinas y la TEC son la base del tratamiento, y la amantadina y la memantina, como antagonistas NMDA, figuran entre las opciones de una revisión reciente (Hirjak 2024). La evidencia se limita a casos y series: tres pacientes con catatonía acinética aguda sin neurolépticos respondieron a amantadina intravenosa, con efecto máximo a las 4-6 horas y recurrencia parcial a las 24 horas (Northoff 1997), y existen casos de respuesta en catatonía febril, maligna o resistente a benzodiacepinas (Northoff 1999; Bulleit 2024). La guía de la BAP subraya que sus recomendaciones se basan sobre todo en estudios observacionales pequeños, series y casos (Rogers 2023). En el SNM, la amantadina, la bromocriptina o el dantroleno se emplean en formas moderadas o graves junto a la retirada del antipsicótico y el soporte intensivo, con evidencia limitada (Strawn 2007). Paradójicamente, la retirada brusca de la amantadina en personas tratadas con neurolépticos puede precipitar un SNM o una catatonía inducida por neurolépticos (ficha técnica de Amantadine Level, 4.4; Brown 1986). La forma intravenosa no está comercializada en España [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "cat_malig",
+        "tea_catatonia"
+       ],
+       "t": "catatonía"
+      },
+      {
+       "ids": [
+        "snm"
+       ],
+       "t": "síndrome neuroléptico maligno"
+      },
+      {
+       "ids": [
+        "memantina"
+       ],
+       "t": "otro antagonista NMDA"
+      }
+     ]
+    },
+    {
+     "t": "Psicosis, alucinaciones y consumo de sustancias",
+     "x": "La ficha técnica de Amantadine Level considera frecuentes las alucinaciones, la confusión, la agitación, las pesadillas y la depresión, y raras la desorientación y la psicosis (4.8); recomienda precaución en personas con estados confusionales, alucinaciones o trastornos psiquiátricos y en quienes tienen antecedentes de delirium o psicosis exógena (4.4). En la enfermedad de Parkinson, la alucinosis puede desencadenarse por amantadina y anticolinérgicos, aunque es más frecuente tras cambios en la medicación dopaminérgica (Poewe 2008); en la psicosis de la enfermedad de Parkinson, simplificar el tratamiento incluye retirar la amantadina. La sobredosis puede causar una psicosis aguda con delirium y alucinaciones visuales, potenciada por antihistamínicos como la difenhidramina (Snoey y Bessen 1990). En el consumo de sustancias, la ficha describe menor tolerancia al alcohol, con discinesia, confusión e hipotensión ortostática, y potenciación de sus efectos centrales por los simpaticomiméticos indirectos (4.5), lo que incluye por mecanismo a las anfetaminas y las catinonas del chemsex [fuente no localizada]; la ficha de memantina desaconseja asociarla con amantadina o ketamina por el riesgo de psicosis farmacotóxica.",
+     "links": [
+      {
+       "ids": [
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "psicosis en la enfermedad de Parkinson"
+      },
+      {
+       "ids": [
+        "psust",
+        "delirium"
+       ],
+       "t": "psicosis inducida y delirium"
+      },
+      {
+       "ids": [
+        "ketamina",
+        "anfetaminas",
+        "chemsex_s"
+       ],
+       "t": "sustancias del chemsex"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Amantadine Level 100 mg cápsulas duras (amantadina) (nº de registro 44541), apartados 4.1-4.9 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "Fann WE & Lake CR (1976). Amantadine versus trihexyphenidyl in the treatment of neuroleptic-induced parkinsonism. Am J Psychiatry 133:940-943 · PMID 782262",
+    "Strawn JR, Keck PE & Caroff SN (2007). Neuroleptic malignant syndrome. Am J Psychiatry 164:870-876 · PMID 17541044",
+    "Rogers JP et al. (2023). Evidence-based consensus guidelines for the management of catatonia: recommendations from the British Association for Psychopharmacology. J Psychopharmacol 37:327-369 · PMID 37039129",
+    "Hirjak D et al. (2024). Catatonia. Nat Rev Dis Primers 10:49 · PMID 39025858",
+    "Northoff G, Eckert J & Fritze J (1997). Glutamatergic dysfunction in catatonia? Successful treatment of three acute akinetic catatonic patients with the NMDA antagonist amantadine. J Neurol Neurosurg Psychiatry 62:404-406 · PMID 9120462",
+    "Northoff G et al. (1999). Therapeutic efficacy of N-methyl D-aspartate antagonist amantadine in febrile catatonia. J Clin Psychopharmacol 19:484-486 · PMID 10505599",
+    "Bulleit C et al. (2024). Treating malignant catatonia with liquid amantadine: a case report and literature review. J Psychiatr Pract 30:308-310 · PMID 39058531",
+    "Brown CS, Wittkowsky AK & Bryant SG (1986). Neuroleptic-induced catatonia after abrupt withdrawal of amantadine during neuroleptic therapy. Pharmacotherapy 6:193-195 · PMID 2877444",
+    "Zheng W et al. (2017). Amantadine for antipsychotic-related weight gain: meta-analysis of randomized placebo-controlled trials. J Clin Psychopharmacol 37:341-346 · PMID 28383359",
+    "Poewe W (2008). When a Parkinson's disease patient starts to hallucinate. Pract Neurol 8:238-241 · PMID 18644910",
+    "Snoey ER & Bessen HA (1990). Acute psychosis after amantadine overdose. Ann Emerg Med 19:668-670 · PMID 2344084"
+   ],
+   "rel": [
+    "biperideno",
+    "snm",
+    "catatonia",
+    "cat_malig",
+    "memantina",
+    "lewy",
+    "parkinson_psiq",
+    "discin_tard",
+    "vmat2_td",
+    "qt_psicof",
+    "psust",
+    "tea_catatonia"
+   ]
+  }
+ ]
+}
