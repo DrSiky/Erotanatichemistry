@@ -1,0 +1,938 @@
+{
+ "patch": {
+  "parkinson_psiq": {
+   "relAdd": [
+    "agon_dop_impulsos"
+   ]
+  },
+  "piernas_inquietas": {
+   "relAdd": [
+    "agon_dop_impulsos"
+   ]
+  },
+  "juegoP": {
+   "relAdd": [
+    "agon_dop_impulsos"
+   ]
+  },
+  "hipser": {
+   "relAdd": [
+    "agon_dop_impulsos"
+   ]
+  },
+  "iatrog_farm": {
+   "relAdd": [
+    "agon_dop_impulsos",
+    "isotretinoina_psiq",
+    "montelukast_psiq",
+    "mefloquina_psiq",
+    "efavirenz_psiq",
+    "finasterida_psiq"
+   ]
+  },
+  "dep_induc": {
+   "relAdd": [
+    "isotretinoina_psiq",
+    "montelukast_psiq",
+    "efavirenz_psiq",
+    "finasterida_psiq"
+   ]
+  },
+  "suic_adol": {
+   "relAdd": [
+    "isotretinoina_psiq",
+    "montelukast_psiq"
+   ]
+  },
+  "ideac_suic": {
+   "relAdd": [
+    "isotretinoina_psiq",
+    "finasterida_psiq"
+   ]
+  },
+  "anx_sust": {
+   "relAdd": [
+    "montelukast_psiq",
+    "mefloquina_psiq"
+   ]
+  },
+  "insomnio_sx": {
+   "relAdd": [
+    "montelukast_psiq"
+   ]
+  },
+  "psust": {
+   "relAdd": [
+    "mefloquina_psiq",
+    "efavirenz_psiq"
+   ]
+  },
+  "ptsd": {
+   "relAdd": [
+    "mefloquina_psiq"
+   ]
+  },
+  "vih_ncd": {
+   "relAdd": [
+    "efavirenz_psiq"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "efavirenz_psiq"
+   ]
+  },
+  "chemsex_ssex": {
+   "relAdd": [
+    "efavirenz_psiq"
+   ]
+  },
+  "disf_sexual_psicof": {
+   "relAdd": [
+    "finasterida_psiq"
+   ]
+  },
+  "disf_sex": {
+   "relAdd": [
+    "finasterida_psiq"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "agon_dop_impulsos",
+   "n": "Agonistas dopaminérgicos y trastornos del control de impulsos",
+   "ab": "Agonistas DA-impulsos",
+   "al": [
+    "pramipexol",
+    "ropinirol",
+    "rotigotina",
+    "impulse control disorders",
+    "conductas impulsivo-compulsivas",
+    "estudio DOMINION",
+    "síndrome de abstinencia a agonistas dopaminérgicos"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2010,
+   "tags": [
+    "organic",
+    "risk",
+    "elderly",
+    "forense"
+   ],
+   "desc": "Los agonistas dopaminérgicos no ergóticos (pramipexol, ropinirol y rotigotina), indicados en la enfermedad de Parkinson y en el síndrome de piernas inquietas, se asocian a trastornos del control de impulsos: juego patológico, conducta sexual compulsiva, compra compulsiva y atracones. En el estudio transversal DOMINION, con 3090 pacientes con Parkinson atendidos en 46 centros, la frecuencia fue del 17,1 % con agonista frente al 6,9 % sin él (OR 2,72), sin diferencias entre pramipexol y ropinirol, lo que indica un efecto de clase (Weintraub 2010). La asociación depende de la dosis y de la duración del tratamiento y los síntomas remiten de forma progresiva al retirar el agonista (Corvol 2018). Las fichas técnicas españolas lo recogen como advertencia (apartado 4.4) y como reacción adversa (apartado 4.8).",
+   "feats": [
+    "Cohorte francesa de 411 pacientes con Parkinson de cinco años o menos de evolución: en quienes no tenían el trastorno al inicio, la incidencia acumulada a cinco años fue del 46,1 % (51,5 % con agonista alguna vez frente a 12,4 % sin él); razón de prevalencias de 4,23 con el uso de agonistas, con efecto independiente de la dosis media y de la duración; con levodopa la asociación no fue sólida (Corvol 2018)",
+    "Estudio multicéntrico español con 233 pacientes en monoterapia con un agonista no ergótico: el 39 % cumplía criterios clínicos; el riesgo fue mayor con los agonistas orales, pramipexol y ropinirol (42 %), que con rotigotina transdérmica (19 %), con OR ajustada de 3,14 (García-Ruiz 2014)",
+    "Síndrome de piernas inquietas: en 100 pacientes tratados con dopaminérgicos, el 17 % tenía algún trastorno del control de impulsos confirmado por entrevista telefónica (compra compulsiva 9 %, juego patológico 5 %, ingesta compulsiva 11 %, punding 7 %), con efecto de la dosis de pramipexol y una media de 9,5 meses de tratamiento hasta el inicio (Cornelius 2010)",
+    "Notificaciones graves a la FDA (2003-2012): señal muy intensa de juego patológico, hipersexualidad y compra compulsiva con los agonistas dopaminérgicos (PRR 277,6), máxima con pramipexol y ropinirol, de afinidad preferente por el receptor D3, y también presente con aripiprazol (Moore 2014)",
+    "Otras variables asociadas de forma independiente en DOMINION: uso de levodopa, residir en Estados Unidos, menor edad, no estar casado o casada, tabaquismo actual y antecedentes familiares de problemas con el juego (Weintraub 2010)",
+    "Fichas técnicas de Mirapexin, Requip y Neupro (AEMPS-CIMA, apartado 4.4): vigilar de forma regular la aparición de estos síntomas, advertir a pacientes y cuidadores, y considerar la reducción de la dosis o la interrupción gradual; la de Neupro menciona además el síndrome de desregulación dopaminérgica"
+   ],
+   "tx": "Informar antes de iniciar el agonista, a la persona y a quien conviva con ella, de las conductas que deben comunicar. Preguntar de forma activa en cada revisión por juego, gasto, cambios en la conducta sexual respecto a la habitual, alimentación y actividades repetitivas sin finalidad (punding), porque la persona puede no relacionarlas con el fármaco ni referirlas espontáneamente [fuente no localizada]. Si aparece un trastorno, las fichas técnicas indican considerar la reducción de la dosis o la interrupción gradual, decisión que corresponde tomar con neurología o con quien trata el síndrome de piernas inquietas, anticipando el síndrome de abstinencia a agonistas dopaminérgicos y el empeoramiento motor. En el síndrome de piernas inquietas, la guía de la AASM sugiere no usar de forma estándar pramipexol, ropinirol ni rotigotina (recomendación condicional), sobre todo por el riesgo de aumento con el uso prolongado (Winkelman 2025), lo que facilita alternativas. Añadir medidas de protección económica y apoyo a la familia, y tratamiento psicológico específico si el trastorno persiste tras el ajuste farmacológico.",
+   "note": "La evidencia procede de estudios transversales, cohortes y notificación espontánea; no hay ensayos aleatorizados diseñados para este desenlace. Las cifras varían con el instrumento de cribado: DOMINION usó escalas de cribado y criterios de investigación (Weintraub 2010) y el estudio español el cuestionario QUIP (García-Ruiz 2014), por lo que no son prevalencias de diagnóstico clínico estricto. La menor frecuencia con rotigotina procede de un estudio transversal pequeño y podría deberse a factores no medidos; los propios autores la atribuyen quizá a la vía de administración (García-Ruiz 2014). La señal de farmacovigilancia de la FDA no permite estimar incidencias (Moore 2014). El término «hipersexualidad» de las fichas técnicas describe un cambio respecto a la conducta previa de la persona, no una orientación ni una práctica sexual concreta.",
+   "sec": [
+    {
+     "t": "Estado regulador y fichas técnicas españolas",
+     "x": "La ficha técnica de Mirapexin (pramipexol; AEMPS-CIMA, apartado 4.4) advierte de que los pacientes tratados con agonistas dopaminérgicos pueden presentar ludopatía, aumento de la libido, hipersexualidad, gasto o compra compulsivos, atracones e ingesta compulsiva, y que, si aparecen, se debe considerar la reducción de la dosis o la interrupción gradual; pide además vigilar de forma regular la aparición de manía y delirio. El mismo apartado describe el síndrome de abstinencia a agonistas dopaminérgicos: apatía, ansiedad, depresión, cansancio, sudoración y dolor, que no responden a la levodopa, con mayor riesgo en quienes tienen un trastorno del control de impulsos o reciben dosis diarias o acumuladas altas; por ello la retirada debe ser progresiva e informada. La ficha de Requip (ropinirol) recoge la vigilancia regular del control de impulsos y de la manía, con o sin trastorno del control de impulsos, y la de Neupro (rotigotina) añade el síndrome de desregulación dopaminérgica. En el apartado 4.8 de Mirapexin se citan los datos del estudio de 3090 pacientes. En Estados Unidos, en 2014 ningún agonista dopaminérgico tenía recuadro de advertencia, y los autores del análisis de farmacovigilancia reclamaron advertencias más visibles (Moore 2014).",
+     "links": [
+      {
+       "ids": [
+        "parkinson_psiq"
+       ],
+       "t": "psicosis y control de impulsos en el Parkinson"
+      },
+      {
+       "ids": [
+        "piernas_inquietas"
+       ],
+       "t": "síndrome de piernas inquietas"
+      },
+      {
+       "ids": [
+        "mania_sec",
+        "delirium"
+       ],
+       "t": "manía y delirio"
+      }
+     ]
+    },
+    {
+     "t": "Magnitud del riesgo y factores moduladores",
+     "x": "En DOMINION, el 13,6 % de las 3090 personas con Parkinson tratadas presentaba al menos un trastorno del control de impulsos: juego patológico en el 5,0 %, conducta sexual compulsiva en el 3,5 %, compra compulsiva en el 5,7 % y trastorno por atracón en el 4,3 %; el 3,9 % tenía dos o más. El uso de agonista se asoció a una probabilidad entre dos y tres veces y media mayor, y la frecuencia fue similar con pramipexol y ropinirol (17,7 % frente a 15,5 %) (Weintraub 2010). El estudio longitudinal francés añade la dimensión temporal: la prevalencia pasó del 19,7 % al inicio al 32,8 % a los cinco años, con relación dosis-efecto tanto para la dosis diaria media a lo largo del tratamiento como para su duración (Corvol 2018). En España, el riesgo fue mayor con agonistas orales que con rotigotina transdérmica, y se asoció también a menor edad (García-Ruiz 2014). El riesgo no es exclusivo del Parkinson: en el síndrome de piernas inquietas tratado con dopaminérgicos, el 17 % presentaba algún trastorno confirmado, con una media de 9,5 meses hasta su aparición (Cornelius 2010).",
+     "links": [
+      {
+       "ids": [
+        "juegoP"
+       ],
+       "t": "trastorno de juego"
+      },
+      {
+       "ids": [
+        "hipser"
+       ],
+       "t": "conducta sexual compulsiva"
+      },
+      {
+       "ids": [
+        "compras_comp",
+        "bed"
+       ],
+       "t": "compra compulsiva y atracones"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo propuesto",
+     "x": "El análisis de notificaciones de la FDA encontró la señal más intensa con pramipexol y ropinirol, los agonistas con afinidad preferente por el receptor D3, y una señal también con aripiprazol, agonista parcial de ese receptor, lo que apoya un efecto ligado a la estimulación dopaminérgica más que a la enfermedad de base (Moore 2014). La relación dosis-efecto, la asociación débil con la levodopa y la remisión progresiva tras retirar el agonista refuerzan la causalidad farmacológica (Corvol 2018). Se ha propuesto que la estimulación de los receptores D3 del estriado ventral, que forma parte del circuito de recompensa, aumente la saliencia de los incentivos y reduzca el control inhibitorio [fuente no localizada]. Los factores asociados en DOMINION (menor edad, tabaquismo, antecedentes familiares de juego) sugieren una vulnerabilidad individual previa sobre la que actúa el fármaco (Weintraub 2010). La diferencia entre vía oral y transdérmica podría relacionarse con una estimulación más continua, aunque es una hipótesis no demostrada (García-Ruiz 2014).",
+     "links": [
+      {
+       "ids": [
+        "incent_sensib",
+        "recompensa"
+       ],
+       "t": "sensibilización por incentivo y circuito de recompensa"
+      },
+      {
+       "ids": [
+        "impulsiv"
+       ],
+       "t": "impulsividad"
+      },
+      {
+       "ids": [
+        "aripiprazol"
+       ],
+       "t": "aripiprazol, agonista parcial D3"
+      }
+     ]
+    },
+    {
+     "t": "Implicaciones clínicas y médico-legales",
+     "x": "Las consecuencias pueden ser graves: deudas, ruptura de la pareja, pérdida del empleo y conductas con repercusión penal o civil [fuente no localizada]. En la valoración pericial interesa documentar la cronología entre el inicio o el aumento del agonista y la aparición de la conducta, la ausencia de conductas similares previas, la dosis y la evolución tras la reducción o retirada, ya que la remisión progresiva tras suspender el fármaco está descrita (Corvol 2018). Esta relación puede ser relevante en la valoración de la imputabilidad y de la capacidad para administrar el patrimonio [fuente no localizada]. Antes de atribuir el cuadro al fármaco deben descartarse una manía o hipomanía, también recogidas en las fichas técnicas, y un trastorno previo. En la clínica, el cribado activo en cada visita es la medida principal: la ficha técnica del pramipexol pide vigilancia regular y advertir a pacientes y cuidadores, y la retirada debe planificarse por el riesgo de síndrome de abstinencia.",
+     "links": [
+      {
+       "ids": [
+        "imputabilidad",
+        "perit_forense"
+       ],
+       "t": "imputabilidad y pericia"
+      },
+      {
+       "ids": [
+        "mania_sec"
+       ],
+       "t": "diferencial con manía secundaria"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia psiquiátrica de fármacos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Weintraub D et al. (2010). Impulse control disorders in Parkinson disease: a cross-sectional study of 3090 patients. Arch Neurol 67:589-595 · PMID 20457959",
+    "Corvol JC et al. (2018). Longitudinal analysis of impulse control disorders in Parkinson disease. Neurology 91:e189-e201 · PMID 29925549",
+    "Garcia-Ruiz PJ et al. (2014). Impulse control disorder in patients with Parkinson's disease under dopamine agonist therapy: a multicentre study. J Neurol Neurosurg Psychiatry 85:840-844 · PMID 24434037",
+    "Moore TJ et al. (2014). Reports of pathological gambling, hypersexuality, and compulsive shopping associated with dopamine receptor agonist drugs. JAMA Intern Med 174:1930-1933 · PMID 25329919",
+    "Cornelius JR et al. (2010). Impulse control disorders with the use of dopaminergic agents in restless legs syndrome: a case-control study. Sleep 33:81-87 · PMID 20120624",
+    "AEMPS-CIMA (2026). Ficha técnica de Mirapexin (pramipexol), apartados 4.4 y 4.8; ficha técnica de Requip (ropinirol), apartado 4.4; ficha técnica de Neupro (rotigotina), apartado 4.4. Consultadas en cima.aemps.es en noviembre de 2026",
+    "Winkelman JW et al. (2025). Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 21:137-152 · PMID 39324694"
+   ],
+   "rel": [
+    "parkinson_psiq",
+    "piernas_inquietas",
+    "juegoP",
+    "hipser",
+    "compras_comp",
+    "bed",
+    "iatrog_farm",
+    "mania_sec",
+    "incent_sensib",
+    "impulsiv",
+    "imputabilidad"
+   ]
+  },
+  {
+   "id": "isotretinoina_psiq",
+   "n": "Isotretinoína oral, depresión y suicidio: una señal controvertida",
+   "ab": "Isotretinoína-psiq",
+   "al": [
+    "isotretinoína",
+    "ácido 13-cis-retinoico",
+    "isotretinoin",
+    "retinoides orales",
+    "revisión del PRAC de 2018"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2018,
+   "tags": [
+    "risk",
+    "child"
+   ],
+   "desc": "La isotretinoína oral, indicada en el acné grave, arrastra desde hace décadas notificaciones de depresión, síntomas psicóticos, conducta suicida y muerte por suicidio, sin que se haya demostrado una relación causal. En 2018 la Agencia Europea de Medicamentos concluyó su revisión de los retinoides (recomendación del PRAC de 8 de febrero y dictamen del CHMP de 22 de marzo): las limitaciones de los datos no permitían establecer si el riesgo neuropsiquiátrico se debía al fármaco, pero, dado que las enfermedades cutáneas graves hacen a las personas más vulnerables, se incluyó una advertencia en todos los retinoides orales (EMA 2018). El metaanálisis más amplio, con 25 estudios y más de 1,6 millones de participantes, no halló más trastornos psiquiátricos (RR 1,08) y sí menos intentos de suicidio a los 2-4 años del tratamiento (Tan 2024). Aun así, en un subgrupo vulnerable se describen casos con relación temporal y reaparición al reintroducir el fármaco (Bremner 2012), por lo que la vigilancia sigue siendo obligada.",
+   "feats": [
+    "Ficha técnica española (Isdiben, AEMPS-CIMA, 4.4): se han notificado depresión, empeoramiento de la depresión, ansiedad, tendencias agresivas, alteraciones del estado de ánimo, síntomas psicóticos y, muy raramente, ideación suicida, intentos de suicidio y suicidio; exige especial precaución con antecedentes de depresión y vigilar a todas las personas tratadas",
+    "La misma ficha advierte de que la interrupción del fármaco puede no bastar para aliviar los síntomas, de que puede ser necesaria una evaluación psiquiátrica o psicológica y de que la percepción de familiares o amistades ayuda a detectar el deterioro",
+    "EMA (2018): revisión de los retinoides (PRAC, 8 de febrero; CHMP, 22 de marzo de 2018); además de actualizar la prevención del embarazo, se incluyó en todos los retinoides orales una advertencia sobre posibles trastornos neuropsiquiátricos (depresión, ansiedad, cambios del ánimo), sin que los datos permitieran atribuirlos con claridad al fármaco",
+    "Metaanálisis de 25 estudios (1 625 891 participantes): riesgo absoluto a un año de depresión del 3,83 % y de suicidio consumado, intento, ideación o autolesión inferior al 0,5 % cada uno; menos intentos de suicidio a los 3 años (RR 0,86) y sin aumento global de trastornos psiquiátricos (RR 1,08) (Tan 2024)",
+    "Cohorte sueca de 5756 personas: la razón de incidencia estandarizada de intentos de suicidio ya tendía a elevarse el año previo al tratamiento (1,57; IC 95 % 0,86-2,63, no significativa) y estuvo elevada durante el tratamiento y los seis meses siguientes (1,78; IC 95 % 1,04-2,85); a los tres años se igualaba a la esperada (Sundström 2010)",
+    "En estudios controlados, el cambio en las puntuaciones de depresión no difirió del de otros tratamientos del acné, y la prevalencia de depresión disminuyó tras la isotretinoína (RR 0,588), aunque sin ensayos aleatorizados y con gran heterogeneidad (Huang 2017)"
+   ],
+   "tx": "Antes de iniciar, explorar antecedentes personales y familiares de depresión, conducta suicida y psicosis, y registrar el estado de ánimo basal. Informar a la persona, y en menores también a la familia, de los síntomas que deben comunicar, y pedir la colaboración del entorno, como recoge la ficha técnica. Explorar el ánimo y la ideación suicida en cada revisión y hasta un año después de terminar, plazo propuesto a partir de la cohorte sueca (Sundström 2010). Si aparecen síntomas depresivos, psicóticos o ideación suicida, suspender el fármaco en coordinación con dermatología y derivar a salud mental: la ficha advierte de que la retirada puede no ser suficiente. Un antecedente de intento de suicidio no obliga por sí solo a negar el tratamiento (Sundström 2010), pero exige seguimiento estrecho y plan de seguridad.",
+   "note": "Ningún metaanálisis incluye ensayos aleatorizados diseñados para desenlaces psiquiátricos (Huang 2017; Tan 2024). La confusión por la propia enfermedad es central: el acné grave se asocia a malestar psicológico y el riesgo de intento de suicidio ya aumentaba antes del tratamiento (Sundström 2010); la EMA tuvo en cuenta esta vulnerabilidad (EMA 2018). La mejoría del acné puede enmascarar a nivel poblacional reacciones idiosincrásicas en personas concretas, de modo que la ausencia de aumento global del riesgo no descarta casos individuales (Bremner 2012). La tabla del apartado 4.8 de la ficha técnica española incluye suicidio, intento de suicidio, ideación suicida, trastorno psicótico y comportamiento anormal; la frecuencia exacta de cada término no pudo extraerse con fiabilidad de la versión consultada.",
+   "sec": [
+    {
+     "t": "Estado regulador: revisión del PRAC de 2018 y ficha técnica",
+     "x": "La revisión europea de los retinoides, recomendada por el Comité para la Evaluación de Riesgos en Farmacovigilancia (PRAC) el 8 de febrero de 2018 y respaldada por el CHMP el 22 de marzo de 2018, abarcó acitretina, adapaleno, alitretinoína, bexaroteno, isotretinoína, tazaroteno y tretinoína. Su consecuencia principal fue reforzar el programa de prevención del embarazo, pero añadió una advertencia sobre posibles trastornos neuropsiquiátricos (depresión, ansiedad, cambios del ánimo) en todos los retinoides orales. La agencia reconoció que los datos no permitían establecer si ese riesgo se debía a los retinoides y justificó la advertencia por la mayor vulnerabilidad de las personas con enfermedades cutáneas graves (EMA 2018). En España, la ficha técnica de la isotretinoína (Isdiben, AEMPS-CIMA, apartado 4.4) recoge depresión, ansiedad, tendencias agresivas, síntomas psicóticos y, muy raramente, conducta suicida y suicidio; obliga a vigilar a todas las personas tratadas y a derivarlas si es preciso, y señala que la interrupción puede no bastar.",
+     "links": [
+      {
+       "ids": [
+        "dep_induc"
+       ],
+       "t": "depresión inducida por medicamentos"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "síntomas psicóticos inducidos"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia psiquiátrica"
+      }
+     ]
+    },
+    {
+     "t": "Magnitud del riesgo: lo que dicen los estudios",
+     "x": "Los datos poblacionales son tranquilizadores en conjunto. En 31 estudios controlados o prospectivos, la isotretinoína no empeoró las puntuaciones de depresión frente a otros tratamientos y la prevalencia de depresión descendió tras el tratamiento (Huang 2017). En el metaanálisis de 2024, el riesgo absoluto de depresión a un año fue del 3,83 %, el de cada desenlace suicida inferior al 0,5 %, y quienes recibieron isotretinoína tuvieron menos intentos de suicidio a los 2, 3 y 4 años; la metarregresión asoció más suicidios consumados a estudios con mayor proporción de varones (Tan 2024). La cohorte sueca matiza este panorama: los intentos de suicidio tendían a aumentar ya antes del tratamiento y siguieron elevados hasta seis meses después de terminarlo; quienes hicieron su primer intento en ese periodo repitieron con más frecuencia (71 %) que quienes lo habían hecho antes del tratamiento (38 %); los autores estimaron que harían falta 2300 tratamientos de seis meses al año para un primer intento adicional (Sundström 2010).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_adol"
+       ],
+       "t": "conducta suicida y adolescencia"
+      },
+      {
+       "ids": [
+        "dep_inf"
+       ],
+       "t": "depresión en la adolescencia"
+      },
+      {
+       "ids": [
+        "cssrs"
+       ],
+       "t": "evaluación estructurada del riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo propuesto y confusión por la enfermedad de base",
+     "x": "La isotretinoína es el isómero 13-cis del ácido retinoico, forma activa de la vitamina A que regula la expresión génica en el cerebro; una revisión que aplicó criterios de causalidad (relación temporal, casos de retirada y reintroducción, efecto de clase con otros compuestos del grupo, como la vitamina A, relación con la dosis y plausibilidad biológica) concluyó que los datos son compatibles con una asociación con depresión y suicidio en un subgrupo de personas vulnerables (Bremner 2012). Frente a ello, el acné grave tiene un impacto psicológico propio [fuente no localizada] y su mejoría tiende a reducir los síntomas depresivos (Huang 2017). Ambas lecturas no se excluyen: el efecto poblacional neto puede ser neutro o favorable mientras una minoría presenta reacciones idiosincrásicas. Por eso la pregunta clínica no es si la isotretinoína causa depresión en general, sino si esta persona concreta muestra un cambio temporalmente ligado al fármaco [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dep_induc"
+       ],
+       "t": "criterio temporal del trastorno inducido"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión y enfermedad médica"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "EMA (2018). Retinoid-containing medicinal products: Article 31 referral. Updated measures for pregnancy prevention during retinoid use; warning on possible risk of neuropsychiatric disorders also to be included for oral retinoids (PRAC 8/2/2018; CHMP 22/3/2018; decisión de la Comisión Europea 21/6/2018). Consultado en ema.europa.eu en noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Isdiben (isotretinoína), apartados 4.4 y 4.8. Consultada en cima.aemps.es en noviembre de 2026",
+    "Tan NKW et al. (2024). Risk of suicide and psychiatric disorders among isotretinoin users: a meta-analysis. JAMA Dermatol 160:54-62 · PMID 38019562",
+    "Sundström A et al. (2010). Association of suicide attempts with acne and treatment with isotretinoin: retrospective Swedish cohort study. BMJ 341:c5812 · PMID 21071484",
+    "Huang YC & Cheng YC (2017). Isotretinoin treatment for acne and risk of depression: a systematic review and meta-analysis. J Am Acad Dermatol 76:1068-1076 · PMID 28291553",
+    "Bremner JD, Shearer KD & McCaffery PJ (2012). Retinoic acid and affective disorders: the evidence for an association. J Clin Psychiatry 73:37-50 · PMID 21903028"
+   ],
+   "rel": [
+    "dep_induc",
+    "iatrog_farm",
+    "ideac_suic",
+    "suic_adol",
+    "dep_inf",
+    "cssrs",
+    "psust",
+    "dep_med"
+   ]
+  },
+  {
+   "id": "montelukast_psiq",
+   "n": "Montelukast y acontecimientos neuropsiquiátricos",
+   "ab": "Montelukast-psiq",
+   "al": [
+    "montelukast",
+    "Singulair",
+    "antagonistas de los receptores de leucotrienos",
+    "leukotriene receptor antagonists",
+    "advertencia en recuadro de la FDA 2020"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2020,
+   "tags": [
+    "risk",
+    "child"
+   ],
+   "desc": "El montelukast, antagonista de los receptores de leucotrienos usado en el asma y la rinitis alérgica, se asocia a acontecimientos neuropsiquiátricos: pesadillas, insomnio, ansiedad, agitación, agresividad, depresión y, muy raramente, alucinaciones y pensamiento y comportamiento suicida. La ficha técnica española indica que pueden aparecer en todos los grupos de edad, que pueden ser graves y continuar si no se retira el tratamiento, y que este debe suspenderse si aparecen. En marzo de 2020 la FDA exigió una advertencia en recuadro y recomendó reservar el fármaco en la rinitis alérgica para quien no responde o no tolera otras opciones (FDA 2020). La evidencia epidemiológica es discordante: un estudio de casos y controles pediátrico halló casi el doble de probabilidad de haber recibido montelukast entre quienes tuvieron un acontecimiento neuropsiquiátrico (Glockler-Lauf 2019), mientras que una cohorte de la red Sentinel no halló más hospitalizaciones por depresión ni autolesiones que con corticoides inhalados (Sansing-Foster 2021).",
+   "feats": [
+    "Ficha técnica de Singulair (AEMPS-CIMA, 4.8): poco frecuentes, sueños anormales con pesadillas, insomnio, sonambulismo, ansiedad, agitación con agresividad u hostilidad, depresión e hiperactividad psicomotora; raras, alteración de la atención y de la memoria y tics; muy raras, alucinaciones, desorientación, pensamiento y comportamiento suicida, síntomas obsesivo-compulsivos y disfemia",
+    "FDA (2020): advertencia en recuadro por cambios graves del comportamiento y del ánimo, guía de medicación para pacientes y familias, y recomendación de reservar el montelukast en la rinitis alérgica para quien no responde o no tolera otros tratamientos; en el asma, ponderar el riesgo antes de prescribir",
+    "Casos y controles anidado en Ontario (5-18 años con asma): 898 casos con un acontecimiento neuropsiquiátrico atendido en urgencias u hospital y 3497 controles; OR ajustada 1,91 para la prescripción de montelukast en el año previo; los cuadros más frecuentes fueron ansiedad (48,6 %) y alteraciones del sueño (26,1 %) (Glockler-Lauf 2019)",
+    "Personas mayores con asma en Corea: la exposición a antileucotrienos en el año previo se asoció a más acontecimientos neuropsiquiátricos (OR ajustada 1,67) en un diseño de casos y controles con emparejamiento por puntuación de propensión (Kang 2021)",
+    "Red Sentinel de la FDA (457 377 personas con asma emparejadas): frente a corticoides inhalados, sin aumento de depresión hospitalaria (HR 1,06) ni de autolesiones (HR 0,92), y menor riesgo de depresión tratada ambulatoriamente (HR 0,91); la mayoría de los acontecimientos se dio en personas con antecedentes psiquiátricos (Sansing-Foster 2021)",
+    "Ensayos del fabricante: ningún suicidio consumado en 116 estudios y un único acontecimiento adjudicado como posiblemente relacionado con la conducta suicida (ideación) entre 9929 pacientes con montelukast, frente a ninguno con placebo o control activo (Philip 2009)"
+   ],
+   "tx": "Antes de prescribir, preguntar por antecedentes psiquiátricos personales y explicar a la persona, o a la familia en menores, los síntomas que deben vigilar, como pide la ficha técnica. Ante pesadillas, insomnio, irritabilidad, agresividad, ansiedad, cambios del ánimo o ideación suicida durante el tratamiento, la ficha técnica indica suspender el montelukast; hacerlo en coordinación con quien lo prescribió y sustituirlo por otra opción para el asma o la rinitis según la guía correspondiente. Evaluar el riesgo suicida si hay ideación. Revisar si persisten los síntomas tras la retirada y, en ese caso, tratarlos como un trastorno independiente. Notificar la sospecha de reacción adversa al Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano, como invita el apartado 4.8 de la ficha técnica.",
+   "note": "Los estudios observacionales comparan grupos que difieren en la gravedad del asma y en los fármacos asociados; el estudio Sentinel usó corticoides inhalados como comparador activo y diagnósticos codificados, que captan mal los síntomas leves como las pesadillas o la irritabilidad (Sansing-Foster 2021). Los ensayos clínicos no se diseñaron para detectar estos efectos y de 34 ensayos en urticaria ninguno informó sobre acontecimientos neuropsiquiátricos, de modo que su riesgo añadido es pequeño e incierto (Rayner 2024). El mecanismo no está establecido: se ha propuesto una acción sobre receptores de leucotrienos del sistema nervioso central [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Estado regulador: ficha técnica española y advertencia de la FDA",
+     "x": "La ficha técnica de Singulair (AEMPS-CIMA, apartado 4.4) recoge que se han notificado acontecimientos neuropsiquiátricos, como cambios en el comportamiento, depresión y tendencias suicidas, en todos los grupos de edad; que los síntomas pueden ser graves y continuar si no se retira el tratamiento; que debe suspenderse si aparecen, y que hay que aconsejar a pacientes y cuidadores que estén alerta y lo comuniquen. El apartado 4.8 gradúa la frecuencia desde los poco frecuentes (pesadillas, insomnio, ansiedad, agitación, depresión) hasta los muy raros (alucinaciones, conducta suicida, síntomas obsesivo-compulsivos, disfemia). En Estados Unidos, la FDA reforzó en marzo de 2020 las advertencias existentes con un recuadro, tras constatar que muchos profesionales y familias desconocían el riesgo, y concluyó que en algunos pacientes, sobre todo cuando la enfermedad es leve y puede tratarse con otros fármacos, el beneficio puede no superar el riesgo (FDA 2020).",
+     "links": [
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia psiquiátrica"
+      },
+      {
+       "ids": [
+        "anx_sust",
+        "dep_induc"
+       ],
+       "t": "ansiedad y depresión inducidas"
+      },
+      {
+       "ids": [
+        "toc_dsm"
+       ],
+       "t": "síntomas obsesivo-compulsivos"
+      }
+     ]
+    },
+    {
+     "t": "Magnitud del riesgo y discordancia entre estudios",
+     "x": "Los estudios que encuentran asociación miden desenlaces amplios y frecuentes: en niños y adolescentes con asma, casi la mitad de los casos fueron cuadros de ansiedad y una cuarta parte alteraciones del sueño, con OR 1,91 para el montelukast (Glockler-Lauf 2019); en personas mayores, la OR ajustada fue 1,67 (Kang 2021). Los estudios que no la encuentran se centran en desenlaces graves y codificados: frente a corticoides inhalados, no hubo más hospitalizaciones por depresión ni autolesiones (Sansing-Foster 2021), y en los ensayos del fabricante la conducta suicida fue excepcional y similar a la de los grupos control (Philip 2009). Esta discrepancia es coherente con un efecto que se manifiesta sobre todo como síntomas leves o moderados del sueño, la ansiedad y la conducta, con casos graves raros, lo que encaja con las frecuencias de la ficha técnica. En la red Sentinel, la mayoría de los acontecimientos se dio en el tercio de personas con antecedentes psiquiátricos (Sansing-Foster 2021).",
+     "links": [
+      {
+       "ids": [
+        "insomnio_sx"
+       ],
+       "t": "alteraciones del sueño"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación y conducta suicida"
+      },
+      {
+       "ids": [
+        "hetero_agr"
+       ],
+       "t": "agresividad"
+      }
+     ]
+    },
+    {
+     "t": "Detección en la infancia y la adolescencia",
+     "x": "El montelukast se prescribe con frecuencia a niños y niñas, en quienes la ansiedad, el insomnio, las pesadillas, la irritabilidad o la agresividad pueden atribuirse erróneamente a problemas de conducta o al desarrollo [fuente no localizada]. La historia farmacológica debe formar parte de toda evaluación de síntomas emocionales o conductuales de nueva aparición en un menor con asma o rinitis alérgica, y la cronología con el inicio del fármaco orienta la sospecha. El estudio de Ontario recomienda que los clínicos tengan presente esta asociación al prescribir y en el seguimiento (Glockler-Lauf 2019), y la FDA pide suspender el fármaco y consultar en cuanto aparezcan cambios del comportamiento o del ánimo (FDA 2020). Ante ideación suicida en un adolescente tratado, la retirada del fármaco no sustituye la evaluación del riesgo ni el plan de seguridad.",
+     "links": [
+      {
+       "ids": [
+        "dep_inf",
+        "suic_adol"
+       ],
+       "t": "depresión y conducta suicida en la adolescencia"
+      },
+      {
+       "ids": [
+        "irritab_cron"
+       ],
+       "t": "irritabilidad en la infancia"
+      },
+      {
+       "ids": [
+        "sueno_inf"
+       ],
+       "t": "trastornos del sueño en la infancia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Singulair (montelukast), apartados 4.4 y 4.8. Consultada en cima.aemps.es en noviembre de 2026",
+    "FDA (2020). FDA requires Boxed Warning about serious mental health side effects for asthma and allergy drug montelukast (Singulair); advises restricting use for allergic rhinitis. Drug Safety Communication, 4 de marzo de 2020. Consultado en fda.gov en noviembre de 2026",
+    "Glockler-Lauf SD et al. (2019). Montelukast and neuropsychiatric events in children with asthma: a nested case-control study. J Pediatr 209:176-182 · PMID 30905424",
+    "Kang SO et al. (2021). The role of leukotriene modifying agent treatment in neuropsychiatric events of elderly asthma patients: a nested case control study. Asthma Res Pract 7:4 · PMID 33731203",
+    "Sansing-Foster V et al. (2021). Risk of psychiatric adverse events among montelukast users. J Allergy Clin Immunol Pract 9:385-393 · PMID 32795564",
+    "Philip G et al. (2009). Reports of suicidality in clinical trials of montelukast. J Allergy Clin Immunol 124:691-696 · PMID 19815114",
+    "Rayner DG et al. (2024). Leukotriene receptor antagonists as add-on therapy to antihistamines for urticaria: systematic review and meta-analysis of randomized clinical trials. J Allergy Clin Immunol 154:996-1007 · PMID 38852861"
+   ],
+   "rel": [
+    "iatrog_farm",
+    "dep_induc",
+    "anx_sust",
+    "insomnio_sx",
+    "ideac_suic",
+    "dep_inf",
+    "suic_adol",
+    "hetero_agr",
+    "toc_dsm"
+   ]
+  },
+  {
+   "id": "mefloquina_psiq",
+   "n": "Mefloquina y efectos neuropsiquiátricos, incluidos los persistentes",
+   "ab": "Mefloquina-psiq",
+   "al": [
+    "mefloquina",
+    "mefloquine",
+    "Lariam",
+    "profilaxis antipalúdica",
+    "neurotoxicidad por mefloquina"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2013,
+   "tags": [
+    "risk",
+    "organic",
+    "trauma",
+    "forense"
+   ],
+   "desc": "La mefloquina, antipalúdico quinolínico de toma semanal usado en la profilaxis de viajeros y de personal militar, produce con más frecuencia que las alternativas sueños anormales, insomnio, ansiedad y ánimo depresivo, y con menor frecuencia psicosis. La revisión Cochrane estimó, frente a atovacuona-proguanil, un 13 % frente a un 3 % de insomnio, un 6 % frente a un 1 % de ansiedad y un 6 % frente a un 1 % de ánimo depresivo, con evidencia de certeza moderada (Tickell-Painter 2017). Se han descrito síntomas que persisten tras la retirada, aspecto que motivó en julio de 2013 una advertencia en recuadro de la FDA: las reacciones neuropsiquiátricas pueden persistir tras la retirada y los efectos neurológicos (mareo, pérdida de equilibrio, acúfenos) pueden durar meses o años o ser permanentes (FDA 2013); su alcance clínico sigue siendo objeto de debate. En la consulta de CIMA de noviembre de 2026 no figuraba ningún medicamento con mefloquina, ni autorizado ni con autorización anulada, ni el nombre comercial Lariam, por lo que no hay ficha técnica española y la exposición procede de prescripciones en otros países.",
+   "feats": [
+    "Frente a atovacuona-proguanil en viajes cortos: más abandonos por efectos adversos (RR 2,86; certeza alta) y, en estimación absoluta, insomnio 13 % frente a 3 %, sueños anormales 14 % frente a 7 %, ansiedad 6 % frente a 1 % y ánimo depresivo 6 % frente a 1 % (Tickell-Painter 2017)",
+    "Frente a doxiciclina, en cohortes de viajeros de larga estancia (certeza muy baja): sueños anormales 31 % frente a 3 %, ansiedad 18 % frente a 1 % y ánimo depresivo 11 % frente a 1 %, sin diferencias en abandonos ni en efectos graves (Tickell-Painter 2017)",
+    "Cohorte militar estadounidense de 367 840 personas: con mefloquina, más ansiedad incidente en personal desplegado frente a doxiciclina (IRR 1,12), más TEPT en no desplegado frente a atovacuona-proguanil (IRR 1,83) y más acúfenos; el 6 % tenía un trastorno neuropsiquiátrico en el año previo, lo que subraya el cribado de contraindicaciones (Eick-Cost 2017)",
+    "En las tres semanas previas al viaje, sin el estrés de este, la mefloquina se asoció a más acontecimientos adversos en mujeres y a mayor empeoramiento del estado de ánimo medido con el POMS en quienes la tomaban por primera vez (van Riemsdijk 2002)",
+    "Entre los antipalúdicos de uso habitual, solo la mefloquina mostró indicios claros de efectos neurológicos o psiquiátricos graves en una revisión de varias décadas de publicaciones (Grabias y Kumar 2016)",
+    "Las fichas técnicas de seis países anglófonos difieren en qué reacciones neuropsiquiátricas obligan a suspender el fármaco o a consultar; la de Estados Unidos recomienda suspenderlo al inicio de los síntomas neuropsiquiátricos, que pueden anunciar efectos más graves (Nevin y Byrd 2016)"
+   ],
+   "tx": "Preguntar por la toma de antipalúdicos en toda persona con ansiedad, insomnio, pesadillas, síntomas depresivos, psicóticos o vestibulares de inicio reciente tras un viaje a zona endémica o una misión en el extranjero. La ficha técnica estadounidense indica no prescribirla como profilaxis a personas con trastornos psiquiátricos mayores (FDA 2013); las alternativas de profilaxis se eligen en la consulta de medicina del viajero. Si aparecen síntomas neuropsiquiátricos durante la profilaxis, suspenderla y sustituirla por otra pauta, como indica la advertencia en recuadro de la FDA (FDA 2013; Nevin y Byrd 2016). Tratar los síntomas según el síndrome y hacer seguimiento, porque pueden prolongarse tras la retirada.",
+   "note": "La revisión Cochrane advierte de que nueve ensayos excluyeron a personas con antecedentes psiquiátricos y de que en muchas cohortes la elección del fármaco dependía de la historia médica, lo que sesga los resultados; la mayoría recogió síntomas autodeclarados, no diagnósticos (Tickell-Painter 2017). La existencia de un síndrome neurotóxico crónico es una hipótesis defendida en revisiones de opinión, no una entidad validada (McCarthy 2015), y la propuesta mecanicista sobre canales de membrana procede de una revisión teórica (Quinn 2015). La persistencia descrita por la FDA procede de notificaciones poscomercialización y no permite estimar su frecuencia (FDA 2013). La ausencia de medicamentos con mefloquina en España se basa en búsquedas en CIMA por principio activo y por el nombre Lariam (noviembre de 2026) y debe revisarse periódicamente.",
+   "sec": [
+    {
+     "t": "Estado regulador y disponibilidad en España",
+     "x": "En las búsquedas en CIMA por principio activo y por el nombre comercial Lariam (noviembre de 2026) no figuraba ningún medicamento con mefloquina, autorizado o con autorización anulada, de modo que no existe una ficha técnica española de referencia con apartados 4.4 y 4.8. La exposición en la práctica española procede de personas que reciben la profilaxis en otro país, de personal de organizaciones internacionales o militares de otros Estados y de personas migrantes o viajeras que la han usado antes [fuente no localizada]. En Estados Unidos, la ficha técnica recomienda suspender el fármaco al inicio de los síntomas neuropsiquiátricos, y una comparación sistemática del etiquetado de seis países mostró acuerdo completo o parcial solo en la mitad de las categorías de reacciones neuropsiquiátricas con recomendación de actuación (Nevin y Byrd 2016). La FDA añadió el 29 de julio de 2013 una advertencia en recuadro: la mefloquina puede causar reacciones neuropsiquiátricas que persisten tras la retirada; no debe prescribirse como profilaxis a personas con trastornos psiquiátricos mayores, y debe suspenderse y sustituirse si aparecen síntomas psiquiátricos o neurológicos; la comunicación añade que el mareo, la pérdida de equilibrio y los acúfenos pueden durar meses o años o ser permanentes (FDA 2013).",
+     "links": [
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia psiquiátrica de fármacos no psicotrópicos"
+      }
+     ]
+    },
+    {
+     "t": "Magnitud del riesgo",
+     "x": "La revisión Cochrane incluyó 20 ensayos aleatorizados con 11 470 participantes, 35 cohortes con 198 493 y cuatro grandes análisis retrospectivos. Frente a atovacuona-proguanil, la mefloquina casi triplicó los abandonos por efectos adversos (RR 2,86) y aumentó los sueños anormales, el insomnio, la ansiedad y el ánimo depresivo, con certeza moderada; frente a doxiciclina, los abandonos fueron similares, pero las cohortes mostraron mucha más ansiedad y ánimo depresivo, con certeza muy baja. Los efectos graves fueron poco frecuentes: 15 de 2651 viajeros con mefloquina (Tickell-Painter 2017). En la cohorte militar estadounidense, los riesgos relativos fueron más modestos (ansiedad, TEPT y acúfenos), y las razones de riesgo de trastorno adaptativo, ansiedad, insomnio y TEPT fueron mayores, sin significación estadística, en quienes tenían antecedentes neuropsiquiátricos (Eick-Cost 2017). El estudio previo al viaje indica que los síntomas no se explican solo por el estrés del desplazamiento y que las mujeres y quienes toman el fármaco por primera vez los refieren más (van Riemsdijk 2002).",
+     "links": [
+      {
+       "ids": [
+        "anx_sust"
+       ],
+       "t": "ansiedad inducida por medicamentos"
+      },
+      {
+       "ids": [
+        "insomnio_sx"
+       ],
+       "t": "insomnio y pesadillas"
+      },
+      {
+       "ids": [
+        "dep_induc"
+       ],
+       "t": "ánimo depresivo inducido"
+      }
+     ]
+    },
+    {
+     "t": "Efectos persistentes, mecanismo y diferencial con el TEPT",
+     "x": "En el personal militar, una revisión australiana propuso que la mefloquina puede causar un síndrome de toxicidad crónica del sistema nervioso central y actuar como factor de confusión en el diagnóstico del TEPT y del traumatismo craneoencefálico, de forma que algunos cuadros atribuidos a estos podrían deberse, total o parcialmente, al fármaco; se trata de una revisión de opinión (McCarthy 2015). En la cohorte militar estadounidense, la mefloquina se asoció a más TEPT diagnosticado en personal no desplegado (Eick-Cost 2017). Como mecanismo, una revisión teórica propone el bloqueo de canales de potasio dependientes de ATP y de conexinas en la sustancia negra como hipótesis unificadora de los efectos neuropsiquiátricos graves (Quinn 2015). En la evaluación de una persona con síntomas tras misiones o viajes, conviene reconstruir la cronología de la profilaxis, los síntomas vestibulares acompañantes y la exposición traumática, sin descartar el TEPT ni atribuirlo todo al fármaco [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "trastorno de estrés postraumático"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "valoración pericial del daño"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Tickell-Painter M et al. (2017). Mefloquine for preventing malaria during travel to endemic areas. Cochrane Database Syst Rev 10:CD006491 · PMID 29083100",
+    "Eick-Cost AA et al. (2017). Neuropsychiatric outcomes after mefloquine exposure among U.S. military service members. Am J Trop Med Hyg 96:159-166 · PMID 28077744",
+    "van Riemsdijk MM et al. (2002). Neuropsychiatric events during prophylactic use of mefloquine before travelling. Eur J Clin Pharmacol 58:441-445 · PMID 12242605",
+    "Grabias B & Kumar S (2016). Adverse neuropsychiatric effects of antimalarial drugs. Expert Opin Drug Saf 15:903-910 · PMID 27077782",
+    "Nevin RL & Byrd AM (2016). Neuropsychiatric adverse reactions to mefloquine: a systematic comparison of prescribing and patient safety guidance in the US, UK, Ireland, Australia, New Zealand, and Canada. Neurol Ther 5:69-83 · PMID 27240849",
+    "McCarthy S (2015). Malaria prevention, mefloquine neurotoxicity, neuropsychiatric illness, and risk-benefit analysis in the Australian Defence Force. J Parasitol Res 2015:287651 · PMID 26793391",
+    "Quinn JC (2015). Complex membrane channel blockade: a unifying hypothesis for the prodromal and acute neuropsychiatric sequelae resulting from exposure to the antimalarial drug mefloquine. J Parasitol Res 2015:368064 · PMID 26576290",
+    "FDA (2013). FDA Drug Safety Communication: FDA approves label changes for antimalarial drug mefloquine hydrochloride due to risk of serious psychiatric and nerve side effects (29 de julio de 2013), y ficha técnica de Mefloquine Hydrochloride Tablets USP con advertencia en recuadro (2013). Consultados en fda.gov y accessdata.fda.gov en noviembre de 2026",
+    "AEMPS-CIMA (2026). Búsqueda por principio activo «mefloquina» y por nombre «Lariam» en el Centro de Información de Medicamentos, incluidos los medicamentos no autorizados: sin resultados. Consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "iatrog_farm",
+    "anx_sust",
+    "insomnio_sx",
+    "dep_induc",
+    "psust",
+    "ptsd",
+    "perit_forense"
+   ]
+  },
+  {
+   "id": "efavirenz_psiq",
+   "n": "Efavirenz y efectos neuropsiquiátricos en el VIH",
+   "ab": "Efavirenz-psiq",
+   "al": [
+    "efavirenz",
+    "EFV",
+    "Sustiva",
+    "inhibidores no nucleósidos de la transcriptasa inversa",
+    "CYP2B6"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 2014,
+   "tags": [
+    "risk",
+    "organic",
+    "lgtbi",
+    "chemsex"
+   ],
+   "desc": "El efavirenz, inhibidor no nucleósido de la transcriptasa inversa del VIH, produce con frecuencia síntomas del sistema nervioso al inicio del tratamiento (mareo, insomnio, somnolencia, dificultad de concentración y sueños anormales), que suelen aparecer en los primeros días y resolverse en 2-4 semanas, y, con menor frecuencia, reacciones psiquiátricas graves: depresión grave, ideación y conducta suicida, reacciones paranoides o maníacas, psicosis y catatonia, según su ficha técnica española. En el análisis de cuatro ensayos aleatorizados del ACTG con 5332 participantes, el tratamiento inicial con efavirenz duplicó el riesgo de ideación o conducta suicida (HR 2,28) (Mollan 2014), aunque estudios observacionales con datos de aseguradoras no han reproducido la asociación (Nkhoma 2016). La exposición depende del genotipo de CYP2B6 (Haas 2004) y el fármaco tiene efectos de tipo LSD mediados por el receptor 5-HT2A en modelos animales (Gatch 2013).",
+   "feats": [
+    "Ficha técnica española (AEMPS-CIMA, 4.8), ensayos controlados con 1008 personas con efavirenz y 635 con control: depresión grave 1,6 % frente a 0,6 %, ideas suicidas 0,6 % frente a 0,3 %, intentos de suicidio 0,4 % frente a 0 %, reacciones paranoides 0,4 % frente a 0,3 % y maníacas 0,1 % frente a 0 %; hasta el 2,0 % con antecedentes psiquiátricos",
+    "Análisis de los ensayos A5095, A5142, A5175 y A5202: incidencia de ideación o conducta suicida de 8,08 frente a 3,66 por 1000 personas-año (HR 2,28); intento o suicidio consumado 2,90 frente a 1,22 (HR 2,58, no significativo); 8 muertes por suicidio con efavirenz y 1 sin él (Mollan 2014)",
+    "Cohorte con datos de aseguradoras de Estados Unidos (más de 25 000 personas): sin asociación entre efavirenz y conducta suicida tras ajuste por propensión (HR 1,03 en seguro privado y 0,90 en Medicaid), con posible sesgo de canalización (Nkhoma 2016)",
+    "Metaanálisis de 42 ensayos en primera línea: más del 90 % seguía con efavirenz a las 78 semanas de media; los abandonos por efectos adversos fueron más frecuentes que con la mayoría de alternativas, con diferencias absolutas inferiores al 5 % y sin suicidios notificados (Ford 2015)",
+    "El genotipo CYP2B6 516 T/T, más frecuente en personas afroamericanas (20 %) que europeo-americanas (3 %), triplicó aproximadamente la exposición plasmática y se asoció a más síntomas del sistema nervioso en la primera semana (Haas 2004)",
+    "En roedores, el efavirenz actúa sobre el receptor 5-HT2A con un perfil conductual de tipo LSD, y se ha descrito su uso no médico fumando los comprimidos triturados (Gatch 2013)"
+   ],
+   "tx": "Antes de iniciar o mantener un tratamiento con efavirenz, explorar antecedentes de depresión, conducta suicida y psicosis, porque la ficha técnica describe mayor riesgo de reacciones graves en esas personas. Informar de que los síntomas iniciales suelen mejorar en las primeras semanas y pedir que se consulte de inmediato ante depresión grave, psicosis o ideación suicida, para valorar con el equipo de VIH si el riesgo de continuar supera el beneficio, como indica la ficha técnica. No suspender ni cambiar el tratamiento antirretroviral sin el equipo de VIH: la alternativa es cambiar a una pauta sin efavirenz, no interrumpir la supresión viral. En personas que practican chemsex, explorar el consumo sin juicio moral, porque los síntomas del fármaco y los de las drogas se solapan.",
+   "note": "El análisis del ACTG procede de ensayos aleatorizados, pero el efavirenz fue abierto en tres de los cuatro y no se usó un cuestionario estandarizado de ideación suicida (Mollan 2014). Los estudios observacionales pueden sufrir sesgo de canalización si se evita el efavirenz en personas con antecedentes psiquiátricos (Nkhoma 2016). Los datos de 5-HT2A proceden de modelos animales (Gatch 2013). En la consulta de CIMA de noviembre de 2026, Sustiva figuraba como no comercializado, mientras que había genéricos de efavirenz solo y combinaciones genéricas de efavirenz, emtricitabina y tenofovir disoproxilo comercializados. El lugar actual del efavirenz en las guías españolas y europeas de tratamiento antirretroviral debe comprobarse en su versión vigente [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Estado regulador y ficha técnica española",
+     "x": "La ficha técnica española del efavirenz (Sustiva y combinaciones genéricas con emtricitabina y tenofovir disoproxilo, AEMPS-CIMA, apartado 4.4) advierte de que se han notificado reacciones adversas psiquiátricas, de que las personas con antecedentes psiquiátricos parecen tener mayor riesgo de reacciones graves, en particular depresión grave si hubo depresión previa, y de que tras la comercialización se han notificado depresión grave, muerte por suicidio, delirios, comportamiento de tipo psicótico y catatonia. Pide que la persona consulte de inmediato ante depresión grave, psicosis o ideas suicidas, para valorar si los síntomas se relacionan con el fármaco y si el riesgo de continuar supera el beneficio. En el apartado 4.8 de la combinación genérica figuran como frecuentes la depresión, la ansiedad, los sueños anormales y el insomnio; como poco frecuentes, el intento de suicidio, la ideación suicida, la psicosis, la manía, la paranoia, las alucinaciones, la euforia y la catatonia, y como raros el suicidio consumado y los delirios. En los ensayos, el 19 % presentó síntomas del sistema nervioso moderados o graves, frente al 9 % del grupo control.",
+     "links": [
+      {
+       "ids": [
+        "vih_ncd"
+       ],
+       "t": "trastornos neuropsiquiátricos del VIH"
+      },
+      {
+       "ids": [
+        "catatonia"
+       ],
+       "t": "catatonia"
+      },
+      {
+       "ids": [
+        "dep_induc",
+        "psust"
+       ],
+       "t": "depresión y psicosis inducidas"
+      }
+     ]
+    },
+    {
+     "t": "Magnitud del riesgo: ensayos frente a estudios observacionales",
+     "x": "Los datos de mejor calidad proceden de la reutilización de ensayos aleatorizados: en 5332 personas sin tratamiento previo, con una mediana de seguimiento de 96 semanas y un 32 % con antecedentes psiquiátricos o psicofármacos recientes, el efavirenz se asoció a más del doble de ideación o conducta suicida, con ocho muertes por suicidio frente a una (Mollan 2014). Un metaanálisis de 42 ensayos confirmó más abandonos por efectos adversos que con la mayoría de alternativas, pero con diferencias absolutas pequeñas, y menos del 10 % de las personas expuestas presentó cualquier acontecimiento neuropsiquiátrico concreto salvo el mareo (Ford 2015). Con datos de aseguradoras, ajustando por propensión, no hubo más conducta suicida con efavirenz (Nkhoma 2016). La discordancia puede deberse a que en la práctica se evita el fármaco en quien tiene antecedentes psiquiátricos y a la menor sensibilidad de los códigos diagnósticos. La conclusión prudente es que el riesgo absoluto es bajo, pero real en ensayos, y mayor en personas vulnerables.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación y conducta suicida"
+      },
+      {
+       "ids": [
+        "cssrs"
+       ],
+       "t": "evaluación del riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo: farmacogenética y receptor 5-HT2A",
+     "x": "El efavirenz se metaboliza por CYP2B6. En un subestudio del ACTG con unas 150 personas, el genotipo 516 T/T se asoció a concentraciones plasmáticas mucho mayores (mediana del área bajo la curva casi tres veces superior a la del genotipo G/G) y a más síntomas del sistema nervioso en la primera semana; como esta variante es más frecuente en personas afroamericanas, las diferencias metabólicas podrían explicar parte de la variabilidad en la tolerancia (Haas 2004). En el plano farmacodinámico, el efavirenz interactúa con transportadores de monoaminas, receptores GABA-A y receptores 5-HT2A; en roedores predomina un efecto de tipo LSD mediado por 5-HT2A, que desaparece al bloquear ese receptor o en ratones sin él, sin propiedades de refuerzo en autoadministración; ello concuerda con las alucinaciones y los terrores nocturnos descritos en pacientes y con su uso no médico (Gatch 2013).",
+     "links": [
+      {
+       "ids": [
+        "psicodel_5ht2a"
+       ],
+       "t": "agonismo 5-HT2A de los psicodélicos"
+      },
+      {
+       "ids": [
+        "insomnio_sx"
+       ],
+       "t": "sueños anormales e insomnio"
+      }
+     ]
+    },
+    {
+     "t": "Relevancia en personas que practican chemsex",
+     "x": "En hombres gais, bisexuales y otros HSH con VIH que practican chemsex, los efectos del efavirenz (insomnio, sueños vívidos, ansiedad, ideas paranoides, ánimo bajo) se superponen con los de la intoxicación por estimulantes y catinonas y con el bajón posterior, lo que puede retrasar la identificación del fármaco o del consumo como causa [fuente no localizada]. La ficha técnica describe más reacciones graves con antecedentes psiquiátricos, frecuentes en esta población por el estrés de minorías y el propio consumo [fuente no localizada], y su acción sobre el receptor 5-HT2A añade plausibilidad a efectos aditivos con drogas serotoninérgicas o psicodélicas, aunque no hay estudios que lo cuantifiquen [fuente no localizada]. Las interacciones farmacocinéticas con las drogas del chemsex se tratan en su ficha propia. En la práctica, conviene preguntar sin juicio moral por el patrón de consumo, revisar la pauta antirretroviral y, si hay síntomas psiquiátricos relevantes, valorar con el equipo de VIH un cambio a una pauta sin efavirenz, manteniendo siempre la supresión viral.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones entre drogas del chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "chemsex_ssex",
+        "chemsex_s"
+       ],
+       "t": "chemsex, VIH y salud sexual"
+      },
+      {
+       "ids": [
+        "metanf",
+        "mefed"
+       ],
+       "t": "metanfetamina y catinonas"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "estrés de minorías y atención afirmativa"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Sustiva (efavirenz), apartados 4.4 y 4.8, y ficha técnica de Efavirenz/Emtricitabina/Tenofovir disoproxilo Glenmark, apartados 4.4 y 4.8. Consultadas en cima.aemps.es en noviembre de 2026",
+    "Mollan KR et al. (2014). Association between efavirenz as initial therapy for HIV-1 infection and increased risk for suicidal ideation or attempted or completed suicide: an analysis of trial data. Ann Intern Med 161:1-10 · PMID 24979445",
+    "Nkhoma ET et al. (2016). No evidence of an association between efavirenz exposure and suicidality among HIV patients initiating antiretroviral therapy in a retrospective cohort study of real world data. Medicine (Baltimore) 95:e2480 · PMID 26817882",
+    "Ford N et al. (2015). Comparative safety and neuropsychiatric adverse events associated with efavirenz use in first-line antiretroviral therapy: a systematic review and meta-analysis of randomized trials. J Acquir Immune Defic Syndr 69:422-429 · PMID 25850607",
+    "Haas DW et al. (2004). Pharmacogenetics of efavirenz and central nervous system side effects: an Adult AIDS Clinical Trials Group study. AIDS 18:2391-2400 · PMID 15622315",
+    "Gatch MB et al. (2013). The HIV antiretroviral drug efavirenz has LSD-like properties. Neuropsychopharmacology 38:2373-2384 · PMID 23702798"
+   ],
+   "rel": [
+    "vih_ncd",
+    "chemsex_arv",
+    "chemsex_ssex",
+    "chemsex_s",
+    "iatrog_farm",
+    "dep_induc",
+    "psust",
+    "catatonia",
+    "psicodel_5ht2a",
+    "ideac_suic",
+    "metanf"
+   ]
+  },
+  {
+   "id": "finasterida_psiq",
+   "n": "Finasterida, depresión e ideación suicida; el llamado síndrome posfinasterida",
+   "ab": "Finasterida-psiq",
+   "al": [
+    "finasterida",
+    "finasteride",
+    "Propecia",
+    "Proscar",
+    "inhibidores de la 5α-reductasa",
+    "dutasterida",
+    "síndrome posfinasterida",
+    "post-finasteride syndrome"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "tox",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 2025,
+   "tags": [
+    "risk",
+    "sexdif",
+    "lgtbi"
+   ],
+   "desc": "La finasterida inhibe la 5α-reductasa y se usa en comprimidos de 1 mg para la alopecia androgénica y de 5 mg para la hiperplasia benigna de próstata. Tras una revisión europea iniciada en octubre de 2024 a petición de la agencia francesa, el PRAC confirmó la ideación suicida como efecto adverso de los comprimidos de finasterida, de frecuencia no conocida, con la mayoría de los casos en personas tratadas por alopecia; se añadió una tarjeta de información para pacientes en los envases de 1 mg (EMA 2025). La ficha técnica española recoge alteraciones del ánimo, depresión e ideación suicida y la posibilidad de que la disfunción sexual contribuya a ellas. Los estudios epidemiológicos son discordantes: aumento de autolesiones y depresión en hombres mayores (Welk 2017), señal de farmacovigilancia en menores de 45 años con alopecia (Nguyen 2021) y metaanálisis con resultados opuestos. El llamado síndrome posfinasterida, con síntomas sexuales, psiquiátricos y cognitivos que persisten tras la retirada, es una entidad controvertida y sin criterios validados.",
+   "feats": [
+    "Ficha técnica de Propecia (AEMPS-CIMA, 4.4): se han notificado alteraciones del estado de ánimo, incluido ánimo deprimido, depresión y, con menor frecuencia, ideación suicida; vigilar los síntomas psiquiátricos y, si aparecen, interrumpir el tratamiento y consultar; la disfunción sexual puede contribuir a las alteraciones del ánimo; con el envase se entrega una tarjeta de información",
+    "Apartado 4.8 de Propecia: depresión poco frecuente, ansiedad e ideación suicida de frecuencia no conocida, y notificaciones poscomercialización de persistencia de la disfunción sexual (disminución de la libido, disfunción eréctil, trastornos de la eyaculación) tras interrumpir el tratamiento",
+    "Revisión europea (EMA 2025): 325 casos de ideación suicida en EudraVigilance (313 con finasterida y 13 con dutasterida, uno de ellos con ambos), frente a una exposición estimada de unos 270 millones de pacientes-año con finasterida; sin vínculo establecido con la dutasterida ni con la finasterida en aerosol cutáneo",
+    "Cohorte de Ontario de 93 197 hombres de 66 años o más con hiperplasia prostática: sin aumento del suicidio (HR 0,88), pero más autolesiones en los primeros 18 meses (HR 1,88) y más depresión incidente (HR 1,94 al inicio y 1,22 después), con aumentos absolutos de 17 y 237 por 100 000 pacientes-año (Welk 2017)",
+    "VigiBase: señal de desproporcionalidad para conducta suicida (ROR 1,63) y para síntomas psicológicos (ROR 4,33) con finasterida, más marcada en menores de 45 años y en alopecia, ausente en hombres mayores con hiperplasia prostática y aumentada tras 2012, lo que sugiere también notificación estimulada (Nguyen 2021)",
+    "Metaanálisis discordantes: uno halló más síntomas depresivos con finasterida (OR 2,14) (Pompili 2021); otro, con cinco estudios y 2,2 millones de pacientes, no halló asociación con depresión ni suicidio (Uleri 2024), y un tercero, de estudios observacionales, tampoco (HR 1,07) (Fraenza 2026)"
+   ],
+   "tx": "Antes de iniciar, informar de los posibles efectos sexuales y del ánimo y entregar o comentar la tarjeta de información del paciente. Explorar el ánimo, la ansiedad, la ideación suicida y la función sexual en las revisiones. Si aparecen síntomas depresivos o ideación suicida, la ficha técnica de Propecia (1 mg) indica interrumpir la finasterida y buscar consejo médico, y la de Proscar (5 mg), buscar consejo médico; evaluar el riesgo suicida y tratar el cuadro según su naturaleza. Ante síntomas que persisten tras la retirada, evitar tanto descartarlos como confirmar sin más un síndrome posfinasterida: evaluar de forma completa los diagnósticos psiquiátricos, sexuales y endocrinos alternativos y ofrecer un seguimiento continuado y respetuoso [fuente no localizada].",
+   "note": "Casi toda la evidencia es observacional o de notificación espontánea; los análisis de desproporcionalidad no estiman incidencias y son sensibles a la notificación estimulada por la atención mediática (Nguyen 2021). Las poblaciones difieren: hombres mayores con hiperplasia prostática en la cohorte de Ontario (Welk 2017) y hombres jóvenes con alopecia en las señales de farmacovigilancia. El estudio de antiguos usuarios con disfunción sexual persistente reclutó una muestra pequeña y seleccionada, sin poder establecer causalidad (Irwig 2012). La EMA estableció la ideación suicida como efecto adverso pero no estimó su frecuencia (EMA 2025). No hay criterios diagnósticos validados del síndrome posfinasterida [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Estado regulador: revisión del PRAC de 2024-2025 y ficha técnica española",
+     "x": "La revisión de los medicamentos con finasterida y dutasterida se inició el 3 de octubre de 2024 a petición de la agencia francesa, por el procedimiento del artículo 31. El PRAC confirmó la ideación suicida como efecto adverso de los comprimidos de finasterida de 1 y 5 mg, con frecuencia no conocida, y concluyó que el balance beneficio-riesgo seguía siendo favorable en todas las indicaciones. Se recomendó que quien presente cambios del ánimo consulte y, si toma finasterida de 1 mg, la suspenda; que la información alerte de los problemas de la función sexual como posibles contribuyentes, y que los envases de 1 mg incluyan una tarjeta para pacientes. Por precaución, la información sobre el ánimo se añadió también a la dutasterida. El CMDh respaldó las medidas el 19 de junio de 2025 y la Comisión Europea emitió la decisión vinculante el 22 de agosto de 2025 (EMA 2025). Las fichas técnicas españolas de Propecia y Proscar (AEMPS-CIMA, apartado 4.4) ya recogen la advertencia, y la de Propecia menciona la tarjeta de información.",
+     "links": [
+      {
+       "ids": [
+        "dep_induc"
+       ],
+       "t": "depresión inducida por medicamentos"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia psiquiátrica"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      }
+     ]
+    },
+    {
+     "t": "Magnitud del riesgo: estudios discordantes",
+     "x": "En hombres mayores con hiperplasia prostática, el inicio de un inhibidor de la 5α-reductasa no aumentó el suicidio, pero sí las autolesiones durante los primeros 18 meses y la depresión durante todo el seguimiento, sin diferencias entre finasterida y dutasterida; los autores señalan que en estos casos podría ser apropiado suspender el fármaco (Welk 2017). En hombres jóvenes con alopecia, los datos proceden sobre todo de farmacovigilancia: la señal para conducta suicida en VigiBase fue mayor en menores de 45 años (ROR 3,47) y en la alopecia (ROR 2,06) y no se observó en mayores con hiperplasia prostática (Nguyen 2021). Los metaanálisis llegan a conclusiones opuestas según los estudios que incluyen: más síntomas depresivos y conducta suicida con finasterida en una revisión con agrupación de tasas (Pompili 2021), y ausencia de asociación en dos metaanálisis posteriores, uno de ellos con más de dos millones de pacientes (Uleri 2024; Fraenza 2026). La EMA, tras revisar ensayos, notificaciones y literatura, se inclinó por reconocer el efecto, aunque sin poder cuantificarlo (EMA 2025).",
+     "links": [
+      {
+       "ids": [
+        "suic_mayor"
+       ],
+       "t": "suicidio en la persona mayor"
+      },
+      {
+       "ids": [
+        "cssrs"
+       ],
+       "t": "evaluación del riesgo suicida"
+      }
+     ]
+    },
+    {
+     "t": "El llamado síndrome posfinasterida: una entidad controvertida",
+     "x": "Con este nombre se describen síntomas sexuales, depresivos, ansiosos y cognitivos que persisten tras suspender la finasterida. La ficha técnica española recoge, como notificación poscomercialización, la persistencia de la disfunción sexual tras la interrupción, pero no reconoce un síndrome como tal. En 61 antiguos usuarios sin antecedentes psiquiátricos y con disfunción sexual persistente durante tres meses o más, el 75 % tenía síntomas depresivos y el 44 % pensamientos suicidas, frente al 10 % y el 3 % de 29 controles con alopecia sin finasterida; el autor lo presentó como hallazgo preliminar (Irwig 2012). Un panel multidisciplinar propuso, a partir de series de casos, criterios diagnósticos para la disfunción sexual duradera tras antidepresivos, finasterida e isotretinoína, que según sus autores necesitarán revisión (Healy 2022). El mecanismo propuesto es la reducción de esteroides neuroactivos relacionados con la función sexual y el ánimo (Irwig 2012). Debe evitarse tanto la descalificación de quien consulta como la atribución automática al fármaco sin evaluar alternativas.",
+     "links": [
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual persistente tras fármacos"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunciones sexuales"
+      },
+      {
+       "ids": [
+        "neuroester_repro"
+       ],
+       "t": "neuroesteroides y ánimo"
+      }
+     ]
+    },
+    {
+     "t": "Personas trans y no binarias: lo que se sabe",
+     "x": "Los datos de seguridad psiquiátrica de la finasterida proceden casi exclusivamente de varones cisgénero con alopecia androgénica o hiperplasia prostática: el 98,9 % de las notificaciones de VigiBase correspondía a varones (Nguyen 2021) y la cohorte de Ontario incluyó solo varones de 66 años o más (Welk 2017). En la búsqueda realizada para esta ficha no se localizaron estudios que evalúen este riesgo específicamente en personas trans o no binarias tratadas con inhibidores de la 5α-reductasa [fuente no localizada]. Las recomendaciones de la EMA y de la ficha técnica sobre información, vigilancia del ánimo y actuación ante síntomas se aplican a cualquier persona tratada, con independencia de su identidad de género, y se integran en una atención afirmativa y respetuosa (EMA 2025).",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "atención afirmativa LGTBIQ"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "diversidad sexual y de género"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "EMA (2025). Finasteride- and dutasteride-containing medicinal products: Article 31 referral (EMEA/H/A-31/1539). EMA recommends measures to minimise risk of suicidal thoughts with finasteride and dutasteride medicines; inicio 3/10/2024, posición del CMDh 19/6/2025, decisión de la Comisión Europea 22/8/2025. Consultado en ema.europa.eu en noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Propecia (finasterida 1 mg), apartados 4.4 y 4.8, y de Proscar (finasterida 5 mg), apartados 4.4 y 4.8. Consultadas en cima.aemps.es en noviembre de 2026",
+    "Welk B et al. (2017). Association of suicidality and depression with 5α-reductase inhibitors. JAMA Intern Med 177:683-691 · PMID 28319231",
+    "Nguyen DD et al. (2021). Investigation of suicidality and psychological adverse events in patients treated with finasteride. JAMA Dermatol 157:35-42 · PMID 33175100",
+    "Pompili M et al. (2021). Risk of depression associated with finasteride treatment. J Clin Psychopharmacol 41:304-309 · PMID 33814544",
+    "Uleri A et al. (2024). Association of 5α-reductase inhibitors with depression and suicide: a mini systematic review and meta-analysis. Eur Urol Focus 10:751-753 · PMID 38692949",
+    "Fraenza F et al. (2026). 5-α-reductase inhibitors and the risk of suicide and neuropsychiatric symptoms: a meta-analysis of observational studies. Front Urol 6:1881635 · PMID 42890027",
+    "Irwig MS (2012). Depressive symptoms and suicidal thoughts among former users of finasteride with persistent sexual side effects. J Clin Psychiatry 73:1220-1223 · PMID 22939118",
+    "Healy D et al. (2022). Diagnostic criteria for enduring sexual dysfunction after treatment with antidepressants, finasteride and isotretinoin. Int J Risk Saf Med 33:65-76 · PMID 34719438"
+   ],
+   "rel": [
+    "dep_induc",
+    "iatrog_farm",
+    "disf_sexual_psicof",
+    "disf_sex",
+    "ideac_suic",
+    "neuroester_repro",
+    "genero",
+    "suic_mayor"
+   ]
+  }
+ ]
+}
