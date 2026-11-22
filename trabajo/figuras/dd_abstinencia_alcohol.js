@@ -51,7 +51,7 @@ module.exports = {
 
     // ---------- Bloque 1: columna principal de cribado ----------
     let y = F.band(90, 'Cribado de riesgo y gravedad: columna principal (se recorre de arriba abajo)', { n: 1 }) + 20;
-    const QX = L, QW = 620, AX = 740, AW = 640, IX = 1440, IW = R - 1440;
+    const QX = L, QW = 600, AX = 780, AW = 600, IX = 1440, IW = R - 1440;
     F.text(QX, y + 18, 'Pregunta de decisión', { bold: true, fs: 19, w: QW });
     F.text(AX, y + 18, 'Conducta que se deriva', { bold: true, fs: 19, w: AW });
     F.text(IX, y + 18, 'En qué se apoya', { bold: true, fs: 19, w: IW });
@@ -62,7 +62,7 @@ module.exports = {
       const ab = F.box(id + '_a', Object.assign({ x: AX, y: y0, w: AW, type: 'act', fs: FS }, a));
       const ib = F.box(id + '_i', Object.assign({ x: IX, y: y0, w: IW, type: 'info', fs: 17, align: 'left' }, inf));
       eq([qb, ab, ib]);
-      F.arrow(qb, ab, { from: 'r', to: 'l', label: lab });
+      F.arrow(qb, ab, { from: 'r', to: 'l', label: lab, lx: QX + QW + 16 });
       F.arrow(ab, ib, { from: 'r', to: 'l', dash: true });
       return qb;
     };
@@ -71,16 +71,18 @@ module.exports = {
       text: 'Todas las personas ingresadas deben cribarse para el riesgo de abstinencia; el AUDIT y el AUDIT-PC pueden indicarlo (ASAM 2020, rec. VII.10).' });
     const s0b = F.box('s0_a', { x: AX, y, w: AW, type: 'act', fs: FS, node: 'audit', title: 'Si no hay ingreso: no suspender de golpe',
       text: 'A quien tiene dependencia y no ingresa, aconsejar que no reduzca bruscamente el consumo e informar de cómo contactar con los servicios de alcohol (NICE CG100, rec. 1.1.1.4).' });
-    const s0c = F.box('s0_i', { x: IX, y, w: IW, type: 'warn', fs: 17, align: 'left', node: 'neuroadapt_sed', title: 'Dependencia de otros depresores',
+    const s0c = F.box('s0_i', { x: IX, y, w: IW, type: 'warn', fs: 17, node: 'neuroadapt_sed', title: 'Dependencia de otros depresores',
       text: 'La dependencia física concomitante de benzodiacepinas o barbitúricos se ha propuesto como factor de riesgo de abstinencia complicada y obliga a vigilar la tolerancia a las benzodiacepinas (ASAM 2020). Retirada simultánea de alcohol y benzodiacepinas: considerar ingreso (NICE CG115, rec. 1.3.4.5).' });
     eq([s0, s0b, s0c]);
     F.arrow(s0, s0b, { from: 'r', to: 'l' }); F.arrow(s0b, s0c, { from: 'r', to: 'l', dash: true });
     y = s0.y + s0.h + 56;
+    const s0box = s0;
 
     const q1 = row('q1', y,
       { node: 'kindling_abst_alc', title: '1 · ¿Antecedente de delirium tremens o de convulsiones de abstinencia, o crisis en el episodio actual?' },
       { title: 'Riesgo alto: ofrecer ingreso para abstinencia asistida', text: 'Con riesgo alto de convulsiones o de delirium tremens, ofrecer ingreso hospitalario (NICE CG100, rec. 1.1.1.1). Una crisis en el episodio actual, previa a la valoración, equivale a riesgo alto de abstinencia complicada (ASAM 2020).' },
       { title: 'Datos', text: 'El antecedente de delirium tremens aumenta la probabilidad de abstinencia grave (razón de verosimilitud 2,9; IC 95 % 1,7-5,2), y ningún signo aislado la descarta (Wood 2018; 14 estudios, 71 295 pacientes). Predijeron delirium tremens la hipopotasemia, la trombocitopenia y las lesiones cerebrales estructurales (Eyer 2011; 827 pacientes). NICE CG115 (1.3.4.5) añade como criterios de ingreso más de 30 unidades británicas al día, SADQ mayor de 30 y epilepsia.' }, 'Sí');
+    F.arrow(s0box, q1, { from: 'b', to: 't' });
     y = q1.y + q1.h + 56;
 
     const q2 = row('q2', y,
@@ -104,9 +106,10 @@ module.exports = {
     const hos = F.box('hos', { x: L + SW + 40, y, w: SW, type: 'act', fs: FS, node: 'dt_alc', title: 'Hospital', text: 'Riesgo alto, moderada con factores de complicación o grave. La grave no complicada solo puede tratarse en ámbito ambulatorio con monitorización y por profesionales con amplia experiencia (ASAM 2020, rec. IV.18). En el hospital, la pauta guiada por síntomas es la preferida (rec. V.23; NICE CG100, rec. 1.1.3.4). Tras una crisis, ingreso con vigilancia estrecha (rec. VI.2).' });
     const uci = F.box('uci', { x: L + 2 * (SW + 40), y, w: SW, type: 'warn', fs: FS, node: 'delirium', title: 'UCI o unidad de cuidados intensivos', text: 'Delirium tremens: observación de enfermería estrecha, a menudo en UCI; acceso intravenoso inmediato; sedación hasta somnolencia ligera, con benzodiacepinas como primera línea (ASAM 2020, rec. VI.7, VI.10 y VI.13). También la abstinencia resistente a dosis altas de benzodiacepinas (rec. VI.26-VI.29).' });
     eq([amb, hos, uci]);
-    F.arrow(q3, amb, { from: 'b', to: 't', fa: 0.3, label: 'leve o moderada', lx: L + 40 });
-    F.arrow(q3, hos, { from: 'b', to: 't', fa: 0.75, label: 'moderada con riesgo o grave' });
-    F.arrow(F.boxes.q3_a, uci, { from: 'b', to: 't', label: 'delirium o resistencia' });
+    const yh = q3.y + q3.h + 32, qa = F.boxes.q3_a;
+    F.arrow(q3, amb, { from: 'b', to: 't', fa: 0.3, fb: 0.85, label: 'leve o moderada', lx: q3.x + q3.w * 0.3 + 10, ly: yh - 8, via: [[q3.x + q3.w * 0.3, yh], [amb.x + amb.w * 0.85, yh]] });
+    F.arrow(q3, hos, { from: 'b', to: 't', fa: 0.8, label: 'moderada con riesgo o grave', lx: q3.x + q3.w * 0.8 + 10, ly: yh - 8, via: [[q3.x + q3.w * 0.8, yh], [hos.x + hos.w / 2, yh]] });
+    F.arrow(qa, uci, { from: 'b', to: 't', label: 'delirium o resistencia', lx: qa.x + qa.w / 2 + 10, ly: yh - 8, via: [[qa.x + qa.w / 2, yh], [uci.x + uci.w / 2, yh]] });
     y = amb.y + amb.h + 30;
 
     // Diferencial obligado
@@ -150,7 +153,7 @@ module.exports = {
     y = gy + Math.max(gAh, ch + 40 + PAD) + 30;
 
     const nd = F.box('neuro', { x: L, y, w: R - L, type: 'warn', fs: 18, node: 'haloperidol', title: 'Haloperidol y otros antipsicóticos: solo coadyuvantes, nunca en monoterapia',
-      text: 'En el delirium por abstinencia, los neurolépticos frente a los sedantes-hipnóticos se asociaron a más duración del delirium y a más mortalidad (riesgo relativo de muerte 6,6) (Mayo-Smith 2004). La ASAM los admite como coadyuvantes de las benzodiacepinas cuando el delirium y las alucinaciones no se controlan, no en monoterapia (rec. VI.20); NICE ofrece lorazepam oral en primera línea y, si persisten los síntomas, lorazepam o haloperidol parenterales, ambos fuera de ficha (CG100, rec. 1.1.4.1). Agonistas α2, betabloqueantes y paraldehído no deben usarse para tratar el delirium (ASAM, rec. VI.21); la fenitoína no se usa para las crisis de abstinencia (NICE CG100, rec. 1.1.5.3).' });
+      text: 'En el delirium por abstinencia, los neurolépticos frente a los sedantes-hipnóticos se asociaron a más duración del delirium y a más mortalidad (riesgo relativo de muerte 6,6) (Mayo-Smith 2004). La ASAM los admite como coadyuvantes de las benzodiacepinas cuando el delirium y las alucinaciones no se controlan, no en monoterapia (rec. VI.20); NICE ofrece lorazepam oral en primera línea y, si persisten los síntomas o se rechaza la vía oral, lorazepam o haloperidol parenterales (CG100, rec. 1.1.4.1). Agonistas α2, betabloqueantes y paraldehído no deben usarse para tratar el delirium (ASAM, rec. VI.21); la fenitoína no se usa para las crisis de abstinencia (NICE CG100, rec. 1.1.5.3).' });
     y = nd.y + nd.h + 30;
 
     y = F.text(L, y + 18, 'D · Alternativas y adyuvantes. «Fuera de ficha»: ninguna ficha española consultada incluye la abstinencia alcohólica en el apartado 4.1; su uso exige las condiciones del Real Decreto 1015/2009 (art. 13).', { bold: true, fs: 19, w: R - L }) + 8;
@@ -159,7 +162,7 @@ module.exports = {
         [{ t: 'Carbamazepina', node: 'carbamaz' }, 'Alternativa en la abstinencia leve o moderada y si las benzodiacepinas están contraindicadas; coadyuvante (ASAM 2020, rec. IV.16, V.28-V.29). NICE: benzodiacepina o carbamazepina (CG100, rec. 1.1.3.1).', 'En ficha: Tegretol (4.1) incluye el «síndrome de abstinencia al alcohol».', 'Mejoró la CIWA-Ar final frente a placebo, pero se asoció a más abandonos por efectos adversos (Bahji 2022). Interacciones por inducción enzimática: ver su ficha.'],
         [{ t: 'Oxcarbazepina', node: 'oxcarbazepina' }, 'No figura en las recomendaciones de la ASAM ni de NICE CG100.', 'Fuera de ficha: Trileptal (4.1) solo epilepsia.', 'Mejoró la CIWA-Ar final frente a placebo en el metaanálisis en red, con evidencia degradada por riesgo de sesgo (Bahji 2022).'],
         [{ t: 'Gabapentina', node: 'gabapentina' }, 'Alternativa en la abstinencia leve o moderada; opción favorable si se va a mantener para el trastorno por consumo (ASAM 2020, rec. V.27-V.28).', 'Fuera de ficha: Neurontin (4.1) epilepsia y dolor neuropático.', 'En hospitalizados, evidencia insuficiente: 8 estudios retrospectivos, 2030 pacientes (Mattle 2022). La ASAM advierte del uso indebido y del desvío (recuadro 6).'],
-        [{ t: 'Valproato', node: 'valproato_fertil' }, 'Solo coadyuvante; evidencia insuficiente en monoterapia; no usar en hepatopatía ni en personas con capacidad de gestar (ASAM 2020, rec. V.29-V.31).', 'Fuera de ficha. Depakine Crono (4.3): contraindicado en el embarazo y en mujeres en edad fértil salvo Plan de Prevención de Embarazos, y en la hepatopatía previa o actual.', 'Redujo las convulsiones frente a placebo (OR 0,22; IC 95 % 0,05-0,86) (Bahji 2022). La contraindicación hepática pesa especialmente en el consumo de alcohol.'],
+        [{ t: 'Valproato', node: 'valproato_fertil' }, 'Solo coadyuvante; evidencia insuficiente en monoterapia; no usar en hepatopatía ni en personas con capacidad de gestar (ASAM 2020, rec. V.29-V.31).', 'Fuera de ficha. Depakine Crono (4.3): contraindicado en el embarazo y «en mujeres en edad fértil» salvo Plan de Prevención de Embarazos, y en la hepatopatía previa o actual.', 'Redujo las convulsiones frente a placebo (OR 0,22; IC 95 % 0,05-0,86) (Bahji 2022). La contraindicación hepática pesa especialmente en el consumo de alcohol.'],
         [{ t: 'Dexmedetomidina', node: 'dexmedetomidina' }, 'Coadyuvante para la hiperactividad autonómica no controlada con benzodiacepinas; no usar sola para prevenir o tratar convulsiones ni delirium (ASAM 2020, rec. V.36, VI.6); en UCI, en la abstinencia resistente (rec. VI.29).', 'Fuera de ficha para la abstinencia: en CIMA solo constan formas intravenosas para sedación en UCI y procedimientos (ficha del atlas).', 'Adyuvante en UCI: sin diferencias significativas en la estancia, con más bradicardia e hipotensión; evidencia baja o muy baja (Polintan 2023). No trata las convulsiones.'],
         [{ t: 'Propofol y ketamina', node: 'ketamina' }, 'Propofol: en UCI, en la abstinencia resistente que ya requiere ventilación mecánica (ASAM 2020, rec. VI.28). Ketamina: sin recomendación en la ASAM.', 'Fuera de ficha para la abstinencia: Propofol Fresenius (4.1) anestesia y sedación en UCI con ventilación; Ketolar (4.1) anestesia.', 'Ketamina: 3 estudios como añadido en UCI, con resultados mixtos; la evidencia no permite conclusiones (Garel 2022).'],
         [{ t: 'Baclofeno', node: 'baclofeno' }, 'Evidencia insuficiente para tratar la abstinencia (ASAM 2020, rec. V.39).', 'Fuera de ficha: Lioresal (4.1) espasticidad.', 'Cuatro ensayos con 189 participantes, sin datos de convulsiones ni delirium; calidad muy baja (Liu 2019).'],
@@ -179,7 +182,7 @@ module.exports = {
     const w4 = F.box('wk4', { x: L + 3 * (TW4 + 30), y, w: TW4, type: 'warn', fs: 17, node: 'hipoglucemia_psiq', title: 'Divergencia entre guías: orden tiamina-glucosa',
       text: 'La ASAM admite administrar tiamina y glucosa en cualquier orden o a la vez (rec. V.7), frente a la EFNS. Ante una hipoglucemia no se demora la glucosa, pero la tiamina parenteral se da de inmediato [fuente no localizada para esta conciliación].' });
     eq([w1, w2, w3, w4]);
-    F.arrow(w1, w2, { from: 'r', to: 'l', label: 'Sí' }); F.arrow(w2, w3, { from: 'r', to: 'l', dash: true }); F.arrow(w3, w4, { from: 'r', to: 'l', dash: true });
+    F.arrow(w1, w2, { from: 'r', to: 'l' }); F.arrow(w2, w3, { from: 'r', to: 'l', dash: true }); F.arrow(w3, w4, { from: 'r', to: 'l', dash: true });
     y = w1.y + w1.h + 60;
 
     // ---------- Bloque 5: electrolitos y realimentación ----------
@@ -200,10 +203,10 @@ module.exports = {
     [0, 6, 12, 24, 36, 48, 72, 96, 120].forEach(h => F.text(px(h), y + 18, h + ' h', { fs: 17, bold: true, anchor: 'middle', w: 80 }));
     y += 34;
     const tl = [
-      { id: 'tl1', a: 6, b: 24, lab: 'Síntomas iniciales', type: 'act', text: 'Temblor, ansiedad, insomnio, taquicardia, sudoración: inicio a las 6-24 h (ASAM 2020; Mirijello 2015).' },
-      { id: 'tl2', a: 8, b: 48, lab: 'Convulsiones', type: 'warn', text: 'Desde las 8 h hasta las 48 h, con pico hacia las 24 h (ASAM 2020). Serie española de 539 episodios: media de 35 h (DE 23,3) (Monte Secades 2010).' },
+      { id: 'tl1', a: 6, b: 24, lab: 'Síntomas iniciales', type: 'info', text: 'Temblor, ansiedad, insomnio, taquicardia, sudoración: inicio a las 6-24 h (ASAM 2020; Mirijello 2015).' },
+      { id: 'tl2', a: 8, b: 48, lab: 'Convulsiones', type: 'act', text: 'Desde las 8 h hasta las 48 h, con pico hacia las 24 h (ASAM 2020). Serie española de 539 episodios: media de 35 h (DE 23,3) (Monte Secades 2010).' },
       { id: 'tl3', a: 12, b: 48, lab: 'Alucinosis', type: 'dx', text: 'Alucinaciones a las 12-24 h, que suelen resolverse en 24-48 h si no aparece delirium (ASAM 2020).' },
-      { id: 'tl4', a: 24, b: 120, lab: 'Delirium tremens', type: 'warn', node: 'dt_alc', text: 'La ASAM da dos plazos: aparición a las 72-96 h, con duración habitual de 2-3 días, y, en otro apartado, a las 24-48 h y hasta 3-5 días después. Los plazos varían entre fuentes.' }
+      { id: 'tl4', a: 24, b: 120, lab: 'Delirium tremens', type: 'dx', node: 'dt_alc', text: 'La ASAM da dos plazos: aparición a las 72-96 h, con duración habitual de 2-3 días, y, en otro apartado, a las 24-48 h y hasta 3-5 días después. Los plazos varían entre fuentes.' }
     ];
     tl.forEach(o => {
       const b = F.box(o.id, { x: px(o.a), y, w: px(o.b) - px(o.a), type: o.type, fs: 16, node: o.node, align: 'left', text: o.text });
