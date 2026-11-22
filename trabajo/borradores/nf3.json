@@ -1,0 +1,678 @@
+{
+ "patch": {
+  "wernicke_hit": {
+   "relAdd": [
+    "sejuncion_wernicke"
+   ]
+  },
+  "wkl16": {
+   "relAdd": [
+    "sejuncion_wernicke"
+   ]
+  },
+  "desorient": {
+   "relAdd": [
+    "sejuncion_wernicke"
+   ]
+  },
+  "kleist_hit": {
+   "relAdd": [
+    "sejuncion_wernicke",
+    "fish_hit"
+   ]
+  },
+  "leonhard_hit": {
+   "relAdd": [
+    "leonhard_expresion",
+    "leonhard_neurosis",
+    "fish_hit"
+   ]
+  },
+  "wkl18": {
+   "relAdd": [
+    "leonhard_expresion"
+   ]
+  },
+  "wkl24": {
+   "relAdd": [
+    "leonhard_expresion"
+   ]
+  },
+  "aprosodia": {
+   "relAdd": [
+    "leonhard_expresion"
+   ]
+  },
+  "catatonia": {
+   "relAdd": [
+    "leonhard_expresion"
+   ]
+  },
+  "pers_acentuadas": {
+   "relAdd": [
+    "leonhard_neurosis"
+   ]
+  },
+  "epr": {
+   "relAdd": [
+    "leonhard_neurosis"
+   ]
+  },
+  "anancasmo": {
+   "relAdd": [
+    "leonhard_neurosis"
+   ]
+  },
+  "histeriaC": {
+   "relAdd": [
+    "leonhard_neurosis"
+   ]
+  },
+  "wurzburg_escuela": {
+   "relAdd": [
+    "fish_hit"
+   ]
+  },
+  "schneider_hit": {
+   "relAdd": [
+    "fish_hit"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "sejuncion_wernicke",
+   "n": "Wernicke: teoría de la sejunción, esferas autopsíquica, somatopsíquica y alopsíquica y psicosis de motilidad (Grundriss, 1900)",
+   "ab": "Sejunción (Wernicke)",
+   "al": [
+    "Sejunktion",
+    "Sejunktionstheorie",
+    "conciencia autopsíquica, somatopsíquica y alopsíquica",
+    "Motilitätspsychosen",
+    "alucinosis aguda",
+    "síntoma elemental",
+    "Grundriss der Psychiatrie"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1900,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "Carl Wernicke trasladó a la psiquiatría el modelo que había construido para la afasia: en su conferencia de 1880 propuso que el cerebro guarda las experiencias como imágenes de memoria en áreas sensoriales y motoras, y que su imperfección, su defecto parcial o su pérdida completa producen psicopatología leve, moderada o grave (Heckers et al. 2022). En el Grundriss der Psychiatrie (1900), nunca traducido al inglés (Gage y Hickok 2005), esa idea culmina en la teoría de la sejunción, interrupción o asociación aberrante entre regiones especializadas (Cheng et al. 2015), en la tripartición de la conciencia en esferas autopsíquica, somatopsíquica y alopsíquica y en la búsqueda, desde 1892, de «síntomas elementales» que daban sentido a categorías como la psicosis de angustia y la alucinosis (Krahl et al. 1998). Las psicosis de motilidad, descritas por Wernicke y Kleist (Berrios y Marková 2018), son su herencia clínica más duradera en la escuela WKL.",
+   "feats": [
+    "Conferencia de 1880: modelo neural de la enfermedad mental a partir de la monografía de la afasia de 1874; las imágenes de memoria sensoriales y motoras, si son imperfectas, parcialmente defectuosas o se pierden, generan psicopatología leve, moderada o grave en el ámbito sensorial o motor (Heckers et al. 2022)",
+    "Grundriss der Psychiatrie (1900): exposición más completa de su teoría de la representación cortical distribuida de los conceptos; la obra no se ha traducido al inglés, solo fragmentos (Gage y Hickok 2005)",
+    "Sejunción: hipótesis de asociaciones aberrantes entre regiones cerebrales especializadas, considerada una de las primeras explicaciones de la variedad sintomática de las psicosis y retomada como marco por estudios de conectividad funcional (Cheng et al. 2015)",
+    "Síntomas elementales: desde 1892 Wernicke buscó el rasgo psicopatológico único del que derivaran los demás; la teoría da sentido a la psicosis de angustia y a la alucinosis, contrasta con Kraepelin y no fue continuada por sus seguidores (Krahl et al. 1998)",
+    "Psicosis de motilidad: grupo agudo con trastornos del movimiento aumentados, disminuidos o desorganizados, vivencias psicóticas, confusión y buen pronóstico, descrito por Wernicke y Kleist y revisado por Strömgren en 1940 (Berrios y Marková 2018; Berrios y Schioldann 2017)",
+    "Recepción crítica: Jaspers le reprochó «mitologizar el cerebro», pero reconoció que su obra es una de las más importantes de la psicología psiquiátrica y de estudio obligado (Franzek 1990)"
+   ],
+   "note": "El Grundriss no se ha cotejado en su edición original para esta ficha: las definiciones literales de sejunción y de las tres esferas, y la paginación, se toman de fuentes secundarias. No existe traducción inglesa completa (Gage y Hickok 2005). La teoría es una construcción especulativa sobre vías de asociación que la neuroanatomía de su época no podía contrastar; las analogías con la conectividad funcional actual son heurísticas, no una validación. La atribución de la «alucinosis aguda» de los bebedores al propio Wernicke se recoge en la tradición clínica [fuente no localizada].",
+   "sec": [
+    {
+     "t": "La sejunción como mecanismo",
+     "x": "Wernicke concebía la vida psíquica como un arco reflejo ampliado: estímulos sensoriales que, a través de vías de asociación transcorticales, se convierten en representaciones y en actos. Las imágenes de memoria se depositan en áreas sensoriales y motoras distintas y su defecto explica la psicopatología (Heckers et al. 2022). La sejunción (Sejunktion) designa la interrupción o desconexión de esas vías de asociación: lo que queda aislado puede producir déficit (lo que no llega a asociarse) o irritación (lo que se activa sin control), según un esquema de hipofunción, hiperfunción y parafunción que la escuela heredó (Jäger 2019) [la formulación literal del Grundriss no se ha cotejado]. Como hipótesis de asociaciones aberrantes entre regiones especializadas, la sejunción se cita hoy como precedente de los modelos de disconectividad: un estudio de 415 pacientes con esquizofrenia y 405 controles situó en el tálamo el nudo principal de la conectividad funcional alterada (Cheng et al. 2015). La analogía es conceptual, no una confirmación del modelo de Wernicke.",
+     "links": [
+      {
+       "ids": [
+        "wernicke_hit",
+        "afasia_wer"
+       ],
+       "t": "Wernicke y el modelo de la afasia"
+      },
+      {
+       "ids": [
+        "disconex"
+       ],
+       "t": "modelos actuales de disconectividad"
+      }
+     ]
+    },
+    {
+     "t": "Las tres esferas de la conciencia",
+     "x": "Wernicke dividió la conciencia y la orientación en tres esferas: autopsíquica (la propia personalidad), somatopsíquica (la propia corporalidad) y alopsíquica (el mundo exterior) [fuente no localizada para la definición literal del Grundriss]. Cada esfera podía alterarse por separado, lo que permitía describir desorientaciones parciales y agrupar síntomas por el ámbito afectado y no solo por el curso. De ahí proceden expresiones clínicas como «despersonalización autopsíquica» o «delirio somatopsíquico» de uso todavía corriente en la semiología centroeuropea [fuente no localizada]. Esta tripartición es coherente con su búsqueda, desde 1892, de síntomas elementales que explicaran cuadros como la psicosis de angustia o la alucinosis, búsqueda que contrastaba con el método de curso de Kraepelin y que ni él ni sus seguidores continuaron (Krahl et al. 1998). En la misma línea describió en 1892, en un contexto forense, la idea sobrevalorada, concepto que pervive en la psiquiatría británica y forense (Rahman et al. 2019).",
+     "links": [
+      {
+       "ids": [
+        "desorient",
+        "jaspers_yo"
+       ],
+       "t": "desorientación y conciencia del yo"
+      },
+      {
+       "ids": [
+        "idea_sobrev"
+       ],
+       "t": "idea sobrevalorada"
+      }
+     ]
+    },
+    {
+     "t": "Psicosis de motilidad y alucinosis aguda",
+     "x": "Las psicosis de motilidad agrupan cuadros agudos con trastornos del movimiento aumentados, disminuidos y desorganizados, vivencias psicóticas, confusión y buen pronóstico; su independencia frente a la esquizofrenia y la locura maníaco-depresiva sigue en debate, y el capítulo clásico de Strömgren (1940) revisó su historia y una cohorte propia (Berrios y Schioldann 2017). Berrios y Marková (2018) sitúan su descripción por Wernicke y Kleist en el periodo que va de Kahlbaum a la Primera Guerra Mundial, cuando se redefinió el movimiento en psiquiatría. A partir de la hipótesis de Wernicke sobre el mecanismo de la catatonía se han separado una psicosis de motilidad acinética y una catatonía en sentido estricto, con espasmos, iteraciones y verbigeraciones (Starkstein et al. 1995). La alucinosis aguda, con alucinaciones auditivas en conciencia clara, fue otra de las categorías que su teoría de los síntomas elementales hacía inteligible (Krahl et al. 1998); su delimitación concreta en el Grundriss no se ha cotejado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "wkl16",
+        "psciclb"
+       ],
+       "t": "psicosis de motilidad cicloide"
+      },
+      {
+       "ids": [
+        "catatonia",
+        "katatonie_hit"
+       ],
+       "t": "catatonía"
+      },
+      {
+       "ids": [
+        "aluc_aud",
+        "dt_alc"
+       ],
+       "t": "alucinosis y abstinencia alcohólica"
+      }
+     ]
+    },
+    {
+     "t": "Legado en Kleist y Leonhard",
+     "x": "Franzek (1990) muestra que Leonhard derivó de Wernicke la idea de que cada síndrome corresponde a la alteración de un sistema funcional, a pesar de la acusación de Jaspers de «mitologizar el cerebro». La clasificación de las psicosis psicomotoras, que reúne la psicosis de motilidad cicloide, la catatonía periódica no sistemática y las catatonías sistemáticas, se remonta a Wernicke, Kleist y Leonhard (Neumärker 1990). Kleist conservó el programa localizador en Frankfurt y Leonhard lo transformó en descripciones de curso, de modo que la sejunción dejó de ser una teoría explícita y pasó a ser el fondo conceptual de una nosología clínica (Jäger 2019). Las psicosis cicloides de la escuela, junto con la bouffée délirante y las psicosis reactivas escandinavas, son una de las vías históricas para delimitar las psicosis agudas y breves que hoy recoge la categoría de trastorno psicótico agudo y transitorio (Pillmann y Marneros 2003).",
+     "links": [
+      {
+       "ids": [
+        "kleist_hit",
+        "leonhard_hit"
+       ],
+       "t": "Kleist y Leonhard"
+      },
+      {
+       "ids": [
+        "psbreve",
+        "bouf",
+        "pcicloid"
+       ],
+       "t": "psicosis agudas y cicloides"
+      },
+      {
+       "ids": [
+        "jaspers_hit"
+       ],
+       "t": "crítica de Jaspers"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Wernicke C (1900). Grundriss der Psychiatrie in klinischen Vorlesungen. Leipzig: Thieme [publicado por entregas desde 1894; edición y páginas no cotejadas; no verificada]",
+    "Heckers S, Kendler KS & Klee A (2022). 'Regarding the scientific viewpoint in psychiatry', lecture by Carl Wernicke (1880). Hist Psychiatry 33:236-255 · PMID 35588218",
+    "Gage N & Hickok G (2005). Multiregional cell assemblies, temporal binding and the representation of conceptual knowledge in cortex: a modern theory by a «classical» neurologist, Carl Wernicke. Cortex 41:823-832 · PMID 16353368",
+    "Cheng W et al. (2015). Voxel-based, brain-wide association study of aberrant functional connectivity in schizophrenia implicates thalamocortical circuitry. NPJ Schizophr 1:15016 · PMID 27336032",
+    "Krahl A, Schifferdecker M & Beveridge A (1998). Carl Wernicke and the concept of 'elementary symptom'. Hist Psychiatry 9:503-508 · PMID 11623615",
+    "Berrios GE & Marková IS (2018). Historical and conceptual aspects of motor disorders in the psychoses. Schizophr Res 200:5-11 · PMID 28941779",
+    "Berrios GE & Schioldann J (2017). 'Motility Psychoses', by Erik Strömgren (1940). Hist Psychiatry 28:489-505 · PMID 29130372",
+    "Starkstein SE, Goldar JC & Hodgkiss A (1995). Karl Ludwig Kahlbaum's concept of catatonia. Hist Psychiatry 6:201-207 · PMID 11639692",
+    "Franzek E (1990). Influence of Carl Wernicke on Karl Leonhard's nosology. Psychopathology 23:277-281 · PMID 2084781",
+    "Neumärker KJ (1990). Leonhard and the classification of psychomotor psychoses in childhood and adolescence. Psychopathology 23:243-252 · PMID 2084776",
+    "Jäger M (2019). [The psychopathology of the Wernicke-Kleist-Leonhard School and its relevance for present-day psychiatry] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 87:103-111 · PMID 30125911",
+    "Pillmann F & Marneros A (2003). Brief and acute psychoses: the development of concepts. Hist Psychiatry 14:161-177 · PMID 14518487",
+    "Rahman T, Meloy JR & Bauer R (2019). Extreme overvalued belief and the legacy of Carl Wernicke. J Am Acad Psychiatry Law 47:180-187 · PMID 31085556"
+   ],
+   "rel": [
+    "wernicke_hit",
+    "kleist_hit",
+    "leonhard_hit",
+    "wkl16",
+    "psciclb",
+    "catatonia",
+    "desorient",
+    "idea_sobrev",
+    "afasia_wer",
+    "jaspers_hit",
+    "pcicloid",
+    "psbreve",
+    "wkl18"
+   ]
+  },
+  {
+   "id": "leonhard_expresion",
+   "n": "Leonhard y la psicología de la expresión (Der menschliche Ausdruck, 1968): mímica, gesto y prosodia en el diagnóstico de las catatonías y la catafasia",
+   "ab": "Leonhard: expresión",
+   "al": [
+    "Der menschliche Ausdruck",
+    "Ausdruckspsychologie",
+    "Mimik, Gestik und Phonik",
+    "movimientos expresivos",
+    "paracinesia",
+    "psicomotricidad paracinética"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "brg",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1968,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "Además de su nosología, Karl Leonhard cultivó durante décadas una psicología de la expresión: publicó sobre los aspectos antropológicos de la mímica (1950), la relación entre fenómenos vegetativos y movimientos mímicos (1951) y la disociación de los gestos y el enlace regresivo de los movimientos expresivos (1973), y reunió esa línea en Der menschliche Ausdruck (1968) [título completo, editorial y año de la obra no cotejados]. El interés no era ornamental: la escuela WKL diagnostica buena parte de sus fenotipos psicomotores por la cualidad del movimiento expresivo (Foucher et al. 2022). La paracinesia hipercinética, movimientos de tipo discinético que remedan gestos expresivos y reactivos pero deformados, y la psicomotricidad paracinética, en la que mímica y gesto pierden naturalidad, han sido redefinidas por consenso Delphi como signos muy específicos de las psicosis endógenas (Foucher et al. 2024). En el lenguaje, la catafasia se distingue de la psicosis confusional por errores lógicos, semánticos y sintácticos y no solo por incoherencia temática (Pfuhlmann et al. 1997).",
+   "feats": [
+    "Trabajos de Leonhard sobre la mímica: aspectos antropológicos de la expresión facial como espejo del desarrollo psíquico (1950), fenómenos vegetativos y movimientos mímicos (1951), disociación de los gestos y enlace regresivo de los movimientos expresivos (1973); registros comprobados en PubMed, sin resumen indexado",
+    "Interés neurológico paralelo por el sistema motor facial: movimientos involuntarios patológicos tras parálisis facial u oculomotora (1956) y lagrimeo asociado («lágrimas de cocodrilo») tras parálisis facial (1960) (Leonhard 1956; Leonhard 1960)",
+    "La escuela WKL prolongó el enfoque neuropsiquiátrico de Kahlbaum y describió signos psicomotores nuevos (paracinesias, Gegenhalten); distingue ocho fenotipos psicomotores, siete de ellos catatonías, que apenas se solapan con las clasificaciones de consenso (Foucher et al. 2022)",
+    "Paracinesia (consenso Delphi): la forma hipercinética predomina en la mitad superior de la cara y del cuerpo, remeda gestos expresivos y reactivos inapropiados y deformados, varía con el nivel de activación y se atenúa con antipsicóticos; quien la presenta no la percibe ni la vive como ajena (Foucher et al. 2024)",
+    "Diferencial con la discinesia tardía: la paracinesia fue documentada con registros cinematográficos antes de los antipsicóticos y casi desapareció de la literatura en inglés; es adquirida y progresiva, con valor pronóstico (Foucher et al. 2024)",
+    "Lenguaje: en la psicosis confusional se altera la organización temática del discurso con conceptos lógicos y comprensibles; en la catafasia hay errores lógicos en la conexión de ideas y fallos semánticos y sintácticos (Pfuhlmann et al. 1997)"
+   ],
+   "note": "Der menschliche Ausdruck no se ha cotejado: se desconocen para esta ficha la edición exacta, la paginación y el tratamiento que da a la prosodia («Phonik») [fuente no localizada]. Los artículos de Leonhard sobre la expresión carecen de resumen indexado y se citan por su título. El diagnóstico expresivo depende del entrenamiento del observador; el consenso Delphi de 2024 es el primer intento de definición operativa, sin estudios de fiabilidad interevaluadores publicados para la paracinesia [fuente no localizada]. Los movimientos expresivos alterados no deben atribuirse sin más a la psicosis cuando hay exposición a antipsicóticos: el diferencial con la discinesia tardía es obligado.",
+   "sec": [
+    {
+     "t": "La expresión como objeto de estudio",
+     "x": "Leonhard abordó la expresión humana desde la antropología y la neurología a la vez. En 1950 presentó la mímica como espejo del desarrollo psíquico humano desde sus orígenes; en 1951 estudió la relación entre fenómenos vegetativos y movimientos de la expresión facial; y en 1973 escribió sobre la disociación de los gestos y el enlace regresivo de los movimientos expresivos (Leonhard 1950; Leonhard 1951; Leonhard 1973) [contenido no cotejado; artículos sin resumen indexado]. En paralelo publicó trabajos neurológicos sobre movimientos involuntarios tras parálisis facial u oculomotora y sobre el lagrimeo asociado tras parálisis facial (Leonhard 1956; Leonhard 1960). La síntesis en forma de libro, Der menschliche Ausdruck (1968), ordenaba la expresión en mímica, gesto y prosodia [estructura de la obra no cotejada]. Este fondo explica que, en su nosología, la observación del movimiento expresivo tenga el mismo rango que el relato de las vivencias.",
+     "links": [
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard"
+      },
+      {
+       "ids": [
+        "aprosodia"
+       ],
+       "t": "prosodia y su alteración"
+      }
+     ]
+    },
+    {
+     "t": "Mímica y gesto en el diagnóstico de las catatonías",
+     "x": "Frente a Kraepelin, que reformuló los fenómenos catatónicos en términos mentales y dejó de lado los signos motores que no encajaban, la escuela WKL siguió a Kahlbaum y afinó la descripción psicomotora hasta distinguir ocho fenotipos, siete de ellos catatonías (Foucher et al. 2022). La diferenciación precisa de las alteraciones psicomotoras permitió separar las catatonías sistemáticas de la periódica, que difieren en síntomas, pronóstico y tratamiento (Pfuhlmann y Stöber 2001). La cualidad expresiva es decisiva: en la paracinética, los movimientos parásitos deforman gestos y mímica; en la manierística, los actos se vuelven artificiosos y rígidos; en las de habla pronta y habla perezosa, el diagnóstico descansa en cómo se responde, no en qué se dice [fuente no localizada]. El consenso Delphi separa la paracinesia hipercinética de la psicomotricidad paracinética, en la que gestos y mímica se vuelven torpes, rígidos, amanerados y extraños respecto del estilo previo de la persona (Foucher et al. 2024). Las escalas de catatonía detectan muchos más signos que la entrevista rutinaria (Ungvari et al. 2023), lo que refuerza el valor de la observación sistemática.",
+     "links": [
+      {
+       "ids": [
+        "wkl24",
+        "wkl25"
+       ],
+       "t": "catatonías paracinética y manierística"
+      },
+      {
+       "ids": [
+        "wkl28",
+        "wkl29"
+       ],
+       "t": "catatonías de habla pronta y perezosa"
+      },
+      {
+       "ids": [
+        "wkl19",
+        "wkl_sistematicas"
+       ],
+       "t": "catatonía periódica y sistemáticas"
+      },
+      {
+       "ids": [
+        "manierismo",
+        "discin_tard"
+       ],
+       "t": "manierismos y discinesia tardía"
+      }
+     ]
+    },
+    {
+     "t": "Habla y prosodia: catafasia frente a psicosis confusional",
+     "x": "Leonhard dedicó en 1961 un trabajo al ámbito de las esquizofrenias no sistemáticas y en especial a la catafasia (Leonhard 1961) [contenido no cotejado]. El análisis de grabaciones de pacientes de la escuela de Würzburg mostró dos tipos de trastorno formal: en la psicosis confusional, cicloide y de buen pronóstico, se rompe la elección temática y la dirección del discurso, pero conceptos e ideas siguen siendo lógicos y comprensibles; en la catafasia, de pronóstico desfavorable, fallan la conexión lógica entre conceptos y las funciones lingüísticas semánticas y sintácticas (Pfuhlmann et al. 1997). Un estudio de perfusión con resonancia magnética en 20 personas con catatonía periódica, 9 con catafasia y 27 controles halló una doble disociación: aumento del flujo en áreas motoras y premotoras izquierdas en la catatonía periódica y descenso bilateral en las uniones temporoparietales en la catafasia (Foucher et al. 2018). La contribución de la prosodia y la entonación a este diferencial, que Leonhard incluía en la expresión, no se ha cuantificado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "wkl18",
+        "wkl15"
+       ],
+       "t": "catafasia y psicosis confusional"
+      },
+      {
+       "ids": [
+        "incoher",
+        "descarril"
+       ],
+       "t": "incoherencia y descarrilamiento"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leonhard K (1968). Der menschliche Ausdruck in Mimik, Gestik und Phonik. Leipzig: Barth [título completo, editorial y edición no cotejados; no verificada]",
+    "Leonhard K (1950). [Anthropologic aspects of facial expression; a mirror of man's psychic development from his beginnings] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 2:335-344 · PMID 14797883",
+    "Leonhard K (1951). [Relation between autonomic phenomena and the movements of facial expression] (artículo en alemán, sin resumen). Nervenarzt 22:42-45 · PMID 14815679",
+    "Leonhard K (1973). [Separation of gestures and the regressive connection of expressive movements] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 25:199-207 · PMID 4741753",
+    "Leonhard K (1956). [The origin of pathological involuntary movements after facial or oculomotor paralysis] (artículo en alemán, sin resumen). Dtsch Z Nervenheilkd 174:394-406 · PMID 13330515",
+    "Leonhard K (1960). [On associated secretion of the lacrimal glands («crocodile tears») after facial paralysis] (artículo en alemán, sin resumen). Nervenarzt 31:185 · PMID 14415819",
+    "Leonhard K (1961). [The scope of nonsystematic schizophrenias, especially cataphasia] (artículo en alemán, sin resumen). Arch Psychiatr Nervenkr Z Gesamte Neurol Psychiatr 202:513-526 · PMID 14464120",
+    "Foucher JR et al. (2022). The polysemous concepts of psychomotricity and catatonia: a European multi-consensus perspective. Eur Neuropsychopharmacol 56:60-73 · PMID 34942409",
+    "Foucher JR et al. (2024). Parakinesia: a Delphi consensus report. Schizophr Res 263:45-54 (publicación electrónica 2022) · PMID 36357299",
+    "Pfuhlmann B, Franzek E & Stöber G (1997). [The importance of differential analysis of formal thought disorders in confusion psychosis and cataphasia. Incoherence of thematic choice and incoherence with logical and linguistic errors] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 65:531-539 · PMID 9451565",
+    "Foucher JR et al. (2018). A double dissociation between two psychotic phenotypes: periodic catatonia and cataphasia. Prog Neuropsychopharmacol Biol Psychiatry 86:363-369 · PMID 29559372",
+    "Pfuhlmann B & Stöber G (2001). The different conceptions of catatonia: historical overview and critical discussion. Eur Arch Psychiatry Clin Neurosci 251 Suppl 1:I4-I7 · PMID 11776270",
+    "Ungvari GS et al. (2023). Catatonia: «Fluctuat nec mergitur». World J Psychiatry 13:131-137 · PMID 37303935"
+   ],
+   "rel": [
+    "leonhard_hit",
+    "wkl18",
+    "wkl15",
+    "wkl19",
+    "wkl24",
+    "wkl25",
+    "wkl28",
+    "wkl29",
+    "catatonia",
+    "aprosodia",
+    "manierismo",
+    "discin_tard",
+    "wkl_sistematicas",
+    "katatonie_hit"
+   ]
+  },
+  {
+   "id": "leonhard_neurosis",
+   "n": "La teoría de las neurosis y la terapia individual de Leonhard (Individualtherapie der Neurosen)",
+   "ab": "Leonhard: neurosis",
+   "al": [
+    "Individualtherapie der Neurosen",
+    "terapia individual",
+    "neurosis por hábito",
+    "Gewohnheit und Neurose",
+    "neurosis de deseo",
+    "neurosis de temor",
+    "desarrollos defectuosos secundarios"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "anx",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1963,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "Junto a su nosología de las psicosis endógenas, Karl Leonhard elaboró en Berlín Oriental una teoría propia de las neurosis y un método psicoterapéutico, la «terapia individual» (Individualtherapie der Neurosen) [edición original no cotejada]. Sus artículos dibujan el núcleo: la neurosis como hábito de reacción fijado (Leonhard 1967), la separación temprana entre tendencias neuróticas de deseo y de temor (Leonhard 1968), y la defensa del tratamiento individual frente a la psicoterapia de grupo para los «desarrollos defectuosos secundarios» de tendencia crónica, como la neurosis obsesiva, la fobia de situación, la nosofobia, la neurosis de expectativa, la impotencia psicógena, la anorexia nerviosa y el vómito compulsivo (Leonhard 1979). Se preguntó si su método era una terapia de conducta (Leonhard 1973) y negó que los reflejos condicionados fueran su mecanismo esencial, buscando sus antecedentes en Locke y Villaume (Leonhard 1989). No se ha localizado ninguna evaluación controlada del método [fuente no localizada].",
+   "feats": [
+    "Hábito y neurosis: Leonhard tituló así en 1967 un artículo que vincula la génesis neurótica con la formación de hábitos; la noción de «neurosis por hábito» se apoya en esa línea, pero su formulación detallada no se ha cotejado (Leonhard 1967) [contenido no cotejado]",
+    "Dos vertientes: las neurosis de temor (desarrollos defectuosos secundarios) deben separarse de las neurosis de deseo o histéricas; su diferenciación temprana se proponía como prevención (Leonhard 1968; Leonhard 1979)",
+    "Indicación: neurosis obsesiva, fobia de situación, nosofobia, neurosis ocupacional y de expectativa, impotencia psicógena, anorexia nerviosa y vómito compulsivo requerirían psicoterapia individual específica por su tendencia a cronificarse; advertía del riesgo de descuidarlos con la expansión de la terapia de grupo (Leonhard 1979)",
+    "Mecanismo: Leonhard sostuvo que Locke y Villaume ya conocían su técnica y negó que los reflejos condicionados y la extinción de sus efectos desempeñaran un papel esencial (Leonhard 1989)",
+    "Obra amplia sobre neurosis: neurosis yatrógenas (1966), terapia individual de las neurosis obsesivas graves (1967), la terapia Morita japonesa vista desde los procedimientos personales (1965) y la frecuencia de las formas de neurosis en distintas épocas (1971); registros comprobados en PubMed, sin resumen indexado",
+    "Relación con las personalidades acentuadas: Leonhard partió de la clínica de las neurosis para describir rasgos que, acentuados, facilitan reacciones neuróticas en circunstancias desfavorables [contenido de la obra no cotejado]; véase la ficha de personalidades acentuadas"
+   ],
+   "tx": "Interés histórico y conceptual. La terapia individual de Leonhard no dispone de ensayos controlados ni de manual operativo validado [fuente no localizada] y no debe ofrecerse como alternativa a los tratamientos psicológicos con respaldo en guías para los trastornos de ansiedad, el trastorno obsesivo-compulsivo o los trastornos de la conducta alimentaria. Su valor actual es comparativo: anticipa elementos de las terapias de exposición y de la atención a la evitación.",
+   "note": "La fuente principal (Individualtherapie der Neurosen) no se ha cotejado: año, editorial, ediciones y descripción literal de la técnica quedan pendientes [no verificada]. Los artículos de Leonhard se publicaron en alemán, casi todos en revistas de la RDA y sin resumen indexado; solo dos (1979 y 1989) tienen resumen en inglés. No se ha localizado ningún estudio controlado ni una revisión externa del método [fuente no localizada]. Sus escritos sexológicos encuadraban como «anomalías» formas de orientación sexual hoy despatologizadas; ese marco no es compatible con la clínica actual y no debe reproducirse.",
+   "sec": [
+    {
+     "t": "El concepto de neurosis de Leonhard",
+     "x": "Leonhard no fue psicoanalista: su concepto de neurosis es descriptivo y orientado al aprendizaje de hábitos. El artículo de 1967 sobre hábito y neurosis y el de 1968 sobre el concepto de neurosis como base de la terapia individual sitúan la génesis neurótica en reacciones que se fijan por repetición (Leonhard 1967; Leonhard 1968) [contenido no cotejado; artículos sin resumen indexado]. Dentro de ese marco separó dos vertientes: las neurosis de deseo, de mecanismo histérico, y las neurosis de temor, a las que llamó desarrollos defectuosos secundarios y que incluyen cuadros obsesivos, fobias de situación, nosofobia, neurosis de expectativa e impotencia psicógena (Leonhard 1979). La diferenciación precoz entre tendencias de deseo y de temor se proponía como estrategia preventiva (Leonhard 1968), y también atendió a las neurosis yatrógenas (Leonhard 1966). En 1978 publicó la diferenciación nosológica entre psicosis endógenas y neurosis, coherente con su separación tajante entre ambos ámbitos (Leonhard 1978a) [contenido no cotejado].",
+     "links": [
+      {
+       "ids": [
+        "anancasmo",
+        "anx_freu",
+        "neurastenia"
+       ],
+       "t": "conceptos clásicos de neurosis"
+      },
+      {
+       "ids": [
+        "histeriaC"
+       ],
+       "t": "histeria clásica"
+      }
+     ]
+    },
+    {
+     "t": "La técnica de la terapia individual",
+     "x": "Leonhard insistió en que los desarrollos defectuosos secundarios exigen una psicoterapia individual específica y que la psicoterapia de grupo, entonces en expansión, corría el riesgo de dejarlos sin tratar y cronificados (Leonhard 1979). La descripción técnica de la obra principal no se ha cotejado; en la tradición de la escuela se resume como un trabajo directo sobre el hábito neurótico: identificar la reacción de temor que se ha automatizado, retirar la atención y el refuerzo de las quejas, y enfrentar de manera gradual y deliberada la situación temida hasta que la reacción pierde fuerza [fuente no localizada]. El propio Leonhard planteó si su método era una terapia de conducta (Leonhard 1973) y, al final de su vida, defendió que Locke y Villaume ya conocían su procedimiento y que los reflejos condicionados no eran su mecanismo esencial (Leonhard 1989). También comparó su enfoque con la terapia Morita japonesa (Leonhard 1965). La semejanza con la exposición con prevención de respuesta es descriptiva y no se ha contrastado empíricamente [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "epr",
+        "anx_anticip"
+       ],
+       "t": "exposición y evitación"
+      },
+      {
+       "ids": [
+        "anx_conduc",
+        "habito_dirigido"
+       ],
+       "t": "condicionamiento y hábito"
+      },
+      {
+       "ids": [
+        "toc_dsm",
+        "fobia_esp",
+        "anor"
+       ],
+       "t": "cuadros actuales correspondientes"
+      }
+     ]
+    },
+    {
+     "t": "Personalidades acentuadas y neurosis",
+     "x": "La teoría de las neurosis y la de las personalidades acentuadas forman un mismo programa: Leonhard partió de la clínica de las neurosis y describió rasgos que, acentuados, facilitan dificultades de adaptación o reacciones neuróticas sin ser trastornos [contenido de la obra no cotejado]. Por afinidad descriptiva, la persona de rasgos demostrativos se relacionaría con la vertiente de deseo o histérica y la de rasgos pedantes o ansiosos con la de temor, obsesiva o fóbica [fuente no localizada para cada correspondencia]. También se ocupó del aprendizaje, la formación de hábitos y la impronta en el desarrollo divergente de la personalidad infantil (Leonhard 1971) [contenido no cotejado]. Esta conexión importa en la formulación del caso, porque permite distinguir el estilo de personalidad, que no es diana terapéutica, del hábito neurótico que sí lo es; en ningún caso justifica patologizar estilos de personalidad.",
+     "links": [
+      {
+       "ids": [
+        "pers_acentuadas"
+       ],
+       "t": "personalidades acentuadas"
+      },
+      {
+       "ids": [
+        "tpobs"
+       ],
+       "t": "personalidad obsesivo-compulsiva"
+      }
+     ]
+    },
+    {
+     "t": "Recepción y límites",
+     "x": "La obra psicoterapéutica de Leonhard tuvo difusión casi exclusiva en el ámbito germanoparlante y, sobre todo, en la RDA, donde publicó la mayoría de sus artículos [fuente no localizada para el alcance de su uso clínico]. No se ha localizado ningún ensayo controlado, serie sistemática de casos ni revisión independiente de la terapia individual [fuente no localizada], por lo que su eficacia es desconocida. La categoría misma de neurosis desapareció de las clasificaciones operativas a partir del DSM-III, que dispersó estos cuadros entre trastornos de ansiedad, obsesivo-compulsivos, somatomorfos y de la conducta alimentaria [fuente no localizada]. Hay además un límite ético: en su artículo de 1978 sobre trastornos sexuales primarios y neuróticos, indizado en PubMed con descriptores que incluyen la homosexualidad junto a las parafilias, atribuía las «perversiones verdaderas» a atavismos de respuesta (Leonhard 1978b). Ese encuadre es incompatible con la despatologización de la orientación sexual y debe leerse solo como documento histórico.",
+     "links": [
+      {
+       "ids": [
+        "dsm3"
+       ],
+       "t": "DSM-III y el fin de la neurosis"
+      },
+      {
+       "ids": [
+        "homosex_hist",
+        "lgb_afirm"
+       ],
+       "t": "despatologización y práctica afirmativa"
+      },
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leonhard K (1963). Individualtherapie der Neurosen. Jena: Fischer [año, editorial y ediciones no cotejados; no verificada]",
+    "Leonhard K (1979). [Therapeutic neglect omission of individual treatment of secondary defective developments] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 31:723-729 · PMID 549047",
+    "Leonhard K (1989). [Goethe, Kant, Locke, Villaume knew our technic of individual therapy] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 41:105-108 · PMID 2657823",
+    "Leonhard K (1967). [Habit and neurosis] (artículo en alemán, sin resumen). Z Psychol Z Angew Psychol 173:269-273 · PMID 4386499",
+    "Leonhard K (1968). [Neurosis concept as basis of individual treatment] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 20:161-164 · PMID 5731867",
+    "Leonhard K (1968). [Prevention of neuroses through the timely differentiation of wish-neurotic and anxiety-neurotic tendencies] (artículo en alemán, sin resumen). Dtsch Gesundheitsw 23:1560-1562 · PMID 5685942",
+    "Leonhard K (1973). [Is individual therapy a behavior therapy?] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 25:726-735 · PMID 4791542",
+    "Leonhard K (1966). [Iatrogenic neuroses] (artículo en alemán, sin resumen). Dtsch Gesundheitsw 21:1411-1417 · PMID 5929195",
+    "Leonhard K (1967). [Individual therapy of severe obsession neuroses] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 19:2-10 · PMID 6050256",
+    "Leonhard K (1965). [The Japanese Morita therapy from the viewpoint of personal psychotherapeutic procedures] (artículo en alemán, sin resumen). Arch Psychiatr Nervenkr 207:185-195 · PMID 5888063",
+    "Leonhard K (1971). [Learning, habit formation, imprinting in divergent child personality development] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 23:665-674 · PMID 5145170",
+    "Leonhard K (1978a). [Nosological differentiation of endogenous psychoses and neuroses] (artículo en alemán, sin resumen). Nervenarzt 49:461-467 · PMID 683397",
+    "Leonhard K (1978b). [Differentiation between primary and neurotic sexual disorders] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 30:217-224 · PMID 674450"
+   ],
+   "rel": [
+    "pers_acentuadas",
+    "leonhard_hit",
+    "anancasmo",
+    "anx_freu",
+    "neurastenia",
+    "histeriaC",
+    "epr",
+    "anx_conduc",
+    "habito_dirigido",
+    "toc_dsm",
+    "fobia_esp",
+    "anor",
+    "dsm3",
+    "homosex_hist",
+    "lopezibor_hit"
+   ]
+  },
+  {
+   "id": "fish_hit",
+   "n": "Frank Fish y la difusión de Leonhard en el mundo anglosajón (Schizophrenia, 1962; Clinical Psychopathology, 1967)",
+   "ab": "Frank Fish",
+   "al": [
+    "Frank J. Fish",
+    "Fish's Schizophrenia",
+    "Fish's Clinical Psychopathology",
+    "Acute Schizophrenia Diagnostic Checklist",
+    "Leonhard en inglés"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1962,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "Frank J. Fish, psiquiatra británico, fue el principal introductor de la escuela de Kleist y Leonhard en la psiquiatría de lengua inglesa. En el Journal of Mental Science expuso la clasificación de la esquizofrenia de Kleist y sus colaboradores (Fish 1957) y la de Leonhard (Fish 1958a), aplicó esta última a pacientes crónicos (Fish 1958b), publicó una guía práctica de la clasificación (Fish 1964a), estudió la influencia de los tranquilizantes sobre los síndromes leonhardianos (Fish 1964b) y, con Astrup, un seguimiento de la esquizofrenia crónica (Fish y Astrup 1964). Su monografía Schizophrenia (1962) y su manual Clinical Psychopathology (1967), reeditados por Max Hamilton como Fish's Schizophrenia y Fish's Clinical Psychopathology [ediciones no cotejadas], transmitieron a generaciones de residentes británicos la psicopatología descriptiva alemana [fuente no localizada]. La traducción inglesa de la Aufteilung de Leonhard apareció en 1979, editada por Eli Robins [datos de la edición no cotejados].",
+   "feats": [
+    "1957: primera exposición sistemática en inglés de la clasificación de la esquizofrenia de Kleist y sus colaboradores, en el Journal of Mental Science (Fish 1957); registro comprobado, sin resumen indexado",
+    "1958: artículo extenso sobre la clasificación de la esquizofrenia de Leonhard (Fish 1958a) e investigación clínica de la esquizofrenia crónica en la misma revista (Fish 1958b); registros comprobados, sin resumen indexado",
+    "1964: guía de la clasificación de Leonhard de la esquizofrenia crónica en Psychiatric Quarterly (Fish 1964a), estudio de la influencia de los tranquilizantes sobre los síndromes de Leonhard (Fish 1964b) y seguimiento con Astrup (Fish y Astrup 1964)",
+    "Instrumentación: instrucciones para la lista de verificación diagnóstica de la esquizofrenia aguda (Acute Schizophrenia Diagnostic Checklist) (Fish 1969) y revisión de la presentación clínica y la clasificación de la esquizofrenia en el British Journal of Psychiatry (Fish 1975)",
+    "Teoría: propuso modelos neurofisiológicos de la esquizofrenia y de las psicosis funcionales, incluido un modelo de psicosis única a partir de la teoría de Hebb (Fish 1961; Fish 1962; Fish 1963), en tensión con su defensa de la clasificación diferenciada de Leonhard [interpretación no contrastada en fuente secundaria]",
+    "Vínculo con la RDA: publicó en 1965 sobre el trastorno del pensamiento en la esquizofrenia crónica en Psychiatrie, Neurologie und medizinische Psychologie (Leipzig), la revista en la que publicaba Leonhard (Fish 1965)"
+   ],
+   "note": "La biografía de Fish (formación, cátedra, fecha de su muerte) no se ha cotejado en fuente primaria [fuente no localizada]. Sus artículos de los años cincuenta y sesenta carecen de resumen indexado y se citan por título y datos bibliográficos comprobados en PubMed. Los libros (Schizophrenia, Clinical Psychopathology y sus reediciones por Hamilton y por Casey y Kelly) y la traducción inglesa de Leonhard de 1979 no se han cotejado. La afirmación de que la escuela WKL tuvo escasa recepción anglosajona (Braun 2021) debe matizarse con la obra de Fish, que la divulgó pero no logró que entrara en las clasificaciones oficiales.",
+   "sec": [
+    {
+     "t": "Contexto: la psiquiatría británica ante la escuela alemana",
+     "x": "A mediados del siglo XX la psiquiatría británica conocía la psicopatología alemana sobre todo a través de Jaspers y Schneider [fuente no localizada]. La línea Wernicke-Kleist-Leonhard, localizadora y diferenciadora, apenas había llegado: la obra principal de Leonhard se publicó en 1957 en la RDA y en alemán, y su escuela quedó condicionada por las tensiones entre las dos Alemanias (Braun 2021). Fish, que leía alemán y siguió de cerca la escuela de Frankfurt y Berlín [fuente no localizada para su formación concreta], publicó en el Journal of Mental Science, la revista de la Royal Medico-Psychological Association y antecesora del British Journal of Psychiatry, una exposición de la clasificación de Kleist y sus colaboradores (Fish 1957) y, al año siguiente, un artículo de casi treinta páginas sobre la de Leonhard (Fish 1958a). Fue, durante dos décadas, prácticamente la única puerta de entrada a ese sistema para quien no leía alemán [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "kleist_hit",
+        "leonhard_hit"
+       ],
+       "t": "Kleist y Leonhard"
+      },
+      {
+       "ids": [
+        "schneider_hit",
+        "jaspers_hit"
+       ],
+       "t": "Schneider y Jaspers"
+      }
+     ]
+    },
+    {
+     "t": "Aportación: de la divulgación a la aplicación clínica",
+     "x": "Fish no se limitó a resumir: aplicó la clasificación de Leonhard a pacientes con esquizofrenia crónica (Fish 1958b), redactó una guía práctica para su uso (Fish 1964a) y examinó cómo los nuevos tranquilizantes modificaban los síndromes leonhardianos (Fish 1964b), una cuestión que la escuela de Würzburg y Ban retomarían al defender la utilidad de la clasificación para separar poblaciones con respuesta farmacológica distinta (Ban 1990). Con C. Astrup publicó un estudio de seguimiento de la esquizofrenia crónica (Fish y Astrup 1964). También se ocupó de la esquizofrenia de inicio senil (Fish 1960) y elaboró una lista de verificación para el diagnóstico de la esquizofrenia aguda (Fish 1969), en la época en que se buscaban criterios explícitos que culminarían en el proyecto diagnóstico EE. UU.-Reino Unido y en el DSM-III. Su monografía Schizophrenia (1962), reeditada por Hamilton como Fish's Schizophrenia, presentaba al lector inglés las formas sistemáticas y no sistemáticas de Leonhard [contenido no cotejado].",
+     "links": [
+      {
+       "ids": [
+        "wkl_sistematicas",
+        "subtipos_esq"
+       ],
+       "t": "formas sistemáticas y subtipos clásicos"
+      },
+      {
+       "ids": [
+        "wurzburg_escuela"
+       ],
+       "t": "Würzburg y la validación posterior"
+      },
+      {
+       "ids": [
+        "kendell_hit",
+        "dsm3"
+       ],
+       "t": "criterios explícitos y DSM-III"
+      }
+     ]
+    },
+    {
+     "t": "Fish's Clinical Psychopathology y su legado",
+     "x": "Clinical Psychopathology: Signs and Symptoms in Psychiatry (1967) es un manual breve de semiología que ordena alteraciones de la percepción, el pensamiento, la memoria, la emoción, la motilidad y la conciencia del yo con terminología de raíz alemana; tras la muerte de Fish lo reeditó Max Hamilton como Fish's Clinical Psychopathology, y ediciones posteriores han mantenido su nombre [ediciones, editoriales y contenido no cotejados]. Se ha usado durante décadas como texto de preparación de los exámenes de especialidad británicos e irlandeses [fuente no localizada]. Gracias a él, términos de la escuela WKL como paracinesia, catafasia o psicosis cicloide circularon en inglés, aunque la propia escuela señala que la paracinesia casi desapareció de la literatura en ese idioma (Foucher et al. 2024). La traducción inglesa de la Aufteilung de Leonhard, editada por Eli Robins en 1979, y la revisada por Beckmann en 1999 completaron la difusión [datos de la traducción de 1979 no cotejados].",
+     "links": [
+      {
+       "ids": [
+        "wurzburg_escuela",
+        "leonhard_expresion"
+       ],
+       "t": "paracinesia y escuela WKL"
+      },
+      {
+       "ids": [
+        "pcicloid",
+        "wkl18"
+       ],
+       "t": "psicosis cicloide y catafasia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Fish FJ (1957). The classification of schizophrenia; the views of Kleist and his coworkers. J Ment Sci 103:443-463 · PMID 13449555 (registro comprobado; sin resumen indexado)",
+    "Fish F (1958a). Leonhard's classification of schizophrenia. J Ment Sci 104:943-971 · PMID 13621143 (registro comprobado; sin resumen indexado)",
+    "Fish FJ (1958b). A clinical investigation of chronic schizophrenia. J Ment Sci 104:34-54 · PMID 13514443 (registro comprobado; sin resumen indexado)",
+    "Fish F (1964a). A guide to the Leonhard classification of chronic schizophrenia. Psychiatr Q 38:438-450 · PMID 14197516 (registro comprobado; sin resumen indexado)",
+    "Fish F (1964b). The influence of the tranquilizers on the Leonhard schizophrenic syndromes. Encephale 53 Suppl:245-249 · PMID 14163581 (registro comprobado; sin resumen indexado)",
+    "Fish F & Astrup C (1964). The classification of chronic schizophrenia. A follow-up study. Folia Psychiatr Neurol Jpn 18:17-23 · PMID 5899979 (registro comprobado; sin resumen indexado)",
+    "Fish F (1960). Senile schizophrenia. J Ment Sci 106:938-946 · PMID 13699907 (registro comprobado; sin resumen indexado)",
+    "Fish F (1961). A neurophysiological theory of schizophrenia. J Ment Sci 107:828-838 · PMID 13893194 (registro comprobado; sin resumen indexado)",
+    "Fish F (1962). The functional psychoses in the light of Hebb's theory. Confin Psychiatr 5:130-150 · PMID 13958523 (registro comprobado; sin resumen indexado)",
+    "Fish F (1963). The unitary psychosis: a neurophysiological model. Confin Psychiatr 6:155-170 · PMID 14070404 (registro comprobado; sin resumen indexado)",
+    "Fish F (1965). [Thought disorder in chronic schizophrenia] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 17:19-22 · PMID 14302973",
+    "Fish F (1969). The diagnosis of acute schizophrenia: instructions on the use of the acute schizophrenia diagnostic checklist (ASDC). Psychiatr Q 43:35-45 · PMID 5811467 (registro comprobado; sin resumen indexado)",
+    "Fish F (1975). Clinical presentation and classification of schizophrenia. Br J Psychiatry Spec No 9:3-10 · PMID 1102024 (registro comprobado; sin resumen indexado)",
+    "Ban TA (1990). Clinical pharmacology and Leonhard's classification of endogenous psychoses. Psychopathology 23:331-338 · PMID 1982184",
+    "Braun B (2021). Karl Leonhard (1904-88) and his academic influence through the 'Erlangen School'. Hist Psychiatry 32:195-209 · PMID 33345625",
+    "Foucher JR et al. (2024). Parakinesia: a Delphi consensus report. Schizophr Res 263:45-54 (publicación electrónica 2022) · PMID 36357299",
+    "Fish F (1962). Schizophrenia. Bristol: John Wright [editorial y contenido no cotejados; no verificada]",
+    "Fish F (1967). Clinical Psychopathology: Signs and Symptoms in Psychiatry. Bristol: John Wright [editorial y contenido no cotejados; reediciones de Hamilton M como Fish's Clinical Psychopathology no cotejadas; no verificada]",
+    "Leonhard K (1979). The Classification of Endogenous Psychoses. 5.ª ed., Robins E (ed.). Nueva York: Irvington [traductor, editorial y páginas no cotejados; no verificada]"
+   ],
+   "rel": [
+    "leonhard_hit",
+    "kleist_hit",
+    "wurzburg_escuela",
+    "schneider_hit",
+    "jaspers_hit",
+    "wkl_sistematicas",
+    "subtipos_esq",
+    "kendell_hit",
+    "dsm3",
+    "pcicloid",
+    "catatonia"
+   ]
+  }
+ ]
+}
