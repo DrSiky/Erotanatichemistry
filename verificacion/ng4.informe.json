@@ -1,0 +1,203 @@
+{
+ "pmid_comprobados": 30,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "olanzapina_samidorfano",
+   "gravedad": "mayor",
+   "antes": "y no se ha localizado EPAR en la web de la EMA, por lo que no está autorizada en España.",
+   "despues": "y no consta en el registro de medicamentos de la EMA (ni autorizada ni con dictamen, denegación o solicitud retirada; consulta de 22-11-2026), por lo que no está autorizada en España ni en la Unión Europea.",
+   "fuente": "EMA, Medicines output JSON (22-11-2026); página EPAR /lybalvi inexistente (404)"
+  },
+  {
+   "id": "olanzapina_samidorfano",
+   "gravedad": "mayor",
+   "antes": "sin registro en CIMA ni EPAR localizado en la EMA (noviembre de 2026)",
+   "despues": "sin registro en CIMA y sin ningún procedimiento en el registro de medicamentos de la EMA (noviembre de 2026)",
+   "fuente": "EMA, Medicines output JSON (22-11-2026)"
+  },
+  {
+   "id": "olanzapina_samidorfano",
+   "gravedad": "menor",
+   "antes": "Barnes TR et al. (2019). Evidence-based",
+   "despues": "Barnes TR et al. (2020). Evidence-based",
+   "fuente": "PubMed PMID 31829775: J Psychopharmacol 2020 Jan;34(1):3-78"
+  },
+  {
+   "id": "olanzapina_samidorfano",
+   "gravedad": "menor",
+   "antes": "(NICE CG178; Barnes 2019)",
+   "despues": "(NICE CG178; Barnes 2020)",
+   "fuente": "PubMed PMID 31829775"
+  },
+  {
+   "id": "lemborexant",
+   "gravedad": "mayor",
+   "antes": "y no se ha localizado EPAR en la web de la EMA (noviembre de 2026)",
+   "despues": "y no consta en el registro de medicamentos de la EMA, ni autorizado ni con dictamen, denegación o solicitud retirada (noviembre de 2026)",
+   "fuente": "EMA, Medicines output JSON (22-11-2026); página EPAR /dayvigo inexistente (404)"
+  },
+  {
+   "id": "lemborexant",
+   "gravedad": "mayor",
+   "antes": "sin registro en CIMA ni EPAR localizado en la EMA (noviembre de 2026)",
+   "despues": "sin registro en CIMA y sin ningún procedimiento en el registro de medicamentos de la EMA (noviembre de 2026)",
+   "fuente": "EMA, Medicines output JSON (22-11-2026)"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "Agonista de los receptores de melatonina MT1 y MT2, implicados en el control de los ritmos circadianos; su mecanismo terapéutico exacto no está aclarado (ficha de la FDA, 12.1).",
+   "despues": "Regulador circadiano que actúa como agonista dual de los receptores de melatonina MT1 y MT2, con mayor afinidad por MT2; estos receptores intervienen en el control de los ritmos circadianos (ficha técnica de la UE, EMA, 5.1).",
+   "fuente": "EMA, Hetlioz: información del producto (ficha técnica), 5.1"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "menor",
+   "antes": "el CHMP rechazó esta extensión en la UE (confirmado en 2026)",
+   "despues": "la EMA denegó en 2025 la extensión al síndrome de Smith-Magenis en adultos y en niños, denegación confirmada tras reexamen en marzo de 2026",
+   "fuente": "EMA, Q&A sobre la denegación de cambios EMEA/H/C/003870/II/0040 y X/0039 (17-03-2026)"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "menor",
+   "antes": "Indicación en la UE (EPAR de la EMA): tratamiento",
+   "despues": "Indicación en la UE (ficha técnica de la EMA, 4.1): tratamiento",
+   "fuente": "EMA, ficha técnica de Hetlioz, 4.1"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "Ficha de la FDA: sin contraindicaciones (apartado 4); única advertencia, la somnolencia, por lo que tras tomarlo la actividad debe limitarse a prepararse para dormir (5.1); no es sustancia controlada y no mostró señales de abuso ni de abstinencia (9.1-9.3)",
+   "despues": "Ficha técnica de la UE: única contraindicación, la hipersensibilidad (4.3; la ficha de la FDA no recoge ninguna); tras tomarlo, limitar la actividad a prepararse para dormir y no usar máquinas (4.4, 4.7), y evaluar la respuesta a los 3 meses mediante entrevista clínica (4.4). Según la ficha de la FDA no es sustancia controlada en Estados Unidos ni mostró señales de abuso (9.1-9.2)",
+   "fuente": "EMA, ficha técnica de Hetlioz, 4.3, 4.4, 4.7; FDA Hetlioz 9.1-9.2 (openFDA, revisión 04-08-2026)"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "Interacciones (ficha de la FDA, 7.1-7.3): evitar inhibidores potentes de CYP1A2 como la fluvoxamina (gran aumento de la exposición) e inductores de CYP3A4 como la rifampicina; los betabloqueantes nocturnos reducen la producción de melatonina y pueden restar eficacia; en fumadores la exposición es un 40 % menor (12.3)",
+   "despues": "Interacciones (ficha técnica de la UE, 4.4-4.5): precaución con la fluvoxamina y otros inhibidores potentes de CYP1A2 (con fluvoxamina, AUC 7 veces mayor; la ficha de la FDA manda evitarlos); evitar la rifampicina y otros inductores de CYP3A4 (exposición un 90 % menor); los betabloqueantes pueden restar eficacia; en fumadores la exposición es un 40 % menor",
+   "fuente": "EMA, ficha técnica de Hetlioz, 4.4-4.5; FDA Hetlioz 7.1"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "Farmacocinética (ficha de la FDA, 12.3): metabolismo por CYP1A2 y CYP3A4 con glucuronidación posterior; semivida de eliminación de 1,3 h y metabolitos con actividad hasta 13 veces menor",
+   "despues": "Farmacocinética (ficha técnica de la UE, 5.2): biodisponibilidad oral del 38 %, reducida con comidas grasas (Cmáx un 44 % menor); metabolismo por CYP1A2 (35,4 %), CYP3A4 (24,3 %), CYP2C9 y CYP2C19, con glucuronidación fenólica posterior; semivida de eliminación de 1,3 h; metabolitos principales con actividad al menos 13 veces menor",
+   "fuente": "EMA, ficha técnica de Hetlioz, 5.2"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "En noviembre de 2025 el CHMP emitió una recomendación negativa sobre una extensión de indicación (procedimiento II/0040), y en marzo de 2026, tras reexamen, confirmó la denegación de la extensión a las alteraciones del sueño nocturno en adultos y niños de 3 a 15 años con síndrome de Smith-Magenis (EMA).",
+   "despues": "La EMA recomendó denegar dos extensiones de indicación a las alteraciones del sueño nocturno en el síndrome de Smith-Magenis (designación huérfana de 22-05-2023): en adultos (II/0040, dictamen de 13-11-2025) y en niños de 3 a 15 años (X/0039, 11-12-2025), por dudas sobre el diseño, el análisis estadístico y la realización del único ensayo, de 26 pacientes; el reexamen confirmó ambas denegaciones el 16-03-2026 (EMA).",
+   "fuente": "EMA, Q&A EMEA/H/C/003870/II/0040 y X/0039 (17-03-2026)"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "La ficha de la FDA solo advierte de somnolencia y no establece contraindicaciones; en SET",
+   "despues": "La ficha técnica de la UE solo contraindica la hipersensibilidad y advierte de la somnolencia (4.3-4.4, 4.7); las reacciones adversas más frecuentes en los ensayos fueron cefalea (10,4 %), somnolencia (8,6 %), náuseas (4,0 %) y mareo (3,1 %) (4.8). En SET",
+   "fuente": "EMA, ficha técnica de Hetlioz, 4.3-4.8"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "menor",
+   "antes": ", y el EPAR cita cefalea, somnolencia, náuseas y mareo como los más frecuentes. Las interacciones dependen de su metabolismo por CYP1A2 y CYP3A4: la fluvoxamina, inhibidor potente de CYP1A2, debe evitarse, igual que la rifampicina y otros inductores de CYP3A4; el tabaco reduce la exposición un 40 %.",
+   "despues": ". Las interacciones dependen de su metabolismo por CYP1A2 y CYP3A4: la ficha de la UE pide precaución con la fluvoxamina, inhibidor potente de CYP1A2 (la de la FDA, evitarla), y evitar la rifampicina y otros inductores de CYP3A4; el tabaco reduce la exposición un 40 % (4.5).",
+   "fuente": "EMA, ficha técnica de Hetlioz, 4.5"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "menor",
+   "antes": "por mecanismo, la sedación puede sumarse a la de alcohol y otros depresores del SNC [fuente no localizada].",
+   "despues": "con alcohol, la ficha de la UE describe una tendencia no significativa a mayor efecto psicomotor (4.5).",
+   "fuente": "EMA, ficha técnica de Hetlioz, 4.5"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "EMA (2025). Hetlioz (tasimelteon): EPAR, resumen público e información del producto, EMEA/H/C/003870; dictamen del CHMP de 23-04-2015 y autorización de 03-07-2015; página actualizada el 04-12-2025; consulta de noviembre de 2026",
+   "despues": "EMA (2025). Hetlioz (tasimelteon): EPAR, resumen público e información del producto (ficha técnica en inglés, apartados 4.1-5.2; EU/1/15/1008/001; primera autorización 03-07-2015, renovación 03-07-2020), EMEA/H/C/003870; dictamen del CHMP de 23-04-2015; página actualizada el 04-12-2025; consulta de noviembre de 2026",
+   "fuente": "EMA, hetlioz-epar-product-information_en.pdf (descargado 22-11-2026)"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "mayor",
+   "antes": "EMA (2026). Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 10-13 November 2025 y 23-26 March 2026: recomendación negativa de extensión de indicación de Hetlioz y confirmación tras reexamen de la denegación en el síndrome de Smith-Magenis; consulta de noviembre de 2026",
+   "despues": "EMA (2026). Questions and answers on the refusal of a change to the marketing authorisation for Hetlioz (tasimelteon): EMEA/H/C/003870/II/0040 y EMEA/H/C/003870/X/0039, reexamen de 16-03-2026 (documentos de 17-03-2026); consulta de noviembre de 2026",
+   "fuente": "EMA, Q&A II-40 y X-39"
+  },
+  {
+   "id": "tasimelteon",
+   "gravedad": "menor",
+   "antes": "y la EMA rechazó la extensión al Smith-Magenis tras reexamen.",
+   "despues": "y la EMA denegó las extensiones al Smith-Magenis, también tras reexamen.",
+   "fuente": "EMA, Q&A II-40 y X-39"
+  },
+  {
+   "id": "prometazina",
+   "gravedad": "menor",
+   "antes": "En la tranquilización rápida de adultos, tras fracasar la desescalada y la medicación oral, NICE NG10",
+   "despues": "En la tranquilización rápida de adultos, definida por NICE como medicación parenteral cuando la oral no es posible o adecuada y se necesita sedación urgente, NICE NG10",
+   "fuente": "NICE NG10, definición previa a 1.4.37"
+  },
+  {
+   "id": "prometazina",
+   "gravedad": "menor",
+   "antes": "y el lorazepam (Temelor) o el midazolam intramusculares, fuera de ficha en esta indicación",
+   "despues": "y el lorazepam inyectable (Temelor, indicado en su ficha en la ansiedad cuando no es posible la vía oral, no en la agitación) o el midazolam intramuscular, fuera de ficha en esta indicación",
+   "fuente": "AEMPS-CIMA, ficha técnica de Temelor 4 mg/ml (n.º registro 88360), 4.1"
+  },
+  {
+   "id": "prometazina",
+   "gravedad": "menor",
+   "antes": "con efectos anticolinérgicos y sedantes marcados.",
+   "despues": "con efectos anticolinérgicos y sedantes (4.4-4.5).",
+   "fuente": "AEMPS-CIMA, ficha de Actithiol Mucolítico Antihistamínico, 4.4-4.5"
+  },
+  {
+   "id": "ciproheptadina",
+   "gravedad": "mayor",
+   "antes": "las revisiones lo sitúan como coadyuvante del tratamiento de soporte en la toxicidad moderada, con evidencia de series y casos clínicos (Graudins 1998; Isbister 2007),",
+   "despues": "una serie de cinco casos la propuso como coadyuvante del tratamiento de soporte (Graudins 1998) y una revisión señala que el agente antiserotoninérgico preferido, la dosis y las indicaciones no están bien definidos (Isbister 2007),",
+   "fuente": "PubMed 9696181 y 17874986 (resúmenes): ninguno restringe su uso a la toxicidad moderada"
+  },
+  {
+   "id": "ciproheptadina",
+   "gravedad": "menor",
+   "antes": "como coadyuvante en casos moderados que persisten, con evidencia",
+   "despues": "como coadyuvante en casos moderados que persisten [fuente no localizada], con evidencia",
+   "fuente": "PubMed 17874986 y 38926083: los resúmenes no especifican la gravedad"
+  },
+  {
+   "id": "ciproheptadina",
+   "gravedad": "menor",
+   "antes": "Chiew AL & Isbister GK (2025). Revisión sobre el tratamiento de la toxicidad serotoninérgica (título no disponible en el registro de PubMed). Br J Clin Pharmacol",
+   "despues": "Chiew AL & Isbister GK (2025). Management of serotonin syndrome (toxicity). Br J Clin Pharmacol",
+   "fuente": "PubMed PMID 38926083 (título indexado: Management of serotonin syndrome (toxicity))"
+  },
+  {
+   "id": "ciproheptadina",
+   "gravedad": "menor",
+   "antes": "(véanse las fichas del atlas sobre síndrome serotoninérgico y MDMA) [fuente no localizada para la magnitud del riesgo];",
+   "despues": "[fuente no localizada] (véanse las fichas del atlas sobre síndrome serotoninérgico y MDMA);",
+   "fuente": "Formato del marcador literal exigido"
+  },
+  {
+   "id": "ciproheptadina",
+   "gravedad": "menor",
+   "antes": "lo que limita su utilidad en cuadros que evolucionan en horas [fuente no localizada para la relevancia clínica de este dato].",
+   "despues": "lo que limita su utilidad en cuadros que evolucionan en horas [fuente no localizada].",
+   "fuente": "Formato del marcador literal exigido"
+  }
+ ],
+ "sin_resolver": [
+  "Prometazina: CIMA (22-11-2026) confirma que no hay ninguna prometazina inyectable autorizada en España; solo Fenergan crema (uso cutáneo, sin receta, n.º 17471), Actithiol Mucolítico Antihistamínico solución oral (carbocisteína + prometazina, n.º 46249) y Psico Soma líquido (glutamato magnésico + prometazina, n.º 35815, sin ficha en CIMA y con problemas de suministro). No se ha comprobado la disponibilidad real como medicamento extranjero (sigue marcado).",
+  "Tasimelteón: la información del producto de la EMA (ficha técnica en inglés) sí se pudo descargar; la versión en español devolvió HTTP 429. Los datos de ficha se basan ahora en la ficha de la UE; los de la FDA (indicaciones en EE. UU., Smith-Magenis, 9.1-9.2 y respuesta en el 25 % de noches más sintomáticas) se citan como de la FDA de forma explícita.",
+  "Olanzapina/samidorfano y lemborexant: ningún registro en el informe de medicamentos de la EMA (que incluye autorizados, dictámenes, denegaciones y solicitudes retiradas); no se pueden descartar solicitudes en evaluación aún no publicadas.",
+  "Ciproheptadina: el conflicto entre la contraindicación con IMAO de la ficha de Periactin y el escenario IMAO + inhibidor de la recaptación sigue sin resolver en las fuentes.",
+  "Chiew y Isbister 2025 (PMID 38926083) figura en PubMed con la etiqueta [Article in French], aunque título y resumen indexados están en inglés.",
+  "Barnes 2020 (PMID 31829775): la referencia se corrige a 2020 (año de publicación); otros nodos del atlas podrían citarla como 2019."
+ ]
+}
