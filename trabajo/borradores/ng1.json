@@ -1,0 +1,834 @@
+{
+ "patch": {
+  "levetiracetam": {
+   "relAdd": [
+    "brivaracetam",
+    "lacosamida"
+   ]
+  },
+  "perampanel": {
+   "relAdd": [
+    "brivaracetam",
+    "fenitoina"
+   ]
+  },
+  "psiep": {
+   "relAdd": [
+    "lacosamida",
+    "brivaracetam"
+   ]
+  },
+  "iatrog_farm": {
+   "relAdd": [
+    "lacosamida",
+    "brivaracetam",
+    "fenitoina"
+   ]
+  },
+  "epilepsia_psic": {
+   "relAdd": [
+    "lacosamida"
+   ]
+  },
+  "carbamaz": {
+   "relAdd": [
+    "eslicarbazepina",
+    "fenitoina",
+    "fenobarbital"
+   ]
+  },
+  "oxcarbazepina": {
+   "relAdd": [
+    "eslicarbazepina"
+   ]
+  },
+  "hiponatr_psicof": {
+   "relAdd": [
+    "eslicarbazepina"
+   ]
+  },
+  "hla_carbamaz": {
+   "relAdd": [
+    "eslicarbazepina",
+    "fenitoina"
+   ]
+  },
+  "quetiapina": {
+   "relAdd": [
+    "fenitoina"
+   ]
+  },
+  "vpa_bip": {
+   "relAdd": [
+    "fenitoina"
+   ]
+  },
+  "dt_alc": {
+   "relAdd": [
+    "fenobarbital"
+   ]
+  },
+  "sedantes_tus": {
+   "relAdd": [
+    "fenobarbital"
+   ]
+  },
+  "ghb_abst": {
+   "relAdd": [
+    "fenobarbital"
+   ]
+  },
+  "bzd_dep": {
+   "relAdd": [
+    "fenobarbital"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "fenobarbital"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "lacosamida",
+   "n": "Lacosamida (Vimpat): perfil psiquiátrico, conducción cardíaca y potencial de abuso",
+   "ab": "Lacosamida",
+   "al": [
+    "Vimpat",
+    "lacosamida",
+    "LCM",
+    "potenciador de la inactivación lenta del canal de sodio"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2008,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antiepiléptico de tercera generación, aminoácido funcionalizado, sin indicación psiquiátrica. Según la ficha técnica de Vimpat (AEMPS-CIMA), está indicado en monoterapia de las crisis de inicio parcial con o sin generalización secundaria desde los 2 años y como terapia concomitante en esas mismas crisis desde los 2 años y en las crisis tónico-clónicas generalizadas primarias desde los 4 años en la epilepsia generalizada idiopática (4.1). Su mecanismo difiere del de los bloqueantes clásicos del canal de sodio: aumenta selectivamente la inactivación lenta de los canales de sodio dependientes de voltaje (5.1). Interesa en psiquiatría por tres motivos: un perfil psiquiátrico y cognitivo globalmente favorable, aunque la ficha recoge depresión, estado confusional, psicosis y conducta suicida; la prolongación del intervalo PR, que importa cuando se combina con psicofármacos que alteran la conducción cardíaca; y un potencial de abuso documentado por la FDA, que la clasifica como sustancia controlada de la lista V en EE. UU.",
+   "feats": [
+    "Estado en España (CIMA): Vimpat comprimidos recubiertos, jarabe y solución para perfusión (UCB Pharma; p. ej., Vimpat 50 mg comprimidos, nº de registro 08470001), comercializado, de autorización centralizada por la EMA; la solución para perfusión es de uso hospitalario; hay genéricos autorizados (p. ej., Lacosamida Cinfa, Lacosamida Normon)",
+    "Contraindicaciones (ficha técnica de Vimpat, 4.3): hipersensibilidad y bloqueo auriculoventricular de segundo o tercer grado conocido; precaución (4.4) en trastornos de la conducción, cardiopatía grave, canalopatías de sodio, edad avanzada y con fármacos que prolongan el PR, con ECG antes de escalar la dosis y en estado estacionario",
+    "Reacciones psiquiátricas (4.8): frecuentes la depresión, el estado confusional y el insomnio; poco frecuentes la agresividad, la agitación, el estado de euforia, los trastornos psicóticos, las alucinaciones, la ideación suicida y el intento de suicidio; en el sistema nervioso, frecuentes el deterioro de la memoria, los trastornos cognitivos y el trastorno de la atención",
+    "Interacciones (4.5): bajo potencial; no induce ni inhibe de forma relevante CYP2C19 ni CYP3A4; los inductores (carbamazepina, fenitoína, fenobarbital) reducen su exposición global un 25 % en adultos; precaución con inhibidores potentes de CYP2C9 o CYP3A4 (fluconazol, itraconazol, ritonavir, claritromicina); no interacciona con anticonceptivos orales; no se excluye un efecto farmacodinámico con el alcohol",
+    "Potencial de abuso (dato de otra agencia, FDA 2026): lista V en EE. UU.; en un estudio de potencial de abuso, dosis únicas terapéutica máxima y supraterapéutica dieron respuestas de tipo euforia distintas del placebo (indistinguibles del alprazolam con la supraterapéutica) y euforia adversa en el 15 % (5/34); la ficha española la lista como poco frecuente (4.8)",
+    "Monoterapia en epilepsia de nuevo diagnóstico (Baulac 2017): no inferior a carbamazepina de liberación controlada (libres de crisis a 6 meses, 90 % frente a 91 %), con menos retiradas por efectos adversos (11 % frente a 16 %); ensayo financiado por el titular"
+   ],
+   "tx": "No tiene indicación psiquiátrica. Cuando la persona con un trastorno mental necesita un antiepiléptico, la elección corresponde a neurología; la lacosamida es una opción de tercera línea en monoterapia y de primera en terapia añadida para las crisis focales según NICE NG217. Antes de combinarla con psicofármacos que alteran la conducción (antidepresivos tricíclicos, algunos antipsicóticos, litio) o en personas con cardiopatía, valorar un ECG y vigilar síntomas de arritmia, como pide la ficha técnica (4.4); la asociación de estos psicofármacos con la prolongación del PR es una inferencia razonable no estudiada específicamente [fuente no localizada]. Vigilar depresión, ideación suicida y síntomas psicóticos, informar del mareo y del riesgo de caídas, y advertir del posible efecto aditivo con el alcohol. En personas con antecedentes de uso indebido de sedantes, tener presente su potencial de abuso descrito por la FDA.",
+   "note": "La evidencia psiquiátrica procede de análisis secundarios de ensayos, series observacionales y revisiones narrativas con heterogeneidad metodológica; buena parte de los ensayos fueron financiados por el titular. No hay ensayos controlados en trastornos psiquiátricos primarios ni datos publicados sobre su uso indebido en contextos de chemsex [fuente no localizada]. La clasificación como sustancia controlada y el estudio de potencial de abuso son datos de la FDA, no de la ficha española, que no incluye una advertencia de abuso o dependencia.",
+   "sec": [
+    {
+     "t": "Perfil psiquiátrico y cognitivo: qué dicen los datos",
+     "x": "Una revisión de 17 estudios (dos metaanálisis, un ensayo aleatorizado y 14 observacionales) concluyó que la lacosamida tiene un riesgo bajo de efectos cognitivos, posiblemente preferible al de carbamazepina, topiramato y perampanel y no inferior al de lamotrigina, y que, aunque con baja incidencia, la depresión es el cambio psiquiátrico más frecuente, sin efectos psiquiátricos positivos ni negativos consistentes (Li 2020). En el análisis post hoc del ensayo de monoterapia frente a carbamazepina, entre 126 personas con comorbilidad psiquiátrica al inicio (sobre todo depresión, insomnio y ansiedad), los acontecimientos psiquiátricos surgidos con el tratamiento afectaron al 23,4 % con lacosamida y al 16,1 % con carbamazepina, con depresión en el 4,7 % frente al 0 %, sin psicosis ni acontecimientos psiquiátricos graves, y con menos abandonos por efectos adversos (10,9 % frente a 24,2 %) (Schmitz 2020). En la farmacovigilancia pediátrica de la FDA, la lacosamida mostró señales de efectos psiquiátricos relativamente bajas entre los antiepilépticos de tercera generación (Sun 2025). En conjunto, la depresión es la reacción que conviene vigilar, junto con la ideación suicida común a los antiepilépticos (ficha técnica de Vimpat, 4.4).",
+     "links": [
+      {
+       "ids": [
+        "dep_induc",
+        "iatrog_farm"
+       ],
+       "t": "depresión y síntomas inducidos por fármacos"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación y conducta suicida"
+      },
+      {
+       "ids": [
+        "carbamaz",
+        "perampanel",
+        "lamotrig"
+       ],
+       "t": "otros antiepilépticos comparados"
+      }
+     ]
+    },
+    {
+     "t": "Conducción cardíaca, sobredosis y combinación con psicofármacos",
+     "x": "La ficha técnica de Vimpat describe prolongaciones del PR dependientes de la dosis; tras la comercialización se han notificado bloqueo auriculoventricular, fibrilación o flúter auricular y taquiarritmia ventricular, y en raras ocasiones asistolia, parada cardíaca y muerte en personas con afecciones proarrítmicas (4.4). La ficha pide precaución con fármacos que prolongan el PR, incluidos los antiepilépticos bloqueantes de canales de sodio y los antiarrítmicos (4.5). En sobredosis por encima de la dosis máxima se han observado mareo, vómitos, crisis y estado epiléptico, trastornos de la conducción cardíaca, shock y coma, y se ha notificado la muerte tras ingestas únicas de varios gramos; no hay antídoto y puede considerarse la hemodiálisis (4.9). En psiquiatría este perfil importa en la valoración del riesgo de una ingesta autolítica en quien la tiene prescrita, y al asociarla a psicofármacos con efectos sobre la conducción, como los antidepresivos tricíclicos o el litio, combinación en la que no hay estudios específicos [fuente no localizada]. Su baja unión a proteínas (menos del 15 %) hace improbables las interacciones por desplazamiento (4.5).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo de ingesta autolítica"
+      },
+      {
+       "ids": [
+        "lm_bip",
+        "intox_litio"
+       ],
+       "t": "litio y conducción"
+      }
+     ]
+    },
+    {
+     "t": "Consumo de sustancias, potencial de abuso y psicosis en la epilepsia",
+     "x": "La ficha española incluye el estado de euforia entre las reacciones poco frecuentes (4.8) y no recoge datos farmacocinéticos de interacción con el alcohol, aunque no excluye un efecto farmacodinámico (4.5). La etiqueta de la FDA clasifica la lacosamida en la lista V de sustancias controladas: en un estudio de potencial de abuso, sus respuestas subjetivas de tipo euforia se diferenciaron del placebo y, a dosis supraterapéutica, fueron indistinguibles de las de alprazolam, aunque más breves; los ensayos en dolor neuropático no mostraron un síndrome de abstinencia física, pero no se descarta la dependencia psicológica (FDA 2026). Su perfil de interacciones es favorable para quien recibe tratamiento antirretroviral, salvo la precaución con inhibidores potentes de CYP3A4 como ritonavir que recoge la ficha (4.5). Ante un cuadro psicótico o afectivo de nueva aparición en una persona con epilepsia tratada, el diagnóstico diferencial incluye la psicosis epiléptica (postictal o interictal), el efecto del fármaco y la normalización forzada; la cronología respecto a los cambios de tratamiento orienta la atribución [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "psiep",
+        "epilepsia_psic"
+       ],
+       "t": "psicosis en la epilepsia"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "sedantes_tus"
+       ],
+       "t": "uso indebido de sedantes"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Vimpat 50 mg comprimidos recubiertos con película (lacosamida) (nº de registro 08470001; misma ficha para las demás presentaciones), apartados 4.1, 4.3-4.5, 4.8, 4.9 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "FDA (2026). Vimpat (lacosamide) prescribing information: apartado 9 «Drug abuse and dependence» (sustancia controlada de la lista V, estudio de potencial de abuso); etiqueta de mayo de 2026, consultada en la base openFDA en noviembre de 2026",
+    "NICE (2022, actualizada). Epilepsies in children, young people and adults. NICE guideline NG217, recomendaciones 5.2.3 y 5.2.4; consulta de noviembre de 2026",
+    "Baulac M et al. (2017). Efficacy, safety, and tolerability of lacosamide monotherapy versus controlled-release carbamazepine in patients with newly diagnosed epilepsy: a phase 3, randomised, double-blind, non-inferiority trial. Lancet Neurol 16:43-54 · PMID 27889312",
+    "Schmitz B et al. (2020). Tolerability and efficacy of lacosamide and controlled-release carbamazepine monotherapy in patients with newly diagnosed epilepsy and concomitant psychiatric conditions: post hoc analysis of a prospective, randomized, double-blind trial. Epilepsy Res 159:106220 · PMID 31812127",
+    "Li KY et al. (2020). The effects of lacosamide on cognitive function and psychiatric profiles in patients with epilepsy. Epilepsy Behav 113:107580 · PMID 33242771",
+    "Sun W et al. (2025). Pharmacovigilance signal detection of psychiatric adverse events induced by third-generation antiepileptic drugs in children. Front Pharmacol 16:1711879 · PMID 41560726",
+    "Brigo F et al. (2016). Efficacy and tolerability of brivaracetam compared to lacosamide, eslicarbazepine acetate, and perampanel as adjunctive treatments in uncontrolled focal epilepsy: results of an indirect comparison meta-analysis of RCTs. Seizure 42:29-37 · PMID 27710868"
+   ],
+   "rel": [
+    "levetiracetam",
+    "brivaracetam",
+    "carbamaz",
+    "perampanel",
+    "lamotrig",
+    "psiep",
+    "epilepsia_psic",
+    "iatrog_farm",
+    "dep_induc",
+    "ideac_suic",
+    "chemsex_arv"
+   ]
+  },
+  {
+   "id": "brivaracetam",
+   "n": "Brivaracetam (Briviact): efectos conductuales frente a levetiracetam",
+   "ab": "Brivaracetam",
+   "al": [
+    "Briviact",
+    "brivaracetam",
+    "BRV",
+    "ligando de SV2A"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2016,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antiepiléptico derivado de la pirrolidona, análogo del levetiracetam, sin indicación psiquiátrica. Según la ficha técnica de Briviact (AEMPS-CIMA), está indicado solo como terapia concomitante de las crisis de inicio parcial con o sin generalización secundaria en adultos, adolescentes y niños a partir de 2 años con epilepsia (4.1). Comparte diana con el levetiracetam: alta y selectiva afinidad por la proteína 2A de la vesícula sináptica (SV2A), que modula la exocitosis de neurotransmisores (5.1), con una afinidad de 15 a 30 veces mayor y una entrada cerebral más rápida (Feyissa 2019). Su relevancia psiquiátrica reside en la comparación con el levetiracetam: la evidencia observacional sugiere menos irritabilidad y agresividad, y el cambio de levetiracetam a brivaracetam mejora los efectos conductuales en una parte de las personas, aunque la ficha mantiene depresión, ansiedad, irritabilidad, psicosis, agresividad e ideación suicida entre sus reacciones adversas. Duplica aproximadamente el efecto del alcohol sobre la función psicomotora (4.5).",
+   "feats": [
+    "Estado en España (CIMA): Briviact comprimidos recubiertos, solución oral y solución inyectable y para perfusión (UCB Pharma; p. ej., Briviact 25 mg, nº de registro 1151073006), comercializado, de autorización centralizada por la EMA; la forma intravenosa es de uso hospitalario; hay genéricos autorizados (p. ej., Brivaracetam Cinfa, Brivaracetam Combix)",
+    "Reacciones psiquiátricas (ficha técnica de Briviact, 4.8): frecuentes la depresión, la ansiedad, el insomnio y la irritabilidad; poco frecuentes la ideación suicida, el trastorno psicótico, la agresividad y la agitación; en extensiones abiertas pediátricas, ideación suicida en el 4,7 % (2,4 % en adultos) y trastornos del comportamiento en el 24,8 % (15,1 % en adultos)",
+    "Contraindicación (4.3): hipersensibilidad al principio activo o a otros derivados de la pirrolidona, lo que incluye el levetiracetam; en los ensayos no se observó beneficio frente a placebo cuando se añadía a levetiracetam, posiblemente por competencia por SV2A (4.5 y 5.1)",
+    "Alcohol (4.5): sin interacción farmacocinética, pero duplicó aproximadamente el efecto del etanol sobre la función psicomotora, la atención y la memoria; la ficha no recomienda tomarlo con alcohol",
+    "Interacciones (4.5): eliminación principal por hidrólisis independiente de CYP y secundaria por CYP2C19; puede aumentar los fármacos metabolizados por CYP2C19 (omeprazol, diazepam) y reducir los metabolizados por CYP2B6 (efavirenz); rifampicina reduce su exposición un 45 %; eleva el epóxido de carbamazepina; sin efecto relevante sobre anticonceptivos orales a dosis terapéuticas",
+    "Revisión sistemática de datos de práctica clínica (Steinhoff 2021): irritabilidad media ponderada del 5,6 % con brivaracetam frente al 9,9 % con levetiracetam, con retiradas por irritabilidad del 0,8 % frente al 3,4 %; agresividad similar (2,5 % frente a 2,6 %); revisión con autores del titular",
+    "Potencial de abuso (dato de otra agencia, FDA 2026): sustancia controlada de la lista V en EE. UU.; a dosis supraterapéuticas única se pareció al alprazolam en medidas de abuso, y no hubo indicios de dependencia física ni síndrome de abstinencia en los ensayos"
+   ],
+   "tx": "No tiene indicación psiquiátrica. En una persona con epilepsia controlada con levetiracetam que presenta irritabilidad, agresividad, cambios de humor u otros efectos conductuales, el cambio a brivaracetam es una opción que valorar con neurología, con la evidencia limitada que se detalla; NICE NG217 lo sitúa como opción de segunda línea en terapia añadida para las crisis focales y para las tónico-clónicas generalizadas. No asociarlo a levetiracetam (sin beneficio demostrado y contraindicado por hipersensibilidad cruzada a pirrolidonas cuando exista). Mantener la vigilancia de depresión, ideación suicida y psicosis que pide la ficha técnica de Briviact (4.4), advertir de que potencia los efectos del alcohol (4.5) y revisar las interacciones con fármacos metabolizados por CYP2C19 o CYP2B6, incluidos diazepam y efavirenz.",
+   "note": "La ventaja conductual frente al levetiracetam no está demostrada en ensayos comparativos directos: procede de estudios abiertos, observacionales y revisiones con heterogeneidad metodológica, muchos financiados por el titular; en el metaanálisis de 96 ensayos con levetiracetam o brivaracetam, la comparación indirecta no mostró diferencias significativas (Fröling 2026, citado en la ficha de levetiracetam). La mejoría tras el cambio puede reflejar en parte regresión a la media y expectativas en estudios no enmascarados [fuente no localizada]. No hay datos publicados sobre su uso indebido en contextos de chemsex [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Cambio de levetiracetam a brivaracetam por efectos conductuales",
+     "x": "En el estudio abierto de fase 3b, 29 personas con efectos conductuales no psicóticos aparecidos en las 16 primeras semanas de levetiracetam pasaron a brivaracetam de forma inmediata, sin titulación: a las 12 semanas, el 93,1 % tenía una reducción clínicamente significativa de los efectos conductuales y mejoró la calidad de vida; una persona presentó ideación e intento de suicidio como acontecimiento grave (Yates 2015). En la revisión sistemática de estudios observacionales, el cambio mejoró los efectos conductuales en el 33,3 % al 83,0 % de las personas según el estudio (media ponderada, 66,6 %) (Steinhoff 2021). Una revisión de la evidencia cognitiva y conductual concluyó que el brivaracetam tiene un impacto limitado en la cognición y se asocia a menos alteraciones conductuales que el levetiracetam, con calidad de la evidencia baja por la heterogeneidad (Li 2023). Una revisión de los fármacos usados en las encefalopatías epilépticas y del desarrollo sitúa al brivaracetam, en menor medida que levetiracetam y perampanel, entre los asociados a agresividad e irritabilidad, con más riesgo si hay antecedentes conductuales o psiquiátricos (Strzelczyk 2022). En la práctica, la mejoría no es universal y conviene seguir vigilando tras el cambio.",
+     "links": [
+      {
+       "ids": [
+        "levetiracetam"
+       ],
+       "t": "levetiracetam"
+      },
+      {
+       "ids": [
+        "hetero_agr"
+       ],
+       "t": "agresividad e irritabilidad"
+      },
+      {
+       "ids": [
+        "perampanel",
+        "topiramato"
+       ],
+       "t": "otros antiepilépticos con perfil conductual"
+      }
+     ]
+    },
+    {
+     "t": "Eficacia comparada y lugar en las guías",
+     "x": "En los ensayos de registro, el brivaracetam añadido aumentó la probabilidad de reducir al menos un 50 % la frecuencia de crisis frente a placebo (riesgo relativo agrupado de 1,79) y de quedar libre de crisis; los efectos adversos asociados significativamente fueron irritabilidad, fatiga, somnolencia y mareo (Feyissa 2019). En la comparación indirecta de 17 ensayos (4971 personas) no hubo diferencias de eficacia frente a lacosamida, eslicarbazepina ni perampanel, y a la dosis más alta recomendada hubo menos efectos adversos que con eslicarbazepina o perampanel, sin diferencias en las retiradas (Brigo 2016). La ficha técnica de Briviact no recomienda su uso en monoterapia (5.1). NICE NG217 lo propone como opción de segunda línea en terapia añadida para las crisis focales, tras carbamazepina, lacosamida, lamotrigina, levetiracetam, oxcarbazepina, topiramato o zonisamida, y para las crisis tónico-clónicas generalizadas. No figura con indicación psiquiátrica en las guías de psicofarmacología consultadas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lacosamida",
+        "eslicarbazepina",
+        "perampanel"
+       ],
+       "t": "antiepilépticos comparados"
+      }
+     ]
+    },
+    {
+     "t": "Alcohol, sustancias y particularidades farmacológicas",
+     "x": "La interacción con el alcohol es farmacodinámica: en voluntarios sanos con perfusión de etanol, el brivaracetam duplicó aproximadamente su efecto sobre la función psicomotora, la atención y la memoria, por lo que la ficha técnica no recomienda la combinación (4.5); cabe esperar sumación con otros depresores del sistema nervioso central como el GHB o las benzodiacepinas, que no se ha estudiado [fuente no localizada]. Por su inhibición de CYP2C19 puede elevar diazepam, omeprazol o lansoprazol, y por inducción de CYP2B6 no investigada in vivo puede reducir el efavirenz; el cannabidiol puede aumentar su exposición, con relevancia incierta (4.5). La FDA lo clasifica en la lista V de sustancias controladas, con potencial de abuso a dosis supraterapéuticas comparable al del alprazolam en algunas medidas y sin dependencia física en los ensayos (FDA 2026). En la valoración pericial de una conducta impulsiva o violenta en quien lo toma, la ficha documenta agresividad y agitación como poco frecuentes (4.8); como con el levetiracetam, la cronología y los factores de riesgo independientes son determinantes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "ghb_gbl"
+       ],
+       "t": "alcohol y GHB"
+      },
+      {
+       "ids": [
+        "cyp2c19",
+        "diazepam"
+       ],
+       "t": "CYP2C19 y diazepam"
+      },
+      {
+       "ids": [
+        "efavirenz_psiq",
+        "chemsex_arv"
+       ],
+       "t": "efavirenz y antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Briviact 25 mg comprimidos recubiertos con película (brivaracetam) (nº de registro 1151073006; misma ficha para las demás presentaciones), apartados 4.1, 4.3-4.5, 4.8 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "FDA (2026). Briviact (brivaracetam) prescribing information: apartado 9 «Drug abuse and dependence»; etiqueta de noviembre de 2026, consultada en la base openFDA en noviembre de 2026",
+    "NICE (2022, actualizada). Epilepsies in children, young people and adults. NICE guideline NG217, recomendación 5.2.5 y opciones de segunda línea en las crisis tónico-clónicas generalizadas; consulta de noviembre de 2026",
+    "Yates SL et al. (2015). An open-label, prospective, exploratory study of patients with epilepsy switching from levetiracetam to brivaracetam. Epilepsy Behav 52:165-168 · PMID 26432008",
+    "Steinhoff BJ et al. (2021). Behavioral adverse events with brivaracetam, levetiracetam, perampanel, and topiramate: a systematic review. Epilepsy Behav 118:107939 · PMID 33839453",
+    "Feyissa AM (2019). Brivaracetam in the treatment of epilepsy: a review of clinical trial data. Neuropsychiatr Dis Treat 15:2587-2600 · PMID 31571877",
+    "Li KY et al. (2023). A review of cognitive and behavioral outcomes of brivaracetam. Kaohsiung J Med Sci 39:104-114 · PMID 36661137",
+    "Strzelczyk A, Schubert-Bast S (2022). Psychobehavioural and cognitive adverse events of anti-seizure medications for the treatment of developmental and epileptic encephalopathies. CNS Drugs 36:1079-1111 · PMID 36194365",
+    "Brigo F et al. (2016). Efficacy and tolerability of brivaracetam compared to lacosamide, eslicarbazepine acetate, and perampanel as adjunctive treatments in uncontrolled focal epilepsy: results of an indirect comparison meta-analysis of RCTs. Seizure 42:29-37 · PMID 27710868"
+   ],
+   "rel": [
+    "levetiracetam",
+    "perampanel",
+    "topiramato",
+    "lacosamida",
+    "hetero_agr",
+    "iatrog_farm",
+    "ideac_suic",
+    "psiep",
+    "alcohol",
+    "cyp2c19",
+    "chemsex_arv"
+   ]
+  },
+  {
+   "id": "eslicarbazepina",
+   "n": "Acetato de eslicarbazepina (Zebinix): hiponatremia y perfil psiquiátrico",
+   "ab": "Eslicarbazepina",
+   "al": [
+    "Zebinix",
+    "acetato de eslicarbazepina",
+    "eslicarbazepina",
+    "ESL"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2009,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Antiepiléptico de la familia de las dibenzazepinas (derivado de la carboxamida, emparentado con carbamazepina y oxcarbazepina), profármaco cuya actividad se ejerce sobre todo a través de su metabolito eslicarbazepina. Según la ficha técnica de Zebinix (AEMPS-CIMA), está indicado en monoterapia de las crisis de inicio parcial con o sin generalización secundaria en adultos con epilepsia recién diagnosticada y como terapia adyuvante de esas crisis en adultos, adolescentes y niños mayores de 6 años (4.1). Estabiliza el estado inactivado de los canales de sodio activados por voltaje e impide el disparo neuronal repetitivo (5.1). En psiquiatría interesa sobre todo por la hiponatremia, dependiente de la dosis y más probable en edad avanzada o con otros fármacos hiponatremiantes, que puede presentarse como confusión, letargia o empeoramiento de las crisis y confundirse con un cuadro psiquiátrico; por su inducción de CYP3A4 y de la glucuronidación, y porque se ensayó sin éxito concluyente en la manía aguda.",
+   "feats": [
+    "Estado en España (CIMA): Zebinix comprimidos y suspensión oral (Bial-Portela; p. ej., Zebinix 800 mg comprimidos, nº de registro 09514017), comercializado, de autorización centralizada por la EMA; hay genéricos autorizados (p. ej., Eslicarbazepina Cinfa, Eslicarbazepina Normon)",
+    "Contraindicaciones (ficha técnica de Zebinix, 4.3): hipersensibilidad al principio activo o a otros derivados de carboxamida (carbamazepina, oxcarbazepina) y bloqueo auriculoventricular de segundo o tercer grado; precaución por prolongación del PR (4.4)",
+    "Hiponatremia (4.4 y 4.8): reacción adversa frecuente, en el 1,5 % de los tratados en ensayos, que aumenta con la dosis; puede acompañarse de empeoramiento de las crisis, confusión o disminución de la conciencia; con frecuencia no conocida, SIADH con letargo, náuseas, cefalea o estado confusional; controlar el sodio si hay nefropatía o fármacos hiponatremiantes y suspender si es clínicamente significativa",
+    "Reacciones psiquiátricas (4.8): frecuente el insomnio; poco frecuentes los trastornos psicóticos, la apatía, la depresión, el nerviosismo, la agitación, la irritabilidad, el estado confusional, los cambios del estado de ánimo, el llanto, el retraso psicomotor y la ansiedad; en niños, la agitación fue más frecuente que en adultos",
+    "Interacciones (4.5): inductor de CYP3A4 y de UDP-glucuronil transferasas (el nuevo equilibrio enzimático tarda 2-3 semanas) e inhibidor de CYP2C19; reduce la exposición a etinilestradiol (42 %) y levonorgestrel (37 %), simvastatina (50 %) y lamotrigina (15 %); eleva la fenitoína (31-35 %); no se recomienda con oxcarbazepina; interacción teórica con IMAO por su parentesco con los tricíclicos",
+    "Práctica clínica (Strýček 2024): en 164 personas, hiponatremia en el 30,5 % y grave en el 6,1 %, dependiente de la dosis en sus grados moderado y grave; casi la mitad no requirió intervención, motivó la retirada en el 6,2 % y el principal factor de riesgo, además de la dosis, fue la edad avanzada",
+    "HLA (4.4): por su similitud con la carbamazepina, los portadores de HLA-B*1502 (chinos han, tailandeses y otras poblaciones asiáticas) pueden tener riesgo de síndrome de Stevens-Johnson; la ficha pide estudiar el alelo cuando sea posible y usarla en portadores solo si el beneficio supera el riesgo"
+   ],
+   "tx": "No tiene indicación psiquiátrica en España. En quien la toma, determinar el sodio antes de añadir psicofármacos que también pueden causar hiponatremia, como los ISRS, los IRSN, la carbamazepina o la oxcarbazepina, y ante cualquier confusión, letargia, caída o empeoramiento conductual, sobre todo en personas mayores; la ficha técnica de Zebinix pide controlar el sodio con diuréticos, desmopresina o carbamazepina concomitantes y retirar el fármaco si la hiponatremia es clínicamente significativa (4.4). Recordar la inducción de CYP3A4 y de la glucuronidación al combinarla con psicofármacos metabolizados por estas vías (inferencia por mecanismo para cada psicofármaco concreto [fuente no localizada]) y la necesidad de anticoncepción eficaz no dependiente solo de estrógenos o progestágenos orales (4.5 y 4.6). La retirada debe ser gradual (4.4).",
+   "note": "La incidencia de hiponatremia varía mucho según la fuente: 1,2-1,5 % en los ensayos, el 10,2 % de las reacciones adversas notificadas tras 6 años de comercialización (Gama 2017, autores del titular) y el 30,5 % en una serie retrospectiva de un centro (Strýček 2024), en la que la mayoría eran leves y asintomáticas. Los ensayos en manía aguda y prevención de recurrencias no alcanzaron la variable principal (Grunze 2015) y no hay indicación psiquiátrica autorizada. No hay comparaciones directas con oxcarbazepina sobre la frecuencia de hiponatremia entre los estudios verificados para esta ficha [fuente no localizada]. Sin datos específicos en chemsex o en trastornos por consumo [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Hiponatremia: magnitud, factores de riesgo y presentación psiquiátrica",
+     "x": "La hiponatremia es característica de las dibenzazepinas; la carbamazepina y la oxcarbazepina son los antiepilépticos que más la producen y la eslicarbazepina se ha incorporado a ese grupo (Lu y Wang 2017). En los ensayos de fase III se consideró posiblemente relacionada en el 1,2 %, pero tras 6 años de vigilancia poscomercialización fue la reacción adversa más notificada (10,2 %), con más de la mitad de los casos con la dosis diaria más alta (Gama 2017). En un metaanálisis de 13 ensayos controlados en distintas enfermedades neurológicas y psiquiátricas, la hiponatremia se asoció significativamente al fármaco con las dosis intermedia y alta (Zhu 2020). En la práctica clínica, la serie de Brno halló hiponatremia en casi un tercio, grave en el 6,1 % y más frecuente con la edad (Strýček 2024); en personas mayores con crisis tras un ictus apareció en el 12,5 %, sintomática en tres de cuatro casos (Gupta 2015). Puede manifestarse incluso mucho tiempo después del inicio y desencadenar una crisis tónico-clónica (Habib 2021). En psiquiatría de enlace y psicogeriatría, la confusión, la apatía, la lentitud o la inestabilidad de una persona que toma eslicarbazepina obligan a medir el sodio antes de atribuirlas a depresión, demencia o delirium de otra causa [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "hiponatremia y SIADH por psicofármacos"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "carbamaz",
+        "oxcarbazepina"
+       ],
+       "t": "otras dibenzazepinas"
+      }
+     ]
+    },
+    {
+     "t": "Ensayos en trastorno bipolar y lugar en las guías",
+     "x": "El titular ensayó la eslicarbazepina en el trastorno bipolar I: en el estudio de manía aguda de 3 semanas con dosis ajustadas a la respuesta (160 personas), ningún grupo difirió de placebo en la escala de manía de Young, aunque algunas variables secundarias de impresión clínica global mejoraron; el segundo estudio de manía se interrumpió por dificultades de reclutamiento y el de prevención de recurrencias no mostró diferencias en la variable principal (Grunze 2015). Por tanto, a diferencia de la carbamazepina, no tiene lugar en el tratamiento del trastorno bipolar, y no figura como opción en las guías de psicofarmacología consultadas [fuente no localizada]. En epilepsia, NICE NG217 la incluye entre las opciones de segunda línea en terapia añadida para las crisis focales, junto con brivaracetam, cenobamato, perampanel y pregabalina. En la comparación indirecta con brivaracetam, lacosamida y perampanel no hubo diferencias de eficacia, pero sí más efectos adversos con la dosis alta de eslicarbazepina que con la de brivaracetam (Brigo 2016).",
+     "links": [
+      {
+       "ids": [
+        "vpa_bip",
+        "carbamaz",
+        "ep_mania"
+       ],
+       "t": "antiepilépticos en el trastorno bipolar"
+      },
+      {
+       "ids": [
+        "brivaracetam",
+        "lacosamida",
+        "perampanel"
+       ],
+       "t": "antiepilépticos comparados"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones con psicofármacos, HLA y otros riesgos",
+     "x": "La eslicarbazepina induce CYP3A4 y la glucuronidación: la ficha técnica de Zebinix documenta descensos de la simvastatina (50 %), los anticonceptivos orales (etinilestradiol 42 %, levonorgestrel 37 %) y la rosuvastatina, y avisa de que el nuevo equilibrio enzimático tarda 2 a 3 semanas en alcanzarse al iniciar, retirar o cambiar la dosis (4.5). Aunque la ficha no estudia psicofármacos concretos, es razonable anticipar una reducción de la exposición a los metabolizados por CYP3A4 (quetiapina, lurasidona, buprenorfina o metadona, entre otros) y por glucuronidación, que habrá que vigilar clínicamente [fuente no localizada]. Inhibe CYP2C19 y eleva la fenitoína; carbamazepina y fenitoína reducen su metabolito activo y la combinación con carbamazepina aumenta la diplopía, la descoordinación y el mareo (4.5). Las reacciones cutáneas graves (SSJ, NET, DRESS) obligan a retirarla y a no reintroducirla, y en portadores de HLA-B*1502 o HLA-A*3101 se aplica la misma cautela que con la carbamazepina (4.4). La ficha recoge también hipotiroidismo y alteraciones del metabolismo óseo (4.8).",
+     "links": [
+      {
+       "ids": [
+        "hla_carbamaz",
+        "etnopsicofarm"
+       ],
+       "t": "HLA-B*15:02 y farmacogenética por ancestría"
+      },
+      {
+       "ids": [
+        "quetiapina",
+        "metadona"
+       ],
+       "t": "psicofármacos metabolizados por CYP3A4"
+      },
+      {
+       "ids": [
+        "fenitoina"
+       ],
+       "t": "fenitoína"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Zebinix 800 mg comprimidos (acetato de eslicarbazepina) (nº de registro 09514017), apartados 4.1, 4.3-4.5, 4.8 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "NICE (2022, actualizada). Epilepsies in children, young people and adults. NICE guideline NG217, recomendación 5.2.5; consulta de noviembre de 2026",
+    "Strýček O et al. (2024). Eslicarbazepine-induced hyponatremia: a retrospective single-center real clinical practice study. Epilepsia Open 9:404-408 · PMID 37593899",
+    "Gama H et al. (2017). Safety profile of eslicarbazepine acetate as add-on therapy in adults with refractory focal-onset seizures: from clinical studies to 6 years of post-marketing experience. Drug Saf 40:1231-1240 · PMID 28752473",
+    "Zhu LN et al. (2020). The tolerability and safety profile of eslicarbazepine acetate in neurological disorders. J Neurol Sci 413:116772 · PMID 32217376",
+    "Lu X, Wang X (2017). Hyponatremia induced by antiepileptic drugs in patients with epilepsy. Expert Opin Drug Saf 16:77-87 · PMID 27737595",
+    "Gupta DK et al. (2015). Hyponatremia following esclicarbazepine therapy. Seizure 29:11-14 · PMID 26076838",
+    "Habib MB et al. (2021). Eslicarbazepine-induced severe hyponatremia resulted in generalized tonic-clonic seizure. Clin Case Rep 9:e04851 · PMID 34765195",
+    "Grunze H et al. (2015). Assessment of the efficacy and safety of eslicarbazepine acetate in acute mania and prevention of recurrence: experience from multicentre, double-blind, randomised phase II clinical studies in patients with bipolar disorder I. J Affect Disord 174:70-82 · PMID 25484179",
+    "Brigo F et al. (2016). Efficacy and tolerability of brivaracetam compared to lacosamide, eslicarbazepine acetate, and perampanel as adjunctive treatments in uncontrolled focal epilepsy: results of an indirect comparison meta-analysis of RCTs. Seizure 42:29-37 · PMID 27710868"
+   ],
+   "rel": [
+    "oxcarbazepina",
+    "carbamaz",
+    "hiponatr_psicof",
+    "hla_carbamaz",
+    "etnopsicofarm",
+    "vpa_bip",
+    "delirium",
+    "iatrog_farm",
+    "fenitoina",
+    "brivaracetam"
+   ]
+  },
+  {
+   "id": "fenitoina",
+   "n": "Fenitoína (Epanutin, Sinergina): inducción enzimática, interacciones con psicofármacos y efectos psiquiátricos y cognitivos",
+   "ab": "Fenitoína",
+   "al": [
+    "Epanutin",
+    "Sinergina",
+    "fenitoína",
+    "difenilhidantoína",
+    "PHT"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1938,
+   "tags": [
+    "risk",
+    "organic"
+   ],
+   "desc": "Antiepiléptico derivado de la hidantoína, en uso desde finales de los años treinta, sin indicación psiquiátrica. Según las fichas técnicas de Epanutin y Sinergina (AEMPS-CIMA), está indicada en las convulsiones tónico-clónicas generalizadas, las crisis parciales complejas y el tratamiento y la prevención de las convulsiones en neurocirugía (4.1). Estabiliza el umbral de hiperexcitabilidad neuronal favoreciendo la salida de sodio, reduce la potenciación postetánica e impide la propagación del foco cortical (5.1). Su interés para la psiquiatría es triple: es un potente inductor enzimático con metabolismo saturable, lo que la convierte en una de las fuentes más importantes de interacciones con psicofármacos; sus concentraciones supraterapéuticas producen estados confusionales, delirium, psicosis y encefalopatía (4.4); y su perfil cognitivo es intermedio entre el del fenobarbital y el de los antiepilépticos modernos. Un pequeño ensayo la estudió como coadyuvante antimaníaco (Mishory 2000), sin lugar en las guías.",
+   "feats": [
+    "Estado en España (CIMA): Epanutin 100 mg cápsulas duras (Viatris; nº de registro 45695) y Sinergina 100 mg comprimidos (Faes Farma; nº de registro 5970), comercializados, de autorización nacional; para uso hospitalario, Fenitoína Rubió y Fenitoína Altan solución inyectable, comercializadas",
+    "Contraindicaciones (ficha técnica de Epanutin, 4.3): hipersensibilidad a fenitoína u otras hidantoínas y administración con delavirdina; advertencias (4.4) de no retirarla bruscamente, reacciones cutáneas graves y DRESS, hepatotoxicidad, discrasias sanguíneas, porfiria, hiperglucemia, osteomalacia y daño fetal en mujeres en edad fértil",
+    "Sistema nervioso central (4.4): concentraciones por encima del margen terapéutico pueden producir estados confusionales como delirium, psicosis o encefalopatía y, raramente, disfunción y atrofia cerebelosa irreversibles; ante el primer signo de toxicidad se recomienda determinar la concentración sérica",
+    "Farmacocinética (ficha técnica de Sinergina, 5.2): metabolismo por CYP2C9 (90 %) y CYP2C19 (10 %), saturable; con pequeños aumentos de dosis la semivida se alarga y la concentración puede subir de forma desproporcionada, con riesgo de intoxicación; unión a proteínas del 90 %, con más fracción libre en hipoalbuminemia, nefropatía o hepatopatía (4.4)",
+    "Psicofármacos (Epanutin, 4.5): pueden elevar la fenitoína clordiazepóxido, diazepam, disulfiram, metilfenidato, trazodona, fluoxetina, fluvoxamina y sertralina; la fenitoína reduce los niveles o efectos de clozapina, paroxetina, quetiapina, sertralina y metadona; los tricíclicos pueden precipitar crisis; con valproato, más riesgo de hiperamonemia",
+    "Quetiapina (Wong 2001): la fenitoína quintuplicó el aclaramiento de quetiapina en personas con esquizofrenia, trastorno esquizoafectivo o bipolar; en cambio, en 30 voluntarios sanos la sertralina no modificó la farmacocinética de la fenitoína (Rapeport 1996), pese a figurar en la tabla de la ficha",
+    "Farmacogenética (4.4): los portadores de variantes de función disminuida CYP2C9*2 o *3 tienen más riesgo de concentraciones altas y toxicidad; HLA-B*1502 (chinos han, tailandeses) y CYP2C9*3 se asocian a reacciones cutáneas graves; evitarla en portadores de HLA-B*1502 si hay alternativas"
+   ],
+   "tx": "No tiene indicación psiquiátrica. En quien la toma, revisar cada psicofármaco que se inicie o retire: la fenitoína reduce de forma marcada la exposición a quetiapina, clozapina, metadona y otros sustratos de enzimas inducibles (ficha técnica de Epanutin, 4.5), y varios psicofármacos pueden elevarla hasta la toxicidad; la monitorización de concentraciones séricas es útil cuando se sospecha una interacción (4.5). Ante confusión, ataxia, nistagmo, disartria, lentitud o síntomas psicóticos de nueva aparición, determinar la concentración (preferiblemente libre si hay hipoalbuminemia, nefropatía o hepatopatía) antes de atribuirlos a un trastorno psiquiátrico (4.4). Al retirarla, los fármacos que inducía pueden subir y requerir ajuste [fuente no localizada para cada psicofármaco concreto]. Su retirada debe ser gradual y la decide neurología.",
+   "note": "El ensayo como antimaníaco es pequeño (39 personas, 5 semanas, combinado con haloperidol) y no se ha replicado en estudios amplios [fuente no localizada]; no figura como opción en las guías de trastorno bipolar consultadas [fuente no localizada]. Las tablas de interacciones de la ficha no son exhaustivas y algunas, como la de sertralina, no se reprodujeron en estudios formales (Rapeport 1996, financiado por el fabricante de la sertralina). Los datos cognitivos proceden de ensayos pequeños de los años noventa. No hay datos específicos en chemsex [fuente no localizada]; las interacciones con antirretrovirales sí constan en la ficha.",
+   "sec": [
+    {
+     "t": "Inducción enzimática e interacciones con psicofármacos",
+     "x": "La ficha técnica de Epanutin describe la fenitoína como un potente inductor de las enzimas hepáticas que puede reducir los niveles de los fármacos que estas metabolizan, y a la vez como especialmente susceptible a interacciones inhibitorias porque su metabolismo es saturable y se une ampliamente a proteínas (4.5). En psiquiatría, la consecuencia más estudiada es la pérdida de eficacia de antipsicóticos metabolizados por CYP3A4: con fenitoína, el aclaramiento de quetiapina se multiplicó por cinco (Wong 2001), y las revisiones de su farmacocinética recomiendan ajustar la dosis con inductores potentes (DeVane y Nemeroff 2001). La ficha añade clozapina, paroxetina, sertralina y metadona entre los fármacos cuyos niveles o efectos se alteran, y advierte de la reducción de la eficacia de los anticonceptivos hormonales (4.4 y 4.5). En sentido inverso, disulfiram, metilfenidato, trazodona, fluoxetina, fluvoxamina, diazepam y clordiazepóxido pueden elevar la fenitoína, mientras que la hierba de San Juan y el consumo crónico de alcohol la reducen (4.5). Con valproato aumenta el riesgo de hiperamonemia, y fenobarbital y carbamazepina tienen efectos impredecibles sobre sus niveles (4.5). La eslicarbazepina y la oxcarbazepina, inhibidoras de CYP2C19, también la elevan (fichas de Zebinix y Trileptal, 4.5).",
+     "links": [
+      {
+       "ids": [
+        "quetiapina",
+        "clozapina",
+        "metadona"
+       ],
+       "t": "psicofármacos afectados por la inducción"
+      },
+      {
+       "ids": [
+        "fenot_metab",
+        "cyp2c19"
+       ],
+       "t": "fenotipos metabolizadores"
+      },
+      {
+       "ids": [
+        "eslicarbazepina",
+        "oxcarbazepina",
+        "carbamaz"
+       ],
+       "t": "otros antiepilépticos"
+      }
+     ]
+    },
+    {
+     "t": "Efectos psiquiátricos y cognitivos",
+     "x": "La toxicidad de la fenitoína tiene una presentación neuropsiquiátrica: según la ficha técnica, el nistagmo, la ataxia, el habla arrastrada, la descoordinación y la confusión mental son frecuentes y dependientes de la dosis, y por encima del margen terapéutico aparecen delirium, psicosis o encefalopatía (4.4 y 4.8); la ficha cita además insomnio, nerviosismo transitorio, somnolencia y discinesias inducidas (corea, distonía, temblor, asterixis) semejantes a las de los neurolépticos (4.8). Como su metabolismo es saturable, un pequeño aumento de dosis o la adición de un inhibidor pueden precipitar un cuadro confusional (ficha de Sinergina, 5.2). En voluntarios sanos, los tres antiepilépticos clásicos estudiados empeoraron alguna medida cognitiva, el fenobarbital fue el peor y no hubo diferencias clínicamente significativas entre fenitoína y valproato (Meador 1995); en personas con epilepsia, el rendimiento con carbamazepina, fenobarbital y fenitoína fue comparable en casi todas las pruebas (Meador 1990). La ficha recoge también el pequeño aumento del riesgo de pensamientos y conductas suicidas común a los antiepilépticos (4.4). En un ensayo de 5 semanas en manía, añadir fenitoína a haloperidol produjo más mejoría que placebo en la manía bipolar, no en la esquizoafectiva (Mishory 2000).",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "iatrog_farm"
+       ],
+       "t": "delirium y síntomas inducidos"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "conducta suicida"
+      },
+      {
+       "ids": [
+        "vpa_bip",
+        "ep_mania"
+       ],
+       "t": "antiepilépticos en la manía"
+      },
+      {
+       "ids": [
+        "fenobarbital"
+       ],
+       "t": "fenobarbital"
+      }
+     ]
+    },
+    {
+     "t": "Alcohol, metadona, antirretrovirales y sobredosis",
+     "x": "La ficha técnica de Epanutin indica que la ingesta aguda de alcohol puede aumentar los niveles de fenitoína y la crónica, disminuirlos (4.4 y 4.5), lo que hace inestable el control de las crisis en personas con trastorno por consumo de alcohol. La fenitoína reduce los niveles de metadona (4.5), con posible aparición de síntomas de abstinencia de opioides en quien sigue un programa de mantenimiento [fuente no localizada para la magnitud]. Está contraindicada con delavirdina y reduce efavirenz, fosamprenavir, indinavir, lopinavir con ritonavir, nelfinavir, ritonavir y saquinavir, mientras que fosamprenavir, nelfinavir y ritonavir pueden reducirla (4.3 y 4.5); en personas con VIH que practican chemsex, cualquier cambio de antirretroviral o de antiepiléptico exige revisar la combinación [fuente no localizada]. En sobredosis, los primeros signos son nistagmo, ataxia y disartria, seguidos de letargia, coma, hipotensión, bradicardia o asistolia; la ficha estima la dosis letal en adultos entre 2 y 5 gramos y pide considerar la presencia de otros depresores, como el alcohol (4.9). En la valoración del riesgo autolítico, conviene recordar este margen [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "metadona"
+       ],
+       "t": "alcohol y metadona"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "efavirenz_psiq"
+       ],
+       "t": "antirretrovirales"
+      },
+      {
+       "ids": [
+        "hla_carbamaz",
+        "etnopsicofarm",
+        "porfiria"
+       ],
+       "t": "HLA, ancestría y porfiria"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Epanutin 100 mg cápsulas duras (fenitoína) (nº de registro 45695), apartados 4.1, 4.3-4.5, 4.8, 4.9 y 5.1; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Sinergina 100 mg comprimidos (fenitoína) (nº de registro 5970), apartados 4.1, 5.1 y 5.2; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "NICE (2022, actualizada). Epilepsies in children, young people and adults. NICE guideline NG217, recomendación 5.2.6 y tratamiento del estado epiléptico convulsivo; consulta de noviembre de 2026",
+    "Wong YW et al. (2001). The effects of concomitant phenytoin administration on the steady-state pharmacokinetics of quetiapine. J Clin Psychopharmacol 21:89-93 · PMID 11199955",
+    "DeVane CL, Nemeroff CB (2001). Clinical pharmacokinetics of quetiapine: an atypical antipsychotic. Clin Pharmacokinet 40:509-522 · PMID 11510628",
+    "Rapeport WG et al. (1996). Absence of effect of sertraline on the pharmacokinetics and pharmacodynamics of phenytoin. J Clin Psychiatry 57 Suppl 1:24-28 · PMID 8617708",
+    "Meador KJ et al. (1995). Comparative cognitive effects of phenobarbital, phenytoin, and valproate in healthy adults. Neurology 45:1494-1499 · PMID 7644047",
+    "Meador KJ et al. (1990). Comparative cognitive effects of anticonvulsants. Neurology 40:391-394 · PMID 2314578",
+    "Mishory A et al. (2000). Phenytoin as an antimanic anticonvulsant: a controlled study. Am J Psychiatry 157:463-465 · PMID 10698828",
+    "Cheung YK et al. (2013). HLA-B alleles associated with severe cutaneous reactions to antiepileptic drugs in Han Chinese. Epilepsia 54:1307-1314 · PMID 23692434"
+   ],
+   "rel": [
+    "carbamaz",
+    "quetiapina",
+    "clozapina",
+    "metadona",
+    "hla_carbamaz",
+    "fenot_metab",
+    "delirium",
+    "iatrog_farm",
+    "vpa_bip",
+    "chemsex_arv",
+    "porfiria",
+    "fenobarbital",
+    "eslicarbazepina"
+   ]
+  },
+  {
+   "id": "fenobarbital",
+   "n": "Fenobarbital (Luminal): inducción enzimática, abstinencia alcohólica en unidades de agudos y dependencia de barbitúricos",
+   "ab": "Fenobarbital",
+   "al": [
+    "Luminal",
+    "Luminaletas",
+    "fenobarbital",
+    "barbitúrico de acción prolongada",
+    "PB"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1912,
+   "tags": [
+    "risk",
+    "emerg",
+    "chemsex"
+   ],
+   "desc": "Barbitúrico de acción prolongada, con efectos anticonvulsivantes, sedantes e hipnóticos, en uso desde 1912. Según la ficha técnica de Luminal (AEMPS-CIMA), su única indicación autorizada es el tratamiento de la epilepsia (crisis generalizadas tónico-clónicas y crisis parciales simples) (4.1); la ficha de la nueva presentación inyectable de Fenobarbital Basi añade el estado epiléptico. Los barbitúricos son depresores no selectivos del sistema nervioso central, capaces de producir desde sedación hasta coma, con depresión respiratoria dependiente de la dosis (5.1); el fenobarbital modula positivamente el receptor GABA-A prolongando la apertura del canal de cloro [fuente no localizada en la ficha]. En psiquiatría y medicina de adicciones importa por cuatro motivos: es uno de los inductores enzimáticos más potentes; se usa fuera de ficha técnica en la abstinencia alcohólica grave o resistente a benzodiacepinas en urgencias y cuidados intensivos; se ha empleado en la abstinencia grave de GHB/GBL, relevante en chemsex; y, como todo barbitúrico, produce tolerancia y dependencia física, con una abstinencia que puede causar delirium, convulsiones y muerte (4.4).",
+   "feats": [
+    "Estado en España (CIMA): Luminal 100 mg comprimidos (nº de registro 35052), Luminaletas 15 mg comprimidos (nº 3275) y Luminal 200 mg/ml solución inyectable (nº 3905), de Kern Pharma, comercializados y con la condición de psicótropos; Fenobarbital Basi 100 mg/ml solución inyectable, autorizado en octubre de 2026 y aún no comercializado; autorización nacional, no centralizada",
+    "Contraindicaciones (ficha técnica de Luminal, 4.3): hipersensibilidad a barbitúricos, intoxicación aguda por alcohol, insuficiencia respiratoria grave, administración simultánea de somníferos o analgésicos, intoxicación por estimulantes o psicofármacos sedantes, antecedentes de porfirias hepáticas y administración con atazanavir, saquinavir, dolutegravir y varios antivirales de acción directa frente a la hepatitis C",
+    "Dependencia y retirada (4.4): tras una administración prolongada puede desarrollarse tolerancia y dependencia psicológica y física; el cese brusco en una persona dependiente puede causar síntomas de retirada con delirio, convulsiones y posiblemente la muerte, por lo que debe retirarse de forma gradual; antecedentes de abuso o dependencia de drogas condicionan su uso",
+    "Inducción enzimática (4.5): induce citocromos P450, UDP-glucuronosiltransferasas y glucoproteína P; reduce la exposición a metadona (con riesgo de abstinencia y, a la vez, más depresión respiratoria), amitriptilina, lamotrigina, carbamazepina, anticonceptivos hormonales, anticoagulantes, corticoides y numerosos antirretrovirales; el valproato eleva el fenobarbital y la combinación aumenta el riesgo de hiperamonemia",
+    "Reacciones psiquiátricas y cognitivas (4.8): frecuentes la agitación o agresividad, la somnolencia, los trastornos cognitivos y el deterioro de la memoria; poco frecuentes los cambios del estado de ánimo y el insomnio; dependencia de frecuencia no conocida; excitación paradójica y confusión en niños y personas mayores (4.4)",
+    "Abstinencia alcohólica (Lee 2024): en 8 estudios de urgencias (1507 personas), el fenobarbital frente a benzodiacepinas no redujo el ingreso en UCI (RR 0,92; IC 95 % 0,54-1,55), el ingreso hospitalario ni los efectos adversos (RR 1,1); evidencia de calidad baja o moderada",
+    "Semivida (ficha técnica de Luminal, 5.2): 50 a 140 horas en adultos, prolongada en personas mayores y con insuficiencia renal o hepática, lo que explica su efecto autolimitado al retirar y su acumulación; concentraciones tóxicas por encima de 50 µg/ml"
+   ],
+   "tx": "En la abstinencia alcohólica, las benzodiacepinas siguen siendo el tratamiento de primera línea (NICE CG100 recomienda una benzodiacepina o carbamazepina, con clometiazol como alternativa, sin mencionar el fenobarbital); la guía de la ASAM de 2020 también las sitúa en primera línea [fuente no localizada]. El fenobarbital es una opción fuera de ficha técnica en España, reservada a unidades de urgencias, hospitalización con monitorización o cuidados intensivos, en la abstinencia grave, el delirium tremens o la resistencia a dosis altas de benzodiacepinas, con protocolo institucional y personal con experiencia [fuente no localizada para la formulación literal de la ASAM]. Debe vigilarse la sedación y la función respiratoria, sobre todo si se combina con benzodiacepinas, y no administrarse en la intoxicación aguda por alcohol ni por sedantes o estimulantes (ficha técnica de Luminal, 4.3). En quien lo toma de forma crónica, revisar todas las interacciones por inducción y no retirarlo bruscamente (4.4).",
+   "note": "La evidencia en la abstinencia alcohólica procede sobre todo de estudios observacionales retrospectivos con riesgo de sesgo moderado o alto y heterogeneidad en las pautas; los metaanálisis no muestran superioridad sobre las benzodiacepinas en ingreso en UCI, intubación, crisis ni estancia (Lee 2024; Pourmand 2023). La contraindicación de la ficha española de Luminal para la «administración simultánea de somníferos o analgésicos» choca con su uso combinado con benzodiacepinas en los protocolos hospitalarios, que es fuera de ficha técnica. En la abstinencia de GHB/GBL solo hay series de casos. El estudio experimental clásico de Isbell (1950) sobre la intoxicación crónica por barbitúricos carece de resumen en PubMed y su contenido concreto no se ha contrastado para esta ficha.",
+   "sec": [
+    {
+     "t": "Abstinencia alcohólica en unidades de agudos: qué aporta la evidencia",
+     "x": "En el único ensayo aleatorizado y enmascarado en urgencias, una dosis única de fenobarbital intravenoso añadida a un protocolo de lorazepam guiado por síntomas redujo el ingreso en UCI (8 % frente a 25 %) sin más efectos adversos (Rosenson 2013). Las revisiones posteriores matizan el resultado: el metaanálisis de 8 estudios de urgencias no halló reducción del ingreso en UCI, del ingreso hospitalario ni de los efectos adversos frente a las benzodiacepinas (Lee 2024); el de 12 estudios en urgencias y UCI (1934 personas) no encontró diferencias en intubación (RR 0,70; IC 95 % 0,36-1,38), crisis (RR 0,73) ni estancia (Pourmand 2023); la revisión de la SAEM concluyó que la evidencia directa es escasa pero apoya que es un abordaje razonable (Punia 2024). Asociado a benzodiacepinas, se describió menos ventilación mecánica (21,9 % frente a 47,3 %) y una reducción del 50-90 % de las necesidades de benzodiacepinas (Hammond 2017), y las revisiones de ensayos lo consideran al menos tan eficaz como las benzodiacepinas y una opción razonable en la abstinencia resistente a ellas (Mo 2016). Los neurolépticos en monoterapia se asociaron a más mortalidad en el delirium tremens (Mayo-Smith 2004). Su semivida larga (ficha técnica de Luminal, 5.2) permite un descenso autolimitado, pero también acumulación en hepatopatía y edad avanzada.",
+     "links": [
+      {
+       "ids": [
+        "dt_alc",
+        "delirium"
+       ],
+       "t": "abstinencia alcohólica y delirium tremens"
+      },
+      {
+       "ids": [
+        "ciwa_ar"
+       ],
+       "t": "escala CIWA-Ar"
+      },
+      {
+       "ids": [
+        "diazepam",
+        "clometiazol",
+        "dexmedetomidina"
+       ],
+       "t": "otros fármacos de la abstinencia"
+      },
+      {
+       "ids": [
+        "kindling_abst_alc"
+       ],
+       "t": "kindling de la abstinencia"
+      }
+     ]
+    },
+    {
+     "t": "Dependencia y abstinencia de barbitúricos; uso en la retirada de otros sedantes",
+     "x": "La ficha técnica de Luminal reconoce que la administración prolongada puede producir tolerancia y dependencia psicológica y física, que la dependencia figura entre las reacciones adversas y que el cese brusco en una persona dependiente puede provocar delirio, convulsiones y posiblemente la muerte, por lo que la retirada debe ser gradual (4.4 y 4.8). Los síntomas de toxicidad crónica que describe la ficha (confusión grave, irritabilidad continua, escasa capacidad de raciocinio, problemas para dormir y lesión hepática) pueden confundirse con un trastorno psiquiátrico primario (4.9). Su perfil farmacocinético, de acción prolongada, ha llevado a emplearlo en la retirada hospitalaria de benzodiacepinas: en 310 ingresos con una pauta fija y breve de fenobarbital no hubo crisis, caídas ni lesiones, aunque en un cuarto de los casos hubo que omitir alguna dosis por sedación y solo tres personas reingresaron por abstinencia (Kawasaki 2012). Las revisiones sobre la retirada hospitalaria de benzodiacepinas incluyen los protocolos de fenobarbital entre las opciones para pacientes complejos (Karavolis 2026). La clasificación diagnóstica de estos cuadros y su codificación están en la ficha de trastornos por consumo de sedantes.",
+     "links": [
+      {
+       "ids": [
+        "sedantes_tus",
+        "bzd_dep"
+       ],
+       "t": "consumo de sedantes y dependencia de benzodiacepinas"
+      },
+      {
+       "ids": [
+        "neuroadapt_sed"
+       ],
+       "t": "neuroadaptación a sedantes"
+      },
+      {
+       "ids": [
+        "desprescr_bzd"
+       ],
+       "t": "deprescripción de benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Chemsex: abstinencia de GHB/GBL, interacciones con antirretrovirales y depresores",
+     "x": "La abstinencia grave de GHB o GBL, una de las urgencias más características del chemsex, puede ser resistente a dosis crecientes de benzodiacepinas. En una serie de 13 episodios en dos hospitales de Sídney con abstinencia persistente o progresiva pese a diazepam y baclofeno, el fenobarbital, oral en planta o intravenoso en UCI, mejoró los síntomas en todos los casos sin efectos adversos atribuidos (Freeman 2023); en otra cohorte de 135 ingresos por abstinencia de GHB se usó en el 5,9 % (Siefried 2023). La justificación farmacológica propuesta es la acción de los barbitúricos sobre receptores GABA-A extrasinápticos insensibles a las benzodiacepinas (Ghio 2014), una hipótesis no demostrada en clínica. Para el chemsex importan también sus interacciones: la ficha técnica de Luminal contraindica su uso con atazanavir, saquinavir y dolutegravir y advierte de la reducción de la eficacia de otros antirretrovirales y de los anticonceptivos hormonales (4.3 y 4.5), y lo contraindica en la intoxicación por estimulantes o sedantes y por alcohol (4.3). Su combinación con GHB, opioides, benzodiacepinas o alcohol potencia la depresión respiratoria, con riesgo de muerte (4.5).",
+     "links": [
+      {
+       "ids": [
+        "ghb_abst",
+        "ghb_gbl"
+       ],
+       "t": "abstinencia de GHB/GBL"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "metadona",
+        "opioides"
+       ],
+       "t": "opioides y metadona"
+      }
+     ]
+    },
+    {
+     "t": "Efectos cognitivos e inducción enzimática en la práctica psiquiátrica",
+     "x": "El fenobarbital tiene el peor perfil cognitivo entre los antiepilépticos clásicos: en voluntarios sanos fue el que más empeoró el rendimiento frente a fenitoína y valproato (Meador 1995), y en personas con epilepsia rindió peor en la prueba de símbolos y dígitos pese a tener los niveles más bajos (Meador 1990). En 217 niños con convulsiones febriles, el cociente intelectual a los 2 años fue 7 puntos menor con fenobarbital que con placebo, la diferencia persistía parcialmente 6 meses después de retirarlo y no previno las recurrencias (Farwell 1990). La ficha técnica de Luminal lista como frecuentes la agitación o agresividad, los trastornos cognitivos y el deterioro de la memoria (4.8), y advierte de que los antidepresivos (IMAO, tricíclicos e ISRS) disminuyen el umbral convulsivo (4.5). Como inductor de citocromos P450, glucuronosiltransferasas y glucoproteína P, reduce la exposición a la amitriptilina y a la metadona entre los psicofármacos que cita la ficha (4.5); para el resto de sustratos (antipsicóticos, antidepresivos, buprenorfina) la reducción es esperable por mecanismo y debe vigilarse clínicamente [fuente no localizada]. NICE NG217 lo reserva como opción de tercera línea en terapia añadida para las crisis focales y como tercera línea en el estado epiléptico convulsivo.",
+     "links": [
+      {
+       "ids": [
+        "fenitoina",
+        "carbamaz",
+        "lamotrig"
+       ],
+       "t": "otros antiepilépticos inductores o afectados"
+      },
+      {
+       "ids": [
+        "vpa_bip"
+       ],
+       "t": "valproato"
+      },
+      {
+       "ids": [
+        "porfiria"
+       ],
+       "t": "porfiria"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Luminal 100 mg comprimidos y Luminaletas 15 mg comprimidos (fenobarbital) (nº de registro 35052 y 3275), apartados 4.1, 4.3-4.5, 4.8, 4.9, 5.1 y 5.2; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Fenobarbital Basi 100 mg/ml solución inyectable (nº de registro 91684), apartado 4.1; autorizado en octubre de 2026, no comercializado a la fecha de consulta (noviembre de 2026)",
+    "NICE (2010, actualizada). Alcohol-use disorders: diagnosis and management of physical complications. NICE guideline CG100, recomendaciones sobre la abstinencia aguda; consulta de noviembre de 2026",
+    "NICE (2022, actualizada). Epilepsies in children, young people and adults. NICE guideline NG217, recomendación 5.2.6 y estado epiléptico convulsivo; consulta de noviembre de 2026",
+    "American Society of Addiction Medicine (2020). The ASAM Clinical Practice Guideline on Alcohol Withdrawal Management. J Addict Med 14(3S Suppl 1):1-72 · PMID 32511109",
+    "Rosenson J et al. (2013). Phenobarbital for acute alcohol withdrawal: a prospective randomized double-blind placebo-controlled study. J Emerg Med 44:592-598.e2 · PMID 22999778",
+    "Lee CM et al. (2024). Phenobarbital treatment of alcohol withdrawal in the emergency department: a systematic review and meta-analysis. Acad Emerg Med 31:515-524 · PMID 37923363",
+    "Pourmand A et al. (2023). Evaluation of phenobarbital based approach in treating patient with alcohol withdrawal syndrome: a systematic review and meta-analysis. Am J Emerg Med 69:65-75 · PMID 37060631",
+    "Punia K et al. (2024). SAEM GRACE: Phenobarbital for alcohol withdrawal management in the emergency department: a systematic review of direct evidence. Acad Emerg Med 31:481-492 · PMID 37589203",
+    "Hammond DA et al. (2017). Patient outcomes associated with phenobarbital use with or without benzodiazepines for alcohol withdrawal syndrome: a systematic review. Hosp Pharm 52:607-616 · PMID 29276297",
+    "Mo Y et al. (2016). Barbiturates for the treatment of alcohol withdrawal syndrome: a systematic review of clinical trials. J Crit Care 32:101-107 · PMID 26795441",
+    "Mayo-Smith MF et al. (2004). Management of alcohol withdrawal delirium: an evidence-based practice guideline. Arch Intern Med 164:1405-1412 · PMID 15249349",
+    "Freeman G et al. (2023). Phenobarbital to manage severe gamma-hydroxybutyrate withdrawal: a case series. Drug Alcohol Rev 42:27-32 · PMID 36269081",
+    "Siefried KJ et al. (2023). Inpatient GHB withdrawal management in an inner-city hospital in Sydney, Australia: a retrospective medical record review. Psychopharmacology (Berl) 240:127-135 · PMID 36508055",
+    "Ghio L et al. (2014). Management and treatment of gamma butyrolactone withdrawal syndrome: a case report and review. J Psychiatr Pract 20:294-300 · PMID 25036586",
+    "Kawasaki SS et al. (2012). Safety and effectiveness of a fixed-dose phenobarbital protocol for inpatient benzodiazepine detoxification. J Subst Abuse Treat 43:331-334 · PMID 22285834",
+    "Karavolis Z et al. (2026). Inpatient management of benzodiazepine withdrawal: a narrative review of a systematic, individualized taper design. Harv Rev Psychiatry 34:237-247 · PMID 42294745",
+    "Meador KJ et al. (1995). Comparative cognitive effects of phenobarbital, phenytoin, and valproate in healthy adults. Neurology 45:1494-1499 · PMID 7644047",
+    "Meador KJ et al. (1990). Comparative cognitive effects of anticonvulsants. Neurology 40:391-394 · PMID 2314578",
+    "Farwell JR et al. (1990). Phenobarbital for febrile seizures: effects on intelligence and on seizure recurrence. N Engl J Med 322:364-369 · PMID 2242106",
+    "Isbell H et al. (1950). Chronic barbiturate intoxication: an experimental study. Arch Neurol Psychiatry 64:1-28 · PMID 15426447 [no verificada]"
+   ],
+   "rel": [
+    "dt_alc",
+    "sedantes_tus",
+    "ghb_abst",
+    "ghb_gbl",
+    "bzd_dep",
+    "neuroadapt_sed",
+    "ciwa_ar",
+    "clometiazol",
+    "diazepam",
+    "chemsex_arv",
+    "chemsex_s",
+    "metadona",
+    "kindling_abst_alc",
+    "delirium",
+    "desprescr_bzd",
+    "porfiria",
+    "fenitoina"
+   ]
+  }
+ ]
+}
