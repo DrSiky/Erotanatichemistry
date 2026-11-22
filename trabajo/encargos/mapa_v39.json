@@ -1,0 +1,52 @@
+{
+ "patch": {
+  "mapa_integr": {
+   "set": {
+    "n": "Atlas clínico-geométrico del espectro afectivo (Segovia Vera, v3.9)",
+    "desc": "Atlas visual de 168 páginas de F. J. Segovia Vera (edición revisada y ampliada v3.9, 21 de noviembre de 2026) sobre nosología, fenomenología, curso e incertidumbre en el espectro afectivo. Reúne una matriz fenomenológica de 24 perfiles × 21 variables, cartografías de dimensiones, veintisiete láminas longitudinales de curso (diez de ellas de curso farmacológico), transiciones, moduladores y fármacos, una auditoría crítica de los originales y siete ampliaciones clínicas: precisiones y psicosis; evaluación, riesgo, mixticidad, tratamiento, periparto y sustancias; pródromos, residuo, polaridad, vivencia, minorías y psicosis cicloide; nosología dimensional (ACE, espectro, HiTOP, RDoC, estadificación); farmacología de 15 fármacos por fase, seguridad y fichas; guías, titulación, NNT, recaída, polaridad y metabolismo; poblaciones especiales, resistencia, suicidio y litio, y genética; el corpus del autor sobre mixticidad, espectro, esquizoafectivo y neurobiología (ampliación VIII); y los textos completos sobre curso semanal, recaída, dinámica mixta, estadios y genómica (ampliación IX). Cierra con método, fuentes normativas, bibliografía verificada y dosieres. El documento completo va incrustado en esta edición del atlas: se abre desde el botón de la ficha.",
+    "note": "Modelo propio de F. J. Segovia Vera: su valor es heurístico y docente, y la geometría es conceptual y sin calibración individual (así lo declara el propio documento). Sustituye a la versión v3.7 (130 páginas, 19 de noviembre de 2026) por la v3.9 (168 páginas, 21 de noviembre de 2026), que añade la ampliación VIII (corpus del autor: mixticidad, espectro, esquizoafectivo, neurobiología) y la ampliación IX (textos completos: curso semanal, recaída, dinámica mixta, estadios MNF, genómica). Las ampliaciones farmacológicas y las VII-IX son contenido del documento adjunto y no se han cotejado al incorporarlo; lo que afirma sobre criterios, fármacos y fuentes debe contrastarse con sus propias páginas de método y bibliografía (pp. 126-168) y con las fichas técnicas vigentes.",
+    "refs": [
+     "Segovia Vera FJ (2026). Atlas clínico-geométrico del espectro afectivo: nosología, fenomenología, curso, incertidumbre. Edición revisada y ampliada v3.9, 21-11-2026 (documento propio, 168 páginas; incrustado en esta edición)",
+     "OMS (2024). Clinical descriptions and diagnostic requirements for ICD-11 mental, behavioural and neurodevelopmental disorders (CDDR). Ginebra: OMS",
+     "NICE (2014, actualizada). Bipolar disorder: assessment and management (CG185)",
+     "NICE (2022). Depression in adults: treatment and management (NG222)",
+     "Akiskal HS & Pinto O (1999). The evolving bipolar spectrum. Prototypes I, II, III, and IV. Psychiatr Clin North Am 22:517-534 · PMID 10550853",
+     "Kotov R et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): a dimensional alternative to traditional nosologies. J Abnorm Psychol 126:454-477 · PMID 28333488",
+     "Insel T et al. (2010). Research domain criteria (RDoC): toward a new classification framework for research on mental disorders. Am J Psychiatry 167:748-751 · PMID 20595427"
+    ]
+   },
+   "secReplace": [
+    {
+     "t": "Recorrido editorial del documento",
+     "x": "Según el índice del documento (v3.9): pp. 4-7, matriz fenomenológica de 24 perfiles × 21 variables · pp. 8-9, cartografía de dimensiones y proyecciones · pp. 10-18, nueve láminas longitudinales (cursos 10-27 en las pp. 24, 33-35, 43, 62, 78, 81-88, 93-94 y 97) · pp. 19-20, transiciones, moduladores y fármacos · p. 21, auditoría crítica de originales · pp. 22-25, ampliación I (precisiones, espectro, curso inducido y psicosis) · pp. 26-41, ampliación II (evaluación, riesgo, mixticidad, tratamiento, periparto, sustancias) · pp. 42-48, ampliación III (pródromos, residuo, polaridad, vivencia, minorías, psicosis cicloide) · pp. 49-55, ampliación IV (nosología dimensional, ACE, espectro, HiTOP, RDoC, estadios) · pp. 56-71, ampliación V (farmacología de 15 fármacos por fase, seguridad y fichas) · pp. 72-79, ampliación VI (guías, titulación, NNT, recaída, polaridad, metabolismo) · pp. 80-88, láminas de curso farmacológico 15-24 · pp. 89-102, ampliación VII (poblaciones especiales, resistencia, suicidio y litio, genética) · pp. 103-112, ampliación VIII (corpus del autor: mixticidad, espectro, esquizoafectivo, neurobiología) · pp. 113-125, ampliación IX (textos completos: curso semanal, recaída, dinámica mixta, estadios MNF, genómica) y guía · pp. 126-168, método, fuentes normativas, bibliografía verificada y dosieres.",
+     "links": [
+      {
+       "ids": [
+        "poldom",
+        "pcicloid",
+        "genero"
+       ],
+       "t": "polaridad predominante, psicosis cicloide y estrés de minorías (ampliación III)"
+      },
+      {
+       "ids": [
+        "rdoc",
+        "estagio",
+        "bipsft"
+       ],
+       "t": "RDoC, estadificación y espectro bipolar (ampliación IV)"
+      },
+      {
+       "ids": [
+        "ppp",
+        "ind_bipdep",
+        "mxto"
+       ],
+       "t": "periparto, marcadores de bipolaridad y mixticidad (ampliación II)"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
