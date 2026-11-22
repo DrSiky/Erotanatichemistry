@@ -1,0 +1,924 @@
+{
+ "patch": {
+  "opioides": {
+   "relAdd": [
+    "tramadol",
+    "tapentadol",
+    "oxicodona"
+   ]
+  },
+  "gabap_nomed": {
+   "relAdd": [
+    "tramadol",
+    "tapentadol",
+    "oxicodona"
+   ]
+  },
+  "naloxona": {
+   "relAdd": [
+    "tramadol",
+    "tapentadol",
+    "oxicodona"
+   ]
+  },
+  "sind_ser": {
+   "relAdd": [
+    "tramadol",
+    "tapentadol",
+    "metoclopramida"
+   ]
+  },
+  "dolor_cron_prim": {
+   "relAdd": [
+    "tramadol",
+    "tapentadol",
+    "oxicodona"
+   ]
+  },
+  "otc_abuso": {
+   "relAdd": [
+    "tramadol"
+   ]
+  },
+  "maois": {
+   "relAdd": [
+    "tramadol"
+   ]
+  },
+  "disf_sex": {
+   "relAdd": [
+    "tramadol"
+   ]
+  },
+  "buprenorfina": {
+   "relAdd": [
+    "tapentadol",
+    "oxicodona"
+   ]
+  },
+  "ansiol_bzd": {
+   "relAdd": [
+    "oxicodona"
+   ]
+  },
+  "piernas_inquietas": {
+   "relAdd": [
+    "oxicodona"
+   ]
+  },
+  "opioides_sint": {
+   "relAdd": [
+    "oxicodona"
+   ]
+  },
+  "acatisia": {
+   "relAdd": [
+    "metoclopramida"
+   ]
+  },
+  "discin_tard": {
+   "relAdd": [
+    "metoclopramida"
+   ]
+  },
+  "vmat2_td": {
+   "relAdd": [
+    "metoclopramida"
+   ]
+  },
+  "snm": {
+   "relAdd": [
+    "metoclopramida"
+   ]
+  },
+  "hiperprl_ap": {
+   "relAdd": [
+    "metoclopramida",
+    "domperidona"
+   ]
+  },
+  "qt_psicof": {
+   "relAdd": [
+    "metoclopramida",
+    "domperidona"
+   ]
+  },
+  "amantadina": {
+   "relAdd": [
+    "metoclopramida"
+   ]
+  },
+  "psicof_lactancia": {
+   "relAdd": [
+    "domperidona"
+   ]
+  },
+  "metadona": {
+   "relAdd": [
+    "domperidona",
+    "oxicodona"
+   ]
+  },
+  "citalopram": {
+   "relAdd": [
+    "domperidona"
+   ]
+  },
+  "escitalopram": {
+   "relAdd": [
+    "domperidona"
+   ]
+  },
+  "wpath_soc8": {
+   "relAdd": [
+    "domperidona"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "tramadol",
+   "n": "Tramadol (Adolonta, Captor; asociaciones con paracetamol o dexketoprofeno)",
+   "ab": "Tramadol",
+   "al": [
+    "Adolonta",
+    "Adolonta Retard",
+    "Captor Simplex",
+    "Zytram",
+    "tramadol/paracetamol",
+    "Pontalsic",
+    "Pazital",
+    "dexketoprofeno/tramadol",
+    "Enanplus",
+    "tramadol hydrochloride"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1992,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Analgésico de acción central con doble mecanismo: agonista opioide puro no selectivo, con mayor afinidad por el receptor μ, e inhibidor de la recaptación de noradrenalina con intensificación de la liberación de serotonina (ficha técnica de Adolonta, 5.1). En España está autorizado y comercializado en numerosas presentaciones; el medicamento de referencia, Adolonta 50 mg cápsulas duras (Grünenthal; nº de registro 59088), se autorizó en 1992 y está indicado en el «tratamiento del dolor moderado a intenso en adultos y adolescentes a partir de 12 años» (4.1). Hay también formas de liberación prolongada (Adolonta Retard, Captor Simplex), solución oral, inyectable y asociaciones con paracetamol (Pontalsic, Pazital y genéricos) o con dexketoprofeno (Enanplus). Su relevancia psiquiátrica deriva de tres riesgos que la ficha técnica recoge de forma expresa: síndrome serotoninérgico con antidepresivos, descenso del umbral convulsivo y trastorno por consumo de opioides; a ellos se suma la depresión respiratoria con benzodiacepinas y gabapentinoides.",
+   "feats": [
+    "Estado en España (CIMA, consulta de noviembre de 2026): unos 170 registros con tramadol, solo o asociado; referencia Adolonta 50 mg cápsulas duras (nº 59088, comercializado, prescripción médica); indicación 4.1: dolor moderado a intenso en adultos y adolescentes a partir de 12 años",
+    "Contraindicaciones (ficha técnica de Adolonta, 4.3): intoxicación aguda por alcohol, hipnóticos, analgésicos, opioides u otros psicótropos; tratamiento con IMAO o en los 14 días previos; epilepsia no controlada; tratamiento del síndrome de abstinencia a opiáceos",
+    "Síndrome serotoninérgico (4.4 y 4.5): notificado con tramadol combinado con ISRS, IRSN, IMAO, tricíclicos o mirtazapina, y también en monoterapia; si la combinación está justificada, vigilancia estrecha al inicio y en cada aumento de dosis",
+    "Convulsiones (4.4 y 4.5): descritas a dosis recomendadas; el riesgo aumenta al superar el máximo diario de la ficha técnica y con fármacos que bajan el umbral convulsivo (ISRS, IRSN, tricíclicos, antipsicóticos, bupropión, mirtazapina, tetrahidrocannabinol)",
+    "Metabolismo por CYP2D6 (4.4): en metabolizadores lentos la analgesia puede ser insuficiente; en ultrarrápidos (3,6-6,5 % de la población caucásica según la ficha) hay riesgo de toxicidad opioide a dosis habituales; paroxetina, fluoxetina, sertralina o amitriptilina pueden inhibir su metabolismo (4.5)",
+    "Trastorno por consumo de opioides (4.4): el riesgo aumenta con la dosis y la duración y en personas con antecedentes personales o familiares de trastornos por consumo, fumadoras o con depresión mayor, ansiedad o trastornos de la personalidad; la ficha advierte de que no suprime la abstinencia de morfina",
+    "Reacciones psiquiátricas (4.8): raras alucinaciones, confusión, delirio, ansiedad y pesadillas; euforia u ocasionalmente disforia; tras la retirada, además del síndrome opioide típico, muy raramente pánico, ansiedad intensa, alucinaciones, despersonalización, desrealización y paranoia"
+   ],
+   "tx": "No es un fármaco psiquiátrico, pero quien prescribe antidepresivos debe conocerlo. Ante una persona que toma ISRS, IRSN, tricíclicos, mirtazapina o IMAO, valorar alternativas analgésicas: con IMAO está contraindicado y con los demás exige vigilancia del síndrome serotoninérgico y de convulsiones. Evitar en epilepsia no controlada y con otros fármacos que bajan el umbral convulsivo. Antes de iniciarlo, acordar objetivos, duración y plan de retirada; vigilar signos de trastorno por consumo de opioides; reducir de forma gradual al suspender. Evitar la combinación con benzodiacepinas, gabapentinoides, alcohol u otros depresores, y facilitar naloxona cuando el riesgo de sobredosis sea relevante.",
+   "note": "La interacción serotoninérgica con ISRS se apoya en casos clínicos y en un mecanismo verosímil (doble efecto farmacodinámico e inhibición de CYP2D6), no en ensayos: las revisiones de casos concluyen que la combinación exige precaución pero no es una contraindicación absoluta, salvo con IMAO (Park 2014; Nelson y Philbrick 2012). Los datos de mortalidad (Zeng 2019) e hipoglucemia (Fournier 2015) son observacionales y pueden estar sesgados por indicación. El metaanálisis de convulsiones (Nakhaee 2019) se basa sobre todo en estudios transversales, y sus autores no consideran la asociación definitivamente establecida. No se incluyen dosis: los límites diarios figuran en cada ficha técnica.",
+   "sec": [
+    {
+     "t": "Mecanismo dual e interacciones con antidepresivos",
+     "x": "El tramadol actúa como agonista μ y como inhibidor de la recaptación de noradrenalina con aumento de la liberación de serotonina (ficha técnica de Adolonta, 5.1); de sus metabolitos, solo el O-desmetiltramadol es farmacológicamente activo (2-4 veces más potente en animales), y en su biotransformación intervienen CYP2D6 y CYP3A4 (5.2), de modo que la deficiencia de CYP2D6 puede restar analgesia (4.4). Por eso la combinación con antidepresivos suma dos problemas: farmacodinámico, por exceso serotoninérgico, y farmacocinético, porque ISRS como paroxetina o fluoxetina inhiben CYP2D6 (4.5). Una revisión de 10 casos de síndrome serotoninérgico con tramadol y antidepresivos a dosis terapéuticas identificó como factores de riesgo la edad avanzada, las dosis altas y los inhibidores potentes de CYP2D6, y concluyó que la combinación exige vigilancia y consejo a la persona, pero no es una contraindicación salvo con IMAO (Park 2014). Otra revisión subraya que, con ISRS, la inhibición de CYP2D6 eleva el tramadol original, lo que aumenta su efecto serotoninérgico y reduce la analgesia, y propone evitar la combinación en metabolizadores lentos (Nelson y Philbrick 2012). Con IMAO, incluida la moclobemida, la ficha la contraindica (4.3).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "paroxetina",
+        "fluoxetina",
+        "sertralina",
+        "amitriptilina",
+        "mirtazapina"
+       ],
+       "t": "antidepresivos implicados"
+      },
+      {
+       "ids": [
+        "maois"
+       ],
+       "t": "IMAO: combinación contraindicada"
+      }
+     ]
+    },
+    {
+     "t": "Convulsiones, hipoglucemia y mortalidad: evidencia observacional",
+     "x": "En un metaanálisis de 51 estudios (101 770 pacientes) la frecuencia de convulsiones fue del 38 % en la intoxicación por tramadol, del 3 % con dosis terapéuticas y del 37 % en personas que lo consumían de forma no médica; las convulsiones se asociaron a dosis más altas y al sexo masculino (OR 2,24), no a la naloxona, aunque la mayoría de los estudios eran transversales (Nakhaee 2019). La ficha técnica indica que la naloxona no tiene efecto sobre las convulsiones en animales y recomienda diazepam intravenoso si aparecen en la intoxicación (4.9). En una cohorte británica de pacientes con dolor no oncológico, iniciar tramadol frente a codeína se asoció a más hospitalizaciones por hipoglucemia (OR 1,52), sobre todo en los primeros 30 días (OR 2,61) (Fournier 2015); la ficha la recoge con frecuencia no conocida (4.8). En personas de 50 años o más con artrosis, el tramadol se asoció a mayor mortalidad al año que el naproxeno (HR 1,71), el diclofenaco, el celecoxib o el etoricoxib, sin diferencia frente a la codeína, con posible confusión por indicación (Zeng 2019). Para la persona mayor polimedicada, estos datos invitan a reconsiderar la idea de que sea un opioide «suave» [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "persona mayor polimedicada"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "tratamiento de la intoxicación"
+      },
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "otros trastornos metabólicos por fármacos"
+      }
+     ]
+    },
+    {
+     "t": "Dependencia, uso no médico y advertencias regulatorias",
+     "x": "La AEMPS ha incorporado a las fichas técnicas de las asociaciones con tramadol advertencias reforzadas sobre el trastorno por consumo de opioides: acordar antes del inicio la duración, los objetivos y un plan de interrupción, vigilar la búsqueda compulsiva del fármaco revisando el uso concomitante de opioides y psicofármacos como las benzodiacepinas, considerar la derivación a un especialista en adicciones y advertir del riesgo de depresión respiratoria, sedación profunda, coma o muerte con gabapentinoides (Boletín sobre Seguridad de Medicamentos de Uso Humano de marzo de 2024 para tramadol/paracetamol, y de agosto-septiembre de 2025 para dexketoprofeno/tramadol). La ficha técnica de Adolonta recoge estos mismos apartados y precisa que el tramadol no es un sustituto adecuado en la dependencia de opioides (4.4). En algunos países el uso no médico es un problema de salud pública: en Irán, una revisión sistemática estimó un consumo en el último año del 4,9 % en varones y del 0,8 % en mujeres de la población general y un 34,6 % de convulsiones entre las intoxicaciones (Rostam-Abadi 2020). La extrapolación a España no está documentada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "tcs"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "gabap_nomed",
+        "pregabalina",
+        "gabapentina"
+       ],
+       "t": "combinación con gabapentinoides"
+      },
+      {
+       "ids": [
+        "ansiol_bzd",
+        "bzd_dep"
+       ],
+       "t": "combinación con benzodiacepinas"
+      },
+      {
+       "ids": [
+        "otc_abuso"
+       ],
+       "t": "otros fármacos de uso no médico"
+      }
+     ]
+    },
+    {
+     "t": "Salud sexual: eyaculación precoz y contexto de consumo",
+     "x": "El tramadol se prescribe fuera de ficha técnica en la eyaculación precoz. Un metaanálisis de 8 ensayos halló que alarga el tiempo de latencia eyaculatoria frente a placebo (4 ensayos, 721 participantes), con heterogeneidad elevada (I² 74 %), calidad metodológica mayoritariamente incierta y más efectos adversos, incluida la disfunción eréctil; no se evaluaron la adicción ni la depresión respiratoria a largo plazo (Martyn-St James 2015). En España no tiene esta indicación autorizada (ficha técnica de Adolonta, 4.1). Para quien atiende chemsex o uso sexualizado de drogas, conviene preguntar por su uso con fines sexuales, porque se añade al riesgo serotoninérgico si se combina con MDMA u otras sustancias serotoninérgicas y al riesgo de depresión respiratoria con GHB/GBL, alcohol o benzodiacepinas [fuente no localizada]. La ficha técnica contraindica el tramadol en la intoxicación aguda por alcohol, hipnóticos, opioides u otros psicótropos (4.3).",
+     "links": [
+      {
+       "ids": [
+        "disf_sex",
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunciones sexuales"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "chemsex y uso sexualizado de drogas"
+      },
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "depresión respiratoria con GHB/GBL"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Adolonta 50 mg cápsulas duras (tramadol) (nº de registro 59088), apartados 4.1-4.9 y 5.1-5.2; versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS (2024). Boletín sobre Seguridad de Medicamentos de Uso Humano. Marzo de 2024: tramadol-paracetamol, abuso y dependencia; interacción con gabapentinoides",
+    "AEMPS (2025). Boletín sobre Seguridad de Medicamentos de Uso Humano. Agosto y septiembre de 2025: dexketoprofeno/tramadol, abuso, dependencia y síndrome de Kounis",
+    "Park SH, Wackernah RC & Stimmel GL (2014). Serotonin syndrome: is it a reason to avoid the use of tramadol with antidepressants? J Pharm Pract 27:71-78 · PMID 24153222",
+    "Nelson EM & Philbrick AM (2012). Avoiding serotonin syndrome: the nature of the interaction between tramadol and selective serotonin reuptake inhibitors. Ann Pharmacother 46:1712-1716 · PMID 23212934",
+    "Nakhaee S et al. (2019). Tramadol and the occurrence of seizures: a systematic review and meta-analysis. Crit Rev Toxicol 49:710-723 · PMID 31914355",
+    "Fournier JP et al. (2015). Tramadol use and the risk of hospitalization for hypoglycemia in patients with noncancer pain. JAMA Intern Med 175:186-193 · PMID 25485799",
+    "Zeng C et al. (2019). Association of tramadol with all-cause mortality among patients with osteoarthritis. JAMA 321:969-982 · PMID 30860559",
+    "Rostam-Abadi Y et al. (2020). Tramadol use and public health consequences in Iran: a systematic review and meta-analysis. Addiction 115:2213-2242 · PMID 32196801",
+    "Martyn-St James M et al. (2015). Tramadol for premature ejaculation: a systematic review and meta-analysis. BMC Urol 15:6 · PMID 25636495",
+    "Roulet L, Rollason V, Desmeules J & Piguet V (2021). Tapentadol versus tramadol: a narrative and comparative review of their pharmacological, efficacy and safety profiles in adult patients. Drugs 81:1257-1272 · PMID 34196947"
+   ],
+   "rel": [
+    "sind_ser",
+    "opioides",
+    "gabap_nomed",
+    "naloxona",
+    "maois",
+    "paroxetina",
+    "fluoxetina",
+    "otc_abuso",
+    "disf_sex",
+    "polifarm",
+    "dolor_cron_prim"
+   ]
+  },
+  {
+   "id": "tapentadol",
+   "n": "Tapentadol (Palexia, Yantil; Palexia Retard)",
+   "ab": "Tapentadol",
+   "al": [
+    "Palexia",
+    "Palexia Retard",
+    "Yantil",
+    "Yantil Retard",
+    "Palgesic Retard",
+    "Nucynta",
+    "tapentadol"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2010,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Analgésico opioide «con propiedades opioides agonistas del receptor µ y propiedades adicionales de inhibición de la recaptación de la noradrenalina» que actúa sin metabolito farmacológicamente activo (ficha técnica de Palexia Retard, 5.1). En España está autorizado desde 2010 y comercializado por Grünenthal como Palexia y Yantil (comprimidos de liberación inmediata; Palexia también en solución oral) y Palexia Retard y Yantil Retard (liberación prolongada), con genéricos de liberación prolongada desde 2022. Indicaciones (4.1): Palexia 50 mg comprimidos (nº de registro 73242), «alivio del dolor agudo de moderado a intenso en adultos, que sólo se puede tratar adecuadamente con un analgésico opioide»; Palexia Retard 50 mg (nº 73243), dolor crónico intenso en adultos y en niños mayores de 6 años y adolescentes que solo se puede tratar adecuadamente con un opioide. Comparte con el tramadol el mecanismo mixto, pero con menor componente serotoninérgico y sin dependencia de CYP2D6; su ficha mantiene las advertencias de trastorno por consumo de opioides, convulsiones, síndrome serotoninérgico y depresión respiratoria con sedantes y gabapentinoides.",
+   "feats": [
+    "Estado en España (CIMA, consulta de noviembre de 2026): Palexia 50 mg comprimidos recubiertos (nº 73242) y Palexia Retard 50 mg comprimidos de liberación prolongada (nº 73243), ambos comercializados; genéricos de liberación prolongada (Sandoz, Stada, Kern Pharma) autorizados en 2022",
+    "Contraindicaciones (ficha técnica de Palexia Retard, 4.3): depresión respiratoria importante sin medios de reanimación, asma aguda o grave o hipercapnia, íleo paralítico e intoxicación aguda por alcohol, hipnóticos, analgésicos de acción central o psicótropos",
+    "Interacciones (4.5): con IMAO o en los 14 días siguientes debe evitarse por riesgo de crisis hipertensiva; casos de síndrome serotoninérgico con ISRS, IRSN y tricíclicos; aumento del riesgo de convulsiones con fármacos que bajan el umbral convulsivo; mayor riesgo de sobredosis, depresión respiratoria y muerte con gabapentinoides",
+    "Eliminación por glucuronidación (UGT1A6, UGT1A9 y UGT2B7), sin metabolito activo (4.5 y 5.1); apenas se metaboliza por el citocromo P450, lo que evita las interacciones farmacocinéticas y la variabilidad genética de CYP2D6 que afectan al tramadol (Roulet 2021)",
+    "Buprenorfina (4.4 y 4.5): precaución con agonistas parciales; en personas en mantenimiento con buprenorfina que necesitan un agonista puro para un dolor agudo deben valorarse alternativas, y se ha descrito la necesidad de dosis altas con riesgo de depresión respiratoria",
+    "Reacciones psiquiátricas (4.8): ansiedad, ánimo depresivo, trastornos del sueño, nerviosismo e inquietud; desorientación, confusión, agitación, alteraciones de la percepción y euforia; dependencia al fármaco, pensamientos alterados y delirio; la ficha no halla aumento del riesgo de suicidio en ensayos ni en farmacovigilancia",
+    "QT (5.1): en un estudio exhaustivo del intervalo QT, dosis terapéuticas y supraterapéuticas no tuvieron efecto sobre el QT ni sobre otros parámetros del ECG"
+   ],
+   "tx": "Opioide de segunda o tercera elección, no de primera línea, en dolor que solo puede tratarse con un opioide (Roulet 2021). En psiquiatría interesa por las interacciones: evitar con IMAO, vigilar el síndrome serotoninérgico con ISRS, IRSN y tricíclicos y las convulsiones con fármacos que bajan el umbral; no combinar con benzodiacepinas, gabapentinoides o alcohol salvo que no haya alternativa. Acordar objetivos, duración y plan de retirada, informar de los signos de trastorno por consumo de opioides, evitar la interrupción brusca y, en personas en tratamiento con buprenorfina, coordinar el abordaje del dolor agudo con la unidad de adicciones.",
+   "note": "La evidencia de eficacia frente a otros opioides es de baja calidad: en el dolor oncológico, la revisión Cochrane no pudo agrupar datos de 4 ensayos (1029 participantes) y lo consideró ni más ni menos eficaz que morfina u oxicodona (Wiffen 2015). Los estudios que sugieren menor abuso y desvío que la oxicodona (Cepeda 2013; Dart 2012, 2016) son observacionales, estadounidenses y, en el caso de Cepeda, firmados por personal de una compañía con interés en el producto; el bajo uso no médico inicial puede reflejar también la menor cuota de mercado (Dart 2012). La revisión de Roulet (2021) señala que la seguridad en condiciones reales, sobre todo el riesgo serotoninérgico residual, está mal documentada. No se incluyen dosis.",
+   "sec": [
+    {
+     "t": "Diferencias con el tramadol relevantes para psiquiatría",
+     "x": "Tapentadol y tramadol comparten un mecanismo mixto, agonista μ y monoaminérgico. El tapentadol es unas 2-3 veces más potente que el tramadol y 2-3 veces menos que la morfina, no tiene metabolito analgésico activo y apenas se metaboliza por el citocromo P450, lo que evita las interacciones farmacocinéticas y la variabilidad genética de CYP2D6 que condicionan al tramadol (Roulet 2021). Según la misma revisión, el tapentadol probablemente expone menos a efectos serotoninérgicos (náuseas, vómitos, hipoglucemia) pero causa más efectos opioides (estreñimiento, depresión respiratoria, abuso) que el tramadol, y su seguridad en grupos de riesgo está peor documentada. Pese a ello, la ficha técnica mantiene casos de síndrome serotoninérgico con ISRS, IRSN y tricíclicos y advierte del riesgo de convulsiones (ficha técnica de Palexia Retard, 4.4-4.5). Hay casos publicados de probable síndrome serotoninérgico tras sobredosis con duloxetina y amitriptilina concomitantes, en los que el efecto opioide pudo enmascarar los signos hasta la administración de naloxona (Walczyk 2016).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "duloxetina",
+        "venlafaxina",
+        "amitriptilina"
+       ],
+       "t": "IRSN y tricíclicos"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona en la sobredosis"
+      }
+     ]
+    },
+    {
+     "t": "Dependencia, uso no médico y advertencias de la AEMPS",
+     "x": "La AEMPS incluyó en 2025 en las fichas técnicas del tapentadol la advertencia de que la administración repetida de opioides puede provocar tolerancia, dependencia física o psicológica y trastorno por consumo de opioides incluso con dosis terapéuticas, con un riesgo que crece con la dosis y la duración; recomienda acordar antes del inicio la duración, los objetivos y un plan de finalización, mantener un contacto frecuente, reducir gradualmente la dosis y considerar la hiperalgesia o la tolerancia si el dolor no se controla, y añadió la interacción con anticolinérgicos y la posibilidad de sobredosis mortal (Boletín sobre Seguridad de Medicamentos de Uso Humano, julio de 2025). Los factores de riesgo de trastorno por consumo que recoge la ficha (antecedentes personales o familiares de trastornos por consumo, tabaquismo actual, depresión mayor, ansiedad o trastornos de la personalidad) obligan a una valoración psiquiátrica previa en muchas personas con dolor crónico (ficha técnica de Palexia Retard, 4.4). En Estados Unidos, en una cohorte de nuevos usuarios, la conducta de búsqueda en múltiples prescriptores fue del 0,2 % con tapentadol frente al 0,8 % con oxicodona (OR ajustada 3,5 para la oxicodona) (Cepeda 2013), y las tasas de desvío fueron bajas (Dart 2016).",
+     "links": [
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "oxicodona"
+       ],
+       "t": "comparación con oxicodona"
+      },
+      {
+       "ids": [
+        "dolor_cron_prim",
+        "fibro"
+       ],
+       "t": "dolor crónico"
+      }
+     ]
+    },
+    {
+     "t": "Combinación con sedantes, buprenorfina y riesgo suicida",
+     "x": "La ficha técnica advierte de que el uso con benzodiacepinas u otros depresores (otros opioides, antitusivos, tratamientos de sustitución, barbitúricos, antipsicóticos, antihistamínicos H1, alcohol) aumenta el riesgo de sedación, depresión respiratoria, coma o muerte, y de que los gabapentinoides elevan el riesgo de sobredosis y muerte (ficha técnica de Palexia Retard, 4.4-4.5). En personas en mantenimiento con buprenorfina, la ficha recomienda considerar alternativas, como la interrupción temporal de la buprenorfina, si es necesario un agonista puro para un dolor agudo, y vigilar la depresión respiratoria porque se han requerido dosis altas (4.4); esta decisión debe tomarse con el equipo que trata la adicción [fuente no localizada]. La ficha recuerda que el riesgo de pensamientos suicidas es mayor en el dolor crónico y que los fármacos con marcada acción monoaminérgica se han asociado a más riesgo de suicidio al inicio del tratamiento de la depresión, aunque los datos del tapentadol no muestran incremento (4.8).",
+     "links": [
+      {
+       "ids": [
+        "buprenorfina",
+        "buvidal",
+        "metadona"
+       ],
+       "t": "tratamiento con agonistas opioides"
+      },
+      {
+       "ids": [
+        "gabap_nomed",
+        "pregabalina"
+       ],
+       "t": "gabapentinoides"
+      },
+      {
+       "ids": [
+        "ansiol_bzd"
+       ],
+       "t": "benzodiacepinas"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida en el dolor crónico"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Palexia Retard 50 mg comprimidos de liberación prolongada (tapentadol) (nº de registro 73243), apartados 4.1-4.9 y 5.1; versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Palexia 50 mg comprimidos recubiertos con película (tapentadol) (nº de registro 73242), apartado 4.1; consulta de noviembre de 2026",
+    "AEMPS (2025). Boletín sobre Seguridad de Medicamentos de Uso Humano. Julio de 2025: hidromorfona, tapentadol, trastorno por consumo de opioides; tapentadol, interacción con anticolinérgicos y sobredosis mortal",
+    "Roulet L, Rollason V, Desmeules J & Piguet V (2021). Tapentadol versus tramadol: a narrative and comparative review of their pharmacological, efficacy and safety profiles in adult patients. Drugs 81:1257-1272 · PMID 34196947",
+    "Wiffen PJ, Derry S, Naessens K & Bell RF (2015). Oral tapentadol for cancer pain. Cochrane Database Syst Rev 2015(9):CD011460 · PMID 26403220",
+    "Cepeda MS et al. (2013). Comparison of opioid doctor shopping for tapentadol and oxycodone: a cohort study. J Pain 14:158-164 · PMID 23253635",
+    "Dart RC et al. (2012). Assessment of the abuse of tapentadol immediate release: the first 24 months. J Opioid Manag 8:395-402 · PMID 23264317",
+    "Dart RC et al. (2016). Diversion and illicit sale of extended release tapentadol in the United States. Pain Med 17:1490-1496 · PMID 26814267",
+    "Walczyk H, Liu CH, Alafris A & Cohen H (2016). Probable tapentadol-associated serotonin syndrome after overdose. Hosp Pharm 51:320-327 · PMID 27303080"
+   ],
+   "rel": [
+    "tramadol",
+    "oxicodona",
+    "opioides",
+    "sind_ser",
+    "gabap_nomed",
+    "buprenorfina",
+    "naloxona",
+    "dolor_cron_prim",
+    "ideac_suic"
+   ]
+  },
+  {
+   "id": "oxicodona",
+   "n": "Oxicodona (OxyContin, OxyNorm) y oxicodona/naloxona (Targin)",
+   "ab": "Oxicodona",
+   "al": [
+    "OxyContin",
+    "OxyNorm",
+    "Targin",
+    "oxicodona/naloxona",
+    "Taioma",
+    "Duoxona",
+    "oxycodone",
+    "Oxycontin"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2000,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Opioide semisintético, «agonista opioide total sin propiedades antagonistas, con afinidad por los receptores opiáceos kappa, mu y delta», cuyo efecto terapéutico es «principalmente analgésico, ansiolítico, antitusivo y sedante» (ficha técnica de OxyContin, 5.1). En España está autorizado y comercializado por Mundipharma como OxyContin (liberación prolongada; 10 mg, nº de registro 63446, autorizado en 2000) y OxyNorm (cápsulas, solución oral concentrada y solución inyectable; 10 mg cápsulas, nº 66575), indicados en adultos y adolescentes a partir de 12 años «para el tratamiento del dolor intenso, que sólo puede tratarse adecuadamente con analgésicos opioides» (4.1), y en asociación con naloxona (Targin y genéricos), que añade como indicación el tratamiento sintomático de segunda línea del síndrome de piernas inquietas idiopático grave o muy grave tras fracaso dopaminérgico. Su relevancia psiquiátrica reside en el trastorno por consumo de opioides, el uso no médico y la manipulación de formas de liberación prolongada, la combinación con benzodiacepinas y gabapentinoides y las interacciones por CYP3A4.",
+   "feats": [
+    "Estado en España (CIMA, consulta de noviembre de 2026): OxyContin 5-80 mg comprimidos de liberación prolongada, OxyNorm (cápsulas, concentrado oral, inyectable), Targin y genéricos de oxicodona/naloxona, todos con presentaciones comercializadas; indicación 4.1 de OxyContin y OxyNorm: dolor intenso que solo puede tratarse adecuadamente con opioides, en adultos y adolescentes a partir de 12 años",
+    "Contraindicaciones (ficha técnica de OxyContin, 4.3): EPOC grave, cor pulmonale, asma grave, depresión respiratoria grave con hipoxia, hipercapnia, íleo paralítico, abdomen agudo, retraso del vaciado gástrico, lesión en la cabeza y sensibilidad conocida a la morfina u otros opioides",
+    "Trastorno por consumo (4.4): la adicción iatrogénica tras el uso terapéutico es conocida; el riesgo aumenta con la dosis y la duración y con antecedentes personales o familiares de trastornos por consumo, tabaquismo actual o depresión mayor, ansiedad y trastornos de la personalidad; la ficha enumera la psicosis tóxica, el alcoholismo y el delirium tremens entre las situaciones que exigen precaución",
+    "Manipulación (4.4): romper, masticar o triturar los comprimidos de liberación prolongada provoca una liberación rápida de una dosis potencialmente mortal; el abuso parenteral de formas orales puede causar efectos graves y mortales; evitar el alcohol",
+    "Interacciones (4.5): depresores del SNC, incluidos otros opioides, gabapentinoides como la pregabalina, benzodiacepinas, antipsicóticos y antidepresivos; toxicidad serotoninérgica con ISRS e IRSN; precaución con IMAO; los inhibidores de CYP3A4 (macrólidos, azoles, ritonavir, zumo de pomelo) elevan la exposición y los inductores (carbamazepina, fenitoína, rifampicina, hipérico) la reducen",
+    "Efectos endocrinos (4.4): los opioides pueden influir en los ejes hipotálamo-hipófiso-suprarrenal y gonadal, con aumento de la prolactina y descenso del cortisol y la testosterona, que pueden manifestarse clínicamente; se recogen también hiperalgesia y leucoencefalopatía tóxica en la sobredosis (AEMPS, boletín de noviembre de 2022)",
+    "Dolor crónico no oncológico (4.4): la ficha técnica afirma que los opioides no son tratamiento de primera elección ni deben usarse como único tratamiento, sino dentro de un programa integral, con evaluación y seguimiento de la adicción y el abuso"
+   ],
+   "tx": "Opioide potente reservado al dolor intenso que no responde a otras opciones. Antes de iniciarlo: valorar antecedentes de trastornos por consumo y psiquiátricos, acordar objetivos, duración y plan de retirada, y revisar benzodiacepinas, hipnóticos Z, gabapentinoides, alcohol y fármacos que inhiben o inducen CYP3A4 (incluidos antirretrovirales potenciados con ritonavir). Durante el tratamiento: vigilar sedación, depresión respiratoria y conductas de búsqueda; ofrecer naloxona para casa cuando haya riesgo. Al retirarlo, reducir de forma gradual. Si aparece un trastorno por consumo de opioides, derivar a la unidad de adicciones y valorar tratamiento con agonistas (metadona, buprenorfina) en lugar de una retirada aislada.",
+   "note": "La eficacia de los opioides en el dolor crónico no oncológico es pequeña: en 96 ensayos (26 169 participantes) redujeron el dolor 0,69 cm sobre una escala de 10 cm frente a placebo, por debajo de la diferencia mínima importante, con un beneficio similar al de AINE, tricíclicos y anticonvulsivos en comparaciones de calidad baja a moderada (Busse 2018). El paso de los opioides de prescripción a la heroína se documenta con encuestas retrospectivas a personas en tratamiento (Cicero 2014); el efecto de la reformulación disuasoria de OxyContin solo se cita a partir de una carta sin resumen en PubMed (Cicero 2012; contenido no contrastado). La epidemiología norteamericana no es extrapolable sin más a España [fuente no localizada]. No se incluyen dosis: los umbrales de tolerancia y los máximos figuran en la ficha técnica.",
+   "sec": [
+    {
+     "t": "Trastorno por consumo, uso no médico y transición a la heroína",
+     "x": "La oxicodona de liberación prolongada fue uno de los opioides de prescripción asociados a la crisis norteamericana [fuente no localizada]. En una muestra de 2797 personas en tratamiento por dependencia de heroína en EE. UU., quienes iniciaron el consumo en los años sesenta empezaron casi siempre con heroína (80 %), mientras que en las cohortes recientes el 75 % se había iniciado con opioides de prescripción y elegía la heroína por ser más accesible y barata (Cicero 2014). Una carta de los mismos autores analizó el efecto de la formulación disuasoria del abuso de OxyContin introducida en EE. UU. (Cicero 2012; carta sin resumen en PubMed, contenido no contrastado). La ficha técnica española reconoce la adicción iatrogénica tras el uso terapéutico y pide vigilar las conductas de búsqueda, como las peticiones precoces de reposición, y revisar el uso concomitante de opioides y benzodiacepinas (ficha técnica de OxyContin, 4.4). La AEMPS reforzó en 2022 estas advertencias y añadió la leucoencefalopatía tóxica en la sobredosis (Boletín sobre Seguridad de Medicamentos de Uso Humano, noviembre de 2022).",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "tcs"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "opioides_sint"
+       ],
+       "t": "opioides sintéticos y adulterados"
+      },
+      {
+       "ids": [
+        "metadona",
+        "buprenorfina",
+        "naltrexona"
+       ],
+       "t": "tratamiento del trastorno por consumo"
+      }
+     ]
+    },
+    {
+     "t": "Combinación con benzodiacepinas y gabapentinoides",
+     "x": "La ficha técnica advierte de que el uso con benzodiacepinas o medicamentos relacionados puede provocar sedación, depresión respiratoria, coma y muerte, por lo que debe reservarse a pacientes sin alternativas, con la dosis eficaz más baja y la duración más corta, y recomienda informar a la persona y a su entorno de los signos de alarma; incluye expresamente los gabapentinoides como la pregabalina entre los depresores que potencian este riesgo (ficha técnica de OxyContin, 4.4-4.5). En 315 428 usuarios de opioides con seguro privado en EE. UU., el uso concurrente de benzodiacepinas pasó del 9 % en 2001 al 17 % en 2013 y se asoció a más visitas a urgencias o ingresos por sobredosis de opioides (OR ajustada 2,14); los autores estimaron que eliminar la combinación reduciría estos episodios en un 15 % si la asociación fuera causal (Sun 2017). En la práctica psiquiátrica esto obliga a revisar la prescripción de benzodiacepinas, hipnóticos Z y pregabalina en toda persona que recibe oxicodona y a plantear una desprescripción gradual cuando sea posible [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ansiol_bzd",
+        "desprescr_bzd",
+        "bzd_dep"
+       ],
+       "t": "benzodiacepinas y desprescripción"
+      },
+      {
+       "ids": [
+        "gabap_nomed",
+        "pregabalina",
+        "gabapentina"
+       ],
+       "t": "gabapentinoides"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona para llevar a casa"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones por CYP3A4 y contextos de consumo",
+     "x": "La oxicodona se metaboliza sobre todo por CYP3A4 y en parte por CYP2D6. Según la ficha técnica, el itraconazol multiplicó su AUC por 2,4 de media, el voriconazol por 3,6, la telitromicina por 1,8 y el zumo de pomelo por 1,7; los inhibidores de la proteasa como el ritonavir figuran entre los inhibidores que pueden elevar sus concentraciones, y los inductores (rifampicina, carbamazepina, fenitoína, hierba de San Juan) pueden reducirlas (ficha técnica de OxyContin, 4.5). Es relevante en personas con VIH tratadas con pautas potenciadas y en quienes toman carbamazepina como estabilizador [fuente no localizada]. Los opioides no son sustancias nucleares del chemsex, pero la oxicodona se ha detectado junto a ketamina, MDMA y otras sustancias en polvos vendidos como «tusi» (véase el nodo correspondiente), y la combinación con GHB/GBL, alcohol o benzodiacepinas suma depresión respiratoria. La oxicodona con naloxona (Targin) está indicada como segunda línea en el síndrome de piernas inquietas grave tras fracaso dopaminérgico, con un ensayo controlado que mostró mejoría frente a placebo a 12 semanas y más efectos adversos (73 % frente a 43 %) (Trenkwalder 2013).",
+     "links": [
+      {
+       "ids": [
+        "carbamaz"
+       ],
+       "t": "inductores enzimáticos"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "tusi",
+        "ghb_gbl"
+       ],
+       "t": "contextos de consumo"
+      },
+      {
+       "ids": [
+        "piernas_inquietas"
+       ],
+       "t": "síndrome de piernas inquietas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de OxyContin 10 mg comprimidos de liberación prolongada (oxicodona) (nº de registro 63446), apartados 4.1-4.5 y 5.1; versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de OxyNorm 10 mg cápsulas duras (nº de registro 66575) y de Targin 10 mg/5 mg comprimidos de liberación prolongada (nº de registro 71124), apartado 4.1; consulta de noviembre de 2026",
+    "AEMPS (2022). Boletín mensual de seguridad de la AEMPS sobre medicamentos de uso humano del mes de noviembre de 2022: oxicodona, trastorno por uso de opioides y leucoencefalopatía tóxica",
+    "Busse JW et al. (2018). Opioids for chronic noncancer pain: a systematic review and meta-analysis. JAMA 320:2448-2460 · PMID 30561481",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769",
+    "Cicero TJ, Ellis MS, Surratt HL & Kurtz SP (2014). The changing face of heroin use in the United States: a retrospective analysis of the past 50 years. JAMA Psychiatry 71:821-826 · PMID 24871348",
+    "Cicero TJ, Ellis MS & Surratt HL (2012). Effect of abuse-deterrent formulation of OxyContin. N Engl J Med 367:187-189 · PMID 22784140 (carta sin resumen; contenido no contrastado)",
+    "Trenkwalder C et al. (2013). Prolonged release oxycodone-naloxone for treatment of severe restless legs syndrome after failure of previous treatment: a double-blind, randomised, placebo-controlled trial with an open-label extension. Lancet Neurol 12:1141-1150 · PMID 24140442",
+    "Cepeda MS et al. (2013). Comparison of opioid doctor shopping for tapentadol and oxycodone: a cohort study. J Pain 14:158-164 · PMID 23253635"
+   ],
+   "rel": [
+    "opioides",
+    "opioides_sint",
+    "gabap_nomed",
+    "ansiol_bzd",
+    "naloxona",
+    "metadona",
+    "buprenorfina",
+    "piernas_inquietas",
+    "dolor_cron_prim",
+    "tapentadol",
+    "tusi"
+   ]
+  },
+  {
+   "id": "metoclopramida",
+   "n": "Metoclopramida (Primperan): acatisia, discinesia tardía y restricciones de uso",
+   "ab": "Metoclopramida",
+   "al": [
+    "Primperan",
+    "metoclopramide",
+    "Reglan",
+    "benzamida antiemética"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 1964,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Antiemético y procinético que la propia ficha técnica describe como «un sustituto de la benzamida que pertenece a los neurolépticos»: antagoniza los receptores D2 en la zona quimiorreceptora y en el centro del vómito, antagoniza los 5-HT3 y es agonista 5-HT4 (ficha técnica de Primperan, 5.1). En España se comercializa como Primperan 10 mg comprimidos (nº de registro 41446), solución oral e inyectable, y en genéricos. Indicaciones en adultos (4.1): prevención de náuseas y vómitos retardados inducidos por quimioterapia, prevención de los inducidos por radioterapia y tratamiento sintomático de náuseas y vómitos, incluidos los de la migraña aguda; en niños de 1 a 18 años, solo como segunda línea en la prevención de náuseas y vómitos retardados por quimioterapia. Tras la revisión europea de 2013, la AEMPS restringió sus indicaciones, limitó la duración del tratamiento a un máximo de 5 días y contraindicó su uso en menores de 1 año por el riesgo neurológico (nota MUH (FV) 22/2013). Para la psiquiatría es un antagonista dopaminérgico «oculto» que causa acatisia, distonía, parkinsonismo, discinesia tardía, síndrome neuroléptico maligno, hiperprolactinemia y depresión.",
+   "feats": [
+    "Estado en España (CIMA, consulta de noviembre de 2026): Primperan 10 mg comprimidos (nº 41446), Primperan 1 mg/ml solución oral y Primperan solución inyectable, comercializados, y genéricos (Accord, Kern Pharma, Pensa, Basi); asociación con simeticona (Aeroflat) suspendida",
+    "Contraindicaciones (ficha técnica de Primperan, 4.3): antecedentes de discinesia tardía por neurolépticos o metoclopramida, epilepsia, enfermedad de Parkinson, combinación con levodopa o agonistas dopaminérgicos, feocromocitoma, hemorragia, obstrucción o perforación digestiva, metahemoglobinemia previa con metoclopramida y menores de 1 año",
+    "Síntomas extrapiramidales (4.4 y 4.8): frecuentes, sobre todo en niños y adultos jóvenes o con dosis altas, incluso tras una sola dosis; acatisia y parkinsonismo frecuentes, distonía y crisis oculógiras poco frecuentes; suspender de inmediato ante su aparición; mayor riesgo en metabolizadores lentos de CYP2D6",
+    "Discinesia tardía (4.4): potencialmente irreversible, sobre todo en personas mayores; la ficha técnica limita el tratamiento a 3 meses como máximo por este riesgo y pide suspenderlo ante los primeros signos; la nota de la AEMPS de 2013 restringe además la duración a 5 días",
+    "Reacciones psiquiátricas y endocrinas (4.8): depresión frecuente, alucinaciones poco frecuentes, confusión rara e ideación suicida de frecuencia no conocida; amenorrea e hiperprolactinemia poco frecuentes, galactorrea rara y ginecomastia en tratamientos prolongados",
+    "Interacciones (4.5): efecto aditivo con otros neurolépticos sobre los trastornos extrapiramidales; riesgo de síndrome serotoninérgico con ISRS; fluoxetina y paroxetina (inhibidores potentes de CYP2D6) aumentan su exposición; potencia la sedación de alcohol, ansiolíticos, antidepresivos sedantes y derivados de la morfina",
+    "Síndrome neuroléptico maligno (4.4): notificado en monoterapia y en combinación con neurolépticos; suspender de inmediato; las guías del SNM incluyen los antieméticos antidopaminérgicos entre los fármacos que deben retirarse (véase el nodo de SNM)"
+   ],
+   "tx": "En una persona tratada con antipsicóticos, con antecedentes de discinesia tardía, parkinsonismo o epilepsia, o mayor y frágil, preferir otro antiemético; en la enfermedad de Parkinson está contraindicada. Si se usa, respetar las indicaciones y la duración máxima de la ficha técnica y la nota de la AEMPS, informar a la persona de la posibilidad de inquietud motora, contracturas o movimientos involuntarios y suspender ante los primeros síntomas extrapiramidales. Ante una acatisia, una distonía o un cuadro depresivo de inicio reciente sin causa clara, preguntar expresamente por antieméticos, porque a menudo no se consideran «psicofármacos». En la vía intravenosa, la ficha técnica pide administrarla en bolo lento.",
+   "note": "La frecuencia real de discinesia tardía es incierta: revisiones de gastroenterología la estiman inferior al 1 % e incluso «en el rango del 0,1 % por 1000 pacientes-año», muy por debajo del 1-10 % que se citaba antes, con mayor riesgo en mujeres mayores, personas con diabetes, insuficiencia hepática o renal y tratamiento antipsicótico concomitante (Rao y Camilleri 2010; Al-Saffar 2019); estos trabajos se refieren sobre todo a la gastroparesia y no a la población psiquiátrica. Los ensayos sobre la velocidad de infusión y la acatisia son contradictorios (Parlak 2005; Regan 2009; Egerton-Warburton 2013). No se incluyen dosis: los límites de dosis y duración figuran en la ficha técnica y en la nota MUH (FV) 22/2013.",
+   "sec": [
+    {
+     "t": "Revisión europea de 2013 y restricciones de uso",
+     "x": "El Comité de Medicamentos de Uso Humano (CHMP) de la Agencia Europea de Medicamentos revisó en 2013 el balance beneficio-riesgo de la metoclopramida por sus efectos neurológicos (alteraciones extrapiramidales y discinesia tardía) y cardiovasculares. La revisión confirmó que el riesgo de reacciones neurológicas agudas es mayor en niños, con dosis altas y en tratamientos prolongados, y que las personas mayores tienen más riesgo de discinesia tardía irreversible tras tratamientos largos; también se notificaron hipotensión, shock, síncope, bradicardia, bloqueo auriculoventricular y paro cardiaco, sobre todo por vía intravenosa en pacientes con factores de riesgo cardiaco. La AEMPS recomendó no usarla en menores de 1 año, restringirla en la población pediátrica a segunda línea, no emplearla en adultos para cuadros como gastroparesia, dispepsia o reflujo, limitar la duración a 5 días, administrar las dosis intravenosas en bolo lento de al menos 3 minutos, suspender las concentraciones más altas y revisar a quienes la tomaban de forma habitual (nota MUH (FV) 22/2013). La ficha técnica vigente de Primperan incorpora estas condiciones (4.1-4.4).",
+     "links": [
+      {
+       "ids": [
+        "discin_tard"
+       ],
+       "t": "discinesia tardía"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "riesgo cardiaco y QT"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Acatisia y otros síntomas extrapiramidales agudos",
+     "x": "La acatisia es frecuente con metoclopramida y puede aparecer tras una sola dosis (ficha técnica de Primperan, 4.8). En un ensayo doble ciego en urgencias con 300 pacientes, la infusión lenta en 15 minutos redujo la acatisia frente al bolo en 2 minutos (5,8 % frente a 24,7 %; OR 5,27) con la misma eficacia antiemética (Parlak 2005), y otro ensayo más pequeño (68 pacientes) obtuvo un resultado similar (0 % frente a 11,1 %), con dos personas que abandonaron súbitamente urgencias, una forma de presentación de la acatisia (Regan 2009). Sin embargo, con una dosis mayor, un ensayo de 205 pacientes no halló diferencias entre bolo e infusión (10,7 % frente a 14,7 %) y la acatisia se asoció a menor edad (Egerton-Warburton 2013). En la práctica, una inquietud intensa, ansiedad o una conducta de huida tras recibir un antiemético en urgencias pueden confundirse con un cuadro de ansiedad o con agitación psicótica [fuente no localizada]. La ficha técnica indica para los síntomas extrapiramidales benzodiacepinas en niños o anticolinérgicos antiparkinsonianos en adultos (4.4).",
+     "links": [
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "acatisia"
+      },
+      {
+       "ids": [
+        "biperideno"
+       ],
+       "t": "anticolinérgicos"
+      },
+      {
+       "ids": [
+        "propranolol"
+       ],
+       "t": "tratamiento de la acatisia"
+      }
+     ]
+    },
+    {
+     "t": "Discinesia tardía, SNM y combinación con antipsicóticos",
+     "x": "La discinesia tardía por metoclopramida puede ser persistente, en particular en personas mayores (ficha técnica de Primperan, 4.4 y 4.8). Una revisión estima que el riesgo es probablemente inferior al 1 %, muy por debajo del 1-10 % de las guías previas, y plantea un componente idiosincrásico y farmacogenético (Rao y Camilleri 2010); otra lo sitúa en el rango del 0,1 % por 1000 pacientes-año y señala como grupos de alto riesgo a las mujeres mayores, las personas con diabetes, con insuficiencia hepática o renal y con tratamiento antipsicótico concomitante (Al-Saffar 2019). Para la psiquiatría, este último dato es decisivo: sumar metoclopramida a un antipsicótico añade bloqueo D2, efecto aditivo sobre los trastornos extrapiramidales (4.5) y riesgo de SNM, notificado tanto en monoterapia como en combinación con neurolépticos (4.4). Si aparece una discinesia tardía, retirar la metoclopramida (4.4) y valorar el tratamiento según las recomendaciones de la discinesia tardía por antipsicóticos. La amantadina, usada a veces en el parkinsonismo inducido, desaconseja en su ficha la asociación con metoclopramida (véase su nodo).",
+     "links": [
+      {
+       "ids": [
+        "discin_tard",
+        "vmat2_td"
+       ],
+       "t": "discinesia tardía y su tratamiento"
+      },
+      {
+       "ids": [
+        "snm"
+       ],
+       "t": "síndrome neuroléptico maligno"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "amantadina"
+       ],
+       "t": "antipsicóticos y amantadina"
+      }
+     ]
+    },
+    {
+     "t": "Hiperprolactinemia, depresión y lactancia",
+     "x": "Como otros antagonistas D2, la metoclopramida eleva la prolactina: la ficha técnica recoge amenorrea e hiperprolactinemia poco frecuentes, galactorrea rara y ginecomastia en tratamientos prolongados (ficha técnica de Primperan, 4.8), efectos que se suman a los de los antipsicóticos y que deben explorarse con un lenguaje que no presuponga el sexo, la identidad de género ni las prácticas de la persona. La ficha considera frecuente la depresión y recoge ideación suicida de frecuencia no conocida (4.8), lo que justifica preguntar por el estado de ánimo si el tratamiento se prolonga y retirarla ante un cuadro depresivo de nueva aparición [fuente no localizada]. Como galactogogo, en un metaanálisis de ensayos en madres de recién nacidos prematuros con baja producción, la metoclopramida no aumentó el volumen diario de leche (diferencia de −1,14 ml/día), a diferencia de la domperidona (Shen 2021); este uso, además, es ajeno a sus indicaciones autorizadas (4.1).",
+     "links": [
+      {
+       "ids": [
+        "hiperprl_ap"
+       ],
+       "t": "hiperprolactinemia"
+      },
+      {
+       "ids": [
+        "domperidona",
+        "psicof_lactancia"
+       ],
+       "t": "galactogogos y lactancia"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ideac_suic"
+       ],
+       "t": "depresión e ideación suicida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Primperan 10 mg comprimidos (metoclopramida) (nº de registro 41446), apartados 4.1-4.8 y 5.1; versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS (2013). Metoclopramida: restricciones de uso, actualización de indicaciones y posología. Nota informativa MUH (FV) 22/2013, de 30 de julio de 2013",
+    "Rao AS & Camilleri M (2010). Review article: metoclopramide and tardive dyskinesia. Aliment Pharmacol Ther 31:11-19 · PMID 19886950",
+    "Al-Saffar A, Lennernäs H & Hellström PM (2019). Gastroparesis, metoclopramide, and tardive dyskinesia: risk revisited. Neurogastroenterol Motil 31:e13617 · PMID 31050085",
+    "Parlak I et al. (2005). Rate of metoclopramide infusion affects the severity and incidence of akathisia. Emerg Med J 22:621-624 · PMID 16113179",
+    "Regan LA, Hoffman RS & Nelson LS (2009). Slower infusion of metoclopramide decreases the rate of akathisia. Am J Emerg Med 27:475-480 · PMID 19555621",
+    "Egerton-Warburton D & Povey K (2013). Administration of metoclopramide by infusion or bolus does not affect the incidence of drug-induced akathisia. Emerg Med Australas 25:207-212 · PMID 23759039",
+    "Shen Q et al. (2021). Efficacy and safety of domperidone and metoclopramide in breastfeeding: a systematic review and meta-analysis. Breastfeed Med 16:516-529 · PMID 33769844"
+   ],
+   "rel": [
+    "acatisia",
+    "discin_tard",
+    "vmat2_td",
+    "snm",
+    "hiperprl_ap",
+    "biperideno",
+    "amantadina",
+    "qt_psicof",
+    "sind_ser",
+    "domperidona",
+    "haloperidol"
+   ]
+  },
+  {
+   "id": "domperidona",
+   "n": "Domperidona (Motilium): QT, hiperprolactinemia y uso como galactogogo",
+   "ab": "Domperidona",
+   "al": [
+    "Motilium",
+    "Domperidona Gamir",
+    "Domperidona Pensa",
+    "domperidone",
+    "galactogogo"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1980,
+   "tags": [
+    "risk",
+    "repro",
+    "lgtbi",
+    "elderly"
+   ],
+   "desc": "Antagonista dopaminérgico con propiedades antieméticas que «no atraviesa fácilmente la barrera hematoencefálica», por lo que los síntomas extrapiramidales son muy infrecuentes, pero que «estimula la secreción de prolactina en la hipófisis» (ficha técnica de Motilium, 5.1). En España está autorizado y comercializado como Motilium 10 mg comprimidos recubiertos (Esteve; nº de registro 55410, autorizado en 1980), Motilium 1 mg/ml suspensión oral, Domperidona Gamir 10 mg cápsulas y Domperidona Pensa 10 mg comprimidos; su única indicación es «el alivio de los síntomas de náuseas y vómitos en adultos y adolescentes de 12 años o mayores y que pesen 35 kg o más» (4.1). En 2014, por el riesgo de arritmias ventriculares y muerte súbita, la AEMPS, siguiendo al comité europeo de farmacovigilancia (PRAC), restringió sus indicaciones, redujo dosis y duración y añadió contraindicaciones (nota MUH (FV) 4/2014). Para la psiquiatría importa por las combinaciones contraindicadas con citalopram, escitalopram, haloperidol, metadona y otros fármacos que prolongan el QT, por la hiperprolactinemia y por su uso fuera de ficha técnica como galactogogo.",
+   "feats": [
+    "Estado en España (CIMA, consulta de noviembre de 2026): Motilium 10 mg comprimidos (nº 55410) y suspensión oral (nº 55411), Domperidona Gamir 10 mg cápsulas (nº 57096) y Domperidona Pensa 10 mg comprimidos (nº 67523), comercializados; Domperidona Gamir suspensión, no comercializada; las formas parenterales se retiraron por riesgo cardiaco (AEMPS, MUH (FV) 24/2011, citada en la nota 4/2014)",
+    "Contraindicaciones (ficha técnica de Motilium, 4.3): prolactinoma; insuficiencia hepática moderada o grave; prolongación conocida del QTc, alteraciones electrolíticas significativas o cardiopatía como la insuficiencia cardiaca; fármacos que prolongan el QT (salvo apomorfina con precauciones); inhibidores potentes de CYP3A4; hemorragia u obstrucción digestiva; feocromocitoma (añadido en 2025)",
+    "Fármacos que prolongan el QT y cuya combinación está contraindicada (4.5): entre otros, haloperidol, pimozida, sertindol, citalopram, escitalopram, metadona, antiarrítmicos IA y III, eritromicina, levofloxacino, moxifloxacino y fluconazol; también ritonavir, saquinavir, azoles sistémicos, claritromicina y telitromicina por inhibición potente de CYP3A4",
+    "Riesgo cardiaco (4.4): prolongación del QT y torsade de pointes muy raras en farmacovigilancia; estudios epidemiológicos la asocian a arritmias ventriculares graves y muerte súbita, con más riesgo en mayores de 60 años, con dosis diarias superiores a 30 mg (límite literal de la ficha técnica) y con fármacos que prolongan el QT o inhiben CYP3A4",
+    "Efectos endocrinos y neuropsiquiátricos (4.8): galactorrea, dolor mamario, ginecomastia, amenorrea, aumento de la prolactina; pérdida de libido, ansiedad, agitación y nerviosismo; trastorno extrapiramidal, crisis oculógira, convulsión y síndrome de piernas inquietas; en ensayos se notificaron también depresión, aumento del tamaño mamario y menstruación irregular",
+    "Lactancia (4.6): se excreta en la leche y el lactante recibe menos del 0,1 % de la dosis materna ajustada por peso; no pueden descartarse efectos cardiacos en el lactante, por lo que hay que valorar el beneficio de la lactancia frente al del tratamiento y extremar la precaución si hay factores de riesgo de prolongación del QTc",
+    "Estudio exhaustivo del QT en voluntarios sanos (5.1): diferencia máxima de 3,4 ms en el QTc frente a placebo (IC 90 % 1,0-5,9), sin superar el umbral de 10 ms; la discrepancia con los datos epidemiológicos refleja que el riesgo se concentra en personas mayores, cardiópatas o polimedicadas"
+   ],
+   "tx": "Antes de prescribirla, o de añadir un psicofármaco a quien ya la toma, revisar el ECG y los fármacos que prolongan el QT: con citalopram, escitalopram, haloperidol, pimozida, sertindol o metadona su ficha técnica la contraindica, igual que con ritonavir y otros inhibidores potentes de CYP3A4. Usar la dosis eficaz más baja durante el menor tiempo posible y suspender ante palpitaciones, síncope u otros síntomas cardiacos. En personas tratadas con antipsicóticos, considerar el efecto aditivo sobre la prolactina. Si se plantea como galactogogo, explicar que es un uso fuera de ficha técnica (RD 1015/2009), valorar el riesgo cardiaco de la madre y del lactante y coordinarlo con obstetricia, pediatría o la unidad de atención a personas trans.",
+   "note": "Los metaanálisis de seguridad cardiaca se basan en estudios observacionales, sobre todo de casos y controles en población mayor, con riesgo de sesgo moderado o grave (Ou 2021); un metaanálisis de menor calidad no halló aumento del riesgo cardiovascular con dosis diarias de hasta 30 mg (Bor 2018). La eficacia como galactogogo procede de ensayos pequeños y de corta duración en madres de prematuros (5 ensayos y 194 mujeres; Grzeskowiak 2018) y apenas hay datos en lactantes a término (Shen 2021). La experiencia en mujeres trans se limita a casos aislados (Reisman y Goldstein 2018; Weimer 2023). La domperidona no está autorizada en Estados Unidos y la FDA ha desaconsejado su uso para aumentar la producción de leche [fuente no localizada]. No se incluyen pautas posológicas.",
+   "sec": [
+    {
+     "t": "Restricciones de 2014 y riesgo cardiaco",
+     "x": "Las arritmias ventriculares por prolongación del QT motivaron primero la retirada de las presentaciones parenterales y, al seguir notificándose casos, una nueva evaluación europea. El PRAC concluyó en 2014 que el riesgo aumenta en mayores de 60 años, con dosis altas y con otros fármacos que prolongan el QT; que puede minimizarse con dosis bajas, tratamientos cortos y evitando su uso en personas de alto riesgo cardiaco o que tomen fármacos que prolonguen el QT o inhibidores potentes de CYP3A4, y que el balance beneficio-riesgo solo es favorable para el alivio de náuseas y vómitos, por lo que se retiró la indicación en dispepsia y regurgitación (nota MUH (FV) 4/2014). En un metaanálisis de 8 estudios observacionales (480 395 personas), la domperidona se asoció a más muerte súbita cardiaca o arritmia ventricular que la ausencia de tratamiento (OR ajustada 1,69; IC 95 % 1,46-1,95), también en los estudios de mayor calidad (OR 1,60) (Ou 2021); un metaanálisis previo de 6 estudios obtuvo una cifra casi idéntica (OR 1,70) y desaconsejó su uso en población mayor (Leelakanok 2016). En 2025 la AEMPS añadió el feocromocitoma como contraindicación (Boletín sobre Seguridad de Medicamentos de Uso Humano, julio de 2025).",
+     "links": [
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "prolongación del QT"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "persona mayor polimedicada"
+      },
+      {
+       "ids": [
+        "metoclopramida"
+       ],
+       "t": "otro antiemético antidopaminérgico"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones con psicofármacos y con el tratamiento de las adicciones",
+     "x": "La ficha técnica de Motilium contraindica su uso con «ciertos antipsicóticos (p. ej., haloperidol, pimozida, sertindol)», «ciertos antidepresivos (p. ej., citalopram, escitalopram)» y con la metadona, y aclara que la lista es representativa pero no completa (4.5). Esto la hace especialmente problemática en tres escenarios psiquiátricos: personas con esquizofrenia en tratamiento antipsicótico que reciben un antiemético; personas con depresión tratadas con citalopram o escitalopram, cuyas fichas también contraindican fármacos que prolongan el QT (véase el nodo de QT), y personas en tratamiento con metadona, en las que conviene elegir otro antiemético y recordar que los vómitos pueden ser síntoma de abstinencia [fuente no localizada]. También está contraindicada con ritonavir y otros inhibidores de la proteasa y con claritromicina (4.3 y 4.5), relevante en personas con VIH. La hipopotasemia, la hipomagnesemia y la bradicardia aumentan el riesgo de arritmia (4.4), por lo que los vómitos repetidos, los trastornos de la conducta alimentaria con purgas o el consumo de alcohol con desnutrición exigen precaución adicional [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "citalopram",
+        "escitalopram"
+       ],
+       "t": "ISRS con efecto sobre el QT"
+      },
+      {
+       "ids": [
+        "haloperidol"
+       ],
+       "t": "antipsicóticos contraindicados"
+      },
+      {
+       "ids": [
+        "metadona"
+       ],
+       "t": "metadona: combinación contraindicada"
+      }
+     ]
+    },
+    {
+     "t": "Uso fuera de ficha técnica como galactogogo",
+     "x": "La domperidona se emplea para aumentar la producción de leche porque eleva la prolactina, aunque ninguna ficha técnica española recoge este uso (ficha técnica de Motilium, 4.1); en España requiere las condiciones del uso de medicamentos en situaciones especiales (Real Decreto 1015/2009). En un metaanálisis de 5 ensayos con 194 madres de prematuros con producción insuficiente, aumentó el volumen diario de leche en 88,3 ml/día (IC 95 % 56,8-119,8) frente a placebo, sin diferencias en efectos adversos maternos ni casos notificados de QT prolongado o muerte súbita (Grzeskowiak 2018). Otro metaanálisis confirmó el efecto en madres de prematuros (90,53 ml/día), no observado con la metoclopramida, y señaló que los datos en lactantes a término son insuficientes (Shen 2021). En el ensayo EMPOWER, con 90 madres de recién nacidos de 29 semanas o menos, más madres lograron aumentar un 50 % el volumen con domperidona precoz que con placebo (77,8 % frente a 57,8 %), aunque el aumento absoluto fue modesto (Asztalos 2017). La ficha técnica advierte de que no pueden descartarse efectos cardiacos en el lactante (4.6).",
+     "links": [
+      {
+       "ids": [
+        "psicof_lactancia"
+       ],
+       "t": "psicofármacos y lactancia"
+      },
+      {
+       "ids": [
+        "hiperprl_ap"
+       ],
+       "t": "prolactina y antipsicóticos"
+      }
+     ]
+    },
+    {
+     "t": "Inducción de la lactancia en mujeres trans y personas no binarias",
+     "x": "Para algunas mujeres trans y personas no binarias en tratamiento hormonal feminizante, amamantar puede ser una experiencia importante de vínculo y de afirmación de género (Weimer 2023). Se han publicado casos de inducción de la lactancia con domperidona junto a estradiol, progesterona y extracción con sacaleches: una mujer trans de 30 años logró alimentar en exclusiva a su bebé adoptivo durante 6 semanas (Reisman y Goldstein 2018) y otra coalimentó a su bebé, gestado por su pareja, durante los primeros 4 meses, con control electrocardiográfico y análisis de la leche, que mostró un contenido de macronutrientes adecuado (Weimer 2023). Se trata de casos aislados, sin ensayos controlados, y el uso de domperidona es fuera de ficha técnica, por lo que exige valorar el QT, los fármacos concomitantes (incluidos psicofármacos y antirretrovirales) y la seguridad del lactante. Las personas trans tratadas con antipsicóticos pueden sumar el efecto de ambos fármacos y de la terapia hormonal sobre la prolactina (véase el nodo de hiperprolactinemia por antipsicóticos).",
+     "links": [
+      {
+       "ids": [
+        "wpath_soc8",
+        "genero"
+       ],
+       "t": "atención a personas trans"
+      },
+      {
+       "ids": [
+        "hiperprl_ap"
+       ],
+       "t": "prolactina y tratamiento hormonal"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Motilium 10 mg comprimidos recubiertos con película (domperidona) (nº de registro 55410), apartados 4.1-4.8 y 5.1; versión vigente en CIMA, consulta de noviembre de 2026",
+    "AEMPS (2014). Domperidona y riesgo cardiaco: restricciones en las condiciones de autorización. Nota informativa MUH (FV) 4/2014, de 10 de marzo de 2014",
+    "AEMPS (2025). Boletín sobre Seguridad de Medicamentos de Uso Humano. Julio de 2025: domperidona, feocromocitoma",
+    "Real Decreto 1015/2009 (2009), de 19 de junio, por el que se regula la disponibilidad de medicamentos en situaciones especiales (BOE núm. 174, de 20/07/2009, BOE-A-2009-12002)",
+    "Ou LB, Moriello C, Douros A & Filion KB (2021). Domperidone and the risks of sudden cardiac death and ventricular arrhythmia: a systematic review and meta-analysis of observational studies. Br J Clin Pharmacol 87:3649-3658 · PMID 33439512",
+    "Leelakanok N, Holcombe A & Schweizer ML (2016). Domperidone and risk of ventricular arrhythmia and cardiac death: a systematic review and meta-analysis. Clin Drug Investig 36:97-107 · PMID 26649742",
+    "Bor S, Demir M, Ozdemir O & Yuksel K (2018). A meta-analysis on the cardiac safety profile of domperidone compared to metoclopramide. United European Gastroenterol J 6:1331-1346 · PMID 30386606",
+    "Grzeskowiak LE, Smithers LG, Amir LH & Grivell RM (2018). Domperidone for increasing breast milk volume in mothers expressing breast milk for their preterm infants: a systematic review and meta-analysis. BJOG 125:1371-1378 · PMID 29469929",
+    "Shen Q et al. (2021). Efficacy and safety of domperidone and metoclopramide in breastfeeding: a systematic review and meta-analysis. Breastfeed Med 16:516-529 · PMID 33769844",
+    "Asztalos EV et al. (2017). Enhancing human milk production with domperidone in mothers of preterm infants. J Hum Lact 33:181-187 · PMID 28107101",
+    "Reisman T & Goldstein Z (2018). Case report: induced lactation in a transgender woman. Transgend Health 3:24-26 · PMID 29372185",
+    "Weimer AK (2023). Lactation induction in a transgender woman: macronutrient analysis and patient perspectives. J Hum Lact 39:488-494 · PMID 37138506"
+   ],
+   "rel": [
+    "qt_psicof",
+    "hiperprl_ap",
+    "psicof_lactancia",
+    "citalopram",
+    "escitalopram",
+    "haloperidol",
+    "metadona",
+    "metoclopramida",
+    "wpath_soc8",
+    "polifarm"
+   ]
+  }
+ ]
+}

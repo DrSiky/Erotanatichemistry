@@ -1,0 +1,188 @@
+{
+ "pmid_comprobados": 32,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "tramadol",
+   "gravedad": "menor",
+   "antes": "porque ISRS como paroxetina o fluoxetina inhiben CYP2D6 (4.5)",
+   "despues": "porque paroxetina, fluoxetina o sertralina pueden inhibir su metabolismo (4.5) y todos los ISRS inhiben CYP2D6 (Nelson y Philbrick 2012)",
+   "fuente": "Ficha técnica de Adolonta 50 mg (CIMA, nº 59088) 4.5 (no atribuye la inhibición a CYP2D6); PMID 23212934"
+  },
+  {
+   "id": "tramadol",
+   "gravedad": "menor",
+   "antes": "Con IMAO, incluida la moclobemida, la ficha la contraindica (4.3).",
+   "despues": "Con IMAO, en curso o tomados en los 14 días previos, la ficha la contraindica (4.3).",
+   "fuente": "Ficha técnica de Adolonta 50 mg (CIMA, nº 59088) 4.3: no menciona la moclobemida"
+  },
+  {
+   "id": "tramadol",
+   "gravedad": "menor",
+   "antes": "enlace a hiponatr_psicof («otros trastornos metabólicos por fármacos») en la sección de hipoglucemia",
+   "despues": "enlace retirado por no pertinente (la sección no trata la hiponatremia)",
+   "fuente": "node tools/q.js show hiponatr_psicof"
+  },
+  {
+   "id": "tapentadol",
+   "gravedad": "menor",
+   "antes": "(comprimidos de liberación inmediata; Palexia también en solución oral)",
+   "despues": "(comprimidos de liberación inmediata y solución oral)",
+   "fuente": "CIMA: Palexia 4 y 20 mg/ml solución oral y Yantil 4 y 20 mg/ml solución oral (nº 76794, 76795)"
+  },
+  {
+   "id": "tapentadol",
+   "gravedad": "menor",
+   "antes": "pero con menor componente serotoninérgico y sin dependencia de CYP2D6;",
+   "despues": "pero con menor exposición a efectos serotoninérgicos y sin la variabilidad dependiente de CYP2D6 (Roulet 2021);",
+   "fuente": "PMID 34196947"
+  },
+  {
+   "id": "tapentadol",
+   "gravedad": "mayor",
+   "antes": "Opioide de segunda o tercera elección, no de primera línea, en dolor que solo puede tratarse con un opioide (Roulet 2021).",
+   "despues": "No es un opioide de primera línea, sino una opción adicional tras valorar la situación clínica, la comorbilidad y la medicación concomitante, en dolor que solo puede tratarse con un opioide (Roulet 2021).",
+   "fuente": "PMID 34196947: «tapentadol is not a first-line opioid but represents an additional analgesic»; no establece segunda o tercera línea"
+  },
+  {
+   "id": "tapentadol",
+   "gravedad": "menor",
+   "antes": "el bajo uso no médico inicial puede reflejar también la menor cuota de mercado (Dart 2012)",
+   "despues": "las tasas ajustadas por receptor variaron con los cambios de cuota de mercado y no se habían estabilizado a los 24 meses (Dart 2012)",
+   "fuente": "PMID 23264317 (resumen)"
+  },
+  {
+   "id": "tapentadol",
+   "gravedad": "menor",
+   "antes": "Hay casos publicados de probable síndrome serotoninérgico tras sobredosis con duloxetina y amitriptilina concomitantes, en los que el efecto opioide pudo enmascarar los signos hasta la administración de naloxona (Walczyk 2016).",
+   "despues": "Se ha publicado un caso de probable síndrome serotoninérgico tras una sobredosis que incluía tapentadol, con duloxetina y amitriptilina concomitantes, en el que se sospechó que el efecto opioide enmascaraba los signos hasta la administración de naloxona (Walczyk 2016).",
+   "fuente": "PMID 27303080: comunica un único caso"
+  },
+  {
+   "id": "tapentadol",
+   "gravedad": "menor",
+   "antes": "obligan a una valoración psiquiátrica previa en muchas personas con dolor crónico (ficha técnica de Palexia Retard, 4.4)",
+   "despues": "figuran en la ficha técnica (Palexia Retard, 4.4) y justifican explorar los antecedentes psiquiátricos y de consumo antes de iniciarlo [fuente no localizada]",
+   "fuente": "Ficha técnica Palexia Retard 4.4: enumera factores de riesgo, no exige valoración psiquiátrica"
+  },
+  {
+   "id": "oxicodona",
+   "gravedad": "menor",
+   "antes": "se recogen también hiperalgesia y leucoencefalopatía tóxica en la sobredosis (AEMPS, boletín de noviembre de 2022)",
+   "despues": "la ficha recoge además la hiperalgesia (4.4), y la AEMPS añadió la leucoencefalopatía tóxica en la sobredosis (Boletín sobre Seguridad de Medicamentos de Uso Humano, noviembre de 2022)",
+   "fuente": "Boletín AEMPS noviembre 2022 (solo leucoencefalopatía y TUO); ficha OxyContin 4.4 (hiperalgesia)"
+  },
+  {
+   "id": "oxicodona",
+   "gravedad": "menor",
+   "antes": "AEMPS (2022). Boletín mensual de seguridad de la AEMPS sobre medicamentos de uso humano del mes de noviembre de 2022: oxicodona, trastorno por uso de opioides y leucoencefalopatía tóxica",
+   "despues": "AEMPS (2022). Boletín sobre Seguridad de Medicamentos de Uso Humano. Noviembre de 2022 (última actualización 28/12/2022): oxicodona, trastorno por uso de opioides y leucoencefalopatía tóxica",
+   "fuente": "aemps.gob.es, título literal del boletín"
+  },
+  {
+   "id": "oxicodona",
+   "gravedad": "menor",
+   "antes": "Los opioides no son sustancias nucleares del chemsex, pero la oxicodona se ha detectado junto a ketamina, MDMA y otras sustancias en polvos vendidos como «tusi» (véase el nodo correspondiente)",
+   "despues": "Los opioides no son sustancias nucleares del chemsex [fuente no localizada], pero la oxicodona se ha detectado junto a ketamina, MDMA y otras sustancias en polvos vendidos como «tusi» en análisis forenses de Miami-Dade (véase el nodo correspondiente)",
+   "fuente": "Nodo tusi (Moore 2025)"
+  },
+  {
+   "id": "metoclopramida",
+   "gravedad": "menor",
+   "antes": "limitó la duración del tratamiento a un máximo de 5 días y contraindicó su uso en menores de 1 año por el riesgo neurológico (nota MUH (FV) 22/2013).",
+   "despues": "limitó la duración del tratamiento a un máximo de 5 días y recomendó no utilizarla en menores de 1 año (nota MUH (FV) 22/2013), hoy contraindicación de ficha (4.3).",
+   "fuente": "Nota AEMPS MUH (FV) 22/2013 («No utilizar metoclopramida en niños menores de 1 año»); ficha Primperan 4.3"
+  },
+  {
+   "id": "metoclopramida",
+   "gravedad": "menor",
+   "antes": "En España se comercializa como Primperan 10 mg comprimidos (nº de registro 41446), solución oral e inyectable, y en genéricos.",
+   "despues": "En España se comercializa como Primperan (comprimidos, nº 41446; solución oral e inyectable) y en genéricos.",
+   "fuente": "CIMA"
+  },
+  {
+   "id": "metoclopramida",
+   "gravedad": "menor",
+   "antes": "la ficha técnica limita el tratamiento a 3 meses como máximo por este riesgo y pide suspenderlo ante los primeros signos; la nota de la AEMPS de 2013 restringe además la duración a 5 días",
+   "despues": "la ficha técnica advierte de que el tratamiento no debe exceder de 3 meses por este riesgo y pide suspenderlo ante los primeros signos (4.4), y fija además una duración máxima de 5 días (4.2), conforme a la nota de la AEMPS de 2013",
+   "fuente": "Ficha técnica Primperan 4.2 y 4.4"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "la AEMPS, siguiendo al comité europeo de farmacovigilancia (PRAC), restringió sus indicaciones, redujo dosis y duración y añadió contraindicaciones (nota MUH (FV) 4/2014).",
+   "despues": "el comité europeo de farmacovigilancia (PRAC) recomendó restringir sus indicaciones, reducir dosis y duración y añadir contraindicaciones, y la AEMPS adoptó estas recomendaciones como medida de precaución (nota MUH (FV) 4/2014).",
+   "fuente": "Nota AEMPS MUH (FV) 4/2014"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "extremar la precaución si hay factores de riesgo de prolongación del QTc",
+   "despues": "extremar la precaución si hay factores de riesgo de prolongación del QTc en el lactante",
+   "fuente": "Ficha técnica Motilium 4.6"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "sin superar el umbral de 10 ms; la discrepancia con los datos epidemiológicos refleja que el riesgo se concentra en personas mayores, cardiópatas o polimedicadas",
+   "despues": "sin superar el umbral de 10 ms, aunque dos estudios previos mostraron indicios de prolongación del QTc en monoterapia; los estudios epidemiológicos sitúan el mayor riesgo en mayores de 60 años, con más de 30 mg/día y con fármacos que prolongan el QT o inhiben CYP3A4 (4.4)",
+   "fuente": "Ficha técnica Motilium 5.1 y 4.4 (la explicación de la discrepancia no figura en la ficha)"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "por lo que se retiró la indicación en dispepsia y regurgitación (nota MUH (FV) 4/2014)",
+   "despues": "por lo que recomendó restringir las indicaciones, que entonces incluían en adultos la plenitud epigástrica, el malestar abdominal alto y la regurgitación, y suspender las presentaciones rectales pediátricas y las orales de más de 10 mg por dosis (nota MUH (FV) 4/2014)",
+   "fuente": "Nota AEMPS MUH (FV) 4/2014"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "con riesgo de sesgo moderado o grave (Ou 2021); un metaanálisis de menor calidad no halló aumento del riesgo cardiovascular con dosis diarias de hasta 30 mg (Bor 2018).",
+   "despues": "con riesgo de sesgo moderado, grave o crítico (Ou 2021); otro metaanálisis no halló aumento del riesgo cardiovascular con dosis diarias de hasta 30 mg, pero sí con dosis superiores (OR 3,14) (Bor 2018).",
+   "fuente": "PMID 33439512 (ROBINS-I: 3 moderado, 4 grave, 1 crítico); PMID 30386606"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "mayor",
+   "antes": "La domperidona no está autorizada en Estados Unidos y la FDA ha desaconsejado su uso para aumentar la producción de leche [fuente no localizada].",
+   "despues": "La domperidona no es un medicamento comercializado legalmente ni autorizado en Estados Unidos; la FDA advirtió en 2004 de sus riesgos cardiacos cuando se usa para aumentar la lactancia y, en una revisión de 2023 de seis casos, halló indicios de una posible asociación entre la retirada brusca o gradual de la domperidona usada como galactogogo y efectos neuropsiquiátricos como agitación, ansiedad, insomnio, pensamientos intrusivos u obsesivos, ideación suicida o intento de suicidio (FDA 2025).",
+   "fuente": "fda.gov, «How to Request Domperidone for Expanded Access Use», contenido vigente a 04/08/2025"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "en España requiere las condiciones del uso de medicamentos en situaciones especiales (Real Decreto 1015/2009).",
+   "despues": "en España requiere las condiciones del uso en situaciones especiales: carácter excepcional, justificación en la historia clínica e información y consentimiento de la persona (Real Decreto 1015/2009, art. 13).",
+   "fuente": "BOE-A-2009-12002, art. 13"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "Se trata de casos aislados, sin ensayos controlados,",
+   "despues": "Los Standards of Care 8 de la WPATH citan el primero de estos casos, señalan que el perfil nutricional e inmunológico de esa leche no se había estudiado y piden informar de los riesgos y beneficios de esta forma de alimentación (Coleman 2022). Se trata de casos aislados, sin ensayos controlados,",
+   "fuente": "PMID 36238954 (SOC-8, capítulo de salud reproductiva)"
+  },
+  {
+   "id": "domperidona",
+   "gravedad": "menor",
+   "antes": "refs sin SOC-8 ni fuente de la FDA",
+   "despues": "añadidas Coleman 2022 (PMID 36238954) y página de la FDA sobre domperidona (2025)",
+   "fuente": "PubMed; fda.gov"
+  },
+  {
+   "id": "patch.wpath_soc8",
+   "gravedad": "menor",
+   "antes": "relAdd domperidona (pertinencia dudosa)",
+   "despues": "se mantiene: el capítulo de salud reproductiva de SOC-8 cita expresamente la inducción de la lactancia con domperidona en una mujer trans (Reisman y Goldstein 2018)",
+   "fuente": "Coleman 2022, PMID 36238954 (texto completo PMC)"
+  }
+ ],
+ "sin_resolver": [
+  "Cicero 2012 (PMID 22784140) es una carta sin resumen: se mantiene marcada como contenido no contrastado, sin cifras atribuidas.",
+  "No se localizaron recomendaciones específicas de NICE, CANMAT, BAP, WFSBP o Maudsley sobre estos cinco fármacos que difieran de la ficha; no se citan guías.",
+  "No hay estudios específicos de estos fármacos en chemsex; las afirmaciones correspondientes siguen marcadas [fuente no localizada].",
+  "Anillo 3 para tapentadol frente a 2 para tramadol y oxicodona: decisión del redactor apoyada en Roulet 2021 (no primera línea, eficacia comparativa de baja calidad); se conserva.",
+  "La revisión de la EMA/CHMP de 2013 sobre metoclopramida se cita a través de la nota MUH (FV) 22/2013 (cotejada literalmente), no del documento de la EMA."
+ ]
+}
