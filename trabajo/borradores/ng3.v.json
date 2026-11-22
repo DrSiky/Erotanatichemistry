@@ -1,0 +1,786 @@
+{
+ "patch": {
+  "ad_atip": {
+   "relAdd": [
+    "gepirona",
+    "dxm_bupropion",
+    "tianeptina"
+   ]
+  },
+  "buspirona": {
+   "relAdd": [
+    "gepirona",
+    "vilazodona"
+   ]
+  },
+  "qt_psicof": {
+   "relAdd": [
+    "gepirona"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "gepirona",
+    "vilazodona",
+    "levomilnacipran"
+   ]
+  },
+  "bupropion": {
+   "relAdd": [
+    "dxm_bupropion"
+   ]
+  },
+  "otc_abuso": {
+   "relAdd": [
+    "dxm_bupropion",
+    "tianeptina"
+   ]
+  },
+  "ketamina": {
+   "relAdd": [
+    "dxm_bupropion"
+   ]
+  },
+  "agit_dem": {
+   "relAdd": [
+    "dxm_bupropion"
+   ]
+  },
+  "isrs": {
+   "relAdd": [
+    "vilazodona",
+    "levomilnacipran"
+   ]
+  },
+  "vortioxetina": {
+   "relAdd": [
+    "vilazodona"
+   ]
+  },
+  "disf_sexual_psicof": {
+   "relAdd": [
+    "vilazodona",
+    "levomilnacipran"
+   ]
+  },
+  "duloxetina": {
+   "relAdd": [
+    "levomilnacipran"
+   ]
+  },
+  "venlafaxina": {
+   "relAdd": [
+    "levomilnacipran"
+   ]
+  },
+  "opioides": {
+   "relAdd": [
+    "tianeptina"
+   ]
+  },
+  "naloxona": {
+   "relAdd": [
+    "tianeptina"
+   ]
+  },
+  "buprenorfina": {
+   "relAdd": [
+    "tianeptina"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "gepirona",
+   "n": "Gepirona",
+   "ab": "Gepirona",
+   "al": [
+    "gepirone",
+    "Exxua",
+    "gepirona de liberación prolongada",
+    "Travivo"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 2023,
+   "tags": [],
+   "desc": "Azapirona de la familia de la buspirona, agonista selectivo de receptores 5-HT1A, comercializada en formulación de liberación prolongada. No está autorizada en España: en noviembre de 2026 no figura ninguna presentación en CIMA (AEMPS) ni en el registro de medicamentos evaluados por la EMA. La autoriza la FDA estadounidense (EXXUA, NDA 021164, aprobación de 22 de septiembre de 2023) para el trastorno depresivo mayor en adultos, tras una larga historia reguladora con ensayos negativos o fallidos. Su ficha estadounidense la contraindica con QTc basal superior a 450 ms, síndrome de QT largo congénito, insuficiencia hepática grave, inhibidores potentes de CYP3A4 e IMAO, y exige ECG antes de iniciar y durante la titulación. La eficacia sobre placebo es modesta (unos 2,5 puntos de HAM-D-17 en los dos ensayos de 8 semanas de la ficha) y su interés teórico reside en la ausencia de aumento de peso frente a placebo y en indicios preliminares, procedentes de análisis secundarios, de menor disfunción sexual (Feiger 2003; Alpert 2004).",
+   "feats": [
+    "Estado regulador: sin presentación en CIMA (AEMPS) ni en el listado de la EMA en noviembre de 2026; autorizada por la FDA (EXXUA, NDA 021164, 22 de septiembre de 2023) para el trastorno depresivo mayor en adultos (ficha de la FDA, apartado 1)",
+    "Mecanismo (ficha de la FDA, 12.1-12.2): agonismo selectivo 5-HT1A de la gepirona y de su metabolito 3'-OH-gepirona (Ki 38 y 58 nM); el metabolito 1-PP se une a receptores α2 (Ki 42 nM); mecanismo antidepresivo no aclarado del todo",
+    "Contraindicaciones (ficha de la FDA, 4): QTc basal superior a 450 ms, QT largo congénito, inhibidores potentes de CYP3A4, insuficiencia hepática grave e IMAO (14 días en ambos sentidos, incluidos linezolid y azul de metileno intravenoso)",
+    "QT: en el estudio específico de QT la prolongación media máxima corregida fue de 18,4 ms con una exposición doble de la máxima recomendada; la ficha exige ECG antes de iniciar, durante la titulación y periódicamente, y corregir antes los trastornos electrolíticos (ficha de la FDA, 5.2 y 12.2)",
+    "Interacciones (ficha de la FDA, 7): los inhibidores potentes de CYP3A4 multiplican por unos 5 su exposición y los moderados por 2,6; los inductores potentes la reducen entre 20 y 29 veces, por lo que deben evitarse",
+    "Eficacia: en los dos ensayos de 8 semanas de la ficha, diferencia frente a placebo en HAM-D-17 de -2,47 (IC 95 % -4,41 a -0,53) y -2,45 (IC 95 % -4,47 a -0,43); abandonos por efectos adversos del 7 % frente al 3 % (ficha de la FDA, 6.1 y 14)",
+    "Tolerabilidad: mareo (49 % frente a 10 %), náuseas (35 % frente a 13 %), insomnio, dolor abdominal y dispepsia fueron las reacciones más frecuentes en los ensayos (ficha de la FDA, 6.1); sin diferencias con placebo en peso ni sedación (Feiger 2003)"
+   ],
+   "tx": "No disponible en España; su uso exigiría importación como medicamento extranjero, cuya viabilidad no se ha comprobado [fuente no localizada]. Donde está autorizada, la ficha de la FDA obliga a ECG basal y seriado, a corregir hipopotasemia e hipomagnesemia, a revisar todos los fármacos que alargan el QT o inhiben CYP3A4 y a cribar trastorno bipolar antes de iniciar. CANMAT 2023 no la incluye en su tabla de antidepresivos (Lam 2024) y no se ha localizado posicionamiento en NICE, BAP, WFSBP ni Maudsley [fuente no localizada], por lo que no hay base para preferirla a un antidepresivo de primera línea; su hueco teórico sería la persona que no tolera los efectos sexuales o ponderales de los ISRS, hipótesis no contrastada frente a alternativas como el bupropión o la vortioxetina.",
+   "note": "La autorización de la FDA llegó tras décadas de desarrollo con varios ensayos negativos o fallidos; una revisión narrativa de 2025 concluye que la gepirona acumula más estudios fallidos y un tamaño del efecto menor frente a placebo que otros antidepresivos (Gao 2025). No hay ensayos frente a comparador activo ni datos de mantenimiento publicados que se hayan localizado [fuente no localizada]. La ausencia de disfunción sexual procede de análisis secundarios de ensayos patrocinados (Feiger 2003; Alpert 2004) y la ficha de la FDA no la recoge como dato de eficacia o seguridad.",
+   "sec": [
+    {
+     "t": "Estado regulador y lugar en las guías",
+     "x": "En España no consta ninguna presentación de gepirona en CIMA (consulta de 22 de noviembre de 2026), ni figura en el listado público de medicamentos evaluados por la EMA, por lo que no existe ficha técnica europea ni española. La única autorización localizada es la de la FDA: EXXUA, comprimidos de liberación prolongada, NDA 021164, aprobada el 22 de septiembre de 2023 para el trastorno depresivo mayor en adultos (Drugs@FDA). La ficha estadounidense lleva la advertencia enmarcada común a los antidepresivos sobre pensamientos y conductas suicidas en población pediátrica y adultos jóvenes, y no está aprobada en menores. Ninguna de las guías de referencia consultadas la sitúa: CANMAT 2023 no la menciona ni en su texto ni en la tabla 3.3 de antidepresivos (Lam 2024); no se ha localizado su valoración en NICE NG222, BAP, WFSBP ni Maudsley [fuente no localizada]. En ausencia de comparaciones directas, su lugar sería, como mucho, el de alternativa de evidencia limitada.",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "advertencia sobre conducta suicida"
+      }
+     ]
+    },
+    {
+     "t": "Ensayos clínicos y tamaño del efecto",
+     "x": "En el ensayo de Feiger (2003; 209 aleatorizados, 8 semanas, HAM-D-17 basal de 20 o más), la gepirona de liberación prolongada superó al placebo en la HAM-D-17 en las semanas 3 y 8, con remisión del 28,7 % frente al 14,9 % en la semana 8 y abandonos por efectos adversos del 9,8 % frente al 2,8 %; no difirió del placebo en aumento de peso ni sedación. En el ensayo de Bielski (2008; pacientes de 18 a 64 años con HAM-D-17 de 20 o más) la reducción fue significativa desde la semana 4 hasta la 8, con mareo (45 % frente a 10 %) y náuseas (36 % frente a 13 %) como efectos más frecuentes, sobre todo durante la titulación. Un análisis retrospectivo de subgrupo con depresión ansiosa (58 frente a 75 pacientes) describió mejoría de la ansiedad psíquica y tasas de aumento de peso y disfunción sexual comparables a placebo (Alpert 2004), dato de baja jerarquía. La ficha de la FDA resume dos ensayos de 8 semanas con diferencias frente a placebo de unos 2,5 puntos en la HAM-D-17, un efecto modesto.",
+     "links": [
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual por antidepresivos"
+      },
+      {
+       "ids": [
+        "buspirona"
+       ],
+       "t": "azapironas: buspirona"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad cardiaca, interacciones y consumo de sustancias",
+     "x": "El rasgo diferencial de seguridad es la prolongación del QTc (ficha de la FDA, 5.2): contraindicación con QTc basal superior a 450 ms y con QT largo congénito, ECG seriados y no aumentar la dosis si el QTc supera 450 ms. La dependencia de CYP3A4 es extrema: los inhibidores potentes, contraindicados, multiplican por 5 la exposición. Los potenciadores farmacocinéticos de los antirretrovirales, ritonavir y cobicistat, son inhibidores potentes de CYP3A4, por lo que su combinación quedaría dentro de esa contraindicación aunque la ficha no los nombra; es un punto de cribado obligado en personas con VIH que practican chemsex. La ficha advierte de síndrome serotoninérgico con otros serotoninérgicos y de activación maníaca. No se han localizado datos sobre abuso, consumo recreativo ni interacción con drogas del chemsex (MDMA, mefedrona, metanfetamina, GHB) [fuente no localizada]; la cocaína y los estimulantes pueden sumar riesgo arrítmico, extrapolación no estudiada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT y psicofármacos"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "maois"
+       ],
+       "t": "IMAO"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "FDA, U.S. Food and Drug Administration (2023). Drugs@FDA: NDA 021164, EXXUA (gepirona) comprimidos de liberación prolongada; aprobación original de 22 de septiembre de 2023 (Fabre-Kramer); consulta de noviembre de 2026",
+    "FDA, U.S. Food and Drug Administration (2026). EXXUA (gepirone) extended-release tablets: prescribing information (DailyMed, set id 0c78edd8-6acb-433c-9d34-2527da8d64e1; versión de julio de 2026), apartados 1, 4, 5, 7, 12 y 14; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de Información online de Medicamentos de la AEMPS: búsqueda por principio activo (gepirona, vilazodona, levomilnaciprán, dextrometorfano-bupropión) sin resultados; consulta de 22 de noviembre de 2026",
+    "EMA, European Medicines Agency (2026). Medicines data: listado de medicamentos de uso humano evaluados por la EMA (informe JSON público); consulta de 22 de noviembre de 2026",
+    "Feiger AD et al. (2003). Gepirone extended-release: new evidence for efficacy in the treatment of major depressive disorder. J Clin Psychiatry 64:243-249 · PMID 12716264",
+    "Bielski RJ et al. (2008). Gepirone extended-release in the treatment of adult outpatients with major depressive disorder: a double-blind, randomized, placebo-controlled, parallel-group study. J Clin Psychiatry 69:571-577 · PMID 18373383",
+    "Alpert JE et al. (2004). Gepirone extended-release treatment of anxious depression: evidence from a retrospective subgroup analysis in patients with major depressive disorder. J Clin Psychiatry 65:1069-1075 · PMID 15323591",
+    "Robinson DS, Sitsen JM & Gibertini M (2003). A review of the efficacy and tolerability of immediate-release and extended-release formulations of gepirone. Clin Ther 25:1618-1633 · PMID 12860488",
+    "Gao K, Oruc EB & Koparal B (2025). Pharmacological monotherapy for depressive disorders: current and future-a narrative review. Medicina (Kaunas) 61:558 · PMID 40282849",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351"
+   ],
+   "rel": [
+    "ddm",
+    "buspirona",
+    "ad_atip",
+    "qt_psicof",
+    "sind_ser",
+    "maois",
+    "chemsex_arv",
+    "disf_sexual_psicof",
+    "vortioxetina"
+   ]
+  },
+  {
+   "id": "dxm_bupropion",
+   "n": "Dextrometorfano-bupropión",
+   "ab": "DXM-bupropión",
+   "al": [
+    "dextromethorphan-bupropion",
+    "Auvelity",
+    "AXS-05",
+    "dextrometorfano/bupropión"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2022,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Combinación a dosis fija de dextrometorfano (antagonista no competitivo del receptor NMDA y agonista sigma-1) y bupropión, que actúa a la vez como antidepresivo y como inhibidor de CYP2D6 que eleva las concentraciones de dextrometorfano. No está autorizada en España (sin presentación en CIMA ni evaluación de la EMA en noviembre de 2026); la autoriza la FDA (AUVELITY, NDA 215430, 18 de agosto de 2022) para el trastorno depresivo mayor en adultos y, desde abril de 2026, para la agitación asociada a demencia por enfermedad de Alzheimer. CANMAT 2023 la recomienda en segunda línea, con nivel de evidencia 2, por la evidencia limitada, el potencial de uso indebido y la falta de datos de seguridad a largo plazo (Lam 2024). Hereda las contraindicaciones del bupropión (convulsiones, bulimia o anorexia, retirada brusca de alcohol o sedantes, IMAO) y el potencial de abuso del dextrometorfano, ya tratado en la ficha de abuso de fármacos de venta libre.",
+   "feats": [
+    "Estado regulador: sin presentación en CIMA ni en el listado de la EMA (noviembre de 2026); FDA, NDA 215430 (18 de agosto de 2022): trastorno depresivo mayor en adultos y, desde abril de 2026, agitación asociada a demencia por enfermedad de Alzheimer, no indicada a demanda (ficha de la FDA, 1)",
+    "Mecanismo (ficha de la FDA, 12.1): dextrometorfano, antagonista no competitivo NMDA y agonista sigma-1; el bupropión inhibe de forma competitiva CYP2D6 y aumenta sus concentraciones; mecanismo antidepresivo de ambos no aclarado",
+    "Contraindicaciones (ficha de la FDA, 4): trastorno convulsivo, bulimia o anorexia nerviosa actual o previa, retirada brusca de alcohol, benzodiacepinas, barbitúricos o antiepilépticos, IMAO (14 días en ambos sentidos, incluidos linezolid y azul de metileno) e hipersensibilidad",
+    "Advertencias (ficha de la FDA, 5): convulsiones dosis-dependientes, hipertensión, activación maníaca, psicosis y otras reacciones neuropsiquiátricas, glaucoma de ángulo cerrado, mareo y caídas, síndrome serotoninérgico con ISRS o tricíclicos, toxicidad embriofetal e hiponatremia",
+    "GEMINI (n = 327, 6 semanas): MADRS -15,9 frente a -12,0 con placebo (diferencia -3,87), con diferencias desde la semana 1; remisión del 39,5 % frente al 17,3 %; sin efectos psicotomiméticos, aumento de peso ni más disfunción sexual (Iosifescu 2022)",
+    "ASCEND, fase 2 frente a bupropión (80 pacientes evaluables): efecto global sobre la MADRS -13,7 frente a -8,8 puntos y remisión en la semana 6 del 46,5 % frente al 16,2 % (Tabuteau 2022), lo que apoya la contribución del dextrometorfano",
+    "Uso indebido (ficha de la FDA, 9): no es sustancia controlada; abuso de dextrometorfano notificado sobre todo en adolescentes; vigilar tolerancia, escalada de dosis y búsqueda del fármaco en personas con antecedentes; convulsiones y muertes con bupropión intranasal o inyectado",
+    "Analítica (ficha de la FDA, 7.2): puede dar falsos positivos de anfetaminas en orina, dato con relevancia clínica y pericial cuando se interpretan cribados de drogas"
+   ],
+   "tx": "No disponible en España. Donde está autorizada, CANMAT 2023 la sitúa en segunda línea en depresión mayor, con nivel de evidencia 2, y señala que no está disponible en Canadá (Lam 2024). Antes de iniciar: descartar antecedentes convulsivos, trastornos de la conducta alimentaria y consumo de alcohol o sedantes con riesgo de retirada brusca; medir la tensión arterial; cribar trastorno bipolar; revisar inhibidores potentes de CYP2D6 (fluoxetina, paroxetina), sustratos de CYP2D6 y serotoninérgicos, y evitar inductores potentes de CYP2B6 (ficha de la FDA, 7). En personas con trastorno por consumo de sustancias, vigilar el uso indebido y prescribir cantidades limitadas [fuente no localizada para la limitación de envases]. En la agitación por enfermedad de Alzheimer, su lugar respecto a las intervenciones no farmacológicas y a otros fármacos no está fijado por guías localizadas [fuente no localizada].",
+   "note": "La autorización en depresión se apoya en un ensayo controlado con placebo de 6 semanas (GEMINI) y en un ensayo de fase 2 frente a bupropión como evidencia confirmatoria (ficha de la FDA, 14.1), ambos patrocinados y breves; no hay comparaciones con ISRS ni datos controlados de mantenimiento localizados. El metaanálisis en red disponible solo incluye esos dos ensayos (Ashwin 2025). La afirmación de ausencia de efectos disociativos procede de dosis terapéuticas con inhibición controlada de CYP2D6; no es extrapolable a la ingesta de dosis altas.",
+   "sec": [
+    {
+     "t": "Estado regulador y lugar en las guías",
+     "x": "En España no hay presentación en CIMA del dextrometorfano combinado con bupropión (consulta de 22 de noviembre de 2026) y la EMA no ha evaluado la combinación; el único medicamento con dextrometorfano evaluado por la EMA, Nuedexta (dextrometorfano-quinidina para el afecto pseudobulbar), figura como retirado. La autorización vigente es la de la FDA (AUVELITY, NDA 215430, 18 de agosto de 2022). CANMAT 2023 la describe como antagonista NMDA, agonista sigma-1 e inhibidor de la recaptación de serotonina y noradrenalina, en la que el bupropión aumenta la biodisponibilidad del dextrometorfano por inhibición de CYP2D6, y la recomienda en segunda línea dada la evidencia limitada, el potencial de uso indebido y la falta de datos de seguridad a largo plazo; recuerda además que los IMAO pueden causar interacciones mortales con esta combinación (Lam 2024). No se ha localizado posicionamiento de NICE, BAP, WFSBP ni Maudsley [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "bupropion"
+       ],
+       "t": "bupropión en monoterapia"
+      },
+      {
+       "ids": [
+        "maois"
+       ],
+       "t": "IMAO: interacción grave"
+      },
+      {
+       "ids": [
+        "esketamina",
+        "ketamina"
+       ],
+       "t": "otros antidepresivos glutamatérgicos"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de los ensayos",
+     "x": "GEMINI (Iosifescu 2022; fase 3, 327 pacientes con trastorno depresivo mayor DSM-5, 6 semanas): el cambio en la MADRS fue de -15,9 frente a -12,0 puntos (diferencia -3,87; IC 95 % -1,39 a -6,36), con separación significativa ya en la semana 1 y la 2; remisión del 39,5 % frente al 17,3 % y respuesta del 54,0 % frente al 34,0 %. Los efectos adversos más frecuentes fueron mareo, náuseas, cefalea, somnolencia y sequedad de boca. ASCEND (Tabuteau 2022; fase 2, frente a bupropión en monoterapia, 97 aleatorizados y 80 en la población de eficacia) mostró un efecto global sobre la MADRS de -13,7 frente a -8,8 puntos y una remisión en la semana 6 del 46,5 % frente al 16,2 %. El inicio precoz es el rasgo diferencial publicitado, pero se mide frente a placebo en ensayos breves; una revisión de 2025 concluye que la combinación tiene un inicio más rápido pero un tamaño del efecto similar al de los antidepresivos monoaminérgicos (Gao 2025).",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "agit_dem"
+       ],
+       "t": "agitación en la demencia (indicación FDA de 2026)"
+      }
+     ]
+    },
+    {
+     "t": "Uso indebido, chemsex y consumo de sustancias",
+     "x": "El dextrometorfano es un disociativo de uso recreativo a dosis altas, con psicosis y síndrome serotoninérgico descritos (ficha de abuso de fármacos de venta libre). La ficha de la FDA (9.2) reconoce que la combinación no se ha estudiado sistemáticamente en cuanto a abuso, tolerancia o dependencia y pide vigilar a quienes tienen antecedentes de consumo; recuerda las convulsiones y muertes por bupropión intranasal o inyectado. Al inhibir CYP2D6, el bupropión puede aumentar la exposición a otros sustratos de esa enzima (ficha de la FDA, 7.1); la MDMA y la metanfetamina se metabolizan en parte por CYP2D6, de modo que la interacción con estas drogas del chemsex es plausible, pero no se ha estudiado con esta combinación [fuente no localizada]. Los estimulantes y la retirada brusca de alcohol o de benzodiacepinas, frecuente en el policonsumo, suman riesgo convulsivo (ficha de la FDA, 4 y 5.2). Puede dar falsos positivos de anfetaminas en orina (7.2), lo que obliga a confirmar por técnicas específicas antes de extraer conclusiones clínicas o periciales.",
+     "links": [
+      {
+       "ids": [
+        "otc_abuso"
+       ],
+       "t": "abuso de dextrometorfano"
+      },
+      {
+       "ids": [
+        "ketamina_rec"
+       ],
+       "t": "disociativos recreativos"
+      },
+      {
+       "ids": [
+        "cyp2d6"
+       ],
+       "t": "CYP2D6"
+      },
+      {
+       "ids": [
+        "mdma",
+        "metanf"
+       ],
+       "t": "MDMA y metanfetamina"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "FDA, U.S. Food and Drug Administration (2022). Drugs@FDA: NDA 215430, AUVELITY (dextrometorfano bromhidrato/bupropión hidrocloruro) comprimidos de liberación prolongada; aprobación original de 18 de agosto de 2022 (Axsome Therapeutics); consulta de noviembre de 2026",
+    "FDA, U.S. Food and Drug Administration (2026). AUVELITY (dextromethorphan HBr and bupropion HCl) extended-release tablets: prescribing information (DailyMed, set id dcefda7c-9a68-278e-e053-2995a90aec79; versión de agosto de 2026, con la indicación de abril de 2026 en agitación asociada a demencia por enfermedad de Alzheimer), apartados 1, 4, 5, 7, 9 y 12-14; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de Información online de Medicamentos de la AEMPS: búsqueda por principio activo (gepirona, vilazodona, levomilnaciprán, dextrometorfano-bupropión) sin resultados; consulta de 22 de noviembre de 2026",
+    "EMA, European Medicines Agency (2026). Medicines data: listado de medicamentos de uso humano evaluados por la EMA (informe JSON público); consulta de 22 de noviembre de 2026",
+    "Iosifescu DV et al. (2022). Efficacy and safety of AXS-05 (dextromethorphan-bupropion) in patients with major depressive disorder: a phase 3 randomized clinical trial (GEMINI). J Clin Psychiatry 83:21m14345 · PMID 35649167",
+    "Tabuteau H et al. (2022). Effect of AXS-05 (dextromethorphan-bupropion) in major depressive disorder: a randomized double-blind controlled trial. Am J Psychiatry 179:490-499 · PMID 35582785",
+    "Ashwin JV et al. (2025). Efficacy and safety of dextromethorphan-bupropion combination (AXS-05) in the treatment of depression: a systematic review and network meta-analysis. Indian J Pharmacol 57:262-268 · PMID 40686359",
+    "Gao K, Oruc EB & Koparal B (2025). Pharmacological monotherapy for depressive disorders: current and future-a narrative review. Medicina (Kaunas) 61:558 · PMID 40282849",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351"
+   ],
+   "rel": [
+    "bupropion",
+    "otc_abuso",
+    "ketamina",
+    "esketamina",
+    "ddm",
+    "agit_dem",
+    "cyp2d6",
+    "maois",
+    "sind_ser",
+    "ketamina_rec",
+    "ad_atip"
+   ]
+  },
+  {
+   "id": "vilazodona",
+   "n": "Vilazodona",
+   "ab": "Vilazodona",
+   "al": [
+    "vilazodone",
+    "Viibryd",
+    "SPARI"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2011,
+   "tags": [],
+   "desc": "Inhibidor selectivo de la recaptación de serotonina con agonismo parcial de receptores 5-HT1A. No está autorizada en España (sin presentación en CIMA ni evaluación en el listado de la EMA en noviembre de 2026); la autoriza la FDA (VIIBRYD, NDA 022567, 21 de enero de 2011) para el trastorno depresivo mayor en adultos, y en Estados Unidos dispone de genéricos desde 2019. Se toma con alimentos y se metaboliza sobre todo por CYP3A4. La revisión sistemática con metaanálisis en red de Wagner (2018) no encontró más beneficio ni menos daño que con otros antidepresivos de segunda generación, y la única comparación directa disponible era frente a citalopram. CANMAT 2023 la sitúa en primera línea con nivel de evidencia 1 (cambio respecto a 2016) y la incluye entre los antidepresivos con menor tasa de disfunción sexual y con riesgo moderado de síntomas de discontinuación (Lam 2024). La ficha de la FDA describe síndrome serotoninérgico también en monoterapia, sangrado, viraje maníaco, convulsiones y disfunción sexual, y en población pediátrica dos ensayos con 1002 participantes no demostraron eficacia.",
+   "feats": [
+    "Estado regulador: sin presentación en CIMA ni en el listado de la EMA (noviembre de 2026); FDA, NDA 022567 (21 de enero de 2011), trastorno depresivo mayor en adultos (ficha de la FDA, 1); genéricos aprobados por la FDA desde 2019 (Drugs@FDA)",
+    "Mecanismo (ficha de la FDA, 12.1-12.2): alta afinidad por el transportador de serotonina (Ki 0,1 nM), escasa por los de noradrenalina (56 nM) y dopamina (37 nM), y agonismo parcial 5-HT1A (CI50 2,1 nM) de papel antidepresivo desconocido",
+    "Contraindicaciones (ficha de la FDA, 4): IMAO, incluidos linezolid y azul de metileno intravenoso, o en los 14 días siguientes a suspenderlos",
+    "Interacciones (ficha de la FDA, 7): dosis máxima limitada con inhibidores potentes de CYP3A4 (itraconazol, claritromicina, voriconazol) y posible aumento con inductores potentes, según la ficha; síndrome serotoninérgico con ISRS, IRSN, triptanes, tricíclicos, opioides, litio, buspirona, anfetaminas, triptófano e hipérico",
+    "Eficacia: en un ensayo de 8 semanas con 397 pacientes en análisis por intención de tratar superó al placebo en MADRS y HAM-D-17 desde la semana 1, con diarrea, náuseas y somnolencia como efectos adversos (Rickels 2009); eficacia similar a otros antidepresivos de segunda generación, con evidencia de baja certeza (Wagner 2018)",
+    "Función sexual: en el conjunto de ensayos controlados, el 8,0 % con vilazodona y el 0,9 % con placebo notificaron al menos un efecto adverso sexual, aunque la disfunción sexual al final del tratamiento no difirió de forma significativa (Clayton 2013); la ficha de la FDA mantiene la advertencia de disfunción sexual de los ISRS (5.9)",
+    "Población pediátrica: no se demostró eficacia en dos ensayos de 8 semanas con 1002 participantes de 7 a 17 años (ficha de la FDA, 8.4); en la red de Cochrane la diferencia en la CDRS-R frente a placebo fue pequeña y sin relevancia (Hetrick 2021)"
+   ],
+   "tx": "No disponible en España. Donde está autorizada, CANMAT 2023 la considera de primera línea (nivel de evidencia 1; Lam 2024), con eficacia equiparable a otros antidepresivos de segunda generación (Wagner 2018); en España no aporta una ventaja demostrada que justifique importarla cuando existen ISRS, vortioxetina o bupropión [fuente no localizada para la valoración de la importación]. Debe tomarse con alimentos y titularse según la ficha de la FDA; con inhibidores potentes de CYP3A4 la ficha limita la dosis máxima, lo que por categoría alcanzaría a los potenciadores antirretrovirales ritonavir y cobicistat, que la ficha no nombra. Al ser serotoninérgica, aplica la vigilancia de síndrome serotoninérgico, sangrado con antiagregantes o anticoagulantes, hiponatremia y viraje maníaco; retirada gradual por el riesgo moderado de discontinuación que le asigna CANMAT 2023.",
+   "note": "Los datos de función sexual favorables proceden de análisis post hoc o agrupados de ensayos patrocinados por el fabricante (Clayton 2013; Clayton 2015) y la ficha de la FDA no los traduce en una advertencia distinta de la de los ISRS. En el mantenimiento, el metaanálisis en red de Kishi (2023) no encontró que la vilazodona superara al placebo en la tasa de recaída a 6 meses. La evidencia comparativa directa se limita a citalopram (Wagner 2018).",
+   "sec": [
+    {
+     "t": "Estado regulador y lugar en las guías",
+     "x": "No consta ninguna presentación de vilazodona en CIMA (consulta de 22 de noviembre de 2026) ni figura en el listado de medicamentos evaluados por la EMA, de modo que no existe ficha técnica española ni europea. La autorización de referencia es la de la FDA (VIIBRYD, NDA 022567, 21 de enero de 2011), con genéricos estadounidenses aprobados desde 2019. CANMAT 2023 la nombra entre los antidepresivos asociados a menores tasas de efectos sexuales, junto con desvenlafaxina, bupropión, mirtazapina, vortioxetina y agomelatina, y la clasifica con riesgo moderado de síntomas de discontinuación (Lam 2024); en su tabla 3.3 la sitúa en primera línea con nivel de evidencia 1, señalada como cambio respecto a la guía de 2016. No se ha localizado su valoración en NICE NG222, BAP, WFSBP ni Maudsley [fuente no localizada]. La revisión de Wagner (2018), citada por CANMAT, concluye que la evidencia no indica mayores beneficios ni menos daños frente a otros antidepresivos de segunda generación.",
+     "links": [
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "ISRS e IRSN"
+      },
+      {
+       "ids": [
+        "vortioxetina"
+       ],
+       "t": "vortioxetina, otro serotoninérgico multimodal"
+      },
+      {
+       "ids": [
+        "discont_ad"
+       ],
+       "t": "síndrome de discontinuación"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia y tolerabilidad",
+     "x": "En el ensayo de Rickels (2009; 410 aleatorizados, 18-65 años, HAM-D-17 basal de 22 o más, 8 semanas), la vilazodona superó al placebo en la MADRS y la HAM-D-17, con mejoría significativa desde la semana 1 y más respondedores en MADRS, HAM-D-17 y CGI-I; los efectos adversos más frecuentes fueron diarrea, náuseas y somnolencia, y la escala ASEX no mostró diferencias clínicamente significativas al final. El metaanálisis de He (2018) encontró, con cualquier dosis, un cambio mayor que con placebo en la MADRS a costa de peor tolerabilidad. En el metaanálisis en red de Wagner (2018), 24 estudios, la eficacia de levomilnaciprán, vilazodona y vortioxetina fue similar a la de otros antidepresivos de segunda generación, con baja certeza para la mayoría de los desenlaces. En la fase de mantenimiento, la vilazodona no figuró entre los fármacos que redujeron la recaída a 6 meses frente a placebo (Kishi 2023).",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual por psicofármacos"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones, chemsex y consumo de sustancias",
+     "x": "La ficha de la FDA (7.1) incluye expresamente las anfetaminas, los opioides, el litio, la buspirona y el hipérico entre los serotoninérgicos que aumentan el riesgo de síndrome serotoninérgico, y advierte de que este puede aparecer incluso en monoterapia (5.2). En el contexto del chemsex, la MDMA y las catinonas sintéticas comparten esa acción serotoninérgica, por lo que la extensión del riesgo a ellas es coherente con la ficha aunque no se haya estudiado [fuente no localizada]. El metabolismo por CYP3A4 hace relevante la interacción con ritonavir o cobicistat, inhibidores potentes de CYP3A4; la ficha cita como ejemplos itraconazol, claritromicina y voriconazol y limita la dosis con ellos. La ficha indica que no es sustancia controlada (9.1) y no se han localizado notificaciones de uso indebido [fuente no localizada]. Como con los demás serotoninérgicos, la toma conjunta con antiagregantes o anticoagulantes aumenta el riesgo de sangrado (5.3).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "mdma"
+       ],
+       "t": "MDMA"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "maois"
+       ],
+       "t": "IMAO"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "FDA, U.S. Food and Drug Administration (2011). Drugs@FDA: NDA 022567, VIIBRYD (vilazodona hidrocloruro) comprimidos; aprobación original de 21 de enero de 2011 (titular actual AbbVie), con genéricos aprobados desde 2019; consulta de noviembre de 2026",
+    "FDA, U.S. Food and Drug Administration (2023). VIIBRYD (vilazodone hydrochloride) tablets: prescribing information (DailyMed, set id 4c55ccfb-c4cf-11df-851a-0800200c9a66; versión de octubre de 2023), apartados 1, 4, 5, 7, 8.4 y 12; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de Información online de Medicamentos de la AEMPS: búsqueda por principio activo (gepirona, vilazodona, levomilnaciprán, dextrometorfano-bupropión) sin resultados; consulta de 22 de noviembre de 2026",
+    "EMA, European Medicines Agency (2026). Medicines data: listado de medicamentos de uso humano evaluados por la EMA (informe JSON público); consulta de 22 de noviembre de 2026",
+    "Rickels K et al. (2009). Evidence for efficacy and tolerability of vilazodone in the treatment of major depressive disorder: a randomized, double-blind, placebo-controlled trial. J Clin Psychiatry 70:326-333 · PMID 19284933",
+    "Wagner G et al. (2018). Efficacy and safety of levomilnacipran, vilazodone and vortioxetine compared with other second-generation antidepressants for major depressive disorder in adults: a systematic review and network meta-analysis. J Affect Disord 228:1-12 · PMID 29197738",
+    "He H et al. (2018). Efficacy and tolerability of different doses of three new antidepressants for treating major depressive disorder: a PRISMA-compliant meta-analysis. J Psychiatr Res 96:247-259 · PMID 29127931",
+    "Kishi T et al. (2023). Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis. Mol Psychiatry 28:402-409 · PMID 36253442",
+    "Clayton AH et al. (2013). The effect of vilazodone on sexual function during the treatment of major depressive disorder. J Sex Med 10:2465-2476 · PMID 23216998",
+    "Clayton AH et al. (2015). Sexual dysfunction during treatment of major depressive disorder with vilazodone, citalopram, or placebo: results from a phase IV clinical trial. Int Clin Psychopharmacol 30:216-223 · PMID 26039688",
+    "Hetrick SE et al. (2021). New generation antidepressants for depression in children and adolescents: a network meta-analysis. Cochrane Database Syst Rev 5:CD013674 · PMID 34029378",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351"
+   ],
+   "rel": [
+    "isrs",
+    "ddm",
+    "vortioxetina",
+    "buspirona",
+    "sind_ser",
+    "maois",
+    "disf_sexual_psicof",
+    "discont_ad",
+    "chemsex_arv",
+    "mdma"
+   ]
+  },
+  {
+   "id": "levomilnacipran",
+   "n": "Levomilnaciprán",
+   "ab": "Levomilnaciprán",
+   "al": [
+    "levomilnacipran",
+    "Fetzima",
+    "F2695",
+    "1S,2R-milnaciprán"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2013,
+   "tags": [],
+   "desc": "Enantiómero 1S,2R del milnaciprán, inhibidor de la recaptación de serotonina y noradrenalina (IRSN) con mayor potencia relativa sobre la noradrenalina, en cápsulas de liberación prolongada. No está autorizado en España: no figura en CIMA ni en el listado de la EMA en noviembre de 2026, y tampoco hay en CIMA presentaciones del racémico milnaciprán, que sí está comercializado en Francia. Lo autoriza la FDA (FETZIMA, NDA 204168, 25 de julio de 2013) para el trastorno depresivo mayor en adultos, con la limitación expresa de que no está aprobado para la fibromialgia. Su perfil adverso es marcadamente noradrenérgico: aumento de la frecuencia cardiaca (unos 7 lpm de media) y de la tensión arterial, sudoración, estreñimiento, dificultad miccional y disfunción eréctil o eyaculatoria. La eficacia frente a otros antidepresivos de segunda generación es similar (Wagner 2018); CANMAT 2023 lo sitúa en primera línea con nivel de evidencia 1 (cambio respecto a 2016) y le asigna riesgo moderado de síntomas de discontinuación (Lam 2024).",
+   "feats": [
+    "Estado regulador: sin presentación en CIMA ni en el listado de la EMA (noviembre de 2026); FDA, NDA 204168 (25 de julio de 2013), trastorno depresivo mayor en adultos, no aprobado para la fibromialgia (ficha de la FDA, 1)",
+    "Mecanismo (ficha de la FDA, 12.2): Ki de 11 nM por el transportador de serotonina y de 91 nM por el de noradrenalina, con CI50 de recaptación de 16-19 y 11 nM; sin afinidad relevante por receptores, canales ni otros transportadores, y sin inhibir la MAO",
+    "Contraindicaciones (ficha de la FDA, 4): hipersensibilidad a levomilnaciprán o milnaciprán; IMAO psiquiátricos en los 7 días siguientes a suspenderlo o en los 14 previos; no iniciarlo durante tratamiento con linezolid o azul de metileno intravenoso",
+    "Advertencias cardiovasculares y urinarias (ficha de la FDA, 5.3, 5.4 y 5.7): controlar la hipertensión antes de iniciar y medir tensión y frecuencia cardiaca periódicamente; dificultad miccional en el 4-6 % frente al 0 % con placebo",
+    "Desarrollo clínico: cuatro de cinco ensayos controlados con placebo positivos en la MADRS, NNT de 9 para la respuesta y de 14 para la remisión, NNH de 19 para abandono por efectos adversos; desplazamiento a hipertensión de estadio 1-2 en el 10,4 % frente al 7,1 % (Citrome 2013)",
+    "Alcohol (ficha de la FDA, 7.1): la toma conjunta con alcohol puede acelerar la liberación del fármaco desde la cápsula, por lo que debe evitarse; dato de interés en personas con consumo de alcohol",
+    "Interacciones (ficha de la FDA, 7): límite de dosis con inhibidores potentes de CYP3A4 (ketoconazol, itraconazol, claritromicina); síndrome serotoninérgico con ISRS, IRSN, triptanes, tricíclicos, opioides, litio, buspirona, anfetaminas, triptófano e hipérico; sangrado con antiagregantes y anticoagulantes"
+   ],
+   "tx": "No disponible en España. Donde está autorizado, CANMAT 2023 lo considera de primera línea (nivel de evidencia 1; Lam 2024), aunque sin ventaja demostrada de eficacia sobre otros antidepresivos de segunda generación (Wagner 2018); por su perfil noradrenérgico la ficha de la FDA pide controlar la hipertensión antes de iniciarlo y precaución en trastornos del ritmo cardiaco, ángulo estrecho no tratado y trastornos urinarios obstructivos (5.3-5.7). Medir tensión arterial y frecuencia cardiaca antes y durante el tratamiento, ajustar la dosis en insuficiencia renal y con inhibidores potentes de CYP3A4 según la ficha de la FDA, evitar el alcohol y retirarlo de forma gradual por el riesgo de discontinuación. En España, las alternativas IRSN con ficha técnica son venlafaxina, desvenlafaxina y duloxetina.",
+   "note": "Los ensayos fueron de 8-10 semanas y patrocinados; no hay comparaciones directas con otros antidepresivos (Wagner 2018) y en el mantenimiento no superó al placebo en la recaída a 6 meses en el metaanálisis en red de Kishi (2023). La disfunción eréctil y los trastornos de la eyaculación figuran entre las reacciones más frecuentes de la ficha, lo que debe explicarse antes de iniciarlo. El milnaciprán racémico no tiene ninguna presentación en CIMA (consulta de 22 de noviembre de 2026), aunque CANMAT 2023 lo mantiene en primera línea como fármaco no disponible en Canadá (Lam 2024).",
+   "sec": [
+    {
+     "t": "Estado regulador y lugar en las guías",
+     "x": "No consta ninguna presentación de levomilnaciprán en CIMA (consulta de 22 de noviembre de 2026), ni en el listado de medicamentos evaluados por la EMA; tampoco aparece en CIMA el milnaciprán racémico, que en Francia sí tiene especialidades con autorización activa y comercializadas (base pública de medicamentos de la ANSM). La autorización de referencia es la de la FDA (FETZIMA, NDA 204168, 25 de julio de 2013), con la limitación expresa de que no está aprobado ni ha demostrado eficacia en la fibromialgia, indicación del milnaciprán en Estados Unidos. CANMAT 2023 lo sitúa en primera línea con nivel de evidencia 1 en su tabla 3.3, señalado como cambio respecto a la guía de 2016, y lo clasifica entre los antidepresivos con riesgo moderado de síntomas de discontinuación (Lam 2024). No se ha localizado su valoración en NICE NG222, BAP, WFSBP ni Maudsley [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "IRSN: venlafaxina, desvenlafaxina, duloxetina"
+      },
+      {
+       "ids": [
+        "duloxetina",
+        "venlafaxina"
+       ],
+       "t": "IRSN con ficha técnica española"
+      },
+      {
+       "ids": [
+        "fibro"
+       ],
+       "t": "fibromialgia (sin indicación)"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia y perfil adverso",
+     "x": "La revisión de Citrome (2013) reunió un ensayo de fase 2 de 10 semanas y cuatro de fase 3 de 8 semanas: cuatro de los cinco fueron positivos en la MADRS, con NNT de 9 para la respuesta y de 14 para la remisión, mejoría funcional en la escala de Sheehan y NNH de 19 para el abandono por efectos adversos. Los cambios medios fueron de +3,0 mmHg de sistólica, +3,2 mmHg de diastólica y +7,4 lpm de frecuencia cardiaca, sin cambio clínicamente relevante de peso. En el ensayo de dosis flexible de Sambunaris (2014; 434 pacientes de 18 a 80 años) la diferencia en la MADRS frente a placebo fue de -3,1 puntos, con náuseas, mareo, estreñimiento, taquicardia, dificultad miccional, hiperhidrosis, insomnio, vómitos, hipertensión y trastorno de la eyaculación como efectos más frecuentes. Los metaanálisis lo sitúan con eficacia similar a otros antidepresivos de segunda generación (Wagner 2018) y con peor tolerabilidad que el placebo a cualquier dosis (He 2018).",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción eréctil y eyaculatoria"
+      },
+      {
+       "ids": [
+        "discont_ad"
+       ],
+       "t": "discontinuación"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones, chemsex y consumo de sustancias",
+     "x": "La ficha de la FDA (7.1) cita las anfetaminas, los opioides y el triptófano entre los serotoninérgicos que elevan el riesgo de síndrome serotoninérgico, que puede aparecer incluso en monoterapia (5.2). En el chemsex, la suma del efecto noradrenérgico del fármaco (taquicardia, hipertensión) con estimulantes como la metanfetamina, la mefedrona o la cocaína es una preocupación farmacodinámica razonable, pero no estudiada [fuente no localizada], y la MDMA añade además riesgo serotoninérgico, coherente con la ficha. La ficha advierte de que el alcohol puede acelerar la liberación desde la cápsula de liberación prolongada y recomienda evitarlo. Los inhibidores potentes de CYP3A4 obligan a limitar la dosis; entre ellos están los potenciadores antirretrovirales ritonavir y cobicistat, aunque la ficha solo nombra ketoconazol, itraconazol y claritromicina. No es sustancia controlada y en los ensayos no hubo indicios de búsqueda del fármaco, aunque su potencial de abuso no se ha estudiado sistemáticamente (ficha de la FDA, 9).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "metanf",
+        "cocaina"
+       ],
+       "t": "estimulantes"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "consumo de alcohol"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "FDA, U.S. Food and Drug Administration (2013). Drugs@FDA: NDA 204168, FETZIMA (levomilnaciprán hidrocloruro) cápsulas de liberación prolongada; aprobación original de 25 de julio de 2013 (titular actual AbbVie); consulta de noviembre de 2026",
+    "FDA, U.S. Food and Drug Administration (2024). FETZIMA (levomilnacipran) extended-release capsules: prescribing information (DailyMed, set id f371258d-91b3-4b6a-ac99-434a1964c3af; versión de abril de 2024), apartados 1, 4, 5, 7, 8.4, 9 y 12; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Centro de Información online de Medicamentos de la AEMPS: búsqueda por principio activo (gepirona, vilazodona, levomilnaciprán, dextrometorfano-bupropión) sin resultados; consulta de 22 de noviembre de 2026",
+    "EMA, European Medicines Agency (2026). Medicines data: listado de medicamentos de uso humano evaluados por la EMA (informe JSON público); consulta de 22 de noviembre de 2026",
+    "ANSM, Agence nationale de sécurité du médicament (2026). Base de données publique des médicaments: especialidades con milnaciprán (Milnacipran Arrow, Milnacipran EG) con autorización activa y comercializadas en Francia; fichero CIS_bdpm, consulta de 22 de noviembre de 2026",
+    "Citrome L (2013). Levomilnacipran for major depressive disorder: a systematic review of the efficacy and safety profile for this newly approved antidepressant--what is the number needed to treat, number needed to harm and likelihood to be helped or harmed? Int J Clin Pract 67:1089-1104 · PMID 24016209",
+    "Sambunaris A et al. (2014). A phase III, double-blind, placebo-controlled, flexible-dose study of levomilnacipran extended-release in patients with major depressive disorder. J Clin Psychopharmacol 34:47-56 · PMID 24172209",
+    "Wagner G et al. (2018). Efficacy and safety of levomilnacipran, vilazodone and vortioxetine compared with other second-generation antidepressants for major depressive disorder in adults: a systematic review and network meta-analysis. J Affect Disord 228:1-12 · PMID 29197738",
+    "He H et al. (2018). Efficacy and tolerability of different doses of three new antidepressants for treating major depressive disorder: a PRISMA-compliant meta-analysis. J Psychiatr Res 96:247-259 · PMID 29127931",
+    "Kishi T et al. (2023). Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis. Mol Psychiatry 28:402-409 · PMID 36253442",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351"
+   ],
+   "rel": [
+    "isrs",
+    "duloxetina",
+    "venlafaxina",
+    "ddm",
+    "sind_ser",
+    "maois",
+    "discont_ad",
+    "disf_sexual_psicof",
+    "fibro",
+    "chemsex_arv",
+    "alcohol"
+   ]
+  },
+  {
+   "id": "tianeptina",
+   "n": "Tianeptina",
+   "ab": "Tianeptina",
+   "al": [
+    "tianeptine",
+    "Zinosal",
+    "Stablon",
+    "Coaxil",
+    "gas station heroin",
+    "ZaZa",
+    "Tianaa"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 1987,
+   "tags": [
+    "risk",
+    "emerg",
+    "forense"
+   ],
+   "desc": "Antidepresivo atípico de estructura tricíclica (ATC N06AX14) que, según su ficha técnica española, tiene un mecanismo de acción glutamatérgico, pero que in vitro es un agonista completo del receptor opioide μ (Gassaway 2014). Está autorizado y comercializado en España: Zinosal 12,5 mg comprimidos recubiertos con película EFG (nº de registro 78980, Exeltis Healthcare, agosto de 2014), con la indicación literal «tratamiento de la depresión mayor en adultos» (CIMA). En Francia está autorizado desde 1987 (Stablon, Servier) y, según la ANSM, se prescribe en ordonnance sécurisée con una duración máxima de 4 semanas. La FDA no lo ha aprobado para ningún uso y advierte de productos ilegales vendidos como suplementos o «nootrópicos» en Estados Unidos, asociados a sobredosis y muertes. Las fichas española y francesa describen abuso y dependencia, sobre todo en menores de 50 años con antecedentes de consumo de drogas o alcohol, y síntomas de abstinencia al suspenderlo.",
+   "feats": [
+    "Estado en España: Zinosal 12,5 mg comprimidos recubiertos con película EFG (nº de registro 78980; Exeltis Healthcare; autorización de agosto de 2014), comercializado, medicamento sujeto a prescripción médica; indicación (4.1): «tratamiento de la depresión mayor en adultos»; es la única presentación en CIMA en noviembre de 2026",
+    "Otras agencias: en Francia, Stablon (Servier, autorizado en 1987) y genéricos, con «épisodes dépressifs majeurs» como indicación y prescripción en ordonnance sécurisée limitada a 4 semanas (ANSM); la FDA no lo ha aprobado y lo considera un aditivo alimentario no seguro en suplementos",
+    "Mecanismo (ficha técnica de Zinosal, 5.1): «mecanismo de acción glutamatérgico»; en animales aumenta la actividad de las células piramidales del hipocampo y no inhibe la recaptación de serotonina; in vitro es agonista completo μ (Ki 383 nM; CE50 194 nM) y agonista δ de baja potencia (Gassaway 2014)",
+    "Contraindicaciones (4.3): IMAO no selectivos, con intervalo de 2 semanas tras un IMAO y de 24 horas al pasar de tianeptina a un IMAO; la ficha (4.5) advierte de colapso circulatorio, hipertensión paroxística, hipertermia, convulsiones y muerte con la combinación",
+    "Abuso y abstinencia (4.4 y 4.8): vigilar la escalada de dosis si hay antecedentes de drogodependencia o alcoholismo; abuso y dependencia de frecuencia «rara» en la ficha española y «poco frecuente» en la francesa; abstinencia con ansiedad, mialgias, dolor abdominal, insomnio y artralgias; retirada en 7 a 14 días",
+    "Otras advertencias (4.4-4.8): conducta suicida en menores de 25 años, hiponatremia por SIADH, manía, hepatitis excepcionalmente grave, síntomas extrapiramidales, sedación y mareo; no debe usarse en el embarazo ni se recomienda la lactancia (4.6); no se aconseja el alcohol y se pide precaución con otros depresores del SNC; ante anestesia general, avisar al anestesista y suspenderlo 24 a 48 horas antes",
+    "Farmacocinética (5.2): biodisponibilidad del 99 %, semivida de eliminación de 2,5 a 3 horas (4 a 9 en mayores de 70 años) y metabolito activo MC5 de 7 a 8 horas; metabolismo por β-oxidación y N-desmetilación, sin dependencia de CYP descrita en la ficha",
+    "Toxicología: en Estados Unidos, 892 exposiciones a tianeptina sola notificadas a centros toxicológicos entre 2015 y 2023, con aumento del 1400 %, un 40,1 % de ingresos y un 22,9 % en cuidados críticos; el abuso explicó el 40,1 % y la abstinencia el 22,5 % (Quadir 2025)"
+   ],
+   "tx": "Autorizado en España para la depresión mayor en adultos, pero sin lugar en las guías de referencia consultadas (CANMAT 2023 no lo incluye ni en su texto ni en la tabla 3.3 de antidepresivos, Lam 2024) [fuente no localizada para NICE, BAP, WFSBP y Maudsley]; su perfil de abuso desaconseja elegirlo cuando existen alternativas de primera línea. Si se prescribe: explorar antecedentes de trastorno por consumo de opioides, alcohol u otras sustancias, que son el principal factor de riesgo de abuso según la ficha; informar del síndrome de abstinencia al iniciarlo, como pide la ficha; vigilar la escalada de dosis; limitar las cantidades prescritas [fuente no localizada]; no combinar con IMAO; precaución con depresores del SNC; retirada gradual en 7 a 14 días (ficha técnica de Zinosal). En la intoxicación con depresión respiratoria la naloxona puede revertir el cuadro en parte de los casos (Parnia 2025), y la abstinencia se ha manejado con buprenorfina o metadona (Anand 2026).",
+   "note": "El mecanismo que declara la ficha técnica española (glutamatérgico) no recoge el agonismo μ demostrado in vitro y en animales (Gassaway 2014; Han 2022), que explica el perfil de abuso y abstinencia de tipo opioide. La eficacia antidepresiva se apoya en ensayos antiguos frente a placebo y comparadores descritos en la ficha francesa; no se ha localizado un metaanálisis reciente de eficacia aguda de calidad [fuente no localizada], aunque en el mantenimiento superó al placebo en la recaída a 6 meses (Kishi 2023). La epidemiología del uso indebido procede casi toda de Estados Unidos, con producto no farmacéutico y dosis muy superiores a las terapéuticas; no se han localizado datos de uso indebido en España [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Estado regulador en España, la UE y Estados Unidos",
+     "x": "A diferencia de los otros antidepresivos de este grupo, la tianeptina sí está autorizada y comercializada en España: CIMA recoge Zinosal 12,5 mg comprimidos recubiertos con película EFG (nº de registro 78980, Exeltis Healthcare S.L., autorización de agosto de 2014, medicamento sujeto a prescripción médica), cuyo apartado 4.1 indica el «tratamiento de la depresión mayor en adultos». No es un medicamento de autorización centralizada y no figura en el listado de la EMA. En Francia está autorizado por procedimiento nacional desde el 6 de febrero de 1987 (Stablon, Servier) y tiene genéricos; la base pública de la ANSM lo clasifica en la lista I, con prescripción en toutes lettres sur ordonnance sécurisée, limitada a 4 semanas y sin solapamiento de recetas, condiciones propias de medicamentos con riesgo de abuso. En CIMA figura solo como medicamento sujeto a prescripción médica, sin otra condición de prescripción o dispensación consignada, y su ficha no recoge materiales informativos de seguridad; no se ha localizado normativa española que lo incluya entre las sustancias psicotrópicas sometidas a control [fuente no localizada]. En Estados Unidos no está aprobado para ningún uso médico: la FDA lo considera un aditivo alimentario no seguro, ha enviado cartas de advertencia y alertas de importación y desaconseja cualquier producto que lo contenga.",
+     "links": [
+      {
+       "ids": [
+        "ad_atip"
+       ],
+       "t": "antidepresivos de otros mecanismos"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "otc_abuso"
+       ],
+       "t": "fármacos de uso común con abuso"
+      }
+     ]
+    },
+    {
+     "t": "Agonismo opioide μ, abuso y toxicidad",
+     "x": "Gassaway (2014) identificó la tianeptina como agonista eficaz del receptor opioide μ (Ki humano 383 nM; CE50 de activación de proteína G 194 nM), agonista completo δ de potencia mucho menor e inactiva en κ; en ratones, sus efectos antidepresivos requieren receptores μ en interneuronas GABAérgicas del hipocampo (Han 2022). La FDA advierte de productos vendidos en línea y en gasolineras, algunos con dosis altas; los casos notificados describen consumos de 1,3 a 250 veces la dosis diaria aprobada en otros países, efectos que imitan la toxicidad y la abstinencia opioides, y agitación, somnolencia, confusión, taquicardia, hipertensión, depresión respiratoria, coma y muerte, también combinada con otros fármacos. En los centros toxicológicos estadounidenses las coexposiciones más frecuentes fueron fenibut, etanol, benzodiacepinas y opioides (El Zahran 2018). La revisión sistemática de Anand (2026; 53 publicaciones) encontró abstinencia en el 50 % y sobredosis en el 44 % de los casos individuales, con depresión del SNC, insuficiencia respiratoria y rabdomiólisis, y un 32 % de muertes entre las sobredosis detalladas.",
+     "links": [
+      {
+       "ids": [
+        "opioides"
+       ],
+       "t": "trastorno por consumo de opioides"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona"
+      },
+      {
+       "ids": [
+        "buprenorfina"
+       ],
+       "t": "buprenorfina en la abstinencia"
+      },
+      {
+       "ids": [
+        "ansiol_bzd"
+       ],
+       "t": "benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Chemsex, policonsumo y aspectos médico-legales",
+     "x": "No se han localizado estudios sobre tianeptina en contextos de chemsex [fuente no localizada]. Sí es relevante para el policonsumo: la ficha técnica de Zinosal desaconseja el alcohol y pide precaución con depresores del SNC, y la combinación con GHB/GBL, benzodiacepinas u opioides suma depresión respiratoria por un mecanismo opioide, extrapolación coherente con la ficha y con las coexposiciones descritas (El Zahran 2018; Parnia 2025) aunque no estudiada específicamente con GHB [fuente no localizada]. La naloxona revirtió los síntomas en una parte de los casos tratados (Parnia 2025). La mayoría de los inmunoensayos urinarios no detectan la tianeptina (Wagner 2023), lo que importa en urgencias y en la valoración pericial de intoxicaciones o de la imputabilidad. Según la FDA, las personas con antecedentes de trastorno por consumo de opioides o dependencia tienen un riesgo particular de abuso de tianeptina, y algunas la emplean como alternativa a los opioides (FDA 2025), por lo que conviene preguntar por ella de forma explícita junto con loperamida, codeína y otros fármacos de fácil acceso.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      },
+      {
+       "ids": [
+        "opioides",
+        "otc_abuso"
+       ],
+       "t": "opioides de fácil acceso"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Zinosal 12,5 mg comprimidos recubiertos con película EFG (tianeptina sódica) (nº de registro 78980; Exeltis Healthcare S.L.; autorización de agosto de 2014; revisión del texto de septiembre de 2019), apartados 4.1-4.9, 5.1 y 5.2; medicamento comercializado; consulta de 22 de noviembre de 2026",
+    "ANSM, Agence nationale de sécurité du médicament (2019). Stablon 12,5 mg, comprimé enrobé (tianeptina sódica; Les Laboratoires Servier; autorización de 6 de febrero de 1987): résumé des caractéristiques du produit, apartados 4.1, 4.4, 4.8, 4.9 y 5.1, y condiciones de prescripción (lista I, ordonnance sécurisée, prescripción limitada a 4 semanas); Base de données publique des médicaments, consulta de 22 de noviembre de 2026",
+    "FDA, U.S. Food and Drug Administration (2025). Tianeptine products linked to serious harm, overdoses, death (Consumer Update; contenido vigente desde el 9 de mayo de 2025); consulta de noviembre de 2026",
+    "FDA, U.S. Food and Drug Administration (2026). Tianeptine in dietary supplements (Information on select dietary supplement ingredients and other substances); consulta de noviembre de 2026",
+    "Gassaway MM et al. (2014). The atypical antidepressant and neurorestorative agent tianeptine is a μ-opioid receptor agonist. Transl Psychiatry 4:e411 · PMID 25026323",
+    "Han J et al. (2022). Mu opioid receptors on hippocampal GABAergic interneurons are critical for the antidepressant effects of tianeptine. Neuropsychopharmacology 47:1387-1397 · PMID 34593976",
+    "El Zahran T et al. (2018). Characteristics of tianeptine exposures reported to the National Poison Data System - United States, 2000-2017. MMWR Morb Mortal Wkly Rep 67:815-818 · PMID 30070980",
+    "Quadir M et al. (2025). Tianeptine exposures reported to United States poison centers, 2015-2023. J Med Toxicol 21:30-41 · PMID 39724478",
+    "Anand A et al. (2026). Tianeptine misuse and addiction: a systematic review of withdrawal, toxicity, and clinical management. Drug Alcohol Depend 285:113196 · PMID 42177839",
+    "Parnia S et al. (2025). Gas station heroin- tianeptine and its impact: a systematic review and exploratory analysis. BMC Public Health 25:3591 · PMID 41136982",
+    "Wagner ML et al. (2023). From antidepressant tianeptine to street drug ZaZa: a narrative review. Cureus 15:e40688 · PMID 37485121",
+    "Marraffa JM et al. (2018). Poison control center experience with tianeptine: an unregulated pharmaceutical product with potential for abuse. Clin Toxicol (Phila) 56:1155-1158 · PMID 29799284",
+    "Kishi T et al. (2023). Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis. Mol Psychiatry 28:402-409 · PMID 36253442",
+    "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351"
+   ],
+   "rel": [
+    "ad_atip",
+    "ddm",
+    "opioides",
+    "naloxona",
+    "buprenorfina",
+    "otc_abuso",
+    "maois",
+    "ghb_gbl",
+    "hiponatr_psicof",
+    "red_danos",
+    "ansiol_bzd"
+   ]
+  }
+ ]
+}
