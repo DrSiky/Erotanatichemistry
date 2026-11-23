@@ -1,0 +1,773 @@
+{
+ "patch": {
+  "capgras": {
+   "relAdd": [
+    "agnosias"
+   ]
+  },
+  "del_ident": {
+   "relAdd": [
+    "agnosias"
+   ]
+  },
+  "kluver_bucy": {
+   "relAdd": [
+    "agnosias",
+    "signos_frontales"
+   ]
+  },
+  "anosog": {
+   "relAdd": [
+    "agnosias"
+   ]
+  },
+  "dem": {
+   "relAdd": [
+    "agnosias",
+    "apraxias"
+   ]
+  },
+  "ftd": {
+   "relAdd": [
+    "apraxias",
+    "signos_frontales"
+   ]
+  },
+  "afasia_bro": {
+   "relAdd": [
+    "apraxias",
+    "alexia_agrafia",
+    "disartria"
+   ]
+  },
+  "afasia_wer": {
+   "relAdd": [
+    "alexia_agrafia"
+   ]
+  },
+  "afasia_cond": {
+   "relAdd": [
+    "alexia_agrafia"
+   ]
+  },
+  "aprend_adulto": {
+   "relAdd": [
+    "alexia_agrafia"
+   ]
+  },
+  "mutismo": {
+   "relAdd": [
+    "disartria"
+   ]
+  },
+  "intox_litio": {
+   "relAdd": [
+    "disartria"
+   ]
+  },
+  "fenitoina": {
+   "relAdd": [
+    "disartria"
+   ]
+  },
+  "aprosodia": {
+   "relAdd": [
+    "disartria"
+   ]
+  },
+  "disejec": {
+   "relAdd": [
+    "apraxias",
+    "signos_frontales"
+   ]
+  },
+  "ecopraxia": {
+   "relAdd": [
+    "signos_frontales"
+   ]
+  },
+  "ambitend": {
+   "relAdd": [
+    "signos_frontales"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "agnosias",
+   "n": "Agnosias visuales: aperceptiva, asociativa, prosopagnosia y simultagnosia",
+   "ab": "Agnosias visuales",
+   "al": [
+    "agnosia visual",
+    "prosopagnosia",
+    "simultagnosia",
+    "agnosia de objetos"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "cog",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "obs",
+   "y": 1890,
+   "tags": [
+    "organic",
+    "elderly"
+   ],
+   "cie": [
+    "MB4B.1"
+   ],
+   "desc": "Fallo del reconocimiento visual de objetos, caras o escenas que no se explica por un déficit sensorial elemental, una alteración del nivel de conciencia, una afasia ni un deterioro cognitivo global. Lissauer (1890) distinguió una forma aperceptiva, en la que falla la construcción del percepto, y otra asociativa, en la que el percepto está formado pero no accede al significado. La prosopagnosia es la agnosia selectiva de la identidad facial; la simultagnosia, la incapacidad de percibir varios objetos a la vez. Son signos de lesión occipitotemporal u occipitoparietal y entran en el diagnóstico diferencial de los delirios de falsa identificación.",
+   "feats": [
+    "Lissauer (1890) separó la «Seelenblindheit» aperceptiva de la asociativa; la dicotomía se mantiene como esquema clínico, aunque hay formas intermedias (Lissauer H (1890), Arch Psychiatr Nervenkr 21:222-270) [no verificada la paginación]",
+    "Prosopagnosia adquirida: más grave con lesiones occipitotemporales bilaterales que afectan a los giros fusiformes; la percepción de la configuración facial depende del fusiforme derecho y el acceso a la memoria facial, del lóbulo temporal anterior derecho (Barton 2008, serie de 10 pacientes)",
+    "Existen formas adquiridas por lesión y formas del desarrollo sin lesión estructural evidente; el diagnóstico de la forma del desarrollo plantea dificultades propias (Corrow, Dalrymple y Barton 2016)",
+    "La simultagnosia es un síntoma clave de la atrofia cortical posterior, en la mayoría de los casos variante de la enfermedad de Alzheimer; en 12 pacientes se asoció a enlentecimiento de la velocidad de procesamiento visual con capacidad de memoria visual a corto plazo conservada (Neitzel 2016)",
+    "Ellis y Young (1990) plantearon el síndrome de Capgras como «imagen especular» de la prosopagnosia: fallaría el reconocimiento encubierto (afectivo) con reconocimiento manifiesto conservado",
+    "Código CIE-11: MB4B.1 Agnosia (síntoma, capítulo 21)"
+   ],
+   "note": "La clasificación aperceptiva/asociativa es un esquema clínico y no una división anatómica nítida; la mayor parte de los datos proceden de series de casos. La prevalencia de la prosopagnosia del desarrollo y los umbrales diagnósticos varían según las pruebas empleadas [fuente no localizada]. No hay tratamiento farmacológico; la rehabilitación del reconocimiento facial está en fase de investigación (Corrow 2016).",
+   "sec": [
+    {
+     "t": "Exploración clínica",
+     "x": "Antes de hablar de agnosia se documentan agudeza, campo visual (por confrontación o perimetría), atención, lenguaje y rendimiento cognitivo global. La exploración procede por niveles. Percepción: copiar un dibujo, emparejar formas, discriminar figuras superpuestas (prueba de Poppelreuter) [fuente no localizada]. Reconocimiento: denominar objetos y dibujos, describir su uso o hacer el gesto correspondiente; si la persona los reconoce por el tacto o por el sonido y no por la vista, el fallo es específicamente visual. En la forma aperceptiva no consigue copiar ni emparejar; en la asociativa copia de forma lenta y servil pero no sabe qué ha dibujado [fuente no localizada]. Caras: reconocer fotografías de personas famosas o familiares y comprobar si las identifica por la voz, el pelo o la ropa. Escenas: describir una lámina compleja; quien tiene simultagnosia enumera detalles aislados sin captar el conjunto. En la atrofia cortical posterior se emplean tareas de figuras superpuestas y pruebas visoespaciales sensibles a la simultagnosia (Neitzel 2016).",
+     "links": [
+      {
+       "ids": [
+        "neuropsico",
+        "mmse_moca"
+       ],
+       "t": "Evaluación neuropsicológica"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Del déficit sensorial: la hemianopsia, la baja agudeza o la ceguera cortical impiden ver; en la agnosia la información visual elemental llega, pero no se reconoce. En el síndrome de Anton la persona niega la ceguera y confabula lo que «ve», lo que corresponde a la anosognosia. De la anomia afásica: quien tiene una afasia tampoco nombra el objeto por el tacto ni lo describe, mientras que en la agnosia el fallo se limita a la vía visual. Del deterioro global: la agnosia es desproporcionada respecto al resto de funciones. De los delirios de falsa identificación: en la prosopagnosia la persona no reconoce la cara pero identifica a la otra persona por la voz y no cree que haya sido sustituida; en el síndrome de Capgras reconoce la cara pero niega la identidad. Ellis y Young (1990) interpretaron esta disociación como fallo del reconocimiento encubierto, y Hirstein y Ramachandran (1997) describieron un caso con delirio limitado a la modalidad visual (no al teléfono) y ausencia de aumento de la conductancia cutánea ante caras familiares. De la pérdida visual funcional, que tiene sus propios signos de incongruencia.",
+     "links": [
+      {
+       "ids": [
+        "capgras",
+        "del_ident"
+       ],
+       "t": "Capgras y falsa identificación"
+      },
+      {
+       "ids": [
+        "anosog",
+        "confab"
+       ],
+       "t": "Anosognosia y Anton"
+      },
+      {
+       "ids": [
+        "afasia_tc",
+        "sens_func"
+       ],
+       "t": "Anomia y pérdida visual funcional"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Ictus del territorio de las arterias cerebrales posteriores, sobre todo bilaterales [fuente no localizada]; encefalitis víricas, hemorragias cerebrales, traumatismos craneoencefálicos, tumores y epilepsia temporal, causas que figuran en series de prosopagnosia adquirida (Barton 2008). Entre las enfermedades degenerativas, la atrofia cortical posterior, cuyo síndrome central incluye alteraciones visuoperceptivas y visoespaciales y cuya causa más frecuente es la enfermedad de Alzheimer, aunque puede deberse a cuerpos de Lewy, degeneración corticobasal o prion (Crutch 2017). La agnosia visual forma parte del síndrome de Klüver-Bucy. Valor práctico: una persona mayor que «no reconoce» a sus familiares, se pierde o no encuentra objetos que tiene delante puede tener un trastorno visuoperceptivo cortical antes que un delirio; un examen visual normal en la consulta de oftalmología no lo descarta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "lewy",
+        "kluver_bucy"
+       ],
+       "t": "Demencias y Klüver-Bucy"
+      },
+      {
+       "ids": [
+        "tce_neuro",
+        "aluc_vis",
+        "charles"
+       ],
+       "t": "Otros cuadros y fenómenos visuales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Lissauer H (1890). Ein Fall von Seelenblindheit nebst einem Beitrage zur Theorie derselben. Arch Psychiatr Nervenkr 21:222-270 [no verificada]",
+    "Barton JJS (2008). Structure and function in acquired prosopagnosia: lessons from a series of 10 patients with brain damage. J Neuropsychol 2:197-225 · PMID 19334311",
+    "Corrow SL, Dalrymple KA & Barton JJS (2016). Prosopagnosia: current perspectives. Eye Brain 8:165-175 · PMID 28539812",
+    "Ellis HD & Young AW (1990). Accounting for delusional misidentifications. Br J Psychiatry 157:239-248 · PMID 2224375",
+    "Hirstein W & Ramachandran VS (1997). Capgras syndrome: a novel probe for understanding the neural representation of the identity and familiarity of persons. Proc Biol Sci 264:437-444 · PMID 9107057",
+    "Neitzel J et al. (2016). Neuro-cognitive mechanisms of simultanagnosia in patients with posterior cortical atrophy. Brain 139:3267-3280 · PMID 27702740",
+    "Crutch SJ et al. (2017). Consensus classification of posterior cortical atrophy. Alzheimers Dement 13:870-884 · PMID 28259709",
+    "OMS (2022). CIE-11 para estadísticas de mortalidad y morbilidad: MB4B.1 Agnosia"
+   ],
+   "rel": [
+    "capgras",
+    "del_ident",
+    "anosog",
+    "kluver_bucy",
+    "dem",
+    "lewy",
+    "aluc_vis",
+    "charles",
+    "neuropsico",
+    "tce_neuro"
+   ]
+  },
+  {
+   "id": "apraxias",
+   "n": "Apraxias: ideomotora, ideatoria, constructiva, del vestir y bucofacial",
+   "ab": "Apraxias",
+   "al": [
+    "apraxia",
+    "dispraxia adquirida",
+    "apraxia ideomotora",
+    "apraxia ideatoria",
+    "apraxia constructiva",
+    "apraxia bucofacial"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "psm",
+   "ring": 1,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "obs",
+   "y": 1900,
+   "tags": [
+    "organic",
+    "elderly"
+   ],
+   "cie": [
+    "MB4A"
+   ],
+   "desc": "Trastorno de la ejecución de gestos aprendidos y del uso de objetos que no se explica por paresia, ataxia, alteración sensorial, trastorno del movimiento elemental, falta de comprensión ni falta de colaboración. Liepmann (1900) estableció el modelo clásico y la distinción entre formas ideatorias e ideomotoras. En la clínica se describen además la apraxia constructiva, la del vestir y la bucofacial. Se asocian sobre todo a lesiones del hemisferio izquierdo y son un rasgo de la enfermedad de Alzheimer y un signo característico de la degeneración corticobasal.",
+   "feats": [
+    "Liepmann (1900) describió la apraxia en un caso de lesión izquierda y propuso un flujo posteroanterior que convierte la imagen del acto en ejecución motora (Liepmann H (1900), Monatsschr Psychiatr Neurol 8:15-44 [no verificada]; Goldenberg 2009)",
+    "La lesión parietal izquierda afecta sobre todo a la imitación de gestos sin significado y al uso real de herramientas; su efecto sobre la pantomima del uso de herramientas es inconstante (Goldenberg 2009)",
+    "TULIA: prueba estandarizada de 48 ítems (imitación y pantomima de gestos sin significado, comunicativos y transitivos), validada en 133 pacientes con ictus; correlación 0,82 con la prueba de De Renzi (Vanbellingen 2010)",
+    "Apraxia como rasgo característico de la degeneración corticobasal y del síndrome corticobasal, este último también causado por PSP, Alzheimer, cuerpos de Lewy o degeneración frontotemporal (Zadikoff y Lang 2005)",
+    "En la enfermedad de Alzheimer la prevalencia y la gravedad de la apraxia aumentan con la gravedad de la demencia (revisión sistemática de 10 estudios; Vakkila y Jehkonen 2023)",
+    "Código CIE-11: MB4A Apraxia (síntoma, capítulo 21)"
+   ],
+   "note": "La nomenclatura de las apraxias no es uniforme: términos como «apraxia de la marcha» o «apraxia de la apertura palpebral» probablemente sean impropios (Zadikoff y Lang 2005). Las definiciones de ideomotora e ideatoria varían entre escuelas [fuente no localizada]. Las pruebas complejas de copia (figura de Rey) en personas mayores pueden reflejar un deterioro global más que un déficit constructivo específico (Abete Fornara 2018). No se aportan pautas farmacológicas: el abordaje es rehabilitador y ocupacional.",
+   "tx": "Rehabilitación neuropsicológica y terapia ocupacional orientadas a actividades de la vida diaria; adaptación del entorno y de los utensilios; información a familiares y cuidadores sobre la naturaleza no voluntaria del déficit [fuente no localizada para la eficacia comparada de las intervenciones].",
+   "sec": [
+    {
+     "t": "Exploración clínica",
+     "x": "Primero se descartan paresia, ataxia, déficit sensorial, rigidez, bradicinesia o distonía, y se comprueba que la persona comprende la orden. Después se explora por modalidades: 1) gestos intransitivos comunicativos a la orden y por imitación (decir adiós, saludo militar); 2) pantomima de uso de objetos (peinarse, cepillarse los dientes, usar un martillo); 3) imitación de gestos sin significado (posturas de la mano y los dedos); 4) uso real de objetos y secuencias (preparar una carta para enviar, hacer un café), cuyo fallo con errores de orden u omisiones define la apraxia ideatoria [fuente no localizada]; 5) región bucofacial: soplar, sacar la lengua, toser, silbar, sorber con una pajita; 6) praxias constructivas: copiar un cubo, unos pentágonos, dibujar un reloj; 7) vestido: ponerse una chaqueta con una manga del revés. Se registra el tipo de error: espacial, de contenido, uso de una parte del cuerpo como objeto, perseveración. La TULIA ofrece una evaluación estandarizada fiable y válida de la producción de gestos (Vanbellingen 2010).",
+     "links": [
+      {
+       "ids": [
+        "neuropsico",
+        "mmse_moca"
+       ],
+       "t": "Evaluación neuropsicológica"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Del trastorno motor elemental: en los trastornos del movimiento, la bradicinesia y la distonía dificultan establecer la apraxia cinética de miembro, y el diagnóstico se apoya en las formas de nivel superior (Zadikoff y Lang 2005). De la afasia: la falta de comprensión impide seguir la orden, pero la imitación y el uso real pueden estar conservados; ambas coexisten a menudo, y la apraxia bucofacial acompaña con frecuencia a la afasia de Broca [fuente no localizada para la frecuencia]. De la agnosia: si la persona no reconoce el objeto no sabrá usarlo, pero sí hará el gesto a la orden verbal. Del síndrome disejecutivo y de la perseveración: fallan la planificación y el cambio de programa más que el gesto en sí. De la negligencia hemiespacial en la apraxia del vestir de lesiones derechas [fuente no localizada]. De la catatonía: el negativismo, la ambitendencia o los manierismos no son errores de ejecución sino alteraciones de la volición y de la motricidad expresiva. De la falta de colaboración o de la simulación, por la incoherencia entre tareas.",
+     "links": [
+      {
+       "ids": [
+        "afasia_bro",
+        "agnosias"
+       ],
+       "t": "Afasia y agnosia"
+      },
+      {
+       "ids": [
+        "disejec",
+        "perseverac"
+       ],
+       "t": "Disfunción ejecutiva y perseveración"
+      },
+      {
+       "ids": [
+        "catatonia",
+        "negativismo",
+        "manierismo"
+       ],
+       "t": "Fenómenos catatónicos"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece y relevancia en las demencias",
+     "x": "Ictus del hemisferio izquierdo (parietal y frontal premotor), tumores y traumatismos. En las demencias tiene valor diagnóstico y funcional. En la enfermedad de Alzheimer, las tareas constructivas, ideomotoras (imitación de gestos sin significado), orofaciales e ideatorias diferencian grados de gravedad; la evaluación práxica ayuda a distinguirla de la demencia frontotemporal y a reconocer sus variantes atípicas, y la apraxia afecta a la autonomía, la comunicación y las actividades de la vida diaria (Vakkila y Jehkonen 2023). La revisión de Lesourd y colaboradores (2013) señala problemas metodológicos que impiden conclusiones firmes sobre su mecanismo. En la degeneración corticobasal se describen apraxia ideomotora, cinética de miembro, bucofacial y oculomotora; los criterios de Armstrong (2013) incluyen la apraxia de miembro entre los rasgos del síndrome corticobasal. En la enfermedad de Parkinson y la PSP aparece en grado variable, sobre todo con mayor deterioro cognitivo (Zadikoff y Lang 2005). Valor práctico: una apraxia de inicio insidioso en una persona mayor con quejas «psiquiátricas» orienta a enfermedad neurodegenerativa.",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ftd",
+        "lewy"
+       ],
+       "t": "Demencias"
+      },
+      {
+       "ids": [
+        "parkinson_psiq",
+        "huntington",
+        "tce_neuro"
+       ],
+       "t": "Otras causas neurológicas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Liepmann H (1900). Das Krankheitsbild der Apraxie («motorischen Asymbolie») auf Grund eines Falles von einseitiger Apraxie. Monatsschr Psychiatr Neurol 8:15-44 [no verificada]",
+    "Goldenberg G (2009). Apraxia and the parietal lobes. Neuropsychologia 47:1449-1459 · PMID 18692079",
+    "Zadikoff C & Lang AE (2005). Apraxia in movement disorders. Brain 128:1480-1497 · PMID 15930045",
+    "Vanbellingen T et al. (2010). Comprehensive assessment of gesture production: a new test of upper limb apraxia (TULIA). Eur J Neurol 17:59-66 · PMID 19614961",
+    "Lesourd M et al. (2013). Apraxia and Alzheimer's disease: review and perspectives. Neuropsychol Rev 23:234-256 · PMID 23904110",
+    "Vakkila E & Jehkonen M (2023). Apraxia and dementia severity in Alzheimer's disease: a systematic review. J Clin Exp Neuropsychol 45:84-103 · PMID 37039061",
+    "Armstrong MJ et al. (2013). Criteria for the diagnosis of corticobasal degeneration. Neurology 80:496-503 · PMID 23359374",
+    "Abete Fornara G et al. (2018). Constructional apraxia in older patients with brain tumors: considerations with an up-to-date review of the literature. World Neurosurg 114:e1130-e1137 · PMID 29609083",
+    "OMS (2022). CIE-11 para estadísticas de mortalidad y morbilidad: MB4A Apraxia"
+   ],
+   "rel": [
+    "dem",
+    "ftd",
+    "lewy",
+    "afasia_bro",
+    "disejec",
+    "perseverac",
+    "catatonia",
+    "ecopraxia",
+    "parkinson_psiq",
+    "neuropsico"
+   ]
+  },
+  {
+   "id": "alexia_agrafia",
+   "n": "Alexias y agrafias adquiridas y síndrome de Gerstmann",
+   "ab": "Alexia y agrafia",
+   "al": [
+    "alexia pura",
+    "alexia sin agrafia",
+    "alexia con agrafia",
+    "agrafia apráxica",
+    "agrafia afásica",
+    "síndrome de Gerstmann",
+    "ceguera verbal pura"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "len",
+   "ring": 2,
+   "trad": "french",
+   "cs": "h",
+   "ev": "obs",
+   "y": 1891,
+   "tags": [
+    "organic",
+    "elderly"
+   ],
+   "cie": [
+    "MB4B.0",
+    "MB4B.3",
+    "MB4C"
+   ],
+   "desc": "Pérdida adquirida de la capacidad de leer (alexia) o de escribir (agrafia) en una persona que antes sabía hacerlo. Dejerine (1891-1892) describió la alexia con agrafia por lesión del giro angular izquierdo y la alexia pura o sin agrafia por desconexión de ese giro respecto de la información visual. Las agrafias se dividen en centrales o lingüísticas (léxica, fonológica, afásica) y periféricas o motoras (apráxica). El síndrome de Gerstmann reúne agrafia, acalculia, agnosia digital y desorientación derecha-izquierda. Se distinguen de la dislexia del desarrollo y de los trastornos de la escritura de origen psiquiátrico.",
+   "feats": [
+    "Dejerine (1891, 1892) atribuyó al giro angular izquierdo un papel especializado en la lectura y la escritura y describió los síntomas de su lesión y de su aislamiento de la entrada visual (Henderson 2019)",
+    "Alexia pura: incapacidad de leer palabras recién escritas por la propia persona; suele asociarse a lesión occipital izquierda con defecto campimétrico y a lesión del esplenio del cuerpo calloso (Carranza-Rentería y Swerdloff 2024, dos casos)",
+    "El déficit asociado más frecuente en la alexia «pura» es la hemianopsia homónima derecha, que por sí sola interfiere en la lectura; debe valorarse la contribución relativa de alexia pura y alexia hemianópica (Leff 2001)",
+    "Agrafia léxica por lesión del giro angular posterior y agrafia fonológica por lesión del supramarginal o de la ínsula subyacente: dos sistemas de escritura disociables (Roeltgen y Heilman 1984, 8 pacientes)",
+    "Gerstmann: tétrada de agnosia digital, acalculia, desorientación derecha-izquierda y agrafia adquiridas (Rusconi 2018); las formas puras se explicarían por desconexión intraparietal de sustancia blanca subcortical (Rusconi 2009)",
+    "Códigos CIE-11: MB4B.0 Dislexia y alexia; MB4B.3 Agrafia; MB4C Síndrome de Gerstmann"
+   ],
+   "note": "Buena parte de la semiología procede de casos aislados y series pequeñas; la correspondencia anatómica clásica (giro angular) admite excepciones, con alexia con agrafia por lesión talámica (de Gobbi Porto 2012) y agrafia apráxica por lesión bitalámica (Vandenborre 2015). La validez del síndrome de Gerstmann como entidad unitaria ha sido discutida a lo largo de su historia (Rusconi 2018). En la exploración debe tenerse en cuenta el nivel educativo y la lengua materna: un rendimiento bajo en lectura o escritura sin dato de pérdida no es alexia ni agrafia [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pregunta por el nivel de escolarización, la lateralidad y el rendimiento previo. Lectura: en voz alta y de comprensión de letras, palabras regulares e irregulares, pseudopalabras y frases; se cronometra y se observa si lee letra a letra, con un tiempo que aumenta con la longitud de la palabra, rasgo de la alexia pura (Leff 2001). Se comprueba si reconoce palabras deletreadas en voz alta o letras trazadas en la palma. Escritura: espontánea, al dictado y copia; deletreo oral; escritura de pseudopalabras (fonológica) y de palabras irregulares (léxica). En la agrafia apráxica la persona no forma bien las letras pero deletrea correctamente en voz alta, y suele asociarse a apraxia ideomotora (Heilman 2008). Gerstmann: denominar y señalar dedos propios y del examinador, cálculo oral y escrito, órdenes cruzadas derecha-izquierda («toque su oreja izquierda con la mano derecha»). Se exploran siempre campos visuales, lenguaje oral y praxias.",
+     "links": [
+      {
+       "ids": [
+        "apraxias",
+        "agnosias"
+       ],
+       "t": "Praxias y reconocimiento visual"
+      },
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "Evaluación neuropsicológica"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Alexia pura frente a alexia con agrafia: en la primera la persona escribe pero no puede leer lo que acaba de escribir; en la segunda fallan ambas. Agrafias afásicas: acompañan a la afasia y reproducen sus errores (agramatismo en la de Broca, paragrafias y jergagrafia en la de Wernicke) [fuente no localizada]. Agrafia apráxica frente a afásica: deletreo oral y mecanografía conservados en la primera (Valenstein y Heilman 1979; Vandenborre 2015). Frente a la alexia hemianópica, que depende del defecto de campo (Leff 2001). Frente a la dislexia del desarrollo, en la que no hay pérdida de una capacidad previa. Frente a la negligencia, que produce errores en el lado izquierdo de la palabra o del texto. Frente a la micrografía parkinsoniana y la escritura temblorosa, alteraciones motoras sin error lingüístico. Frente a la escritura desorganizada de la psicosis o la manía y la hipergrafia, en las que el trazado y la ortografía están conservados y lo alterado es el contenido o la cantidad [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "afasia_bro",
+        "afasia_wer",
+        "afasia_cond"
+       ],
+       "t": "Agrafias afásicas"
+      },
+      {
+       "ids": [
+        "aprend_adulto",
+        "aprend"
+       ],
+       "t": "Dislexia del desarrollo"
+      },
+      {
+       "ids": [
+        "incoher",
+        "ep_mania"
+       ],
+       "t": "Escritura en la psicosis y la manía"
+      }
+     ]
+    },
+    {
+     "t": "Cuadros en los que aparece",
+     "x": "Ictus del territorio de la arteria cerebral posterior izquierda (alexia pura) o de la cerebral media izquierda con afectación parietal inferior (alexia con agrafia, Gerstmann) [fuente no localizada para la distribución arterial]; tumores, traumatismos y lesiones talámicas. Entre las enfermedades degenerativas, la agrafia apráxica asimétrica puede ser una forma de comienzo del síndrome corticobasal (Heilman 2008), y la alteración de la lectura y la escritura aparece en la variante logopénica y en otras variantes de la afasia progresiva primaria, cuya clasificación incluye tareas de evaluación específicas (Gorno-Tempini 2011); también en la atrofia cortical posterior. Valor práctico: la pérdida reciente de la capacidad de leer o escribir en un adulto es un signo neurológico focal y obliga a estudio de neuroimagen; no debe atribuirse a ansiedad, depresión o simulación sin esa valoración. En peritaje, la alexia o la agrafia adquiridas pueden afectar a la capacidad de otorgar o comprender documentos escritos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ftd"
+       ],
+       "t": "Demencias"
+      },
+      {
+       "ids": [
+        "tce_neuro",
+        "cap_testamentaria"
+       ],
+       "t": "Traumatismo y capacidad documental"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Henderson VW (2019). Alexia and agraphia from 1861 to 1965. Front Neurol Neurosci 44:39-52 · PMID 31220840",
+    "Leff AP et al. (2001). The functional anatomy of single-word reading in patients with hemianopic and pure alexia. Brain 124:510-521 · PMID 11222451",
+    "Roeltgen DP & Heilman KM (1984). Lexical agraphia: further support for the two-system hypothesis of linguistic agraphia. Brain 107:811-827 · PMID 6206909",
+    "Rusconi E et al. (2009). A disconnection account of Gerstmann syndrome: functional neuroanatomy evidence. Ann Neurol 66:654-662 · PMID 19938150",
+    "Rusconi E (2018). Gerstmann syndrome: historic and current perspectives. Handb Clin Neurol 151:395-411 · PMID 29519471",
+    "Heilman KM, Coenen A & Kluger B (2008). Progressive asymmetric apraxic agraphia. Cogn Behav Neurol 21:14-17 · PMID 18327018",
+    "Valenstein E & Heilman KM (1979). Apraxic agraphia with neglect-induced paragraphia. Arch Neurol 36:506-508 · PMID 508164",
+    "Vandenborre D, van Dun K & Mariën P (2015). Apraxic agraphia following bithalamic damage. Brain Cogn 95:35-43 · PMID 25682350",
+    "de Gobbi Porto FH et al. (2012). Thalamic alexia with agraphia. Neurol Int 4:e4 · PMID 22593808",
+    "Carranza-Rentería O & Swerdloff MA (2024). Clinicoradiological features of alexia without agraphia. Cureus 16:e58309 · PMID 38752100",
+    "Gorno-Tempini ML et al. (2011). Classification of primary progressive aphasia and its variants. Neurology 76:1006-1014 · PMID 21325651",
+    "Gerstmann J (1940). Syndrome of finger agnosia, disorientation for right and left, agraphia and acalculia. Arch Neurol Psychiatry 44:398-408 [no verificada]",
+    "OMS (2022). CIE-11 para estadísticas de mortalidad y morbilidad: MB4B.0, MB4B.3 y MB4C"
+   ],
+   "rel": [
+    "afasia_bro",
+    "afasia_wer",
+    "afasia_cond",
+    "afasia_tc",
+    "apraxias",
+    "agnosias",
+    "aprend_adulto",
+    "dem",
+    "seglas_hit",
+    "neuropsico"
+   ]
+  },
+  {
+   "id": "disartria",
+   "n": "Disartria: tipos (flácida, espástica, atáxica, hipocinética, hipercinética y mixta) y disartria farmacológica",
+   "ab": "Disartria",
+   "al": [
+    "disartria",
+    "anartria",
+    "trastorno motor del habla",
+    "habla escandida",
+    "disartria por fármacos"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "len",
+   "ring": 1,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "obs",
+   "y": 1969,
+   "tags": [
+    "organic"
+   ],
+   "cie": [
+    "MA80.2"
+   ],
+   "desc": "Trastorno motor del habla por lesión o disfunción de los sistemas nerviosos que controlan la respiración, la fonación, la resonancia y la articulación, con alteración de la calidad y la inteligibilidad del habla y lenguaje conservado. La clasificación perceptiva de la Clínica Mayo (Darley, Aronson y Brown, 1969) distingue seis tipos: flácida (motoneurona inferior), espástica (motoneurona superior), atáxica (cerebelo), hipocinética e hipercinética (sistema extrapiramidal) y mixta. En psiquiatría importa diferenciarla de la afasia y del mutismo y reconocer la disartria de origen farmacológico, signo de toxicidad por litio y antiepilépticos.",
+   "feats": [
+    "Seis tipos principales: flácida (motoneurona inferior), espástica (motoneurona superior), atáxica (cerebelo), hipercinética e hipocinética (sistema extrapiramidal) y mixta (más de una localización); sus rasgos son distintivos y ayudan al diagnóstico (Enderby 2013)",
+    "Clasificación perceptiva clásica derivada del análisis de dimensiones del habla en series de pacientes con ELA, parálisis bulbar, ataxia cerebelosa, Parkinson, corea y distonía (Darley, Aronson y Brown 1969) [fuente no localizada para el detalle: resumen no disponible en PubMed]",
+    "Litio: las secuelas neurológicas irreversibles son en general cerebelosas, sobre todo ataxia y disartria, tras intoxicación aguda o insidiosa durante el mantenimiento (Kores y Lader 1997)",
+    "Fenitoína: en una revisión sistemática de 92 casos publicados de afectación cerebelosa, la disartria figuraba en el 63 %, la ataxia en el 96 % y el nistagmo en el 70 %; el 72 % quedó con discapacidad residual (Ferner 2022)",
+    "La logopedia mejora el aprovechamiento del habla disponible, la inteligibilidad y la eficacia comunicativa e incorpora sistemas aumentativos y alternativos cuando se precisan (Enderby 2013)",
+    "Código CIE-11: MA80.2 Disartria; MA80.20 Anartria"
+   ],
+   "tx": "Tratar la causa (retirada o ajuste del fármaco responsable con control de concentraciones, según la ficha técnica correspondiente); logopedia orientada a la inteligibilidad y a estrategias comunicativas; sistemas aumentativos y alternativos de comunicación cuando sea necesario (Enderby 2013).",
+   "note": "La clasificación de la Clínica Mayo es perceptiva y depende de la experiencia de quien escucha; la concordancia entre evaluadores para el tipo concreto de disartria es limitada [fuente no localizada]. Los datos sobre disartria farmacológica proceden en su mayoría de casos aislados y series, con sesgo de publicación reconocido (Ferner 2022). Una concentración sérica de litio dentro del intervalo habitual no excluye la neurotoxicidad (Lang y Davis 2002, caso con elevación moderada sobre su nivel estable).",
+   "sec": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se escucha el habla espontánea y la lectura de un texto y se valoran por separado respiración (frases cortas, fatiga), fonación (voz ronca, áspera, forzada, soplada o débil, monotonía de tono e intensidad), resonancia (hipernasalidad, escape nasal), articulación (consonantes imprecisas, distorsión de vocales) y prosodia (ritmo, velocidad, acentuación). Tareas: vocal sostenida «aaa», diadococinesias «pa-pa-pa», «ta-ta-ta», «ka-ka-ka» y «pataka», repetición de palabras polisílabas, lectura en voz alta. Se exploran pares craneales (motilidad de labios, lengua, velo del paladar, tos, deglución), signos piramidales, cerebelosos y extrapiramidales y fasciculaciones linguales. Perfiles orientativos: habla lenta y forzada con voz estrangulada en la espástica; hipernasal y soplada en la flácida; escandida, con acentuación excesiva e igual y errores irregulares, en la atáxica; monótona, hipofónica, con aceleraciones en la hipocinética; con variaciones bruscas e involuntarias en la hipercinética [fuente no localizada para cada perfil concreto; tipología general en Enderby 2013]. Se valora siempre la escritura, que está conservada.",
+     "links": [
+      {
+       "ids": [
+        "aprosodia"
+       ],
+       "t": "Prosodia"
+      },
+      {
+       "ids": [
+        "discin_tard",
+        "huntington",
+        "wilson"
+       ],
+       "t": "Trastornos del movimiento"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico: afasia, mutismo y habla funcional",
+     "x": "De la afasia: en la disartria el lenguaje está intacto (léxico, gramática, comprensión, lectura y escritura) y el defecto es de ejecución motora; la persona disártrica escribe sin errores lingüísticos, mientras que en la afasia la escritura reproduce el trastorno del lenguaje. La apraxia del habla, con errores inconsistentes y búsqueda articulatoria, se sitúa entre ambas [fuente no localizada]. Del mutismo: en la anartria hay intento y esfuerzo de hablar sin producción inteligible, mientras que en el mutismo catatónico, depresivo o selectivo no hay intento, la musculatura orofaríngea funciona en otras tareas (tos, deglución) y no hay signos neurológicos [fuente no localizada]. De la aprosodia, que afecta a la entonación afectiva sin imprecisión articulatoria. Del habla de la intoxicación aguda por alcohol, benzodiacepinas o GHB, transitoria y con otros signos de intoxicación [fuente no localizada]. Del trastorno funcional del habla (tartamudeo de inicio adulto, habla telegráfica o infantilizada, acento extranjero), con variabilidad e incongruencia respecto a los patrones orgánicos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "afasia_bro",
+        "afasia_wer",
+        "afasia_tc"
+       ],
+       "t": "Afasias"
+      },
+      {
+       "ids": [
+        "mutismo",
+        "mutismo_acin"
+       ],
+       "t": "Mutismo"
+      },
+      {
+       "ids": [
+        "conv",
+        "tmf"
+       ],
+       "t": "Síntomas funcionales"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "ghb_gbl",
+        "bzd_mayor"
+       ],
+       "t": "Intoxicaciones"
+      }
+     ]
+    },
+    {
+     "t": "Disartria por fármacos y cuadros en los que aparece",
+     "x": "En psicofarmacología la disartria es un signo de alarma. Litio: forma parte del cuadro de intoxicación y puede quedar como secuela cerebelosa irreversible junto a la ataxia (Kores y Lader 1997); se han descrito casos de instauración insidiosa durante el mantenimiento, sin fase aguda manifiesta, con elevación solo moderada de la litemia en el contexto de insuficiencia renal y cardiaca (Lang y Davis 2002), y la combinación con antipsicóticos se asocia a mayor riesgo de neurotoxicidad persistente (Rhee y Kim 2021). Fenitoína: disartria con ataxia y nistagmo, a menudo con concentraciones por encima del intervalo de referencia; la ataxia puede persistir sin atrofia cerebelosa en la imagen (Ferner 2022); los alelos de función reducida de CYP2C9 se asociaron a efectos vestibulocerebelosos (Calderon-Ospina 2020). Carbamazepina y otros antiepilépticos pueden producirla en intoxicación [fuente no localizada]; los antipsicóticos, por parkinsonismo, distonía o discinesia tardía [fuente no localizada]. Causas no farmacológicas: ictus, esclerosis múltiple, ELA, enfermedad de Parkinson, Huntington, Wilson, consumo crónico de alcohol y traumatismo craneoencefálico. Ante una disartria nueva en una persona tratada con litio o antiepilépticos, determinar concentraciones y valorar urgentemente antes de atribuirla a sedación o a la enfermedad de base.",
+     "links": [
+      {
+       "ids": [
+        "intox_litio",
+        "lm_bip"
+       ],
+       "t": "Litio"
+      },
+      {
+       "ids": [
+        "fenitoina",
+        "carbamaz",
+        "vpa_bip"
+       ],
+       "t": "Antiepilépticos"
+      },
+      {
+       "ids": [
+        "snm",
+        "discin_tard"
+       ],
+       "t": "Antipsicóticos"
+      },
+      {
+       "ids": [
+        "em_neuro",
+        "huntington",
+        "wilson",
+        "tce_neuro",
+        "cerebelo_psiq"
+       ],
+       "t": "Causas neurológicas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Darley FL, Aronson AE & Brown JR (1969). Differential diagnostic patterns of dysarthria. J Speech Hear Res 12:246-269 · PMID 5808852",
+    "Darley FL, Aronson AE & Brown JR (1969). Clusters of deviant speech dimensions in the dysarthrias. J Speech Hear Res 12:462-496 · PMID 5811846",
+    "Enderby P (2013). Disorders of communication: dysarthria. Handb Clin Neurol 110:273-281 · PMID 23312647",
+    "Kores B & Lader MH (1997). Irreversible lithium neurotoxicity: an overview. Clin Neuropharmacol 20:283-299 · PMID 9260727",
+    "Lang EJ & Davis SM (2002). Lithium neurotoxicity: the development of irreversible neurological impairment despite standard monitoring of serum lithium levels. J Clin Neurosci 9:308-309 · PMID 12093141",
+    "Rhee SY & Kim HS (2021). Subcortical structure disruption in diffusion tensor tractography of the patient with the syndrome of irreversible lithium-effectuated neurotoxicity combined with neuroleptic malignant syndrome: a case report. Clin Neuropharmacol 44:62-67 · PMID 33560007",
+    "Ferner R, Day R & Bradberry SM (2022). Phenytoin and damage to the cerebellum: a systematic review of published cases. Expert Opin Drug Saf 21:957-977 · PMID 35325581",
+    "Calderon-Ospina CA et al. (2020). Possible genetic determinants of response to phenytoin in a group of Colombian patients with epilepsy. Front Pharmacol 11:555 · PMID 32457604",
+    "Duffy JR (2019). Motor Speech Disorders: Substrates, Differential Diagnosis, and Management. 4ª ed. St. Louis: Elsevier [no verificada]",
+    "OMS (2022). CIE-11 para estadísticas de mortalidad y morbilidad: MA80.2 Disartria"
+   ],
+   "rel": [
+    "afasia_bro",
+    "mutismo",
+    "aprosodia",
+    "intox_litio",
+    "fenitoina",
+    "carbamaz",
+    "discin_tard",
+    "wilson",
+    "huntington",
+    "em_neuro",
+    "cerebelo_psiq"
+   ]
+  },
+  {
+   "id": "signos_frontales",
+   "n": "Signos de liberación frontal (reflejos primitivos) y conductas de utilización e imitación",
+   "ab": "Signos frontales",
+   "al": [
+    "reflejos primitivos",
+    "signos de liberación cortical",
+    "reflejo de prensión",
+    "reflejo palmomentoniano",
+    "reflejo glabelar",
+    "reflejo de succión",
+    "hociqueo",
+    "conducta de utilización",
+    "conducta de imitación",
+    "síndrome de dependencia ambiental"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "psm",
+   "ring": 1,
+   "trad": "french",
+   "cs": "m",
+   "ev": "obs",
+   "y": 1983,
+   "tags": [
+    "organic",
+    "elderly"
+   ],
+   "desc": "Reflejos presentes en el recién nacido que se inhiben durante el desarrollo y pueden reaparecer en enfermedades cerebrales, sobre todo las que afectan a los lóbulos frontales: prensión, succión y hociqueo, palmomentoniano y glabelar. Se agrupan con ellos la conducta de utilización y la de imitación descritas por Lhermitte (1983, 1986), en las que la presencia de objetos o de gestos ajenos impulsa a la persona a usarlos o reproducirlos. Su interpretación exige cautela: varios aparecen en personas sanas, aumentan con la edad y carecen de especificidad, por lo que no permiten por sí solos diagnosticar una demencia ni distinguir una psicosis orgánica de una primaria.",
+   "feats": [
+    "Reflejos presentes en la infancia, suprimidos durante el desarrollo normal, que pueden reaparecer en enfermedades cerebrales, en particular las que afectan a los lóbulos frontales (Schott y Rossor 2003)",
+    "Prensión: presente en el 8 % de 491 pacientes neurológicos consecutivos; nunca con lesiones limitadas a regiones retrorrolándicas; en el 70 % de quienes tenían afectación frontal medial, siempre con daño del cíngulo; suele ser bilateral aunque la lesión sea unilateral (De Renzi y Barbieri 1992)",
+    "Palmomentoniano, hociqueo o corneomandibular: al menos uno en el 50,5 % de 105 adultos sanos de la tercera a la novena década; el palmomentoniano es el más precoz y frecuente (Jacobs y Gossman 1980)",
+    "Glabelar y palmomentoniano: relativamente sensibles en los parkinsonismos, pero sin especificidad para distinguir Parkinson, PSP y atrofia multisistémica (Brodsky 2004, 100 sujetos)",
+    "Conducta de utilización: la presentación de objetos obliga a cogerlos y usarlos; Lhermitte (1983) la relacionó con lesiones frontales uni o bilaterales y propuso un papel de la superficie orbitaria",
+    "En la esquizofrenia, el 58 % de 48 pacientes mostró al menos un reflejo primitivo, sin asociación con el deterioro cognitivo ni con la discinesia tardía (Barnes 1995)",
+    "Conducta de imitación y de utilización presentes en el 96 % de 29 pacientes con lesiones frontales focales, con afectación de la mitad inferior de la parte anterior de uno o ambos lóbulos frontales en la TC (Lhermitte, Pillon y Serdaru 1986, 75 pacientes)"
+   ],
+   "note": "No hay una definición consensuada de respuesta «anormal» y la prevalencia en población sana aumenta con la edad (Walterfang y Velakoulis 2005; Jacobs y Gossman 1980). Su valor es mayor cuando son intensos, persistentes, no se agotan con la repetición o se acompañan de otros signos (Owen y Mulley 2002). La mayoría de los estudios son transversales y pequeños. Sin código CIE-11 específico [fuente oficial no localizada].",
+   "sec": [
+    {
+     "t": "Exploración clínica",
+     "x": "Prensión: se estimula con los dedos la palma desde la eminencia tenar hacia los dedos, distrayendo a la persona, y se observa el cierre de la mano; se explora en ambas manos, porque suele ser bilateral, y se anota si puede inhibirla a voluntad, lo que ocurre en muchos casos aunque reaparece al desviar la atención (De Renzi y Barbieri 1992). Succión y hociqueo: roce de los labios o percusión del labio superior, con fruncimiento u oclusión labial [fuente no localizada para la maniobra concreta]. Palmomentoniano: estímulo de la eminencia tenar y contracción del músculo mentoniano homolateral; tiene más valor si es intenso, sostenido, fácil de repetir y desencadenable desde zonas distintas de la palma (Owen y Mulley 2002). Glabelar: percusión repetida del entrecejo desde fuera del campo visual; lo normal es que el parpadeo se agote tras pocos golpes (Brodsky 2004). Conductas de utilización e imitación: se dejan objetos al alcance sin dar instrucción alguna o se hacen gestos ante la persona y se observa si los coge y usa o los imita (Lhermitte 1983, 1986). Se integran con la Frontal Assessment Battery, que incluye la prensión y la autonomía ambiental [fuente no localizada para el detalle de los ítems].",
+     "links": [
+      {
+       "ids": [
+        "disejec",
+        "ecopraxia"
+       ],
+       "t": "Síndrome disejecutivo e imitación"
+      },
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "Evaluación neuropsicológica"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial semiológico",
+     "x": "Prensión frente a Mitgehen y obediencia automática catatónicas: en la catatonía la persona sigue la presión o la orden del examinador, mientras que la prensión es un cierre reflejo ante un estímulo palmar; ambos se exploran en la misma secuencia. Frente al Gegenhalten o paratonía de oposición, que es una resistencia variable al movimiento pasivo. Conducta de utilización frente a ecopraxia: en la primera se usan objetos, en la segunda se copian actos; frente a la conducta compulsiva o el ritual, que la persona reconoce como propios y vive con urgencia o malestar; frente a la desinhibición maníaca, episódica y acompañada de aceleración. En la conducta de imitación, las personas explican después que creían que debían imitar (Lhermitte 1986). Frente a la conducta de búsqueda o hipermetamorfosis del Klüver-Bucy. Un reflejo aislado, débil y que se agota no tiene valor patológico en una persona mayor (Jacobs y Gossman 1980).",
+     "links": [
+      {
+       "ids": [
+        "ambitend",
+        "negativismo",
+        "catatonia"
+       ],
+       "t": "Signos catatónicos"
+      },
+      {
+       "ids": [
+        "ecopraxia",
+        "desinhib",
+        "kluver_bucy"
+       ],
+       "t": "Imitación, desinhibición y Klüver-Bucy"
+      }
+     ]
+    },
+    {
+     "t": "Valor y limitaciones en demencia y psicosis",
+     "x": "Los signos de liberación cortical se han estudiado en la esquizofrenia, los trastornos afectivos, el trastorno obsesivo-compulsivo, la enfermedad de Alzheimer, la demencia vascular y la demencia frontotemporal; pueden ayudar en el diagnóstico diferencial y en la estadificación, pero su interpretación se complica por la alta tasa de base en población no clínica, el aumento con la edad, la falta de especificidad y la ausencia de criterio claro de anormalidad (Walterfang y Velakoulis 2005). En la psicosis: en descendientes de madres con esquizofrenia seguidos hasta los 22 años, un subgrupo del 32 % mostró más signos blandos, reflejos primitivos y movimientos involuntarios, lo que no ocurrió en descendientes de madres con psicosis afectiva (Schubert y McNeil 2004); en pacientes mayores institucionalizados con esquizofrenia, los reflejos primitivos aparecieron por igual con y sin leucotomía orbitofrontal previa (Black 2000). En los parkinsonismos, el glabelar es sensible pero inespecífico (Brodsky 2004). Uso práctico: en un primer episodio psicótico de inicio tardío o con cambio de personalidad, la combinación de signos de liberación, conducta de utilización y perfil disejecutivo orienta a estudio neurológico; su ausencia no lo excluye [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ftd",
+        "lewy",
+        "parkinson_psiq"
+       ],
+       "t": "Demencias y parkinsonismos"
+      },
+      {
+       "ids": [
+        "esq",
+        "detcog",
+        "discin_tard"
+       ],
+       "t": "Esquizofrenia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Schott JM & Rossor MN (2003). The grasp and other primitive reflexes. J Neurol Neurosurg Psychiatry 74:558-560 · PMID 12700289",
+    "De Renzi E & Barbieri C (1992). The incidence of the grasp reflex following hemispheric lesion and its relation to frontal damage. Brain 115:293-313 · PMID 1559160",
+    "Jacobs L & Gossman MD (1980). Three primitive reflexes in normal adults. Neurology 30:184-188 · PMID 7188797",
+    "Owen G & Mulley GP (2002). The palmomental reflex: a useful clinical sign? J Neurol Neurosurg Psychiatry 73:113-115 · PMID 12122165",
+    "Brodsky H et al. (2004). Glabellar and palmomental reflexes in parkinsonian disorders. Neurology 63:1096-1098 · PMID 15452308",
+    "Lhermitte F (1983). 'Utilization behaviour' and its relation to lesions of the frontal lobes. Brain 106:237-255 · PMID 6850269",
+    "Lhermitte F, Pillon B & Serdaru M (1986). Human autonomy and the frontal lobes. Part I: imitation and utilization behavior. Ann Neurol 19:326-334 · PMID 3707084",
+    "Walterfang M & Velakoulis D (2005). Cortical release signs in psychiatry. Aust N Z J Psychiatry 39:317-327 · PMID 15860018",
+    "Barnes TR et al. (1995). Primitive (developmental) reflexes, tardive dyskinesia and intellectual impairment in schizophrenia. Schizophr Res 16:47-52 · PMID 7547644",
+    "Schubert EW & McNeil TF (2004). Prospective study of neurological abnormalities in offspring of women with psychosis: birth to adulthood. Am J Psychiatry 161:1030-1037 · PMID 15169691",
+    "Black DN et al. (2000). Leukotomy revisited: late cognitive and behavioral effects in chronic institutionalized schizophrenics. Schizophr Res 43:57-64 · PMID 10828415"
+   ],
+   "rel": [
+    "disejec",
+    "ecopraxia",
+    "ambitend",
+    "negativismo",
+    "catatonia",
+    "desinhib",
+    "ftd",
+    "dem",
+    "esq",
+    "parkinson_psiq",
+    "discin_tard"
+   ]
+  }
+ ]
+}
