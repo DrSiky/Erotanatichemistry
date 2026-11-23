@@ -44,10 +44,20 @@ module.exports = {
     const colsA = [{ w: c1, label: 'Dominio y fuentes de la fila' }, { w: cw, label: 'Fluoxetina' }, { w: cw, label: 'Sertralina' }, { w: cw, label: 'Paroxetina' }, { w: cw, label: 'Citalopram / escitalopram' }, { w: cw, label: 'Fluvoxamina' }, { w: cw, label: 'Venlafaxina / desvenlafaxina' }, { w: cw, label: 'Duloxetina' }];
     const colsB = [{ w: c1, label: 'Dominio y fuentes de la fila' }, { w: cw, label: 'Mirtazapina' }, { w: cw, label: 'Bupropión' }, { w: cw, label: 'Vortioxetina' }, { w: cw, label: 'Agomelatina' }, { w: cw, label: 'Trazodona' }, { w: cw, label: 'Tricíclicos (amitriptilina, clomipramina)' }, { w: cw, label: 'IMAO (tranilcipromina; moclobemida)' }];
     const s = (sym, t) => ({ sym, t });
+    // La estimación de anchura de figlib se queda algo corta en celdas estrechas: se envuelve el texto con columnas 12 px más
+    // estrechas y después se devuelven las celdas a su anchura real, para que ninguna línea toque el borde.
+    const table = o => {
+      const real = o.cols.map(c => c.w), n = real.length;
+      const r = F.table(Object.assign({}, o, { cols: o.cols.map(c => ({ w: c.w - 12, label: c.label })) }));
+      const it = F.items[F.items.length - 1];
+      const xs = []; let xx = o.x; real.forEach(w => { xs.push(xx); xx += w; });
+      it.cells.forEach((c, i) => { const k = i % n; c.x = xs[k]; c.w = real[k]; });
+      it.w = xx - o.x; return { y: r.y, w: it.w };
+    };
 
     // 1. ISRS e IRSN
     y = F.band(y, 'ISRS e IRSN', { n: 1 }) + 14;
-    let t = F.table({ x: X, y, fs: FS, cols: colsA, rows: [
+    let t = table({ x: X, y, fs: FS, cols: colsA, rows: [
       ['Ficha del atlas', { t: 'Fluoxetina', node: 'fluoxetina' }, { t: 'Sertralina', node: 'sertralina' }, { t: 'Paroxetina', node: 'paroxetina' }, { t: 'Citalopram (escitalopram: bloque 4)', node: 'citalopram' }, { t: 'Fluvoxamina', node: 'fluvoxamina' }, { t: 'Venlafaxina (desvenlafaxina: bloque 4)', node: 'venlafaxina' }, { t: 'Duloxetina', node: 'duloxetina' }],
       ['Tolerabilidad global: abandonos (Cipriani 2018, MA)', s('○', 'entre los más tolerables'), s('○', 'entre los más tolerables'), s('●', 'sin posición extrema'), s('○', 'ambos entre los más tolerables'), s('●●', 'entre los de más abandonos'), s('●●', 'venlafaxina entre los de más abandonos; desvenlafaxina sin posición extrema'), s('●●', 'entre los de más abandonos')],
       ['Sedación / insomnio (FT 4.8)', s('●●●', 'insomnio muy frecuente; activador'), s('●●●', 'insomnio y somnolencia muy frecuentes'), s('●●', 'somnolencia e insomnio frecuentes'), s('●●●/●●', 'muy frecuentes con citalopram; frecuentes con escitalopram'), s('●●', 'insomnio y somnolencia frecuentes'), s('●●●', 'venlafaxina: insomnio y sedación muy frecuentes'), s('●●●', 'somnolencia muy frecuente; insomnio frecuente')],
@@ -66,7 +76,7 @@ module.exports = {
 
     // 2. Otros mecanismos, tricíclicos e IMAO
     y = F.band(y, 'Otros mecanismos, tricíclicos e IMAO', { n: 2 }) + 14;
-    t = F.table({ x: X, y, fs: FS, cols: colsB, rows: [
+    t = table({ x: X, y, fs: FS, cols: colsB, rows: [
       ['Ficha del atlas', { t: 'Mirtazapina', node: 'mirtazapina' }, { t: 'Bupropión', node: 'bupropion' }, { t: 'Vortioxetina', node: 'vortioxetina' }, { t: 'Agomelatina', node: 'agomelatina' }, { t: 'Trazodona', node: 'trazodona' }, { t: 'Tricíclicos (fichas individuales: bloque 4)', node: 'tca_dep' }, { t: 'Tranilcipromina (moclobemida: bloque 4)', node: 'tranilcipromina' }],
       ['Tolerabilidad global: abandonos (Cipriani 2018, MA)', s('●', 'sin posición extrema'), s('●', 'sin posición extrema'), s('○', 'entre los más tolerables'), s('○', 'entre los más tolerables'), s('●●', 'entre los de más abandonos'), s('●●', 'amitriptilina y clomipramina, entre los de más abandonos'), s('—', 'no incluidos en el metaanálisis')],
       ['Sedación / insomnio (FT 4.8)', s('●●●', 'somnolencia y sedación muy frecuentes'), s('●●●', 'insomnio muy frecuente, por lo general transitorio (FT 4.2)'), s('○', 'sin más insomnio ni somnolencia que placebo (FT 5.1)'), s('●●', 'somnolencia e insomnio frecuentes'), s('●●●', 'la FT la define como antidepresivo sedante'), s('●●●', 'somnolencia muy frecuente (amitriptilina y clomipramina)'), s('●●●', 'tranilcipromina: insomnio muy frecuente; moclobemida: insomnio al inicio (FT 4.4)')],

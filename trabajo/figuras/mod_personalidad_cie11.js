@@ -29,8 +29,8 @@ module.exports = {
       'Krueger RF et al. (2012). Initial construction of a maladaptive personality trait model and inventory for DSM-5. Psychol Med 42:1879-1890 · PMID 22153017',
       'Bender DS, Morey LC & Skodol AE (2011). Toward a model for assessing level of personality functioning in DSM-5, part I: a review of theory and methods. J Pers Assess 93:332-346 · PMID 22804672',
       'Kotov R et al. (2017). The Hierarchical Taxonomy of Psychopathology (HiTOP): a dimensional alternative to traditional nosologies. J Abnorm Psychol 126:454-477 · PMID 28333488',
-      'Kotov R et al. (2021). The Hierarchical Taxonomy of Psychopathology (HiTOP): a quantitative nosology based on consensus of evidence. Annu Rev Clin Psychol 17:83-108 · PMID 33577350',
       'Krueger RF et al. (2021). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): II. Externalizing superspectrum. World Psychiatry 20:171-193 · PMID 34002506',
+      'Watson D et al. (2022). Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): III. Emotional dysfunction superspectrum. World Psychiatry 21:26-54 · PMID 35015357',
       'American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, 5ª ed., texto revisado (DSM-5-TR), Sección III: modelo alternativo de los trastornos de la personalidad. Washington, DC: APA Publishing [no verificada directamente; contenido tomado de Bach y First 2018, Mulder 2021, Krueger 2012 y Bender 2011]'
     ],
     nodes: ['cie11_hit', 'dsm5_hit', 'entrevistas', 'perit_forense', 'clontp', 'schneider_1950']
@@ -52,7 +52,7 @@ module.exports = {
     y = req.y + req.h + 90;
     const c4 = cols(4, 70);
     const sev = [
-      F.box('s0', { x: c4.x(0), y, w: c4.w, type: 'info', fs: FS, align: 'left', node: 'pers_acentuadas', title: 'Dificultad de la personalidad · QE50.7 (no es un trastorno)',
+      F.box('s0', { x: c4.x(0), y, w: c4.w, type: 'info', fs: FS, align: 'left', node: 'tp_cie11', title: 'Dificultad de la personalidad · QE50.7 (no es un trastorno)',
         text: 'Problemas estables (≥ 2 años) que solo se expresan de forma intermitente (p. ej., con estrés) o con baja intensidad, a veces limitados a relaciones o situaciones concretas; no comprometen la capacidad de mantener un trabajo, amistades y relaciones íntimas algo satisfactorias. Se codifica en el capítulo de factores que influyen en el estado de salud (Bach y First 2018).' }),
       F.box('s1', { x: c4.x(1), y, w: c4.w, type: 'dx', fs: FS, align: 'left', node: 'tp_cie11', title: 'Trastorno leve · 6D10.0',
         text: 'Alcance: algunas áreas del funcionamiento y no otras; puede no notarse en algunos contextos. Relaciones: problemas en muchas, pero se mantienen algunas y algunos roles. Daño: típicamente sin daño sustancial a la propia persona o a otras. Deterioro limitado a áreas circunscritas o más extenso pero más leve (Bach y First 2018, tabla 3).' }),
@@ -106,16 +106,16 @@ module.exports = {
     const t = F.table({ x: L, y, fs: 17, cols: [{ w: 400, label: 'CIE-11' }, { w: 640, label: 'DSM-5-TR, sección III (modelo alternativo)' }, { w: 560, label: 'Espectro HiTOP más próximo' }, { w: 680, label: 'Fuente y matiz' }],
       rows: [
         [{ t: 'Gravedad: ninguna / dificultad / leve / moderado / grave', node: 'tp_cie11' }, { t: 'Criterio A (LPFS): nivel 0 / 1 / 2 / 3 / 4 (identidad, autodirección, empatía, intimidad)', node: 'pid5_lpfs' }, '— (HiTOP no define niveles de gravedad de la personalidad) [fuente no localizada]', 'Umbral: trastorno leve en la CIE-11 = deterioro moderado (nivel 2) en el DSM-5 (Bach y First 2018, tabla 7; Mulder 2021). Elementos del criterio A: Bender 2011'],
-        [{ t: 'Afectividad negativa', node: 'pers_depresiva' }, 'Afecto negativo', { t: 'Internalizante', node: 'hitop_anx' }, 'Bach y First 2018; Mulder 2021; Kotov 2017'],
+        [{ t: 'Afectividad negativa', node: 'pers_depresiva' }, 'Afecto negativo', { t: 'Internalizante', node: 'hitop_anx' }, 'Bach y First 2018; Mulder 2021; Watson 2022'],
         [{ t: 'Desapego', node: 'tpev' }, 'Desapego', 'Desapego', 'Bach y First 2018; Kotov 2017'],
-        [{ t: 'Disocialidad', node: 'tpnarc' }, 'Antagonismo', 'Externalizante antagonista', 'Bach y First 2018; Kotov 2017'],
-        [{ t: 'Desinhibición', node: 'desinhib' }, 'Desinhibición', 'Externalizante desinhibido', 'Bach y First 2018; Kotov 2017'],
-        [{ t: 'Anancastia', node: 'anancasmo' }, '— : perfeccionismo rígido (faceta de desinhibición baja) y perseveración (faceta de afecto negativo)', '— (sin espectro propio)', 'La compulsividad se propuso como dominio del DSM-5 y se abandonó por motivos poco claros (Mulder 2021)'],
+        [{ t: 'Disocialidad', node: 'tpnarc' }, 'Antagonismo', 'Externalizante antagonista', 'Bach y First 2018; Krueger 2021'],
+        [{ t: 'Desinhibición', node: 'impulsiv' }, 'Desinhibición', 'Externalizante desinhibido', 'Bach y First 2018; Krueger 2021'],
+        [{ t: 'Anancastia', node: 'anancasmo' }, '— : perfeccionismo rígido (faceta de desinhibición baja) y perseveración (faceta de afecto negativo)', '— (no es uno de los seis espectros)', 'La compulsividad se propuso como dominio del DSM-5 y se abandonó por motivos poco claros (Mulder 2021)'],
         [{ t: '— (trastorno esquizotípico en 6A22)', node: 'esqtclin' }, 'Psicoticismo', { t: 'Trastorno del pensamiento', node: 'meehl' }, 'Krueger 2012; Bach y First 2018; Kotov 2017'],
-        [{ t: 'Patrón límite', node: 'tlp' }, 'T. límite, uno de los seis tipos que conserva (con antisocial, evitativo, narcisista, obsesivo-compulsivo y esquizotípico) más el trastorno con rasgos especificados', 'Sin lugar único: carga en internalizante (distrés) y, de forma provisional, en ambos externalizantes', 'Mulder 2021, tabla 1; Kotov 2021; Krueger 2021']
+        [{ t: 'Patrón límite', node: 'tlp' }, 'T. límite, uno de los seis tipos que conserva (con antisocial, evitativo, narcisista, obsesivo-compulsivo y esquizotípico) más el trastorno con rasgos especificados', 'Sin lugar único: carga sobre todo en internalizante (distrés) y solo de forma provisional en el superespectro externalizante, con rasgos de ambos espectros', 'Mulder 2021, tabla 1 (tipos del DSM-5); Krueger 2021; Watson 2022']
       ] });
     y = t.y + 28;
-    y = F.text(L, y + 4, 'Diez categorías clásicas → dominios de la CIE-11 (conversión tentativa desde la CIE-10 de Bach y First 2018, tabla 8; «bajo» = polo opuesto del dominio):', { fs: 18, bold: true, w: IW }) + 14;
+    y = F.text(L, y + 4, 'Diez categorías clásicas → dominios de la CIE-11 (conversión tentativa desde la CIE-10 de Bach y First 2018, tabla 8, que no incluye el esquizotípico y trata el narcisista como F60.8 «otros»; «bajo» = polo opuesto del dominio):', { fs: 18, bold: true, w: IW }) + 14;
     const c5 = cols(5, 20);
     const cat = [
       ['Paranoide', 'tparano', 'Afectividad negativa (desconfianza, rencor) y desapego'],
@@ -145,7 +145,7 @@ module.exports = {
       F.box('tr_n', { x: c4b.x(2), y, w: c4b.w, type: 'info', fs: 17, align: 'left', node: 'anancasmo', title: 'Anancasmo',
         text: 'El término de la CIE-10 (F60.5, anancástico) sobrevive como dominio de rasgo y no como tipo (Bach y First 2018); la filiación con el anancasmo de la psicopatología alemana es histórica [fuente no localizada].' }),
       F.box('tr_d', { x: c4b.x(3), y, w: c4b.w, type: 'info', fs: 17, align: 'left', node: 'pers_depresiva', title: 'Personalidad depresiva',
-        text: 'Sin código propio en la CIE-11 ni en el DSM-5-TR; sus rasgos (pesimismo, culpa, baja autoestima) caen dentro de la definición de afectividad negativa (Bach y First 2018), pero no hay conversión publicada [fuente no localizada].' })
+        text: 'Sin código propio en la CIE-11 (OMS); sus rasgos (pesimismo, culpa, baja autoestima) caen dentro de la definición de afectividad negativa (Bach y First 2018), pero no hay conversión publicada [fuente no localizada].' })
     ];
     eq(tr);
     y = tr[0].y + tr[0].h + 60;
@@ -155,7 +155,7 @@ module.exports = {
     const c3 = cols(3, 24);
     const ins = [
       F.box('i_sev', { x: c3.x(0), y, w: c3.w, type: 'act', fs: FS, align: 'left', node: 'pid5_lpfs', title: 'Gravedad',
-        text: 'SASPD (autoinforme breve): AUC 0,86 para trastorno leve y 0,84 para moderado (cortes 8 y 10) y fiabilidad test-retest CCI 0,93 en 110 pacientes (Olajide 2018). LPFS-BF 2.0 (autoinforme del criterio A del DSM-5): dos factores, self e interpersonal, y alta sensibilidad al cambio (Weekers 2019). PDS-ICD-11, primera escala heteroaplicada según la descripción de la OMS: 14 ítems, unidimensional, CCI interevaluador 0,94 (Sellbom 2024).' }),
+        text: 'SASPD (autoinforme breve), en 110 pacientes: AUC 0,86 para trastorno leve y 0,84 para moderado (cortes 8 y 10) y test-retest a las 2-4 semanas CCI 0,93 en 43 de ellos (Olajide 2018). LPFS-BF 2.0 (autoinforme del criterio A del DSM-5): dos factores, self e interpersonal, y alta sensibilidad al cambio (Weekers 2019). PDS-ICD-11, primera escala heteroaplicada según la descripción de la OMS: 14 ítems, unidimensional, CCI interevaluador 0,94 (Sellbom 2024).' }),
       F.box('i_dom', { x: c3.x(1), y, w: c3.w, type: 'act', fs: FS, align: 'left', node: 'hitop_tp', title: 'Dominios y patrón límite',
         text: 'PiCD: 60 ítems, autoinforme o informante, para los cinco dominios (Oltmanns y Widiger 2018; Bach y First 2018); omega 0,77-0,87 en 518 estudiantes (Carnovale 2020). Los cinco dominios pueden derivarse también del PID-5 con un algoritmo (Bach y First 2018). BPS para el patrón límite (Oltmanns y Widiger 2019).' }),
       F.box('i_es', { x: c3.x(2), y, w: c3.w, type: 'act', fs: FS, align: 'left', node: 'entrevistas', title: 'Validación española',
@@ -170,9 +170,9 @@ module.exports = {
       F.box('c_val', { x: c4c.x(1), y, w: c4c.w, type: 'info', fs: 17, align: 'left', node: 'hitop_tp', title: 'Validez y utilidad',
         text: 'Muchos estudios de apoyo usan medidas no derivadas de la descripción de la CIE-11, y quedan dudas sobre la utilidad clínica (Huprich 2020). La evidencia es aún indirecta, apoyada en el modelo alternativo del DSM-5; los ensayos de campo de los dominios dieron resultados mixtos (Mulder 2021). La dificultad de la personalidad suscita temor a medicalizar (Mulder 2021).' }),
       F.box('c_ana', { x: c4c.x(2), y, w: c4c.w, type: 'info', fs: 17, align: 'left', node: 'tpobs', title: 'Debate sobre la anancastia',
-        text: 'Varios estudios hallan cuatro factores, con un continuo bipolar desinhibición-anancastia (Carnovale 2020; Gutiérrez 2021); otros apoyan cinco dominios distintos (Mulder 2021). En pacientes con depresión se replicó la anancastia, pero no una desinhibición separada (Mulder 2016). La anancastia se solapa con el trastorno obsesivo-compulsivo de la personalidad y tiene apoyo factorial (Gecaite-Stonciene 2021).' }),
+        text: 'Varios estudios hallan cuatro factores, con un continuo bipolar desinhibición-anancastia (Carnovale 2020; Gutiérrez 2021); otros, citados por Mulder 2021, apoyan cinco dominios distintos. En pacientes con depresión se replicó la anancastia, pero no una desinhibición separada (Mulder 2016). La anancastia se solapa con el trastorno obsesivo-compulsivo de la personalidad y tiene apoyo factorial (Gecaite-Stonciene 2021).' }),
       F.box('c_psi', { x: c4c.x(3), y, w: c4c.w, type: 'info', fs: 17, align: 'left', node: 'esqtpersonalidad', title: 'Psicoticismo y patrón límite',
-        text: 'La diferencia principal con el modelo alternativo es anancastia frente a psicoticismo; la investigación sobre rasgos del DSM-5 es trasladable salvo el psicoticismo (Mulder 2021). El patrón límite parece muy ligado a la gravedad global y podría ser redundante (Mulder 2021). Es obligatorio en muchos países desde enero de 2022 (Mulder 2021).' })
+        text: 'La diferencia principal con el modelo alternativo es anancastia frente a psicoticismo; la investigación sobre rasgos del DSM-5 es trasladable salvo el psicoticismo (Mulder 2021). El patrón límite parece muy ligado a la gravedad global y podría ser redundante (Mulder 2021), que preveía su uso obligatorio en muchos países desde enero de 2022.' })
     ];
     eq(cr);
     y = cr[0].y + cr[0].h + 44;
@@ -180,7 +180,7 @@ module.exports = {
     F.box('lim', { x: L, y, w: IW, type: 'lim', align: 'left', fs: 19, title: 'Límites de esta figura',
       text: 'Esquema docente de apoyo, no instrumento diagnóstico: no sustituye al juicio clínico ni a la evaluación con entrevistas y medidas validadas. Las descripciones de cada nivel y dominio se han resumido de la adaptación de las descripciones clínicas y requisitos diagnósticos de la OMS publicada por Bach y First (2018), no del texto oficial; los códigos sí se han cotejado con la tabulación oficial de la CIE-11. Las correspondencias de la banda I son aproximadas y en parte tentativas; las ubicaciones en HiTOP siguen las revisiones del propio consorcio. Las cifras de fiabilidad proceden de muestras concretas y no son extrapolables sin más. El modelo es reciente y su evidencia directa, limitada.' });
 
-    F.footer('Fuentes: CIE-11 MMS, tabulación oficial (OMS 2025); Tyrer 2015 (PMID 25706217) y 2019 (30601688); Bach y First 2018 (30373564); Mulder 2021 (34040555) y 2016 (27120419); Oltmanns y Widiger 2018 (28230410) y 2019 (30628821); Olajide 2018 (28513349); Weekers 2019 (30230242); Sellbom 2024 (37941508); Brown y Sellbom 2023 (36384302); Aydın-Seyrek 2024 (38973511); Hualparuca-Olivera 2024 (39086213); Carnovale 2020 (31556679); Gutiérrez 2021 (32583685); Gecaite-Stonciene 2021 (33796036); Huprich 2020 (32519211); Krueger 2012 (22153017); Bender 2011 (22804672); Kotov 2017 (28333488) y 2021 (33577350); Krueger 2021 (34002506); DSM-5-TR, sección III (APA 2022). Esquema docente; no sustituye al juicio clínico.');
+    F.footer('Fuentes: CIE-11 MMS, tabulación oficial (OMS 2025); Tyrer 2015 (PMID 25706217) y 2019 (30601688); Bach y First 2018 (30373564); Mulder 2021 (34040555) y 2016 (27120419); Oltmanns y Widiger 2018 (28230410) y 2019 (30628821); Olajide 2018 (28513349); Weekers 2019 (30230242); Sellbom 2024 (37941508); Brown y Sellbom 2023 (36384302); Aydın-Seyrek 2024 (38973511); Hualparuca-Olivera 2024 (39086213); Carnovale 2020 (31556679); Gutiérrez 2021 (32583685); Gecaite-Stonciene 2021 (33796036); Huprich 2020 (32519211); Krueger 2012 (22153017); Bender 2011 (22804672); Kotov 2017 (28333488); Krueger 2021 (34002506); Watson 2022 (35015357); DSM-5-TR, sección III (APA 2022). Esquema docente; no sustituye al juicio clínico.');
     return F;
   }
 };
