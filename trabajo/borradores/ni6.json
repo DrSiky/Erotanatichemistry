@@ -1,0 +1,671 @@
+{
+ "patch": {
+  "cap_dem": {
+   "relAdd": [
+    "cap_testamentaria",
+    "informe_pericial"
+   ]
+  },
+  "capacidad_jur": {
+   "relAdd": [
+    "cap_testamentaria",
+    "informe_pericial"
+   ]
+  },
+  "perit_forense": {
+   "relAdd": [
+    "informe_pericial",
+    "pericial_familia",
+    "pericial_chemsex",
+    "cap_testamentaria"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "pericial_chemsex"
+   ]
+  },
+  "chemsex_s": {
+   "relAdd": [
+    "pericial_chemsex"
+   ]
+  },
+  "imputabilidad": {
+   "relAdd": [
+    "pericial_chemsex",
+    "informe_pericial"
+   ]
+  },
+  "violencia_genero": {
+   "relAdd": [
+    "pericial_familia"
+   ]
+  },
+  "abuso_sexual_inf": {
+   "relAdd": [
+    "pericial_familia"
+   ]
+  },
+  "ter_fam_inf": {
+   "relAdd": [
+    "pericial_familia"
+   ]
+  },
+  "ghb_gbl": {
+   "relAdd": [
+    "pericial_chemsex"
+   ]
+  },
+  "dano_psiquico": {
+   "relAdd": [
+    "informe_pericial",
+    "pericial_chemsex"
+   ]
+  },
+  "delirium": {
+   "relAdd": [
+    "cap_testamentaria"
+   ]
+  },
+  "dem": {
+   "relAdd": [
+    "cap_testamentaria"
+   ]
+  },
+  "genero": {
+   "relAdd": [
+    "pericial_familia"
+   ]
+  },
+  "secreto_prof": {
+   "relAdd": [
+    "informe_pericial"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "cap_testamentaria",
+   "n": "Capacidad para testar (testamentifacción activa) y pericia psiquiátrica retrospectiva",
+   "ab": "Capacidad para testar",
+   "al": [
+    "testamentifacción",
+    "capacidad testamentaria",
+    "testamentary capacity",
+    "nulidad de testamento",
+    "juicio notarial de capacidad",
+    "influencia indebida",
+    "testamento in extremis"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "fen",
+   "y": 2021,
+   "tags": [
+    "forense",
+    "elderly"
+   ],
+   "desc": "El Código Civil parte de la capacidad como regla: pueden testar todos aquellos a quienes la ley no lo prohíbe expresamente (art. 662), y solo no pueden hacerlo la persona menor de catorce años y la que en el momento de testar no pueda conformar o expresar su voluntad ni aun con ayuda de medios o apoyos (art. 663, en la redacción de la Ley 8/2021). La capacidad se aprecia únicamente atendiendo al estado de la persona al tiempo de otorgar el testamento (art. 666), y el testamento hecho antes de la «enajenación mental» es válido (art. 664). En el testamento notarial abierto, el notario debe asegurarse de que, a su juicio, quien testa tiene la capacidad legal necesaria y hacerlo constar (arts. 685 y 696). La psiquiatría interviene sobre todo después del fallecimiento, en pleitos de nulidad, mediante una pericia casi siempre retrospectiva sobre la demencia, el delirium, las ideas delirantes y la vulnerabilidad a la influencia de terceros.",
+   "feats": [
+    "Regla de capacidad y doble prohibición: personas menores de catorce años y quien no pueda conformar o expresar su voluntad ni aun con apoyos (arts. 662 y 663 del Código Civil, redacción de la Ley 8/2021); el testamento ológrafo exige, además, mayoría de edad (art. 688)",
+    "Criterio temporal estricto: solo cuenta el estado mental en el momento del otorgamiento (art. 666), y el testamento anterior a la «enajenación mental» conserva su validez (art. 664)",
+    "Juicio notarial: el notario se asegura de la capacidad y la hace constar (arts. 685 y 696); ante una persona con discapacidad debe apoyarla en su comprensión y razonamiento y facilitar los ajustes necesarios para que exprese su voluntad, deseos y preferencias (art. 665)",
+    "Salvaguardas frente a la captación: son nulas las disposiciones a favor de cuidadores titulares, administradores o empleados del centro en que la persona esté internada por razones de salud o asistencia, y a favor del propio centro; los demás cuidadores solo pueden ser favorecidos en testamento notarial abierto (art. 753 del Código Civil)",
+    "Vicios de la voluntad: es nulo el testamento otorgado con violencia, dolo o fraude (art. 673), y es indigno para suceder quien, con amenaza, fraude o violencia, obliga a testar o a cambiar el testamento (art. 756.5.º)",
+    "Delirium al final de la vida: muy prevalente en pacientes terminales, en forma hiperactiva o hipoactiva, a menudo inadvertido y mal documentado; la Task Force de la IPA propone valorar la coherencia de los deseos a lo largo del tiempo, su expresión en un intervalo lúcido y en respuesta a preguntas abiertas, y la documentación del estado mental en ese momento (Liptzin 2010; Peisah 2014)"
+   ],
+   "tx": "En la valoración contemporánea al otorgamiento (solicitada por quien testa, su familia o el notario), explorar con entrevista semiestructurada la comprensión del acto y de sus efectos, el conocimiento aproximado del propio patrimonio y de las personas con expectativas razonables, las razones de las disposiciones y la ausencia de ideas delirantes que las distorsionen, completándola con cribado cognitivo y un registro escrito fechado. En la pericia retrospectiva, reconstruir la cronología clínica en torno a la fecha del acto (historia clínica, registros de enfermería, medicación administrada, pruebas cognitivas, testimonios) y expresar el grado de certeza. Pronunciarse sobre la susceptibilidad a la influencia y no sobre si la influencia existió, que es una cuestión de hecho que decide el tribunal.",
+   "note": "Los elementos de exploración que recoge la literatura proceden del caso inglés Banks v Goodfellow (1870), propio del derecho anglosajón; el Código Civil español no enumera componentes de la capacidad para testar, por lo que su uso en España solo sirve para estructurar la exploración [fuente no localizada para su recepción por la jurisprudencia española]. La doctrina del Tribunal Supremo sobre la presunción de capacidad y sobre el valor del juicio notarial, que solo cedería ante prueba en contrario concluyente, no se ha podido contrastar en una fuente oficial en esta revisión [fuente no localizada]. Los instrumentos específicos (TCAT, TDS, TCI) carecen de validación en población española [fuente no localizada]. La ficha «Capacidad para decidir en la demencia» trata la capacidad testamentaria dentro del marco general de la demencia y la planificación anticipada; esta ficha se centra en el régimen civil del testamento y en el método pericial.",
+   "sec": [
+    {
+     "t": "Marco normativo y cambio de paradigma (Ley 8/2021)",
+     "x": "La redacción original del Código Civil (1889) declaraba incapacitado para testar a quien «habitual o accidentalmente no se hallare en su cabal juicio» (art. 663) y exigía, para el testamento del «demente» en un intervalo lúcido, que el notario designara dos facultativos que respondieran de su capacidad (art. 665); la Ley 30/1991 limitó esa exigencia a la persona incapacitada por sentencia sin pronunciamiento sobre su capacidad para testar. La Ley 8/2021 sustituyó el criterio del «cabal juicio» por uno funcional (no poder conformar o expresar la voluntad ni aun con apoyos) y suprimió el reconocimiento facultativo obligatorio: el art. 665 vigente confía al juicio del notario si la persona con discapacidad puede comprender y manifestar el alcance de sus disposiciones, y le impone apoyar su proceso de decisión. El art. 695 obliga además al notario, cuando quien testa tiene dificultad para leer u oír el testamento, a asegurarse con medios técnicos, materiales o humanos de que ha entendido la información y de que el texto recoge fielmente su voluntad. El testamento en peligro inminente de muerte puede otorgarse ante cinco testigos sin notario (art. 700), que deben conocer a quien testa y procurar asegurarse de su capacidad (art. 685).",
+     "links": [
+      {
+       "ids": [
+        "capacidad_jur"
+       ],
+       "t": "Ley 8/2021 y medidas de apoyo"
+      },
+      {
+       "ids": [
+        "crpd"
+       ],
+       "t": "CRPD, art. 12"
+      },
+      {
+       "ids": [
+        "cap_dem"
+       ],
+       "t": "Capacidad en la demencia"
+      }
+     ]
+    },
+    {
+     "t": "Pericia retrospectiva: método y fuentes",
+     "x": "Una revisión elaborada por psiquiatras con experiencia pericial y abogados de litigios sucesorios propone que el perito describa la naturaleza y la gravedad de los trastornos médicos, psiquiátricos y cognitivos relevantes y explique cómo pudieron afectar a cada componente de la capacidad, actuando de forma objetiva y no partidista; sobre la influencia indebida, debe opinar solo acerca de la vulnerabilidad y dejar al tribunal la determinación de los hechos (Shulman 2021). Las fuentes habituales son la historia clínica de los meses previos y posteriores al acto, los registros de enfermería y de medicación, las pruebas cognitivas fechadas, los informes sociales, el propio testamento y los anteriores (coherencia o ruptura con la trayectoria vital) y los testimonios de notario, testigos y personal asistencial. Una revisión sistemática reciente encontró tres instrumentos específicos con buenas propiedades psicométricas (TDS, TCAT y TCI), aunque el TDS solo explora parte de la capacidad y el TCI está pensado para investigación; concluye que el juicio clínico sigue siendo el patrón de referencia (Aravind 2024). Otra revisión sistemática solo halló 12 artículos con un enfoque médico-legal integral y subraya la imprevisibilidad de estos litigios (Jakubek 2025).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Método pericial"
+      },
+      {
+       "ids": [
+        "mmse_moca",
+        "neuropsico"
+       ],
+       "t": "Evaluación cognitiva"
+      }
+     ]
+    },
+    {
+     "t": "Demencia, delirium, ideas delirantes y sugestionabilidad",
+     "x": "El diagnóstico de demencia no equivale a incapacidad: interesa la gravedad en la fecha del acto, el perfil cognitivo (memoria, juicio, funciones ejecutivas, lenguaje) y la complejidad del testamento y del patrimonio. En la demencia frontotemporal, la anosognosia y la desinhibición pueden coexistir con un rendimiento aceptable en el cribado, lo que obliga a valorar la conducta y el juicio social [fuente no localizada]. En los testamentos otorgados en el lecho de muerte, el delirium es muy prevalente, puede ser hiperactivo o hipoactivo y con frecuencia pasa inadvertido y se documenta mal; la pregunta última es si la persona podía otorgar ese testamento concreto teniendo en cuenta su complejidad y sus circunstancias (Peisah 2014). Una idea delirante solo afecta a la capacidad si recae sobre las disposiciones, por ejemplo un delirio de perjuicio o de celos que motiva desheredar a familiares [fuente no localizada]. Sobre la influencia indebida, el perito debe centrarse en la susceptibilidad de quien testa, considerando la función cognitiva, los síntomas psiquiátricos y el funcionamiento físico y conductual a partir de la documentación médica, la exploración y la historia (Herrmann 2022); el aislamiento y la dependencia respecto de quien resulta favorecido se señalan como circunstancias de riesgo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ftd"
+       ],
+       "t": "Demencias"
+      },
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "Delirium"
+      },
+      {
+       "ids": [
+        "tdelirant",
+        "delirio"
+       ],
+       "t": "Ideas delirantes"
+      },
+      {
+       "ids": [
+        "anosog"
+       ],
+       "t": "Anosognosia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil (1889), arts. 662-666, 673, 685, 688, 695-697, 700, 753 y 756 en la redacción vigente y versiones históricas de los arts. 663 y 665 (texto consolidado, BOE-A-1889-4763)",
+    "Ley 8/2021, de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica (2021). BOE núm. 132, 03-06-2021, BOE-A-2021-9233, art. 2.27-2.30 y 2.35-2.36",
+    "Shulman K et al. (2021). The role of the medical expert in the retrospective assessment of testamentary capacity. Can J Psychiatry 66:255-261 · PMID 32233933",
+    "Aravind H, Taylor M & Gill N (2024). Evaluation of testamentary capacity: a systematic review. Int J Law Psychiatry 93:101969 · PMID 38422563",
+    "Jakubek A et al. (2025). The medico-legal approach to the assessment of testamentary capacity: a systematic review. Am J Geriatr Psychiatry 33:546-555 · PMID 39690101",
+    "Liptzin B et al. (2010). Testamentary capacity and delirium. Int Psychogeriatr 22:950-956 · PMID 20594383",
+    "Peisah C et al. (2014). Deathbed wills: assessing testamentary capacity in the dying patient. Int Psychogeriatr 26:209-216 · PMID 24182357",
+    "Sousa LB et al. (2014). Financial and testamentary capacity evaluations: procedures and assessment instruments underneath a functional approach. Int Psychogeriatr 26:217-228 · PMID 24229806",
+    "Shulman KI et al. (2007). Assessment of testamentary capacity and vulnerability to undue influence. Am J Psychiatry 164:722-727 · PMID 17475729",
+    "Herrmann N et al. (2022). Susceptibility to undue influence: the role of the medical expert in estate litigation. Can J Psychiatry 67:5-12 · PMID 34058843"
+   ],
+   "rel": [
+    "cap_dem",
+    "capacidad_jur",
+    "perit_forense",
+    "crpd",
+    "dem",
+    "ftd",
+    "delirium",
+    "cam",
+    "mmse_moca",
+    "neuropsico",
+    "tdelirant",
+    "anosog",
+    "informe_pericial"
+   ]
+  },
+  {
+   "id": "pericial_familia",
+   "n": "Pericial psicológica y psiquiátrica en derecho de familia: custodia, visitas y el llamado «síndrome de alienación parental»",
+   "ab": "Pericial de familia",
+   "al": [
+    "evaluación de custodia",
+    "child custody evaluation",
+    "pericia de guarda y custodia",
+    "régimen de visitas",
+    "síndrome de alienación parental",
+    "SAP",
+    "alienación parental",
+    "equipo técnico judicial"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "fen",
+   "y": 2021,
+   "tags": [
+    "forense",
+    "child",
+    "lgtbi"
+   ],
+   "desc": "En los procesos de separación, divorcio y medidas paternofiliales, el juez puede recabar, de oficio o a instancia de parte, del Fiscal, del Equipo Técnico Judicial o del propio menor, dictamen de especialistas debidamente cualificados sobre la idoneidad del modo de ejercicio de la patria potestad y del régimen de custodia (art. 92.9 del Código Civil). La pericia psicológica o psiquiátrica no decide la custodia: describe las necesidades del niño, niña o adolescente, las capacidades de crianza de cada progenitor, la calidad de los vínculos y los riesgos, al servicio del interés superior del menor, que la LO 1/1996 define con criterios explícitos (art. 2). La LO 8/2021 obliga a los poderes públicos a impedir que planteamientos sin aval científico que presuman interferencia o manipulación adulta, como el llamado síndrome de alienación parental, sean tomados en consideración (art. 11.3). La orientación sexual o la identidad de género de un progenitor no son por sí mismas un indicador de capacidad parental.",
+   "feats": [
+    "Interés superior del menor con criterios legales: necesidades básicas materiales y afectivas, consideración de sus deseos y opiniones según su madurez, entorno familiar adecuado y libre de violencia, y preservación de su identidad, incluida la orientación e identidad sexual (art. 2.2 de la LO 1/1996)",
+    "Derecho a ser oído: el menor es escuchado sin discriminación por edad; se presume suficiente madurez a los doce años cumplidos, y la madurez se valora por personal especializado (art. 9 de la LO 1/1996; arts. 92.6 y 159 del Código Civil)",
+    "Exclusión por violencia: no procede la guarda conjunta ni el régimen de visitas respecto del progenitor incurso en un proceso penal por atentar contra el otro progenitor o los hijos, ni cuando el juez advierta indicios fundados de violencia doméstica o de género, salvo, para las visitas, resolución motivada en el interés del menor (arts. 92.7 y 94 del Código Civil)",
+    "Rechazo normativo del «síndrome de alienación parental»: la LO 8/2021 manda impedir que se tomen en consideración planteamientos sin aval científico que presuman manipulación adulta (art. 11.3); la CIE-11 no recoge la alienación parental como entidad, y solo codifica problemas relacionales como el problema de relación entre cuidador y niño (QE52.0)",
+    "Validez de los autoinformes: en 400 progenitores litigantes evaluados con el MMPI-2-RF, cerca del 44 % de los perfiles mostró posible infradeclaración defensiva y no fue interpretable, lo que exige normas forenses específicas y fuentes múltiples (Mazza 2019)",
+    "Diversidad familiar: más de 30 años de investigación muestran que el bienestar de hijos e hijas de padres gais y madres lesbianas depende de la relación con sus progenitores, de su seguridad y de los apoyos sociales y económicos, no de su orientación sexual (Perrin 2013)"
+   ],
+   "tx": "Delimitar por escrito el objeto de la pericia y las preguntas del juzgado; evaluar a ambos progenitores y al menor con el mismo método y un tiempo comparable; usar fuentes múltiples (entrevistas, observación de la interacción con cada progenitor, informes escolares, sanitarios y de servicios sociales, información de terceros) e instrumentos con escalas de validez interpretados con normas forenses; entrevistar a los niños y niñas con protocolos estructurados que eviten preguntas sugestivas; investigar activamente la violencia y el maltrato antes de interpretar el rechazo del menor a un progenitor; separar estrictamente el papel terapéutico del pericial y formular recomendaciones solo sobre lo preguntado, con sus limitaciones.",
+   "note": "La literatura sobre «alienación parental» indexada en PubMed está dominada por autores partidarios del constructo (p. ej., Harman 2022 sostiene que constituye un campo científico en maduración), frente a críticas que subrayan la ausencia de criterios validados, su uso para desacreditar denuncias de violencia o abuso y su sesgo de género (Houchin 2012; Pignotti 2013; Death 2019); en España la cuestión está zanjada en el plano normativo por la LO 8/2021, sin que ello impida describir conductas concretas de obstaculización de la relación, que deben probarse caso a caso. El DSM-5-TR no incluye la alienación parental como trastorno [fuente no localizada para su redacción literal]. La doctrina del Tribunal Supremo sobre la custodia compartida como régimen deseable no se ha contrastado en fuente oficial en esta revisión [fuente no localizada]. Los aspectos del testimonio infantil en el abuso sexual se tratan en su propia ficha.",
+   "sec": [
+    {
+     "t": "Marco normativo",
+     "x": "El art. 92 del Código Civil, reformado por la LO 8/2021, exige que el juez vele por el derecho del menor a ser oído y motive su resolución en el interés superior del menor (92.2); antes de acordar el régimen de guarda debe recabar informe del Ministerio Fiscal, oír a los menores con suficiente juicio cuando se estime necesario y valorar las alegaciones, la prueba y la relación de los progenitores entre sí y con sus hijos (92.6); la guarda compartida procede cuando la solicitan ambos o, excepcionalmente, a instancia de una parte con informe del Fiscal si solo así se protege el interés superior del menor (92.5 y 92.8), y el dictamen de especialistas puede recabarse de oficio o a instancia de parte (92.9). El art. 94 permite limitar o suspender las visitas ante circunstancias relevantes o incumplimientos graves y las excluye ante procesos penales o indicios fundados de violencia, salvo resolución motivada. Estos procesos se tramitan por juicio verbal con reglas especiales (art. 770 LEC) y el tribunal puede acordar de oficio las pruebas que estime pertinentes (art. 752 LEC). La LO 8/2021 garantiza que niños, niñas y adolescentes sean oídos sin límite de edad en los procedimientos sobre violencia (art. 11.1) y que la obtención de su testimonio se haga con profesionales y metodologías especializadas (art. 11.2).",
+     "links": [
+      {
+       "ids": [
+        "violencia_genero"
+       ],
+       "t": "Violencia de género"
+      },
+      {
+       "ids": [
+        "abuso_sexual_inf"
+       ],
+       "t": "Abuso sexual infantil y testimonio"
+      }
+     ]
+    },
+    {
+     "t": "Método de la evaluación",
+     "x": "Una pericia de custodia útil responde a preguntas concretas (capacidades de crianza, necesidades específicas del menor, riesgos, viabilidad de cada régimen) y no a una comparación global de personalidades. El diagnóstico psiquiátrico de un progenitor solo es relevante por su repercusión funcional sobre la crianza y por su tratamiento, nunca como etiqueta. Los autoinformes de personalidad tienen un valor limitado en este contexto: en litigantes por la custodia, las escalas de infradeclaración del MMPI-2-RF estaban elevadas y casi la mitad de los protocolos se consideró no interpretable (Mazza 2019). La entrevista al menor exige técnicas no sugestivas; los estudios controlados muestran que el protocolo estructurado del NICHD mejora de forma fiable la calidad y la información de las entrevistas investigativas a niños y niñas (Lamb 2007). En la observación de la interacción, el apego y la mentalización ofrecen un marco para describir la sensibilidad parental, aunque los instrumentos de apego no se diseñaron para decidir custodias [fuente no localizada]. Las familias LGTBIQ, las de progenitores trans y las de menores trans o con expresión de género diversa deben evaluarse sin presupuestos patologizantes, de acuerdo con el criterio de preservar la orientación e identidad sexual del menor (art. 2.2.d LO 1/1996).",
+     "links": [
+      {
+       "ids": [
+        "mmpi",
+        "pai_inv"
+       ],
+       "t": "Inventarios de personalidad"
+      },
+      {
+       "ids": [
+        "apego",
+        "rad"
+       ],
+       "t": "Apego"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm"
+       ],
+       "t": "Diversidad sexual y de género"
+      }
+     ]
+    },
+    {
+     "t": "El llamado «síndrome de alienación parental»: rechazo científico y normativo",
+     "x": "El constructo, propuesto por Gardner (Namysłowska 2009), atribuye el rechazo de un hijo o hija hacia un progenitor a la manipulación del otro y, envuelto en controversia desde su origen en 1985, llegó a considerarse como «trastorno por alienación parental» para el DSM-5; psiquiatras forenses argumentaron que su inclusión sería un error grave y que el debate pertenece a los tribunales, no a la nosología (Houchin 2012). Las críticas señalan la falta de datos basados en la evidencia y de estudios controlados, su ausencia de los sistemas diagnósticos y su uso para invertir la carga frente a denuncias de violencia o abuso sexual (Pignotti 2013). En 357 sentencias del Tribunal de Familia de Australia (2010-2015) con alegaciones de abuso sexual infantil, el concepto seguía empleándose para rebatirlas, junto con temas como el «aleccionamiento», la madre manipuladora y la madre con enfermedad mental (Death 2019). En España, el art. 11.3 de la LO 8/2021 obliga a impedir que estos planteamientos se tomen en consideración. El rechazo de un menor hacia un progenitor tiene causas múltiples (violencia vivida o presenciada, estilos de crianza, conflicto de lealtades, etapa evolutiva) que deben explorarse una a una; el informe describe conductas observables y su contexto, no un síndrome.",
+     "links": [
+      {
+       "ids": [
+        "violencia_genero",
+        "abuso_sexual_inf"
+       ],
+       "t": "Violencia y abuso en la infancia"
+      },
+      {
+       "ids": [
+        "falsa_memoria"
+       ],
+       "t": "Sugestión y falsos recuerdos"
+      }
+     ]
+    },
+    {
+     "t": "Sesgos de la evaluación",
+     "x": "Los sesgos cognitivos del perito no son un problema ético de «manzanas podridas»: afectan también a especialistas imparciales y la mera fuerza de voluntad no los neutraliza; proceden de los datos y de la información contextual del caso, de la experiencia y la formación de cada evaluador y de la propia arquitectura cognitiva humana (Dror 2020). En la pericia de familia se suman el sesgo de alianza con la parte que propone al perito, demostrado experimentalmente en otros ámbitos forenses (Murrie 2013), la primera impresión, los estereotipos de género sobre la maternidad y la paternidad y los prejuicios sobre familias diversas. En Estados Unidos, una revisión de 364 instrumentos usados por psicólogos en contextos legales encontró que solo alrededor del 40 % tenía revisiones favorables de sus propiedades psicométricas y que su admisión se impugnaba en apenas el 5,1 % de los casos (Neal 2019). Medidas razonables son la formulación explícita de hipótesis alternativas, la recogida de información de ambas partes con el mismo método, la exposición secuencial a la información y la revisión por pares.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Sesgo de alianza y método pericial"
+      },
+      {
+       "ids": [
+        "informe_pericial"
+       ],
+       "t": "Informe pericial"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil (1889), arts. 92, 94 y 159 (texto consolidado, BOE-A-1889-4763)",
+    "Ley Orgánica 8/2021, de 4 de junio, de protección integral a la infancia y la adolescencia frente a la violencia (2021). BOE núm. 134, 05-06-2021, BOE-A-2021-9347, art. 11 y disposición final segunda",
+    "Ley Orgánica 1/1996, de 15 de enero, de Protección Jurídica del Menor (1996), arts. 2 y 9 (texto consolidado, BOE-A-1996-1069)",
+    "Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil (2000), arts. 752 y 770 (texto consolidado, BOE-A-2000-323)",
+    "Houchin TM et al. (2012). The parental alienation debate belongs in the courtroom, not in DSM-5. J Am Acad Psychiatry Law 40:127-131 · PMID 22396350",
+    "Pignotti MS (2013). [Parental alienation syndrome (PAS): unknown in medical settings, endemic in courts] (en italiano). Recenti Prog Med 104:54-58 · PMID 23535957",
+    "Death J, Ferguson C & Burgess K (2019). Parental alienation, coaching and the best interests of the child: allegations of child sexual abuse in the Family Court of Australia. Child Abuse Negl 94:104045 · PMID 31212247",
+    "Harman JJ et al. (2022). Developmental psychology and the scientific status of parental alienation. Dev Psychol 58:1887-1911 · PMID 35653764",
+    "Mazza C et al. (2019). MMPI-2-RF profiles in child custody litigants. Front Psychiatry 10:725 · PMID 31681037",
+    "Lamb ME et al. (2007). A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: a review of research using the NICHD Investigative Interview Protocol. Child Abuse Negl 31:1201-1231 · PMID 18023872",
+    "Perrin EC, Siegel BS & Committee on Psychosocial Aspects of Child and Family Health (2013). Promoting the well-being of children whose parents are gay or lesbian. Pediatrics 131:e1374-e1383 · PMID 23519940",
+    "Dror IE (2020). Cognitive and human factors in expert decision making: six fallacies and the eight sources of bias. Anal Chem 92:7998-8004 · PMID 32508089",
+    "Neal TMS et al. (2019). Psychological assessments in legal contexts: are courts keeping «junk science» out of the courtroom? Psychol Sci Public Interest 20:135-164 · PMID 32065036",
+    "Murrie DC et al. (2013). Are forensic experts biased by the side that retained them? Psychol Sci 24:1889-1897 · PMID 23969777",
+    "Organización Mundial de la Salud (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS), versión 2025-01: QE52.0 Problema de relación entre cuidador y niño. Ginebra: OMS",
+    "Namysłowska I, Heitzman J & Siewierska A (2009). [Gardner syndrome - parent alienation syndrome (PAS). Diagnosis or family reality?] (en polaco). Psychiatr Pol 43:5-17 · PMID 19694396"
+   ],
+   "rel": [
+    "violencia_genero",
+    "abuso_sexual_inf",
+    "ter_fam_inf",
+    "apego",
+    "rad",
+    "mmpi",
+    "pai_inv",
+    "falsa_memoria",
+    "perit_forense",
+    "genero",
+    "lgb_afirm",
+    "secreto_prof",
+    "informe_pericial"
+   ]
+  },
+  {
+   "id": "informe_pericial",
+   "n": "El informe pericial psiquiátrico: estructura, deberes del perito, ratificación y contradicción (LEC y LECrim)",
+   "ab": "Informe pericial",
+   "al": [
+    "dictamen pericial",
+    "dictamen de peritos",
+    "informe médico-legal",
+    "ratificación pericial",
+    "tacha de peritos",
+    "recusación de peritos",
+    "prueba pericial"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "fen",
+   "y": 2000,
+   "tags": [
+    "forense"
+   ],
+   "desc": "El informe pericial es el documento con el que quien posee conocimientos científicos aporta al proceso la valoración de hechos o circunstancias relevantes (art. 335 LEC; art. 456 LECrim). En psiquiatría responde a una pregunta jurídica concreta (imputabilidad, capacidad, daño, riesgo, custodia) y se organiza en bloques reconocibles: identificación y objeto, fuentes y metodología, antecedentes, exploración y pruebas, consideraciones médico-legales y conclusiones. Su eficacia depende tanto del contenido técnico como del cumplimiento de los deberes procesales: título oficial y pericia acreditada, juramento o promesa de objetividad, aportación en plazo, sometimiento a tachas o recusación y comparecencia para ratificar, explicar y defender el dictamen en el juicio, donde se somete a contradicción. El tribunal lo valora según las reglas de la sana crítica (art. 348 LEC).",
+   "feats": [
+    "Proceso civil: los dictámenes de parte se aportan con la demanda o la contestación o, si no es posible, se anuncian y se aportan al menos cinco días antes de la audiencia previa (o en treinta días en el juicio verbal), indicando si se desea que el perito comparezca (arts. 336 y 337 LEC)",
+    "Condiciones del perito: título oficial correspondiente a la materia y condición de experto acreditado; también pueden dictaminar academias e instituciones científicas, que designan a las personas responsables (art. 340 LEC)",
+    "Imparcialidad controlable: el perito de parte no puede ser recusado, pero sí tachado por parentesco, interés, dependencia, amistad íntima o enemistad u otra circunstancia que lo haga desmerecer profesionalmente (arts. 124 y 343 LEC); el designado judicialmente puede ser recusado, entre otras causas, por haber dictaminado antes en contra de la parte recusante (art. 124.3 LEC)",
+    "Proceso penal: preferencia por peritos titulares (arts. 457-458 LECrim), obligación de acudir al llamamiento judicial (art. 462), juramento de proceder bien y fielmente con el único fin de descubrir y declarar la verdad (art. 474) y objeto del informe fijado clara y determinadamente por el juez (art. 475); en el procedimiento abreviado basta un solo perito (art. 788.3 LECrim)",
+    "Responsabilidad penal: el perito que falta a la verdad maliciosamente sufre las penas del falso testimonio en su mitad superior e inhabilitación especial (art. 459 CP), y quien, sin faltar sustancialmente a la verdad, la altera con reticencias, inexactitudes o silenciando hechos o datos relevantes que conoce incurre en multa y, en su caso, suspensión profesional (art. 460 CP)",
+    "Contradicción en juicio: las partes pueden pedir la exposición completa del dictamen, su explicación, respuestas a preguntas y objeciones sobre método, premisas y conclusiones, su ampliación a puntos conexos y la crítica por el perito contrario (art. 347 LEC); en el juicio oral penal, los peritos sobre unos mismos hechos declaran juntos y contestan a preguntas y repreguntas (art. 724 LECrim)"
+   ],
+   "tx": "Antes de aceptar: comprobar la competencia en la materia, la ausencia de causas de tacha o recusación y de relación terapéutica previa con la persona evaluada, y fijar por escrito el objeto. Durante la evaluación: informar a la persona de la finalidad pericial y de la falta de confidencialidad frente al órgano judicial, documentar todas las fuentes y las operaciones practicadas y aplicar instrumentos adecuados a la pregunta y a la población. Al redactar: separar hechos, datos observados, inferencias y opiniones; discutir hipótesis alternativas; contestar solo a lo preguntado, en lenguaje comprensible para personas no clínicas, y expresar el grado de certeza y las limitaciones. En juicio: ratificar, explicar y defender el método sin adoptar el papel de parte.",
+   "note": "Ninguna norma española fija un modelo obligatorio de informe pericial psiquiátrico; la estructura propuesta combina el contenido mínimo del art. 478 LECrim con usos profesionales y guías como la de la AAPL (Glancy 2015), cuyo contenido detallado no se ha contrastado en esta revisión [no verificada en su texto completo]. La expresión de la certeza (por ejemplo, «con un grado razonable de certeza médica») carece de definición legal en España [fuente no localizada]. La ficha «Pericia psiquiátrica: método y valoración del daño psíquico» trata el método general, la fiabilidad entre peritos y el sesgo de alianza; esta ficha se centra en la estructura del documento y en el régimen procesal del perito.",
+   "sec": [
+    {
+     "t": "Estructura del informe",
+     "x": "1) Identificación del perito (titulación, especialidad, experiencia relevante), de quien encarga el informe y de la persona evaluada; declaración de objetividad del art. 335.2 LEC en el proceso civil. 2) Objeto: transcripción literal de las preguntas del juzgado o de la parte. 3) Fuentes y metodología: entrevistas (fechas, duración, lugar, presencia de terceros o de intérprete), documentación clínica y judicial examinada, informantes, pruebas aplicadas y razones de su elección; el art. 478 LECrim exige describir la persona en el estado en que se halle y relacionar todas las operaciones practicadas y su resultado. 4) Antecedentes personales, familiares, toxicológicos y psiquiátricos, con indicación de la fuente de cada dato. 5) Exploración psicopatológica y resultados de las pruebas, con sus escalas de validez. 6) Consideraciones médico-legales: diagnóstico según DSM-5-TR o CIE-11 y, sobre todo, relación entre el estado mental y la cuestión jurídica (por ejemplo, la capacidad de comprender la ilicitud o de actuar conforme a esa comprensión, o la capacidad de conformar la voluntad), discutiendo hipótesis alternativas y la posible simulación. 7) Conclusiones numeradas que respondan a cada pregunta, conforme a los principios de la ciencia (art. 478.3.º LECrim), con el grado de certeza y las limitaciones. 8) Fecha y firma, y anexos.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Método pericial"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Simulación"
+      },
+      {
+       "ids": [
+        "imputabilidad"
+       ],
+       "t": "Imputabilidad"
+      }
+     ]
+    },
+    {
+     "t": "Deberes del perito y garantías procesales",
+     "x": "El perito designado por el tribunal emite su dictamen por escrito y por medios electrónicos en el plazo señalado; el letrado de la Administración de Justicia lo traslada a las partes por si consideran necesaria su intervención en el juicio, que el tribunal también puede acordar, preferentemente por videoconferencia si reside fuera de la demarcación (art. 346 LEC). Cuando el dictamen requiere reconocer a personas, las partes y sus defensores pueden presenciarlo si no se estorba la labor del perito y se garantiza su acierto e imparcialidad (art. 345 LEC). En el sumario penal, todo reconocimiento pericial se hace por dos peritos salvo imposibilidad (art. 459 LECrim); si el reconocimiento no puede reproducirse en el juicio oral, cabe la recusación por parentesco, interés o amistad íntima o enemistad manifiesta (arts. 467-468), y querellante y procesado pueden nombrar a su costa un perito que intervenga en el acto (art. 471). No pueden informar quienes estén dispensados de declarar como testigos por su relación con la persona investigada, bajo multa si lo ocultan (art. 464 LECrim). El juez puede formular a los peritos preguntas y pedir aclaraciones, cuyas respuestas forman parte del informe (art. 483 LECrim).",
+     "links": [
+      {
+       "ids": [
+        "secreto_prof"
+       ],
+       "t": "Secreto y confidencialidad"
+      }
+     ]
+    },
+    {
+     "t": "Ratificación, contradicción y valoración judicial",
+     "x": "El informe escrito no basta: en el juicio el perito se somete a contradicción. En el proceso civil, el tribunal solo deniega las intervenciones solicitadas que sean impertinentes o inútiles, y puede preguntar y pedir explicaciones, aunque no acordar de oficio la ampliación salvo en los peritos designados de oficio (art. 347 LEC); las tachas se formulan en la audiencia previa o, en el juicio verbal, como tarde en la vista, y se valoran junto con la prueba (arts. 343-344 LEC). En el juicio oral penal, la recusación se sustancia antes de abrir las sesiones (art. 723 LECrim) y, si para contestar fuera necesario un nuevo reconocimiento, se practica en el acto o se suspende la sesión (art. 725). La valoración conforme a la sana crítica no garantiza por sí sola el control de calidad científica: en Estados Unidos, solo alrededor del 40 % de 364 instrumentos psicológicos usados en litigios tenía revisiones psicométricas favorables, la admisión se impugnó en el 5,1 % de los casos y las impugnaciones prosperaron en torno a un tercio de las veces (Neal 2019). Los sesgos cognitivos afectan a expertos competentes e imparciales y se mitigan con procedimientos, no con declaraciones de objetividad (Dror 2020).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "Fiabilidad y sesgo de alianza"
+      },
+      {
+       "ids": [
+        "mmpi",
+        "pai_inv",
+        "wais"
+       ],
+       "t": "Instrumentos psicométricos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil (2000), arts. 124, 335-340, 343-348 (texto consolidado, BOE-A-2000-323; redacción de los arts. 337 y 346 vigente desde el 20-03-2024 y del art. 340 desde el 03-04-2025)",
+    "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (1882), arts. 456-460, 462-465, 467-468, 471, 474-478, 483, 723-725 y 788.3 (texto consolidado, BOE-A-1882-6036)",
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995), arts. 459 y 460 (texto consolidado, BOE-A-1995-25444)",
+    "Glancy GD et al. (2015). AAPL practice guideline for the forensic assessment. J Am Acad Psychiatry Law 43(2 Suppl):S3-S53 · PMID 26054704",
+    "Neal TMS et al. (2019). Psychological assessments in legal contexts: are courts keeping «junk science» out of the courtroom? Psychol Sci Public Interest 20:135-164 · PMID 32065036",
+    "Dror IE (2020). Cognitive and human factors in expert decision making: six fallacies and the eight sources of bias. Anal Chem 92:7998-8004 · PMID 32508089"
+   ],
+   "rel": [
+    "perit_forense",
+    "imputabilidad",
+    "capacidad_jur",
+    "dano_psiquico",
+    "simulacion",
+    "sims_tomm",
+    "secreto_prof",
+    "mmpi",
+    "pai_inv",
+    "wais",
+    "incapacidad_lab",
+    "peligrosidad",
+    "internamiento"
+   ]
+  },
+  {
+   "id": "pericial_chemsex",
+   "n": "Valoración pericial de hechos cometidos o sufridos en contexto de chemsex: intoxicación, imputabilidad, consentimiento y daño",
+   "ab": "Pericial y chemsex",
+   "al": [
+    "chemsex y derecho penal",
+    "peritaje en chemsex",
+    "intoxicación plena",
+    "eximente por intoxicación",
+    "sumisión química en chemsex",
+    "muerte en sesión de chemsex"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "leg",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2022,
+   "tags": [
+    "forense",
+    "chemsex",
+    "lgtbi"
+   ],
+   "desc": "Las sesiones de chemsex reúnen consumo combinado y prolongado de metanfetamina, catinonas, GHB/GBL y ketamina, varios participantes, privación de sueño y espacios privados, y generan preguntas periciales en dos direcciones: la responsabilidad penal de quien comete un hecho intoxicado o con un trastorno inducido (art. 20.1.º y 2.º y art. 21 del Código Penal) y la situación de quien lo sufre, sobre todo agresiones sexuales con la voluntad anulada o la conciencia abolida (arts. 178 y 180.1.7.ª), muertes por intoxicación en las que se discute la omisión de socorro (art. 195) o la imprudencia (art. 142), y la valoración del daño psíquico. La pericia psiquiátrica integra la toxicología, la farmacología de cada sustancia y sus interacciones, la cronología del consumo y de la conducta y la psicopatología previa, sin moralizar el consumo ni la sexualidad de hombres gais, bisexuales y otros hombres que tienen sexo con hombres ni de personas trans, y sin confundir la vulnerabilidad de la víctima con su responsabilidad.",
+   "feats": [
+    "Eximente por intoxicación plena: exime quien, al tiempo de la infracción, se halle en intoxicación plena por drogas u otras sustancias de efectos análogos, siempre que no la haya buscado para delinquir ni haya previsto o debido prever la comisión del delito, o bajo un síndrome de abstinencia que le impida comprender la ilicitud o actuar conforme a esa comprensión (art. 20.2.º CP)",
+    "Gradación: eximente incompleta cuando faltan requisitos, con pena inferior en uno o dos grados (arts. 21.1.ª y 68 CP), atenuante de grave adicción (art. 21.2.ª) y analógica (art. 21.7.ª); en la eximente completa del art. 20.2.º cabe el internamiento en centro de deshabituación, que no puede exceder de la duración de la pena (art. 102 CP), y en la incompleta, medidas junto a la pena (art. 104 CP)",
+    "Metanfetamina y violencia: en 278 personas con dependencia seguidas prospectivamente, la conducta violenta aumentó de forma dosis-dependiente en los periodos de consumo (OR 2,8 con 1-15 días y 9,5 con 16 o más días al mes), en gran parte con independencia de los síntomas psicóticos, que explicaban el 22-30 % del riesgo (McKetin 2014)",
+    "Ventanas toxicológicas cortas: el GHB y sus precursores (GBL, 1,4-butanodiol) se transforman rápidamente y su detección exige muestras precoces y una conservación preanalítica cuidadosa; la revisión de referencia sitúa las ventanas de detección en torno a 6 horas en sangre y 10 horas en orina (Dufayet 2023)",
+    "Sumisión química proactiva en chemsex: en 49 adultos atendidos en París en las 10 horas siguientes a una presunta agresión facilitada por drogas, seis tenían GHB en orina sin haber referido consumo voluntario; la agresión proactiva fue probable en 11 casos y la oportunista en 17, a menudo en contexto de chemsex (Dubois 2026)",
+    "Muertes en sesiones: en 21 muertes relacionadas con chemsex en el Reino Unido (2017-2022), las sustancias más detectadas fueron metanfetamina (16 casos) y GHB (14), combinadas en 11; el policonsumo fue la norma y la asfixia o los inhalantes volátiles pudieron contribuir (Tyler 2025)"
+   ],
+   "tx": "Recoger muestras lo antes posible y con cadena de custodia; reconstruir minuto a minuto la cronología del consumo (sustancias, vía, redosificaciones, combinación con alcohol o fármacos), de la conducta y de los mensajes o registros digitales disponibles; explorar la psicopatología previa y posterior (trastorno por consumo, psicosis inducida, trastornos del estado de ánimo, TDAH, trauma) y la estabilidad del relato; valorar por separado la capacidad de comprender la ilicitud y la de actuar conforme a esa comprensión en el momento del hecho; en la víctima, describir el estado de conciencia y la capacidad para consentir según la farmacología y los hallazgos, evaluar las secuelas con instrumentos validados y no inferir consentimiento del consumo voluntario. Derivar a recursos especializados de chemsex y salud sexual cuando proceda, separando la intervención asistencial de la pericial.",
+   "note": "La traducción de concentraciones a grados de intoxicación es muy imprecisa por la tolerancia, el policonsumo y la redistribución post mortem, y no existen umbrales de «intoxicación plena» para drogas distintas del alcohol [fuente no localizada]. La jurisprudencia del Tribunal Supremo sobre la exigencia de que la intoxicación anule o reduzca gravemente las facultades, sobre la actio libera in causa y sobre el consumo compartido entre personas consumidoras no se ha contrastado en una fuente oficial en esta revisión [fuente no localizada]. La amnesia referida por quien cometió el hecho no prueba por sí sola la intoxicación plena; los apagones alcohólicos son frecuentes (cerca de la mitad de quienes beben los refieren) y dependen de diferencias individuales, no solo de la cantidad consumida (Wetherill 2016), y su equivalente en el consumo de GHB y otras drogas está peor estudiado [fuente no localizada]. Las series citadas proceden del Reino Unido y Francia; no se han localizado series forenses españolas específicas de chemsex [fuente no localizada]. Los aspectos generales de la sumisión química y del consentimiento se tratan en su propia ficha.",
+   "sec": [
+    {
+     "t": "Quien comete el hecho: intoxicación, trastorno inducido e imputabilidad",
+     "x": "La pregunta pericial no es si la persona había consumido, sino si en el momento del hecho la intoxicación o el trastorno inducido le impedían comprender la ilicitud o actuar conforme a esa comprensión, y en qué grado. Conviene distinguir: la intoxicación aguda (art. 20.2.º CP), con su cláusula de exclusión cuando el estado se buscó para delinquir o se previó o debió prever el delito; el síndrome de abstinencia, que el mismo precepto equipara si impide comprender o autocontrolarse; la psicosis inducida por metanfetamina o catinonas que persiste tras la intoxicación, cuya valoración se aproxima a la anomalía o alteración psíquica del art. 20.1.º [fuente no localizada para la calificación jurisprudencial]; y la grave adicción como móvil del delito (art. 21.2.ª). El estudio prospectivo de McKetin mostró que el riesgo de violencia ligado a la metanfetamina es dosis-dependiente y en buena parte independiente de los síntomas psicóticos, y que el consumo intenso de alcohol lo incrementa (OR 3,1), lo que obliga a valorar la combinación de sustancias y no solo la presencia de psicosis (McKetin 2014). El GHB, depresor del sistema nervioso central, produce con mayor probabilidad sedación y pérdida de conciencia que conductas complejas dirigidas, mientras que los estimulantes mantienen la vigilia con alteración del juicio y de la impulsividad [fuente no localizada para la traducción a capacidades concretas].",
+     "links": [
+      {
+       "ids": [
+        "imputabilidad"
+       ],
+       "t": "Eximentes y atenuantes"
+      },
+      {
+       "ids": [
+        "metanf",
+        "anfetaminas",
+        "psust"
+       ],
+       "t": "Metanfetamina y psicosis inducida"
+      },
+      {
+       "ids": [
+        "mefed",
+        "catinonas_nuevas"
+       ],
+       "t": "Catinonas"
+      },
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      },
+      {
+       "ids": [
+        "peligrosidad"
+       ],
+       "t": "Medidas de seguridad"
+      }
+     ]
+    },
+    {
+     "t": "Quien sufre el hecho: consentimiento, sumisión química y muertes",
+     "x": "El art. 178 CP considera agresión sexual en todo caso los actos realizados sobre personas privadas de sentido, abusando de su situación mental o con la voluntad anulada por cualquier causa, y el art. 180.1.7.ª agrava los hechos cuando el autor anula la voluntad de la víctima suministrándole fármacos o drogas. La pericia describe el estado de conciencia probable en el momento del hecho a partir de la farmacología de cada sustancia, los síntomas referidos (sedación desproporcionada, lagunas, despertar en un lugar o situación desconocidos), los testimonios y la toxicología, sin pronunciarse sobre la credibilidad, que corresponde al tribunal. En la serie parisina de Dubois et al., ninguna de las personas con GHB detectado refería consumo voluntario de esa sustancia, y los autores advierten que el GHB puede estar infradetectado por su farmacocinética (Dubois 2026). En las muertes durante sesiones, la cronología de la pérdida de conciencia, la posibilidad de reconocerla como emergencia y el retraso en pedir ayuda son centrales para valorar la omisión del deber de socorro (art. 195 CP) o la imprudencia grave (art. 142). En 21 muertes asociadas a GHB/GBL en comunidades LGTB del Reino Unido (1995-2013), el 83 % ocurrió en domicilios privados y el GHB/GBL fue la única sustancia implicada en el 10 %; en las demás se implicaron también cocaína, alcohol, anfetaminas, ketamina o mefedrona (Corkery 2018).",
+     "links": [
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "Sumisión química y consentimiento"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "slam"
+       ],
+       "t": "Chemsex y slamming"
+      },
+      {
+       "ids": [
+        "amnesia",
+        "falsa_memoria"
+       ],
+       "t": "Amnesia y sugestión"
+      }
+     ]
+    },
+    {
+     "t": "Toxicología y valoración del daño",
+     "x": "La prueba toxicológica condiciona todo el razonamiento pericial: hay que registrar la hora del hecho, la de la toma de cada muestra y su conservación, y recordar que un resultado negativo no excluye la exposición cuando las ventanas son de pocas horas (Dufayet 2023). En el procedimiento abreviado, los informes de laboratorios oficiales sobre la naturaleza, cantidad y pureza de las sustancias estupefacientes tienen carácter de prueba documental si constan realizados conforme a protocolos científicos aprobados (art. 788.3 LECrim), pero no informan sobre el efecto en una persona concreta. La valoración del daño psíquico de la víctima sigue los criterios generales (lesión frente a secuela, nexo causal, estado anterior), con dos particularidades: el consumo previo o un trastorno por consumo no rompen por sí mismos el nexo causal con el hecho traumático [fuente no localizada para la doctrina jurisprudencial], y la vergüenza, el estigma y el miedo a revelar el consumo o la orientación sexual pueden retrasar la denuncia y la búsqueda de ayuda, sin que ello reste verosimilitud [fuente no localizada]. Es frecuente la coexistencia de TEPT, depresión, consumo agravado y conductas suicidas, por lo que la pericia debe incluir la valoración del riesgo y recomendar la derivación asistencial.",
+     "links": [
+      {
+       "ids": [
+        "dano_psiquico"
+       ],
+       "t": "Valoración del daño psíquico"
+      },
+      {
+       "ids": [
+        "ptsd",
+        "pcl5"
+       ],
+       "t": "TEPT"
+      },
+      {
+       "ids": [
+        "chemsex_atencion",
+        "red_danos"
+       ],
+       "t": "Atención especializada y reducción de daños"
+      },
+      {
+       "ids": [
+        "homoneg_int",
+        "genero"
+       ],
+       "t": "Estigma y estrés de minorías"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995), arts. 20.1.º-2.º, 21.1.ª, 2.ª y 7.ª, 68, 102, 104, 142, 178, 180.1.7.ª y 195 (texto consolidado, BOE-A-1995-25444; arts. 178 y 180 en la redacción de la LO 4/2023)",
+    "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (1882), art. 788.3 (texto consolidado, BOE-A-1882-6036)",
+    "McKetin R et al. (2014). Does methamphetamine use increase violent behaviour? Evidence from a prospective longitudinal study. Addiction 109:798-806 · PMID 24400972",
+    "Dufayet L et al. (2023). Gamma-hydroxybutyrate (GHB), 1,4-butanediol (1,4BD), and gamma-butyrolactone (GBL) intoxication: a state-of-the-art review. Regul Toxicol Pharmacol 142:105435 · PMID 37343712",
+    "Dubois L et al. (2026). Implication of GHB in proactive drug facilitated crime in Paris, France. Forensic Sci Int 378:112734 · PMID 41270567",
+    "Tyler M, Ward L & Grosse S (2025). Chemsex-related deaths in the United Kingdom (2017-2022): a review of the forensic toxicology data. Forensic Sci Int 375:112553 · PMID 40645094",
+    "Corkery JM et al. (2018). Deaths in the lesbian, gay, bisexual and transgender United Kingdom communities associated with GHB and precursors. Curr Drug Metab 19:1086-1099 · PMID 29119924",
+    "Wetherill RR & Fromme K (2016). Alcohol-induced blackouts: a review of recent clinical research with practical implications and recommendations for future studies. Alcohol Clin Exp Res 40:922-935 · PMID 27060868"
+   ],
+   "rel": [
+    "chemsex_s",
+    "sumision_q",
+    "imputabilidad",
+    "ghb_gbl",
+    "metanf",
+    "anfetaminas",
+    "mefed",
+    "catinonas_nuevas",
+    "psust",
+    "ketamina_rec",
+    "slam",
+    "dano_psiquico",
+    "ptsd",
+    "chemsex_atencion",
+    "red_danos",
+    "peligrosidad",
+    "amnesia",
+    "informe_pericial"
+   ]
+  }
+ ]
+}
