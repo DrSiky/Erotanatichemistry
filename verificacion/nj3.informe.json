@@ -1,0 +1,87 @@
+{
+ "pmid_comprobados": 53,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "encef_hepatica",
+   "gravedad": "mayor",
+   "antes": "Nodo nuevo 'encef_hepatica' (eti/med) sobre encefalopatía hepática, con secciones de diagnóstico diferencial con delirium, abstinencia, Wernicke, hiponatremia, hipoglucemia, uremia, hipercapnia y Wilson, y de evitación de sedantes.",
+   "despues": "Nodo retirado por duplicar en lo sustancial la ficha existente enc_hep (Encefalopatías metabólicas), que ya trata los grados de West Haven, la encefalopatía mínima, ese mismo diagnóstico diferencial y la evitación de benzodiacepinas y opioides. Su contenido nuevo y verificado se ha convertido en un parche sobre enc_hep: tres secAdd no duplicadas (mecanismo amoniaco-astrocito-neuroinflamación; tono GABAérgico, flumazenilo y psicofármacos; factores precipitantes y comorbilidad metabólica), cinco refsAdd y ocho relAdd.",
+   "fuente": "node tools/q.js show enc_hep (6 secciones ya publicadas); instrucción de alcance del encargo de verificación"
+  },
+  {
+   "id": "em_neuropsiq",
+   "gravedad": "mayor",
+   "antes": "Nodo nuevo 'em_neuropsiq' (eti/med) sobre manifestaciones neuropsiquiátricas de la esclerosis múltiple, con una sección sobre euforia, afecto pseudobulbar y terminología y repetición de las prevalencias de Marrie 2015 ya publicadas en em_neuro.",
+   "despues": "Nodo retirado por duplicar en lo sustancial la ficha existente em_neuro, que ya recoge las prevalencias de Marrie 2015, la distinción entre euforia, hipomanía y manía por corticoides y la delimitación del afecto pseudobulbar. Su contenido nuevo y verificado se ha convertido en un parche sobre em_neuro: cuatro secAdd (cuatro vías mecanísticas con Feinstein 2004 y el ensayo de Panitch 2006; perfil cognitivo y su medida; discordancia de las cohortes sobre muerte por suicidio; interferón beta y síntomas depresivos), ocho refsAdd y ocho relAdd.",
+   "fuente": "node tools/q.js show em_neuro (4 secciones ya publicadas); instrucción de alcance del encargo de verificación"
+  },
+  {
+   "id": "neuroesteroides",
+   "gravedad": "menor",
+   "antes": "Nodo nuevo con dos rasgos que reproducían casi literalmente los de neuroester_repro (experimento de Majewska 1986 con concentraciones y unión de flunitrazepam; modelo murino Gabrd de Maguire y Mody 2008) y una sección que repetía la interpretación del modelo murino.",
+   "despues": "Nodo MANTENIDO como nodo nuevo, porque su objeto es distinto: la farmacología general del receptor GABA-A (inhibición tónica extrasináptica, subunidad δ, perfil de la clase y aplicación fuera del periparto con SAGE-217), mientras que neuroester_repro trata la sensibilidad diferencial a las fluctuaciones de esteroides gonadales. Se han reescrito los dos rasgos duplicados y la sección perinatal para remitir a esa ficha en lugar de repetirla, y se ha añadido el dato de Schüle 2014 sobre niveles reducidos de alopregnanolona y ligandos de la TSPO.",
+   "fuente": "node tools/q.js show neuroester_repro; regla 5 del encargo (no duplicar lo que ya dice la ficha)"
+  },
+  {
+   "id": "em_neuro",
+   "gravedad": "menor",
+   "antes": "Rasgo del redactor: «en un metaanálisis de nueve ensayos con 3.980 participantes, el riesgo relativo de muerte por suicidio o tentativa frente a placebo fue de 0,86 (IC 95 % 0,41-1,79)».",
+   "despues": "«...calculado sobre los cinco ensayos que aportaron ese dato», y se añade el dato de discontinuación por efectos adversos (RR 2,76; IC 95 % 1,97-3,89), que sí fue significativo.",
+   "fuente": "Nikfar S et al. (2010). Clin Ther 32:1871-1888 · PMID 21095482 (el resumen atribuye el RR de suicidio a 5 ensayos, no a los 9 incluidos)"
+  },
+  {
+   "id": "em_neuro",
+   "gravedad": "menor",
+   "antes": "«frente a 19 personas con esclerosis múltiple eutímicas, 21 con depresión mayor tenían ... dos variables explicaron el 42 % de la varianza», sin precisar cuáles.",
+   "despues": "Se nombran las dos variables del modelo de regresión logística (volumen lesional en T2 de la corteza prefrontal inferomedial izquierda y volumen de líquido cefalorraquídeo temporal anterior izquierdo).",
+   "fuente": "Feinstein A et al. (2004). Neurology 62:586-590 · PMID 14981175"
+  },
+  {
+   "id": "enc_hep",
+   "gravedad": "menor",
+   "antes": "La definición de encefalopatía hepática se atribuía sin marcador a la guía AASLD-EASL (Vilstrup 2014).",
+   "despues": "Se conserva la atribución con el marcador «[fuente no localizada para el texto literal, cuyo resumen no consta en la base de datos]», en coherencia con el marcado ya empleado en la ficha enc_hep para esa misma guía.",
+   "fuente": "PMID 25042402: registro sin resumen disponible"
+  },
+  {
+   "id": "enc_hep",
+   "gravedad": "menor",
+   "antes": "Rasgo: «Factores precipitantes de la descompensación grave: infección, consumo excesivo de alcohol, hemorragia y encefalopatía inducida por fármacos (Trebicka 2025)», sin contexto de magnitud.",
+   "despues": "Se conserva la lista literal y se añaden las cifras del mismo resumen (la insuficiencia hepática crónica agudizada afecta al 35 % de los ingresos por cirrosis descompensada y tiene mortalidad a 28 días del 45 %; no hay fármaco aprobado).",
+   "fuente": "Trebicka J et al. (2025). Dtsch Arztebl Int 122:96-102 · PMID 39773823"
+  },
+  {
+   "id": "rpe_refuerzo",
+   "gravedad": "menor",
+   "antes": "«Sutton RS & Barto AG (1998). Reinforcement learning: an introduction. Cambridge (MA): MIT Press [contenido concreto no contrastado]».",
+   "despues": "Marcador normalizado al literal del encargo: «[no verificada]».",
+   "fuente": "Regla 1 y 2 del encargo (referencias no comprobadas: «[no verificada]» al final de la referencia)"
+  },
+  {
+   "id": "patch/relAdd",
+   "gravedad": "menor",
+   "antes": "relAdd hacia 'em_neuropsiq' en em_neuro, labil_incont, dep_med e ideac_suic, y hacia 'encef_hepatica' en enc_hep, delirium, dt_alc y bzd_mayor.",
+   "despues": "Redirigidos: las fichas que ya tenían em_neuro o enc_hep en su rel se han retirado del parche para no generar enlaces redundantes (delirium, dt_alc, dep_med, ideac_suic); bzd_mayor recibe relAdd enc_hep (no lo tenía) y labil_incont recibe relAdd dep_med. Los relAdd hacia rpe_refuerzo, neuroesteroides y orexina_sist se mantienen en sus cinco fichas respectivas.",
+   "fuente": "rel actuales de cada ficha en src/data/nodes.jsonl"
+  },
+  {
+   "id": "neuroesteroides",
+   "gravedad": "menor",
+   "antes": "Nota: «Los estudios se realizaron en mujeres cisgénero y no hay datos equivalentes en personas trans con tratamiento hormonal».",
+   "despues": "«Los estudios clínicos se realizaron en mujeres y sus resúmenes no describen participantes trans; no hay datos equivalentes en personas trans con tratamiento hormonal [fuente no localizada]», en coherencia con la redacción ya publicada en neuroester_repro.",
+   "fuente": "Resúmenes de PMID 30177236 y 37491938 (no consta caracterización por identidad de género); ficha neuroester_repro"
+  }
+ ],
+ "sin_resolver": [
+  "Vilstrup H et al. (2014), guía AASLD-EASL (PMID 25042402): el registro de PubMed no incluye resumen, por lo que la definición de encefalopatía hepática queda marcada como texto no contrastado literalmente, igual que ya estaba en la ficha enc_hep.",
+  "EASL (2022) (PMID 35724930) se mantiene en las referencias de enc_hep, que ya la citaba; su resumen es metodológico y no permite contrastar recomendaciones concretas.",
+  "Sutton y Barto (1998): libro no indexado en PubMed; referencia marcada «[no verificada]».",
+  "La afirmación de que los neuroesteroides tendrían un perfil de tolerancia y dependencia distinto del de las benzodiacepinas en uso prolongado no se ha podido verificar: se conserva marcada «[fuente no localizada]».",
+  "No se ha localizado evidencia sobre un ligando benzodiacepínico endógeno demostrado en la persona con cirrosis: la afirmación se conserva en negativo y marcada.",
+  "No se ha localizado literatura sobre parámetros de aprendizaje por refuerzo en relación con el estrés de minorías, la orientación sexual o la identidad de género, ni sobre ese mismo aspecto en la comorbilidad psiquiátrica de la esclerosis múltiple: marcado «[fuente no localizada]».",
+  "La disponibilidad en España de la combinación de dextrometorfano y quinidina no se ha comprobado en CIMA; el texto fusionado en em_neuro describe únicamente los resultados del ensayo de Panitch 2006 y no afirma disponibilidad ni propone su uso.",
+  "No se han incluido códigos CIE-11 en los tres nodos nuevos por tratarse de nodos de etiopatogenia (mecanismos y modelos), no de entidades codificables.",
+  "Nodo de reserva microbiota_eje no creado: ya existe el nodo 'microbiota'. Se acepta el criterio del redactor."
+ ]
+}
