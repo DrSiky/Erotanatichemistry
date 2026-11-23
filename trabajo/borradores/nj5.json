@@ -1,0 +1,632 @@
+{
+ "patch": {
+  "psicodin_breve": {
+   "relAdd": [
+    "istdp",
+    "pfpp",
+    "psicot_apoyo",
+    "psicot_grupo"
+   ]
+  },
+  "drt": {
+   "relAdd": [
+    "istdp"
+   ]
+  },
+  "somat_sint": {
+   "relAdd": [
+    "istdp"
+   ]
+  },
+  "conv": {
+   "relAdd": [
+    "istdp"
+   ]
+  },
+  "ddm": {
+   "relAdd": [
+    "istdp",
+    "psicot_apoyo",
+    "psicot_grupo"
+   ]
+  },
+  "panic": {
+   "relAdd": [
+    "pfpp",
+    "psicot_grupo"
+   ]
+  },
+  "tcc_panico": {
+   "relAdd": [
+    "pfpp"
+   ]
+  },
+  "anx_freu": {
+   "relAdd": [
+    "pfpp"
+   ]
+  },
+  "agora": {
+   "relAdd": [
+    "pfpp"
+   ]
+  },
+  "tlp": {
+   "relAdd": [
+    "psicot_apoyo",
+    "psicot_grupo"
+   ]
+  },
+  "esq": {
+   "relAdd": [
+    "psicot_apoyo",
+    "psicot_grupo"
+   ]
+  },
+  "tfp": {
+   "relAdd": [
+    "psicot_apoyo"
+   ]
+  },
+  "yalom_dadas": {
+   "relAdd": [
+    "psicot_grupo"
+   ]
+  },
+  "mbt": {
+   "relAdd": [
+    "psicot_grupo",
+    "psicot_apoyo"
+   ]
+  },
+  "fobia_soc": {
+   "relAdd": [
+    "psicot_grupo"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "istdp",
+   "n": "Psicoterapia dinámica breve intensiva (ISTDP — Davanloo)",
+   "ab": "ISTDP",
+   "al": [
+    "Intensive Short-Term Dynamic Psychotherapy",
+    "Psicoterapia dinámica breve intensiva de Davanloo"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "psd",
+   "ring": 2,
+   "trad": "psychoan",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1990,
+   "tags": [
+    "somatic"
+   ],
+   "desc": "Forma de psicoterapia psicodinámica breve desarrollada por Habib Davanloo para acelerar el trabajo dinámico mediante la atención sistemática a la ansiedad, las defensas y los sentimientos evitados que surgen en la relación con el terapeuta. Su principal base empírica procede del grupo de Allan Abbass y Joel Town (Universidad de Dalhousie): un metaanálisis de 21 estudios con calidad muy variable (Abbass 2012) y un ensayo aleatorizado en depresión resistente frente al tratamiento habitual (Town 2017, 2020). La evidencia es prometedora pero procede casi por completo de un mismo grupo investigador.",
+   "feats": [
+    "Metaanálisis de ISTDP: 21 estudios (10 controlados, 11 no controlados) en trastornos del ánimo, de ansiedad, de la personalidad y somáticos; efectos pre-post de d = 0,84 (problemas interpersonales) a 1,51 (depresión) y superioridad sobre condiciones control (d = 1,18 en psicopatología general), con calidad muy variable y heterogeneidad significativa (Abbass 2012)",
+    "Ensayo de Halifax en depresión resistente (n = 60; 20 sesiones de ISTDP frente al tratamiento habitual en equipos comunitarios de salud mental): diferencias d = 0,75 (HAM-D) y d = 0,85 (PHQ-9) a los 6 meses y remisión completa del 36,0 % frente al 3,7 % (Town 2017)",
+    "Seguimiento a 18 meses del mismo ensayo: diferencias mantenidas (d = 0,64 HAM-D; d = 0,70 PHQ-9), remisión del 40,0 % con ISTDP, un 23,4 % había suspendido los antidepresivos y probabilidad del 64,5 % de ser coste-efectiva con un umbral de 25 000 dólares por AVAC (Town 2020)",
+    "Serie cuasiexperimental de 890 casos tratados en un servicio terciario (media de 7,3 sesiones) frente a 192 controles derivados y no tratados: reducción media de costes sanitarios de 12 628 dólares por caso en 3 años de seguimiento; diseño no aleatorizado (Abbass 2015)",
+    "En trastornos somáticos funcionales, los metaanálisis de psicoterapia psicodinámica breve (no exclusivamente ISTDP) muestran superioridad sobre controles mínimos o tratamiento habitual en 17 ensayos (Abbass 2020) y efectos mayores con formas centradas en la emoción (Abbass 2021)",
+    "Técnica: «presión» hacia el sentimiento, «desafío» a las defensas y análisis de la resistencia en la transferencia, con vigilancia continua de los canales de descarga de la ansiedad (musculatura estriada, lisa, alteraciones cognitivo-perceptivas) [fuente no localizada]"
+   ],
+   "tx": "Psicoterapia individual breve (en los ensayos, unas 20 sesiones en depresión resistente; Town 2017) que requiere formación específica, grabación en vídeo y supervisión; se gradúa la intensidad según la tolerancia a la ansiedad de la persona.",
+   "note": "Casi toda la evidencia procede del grupo de Abbass y Town, con riesgo de sesgo de lealtad del investigador; el ensayo principal es pequeño y de un solo centro, y sus propios autores piden replicación (Town 2020). No figura en las guías NICE como tratamiento específico. El estilo confrontativo de la técnica original exige una valoración cuidadosa de la fragilidad y del riesgo [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Fundamentos y técnica",
+     "x": "Habib Davanloo, psiquiatra de Montreal, sistematizó un método para acortar la psicoterapia dinámica a partir del estudio de sesiones grabadas en vídeo; su exposición más citada es Davanloo H (1990), Unlocking the Unconscious (Chichester: Wiley). Toma de Malan los dos triángulos: el del conflicto (sentimiento-ansiedad-defensa) y el de las personas (terapeuta, relaciones actuales y figuras del pasado) (Malan DH 1979, Individual Psychotherapy and the Science of Psychodynamics, Londres: Butterworths). La secuencia descrita por Davanloo, la «secuencia dinámica central», avanza desde la indagación de las dificultades, la presión hacia los sentimientos y la clarificación y el desafío de las defensas hasta la crisis transferencial, la experiencia directa del sentimiento complejo (rabia y culpa ligadas a los vínculos tempranos), el análisis de la transferencia y la exploración dinámica del inconsciente [fuente no localizada]. Un rasgo distintivo es la lectura de la ansiedad en el cuerpo: la descarga en la musculatura estriada se considera compatible con el trabajo exploratorio, mientras que la descarga en la musculatura lisa o las alteraciones cognitivo-perceptivas obligan a reforzar la regulación antes de seguir (formato gradual para pacientes frágiles) [fuente no localizada]. Añade a las formas breves la intensidad y la confrontación activa como motores del cambio.",
+     "links": [
+      {
+       "ids": [
+        "psicodin_breve",
+        "mec_defensa"
+       ],
+       "t": "Psicoterapia psicodinámica y defensas"
+      },
+      {
+       "ids": [
+        "contratransfer"
+       ],
+       "t": "Transferencia y contratransferencia"
+      },
+      {
+       "ids": [
+        "alexitim"
+       ],
+       "t": "Afectos evitados y alexitimia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El metaanálisis de Abbass, Town y Driessen (2012) reunió 21 estudios (10 controlados) en trastornos del ánimo, de ansiedad, de la personalidad y somáticos; en 13 estudios metaanalizables los efectos pre-post oscilaron entre d = 0,84 y d = 1,51, se mantuvieron en el seguimiento y la terapia superó a las condiciones control en psicopatología general (d = 1,18), con calidad metodológica muy variable y heterogeneidad significativa. En depresión resistente (episodio depresivo mayor, ≥ 6 semanas de antidepresivo, HAM-D ≥ 16), el ensayo de Halifax aleatorizó a 60 pacientes a 20 sesiones de ISTDP o a tratamiento habitual en equipos comunitarios: a los 6 meses la ISTDP fue superior (d = 0,75 en HAM-D; remisión completa 36,0 % frente a 3,7 %; Town 2017), y a los 18 meses la ventaja se mantenía (d = 0,64; remisión 40,0 %) con probabilidad del 64,5 % de ser coste-efectiva (Town 2020). En depresión mayor, un estudio con 16 pacientes por grupo, emparejados por edad, sexo y nivel educativo, frente a lista de espera describió menos síntomas a los 12 meses y mejoras modestas de funciones ejecutivas (Ajilchi 2016). En trastornos somáticos funcionales, la evidencia metaanalítica corresponde a la psicoterapia psicodinámica breve en conjunto, con 17 ensayos favorables frente a controles mínimos o tratamiento habitual (Abbass 2020) y efectos mayores en formas centradas en la emoción y en dolor crónico o trastornos gastrointestinales que en los neurológicos funcionales (Abbass 2021).",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "ddm"
+       ],
+       "t": "Depresión resistente y depresión mayor"
+      },
+      {
+       "ids": [
+        "somat_sint",
+        "conv",
+        "dolor_cron_prim"
+       ],
+       "t": "Trastornos somáticos funcionales"
+      },
+      {
+       "ids": [
+        "sii_eje"
+       ],
+       "t": "Síntomas gastrointestinales funcionales"
+      }
+     ]
+    },
+    {
+     "t": "Críticas, límites y seguridad",
+     "x": "Las principales objeciones son metodológicas: la mayoría de los estudios proceden del grupo de Dalhousie, con riesgo de sesgo de lealtad; el metaanálisis de 2012 mezcla estudios controlados y no controlados de calidad muy variable (Abbass 2012); el ensayo de Halifax es pequeño, unicéntrico y compara con tratamiento habitual y no con otra psicoterapia estructurada, y sus autores reclaman replicación en muestras mayores (Town 2020); los datos de costes proceden de un diseño cuasiexperimental con controles no tratados (Abbass 2015). Falta además comparación directa con TCC o IPT en ensayos independientes [fuente no localizada]. Desde la clínica se ha criticado el estilo confrontativo de la técnica original, que puede vivirse como intrusivo o reproducir dinámicas de sometimiento en personas con trauma relacional, psicosis, riesgo suicida elevado o consumo activo grave; los desarrollos posteriores incorporan un formato gradual para pacientes frágiles, pero no hay datos sistemáticos de efectos adversos [fuente no localizada]. En los servicios públicos españoles su implantación es escasa y depende de la formación privada de cada profesional [fuente no localizada]. En personas LGTBIQ, como en cualquier psicoterapia dinámica, la exploración de la culpa y la rabia debe distinguir el conflicto intrapsíquico del efecto del estigma y la discriminación reales [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "Estigma y práctica afirmativa"
+      },
+      {
+       "ids": [
+        "mbt",
+        "tfp"
+       ],
+       "t": "Otras psicoterapias dinámicas manualizadas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Abbass A, Town J & Driessen E (2012). Intensive short-term dynamic psychotherapy: a systematic review and meta-analysis of outcome research. Harv Rev Psychiatry 20:97-108 · PMID 22512743",
+    "Town JM et al. (2017). A randomised controlled trial of Intensive Short-Term Dynamic Psychotherapy for treatment resistant depression: the Halifax Depression Study. J Affect Disord 214:15-25 · PMID 28266318",
+    "Town JM et al. (2020). Efficacy and cost-effectiveness of intensive short-term dynamic psychotherapy for treatment resistant depression: 18-month follow-up of the Halifax depression trial. J Affect Disord 273:194-202 · PMID 32421603",
+    "Abbass A et al. (2015). Long-term healthcare cost reduction with Intensive Short-term Dynamic Psychotherapy in a tertiary psychiatric service. J Psychiatr Res 64:114-120 · PMID 25840829",
+    "Ajilchi B et al. (2016). Effects of Intensive Short-Term Dynamic Psychotherapy on depressive symptoms and executive functioning in major depression. J Nerv Ment Dis 204:500-505 · PMID 27065106",
+    "Abbass A et al. (2020). Short-term psychodynamic psychotherapy for functional somatic disorders: a meta-analysis of randomized controlled trials. Psychother Psychosom 89:363-370 · PMID 32428905",
+    "Abbass A et al. (2021). Short-term psychodynamic psychotherapy for functional somatic disorders: a systematic review and meta-analysis of within-treatment effects. J Psychosom Res 145:110473 · PMID 33814192",
+    "Davanloo H (1990). Unlocking the Unconscious: Selected Papers of Habib Davanloo. Chichester: Wiley [no verificada]",
+    "Malan DH (1979). Individual Psychotherapy and the Science of Psychodynamics. London: Butterworths [no verificada]"
+   ],
+   "rel": [
+    "psicodin_breve",
+    "mbt",
+    "tfp",
+    "contratransfer",
+    "mec_defensa",
+    "alexitim",
+    "drt",
+    "ddm",
+    "somat_sint",
+    "conv",
+    "dolor_cron_prim",
+    "pfpp"
+   ]
+  },
+  {
+   "id": "pfpp",
+   "n": "Psicoterapia psicodinámica focalizada en el pánico (PFPP — Milrod)",
+   "ab": "PFPP",
+   "al": [
+    "Panic-Focused Psychodynamic Psychotherapy",
+    "Psicoterapia psicoanalítica del trastorno de pánico"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "psd",
+   "ring": 2,
+   "trad": "psychoan",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1997,
+   "tags": [],
+   "desc": "Psicoterapia psicodinámica manualizada y breve (unas 24 sesiones en 12 semanas en los ensayos) para el trastorno de pánico con o sin agorafobia, desarrollada en Weill Cornell por Barbara Milrod y colaboradores. Entiende las crisis como expresión de conflictos inconscientes, sobre todo en torno a la separación, la autonomía y la ira, y trabaja su significado en la vida actual y en la transferencia. Superó a la relajación aplicada en un primer ensayo (Milrod 2007) y, en un ensayo de dos centros frente a TCC y relajación, mostró resultados dependientes del centro, mientras la TCC fue la más constante (Milrod 2016).",
+   "feats": [
+    "Primer ensayo aleatorizado (n = 49; dos sesiones semanales durante 12 semanas): mayor reducción en la PDSS valorada por evaluadores ciegos y más respuesta que con relajación aplicada (73 % frente a 39 %); los autores la califican de eficacia preliminar por el tamaño muestral (Milrod 2007)",
+    "Ensayo de dos centros (n = 201; TCC, PFPP o relajación aplicada en proporción 2:2:1; 19-24 sesiones en 12 semanas): abandono del 41 % con relajación, 25 % con TCC y 22 % con PFPP; interacción centro × tratamiento en la PDSS (Milrod 2016)",
+    "Respuesta (reducción ≥ 40 % en la PDSS) en Cornell: relajación 30 %, TCC 65 %, PFPP 71 %; en Pensilvania: 63 %, 60 % y 48 %, sin diferencias significativas; en Pensilvania la TCC y la relajación mejoraron más deprisa que la PFPP (Milrod 2016)",
+    "Implantación en la práctica comunitaria alemana (n = 54; PFPP frente a TCC con exposición en proporción 2:1): remisión del 44,4 % al final y del 50 % a los 6 meses con PFPP frente al 61,1 % y 55,6 % con TCC, sin diferencias significativas; la conciencia emocional (LEAS) moderó el resultado en ambos tratamientos (Beutel 2013)",
+    "En la muestra del ensayo de dos centros no hubo un perfil interpersonal único del trastorno de pánico, sino dos agrupaciones opuestas (dominante-intrusiva y no asertiva) con distinta evolución de la alianza (Zilcha-Mano 2015)",
+    "Fases del manual: tratamiento del pánico agudo (significado de los síntomas y circunstancias de inicio), tratamiento de la vulnerabilidad (conflictos de separación, autonomía e ira) y terminación (reactivación de la angustia de separación en la transferencia) [fuente no localizada]"
+   ],
+   "tx": "Psicoterapia individual manualizada de unas 24 sesiones en 12 semanas en los ensayos; puede considerarse cuando la persona no desea o no responde a la TCC, que sigue siendo la psicoterapia de primera elección por la constancia de sus resultados.",
+   "note": "Evidencia limitada a pocos ensayos, el mayor con una interacción centro × tratamiento no explicada por las diferencias clínicas entre centros (Milrod 2016) y el primero con 49 participantes (Milrod 2007). La investigación procede en buena medida del grupo creador del manual. No figura como tratamiento recomendado en las guías NICE del trastorno de pánico [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El manual se publicó como Milrod B, Busch F, Cooper A y Shapiro T (1997), Manual of Panic-Focused Psychodynamic Psychotherapy (Washington DC: American Psychiatric Press) [no verificada]. Parte de la hipótesis de que las crisis de pánico, aunque se vivan como inesperadas, surgen en contextos con significado emocional y condensan conflictos inconscientes, sobre todo entre dependencia y autonomía y en torno a una ira que se teme dañe los vínculos de los que la persona depende; a ello se añadiría una sensibilidad temprana a la separación [fuente no localizada]. El tratamiento se organiza en tres fases: en la primera se exploran las circunstancias y fantasías ligadas al inicio y a cada crisis para aliviar el pánico agudo; en la segunda se trabaja la vulnerabilidad subyacente mediante la identificación de los conflictos centrales en las relaciones actuales, en la historia y en la transferencia; en la tercera, la terminación se usa para elaborar la angustia de separación que el propio final del tratamiento reactiva [fuente no localizada]. A diferencia de la TCC, no incluye exposición interoceptiva ni situacional pautada ni reestructuración cognitiva explícita, y la agorafobia se aborda a través de su significado [fuente no localizada]. Esta lectura enlaza con la tradición freudiana de la neurosis de angustia y con los estudios sobre ansiedad de separación infantil como antecedente del pánico adulto.",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "ataque_panico",
+        "agora"
+       ],
+       "t": "Trastorno de pánico y agorafobia"
+      },
+      {
+       "ids": [
+        "anx_freu"
+       ],
+       "t": "Neurosis de angustia freudiana"
+      },
+      {
+       "ids": [
+        "anx_sep"
+       ],
+       "t": "Ansiedad por separación"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia frente a relajación y frente a TCC",
+     "x": "El primer ensayo aleatorizado de eficacia de la PFPP, según sus autores, asignó a 49 adultos de 18 a 55 años con trastorno de pánico primario a PFPP o a relajación aplicada, ambas en dos sesiones semanales durante 12 semanas; con evaluadores independientes ciegos, la PFPP redujo más la gravedad en la PDSS y obtuvo más respuesta según los criterios del Multicenter Panic Disorder Study (73 % frente a 39 %), con mejoría paralela del funcionamiento psicosocial (Milrod 2007). El ensayo de dos centros (Weill Cornell y Universidad de Pensilvania; n = 201) comparó TCC, PFPP y relajación aplicada (19-24 sesiones en 12 semanas, medicación mantenida estable): todos los tratamientos mejoraron sustancialmente; la relajación tuvo más abandonos (41 % frente a 25 % con TCC y 22 % con PFPP), sobre todo entre los pacientes más graves; en Cornell no hubo diferencias en la velocidad de cambio y la respuesta fue del 71 % con PFPP, 65 % con TCC y 30 % con relajación, mientras que en Pensilvania la TCC y la relajación mejoraron más deprisa que la PFPP, sin diferencias significativas en respuesta. Los autores concluyeron que la TCC fue la más constante entre centros y que la PFPP es prometedora (Milrod 2016). En Alemania, psicoanalistas comunitarios formados en el manual obtuvieron con PFPP remisiones similares a las de la TCC con exposición en 54 pacientes con elevada comorbilidad (Beutel 2013).",
+     "links": [
+      {
+       "ids": [
+        "tcc_panico",
+        "mod_clark_panico"
+       ],
+       "t": "TCC del pánico como comparador"
+      },
+      {
+       "ids": [
+        "pdss"
+       ],
+       "t": "PDSS: medida principal"
+      },
+      {
+       "ids": [
+        "psicodin_breve"
+       ],
+       "t": "Psicoterapia psicodinámica"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y lugar en la práctica",
+     "x": "Por su evidencia, la PFPP puede plantearse como alternativa cuando la persona rechaza la exposición, no ha respondido a la TCC o presenta conflictos relacionales y de separación prominentes; la TCC con exposición interoceptiva sigue siendo la psicoterapia de referencia por la constancia de sus resultados (Milrod 2016). El ensayo inicial fue pequeño (Milrod 2007), el de dos centros mostró una interacción centro × tratamiento que no explicaban la mayor gravedad, las diferencias demográficas ni el mayor uso de benzodiacepinas en Pensilvania (Milrod 2016), y el estudio alemán no fue un ensayo de no inferioridad con potencia suficiente [fuente no localizada]. La conciencia emocional basal moderó el resultado tanto con PFPP como con TCC, lo que sugiere evaluarla al indicar terapias breves (Beutel 2013). La abundancia de abandonos con relajación aplicada en los pacientes más graves advierte contra su uso como única intervención (Milrod 2016). Antes de atribuir las crisis a conflictos inconscientes debe completarse el diagnóstico diferencial médico y toxicológico (estimulantes, abstinencia de sedantes), especialmente relevante en contextos de chemsex [fuente no localizada]. Existen adaptaciones para población infantojuvenil con ansiedad por separación y pánico, con evidencia aún escasa [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "farm_anx"
+       ],
+       "t": "Tratamiento farmacológico de la ansiedad"
+      },
+      {
+       "ids": [
+        "tcc_panico"
+       ],
+       "t": "Primera elección psicoterapéutica"
+      },
+      {
+       "ids": [
+        "anx_sust",
+        "chemsex_s"
+       ],
+       "t": "Diferencial tóxico"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Milrod B et al. (2007). A randomized controlled clinical trial of psychoanalytic psychotherapy for panic disorder. Am J Psychiatry 164:265-272 · PMID 17267789",
+    "Milrod B et al. (2016). Psychotherapies for panic disorder: a tale of two sites. J Clin Psychiatry 77:927-935 · PMID 27464313",
+    "Beutel ME et al. (2013). Implementing panic-focused psychodynamic psychotherapy into clinical practice. Can J Psychiatry 58:326-334 · PMID 23768260",
+    "Zilcha-Mano S et al. (2015). Are there subtypes of panic disorder? An interpersonal perspective. J Consult Clin Psychol 83:938-950 · PMID 26030762",
+    "Milrod B, Busch F, Cooper A & Shapiro T (1997). Manual of Panic-Focused Psychodynamic Psychotherapy. Washington DC: American Psychiatric Press [no verificada]"
+   ],
+   "rel": [
+    "panic",
+    "agora",
+    "ataque_panico",
+    "tcc_panico",
+    "mod_clark_panico",
+    "pdss",
+    "psicodin_breve",
+    "anx_freu",
+    "anx_sep",
+    "farm_anx",
+    "istdp"
+   ]
+  },
+  {
+   "id": "psicot_apoyo",
+   "n": "Psicoterapia de apoyo",
+   "ab": "Psicoterapia de apoyo",
+   "al": [
+    "Terapia de apoyo",
+    "Supportive psychotherapy",
+    "Terapia de apoyo no directiva",
+    "Psicoterapia dinámica de apoyo"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "psd",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2004,
+   "tags": [],
+   "desc": "Conjunto de intervenciones psicoterapéuticas que buscan aliviar síntomas, sostener o restablecer el funcionamiento y reforzar la autoestima y las capacidades adaptativas a través de la relación terapéutica, sin pretender un cambio estructural de la personalidad. Es probablemente la psicoterapia más practicada y, a la vez, el comparador activo más habitual en los ensayos de psicoterapias específicas. Engloba dos tradiciones distintas: la psicoterapia de apoyo de raíz psicodinámica y el apoyo no directivo de inspiración rogeriana. Su eficacia es sólida en depresión, incierta en esquizofrenia y parcial en el trastorno límite.",
+   "feats": [
+    "Terapia de apoyo no directiva en depresión adulta (31 estudios): eficaz frente a controles (g = 0,58) y algo menos que otras psicoterapias (g = −0,20), diferencia que desaparece al controlar la lealtad del investigador (Cuijpers 2012)",
+    "Estimación de la mejoría en depresión: 33,3 % atribuible a factores extraterapéuticos, 49,6 % a factores inespecíficos y 17,1 % a factores específicos de otras terapias (Cuijpers 2012)",
+    "Revisión Cochrane en esquizofrenia (24 ensayos, 2126 participantes): sin diferencias frente a la atención estándar en recaída, hospitalización ni funcionamiento; otras intervenciones psicosociales la superaron en hospitalización (RR 1,82) y mejoría clínica (RR 1,27), con evidencia de calidad muy baja (Buckley 2015)",
+    "Trastorno límite (n = 90; TFP, DBT o tratamiento dinámico de apoyo durante un año): los tres grupos mejoraron en depresión, ansiedad, funcionamiento global y ajuste social; el apoyo se asoció a mejoría de la ira y de facetas de impulsividad, pero no de la suicidalidad, que sí mejoró con TFP y DBT (Clarkin 2007)",
+    "En depresión en la vejez, las comparaciones directas sugieren que la TCC y la terapia de resolución de problemas podrían ser más eficaces que el counselling no directivo, con pocos estudios (Cuijpers 2014)",
+    "Técnicas habituales: elogio y aliento, tranquilización fundamentada, consejo y orientación, psicoeducación, anticipación de dificultades, clarificación y manejo no interpretativo de la transferencia positiva [fuente no localizada]"
+   ],
+   "tx": "Psicoterapia flexible en frecuencia y duración, integrable en la atención psiquiátrica habitual y combinable con farmacoterapia; se ajusta el grado de apoyo y de exploración a la fragilidad de la persona.",
+   "note": "La heterogeneidad del término dificulta comparar estudios: en muchos ensayos el «apoyo» es un control diseñado para contener factores comunes y no una terapia aplicada con plena convicción, lo que puede infraestimar su eficacia (Cuijpers 2012). En esquizofrenia toda la evidencia es de calidad muy baja (Buckley 2015).",
+   "sec": [
+    {
+     "t": "Definición y técnicas",
+     "x": "Un manual de referencia es Winston A, Rosenthal RN y Pinsker H (2004), Introduction to Supportive Psychotherapy (Washington DC: American Psychiatric Publishing) [no verificada]. En la tradición psicodinámica, la psicoterapia de apoyo se sitúa en el extremo de un continuo expresivo-de apoyo: en lugar de interpretar conflictos y defensas, refuerza las defensas adaptativas, las funciones del yo (juicio, prueba de realidad, regulación afectiva) y la autoestima, y utiliza la alianza y la transferencia positiva sin analizarlas [fuente no localizada]. Sus técnicas incluyen el elogio realista, la tranquilización basada en datos, el aliento, el consejo y la orientación concreta, la psicoeducación, la anticipación de situaciones de riesgo, la clarificación y la reformulación de experiencias, y la conversación en un estilo coloquial con un terapeuta activo [fuente no localizada]. La segunda tradición es la terapia de apoyo no directiva derivada de Carl Rogers, centrada en la escucha empática, la aceptación y la reflexión de sentimientos sin técnicas específicas de cambio; es la forma evaluada en el metaanálisis de Cuijpers et al. (2012). En la práctica española, buena parte de las consultas psiquiátricas de seguimiento incorporan elementos de apoyo sin denominarlos así [fuente no localizada]. Distinguir ambas tradiciones es imprescindible al leer los ensayos, porque el término designa intervenciones muy distintas.",
+     "links": [
+      {
+       "ids": [
+        "psicodin_breve",
+        "mec_defensa"
+       ],
+       "t": "Continuo expresivo-de apoyo"
+      },
+      {
+       "ids": [
+        "adher"
+       ],
+       "t": "Alianza terapéutica"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "Psicoeducación"
+      }
+     ]
+    },
+    {
+     "t": "Comparador activo y evidencia por trastorno",
+     "x": "En los ensayos, la terapia de apoyo actúa con frecuencia como control activo destinado a igualar la atención, la expectativa y la relación terapéutica, de modo que cualquier ventaja de la terapia experimental se atribuya a sus componentes específicos. El metaanálisis de Cuijpers et al. (2012) en depresión adulta (31 estudios) halló un efecto relevante frente a controles (g = 0,58) y una ligera inferioridad frente a otras psicoterapias (g = −0,20) que desaparecía al controlar la lealtad de los investigadores; estimó que los factores específicos explicaban solo el 17,1 % de la mejoría. En esquizofrenia, la revisión Cochrane (Buckley 2015; 24 ensayos, 2126 participantes) no halló diferencias frente a la atención estándar en recaída, hospitalización ni funcionamiento; otras intervenciones psicológicas o psicosociales la superaron en hospitalización y en mejoría del estado mental, y frente a TCC no hubo diferencias en los resultados primarios, todo con evidencia de calidad muy baja; los autores piden ensayos en los que el apoyo sea el brazo principal y no el comparador. En el trastorno límite, un tratamiento dinámico de apoyo de un año produjo mejorías en depresión, ansiedad, funcionamiento y ajuste social comparables a TFP y DBT, aunque no en suicidalidad (Clarkin 2007); en el ensayo ambulatorio de la MBT, el manejo clínico estructurado que sirvió de control activo también logró mejorías sustanciales (Bateman y Fonagy 2009).",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tcc_dep",
+        "ipt_dep"
+       ],
+       "t": "Depresión y psicoterapias específicas"
+      },
+      {
+       "ids": [
+        "esq",
+        "tccp"
+       ],
+       "t": "Esquizofrenia y TCC para la psicosis"
+      },
+      {
+       "ids": [
+        "tlp",
+        "tfp",
+        "dbt",
+        "mbt"
+       ],
+       "t": "Trastorno límite"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y uso clínico",
+     "x": "Está especialmente indicada cuando la persona atraviesa una crisis vital o una enfermedad médica grave, cuando su fragilidad desaconseja técnicas expresivas o confrontativas (psicosis, deterioro cognitivo, organización límite grave con riesgo elevado) y como marco de seguimiento a largo plazo en trastornos mentales graves, junto con el tratamiento farmacológico y la rehabilitación [fuente no localizada]. Sus límites son la falta de especificidad, que en algunos trastornos la sitúa por debajo de tratamientos con componentes activos demostrados (TCC con exposición en ansiedad, intervenciones familiares y psicosociales en esquizofrenia; Buckley 2015), y el riesgo de cronificar una relación de dependencia sin objetivos explícitos [fuente no localizada]. La revisión periódica de objetivos y el uso de escalas de resultado ayudan a evitar tratamientos indefinidos sin beneficio [fuente no localizada]. En personas LGTBIQ y en quienes practican chemsex, el apoyo validante y no enjuiciador favorece la vinculación con los servicios, y puede combinarse con el apoyo entre iguales y con modelos específicos de atención; no hay ensayos que evalúen la psicoterapia de apoyo de forma específica en estas poblaciones [fuente no localizada]. No hay datos sistemáticos de efectos adversos.",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "chemsex_atencion"
+       ],
+       "t": "Atención afirmativa y chemsex"
+      },
+      {
+       "ids": [
+        "apoyo_pares"
+       ],
+       "t": "Apoyo entre iguales"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "Enfermedad médica y depresión"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Cuijpers P et al. (2012). The efficacy of non-directive supportive therapy for adult depression: a meta-analysis. Clin Psychol Rev 32:280-291 · PMID 22466509",
+    "Buckley LA et al. (2015). Supportive therapy for schizophrenia. Cochrane Database Syst Rev (4):CD004716 · PMID 25871462",
+    "Clarkin JF et al. (2007). Evaluating three treatments for borderline personality disorder: a multiwave study. Am J Psychiatry 164:922-928 · PMID 17541052",
+    "Cuijpers P et al. (2014). Managing depression in older age: psychological interventions. Maturitas 79:160-169 · PMID 24973043",
+    "Bateman A & Fonagy P (2009). Randomized controlled trial of outpatient mentalization-based treatment versus structured clinical management for borderline personality disorder. Am J Psychiatry 166:1355-1364 · PMID 19833787",
+    "Winston A, Rosenthal RN & Pinsker H (2004). Introduction to Supportive Psychotherapy. Washington DC: American Psychiatric Publishing [no verificada]"
+   ],
+   "rel": [
+    "psicodin_breve",
+    "tfp",
+    "dbt",
+    "mbt",
+    "tlp",
+    "esq",
+    "tccp",
+    "ddm",
+    "tcc_dep",
+    "adher",
+    "interv_fam",
+    "apoyo_pares",
+    "psicot_grupo"
+   ]
+  },
+  {
+   "id": "psicot_grupo",
+   "n": "Psicoterapia de grupo: factores terapéuticos, modalidades y evidencia",
+   "ab": "Psicoterapia de grupo",
+   "al": [
+    "Terapia de grupo",
+    "Grupoterapia",
+    "Grupoanálisis",
+    "TCC grupal"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "psd",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 1970,
+   "tags": [],
+   "desc": "Formato psicoterapéutico en el que uno o dos terapeutas trabajan con varias personas a la vez y utilizan las interacciones entre ellas como vehículo de cambio. Incluye modalidades muy distintas: grupos psicodinámicos e interpersonales (Yalom), grupoanálisis (Foulkes), TCC grupal estructurada, psicoeducación y entrenamiento en habilidades. Los metaanálisis del grupo de Burlingame, Strauss y Rosendahl muestran equivalencia con el formato individual cuando se comparan tratamientos idénticos y eficacia frente a controles en depresión, trastornos de ansiedad, esquizofrenia y trastorno límite, con una cohesión grupal asociada moderadamente al resultado.",
+   "feats": [
+    "Yalom describió once factores terapéuticos: infundir esperanza, universalidad, transmisión de información, altruismo, recapitulación correctiva del grupo familiar primario, desarrollo de técnicas de socialización, conducta imitativa, aprendizaje interpersonal, cohesión, catarsis y factores existenciales (Yalom y Leszcz 2005) [no verificada]",
+    "Formato grupal frente a individual con tratamientos, pacientes y dosis idénticos (46 estudios): equivalencia (g = −0,01), sin diferencias en aceptación, abandono, remisión ni mejoría (Burlingame 2016)",
+    "Cohesión grupal y resultado (55 estudios): correlación r = 0,26 (d = 0,56), con heterogeneidad alta y moderada por las intervenciones del terapeuta para aumentarla, la orientación teórica y el número de sesiones (Burlingame 2018)",
+    "Trastornos de ansiedad (57 ensayos, 3656 participantes): g = 0,92 frente a ausencia de tratamiento y g = 0,29 frente a controles de factores comunes; sin diferencias frente a psicoterapia individual ni farmacoterapia; grupos de diagnósticos mixtos tan eficaces como los específicos (Barkowski 2020)",
+    "Depresión: superior a lista de espera y tratamiento habitual y equivalente a la medicación; en trastorno bipolar superior al tratamiento habitual; abandono similar al de los comparadores (Janis 2021, 42 ensayos)",
+    "Esquizofrenia (52 ensayos, 4156 personas): efecto pequeño sobre síntomas (g = 0,30), significativo en rehabilitación cognitiva, grupos multifamiliares, psicoeducación y habilidades sociales (Burlingame 2020); trastorno límite (24 ensayos): g = 0,72 en síntomas límite y g = 0,46 en suicidalidad frente al tratamiento habitual (McLaughlin 2019)"
+   ],
+   "tx": "Grupos cerrados o abiertos, de duración breve o prolongada, homogéneos o mixtos en diagnóstico; requiere selección y preparación previa de cada miembro, normas explícitas de confidencialidad y terapeutas formados en dinámica de grupos.",
+   "note": "La evidencia procede sobre todo de TCC grupal y de grupos estructurados; los grupos psicodinámicos y el grupoanálisis tienen menos ensayos. Los metaanálisis muestran heterogeneidad alta y efectos de lealtad del investigador en las comparaciones directas (Barkowski 2020; McLaughlin 2019). La confidencialidad no puede garantizarse respecto de los demás miembros, lo que exige consentimiento informado específico [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Factores terapéuticos y modalidades",
+     "x": "La obra de referencia es Yalom ID y Leszcz M (2005), The Theory and Practice of Group Psychotherapy, 5.ª ed. (Nueva York: Basic Books), cuya primera edición, de Yalom solo, data de 1970 [no verificada]. Yalom propone once factores terapéuticos y sitúa en el centro el aprendizaje interpersonal y la cohesión: el grupo funciona como un microcosmos social en el que reaparecen los patrones relacionales de cada miembro y pueden examinarse en el «aquí y ahora» [fuente no localizada]. El grupoanálisis de S. H. Foulkes (Foulkes SH 1964, Therapeutic Group Analysis, Londres: George Allen & Unwin [no verificada]) concibe el grupo, y no el terapeuta, como principal agente terapéutico; el terapeuta actúa como «conductor» y la comunicación de los miembros se entiende dentro de una red o «matriz» grupal, habitualmente en grupos de unas siete u ocho personas con ingreso progresivo (slow-open) [fuente no localizada]. Los grupos psicodinámicos trabajan además la transferencia hacia el terapeuta y entre miembros. La TCC grupal aplica protocolos estructurados (reestructuración cognitiva, exposición, activación conductual) aprovechando el modelado y la exposición social que ofrece el propio grupo; otras modalidades son la psicoeducación, el entrenamiento en habilidades (por ejemplo, el componente grupal de la DBT y de la MBT) y los grupos multifamiliares. Los factores existenciales de Yalom enlazan con sus preocupaciones últimas, descritas en otra ficha.",
+     "links": [
+      {
+       "ids": [
+        "yalom_dadas",
+        "logoter"
+       ],
+       "t": "Yalom y la psicoterapia existencial"
+      },
+      {
+       "ids": [
+        "dbt",
+        "mbt"
+       ],
+       "t": "Componentes grupales de DBT y MBT"
+      },
+      {
+       "ids": [
+        "contratransfer"
+       ],
+       "t": "Transferencia y contratransferencia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia metaanalítica por trastorno",
+     "x": "El programa metaanalítico de Burlingame, Strauss y Rosendahl aporta la mejor síntesis. En 67 estudios que compararon ambos formatos dentro del mismo ensayo, el grupo fue equivalente al individual con tratamientos, pacientes y dosis idénticos (g = −0,01; 46 estudios), sin diferencias en aceptación, abandono ni remisión (Burlingame 2016). En trastornos de ansiedad (57 ensayos, 3656 participantes) la psicoterapia grupal superó a la ausencia de tratamiento (g = 0,92) y a controles de factores comunes (g = 0,29), sin diferencias frente a la psicoterapia individual ni la farmacoterapia (Barkowski 2020); en el trastorno de ansiedad social, con ensayos casi exclusivamente de TCC grupal, g = 0,84 frente a lista de espera (Barkowski 2016). En depresión (42 ensayos junto con trastorno bipolar) el grupo superó a la lista de espera y al tratamiento habitual y fue equivalente a la medicación; en el trastorno bipolar superó al tratamiento habitual (Janis 2021). En esquizofrenia (52 ensayos, 4156 personas) el efecto sobre síntomas positivos y negativos fue pequeño (g = 0,30) y significativo para rehabilitación cognitiva, grupos multifamiliares, psicoeducación y habilidades sociales (Burlingame 2020). En el trastorno límite (24 ensayos, 1595 participantes) el grupo superó al tratamiento habitual en síntomas límite (g = 0,72) y en suicidalidad o parasuicidalidad (g = 0,46), con heterogeneidad alta (McLaughlin 2019). La cohesión se asocia al resultado (r = 0,26; 55 estudios; Burlingame 2018).",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tb1"
+       ],
+       "t": "Depresión y trastorno bipolar"
+      },
+      {
+       "ids": [
+        "fobia_soc",
+        "tag",
+        "panic"
+       ],
+       "t": "Trastornos de ansiedad"
+      },
+      {
+       "ids": [
+        "esq",
+        "interv_fam"
+       ],
+       "t": "Esquizofrenia e intervención familiar"
+      },
+      {
+       "ids": [
+        "tlp"
+       ],
+       "t": "Trastorno límite"
+      }
+     ]
+    },
+    {
+     "t": "Grupoanálisis, duración, límites y poblaciones específicas",
+     "x": "Para el grupo psicodinámico de orientación grupoanalítica, el ensayo noruego de Lorentzen et al. (2015) aleatorizó a 167 pacientes ambulatorios con trastornos del ánimo, de ansiedad o de la personalidad a 20 u 80 sesiones semanales de 90 minutos: quienes tenían un trastorno de la personalidad mejoraron más con el grupo largo en síntomas, problemas interpersonales y funcionamiento, mientras que sin trastorno de la personalidad el grupo largo no añadió beneficio. En adolescentes con rasgos límite, la MBT grupal no superó al tratamiento habitual (Beck 2020), recordatorio de que el formato no garantiza la eficacia. Los límites generales son la heterogeneidad de los metaanálisis, el predominio de TCC grupal entre los ensayos y la influencia de la lealtad del investigador en las comparaciones directas (Barkowski 2020). Son contraindicaciones relativas la psicosis aguda, la crisis suicida no contenida, la hostilidad grave hacia otros miembros y la incapacidad para respetar la confidencialidad, y la mala selección aumenta el abandono [fuente no localizada]. Los grupos homogéneos de personas LGTBIQ o de quienes practican chemsex pueden reducir el aislamiento y el estigma por el efecto de universalidad, y forman parte de algunos modelos de atención al chemsex, pero faltan ensayos específicos [fuente no localizada]. En el SNS la terapia grupal se ofrece con frecuencia por razones de eficiencia, sin que conste una cobertura homogénea [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "mbt"
+       ],
+       "t": "MBT grupal en adolescentes"
+      },
+      {
+       "ids": [
+        "chemsex_atencion",
+        "lgb_afirm"
+       ],
+       "t": "Grupos en chemsex y población LGTBIQ"
+      },
+      {
+       "ids": [
+        "apoyo_pares"
+       ],
+       "t": "Grupos de apoyo mutuo"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Burlingame GM et al. (2016). Outcome differences between individual and group formats when identical and nonidentical treatments, patients, and doses are compared: a 25-year meta-analytic perspective. Psychotherapy (Chic) 53:446-461 · PMID 27918191",
+    "Burlingame GM, McClendon DT & Yang C (2018). Cohesion in group therapy: a meta-analysis. Psychotherapy (Chic) 55:384-398 · PMID 30335452",
+    "Barkowski S et al. (2020). Efficacy of group psychotherapy for anxiety disorders: a systematic review and meta-analysis. Psychother Res 30:965-982 · PMID 32093586",
+    "Barkowski S et al. (2016). Efficacy of group psychotherapy for social anxiety disorder: a meta-analysis of randomized-controlled trials. J Anxiety Disord 39:44-64 · PMID 26953823",
+    "Janis RA et al. (2021). Group therapy for mood disorders: a meta-analysis. Psychother Res 31:342-358 · PMID 32930060",
+    "Burlingame GM et al. (2020). Group therapy for schizophrenia: a meta-analysis. Psychotherapy (Chic) 57:219-236 · PMID 32478561",
+    "McLaughlin SPB et al. (2019). Group psychotherapy for borderline personality disorder: a meta-analysis of randomized-controlled trials. Psychotherapy (Chic) 56:260-273 · PMID 30869973",
+    "Lorentzen S et al. (2015). Personality disorder moderates outcome in short- and long-term group analytic psychotherapy: a randomized clinical trial. Br J Clin Psychol 54:129-146 · PMID 25178520",
+    "Beck E et al. (2020). Mentalization-based treatment in groups for adolescents with borderline personality disorder: a randomized controlled trial. J Child Psychol Psychiatry 61:594-604 · PMID 31702058",
+    "Yalom ID & Leszcz M (2005). The Theory and Practice of Group Psychotherapy, 5th ed. New York: Basic Books [no verificada]",
+    "Foulkes SH (1964). Therapeutic Group Analysis. London: George Allen & Unwin [no verificada]"
+   ],
+   "rel": [
+    "yalom_dadas",
+    "logoter",
+    "mbt",
+    "dbt",
+    "psicodin_breve",
+    "ddm",
+    "tb1",
+    "fobia_soc",
+    "tag",
+    "panic",
+    "esq",
+    "interv_fam",
+    "tlp",
+    "apoyo_pares",
+    "chemsex_atencion",
+    "psicot_apoyo"
+   ]
+  }
+ ]
+}
