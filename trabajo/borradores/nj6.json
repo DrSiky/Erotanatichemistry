@@ -1,0 +1,1480 @@
+{
+ "patch": {
+  "pandas": {
+   "secAdd": [
+    {
+     "t": "Criterios de trabajo de Swedo (PANDAS) y criterios de PANS",
+     "x": "Swedo et al. (1998) definieron PANDAS con cinco criterios de trabajo, todos necesarios: presencia de TOC o de un trastorno de tics, inicio prepuberal, curso episódico de la gravedad, asociación con infecciones por estreptococo betahemolítico del grupo A y asociación con anomalías neurológicas. En sus primeros 50 casos, el inicio fue agudo y llamativo, a una edad media de 6,3 años para los tics y 7,4 para el TOC; el inicio se relacionó con infección estreptocócica documentada en el 44 % y con faringitis sin cultivo en otro 28 %, y de 144 exacerbaciones, el 31 % se asoció con infección estreptocócica documentada. Eran frecuentes la labilidad emocional, la ansiedad de separación, los miedos y rituales nocturnos, los déficits cognitivos, la conducta oposicionista y la hiperactividad motora. PANS amplió el concepto en 2012: inicio brusco de TOC o de restricción alimentaria grave, acompañado de al menos dos síntomas neuropsiquiátricos de otras categorías (ansiedad, labilidad o depresión, irritabilidad o agresividad, regresión, deterioro escolar, alteraciones sensitivas o motoras, síntomas somáticos como alteraciones del sueño o de la micción), sin exigir agente infeccioso [fuente no localizada para la redacción literal de los criterios de 2012].",
+     "links": [
+      {
+       "ids": [
+        "toc_ped",
+        "tics_tr"
+       ],
+       "t": "TOC y tics pediátricos"
+      },
+      {
+       "ids": [
+        "arfid"
+       ],
+       "t": "restricción alimentaria"
+      },
+      {
+       "ids": [
+        "regres_cond"
+       ],
+       "t": "regresión conductual"
+      }
+     ]
+    },
+    {
+     "t": "Posición de los consensos y controversia etiológica",
+     "x": "El consorcio estadounidense de investigación en PANS/PANDAS publicó en 2017 guías basadas en la revisión de la literatura y en la opinión de expertos. Para las infecciones propone un ciclo inicial de tratamiento antiestreptocócico en todo caso nuevo de PANS, profilaxis antimicrobiana crónica en niños con PANDAS con síntomas graves o exacerbaciones recurrentes asociadas al estreptococo, tratamiento de las infecciones intercurrentes según las guías habituales, y presenta datos de utilidad limitada de la adenoamigdalectomía y los probióticos (Cooperstock 2017). Para la inmunomodulación gradúa por gravedad: en los casos leves, esperar y aplicar terapia cognitivo-conductual, y después antiinflamatorios no esteroideos o ciclos cortos de corticoides; en los moderados o graves, corticoides o inmunoglobulinas intravenosas; en los extremos, plasmaféresis (Frankovich 2017). Estas recomendaciones contrastan con la evidencia controlada disponible: la revisión sistemática de Sigra (2018) halló investigación escasa y con alto riesgo de sesgo, y el ensayo de Williams (2016) no demostró superioridad de las inmunoglobulinas frente a placebo. La hipótesis autoinmune postinfecciosa sigue sin un biomarcador validado, y fuera de este consorcio la actitud de las guías europeas y de las sociedades pediátricas es más restrictiva [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "inflam",
+        "autoinm_infec"
+       ],
+       "t": "inflamación y autoinmunidad"
+      },
+      {
+       "ids": [
+        "nmda",
+        "sreat"
+       ],
+       "t": "encefalitis autoinmunes con mecanismo probado"
+      },
+      {
+       "ids": [
+        "tcc_inf",
+        "isrs"
+       ],
+       "t": "tratamiento estándar del TOC pediátrico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cooperstock MS et al. (2017). Clinical management of pediatric acute-onset neuropsychiatric syndrome: part III—treatment and prevention of infections. J Child Adolesc Psychopharmacol 27:594-606 · PMID 36358106",
+    "Frankovich J et al. (2017). Clinical management of pediatric acute-onset neuropsychiatric syndrome: part II—use of immunomodulatory therapies. J Child Adolesc Psychopharmacol 27:574-593 · PMID 36358107",
+    "Swedo SE, Leckman JF & Rose NR (2012). From research subgroup to clinical syndrome: modifying the PANDAS criteria to describe PANS (pediatric acute-onset neuropsychiatric syndrome). Pediatr Therapeut 2:113 [no verificada]"
+   ]
+  },
+  "cult_bound": {
+   "relAdd": [
+    "trance_posesion"
+   ]
+  },
+  "maladi_moun": {
+   "relAdd": [
+    "trance_posesion"
+   ]
+  },
+  "crisis_func": {
+   "relAdd": [
+    "trance_posesion"
+   ]
+  },
+  "tdi": {
+   "relAdd": [
+    "trance_posesion",
+    "tid_parcial"
+   ]
+  },
+  "desnos": {
+   "relAdd": [
+    "tid_parcial",
+    "dano_moral"
+   ]
+  },
+  "tlp": {
+   "relAdd": [
+    "tid_parcial",
+    "tp_cie11"
+   ]
+  },
+  "disest": {
+   "relAdd": [
+    "tid_parcial"
+   ]
+  },
+  "ptsd": {
+   "relAdd": [
+    "dano_moral"
+   ]
+  },
+  "refugio_tept": {
+   "relAdd": [
+    "dano_moral"
+   ]
+  },
+  "dano_psiquico": {
+   "relAdd": [
+    "dano_moral"
+   ]
+  },
+  "covid_psiq": {
+   "relAdd": [
+    "dano_moral"
+   ]
+  },
+  "hitop_tp": {
+   "relAdd": [
+    "tp_cie11",
+    "pers_depresiva"
+   ]
+  },
+  "pid5_lpfs": {
+   "relAdd": [
+    "tp_cie11"
+   ]
+  },
+  "tpobs": {
+   "relAdd": [
+    "tp_cie11"
+   ]
+  },
+  "ddp": {
+   "relAdd": [
+    "pers_depresiva"
+   ]
+  },
+  "psicopat_sch": {
+   "relAdd": [
+    "pers_depresiva"
+   ]
+  },
+  "tellenbach": {
+   "relAdd": [
+    "pers_depresiva"
+   ]
+  },
+  "kraep_grund": {
+   "relAdd": [
+    "pers_depresiva"
+   ]
+  },
+  "dep_tardia": {
+   "relAdd": [
+    "fragil_dep",
+    "acumulacion_mayor"
+   ]
+  },
+  "apatia": {
+   "relAdd": [
+    "fragil_dep"
+   ]
+  },
+  "apatia_dem": {
+   "relAdd": [
+    "fragil_dep"
+   ]
+  },
+  "polifarm": {
+   "relAdd": [
+    "fragil_dep"
+   ]
+  },
+  "toc_dsm": {
+   "relAdd": [
+    "toc_tardio"
+   ]
+  },
+  "ftd": {
+   "relAdd": [
+    "toc_tardio",
+    "acumulacion_mayor"
+   ]
+  },
+  "anx_mayor": {
+   "relAdd": [
+    "toc_tardio"
+   ]
+  },
+  "huntington": {
+   "relAdd": [
+    "toc_tardio"
+   ]
+  },
+  "acum": {
+   "relAdd": [
+    "acumulacion_mayor",
+    "toc_tardio"
+   ]
+  },
+  "diog": {
+   "relAdd": [
+    "acumulacion_mayor"
+   ]
+  },
+  "cap_dem": {
+   "relAdd": [
+    "acumulacion_mayor"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "trance_posesion",
+   "n": "Trastorno de trance y trastorno de trance de posesión (CIE-11)",
+   "ab": "Trance / posesión",
+   "al": [
+    "trastorno de trance",
+    "trastorno de trance de posesión",
+    "trance disociativo",
+    "possession trance disorder",
+    "trastorno de trance disociativo (DSM-IV)"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "trauma",
+   "ring": 1,
+   "trad": "cie",
+   "cs": "l",
+   "ev": "obs",
+   "y": 2019,
+   "tags": [
+    "dissoc",
+    "cultural",
+    "trauma"
+   ],
+   "cie": [
+    "6B62",
+    "6B63"
+   ],
+   "desc": "La CIE-11 separa dos trastornos disociativos: el trastorno de trance (6B62), con alteración marcada del estado de conciencia o pérdida del sentido habitual de la identidad personal sin sustitución por otra identidad, y el trastorno de trance de posesión (6B63), en el que la identidad habitual es sustituida por una identidad externa «poseedora» a la que se atribuyen la conducta y el habla. En ambos casos el episodio es involuntario, no deseado, causa malestar o deterioro y no forma parte de una práctica cultural o religiosa colectiva aceptada [fuente no localizada para la redacción literal de la CIE-11]. El DSM-5-TR no tiene categoría propia: el trance disociativo figura como ejemplo de «otro trastorno disociativo especificado» y la vivencia de posesión se incorporó al criterio A del trastorno de identidad disociativo (Spiegel 2011). En la revisión de During (2011), con 402 casos publicados en todo el mundo, predominaba la posesión (69 %) sobre el trance (31 %).",
+   "feats": [
+    "Trance (6B62): estrechamiento de la conciencia del entorno o foco selectivo, con repertorio limitado de movimientos, posturas y habla vivido como fuera de control, sin identidad alternativa [fuente no localizada para la redacción literal de la CIE-11]",
+    "Trance de posesión (6B63): la identidad habitual es sustituida por la de un agente externo (espíritu, divinidad, antepasado, demonio) que se presenta como quien habla y actúa [fuente no localizada para la redacción literal de la CIE-11]",
+    "Revisión de 28 artículos y 402 casos (During 2011): igual proporción de mujeres y hombres, amnesia en el 20 %, fenómenos alucinatorios durante la posesión en el 56 % y quejas somáticas en el 34 %",
+    "Exclusión cultural: el trance o la posesión voluntarios, buscados y aceptados dentro de un rito colectivo no son un trastorno; lo patológico es lo involuntario, el malestar y el deterioro",
+    "En Uganda, 119 personas con posesión diagnosticada por curanderos tradicionales tenían más disociación psicomorfa y somatomorfa y más acontecimientos potencialmente traumáticos que 71 controles, aunque ellas no relacionaban subjetivamente ambos fenómenos (van Duijl 2010)",
+    "DSM-5-TR: sin categoría propia; trance disociativo como ejemplo de otro trastorno disociativo especificado y posesión incluida en la definición de la alteración de la identidad del TID (Spiegel 2011)"
+   ],
+   "tx": "Evaluación cultural explícita (modelo explicativo de la persona y de su comunidad, Entrevista de Formulación Cultural) antes de etiquetar; descartar causas orgánicas, tóxicas y psicóticas; explorar el trauma y el estrés de aculturación; colaboración respetuosa con referentes religiosos o terapeutas tradicionales cuando la persona lo desee; tratamiento del malestar y de la comorbilidad. No hay ensayos controlados de tratamiento específico.",
+   "note": "La evidencia procede de series de casos y estudios transversales, muchos en países de ingresos bajos y medios; no hay ensayos clínicos. No se ha podido consultar el texto literal de las descripciones clínicas de la CIE-11 (6B62, 6B63), por lo que los detalles de los requisitos diagnósticos van marcados. Los códigos 6B62 y 6B63 se han comprobado en la tabulación de la CIE-11 MMS (versión de enero de 2025). Riesgo doble: patologizar experiencias religiosas normativas o, al contrario, atribuir a la cultura una psicosis o una encefalopatía.",
+   "sec": [
+    {
+     "t": "Delimitación conceptual y contexto cultural",
+     "x": "Trance y posesión son fenómenos humanos universales, en su mayoría normativos: rituales de curación, cultos de posesión, prácticas pentecostales o carismáticas, mediumnidad. La CIE-11 solo considera trastorno el episodio involuntario, no deseado, con malestar o deterioro y que no forma parte de una práctica colectiva aceptada [fuente no localizada para la redacción literal]. During et al. (2011) proponen entender el trance disociativo como un «idioma global de malestar», probablemente infradiagnosticado en los países occidentales por sesgos culturales y con posible aumento ligado a los flujos migratorios; en su revisión, los autores de los casos sostenían a la vez varios modelos explicativos, que resultaban complementarios. El estudio ugandés de van Duijl (2010) apoya la lectura de la posesión como expresión culturalmente modelada de una disociación relacionada con el trauma.",
+     "links": [
+      {
+       "ids": [
+        "cult_bound",
+        "idiomas_malestar",
+        "psiq_transcultural"
+       ],
+       "t": "conceptos culturales del malestar"
+      },
+      {
+       "ids": [
+        "maladi_moun",
+        "susto",
+        "ataque_nervios"
+       ],
+       "t": "otros síndromes culturales"
+      },
+      {
+       "ids": [
+        "estres_acultur",
+        "duelo_migra_ulises"
+       ],
+       "t": "migración y aculturación"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial no patologizante",
+     "x": "Primero, lo normativo: el trance buscado en un rito, compartido por el grupo y del que la persona sale sin malestar ni deterioro no es un trastorno, y tampoco lo son la oración extática, la glosolalia o la creencia en espíritus. Después, lo orgánico: epilepsia del lóbulo temporal y estados posictales, intoxicación o abstinencia (alucinógenos, disociativos, alcohol), delirium, encefalitis autoinmunes. Luego, lo psiquiátrico: esquizofrenia y psicosis agudas (las voces y la identidad poseedora aparecen solo dentro del episodio y no hay delirio sistematizado fuera de él [fuente no localizada]), manía, trastorno de identidad disociativo (en el TID las identidades son internas y se mantienen a lo largo del tiempo), crisis funcionales o disociativas, trastorno facticio y simulación. Los fenómenos alucinatorios son frecuentes durante la posesión (56 % en During 2011) y por sí solos no indican psicosis.",
+     "links": [
+      {
+       "ids": [
+        "psiep",
+        "epilepsia_psic",
+        "delirium"
+       ],
+       "t": "causas orgánicas"
+      },
+      {
+       "ids": [
+        "psbreve",
+        "esq"
+       ],
+       "t": "psicosis"
+      },
+      {
+       "ids": [
+        "tdi",
+        "tid_parcial",
+        "crisis_func"
+       ],
+       "t": "otros trastornos disociativos"
+      },
+      {
+       "ids": [
+        "facticio",
+        "simulacion"
+       ],
+       "t": "facticio y simulación"
+      }
+     ]
+    },
+    {
+     "t": "Evaluación y abordaje",
+     "x": "La Entrevista de Formulación Cultural del DSM-5-TR ayuda a recoger el modelo explicativo, el papel de la comunidad religiosa y las expectativas de ayuda; con frecuencia conviene un intérprete profesional. During et al. (2011) recomiendan una evaluación integral de los factores socioculturales e idiosincrásicos y considerar sistemáticamente las dificultades de aculturación en contextos transculturales. Se explorarán los acontecimientos traumáticos y la disociación con instrumentos validados en el idioma de la persona (van Duijl 2010 empleó medidas de disociación psicomorfa y somatomorfa). El abordaje combina psicoeducación respetuosa con el marco de creencias, tratamiento de la comorbilidad (TEPT, depresión) y, si la persona lo pide, cooperación con referentes religiosos o terapeutas tradicionales. No hay ensayos controlados; las intervenciones descritas son casuísticas [fuente no localizada para la eficacia de intervenciones concretas].",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "interprete_clinico",
+        "competencia_cult"
+       ],
+       "t": "formulación cultural e intérprete"
+      },
+      {
+       "ids": [
+        "ptsd",
+        "des2"
+       ],
+       "t": "trauma y disociación"
+      },
+      {
+       "ids": [
+        "refugio_tept"
+       ],
+       "t": "personas refugiadas"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en la nosología actual",
+     "x": "La CIE-10 incluía los «trastornos de trance y posesión» (F44.3) como una sola categoría [fuente oficial no localizada en la tabulación local]. La CIE-11 los separa en 6B62 (trance) y 6B63 (trance de posesión), dentro de los trastornos disociativos y junto al trastorno de identidad disociativo (6B64) y su forma parcial (6B65), códigos comprobados en la tabulación MMS. El DSM-IV situó el trastorno de trance disociativo en el apéndice de investigación; para el DSM-5, Spiegel et al. (2011) propusieron incluir la experiencia de posesión en la definición del TID y llevar el trance disociativo al trastorno disociativo no especificado, propuesta que el DSM-5-TR mantiene como ejemplo de otro trastorno disociativo especificado. During et al. (2011) defendieron, por el contrario, su inclusión como categoría propia con ajustes, como el peso de los fenómenos alucinatorios.",
+     "links": [
+      {
+       "ids": [
+        "tdi",
+        "tid_parcial",
+        "desp"
+       ],
+       "t": "trastornos disociativos CIE-11"
+      },
+      {
+       "ids": [
+        "janet_hit",
+        "histeriaC"
+       ],
+       "t": "antecedentes históricos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "CIE-11 (2019), 6B62 Trastorno de trance y 6B63 Trastorno de trance de posesión (OMS; códigos comprobados en la tabulación MMS, versión de enero de 2025)",
+    "DSM-5-TR (2022), Otro trastorno disociativo especificado (trance disociativo) y Trastorno de identidad disociativo, criterio A",
+    "During EH et al. (2011). A critical review of dissociative trance and possession disorders: etiological, diagnostic, therapeutic, and nosological issues. Can J Psychiatry 56:235-242 · PMID 21507280",
+    "Spiegel D et al. (2011). Dissociative disorders in DSM-5. Depress Anxiety 28:824-852 · PMID 21910187",
+    "van Duijl M et al. (2010). Dissociative symptoms and reported trauma among patients with spirit possession and matched healthy controls in Uganda. Cult Med Psychiatry 34:380-400 · PMID 20401630"
+   ],
+   "rel": [
+    "tdi",
+    "cult_bound",
+    "idiomas_malestar",
+    "psiq_transcultural",
+    "cfi",
+    "crisis_func",
+    "psiep",
+    "des2",
+    "maladi_moun"
+   ]
+  },
+  {
+   "id": "tid_parcial",
+   "n": "Trastorno de identidad disociativo parcial (CIE-11)",
+   "ab": "TID parcial",
+   "al": [
+    "partial dissociative identity disorder",
+    "TID parcial",
+    "PDID"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "trauma",
+   "ring": 1,
+   "trad": "cie",
+   "cs": "l",
+   "ev": "fen",
+   "y": 2019,
+   "tags": [
+    "dissoc",
+    "trauma"
+   ],
+   "cie": [
+    "6B65"
+   ],
+   "desc": "Categoría nueva de la CIE-11 (6B65). Como en el trastorno de identidad disociativo, hay dos o más estados de personalidad diferenciados, pero uno de ellos es dominante y sostiene la vida cotidiana, mientras que los no dominantes irrumpen en la conciencia o en la acción (intrusiones disociativas) sin tomar el control ejecutivo de forma recurrente o prolongada [fuente no localizada para la redacción literal de la CIE-11]. En la revisión de Roepke et al. (2026), las discontinuidades en la experiencia del self y en la agencia son menos marcadas que en el TID. Ocupa en la CIE-11 el lugar que en el DSM-5-TR corresponde en parte a «otro trastorno disociativo especificado». Faltan por completo datos empíricos sólidos sobre su validez, y se solapa con el TEPT complejo y con el trastorno límite de la personalidad.",
+   "feats": [
+    "Estado de personalidad dominante que mantiene el funcionamiento diario, con intrusiones de estados no dominantes en pensamiento, emoción, percepción o conducta vividas como ajenas [fuente no localizada para la redacción literal de la CIE-11]",
+    "Los estados no dominantes no asumen de forma recurrente el control ejecutivo; la amnesia no es un rasgo central, a diferencia del TID [fuente no localizada para la redacción literal de la CIE-11]",
+    "Roepke et al. (2026): los datos robustos sobre el TID parcial faltan por completo; solapamiento marcado con el TEPT complejo y el TLP; ningún tratamiento específico con eficacia demostrada",
+    "Primer instrumento específico: el International Dissociative Identity Disorder Questionnaire (IDIDQ) detectó el TID y el TID parcial probables de la CIE-11 con fiabilidad test-retest aceptable (kappa 0,517-0,781) en muestras chinas e inglesas (Fung 2025)",
+    "Un caso publicado ilustra la confusión posible con la incongruencia de género: tras cuatro meses de seguimiento, la persona renunció al tratamiento hormonal y continuó psicoterapia para el TID parcial (Hasler 2023); es un caso aislado y no permite generalizar"
+   ],
+   "tx": "Excluir antes explicaciones alternativas (TEPT complejo, TLP, psicosis, trastornos neurológicos, sustancias, trastorno facticio y simulación). Psicoterapia orientada al trauma por fases y tratamiento de la comorbilidad, con el mismo marco que el TID; evitar técnicas sugestivas que puedan reforzar la cosificación de los estados. No hay fármacos específicos.",
+   "note": "Categoría muy reciente, sin validación empírica suficiente (Roepke 2026). No se ha podido consultar el texto literal de las descripciones clínicas de la CIE-11, por lo que los detalles de los requisitos van marcados. Código 6B65 comprobado en la tabulación MMS (enero de 2025). Hay un debate abierto entre el modelo traumagénico y el sociocognitivo del TID que afecta también a esta forma parcial (véase la ficha del TID).",
+   "sec": [
+    {
+     "t": "Diferencias con el TID",
+     "x": "La diferencia es de grado y de control ejecutivo. En el TID (6B64) dos o más estados de personalidad toman el control de forma recurrente y suele haber amnesia entre estados. En el TID parcial un estado es dominante y los otros se manifiestan sobre todo como intrusiones: voces internas, emociones, impulsos o actos vividos como no propios, con la persona consciente de lo que ocurre [fuente no localizada para la redacción literal de la CIE-11]. Roepke et al. (2026) señalan que las discontinuidades son menos marcadas y que, incluso en el TID, los datos no respaldan la amnesia entre identidades que se postula: en un estudio experimental con 19 pacientes con TID, la amnesia referida se comportó más como percibida que como real, porque reconocían más material de la otra identidad que quienes la simulaban (Marsh 2021). Esto debilita la frontera basada en la amnesia entre ambas categorías.",
+     "links": [
+      {
+       "ids": [
+        "tdi"
+       ],
+       "t": "TID"
+      },
+      {
+       "ids": [
+        "disoc_amn",
+        "disest"
+       ],
+       "t": "amnesia disociativa y disociación estructural"
+      }
+     ]
+    },
+    {
+     "t": "Diferencias con el TEPT complejo y el TLP",
+     "x": "El TEPT complejo (6B41) exige los síntomas nucleares del TEPT más alteraciones de la autoorganización (desregulación afectiva, autoconcepto negativo y dificultades relacionales); puede incluir disociación, pero no estados de personalidad diferenciados que irrumpen como ajenos. En el TLP la inestabilidad de la identidad y los cambios de estado emocional bruscos se viven como propios, aunque puede haber síntomas disociativos transitorios relacionados con el estrés. Roepke et al. (2026) encontraron un solapamiento marcado del TID y del TID parcial con ambos trastornos y concluyen que los síntomas disociativos ya están recogidos por entidades mejor investigadas y con tratamientos validados, por lo que solo debe diagnosticarse el TID parcial tras excluir explicaciones alternativas. La comorbilidad entre los tres es frecuente y obliga a formular el caso de forma dimensional [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "desnos",
+        "ptsd"
+       ],
+       "t": "TEPT y TEPT complejo"
+      },
+      {
+       "ids": [
+        "tlp",
+        "kernberg"
+       ],
+       "t": "TLP"
+      }
+     ]
+    },
+    {
+     "t": "Evaluación y diagnóstico diferencial",
+     "x": "La evaluación debe ser longitudinal y no sugestiva: explorar trauma, disociación (DES-II como cribado, sin valor diagnóstico por sí sola), intrusiones de estados, cambios de agencia y su contexto. El IDIDQ es el primer instrumento derivado de la CIE-11; en 233 usuarios de servicios de salud mental replicó la estructura de tres factores (amnesia, identidades disociativas y alternancia) y tuvo buena consistencia interna, aunque procede de muestras de conveniencia (Fung 2025). Diferenciales: esquizofrenia y otras psicosis (en el TID parcial las voces son internas, ligadas a estados del self y sin delirio sistematizado [fuente no localizada]), trastorno de trance de posesión (identidad externa y culturalmente modelada), crisis funcionales, epilepsia, consumo de sustancias disociativas, trastorno facticio y simulación. La incongruencia de género no debe confundirse con estados de personalidad de distinto género, ni viceversa (Hasler 2023).",
+     "links": [
+      {
+       "ids": [
+        "des2",
+        "entrevistas"
+       ],
+       "t": "instrumentos"
+      },
+      {
+       "ids": [
+        "esq",
+        "trance_posesion",
+        "crisis_func"
+       ],
+       "t": "diferenciales"
+      },
+      {
+       "ids": [
+        "facticio",
+        "simulacion",
+        "ketamina_rec"
+       ],
+       "t": "facticio, simulación y disociativos"
+      },
+      {
+       "ids": [
+        "wpath_soc8"
+       ],
+       "t": "atención a la diversidad de género"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje terapéutico y límites de la evidencia",
+     "x": "No existe ningún tratamiento con eficacia demostrada para el TID ni para el TID parcial (Roepke 2026). En la práctica se aplica el modelo por fases del trauma (estabilización y seguridad, procesamiento de recuerdos traumáticos, integración) y el tratamiento basado en la evidencia de la comorbilidad: terapias centradas en el trauma para el TEPT o el TEPT complejo y psicoterapias específicas para el TLP. Se recomienda evitar la hipnosis y otras técnicas que puedan inducir o reforzar estados, por el riesgo iatrogénico que subraya el modelo sociocognitivo [fuente no localizada]. Los psicofármacos se emplean solo para síntomas comórbidos. Desde la perspectiva pericial, la categoría carece de validación suficiente y su uso en informes debe acompañarse de la incertidumbre correspondiente [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "emdr_proc",
+        "epr"
+       ],
+       "t": "terapias centradas en el trauma"
+      },
+      {
+       "ids": [
+        "tlp",
+        "desnos"
+       ],
+       "t": "comorbilidad con tratamiento validado"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "uso pericial"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "CIE-11 (2019), 6B65 Trastorno de identidad disociativo parcial (OMS; código comprobado en la tabulación MMS, versión de enero de 2025)",
+    "Roepke S et al. (2026). Dissociative identity disorder and partial dissociative identity disorder. Dtsch Arztebl Int 123:220-225 · PMID 41711447",
+    "Fung HW et al. (2025). Measuring ICD-11 dissociative identity disorder: cross-cultural validation of the International Dissociative Identity Disorder Questionnaire. Asian J Psychiatr 112:104685 · PMID 40934746",
+    "Marsh RJ et al. (2021). Inter-identity amnesia for neutral episodic self-referential and autobiographical memory in dissociative identity disorder: an assessment of recall and recognition. PLoS One 16:e0245849 · PMID 33577556",
+    "Hasler R et al. (2023). Partial dissociative identity disorder and gender incongruence: a case report. Sex Med 11:qfad018 · PMID 37197286",
+    "Spiegel D et al. (2011). Dissociative disorders in DSM-5. Depress Anxiety 28:824-852 · PMID 21910187"
+   ],
+   "rel": [
+    "tdi",
+    "desnos",
+    "tlp",
+    "disest",
+    "des2",
+    "disoc_amn",
+    "ptsd",
+    "trance_posesion"
+   ]
+  },
+  {
+   "id": "dano_moral",
+   "n": "Daño moral (moral injury)",
+   "ab": "Daño moral",
+   "al": [
+    "moral injury",
+    "lesión moral",
+    "herida moral",
+    "acontecimientos potencialmente lesivos para la moral (PMIE)"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "trauma",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 2009,
+   "tags": [
+    "trauma"
+   ],
+   "desc": "Constructo clínico, no diagnóstico oficial, que describe las secuelas emocionales, psicológicas, conductuales, espirituales y sociales de cometer, no impedir o presenciar actos que transgreden creencias y expectativas morales profundas (Litz 2009). Procede del trabajo de Jonathan Shay con veteranos de Vietnam y fue operativizado por Litz et al. en militares; después se ha extendido a profesionales sanitarios, sobre todo durante la pandemia de COVID-19, y a personas refugiadas. Su núcleo afectivo es la culpa, la vergüenza, la ira y la vivencia de traición, más que el miedo, lo que lo distingue del TEPT, con el que se solapa con frecuencia. Hoy no hay definición de consenso ni medida de referencia (Griffin 2019). No debe confundirse con el «daño moral» del derecho español de daños, concepto jurídico indemnizatorio que se trata en la ficha de valoración del daño psíquico.",
+   "feats": [
+    "Acontecimiento potencialmente lesivo para la moral (PMIE): actos de comisión u omisión, ser testigo de inhumanidad grave o ser víctima de traiciones de confianza o de fallos sistémicos graves de protección (Litz 2022)",
+    "Secuelas descritas en 116 estudios: biológicas, psicológicas o conductuales, sociales y religiosas o espirituales (Griffin 2019)",
+    "MIES (Nash 2013): nueve ítems autoaplicados en marines, con dos factores (transgresiones percibidas y traiciones percibidas); en dos muestras militares se replicaron tres factores: transgresiones ajenas, propias y traición (Bryan 2016)",
+    "MIOS (Litz 2022): consorcio internacional; de 34 ítems iniciales quedaron 14, invariantes entre países, con dos factores: consecuencias ligadas a la vergüenza y a la violación de la confianza",
+    "En sanitarios, los desencadenantes son individuales, relacionales y organizativos; en la pandemia destacaron la falta de recursos y los cambios bruscos de normas impuestos desde arriba (Beadle 2024)",
+    "No es una categoría del DSM-5-TR ni de la CIE-11; la investigación se ha ampliado de militares a sanitarios y refugiados (ter Heide y Olff 2023)"
+   ],
+   "tx": "Valorar el TEPT, la depresión, el consumo de sustancias y el riesgo suicida con los instrumentos habituales. Tratar el TEPT comórbido con terapias centradas en el trauma: la exposición a acontecimientos lesivos para la moral no impidió la respuesta al tratamiento del TEPT en los trabajos revisados por ter Heide y Olff (2023). Abordar explícitamente la culpa, la vergüenza y la reparación (perdón, compasión, acciones reparadoras), y en sanitarios actuar también sobre la organización.",
+   "note": "Constructo en maduración: no hay definición de consenso ni medida de referencia, la mayoría de estudios son militares y transversales y los clínicos tienen muestras pequeñas (Griffin 2019). La investigación en refugiados es escasa (dos trabajos en la colección de ter Heide y Olff 2023; la carta de Nickerson 2015 carece de resumen). Homonimia: el «daño moral» jurídico (Ley 35/2015, perjuicio moral) es otra cosa y se trata en dano_psiquico.",
+   "sec": [
+    {
+     "t": "Origen del concepto: Shay y Litz",
+     "x": "Jonathan Shay, psiquiatra de veteranos de Vietnam, introdujo el término a partir de la comparación entre los combatientes y la Ilíada: el daño nace de la traición a «lo que es correcto» por parte de quien tiene autoridad legítima en una situación de alto riesgo [fuente no localizada para la definición literal]. En un ensayo posterior, Shay (2011) prefiere hablar de «lesión psicológica» antes que de TEPT, por menos estigmatizante, y equipara el daño moral a la contaminación de una herida, que es lo que con más frecuencia arruina la vida de veteranos y militares. Litz et al. (2009) desplazaron el foco a los actos propios o presenciados: perpetrar, no impedir o presenciar actos que transgreden creencias morales profundas, con efectos duraderos emocionales, psicológicos, conductuales, espirituales y sociales, y propusieron un modelo de trabajo y unas estrategias de reparación moral.",
+     "links": [
+      {
+       "ids": [
+        "neurtraum",
+        "ptsd"
+       ],
+       "t": "trauma de guerra y TEPT"
+      },
+      {
+       "ids": [
+        "del_culpa",
+        "sartre_mala_fe"
+       ],
+       "t": "culpa y vergüenza"
+      }
+     ]
+    },
+    {
+     "t": "Relación y diferencias con el TEPT",
+     "x": "Se solapan en reexperimentación, evitación y alteraciones negativas de la cognición y del estado de ánimo, pero difieren en el núcleo: el TEPT se organiza alrededor de la amenaza y el miedo, y el daño moral alrededor de la culpa, la vergüenza, la ira y la pérdida de confianza en uno mismo, en los demás o en las instituciones [fuente no localizada para la formulación comparativa]. En el análisis de la MIES, las transgresiones de otros y la traición se asociaron sobre todo con el estrés postraumático, mientras que las transgresiones propias lo hicieron con desesperanza, pesimismo e ira (Bryan 2016). El acontecimiento lesivo para la moral no necesita implicar peligro para la vida, por lo que puede no cumplir el criterio A del TEPT. Ter Heide y Olff (2023) dejan abierta la cuestión de si debe ser un diagnóstico formal y subrayan la necesidad de intervenciones específicas.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "desnos"
+       ],
+       "t": "TEPT y TEPT complejo"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ideac_suic"
+       ],
+       "t": "depresión y suicidio"
+      },
+      {
+       "ids": [
+        "pcl5"
+       ],
+       "t": "medida del TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Poblaciones: militares, sanitarios y refugiados",
+     "x": "La mayoría de los datos proceden de militares y veteranos (Griffin 2019). En sanitarios, el concepto ganó protagonismo con la COVID-19: la revisión exploratoria de Čartolovni et al. (2021) halló solo siete artículos empíricos focalizados y plantea que algunos casos de distrés moral se convierten con el tiempo en residuo moral y, en ciertas circunstancias, en daño moral; la revisión sistemática de estudios cualitativos de Beadle et al. (2024), con 49 estudios, ordena los desencadenantes en individuales, sociales y organizativos (jerarquía, normas, carga de trabajo, cultura y recursos). En personas refugiadas, la investigación es incipiente: dos de los 19 trabajos de la colección de ter Heide y Olff (2023), y una carta de Nickerson et al. (2015) que introdujo el término en esta población; las situaciones descritas incluyen haber tenido que abandonar a familiares o presenciar atrocidades [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "refugio_tept",
+        "duelo_migra_ulises"
+       ],
+       "t": "personas refugiadas"
+      },
+      {
+       "ids": [
+        "covid_psiq",
+        "acoso_laboral"
+       ],
+       "t": "sanitarios y entorno laboral"
+      }
+     ]
+    },
+    {
+     "t": "Instrumentos de evaluación",
+     "x": "La Moral Injury Events Scale (MIES) mide la exposición a acontecimientos lesivos para la moral: en marines, de 11 ítems quedaron 9, con dos factores (transgresiones y traiciones), buena consistencia interna y estabilidad entre la primera semana y los tres meses tras el despliegue (Nash 2013); en personal de la Fuerza Aérea y de la Guardia Nacional se obtuvieron tres factores (Bryan 2016). La MIES mezcla exposición y consecuencias, y por eso el consorcio internacional desarrolló la Moral Injury Outcome Scale (MIOS), centrada en las consecuencias: a partir de entrevistas con militares, veteranos, clínicos y capellanes se definieron seis dominios de impacto y una escala de 14 ítems con dos factores, vergüenza y violación de la confianza, con validez convergente, pendiente de validez discriminante e incremental (Yeterian 2019; Litz 2022). No hay versiones españolas validadas localizadas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "pcl5",
+        "cribado_sens_esp"
+       ],
+       "t": "instrumentos y validez"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje y uso pericial",
+     "x": "Los principios son: evaluar la comorbilidad (TEPT, depresión, consumo, riesgo suicida), tratar el TEPT con terapias centradas en el trauma y trabajar de forma explícita la culpa, la vergüenza, el sentido y la reparación. Litz et al. (2009) propusieron estrategias de reparación moral; los trabajos clínicos tienen muestras pequeñas y mecanismos de cambio poco claros (Griffin 2019). Enfoques como la terapia focalizada en la compasión o la logoterapia se emplean por afinidad conceptual, sin ensayos específicos localizados [fuente no localizada]. En sanitarios, Beadle et al. (2024) recomiendan estrategias organizativas además de individuales. En el ámbito pericial español, el término clínico puede ayudar a describir un perjuicio, pero no equivale al daño moral jurídico, que es una categoría indemnizatoria y no requiere diagnóstico psiquiátrico.",
+     "links": [
+      {
+       "ids": [
+        "emdr_proc",
+        "epr"
+       ],
+       "t": "terapias centradas en el trauma"
+      },
+      {
+       "ids": [
+        "cft",
+        "logoter"
+       ],
+       "t": "compasión y sentido"
+      },
+      {
+       "ids": [
+        "dano_psiquico",
+        "perit_forense"
+       ],
+       "t": "daño moral jurídico y pericia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Litz BT et al. (2009). Moral injury and moral repair in war veterans: a preliminary model and intervention strategy. Clin Psychol Rev 29:695-706 · PMID 19683376",
+    "Shay J (1994). Achilles in Vietnam: combat trauma and the undoing of character. Nueva York: Atheneum [no verificada]",
+    "Shay J (2011). Casualties. Daedalus 140:179-188 · PMID 21898967",
+    "Nash WP et al. (2013). Psychometric evaluation of the Moral Injury Events Scale. Mil Med 178:646-652 · PMID 23756071",
+    "Bryan CJ et al. (2016). Measuring moral injury: psychometric properties of the Moral Injury Events Scale in two military samples. Assessment 23:557-570 · PMID 26092043",
+    "Yeterian JD et al. (2019). Defining and measuring moral injury: rationale, design, and preliminary findings from the Moral Injury Outcome Scale Consortium. J Trauma Stress 32:363-372 · PMID 30947372",
+    "Litz BT et al. (2022). Defining and assessing the syndrome of moral injury: initial findings of the Moral Injury Outcome Scale Consortium. Front Psychiatry 13:923928 · PMID 35873252",
+    "Griffin BJ et al. (2019). Moral injury: an integrative review. J Trauma Stress 32:350-362 · PMID 30688367",
+    "Čartolovni A et al. (2021). Moral injury in healthcare professionals: a scoping review and discussion. Nurs Ethics 28:590-602 · PMID 33427020",
+    "Beadle ES et al. (2024). Triggers and factors associated with moral distress and moral injury in health and social care workers: a systematic review of qualitative studies. PLoS One 19:e0303013 · PMID 38935754",
+    "Nickerson A et al. (2015). Moral injury in traumatized refugees. Psychother Psychosom 84:122-123 · PMID 25720427",
+    "ter Heide FJJ & Olff M (2023). Widening the scope: defining and treating moral injury in diverse populations. Eur J Psychotraumatol 14:2196899 · PMID 37078186"
+   ],
+   "rel": [
+    "ptsd",
+    "desnos",
+    "refugio_tept",
+    "covid_psiq",
+    "dano_psiquico",
+    "del_culpa",
+    "neurtraum",
+    "ideac_suic"
+   ]
+  },
+  {
+   "id": "tp_cie11",
+   "n": "Trastornos de la personalidad en la CIE-11: gravedad, dominios de rasgos y patrón límite",
+   "ab": "TP CIE-11",
+   "al": [
+    "modelo CIE-11 de la personalidad",
+    "ICD-11 personality disorder",
+    "dificultad de la personalidad",
+    "6D10",
+    "6D11"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "tp",
+   "ring": 1,
+   "trad": "cie",
+   "cs": "h",
+   "ev": "crit",
+   "y": 2019,
+   "tags": [],
+   "cie": [
+    "6D10",
+    "6D11",
+    "QE50.7"
+   ],
+   "desc": "La CIE-11 suprime las categorías específicas de trastorno de la personalidad y las sustituye por un diagnóstico único, el trastorno de la personalidad (6D10), graduado en leve (6D10.0), moderado (6D10.1) y grave (6D10.2), que puede especificarse con uno o más de cinco dominios de rasgos prominentes (6D11.0-6D11.4: afectividad negativa, desapego, disocialidad, desinhibición y anancastia) y con un calificador opcional de patrón límite (6D11.5). Por debajo del umbral queda la dificultad de la personalidad (QE50.7), que no es un trastorno mental sino un factor que influye en el estado de salud. Tyrer et al. (2019) lo describen como el cambio más radical de la historia de la clasificación de la personalidad, fruto de ciencia, pragmatismo y política: el patrón límite se añadió como concesión a quienes defendían conservar la categoría. Todos los códigos se han comprobado en la tabulación de la CIE-11 MMS.",
+   "feats": [
+    "Paso 1: gravedad. Cinco niveles en la práctica: sin alteración, dificultad de la personalidad (QE50.7), trastorno leve, moderado y grave (Tyrer 2019); códigos 6D10.0-6D10.2 y 6D10.Z para gravedad no especificada",
+    "Paso 2: hasta cinco dominios de rasgos prominentes (6D11.0-6D11.4), que pueden aplicarse tanto al trastorno como a la dificultad de la personalidad, según el propio título de cada código",
+    "Patrón límite (6D11.5): calificador opcional tras fijar la gravedad, introducido como compromiso ante la resistencia a abandonar el diagnóstico categorial del trastorno límite (Tyrer 2019)",
+    "La gravedad se considera el principal predictor del pronóstico y una razón central del cambio, junto con la complejidad innecesaria y la incoherencia de las categorías con los datos sobre rasgos normales (Mulder 2021)",
+    "Instrumentos: SASPD para la gravedad (Olajide 2018: AUC 0,86 para leve y 0,84 para moderado, fiabilidad test-retest 0,93) y PiCD para los dominios (Oltmanns y Widiger 2018; Carnovale 2020)",
+    "Exige un patrón persistente de alteración del funcionamiento del self y de las relaciones interpersonales, de larga evolución (orientativamente dos años o más) [fuente no localizada para la redacción literal de la CIE-11]"
+   ],
+   "tx": "La gravedad orienta la intensidad del tratamiento y los dominios su foco y estilo (Bach y First 2018, citado en la ficha de modelos dimensionales). Los tratamientos psicológicos con evidencia para el trastorno límite se aplican cuando hay patrón límite; en otros perfiles, intervenciones estructuradas adaptadas a los dominios dominantes. No hay fármacos con indicación para el trastorno de la personalidad como tal.",
+   "note": "Modelo oficial en vigor desde 2022, con investigación todavía limitada y muchos estudios basados en medidas no derivadas directamente de la descripción de la CIE-11 (Huprich 2020). No se ha consultado el texto literal de las descripciones clínicas y requisitos diagnósticos de la OMS; los detalles operativos (duración, descriptores de cada nivel) van marcados. Complementa la ficha hitop_tp, que compara en general HiTOP, el modelo alternativo del DSM-5 y la CIE-11; aquí se detalla la estructura operativa de la CIE-11.",
+   "sec": [
+    {
+     "t": "Niveles de gravedad",
+     "x": "La dificultad de la personalidad (QE50.7) describe problemas de personalidad persistentes que causan algunas dificultades, sin alcanzar el umbral de trastorno; se codifica en el capítulo de factores que influyen en el estado de salud y no como trastorno mental. El trastorno leve (6D10.0) afecta a algunas áreas del funcionamiento y suele no asociarse a daño sustancial a sí mismo o a otros; el moderado (6D10.1) afecta a múltiples áreas; el grave (6D10.2) supone alteración grave en casi todas las áreas, con frecuencia asociada a daño a sí mismo o a otros [fuente no localizada para los descriptores literales de cada nivel]. La gravedad se valora integrando el funcionamiento del self (identidad, autoestima, autodirección) y el interpersonal, el alcance y la generalización de la alteración y sus manifestaciones emocionales, cognitivas y conductuales [fuente no localizada]. Para el cribado de la gravedad se dispone de la SASPD, breve y fiable para detectar trastorno leve o moderado (Olajide 2018).",
+     "links": [
+      {
+       "ids": [
+        "tlp",
+        "tpanti"
+       ],
+       "t": "gravedad y riesgo"
+      },
+      {
+       "ids": [
+        "pid5_lpfs",
+        "entrevistas"
+       ],
+       "t": "evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Los cinco dominios de rasgos",
+     "x": "Afectividad negativa (6D11.0): tendencia a experimentar emociones negativas intensas y frecuentes. Desapego (6D11.1): distancia interpersonal y emocional. Disocialidad (6D11.2): desprecio por los derechos y sentimientos ajenos, egocentrismo y falta de empatía. Desinhibición (6D11.3): actuar impulsivamente según estímulos inmediatos sin considerar consecuencias. Anancastia (6D11.4): foco rígido en estándares de perfección y en controlar la conducta propia y ajena [fuente no localizada para las definiciones literales]. Los dominios no son tipos: se asignan tantos como sean prominentes. En el análisis estructural del PiCD en 518 estudiantes surgió una solución de cuatro factores con un continuo bipolar entre anancastia y desinhibición, y menor apoyo a la validez de estos dos dominios que a los otros tres (Carnovale 2020). La revisión exploratoria de Gecaite-Stonciene et al. (2021) halló que la anancastia se solapa con los rasgos del trastorno obsesivo-compulsivo de la personalidad del DSM-5 y tiene apoyo factorial.",
+     "links": [
+      {
+       "ids": [
+        "tpobs",
+        "anancasmo"
+       ],
+       "t": "anancastia"
+      },
+      {
+       "ids": [
+        "tpanti",
+        "tpnarc"
+       ],
+       "t": "disocialidad"
+      },
+      {
+       "ids": [
+        "tp_esquizoide",
+        "tpev"
+       ],
+       "t": "desapego"
+      },
+      {
+       "ids": [
+        "tlp",
+        "tpdep"
+       ],
+       "t": "afectividad negativa"
+      }
+     ]
+    },
+    {
+     "t": "Comparación con el modelo alternativo del DSM-5-TR (sección III)",
+     "x": "Ambos modelos parten de un criterio de funcionamiento y un perfil de rasgos. El modelo alternativo del DSM-5-TR mide el criterio A con la Escala de Nivel de Funcionamiento de la Personalidad (identidad, autodirección, empatía e intimidad) y el criterio B con 25 facetas en cinco dominios: afecto negativo, desapego, antagonismo, desinhibición y psicoticismo; además conserva seis trastornos específicos definidos por combinaciones de A y B (antisocial, evitativo, límite, narcisista, obsesivo-compulsivo y esquizotípico) y el diagnóstico de rasgo especificado. La CIE-11 no mantiene ningún tipo salvo el patrón límite, sustituye el psicoticismo por la anancastia y clasifica el trastorno esquizotípico con los trastornos psicóticos primarios (6A22). Mulder (2021) subraya la considerable alineación entre ambos sistemas. En España el DSM-5-TR sigue usando en la práctica las diez categorías de su sección II, lo que obliga a traducir entre sistemas en los informes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "pid5_lpfs",
+        "hitop_tp"
+       ],
+       "t": "modelo alternativo del DSM-5 y modelos dimensionales"
+      },
+      {
+       "ids": [
+        "esqtpersonalidad",
+        "tpb"
+       ],
+       "t": "categorías que desaparecen en la CIE-11"
+      }
+     ]
+    },
+    {
+     "t": "Ventajas, críticas e implicaciones clínicas",
+     "x": "Ventajas declaradas: simplicidad, coherencia con la investigación sobre rasgos, menor comorbilidad artificial entre categorías y protagonismo de la gravedad, principal predictor de la evolución (Mulder 2021; Tyrer 2019). Críticas: buena parte de los estudios de apoyo utilizan medidas no derivadas directamente de la descripción de la CIE-11, y persisten dudas sobre la utilidad clínica del cambio (Huprich 2020); la aceptación por los clínicos es condición para el éxito del modelo (Mulder 2021). Se pierde continuidad con la literatura categorial y con los tratamientos diseñados para categorías concretas, salvo el trastorno límite, que se preserva mediante el calificador. En el ámbito pericial, el diagnóstico por gravedad puede describir mejor el impacto funcional, pero su correspondencia con la jurisprudencia construida sobre categorías no está establecida [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "p_factor",
+        "hitop_tp"
+       ],
+       "t": "factor general y gravedad"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "uso pericial"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "CIE-11 (2019), 6D10 Trastorno de la personalidad (6D10.0-6D10.2, 6D10.Z), 6D11 Rasgos o patrones prominentes de la personalidad (6D11.0-6D11.5) y QE50.7 Dificultad de la personalidad (OMS; códigos comprobados en la tabulación MMS, versión de enero de 2025)",
+    "DSM-5-TR (2022), Sección III: Modelo alternativo de los trastornos de la personalidad",
+    "Tyrer P et al. (2019). The development of the ICD-11 classification of personality disorders: an amalgam of science, pragmatism, and politics. Annu Rev Clin Psychol 15:481-502 · PMID 30601688",
+    "Mulder RT (2021). ICD-11 personality disorders: utility and implications of the new model. Front Psychiatry 12:655548 · PMID 34040555",
+    "Huprich SK (2020). Personality disorders in the ICD-11: opportunities and challenges for advancing the diagnosis of personality pathology. Curr Psychiatry Rep 22:40 · PMID 32519211",
+    "Olajide K et al. (2018). Development and psychometric properties of the Standardized Assessment of Severity of Personality Disorder (SASPD). J Pers Disord 32:44-56 · PMID 28513349",
+    "Carnovale M, Sellbom M & Bagby RM (2020). The Personality Inventory for ICD-11: investigating reliability, structural and concurrent validity, and method variance. Psychol Assess 32:8-17 · PMID 31556679",
+    "Gecaite-Stonciene J et al. (2021). Obsessive-compulsive (anankastic) personality disorder in the ICD-11: a scoping review. Front Psychiatry 12:646030 · PMID 33796036",
+    "Bach B & First MB (2018). Application of the ICD-11 classification of personality disorders. BMC Psychiatry 18:351 · PMID 30373564"
+   ],
+   "rel": [
+    "hitop_tp",
+    "pid5_lpfs",
+    "tlp",
+    "tpobs",
+    "tpanti",
+    "p_factor",
+    "tpb",
+    "tp_esquizoide"
+   ]
+  },
+  {
+   "id": "pers_depresiva",
+   "n": "Personalidad depresiva y temperamento depresivo (tradición clásica)",
+   "ab": "Pers. depresiva",
+   "al": [
+    "temperamento depresivo",
+    "depressive Veranlagung",
+    "psicópatas depresivos (Schneider)",
+    "trastorno depresivo de la personalidad (DSM-IV, apéndice B)",
+    "depressive personality disorder"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "tp",
+   "ring": 5,
+   "trad": "classic",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1923,
+   "tags": [
+    "akiskal",
+    "chr"
+   ],
+   "desc": "Modo de ser duradero marcado por el pesimismo, la tendencia a la tristeza y al abatimiento, la autocrítica, la seriedad y la incapacidad de disfrute, descrito por la psiquiatría alemana (Kraepelin, Schneider) y por el psicoanálisis, y retomado por Akiskal como temperamento depresivo dentro del espectro afectivo. Estuvo incluido en la CIE-9 pero nunca como categoría oficial del DSM (Phillips 1990); el DSM-IV lo situó en el apéndice B de criterios en estudio, y desapareció en el DSM-5. Su frontera con la distimia fue el centro del debate: los rasgos depresivos de personalidad existen y pueden medirse con fiabilidad, pero no está justificado un trastorno discreto, y se proponen como dimensión de un modelo general de la personalidad (Ryder 2002). No debe confundirse con el typus melancholicus de Tellenbach, que describe la personalidad premórbida de la melancolía.",
+   "feats": [
+    "Kraepelin: disposición depresiva como uno de los estados fundamentales de la locura maníaco-depresiva, continuo con los episodios [fuente no localizada para la cita textual del Lehrbuch]",
+    "Schneider (1923): los psicópatas depresivos, una de sus personalidades psicopáticas, con pesimismo, escepticismo, seriedad y disposición sombría [fuente no localizada para la cita textual]; su constructo mostró fiabilidad interevaluadores y estabilidad aceptables en 177 pacientes ambulatorios (Klein 1990)",
+    "Akiskal (1983): las distimias subafectivas, de inicio precoz y entendidas como formas atenuadas de trastornos afectivos primarios, se distinguen de los trastornos del espectro caracterial por antecedentes familiares, latencia REM y respuesta a fármacos",
+    "Incluida en la CIE-9 y nunca reconocida en el DSM (Phillips 1990); apéndice B del DSM-IV (Ryder 2002); ausente del DSM-5-TR y de la CIE-11",
+    "Relación con la distimia: asociación significativa, pero la personalidad depresiva no queda totalmente subsumida por los trastornos del estado de ánimo (Klein 1990); revisiones discrepantes sobre su distintividad (Huprich 1998; Ryder 2002)"
+   ],
+   "tx": "Como rasgo, no tiene tratamiento propio. Ante un patrón depresivo crónico debe valorarse siempre un trastorno depresivo persistente o recurrente, con su tratamiento basado en guías, y explorar el espectro bipolar (temperamentos, antecedentes familiares) antes de pautar antidepresivos. La psicoterapia puede abordar el estilo cognitivo pesimista y la autocrítica.",
+   "note": "Constructo histórico sin vigencia en las clasificaciones actuales. Las afirmaciones sobre los textos de Kraepelin, Schneider y Tellenbach no se han contrastado en las ediciones originales y van marcadas; las de los artículos se apoyan en sus resúmenes indexados. No duplica las fichas de estados fundamentales de Kraepelin, personalidades psicopáticas de Schneider ni typus melancholicus, a las que remite.",
+   "sec": [
+    {
+     "t": "Kraepelin, Schneider y Tellenbach",
+     "x": "En la tradición alemana coexistieron dos lecturas. Para Kraepelin, la disposición depresiva era un estado fundamental de la locura maníaco-depresiva: una forma permanente y atenuada de la enfermedad, en continuidad con los episodios [fuente no localizada para la cita textual] (véase la ficha de estados fundamentales). Para Kurt Schneider, en Die psychopathischen Persönlichkeiten (1923), los depresivos eran una variante anormal de la personalidad, no de la enfermedad: personas de humor permanentemente sombrío, pesimistas, escépticas, serias, con dificultad para la alegría y tendencia a la reflexión dolorosa [fuente no localizada para la descripción literal]. Tellenbach, en Melancholie (1961), describió algo distinto: el typus melancholicus, personalidad ordenada, escrupulosa y dependiente del orden, que predispone a la melancolía, pero que no es triste por sí misma [fuente no localizada para la comparación]. La psiquiatría psicoanalítica describió un carácter depresivo o masoquista con rasgos solapados (Phillips 1990).",
+     "links": [
+      {
+       "ids": [
+        "kraep_grund",
+        "kraepelin_1913",
+        "locura_md"
+       ],
+       "t": "Kraepelin"
+      },
+      {
+       "ids": [
+        "psicopat_sch",
+        "schneider_1950"
+       ],
+       "t": "Schneider"
+      },
+      {
+       "ids": [
+        "tellenbach",
+        "vongebsatt"
+       ],
+       "t": "Tellenbach y la fenomenología de la melancolía"
+      }
+     ]
+    },
+    {
+     "t": "Akiskal y el temperamento depresivo",
+     "x": "Akiskal (1983) desglosó las depresiones crónicas leves en tres grupos: depresiones primarias de inicio tardío con cronicidad residual, disforias secundarias crónicas y depresiones caracteriales de inicio precoz; estas últimas incluían los trastornos del espectro caracterial, ligados a relaciones objetales tempestuosas, y las distimias subafectivas, que concibió como formas genéticamente atenuadas de los trastornos afectivos primarios, con criterios operativos para identificar un grupo con respuesta a timolépticos. De ahí deriva el temperamento depresivo, uno de los temperamentos afectivos del espectro bipolar junto al hipertímico, el ciclotímico y el irritable [fuente no localizada para la lista y los criterios del temperamento]. En este marco, la personalidad depresiva sería la base temperamental de la distimia y, en algunos casos, del espectro bipolar, lo que tiene implicaciones para el uso de antidepresivos.",
+     "links": [
+      {
+       "ids": [
+        "akiskal_hit",
+        "tempht",
+        "tempcicl"
+       ],
+       "t": "temperamentos afectivos de Akiskal"
+      },
+      {
+       "ids": [
+        "cicl",
+        "bp2h"
+       ],
+       "t": "espectro bipolar"
+      },
+      {
+       "ids": [
+        "persona"
+       ],
+       "t": "temperamento y personalidad premórbida"
+      }
+     ]
+    },
+    {
+     "t": "Relación con la distimia y exclusión de las clasificaciones",
+     "x": "Phillips et al. (1990) revisaron el constructo ante el DSM-IV: había sido descrito por fenomenólogos alemanes y psicoanalistas, estaba en la CIE-9 y nunca había figurado en el DSM. El DSM-IV lo incluyó en el apéndice B como trastorno depresivo de la personalidad. Klein (1990) mostró fiabilidad y validez preliminares del constructo de Schneider y una relación significativa, pero no total, con la distimia. Huprich (1998) concluyó que los datos apoyaban su distintividad diagnóstica en población clínica. Ryder et al. (2002), en cambio, revisaron el solapamiento con la distimia según los criterios de validación de Robins y Guze y concluyeron que los rasgos depresivos existen pero no justifican un trastorno discreto, y que se conceptualizan mejor de forma dimensional dentro del modelo de cinco factores. El DSM-5 no conservó la categoría y la CIE-10 la recogía como término incluido en la distimia [fuente oficial no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddp",
+        "sub"
+       ],
+       "t": "distimia y depresión subumbral"
+      },
+      {
+       "ids": [
+        "hitop_tp",
+        "tp_cie11"
+       ],
+       "t": "modelos dimensionales actuales"
+      }
+     ]
+    },
+    {
+     "t": "Valor clínico actual",
+     "x": "Aunque no sea un diagnóstico, el concepto conserva utilidad clínica: obliga a preguntar por el curso de la vida y no solo por el episodio, a distinguir un modo de ser de una depresión crónica tratable y a explorar los antecedentes familiares afectivos. En la CIE-11, el perfil se describiría con el dominio de afectividad negativa y, a veces, de desapego, con o sin trastorno de la personalidad según el grado de disfunción [fuente no localizada para la correspondencia]. El riesgo principal es doble: etiquetar como personalidad una distimia o una depresión recurrente que responderían a tratamiento, o tratar como depresión unipolar un temperamento del espectro bipolar. La autocrítica y el pesimismo crónicos son dianas de la terapia cognitiva y de otras psicoterapias [fuente no localizada para la eficacia específica en este constructo].",
+     "links": [
+      {
+       "ids": [
+        "ddp",
+        "ddm"
+       ],
+       "t": "depresión crónica tratable"
+      },
+      {
+       "ids": [
+        "tcc_dep",
+        "ipt_dep"
+       ],
+       "t": "psicoterapias de la depresión"
+      },
+      {
+       "ids": [
+        "tp_cie11"
+       ],
+       "t": "afectividad negativa en la CIE-11"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Kraepelin E (1913). Psychiatrie. Ein Lehrbuch für Studierende und Ärzte, 8.ª ed., vol. III. Leipzig: Barth [no verificada]",
+    "Schneider K (1923). Die psychopathischen Persönlichkeiten. Leipzig: Thieme [no verificada]",
+    "Tellenbach H (1961). Melancholie. Berlín: Springer [no verificada]",
+    "Akiskal HS (1983). Dysthymic disorder: psychopathology of proposed chronic depressive subtypes. Am J Psychiatry 140:11-20 · PMID 6336637",
+    "Phillips KA et al. (1990). A review of the depressive personality. Am J Psychiatry 147:830-837 · PMID 2192561",
+    "Klein DN (1990). Depressive personality: reliability, validity, and relation to dysthymia. J Abnorm Psychol 99:412-421 · PMID 2266217",
+    "Huprich SK (1998). Depressive personality disorder: theoretical issues, clinical findings, and future research questions. Clin Psychol Rev 18:477-500 · PMID 9740975",
+    "Ryder AG, Bagby RM & Schuller DR (2002). The overlap of depressive personality disorder and dysthymia: a categorical problem with a dimensional solution. Harv Rev Psychiatry 10:337-352 · PMID 12485980",
+    "DSM-IV (1994), Apéndice B: Trastorno depresivo de la personalidad"
+   ],
+   "rel": [
+    "ddp",
+    "kraep_grund",
+    "psicopat_sch",
+    "tellenbach",
+    "akiskal_hit",
+    "tempht",
+    "persona",
+    "hitop_tp"
+   ]
+  },
+  {
+   "id": "fragil_dep",
+   "n": "Fragilidad y depresión en la persona mayor",
+   "ab": "Fragilidad y depresión",
+   "al": [
+    "frailty and depression",
+    "fenotipo de fragilidad de Fried",
+    "depresión con fragilidad",
+    "frail-depressed phenotype"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "ger",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2001,
+   "tags": [
+    "elderly",
+    "chr",
+    "organic"
+   ],
+   "desc": "La fragilidad es un síndrome geriátrico de vulnerabilidad aumentada; en el fenotipo de Fried (2001) se define por tres o más de cinco criterios: pérdida de peso involuntaria, agotamiento referido, debilidad (fuerza de prensión), marcha lenta y baja actividad física. Comparte con la depresión de la persona mayor varios de esos componentes (agotamiento, inactividad, enlentecimiento, pérdida de peso), lo que dificulta separarlas. El metaanálisis de Soysal (2017) mostró una relación recíproca: alrededor del 39 % de las personas frágiles tienen depresión y alrededor del 40 % de las deprimidas son frágiles, y cada condición aumenta el riesgo de desarrollar la otra. La combinación tiene peor pronóstico (mortalidad) y peor respuesta a los antidepresivos (Brown 2021; Brown 2022). La apatía es un puente clínico entre ambas.",
+   "feats": [
+    "Fenotipo de Fried (Cardiovascular Health Study, 5317 personas de 65 años o más): fragilidad con tres o más criterios, prefragilidad con uno o dos; prevalencia del 6,9 % e incidencia a cuatro años del 7,2 %; predice caídas, discapacidad, hospitalización y muerte (Fried 2001)",
+    "Soysal (2017), 24 estudios: depresión en el 38,6 % de las personas frágiles y fragilidad en el 40,4 % de las deprimidas; la depresión se asoció con fragilidad incidente (OR 3,72) y, en dos estudios, la fragilidad con depresión incidente (OR 1,90)",
+    "La relación depresión → fragilidad incidente es robusta; la inversa es menos concluyente, y la variabilidad de las medidas puede confundir ambos síndromes (Vaughan 2015)",
+    "La apatía, medida con tres ítems de la GDS e independiente del resto de síntomas depresivos, predijo marcha lenta (HR 2,10), fragilidad (HR 2,86) y discapacidad (HR 3,43) incidentes en mayores sin demencia (Ayers 2017)",
+    "En la depresión tardía, la fragilidad se asoció a menor mejoría con antidepresivos (2,82 puntos menos en la HRSD), pese a recibir más ensayos de fármacos (Brown 2021)",
+    "La CIE-11 no tiene un código específico de fragilidad en la tabulación MMS; el código próximo MG2A describe el declive de la capacidad intrínseca asociado al envejecimiento (comprobado en la tabulación de enero de 2025)"
+   ],
+   "tx": "Evaluación integral (valoración geriátrica, fragilidad, cognición, nutrición, polifarmacia y riesgo de caídas) junto con la psiquiátrica. Tratamiento de la depresión según guías, con prudencia por la vulnerabilidad farmacológica, y abordaje simultáneo de los componentes físicos (actividad física, fuerza, nutrición) y de la apatía; la respuesta antidepresiva sola no mejora la fragilidad (Brown 2022).",
+   "note": "La mayoría de los estudios son observacionales y usan medidas de cribado de síntomas depresivos, no diagnósticos estructurados; muchos se centran en mujeres y en población blanca (Mezuk 2012). No hay ensayos que demuestren que tratar la depresión prevenga la fragilidad o viceversa. Las intervenciones físicas se recomiendan por la evidencia sobre fragilidad en general [fuente no localizada para su eficacia sobre la depresión en personas frágiles].",
+   "sec": [
+    {
+     "t": "Solapamiento conceptual y diagnóstico",
+     "x": "Tres de los cinco criterios de Fried (agotamiento, baja actividad y marcha lenta) y la pérdida de peso pueden ser también síntomas de depresión, por lo que una persona mayor deprimida puede puntuar como frágil y una persona frágil como deprimida. Vaughan et al. (2015), en 14 estudios comunitarios que usaron el fenotipo de Fried, señalan que la variabilidad en la medida de la sintomatología depresiva y la inclusión de personas con depresión grave, deterioro cognitivo, demencia o ictus pueden confundir el síndrome de fragilidad con desenlaces de una sola enfermedad. Mezuk et al. (2012) añaden que ningún estudio de su revisión usó medidas diagnósticas de depresión. En la práctica conviene medir de forma objetiva la fuerza de prensión y la velocidad de la marcha y explorar los síntomas nucleares afectivos (tristeza, anhedonia, culpa) para no atribuir todo a uno de los dos síndromes [fuente no localizada para la recomendación operativa].",
+     "links": [
+      {
+       "ids": [
+        "dep_tardia",
+        "fatdep"
+       ],
+       "t": "depresión tardía y fatiga"
+      },
+      {
+       "ids": [
+        "gds15",
+        "dd_dep_dem"
+       ],
+       "t": "cribado y diferencial"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      }
+     ]
+    },
+    {
+     "t": "El papel de la apatía",
+     "x": "La apatía es un síndrome conductual que se ha propuesto que comparte vías neurofisiológicas con la fragilidad. En 1679 mayores sin demencia del estudio MAPT, quienes tenían apatía tenían más del doble de probabilidad de ser frágiles (OR 2,20) y una probabilidad 3,5 veces mayor de ser frágiles que robustos (Parrotta 2020), aunque el diseño era transversal. En dos cohortes prospectivas (LonGenity y CCMA; 937 personas), la apatía tuvo una prevalencia del 20 % y el 26 % y predijo fragilidad incidente con independencia de los demás síntomas depresivos, de la enfermedad médica y de la cognición (Ayers 2017). La apatía puede confundirse con la depresión y con la fragilidad, y es frecuente en la enfermedad vascular cerebral y en las demencias, por lo que su hallazgo obliga a explorar también la cognición.",
+     "links": [
+      {
+       "ids": [
+        "apatia",
+        "apatia_dem"
+       ],
+       "t": "apatía"
+      },
+      {
+       "ids": [
+        "dvascular",
+        "dep_tardia_dem"
+       ],
+       "t": "depresión vascular y demencia"
+      }
+     ]
+    },
+    {
+     "t": "Implicaciones pronósticas",
+     "x": "El fenotipo de Fried predijo caídas, empeoramiento de la movilidad o de la discapacidad, hospitalización y muerte, con cocientes de riesgo ajustados de 1,29 a 2,24 (Fried 2001). En 1027 personas de 75 años de los países nórdicos, la marcha lenta (HR 1,84) y la fatiga (HR 1,94) se asociaron a una progresión más rápida hacia la muerte en las mujeres deprimidas, no en los hombres; en las mujeres, el efecto de la marcha lenta sobre la mortalidad casi se duplicaba en presencia de depresión (Brown 2014). En adultos con depresión tardía, la fragilidad estaba presente en el 25 % (45,5 % con puntos de corte clínicos de marcha y actividad) y se asociaba a mayor gravedad depresiva, pero no a disfunción neuropsicológica ni a mayor carga de hiperintensidades de sustancia blanca (Brown 2020), lo que sugiere un fenotipo distinto de la depresión vascular.",
+     "links": [
+      {
+       "ids": [
+        "suic_mayor",
+        "dep_tardia"
+       ],
+       "t": "mortalidad y suicidio en la vejez"
+      },
+      {
+       "ids": [
+        "dvascular"
+       ],
+       "t": "depresión vascular"
+      }
+     ]
+    },
+    {
+     "t": "Implicaciones terapéuticas",
+     "x": "En un ensayo de ocho semanas con antidepresivos seguido de diez meses abiertos, las 49 personas frágiles mejoraron 2,82 puntos menos en la HRSD que las no frágiles, diferencia que persistió; la debilidad de prensión y la baja actividad física se asociaron con menor respuesta y remisión, y las personas frágiles recibieron más ensayos de fármacos (Brown 2021). En 121 personas de 60 años o más tratadas con escitalopram o duloxetina frente a placebo y después de forma abierta, la clase con riesgo alto y estable de fragilidad (37 %) tuvo tasas de respuesta y remisión al menos 21 puntos porcentuales peores, y alcanzar la respuesta apenas modificó la fragilidad (Brown 2022). De ahí la recomendación de medir la fragilidad en la evaluación psiquiátrica de la persona mayor deprimida y de combinar el tratamiento de la depresión con intervenciones sobre la movilidad, la fuerza, la nutrición y la polifarmacia [fuente no localizada para la eficacia de la combinación].",
+     "links": [
+      {
+       "ids": [
+        "polifarm",
+        "fk_mayor",
+        "bzd_mayor"
+       ],
+       "t": "farmacoterapia en la persona mayor"
+      },
+      {
+       "ids": [
+        "isrs"
+       ],
+       "t": "antidepresivos"
+      },
+      {
+       "ids": [
+        "soledad",
+        "duelo_vejez"
+       ],
+       "t": "factores sociales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Fried LP et al. (2001). Frailty in older adults: evidence for a phenotype. J Gerontol A Biol Sci Med Sci 56:M146-M156 · PMID 11253156",
+    "Soysal P et al. (2017). Relationship between depression and frailty in older adults: a systematic review and meta-analysis. Ageing Res Rev 36:78-87 · PMID 28366616",
+    "Vaughan L, Corbin AL & Goveas JS (2015). Depression and frailty in later life: a systematic review. Clin Interv Aging 10:1947-1958 · PMID 26719681",
+    "Mezuk B et al. (2012). Depression and frailty in later life: a synthetic review. Int J Geriatr Psychiatry 27:879-892 · PMID 21984056",
+    "Ayers E et al. (2017). Symptoms of apathy independently predict incident frailty and disability in community-dwelling older adults. J Clin Psychiatry 78:e529-e536 · PMID 28406265",
+    "Parrotta I et al. (2020). The association between apathy and frailty in older adults: a new investigation using data from the MAPT study. Aging Ment Health 24:1985-1989 · PMID 31411039",
+    "Brown PJ et al. (2014). Frailty and depression in older adults: a high-risk clinical population. Am J Geriatr Psychiatry 22:1083-1095 · PMID 23973252",
+    "Brown PJ et al. (2020). Frailty and its correlates in adults with late life depression. Am J Geriatr Psychiatry 28:145-154 · PMID 31734083",
+    "Brown PJ et al. (2021). Frailty worsens antidepressant treatment outcomes in late life depression. Am J Geriatr Psychiatry 29:944-955 · PMID 33388223",
+    "Brown PJ et al. (2022). Frailty and depression in late life: a high-risk comorbidity with distinctive clinical presentation and poor antidepressant response. J Gerontol A Biol Sci Med Sci 77:1055-1062 · PMID 34758065"
+   ],
+   "rel": [
+    "dep_tardia",
+    "apatia",
+    "apatia_dem",
+    "dvascular",
+    "polifarm",
+    "gds15",
+    "suic_mayor",
+    "fatdep"
+   ]
+  },
+  {
+   "id": "toc_tardio",
+   "n": "TOC de inicio tardío y TOC en la persona mayor",
+   "ab": "TOC inicio tardío",
+   "al": [
+    "late-onset OCD",
+    "TOC adquirido",
+    "TOC secundario",
+    "síndrome obsesivo-compulsivo secundario",
+    "TOC en la vejez"
+   ],
+   "k": "sin",
+   "vw": "nos",
+   "sp": "toc",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1989,
+   "tags": [
+    "elderly",
+    "organic"
+   ],
+   "cie": [
+    "6B20",
+    "6E64"
+   ],
+   "desc": "El trastorno obsesivo-compulsivo suele comenzar en la segunda o tercera década; el inicio después de los 50 años es infrecuente y obliga a buscar una causa orgánica (Weiss y Jenike 2000). La mayoría de las personas mayores con TOC arrastran un trastorno de inicio precoz y curso crónico, mientras que el comienzo de novo en la vejez es raro (Flint 1998). Las causas orgánicas descritas son las lesiones de los ganglios basales (pálido, caudado), por ejemplo tras encefalopatía anóxica o tóxica o ictus (Laplane 1989; Chacko 2000), y las enfermedades neurodegenerativas, sobre todo la demencia frontotemporal, en la que las conductas compulsivas pueden ser síntoma de presentación (Mendez 1997) y forman parte de los criterios diagnósticos de la variante conductual (Rascovsky 2011). Cuando el cuadro se debe a una enfermedad médica, la CIE-11 lo codifica como síndrome obsesivo-compulsivo o relacionado secundario (6E64).",
+   "feats": [
+    "En más de 1000 pacientes con TOC solo 5 comenzaron después de los 50 años, y 4 de ellos tenían lesiones cerebrales en lóbulos frontales y núcleos caudados (Weiss y Jenike 2000)",
+    "Lesiones bilaterales de los núcleos lenticulares, sobre todo del pálido, por encefalopatía anóxica o tóxica: inercia, pérdida de impulso y actividades estereotipadas compulsivas, con hipometabolismo prefrontal en la PET (Laplane 1989)",
+    "Cinco casos de TOC adquirido tardío con lesiones de ganglios basales y síntomas depresivos, fácilmente confundibles con un trastorno delirante (Chacko 2000)",
+    "Demencia frontotemporal: conductas compulsivas como síntoma de presentación en el 38 % frente al 10 % en la enfermedad de Alzheimer (Mendez 1997); conductas obsesivo-compulsivas nuevas o aumentadas en el 49 % y acumulación nueva en el 29 % de 87 pacientes (Mitchell 2019)",
+    "Se han descrito casos de inicio después de los 60 años sin alteración estructural cerebral, y algunos estudios sugieren un tercer pico de inicio tras los 65 años (Fernandes 2021)",
+    "CIE-11: TOC (6B20) si es primario; síndrome obsesivo-compulsivo o relacionado secundario (6E64) si se debe a otra enfermedad (códigos comprobados en la tabulación MMS, enero de 2025)"
+   ],
+   "tx": "Ante un inicio tardío: exploración neurológica, cribado cognitivo y neuroimagen (preferentemente resonancia magnética), revisión de fármacos y tóxicos. Si es primario, tratamiento según guías del TOC (exposición con prevención de respuesta, ISRS) con las precauciones farmacocinéticas de la edad; los datos en mayores proceden de casos y series no controladas (Flint 1998). Si es secundario, tratamiento de la causa y manejo de las conductas en el marco de la enfermedad de base.",
+   "note": "La evidencia es de casos y series pequeñas; no hay estudios poblacionales que establezcan la frecuencia del TOC de inicio tardío ni su proporción orgánica. Las cifras de demencia frontotemporal proceden de centros especializados. La distinción fenomenológica entre obsesiones egodistónicas y estereotipias egosintónicas de la demencia es clínicamente útil pero no siempre nítida [fuente no localizada para su validez].",
+   "sec": [
+    {
+     "t": "Epidemiología y curso",
+     "x": "En la Replicación de la Encuesta Nacional de Comorbilidad estadounidense, la prevalencia del TOC según el DSM-IV fue del 2,3 % a lo largo de la vida y del 1,2 % en doce meses, con predominio de casos de inicio precoz en los hombres (Ruscio 2010). Flint (1998) señaló que es raro que el TOC empiece por primera vez en la vejez, pero que puede persistir desde la juventud, y que, según casos y series no controladas, las personas mayores se benefician de los tratamientos eficaces en adultos jóvenes. Fernandes et al. (2021) revisaron los casos publicados de inicio después de los 60 años: el inicio en la vejez es inusual y se relaciona sobre todo con diagnósticos no psiquiátricos, aunque hay casos sin anomalía cerebral detectable, como el de un hombre de 80 años que describen. En consecuencia, ante un TOC en una persona mayor la primera pregunta es si es de inicio precoz y crónico o verdaderamente tardío [fuente no localizada para el algoritmo].",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "toc_espec"
+       ],
+       "t": "TOC y espectro obsesivo"
+      },
+      {
+       "ids": [
+        "anx_mayor"
+       ],
+       "t": "ansiedad en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Causas orgánicas: ganglios basales y demencia frontotemporal",
+     "x": "Laplane et al. (1989) describieron ocho pacientes con lesiones bilaterales de los núcleos lenticulares, sobre todo del pálido, por encefalopatía anóxica o tóxica, con síndrome pseudofrontal de inercia y pérdida de impulso y, en algunos, actividades estereotipadas compulsivas y obsesivas muy elaboradas, con hipometabolismo prefrontal; los autores lo atribuyen a la disfunción de los circuitos entre la corteza prefrontal y los ganglios basales. En la demencia frontotemporal, Perry et al. (2012) hallaron conductas obsesivo-compulsivas en 9 de 11 pacientes con la variante conductual (comprobación, acumulación, orden, rituales de repetición y limpieza), cuya gravedad se correlacionó con la pérdida de sustancia gris en el globo pálido bilateral, el putamen izquierdo y la corteza temporal lateral. Mitchell et al. (2019) separaron la acumulación, ligada a la variante semántica y a atrofia temporal izquierda, de las conductas obsesivo-compulsivas, ligadas al cíngulo anterior, la amígdala y el hipocampo. Otras causas a considerar son el ictus, la enfermedad de Huntington y la medicación dopaminérgica [fuente no localizada para la revisión sistemática de causas].",
+     "links": [
+      {
+       "ids": [
+        "ftd",
+        "dem"
+       ],
+       "t": "demencia frontotemporal y demencias"
+      },
+      {
+       "ids": [
+        "huntington",
+        "parkinson_psiq",
+        "ictus_dep"
+       ],
+       "t": "otras causas neurológicas"
+      },
+      {
+       "ids": [
+        "acumulacion_mayor",
+        "diog"
+       ],
+       "t": "acumulación en la vejez"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Hay que diferenciar: la depresión con rumiación y la ansiedad generalizada, frecuentes en la vejez; el trastorno delirante, porque los casos adquiridos pueden parecerlo cuando la introspección es pobre (Chacko 2000); la demencia frontotemporal, con conductas perseverativas, estereotipadas o compulsivas y ritualistas que forman parte de sus seis rasgos discriminantes junto con desinhibición, apatía, pérdida de empatía, hiperoralidad y perfil disejecutivo (Rascovsky 2011); las conductas repetitivas de otras demencias, en las que las compulsivas fueron menos frecuentes que en la frontotemporal (Mendez 1997); la acumulación y el autoabandono, y el TOC de inicio precoz no diagnosticado hasta entonces. En la demencia, las conductas suelen carecer de resistencia y de malestar, a diferencia de las obsesiones [fuente no localizada]. La edad de inicio debe reconstruirse con la familia, porque la persona puede situarla de forma imprecisa.",
+     "links": [
+      {
+       "ids": [
+        "tdelirant",
+        "tocp"
+       ],
+       "t": "delirio e introspección pobre"
+      },
+      {
+       "ids": [
+        "dd_dep_dem",
+        "bpsd"
+       ],
+       "t": "depresión, demencia y síntomas conductuales"
+      },
+      {
+       "ids": [
+        "anancasmo"
+       ],
+       "t": "fenomenología obsesiva clásica"
+      }
+     ]
+    },
+    {
+     "t": "Evaluación y principios de tratamiento",
+     "x": "La evaluación de un TOC de inicio tardío incluye historia longitudinal con informantes, Y-BOCS, exploración neurológica (signos extrapiramidales, liberación frontal), cribado cognitivo con atención a funciones ejecutivas y neuroimagen estructural; Weiss y Jenike (2000) y Chacko et al. (2000) documentaron lesiones en la mayoría de sus casos [fuente no localizada para una recomendación de guía sobre neuroimagen sistemática]. El tratamiento del TOC primario sigue las guías (exposición con prevención de respuesta, inhibidores selectivos de la recaptación de serotonina), adaptando el ritmo y vigilando hiponatremia, caídas e interacciones en la persona mayor. En la demencia frontotemporal, el manejo es sobre todo ambiental y de apoyo al cuidador; los datos sobre fármacos para las conductas compulsivas en esta enfermedad son limitados [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ybocs",
+        "mmse_moca"
+       ],
+       "t": "evaluación"
+      },
+      {
+       "ids": [
+        "epr",
+        "isrs"
+       ],
+       "t": "tratamiento del TOC"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "hiponatr_psicof",
+        "polifarm"
+       ],
+       "t": "precauciones en la persona mayor"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Laplane D et al. (1989). Obsessive-compulsive and other behavioural changes with bilateral basal ganglia lesions: a neuropsychological, magnetic resonance imaging and positron tomography study. Brain 112:699-725 · PMID 2786440",
+    "Weiss AP & Jenike MA (2000). Late-onset obsessive-compulsive disorder: a case series. J Neuropsychiatry Clin Neurosci 12:265-268 · PMID 11001607",
+    "Chacko RC, Corbin MA & Harper RG (2000). Acquired obsessive-compulsive disorder associated with basal ganglia lesions. J Neuropsychiatry Clin Neurosci 12:269-272 · PMID 11001608",
+    "Mendez MF et al. (1997). Compulsive behaviors as presenting symptoms of frontotemporal dementia. J Geriatr Psychiatry Neurol 10:154-157 · PMID 9453681",
+    "Perry DC et al. (2012). Voxel-based morphometry in patients with obsessive-compulsive behaviors in behavioral variant frontotemporal dementia. Eur J Neurol 19:911-917 · PMID 22284815",
+    "Mitchell E et al. (2019). Hoarding and obsessive-compulsive behaviours in frontotemporal dementia: clinical and neuroanatomic associations. Cortex 121:443-453 · PMID 31715541",
+    "Rascovsky K et al. (2011). Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia. Brain 134:2456-2477 · PMID 21810890",
+    "Fernandes CP et al. (2021). Very late onset of obsessive-compulsive disorder: case report and review of published cases in those more than 60 years old. J Nerv Ment Dis 209:208-211 · PMID 33315799",
+    "Flint AJ (1998). Management of anxiety in late life. J Geriatr Psychiatry Neurol 11:194-200 · PMID 10230998",
+    "Ruscio AM et al. (2010). The epidemiology of obsessive-compulsive disorder in the National Comorbidity Survey Replication. Mol Psychiatry 15:53-63 · PMID 18725912",
+    "CIE-11 (2019), 6B20 Trastorno obsesivo-compulsivo y 6E64 Síndrome obsesivo-compulsivo o relacionado secundario (OMS; códigos comprobados en la tabulación MMS, versión de enero de 2025)"
+   ],
+   "rel": [
+    "toc_dsm",
+    "ftd",
+    "huntington",
+    "anx_mayor",
+    "dd_dep_dem",
+    "tdelirant",
+    "epr",
+    "acumulacion_mayor"
+   ]
+  },
+  {
+   "id": "acumulacion_mayor",
+   "n": "Trastorno de acumulación en la persona mayor",
+   "ab": "Acumulación (vejez)",
+   "al": [
+    "hoarding disorder in older adults",
+    "acumulación geriátrica",
+    "late-life hoarding"
+   ],
+   "k": "sin",
+   "vw": "nos",
+   "sp": "ger",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2010,
+   "tags": [
+    "elderly",
+    "chr"
+   ],
+   "cie": [
+    "6B24"
+   ],
+   "desc": "El trastorno de acumulación llega con frecuencia a la atención clínica en la vejez, pero casi siempre empieza mucho antes: en 18 personas de 60 años o más el inicio, referido al principio en la edad media, se situaba en realidad en la infancia o la adolescencia, y la gravedad aumentaba con cada década (Ayers 2010). En 82 personas mayores, la mediana de inicio de los síntomas estaba entre los 10 y los 20 años, aunque alrededor de una cuarta parte refería un inicio del cuadro completo después de los 40 (Dozier 2016). En la persona mayor se asocia a deterioro funcional grave, comorbilidad médica y psiquiátrica y disfunción cognitiva (Ayers 2015), y obliga a descartar una acumulación secundaria a demencia, en especial frontotemporal. La terapia CREST, que combina rehabilitación cognitiva y exposición, es el único tratamiento probado en un ensayo aleatorizado en esta población (Ayers 2018).",
+   "feats": [
+    "Inicio temprano y curso progresivo: ningún participante de 60 años o más tuvo inicio tardío; solo el 16 % cumplía criterios de TOC sin contar la acumulación; la mayoría nunca había recibido tratamiento y vivía sola (Ayers 2010)",
+    "En 82 personas mayores, el 23 % situaba el inicio del posible trastorno después de los 40 años; los hombres referían más desorden inicial, y tener un progenitor acumulador se asoció a síntomas iniciales más intensos (Dozier 2016)",
+    "Rasgos geriátricos: deterioro funcional grave, comorbilidad médica y psiquiátrica y disfunción cognitiva; faltaban ensayos controlados hasta 2015 (Ayers 2015)",
+    "CREST frente a gestión de casos geriátrica (58 participantes, 26 sesiones en seis meses con visitas domiciliarias): reducción media del 38 % frente al 25 % en el Saving Inventory-Revised, mantenida a los seis meses (Ayers 2018)",
+    "Acumulación nueva en el 29 % de 87 pacientes con demencia frontotemporal, más en la variante semántica y con atrofia temporal izquierda (Mitchell 2019)"
+   ],
+   "tx": "Evaluación domiciliaria de la seguridad (incendio, caídas, salidas, higiene), de la cognición y de la capacidad de decisión; descartar demencia y otras causas secundarias. Tratamiento psicológico específico adaptado a la edad (CREST: entrenamiento cognitivo en planificación, categorización y resolución de problemas seguido de exposición a descartar y no adquirir), coordinación con servicios sociales y apoyos a la capacidad jurídica respetuosos con la voluntad de la persona.",
+   "note": "Muestras pequeñas, de conveniencia y estadounidenses; la edad de inicio se reconstruye retrospectivamente. El ensayo CREST tiene 58 participantes y no mostró diferencias significativas en la UCLA Hoarding Severity Scale. Complementa la ficha general del trastorno de acumulación (acum) y la del síndrome de Diógenes (diog), sin repetir sus contenidos sobre criterios, epidemiología general y marco legal.",
+   "sec": [
+    {
+     "t": "Edad de inicio y curso",
+     "x": "La acumulación que se ve en la vejez suele ser la culminación de un trastorno crónico. Ayers et al. (2010) reconstruyeron por décadas los síntomas de 18 personas de 60 años o más: aunque al principio situaban el comienzo en la edad media, el inicio real estaba en la infancia o la adolescencia, ninguna tenía un inicio tardío y la gravedad aumentaba en cada década. Dozier et al. (2016), con 82 personas mayores, situaron la mediana de inicio de los síntomas entre los 10 y los 20 años y la del posible diagnóstico entre los 20 y los 30, con empeoramiento de todos los síntomas a lo largo de la vida y menor progresión del ahorro en quienes tenían más estudios; sin embargo, el 23 % refería un inicio del cuadro completo después de los 40. Un inicio realmente tardío, y más aún brusco, debe hacer pensar en una causa neurológica [fuente no localizada para el umbral de edad].",
+     "links": [
+      {
+       "ids": [
+        "acum",
+        "toc_dsm"
+       ],
+       "t": "trastorno de acumulación y TOC"
+      },
+      {
+       "ids": [
+        "toc_tardio"
+       ],
+       "t": "inicio tardío del espectro obsesivo"
+      }
+     ]
+    },
+    {
+     "t": "Presentación geriátrica y diagnóstico diferencial",
+     "x": "En la persona mayor el trastorno se acompaña de deterioro funcional grave, comorbilidad médica y psiquiátrica y disfunción cognitiva (Ayers 2015); en la serie de Ayers (2010) eran frecuentes los trastornos del ánimo y de ansiedad, el aislamiento social y la vida en solitario. El diferencial incluye: la acumulación secundaria a demencia frontotemporal, sobre todo en la variante semántica (Mitchell 2019); otras demencias y lesiones cerebrales, que el DSM-5-TR excluye del diagnóstico primario; el síndrome de Diógenes, definido por el autoabandono extremo y que puede o no incluir acumulación; la depresión con abandono del domicilio; las psicosis, y el TOC con acumulación por obsesiones. Un deterioro cognitivo leve no excluye el diagnóstico primario, pero condiciona el tratamiento [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "diog",
+        "ftd"
+       ],
+       "t": "Diógenes y demencia frontotemporal"
+      },
+      {
+       "ids": [
+        "dem",
+        "mmse_moca"
+       ],
+       "t": "demencia y cribado cognitivo"
+      },
+      {
+       "ids": [
+        "dep_tardia",
+        "soledad"
+       ],
+       "t": "depresión y soledad en la vejez"
+      }
+     ]
+    },
+    {
+     "t": "Tratamiento: el ensayo CREST",
+     "x": "Ante la disfunción ejecutiva frecuente en mayores con acumulación, el grupo de Ayers diseñó CREST (Cognitive Rehabilitation and Exposure/Sorting Therapy): un módulo de rehabilitación cognitiva (planificación, organización, categorización y resolución de problemas) seguido de exposición a ordenar y descartar [fuente no localizada para la descripción detallada de los módulos]. En el ensayo aleatorizado de Ayers et al. (2018), 58 personas mayores con trastorno de acumulación según el DSM-5 recibieron CREST o gestión de casos geriátrica, ambas en 26 sesiones individuales durante seis meses con visitas domiciliarias. CREST mejoró más el Saving Inventory-Revised (reducción del 38 % frente al 25 % en quienes completaron), sin diferencia significativa en la UCLA Hoarding Severity Scale (35 % frente a 24 %), y las ganancias se mantuvieron a los seis meses. Los autores concluyen que CREST es eficaz, pero que la gestión de casos también aporta beneficios relevantes.",
+     "links": [
+      {
+       "ids": [
+        "epr",
+        "neuropsico"
+       ],
+       "t": "exposición y rehabilitación cognitiva"
+      },
+      {
+       "ids": [
+        "nf_bpsd"
+       ],
+       "t": "intervenciones no farmacológicas en la vejez"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad, capacidad y coordinación sociosanitaria",
+     "x": "La vejez añade riesgos: caídas sobre objetos acumulados, dificultad para encontrar o tomar la medicación, imposibilidad de recibir atención domiciliaria y riesgo de incendio en viviendas donde se vive solo [fuente no localizada para la cuantificación de estos riesgos en mayores]. La valoración de la capacidad de decisión debe ser específica para cada decisión y respetar la voluntad y las preferencias de la persona, con medidas de apoyo antes que sustitutivas, conforme a la Ley 8/2021 (véase la ficha general de acumulación). Las limpiezas forzosas sin tratamiento tienden a fracasar y a dañar la alianza [fuente no localizada]. La coordinación entre atención primaria, salud mental, servicios sociales y, si procede, bomberos o servicios municipales es el núcleo de la intervención en los casos graves.",
+     "links": [
+      {
+       "ids": [
+        "cap_dem",
+        "capacidad_jur",
+        "consent_cap"
+       ],
+       "t": "capacidad y apoyos"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "help_delirium"
+       ],
+       "t": "riesgos médicos en la persona mayor"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ayers CR et al. (2010). Age at onset and clinical features of late life compulsive hoarding. Int J Geriatr Psychiatry 25:142-149 · PMID 19548272",
+    "Dozier ME, Porter B & Ayers CR (2016). Age of onset and progression of hoarding symptoms in older adults with hoarding disorder. Aging Ment Health 20:736-742 · PMID 25909628",
+    "Ayers CR et al. (2015). Hoarding disorder in older adulthood. Am J Geriatr Psychiatry 23:416-422 · PMID 24953872",
+    "Ayers CR et al. (2018). Cognitive Rehabilitation and Exposure/Sorting Therapy (CREST) for hoarding disorder in older adults: a randomized clinical trial. J Clin Psychiatry 79:16m11072 · PMID 28541646",
+    "Mitchell E et al. (2019). Hoarding and obsessive-compulsive behaviours in frontotemporal dementia: clinical and neuroanatomic associations. Cortex 121:443-453 · PMID 31715541",
+    "DSM-5-TR (2022), Trastorno de acumulación",
+    "CIE-11 (2019), 6B24 Trastorno de acumulación (OMS; código comprobado en la tabulación MMS, versión de enero de 2025)"
+   ],
+   "rel": [
+    "acum",
+    "diog",
+    "ftd",
+    "toc_tardio",
+    "cap_dem",
+    "dep_tardia",
+    "soledad"
+   ]
+  }
+ ]
+}
