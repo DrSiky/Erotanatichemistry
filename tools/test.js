@@ -30,9 +30,14 @@ const { chromium } = require(process.env.PWP || 'playwright');
 
   await p.click('#bFig'); await p.waitForTimeout(300);
   await p.click('.figcard[data-fig=circ_monoaminas]'); await p.waitForTimeout(400);
-  ok(/Panel 1 de/.test(await p.textContent('.pcur')), 'figura alta dividida en paneles');
+  const pcur = async () => p.$eval('#figpn .pcur:last-child', e => e.textContent);
+  ok(/figura completa/.test(await pcur()), 'figura alta abierta entera por defecto');
+  await p.click('[data-fp="0"]');
+  ok(/Panel 1 de/.test(await pcur()), 'modo por paneles a petición');
   await p.click('[data-fp=next]');
-  ok(/Panel 2 de/.test(await p.textContent('.pcur')), 'navegación entre paneles');
+  ok(/Panel 2 de/.test(await pcur()), 'navegación entre paneles');
+  await p.click('[data-fp=full]');
+  ok(/figura completa/.test(await pcur()), 'vuelta a la figura completa');
   await p.keyboard.press('Escape');
 
   await p.goto(U + '#id=mapa_integr'); await p.waitForTimeout(500);
