@@ -1,0 +1,823 @@
+{
+ "patch": {
+  "esq": {
+   "relAdd": [
+    "ulotaront",
+    "fallidos_esq"
+   ]
+  },
+  "xanomelina": {
+   "relAdd": [
+    "ulotaront",
+    "fallidos_esq"
+   ]
+  },
+  "ap_atipicos": {
+   "relAdd": [
+    "ulotaront"
+   ]
+  },
+  "dopa_hyp": {
+   "relAdd": [
+    "ulotaront"
+   ]
+  },
+  "zuranolona": {
+   "relAdd": [
+    "brexanolona"
+   ]
+  },
+  "dpp": {
+   "relAdd": [
+    "brexanolona"
+   ]
+  },
+  "neuroester_repro": {
+   "relAdd": [
+    "brexanolona"
+   ]
+  },
+  "emb_peri": {
+   "relAdd": [
+    "brexanolona"
+   ]
+  },
+  "orexina": {
+   "relAdd": [
+    "seltorexant"
+   ]
+  },
+  "ddm": {
+   "relAdd": [
+    "seltorexant",
+    "aticaprant"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "seltorexant"
+   ]
+  },
+  "daridorexant": {
+   "relAdd": [
+    "seltorexant"
+   ]
+  },
+  "anhed": {
+   "relAdd": [
+    "aticaprant"
+   ]
+  },
+  "opioide_endog": {
+   "relAdd": [
+    "aticaprant"
+   ]
+  },
+  "drt": {
+   "relAdd": [
+    "aticaprant",
+    "seltorexant"
+   ]
+  },
+  "recompensa": {
+   "relAdd": [
+    "aticaprant"
+   ]
+  },
+  "esqneg": {
+   "relAdd": [
+    "fallidos_esq"
+   ]
+  },
+  "pimavanserina": {
+   "relAdd": [
+    "fallidos_esq"
+   ]
+  },
+  "detcog": {
+   "relAdd": [
+    "fallidos_esq"
+   ]
+  },
+  "nmda_psic": {
+   "relAdd": [
+    "fallidos_esq"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "ulotaront",
+   "n": "Ulotaront (agonista TAAR1/5-HT1A; sin autorización)",
+   "ab": "Ulotaront",
+   "al": [
+    "SEP-363856",
+    "agonista TAAR1",
+    "receptor 1 asociado a aminas traza"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 2020,
+   "tags": [],
+   "desc": "Agonista del receptor 1 asociado a aminas traza (TAAR1) con actividad agonista 5-HT1A, sin unión a receptores D2 ni antagonismo 5-HT2A, identificado mediante un cribado fenotípico in vivo y no por diana (Achtyes 2023). Un ensayo de fase 2 de 4 semanas en esquizofrenia aguda fue positivo (Koblan 2020) y le valió la designación de terapia innovadora de la FDA, pero los dos ensayos de fase 3 DIAMOND, de 6 semanas, no separaron del placebo, con respuestas en el grupo placebo mucho mayores que en la fase 2 (registro ClinicalTrials.gov; Smith 2025). Estado regulador comprobado en noviembre de 2026: sin registro en Drugs@FDA, en el listado de medicamentos de la EMA ni en CIMA (AEMPS); no está autorizado en ningún ámbito relevante para España. Su interés actual es sobre todo metodológico: es un ejemplo destacado de las grandes respuestas al placebo en los ensayos recientes de antipsicóticos (Smith 2025).",
+   "feats": [
+    "Mecanismo: agonismo TAAR1 y 5-HT1A sin bloqueo D2; en un estudio de fase 1b añadido al antipsicótico durante 14 días (22 personas), redujo la capacidad de síntesis de dopamina estriatal medida con [18F]-DOPA, y esa reducción se correlacionó con la mejoría de los síntomas positivos (r = 0,5), no con la de los negativos (Howes 2026)",
+    "Fase 2 (Koblan 2020; 245 personas, 4 semanas): cambio en la PANSS total de -17,2 frente a -9,7 puntos con placebo (diferencia -7,5; IC 95 % -11,9 a -3,0); hubo una muerte súbita cardíaca en el grupo tratado",
+    "Fase 3 DIAMOND 1 (NCT04072354; 463 personas, incluidos adolescentes) y DIAMOND 2 (NCT04092686; 464 personas): con placebo, la PANSS total bajó 19,3 y 14,3 puntos a las 6 semanas, cifras similares a las de los brazos activos; diferencias entre +2,4 y -3,8 puntos según el brazo, con p unilaterales ajustadas (resultados del registro ClinicalTrials.gov, consulta de noviembre de 2026)",
+    "Síntesis independiente: la revisión sistemática viva GALENOS (4 estudios, 1.291 participantes) halló pocas diferencias de los agonistas TAAR1 frente a placebo (DME 0,15; IC 95 % -0,05 a 0,34), señaló grandes respuestas al placebo en los ensayos de fase 3 de ulotaront y un perfil de efectos adversos favorable (Smith 2025)",
+    "Tolerabilidad a corto plazo: síntomas extrapiramidales, lípidos, HbA1c y prolactina similares a placebo en 4 semanas (Koblan 2020); en el metaanálisis dosis-respuesta (3 ensayos, 1.144 personas), los efectos sobre la PANSS fueron pequeños y los acontecimientos de ansiedad más frecuentes que con placebo en dosis intermedias (RR 2,06; IC 95 % 1,11 a 3,80) (Hsu 2025)",
+    "Estado regulador y de desarrollo: sin autorización de la FDA, la EMA ni la AEMPS (consulta de noviembre de 2026); el registro ClinicalTrials.gov recoge un nuevo ensayo de fase 3 en esquizofrenia aguda (NCT06894212) y un ensayo de administración prolongada en esquizofrenia (NCT07225712) y tres ensayos de fase 3 en trastorno de ansiedad generalizada (NCT07759128, NCT07767903, NCT07786454), en reclutamiento"
+   ],
+   "tx": "No disponible fuera de ensayos clínicos y sin indicación autorizada en ningún país. En esquizofrenia, el tratamiento sigue las guías vigentes con antipsicóticos autorizados y clozapina en la resistencia. Si quien consulta pregunta por él o se plantea participar en un ensayo, conviene explicar que los ensayos de fase 3 publicados en registro no demostraron eficacia frente a placebo y que su perfil de seguridad a largo plazo se desconoce.",
+   "note": "La evidencia de eficacia procede de un único ensayo de fase 2 de 4 semanas financiado por el fabricante; los dos ensayos de fase 3 fueron negativos y sus resultados completos solo constan en el registro ClinicalTrials.gov, sin publicación indexada localizada [fuente no localizada]. La hipótesis de que el fracaso se deba a un placebo inflado es plausible pero no está demostrada: un efecto real pequeño explica igualmente los datos (Hsu 2025; Smith 2025).",
+   "sec": [
+    {
+     "t": "Ensayos DIAMOND: qué se esperaba y qué resultó",
+     "x": "El ensayo de fase 2 (Koblan 2020) mostró una diferencia de -7,5 puntos en la PANSS total a 4 semanas, con un tamaño del efecto de 0,45, y una extensión abierta de 26 semanas completada por el 67 % (Achtyes 2023). Se esperaba, por tanto, el primer antipsicótico sin bloqueo D2 con perfil metabólico y motor neutro. Los dos ensayos de fase 3 DIAMOND (6 semanas, personas con exacerbación aguda) no lo confirmaron. En DIAMOND 1, la PANSS bajó 19,3 puntos con placebo, 16,9 con la dosis menor y 19,6 con la mayor (diferencias +2,4 y -0,3). En DIAMOND 2, el placebo redujo 14,3 puntos, frente a 16,4 y 18,1 con las dos dosis (diferencias -2,1 y -3,8; esta última con IC 95 % de -7,5 a -0,1 y p unilateral ajustada por un procedimiento de Hochberg de 0,041 según el registro), sin que el programa se considerase positivo (registro ClinicalTrials.gov, consulta de noviembre de 2026); un trabajo farmacológico posterior resume que en fase 3 mostró la misma eficacia que el placebo (Huey 2025). El metaanálisis dosis-respuesta sitúa el mayor efecto en la dosis más alta ensayada, con una DME de -0,23, pequeña, y propone probar dosis superiores (Hsu 2025). La lectura prudente es que el efecto clínico, si existe, es menor que el de los antipsicóticos de referencia.",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia aguda"
+      },
+      {
+       "ids": [
+        "ap_atipicos",
+        "d2_block"
+       ],
+       "t": "comparación con antagonistas D2"
+      },
+      {
+       "ids": [
+        "fallidos_esq"
+       ],
+       "t": "otros fracasos recientes en esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Hipótesis del efecto placebo y otras explicaciones",
+     "x": "El dato que más llama la atención es la magnitud de la respuesta al placebo: casi el doble en DIAMOND 1 (-19,3 a 6 semanas) que en la fase 2 (-9,7 a 4 semanas; Koblan 2020). El fenómeno no es exclusivo de este fármaco. En 167 ensayos controlados con placebo en esquizofrenia aguda (28.102 participantes), solo la financiación industrial y el aumento de la respuesta al placebo moderaron el tamaño del efecto, mientras la respuesta al fármaco se mantuvo estable (Leucht 2017). En 105 ensayos, la mejoría con placebo creció con el año de publicación y la diferencia fármaco-placebo disminuyó con menor gravedad basal y mayor duración del estudio; los autores apuntan a la inflación de las puntuaciones basales, a la inclusión de pacientes menos graves y a mayores expectativas (Rutherford 2014). Una revisión de 2026 atribuye a la respuesta al placebo creciente la pérdida de sensibilidad de los ensayos y menciona expresamente a los agonistas TAAR1 (Englisch 2026). En los datos del propio fabricante, parte de los efectos adversos del grupo placebo eran manifestaciones de la enfermedad, lo que contribuyó a la escasa diferencia en efectos adversos (Piacentino 2024). El reclutamiento durante la pandemia de COVID-19 es otra explicación propuesta [fuente no localizada]. La alternativa, compatible con los mismos datos, es que la eficacia sea sencillamente pequeña: en el único ensayo frente a comparador activo de la clase, ralmitaront fue menos eficaz que risperidona (DME -0,53; Smith 2025).",
+     "links": [
+      {
+       "ids": [
+        "fallidos_esq"
+       ],
+       "t": "lecciones metodológicas comunes"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Mecanismo, efectos metabólicos y otras indicaciones exploradas",
+     "x": "El argumento biológico se apoya en la hipótesis dopaminérgica presináptica: en un estudio de fase 1b con PET de [18F]-DOPA, el fármaco añadido durante 14 días redujo la capacidad de síntesis de dopamina en el estriado, sobre todo en el putamen, y los efectos adversos más frecuentes fueron somnolencia y mareo (Howes 2026). In vitro, a diferencia de otros agonistas TAAR1, no se une al transportador de dopamina, lo que sugiere que los fármacos de la clase no son intercambiables (Huey 2025). En personas con esquizofrenia, síndrome metabólico y prediabetes retrasó el vaciamiento gástrico de sólidos (mediana del tiempo de vaciamiento a la mitad de 139 frente a 124 minutos con el antipsicótico previo; Milanović 2024), y un estudio piloto interrumpido de forma prematura mostró diferencias favorables en peso y grasa visceral y tendencias favorables en otros marcadores metabólicos (Milanovic 2026); son datos exploratorios, del fabricante y sin variables clínicas. Fuera de la esquizofrenia, en la psicosis de la enfermedad de Parkinson (38 personas) la diferencia en la SAPS-PD no fue significativa (-1,1; IC 95 % -6,5 a 4,3) y hubo más alucinaciones y confusión que con placebo (Isaacson 2023); en la narcolepsia con cataplejía suprimió el sueño REM sin reducir la cataplejía frente a placebo (Szabo 2023).",
+     "links": [
+      {
+       "ids": [
+        "dopa_hyp"
+       ],
+       "t": "hipótesis dopaminérgica"
+      },
+      {
+       "ids": [
+        "parkinson_psiq"
+       ],
+       "t": "psicosis en la enfermedad de Parkinson"
+      },
+      {
+       "ids": [
+        "nar",
+        "cataplejia"
+       ],
+       "t": "narcolepsia y cataplejía"
+      },
+      {
+       "ids": [
+        "peso_psicof"
+       ],
+       "t": "efectos metabólicos de los antipsicóticos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Koblan KS et al. (2020). A non-D2-receptor-binding drug for the treatment of schizophrenia. N Engl J Med 382:1497-1506 · PMID 32294346",
+    "Achtyes ED et al. (2023). Ulotaront: review of preliminary evidence for the efficacy and safety of a TAAR1 agonist in schizophrenia. Eur Arch Psychiatry Clin Neurosci 273:1543-1556 · PMID 37165101",
+    "Smith KA et al. (2025). Triangulating evidence from the GALENOS living systematic review on trace amine-associated receptor 1 (TAAR1) agonists in psychosis. Br J Psychiatry 226:162-170 · PMID 39710623",
+    "Hsu YC et al. (2025). Trajectory of efficacy and safety across ulotaront dose levels in schizophrenia: a systematic review and dose-response meta-analysis. Int J Neuropsychopharmacol 28:pyaf059 · PMID 40795331",
+    "Howes OD et al. (2026). TAAR1 regulates presynaptic dopamine function: evidence from preclinical studies and a phase 1b trial in patients with schizophrenia. Biol Psychiatry 100:199-207 · PMID 41130556",
+    "Huey JK et al. (2025). Trace amine-associated receptor 1 agonists differentially regulate dopamine transporter function. Mol Pharmacol 107:100064 · PMID 40840012",
+    "Leucht S et al. (2017). Sixty years of placebo-controlled antipsychotic drug trials in acute schizophrenia: systematic review, Bayesian meta-analysis, and meta-regression of efficacy predictors. Am J Psychiatry 174:927-942 · PMID 28541090",
+    "Rutherford BR et al. (2014). Placebo response in antipsychotic clinical trials: a meta-analysis. JAMA Psychiatry 71:1409-1421 · PMID 25321611",
+    "Englisch S, Zink M (2026). New pharmacological treatment approaches for schizophrenia: navigating the post-iclepertin landscape. CNS Drugs 40:333-357 · PMID 41609993",
+    "Piacentino D et al. (2024). A novel method for deriving adverse event prevalence in randomized controlled trials: potential for improved understanding of benefit-risk ratio and application to drug labels. Adv Ther 41:152-169 · PMID 37855974",
+    "Milanović S et al. (2024). TAAR1 agonist ulotaront delays gastric emptying of solids in patients with schizophrenia and concurrent metabolic syndrome with prediabetes. Diabetes Obes Metab 26:2466-2475 · PMID 38533552",
+    "Milanovic S et al. (2026). A double-blind study on ulotaront's impact on weight-related parameters in schizophrenia patients with metabolic syndrome and prediabetes: Part II. Diabetes Obes Metab 28:94-102 · PMID 41126397",
+    "Isaacson SH et al. (2023). Ulotaront, a trace amine-associated receptor 1/serotonin 5-HT1A agonist, in patients with Parkinson disease psychosis: a pilot study. Neurol Clin Pract 13:e200175 · PMID 37273942",
+    "Szabo ST et al. (2023). A multicenter, double-blind, placebo-controlled, randomized, phase 1b crossover trial comparing two doses of ulotaront with placebo in the treatment of narcolepsy-cataplexy. Sleep Med 107:202-211 · PMID 37209427",
+    "ClinicalTrials.gov (2026). Resultados registrados de NCT04072354 (DIAMOND 1) y NCT04092686 (DIAMOND 2), variable principal: cambio en la PANSS total a la semana 6; estado de NCT06894212, NCT07225712, NCT07759128, NCT07767903 y NCT07786454; consulta de noviembre de 2026",
+    "Registros oficiales (2026). Drugs@FDA (openFDA), listado público de medicamentos de la EMA y CIMA (AEMPS): sin registros de ulotaront; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "esq",
+    "ap_atipicos",
+    "d2_block",
+    "dopa_hyp",
+    "xanomelina",
+    "muscarinico_esq",
+    "fallidos_esq",
+    "parkinson_psiq",
+    "peso_psicof",
+    "tag"
+   ]
+  },
+  {
+   "id": "brexanolona",
+   "n": "Brexanolona intravenosa (retirada; sin autorización en la UE)",
+   "ab": "Brexanolona",
+   "al": [
+    "brexanolone",
+    "Zulresso",
+    "SAGE-547",
+    "alopregnanolona intravenosa"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2019,
+   "tags": [
+    "repro"
+   ],
+   "desc": "Formulación intravenosa soluble de alopregnanolona, neuroesteroide modulador alostérico positivo de los receptores GABA-A sinápticos y extrasinápticos, administrada en infusión continua de 60 horas en régimen hospitalario. Fue el primer fármaco aprobado específicamente para la depresión posparto: la FDA lo autorizó el 19 de marzo de 2019 como nueva entidad molecular (Zulresso, NDA 211371), con acceso restringido a un programa de mitigación de riesgos (REMS) por sedación excesiva y pérdida súbita de conciencia (Garafola 2023). En Drugs@FDA figura con estado comercial «Discontinued» (consulta de noviembre de 2026). No consta en el listado de medicamentos de la EMA ni en CIMA (AEMPS): nunca ha estado autorizada en la Unión Europea ni en España. Su sucesor oral de la misma clase es la zuranolona, con autorización europea desde 2025.",
+   "feats": [
+    "Estado regulador comprobado: aprobación FDA de 19 de marzo de 2019 (NDA 211371, nueva entidad molecular) y estado comercial «Discontinued» en Drugs@FDA; sin registro en la EMA ni en CIMA (consulta de noviembre de 2026). El motivo y la fecha exacta de la retirada comercial no constan en las fuentes consultadas [fuente no localizada]",
+    "Fase 2 (Kanes 2017): 21 mujeres hospitalizadas con depresión posparto grave (HAM-D de 26 o más); a las 60 horas la HAM-D bajó 21,0 puntos frente a 8,8 con placebo (diferencia -12,2; IC 95 % -20,77 a -3,67; tamaño del efecto 1,2)",
+    "Fase 3 (Meltzer-Brody 2018; 30 centros de Estados Unidos, 246 mujeres): diferencias frente a placebo a las 60 horas de -5,5 y -3,7 puntos en la HAM-D en el estudio de depresión grave y de -2,5 (IC 95 % -4,5 a -0,5) en el de depresión moderada, con seguimiento hasta el día 30",
+    "Sedación: en los ensayos, alrededor del 4 % precisó suspender la infusión por sedación excesiva o pérdida de conciencia (Leader 2019); en fase 3 hubo un caso de alteración del estado de conciencia con síncope considerado relacionado con el tratamiento (Meltzer-Brody 2018); se recomendó pulsioximetría continua (Patatanian 2022)",
+    "Poscomercialización (499 pacientes, junio de 2019 a diciembre de 2021): tres notificaciones de sedación excesiva, todas resueltas al detener la infusión, y ninguna de pérdida de conciencia (Garafola 2023, datos del fabricante)",
+    "Farmacocinética: metabolismo no mediado por CYP (cetorreducción, glucuronidación y sulfatación); debe evitarse en la enfermedad renal terminal por acumulación de su vehículo solubilizante, la betadex sulfobutil éter sódica (Gayanova 2026)"
+   ],
+   "tx": "No disponible en España ni en la Unión Europea, y retirada del mercado estadounidense. En la depresión posparto, el manejo sigue las guías perinatales (psicoterapia, ISRS, TEC en los cuadros graves o con riesgo vital) y, cuando esté disponible, la zuranolona oral autorizada por la EMA. Su interés actual es histórico y farmacológico: demostró que la modulación GABA-A neuroesteroidea produce mejoría en 60 horas.",
+   "note": "La eficacia se apoya en tres ensayos patrocinados por el fabricante, realizados solo en Estados Unidos, frente a placebo, con seguimiento de 30 días y exclusión de personas con trastorno bipolar o psicosis. La respuesta al placebo en 60 horas fue alta (12-14 puntos de HAM-D en fase 3), lo que limita la interpretación de la rapidez del efecto. La información posterior a la comercialización procede del propio fabricante.",
+   "sec": [
+    {
+     "t": "Relación con la zuranolona: del concepto a la vía oral",
+     "x": "Brexanolona y zuranolona comparten mecanismo: ambas son moduladores alostéricos positivos de los receptores GABA-A que remedan a la alopregnanolona, cuyo descenso brusco tras el parto se ha propuesto como desencadenante de la depresión posparto (hipótesis). La brexanolona fue la prueba de concepto: su ensayo de fase 2 respaldó la idea de actuar sobre receptores GABA-A sinápticos y extrasinápticos (Kanes 2017), y los de fase 3 mostraron mejoría ya a las 60 horas y mantenida hasta el día 30 (Meltzer-Brody 2018). Sus limitaciones prácticas eran, sin embargo, mayores que su beneficio: ingreso de casi tres días, infusión continua, programa REMS, vigilancia de la saturación de oxígeno y coste elevado, factores que las revisiones señalan como barreras de acceso (Leader 2019; Patatanian 2022). El análogo oral, la zuranolona, conserva el mecanismo en un ciclo domiciliario de 14 días y es el único fármaco de la clase autorizado en la Unión Europea (véase su ficha). Que la retirada comercial de la brexanolona respondiera a la llegada de la zuranolona es una inferencia razonable que no consta en las fuentes consultadas [fuente no localizada]. No hay ensayos que comparen directamente ambos fármacos ni con los ISRS.",
+     "links": [
+      {
+       "ids": [
+        "zuranolona"
+       ],
+       "t": "sucesor oral de la clase"
+      },
+      {
+       "ids": [
+        "neuroester_repro",
+        "gaba_interneur"
+       ],
+       "t": "neuroesteroides y receptores GABA-A"
+      },
+      {
+       "ids": [
+        "dpp",
+        "emb_peri"
+       ],
+       "t": "depresión posparto"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "El riesgo característico es la sedación excesiva y la pérdida súbita de conciencia durante la infusión, que motivó la restricción a centros certificados con vigilancia continua y pulsioximetría (Patatanian 2022; Garafola 2023). En los ensayos, los efectos adversos más frecuentes fueron cefalea, mareo y somnolencia, y alrededor del 4 % necesitó suspender la infusión por sedación o pérdida de conciencia (Leader 2019; Meltzer-Brody 2018). La rapidez de la mejoría no elimina el riesgo suicida: en fase 3, una paciente presentó ideación suicida e intento de sobredosis durante el seguimiento (Meltzer-Brody 2018), por lo que la evaluación del riesgo debe continuar después del alta. Por mecanismo, cabe esperar potenciación con alcohol, benzodiacepinas, opioides y otros depresores del sistema nervioso central, también con GHB/GBL en contextos de consumo; esta interacción no se ha contrastado en las fuentes consultadas [fuente no localizada]. En la enfermedad renal terminal debe evitarse por la acumulación del excipiente (Gayanova 2026). La información sobre lactancia no se ha consultado en la ficha estadounidense [fuente no localizada]; en el posparto, la sedación obliga además a prever quién cuida del lactante durante y después de la infusión.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida en el posparto"
+      },
+      {
+       "ids": [
+        "ansiol_bzd",
+        "ghb_gbl"
+       ],
+       "t": "otros depresores del SNC"
+      },
+      {
+       "ids": [
+        "psicof_lactancia"
+       ],
+       "t": "psicofármacos y lactancia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia y situación en España",
+     "x": "La base de la autorización estadounidense son tres ensayos pequeños o medianos (21 y 246 mujeres) realizados en Estados Unidos, financiados por el fabricante y con comparador placebo. Excluyeron a mujeres con esquizofrenia, trastorno bipolar o trastorno esquizoafectivo (Meltzer-Brody 2018), de modo que no informan sobre la depresión posparto en el espectro bipolar ni sobre la psicosis puerperal. El seguimiento terminó en el día 30, sin datos de recaída a medio plazo ni de repetición del tratamiento. Las diferencias frente a placebo en fase 3 (entre -2,5 y -5,5 puntos de HAM-D) fueron mucho menores que en la fase 2 (-12,2), patrón habitual al pasar de ensayos pequeños a pivotales. Se investiga en otras indicaciones (TEPT, trastorno por consumo de alcohol, psicosis posparto, acúfenos) (Gayanova 2026), sin eficacia demostrada en ellas [fuente no localizada]. En España no está autorizada ni comercializada (consulta de CIMA de noviembre de 2026) y, retirada también en Estados Unidos, su obtención como medicamento en situaciones especiales no parece factible [fuente no localizada]. Su relevancia pericial y docente es la de antecedente de la zuranolona y de modelo neuroesteroideo de la depresión posparto.",
+     "links": [
+      {
+       "ids": [
+        "ppp"
+       ],
+       "t": "psicosis puerperal (excluida de los ensayos)"
+      },
+      {
+       "ids": [
+        "dpp"
+       ],
+       "t": "depresión perinatal"
+      },
+      {
+       "ids": [
+        "tec_dep",
+        "isrs"
+       ],
+       "t": "tratamientos disponibles"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Kanes S et al. (2017). Brexanolone (SAGE-547 injection) in post-partum depression: a randomised controlled trial. Lancet 390:480-489 · PMID 28619476",
+    "Meltzer-Brody S et al. (2018). Brexanolone injection in post-partum depression: two multicentre, double-blind, randomised, placebo-controlled, phase 3 trials. Lancet 392:1058-1070 · PMID 30177236",
+    "Garafola S et al. (2023). Safety of brexanolone in adults with postpartum depression: postmarketing surveillance data. Drugs Real World Outcomes 10:351-356 · PMID 37280463",
+    "Leader LD et al. (2019). Brexanolone for postpartum depression: clinical evidence and practical considerations. Pharmacotherapy 39:1105-1112 · PMID 31514247",
+    "Patatanian E, Nguyen DR (2022). Brexanolone: a novel drug for the treatment of postpartum depression. J Pharm Pract 35:431-436 · PMID 33302791",
+    "Gayanova L et al. (2026). Brexanolone, a first-in-class neurosteroid medication: mechanism of action, clinical, and translational science. Clin Transl Sci 19:e70671 · PMID 42563143",
+    "FDA, U.S. Food and Drug Administration (2026). Drugs@FDA (openFDA): Zulresso (brexanolone), NDA 211371, aprobación original de 19 de marzo de 2019, estado comercial «Discontinued»; consulta de noviembre de 2026",
+    "Registros oficiales (2026). Listado público de medicamentos de la EMA y CIMA (AEMPS): sin registros de brexanolona; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "zuranolona",
+    "dpp",
+    "emb_peri",
+    "neuroester_repro",
+    "gaba_interneur",
+    "psicof_lactancia",
+    "ideac_suic",
+    "ansiol_bzd",
+    "ppp",
+    "tec_dep"
+   ]
+  },
+  {
+   "id": "seltorexant",
+   "n": "Seltorexant (antagonista OX2; sin autorización)",
+   "ab": "Seltorexant",
+   "al": [
+    "JNJ-42847922",
+    "MIN-202",
+    "antagonista selectivo del receptor de orexina 2"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 2021,
+   "tags": [],
+   "desc": "Antagonista selectivo del receptor de orexina 2 (OX2R), a diferencia de los antagonistas duales comercializados como hipnóticos (suvorexant, lemborexant, daridorexant). Se desarrolla como tratamiento adyuvante a ISRS o IRSN en el trastorno depresivo mayor con síntomas de insomnio y respuesta insuficiente. Los ensayos de fase 3 registrados ofrecen resultados mixtos: uno positivo frente a placebo (MDD3001; diferencia de -2,6 puntos en la MADRS), otro interrumpido tras un análisis intermedio sin diferencia (MDD3002) y un tercero sin diferencia en la tasa de respuesta a la semana 26 frente a quetiapina de liberación prolongada (MDD3005) (registro ClinicalTrials.gov, consulta de noviembre de 2026). Estado regulador comprobado en noviembre de 2026: sin registro en Drugs@FDA, en la EMA ni en CIMA; no está autorizado en ningún país relevante para España.",
+   "feats": [
+    "Mecanismo: bloqueo selectivo de OX2R, implicado en la vigilia y, según la hipótesis de desarrollo, en la hiperactivación y la regulación del eje hipotálamo-hipófisis-adrenal; en un ensayo de fase 1b en monoterapia, la respuesta del cortisol al despertar disminuyó con la dosis menor (Mesens 2025, Mol Psychiatry)",
+    "Fase 2b adyuvante (Savitz 2021): diferencia en la MADRS frente a placebo de -4,5 puntos a la semana 3 y de -3,1 a la semana 6 (IC 90 % -6,13 a -0,16; p = 0,083), mayor en quienes tenían un ISI de 15 o más (-4,9) que en el resto (-0,7)",
+    "Fase 3 MDD3001 (NCT04533529; 588 personas con depresión mayor, síntomas de insomnio y respuesta insuficiente): MADRS a los 43 días de -12,9 frente a -10,5 con placebo (diferencia -2,6; IC 95 % -4,53 a -0,74; p = 0,007), según el registro ClinicalTrials.gov",
+    "Fase 3 MDD3002 (NCT04532749; 212 personas): interrumpido tras un análisis intermedio por recomendación del comité independiente de monitorización de datos; diferencia de -1,2 puntos en la MADRS (IC 95 % -4,00 a 1,64; p = 0,411) (registro ClinicalTrials.gov)",
+    "Fase 3 MDD3005 frente a quetiapina de liberación prolongada (NCT04513912; 757 personas): respuesta a la semana 26 del 57,4 % frente al 53,4 % (diferencia 4 puntos porcentuales; IC 95 % -3,3 a 11,3; p = 0,24) (registro ClinicalTrials.gov)",
+    "Insomnio sin comorbilidad psiquiátrica (Mesens 2025, JAMA Psychiatry; 364 personas, 14 noches con polisomnografía): mejoró la latencia al sueño persistente y la vigilia tras el inicio del sueño frente a placebo, con efectos mantenidos en la noche 13 y acontecimientos adversos menos frecuentes que con placebo o zolpidem",
+    "Estado regulador: sin autorización de la FDA, la EMA ni la AEMPS (consulta de noviembre de 2026); el registro recoge ensayos de fase 3 en reclutamiento de mantenimiento adyuvante (NCT06559306) y de monoterapia (NCT07573176)"
+   ],
+   "tx": "No disponible fuera de ensayos clínicos. En la depresión con insomnio persistente, las opciones actuales son la TCC-I, la optimización del antidepresivo y, si procede, un hipnótico o un antidepresivo sedante según guías; los antagonistas duales de orexina comercializados están autorizados para el insomnio, no para la depresión (Thase 2025). No se deben extrapolar al seltorexant los resultados de los antagonistas duales ni a la inversa.",
+   "note": "Los datos de fase 3 proceden del registro ClinicalTrials.gov; no se ha localizado su publicación indexada [fuente no localizada]. Con un ensayo positivo, uno interrumpido sin diferencia y uno frente a comparador activo sin diferencia, una revisión narrativa considera necesario al menos otro ensayo pivotal claramente positivo (Thase 2025), y una revisión independiente describe resultados mixtos y tamaños del efecto modestos (Di Nicola 2026).",
+   "sec": [
+    {
+     "t": "Ensayos de fase 3: qué se esperaba y qué resultó",
+     "x": "El programa se diseñó a partir de una señal de subgrupo: en la fase 2b adyuvante, la diferencia frente a placebo se concentraba en quienes tenían insomnio clínicamente significativo (ISI de 15 o más; Savitz 2021), y en la fase 1b en monoterapia la mejoría era mayor cuanto más grave era el insomnio basal y se mantenía al eliminar los ítems de sueño de la escala de Hamilton (Mesens 2025, Mol Psychiatry). Por ello, los ensayos de fase 3 seleccionaron personas con depresión mayor, síntomas de insomnio y respuesta insuficiente a un ISRS o IRSN. MDD3001 fue positivo, con una diferencia de -2,6 puntos en la MADRS a las 6 semanas, magnitud similar a la de otros adyuvantes [fuente no localizada]. MDD3002 se interrumpió tras el análisis intermedio sin diferencia significativa (-1,2 puntos). En MDD3005, frente a quetiapina de liberación prolongada, las tasas de respuesta no difirieron (57,4 % frente a 53,4 % a la semana 26) (registro ClinicalTrials.gov, consulta de noviembre de 2026). Un ensayo exploratorio de 6 meses frente a quetiapina no halló diferencias en la interrupción por cualquier causa (41,2 % frente a 47,1 %), con menos acontecimientos adversos con seltorexant (65,4 % frente a 80,8 %) (Pinter 2026). La conclusión prudente es que el efecto antidepresivo adyuvante, si se confirma, es modesto y quizá limitado a la depresión con insomnio.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "drt"
+       ],
+       "t": "depresión con respuesta insuficiente"
+      },
+      {
+       "ids": [
+        "quetiapina"
+       ],
+       "t": "comparador activo"
+      },
+      {
+       "ids": [
+        "insomnio_sx"
+       ],
+       "t": "insomnio como síntoma depresivo"
+      }
+     ]
+    },
+    {
+     "t": "Fundamento: orexina, hiperactivación e insomnio en la depresión",
+     "x": "Las neuronas de orexina del hipotálamo lateral sostienen la vigilia, y los sistemas orexinérgicos intervienen también en dimensiones de recompensa y cognición, base de la hipótesis de su utilidad en la depresión (Valentino 2025); su vinculación con la hiperactivación y el eje hipotálamo-hipófisis-adrenal en personas deprimidas es una hipótesis de trabajo [fuente no localizada]. Los antagonistas duales (OX1R y OX2R) comercializados actúan como hipnóticos; el seltorexant, selectivo de OX2R, pretende reducir la hiperactivación nocturna con menos sedación residual [fuente no localizada]. En personas con insomnio sin comorbilidad psiquiátrica acortó la latencia al sueño persistente y la vigilia nocturna durante 14 noches, frente a placebo y frente a zolpidem en la noche 13 (Mesens 2025, JAMA Psychiatry). En depresión, la relación dosis-respuesta parece curvilínea: la dosis menor fue numéricamente más eficaz que la mayor en la fase 1b, en la fase 2b y en el estudio frente a quetiapina, y la mayor se acompañó de acortamiento de la latencia REM y más sueño N1 (Mesens 2025, Mol Psychiatry; Pinter 2026). Que un fármaco con efecto hipnótico parezca antidepresivo sobre todo en quienes duermen mal obliga a preguntarse si mejora la depresión o principalmente sus ítems de sueño; el análisis sin esos ítems sugiere lo primero, pero en un estudio pequeño.",
+     "links": [
+      {
+       "ids": [
+        "orexina",
+        "daridorexant",
+        "lemborexant"
+       ],
+       "t": "antagonistas duales de orexina"
+      },
+      {
+       "ids": [
+        "hiperactiv_insom",
+        "insom"
+       ],
+       "t": "insomnio e hiperactivación"
+      },
+      {
+       "ids": [
+        "hha_dep"
+       ],
+       "t": "eje HHA en la depresión"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad y límites de la evidencia",
+     "x": "En la fase 2b, los efectos adversos más frecuentes fueron somnolencia, cefalea y náuseas, sin nuevas señales de seguridad (Savitz 2021). En el ensayo de insomnio, los acontecimientos adversos fueron menos frecuentes con seltorexant (33,8 %) que con placebo (49,3 %) o zolpidem (42,5 %), aunque cuatro personas lo abandonaron por alteraciones electrocardiográficas asintomáticas (Mesens 2025, JAMA Psychiatry). Las advertencias de clase de los antagonistas duales (contraindicación en la narcolepsia, parálisis del sueño, síntomas tipo cataplejía, conductas complejas durante el sueño, vigilancia del ánimo) no se han contrastado para este fármaco en una ficha técnica, porque no existe [fuente no localizada]; la interacción con inhibidores potentes del CYP3A, entre ellos los antirretrovirales potenciados, tampoco se ha comprobado [fuente no localizada]. Quedan sin responder su efecto sobre la anhedonia y la suicidalidad y su seguridad a largo plazo (Di Nicola 2026). Los ensayos excluyen de forma habitual a personas con consumo activo de sustancias, por lo que no hay información aplicable a contextos de chemsex [fuente no localizada]. Todos los ensayos están financiados por el promotor, y los datos de fase 3 no se han publicado en revistas indexadas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "cataplejia"
+       ],
+       "t": "advertencias de la clase"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "anhed"
+       ],
+       "t": "suicidalidad y anhedonia sin evaluar"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales potenciados y CYP3A"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Savitz A et al. (2021). Efficacy and safety of seltorexant as adjunctive therapy in major depressive disorder: a phase 2b, randomized, placebo-controlled, adaptive dose-finding study. Int J Neuropsychopharmacol 24:965-976 · PMID 34324636",
+    "Mesens S et al. (2025). Treatment effect and safety of seltorexant as monotherapy for patients with major depressive disorder: a randomized, placebo-controlled clinical trial. Mol Psychiatry 30:2427-2435 · PMID 39663378",
+    "Mesens S et al. (2025). Efficacy and safety of seltorexant in insomnia disorder: a randomized clinical trial. JAMA Psychiatry 82:967-976 · PMID 40802194",
+    "Pinter C et al. (2026). Safety, tolerability, and preliminary efficacy of seltorexant versus quetiapine extended release as adjunctive therapy in major depressive disorder: a randomized, flexible-dose, 6-month, parallel-group, exploratory study. Int J Neuropsychopharmacol 29:pyag009 · PMID 41795948",
+    "Thase ME (2025). A new direction for adjunctive therapy of difficult-to-treat depression: examining the role of orexin receptor antagonists. Eur Arch Psychiatry Clin Neurosci 275:1611-1619 · PMID 40434499",
+    "Di Nicola M et al. (2026). Evaluating seltorexant as a treatment option for major depressive disorder. Expert Rev Neurother 26:909-921 · PMID 42668390",
+    "Valentino K et al. (2025). Seltorexant for major depressive disorder. Expert Opin Emerg Drugs (publicación en línea previa a la edición impresa) · PMID 39791866",
+    "ClinicalTrials.gov (2026). Resultados registrados de NCT04533529 (MDD3001), NCT04532749 (MDD3002) y NCT04513912 (MDD3005), variable principal; consulta de noviembre de 2026",
+    "Registros oficiales (2026). Drugs@FDA (openFDA), listado público de medicamentos de la EMA y CIMA (AEMPS): sin registros de seltorexant; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "ddm",
+    "drt",
+    "insom",
+    "insomnio_sx",
+    "orexina",
+    "daridorexant",
+    "lemborexant",
+    "hiperactiv_insom",
+    "hha_dep",
+    "quetiapina",
+    "aticaprant"
+   ]
+  },
+  {
+   "id": "aticaprant",
+   "n": "Aticaprant (antagonista kappa-opioide; desarrollo en depresión interrumpido)",
+   "ab": "Aticaprant",
+   "al": [
+    "JNJ-67953964",
+    "CERC-501",
+    "LY2456302",
+    "antagonista del receptor opioide kappa"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ad",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 2024,
+   "tags": [],
+   "desc": "Antagonista selectivo y de acción corta del receptor opioide kappa (KOR), unas 30 veces más afín por este receptor que por el mu (Wong 2024), desarrollado como tratamiento adyuvante a ISRS o IRSN en el trastorno depresivo mayor con anhedonia moderada o grave. La hipótesis era que el sistema dinorfina-KOR, activado por el estrés, frena la liberación de dopamina en el estriado ventral y contribuye a la anhedonia. Un ensayo de prueba de mecanismo y un ensayo de fase 2 fueron favorables, pero los dos ensayos de fase 3 VENTURA no mostraron diferencias frente a placebo; en marzo de 2025 el promotor terminó anticipadamente el estudio de seguridad a largo plazo y otros dos ensayos de fase 3 se cerraron por eficacia insuficiente. El registro recoge ahora solo un ensayo de fase 1b como adyuvante en esquizofrenia, en reclutamiento (NCT07615426) (registro ClinicalTrials.gov, consulta de noviembre de 2026). Sin registro en Drugs@FDA, en la EMA ni en CIMA: no está autorizado en ningún ámbito relevante para España.",
+   "feats": [
+    "Prueba de mecanismo FAST-MAS (Krystal 2020; 89 personas con anhedonia y trastorno del ánimo o de ansiedad, 8 semanas): aumentó la activación del estriado ventral durante la anticipación de recompensa en resonancia funcional (tamaño del efecto 0,58), sin acontecimientos adversos graves",
+    "Fase 2 adyuvante (Schmidt 2024; 184 personas, MADRS de 25 o más pese a un ISRS o IRSN, 6 semanas): diferencia en la MADRS de -2,1 puntos (tamaño del efecto 0,23) en quienes no respondieron al placebo inicial y de -3,1 (0,36) en la población completa, mayor con anhedonia por encima de la mediana de la SHAPS",
+    "Fase 3 VENTURA-1 (NCT05455684; 513 personas): MADRS a los 43 días de -12,3 frente a -11,4 con placebo (diferencia -0,9; IC 95 % -3,24 a 1,49; p = 0,467) (registro ClinicalTrials.gov)",
+    "Fase 3 VENTURA-2 (NCT05550532; 444 personas con anhedonia moderada o grave): -10,0 frente a -9,4 (diferencia -0,5; IC 95 % -2,95 a 1,90; p = 0,670) (registro ClinicalTrials.gov)",
+    "Suspensión: el estudio de seguridad a largo plazo (NCT05518149) terminó de forma anticipada por decisión del promotor comunicada a los centros el 6 de marzo de 2025, y otros dos ensayos (NCT06635135, NCT06514742) se cerraron por eficacia insuficiente (registro ClinicalTrials.gov)",
+    "Tolerabilidad en fase 2: cefalea (11,8 % frente a 7,1 %), diarrea (8,2 % frente a 2,4 %), nasofaringitis (5,9 % frente a 2,4 %) y prurito (5,9 % frente a 0 %); una interrupción por efectos adversos en cada grupo (Schmidt 2024)",
+    "Estado regulador: sin autorización de la FDA, la EMA ni la AEMPS y sin desarrollo activo en depresión registrado; ensayo de fase 1b como adyuvante en esquizofrenia en reclutamiento (NCT07615426) (consulta de noviembre de 2026)"
+   ],
+   "tx": "No disponible y sin desarrollo activo en depresión. La anhedonia en la depresión mayor se aborda con los tratamientos de las guías (optimización del antidepresivo, cambio o potenciación, psicoterapia con componente de activación conductual) y con la evaluación de causas secundarias (consumo de sustancias, efectos de los antipsicóticos, hipotiroidismo). Ningún antagonista kappa-opioide está autorizado para indicaciones psiquiátricas.",
+   "note": "La señal positiva procedía de un ensayo de fase 2 con tamaños del efecto pequeños (0,23-0,36) y significación evaluada de forma unilateral; los dos ensayos de fase 3, mayores, fueron negativos. Los resultados de fase 3 solo constan en el registro ClinicalTrials.gov; no se ha localizado su publicación indexada [fuente no localizada]. El motivo comunicado por el promotor para la interrupción global del programa no se ha consultado en un documento oficial [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Del enfoque «fracasar pronto» a los ensayos VENTURA",
+     "x": "El aticaprant fue el primer fármaco evaluado con el enfoque fast-fail del NIMH, que exige demostrar en fase 2a que el fármaco modifica el circuito que se supone media el efecto clínico antes de invertir en ensayos de eficacia. FAST-MAS cumplió ese objetivo: aumentó la activación del estriado ventral en la anticipación de recompensa (Krystal 2020). Sin embargo, los cambios en las medidas autoinformadas de anhedonia fueron poco consistentes (Demyttenaere 2025), primera advertencia de que la implicación de la diana no garantiza beneficio clínico. El ensayo de fase 2 adyuvante fue positivo con un diseño de entrada con placebo y análisis unilateral; el efecto en la población enriquecida (no respondedores al placebo) fue menor que en la población completa, y mayor en quienes tenían más anhedonia (Schmidt 2024). Se esperaba, por tanto, un adyuvante para la depresión con anhedonia marcada. VENTURA-1 y VENTURA-2 no lo confirmaron: diferencias de -0,9 y -0,5 puntos en la MADRS a los 43 días, con intervalos que incluyen el cero (registro ClinicalTrials.gov, consulta de noviembre de 2026). Una revisión de 2024 ya advertía de la falta de datos de eficacia convincentes (Hampsey 2024), y un ensayo previo de prueba de concepto en depresión resistente se había cerrado con solo 8 participantes por reclutamiento lento (Fava 2020).",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "drt"
+       ],
+       "t": "depresión con respuesta insuficiente"
+      },
+      {
+       "ids": [
+        "anhed"
+       ],
+       "t": "anhedonia"
+      },
+      {
+       "ids": [
+        "seltorexant"
+       ],
+       "t": "otro adyuvante dirigido a un subgrupo sintomático"
+      }
+     ]
+    },
+    {
+     "t": "La anhedonia como diana: lecciones metodológicas",
+     "x": "La anhedonia no es un constructo unitario: la clínica distingue la anticipatoria de la consumatoria y la sensorial de la social, y la neurociencia cognitiva habla de disposición hacia la recompensa, esfuerzo para obtenerla y actualización de su valor (Demyttenaere 2025). Un fármaco puede modificar una de estas dimensiones, medida con resonancia funcional, sin mover una escala global de depresión como la MADRS, que fue la variable principal de los ensayos VENTURA. Del caso se desprenden varias lecciones: la implicación de la diana en un biomarcador de circuito es necesaria pero no suficiente; enriquecer la muestra por un síntoma (anhedonia medida con la SHAPS) no corrige por sí solo una señal de fase 2 pequeña; los efectos de 0,2-0,4 obtenidos en un ensayo de fase 2 con análisis unilateral tienden a reducirse en fase 3; y la variable principal debería medir lo que el mecanismo pretende cambiar. La interpretación neurobiológica de partida (dinorfina liberada por el estrés que inhibe la dopamina mesolímbica) procede sobre todo de modelos animales, en los que el aticaprant revirtió efectos conductuales del estrés crónico leve impredecible en ratones macho (Jacobson 2020).",
+     "links": [
+      {
+       "ids": [
+        "anhed",
+        "recompensa"
+       ],
+       "t": "anhedonia y circuito de recompensa"
+      },
+      {
+       "ids": [
+        "opioide_endog"
+       ],
+       "t": "sistema opioide endógeno"
+      },
+      {
+       "ids": [
+        "fallidos_esq"
+       ],
+       "t": "lecciones paralelas en esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad, adicciones y situación regulatoria",
+     "x": "En los ensayos fue bien tolerado: los efectos adversos más frecuentes en fase 2 fueron cefalea, diarrea, nasofaringitis y prurito (Schmidt 2024), y en el estudio de mecanismo no hubo acontecimientos adversos graves (Krystal 2020). Su selectividad por KOR frente a mu es solo de unas 30 veces, y la ocupación de KOR con las dosis clínicas se estimó entre el 73 % y el 94 % (Wong 2024); el efecto sobre la analgesia opioide o sobre la respuesta a la naloxona en personas que consumen opioides no se ha estudiado en las fuentes consultadas [fuente no localizada]. Antes de su desarrollo en depresión, con el nombre de CERC-501 o LY2456302, se exploró en trastornos por consumo de sustancias: en ratones, combinado con naltrexona en dosis bajas, redujo el consumo de alcohol de tipo recaída (Zhou 2022); en un modelo de laboratorio humano con 71 fumadores no modificó la latencia hasta fumar, el número de cigarrillos, el craving ni la abstinencia de nicotina (Jones 2020). No hay datos en contextos de chemsex. Estado regulador comprobado en noviembre de 2026: sin registro en Drugs@FDA, en el listado de medicamentos de la EMA ni en CIMA, y sin ensayos activos en depresión en el registro, que solo recoge un ensayo de fase 1b en esquizofrenia (NCT07615426).",
+     "links": [
+      {
+       "ids": [
+        "naltrexona",
+        "alcohol"
+       ],
+       "t": "antecedentes en adicciones"
+      },
+      {
+       "ids": [
+        "opioide_endog"
+       ],
+       "t": "receptores opioides"
+      },
+      {
+       "ids": [
+        "anhed"
+       ],
+       "t": "anhedonia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Krystal AD et al. (2020). A randomized proof-of-mechanism trial applying the 'fast-fail' approach to evaluating κ-opioid antagonism as a treatment for anhedonia. Nat Med 26:760-768 · PMID 32231295",
+    "Schmidt ME et al. (2024). Efficacy and safety of aticaprant, a kappa receptor antagonist, adjunctive to oral SSRI/SNRI antidepressant in major depressive disorder: results of a phase 2 randomized, double-blind, placebo-controlled study. Neuropsychopharmacology 49:1437-1447 · PMID 38649428",
+    "Demyttenaere K (2025). Aticaprant, a kappa opioid receptor antagonist, and the recovered 'interest and pleasure' in the concept of major depressive disorder. Eur Arch Psychiatry Clin Neurosci 275:1593-1597 · PMID 38969753",
+    "Hampsey E, Jelen L, Young AH (2024). Aticaprant: (a κ-opioid receptor antagonist) for major depressive disorder. Expert Opin Emerg Drugs 29:193-204 · PMID 38682267",
+    "Wong S et al. (2024). Preclinical and clinical efficacy of kappa opioid receptor antagonists for depression: a systematic review. J Affect Disord 362:816-827 · PMID 39019223",
+    "Fava M et al. (2020). Double-blind, placebo-controlled, proof-of-concept trial of a kappa-selective opioid receptor antagonist augmentation in treatment-resistant depression. Ann Clin Psychiatry 32:18-26 · PMID 33125454",
+    "Jacobson ML et al. (2020). The kappa opioid receptor antagonist aticaprant reverses behavioral effects from unpredictable chronic mild stress in male mice. Psychopharmacology (Berl) 237:3715-3728 · PMID 32894343",
+    "Zhou Y, Zhou DC, Kreek MJ (2022). Aticaprant (clinically developed kappa-opioid receptor antagonist) combined with naltrexone prevents alcohol «relapse» drinking. J Pharm Pharmacol (Los Angel) 9 · PMID 35832748",
+    "Jones JD et al. (2020). A randomized, double-blind, placebo-controlled study of the kappa opioid receptor antagonist, CERC-501, in a human laboratory model of smoking behavior. Addict Biol 25:e12799 · PMID 31240842",
+    "ClinicalTrials.gov (2026). Resultados y estado registrados de NCT05455684 (VENTURA-1), NCT05550532 (VENTURA-2), NCT05518149, NCT06635135, NCT06514742 y NCT07615426; consulta de noviembre de 2026",
+    "Registros oficiales (2026). Drugs@FDA (openFDA), listado público de medicamentos de la EMA y CIMA (AEMPS): sin registros de aticaprant; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "ddm",
+    "drt",
+    "anhed",
+    "recompensa",
+    "opioide_endog",
+    "naltrexona",
+    "seltorexant",
+    "esketamina",
+    "ad_atip"
+   ]
+  },
+  {
+   "id": "fallidos_esq",
+   "n": "Fármacos fallidos en esquizofrenia (2022-2025): emraclidina, iclepertin, roluperidona, pimavanserina",
+   "ab": "Fallidos esquizofrenia",
+   "al": [
+    "ensayos negativos en esquizofrenia",
+    "emraclidina",
+    "iclepertin",
+    "roluperidona",
+    "MIN-101",
+    "BI 425809",
+    "CVL-231"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2025,
+   "tags": [],
+   "desc": "Ficha de síntesis sobre los mecanismos no dopaminérgicos que fracasaron en ensayos de eficacia de fase 2 o 3 en esquizofrenia entre 2022 y 2025, en paralelo a la aprobación de la xanomelina-trospio: emraclidina (modulador alostérico positivo M4) en psicosis aguda (fase 2), iclepertin (inhibidor del transportador de glicina 1) en el deterioro cognitivo, roluperidona (antagonista 5-HT2A, sigma-2 y alfa-1A) y pimavanserina (agonista inverso 5-HT2A) en los síntomas negativos, y ulotaront (agonista TAAR1, con ficha propia) en psicosis aguda. Se incluye como contraste la evenamida, modulador de la liberación de glutamato con un ensayo adyuvante positivo y fase 3 en curso. Ninguno está autorizado por la EMA ni consta en CIMA (consulta de noviembre de 2026); la pimavanserina solo está aprobada por la FDA para la psicosis de la enfermedad de Parkinson. El valor clínico de la ficha está en las lecciones metodológicas: respuesta al placebo creciente, sobrestimación en fase 2 y variables principales mal alineadas con el mecanismo.",
+   "feats": [
+    "Emraclidina (modulador alostérico positivo M4): tras un ensayo de fase 1b de 6 semanas bien tolerado (Krystal 2022), los ensayos de fase 2 EMPOWER-1 (NCT05227690; 385 personas) y EMPOWER-2 (NCT05227703; 391 personas) no separaron del placebo en la PANSS a 6 semanas; diferencias entre +1,9 y -3,0 puntos, todos los IC 95 % incluyen el cero (registro ClinicalTrials.gov)",
+    "Iclepertin (inhibidor de GlyT1, potenciación NMDA): en el programa CONNEX (3 ensayos de fase 3, 1.835 personas, 26 semanas, añadido al antipsicótico) la diferencia en la puntuación compuesta de la batería MCCB fue de 0,127 puntos T (IC 95 % -0,396 a 0,650; p = 0,63) (Keefe 2025)",
+    "Roluperidona (MIN-101): en el ensayo de fase 3 en monoterapia (513 personas, 12 semanas), la variable principal de síntomas negativos no alcanzó significación en la población por intención de tratar (p ≤ 0,064), aunque sí en la modificada (p ≤ 0,044) y en la escala PSP de funcionamiento (Davidson 2022)",
+    "Pimavanserina en síntomas negativos: ADVANCE-2 (fase 3, 454 personas, 26 semanas, añadida al antipsicótico) no mostró diferencias en la NSA-16 (diferencia -0,67; IC 95 % -2,54 a 1,20; d = 0,07) (Bugarski-Kirola 2026); un metaanálisis de 4 ensayos (1.676 personas) no respalda su uso rutinario en síntomas negativos (Dos Santos Pereira 2026)",
+    "Evenamida (contraste): añadida a un antipsicótico de segunda generación en 291 personas con respuesta insuficiente, redujo la PANSS 2,5 puntos más que el placebo a 4 semanas (d = 0,33) (Anand 2025); el registro recoge un ensayo de fase 3 en esquizofrenia resistente en reclutamiento (NCT07184619)",
+    "Patrón común: respuestas al placebo crecientes, que en 167 ensayos de esquizofrenia aguda moderaron el tamaño del efecto junto con la financiación industrial, sin descenso de la respuesta al fármaco (Leucht 2017)",
+    "Estado regulador (noviembre de 2026): sin registros en el listado de medicamentos de la EMA ni en CIMA para emraclidina, iclepertin, roluperidona, evenamida ni pimavanserina; sin registros en Drugs@FDA salvo la pimavanserina"
+   ],
+   "tx": "Ninguno de estos fármacos tiene indicación autorizada en esquizofrenia. Los síntomas negativos y el deterioro cognitivo se abordan con lo que las guías respaldan: descartar y tratar causas secundarias (efectos extrapiramidales, sedación, depresión, consumo de sustancias), ajustar el antipsicótico e intervenciones psicosociales como la remediación cognitiva, el entrenamiento en habilidades sociales y el empleo con apoyo. Conocer estos fracasos ayuda a informar con realismo a pacientes y familias que preguntan por novedades.",
+   "note": "Los resultados de EMPOWER solo constan en el registro ClinicalTrials.gov; no se ha localizado publicación indexada [fuente no localizada]. Las decisiones regulatorias sobre roluperidona en Estados Unidos y los comunicados de interrupción de los programas no se han contrastado en documentos oficiales [fuente no localizada]. Que un mecanismo fracase en un programa no lo descarta: la emraclidina y la roluperidona tienen nuevos ensayos registrados en reclutamiento (NCT07145918, NCT07565428).",
+   "sec": [
+    {
+     "t": "Psicosis aguda: emraclidina y la extrapolación desde la xanomelina",
+     "x": "Los resultados de la xanomelina-trospio (aprobada por la FDA en 2024) respaldaban la idea de que activar selectivamente el receptor M4, con menos efectos colinérgicos periféricos, bastaría para reducir la hiperactividad dopaminérgica estriatal. La emraclidina, modulador alostérico positivo M4, tenía a favor un ensayo de fase 1b en 81 personas con exacerbación aguda en el que los acontecimientos adversos fueron similares a placebo, con aumentos transitorios de la presión arterial y la frecuencia cardíaca al inicio (Krystal 2022), y un programa de fase 2 diseñado con potencia suficiente: dos ensayos de 6 semanas en personas hospitalizadas con PANSS entre 85 y 120 (Konis 2024). En EMPOWER-1 el placebo redujo 13,5 puntos la PANSS y las dos dosis 14,7 y 16,5; en EMPOWER-2, 16,1 frente a 18,5 y 14,2, de modo que la dosis alta quedó por detrás del placebo (registro ClinicalTrials.gov, consulta de noviembre de 2026). La extensión abierta EMPOWER-3 se terminó por razones empresariales, no de seguridad. Las hipótesis sobre el fracaso (dosis insuficiente, diferencias entre agonismo ortostérico M1/M4 y modulación alostérica solo M4, respuesta al placebo) no se han contrastado en publicaciones indexadas [fuente no localizada]. Con ulotaront, una fase 2 positiva fue seguida de dos ensayos de fase 3 negativos; en la emraclidina, en cambio, la señal previa procedía de un ensayo de fase 1b cuyo objetivo principal era la seguridad (Krystal 2022).",
+     "links": [
+      {
+       "ids": [
+        "xanomelina",
+        "muscarinico_esq"
+       ],
+       "t": "agonismo muscarínico aprobado"
+      },
+      {
+       "ids": [
+        "ulotaront"
+       ],
+       "t": "agonista TAAR1 con fase 3 negativa"
+      },
+      {
+       "ids": [
+        "dopa_hyp",
+        "esq"
+       ],
+       "t": "hipótesis dopaminérgica y esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Síntomas negativos y cognición: roluperidona, pimavanserina e iclepertin",
+     "x": "Son las dos necesidades no cubiertas más importantes de la esquizofrenia y las que más fracasos acumulan. La roluperidona, sin afinidad dopaminérgica, se ensayó en monoterapia en personas con síntomas negativos moderados o graves tras un primer ensayo positivo; en el de fase 3 la variable principal quedó en el límite de la significación (p ≤ 0,064 por intención de tratar) con mejoría significativa en el funcionamiento personal y social (Davidson 2022). Sus autores defienden su uso en un subgrupo con síntomas negativos primarios y retirada del antipsicótico (Davidson 2025), estrategia que exige una vigilancia estrecha de la recaída psicótica. La pimavanserina mostró en ADVANCE un efecto pequeño (tamaño del efecto 0,21), que ADVANCE-2 no reprodujo (d = 0,07), pese a un efecto en la misma dirección (Bugarski-Kirola 2026). El iclepertin, que buscaba potenciar el receptor NMDA a través de la glicina, no mejoró la cognición en tres ensayos de 26 semanas con 1.835 personas en 41 países, aunque fue bien tolerado (Keefe 2025); el fracaso comunicado en enero de 2025 y la interrupción de su desarrollo se consideran un revés para toda la estrategia de inhibición de GlyT1 (Englisch 2026).",
+     "links": [
+      {
+       "ids": [
+        "esqneg"
+       ],
+       "t": "síntomas negativos primarios y secundarios"
+      },
+      {
+       "ids": [
+        "detcog",
+        "cogn"
+       ],
+       "t": "deterioro cognitivo en la psicosis"
+      },
+      {
+       "ids": [
+        "nmda_psic"
+       ],
+       "t": "hipótesis NMDA"
+      },
+      {
+       "ids": [
+        "pimavanserina",
+        "5ht2a"
+       ],
+       "t": "pimavanserina y antagonismo 5-HT2A"
+      }
+     ]
+    },
+    {
+     "t": "Lecciones metodológicas",
+     "x": "Primera: la respuesta al placebo en los ensayos de antipsicóticos ha aumentado desde 1960 mientras la diferencia fármaco-placebo disminuía, en relación con la inflación de las puntuaciones basales, la inclusión de pacientes menos graves, la mayor duración de los ensayos y las expectativas (Rutherford 2014); el aumento del placebo y la financiación industrial fueron los únicos moderadores del tamaño del efecto en 167 ensayos (Leucht 2017). Segunda: los ensayos pequeños sobrestiman el efecto (corregir su efecto y el sesgo de publicación redujo la DME de 0,47 a 0,38; Leucht 2017), y las diferencias menguan en ensayos pivotales, como con ulotaront, pimavanserina y aticaprant. Tercera: la historia de tratamiento importa; la exposición previa a antagonistas D2 podría inducir supersensibilidad dopaminérgica postsináptica y enmascarar fármacos que actúan por encima de la dopamina, de modo que los diseños deberían estratificar por exposición previa (Grace 2026). Cuarta: la sensibilidad del ensayo exige mejor estratificación de pacientes, metodología depurada y variables que reflejen beneficio real (Englisch 2026). Quinta: en síntomas negativos conviene separar los primarios de los secundarios y usar escalas específicas; un efecto estadísticamente detectable puede quedar por debajo de la diferencia mínima clínicamente importante (Dos Santos Pereira 2026). Sexta: una variable intermedia o un biomarcador positivo no sustituye al resultado clínico.",
+     "links": [
+      {
+       "ids": [
+        "ulotaront",
+        "aticaprant"
+       ],
+       "t": "fracasos con el mismo patrón"
+      },
+      {
+       "ids": [
+        "esqneg"
+       ],
+       "t": "síntomas negativos primarios frente a secundarios"
+      },
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "exposición previa a antagonistas D2"
+      }
+     ]
+    },
+    {
+     "t": "Evenamida y situación regulatoria en España",
+     "x": "La evenamida, modulador de la liberación de glutamato (Anand 2025), al parecer mediante el bloqueo de canales de sodio dependientes de voltaje [fuente no localizada], ofrece el contrapunto: en un ensayo de 4 semanas en 291 personas ambulatorias con esquizofrenia crónica y respuesta insuficiente a un antipsicótico de segunda generación, añadida al tratamiento redujo la PANSS total 2,5 puntos más que el placebo (d = 0,33), con buena tolerabilidad (Anand 2025). A partir de modelos preclínicos y de la hipótesis de la hiperactividad hipocampal se propone que podría restaurar la inhibición del hipocampo, disfunción situada por encima del sistema dopaminérgico (Grace 2026). Es un único ensayo corto (descrito por sus autores como de fase 3) y con efecto pequeño, de modo que no permite conclusiones hasta conocer la fase 3 en esquizofrenia resistente registrada en reclutamiento (NCT07184619). Situación regulatoria comprobada en noviembre de 2026: ni la evenamida ni la emraclidina, el iclepertin o la roluperidona figuran en Drugs@FDA, en el listado de medicamentos de la EMA ni en CIMA; la pimavanserina está aprobada por la FDA solo para la psicosis de la enfermedad de Parkinson y no está autorizada en la Unión Europea. En España no hay disponible ningún antipsicótico sin acción dopaminérgica directa: la xanomelina-trospio tampoco consta en CIMA.",
+     "links": [
+      {
+       "ids": [
+        "cloz",
+        "clozapina"
+       ],
+       "t": "esquizofrenia resistente: referencia actual"
+      },
+      {
+       "ids": [
+        "hipocampo_psicosis"
+       ],
+       "t": "hiperactividad hipocampal"
+      },
+      {
+       "ids": [
+        "pimavanserina",
+        "xanomelina"
+       ],
+       "t": "estado regulador de otros no dopaminérgicos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Krystal JH et al. (2022). Emraclidine, a novel positive allosteric modulator of cholinergic M4 receptors, for the treatment of schizophrenia: a two-part, randomised, double-blind, placebo-controlled, phase 1b trial. Lancet 400:2210-2220 · PMID 36528376",
+    "Konis G et al. (2024). EMPOWERing the next-generation: a phase 2 program to evaluate emraclidine, a selective M4 positive allosteric modulator (PAM), for the treatment of schizophrenia. CNS Spectr 29:495 (resumen de congreso) · PMID 43010295",
+    "Keefe RSE et al. (2025). Efficacy and safety of iclepertin for cognitive impairment associated with schizophrenia (CONNEX programme): results from three phase 3 randomised controlled trials. Lancet Psychiatry 12:906-920 · PMID 41233083",
+    "Davidson M et al. (2022). Efficacy and safety of roluperidone for the treatment of negative symptoms of schizophrenia. Schizophr Bull 48:609-619 · PMID 35211743",
+    "Davidson M et al. (2025). Roluperidone monotherapy, a treatment for negative symptoms in schizophrenia. Int J Neuropsychopharmacol 28:pyaf032 · PMID 40392301",
+    "Bugarski-Kirola D et al. (2026). A phase 3, randomized, double-blind, placebo-controlled study to evaluate the efficacy and safety of pimavanserin as an adjunctive treatment for the negative symptoms of schizophrenia (ADVANCE-2) in patients with predominant negative symptoms. Schizophr Bull 52:sbaf034 · PMID 40181715",
+    "Dos Santos Pereira SI et al. (2026). Adjunctive pimavanserin in schizophrenia: a systematic review and meta-analysis with a focus on negative-symptom programmes. Asian J Psychiatr 120:104979 · PMID 42019343",
+    "Anand R et al. (2025). Efficacy and safety of evenamide, a glutamate modulator, added to a second-generation antipsychotic in inadequately/poorly responding patients with chronic schizophrenia: results from a randomized, double-blind, placebo-controlled, phase 3, international clinical trial. Neuropharmacology 266:110275 · PMID 39708914",
+    "Englisch S, Zink M (2026). New pharmacological treatment approaches for schizophrenia: navigating the post-iclepertin landscape. CNS Drugs 40:333-357 · PMID 41609993",
+    "Grace AA, Uliana DL (2026). Antipsychotic drug action, novel treatment targets, and the failure of current clinical trial designs in evaluating new target molecules. Biol Psychiatry 100:1078-1088 · PMID 42320782",
+    "Leucht S et al. (2017). Sixty years of placebo-controlled antipsychotic drug trials in acute schizophrenia: systematic review, Bayesian meta-analysis, and meta-regression of efficacy predictors. Am J Psychiatry 174:927-942 · PMID 28541090",
+    "Rutherford BR et al. (2014). Placebo response in antipsychotic clinical trials: a meta-analysis. JAMA Psychiatry 71:1409-1421 · PMID 25321611",
+    "Bugarski-Kirola D et al. (2022). Pimavanserin for negative symptoms of schizophrenia: results from the ADVANCE phase 2 randomised, placebo-controlled trial in North America and Europe. Lancet Psychiatry 9:46-58 · PMID 34861170",
+    "ClinicalTrials.gov (2026). Resultados y estado registrados de NCT05227690 (EMPOWER-1), NCT05227703 (EMPOWER-2), NCT05443724 (EMPOWER-3), NCT07145918, NCT07565428 y NCT07184619; consulta de noviembre de 2026",
+    "Registros oficiales (2026). Drugs@FDA (openFDA), listado público de medicamentos de la EMA y CIMA (AEMPS): sin registros de emraclidina, iclepertin, roluperidona ni evenamida; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "esq",
+    "esqneg",
+    "detcog",
+    "nmda_psic",
+    "muscarinico_esq",
+    "xanomelina",
+    "pimavanserina",
+    "5ht2a",
+    "ulotaront",
+    "cloz",
+    "hipocampo_psicosis"
+   ]
+  }
+ ]
+}
