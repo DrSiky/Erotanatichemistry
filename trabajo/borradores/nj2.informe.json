@@ -1,0 +1,67 @@
+{
+ "pmid_comprobados": 40,
+ "pmid_erroneos": 0,
+ "verificaciones": [
+  "40 PMID cotejados en PubMed (autor, año, revista, volumen, páginas y dato en el resumen); todos correctos. Teasdale 1974 figura en PubMed como Lancet 2:81-84; se mantiene «304» (volumen acumulado) por coherencia con la ficha obnub.",
+  "Tabulación CIE-11 local: 6B61.0 = Dissociative amnesia with dissociative fugue (correcto en fuga_disoc; el encargo proponía por error 6B61.1, que es «sin fuga»); MB20.1 Coma, 8E20, 8E21, 8E22 (8E22.0/8E22.1), 8E45, MB21.12 y MB26.0B existen con los rótulos citados. El afecto pseudobulbar no tiene código propio en la tabulación.",
+  "Regulatorio: Drugs@FDA confirma NUEDEXTA, NDA 021879, aprobación original 29-10-2010. EPAR de la EMA: autorizado en la UE el 24-06-2013 (afecto pseudobulbar en adultos; eficacia estudiada solo en ELA y EM); la Comisión retiró la autorización el 15-02-2016 a petición del titular (Jenson Pharmaceutical Services), por razones comerciales y sin llegar a comercializarse. CIMA: sin medicamentos con la asociación.",
+  "Alcance: se acepta no crear afecto_pseudobulbar porque labil_incont ya es esa ficha; la sección añadida (tratamiento y autorizaciones) no duplica su contenido (la ficha solo decía «aprobado por la FDA (2010)»).",
+  "Todos los ids de enlaces y relAdd existen y apuntan a nodos adecuados; sin dosis (se omite la de amantadina del resumen AAN); lenguaje neutro."
+ ],
+ "cambios": [
+  {
+   "id": "conciencia_grave",
+   "gravedad": "menor",
+   "antes": "El síndrome de enclaustramiento no es un trastorno de la conciencia: hay tetraplejía con movimientos oculares verticales y palpebrales conservados y capacidades cognitivas preservadas (Schnetzer et al. 2023), y confundirlo con los anteriores es un error grave.",
+   "despues": "El síndrome de enclaustramiento clásico no es un trastorno de la conciencia: hay tetraplejía con movimientos oculares verticales y palpebrales conservados y capacidades cognitivas preservadas, aunque la variante «plus» añade alteración de la conciencia (Schnetzer et al. 2023); confundirlo con los anteriores es un error grave.",
+   "fuente": "Schnetzer 2023, PMID 37006459 (resumen: locked-in plus con alteración de la conciencia)"
+  },
+  {
+   "id": "conciencia_grave",
+   "gravedad": "mayor",
+   "antes": "amantadina para acelerar la recuperación funcional (nivel B); esta ficha no recoge pautas (Giacino et al. 2018).",
+   "despues": "amantadina para acelerar la recuperación funcional (nivel B); esta ficha no recoge pautas (Giacino et al. 2018). En España es un uso fuera de ficha técnica: la de Amantadine Level 100 mg (CIMA-AEMPS) recoge solo la gripe A y la enfermedad de Parkinson.",
+   "fuente": "CIMA-AEMPS, ficha técnica Amantadine Level 100 mg cápsulas (n.º reg. 44541), sección 4.1"
+  },
+  {
+   "id": "fuga_disoc",
+   "gravedad": "menor",
+   "antes": "Es rara y se conoce sobre todo por casos aislados y alguna serie; la mayor, de 53 casos de amnesia psicógena,",
+   "despues": "Es rara y se conoce sobre todo por casos aislados y muy pocas series; una de ellas, de 53 casos de amnesia psicógena,",
+   "fuente": "Harrison 2017, PMID 29050391 (resumen: «very few case series»; no afirma ser la mayor)"
+  },
+  {
+   "id": "fuga_disoc",
+   "gravedad": "menor",
+   "antes": "la amnesia epiléptica transitoria cursa con episodios breves y recurrentes, a menudo al despertar (Bartsch y Butler 2013).",
+   "despues": "la amnesia epiléptica transitoria se distingue por la brevedad y la frecuencia de los episodios (Bartsch y Butler 2013).",
+   "fuente": "Bartsch & Butler 2013, PMID 23296343 (el dato «al despertar» no figura en su resumen; procede de Butler 2007, ya citado en la ficha agt)"
+  },
+  {
+   "id": "agt",
+   "gravedad": "menor",
+   "antes": "29 de 41 pacientes tuvieron lesiones hipocampales en las primeras 48 horas, el 94 % (34/36) en el sector CA1 (de Sommer)",
+   "despues": "29 de 41 pacientes tuvieron 36 lesiones hipocampales en las primeras 48 horas, y 34 de ellas (94 %) se situaban en el sector CA1 (de Sommer)",
+   "fuente": "Bartsch 2006, PMID 17003071 (el 94 % se refiere a lesiones, no a pacientes)"
+  },
+  {
+   "id": "labil_incont",
+   "gravedad": "menor",
+   "antes": "no consta, por tanto, un medicamento autorizado con esta indicación en España [fuente no localizada en CIMA].",
+   "despues": "en CIMA-AEMPS no figura ningún medicamento con dextrometorfano y quinidina (consulta de noviembre de 2026).",
+   "fuente": "CIMA-AEMPS, búsqueda por nombre «Nuedexta» y por principio activo quinidina/dextrometorfano: sin resultados para la asociación"
+  },
+  {
+   "id": "labil_incont",
+   "gravedad": "mayor",
+   "antes": "Antidepresivos tras el ictus: una revisión Cochrane de siete ensayos pequeños concluye que probablemente reducen el llanto (certeza moderada) y que el efecto no parece específico de un fármaco o clase (Allida et al. 2022);",
+   "despues": "Antidepresivos tras el ictus: una revisión Cochrane de siete ensayos pequeños y con sesgos halla que probablemente reducen el llanto (certeza moderada), aunque la conclusión global se apoya en evidencia de certeza muy baja y el efecto no parece específico de un fármaco o clase (Allida et al. 2022);",
+   "fuente": "Allida 2022, PMID 36394565 (conclusiones de los autores: «based on very low-certainty evidence»)"
+  }
+ ],
+ "sin_resolver": [
+  "Lista completa de los criterios de Hodges y Warlow (1990): se conserva marcada [fuente no localizada]; contrastar con el texto completo de J Neurol Neurosurg Psychiatry 53:834-843.",
+  "Pick A (1903), Brain 26:260-267: no está en PubMed; sigue marcada [no verificada].",
+  "Correspondencia de la paramnesia reduplicativa con MB26.0B: sin confirmación oficial (marcado)."
+ ]
+}

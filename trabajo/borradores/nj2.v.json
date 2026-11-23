@@ -1,0 +1,675 @@
+{
+ "patch": {
+  "obnub": {
+   "relAdd": [
+    "conciencia_grave"
+   ]
+  },
+  "mutismo_acin": {
+   "relAdd": [
+    "conciencia_grave"
+   ]
+  },
+  "estupor": {
+   "relAdd": [
+    "conciencia_grave"
+   ]
+  },
+  "catatonia": {
+   "relAdd": [
+    "conciencia_grave"
+   ]
+  },
+  "ghb_gbl": {
+   "relAdd": [
+    "conciencia_grave"
+   ]
+  },
+  "disoc_amn": {
+   "relAdd": [
+    "fuga_disoc",
+    "agt"
+   ]
+  },
+  "crepusc": {
+   "relAdd": [
+    "fuga_disoc",
+    "agt"
+   ]
+  },
+  "crepusc_amn": {
+   "relAdd": [
+    "fuga_disoc"
+   ]
+  },
+  "simulacion": {
+   "relAdd": [
+    "fuga_disoc"
+   ]
+  },
+  "tdi": {
+   "relAdd": [
+    "fuga_disoc"
+   ]
+  },
+  "amnesia": {
+   "relAdd": [
+    "agt"
+   ]
+  },
+  "psiep": {
+   "relAdd": [
+    "agt"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "agt"
+   ]
+  },
+  "paramn": {
+   "relAdd": [
+    "paramnesia_redup"
+   ]
+  },
+  "del_ident": {
+   "relAdd": [
+    "paramnesia_redup"
+   ]
+  },
+  "capgras": {
+   "relAdd": [
+    "paramnesia_redup"
+   ]
+  },
+  "desorient": {
+   "relAdd": [
+    "paramnesia_redup"
+   ]
+  },
+  "labil_incont": {
+   "secAdd": [
+    {
+     "t": "Tratamiento: principios y autorizaciones",
+     "x": "Principios: explicar a la persona y a su entorno que se trata de un trastorno de la expresión emocional y no de un ánimo depresivo, evaluar y tratar la depresión por separado, y decidir el tratamiento según la frecuencia de los episodios, su intensidad y su repercusión social [fuente no localizada]. Dextrometorfano-quinidina: en un ensayo aleatorizado de 12 semanas con 326 pacientes con esclerosis lateral amiotrófica o esclerosis múltiple y CNS-LS de 13 o más, la frecuencia diaria de episodios fue un 47-49 % menor que con placebo (Pioro et al. 2010). La FDA lo aprobó (Nuedexta, NDA 021879) el 29 de octubre de 2010. En la Unión Europea se autorizó el 24 de junio de 2013 para el tratamiento sintomático del afecto pseudobulbar en adultos, con eficacia estudiada solo en ELA y esclerosis múltiple, pero la Comisión Europea retiró la autorización el 15 de febrero de 2016 a petición del titular, por razones comerciales y sin que llegara a comercializarse (EPAR de la EMA); en CIMA-AEMPS no figura ningún medicamento con dextrometorfano y quinidina (consulta de noviembre de 2026). Antidepresivos tras el ictus: una revisión Cochrane de siete ensayos pequeños y con sesgos halla que probablemente reducen el llanto (certeza moderada), aunque la conclusión global se apoya en evidencia de certeza muy baja y el efecto no parece específico de un fármaco o clase (Allida et al. 2022); su uso con esta finalidad queda fuera de las indicaciones de ficha técnica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "em_neuro"
+       ],
+       "t": "Esclerosis múltiple"
+      },
+      {
+       "ids": [
+        "ictus_dep"
+       ],
+       "t": "Ictus y depresión"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "Depresión mayor"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pioro EP et al. (2010). Dextromethorphan plus ultra low-dose quinidine reduces pseudobulbar affect. Ann Neurol 68:693-702 · PMID 20839238",
+    "Allida S et al. (2022). Pharmaceutical interventions for emotionalism after stroke. Cochrane Database Syst Rev 11:CD003690 · PMID 36394565",
+    "FDA (2010). Drugs@FDA: NUEDEXTA (dextrometorfano/quinidina), NDA 021879, aprobación original 29-10-2010",
+    "EMA (2016). EPAR Nuedexta: autorización de comercialización (24-06-2013) retirada por la Comisión Europea el 15-02-2016",
+    "AEMPS-CIMA (2026). Búsqueda de medicamentos con dextrometorfano y quinidina: sin resultados (consulta 23-11-2026)"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "conciencia_grave",
+   "n": "Trastornos graves de la conciencia: coma, vigilia sin respuesta, mínima conciencia y enclaustramiento",
+   "ab": "T. graves conciencia",
+   "al": [
+    "coma",
+    "estado vegetativo",
+    "síndrome de vigilia sin respuesta",
+    "estado de mínima conciencia",
+    "síndrome de enclaustramiento",
+    "locked-in",
+    "disorders of consciousness"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "con",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "guia",
+   "y": 2002,
+   "tags": [
+    "organic",
+    "emerg"
+   ],
+   "cie": [
+    "MB20.1",
+    "8E20",
+    "8E21",
+    "8E22",
+    "8E45"
+   ],
+   "desc": "Extremo grave del continuo de la conciencia. Coma: ausencia de apertura ocular y de respuesta dirigida. Síndrome de vigilia sin respuesta, nuevo nombre propuesto para el estado vegetativo por la connotación peyorativa de este (Laureys et al. 2010): vigilia con ciclos de sueño y vigilia, pero sin conciencia de sí ni del entorno ni respuestas voluntarias reproducibles (Multi-Society Task Force 1994). Estado de mínima conciencia: signos de conciencia inconsistentes pero claramente discernibles (Giacino et al. 2002). El síndrome de enclaustramiento clásico no es un trastorno de la conciencia: hay tetraplejía con movimientos oculares verticales y palpebrales conservados y capacidades cognitivas preservadas, aunque la variante «plus» añade alteración de la conciencia (Schnetzer et al. 2023); confundirlo con los anteriores es un error grave. El psiquiatra interviene en el diferencial con el estupor catatónico y el disociativo, en la interconsulta y en las cuestiones de capacidad y de apoyo a la familia.",
+   "feats": [
+    "Coma: se gradúa con la escala de Glasgow (Teasdale y Jennett 1974); la escala FOUR añade reflejos troncoencefálicos y patrón respiratorio, permite puntuar a pacientes intubados y reconoce el síndrome de enclaustramiento (Wijdicks et al. 2005)",
+    "Vigilia sin respuesta: ciclos de sueño y vigilia con funciones autonómicas hipotalámicas y troncoencefálicas conservadas, sin respuestas conductuales sostenidas, reproducibles, intencionadas o voluntarias ni comprensión o expresión del lenguaje (Multi-Society Task Force 1994)",
+    "Mínima conciencia: evidencia conductual de conciencia inconsistente pero claramente discernible, que la distingue del coma y del estado vegetativo; puede ser transitoria o permanente (Giacino et al. 2002). La CIE-11 la subdivide en «plus» (8E22.0) y «minus» (8E22.1)",
+    "Error diagnóstico frecuente: de 44 pacientes diagnosticados de estado vegetativo por consenso clínico, 18 (41 %) estaban en mínima conciencia al aplicar la Coma Recovery Scale-Revised (Schnakers et al. 2009)",
+    "Enclaustramiento: tetraplejía con movimientos oculares verticales y del párpado conservados y cognición preservada; la calidad de vida que refieren los pacientes es alta, frente a la percepción pesimista de profesionales y cuidadores (Schnetzer et al. 2023)",
+    "CIE-11 (tabulación MMS): MB20.1 coma; 8E20 estado vegetativo persistente; 8E21 estado vegetativo permanente; 8E22 estado de mínima conciencia; 8E45 síndrome de enclaustramiento"
+   ],
+   "tx": "En fase aguda es una urgencia médica: soporte vital, glucemia, tóxicos (incluidos depresores como GHB/GBL, opioides, alcohol y benzodiacepinas) y búsqueda de una causa tratable. En los trastornos prolongados, la guía de la American Academy of Neurology recomienda identificar y tratar los factores de confusión, optimizar la vigilia, repetir evaluaciones estandarizadas, valorar y tratar siempre el dolor y, en adultos con trastorno de origen traumático entre las 4 y las 16 semanas tras la lesión, amantadina para acelerar la recuperación funcional (nivel B); esta ficha no recoge pautas (Giacino et al. 2018). En España es un uso fuera de ficha técnica: la de Amantadine Level 100 mg (CIMA-AEMPS) recoge solo la gripe A y la enfermedad de Parkinson. La información pronóstica a la familia debe ser prudente: el pronóstico no es universalmente malo.",
+   "note": "Las definiciones son de consenso (Multi-Society Task Force 1994; Giacino et al. 2002) y la guía de la AAN y la de la European Academy of Neurology se apoyan en evidencia limitada. La guía de la AAN (2018) propone sustituir «estado vegetativo permanente» por «crónico», mientras que la CIE-11 mantiene 8E21 «permanente». Las cifras pronósticas de 1994 (recuperación improbable tras 12 meses en la forma traumática y tras 3 meses en la no traumática) son anteriores a esa revisión y deben leerse con cautela. Los códigos 8E2x figuran en el capítulo de enfermedades del sistema nervioso y el coma como síntoma (MB20.1) en el capítulo 21.",
+   "sec": [
+    {
+     "t": "Exploración y escalas",
+     "x": "Se separan dos preguntas: si la persona está despierta (apertura ocular, ciclos de sueño y vigilia) y si muestra signos de conciencia (seguimiento visual, respuesta a órdenes, comunicación, conducta intencionada). La escala de Glasgow es la medida operativa clásica; la European Academy of Neurology sugiere en fase aguda la escala FOUR en lugar de la de Glasgow, explorar los movimientos oculares voluntarios con un espejo, repetir en fase subaguda y crónica la Coma Recovery Scale-Revised, obtener un EEG estándar buscando patrones de sueño y, cuando sea posible, complementar con PET, RM funcional o paradigmas de EEG en quien no obedece órdenes (Kondziella et al. 2020). La CRS-R, aplicada por examinadores entrenados, mostró fiabilidad interevaluador y test-retest altas en 80 pacientes y detectó a 10 en mínima conciencia mal clasificados como en estado vegetativo por otra escala (Giacino et al. 2004). La AAN recomienda evaluaciones seriadas y estandarizadas tras corregir los factores de confusión, como la sedación (Giacino et al. 2018).",
+     "links": [
+      {
+       "ids": [
+        "obnub"
+       ],
+       "t": "Descenso del nivel de conciencia"
+      },
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "Delirium y su detección"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial con el estupor catatónico y el disociativo",
+     "x": "Estupor catatónico: la persona está vigil, con los ojos abiertos y a menudo seguimiento ocular, y presenta negativismo, catalepsia, flexibilidad cérea, posturas o ecofenómenos; puede recordar después lo ocurrido y la prueba con benzodiacepinas tiene valor diagnóstico (véanse las fichas de estupor y catatonía). Falta de respuesta disociativa o funcional: exploración neurológica normal, resistencia activa a la apertura palpebral, evitación de la caída de la mano sobre la cara y EEG de vigilia [fuente no localizada]. Mutismo acinético: vigilia con falta de iniciativa motora y verbal por lesión frontosubcortical. Síndrome de enclaustramiento: hay que buscar siempre la comunicación por movimientos oculares verticales o parpadeo antes de concluir que no hay conciencia (Schnetzer et al. 2023). Delirium hipoactivo: fluctuación e inatención con respuesta al estímulo. La sedación farmacológica y las intoxicaciones son causas que hay que excluir, no diagnósticos alternativos.",
+     "links": [
+      {
+       "ids": [
+        "estupor",
+        "catatonia"
+       ],
+       "t": "Estupor y catatonía"
+      },
+      {
+       "ids": [
+        "crisis_func"
+       ],
+       "t": "Falta de respuesta funcional"
+      },
+      {
+       "ids": [
+        "mutismo_acin"
+       ],
+       "t": "Mutismo acinético"
+      }
+     ]
+    },
+    {
+     "t": "Causas, pronóstico y aspectos éticos",
+     "x": "La Multi-Society Task Force (1994) agrupó las causas en lesiones cerebrales agudas traumáticas y no traumáticas, enfermedades degenerativas y metabólicas y malformaciones congénitas graves. La AAN (2018) indica que en adultos el estado de mínima conciencia (frente al de vigilia sin respuesta) y la etiología traumática (frente a la no traumática) se asocian a mejores resultados, y que cuando el pronóstico es malo debe hablarse de los cuidados a largo plazo reconociendo que no es universalmente desfavorable. En el contexto del chemsex, el coma por GHB/GBL, solo o combinado con alcohol u otros depresores, es una causa a considerar en urgencias. El diagnóstico tiene consecuencias éticas y jurídicas: decisiones de limitación del esfuerzo terapéutico, instrucciones previas, medidas de apoyo a la capacidad y acompañamiento del duelo anticipado de la familia; el riesgo de diagnóstico erróneo obliga a evaluaciones repetidas antes de tomar decisiones irreversibles (Schnakers et al. 2009).",
+     "links": [
+      {
+       "ids": [
+        "tce_neuro",
+        "enc_hep"
+       ],
+       "t": "Causas neurológicas y metabólicas"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides"
+       ],
+       "t": "Depresores del sistema nervioso"
+      },
+      {
+       "ids": [
+        "consent_cap",
+        "capacidad_jur"
+       ],
+       "t": "Capacidad y medidas de apoyo"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Teasdale G & Jennett B (1974). Assessment of coma and impaired consciousness: a practical scale. Lancet 304:81-84 · PMID 4136544",
+    "Multi-Society Task Force on PVS (1994). Medical aspects of the persistent vegetative state (1). N Engl J Med 330:1499-1508 · PMID 7818633",
+    "Giacino JT et al. (2002). The minimally conscious state: definition and diagnostic criteria. Neurology 58:349-353 · PMID 11839831",
+    "Giacino JT et al. (2004). The JFK Coma Recovery Scale-Revised: measurement characteristics and diagnostic utility. Arch Phys Med Rehabil 85:2020-2029 · PMID 15605342",
+    "Wijdicks EF et al. (2005). Validation of a new coma scale: The FOUR score. Ann Neurol 58:585-593 · PMID 16178024",
+    "Schnakers C et al. (2009). Diagnostic accuracy of the vegetative and minimally conscious state: clinical consensus versus standardized neurobehavioral assessment. BMC Neurol 9:35 · PMID 19622138",
+    "Laureys S et al. (2010). Unresponsive wakefulness syndrome: a new name for the vegetative state or apallic syndrome. BMC Med 8:68 · PMID 21040571",
+    "Giacino JT et al. (2018). Practice guideline update recommendations summary: Disorders of consciousness. Neurology 91:450-460 · PMID 30089618",
+    "Kondziella D et al. (2020). European Academy of Neurology guideline on the diagnosis of coma and other disorders of consciousness. Eur J Neurol 27:741-756 · PMID 32090418",
+    "Schnetzer L et al. (2023). Locked-in syndrome revisited. Ther Adv Neurol Disord 16:17562864231160873 · PMID 37006459",
+    "OMS (2022). CIE-11 MMS: MB20.1 Coma; 8E20-8E22 Trastornos de la conciencia; 8E45 Síndrome de enclaustramiento",
+    "AEMPS-CIMA (2026). Ficha técnica de Amantadine Level 100 mg cápsulas duras (n.º reg. 44541), sección 4.1 Indicaciones terapéuticas (consulta 23-11-2026)"
+   ],
+   "rel": [
+    "obnub",
+    "estupor",
+    "catatonia",
+    "mutismo_acin",
+    "crisis_func",
+    "delirium",
+    "ghb_gbl",
+    "tce_neuro",
+    "consent_cap"
+   ]
+  },
+  {
+   "id": "fuga_disoc",
+   "n": "Fuga disociativa",
+   "ab": "Fuga disociativa",
+   "al": [
+    "fuga psicógena",
+    "estado de fuga",
+    "amnesia disociativa con fuga disociativa",
+    "dissociative fugue"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "con",
+   "ring": 2,
+   "trad": "dsm",
+   "cs": "m",
+   "ev": "fen",
+   "y": 2013,
+   "tags": [
+    "dissoc",
+    "trauma",
+    "forense"
+   ],
+   "cie": [
+    "6B61.0"
+   ],
+   "desc": "Desplazamiento aparentemente intencionado o vagabundeo desconcertado asociado a amnesia de la propia identidad o de otra información autobiográfica importante. Tras la propuesta del grupo de trabajo del DSM-5 (Spiegel et al. 2011), dejó de ser un trastorno independiente y es hoy un especificador de la amnesia disociativa en el DSM-5-TR; en la CIE-11 se codifica como 6B61.0 Amnesia disociativa con fuga disociativa. Es rara y se conoce sobre todo por casos aislados y muy pocas series; una de ellas, de 53 casos de amnesia psicógena, distinguió el estado de fuga y la fuga seguida de amnesia retrógrada focal (Harrison et al. 2017). Exige descartar epilepsia, intoxicación, amnesia global transitoria y simulación, y tiene relevancia pericial.",
+   "feats": [
+    "DSM-5-TR: especificador «con fuga disociativa» de la amnesia disociativa, definido como viaje aparentemente intencionado o vagabundeo desconcertado asociado a amnesia de la identidad o de otra información autobiográfica importante",
+    "CIE-11: 6B61.0 Amnesia disociativa con fuga disociativa; la forma sin fuga es 6B61.1",
+    "La pérdida del sentido de la identidad personal se limitó a los casos psicógenos; en la fuga, la pérdida de recuerdos de hechos y de sucesos fue grave y uniforme en todos los periodos vitales (Harrison et al. 2017)",
+    "Pronóstico mejor de lo supuesto: a los 3-6 meses los casos de fuga habían recuperado puntuaciones normales en hechos y casi normales en sucesos autobiográficos (Harrison et al. 2017)",
+    "Diferencial obligado con epilepsia y simulación (Angothu y Pabbathi 2016) y con los síndromes amnésicos transitorios de origen neurológico (Bartsch y Butler 2013)",
+    "En cinco casos estudiados sistemáticamente, la actividad delictiva asociada permitió a algunas personas seguir funcionando pese a la pérdida de memoria e identidad (Coons 1999): dato de interés pericial"
+   ],
+   "tx": "No hay tratamientos basados en pruebas para la amnesia disociativa (Staniloiu y Markowitsch 2014). Principios: protección y seguridad mientras dura el episodio; descartar causa médica, neurológica o tóxica; entorno tranquilo y no confrontativo que facilite recuperar la identidad y el contacto con la familia; evaluación del riesgo suicida, que en la amnesia disociativa podría estar aumentado e infraestimado (Staniloiu y Markowitsch 2014); y abordaje psicoterapéutico de los estresores y del trauma subyacente [fuente no localizada para la eficacia de técnicas concretas].",
+   "note": "Evidencia basada en casos y series pequeñas; la serie de Harrison et al. (2017) es retrospectiva y procede de un único centro neuropsiquiátrico. Los casos publicados de fuga recurrente son descripciones aisladas. La rareza del cuadro y su posible simulación obligan a prudencia diagnóstica, especialmente en contextos con incentivos externos. Nota de codificación: la fuga corresponde a 6B61.0 y no a 6B61.1 (amnesia disociativa sin fuga disociativa), según la tabulación CIE-11 MMS consultada.",
+   "sec": [
+    {
+     "t": "Fenomenología y exploración",
+     "x": "Durante el episodio la persona viaja o deambula, a veces durante días, y puede ser hallada sin documentación y sin saber quién es; al terminar suele quedar una laguna para el periodo de la fuga [fuente no localizada]. Harrison et al. (2017) describieron dos presentaciones con fuga: el estado de fuga propiamente dicho y la fuga que evoluciona hacia una amnesia retrógrada focal. En el grupo psicógeno fueron más frecuentes que en el neurológico la depresión, los problemas familiares o de pareja, económicos y laborales, la falta de reconocimiento de los familiares y, de forma llamativa, el antecedente de traumatismo craneal, que los autores interpretan como un posible episodio de aprendizaje. La exploración comprueba la identidad, el aprendizaje de información nueva y la memoria autobiográfica (por ejemplo, con la Autobiographical Memory Interview), y busca información de terceros, documentos y grabaciones. Kopelman (1987) sostuvo que muchas amnesias psicógenas se parecen a las orgánicas por un fallo en la adquisición inicial de la información.",
+     "links": [
+      {
+       "ids": [
+        "disoc_amn"
+       ],
+       "t": "Amnesia disociativa"
+      },
+      {
+       "ids": [
+        "amnesia"
+       ],
+       "t": "Amnesia anterógrada y retrógrada"
+      },
+      {
+       "ids": [
+        "des2"
+       ],
+       "t": "Cribado de disociación"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Epilepsia: automatismos, estado epiléptico no convulsivo y estados postictales, con conducta más simple o estereotipada, confusión y, a veces, alteraciones en el EEG; la amnesia epiléptica transitoria se distingue por la brevedad y la frecuencia de los episodios (Bartsch y Butler 2013). Amnesia global transitoria: amnesia anterógrada profunda con preguntas repetitivas e identidad conservada, que dura hasta 24 horas. Intoxicación por alcohol, benzodiacepinas o GHB/GBL: lagunas limitadas al periodo de efecto [fuente no localizada]. Estado crepuscular: estrechamiento de la conciencia con desconexión del entorno. Trastorno disociativo de identidad: alternancia de estados de identidad con lagunas recurrentes. Deambulación en la demencia y viajes en episodios maníacos o psicóticos, sin amnesia de identidad. Simulación: incentivos externos, inconsistencias entre exploraciones y con la conducta observada; los instrumentos específicos ayudan pero no sustituyen al juicio clínico.",
+     "links": [
+      {
+       "ids": [
+        "psiep",
+        "crepusc_amn"
+       ],
+       "t": "Epilepsia y automatismos"
+      },
+      {
+       "ids": [
+        "crepusc"
+       ],
+       "t": "Estado crepuscular"
+      },
+      {
+       "ids": [
+        "tdi"
+       ],
+       "t": "Trastorno disociativo de identidad"
+      },
+      {
+       "ids": [
+        "simulacion",
+        "sims_tomm"
+       ],
+       "t": "Simulación y su detección"
+      },
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      }
+     ]
+    },
+    {
+     "t": "Contexto clínico y valoración pericial",
+     "x": "La fuga aparece dentro de la amnesia disociativa, sola o en el trastorno disociativo de identidad, y suele seguir a sucesos traumáticos o a estrés intenso; la revisión del grupo de trabajo del DSM-5 subraya la creciente evidencia que vincula los trastornos disociativos con antecedentes de trauma (Spiegel et al. 2011). Se han descrito, como casos aislados, fugas con síntomas psicóticos tras un trauma masivo (Agenagnew et al. 2020), episodios recurrentes con depresión grave y dependencia del alcohol (Daliri et al. 2022) y recurrencias ante nuevos estresores (Angothu y Pabbathi 2016). En el ámbito pericial, la amnesia alegada para un periodo en el que se cometió un hecho no acredita por sí sola una fuga disociativa: deben documentarse el inicio, la conducta observada por testigos, la congruencia de la amnesia con los modelos clínicos y la exclusión de causas orgánicas y tóxicas, antes de considerar su repercusión en la imputabilidad.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "trauma"
+       ],
+       "t": "Trauma y TEPT"
+      },
+      {
+       "ids": [
+        "imputabilidad",
+        "perit_forense"
+       ],
+       "t": "Imputabilidad y método pericial"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "American Psychiatric Association (2022). DSM-5-TR: Amnesia disociativa, especificador «con fuga disociativa»",
+    "OMS (2022). CIE-11 MMS: 6B61.0 Amnesia disociativa con fuga disociativa",
+    "Spiegel D et al. (2011). Dissociative disorders in DSM-5. Depress Anxiety 28:824-852 · PMID 21910187",
+    "Harrison NA et al. (2017). Psychogenic amnesia: syndromes, outcome, and patterns of retrograde amnesia. Brain 140:2498-2510 · PMID 29050391",
+    "Staniloiu A & Markowitsch HJ (2014). Dissociative amnesia. Lancet Psychiatry 1:226-241 · PMID 26360734",
+    "Coons PM (1999). Psychogenic or dissociative fugue: a clinical investigation of five cases. Psychol Rep 84:881-886 · PMID 10408212",
+    "Angothu H & Pabbathi LR (2016). Recurrent episodes of dissociative fugue. Indian J Psychol Med 38:160-162 · PMID 27114633",
+    "Agenagnew L et al. (2020). Dissociative amnesia with dissociative fugue and psychosis: a case report from a 25-year-old Ethiopian woman. Case Rep Psychiatry 2020:3281487 · PMID 33110666",
+    "Daliri DB et al. (2022). Recurrent episodes of dissociative fugue with comorbid severe depression and alcohol dependence syndrome. Case Rep Psychiatry 2022:7362823 · PMID 36105782",
+    "Kopelman MD (1987). Amnesia: organic and psychogenic. Br J Psychiatry 150:428-442 · PMID 3311268",
+    "Bartsch T & Butler C (2013). Transient amnesic syndromes. Nat Rev Neurol 9:86-97 · PMID 23296343"
+   ],
+   "rel": [
+    "disoc_amn",
+    "crepusc",
+    "crepusc_amn",
+    "tdi",
+    "simulacion",
+    "psiep",
+    "sims_tomm",
+    "imputabilidad",
+    "ptsd",
+    "ganser"
+   ]
+  },
+  {
+   "id": "agt",
+   "n": "Amnesia global transitoria",
+   "ab": "AGT",
+   "al": [
+    "ictus amnésico",
+    "transient global amnesia",
+    "TGA"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "ori",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 1990,
+   "tags": [
+    "organic",
+    "elderly"
+   ],
+   "cie": [
+    "MB21.12"
+   ],
+   "desc": "Síndrome clínico de comienzo brusco con amnesia anterógrada (incapacidad para codificar recuerdos nuevos), preguntas repetitivas y, a veces, un componente retrógrado, que dura hasta 24 horas sin compromiso de otras funciones neurológicas (Arena y Rabinstein 2015). Su correlato es una perturbación transitoria de la función hipocampal, con lesiones focales en la difusión de la RM situadas selectivamente en el campo CA1 (Bartsch y Deuschl 2010). Es un diagnóstico clínico que se apoya en los criterios de Hodges y Warlow (1990); su pronóstico es bueno y la tasa de recurrencia baja. Interesa a la psiquiatría por sus desencadenantes emocionales y por el diferencial con la amnesia disociativa y la fuga.",
+   "feats": [
+    "Hodges y Warlow (1990): de 153 casos de amnesia transitoria aguda, 114 cumplieron los criterios estrictos de AGT, con pronóstico excelente; las crisis de menos de una hora o rápidamente recurrentes orientan a amnesia epiléptica, y los déficits focales a amnesia isquémica transitoria",
+    "Contenido habitual de los criterios de Hodges y Warlow: episodio presenciado, amnesia anterógrada evidente, sin obnubilación ni pérdida de la identidad personal, déficit cognitivo limitado a la amnesia, sin signos focales ni rasgos epilépticos, sin traumatismo craneal ni epilepsia activa recientes y resolución en 24 horas [fuente no localizada: no figura en el resumen]",
+    "En RM de difusión a 3 T, 29 de 41 pacientes tuvieron 36 lesiones hipocampales en las primeras 48 horas, y 34 de ellas (94 %) se situaban en el sector CA1 (de Sommer), sin secuelas estructurales ni neuropsicológicas a los 4-6 meses (Bartsch et al. 2006)",
+    "En 114 casos frente a controles comunitarios y con accidente isquémico transitorio no aumentó el riesgo asociado a los factores de riesgo vascular convencionales; la migraña fue más frecuente y un 7 % desarrolló epilepsia, casi siempre en el primer año (Hodges y Warlow 1990, Brain)",
+    "En 142 casos, los episodios de las mujeres se asociaron sobre todo a un desencadenante emocional, antecedentes de ansiedad y personalidad patológica, y los de los hombres a un desencadenante físico (Quinette et al. 2006)",
+    "CIE-11: MB21.12 Amnesia global transitoria, entre los síntomas y signos relativos a la cognición"
+   ],
+   "tx": "Es un diagnóstico clínico, y reconocer sus rasgos característicos evita pruebas innecesarias; puede considerarse la neuroimagen y se recomienda EEG cuando los episodios son breves y recurrentes (Arena y Rabinstein 2015). No precisa tratamiento específico: se tranquiliza a la persona y a su familia, se vigila hasta la resolución y se reevalúa ante rasgos atípicos, como signos focales, duración mayor de 24 horas o recurrencias [fuente no localizada para esta última pauta]. Si hubo un desencadenante emocional relevante, puede ofrecerse valoración psicológica [fuente no localizada].",
+   "note": "La fisiopatología no está aclarada: se han propuesto insuficiencia venosa, isquemia arterial y fenómenos migrañosos o epilépticos, sin que ninguno explique de forma constante los casos (Arena y Rabinstein 2015). Los datos de pronóstico a largo plazo son limitados, aunque sugieren baja recurrencia y riesgo no muy aumentado de ictus y crisis. El listado completo de los criterios de Hodges y Warlow se cita aquí de forma secundaria, porque los resúmenes de 1990 no lo reproducen; conviene contrastarlo con el texto original.",
+   "sec": [
+    {
+     "t": "Clínica y exploración",
+     "x": "El cuadro característico es el de una persona que, de forma brusca, repite una y otra vez las mismas preguntas porque no retiene la respuesta, mientras conserva la identidad personal, el lenguaje y la capacidad de realizar actividades aprendidas [fuente no localizada para este último dato]. La exploración durante el episodio documenta la amnesia anterógrada con recuerdo diferido, delimita el componente retrógrado, comprueba la orientación en persona y descarta signos neurológicos focales. En la serie de Bartsch et al. (2006) las lesiones de difusión se estudiaron en una ventana de 48 horas y la mayoría (8 de 10) eran ya visibles en las primeras 6 horas; los déficits de memoria verbal se asociaron a lesiones del hemisferio dominante y los visuoespaciales al no dominante, y el 88 % (21/24) mostró un drenaje venoso intracraneal asimétrico (ibídem). Debe contarse con un testigo que describa el inicio y la conducta.",
+     "links": [
+      {
+       "ids": [
+        "amnesia"
+       ],
+       "t": "Amnesia anterógrada y retrógrada"
+      },
+      {
+       "ids": [
+        "desorient"
+       ],
+       "t": "Orientación"
+      }
+     ]
+    },
+    {
+     "t": "Fisiopatología",
+     "x": "La AGT se interpreta como un modelo de perturbación focal y transitoria de los circuitos de memoria temporomesiales. Las lesiones puntiformes del campo CA1 del asta de Amón son el hallazgo de imagen más específico, y los datos recientes apuntan a la vulnerabilidad de las neuronas CA1 al estrés metabólico como pieza central de la cascada fisiopatológica; los factores que desencadenan las lesiones siguen sin conocerse (Bartsch y Deuschl 2010). Se han invocado la migraña, la isquemia focal, las anomalías del flujo venoso y los fenómenos epilépticos; los estudios con ecografía dúplex venosa dinámica han señalado la insuficiencia de las válvulas de la vena yugular (Sander y Sander 2005). La ausencia de asociación con los factores de riesgo vascular convencionales llevó a rechazar una etiología tromboembólica en la gran mayoría de los casos (Hodges y Warlow 1990, Brain). Los desencadenantes emocionales y físicos (esfuerzo, agua fría, relaciones sexuales) se recogen en las series clínicas [fuente no localizada para la lista concreta].",
+     "links": [
+      {
+       "ids": [
+        "amnesia",
+        "korsakoff"
+       ],
+       "t": "Síndromes amnésicos hipocampales y diencefálicos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Amnesia disociativa y fuga: pérdida de la identidad personal, amnesia sobre todo retrógrada y autobiográfica con aprendizaje nuevo conservado, y en las formas focales gradiente temporal invertido (Harrison et al. 2017; Staniloiu y Markowitsch 2014). Amnesia epiléptica transitoria: comienzo tardío (edad media 62 años), episodios frecuentes (mediana 12 al año), breves (mediana de 30 a 60 minutos) y a menudo al despertar (37 de 50), con cese de las crisis con antiepilépticos en 44 de 47 tratados, y olvido acelerado y amnesia autobiográfica persistentes (Butler et al. 2007); quien la padece puede «recordar que no podía recordar» (Zeman et al. 1998). Amnesia isquémica transitoria: déficits focales asociados y peor pronóstico vascular (Hodges y Warlow 1990). Intoxicación o sumisión química con benzodiacepinas, GHB o escopolamina, hipoglucemia, delirium con inatención y estado postictal completan el diferencial.",
+     "links": [
+      {
+       "ids": [
+        "disoc_amn",
+        "fuga_disoc"
+       ],
+       "t": "Amnesia disociativa y fuga"
+      },
+      {
+       "ids": [
+        "psiep"
+       ],
+       "t": "Epilepsia"
+      },
+      {
+       "ids": [
+        "sumision_q",
+        "escopolamina",
+        "ghb_gbl"
+       ],
+       "t": "Sumisión química"
+      },
+      {
+       "ids": [
+        "hipoglucemia_psiq",
+        "delirium"
+       ],
+       "t": "Causas metabólicas y delirium"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Hodges JR & Warlow CP (1990). Syndromes of transient amnesia: towards a classification. A study of 153 cases. J Neurol Neurosurg Psychiatry 53:834-843 · PMID 2266362",
+    "Hodges JR & Warlow CP (1990). The aetiology of transient global amnesia. A case-control study of 114 cases with prospective follow-up. Brain 113:639-657 · PMID 2194627",
+    "Zeman AZ et al. (1998). Transient epileptic amnesia: a description of the clinical and neuropsychological features in 10 cases and a review of the literature. J Neurol Neurosurg Psychiatry 64:435-443 · PMID 9576532",
+    "Sander K & Sander D (2005). New insights into transient global amnesia: recent imaging and clinical findings. Lancet Neurol 4:437-444 · PMID 15963447",
+    "Bartsch T et al. (2006). Selective affection of hippocampal CA-1 neurons in patients with transient global amnesia without long-term sequelae. Brain 129:2874-2884 · PMID 17003071",
+    "Quinette P et al. (2006). What does transient global amnesia really mean? Review of the literature and thorough study of 142 cases. Brain 129:1640-1658 · PMID 16670178",
+    "Butler CR et al. (2007). The syndrome of transient epileptic amnesia. Ann Neurol 61:587-598 · PMID 17444534",
+    "Bartsch T & Deuschl G (2010). Transient global amnesia: functional anatomy and clinical implications. Lancet Neurol 9:205-214 · PMID 20129169",
+    "Bartsch T & Butler C (2013). Transient amnesic syndromes. Nat Rev Neurol 9:86-97 · PMID 23296343",
+    "Arena JE & Rabinstein AA (2015). Transient global amnesia. Mayo Clin Proc 90:264-272 · PMID 25659242",
+    "OMS (2022). CIE-11 MMS: MB21.12 Amnesia global transitoria"
+   ],
+   "rel": [
+    "amnesia",
+    "disoc_amn",
+    "fuga_disoc",
+    "crepusc",
+    "psiep",
+    "sumision_q",
+    "hipoglucemia_psiq",
+    "delirium",
+    "korsakoff"
+   ]
+  },
+  {
+   "id": "paramnesia_redup",
+   "n": "Paramnesia reduplicativa y desorientación topográfica",
+   "ab": "P. reduplicativa",
+   "al": [
+    "paramnesia reduplicativa de Pick",
+    "reduplicative paramnesia",
+    "reduplicación de lugares",
+    "desorientación topográfica",
+    "topographical disorientation"
+   ],
+   "k": "sx",
+   "vw": "sem",
+   "sp": "ori",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 1903,
+   "tags": [
+    "organic",
+    "elderly"
+   ],
+   "desc": "Creencia delirante de que un lugar existe por duplicado o ha sido trasladado: la persona sostiene, pese a pruebas convincentes en contra, que el hospital donde está ingresada se encuentra en otra ciudad, a menudo cerca de su casa. Descrita por Pick (1903) y delimitada como síndrome por Benson, Gardner y Meadows (1976) en tres pacientes con traumatismo craneal grave, se considera un síndrome de falsa identificación de contenido específico y de causa predominantemente neurológica, con lesiones derechas y bifrontales (Politis y Loane 2012). La desorientación topográfica es otra cosa: la incapacidad para orientarse y desplazarse en entornos amplios, sin creencia delirante, con variedades distintas según la región lesionada (Aguirre y D'Esposito 1999).",
+   "feats": [
+    "Benson et al. (1976): con la memoria general ya casi normal, los pacientes reubicaban persistentemente el hospital en otro lugar geográfico; los autores subrayaron el papel del hemisferio derecho y del lóbulo frontal y la relación con la confabulación",
+    "Hipótesis anatómica clásica: lesión aguda del hemisferio derecho superpuesta a un déficit crónico difuso o bifrontal; de 50 pacientes alcohólicos ingresados, 4 presentaban paramnesia reduplicativa y 3 de ellos tenían lesiones agudas derechas (Hakim et al. 1988)",
+    "En 77 pacientes con lesión cerebral focal, 6 (7,8 %) presentaron paramnesia reduplicativa típica o atípica; en 5 las lesiones eran derechas o bilaterales de predominio derecho (Murai et al. 1997)",
+    "Frente a 11 controles con desorientación espacial grave, 11 pacientes con paramnesia reduplicativa tenían más disfunción ejecutiva y lesiones sobre todo derechas con máximo solapamiento en la corteza prefrontal dorsolateral, conectadas con la ínsula anterior bilateral y el cíngulo derecho (Diamantaras et al. 2023)",
+    "Puede aparecer de forma diferida: un caso desarrolló la creencia más de tres años después de un traumatismo craneal, con patología derecha y bifrontal (Filley y Jarvis 1987)",
+    "La desorientación topográfica puede ser del desarrollo, sin lesión estructural y con un fallo selectivo para formar un mapa cognitivo del entorno (Iaria et al. 2009)"
+   ],
+   "tx": "Tratar la causa neurológica y el delirium si coexiste. Principios de manejo: no confrontar de forma insistente la creencia, ofrecer claves de orientación ambiental, vigilar el riesgo de que la persona intente marcharse hacia el lugar que considera verdadero e informar a la familia sobre la naturaleza neurológica del síntoma [fuente no localizada]. No hay ensayos de tratamiento farmacológico específico [fuente no localizada].",
+   "note": "La literatura se compone de casos, series pequeñas y un estudio de casos y controles; una revisión sistemática no encontró estudios clínicos sistemáticos y considera especulativas las explicaciones actuales (Politis y Loane 2012). La CIE-11 no tiene código propio; el código MB26.0B «delirio de falsa identificación» podría aplicarse, pero no consta su equivalencia [fuente oficial no localizada]. Esta ficha amplía lo que ya recogen las de paramnesias y delirios de falsa identificación.",
+   "sec": [
+    {
+     "t": "Exploración clínica",
+     "x": "Se pregunta dónde se encuentra la persona, en qué ciudad está el centro, si es el mismo hospital al que llegó y cómo explica que haya dos iguales o que el edificio se haya trasladado; las respuestas suelen ser confabulaciones elaboradas con una crítica escasa [fuente no localizada]. Se distingue la reduplicación de lugares de la de personas (Capgras) y se explora si la creencia se mantiene ante pruebas, lo que la separa de la desorientación simple. Se buscan heminegligencia, anosognosia, disfunción ejecutiva, déficits visuoespaciales y de memoria, que en la serie de Diamantaras et al. (2023) fueron frecuentes también en los controles con desorientación espacial sin reduplicación, mientras que la disfunción ejecutiva diferenció a los pacientes con paramnesia. Para la desorientación topográfica se valora el reconocimiento de puntos de referencia, el aprendizaje de rutas nuevas y la capacidad de describir o dibujar un mapa de lugares conocidos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "desorient"
+       ],
+       "t": "Desorientación"
+      },
+      {
+       "ids": [
+        "confab"
+       ],
+       "t": "Confabulación"
+      },
+      {
+       "ids": [
+        "anosog"
+       ],
+       "t": "Anosognosia"
+      }
+     ]
+    },
+    {
+     "t": "Relación con los síndromes de falsa identificación",
+     "x": "En la revisión de 260 casos de Förstl et al. (1991), 17 correspondían a paramnesia reduplicativa; la falsa identificación de personas podía darse en cualquier psicosis orgánica o funcional, mientras que la de lugares se asociaba a enfermedad neurológica, sobre todo del hemisferio derecho. Darby et al. (2017) cartografiaron 17 lesiones causantes de delirios de falsa identificación: todas estaban funcionalmente conectadas con la corteza retrosplenial izquierda, la región más activada en los estudios de familiaridad, y 16 con la corteza frontal derecha, ligada a la evaluación de creencias ante la violación de expectativas, lo que apoya un modelo de dos factores. Bartolomeo et al. (2017) agrupan la paramnesia reduplicativa con la anosognosia de la hemiplejía y la somatoparafrenia como confabulaciones relativas al espacio tras lesiones derechas, que podrían reflejar los intentos del hemisferio izquierdo de dar sentido a información inadecuada procedente del derecho.",
+     "links": [
+      {
+       "ids": [
+        "del_ident",
+        "capgras"
+       ],
+       "t": "Falsa identificación delirante"
+      },
+      {
+       "ids": [
+        "paramn"
+       ],
+       "t": "Paramnesias"
+      }
+     ]
+    },
+    {
+     "t": "Desorientación topográfica y diagnóstico diferencial",
+     "x": "Aguirre y D'Esposito (1999) proponen una taxonomía de la desorientación topográfica en varias variedades, cada una ligada a una región cortical y a un componente de la navegación, en consonancia con los modelos de orientación espacial y la neuroimagen funcional. Iaria et al. (2009) describieron una forma del desarrollo, sin lesión, con falta de activación hipocampal y retrosplenial al formar un mapa cognitivo. Diferencial: delirium, con desorientación fluctuante e inatención; demencia, en la que la desorientación es global y progresiva; doble orientación en la esquizofrenia, en la que coexisten la orientación correcta y la delirante sin lesión focal; confabulación amnésica del síndrome de Korsakoff; y desorientación por inatención en estados de ansiedad o intoxicación. La revisión sistemática de Politis y Loane (2012) respalda que la paramnesia reduplicativa tiene una causa neurológica más que psiquiátrica, lo que obliga al estudio neurológico.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "dem"
+       ],
+       "t": "Delirium y demencia"
+      },
+      {
+       "ids": [
+        "doble_orient"
+       ],
+       "t": "Doble orientación"
+      },
+      {
+       "ids": [
+        "korsakoff",
+        "tce_neuro"
+       ],
+       "t": "Korsakoff y traumatismo craneal"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Pick A (1903). Clinical studies: III. On reduplicative paramnesia. Brain 26:260-267 [no verificada]",
+    "Benson DF, Gardner H & Meadows JC (1976). Reduplicative paramnesia. Neurology 26:147-151 · PMID 943070",
+    "Filley CM & Jarvis PE (1987). Delayed reduplicative paramnesia. Neurology 37:701-703 · PMID 3561784",
+    "Hakim H et al. (1988). Pathogenesis of reduplicative paramnesia. J Neurol Neurosurg Psychiatry 51:839-841 · PMID 3404191",
+    "Förstl H et al. (1991). Psychiatric, neurological and medical aspects of misidentification syndromes: a review of 260 cases. Psychol Med 21:905-910 · PMID 1780403",
+    "Murai T et al. (1997). Reduplicative paramnesia in patients with focal brain damage. Neuropsychiatry Neuropsychol Behav Neurol 10:190-196 · PMID 9297712",
+    "Aguirre GK & D'Esposito M (1999). Topographical disorientation: a synthesis and taxonomy. Brain 122:1613-1628 · PMID 10468502",
+    "Iaria G et al. (2009). Developmental topographical disorientation: case one. Neuropsychologia 47:30-40 · PMID 18793658",
+    "Politis M & Loane C (2012). Reduplicative paramnesia: a review. Psychopathology 45:337-343 · PMID 22854269",
+    "Darby RR et al. (2017). Finding the imposter: brain connectivity of lesions causing delusional misidentifications. Brain 140:497-507 · PMID 28082298",
+    "Bartolomeo P et al. (2017). Space-related confabulations after right hemisphere damage. Cortex 87:166-173 · PMID 27484245",
+    "Diamantaras AA et al. (2023). The neuropsychology and neuroanatomy of reduplicative paramnesia. Cortex 167:12-24 · PMID 37515831"
+   ],
+   "rel": [
+    "paramn",
+    "del_ident",
+    "capgras",
+    "desorient",
+    "confab",
+    "anosog",
+    "doble_orient",
+    "tce_neuro",
+    "dem"
+   ]
+  }
+ ]
+}
