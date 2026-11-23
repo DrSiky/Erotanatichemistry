@@ -1,0 +1,570 @@
+{
+ "patch": {
+  "tdah": {
+   "relAdd": [
+    "neurofeedback"
+   ]
+  },
+  "tdah_adulto": {
+   "relAdd": [
+    "neurofeedback"
+   ]
+  },
+  "tdcs": {
+   "relAdd": [
+    "neurofeedback",
+    "tms_acelerada"
+   ]
+  },
+  "emt": {
+   "relAdd": [
+    "neurofeedback",
+    "tms_acelerada",
+    "terapia_mst"
+   ]
+  },
+  "drt": {
+   "relAdd": [
+    "tms_acelerada",
+    "terapia_mst"
+   ]
+  },
+  "esketamina": {
+   "relAdd": [
+    "tms_acelerada"
+   ]
+  },
+  "tec_dep": {
+   "relAdd": [
+    "terapia_mst"
+   ]
+  },
+  "tec_hit": {
+   "relAdd": [
+    "terapia_mst"
+   ]
+  },
+  "lm_bip": {
+   "relAdd": [
+    "litio_renal_tiroid"
+   ]
+  },
+  "intox_litio": {
+   "relAdd": [
+    "litio_renal_tiroid"
+   ]
+  },
+  "hipercalcemia_psiq": {
+   "relAdd": [
+    "litio_renal_tiroid"
+   ]
+  },
+  "endocrino": {
+   "relAdd": [
+    "litio_renal_tiroid"
+   ]
+  },
+  "uremia_dialisis": {
+   "relAdd": [
+    "litio_renal_tiroid"
+   ]
+  },
+  "tirotoxicosis_psiq": {
+   "relAdd": [
+    "litio_renal_tiroid"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "neurofeedback",
+   "n": "Neurofeedback EEG y por resonancia magnética funcional",
+   "ab": "Neurofeedback",
+   "al": [
+    "neurorretroalimentación",
+    "biofeedback electroencefalográfico",
+    "EEG neurofeedback",
+    "rtfMRI-NF",
+    "neurofeedback por RMf en tiempo real"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "neu",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2016,
+   "tags": [
+    "child"
+   ],
+   "desc": "Técnica de autorregulación cerebral basada en el condicionamiento operante: se registra en tiempo real una señal de actividad cerebral (bandas de frecuencia o potenciales corticales lentos en el electroencefalograma, o la señal BOLD de una región en la resonancia magnética funcional) y se devuelve a la persona como estímulo visual o auditivo para que aprenda a modificarla. Se ha propuesto sobre todo en el TDAH, con protocolos de reducción del cociente theta/beta, y de forma experimental en depresión y otros trastornos. Los primeros metaanálisis, que incluían estudios no aleatorizados y evaluaciones no enmascaradas, describieron efectos grandes (Arns 2009); cuando el análisis se limita a evaluadores probablemente ciegos o a ensayos con control simulado, el efecto sobre los síntomas nucleares del TDAH desaparece o se vuelve pequeño (Cortese 2016; Westwood 2025). En la práctica actual debe considerarse una intervención experimental o, como mucho, complementaria.",
+   "feats": [
+    "Metaanálisis del European ADHD Guidelines Group (13 ensayos, 520 participantes): efecto significativo solo con los evaluadores más próximos al tratamiento (DME 0,35 en síntomas totales); sin efecto significativo con valoraciones probablemente ciegas ni en ensayos con control activo o simulado (Cortese 2016)",
+    "Metaanálisis actualizado (38 ensayos, 2.472 participantes de 5 a 40 años): sin mejoría en síntomas totales con valoraciones probablemente ciegas (DME 0,04; IC 95 % −0,10 a 0,18); mejoría pequeña al limitarse a protocolos estándar (DME 0,21) y en velocidad de procesamiento (DME 0,35) (Westwood 2025)",
+    "Ensayo doble ciego en 144 niños y niñas de 7 a 10 años con cociente theta/beta elevado: ambos grupos mejoraron, sin superioridad del neurofeedback real sobre el simulado al final ni a los 13 meses (d = 0,01 y 0,23); respondieron el 61 % y el 54 % (Neurofeedback Collaborative Group 2021)",
+    "En adultos con TDAH, el neurofeedback theta/beta no fue superior al simulado ni a la terapia metacognitiva grupal; los síntomas mejoraron por igual en los tres brazos y no hubo acontecimientos adversos graves (Schönenberg 2017)",
+    "Neurofeedback por RMf de la corteza frontal inferior derecha en 88 niños varones con TDAH: sin diferencias frente al simulado en la escala ADHD-RS pese a aumentar la activación regional (Lam 2022)",
+    "En la depresión mayor, un ensayo pequeño de neurofeedback por RMf de la amígdala (36 adultos sin medicación) obtuvo más respuestas y remisiones que la región de control (NNT 4 para la remisión), pendiente de replicación (Young 2017)"
+   ],
+   "tx": "No sustituye a los tratamientos de primera línea del TDAH (psicoeducación, intervenciones conductuales y familiares, fármacos cuando están indicados); si se emplea, debe presentarse como opción con evidencia limitada, sin retrasar ni desplazar tratamientos eficaces, con un protocolo estándar (theta/beta, potenciales corticales lentos o ritmo sensoriomotor), personal formado y medición enmascarada de resultados. El neurofeedback por RMf es, hoy, una técnica de investigación. Conviene informar del coste, del número de sesiones y de la ausencia de efecto específico demostrado frente al simulado.",
+   "note": "La discrepancia entre evaluaciones no ciegas (padres y madres que participan en el tratamiento) y ciegas indica un peso importante de factores inespecíficos: expectativa, atención del terapeuta, entrenamiento cognitivo y regresión a la media (Cortese 2016). El control simulado bien diseñado es difícil y la verificación de que la persona aprende a autorregular la señal es irregular. La conclusión favorable de Arns (2009), que lo calificaba de «eficaz y específico», se basó en estudios con limitaciones que los metaanálisis posteriores corrigen. El metaanálisis de RMf en trastornos psiquiátricos (17 estudios) halló un efecto pequeño sobre los síntomas (g = 0,37) y ninguno significativo sobre la cognición, y sus autores reclaman más investigación sobre cómo, en quién y en qué condiciones funciona (Dudek y Dodell-Feder 2021). La oferta comercial de neurofeedback a familias supera ampliamente la evidencia [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Fundamentos y modalidades",
+     "x": "El neurofeedback aplica principios de condicionamiento operante a una señal cerebral registrada en tiempo real. En la modalidad electroencefalográfica, los protocolos más estudiados en el TDAH son la reducción del cociente entre las bandas theta y beta, el entrenamiento de potenciales corticales lentos y el del ritmo sensoriomotor; el metaanálisis de Westwood (2025) denomina «protocolos estándar» a estos procedimientos establecidos. En la modalidad de resonancia magnética funcional en tiempo real se entrena la señal BOLD de una región concreta (corteza frontal inferior derecha en el TDAH, amígdala en la depresión), con mayor resolución espacial pero un coste y una accesibilidad que la limitan a la investigación. Un tratamiento típico con EEG exige decenas de sesiones a lo largo de varias semanas (30 sesiones en 15 semanas en el ensayo de Schönenberg 2017); el de RMf, muchas menos. Su seguridad es buena: en los ensayos citados no se registraron acontecimientos adversos graves atribuibles a la técnica.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "TDAH en la infancia y en la edad adulta"
+      },
+      {
+       "ids": [
+        "red_frontoparietal",
+        "dmn"
+       ],
+       "t": "redes cerebrales diana"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia con control simulado en el TDAH",
+     "x": "El cambio de valoración del neurofeedback procede del análisis por grado de enmascaramiento. En el metaanálisis de Cortese (2016), los efectos solo fueron significativos con las valoraciones de quienes estaban más cerca del tratamiento, y no con las probablemente ciegas ni en ensayos con control activo o simulado; tampoco mejoraron las medidas de laboratorio de inhibición y atención, y solo 4 estudios comprobaron si había aprendizaje. Con 38 ensayos, Westwood (2025) confirmó la ausencia de efecto con evaluadores ciegos (DME 0,04) y halló un beneficio pequeño restringido a protocolos estándar (DME 0,21), con heterogeneidad baja o moderada. Los ensayos con simulación coinciden: en 144 niños y niñas, el neurofeedback theta/beta no superó al simulado al final ni a los 13 meses, aunque ambos grupos mejoraron mucho y el grupo activo necesitó menos medicación en el seguimiento (Neurofeedback Collaborative Group 2021); en 118 adultos, tampoco superó al simulado ni a la terapia metacognitiva (Schönenberg 2017); y el neurofeedback por RMf no mejoró la escala ADHD-RS frente al simulado en 88 niños varones (Lam 2022).",
+     "links": [
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "TDAH"
+      },
+      {
+       "ids": [
+        "metilfenidato",
+        "atomoxetina",
+        "estimulantes"
+       ],
+       "t": "tratamientos farmacológicos de referencia"
+      }
+     ]
+    },
+    {
+     "t": "Otros trastornos y límites de la técnica",
+     "x": "Fuera del TDAH la evidencia es preliminar. En la depresión mayor, dos sesiones de neurofeedback por RMf dirigidas a aumentar la respuesta de la amígdala ante recuerdos autobiográficos positivos redujeron los síntomas frente a una región parietal de control en 36 adultos sin medicación, con 6 remisiones frente a 1 (Young 2017); el tamaño muestral impide generalizar. El metaanálisis de Dudek y Dodell-Feder (2021; 17 estudios, varios trastornos psiquiátricos) halló un efecto medio sobre la actividad cerebral durante el entrenamiento y un efecto pequeño sobre los síntomas (g = 0,37), sin efecto significativo en la cognición, y reclamó más estudios sobre cómo, en quién y en qué condiciones funciona. Su uso se ha difundido además en ansiedad, insomnio, autismo, tics o consumo de sustancias sin ensayos con control simulado suficientes [fuente no localizada]. Desde la perspectiva pericial, conviene distinguir la mejoría clínica real, a menudo inespecífica, de la atribución causal al neurofeedback.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "drt"
+       ],
+       "t": "depresión mayor"
+      },
+      {
+       "ids": [
+        "tea",
+        "tourette",
+        "ansiedad"
+       ],
+       "t": "otros usos sin evidencia suficiente"
+      },
+      {
+       "ids": [
+        "tdcs",
+        "emt"
+       ],
+       "t": "otras técnicas de neuromodulación"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Cortese S et al. (2016). Neurofeedback for attention-deficit/hyperactivity disorder: meta-analysis of clinical and neuropsychological outcomes from randomized controlled trials. J Am Acad Child Adolesc Psychiatry 55:444-455 · PMID 27238063",
+    "Westwood SJ et al. (2025). Neurofeedback for attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. JAMA Psychiatry 82:118-129 · PMID 39661381",
+    "Neurofeedback Collaborative Group (2021). Double-blind placebo-controlled randomized clinical trial of neurofeedback for attention-deficit/hyperactivity disorder with 13-month follow-up. J Am Acad Child Adolesc Psychiatry 60:841-855 · PMID 32853703",
+    "Schönenberg M et al. (2017). Neurofeedback, sham neurofeedback, and cognitive-behavioural group therapy in adults with attention-deficit hyperactivity disorder: a triple-blind, randomised, controlled trial. Lancet Psychiatry 4:673-684 · PMID 28803030",
+    "Lam SL et al. (2022). Double-blind, sham-controlled randomized trial testing the efficacy of fMRI neurofeedback on clinical and cognitive measures in children with ADHD. Am J Psychiatry 179:947-958 · PMID 36349428",
+    "Arns M et al. (2009). Efficacy of neurofeedback treatment in ADHD: the effects on inattention, impulsivity and hyperactivity: a meta-analysis. Clin EEG Neurosci 40:180-189 · PMID 19715181",
+    "Young KD et al. (2017). Randomized clinical trial of real-time fMRI amygdala neurofeedback for major depressive disorder: effects on symptoms and autobiographical memory recall. Am J Psychiatry 174:748-755 · PMID 28407727",
+    "Dudek E & Dodell-Feder D (2021). The efficacy of real-time functional magnetic resonance imaging neurofeedback for psychiatric illness: a meta-analysis of brain and behavioral outcomes. Neurosci Biobehav Rev 121:291-306 · PMID 33370575"
+   ],
+   "rel": [
+    "tdah",
+    "tdah_adulto",
+    "metilfenidato",
+    "atomoxetina",
+    "tdcs",
+    "emt",
+    "ddm",
+    "red_frontoparietal"
+   ]
+  },
+  {
+   "id": "tms_acelerada",
+   "n": "EMT acelerada y theta burst intermitente: protocolo SAINT/SNT",
+   "ab": "EMT acelerada (SNT)",
+   "al": [
+    "SAINT",
+    "Stanford Neuromodulation Therapy",
+    "SNT",
+    "Stanford Accelerated Intelligent Neuromodulation Therapy",
+    "theta burst intermitente acelerado",
+    "aiTBS"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "neu",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2020,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Variante de la estimulación magnética transcraneal (véase «emt») que concentra varias sesiones diarias para acortar el curso de semanas a días. La estimulación theta burst intermitente (iTBS) dura unos minutos por sesión y es no inferior a la EMT de 10 Hz (THREE-D), lo que permite repetirla varias veces al día. El protocolo SAINT, después denominado Stanford Neuromodulation Therapy (SNT), combina tres cambios: diez sesiones diarias de iTBS con intervalos de 50 minutos durante cinco días, una dosis total de pulsos muy superior a la convencional y una diana individual en la corteza prefrontal dorsolateral izquierda elegida por su anticorrelación funcional con la corteza cingulada anterior subgenual en resonancia magnética funcional en reposo (Cole 2020). Un ensayo abierto obtuvo remisión en 19 de 21 personas con depresión resistente y un ensayo doble ciego, en su análisis intermedio, mostró superioridad frente a la simulación a las 4 semanas (Cole 2022). Las muestras son pequeñas y la durabilidad no está establecida.",
+   "feats": [
+    "SAINT abierto (22 participantes con depresión resistente): 50 sesiones de iTBS de 1.800 pulsos, 10 al día con 50 minutos de intervalo durante 5 días, guiadas por conectividad funcional; remisión (MADRS < 11) en 19 de 21 (90,5 %) y en 19 de 22 por intención de tratar (86,4 %), sin efectos cognitivos negativos (Cole 2020)",
+    "SNT doble ciego con simulación, análisis intermedio de 29 participantes (14 activos, 15 simulados): reducción media de la MADRS a las 4 semanas del 52,5 % frente al 11,1 % (Cole 2022)",
+    "Los protocolos acelerados sin guía por conectividad y con menos pulsos no han acelerado la respuesta: iTBS dos veces al día frente a una vez al día en 208 personas, sin diferencias y con respuesta y remisión inferiores al 10 % a los 10 días (Blumberger 2021)",
+    "Metaanálisis de EMT acelerada en depresión: efecto conjunto de g = 0,39 (IC 95 % 0,005-0,779) en tres ensayos aleatorizados, frente a g = 1,27 al incluir estudios abiertos, lo que ilustra el peso del diseño (Sonmez 2019)",
+    "Metaanálisis en red de theta burst (23 ensayos, 960 participantes): la iTBS sobre la corteza prefrontal dorsolateral izquierda tuvo más respuesta y remisión que la simulación, sin diferencias en abandonos, viraje maníaco ni cefalea (Kishi 2024)",
+    "Autorización de la FDA por vía 510(k) (K220177, 1 de septiembre de 2022; clase II, código de producto OBP) del Magnus Neuromodulation System con SAINT Technology; indicación literal: «treatment of Major Depressive Disorder (MDD) in adult patients who have failed to achieve satisfactory improvement from prior antidepressant medication in the current episode» (FDA 2022)"
+   ],
+   "tx": "Indicación en evaluación: episodio depresivo mayor resistente cuando se necesita una respuesta rápida y no hay indicación preferente de TEC. Requiere resonancia funcional para la diana, neuronavegación, un equipo con formación específica y estancia diaria prolongada durante cinco días; los criterios de seguridad son los de la EMT convencional (cribado de implantes metálicos y de riesgo convulsivo). No sustituye a la TEC en la depresión psicótica, catatónica o con riesgo vital inmediato. Aquí no se detallan parámetros de estimulación individuales.",
+   "note": "La evidencia controlada procede de un único ensayo pequeño de un solo grupo de investigación, comunicado en un análisis intermedio, con seguimiento de 4 semanas; el ensayo abierto previo carecía de control. No se sabe qué componente (número de sesiones, dosis de pulsos, intervalo entre sesiones o diana individual) explica el efecto: los ensayos que solo multiplican las sesiones diarias no han acelerado la respuesta (Blumberger 2021; Goodman 2024). Faltan comparaciones con la EMT convencional, la TEC o la esketamina, datos de durabilidad y de retratamiento, y estudios independientes con muestras amplias. La disponibilidad en España es muy limitada y no consta su financiación por el SNS [fuente no localizada]. El enmascaramiento de la estimulación simulada es imperfecto por las sensaciones del cuero cabelludo [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Del theta burst a los protocolos acelerados",
+     "x": "La iTBS administra ráfagas de tres pulsos a 50 Hz repetidas a 5 Hz, es decir, a ritmo theta (resumen 510(k) K220177; FDA 2022), de modo que una sesión dura unos 3 minutos frente a los 37,5 de la EMT convencional (Goodman 2024, protocolo); el ensayo THREE-D demostró su no inferioridad (Blumberger 2018, citado en «emt»). Esta brevedad abrió la puerta a los protocolos acelerados, con varias sesiones al día. Sin embargo, multiplicar sesiones no basta: en el ensayo canadiense CARTBIND (208 personas con depresión resistente), dos sesiones diarias de iTBS con 54 minutos de intervalo no mejoraron más que una sesión diaria con la misma dosis total, ni a los 10 ni a los 30 días (Blumberger 2021); y en 182 personas tratadas sobre la corteza prefrontal dorsomedial, intervalos de 30 o 60 minutos entre dos sesiones no superaron a la sesión única diaria (Goodman 2024). El metaanálisis de Sonmez (2019) encontró un efecto pequeño en los tres ensayos aleatorizados disponibles y advierte de la necesidad de mejorar la simulación y el enmascaramiento.",
+     "links": [
+      {
+       "ids": [
+        "emt"
+       ],
+       "t": "EMT convencional y THREE-D"
+      },
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      }
+     ]
+    },
+    {
+     "t": "Protocolo SAINT/SNT: evidencia",
+     "x": "SAINT añade a la aceleración una dosis de pulsos muy alta y una diana individual: la región de la corteza prefrontal dorsolateral izquierda con mayor anticorrelación con la corteza cingulada anterior subgenual en la resonancia funcional en reposo, con intensidad ajustada a la profundidad cortical. En el estudio abierto inicial (Cole 2020), 19 de 21 participantes alcanzaron la remisión tras cinco días y las pruebas neuropsicológicas no mostraron efectos negativos; los autores pidieron ensayos doble ciego para confirmar esa cifra. En el ensayo controlado con simulación (Cole 2022), el análisis intermedio previsto, con 29 participantes, mostró una reducción media de la MADRS del 52,5 % con estimulación activa frente al 11,1 % con simulación a las 4 semanas; los propios autores señalan que hacen falta ensayos para conocer su durabilidad y compararla con otros tratamientos. La reducción del tiempo de tratamiento a cinco días es su principal ventaja práctica en personas con riesgo suicida o necesidad de respuesta rápida, aunque no hay ensayos específicos en esas poblaciones [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "mayberg"
+       ],
+       "t": "cingulado subgenual como diana"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_mayor"
+       ],
+       "t": "riesgo suicida y necesidad de respuesta rápida"
+      },
+      {
+       "ids": [
+        "esketamina"
+       ],
+       "t": "otra opción de acción rápida"
+      }
+     ]
+    },
+    {
+     "t": "Situación regulatoria, seguridad y limitaciones",
+     "x": "La FDA autorizó la iTBS para la depresión resistente antes de SAINT (Cole 2020 lo recoge en su introducción) y el 1 de septiembre de 2022 autorizó por vía 510(k) (K220177) el sistema con SAINT Technology para el trastorno depresivo mayor en adultos que no han mejorado de forma satisfactoria con antidepresivos previos en el episodio actual (FDA 2022). Es una autorización de comercialización por equivalencia sustancial con otro sistema de iTBS, no una aprobación previa a la comercialización (PMA) ni una recomendación de guía clínica. En el metaanálisis en red de Kishi (2024; 23 ensayos de theta burst), ningún protocolo se asoció a más viraje maníaco, cefalea o abandonos que la simulación, aunque los ensayos que midieron el viraje fueron solo 7. Los efectos adversos esperables son los de la EMT: cefalea, molestias en el cuero cabelludo y, muy rara vez, crisis epilépticas. Las limitaciones principales son la muestra reducida, la procedencia de un único grupo de investigación, la necesidad de resonancia y neuronavegación, el coste y la ausencia de datos de mantenimiento. No hay datos específicos en minorías sexuales y de género ni en trastorno bipolar con suficiente tamaño [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "emt",
+        "tec_dep"
+       ],
+       "t": "EMT y TEC"
+      },
+      {
+       "ids": [
+        "dep_bip_tx"
+       ],
+       "t": "depresión bipolar"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Cole EJ et al. (2020). Stanford Accelerated Intelligent Neuromodulation Therapy for treatment-resistant depression. Am J Psychiatry 177:716-726 · PMID 32252538",
+    "Cole EJ et al. (2022). Stanford Neuromodulation Therapy (SNT): a double-blind randomized controlled trial. Am J Psychiatry 179:132-141 · PMID 34711062",
+    "Blumberger DM et al. (2021). A randomized sham controlled comparison of once vs twice-daily intermittent theta burst stimulation in depression: a Canadian rTMS treatment and biomarker network in depression (CARTBIND) study. Brain Stimul 14:1447-1455 · PMID 34560319",
+    "Goodman MS et al. (2024). Randomised controlled trial comparing different intersession intervals of intermittent theta burst delivered to the dorsal medial prefrontal cortex. BMJ Ment Health 27:e301290 · PMID 39448077",
+    "Goodman MS et al. (2024). A randomized sham-controlled trial of high-dosage accelerated intermittent theta burst rTMS in major depression: study protocol. BMC Psychiatry 24:28 · PMID 38191370",
+    "Sonmez AI et al. (2019). Accelerated TMS for depression: a systematic review and meta-analysis. Psychiatry Res 273:770-781 · PMID 31207865",
+    "Kishi T et al. (2024). Theta burst stimulation for depression: a systematic review and network and pairwise meta-analysis. Mol Psychiatry 29:3893-3899 · PMID 38844532",
+    "Blumberger DM et al. (2018). Effectiveness of theta burst versus high-frequency repetitive transcranial magnetic stimulation in patients with depression (THREE-D): a randomised non-inferiority trial. Lancet 391:1683-1692 · PMID 29726344",
+    "FDA (2022). 510(k) K220177: Magnus Neuromodulation System (MNS) with SAINT Technology, Model Number 1001K (Magnus Medical, Inc.). Decisión de equivalencia sustancial de 01-09-2022; 21 CFR 882.5805, código OBP, clase II. Base de datos 510(k), accessdata.fda.gov"
+   ],
+   "rel": [
+    "emt",
+    "drt",
+    "tec_dep",
+    "esketamina",
+    "tdcs",
+    "mayberg",
+    "ideac_suic",
+    "ddm"
+   ]
+  },
+  {
+   "id": "terapia_mst",
+   "n": "Terapia convulsiva magnética (magnetic seizure therapy)",
+   "ab": "MST",
+   "al": [
+    "MST",
+    "magnetic seizure therapy",
+    "terapia de convulsión magnética",
+    "convulsoterapia magnética"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "neu",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2001,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Terapia convulsiva en la que la crisis generalizada terapéutica se induce con un tren de estímulos magnéticos de alta frecuencia aplicados mediante una bobina de estimulación magnética, en lugar de la corriente eléctrica de la TEC (véase «tec_dep»), bajo anestesia general y relajación muscular. Una de las primeras comunicaciones clínicas en la depresión mayor data de 2001 (Lisanby 2001) [fuente no localizada para la prioridad y el número de casos]. El fundamento propuesto es que el campo magnético atraviesa el cráneo sin dispersarse y genera una estimulación más superficial y focal, con menor afectación de estructuras temporales mediales implicadas en la memoria [fuente no localizada para la hipótesis anatómica]. Durante dos décadas la evidencia se limitó a estudios abiertos y ensayos muy pequeños; en 2026 el ensayo CREST-MST (239 personas con depresión mayor) mostró no inferioridad en la remisión frente a la TEC unilateral derecha de pulso ultrabreve y menos empeoramiento de la memoria autobiográfica (Blumberger 2026). Sigue siendo una técnica experimental: ningún dispositivo de MST figura en las bases 510(k) y De Novo de la FDA (2026).",
+   "feats": [
+    "CREST-MST (ensayo doble ciego de no inferioridad, 3 centros de Canadá y EE. UU., 239 participantes aleatorizados): remisión del 22,5 % con MST frente al 27,8 % con TEC unilateral derecha de pulso ultrabreve (diferencia 5,3 %; IC 95 % −4,4 a 14,9; margen de no inferioridad 15 %) (Blumberger 2026)",
+    "En CREST-MST empeoró la memoria autobiográfica el 2,7 % con MST frente al 17,3 % con TEC (p = 0,0003), y abandonaron por acontecimientos adversos no graves 3 frente a 12 participantes; el reclutamiento terminó antes de alcanzar el tamaño previsto (Blumberger 2026)",
+    "Revisión Cochrane previa (3 ensayos, 65 participantes, MST frente a TEC): sin diferencias claras en síntomas depresivos ni en memoria, con evidencia de certeza muy baja (Jiang 2021)",
+    "Metaanálisis de 24 estudios (377 participantes): sin diferencias significativas frente a la TEC en los ensayos aleatorizados de depresión (g = 0,207 a favor de la TEC; IC 95 % −0,132 a 0,545) y efectos cognitivos considerados modestos (Prillo 2025)",
+    "En el metaanálisis en red de estimulación cerebral no quirúrgica, la MST superó a la simulación en respuesta (OR 5,55; IC 95 % 1,06-28,99), con una estimación muy imprecisa, y la TEC bitemporal obtuvo la mayor OR (8,91) (Mutz 2019)",
+    "Estudio piloto abierto en TOC resistente (10 participantes): solo una persona respondió y ninguna remitió; los autores desaconsejan nuevos estudios con esa colocación de bobina (Tang 2021)"
+   ],
+   "tx": "Solo dentro de ensayos clínicos o programas de investigación con aprobación ética, en centros con experiencia en TEC y anestesia. Su candidato natural es la persona con depresión mayor no psicótica que tiene indicación de terapia convulsiva y rechaza la TEC por miedo a los efectos cognitivos, o los ha sufrido. La TEC sigue siendo el tratamiento de referencia en la depresión psicótica, la catatonia y el riesgo vital inmediato. Requiere consentimiento informado escrito que explique su carácter experimental. Aquí no se detallan parámetros de estimulación.",
+   "note": "CREST-MST excluyó la depresión psicótica (según su protocolo; Daskalakis 2021), comparó la MST con la forma de TEC de menor carga cognitiva (unilateral derecha de pulso ultrabreve) y no con la bitemporal, la más eficaz, y terminó el reclutamiento antes de lo previsto; el límite superior del intervalo de confianza (14,9 %) roza el margen de no inferioridad. Las tasas de remisión fueron modestas en ambos brazos. No hay datos de mantenimiento ni de recaídas a largo plazo. En las bases de datos 510(k) y De Novo de la FDA no figura ningún dispositivo de terapia convulsiva magnética (consulta de noviembre de 2026; FDA 2026); el marcado CE para su uso clínico ordinario no se ha podido comprobar [fuente oficial no localizada]; en España no consta su disponibilidad fuera de la investigación [fuente no localizada]. Los ensayos en esquizofrenia, trastorno bipolar y trastorno límite de la personalidad son pequeños o abiertos (Prillo 2025).",
+   "sec": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La MST conserva el principio de la terapia convulsiva (provocar una crisis generalizada breve bajo anestesia general y relajación muscular, con monitorización electroencefalográfica y cardiovascular), pero cambia el modo de inducirla: un estimulador magnético de alta potencia y una bobina sobre el cuero cabelludo generan un tren de pulsos magnéticos que induce corrientes en la corteza subyacente. Lisanby y colaboradores (2001) publicaron una de las primeras comunicaciones de su uso clínico en la depresión mayor [fuente no localizada para la prioridad: resumen no disponible en PubMed]. En CREST-MST se usó una bobina doble en posición frontal de línea media y se trató hasta la remisión, el abandono o un máximo de 21 sesiones (Blumberger 2026); el protocolo preveía 2-3 sesiones semanales durante unas siete semanas (Daskalakis 2021). Al no aplicarse corriente directamente sobre el cuero cabelludo, la impedancia del cráneo no dispersa el estímulo, lo que se supone que produce una crisis de origen más focal y cortical [fuente no localizada]. El procedimiento anestésico y la logística son casi idénticos a los de la TEC, de modo que podría incorporarse a las unidades existentes según sus promotores (Daskalakis 2021).",
+     "links": [
+      {
+       "ids": [
+        "tec_dep",
+        "tec_hit"
+       ],
+       "t": "TEC y su historia"
+      },
+      {
+       "ids": [
+        "emt"
+       ],
+       "t": "estimulación magnética transcraneal"
+      }
+     ]
+    },
+    {
+     "t": "Comparación con la TEC: eficacia y efectos cognitivos",
+     "x": "Hasta 2025 la comparación se basaba en ensayos muy pequeños: la revisión Cochrane identificó 3 ensayos con 65 participantes, sin diferencias claras en síntomas ni en memoria pero con certeza muy baja (Jiang 2021); una revisión de 4 ensayos (86 participantes) no halló diferencias en respuesta ni remisión y describió resultados cognitivos discordantes (Cai 2023); y el metaanálisis de Prillo (2025) obtuvo un efecto pequeño y no significativo a favor de la TEC. El ensayo CREST-MST cambió la base de evidencia: con 239 participantes aleatorizados, la remisión según la escala de Hamilton de 24 ítems fue del 22,5 % con MST y del 27,8 % con TEC unilateral derecha de pulso ultrabreve, lo que cumplió el criterio de no inferioridad preestablecido (15 %); el empeoramiento de la memoria autobiográfica, coprincipal, fue del 2,7 % frente al 17,3 %. Los autores concluyen que su perfil beneficio-riesgo apoya considerarla una terapia convulsiva de primera línea, sobre todo en quien rechaza la TEC (Blumberger 2026); esta conclusión procede de un único ensayo y aún no figura en guías clínicas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "ddm"
+       ],
+       "t": "depresión mayor y resistente"
+      },
+      {
+       "ids": [
+        "dem",
+        "delirium"
+       ],
+       "t": "efectos cognitivos y diagnóstico diferencial"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones en estudio, situación regulatoria y límites",
+     "x": "La indicación mejor estudiada es la depresión mayor no psicótica resistente. En otros trastornos, la evidencia es escasa: en el TOC resistente, un estudio piloto abierto de 10 participantes no mostró beneficio (Tang 2021), y las series en esquizofrenia, trastorno bipolar y trastorno límite de la personalidad son pequeñas (Prillo 2025). La MST no figura como tratamiento autorizado en las guías de depresión de referencia del atlas, y la TEC continúa siendo la única terapia convulsiva con indicación establecida en depresión psicótica, catatonia o riesgo vital inmediato [fuente no localizada para la ausencia en todas las guías]. Hay ensayos en marcha, como uno multicéntrico chino de no inferioridad frente a la TEC con 210 participantes previstos (Zhang 2025, protocolo). La decisión de usarla fuera de un ensayo carece hoy de respaldo regulatorio en España [fuente no localizada]. En peritaciones sobre consentimiento o daño cognitivo tras terapias convulsivas, conviene distinguir la técnica empleada y documentar las pruebas cognitivas basales y posteriores.",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm"
+       ],
+       "t": "TOC"
+      },
+      {
+       "ids": [
+        "esq",
+        "cat_malig",
+        "dpsic"
+       ],
+       "t": "indicaciones establecidas de la TEC"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Blumberger DM et al. (2026). Confirmatory efficacy and safety trial of magnetic seizure therapy versus right unilateral ultra-brief electroconvulsive therapy in depression (CREST-MST): a randomised, double-blind, non-inferiority trial in Canada and the USA. Lancet Psychiatry 13:376-386 · PMID 41997695",
+    "Daskalakis ZJ et al. (2021). Confirmatory Efficacy and Safety Trial of Magnetic Seizure Therapy for Depression (CREST-MST): study protocol for a randomized non-inferiority trial of magnetic seizure therapy versus electroconvulsive therapy. Trials 22:786 · PMID 34749782",
+    "Lisanby SH et al. (2001). Magnetic seizure therapy of major depression. Arch Gen Psychiatry 58:303-305 · PMID 11231838",
+    "Jiang J et al. (2021). Magnetic seizure therapy for treatment-resistant depression. Cochrane Database Syst Rev 6:CD013528 · PMID 34131914",
+    "Prillo J et al. (2025). Magnetic seizure therapy in refractory psychiatric disorders: a systematic review and meta-analysis. Can J Psychiatry 70:732-749 · PMID 39654297",
+    "Cai DB et al. (2023). Comparison of efficacy and safety of magnetic seizure therapy and electroconvulsive therapy for depression: a systematic review. J Pers Med 13:449 · PMID 36983629",
+    "Mutz J et al. (2019). Comparative efficacy and acceptability of non-surgical brain stimulation for the acute treatment of major depressive episodes in adults: systematic review and network meta-analysis. BMJ 364:l1079 · PMID 30917990",
+    "Tang VM et al. (2021). A pilot study of magnetic seizure therapy for treatment-resistant obsessive-compulsive disorder. Depress Anxiety 38:161-171 · PMID 32949052",
+    "Zhang T et al. (2025). Effectiveness of magnetic seizure therapy versus electroconvulsive therapy for major depressive episode in China: protocol for a double-blind, randomized, non-inferiority trial. Front Psychiatry 16:1657906 · PMID 41210143",
+    "FDA (2026). Bases de datos de notificación previa 510(k) y de clasificación De Novo (accessdata.fda.gov): sin registros de dispositivos de terapia convulsiva magnética; consulta de 23-11-2026"
+   ],
+   "rel": [
+    "tec_dep",
+    "emt",
+    "drt",
+    "ddm",
+    "tec_hit",
+    "toc_dsm",
+    "dpsic",
+    "cat_malig"
+   ]
+  },
+  {
+   "id": "litio_renal_tiroid",
+   "n": "Efectos renales y tiroideos del litio a largo plazo",
+   "ab": "Litio: riñón/tiroides",
+   "al": [
+    "nefrotoxicidad por litio",
+    "nefropatía por litio",
+    "diabetes insípida nefrogénica por litio",
+    "hipotiroidismo por litio",
+    "hiperparatiroidismo por litio",
+    "lithium nephropathy"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "est",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2015,
+   "tags": [
+    "organic",
+    "chr",
+    "risk"
+   ],
+   "desc": "Conjunto de efectos adversos del tratamiento prolongado con litio sobre el riñón y las glándulas endocrinas que justifican su monitorización analítica (la eficacia y el seguimiento ordinario se tratan en «lm_bip»; la intoxicación aguda, en «intox_litio»). En el riñón, el más frecuente es la pérdida de la capacidad de concentración urinaria, que puede llegar a una diabetes insípida nefrogénica con poliuria y polidipsia; con años de exposición puede aparecer una nefropatía tubulointersticial crónica de progresión lenta. En el tiroides predominan el hipotiroidismo y el bocio. En las paratiroides, la hipercalcemia con hiperparatiroidismo. En una cohorte británica de datos de laboratorio, la litemia detectable se asoció a más enfermedad renal crónica de estadio 3 (HR 1,93), hipotiroidismo (HR 2,31) y elevación del calcio total (HR 1,43), con mayor riesgo en mujeres menores de 60 años y con litemias por encima de la mediana (Shine 2015). El riesgo absoluto de enfermedad renal terminal es bajo, pero existe.",
+   "feats": [
+    "Ficha técnica de Plenur, 4.8 (tabla de reacciones adversas): diabetes insípida nefrogénica (poliuria y polidipsia) e hipercalcemia figuran como muy frecuentes; hipotiroidismo y bocio (eutiroideo), como frecuentes; hiperparatiroidismo primario leve, como poco frecuente; hipertiroidismo y adenoma paratiroideo, con frecuencia no conocida",
+    "Ficha técnica de Plenur, 4.8: entre los trastornos renales de frecuencia no conocida, «deterioro de la función renal, síndrome nefrótico, cambios renales histológicos con fibrosis intersticial (tras tratamiento de larga duración), nefritis tubulointersticial, microquistes, oncocitoma y carcinoma de los túbulos colectores renales (en tratamientos de larga duración)»",
+    "Cohorte de Oxford (1982-2014): mayor riesgo de enfermedad renal crónica de estadio 3 (HR 1,93), hipotiroidismo (HR 2,31) y calcio total elevado (HR 1,43), pero no de hipertiroidismo; efectos de aparición temprana y más riesgo en mujeres jóvenes y con litemias altas (Shine 2015)",
+    "Registro danés: 60 o más prescripciones de litio se asociaron a más enfermedad renal crónica definida (HR 3,65), pero no a más enfermedad renal terminal; los autores no descartan sesgos (Kessing 2015)",
+    "Nefropatía crónica por litio: pérdida media de aclaramiento de creatinina de 2,29 mL/min al año, relacionada con la duración del tratamiento; latencia media de unos 20 años hasta la enfermedad renal terminal y 0,22 % de los casos de enfermedad renal terminal en Francia (Presne 2003)",
+    "En 630 personas con 10 a 29 años de litio iniciado tras 1980, alrededor de un tercio mostraba signos de insuficiencia renal crónica, pero solo el 5 % en categorías graves (Aiff 2015)",
+    "La capacidad de concentración urinaria y la excreción de acuaporina 2 disminuyen con la duración del tratamiento; en un ensayo cruzado pequeño (11 pacientes), la amilorida mejoró la osmolalidad urinaria máxima (Bedford 2008)"
+   ],
+   "tx": "Antes de empezar, función renal, cardiaca y tiroidea (ficha técnica de Plenur, 4.4) y, según NICE CG185 (1.10.14), urea y electrolitos con calcio, filtrado glomerular estimado y función tiroidea; durante el tratamiento, litemia en el rango eficaz más bajo y función renal, tiroidea y calcio cada 6 meses, o con más frecuencia si se alteran (NICE CG185, 1.10.21; véase «lm_bip»). Ante poliuria o polidipsia, la ficha (4.4) pide monitorizar la función renal; el estudio de la capacidad de concentración urinaria queda a criterio clínico o nefrológico [fuente no localizada]. Ante un hipotiroidismo, la ficha técnica (4.4) contempla un tratamiento tiroideo complementario durante la estabilización y el mantenimiento. Ante un descenso progresivo del filtrado, hipercalcemia persistente o hiperparatiroidismo, decidir con nefrología o endocrinología, ponderando el riesgo de recaída afectiva y la pérdida del efecto antisuicida si se suspende; la retirada, si se decide, debe ser gradual (véase «lm_bip»). Evitar la deshidratación y los fármacos nefrotóxicos o que elevan la litemia.",
+   "note": "Los datos sobre riñón y tiroides proceden casi todos de estudios observacionales (cohortes de laboratorio, registros y series clínicas), con confusión por indicación, por comorbilidad y por episodios de intoxicación previos que dañan el riñón; Kessing (2015) atribuye parte de la asociación a sesgo. La enfermedad renal terminal es rara y su latencia, larga (Presne 2003); en la revisión sistemática de McKnight (2012), el riesgo absoluto de tratamiento renal sustitutivo fue bajo (véase «lm_bip»). Las frecuencias de la tabla de la ficha técnica no proceden de ensayos comparativos y deben leerse como orientativas. No hay ensayos que comparen estrategias de monitorización ni que demuestren que retirar el litio ante una enfermedad renal moderada mejore el pronóstico renal sin empeorar el psiquiátrico [fuente no localizada]. El uso de amilorida en la diabetes insípida nefrogénica por litio se apoya en estudios pequeños y no figura como indicación autorizada [fuente no localizada para su situación de autorización].",
+   "sec": [
+    {
+     "t": "Lo que dice la ficha técnica de Plenur (4.4 y 4.8)",
+     "x": "La ficha técnica de Plenur 400 mg comprimidos de liberación modificada (n.º de registro 48932; texto revisado en julio de 2024) establece en 4.4: «Antes de iniciar el tratamiento con litio, se deben evaluar las funciones renales, cardíacas y tiroideas». Sobre el tiroides: «El litio se concentra dentro de la tiroides y puede inhibir la síntesis y liberación tiroidea, lo que puede provocar hipotiroidismo»; «Cuando ocurra hipotiroidismo durante la estabilización y el mantenimiento con litio, se puede usar un tratamiento tiroideo complementario»; y «Paradójicamente, se han informado algunos casos de hipertiroidismo, incluida la enfermedad de Graves, el bocio multinodular tóxico y la tiroiditis silenciosa». Sobre el riñón: «La función renal debe ser monitorizada en pacientes con insuficiencia renal, así como en pacientes con poliuria y polidipsia», y «Se han notificado casos de microquistes, oncocitomas y carcinomas de los túbulos colectores renales en pacientes con insuficiencia renal grave que recibieron litio durante más de 10 años». En 4.8 añade que «Las reacciones adversas al litio son fundamentalmente del Sistema Nervioso Central (SNC), gastrointestinales o renales», y en 4.5 advierte de que los ioduros pueden tener «un efecto hipotiroideo aditivo o sinérgico».",
+     "links": [
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio: indicaciones y seguimiento ordinario"
+      },
+      {
+       "ids": [
+        "intox_litio"
+       ],
+       "t": "intoxicación por litio"
+      }
+     ]
+    },
+    {
+     "t": "Riñón: diabetes insípida nefrogénica y enfermedad renal crónica",
+     "x": "El litio entra en las células principales del túbulo colector y reduce la respuesta a la vasopresina; en 45 pacientes tratados, la capacidad de concentración urinaria y la excreción de acuaporina 2 disminuyeron con la duración del tratamiento, desde la normalidad hasta la diabetes insípida nefrogénica completa, algo que no ocurrió con otros psicofármacos (Bedford 2008). La poliuria favorece la deshidratación y, con ella, la intoxicación crónica. A largo plazo puede desarrollarse una nefritis tubulointersticial crónica: en la serie francesa de Presne (2003), la pérdida de aclaramiento fue lenta y proporcional a la duración del tratamiento, con enfermedad renal terminal tras una latencia media de 20 años. Los estudios poblacionales confirman una asociación con la enfermedad renal crónica (Shine 2015; Kessing 2015; en atención primaria británica, HR 2,5 para insuficiencia renal y NNH de 44 a partir de los 50 años, según Close 2014), con un riesgo absoluto pequeño y, en el registro danés, sin aumento de la enfermedad renal terminal. Aiff (2015) halló signos de insuficiencia renal en un tercio de quienes llevaban más de 10 años, incluso con pautas modernas, pero formas graves solo en el 5 %.",
+     "links": [
+      {
+       "ids": [
+        "uremia_dialisis"
+       ],
+       "t": "enfermedad renal y diálisis"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "farmacocinética en la persona mayor"
+      },
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "alteraciones hidroelectrolíticas por psicofármacos"
+      }
+     ]
+    },
+    {
+     "t": "Tiroides y paratiroides: hipotiroidismo, hiperparatiroidismo e hipercalcemia",
+     "x": "El litio reduce la síntesis y liberación de hormonas tiroideas y la desyodación periférica de la tiroxina; el hipotiroidismo y el bocio son las alteraciones tiroideas más prevalentes en el tratamiento prolongado, el hipertiroidismo es infrecuente, y el litio puede favorecer la autoinmunidad tiroidea en personas predispuestas (Kibirige 2013). En la cohorte de Oxford, el riesgo de hipotiroidismo se duplicó (HR 2,31), fue mayor en mujeres y apareció pronto en el tratamiento (Shine 2015). La revisión de Kibirige propone una vigilancia más estrecha en mujeres de 50 años o más, con antecedentes familiares de enfermedad tiroidea o con anticuerpos antitiroideos. Las paratiroides también se estimulan: en la serie de Presne (2003), alrededor del 35 % de los pacientes estudiados tenía hipercalcemia moderada por hiperparatiroidismo, y Shine (2015) halló más calcio total elevado. Los datos de prevalencia y el manejo quirúrgico de la hipercalcemia por litio se desarrollan en la ficha correspondiente. Dado que el hipotiroidismo y la hipercalcemia producen astenia, enlentecimiento y desánimo, deben descartarse antes de atribuir esos síntomas a una recaída depresiva o a un efecto cognitivo del litio [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hipercalcemia_psiq"
+       ],
+       "t": "hiperparatiroidismo e hipercalcemia por litio"
+      },
+      {
+       "ids": [
+        "endocrino",
+        "tirotoxicosis_psiq"
+       ],
+       "t": "síndromes psiquiátricos endocrinos"
+      },
+      {
+       "ids": [
+        "ddm",
+        "crapid"
+       ],
+       "t": "depresión y ciclación rápida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Shine B et al. (2015). Long-term effects of lithium on renal, thyroid, and parathyroid function: a retrospective analysis of laboratory data. Lancet 386:461-468 · PMID 26003379",
+    "Kessing LV et al. (2015). Use of lithium and anticonvulsants and the rate of chronic kidney disease: a nationwide population-based study. JAMA Psychiatry 72:1182-1191 · PMID 26535805",
+    "Close H et al. (2014). Renal failure in lithium-treated bipolar disorder: a retrospective cohort study. PLoS One 9:e90169 · PMID 24670976",
+    "Presne C et al. (2003). Lithium-induced nephropathy: rate of progression and prognostic factors. Kidney Int 64:585-592 · PMID 12846754",
+    "Aiff H et al. (2015). Effects of 10 to 30 years of lithium treatment on kidney function. J Psychopharmacol 29:608-614 · PMID 25735990",
+    "Bedford JJ et al. (2008). Lithium-induced nephrogenic diabetes insipidus: renal effects of amiloride. Clin J Am Soc Nephrol 3:1324-1331 · PMID 18596116",
+    "Kibirige D et al. (2013). Spectrum of lithium induced thyroid abnormalities: a current perspective. Thyroid Res 6:3 · PMID 23391071",
+    "McKnight RF et al. (2012). Lithium toxicity profile: a systematic review and meta-analysis. Lancet 379:721-728 · PMID 22265699",
+    "AEMPS-CIMA (2026). Ficha técnica de Plenur 400 mg comprimidos de liberación modificada (carbonato de litio) (n.º de registro 48932), apartados 4.4, 4.5 y 4.8; fecha de revisión del texto: julio de 2024",
+    "NICE (2014). Bipolar disorder: assessment and management (CG185; última actualización en 2025), recomendaciones 1.2.12, 1.10.14 y 1.10.21"
+   ],
+   "rel": [
+    "lm_bip",
+    "intox_litio",
+    "hipercalcemia_psiq",
+    "endocrino",
+    "tirotoxicosis_psiq",
+    "uremia_dialisis",
+    "fk_mayor",
+    "tb1"
+   ]
+  }
+ ]
+}
