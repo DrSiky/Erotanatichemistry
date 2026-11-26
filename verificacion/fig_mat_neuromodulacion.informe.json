@@ -1,0 +1,218 @@
+{
+ "estado": "TERMINADO (26-11-2026)",
+ "pmid_comprobados": 39,
+ "pmid_erroneos": 0,
+ "detalle_pmid": "Los 37 PMID de la figura existen y coinciden en autor, año, título, revista, volumen y páginas (efetch de PubMed); todas las cifras citadas figuran en el resumen o en el texto completo (CANMAT 2023 PMC11351064, CANMAT-ISBD 2018 PMC5947163, BAP 2023 PMC10101189, Rossi 2021 PMC9094636). Se añaden 2 PMID nuevos comprobados (27486154 Milev 2016; 27486153 Ravindran 2016, texto completo leído en PubMed Central).",
+ "comprobaciones": {
+  "a_canmat_tabla_8_3": "Imagen table29.jpg de PMC11351064 descargada y leída: 1.ª línea TEC en EDM grave (agudo nivel 1, mantenimiento nivel 1) y EMTr en depresión resistente (1/3); 2.ª línea TEC en depresión difícil de tratar (1/3); 3.ª línea tDCS coadyuvante en EDM leve-moderado (2/3) y ENV (3/3); en investigación ECP y TCM (3/«not known»). La figura coincide. Tabla 8.2 (table28.jpg): 1.ª línea iTBS izquierda, alta frecuencia izquierda y baja frecuencia derecha; 2.ª línea bilateral secuencial, iTBS acelerada (nivel 3) y TBS bilateral: faltaba decir que la acelerada es de segunda línea. Texto de la pregunta 8 y de luz/privación de sueño cotejado frase a frase.",
+  "b_nice": "Leídos en nice.org.uk: NG222 (1.4.39, 1.13.1-1.13.9, 1.14.1, 1.15.1-1.15.2), TA59 (1.1-1.10, 3.1-3.8; publicada 26-04-2003, actualizada 01-10-2009, revisada 22-04-2014), HTG396=IPG542 (16-12-2015, «may be used with normal arrangements»), HTG382=IPG530 (26-08-2015, «special arrangements... or research»), HTG551=IPG679 (12-08-2020, «special arrangements»), HTG548=IPG676 (05-08-2020, «only in research»), HTG577=IPG693 (28-04-2021, «only in research»), HTG555=IPG680 (23-09-2020, «only in research»). Códigos, equivalencias IPG/HTG, fechas y apartados de seguridad correctos. Ningún símbolo ● o ◆ se apoya en NICE; «special arrangements» va junto a △ de CANMAT y «research only» con ○. Única sobreafirmación: catatonía («NICE la recomienda»), corregida. Búsqueda en nice.org.uk: 37 resultados de «deep brain stimulation», ninguno de depresión.",
+  "c_fda": "openFDA 510(k): K083538 (16-12-2008, Special), K122288 (07-01-2013), K173620 (14-08-2018), K220177 (01-09-2022), todos OBP y «Substantially Equivalent». Resúmenes 510(k) descargados de accessdata.fda.gov/cdrh_docs y leídos: K122288 «treatment of depressive episodes in adult patients suffering from Major Depressive Disorder who failed to achieve satisfactory improvement from previous anti-depressant medication treatment in the current episode»; K173620 «treatment of Major Depressive Disorder in adult patients who have failed to receive satisfactory improvement from prior antidepressant medication in the current episode»; K220177 y K083538 análogos. PMA P970003/S050 (15-07-2005) y P230024 (08-12-2025, Flow FL-100, código JXK) con las indicaciones literales citadas. De Novo DEN170078 (17-08-2018, 21 CFR 882.5802, QCI) y HDE H050003 (10-02-2009) confirmados en accessdata. 83 FR 66103 (26-12-2018) confirmado en la API de federalregister.gov. TCM: sin resultados en 510(k) (device_name con «seizure», «magnetic seizure», «convulsive»), PMA (trade_name, generic_name, ao_statement), De Novo (formulario de accessdata por «seizure», «convulsive» y «magnetic»: solo DEN170078, DEN150007 y DEN130022, ninguno de TCM) ni en la base de clasificación (únicos códigos con «seizure/electroconvulsive»: GXC, QGH, NWM, POS).",
+  "d_tec_y_luz": "Contraindicaciones de la TEC respaldadas con CANMAT 2016 sección 4 (Milev 2016): «There are no absolute contraindications for ECT» y lista de situaciones de mayor riesgo; más TA59 3.4. Efectos adversos de la luz respaldados con CANMAT 2016 sección 5 (Ravindran 2016): «generally well tolerated, with common side effects being eye strain, headache, agitation, nausea, and sedation». Retiradas las precauciones sin fuente (enfermedad ocular, fotosensibilizantes, epilepsia con luz; resonancia y apnea con ENV; contraindicaciones formales de tDCS y quirúrgicas de ECP).",
+  "e_parametros": "Retirados «3 pulsos a 50 Hz» y «10.000 lux durante 30 minutos». No quedan intensidades, frecuencias ni lux. Se mantienen, atribuidos y como descripción, la duración de la sesión de iTBS, el número habitual de sesiones de un curso de TEC (TA59 3.7; CANMAT 2023), el calendario del curso de EMTr y el plazo de 48-72 h de BAP en la catatonía maligna; leyenda, pie y caja de límites lo advierten.",
+  "compilacion": "node tools/fig.js mat_neuromodulacion --dry --png: OK, 2685×6389 px, 14 cajas, 32 enlaces, 4 paneles; sin solapes; cuerpo 16 legible. El ancho de 2685 px se mantiene. src/figsrc/mat_neuromodulacion.js borrado tras compilar; git status solo muestra trabajo/figuras/mat_neuromodulacion.js modificado (el objeto del encargo).",
+  "nodos": "Los 35 ids enlazados existen (node tools/q.js show). Sustituido tb_induc (bipolar inducido por sustancias o medicamentos, no pertinente para la tDCS) por conv_bip."
+ },
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "Fila Catatonía, columna TEC",
+   "antes": "NICE la recomienda en la catatonía en las condiciones de TA59, 1.1.",
+   "despues": "NICE: solo para una mejoría rápida y a corto plazo de síntomas graves, tras un ensayo adecuado de otras opciones o si hay riesgo vital (TA59, 1.1).",
+   "fuente": "nice.org.uk/guidance/ta59/chapter/1-Guidance, rec. 1.1"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Contraindicaciones y precauciones, TEC",
+   "antes": "Contraindicaciones absolutas: [fuente no localizada].",
+   "despues": "Sin contraindicaciones absolutas; situaciones de mayor riesgo (lesión ocupante de espacio, hipertensión intracraneal, infarto o hemorragia cerebral recientes, aneurisma o malformación vascular inestables, feocromocitoma, riesgo anestésico 4-5) (CANMAT 2016; Milev 2016). Cautela si riesgo cardiovascular aumentado (TA59, 3.4).",
+   "fuente": "Milev 2016, PMID 27486154 (PMC4994792, apartado de TEC); TA59 3.4"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Efectos adversos, fototerapia",
+   "antes": "Luz: efectos adversos habituales (cefalea, fatiga visual, náuseas) [fuente no localizada].",
+   "despues": "Luz: en general bien tolerada; efectos adversos frecuentes: fatiga visual, cefalea, agitación, náuseas y sedación (CANMAT 2016; Ravindran 2016).",
+   "fuente": "Ravindran 2016, PMID 27486153 (PMC4994794)"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Contraindicaciones y precauciones, EMTr",
+   "antes": "Solo Rossi 2021: epilepsia e implantes ferromagnéticos como exclusión habitual, no contraindicación absoluta.",
+   "despues": "Se antepone CANMAT 2016: material metálico en la cabeza (salvo la boca) contraindicación absoluta; marcapasos, desfibrilador, epilepsia y lesión cerebral relativas; se conserva Rossi 2021 y la discrepancia pasa a la caja «Donde las fuentes difieren».",
+   "fuente": "Milev 2016, PMID 27486154; Rossi 2021, PMID 33243615 (apartado 9.2)"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "FDA, TCM",
+   "antes": "Búsqueda solo en 510(k) por nombre [fuente oficial no localizada para De Novo y PMA].",
+   "despues": "Sin registros en 510(k), PMA y De Novo ni código de producto propio en clasificación (26-11-2026); se advierte de que una búsqueda negativa no equivale a una declaración de la FDA. Referencia nueva de la consulta.",
+   "fuente": "api.fda.gov/device/510k, /pma, /classification; accessdata.fda.gov cfpmn/denovo.cfm"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Símbolos en celdas sin guía (ENV en depresión bipolar; TEC y TCM en TOC; potenciación de clozapina con TEC)",
+   "antes": "○ aplicado a estudios sueltos (Rush/Aaronson, Fontenelle, Tang, Petrides/Sinclair), contra la regla de que el símbolo traduce una guía.",
+   "despues": "Se quita ○; pasa a «— Sin rango en las guías consultadas» seguido del estudio; leyenda, pie y límites: «— sin rango o sin mención en las guías consultadas; los estudios sueltos no llevan símbolo».",
+   "fuente": "Coherencia interna con la leyenda; CANMAT-ISBD 2018 no menciona ENV, ECP ni tDCS (texto completo)"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Parámetros de estimulación (mecanismo de EMTr y de fototerapia; leyenda, pie, límites)",
+   "antes": "«ráfagas de 3 pulsos a 50 Hz»; «10.000 lux durante 30 minutos por la mañana».",
+   "despues": "Retirados; texto descriptivo sin cifras de intensidad, frecuencia ni lux; advertencias reescritas.",
+   "fuente": "Instrucción (e) del encargo; CANMAT 2023"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Depresión unipolar, EMTr",
+   "antes": "protocolos de primera línea: alta frecuencia izquierda, baja frecuencia derecha y theta burst (tabla 8.2).",
+   "despues": "…theta burst intermitente izquierda; la iTBS acelerada figura en segunda línea, nivel 3 (tabla 8.2).",
+   "fuente": "CANMAT 2023, tabla 8.2 (imagen table28.jpg de PMC11351064)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "FDA, EMTr",
+   "antes": "Depresión mayor, vía 510(k)…",
+   "despues": "Trastorno depresivo mayor en personas adultas sin mejoría satisfactoria con medicación antidepresiva previa en el episodio actual (indicación de los cuatro resúmenes), vía 510(k)…",
+   "fuente": "Resúmenes 510(k) K083538, K122288, K173620 y K220177 (accessdata.fda.gov/cdrh_docs)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "FDA, ECP",
+   "antes": "…en el TOC crónico, grave y resistente.",
+   "despues": "…como coadyuvante de la medicación y alternativa a la capsulotomía anterior, en personas adultas con TOC crónico, grave y resistente tras el fracaso de al menos tres ISRS.",
+   "fuente": "accessdata.fda.gov cfhde/hde.cfm?id=H050003"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Anestesia y entorno, TCM",
+   "antes": "Requisitos de anestesia: [fuente no localizada].",
+   "despues": "Anestesia general, ventilación asistida y monitorización EEG (Milev 2016); sala con equipo de anestesia y reanimación y equipo multidisciplinar (Rossi 2021).",
+   "fuente": "Milev 2016; Rossi 2021 (apartado de MST)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Efectos adversos, TCM",
+   "antes": "Riesgos de la anestesia: [fuente no localizada].",
+   "despues": "Se aplica con anestesia general; al haberse tratado a pocas personas, pueden no conocerse aún efectos adversos poco frecuentes (Rossi 2021).",
+   "fuente": "Rossi 2021, PMC9094636"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Anestesia y entorno, fototerapia",
+   "antes": "Entorno habitual de aplicación: [fuente no localizada].",
+   "despues": "La luz suele aplicarse en el domicilio con una lámpara fluorescente (Ravindran 2016).",
+   "fuente": "Ravindran 2016"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Contraindicaciones, fototerapia",
+   "antes": "Uso con eutimizante como recomendación de guía [fuente no localizada]; enfermedad ocular, fotosensibilizantes y epilepsia [fuente no localizada].",
+   "despues": "La guía solo recoge la luz como coadyuvante de la medicación (CANMAT-ISBD 2018); vigilar el viraje (Colombo 1999; CANMAT 2023); otras precauciones: sin datos en las guías consultadas (retiradas las tres sin fuente).",
+   "fuente": "CANMAT-ISBD 2018 (PMC5947163)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Contraindicaciones, tDCS",
+   "antes": "Contraindicaciones formales: [fuente no localizada].",
+   "despues": "Riesgos teóricos señalados por los asesores de NICE: crisis, empeoramiento de la depresión, interferencia con dispositivos eléctricos implantados (IPG530, 5.12).",
+   "fuente": "HTG382, cap. 5, apartado 5.12"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Efectos adversos, tDCS",
+   "antes": "…picor, hormigueo y cefalea; lesiones cutáneas descritas",
+   "despues": "…picor, hormigueo y cefalea con frecuencia similar a la simulación; lesiones cutáneas descritas en una serie",
+   "fuente": "HTG382, 5.2-5.6"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Contraindicaciones, ENV",
+   "antes": "Resonancia magnética y apnea del sueño: [fuente no localizada].",
+   "despues": "Retirado; se añade suicidio o intento (4,6 %) y manía o hipomanía emergentes (2,7 %) (Milev 2016).",
+   "fuente": "Milev 2016, apartado 4.25"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Contraindicaciones, ECP",
+   "antes": "Contraindicaciones quirúrgicas: [fuente no localizada].",
+   "despues": "Retirado; se añade que NICE fue informado de un perfil de seguridad similar al de la ECP en otras indicaciones (IPG693, 3.8).",
+   "fuente": "HTG577, cap. 3"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Magnitud del efecto, ECP",
+   "antes": "…a los 6 meses (Holtzheimer 2017)",
+   "despues": "…a los 6 meses (respuesta del 20 % frente al 17 %; Holtzheimer 2017)",
+   "fuente": "PMID 28988904, resumen"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Depresión bipolar, ENV",
+   "antes": "sin número de participantes",
+   "despues": "añadido «25 de 235 participantes» con depresión bipolar en el ensayo agudo",
+   "fuente": "PMID 16139580, resumen"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Catatonía, EMTr y tDCS",
+   "antes": "el apoyo son casos clínicos",
+   "despues": "(recomendación de consenso); el apoyo son casos y series de casos",
+   "fuente": "BAP 2023 (PMC10101189), grado S"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Marcado CE y España, TEC",
+   "antes": "sin dato de cartera de servicios",
+   "despues": "La TEC figura en la cartera de servicios comunes del SNS (Real Decreto 1030/2006, anexo III, apartado 7); referencia añadida.",
+   "fuente": "boe.es/buscar/act.php?id=BOE-A-2006-16212"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Mantenimiento, TEC",
+   "antes": "solo Jelovac, Sackeim, Kellner y NICE",
+   "despues": "añadido que CANMAT 2023 cifra la recurrencia a 6 meses en el 60-80 % y pide mantenimiento con fármacos o TEC de continuación; nivel 3 de mantenimiento en la depresión difícil de tratar; discrepancia llevada a la caja «difieren».",
+   "fuente": "CANMAT 2023, pregunta 8.b y tabla 8.3"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Mantenimiento, fototerapia",
+   "antes": "Duración y recaída: [fuente no localizada].",
+   "despues": "Respuesta habitual en 1-3 semanas (Ravindran 2016); privación de sueño de efecto rápido pero transitorio (CANMAT 2023); mantenimiento y recaída: sin datos en las guías consultadas.",
+   "fuente": "Ravindran 2016; CANMAT 2023"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Enlace de la celda de efectos adversos de tDCS",
+   "antes": "node: tb_induc",
+   "despues": "node: conv_bip",
+   "fuente": "node tools/q.js show tb_induc / find viraje"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Referencias, pie y caja de límites",
+   "antes": "—",
+   "despues": "Añadidas Milev 2016, Ravindran 2016, RD 1030/2006 y la consulta FDA de TCM; TA59 con su fecha de revisión (22-04-2014); IPG530 con 5.12 e IPG693 con 3.8; indicación literal en la referencia 510(k); límites: del SNS solo se comprobó la TEC.",
+   "fuente": "fuentes citadas arriba"
+  }
+ ],
+ "sin_resolver": [
+  "Marcado CE de las siete técnicas y financiación en el SNS de EMTr, tDCS, ENV, ECP, TCM y dispositivos de luz: siguen como [fuente oficial no localizada] (EUDAMED y la cartera no se consultaron por dispositivo). La fila «Marcado CE y España» queda casi vacía salvo la TEC: la edición puede preferir reducirla a una nota.",
+  "Autorización de la FDA de los dispositivos de luz: [fuente oficial no localizada].",
+  "Precauciones de la fototerapia (enfermedad ocular, fármacos fotosensibilizantes) y de la ENV (resonancia magnética, apnea del sueño): retiradas por falta de guía o fuente indexada leída; si se quieren recuperar hace falta una fuente (p. ej., etiquetado del dispositivo).",
+  "El De Novo original de NeuroStar (K061053, 2008) no aparece en openFDA 510(k) ni en la ficha De Novo de accessdata; el resumen de K122288 lo cita como predicado. No se cita en la figura; K083538 es una 510(k) «Special» (modelo 1.1), no la primera autorización.",
+  "✕ en TEC para esquizofrenia: TA59 1.9 dice que la evidencia «does not allow the general use of ECT in the management of schizophrenia to be recommended»; se mantiene ✕ con la redacción literal al lado. Es una lectura ajustada pero la edición debe saber que NICE no formula un «do not use».",
+  "○ en EMTr y tDCS para la catatonía: BAP 2023 dice «consider» (grado S) si la TEC está indicada y no disponible; se dejó ○ (evidencia de casos) y no ◆. Decisión editorial conservadora.",
+  "TA59 es de 2003 e IPG542/IPG530 de 2015; la figura lo señala. NICE no tiene guía de procedimientos de ECP ni de TCM para la depresión.",
+  "CANMAT 2023 dice que la TEC de continuación previene mejor la recurrencia que la farmacoterapia, mientras que CORE (Kellner 2006) no halló diferencia: ambas afirmaciones figuran, sin resolverse.",
+  "Milev 2016 y Rossi 2021 difieren sobre si el metal intracraneal es contraindicación absoluta de la EMT: se muestran ambas.",
+  "Las cifras «X %» pueden partirse entre líneas (limitación de la librería); no se observaron cortes ilegibles en los PNG.",
+  "Situación de financiación de la esketamina en España: no comprobada (la figura solo recoge NG222 1.15.2)."
+ ],
+ "ficheros": {
+  "figura": "/home/user/Erotanatichemistry/trabajo/figuras/mat_neuromodulacion.js",
+  "copia_original": "/tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mat_neuromodulacion.vorig.js",
+  "png": "/tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mat_neuromodulacion_vpng",
+  "descargas": "/tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/vneuro"
+ }
+}
