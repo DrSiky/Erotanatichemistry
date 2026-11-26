@@ -30,7 +30,7 @@ module.exports = {
       'Fuchs T (2013). Temporality and psychopathology. Phenomenology and the Cognitive Sciences 12:75-104. Citado en OHPP',
       'Sartre JP (1943). L\'être et le néant. Citado (trad. inglesa de 1992) en Castellini y Ricca 2019'
     ],
-    nodes: ['minkowski_1927', 'husserl', 'fen_contemp', 'enactivismo', 'intersubj_sinton', 'sent_falta_sent', 'emel', 'ddp', 'kimura', 'sartre_mala_fe', 'espacio_vivido']
+    nodes: ['minkowski_1927', 'husserl', 'fen_contemp', 'enactivismo', 'intersubj_sinton', 'sent_falta_sent', 'emel', 'ddp', 'kimura', 'sartre_mala_fe', 'espacio_vivido', 'sincron_vivido', 'tiempo_mania', 'tiempo_toc', 'instant_tlp', 'cuerpo_otros', 'culpa_exist']
   },
   draw(Fig) {
     const W = 1940, L = 60, FS = 18;

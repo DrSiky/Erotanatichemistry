@@ -24,7 +24,7 @@ module.exports = {
       'Sass LA & Pienkos E (2013). Space, time, and atmosphere: a comparative phenomenology of melancholia, mania, and schizophrenia, Part II. Journal of Consciousness Studies 20(7-8):131-152. Citado en Ratcliffe 2015',
       'Heidegger M (1962). Being and Time (trad. J. Macquarrie y E. Robinson). Oxford: Blackwell; original alemán: Sein und Zeit (1927). Citado en Ratcliffe 2015'
     ],
-    nodes: ['ddm', 'husserl', 'fen_contemp', 'intersubj_sinton', 'minkowski_1927', 'vongebsatt', 'kimura', 'anhed', 'bhs_beck', 'duelo']
+    nodes: ['ddm', 'husserl', 'fen_contemp', 'intersubj_sinton', 'minkowski_1927', 'vongebsatt', 'kimura', 'anhed', 'bhs_beck', 'duelo', 'esperanza_exist', 'culpa_exist', 'ratcliffe_2015_hit', 'horwitz_wakefield_hit']
   },
   draw(Fig) {
     const W = 1940, L = 60, FS = 18;

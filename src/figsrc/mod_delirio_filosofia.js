@@ -27,7 +27,7 @@ module.exports = {
       'Bayne T & Pacherie E (2005). In defence of the doxastic conception of delusions. Mind and Language 20:163-188. Citado en Sullivan-Bissett et al. 2017',
       'Bortolotti L (2009). Delusions and Other Irrational Beliefs. Oxford: Oxford University Press. Citado en Sullivan-Bissett et al. 2017',
     ],
-    nodes: ['tdelirant', 'percdel', 'ocurr_del', 'wahnbewusstheit', 'conrad_1958', 'bleuler_4a', 'del_ident', 'jaspers_compr', 'saliencia', 'jtc', 'cult_bound', 'context', 'insight', 'idea_sobrev']
+    nodes: ['tdelirant', 'percdel', 'ocurr_del', 'wahnbewusstheit', 'conrad_1958', 'bleuler_4a', 'del_ident', 'jaspers_compr', 'saliencia', 'jtc', 'cult_bound', 'context', 'insight', 'idea_sobrev', 'dos_factores', 'doxastico_cont', 'marco_ontologico', 'rashed_reconoc', 'delirio_resp']
   },
   draw(Fig) {
     const W = 2100, L = 60, FS = 17;

@@ -33,7 +33,7 @@ module.exports = {
       'Zachar P & Kendler KS (2007). Psychiatric disorders: a conceptual taxonomy. American Journal of Psychiatry 164:557-565 · PMID 17403967',
       'Hacking I (2007). Kinds of people: moving targets. Proceedings of the British Academy 151:285-318. Citado en Varga 2015'
     ],
-    nodes: ['dsm3', 'dsm5_hit', 'rdoc', 'laing_hit', 'szasz_hit', 'kendell_hit', 'duelo', 'pluralismo']
+    nodes: ['dsm3', 'dsm5_hit', 'rdoc', 'laing_hit', 'szasz_hit', 'kendell_hit', 'duelo', 'pluralismo', 'boorse_bst', 'fulford_hare', 'kinds_practicos', 'vaguedad_psiq', 'horwitz_wakefield_hit', 'pip_serie']
   },
   draw(Fig) {
     const W = 2100, L = 60, FS = 17;

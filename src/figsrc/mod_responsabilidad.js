@@ -23,7 +23,7 @@ module.exports = {
       'Szasz TS (1963). Law, Liberty, and Psychiatry: An Inquiry into the Social Uses of Mental Health Practices. New York: Macmillan. Citado en Pickering 2019',
       'Reino Unido (2005). Mental Capacity Act 2005 (Inglaterra y Gales). Citada en Owen 2019 y en Radoilska 2012'
     ],
-    nodes: ['cleckley', 'schneider_1950', 'circ_antisocial', 'riesgo_viol', 'capacidad_jur', 'crpd', 'internamiento', 'cap_dem', 'tdelirant', 'szasz_hit', 'insight', 'ddm']
+    nodes: ['cleckley', 'schneider_1950', 'circ_antisocial', 'riesgo_viol', 'capacidad_jur', 'crpd', 'internamiento', 'cap_dem', 'tdelirant', 'szasz_hit', 'insight', 'ddm', 'psicop_simpatia', 'delirio_resp', 'autonomia_tm']
   },
   draw(Fig) {
     const W = 2100, L = 60, FS = 17;
