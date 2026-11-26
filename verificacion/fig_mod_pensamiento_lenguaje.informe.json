@@ -1,0 +1,78 @@
+{
+ "estado": "verificación completa desde cero (verificador 2); compilación en seco correcta 2300×6631, 5 paneles",
+ "pmid_comprobados": 47,
+ "pmid_erroneos": 0,
+ "nota_pmid": "Los 47 PMID de la lista de referencias existen y corresponden a autor, año, título, revista y páginas citados (PubMed, 2026-11-26). El PMID 526001 indicado en el encargo para Andreasen 1979 NO es de Andreasen (es Thadepalli y Rao, mezlocilina); los correctos son 496551 y 496552, ya citados en la figura.",
+ "textos_completos_cotejados": [
+  "Voppel 2026 (PMC12820080) y su tabla suplementaria 1: texto literal de los 20 ítems de la TLC, los 30 de la TALD y los ítems SANS/SAPS y PANSS citados",
+  "Kircher 2022 (PMC8938354)",
+  "Walther 2019 (PMC6790975; panel 1B con las definiciones de la BFCRS y los 12 criterios DSM-5)",
+  "Kuperberg 2010 (PMC2950318)",
+  "Ficha técnica de Plenur 48932 en CIMA, apartados 4.8, 4.9 y 10 (API docSegmentado)",
+  "Resto: resumen indexado en PubMed (40 artículos); Crossref para títulos originales y fecha de Voppel; página de Nature para el año de cita"
+ ],
+ "puntos_especiales": {
+  "a_definiciones_y_marcas": "La versión del redactor (commit f11b36c) tenía 43 marcas «[fuente no localizada]» y definiciones † de memoria. El verificador anterior ya las había sustituido o retirado todas (0 marcas y 0 † en el fichero). He recomprobado una a una las definiciones resultantes contra el texto literal de los ítems: todas las atribuciones «(TLC)», «(TALD)», SANS, PANSS P2 y N5 y «(BFCRS)» coinciden con la fuente. No se accedió al texto completo de Andreasen 1979a/1986, Kircher 2014 ni Bush 1996 (no están en PMC); la figura lo declara en el recuadro de límites.",
+  "b_voppel_ackermann_schuster": "Voppel: en línea el 15-12-2025, volumen 12, artículo 9; la revista lo cita como «Schizophr 12, 9 (2026)»; PubMed indexa «2025 Dec». Se mantiene 2026 con la nota de fecha en línea. Ackermann y Ziegler 1995: título original «Akinetischer Mutismus - eine Literaturübersicht» (Crossref, DOI 10.1055/s-2007-996603) correcto. Schuster 2011: «Le mutisme hystérique» (Crossref, DOI 10.1016/j.encep.2010.12.006) correcto.",
+  "c_litio": "Ficha de Plenur (revisión del texto: julio de 2024): 4.8 recoge «disartria» entre los trastornos del sistema nervioso; 4.9 dice literalmente «Los síntomas iniciales de intoxicación por litio son diarrea, vómitos, cansancio, debilidad muscular, falta de coordinación y disartria. Estos síntomas pueden aparecer con niveles plasmáticos inferiores a 2 mEq/L». La figura lo reproduce fielmente y no da dosis."
+ },
+ "cambios": [
+  {
+   "gravedad": "menor",
+   "donde": "Panel A, presión del habla, columna de cuadros",
+   "antes": "grupos agudos igualados en gravedad global",
+   "despues": "grupos agudos igualados en la puntuación de trastorno formal positivo",
+   "fuente": "Kircher 2022, texto completo (emparejados por TALD objetivo positivo, no por gravedad global; SANS difería)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Panel C, afasia de Wernicke, rasgo operativo",
+   "antes": "daño focal del giro temporal superior posterior izquierdo ... comprensión de palabras, que depende de una red más amplia",
+   "despues": "se añade el giro supramarginal adyacente y que el cuadro resultante es una afasia de conducción",
+   "fuente": "Binder 2017, resumen PMID 28656532"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Panel C (Wernicke, causas) y tabla E (contexto clínico)",
+   "antes": "con frecuencia un ictus",
+   "despues": "por ejemplo tras un ictus",
+   "fuente": "Lane 2011, resumen: no da frecuencia"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Panel C, mutismo acinético",
+   "antes": "sin conducta dirigida a metas",
+   "despues": "con disminución de la conducta dirigida a metas y de las emociones",
+   "fuente": "Arnts 2020, resumen PMID 32044373"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Tabla E, fila de alteraciones lingüísticas, fuente",
+   "antes": "Faber 1983 (14 y 13 pacientes)",
+   "despues": "Faber 1983 (14 personas con esquizofrenia y 13 con afasia de cualquier tipo)",
+   "fuente": "Faber 1983, resumen PMID 6194698: la muestra no era solo de afasia de Wernicke"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Recuadro de límites",
+   "antes": "Voppel 2026 (tabla suplementaria 1), que omite los ejemplos entre paréntesis",
+   "despues": "se retira el inciso",
+   "fuente": "Voppel 2026, tabla suplementaria 1 (41537_2025_712_MOESM1_ESM.doc, descargada de Europe PMC, PMC12820080): la tabla conserva ejemplos (p. ej., «paperskate»)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "meta.nodes",
+   "antes": "incluía 'alexia_agrafia'",
+   "despues": "retirado (la figura no trata alexias ni agrafias)",
+   "fuente": "node tools/q.js show alexia_agrafia"
+  }
+ ],
+ "cambios_del_verificador_anterior_revalidados": "Todos comprobados y mantenidos: sustitución de las 43 marcas y de los † por texto respaldado; Voppel 2025→2026; retirada de Goldfarb 1994, Darley 1969, Kirkpatrick 2006, Bleuler 1911 y Schneider 1950; alta de Kuperberg 2010, Mohr 1978, Binder 2017, Buchsbaum 2011, Boatman 2000, Freedman 1984, Enderby 2013 y la ficha de Plenur (PMID y contenido confirmados); retirada de los nodos tourette, apatia, obses, pens_magico, tics y ganser.",
+ "sin_resolver": [
+  "Andreasen 1979a y 1986, Kircher 2014 y Bush 1996 no están en acceso abierto: sus definiciones se han cotejado solo de forma indirecta (reproducción literal en Voppel 2026 y en Walther 2019). El recuadro de límites lo declara.",
+  "Gerson 1977: el resumen no enumera los seis rasgos diferenciales; la figura lo dice y no los lista.",
+  "Jaspers 1913 (descripción clásica de la fuga de ideas) y DSM-5-TR (mutismo selectivo) siguen como «[no verificada]».",
+  "Las etiquetas de fila copian los títulos de las fichas («Ecolalia y palilalia», «Neologismos y paralogismos», «Estereotipias verbales y habla amanerada»): palilalia y paralogismo no se definen en la fila porque ninguna fuente cotejada los respalda.",
+  "La lámina sigue siendo alta (2300×6631, 5 paneles): no se ha recortado contenido verificado."
+ ]
+}
