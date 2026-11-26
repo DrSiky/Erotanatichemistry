@@ -79,7 +79,7 @@ module.exports = {
       ['tdcs', 'tDCS', 'No convulsiva · sin anestesia · posible en domicilio'],
       ['vns', 'ENV', 'Implante quirúrgico · estimulación crónica'],
       ['dbs', 'ECP', 'Neurocirugía estereotáctica · estimulación crónica'],
-      ['terapia_mst', 'TCM', 'Convulsiva · anestesia general · en investigación'],
+      ['terapia_mst', 'TCM', 'Convulsiva, con bobina magnética · en investigación'],
       ['fototer', 'Luz y cronoterapia', 'Sin dispositivo implantado · sin anestesia']
     ];
     F.text(X, y + 46, 'Ficha de cada técnica', { fs: 17, bold: true, w: C0 - 14 });
