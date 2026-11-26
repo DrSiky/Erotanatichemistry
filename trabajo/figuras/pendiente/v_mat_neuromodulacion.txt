@@ -1,0 +1,12 @@
+ENCARGO DE VERIFICACIÓN INDEPENDIENTE DE FIGURA: mat_neuromodulacion
+
+Repositorio /home/user/Erotanatichemistry. Otro agente ha redactado el módulo de figura trabajo/figuras/mat_neuromodulacion.js (librería tools/figlib.js, compilador tools/fig.js) y sus notas en /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mat_neuromodulacion.notas.json. Tu papel es de verificador escéptico e independiente: no te fíes de las notas.
+
+Tarea:
+1. Comprueba UNA A UNA todas las afirmaciones, cifras, códigos y referencias de la figura contra la fuente primaria u oficial: PubMed (mcp__PubMed__*, cárgalas con ToolSearch: comprueba que cada PMID existe y corresponde a autor, año, título y revista citados, y que el resumen o el texto completo respalda lo afirmado), fichas técnicas de CIMA (cima.aemps.es), CIE-11 (icd.who.int), guías oficiales. Nada de webs divulgativas.
+2. Corrige directamente en trabajo/figuras/mat_neuromodulacion.js todo lo erróneo, exagerado o mal atribuido. Si algo no puede confirmarse, márcalo «[fuente no localizada]» o retíralo si una fuente lo contradice. Referencias que no puedas comprobar: «[no verificada]».
+3. Reglas: sin dosis individualizadas (solo límites literales de ficha técnica citando la ficha); guías > indicaciones de ficha en antipsicóticos; litio según ficha de Plenur; lenguaje neutro y no patologizante; enlaces node:'<id>' solo a ids existentes (node tools/q.js show <id>) y pertinentes.
+4. Compila en seco para comprobar que sigue siendo válida y legible: copia temporalmente a src/figsrc/mat_neuromodulacion.js, ejecuta node tools/fig.js mat_neuromodulacion --dry --png /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mat_neuromodulacion_vpng, mira los PNG, corrige solapes, y BORRA src/figsrc/mat_neuromodulacion.js al terminar. Comprueba con git status que el repositorio queda sin cambios (restaura con git checkout src/fig/_meta.json src/fig/_orden.json si cambiaran).
+
+Salida: /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mat_neuromodulacion.informe.json con el formato { "pmid_comprobados": n, "pmid_erroneos": n, "cambios":[{"gravedad":"mayor|menor","donde","antes","despues","fuente"}], "sin_resolver":[...] }.
+Responde con un resumen breve (cambios mayores y menores, sin resolver).

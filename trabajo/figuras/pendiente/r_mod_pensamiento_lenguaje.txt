@@ -1,0 +1,26 @@
+ENCARGO DE FIGURA (redacción): mod_pensamiento_lenguaje
+
+Repositorio /home/user/Erotanatichemistry (atlas psicopatológico en español, HTML único offline). Las figuras son SVG generados con una librería propia:
+- Lee tools/figlib.js (API: box, band, arrow, table, text, group, footer; tipos de caja q, dx, act, warn, info, mec, drug, lim, head) y tools/fig.js (compilador y comprobaciones).
+- Plantilla: src/figsrc/_ejemplo.js. Modelos ya publicados y verificados (imita su estilo, densidad y rigor): src/figsrc/dd_organicidad.js, src/figsrc/mat_monitorizacion.js, src/figsrc/dd_toxindromes_chemsex.js, src/figsrc/dd_percepcion.js.
+- Nodos del atlas: src/data/nodes.jsonl; búscalos con node tools/q.js find <regex> y node tools/q.js show <id>. Las cajas enlazan a fichas con node:'<id>' (mínimo 6 enlaces; idealmente 15-40). No inventes ids.
+
+TEMA: Mapa semiológico de las alteraciones formales del pensamiento y del lenguaje. Tres paneles: A) curso y velocidad (taquipsiquia, fuga de ideas, presión del habla, bradipsiquia, bloqueo, perseveración, pobreza del pensamiento y alogia); B) forma y conexión (circunstancialidad, tangencialidad, descarrilamiento o pérdida de asociaciones, incoherencia o esquizoafasia, ilogicidad, pensamiento concreto, neologismos y paralogismos, asociaciones por asonancia, ecolalia, verbigeración, estereotipias verbales); C) lenguaje y habla de causa neurológica o motora (afasias, disartria, aprosodia, mutismo), para el diferencial. Para cada alteración: definición operativa breve con su fuente (escala TLC de Andreasen 1979, 1986; TALD de Kircher 2014; Jaspers, Schneider, Bleuler como fuentes clásicas marcadas si no se cotejan), en qué cuadros orienta (manía, esquizofrenia, depresión, demencia, afasia, catatonía) y con qué se confunde. Banda inferior: dimensiones positiva y negativa del trastorno formal del pensamiento (metaanálisis indexados), fiabilidad de su evaluación, correlatos (Kircher 2018; Cavelti 2018 si existen: compruébalos) y el diferencial afasia de Wernicke frente a esquizoafasia (Gerson 1977 u otras). No repetir src/figsrc/mod_neuropsico_lesional.js (localización lesional): remite a ella. Enlaza las fichas de semiología: fuga de ideas, taquipsiquia, bradipsiquia, bloqueo, descarrilamiento, tangencialidad, incoherencia, pensamiento ilógico, perseveración, pobreza, pensamiento concreto, neologismos, presión del habla, ecolalia, verbigeración, mutismo, afasias, disartria, aprosodia, glosolalia (busca ids con node tools/q.js sector sem cur y sector sem len).
+
+Tarea:
+1. Diseña y escribe el módulo en trabajo/figuras/mod_pensamiento_lenguaje.js (key:'mod_pensamiento_lenguaje', meta {title, kind:'mod', cap, refs, nodes}). NO escribas en src/.
+2. Compila en seco: node tools/fig.js mod_pensamiento_lenguaje --dry --png /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mod_pensamiento_lenguaje_png  (el compilador lee src/figsrc/: copia temporalmente tu fichero a src/figsrc/mod_pensamiento_lenguaje.js para compilar y BÓRRALO de src/figsrc al terminar; tools/fig.js --dry no escribe en src/fig, pero comprueba con git status que no queda nada modificado en el repositorio, y si _meta.json u _orden.json cambiaran, restáuralos con git checkout).
+3. Mira los PNG (herramienta Read) y corrige solapes, textos cortados o flechas confusas hasta que la figura sea limpia y legible también en e-ink (el color nunca es el único diferenciador).
+
+Reglas de contenido (obligatorias):
+- Solo lo que tenga base documental sólida: PubMed (herramientas mcp__PubMed__*, cárgalas con ToolSearch), fichas técnicas de CIMA/AEMPS (cima.aemps.es), CIE-11 (icd.who.int), DSM-5-TR, guías oficiales (NICE, CANMAT, BAP, APA, WFSBP). Nada de webs divulgativas. Cada cifra o afirmación no trivial lleva su fuente entre paréntesis (Autor año) y su referencia completa en meta.refs: «Autor X et al. (año). Título. Revista vol:pág · PMID n».
+- Lo razonable pero sin fuente localizada lleva «[fuente no localizada]»; códigos CIE-11 no comprobados en la fuente oficial, «[fuente oficial no localizada]». Lo que una fuente verificable contradice no se escribe.
+- Nada de dosis individualizadas; solo límites o contraindicaciones literales de ficha técnica, citando la ficha (nombre comercial y apartado).
+- Antipsicóticos: las guías prevalecen sobre la lista de indicaciones de la ficha. Litio: prevalece la ficha técnica de Plenur. Valproato: contraindicado en embarazo y en personas con capacidad de gestar salvo Plan de Prevención de Embarazos (Depakine Crono 4.3).
+- Lenguaje neutro en género y no patologizante; español académico.
+- Incluye una caja 'lim' de límites (esquema docente, no sustituye al juicio clínico) y un footer con las fuentes principales.
+
+Salida:
+- trabajo/figuras/mod_pensamiento_lenguaje.js
+- /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mod_pensamiento_lenguaje.notas.json: { "fuentes":[{"afirmacion","fuente","comprobada_en"}], "pmid_comprobados":[...], "dudas":[...] }
+Responde al terminar con un resumen breve (nº de cajas, enlaces, referencias y dudas).
