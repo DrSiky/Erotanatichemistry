@@ -1,0 +1,716 @@
+{
+ "patch": {
+  "ansiol_bzd": {
+   "relAdd": [
+    "clobazam",
+    "ketazolam",
+    "loprazolam",
+    "triazolam",
+    "flurazepam"
+   ]
+  },
+  "bzd_mayor": {
+   "relAdd": [
+    "clobazam",
+    "ketazolam",
+    "loprazolam",
+    "triazolam",
+    "flurazepam"
+   ]
+  },
+  "desprescr_bzd": {
+   "relAdd": [
+    "clobazam",
+    "ketazolam",
+    "loprazolam",
+    "triazolam",
+    "flurazepam"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "loprazolam",
+    "triazolam",
+    "flurazepam"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "triazolam",
+    "flurazepam"
+   ]
+  },
+  "lormetazepam": {
+   "relAdd": [
+    "loprazolam",
+    "triazolam",
+    "flurazepam"
+   ]
+  },
+  "diazepam": {
+   "relAdd": [
+    "clobazam",
+    "ketazolam"
+   ]
+  },
+  "bzd_dep": {
+   "relAdd": [
+    "clobazam",
+    "ketazolam",
+    "loprazolam",
+    "triazolam",
+    "flurazepam"
+   ]
+  },
+  "clorazepato": {
+   "relAdd": [
+    "ketazolam",
+    "clobazam"
+   ]
+  },
+  "cyp2c19": {
+   "relAdd": [
+    "clobazam"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "triazolam"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "clobazam",
+   "n": "Clobazam (Noiafren, Silocalm)",
+   "ab": "Clobazam",
+   "al": [
+    "clobazam",
+    "Noiafren",
+    "Silocalm",
+    "1,5-benzodiacepina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1979,
+   "tags": [
+    "risk",
+    "elderly",
+    "child"
+   ],
+   "desc": "1,5-benzodiacepina con acción ansiolítica y anticonvulsivante marcadas y escasos efectos sedantes y miorrelajantes según su ficha técnica (Noiafren, 5.1). En España está comercializada en comprimidos (Noiafren 10 y 20 mg) con dos indicaciones: estados de ansiedad agudos y crónicos de intensidad que limita la actividad (adultos) y tratamiento coadyuvante de la epilepsia, sobre todo parcial, no controlada por el tratamiento convencional (adultos y niños mayores de 6 años); la suspensión oral (Silocalm) solo está autorizada como coadyuvante en epilepsia desde los 2 años. Su rasgo farmacocinético decisivo es el metabolito activo N-desmetilclobazam, formado por CYP3A4 y eliminado por CYP2C19, con semivida de unas 79 horas frente a 36 horas del fármaco original y acumulación unas 20 veces en el estado estacionario (5.2). Ello la convierte en una benzodiacepina de acción larga a efectos de caídas, conducción y retirada, y explica interacciones relevantes con inhibidores de CYP2C19 y con cannabidiol.",
+   "feats": [
+    "Indicaciones (ficha técnica de Noiafren, nº de registro 54862 y 56993, 4.1): estados de ansiedad agudos y crónicos, ansiedad en neurosis graves, ansiedad con depresión (asociada al antidepresivo) o con psicosis (asociada al neuroléptico), curas de desintoxicación etílica y predelirium; coadyuvante en epilepsia parcial no controlada desde los 6 años",
+    "Silocalm suspensión oral (nº de registro 81524 y 81523): solo coadyuvante en epilepsia no controlada en adultos y niños mayores de 2 años; no debe administrarse entre 1 mes y 2 años salvo situaciones excepcionales (4.1); a diferencia de Noiafren, su ficha contraindica el uso en antecedentes de dependencia de drogas o alcohol y en la intoxicación aguda por alcohol o sustancias activas sobre el SNC (4.3)",
+    "Contraindicaciones (Noiafren, 4.3): miastenia gravis, insuficiencia respiratoria grave, apnea del sueño, insuficiencia hepática grave, lactancia y glaucoma de ángulo cerrado; no usar entre 6 meses y 3 años salvo necesidad antiepiléptica imprescindible",
+    "Farmacocinética (5.2): semivida de 36 h (clobazam) y 79 h (N-desmetilclobazam); en metabolizadores lentos de CYP2C19 el metabolito alcanza concentraciones 3-8 veces mayores; el alcohol aumenta la biodisponibilidad alrededor de un 50 %",
+    "Seguridad (4.4): advertencia de síndrome de Stevens-Johnson y necrólisis epidérmica tóxica, con vigilancia especial en las 8 primeras semanas; amnesia anterógrada; reacciones paradójicas, más frecuentes en niños y personas mayores; tolerancia al efecto antiepiléptico",
+    "Evidencia en epilepsia: revisión Cochrane de 4 ensayos cruzados (197 participantes) con reducción ≥ 50 % de crisis en el 57,7 % y 52,4 % en dos de ellos, evidencia de muy baja calidad (Bresnahan 2019); en el síndrome de Lennox-Gastaut, reducción de crisis con caída dependiente de la dosis frente a placebo (Ng 2011)"
+   ],
+   "tx": "Benzodiacepina de acción larga reservada, en psiquiatría, a la ansiedad intensa e incapacitante por un periodo breve: la ficha técnica de Noiafren pide reevaluar como mucho cada 4 semanas y no superar en general 8-12 semanas de tratamiento ansiolítico, incluida la retirada gradual (4.2 y 4.4). No debe usarse sola en la ansiedad asociada a depresión. Su uso principal actual es antiepiléptico coadyuvante, terreno de la neurología. En personas mayores, preferir alternativas no benzodiacepínicas por la acumulación del metabolito activo (criterios de Beers 2023 y STOPP/START v3). Retirada siempre gradual, también en epilepsia por el riesgo de crisis.",
+   "note": "La evidencia de clobazam como ansiolítico procede de ensayos antiguos no localizados en esta revisión [fuente no localizada]; las guías de ansiedad no lo individualizan y solo admiten benzodiacepinas a corto plazo (NICE CG113). La afirmación de la ficha sobre su escasa sedación no exime de las advertencias de clase sobre conducción, caídas y dependencia. La evidencia en epilepsia focal es de muy baja calidad (Bresnahan 2019).",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "En los trastornos de ansiedad, NICE CG113 no ofrece benzodiacepinas en el trastorno de ansiedad generalizada salvo como medida breve en crisis (1.2.26) y desaconseja su prescripción en el trastorno de pánico; ninguna guía de ansiedad consultada sitúa al clobazam por delante de otras benzodiacepinas [fuente no localizada]. Su perfil diferencial está en la epilepsia: la revisión Cochrane concluye que, como tratamiento añadido, puede reducir la frecuencia de crisis y quizá sea más eficaz en las de inicio focal, con evidencia de muy baja calidad y riesgo de sesgo incierto (Bresnahan 2019); en el síndrome de Lennox-Gastaut, un ensayo de fase III con 238 pacientes aleatorizados mostró reducciones de crisis con caída del 41,2 %, 49,4 % y 68,3 % según la dosis, frente al 12,1 % con placebo (Ng 2011). En España, esta indicación pediátrica específica no figura en la ficha técnica de Noiafren ni de Silocalm, que hablan de epilepsia no controlada en general (4.1).",
+     "links": [
+      {
+       "ids": [
+        "ansiol_bzd",
+        "tag"
+       ],
+       "t": "benzodiacepinas en la ansiedad"
+      },
+      {
+       "ids": [
+        "epilepsia_psic"
+       ],
+       "t": "epilepsia y psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Farmacocinética, CYP2C19 e interacciones",
+     "x": "El clobazam se desmetila en el hígado por CYP3A4 (y en menor medida CYP2C19) a N-desmetilclobazam, metabolito activo y principal circulante, cuya exposición plasmática supera a la del fármaco original y que a su vez se hidroxila sobre todo por CYP2C19 (ficha técnica de Noiafren, 5.2). Consecuencias: los metabolizadores lentos de CYP2C19 tienen concentraciones del metabolito 3-8 veces mayores, y los inhibidores fuertes o moderados de CYP2C19 (fluconazol, fluvoxamina, ticlopidina, omeprazol) aumentan su exposición (4.5). El cannabidiol eleva el N-desmetilclobazam entre 3 y 4 veces, con más somnolencia y sedación; la ficha desaconseja combinarlo con productos de cannabidiol que no son medicamentos, de contenido y calidad variables (4.4 y 4.5). En niños con epilepsia refractaria el aumento medio del metabolito fue del 500 % a las 4 semanas de añadir cannabidiol, con efectos adversos que cedieron al reducir el clobazam (Geffrey 2015). El clobazam es inhibidor débil de CYP2D6 (dextrometorfano: AUC +90 %) y puede elevar valproato y fenitoína; estiripentol aumenta clobazam y metabolito (4.5).",
+     "links": [
+      {
+       "ids": [
+        "cyp2c19",
+        "fenot_metab"
+       ],
+       "t": "farmacogenética de CYP2C19"
+      },
+      {
+       "ids": [
+        "cannabis_tuc",
+        "sist_endocannab"
+       ],
+       "t": "cannabis y cannabinoides"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Opioides: el uso concomitante puede causar sedación, depresión respiratoria, coma y muerte y debe reservarse para cuando no haya alternativas (ficha técnica de Noiafren, 4.4); con opioides prescritos, la combinación con benzodiacepinas se asoció a más urgencias o ingresos por sobredosis (OR ajustada 2,14; Sun 2017). Alcohol: además de la suma de efectos, aumenta la biodisponibilidad del clobazam alrededor de un 50 % (4.5). Piel: suspender de inmediato ante signos de Stevens-Johnson o necrólisis epidérmica tóxica, sobre todo en las primeras 8 semanas (4.4). Conducción: puede disminuir la atención y la capacidad de reacción y producir somnolencia o amnesia, en especial al inicio o al subir la dosis (4.7). Persona mayor: más somnolencia, mareo, debilidad muscular y caídas con lesiones graves (4.4); la semivida terminal se prolonga y el fármaco y su metabolito se acumulan más que en personas jóvenes (5.2). La ficha de Silocalm contraindica el clobazam en antecedentes de dependencia de drogas o alcohol y en intoxicación aguda por alcohol o depresores (4.3). En chemsex, la potenciación con GHB/GBL y la interacción con antirretrovirales potenciados con ritonavir o cobicistat (vía CYP3A4) no están documentadas específicamente para el clobazam [fuente no localizada]. Retirada gradual: el cambio brusco a una benzodiacepina de acción corta puede precipitar abstinencia (4.4).",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "alcohol",
+        "ghb_gbl"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "bzd_mayor",
+        "desprescr_bzd"
+       ],
+       "t": "persona mayor y retirada"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Noiafren 10 mg y 20 mg comprimidos (clobazam) (nº de registro 54862 y 56993; comercializados), apartados 4.1-4.7, 5.1 y 5.2; revisión del texto de agosto de 2025, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Silocalm 1 mg/ml y 2 mg/ml suspensión oral (clobazam) (nº de registro 81524 y 81523; comercializados), apartados 4.1 y 4.3; revisión del texto de noviembre de 2025, consulta de noviembre de 2026",
+    "Bresnahan R et al. (2019). Clobazam add-on therapy for drug-resistant epilepsy. Cochrane Database Syst Rev 10:CD004154 · PMID 31638272",
+    "Ng YT et al. (2011). Randomized, phase III study results of clobazam in Lennox-Gastaut syndrome. Neurology 77:1473-1481 · PMID 21956725",
+    "Geffrey AL et al. (2015). Drug-drug interaction between clobazam and cannabidiol in children with refractory epilepsy. Epilepsia 56:1246-1251 · PMID 26114620",
+    "American Geriatrics Society (2023). American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc 71:2052-2081 · PMID 37139824",
+    "O'Mahony D et al. (2023). STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 14:625-632 · PMID 37256475",
+    "NICE (2011, actualizada). Generalised anxiety disorder and panic disorder in adults: management (CG113)",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769",
+    "NICE (2022). Medicines associated with dependence or withdrawal symptoms: safe prescribing and withdrawal management for adults (NG215)"
+   ],
+   "rel": [
+    "ansiol_bzd",
+    "bzd_mayor",
+    "desprescr_bzd",
+    "bzd_dep",
+    "cyp2c19",
+    "tag",
+    "diazepam",
+    "clorazepato",
+    "epilepsia_psic",
+    "cannabis_tuc"
+   ]
+  },
+  {
+   "id": "ketazolam",
+   "n": "Ketazolam (Sedotime)",
+   "ab": "Ketazolam",
+   "al": [
+    "ketazolam",
+    "Sedotime",
+    "Ketazolam Adamed",
+    "oxazinobenzodiacepina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 1984,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Benzodiacepina ansiolítica de acción larga, comercializada en España como Sedotime (cápsulas de 15, 30 y 45 mg); las presentaciones de Ketazolam Adamed figuran en CIMA como no comercializadas. Indicaciones de la ficha técnica: estados de ansiedad patológicos que no puedan controlarse con tratamientos no farmacológicos, solo cuando el trastorno es intenso, y, por su acción relajante muscular, espasticidad asociada a accidentes cerebrovasculares, traumatismos espinales, síndrome cervical o rigidez de la encefalitis (4.1). Se absorbe sobre todo inalterado y se desmetila con rapidez a metabolitos activos N-desmetilados, con una pequeña fracción transformada en diazepam; su semivida es de 6-25 horas, pero la de los metabolitos N-desmetilados es de unas 52 horas de media, con gran variabilidad, y el pico del metabolito se alcanza a las 12 horas (5.2). Por ello se comporta, a efectos clínicos, como el diazepam o el clorazepato: acumulación con dosis repetidas, sedación residual y especial riesgo en la persona mayor. La base de ensayos es escasa y antigua.",
+   "feats": [
+    "Estado en España (CIMA, noviembre de 2026): Sedotime 15 mg (nº 56235), 30 mg (nº 56234) y 45 mg (nº 56271) comercializados; Ketazolam Adamed 15, 30 y 45 mg (nº 56259, 56260 y 56261) autorizados pero no comercializados",
+    "Contraindicaciones (ficha técnica de Sedotime, 4.3): miastenia gravis, hipersensibilidad a benzodiacepinas, insuficiencia respiratoria grave, apnea del sueño, insuficiencia hepática grave, embarazo y lactancia",
+    "Farmacocinética (5.2): metabolitos activos N-desmetilados con semivida media de 52 h; una pequeña proporción pasa a diazepam; excreción urinaria como metabolitos conjugados (entre ellos oxazepam); unión a proteínas del 93 %",
+    "Duración (4.2): la más corta posible; en general no superar 8-12 semanas, incluida la retirada gradual; la ficha recomienda vigilar al inicio para prevenir la sobredosificación por acumulación",
+    "Ensayos: superior a placebo en ansiedad generalizada de personas mayores durante 30 días (respuesta del 83 % frente al 43 % a los 15 días; Bresolin 1988) y, en adultos con ansiedad generalizada, con respondedores casi idénticos a placebo en la primera quincena y diferencia solo en la segunda (Scarpini 1988); en espasticidad, eficacia similar al diazepam y superior a placebo en un ensayo cruzado (Basmajian 1984)"
+   ],
+   "tx": "Ansiolítico de segunda elección y uso breve, con plan de retirada desde el inicio y duración total limitada a 8-12 semanas según la ficha técnica de Sedotime (4.2). Evitar en personas mayores, en quienes su semivida larga y sus metabolitos activos lo hacen especialmente desaconsejable (criterios de Beers 2023; STOPP/START v3), y en antecedentes de consumo de alcohol u otras drogas, donde la ficha recomienda evitar su uso (4.4). No usar solo en la ansiedad asociada a depresión. En la espasticidad, la elección corresponde a neurología o rehabilitación.",
+   "note": "Los ensayos disponibles son de los años ochenta, pequeños y de corta duración (15-30 días); no hay metaanálisis ni comparaciones modernas, y ninguna guía actual de ansiedad lo menciona [fuente no localizada]. La ficha técnica de Sedotime (revisión de 2017) no incluye la advertencia específica sobre opioides que sí recogen fichas más recientes de la clase, pese a que el riesgo es de clase (Sun 2017). El uso en personas mayores del ensayo de Bresolin (1988) no contradice las recomendaciones posteriores de evitarlo.",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "Las guías de ansiedad (NICE CG113) restringen las benzodiacepinas a medidas breves en crisis y no individualizan el ketazolam [fuente no localizada para su ausencia en BAP, WFSBP y CANMAT]. La evidencia propia se limita a ensayos pequeños de la década de 1980: en 63 personas mayores con ansiedad generalizada, el 83 % respondió a los 15 días frente al 43 % con placebo (Bresolin 1988), y en 92 pacientes ambulatorios con ansiedad generalizada la proporción de respondedores fue casi idéntica con ketazolam y placebo en la primera quincena, aunque en la segunda la puntuación de Hamilton siguió mejorando de forma significativa solo con ketazolam (Scarpini 1988). En la espasticidad (sobre todo esclerosis múltiple e ictus), un ensayo cruzado de 50 pacientes no halló diferencias con el diazepam y ambos superaron al placebo (Basmajian 1984). Ninguno de estos ensayos evaluó dependencia, caídas ni efectos a largo plazo, que son los riesgos que hoy determinan su posición.",
+     "links": [
+      {
+       "ids": [
+        "ansiol_bzd",
+        "tag",
+        "anx_mayor"
+       ],
+       "t": "benzodiacepinas en la ansiedad"
+      },
+      {
+       "ids": [
+        "diazepam"
+       ],
+       "t": "comparador en espasticidad"
+      }
+     ]
+    },
+    {
+     "t": "Farmacocinética y riesgos en la persona mayor",
+     "x": "El ketazolam se desmetila con rapidez a N-desmetilketazolam y otros metabolitos activos; una pequeña fracción se transforma en diazepam, que a su vez se desmetila, y la excreción urinaria incluye oxazepam conjugado (ficha técnica de Sedotime, 5.2). La semivida media de los metabolitos N-desmetilados, de unas 52 horas, lo sitúa entre las benzodiacepinas de semivida larga. En un estudio de casos y controles en Saskatchewan, las benzodiacepinas de semivida de 24 horas o más se asociaron a fractura de cadera en mayores de 65 años (RR 1,7), a diferencia de las de semivida corta (RR 1,1) (Ray 1989); en conductores de 67-84 años, las de semivida larga aumentaron las colisiones con lesiones (RR 1,45 la primera semana y 1,26 con uso continuado hasta un año), sin aumento con las de semivida corta (Hemmelgarn 1997). Estos estudios no analizaron el ketazolam por separado, y su inclusión en el grupo de semivida larga se basa en los datos de la ficha. Los criterios de Beers 2023 y STOPP/START v3 recomiendan evitar las benzodiacepinas en la persona mayor.",
+     "links": [
+      {
+       "ids": [
+        "bzd_mayor",
+        "fk_mayor"
+       ],
+       "t": "farmacocinética y riesgo en la vejez"
+      },
+      {
+       "ids": [
+        "diazepam",
+        "clorazepato"
+       ],
+       "t": "benzodiacepinas de perfil semejante"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "La ficha técnica de Sedotime advierte de que, en presencia de ketazolam, disminuye la tolerancia a otros depresores del sistema nervioso central, que deben evitarse o tomarse en dosis menores, y pide abstenerse del alcohol (4.4); la combinación con analgésicos narcóticos, antipsicóticos, antidepresivos, antiepilépticos y antihistamínicos sedantes potencia la depresión central, y el ketazolam reduce el efecto de los anticonvulsivantes (4.5). Los inhibidores del citocromo P450 pueden potenciar su efecto (4.5); la magnitud con ritonavir o cobicistat no está documentada [fuente no localizada]. Conducción: puede disminuir la atención y producir somnolencia, amnesia o sedación, sobre todo al inicio, y el sueño insuficiente agrava el deterioro del estado de alerta (4.7). Amnesia anterógrada varias horas después de la toma; reacciones paradójicas más frecuentes en niños y personas mayores; riesgo de crisis epilépticas en la retirada brusca (4.4). Discrasias sanguíneas y elevación de enzimas hepáticas en tratamientos repetidos (4.4). Con GHB/GBL u opioides en contextos de chemsex no hay datos específicos [fuente no localizada]; el riesgo de depresión respiratoria de la asociación de depresores es de clase.",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "alcohol",
+        "ghb_gbl"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd"
+       ],
+       "t": "dependencia y retirada"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Sedotime 15 mg cápsulas duras (ketazolam) (nº de registro 56235; comercializado; también Sedotime 30 mg, nº 56234, y 45 mg, nº 56271), apartados 4.1-4.7, 5.1 y 5.2; revisión del texto de julio de 2017, consulta de noviembre de 2026",
+    "Bresolin N et al. (1988). Treatment of anxiety with ketazolam in elderly patients. Clin Ther 10:536-542 · PMID 2908803",
+    "Scarpini E et al. (1988). Low doses of ketazolam in anxiety: a double-blind, placebo-controlled study. Neuropsychobiology 20:74-77 · PMID 2908133",
+    "Basmajian JV et al. (1984). Ketazolam treatment for spasticity: double-blind study of a new drug. Arch Phys Med Rehabil 65:698-701 · PMID 6149738",
+    "Ray WA et al. (1989). Benzodiazepines of long and short elimination half-life and the risk of hip fracture. JAMA 262:3303-3307 · PMID 2573741",
+    "Hemmelgarn B et al. (1997). Benzodiazepine use and the risk of motor vehicle crash in the elderly. JAMA 278:27-31 · PMID 9207334",
+    "American Geriatrics Society (2023). American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc 71:2052-2081 · PMID 37139824",
+    "O'Mahony D et al. (2023). STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 14:625-632 · PMID 37256475",
+    "NICE (2011, actualizada). Generalised anxiety disorder and panic disorder in adults: management (CG113)",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769"
+   ],
+   "rel": [
+    "ansiol_bzd",
+    "bzd_mayor",
+    "desprescr_bzd",
+    "bzd_dep",
+    "diazepam",
+    "clorazepato",
+    "tag",
+    "anx_mayor",
+    "fk_mayor"
+   ]
+  },
+  {
+   "id": "loprazolam",
+   "n": "Loprazolam (Somnovit)",
+   "ab": "Loprazolam",
+   "al": [
+    "loprazolam",
+    "Somnovit",
+    "benzodiacepina hipnótica"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 1987,
+   "tags": [
+    "risk",
+    "elderly"
+   ],
+   "desc": "Benzodiacepina hipnótica comercializada en España como Somnovit 1 mg comprimidos (único medicamento con loprazolam en CIMA). Indicación de la ficha técnica: tratamiento del insomnio de cualquier etiología, ocasional o rebelde, solo cuando el trastorno es intenso, limita la actividad o somete a estrés importante (4.1). La duración debe ser la más corta posible, de pocos días a dos semanas, con un máximo de cuatro semanas incluida la retirada gradual (4.2). Semivida de referencia: 8 horas según la ficha técnica, que cita la piperazina N-óxido como metabolito principal, una biodisponibilidad del 80 % y, en personas mayores, solo una prolongación de la semivida de unas 1,5 veces (5.2). Como dato complementario, estudios farmacocinéticos describen semividas de 10,9-16 horas, un N-óxido farmacológicamente activo y áreas bajo la curva del loprazolam y del N-óxido un 50-68 % mayores en personas mayores (Ford 1987), y, en personas de 62-72 años, una semivida de 5 horas con efectos electroencefalográficos de 9,5 horas compatibles con un metabolito activo (Mamelak 1988).",
+   "feats": [
+    "Estado en España: Somnovit 1 mg comprimidos (nº de registro 57017; Teofarma), comercializado; primera autorización en noviembre de 1987; texto de la ficha técnica revisado en mayo de 2011",
+    "Contraindicaciones (ficha técnica de Somnovit, 4.3): miastenia gravis, hipersensibilidad a benzodiacepinas, insuficiencia respiratoria grave, apnea del sueño, insuficiencia hepática grave y glaucoma de ángulo cerrado; la lactancia figura como contraindicada en 4.6",
+    "Mecanismo (5.1): 1,4-benzodiacepina agonista del complejo receptor GABA-omega (BZD1 y BZD2) que modula la apertura del canal de cloro; efectos relajante muscular, ansiolítico, sedante, hipnótico, anticonvulsivante y amnésico",
+    "Farmacocinética (5.2): biodisponibilidad del 80 %, Tmax de 1 hora, semivida de 8 horas, unión a proteínas del 80 %; excreción urinaria del 40 % y fecal del 55 %; semivida unas 1,5 veces mayor en personas mayores",
+    "Cognición: en voluntarios jóvenes, 2 mg de loprazolam alteró la memoria a largo plazo evaluada a la mañana siguiente sin afectar la vigilancia ni la atención nocturnas (Bareggi 1991)",
+    "Interacciones (4.5): potenciación con alcohol y depresores del sistema nervioso central; sinergia con relajantes neuromusculares; mayor riesgo de abstinencia si se asocia a otras benzodiacepinas"
+   ],
+   "tx": "Hipnótico de uso breve (pocos días a dos semanas, máximo cuatro con la retirada, según la ficha técnica de Somnovit) cuando el insomnio es intenso y la TCC-I no basta o no está disponible (Riemann 2023). Contraindicado en el síndrome de apnea del sueño (ficha técnica, 4.3); evitar en personas mayores (criterios de Beers 2023; STOPP/START v3) y con opioides o alcohol. Informar de la amnesia anterógrada y de la necesidad de disponer de 7-8 horas de sueño ininterrumpido. Planificar la retirada gradual desde el inicio.",
+   "note": "La ficha técnica española es antigua (revisión de 2011) y no recoge la advertencia específica sobre opioides que sí figura en fichas más recientes de la clase, aunque el riesgo es de clase. La semivida de referencia es la de la ficha técnica (8 h); los estudios de Ford (1987: 10,9-16 h) y Mamelak (1988: 5 h en mayores, con efecto electroencefalográfico de 9,5 h) son datos complementarios de muestras pequeñas y antiguas que sugieren un metabolito activo y posible efecto residual en la persona mayor. No hay ensayos modernos ni datos a largo plazo.",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "La guía europea sitúa la TCC-I como primera línea del insomnio crónico y admite las benzodiacepinas solo a corto plazo (≤ 4 semanas, nivel A) (Riemann 2023); la guía de la AASM no evalúa el loprazolam (Sateia 2017). En el metaanálisis de Holbrook (45 ensayos, 2672 pacientes), las benzodiacepinas aumentaron el sueño total en 61,8 minutos frente a placebo, sin reducción significativa de la latencia medida por registro, con más somnolencia diurna y mareo (OR 1,8) (Holbrook 2000). Evidencia específica: en un ensayo cruzado de atención primaria con 67 pacientes, el triazolam ayudó más a conciliar el sueño y redujo más los despertares que el loprazolam las dos primeras noches, y ambos fueron bien tolerados en las tres semanas siguientes (Bourin 1989). No se han localizado ensayos frente a placebo de calidad moderna ni datos de eficacia más allá de semanas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "triazolam",
+        "lormetazepam"
+       ],
+       "t": "otros hipnóticos benzodiacepínicos"
+      }
+     ]
+    },
+    {
+     "t": "Farmacocinética, metabolito activo y persona mayor",
+     "x": "La ficha técnica de Somnovit atribuye al loprazolam una semivida de 8 horas y cita como metabolito principal la piperazina N-óxido, sin precisar su actividad (5.2). Esta es la cifra de referencia. Como dato complementario, en personas jóvenes (21-25 años) y mayores hospitalizadas (63-86 años), Ford (1987) describió el N-óxido como metabolito farmacológicamente activo, semividas del loprazolam de 10,9-16 horas con tendencia a ser más largas en la vejez, alargamiento significativo de la semivida del N-óxido en la vejez (de 11,7 a 16,7 horas) y áreas bajo la curva del loprazolam y del N-óxido un 50-68 % mayores en las personas mayores. En personas de 62-72 años la semivida sérica fue de 5 horas, sin acumulación en 14 días, pero los cambios electroencefalográficos persistieron 9,5 horas, lo que sugiere un metabolito activo (Mamelak 1988). Esta variabilidad, unida a la recomendación de la ficha de reducir la dosis en personas mayores e insuficiencia respiratoria, renal o hepática (4.2), aconseja, sin modificar la cifra de referencia de la ficha, no darlo por exento de efecto residual en la persona mayor. Los criterios de Beers 2023 y STOPP/START v3 desaconsejan las benzodiacepinas hipnóticas en mayores por caídas, fracturas y deterioro cognitivo.",
+     "links": [
+      {
+       "ids": [
+        "bzd_mayor",
+        "fk_mayor"
+       ],
+       "t": "riesgos en la persona mayor"
+      },
+      {
+       "ids": [
+        "amnesia"
+       ],
+       "t": "amnesia anterógrada"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Amnesia anterógrada, más frecuente varias horas después de la toma; la ficha técnica de Somnovit pide asegurar 7-8 horas de sueño ininterrumpido (4.4). Conducción: puede alterar la capacidad de reacción y la concentración, producir amnesia y dejar somnolencia a la mañana siguiente; no conducir hasta comprobar que la capacidad no está afectada (4.7). Reacciones paradójicas (agitación, agresividad, alucinaciones, conducta inapropiada) obligan a suspender (4.4). Con benzodiacepinas de acción corta, la abstinencia puede aparecer incluso con niveles terapéuticos (4.4). La ficha no menciona comportamientos complejos del sueño. Con opioides, la asociación de benzodiacepinas se asoció a más urgencias o ingresos por sobredosis (Sun 2017). Interacción con antirretrovirales potenciados y con drogas del chemsex (GHB/GBL, metanfetamina, catinonas): sin datos específicos [fuente no localizada]; la ficha solo señala que los inhibidores del citocromo P450 pueden potenciar a las benzodiacepinas (4.5). Señales de alarma: caídas, confusión, uso diario prolongado y escalada.",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "alcohol",
+        "ghb_gbl"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd"
+       ],
+       "t": "dependencia y retirada"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Somnovit 1 mg comprimidos (loprazolam) (nº de registro 57017; comercializado), apartados 4.1-4.7, 5.1 y 5.2; revisión del texto de mayo de 2011, consulta de noviembre de 2026",
+    "Ford S et al. (1987). Pharmacokinetics of loprazolam and its principal metabolite in young subjects and elderly hospital patients. Xenobiotica 17:1001-1009 · PMID 2890241",
+    "Mamelak M et al. (1988). Serum and quantitative electroencephalographic pharmacokinetics of loprazolam in the elderly. J Clin Pharmacol 28:376-383 · PMID 3392236",
+    "Bareggi SR et al. (1991). Effects of loprazolam on cognitive functions. Psychopharmacology (Berl) 104:337-342 · PMID 1681558",
+    "Bourin M & André-David F (1989). Triazolam 0.25 mg versus loprazolam 1 mg in the treatment of common insomnia treated in general practice. Double-blind cross-over randomized trial [artículo en francés]. Therapie 44:107-114 · PMID 2569239",
+    "Holbrook AM et al. (2000). Meta-analysis of benzodiazepine use in the treatment of insomnia. CMAJ 162:225-233 · PMID 10674059",
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "American Geriatrics Society (2023). American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc 71:2052-2081 · PMID 37139824",
+    "O'Mahony D et al. (2023). STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 14:625-632 · PMID 37256475",
+    "Sun EC et al. (2017). Association between concurrent use of prescription opioids and benzodiazepines and overdose: retrospective analysis. BMJ 356:j760 · PMID 28292769"
+   ],
+   "rel": [
+    "ansiol_bzd",
+    "insom",
+    "tcci",
+    "bzd_mayor",
+    "desprescr_bzd",
+    "bzd_dep",
+    "lormetazepam",
+    "fk_mayor",
+    "amnesia"
+   ]
+  },
+  {
+   "id": "triazolam",
+   "n": "Triazolam (Halcion)",
+   "ab": "Triazolam",
+   "al": [
+    "triazolam",
+    "Halcion",
+    "triazolobenzodiacepina hipnótica"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1988,
+   "tags": [
+    "risk",
+    "elderly",
+    "chemsex",
+    "forense"
+   ],
+   "desc": "Triazolobenzodiacepina hipnótica de semivida muy corta (1,5-5,5 horas), comercializada en España como Halcion 0,125 mg comprimidos, único medicamento con triazolam en CIMA. Indicación: insomnio transitorio, solo cuando el trastorno del sueño es agudo, discapacitante o causa agotamiento extremo (ficha técnica, 4.1); uso fundamentalmente ocasional y a corto plazo, por lo general 7-10 días y sin sobrepasar dos semanas (4.4). Se metaboliza por el citocromo P450 (CYP3A4), con un metabolito activo (α-hidroxitriazolam) de semivida de 3,9 horas (5.2), por lo que sus interacciones son de las más intensas de la clase: la ficha contraindica la coadministración con inhibidores potentes de CYP3A (ketoconazol, itraconazol, nefazodona, efavirenz e inhibidores de la proteasa del VIH) (4.3). Es la única de las fichas españolas revisadas en este grupo que recoge expresamente las conductas complejas durante el sueño, como conducir sin estar plenamente despierto, con amnesia del episodio (4.4). La guía de la AASM le otorga una recomendación débil para el insomnio de conciliación (Sateia 2017). En el Reino Unido se suspendió su autorización en 1991 (Gabe 1997).",
+   "feats": [
+    "Estado en España: Halcion 0,125 mg comprimidos (nº de registro 58118; Pfizer), comercializado; primera autorización en octubre de 1988; texto de la ficha técnica revisado en mayo de 2026",
+    "Contraindicaciones (ficha técnica de Halcion, 4.3): miastenia gravis, insuficiencia respiratoria grave, apnea del sueño, insuficiencia hepática grave y coadministración con ketoconazol, itraconazol, nefazodona, efavirenz o inhibidores de la proteasa del VIH",
+    "Farmacocinética (5.2): Tmax de 1 hora, semivida de 1,5-5,5 horas, metabolito activo α-hidroxi con semivida de 3,9 horas; en personas mayores la Cmax aumenta alrededor de un 50 % sin cambios en la semivida",
+    "Conductas complejas del sueño (4.4): conducir sin estar completamente despierto y otras conductas con amnesia del episodio, también a dosis terapéuticas; el alcohol, otros depresores y las dosis superiores a la máxima aumentan el riesgo; considerar la suspensión si aparecen",
+    "Ritonavir: en voluntarios, dosis bajas de ritonavir durante poco tiempo redujeron el aclaramiento del triazolam a menos del 4 % y prolongaron su semivida de 3 a 41 horas, con más sedación y deterioro del rendimiento (Greenblatt 2000)",
+    "Azoles: ketoconazol e itraconazol multiplicaron el AUC del triazolam por 22 y 27 y su semivida por 6 y 7 (Varhe 1994); el zumo de pomelo también aumenta su biodisponibilidad (ficha técnica, 4.5)"
+   ],
+   "tx": "Hipnótico de uso ocasional y muy breve (7-10 días, sin superar dos semanas según la ficha técnica de Halcion) en el insomnio transitorio intenso, cuando las medidas no farmacológicas no bastan; en el insomnio crónico, la TCC-I es la primera línea (Riemann 2023). Antes de prescribirlo, revisar toda la medicación por interacciones con CYP3A4, en particular antirretrovirales potenciados, azoles, macrólidos y nefazodona. Advertir de la amnesia anterógrada, de las conductas complejas del sueño y de la ansiedad diurna o el insomnio de final de noche tras varias semanas de uso. Evitar en personas mayores (criterios de Beers 2023; STOPP/START v3).",
+   "note": "La recomendación de la AASM es débil y se refiere al insomnio de conciliación (Sateia 2017). Las diferencias de seguridad frente a otras benzodiacepinas descritas en la controversia británica de 1991 (amnesia, reacciones psiquiátricas) no se han cuantificado en esta revisión [fuente no localizada]; la suspensión británica se documenta en un análisis sociológico (Gabe 1997), no en un estudio clínico. Su menor sedación residual frente al flurazepam en personas mayores procede de un único ensayo en rehabilitación (Woo 1991).",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "La guía de la AASM sugiere el triazolam para el insomnio de conciliación frente a no tratar, con recomendación débil (Sateia 2017), mientras que la guía europea sitúa la TCC-I en primera línea y admite las benzodiacepinas solo a corto plazo (≤ 4 semanas) (Riemann 2023). En un metaanálisis en red de 170 ensayos, las benzodiacepinas fueron eficaces en el tratamiento agudo del insomnio pero tuvieron más personas con efectos adversos que el placebo y carecen de datos a largo plazo (De Crescenzo 2022). La ficha técnica de Halcion (5.1) describe que, tras dos semanas de uso nocturno, el efecto sobre el tiempo total en vigilia se atenúa y en el último tercio de la noche se acerca al basal, y que con hipnóticos de eliminación rápida puede aparecer más vigilia al final de la noche y más ansiedad diurna tras unos diez días de uso continuo, además del insomnio de rebote en las primeras noches tras la retirada. En personas mayores en rehabilitación, el flurazepam empeoró el rendimiento psicomotor y la participación en la rehabilitación y el triazolam no (Woo 1991).",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "zolpidem",
+        "lormetazepam",
+        "flurazepam"
+       ],
+       "t": "otros hipnóticos"
+      }
+     ]
+    },
+    {
+     "t": "Amnesia anterógrada, conductas complejas del sueño y valor médico-legal",
+     "x": "La ficha técnica de Halcion advierte de amnesia anterógrada, sobre todo varias horas después de la toma, y pide asegurar 7-8 horas de sueño ininterrumpido (4.4). En voluntarios sanos, tras dosis únicas de flurazepam, temazepam o triazolam, solo el grupo de triazolam no recordaba a las 24 horas una parte significativa de lo aprendido tres horas después de la dosis (Greenblatt 1989). Se describieron episodios de amnesia anterógrada de varias horas en tres viajeros que tomaron triazolam en vuelos transatlánticos, junto con alcohol en cantidad variable (Morris 1987). La ficha recoge también conductas complejas durante el sueño, como conducir sin estar plenamente despierto, con amnesia del episodio, que pueden ocurrir con el fármaco solo y a dosis terapéuticas y cuyo riesgo aumentan el alcohol, otros depresores y las dosis superiores a la máxima (4.4). En la valoración pericial de conductas realizadas bajo hipnóticos, estos datos documentan la plausibilidad de la amnesia, sin que permitan por sí solos establecer el estado de conciencia en un caso concreto [fuente no localizada para criterios periciales específicos]. La relación del triazolam con la sumisión química no está cuantificada en las fuentes revisadas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "amnesia",
+        "parasomn"
+       ],
+       "t": "amnesia y conductas durante el sueño"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "sumisión química y consentimiento"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones con antirretrovirales y señales de alarma en chemsex",
+     "x": "El aclaramiento del triazolam depende por completo de CYP3A: con dosis bajas de ritonavir durante poco tiempo cayó a menos del 4 % del valor control y la semivida pasó de 3 a 41 horas, con más sedación y deterioro del rendimiento, mientras que el zolpidem apenas se modificó (Greenblatt 2000). La ficha técnica de Halcion contraindica la combinación con los inhibidores de la proteasa del VIH y con efavirenz, este último por riesgo de sedación prolongada y depresión respiratoria (4.3 y 4.5), y la de Norvir contraindica el triazolam con ritonavir (4.3). En personas que viven con el VIH y practican chemsex, esto exige revisar el tratamiento antirretroviral antes de cualquier hipnótico. La ficha técnica de Halcion añade que ha habido muertes por sobredosis cuando se abusa de benzodiacepinas con otros depresores, incluidos opioides, alcohol y sustancias ilícitas, y advierte del riesgo de desvío (4.4); la potenciación concreta con GHB/GBL no está cuantificada [fuente no localizada]. Opioides: sedación profunda, depresión respiratoria, coma y muerte (4.4). Anafilaxia y angioedema descritos desde la primera dosis (4.4).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "opioides",
+        "alcohol"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "bzd_mayor",
+        "desprescr_bzd"
+       ],
+       "t": "persona mayor y retirada"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Halcion 0,125 mg comprimidos (triazolam) (nº de registro 58118; comercializado), apartados 4.1-4.7, 5.1 y 5.2; revisión del texto de mayo de 2026, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "Greenblatt DJ et al. (2000). Differential impairment of triazolam and zolpidem clearance by ritonavir. J Acquir Immune Defic Syndr 24:129-136 · PMID 10935688",
+    "Varhe A et al. (1994). Oral triazolam is potentially hazardous to patients receiving systemic antimycotics ketoconazole or itraconazole. Clin Pharmacol Ther 56:601-607 · PMID 7995001",
+    "Morris HH & Estes ML (1987). Traveler's amnesia. Transient global amnesia secondary to triazolam. JAMA 258:945-946 · PMID 3613025",
+    "Greenblatt DJ et al. (1989). Pharmacokinetic determinants of dynamic differences among three benzodiazepine hypnotics. Flurazepam, temazepam, and triazolam. Arch Gen Psychiatry 46:326-332 · PMID 2564763",
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "Woo E et al. (1991). Differential side effect profile of triazolam versus flurazepam in elderly patients undergoing rehabilitation therapy. J Clin Pharmacol 31:168-173 · PMID 2010562",
+    "Gabe J (1997). The controversy about Halcion in Great Britain: a sociological study [artículo en francés]. Sante Ment Que 22:301-316 · PMID 9233284",
+    "American Geriatrics Society (2023). American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc 71:2052-2081 · PMID 37139824",
+    "O'Mahony D et al. (2023). STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 14:625-632 · PMID 37256475"
+   ],
+   "rel": [
+    "ansiol_bzd",
+    "insom",
+    "tcci",
+    "bzd_mayor",
+    "desprescr_bzd",
+    "bzd_dep",
+    "chemsex_arv",
+    "zolpidem",
+    "lormetazepam",
+    "amnesia",
+    "parasomn",
+    "sumision_q",
+    "midazolam"
+   ]
+  },
+  {
+   "id": "flurazepam",
+   "n": "Flurazepam (Dormodor)",
+   "ab": "Flurazepam",
+   "al": [
+    "flurazepam",
+    "Dormodor",
+    "benzodiacepina hipnótica de acción larga"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 1972,
+   "tags": [
+    "risk",
+    "elderly",
+    "chemsex"
+   ],
+   "desc": "Benzodiacepina hipnótica de acción larga, comercializada en España como Dormodor 30 mg cápsulas duras (único medicamento con flurazepam en CIMA, autorizado desde 1972). Indicación de la ficha técnica: insomnio de conciliación, con despertares frecuentes o precoces, o asociado a ansiedad o a enfermedad crónica, solo cuando el trastorno es intenso (4.1), durante pocos días a dos semanas y un máximo de cuatro semanas incluida la retirada (4.2). Apenas circula inalterado: sus metabolitos activos son el hidroxietilflurazepam (semivida de alrededor de 1 hora) y el N-desalquilflurazepam, con semivida de 40-100 horas que aumenta con la edad (5.2). En voluntarios, la semivida del metabolito llegó a 37-289 horas y se acumuló una media de 7,5 veces en 15 noches, con sedación matutina creciente (Greenblatt 1981). Por ello es el ejemplo clásico de hipnótico con efecto residual diurno, y en personas mayores empeoró el rendimiento en rehabilitación (Woo 1991); su ficha advierte de caídas y fracturas en la vejez (4.4). Su ficha incluye contraindicaciones poco habituales en la clase: estados fóbicos u obsesivos y psicosis crónica (4.3).",
+   "feats": [
+    "Estado en España: Dormodor 30 mg cápsulas duras (nº de registro 50234; Viatris), comercializado; primera autorización en junio de 1972; texto de la ficha técnica revisado en julio de 2022",
+    "Contraindicaciones (ficha técnica de Dormodor, 4.3): miastenia gravis, hipersensibilidad a benzodiacepinas, insuficiencia respiratoria o pulmonar grave, estados fóbicos u obsesivos, psicosis crónica, apnea del sueño e insuficiencia hepática grave",
+    "Farmacocinética (5.2): metabolitos activos hidroxietilflurazepam (semivida de alrededor de 1 h) y N-desalquilflurazepam (40-100 h, mayor con la edad); solo trazas del fármaco inalterado en suero",
+    "Acumulación: semivida del N-desalquilflurazepam de 74 h en hombres jóvenes y 160 h en hombres mayores; acumulación media de 7,5 veces con administración nocturna durante 15 días (Greenblatt 1981)",
+    "Advertencias (4.4): riesgo con opioides (sedación profunda, depresión respiratoria, coma y muerte), caídas y fracturas por el efecto miorrelajante en personas mayores, depresión con tendencias suicidas entre las reacciones paradójicas e inhibición del ajuste psicológico en el duelo",
+    "Comparación: en pacientes ambulatorios con insomnio, más efectos adversos que el estazolam, sobre todo somnolencia y fatiga diurnas residuales (Dominguez 1986)"
+   ],
+   "tx": "Hipnótico de último recurso: su semivida efectiva muy larga lo hace poco adecuado incluso a corto plazo cuando se necesita estar alerta al día siguiente. Si se usa, limitarlo a pocos días o dos semanas (máximo cuatro con la retirada, según la ficha técnica de Dormodor). Evitar en personas mayores (criterios de Beers 2023; STOPP/START v3) y en quienes conducen; en el uso crónico, plantear la retirada gradual, que podría beneficiarse de su propia semivida larga [fuente no localizada]. En el insomnio crónico, TCC-I como primera línea (Riemann 2023). Comprobar antes la ausencia de inhibidores potentes de CYP3A como ritonavir (ficha técnica de Norvir, 4.3).",
+   "note": "La mayor parte de la evidencia específica es antigua y farmacocinética o de ensayos pequeños; los estudios de fracturas y colisiones analizaron las benzodiacepinas de semivida larga como grupo (Ray 1989; Hemmelgarn 1997). La afirmación de la ficha técnica de que no se pierde efecto tras tratamiento interrumpido (5.1) procede de estudios de laboratorio y no anula la advertencia de tolerancia del apartado 4.4. Ninguna guía actual de insomnio lo recomienda [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Lugar en la terapéutica según guías y evidencia",
+     "x": "La guía de la AASM no incluye el flurazepam entre los fármacos con recomendación (Sateia 2017), y la guía europea limita las benzodiacepinas al tratamiento breve (≤ 4 semanas) tras la TCC-I (Riemann 2023). En el metaanálisis de Holbrook, las benzodiacepinas aumentaron el sueño total en 61,8 minutos frente a placebo, con más somnolencia diurna y mareo (OR 1,8) y deterioro cognitivo descrito en varios estudios (Holbrook 2000). Datos específicos: en 65 pacientes ambulatorios con insomnio, flurazepam y estazolam superaron al placebo, pero el flurazepam produjo significativamente más efectos adversos; la somnolencia y la fatiga diurnas residuales supusieron alrededor del 70 % de los efectos adversos con ambos fármacos (Dominguez 1986). En voluntarios, el flurazepam sedó menos que el triazolam y el temazepam tras una dosis única (Greenblatt 1989), lo que no refleja su acumulación con el uso repetido. La ficha técnica de Dormodor (5.1) describe un leve acortamiento del sueño REM sin rebote y un acortamiento de la fase IV del sueño.",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "tcci"
+       ],
+       "t": "insomnio y TCC-I"
+      },
+      {
+       "ids": [
+        "triazolam",
+        "lormetazepam"
+       ],
+       "t": "hipnóticos de acción más corta"
+      }
+     ]
+    },
+    {
+     "t": "Acumulación, conducción y riesgos en la persona mayor",
+     "x": "Tras dosis únicas, a partir de las 12 horas solo se detecta en plasma el N-desalquilflurazepam, cuya semivida osciló entre 37 y 289 horas y fue mayor en hombres mayores que en jóvenes (160 frente a 74 horas); con administración nocturna durante 15 noches se acumuló una media de 7,5 veces, con niveles estables más altos en hombres mayores y percepción creciente de sedación matutina que revirtió lentamente en la semana siguiente (Greenblatt 1981). En personas mayores hospitalizadas para rehabilitación, el flurazepam empeoró el rendimiento psicomotor matutino y la participación en la fisioterapia, con un deterioro que persistió en el periodo posterior con placebo, a diferencia del triazolam (Woo 1991). En estudios poblacionales, las benzodiacepinas de semivida de 24 horas o más se asociaron a fractura de cadera (RR 1,7; Ray 1989) y a colisiones con lesiones en conductores de 67-84 años (RR 1,45 la primera semana; Hemmelgarn 1997). La ficha técnica advierte de somnolencia a la mañana siguiente (4.7) y de caídas y fracturas en la vejez (4.4); los criterios de Beers 2023 y STOPP/START v3 desaconsejan las benzodiacepinas en mayores.",
+     "links": [
+      {
+       "ids": [
+        "bzd_mayor",
+        "fk_mayor",
+        "polifarm"
+       ],
+       "t": "riesgos en la persona mayor"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "complicación a vigilar"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Opioides: el uso concomitante puede producir sedación, depresión respiratoria, coma y muerte; reservar la combinación y vigilar sus signos, informando a la persona y a sus cuidadores (ficha técnica de Dormodor, 4.4). La ficha añade la potenciación con barbitúricos, antipsicóticos, antidepresivos, antiepilépticos (más toxicidad con hidantoínas o barbitúricos), antihistamínicos sedantes, antihipertensivos y betabloqueantes, y que teofilina o aminofilina pueden reducir la sedación (4.5). Antirretrovirales: la ficha técnica de Norvir contraindica el flurazepam con ritonavir por aumento de sus concentraciones y riesgo de sedación excesiva y depresión respiratoria (4.3 y 4.5), dato relevante en personas que viven con el VIH y en chemsex; la potenciación con GHB/GBL no está cuantificada [fuente no localizada]. Amnesia anterógrada varias horas después de la toma (4.4); la ficha no recoge comportamientos complejos del sueño. Reacciones paradójicas, incluida depresión con tendencias suicidas, con precaución en trastornos de la personalidad (4.4). Sobredosis: rara vez mortal sola, pero grave con otros depresores, incluido el alcohol; el flumazenilo puede precipitar convulsiones en el uso prolongado (4.9).",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "alcohol",
+        "ghb_gbl"
+       ],
+       "t": "depresores asociados"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "antirretrovirales"
+      },
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd"
+       ],
+       "t": "dependencia y retirada"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Dormodor 30 mg cápsulas duras (flurazepam) (nº de registro 50234; comercializado), apartados 4.1-4.9, 5.1 y 5.2; revisión del texto de julio de 2022, consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (nº de registro 96016005), apartados 4.3 y 4.5; consulta de noviembre de 2026",
+    "Greenblatt DJ et al. (1981). Kinetics and clinical effects of flurazepam in young and elderly noninsomniacs. Clin Pharmacol Ther 30:475-486 · PMID 7285482",
+    "Woo E et al. (1991). Differential side effect profile of triazolam versus flurazepam in elderly patients undergoing rehabilitation therapy. J Clin Pharmacol 31:168-173 · PMID 2010562",
+    "Dominguez RA et al. (1986). Comparative efficacy of estazolam, flurazepam, and placebo in outpatients with insomnia. J Clin Psychiatry 47:362-365 · PMID 2873132",
+    "Greenblatt DJ et al. (1989). Pharmacokinetic determinants of dynamic differences among three benzodiazepine hypnotics. Flurazepam, temazepam, and triazolam. Arch Gen Psychiatry 46:326-332 · PMID 2564763",
+    "Ray WA et al. (1989). Benzodiazepines of long and short elimination half-life and the risk of hip fracture. JAMA 262:3303-3307 · PMID 2573741",
+    "Hemmelgarn B et al. (1997). Benzodiazepine use and the risk of motor vehicle crash in the elderly. JAMA 278:27-31 · PMID 9207334",
+    "Holbrook AM et al. (2000). Meta-analysis of benzodiazepine use in the treatment of insomnia. CMAJ 162:225-233 · PMID 10674059",
+    "Sateia MJ et al. (2017). Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 13:307-349 · PMID 27998379",
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "American Geriatrics Society (2023). American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc 71:2052-2081 · PMID 37139824",
+    "O'Mahony D et al. (2023). STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 14:625-632 · PMID 37256475"
+   ],
+   "rel": [
+    "ansiol_bzd",
+    "insom",
+    "tcci",
+    "bzd_mayor",
+    "desprescr_bzd",
+    "bzd_dep",
+    "chemsex_arv",
+    "triazolam",
+    "lormetazepam",
+    "fk_mayor",
+    "polifarm",
+    "delirium"
+   ]
+  }
+ ]
+}

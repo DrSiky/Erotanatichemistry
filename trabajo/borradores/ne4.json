@@ -1,0 +1,780 @@
+{
+ "patch": {
+  "modafinilo": {
+   "relAdd": [
+    "solriamfetol",
+    "pitolisant"
+   ]
+  },
+  "nar": {
+   "relAdd": [
+    "solriamfetol",
+    "pitolisant",
+    "oxibato_sodico"
+   ]
+  },
+  "apnea": {
+   "relAdd": [
+    "solriamfetol"
+   ]
+  },
+  "estim_seguridad": {
+   "relAdd": [
+    "solriamfetol"
+   ]
+  },
+  "hips_idiop": {
+   "relAdd": [
+    "solriamfetol",
+    "pitolisant"
+   ]
+  },
+  "cataplejia": {
+   "relAdd": [
+    "pitolisant",
+    "oxibato_sodico"
+   ]
+  },
+  "ghb_gbl": {
+   "relAdd": [
+    "oxibato_sodico"
+   ]
+  },
+  "ghb_abst": {
+   "relAdd": [
+    "oxibato_sodico"
+   ]
+  },
+  "alcohol": {
+   "relAdd": [
+    "oxibato_sodico",
+    "glp1_adicciones"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "oxibato_sodico"
+   ]
+  },
+  "peso_psicof": {
+   "relAdd": [
+    "glp1_adicciones",
+    "naltrexona_bupropion"
+   ]
+  },
+  "naltrexona": {
+   "relAdd": [
+    "glp1_adicciones",
+    "naltrexona_bupropion"
+   ]
+  },
+  "ttos_adiccion": {
+   "relAdd": [
+    "glp1_adicciones"
+   ]
+  },
+  "tcs": {
+   "relAdd": [
+    "glp1_adicciones"
+   ]
+  },
+  "bupropion": {
+   "relAdd": [
+    "naltrexona_bupropion"
+   ]
+  },
+  "bupropion_tab": {
+   "relAdd": [
+    "naltrexona_bupropion"
+   ]
+  },
+  "bul": {
+   "relAdd": [
+    "naltrexona_bupropion"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "solriamfetol",
+   "n": "Solriamfetol (Sunosi)",
+   "ab": "Solriamfetol",
+   "al": [
+    "Sunosi",
+    "solriamfetol",
+    "JZP-110",
+    "inhibidor de la recaptación de dopamina y noradrenalina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2019,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Promotor de la vigilia del grupo de los simpaticomiméticos de acción central (ATC N06BA14). Ficha técnica AEMPS-CIMA de referencia: Sunosi 75 mg y 150 mg comprimidos recubiertos con película (n.º registro 1191408002 y 1191408007), autorizado por procedimiento centralizado, comercializado y con calificación de diagnóstico hospitalario. Indicaciones literales (4.1): «mejorar la vigilia y reducir la somnolencia diurna excesiva (SDE) en pacientes adultos con narcolepsia (con o sin cataplexia)» y en adultos con apnea obstructiva del sueño «cuya SDE no ha sido tratada satisfactoriamente con un tratamiento principal para la AOS, como la presión respiratoria positiva continua en la vía aérea (CPAP)». No trata la cataplejía ni sustituye a la CPAP. Su eficacia se apoya en los ensayos de fase 3 TONES 2 (narcolepsia; Thorpy 2019) y TONES 3 (apnea; Schweitzer 2019).",
+   "feats": [
+    "Mecanismo (5.1): no caracterizado por completo; su eficacia «podría estar mediada por su actividad como inhibidor de la recaptación de dopamina y norepinefrina (noradrenalina)», sin afinidad apreciable por el transportador de serotonina (ficha de Sunosi).",
+    "Contraindicaciones (4.3): infarto de miocardio en el último año, angina inestable, hipertensión no controlada, arritmias graves y otros problemas cardiacos graves; uso de IMAO o en los 14 días posteriores a su suspensión (ficha de Sunosi).",
+    "Presión arterial y frecuencia cardiaca (4.4): aumento dependiente de la dosis de la presión sistólica y diastólica y de la frecuencia cardiaca; mayor riesgo en la insuficiencia renal moderada o grave por la semivida prolongada (ficha de Sunosi).",
+    "Síntomas psiquiátricos (4.4): no evaluado en psicosis ni en trastorno bipolar; posible exacerbación (p. ej., episodios maníacos); ansiedad, insomnio e irritabilidad frecuentes al inicio, que tienden a remitir (ficha de Sunosi).",
+    "Abuso (4.4): bajo potencial en el estudio específico en humanos, con puntuaciones de efecto placentero superiores a placebo pero similares o inferiores a las de la fentermina; precaución y vigilancia en personas con antecedentes de abuso de estimulantes o de alcohol (ficha de Sunosi).",
+    "TONES 2 (narcolepsia, 236 pacientes, 12 semanas): mejoría significativa de la latencia en el test de mantenimiento de la vigilia y de la escala de Epworth frente a placebo; efectos adversos más frecuentes: cefalea, náuseas, disminución del apetito, sequedad de boca y ansiedad (Thorpy 2019).",
+    "Embarazo y anticoncepción (4.4, 4.6): no se recomienda en el embarazo ni en mujeres en edad fértil sin anticoncepción eficaz; también glaucoma de ángulo cerrado por posible midriasis (ficha de Sunosi)."
+   ],
+   "tx": "Opción para la somnolencia diurna excesiva de la narcolepsia en adultos, recomendada con fuerza por las guías de la AASM y de la EAN/ESRS/EU-NN junto a modafinilo, pitolisant y oxibato sódico; no trata la cataplejía. En la apnea obstructiva, solo cuando persiste la somnolencia pese al tratamiento principal optimizado. Antes de iniciar: presión arterial, frecuencia cardiaca, función renal, antecedentes cardiovasculares, psiquiátricos y de consumo de estimulantes o alcohol, y fármacos concomitantes. Condiciones de uso según la ficha técnica AEMPS-CIMA.",
+   "note": "La evidencia procede sobre todo de ensayos de 12 semanas financiados por el laboratorio y en población muy seleccionada; los datos de seguridad cardiovascular a largo plazo son limitados (la propia ficha se apoya en datos epidemiológicos indirectos sobre la presión arterial). No se han localizado estudios en personas con trastornos por consumo de estimulantes ni en contextos de chemsex.",
+   "sec": [
+    {
+     "t": "Lugar en las guías y diferencias con la ficha",
+     "x": "La guía de la American Academy of Sleep Medicine (GRADE) recomienda con fuerza el solriamfetol para la narcolepsia en adultos, al mismo nivel que modafinilo, pitolisant y oxibato sódico (Maski 2021). La guía europea de la EAN, la ESRS y la European Narcolepsy Network lo incluye entre las recomendaciones fuertes para la somnolencia diurna excesiva del adulto, pero no para la cataplejía, para la que propone oxibato sódico, venlafaxina y clomipramina (Bassetti 2021). En la apnea obstructiva, la evaluación de tecnologías del NICE (TA777, 2022) no recomienda el solriamfetol, dentro de su autorización, para la somnolencia residual pese al tratamiento principal, aunque la ficha española sí recoge esa indicación. No se ha localizado un posicionamiento específico de CANMAT, BAP, WFSBP ni de la Maudsley Prescribing Guidelines [fuente no localizada]. Un metaanálisis en red concluye que modafinilo/armodafinilo, oxibato sódico, pitolisant y solriamfetol son eficaces frente a placebo en la narcolepsia (Yan 2025).",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "cataplejia"
+       ],
+       "t": "narcolepsia y cataplejía"
+      },
+      {
+       "ids": [
+        "modafinilo",
+        "pitolisant",
+        "oxibato_sodico"
+       ],
+       "t": "otros promotores de la vigilia"
+      },
+      {
+       "ids": [
+        "apnea"
+       ],
+       "t": "somnolencia residual en apnea"
+      }
+     ]
+    },
+    {
+     "t": "Ensayos pivotales",
+     "x": "En TONES 2 (Thorpy 2019), 236 adultos con narcolepsia, con o sin cataplejía, fueron aleatorizados a solriamfetol o placebo durante 12 semanas; las dos dosis superiores cumplieron ambas variables coprincipales (latencia en el test de mantenimiento de la vigilia y escala de somnolencia de Epworth), y el 78,2-84,7 % de quienes las recibieron refirió mejoría global frente al 39,7 % con placebo. En TONES 3 (Schweitzer 2019), 476 adultos con apnea obstructiva y somnolencia excesiva pese al tratamiento actual o previo de la apnea mostraron mejoría dependiente de la dosis en ambas variables coprincipales desde la primera semana; hubo acontecimientos adversos en el 67,9 % con solriamfetol y el 47,9 % con placebo, sobre todo cefalea, náuseas, disminución del apetito y ansiedad. Ambos ensayos fueron financiados por el laboratorio promotor y no evaluaron resultados a largo plazo.",
+     "links": [
+      {
+       "ids": [
+        "nar"
+       ],
+       "t": "narcolepsia"
+      },
+      {
+       "ids": [
+        "apnea"
+       ],
+       "t": "apnea obstructiva del sueño"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones y consumo de sustancias",
+     "x": "La ficha de Sunosi (4.5) indica que no se han realizado estudios de interacciones; contraindica los IMAO por riesgo de reacción hipertensiva, pide precaución con fármacos que aumentan la presión arterial o la frecuencia cardiaca y con los que aumentan la dopamina o se unen a sus receptores, por posibles interacciones farmacodinámicas. En la práctica, esto incluye a metilfenidato, lisdexanfetamina y bupropión [fuente no localizada para datos clínicos de la combinación]. El consumo simultáneo de metanfetamina, catinonas o cocaína, frecuente en el chemsex, sumaría carga simpaticomimética y dopaminérgica [fuente no localizada]; la ficha exige precaución y vigilancia de uso indebido en personas con antecedentes de abuso de estimulantes. Según el apartado 5.2, se metaboliza mínimamente, se excreta sobre todo sin alterar en la orina (en torno al 95 % de la dosis), no es sustrato, inhibidor relevante ni inductor de las principales enzimas CYP y es «poco probable» que se produzcan interacciones farmacocinéticas clínicamente relevantes, lo que lo distingue del modafinilo y del pitolisant ante antirretrovirales y anticonceptivos hormonales.",
+     "links": [
+      {
+       "ids": [
+        "metanf",
+        "catinonas_nuevas",
+        "cocaina"
+       ],
+       "t": "estimulantes de uso recreativo"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "estim_monoam",
+        "estim_seguridad"
+       ],
+       "t": "transportadores de monoaminas y seguridad de estimulantes"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Thorpy MJ et al. (2019). A randomized study of solriamfetol for excessive sleepiness in narcolepsy. Ann Neurol 85:359-370 · PMID 30694576",
+    "Schweitzer PK et al. (2019). Solriamfetol for excessive sleepiness in obstructive sleep apnea (TONES 3). A randomized controlled trial. Am J Respir Crit Care Med 199:1421-1431 · PMID 30521757",
+    "Maski K et al. (2021). Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 17:1881-1893 · PMID 34743789",
+    "Bassetti CLA et al. (2021). European guideline and expert statements on the management of narcolepsy in adults and children. Eur J Neurol 28:2815-2830 · PMID 34173695",
+    "Yan Z et al. (2025). Comparative efficacy of new wake-promoting agents for narcolepsy-a network meta-analysis. BMC Neurol 25:466 · PMID 41233821",
+    "NICE (2022). Solriamfetol for treating excessive daytime sleepiness caused by obstructive sleep apnoea. Technology appraisal guidance TA777",
+    "AEMPS-CIMA (2026). Ficha técnica Sunosi 75 mg y 150 mg comprimidos recubiertos con película (solriamfetol; n.º registro 1191408002 y 1191408007; autorización centralizada EMA), apartados 4.1, 4.3, 4.4, 4.5, 4.6, 5.1 y 5.2; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "nar",
+    "cataplejia",
+    "hips_idiop",
+    "apnea",
+    "modafinilo",
+    "estim_monoam",
+    "estim_seguridad",
+    "metanf",
+    "chemsex_s",
+    "tb1"
+   ]
+  },
+  {
+   "id": "pitolisant",
+   "n": "Pitolisant (Wakix)",
+   "ab": "Pitolisant",
+   "al": [
+    "Wakix",
+    "pitolisant",
+    "BF2.649",
+    "antagonista/agonista inverso H3"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2016,
+   "tags": [
+    "risk",
+    "child"
+   ],
+   "desc": "Antagonista/agonista inverso de los receptores H3 de la histamina (ATC N07XX11). Ficha técnica AEMPS-CIMA de referencia: Wakix 4,5 mg y 18 mg comprimidos recubiertos con película (n.º registro 1151068001 y 1151068002), autorizado por procedimiento centralizado, comercializado y con calificación de diagnóstico hospitalario. Indicación literal (4.1): «tratamiento de la narcolepsia con o sin cataplejía en adultos, adolescentes y niños mayores de 6 años de edad». A diferencia del modafinilo y del solriamfetol, actúa sobre la somnolencia y sobre la cataplejía, y la ficha le atribuye ausencia o bajo potencial de abuso. Los ensayos HARMONY I (Dauvilliers 2013) y HARMONY CTP (Szakacs 2017) sustentan su eficacia en somnolencia y cataplejía, respectivamente.",
+   "feats": [
+    "Mecanismo (5.1): al bloquear los autorreceptores H3 aumenta la actividad de las neuronas histaminérgicas y la liberación de acetilcolina, noradrenalina y dopamina, pero no se ha observado aumento de dopamina en el complejo estriatal que incluye el núcleo accumbens (ficha de Wakix).",
+    "Contraindicaciones (4.3): insuficiencia hepática grave (Child-Pugh C) y lactancia, además de hipersensibilidad (ficha de Wakix).",
+    "Trastornos psiquiátricos (4.4): precaución con antecedentes de ansiedad grave o depresión grave con riesgo de ideas de suicidio; se han notificado ideas de suicidio en pacientes con antecedentes psiquiátricos (ficha de Wakix).",
+    "QT y epilepsia (4.4): prolongación leve a moderada del QTc con dosis supraterapéuticas; vigilancia con otros fármacos que prolongan el QT, insuficiencia renal grave o hepática moderada; precaución en la epilepsia grave (ficha de Wakix).",
+    "Anticoncepción (4.4-4.6): puede reducir la eficacia de los anticonceptivos hormonales; método eficaz no hormonal durante el tratamiento y al menos 21 días después (ficha de Wakix).",
+    "HARMONY CTP (106 adultos con narcolepsia y cataplejía, 7 semanas): reducción de la tasa semanal de cataplejía del 75 % con pitolisant frente al 38 % con placebo (razón de tasas 0,512); sin síndrome de retirada (Szakacs 2017).",
+    "Trastornos digestivos y de la nutrición (4.4): precaución con trastornos ligados a la secreción ácida, con AINE o corticoides, y en la obesidad grave o la anorexia grave; reconsiderar ante pérdida de peso importante (ficha de Wakix)."
+   ],
+   "tx": "Opción para la somnolencia diurna excesiva de la narcolepsia (recomendación fuerte de la AASM y de la guía europea) y, con recomendación débil en la guía europea, para la cataplejía del adulto; en niños figura como recomendación débil para la somnolencia. Revisar antes antecedentes psiquiátricos y suicidas, ECG si hay cardiopatía o fármacos que prolongan el QT, función hepática y renal, anticoncepción e interacciones (antidepresivos con acción antihistamínica, inhibidores de CYP2D6, inductores de CYP3A4). Condiciones de uso según la ficha técnica AEMPS-CIMA.",
+   "note": "Ensayos breves (7-8 semanas), con muestras pequeñas y financiados por el laboratorio; el segundo ensayo de somnolencia (HARMONY Ibis), según la ficha, no mostró diferencia significativa en la escala de Epworth en el análisis más conservador. Frente a modafinilo no se demostró no inferioridad (Dauvilliers 2013). No se han localizado datos específicos en trastornos por consumo de sustancias ni en chemsex.",
+   "sec": [
+    {
+     "t": "Evidencia de ensayos y lugar en las guías",
+     "x": "En HARMONY I (Dauvilliers 2013), 95 adultos con narcolepsia fueron aleatorizados a pitolisant, modafinilo o placebo durante 8 semanas: el pitolisant fue superior al placebo en la escala de Epworth (diferencia -3,0; IC 95 % -5,6 a -0,4), pero no demostró no inferioridad frente al modafinilo, con buena tolerancia. En HARMONY CTP (Szakacs 2017), redujo la tasa semanal de cataplejía frente a placebo (razón de tasas 0,512; IC 95 % 0,43-0,60), con efectos adversos más frecuentes (cefalea, irritabilidad, ansiedad y náuseas). La guía de la AASM recomienda con fuerza el pitolisant en la narcolepsia del adulto y lo sugiere de forma condicional en la hipersomnia idiopática (Maski 2021); la guía europea lo recomienda con fuerza para la somnolencia del adulto y de forma débil para la cataplejía y para la somnolencia en niños (Bassetti 2021). No se ha localizado un posicionamiento de NICE, CANMAT, BAP, WFSBP ni de la Maudsley Prescribing Guidelines [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "cataplejia",
+        "hips_idiop"
+       ],
+       "t": "narcolepsia, cataplejía e hipersomnia idiopática"
+      },
+      {
+       "ids": [
+        "modafinilo",
+        "solriamfetol",
+        "oxibato_sodico"
+       ],
+       "t": "alternativas en la narcolepsia"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones relevantes en psiquiatría",
+     "x": "La ficha de Wakix (4.5) advierte de que los antidepresivos tricíclicos o tetracíclicos con acción antagonista H1 (imipramina, clomipramina, mirtazapina) y los antihistamínicos H1 que atraviesan la barrera hematoencefálica (difenhidramina, doxilamina, prometazina, entre otros) pueden reducir su eficacia; la clomipramina, usada para la cataplejía, es un ejemplo de combinación que exige valorar esta interacción. La paroxetina duplicó la exposición a pitolisant, por lo que pide precaución con inhibidores de CYP2D6 como fluoxetina, venlafaxina, duloxetina o bupropión; los inductores potentes de CYP3A4 (carbamazepina, fenitoína, fenobarbital, hipérico) la reducen. A su vez, el pitolisant puede inducir CYP3A4 y CYP2B6: debe evitarse con sustratos de margen estrecho y con anticonceptivos orales, y vigilarse con efavirenz o bupropión. No se observaron interacciones farmacocinéticas relevantes con modafinilo ni con oxibato sódico.",
+     "links": [
+      {
+       "ids": [
+        "mirtazapina",
+        "clomipramina",
+        "hidroxizina"
+       ],
+       "t": "fármacos con acción antihistamínica H1"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "bupropion",
+        "venlafaxina"
+       ],
+       "t": "inhibición de CYP2D6"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "prolongación del QT"
+      }
+     ]
+    },
+    {
+     "t": "Potencial de abuso y consumo de sustancias",
+     "x": "La ficha de Wakix (4.4) recoge ausencia o bajo potencial de abuso en un estudio específico en humanos con dosis de hasta seis veces la terapéutica y en los ensayos de fase 3, y el apartado 5.1 señala que no aumenta la dopamina en el núcleo accumbens. Por ello puede ser una alternativa razonable a los promotores de la vigilia con acción dopaminérgica en personas con antecedentes de consumo de estimulantes, aunque no hay ensayos en esa población [fuente no localizada]. En personas con VIH que practican chemsex, la inducción de CYP3A4 y CYP2B6 obliga a revisar los antirretrovirales y otros tratamientos concomitantes con la ficha técnica y con una herramienta de interacciones especializada; la ficha menciona expresamente el efavirenz como sustrato de CYP2B6 que requiere control clínico. No se han localizado datos sobre su combinación con drogas de uso recreativo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "chemsex y antirretrovirales"
+      },
+      {
+       "ids": [
+        "metanf",
+        "estim_monoam",
+        "recompensa"
+       ],
+       "t": "dopamina y recompensa"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Dauvilliers Y et al. (2013). Pitolisant versus placebo or modafinil in patients with narcolepsy: a double-blind, randomised trial. Lancet Neurol 12:1068-1075 · PMID 24107292",
+    "Szakacs Z et al. (2017). Safety and efficacy of pitolisant on cataplexy in patients with narcolepsy: a randomised, double-blind, placebo-controlled trial. Lancet Neurol 16:200-207 · PMID 28129985",
+    "Maski K et al. (2021). Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 17:1881-1893 · PMID 34743789",
+    "Bassetti CLA et al. (2021). European guideline and expert statements on the management of narcolepsy in adults and children. Eur J Neurol 28:2815-2830 · PMID 34173695",
+    "Yan Z et al. (2025). Comparative efficacy of new wake-promoting agents for narcolepsy-a network meta-analysis. BMC Neurol 25:466 · PMID 41233821",
+    "AEMPS-CIMA (2026). Ficha técnica Wakix 4,5 mg y 18 mg comprimidos recubiertos con película (pitolisant; n.º registro 1151068001 y 1151068002; autorización centralizada EMA), apartados 4.1, 4.3, 4.4, 4.5, 4.6, 5.1 y 5.2; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "nar",
+    "cataplejia",
+    "hips_idiop",
+    "modafinilo",
+    "clomipramina",
+    "mirtazapina",
+    "cyp2d6",
+    "qt_psicof",
+    "chemsex_arv",
+    "ideac_suic"
+   ]
+  },
+  {
+   "id": "oxibato_sodico",
+   "n": "Oxibato sódico (Xyrem) como medicamento",
+   "ab": "Oxibato sódico",
+   "al": [
+    "Xyrem",
+    "oxibato de sodio",
+    "sodium oxybate",
+    "GHB farmacéutico",
+    "Alcover"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2005,
+   "tags": [
+    "chemsex",
+    "risk",
+    "forense",
+    "child"
+   ],
+   "desc": "Sal sódica del ácido gamma-hidroxibutírico (GHB), depresor del sistema nervioso central (ATC N07XX04). Ficha técnica AEMPS-CIMA de referencia: Xyrem 500 mg/ml solución oral (n.º registro 05312001), autorizado por procedimiento centralizado y comercializado; CIMA recoge además genéricos comercializados (Oxibato de sodio Normon, n.º 84433; Zentiva, n.º 85567; Oxibato sódico Sala, n.º 84432). Todos figuran con la condición «Uso Hospitalario. Psicótropos». Indicación literal (4.1): «Tratamiento de la narcolepsia con cataplejía en pacientes adultos, adolescentes y niños a partir de 7 años de edad». Su mecanismo exacto no se conoce; parece consolidar el sueño nocturno y promover el sueño de ondas lentas (5.1). Esta ficha trata el uso médico; el consumo no médico de GHB/GBL, su intoxicación y su abstinencia se desarrollan en los nodos específicos.",
+   "feats": [
+    "Contraindicaciones (4.3): depresión grave, déficit de succinato-semialdehído-deshidrogenasa y tratamiento con opioides o barbitúricos, además de hipersensibilidad (ficha de Xyrem).",
+    "Depresión respiratoria y del SNC (4.4): evaluar apnea del sueño antes de iniciar (más del 50 % de las personas con narcolepsia presentan apneas); vigilancia con IMC de 40 kg/m² o más; evitar benzodiacepinas y advertir contra el alcohol y otros depresores (ficha de Xyrem).",
+    "Interacciones metabólicas (4.4-4.5): el valproato aumentó la exposición al oxibato en torno a un 25 % con más somnolencia y alteración cognitiva; se han notificado coma y aumento de GHB plasmático con topiramato, por lo que no deben combinarse (ficha de Xyrem).",
+    "Abuso y dependencia (4.4): principio activo con «conocido potencial de abuso»; revisar antecedentes o predisposición al consumo de drogas antes de iniciar, vigilar de forma rutinaria e interrumpir si se sospecha abuso; dependencia descrita tras uso ilícito de GHB a dosis muy superiores a las terapéuticas (ficha de Xyrem).",
+    "Efectos neuropsiquiátricos (4.4): confusión, ansiedad, psicosis, paranoia, alucinaciones, agitación, pensamientos de actos violentos y depresión; vigilancia de depresión e ideación suicida si hay antecedentes afectivos, intentos de suicidio o psicosis; sonambulismo con riesgo de lesiones (ficha de Xyrem).",
+    "Otras advertencias (4.4, 4.6): alto contenido en sodio (relevante en hipertensión, insuficiencia cardiaca o renal), porfiria, epilepsia (no recomendado), embarazo (no recomendado) y lactancia (no debe usarse) (ficha de Xyrem).",
+    "Ensayo de retirada (55 personas con cataplejía tratadas una media de 21 meses): la suspensión brusca aumentó las crisis de cataplejía sin síntomas francos de abstinencia ni rebote (U.S. Xyrem Multicenter Study Group 2004)."
+   ],
+   "tx": "Tratamiento de referencia de la cataplejía en la narcolepsia según la guía europea (recomendación fuerte para la cataplejía y la somnolencia en adultos y niños) y recomendado con fuerza por la AASM en la narcolepsia del adulto. Prescripción por especialistas en medicina del sueño, cribado de apnea, de depresión grave y de consumo de alcohol, opioides, benzodiacepinas y otras drogas, revisión de valproato y topiramato, información a la persona y a su entorno sobre la depresión respiratoria y custodia segura del medicamento. Condiciones de uso según la ficha técnica AEMPS-CIMA.",
+   "note": "Ninguna indicación en España para el trastorno por consumo de alcohol; los ensayos en alcohol proceden en su mayoría de Italia, con heterogeneidad y resultados discordantes frente a placebo. El riesgo de desvío y de uso no médico es inherente al principio activo; la ficha no cuantifica el riesgo de dependencia a dosis terapéuticas y advierte de que no puede excluirse. El uso de GHB farmacéutico para la desintoxicación de la dependencia de GHB/GBL es fuera de ficha y se trata en el nodo de abstinencia.",
+   "sec": [
+    {
+     "t": "Evidencia en la narcolepsia y lugar en las guías",
+     "x": "En un ensayo multicéntrico aleatorizado de 4 semanas en 136 personas con narcolepsia y cataplejía, el oxibato redujo las crisis semanales de cataplejía y la somnolencia (escala de Epworth) con efecto dependiente de la dosis, significativo en la dosis más alta; los efectos adversos más frecuentes fueron náuseas, cefalea, mareo y enuresis (U.S. Xyrem Multicenter Study Group 2002). Un ensayo de retirada confirmó la eficacia mantenida sobre la cataplejía sin rebote tras la suspensión brusca (U.S. Xyrem Multicenter Study Group 2004). La guía europea lo recomienda con fuerza para la somnolencia y la cataplejía del adulto y del niño (Bassetti 2021) y la AASM con fuerza en la narcolepsia del adulto y de forma condicional en la hipersomnia idiopática y en la narcolepsia pediátrica (Maski 2021). La ficha española limita la indicación a la narcolepsia con cataplejía. Más del 80 % de los participantes en los ensayos recibía estimulantes de forma concomitante (5.1).",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "cataplejia",
+        "hips_idiop"
+       ],
+       "t": "narcolepsia, cataplejía e hipersomnia"
+      },
+      {
+       "ids": [
+        "modafinilo",
+        "pitolisant",
+        "solriamfetol"
+       ],
+       "t": "otros fármacos de la narcolepsia"
+      },
+      {
+       "ids": [
+        "clomipramina",
+        "venlafaxina"
+       ],
+       "t": "antidepresivos en la cataplejía"
+      }
+     ]
+    },
+    {
+     "t": "Usos en el alcohol en otros países de la UE",
+     "x": "El oxibato sódico está autorizado para el alcohol en Italia y en Austria (Testino 2014), pero no en España, donde CIMA solo recoge la indicación en la narcolepsia con cataplejía. La revisión Cochrane de 13 ensayos, once de ellos italianos, concluyó que es eficaz frente a placebo en la abstinencia alcohólica y en la prevención de recaídas a 3 meses, sin pruebas suficientes de superioridad frente a benzodiacepinas o clormetiazol, y alertó del riesgo de adicción y uso indebido, sobre todo en personas con policonsumo (Leone 2010). En un ensayo europeo de 314 pacientes desintoxicados, financiado por el laboratorio, aumentó la duración acumulada de abstinencia a 6 meses (diferencia de 43,1 días en el análisis preespecificado y 32,4 días en el metaanálisis por centros, con heterogeneidad entre centros) (Guiraud 2022); un metaanálisis posterior de tratamientos de más de 12 semanas no halló superioridad frente a placebo en la abstinencia, aunque sí frente a naltrexona (Biso 2025). La Comisión Europea denegó en 2020 la autorización de Hopveus (oxibato sódico) y el Tribunal de Justicia anuló esa decisión en marzo de 2024, por lo que la EMA está aplicando la sentencia (EMA, consulta de 2026).",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "dt_alc"
+       ],
+       "t": "alcohol y abstinencia alcohólica"
+      },
+      {
+       "ids": [
+        "naltrexona",
+        "acamprosato",
+        "nalmefeno",
+        "baclofeno"
+       ],
+       "t": "fármacos autorizados o usados en el alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Control, desvío, chemsex y ámbito forense",
+     "x": "El oxibato sódico es el mismo principio activo que el GHB de uso recreativo, al que se convierten la GBL y el 1,4-butanodiol; el consumo no médico, la intoxicación, la dependencia y la abstinencia se desarrollan en las fichas de GHB/GBL. En España se dispensa con la condición de uso hospitalario y como psicótropo (CIMA), con materiales de formación para profesionales y pacientes (4.4); los detalles del régimen de control de psicótropos aplicable no se han contrastado en una fuente primaria [fuente oficial no localizada]. Antes de prescribirlo, la ficha exige explorar antecedentes de consumo de drogas; en personas que practican chemsex o han usado GHB/GBL, el riesgo de uso indebido, de combinación con alcohol, benzodiacepinas, ketamina u opioides y de desvío hacia terceros justifica una valoración especializada [fuente no localizada]. Su efecto depresor y su breve ventana de detección lo relacionan con la sumisión química, en la que la procedencia farmacéutica o ilícita del GHB no puede deducirse solo del análisis [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "ghb_abst"
+       ],
+       "t": "GHB/GBL de uso no médico"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "sdu",
+        "red_danos"
+       ],
+       "t": "chemsex y reducción de daños"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "sumisión química"
+      },
+      {
+       "ids": [
+        "ansiol_bzd",
+        "topiramato",
+        "vpa_bip"
+       ],
+       "t": "interacciones de riesgo"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "U.S. Xyrem Multicenter Study Group (2002). A randomized, double blind, placebo-controlled multicenter trial comparing the effects of three doses of orally administered sodium oxybate with placebo for the treatment of narcolepsy. Sleep 25:42-49 · PMID 11833860",
+    "U.S. Xyrem Multicenter Study Group (2004). Sodium oxybate demonstrates long-term efficacy for the treatment of cataplexy in patients with narcolepsy. Sleep Med 5:119-123 · PMID 15033130",
+    "Bassetti CLA et al. (2021). European guideline and expert statements on the management of narcolepsy in adults and children. Eur J Neurol 28:2815-2830 · PMID 34173695",
+    "Maski K et al. (2021). Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 17:1881-1893 · PMID 34743789",
+    "Leone MA et al. (2010). Gamma-hydroxybutyrate (GHB) for treatment of alcohol withdrawal and prevention of relapses. Cochrane Database Syst Rev 2010:CD006266 · PMID 20166080",
+    "Guiraud J et al. (2022). Sodium oxybate for the maintenance of abstinence in alcohol-dependent patients: an international, multicenter, randomized, double-blind, placebo-controlled trial. J Psychopharmacol 36:1136-1145 · PMID 35796481",
+    "Biso L et al. (2025). Long-term efficacy and safety of sodium oxybate in treating alcohol use disorder: a systematic review and meta-analysis. Curr Neuropharmacol 23:579-593 · PMID 39225220",
+    "Testino G, Leone S & Borro P (2014). Treatment of alcohol dependence: recent progress and reduction of consumption. Minerva Med 105:447-466 · PMID 25392958",
+    "European Medicines Agency (2026). Hopveus: página del medicamento (denegación de 2020 anulada por el Tribunal de Justicia, asunto C-291/22 P, 14 de marzo de 2024); consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica Xyrem 500 mg/ml solución oral (oxibato de sodio; n.º registro 05312001; autorización centralizada EMA), apartados 4.1, 4.3, 4.4, 4.5, 4.6 y 5.1; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Registros de Oxibato de sodio Normon 500 mg/ml solución oral EFG (n.º 84433), Oxibato de sodio Zentiva 500 mg/ml (n.º 85567) y Oxibato sódico Sala 500 mg/ml (n.º 84432): condición de prescripción «Uso Hospitalario. Psicótropos»; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "nar",
+    "cataplejia",
+    "ghb_gbl",
+    "ghb_abst",
+    "alcohol",
+    "chemsex_s",
+    "sumision_q",
+    "modafinilo",
+    "ansiol_bzd",
+    "topiramato",
+    "vpa_bip",
+    "parasomn"
+   ]
+  },
+  {
+   "id": "naltrexona_bupropion",
+   "n": "Naltrexona/bupropión (Mysimba) en la obesidad",
+   "ab": "Naltrexona/bupropión",
+   "al": [
+    "Mysimba",
+    "Contrave",
+    "naltrexone-bupropion",
+    "NB32"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2015,
+   "tags": [
+    "risk",
+    "chr"
+   ],
+   "desc": "Combinación a dosis fija de un antagonista opioide μ y de un inhibidor débil de la recaptación de dopamina y noradrenalina en comprimidos de liberación prolongada (ATC A08AA62). Ficha técnica AEMPS-CIMA de referencia: Mysimba 8 mg/90 mg comprimidos de liberación prolongada (n.º registro 114988001), autorizado por procedimiento centralizado y que figura en CIMA como no comercializado. Indicación (4.1): «coadyuvante de una dieta baja en calorías y un aumento de la actividad física para el control del peso en pacientes adultos (≥ 18 años)» con IMC inicial de 30 kg/m² o más, o de 27 a menos de 30 kg/m² con una o más enfermedades concomitantes relacionadas con el peso; debe interrumpirse a las 16 semanas si no se ha perdido al menos un 5 % del peso inicial. No tiene indicación psiquiátrica. Interesa en salud mental por sus contraindicaciones y advertencias, que recogen las de sus dos componentes.",
+   "feats": [
+    "Mecanismo (5.1): el bupropión estimula las neuronas POMC del núcleo arcuato del hipotálamo y la naltrexona bloquea el circuito de autorregulación negativa mediado por la β-endorfina; también actúa sobre el sistema dopaminérgico mesolímbico de recompensa (ficha de Mysimba).",
+    "Contraindicaciones psiquiátricas y neurológicas (4.3): antecedentes de trastorno bipolar, bulimia o anorexia nerviosas actuales o previas, convulsiones actuales o previas, abstinencia de alcohol o benzodiacepinas, dependencia de opiáceos o tratamiento con agonistas como metadona, e IMAO en los 14 días previos (ficha de Mysimba).",
+    "Suicidio (4.4): sin intentos de suicidio en los ensayos de hasta 56 semanas, pero acontecimientos suicidas, incluida la ideación, notificados tras la comercialización; vigilancia estrecha al inicio y tras cambios de dosis (ficha de Mysimba).",
+    "Crisis epilépticas (4.4): incidencia del 0,06 % en los ensayos; extremar la precaución con traumatismo craneoencefálico, consumo excesivo de alcohol, adicción a la cocaína o a estimulantes y fármacos que bajan el umbral (antipsicóticos, antidepresivos, tramadol, entre otros) (ficha de Mysimba).",
+    "Opioides (4.4-4.5): reduce el efecto de analgésicos, antitusivos y antidiarreicos opioides; intentar superar el bloqueo puede causar una intoxicación mortal y, tras suspenderlo, aumenta la sensibilidad a dosis menores (ficha de Mysimba).",
+    "Síndrome serotoninérgico y manía (4.4): casos poscomercialización con ISRS o IRSN; precaución con antecedentes de manía (ficha de Mysimba).",
+    "COR-I (1742 adultos, 56 semanas): pérdida de peso media del 6,1 % frente al 1,3 % con placebo y pérdida de al menos un 5 % en el 48 % frente al 16 %; náuseas en cerca del 30 %; sin aumento de depresión ni de suicidalidad frente a placebo (Greenway 2010)."
+   ],
+   "tx": "Opción farmacológica de segunda línea para el control del peso en adultos con obesidad o sobrepeso con comorbilidad, siempre unida a dieta y actividad física y con regla de suspensión a las 16 semanas. No se recomienda en personas con trastorno bipolar, trastornos de la conducta alimentaria restrictivos o purgativos, epilepsia, consumo de opioides o abstinencia de alcohol o sedantes. Antes de iniciar: presión arterial y pulso, cribado de suicidio y de consumo de sustancias, revisión de antidepresivos, antipsicóticos y antirretrovirales, y función renal y hepática. Condiciones de uso según la ficha técnica AEMPS-CIMA.",
+   "note": "Medicamento autorizado en la UE pero no comercializado en España según CIMA, por lo que su uso real aquí es excepcional. Los ensayos excluyeron a personas con depresión activa o tratamiento antidepresivo y tuvieron abandonos de alrededor del 50 %; no hay ensayos en la obesidad asociada a antipsicóticos. La combinación usada en el ensayo ADAPT-2 para la metanfetamina era naltrexona inyectable con bupropión oral, no Mysimba.",
+   "sec": [
+    {
+     "t": "Eficacia y lugar en las guías",
+     "x": "En COR-I (Greenway 2010), 1742 adultos con obesidad o sobrepeso con dislipemia o hipertensión recibieron la combinación o placebo durante 56 semanas junto con dieta y ejercicio: la pérdida de peso fue del 6,1 % con la dosis completa frente al 1,3 % con placebo, con náuseas, cefalea, estreñimiento, mareo, vómitos y sequedad de boca más frecuentes; solo la mitad completó el tratamiento. En el metaanálisis en red de Khera et al. (2016; 28 ensayos, 29 018 pacientes), la naltrexona/bupropión logró un exceso de pérdida de peso de 5,0 kg frente a placebo al año, inferior al de fentermina/topiramato y liraglutida, y junto con la liraglutida tuvo la mayor probabilidad de abandono por efectos adversos; la calidad de la evidencia se vio limitada por abandonos del 30-45 %. La evaluación del NICE (TA494, 2017) no recomienda la naltrexona/bupropión para el control del sobrepeso y la obesidad dentro de su autorización. No se ha localizado un posicionamiento de CANMAT, BAP, WFSBP ni de la Maudsley Prescribing Guidelines sobre su uso en personas con trastornos mentales [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "peso_psicof",
+        "inmunometab_dep"
+       ],
+       "t": "peso, metabolismo y salud mental"
+      },
+      {
+       "ids": [
+        "glp1_adicciones"
+       ],
+       "t": "agonistas GLP-1"
+      }
+     ]
+    },
+    {
+     "t": "Advertencias psiquiátricas de la ficha",
+     "x": "La ficha de Mysimba traslada a la obesidad las precauciones del bupropión y de la naltrexona. Contraindica la combinación en personas con antecedentes de trastorno bipolar o con bulimia o anorexia nerviosas actuales o previas, lo que obliga a explorar conductas alimentarias purgativas y restrictivas antes de prescribirla en la consulta de obesidad. Recoge acontecimientos suicidas poscomercialización en todas las edades, casos de activación de la manía con fármacos similares, síndrome serotoninérgico con ISRS e IRSN y, entre las reacciones de frecuencia no conocida, depresión, paranoia, trastorno psicótico, agresión e ideación, intento y conducta suicidas (4.8). En el trastorno por atracón no tiene indicación [fuente no localizada para ensayos en esta población]. Su contenido en bupropión impide asociarla a otros medicamentos con bupropión, como el usado para la depresión o para dejar de fumar.",
+     "links": [
+      {
+       "ids": [
+        "tb1",
+        "anor",
+        "bul",
+        "bed"
+       ],
+       "t": "trastorno bipolar y trastornos alimentarios"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "sind_ser"
+       ],
+       "t": "suicidio y síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "bupropion",
+        "bupropion_tab",
+        "naltrexona"
+       ],
+       "t": "componentes por separado"
+      }
+     ]
+    },
+    {
+     "t": "Consumo de sustancias, chemsex e interacciones",
+     "x": "Está contraindicada en la dependencia actual de opiáceos, en el tratamiento con metadona u otros agonistas y en la abstinencia aguda de opiáceos, de alcohol o de benzodiacepinas; la ficha pide reducir al mínimo o evitar el alcohol y extremar la precaución con el consumo excesivo de alcohol o la adicción a la cocaína o a los estimulantes por el riesgo de convulsiones (4.3-4.4). En personas que practican chemsex, la metanfetamina, las catinonas y la cocaína se suman a ese riesgo [fuente no localizada para datos clínicos de la combinación], y el bloqueo opioide puede precipitar abstinencia o anular la analgesia. En cuanto a los antirretrovirales, el ritonavir (solo o con lopinavir) redujo la exposición al bupropión y sus metabolitos en un 20-80 % y el efavirenz en un 55 %, lo que puede restar eficacia; además, el bupropión inhibe CYP2D6 y cuadruplicó el AUC del metoprolol, con implicaciones para antidepresivos, antipsicóticos y betabloqueantes metabolizados por esa vía (4.5).",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "opioides y tratamiento agonista"
+      },
+      {
+       "ids": [
+        "metanf",
+        "cocaina",
+        "chemsex_s"
+       ],
+       "t": "estimulantes y chemsex"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "cyp2d6"
+       ],
+       "t": "antirretrovirales y CYP2D6"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Greenway FL et al. (2010). Effect of naltrexone plus bupropion on weight loss in overweight and obese adults (COR-I): a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial. Lancet 376:595-605 · PMID 20673995",
+    "Khera R et al. (2016). Association of pharmacological treatments for obesity with weight loss and adverse events: a systematic review and meta-analysis. JAMA 315:2424-2434 · PMID 27299618",
+    "NICE (2017). Naltrexone-bupropion for managing overweight and obesity. Technology appraisal guidance TA494",
+    "Trivedi MH et al. (2021). Bupropion and naltrexone in methamphetamine use disorder. N Engl J Med 384:140-153 · PMID 33497547",
+    "AEMPS-CIMA (2026). Ficha técnica Mysimba 8 mg/90 mg comprimidos de liberación prolongada (naltrexona/bupropión; n.º registro 114988001; autorización centralizada EMA; no comercializado), apartados 4.1, 4.3, 4.4, 4.5, 4.8 y 5.1; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "peso_psicof",
+    "bupropion",
+    "naltrexona",
+    "bupropion_tab",
+    "bed",
+    "bul",
+    "anor",
+    "tb1",
+    "ideac_suic",
+    "sind_ser",
+    "opioides",
+    "chemsex_arv"
+   ]
+  },
+  {
+   "id": "glp1_adicciones",
+   "n": "Agonistas del receptor GLP-1 (semaglutida, liraglutida) en los trastornos por consumo de sustancias",
+   "ab": "GLP-1 en adicciones",
+   "al": [
+    "semaglutida",
+    "liraglutida",
+    "exenatida",
+    "Ozempic",
+    "Wegovy",
+    "Saxenda",
+    "GLP-1RA",
+    "agonistas GLP-1 y alcohol"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 2022,
+   "tags": [],
+   "desc": "Uso en investigación de agonistas del receptor del péptido similar al glucagón de tipo 1 en los trastornos por consumo de alcohol y de otras sustancias. Ninguno tiene esta indicación autorizada: en CIMA, la semaglutida está indicada en la diabetes mellitus tipo 2 (Ozempic, n.º registro 1171251005, entre otras presentaciones) y en el control del peso con obesidad o sobrepeso con comorbilidad (Wegovy, n.º registro 1211608010, entre otras), y la liraglutida en el control del peso (Saxenda, n.º registro 115992002), todos con dieta y actividad física (4.1). La hipótesis se apoya en datos preclínicos sobre recompensa y estrés, en estudios observacionales con reducciones de la incidencia, la recurrencia y las hospitalizaciones por alcohol, y en los primeros ensayos aleatorizados, pequeños y con resultados mixtos: la exenatida no redujo los días de consumo intenso (Klausen 2022) y la semaglutida a dosis bajas redujo el consumo en laboratorio y el deseo de beber (Hendershot 2025).",
+   "feats": [
+    "Ficha de Wegovy (5.1): la semaglutida actúa en áreas cerebrales de regulación homeostática de la ingesta (hipotálamo y tronco encefálico) y «puede afectar al sistema hedónico de recompensa» a través del septo, el tálamo y la amígdala; reduce el ansia de comer (ficha técnica AEMPS-CIMA de Wegovy).",
+    "Preclínica: los agonistas GLP-1 reducen el consumo de alcohol y de otras sustancias en modelos animales, con mecanismos propuestos sobre recompensa, estrés, cognición, saciedad y motilidad gástrica; la evidencia clínica es más limitada y menos concluyente (Bruns VI 2024).",
+    "Ensayo con exenatida (127 pacientes con trastorno por consumo de alcohol, 26 semanas, junto con terapia cognitivo-conductual): sin reducción significativa de los días de consumo intenso; menor reactividad a señales de alcohol en el estriado ventral y beneficio exploratorio en el subgrupo con IMC mayor de 30 (Klausen 2022).",
+    "Ensayo de fase 2 con semaglutida (48 adultos no demandantes de tratamiento, 9 semanas): menor consumo en la autoadministración de laboratorio, menos bebidas por día de consumo y menos deseo semanal, sin cambios en las bebidas por día natural ni en los días de consumo (Hendershot 2025).",
+    "Cohorte sueca (227 866 personas con trastorno por consumo de alcohol): el uso de semaglutida (HR ajustado 0,64) y de liraglutida (0,72) se asoció a menos hospitalizaciones por alcohol que los periodos sin uso, sin asociación con intentos de suicidio (Lähteenvuo 2025).",
+    "Historias clínicas electrónicas (83 825 personas con obesidad): la semaglutida se asoció a un riesgo un 50-56 % menor de incidencia y de recurrencia del trastorno por consumo de alcohol a 12 meses frente a otros antiobesidad (Wang 2024); diseño retrospectivo con riesgo de confusión residual."
+   ],
+   "tx": "Fuera de ensayo clínico, no debe prescribirse un agonista GLP-1 para tratar un trastorno por consumo de sustancias: su uso sería fuera de ficha y sin eficacia establecida. Los tratamientos autorizados (naltrexona, acamprosato, nalmefeno, disulfiram, vareniclina, citisina, agonistas opioides) y las intervenciones psicosociales siguen siendo la base. En personas con obesidad o diabetes tipo 2 que además presentan un trastorno por consumo, la indicación autorizada puede coexistir con un seguimiento del consumo, sin presentarlo como tratamiento de la adicción. Condiciones de uso según la ficha técnica AEMPS-CIMA del medicamento correspondiente.",
+   "note": "Evidencia temprana: los estudios observacionales no permiten inferir causalidad (sesgo de indicación, confusión por obesidad y diabetes) y los ensayos publicados son pequeños, breves y con variables principales negativas o de laboratorio. Faltan ensayos en cocaína, metanfetamina, opioides y en el chemsex; no se han localizado estudios en población LGTBIQ+. La pérdida de peso y los efectos gastrointestinales pueden ser problemáticos en personas con trastornos de la conducta alimentaria o con bajo peso por consumo de estimulantes [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Estado regulatorio y lugar en las guías",
+     "x": "Las fichas técnicas de CIMA consultadas limitan las indicaciones de la semaglutida a la diabetes tipo 2 (Ozempic) y al control del peso con obesidad o sobrepeso con comorbilidad (Wegovy), y las de la liraglutida al control del peso (Saxenda); Victoza (liraglutida para la diabetes) figura como no comercializado. No consta en CIMA ninguna indicación en trastornos por consumo de sustancias, y no se ha localizado una autorización de la EMA ni de la FDA para ese uso [fuente oficial no localizada]. Las guías de referencia en adicciones consultadas en el atlas (NICE CG115, BAP de Lingford-Hughes 2012) son anteriores a esta línea de investigación y no la recogen; no se ha localizado una recomendación de CANMAT, WFSBP ni de la Maudsley Prescribing Guidelines [fuente no localizada]. Para la ganancia ponderal por antipsicóticos, donde sí hay ensayos con liraglutida, véase la ficha correspondiente.",
+     "links": [
+      {
+       "ids": [
+        "peso_psicof"
+       ],
+       "t": "agonistas GLP-1 frente a la ganancia ponderal por antipsicóticos"
+      },
+      {
+       "ids": [
+        "ttos_adiccion",
+        "naltrexona",
+        "acamprosato",
+        "nalmefeno"
+       ],
+       "t": "tratamientos autorizados del alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia por sustancia",
+     "x": "Alcohol: es la sustancia más estudiada. Además del ensayo negativo en su variable principal con exenatida (Klausen 2022) y del ensayo de fase 2 con semaglutida (Hendershot 2025), dos grandes estudios observacionales asocian el uso de semaglutida con menor incidencia y recurrencia del trastorno (Wang 2024) y con menos hospitalizaciones por alcohol y por cualquier trastorno por consumo de sustancias, con un riesgo menor que el observado con los fármacos autorizados para el alcohol en esa cohorte (Lähteenvuo 2025); los autores de ambos piden ensayos que confirmen estos hallazgos. Tabaco: en el ensayo de Hendershot, la semaglutida se asoció a una mayor reducción de cigarrillos al día en el subgrupo de fumadores, como análisis secundario. Estimulantes, opioides y nicotina: la revisión IUPHAR señala datos preclínicos favorables y estudios clínicos escasos y poco concluyentes, con ensayos en marcha (Bruns VI 2024). No hay datos en GHB/GBL, ketamina ni en el uso sexualizado de drogas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "tabaco"
+       ],
+       "t": "alcohol y tabaco"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "metanf",
+        "opioides"
+       ],
+       "t": "estimulantes y opioides"
+      },
+      {
+       "ids": [
+        "recompensa",
+        "neuroadapt_adicc"
+       ],
+       "t": "recompensa y neurocircuitos de la adicción"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad relevante en salud mental y en el consumo",
+     "x": "Las fichas de Wegovy y Saxenda (4.4) advierten de aspiración pulmonar con anestesia general o sedación profunda por el retraso del vaciado gástrico, de deshidratación por efectos gastrointestinales con posible deterioro renal, de pancreatitis aguda y, en el caso de la semaglutida, de neuropatía óptica isquémica anterior no arterítica; los apartados 4.4 consultados no contienen advertencias psiquiátricas específicas. En la cohorte sueca no se observó asociación con intentos de suicidio (Lähteenvuo 2025). El riesgo de aspiración por retraso del vaciado gástrico podría ser relevante en intoxicaciones por depresores como el GHB o el alcohol con disminución de conciencia y vómitos, extrapolación no estudiada [fuente no localizada]. En personas con anorexia o bulimia nerviosas, o con pérdida de peso por consumo de estimulantes, la indicación de control de peso no procede y el uso no médico para adelgazar merece exploración clínica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "alcohol"
+       ],
+       "t": "depresores y riesgo de aspiración"
+      },
+      {
+       "ids": [
+        "anor",
+        "bul",
+        "bed"
+       ],
+       "t": "trastornos de la conducta alimentaria"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "conducta suicida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Klausen MK et al. (2022). Exenatide once weekly for alcohol use disorder investigated in a randomized, placebo-controlled clinical trial. JCI Insight 7:e159863 · PMID 36066977",
+    "Hendershot CS et al. (2025). Once-weekly semaglutide in adults with alcohol use disorder: a randomized clinical trial. JAMA Psychiatry 82:395-405 · PMID 39937469",
+    "Lähteenvuo M et al. (2025). Repurposing semaglutide and liraglutide for alcohol use disorder. JAMA Psychiatry 82:94-98 · PMID 39535805",
+    "Wang W et al. (2024). Associations of semaglutide with incidence and recurrence of alcohol use disorder in real-world population. Nat Commun 15:4548 · PMID 38806481",
+    "Bruns VI N et al. (2024). IUPHAR review - Glucagon-like peptide-1 (GLP-1) and substance use disorders: an emerging pharmacotherapeutic target. Pharmacol Res 207:107312 · PMID 39032839",
+    "Klausen MK et al. (2025). Effects of GLP-1 receptor agonists in alcohol use disorder. Basic Clin Pharmacol Toxicol 136:e70004 · PMID 39891507",
+    "AEMPS-CIMA (2026). Fichas técnicas de Ozempic 1 mg (semaglutida; n.º registro 1171251005), Wegovy 2,4 mg FlexTouch (semaglutida; n.º registro 1211608010) y Saxenda 6 mg/ml (liraglutida; n.º registro 115992002), apartados 4.1, 4.4 y 5.1; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "alcohol",
+    "tabaco",
+    "tcs",
+    "ttos_adiccion",
+    "peso_psicof",
+    "naltrexona",
+    "recompensa",
+    "neuroadapt_adicc",
+    "cocaina",
+    "opioides"
+   ]
+  }
+ ]
+}

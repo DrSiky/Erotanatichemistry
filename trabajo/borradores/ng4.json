@@ -1,0 +1,712 @@
+{
+ "patch": {
+  "olanzapina": {
+   "relAdd": [
+    "olanzapina_samidorfano"
+   ]
+  },
+  "peso_psicof": {
+   "relAdd": [
+    "olanzapina_samidorfano"
+   ]
+  },
+  "opioides": {
+   "relAdd": [
+    "olanzapina_samidorfano"
+   ]
+  },
+  "naltrexona": {
+   "relAdd": [
+    "olanzapina_samidorfano"
+   ]
+  },
+  "orexina": {
+   "relAdd": [
+    "lemborexant"
+   ]
+  },
+  "daridorexant": {
+   "relAdd": [
+    "lemborexant"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "lemborexant",
+    "tasimelteon"
+   ]
+  },
+  "zolpidem": {
+   "relAdd": [
+    "lemborexant"
+   ]
+  },
+  "circ_sueno": {
+   "relAdd": [
+    "tasimelteon"
+   ]
+  },
+  "melatonina": {
+   "relAdd": [
+    "tasimelteon"
+   ]
+  },
+  "smith_magenis": {
+   "relAdd": [
+    "tasimelteon"
+   ]
+  },
+  "haloperidol": {
+   "relAdd": [
+    "prometazina"
+   ]
+  },
+  "agitacion": {
+   "relAdd": [
+    "prometazina"
+   ]
+  },
+  "lorazepam": {
+   "relAdd": [
+    "prometazina"
+   ]
+  },
+  "midazolam": {
+   "relAdd": [
+    "prometazina"
+   ]
+  },
+  "sind_ser": {
+   "relAdd": [
+    "ciproheptadina"
+   ]
+  },
+  "mdma": {
+   "relAdd": [
+    "ciproheptadina"
+   ]
+  },
+  "hidroxizina": {
+   "relAdd": [
+    "ciproheptadina"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "olanzapina_samidorfano",
+   "n": "Olanzapina/samidorfano (Lybalvi)",
+   "ab": "Olanzap./samidorfano",
+   "al": [
+    "Lybalvi",
+    "olanzapine/samidorphan",
+    "OLZ/SAM",
+    "samidorfano",
+    "samidorphan"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2021,
+   "tags": [],
+   "desc": "Combinación a dosis fija de olanzapina y samidorfano, antagonista de los receptores opioides, diseñada para conservar la eficacia antipsicótica de la olanzapina y atenuar el aumento de peso que produce. No figura en CIMA (búsqueda por principio activo y por nombre comercial, noviembre de 2026) y no se ha localizado EPAR en la web de la EMA, por lo que no está autorizada en España. La FDA la aprobó el 28 de mayo de 2021 (Lybalvi, Alkermes, NDA 213378) para la esquizofrenia en adultos y para el trastorno bipolar I en adultos (tratamiento agudo de episodios maníacos o mixtos, en monoterapia o añadida a litio o valproato, y mantenimiento en monoterapia). En el ensayo ENLIGHTEN-2 (24 semanas) el peso aumentó un 4,21 % frente a un 6,59 % con olanzapina y el aumento ≥ 10 % se dio en el 17,8 % frente al 29,8 % (Correll 2020). Según las guías, la elección de antipsicótico se basa en el perfil de efectos adversos; ninguna guía europea la recoge porque no está comercializada en Europa [fuente no localizada].",
+   "feats": [
+    "Estado regulatorio: sin registro en CIMA ni EPAR localizado en la EMA (noviembre de 2026); aprobada por la FDA el 28-05-2021 (NDA 213378, Alkermes) como nueva entidad molecular y nueva combinación (Drugs@FDA)",
+    "Indicaciones de la ficha de la FDA (apartado 1): esquizofrenia en adultos y trastorno bipolar I en adultos, tanto el tratamiento agudo de episodios maníacos o mixtos (monoterapia o añadida a litio o valproato) como el mantenimiento en monoterapia",
+    "Contraindicaciones de la ficha de la FDA (apartado 4): personas que usan opioides o que atraviesan una abstinencia aguda de opioides; antes de iniciarla exige un intervalo libre de opioides de al menos 7 días para los de acción corta y de 14 días para los de acción prolongada (5.3)",
+    "Advertencia de la FDA (5.4): intentar vencer el bloqueo opioide con dosis altas o repetidas puede causar una intoxicación opioide mortal, sobre todo al interrumpir el tratamiento; quien usaba opioides de forma crónica puede haber perdido tolerancia",
+    "Mecanismo (ficha de la FDA, 12.1): la acción de la olanzapina se atribuye al antagonismo D2 y 5-HT2 y la del samidorfano al antagonismo de los receptores opioides; el samidorfano se elimina con una semivida de 7-11 h por CYP3A4 y su farmacocinética no varía con el tabaco (12.3)",
+    "Eficacia antipsicótica (ENLIGHTEN-1, 4 semanas, 401 pacientes): PANSS −6,4 frente a placebo, similar a la olanzapina sola (−5,3), con perfil de seguridad parecido al de la olanzapina (Potkin 2020)",
+    "Peso en primeros episodios (ENLIGHTEN-Early, 428 personas de 16-39 años): 4,91 % frente a 6,77 % con olanzapina a las 12 semanas; la diferencia en el aumento ≥ 10 % (21,9 % frente a 30,4 %) no fue significativa (Kahn 2023)"
+   ],
+   "tx": "Fuera de España (no autorizada aquí), alternativa a la olanzapina cuando el aumento de peso es el problema que limita su uso, en personas sin consumo de opioides. La prioridad del antipsicótico la marcan las guías, que eligen por el perfil de efectos adversos y la decisión compartida (NICE CG178; Barnes 2019), no la existencia de esta combinación. Comprobar antes de iniciarla y en cada revisión el uso de opioides prescritos o no prescritos (incluidos metadona y buprenorfina), con análisis de orina si procede [fuente no localizada]. Mantener la monitorización metabólica propia de la olanzapina. Sin pautas individualizadas.",
+   "note": "Los ensayos ENLIGHTEN fueron financiados por el fabricante; ENLIGHTEN-2 excluyó a personas con IMC > 30 o con diabetes y ENLIGHTEN-Early a las de IMC ≥ 30; la ventaja ponderal frente a la olanzapina es moderada (unos 2,4 puntos porcentuales a 24 semanas) y no se estudió el cambio desde olanzapina crónica (ficha de la FDA, 14.1). En los análisis principales no hubo diferencias en glucosa ni lípidos. Una revisión independiente la juzga de efecto limitado sobre el aumento de peso (Monahan 2022).",
+   "sec": [
+    {
+     "t": "Evidencia de los ensayos ENLIGHTEN",
+     "x": "ENLIGHTEN-2 aleatorizó a 561 adultos de 18-55 años con esquizofrenia a olanzapina/samidorfano u olanzapina durante 24 semanas: el aumento medio de peso fue del 4,21 % frente al 6,59 % (diferencia −2,38 %), el aumento ≥ 10 % del 17,8 % frente al 29,8 % (NNT 7,29) y el ≥ 7 % del 27,5 % frente al 42,7 %, con mejoría sintomática similar y cambios metabólicos pequeños y parecidos (Correll 2020). En un análisis post hoc se redujo el riesgo de obesidad (OR 0,52) y de síndrome metabólico (OR 0,55), sin diferencias en hiperglucemia ni hiperlipidemia (Correll 2023). En la extensión abierta de 52 semanas el peso se mantuvo estable (−0,03 kg; Kahn 2021) y, a 4 años, el aumento medio fue de 2,65 kg, con solo el 32,5 % de quienes eran elegibles tratados los 4 años (Ballon 2024). En primeros episodios (ENLIGHTEN-Early) la ventaja fue menor y el objetivo secundario del aumento ≥ 10 % no alcanzó significación (Kahn 2023).",
+     "links": [
+      {
+       "ids": [
+        "olanzapina",
+        "peso_psicof"
+       ],
+       "t": "Olanzapina y aumento de peso por psicofármacos"
+      },
+      {
+       "ids": [
+        "esq",
+        "pep",
+        "tb1"
+       ],
+       "t": "Esquizofrenia, primeros episodios y trastorno bipolar I"
+      }
+     ]
+    },
+    {
+     "t": "Opioides, chemsex y consumo de sustancias",
+     "x": "El samidorfano convierte la combinación en incompatible con cualquier opioide: la ficha de la FDA la contraindica en quien usa opioides o está en abstinencia aguda, advierte de abstinencia precipitada grave en personas con dependencia física y del riesgo de sobredosis mortal si se intenta superar el bloqueo, sobre todo al suspenderla (5.3, 5.4). En la práctica excluye a quienes reciben metadona o buprenorfina y obliga a interrogar por opioides no prescritos (heroína, fentanilos, codeína o tramadol) antes de prescribirla y en cada revisión [fuente no localizada]. En urgencias que requieran analgesia opioide, la ficha indica suspenderla y administrar los opioides solo con personal entrenado en el manejo de la vía aérea y monitorización continua (5.4). El alcohol y otros depresores del SNC pueden potenciar la hipotensión ortostática de la olanzapina (7.1); en el policonsumo sexualizado esto se suma a la depresión del SNC por GHB/GBL [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "opioides_sint",
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "Opioides y tratamiento agonista"
+      },
+      {
+       "ids": [
+        "naltrexona",
+        "naloxona"
+       ],
+       "t": "Otros antagonistas opioides y reversión"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "ghb_gbl",
+        "alcohol"
+       ],
+       "t": "Chemsex y depresores del SNC"
+      }
+     ]
+    },
+    {
+     "t": "Advertencias e interacciones (ficha de la FDA)",
+     "x": "Recuadro de advertencia por aumento de la mortalidad en personas mayores con psicosis asociada a demencia (en ensayos de olanzapina, 3,5 % frente a 1,5 % con placebo; 5.1) y por acontecimientos cerebrovasculares (5.2). Recoge además síndrome neuroléptico maligno, DRESS, cambios metabólicos (hiperglucemia, dislipidemia y aumento de peso, con monitorización), discinesia tardía, hipotensión ortostática y síncope, leucopenia y agranulocitosis, convulsiones, deterioro cognitivo y motor, efectos anticolinérgicos con riesgo de hipomotilidad grave e hiperprolactinemia (5.5-5.17). Interacciones (7.1-7.2): no se recomiendan los inductores potentes de CYP3A4 (reducen olanzapina y samidorfano) ni la levodopa y los agonistas dopaminérgicos; los inhibidores potentes de CYP1A2 aumentan la olanzapina y los inductores de CYP1A2, como el tabaco, la reducen (aclaramiento un 40 % mayor en fumadores; 12.3).",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "hiperprl_ap",
+        "qt_psicof"
+       ],
+       "t": "Seguridad de los antipsicóticos"
+      },
+      {
+       "ids": [
+        "tabaco",
+        "agit_dem"
+       ],
+       "t": "Tabaco y demencia"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "FDA (2026). LYBALVI (olanzapine and samidorphan) tablets: ficha de prescripción, apartados 1, 4, 5, 7, 12 y 14 (revisión de enero de 2026); NDA 213378, aprobación de 28-05-2021 (Drugs@FDA); consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Búsqueda por principio activo (samidorfano) y por nombre (Lybalvi): sin resultados; consulta de noviembre de 2026",
+    "Correll CU et al. (2020). Effects of Olanzapine Combined With Samidorphan on Weight Gain in Schizophrenia: A 24-Week Phase 3 Study. Am J Psychiatry 177:1168-1178 · PMID 32791894",
+    "Potkin SG et al. (2020). Efficacy and Safety of a Combination of Olanzapine and Samidorphan in Adult Patients With an Acute Exacerbation of Schizophrenia: Outcomes From the Randomized, Phase 3 ENLIGHTEN-1 Study. J Clin Psychiatry 81(2):19m12769 · PMID 32141723",
+    "Kahn RS et al. (2023). Olanzapine/Samidorphan in Young Adults With Schizophrenia, Schizophreniform Disorder, or Bipolar I Disorder Who Are Early in Their Illness: Results of the Randomized, Controlled ENLIGHTEN-Early Study. J Clin Psychiatry 84(3):22m14674 · PMID 36946605",
+    "Correll CU et al. (2023). Reduction in Multiple Cardiometabolic Risk Factors With Combined Olanzapine/Samidorphan Compared With Olanzapine: Post Hoc Analyses From a 24-Week Phase 3 Study. Schizophr Bull 49:454-463 · PMID 36305696",
+    "Kahn RS et al. (2021). A phase 3, multicenter study to assess the 1-year safety and tolerability of a combination of olanzapine and samidorphan in patients with schizophrenia: Results from the ENLIGHTEN-2 long-term extension. Schizophr Res 232:45-53 · PMID 34015555",
+    "Ballon JS et al. (2024). Long-Term Safety, Tolerability, and Durability of Treatment Effect of Olanzapine and Samidorphan: Results of a 4-Year Open-Label Study. J Clin Psychiatry 86(1):24m15511 · PMID 39630083",
+    "Monahan C et al. (2022). Olanzapine/Samidorphan: New Drug Approved for Treating Bipolar I Disorder and Schizophrenia. Ann Pharmacother 56:1049-1057 · PMID 35040357",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)",
+    "Barnes TR et al. (2019). Evidence-based guidelines for the pharmacological treatment of schizophrenia: Updated recommendations from the British Association for Psychopharmacology. J Psychopharmacol 34:3-78 · PMID 31829775"
+   ],
+   "rel": [
+    "olanzapina",
+    "peso_psicof",
+    "esq",
+    "tb1",
+    "opioides",
+    "naltrexona",
+    "metadona",
+    "buprenorfina",
+    "pep"
+   ]
+  },
+  {
+   "id": "lemborexant",
+   "n": "Lemborexant (Dayvigo)",
+   "ab": "Lemborexant",
+   "al": [
+    "lemborexant",
+    "Dayvigo",
+    "DORA",
+    "antagonista dual de receptores de orexina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 2019,
+   "tags": [
+    "chemsex"
+   ],
+   "desc": "Antagonista dual de los receptores de orexina OX1R y OX2R; su acción en el insomnio se atribuye al bloqueo de la unión de las orexinas A y B, que suprime el impulso de vigilia (ficha de la FDA, 12.1). No está autorizado en España: la búsqueda en CIMA por principio activo y por nombre comercial no devuelve resultados y no se ha localizado EPAR en la web de la EMA (noviembre de 2026). La FDA lo aprobó el 20 de diciembre de 2019 (Dayvigo, Eisai, NDA 212028) para adultos con insomnio caracterizado por dificultad para iniciar o mantener el sueño; es sustancia de la lista IV en Estados Unidos. Se apoya en dos ensayos de fase 3: SUNRISE 1, con polisomnografía y comparador activo (zolpidem de liberación prolongada) en personas de 55 años o más (Rosenberg 2019), y SUNRISE 2, de 6 meses controlado con placebo (Kärppä 2020). Su semivida efectiva es de 17-19 h y se metaboliza sobre todo por CYP3A4 (ficha de la FDA, 12.3). La ficha de la clase y el daridorexant, único DORA comercializado en España, se tratan en sus fichas propias.",
+   "feats": [
+    "Estado regulatorio: sin registro en CIMA ni EPAR localizado en la EMA (noviembre de 2026); FDA, NDA 212028 aprobada el 20-12-2019 como nueva entidad molecular (Drugs@FDA)",
+    "Contraindicación única en la ficha de la FDA (apartado 4): narcolepsia",
+    "Advertencias de la FDA (5.1-5.6): depresión del SNC con alteración matutina y de la conducción, parálisis del sueño, alucinaciones hipnagógicas o hipnopómpicas y síntomas tipo cataplejía, conductas complejas durante el sueño, posible afectación respiratoria, empeoramiento de la depresión o ideación suicida, y reevaluar si el insomnio persiste tras 7-10 días",
+    "Interacciones (ficha de la FDA, 7.1): evitar inhibidores potentes o moderados de CYP3A y también inductores potentes o moderados (rifampicina, carbamazepina, hipérico, efavirenz, etravirina, modafinilo); el alcohol aumenta su Cmáx y AUC; reduce la exposición a sustratos de CYP2B6 como bupropión y metadona",
+    "Potencial de abuso (ficha de la FDA, 9.2-9.3): en 29 personas con uso recreativo de sedantes, las medidas de agrado del fármaco fueron similares a las de zolpidem y suvorexant y mayores que con placebo; en ensayos y en animales no produjo signos de abstinencia al suspenderlo",
+    "SUNRISE 1 (1006 personas ≥ 55 años, 1 mes): mejoró la latencia al sueño persistente y redujo la vigilia tras el inicio del sueño frente a placebo (−24,0 y −25,4 min con las dos dosis) y la vigilia en la segunda mitad de la noche frente a zolpidem de liberación prolongada (Rosenberg 2019)",
+    "Metaanálisis en red: en el tratamiento a largo plazo, más eficaz que placebo (DME 0,41; certeza muy baja); perfil global favorable pero datos de seguridad no concluyentes (De Crescenzo 2022)"
+   ],
+   "tx": "No disponible en España; en su lugar, la opción de la clase autorizada aquí es el daridorexant, tras la TCC-I, que sigue siendo la primera línea en el insomnio crónico (Riemann 2023). Donde esté autorizado, la ficha de la FDA exige descartar narcolepsia, evitar alcohol y otros depresores del SNC, revisar inhibidores e inductores de CYP3A (incluidos antirretrovirales potenciados con ritonavir o cobicistat, y efavirenz o etravirina) y vigilar el ánimo. Sin pautas individualizadas.",
+   "note": "Los dos ensayos de fase 3 fueron financiados por el fabricante; en SUNRISE 2 las variables son subjetivas (diario de sueño). El estudio de potencial de abuso de la ficha, con agrado similar a zolpidem, matiza la idea de un bajo riesgo de uso indebido de la clase. Las guías europeas no lo valoran porque no está autorizado en la Unión Europea.",
+   "sec": [
+    {
+     "t": "Ensayos de fase 3 y metaanálisis",
+     "x": "SUNRISE 1 aleatorizó a 1006 personas de 55 años o más (86,4 % mujeres) con insomnio de mantenimiento a placebo, zolpidem de liberación prolongada o lemborexant durante un mes, con polisomnografía: ambas dosis acortaron la latencia al sueño persistente (razón frente a placebo 0,77 y 0,72), aumentaron la eficiencia del sueño (7,1 % y 8,0 %) y redujeron la vigilia tras el inicio del sueño (−24,0 y −25,4 min); frente a zolpidem, redujeron la vigilia en la segunda mitad de la noche (−6,7 y −8,0 min) (Rosenberg 2019). SUNRISE 2 (949 adultos, 6 meses controlados con placebo y diario electrónico) mostró mejoría sostenida de la latencia subjetiva, la eficiencia y la vigilia intrasueño, con efectos adversos mayoritariamente leves o moderados (Kärppä 2020). En el metaanálisis en red de De Crescenzo (2022), lemborexant fue de los pocos fármacos con eficacia a largo plazo frente a placebo (DME 0,41; IC 95 % 0,04-0,78; certeza muy baja).",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "zolpidem"
+       ],
+       "t": "Insomnio crónico y comparador zolpidem"
+      },
+      {
+       "ids": [
+        "orexina",
+        "daridorexant"
+       ],
+       "t": "Clase de los antagonistas de orexina"
+      }
+     ]
+    },
+    {
+     "t": "Chemsex, antirretrovirales y otras sustancias",
+     "x": "Las interacciones de la ficha de la FDA son especialmente relevantes en personas que practican chemsex o reciben tratamiento antirretroviral. La ficha manda evitar los inhibidores potentes o moderados de CYP3A (cita itraconazol, claritromicina, fluconazol y verapamilo); ritonavir y cobicistat, potenciadores de los antirretrovirales, son inhibidores potentes de CYP3A según sus fichas técnicas españolas (Norvir y Tybost, 4.5), y los inductores moderados efavirenz y etravirina, citados expresamente en la ficha, reducen su exposición. El alcohol aumenta sus concentraciones y empeoró la estabilidad postural y la memoria frente al alcohol solo; la combinación con otros depresores del SNC (benzodiacepinas, opioides, GHB/GBL) aumenta el riesgo de depresión del SNC (5.1, 7.1). Al reducir la exposición a sustratos de CYP2B6, puede disminuir el efecto de la metadona y del bupropión (7.1). La ficha pide seguir de cerca a quienes tienen antecedentes de abuso de alcohol u otras drogas (9.2).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s",
+        "ghb_gbl"
+       ],
+       "t": "Chemsex e interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "metadona",
+        "bupropion",
+        "alcohol"
+       ],
+       "t": "Sustratos de CYP2B6 y alcohol"
+      },
+      {
+       "ids": [
+        "sedantes_tus",
+        "bzd_dep"
+       ],
+       "t": "Uso indebido de sedantes"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Somnolencia o alteración de la conducción a la mañana siguiente, mayor si se toma sin una noche completa de sueño por delante o con otros depresores; caídas en personas mayores. Parálisis del sueño, alucinaciones vívidas en las transiciones sueño-vigilia y episodios breves de debilidad en las piernas sin desencadenante, similares a una cataplejía leve: explicarlos al prescribir. Sonambulismo, conducción o actividades sexuales sin estar plenamente despierto: suspender de inmediato. Empeoramiento de la depresión o ideación suicida: la ficha aconseja prescribir el menor número de comprimidos posible. Si el insomnio persiste tras 7-10 días, buscar comorbilidad (ficha de la FDA, 5.1-5.6).",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "hips_idiop"
+       ],
+       "t": "Narcolepsia (contraindicación) e hipersomnias"
+      },
+      {
+       "ids": [
+        "ideac_suic",
+        "bzd_mayor"
+       ],
+       "t": "Ideación suicida y personas mayores"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "FDA (2025). DAYVIGO (lemborexant) tablets: ficha de prescripción, apartados 1, 4, 5, 7, 9 y 12 (revisión de febrero de 2025); NDA 212028, aprobación de 20-12-2019 (Drugs@FDA); consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Búsqueda por principio activo (lemborexant) y por nombre (Dayvigo): sin resultados; consulta de noviembre de 2026",
+    "Rosenberg R et al. (2019). Comparison of Lemborexant With Placebo and Zolpidem Tartrate Extended Release for the Treatment of Older Adults With Insomnia Disorder: A Phase 3 Randomized Clinical Trial. JAMA Netw Open 2:e1918254 · PMID 31880796",
+    "Kärppä M et al. (2020). Long-term efficacy and tolerability of lemborexant compared with placebo in adults with insomnia disorder: results from the phase 3 randomized clinical trial SUNRISE 2. Sleep 43(9):zsaa123 · PMID 32585700",
+    "De Crescenzo F et al. (2022). Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis. Lancet 400:170-184 · PMID 35843245",
+    "Riemann D et al. (2023). The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res 32:e14035 · PMID 38016484",
+    "AEMPS-CIMA (2026). Ficha técnica de Norvir 100 mg comprimidos recubiertos con película (ritonavir) (n.º registro 96016005), apartado 4.5; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Tybost 150 mg comprimidos recubiertos con película (cobicistat) (n.º registro 113872001), apartado 4.5; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "orexina",
+    "daridorexant",
+    "insom",
+    "zolpidem",
+    "chemsex_arv",
+    "nar",
+    "tcci"
+   ]
+  },
+  {
+   "id": "tasimelteon",
+   "n": "Tasimelteón (Hetlioz)",
+   "ab": "Tasimelteón",
+   "al": [
+    "tasimelteon",
+    "Hetlioz",
+    "Hetlioz LQ",
+    "VEC-162",
+    "agonista de receptores de melatonina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ans",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2014,
+   "tags": [],
+   "desc": "Agonista de los receptores de melatonina MT1 y MT2, implicados en el control de los ritmos circadianos; su mecanismo terapéutico exacto no está aclarado (ficha de la FDA, 12.1). La EMA autorizó Hetlioz 20 mg cápsulas el 3 de julio de 2015 (EMEA/H/C/003870, Vanda Pharmaceuticals Netherlands) para el trastorno del ritmo sueño-vigilia distinto de 24 horas (no-24) en adultos con ceguera total; fue medicamento huérfano desde 2011 hasta julio de 2025. Pese a la autorización centralizada, la búsqueda en CIMA por principio activo no devuelve presentaciones (noviembre de 2026), por lo que no consta comercializado en España. La FDA lo aprobó en 2014 (NDA 205677) para el no-24 en adultos y después para las alteraciones del sueño nocturno del síndrome de Smith-Magenis; el CHMP rechazó esta extensión en la UE (confirmado en 2026). En los ensayos SET y RESET logró el arrastre circadiano en el 20 % frente al 3 % con placebo al mes, y el efecto se pierde al suspenderlo (Lockley 2015).",
+   "feats": [
+    "Indicación en la UE (EPAR de la EMA): tratamiento del trastorno no-24 en adultos con ceguera total; cápsulas de 20 mg de uso prolongado, con receta; titular Vanda Pharmaceuticals Netherlands B.V.; autorización de 03-07-2015",
+    "Indicaciones de la FDA (apartado 1): no-24 en adultos (sin restringirlo a la ceguera) y alteraciones del sueño nocturno en el síndrome de Smith-Magenis desde los 16 años (cápsulas) y de 3 a 15 años (suspensión oral Hetlioz LQ); hay genéricos aprobados por la FDA desde 2022 (Drugs@FDA)",
+    "Ficha de la FDA: sin contraindicaciones (apartado 4); única advertencia, la somnolencia, por lo que tras tomarlo la actividad debe limitarse a prepararse para dormir (5.1); no es sustancia controlada y no mostró señales de abuso ni de abstinencia (9.1-9.3)",
+    "Interacciones (ficha de la FDA, 7.1-7.3): evitar inhibidores potentes de CYP1A2 como la fluvoxamina (gran aumento de la exposición) e inductores de CYP3A4 como la rifampicina; los betabloqueantes nocturnos reducen la producción de melatonina y pueden restar eficacia; en fumadores la exposición es un 40 % menor (12.3)",
+    "Farmacocinética (ficha de la FDA, 12.3): metabolismo por CYP1A2 y CYP3A4 con glucuronidación posterior; semivida de eliminación de 1,3 h y metabolitos con actividad hasta 13 veces menor",
+    "Smith-Magenis (ensayo cruzado de 9 semanas, 25 pacientes que completaron): mejoró la calidad del sueño en el 50 % de peores noches (0,4 puntos; p = 0,0139), mientras que el tiempo total de sueño en esas noches no alcanzó significación (18,5 min; p = 0,0556) (Polymeropoulos 2021)"
+   ],
+   "tx": "Opción específica en el trastorno no-24 de personas con ceguera total, autorizada por la EMA pero sin presentación registrada en España según CIMA; su uso requeriría la vía de medicamentos en situaciones especiales [fuente no localizada]. Como alternativa disponible, la AASM respalda la melatonina administrada en el momento adecuado en el no-24 de personas ciegas (Auger 2015). Requiere toma diaria a la misma hora y tratamiento continuado, porque el arrastre se pierde al suspenderlo (Lockley 2015). Revisar fluvoxamina, rifampicina, betabloqueantes y tabaco. Sin pautas individualizadas.",
+   "note": "Solo una minoría responde: el CHMP consideró que alrededor del 20 % se beneficiaría, aceptable por la falta de alternativas aprobadas (EPAR). La mayor parte de los ensayos en otras indicaciones (Smith-Magenis, desfase horario, insomnio de conciliación) están financiados y firmados por el fabricante, y la EMA rechazó la extensión al Smith-Magenis tras reexamen.",
+   "sec": [
+    {
+     "t": "Evidencia en el trastorno no-24 y en otros usos",
+     "x": "SET aleatorizó a 84 adultos con ceguera total y período circadiano ≥ 24,25 h: el arrastre al mes se logró en 8 de 40 (20 %) con tasimelteón frente a 1 de 38 (3 %) con placebo, y la respuesta clínica en el 24 % frente al 0 %; en RESET, tras una fase abierta, siguieron arrastrados 9 de 10 con tasimelteón frente a 2 de 10 retirados a placebo; los efectos adversos más frecuentes fueron cefalea, elevación de enzimas hepáticas y pesadillas (Lockley 2015). La ficha de la FDA añade que, en el 25 % de noches más sintomáticas, el sueño nocturno aumentó 50 frente a 22 minutos y que el 29 % frente al 12 % cumplió criterios de respuesta. Fuera del no-24, en voluntarios sanos con adelanto de 5 h del horario de sueño mejoró la latencia y la eficiencia del sueño y adelantó el ritmo de melatonina (Rajaratnam 2009). Un ensayo del fabricante en insomnio de conciliación comunicó mejoría polisomnográfica de la latencia (Synnott 2025); no son indicaciones autorizadas.",
+     "links": [
+      {
+       "ids": [
+        "circ_sueno",
+        "melatonina"
+       ],
+       "t": "Trastornos circadianos y melatonina"
+      },
+      {
+       "ids": [
+        "insom",
+        "insomnio_sx"
+       ],
+       "t": "Insomnio"
+      }
+     ]
+    },
+    {
+     "t": "Estado regulatorio en la UE y en Estados Unidos",
+     "x": "En la UE, el CHMP emitió dictamen positivo el 23-04-2015 y la Comisión Europea autorizó Hetlioz el 03-07-2015 para el no-24 en adultos con ceguera total, como primer tratamiento autorizado de este trastorno raro; la designación huérfana (23-02-2011) se retiró del registro comunitario en julio de 2025 al acabar los 10 años de exclusividad. En noviembre de 2025 el CHMP emitió una recomendación negativa sobre una extensión de indicación (procedimiento II/0040), y en marzo de 2026, tras reexamen, confirmó la denegación de la extensión a las alteraciones del sueño nocturno en adultos y niños de 3 a 15 años con síndrome de Smith-Magenis (EMA). En Estados Unidos la FDA aprobó las cápsulas el 31-01-2014 (NDA 205677), la suspensión oral Hetlioz LQ el 01-12-2020 (NDA 214517) y genéricos de cápsulas entre 2022 y 2023. En España no consta en CIMA.",
+     "links": [
+      {
+       "ids": [
+        "smith_magenis"
+       ],
+       "t": "Síndrome de Smith-Magenis"
+      },
+      {
+       "ids": [
+        "circ_sueno"
+       ],
+       "t": "Trastorno no-24"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad, interacciones y consumo de sustancias",
+     "x": "La ficha de la FDA solo advierte de somnolencia y no establece contraindicaciones; en SET hubo más cefalea (17 % frente a 7 %), elevación de enzimas hepáticas (10 % frente a 5 %) y pesadillas o sueños anormales (10 % frente a 0 %) que con placebo (Lockley 2015), y el EPAR cita cefalea, somnolencia, náuseas y mareo como los más frecuentes. Las interacciones dependen de su metabolismo por CYP1A2 y CYP3A4: la fluvoxamina, inhibidor potente de CYP1A2, debe evitarse, igual que la rifampicina y otros inductores de CYP3A4; el tabaco reduce la exposición un 40 %. No hay datos publicados sobre chemsex o consumo de drogas recreativas [fuente no localizada]; por mecanismo, la sedación puede sumarse a la de alcohol y otros depresores del SNC [fuente no localizada]. No es sustancia controlada en Estados Unidos y no mostró potencial de abuso (ficha de la FDA, 9.1-9.2).",
+     "links": [
+      {
+       "ids": [
+        "fluvoxamina",
+        "tabaco"
+       ],
+       "t": "Fluvoxamina y tabaco (CYP1A2)"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "Alcohol"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "EMA (2025). Hetlioz (tasimelteon): EPAR, resumen público e información del producto, EMEA/H/C/003870; dictamen del CHMP de 23-04-2015 y autorización de 03-07-2015; página actualizada el 04-12-2025; consulta de noviembre de 2026",
+    "EMA (2026). Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 10-13 November 2025 y 23-26 March 2026: recomendación negativa de extensión de indicación de Hetlioz y confirmación tras reexamen de la denegación en el síndrome de Smith-Magenis; consulta de noviembre de 2026",
+    "FDA (2026). HETLIOZ (tasimelteon) capsules y HETLIOZ LQ oral suspension: ficha de prescripción, apartados 1, 4, 5, 7, 9, 12 y 14 (revisión de agosto de 2026); NDA 205677 (31-01-2014) y NDA 214517 (01-12-2020) (Drugs@FDA); consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Búsqueda por principio activo (tasimelteón) y por nombre (Hetlioz): sin resultados; consulta de noviembre de 2026",
+    "Lockley SW et al. (2015). Tasimelteon for non-24-hour sleep-wake disorder in totally blind people (SET and RESET): two multicentre, randomised, double-masked, placebo-controlled phase 3 trials. Lancet 386:1754-1764 · PMID 26466871",
+    "Rajaratnam SM et al. (2009). Melatonin agonist tasimelteon (VEC-162) for transient insomnia after sleep-time shift: two randomised controlled multicentre trials. Lancet 373:482-491 · PMID 19054552",
+    "Polymeropoulos CM et al. (2021). Tasimelteon safely and effectively improves sleep in Smith-Magenis syndrome: a double-blind randomized trial followed by an open-label extension. Genet Med 23:2426-2432 · PMID 34316024",
+    "Synnott NC et al. (2025). Melatonin agonist tasimelteon (HETLIOZ®) improves sleep in patients with primary insomnia: A multicenter, randomized, double-blind, placebo-controlled trial. PLoS One 20:e0332366 · PMID 40971945",
+    "Auger RR et al. (2015). Clinical practice guideline for the treatment of intrinsic circadian rhythm sleep-wake disorders (ASWPD, DSWPD, N24SWD and ISWRD). An update for 2015: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 11:1199-1236 · PMID 26414986"
+   ],
+   "rel": [
+    "circ_sueno",
+    "melatonina",
+    "smith_magenis",
+    "insom",
+    "fluvoxamina",
+    "tabaco"
+   ]
+  },
+  {
+   "id": "prometazina",
+   "n": "Prometazina",
+   "ab": "Prometazina",
+   "al": [
+    "promethazine",
+    "Fenergan",
+    "Phenergan",
+    "haloperidol más prometazina",
+    "fenotiazina antihistamínica"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "tags": [
+    "emerg",
+    "chemsex"
+   ],
+   "desc": "Derivado fenotiazínico con propiedades antihistamínicas H1 (ficha técnica de Actithiol Mucolítico Antihistamínico, AEMPS-CIMA, 5.1), con efectos anticolinérgicos y sedantes marcados. En España no hay ninguna presentación inyectable ni oral en monofármaco: CIMA solo recoge Fenergan crema (n.º registro 17471, tópica, sin receta), Actithiol Mucolítico Antihistamínico solución oral (46249, con carbocisteína), indicada en el «alivio sintomático de las afecciones con componente alérgico del tracto ORL y del aparato respiratorio» (sinusitis, rinofaringitis y bronquitis aguda, subaguda y crónica), y Psico Soma líquido (35815, con glutamato magnésico; sin ficha técnica disponible en CIMA y con problemas de suministro) (consulta de noviembre de 2026). Su interés psiquiátrico procede de la tranquilización rápida: NICE NG10 recomienda lorazepam intramuscular solo o haloperidol con prometazina intramusculares en adultos (1.4.37), y los ensayos TREC mostraron que añadir prometazina acelera la sedación y que la distonía aguda apareció solo en el grupo de haloperidol sin prometazina (Huf 2007; Huf 2016). La combinación no puede reproducirse en España con medicamentos autorizados.",
+   "feats": [
+    "Disponibilidad en España (CIMA, noviembre de 2026): ninguna presentación inyectable; solo Fenergan crema (17471), Actithiol Mucolítico Antihistamínico solución oral (46249; carbocisteína más prometazina) y Psico Soma líquido (35815; glutamato magnésico más prometazina, ATC N05CX)",
+    "Contraindicaciones (ficha técnica de Actithiol Mucolítico Antihistamínico, 4.3): hipersensibilidad a fenotiazinas, asma u otra insuficiencia respiratoria grave, antecedentes de agranulocitosis o ictericia, trastornos uroprostáticos, riesgo de glaucoma de ángulo cerrado, miastenia, IMAO en las dos semanas previas, depresión medular y menores de 2 años",
+    "Advertencias (4.4): posible prolongación del QT por las fenotiazinas, reducción del umbral convulsivo, hipotensión ortostática y efectos anticolinérgicos en personas mayores, fotosensibilidad, depresión respiratoria potencialmente mortal en menores de 2 años y enmascaramiento de la ototoxicidad o de la hipertensión intracraneal",
+    "Interacciones (4.5): la prometazina aumenta la concentración plasmática de haloperidol y de carbamazepina por competición metabólica; cautela con fármacos que prolongan el QT (cita haloperidol, droperidol, clorpromazina, levomepromazina, citalopram y metadona); sinergia sedante con alcohol y depresores del SNC y potenciación anticolinérgica",
+    "Farmacocinética (5.2): biodisponibilidad oral inferior al 50 % por primer paso, pico a las 2-3 h, semivida de 5-14 h, unión a proteínas del 76-93 % y metabolismo por sulfoxidación y desmetilación",
+    "NICE NG10: haloperidol con prometazina intramusculares como alternativa al lorazepam (1.4.37); evitar la combinación y usar lorazepam si hay enfermedad cardiovascular, QT prolongado o no se ha hecho un ECG (1.4.39), y preferir lorazepam si falta información o la persona no ha tomado antipsicóticos antes (1.4.38)",
+    "Revisión Cochrane (6 ensayos, 1367 participantes): frente a haloperidol solo, menos personas sin calmar o dormidas a los 30 min (RR 0,65; calidad alta), y la combinación se considera eficaz y segura; el haloperidol solo, sin algo que compense sus efectos adversos, es difícil de justificar (Huf 2016)"
+   ],
+   "tx": "En la tranquilización rápida de adultos, tras fracasar la desescalada y la medicación oral, NICE NG10 sitúa haloperidol con prometazina intramusculares al mismo nivel que el lorazepam intramuscular, con ECG previo y sin cardiopatía ni QT prolongado (1.4.37-1.4.39); el consenso BAP/NAPICU considera lorazepam, haloperidol y prometazina las opciones estándar y amplía el abanico a la loxapina inhalada, el midazolam bucal y el aripiprazol, el droperidol o la olanzapina intramusculares (Patel 2018). En España, al no haber prometazina inyectable autorizada, las opciones parenterales disponibles son el haloperidol y la olanzapina intramusculares, con indicación en la agitación en sus fichas técnicas, y el lorazepam (Temelor) o el midazolam intramusculares, fuera de ficha en esta indicación (véanse sus fichas en el atlas); si se usa haloperidol solo, vigilar la distonía aguda (Huf 2007). Sin pautas individualizadas.",
+   "note": "Los ensayos TREC fueron pragmáticos y abiertos, en urgencias psiquiátricas de Brasil, India y Líbano, con población mayoritariamente psicótica; su extrapolación a intoxicaciones por estimulantes, GHB o alcohol es limitada. La ficha española solo recoge usos respiratorios y alérgicos en asociación, de modo que cualquier uso psiquiátrico en España sería fuera de ficha y con medicamentos no comercializados aquí.",
+   "sec": [
+    {
+     "t": "Ensayos TREC y revisión Cochrane",
+     "x": "La serie TREC comparó la combinación con las alternativas habituales. En Vellore (India), con 200 personas, a las 4 h estaban tranquilas o dormidas el 96 % con lorazepam intramuscular y el 96 % con haloperidol más prometazina, pero dormían el 76 % frente al 45 % (RR 2,29) y la combinación actuó antes, sin diferencias en contención ni efectos adversos (Alexander 2004). En Río de Janeiro (316 personas), la combinación logró más personas tranquilas o dormidas a los 20 min que el haloperidol solo (RR 1,30; NNT 6) y los 10 casos de distonía aguda se dieron todos con haloperidol solo (Huf 2007). En India, frente a olanzapina intramuscular (300 personas), los resultados a los 15 min fueron similares (87 % frente a 91 %), pero con olanzapina se necesitaron más fármacos adicionales en 4 h (43 % frente a 21 %) (Raveendran 2007). Frente a midazolam fue más lenta (TREC 2003), y en Líbano añadir clorpromazina no aportó beneficio (Dib 2022).",
+     "links": [
+      {
+       "ids": [
+        "haloperidol",
+        "lorazepam",
+        "midazolam",
+        "olanzapina"
+       ],
+       "t": "Comparadores de los ensayos TREC"
+      },
+      {
+       "ids": [
+        "clorpromazina"
+       ],
+       "t": "Triple combinación con clorpromazina"
+      }
+     ]
+    },
+    {
+     "t": "Lugar en las guías y situación en España",
+     "x": "NICE NG10 define la tranquilización rápida como medicación parenteral cuando la oral no es posible o adecuada y se necesita sedación urgente, y recomienda en adultos lorazepam intramuscular solo o haloperidol con prometazina intramusculares, eligiendo según preferencias y voluntades anticipadas, problemas de salud física o embarazo, posible intoxicación, respuesta previa, interacciones y dosis diaria total (1.4.37). Si la respuesta al lorazepam es nula, considerar la combinación, y viceversa (1.4.41-1.4.43); la prescripción inicial se escribe como dosis única (1.4.44). Esta preferencia de la guía no tiene traducción directa en España: CIMA no incluye ninguna prometazina inyectable ni oral en monofármaco y la ficha técnica disponible es la de una asociación mucolítica con indicación respiratoria. La importación como medicamento extranjero es una vía teórica cuya disponibilidad real no se ha comprobado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "agitacion",
+        "hetero_agr"
+       ],
+       "t": "Agitación y agresividad"
+      },
+      {
+       "ids": [
+        "qt_psicof",
+        "haloperidol"
+       ],
+       "t": "QT y haloperidol"
+      },
+      {
+       "ids": [
+        "loxapina",
+        "zuclopentixol"
+       ],
+       "t": "Otras opciones en la agitación"
+      }
+     ]
+    },
+    {
+     "t": "Consumo de sustancias, chemsex y señales de alarma",
+     "x": "La prometazina tiene uso indebido documentado en forma de jarabe de codeína y prometazina mezclado con refresco o alcohol («purple drank» o «lean»), buscado por sus efectos tranquilizantes y euforizantes (Miuli 2020). En urgencias, NICE pide considerar la posible intoxicación al elegir el fármaco (1.4.37): la sedación de la prometazina se suma a la del alcohol, GHB/GBL, opioides y benzodiacepinas (ficha técnica, 4.5), y su efecto anticolinérgico puede confundir el cuadro clínico de una intoxicación [fuente no localizada]. Señales de alarma tras su administración: sedación excesiva o depresión respiratoria con otros depresores, hipotensión, convulsiones en personas con epilepsia o abstinencia, arritmias en quien recibe otros fármacos que prolongan el QT, retención urinaria y confusión anticolinérgica en personas mayores (ficha técnica, 4.3-4.5). Tras la tranquilización rápida, NICE exige vigilar efectos adversos y constantes (1.4.45).",
+     "links": [
+      {
+       "ids": [
+        "otc_abuso",
+        "opioides"
+       ],
+       "t": "Uso indebido de jarabes con codeína"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "alcohol",
+        "chemsex_s"
+       ],
+       "t": "Depresores del SNC y chemsex"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Actithiol Mucolítico Antihistamínico solución oral (carbocisteína y prometazina) (n.º registro 46249), apartados 4.1-4.5, 5.1 y 5.2; revisión de marzo de 2025; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Búsqueda por principio activo (prometazina): Fenergan crema (n.º registro 17471), Actithiol Mucolítico Antihistamínico (46249) y Psico Soma líquido (35815, sin ficha técnica en CIMA); consulta de noviembre de 2026",
+    "NICE (2015). Violence and aggression: short-term management in mental health, health and community settings (NG10), recomendaciones 1.4.37-1.4.45; consulta en nice.org.uk en noviembre de 2026",
+    "Huf G et al. (2016). Haloperidol plus promethazine for psychosis-induced aggression. Cochrane Database Syst Rev 11:CD005146 · PMID 27885664",
+    "Alexander J et al. (2004). Rapid tranquillisation of violent or agitated patients in a psychiatric emergency setting. Pragmatic randomised trial of intramuscular lorazepam v. haloperidol plus promethazine. Br J Psychiatry 185:63-69 · PMID 15231557",
+    "Huf G et al. (2007). Rapid tranquillisation in psychiatric emergency settings in Brazil: pragmatic randomised controlled trial of intramuscular haloperidol versus intramuscular haloperidol plus promethazine. BMJ 335:869 · PMID 17954515",
+    "Raveendran NS et al. (2007). Rapid tranquillisation in psychiatric emergency settings in India: pragmatic randomised controlled trial of intramuscular olanzapine versus intramuscular haloperidol plus promethazine. BMJ 335:865 · PMID 17954514",
+    "TREC Collaborative Group (2003). Rapid tranquillisation for agitated patients in emergency psychiatric rooms: a randomised trial of midazolam versus haloperidol plus promethazine. BMJ 327:708-713 · PMID 14512476",
+    "Dib JE et al. (2022). Rapid tranquillisation in a psychiatric emergency hospital in Lebanon: TREC-Lebanon - a pragmatic randomised controlled trial of intramuscular haloperidol and promethazine v. intramuscular haloperidol, promethazine and chlorpromazine. Psychol Med 52:2751-2759 · PMID 33402230",
+    "Patel MX et al. (2018). Joint BAP NAPICU evidence-based consensus guidelines for the clinical management of acute disturbance: de-escalation and rapid tranquillisation. J Psychopharmacol 32:601-640 · PMID 29882463",
+    "Miuli A et al. (2020). «Purple Drank» (Codeine and Promethazine Cough Syrup): A Systematic Review of a Social Phenomenon with Medical Implications. J Psychoactive Drugs 52:453-462 · PMID 32748711"
+   ],
+   "rel": [
+    "haloperidol",
+    "agitacion",
+    "lorazepam",
+    "midazolam",
+    "hetero_agr",
+    "qt_psicof",
+    "otc_abuso"
+   ]
+  },
+  {
+   "id": "ciproheptadina",
+   "n": "Ciproheptadina (Periactin)",
+   "ab": "Ciproheptadina",
+   "al": [
+    "cyproheptadine",
+    "Periactin",
+    "antagonista 5-HT2A",
+    "antihistamínico H1 de primera generación"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1961,
+   "tags": [
+    "emerg",
+    "organic"
+   ],
+   "desc": "Antiserotoninérgico (antagonista 5-HT2) y antihistamínico H1 de primera generación con efectos anticolinérgicos, sedantes y adrenolíticos (ficha técnica de Periactin, AEMPS-CIMA, 5.1). En España está comercializado Periactin 4 mg comprimidos (n.º registro 35622, Alfasigma España; primera autorización en 1961), con indicaciones literales en adultos y niños desde los dos años: «tratamiento sintomático de manifestaciones alérgicas (rinitis, conjuntivitis, urticaria)» y «tratamiento coadyuvante en reacciones anafilácticas, tras haber controlado las manifestaciones agudas» (4.1); CIMA recoge además asociaciones orales comercializadas que la contienen. Su uso en el síndrome serotoninérgico es fuera de ficha y se apoya en su antagonismo 5-HT2A: las revisiones lo sitúan como coadyuvante del tratamiento de soporte en la toxicidad moderada, con evidencia de series y casos clínicos (Graudins 1998; Isbister 2007), y una revisión sistemática de 2025 no encontró pruebas que respalden su eficacia (King 2025). Solo existe por vía oral.",
+   "feats": [
+    "Indicaciones autorizadas (ficha técnica de Periactin 4 mg, n.º registro 35622, revisión de febrero de 2023, 4.1): manifestaciones alérgicas (rinitis, conjuntivitis, urticaria) y coadyuvante en reacciones anafilácticas una vez controladas las manifestaciones agudas, en adultos y niños desde los dos años",
+    "Contraindicaciones (4.3): ataque asmático agudo, recién nacidos y prematuros, lactancia, uso simultáneo con IMAO, glaucoma de ángulo estrecho, obstrucción piloroduodenal, úlcera péptica estenosante, hipertrofia prostática, obstrucción del cuello vesical y personas de edad avanzada o debilitadas, por su mayor tendencia a la somnolencia y la hipotensión",
+    "Interacciones (4.5): contraindicada con IMAO, que intensifican y prolongan sus efectos anticolinérgicos; efectos aditivos con alcohol y depresores del SNC; puede interferir con los antidepresivos serotoninérgicos, incluidos los ISRS, con posible recurrencia de la depresión; puede dar falsos positivos de antidepresivos tricíclicos en orina o suero",
+    "Farmacocinética (5.2): buena absorción oral, pico plasmático a las 6-9 h, semivida de eliminación de 10-15 h, metabolito principal glucurónido de amonio cuaternario y eliminación disminuida en la insuficiencia renal",
+    "Reacciones adversas (4.8): somnolencia como la más frecuente; agitación, confusión, alucinaciones, euforia, convulsiones, taquicardia, hipotensión, retención urinaria, aumento del apetito y del peso; en sobredosis, cuadro atropínico con midriasis fija, depresión o estimulación del SNC y convulsiones (4.9)",
+    "Evidencia en la toxicidad serotoninérgica: en una revisión sistemática de autointoxicaciones, 12 publicaciones (11 casos y una serie), todas de muy baja calidad y alto riesgo de sesgo, sin que pudiera establecerse eficacia (King 2025); en el registro ToxIC solo la recibió el 15,1 % de 1010 casos, frente a benzodiacepinas en el 67 % (Moss 2019)"
+   ],
+   "tx": "En la toxicidad serotoninérgica, lo prioritario es retirar los agentes serotoninérgicos, el soporte y las benzodiacepinas; la ciproheptadina puede considerarse como coadyuvante en casos moderados que persisten, con evidencia muy baja y sin agente, dosis ni indicaciones bien definidos (Isbister 2007; Chiew 2025). En los graves, con hipertermia y rigidez, el pilar es la reanimación precoz, el enfriamiento, la sedación y la parálisis con intubación, no el «antídoto» (Chiew 2025). Uso fuera de ficha técnica; respetar las contraindicaciones de la ficha de Periactin (IMAO concomitantes, personas mayores o debilitadas, glaucoma, retención urinaria). Sin pautas individualizadas.",
+   "note": "Los datos de eficacia proceden de casos y series sin grupo control; en animales los antagonistas 5-HT2A previenen la hipertermia y la muerte solo a dosis altas (Chiew 2025). La contraindicación de la ficha española con IMAO choca con el escenario de mayor gravedad (IMAO más inhibidor de la recaptación); ese conflicto no está resuelto en las fuentes consultadas [fuente no localizada]. Su efecto anticolinérgico puede dificultar el diagnóstico diferencial con la toxicidad anticolinérgica.",
+   "sec": [
+    {
+     "t": "Uso en la toxicidad serotoninérgica: evidencia",
+     "x": "La primera serie que la popularizó describió cinco pacientes expuestos a moclobemida, paroxetina, sertralina o venlafaxina tratados por vía oral: tres se resolvieron en 2 h y dos necesitaron una segunda toma por temblor o hiperreflexia residual; los autores la consideran coadyuvante del soporte y reconocen que se desconoce si cambia el pronóstico (Graudins 1998). Isbister (2007) concluye que el agente antiserotoninérgico preferido, la dosis y las indicaciones no están bien definidos. La revisión de Chiew e Isbister (2025) añade que los antagonistas 5-HT2A solo evitan la hipertermia y la muerte en animales a dosis altas, que la evidencia clínica se limita a series y casos, y que la ciproheptadina, aunque se usa a menudo, carece de pruebas concluyentes de eficacia; la clorpromazina y la olanzapina tienen aún menos datos. La revisión sistemática de King y Rotella (2025) no encontró base para su recomendación en las guías.",
+     "links": [
+      {
+       "ids": [
+        "sind_ser"
+       ],
+       "t": "Síndrome serotoninérgico"
+      },
+      {
+       "ids": [
+        "clorpromazina",
+        "olanzapina"
+       ],
+       "t": "Otros antagonistas 5-HT2A estudiados"
+      }
+     ]
+    },
+    {
+     "t": "MDMA, chemsex y combinaciones de riesgo",
+     "x": "En el consumo recreativo, la MDMA es un agente serotoninérgico relevante, y el riesgo aumenta al combinarla con antidepresivos serotoninérgicos, IMAO, tramadol o dextrometorfano (véanse las fichas del atlas sobre síndrome serotoninérgico y MDMA) [fuente no localizada para la magnitud del riesgo]; en el registro ToxIC los antidepresivos fueron los agentes más frecuentes y el dextrometorfano y el tramadol figuraron entre los no antidepresivos más habituales (Moss 2019). En este contexto, la ciproheptadina no sustituye a la valoración hospitalaria: su efecto sedante se suma al de alcohol, GHB/GBL y otros depresores del SNC (ficha técnica, 4.4-4.5), y su acción anticolinérgica puede agravar la retención urinaria o la confusión. En el policonsumo con estimulantes (cocaína, metanfetamina, catinonas), el diagnóstico diferencial con la toxicidad simpaticomimética y anticolinérgica es clínico y la ciproheptadina no lo resuelve [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "mdma",
+        "chemsex_s",
+        "alucinogenos"
+       ],
+       "t": "MDMA y chemsex"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "metanf",
+        "mefed"
+       ],
+       "t": "Estimulantes en el policonsumo"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "alcohol"
+       ],
+       "t": "Depresores del SNC"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Es inadecuada como único tratamiento si hay hipertermia en ascenso, rigidez o inestabilidad hemodinámica: definen la toxicidad grave, que exige reanimación y soporte intensivo, con benzodiacepinas, intubación, parálisis y enfriamiento activo (Isbister 2007; Chiew 2025). Por vía oral, su pico plasmático tarda 6-9 h según la ficha (5.2), lo que limita su utilidad en cuadros que evolucionan en horas [fuente no localizada para la relevancia clínica de este dato]. La ficha la contraindica en personas de edad avanzada o debilitadas, con IMAO, glaucoma de ángulo estrecho, hipertrofia prostática u obstrucción urinaria o digestiva, y advierte de su uso prudente en asma, hipertiroidismo, enfermedad cardiovascular, insuficiencia renal y porfiria (4.3-4.4). Tras el episodio, la ficha recuerda que puede interferir con los antidepresivos serotoninérgicos y favorecer la recurrencia de la depresión (4.5).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "snm",
+        "cat_malig"
+       ],
+       "t": "Toxicidad serotoninérgica grave y diferencial"
+      },
+      {
+       "ids": [
+        "isrs",
+        "moclobemida",
+        "tranilcipromina"
+       ],
+       "t": "ISRS e IMAO"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Periactin 4 mg comprimidos (ciproheptadina) (n.º registro 35622), apartados 4.1-4.9, 5.1 y 5.2; revisión de febrero de 2023; consulta de noviembre de 2026",
+    "Graudins A, Stearman A & Chan B (1998). Treatment of the serotonin syndrome with cyproheptadine. J Emerg Med 16:615-619 · PMID 9696181",
+    "Isbister GK, Buckley NA & Whyte IM (2007). Serotonin toxicity: a practical approach to diagnosis and treatment. Med J Aust 187:361-365 · PMID 17874986",
+    "Chiew AL & Isbister GK (2025). Revisión sobre el tratamiento de la toxicidad serotoninérgica (título no disponible en el registro de PubMed). Br J Clin Pharmacol 91:654-661 · PMID 38926083",
+    "King E & Rotella JA (2025). Review article: Efficacy of cyproheptadine in the management of serotonin toxicity following deliberate self-poisoning - A systematic review. Emerg Med Australas 37:e14554 · PMID 39791184",
+    "Moss MJ et al. (2019). Serotonin Toxicity: Associated Agents and Clinical Characteristics. J Clin Psychopharmacol 39:628-633 · PMID 31688388"
+   ],
+   "rel": [
+    "sind_ser",
+    "mdma",
+    "snm",
+    "isrs",
+    "moclobemida",
+    "hidroxizina"
+   ]
+  }
+ ]
+}

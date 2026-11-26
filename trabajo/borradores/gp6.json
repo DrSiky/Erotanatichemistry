@@ -1,0 +1,548 @@
+{
+ "patch": {
+  "tdah_conduccion": {
+   "secAdd": [
+    {
+     "t": "Adolescencia y obtención del permiso",
+     "x": "En una cohorte retrospectiva de Nueva Jersey (2479 adolescentes y jóvenes con TDAH y 15 865 sin TDAH, historia clínica electrónica enlazada con los registros estatales de permisos y de accidentes), la probabilidad de haber obtenido el permiso seis meses después de cumplir la edad exigida fue un 35 % menor con TDAH (razón de riesgos ajustada 0,65 en varones y 0,64 en mujeres): se obtiene con menos frecuencia y más tarde. Una vez con permiso, el riesgo del primer accidente con atestado policial fue 1,36 veces mayor (IC 95 % 1,25-1,48), sin variación por sexo, edad de obtención ni a lo largo del tiempo. Solo el 12,1 % de quienes tenían TDAH tenía medicación prescrita en los 30 días previos a obtener el permiso (Curry 2017). La etapa de aprendizaje y los primeros años de conducción son, por tanto, el momento natural para revisar el tratamiento y hablar de seguridad vial con la persona joven y su familia; los mecanismos concretos que median el riesgo siguen sin aclararse, según los propios autores.",
+     "links": [
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "TDAH en la adolescencia y la edad adulta"
+      },
+      {
+       "ids": [
+        "estim_adulto"
+       ],
+       "t": "tratamiento farmacológico"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia experimental de la medicación sobre la conducción",
+     "x": "Los estudios de registro de la ficha muestran asociaciones poblacionales; la evidencia experimental procede de ensayos aleatorizados con simulador o vehículo real. Una revisión sistemática de 15 ensayos, en su mayoría cruzados, con metilfenidato de liberación inmediata, OROS y transdérmico, sales mixtas de anfetamina de liberación prolongada, atomoxetina y lisdexanfetamina, concluyó que los estimulantes a dosis terapéuticas mejoran el rendimiento en la conducción, de forma más constante en adolescentes y adultos jóvenes. El metilfenidato de liberación inmediata perdió eficacia por la tarde-noche y las sales de anfetamina de liberación prolongada empeoraron el rendimiento nocturno, mientras que con atomoxetina los resultados fueron contradictorios; no se observó un efecto negativo de los fármacos a dosis terapéuticas (Gobbo 2014). Los métodos (circuitos, escenarios y variables de resultado) fueron muy heterogéneos y las muestras pequeñas, por lo que la cobertura horaria del tratamiento respecto a los desplazamientos habituales es un dato clínico pertinente, pero no hay ensayos que midan accidentes reales.",
+     "links": [
+      {
+       "ids": [
+        "metilfenidato",
+        "lisdexanfetamina",
+        "atomoxetina"
+       ],
+       "t": "fármacos estudiados"
+      },
+      {
+       "ids": [
+        "no_estim_tdah"
+       ],
+       "t": "no estimulantes"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Curry AE et al. (2017). Motor vehicle crash risk among adolescents and young adults with attention-deficit/hyperactivity disorder. JAMA Pediatr 171:756-763 · PMID 28604931",
+    "Gobbo MA & Louzã MR (2014). Influence of stimulant and non-stimulant drug treatment on driving performance in patients with attention deficit hyperactivity disorder: a systematic review. Eur Neuropsychopharmacol 24:1425-1443 · PMID 25044052"
+   ]
+  },
+  "deb_func": {
+   "secAdd": [
+    {
+     "t": "Evidencia terapéutica y controversias",
+     "x": "La fisioterapia específica se sometió a un ensayo pragmático multicéntrico de fase 3 (Physio4FMD; 11 hospitales de Inglaterra y Escocia; 355 adultos con trastorno motor funcional clínicamente definido). Frente a la derivación a fisioterapia neurológica comunitaria habitual, nueve sesiones protocolizadas no mejoraron el dominio de función física del SF-36 a los 12 meses (diferencia media ajustada 3,5; IC 95 % −2,3 a 9,3). Más participantes del grupo específico valoraron sus síntomas motores como mejorados y obtuvieron mejores puntuaciones subjetivas de salud mental; no hubo acontecimientos adversos graves atribuibles a ninguna de las dos intervenciones. La pandemia obligó a excluir del análisis principal a 89 participantes (Nielsen 2024). El resultado no invalida la fisioterapia, que resultó segura y valorada en ambas ramas, pero modera las expectativas sobre un protocolo concreto y subraya la necesidad de criterios para seleccionar a quién y cuándo derivar. Los signos positivos son, por tanto, una herramienta diagnóstica y explicativa más sólida que cualquier tratamiento aislado.",
+     "links": [
+      {
+       "ids": [
+        "tx_tnf"
+       ],
+       "t": "tratamiento del trastorno neurológico funcional"
+      },
+      {
+       "ids": [
+        "conv",
+        "tmf"
+       ],
+       "t": "otros trastornos motores funcionales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nielsen G et al. (2024). Specialist physiotherapy for functional motor disorder in England and Scotland (Physio4FMD): a pragmatic, multicentre, phase 3 randomised controlled trial. Lancet Neurol 23:675-686 · PMID 38768621"
+   ]
+  },
+  "sueno_inf": {
+   "secAdd": [
+    {
+     "t": "Evidencia farmacológica y controversias",
+     "x": "El único fármaco con indicación para el insomnio infantil en España, la melatonina pediátrica de liberación prolongada, se apoya en ensayos realizados en poblaciones con trastornos del neurodesarrollo. En el ensayo pivotal de la melatonina pediátrica de liberación prolongada, 125 niños, niñas y adolescentes de 2 a 17,5 años (96,8 % con TEA y 3,2 % con síndrome de Smith-Magenis) cuyo sueño no había mejorado con intervención conductual se aleatorizaron a melatonina o placebo durante 13 semanas: el tiempo total de sueño aumentó 57,5 minutos con melatonina frente a 9,1 con placebo, la latencia se redujo sin adelantar la hora de despertar, y la respuesta clínicamente significativa fue del 68,9 % frente al 39,3 % (número necesario para tratar 3,4); la somnolencia fue el efecto adverso más frecuente (Gringras 2017). El requisito de fracaso previo de la intervención conductual, presente en el diseño del ensayo y en la ficha técnica, coloca al fármaco como complemento y no como sustituto. Fuera de esas indicaciones, el uso de melatonina o de antihistamínicos sedantes en el insomnio conductual de niños y niñas con desarrollo típico carece de ensayos que lo respalden [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "melatonina"
+       ],
+       "t": "melatonina"
+      },
+      {
+       "ids": [
+        "tea",
+        "smith_magenis"
+       ],
+       "t": "TEA y síndrome de Smith-Magenis"
+      },
+      {
+       "ids": [
+        "tcci"
+       ],
+       "t": "tratamiento conductual del insomnio"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Gringras P et al. (2017). Efficacy and safety of pediatric prolonged-release melatonin for insomnia in children with autism spectrum disorder. J Am Acad Child Adolesc Psychiatry 56:948-957.e4 · PMID 29096777"
+   ]
+  },
+  "sueno_dem": {
+   "secAdd": [
+    {
+     "t": "Evidencia de las intervenciones no farmacológicas",
+     "x": "La recomendación de medidas conductuales como primera línea descansa en ensayos pequeños. En el ensayo NITE-AD, 36 personas con enfermedad de Alzheimer que vivían en su domicilio y sus cuidadores familiares recibieron educación sobre higiene del sueño; en el grupo activo (17), además, formación del cuidador en manejo conductual, paseo diario y aumento de la exposición a luz con caja de luz. Frente al control, el grupo activo redujo en la actigrafía los despertares nocturnos y el tiempo de vigilia nocturna, y también la depresión, con mantenimiento a los seis meses (McCurry 2005). En cambio, la terapia con luz brillante aislada no mostró efecto sobre el sueño, la agitación, los síntomas psiquiátricos ni la cognición en la revisión Cochrane de 11 ensayos, que concluyó que la evidencia es insuficiente para justificarla en la demencia (Forbes 2014). La lectura conjunta favorece programas multicomponente centrados en el cuidador, la actividad diurna y la rutina, más que la luz como intervención única, y explica por qué la formación del cuidador es parte del tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "luz_melatonina",
+        "circ_sueno"
+       ],
+       "t": "luz y ritmo circadiano"
+      },
+      {
+       "ids": [
+        "nf_bpsd",
+        "bpsd"
+       ],
+       "t": "intervenciones no farmacológicas en los síntomas conductuales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "McCurry SM et al. (2005). Nighttime insomnia treatment and education for Alzheimer's disease: a randomized, controlled trial. J Am Geriatr Soc 53:793-802 · PMID 15877554",
+    "Forbes D et al. (2014). Light therapy for improving cognition, activities of daily living, sleep, challenging behaviour, and psychiatric disturbances in dementia. Cochrane Database Syst Rev 2014:CD003946 · PMID 24574061"
+   ]
+  },
+  "apocalipsis_conrad": {
+   "secAdd": [
+    {
+     "t": "Correspondencias con el modelo de saliencia aberrante",
+     "x": "Las fases tardías de Conrad admiten una lectura en clave del modelo de saliencia aberrante, aunque la correspondencia es interpretativa y no procede de Conrad. Kapur (2003) propone que un estado hiperdopaminérgico desregulado lleva a asignar una relevancia anómala a los elementos de la experiencia; el delirio sería un esfuerzo cognitivo por dar sentido a esas experiencias y la alucinación la vivencia directa de la saliencia aberrante de representaciones internas. Según el mismo autor, los antipsicóticos «amortiguan la saliencia» y ofrecen una plataforma para la resolución psicológica, pero no borran los síntomas: si se suspende el tratamiento, las ideas latentes vuelven a cargarse de saliencia y se produce la recaída (Kapur 2003). Esta descripción se aproxima a lo que Conrad llamó consolidación, una reconstrucción parcial en la que el delirio puede quedar encapsulado sin desaparecer, y ayuda a explicar por qué el residuo no equivale a la curación. Que la fase apocalíptica corresponda al grado máximo de saliencia aberrante es una extrapolación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "saliencia",
+        "dopa_hyp"
+       ],
+       "t": "saliencia aberrante e hipótesis dopaminérgica"
+      },
+      {
+       "ids": [
+        "apofania",
+        "conrad_1958"
+       ],
+       "t": "fases previas y obra de Conrad"
+      },
+      {
+       "ids": [
+        "delirio"
+       ],
+       "t": "idea delirante"
+      }
+     ]
+    },
+    {
+     "t": "Valor clínico actual y límites",
+     "x": "Las fases de Conrad no se utilizan como criterios diagnósticos y no tienen escalas validadas; su utilidad es orientar la exploración fenomenológica del curso de un episodio. La investigación actual sobre el inicio de la psicosis se ha centrado en las fases tempranas: la guía de la Asociación Europea de Psiquiatría sobre detección precoz, basada en un metaanálisis de 42 muestras con más de 4000 personas en riesgo clínico, recomienda los criterios de ultra alto riesgo y el criterio de síntomas básicos de alteraciones cognitivas (COGDIS), con tasas de transición similares hasta los dos años y más altas con COGDIS a partir de entonces (Schultze-Lutter 2015). La tradición de síntomas básicos procede de Huber, contemporáneo de Conrad, mientras que las fases apocalíptica, de consolidación y residual han recibido mucha menos atención empírica [fuente no localizada]. En la práctica, identificar una desestructuración global de la vivencia obliga a descartar causas orgánicas y tóxicas y a tratar el episodio como urgencia; reconocer la consolidación ayuda a no confundir la persistencia encapsulada del delirio con falta de respuesta, y el residuo plantea la diferencia con los síntomas negativos secundarios.",
+     "links": [
+      {
+       "ids": [
+        "urh",
+        "bsabs"
+       ],
+       "t": "estados de alto riesgo y síntomas básicos"
+      },
+      {
+       "ids": [
+        "pep",
+        "esqneg"
+       ],
+       "t": "primer episodio y síntomas negativos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kapur S (2003). Psychosis as a state of aberrant salience: a framework linking biology, phenomenology, and pharmacology in schizophrenia. Am J Psychiatry 160:13-23 · PMID 12505794",
+    "Schultze-Lutter F et al. (2015). EPA guidance on the early detection of clinical high risk states of psychoses. Eur Psychiatry 30:405-416 · PMID 25735810"
+   ]
+  },
+  "hikikomori": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias",
+     "x": "La heterogeneidad de las definiciones es el principal problema empírico. Una revisión sistemática de 52 estudios (4744 personas) halló que más del 80 % incluía en sus criterios no trabajar ni estudiar, no relacionarse fuera del domicilio y una duración mínima; el análisis temporal sugirió que la edad de las personas estudiadas ha aumentado con los años, y fuera de Japón la edad fue mayor, la proporción de varones menor y la duración más corta. Los autores advierten de un alto riesgo de sesgo de selección, por lo que los resultados pueden reflejar la percepción de los investigadores más que la realidad clínica (Nonaka 2022). Otra revisión sistemática (17 estudios, en su mayoría transversales o de casos) asoció el hikikomori al uso adictivo de tecnologías digitales, videojuegos y redes sociales, sin diferencias culturales, con antecedentes de acoso, baja autoestima y duelo como precursores; no existen tratamientos basados en la evidencia específicos (Sales-Filho 2023). La dirección de la relación con internet (causa, refugio o consecuencia del aislamiento) no está establecida.",
+     "links": [
+      {
+       "ids": [
+        "pantallas",
+        "juegoP"
+       ],
+       "t": "uso problemático de pantallas y trastorno de juego"
+      },
+      {
+       "ids": [
+        "cult_bound"
+       ],
+       "t": "síndromes ligados a la cultura"
+      },
+      {
+       "ids": [
+        "soledad"
+       ],
+       "t": "soledad y aislamiento"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Nonaka S, Takeda T & Sakai M (2022). Who are hikikomori? Demographic and clinical features of hikikomori (prolonged social withdrawal): a systematic review. Aust N Z J Psychiatry 56:1542-1554 · PMID 35332798",
+    "Sales-Filho GS et al. (2023). Hikikomori syndrome and digital technologies: a systematic review. Harv Rev Psychiatry 31:50-59 · PMID 36884037"
+   ]
+  },
+  "lorazepam": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "Según el apartado 5.1 de la ficha técnica de Orfidal (AEMPS-CIMA), el lorazepam es una benzodiacepina con propiedades ansiolíticas, sedantes e hipnóticas, sin acción atáxica o relajante muscular a las dosis terapéuticas prescritas (código ATC N05BA06). La ficha reconoce que el mecanismo exacto de las benzodiacepinas no se ha dilucidado: presumiblemente actúan uniéndose a receptores específicos en varios lugares del sistema nervioso central, potenciando la inhibición sináptica o presináptica mediada por el ácido gamma-aminobutírico (GABA) o afectando directamente a los mecanismos de generación del potencial de acción. Ese efecto modulador del GABA explica tanto su utilidad en la ansiedad aguda, el insomnio y las crisis epilépticas como la sinergia depresora con el alcohol, los opioides y el GHB/GBL, y la adaptación que subyace a la tolerancia y a la abstinencia tras el uso prolongado. La ausencia de metabolitos activos y la glucuronidación, ya descritas en la ficha del atlas, condicionan una acción más previsible que la de las benzodiacepinas de semivida larga.",
+     "links": [
+      {
+       "ids": [
+        "gaba_interneur"
+       ],
+       "t": "sistema GABA"
+      },
+      {
+       "ids": [
+        "ansiol_bzd",
+        "diazepam"
+       ],
+       "t": "otras benzodiacepinas"
+      },
+      {
+       "ids": [
+        "bzd_dep"
+       ],
+       "t": "tolerancia y dependencia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia en catatonía, agitación y estatus epiléptico",
+     "x": "Los usos hospitalarios más característicos descansan en evidencia de calidad desigual. En la catatonía, con una prevalencia estimada de alrededor del 10 % de los pacientes y las pacientes psiquiátricos hospitalizados, la investigación es escasa, pero la evidencia clínica de eficacia de benzodiacepinas como el lorazepam y de la terapia electroconvulsiva es abrumadora (Sienaert 2014). En la agitación o la agresividad de origen psicótico, la revisión Cochrane (20 ensayos, 695 participantes; calidad baja o muy baja) no halló diferencias claras con haloperidol en sedación ni en mejoría, con menos efectos extrapiramidales; añadir una benzodiacepina a un antipsicótico no aportó una ventaja clara y aumentó la sedación (Zaman 2017). En el estatus epiléptico extrahospitalario, en un ensayo doble ciego de 205 adultos, la crisis había cedido al llegar a urgencias en el 59,1 % con lorazepam intravenoso, el 42,6 % con diazepam y el 21,1 % con placebo, sin más complicaciones respiratorias o circulatorias que con placebo (Alldredge 2001). En España, el estatus epiléptico figura solo en la presentación inyectable, y la catatonía y la agitación son usos fuera de ficha técnica.",
+     "links": [
+      {
+       "ids": [
+        "catatonia",
+        "cat_malig",
+        "tec_dep"
+       ],
+       "t": "catatonía y terapia electroconvulsiva"
+      },
+      {
+       "ids": [
+        "agitacion",
+        "haloperidol",
+        "olanzapina"
+       ],
+       "t": "agitación y alternativas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sienaert P et al. (2014). A clinical review of the treatment of catatonia. Front Psychiatry 5:181 · PMID 25538636",
+    "Zaman H et al. (2017). Benzodiazepines for psychosis-induced aggression or agitation. Cochrane Database Syst Rev 12:CD003079 · PMID 29219171",
+    "Alldredge BK et al. (2001). A comparison of lorazepam, diazepam, and placebo for the treatment of out-of-hospital status epilepticus. N Engl J Med 345:631-637 · PMID 11547716"
+   ]
+  },
+  "naltrexona": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "El apartado 5.1 de la ficha técnica de Tranalex (AEMPS-CIMA) la define como un antagonista opiáceo específico con actividad agonista mínima que actúa por competición estereoespecífica con receptores localizados sobre todo en el sistema nervioso central y periférico, y bloquea el acceso de los opiáceos de administración exógena. No provoca dependencia física ni mental, no se ha observado tolerancia a su efecto antagonista y no es un tratamiento aversivo: no causa una reacción de tipo disulfiram tras consumir opiáceos o alcohol. En el alcoholismo, la ficha admite que el mecanismo no se ha dilucidado por completo y plantea la hipótesis de que el consumo se refuerza por una estimulación del sistema opioide endógeno inducida por el alcohol; su efecto principal parece ser reducir el riesgo de pasar de un consumo limitado a una recaída completa con ingesta compulsiva, una «segunda oportunidad» frente al refuerzo, con efecto también sobre el craving. Esta diferencia con el disulfiram es clave para explicar el tratamiento a quien consulta.",
+     "links": [
+      {
+       "ids": [
+        "opioide_endog",
+        "recompensa"
+       ],
+       "t": "sistema opioide endógeno y recompensa"
+      },
+      {
+       "ids": [
+        "disulfiram",
+        "acamprosato",
+        "nalmefeno"
+       ],
+       "t": "otros fármacos para el alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia en opioides y en estimulantes",
+     "x": "La utilidad de la naltrexona oral en la dependencia de opioides es limitada por la adherencia. La revisión Cochrane de 13 ensayos (1158 participantes) no halló diferencias frente a placebo o a la ausencia de tratamiento farmacológico en los resultados principales; solo cuando la adherencia estaba supervisada u obligada mejoraron la retención y la abstinencia, y la retención media fue del 28 %, por lo que los autores concluyen que no puede considerarse un tratamiento superior a otros (Minozzi 2011). En el trastorno por consumo de metanfetamina, relevante en el chemsex, el ensayo ADAPT-2 (403 adultos) combinó naltrexona inyectable de liberación prolongada con bupropión oral: la respuesta, definida por orinas negativas, fue baja pero mayor que con placebo (13,6 % frente a 2,5 %; efecto de 11,1 puntos porcentuales) (Trivedi 2021). Este resultado no es trasladable a la naltrexona oral, la forma inyectable no consta en CIMA y la metanfetamina no figura entre las indicaciones autorizadas.",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "buprenorfina",
+        "buvidal"
+       ],
+       "t": "dependencia de opioides y alternativas"
+      },
+      {
+       "ids": [
+        "metanf",
+        "bupropion",
+        "chemsex_s"
+       ],
+       "t": "metanfetamina y chemsex"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "AEMPS-CIMA (2026). Ficha técnica Tranalex 50 mg comprimidos recubiertos con película EFG (n.º registro 73938), apartado 5.1 Propiedades farmacodinámicas; consulta de noviembre de 2026",
+    "Minozzi S et al. (2011). Oral naltrexone maintenance treatment for opioid dependence. Cochrane Database Syst Rev 2011:CD001333 · PMID 21491383",
+    "Trivedi MH et al. (2021). Bupropion and naltrexone in methamphetamine use disorder. N Engl J Med 384:140-153 · PMID 33497547"
+   ]
+  },
+  "automedicacion": {
+   "secAdd": [
+    {
+     "t": "Evidencia longitudinal y modelos neurobiológicos afines",
+     "x": "El dato prospectivo más directo procede de las dos oleadas de la encuesta estadounidense NESARC (34 653 adultos, con tres años de separación): entre quienes tenían un trastorno de ansiedad al inicio, automedicarse con alcohol u otras drogas se asoció a un riesgo claramente mayor de desarrollar un trastorno por consumo nuevo (odds ratio ajustadas de 2,50 a 4,99); a la inversa, en quienes partían de un trastorno por consumo, la automedicación se asoció a la aparición de fobia social (Robinson 2011). La relación es, por tanto, bidireccional y la automedicación identifica una población de riesgo en la que intervenir. En el plano neurobiológico, el modelo de tres fases de Koob y Volkow describe una etapa de abstinencia y afecto negativo en la que disminuye la función dopaminérgica de la recompensa y se reclutan sistemas de estrés como el factor liberador de corticotropina y la dinorfina en la amígdala extendida (Koob 2016). Esa vía de refuerzo negativo ofrece un mecanismo compatible con la automedicación, aunque el estado afectivo que se alivia puede ser, en parte, consecuencia del propio consumo.",
+     "links": [
+      {
+       "ids": [
+        "adiccion_3fases",
+        "recompensa"
+       ],
+       "t": "modelo de tres fases y recompensa"
+      },
+      {
+       "ids": [
+        "anx_sust",
+        "fobia_soc"
+       ],
+       "t": "ansiedad, fobia social y consumo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Robinson J et al. (2011). Role of self-medication in the development of comorbid anxiety and substance use disorders: a longitudinal investigation. Arch Gen Psychiatry 68:800-807 · PMID 21810645",
+    "Koob GF & Volkow ND (2016). Neurobiology of addiction: a neurocircuitry analysis. Lancet Psychiatry 3:760-773 · PMID 27475769"
+   ]
+  },
+  "sist_endocannab": {
+   "secAdd": [
+    {
+     "t": "Modulación farmacológica y seguridad",
+     "x": "Dos episodios farmacológicos ilustran la relevancia psiquiátrica y los riesgos de intervenir sobre este sistema. El rimonabant, fármaco antiobesidad que bloquea el receptor CB1 [fuente no localizada], aumentó los acontecimientos adversos psiquiátricos en un metaanálisis de cuatro ensayos (4105 participantes): las personas tratadas tuvieron 2,5 veces más probabilidad de abandonar por trastornos depresivos y más abandonos por ansiedad que con placebo, pese a que el ánimo deprimido era criterio de exclusión; los autores recordaron además el hallazgo de la FDA de mayor riesgo de suicidio (Christensen 2007). El fármaco fue retirado del mercado europeo [fuente no localizada]. En sentido opuesto, el inhibidor de la FAAH BIA 10-2474, que eleva los endocannabinoides, provocó en un ensayo de fase 1 un síndrome neurológico agudo y rápidamente progresivo en tres de cuatro voluntarios con datos publicados, con lesiones en protuberancia e hipocampos, una muerte encefálica y secuelas de memoria y cerebelosas, por un mecanismo aún desconocido (Kerbrat 2016). Que la señalización CB1 contribuya al equilibrio afectivo es una inferencia [fuente no localizada], y el caso del BIA 10-2474 muestra que la inhibición enzimática no es intrínsecamente segura.",
+     "links": [
+      {
+       "ids": [
+        "cannabis_psic",
+        "nps_can"
+       ],
+       "t": "cannabis y cannabinoides sintéticos"
+      },
+      {
+       "ids": [
+        "miedo_circ"
+       ],
+       "t": "circuitos del miedo y la ansiedad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Christensen R et al. (2007). Efficacy and safety of the weight-loss drug rimonabant: a meta-analysis of randomised trials. Lancet 370:1706-1713 · PMID 18022033",
+    "Kerbrat A et al. (2016). Acute neurologic disorder from an inhibitor of fatty acid amide hydrolase. N Engl J Med 375:1717-1725 · PMID 27806235"
+   ]
+  },
+  "hipocampo_psicosis": {
+   "secAdd": [
+    {
+     "t": "Evidencia en estados de alto riesgo",
+     "x": "La predicción del modelo animal (la hiperactividad hipocampal impulsa la actividad del mesencéfalo y de los ganglios basales) se ha contrastado en personas en estado de ultra alto riesgo. Con marcaje arterial de espín, 52 personas en alto riesgo mostraron, frente a 27 voluntarios sanos, un flujo sanguíneo cerebral regional en reposo elevado en hipocampo, ganglios basales y mesencéfalo. A los 17 meses de media, quienes dejaron de cumplir criterios de alto riesgo redujeron el flujo en el hipocampo izquierdo, algo que no se observó en quienes siguieron en riesgo o desarrollaron psicosis (Allen 2016). La normalización de la actividad hipocampal acompañó a la remisión clínica, lo que respalda la secuencia propuesta y sugiere un posible biomarcador de estado. Las limitaciones son la muestra reducida, el escaso número de transiciones y la naturaleza correlacional del hallazgo, que no permite afirmar que reducir la actividad hipocampal prevenga la psicosis.",
+     "links": [
+      {
+       "ids": [
+        "urh"
+       ],
+       "t": "estados de alto riesgo"
+      },
+      {
+       "ids": [
+        "dopa_hyp",
+        "nmda_psic"
+       ],
+       "t": "hipótesis dopaminérgica y glutamatérgica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Allen P et al. (2016). Resting hyperperfusion of the hippocampus, midbrain, and basal ganglia in people at high risk for psychosis. Am J Psychiatry 173:392-399 · PMID 26684922"
+   ]
+  },
+  "rumiacion_persev": {
+   "secAdd": [
+    {
+     "t": "Evaluación y medida",
+     "x": "Las medidas clásicas de rumiación se centran en contenidos depresivos, y la de la preocupación en contenidos ansiosos. Para captar el pensamiento negativo repetitivo como proceso transdiagnóstico, el Perseverative Thinking Questionnaire (15 ítems) se validó en dos estudios con 1832 participantes clínicos y no clínicos: un factor general y tres factores de primer orden (repetitividad, intrusividad y dificultad para desengancharse; improductividad percibida; y ocupación de la capacidad mental), con alta consistencia interna, buena fiabilidad test-retest y asociación con los síntomas y los diagnósticos de depresión y ansiedad (Ehring 2011). Para interpretar la medida conviene recordar que el pensamiento repetitivo no siempre es perjudicial: puede facilitar la recuperación tras sucesos traumáticos, la planificación y la recuperación de la depresión, y sus consecuencias dependen de la valencia del contenido, del contexto y del nivel de construcción, abstracto o concreto (Watkins 2008). Esa distinción es la base de las técnicas que entrenan un procesamiento concreto.",
+     "links": [
+      {
+       "ids": [
+        "preocup_evit"
+       ],
+       "t": "preocupación"
+      },
+      {
+       "ids": [
+        "tmc_wells",
+        "mbct"
+       ],
+       "t": "intervenciones sobre el pensamiento repetitivo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ehring T et al. (2011). The Perseverative Thinking Questionnaire (PTQ): validation of a content-independent measure of repetitive negative thinking. J Behav Ther Exp Psychiatry 42:225-232 · PMID 21315886",
+    "Watkins ER (2008). Constructive and unconstructive repetitive thought. Psychol Bull 134:163-206 · PMID 18298268"
+   ]
+  },
+  "inmunometab_dep": {
+   "secAdd": [
+    {
+     "t": "Evidencia terapéutica antiinflamatoria",
+     "x": "Si la dimensión inmunometabólica tuviera valor terapéutico, cabría esperar que los fármacos antiinflamatorios aliviaran la depresión. Un metaanálisis de 36 ensayos aleatorizados (antiinflamatorios no esteroideos, inhibidores de citocinas, estatinas, minociclina, pioglitazona y glucocorticoides) encontró que mejoraban los síntomas depresivos frente a placebo, tanto añadidos al tratamiento en el trastorno depresivo mayor (diferencia de medias estandarizada −0,64; 597 participantes) como en monoterapia (−0,41; 8825 participantes, con heterogeneidad muy alta), con mejor respuesta y remisión en la potenciación. Todos los estudios tenían alto riesgo de sesgo y se observó una tendencia a más infecciones; los autores reclaman seguimientos más largos e identificar los subgrupos que puedan beneficiarse (Köhler-Forsberg 2019). El metaanálisis no seleccionó a los participantes por inflamación ni por perfil metabólico, de modo que no confirma el modelo; ninguno de estos fármacos tiene indicación autorizada para la depresión, y su uso debe limitarse a ensayos clínicos.",
+     "links": [
+      {
+       "ids": [
+        "inflam"
+       ],
+       "t": "inflamación y depresión"
+      },
+      {
+       "ids": [
+        "drt",
+        "ddm"
+       ],
+       "t": "depresión mayor y resistente"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Köhler-Forsberg O et al. (2019). Efficacy of anti-inflammatory treatment on major depressive disorder or depressive symptoms: meta-analysis of clinical trials. Acta Psychiatr Scand 139:404-419 · PMID 30834514"
+   ]
+  },
+  "premorb_cohortes": {
+   "secAdd": [
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Los hallazgos de las cohortes dieron cuerpo empírico a la hipótesis del neurodesarrollo formulada en 1987 por Murray y Lewis y por Weinberger. Este último propuso una «lesión» fija, temprana e inactiva mucho antes del diagnóstico, que interactúa con la maduración cerebral normal, sobre todo de la corteza prefrontal dorsolateral, de modo que los síntomas diagnósticos aparecerían cuando maduran las áreas afectadas (Weinberger 1987). La genética poligénica permite hoy preguntar si los antecedentes infantiles expresan la carga hereditaria: en la cohorte ALSPAC, la puntuación de riesgo poligénico de esquizofrenia se asoció a los 7-9 años con un menor CI manipulativo, peor comprensión social, peor inteligibilidad y fluidez del lenguaje, más irritabilidad y conducta más obstinada, y predijo dificultades sociales y conductuales ya a los 4 años (Riglin 2017). Los efectos fueron muy pequeños (odds ratio de 1,07 a 1,13), coherentes con la ausencia de valor predictivo individual, y no excluyen la contribución de factores obstétricos y ambientales.",
+     "links": [
+      {
+       "ids": [
+        "neurodev",
+        "compl_obst"
+       ],
+       "t": "hipótesis del neurodesarrollo y complicaciones obstétricas"
+      },
+      {
+       "ids": [
+        "prs",
+        "prs_clin"
+       ],
+       "t": "puntuaciones de riesgo poligénico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Murray RM & Lewis SW (1987). Is schizophrenia a neurodevelopmental disorder? Br Med J (Clin Res Ed) 295:681-682 · PMID 3117295",
+    "Weinberger DR (1987). Implications of normal brain development for the pathogenesis of schizophrenia. Arch Gen Psychiatry 44:660-669 · PMID 3606332",
+    "Riglin L et al. (2017). Schizophrenia risk alleles and neurodevelopmental outcomes in childhood: a population-based cohort study. Lancet Psychiatry 4:57-62 · PMID 27932233"
+   ]
+  },
+  "fasd": {
+   "set": {
+    "tx": "Sin tratamiento farmacológico del cuadro nuclear [fuente no localizada]: el manejo es multidisciplinar y adaptado a la edad. Prevención mediante información y cribado del consumo de alcohol antes y durante el embarazo, con atención no punitiva a la gestante; diagnóstico precoz por un equipo con experiencia (pediatría, neuropsicología, genética clínica cuando hay dudas sobre el fenotipo); intervenciones sobre autorregulación y atención, entrenamiento adaptado en habilidades sociales y formación y apoyo a familias y cuidadores, que son las que muestran indicios más prometedores (Reid 2015); apoyos educativos, entorno estructurado y estabilidad del cuidado, asociados a mejores desenlaces (Streissguth 2004). La comorbilidad (TDAH, trastornos del ánimo, del sueño y por consumo) se trata según sus guías, con seguimiento estrecho de la respuesta. Planificación de la transición a la vida adulta y consideración del diagnóstico en el ámbito judicial."
+   }
+  },
+  "tripartito": {
+   "featsAdd": [
+    "Infancia y adolescencia: en 216 menores con trastornos de ansiedad o con ansiedad y trastorno del estado de ánimo comórbidos, con informes de progenitores y del propio menor, el mejor ajuste fue una solución de tres factores (miedo, ansiedad y depresión) coherente con el modelo tripartito; varias escalas infantiles de emoción negativa resultaron conceptualmente heterogéneas (Chorpita 1998)"
+   ],
+   "refsAdd": [
+    "Chorpita BF, Albano AM & Barlow DH (1998). The structure of negative emotions in a clinical sample of children and adolescents. J Abnorm Psychol 107:74-85 · PMID 9505040"
+   ]
+  },
+  "bdnf_np": {
+   "featsAdd": [
+    "Esquizofrenia: BDNF sanguíneo reducido frente a controles en 16 estudios (g de Hedges −0,46; IC 95 % −0,77 a −0,15), tanto en pacientes sin tratamiento previo como medicados y sin efecto de la dosis, con heterogeneidad considerable no explicada y mayor reducción con la edad (Green 2011)"
+   ],
+   "refsAdd": [
+    "Green MJ et al. (2011). Brain-derived neurotrophic factor levels in schizophrenia: a systematic review with meta-analysis. Mol Psychiatry 16:960-972 · PMID 20733577"
+   ]
+  },
+  "zubin": {
+   "featsAdd": [
+    "Reactividad emocional al estrés cotidiano como marcador de vulnerabilidad: con el método de muestreo de experiencias, las personas con psicosis (42) reaccionaron con emociones más intensas al estrés diario que los controles (49), y sus familiares de primer grado (47) mostraron un patrón intermedio, con gradiente dosis-respuesta según el riesgo familiar (Myin-Germeys 2001)"
+   ],
+   "refsAdd": [
+    "Myin-Germeys I et al. (2001). Emotional reactivity to daily life stress in psychosis. Arch Gen Psychiatry 58:1137-1144 · PMID 11735842"
+   ]
+  },
+  "estigma": {
+   "featsAdd": [
+    "Discriminación experimentada (estudio INDIGO, 732 personas con esquizofrenia en 27 países): el 47 % la sufrió al hacer o mantener amistades, el 43 % por parte de familiares, el 29 % al buscar empleo y el 29 % al conservarlo (Thornicroft 2009)",
+    "Discriminación anticipada: el 64 % la esperaba al solicitar trabajo o formación y el 72 % sentía necesidad de ocultar el diagnóstico; más de un tercio la anticipaba en el empleo o en las relaciones íntimas sin haberla sufrido (Thornicroft 2009)",
+    "Tendencias en población general (16 estudios nacionales): más conocimientos, más aceptación de un modelo biológico y de la ayuda profesional, pero sin mejora, o incluso con empeoramiento, de las actitudes hacia las personas con trastorno mental (Schomerus 2012)",
+    "Estigma en la atención sanitaria: en 19 de 27 estudios con trastorno mental y en 10 de 10 con trastorno por consumo la calidad de la atención médica fue inferior en al menos un dominio, pese a un número similar o mayor de contactos (Mitchell 2009)"
+   ],
+   "refsAdd": [
+    "Thornicroft G et al. (2009). Global pattern of experienced and anticipated discrimination against people with schizophrenia: a cross-sectional survey. Lancet 373:408-415 · PMID 19162314",
+    "Schomerus G et al. (2012). Evolution of public attitudes about mental illness: a systematic review and meta-analysis. Acta Psychiatr Scand 125:440-452 · PMID 22242976",
+    "Mitchell AJ, Malone D & Doebbeling CC (2009). Quality of medical care for people with and without comorbid mental illness and substance misuse: systematic review of comparative studies. Br J Psychiatry 194:491-499 · PMID 19478286"
+   ]
+  },
+  "burton": {
+   "featsAdd": [
+    "Descripción de cuadros de ansiedad dentro de la melancolía en el largo periodo, entre la Antigüedad y finales del siglo XIX, en que la ansiedad no se clasificaba como enfermedad separada (Crocq 2015)"
+   ]
+  },
+  "juicio": {
+   "refsAdd": [
+    "Okai D et al. (2007). Mental capacity in psychiatric patients: systematic review. Br J Psychiatry 191:291-297 · PMID 17906238"
+   ]
+  }
+ },
+ "add": []
+}

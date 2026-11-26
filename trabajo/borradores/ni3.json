@@ -1,0 +1,447 @@
+{
+ "patch": {
+  "clorpromazina_hit": {
+   "relAdd": [
+    "reserpina_hit",
+    "janssen_hit",
+    "meprobamato_hit"
+   ]
+  },
+  "carlsson_hit": {
+   "relAdd": [
+    "reserpina_hit",
+    "janssen_hit"
+   ]
+  },
+  "kline_hit": {
+   "relAdd": [
+    "reserpina_hit"
+   ]
+  },
+  "schildkraut_hit": {
+   "relAdd": [
+    "reserpina_hit"
+   ]
+  },
+  "vmat2_td": {
+   "relAdd": [
+    "reserpina_hit"
+   ]
+  },
+  "haloperidol": {
+   "relAdd": [
+    "janssen_hit"
+   ]
+  },
+  "risperidona": {
+   "relAdd": [
+    "janssen_hit"
+   ]
+  },
+  "paliperidona": {
+   "relAdd": [
+    "janssen_hit"
+   ]
+  },
+  "sternbach_hit": {
+   "relAdd": [
+    "meprobamato_hit"
+   ]
+  },
+  "ansiol_bzd": {
+   "relAdd": [
+    "meprobamato_hit"
+   ]
+  },
+  "bzd_dep": {
+   "relAdd": [
+    "meprobamato_hit"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "reserpina_hit",
+   "n": "La reserpina en psiquiatría: Rauwolfia, Kline y la depleción de monoaminas (1954)",
+   "ab": "Reserpina",
+   "al": [
+    "Rauwolfia serpentina",
+    "Serpasil",
+    "Nathan S. Kline",
+    "depresión por reserpina",
+    "depleción de monoaminas"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "hist",
+   "y": 1954,
+   "tags": [],
+   "desc": "La reserpina, alcaloide de Rauwolfia serpentina aislado y caracterizado como «principio sedante» en los laboratorios Ciba de Basilea (Müller, Schlittler y Bein 1952), se empleó primero como antihipertensivo y, desde 1954, en el tratamiento de la esquizofrenia, con Nathan S. Kline entre sus introductores (Kline 1954; López-Muñoz et al. 2004). Junto con la clorpromazina inauguró la era psicofarmacológica, pero su declive clínico fue rápido por sus efectos extrapiramidales y por los cuadros depresivos que se le atribuyeron, fenómeno hoy cuestionado (López-Muñoz et al. 2004). Su legado más duradero fue experimental: el hallazgo de que agota las monoaminas cerebrales (Shore, Silver y Brodie 1955; Pletscher, Shore y Brodie 1955) convirtió la «depresión por reserpina» en un pilar de la hipótesis monoaminérgica, argumento que la historiografía posterior ha discutido (Baumeister et al. 2003).",
+   "feats": [
+    "1952: aislamiento de la reserpina como «principio sedante» de Rauwolfia serpentina en Ciba (Müller, Schlittler y Bein 1952, Experientia 8:338); ese mismo año se introdujo como antihipertensivo con el nombre de Serpasil (Jerie 2007).",
+    "1949: Vakil publica en el British Heart Journal un ensayo clínico de Rauwolfia serpentina en la hipertensión esencial (Vakil 1949); la planta se usaba en la medicina tradicional india para la locura, el insomnio y las mordeduras de serpiente (Jerie 2007).",
+    "1954: Kline comunica el uso de Rauwolfia serpentina en trastornos neuropsiquiátricos (Ann N Y Acad Sci 59:107-132); la introducción psiquiátrica de la reserpina, iniciada ese año, contó con Kline, Delay, Noce, Hollister y Altschule, entre otros (López-Muñoz et al. 2004).",
+    "1955: Shore, Silver y Brodie describen la interacción de la reserpina con la serotonina cerebral, y Pletscher, Shore y Brodie proponen la liberación de serotonina como posible mecanismo de acción (Science 122:284-285 y 374-375).",
+    "Mecanismo actual: la reserpina inhibe de forma potente el transportador vesicular de monoaminas VMAT2, diana compartida con la tetrabenazina (Wu et al. 2025).",
+    "En la revisión Cochrane de nueve ensayos realizados entre 1955 y 1962, la clorpromazina superó a la reserpina en la mejoría global a corto plazo (6 ECA, n = 781; RR de no mejorar 0,75; IC 95 % 0,62-0,92; calidad baja) (Nur y Adams 2016)."
+   ],
+   "note": "La relación entre reserpina y depresión sigue en discusión: las primeras series procedían de personas hipertensas tratadas durante largos periodos con dosis altas (Freis 1954), y una revisión historiográfica sostiene que la reserpina no es depresógena y que el «mito» se mantuvo por su utilidad para la hipótesis monoaminérgica (Baumeister et al. 2003). En sentido contrario, en voluntarios sanos una semana de reserpina produjo síntomas depresivos con más frecuencia que el haloperidol o el aripiprazol (Veselinović et al. 2011). La reserpina ha dejado de emplearse en psiquiatría; la revisión Cochrane señala su retirada en el Reino Unido (Nur y Adams 2016). Las fechas de los primeros usos varían entre fuentes.",
+   "sec": [
+    {
+     "t": "Contexto histórico",
+     "x": "Las preparaciones de raíz de Rauwolfia se usaban en la medicina tradicional india contra la mordedura de serpiente, el insomnio y la locura; en Europa la planta fue descrita por Rumpf en su Herbarium amboinense (1755), y el primer trabajo moderno sobre sus aplicaciones terapéuticas lo publicaron Sen y Bose en 1931 en el Indian Medical Journal (Jerie 2007). Bhatara et al. (1997) la presentan como «el primer antipsicótico de origen vegetal», aunque su breve nota carece de resumen indexado. La vía de entrada en Occidente fue cardiovascular: Vakil (1949) publicó un ensayo clínico en la hipertensión esencial, y en 1952 Müller, Schlittler y Bein aislaron en Ciba la reserpina, que se comercializó ese año como antihipertensivo (Jerie 2007). La psiquiatría disponía entonces de la clorpromazina, introducida dos años antes, como único recurso farmacológico comparable (López-Muñoz et al. 2004). La revisión Cochrane sitúa el inicio de su uso en trastornos mentales en los años cuarenta (Nur y Adams 2016), discrepancia que refleja la confusión entre la raíz y el alcaloide purificado.",
+     "links": [
+      {
+       "ids": [
+        "clorpromazina_hit"
+       ],
+       "t": "Clorpromazina (1952)"
+      },
+      {
+       "ids": [
+        "litio_hit"
+       ],
+       "t": "Otro tratamiento somático de la época"
+      }
+     ]
+    },
+    {
+     "t": "Aportación y obra original",
+     "x": "La comunicación de Kline (1954) en los Annals of the New York Academy of Sciences sobre el uso de Rauwolfia serpentina en trastornos neuropsiquiátricos carece de resumen indexado y no se ha cotejado su contenido [fuente no localizada: original no cotejado]. Según López-Muñoz et al. (2004), los estudios de laboratorio de Bein caracterizaron sus propiedades «tranquilizantes», y los primeros estudios clínicos describieron también efectos adversos de tipo extrapiramidal, como discinesia y acatisia. Baumeister (2013) subraya la paradoja que planteó: reserpina y clorpromazina tenían perfiles farmacológicos muy superpuestos, pero la primera agotaba las monoaminas cerebrales y la segunda apenas modificaba su concentración; ese «enigma de la clorpromazina» solo se resolvió en 1963 con la propuesta del bloqueo de receptores por Carlsson y Lindqvist. Los experimentos de Carlsson de 1957, en los que la DOPA revertía los efectos de la reserpina, se desarrollan en su ficha. Kline pasó después a investigar la iproniazida, con lo que la reserpina queda en el origen de dos líneas: la antipsicótica y la antidepresiva.",
+     "links": [
+      {
+       "ids": [
+        "carlsson_hit"
+       ],
+       "t": "Carlsson: DOPA frente a reserpina"
+      },
+      {
+       "ids": [
+        "kline_hit"
+       ],
+       "t": "Kline y la iproniazida (1957)"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard"
+       ],
+       "t": "Efectos extrapiramidales"
+      }
+     ]
+    },
+    {
+     "t": "Legado y lectura actual",
+     "x": "Freis (1954) describió depresión en hipertensos tratados durante largo tiempo con dosis altas de reserpina, y la depleción de monoaminas se incorporó a la hipótesis catecolaminérgica de Schildkraut (1965). Goodwin y Bunney (1971) publicaron una reevaluación de estas depresiones, cuyo contenido no se ha cotejado (registro sin resumen). Baumeister et al. (2003) sostienen que la reserpina no es depresógena y que el mito se perpetuó por la resistencia a abandonar una hipótesis que dio prestigio a la psiquiatría biológica y legitimó la farmacoterapia. Un ensayo aleatorizado y simple ciego en 72 voluntarios sanos matiza esa crítica: tras siete días, los síntomas depresivos predominaron en el grupo de reserpina, más intensos en quienes tenían antecedentes familiares psiquiátricos (Veselinović et al. 2011). La inhibición de VMAT2 por la reserpina tiene hoy su heredera clínica en la tetrabenazina, usada en la corea de la enfermedad de Huntington (Wu et al. 2025), y en los inhibidores de VMAT2 para la discinesia tardía. La lección práctica persiste: ante una depresión, revisar los fármacos que recibe la persona.",
+     "links": [
+      {
+       "ids": [
+        "schildkraut_hit",
+        "monoamin"
+       ],
+       "t": "Hipótesis monoaminérgica"
+      },
+      {
+       "ids": [
+        "vmat2_td"
+       ],
+       "t": "Inhibidores de VMAT2 hoy"
+      },
+      {
+       "ids": [
+        "dep_induc",
+        "dep_med"
+       ],
+       "t": "Depresión inducida por fármacos"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Müller JM, Schlittler E & Bein HJ (1952). [Reserpin, the sedative principle from Rauwolfia serpentina B]. Experientia 8:338 · PMID 12998611 (registro comprobado; sin resumen indexado)",
+    "Vakil RJ (1949). A clinical trial of Rauwolfia serpentina in essential hypertension. Br Heart J 11:350-355 · PMID 18140347 (registro comprobado; sin resumen indexado)",
+    "Kline NS (1954). Use of Rauwolfia serpentina Benth. in neuropsychiatric conditions. Ann N Y Acad Sci 59:107-132 · PMID 13198043 (registro comprobado; sin resumen indexado)",
+    "Freis ED (1954). Mental depression in hypertensive patients treated for long periods with large doses of reserpine. N Engl J Med 251:1006-1008 · PMID 13214379 (registro comprobado; sin resumen indexado)",
+    "Shore PA, Silver SL & Brodie BB (1955). Interaction of reserpine, serotonin, and lysergic acid diethylamide in brain. Science 122:284-285 · PMID 13246633 (registro comprobado; sin resumen indexado)",
+    "Pletscher A, Shore PA & Brodie BB (1955). Serotonin release as a possible mechanism of reserpine action. Science 122:374-375 · PMID 13246642 (registro comprobado; sin resumen indexado)",
+    "López-Muñoz F, Bhatara VS, Alamo C & Cuenca E (2004). [Historical approach to reserpine discovery and its introduction in psychiatry]. Actas Esp Psiquiatr 32:387-395 · PMID 15529229",
+    "Baumeister AA, Hawkins MF & Uzelac SM (2003). The myth of reserpine-induced depression: role in the historical development of the monoamine hypothesis. J Hist Neurosci 12:207-220 · PMID 12953623",
+    "Baumeister AA (2013). The chlorpromazine enigma. J Hist Neurosci 22:14-29 · PMID 23323529",
+    "Goodwin FK & Bunney WE (1971). Depressions following reserpine: a reevaluation. Semin Psychiatry 3:435-448 · PMID 4154501 (registro comprobado; sin resumen indexado)",
+    "Jerie P (2007). [Milestones of cardiovascular therapy. IV. Reserpine]. Cas Lek Cesk 146:573-577 · PMID 17722843",
+    "Bhatara VS, Sharma JN, Gupta S & Gupta YK (1997). Images in psychiatry. Rauwolfia serpentina: the first herbal antipsychotic. Am J Psychiatry 154:894 · PMID 9210737 (registro comprobado; sin resumen indexado)",
+    "Nur S & Adams CE (2016). Chlorpromazine versus reserpine for schizophrenia. Cochrane Database Syst Rev 4:CD012122 · PMID 27124109",
+    "Veselinović T et al. (2011). Effects of antipsychotic treatment on psychopathology and motor symptoms. A placebo-controlled study in healthy volunteers. Psychopharmacology (Berl) 218:733-748 · PMID 21643673",
+    "Wu D, Zhao Y & Jiang D (2025). Structural insights into substrate transport and drug inhibition of the human vesicular monoamine transporter 2 (VMAT2). FEBS J 292:4789-4796 · PMID 39887614",
+    "Schildkraut JJ (1965). The catecholamine hypothesis of affective disorders: a review of supporting evidence. Am J Psychiatry 122:509-522 · PMID 5319766",
+    "Healy D (2002). The Creation of Psychopharmacology. Harvard University Press [no verificada: contenido concreto no cotejado]"
+   ],
+   "rel": [
+    "clorpromazina_hit",
+    "kline_hit",
+    "carlsson_hit",
+    "schildkraut_hit",
+    "monoamin",
+    "dep_induc",
+    "dep_med",
+    "vmat2_td",
+    "ap_tipicos"
+   ]
+  },
+  {
+   "id": "janssen_hit",
+   "n": "Paul Janssen y el haloperidol (1958): las butirofenonas y el camino a la risperidona",
+   "ab": "Janssen y haloperidol",
+   "al": [
+    "Paul Janssen",
+    "haloperidol",
+    "R 1625",
+    "Haldol",
+    "butirofenonas",
+    "Janssen Pharmaceutica"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "neurobio",
+   "cs": "h",
+   "ev": "hist",
+   "y": 1958,
+   "tags": [],
+   "desc": "El haloperidol (R 1625) se sintetizó el 11 de febrero de 1958 en los laboratorios Janssen de Beerse (Bélgica), dentro de un programa de búsqueda de analgésicos centrales derivados de la petidina y la metadona; la sustitución de un grupo propiofenona por una butirofenona dio un compuesto neuroléptico potente sin actividad morfínica (López-Muñoz y Álamo 2009). En animales su acción era cualitativamente semejante a la de la clorpromazina, pero con dosis mucho menores (Granger 1999). El equipo psiquiátrico de Lieja lo ensayó ese mismo año y se comercializó en Bélgica como Haldol en octubre de 1959 (López-Muñoz y Álamo 2009). Paul Janssen (1926-2003) amplió después la familia de las butirofenonas y su investigación culminó en la risperidona y la paliperidona, antagonistas combinados de dopamina y serotonina (Awouters y Lewi 2007). El haloperidol consolidó la terapia neuroléptica y se convirtió en herramienta experimental de la psiquiatría biológica (López-Muñoz y Álamo 2009).",
+   "feats": [
+    "11 de febrero de 1958: Bert Hermans sintetiza el R 1625 en los laboratorios Janssen de Beerse; el nombre genérico alude a los dos sustituyentes halogenados de la molécula (Granger 1999; López-Muñoz y Álamo 2009).",
+    "Origen en la química de los analgésicos: tras la fenoperidina, el cambio de propiofenona por butirofenona produjo un agente más potente, con propiedades neurolépticas específicas y sin actividad morfínica (López-Muñoz y Álamo 2009).",
+    "Octubre de 1958: Divry, Bobon y Collard, psiquiatras de Lieja, publican el primer trabajo clínico sobre el R 1625 en la agitación psicomotriz (Acta Neurol Psychiatr Belg 58:878-888); en 1959 se celebra en Beerse el simposio internacional sobre el haloperidol (Awouters y Lewi 2007).",
+    "En Estados Unidos su introducción fracasó al principio: un ensayo en Manhattan con resultados opuestos a los europeos, acusaciones de ineficacia y disputas de patentes (Tavares 2024; Granger y Albu 2005).",
+    "Línea posterior de Janssen: nuevas butirofenonas caracterizadas con la prueba de escritura de Haase, la pipamperona como precursora del antagonismo serotoninérgico, pimozida y fluspirileno, antagonistas 5-HT2 selectivos y, finalmente, risperidona y paliperidona (Awouters y Lewi 2007).",
+    "1988: Janssen et al. describen la risperidona (R 64 766) como antagonista mixto serotonina-S2 y dopamina-D2 que, en ratas, inducía menos catalepsia que el haloperidol (J Pharmacol Exp Ther 244:685-693)."
+   ],
+   "note": "Parte de la historiografía disponible procede de antiguos colaboradores de Janssen (Awouters y Lewi 2007) o de textos de homenaje (Chast 2004), y conviene contrastarla con estudios independientes, como el de Tavares (2024) sobre el ensayo de Manhattan. Las expectativas preclínicas formuladas en 1988 para la risperidona (mejoría de síntomas negativos y afectivos, mantenimiento sin efectos extrapiramidales) eran hipótesis derivadas de modelos animales y no deben leerse como ventajas clínicas demostradas; la elección actual entre antipsicóticos se rige por las guías y por el perfil de efectos adversos (véanse las fichas de haloperidol y risperidona).",
+   "sec": [
+    {
+     "t": "Contexto histórico",
+     "x": "Paul Janssen inició su actividad investigadora en 1953 y, en cincuenta años, su grupo descubrió fármacos en campos muy distintos: opioides como la dextromoramida y el fentanilo, la loperamida, antifúngicos azólicos, antiparasitarios como el mebendazol y, al final, antirretrovirales (Chast 2004). Los primeros éxitos fueron antiespasmódicos y analgésicos, y el paso a los antipsicóticos fue una transición serendípica desde esa línea (Awouters y Lewi 2007). Cuando se sintetizó el haloperidol, la psiquiatría contaba ya con la clorpromazina (1952) y con la reserpina (1954), cuyos mecanismos de acción todavía se desconocían. Granger (1999) destaca que los estudios de Sainte-Anne confirmaron que el nuevo compuesto pertenecía a la familia de los neurolépticos tal como la habían definido Delay y Deniker en 1955.",
+     "links": [
+      {
+       "ids": [
+        "clorpromazina_hit"
+       ],
+       "t": "Clorpromazina (1952)"
+      },
+      {
+       "ids": [
+        "reserpina_hit"
+       ],
+       "t": "Reserpina (1954)"
+      }
+     ]
+    },
+    {
+     "t": "Aportación y obra original",
+     "x": "La química y el cribado farmacológico de la serie se publicaron en 1959 (Janssen et al., J Med Pharm Chem 1:281-297), y la primera comunicación clínica fue la de Divry, Bobon y Collard (1958); ninguno de los dos registros tiene resumen indexado y su contenido no se ha cotejado [fuente no localizada: originales no cotejados]. Según Granger (1999), métodos sencillos de farmacología animal bastaron para prever su interés, y los estudios clínicos mostraron una actividad especial frente a ideas delirantes y alucinaciones. El equipo de Lieja confirmó su eficacia en psicosis paranoides agudas y crónicas, en la manía y en la esquizofrenia crónica resistente al tratamiento (López-Muñoz y Álamo 2009). La aportación de Janssen fue doble: una molécula de alta potencia y un programa sistemático de química y farmacología que generó familias enteras de neurolépticos. El haloperidol se convirtió además en instrumento de investigación: Carlsson y Lindqvist (1963) lo usaron para proponer el bloqueo de receptores catecolaminérgicos, y el haloperidol marcado sirvió en 1976 para correlacionar la afinidad por el receptor dopaminérgico con la potencia clínica (véase la ficha de Carlsson).",
+     "links": [
+      {
+       "ids": [
+        "haloperidol"
+       ],
+       "t": "Haloperidol (ficha terapéutica)"
+      },
+      {
+       "ids": [
+        "carlsson_hit",
+        "d2_block"
+       ],
+       "t": "Bloqueo del receptor D2"
+      },
+      {
+       "ids": [
+        "pimozida"
+       ],
+       "t": "Pimozida, otra molécula de Janssen"
+      }
+     ]
+    },
+    {
+     "t": "Legado y lectura actual",
+     "x": "López-Muñoz y Álamo (2009) consideran el descubrimiento del haloperidol uno de los grandes avances de la psiquiatría del siglo XX: permitió desarrollar modelos experimentales para predecir el efecto de los antipsicóticos y formular las primeras hipótesis biológicas sobre la etiología de la esquizofrenia, y figura en la lista de medicamentos esenciales de la OMS. Tavares (2024) muestra que su acogida dependió del contexto: el entusiasmo europeo contrastó con el fracaso inicial en Estados Unidos, en el que intervinieron cambios sociales y cuestiones de género y raza en la selección de pacientes del ensayo de Manhattan. Granger y Albu (2005) recuerdan que se usó ampliamente en los países occidentales hasta la llegada de los «nuevos antipsicóticos». La continuidad entre ambas épocas es en parte obra del mismo laboratorio: la investigación sobre el antagonismo serotoninérgico condujo a la risperidona, cuyo perfil preclínico combinaba un antagonismo 5-HT2 de tipo ritanserina con un antagonismo D2 de tipo haloperidol (Janssen et al. 1988), y a su metabolito paliperidona. Chast (2004) resume que Janssen amplió el espectro neuroléptico con el haloperidol y la risperidona.",
+     "links": [
+      {
+       "ids": [
+        "risperidona",
+        "paliperidona"
+       ],
+       "t": "Risperidona y paliperidona"
+      },
+      {
+       "ids": [
+        "ap_atipicos",
+        "5ht2a"
+       ],
+       "t": "Antagonismo 5-HT2A y segunda generación"
+      },
+      {
+       "ids": [
+        "ap_tipicos",
+        "discin_tard"
+       ],
+       "t": "Primera generación y discinesia tardía"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Granger B (1999). [The discovery of haloperidol]. Encephale 25:59-66 · PMID 10205735",
+    "Granger B & Albu S (2005). The haloperidol story. Ann Clin Psychiatry 17:137-140 · PMID 16433054",
+    "López-Muñoz F & Alamo C (2009). The consolidation of neuroleptic therapy: Janssen, the discovery of haloperidol and its introduction into clinical practice. Brain Res Bull 79:130-141 · PMID 19186209",
+    "Awouters FH & Lewi PJ (2007). Forty years of antipsychotic drug research--from haloperidol to paliperidone--with Dr. Paul Janssen. Arzneimittelforschung 57:625-632 · PMID 18074755",
+    "Divry P, Bobon J & Collard J (1958). [R-1625: a new drug for the symptomatic treatment of psychomotor excitation]. Acta Neurol Psychiatr Belg 58:878-888 · PMID 13605678 (registro comprobado; sin resumen indexado)",
+    "Janssen PA, Van de Westeringh C, Jageneau AH et al. (1959). Chemistry and pharmacology of CNS depressants related to 4-(4-hydroxy-phenylpiperidino)butyrophenone. I. Synthesis and screening data in mice. J Med Pharm Chem 1:281-297 · PMID 14406750 (registro comprobado; sin resumen indexado)",
+    "Janssen PA et al. (1988). Pharmacology of risperidone (R 64 766), a new antipsychotic with serotonin-S2 and dopamine-D2 antagonistic properties. J Pharmacol Exp Ther 244:685-693 · PMID 2450200",
+    "Tavares J (2024). Haloperidol's introduction in the United States: A tale of a failed trial and its consequences. J Hist Neurosci 33:169-179 · PMID 38091571",
+    "Chast F (2004). [Tribute to Paul Janssen (1926-2003): two discoveries per year]. Ann Pharm Fr 62:274-283 · PMID 15243347",
+    "Carlsson A & Lindqvist M (1963). Effect of chlorpromazine or haloperidol on formation of 3-methoxytyramine and normetanephrine in mouse brain. Acta Pharmacol Toxicol 20:140-144 · PMID 14060771",
+    "Preskorn SH (2007). The evolution of antipsychotic drug therapy: reserpine, chlorpromazine, and haloperidol. J Psychiatr Pract 13:253-257 · PMID 17667738 (registro comprobado; sin resumen indexado)",
+    "Shorter E (1997). A History of Psychiatry: From the Era of the Asylum to the Age of Prozac. John Wiley & Sons [no verificada: contenido concreto no cotejado]"
+   ],
+   "rel": [
+    "haloperidol",
+    "risperidona",
+    "paliperidona",
+    "carlsson_hit",
+    "clorpromazina_hit",
+    "ap_tipicos",
+    "ap_atipicos",
+    "d2_block",
+    "pimozida"
+   ]
+  },
+  {
+   "id": "meprobamato_hit",
+   "n": "Meprobamato (1955): el primer «tranquilizante» de éxito",
+   "ab": "Meprobamato",
+   "al": [
+    "Frank M. Berger",
+    "Miltown",
+    "Equanil",
+    "carbamatos",
+    "tranquilizante menor"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "anx",
+   "ring": 5,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "hist",
+   "y": 1955,
+   "tags": [],
+   "desc": "El meprobamato (2-metil-2-n-propil-1,3-propanodiol dicarbamato) fue descrito farmacológicamente por Frank M. Berger como «nuevo agente bloqueante interneuronal» (Berger 1954) y presentado en clínica por Selling (1955) como «nuevo fármaco tranquilizante» con el nombre de Miltown. Introducido en 1955, fue el primer ansiolítico de éxito de la era moderna, y su síntesis, su comercialización y su rápida difusión respondieron tanto a factores científicos como sociopolíticos (Ramchandani et al. 2006). Popularizó el tratamiento farmacológico ambulatorio de la ansiedad, que más tarde sería estigmatizado (Tone 2005), y preparó el terreno al clordiazepóxido (1960), que lo desplazó. Su historia anticipa la de las benzodiacepinas: entusiasmo inicial, uso prolongado, dependencia y toxicidad en sobredosis.",
+   "feats": [
+    "1950: Berger y Ludwig estudian la acción anticonvulsiva del 2,2-dietil-1,3-propanodiol, sus homólogos y ésteres (J Pharmacol Exp Ther 100:27-37), química de los propanodioles de la que deriva el meprobamato [fuente no localizada para la filiación directa].",
+    "1954: Berger describe las propiedades farmacológicas del 2-metil-2-n-propil-1,3-propanodiol dicarbamato (Miltown), calificado en el título de «nuevo agente bloqueante interneuronal» (J Pharmacol Exp Ther 112:413-423).",
+    "1955: Selling publica en JAMA el estudio clínico de «un nuevo fármaco tranquilizante», Miltown, en neurosis y psicosis según la indexación (157:1594-1596); ese año se introduce como primer ansiolítico de éxito de la era moderna (Ramchandani et al. 2006).",
+    "Ban (2006) incluye el meprobamato entre los hallazgos serendípicos en sentido estricto, encontrados al buscar otra cosa, junto con la clorpromazina y la imipramina.",
+    "Toxicidad: en 74 intoxicaciones voluntarias por meprobamato que requirieron ventilación mecánica, el 40 % presentó hipotensión, relacionada en buena parte con insuficiencia cardíaca, y precisó a menudo inotrópicos (Charron et al. 2005).",
+    "El relajante muscular carisoprodol tiene como metabolito activo el meprobamato y potencial de abuso, que una parte de los médicos desconoce (Reeves et al. 1999)."
+   ],
+   "note": "El éxito del meprobamato se explica tanto por factores sociales, comerciales y políticos como por su farmacología (Tone 2005; Ramchandani et al. 2006), y su etiqueta de «tranquilizante menor», por contraste con los neurolépticos, fue en parte una construcción de la época. La retirada de los medicamentos con meprobamato en la Unión Europea por un balance beneficio-riesgo desfavorable se recoge como dato no cotejado en la fuente oficial [fuente no localizada]. La historiografía disponible es sobre todo norteamericana; los datos de uso en España no se han localizado. No se dan pautas: la dependencia prolongada de meprobamato exige una retirada supervisada (James et al. 2016).",
+   "sec": [
+    {
+     "t": "Contexto histórico",
+     "x": "Antes de 1955 el arsenal sedante se componía de bromuros, hidrato de cloral, paraldehído y barbitúricos, la «era prebenzodiacepínica» revisada por Hollister (1983), cuyo texto carece de resumen indexado. Desde el punto de vista farmacológico, todos estos compuestos, el meprobamato y luego las benzodiacepinas son sedantes-hipnóticos emparentados con el alcohol, y todos se han usado ampliamente dentro y fuera del contexto médico (Lader 1991). La clorpromazina (1952) acababa de abrir la psicofarmacología hospitalaria, y Ramchandani et al. (2006) analizan la relación del meprobamato con ella para explicar cómo se forjaron las clases de psicofármacos. Heinrich (1994) sitúa el meprobamato (1955) y el clordiazepóxido (1960) como los tranquilizantes de la primera época, entre los neurolépticos de 1952 y 1958 y los antidepresivos de 1957. El rasgo distintivo del meprobamato fue llevar el tratamiento de la ansiedad a la consulta ambulatoria (Tone 2005).",
+     "links": [
+      {
+       "ids": [
+        "fenobarbital",
+        "sedantes_tus"
+       ],
+       "t": "Barbitúricos y sedantes"
+      },
+      {
+       "ids": [
+        "clorpromazina_hit"
+       ],
+       "t": "Clorpromazina (1952)"
+      }
+     ]
+    },
+    {
+     "t": "Aportación y obra original",
+     "x": "Las fuentes primarias son el trabajo farmacológico de Berger (1954) y el clínico de Selling (1955); ninguno tiene resumen indexado, de modo que solo se recoge lo que consta en sus títulos y en la indexación [fuente no localizada: contenido de los originales no cotejado]. Berger presentó el compuesto como bloqueante interneuronal, un mecanismo propio de los relajantes musculares de acción central, y Selling lo llamó «tranquilizante», término que acabaría definiendo una clase. Ramchandani et al. (2006) plantean en el título la pregunta de fondo: ¿tranquilizante o ansiolítico? La distinción no es menor: el término «tranquilizante» lo vinculaba a la clorpromazina y a la reserpina, mientras que «ansiolítico» lo dirigía a un trastorno concreto. La filiación industrial del producto, desarrollado en los Wallace Laboratories, y la cifra de ventas que se repite en la literatura divulgativa no se han cotejado [fuente no localizada]. Lo que aportó fue un modelo: el psicofármaco para el malestar ansioso cotidiano, prescrito por médicos generales, que las benzodiacepinas heredaron poco después.",
+     "links": [
+      {
+       "ids": [
+        "sternbach_hit"
+       ],
+       "t": "Sternbach y las benzodiacepinas (1960)"
+      },
+      {
+       "ids": [
+        "tag",
+        "ansiedad"
+       ],
+       "t": "Ansiedad generalizada"
+      }
+     ]
+    },
+    {
+     "t": "Legado y lectura actual",
+     "x": "Lader (1991) muestra que el abuso y el mal uso de los sedantes se documentaron pronto, pero que la dependencia física a dosis terapéuticas solo se estableció científicamente a comienzos de los años ochenta, una secuencia que el meprobamato había anticipado. En un programa de seguimiento de personas mayores en Dunedin (Florida), 30 de 2278 participantes (1,3 %) tomaban meprobamato, con una edad media de 81,3 años; más de la mitad lo usaba de forma regular desde hacía más de diez años y cinco desde hacía más de 27, lo que los autores interpretaron como anticipo del consumo crónico de benzodiacepinas (Hale et al. 1988). Un caso clínico describe a un varón de 70 años con 45 años de dependencia y varios intentos fallidos de retirada, que se completó con éxito en una unidad de adicciones con sustitución por diazepam guiada por la escala CIWA-B y con terapia psicológica de la ansiedad de base (James et al. 2016). Para la clínica actual, el meprobamato persiste de forma indirecta como metabolito del carisoprodol (Reeves et al. 1999), que conviene considerar en el cribado toxicológico, y como lección sobre la medicalización del malestar ansioso.",
+     "links": [
+      {
+       "ids": [
+        "bzd_dep",
+        "desprescr_bzd"
+       ],
+       "t": "Dependencia y desprescripción"
+      },
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "Sedantes en la persona mayor"
+      },
+      {
+       "ids": [
+        "ansiol_bzd"
+       ],
+       "t": "Benzodiacepinas hoy"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Berger FM & Ludwig BJ (1950). The anticonvulsant action of 2,2-diethyl 1,3-propanediol (DEP) and some of its homologues and esters. J Pharmacol Exp Ther 100:27-37 · PMID 14774787 (registro comprobado; sin resumen indexado)",
+    "Berger FM (1954). The pharmacological properties of 2-methyl-2-n-propyl-1,3-propanediol dicarbamate (miltown), a new interneuronal blocking agent. J Pharmacol Exp Ther 112:413-423 · PMID 13222235 (registro comprobado; sin resumen indexado)",
+    "Selling LS (1955). Clinical study of a new tranquilizing drug; use of miltown (2-methyl-2-n-propyl-1,3-propanediol dicarbamate). J Am Med Assoc 157:1594-1596 · PMID 14367012 (registro comprobado; sin resumen indexado)",
+    "Ramchandani D, López-Muñoz F & Alamo C (2006). Meprobamate-tranquilizer or anxiolytic? A historical perspective. Psychiatr Q 77:43-53 · PMID 16397754",
+    "Ban TA (2006). The role of serendipity in drug discovery. Dialogues Clin Neurosci 8:335-344 · PMID 17117615",
+    "Tone A (2005). Listening to the past: history, psychiatry, and anxiety. Can J Psychiatry 50:373-380 · PMID 16086534",
+    "Hollister LE (1983). The pre-benzodiazepine era. J Psychoactive Drugs 15:9-13 · PMID 6350551 (registro comprobado; sin resumen indexado)",
+    "Lader M (1991). History of benzodiazepine dependence. J Subst Abuse Treat 8:53-59 · PMID 1675692",
+    "Heinrich K (1994). [Psychopharmacology since 1952]. Fortschr Neurol Psychiatr 62:31-39 · PMID 8150406",
+    "Charron C et al. (2005). Incidence, causes and prognosis of hypotension related to meprobamate poisoning. Intensive Care Med 31:1582-1586 · PMID 16217659",
+    "Hale WE, May FE, Moore MT & Stewart RB (1988). Meprobamate use in the elderly. A report from the Dunedin program. J Am Geriatr Soc 36:1003-1005 · PMID 2902115",
+    "James AO, Nicholson TR, Hill R & Bearn J (2016). Something old, something new: a successful case of meprobamate withdrawal. BMJ Case Rep 2016:bcr2015213606 · PMID 26929223",
+    "Reeves RR et al. (1999). Carisoprodol (soma): abuse potential and physician unawareness. J Addict Dis 18:51-56 · PMID 10334375",
+    "Tone A (2009). The Age of Anxiety: A History of America's Turbulent Affair with Tranquilizers. Basic Books [no verificada: contenido concreto no cotejado]"
+   ],
+   "rel": [
+    "sternbach_hit",
+    "ansiol_bzd",
+    "bzd_dep",
+    "sedantes_tus",
+    "fenobarbital",
+    "tag",
+    "desprescr_bzd",
+    "clorpromazina_hit"
+   ]
+  }
+ ]
+}

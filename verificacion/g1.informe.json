@@ -1,0 +1,238 @@
+{
+ "pmid_comprobados": 31,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "vuln_gen",
+   "gravedad": "menor",
+   "antes": "la secuenciación de exoma o genoma se recomienda como prueba de primer o segundo nivel en anomalías congénitas, retraso del desarrollo o discapacidad intelectual (Manickam 2021)",
+   "despues": "la ACMG recomienda considerar la secuenciación de exoma o genoma como prueba de primer o segundo nivel en población pediátrica con anomalías congénitas de inicio antes del año o con retraso del desarrollo o discapacidad intelectual de inicio antes de los 18 años (Manickam 2021)",
+   "fuente": "Manickam 2021, PMID 34211152: «be considered as a first- or second-tier test»; población pediátrica"
+  },
+  {
+   "id": "vuln_gen",
+   "gravedad": "menor",
+   "antes": "respalda el genotipado de dos genes del citocromo P450 para orientar la elección y la dosificación de varios antidepresivos y antipsicóticos de uso común, y de genes HLA con carbamazepina, oxcarbazepina y fenitoína (Bousman 2021)",
+   "despues": "respalda el genotipado de dos genes del citocromo P450 (CYP2D6 y CYP2C19) para orientar la elección y la dosificación de varios antidepresivos y antipsicóticos de uso común, y de genes HLA con carbamazepina y oxcarbazepina, y de HLA-B y CYP2C9 con fenitoína (Bousman 2021)",
+   "fuente": "Bousman 2021, PMID 33147643, resumen completo en XML de PubMed (CYP2D6, CYP2C19; HLA-A/HLA-B; HLA-B; CYP2C9, HLA-B)"
+  },
+  {
+   "id": "vuln_gen",
+   "gravedad": "menor",
+   "antes": "Como todas las personas portan un número mayor o menor de variantes de riesgo para cada trastorno (Andreassen 2023)",
+   "despues": "Como todas las personas tienen un riesgo genético, de bajo a alto, para cada trastorno psiquiátrico (Andreassen 2023)",
+   "fuente": "Andreassen 2023, PMID 36640404: «every individual has a genetic risk to each psychiatric disorder, from low to high»"
+  },
+  {
+   "id": "vuln_gen",
+   "gravedad": "mayor",
+   "antes": "(referencia ausente)",
+   "despues": "Bousman CA et al. (2023). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A genotypes and serotonin reuptake inhibitor antidepressants. Clin Pharmacol Ther 114:51-68 · PMID 37032427",
+   "fuente": "Citada en el texto (Bousman 2023; Brouwer 2022; Beunk 2024) sin referencia en refsAdd; verificada en PubMed"
+  },
+  {
+   "id": "vuln_gen",
+   "gravedad": "mayor",
+   "antes": "(referencia ausente)",
+   "despues": "Brouwer JMJL et al. (2022). Dutch Pharmacogenetics Working Group (DPWG) guideline for the gene-drug interaction between CYP2C19 and CYP2D6 and SSRIs. Eur J Hum Genet 30:1114-1120 · PMID 34782755",
+   "fuente": "Citada en el texto (Bousman 2023; Brouwer 2022; Beunk 2024) sin referencia en refsAdd; verificada en PubMed"
+  },
+  {
+   "id": "vuln_gen",
+   "gravedad": "mayor",
+   "antes": "(referencia ausente)",
+   "despues": "Beunk L et al. (2024). Dutch Pharmacogenetics Working Group (DPWG) guideline for the gene-drug interaction between CYP2D6, CYP3A4 and CYP1A2 and antipsychotics. Eur J Hum Genet 32:278-285 · PMID 37002327",
+   "fuente": "Citada en el texto (Bousman 2023; Brouwer 2022; Beunk 2024) sin referencia en refsAdd; verificada en PubMed"
+  },
+  {
+   "id": "hered_esq",
+   "gravedad": "menor",
+   "antes": "El GWAS de 2014 identificó 108 loci en 36 989 casos, con enriquecimiento",
+   "despues": "El GWAS de 2014 identificó 108 loci en 36 989 casos y 113 075 controles, con enriquecimiento",
+   "fuente": "PGC 2014, PMID 25056061"
+  },
+  {
+   "id": "hered_esq",
+   "gravedad": "menor",
+   "antes": "y la cifra ascendió después a 287 loci (ficha)",
+   "despues": "y la cifra ascendió después a 287 loci en 76 755 casos (Trubetskoy 2022, en la ficha de los GWAS del PGC)",
+   "fuente": "La ficha hered_esq no recoge los 287 loci; figuran en gwas_pgc y vuln_gen (Trubetskoy 2022, PMID 35396580)"
+  },
+  {
+   "id": "hered_esq",
+   "gravedad": "menor",
+   "antes": "Schizophrenia Working Group of the Psychiatric Genomics Consortium (2014). Biological insights from 108 schizophrenia-associated genetic loci. Nature 511:421-427 · PMID 25056061",
+   "despues": "Schizophrenia Working Group of the Psychiatric Genomics Consortium (PGC) (2014). Biological insights from 108 schizophrenia-associated genetic loci. Nature 511:421-427 · PMID 25056061",
+   "fuente": "Coherencia entre la cita en el texto (PGC 2014) y la referencia"
+  },
+  {
+   "id": "hered_esq",
+   "gravedad": "menor",
+   "antes": "no requiere ninguna acción para clozapina, olanzapina o quetiapina con CYP2D6",
+   "despues": "no requiere ninguna acción para clozapina, flupentixol, olanzapina o quetiapina con CYP2D6",
+   "fuente": "Beunk 2024, PMID 37002327"
+  },
+  {
+   "id": "hered_bip",
+   "gravedad": "menor",
+   "antes": "(Ruderfer 2018)",
+   "despues": "(PGC bipolar-esquizofrenia 2018)",
+   "fuente": "PMID 29906448: autoría colectiva (Bipolar Disorder and Schizophrenia Working Group of the PGC); la cita «Ruderfer 2018» no coincidía con la referencia"
+  },
+  {
+   "id": "hered_bip",
+   "gravedad": "menor",
+   "antes": "el bipolar I se correlaciona genéticamente con la esquizofrenia",
+   "despues": "en el GWAS de 2019 (20 352 casos y 31 358 controles de ascendencia europea), el bipolar I se correlaciona genéticamente con la esquizofrenia",
+   "fuente": "Stahl 2019, PMID 31043756 (fecha y muestra)"
+  },
+  {
+   "id": "hered_bip",
+   "gravedad": "menor",
+   "antes": "Los marcadores de respuesta al litio proceden de valoraciones retrospectivas con la escala de Alda y su confirmación prospectiva es limitada (Hou 2016) [fuente no localizada para el estado actual de replicación].",
+   "despues": "Los marcadores de respuesta al litio proceden de valoraciones con la escala de Alda, de criterios retrospectivos (ConLi+Gen 2018), y la confirmación prospectiva del locus del cromosoma 21 se limitó a 73 pacientes (Hou 2016); los propios autores señalan que se necesitan más estudios para establecer su posible utilidad clínica (Hou 2016).",
+   "fuente": "Hou 2016, PMID 26806518 (estudio prospectivo independiente de 73 pacientes; «further studies are needed»); ConLi+Gen 2018, PMID 29121268 (Retrospective Criteria of Long-Term Treatment Response), resumen completo"
+  },
+  {
+   "id": "hered_bip",
+   "gravedad": "menor",
+   "antes": "y una mayor carga poligénica de esquizofrenia se asoció inversamente con la respuesta (ConLi+Gen 2018)",
+   "despues": "y en 2 586 pacientes una mayor carga poligénica de esquizofrenia se asoció inversamente con la respuesta (ConLi+Gen 2018)",
+   "fuente": "ConLi+Gen 2018, PMID 29121268, resumen completo"
+  },
+  {
+   "id": "hered_dep",
+   "gravedad": "menor",
+   "antes": "El GWAS de 135 458 casos identificó 44 loci",
+   "despues": "El GWAS de 2018 (135 458 casos y 344 901 controles) identificó 44 loci",
+   "fuente": "Wray 2018, PMID 29700475 (fecha y muestra; la ficha recoge el GWAS posterior de 2019)"
+  },
+  {
+   "id": "hered_tdah",
+   "gravedad": "menor",
+   "antes": "El TDAH se agrupa genéticamente con otros trastornos del neurodesarrollo (ficha de pleiotropía) dentro de uno de los cuatro factores genéticos amplios descritos para once trastornos (Grotzinger 2022), lo que apoya",
+   "despues": "El TDAH se agrupa genéticamente con otros trastornos del neurodesarrollo (ficha de pleiotropía), y el análisis de once trastornos identificó un factor genético de neurodesarrollo entre cuatro factores amplios (Grotzinger 2022), lo que apoya",
+   "fuente": "Grotzinger 2022, PMID 35513722: el resumen enumera los cuatro factores, sin asignar el TDAH"
+  },
+  {
+   "id": "hered_toc",
+   "gravedad": "mayor",
+   "antes": "Este solapamiento respalda la exploración sistemática de esas comorbilidades en quien consulta y en sus familiares.",
+   "despues": "Este solapamiento respalda la exploración sistemática de esas comorbilidades en quien consulta.",
+   "fuente": "Strom 2025 no apoya explorar a familiares; contradecía la propia sección ética (no etiquetar a familiares asintomáticos)"
+  },
+  {
+   "id": "hered_toc",
+   "gravedad": "menor",
+   "antes": "existen recomendaciones farmacogenéticas de CPIC (Bousman 2023) y de DPWG (Brouwer 2022) basadas en CYP2D6 y CYP2C19,",
+   "despues": "existen recomendaciones farmacogenéticas de CPIC, basadas en CYP2D6, CYP2C19 y CYP2B6 (Bousman 2023), y de DPWG, basadas en CYP2C19 y CYP2D6 (Brouwer 2022),",
+   "fuente": "Bousman 2023, PMID 37032427; Brouwer 2022, PMID 34782755"
+  },
+  {
+   "id": "hered_toc",
+   "gravedad": "mayor",
+   "antes": "Que el número de loci pase de cero a 30 refleja sobre todo el aumento del tamaño muestral, no un cambio en el efecto de cada variante, que sigue siendo pequeño.",
+   "despues": "El paso de ningún locus (2 688 casos, 2018) a 30 loci (53 660 casos, 2025) coincide con un número de casos unas 20 veces mayor, y la estimación de que unas 11 500 variantes explican el 90 % de la heredabilidad genética implica efectos individuales muy pequeños (Strom 2025).",
+   "fuente": "Afirmación interpretativa sin fuente; reescrita con cifras de IOCDF-GC y OCGAS 2018 (PMID 28761083) y Strom 2025 (PMID 40360802)"
+  },
+  {
+   "id": "hered_an",
+   "gravedad": "menor",
+   "antes": "Las muestras son de ascendencia europea y mayoritariamente de mujeres, por lo que los resultados no pueden generalizarse sin más a hombres, a personas trans o no binarias ni a otras ascendencias [fuente no localizada para la composición por sexo];",
+   "despues": "Las muestras son mayoritariamente de ascendencia europea y de mujeres [fuente no localizada para la composición por ascendencia y sexo], por lo que los resultados no pueden generalizarse sin más a hombres, a personas trans o no binarias ni a otras ascendencias;",
+   "fuente": "Ni Duncan 2017 (PMID 28494655) ni Watson 2019 (PMID 31308545) indican la ascendencia en el resumen"
+  },
+  {
+   "id": "gwas_pgc",
+   "gravedad": "menor",
+   "antes": "en la esquizofrenia, el GWAS de 36 989 casos halló 108 loci",
+   "despues": "en la esquizofrenia, el GWAS de 2014 (36 989 casos y 113 075 controles) halló 108 loci",
+   "fuente": "PGC 2014, PMID 25056061 (fecha y muestra; la ficha recoge Trubetskoy 2022)"
+  },
+  {
+   "id": "gwas_pgc",
+   "gravedad": "menor",
+   "antes": "En la depresión, los 44 loci de 135 458 casos se asociaron",
+   "despues": "En la depresión, los 44 loci del GWAS de 2018 (135 458 casos y 344 901 controles) se asociaron",
+   "fuente": "Wray 2018, PMID 29700475"
+  },
+  {
+   "id": "gwas_pgc",
+   "gravedad": "mayor",
+   "antes": "La Ley Orgánica 3/2018 trata los datos genéticos dentro de las categorías especiales del Reglamento (UE) 2016/679 (disposición adicional decimoséptima).",
+   "despues": "Los datos genéticos son una categoría especial de datos personales cuyo tratamiento prohíbe el Reglamento (UE) 2016/679 salvo en los supuestos tasados, y los Estados pueden imponerles condiciones adicionales (art. 9.1, 9.2 y 9.4); la Ley Orgánica 3/2018 ampara en esos supuestos los tratamientos de datos genéticos regulados por la Ley 14/2007 y otras leyes sanitarias (disposición adicional decimoséptima).",
+   "fuente": "RGPD (EUR-Lex, CELEX 32016R0679), arts. 4.13 y 9.1-9.4: la categoría especial la establece el Reglamento, no la LOPDGDD; LOPDGDD (BOE-A-2018-16673), DA 17ª.1"
+  },
+  {
+   "id": "gwas_pgc",
+   "gravedad": "mayor",
+   "antes": "(referencia ausente)",
+   "despues": "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (Reglamento general de protección de datos) (2016), arts. 4.13 y 9. DO L 119 de 4.5.2016, p. 1-88 (CELEX 32016R0679)",
+   "fuente": "EUR-Lex, texto en español consultado"
+  },
+  {
+   "id": "gwas_pgc",
+   "gravedad": "menor",
+   "antes": "Schizophrenia Working Group of the Psychiatric Genomics Consortium (2014). Biological insights from 108 schizophrenia-associated genetic loci. Nature 511:421-427 · PMID 25056061",
+   "despues": "Schizophrenia Working Group of the Psychiatric Genomics Consortium (PGC) (2014). Biological insights from 108 schizophrenia-associated genetic loci. Nature 511:421-427 · PMID 25056061",
+   "fuente": "Coherencia con la cita en el texto (PGC 2014)"
+  },
+  {
+   "id": "gwas_pgc",
+   "gravedad": "menor",
+   "antes": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (2018), art. 9 y disposición adicional decimoséptima. BOE-A-2018-16673",
+   "despues": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (2018), disposición adicional decimoséptima. BOE-A-2018-16673",
+   "fuente": "El art. 9 de la LOPDGDD no se cita en el texto ni se refiere específicamente a los datos genéticos"
+  },
+  {
+   "id": "prs",
+   "gravedad": "menor",
+   "antes": "(Ruderfer 2018)",
+   "despues": "(PGC bipolar-esquizofrenia 2018)",
+   "fuente": "PMID 29906448, autoría colectiva"
+  },
+  {
+   "id": "prs",
+   "gravedad": "menor",
+   "antes": "En el TOC, las PRS de un estudio predijeron el estado de caso en otro, pero solo explicaron el 0,3-0,9 % de la varianza fenotípica (IOCDF-GC y OCGAS 2018).",
+   "despues": "En el TOC, en muestras de ascendencia europea, las PRS de un estudio predijeron el estado de caso en el otro, pero solo explicaron el 0,3-0,9 % de la varianza fenotípica (IOCDF-GC y OCGAS 2018).",
+   "fuente": "PMID 28761083: 2 688 casos de ascendencia europea; población del rendimiento predictivo"
+  },
+  {
+   "id": "gen_candidatos",
+   "gravedad": "menor",
+   "antes": "El consenso de la ISPG respalda igualmente solo genes del citocromo P450 y HLA (Bousman 2021).",
+   "despues": "El consenso de la ISPG respalda igualmente el estudio de CYP2D6 y CYP2C19, de genes HLA con carbamazepina, oxcarbazepina y fenitoína (con CYP2C9 para esta última) y, con valproato, de genes de trastornos mitocondriales o del ciclo de la urea cuando se sospechan; no incluye SLC6A4 ni HTR2A (Bousman 2021).",
+   "fuente": "Bousman 2021, PMID 33147643, resumen completo (XML de PubMed): también POLG, OTC y CPS1 con valproato; «solo» era inexacto"
+  },
+  {
+   "id": "gradiente_pg",
+   "gravedad": "menor",
+   "antes": "(Ruderfer 2018)",
+   "despues": "(PGC bipolar-esquizofrenia 2018)",
+   "fuente": "PMID 29906448, autoría colectiva"
+  },
+  {
+   "id": "gradiente_pg",
+   "gravedad": "menor",
+   "antes": "En 53 555 casos y 54 065 controles se identificaron",
+   "despues": "En el análisis conjunto de 2018, con 53 555 casos y 54 065 controles, se identificaron",
+   "fuente": "PMID 29906448 (fecha)"
+  },
+  {
+   "id": "gradiente_pg",
+   "gravedad": "menor",
+   "antes": "mientras que el bipolar II se correlaciona más con la depresión mayor (Stahl 2019).",
+   "despues": "mientras que el bipolar II se correlaciona más con la depresión mayor, en 20 352 casos de ascendencia europea (Stahl 2019).",
+   "fuente": "Stahl 2019, PMID 31043756"
+  }
+ ],
+ "sin_resolver": [
+  "Se mantienen con [fuente no localizada] las afirmaciones razonables no verificables: ausencia de recomendación expresa contra el estudio genético rutinario en TDAH; proporción de personas autistas sin variante causal identificada; reinterpretación de CNV con el tiempo; encaje jurídico concreto de las pruebas directas al consumidor en la Ley 14/2007; aplicación del art. 48.4 al cribado poligénico de embriones; uso pericial de MAOA en tribunales españoles; composición por ascendencia y sexo de las muestras GWAS de anorexia (ni Duncan 2017 ni Watson 2019 la indican en el resumen); diferir análisis durante episodios afectivos o desnutrición grave; norma asistencial sobre participación de menores (Ley 41/2002 no contrastada).",
+  "Bousman 2021: los símbolos génicos eliminados en el resumen de la herramienta se recuperaron del XML de PubMed (CYP2D6, CYP2C19; HLA-A/HLA-B; HLA-B; CYP2C9; POLG, OTC, CPS1 [escrito «CSP1» en el resumen]).",
+  "ConLi+Gen 2018: resumen leído completo (2 586 pacientes; asociación inversa de la PGS de esquizofrenia con la respuesta categórica al litio; 15 loci en el meta-GWAS cruzado; vías HLA e inflamatorias); lo citado figura en él.",
+  "RGPD leído en EUR-Lex (texto ES, CELEX 32016R0679) mediante navegador, pues la descarga directa queda bloqueada por un control antirrobots; arts. 4.13 y 9.1-9.4 contrastados.",
+  "BOE: Ley 14/2007 (texto consolidado, última actualización 06/09/2022), arts. 1.2, 5.2, 5.3, 6, 9.3, 45.c, 47, 48.1, 48.4, 49, 50.1, 50.2, 51.1, 51.2, 55, 56, 57 y 58.1; Ley 15/2022, arts. 2.1 y 9; LOPDGDD, art. 9 y DA 17ª; Convenio de Oviedo, arts. 11 y 12: todos concordantes con lo citado, salvo la atribución de la categoría especial a la LOPDGDD, ya corregida.",
+  "La referencia a la Ley 14/2007 enumera en todos los nodos los mismos artículos (1.2, 5, 6, 9, 45, 47, 48, 49, 50, 51, 55, 56, 57 y 58), aunque cada nodo cita solo algunos; no se ha adaptado nodo a nodo."
+ ]
+}

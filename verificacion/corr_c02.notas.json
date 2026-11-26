@@ -1,0 +1,288 @@
+{
+ "corregidos": [
+  {
+   "id": "ambival / ambitend",
+   "punto": "Relación ambival↔ambitend apunta a un nodo de obediencia automática y Mitgehen; la ambitendencia está en negativismo (ya relacionado con ambival)",
+   "antes": "rel ambival incluye 'ambitend' y rel ambitend incluye 'ambival'",
+   "despues": "se retira la relación recíproca (se conserva ambival↔negativismo)",
+   "fuente": "Bush G et al. (1996) Acta Psychiatr Scand 93:129-136 · PMID 8686483 (ambitendencia como ítem distinto de obediencia automática y Mitgehen); contenido de las fichas negativismo («Negativismo, Gegenhalten y ambitendencia») y ambitend"
+  },
+  {
+   "id": "litio_embarazo",
+   "punto": "Descripción omitía la contraindicación en embarazo y lactancia (4.3)",
+   "antes": "La ficha técnica indica no administrarlo en el embarazo, sobre todo en el primer trimestre, y recomienda suspenderlo si el embarazo es planificado (CIMA).",
+   "despues": "La ficha técnica de Plenur contraindica el litio en el embarazo y la lactancia (4.3), indica no administrarlo en el embarazo, sobre todo en el primer trimestre, y recomienda suspenderlo si el embarazo es planificado (4.6) (CIMA).",
+   "fuente": "Ficha técnica de Plenur 400 mg (CIMA, nº 48932), 4.3 («Embarazo y lactancia») y 4.6, consultada vía CIMA el 20-11-2026"
+  },
+  {
+   "id": "litio_embarazo",
+   "punto": "Rasgo omitía la contraindicación (4.3)",
+   "antes": "Ficha técnica (CIMA): no administrar en el embarazo, sobre todo en el primer trimestre; contracepción durante el tratamiento; en embarazo planificado, se recomienda suspender el litio; si se considera esencial mantenerlo, controlar la litemia, suspender cerca del parto y reiniciar unos días después; observar al recién nacido (hipotonía, intoxicación)",
+   "despues": "Ficha técnica (CIMA): contraindicado en el embarazo y la lactancia (4.3); no administrar en el embarazo, sobre todo en el primer trimestre; contracepción durante el tratamiento; en embarazo planificado, se recomienda suspender el litio; si se considera esencial mantenerlo, controlar la litemia, suspender cerca del parto y reiniciar unos días después; observar al recién nacido (hipotonía, intoxicación) (4.6)",
+   "fuente": "Ficha técnica de Plenur 400 mg (CIMA, nº 48932), 4.3 («Embarazo y lactancia») y 4.6, consultada vía CIMA el 20-11-2026"
+  },
+  {
+   "id": "litio_embarazo",
+   "punto": "tx presentaba el mantenimiento solo como apartamiento de una recomendación, no como uso en contraindicación",
+   "antes": "(decisión individual que se aparta de la recomendación de la ficha técnica de suspenderlo en el embarazo planificado)",
+   "despues": "(decisión individual que supone un uso en contraindicación de la ficha técnica de Plenur, 4.3, aunque la ficha contempla en 4.6 los controles necesarios si se considera esencial mantenerlo)",
+   "fuente": "Ficha técnica de Plenur 400 mg (CIMA, nº 48932), 4.3 («Embarazo y lactancia») y 4.6, consultada vía CIMA el 20-11-2026"
+  },
+  {
+   "id": "litio_embarazo",
+   "punto": "Cribado fetal marcado sin fuente; la guía BAP indica ecografía de alta resolución a las 16-18 semanas",
+   "antes": "ecocardiografía fetal a las 18-20 semanas [fuente no localizada]",
+   "despues": "ecografía de alta resolución a las 16-18 semanas tras la exposición en el primer trimestre (Goodwin 2016)",
+   "fuente": "Goodwin GM et al. (2016) J Psychopharmacol 30:495-553 · PMID 26979387 (texto completo PMC: «high resolution ultrasound scan at 16–18 weeks gestation»)"
+  },
+  {
+   "id": "litio_embarazo",
+   "punto": "La reinstauración posparto no advertía de la contraindicación en la lactancia",
+   "antes": "Reinstaurar o intensificar tras el parto como profilaxis de la psicosis puerperal.",
+   "despues": "Reinstaurar o intensificar tras el parto como profilaxis de la psicosis puerperal, teniendo en cuenta que la ficha técnica contraindica la lactancia durante el tratamiento (4.3 y 4.6).",
+   "fuente": "Ficha técnica de Plenur 400 mg (CIMA, nº 48932), 4.3 («Embarazo y lactancia») y 4.6, consultada vía CIMA el 20-11-2026"
+  },
+  {
+   "id": "litio_embarazo",
+   "punto": "Nota describía como «recomendación restrictiva» lo que es una contraindicación",
+   "antes": "la ficha técnica mantiene una recomendación restrictiva que obliga a documentar la decisión",
+   "despues": "la ficha técnica contraindica el litio en el embarazo y la lactancia (4.3), lo que obliga a documentar la decisión",
+   "fuente": "Ficha técnica de Plenur 400 mg (CIMA, nº 48932), 4.3 («Embarazo y lactancia») y 4.6, consultada vía CIMA el 20-11-2026"
+  },
+  {
+   "id": "oxcarbazepina",
+   "punto": "Dato correcto marcado sin fuente: se localiza la fuente y se retira la marca",
+   "antes": "mayor frecuencia de hiponatremia [fuente no localizada]",
+   "despues": "mayor frecuencia de hiponatremia (Dong 2005; ficha técnica, 4.4)",
+   "fuente": "Dong X et al. (2005) Neurology 65:1976-1978 · PMID 16380624 (hiponatremia 29,9 % con oxcarbazepina frente a 13,5 % con carbamazepina; grave 12,4 % frente a 2,8 %); ficha técnica de Trileptal 300 mg (CIMA, nº 63093), 4.4"
+  },
+  {
+   "id": "oxcarbazepina",
+   "punto": "Control del sodio marcado sin fuente: está en la ficha técnica (4.4), salvo la mención de ISRS; se retira la carbamazepina como fármaco concomitante (no figura en 4.4)",
+   "antes": "Control del sodio sérico en personas mayores, con diuréticos o con otros fármacos hiponatremiantes (ISRS, carbamazepina) [fuente no localizada].",
+   "despues": "Control del sodio sérico antes de iniciar y en los primeros meses en personas con trastorno renal con sodio bajo o tratadas con fármacos que lo reducen (diuréticos, desmopresina, AINE), factores especialmente importantes en personas mayores (ficha técnica de Trileptal, 4.4); la ficha no menciona los ISRS [fuente no localizada].",
+   "fuente": "Dong X et al. (2005) Neurology 65:1976-1978 · PMID 16380624 (hiponatremia 29,9 % con oxcarbazepina frente a 13,5 % con carbamazepina; grave 12,4 % frente a 2,8 %); ficha técnica de Trileptal 300 mg (CIMA, nº 63093), 4.4"
+  },
+  {
+   "id": "vpa_bip",
+   "punto": "Contraindicación expresada como absoluta en «mujeres en edad fértil» (inexacta y no neutra)",
+   "antes": "Contraindicado en mujeres en edad fértil (teratogenicidad).",
+   "despues": "Por su teratogenicidad, en el trastorno bipolar está contraindicado en el embarazo y en personas con capacidad de gestar salvo que se cumplan las condiciones del Plan de Prevención de Embarazos (ficha técnica, 4.3; AEMPS 2018).",
+   "fuente": "Ficha técnica de Depakine Crono 500 mg (CIMA, nº 60350), 4.3: en el trastorno bipolar, contraindicado en el embarazo y en mujeres en edad fértil salvo que se cumplan las condiciones del Plan de Prevención de Embarazos; AEMPS MUH (FV) 3/2018"
+  },
+  {
+   "id": "vpa_bip",
+   "punto": "Redacción no neutra en género",
+   "antes": "Teratogenicidad: defectos del tubo neural y alteraciones del neurodesarrollo; contraindicado en mujeres en edad fértil salvo programa de prevención de embarazos (EMA 2018)",
+   "despues": "Teratogenicidad: defectos del tubo neural y alteraciones del neurodesarrollo; contraindicado en personas con capacidad de gestar salvo programa de prevención de embarazos (EMA 2018)",
+   "fuente": "Ficha técnica de Depakine Crono 500 mg (CIMA, nº 60350), 4.3: en el trastorno bipolar, contraindicado en el embarazo y en mujeres en edad fértil salvo que se cumplan las condiciones del Plan de Prevención de Embarazos; AEMPS MUH (FV) 3/2018"
+  },
+  {
+   "id": "vpa_bip",
+   "punto": "Redacción no neutra en género",
+   "antes": "restricciones estrictas en mujeres en edad fértil.",
+   "despues": "restricciones estrictas en personas con capacidad de gestar (ficha técnica, 4.3).",
+   "fuente": "Ficha técnica de Depakine Crono 500 mg (CIMA, nº 60350), 4.3: en el trastorno bipolar, contraindicado en el embarazo y en mujeres en edad fértil salvo que se cumplan las condiciones del Plan de Prevención de Embarazos; AEMPS MUH (FV) 3/2018"
+  },
+  {
+   "id": "dep_bip_tx",
+   "punto": "tx atribuía a la lurasidona primera línea en TB II, contra CANMAT/ISBD 2018",
+   "antes": "Lurasidona (1ª línea, TB-I y TB-II);",
+   "despues": "Lurasidona (1ª línea en la depresión del TB I; en la del TB II solo la quetiapina es de primera línea y la lurasidona no figura entre las opciones; CANMAT/ISBD 2018);",
+   "fuente": "Yatham LN et al. (2018) Bipolar Disord 20:97-170 · PMID 29536616, tabla 19 y texto («Quetiapine is the only recommended first-line treatment for BDII depression»); fichas técnicas de Latuda 37 mg (CIMA, nº 114913009) y Reagila 3 mg (CIMA, nº 1171209011), 4.1: solo esquizofrenia"
+  },
+  {
+   "id": "dep_bip_tx",
+   "punto": "Aprobaciones de la FDA presentadas sin precisar la agencia; en España no tienen esa indicación",
+   "antes": "Fármacos con aprobación: quetiapina (TB I y II), lurasidona (TB I), cariprazina (TB I), lumateperona (TB I y II), olanzapina-fluoxetina",
+   "despues": "Fármacos con aprobación de la FDA en depresión bipolar: quetiapina (TB I y II), lurasidona (TB I), cariprazina (TB I), lumateperona (TB I y II), olanzapina-fluoxetina; en España, lurasidona (Latuda) y cariprazina (Reagila) solo tienen indicación en esquizofrenia (fichas técnicas, 4.1)",
+   "fuente": "Yatham LN et al. (2018) Bipolar Disord 20:97-170 · PMID 29536616, tabla 19 y texto («Quetiapine is the only recommended first-line treatment for BDII depression»); fichas técnicas de Latuda 37 mg (CIMA, nº 114913009) y Reagila 3 mg (CIMA, nº 1171209011), 4.1: solo esquizofrenia"
+  },
+  {
+   "id": "emdr_proc",
+   "punto": "Rasgo limitado a adultos; la OMS lo recomienda también en niños, niñas y adolescentes",
+   "antes": "Recomendado por la OMS (2013) para el TEPT en adultos, junto a la TCC centrada en el trauma",
+   "despues": "Recomendado por la OMS (2013) para el TEPT en adultos y en la infancia y adolescencia, junto a la TCC centrada en el trauma (recomendación estándar; Tol 2014)",
+   "fuente": "Tol WA et al. (2014) PLoS Med 11:e1001769 · PMID 25514024 (PMC4267806), tabla de recomendaciones: «Individual or group CBT-T, EMDR or stress management should be considered for adults» y «Individual or group CBT-T or EMDR should be considered for children and adolescents», recomendación estándar"
+  },
+  {
+   "id": "mbt",
+   "punto": "«Primera línea» contradicho por Storebø 2020 y NICE CG78",
+   "antes": "La MBT es una psicoterapia de primera línea para el TLP basada",
+   "despues": "La MBT es una psicoterapia específica para el TLP, con evidencia de calidad baja frente al tratamiento habitual (Storebø 2020), basada",
+   "fuente": "Storebø OJ et al. (2020) Cochrane Database Syst Rev 5:CD012955 · PMID 32368793 (MBT frente a TAU: autolesión RR 0,62, suicidalidad RR 0,10, evidencia de calidad baja); NICE CG78 (2009), rec. 1.3.4.5 (solo DBT), consultada en nice.org.uk"
+  },
+  {
+   "id": "mbt",
+   "punto": "«Nivel de evidencia A» contradicho",
+   "antes": "MBT: nivel de evidencia A en TLP — reduce intentos de suicidio y hospitalización",
+   "despues": "MBT: evidencia de calidad baja (GRADE) frente a tratamiento habitual: autolesión RR 0,62 (3 ensayos) y suicidalidad RR 0,10 (3 ensayos) (Storebø 2020); NICE CG78 no la recomienda específicamente",
+   "fuente": "Storebø OJ et al. (2020) Cochrane Database Syst Rev 5:CD012955 · PMID 32368793 (MBT frente a TAU: autolesión RR 0,62, suicidalidad RR 0,10, evidencia de calidad baja); NICE CG78 (2009), rec. 1.3.4.5 (solo DBT), consultada en nice.org.uk"
+  },
+  {
+   "id": "mbt",
+   "punto": "«Evidencia A» contradicho",
+   "antes": "evidencia A en TLP.",
+   "despues": "evidencia de calidad baja en TLP (Storebø 2020).",
+   "fuente": "Storebø OJ et al. (2020) Cochrane Database Syst Rev 5:CD012955 · PMID 32368793 (MBT frente a TAU: autolesión RR 0,62, suicidalidad RR 0,10, evidencia de calidad baja); NICE CG78 (2009), rec. 1.3.4.5 (solo DBT), consultada en nice.org.uk"
+  },
+  {
+   "id": "tfp",
+   "punto": "«Nivel de evidencia A» contradicho",
+   "antes": "Nivel de evidencia A en TLP.",
+   "despues": "Evidencia de calidad baja en TLP: efectos frente a control solo en estimaciones de estudios únicos (Stoffers 2012) e inferior a la terapia de esquemas en recuperación y abandonos (Giesen-Bloo 2006); NICE CG78 no la recomienda específicamente.",
+   "fuente": "Stoffers JM et al. (2012) Cochrane Database Syst Rev (8):CD005652 · PMID 22895952; Giesen-Bloo J et al. (2006) Arch Gen Psychiatry 63:649-658 · PMID 16754838; NICE CG78 (2009), rec. 1.3.4.5"
+  },
+  {
+   "id": "cap_dem",
+   "punto": "El art. 665 vigente no menciona el informe facultativo",
+   "antes": "Capacidad testamentaria: el Código Civil (art. 663, redactado por la Ley 8/2021) excluye de testar a quien en el momento de testar no pueda conformar o expresar su voluntad ni aun con ayuda de medios o apoyos; el notario puede requerir informe facultativo",
+   "despues": "Capacidad testamentaria: el Código Civil (art. 663, redactado por la Ley 8/2021) excluye de testar a quien en el momento de testar no pueda conformar o expresar su voluntad ni aun con ayuda de medios o apoyos; el art. 665 deja al juicio del notario si la persona con discapacidad puede comprender y manifestar el alcance de sus disposiciones, sin mencionar informe facultativo",
+   "fuente": "Código Civil, arts. 663 y 665 en la redacción de la Ley 8/2021 (texto consolidado BOE-A-1889-4763, consultado en boe.es el 20-11-2026)"
+  },
+  {
+   "id": "desempleo_suic",
+   "punto": "Dato marcado sin fuente: Stuckler 2009 lo respalda",
+   "antes": "podría modularse por la protección social [fuente no localizada].",
+   "despues": "podría modularse por la protección social (Stuckler 2009).",
+   "fuente": "Stuckler D et al. (2009) Lancet 374:315-323 · PMID 19589588 («depending partly on differences in social protection»; cada 10 USD por persona en políticas activas de empleo redujeron el efecto del desempleo sobre el suicidio en 0,038 %)"
+  },
+  {
+   "id": "ictus_dep",
+   "punto": "Afirmación contradicha por tres ensayos aleatorizados grandes",
+   "antes": "el tratamiento precoz podría mejorar la recuperación física y cognitiva.",
+   "despues": "la fluoxetina precoz no mejoró la recuperación funcional en tres grandes ensayos (FOCUS, AFFINITY, EFFECTS) y aumentó las fracturas.",
+   "fuente": "FOCUS Trial Collaboration (2019) Lancet 393:265-274 · PMID 30528472; AFFINITY Trial Collaboration (2020) Lancet Neurol 19:651-660 · PMID 32702334; EFFECTS Trial Collaboration (2020) Lancet Neurol 19:661-669 · PMID 32702335"
+  },
+  {
+   "id": "ictus_dep",
+   "punto": "La viñeta omitía el balance riesgo-beneficio de la prevención",
+   "antes": "Antidepresivos eficaces en tratamiento y prevención (metaanálisis de ECA)",
+   "despues": "Antidepresivos eficaces en tratamiento y prevención (metaanálisis de ECA); en la prevención, la fluoxetina redujo la depresión de nueva aparición (FOCUS, EFFECTS) a costa de más fracturas, y FOCUS no apoya su uso preventivo sistemático",
+   "fuente": "FOCUS Trial Collaboration (2019) Lancet 393:265-274 · PMID 30528472; AFFINITY Trial Collaboration (2020) Lancet Neurol 19:651-660 · PMID 32702334; EFFECTS Trial Collaboration (2020) Lancet Neurol 19:661-669 · PMID 32702335"
+  },
+  {
+   "id": "corticoides_psiq",
+   "punto": "Cifras sin atribución a la fuente primaria; la de 15,7 solo consta en Judd 2014",
+   "antes": "Las consecuencias neuropsiquiátricas graves se han estimado en 15,7 por 100 personas-año en todos los ciclos y 22,2 en los primeros ciclos.",
+   "despues": "Las consecuencias neuropsiquiátricas graves se han estimado, en atención primaria británica, en 15,7 por 100 personas-año en todos los ciclos y 22,2 en los primeros ciclos (Fardet 2012, recogido en Judd 2014); en el resumen del estudio primario, la cifra de 22,2 se refiere a suicidio o tentativa, depresión, manía, delirium o confusión y pánico.",
+   "fuente": "Fardet L et al. (2012) Am J Psychiatry 169:491-497 · PMID 22764363; Judd LL et al. (2014) Am J Psychiatry 171:1045-1051 · PMID 25272344 (resúmenes comprobados)"
+  },
+  {
+   "id": "cardio_dep",
+   "punto": "Independencia del factor de riesgo presentada como establecida; Nicholson 2006 la discute",
+   "antes": "La depresión es un factor de riesgo independiente de cardiopatía isquémica y empeora",
+   "despues": "La depresión se asocia a mayor riesgo de cardiopatía isquémica (RR 1,30; Gan 2014), aunque no está establecido que sea un factor de riesgo independiente (Nicholson 2006), y empeora",
+   "fuente": "Nicholson A et al. (2006) Eur Heart J 27:2763-2774 · PMID 17082208; Gan Y et al. (2014) BMC Psychiatry 14:371 · PMID 25540022"
+  },
+  {
+   "id": "mod_anim_bip",
+   "punto": "El estudio se presentaba como modelo de depresión bipolar; es un modelo de estrés aplicado a la depresión mayor y la resiliencia",
+   "antes": "Fenotipos depresivos distintos con perfiles transcriptómicos propios (Narain 2026)",
+   "despues": "En modelos de depresión por estrés (derrota social crónica), fenotipos depresivos distintos muestran firmas transcriptómicas propias en la habénula (Narain 2026); no son modelos específicos de depresión bipolar",
+   "fuente": "Narain P et al. (2026) Mol Psychiatry · PMID 42711407 · doi:10.1038/s41380-026-03843-6 (resumen comprobado: derrota social crónica, transcriptómica unicelular de la habénula, depresión mayor y resiliencia)"
+  },
+  {
+   "id": "mod_anim_bip",
+   "punto": "Referencia de Narain incompleta (sin iniciales, título truncado, sin PMID)",
+   "antes": "Narain et al. (2026). Distinct depressive-like behavioural phenotypes. Mol Psychiatry. doi:10.1038/s41380-026-03843-6",
+   "despues": "Narain P et al. (2026). Distinct depressive-like behavioural phenotypes in mice exhibit unique patterns of transcriptional perturbations across habenular cell subtypes. Mol Psychiatry. doi:10.1038/s41380-026-03843-6 · PMID 42711407",
+   "fuente": "Narain P et al. (2026) Mol Psychiatry · PMID 42711407 · doi:10.1038/s41380-026-03843-6 (resumen comprobado: derrota social crónica, transcriptómica unicelular de la habénula, depresión mayor y resiliencia)"
+  },
+  {
+   "id": "bdnf_np",
+   "punto": "Correlación con la gravedad contradicha por Molendijk 2014",
+   "antes": "BDNF reducido en depresión mayor: correlaciona con severidad y volumen hipocampal",
+   "despues": "BDNF sérico reducido en la depresión mayor sin tratamiento, con efecto menor al corregir el sesgo de publicación y sin asociación consistente con la gravedad (Molendijk 2014); relación con el volumen hipocampal [fuente no localizada]",
+   "fuente": "Molendijk ML et al. (2014) Mol Psychiatry 19:791-800 · PMID 23958957 («negate consistent associations between serum BDNF concentrations and the symptom severity»)"
+  },
+  {
+   "id": "evit_exper",
+   "punto": "Dato marcado sin fuente; Wolgast 2014 lo respalda (en términos de malestar)",
+   "antes": "su medida (AAQ-II) correlaciona fuertemente con el afecto negativo [fuente no localizada]",
+   "despues": "los ítems de su medida (AAQ-II) se relacionan más con ítems de malestar psicológico que con ítems de aceptación (Wolgast 2014)",
+   "fuente": "Wolgast M (2014) Behav Ther 45:831-839 · PMID 25311291 (resumen comprobado)"
+  },
+  {
+   "id": "apego_trauma",
+   "punto": "Formulación determinista contradicha por Granqvist 2017",
+   "antes": "Predictor de disociación y TLP en la adultez.",
+   "despues": "Se asocia prospectivamente a más disociación en la adultez joven (Ogawa 1997), pero no es un predictor fuerte de psicopatología ni un rasgo fijo (Granqvist 2017); la predicción específica del TLP tiene menos apoyo prospectivo [fuente no localizada].",
+   "fuente": "Granqvist P et al. (2017) Attach Hum Dev 19:534-558 · PMID 28745146 (falso que el apego desorganizado sea un predictor fuerte de psicopatología o un rasgo fijo); Ogawa JR et al. (1997) Dev Psychopathol 9:855-879 · PMID 9449009 (apego desorganizado y evitativo, predictores de disociación)"
+  },
+  {
+   "id": "apego_trauma",
+   "punto": "Formulación determinista contradicha por Granqvist 2017",
+   "antes": "Predictor de disociación adulta, TLP y DESNOS",
+   "despues": "Asociado prospectivamente a disociación adulta (Ogawa 1997); no es un predictor fuerte de psicopatología (Granqvist 2017) y su relación específica con TLP y DESNOS tiene menos apoyo [fuente no localizada]",
+   "fuente": "Granqvist P et al. (2017) Attach Hum Dev 19:534-558 · PMID 28745146 (falso que el apego desorganizado sea un predictor fuerte de psicopatología o un rasgo fijo); Ogawa JR et al. (1997) Dev Psychopathol 9:855-879 · PMID 9449009 (apego desorganizado y evitativo, predictores de disociación)"
+  }
+ ],
+ "ya_corregidos": [
+  {
+   "id": "ambival",
+   "punto": "Sentido bleuleriano de la ambivalencia «yuxtapuesta sin tensión» no cotejado",
+   "estado": "Ya figura con [fuente no localizada] en las secciones, conforme a las reglas editoriales; no hay error que corregir (no se localizó fuente primaria que permita retirar la marca)."
+  }
+ ],
+ "sin_resolver": [
+  {
+   "id": "hipervent",
+   "punto": "Tensión entre la validación del cuestionario de Nijmegen (Hornsveld 1996) y Meuret y Ritz 2010",
+   "motivo": "No es un error factual: la ficha ya declara la limitación; valorar el peso relativo de ambas fuentes es una decisión de autoría, no una corrección mínima."
+  },
+  {
+   "id": "ideac_suic",
+   "punto": "La sección de exploración no menciona el plan de seguridad ni la restricción de medios más que de pasada",
+   "motivo": "No es un error, sino una ampliación de contenido no pedida (el encargo prohíbe añadir contenido nuevo); el contenido ya está en cssrs."
+  },
+  {
+   "id": "inatencion / insomnio_sx / insight",
+   "punto": "Criterios DSM-5-TR sin contraste (concentración en depresión mayor y TEPT; insomnio/hipersomnia y menor necesidad de sueño; especificador de introspección en el trastorno dismórfico corporal)",
+   "motivo": "No consta error confirmado y no fue posible acceder a texto oficial del DSM-5-TR (NCBI Bookshelf devuelve un reCAPTCHA; el manual no es de acceso abierto). Sin reconfirmación no se modifica nada."
+  },
+  {
+   "id": "(lote t1)",
+   "punto": "Entrega parcial del autor: faltan nodos tox (sustancias concretas, chemsex, médico-legal) y uno de estacionalidad",
+   "motivo": "No es un error en una ficha publicada; crear nodos nuevos queda fuera del alcance de una corrección."
+  },
+  {
+   "id": "eaa_psiq",
+   "punto": "No existe ficha nosológica de esteroides anabolizantes",
+   "motivo": "Ausencia de una ficha, no error en ficha publicada; fuera del alcance."
+  },
+  {
+   "id": "estim_monoam",
+   "punto": "ring=1 con ev=hip ligeramente incoherente",
+   "motivo": "El propio verificador lo consideró defendible y no lo confirmó como error; cambiar la clasificación de evidencia es decisión editorial, sin fuente que la imponga."
+  },
+  {
+   "id": "logoter",
+   "punto": "Editorial de «...trotzdem Ja zum Leben sagen» (1946): ¿Verlag für Jugend und Volk en lugar de Deuticke?",
+   "motivo": "No reconfirmado. Open Library asigna Verlag für Jugend und Volk (Viena, 1946) a «Ein Psycholog erlebt das Konzentrationslager» y Deuticke (Viena) a «Trotzdem Ja zum Leben sagen» (edición de 1947); el título citado en la ficha es la obra que publicó Deuticke, de modo que la editorial de la ficha no queda contradicha. Solo cabe una posible discrepancia de año (1946/1947) que no pude resolver con un catálogo nacional (DNB inaccesible). Sin cambios."
+  }
+ ],
+ "svg": [],
+ "pmid_comprobados": [
+  "16380624",
+  "32368793",
+  "22895952",
+  "16754838",
+  "19589588",
+  "22764363",
+  "25272344",
+  "30528472",
+  "32702334",
+  "32702335",
+  "17082208",
+  "25540022",
+  "23958957",
+  "25311291",
+  "42711407",
+  "28745146",
+  "9449009",
+  "25514024",
+  "26979387 (texto completo PMC)",
+  "29536616 (texto completo PMC5947163)"
+ ]
+}

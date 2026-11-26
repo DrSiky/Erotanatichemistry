@@ -1,0 +1,221 @@
+{
+ "patch": {
+  "clozapina": {
+   "set": {
+    "desc": "Único antipsicótico con eficacia demostrada en la esquizofrenia resistente (Kane 1988) y con reducción de la conducta suicida en esquizofrenia demostrada frente a olanzapina (InterSePT, Meltzer 2003), indicación que no figura en la ficha técnica española (Leponex, 4.1). Infrautilizada por la carga de monitorización y por sus efectos adversos."
+   }
+  },
+  "quetiapina": {
+   "set": {
+    "note": "La contraindicación absoluta con inhibidores potentes del CYP3A4 es una de las más olvidadas en psiquiatría; la acumulación con antirretrovirales potenciados puede producir sedación profunda [fuente no localizada]. En personas con consumo de sustancias se ha descrito uso indebido de quetiapina (Vento 2020)."
+   }
+  },
+  "ap_dem_riesgo": {
+   "featsReplace": [
+    [
+     "Pimavanserina (no figura en CIMA en la consulta de noviembre de 2026; su estado en la EMA [fuente oficial no localizada]): en un ensayo de retirada en psicosis asociada a demencia, recaída del 13 % frente al 28 % con placebo (Tariot 2021); brexpiprazol autorizado por la FDA en 2023 para la agitación del Alzheimer, con efecto pequeño (Lee 2023)",
+     "Pimavanserina (no figura en CIMA ni en el listado de medicamentos de la EMA en la consulta de noviembre de 2026): en un ensayo de retirada en psicosis asociada a demencia, recaída del 13 % frente al 28 % con placebo (Tariot 2021); brexpiprazol autorizado por la FDA en 2023 para la agitación del Alzheimer, con efecto pequeño (Lee 2023)"
+    ]
+   ]
+  },
+  "biperideno": {
+   "set": {
+    "desc": "Antagonista muscarínico central que corrige el desequilibrio dopamina-acetilcolina estriatal producido por el bloqueo D2. Fichas técnicas AEMPS-CIMA: Akineton 2 mg comprimidos (n.º registro 26692), Akineton Retard 4 mg (51224) y Akineton 5 mg/ml solución inyectable (28994). Indicaciones (4.1): síndromes parkinsonianos, especialmente con rigidez y temblor, y sintomatología extrapiramidal provocada por neurolépticos y fármacos similares: distonía aguda, acatisia, acinesia, rigidez, sialorrea y síndrome parkinsoniano. La vía parenteral se usa en la distonía aguda [fuente no localizada]. Otros anticolinérgicos comercializados en España: trihexifenidilo (Artane) y prociclidina (Kemadren) (AEMPS-CIMA)."
+   }
+  },
+  "clozapina_monit": {
+   "secReplace": [
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Fiebre, odinofagia o infección (hemograma urgente; según la ficha, controles dos veces por semana si el RAN baja de 1500/mm³ y suspensión inmediata si es menor de 1000/mm³, con evaluación hematológica); taquicardia en reposo, dolor torácico o disnea en los dos primeros meses (troponina, PCR, ECG, ecocardiograma; suspender ante sospecha de miocarditis); estreñimiento con distensión o vómitos (íleo); convulsiones; somnolencia extrema o hipotensión al iniciar o al dejar de fumar; cualquier infección aguda puede elevar los niveles.",
+     "links": [
+      {
+       "ids": [
+        "clozapina",
+        "cloz",
+        "tabaco"
+       ],
+       "t": "fármaco, indicación y principal interacción"
+      }
+     ]
+    }
+   ]
+  },
+  "munip": {
+   "set": {
+    "desc": "Manía recurrente sin episodios depresivos documentados a lo largo de todo el curso evolutivo. Su proporción varía mucho entre muestras: 16,3 % de los TB I en una serie clínica turca retrospectiva (Yazici 2002); prevalencia de manía pura o con depresión leve del 1,7-1,8 % en dos estudios epidemiológicos (Angst y Grobler 2015). Mayor frecuencia reportada en culturas no occidentales y en adultos mayores.",
+    "tx": "Como el TB I según las guías (CANMAT/ISBD 2018): litio, valproato, antipsicóticos atípicos en agudo; el uso de litio sigue la ficha técnica de Plenur (CIMA). En la única serie comparativa localizada, la respuesta profiláctica al litio fue menor que en el resto del TB I (Yazici 2002)."
+   },
+   "refsAdd": [
+    "AEMPS-CIMA (2026). Ficha técnica de Plenur 400 mg comprimidos de liberación modificada (carbonato de litio) (nº de registro 48932); consulta de noviembre de 2026"
+   ]
+  },
+  "riad": {
+   "featsReplace": [
+    [
+     "ADT > ISRS > IRSN en riesgo de viraje",
+     "Riesgo de viraje mayor con tricíclicos, tetracíclicos e IRSN (en especial venlafaxina) que con ISRS y bupropión (Pacchiarotti 2013; Post 2006)"
+    ],
+    [
+     "Ciclado rápido inducido: >4 episodios/año tras inicio de AD",
+     "Ciclado rápido inducido: al menos 4 episodios en 12 meses tras iniciar el antidepresivo (CIE-11, 6A80.5)"
+    ]
+   ],
+   "refsAdd": [
+    "OMS (2026). CIE-11, entidad «Rapid cycling» (6A80.5, id.who.int/icd/entity/567063364): definición oficial, consulta de noviembre de 2026"
+   ]
+  },
+  "bpvi": {
+   "featsReplace": [
+    [
+     "Menor historia familiar de bipolaridad que formas de inicio temprano (fenotipo diferente)",
+     "Historia familiar: la menor carga familiar en el inicio tardío es un hallazgo débil o inconsistente (Depp y Jeste 2004); en la serie de BP-VI de Ng (2008) la mayoría tenía antecedentes familiares de bipolaridad o de trastornos afines"
+    ],
+    [
+     "Respuesta favorable a litio: puede ser marcador retrospectivo de bipolaridad subyacente",
+     "Respuesta favorable a litio: puede ser marcador retrospectivo de bipolaridad subyacente [fuente no localizada]"
+    ]
+   ],
+   "set": {
+    "tx": "Litio según la ficha técnica de Plenur (CIMA, n.º reg. 48932), que advierte de un mayor riesgo de toxicidad en personas de edad avanzada y pide precaución y monitorización de la función renal (4.2, 4.4); valproato; quetiapina a dosis bajas con cautela cardiovascular. Tratar la patologia cerebrovascular subyacente. Evitar tricíclicos.",
+    "refs": [
+     "Akiskal HS (2002). Classification, diagnosis and boundaries of bipolar disorders: a review. En: Maj M et al. (eds). Bipolar Disorder. WPA Series. Chichester: Wiley [no verificada]",
+     "Sajatovic M et al. (2015). A report on older-age bipolar disorder from the ISBD Task Force. Bipolar Disord 17:689-704 · PMID 26384588",
+     "Shulman KI & Post F (1980). Bipolar affective disorder in old age. Br J Psychiatry 136:26-32 · PMID 7357218",
+     "Ng B et al. (2008). A case series on the hypothesized connection between dementia and bipolar spectrum disorders: bipolar type VI? J Affect Disord 107:307-315 · PMID 17889374",
+     "Depp CA & Jeste DV (2004). Bipolar disorder in older adults: a critical review. Bipolar Disord 6:343-367 · PMID 15383127",
+     "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, 5.ª ed., texto revisado (DSM-5-TR). Washington DC: APA. Otro trastorno bipolar y relacionado especificado",
+     "AEMPS-CIMA (2026). Ficha técnica de Plenur 400 mg comprimidos de liberación modificada (carbonato de litio) (nº de registro 48932), apartados 4.2 y 4.4; consulta de noviembre de 2026"
+    ]
+   }
+  },
+  "vcir": {
+   "set": {
+    "tx": "IPSRT (Interpersonal and Social Rhythm Therapy, Frank et al.), adyuvante de tercera línea en depresión aguda y mantenimiento según CANMAT/ISBD 2018, en la que la psicoeducación es la intervención psicosocial de primera línea en mantenimiento (Yatham 2018); agomelatina como opción farmacológica complementaria; melatonina de liberación prolongada [fuente no localizada]; regularización estricta de rutinas sociales y horarios."
+   }
+  },
+  "hsue": {
+   "set": {
+    "tx": "Higiene del sueño estricta como primera medida; melatonina de liberación prolongada [fuente no localizada]; vigilancia reforzada en viajes intercontinentales; psicoeducación sobre riesgo en contextos de consumo."
+   }
+  },
+  "duloxetina": {
+   "featsReplace": [
+    [
+     "Hepatotoxicidad (4.4): daño hepático predominantemente hepatocelular notificado; precaución con otros fármacos hepatotóxicos y con el consumo importante de alcohol",
+     "Hepatotoxicidad (4.4): daño hepático predominantemente hepatocelular notificado; precaución con otros fármacos hepatotóxicos. Con el alcohol, la ficha (4.5) aconseja precaución por su acción central"
+    ]
+   ],
+   "set": {
+    "tx": "Primera línea en depresión mayor y TAG (CANMAT 2016; Baldwin 2014) y de especial interés en depresión con dolor crónico, fibromialgia o neuropatía diabética (Lunn 2014; Finnerup 2015). Comprobar función hepática, presión arterial y medicación inhibidora de CYP1A2 antes de iniciarla; precaución con el alcohol y otras sustancias de acción central (ficha técnica, 4.5). Límites y contraindicaciones según la ficha técnica de Cymbalta; en España la indicación de fibromialgia no está autorizada."
+   }
+  },
+  "reboxetina": {
+   "set": {
+    "refs": [
+     "AEMPS-CIMA (2026). Ficha técnica de Irenor 4 mg comprimidos (reboxetina) (nº de registro 63157), apartados 4.1-4.6 y 5.2; documento publicado en CIMA en mayo de 2025, con fecha de revisión del texto de octubre de 2023, consulta de noviembre de 2026",
+     "Eyding D et al. (2010). Reboxetine for acute treatment of major depression: systematic review and meta-analysis of published and unpublished placebo and selective serotonin reuptake inhibitor controlled trials. BMJ 341:c4737 · PMID 20940209",
+     "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+     "Kennedy SH et al. (2016). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2016 clinical guidelines for the management of adults with major depressive disorder: section 3. Pharmacological treatments. Can J Psychiatry 61:540-560 · PMID 27486148",
+     "NICE (2022). Depression in adults: treatment and management (NG222)",
+     "Hajós M et al. (2004). The selective norepinephrine reuptake inhibitor antidepressant reboxetine: pharmacological and clinical profile. CNS Drug Rev 10:23-44 · PMID 14978512",
+     "Fleishaker JC (2000). Clinical pharmacokinetics of reboxetine, a selective norepinephrine reuptake inhibitor for the treatment of patients with depression. Clin Pharmacokinet 39:413-427 · PMID 11192474",
+     "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+     "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351"
+    ]
+   }
+  },
+  "bupropion": {
+   "set": {
+    "refs": [
+     "AEMPS-CIMA (2026). Ficha técnica de Elontril 150 mg comprimidos de liberación modificada (bupropión) (nº de registro 68615), apartados 4.1-4.6 y 5.2; documento publicado en CIMA en octubre de 2026, con fecha de revisión del texto de julio de 2026, consulta de noviembre de 2026",
+     "AEMPS-CIMA (2026). Ficha técnica de Zyntabac 150 mg comprimidos de liberación prolongada (bupropión) (nº de registro 63265), apartados 4.1-4.4; documento de versión vigente en CIMA, consulta de noviembre de 2026",
+     "Howes S et al. (2020). Antidepressants for smoking cessation. Cochrane Database Syst Rev 4:CD000031 · PMID 32319681",
+     "Post RM et al. (2006). Mood switch in bipolar depression: comparison of adjunctive venlafaxine, bupropion and sertraline. Br J Psychiatry 189:124-131 · PMID 16880481",
+     "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+     "Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616",
+     "Kennedy SH et al. (2016). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2016 clinical guidelines for the management of adults with major depressive disorder: section 3. Pharmacological treatments. Can J Psychiatry 61:540-560 · PMID 27486148",
+     "NICE (2022). Depression in adults: treatment and management (NG222)",
+     "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+     "Henssler J et al. (2022). Combining antidepressants vs antidepressant monotherapy for treatment of patients with acute depression: a systematic review and meta-analysis. JAMA Psychiatry 79:300-312 · PMID 35171215",
+     "Gartlehner G et al. (2019). Second-generation antidepressants for preventing seasonal affective disorder in adults. Cochrane Database Syst Rev 3:CD011268 · PMID 30883669",
+     "Verbeeck W et al. (2017). Bupropion for attention deficit hyperactivity disorder (ADHD) in adults. Cochrane Database Syst Rev 10:CD009504 · PMID 28965364",
+     "Taylor MJ et al. (2013). Strategies for managing sexual dysfunction induced by antidepressant medication. Cochrane Database Syst Rev (5):CD003382 · PMID 23728643",
+     "Trivedi MH et al. (2021). Bupropion and naltrexone in methamphetamine use disorder. N Engl J Med 384:140-153 · PMID 33497547",
+     "Anthenelli RM et al. (2016). Neuropsychiatric safety and efficacy of varenicline, bupropion, and nicotine patch in smokers with and without psychiatric disorders (EAGLES): a double-blind, randomised, placebo-controlled clinical trial. Lancet 387:2507-2520 · PMID 27116918",
+     "Serretti A & Chiesa A (2009). Treatment-emergent sexual dysfunction related to antidepressants: a meta-analysis. J Clin Psychopharmacol 29:259-266 · PMID 19440080",
+     "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+     "De Picker L et al. (2014). Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics 55:536-547 · PMID 25262043",
+     "Schmid Y et al. (2015). Interactions between bupropion and 3,4-methylenedioxymethamphetamine in healthy subjects. J Pharmacol Exp Ther 353:102-111 · PMID 25655950"
+    ]
+   }
+  },
+  "cpic_isrs": {
+   "set": {
+    "desc": "Actualización y ampliación de la guía CPIC de 2015 (Hicks 2015). Cubre ISRS (citalopram, escitalopram, fluoxetina, fluvoxamina, paroxetina, sertralina), IRSN (desvenlafaxina, duloxetina, levomilnacipran, milnacipran, venlafaxina) y moduladores (vilazodona, vortioxetina), y resume la influencia de CYP2D6, CYP2C19 y CYP2B6 sobre dosis, eficacia y tolerabilidad; concluye que los datos sobre los genes farmacodinámicos SLC6A4 (transportador de serotonina) y HTR2A no apoyan su uso clínico (Bousman 2023). Las recomendaciones principales: en metabolizadores lentos de CYP2D6, dosis inicial reducida o alternativa para paroxetina y fluvoxamina; en ultrarrápidos de CYP2D6, alternativa para paroxetina; en lentos de CYP2C19, dosis reducida o alternativa para citalopram, escitalopram y sertralina; en ultrarrápidos de CYP2C19, alternativa para citalopram y escitalopram; CYP2B6 orienta la dosis de sertralina (recomendación opcional tanto en intermedios como en lentos). Para los fenotipos intermedios las recomendaciones son de fuerza moderada u opcional."
+   }
+  },
+  "tca_dep": {
+   "set": {
+    "tx": "Segunda línea en depresión mayor (CANMAT 2023; Lam 2024); elección del tricíclico y posología según la ficha técnica de cada fármaco, con valoración previa del riesgo de sobredosis, por el que CANMAT recomienda preferir los ISRS (Lam 2024).",
+    "desc": "Los tricíclicos (imipramina: Kuhn, 1957) fueron los primeros antidepresivos efectivos. Ligeramente más eficaces que los ISRS en pacientes hospitalizados (Anderson 2000); su superioridad específica en la melancolía no tiene fuente localizada [fuente no localizada]. En el TOC, la clomipramina no superó a los ISRS en el metaanálisis en red de Skapinakis (2016)."
+   },
+   "refsAdd": [
+    "Skapinakis P et al. (2016). Pharmacological and psychotherapeutic interventions for management of obsessive-compulsive disorder in adults: a systematic review and network meta-analysis. Lancet Psychiatry 3:730-739 · PMID 27318812"
+   ]
+  },
+  "moclobemida": {
+   "set": {
+    "tx": "Alternativa en depresión mayor con intolerancia a ISRS o con rasgos atípicos, con manejo de interacciones más sencillo que los IMAO irreversibles pero con las mismas prohibiciones serotoninérgicas y simpaticomiméticas de la ficha técnica de Manerix; revisar triptanes, tramadol, dextrometorfano (antitusivos de venta libre) y drogas liberadoras de monoaminas (anfetaminas, MDMA, catinonas) en población con consumo. Segunda línea en CANMAT 2023 (Lam 2024), sin cambio respecto a 2016 (Kennedy 2016)."
+   }
+  },
+  "nortriptilina": {
+   "set": {
+    "tx": "Tricíclico preferible en personas mayores o con riesgo de hipotensión por su perfil noradrenérgico y la posibilidad de guiar la dosis por niveles plasmáticos (Hiemke 2018); segunda línea en depresión (CANMAT 2023; Lam 2024); NICE NG222 advierte de que los tricíclicos son peligrosos en sobredosis, con una razón de letalidad de 13,8 para la clase (Hawton 2010). Dosis dentro de los límites de la ficha técnica de Norfenazin (máximo de 150 mg/día en adultos y de 50 mg/día en edad avanzada), ECG basal y retirada lenta durante varias semanas (4.2)."
+   }
+  },
+  "imipramina": {
+   "set": {
+    "tx": "Hoy de segunda línea en depresión (CANMAT 2023; Lam 2024) y reservada a casos seleccionados; en enuresis, solo tras alarmas y desmopresina y por prescriptores con experiencia, con ECG previo y advertencia a la familia de la toxicidad en ingesta accidental. Dosis y límites según la ficha técnica de Tofranil; retirada gradual. Como el resto de los tricíclicos, es muy tóxica en sobredosis (Hawton 2010)."
+   }
+  },
+  "em_neuro": {
+   "set": {
+    "tx": "Tratamiento de la depresión con antidepresivos y psicoterapia, aunque la guía de la AAN considera insuficiente la evidencia de su eficacia específica en la esclerosis múltiple (nivel U) y solo admite con nivel C la terapia cognitivo-conductual telefónica (Minden 2014); dextrometorfano-quinidina en el afecto pseudobulbar; rehabilitación cognitiva."
+   }
+  },
+  "teasqd": {
+   "set": {
+    "tx": "AD + antipsicóticos; litio coadyuvante [fuente no localizada]; TEC en formas depresivas graves; clozapina tras falta de respuesta a dos antipsicóticos a dosis y tiempo adecuados (NICE CG178, 1.5.7.2)."
+   },
+   "featsReplace": [
+    [
+     "Clozapina: considerar en formas con síntomas negativos y deterioro cognitivo prominentes",
+     "Clozapina: indicada tras falta de respuesta a dos antipsicóticos, uno de ellos de segunda generación distinto de la clozapina (NICE CG178)"
+    ]
+   ]
+  },
+  "esqtpersonalidad": {
+   "set": {
+    "tx": "Antipsicóticos a dosis bajas (evidencia limitada, insuficiente todavía para recomendaciones basadas en la evidencia: Kirchner 2018; Jakobsen 2017); psicoterapia (TCC, DBT si hay comorbilidad con TLP); intervención psicosocial."
+   }
+  },
+  "dt_alc": {
+   "set": {
+    "desc": "La abstinencia de alcohol va desde temblor, ansiedad e insomnio (6-24 h) a alucinosis con conciencia clara (12-24 h), crisis convulsivas (habitualmente 24-48 h) y delirium tremens (habitualmente 48-72 h, aunque puede comenzar hasta 10 días después), este último una urgencia con agitación, alucinaciones visuales (zoopsias), hipertermia y disautonomía, con mortalidad elevada si no se trata; los plazos varían según las fuentes (Mirijello 2015)."
+   },
+   "featsReplace": [
+    [
+     "Cronología aproximada tras la última ingesta: temblor y síntomas autonómicos (6-24 h), alucinosis (12-24 h), crisis (12-48 h) y delirium tremens (48-96 h); el orden y los plazos varían entre personas y fuentes (Mirijello 2015)",
+     "Cronología aproximada tras la última ingesta: temblor y síntomas autonómicos (6-24 h), alucinosis (12-24 h), crisis (24-48 h) y delirium tremens (48-72 h, hasta 10 días después); el orden y los plazos varían entre personas y fuentes (Mirijello 2015)"
+    ]
+   ],
+   "secReplace": [
+    {
+     "t": "Curso y pronóstico",
+     "x": "La abstinencia sigue una cronología aproximada tras la última ingesta: temblor, ansiedad e insomnio (6-24 h), alucinosis con conciencia clara (12-24 h), crisis (24-48 h) y delirium tremens (48-72 h, aunque puede comenzar hasta 10 días después); los plazos varían según la fuente (Mirijello 2015). Sin tratamiento, el delirium tremens conlleva una mortalidad elevada (Wood 2018); con sedación adecuada y cuidados médicos de soporte la mortalidad es baja: en los ensayos con benzodiacepinas o barbitúricos revisados no hubo ninguna muerte entre 217 personas (Mayo-Smith 2004). Con tratamiento adecuado, el delirium suele resolverse en pocos días. Complicaciones principales: arritmias, deshidratación, alteraciones electrolíticas, rabdomiólisis, neumonía por aspiración, crisis y encefalopatía de Wernicke asociada. Tras la desintoxicación, el riesgo de recaída es alto si no se trata el trastorno por consumo de alcohol, por lo que el episodio es una oportunidad de intervención."
+    }
+   ]
+  }
+ }
+}

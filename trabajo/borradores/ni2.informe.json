@@ -1,0 +1,242 @@
+{
+ "pmid_comprobados": 46,
+ "pmid_erroneos": 0,
+ "verificacion_registros": {
+  "ClinicalTrials.gov": "API v2 (23-11-2026): cifras de DIAMOND 1/2, EMPOWER-1/2, VENTURA-1/2, MDD3001/3002/3005 coinciden con el registro; EMPOWER-1/2 figuran como fase 2 (no 3); p de DIAMOND son unilaterales ajustadas (Hochberg); aticaprant mantiene un ensayo de fase 1b en esquizofrenia (NCT07615426); ulotaront tiene además NCT07225712, NCT07767903 y NCT07786454.",
+  "Drugs@FDA": "openFDA: Zulresso NDA 211371, aprobado 19-03-2019, tipo 1 nueva entidad molecular, «Discontinued»; Nuplazid NDA 210793 vigente; sin registros de ulotaront, seltorexant, aticaprant, emraclidina, iclepertin, roluperidona ni evenamida.",
+  "EMA": "listado JSON de medicamentos descargado el 23-11-2026 (2765 registros) y solicitudes retiradas: solo zuranolona; ninguno de los fármacos de los nodos.",
+  "CIMA": "API REST: 0 resultados para los 9 principios activos y para xanomelina y zuranolona (control: quetiapina 282).",
+  "dosis": "sin dosis ni pautas en el parche (búsqueda de mg/µg/kg sin resultados)."
+ },
+ "cambios": [
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "es el caso de referencia del efecto placebo creciente en los ensayos de antipsicóticos.",
+   "despues": "es un ejemplo destacado de las grandes respuestas al placebo en los ensayos recientes de antipsicóticos (Smith 2025).",
+   "fuente": "PMID 39710623"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "DIAMOND 1 (NCT04072354; 463 personas)",
+   "despues": "DIAMOND 1 (NCT04072354; 463 personas, incluidos adolescentes)",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026 NCT04072354"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "diferencias entre +2,4 y -3,8 puntos según el brazo (resultados del registro",
+   "despues": "diferencias entre +2,4 y -3,8 puntos según el brazo, con p unilaterales ajustadas (resultados del registro",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "ensayos de fase 3 en trastorno de ansiedad generalizada en reclutamiento (NCT07759128)",
+   "despues": "un ensayo de administración prolongada en esquizofrenia (NCT07225712) y tres ensayos de fase 3 en trastorno de ansiedad generalizada (NCT07759128, NCT07767903, NCT07786454), en reclutamiento",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "mayor",
+   "antes": "esta última con IC 95 % de -7,5 a -0,1 y p = 0,041 según el registro",
+   "despues": "esta última con IC 95 % de -7,5 a -0,1 y p unilateral ajustada por un procedimiento de Hochberg de 0,041 según el registro",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026 NCT04092686 (pValueComment)"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "casi el doble en DIAMOND 1 (-19,3 puntos) que en la fase 2 (-9,7; Koblan 2020)",
+   "despues": "casi el doble en DIAMOND 1 (-19,3 a 6 semanas) que en la fase 2 (-9,7 a 4 semanas; Koblan 2020)",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026; PMID 32294346"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "mayor",
+   "antes": "lo que reduce artificialmente la diferencia de tolerabilidad (Piacentino 2024)",
+   "despues": "lo que contribuyó a la escasa diferencia en efectos adversos (Piacentino 2024)",
+   "fuente": "PMID 37855974 (resumen)"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "(semivida de 139 frente a 124 minutos con el antipsicótico previo; Milanović 2024)",
+   "despues": "(mediana del tiempo de vaciamiento a la mitad de 139 frente a 124 minutos con el antipsicótico previo; Milanović 2024)",
+   "fuente": "PMID 38533552"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "mostró tendencias favorables en peso y grasa visceral (Milanovic 2026)",
+   "despues": "mostró diferencias favorables en peso y grasa visceral y tendencias favorables en otros marcadores metabólicos (Milanovic 2026)",
+   "fuente": "PMID 41126397"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "suprimió el sueño REM sin reducir la cataplejía (Szabo 2023)",
+   "despues": "suprimió el sueño REM sin reducir la cataplejía frente a placebo (Szabo 2023)",
+   "fuente": "PMID 37209427"
+  },
+  {
+   "id": "ulotaront",
+   "gravedad": "menor",
+   "antes": "variable principal: cambio en la PANSS total a la semana 6; consulta de noviembre de 2026",
+   "despues": "variable principal: cambio en la PANSS total a la semana 6; estado de NCT06894212, NCT07225712, NCT07759128, NCT07767903 y NCT07786454; consulta de noviembre de 2026",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "brexanolona",
+   "gravedad": "mayor",
+   "antes": "Se ha estudiado o propuesto en otras indicaciones (TEPT, trastorno por consumo de alcohol, psicosis posparto, acúfenos) sin evidencia de eficacia (Gayanova 2026).",
+   "despues": "Se investiga en otras indicaciones (TEPT, trastorno por consumo de alcohol, psicosis posparto, acúfenos) (Gayanova 2026), sin eficacia demostrada en ellas [fuente no localizada].",
+   "fuente": "PMID 42563143 (el resumen dice «under investigation», no «sin evidencia de eficacia»)"
+  },
+  {
+   "id": "seltorexant",
+   "gravedad": "menor",
+   "antes": "un tercero sin diferencia en la tasa de respuesta frente a quetiapina de liberación prolongada (MDD3005)",
+   "despues": "un tercero sin diferencia en la tasa de respuesta a la semana 26 frente a quetiapina de liberación prolongada (MDD3005)",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026 NCT04513912"
+  },
+  {
+   "id": "seltorexant",
+   "gravedad": "menor",
+   "antes": "(NCT04513912; 757 personas): respuesta del 57,4 %",
+   "despues": "(NCT04513912; 757 personas): respuesta a la semana 26 del 57,4 %",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026 NCT04513912"
+  },
+  {
+   "id": "seltorexant",
+   "gravedad": "menor",
+   "antes": "magnitud similar a la de otros adyuvantes.",
+   "despues": "magnitud similar a la de otros adyuvantes [fuente no localizada].",
+   "fuente": "sin fuente en el parche"
+  },
+  {
+   "id": "seltorexant",
+   "gravedad": "mayor",
+   "antes": "un revisor vinculado al promotor considera necesario",
+   "despues": "una revisión narrativa considera necesario",
+   "fuente": "PMID 40434499 (el resumen no documenta vínculo con el promotor)"
+  },
+  {
+   "id": "seltorexant",
+   "gravedad": "menor",
+   "antes": "(57,4 % frente a 53,4 %) (registro",
+   "despues": "(57,4 % frente a 53,4 % a la semana 26) (registro",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "aticaprant",
+   "gravedad": "mayor",
+   "antes": "Aticaprant (antagonista kappa-opioide; desarrollo interrumpido)",
+   "despues": "Aticaprant (antagonista kappa-opioide; desarrollo en depresión interrumpido)",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026 NCT07615426 (fase 1b en esquizofrenia, en reclutamiento)"
+  },
+  {
+   "id": "aticaprant",
+   "gravedad": "mayor",
+   "antes": "no mostraron diferencias frente a placebo y el promotor interrumpió el programa en marzo de 2025; dos estudios se cerraron por eficacia insuficiente (registro ClinicalTrials.gov, consulta de noviembre de 2026).",
+   "despues": "no mostraron diferencias frente a placebo; en marzo de 2025 el promotor terminó anticipadamente el estudio de seguridad a largo plazo y otros dos ensayos de fase 3 se cerraron por eficacia insuficiente. El registro recoge ahora solo un ensayo de fase 1b como adyuvante en esquizofrenia, en reclutamiento (NCT07615426) (registro ClinicalTrials.gov, consulta de noviembre de 2026).",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "aticaprant",
+   "gravedad": "mayor",
+   "antes": "nasofaringitis y prurito (5,9 % frente a 0 %)",
+   "despues": "nasofaringitis (5,9 % frente a 2,4 %) y prurito (5,9 % frente a 0 %)",
+   "fuente": "PMID 38649428 (resumen)"
+  },
+  {
+   "id": "aticaprant",
+   "gravedad": "mayor",
+   "antes": "sin desarrollo activo en depresión registrado (consulta de noviembre de 2026)",
+   "despues": "sin desarrollo activo en depresión registrado; ensayo de fase 1b como adyuvante en esquizofrenia en reclutamiento (NCT07615426) (consulta de noviembre de 2026)",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "aticaprant",
+   "gravedad": "mayor",
+   "antes": "en roedores, combinado con naltrexona, previno la recaída en el consumo de alcohol (Zhou 2022), y se ensayó en un modelo de laboratorio humano de tabaquismo (Jones 2020), cuyos resultados no se han contrastado en esta revisión [fuente no localizada].",
+   "despues": "en ratones, combinado con naltrexona en dosis bajas, redujo el consumo de alcohol de tipo recaída (Zhou 2022); en un modelo de laboratorio humano con 71 fumadores no modificó la latencia hasta fumar, el número de cigarrillos, el craving ni la abstinencia de nicotina (Jones 2020).",
+   "fuente": "PMID 31240842 y 35832748 (resúmenes)"
+  },
+  {
+   "id": "aticaprant",
+   "gravedad": "mayor",
+   "antes": "y sin ensayos activos en depresión en el registro.",
+   "despues": "y sin ensayos activos en depresión en el registro, que solo recoge un ensayo de fase 1b en esquizofrenia (NCT07615426).",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "aticaprant",
+   "gravedad": "menor",
+   "antes": "NCT05518149, NCT06635135 y NCT06514742; consulta",
+   "despues": "NCT05518149, NCT06635135, NCT06514742 y NCT07615426; consulta",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "mayor",
+   "antes": "que fracasaron en ensayos confirmatorios en esquizofrenia entre 2022 y 2025, tras la aprobación de la xanomelina-trospio: emraclidina (modulador alostérico positivo M4) en psicosis aguda",
+   "despues": "que fracasaron en ensayos de eficacia de fase 2 o 3 en esquizofrenia entre 2022 y 2025, en paralelo a la aprobación de la xanomelina-trospio: emraclidina (modulador alostérico positivo M4) en psicosis aguda (fase 2)",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026 (EMPOWER-1/2 registrados como PHASE2)"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "menor",
+   "antes": "EMPOWER-1 (NCT05227690; 385 personas) y EMPOWER-2 (NCT05227703; 391 personas) no separaron",
+   "despues": "los ensayos de fase 2 EMPOWER-1 (NCT05227690; 385 personas) y EMPOWER-2 (NCT05227703; 391 personas) no separaron",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "mayor",
+   "antes": "La aprobación de la xanomelina-trospio en 2024 hizo pensar que activar selectivamente",
+   "despues": "Los resultados de la xanomelina-trospio (aprobada por la FDA en 2024) respaldaban la idea de que activar selectivamente",
+   "fuente": "ClinicalTrials.gov API v2, consulta 23-11-2026 (EMPOWER se inició en junio-julio de 2022, antes de la aprobación)"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "mayor",
+   "antes": "El mismo patrón de fase 2 positiva y fase 3 negativa se repitió con ulotaront.",
+   "despues": "Con ulotaront, una fase 2 positiva fue seguida de dos ensayos de fase 3 negativos; en la emraclidina, en cambio, la señal previa procedía de un ensayo de fase 1b cuyo objetivo principal era la seguridad (Krystal 2022).",
+   "fuente": "PMID 36528376; ClinicalTrials.gov API v2, consulta 23-11-2026"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "mayor",
+   "antes": "Segunda: los ensayos de fase 2 pequeños sobrestiman el efecto, y las diferencias se reducen al pasar a ensayos pivotales multinacionales, como ocurrió con ulotaront, emraclidina, pimavanserina y aticaprant en depresión.",
+   "despues": "Segunda: los ensayos pequeños sobrestiman el efecto (corregir su efecto y el sesgo de publicación redujo la DME de 0,47 a 0,38; Leucht 2017), y las diferencias menguan en ensayos pivotales, como con ulotaront, pimavanserina y aticaprant.",
+   "fuente": "PMID 28541090; 36528376"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "menor",
+   "antes": "Es un único ensayo corto, financiado por el fabricante y con efecto pequeño,",
+   "despues": "Es un único ensayo corto (descrito por sus autores como de fase 3) y con efecto pequeño,",
+   "fuente": "PMID 39708914 (financiación no consta en el resumen)"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "menor",
+   "antes": "En modelos animales del neurodesarrollo y en la hipótesis de la hiperactividad hipocampal se propone que corrija la disfunción situada por encima del sistema dopaminérgico (Grace 2026).",
+   "despues": "A partir de modelos preclínicos y de la hipótesis de la hiperactividad hipocampal se propone que podría restaurar la inhibición del hipocampo, disfunción situada por encima del sistema dopaminérgico (Grace 2026).",
+   "fuente": "PMID 42320782"
+  },
+  {
+   "id": "fallidos_esq",
+   "gravedad": "menor",
+   "antes": "links y rel con 'sneg' (síntomas negativos subumbrales)",
+   "despues": "retirado 'sneg'; se mantiene 'esqneg'",
+   "fuente": "node tools/q.js show sneg"
+  }
+ ],
+ "sin_resolver": [
+  "Resultados de fase 3 de DIAMOND, VENTURA, MDD3001-3005 y de fase 2 de EMPOWER solo en el registro; sin publicación indexada localizada (ya marcado).",
+  "Motivo y fecha de la retirada comercial de Zulresso y comunicado oficial de interrupción del aticaprant en depresión no consultados (ya marcados).",
+  "Umbral de significación prefijado de DIAMOND 2 (p unilateral ajustada 0,041) no consta en el registro; redactado sin juzgar la significación."
+ ]
+}

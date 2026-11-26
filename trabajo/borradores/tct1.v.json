@@ -1,0 +1,292 @@
+{
+ "patch": {
+  "fototer": {
+   "relAdd": [
+    "tct"
+   ],
+   "refsAdd": [
+    "Wu JC et al. (2009). Rapid and sustained antidepressant response with sleep deprivation and chronotherapy in bipolar disorder. Biol Psychiatry 66:298-301 · PMID 19358978",
+    "Gottlieb JF et al. (2019). The chronotherapeutic treatment of bipolar disorders: a systematic review and practice recommendations from the ISBD task force on chronotherapy and chronobiology. Bipolar Disord 21:741-773 · PMID 31609530"
+   ]
+  },
+  "priv_sueno": {
+   "relAdd": [
+    "tct"
+   ],
+   "refsAdd": [
+    "Benedetti F et al. (2014). Rapid treatment response of suicidal symptoms to lithium, sleep deprivation, and light therapy (chronotherapeutics) in drug-resistant bipolar depression. J Clin Psychiatry 75:133-140 · PMID 24345382",
+    "Gottlieb JF et al. (2021). Meta-analysis of sleep deprivation in the acute treatment of bipolar depression. Acta Psychiatr Scand 143:319-327 · PMID 33190220"
+   ]
+  },
+  "dep_bip_tx": {
+   "relAdd": [
+    "tct"
+   ]
+  },
+  "circad": {
+   "relAdd": [
+    "tct"
+   ]
+  },
+  "ipsrt": {
+   "relAdd": [
+    "tct"
+   ]
+  },
+  "dos_procesos": {
+   "relAdd": [
+    "tct"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "tct",
+   "n": "Triple cronoterapia en la depresión bipolar",
+   "ab": "Triple cronoterapia",
+   "al": [
+    "TCT",
+    "triple resincronización circadiana",
+    "triple chronotherapy",
+    "chronotherapeutic augmentation"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "neu",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2009,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Combinación coadyuvante de una noche de privación total de sueño, avance de fase del sueño en las noches siguientes y luz brillante matutina, aplicada con tratamiento eutimizante y supervisión, casi siempre en planta. En depresión bipolar, un ensayo aleatorizado pequeño (Wu 2009; n = 49) halló menos síntomas que con medicación sola desde las 48 horas y durante 7 semanas; la magnitud, la persistencia y el riesgo específico de viraje siguen inciertos. La ficha incrusta el dossier completo del autor (Segovia Vera 2026, 17 páginas), que se abre desde su botón.",
+   "feats": [
+    "Tríada completa: vigilia + avance de fase + luz matutina; «triple resincronización circadiana» no es un término estandarizado (D'Agostino 2020; Wu 2009)",
+    "Único ensayo aleatorizado de la tríada específico en bipolares: Wu (2009), 49 pacientes, ventaja desde las 48 horas mantenida 7 semanas",
+    "El esquema de Milán (vigilia repetida + luz + litio, sin avance de fase) es una combinación relacionada, no una TCT (Benedetti 2005, 2014)",
+    "Viraje tras tres ciclos de vigilia: 4,85 % a manía y 5,83 % a hipomanía en 206 bipolares, serie no comparativa (Colombo 1999)",
+    "Protección antimaníaca y monitorización: eutimizante obligatorio con la vigilia en la depresión bipolar aguda y profilaxis antimaníaca con la luz, según la ISBD (Crouse 2026; Geoffroy 2025)",
+    "Descenso precoz de la suicidalidad en series sin control (Benedetti 2014; Sahlem 2014), sin demostración de prevención de la conducta suicida",
+    "Parámetros de luz y horarios del avance de fase propios de cada estudio; los protocolos no están estandarizados (Gottlieb 2019)"
+   ],
+   "tx": "Solo como coadyuvante, con eutimizante o antimaníaco activo, consentimiento informado que incluya el riesgo de viraje, evaluación diaria de depresión, suicidalidad y síntomas maníacos, y reglas de parada explícitas; preferentemente en entornos con experiencia en cronoterapia.",
+   "note": "Evidencia moderada-baja: pocos ensayos, muestras pequeñas, protocolos heterogéneos y casi todo en pacientes ingresados. Las cifras de las series de Milán y de los metaanálisis no son tasas propias de la TCT en bipolares. El dossier completo del autor (Segovia Vera FJ, 20-11-2026, 17 páginas) va incrustado en esta ficha y se abre desde su botón; los datos marcados como no localizados proceden del texto completo de los estudios según el dossier y no figuran en los resúmenes de PubMed (Wu 2009 y Ferrara 2026 no están en PubMed Central).",
+   "sec": [
+    {
+     "t": "Terminología y delimitación",
+     "x": "«Triple resincronización circadiana» no es un término estandarizado en la literatura indexada: es una denominación descriptiva del dossier del autor. Los términos consolidados son triple chronotherapy o triple cronoterapia (TCT; D'Agostino 2020; Sahlem 2014), chronotherapeutic augmentation (Wu 2009) y, en sentido amplio, chronotherapeutics o terapia de luz y vigilia (Wirz-Justice 2005). En esta ficha la sigla TCT se reserva para la tríada completa: una noche de privación total de sueño (vigilia terapéutica), avance de fase del sueño durante las noches siguientes y luz brillante matutina, siempre como coadyuvante del tratamiento farmacológico. Las pautas que omiten un componente se denominan combinaciones cronoterapéuticas relacionadas; la principal es el esquema del grupo de Milán (San Raffaele), con ciclos repetidos de vigilia, luz matutina y litio, pero sin avance de fase (Colombo 2000; Benedetti 2005, 2014). Sus tasas de respuesta no deben atribuirse a la TCT estricta, error frecuente en revisiones narrativas.",
+     "links": [
+      {
+       "ids": [
+        "fototer"
+       ],
+       "t": "fototerapia y cronoterapia"
+      },
+      {
+       "ids": [
+        "priv_sueno"
+       ],
+       "t": "privación de sueño"
+      }
+     ]
+    },
+    {
+     "t": "Fundamentos cronobiológicos",
+     "x": "El razonamiento parte del modelo de los dos procesos: la vigilia prolongada satura la presión homeostática de sueño (proceso S) y el avance de fase y la luz matutina actúan sobre el marcapasos circadiano (proceso C), sincronizado por la luz a través de la retina y el núcleo supraquiasmático. En los trastornos afectivos mayores se describen alteraciones de los ritmos de temperatura, secreción hormonal, ánimo y sueño (Bunney y Potkin 2008; Bunney y Bunney 2013). La hipótesis del «periodo crítico» propone que la recaída tras la vigilia depende de dormir en una ventana de la madrugada: Berger (1997) mantuvo la mejoría en el 61 % (20 de 33) de respondedores melancólicos ingresados con sueño de 17:00 a 24:00 y retraso posterior de 1 hora diaria; Riemann (1999), en 40 respondedores sin medicación con diseño de pares emparejados, estabilizó al 75 % con avance de fase frente al 40 % con retraso. Ninguno de los dos estudió muestras específicamente bipolares. La propuesta molecular de Bunney y Bunney (2013), según la cual la vigilia reiniciaría una maquinaria de genes reloj alterada y el sueño de recuperación la reactivaría, es un modelo interpretativo, no un mecanismo demostrado.",
+     "links": [
+      {
+       "ids": [
+        "dos_procesos"
+       ],
+       "t": "modelo de los dos procesos"
+      },
+      {
+       "ids": [
+        "circad",
+        "luz_melatonina"
+       ],
+       "t": "ritmos circadianos, luz y melatonina"
+      },
+      {
+       "ids": [
+        "clock_genes"
+       ],
+       "t": "genes reloj"
+      }
+     ]
+    },
+    {
+     "t": "Componentes y protocolos por estudio",
+     "x": "No existe un protocolo normativo único de TCT; los parámetros que siguen son los de cada estudio y no constituyen una pauta recomendada. En Sahlem (2014; muestra analizada unipolar) se aplicó una noche de vigilia de 33-36 horas, avance de fase con sueño de 18:00 a 01:00, de 20:00 a 03:00 y de 22:00 a 05:00 en tres noches sucesivas, y luz de 10.000 lux durante 30 minutos los días 1 a 4, con inicio entre las 06:00 y las 08:00 fijado por el cuestionario de matutinidad-vespertinidad (MEQ), siguiendo el manual de Wirz-Justice, Benedetti y Terman. En Wu (2009), único ensayo aleatorizado de la tríada en bipolares, se usaron ventanas de sueño similares y luz de 5.000 lux durante 2 horas en tres días [fuente no localizada]. En Ferrara (2026) las ventanas fueron de 8 horas y la luz se aplicó de 07:00 a 07:30 los días 1 a 13 [fuente no localizada]. El esquema de Milán sustituye la vigilia única por tres ciclos de 36 horas de vigilia seguidos de sueño de recuperación en una semana, con luz matutina durante dos semanas y litio (Benedetti 2014). Las intensidades de luz, los horarios y la duración del avance de fase difieren entre estudios, lo que limita la comparación.",
+     "links": [
+      {
+       "ids": [
+        "fototer"
+       ],
+       "t": "luz brillante"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia clínica",
+     "x": "En Wu (2009), 49 personas con depresión bipolar tratadas con litio y antidepresivos fueron aleatorizadas a añadir vigilia, avance de fase y luz o a medicación sola: la puntuación de la escala de Hamilton descendió más en el grupo de cronoterapia desde las 48 horas y la diferencia se mantuvo 7 semanas. En el ensayo abierto de Ferrara (2026; 24 pacientes con TCT y 20 con tratamiento habitual, ingresados, con depresión unipolar o bipolar), el resumen informa de una reducción mayor y más rápida hacia el día 5, persistente el día 12, mayor descenso de la suicidalidad y estancia más corta, sin diferencias en reingresos, pero no aporta valores de p ni el análisis por polaridad; el subgrupo bipolar era pequeño (11 pacientes) [fuente no localizada]. Echizenya (2013) observó respuesta mantenida a 3 semanas en 8 de 13 pacientes farmacorresistentes. Como combinaciones relacionadas, Benedetti (2005) obtuvo respuesta en el 70 % de bipolares tipo I no resistentes y el 44 % de resistentes, con eutimia a 9 meses en el 57 % y el 17 % de los respondedores; Colombo (2000) mostró que la luz matutina y el litio mantenido potenciaban el efecto de tres ciclos de vigilia, sin beneficio adicional al combinarlos. Como contraste, en un ensayo piloto ambulatorio unipolar (n = 44) la remisión a la semana fue numéricamente mayor con TCT pero no significativa (25,0 % frente a 6,7 %; Yuen 2021).",
+     "links": [
+      {
+       "ids": [
+        "dep_bip_tx"
+       ],
+       "t": "tratamiento de la depresión bipolar"
+      },
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      }
+     ]
+    },
+    {
+     "t": "Revisiones y metaanálisis",
+     "x": "La revisión sistemática de D'Agostino (2020) incluyó seis estudios de TCT añadida al tratamiento convencional (2009-2019): respuesta al final del tratamiento del 50 al 84 %, mantenida en el seguimiento en tres estudios (58-61 %), remisión del 33,3 al 77 % y efectos adversos despreciables, aunque solo un estudio tenía grupo control. El metaanálisis de Humpston (2020), con 16 estudios (cuatro ensayos aleatorizados y 12 series) de cronoterapias diversas en pacientes deprimidos, halló en los ensayos un tamaño de efecto g de Hedges de 0,62 frente a controles y respuesta a los 5-7 días del 33,0 % frente al 1,5 % (OR 7,58); en las series, g = 1,78 y respuesta del 61,6 %; casi todos los pacientes estaban ingresados. Gottlieb (2021), en 15 estudios y 384 pacientes con depresión bipolar tratados con privación de sueño en distintos formatos, estimó una respuesta media del 47,6 % comparando antes y después, sin condición placebo, y del 59,4 % con medicación coadyuvante frente al 27,4 % sin ella. La revisión de la ISBD (Gottlieb 2019) recoge respuestas agudas a la privación de sueño del 43,9 % en ocho series, del 59,3 % en 11 estudios no controlados y del 59,4 % en un ensayo aleatorizado. Ninguna de estas cifras es una estimación específica de la tríada en bipolares.",
+     "links": [
+      {
+       "ids": [
+        "priv_sueno"
+       ],
+       "t": "privación de sueño como tratamiento"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad y viraje",
+     "x": "El riesgo específico en el trastorno bipolar es el viraje a hipomanía o manía. En 206 personas con depresión bipolar tratadas con tres ciclos de vigilia, solos o con medicación heterogénea, el viraje fue del 4,85 % a manía y del 5,83 % a hipomanía, cifras que los autores consideraron comparables a las de los antidepresivos (Colombo 1999). Con la tríada completa se describieron 2 virajes hipomaníacos entre 32 tratados, resueltos en 24 horas (Wu 2009) [fuente no localizada]; en la serie de Milán con vigilia, luz y litio hubo 2 cambios de polaridad entre 143 pacientes (Benedetti 2014). El consenso Delphi de la ISBD considera leve el riesgo de viraje con la vigilia terapéutica, que solo debe aplicarse bajo supervisión clínica, únicamente en la fase depresiva y, en la depresión bipolar aguda, siempre combinada con un eutimizante (Crouse 2026). Para la luz, la ISBD recomienda profilaxis antimaníaca, especialmente en el tipo I, instaurada al menos 2-4 semanas antes, y monitorización clínica al iniciarla y mantenerla (Geoffroy 2025). La revisión de la ISBD considera las cronoterapias en general seguras y bien toleradas como coadyuvantes (Gottlieb 2019). La somnolencia transitoria fue el efecto más frecuente en Sahlem (2014).",
+     "links": [
+      {
+       "ids": [
+        "tb_induc"
+       ],
+       "t": "viraje inducido"
+      },
+      {
+       "ids": [
+        "hsue"
+       ],
+       "t": "hipersensibilidad a la privación de sueño"
+      }
+     ]
+    },
+    {
+     "t": "Precauciones y contraindicaciones documentadas",
+     "x": "Para la luz brillante, la ISBD considera contraindicaciones el episodio maníaco agudo, la manía o hipomanía recientes, los síntomas mixtos y la ciclación rápida; las enfermedades retinianas y ciertos fármacos fotosensibilizantes pueden impedir su uso, y ante pérdida o cambios recientes de visión o antecedentes oculares aconseja exploración oftalmológica previa (Geoffroy 2025). Para la vigilia terapéutica, el consenso Delphi de la ISBD advierte que puede no ser adecuada en personas con epilepsia comórbida, porque puede inducir crisis (Crouse 2026). Sahlem (2014) incluyó bipolares solo con eutimizante a dosis terapéutica y excluyó estado mixto, psicosis activa, trastorno de pánico activo, abstinencia activa de sustancias, antecedentes de crisis epilépticas y enfermedad médica o neurológica inestable; retiró del protocolo a un paciente con trastorno bipolar tipo I que, por un error del equipo (habitación ruidosa), no logró dormir tras dos noches, al considerar que el riesgo de viraje superaba el beneficio. Estos criterios son de un estudio concreto y no constituyen una guía.",
+     "links": [
+      {
+       "ids": [
+        "mxto"
+       ],
+       "t": "características mixtas"
+      },
+      {
+       "ids": [
+        "epilepsia_psic"
+       ],
+       "t": "epilepsia"
+      },
+      {
+       "ids": [
+        "fototer"
+       ],
+       "t": "fototerapia: indicaciones y seguridad"
+      }
+     ]
+    },
+    {
+     "t": "Suicidalidad",
+     "x": "En la serie abierta y sin grupo control de Benedetti (2014; 141 bipolares que completaron el tratamiento, 83 % con farmacorresistencia y 23 % con intentos previos), tres ciclos de vigilia con luz matutina y litio, sin avance de fase, se asociaron a un descenso inmediato y persistente de las puntuaciones de suicidalidad desde el primer ciclo; quienes tenían ideación o planificación actual respondieron igual, y 78 de 99 respondedores siguieron bien el mes siguiente y recibieron el alta con litio solo. En Sahlem (2014), con 10 pacientes ingresados por ideación suicida y depresión unipolar, la Columbia Suicide Severity Rating Scale bajó de 19,5 a 7,2 al final del protocolo. Ferrara (2026) informó de un mayor descenso de la suicidalidad con TCT añadida. Estos datos describen cambios a corto plazo en escalas, en muestras pequeñas o sin control, y no demuestran prevención de intentos ni de muerte por suicidio; la cronoterapia no sustituye la evaluación del riesgo, el plan de seguridad ni la protección clínica habituales.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación y conducta suicida"
+      },
+      {
+       "ids": [
+        "resp_profesional"
+       ],
+       "t": "responsabilidad profesional"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia y consenso ISBD",
+     "x": "La base empírica es estrecha: un único ensayo aleatorizado de la tríada específico en bipolares (Wu 2009; n = 49), un ensayo abierto mixto con pocos pacientes bipolares (Ferrara 2026) [fuente no localizada], protocolos heterogéneos (vigilia única o repetida, avance de tres o siete noches, luz de distinta intensidad y duración), casi todo en pacientes ingresados (Humpston 2020) y seguimiento corto. Sahlem (2014) propuso como control activo la privación parcial en la primera mitad de la noche, el retraso de fase de tres días y la luz placebo. El primer programa ambulatorio de TCT en depresión bipolar es un caso clínico (Gottlieb y Terman 2012). El papel de la luz de mantenimiento en la prevención de recaídas está por establecer (Geoffroy 2025). El consenso Delphi de la ISBD (Crouse 2026; 30 expertos de 15 países, 342 enunciados) recoge protocolos, resultados, riesgos y contraindicaciones de seis cronoterapias; es consenso experto, no un ensayo de eficacia. Hallazgos como el polimorfismo -50T/C de GSK3B (Benedetti 2004) o la conectividad frontolímbica en respondedores (Vai 2015, con 11 no respondedores) son exploratorios y no sirven para seleccionar pacientes.",
+     "links": [
+      {
+       "ids": [
+        "ipsrt"
+       ],
+       "t": "regularidad de ritmos sociales"
+      },
+      {
+       "ids": [
+        "mapa_integr"
+       ],
+       "t": "atlas del espectro afectivo"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Wu JC et al. (2009). Rapid and sustained antidepressant response with sleep deprivation and chronotherapy in bipolar disorder. Biol Psychiatry 66:298-301 · PMID 19358978",
+    "Ferrara P et al. (2026). Establishing Triple Chronotherapy as a fast-acting add-on treatment for unipolar and bipolar depression: evidence from an open-label randomized controlled trial in a real-world inpatient setting. J Affect Disord 394:120537 · PMID 41284534",
+    "Sahlem GL et al. (2014). Adjunctive triple chronotherapy (combined total sleep deprivation, sleep phase advance, and bright light therapy) rapidly improves mood and suicidality in suicidal depressed inpatients: an open label pilot study. J Psychiatr Res 59:101-107 · PMID 25231629",
+    "Gottlieb JF et al. (2019). The chronotherapeutic treatment of bipolar disorders: a systematic review and practice recommendations from the ISBD task force on chronotherapy and chronobiology. Bipolar Disord 21:741-773 · PMID 31609530",
+    "Gottlieb JF et al. (2021). Meta-analysis of sleep deprivation in the acute treatment of bipolar depression. Acta Psychiatr Scand 143:319-327 · PMID 33190220",
+    "Benedetti F et al. (2014). Rapid treatment response of suicidal symptoms to lithium, sleep deprivation, and light therapy (chronotherapeutics) in drug-resistant bipolar depression. J Clin Psychiatry 75:133-140 · PMID 24345382",
+    "Benedetti F et al. (2005). Combined total sleep deprivation and light therapy in the treatment of drug-resistant bipolar depression: acute response and long-term remission rates. J Clin Psychiatry 66:1535-1540 · PMID 16401154",
+    "Colombo C et al. (1999). Rate of switch from depression into mania after therapeutic sleep deprivation in bipolar depression. Psychiatry Res 86:267-270 · PMID 10482346",
+    "Colombo C et al. (2000). Total sleep deprivation combined with lithium and light therapy in the treatment of bipolar depression: replication of main effects and interaction. Psychiatry Res 95:43-53 · PMID 10904122",
+    "Berger M et al. (1997). Sleep deprivation combined with consecutive sleep phase advance as a fast-acting therapy in depression: an open pilot trial in medicated and unmedicated patients. Am J Psychiatry 154:870-872 · PMID 9167521",
+    "Riemann D et al. (1999). How to preserve the antidepressive effect of sleep deprivation: a comparison of sleep phase advance and sleep phase delay. Eur Arch Psychiatry Clin Neurosci 249:231-237 · PMID 10591988",
+    "D'Agostino A et al. (2020). Efficacy of Triple Chronotherapy in unipolar and bipolar depression: a systematic review of the available evidence. J Affect Disord 276:297-304 · PMID 32697712",
+    "Humpston C et al. (2020). Chronotherapy for the rapid treatment of depression: a meta-analysis. J Affect Disord 261:91-102 · PMID 31606606",
+    "Yuen LD et al. (2021). A randomized, controlled trial assessing the acute efficacy of triple chronotherapy in unipolar depression. J Affect Disord 282:1143-1152 · PMID 33601689",
+    "Echizenya M et al. (2013). Total sleep deprivation followed by sleep phase advance and bright light therapy in drug-resistant mood disorders. J Affect Disord 144:28-33 · PMID 22835846",
+    "Geoffroy PA et al. (2025). Light therapy for bipolar disorders: clinical recommendations from the International Society for Bipolar Disorders (ISBD) Chronobiology and Chronotherapy Task Force. Dialogues Clin Neurosci 27:249-264 · PMID 40705857",
+    "Crouse JJ et al. (2026). Essential information about chronobiology and chronotherapy for the optimal care of people with bipolar disorders: an expert consensus. Bipolar Disord 28:e70141 · PMID 42429210",
+    "Gottlieb JF & Terman M (2012). Outpatient triple chronotherapy for bipolar depression: case report. J Psychiatr Pract 18:373-380 · PMID 22995965",
+    "Bunney BG & Bunney WE (2013). Mechanisms of rapid antidepressant effects of sleep deprivation therapy: clock genes and circadian rhythms. Biol Psychiatry 73:1164-1171 · PMID 22906517",
+    "Bunney JN & Potkin SG (2008). Circadian abnormalities, molecular clock genes and chronobiological treatments in depression. Br Med Bull 86:23-32 · PMID 18487629",
+    "Vai B et al. (2015). Successful antidepressant chronotherapeutics enhance fronto-limbic neural responses and connectivity in bipolar depression. Psychiatry Res 233:243-253 · PMID 26195295",
+    "Benedetti F et al. (2004). A glycogen synthase kinase 3-beta promoter gene single nucleotide polymorphism is associated with age at onset and response to total sleep deprivation in bipolar depression. Neurosci Lett 368:123-126 · PMID 15351432",
+    "Wirz-Justice A et al. (2005). Chronotherapeutics (light and wake therapy) in affective disorders. Psychol Med 35:939-944 · PMID 16045060",
+    "Wirz-Justice A, Benedetti F & Terman M (2013). Chronotherapeutics for Affective Disorders: A Clinician's Manual for Light and Wake Therapy. 2.ª ed. Basilea: Karger (manual citado por Sahlem 2014; contenido no contrastado directamente) [no verificada]",
+    "Segovia Vera FJ (2026). Triple cronoterapia (triple resincronización circadiana) en la depresión bipolar. Dossier propio, 20-11-2026, 17 páginas (incrustado en esta edición)"
+   ],
+   "rel": [
+    "fototer",
+    "priv_sueno",
+    "circad",
+    "dos_procesos",
+    "dep_bip_tx",
+    "lm_bip",
+    "ipsrt",
+    "luz_melatonina",
+    "hsue",
+    "tb_induc",
+    "ideac_suic",
+    "mapa_integr",
+    "clock_genes",
+    "drt"
+   ]
+  }
+ ]
+}

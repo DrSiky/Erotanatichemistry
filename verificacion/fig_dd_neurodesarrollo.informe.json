@@ -1,0 +1,151 @@
+{
+ "estado": "TERMINADO (verificador 2; verificación completa desde cero, incluidos los cambios parciales del verificador 1)",
+ "pmid_comprobados": 49,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 2, caja «Ensombrecimiento diagnóstico» (enlace)",
+   "antes": "node:'wais' y texto que remitía a las escalas de Wechsler",
+   "despues": "node:'disc_int' (la ficha trata el eclipsamiento diagnóstico y cita Reiss 1982); texto ceñido al resumen: dos experimentos con profesionales de la psicología, fobia y después esquizofrenia o trastorno de la personalidad",
+   "fuente": "PMID 7102729 (resumen); node tools/q.js show disc_int. [cambio del verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 4, caja «Ansiedad y ánimo» (enlace)",
+   "antes": "node:'anx_sep' (ansiedad por separación)",
+   "despues": "node:'dep_inf' (depresión infanto-juvenil; su diferencial incluye ansiedad y TDAH). No existe ficha general de ansiedad infantil",
+   "fuente": "nodes.jsonl (búsqueda en texto completo). [cambio del verificador 1, confirmado; ver sin_resolver]"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 1, Epilepsia",
+   "antes": "«Las crisis de ausencia pueden tomarse por inatención [fuente no localizada]»",
+   "despues": "«Las crisis de ausencia y el TDAH de presentación inatenta se confunden a menudo por la similitud de sus síntomas (Williams 2002)» + referencia nueva",
+   "fuente": "PMID 12662604 (resumen: 'frequently confounded by similarities in symptom presentation'). [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 4, caja «Déficit sensorial»",
+   "antes": "hipoacusia que se presenta como inatención «plausible, pero sin cifra respaldada [fuente no localizada]»",
+   "despues": "«Pérdida auditiva o visual»: encuesta NHIS, OR ajustada 3,1 (IC 95 % 2,5-3,9) de diagnóstico de déficit de atención referido; etiología y diagnósticos erróneos probables según los autores (Hall 2018) + referencia nueva",
+   "fuente": "PMID 29927649 (resumen). [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 3, caja «Fluidez del habla»",
+   "antes": "«Ninguno altera por sí mismo la reciprocidad social [fuente no localizada]»",
+   "despues": "descripción CIE-11 de 6A01.1 (repeticiones, prolongaciones y bloqueos persistentes con repercusión en la comunicación social)",
+   "fuente": "CIE-11 MMS 2025-01, edición para impresión, 6A01.1. [verificador 1, confirmado: la afirmación original contradecía el texto de la CIE-11]"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 7, tabla de coocurrencia",
+   "antes": "sin cifras dislexia-TDAH ni TDC-TDAH",
+   "despues": "dificultad lectora/TDAH: 25-40 % cumple criterios del otro (Willcutt 2010); TDC: TDAH es la coocurrencia más descrita, en torno a la mitad en muestras clínicas y poblacionales (Blank 2019)",
+   "fuente": "PMC2993430 (introducción: '25-40% of children with either RD or ADHD also meet criteria for the other disorder'); PMC6850610 ('about half… overlap seems to be about 50%'). [verificador 1, confirmado en texto completo]"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 6, PANS y PANDAS",
+   "antes": "título «PANS y PANDAS · 8A05.10»",
+   "despues": "sin código en el título; «No figuran como títulos en la CIE-11; los tics infecciosos o posinfecciosos se codifican en 8A05.10»",
+   "fuente": "Tabulación MMS 2025-01 (8A05.10 Infectious or postinfectious tics). [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 2, «Provisional · 6A00.4»",
+   "antes": "solo DSM-5-TR (<5 años)",
+   "despues": "añade el criterio CIE-11 (<4 años o evaluación válida imposible por discapacidad sensorial, motora o de comunicación)",
+   "fuente": "CIE-11 6A00.4 (edición para impresión). [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 3, cajas TEA, pragmático, apego; Bloque 4, TDAH; Bloque 6, estereotipias",
+   "antes": "definiciones solo DSM-5-TR",
+   "despues": "añadidas las precisiones CIE-11 (6A02; 6A01.22 no se usa si el autismo lo explica mejor; 6B44/6B45 no antes del año ni en el contexto del autismo; 6A05 síntomas antes de los 12 años; 8A07.0)",
+   "fuente": "CIE-11 MMS 2025-01, descripciones cotejadas literalmente. [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 1, a1 y Bloque 3 (pregunta)",
+   "antes": "CG128 sin número de rec. para el retraso del lenguaje; «información de varios contextos (1.5.5 y 1.5.9)»",
+   "despues": "rec. 1.2.5; 1.5.9 descrita como lo que es (discrepancia entre lo referido y lo observado)",
+   "fuente": "nice.org.uk/guidance/cg128/chapter/Recommendations (descarga propia, 26-11-2026). [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 6, conductas funcionales similares a tics",
+   "antes": "«descritas en mujeres jóvenes»",
+   "despues": "«(horas o días)… personas de 12 a 25 años, casi exclusivamente chicas y mujeres»",
+   "fuente": "PMC8441698 (texto completo). [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 4, altas capacidades y edad relativa; Bloque 7, Brugha, TDAH (NG87 1.2.1), M-CHAT",
+   "antes": "afirmaciones más rotundas que la fuente",
+   "despues": "matizadas («se discute», «datos escasos», heterogeneidad alta, «tienden a no estar reconocidas», grupos de 1.2.1 separados en menores/todas las edades)",
+   "fuente": "PMID 27590827, 31442562, 21536975; NG87 rec. 1.2.1. [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Referencias NICE y CIE-11; pie; cap",
+   "antes": "CG128 «actualizada en 2021»; NG87 «actualizada en 2019»",
+   "despues": "CG128 última actualización 20-12-2017; NG87 última actualización 24-11-2026; CIE-11 con LD90.3; título real de dd_tdah_adulto en cap",
+   "fuente": "páginas de resumen de nice.org.uk (CG128: Published 28 Sep 2011, Last updated 20 Dec 2017; NG87: Last updated 24 Nov 2026; CG142 y CG170: 14 Jun 2021). [verificador 1, confirmado]"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 7, fila Síndrome de Tourette",
+   "antes": "«La mayoría empieza entre los 4 y los 10 años» (ambiguo: parecía referirse al Tourette)",
+   "despues": "«La edad de mayor riesgo de inicio de la mayoría de esos diagnósticos va de los 4 a los 10 años»",
+   "fuente": "PMID 25671412 (resumen: 'age of greatest risk for the onset of most comorbid psychiatric disorders was between 4 and 10 years')"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 1, Epilepsia",
+   "antes": "«(nivel U, opinión de expertos; Auvin 2018)»",
+   "despues": "«(nivel U, sin datos suficientes; Auvin 2018)»",
+   "fuente": "PMID 30178479; el nivel U de la AAN significa datos insuficientes o contradictorios, no «opinión de expertos»"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 1, Regresión",
+   "antes": "«Regresión: bandera roja»; «estudio genético según la clínica» sin fuente",
+   "despues": "«Regresión: señal de alerta»; «pruebas genéticas según cada caso (rec. 1.7.1)»",
+   "fuente": "NICE CG128 rec. 1.7.1"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 4, Trauma y adversidad",
+   "antes": "«Hipervigilancia y problemas de concentración postraumáticos pueden tomarse por TDAH (DSM-5-TR)»",
+   "despues": "«Las dificultades de concentración postraumáticas, y en la primera infancia la inquietud y la irritabilidad, pueden tomarse por TDAH (DSM-5-TR, resumido)»",
+   "fuente": "DSM-5-TR, diferencial del TDAH (no cotejado con el original; la hipervigilancia no consta ahí)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Lenguaje (bloques 1, 4, 7, cap y límites)",
+   "antes": "«lo que lo imita», «imitador», «con deterioro», «enfermedad psiquiátrica», «En población de bajo riesgo»",
+   "despues": "«lo que se le parece», «cuadro parecido», «repercusión funcional», «trastornos psiquiátricos», «En cribado universal en revisiones de salud infantil»",
+   "fuente": "criterio de lenguaje no patologizante (coherente con Bottema-Beutel 2021, PMID 36601265, que la propia figura cita: evitar «riesgo»); Robins 2014 (cribado en revisiones de 18 y 24 meses)"
+  }
+ ],
+ "sin_resolver": [
+  "DSM-5-TR: las definiciones resumidas (criterio D del trastorno específico del aprendizaje, inicio antes de los 12 años, Tourette, retraso global <5 años, gravedad de la DI, diferenciales de ansiedad y trauma en el TDAH) no se han podido cotejar con el texto original (no disponible); la caja de límites lo advierte.",
+  "Enlace «Ansiedad y ánimo» → dep_inf: no existe ficha general de trastornos de ansiedad en la infancia (solo anx_sep, mutis_sel, fobia_soc y el instrumento scared); dep_inf cubre el ánimo y menciona ansiedad y TDAH en su diferencial. Si se crea una ficha de ansiedad infanto-juvenil, enlazarla.",
+  "Enlace «Sueño» → sueno_inf: la ficha trata el insomnio conductual y las parasomnias; la apnea pediátrica solo aparece en su diferencial. La ficha apnea es de personas adultas. Pertinencia aceptable, no óptima.",
+  "Síndrome de Rett no tiene ficha propia (caja sin enlace). Las cajas de solo título (Smith-Magenis, Williams-Beuren, Prader-Willi, CNV, espectro alcohólico fetal, privación institucional) y las filas SRS-2 y DIVA/ASRS solo enlazan: no contienen datos propios que verificar.",
+  "Hagerman 2017, Butterworth 2011, Maulik 2011, Rutter 1999, Swedo 1998, Chang 2015 y Lebersfeld 2021 comprobados solo por resumen (la figura no afirma nada más allá del resumen).",
+  "Williams 2002 (n = 43) y Hall 2018 (encuesta con diagnósticos referidos por las familias) son apoyos modestos: la figura los cita con ese alcance y sin generalizar.",
+  "Tensión NICE (genética no rutinaria) frente a consensos de genética (microarray/exoma de primera línea en DI o retraso global): se mantienen ambas posturas, explicadas en la caja de límites.",
+  "trabajo/figuras/pendiente/dd_neurodesarrollo.vorig.js (versión previa) no se ha tocado. No se han hecho commits."
+ ],
+ "comprobaciones": {
+  "pmid": "49 PMID descargados con E-utilities (efetch) en ndv2/pm/all.xml: todos existen y coinciden en autoría, año, revista, volumen y páginas; resúmenes leídos uno a uno. Texto completo PMC para Willcutt 2010, Blank 2019 y Pringsheim 2021.",
+  "nice": "Descarga propia de nice.org.uk (26-11-2026) en ndv2/dl: CG128 rec. 1.2.5, 1.3.2, 1.4.7, 1.5.5, 1.5.6, 1.5.7, 1.5.9, 1.5.11, 1.5.12, 1.5.15, 1.7.1; CG142 rec. 1.2.3, 1.2.10, 1.2.17 (y 1.2.11); CG170 rec. 1.3.2; NG87 rec. 1.2.1, 1.2.2, 1.3.1, 1.3.2, 1.3.3: todos los números y contenidos coinciden. NG87 se actualizó el 24-11-2026 (titulación de dosis en adultos) sin renumerar estas recomendaciones.",
+  "cie11": "36 códigos presentes en SimpleTabulation-ICD-11-MMS-en.txt (versión 2025 Jan 24) con el título esperado; LD44.N0 = «CATCH 22 phenotype», cuya descripción oficial es «Monosomy 22q11 (DiGeorge Velocardiofacial syndrome)» con inclusiones DiGeorge y velocardiofacial: cubre la deleción 22q11.2. Descripciones de 6A00.4, 6A01.1, 6A01.22, 6A02, 6A03, 6A04, 6A05, 6A06, 6B06, 6B44, 6B45, 8A05.0x, 8A05.10, 8A07.0 cotejadas en la edición para impresión (© OMS 2025).",
+  "dd_tdah_adulto": "Leídos src/fig/dd_tdah_adulto.svg y su entrada en src/fig/_meta.json: el título citado en el cap es literal; esa lámina cubre en la persona adulta ansiedad, depresión, bipolaridad, trauma, personalidad, sustancias, sueño, causas médicas, DIVA y ASRS. El bloque 4 de esta figura se limita a la infancia (sueño respiratorio pediátrico, altas capacidades, pérdida auditiva, edad relativa, ansiedad/ánimo y trauma infantiles con fuentes distintas) y remite a aquella: no hay repetición de contenido ni de cifras.",
+  "nodos": "51 enlaces node: todos existen (tools/q.js show) y son pertinentes; meta.nodes también.",
+  "compilacion": "node tools/fig.js dd_neurodesarrollo --dry --png …/fig5/dd_neurodesarrollo_vpng2: OK 2300×5864, 63 cajas, 51 enlaces, 5 paneles; los 5 PNG revisados, sin solapes ni texto cortado. src/figsrc/dd_neurodesarrollo.js borrado; git status idéntico antes y después (solo trabajo/figuras/dd_neurodesarrollo.js modificado por esta tarea)."
+ }
+}

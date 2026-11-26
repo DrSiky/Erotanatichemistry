@@ -1,0 +1,29 @@
+{
+ "pmid_comprobados": 22,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {"gravedad":"mayor","donde":"k_esq (CIE-11)","antes":"catatonía (6A40)","despues":"catatonía asociada a otro trastorno mental (6A40)","fuente":"Tabulación simple oficial CIE-11 MMS (OMS, 24-01-2025)"},
+  {"gravedad":"mayor","donde":"k_dep, k_man, k_emd, k_cic, k_esq, cap, lim, refs","antes":"[código: fuente oficial no localizada] / códigos no comprobados","despues":"marca retirada; códigos 6A20, 6A21, 6A23, 6A40, 6A60, 6A61, 6A70, 6A71 confirmados; añadidos 6A70 y 6A61","fuente":"Tabulación simple oficial CIE-11 MMS (OMS, 24-01-2025)"},
+  {"gravedad":"mayor","donde":"d2 (depresión hipocondríaca)","antes":"Sensaciones corporales anómalas y temor a ruina o enfermedad corporal","despues":"Sensaciones corporales desagradables y anómalas (Foucher 2020)","fuente":"Foucher 2020, PMID 32699504 (PMC7365293)"},
+  {"gravedad":"menor","donde":"d3, d4","antes":"Autorreproche y culpa dolorosa / Desconfianza y autorreferencia","despues":"ideas delirantes de culpa / ideas de persecución (Foucher 2020)","fuente":"Foucher 2020, PMC7365293"},
+  {"gravedad":"menor","donde":"d1, d5, grupo de euforias","antes":"marca [fuente no localizada] solo en la cabecera de grupo","despues":"marca en cada caja no confirmada (d1, d5) y en la cabecera de las euforias; relación de 5+5 formas atribuida a Foucher 2020, tabla I","fuente":"Foucher 2020, tabla I"},
+  {"gravedad":"menor","donde":"d5, e5 (títulos) y cap","antes":"Indiferente (apática) / Indiferente","despues":"Indiferente (no participativa) en ambas: «teilnahmsarm», non-participatory; «apática» sugería afectación del impulso, que las depresiones puras respetan","fuente":"Foucher 2020 (tabla I y texto)"},
+  {"gravedad":"menor","donde":"mel, man","antes":"Tristeza vital con inhibición... / Elación, aceleración...","despues":"afecto que altera también el impulso, la velocidad del pensamiento y la psicomotricidad","fuente":"Foucher 2020"},
+  {"gravedad":"menor","donde":"cy1-cy3, etiqueta del grupo, ksc, refs, pie","antes":"rasgos de las cicloides [fuente no localizada]","despues":"angustia paranoide ↔ éxtasis con elación; incoherencia de la elección temática ↔ perplejidad; hipercinesia/acinesia de movimientos expresivos y reactivos (Pfuhlmann 1998, añadido como referencia)","fuente":"Pfuhlmann 1998, PMID 9530551"},
+  {"gravedad":"menor","donde":"h3","antes":"Monopolar no equivale a «unipolar» de la CIE o el DSM","despues":"Foucher usa «monopolar» y no «unipolar» para subrayar que el concepto WKL difiere del de la CIE y el DSM","fuente":"Foucher 2020"},
+  {"gravedad":"menor","donde":"r_her","antes":"Familiares con psicosis: 50,8 %...","despues":"Probandos con algún familiar con psicosis: 50,8 %...","fuente":"von Trostorff 1975, PMID 1197448"},
+  {"gravedad":"menor","donde":"r_est","antes":"En 1299 personas","despues":"En 1299 personas con esquizofrenia según el DSM-III-R","fuente":"Franzek y Beckmann 1993, PMID 8440510"},
+  {"gravedad":"menor","donde":"r_pro","antes":"tras 13 años","despues":"tras una media de 13 años (33 frente a 44 pacientes)","fuente":"Jabs 2004, PMID 15346537"},
+  {"gravedad":"menor","donde":"r_val","antes":"en 22 pacientes","despues":"4 evaluadores, 22 pacientes con diagnóstico de esquizofrenia","fuente":"Pfuhlmann 1997, PMID 9168566"},
+  {"gravedad":"menor","donde":"n3","antes":"Riesgo en familiares del 26,9 %","despues":"Riesgo de morbilidad del 26,9 % en familiares de primer grado","fuente":"Stöber 1995, PMID 7669819"},
+  {"gravedad":"menor","donde":"w0","antes":"fenotipo cicloide completo","despues":"fenotipo cicloide completo según los criterios de Perris y Brockington","fuente":"Giné Servén 2021, PMID 33270360"},
+  {"gravedad":"menor","donde":"k_dep","antes":"solo 6A71","despues":"6A70/6A71 y nota de Foucher: depresiones puras con delirio diagnosticables como depresión con síntomas psicóticos o esquizoafectivo","fuente":"CIE-11 MMS; Foucher 2020"}
+ ],
+ "sin_resolver": [
+  "Rasgos de d1 (acosada), d5 (indiferente) y de las cinco euforias puras: no hay fuente primaria accesible (Leonhard 1957/1999 no disponible; Teichmann 1990 no las describe; Jabs 2001, PMID 11236332, solo presenta casos de euforia hipocondríaca sin definirla en el resumen). Siguen marcados [fuente no localizada].",
+  "El criterio de «colorido» afectivo-vital frente a psicótico (q4) sigue con [fuente no localizada].",
+  "Perris 1966 (PMID 5229227): existe y los datos bibliográficos coinciden, pero no tiene resumen; el contenido no se ha podido comprobar.",
+  "Leonhard 1957 y 1999 y el DSM-5-TR no se han cotejado en el original (ya marcados en refs).",
+  "La afirmación de que un solo episodio maníaco basta para el bipolar I en la CIE-11 no figura en la tabulación simple (sin definiciones); es coherente con la definición conocida de 6A60, pero no se ha cotejado en el navegador de la OMS."
+ ]
+}

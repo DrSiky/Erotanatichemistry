@@ -1,0 +1,1336 @@
+{
+ "patch": {
+  "tec_dep": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Ugo Cerletti y Lucio Bini introdujeron en Roma (1938) la inducción eléctrica de crisis como sustituto de la convulsoterapia farmacológica de Meduna. La técnica actual consiste en provocar una crisis generalizada breve mediante un estímulo eléctrico de pulso breve o ultrabreve, bajo anestesia general de corta duración y relajación muscular, con monitorización electroencefalográfica, electrocardiográfica y de la oxigenación. Las variables técnicas que modulan eficacia y efectos cognitivos son la colocación de los electrodos (bilateral, bifrontal o unilateral derecha), la anchura del pulso y la carga relativa al umbral convulsivo, que se ajustan de forma individual por el equipo y no se detallan aquí. Se administra en un curso agudo de sesiones repartidas en varias semanas, que puede seguirse de TEC de continuación o mantenimiento (CORE, Kellner 2006). En España exige consentimiento informado escrito conforme a la Ley 41/2002 de autonomía del paciente, evaluación preanestésica y un equipo con psiquiatría, anestesiología y enfermería entrenadas; no existe una acreditación estatal específica de la formación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tec_hit",
+        "katatonie_hit"
+       ],
+       "t": "historia de la TEC y de la catatonia"
+      },
+      {
+       "ids": [
+        "cat_malig",
+        "tea_catatonia"
+       ],
+       "t": "catatonia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis del UK ECT Review Group (2003), la TEC real fue más eficaz que la simulada (seis ensayos, 256 pacientes, tamaño de efecto estandarizado −0,91; IC 95 % −1,27 a −0,54) y que la farmacoterapia (18 ensayos, 1.144 participantes, −0,80); la bilateral superó a la unilateral (22 ensayos, −0,32). Pagnin (2004) halló también superioridad frente a TEC simulada, placebo y antidepresivos. En el estudio PRIDE (Kellner 2016), en 240 personas mayores con depresión tratadas con TEC unilateral derecha de pulso ultrabreve más venlafaxina abierta (sin grupo control), el 61,7 % alcanzó la remisión y el 70 % la respuesta, con una media de 7,3 sesiones hasta la remisión. En esquizofrenia resistente a clozapina, el ensayo aleatorizado simple ciego de Petrides (2015) obtuvo respuesta en el 50 % con TEC más clozapina frente al 0 % con clozapina sola (n = 39). La guía NICE de depresión del adulto (NG222, 2022) reserva la TEC para la depresión grave con riesgo vital o necesidad de respuesta rápida, o tras fracaso de otros tratamientos [grado no localizado].",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "emel",
+        "dpsic"
+       ],
+       "t": "depresión resistente, melancólica y psicótica"
+      },
+      {
+       "ids": [
+        "cloz",
+        "clozapina"
+       ],
+       "t": "esquizofrenia resistente y clozapina"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicaciones principales: depresión grave con síntomas psicóticos, melancolía grave, estupor, rechazo de la ingesta o riesgo suicida inminente; catatonia (incluida la maligna) que no responde a benzodiacepinas; manía grave refractaria; y esquizofrenia resistente a clozapina como potenciación. No hay contraindicaciones absolutas, pero sí situaciones de alto riesgo anestésico o cardiovascular (hipertensión intracraneal, infarto o ictus recientes) que exigen valoración individual. Efectos adversos: cefalea, mialgias, confusión postictal y alteraciones cognitivas. En el metaanálisis de Semkovska (2010; 84 estudios, 2.981 pacientes) el descenso del rendimiento cognitivo se limitó sobre todo a los tres primeros días, sin efectos negativos después de 15 días; no se identificaron pruebas estandarizadas de amnesia retrógrada. En cambio, el estudio prospectivo comunitario de Sackeim (2007; 347 pacientes) detectó a los seis meses déficits cognitivos persistentes, mayores con onda sinusoidal y con colocación bilateral, y más amnesia retrógrada con TEC bilateral que con unilateral derecha; la edad avanzada y el sexo femenino se asociaron a más déficit. Está disponible en hospitales del SNS, con acceso desigual entre comunidades autónomas [fuente no localizada]. Estado regulatorio de los equipos (FDA, marcado CE): [fuente oficial no localizada].",
+     "links": [
+      {
+       "ids": [
+        "amnesia"
+       ],
+       "t": "amnesia"
+      },
+      {
+       "ids": [
+        "dep_embarazo",
+        "ep_mania"
+       ],
+       "t": "embarazo y manía"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Semkovska M & McLoughlin DM (2010). Objective cognitive performance associated with electroconvulsive therapy for depression: a systematic review and meta-analysis. Biol Psychiatry 68:568-577 · PMID 20673880",
+    "Sackeim HA et al. (2007). The cognitive effects of electroconvulsive therapy in community settings. Neuropsychopharmacology 32:244-254 · PMID 16936712",
+    "Kellner CH et al. (2016). Right unilateral ultrabrief pulse ECT in geriatric depression: phase 1 of the PRIDE study. Am J Psychiatry 173:1101-1109 · PMID 27418379",
+    "Pagnin D et al. (2004). Efficacy of ECT in depression: a meta-analytic review. J ECT 20:13-20 · PMID 15087991",
+    "Petrides G et al. (2015). Electroconvulsive therapy augmentation in clozapine-resistant schizophrenia: a prospective, randomized study. Am J Psychiatry 172:52-58 · PMID 25157964",
+    "NICE (2022). Depression in adults: treatment and management (NG222)"
+   ],
+   "relAdd": [
+    "clozapina",
+    "catatonia"
+   ]
+  },
+  "emt": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La estimulación magnética transcraneal fue desarrollada por Barker en Sheffield (1985) como técnica de estimulación cortical no invasiva [fuente no localizada]. Una bobina colocada sobre el cuero cabelludo genera pulsos de campo magnético que inducen corrientes en la corteza subyacente; la forma repetitiva de alta frecuencia o la theta-burst intermitente sobre la corteza prefrontal dorsolateral izquierda se consideran excitadoras. El tratamiento es ambulatorio, sin anestesia, en sesiones diarias durante varias semanas (en el metaanálisis de Berlim 2014, una media aproximada de 13 sesiones); los protocolos acelerados concentran varias sesiones al día. La localización de la diana (por medida craneal o neuronavegación) y la intensidad se fijan respecto al umbral motor de cada persona; aquí no se detallan parámetros individuales. Las directrices de consenso de seguridad (Rossi 2009) establecen límites de parámetros, cribado de contraindicaciones, monitorización y la necesidad de un equipo con formación específica.",
+     "links": [
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      },
+      {
+       "ids": [
+        "toc_neuro",
+        "toc_dsm"
+       ],
+       "t": "TOC y su circuito"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis de Berlim (2014; 29 ensayos aleatorizados, doble ciego y con estimulación simulada; 1.371 pacientes), la EMT repetitiva de alta frecuencia obtuvo respuesta en el 29,3 % y remisión en el 18,6 % frente al 10,4 % y el 5 % con estimulación simulada (OR 3,3; NNT 6 y 8), sin diferencias en abandonos. El ensayo multicéntrico de O'Reardon (2007) y el de no inferioridad THREE-D de theta-burst frente a 10 Hz (Blumberger 2018), ya citados en la ficha, sustentan su uso en depresión. En el TOC, la EMT profunda sobre corteza prefrontal medial y cingulado anterior (Carmi 2019; 99 pacientes, 11 centros) redujo la Y-BOCS en 6,0 frente a 3,3 puntos con simulación, con respuesta del 38,1 % frente al 11,1 % y del 45,2 % frente al 17,8 % al mes de seguimiento. NICE (IPG542, 2015) considera que la EMT en depresión puede usarse con las disposiciones habituales de gobernanza [fuente no localizada]. La aprobación de la FDA para el TOC con EMT profunda (2018) se recoge sin haber consultado la fuente oficial [fuente oficial no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "drt"
+       ],
+       "t": "depresión"
+      },
+      {
+       "ids": [
+        "toc_dsm"
+       ],
+       "t": "TOC"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada en el episodio depresivo mayor que no ha respondido a uno o más antidepresivos, en quien no tolera la medicación o prefiere un tratamiento no farmacológico, y en el TOC resistente con EMT profunda. Es menos eficaz que la TEC y no se recomienda como primera opción en la depresión psicótica o con riesgo vital inmediato, que requieren TEC [fuente no localizada]. Contraindicaciones: implantes metálicos ferromagnéticos o dispositivos electrónicos próximos a la bobina; precaución en epilepsia o con fármacos que reducen el umbral convulsivo. Efectos adversos: cefalea y molestias en el lugar de estimulación, frecuentes y transitorias; las crisis epilépticas son muy raras y, según Rossi (2009), la mayoría de los casos descritos se produjeron con parámetros que excedían las guías o con fármacos proconvulsivos. Riesgo de viraje hipomaníaco en el trastorno bipolar [fuente no localizada]. No hay datos específicos de eficacia en minorías sexuales y de género. Su disponibilidad en el SNS es limitada y desigual entre centros [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tec_dep",
+        "tdcs"
+       ],
+       "t": "otras técnicas de neuromodulación"
+      },
+      {
+       "ids": [
+        "dep_bip_tx"
+       ],
+       "t": "depresión bipolar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Berlim MT et al. (2014). Response, remission and drop-out rates following high-frequency repetitive transcranial magnetic stimulation (rTMS) for treating major depression: a systematic review and meta-analysis of randomized, double-blind and sham-controlled trials. Psychol Med 44:225-239 · PMID 23507264",
+    "Carmi L et al. (2019). Efficacy and safety of deep transcranial magnetic stimulation for obsessive-compulsive disorder: a prospective multicenter randomized double-blind placebo-controlled trial. Am J Psychiatry 176:931-938 · PMID 31109199",
+    "Rossi S et al. (2009). Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research. Clin Neurophysiol 120:2008-2039 · PMID 19833552"
+   ],
+   "relAdd": [
+    "toc_dsm",
+    "ddm"
+   ]
+  },
+  "dbs": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La estimulación cerebral profunda procede de la neurocirugía de los trastornos del movimiento y se aplicó al TOC a finales de la década de 1990 como alternativa reversible y ajustable a la capsulotomía [fuente no localizada]. Consiste en implantar, mediante cirugía estereotáctica guiada por neuroimagen, electrodos en dianas subcorticales (brazo anterior de la cápsula interna, cápsula ventral y estriado ventral, núcleo accumbens, núcleo subtalámico, cíngulo subgenual), conectados a un generador de pulsos subcutáneo que se programa de forma ambulatoria. El ajuste de la estimulación es un proceso prolongado, de meses, y requiere seguimiento indefinido, recambio de baterías y una red asistencial estable. Los programas se realizan en centros con neurocirugía funcional y comités multidisciplinares (psiquiatría, neurocirugía, neurología, neuropsicología y bioética) que verifican la resistencia al tratamiento, la capacidad para consentir y las expectativas [fuente no localizada]. La sombra histórica de la psicocirugía obliga a especial rigor ético.",
+     "links": [
+      {
+       "ids": [
+        "lobotomia"
+       ],
+       "t": "lobotomía"
+      },
+      {
+       "ids": [
+        "toc_neuro"
+       ],
+       "t": "circuito del TOC"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "TOC: en el metaanálisis de Alonso (2015; 31 estudios, 116 pacientes, mayoritariamente series abiertas o cruzadas), la reducción global de la Y-BOCS fue del 45,1 % y el porcentaje de respondedores del 60,0 %, sin diferencias de eficacia entre dianas; la mejor respuesta se asoció a mayor edad de inicio y a obsesiones sexuales o religiosas. La calidad de la evidencia es baja por el escaso tamaño muestral y la falta de ensayos amplios con comparador simulado. Depresión resistente: el primer ensayo aleatorizado con estimulación simulada, en cápsula ventral y estriado ventral (Dougherty 2015; 30 pacientes, 16 semanas), no halló diferencias de respuesta (20 % frente a 14,3 %); en la fase abierta respondió entre el 20 % y el 26,7 % a los 12-24 meses. Junto con BROADEN en el cíngulo subgenual (Holtzheimer 2017), estos resultados la mantienen como tratamiento experimental en la depresión. En el TOC, la FDA concedió una exención por uso humanitario en 2009 (Pinckard-Dover 2021); el marcado CE europeo para el TOC se menciona sin fuente oficial consultada [fuente oficial no localizada].",
+     "links": [
+      {
+       "ids": [
+        "toc_dsm",
+        "drt"
+       ],
+       "t": "TOC y depresión resistente"
+      },
+      {
+       "ids": [
+        "mayberg"
+       ],
+       "t": "modelo de Mayberg"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Se reserva a personas adultas con TOC grave, crónico e incapacitante que no han respondido a ensayos adecuados con inhibidores de la recaptación de serotonina, clomipramina, potenciación antipsicótica y terapia de exposición con prevención de respuesta, y a casos muy seleccionados de síndrome de Tourette; en la depresión solo debe aplicarse dentro de ensayos clínicos. Riesgos quirúrgicos: hemorragia intracraneal, infección y complicaciones del material; riesgos de la estimulación: hipomanía, ansiedad, cambios de humor e impulsividad, que suelen corregirse con la reprogramación [fuente no localizada]. En el metaanálisis de Alonso (2015) los efectos adversos fueron en general leves, transitorios y reversibles, con cinco abandonos. El riesgo de suicidio en el seguimiento exige vigilancia estrecha [fuente no localizada]. La disponibilidad en el SNS se limita a pocos centros de referencia [fuente no localizada]. No existen datos específicos sobre minorías sexuales y de género.",
+     "links": [
+      {
+       "ids": [
+        "tourette"
+       ],
+       "t": "síndrome de Tourette"
+      },
+      {
+       "ids": [
+        "vns",
+        "emt"
+       ],
+       "t": "otras técnicas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Alonso P et al. (2015). Deep brain stimulation for obsessive-compulsive disorder: a meta-analysis of treatment outcome and predictors of response. PLoS One 10:e0133591 · PMID 26208305",
+    "Dougherty DD et al. (2015). A randomized sham-controlled trial of deep brain stimulation of the ventral capsule/ventral striatum for chronic treatment-resistant depression. Biol Psychiatry 78:240-248 · PMID 25726497"
+   ],
+   "relAdd": [
+    "toc_dsm"
+   ]
+  },
+  "vns": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La estimulación del nervio vago se desarrolló para la epilepsia refractaria y se trasladó a la depresión tras observarse mejoría del ánimo en pacientes con epilepsia [fuente no localizada]. Un neurocirujano implanta un electrodo helicoidal alrededor del nervio vago cervical izquierdo, conectado a un generador subcutáneo infraclavicular que emite estímulos intermitentes programables; las fibras aferentes vagales proyectan al núcleo del tracto solitario y, a través de él, a estructuras límbicas y monoaminérgicas. Tras la cirugía, la estimulación se inicia y se ajusta de forma escalonada en revisiones ambulatorias; el efecto antidepresivo es lento y se valora a lo largo de meses, manteniendo el tratamiento farmacológico. No es una técnica de urgencia. Requiere un equipo de neurocirugía y psiquiatría con experiencia en la programación del dispositivo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      },
+      {
+       "ids": [
+        "psiep"
+       ],
+       "t": "epilepsia y psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "El único ensayo aleatorizado agudo con estimulación simulada (Rush 2005; 235 pacientes con depresión mayor o bipolar no psicótica resistente, 10 semanas) no demostró eficacia a corto plazo: respuesta en la HRSD24 del 15,2 % con ENV activa frente al 10,0 % con simulación (p = 0,251), aunque la escala autoaplicada IDS-SR30 sí mostró diferencia (17,0 % frente a 7,3 %). En un estudio comparativo no aleatorizado de un año (George 2005), la ENV añadida al tratamiento habitual (205 pacientes) se asoció a mayor mejoría mensual que el tratamiento habitual solo (124 pacientes). El registro de cinco años de Aaronson (2017), citado en la ficha, apunta en la misma dirección, con las limitaciones de un diseño observacional. La calidad global de la evidencia es baja y procede en gran medida de estudios financiados por el fabricante [fuente no localizada]. La FDA la aprobó para la depresión crónica o recurrente resistente en 2005; no se ha localizado una recomendación favorable de NICE para la depresión [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "dep_bip_tx"
+       ],
+       "t": "depresión resistente y bipolar"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Opción excepcional para la depresión crónica o recurrente con resistencia a múltiples tratamientos, incluida la TEC cuando no es posible mantenerla, y siempre como tratamiento coadyuvante. No está indicada en la depresión aguda grave con riesgo vital ni en la psicosis. Efectos adversos frecuentes durante los ciclos de estimulación: ronquera o cambios de voz, tos, disnea, dolor cervical y parestesias; en el ensayo de Rush (2005) solo el 1 % abandonó por efectos adversos. Riesgos quirúrgicos: infección, lesión del nervio y parálisis de cuerda vocal [fuente no localizada]. Precauciones con la resonancia magnética y la apnea del sueño [fuente no localizada]. La implantación en el SNS para indicación psiquiátrica es excepcional [fuente no localizada]. No hay datos sobre minorías sexuales y de género.",
+     "links": [
+      {
+       "ids": [
+        "tec_dep",
+        "dbs"
+       ],
+       "t": "TEC y estimulación cerebral profunda"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Rush AJ et al. (2005). Vagus nerve stimulation for treatment-resistant depression: a randomized, controlled acute phase trial. Biol Psychiatry 58:347-354 · PMID 16139580",
+    "George MS et al. (2005). A one-year comparison of vagus nerve stimulation with treatment as usual for treatment-resistant depression. Biol Psychiatry 58:364-373 · PMID 16139582"
+   ],
+   "relAdd": [
+    "dep_bip_tx"
+   ]
+  },
+  "tdcs": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La estimulación transcraneal por corriente directa aplica una corriente continua débil entre dos electrodos sobre el cuero cabelludo; en la depresión el ánodo se sitúa sobre la corteza prefrontal dorsolateral izquierda y el cátodo sobre la derecha o la región supraorbitaria. No provoca potenciales de acción, sino que modifica el potencial de membrana y la excitabilidad cortical. Los dispositivos son pequeños y baratos, lo que permite la aplicación domiciliaria con supervisión a distancia: en el ensayo de Woodham (2025) se usaron sesiones de 30 minutos, cinco por semana durante tres semanas y tres por semana durante siete más. Los parámetros concretos dependen del protocolo y no se detallan para uso individual. La revisión de seguridad de Bikson (2016) define los límites de los protocolos convencionales estudiados en humanos. Requiere formación específica en la colocación de electrodos, el cribado de contraindicaciones y la vigilancia de efectos adversos, sin acreditación reglada en España [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "depresión mayor"
+      },
+      {
+       "ids": [
+        "emt"
+       ],
+       "t": "estimulación magnética"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis de datos individuales de Brunoni (2016; seis ensayos con estimulación simulada, 289 pacientes), la tDCS activa fue superior en respuesta (34 % frente a 19 %; OR 2,44; NNT 7) y remisión (23,1 % frente a 12,7 %; NNT 9); la depresión resistente se asoció a peor respuesta y las «dosis» mayores a mejor. En ELECT-TDCS (Brunoni 2017) fue superior al placebo, pero no demostró no inferioridad frente al escitalopram. En el ensayo de Woodham (2025; 174 adultos, totalmente remoto, 10 semanas), la tDCS domiciliaria mejoró la HDRS 9,41 puntos frente a 7,14 con simulación (IC 95 % de la diferencia 0,51-4,01; p = 0,012), sin diferencias en abandonos. La evidencia es de calidad moderada y heterogénea, y ninguna guía de referencia consultada la recomienda como tratamiento estándar [fuente no localizada]. Estado regulatorio: algunos dispositivos domiciliarios para la depresión disponen de marcado CE en la Unión Europea [fuente oficial no localizada].",
+     "links": [
+      {
+       "ids": [
+        "isrs",
+        "ddm"
+       ],
+       "t": "comparación con antidepresivos"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Puede considerarse, preferentemente en el contexto de investigación o de programas supervisados, en episodios depresivos leves a moderados no resistentes, en personas que no toleran o rechazan los antidepresivos; la resistencia al tratamiento predice peor respuesta (Brunoni 2016). No sustituye a la TEC ni a la farmacoterapia en la depresión grave, psicótica o con riesgo suicida. Según Bikson (2016), en más de 33.200 sesiones y 1.000 sujetos con sesiones repetidas con protocolos convencionales no se ha descrito ningún efecto adverso grave ni lesión irreversible; los efectos frecuentes son hormigueo, picor, enrojecimiento cutáneo y, raramente, quemaduras por mal contacto de los electrodos [fuente no localizada]. Se ha descrito viraje maníaco o hipomaníaco (dos casos en ELECT-TDCS), por lo que se vigilará la bipolaridad. La autoaplicación con dispositivos de consumo sin supervisión no se recomienda [fuente no localizada]. No está incluida de forma general en la cartera del SNS [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "drt",
+        "tb_induc"
+       ],
+       "t": "resistencia y viraje"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Brunoni AR et al. (2016). Transcranial direct current stimulation for acute major depressive episodes: meta-analysis of individual patient data. Br J Psychiatry 208:522-531 · PMID 27056623",
+    "Woodham RD et al. (2025). Home-based transcranial direct current stimulation treatment for major depressive disorder: a fully remote phase 2 randomized sham-controlled trial. Nat Med 31:87-95 · PMID 39433921",
+    "Bikson M et al. (2016). Safety of transcranial direct current stimulation: evidence based update 2016. Brain Stimul 9:641-661 · PMID 27372845"
+   ],
+   "relAdd": []
+  },
+  "fototer": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Rosenthal y colaboradores describieron en 1984 el trastorno afectivo estacional y su respuesta a la luz brillante [fuente no localizada]; el fundamento es la corrección del retraso de fase circadiano y la acción de la luz sobre las células ganglionares retinianas con melanopsina que proyectan al núcleo supraquiasmático. El tratamiento estándar utiliza una caja de luz blanca de amplio espectro con filtro ultravioleta, colocada a distancia fija y sin mirar directamente a la fuente; en el ensayo Can-SAD se aplicaron 10.000 lux durante 30 minutos por la mañana (Lam 2006), mientras que en la depresión bipolar se ha estudiado la luz al mediodía (Sit 2018). La cronoterapia combina privación total o parcial de sueño, avance de fase del sueño y luz matinal para mantener la respuesta rápida (Wirz-Justice 2005). Puede autoaplicarse en el domicilio tras la indicación y con seguimiento clínico; no requiere formación reglada, pero sí conocimiento del horario circadiano de cada persona.",
+     "links": [
+      {
+       "ids": [
+        "circad",
+        "dos_procesos"
+       ],
+       "t": "ritmos circadianos"
+      },
+      {
+       "ids": [
+        "priv_sueno",
+        "luz_melatonina"
+       ],
+       "t": "privación de sueño y luz-melatonina"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis de Golden (2005), solo el 13 % de los estudios cumplió los criterios de calidad: la luz brillante redujo la gravedad depresiva en el trastorno afectivo estacional (ocho estudios; tamaño de efecto 0,84) y en la depresión no estacional (tres estudios; 0,53), y la simulación del amanecer en el estacional (0,73); como coadyuvante de antidepresivos en la depresión no estacional no fue eficaz (−0,01). En Can-SAD (Lam 2006; 96 pacientes), la luz con placebo farmacológico y la fluoxetina con luz placebo obtuvieron la misma respuesta (67 %) y remisión similar (50 % y 54 %), con respuesta más precoz y menos efectos adversos con la luz. En la depresión bipolar con eutimizante, la luz al mediodía (7.000 lux) frente a luz roja tenue de 50 lux logró remisión del 68,2 % frente al 22,2 % sin virajes (Sit 2018; n = 46). La calidad de la evidencia es moderada, limitada por el difícil enmascaramiento del placebo luminoso [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sad"
+       ],
+       "t": "trastorno afectivo estacional"
+      },
+      {
+       "ids": [
+        "dep_bip_tx"
+       ],
+       "t": "depresión bipolar"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Primera línea en el trastorno afectivo estacional, como alternativa o complemento del antidepresivo según la preferencia de la persona (Lam 2006), y opción coadyuvante en la depresión no estacional y en la bipolar con tratamiento eutimizante. Efectos adversos habitualmente leves: cefalea, fatiga visual, náuseas, irritabilidad e insomnio si se aplica tarde [fuente no localizada]. Riesgo de viraje hipomaníaco en el trastorno bipolar, por lo que se usa con eutimizante y vigilancia, aunque en el ensayo de Sit (2018) no se observó ningún viraje. Precaución en retinopatías, fármacos fotosensibilizantes y enfermedad ocular, con valoración oftalmológica [fuente no localizada]. La privación de sueño está contraindicada o requiere especial cautela en epilepsia y puede precipitar manía [fuente no localizada]. Es barata y accesible, pero las cajas de luz no se financian de forma general en el SNS [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "circ_sueno"
+       ],
+       "t": "trastornos del ritmo circadiano"
+      },
+      {
+       "ids": [
+        "sad",
+        "dep_bip_tx"
+       ],
+       "t": "indicaciones afectivas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Golden RN et al. (2005). The efficacy of light therapy in the treatment of mood disorders: a review and meta-analysis of the evidence. Am J Psychiatry 162:656-662 · PMID 15800134",
+    "Lam RW et al. (2006). The Can-SAD study: a randomized controlled trial of the effectiveness of light therapy and fluoxetine in patients with winter seasonal affective disorder. Am J Psychiatry 163:805-812 · PMID 16648320",
+    "Sit DK et al. (2018). Adjunctive bright light therapy for bipolar depression: a randomized double-blind placebo-controlled trial. Am J Psychiatry 175:131-139 · PMID 28969438"
+   ],
+   "relAdd": []
+  },
+  "recovery": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La formulación clásica es de William Anthony (1993): la recuperación como proceso profundamente personal de cambio de actitudes, valores, metas y roles para vivir una vida satisfactoria, esperanzada y útil aun con las limitaciones de la enfermedad; procede del movimiento de personas usuarias y supervivientes de la psiquiatría y de la rehabilitación psicosocial. La revisión sistemática de Leamy (2011; 97 artículos) sintetizó cinco procesos de la recuperación personal con el acrónimo CHIME: conexión, esperanza y optimismo, identidad, significado vital y empoderamiento. No es una psicoterapia con número de sesiones, sino una orientación de los servicios que se concreta en planes de recuperación elaborados con la persona, decisiones compartidas, trabajo desde las fortalezas, apoyo entre iguales con profesionales con experiencia propia, empleo con apoyo, vivienda primero y planes de crisis anticipados. Requiere formación de los equipos en estos valores y cambios organizativos, como el programa de equipo REFOCUS (Slade 2015), basado en formación, coaching y asociación con las personas usuarias.",
+     "links": [
+      {
+       "ids": [
+        "ips_empleo"
+       ],
+       "t": "empleo con apoyo"
+      },
+      {
+       "ids": [
+        "basaglia",
+        "reforma_esp"
+       ],
+       "t": "desinstitucionalización y reforma psiquiátrica"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La evidencia de los componentes es desigual. El empleo con apoyo IPS tiene la base más sólida (Modini 2016; véase la ficha propia). En el ensayo aleatorizado por conglomerados REFOCUS (Slade 2015; 27 equipos comunitarios, 403 pacientes con psicosis), la intervención de equipo orientada a la recuperación no mejoró el resultado primario frente a la atención habitual: la puntuación del cuestionario de recuperación QPR fue de 40,6 frente a 40,0 (diferencia ajustada 0,68; IC 95 % −1,7 a 3,1); la alta participación de los equipos se asoció a más conductas de promoción de la recuperación y a mejores puntuaciones interpersonales, y los costes fueron algo menores. En cuanto a la recuperación clínica, el metaanálisis de Jääskeläinen (2013; 50 estudios) estimó que alrededor de 1 de cada 7 personas con esquizofrenia (mediana 13,5 %) cumplía criterios estrictos de recuperación clínica y social mantenida, sin aumento en las últimas décadas; ello no contradice la recuperación personal, que se mide con otros instrumentos. La calidad de la evidencia sobre los servicios orientados a la recuperación en conjunto es baja [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "defcar"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "whodas2",
+        "eq5d"
+       ],
+       "t": "medidas funcionales y de calidad de vida"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "La orientación a la recuperación es aplicable a cualquier persona con trastorno mental grave y de larga evolución, y es compatible con el tratamiento farmacológico y psicoterapéutico. Riesgos y límites descritos: su uso retórico sin cambios reales en los servicios, la confusión con el alta o la retirada de apoyos, y la responsabilización individual de quien no «se recupera» [fuente no localizada]. Las personas de minorías étnicas otorgan más peso a la espiritualidad, al estigma y a nociones colectivistas de recuperación (Leamy 2011), lo que exige adaptación cultural; en personas LGTBIQ, el estrés de minorías y el rechazo familiar son barreras específicas que deben incorporarse al plan [fuente no localizada]. En España, la Estrategia de Salud Mental del Sistema Nacional de Salud 2022-2026 incorpora la orientación a la recuperación y los derechos de las personas usuarias [fuente no localizada]; la implantación es heterogénea entre comunidades autónomas.",
+     "links": [
+      {
+       "ids": [
+        "estigma",
+        "crpd"
+       ],
+       "t": "estigma y derechos"
+      },
+      {
+       "ids": [
+        "competencia_cult",
+        "genero"
+       ],
+       "t": "diversidad cultural y de género"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leamy M et al. (2011). Conceptual framework for personal recovery in mental health: systematic review and narrative synthesis. Br J Psychiatry 199:445-452 · PMID 22130746",
+    "Slade M et al. (2015). Supporting recovery in patients with psychosis through care by community-based adult mental health teams (REFOCUS): a multisite, cluster, randomised, controlled trial. Lancet Psychiatry 2:503-514 · PMID 26360446",
+    "Jääskeläinen E et al. (2013). A systematic review and meta-analysis of recovery in schizophrenia. Schizophr Bull 39:1296-1306 · PMID 23172003"
+   ],
+   "relAdd": [
+    "estigma",
+    "crpd"
+   ]
+  },
+  "ips_empleo": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El modelo Individual Placement and Support fue desarrollado en Estados Unidos por Deborah Becker y Robert Drake a partir de la década de 1990 y descrito en su manual (Becker y Drake 2003). Se aparta del modelo clásico de «entrenar y después colocar» y adopta el de «colocar y después apoyar». Sus principios incluyen la exclusión cero (basta el deseo de trabajar), el objetivo de empleo competitivo en el mercado ordinario, la integración del especialista de empleo en el equipo de salud mental, el asesoramiento sobre prestaciones, la búsqueda rápida de empleo, la atención a las preferencias de la persona y el apoyo ilimitado en el tiempo [fuente no localizada]. Se presta de forma individual por especialistas de empleo con carga de casos limitada y supervisión; la fidelidad al modelo se evalúa con una escala específica y se asocia a mejores resultados (Bond 2012). No tiene un número fijo de sesiones.",
+     "links": [
+      {
+       "ids": [
+        "recovery"
+       ],
+       "t": "modelo de recuperación"
+      },
+      {
+       "ids": [
+        "psicpref"
+       ],
+       "t": "intervención temprana en psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis de Modini (2016; 17 ensayos aleatorizados y dos seguimientos), IPS frente a la rehabilitación vocacional tradicional duplicó la probabilidad de empleo competitivo (RR 2,40; IC 95 % 1,99-2,90), sin que la región geográfica ni la tasa de desempleo modificaran el efecto, incluso con crecimiento del PIB inferior al 2 %, y con beneficios mantenidos a dos años. En la revisión de Bond (2012; 15 ensayos, 9 en Estados Unidos y 6 fuera), IPS superó a los comparadores en todos los indicadores de empleo competitivo y en retención; la tasa de empleo competitivo fue del 62 % en los estudios estadounidenses y del 47 % en los demás. El ensayo europeo EQOLISE (Burns 2007) confirmó la eficacia en seis países. La calidad de la evidencia es alta para el resultado de empleo y menor para resultados clínicos y de calidad de vida [fuente no localizada]. NICE (CG178, 2014) recomienda ofrecer programas de empleo con apoyo a las personas con psicosis o esquizofrenia que deseen trabajar [grado no localizado].",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "esqneg"
+       ],
+       "t": "esquizofrenia y síntomas negativos"
+      },
+      {
+       "ids": [
+        "desempleo_suic"
+       ],
+       "t": "desempleo y suicidio"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado para personas con trastorno mental grave que expresan deseo de trabajar, con independencia del diagnóstico, de los síntomas, del consumo de sustancias o de la historia laboral; la evidencia procede sobre todo de psicosis y trastorno bipolar, y es menor en el trastorno mental común y en el TEA [fuente no localizada]. No se han descrito efectos adversos clínicos; el temor a que el trabajo precipite recaídas no se ha confirmado en los ensayos [fuente no localizada]. Límites: dependencia de la fidelidad, de la coordinación con los servicios de empleo y de los sistemas de prestaciones, que pueden desincentivar el empleo. Las personas trans y de minorías étnicas sufren discriminación laboral añadida que el especialista de empleo debe considerar [fuente no localizada]. En España existen experiencias de implantación en servicios autonómicos, sin cobertura generalizada en el SNS [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "asperger",
+        "detcog"
+       ],
+       "t": "TEA y déficit cognitivo"
+      },
+      {
+       "ids": [
+        "whodas2"
+       ],
+       "t": "funcionamiento"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Modini M et al. (2016). Supported employment for people with severe mental illness: systematic review and meta-analysis of the international evidence. Br J Psychiatry 209:14-22 · PMID 27103678",
+    "Bond GR, Drake RE & Becker DR (2012). Generalizability of the Individual Placement and Support (IPS) model of supported employment outside the US. World Psychiatry 11:32-39 · PMID 22295007",
+    "Becker DR & Drake RE (2003). A Working Life for People with Severe Mental Illness. New York: Oxford University Press [no verificada]",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)"
+   ],
+   "relAdd": []
+  },
+  "red_danos": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La reducción de daños es un enfoque de salud pública que acepta que muchas personas consumen sustancias y prioriza disminuir los daños sanitarios, sociales y legales sin exigir la abstinencia como condición de acceso; su formulación clínica clásica es la de Marlatt (1996, «come as you are»). Se apoya en el pragmatismo, los derechos humanos, la participación de las personas que consumen y la jerarquía de objetivos (sobrevivir, evitar infecciones, estabilizar, reducir el consumo y, si la persona lo desea, la abstinencia). Componentes: programas de intercambio de jeringuillas, tratamiento con agonistas opioides, naloxona para llevar a casa, salas de consumo supervisado, análisis de sustancias, información objetiva sobre combinaciones, vacunación y profilaxis frente al VIH. En el chemsex se añaden la planificación de las sesiones, el registro del tiempo entre tomas de GHB, evitar el alcohol, el material de inyección estéril propio y la PrEP y la PEP. Lo prestan equipos sanitarios, entidades comunitarias y agentes de iguales con formación específica y lenguaje no estigmatizante.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "slam"
+       ],
+       "t": "GHB y slamming"
+      },
+      {
+       "ids": [
+        "naloxona",
+        "metadona",
+        "buprenorfina"
+       ],
+       "t": "naloxona y agonistas opioides"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La evidencia es sobre todo observacional, por el carácter poblacional de las intervenciones. En el metaanálisis de MacArthur (2012; nueve estudios, 819 infecciones incidentes), el tratamiento sustitutivo con metadona se asoció a una reducción del 54 % del riesgo de infección por VIH en personas que se inyectan drogas (RR 0,46; IC 95 % 0,32-0,67). En la revisión Cochrane de Platt (2017), el tratamiento con agonistas opioides se asoció a menor adquisición del virus de la hepatitis C, y la combinación de alta cobertura de intercambio de jeringuillas y agonistas opioides a una reducción del 74 % (RR 0,26; evidencia de baja calidad); la alta cobertura de intercambio de jeringuillas sola no fue concluyente globalmente (evidencia de muy baja calidad), aunque en Europa se asoció a una reducción del 76 %. La revisión de McDonald y Strang (2016; 22 estudios observacionales) concluyó que la naloxona para llevar a casa cumple los nueve criterios de Bradford Hill, reduce la mortalidad por sobredosis y tiene pocos efectos adversos. En el chemsex, la revisión de Pozo-Herce (2024; seis estudios) sugiere eficacia de programas dirigidos por iguales y de intervenciones en línea, con evidencia aún escasa.",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "vih_ncd"
+       ],
+       "t": "opioides y VIH"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Está indicada para cualquier persona que consume y no puede o no desea dejar de hacerlo, y es compatible con el tratamiento orientado a la abstinencia, del que a menudo es puerta de entrada. No aumenta el consumo según los estudios de intercambio de jeringuillas [fuente no localizada]. Límites: no sustituye al tratamiento del trastorno por uso de sustancias, de la psicosis inducida o del riesgo suicida, que deben valorarse en cada contacto. En hombres gais, bisexuales y otros hombres que tienen sexo con hombres, así como en mujeres trans y personas no binarias, el estigma por orientación, identidad, VIH y consumo retrasa la consulta (Bourne 2015); la atención debe ser afirmativa, confidencial y libre de juicios morales sobre la sexualidad. En España, el Plan Nacional sobre Drogas incluye la reducción de daños y existen programas de agonistas opioides, intercambio de jeringuillas y salas de consumo supervisado en algunas comunidades [fuente no localizada]; el Ministerio de Sanidad publicó en 2020 un documento técnico de abordaje del chemsex.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_atencion",
+        "lgb_afirm"
+       ],
+       "t": "atención al chemsex y práctica afirmativa"
+      },
+      {
+       "ids": [
+        "psust",
+        "tcs"
+       ],
+       "t": "psicosis inducida y trastorno por consumo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "MacArthur GJ et al. (2012). Opiate substitution treatment and HIV transmission in people who inject drugs: systematic review and meta-analysis. BMJ 345:e5945 · PMID 23038795",
+    "Platt L et al. (2017). Needle syringe programmes and opioid substitution therapy for preventing hepatitis C transmission in people who inject drugs. Cochrane Database Syst Rev 9:CD012021 · PMID 28922449",
+    "McDonald R & Strang J (2016). Are take-home naloxone programmes effective? Systematic review utilizing application of the Bradford Hill criteria. Addiction 111:1177-1187 · PMID 27028542",
+    "Pozo-Herce PD et al. (2024). Effectiveness of harm reduction interventions in chemsex: a systematic review. Healthcare (Basel) 12:1411 · PMID 39057554",
+    "Ministerio de Sanidad (2020). Abordaje del fenómeno del chemsex. Documento técnico. Secretaría del Plan Nacional sobre el Sida"
+   ],
+   "relAdd": [
+    "lgb_afirm"
+   ]
+  },
+  "chemsex_atencion": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El término chemsex designa el uso intencionado de drogas (metanfetamina, GHB/GBL, mefedrona y otras catinonas, cocaína, ketamina) para facilitar, intensificar o prolongar las relaciones sexuales, sobre todo entre hombres gais, bisexuales y otros hombres que tienen sexo con hombres (Maxwell 2019). El estudio cualitativo de Bourne (2015) en el sur de Londres describió sobredosis de GHB/GBL, problemas de consentimiento y escaso acceso a ayuda profesional por miedo al juicio y a la falta de conocimiento de los servicios. De ahí deriva un modelo de atención integrado con varias puertas de entrada (clínicas de ITS y PrEP, urgencias, adicciones, salud mental y entidades comunitarias), cribado sistemático y sin juicio del consumo sexualizado, intervención breve, reducción de daños y derivación coordinada. Las intervenciones psicosociales incluyen la entrevista motivacional, la TCC afirmativa con enfoque de estrés de minorías y el trabajo sobre la sexualidad sin drogas, en formato individual o grupal, a menudo con agentes de iguales. Requiere formación en diversidad sexual y de género, en farmacología de las sustancias y en reducción de daños [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "metanf",
+        "ghb_gbl"
+       ],
+       "t": "chemsex y sustancias"
+      },
+      {
+       "ids": [
+        "entrev_motiv",
+        "red_danos"
+       ],
+       "t": "entrevista motivacional y reducción de daños"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La evidencia es escasa y de calidad baja o moderada. La revisión sistemática de Íncera-Fernández (2025; 12 estudios) concluye que las intervenciones disponibles pueden mejorar factores de salud sexual, mental y física, pero con resultados heterogéneos y sin acuerdo sobre la mejor estrategia. La de Pozo-Herce (2024; seis estudios) señala eficacia de una intervención en línea sobre la autoeficacia para rechazar conductas de riesgo y aceptar la prueba del VIH, y de programas dirigidos por iguales con experiencia de chemsex. No hay ensayos aleatorizados amplios de tratamientos específicos del chemsex con comparador activo; la evidencia de la TCC afirmativa procede de un ensayo en varones gais y bisexuales jóvenes con resultados de salud mental y conductas de riesgo, no específicamente de chemsex (Pachankis 2015). No se han localizado recomendaciones graduadas de NICE o GuíaSalud específicas para el chemsex [fuente no localizada]; el documento técnico del Ministerio de Sanidad (2020) recoge recomendaciones de consenso.",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "TCC afirmativa"
+      },
+      {
+       "ids": [
+        "chemsex_inv"
+       ],
+       "t": "investigación en chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Dirigida a cualquier persona que practica chemsex y lo desee, sin exigir la abstinencia, con prioridad para quienes presentan pérdida de control, inyección (slamming), sobredosis de GHB, síntomas psicóticos, depresión, ideación suicida o consumo no consentido. En la revisión de Íncera-Fernández (2021), quienes practican chemsex mostraron con más frecuencia depresión, ansiedad o dependencia, y los síntomas fueron más graves en el slamsex. Riesgos de la intervención: reproducir el estigma hacia la sexualidad gay o hacia el VIH, patologizar la diversidad sexual o centrarse solo en la abstinencia, lo que aleja a las personas de los servicios (Bourne 2015). Debe incluir a mujeres trans, personas no binarias y otras identidades, a menudo invisibles en los estudios (Rodríguez-González 2025). La atención se presta en el SNS a través de unidades de ITS, centros de adicciones y algunos programas específicos, junto con entidades comunitarias, con distribución territorial desigual [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "slam",
+        "psust",
+        "tdah_chemsex"
+       ],
+       "t": "slamming, psicosis inducida y TDAH"
+      },
+      {
+       "ids": [
+        "vih_ncd",
+        "vih_metanf_snc"
+       ],
+       "t": "VIH y metanfetamina"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Maxwell S, Shahmanesh M & Gafos M (2019). Chemsex behaviours among men who have sex with men: a systematic review of the literature. Int J Drug Policy 63:74-89 · PMID 30513473",
+    "Íncera-Fernández D et al. (2025). A systematic review of intervention strategies aimed at chemsex users. Int J Drug Policy 140:104795 · PMID 40334305",
+    "Pozo-Herce PD et al. (2024). Effectiveness of harm reduction interventions in chemsex: a systematic review. Healthcare (Basel) 12:1411 · PMID 39057554",
+    "Íncera-Fernández D, Gámez-Guadix M & Moreno-Guillén S (2021). Mental health symptoms associated with sexualized drug use (chemsex) among men who have sex with men: a systematic review. Int J Environ Res Public Health 18:13299 · PMID 34948907",
+    "Rodríguez-González C, Vázquez-Martínez A & Villanueva-Blasco VJ (2025). Systematic review on chemsex: advocating for inclusive research and primary prevention. J Prev 46:161-187 · PMID 39798055"
+   ],
+   "relAdd": [
+    "metanf",
+    "ghb_gbl"
+   ]
+  },
+  "entrev_motiv": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "William R. Miller describió la entrevista motivacional en 1983 a partir del trabajo con bebedores problemáticos (Miller 1983, Behav Psychother 11:147-172 [no verificada]) y la desarrolló con Stephen Rollnick en el manual de 1991 (3.ª ed., 2013). Deriva del enfoque centrado en la persona de Rogers, pero es directiva hacia el cambio (Hettema 2005). Su teoría propone dos componentes activos: uno relacional, basado en la empatía y el espíritu de la entrevista (colaboración, aceptación, evocación y compasión), y otro técnico, la evocación y el refuerzo diferencial del discurso de cambio de quien consulta (Miller y Rose 2009). Usa preguntas abiertas, afirmaciones, reflejos y resúmenes, y se organiza en cuatro procesos: vincular, enfocar, evocar y planificar. Puede aplicarse en una o pocas sesiones breves o como preámbulo de otros tratamientos; la terapia de incremento motivacional de Project MATCH era una adaptación individual manualizada (Project MATCH 1997). El aprendizaje requiere práctica supervisada con retroalimentación sobre grabaciones codificadas; un taller aislado suele ser insuficiente [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tcs",
+        "alcohol"
+       ],
+       "t": "trastornos por consumo y alcohol"
+      },
+      {
+       "ids": [
+        "audit",
+        "dast10"
+       ],
+       "t": "cribado"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis de Hettema (2005; 72 ensayos), el tamaño del efecto medio entre grupos fue de 0,77 a corto plazo y de 0,30 en seguimientos de hasta un año, con efectos mayores en poblaciones de minorías étnicas y cuando la práctica no seguía un manual, y gran variabilidad entre terapeutas y contextos. La revisión Cochrane de Smedslund (2011; 59 estudios, 13.342 participantes) halló, frente a la ausencia de tratamiento, una reducción del consumo de sustancias importante tras la intervención (DME 0,79) y pequeña a corto y medio plazo (0,17 y 0,15), sin efecto a largo plazo; no hubo diferencias frente al tratamiento habitual ni frente a otros tratamientos activos, y la evidencia fue mayoritariamente de baja calidad. En Project MATCH (1997; 1.726 personas con dependencia del alcohol), la terapia de incremento motivacional obtuvo resultados similares a la TCC y a la facilitación de doce pasos. El metaanálisis de Lundahl (2010), citado en la ficha, confirma efectos pequeños pero significativos en múltiples conductas.",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "tcs"
+       ],
+       "t": "consumo de sustancias"
+      },
+      {
+       "ids": [
+        "chemsex_atencion"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicada cuando la ambivalencia es el principal obstáculo al cambio: consumo de alcohol, tabaco y otras sustancias, chemsex, adherencia terapéutica y conductas de salud; útil como fase previa a la TCC o al tratamiento farmacológico. Menos apropiada cuando la persona ya está decidida y necesita habilidades concretas, o ante una crisis aguda con riesgo vital, que exige intervención directa [fuente no localizada]. Su eficacia frente a otros tratamientos activos no es superior (Smedslund 2011), y la variabilidad entre terapeutas obliga a supervisar la fidelidad. No se han descrito efectos adversos específicos; la confrontación, contraria a su espíritu, se asocia a más resistencia [fuente no localizada]. Los efectos mayores en minorías étnicas (Hettema 2005) apoyan su uso transcultural; en minorías sexuales y de género se integra en la atención afirmativa del chemsex. Se emplea en atención primaria, centros de adicciones y unidades de salud mental del SNS sin programa formativo reglado común [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tabaco",
+        "vareniclina",
+        "citisina"
+       ],
+       "t": "tabaquismo"
+      },
+      {
+       "ids": [
+        "competencia_cult",
+        "lgb_afirm"
+       ],
+       "t": "adaptación cultural y práctica afirmativa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hettema J, Steele J & Miller WR (2005). Motivational interviewing. Annu Rev Clin Psychol 1:91-111 · PMID 17716083",
+    "Smedslund G et al. (2011). Motivational interviewing for substance abuse. Cochrane Database Syst Rev 2011:CD008063 · PMID 21563163",
+    "Miller WR & Rose GS (2009). Toward a theory of motivational interviewing. Am Psychol 64:527-537 · PMID 19739882",
+    "Project MATCH Research Group (1997). Matching alcoholism treatments to client heterogeneity: Project MATCH posttreatment drinking outcomes. J Stud Alcohol 58:7-29 · PMID 8979210",
+    "Miller WR (1983). Motivational interviewing with problem drinkers. Behav Psychother 11:147-172 [no verificada]"
+   ],
+   "relAdd": [
+    "lgb_afirm",
+    "competencia_cult"
+   ]
+  },
+  "psicpref": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Los servicios de intervención temprana en psicosis se desarrollaron desde la década de 1990, con el EPPIC de Melbourne (McGorry) como modelo de referencia [fuente no localizada], sobre la hipótesis de un periodo crítico en los primeros años del trastorno en el que el tratamiento intensivo puede modificar el curso, y sobre la reducción de la duración de la psicosis no tratada (McGorry 2008). Son equipos especializados y multidisciplinares, con baja ratio de casos por profesional, que ofrecen detección precoz y acceso rápido, gestión de casos, antipsicóticos a la mínima dosis eficaz con atención a la salud física, TCC para psicosis, intervención familiar, apoyo educativo y laboral con IPS y atención al consumo de sustancias, durante un periodo de dos a cinco años según el programa. Formatos individual, familiar y grupal combinados. Requieren formación específica del personal en estas intervenciones y supervisión clínica [fuente no localizada]. En España se han desarrollado programas en varias comunidades autónomas, como el PAFIP de Cantabria [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "dupcat"
+       ],
+       "t": "primer episodio y duración de la psicosis no tratada"
+      },
+      {
+       "ids": [
+        "interv_fam",
+        "ips_empleo"
+       ],
+       "t": "intervención familiar y empleo con apoyo"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el metaanálisis de Correll (2018; 10 ensayos aleatorizados, 2.176 pacientes, duración de 9 a 24 meses), los servicios de intervención temprana superaron al tratamiento habitual en los 13 resultados analizables: menos abandono del tratamiento (RR 0,70), menos hospitalizaciones (RR 0,74), más implicación en estudios o trabajo (RR 1,13) y menor gravedad sintomática total (DME −0,32), positiva (−0,22) y negativa (−0,28), con superioridad a los 6, 9-12 y 18-24 meses. Los ensayos OPUS y RAISE, recogidos en la ficha, ilustran que el beneficio se atenúa al volver a la atención estándar (Bertelsen 2008), lo que apoya prolongar la intervención. La calidad de la evidencia es moderada, limitada por la imposibilidad del enmascaramiento y la heterogeneidad de los programas [fuente no localizada]. NICE (CG178, 2014) recomienda que toda persona con un primer episodio psicótico acceda a un servicio de intervención temprana, con independencia de la edad [grado no localizado].",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "tesqfren"
+       ],
+       "t": "esquizofrenia y trastorno esquizofreniforme"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicados en personas con un primer episodio psicótico no afectivo o afectivo, habitualmente entre la adolescencia y la adultez temprana, y en algunos programas también en estados mentales de alto riesgo. Límites: la duración limitada de muchos programas, la pérdida de beneficios al transferir a servicios generales y la menor evidencia en psicosis inducidas por sustancias y en primeros episodios tardíos [fuente no localizada]. No se han descrito daños específicos; en los estados de alto riesgo debe evitarse la sobreetiquetación y el uso injustificado de antipsicóticos [fuente no localizada]. Las personas migrantes y de minorías étnicas tienen mayor incidencia de psicosis y rutas de acceso más coercitivas, lo que exige adaptación cultural e intérpretes [fuente no localizada]; las personas LGTBIQ con psicosis requieren un abordaje afirmativo que no confunda identidad con síntoma [fuente no localizada]. La cobertura en el SNS es incompleta y desigual entre comunidades autónomas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "urh",
+        "caarms_sips"
+       ],
+       "t": "alto riesgo de psicosis"
+      },
+      {
+       "ids": [
+        "nps_can",
+        "competencia_cult"
+       ],
+       "t": "cannabis y diversidad cultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Correll CU et al. (2018). Comparison of early intervention services vs treatment as usual for early-phase psychosis: a systematic review, meta-analysis, and meta-regression. JAMA Psychiatry 75:555-565 · PMID 29800949",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178)"
+   ],
+   "relAdd": [
+    "pep",
+    "interv_fam"
+   ]
+  },
+  "tx_tnf": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El modelo actual del trastorno neurológico funcional abandona la exigencia de un estresor y la etiqueta de «psicógeno»: el diagnóstico es positivo, por signos de variabilidad e inconsistencia, y la fisiopatología se explica por hiperactividad límbica, un modelo interno de síntomas en el marco del procesamiento predictivo y la alteración de redes que dan al movimiento la sensación de voluntariedad (Hallett 2022). El tratamiento es escalonado y multidisciplinar: neurología comunica el diagnóstico (Stone 2016, en la ficha), fisioterapia específica reentrena el movimiento con atención redirigida y psicoterapia, generalmente TCC, aborda los factores de mantenimiento, en formato individual y en número de sesiones variable según el programa. En los casos graves se emplean programas intensivos de rehabilitación hospitalaria [fuente no localizada]. Requiere profesionales formados en el modelo funcional y una explicación coherente compartida por todo el equipo, para evitar mensajes contradictorios.",
+     "links": [
+      {
+       "ids": [
+        "conv",
+        "crisis_func"
+       ],
+       "t": "trastorno de conversión y crisis funcionales"
+      },
+      {
+       "ids": [
+        "deb_func",
+        "tmf"
+       ],
+       "t": "debilidad y trastorno del movimiento funcionales"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "Los grandes ensayos ya recogidos en la ficha (CODES para crisis disociativas y Physio4FMD para trastorno motor funcional) no demostraron superioridad en el resultado primario frente a su comparador (atención estandarizada y fisioterapia comunitaria, respectivamente), pero sí mejoras en resultados secundarios relevantes; la evidencia de las intervenciones específicas es, por tanto, prometedora pero de calidad moderada. Hallett (2022) concluye que la evidencia apoya un tratamiento multidisciplinar adaptado con abordajes físicos y psicológicos. Sin tratamiento, el pronóstico es desfavorable: en la revisión sistemática de Gelauff (2014; 24 estudios, seguimiento medio ponderado de 7,4 años), una media del 39 % de las personas con síntomas motores funcionales estaba igual o peor, con altos niveles de discapacidad y comorbilidad psicológica; la corta duración de los síntomas, el diagnóstico precoz y la satisfacción con la atención predijeron mejor evolución, y el diagnóstico tardío y los trastornos de personalidad, peor. No se han localizado recomendaciones graduadas de NICE específicas para este trastorno [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "somat_sint",
+        "sens_func"
+       ],
+       "t": "síntomas somáticos y sensitivos funcionales"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado en toda persona con diagnóstico positivo de trastorno neurológico funcional que acepte el modelo explicativo; la aceptación del diagnóstico es un requisito práctico para la fisioterapia y la psicoterapia. Límites: escasez de servicios especializados, largos tiempos de espera y peor pronóstico con síntomas de larga evolución (Gelauff 2014). Daños potenciales: la iatrogenia por pruebas e intervenciones innecesarias, los fármacos sin indicación, las ayudas técnicas que consolidan el patrón anómalo y la comunicación que transmite incredulidad o culpa [fuente no localizada]. Debe evitarse el término «psicógeno» y la suposición de trauma sexual, sin dejar de explorarlo con cuidado. En personas LGTBIQ y de minorías étnicas, el estigma y las experiencias previas de invalidación sanitaria pueden dificultar la alianza terapéutica [fuente no localizada]. La disponibilidad de fisioterapia y psicoterapia específicas en el SNS es limitada y depende de unidades concretas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "recovery",
+        "tcc_dep"
+       ],
+       "t": "recuperación y TCC"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hallett M et al. (2022). Functional neurological disorder: new subtypes and shared mechanisms. Lancet Neurol 21:537-550 · PMID 35430029",
+    "Gelauff J et al. (2014). The prognosis of functional (psychogenic) motor symptoms: a systematic review. J Neurol Neurosurg Psychiatry 85:220-226 · PMID 24029543"
+   ],
+   "relAdd": []
+  },
+  "help_delirium": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Sharon Inouye y colaboradores, en Yale, partieron de un modelo multifactorial del delirium como interacción entre la vulnerabilidad basal y los factores precipitantes de la hospitalización, y diseñaron una intervención sobre seis factores de riesgo modificables (Inouye 1999), estructurada después como Hospital Elder Life Program (Inouye 2000). No es una psicoterapia, sino un programa organizativo: un equipo interdisciplinar (enfermería especializada en geriatría, coordinación del programa, geriatría y voluntariado entrenado) cribará a las personas mayores al ingreso y aplicará protocolos diarios de orientación y actividades cognitivas, movilización precoz, sueño sin fármacos, corrección de déficits visuales y auditivos, hidratación y nutrición, y revisión de la medicación, durante toda la estancia. La formación del voluntariado y del personal y la supervisión de la fidelidad son parte del programa; en la revisión de Hshieh (2018) los programas se adhirieron al modelo o lo adaptaron adecuadamente y valoraron el papel del voluntariado. Los factores de sostenibilidad incluyen liderazgo clínico, apoyo directivo y financiación estable.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "delirium y su detección"
+      },
+      {
+       "ids": [
+        "polifarm",
+        "bzd_mayor"
+       ],
+       "t": "polifarmacia y benzodiacepinas"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La revisión Cochrane de Burton (2021; 22 ensayos, 5.718 participantes fuera de cuidados intensivos) halló que las intervenciones multicomponente no farmacológicas probablemente reducen la incidencia de delirium frente a la atención habitual (10,5 % frente a 18,4 %; RR 0,57; IC 95 % 0,46-0,71; 14 estudios; certeza moderada), sin efecto demostrado sobre la mortalidad hospitalaria (certeza baja) y con posible reducción de la estancia de alrededor de un día; en el análisis exploratorio de componentes, la reorientación, la estimulación cognitiva y la higiene del sueño fueron los más asociados al beneficio. En el metaanálisis específico de HELP (Hshieh 2018), 14 estudios mostraron reducción de la incidencia (OR 0,47; IC 95 % 0,37-0,59) y tres estudios comparativos una reducción del 42 % de las caídas, con ahorro de costes hospitalarios. NICE CG103 recomienda una intervención multicomponente adaptada a los factores de riesgo para las personas en riesgo de delirium [grado no localizado].",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "iatrog_farm"
+       ],
+       "t": "farmacología en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado en personas mayores hospitalizadas en plantas médicas y quirúrgicas con factores de riesgo (edad avanzada, deterioro cognitivo, enfermedad grave, fractura de cadera, déficits sensoriales). En unidades de cuidados intensivos la evidencia procede de otros paquetes de medidas y no es intercambiable [fuente no localizada]. En personas con demencia el beneficio preventivo es incierto (Siddiqi 2016), aunque las medidas forman parte de la buena práctica. No tiene efectos adversos relevantes descritos; la revisión de Burton (2021) señala que la notificación de efectos adversos fue limitada y que algunos componentes aislados, como la movilización o el control del dolor, tuvieron estimaciones muy imprecisas. La adaptación cultural incluye intérpretes, presencia de familiares y referencias de orientación comprensibles para quien consulta; las personas LGTBIQ mayores pueden tener redes de apoyo no familiares (parejas, amistades) que deben reconocerse como figuras de acompañamiento [fuente no localizada]. En España existen experiencias hospitalarias de adaptación del programa, sin implantación generalizada en el SNS [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "agit_dem"
+       ],
+       "t": "demencia y agitación"
+      },
+      {
+       "ids": [
+        "interprete_clinico"
+       ],
+       "t": "barrera lingüística"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Burton JK et al. (2021). Non-pharmacological interventions for preventing delirium in hospitalised non-ICU patients. Cochrane Database Syst Rev 11:CD013307 · PMID 34826144",
+    "Hshieh TT et al. (2018). Hospital Elder Life Program: systematic review and meta-analysis of effectiveness. Am J Geriatr Psychiatry 26:1015-1033 · PMID 30076080"
+   ],
+   "relAdd": [
+    "interprete_clinico"
+   ]
+  },
+  "nf_bpsd": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El modelo de atención centrada en la persona de Tom Kitwood (Dementia Reconsidered, Open University Press, 1997 [no verificada]) interpreta muchos síntomas conductuales como expresión de necesidades no cubiertas, malestar físico o respuestas a un entorno inadecuado; de ahí la secuencia de evaluación de causas antes de tratar. El modelo DICE (Kales 2015, en la ficha) estructura el proceso: describir, investigar, crear un plan y evaluar. Las intervenciones son de dos tipos: con cuidadores familiares en el domicilio y con el personal en residencias. COPE (Gitlin 2010) ofreció hasta 12 contactos domiciliarios o telefónicos en cuatro meses, con evaluación de capacidades y de causas médicas y formación familiar en seguridad, simplificación de tareas y manejo del estrés. WHELD (Ballard 2018) combinó formación del personal en atención centrada en la persona e interacción social, revisión de antipsicóticos y un modelo de personal referente que mantiene la intervención. Requieren formación del personal y supervisión continuada, porque los efectos se pierden si el programa cesa (Livingston 2014).",
+     "links": [
+      {
+       "ids": [
+        "bpsd",
+        "agit_dem"
+       ],
+       "t": "síntomas conductuales y agitación"
+      },
+      {
+       "ids": [
+        "apatia_dem",
+        "sueno_dem"
+       ],
+       "t": "apatía y sueño en la demencia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo aleatorizado por conglomerados WHELD (Ballard 2018; 69 residencias del Reino Unido, 847 personas), la intervención frente al tratamiento habitual mejoró la calidad de vida (DEMQOL-Proxy; d de Cohen 0,24), la agitación (CMAI; d 0,23) y los síntomas neuropsiquiátricos (NPI-NH; d 0,30), con tamaños de efecto pequeños, beneficio mayor en demencia moderadamente grave y ahorro de costes; no redujo el uso de antipsicóticos, que ya era bajo. En COPE (Gitlin 2010; 237 díadas), a los cuatro meses las personas con demencia mostraron menos dependencia funcional y más implicación en actividades, y los cuidadores más bienestar, frente a un control con llamadas telefónicas y material educativo; a los nueve meses no hubo diferencias en los pacientes. Estos ensayos complementan los metaanálisis de la ficha (Brodaty 2012; Livingston 2014; Watt 2019). NICE (NG97, 2018) recomienda ofrecer intervenciones psicosociales y ambientales como abordaje inicial de la agitación y la agresividad [grado no localizado].",
+     "links": [
+      {
+       "ids": [
+        "npi",
+        "cornell"
+       ],
+       "t": "instrumentos de evaluación"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicadas como primera línea ante agitación, agresividad, deambulación, apatía, alteraciones del sueño y conductas vocales en cualquier tipo de demencia, en el domicilio y en residencias. Los antipsicóticos quedan para el riesgo grave o el sufrimiento intenso, por su aumento de mortalidad y de ictus. Límites: tamaños de efecto pequeños, dependencia de la implantación sostenida y de la carga de trabajo del personal, y menor evidencia en el domicilio y en la demencia avanzada (Livingston 2014). No se han descrito daños relevantes, aunque algunas actividades pueden aumentar la agitación si no se adaptan a la persona [fuente no localizada]. La atención centrada en la persona exige conocer la biografía, la lengua, la religión, la orientación sexual y la identidad de género; las personas LGTBIQ mayores en residencias pueden ocultar su identidad por miedo a la discriminación [fuente no localizada]. Su disponibilidad en el SNS y en los servicios sociales es desigual y depende de la formación de cada centro [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "riesgos de los antipsicóticos"
+      },
+      {
+       "ids": [
+        "soledad",
+        "cap_dem"
+       ],
+       "t": "soledad y capacidad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ballard C et al. (2018). Impact of person-centred care training and person-centred activities on quality of life, agitation, and antipsychotic use in people with dementia living in nursing homes: a cluster-randomised controlled trial. PLoS Med 15:e1002500 · PMID 29408901",
+    "Gitlin LN et al. (2010). A biobehavioral home-based intervention and the well-being of patients with dementia and their caregivers: the COPE randomized trial. JAMA 304:983-991 · PMID 20810376",
+    "Kitwood T (1997). Dementia Reconsidered: The Person Comes First. Buckingham: Open University Press [no verificada]",
+    "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97)"
+   ],
+   "relAdd": [
+    "npi"
+   ]
+  },
+  "asesor_genet": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La definición de referencia procede del grupo de trabajo de la National Society of Genetic Counselors (Resta 2006): proceso de ayuda para comprender las implicaciones médicas, psicológicas y familiares de las contribuciones genéticas a la enfermedad y adaptarse a ellas, que integra la interpretación de la historia familiar y médica, la educación sobre herencia, pruebas, prevención y recursos, y el asesoramiento para decisiones informadas. Su aplicación psiquiátrica fue propuesta por Austin y Honer (2007). La sesión, individual o con familiares y habitualmente de una a pocas consultas, incluye la elaboración del árbol genealógico, la explicación del modelo multifactorial de vulnerabilidad (a menudo con la metáfora de una «jarra» que se llena con factores genéticos y ambientales [fuente no localizada]), la exploración de la culpa y del miedo, la estimación empírica del riesgo de recurrencia y, solo cuando hay sospecha sindrómica, la derivación a genética clínica para pruebas como el microarray. Lo realizan profesionales del asesoramiento genético o psiquiatras con formación específica; en España no existe la especialidad de genética clínica ni una formación reglada en asesoramiento genético psiquiátrico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "vuln_gen",
+        "hered_esq",
+        "hered_bip"
+       ],
+       "t": "vulnerabilidad y heredabilidad"
+      },
+      {
+       "ids": [
+        "cnv",
+        "del22q"
+       ],
+       "t": "variantes en el número de copias"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La evidencia procede de estudios pequeños, la mayoría de un mismo grupo: en la consulta especializada de Vancouver, el empoderamiento y la autoeficacia aumentaron al mes (Inglis 2015; estudio pre-post sin control), y en un ensayo piloto aleatorizado de tres brazos frente a lista de espera y folleto, el asesoramiento mejoró el conocimiento y la precisión del riesgo percibido, sin cambios en el estigma interiorizado (Hippman 2016), ambos ya resumidos en la ficha. No hay metaanálisis ni recomendaciones graduadas de NICE o de la APA sobre asesoramiento genético en trastornos psiquiátricos [fuente no localizada]. En síndromes con alto riesgo psiquiátrico sí existen guías de consenso: las directrices internacionales para adultos con síndrome de deleción 22q11.2 (Fung 2015) incluyen el asesoramiento genético, con información sobre el riesgo de transmisión y la vigilancia de trastornos psiquiátricos y médicos. La calidad global de la evidencia es baja y los resultados medidos son psicológicos, no clínicos.",
+     "links": [
+      {
+       "ids": [
+        "del22q",
+        "x_fragil"
+       ],
+       "t": "síndromes genéticos con riesgo psiquiátrico"
+      },
+      {
+       "ids": [
+        "prs_clin",
+        "panel_fg"
+       ],
+       "t": "puntuaciones poligénicas y farmacogenética"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado en personas con trastorno mental grave y en sus familiares que preguntan por el riesgo de recurrencia o se plantean decisiones reproductivas; en sospecha de síndrome genético (discapacidad intelectual, rasgos dismórficos, malformaciones, epilepsia); y en demencias familiares de inicio precoz o enfermedad de Huntington, con protocolos específicos para la prueba predictiva. Límites: los riesgos son probabilísticos y poblacionales; las puntuaciones poligénicas no tienen utilidad clínica predictiva individual actual y no deben usarse para decisiones reproductivas [fuente no localizada]. Riesgos: ansiedad, determinismo genético, culpa y estigma si la comunicación es inadecuada, así como discriminación por seguros o empleo [fuente no localizada]. Debe ser no directivo y respetar la autonomía reproductiva, sin juicios sobre las decisiones de la persona, y adaptarse a familias diversas, incluidas las homoparentales y las que recurren a donación de gametos [fuente no localizada]. La oferta en el SNS es escasa y concentrada en unidades de genética hospitalarias [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "huntington",
+        "apoe_psen"
+       ],
+       "t": "Huntington y Alzheimer familiar"
+      },
+      {
+       "ids": [
+        "psicpref"
+       ],
+       "t": "intervención temprana en psicosis"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Resta R et al. (2006). A new definition of genetic counseling: National Society of Genetic Counselors' Task Force report. J Genet Couns 15:77-83 · PMID 16761103",
+    "Fung WL et al. (2015). Practical guidelines for managing adults with 22q11.2 deletion syndrome. Genet Med 17:599-609 · PMID 25569435"
+   ],
+   "relAdd": []
+  },
+  "competencia_cult": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "Además del marco de Betancourt (2003) y de la crítica de Kirmayer (2012), ya recogidos en la ficha, conviene distinguir tres conceptos. La humildad cultural (Tervalon y Murray-García 1998) sustituye la idea de dominio de un cuerpo finito de conocimientos por un compromiso vital de autoevaluación y autocrítica, la corrección de los desequilibrios de poder en la relación clínica y alianzas no paternalistas con las comunidades. La seguridad cultural, de origen maorí en Aotearoa/Nueva Zelanda, exige criticar las estructuras de poder dadas por supuestas y la propia cultura en lugar de aspirar a ser «competente» en las culturas ajenas, y se define por la persona atendida y su comunidad y se mide por el avance hacia la equidad (Curtis 2019). En la práctica, la formación combina módulos sobre sesgos y determinantes estructurales, entrevistas transculturales como la CFI del DSM-5, simulaciones basadas en casos, supervisión y adaptaciones culturales de las psicoterapias (lengua, metáforas, valores, objetivos), en formato grupal para el personal y con evaluación por la organización.",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "psiq_transcultural"
+       ],
+       "t": "entrevista de formulación cultural"
+      },
+      {
+       "ids": [
+        "racismo_sm"
+       ],
+       "t": "racismo y salud mental"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La formación en competencia cultural del personal tiene poca evidencia sobre resultados en pacientes: en la revisión sistemática de Lie (2011), solo siete estudios cumplieron criterios, ninguno de alta calidad; tres mostraron efectos beneficiosos, ninguno perjudicial, y los tamaños de efecto oscilaron entre nulo y moderado. Más sólida es la evidencia de las adaptaciones culturales de las intervenciones psicológicas: en el metaanálisis de Hall (2016; 78 estudios, 13.998 participantes, 95 % no europeo-estadounidenses), las intervenciones adaptadas superaron a las versiones no adaptadas de la misma intervención con un efecto medio (g = 0,52), mayor en tratamiento que en prevención, y tuvieron 4,68 veces más probabilidad de remisión que otras condiciones (16 estudios), con efectos mayores frente a ausencia de intervención que frente a comparadores activos. La evidencia de los intérpretes profesionales se trata en su ficha. No se han localizado recomendaciones graduadas de NICE o GuíaSalud específicas sobre competencia cultural [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "interprete_clinico"
+       ],
+       "t": "intérprete profesional"
+      },
+      {
+       "ids": [
+        "etnopsicofarm"
+       ],
+       "t": "etnopsicofarmacología"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Aplicable a toda la atención en salud mental, con especial relevancia para personas migrantes, refugiadas, de minorías étnicas, gitanas, con diversidad funcional y LGTBIQ. Riesgos descritos: la reificación de las culturas y los estereotipos, la atribución cultural de síntomas que retrasa el diagnóstico (o, a la inversa, la patologización de creencias normativas) y su uso como sustituto de políticas contra el racismo institucional (Kirmayer 2012; Curtis 2019) [fuente no localizada para la atribución diagnóstica]. Con personas LGTBIQ, la competencia incluye lenguaje inclusivo, registro del nombre y los pronombres sentidos, reconocimiento de familias diversas, conocimiento del estrés de minorías y rechazo explícito de las terapias de conversión; en España, la Ley 4/2023 prohíbe estas prácticas. Las intersecciones (persona migrante y trans, por ejemplo) multiplican las barreras. En el SNS existen mediadores interculturales y formación en algunas comunidades autónomas, sin un programa estatal homogéneo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "genero"
+       ],
+       "t": "práctica afirmativa y estrés de minorías"
+      },
+      {
+       "ids": [
+        "ecosieg",
+        "estigma"
+       ],
+       "t": "terapias de conversión y estigma"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Tervalon M & Murray-García J (1998). Cultural humility versus cultural competence: a critical distinction in defining physician training outcomes in multicultural education. J Health Care Poor Underserved 9:117-125 · PMID 10073197",
+    "Curtis E et al. (2019). Why cultural safety rather than cultural competency is required to achieve health equity: a literature review and recommended definition. Int J Equity Health 18:174 · PMID 31727076",
+    "Lie DA et al. (2011). Does cultural competency training of health professionals improve patient outcomes? A systematic review and proposed algorithm for future research. J Gen Intern Med 26:317-325 · PMID 20953728",
+    "Hall GC et al. (2016). A meta-analysis of cultural adaptations of psychological interventions. Behav Ther 47:993-1014 · PMID 27993346",
+    "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI (2023). Boletín Oficial del Estado"
+   ],
+   "relAdd": [
+    "ecosieg"
+   ]
+  },
+  "interprete_clinico": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La interpretación sanitaria profesional se basa en la fidelidad (trasladar todo lo dicho sin añadir, omitir ni resumir), la imparcialidad, la confidencialidad y la transparencia (el intérprete avisa cuando aclara un término o un matiz cultural); estos principios figuran en los códigos deontológicos de las asociaciones de intérpretes [fuente no localizada]. Se distinguen el intérprete profesional formado, el intérprete ad hoc (familiares, amistades, personal bilingüe no formado) y el mediador intercultural, cuya función incluye explicar contextos pero no sustituye a la interpretación. En la entrevista psiquiátrica se recomienda una reunión previa para explicar el objetivo y el tipo de exploración, la disposición triangular, hablar en primera persona dirigiéndose a quien consulta, frases breves, pedir traducción literal de las producciones desorganizadas y una reunión posterior para comentar matices e impacto emocional en el intérprete [fuente no localizada]. Puede ser presencial, telefónica o por vídeo. La formación importa: entre intérpretes profesionales, las horas de formación previa, y no los años de experiencia, se asociaron a menos errores (Flores 2012).",
+     "links": [
+      {
+       "ids": [
+        "entrevistas",
+        "cfi"
+       ],
+       "t": "entrevista clínica y formulación cultural"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el análisis de errores de Flores (2012; 57 consultas grabadas en urgencias pediátricas con familias hispanohablantes), se registraron 1.884 errores de interpretación, el 18 % con posibles consecuencias clínicas; la proporción de errores con consecuencias fue menor con intérprete profesional (12 %) que con intérprete ad hoc (22 %) o sin intérprete (20 %), y los intérpretes con al menos 100 horas de formación cometieron muchos menos errores (mediana 12 frente a 33; errores con consecuencias 2 % frente a 12 %). Las revisiones sistemáticas de Karliner (2007) y Flores (2005) y la revisión psiquiátrica de Bauer y Alegría (2010), ya citadas en la ficha, sustentan la superioridad del intérprete profesional en comunicación, utilización, resultados y satisfacción. La evidencia procede de estudios observacionales, sobre todo de Estados Unidos y de atención general; no hay ensayos aleatorizados en salud mental. No se han localizado recomendaciones graduadas de NICE o GuíaSalud específicas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "competencia cultural"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Indicado en toda evaluación o tratamiento de salud mental cuando quien consulta no domina la lengua del profesional, incluidas las personas sordas usuarias de lengua de signos, y siempre en peritajes, valoraciones de capacidad, ingresos involuntarios y evaluación del riesgo suicida. Límites y riesgos: la pérdida de matices afectivos y de la forma del pensamiento, el impacto de la presencia de un tercero en la revelación de trauma, violencia sexual, consumo, orientación sexual o identidad de género, y el temor a que el intérprete pertenezca a la misma comunidad; debe ofrecerse elegir el sexo o el origen del intérprete y garantizar la confidencialidad [fuente no localizada]. Los familiares y, sobre todo, los menores no deben actuar como intérpretes, porque aumentan los errores (Flores 2012) y comprometen la confidencialidad. En salud mental con personas refugiadas, la revisión de alcance de Fennig y Denov (2021; 84 estudios) describe el impacto emocional de la interpretación en el intérprete, la necesidad de formación y supervisión y las dudas sobre confidencialidad y sesgo, pero un efecto global positivo sobre la calidad de la atención y los resultados clínicos. En el SNS la disponibilidad depende de cada comunidad autónoma, con servicios telefónicos en muchos centros [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "refugio_tept",
+        "protocolo_estambul"
+       ],
+       "t": "refugio, tortura y Protocolo de Estambul"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "peritaje forense"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Flores G et al. (2012). Errors of medical interpretation and their potential clinical consequences: a comparison of professional versus ad hoc versus no interpreters. Ann Emerg Med 60:545-553 · PMID 22424655",
+    "Fennig M & Denov M (2021). Interpreters working in mental health settings with refugees: an interdisciplinary scoping review. Am J Orthopsychiatry 91:50-65 · PMID 33411555"
+   ],
+   "relAdd": []
+  },
+  "sanadores_trad": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El fundamento teórico es el pluralismo médico descrito por Kleinman (1980): las personas recorren a la vez los sectores popular, tradicional y profesional según sus modelos explicativos del malestar. Los modelos de colaboración propuestos (Gureje 2015) incluyen la formación mutua, la derivación bidireccional y la atención compartida. El ensayo COSIMPO (Gureje 2020) concretó un modelo de atención compartida para la psicosis entre sanadores tradicionales y de fe y personal de atención primaria en Kumasi (Ghana) e Ibadán (Nigeria): formación de los sanadores en reconocimiento de la psicosis y en prácticas no lesivas, formación del personal de atención primaria en el manejo de la psicosis y visitas conjuntas con derivación en ambos sentidos [fuente no localizada para los componentes detallados]. En el campamento de oración de Ghana estudiado por Ofori-Atta (2018), un equipo psiquiátrico prescribió la medicación indicada mientras continuaban las actividades de oración y ayuno. En contextos europeos, la colaboración se limita a preguntar por estas prácticas con la CFI, coordinarse con líderes religiosos o comunitarios y respetar las prácticas inocuas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "competencia_cult"
+       ],
+       "t": "formulación cultural y competencia cultural"
+      },
+      {
+       "ids": [
+        "maladi_moun",
+        "susto"
+       ],
+       "t": "modelos explicativos culturales"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "En el ensayo aleatorizado por conglomerados COSIMPO (Gureje 2020; Ghana y Nigeria, 307 pacientes con psicosis), la atención compartida entre sanadores tradicionales y de fe y atención primaria redujo más la gravedad de la psicosis que la atención habitual de los sanadores a los seis meses (PANSS 53,4 frente a 67,6; diferencia ajustada −15,01; IC 95 % −21,17 a −8,84) y fue coste-efectiva; las prácticas lesivas disminuyeron en ambos grupos (del 57 % al 9 % y del 42 % al 10 %), sin diferencias entre ellos, y cinco pacientes presentaron efectos extrapiramidales leves. En el campamento de oración de Ghana (Ofori-Atta 2018; 139 residentes), añadir la medicación indicada a las actividades habituales redujo la gravedad en la BPRS (tamaño de efecto −0,48), pero no los días de encadenamiento. La revisión de Nortje (2016), citada en la ficha, concluye que los sanadores pueden aliviar el malestar en trastornos comunes leves, con poca evidencia en trastornos graves. La calidad de la evidencia es moderada para la colaboración y baja para las prácticas tradicionales aisladas.",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "La colaboración está justificada donde los sanadores son el primer recurso de la población y la brecha de tratamiento es amplia; en España, su principal aplicación es preguntar de forma no enjuiciadora por el uso de sanadores, rituales y remedios en personas migrantes y de comunidades religiosas. Riesgos: encadenamiento, aislamiento, castigos físicos, ayunos forzados y exorcismos que vulneran los derechos humanos (Gureje 2015; Ofori-Atta 2018), retraso del tratamiento de la psicosis o del riesgo suicida e interacciones de remedios herbales con psicofármacos [fuente no localizada]. Algunas prácticas religiosas o «curativas» dirigidas contra la orientación sexual o la identidad de género son formas de terapia de conversión, dañinas y prohibidas en España por la Ley 4/2023, y nunca deben avalarse. La Convención sobre los Derechos de las Personas con Discapacidad es el marco para delimitar la colaboración. No existe integración formal de sanadores en el SNS [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "crpd",
+        "estigma"
+       ],
+       "t": "derechos y estigma"
+      },
+      {
+       "ids": [
+        "ecosieg"
+       ],
+       "t": "terapias de conversión"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Gureje O et al. (2020). Effect of collaborative care between traditional and faith healers and primary health-care workers on psychosis outcomes in Nigeria and Ghana (COSIMPO): a cluster randomised controlled trial. Lancet 396:612-622 · PMID 32861306",
+    "Ofori-Atta A et al. (2018). Joining psychiatric care and faith healing in a prayer camp in Ghana: randomised trial. Br J Psychiatry 212:34-41 · PMID 29433613"
+   ],
+   "relAdd": [
+    "ecosieg",
+    "esq"
+   ]
+  },
+  "wpath_soc8": {
+   "secAdd": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "La World Professional Association for Transgender Health publicó los primeros Standards of Care en 1979; la versión 7 data de 2012 y la versión 8 (Coleman 2022) se elaboró con un comité internacional de profesionales y personas implicadas, a partir de revisiones sistemáticas independientes, revisiones de fondo y consenso de personas expertas, con graduación de las recomendaciones según la evidencia, los riesgos y daños, la viabilidad y la aceptabilidad en distintos contextos. Consta de 18 capítulos: terminología, aplicabilidad global, estimaciones poblacionales, educación, evaluación de adultos, adolescentes, infancia, personas no binarias, eunucas, intersexuales y en entornos institucionales, tratamiento hormonal, cirugía y cuidados posoperatorios, voz y comunicación, atención primaria, salud reproductiva, salud sexual y salud mental. No es una psicoterapia, sino un marco de atención afirmativa y centrada en la persona; sus criterios son guías clínicas que los profesionales pueden adaptar en consulta con la persona trans o de género diverso. Exige profesionales con formación en diversidad de género [fuente no localizada para el requisito concreto].",
+     "links": [
+      {
+       "ids": [
+        "incong_gen",
+        "genero"
+       ],
+       "t": "incongruencia de género y despatologización"
+      },
+      {
+       "ids": [
+        "hirschfeld_hit"
+       ],
+       "t": "historia"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia de eficacia",
+     "x": "La revisión sistemática de Baker (2021; 20 estudios, 22 publicaciones) asoció el tratamiento hormonal de afirmación de género a mejor calidad de vida y menos depresión y ansiedad, con asociaciones similares por identidad y edad, aunque con certeza limitada por el alto riesgo de sesgo, las muestras pequeñas y la confusión con otras intervenciones; no pudo extraer conclusiones sobre la muerte por suicidio. En la cohorte de Ámsterdam (Wiepjes 2018; 1972-2015), solo el 0,6 % de las mujeres trans y el 0,3 % de los hombres trans sometidos a gonadectomía presentaron arrepentimiento, sin tendencia al aumento. En cuanto a los daños de los enfoques no afirmativos, en una encuesta transversal a 27.715 personas trans adultas de Estados Unidos (Turban 2020), la exposición recordada a esfuerzos de conversión de la identidad de género se asoció a malestar psicológico grave (ORa 1,56) y a intentos de suicidio a lo largo de la vida (ORa 2,27; 4,15 si la exposición fue antes de los 10 años). En adolescentes, la certeza de la evidencia sobre bloqueo puberal y hormonas es objeto de debate científico activo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ecosieg"
+       ],
+       "t": "esfuerzos de conversión"
+      },
+      {
+       "ids": [
+        "dg_inf"
+       ],
+       "t": "infancia y adolescencia"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y seguridad",
+     "x": "Se dirige a personas trans y de género diverso de cualquier edad que soliciten apoyo o tratamientos de afirmación de género. La identidad trans no es un trastorno mental: la CIE-11 sitúa la incongruencia de género en el capítulo de condiciones relacionadas con la salud sexual, y la evaluación de salud mental acompaña la toma de decisiones informada sin condicionar la autonomía. La comorbilidad psiquiátrica se trata en paralelo y no es, por sí misma, motivo para negar la atención [fuente no localizada]. Riesgos de los tratamientos médicos (efectos hormonales, fertilidad, complicaciones quirúrgicas) que deben explicarse para el consentimiento informado, con oferta de preservación de la fertilidad [fuente no localizada]. Los esfuerzos de conversión son dañinos (Turban 2020) y en España están prohibidos por la Ley 4/2023, que además reconoce la autodeterminación registral. Las personas trans migrantes, racializadas o con discapacidad sufren barreras añadidas. La atención se presta en unidades especializadas y, cada vez más, en atención primaria del SNS, con modelos distintos según la comunidad autónoma [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "competencia_cult"
+       ],
+       "t": "práctica afirmativa y competencia cultural"
+      },
+      {
+       "ids": [
+        "dsd"
+       ],
+       "t": "diferencias del desarrollo sexual"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Baker KE et al. (2021). Hormone therapy, mental health, and quality of life among transgender people: a systematic review. J Endocr Soc 5:bvab011 · PMID 33644622",
+    "Wiepjes CM et al. (2018). The Amsterdam Cohort of Gender Dysphoria Study (1972-2015): trends in prevalence, treatment, and regrets. J Sex Med 15:582-590 · PMID 29463477",
+    "Turban JL et al. (2020). Association between recalled exposure to gender identity conversion efforts and psychological distress and suicide attempts among transgender adults. JAMA Psychiatry 77:68-76 · PMID 31509158",
+    "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI (2023). Boletín Oficial del Estado"
+   ],
+   "relAdd": [
+    "competencia_cult"
+   ]
+  }
+ },
+ "add": []
+}

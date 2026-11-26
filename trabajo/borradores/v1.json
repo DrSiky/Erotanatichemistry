@@ -1,0 +1,1786 @@
+{
+ "patch": {
+  "acoso_esc": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El acoso entre iguales no es una adversidad menor que el maltrato intrafamiliar. En dos cohortes (ALSPAC, Reino Unido, 4026 participantes; Great Smoky Mountains, Estados Unidos, 1420), quienes solo habían sufrido acoso tenían más problemas de salud mental en la adultez joven que quienes solo habían sufrido maltrato (OR 1,6 y 3,8), con diferencias en ansiedad, depresión y autolesión, efectos que no se explicaban por la polivictimización (Lereya 2015). En 11 108 gemelos del estudio TEDS, las diferencias entre gemelos monocigóticos fueron compatibles con una contribución causal del acoso a los 11 años a la ansiedad, la depresión, la hiperactividad-impulsividad, la inatención y los problemas de conducta concurrentes; el efecto sobre la ansiedad (β = 0,27) persistía a los dos años (β = 0,12) pero no a los cinco, mientras que el efecto sobre los pensamientos paranoides y la desorganización cognitiva persistía cinco años (Singham 2017). Las consecuencias clínicas son preguntar por el acoso con la misma sistematicidad que por el maltrato, vigilar de forma específica la ideación paranoide en adolescentes acosados, intervenir pronto para aprovechar la tendencia a la recuperación y trabajar también la vulnerabilidad previa de la persona.",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf",
+        "stress"
+       ],
+       "t": "maltrato y adversidad infantil"
+      },
+      {
+       "ids": [
+        "ansi_adol",
+        "dep_inf",
+        "suic_adol"
+       ],
+       "t": "ansiedad, depresión y suicidio"
+      },
+      {
+       "ids": [
+        "caarms_sips"
+       ],
+       "t": "experiencias psicóticas atenuadas"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El diseño de diferencias entre gemelos de Singham (2017) refuerza la inferencia causal frente a la confusión genética y ambiental compartida, pero también mostró que la exposición al acoso puede ser en parte un síntoma de vulnerabilidades previas: los niños y niñas con dificultades son más victimizados. El efecto de muchas consecuencias se disipa con el tiempo, lo que indica resiliencia y desaconseja un pronóstico fatalista. Las cohortes de Lereya (2015) difieren en la medida del maltrato (cuestionario materno en ALSPAC, entrevistas anuales en Great Smoky Mountains) y sus resultados no coinciden en todos los desenlaces, por ejemplo en el riesgo de depresión asociado solo al maltrato. Las cohortes proceden del Reino Unido y de Estados Unidos y son anteriores a la generalización de las redes sociales, por lo que su extrapolación al ciberacoso actual es incierta. La eficacia a largo plazo de los programas escolares antiacoso sobre los trastornos mentales, más allá de la reducción de la victimización, está poco documentada [fuente no localizada]. Las poblaciones LGTBIQ+, con discapacidad o con TEA están infrarrepresentadas en estas cohortes.",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "pantallas"
+       ],
+       "t": "poblaciones específicas y ciberacoso"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel social, el acoso es un fenómeno de grupo y de clima escolar, y por eso la intervención debe dirigirse al entorno y no solo a la víctima. En el nivel genético, la correlación gen-ambiente evocativa (rasgos heredables que aumentan la probabilidad de ser victimizado) explica parte de la asociación, sin anular la contribución directa demostrada con gemelos monocigóticos (Singham 2017). En el nivel neurobiológico, se proponen la reactividad del eje del estrés y la carga alostática como vías comunes con otras adversidades infantiles, sin marcadores específicos validados. En el nivel psicológico, la vergüenza, la hipervigilancia social y la atribución hostil enlazan con la ansiedad social y con la ideación paranoide, coherentes con la persistencia de los pensamientos paranoides a los cinco años (Singham 2017) y con la hipótesis de la derrota social en la psicosis. En el nivel fenomenológico, la experiencia de exclusión del grupo de iguales afecta a la construcción de la identidad en la adolescencia [fuente no localizada]. La controversia principal es si el acoso tiene efectos propios o es un marcador de polivictimización; Lereya (2015) sostiene que tiene efectos propios.",
+     "links": [
+      {
+       "ids": [
+        "prs",
+        "gen_candidatos"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "carga_alostatica",
+        "hha_tept"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "fobia_soc",
+        "del_persec",
+        "derrota_soc"
+       ],
+       "t": "nivel psicológico y psicosis"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lereya ST et al. (2015). Adult mental health consequences of peer bullying and maltreatment in childhood: two cohorts in two countries. Lancet Psychiatry 2:524-531 · PMID 26360448",
+    "Singham T et al. (2017). Concurrent and longitudinal contribution of exposure to bullying in childhood to mental health: the role of vulnerability and resilience. JAMA Psychiatry 74:1112-1119 · PMID 28979965"
+   ],
+   "relAdd": [
+    "maltrato_inf",
+    "del_persec",
+    "derrota_soc"
+   ]
+  },
+  "context": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El riesgo de psicosis no se limita a quien migra: en 21 estudios poblacionales, la razón de tasas de incidencia fue de 2,3 (IC 95 % 2,0-2,7) en la primera generación y de 2,1 (1,8-2,5) en la segunda, sin diferencia significativa entre generaciones y con variaciones según el grupo etnorracial y el país receptor (Bourque 2011). En el estudio EU-GEI (2774 primeros episodios en 17 áreas de seis países, seis de ellas en España), la incidencia estandarizada varió ocho veces, de 6,0 por 100 000 personas-año en Santiago de Compostela a 46,1 en París; fue mayor en las minorías etnorraciales (razón 1,6) y menor en las áreas con más vivienda en propiedad (razón 0,8) (Jongsma 2018). En la práctica, la condición migrante o minoritaria obliga a explorar los estresores posmigratorios (estatus legal, vivienda, discriminación, aislamiento), a usar la formulación cultural y un intérprete profesional cuando la lengua lo requiera, y a extremar la cautela diagnóstica, porque el riesgo real coexiste con el sesgo diagnóstico descrito en la ficha de racismo. La planificación de servicios debe tener en cuenta que la incidencia de psicosis depende del lugar, no solo de la persona.",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "interprete_clinico",
+        "psiq_transcultural"
+       ],
+       "t": "formulación cultural e intérprete"
+      },
+      {
+       "ids": [
+        "racismo_sm"
+       ],
+       "t": "sesgo diagnóstico"
+      },
+      {
+       "ids": [
+        "esq",
+        "ipsei"
+       ],
+       "t": "psicosis y primer episodio"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los estudios miden incidencia tratada: solo cuentan quienes llegan a los servicios, y las vías de acceso (urgencias, policía, atención primaria) difieren entre grupos, lo que puede inflar o reducir las tasas [fuente no localizada]. Los denominadores proceden de estadísticas oficiales (Jongsma 2018), que pueden infraestimar a la población migrante en situación administrativa irregular y sobrestimar así su incidencia [fuente no localizada]. Las categorías etnorraciales son construcciones sociales que cambian entre países, y la heterogeneidad según el país receptor (Bourque 2011) impide trasladar los riesgos del Reino Unido o de los Países Bajos a España. La hipótesis de la migración selectiva (emigran más las personas con vulnerabilidad previa) queda debilitada porque el riesgo persiste en la segunda generación, nacida en el país receptor, lo que apunta a factores posmigratorios (Bourque 2011); aun así, la selección no se ha excluido por completo. Los mecanismos concretos (discriminación, derrota social, fragmentación social, consumo de cannabis) siguen sin demostrarse como causas y pueden diferir entre grupos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "derrota_soc"
+       ],
+       "t": "hipótesis de la derrota social"
+      },
+      {
+       "ids": [
+        "estres_acultur",
+        "duelo_migra_ulises"
+       ],
+       "t": "procesos posmigratorios"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, la persistencia del riesgo en la segunda generación es difícil de explicar solo por una mayor carga genética de quienes migran, aunque la puntuación poligénica no se ha estudiado de forma suficiente en poblaciones no europeas, lo que limita el contraste [fuente no localizada]. En el nivel neurobiológico, la hipótesis de la derrota social propone una sensibilización dopaminérgica mesolímbica como vía común. En el nivel psicológico, la exclusión y la discriminación pueden alimentar la atribución externa de amenaza y la ideación persecutoria. En el nivel social, el contexto (vivienda, cohesión, densidad étnica, políticas de acogida) modula el riesgo, como sugiere la variación de ocho veces entre áreas europeas (Jongsma 2018). En el nivel fenomenológico y cultural, la cultura modela la expresión del sufrimiento y el modo de pedir ayuda. La controversia teórica enfrenta la causación social, la selección y el artefacto diagnóstico; los datos de Bourque (2011) favorecen el papel del contexto social posmigratorio sin excluir las otras dos explicaciones.",
+     "links": [
+      {
+       "ids": [
+        "hered_esq",
+        "prs"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "derrota_soc",
+        "dopa_hyp"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "del_persec"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "desig",
+        "racismo_sm",
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "idiomas_malestar",
+        "psiq_transcultural"
+       ],
+       "t": "nivel cultural y fenomenológico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bourque F, van der Ven E & Malla A (2011). A meta-analysis of the risk for psychotic disorders among first- and second-generation immigrants. Psychol Med 41:897-910 · PMID 20663257",
+    "Jongsma HE et al. (2018). Treated incidence of psychotic disorders in the multinational EU-GEI study. JAMA Psychiatry 75:36-46 · PMID 29214289"
+   ],
+   "relAdd": [
+    "esq",
+    "ipsei"
+   ]
+  },
+  "derrota_soc": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La hipótesis cuenta con apoyo de neuroimagen en humanos, aunque en muestras pequeñas. Con PET y [11C]-(+)-PHNO, la liberación de dopamina estriatal ante una tarea de estrés psicosocial validada fue mayor en 12 personas con alto riesgo clínico de psicosis (6,97 %) y en 10 con esquizofrenia sin tratamiento antipsicótico previo (11,44 %) que en 12 voluntarias y voluntarios sanos (−2,86 %) en el estriado asociativo (Mizrahi 2012). En dos estudios de casos y controles de Canadá y el Reino Unido, tanto la liberación de dopamina inducida por estrés como la capacidad de síntesis de dopamina estriatal fueron mayores en personas inmigrantes o hijas de inmigrantes que en no inmigrantes, con independencia de su estado clínico (Egerton 2017). Desde el punto de vista clínico, el modelo justifica explorar las experiencias de subordinación, exclusión y humillación en personas con alto riesgo de psicosis o con un primer episodio, reducir los factores de estrés social modificables y considerar la vivienda, el empleo, el estatus legal y la discriminación como dianas preventivas. No justifica tratamientos farmacológicos preventivos ni etiquetar como prepsicóticas a las personas migrantes.",
+     "links": [
+      {
+       "ids": [
+        "caarms_sips",
+        "ipsei"
+       ],
+       "t": "alto riesgo clínico y primer episodio"
+      },
+      {
+       "ids": [
+        "dopa_hyp"
+       ],
+       "t": "hipótesis dopaminérgica"
+      },
+      {
+       "ids": [
+        "context",
+        "racismo_sm"
+       ],
+       "t": "migración y discriminación"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los estudios de neuroimagen son pequeños (34 participantes en Mizrahi 2012; 56 y 76 en los dos estudios de Egerton 2017), transversales y de un número reducido de centros, y no demuestran que la elevación dopaminérgica preceda a la psicosis ni que medie el riesgo atribuible a la migración. La derrota social no se midió directamente en los estudios de Egerton (2017), que compararon según la condición de inmigrante. Los modelos animales, basados sobre todo en el paradigma residente-intruso en roedores, estudian consecuencias fisiológicas, mientras que la investigación humana se ha centrado en el acoso escolar y laboral y en consecuencias conductuales, con terminologías distintas que dificultan la traslación (Björkqvist 2001). La hipótesis tiene dificultades para explicar por qué el riesgo varía tanto entre grupos migrantes y países receptores, y la definición operativa de «derrota social» en humanos no está estandarizada [fuente no localizada]. Las muestras son de Europa y Norteamérica y no hay estudios españoles de neuroimagen sobre esta cuestión [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "acoso_esc"
+       ],
+       "t": "acoso como derrota social humana"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La hipótesis es un puente explícito entre el nivel social y el neurobiológico: la exclusión crónica sensibilizaría la transmisión dopaminérgica estriatal, que la hipótesis dopaminérgica sitúa en la base de la saliencia aberrante y de los síntomas positivos (Mizrahi 2012; Egerton 2017). En el nivel psicológico, la subordinación y la humillación enlazan con el modelo de sucesos vitales de Brown y Harris y con la ideación persecutoria. En el nivel social, integra la migración, la pertenencia a minorías visibles, la urbanicidad, el acoso y la discriminación, y converge con el estrés de minorías. En el nivel genético, la correlación gen-ambiente observada en la urbanicidad obliga a no atribuir toda la asociación al estrés social. En el nivel fenomenológico, la experiencia de ser visto como inferior o amenazado se relaciona con la vivencia de extrañeza y amenaza de las fases iniciales de la psicosis [fuente no localizada]. La controversia teórica principal es si la derrota social es un mecanismo común o una etiqueta que agrupa adversidades heterogéneas; Björkqvist (2001) propuso un intercambio teórico y metodológico entre la investigación animal y la humana para afinarla.",
+     "links": [
+      {
+       "ids": [
+        "dopa_hyp",
+        "saliencia",
+        "red_saliencia"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "stres_vital",
+        "del_persec"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "desig",
+        "context",
+        "genero"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "apocalipsis_conrad"
+       ],
+       "t": "nivel fenomenológico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Mizrahi R et al. (2012). Increased stress-induced dopamine release in psychosis. Biol Psychiatry 71:561-567 · PMID 22133268",
+    "Egerton A et al. (2017). Elevated striatal dopamine function in immigrants and their children: a risk mechanism for psychosis. Schizophr Bull 43:293-301 · PMID 28057720",
+    "Björkqvist K (2001). Social defeat as a stressor in humans. Physiol Behav 73:435-442 · PMID 11438372"
+   ],
+   "relAdd": [
+    "saliencia",
+    "caarms_sips",
+    "acoso_esc",
+    "stres_vital"
+   ]
+  },
+  "desempleo_suic": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Las crisis económicas se traducen en suicidios evitables y la protección social los modula. En 26 países de la Unión Europea (1970-2007), cada aumento del 1 % del desempleo se asoció a un aumento del 0,79 % de los suicidios en menores de 65 años, y los aumentos del desempleo superiores al 3 % a un 4,45 % más de suicidios en ese grupo y a un 28 % más de muertes por abuso de alcohol; cada 10 dólares por persona invertidos en políticas activas de empleo redujeron el efecto del desempleo sobre el suicidio (Stuckler 2009). En 54 países, la crisis de 2008 se asoció a unos 4884 suicidios en exceso en 2009, sobre todo en varones (un 4,2 % más de lo esperado en los países europeos y un 6,4 % en los americanos), máximo en los varones europeos de 15 a 24 años (Chang 2013). En España, la tasa de suicidio aumentó un 8,0 % por encima de la tendencia previa desde el inicio de la crisis, con mayor efecto en varones, en personas en edad laboral y en las regiones mediterráneas y del norte (Lopez Bernal 2013). En consulta, la pérdida de empleo, los desahucios y las deudas deben activar la evaluación del riesgo suicida y del consumo de alcohol, sobre todo en varones en edad laboral.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "evaluación del riesgo suicida"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "consumo de alcohol"
+      },
+      {
+       "ids": [
+        "ips_empleo"
+       ],
+       "t": "empleo con apoyo"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los tres estudios son ecológicos y no permiten inferir que las personas que perdieron el empleo fueran las que murieron por suicidio (falacia ecológica). En Stuckler (2009), el efecto del desempleo sobre el suicidio no fue significativo cuando se consideraban todas las edades (0,49 %; IC 95 % −0,04 a 1,02), y el efecto protector de las políticas activas de empleo tiene un intervalo de confianza amplio. Chang (2013) compara los suicidios observados con los esperados según la tendencia de 2000-2007, un contrafactual que depende del modelo elegido. El estudio español abarca solo hasta 2010 (Lopez Bernal 2013) y no distingue los efectos del desempleo de los de los recortes, los desahucios o el endeudamiento. La calidad del registro de suicidios varía entre países y en el tiempo. Ninguno de estos estudios mide el trastorno mental previo, que en las cohortes individuales explica buena parte de la asociación entre desempleo y suicidio (véase la descripción de esta ficha). La extrapolación a la economía de plataformas y a la precariedad sin desempleo formal no está estudiada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "determinantes sociales"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel social, los datos de crisis económicas actualizan la tesis de Durkheim sobre el suicidio anómico y muestran que la respuesta política (protección social y políticas activas de empleo) cambia el resultado (Stuckler 2009). En el nivel psicológico, la pérdida del rol laboral, la vergüenza, la desesperanza y la sensación de ser una carga enlazan con la teoría interpersonal del suicidio y con la hipótesis de la derrota social. En el nivel clínico, el consumo de alcohol actúa como mediador y amplificador, coherente con el aumento de las muertes por abuso de alcohol en las grandes subidas del desempleo (Stuckler 2009). En el nivel individual, el trastorno mental previo selecciona a las personas hacia el desempleo y a la vez aumenta el riesgo de suicidio, por lo que causación y selección coexisten. En el nivel neurobiológico no hay marcadores específicos del suicidio asociado al desempleo [fuente no localizada]. La concentración del exceso de suicidios en varones (Chang 2013; Lopez Bernal 2013) se ha interpretado en clave de roles de género ligados al trabajo, una interpretación plausible pero no demostrada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "durkheim",
+        "durkheim_hit"
+       ],
+       "t": "suicidio anómico"
+      },
+      {
+       "ids": [
+        "soledad",
+        "derrota_soc"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "alcohol como mediador"
+      },
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "género y suicidio"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Stuckler D et al. (2009). The public health effect of economic crises and alternative policy responses in Europe: an empirical analysis. Lancet 374:315-323 · PMID 19589588",
+    "Chang SS et al. (2013). Impact of 2008 global economic crisis on suicide: time trend study in 54 countries. BMJ 347:f5239 · PMID 24046155",
+    "Lopez Bernal JA et al. (2013). The effect of the late 2000s financial crisis on suicides in Spain: an interrupted time-series analysis. Eur J Public Health 23:732-736 · PMID 23804080"
+   ],
+   "relAdd": [
+    "alcohol",
+    "genero_sm",
+    "derrota_soc"
+   ]
+  },
+  "desig": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La desventaja socioeconómica pesa más en la persistencia que en el inicio de la depresión: en el metaanálisis de Lorant (2003; 51 estudios de prevalencia, 5 de incidencia y 4 de persistencia), el grupo de nivel socioeconómico más bajo tuvo más probabilidad de estar deprimido (OR 1,81), con un riesgo de episodio nuevo menor (OR 1,24) que el de depresión persistente (OR 2,06) y una relación dosis-respuesta con el nivel educativo y los ingresos. La pobreza no es solo un marcador: en un experimento natural con 1420 niños y niñas de zona rural, el suplemento de ingresos de un casino sacó de la pobreza al 14 % de las familias y los síntomas de los menores que dejaron de ser pobres descendieron hasta el nivel de los que nunca lo fueron, con un efecto específico sobre los síntomas de conducta y oposicionistas (Costello 2003). La revisión de Ridley (2020) recoge evidencia causal bidireccional: las crisis económicas causan enfermedad mental, las transferencias monetarias mejoran la salud mental y las intervenciones psicológicas producen ganancias económicas. En consecuencia, la evaluación debe incluir ingresos, vivienda, deudas y empleo, el plan terapéutico debe coordinarse con servicios sociales y el seguimiento de la depresión en personas pobres debe prevenir la cronificación.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tcond"
+       ],
+       "t": "depresión y trastornos de conducta"
+      },
+      {
+       "ids": [
+        "ips_empleo",
+        "desempleo_suic"
+       ],
+       "t": "empleo y desempleo"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "determinantes sociales"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La asociación entre nivel socioeconómico y depresión es heterogénea y depende de cómo se miden el trastorno y el nivel socioeconómico y del contexto regional y temporal (Lorant 2003). El experimento natural de Costello (2003) apoyó la causación social para los trastornos de conducta y oposicionista, pero no para la ansiedad ni la depresión, y se realizó en una población rural de Estados Unidos con un cuarto de participantes indígenas, por lo que su generalización es limitada. La relación entre urbanicidad y esquizofrenia puede estar confundida por la genética: en cuatro cohortes de ascendencia europea (Australia, Reino Unido y Países Bajos), las personas con mayor puntuación poligénica para esquizofrenia vivían en zonas más densamente pobladas, una asociación que podría explicar el 1,7 % del riesgo de esquizofrenia, y la aleatorización mendeliana sugirió un efecto de la carga genética sobre la tendencia a vivir en zonas urbanas (Colodro-Conde 2018). Ninguna de estas aproximaciones resuelve por completo la dirección causal, y la evidencia de las intervenciones estructurales (vivienda, transferencias) sobre los trastornos mentales graves es más escasa que sobre los comunes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hered_esq",
+        "prs"
+       ],
+       "t": "genética y urbanicidad"
+      },
+      {
+       "ids": [
+        "exposoma"
+       ],
+       "t": "exposoma"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La controversia clásica enfrenta la causación social (la adversidad produce el trastorno) y la selección social (el trastorno o la vulnerabilidad familiar llevan a la pobreza); Costello (2003) diseñó su experimento natural para separarlas y Ridley (2020) concluye que ambas direcciones son causales. En el nivel genético, la correlación gen-ambiente obliga a reinterpretar parte de la asociación con la urbanicidad (Colodro-Conde 2018), sin que ello implique un determinismo biológico: los genes modulan la exposición y la exposición sigue siendo modificable. En el nivel neurobiológico, la carga alostática y la derrota social se proponen como vías. En el nivel psicológico, la escasez reduce los recursos de afrontamiento y aumenta la exposición a sucesos vitales. En el nivel social, la pobreza se entrelaza con el racismo, la migración y el estigma, y el marco de los determinantes sociales de la OMS sitúa la intervención en la distribución del poder y los recursos. En el nivel fenomenológico, la humillación y la vergüenza asociadas a la pobreza enlazan con la hipótesis de la derrota social [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "prs",
+        "hered_esq"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "carga_alostatica",
+        "derrota_soc"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "stres_vital"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "racismo_sm",
+        "context",
+        "estigma",
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lorant V et al. (2003). Socioeconomic inequalities in depression: a meta-analysis. Am J Epidemiol 157:98-112 · PMID 12522017",
+    "Costello EJ et al. (2003). Relationships between poverty and psychopathology: a natural experiment. JAMA 290:2023-2029 · PMID 14559956",
+    "Ridley M et al. (2020). Poverty, depression, and anxiety: causal evidence and mechanisms. Science 370:eaay0214 · PMID 33303583",
+    "Colodro-Conde L et al. (2018). Association between population density and genetic risk for schizophrenia. JAMA Psychiatry 75:901-910 · PMID 29936532"
+   ],
+   "relAdd": [
+    "ddm",
+    "tcond",
+    "ips_empleo",
+    "carga_alostatica"
+   ]
+  },
+  "determ_soc_sm": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Kirkbride y colaboradores (2024) proponen un marco preventivo que sitúa las intervenciones sobre los determinantes sociales en los tres niveles de prevención primaria (universal, selectiva e indicada) y revisan también estrategias secundarias y terciarias para favorecer la recuperación de quienes ya tienen un trastorno; sus siete recomendaciones se formulan desde la justicia social y priorizan a los grupos marginados expuestos a riesgos que se superponen: personas refugiadas, solicitantes de asilo y desplazadas, minorías etnorraciales, personas LGTBIQ+ y personas que viven en la pobreza. La revisión de Ridley (2020) aporta el argumento económico y clínico: las transferencias monetarias mejoran la salud mental y las intervenciones psicológicas generan ganancias económicas, de modo que tratar la depresión y la ansiedad es también una política contra la pobreza. En la consulta, esto se traduce en preguntar de forma sistemática por ingresos, deudas, vivienda, empleo, estatus administrativo, violencia y red social; en registrar estas condiciones en la historia clínica como factores modificables; en derivar de forma activa a servicios sociales, jurídicos y de empleo, y en no atribuir a un rasgo individual lo que es una condición de vida.",
+     "links": [
+      {
+       "ids": [
+        "refugio_tept",
+        "racismo_sm",
+        "genero",
+        "desig"
+       ],
+       "t": "grupos marginados"
+      },
+      {
+       "ids": [
+        "ips_empleo",
+        "interprete_clinico"
+       ],
+       "t": "recursos de intervención"
+      },
+      {
+       "ids": [
+        "desempleo_suic"
+       ],
+       "t": "desempleo y suicidio"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La evidencia procede sobre todo del Norte global, como reconocen Kirkbride y colaboradores (2024), y los determinantes y sus efectos pueden ser distintos en otros contextos. La mayor parte de los estudios son observacionales; los diseños que permiten una inferencia causal (experimentos naturales, ensayos de transferencias monetarias, aleatorización mendeliana) son escasos y muestran efectos específicos: el aumento de ingresos de las familias en el experimento natural de Costello (2003) redujo los síntomas de conducta en la infancia pero no la ansiedad ni la depresión. La correlación gen-ambiente complica la interpretación de algunas exposiciones, como la urbanicidad (véase la ficha de pobreza y urbanicidad). Los gradientes sociales se describen mejor que los mecanismos, y la eficacia de las intervenciones estructurales sobre los trastornos mentales graves está mucho menos estudiada que sobre los comunes [fuente no localizada]. Los indicadores de determinantes (renta, nivel educativo, privación del área) no son intercambiables y su elección cambia la magnitud de las asociaciones.",
+     "links": [
+      {
+       "ids": [
+        "desig"
+       ],
+       "t": "pobreza y urbanicidad"
+      },
+      {
+       "ids": [
+        "exposoma"
+       ],
+       "t": "exposoma"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El modelo de determinantes sociales no compite con los niveles biológico y psicológico, sino que explica la distribución de la exposición: los factores estructurales generan y perpetúan ciclos intergeneracionales de desventaja y mala salud a lo largo de la vida (Kirkbride 2024). En el nivel neurobiológico, la carga alostática y la adversidad temprana son puentes propuestos; en el genético, la heredabilidad y las puntuaciones poligénicas no anulan el efecto del entorno y pueden interactuar con él, sin que ello permita un determinismo biológico ni social. En el nivel psicológico, la escasez, la humillación y la falta de control enlazan con los modelos de estrés y de derrota social. En el nivel fenomenológico y cultural, la experiencia de exclusión y los modelos explicativos condicionan la búsqueda de ayuda. Las controversias principales son tres: causación frente a selección (Ridley 2020 concluye que ambas direcciones son causales), intervenciones clínicas individuales frente a políticas estructurales, y el riesgo de medicalizar la pobreza al convertir el sufrimiento social en diagnósticos psiquiátricos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "biopsicosocial",
+        "exposoma"
+       ],
+       "t": "modelos integradores"
+      },
+      {
+       "ids": [
+        "carga_alostatica",
+        "stress"
+       ],
+       "t": "nivel neurobiológico y desarrollo"
+      },
+      {
+       "ids": [
+        "prs",
+        "hered_dep"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "derrota_soc",
+        "stres_vital"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "idiomas_malestar"
+       ],
+       "t": "nivel cultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kirkbride JB et al. (2024). The social determinants of mental health and disorder: evidence, prevention and recommendations. World Psychiatry 23:58-90 · PMID 38214615",
+    "Ridley M et al. (2020). Poverty, depression, and anxiety: causal evidence and mechanisms. Science 370:eaay0214 · PMID 33303583",
+    "Costello EJ et al. (2003). Relationships between poverty and psychopathology: a natural experiment. JAMA 290:2023-2029 · PMID 14559956"
+   ],
+   "relAdd": [
+    "refugio_tept",
+    "carga_alostatica",
+    "ips_empleo"
+   ]
+  },
+  "duelo_migra_ulises": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La evidencia cuantitativa sobre las condiciones posmigratorias respalda el núcleo clínico del constructo: el sufrimiento depende en gran parte del contexto de llegada. En el metaanálisis de Porter y Haslam (2005; 59 comparaciones, 22 221 personas refugiadas y 45 073 no refugiadas), las personas refugiadas presentaron peor salud mental (tamaño del efecto 0,41), y los resultados fueron peores en quienes vivían en alojamientos institucionales, tenían restringidas las oportunidades económicas, eran desplazadas internas, habían sido repatriadas a un país del que habían huido o cuyo conflicto seguía sin resolverse. La revisión de Li, Liddell y Nickerson (2016) concluye que los factores socioeconómicos, sociales e interpersonales y los ligados al procedimiento de asilo y a la política migratoria afectan al funcionamiento psicológico, además del trauma premigratorio. Por tanto, la evaluación de una persona migrante con malestar intenso debe recoger el estatus administrativo, el alojamiento, el acceso al trabajo, la separación familiar y la situación del procedimiento de asilo, y el plan terapéutico debe incluir la coordinación con recursos sociales y jurídicos. Diagnosticar un trastorno solo cuando se cumplan sus criterios evita tanto la medicalización como el infratratamiento.",
+     "links": [
+      {
+       "ids": [
+        "refugio_tept",
+        "ptsd"
+       ],
+       "t": "refugio y TEPT"
+      },
+      {
+       "ids": [
+        "interprete_clinico",
+        "cfi"
+       ],
+       "t": "evaluación con intérprete y formulación cultural"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "determinantes sociales"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El síndrome de Ulises carece de criterios operativos validados, de instrumentos con propiedades psicométricas publicadas y de estudios de fiabilidad entre evaluadores [fuente no localizada]; su descripción procede sobre todo de la experiencia clínica de su autor y de artículos en español. La evidencia cuantitativa disponible se refiere a constructos afines (estrés posmigratorio, salud mental de personas refugiadas) y no al síndrome como tal. El metaanálisis de Porter y Haslam (2005) incluye estudios de 1959 a 2002 y comprobó que las diferencias metodológicas entre estudios modificaban los tamaños del efecto; además, algunas variables asociadas a peor evolución (mayor edad, mayor nivel educativo, ser mujer, mayor nivel socioeconómico previo, residencia rural) no tienen una explicación establecida. Li, Liddell y Nickerson (2016) señalan limitaciones de la literatura sobre estresores posmigratorios, que es mayoritariamente transversal y no permite separar con claridad su efecto del trauma previo. No hay datos sobre la prevalencia del cuadro en España con métodos epidemiológicos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "estres_acultur"
+       ],
+       "t": "estrés de aculturación"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El constructo se sitúa en la frontera entre el nivel social y el psicológico: describe una respuesta de estrés a condiciones sociales extremas y la elaboración de pérdidas múltiples, por lo que enlaza con el duelo y con el estrés de aculturación. En el nivel psicopatológico, su valor diferencial respecto al episodio depresivo, al trastorno de adaptación y al TEPT está por demostrar; la CIE-11 permite codificar el trastorno de adaptación y los factores que influyen en el estado de salud relacionados con circunstancias sociales [fuente oficial no localizada]. En el nivel neurobiológico, las vías del estrés crónico y la carga alostática son plausibles sin estudios específicos [fuente no localizada]. En el nivel social, los datos de Porter y Haslam (2005) sobre alojamiento y oportunidades económicas sitúan la principal palanca de cambio en las políticas de acogida. En el nivel fenomenológico y cultural, el duelo cultural y los idiomas de malestar modelan la expresión del sufrimiento. La controversia teórica es doble: si nombrar un síndrome visibiliza el sufrimiento o lo psiquiatriza, y si la etiqueta individual desplaza la responsabilidad de condiciones que exigen respuesta política.",
+     "links": [
+      {
+       "ids": [
+        "duelo",
+        "dduelo",
+        "estres_acultur"
+       ],
+       "t": "duelo y aculturación"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ptsd"
+       ],
+       "t": "diagnóstico diferencial"
+      },
+      {
+       "ids": [
+        "carga_alostatica"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "idiomas_malestar",
+        "context"
+       ],
+       "t": "nivel cultural y social"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Porter M & Haslam N (2005). Predisplacement and postdisplacement factors associated with mental health of refugees and internally displaced persons: a meta-analysis. JAMA 294:602-612 · PMID 16077055",
+    "Li SSY, Liddell BJ & Nickerson A (2016). The relationship between post-migration stress and psychological disorders in refugees and asylum seekers. Curr Psychiatry Rep 18:82 · PMID 27436307"
+   ],
+   "relAdd": [
+    "idiomas_malestar",
+    "determ_soc_sm",
+    "interprete_clinico"
+   ]
+  },
+  "duelo_vejez": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El primer año de viudedad concentra el riesgo psiquiátrico. En 11 estudios con entrevista diagnóstica estructurada (3481 personas viudas y 4685 controles), casi el 22 % de las personas viudas cumplía criterios de depresión mayor durante el primer año de duelo y casi el 12 % de TEPT, con más riesgo de trastorno de pánico y de ansiedad generalizada; el riesgo relativo de desarrollar un trastorno del estado de ánimo o de ansiedad osciló entre 3,49 y 9,76 frente a los controles (Onrust y Cuijpers 2006). En el registro danés de toda la población de 50 años o más (1 978 527 personas), los varones de 80 años o más mostraron el mayor aumento del riesgo de muerte por suicidio inmediatamente después de perder a la pareja (unas 15 veces frente a varones de mediana edad casados) y tardaban más en recuperarse que las mujeres (Erlangsen 2004). La mayoría de las personas, sin embargo, no enferma: en un estudio prospectivo con datos previos a la muerte del cónyuge (205 personas), la resiliencia fue el patrón más frecuente y el duelo «habitual» relativamente infrecuente (Bonanno 2002). La consecuencia es un seguimiento activo, sin medicalizar, durante el primer año, con evaluación explícita del riesgo suicida en varones muy mayores.",
+     "links": [
+      {
+       "ids": [
+        "suic_mayor",
+        "ideac_suic"
+       ],
+       "t": "suicidio en mayores"
+      },
+      {
+       "ids": [
+        "dep_tardia",
+        "ptsd"
+       ],
+       "t": "depresión tardía y TEPT"
+      },
+      {
+       "ids": [
+        "dduelo"
+       ],
+       "t": "duelo prolongado"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La revisión de Onrust y Cuijpers (2006) reunió solo 11 estudios con criterios diagnósticos, de tamaño y método heterogéneos, y las cifras de prevalencia varían con el tiempo transcurrido desde la pérdida; parte de los episodios pueden ser recurrencias de una depresión previa. El registro de Erlangsen (2004) muestra que solo una pequeña proporción de las personas muy mayores que mueren por suicidio había perdido recientemente a su pareja (18 % de los varones y 6 % de las mujeres), de modo que la viudedad explica solo una parte del elevado riesgo suicida en la vejez avanzada. El estudio de Bonanno (2002) es singular por disponer de datos previos a la pérdida, pero se limita a 205 personas de una cohorte estadounidense y a un seguimiento de 18 meses. La mayor parte de la literatura procede de países del norte de Europa y de Norteamérica, con diferencias en la convivencia intergeneracional respecto a España [fuente no localizada]. Las personas mayores LGTBIQ+, cuyo duelo puede no ser reconocido socialmente, están casi ausentes de estos estudios [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "duelo no reconocido en personas LGTBIQ+"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel psicológico, los predictores previos a la pérdida orientan sobre la vulnerabilidad: el duelo crónico se asoció a dependencia previa hacia el cónyuge y la resiliencia a la aceptación previa de la muerte y a la creencia en un mundo justo (Bonanno 2002), lo que enlaza con las teorías del apego. En el nivel social, la soledad, vivir solo, la pérdida de roles y la escasez de apoyo comunitario prolongan el sufrimiento, y en los varones mayores se suma la menor red de confidentes [fuente no localizada]. En el nivel neurobiológico, el duelo se acompaña de alteraciones del sueño y se ha propuesto una implicación de los sistemas de recompensa y de apego en el duelo prolongado, con evidencia preliminar [fuente no localizada]. En el nivel fenomenológico, la presencia sentida de la persona fallecida y la ruptura del tiempo compartido son experiencias frecuentes que no deben confundirse con psicosis. La controversia teórica gira en torno a la frontera entre duelo normal, duelo prolongado y depresión, y a si la inclusión del duelo prolongado en las clasificaciones medicaliza una respuesta humana o permite tratar a quien lo necesita.",
+     "links": [
+      {
+       "ids": [
+        "apego",
+        "duelo_melanc"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "soledad",
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "opioide_endog",
+        "insom"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "sens_presencia",
+        "desincron_fuchs"
+       ],
+       "t": "nivel fenomenológico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Onrust SA & Cuijpers P (2006). Mood and anxiety disorders in widowhood: a systematic review. Aging Ment Health 10:327-334 · PMID 16798624",
+    "Erlangsen A et al. (2004). Loss of partner and suicide risks among oldest old: a population-based register study. Age Ageing 33:378-383 · PMID 15151913",
+    "Bonanno GA et al. (2002). Resilience to loss and chronic grief: a prospective study from preloss to 18-months postloss. J Pers Soc Psychol 83:1150-1164 · PMID 12416919"
+   ],
+   "relAdd": [
+    "ideac_suic",
+    "apego",
+    "desincron_fuchs"
+   ]
+  },
+  "durkheim": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El efecto contagio está cuantificado y tiene consecuencias prácticas para profesionales y medios. En el metaanálisis de Niederkrotenthaler (2020; 31 estudios, 20 en el análisis principal), el riesgo de suicidio aumentó un 13 % tras la difusión mediática de la muerte por suicidio de una persona famosa (razón de tasas 1,13; seguimiento mediano de 28 días) y un 30 % por el mismo método cuando este se detallaba (1,30), mientras que la información general sobre el suicidio no se asoció a cambios. Tras el estreno de la serie de ficción 13 Reasons Why en Estados Unidos se estimaron 66 suicidios en exceso en chicos (un 12,4 % más) y 37 en chicas (un 21,7 % más) de 10 a 19 años en tres meses, sin exceso en otras edades (Niederkrotenthaler 2019). En la práctica, tras una muerte por suicidio mediática conviene preguntar a pacientes en riesgo, sobre todo adolescentes, por su exposición y su identificación con el caso, intensificar el seguimiento y, en la comunicación pública, aplicar las recomendaciones de la OMS: no describir el método, no presentar el suicidio como solución e incluir recursos de ayuda y relatos de afrontamiento (efecto Papageno).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_adol"
+       ],
+       "t": "riesgo suicida en adolescentes"
+      },
+      {
+       "ids": [
+        "pantallas"
+       ],
+       "t": "medios digitales y redes"
+      },
+      {
+       "ids": [
+        "soledad"
+       ],
+       "t": "integración social"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los estudios de contagio son ecológicos y de series temporales: no identifican si las personas que murieron estuvieron expuestas a la noticia. La heterogeneidad fue grande y solo se explicó en parte por características de la persona famosa y del método de estudio, y los gráficos de embudo sugirieron cierto sesgo de publicación (Niederkrotenthaler 2020). Los propios autores del análisis de 13 Reasons Why piden cautela en la interpretación, porque la asociación temporal no excluye otros factores coincidentes (Niederkrotenthaler 2019). La tipología de Durkheim (1897) se basó en estadísticas oficiales del siglo XIX y ha sido criticada por la falacia ecológica y por la fiabilidad desigual de los registros de suicidio entre países y confesiones religiosas [fuente no localizada]. El efecto Papageno cuenta con menos estudios que el efecto Werther y su magnitud es incierta [fuente no localizada]. Falta evidencia sobre el contagio a través de las redes sociales y las plataformas de vídeo, que han cambiado el ecosistema mediático estudiado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "durkheim_hit"
+       ],
+       "t": "Durkheim en la historia"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El modelo durkheimiano explica tasas, no casos: la integración y la regulación sociales modifican la distribución del riesgo en la población, mientras que la clínica trabaja con personas en las que confluyen trastorno mental, sucesos vitales, consumo de alcohol y acceso a medios letales. Esta tensión entre el nivel social y el individual es la controversia clásica de la suicidología, y la mayor parte de los modelos actuales intenta integrarlos [fuente no localizada]. En el nivel psicológico, la teoría interpersonal reformula el suicidio egoísta como pertenencia frustrada y añade la carga percibida y la capacidad adquirida; el contagio se explica por aprendizaje social e identificación, mayor cuando la persona se identifica con quien murió. En el nivel social, el suicidio anómico se actualiza en los datos sobre crisis económicas y desempleo. En el nivel neurobiológico y genético, la vulnerabilidad individual (impulsividad, trastornos del estado de ánimo, heredabilidad de la conducta suicida) modula la respuesta a los factores sociales [fuente no localizada]. En el nivel fenomenológico, el sentido que la persona da a su sufrimiento y a la muerte condiciona el riesgo más allá de los factores enumerables.",
+     "links": [
+      {
+       "ids": [
+        "desempleo_suic"
+       ],
+       "t": "suicidio anómico y crisis"
+      },
+      {
+       "ids": [
+        "soledad"
+       ],
+       "t": "pertenencia frustrada"
+      },
+      {
+       "ids": [
+        "suic_mayor",
+        "alcohol"
+       ],
+       "t": "factores individuales"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "determinantes sociales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Niederkrotenthaler T et al. (2020). Association between suicide reporting in the media and suicide: systematic review and meta-analysis. BMJ 368:m575 · PMID 32188637",
+    "Niederkrotenthaler T et al. (2019). Association of increased youth suicides in the United States with the release of 13 Reasons Why. JAMA Psychiatry 76:933-940 · PMID 31141094",
+    "OMS y Asociación Internacional para la Prevención del Suicidio (2017). Preventing suicide: a resource for media professionals, update 2017. Ginebra: OMS"
+   ],
+   "relAdd": [
+    "suic_adol",
+    "pantallas",
+    "alcohol"
+   ]
+  },
+  "emoc_expr": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La emoción expresada es uno de los pocos factores sociales con una intervención eficaz de nivel de ensayo. En la revisión Cochrane de 53 ensayos aleatorizados, la intervención familiar en la comunidad redujo la frecuencia de recaídas (32 ensayos, 2981 personas; RR 0,55; NNT 7), las hospitalizaciones (RR 0,78; NNT 8) y mejoró el cumplimiento del tratamiento (RR 0,60; NNT 6), además del funcionamiento social y de los niveles de emoción expresada familiar, sin datos de efecto sobre el suicidio (Pharoah 2010). En la psicosis temprana, la intervención familiar aislada redujo las recaídas y los ingresos, mientras que la TCC redujo la gravedad sintomática con poco efecto sobre las recaídas (Bird 2010). Las consecuencias prácticas son ofrecer intervención familiar a toda persona con esquizofrenia que conviva o tenga contacto estrecho con su familia, en especial tras un primer episodio o una recaída; trabajar la crítica, la hostilidad y la sobreimplicación sin culpabilizar a las familias, que suelen sostener cuidados intensos con escaso apoyo, y extender la evaluación del clima familiar al trastorno bipolar, la depresión y los TCA, donde la emoción expresada también predice peor evolución (Hooley 2007).",
+     "links": [
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "intervención familiar y psicoeducación"
+      },
+      {
+       "ids": [
+        "esq",
+        "ipsei"
+       ],
+       "t": "esquizofrenia y primer episodio"
+      },
+      {
+       "ids": [
+        "tb1",
+        "ddm"
+       ],
+       "t": "trastorno bipolar y depresión"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La revisión Cochrane advierte de que los efectos pueden estar sobrestimados por la baja calidad metodológica de los ensayos (descripción insuficiente de la aleatorización, evaluación no ciega) y porque algunos estudios pequeños y negativos podrían no haberse identificado (Pharoah 2010). La asociación entre emoción expresada y recaída es en parte bidireccional: los síntomas más graves y la conducta del paciente o la paciente pueden aumentar la crítica familiar, y Hooley (2007) revisa la evidencia de un papel causal sin que pueda darse por cerrada. La Camberwell Family Interview es larga y exige formación, lo que limita su uso clínico; las versiones breves tienen una validez menos establecida [fuente no localizada]. El constructo se desarrolló en familias británicas, y la sobreimplicación o la expresión emocional pueden tener significados distintos en otras culturas; Hooley (2007) recoge los aspectos transculturales del constructo. Los beneficios a largo plazo de la intervención familiar en la psicosis temprana requieren más investigación (Bird 2010). La hipótesis de que la emoción expresada perturba circuitos neurales es especulativa.",
+     "links": [
+      {
+       "ids": [
+        "psiq_transcultural"
+       ],
+       "t": "variación cultural"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La emoción expresada es un modelo de diátesis-estrés en el que el estrés interpersonal cotidiano precipita la recaída en una persona vulnerable. En el nivel neurobiológico, Hooley (2007) plantea que la crítica familiar podría estresar al paciente o la paciente perturbando la actividad de los circuitos implicados en la psicopatología, y la sensibilización dopaminérgica ante el estrés descrita en la psicosis ofrece un mecanismo plausible no demostrado en este contexto concreto. En el nivel psicológico, la atribución que hace la familia (síntomas vistos como controlables por la persona) predice la crítica [fuente no localizada]. En el nivel social, la carga del cuidado, la falta de servicios y el estigma alimentan el clima familiar adverso. En el nivel genético, la agregación familiar implica que parte de la tensión puede compartir vulnerabilidad con el propio trastorno [fuente no localizada]. La controversia histórica es importante: el concepto nace en la psiquiatría social británica (Brown) y debe distinguirse de las teorías de la «madre esquizofrenógena» y de la antipsiquiatría de Laing, que atribuían a la familia el origen de la esquizofrenia; la emoción expresada se refiere al curso, no a la causa.",
+     "links": [
+      {
+       "ids": [
+        "dopa_hyp",
+        "hha_dep"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "estigma",
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "laing",
+        "laing_hit"
+       ],
+       "t": "antipsiquiatría y familia"
+      },
+      {
+       "ids": [
+        "hered_esq"
+       ],
+       "t": "nivel genético"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pharoah F et al. (2010). Family intervention for schizophrenia. Cochrane Database Syst Rev (12):CD000088 · PMID 21154340",
+    "Hooley JM (2007). Expressed emotion and relapse of psychopathology. Annu Rev Clin Psychol 3:329-352 · PMID 17716059",
+    "Bird V et al. (2010). Early intervention services, cognitive-behavioural therapy and family intervention in early psychosis: systematic review. Br J Psychiatry 197:350-356 · PMID 21037211"
+   ],
+   "relAdd": [
+    "ipsei",
+    "ddm",
+    "hered_esq"
+   ]
+  },
+  "estigma": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El estigma retrasa la consulta: en 144 estudios con 90 189 participantes, la mediana de la asociación entre estigma y búsqueda de ayuda fue d = −0,27, el estigma fue la cuarta barrera más citada y el temor a revelar el problema la forma más frecuente; el efecto disuasorio fue desproporcionado en minorías étnicas, jóvenes, varones, personal militar y profesionales sanitarios (Clement 2015). El estigma interiorizado se asocia de forma robusta a menos esperanza, autoestima y empoderamiento, a más gravedad sintomática y a peor adherencia al tratamiento (Livingston y Boyd 2010, 127 artículos). En la consulta conviene preguntar por la anticipación de discriminación y por el autoestigma, explicar el diagnóstico sin reducir a la persona a él, cuidar el lenguaje en la historia clínica y vigilar el eclipsamiento diagnóstico de los problemas físicos. En el plano colectivo, el contacto social y la educación reducen el estigma público (72 estudios, 38 364 participantes de 14 países): el contacto fue superior en adultos, la educación en adolescentes y el contacto presencial superó al grabado en vídeo (Corrigan 2012). Los profesionales sanitarios, que también son una población diana, deben incluirse en estos programas.",
+     "links": [
+      {
+       "ids": [
+        "crpd"
+       ],
+       "t": "perspectiva de derechos"
+      },
+      {
+       "ids": [
+        "racismo_sm",
+        "genero"
+       ],
+       "t": "estigmas que se superponen"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "determinantes sociales"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La revisión de Thornicroft (2016) concluye que el contacto social es la intervención más eficaz a corto plazo para mejorar conocimientos y actitudes, pero que la evidencia de beneficio a largo plazo es débil; el campo es heterogéneo, con pocos diseños sólidos y grandes, apenas hay investigación en países de renta baja y media y pocos estudios miden la conducta discriminatoria o la perspectiva de las personas usuarias. Cambiar actitudes no equivale a reducir la discriminación real en empleo, vivienda o atención sanitaria. En el estigma interiorizado faltan estudios longitudinales, de modo que no puede afirmarse que cause peor evolución en lugar de acompañarla (Livingston y Boyd 2010). La afirmación de que el estigma es un determinante independiente del pronóstico en todos los trastornos mentales no se ha demostrado con diseños causales [fuente no localizada]. Los resultados sobre búsqueda de ayuda proceden sobre todo de países de renta alta (Clement 2015 incluye estudios publicados entre 1980 y 2011) y pueden no reflejar el contexto español actual."
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Hatzenbuehler, Phelan y Link (2013) proponen considerar el estigma una causa fundamental de las desigualdades en salud por su ubicuidad y por alterar a la vez los recursos, las relaciones sociales y el afrontamiento, y describen vías psicológicas y estructurales; el marco enlaza con el estrés de minorías y con el racismo. En el nivel genético la relación es inversa: no se trata de mecanismos sino de discursos, y en 28 estudios experimentales las explicaciones biogenéticas redujeron la culpa atribuida (g = −0,324) pero aumentaron el pesimismo pronóstico (g = 0,263) y el estereotipo de peligrosidad (g = 0,198, quizá por sesgo de publicación), sin cambiar la distancia social (Kvaale 2013). Comunicar la heredabilidad sin determinismo es, por tanto, una tarea clínica. En el nivel psicológico, el autoestigma actúa a través de la autoestima y la esperanza; en el fenomenológico, Goffman describió la identidad deteriorada y la carrera moral del paciente o la paciente institucionalizados. La controversia con la teoría del etiquetado (Szasz, antipsiquiatría) se refiere a si el diagnóstico crea el estigma o solo lo nombra.",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "racismo_sm"
+       ],
+       "t": "estrés de minorías y racismo"
+      },
+      {
+       "ids": [
+        "hered_esq",
+        "hered_tdah"
+       ],
+       "t": "discursos genéticos"
+      },
+      {
+       "ids": [
+        "goffman_hit"
+       ],
+       "t": "identidad deteriorada"
+      },
+      {
+       "ids": [
+        "szasz",
+        "szasz_hit",
+        "basaglia"
+       ],
+       "t": "antipsiquiatría y desinstitucionalización"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Clement S et al. (2015). What is the impact of mental health-related stigma on help-seeking? A systematic review of quantitative and qualitative studies. Psychol Med 45:11-27 · PMID 24569086",
+    "Livingston JD & Boyd JE (2010). Correlates and consequences of internalized stigma for people living with mental illness: a systematic review and meta-analysis. Soc Sci Med 71:2150-2161 · PMID 21051128",
+    "Corrigan PW et al. (2012). Challenging the public stigma of mental illness: a meta-analysis of outcome studies. Psychiatr Serv 63:963-973 · PMID 23032675",
+    "Thornicroft G et al. (2016). Evidence for effective interventions to reduce mental-health-related stigma and discrimination. Lancet 387:1123-1132 · PMID 26410341",
+    "Hatzenbuehler ML, Phelan JC & Link BG (2013). Stigma as a fundamental cause of population health inequalities. Am J Public Health 103:813-821 · PMID 23488505",
+    "Kvaale EP, Haslam N & Gottdiener WH (2013). The 'side effects' of medicalization: a meta-analytic review of how biogenetic explanations affect stigma. Clin Psychol Rev 33:782-794 · PMID 23831861"
+   ],
+   "relAdd": [
+    "goffman_hit",
+    "genero"
+   ]
+  },
+  "estres_acultur": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Más aculturación no significa mejor salud mental. En las dos mayores encuestas representativas de Estados Unidos (NLAAS y NCS-R), las personas latinas nacidas en el país presentaban más trastornos psiquiátricos que las inmigrantes, la llamada «paradoja del inmigrante», pero el efecto variaba según el origen: se mantenía en las personas de origen mexicano para los trastornos del estado de ánimo, de ansiedad y por consumo, solo para los trastornos por consumo en las de origen cubano y otros grupos latinos, y no existía en las de origen puertorriqueño, con tasas comparables a las de la población blanca no latina (Alegría 2008). En la revisión de Lara (2005), la aculturación se asoció a peores resultados en consumo de sustancias, dieta y resultados perinatales, y a mejores en uso de servicios y salud autopercibida. En la práctica, la evaluación debe registrar la generación migratoria, la edad de llegada, el país de origen y el contexto de recepción en lugar de una etiqueta étnica global; vigilar el consumo de sustancias en segundas generaciones y en quienes migraron en la infancia, y no interpretar la conservación de la cultura de origen como una dificultad de adaptación, porque puede ser protectora.",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "psiq_transcultural"
+       ],
+       "t": "formulación cultural"
+      },
+      {
+       "ids": [
+        "alcohol",
+        "context"
+       ],
+       "t": "consumo de sustancias y contexto migratorio"
+      },
+      {
+       "ids": [
+        "interprete_clinico"
+       ],
+       "t": "intérprete profesional"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La literatura sobre aculturación y salud carece de amplitud y de rigor metodológico (Lara 2005): las medidas son a menudo indicadores indirectos (idioma preferido, años de residencia) que confunden la aculturación con el nivel socioeconómico, la discriminación o el estatus legal. Schwartz y colaboradores (2010) proponen un modelo multidimensional, con prácticas, valores e identificaciones de la cultura de origen y de la receptora, y reclaman definir operativamente el contexto de recepción, porque las escalas unidimensionales no permiten explicar la paradoja del inmigrante. Agrupar a poblaciones de distinto origen enmascara una variabilidad importante (Alegría 2008). La paradoja puede deberse en parte a la selección de quienes migran sanos y al retorno de quienes enferman [fuente no localizada]. Casi toda la evidencia procede de población latina en Estados Unidos; su extrapolación a la población migrante en España, con orígenes, lenguas y marcos legales distintos, no está demostrada [fuente no localizada]. Los diseños son mayoritariamente transversales.",
+     "links": [
+      {
+       "ids": [
+        "racismo_sm"
+       ],
+       "t": "discriminación como confusor y mediador"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La aculturación es un proceso psicológico y social: en el nivel psicológico se articula con la identidad, las estrategias de afrontamiento y la congruencia cultural; en el social, con la discriminación, la similitud cultural y el contexto de recepción, que Schwartz y colaboradores (2010) consideran determinantes del proceso. En el nivel clínico, el estrés de aculturación enlaza con el duelo migratorio y con la psicosis en poblaciones migrantes, donde la persistencia del riesgo en la segunda generación apunta a factores posmigratorios. En el nivel neurobiológico no hay marcadores propios del estrés de aculturación; se proponen las vías generales del estrés crónico [fuente no localizada]. En el nivel fenomenológico y cultural, la vivencia de estar entre dos mundos y los idiomas de malestar de la cultura de origen modelan la expresión del sufrimiento. La controversia teórica enfrenta el modelo bidimensional de Berry (descrito en esta ficha) con las críticas que lo consideran demasiado centrado en la elección individual y ciego al poder de la sociedad receptora, y con el modelo multidimensional de Schwartz (2010).",
+     "links": [
+      {
+       "ids": [
+        "duelo_migra_ulises",
+        "refugio_tept"
+       ],
+       "t": "duelo migratorio y refugio"
+      },
+      {
+       "ids": [
+        "context",
+        "derrota_soc"
+       ],
+       "t": "psicosis y migración"
+      },
+      {
+       "ids": [
+        "carga_alostatica"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "idiomas_malestar"
+       ],
+       "t": "nivel cultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Alegría M et al. (2008). Prevalence of mental illness in immigrant and non-immigrant U.S. Latino groups. Am J Psychiatry 165:359-369 · PMID 18245178",
+    "Lara M et al. (2005). Acculturation and Latino health in the United States: a review of the literature and its sociopolitical context. Annu Rev Public Health 26:367-397 · PMID 15760294",
+    "Schwartz SJ et al. (2010). Rethinking the concept of acculturation: implications for theory and research. Am Psychol 65:237-251 · PMID 20455618"
+   ],
+   "relAdd": [
+    "idiomas_malestar",
+    "alcohol",
+    "psiq_transcultural"
+   ]
+  },
+  "genero": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La evaluación debe incluir los estresores de minorías y el entorno, no la orientación ni la identidad como problema. El rechazo familiar es un predictor potente: en 224 jóvenes adultos LGB blancos y latinos, quienes relataban más rechazo familiar en la adolescencia tenían 8,4 veces más probabilidad de haber intentado suicidarse y 5,9 veces más de depresión elevada que quienes relataban poco o ningún rechazo (Ryan 2009); orientar y apoyar a las familias es, por tanto, una intervención clínica. El contexto también cuenta: en 31 852 estudiantes de Oregón, el 21,5 % del alumnado LGB había intentado suicidarse en el último año frente al 4,2 % del heterosexual, y el riesgo fue un 20 % mayor en los entornos poco protectores, con independencia de la depresión, el consumo, la victimización y el maltrato (Hatzenbuehler 2011). Las prácticas de conversión deben desaconsejarse de forma explícita: en 27 715 personas trans adultas, la exposición recordada a esfuerzos de conversión de la identidad de género se asoció a malestar psicológico grave (ORa 1,56) y a intentos de suicidio a lo largo de la vida (ORa 2,27; 4,15 si ocurrió antes de los 10 años) (Turban 2020). En España, la Ley 4/2023 prohíbe estas prácticas. La atención en chemsex y en salud sexual debe ser afirmativa y libre de juicio.",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm",
+        "wpath_soc8",
+        "ecosieg"
+       ],
+       "t": "práctica afirmativa y prácticas de conversión"
+      },
+      {
+       "ids": [
+        "suic_adol",
+        "acoso_esc"
+       ],
+       "t": "suicidio adolescente y acoso"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_atencion"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La mayor parte de la evidencia es transversal, de autoinforme y procedente de Estados Unidos, con muestras de conveniencia reclutadas en entornos comunitarios (Ryan 2009; Turban 2020), lo que impide establecer causalidad y expone al sesgo de recuerdo y de selección. Los estudios cuasiexperimentales aportan algo más: en un análisis de diferencias en diferencias con 762 678 estudiantes de secundaria, la aprobación estatal del matrimonio igualitario se asoció a una reducción de 0,6 puntos porcentuales en los intentos de suicidio (un 7 % relativo), concentrada en el alumnado de minorías sexuales (Raifman 2017). No todos los hallazgos sobre estigma estructural se han replicado: el acortamiento de unos 12 años en la esperanza de vida de las minorías sexuales en comunidades con alto prejuicio no se reprodujo con diez estrategias de imputación de datos ausentes (Regnerus 2017). Las personas bisexuales, trans, no binarias e intersexuales y las minorías étnicas dentro del colectivo están infrarrepresentadas, y casi no hay datos poblacionales españoles [fuente no localizada]. El modelo de estrés de minorías explica una parte de las diferencias, no toda, y la medición de la orientación y la identidad varía entre encuestas.",
+     "links": [
+      {
+       "ids": [
+        "incong_gen",
+        "dsd"
+       ],
+       "t": "personas trans e intersexuales"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Hatzenbuehler (2009) integró el estrés de minorías de Meyer (2003) con los procesos psicológicos generales: el estigma aumenta la exposición al estrés, que eleva la desregulación emocional, los problemas interpersonales y los procesos cognitivos de riesgo, y estos median la relación con la depresión, la ansiedad y el consumo de alcohol; el modelo orienta intervenciones transdiagnósticas afirmativas. En el nivel social, la causa se sitúa en el prejuicio, la discriminación y las leyes, y las políticas protectoras se asocian a mejores resultados (Raifman 2017); la perspectiva de derechos es, por tanto, también preventiva. En el nivel neurobiológico, la carga alostática es una vía propuesta con datos limitados. En el nivel genético, no hay base para atribuir la mayor prevalencia de trastornos a una vulnerabilidad biológica de las personas LGTBIQ+, y la historia de la patologización (de Krafft-Ebing a la retirada del DSM-II) muestra el riesgo de confundir desviación estadística o moral con enfermedad. En el nivel fenomenológico, la ocultación y la vigilancia constante de uno mismo describen una experiencia vivida que la clínica debe reconocer [fuente no localizada]. La controversia actual se centra en la atención a menores con incongruencia de género, que se trata en las fichas específicas.",
+     "links": [
+      {
+       "ids": [
+        "carga_alostatica"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "homosex_hist",
+        "krafft_ebing_hit",
+        "hooker_hit",
+        "hirschfeld_hit"
+       ],
+       "t": "historia de la patologización"
+      },
+      {
+       "ids": [
+        "estigma",
+        "racismo_sm",
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "dg_inf",
+        "incong_gen",
+        "wpath_soc8"
+       ],
+       "t": "incongruencia de género en menores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hatzenbuehler ML (2009). How does sexual minority stigma \"get under the skin\"? A psychological mediation framework. Psychol Bull 135:707-730 · PMID 19702379",
+    "Hatzenbuehler ML (2011). The social environment and suicide attempts in lesbian, gay, and bisexual youth. Pediatrics 127:896-903 · PMID 21502225",
+    "Ryan C et al. (2009). Family rejection as a predictor of negative health outcomes in white and Latino lesbian, gay, and bisexual young adults. Pediatrics 123:346-352 · PMID 19117902",
+    "Turban JL et al. (2020). Association between recalled exposure to gender identity conversion efforts and psychological distress and suicide attempts among transgender adults. JAMA Psychiatry 77:68-76 · PMID 31509158",
+    "Raifman J et al. (2017). Difference-in-differences analysis of the association between state same-sex marriage policies and adolescent suicide attempts. JAMA Pediatr 171:350-356 · PMID 28241285",
+    "Regnerus M (2017). Is structural stigma's effect on the mortality of sexual minorities robust? A failure to replicate the results of a published study. Soc Sci Med 188:157-165 · PMID 27889281",
+    "Ley 4/2023, de 28 de febrero (2023), para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI (BOE núm. 51, 01-03-2023)"
+   ],
+   "relAdd": [
+    "chemsex_atencion",
+    "estigma"
+   ]
+  },
+  "genero_sm": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La violencia de pareja es un determinante de género de primer orden que debe preguntarse de forma rutinaria y segura. En 41 estudios con medidas diagnósticas validadas, las mujeres con trastornos depresivos (OR 2,77), de ansiedad (OR 4,08) y TEPT (OR 7,34) tenían más probabilidad de haber sufrido violencia de pareja a lo largo de la vida adulta que las mujeres sin trastorno mental, y los estudios individuales mostraban un aumento en todas las categorías diagnósticas, incluidas las psicosis, también en hombres (Trevillion 2012). En 16 estudios longitudinales con 36 163 participantes, la violencia de pareja se asoció a la aparición de síntomas depresivos en mujeres (OR 1,97) y a intentos de suicidio incidentes, y los síntomas depresivos se asociaron a su vez a violencia de pareja posterior (OR 1,93) (Devries 2013). En la práctica, la evaluación de la depresión, la ansiedad o el TEPT en mujeres debe incluir la exploración de la violencia, la valoración del riesgo y la coordinación con los recursos especializados, sin presuponer que el malestar es «hormonal» ni ignorar la depresión de los varones, que puede expresarse con irritabilidad, consumo o conducta de riesgo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sara",
+        "riesgo_viol"
+       ],
+       "t": "valoración del riesgo de violencia de pareja"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ptsd"
+       ],
+       "t": "depresión y TEPT"
+      },
+      {
+       "ids": [
+        "tdah_mujeres"
+       ],
+       "t": "TDAH en mujeres"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La asociación entre violencia y trastorno mental es bidireccional y pocos estudios son longitudinales, por lo que la dirección causal no puede fijarse (Trevillion 2012); en los estudios longitudinales casi todos medían síntomas depresivos y no diagnósticos, y pocos controlaban factores de confusión distintos de los demográficos (Devries 2013). La información sobre varones es escasa y la de personas trans y no binarias, prácticamente inexistente en estas revisiones. Las encuestas epidemiológicas usan categorías binarias de sexo y confunden sexo biológico y género social, de modo que no permiten separar los factores hormonales de los psicosociales. La interpretación de la brecha depresiva según la igualdad de género es contradictoria entre estudios (véase el apartado siguiente), lo que obliga a la cautela con explicaciones de causa única. Las diferencias de presentación clínica entre sexos pueden reflejar en parte sesgos de los instrumentos diagnósticos, construidos sobre muestras predominantemente masculinas en el caso del TDAH o del TEA [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tea_mujeres",
+        "tdah_mujeres"
+       ],
+       "t": "sesgos diagnósticos por sexo"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La hipótesis de los roles de género predice que las diferencias se reduzcan a medida que los roles se igualan. En las encuestas de Salud Mental Mundial de la OMS (72 933 adultos de 15 países), las mujeres presentaron más trastornos de ansiedad y del estado de ánimo y los hombres más trastornos externalizantes y por consumo en todas las cohortes y países, pero la brecha de la depresión mayor se estrechó en las cohortes recientes en relación con la menor tradicionalidad de los roles femeninos (Seedat 2009). Este hallazgo contrasta con la mayor brecha diagnóstica en los países con más equidad de género del metaanálisis de Salk (2017), y la contradicción sigue sin resolverse. En el nivel neuroendocrino, la sensibilidad a las fluctuaciones de esteroides gonadales explica una parte de la depresión ligada a la pubertad, el posparto y la perimenopausia, sin justificar un determinismo hormonal. En el nivel psicológico, la rumiación y los estilos de afrontamiento socializados se proponen como mediadores. En el nivel social, la violencia, la carga de cuidados y la desigualdad económica actúan como causas modificables. En el nivel genético, la heredabilidad de la depresión es similar en ambos sexos según la literatura gemelar [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "neuroester_repro",
+        "perimenop",
+        "dpp",
+        "pmdd"
+       ],
+       "t": "nivel neuroendocrino"
+      },
+      {
+       "ids": [
+        "rumiacion_persev"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "determ_soc_sm",
+        "desig",
+        "genero"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "hered_dep"
+       ],
+       "t": "nivel genético"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Seedat S et al. (2009). Cross-national associations between gender and mental disorders in the World Health Organization World Mental Health Surveys. Arch Gen Psychiatry 66:785-795 · PMID 19581570",
+    "Trevillion K et al. (2012). Experiences of domestic violence and mental disorders: a systematic review and meta-analysis. PLoS One 7:e51740 · PMID 23300562",
+    "Devries KM et al. (2013). Intimate partner violence and incident depressive symptoms and suicide attempts: a systematic review of longitudinal studies. PLoS Med 10:e1001439 · PMID 23671407"
+   ],
+   "relAdd": [
+    "sara",
+    "ptsd",
+    "neuroester_repro",
+    "perimenop"
+   ]
+  },
+  "idiomas_malestar": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La presentación somática de la depresión es la norma en atención primaria, no una rareza cultural. En el estudio de la OMS sobre problemas psicológicos en atención general (25 916 pacientes cribados en 15 centros de 14 países; 5447 con evaluación estructurada), el 69 % de las personas con depresión mayor consultó solo por síntomas somáticos (entre el 45 % y el 95 % según el centro), la mitad refería múltiples síntomas somáticos sin explicación médica y el 11 % negaba los síntomas psicológicos de la depresión al preguntarle directamente; la presentación somática fue más frecuente donde no había una relación continuada con un médico o una médica de cabecera (OR 1,8) (Simon 1999). En consecuencia, ante quejas corporales persistentes hay que explorar activamente el ánimo, la anhedonia y la ideación suicida, en vez de esperar a que la persona los mencione, y favorecer la continuidad asistencial. La Entrevista de Formulación Cultural del DSM-5, con versiones para paciente e informante y 12 módulos complementarios, operativiza la recogida del modelo explicativo y del idioma de malestar (Lewis-Fernández 2014), y es útil también con personas autóctonas.",
+     "links": [
+      {
+       "ids": [
+        "cfi"
+       ],
+       "t": "Entrevista de Formulación Cultural"
+      },
+      {
+       "ids": [
+        "ddm",
+        "somat_sint"
+       ],
+       "t": "depresión y síntomas somáticos"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "ideación suicida"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La revisión de Kohrt (2014) sobre 45 estudios cuantitativos (18 782 participantes) que comparaban conceptos culturales de malestar con categorías psiquiátricas halló que solo el 27 % alcanzaba una calidad media y el resto baja o muy baja; solo el 29 % usó muestras representativas, el 53 % medidas validadas, el 44 % evaluó el funcionamiento y el 44 % controló la confusión. Los metaanálisis para ansiedad, depresión, TEPT y somatización mostraron una heterogeneidad muy alta (I² > 75 %); solo la asociación con el malestar psicológico general fue homogénea (OR 5,39), y los estudios de más calidad mostraron asociaciones más débiles. En el estudio de la OMS, la frecuencia de la somatización dependía de cómo se definía (Simon 1999), lo que limita las comparaciones entre culturas. La Formulación Cultural se ha utilizado de forma irregular, y su implantación exige formación y adaptación a cada servicio (Lewis-Fernández 2014). No está demostrado que el uso sistemático de la entrevista mejore los resultados clínicos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cult_bound",
+        "nervios_idioma"
+       ],
+       "t": "síndromes y conceptos culturales"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Los idiomas de malestar se sitúan en el nivel cultural y fenomenológico: el cuerpo, el lenguaje religioso o el «pensar demasiado» son formas de vivir y comunicar el sufrimiento antes que síntomas aislados. En el nivel psicológico, la alexitimia y los estilos de atención somática se han propuesto como mediadores individuales de la somatización, sin que expliquen las diferencias entre sistemas sanitarios. En el nivel social, los datos de Simon (1999) muestran que la organización asistencial (tener o no un médico personal) influye en la forma de presentación tanto como la cultura del paciente o la paciente. En el nivel neurobiológico, la experiencia corporal de la depresión (dolor, fatiga, alteraciones del sueño) es universal y no requiere suponer mecanismos distintos por grupos culturales. La controversia central, que Kohrt (2014) plantea en el contexto de la salud mental global, es si los conceptos culturales de malestar son variantes locales de trastornos universales o categorías con validez propia; la alta heterogeneidad hallada impide resolverla con los datos actuales, y ambos extremos (universalismo acrítico y relativismo) tienen riesgos clínicos.",
+     "links": [
+      {
+       "ids": [
+        "kleinman_hit",
+        "psiq_transcultural"
+       ],
+       "t": "psiquiatría transcultural"
+      },
+      {
+       "ids": [
+        "alexitim",
+        "fuchs_cuerpo"
+       ],
+       "t": "cuerpo y emoción"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "kufungisisa",
+        "ataque_nervios",
+        "susto"
+       ],
+       "t": "conceptos culturales concretos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Simon GE et al. (1999). An international study of the relation between somatic symptoms and depression. N Engl J Med 341:1329-1335 · PMID 10536124",
+    "Kohrt BA et al. (2014). Cultural concepts of distress and psychiatric disorders: literature review and research recommendations for global mental health epidemiology. Int J Epidemiol 43:365-406 · PMID 24366490",
+    "Lewis-Fernández R et al. (2014). Culture and psychiatric evaluation: operationalizing cultural formulation for DSM-5. Psychiatry 77:130-154 · PMID 24865197"
+   ],
+   "relAdd": [
+    "ddm",
+    "ideac_suic",
+    "fuchs_cuerpo"
+   ]
+  },
+  "pantallas": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Lo que importa es qué desplaza el uso y qué ocurre en él. En el estudio longitudinal Our Futures (12 866 jóvenes de Inglaterra de 13 a 16 años), el uso muy frecuente de redes sociales a los 13-14 años predijo malestar psicológico posterior en chicas (ORa 1,31) y chicos (ORa 1,67); en las chicas, el ciberacoso, el sueño insuficiente y la falta de actividad física mediaban el 58,2 % de la asociación con el malestar y el 80,1 % de la asociación con la satisfacción vital, mientras que en los chicos solo explicaban el 12,1 % (Viner 2019). En dos bases de datos británicas (84 011 participantes de 10 a 80 años), la relación negativa entre uso de redes y satisfacción vital fue máxima en la adolescencia temprana, y el seguimiento de 17 409 jóvenes identificó ventanas de sensibilidad distintas según el sexo: 11-13 y 19 años en mujeres, 14-15 y 19 en varones (Orben 2022). En la práctica, la entrevista debe explorar el ciberacoso, el sueño y la actividad física antes que contar horas, prestar especial atención a la adolescencia temprana y diseñar con la familia acuerdos que protejan el descanso nocturno, sin presentar las pantallas como causa única del malestar.",
+     "links": [
+      {
+       "ids": [
+        "acoso_esc"
+       ],
+       "t": "ciberacoso"
+      },
+      {
+       "ids": [
+        "sueno_inf",
+        "retraso_fase_adol",
+        "insom"
+       ],
+       "t": "sueño adolescente"
+      },
+      {
+       "ids": [
+        "dep_inf",
+        "ansi_adol"
+       ],
+       "t": "depresión y ansiedad en la adolescencia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La revisión de Odgers y Jensen (2020), que sintetizó revisiones y metaanálisis de 2014 a 2019, grandes cohortes prerregistradas y estudios intensivos de evaluación ecológica momentánea, concluye que la mayor parte de la investigación es correlacional, que muchos estudios se han hecho en adultos y no en adolescentes, que los resultados son una mezcla de asociaciones pequeñas positivas, negativas y nulas, a menudo contradictorias, y que los estudios más rigurosos encuentran asociaciones pequeñas que no permiten distinguir causa y efecto y probablemente carecen de relevancia clínica o práctica. La causalidad inversa está documentada: en Orben (2022), la disminución de la satisfacción vital predijo también un aumento posterior del uso de redes. El uso se mide casi siempre por estimaciones autoinformadas, poco fiables frente a los registros objetivos [fuente no localizada]. Las mediaciones de Viner (2019) proceden de una cohorte inglesa y de medidas de frecuencia, no de contenido. Los efectos medios pueden ocultar subgrupos vulnerables, y los ensayos de restricción o desconexión en adolescentes son escasos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "gaming",
+        "juegoP"
+       ],
+       "t": "trastorno por videojuegos y juego"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel neuroevolutivo, las ventanas de sensibilidad descritas por Orben (2022) coinciden en el tiempo con la pubertad y con la reorganización de la sensibilidad a la recompensa social en la adolescencia, una coincidencia que sus autores interpretan como posible base del efecto, no como prueba [fuente no localizada]. En el nivel cronobiológico, el desplazamiento del sueño y el retraso de fase adolescente son mecanismos plausibles y mensurables (Viner 2019). En el nivel psicológico, la comparación social, la búsqueda de validación y la hiperfocalización en personas con TDAH modulan el riesgo; en el social, el ciberacoso traslada al espacio digital la dinámica del acoso escolar, y la desigualdad de acceso y de supervisión condiciona la exposición. En el nivel fenomenológico, la vida adolescente se desarrolla a la vez en espacios físicos y digitales, lo que hace artificial la distinción entre tiempo «real» y tiempo de pantalla [fuente no localizada]. La controversia académica enfrenta a quienes ven en las redes una causa principal del aumento del malestar adolescente con quienes, como Odgers y Jensen (2020), consideran que la evidencia actual no la sostiene.",
+     "links": [
+      {
+       "ids": [
+        "retraso_fase_adol",
+        "priv_sueno"
+       ],
+       "t": "nivel cronobiológico"
+      },
+      {
+       "ids": [
+        "hiperfoco_tdah",
+        "tdah"
+       ],
+       "t": "TDAH"
+      },
+      {
+       "ids": [
+        "acoso_esc"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "red_saliencia"
+       ],
+       "t": "recompensa y saliencia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Viner RM et al. (2019). Roles of cyberbullying, sleep, and physical activity in mediating the effects of social media use on mental health and wellbeing among young people in England: a secondary analysis of longitudinal data. Lancet Child Adolesc Health 3:685-696 · PMID 31420213",
+    "Orben A et al. (2022). Windows of developmental sensitivity to social media. Nat Commun 13:1649 · PMID 35347142",
+    "Odgers CL & Jensen MR (2020). Annual Research Review: adolescent mental health in the digital age: facts, fears, and future directions. J Child Psychol Psychiatry 61:336-348 · PMID 31951670"
+   ],
+   "relAdd": [
+    "priv_sueno"
+   ]
+  },
+  "racismo_sm": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La discriminación debe explorarse como experiencia vital relevante también en la infancia y la adolescencia: en 121 estudios con 461 asociaciones examinadas, la discriminación racial autoinformada se asoció de forma significativa a peores resultados de salud mental (depresión, ansiedad) en el 76 % de los casos, y en más de la mitad de las asociaciones con autoestima y resiliencia, problemas de conducta y bienestar (Priest 2013). En la psicosis, la revisión de 24 estudios (cuatro prospectivos) indica que la discriminación percibida puede asociarse a un mayor riesgo de psicosis y a experiencias psicóticas positivas como la paranoia, con indicios de relación dosis-respuesta (Pearce 2019). Ello obliga a dos cautelas simultáneas: no interpretar como delirio una vivencia de amenaza que puede tener base real y, a la vez, no pasar por alto un trastorno psicótico por atribuirlo todo al contexto. La formulación cultural, la entrevista estructurada, el intérprete profesional y la revisión de las propias decisiones diagnósticas y coercitivas por origen étnico reducen el sesgo. Las organizaciones sanitarias forman parte del racismo estructural (Bailey 2017) y deben auditar sus prácticas.",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "interprete_clinico",
+        "competencia_cult"
+       ],
+       "t": "formulación cultural e intérprete"
+      },
+      {
+       "ids": [
+        "del_persec",
+        "esq"
+       ],
+       "t": "paranoia y psicosis"
+      },
+      {
+       "ids": [
+        "suic_adol",
+        "dep_inf"
+       ],
+       "t": "infancia y adolescencia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La mayoría de los estudios son transversales y de autoinforme: en la revisión de Priest (2013) predominaban los diseños transversales de Estados Unidos con jóvenes de 12 a 18 años, faltaban estudios longitudinales e instrumentos de exposición validados psicométricamente y la discriminación estaba mal conceptualizada y definida. En la psicosis solo cuatro de 24 estudios eran prospectivos y eran demasiado pocos para valorar la relación con la gravedad (Pearce 2019); la causalidad inversa (la suspicacia aumenta la percepción de discriminación) no puede descartarse con diseños transversales. El racismo estructural es difícil de medir a nivel individual y suele aproximarse con indicadores de segregación o de políticas, lo que introduce falacias ecológicas [fuente no localizada]. Casi toda la evidencia procede de Estados Unidos, el Reino Unido y Australia; en España faltan estudios sobre la población gitana, magrebí, latinoamericana o subsahariana [fuente no localizada]. La categoría «raza» es una construcción social y ningún dato apoya diferencias biológicas que expliquen las disparidades descritas.",
+     "links": [
+      {
+       "ids": [
+        "context"
+       ],
+       "t": "migración y etnicidad"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Bailey y colaboradoras (2017) definen el racismo estructural como la totalidad de formas en que una sociedad fomenta la discriminación mediante sistemas que se refuerzan mutuamente (vivienda, educación, empleo, ingresos, crédito, medios, atención sanitaria y justicia penal) y proponen actuar sobre ellos como vía hacia la equidad; en este marco, la causa se sitúa en el nivel social y político, no en el individuo. En el nivel psicológico, la discriminación actúa como estresor crónico que alimenta la hipervigilancia, la atribución de amenaza y la paranoia (Pearce 2019), en paralelo con el estrés de minorías descrito para las personas LGTBIQ+. En el nivel neurobiológico, la carga alostática y la sensibilización dopaminérgica de la hipótesis de la derrota social son vías propuestas sin demostración directa. En el nivel genético, las disparidades no se explican por ascendencia, y la escasa diversidad de las muestras genómicas limita además la validez de las puntuaciones poligénicas fuera de la ascendencia europea [fuente no localizada]. La controversia teórica enfrenta los modelos centrados en la discriminación interpersonal percibida con los que priorizan las estructuras, y el riesgo de culturalismo frente al de ignorar la cultura.",
+     "links": [
+      {
+       "ids": [
+        "desig",
+        "determ_soc_sm",
+        "estigma"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "estrés de minorías"
+      },
+      {
+       "ids": [
+        "derrota_soc",
+        "carga_alostatica",
+        "dopa_hyp"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "prs"
+       ],
+       "t": "nivel genético"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Priest N et al. (2013). A systematic review of studies examining the relationship between reported racism and health and wellbeing for children and young people. Soc Sci Med 95:115-127 · PMID 23312306",
+    "Pearce J et al. (2019). Perceived discrimination and psychosis: a systematic review of the literature. Soc Psychiatry Psychiatr Epidemiol 54:1023-1044 · PMID 31236631",
+    "Bailey ZD et al. (2017). Structural racism and health inequities in the USA: evidence and interventions. Lancet 389:1453-1463 · PMID 28402827"
+   ],
+   "relAdd": [
+    "del_persec",
+    "carga_alostatica",
+    "cfi"
+   ]
+  },
+  "soledad": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La calidad y la cantidad de las relaciones sociales deben evaluarse como un factor de riesgo más. En 148 estudios con 308 849 participantes, las relaciones sociales más fuertes se asociaron a un 50 % más de probabilidad de supervivencia (OR 1,50), un efecto constante por edad, sexo, estado de salud inicial, causa de muerte y duración del seguimiento, máximo con las medidas complejas de integración social (OR 1,91) y mínimo con el simple hecho de vivir solo (OR 1,19, no significativo) (Holt-Lunstad 2010): preguntar solo con quién vive la persona es insuficiente. La soledad percibida se asoció a más síntomas depresivos con independencia del apoyo social, el estrés percibido y la hostilidad en adultos de 50 a 67 años, con influencias recíprocas a lo largo de tres años (Cacioppo 2006). En la evaluación del riesgo suicida, la pertenencia frustrada es uno de los dos componentes del deseo suicida más peligroso según la teoría interpersonal (Van Orden 2010). En cuanto a la intervención, los ensayos aleatorizados indican que las estrategias más eficaces son las que abordan la cognición social desadaptativa, más que el mero aumento de oportunidades de contacto (Masi 2011).",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic",
+        "suic_mayor"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "ddm",
+        "dep_tardia"
+       ],
+       "t": "depresión"
+      },
+      {
+       "ids": [
+        "duelo_vejez"
+       ],
+       "t": "soledad en la vejez (cifras de mortalidad y demencia)"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La asociación con la mortalidad procede de estudios observacionales: el metaanálisis de Holt-Lunstad (2010) no puede excluir la confusión residual por salud previa, nivel socioeconómico o rasgos de personalidad, ni la causalidad inversa (la enfermedad reduce las relaciones). Aislamiento objetivo y soledad subjetiva son constructos distintos que se miden con instrumentos heterogéneos, lo que dificulta comparar estudios. En las intervenciones, los diseños pre-post de un solo grupo y los no aleatorizados ofrecieron efectos mayores que los aleatorizados (Masi 2011), señal de sobreestimación en la literatura menos rigurosa. Las influencias recíprocas entre soledad y depresión (Cacioppo 2006) se describieron en población de Chicago de mediana edad y avanzada, y no está demostrado que reducir la soledad prevenga episodios depresivos o conductas suicidas. La teoría interpersonal del suicidio se formuló de forma explícita para ser contrastada y falsada (Van Orden 2010); su apoyo empírico es parcial [fuente no localizada]. Los mecanismos biológicos propuestos (inflamación, eje del estrés) proceden en buena parte de estudios transversales y de modelos animales de aislamiento [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "inflam",
+        "hha_dep"
+       ],
+       "t": "vías biológicas propuestas"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel psicológico, el modelo cognitivo de la soledad (hipervigilancia ante la amenaza social, expectativas de rechazo) explica por qué las intervenciones sobre la cognición social son las más eficaces (Masi 2011), y la teoría interpersonal enlaza la pertenencia frustrada con el deseo suicida (Van Orden 2010). En el nivel neurobiológico, los sistemas opioide endógeno y oxitocinérgico se han propuesto como sustrato del vínculo social, con resultados de ensayos humanos que no confirman las expectativas en el caso de la oxitocina. En el nivel social, la soledad se distribuye de forma desigual y se concentra en personas mayores, minorías y personas con trastorno mental grave, y la sociología de Durkheim la conecta con la integración social y el suicidio egoísta. En el nivel clínico y fenomenológico, la retirada social puede ser un síntoma (abulia, apatía, hikikomori) y no una causa, por lo que la dirección de la relación debe valorarse caso a caso. La controversia teórica gira en torno a si la soledad es un factor causal independiente o un marcador de vulnerabilidad compartida con la depresión; los datos longitudinales de Cacioppo (2006) apoyan una relación recíproca.",
+     "links": [
+      {
+       "ids": [
+        "opioide_endog",
+        "oxitocina_social"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "durkheim",
+        "durkheim_hit"
+       ],
+       "t": "integración social y suicidio"
+      },
+      {
+       "ids": [
+        "aissoc",
+        "hikikomori"
+       ],
+       "t": "retirada social como síntoma"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "nivel social"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Holt-Lunstad J, Smith TB & Layton JB (2010). Social relationships and mortality risk: a meta-analytic review. PLoS Med 7:e1000316 · PMID 20668659",
+    "Cacioppo JT et al. (2006). Loneliness as a specific risk factor for depressive symptoms: cross-sectional and longitudinal analyses. Psychol Aging 21:140-151 · PMID 16594799",
+    "Masi CM et al. (2011). A meta-analysis of interventions to reduce loneliness. Pers Soc Psychol Rev 15:219-266 · PMID 20716644",
+    "Van Orden KA et al. (2010). The interpersonal theory of suicide. Psychol Rev 117:575-600 · PMID 20438238"
+   ],
+   "relAdd": [
+    "oxitocina_social",
+    "dep_tardia"
+   ]
+  },
+  "stres_vital": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "No todos los sucesos pesan igual. En 7322 gemelos adultos de un registro poblacional (98 592 personas-mes), los sucesos de pérdida y de humillación predijeron el inicio de episodios depresivos mayores, el peligro predijo la ansiedad generalizada y la combinación de humillación y pérdida (en especial la separación iniciada por la otra persona) fue más depresógena que la pérdida pura, incluida la muerte de un ser querido, sin diferencias entre sexos (Kendler 2003). Hammen (2005) considera establecida una asociación robusta y causal entre sucesos estresantes y episodios depresivos mayores gracias a mejores métodos de evaluación, y Monroe y Harkness (2005) recuerdan que el primer episodio se asocia con más fuerza al estrés mayor que las recurrencias. En la práctica, la entrevista debe fechar los sucesos de los meses previos al inicio, valorar su significado (devaluación en un rol central, atrapamiento) y no solo su número, explorar el estrés crónico y la red de apoyo, y orientar la intervención hacia las transiciones de rol, los conflictos interpersonales y el duelo, focos de la psicoterapia interpersonal. Un suceso precipitante no excluye el diagnóstico ni el tratamiento de un episodio depresivo mayor.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "ipt_dep"
+       ],
+       "t": "depresión mayor y psicoterapia interpersonal"
+      },
+      {
+       "ids": [
+        "duelo",
+        "duelo_vejez"
+       ],
+       "t": "pérdida y duelo"
+      },
+      {
+       "ids": [
+        "soledad"
+       ],
+       "t": "ausencia de confidente"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La asociación depende de cómo se mida el estrés: las listas autoaplicadas confunden sucesos independientes con sucesos que la propia persona contribuye a generar, y Hammen (2005) señala lagunas en la medida del estrés crónico, en las diferencias entre primer episodio y recurrencias, en las posibles diferencias de género en exposición y reactividad y en las pruebas longitudinales de los modelos de diátesis-estrés. Su propuesta de abandonar los modelos unidireccionales (efecto de las características personales sobre la aparición de los sucesos) implica que parte de la asociación es selección y no causa. La hipótesis del kindling muestra inconsistencias en la literatura (Monroe y Harkness 2005). La interacción gen-ambiente más citada no se ha sostenido: en muestras de 62 138 a 443 264 personas, con análisis prerregistrados, no hubo evidencia de efectos de los genes candidatos clásicos ni de su interacción con el abuso infantil o la adversidad socioeconómica (Border 2019). El estudio de Camberwell se hizo en mujeres de un único distrito londinense y los factores de vulnerabilidad descritos no se han replicado de forma homogénea en otros países y en varones [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "kindling"
+       ],
+       "t": "hipótesis del kindling"
+      },
+      {
+       "ids": [
+        "gen_candidatos",
+        "hered_dep"
+       ],
+       "t": "genes candidatos y heredabilidad"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, la heredabilidad de la depresión y la correlación gen-ambiente (las personas con mayor carga familiar se exponen a más sucesos) explican una parte de la asociación, sin que los genes candidatos aporten un mecanismo específico (Border 2019). En el nivel neurobiológico, la respuesta del eje hipotálamo-hipofisario-adrenal y la carga alostática son las vías propuestas, con evidencia sobre todo asociativa. En el nivel psicológico, el significado del suceso (humillación, atrapamiento) enlaza con los esquemas cognitivos de Beck y con la rumiación. En el nivel social, la distribución desigual de los sucesos y de los recursos para afrontarlos remite a los determinantes sociales y a la soledad. En el nivel fenomenológico, la depresión tras la pérdida puede entenderse como desincronización con el tiempo compartido (Fuchs). La controversia principal enfrenta el modelo de diátesis-estrés, el de la generación de estrés y la sensibilización progresiva del kindling (Hammen 2005; Monroe y Harkness 2005).",
+     "links": [
+      {
+       "ids": [
+        "hered_dep",
+        "prs"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "hha_dep",
+        "carga_alostatica",
+        "kindling"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "dep_cogn_beck",
+        "rumiacion_persev"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "determ_soc_sm",
+        "desig",
+        "soledad"
+       ],
+       "t": "nivel social"
+      },
+      {
+       "ids": [
+        "desincron_fuchs"
+       ],
+       "t": "nivel fenomenológico"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hammen C (2005). Stress and depression. Annu Rev Clin Psychol 1:293-319 · PMID 17716090",
+    "Monroe SM & Harkness KL (2005). Life stress, the \"kindling\" hypothesis, and the recurrence of depression: considerations from a life stress perspective. Psychol Rev 112:417-445 · PMID 15783292",
+    "Kendler KS et al. (2003). Life event dimensions of loss, humiliation, entrapment, and danger in the prediction of onsets of major depression and generalized anxiety. Arch Gen Psychiatry 60:789-796 · PMID 12912762",
+    "Border R et al. (2019). No support for historical candidate gene or candidate gene-by-interaction hypotheses for major depression across multiple large samples. Am J Psychiatry 176:376-387 · PMID 30845820"
+   ],
+   "relAdd": [
+    "kindling",
+    "ipt_dep",
+    "hha_dep"
+   ]
+  },
+  "stress": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La acumulación importa más que el tipo aislado. En el metaanálisis de Hughes (2017; 37 estudios, 253 719 adultos de población general), haber sufrido cuatro o más experiencias adversas infantiles frente a ninguna se asoció a todos los resultados de salud estudiados: de forma fuerte a mala salud mental, consumo problemático de alcohol y conductas sexuales de riesgo (OR de más de 3 a 6) y de forma máxima al consumo problemático de drogas y a la violencia interpersonal y autodirigida (OR superiores a 7). La adversidad también condiciona el curso: el maltrato infantil se asoció a depresión recurrente o persistente (OR 2,27; 16 estudios, 23 544 participantes) y a falta de respuesta o de remisión en los ensayos de tratamiento de la depresión (OR 1,43; 10 ensayos, 3098 participantes) (Nanni 2012). En consecuencia, la historia de adversidad debe explorarse en toda evaluación (con preguntas seguras y sin forzar el relato), registrarse como factor pronóstico, orientar hacia psicoterapias centradas en el trauma cuando hay secuelas, y motivar la prevención en la siguiente generación mediante apoyo a la crianza y protección infantil. La detección y la protección del menor se desarrollan en la ficha de maltrato infantil.",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "maltrato infantil (protección y LOPIVI)"
+      },
+      {
+       "ids": [
+        "ddm",
+        "ptsd",
+        "tlp"
+       ],
+       "t": "trastornos asociados"
+      },
+      {
+       "ids": [
+        "trauma"
+       ],
+       "t": "trauma psicológico"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La medida de la adversidad es el problema central. En 16 estudios con 25 471 participantes, la concordancia entre las medidas prospectivas y retrospectivas del maltrato infantil fue pobre (κ = 0,19; IC 95 % 0,14-0,24): ambos métodos identifican grupos de personas distintos (Baldwin 2019). En una cohorte de 1196 niños y niñas con maltrato documentado judicialmente, el riesgo de psicopatología asociado a la medida objetiva era mínimo cuando no había recuerdo subjetivo, mientras que el asociado al informe subjetivo era alto coincidiera o no con los registros (Danese y Widom 2020). La puntuación ACE suma adversidades con el mismo peso, y casi la mitad de los resultados del metaanálisis de Hughes mostraron una heterogeneidad superior al 75 %. La confusión genética (padres y madres transmiten riesgo genético y ambiente) y la selección no se eliminan en los estudios observacionales. La programación duradera del eje del estrés y los mecanismos epigenéticos en humanos son hipótesis con evidencia asociativa, y los modelos animales de separación materna no reproducen la complejidad del maltrato humano [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "fkbp5_epigen",
+        "epigenet"
+       ],
+       "t": "hipótesis epigenéticas"
+      },
+      {
+       "ids": [
+        "hha_tept"
+       ],
+       "t": "eje del estrés"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El nivel social (pobreza, violencia doméstica, acoso, institucionalización) determina la exposición; el psicológico, la huella en el apego, la regulación emocional y los esquemas de sí; el neurobiológico, la reactividad del eje hipotálamo-hipofisario-adrenal, la carga alostática y la inflamación, y el genético, la modulación del efecto por variantes como las de FKBP5 o MAOA, cuyas interacciones con la adversidad carecen de replicación sólida en muestras grandes en el caso de la depresión (Border 2019). El hallazgo de Danese y Widom (2020) da relevancia al nivel fenomenológico: es la experiencia vivida y recordada, no solo el hecho documentado, la que se asocia a la psicopatología, lo que abre dianas terapéuticas sobre la memoria y el significado del trauma. La controversia teórica enfrenta los modelos de acumulación de riesgo (puntuación ACE) con los de dimensiones (amenaza frente a privación) y los de periodos sensibles [fuente no localizada]. Ninguno justifica un determinismo: la mayoría de las personas expuestas no desarrolla un trastorno mental [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "fkbp5_epigen",
+        "maoa_gxe",
+        "gen_candidatos"
+       ],
+       "t": "nivel genético"
+      },
+      {
+       "ids": [
+        "hha_tept",
+        "carga_alostatica",
+        "inflam"
+       ],
+       "t": "nivel neurobiológico"
+      },
+      {
+       "ids": [
+        "apego",
+        "apego_trauma"
+       ],
+       "t": "nivel psicológico"
+      },
+      {
+       "ids": [
+        "maltrato_inf",
+        "acoso_esc",
+        "desig"
+       ],
+       "t": "nivel social"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hughes K et al. (2017). The effect of multiple adverse childhood experiences on health: a systematic review and meta-analysis. Lancet Public Health 2:e356-e366 · PMID 29253477",
+    "Nanni V, Uher R & Danese A (2012). Childhood maltreatment predicts unfavorable course of illness and treatment outcome in depression: a meta-analysis. Am J Psychiatry 169:141-151 · PMID 22420036",
+    "Baldwin JR et al. (2019). Agreement between prospective and retrospective measures of childhood maltreatment: a systematic review and meta-analysis. JAMA Psychiatry 76:584-593 · PMID 30892562",
+    "Danese A & Widom CS (2020). Objective and subjective experiences of child maltreatment and their relationships with psychopathology. Nat Hum Behav 4:811-818 · PMID 32424258",
+    "Border R et al. (2019). No support for historical candidate gene or candidate gene-by-interaction hypotheses for major depression across multiple large samples. Am J Psychiatry 176:376-387 · PMID 30845820"
+   ],
+   "relAdd": [
+    "trauma",
+    "apego",
+    "ddm"
+   ]
+  }
+ },
+ "add": []
+}

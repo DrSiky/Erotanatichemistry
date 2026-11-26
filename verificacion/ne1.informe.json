@@ -1,0 +1,140 @@
+{
+ "pmid_comprobados": 31,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "mianserina",
+   "gravedad": "menor",
+   "antes": "Antidepresivo de segunda línea en España, útil sobre todo",
+   "despues": "Opción de segunda línea, útil sobre todo",
+   "fuente": "CANMAT 2023 es una guía canadiense; el rango de línea no es «en España» (Lam 2024)"
+  },
+  {
+   "id": "mianserina",
+   "gravedad": "menor",
+   "antes": "ECG basal si hay factores de riesgo de QT",
+   "despues": "corregir la hipopotasemia y la hipomagnesemia y vigilar el QTc si hay factores de riesgo de QT (4.4)",
+   "fuente": "Ficha técnica de Lantanon 4.4 (no recomienda expresamente ECG basal); AEMPS-CIMA, ficha técnica y REST API consultadas el 21/11/2026"
+  },
+  {
+   "id": "mianserina",
+   "gravedad": "menor",
+   "antes": "En prevención de recurrencias solo hay un ensayo de 22 pacientes",
+   "despues": "En prevención de recurrencias, el ensayo localizado es pequeño (22 pacientes;",
+   "fuente": "Kishimoto 1994, PMID 8140906 (no consta que sea el único ensayo)"
+  },
+  {
+   "id": "mianserina",
+   "gravedad": "menor",
+   "antes": "13 de 13 con placebo; Kishimoto 1994)",
+   "despues": "13 de 13 con placebo a 18 meses; Kishimoto 1994)",
+   "fuente": "Kishimoto 1994, PMID 8140906"
+  },
+  {
+   "id": "mianserina",
+   "gravedad": "menor",
+   "antes": "no superó al control a los 6 meses (Nielsen 2024)",
+   "despues": "no superó al control a los 6 meses, con un 53 % de pérdidas en el seguimiento (Nielsen 2024)",
+   "fuente": "Nielsen 2024, PMID 39469959"
+  },
+  {
+   "id": "maprotilina",
+   "gravedad": "menor",
+   "antes": "y 75 mg (nº 55706, en 1981)",
+   "despues": "y 75 mg (nº 55706, en 1982)",
+   "fuente": "Ficha técnica de Ludiomil, apartado 9 (75 mg: 05.01.1982); AEMPS-CIMA, ficha técnica y REST API consultadas el 21/11/2026"
+  },
+  {
+   "id": "maprotilina",
+   "gravedad": "mayor",
+   "antes": "el aumento de peso y las convulsiones figuran como frecuentes, igual que los trastornos de la conducción con ensanchamiento del QRS (4.8)",
+   "despues": "el aumento del apetito y del peso figura como frecuente, las convulsiones como raras y los trastornos de la conducción con ensanchamiento del QRS, la taquicardia y la fibrilación ventriculares y la torsade de pointes como muy raros (4.8)",
+   "fuente": "Ficha técnica de Ludiomil 4.8, tabla de frecuencias; AEMPS-CIMA, ficha técnica y REST API consultadas el 21/11/2026"
+  },
+  {
+   "id": "maprotilina",
+   "gravedad": "mayor",
+   "antes": "Corazón: taquicardia y fibrilación ventricular y torsade de pointes, algunas mortales; no combinar con quinidina, propafenona ni tioridazina (4.4 y 4.5).",
+   "despues": "Corazón: taquicardia ventricular, fibrilación ventricular y torsade de pointes en muy pocos casos, algunos mortales; no combinar con quinidina, propafenona ni quinina, y la asociación con tioridazina puede causar arritmias graves (4.4 y 4.5).",
+   "fuente": "Ficha técnica de Ludiomil 4.4 y 4.5 (tioridazina: «puede provocar arritmias cardíacas graves. El ajuste de la dosis puede ser necesario», no contraindicación); AEMPS-CIMA, ficha técnica y REST API consultadas el 21/11/2026"
+  },
+  {
+   "id": "maprotilina",
+   "gravedad": "menor",
+   "antes": "Como antidepresivo cíclico, se le aplica la advertencia de NICE sobre la toxicidad de los tricíclicos en sobredosis y la necesidad de limitar la cantidad prescrita si hay riesgo de suicidio (1.4.23).",
+   "despues": "NICE formula para los tricíclicos la cautela de tener en cuenta la toxicidad en sobredosis y no iniciarlos de forma rutinaria, salvo la lofepramina, si hay riesgo significativo de suicidio (1.4.23); aplicarla a la maprotilina es una extrapolación razonable por su toxicidad en sobredosis similar a la de los tricíclicos (ficha técnica, 4.9).",
+   "fuente": "NICE NG222, recomendación 1.4.23 (texto oficial consultado); ficha técnica de Ludiomil 4.9"
+  },
+  {
+   "id": "doxepina",
+   "gravedad": "menor",
+   "antes": "Antidepresivo tricíclico de segunda línea en depresión mayor (CANMAT 2023; Lam 2024), con las precauciones de la clase: ECG previo si hay riesgo cardiovascular, cantidades limitadas si hay riesgo suicida y retirada gradual (ficha técnica de Sinequan, 4.2 y 4.4).",
+   "despues": "En depresión mayor se le aplica la segunda línea que CANMAT 2023 asigna a los tricíclicos como clase (Lam 2024), con ECG previo si hay factores de riesgo cardiovascular y retirada gradual (ficha técnica de Sinequan, 4.2 y 4.4) y valoración de la toxicidad en sobredosis cuando hay riesgo de suicidio (NICE NG222, 1.4.23).",
+   "fuente": "Ficha técnica de Sinequan 4.2 y 4.4 (no menciona cantidades limitadas); NICE NG222 1.4.23"
+  },
+  {
+   "id": "doxepina",
+   "gravedad": "mayor",
+   "antes": "La autorización por la EMA no se ha localizado en ningún procedimiento centralizado [fuente oficial no localizada].",
+   "despues": "La doxepina no figura en el listado de medicamentos evaluados por la EMA, por lo que no tiene autorización centralizada en la Unión Europea (EMA, 2026); Silenor es un medicamento autorizado solo por la FDA. Las posibles autorizaciones nacionales en otros Estados miembros no se han contrastado [fuente oficial no localizada].",
+   "fuente": "EMA, «Medicines output: medicines report» (xlsx generado el 21/11/2026), sin entradas para el principio activo doxepina; openFDA Drugs@FDA NDA 022036"
+  },
+  {
+   "id": "doxepina",
+   "gravedad": "mayor",
+   "antes": "; tampoco se ha localizado autorización centralizada de la EMA [fuente oficial no localizada].",
+   "despues": "; tampoco tiene autorización centralizada: no figura en el listado de medicamentos evaluados por la EMA (EMA, 2026).",
+   "fuente": "EMA, «Medicines output: medicines report» (xlsx generado el 21/11/2026), sin entradas para el principio activo doxepina"
+  },
+  {
+   "id": "doxepina",
+   "gravedad": "menor",
+   "antes": "En la depresión, la doxepina comparte con los demás tricíclicos la segunda línea de CANMAT 2023 (Lam 2024)",
+   "despues": "En la depresión se le aplica la segunda línea que CANMAT 2023 asigna a los tricíclicos como clase (Lam 2024)",
+   "fuente": "Lam 2024 (PMID 38711351): la segunda línea se asigna a la clase; no se ha comprobado mención nominal de la doxepina"
+  },
+  {
+   "id": "trimipramina",
+   "gravedad": "menor",
+   "antes": "las de su ficha técnica, que contraindica el alcohol.",
+   "despues": "las de su ficha técnica, que contraindica el alcohol y pide análisis periódicos de hemograma y de enzimas hepáticas durante el tratamiento (4.3 y 4.8).",
+   "fuente": "Ficha técnica de Surmontil 4.3 y 4.8; AEMPS-CIMA, ficha técnica y REST API consultadas el 21/11/2026"
+  },
+  {
+   "id": "dosulepina",
+   "gravedad": "mayor",
+   "antes": "; tampoco se ha localizado autorización centralizada de la EMA [fuente oficial no localizada].",
+   "despues": "; tampoco tiene autorización centralizada, ya que no figura en el listado de medicamentos evaluados por la EMA (EMA, 2026).",
+   "fuente": "EMA, «Medicines output: medicines report» (xlsx generado el 21/11/2026), sin entradas para el principio activo dosulepina/dotiepina"
+  },
+  {
+   "id": "dosulepina",
+   "gravedad": "mayor",
+   "antes": "; tampoco se ha localizado autorización por procedimiento centralizado de la EMA [fuente oficial no localizada].",
+   "despues": "; tampoco tiene autorización por procedimiento centralizado, pues no figura en el listado de medicamentos evaluados por la EMA (EMA, 2026).",
+   "fuente": "EMA, «Medicines output: medicines report» (xlsx generado el 21/11/2026), sin entradas para el principio activo dosulepina/dotiepina"
+  },
+  {
+   "id": "dosulepina",
+   "gravedad": "menor",
+   "antes": "Cochrane Database Syst Rev 7:CD004185",
+   "despues": "Cochrane Database Syst Rev 2013(7):CD004185",
+   "fuente": "PubMed PMID 24353997 (volumen 2013, número 7)"
+  },
+  {
+   "id": "doxepina, dosulepina",
+   "gravedad": "menor",
+   "antes": "(sin referencia a la EMA)",
+   "despues": "EMA (2026). Medicines output: medicines report, listado de medicamentos de uso humano evaluados por la Agencia Europea de Medicamentos, generado el 21 de noviembre de 2026; sin entradas para doxepina, dosulepina, maprotilina, mianserina ni trimipramina",
+   "fuente": "EMA, «Medicines output: medicines report» (xlsx generado el 21/11/2026), sin entradas para el principio activo"
+  }
+ ],
+ "sin_resolver": [
+  "Dosulepina: no se pudo contrastar en fuente oficial la recomendación británica (NICE CG90 previa / NHS England) de no iniciarla ni su situación de autorización en el Reino Unido (páginas de NHS England y BNF inaccesibles); se mantiene con [fuente no localizada].",
+  "Buckley y McManus 2002 (BMJ 325:1332-1333, PMID 12468481): sin resumen en PubMed; se mantiene como [no verificada] y la afirmación con [fuente no localizada para la cifra].",
+  "Grado de recomendación de los cinco fármacos en BAP, WFSBP y Maudsley Prescribing Guidelines no contrastado; se mantienen los marcadores [fuente no localizada].",
+  "CANMAT 2023: la posición de la mianserina como adición de segunda línea y la segunda línea de los tricíclicos como clase se toman de lo ya recogido en las fichas mirtazapina y tca_dep (Lam 2024); el resumen de PubMed no lo detalla y no se releyó el texto completo de la guía.",
+  "Maprotilina: CIMA registra la suspensión de ambas autorizaciones el 1 de junio de 2026 sin causa publicada; no se ha localizado nota informativa de la AEMPS que explique si es comercial o de seguridad.",
+  "Autorizaciones nacionales de doxepina, maprotilina, mianserina, trimipramina o dosulepina en otros Estados miembros de la UE no contrastadas (no hay entradas centralizadas en la EMA)."
+ ]
+}

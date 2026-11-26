@@ -1,0 +1,1689 @@
+{
+ "patch": {
+  "mayberg": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo ha orientado sobre todo la neuromodulación y la búsqueda de marcadores de selección de tratamiento, no la evaluación diagnóstica rutinaria. En la estimulación profunda del cíngulo subcalloso, la tractografía de 16 pacientes mostró que quienes respondían compartían vías bilaterales hacia la corteza frontal medial (fórceps menor y fascículo uncinado), el cíngulo rostral y dorsal y núcleos subcorticales, mientras que la coordenada anatómica del contacto no discriminaba (Riva-Posse 2014). Sin embargo, en el ensayo multicéntrico aleatorizado (90 pacientes; 60 con estimulación activa y 30 simulada) la respuesta a los 6 meses fue del 20 % frente al 17 %, sin diferencia significativa (Holtzheimer 2017), por lo que se trata de una intervención en investigación. En la depresión sin tratamiento previo, la conectividad funcional del cíngulo subcalloso en 122 pacientes del estudio PReDICT se asoció de forma opuesta a la remisión con terapia cognitivo-conductual o con antidepresivos (Dunlop 2017), y un trabajo previo con PET propuso el metabolismo de la ínsula anterior derecha con el mismo fin (McGrath 2013). Ninguno de estos marcadores se ha validado prospectivamente para decidir el tratamiento de una persona concreta.",
+     "links": [
+      {
+       "ids": [
+        "dbs",
+        "emt"
+       ],
+       "t": "estimulación profunda y EMT"
+      },
+      {
+       "ids": [
+        "drt",
+        "ddm"
+       ],
+       "t": "depresión resistente y trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "dep_cogn_beck"
+       ],
+       "t": "modelo cognitivo de Beck"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El modelo nació de estudios de neuroimagen funcional con muestras pequeñas y transversales, que muestran asociación y no causalidad: la hiperactividad subgenual puede ser marcador de estado, de rasgo o efecto del tratamiento. Los clasificadores de selección de tratamiento (McGrath 2013, Dunlop 2017) se derivaron en cohortes únicas de un mismo grupo académico estadounidense y sus tasas de clasificación (72-78 % para la remisión en Dunlop 2017) no se han replicado en muestras independientes. El análisis de Marek (2022), con unos 50.000 participantes, mostró que las asociaciones entre medidas cerebrales y fenotipos complejos son menores de lo que se creía y que con el tamaño muestral habitual (mediana en torno a 25 personas) los efectos se inflan y no se replican. El fracaso del ensayo controlado de estimulación profunda (Holtzheimer 2017) ilustra la distancia entre una serie abierta prometedora y la eficacia demostrada. Las muestras tienen escasa diversidad de ascendencia, país y nivel socioeconómico, y rara vez se analizan por sexo o identidad de género [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores y su validación"
+      },
+      {
+       "ids": [
+        "dmn"
+       ],
+       "t": "redes a gran escala"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El compartimento ventral (cíngulo subgenual, ínsula, hipotálamo) conecta el modelo con el eje hipotálamo-hipófisis-adrenal y con las funciones vegetativas de la melancolía; el dorsal, con la cognición y la atención. La propuesta de que la psicoterapia actúa «de arriba abajo» y los fármacos «de abajo arriba» ofrece un puente entre el nivel psicológico y el neurobiológico, coherente con el pluralismo explicativo y la causalidad bidireccional mente-cerebro que defiende Kendler (2005). Desde la fenomenología, la desincronización temporal descrita por Fuchs y el tiempo vivido de Minkowski describen la experiencia que el modelo intenta localizar, pero no se reducen a ella. Los determinantes sociales (adversidad, pobreza, discriminación) influyen sobre los mismos circuitos de estrés sin que el modelo los incorpore explícitamente; omitirlos favorece una lectura localizacionista que la evidencia no respalda.",
+     "links": [
+      {
+       "ids": [
+        "hha_dep",
+        "emel"
+       ],
+       "t": "eje del estrés y melancolía"
+      },
+      {
+       "ids": [
+        "rumiacion_persev",
+        "habenula_lat"
+       ],
+       "t": "rumiación y habénula"
+      },
+      {
+       "ids": [
+        "desincron_fuchs",
+        "minkowski"
+       ],
+       "t": "fenomenología del tiempo vivido"
+      },
+      {
+       "ids": [
+        "stress",
+        "determ_soc_sm"
+       ],
+       "t": "adversidad y determinantes sociales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Holtzheimer PE et al. (2017). Subcallosal cingulate deep brain stimulation for treatment-resistant depression: a multisite, randomised, sham-controlled trial. Lancet Psychiatry 4:839-849 · PMID 28988904",
+    "Riva-Posse P et al. (2014). Defining critical white matter pathways mediating successful subcallosal cingulate deep brain stimulation for treatment-resistant depression. Biol Psychiatry 76:963-969 · PMID 24832866",
+    "Dunlop BW et al. (2017). Functional connectivity of the subcallosal cingulate cortex and differential outcomes to treatment with cognitive-behavioral therapy or antidepressant medication for major depressive disorder. Am J Psychiatry 174:533-545 · PMID 28335622",
+    "McGrath CL et al. (2013). Toward a neuroimaging treatment selection biomarker for major depressive disorder. JAMA Psychiatry 70:821-829 · PMID 23760393",
+    "Marek S et al. (2022). Reproducible brain-wide association studies require thousands of individuals. Nature 603:654-660 · PMID 35296861",
+    "Kendler KS (2005). Toward a philosophical structure for psychiatry. Am J Psychiatry 162:433-440 · PMID 15741457"
+   ],
+   "relAdd": [
+    "drt",
+    "rumiacion_persev"
+   ]
+  },
+  "dmn": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La red por defecto no tiene hoy uso diagnóstico, pero ha influido en la orientación de tratamientos. En la depresión, las personas afectadas no reducían la actividad de la red al mirar o reevaluar imágenes negativas, a diferencia de los controles, lo que se ha vinculado con el procesamiento autorreferencial y la rumiación (Sheline 2009; Whitfield-Gabrieli y Ford 2012). La conectividad en reposo con el cíngulo subgenual se emplea para elegir la diana prefrontal de la estimulación magnética: en un ensayo doble ciego con 29 participantes con depresión resistente, un protocolo acelerado de estimulación theta guiado por conectividad redujo la puntuación MADRS un 52,5 % frente al 11,1 % con estimulación simulada a las cuatro semanas (Cole 2022); el tamaño muestral es pequeño y la durabilidad no está establecida. En la evaluación clínica, el modelo ayuda a explicar a quien consulta la rumiación como un hábito mental modificable, lo que enlaza con intervenciones psicológicas dirigidas al pensamiento repetitivo.",
+     "links": [
+      {
+       "ids": [
+        "emt"
+       ],
+       "t": "estimulación magnética transcraneal"
+      },
+      {
+       "ids": [
+        "rumiacion_persev"
+       ],
+       "t": "rumiación"
+      },
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los hallazgos son inconsistentes entre estudios, como ya recoge la ficha. La propuesta de cuatro «biotipos» de depresión definidos por conectividad en reposo (1.188 pacientes; Drysdale 2017) no se reprodujo al aplicar el mismo procedimiento a 187 participantes con depresión y ansiedad: ni las correlaciones canónicas ni los grupos resultaron estadísticamente significativos (Dinga 2019). Marek (2022) mostró que las asociaciones cerebro-conducta requieren miles de participantes para ser reproducibles. La conectividad funcional es sensible al movimiento, a la medicación, a la somnolencia y al procesamiento de los datos, y la red por defecto se altera de forma inespecífica en casi todos los trastornos estudiados (Whitfield-Gabrieli y Ford 2012). Los consorcios proceden sobre todo de China, Europa y Norteamérica, con escasa representación de otras poblaciones [fuente no localizada]. No está demostrado que modificar la red por defecto sea el mecanismo de acción de ningún tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "mayberg"
+       ],
+       "t": "modelo de Mayberg"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La red por defecto es un buen ejemplo de nivel intermedio: se correlaciona con procesos psicológicos (autorreferencia, memoria autobiográfica, pensamiento espontáneo) y, en la psicosis, se ha relacionado con una autorreferencia excesiva (Whitfield-Gabrieli y Ford 2012), lo que la acerca a las descripciones fenomenológicas de la hiperreflexividad y de las alteraciones de la ipseidad, aunque no las explica. En el modelo de triple red interactúa con la red de saliencia y la frontoparietal. Desde la teoría de redes de síntomas, los síntomas se sostienen por mecanismos biológicos, psicológicos y sociales interconectados (Borsboom 2017), y una red cerebral sería uno de esos mecanismos, no la causa del trastorno. La controversia principal es metodológica: si las diferencias de conectividad reflejan una disfunción primaria, un estado clínico o efectos de la medicación y la cronicidad (Yan 2019, en la ficha).",
+     "links": [
+      {
+       "ids": [
+        "red_saliencia",
+        "red_frontoparietal"
+       ],
+       "t": "triple red"
+      },
+      {
+       "ids": [
+        "hiperf",
+        "ipsei"
+       ],
+       "t": "hiperreflexividad e ipseidad"
+      },
+      {
+       "ids": [
+        "rumiacion_persev",
+        "dep_cogn_beck"
+       ],
+       "t": "rumiación y cognición depresiva"
+      },
+      {
+       "ids": [
+        "psilocib"
+       ],
+       "t": "psilocibina"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sheline YI et al. (2009). The default mode network and self-referential processes in depression. Proc Natl Acad Sci USA 106:1942-1947 · PMID 19171889",
+    "Whitfield-Gabrieli S & Ford JM (2012). Default mode network activity and connectivity in psychopathology. Annu Rev Clin Psychol 8:49-76 · PMID 22224834",
+    "Cole EJ et al. (2022). Stanford Neuromodulation Therapy (SNT): a double-blind randomized controlled trial. Am J Psychiatry 179:132-141 · PMID 34711062",
+    "Drysdale AT et al. (2017). Resting-state connectivity biomarkers define neurophysiological subtypes of depression. Nat Med 23:28-38 · PMID 27918562",
+    "Dinga R et al. (2019). Evaluating the evidence for biotypes of depression: methodological replication and extension of Drysdale et al. (2017). Neuroimage Clin 22:101796 · PMID 30935858",
+    "Marek S et al. (2022). Reproducible brain-wide association studies require thousands of individuals. Nature 603:654-660 · PMID 35296861",
+    "Borsboom D (2017). A network theory of mental disorders. World Psychiatry 16:5-13 · PMID 28127906"
+   ],
+   "relAdd": [
+    "emt",
+    "hiperf"
+   ]
+  },
+  "disconex": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La hipótesis no tiene aplicación diagnóstica directa, pero sustenta la idea de que la esquizofrenia es un trastorno de la integración y no de una región aislada, lo que tiene consecuencias para la evaluación: los déficits cognitivos, la desorganización del pensamiento y los síntomas de pasividad se entienden como fallos de coordinación entre sistemas. El estudio coordinado ENIGMA (1.963 personas con esquizofrenia y 2.359 controles de 29 estudios) halló una reducción de la anisotropía fraccional en 20 de 25 regiones de sustancia blanca, con un tamaño de efecto global de d = 0,42 y sin efecto de la edad de inicio ni de la dosis de antipsicótico (Kelly 2018). En la práctica, ello refuerza la importancia de la evaluación neuropsicológica y de la rehabilitación cognitiva, y el cuidado de factores que afectan a la sustancia blanca (consumo de sustancias, salud cardiovascular) [fuente no localizada]. No existe tratamiento dirigido específicamente a «reconectar».",
+     "links": [
+      {
+       "ids": [
+        "detcog"
+       ],
+       "t": "deterioro cognitivo en la psicosis"
+      },
+      {
+       "ids": [
+        "descarril",
+        "pasividad"
+       ],
+       "t": "desorganización y pasividad"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El término es amplio y difícil de refutar: casi cualquier hallazgo de conectividad aumentada o reducida puede leerse como «desconexión». El metaanálisis inicial de difusión agrupó 15 estudios con 407 pacientes y localizó reducciones en la sustancia blanca frontal y temporal profundas izquierdas (Ellison-Wright y Bullmore 2009), pero los estudios posteriores muestran un patrón difuso con efectos pequeños o moderados (Kelly 2018), compatible con causas inespecíficas como el tabaco, el índice de masa corporal, el sedentarismo o la cronicidad, que no siempre se controlan. Los estudios son transversales y no permiten saber si la alteración precede a la enfermedad. Las muestras de ENIGMA proceden mayoritariamente de países de renta alta [fuente no localizada], y la conectividad no distingue la esquizofrenia del trastorno bipolar u otros diagnósticos. Friston (2016) reformula la hipótesis en términos de modulación sináptica de la precisión, más difícil de medir directamente en humanos.",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "tb1",
+        "cbipesq"
+       ],
+       "t": "continuo bipolar-psicótico"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En su versión de 2016, la hipótesis se enlaza con la neurobiología teórica y la psiquiatría computacional: una modulación anómala de la ganancia sináptica (dependiente de NMDA, dopamina y otros neuromoduladores) alteraría la precisión de las predicciones y de los errores de predicción (Friston 2016). Así se articula con la hipótesis NMDA, con las interneuronas GABAérgicas y con el procesamiento predictivo, y desde ahí con la saliencia aberrante y la apofanía. En el nivel genético, la poda sináptica y la arquitectura poligénica ofrecen mecanismos de desarrollo plausibles. En el nivel fenomenológico, la Spaltung de Bleuler y las alteraciones de la ipseidad describen la experiencia de fragmentación que la hipótesis intenta explicar; la traducción entre ambos niveles sigue siendo analógica. La adversidad, la migración y la derrota social modulan el riesgo sin que la hipótesis las incorpore.",
+     "links": [
+      {
+       "ids": [
+        "nmda_psic",
+        "gaba_interneur"
+       ],
+       "t": "glutamato e interneuronas"
+      },
+      {
+       "ids": [
+        "pred_coding",
+        "saliencia",
+        "apofania"
+       ],
+       "t": "procesamiento predictivo y saliencia"
+      },
+      {
+       "ids": [
+        "c4_complemento",
+        "gwas_pgc"
+       ],
+       "t": "genética y poda sináptica"
+      },
+      {
+       "ids": [
+        "bleuler_4a",
+        "ipsei"
+       ],
+       "t": "Spaltung e ipseidad"
+      },
+      {
+       "ids": [
+        "derrota_soc"
+       ],
+       "t": "derrota social"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Friston K et al. (2016). The dysconnection hypothesis (2016). Schizophr Res 176:83-94 · PMID 27450778",
+    "Ellison-Wright I & Bullmore E (2009). Meta-analysis of diffusion tensor imaging studies in schizophrenia. Schizophr Res 108:3-10 · PMID 19128945",
+    "Kelly S et al. (2018). Widespread white matter microstructural differences in schizophrenia across 4322 individuals: results from the ENIGMA Schizophrenia DTI Working Group. Mol Psychiatry 23:1261-1269 · PMID 29038599"
+   ],
+   "relAdd": [
+    "detcog",
+    "saliencia"
+   ]
+  },
+  "dep_neurob": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La superación del modelo monoaminérgico cambia la forma de presentar la depresión a quien consulta: no como un «desequilibrio químico» simple, sino como un síndrome heterogéneo en el que intervienen estrés, inflamación, plasticidad, sueño y circunstancias vitales. Los antidepresivos siguen siendo eficaces: en el metaanálisis en red de 522 ensayos con 116.477 participantes, los 21 fármacos superaron al placebo, con odds ratio de respuesta entre 2,13 (amitriptilina) y 1,37 (reboxetina), y la certeza de la evidencia fue de moderada a muy baja (Cipriani 2018). La diversidad de mecanismos justifica una evaluación amplia que explore comorbilidad médica (marcadores inflamatorios, enfermedad tiroidea, síndrome metabólico), ritmos de sueño y factores sociales, y ofrecer opciones con mecanismos distintos (psicoterapia, ejercicio, neuromodulación, ketamina o esketamina en la depresión resistente). Ninguna prueba biológica orienta hoy la elección individual del tratamiento.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "drt"
+       ],
+       "t": "depresión mayor y resistente"
+      },
+      {
+       "ids": [
+        "esketamina",
+        "tec_dep",
+        "emt"
+       ],
+       "t": "tratamientos de mecanismo distinto"
+      },
+      {
+       "ids": [
+        "inmunometab_dep",
+        "inflam"
+       ],
+       "t": "depresión inmunometabólica"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El principal obstáculo es la heterogeneidad del fenotipo: en 3.703 pacientes del estudio STAR*D se hallaron 1.030 perfiles de síntomas distintos y el más frecuente solo lo presentaba el 1,8 % (Fried y Nesse 2015), lo que diluye cualquier marcador biológico común. Los hallazgos de inflamación, eje HHA, neuroplasticidad y circuitos son asociaciones de grupo con solapamiento entre pacientes y controles, a menudo transversales y confundidas por medicación, obesidad, tabaco, sueño y adversidad. Los estudios genéticos de gran tamaño se basan sobre todo en personas de ascendencia europea, y las puntuaciones poligénicas pierden precisión en otras ascendencias (Martin 2019). Que un fármaco eficaz actúe sobre un sistema no prueba que ese sistema sea la causa. No está demostrado que ninguno de los mecanismos propuestos defina subtipos con tratamiento diferencial.",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "prs"
+       ],
+       "t": "puntuaciones poligénicas"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La depresión es poligénica: el metaanálisis de 246.363 casos y 561.190 controles identificó 102 variantes independientes, con enriquecimiento en genes sinápticos y en regiones prefrontales (Howard 2019), lo que conecta el nivel genético con la plasticidad sináptica. Los sucesos vitales, la adversidad temprana y las formas de discriminación, como el estrés de minorías descrito por Meyer (2003), actúan a través del eje del estrés y de la inflamación, y la teoría de la transducción de señales sociales propone que la amenaza social activa la respuesta inflamatoria (Slavich e Irwin 2014). En el nivel psicológico, los modelos cognitivo y conductual describen mecanismos que interactúan con estos sistemas. La controversia central enfrenta el reduccionismo biológico con el pluralismo explicativo; Kendler (2005) defiende un «reduccionismo parcheado» con integración progresiva, más compatible con los datos que cualquier modelo unicausal.",
+     "links": [
+      {
+       "ids": [
+        "hered_dep",
+        "gwas_pgc"
+       ],
+       "t": "genética de la depresión"
+      },
+      {
+       "ids": [
+        "stres_vital",
+        "stress",
+        "genero"
+       ],
+       "t": "estrés vital, adversidad y estrés de minorías"
+      },
+      {
+       "ids": [
+        "dep_cogn_beck",
+        "lewinsohn"
+       ],
+       "t": "modelos psicológicos"
+      },
+      {
+       "ids": [
+        "hha_dep",
+        "inflam",
+        "bdnf_np",
+        "circad"
+       ],
+       "t": "mecanismos biológicos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "Fried EI & Nesse RM (2015). Depression is not a consistent syndrome: an investigation of unique symptom patterns in the STAR*D study. J Affect Disord 172:96-102 · PMID 25451401",
+    "Howard DM et al. (2019). Genome-wide meta-analysis of depression identifies 102 independent variants and highlights the importance of the prefrontal brain regions. Nat Neurosci 22:343-352 · PMID 30718901",
+    "Martin AR et al. (2019). Clinical use of current polygenic risk scores may exacerbate health disparities. Nat Genet 51:584-591 · PMID 30926966",
+    "Slavich GM & Irwin MR (2014). From stress to inflammation and major depressive disorder: a social signal transduction theory of depression. Psychol Bull 140:774-815 · PMID 24417575",
+    "Meyer IH (2003). Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: conceptual issues and research evidence. Psychol Bull 129:674-697 · PMID 12956539",
+    "Kendler KS (2005). Toward a philosophical structure for psychiatry. Am J Psychiatry 162:433-440 · PMID 15741457"
+   ],
+   "relAdd": [
+    "hha_dep",
+    "inflam",
+    "bdnf_np",
+    "circad",
+    "hered_dep"
+   ]
+  },
+  "nmda_psic": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La hipótesis tiene una consecuencia clínica inmediata: la encefalitis por anticuerpos contra el receptor NMDA puede debutar con síntomas psiquiátricos. En la serie de 100 pacientes de Dalmau (2008), con mediana de edad de 23 años y 91 mujeres, todos presentaron síntomas psiquiátricos o de memoria; el 59 % de quienes fueron estudiados tenía un tumor, sobre todo teratoma ovárico, y el tratamiento precoz del tumor se asoció con mejor evolución. Por ello, una psicosis de inicio agudo con crisis, discinesias, disminución del nivel de conciencia o inestabilidad autonómica obliga a descartar una causa autoinmune antes de diagnosticar esquizofrenia. En cambio, los intentos terapéuticos derivados de la hipótesis han fracasado: la bitopertina, inhibidor de GlyT1, no se separó del placebo en los síntomas negativos a las 24 semanas (605 y 594 pacientes; Bugarski-Kirola 2017) y solo uno de seis brazos activos mostró ventaja como coadyuvante (Bugarski-Kirola 2016). El consumo de ketamina y otros disociativos, presente en contextos de chemsex, puede producir síntomas psicóticos transitorios.",
+     "links": [
+      {
+       "ids": [
+        "nmda",
+        "psicosis_causa_conocida",
+        "sreat"
+       ],
+       "t": "psicosis autoinmune"
+      },
+      {
+       "ids": [
+        "ketamina_rec",
+        "chemsex_s"
+       ],
+       "t": "disociativos y chemsex"
+      },
+      {
+       "ids": [
+        "esqneg"
+       ],
+       "t": "síntomas negativos"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La evidencia procede sobre todo de modelos farmacológicos agudos en voluntarios sanos y de animales, que reproducen rasgos del cuadro pero no su curso ni su génesis en el desarrollo. La espectroscopia por resonancia magnética no mide directamente la función del receptor: el metaanálisis de 59 estudios (1.686 pacientes) halló elevación de metabolitos glutamatérgicos en varias regiones, con la Glx frontal medial elevada en personas de alto riesgo (g = 0,26) pero no en el primer episodio ni en la fase crónica (Merritt 2016), un patrón compatible con desinhibición pero también con efectos de medicación y fase. Los anticuerpos contra el receptor en suero, sin encefalitis, tienen significado incierto. Los fracasos de los moduladores del sitio de la glicina sugieren que la hipótesis no identifica una diana suficiente. Las muestras clínicas tienen escasa diversidad de ascendencia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec"
+       ],
+       "t": "modelo de la ketamina"
+      },
+      {
+       "ids": [
+        "hipocampo_psicosis"
+       ],
+       "t": "hipocampo y glutamato"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, el estudio de 76.755 casos y 243.649 controles identificó 287 loci, con enriquecimiento en neuronas excitadoras e inhibidoras y en genes con variantes raras disruptivas como GRIN2A, subunidad del receptor NMDA (Trubetskoy 2022). McCutcheon (2020) señala que la genética implica más directamente al glutamato que a la dopamina, cuya alteración sería en gran parte secundaria a otros factores; la hipofunción NMDA en interneuronas actuaría aguas arriba de la hiperdopaminergia estriatal. Así se articula con la hipótesis dopaminérgica, las interneuronas GABAérgicas, el hipocampo y la desconexión funcional. En el nivel fenomenológico y psicológico, la ketamina produce alteraciones de la percepción y del sentido de agencia que se han comparado con la psicosis incipiente, comparación que conviene no extremar: la experiencia aguda inducida no equivale a la vivencia esquizofrénica.",
+     "links": [
+      {
+       "ids": [
+        "gwas_pgc",
+        "c4_complemento"
+       ],
+       "t": "genética de la esquizofrenia"
+      },
+      {
+       "ids": [
+        "dopa_hyp",
+        "gaba_interneur",
+        "hipocampo_psicosis"
+       ],
+       "t": "dopamina, interneuronas e hipocampo"
+      },
+      {
+       "ids": [
+        "disconex",
+        "pred_coding"
+       ],
+       "t": "desconexión y procesamiento predictivo"
+      },
+      {
+       "ids": [
+        "pasividad"
+       ],
+       "t": "vivencias de pasividad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Dalmau J et al. (2008). Anti-NMDA-receptor encephalitis: case series and analysis of the effects of antibodies. Lancet Neurol 7:1091-1098 · PMID 18851928",
+    "Bugarski-Kirola D et al. (2017). Bitopertin in negative symptoms of schizophrenia: results from the phase III FlashLyte and DayLyte studies. Biol Psychiatry 82:8-16 · PMID 28117049",
+    "Bugarski-Kirola D et al. (2016). Efficacy and safety of adjunctive bitopertin versus placebo in patients with suboptimally controlled symptoms of schizophrenia treated with antipsychotics: results from three phase 3, randomised, double-blind, parallel-group, placebo-controlled, multicentre studies in the SearchLyte clinical trial programme. Lancet Psychiatry 3:1115-1128 · PMID 27816567",
+    "Merritt K et al. (2016). Nature of glutamate alterations in schizophrenia: a meta-analysis of proton magnetic resonance spectroscopy studies. JAMA Psychiatry 73:665-674 · PMID 27304221",
+    "Trubetskoy V et al. (2022). Mapping genomic loci implicates genes and synaptic biology in schizophrenia. Nature 604:502-508 · PMID 35396580",
+    "McCutcheon RA, Krystal JH & Howes OD (2020). Dopamine and glutamate in schizophrenia: biology, symptoms and treatment. World Psychiatry 19:15-33 · PMID 31922684"
+   ],
+   "relAdd": [
+    "nmda",
+    "psicosis_causa_conocida"
+   ]
+  },
+  "bdnf_np": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El modelo neurotrófico ofrece un marco para explicar por qué intervenciones muy distintas (antidepresivos, ejercicio, terapia electroconvulsiva, ketamina) mejoran la depresión, pero el BDNF sérico no sirve como prueba diagnóstica ni de seguimiento. En el metaanálisis de Brunoni (2008), con 20 estudios y 1.504 participantes, el BDNF sanguíneo aumentó tras el tratamiento antidepresivo (tamaño del efecto 0,62). El ejercicio aumenta el BDNF circulante: el efecto fue moderado tras una sesión (g = 0,46) y pequeño en reposo tras un programa regular (g = 0,27), en 29 estudios con 1.111 participantes, y menor en los estudios con más mujeres (Szuhany 2015). Estas cifras apoyan recomendar actividad física como parte del plan terapéutico, con la cautela de que el aumento periférico no demuestra el mecanismo cerebral. Un estudio preclínico propone que antidepresivos clásicos y de acción rápida se unen directamente al receptor TrkB (Casarotto 2021), hipótesis aún no comprobada en humanos.",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "ketamina",
+        "tec_dep"
+       ],
+       "t": "ketamina y TEC"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La concentración sérica refleja en gran parte el BDNF almacenado en plaquetas y depende del tipo de muestra, la hora, el ayuno, el ejercicio previo y el procesamiento, por lo que su relación con el BDNF cerebral es incierta [fuente no localizada]. El metaanálisis de 179 asociaciones (N = 9.484) confirmó niveles bajos en la depresión sin tratamiento (d = −0,71), pero el efecto se redujo a −0,47 al corregir el sesgo de publicación, los estudios más recientes y grandes mostraron diferencias menores y no hubo asociación consistente con la gravedad (Molendijk 2014). Gran parte del modelo procede de roedores sometidos a estrés crónico, con validez limitada. Los estudios humanos son transversales y no establecen si el descenso es causa, consecuencia o epifenómeno. El efecto menor en mujeres en los estudios de ejercicio (Szuhany 2015) ilustra la necesidad de analizar por sexo.",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "mod_anim_bip"
+       ],
+       "t": "validez de los modelos animales"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El BDNF conecta el estrés con la estructura: el hipercortisolismo y la inflamación se han asociado a menor señalización neurotrófica, y los antidepresivos, el litio y el ejercicio a su aumento, lo que lo sitúa en la intersección del eje HHA, la inflamación y la neuroplasticidad del hipocampo y la corteza prefrontal. Desde el nivel psicológico y social, la adversidad temprana, el aislamiento y la discriminación crónica actúan sobre los mismos sistemas de estrés, de modo que la plasticidad es también una vía por la que el entorno se inscribe en el cerebro, y no un destino biológico. La era de los genes candidatos estudió el polimorfismo Val66Met con resultados poco replicados. La principal controversia es si la neuroplasticidad es una vía final común de los tratamientos o una explicación demasiado amplia para ser refutable.",
+     "links": [
+      {
+       "ids": [
+        "hha_dep",
+        "inflam",
+        "carga_alostatica"
+       ],
+       "t": "estrés, inflamación y alostasis"
+      },
+      {
+       "ids": [
+        "monoamin",
+        "dep_neurob"
+       ],
+       "t": "más allá de las monoaminas"
+      },
+      {
+       "ids": [
+        "gen_candidatos"
+       ],
+       "t": "genes candidatos"
+      },
+      {
+       "ids": [
+        "stress",
+        "soledad"
+       ],
+       "t": "adversidad y aislamiento"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Brunoni AR, Lopes M & Fregni F (2008). A systematic review and meta-analysis of clinical studies on major depression and BDNF levels: implications for the role of neuroplasticity in depression. Int J Neuropsychopharmacol 11:1169-1180 · PMID 18752720",
+    "Szuhany KL, Bugatti M & Otto MW (2015). A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor. J Psychiatr Res 60:56-64 · PMID 25455510",
+    "Casarotto PC et al. (2021). Antidepressant drugs act by directly binding to TRKB neurotrophin receptors. Cell 184:1299-1313 · PMID 33606976",
+    "Molendijk ML et al. (2014). Serum BDNF concentrations as peripheral manifestations of depression: evidence from a systematic review and meta-analyses on 179 associations (N=9484). Mol Psychiatry 19:791-800 · PMID 23958957"
+   ],
+   "relAdd": [
+    "hha_dep",
+    "ketamina",
+    "dep_neurob"
+   ]
+  },
+  "dopa_na_tdah": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La hipótesis fundamenta la farmacoterapia, cuya eficacia a corto plazo está bien establecida. En el metaanálisis en red de 133 ensayos doble ciego, todos los fármacos superaron al placebo en la valoración clínica de niños y adolescentes (diferencia media estandarizada −1,02 para anfetaminas, −0,78 para metilfenidato y −0,56 para atomoxetina) y, en personas adultas, anfetaminas (−0,79), metilfenidato (−0,49), bupropión y atomoxetina, pero no modafinilo; los autores apoyan el metilfenidato en la infancia y las anfetaminas en la edad adulta como primera elección a corto plazo, y no hallaron datos suficientes a 26 y 52 semanas (Cortese 2018). En la evaluación, la hipótesis no aporta ninguna prueba dopaminérgica útil: el diagnóstico es clínico. Sí obliga a valorar el uso no prescrito de estimulantes, el riesgo cardiovascular y el contexto de consumo, incluido el chemsex, en el que la metanfetamina y otros estimulantes pueden confundirse con automedicación del TDAH.",
+     "links": [
+      {
+       "ids": [
+        "estim_adulto",
+        "no_estim_tdah"
+       ],
+       "t": "tratamiento estimulante y no estimulante"
+      },
+      {
+       "ids": [
+        "tdah_chemsex",
+        "tdah_sustancias"
+       ],
+       "t": "estimulantes, sustancias y chemsex"
+      },
+      {
+       "ids": [
+        "tdah",
+        "tdah_adulto"
+       ],
+       "t": "TDAH en la infancia y la edad adulta"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los estudios de neuroimagen molecular son pequeños y heterogéneos. Un metaanálisis de nueve estudios SPECT y PET (169 pacientes y 173 controles) halló una densidad estriatal de transportador de dopamina un 14 % mayor en el TDAH, pero más alta en quienes habían recibido estimulantes y más baja en quienes nunca los habían tomado, lo que sugiere que parte del hallazgo es una adaptación farmacológica y no la causa (Fusar-Poli 2012). Que los catecolaminérgicos sean eficaces no demuestra un déficit previo, ya que también mejoran la atención en personas sin TDAH [fuente no localizada]. Los ensayos son de corta duración, se centran en población infantil masculina y de ascendencia europea, y el infradiagnóstico en mujeres sesga las muestras. La hipótesis no explica la heterogeneidad clínica ni la disregulación emocional, y no está demostrado que exista un subtipo dopaminérgico identificable.",
+     "links": [
+      {
+       "ids": [
+        "tdah_mujeres"
+       ],
+       "t": "TDAH en mujeres"
+      },
+      {
+       "ids": [
+        "disreg_emoc_tdah"
+       ],
+       "t": "disregulación emocional"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, el metaanálisis de 38.691 personas con TDAH y 186.843 controles identificó 27 loci, con asociación del riesgo genético con neuronas dopaminérgicas del mesencéfalo y genes expresados en el desarrollo cerebral temprano; entre el 84 y el 98 % de las variantes influyentes serían compartidas con otros trastornos psiquiátricos (Demontis 2023), lo que desaconseja leer la hipótesis como específica del TDAH. En el nivel del neurodesarrollo, se articula con el retraso de la maduración cortical y con el modelo de doble vía, que añade la aversión a la demora y la recompensa. En el nivel psicológico y social, las funciones ejecutivas dependen del entorno (exigencias escolares y laborales, estrés, sueño, pobreza), y una lectura exclusivamente catecolaminérgica olvida los factores contextuales y el debate sobre el TDAH como diferencia del neurodesarrollo frente a trastorno.",
+     "links": [
+      {
+       "ids": [
+        "hered_tdah",
+        "pleiotropia"
+       ],
+       "t": "heredabilidad y pleiotropía"
+      },
+      {
+       "ids": [
+        "retraso_madur_tdah",
+        "func_ejec"
+       ],
+       "t": "maduración cortical y funciones ejecutivas"
+      },
+      {
+       "ids": [
+        "recompensa",
+        "estim_monoam"
+       ],
+       "t": "recompensa y transportadores"
+      },
+      {
+       "ids": [
+        "desig"
+       ],
+       "t": "pobreza y desigualdad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cortese S et al. (2018). Comparative efficacy and tolerability of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry 5:727-738 · PMID 30097390",
+    "Fusar-Poli P et al. (2012). Striatal dopamine transporter alterations in ADHD: pathophysiology or adaptation to psychostimulants? A meta-analysis. Am J Psychiatry 169:264-272 · PMID 22294258",
+    "Demontis D et al. (2023). Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. Nat Genet 55:198-208 · PMID 36702997"
+   ],
+   "relAdd": [
+    "recompensa",
+    "estim_monoam",
+    "pleiotropia"
+   ]
+  },
+  "dopa_hyp": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La hipótesis explica por qué todos los antipsicóticos eficaces bloquean receptores D2 y por qué los estimulantes pueden precipitar psicosis. En el metaanálisis en red de 32 antipsicóticos orales, las diferencias de eficacia entre fármacos fueron graduales y las de efectos adversos, más marcadas, con confianza en la evidencia a menudo baja o muy baja (Huhn 2019), lo que traslada la elección individual al perfil de tolerabilidad y a las preferencias de la persona, según las guías. La versión III permite comprender la resistencia: en un estudio con PET de [18F]-DOPA, los pacientes con respuesta a antipsicóticos tenían mayor capacidad de síntesis estriatal que quienes presentaban esquizofrenia resistente, cuyos valores no diferían de los controles (12 personas por grupo; Demjaha 2012), lo que apoya derivar pronto a clozapina en la resistencia en lugar de intensificar el bloqueo D2. En el uso de metanfetamina, cannabis potente o estimulantes, la evaluación del riesgo psicótico es obligada.",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "clozapina",
+        "cloz"
+       ],
+       "t": "bloqueo D2, clozapina y resistencia"
+      },
+      {
+       "ids": [
+        "metanf",
+        "cannabis_psic"
+       ],
+       "t": "psicosis por sustancias"
+      },
+      {
+       "ids": [
+        "xanomelina",
+        "muscarinico_esq"
+       ],
+       "t": "alternativas no dopaminérgicas"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "El aumento presináptico de la síntesis de dopamina es uno de los hallazgos más replicados, pero no es universal ni específico: falta en una parte de las personas con esquizofrenia resistente (Demjaha 2012) y se observa también en otras psicosis. La PET de dopamina es costosa, se ha realizado en muestras pequeñas de unos pocos centros y no tiene uso diagnóstico individual. La eficacia del bloqueo D2 no demuestra que el exceso de dopamina sea la causa primaria: McCutcheon (2020) subraya que pocas variantes genéticas de riesgo implican directamente al sistema dopaminérgico, por lo que su alteración sería en gran parte secundaria a otros factores. La hipótesis explica mal los síntomas negativos y cognitivos. Las muestras PET apenas analizan diferencias por sexo, ascendencia o experiencias de discriminación [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "esqneg",
+        "detcog"
+       ],
+       "t": "síntomas negativos y cognitivos"
+      },
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Kapur (2003) propuso que la hiperdopaminergia produce una atribución aberrante de saliencia a la experiencia, y que el delirio sería un esfuerzo cognitivo por darle sentido: un puente explícito entre el nivel cerebral, el fenomenológico (humor delirante, apofanía) y el psicológico. En el nivel social, la hipótesis de la derrota social propone que la exclusión crónica (migración, trauma infantil, urbanicidad) sensibiliza el sistema dopaminérgico mesolímbico; la evidencia epidemiológica es más firme para migración y trauma, y la sensibilización está demostrada en animales pero no suficientemente en humanos (Selten 2013). En 67 jóvenes, el abuso físico o sexual grave y la inestabilidad familiar en la infancia se asociaron a mayor síntesis de dopamina en el estriado asociativo (Egerton 2016). Así, la dopamina aparece como vía final que recoge influencias genéticas, glutamatérgicas y sociales, no como causa única.",
+     "links": [
+      {
+       "ids": [
+        "saliencia",
+        "apofania",
+        "wahnstimm"
+       ],
+       "t": "saliencia aberrante y humor delirante"
+      },
+      {
+       "ids": [
+        "derrota_soc",
+        "context",
+        "racismo_sm"
+       ],
+       "t": "derrota social, migración y racismo"
+      },
+      {
+       "ids": [
+        "stress",
+        "maltrato_inf"
+       ],
+       "t": "adversidad infantil"
+      },
+      {
+       "ids": [
+        "nmda_psic",
+        "gaba_interneur"
+       ],
+       "t": "glutamato e interneuronas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "Demjaha A et al. (2012). Dopamine synthesis capacity in patients with treatment-resistant schizophrenia. Am J Psychiatry 169:1203-1210 · PMID 23034655",
+    "McCutcheon RA, Krystal JH & Howes OD (2020). Dopamine and glutamate in schizophrenia: biology, symptoms and treatment. World Psychiatry 19:15-33 · PMID 31922684",
+    "Kapur S (2003). Psychosis as a state of aberrant salience: a framework linking biology, phenomenology, and pharmacology in schizophrenia. Am J Psychiatry 160:13-23 · PMID 12505794",
+    "Selten JP et al. (2013). The social defeat hypothesis of schizophrenia: an update. Schizophr Bull 39:1180-1186 · PMID 24062592",
+    "Egerton A et al. (2016). Adversity in childhood linked to elevated striatal dopamine function in adulthood. Schizophr Res 176:171-176 · PMID 27344984"
+   ],
+   "relAdd": [
+    "wahnstimm",
+    "maltrato_inf"
+   ]
+  },
+  "monoamin": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La caída de la hipótesis como explicación causal no invalida los tratamientos que generó: en el metaanálisis en red de 522 ensayos con 116.477 participantes, los 21 antidepresivos superaron al placebo, con diferencias entre ellos más modestas y certeza de evidencia de moderada a muy baja (Cipriani 2018). La diferencia con el placebo aumenta con la gravedad inicial y es pequeña en la depresión leve o moderada, sobre todo por una menor respuesta al placebo en los casos muy graves (Kirsch 2008), lo que apoya priorizar la psicoterapia y otras intervenciones en cuadros leves y reservar el fármaco para cuadros moderados o graves, en línea con las guías [fuente no localizada]. En la información a la persona conviene evitar la metáfora del «desequilibrio químico», que no tiene respaldo y puede reforzar el estigma o la desesperanza, y explicar en cambio lo que se sabe sobre la eficacia y los efectos adversos, incluida la discontinuación.",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "trastorno depresivo mayor"
+      },
+      {
+       "ids": [
+        "discont_ad",
+        "disf_sexual_psicof"
+       ],
+       "t": "discontinuación y disfunción sexual"
+      },
+      {
+       "ids": [
+        "ad_atip",
+        "tca_dep"
+       ],
+       "t": "antidepresivos"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La hipótesis nació de un razonamiento inverso (del efecto del fármaco a la causa de la enfermedad), que es lógicamente débil. La revisión paraguas de Moncrieff, ya recogida en la ficha, fue criticada por un amplio grupo de investigadores, que señalaron debilidades metodológicas, informe selectivo de datos y errores de interpretación de la depleción de triptófano y de la imagen molecular serotoninérgica, y sostuvieron que el sistema serotoninérgico sí está implicado en la depresión (Jauhar 2023). Ambas posiciones son compatibles con que no exista un «déficit de serotonina» simple y medible en cada persona. Los datos de eficacia proceden de ensayos breves, a menudo financiados por la industria, con poblaciones seleccionadas que excluyen comorbilidad y riesgo suicida, y los análisis de la FDA muestran el peso de los estudios no publicados (Kirsch 2008).",
+     "links": [
+      {
+       "ids": [
+        "dep_neurob"
+       ],
+       "t": "más allá de las monoaminas"
+      },
+      {
+       "ids": [
+        "schildkraut_hit"
+       ],
+       "t": "historia de la hipótesis"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El sistema monoaminérgico se entiende hoy como un modulador de procesos más amplios: los antidepresivos modificarían el sesgo emocional, la plasticidad y la respuesta al estrés, efectos que enlazan con la neuroplasticidad, el eje HHA, la inflamación y la vía de la quinurenina, que desvía el triptófano hacia metabolitos neuroactivos. En el nivel genético, la era de los genes candidatos (transportador de serotonina × estrés) dio resultados poco replicados y fue sustituida por enfoques poligénicos. En el nivel psicológico y social, la mejoría depende también de la alianza terapéutica, las expectativas y los cambios vitales, como muestra la magnitud de la respuesta al placebo (Kirsch 2008). La controversia entre Moncrieff y Jauhar ilustra un debate de fondo entre críticas del modelo biomédico y la neurofarmacología, que el pluralismo explicativo de Kendler (2005) permite reformular sin dicotomías.",
+     "links": [
+      {
+       "ids": [
+        "bdnf_np",
+        "hha_dep",
+        "via_quinurenina"
+       ],
+       "t": "plasticidad, estrés y quinurenina"
+      },
+      {
+       "ids": [
+        "gen_candidatos"
+       ],
+       "t": "genes candidatos"
+      },
+      {
+       "ids": [
+        "adher"
+       ],
+       "t": "alianza terapéutica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Cipriani A et al. (2018). Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. Lancet 391:1357-1366 · PMID 29477251",
+    "Kirsch I et al. (2008). Initial severity and antidepressant benefits: a meta-analysis of data submitted to the Food and Drug Administration. PLoS Med 5:e45 · PMID 18303940",
+    "Jauhar S et al. (2023). A leaky umbrella has little value: evidence clearly indicates the serotonin system is implicated in depression. Mol Psychiatry 28:3149-3152 · PMID 37322065",
+    "Kendler KS (2005). Toward a philosophical structure for psychiatry. Am J Psychiatry 162:433-440 · PMID 15741457"
+   ],
+   "relAdd": [
+    "gen_candidatos",
+    "discont_ad"
+   ]
+  },
+  "gaba_interneur": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "El déficit de interneuronas se propone como sustrato del deterioro cognitivo de la esquizofrenia, que predice el funcionamiento social y laboral mejor que los síntomas positivos [fuente no localizada] y no responde a los antipsicóticos. Ello justifica evaluar la cognición de forma sistemática y ofrecer rehabilitación cognitiva y apoyo al empleo. La respuesta auditiva de estado estable a 40 Hz, índice de la sincronía gamma, está reducida de forma robusta: en 20 estudios con 606 pacientes y 590 controles, el tamaño del efecto fue g = −0,58 para la potencia espectral y −0,46 para el acoplamiento de fase (Thuné 2016); los autores lo proponen como sonda de disfunción de circuitos, no como prueba diagnóstica. El uso de benzodiacepinas para potenciar la inhibición no corrige el déficit cognitivo y conlleva riesgo de dependencia, por lo que su empleo en la psicosis se limita a la agitación o la catatonia.",
+     "links": [
+      {
+       "ids": [
+        "detcog"
+       ],
+       "t": "deterioro cognitivo"
+      },
+      {
+       "ids": [
+        "lorazepam",
+        "clonazepam"
+       ],
+       "t": "benzodiacepinas"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los datos moleculares proceden de tejido post mortem, con muestras pequeñas: en 15 parejas de personas con esquizofrenia y controles, la menor expresión de ARNm de parvalbúmina se debía a menos expresión por neurona y no a pérdida de células, y solo el 55 % de las neuronas con parvalbúmina tenía GAD67 detectable (Hashimoto 2003). Estos estudios están confundidos por medicación antipsicótica, tabaco, causa de la muerte, intervalo post mortem y cronicidad, y no informan de la fase prodrómica. El electroencefalograma mide actividad de poblaciones neuronales y no puede atribuirse sin más a un tipo celular. Las reducciones gamma aparecen también en el trastorno bipolar y otros cuadros, por lo que no son específicas [fuente no localizada]. No hay tratamiento que, actuando sobre estas interneuronas, haya demostrado mejorar la cognición en ensayos amplios.",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "tb1"
+       ],
+       "t": "trastorno bipolar"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Las interneuronas de parvalbúmina generan las oscilaciones gamma que coordinan la actividad cortical, y su disfunción alteraría la sincronía beta y gamma que sostiene la memoria, la percepción y la conciencia (Uhlhaas y Singer 2010), lo que las sitúa entre la hipótesis NMDA, la desconexión funcional y el déficit cognitivo. En el nivel genético, el estudio de 287 loci mostró asociaciones concentradas en neuronas excitadoras e inhibidoras (Trubetskoy 2022). En el nivel del neurodesarrollo, su maduración tardía en la adolescencia ofrece una ventana de vulnerabilidad al estrés y al consumo de cannabis [fuente no localizada]. En el nivel fenomenológico, la pérdida de coherencia perceptiva y la desorganización se han relacionado con fallos de integración temporal, aunque la conexión es conceptual. Los moduladores GABAérgicos que actúan sobre neuroesteroides enlazan este sistema con la psicopatología perinatal.",
+     "links": [
+      {
+       "ids": [
+        "nmda_psic",
+        "disconex"
+       ],
+       "t": "NMDA y desconexión"
+      },
+      {
+       "ids": [
+        "gwas_pgc"
+       ],
+       "t": "genética"
+      },
+      {
+       "ids": [
+        "cannabis_psic"
+       ],
+       "t": "cannabis"
+      },
+      {
+       "ids": [
+        "neuroester_repro",
+        "zuranolona"
+       ],
+       "t": "neuroesteroides GABAérgicos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hashimoto T et al. (2003). Gene expression deficits in a subclass of GABA neurons in the prefrontal cortex of subjects with schizophrenia. J Neurosci 23:6315-6326 · PMID 12867516",
+    "Uhlhaas PJ & Singer W (2010). Abnormal neural oscillations and synchrony in schizophrenia. Nat Rev Neurosci 11:100-113 · PMID 20087360",
+    "Thuné H, Recasens M & Uhlhaas PJ (2016). The 40-Hz auditory steady-state response in patients with schizophrenia: a meta-analysis. JAMA Psychiatry 73:1145-1153 · PMID 27732692",
+    "Trubetskoy V et al. (2022). Mapping genomic loci implicates genes and synaptic biology in schizophrenia. Nature 604:502-508 · PMID 35396580"
+   ],
+   "relAdd": [
+    "disconex",
+    "cannabis_psic"
+   ]
+  },
+  "hha_dep": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La prueba de supresión con dexametasona no se usa para diagnosticar la depresión, como ya detalla la ficha, pero el eje HHA tiene implicaciones para la evaluación. En 49 mujeres, las que habían sufrido abuso sexual o físico en la infancia y tenían depresión actual mostraron una respuesta de ACTH al estrés psicosocial más de seis veces mayor que los controles (Heim 2000), lo que apoya explorar sistemáticamente la historia de trauma, que puede modificar el pronóstico y el plan terapéutico. La depresión psicótica, con mayor alteración del eje, requiere un abordaje específico. Ante síntomas depresivos con signos de hipercortisolismo (obesidad central, hipertensión, debilidad proximal, hiperglucemia) o uso de corticoides, debe descartarse una causa endocrina o farmacológica. No existe hoy un tratamiento antiglucocorticoide con eficacia establecida.",
+     "links": [
+      {
+       "ids": [
+        "dpsic",
+        "emel"
+       ],
+       "t": "depresión psicótica y melancólica"
+      },
+      {
+       "ids": [
+        "trauma",
+        "maltrato_inf"
+       ],
+       "t": "trauma y maltrato infantil"
+      },
+      {
+       "ids": [
+        "hha_tept"
+       ],
+       "t": "eje HHA en el TEPT"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Las diferencias de cortisol son pequeñas o moderadas y varían según el subtipo, la edad, el ingreso y el método de medida (sangre, saliva, orina, cabello), con gran solapamiento entre grupos. La reactividad al estrés depende del sexo: en el metaanálisis de Zorn (2017), las mujeres con depresión actual mostraron una respuesta de cortisol atenuada al estrés psicosocial y los hombres, aumentada; en la esquizofrenia la respuesta estaba atenuada en ambos sexos, con pocos estudios y sesgo de publicación. Este patrón invalida generalizar el hipercortisolismo y obliga a analizar por sexo y, cuando proceda, por identidad de género y tratamiento hormonal [fuente no localizada]. Los estudios son en su mayoría transversales; la dirección causal entre eje HHA, atrofia hipocampal y depresión sigue sin resolverse. Las muestras proceden casi siempre de países de renta alta.",
+     "links": [
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "género, sexo y salud mental"
+      },
+      {
+       "ids": [
+        "carga_alostatica"
+       ],
+       "t": "carga alostática"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "El eje HHA es el principal mediador biológico entre la experiencia social y la depresión: los sucesos vitales, la adversidad temprana, la pobreza y la discriminación son estresores crónicos que lo activan. El modelo de estrés de minorías describe cómo el prejuicio, la expectativa de rechazo, la ocultación y la homofobia interiorizada constituyen estresores adicionales para las personas LGB (Meyer 2003), y Hatzenbuehler (2009) propone que el estrés ligado al estigma eleva la disregulación emocional, los problemas interpersonales y los procesos cognitivos de riesgo, que median su efecto sobre la psicopatología. En el nivel genético y epigenético, FKBP5 modula la sensibilidad del receptor de glucocorticoides en interacción con el trauma. El concepto de carga alostática integra estas influencias sin determinismo: la respuesta al estrés es adaptativa y su desregulación depende del contexto, la duración y los recursos de afrontamiento.",
+     "links": [
+      {
+       "ids": [
+        "stres_vital",
+        "stress",
+        "desig"
+       ],
+       "t": "estrés vital, adversidad y pobreza"
+      },
+      {
+       "ids": [
+        "genero",
+        "lgb_afirm",
+        "racismo_sm"
+       ],
+       "t": "estrés de minorías y racismo"
+      },
+      {
+       "ids": [
+        "fkbp5_epigen"
+       ],
+       "t": "FKBP5 y epigenética"
+      },
+      {
+       "ids": [
+        "carga_alostatica",
+        "inflam"
+       ],
+       "t": "alostasis e inflamación"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Heim C et al. (2000). Pituitary-adrenal and autonomic responses to stress in women after sexual and physical abuse in childhood. JAMA 284:592-597 · PMID 10918705",
+    "Zorn JV et al. (2017). Cortisol stress reactivity across psychiatric disorders: a systematic review and meta-analysis. Psychoneuroendocrinology 77:25-36 · PMID 28012291",
+    "Meyer IH (2003). Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: conceptual issues and research evidence. Psychol Bull 129:674-697 · PMID 12956539",
+    "Hatzenbuehler ML (2009). How does sexual minority stigma «get under the skin»? A psychological mediation framework. Psychol Bull 135:707-730 · PMID 19702379"
+   ],
+   "relAdd": [
+    "trauma",
+    "genero",
+    "stres_vital"
+   ]
+  },
+  "inflam": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "En torno a una cuarta parte de las personas con depresión presenta inflamación de bajo grado: en 37 estudios con 13.541 pacientes, la prevalencia de PCR > 3 mg/L fue del 27 % y la de PCR > 1 mg/L, del 58 %, con una odds ratio de 1,46 frente a controles emparejados (Osimo 2019). Ello justifica valorar en la evaluación los factores inflamatorios modificables (obesidad, tabaco, sedentarismo, enfermedad autoinmune o infecciosa, sueño). En el ensayo con infliximab en depresión resistente, el efecto se limitó a quienes tenían marcadores inflamatorios elevados (Raison 2013). En el metaanálisis de 36 ensayos, los antiinflamatorios mejoraron los síntomas como coadyuvantes (diferencia media estandarizada −0,64; N = 597) y en monoterapia (−0,41; N = 8.825), con riesgo de sesgo alto en todos los estudios y una tendencia a más infecciones (Köhler-Forsberg 2019). No hay indicación aprobada de antiinflamatorios en la depresión; su uso se limita a ensayos clínicos.",
+     "links": [
+      {
+       "ids": [
+        "inmunometab_dep",
+        "cardio_dep"
+       ],
+       "t": "depresión inmunometabólica y cardiovascular"
+      },
+      {
+       "ids": [
+        "drt"
+       ],
+       "t": "depresión resistente"
+      },
+      {
+       "ids": [
+        "dep_induc",
+        "via_quinurenina"
+       ],
+       "t": "depresión inducida por interferón"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los marcadores circulantes son medidas indirectas de la inflamación cerebral y están confundidos por el índice de masa corporal, el tabaco, el alcohol, la medicación, el sueño, el ejercicio y la comorbilidad. Las alteraciones de citocinas son transdiagnósticas: IL-6, TNF-α, receptor soluble de IL-2 y antagonista del receptor de IL-1 están elevados en las fases agudas de la esquizofrenia, la manía y la depresión (Goldsmith 2016), por lo que no distinguen diagnósticos. Los metaanálisis de casos y controles agrupan estudios pequeños y heterogéneos; el de Dowlati (2010) halló elevación de TNF-α e IL-6 pero no de otras citocinas. Los ensayos con antiinflamatorios tienen alto riesgo de sesgo. La relación causal sigue sin probarse en la mayoría de pacientes, y el sesgo de muestra por ascendencia y nivel socioeconómico, que se asocia a la propia inflamación, rara vez se analiza [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "tb1",
+        "esq"
+       ],
+       "t": "trastorno bipolar y esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La inflamación es un punto de convergencia entre el entorno social y la biología. En la cohorte de Dunedin, el maltrato infantil se asoció a un riesgo 1,80 veces mayor de PCR elevada a los 32 años, independiente de otros riesgos tempranos, del estrés adulto y de la conducta de salud (Danese 2007), y el metaanálisis de Baumeister (2016) confirmó niveles algo mayores de PCR, IL-6 y TNF-α en adultos con trauma infantil. La teoría de la transducción de señales sociales propone que la amenaza y el rechazo social activan la respuesta inflamatoria, que a su vez produce anhedonia, fatiga y retraimiento (Slavich e Irwin 2014), lo que conecta con la anhedonia y el circuito de recompensa. En el nivel genético, el complejo C4 vincula inmunidad y poda sináptica. La perspectiva de derechos recuerda que la exposición a adversidad, pobreza y discriminación es desigual y evitable, y no una propiedad del individuo.",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf",
+        "stress",
+        "trauma"
+       ],
+       "t": "maltrato y adversidad"
+      },
+      {
+       "ids": [
+        "anhed",
+        "recompensa"
+       ],
+       "t": "anhedonia y recompensa"
+      },
+      {
+       "ids": [
+        "c4_complemento"
+       ],
+       "t": "complemento C4"
+      },
+      {
+       "ids": [
+        "determ_soc_sm",
+        "desig",
+        "racismo_sm"
+       ],
+       "t": "determinantes sociales y racismo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Osimo EF et al. (2019). Prevalence of low-grade inflammation in depression: a systematic review and meta-analysis of CRP levels. Psychol Med 49:1958-1970 · PMID 31258105",
+    "Köhler-Forsberg O et al. (2019). Efficacy of anti-inflammatory treatment on major depressive disorder or depressive symptoms: meta-analysis of clinical trials. Acta Psychiatr Scand 139:404-419 · PMID 30834514",
+    "Goldsmith DR, Rapaport MH & Miller BJ (2016). A meta-analysis of blood cytokine network alterations in psychiatric patients: comparisons between schizophrenia, bipolar disorder and depression. Mol Psychiatry 21:1696-1709 · PMID 26903267",
+    "Dowlati Y et al. (2010). A meta-analysis of cytokines in major depression. Biol Psychiatry 67:446-457 · PMID 20015486",
+    "Danese A et al. (2007). Childhood maltreatment predicts adult inflammation in a life-course study. Proc Natl Acad Sci USA 104:1319-1324 · PMID 17229839",
+    "Baumeister D et al. (2016). Childhood trauma and adulthood inflammation: a meta-analysis of peripheral C-reactive protein, interleukin-6 and tumour necrosis factor-α. Mol Psychiatry 21:642-649 · PMID 26033244",
+    "Slavich GM & Irwin MR (2014). From stress to inflammation and major depressive disorder: a social signal transduction theory of depression. Psychol Bull 140:774-815 · PMID 24417575"
+   ],
+   "relAdd": [
+    "maltrato_inf",
+    "anhed",
+    "drt"
+   ]
+  },
+  "autoinm_infec": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Los registros daneses cuantifican la asociación que la ficha describe: una enfermedad autoinmune previa elevó el riesgo de esquizofrenia un 29 % (razón de tasas de incidencia 1,29) y una hospitalización por infección, un 60 % (1,60); combinadas, 2,25, y con tres o más infecciones y una enfermedad autoinmune, 3,40 (Benros 2011). Para los trastornos del ánimo, las cifras fueron 1,45, 1,62 y 2,35, y el 32 % de las personas diagnosticadas había tenido antes un ingreso por infección (Benros 2013). En 1.098.930 menores, las infecciones hospitalizadas se asociaron a un riesgo 1,84 veces mayor de cualquier trastorno mental, con relación dosis-respuesta y mayor riesgo cuanto más próxima la infección (Köhler-Forsberg 2019). En la práctica, la historia de enfermedad autoinmune o de infecciones graves debe recogerse en la anamnesis, y ante una psicosis atípica (inicio agudo, signos neurológicos, mala tolerancia a antipsicóticos) procede el estudio de una psicosis autoinmune según criterios de consenso (Pollak 2020).",
+     "links": [
+      {
+       "ids": [
+        "nmda",
+        "sreat",
+        "psicosis_causa_conocida"
+       ],
+       "t": "psicosis autoinmune y encefalitis"
+      },
+      {
+       "ids": [
+        "esq",
+        "ddm"
+       ],
+       "t": "esquizofrenia y depresión"
+      },
+      {
+       "ids": [
+        "covid_psiq"
+       ],
+       "t": "secuelas psiquiátricas de la COVID-19"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Son estudios observacionales de registro, que no pueden demostrar causalidad, como reconocen sus autores (Köhler-Forsberg 2019). La asociación puede explicarse en parte por factores comunes (pobreza, tabaco, consumo de sustancias, institucionalización, vulnerabilidad genética compartida), por causalidad inversa (el trastorno incipiente aumenta la exposición a infecciones o el contacto con el sistema sanitario) o por sesgo de detección. El mayor riesgo asociado al uso de antibióticos plantea la posible intervención de la microbiota, pero también la confusión por indicación. Los datos proceden de un país nórdico con sistema sanitario universal y población mayoritariamente de ascendencia europea, y su generalización a otros contextos es incierta. El consenso sobre psicosis autoinmune propone categorías de posible, probable y definida (Pollak 2020), pero su prevalencia real en la psicosis no autoinmune típica no está establecida.",
+     "links": [
+      {
+       "ids": [
+        "microbiota"
+       ],
+       "t": "microbiota"
+      },
+      {
+       "ids": [
+        "desig"
+       ],
+       "t": "pobreza y desigualdad"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Estos hallazgos sostienen la hipótesis inmunitaria en subgrupos y se articulan con la inflamación sistémica, la vía de la quinurenina, la infección prenatal y el complemento C4. La interleucina 6 elevada a los 9 años se asoció con depresión (odds ratio ajustada 1,55) y experiencias psicóticas (1,81) a los 18 años en la cohorte ALSPAC (Khandaker 2014), lo que conecta la inmunidad infantil con el riesgo posterior. En el nivel social, la exposición a infecciones y la carga de enfermedad autoinmune están distribuidas de forma desigual según condiciones de vida y acceso a la salud. Desde una perspectiva fenomenológica y clínica, la encefalitis anti-NMDA recuerda la distinción jaspersiana entre proceso orgánico y desarrollo comprensible, y la importancia de no atribuir a un trastorno primario lo que puede tener una causa médica tratable.",
+     "links": [
+      {
+       "ids": [
+        "inflam",
+        "via_quinurenina"
+       ],
+       "t": "inflamación y quinurenina"
+      },
+      {
+       "ids": [
+        "infec_prenat",
+        "c4_complemento"
+       ],
+       "t": "infección prenatal y complemento"
+      },
+      {
+       "ids": [
+        "proceso_desarrollo"
+       ],
+       "t": "proceso y desarrollo (Jaspers)"
+      },
+      {
+       "ids": [
+        "determ_soc_sm"
+       ],
+       "t": "determinantes sociales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Köhler-Forsberg O et al. (2019). A nationwide study in Denmark of the association between treated infections and the subsequent risk of treated mental disorders in children and adolescents. JAMA Psychiatry 76:271-279 · PMID 30516814",
+    "Pollak TA et al. (2020). Autoimmune psychosis: an international consensus on an approach to the diagnosis and management of psychosis of suspected autoimmune origin. Lancet Psychiatry 7:93-108 · PMID 31669058",
+    "Khandaker GM et al. (2014). Association of serum interleukin 6 and C-reactive protein in childhood with depression and psychosis in young adult life: a population-based longitudinal study. JAMA Psychiatry 71:1121-1128 · PMID 25133871"
+   ],
+   "relAdd": [
+    "psicosis_causa_conocida",
+    "covid_psiq",
+    "microbiota"
+   ]
+  },
+  "microbiota": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Por ahora el eje microbiota-intestino-cerebro no modifica la evaluación ni el tratamiento estándar de los trastornos mentales. En el metaanálisis de 34 ensayos controlados, los prebióticos no difirieron del placebo, y los probióticos tuvieron un efecto pequeño en la depresión (d = −0,24) y en la ansiedad (d = −0,10), mayor en muestras clínicas (−0,45) y, en un análisis preliminar limitado a muestras psiquiátricas, −0,73 (Liu 2019); el escaso número de ensayos con pacientes impide recomendarlos. La utilidad clínica actual es indirecta: la dieta, el ejercicio, el sueño, el consumo de alcohol y el uso de antibióticos afectan a la microbiota y a la salud mental, y forman parte de una evaluación integral. El trasplante de microbiota fecal no tiene indicación psiquiátrica fuera de investigación. Conviene advertir a quien consulta sobre productos comercializados como «psicobióticos» sin evidencia suficiente.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tag"
+       ],
+       "t": "depresión y ansiedad"
+      },
+      {
+       "ids": [
+        "sii_eje"
+       ],
+       "t": "síndrome del intestino irritable"
+      },
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "depresión inmunometabólica"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La evidencia causal procede sobre todo de animales: la transferencia de microbiota de 34 personas con depresión a ratas con microbiota depleccionada indujo anhedonia y conductas de tipo ansioso (Kelly 2016), y en ratones libres de gérmenes la colonización con microbiota de pacientes produjo conductas de tipo depresivo (Zheng 2016). Estos modelos tienen validez limitada: los animales libres de gérmenes presentan un desarrollo anómalo y las conductas no equivalen a la depresión humana. En humanos, las asociaciones están muy confundidas por la dieta, el índice de masa corporal, los fármacos (antidepresivos, antipsicóticos, inhibidores de la bomba de protones), el alcohol y el tránsito intestinal; Valles-Colomer (2019) subraya la importancia de corregir los factores de confusión. La composición microbiana varía según el país, la dieta y la ascendencia, lo que limita la replicación entre poblaciones.",
+     "links": [
+      {
+       "ids": [
+        "mod_anim_bip"
+       ],
+       "t": "validez de los modelos animales"
+      },
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En la cohorte de Rotterdam (1.054 personas), con validación en la cohorte multiétnica HELIUS de Ámsterdam (1.539), trece taxones microbianos se asociaron con síntomas depresivos, algunos implicados en la síntesis de glutamato, butirato, serotonina y GABA (Radjabzadeh 2022); la validación en una población diversa es un avance, aunque sigue siendo un diseño transversal. Los mediadores propuestos (nervio vago, ácidos grasos de cadena corta, metabolismo del triptófano, inmunidad) conectan este eje con la inflamación, el eje HHA y la vía de la quinurenina. En el nivel social, la dieta y la microbiota reflejan condiciones socioeconómicas, migración y entorno, de modo que una diferencia microbiana puede ser marcador de desigualdad más que causa. La controversia principal es si la microbiota es un factor causal, un mediador o un marcador de estilo de vida.",
+     "links": [
+      {
+       "ids": [
+        "inflam",
+        "hha_dep",
+        "via_quinurenina"
+       ],
+       "t": "inflamación, eje HHA y quinurenina"
+      },
+      {
+       "ids": [
+        "desig",
+        "context"
+       ],
+       "t": "desigualdad y migración"
+      },
+      {
+       "ids": [
+        "autoinm_infec"
+       ],
+       "t": "infecciones y antibióticos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Liu RT, Walsh RFL & Sheehan AE (2019). Prebiotics and probiotics for depression and anxiety: a systematic review and meta-analysis of controlled clinical trials. Neurosci Biobehav Rev 102:13-23 · PMID 31004628",
+    "Kelly JR et al. (2016). Transferring the blues: depression-associated gut microbiota induces neurobehavioural changes in the rat. J Psychiatr Res 82:109-118 · PMID 27491067",
+    "Zheng P et al. (2016). Gut microbiome remodeling induces depressive-like behaviors through a pathway mediated by the host's metabolism. Mol Psychiatry 21:786-796 · PMID 27067014",
+    "Radjabzadeh D et al. (2022). Gut microbiome-wide association study of depressive symptoms. Nat Commun 13:7128 · PMID 36473852"
+   ],
+   "relAdd": [
+    "autoinm_infec",
+    "tag"
+   ]
+  },
+  "biomark_bip": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Ningún biomarcador tiene hoy uso clínico en el trastorno bipolar, y el diagnóstico sigue basándose en la historia longitudinal, la información de terceras personas y la exploración de episodios de hipomanía previos. La revisión de Abi-Dargham (2023) concluye que la gran mayoría de los marcadores candidatos en psiquiatría no ha demostrado suficiente fiabilidad, validez y utilidad para su adopción clínica, y recuerda que un biomarcador solo es útil si predice a nivel individual y es viable en la práctica. Por ello, la detección del riesgo de viraje en una depresión (inicio precoz, antecedentes familiares, síntomas mixtos, respuesta anómala a antidepresivos) sigue siendo clínica. Los clasificadores basados en neuroimagen o EEG citados en la ficha deben presentarse como investigación, no como pruebas disponibles, y no deben ofrecerse comercialmente como diagnóstico.",
+     "links": [
+      {
+       "ids": [
+        "conv_bip",
+        "sens_ad"
+       ],
+       "t": "conversión y marcadores clínicos de bipolaridad"
+      },
+      {
+       "ids": [
+        "dsm2",
+        "riad"
+       ],
+       "t": "síntomas mixtos y riesgo con antidepresivos"
+      },
+      {
+       "ids": [
+        "tb1",
+        "tb2"
+       ],
+       "t": "trastorno bipolar I y II"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Las alteraciones de neuroimagen están confundidas por el tratamiento: en el análisis ENIGMA de 6.503 personas, el trastorno bipolar se asoció a menor grosor cortical con efectos pequeños (d máximo de −0,29), pero el litio, los antiepilépticos y los antipsicóticos se asociaron también al grosor y la superficie cortical, y la duración de la enfermedad, a mayor adelgazamiento (Hibar 2018). Las muestras de los clasificadores son pequeñas y sin validación externa, y Marek (2022) ha mostrado que las asociaciones cerebro-fenotipo requieren miles de participantes. Las puntuaciones poligénicas derivan de estudios de ascendencia europea y son varias veces menos precisas en otras ascendencias, de modo que su uso clínico podría agravar desigualdades (Martin 2019). Pocos estudios analizan por sexo o género, y el estado de ánimo en el momento de la prueba rara vez se controla.",
+     "links": [
+      {
+       "ids": [
+        "prs",
+        "etnopsicofarm"
+       ],
+       "t": "puntuaciones poligénicas y ascendencia"
+      },
+      {
+       "ids": [
+        "estagio"
+       ],
+       "t": "estadificación"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "En el nivel genético, el estudio de 41.917 casos y 371.549 controles de ascendencia europea identificó 64 loci, con enriquecimiento en señalización sináptica, neuronas prefrontales e hipocampales y dianas de antipsicóticos, antagonistas del calcio y antiepilépticos, y una correlación genética alta pero imperfecta entre los tipos I y II (Mullins 2021), lo que apoya un continuo con la esquizofrenia y la depresión. Los marcadores candidatos remiten a mecanismos ya descritos en el atlas: redes a gran escala, ritmos circadianos, inflamación y modelos animales. En el nivel psicológico y social, la regularidad de los ritmos sociales y los sucesos vitales modulan el curso. La controversia de fondo, planteada por el marco RDoC, es si buscar marcadores de categorías diagnósticas heterogéneas o de dimensiones transdiagnósticas.",
+     "links": [
+      {
+       "ids": [
+        "hered_bip",
+        "gradiente_pg",
+        "gwas_pgc"
+       ],
+       "t": "genética y gradiente poligénico"
+      },
+      {
+       "ids": [
+        "dmn",
+        "circad",
+        "inflam",
+        "mod_anim_bip"
+       ],
+       "t": "mecanismos candidatos"
+      },
+      {
+       "ids": [
+        "zeitgebers",
+        "ipsrt"
+       ],
+       "t": "ritmos sociales"
+      },
+      {
+       "ids": [
+        "rdoc",
+        "biomar"
+       ],
+       "t": "RDoC y biomarcadores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Abi-Dargham A et al. (2023). Candidate biomarkers in psychiatric disorders: state of the field. World Psychiatry 22:236-262 · PMID 37159365",
+    "Hibar DP et al. (2018). Cortical abnormalities in bipolar disorder: an MRI analysis of 6503 individuals from the ENIGMA Bipolar Disorder Working Group. Mol Psychiatry 23:932-942 · PMID 28461699",
+    "Mullins N et al. (2021). Genome-wide association study of more than 40,000 bipolar disorder cases provides new insights into the underlying biology. Nat Genet 53:817-829 · PMID 34002096",
+    "Marek S et al. (2022). Reproducible brain-wide association studies require thousands of individuals. Nature 603:654-660 · PMID 35296861",
+    "Martin AR et al. (2019). Clinical use of current polygenic risk scores may exacerbate health disparities. Nat Genet 51:584-591 · PMID 30926966"
+   ],
+   "relAdd": [
+    "hered_bip",
+    "rdoc",
+    "tb1"
+   ]
+  },
+  "mod_anim_bip": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "Los modelos animales no tienen aplicación clínica directa, pero orientan la investigación de mecanismos y fármacos. Los ratones con mutación del gen Clock muestran hiperactividad, menos sueño, menor conducta de tipo depresivo y ansioso y mayor valor de recompensa de la cocaína y la sacarosa; el litio crónico normaliza muchas de estas respuestas, y la expresión de CLOCK funcional en el área tegmental ventral revierte las alteraciones (Roybal 2007). Este modelo respalda, de forma indirecta, la importancia clínica de proteger el sueño y la regularidad circadiana en el trastorno bipolar, junto con el modelo Myshkin ya descrito en la ficha. Para la práctica, la lección principal es de prudencia: un efecto en un modelo animal no justifica el uso clínico de un compuesto sin ensayos en humanos, ni la promoción de suplementos basada en datos preclínicos.",
+     "links": [
+      {
+       "ids": [
+        "clock_genes",
+        "circad"
+       ],
+       "t": "genes reloj y ritmos"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      },
+      {
+       "ids": [
+        "ep_mania"
+       ],
+       "t": "episodio maníaco"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Modelizar trastornos definidos por síntomas subjetivos es extremadamente difícil por la falta de biomarcadores y pruebas diagnósticas objetivas y el estado temprano de la neurobiología y la genética (Nestler y Hyman 2010). La validez aparente se basa en conductas análogas (actividad, sueño, recompensa) que no equivalen a la euforia, la grandiosidad ni el curso episódico; pocos modelos reproducen la alternancia entre polos, que es lo nuclear del trastorno bipolar. La validez predictiva se apoya en la respuesta al litio, lo que puede seleccionar modelos circulares. Existe un sesgo histórico hacia animales macho: en neurociencia, los estudios solo con machos superaban a los realizados solo con hembras en una proporción de 5,5 a 1 (Beery y Zucker 2011), lo que limita la comprensión de las diferencias por sexo. Las mutaciones monogénicas estudiadas no representan la arquitectura poligénica humana.",
+     "links": [
+      {
+       "ids": [
+        "biomark_bip"
+       ],
+       "t": "biomarcadores"
+      },
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "sexo y género"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Los modelos permiten manipular causalmente un nivel (un gen, un circuito, el sueño) que en humanos solo puede observarse, y en ese sentido complementan la genética poligénica, los genes reloj, la dopamina del área tegmental ventral y la privación de sueño. Nestler y Hyman (2010) proponen concentrar los esfuerzos en los aspectos más abordables de algunos trastornos y establecer criterios explícitos al publicar modelos, una orientación afín al marco RDoC. El salto a los niveles psicológico, social y fenomenológico es el más difícil: la vivencia de la manía (aceleración del tiempo, expansión del yo) y su contexto relacional y cultural no tienen equivalente animal. El paradigma de derrota social en roedores es una excepción parcial, pues modela un estresor social con efectos sobre la dopamina, aunque su extrapolación a la discriminación humana debe hacerse con cautela.",
+     "links": [
+      {
+       "ids": [
+        "clock_genes",
+        "priv_sueno",
+        "hered_bip"
+       ],
+       "t": "genes reloj, sueño y genética"
+      },
+      {
+       "ids": [
+        "rdoc"
+       ],
+       "t": "RDoC"
+      },
+      {
+       "ids": [
+        "derrota_soc"
+       ],
+       "t": "derrota social"
+      },
+      {
+       "ids": [
+        "minkowski"
+       ],
+       "t": "tiempo vivido"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Roybal K et al. (2007). Mania-like behavior induced by disruption of CLOCK. Proc Natl Acad Sci USA 104:6406-6411 · PMID 17379666",
+    "Nestler EJ & Hyman SE (2010). Animal models of neuropsychiatric disorders. Nat Neurosci 13:1161-1169 · PMID 20877280",
+    "Beery AK & Zucker I (2011). Sex bias in neuroscience and biomedical research. Neurosci Biobehav Rev 35:565-572 · PMID 20620164"
+   ],
+   "relAdd": [
+    "ep_mania",
+    "derrota_soc",
+    "rdoc"
+   ]
+  },
+  "circad": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "La evaluación del sueño y de los ritmos diarios forma parte de la exploración de cualquier trastorno del ánimo. En el UK Biobank (91.105 participantes con acelerometría), una menor amplitud relativa del ritmo de actividad se asoció a mayor probabilidad de depresión mayor (odds ratio 1,06 por quintil) y de trastorno bipolar (1,11) a lo largo de la vida, con independencia de factores demográficos y de estilo de vida (Lyall 2018). La fototerapia es eficaz: en el metaanálisis de Golden (2005), la luz brillante redujo los síntomas en la depresión estacional (tamaño del efecto 0,84) y en la no estacional (0,53), pero la luz brillante como coadyuvante de antidepresivos en la depresión no estacional no fue eficaz (cinco estudios); un metaanálisis posterior de nueve ensayos en depresión no estacional halló una diferencia media estandarizada de −0,62, con cegamiento insuficiente (Al-Karawi y Jubair 2016). La terapia interpersonal y de ritmos sociales y la higiene circadiana completan el abordaje.",
+     "links": [
+      {
+       "ids": [
+        "fototer",
+        "sad"
+       ],
+       "t": "fototerapia y depresión estacional"
+      },
+      {
+       "ids": [
+        "ipsrt",
+        "zeitgebers"
+       ],
+       "t": "ritmos sociales"
+      },
+      {
+       "ids": [
+        "tb1",
+        "ddm"
+       ],
+       "t": "trastorno bipolar y depresión"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "La mayoría de los estudios humanos son transversales y no permiten saber si la alteración circadiana precede, acompaña o sigue al episodio; la menor actividad diurna puede ser consecuencia de la depresión o de la medicación (Lyall 2018). Muchos ensayos de luz no se basan en diseños rigurosos y el placebo adecuado es difícil de definir (Golden 2005). Los marcadores circadianos (melatonina con luz tenue, temperatura, actigrafía) no tienen umbrales diagnósticos. El UK Biobank es una muestra de mediana edad, mayoritariamente de ascendencia europea y con mejor salud que la población general [fuente no localizada]. La evidencia de los genes reloj procede sobre todo de animales. No está demostrado que la alteración circadiana sea la causa primaria del trastorno bipolar, como sugería la formulación clásica de la ficha.",
+     "links": [
+      {
+       "ids": [
+        "clock_genes",
+        "mod_anim_bip"
+       ],
+       "t": "genes reloj y modelos animales"
+      },
+      {
+       "ids": [
+        "biomar"
+       ],
+       "t": "biomarcadores"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "Los ritmos circadianos son un ejemplo de interacción entre niveles: el núcleo supraquiasmático se sincroniza con la luz, pero también con zeitgebers sociales (horarios de trabajo, comidas, relaciones), de modo que los turnos nocturnos, el jet lag social y las rupturas de rutina son vías sociales hacia la alteración biológica. El cronotipo vespertino tiene base genética y se asocia a depresión. En el nivel fenomenológico, la vivencia alterada del tiempo en la melancolía (Minkowski, Tellenbach) y la desincronización interpersonal descrita por Fuchs ofrecen una lectura experiencial de la desincronía. La regularidad de horarios depende de condiciones laborales y de vivienda que no siempre están al alcance de quien consulta, lo que da a la cronoterapia una dimensión social y de derechos laborales.",
+     "links": [
+      {
+       "ids": [
+        "luz_melatonina",
+        "zeitgebers",
+        "cronotipo"
+       ],
+       "t": "luz, zeitgebers y cronotipo"
+      },
+      {
+       "ids": [
+        "turnos_noche",
+        "jetlag_social"
+       ],
+       "t": "turnos y jet lag social"
+      },
+      {
+       "ids": [
+        "minkowski",
+        "tellenbach",
+        "desincron_fuchs"
+       ],
+       "t": "fenomenología del tiempo"
+      },
+      {
+       "ids": [
+        "desig"
+       ],
+       "t": "condiciones de vida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lyall LM et al. (2018). Association of disrupted circadian rhythmicity with mood disorders, subjective wellbeing, and cognitive function: a cross-sectional study of 91 105 participants from the UK Biobank. Lancet Psychiatry 5:507-514 · PMID 29776774",
+    "Golden RN et al. (2005). The efficacy of light therapy in the treatment of mood disorders: a review and meta-analysis of the evidence. Am J Psychiatry 162:656-662 · PMID 15800134",
+    "Al-Karawi D & Jubair L (2016). Bright light therapy for nonseasonal depression: meta-analysis of clinical trials. J Affect Disord 198:64-71 · PMID 27011361"
+   ],
+   "relAdd": [
+    "ddm",
+    "tb1",
+    "insomnio_riesgo"
+   ]
+  },
+  "priv_sueno": {
+   "secAdd": [
+    {
+     "t": "Implicaciones clínicas",
+     "x": "En 3.140 personas con trastorno bipolar, la pérdida de sueño como desencadenante de episodios de ánimo elevado se asoció al tipo I (odds ratio 2,81) y al género femenino (1,43), mientras que la asociación con episodios depresivos no fue significativa tras ajustar (Lewis 2017). Ello justifica identificar en cada persona sus desencadenantes y planificar ante turnos de noche, viajes transmeridianos, posparto, estudios o consumo de estimulantes, incluido el chemsex, que combina privación de sueño y estimulantes. El insomnio residual en la eutimia puede indicar vulnerabilidad a la recaída, y tratar el sueño es a la vez objetivo terapéutico y medida de respuesta en la manía (Plante y Winkelman 2008). Como tratamiento, en el metaanálisis de 66 estudios la respuesta a la privación de sueño fue del 45 % en los estudios con grupo control aleatorizado y del 50 % en los demás, sin diferencias según el tipo de privación, el diagnóstico o la medicación (Boland 2017); su uso exige experiencia y vigilancia del viraje.",
+     "links": [
+      {
+       "ids": [
+        "tb1",
+        "ep_mania",
+        "ppp"
+       ],
+       "t": "manía y psicosis posparto"
+      },
+      {
+       "ids": [
+        "turnos_noche",
+        "chemsex_s",
+        "metanf"
+       ],
+       "t": "turnos, chemsex y estimulantes"
+      },
+      {
+       "ids": [
+        "insomnio_sx",
+        "tcci"
+       ],
+       "t": "insomnio y su tratamiento"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los datos de desencadenantes proceden de autoinforme retrospectivo en entrevista, con sesgo de recuerdo y dificultad para separar la reducción del sueño como causa o como primer síntoma del episodio (Lewis 2017). Los estudios de privación terapéutica son heterogéneos, pequeños, con definiciones variables de respuesta y sin cegamiento posible; la recaída tras dormir es frecuente y la duración del efecto está mal caracterizada (Boland 2017). El riesgo de viraje se ha estudiado sobre todo en series italianas con litio concomitante [fuente no localizada], lo que limita su generalización. La asociación con el género femenino puede reflejar diferencias de rol, cuidados nocturnos o posparto más que biológicas, y no se ha estudiado en personas trans o no binarias [fuente no localizada]. El mecanismo antidepresivo de la vigilia no está establecido.",
+     "links": [
+      {
+       "ids": [
+        "genero_sm"
+       ],
+       "t": "género y salud mental"
+      },
+      {
+       "ids": [
+        "tb_induc"
+       ],
+       "t": "viraje inducido"
+      }
+     ]
+    },
+    {
+     "t": "Relación con otros niveles explicativos",
+     "x": "La privación de sueño enlaza el modelo de los dos procesos de Borbély (presión homeostática y ritmo circadiano) con la regulación del ánimo y con la dopamina, y los ratones con mutación de Clock, que duermen menos y muestran conducta de tipo maníaco, ofrecen un modelo animal del vínculo (Roybal 2007). En el nivel psicológico, el modelo de hiperactivación del insomnio y la regulación emocional explican parte de la vulnerabilidad. En el nivel social, el sueño depende de condiciones de trabajo, cuidados, vivienda y ruido, y el trabajo nocturno o precario se distribuye de forma desigual. La controversia teórica reside en la paradoja de que la misma intervención alivie la depresión y precipite la manía; la propuesta de Wehr (1987), ya recogida en la ficha, de la reducción del sueño como vía final común de la manía sigue siendo una hipótesis heurística.",
+     "links": [
+      {
+       "ids": [
+        "dos_procesos",
+        "circad"
+       ],
+       "t": "regulación del sueño"
+      },
+      {
+       "ids": [
+        "clock_genes",
+        "mod_anim_bip"
+       ],
+       "t": "genes reloj y modelos animales"
+      },
+      {
+       "ids": [
+        "hiperactiv_insom",
+        "insomnio_riesgo"
+       ],
+       "t": "hiperactivación e insomnio como riesgo"
+      },
+      {
+       "ids": [
+        "desig",
+        "turnos_noche"
+       ],
+       "t": "condiciones de trabajo y vida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lewis KS et al. (2017). Sleep loss as a trigger of mood episodes in bipolar disorder: individual differences based on diagnostic subtype and gender. Br J Psychiatry 211:169-174 · PMID 28684405",
+    "Plante DT & Winkelman JW (2008). Sleep disturbance in bipolar disorder: therapeutic implications. Am J Psychiatry 165:830-843 · PMID 18483132",
+    "Boland EM et al. (2017). Meta-analysis of the antidepressant effects of acute sleep deprivation. J Clin Psychiatry 78:e1020-e1034 · PMID 28937707",
+    "Roybal K et al. (2007). Mania-like behavior induced by disruption of CLOCK. Proc Natl Acad Sci USA 104:6406-6411 · PMID 17379666"
+   ],
+   "relAdd": [
+    "clock_genes",
+    "chemsex_s",
+    "insomnio_riesgo"
+   ]
+  }
+ },
+ "add": []
+}

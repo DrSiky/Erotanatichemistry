@@ -1,0 +1,75 @@
+{
+ "pmid_comprobados": 31,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "homosex_hist",
+   "gravedad": "menor",
+   "antes": "enlace «DSM-III y DSM-III-R» a dsm3 y dsm5_hit",
+   "despues": "enlace solo a dsm3 («DSM-III (1980)»); dsm5_hit trata DSM-IV/5 y no menciona el DSM-III-R",
+   "fuente": "node tools/q.js show dsm3 dsm5_hit"
+  },
+  {
+   "id": "homosex_hist",
+   "gravedad": "mayor",
+   "antes": "Spitzer publicó en 2003 un estudio de 200 personas autoseleccionadas que referían cambio tras terapia «reparativa», evaluadas por entrevista telefónica (Spitzer 2003), y lo reevaluó en 2012 (Spitzer 2012).",
+   "despues": "El propio Spitzer publicó en 2003 un estudio con 200 personas autoseleccionadas que referían algún cambio de orientación tras terapia «reparativa», basado solo en autoinformes recogidos por entrevista telefónica (Spitzer 2003); en 2012 lo reevaluó públicamente (Spitzer 2012), retractándose de sus conclusiones por no poder verificarse los relatos de cambio [fuente no localizada: contenido de la carta de 2012 no cotejado directamente]. No aporta, por tanto, apoyo a los esfuerzos de cambio de orientación.",
+   "fuente": "Resumen PMID 14567650 (muestra autoseleccionada, entrevista telefónica, autoinforme); PMID 22622659 sin resumen; la versión original presentaba el estudio de 2003 sin advertir de su retractación"
+  },
+  {
+   "id": "homosex_hist",
+   "gravedad": "mayor",
+   "antes": "El debate de 1973 obligó a explicitar qué es un trastorno mental: la definición propuesta entonces, basada en el malestar subjetivo o en el deterioro generalizado del funcionamiento social (Drescher 2015, texto completo), anticipó el criterio que el DSM-III incorporó a su definición de trastorno [fuente no localizada], y la supresión de la categoría egodistónica mostró que el malestar derivado del rechazo social no convierte en trastorno la característica rechazada. El grupo de trabajo de la OMS recomendó suprimir de la CIE-11 las categorías basadas en la orientación sexual (Cochran et al. 2014); la CIE-11 no las incluye y solo conserva un código de contacto, el asesoramiento relacionado con la conducta y la orientación sexuales o las relaciones sexuales de la persona (QA15.1). En la práctica, cuando una persona consulta por malestar con su orientación, el objeto clínico es ese malestar, comprendido en el marco del estrés de minorías y de la homonegatividad interiorizada, y se aborda con psicoterapia afirmativa, nunca con intentos de cambiar la orientación, prohibidos en España por la Ley 4/2023.",
+   "despues": "El debate de 1973 obligó a explicitar qué es un trastorno mental: la definición propuesta entonces por el subcomité de Spitzer, basada en el malestar subjetivo o en el deterioro generalizado del funcionamiento social (Drescher 2015, texto completo), anticipó el criterio que el DSM-III incorporó a su definición de trastorno [fuente no localizada]. La supresión de la categoría egodistónica mostró además que el malestar con una característica propia no basta para definir un trastorno, pues, como señalaron sus críticos, cualquier perturbación de la identidad podría convertirse en diagnóstico (Drescher 2015, texto completo). Suprimidas en la CIE-11 las categorías basadas en la orientación sexual, como recoge la sección anterior, la clasificación solo ofrece para estas consultas un código de contacto con los servicios de salud, no un diagnóstico: QA15.1, asesoramiento relacionado con la conducta y la orientación sexuales o las relaciones sexuales de la persona (CIE-11 MMS). En la práctica, cuando alguien consulta por malestar con su orientación, el objeto clínico es ese malestar, comprendido en el marco del estrés de minorías y de la homonegatividad interiorizada, y se aborda con psicoterapia afirmativa, nunca con intentos de modificar la orientación.",
+   "fuente": "Duplicaba la sección existente «Legado y lectura actual» (recomendación del grupo de la OMS, Cochran 2014; prohibición del art. 17 de la Ley 4/2023); se conserva solo lo nuevo. QA15.1 cotejado en SimpleTabulation-ICD-11-MMS-en.txt: «Counselling related to sexual behaviour and orientation or sexual relationships of the person» (capítulo 24, bloque QA1)"
+  },
+  {
+   "id": "stonewall_hit",
+   "gravedad": "menor",
+   "antes": "un precedente para la despatologización de la incongruencia de género en la CIE-11.",
+   "despues": "un precedente para la despatologización de la incongruencia de género en la CIE-11 [fuente no localizada].",
+   "fuente": "Afirmación interpretativa sin fuente en Hegarty y Rutherford 2019 ni en Drescher 2015"
+  },
+  {
+   "id": "ley_trans_2023",
+   "gravedad": "menor",
+   "antes": "Legitimación (art. 43): desde los 16 años, por sí misma;",
+   "despues": "Legitimación (art. 43): personas de nacionalidad española desde los 16 años, por sí mismas;",
+   "fuente": "BOE-A-2023-5366, texto consolidado, art. 43.1"
+  },
+  {
+   "id": "ley_trans_2023",
+   "gravedad": "menor",
+   "antes": "Entre los 14 y los 16 años la persona actúa asistida por sus representantes, y la ley exige tener en cuenta en todo momento su interés superior (art. 44.6).",
+   "despues": "Entre los 14 y los 16 años la persona actúa asistida por sus representantes (art. 43.2), y entre los 14 y los 18 años todos los intervinientes deben tener en cuenta en todo momento su interés superior (art. 44.6).",
+   "fuente": "BOE-A-2023-5366, art. 44.6 («menores de dieciocho años y mayores de catorce»)"
+  },
+  {
+   "id": "suicidio_lgtbiq",
+   "gravedad": "menor",
+   "antes": "La diferencia no procede de la orientación ni de la identidad, sino de la exposición al estigma, la discriminación, la victimización y el rechazo, que el modelo de estrés de minorías organiza en estresores externos e internos (Meyer 2003).",
+   "despues": "El modelo de estrés de minorías atribuye la diferencia no a la orientación ni a la identidad, sino a la exposición al estigma, el prejuicio y la discriminación, y describe procesos externos e internos como los episodios de prejuicio, la expectativa de rechazo, la ocultación y la homofobia interiorizada (Meyer 2003).",
+   "fuente": "Resumen PMID 12956539: modelo conceptual sobre personas LGB; no menciona victimización ni personas trans"
+  },
+  {
+   "id": "suicidio_lgtbiq",
+   "gravedad": "menor",
+   "antes": "Jóvenes trans y de género no conforme: prevalencia…",
+   "despues": "Jóvenes de género no conforme hasta los 25 años, con diagnóstico clínico o entrevista directa, sin grupo de comparación: prevalencia…",
+   "fuente": "Resumen PMID 32170434"
+  },
+  {
+   "id": "suicidio_lgtbiq",
+   "gravedad": "menor",
+   "antes": "Marshal (2011) atribuye las disparidades en suicidalidad y depresión a experiencias negativas como la discriminación y la victimización. La transfobia interiorizada y la expectativa de rechazo se asocian a ideación e intentos de suicidio en personas trans y de género diverso, como desarrolla la ficha de homonegatividad interiorizada.",
+   "despues": "Marshal (2011) plantea que las disparidades en suicidalidad y depresión pueden estar influidas por experiencias negativas como la discriminación y la victimización. La homonegatividad y la transfobia interiorizadas, desarrolladas en su ficha, forman parte de los estresores proximales.",
+   "fuente": "Resumen PMID 21783042 («may be influenced»); la ficha homoneg_int no documenta asociación de la transfobia interiorizada con ideación o intentos de suicidio"
+  }
+ ],
+ "sin_resolver": [
+  "Contenido de la carta de Spitzer (2012, PMID 22622659) no cotejado: sin resumen en PubMed y texto tras acceso restringido; la retractación se marca con [fuente no localizada].",
+  "Cochran, Mosteller y Tukey (1953, JASA) y Bayer (1981) no están en PubMed; se mantienen como [no verificada]. Volúmenes de Kinsey no cotejados directamente (marcados).",
+  "No se ha comprobado si normas posteriores a la Ley 4/2023 tipifican penalmente las terapias de conversión (marcado en la nota de ley_trans_2023); el texto consolidado consultado (23-11-2026) indica «Última actualización, publicada el 01/03/2023» y no modifica el Código Penal.",
+  "Datos de la revuelta de Stonewall (fecha y lugar), primera manifestación del orgullo en Barcelona (1977) y categoría X de la escala de Kinsey: siguen marcados [fuente no localizada]."
+ ]
+}

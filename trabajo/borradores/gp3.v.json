@@ -1,0 +1,633 @@
+{
+ "patch": {
+  "ataque_panico": {
+   "secAdd": [
+    {
+     "t": "Variaciones culturales",
+     "x": "El DSM-5-TR admite que en el ataque de pánico aparezcan síntomas propios de cada cultura (acúfenos, dolor de cuello, cefalea, gritos o llanto incontrolables), pero no permite contarlos entre los 4 síntomas exigidos. La revisión de Lewis-Fernández et al. para el DSM-5 encontró posibles desajustes entre los criterios y la fenomenología local precisamente en el carácter inesperado de los ataques y en el criterio de crescendo en 10 minutos del trastorno de pánico, y señaló la escasez de validadores neurobiológicos, genéticos o de respuesta al tratamiento que aclaren su aplicabilidad transcultural (Lewis-Fernández 2010). En 102 personas hispanas con ataque de nervios atendidas en una unidad de ansiedad, quienes tenían además trastorno de pánico describían más asfixia, miedo a morir y miedo creciente durante el ataque, y quienes tenían un trastorno afectivo, más ira, gritos y agresividad: el mismo rótulo popular abarca patrones distintos de pérdida de control emocional según el trastorno asociado (Salmán 1998). En la práctica, la Entrevista de Formulación Cultural ayuda a no forzar dentro del especificador un idioma cultural de malestar ni a pasar por alto un pánico bajo una denominación local.",
+     "links": [
+      {
+       "ids": [
+        "ataque_nervios",
+        "khyal_cap",
+        "cult_bound"
+       ],
+       "t": "conceptos culturales de malestar"
+      },
+      {
+       "ids": [
+        "cfi",
+        "idiomas_malestar"
+       ],
+       "t": "formulación cultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lewis-Fernández R et al. (2010). Culture and the anxiety disorders: recommendations for DSM-V. Depress Anxiety 27:212-229 · PMID 20037918",
+    "Salmán E et al. (1998). Subtypes of ataques de nervios: the influence of coexisting psychiatric diagnosis. Cult Med Psychiatry 22:231-244 · PMID 9693876"
+   ],
+   "relAdd": [
+    "ataque_nervios",
+    "khyal_cap",
+    "cfi"
+   ]
+  },
+  "aripiprazol": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "La ficha técnica de Abilify (apartado 5.1) atribuye su eficacia en la esquizofrenia y el trastorno bipolar I a la combinación de agonismo parcial en los receptores D2 y 5-HT1A con antagonismo 5-HT2A: se comporta como antagonista en modelos animales de hiperactividad dopaminérgica y como agonista en modelos de hipoactividad. Tiene alta afinidad in vitro por D2, D3, 5-HT1A y 5-HT2A, afinidad moderada por D4, 5-HT2C, 5-HT7, α1-adrenérgicos, H1 y el lugar de recaptación de serotonina, y ninguna por los receptores muscarínicos; en voluntarios sanos redujo de forma dependiente de la dosis la unión de 11C-racloprida en caudado y putamen medida por PET. En células con receptores D2 humanos recombinantes, su eficacia intrínseca respecto a la dopamina osciló entre el 25 % en células sin receptores de reserva y el 90 % en células con reserva, y a concentraciones crecientes bloqueó la acción de la dopamina hasta un máximo igual a su propio efecto agonista (Burris 2002). Este carácter de agonista parcial, cuya expresión depende de la reserva de receptores de cada tejido, ayuda a entender la escasa elevación de prolactina, la acatisia y la activación iniciales y el riesgo de trastornos del control de impulsos que recoge la ficha [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "antagonismo D2 y 5-HT2A"
+      },
+      {
+       "ids": [
+        "brexpiprazol",
+        "cariprazina"
+       ],
+       "t": "otros agonistas parciales"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia clínica y controversias",
+     "x": "La ficha técnica (5.1) resume los ensayos de registro: en esquizofrenia crónica estable, recaída del 34 % con aripiprazol frente al 57 % con placebo a 26 semanas; frente a haloperidol, mantenimiento de la respuesta similar a 52 semanas (77 % frente a 73 %) pero una tasa global de terminación significativamente mayor con aripiprazol (43 % frente a 30 %); frente a olanzapina, menos pacientes con aumento de peso de al menos el 7 % (13 % frente a 33 %). En el trastorno bipolar I, en mantenimiento previno sobre todo las recaídas maníacas y no demostró superioridad frente a placebo en la prevención de la depresión. La incidencia de hiperprolactinemia en el conjunto de los ensayos (n = 28.242) fue del 0,3 % frente al 0,2 % con placebo, y la de hipoprolactinemia del 0,4 % frente al 0,02 %, dato que respalda su perfil favorable sobre la prolactina. En el ensayo QUALIFY, abierto con evaluador ciego y promovido por H. Lundbeck con Otsuka como colaborador (NCT01795547), aripiprazol mensual fue superior a palmitato de paliperidona en calidad de vida medida con la escala QLS a 28 semanas (diferencia 4,67) y tuvo menos abandonos por efectos adversos (11,1 % frente a 19,7 %) (Naber 2015).",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "tb1"
+       ],
+       "t": "esquizofrenia y trastorno bipolar I"
+      },
+      {
+       "ids": [
+        "hiperprl_ap"
+       ],
+       "t": "hiperprolactinemia por antipsicóticos"
+      },
+      {
+       "ids": [
+        "ap_lai"
+       ],
+       "t": "inyectables de acción prolongada"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Burris KD et al. (2002). Aripiprazole, a novel antipsychotic, is a high-affinity partial agonist at human dopamine D2 receptors. J Pharmacol Exp Ther 302:381-389 · PMID 12065741",
+    "Naber D et al. (2015). Qualify: a randomized head-to-head study of aripiprazole once-monthly and paliperidone palmitate in the treatment of schizophrenia. Schizophr Res 168:498-504 · PMID 26232241",
+    "AEMPS-CIMA (2026). Ficha técnica de Abilify 10 mg comprimidos (aripiprazol) (n.º registro 04276007), apartado 5.1 (propiedades farmacodinámicas); consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "5ht2a"
+   ]
+  },
+  "dd_dep_dem": {
+   "secAdd": [
+    {
+     "t": "Implicaciones terapéuticas del diferencial",
+     "x": "El resultado del diferencial cambia la expectativa terapéutica. En la depresión primaria del mayor con quejas cognitivas, el tratamiento antidepresivo es la base de la reevaluación diagnóstica; en cambio, cuando los síntomas depresivos aparecen sobre una demencia establecida, los antidepresivos aportan poco. En el ensayo HTA-SADD, en personas con enfermedad de Alzheimer probable o posible y depresión (Escala de Cornell ≥8), ni la sertralina ni la mirtazapina redujeron los síntomas depresivos a las 13 semanas más que el placebo, resultado que se mantuvo hasta las 39 semanas, y ambas causaron más reacciones adversas (43 % y 41 % frente al 26 %) (Banerjee 2011). La revisión Cochrane de 10 ensayos (1592 pacientes) halló evidencia de alta calidad de una diferencia escasa o nula en las escalas de depresión a las 6-13 semanas, una remisión probablemente mayor con antidepresivo (40 % frente a 21,7 %; calidad moderada), ningún efecto sobre las actividades de la vida diaria y probablemente ninguno sobre la cognición, con más abandonos y efectos adversos (Dudas 2018). En la depresión asociada a demencia cobran peso las intervenciones no farmacológicas y el apoyo a la persona cuidadora [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "sertralina",
+        "mirtazapina"
+       ],
+       "t": "antidepresivos evaluados en HTA-SADD"
+      },
+      {
+       "ids": [
+        "dem",
+        "cornell"
+       ],
+       "t": "demencia y Escala de Cornell"
+      },
+      {
+       "ids": [
+        "nf_bpsd"
+       ],
+       "t": "intervenciones no farmacológicas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Banerjee S et al. (2011). Sertraline or mirtazapine for depression in dementia (HTA-SADD): a randomised, multicentre, double-blind, placebo-controlled trial. Lancet 378:403-411 · PMID 21764118",
+    "Dudas R et al. (2018). Antidepressants for treating depression in dementia. Cochrane Database Syst Rev 8:CD003944 · PMID 30168578"
+   ],
+   "relAdd": [
+    "sertralina",
+    "nf_bpsd"
+   ]
+  },
+  "dep_induc": {
+   "set": {
+    "tx": "Evaluar la cronología entre consumo, medicación y síntomas, revisar toda la medicación y valorar el riesgo suicida en cada fase (intoxicación, abstinencia, «bajón» tras estimulantes). Retirar, reducir o sustituir el agente causal cuando sea posible, de acuerdo con quien lo prescribió y consultando la ficha técnica; la desintoxicación de alcohol, benzodiacepinas o GHB/GBL debe ser supervisada por el riesgo de abstinencia grave. Observar la evolución durante la abstinencia antes de iniciar un antidepresivo, salvo gravedad o riesgo suicida: con alcohol, en 191 hombres con alcoholismo primario el 42 % presentaba depresión clínicamente significativa al ingreso y solo el 6 % a las 4 semanas de abstinencia (Brown y Schuckit 1988). Con interferón alfa, la profilaxis antidepresiva previa redujo la depresión en un ensayo con dosis altas en melanoma (Musselman 2001) y se reserva preferentemente para quienes ya toman antidepresivos o presentan síntomas depresivos o ansiosos antes de iniciarlo (Raison 2005). Si el cuadro persiste unas cuatro semanas tras la abstinencia, tratar como depresión primaria (psicoterapia y antidepresivo según guía) y abordar a la vez el trastorno por consumo, también en el contexto del chemsex, sin juicio moral."
+   }
+  },
+  "cleckley": {
+   "featsAdd": [
+    "En 54 personas encarceladas por delitos sexuales, el reflejo de sobresalto aumentaba ante imágenes desagradables en quienes no eran psicópatas y no en los psicópatas, diferencia ligada a los rasgos afectivos de la psicopatía y no a la conducta antisocial, sin cambios en las respuestas autonómicas ni en el autoinforme (Patrick 1993): un correlato experimental coherente con el déficit afectivo que Cleckley describió"
+   ],
+   "refsAdd": [
+    "Patrick CJ, Bradley MM & Lang PJ (1993). Emotion in the criminal psychopath: startle reflex modulation. J Abnorm Psychol 102:82-92 · PMID 8436703"
+   ]
+  },
+  "perplejidad": {
+   "featsAdd": [
+    "La psiquiatría fenomenológica considera la perplejidad, junto al autismo, un rasgo nuclear de la esquizofrenia y expresión de una alteración fundamental de la relación entre el yo y el mundo; en un estudio cualitativo de caso único se describieron vivencias sutiles de extrañeza, ansiedad y exposición duraderas y generalizadas, no limitadas a la fase aguda (Henriksen 2010)"
+   ],
+   "refsAdd": [
+    "Henriksen MG et al. (2010). Autism and perplexity: a qualitative and theoretical study of basic subjective experiences in schizophrenia. Psychopathology 43:357-368 · PMID 20798575"
+   ],
+   "relAdd": [
+    "blankenburg"
+   ]
+  },
+  "stepps": {
+   "featsAdd": [
+    "En población penitenciaria y bajo supervisión judicial de Iowa (77 personas, estudio sin grupo control), STEPPS se asoció a mejoría clínicamente significativa de los síntomas límite (d = 1,30), del ánimo y de la afectividad negativa, con menos conductas suicidas e infracciones disciplinarias (Black 2013)"
+   ],
+   "refsAdd": [
+    "Black DW et al. (2013). Systems Training for Emotional Predictability and Problem Solving (STEPPS) group treatment for offenders with borderline personality disorder. J Nerv Ment Dis 201:124-129 · PMID 23364121"
+   ]
+  },
+  "drea": {
+   "featsAdd": [
+    "El especificador «con características mixtas» del DSM-5-TR excluye la irritabilidad, la distraibilidad y la agitación psicomotriz por su solapamiento entre polos: una disforia reactiva irritable y activada no basta por sí sola para cumplirlo (DSM-5-TR)"
+   ]
+  },
+  "hipocrates": {
+   "featsAdd": [
+    "Diversos médicos griegos, entre ellos los autores del Corpus hipocrático, describieron sudoración intensa, temblor, trastornos de la alimentación, histeria e incluso la muerte como consecuencia de una agitación psíquica intensa y prolongada, sin incluir estos cuadros entre las enfermedades mentales de la época (Laios 2018)"
+   ]
+  },
+  "digfast": {
+   "featsAdd": [
+    "SIGECAPS omite el ánimo deprimido: el DSM-5-TR exige al menos 5 de 9 síntomas durante 2 semanas, uno de los cuales debe ser el ánimo deprimido o la pérdida de interés o placer, de modo que la regla no sustituye al criterio completo (DSM-5-TR)"
+   ]
+  },
+  "hiperactiv_insom": {
+   "secAdd": [
+    {
+     "t": "Estudios fisiológicos fundacionales",
+     "x": "Tres líneas de trabajo dieron contenido medible al modelo. Metabolismo: en 10 personas con insomnio definido objetivamente y 10 controles emparejados, el consumo corporal total de oxígeno estuvo elevado en todas las mediciones del día y de la noche, incluso tras excluir los periodos nocturnos con vigilia o microdespertares; quienes padecían insomnio tenían además latencias más largas en el test de latencias múltiples de sueño, de modo que sus alteraciones diurnas de ánimo y memoria no se explicaban por somnolencia (Bonnet y Arand 1995), dato compatible con la observación clínica de más fatiga que somnolencia. Electroencefalografía: en el insomnio primario la actividad beta y gamma (14-45 Hz) durante el sueño no REM fue mayor que en el insomnio secundario a depresión mayor y en buenos durmientes (9 personas por grupo), y la actividad beta tendió a correlacionarse de forma negativa con la discrepancia entre el sueño percibido y el registrado (Perlis 2001). Eje del estrés: en 11 jóvenes con insomnio crónico, la secreción de ACTH en 24 horas fue significativamente mayor que en 13 controles (la de cortisol, con tendencia), sobre todo por la tarde-noche y la primera mitad de la noche, con un ritmo circadiano conservado, patrón que los autores consideran propio de una hiperactivación central y no de la simple pérdida de sueño (Vgontzas 2001). Todas son muestras pequeñas y transversales.",
+     "links": [
+      {
+       "ids": [
+        "insom",
+        "insomnio_sx"
+       ],
+       "t": "insomnio y su semiología"
+      },
+      {
+       "ids": [
+        "hha_dep"
+       ],
+       "t": "eje hipotálamo-hipófisis-suprarrenal"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bonnet MH & Arand DL (1995). 24-hour metabolic rate in insomniacs and matched normal sleepers. Sleep 18:581-588 · PMID 8552929",
+    "Perlis ML et al. (2001). Beta/Gamma EEG activity in patients with primary and secondary insomnia and good sleeper controls. Sleep 24:110-117 · PMID 11204046",
+    "Vgontzas AN et al. (2001). Chronic insomnia is associated with nyctohemeral activation of the hypothalamic-pituitary-adrenal axis: clinical implications. J Clin Endocrinol Metab 86:3787-3794 · PMID 11502812"
+   ],
+   "relAdd": []
+  },
+  "incent_sensib": {
+   "secAdd": [
+    {
+     "t": "Fundamento experimental y relación con otros modelos",
+     "x": "La disociación entre querer y gustar se apoya en un experimento clave: ratas con depleción de dopamina de hasta el 99 % en el núcleo accumbens y el neoestriado mantuvieron reacciones hedónicas normales a la sacarosa frente a la quinina, aprendieron nuevos valores hedónicos (aversión gustativa condicionada) y conservaron el aumento de la palatabilidad inducido por benzodiacepinas; los autores concluyeron que la dopamina es necesaria para el querer, no para el gustar ni para aprender nuevos gustos (Berridge y Robinson 1998). La teoría coexiste con otros dos marcos. El modelo de alostasis de Koob y Le Moal describe una espiral de desregulación de los sistemas de recompensa, con desplazamiento crónico del punto de ajuste y activación de los sistemas cerebrales y hormonales del estrés, que se expresa como consumo compulsivo y pérdida de control (Koob y Le Moal 2001). El modelo de Everitt y Robbins describe la transición desde el consumo voluntario al hábito y la compulsión, con paso del control prefrontal al estriatal y del estriado ventral al dorsal (Everitt y Robbins 2005). Los tres no son excluyentes: la sensibilización explica el deseo desencadenado por señales; la alostasis, el malestar de la abstinencia; y el hábito, la conducta automática pese a las consecuencias [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "adiccion_3fases",
+        "neuroadapt_adicc"
+       ],
+       "t": "modelo de Koob y Volkow"
+      },
+      {
+       "ids": [
+        "habito_dirigido"
+       ],
+       "t": "hábito frente a control dirigido"
+      },
+      {
+       "ids": [
+        "carga_alostatica",
+        "habenula_lat"
+       ],
+       "t": "alostasis y antirrecompensa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Berridge KC & Robinson TE (1998). What is the role of dopamine in reward: hedonic impact, reward learning, or incentive salience? Brain Res Brain Res Rev 28:309-369 · PMID 9858756",
+    "Koob GF & Le Moal M (2001). Drug addiction, dysregulation of reward, and allostasis. Neuropsychopharmacology 24:97-129 · PMID 11120394",
+    "Everitt BJ & Robbins TW (2005). Neural systems of reinforcement for drug addiction: from actions to habits to compulsion. Nat Neurosci 8:1481-1489 · PMID 16251991"
+   ],
+   "relAdd": [
+    "adiccion_3fases",
+    "habito_dirigido",
+    "carga_alostatica"
+   ]
+  },
+  "koro": {
+   "secAdd": [
+    {
+     "t": "Epidemias fuera de China y lectura sociocultural",
+     "x": "Las epidemias no se limitan a la población china: se publicaron brotes en Singapur (Chong 1968; su relación con un rumor sobre carne de cerdo contaminada no consta en el resumen [fuente no localizada]) y en zonas rurales de Bengala Occidental y del nordeste de la India a comienzos de los años ochenta (Nandi 1983; Sachdev 1985). En el análisis psiquiátrico de 31 casos de la epidemia del nordeste indio, la mayoría de las personas afectadas eran de nivel socioeconómico bajo, con escasa escolarización y entre 20 y 40 años; muchas eran mujeres, la mayoría no tenía psicopatología previa ni sexual significativa y algunas presentaron varios episodios con síntomas residuales mínimos (Sachdev 1985). La revisión crítica de Cheng sobre las epidemias chinas sostiene que el koro, al menos como se manifiesta en China, no es psicopatología individual sino un malestar social mantenido por creencias culturales que afectan a toda la comunidad, y no solo a quienes reciben el diagnóstico (Cheng 1996). Esta lectura respalda que la respuesta a los brotes sea comunitaria e informativa y desaconseja etiquetar como trastorno mental individual a cada persona afectada en un contexto epidémico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cult_bound",
+        "idiomas_malestar"
+       ],
+       "t": "conceptos culturales e idiomas de malestar"
+      },
+      {
+       "ids": [
+        "psiq_transcultural",
+        "context"
+       ],
+       "t": "psiquiatría transcultural y contexto sociocultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Chong TM (1968). Epidemic koro in Singapore. Br Med J 1:640-641 · PMID 5688940",
+    "Nandi DN et al. (1983). Epidemic koro in West Bengal, India. Int J Soc Psychiatry 29:265-268 · PMID 6642919",
+    "Sachdev PS (1985). Koro epidemic in north-east India. Aust N Z J Psychiatry 19:433-438 · PMID 3869009",
+    "Cheng ST (1996). A critical review of Chinese koro. Cult Med Psychiatry 20:67-82 · PMID 8740959"
+   ],
+   "relAdd": [
+    "psiq_transcultural",
+    "idiomas_malestar"
+   ]
+  },
+  "neuroester_repro": {
+   "secAdd": [
+    {
+     "t": "Mecanismo molecular y modelos animales",
+     "x": "La base farmacológica se estableció en 1986: dos metabolitos de la progesterona y la desoxicorticosterona, entre ellos la 3α-hidroxi-5α-dihidroprogesterona (alopregnanolona), se comportan como ligandos del complejo receptor GABA-A de tipo barbitúrico; a concentraciones de 10⁻⁷ a 10⁻⁵ M aumentaron la unión del flunitrazepam y la entrada de cloro en vesículas cerebrales y potenciaron la acción inhibidora del GABA en neuronas de hipocampo y médula espinal de rata, lo que explicaría la capacidad de algunos esteroides para modificar con rapidez la excitabilidad neuronal (Majewska 1986). El vínculo con el puerperio procede de un modelo murino: durante la gestación disminuyen las inhibiciones tónica y fásica por regulación a la baja de las subunidades δ y γ2 del receptor GABA-A, que se recupera inmediatamente tras el parto; los ratones que no pueden regular la subunidad δ (Gabrd+/− y Gabrd−/−) muestran conductas de tipo depresivo y conducta materna anómala, con menor supervivencia de las crías, que mejoraron en los heterocigotos con un agonista selectivo de la subunidad δ (Maguire y Mody 2008). El modelo sugiere que el riesgo no reside en el nivel de neuroesteroides, sino en la capacidad del receptor para adaptarse a su subida y caída bruscas; su traslación a la mujer no está demostrada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "gaba_interneur"
+       ],
+       "t": "sistema GABAérgico"
+      },
+      {
+       "ids": [
+        "zuranolona",
+        "dpp"
+       ],
+       "t": "zuranolona y depresión posparto"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Majewska MD et al. (1986). Steroid hormone metabolites are barbiturate-like modulators of the GABA receptor. Science 232:1004-1007 · PMID 2422758",
+    "Maguire J & Mody I (2008). GABA(A)R plasticity during pregnancy: relevance to postpartum depression. Neuron 59:207-213 · PMID 18667149"
+   ],
+   "relAdd": []
+  },
+  "orexina": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción y fundamento biológico",
+     "x": "El sistema que bloquean estos fármacos se describió en 1998 de forma simultánea por dos grupos: de Lecea et al. llamaron hipocretinas a dos péptidos codificados por un ARNm exclusivo del hipotálamo, cuyas neuronas se limitan a las áreas hipotalámicas dorsal y lateral, proyectan al tronco encefálico y al tálamo y tienen acción neuroexcitadora (de Lecea 1998); Sakurai et al. llamaron orexinas A y B a esos mismos péptidos, que activan dos receptores acoplados a proteína G hasta entonces huérfanos y que, administrados en el sistema nervioso central de la rata, estimulan la ingesta (Sakurai 1998). La relación con la vigilia procede de la narcolepsia: en el cerebro de personas con narcolepsia el número de neuronas de hipocretina se reduce un 85-95 %, con conservación de las neuronas vecinas de hormona concentradora de melanina (Thannickal 2000), y la mayoría de los casos humanos se asocia a un sistema hipocretinérgico deficiente sin que los genes de la hipocretina contribuyan de forma significativa a la predisposición (Peyron 2000). De ahí la lógica farmacológica de bloquear de forma reversible OX1R y OX2R para reducir la señal de vigilia, y también la razón de que la narcolepsia figure como contraindicación y de que los efectos adversos de la clase (parálisis del sueño, síntomas tipo cataplejía) remeden sus síntomas [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "cataplejia"
+       ],
+       "t": "narcolepsia y cataplejía"
+      },
+      {
+       "ids": [
+        "circ_sueno"
+       ],
+       "t": "circuitos de sueño y vigilia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "de Lecea L et al. (1998). The hypocretins: hypothalamus-specific peptides with neuroexcitatory activity. Proc Natl Acad Sci U S A 95:322-327 · PMID 9419374",
+    "Sakurai T et al. (1998). Orexins and orexin receptors: a family of hypothalamic neuropeptides and G protein-coupled receptors that regulate feeding behavior. Cell 92:573-585 · PMID 9491897",
+    "Thannickal TC et al. (2000). Reduced number of hypocretin neurons in human narcolepsy. Neuron 27:469-474 · PMID 11055430",
+    "Peyron C et al. (2000). A mutation in a case of early onset narcolepsy and a generalized absence of hypocretin peptides in human narcoleptic brains. Nat Med 6:991-997 · PMID 10973318"
+   ],
+   "relAdd": []
+  },
+  "ppp": {
+   "secAdd": [
+    {
+     "t": "Estudio orgánico inicial",
+     "x": "Ante todo primer episodio de psicosis posparto debe descartarse una causa médica antes de atribuirlo al espectro bipolar. En 96 pacientes consecutivas, el 4 % presentaba reactividad sérica frente a antígenos de la superficie neuronal; dos tenían anticuerpos anti-receptor NMDA confirmados, sin teratoma ovárico, y ambas desarrollaron síntomas extrapiramidales tras iniciar haloperidol a dosis bajas; ninguna de las 64 puérperas de comparación tuvo anticuerpos confirmados (Bergink 2015, encefalitis autoinmune). La autoinmunidad tiroidea (anticuerpos antiperoxidasa) estaba presente a las 4 semanas en el 19 % de las primíparas con psicosis posparto frente al 5 % de las controles, y entre las mujeres con autoinmunidad tiroidea la progresión a disfunción tiroidea clínica fue del 67 % con psicosis posparto frente al 20 % en las controles (Bergink 2011), lo que justifica determinar anticuerpos antiperoxidasa y función tiroidea al ingreso y durante el seguimiento. La aparición de signos neurológicos, extrapiramidalismo precoz con antipsicóticos o fluctuación del nivel de conciencia obliga a ampliar el estudio (neuroimagen, electroencefalograma, punción lumbar) y a considerar delirium por infección, eclampsia o trombosis venosa cerebral [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "nmda",
+        "sreat"
+       ],
+       "t": "encefalitis autoinmunes"
+      },
+      {
+       "ids": [
+        "endocrino"
+       ],
+       "t": "síndromes psiquiátricos endocrinos"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "A corto plazo, el pronóstico con tratamiento estructurado es favorable: con un algoritmo secuencial de benzodiacepina, antipsicótico, litio y TEC, el 98,4 % de 64 mujeres con un primer episodio alcanzó la remisión completa en los tres primeros pasos, ninguna necesitó TEC y el 79,7 % mantenía la remisión a los 9 meses; las mantenidas con litio recayeron significativamente menos que las mantenidas con antipsicótico en monoterapia (comparación no aleatorizada: la pauta de mantenimiento dependía del paso en que se alcanzó la remisión), y la multiparidad y la psicosis no afectiva fueron factores de riesgo de recaída (Bergink 2015, tratamiento). A largo plazo, en un metaanálisis de 6 estudios (645 pacientes, seguimiento de 11 a 26 años), el 43,5 % (IC 95 % 37,7-49,4) no presentó episodios graves fuera del puerperio («psicosis posparto aislada»), mientras que el resto sí los tuvo (Gilden 2020). Por ello, tras un primer episodio conviene planificar el seguimiento psiquiátrico prolongado y el consejo preconcepcional sobre profilaxis en futuros embarazos.",
+     "links": [
+      {
+       "ids": [
+        "lm_bip",
+        "tec_dep"
+       ],
+       "t": "litio y TEC"
+      },
+      {
+       "ids": [
+        "tb1",
+        "tb_embarazo"
+       ],
+       "t": "evolución a trastorno bipolar y planificación del embarazo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bergink V et al. (2015). Autoimmune encephalitis in postpartum psychosis. Am J Psychiatry 172:901-908 · PMID 26183699",
+    "Bergink V et al. (2011). Prevalence of autoimmune thyroid dysfunction in postpartum psychosis. Br J Psychiatry 198:264-268 · PMID 21343331",
+    "Gilden J et al. (2020). Long-term outcomes of postpartum psychosis: a systematic review and meta-analysis. J Clin Psychiatry 81:19r12906 · PMID 32160423"
+   ],
+   "relAdd": [
+    "nmda",
+    "endocrino",
+    "lm_bip",
+    "tec_dep",
+    "tb1"
+   ]
+  },
+  "privacion_instit": {
+   "secAdd": [
+    {
+     "t": "Períodos sensibles y sistemas biológicos",
+     "x": "El BEIP ha permitido estudiar de forma experimental si existe un momento a partir del cual el cambio de entorno pierde eficacia. Apego: a los 42 meses, la clasificación del apego de los niños y niñas en acogimiento familiar difería notablemente de la de quienes seguían en la institución, y quienes fueron acogidos antes de los 24 meses tenían más probabilidad de apego seguro y, cuanto antes fueron acogidos, menos apego desorganizado (Smyke 2010). Actividad cerebral: a los 8 años, el acogimiento aumentó la potencia alfa de alta frecuencia del electroencefalograma, reducida por la privación, con efecto más marcado en quienes fueron acogidos antes de los 24 meses (Vanderwert 2010). Sistemas de respuesta al estrés: hacia los 13 años, quienes permanecieron institucionalizados mostraron respuestas simpáticas y del eje hipotálamo-hipófisis-suprarrenal aplanadas ante el estrés psicosocial, mientras que las de quienes fueron asignados a acogimiento se aproximaban a las de la población general; el efecto sobre el cortisol y la reactividad parasimpática solo apareció con acogimiento antes de los 24 y 18 meses, respectivamente, y difiere de la hiperreactividad descrita en roedores (McLaughlin 2015). La convergencia en torno a los 2 años en dominios distintos sustenta la idea de un período sensible humano, aunque cada umbral procede de análisis por subgrupos de una misma muestra.",
+     "links": [
+      {
+       "ids": [
+        "rad",
+        "apego"
+       ],
+       "t": "apego y trastorno de apego reactivo"
+      },
+      {
+       "ids": [
+        "stress",
+        "hha_tept"
+       ],
+       "t": "respuesta al estrés y eje HHS"
+      },
+      {
+       "ids": [
+        "neurodev"
+       ],
+       "t": "neurodesarrollo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Smyke AT et al. (2010). Placement in foster care enhances quality of attachment among young institutionalized children. Child Dev 81:212-223 · PMID 20331663",
+    "Vanderwert RE et al. (2010). Timing of intervention affects brain electrical activity in children exposed to severe psychosocial neglect. PLoS One 5:e11415 · PMID 20617175",
+    "McLaughlin KA et al. (2015). Causal effects of the early caregiving environment on development of stress response systems in children. Proc Natl Acad Sci U S A 112:5637-5642 · PMID 25902515"
+   ],
+   "relAdd": [
+    "hha_tept"
+   ]
+  },
+  "sero_impuls_agr": {
+   "secAdd": [
+    {
+     "t": "Evidencia farmacológica y genética",
+     "x": "Si la hipótesis fuera cierta, potenciar la serotonina debería reducir la agresión impulsiva. En un ensayo doble ciego con 40 personas con trastorno de la personalidad (DSM-III-R) e historia actual de agresión impulsiva e irritabilidad, sin depresión mayor, trastorno bipolar ni esquizofrenia, la fluoxetina redujo de forma sostenida las subescalas de irritabilidad y agresión de la Overt Aggression Scale a partir del segundo y tercer mes, sin que el efecto dependiera de los cambios en depresión, ansiedad o consumo de alcohol (Coccaro y Kavoussi 1997). La manipulación inversa, la depleción aguda de triptófano, se ha estudiado sobre todo en el TDAH: una revisión sistemática de 14 estudios concluyó que puede modificar la agresión reactiva, pero con muestras pequeñas y heterogéneas que impidieron el metaanálisis previsto (Dinu 2022). En el plano genético, el déficit completo de monoaminooxidasa A por una mutación puntual se asoció en una familia neerlandesa a discapacidad intelectual límite y a agresión impulsiva (Brunner 1993), un síndrome monogénico excepcional que no debe extrapolarse a los polimorfismos comunes; la interacción entre el genotipo de MAOA y el maltrato infantil y sus límites se tratan en otra ficha. Ninguno de estos datos autoriza inferencias individuales de peligrosidad.",
+     "links": [
+      {
+       "ids": [
+        "fluoxetina",
+        "isrs"
+       ],
+       "t": "ISRS en la agresión impulsiva"
+      },
+      {
+       "ids": [
+        "tpb",
+        "tdah"
+       ],
+       "t": "trastornos de la personalidad del grupo B y TDAH"
+      },
+      {
+       "ids": [
+        "maoa_gxe"
+       ],
+       "t": "MAOA y maltrato infantil"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Coccaro EF & Kavoussi RJ (1997). Fluoxetine and impulsive aggressive behavior in personality-disordered subjects. Arch Gen Psychiatry 54:1081-1088 · PMID 9400343",
+    "Dinu LM, Phattharakulnij N & Dommett EJ (2022). Tryptophan modulation in individuals with attention deficit hyperactivity disorder: a systematic review. J Neural Transm (Vienna) 129:361-377 · PMID 35286460",
+    "Brunner HG et al. (1993). Abnormal behavior associated with a point mutation in the structural gene for monoamine oxidase A. Science 262:578-580 · PMID 8211186"
+   ],
+   "relAdd": [
+    "maoa_gxe",
+    "fluoxetina",
+    "tpb"
+   ]
+  },
+  "sertralina": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "Según la ficha técnica de Besitran (apartado 5.1), la sertralina es un inhibidor potente y selectivo de la recaptación neuronal de serotonina in vitro, con un efecto muy leve sobre la recaptación de noradrenalina y dopamina; a dosis clínicas bloquea la captación de serotonina por las plaquetas humanas, lo que concuerda con el riesgo de sangrado descrito en la ficha. No presenta afinidad por los receptores muscarínicos, serotoninérgicos, dopaminérgicos, adrenérgicos, histaminérgicos, del GABA ni de benzodiacepinas, y en animales carece de actividad estimulante, sedante, anticolinérgica o cardiotóxica; la administración crónica se asoció a una disminución de la sensibilidad de los receptores noradrenérgicos cerebrales, como con otros antidepresivos. La ficha recoge además un ensayo aleatorizado de potencial de abuso en el que, a diferencia del alprazolam y la d-anfetamina, la sertralina no produjo efectos subjetivos positivos indicativos de abuso. En el TEPT, el análisis combinado de los ensayos en población general mostró menor respuesta en hombres, aunque en los dos estudios positivos las tasas frente a placebo fueron similares por sexo (mujeres 57,2 % frente a 34,5 %; hombres 53,9 % frente a 38,2 %) (ficha técnica, 5.1).",
+     "links": [
+      {
+       "ids": [
+        "isrs",
+        "monoamin"
+       ],
+       "t": "ISRS e hipótesis monoaminérgica"
+      },
+      {
+       "ids": [
+        "cyp2c19",
+        "cpic_isrs"
+       ],
+       "t": "farmacogenética"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia en ansiedad, TOC y TEPT",
+     "x": "En el TOC pediátrico (indicación autorizada desde los 6 años), el ensayo POTS (112 participantes de 7 a 17 años) mostró que las tres modalidades activas redujeron la CY-BOCS más que el placebo y que la combinación de TCC y sertralina fue superior a cada monoterapia; las tasas de remisión fueron del 53,6 % con la combinación, del 39,3 % con TCC, del 21,4 % con sertralina sola y del 3,6 % con placebo, y la sertralina sola no difirió significativamente del placebo en la tasa de remisión, por lo que los autores recomiendan iniciar con TCC sola o combinada (POTS 2004). En la ansiedad infantil (separación, generalizada o social; uso fuera de las indicaciones de la ficha española), el ensayo CAMS (488 participantes de 7 a 17 años) obtuvo mejoría clínica en el 80,7 % con la combinación, el 59,7 % con TCC y el 54,9 % con sertralina, frente al 23,7 % con placebo, sin más ideación suicida u homicida con sertralina que con placebo (Walkup 2008). En el TEPT de adultos (187 pacientes, el 61,5 % con agresión física o sexual), la tasa de respuesta fue del 53 % frente al 32 % con placebo, con eficacia sobre la evitación-embotamiento y la hiperactivación pero no sobre la reexperimentación, y el insomnio fue el único efecto adverso más frecuente que con placebo (Brady 2000).",
+     "links": [
+      {
+       "ids": [
+        "toc_ped",
+        "toc_dsm"
+       ],
+       "t": "TOC pediátrico y del adulto"
+      },
+      {
+       "ids": [
+        "anx_sep",
+        "tag",
+        "fobia_soc"
+       ],
+       "t": "trastornos de ansiedad"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "TEPT"
+      },
+      {
+       "ids": [
+        "tcc_inf"
+       ],
+       "t": "TCC en la infancia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Pediatric OCD Treatment Study (POTS) Team (2004). Cognitive-behavior therapy, sertraline, and their combination for children and adolescents with obsessive-compulsive disorder: the Pediatric OCD Treatment Study (POTS) randomized controlled trial. JAMA 292:1969-1976 · PMID 15507582",
+    "Walkup JT et al. (2008). Cognitive behavioral therapy, sertraline, or a combination in childhood anxiety. N Engl J Med 359:2753-2766 · PMID 18974308",
+    "Brady K et al. (2000). Efficacy and safety of sertraline treatment of posttraumatic stress disorder: a randomized controlled trial. JAMA 283:1837-1844 · PMID 10770145",
+    "AEMPS-CIMA (2026). Ficha técnica de Besitran 50 mg comprimidos recubiertos con película (sertralina) (nº de registro 59717), apartado 5.1 (propiedades farmacodinámicas); consulta de noviembre de 2026"
+   ],
+   "relAdd": [
+    "toc_ped",
+    "tag",
+    "anx_sep",
+    "tcc_inf"
+   ]
+  },
+  "tics_tr": {
+   "secAdd": [
+    {
+     "t": "Evaluación, evidencia y controversias",
+     "x": "La gravedad se cuantifica con la Yale Global Tic Severity Scale (YGTSS), heteroaplicada, que valora número, frecuencia, intensidad, complejidad e interferencia de los tics motores y fónicos y mostró validez de constructo, convergente y discriminante en 105 personas de 5 a 51 años (Leckman 1989). La creencia de que los tics provisionales suelen desaparecer en pocos meses se basa en datos sesgados e incompletos: en un seguimiento prospectivo de 39 niños y niñas con tics de inicio reciente, la gravedad mejoró como grupo y solo dos tenían deterioro más que mínimo, pero los tics persistían en todos al cumplirse el año, en algunos casos solo visibles mediante observación remota por vídeo; la gravedad inicial, los síntomas subsindrómicos del espectro autista y un trastorno de ansiedad predijeron la evolución (Kim 2019). En tratamiento, el ensayo aleatorizado de la intervención conductual integral para tics (126 participantes de 9 a 17 años con Tourette o trastorno de tics crónico) logró más participantes valorados como «muy mejorados» o «mucho mejorados» que la terapia de apoyo y educación (52,5 % frente a 18,5 %; NNT 3), con baja tasa de abandono y beneficio mantenido a 6 meses en el 87 % de quienes respondieron (Piacentini 2010).",
+     "links": [
+      {
+       "ids": [
+        "tourette",
+        "tics"
+       ],
+       "t": "Tourette y semiología de los tics"
+      },
+      {
+       "ids": [
+        "tea"
+       ],
+       "t": "rasgos autistas subsindrómicos como predictor"
+      },
+      {
+       "ids": [
+        "tcc_inf"
+       ],
+       "t": "terapia conductual en la infancia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leckman JF et al. (1989). The Yale Global Tic Severity Scale: initial testing of a clinician-rated scale of tic severity. J Am Acad Child Adolesc Psychiatry 28:566-573 · PMID 2768151",
+    "Kim S et al. (2019). Provisional tic disorder is not so transient. Sci Rep 9:3951 · PMID 30850688",
+    "Piacentini J et al. (2010). Behavior therapy for children with Tourette disorder: a randomized controlled trial. JAMA 303:1929-1937 · PMID 20483969"
+   ],
+   "relAdd": [
+    "tcc_inf"
+   ],
+   "secReplace": [
+    {
+     "t": "Curso y pronóstico",
+     "x": "La enseñanza clásica de que la mayoría de los tics provisionales desaparece en pocos meses se apoya en datos sesgados e incompletos y no se sostiene en el seguimiento prospectivo: en la cohorte de Kim (2019), los tics persistían al cumplirse el año en los 39 niños y niñas reevaluados, aunque la gravedad mejoró como grupo y solo dos tenían deterioro más que mínimo, de modo que la remisión en el primer año parece la excepción y no la regla (véase «Evaluación, evidencia y controversias»). En los crónicos y en el Tourette, la gravedad suele alcanzar su máximo hacia los 10-12 años y disminuye en la adolescencia, con remisión o atenuación marcada en la adultez en la mayoría de los casos [fuente no localizada] (véase la ficha de síndrome de Tourette). El pronóstico funcional depende más del TDAH, el TOC y los problemas de regulación emocional comórbidos que de los tics [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tourette",
+        "tics"
+       ],
+       "t": "evolución del Tourette y de los tics"
+      }
+     ]
+    }
+   ]
+  },
+  "tept_parto": {
+   "secAdd": [
+    {
+     "t": "Evidencia sobre prevención y tratamiento",
+     "x": "La revisión Cochrane sobre el debriefing posparto (7 ensayos, la mayoría de baja calidad) no halló evidencia de alta calidad de beneficio ni de daño para prevenir el trauma psicológico tras el parto y concluyó que no hay base para el debriefing sistemático de las mujeres que viven el parto como traumático (Bastos 2015). Un metaanálisis posterior de 41 estudios matiza el panorama: las intervenciones aleatorizadas de prevención secundaria tras un parto traumático redujeron los síntomas frente a la atención habitual (diferencia de medias estandarizada −0,67), con mayor efecto de las terapias breves estructuradas centradas en el trauma (−0,95) y del asesoramiento psicológico semiestructurado basado en el diálogo y dirigido por matronas (−0,91); la sesión única en las primeras 96 horas también fue útil (−0,55), y la prevención terciaria en mujeres con TEPT probable tuvo un efecto menor (−0,37) (Dekel 2024). En el tratamiento, las psicoterapias centradas en el trauma (exposición, TCC centrada en el trauma, EMDR) redujeron los síntomas a corto y medio plazo en 11 estudios con 2677 mujeres, pero sin evidencia sólida de recuperación del TEPT clínicamente significativo (Furuta 2018).",
+     "links": [
+      {
+       "ids": [
+        "emdr_proc",
+        "epr"
+       ],
+       "t": "EMDR y terapias de exposición"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "tratamiento del TEPT"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bastos MH et al. (2015). Debriefing interventions for the prevention of psychological trauma in women following childbirth. Cochrane Database Syst Rev (4):CD007194 · PMID 25858181",
+    "Dekel S et al. (2024). Preventing posttraumatic stress disorder following childbirth: a systematic review and meta-analysis. Am J Obstet Gynecol 230:610-641.e14 · PMID 38122842",
+    "Furuta M et al. (2018). Effectiveness of trauma-focused psychological therapies for treating post-traumatic stress disorder symptoms in women following childbirth: a systematic review and meta-analysis. Front Psychiatry 9:591 · PMID 30515108"
+   ],
+   "relAdd": [
+    "emdr_proc"
+   ]
+  }
+ },
+ "add": []
+}

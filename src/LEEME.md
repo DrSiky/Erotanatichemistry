@@ -25,6 +25,8 @@ El build se detiene si hay ids duplicados, relaciones rotas, figuras sin fichero
 
 - Solo se afirma lo que tiene base documental sólida (guías, clasificaciones oficiales, revisiones sistemáticas, PubMed).
 - Lo no verificable se conserva con el marcador literal `[fuente no localizada]` (códigos CIE-11: `[fuente oficial no localizada]`; referencias: `[no verificada]`).
+  El visor los muestra como símbolos: `[Ø]`/`[ø]` (fuente no localizada y sus variantes) y `[∆]`/`[δ]` (referencia no verificada y sus variantes), con el texto íntegro en la descripción emergente. Por eso las variantes detalladas deben contener «no localizad…» o «no verificad…».
+- Sin perífrasis del tipo «no se ha podido contrastar»: se dice lo que se sabe con la fuente disponible, aunque sea pobre o antigua («solo hay datos de 1998; se sabe que…»), y se marca con el símbolo lo que no tiene fuente. Si lo no verificado no aporta nada, se omite. Las ausencias de evidencia se enuncian en positivo («no constan ensayos…»), sin marcador redundante. Los pies de lámina no repiten la leyenda de las marcas, que está en «Criterios editoriales».
 - Sin posología individualizada: solo límites literales de ficha técnica, citando la ficha.
 - Redacción neutra en género y no patologizante en orientación sexual e identidad de género.
 

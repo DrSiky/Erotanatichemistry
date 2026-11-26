@@ -1,0 +1,772 @@
+{
+ "patch": {
+  "enc_hep": {
+   "secAdd": [
+    {
+     "t": "Mecanismos: amoniaco, astrocito y neuroinflamación",
+     "x": "La guía conjunta AASLD-EASL define la encefalopatía hepática como una disfunción cerebral causada por insuficiencia hepática o por derivación portosistémica, con un espectro que va de alteraciones subclínicas al coma (Vilstrup et al. 2014) [fuente no localizada para el texto literal, cuyo resumen no consta en la base de datos]. El mecanismo central es nitrogenado: la alteración del ciclo de la urea eleva el amoniaco circulante, que entra en el cerebro y desorganiza las vías metabólicas del astrocito, con estrés oxidativo y edema; en paralelo, quimiocinas y citocinas activan la microglía y producen una respuesta neuroinflamatoria, y la combinación de disfunción astrocitaria y activación microglial es lo que contribuye de forma significativa al cuadro (Jaeger et al. 2019). La amoniemia aislada no gradúa la gravedad ni sustituye a la valoración clínica: el modelo actual combina amoniaco, inflamación y alteración circulatoria, y las secuelas cognitivas pueden persistir después del trasplante hepático (García-Martínez y Córdoba 2011). Esto importa en psiquiatría porque explica por qué el cuadro fluctúa, por qué revierte al corregir el factor precipitante y por qué el pronóstico es serio: en la cirrosis, la supervivencia a un año tras un episodio de encefalopatía manifiesta es inferior al 50 % (Jaeger et al. 2019).",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "obnub"
+       ],
+       "t": "delirium y nivel de conciencia"
+      },
+      {
+       "ids": [
+        "inflam"
+       ],
+       "t": "inflamación y síntomas psiquiátricos"
+      },
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "evaluación neuropsicológica"
+      }
+     ]
+    },
+    {
+     "t": "Tono GABAérgico, flumazenilo y uso de psicofármacos",
+     "x": "La sensibilidad extrema a los sedantes se ha atribuido a un aumento del tono inhibidor GABAérgico. El dato clínico que más la apoya es indirecto: en una revisión Cochrane, el flumazenilo, antagonista del sitio benzodiacepínico, mejoró la encefalopatía a corto plazo frente a placebo (riesgo relativo 0,75; IC 95 % 0,71-0,80; nueve ensayos, 824 participantes), sin efecto sobre la mortalidad por cualquier causa (RR 0,75; IC 95 % 0,48-1,16; once ensayos), con evidencia de calidad baja (Goh et al. 2017). No es, por tanto, un tratamiento de la encefalopatía, y su papel se limita a la sospecha de sedación por benzodiacepinas, con riesgo de convulsiones; tampoco demuestra que exista un ligando benzodiacepínico endógeno en la persona con cirrosis [fuente no localizada]. En la práctica psicofarmacológica la regla es evitar lo que aumente el tono inhibidor o la carga anticolinérgica y vigilar la acumulación por metabolismo hepático reducido y menor unión a proteínas. Cuando ya se usan benzodiacepinas, su retirada debe ser progresiva y vigilada, porque la abstinencia también precipita cuadros confusionales. Las condiciones de uso en insuficiencia hepática constan en la ficha técnica de cada fármaco.",
+     "links": [
+      {
+       "ids": [
+        "bzd_mayor",
+        "ansiol_bzd"
+       ],
+       "t": "benzodiacepinas"
+      },
+      {
+       "ids": [
+        "fk_mayor",
+        "polifarm"
+       ],
+       "t": "farmacocinética y polifarmacia"
+      },
+      {
+       "ids": [
+        "delirium",
+        "cam"
+       ],
+       "t": "delirium y su cribado"
+      }
+     ]
+    },
+    {
+     "t": "Factores precipitantes y comorbilidad metabólica",
+     "x": "Los factores que precipitan la descompensación grave de la cirrosis están descritos: infección, consumo excesivo de alcohol, hemorragia y encefalopatía inducida por fármacos, en concreto benzodiacepinas y opioides (Trebicka et al. 2025). La insuficiencia hepática crónica agudizada afecta al 35 % de las personas hospitalizadas por cirrosis descompensada y tiene una mortalidad a 28 días del 45 %; no hay fármaco aprobado para ella y solo se tratan su causa y sus precipitantes (Trebicka et al. 2025). Entre los factores de riesgo del primer episodio figura la diabetes: en 862 personas con cirrosis y ascitis sin encefalopatía previa, la razón de riesgos instantáneos ajustada fue de 1,86 (IC 95 % 1,20-2,87), y los episodios progresaron con más frecuencia a los grados III-IV (64 % frente a 42 %) (Jepsen et al. 2015). La consecuencia para la consulta de salud mental es directa: ante irritabilidad, apatía, inversión del ritmo sueño-vigilia o conducta inapropiada en una persona con cirrosis, la búsqueda del factor precipitante precede a cualquier atribución psicógena o caracterial.",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "dt_alc"
+       ],
+       "t": "alcohol y abstinencia"
+      },
+      {
+       "ids": [
+        "bzd_mayor"
+       ],
+       "t": "sedantes como precipitantes"
+      },
+      {
+       "ids": [
+        "apatia",
+        "dep_med"
+       ],
+       "t": "apatía y depresión en enfermedad médica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Jaeger V, DeMorrow S & McMillin M (2019). The direct contribution of astrocytes and microglia to the pathogenesis of hepatic encephalopathy. J Clin Transl Hepatol 7:352-361 · PMID 31915605",
+    "García-Martínez R & Córdoba J (2011). Acute-on-chronic liver failure: the brain. Curr Opin Crit Care 17:177-183 · PMID 21346567",
+    "Goh ET et al. (2017). Flumazenil versus placebo or no intervention for people with cirrhosis and hepatic encephalopathy. Cochrane Database Syst Rev 8:CD002798 · PMID 28796283",
+    "Trebicka J et al. (2025). Acute-on-chronic liver failure. Dtsch Arztebl Int 122:96-102 · PMID 39773823",
+    "Jepsen P et al. (2015). Diabetes as a risk factor for hepatic encephalopathy in cirrhosis patients. J Hepatol 63:1133-1138 · PMID 26206073"
+   ],
+   "relAdd": [
+    "bzd_mayor",
+    "polifarm",
+    "fk_mayor",
+    "cam",
+    "dep_med",
+    "apatia",
+    "neuropsico",
+    "perit_forense"
+   ]
+  },
+  "em_neuro": {
+   "secAdd": [
+    {
+     "t": "Mecanismos: cuatro vías, no una",
+     "x": "Conviene separar vías que la clínica mezcla. Primera, el daño estructural: frente a 19 personas con esclerosis múltiple eutímicas, 21 con depresión mayor tenían mayor volumen lesional en T2, más lesión en T1 en la corteza prefrontal inferomedial izquierda y menos sustancia gris y más líquido cefalorraquídeo en la región temporal anterior izquierda; el volumen lesional en T2 prefrontal inferomedial izquierdo y el volumen de líquido temporal anterior izquierdo explicaron el 42 % de la varianza (Feinstein et al. 2004). Segunda, la inflamación: la activación inmunitaria se ha vinculado a depresión en otras enfermedades inflamatorias, pero en esclerosis múltiple no está demostrado que explique el cuadro afectivo [fuente no localizada]. Tercera, la carga psicosocial: diagnóstico en la juventud, curso imprevisible, pérdida de empleo y de autonomía, y cambios en la vida sexual y relacional. Cuarta, los tratamientos. A ello se añade la desconexión corticobulbar del afecto pseudobulbar: que respondiera a dextrometorfano con quinidina en 150 personas, con reducción de la escala de labilidad del Center for Neurologic Study mayor que con placebo en todas las visitas (p < 0,0001) y mejoría del número de episodios de llanto o risa y de la calidad de vida, apoya que sea un trastorno de la expresión motora de la emoción y no del estado de ánimo (Panitch et al. 2006).",
+     "links": [
+      {
+       "ids": [
+        "labil_incont"
+       ],
+       "t": "afecto pseudobulbar"
+      },
+      {
+       "ids": [
+        "inflam",
+        "inmunometab_dep"
+       ],
+       "t": "inflamación y depresión"
+      },
+      {
+       "ids": [
+        "corticoides_psiq",
+        "mania_sec"
+       ],
+       "t": "corticoides y manía secundaria"
+      },
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      }
+     ]
+    },
+    {
+     "t": "Perfil cognitivo y su medida",
+     "x": "Los dominios afectados están bien delimitados: atención compleja, eficiencia del procesamiento de la información, función ejecutiva, velocidad de procesamiento y memoria a largo plazo, con repercusión en la vida diaria, la participación social y el mantenimiento del empleo (Chiaravalloti y DeLuca 2008). La revisión más reciente señala que la velocidad de procesamiento y la memoria episódica son los dominios afectados con más frecuencia, que la atrofia de sustancia gris es un signo precoz de posible declive y que limitar la evaluación a esas áreas permite una exploración breve y repetible en consulta; la prueba de sustitución de símbolos y dígitos, por su brevedad, fiabilidad y sensibilidad, sirve para vigilar los episodios de actividad de la enfermedad y los datos muestran que velocidad de procesamiento y memoria responden al entrenamiento cognitivo (Benedict et al. 2020). La consecuencia práctica y pericial es que una queja cognitiva en esclerosis múltiple no debe atribuirse sin más a depresión, ni al revés, y que la fatiga y el enlentecimiento se solapan con ambas.",
+     "links": [
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "evaluación neuropsicológica"
+      },
+      {
+       "ids": [
+        "disejec"
+       ],
+       "t": "síndrome disejecutivo"
+      },
+      {
+       "ids": [
+        "fatdep"
+       ],
+       "t": "fatiga"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "contexto pericial"
+      }
+     ]
+    },
+    {
+     "t": "Riesgo de muerte por suicidio: qué dicen las cohortes",
+     "x": "Los datos no son concordantes y conviene exponerlos como tales. En una cohorte sueca de 29.617 personas con esclerosis múltiple frente a 296.164 personas de la población general, la razón de riesgos instantáneos ajustada fue de 2,18 (IC 95 % 1,97-2,43) para la tentativa de suicidio y de 1,87 (IC 95 % 1,53-2,30) para la muerte por suicidio (Brenner et al. 2016). En cambio, en 27.603 casos prevalentes de 15 centros franceses, con 47 muertes por suicidio entre 1.569 fallecimientos, las razones de mortalidad estandarizada se situaron alrededor de 1 en varios análisis de sensibilidad, sin exceso frente a la población general, con una edad al fallecimiento menor y un intervalo desde el inicio clínico más corto que en las otras causas de muerte (Kalson-Ray et al. 2017). La guía de la American Academy of Neurology considera insuficiente la evidencia sobre los factores de riesgo de muerte por suicidio en esta población (Minden et al. 2014). La lectura prudente es explorar el riesgo de forma activa, sobre todo cuando coinciden depresión, consumo de alcohol, aislamiento y progresión reciente de la discapacidad, sin presentar la enfermedad como determinante de un desenlace.",
+     "links": [
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "evaluación del riesgo suicida"
+      },
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "consumo de alcohol"
+      }
+     ]
+    },
+    {
+     "t": "Interferón beta y síntomas depresivos",
+     "x": "La advertencia sobre depresión asociada al interferón beta llegó a restringir su indicación, pero la evidencia acumulada no la sostiene. Una revisión sistemática de diez estudios encontró que solo tres apoyaban una asociación, estadísticamente significativa en algunos pacientes al inicio del tratamiento, y que quienes la presentaban tenían antecedente de depresión y la desarrollaban en los primeros seis meses; los demás estudios, incluidos los ensayos BENEFIT, BEYOND y de seguimiento a largo plazo, no hallaron relación, de modo que el antecedente de depresión es un factor de riesgo pero no basta para contraindicar el tratamiento (Alba Palé et al. 2017). En un metaanálisis de nueve ensayos aleatorizados frente a placebo con 3.980 participantes, el riesgo relativo de muerte por suicidio o tentativa fue de 0,86 (IC 95 % 0,41-1,79), calculado sobre los cinco ensayos que aportaron ese dato, mientras que la discontinuación por efectos adversos sí fue más frecuente con interferón (RR 2,76; IC 95 % 1,97-3,89) (Nikfar et al. 2010). La guía de la American Academy of Neurology mantiene que la evidencia es insuficiente para determinar los efectos psiquiátricos de los tratamientos modificadores de la enfermedad y de los corticoides (Minden et al. 2014).",
+     "links": [
+      {
+       "ids": [
+        "dep_med"
+       ],
+       "t": "depresión en enfermedad médica"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "iatrog_farm",
+        "dep_induc"
+       ],
+       "t": "síntomas psiquiátricos inducidos por fármacos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Feinstein A et al. (2004). Structural brain abnormalities in multiple sclerosis patients with major depression. Neurology 62:586-590 · PMID 14981175",
+    "Chiaravalloti ND & DeLuca J (2008). Cognitive impairment in multiple sclerosis. Lancet Neurol 7:1139-1151 · PMID 19007738",
+    "Benedict RHB et al. (2020). Cognitive impairment in multiple sclerosis: clinical management, MRI, and therapeutic avenues. Lancet Neurol 19:860-871 · PMID 32949546",
+    "Brenner P et al. (2016). Multiple sclerosis and risk of attempted and completed suicide: a cohort study. Eur J Neurol 23:1329-1336 · PMID 27120108",
+    "Kalson-Ray S, Edan G & Leray E (2017). An excessive risk of suicide may no longer be a reality for multiple sclerosis patients. Mult Scler 23:864-871 · PMID 28299961",
+    "Panitch HS et al. (2006). Randomized, controlled trial of dextromethorphan/quinidine for pseudobulbar affect in multiple sclerosis. Ann Neurol 59:780-787 · PMID 16634036",
+    "Alba Palé L et al. (2017). Systematic review of depression in patients with multiple sclerosis and its relationship to interferon-β treatment. Mult Scler Relat Disord 17:138-143 · PMID 29055445",
+    "Nikfar S, Rahimi R & Abdollahi M (2010). A meta-analysis of the efficacy and tolerability of interferon-β in multiple sclerosis, overall and by drug and disease type. Clin Ther 32:1871-1888 · PMID 21095482"
+   ],
+   "relAdd": [
+    "neuropsico",
+    "inflam",
+    "inmunometab_dep",
+    "fatdep",
+    "tpsc_med",
+    "alcohol",
+    "perit_forense",
+    "iatrog_farm"
+   ]
+  },
+  "recompensa": {
+   "relAdd": [
+    "rpe_refuerzo"
+   ]
+  },
+  "saliencia": {
+   "relAdd": [
+    "rpe_refuerzo"
+   ]
+  },
+  "anhed": {
+   "relAdd": [
+    "rpe_refuerzo"
+   ]
+  },
+  "incent_sensib": {
+   "relAdd": [
+    "rpe_refuerzo"
+   ]
+  },
+  "adiccion_3fases": {
+   "relAdd": [
+    "rpe_refuerzo"
+   ]
+  },
+  "zuranolona": {
+   "relAdd": [
+    "neuroesteroides"
+   ]
+  },
+  "brexanolona": {
+   "relAdd": [
+    "neuroesteroides"
+   ]
+  },
+  "neuroester_repro": {
+   "relAdd": [
+    "neuroesteroides"
+   ]
+  },
+  "gaba_interneur": {
+   "relAdd": [
+    "neuroesteroides"
+   ]
+  },
+  "dpp": {
+   "relAdd": [
+    "neuroesteroides"
+   ]
+  },
+  "nar": {
+   "relAdd": [
+    "orexina_sist"
+   ]
+  },
+  "orexina": {
+   "relAdd": [
+    "orexina_sist"
+   ]
+  },
+  "daridorexant": {
+   "relAdd": [
+    "orexina_sist"
+   ]
+  },
+  "insom": {
+   "relAdd": [
+    "orexina_sist"
+   ]
+  },
+  "hips_idiop": {
+   "relAdd": [
+    "orexina_sist"
+   ]
+  },
+  "labil_incont": {
+   "relAdd": [
+    "dep_med"
+   ]
+  },
+  "bzd_mayor": {
+   "relAdd": [
+    "enc_hep"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "rpe_refuerzo",
+   "n": "Error de predicción de recompensa y aprendizaje por refuerzo",
+   "ab": "Error de predicción",
+   "al": [
+    "reward prediction error",
+    "RPE",
+    "aprendizaje por diferencias temporales",
+    "temporal difference learning",
+    "reinforcement learning",
+    "psiquiatría computacional"
+   ],
+   "k": "mod",
+   "vw": "eti",
+   "sp": "cmp",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "obs",
+   "y": 1997,
+   "tags": [
+    "chemsex"
+   ],
+   "desc": "El error de predicción de recompensa es la diferencia entre la recompensa obtenida y la esperada. Los modelos de aprendizaje por refuerzo de diferencias temporales lo usan para actualizar el valor de estímulos y acciones, y la actividad fásica de las neuronas dopaminérgicas del mesencéfalo se comporta como esa señal: aumenta ante una recompensa mejor de lo previsto, no cambia ante la totalmente prevista y desciende por debajo de su actividad basal cuando la recompensa esperada no llega (Schultz 1997; Montague 1996). La psiquiatría computacional aplica estos modelos para descomponer síntomas como la anhedonia, el delirio o la búsqueda compulsiva en parámetros medibles, como la sensibilidad a la recompensa, la tasa de aprendizaje o la magnitud de la señal de error (Huys 2016). Esta ficha recoge el modelo formal y sus pruebas en clínica; el circuito anatómico se trata en la ficha del circuito de recompensa.",
+   "feats": [
+    "Marco teórico: la actividad de las neuronas dopaminérgicas por encima y por debajo de su nivel basal representaría errores en las predicciones de recompensa futura generadas por la corteza, y esas fluctuaciones modificarían la plasticidad sináptica para corregir las predicciones (Montague 1996)",
+    "Prueba del bloqueo: en monos, la respuesta dopaminérgica a un estímulo condicionado y el aprendizaje conductual aparecieron sobre todo cuando había error de predicción en el momento de la recompensa, y no cuando la recompensa ya estaba plenamente predicha por otro estímulo (Waelti 2001)",
+    "Causalidad en roedores: la activación optogenética de neuronas dopaminérgicas en el momento de la recompensa, imitando un error de predicción, bastó para producir aumentos duraderos de la búsqueda de recompensa provocada por señales en procedimientos de bloqueo y extinción (Steinberg 2013)",
+    "En humanos sanos, la magnitud del error de predicción expresado en el estriado aumentó con levodopa y disminuyó con haloperidol, y quienes recibieron levodopa eligieron con más frecuencia la acción más recompensada; un algoritmo de aprendizaje de valores de acción reprodujo esas elecciones (Pessiglione 2006)",
+    "Depresión: un metaanálisis bayesiano basado en modelos (seis conjuntos de datos, 392 sesiones) halló que la depresión mayor y la anhedonia reducían más la sensibilidad a la recompensa que la tasa de aprendizaje, mientras que el pramipexol a dosis baja mostró el patrón opuesto (Huys 2013)",
+    "Psicosis: en 23 estudios de resonancia funcional (917 pacientes) hubo hipoactivación bilateral del estriado ventral durante la anticipación de la recompensa (d de −0,50 y −0,70), más intensa con más síntomas negativos; los datos sobre error de predicción (8 estudios, 314 pacientes) se consideraron prometedores pero insuficientes (Radua 2015)",
+    "Adicción: un modelo de diferencias temporales al que se añade un aumento de dopamina inducido por la droga que no puede compensarse por aprendizaje sobrevalora de forma creciente las acciones que conducen a la droga (Redish 2004)"
+   ],
+   "note": "El modelo describe con gran precisión la respuesta de una parte de las neuronas dopaminérgicas en tareas sencillas de laboratorio, pero no agota sus funciones: la dopamina también se relaciona con la saliencia, la motivación y el movimiento, y la teoría de la sensibilización por incentivo discute que su papel principal sea el aprendizaje. En clínica, los resultados son heterogéneos: un estudio de resonancia funcional con 32 personas con depresión moderada no encontró una señal de error de predicción atenuada en el estriado ventral (Rutledge 2017), en contradicción con trabajos previos (Kumar 2008). Los parámetros computacionales todavía no tienen utilidad diagnóstica ni pronóstica individual validada [fuente no localizada]. Las muestras proceden casi siempre de países de ingresos altos y no se ha estudiado si la orientación sexual, la identidad de género o el estrés de minorías modifican estos parámetros [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Del condicionamiento a la dopamina fásica",
+     "x": "La idea central procede de la teoría del aprendizaje asociativo: solo se aprende cuando el resultado sorprende, es decir, cuando existe un error de predicción; por eso un estímulo añadido a otro que ya predice por completo la recompensa no adquiere valor (fenómeno de bloqueo). Los modelos de diferencias temporales del aprendizaje por refuerzo formalizan esta idea y añaden el tiempo: el error se calcula en cada momento como la diferencia entre lo recibido más el valor esperado a continuación y lo que se esperaba antes (Sutton y Barto 1998). Montague, Dayan y Sejnowski propusieron que la dopamina mesencefálica transmite ese error a sus dianas corticales y subcorticales (Montague 1996), y Schultz, Dayan y Montague mostraron que la respuesta fásica de las neuronas dopaminérgicas del primate encaja con él: se desplaza de la recompensa al estímulo que la predice a medida que avanza el aprendizaje y cae cuando la recompensa esperada se omite (Schultz 1997). La prueba del bloqueo confirmó que la respuesta dopaminérgica sigue el error de predicción y no la mera asociación estímulo-recompensa (Waelti 2001), y la optogenética en ratas aportó una prueba causal (Steinberg 2013).",
+     "links": [
+      {
+       "ids": [
+        "recompensa"
+       ],
+       "t": "circuito mesolímbico de recompensa"
+      },
+      {
+       "ids": [
+        "habenula_lat"
+       ],
+       "t": "señal de antirrecompensa que inhibe la dopamina"
+      },
+      {
+       "ids": [
+        "pred_coding"
+       ],
+       "t": "procesamiento predictivo"
+      }
+     ]
+    },
+    {
+     "t": "Aplicaciones en depresión, psicosis y adicciones",
+     "x": "En la depresión, el aprendizaje por refuerzo permite separar dos componentes que las tareas clásicas confundían: la sensibilidad al valor de la recompensa y la tasa de aprendizaje a partir del error de predicción; la depresión y la anhedonia se asociaron sobre todo a menor sensibilidad (Huys 2013). En 148 personas con depresión sin medicación del estudio EMBARC, la relación inversa normal entre expectativa de recompensa y reactividad del estriado ventral al error de predicción estaba ausente, y la anhedonia más grave moderaba esa pérdida (Greenberg 2015). En la esquizofrenia, la menor activación estriatal en la anticipación de la recompensa se relaciona con los síntomas negativos (Radua 2015), y el modelo conecta con la hipótesis de que una señal dopaminérgica desregulada atribuye importancia a estímulos irrelevantes. En las adicciones, la droga produciría una señal de error que el aprendizaje nunca anula, lo que favorece la elección repetida de la droga frente a otras recompensas (Redish 2004); en el chemsex este marco ayuda a entender por qué los estimulantes, al potenciar la dopamina, pueden asociar con fuerza el contexto sexual a la sustancia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "anhed",
+        "ddm"
+       ],
+       "t": "anhedonia y depresión"
+      },
+      {
+       "ids": [
+        "esqneg",
+        "saliencia",
+        "dopa_hyp"
+       ],
+       "t": "síntomas negativos, saliencia aberrante e hipótesis dopaminérgica"
+      },
+      {
+       "ids": [
+        "adiccion_3fases",
+        "neuroadapt_adicc",
+        "incent_sensib"
+       ],
+       "t": "modelos neurobiológicos de la adicción"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "metanf",
+        "estim_monoam"
+       ],
+       "t": "chemsex y estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Implicaciones clínicas y límites",
+     "x": "El marco ofrece a la persona una explicación comprensible de por qué la anhedonia no es falta de voluntad y de por qué las señales asociadas al consumo desencadenan deseo intenso: el cerebro ha aprendido a predecir recompensa a partir de ellas. Esta lectura sostiene intervenciones conductuales que reintroducen experiencias de recompensa, como la activación conductual, y la exposición a señales y el manejo de contingencias en las adicciones [fuente no localizada]. Su traslación tiene límites claros. Los hallazgos en depresión no son concordantes: con la misma familia de tareas, Kumar (2008) halló señales de aprendizaje por diferencias temporales reducidas en el estriado ventral de pacientes con tratamiento antidepresivo prolongado, mientras que Rutledge (2017) encontró señales de error de predicción intactas en el estriado ventral y una relación conservada entre error de predicción y estado de ánimo momentáneo, y propuso que las alteraciones previas reflejaran efectos posteriores sobre la conducta. La revisión de Huys (2016) distingue los enfoques basados en teoría de los basados en datos y reconoce que sus aplicaciones clínicas son todavía incipientes. Ningún parámetro computacional sirve hoy para diagnosticar o elegir tratamiento en una persona concreta [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "activ_conduct"
+       ],
+       "t": "activación conductual"
+      },
+      {
+       "ids": [
+        "habito_dirigido",
+        "desc_demora"
+       ],
+       "t": "otros modelos computacionales de decisión"
+      },
+      {
+       "ids": [
+        "juegoP"
+       ],
+       "t": "trastorno de juego"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Schultz W, Dayan P & Montague PR (1997). A neural substrate of prediction and reward. Science 275:1593-1599 · PMID 9054347",
+    "Montague PR, Dayan P & Sejnowski TJ (1996). A framework for mesencephalic dopamine systems based on predictive Hebbian learning. J Neurosci 16:1936-1947 · PMID 8774460",
+    "Waelti P, Dickinson A & Schultz W (2001). Dopamine responses comply with basic assumptions of formal learning theory. Nature 412:43-48 · PMID 11452299",
+    "Steinberg EE et al. (2013). A causal link between prediction errors, dopamine neurons and learning. Nat Neurosci 16:966-973 · PMID 23708143",
+    "Pessiglione M et al. (2006). Dopamine-dependent prediction errors underpin reward-seeking behaviour in humans. Nature 442:1042-1045 · PMID 16929307",
+    "Huys QJ et al. (2013). Mapping anhedonia onto reinforcement learning: a behavioural meta-analysis. Biol Mood Anxiety Disord 3:12 · PMID 23782813",
+    "Huys QJ, Maia TV & Frank MJ (2016). Computational psychiatry as a bridge from neuroscience to clinical applications. Nat Neurosci 19:404-413 · PMID 26906507",
+    "Kumar P et al. (2008). Abnormal temporal difference reward-learning signals in major depression. Brain 131:2084-2093 · PMID 18579575",
+    "Rutledge RB et al. (2017). Association of neural and emotional impacts of reward prediction errors with major depression. JAMA Psychiatry 74:790-797 · PMID 28678984",
+    "Greenberg T et al. (2015). Moderation of the relationship between reward expectancy and prediction error-related ventral striatal reactivity by anhedonia in unmedicated major depressive disorder: findings from the EMBARC study. Am J Psychiatry 172:881-891 · PMID 26183698",
+    "Radua J et al. (2015). Ventral striatal activation during reward processing in psychosis: a neurofunctional meta-analysis. JAMA Psychiatry 72:1243-1251 · PMID 26558708",
+    "Redish AD (2004). Addiction as a computational process gone awry. Science 306:1944-1947 · PMID 15591205",
+    "Sutton RS & Barto AG (1998). Reinforcement learning: an introduction. Cambridge (MA): MIT Press [no verificada]"
+   ],
+   "rel": [
+    "recompensa",
+    "saliencia",
+    "pred_coding",
+    "incent_sensib",
+    "habito_dirigido",
+    "desc_demora",
+    "anhed",
+    "dopa_hyp",
+    "habenula_lat",
+    "adiccion_3fases",
+    "neuroadapt_adicc",
+    "ddm",
+    "esqneg",
+    "chemsex_s"
+   ]
+  },
+  {
+   "id": "orexina_sist",
+   "n": "Sistema orexinérgico (hipocretinérgico): vigilia, motivación y narcolepsia",
+   "ab": "Sistema orexinérgico",
+   "al": [
+    "orexinas",
+    "hipocretinas",
+    "hypocretin",
+    "orexin system",
+    "OX1R",
+    "OX2R"
+   ],
+   "k": "mec",
+   "vw": "eti",
+   "sp": "nq",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "obs",
+   "y": 1998,
+   "tags": [
+    "organic"
+   ],
+   "desc": "Las orexinas A y B, también llamadas hipocretinas 1 y 2, son dos neuropéptidos derivados de un mismo precursor y producidos por un grupo reducido de neuronas del hipotálamo lateral y posterior, con proyecciones difusas al tronco del encéfalo, el tálamo y la corteza; actúan sobre dos receptores acoplados a proteína G, OX1R y OX2R (de Lecea 1998; Sakurai 1998). Se describieron por su efecto sobre la ingesta, pero su función mejor establecida es estabilizar la vigilia: su pérdida produce narcolepsia en perros, ratones y personas. El sistema participa además en la motivación, la recompensa y la respuesta al estrés, y se ha propuesto que su función unificadora sea traducir la activación motivacional en estados organizados de alerta y conducta (Mahler 2014). Es la base farmacológica de los antagonistas de receptores de orexina usados en el insomnio.",
+   "feats": [
+    "Descubrimiento simultáneo por dos grupos en 1998: péptidos de expresión restringida al hipotálamo con actividad neuroexcitadora sobre neuronas hipotalámicas en cultivo (de Lecea 1998) y neuropéptidos hipotalámicos que, administrados por vía central a ratas, aumentaban el consumo de alimento, con ARNm del precursor al alza en ayuno (Sakurai 1998)",
+    "Modelos animales de narcolepsia: la narcolepsia canina hereditaria se debe a una mutación del gen del receptor 2 de hipocretina (Lin 1999), y los ratones sin orexina presentan un fenotipo conductual y electroencefalográfico muy parecido a la narcolepsia humana (Chemelli 1999)",
+    "En personas con narcolepsia, la hipocretina-1 era indetectable en el líquido cefalorraquídeo en siete de nueve casos (Nishino 2000), y el estudio neuropatológico mostró una reducción del 85-95 % del número de neuronas de hipocretina, con gliosis y sin pérdida de las neuronas vecinas de hormona concentradora de melanina (Thannickal 2000)",
+    "Causalidad sobre la vigilia: la fotoestimulación optogenética selectiva de las neuronas de hipocretina en ratones aumentó la probabilidad de transición a la vigilia desde el sueño de ondas lentas y desde el sueño REM, con reducción de la latencia a trenes de 5 a 30 Hz pero no de 1 Hz (Adamantidis 2007)",
+    "Recompensa: la activación de las neuronas orexinérgicas del hipotálamo lateral se asoció a la preferencia por señales ligadas a recompensa de droga y de comida y reinstauró una conducta de búsqueda de droga extinguida, efecto bloqueado por un antagonista de orexina A (Harris 2005)",
+    "Hipótesis integradora: las orexinas mediarían la conducta sobre todo en situaciones de alta relevancia motivacional (necesidad fisiológica, amenaza u oportunidad de recompensa), de modo que la regulación del ciclo sueño-vigilia sería una expresión de esa función común (Mahler 2014)",
+    "Ansiedad: en un modelo de pánico en rata, la activación de las neuronas de orexina era necesaria para desarrollar el estado de vulnerabilidad al lactato, y el silenciamiento del gen o un antagonista OX1R sistémico bloqueó las respuestas; las personas con ansiedad de tipo pánico tenían orexina más elevada en líquido cefalorraquídeo que las personas sin ella (Johnson 2010)"
+   ],
+   "note": "La relación entre pérdida de neuronas orexinérgicas y narcolepsia tipo 1 está bien establecida, pero el mecanismo de esa pérdida, de presunta naturaleza autoinmune, no está demostrado de forma directa. Los datos sobre motivación, recompensa y pánico proceden en su mayor parte de modelos animales y de estudios humanos pequeños, y no autorizan a tratar el sistema orexinérgico como diana terapéutica establecida en psiquiatría fuera del insomnio. La medición de hipocretina-1 en líquido cefalorraquídeo es una prueba diagnóstica de los trastornos centrales de hipersomnolencia, no un biomarcador de trastornos mentales [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Arquitectura del interruptor sueño-vigilia",
+     "x": "La vigilia depende de una red de núcleos que activan el tálamo y la corteza: neuronas monoaminérgicas y colinérgicas del tronco y del prosencéfalo basal. Durante el sueño, un grupo hipotalámico preóptico inhibe ese sistema de alerta, de modo que ambos estados funcionan como las dos posiciones de un interruptor. Las neuronas orexinérgicas no son uno de los dos polos, sino el elemento que estabiliza el interruptor e impide las transiciones inapropiadas; su ausencia explica que en la narcolepsia aparezcan intrusiones de sueño en la vigilia y de vigilia en el sueño (Saper 2005; Sakurai 2007). Esta arquitectura da cuenta de la coexistencia, en una misma persona, de somnolencia diurna y de sueño nocturno fragmentado, un patrón que puede confundirse con insomnio o con un trastorno afectivo. El sistema recibe aferencias del núcleo supraquiasmático, del sistema límbico y de señales metabólicas, lo que lo sitúa en la confluencia entre el reloj circadiano, la emoción y el balance energético (Sakurai 2007).",
+     "links": [
+      {
+       "ids": [
+        "nar",
+        "hips_idiop"
+       ],
+       "t": "narcolepsia e hipersomnia idiopática"
+      },
+      {
+       "ids": [
+        "dos_procesos",
+        "circad",
+        "luz_melatonina"
+       ],
+       "t": "regulación del sueño y ritmos circadianos"
+      },
+      {
+       "ids": [
+        "aluc_hipn",
+        "cataplejia"
+       ],
+       "t": "alucinaciones hipnagógicas y cataplejía"
+      }
+     ]
+    },
+    {
+     "t": "De la neurobiología al fármaco: antagonistas de orexina",
+     "x": "La demostración de que la señal orexinérgica sostiene la vigilia condujo a una estrategia inversa a la de los hipnóticos clásicos: en lugar de potenciar la inhibición GABAérgica de forma inespecífica, se bloquea de manera selectiva una señal de alerta. De ahí los antagonistas duales de receptores de orexina, de los que en España consta comercializado daridorexant. Esta lógica explica también sus efectos adversos característicos, que reproducen rasgos parciales de la narcolepsia: parálisis del sueño, alucinaciones hipnagógicas e hipnopómpicas y síntomas de tipo cataplejía, y justifica que las fichas de producto contraindiquen estos fármacos en la narcolepsia. En sentido contrario, los agonistas selectivos del receptor OX2R se investigan como tratamiento de la narcolepsia tipo 1, en ensayos recogidos en la ficha de narcolepsia. La indicación, los límites de uso y las interacciones de cada fármaco deben consultarse en su ficha técnica vigente.",
+     "links": [
+      {
+       "ids": [
+        "orexina",
+        "daridorexant",
+        "lemborexant"
+       ],
+       "t": "antagonistas de receptores de orexina"
+      },
+      {
+       "ids": [
+        "seltorexant"
+       ],
+       "t": "antagonismo OX2 en depresión con insomnio"
+      },
+      {
+       "ids": [
+        "insom",
+        "hiperactiv_insom"
+       ],
+       "t": "insomnio e hiperactivación"
+      },
+      {
+       "ids": [
+        "nar"
+       ],
+       "t": "narcolepsia tipo 1"
+      }
+     ]
+    },
+    {
+     "t": "Motivación, recompensa y estrés: alcance y cautelas",
+     "x": "Las neuronas orexinérgicas proyectan al área tegmental ventral y al núcleo accumbens, y su activación se asocia a la búsqueda de recompensa y a la recaída en modelos animales (Harris 2005). La propuesta de Mahler (2014) es que el sistema no codifica recompensa ni vigilia por separado, sino la movilización del organismo ante situaciones de alta relevancia motivacional, lo que conecta la alerta con la conducta dirigida a metas. En el campo de las adicciones ello ha generado interés por los antagonistas de orexina como posible tratamiento del deseo intenso, pero los ensayos clínicos en personas son escasos y no permiten ninguna recomendación [fuente no localizada]. En la ansiedad, los datos de Johnson (2010) sugieren una participación del sistema en el pánico, con una muestra humana pequeña y un diseño que no establece causalidad. Conviene no extrapolar: que un sistema participe en la vigilia, la motivación y el estrés no lo convierte en explicación de los trastornos mentales ni en diana tratable.",
+     "links": [
+      {
+       "ids": [
+        "recompensa",
+        "rpe_refuerzo",
+        "incent_sensib"
+       ],
+       "t": "recompensa, error de predicción y sensibilización"
+      },
+      {
+       "ids": [
+        "adiccion_3fases",
+        "sdu"
+       ],
+       "t": "adicciones"
+      },
+      {
+       "ids": [
+        "panic",
+        "hha_dep"
+       ],
+       "t": "pánico y respuesta al estrés"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "de Lecea L et al. (1998). The hypocretins: hypothalamus-specific peptides with neuroexcitatory activity. Proc Natl Acad Sci U S A 95:322-327 · PMID 9419374",
+    "Sakurai T et al. (1998). Orexins and orexin receptors: a family of hypothalamic neuropeptides and G protein-coupled receptors that regulate feeding behavior. Cell 92:573-585 · PMID 9491897",
+    "Lin L et al. (1999). The sleep disorder canine narcolepsy is caused by a mutation in the hypocretin (orexin) receptor 2 gene. Cell 98:365-376 · PMID 10458611",
+    "Chemelli RM et al. (1999). Narcolepsy in orexin knockout mice: molecular genetics of sleep regulation. Cell 98:437-451 · PMID 10481909",
+    "Nishino S et al. (2000). Hypocretin (orexin) deficiency in human narcolepsy. Lancet 355:39-40 · PMID 10615891",
+    "Thannickal TC et al. (2000). Reduced number of hypocretin neurons in human narcolepsy. Neuron 27:469-474 · PMID 11055430",
+    "Adamantidis AR et al. (2007). Neural substrates of awakening probed with optogenetic control of hypocretin neurons. Nature 450:420-424 · PMID 17943086",
+    "Harris GC, Wimmer M & Aston-Jones G (2005). A role for lateral hypothalamic orexin neurons in reward seeking. Nature 437:556-559 · PMID 16100511",
+    "Saper CB, Scammell TE & Lu J (2005). Hypothalamic regulation of sleep and circadian rhythms. Nature 437:1257-1263 · PMID 16251950",
+    "Sakurai T (2007). The neural circuit of orexin (hypocretin): maintaining sleep and wakefulness. Nat Rev Neurosci 8:171-181 · PMID 17299454",
+    "Mahler SV et al. (2014). Motivational activation: a unifying hypothesis of orexin/hypocretin function. Nat Neurosci 17:1298-1303 · PMID 25254979",
+    "Johnson PL et al. (2010). A key role for orexin in panic anxiety. Nat Med 16:111-115 · PMID 20037593"
+   ],
+   "rel": [
+    "nar",
+    "orexina",
+    "daridorexant",
+    "lemborexant",
+    "seltorexant",
+    "insom",
+    "cataplejia",
+    "aluc_hipn",
+    "hips_idiop",
+    "dos_procesos",
+    "circad",
+    "recompensa",
+    "panic",
+    "modafinilo"
+   ]
+  },
+  {
+   "id": "neuroesteroides",
+   "n": "Neuroesteroides y receptor GABA-A: alopregnanolona e inhibición tónica",
+   "ab": "Neuroesteroides GABA-A",
+   "al": [
+    "alopregnanolona",
+    "allopregnanolone",
+    "neuroactive steroids",
+    "esteroides neuroactivos",
+    "inhibición tónica",
+    "subunidad delta"
+   ],
+   "k": "mec",
+   "vw": "eti",
+   "sp": "nq",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1986,
+   "tags": [
+    "repro",
+    "sexdif"
+   ],
+   "desc": "Los neuroesteroides son esteroides sintetizados en el propio sistema nervioso, o procedentes de la periferia, que modifican con rapidez la excitabilidad neuronal uniéndose a receptores de membrana en lugar de a receptores intracelulares clásicos. El prototipo es la alopregnanolona, metabolito 3α-reducido de la progesterona, modulador alostérico positivo del receptor GABA-A con propiedades ansiolíticas, anticonvulsivas, sedantes e hipnóticas (Paul y Purdy 1992; Belelli y Lambert 2005). A diferencia de las benzodiacepinas, potencian de forma preferente los receptores extrasinápticos que contienen la subunidad δ, responsables de una corriente inhibidora tónica que fija el nivel de excitabilidad de la red (Stell 2003). Esta farmacología es la base de los fármacos neuroesteroideos aprobados para la depresión posparto.",
+   "feats": [
+    "Mecanismo no genómico: los esteroides pregnanos 3α-hidroxi-5α-reducidos no interaccionan con los receptores esteroideos intracelulares clásicos, sino que se unen de forma estereoselectiva y con alta afinidad al receptor GABA-A y aumentan las corrientes de cloro activadas por GABA de manera similar, aunque no idéntica, a los barbitúricos anestésicos (Paul y Purdy 1992)",
+    "Diana preferente: a concentraciones alcanzables in vivo, los esteroides neuroactivos potencian de forma selectiva la conductancia inhibidora tónica mediada por receptores GABA-A extrasinápticos que contienen la subunidad δ, y así reducen la excitabilidad neuronal (Stell 2003)",
+    "Perfil farmacológico de la clase: por esta acción directa y no genómica sobre el receptor GABA-A, los pregnanos naturales tienen propiedades ansiolíticas, analgésicas, anticonvulsivas, sedantes, hipnóticas y anestésicas (Belelli y Lambert 2005)",
+    "Síntesis cerebral: además de llegar desde la gónada y la suprarrenal, estos esteroides se sintetizan en el cerebro y modulan localmente la función del receptor GABA-A, por lo que pueden influir en el estado de ánimo y la conducta en situaciones fisiológicas y patológicas (Belelli y Lambert 2005)",
+    "La demostración original de que metabolitos 3α-reducidos de la progesterona y la desoxicorticosterona son ligandos de tipo barbitúrico del receptor GABA-A data de 1986 (Majewska 1986); sus detalles y el modelo murino de plasticidad del receptor en la gestación (Maguire y Mody 2008) constan en la ficha de sensibilidad a los esteroides gonadales",
+    "Estrés y depresión: se han descrito niveles reducidos de alopregnanolona en sangre o líquido cefalorraquídeo en la depresión mayor, los trastornos de ansiedad, el trastorno disfórico premenstrual y los síntomas negativos de la esquizofrenia, y se han propuesto estrategias para manipular su síntesis con fines terapéuticos (Zorumski 2013; Schüle 2014)",
+    "Traslación farmacológica: en un ensayo de fase 2 con 89 personas con depresión mayor, el modulador alostérico positivo oral SAGE-217 redujo la puntuación de la escala de Hamilton de 17 ítems a los 15 días 7,0 puntos más que el placebo (IC 95 % −10,2 a −3,9), con cefalea, mareo, náuseas y somnolencia como efectos adversos más frecuentes y sin acontecimientos adversos graves (Gunduz-Bruce 2019)"
+   ],
+   "note": "El modelo neuroesteroideo explica una farmacología, no la causa de los cuadros afectivos: no se ha demostrado que exista un déficit de alopregnanolona que cause la depresión posparto o el trastorno disfórico premenstrual, y las determinaciones de neuroesteroides no tienen uso diagnóstico [fuente no localizada]. Los ensayos con moduladores neuroesteroideos son de corta duración, sin comparador activo y con financiación del fabricante. La ficha sobre la sensibilidad a las fluctuaciones de esteroides gonadales trata los estudios de manipulación endocrina en personas y el modelo animal del puerperio; esta ficha no los repite y se centra en la farmacología del receptor. Los estudios clínicos se realizaron en mujeres y sus resúmenes no describen participantes trans; no hay datos equivalentes en personas trans con tratamiento hormonal [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Por qué la inhibición tónica importa",
+     "x": "La inhibición GABAérgica tiene dos modalidades. La fásica es la clásica transmisión sináptica rápida, mediada por receptores situados frente al terminal que libera GABA. La tónica es una corriente continua, de baja amplitud, sostenida por receptores extrasinápticos muy sensibles al GABA ambiental, muchos de ellos con subunidad δ, que fija la excitabilidad de fondo de la red neuronal. Los neuroesteroides actúan de forma preferente sobre esta segunda modalidad (Stell 2003), lo que los distingue de las benzodiacepinas, que requieren la subunidad γ2 y actúan sobre la transmisión sináptica. Esta diferencia tiene consecuencias conceptuales: un sistema que ajusta el tono inhibidor global puede acoplar cambios hormonales lentos, como los del ciclo menstrual o el puerperio, con cambios de estado afectivo, y ofrece una diana distinta de la de los ansiolíticos clásicos. También sugiere un perfil de tolerancia y dependencia distinto, aunque esto no está demostrado en uso prolongado [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "gaba_interneur"
+       ],
+       "t": "sistema GABAérgico e interneuronas"
+      },
+      {
+       "ids": [
+        "ansiol_bzd",
+        "neuroadapt_sed"
+       ],
+       "t": "benzodiacepinas y neuroadaptación a sedantes"
+      }
+     ]
+    },
+    {
+     "t": "Del mecanismo a la clínica perinatal",
+     "x": "La caída brusca de alopregnanolona tras el parto, en un receptor GABA-A que ha estado semanas adaptándose a concentraciones altas, es la hipótesis que vincula esta farmacología con la depresión posparto; el modelo animal que la sostiene y los estudios de manipulación endocrina en personas constan en la ficha de sensibilidad a las fluctuaciones de esteroides gonadales y no se repiten aquí. Sobre esta base se desarrollaron la brexanolona intravenosa, en infusión hospitalaria prolongada, y la zuranolona oral en ciclo corto, cuyas indicaciones, condiciones de uso y situación regulatoria constan en sus fichas respectivas (Meltzer-Brody 2018; Deligiannidis 2023). Lo que esta ficha añade es el porqué farmacológico: una diana extrasináptica que fija el tono inhibidor de fondo permite que un fármaco GABAérgico modifique el estado de ánimo en días, algo que no ocurre con los antidepresivos clásicos. Interesa también la dirección contraria: los inhibidores de la 5α-reductasa usados en la alopecia o la hiperplasia prostática reducen la síntesis de alopregnanolona, y se han descrito síntomas afectivos asociados a su uso.",
+     "links": [
+      {
+       "ids": [
+        "neuroester_repro"
+       ],
+       "t": "sensibilidad a las fluctuaciones hormonales"
+      },
+      {
+       "ids": [
+        "zuranolona",
+        "brexanolona"
+       ],
+       "t": "fármacos neuroesteroideos"
+      },
+      {
+       "ids": [
+        "dpp",
+        "pmdd",
+        "perimenop"
+       ],
+       "t": "depresión posparto, TDPM y perimenopausia"
+      },
+      {
+       "ids": [
+        "finasterida_psiq"
+       ],
+       "t": "inhibidores de la 5α-reductasa"
+      }
+     ]
+    },
+    {
+     "t": "Alcance fuera del periparto y cautelas",
+     "x": "Si la hipótesis fuera solo hormonal, estos fármacos no deberían funcionar fuera del posparto. El ensayo de fase 2 de SAGE-217 en depresión mayor no perinatal mostró una diferencia de 7,0 puntos en la escala de Hamilton a los 15 días (Gunduz-Bruce 2019), lo que apoya que la diana sea el receptor GABA-A y no una situación endocrina concreta; sin embargo, los ensayos de fase 3 posteriores en depresión mayor arrojaron diferencias menores y esa indicación no consta autorizada en la Unión Europea, según se detalla en la ficha de zuranolona. Las revisiones sobre neuroesteroides, estrés y depresión describen un campo con mecanismos plausibles y resultados clínicos todavía limitados (Zorumski 2013; Schüle 2014). En la práctica, el interés inmediato de esta ficha es comprender por qué un fármaco de acción GABAérgica puede mejorar el ánimo en días, algo que no ocurre con los antidepresivos clásicos, y por qué su perfil de efectos adversos es sedante y exige precaución al conducir.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "hha_dep"
+       ],
+       "t": "depresión mayor y eje del estrés"
+      },
+      {
+       "ids": [
+        "monoamin",
+        "dep_neurob"
+       ],
+       "t": "hipótesis monoaminérgica y neurobiología de la depresión"
+      },
+      {
+       "ids": [
+        "ketamina",
+        "esketamina"
+       ],
+       "t": "otros antidepresivos de acción rápida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Majewska MD et al. (1986). Steroid hormone metabolites are barbiturate-like modulators of the GABA receptor. Science 232:1004-1007 · PMID 2422758",
+    "Paul SM & Purdy RH (1992). Neuroactive steroids. FASEB J 6:2311-2322 · PMID 1347506",
+    "Stell BM et al. (2003). Neuroactive steroids reduce neuronal excitability by selectively enhancing tonic inhibition mediated by delta subunit-containing GABAA receptors. Proc Natl Acad Sci U S A 100:14439-14444 · PMID 14623958",
+    "Belelli D & Lambert JJ (2005). Neurosteroids: endogenous regulators of the GABA(A) receptor. Nat Rev Neurosci 6:565-575 · PMID 15959466",
+    "Maguire J & Mody I (2008). GABA(A)R plasticity during pregnancy: relevance to postpartum depression. Neuron 59:207-213 · PMID 18667149",
+    "Zorumski CF et al. (2013). Neurosteroids, stress and depression: potential therapeutic opportunities. Neurosci Biobehav Rev 37:109-122 · PMID 23085210",
+    "Schüle C, Nothdurfter C & Rupprecht R (2014). The role of allopregnanolone in depression and anxiety. Prog Neurobiol 113:79-87 · PMID 24215796",
+    "Gunduz-Bruce H et al. (2019). Trial of SAGE-217 in patients with major depressive disorder. N Engl J Med 381:903-911 · PMID 31483961",
+    "Meltzer-Brody S et al. (2018). Brexanolone injection in post-partum depression: two multicentre, double-blind, randomised, placebo-controlled, phase 3 trials. Lancet 392:1058-1070 · PMID 30177236",
+    "Deligiannidis KM et al. (2023). Zuranolone for the treatment of postpartum depression. Am J Psychiatry 180:668-675 · PMID 37491938"
+   ],
+   "rel": [
+    "neuroester_repro",
+    "zuranolona",
+    "brexanolona",
+    "gaba_interneur",
+    "dpp",
+    "pmdd",
+    "perimenop",
+    "ddm",
+    "ansiol_bzd",
+    "finasterida_psiq",
+    "hha_dep",
+    "neuroadapt_sed"
+   ]
+  }
+ ]
+}

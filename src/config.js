@@ -17,7 +17,7 @@ VIEWS:{
    {id:'afe',t:'Afectividad',c:'#8a2a4a'},{id:'yo',t:'Conciencia del yo',st:'Yo',c:'#6a2a6a'},{id:'psm',t:'Psicomotricidad',c:'#40407a'},
    {id:'vol',t:'Voluntad, conducta e impulsos',st:'Voluntad',c:'#2a5a8a'},{id:'ins',t:'Funciones instintivas',st:'Instintos',c:'#2a6a4a'},{id:'cog',t:'Inteligencia, juicio e introspección',st:'Juicio e insight',c:'#5a5a5a'}]},
  eti:{t:'Etiopatogenia',sub:'Mecanismos, factores causales y modelos explicativos',center:'Etiopatogenia',
-  rings:['Evidencia robusta y replicada','Evidencia consistente o moderada','Hipótesis activa','Histórico o superado'],
+  rings:['Evidencia robusta y replicada','Evidencia consistente o moderada','Hipótesis activa','Histórico, clásico o superado'],
   sectors:[
    {id:'gen',t:'Genética',c:'#1d5c85'},{id:'ndv',t:'Neurodesarrollo y epigenética',st:'Neurodesarrollo',c:'#2a6a7a'},{id:'nq',t:'Neurotransmisión y plasticidad',st:'Neurotransmisión',c:'#1a6b4a'},
    {id:'nei',t:'Neuroendocrino-inmune',st:'Endocrino-inmune',c:'#5d6b1a'},{id:'cir',t:'Circuitos y redes cerebrales',st:'Circuitos',c:'#7a5a12'},{id:'cro',t:'Cronobiología',c:'#a04a10'},
@@ -25,7 +25,7 @@ VIEWS:{
    {id:'tox',t:'Sustancias y tóxicos',st:'Tóxicos',c:'#b03329'},{id:'med',t:'Causas médicas y neurológicas',st:'Causas médicas',c:'#3d5a70'},{id:'fen',t:'Fenomenología y análisis existencial',st:'Fenomenología',c:'#5a3a8a'},
    {id:'mod',t:'Modelos y marcos integradores',st:'Modelos',c:'#8a6020'}]},
  ter:{t:'Terapéutica',sub:'Tratamientos, mecanismos de acción e instrumentos',center:'Terapéutica',
-  rings:['Primera línea / evidencia alta','Evidencia moderada / segunda línea','Evidencia limitada o experimental','Histórico'],
+  rings:['Primera línea · instrumento o norma de referencia','Segunda línea · uso complementario','Evidencia limitada o experimental','Histórico o en desuso'],
   sectors:[
    {id:'ad',t:'Antidepresivos',c:'#1d5c85'},{id:'est',t:'Eutimizantes',c:'#b03329'},{id:'ap',t:'Antipsicóticos',c:'#6b1b1e'},
    {id:'ans',t:'Ansiolíticos e hipnóticos',st:'Ansiolíticos',c:'#5a3a8a'},{id:'otr',t:'Otros psicofármacos',st:'Otros fármacos',c:'#a04a10'},{id:'neu',t:'Neuromodulación',c:'#7a5a12'},

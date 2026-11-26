@@ -1,0 +1,752 @@
+{
+ "patch": {
+  "alucinogenos": {
+   "relAdd": [
+    "fenetil_2c"
+   ]
+  },
+  "tusi": {
+   "relAdd": [
+    "fenetil_2c",
+    "mxe",
+    "fluoroanfet"
+   ]
+  },
+  "psicodel_5ht2a": {
+   "relAdd": [
+    "fenetil_2c"
+   ]
+  },
+  "mdma": {
+   "relAdd": [
+    "fenetil_2c",
+    "fluoroanfet"
+   ]
+  },
+  "ketamina_rec": {
+   "relAdd": [
+    "mxe"
+   ]
+  },
+  "nmda_psic": {
+   "relAdd": [
+    "mxe"
+   ]
+  },
+  "uropatia_ketam": {
+   "relAdd": [
+    "mxe"
+   ]
+  },
+  "anfetaminas": {
+   "relAdd": [
+    "fluoroanfet"
+   ]
+  },
+  "catinonas_nuevas": {
+   "relAdd": [
+    "fluoroanfet",
+    "fenetil_2c"
+   ]
+  },
+  "opioides": {
+   "relAdd": [
+    "ibogaina"
+   ]
+  },
+  "ayahuasca": {
+   "relAdd": [
+    "ibogaina"
+   ]
+  },
+  "ttos_adiccion": {
+   "relAdd": [
+    "ibogaina"
+   ]
+  },
+  "qt_psicof": {
+   "relAdd": [
+    "ibogaina"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "escopolamina"
+   ]
+  },
+  "delirium": {
+   "relAdd": [
+    "escopolamina"
+   ]
+  },
+  "perit_forense": {
+   "relAdd": [
+    "escopolamina",
+    "mxe"
+   ]
+  },
+  "otc_abuso": {
+   "relAdd": [
+    "escopolamina",
+    "mxe"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "fenetil_2c",
+   "n": "Fenetilaminas de la serie 2C (2C-B, 2C-I, 2C-E) y derivados NBOMe",
+   "ab": "2C y NBOMe",
+   "al": [
+    "2C-B",
+    "2C-I",
+    "2C-E",
+    "NBOMe",
+    "25I-NBOMe",
+    "Nexus"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2023,
+   "tags": [
+    "emerg",
+    "risk",
+    "chemsex"
+   ],
+   "cie": [
+    "6C49"
+   ],
+   "desc": "Las fenetilaminas 2,5-dimetoxisustituidas de la serie 2C (2C-B, 2C-I, 2C-E) son psicodélicos derivados de la mescalina que actúan como agonistas parciales de los receptores 5-HT2A, 5-HT2B y 5-HT2C (Papaseit 2018). La adición de un grupo N-(2-metoxibencilo) genera los derivados NBOMe (25I-NBOMe, 25B-NBOMe, 25C-NBOMe), con afinidad subnanomolar por el 5-HT2A y una potencia mucho mayor (Halberstadt 2017). Esa diferencia de potencia explica el contraste del perfil clínico: los compuestos 2C producen en estudios observacionales un cuadro psicodélico de intensidad moderada, mientras que los NBOMe se han asociado a intoxicaciones graves con convulsiones, hipertermia, rabdomiólisis y muertes.",
+   "feats": [
+    "2C-B: agonista parcial 5-HT2A/2B/2C; en 16 personas con consumo previo aumentó la presión arterial y la frecuencia cardiaca, con euforia y cambios perceptivos, y alucinaciones leves en cinco (Papaseit 2018)",
+    "En el único ensayo controlado disponible (22 participantes, doble ciego, con psilocibina y placebo), el 2C-B produjo alteraciones psicodélicas de profundidad moderada, sin efectos empatógenos, y sus efectos se resolvieron en gran parte en menos de 6 horas (Mallaroni 2023)",
+    "2C-E: en 10 personas produjo sobre todo alteraciones perceptivas, alucinaciones y euforia, con concentración salival máxima a las 2 horas (Papaseit 2020)",
+    "NBOMe: afinidad subnanomolar por el receptor 5-HT2A; en una revisión de 51 casos publicados la rabdomiólisis fue una complicación frecuente de la toxicidad grave, ligada a convulsiones, hipertermia y vasoconstricción (Halberstadt 2017)",
+    "En 29 casos publicados de toxicidad aguda por NBOMe predominaron taquicardia (96,6 %), hipertensión (62,0 %), agitación o agresividad (48,2 %), convulsiones (37,9 %) e hipertermia (27,6 %), con cinco casos de fracaso renal agudo (Wood 2015)",
+    "En una revisión sistemática de 20 pacientes con ingesta de NBOMe confirmada analíticamente hubo muerte en el 15 % e ingreso en cuidados intensivos en el 40 %, con elevación de la creatina-cinasa en el 45 % (Suzuki 2015)",
+    "Los NBOMe son activos por vía sublingual en papel secante y se han vendido como LSD: la confusión entre ambos es una fuente conocida de toxicidad grave y de muertes erróneamente atribuidas al LSD (Nichols y Grob 2018)"
+   ],
+   "tx": "No hay antídoto ni tratamiento específico: soporte sintomático en ambiente tranquilo, con control de temperatura, constantes y electrocardiograma; benzodiacepinas como primera opción para la agitación y las convulsiones, enfriamiento activo si hay hipertermia y vigilancia de la creatina-cinasa y la función renal por el riesgo de rabdomiólisis (consenso NEPTUNE 2015; Halberstadt 2017). Después, entrevista sin juicio sobre el patrón de consumo, información sobre la diferencia de potencia entre 2C y NBOMe y reducción de daños, incluido el análisis de sustancias.",
+   "note": "Los datos humanos sobre los compuestos 2C proceden de muestras pequeñas de personas con experiencia previa en psicodélicos, en estudios observacionales y en un solo ensayo controlado, por lo que no describen el riesgo poblacional. Los porcentajes de toxicidad por NBOMe proceden de casos publicados y de notificaciones a sistemas de alerta, con sesgo de gravedad y sin denominador. No se han localizado estudios que cuantifiquen el uso de estas sustancias en contextos de chemsex [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Farmacología: por qué el NBOMe no es un 2C más",
+     "x": "Los compuestos 2C son agonistas parciales de los receptores 5-HT2A, 5-HT2B y 5-HT2C, con actividad adicional sobre la recaptación de noradrenalina y serotonina descrita para el 2C-E (Papaseit 2018; Papaseit 2020). La N-bencilación con un grupo 2-metoxibencilo multiplica la afinidad por el 5-HT2A hasta valores subnanomolares y la potencia alucinógena en humanos, de modo que cantidades muy pequeñas producen efectos intensos (Halberstadt 2017). Los 25X-NBOMe se unen además a receptores dopaminérgicos, adrenérgicos e histaminérgicos, lo que se ha propuesto como explicación de su toxicidad multisistémica (Herian y Świt 2023). La consecuencia clínica es un margen estrecho: en el consumo de papeles secantes no es posible estimar la cantidad ingerida, y una presentación idéntica a la del LSD facilita errores de dosificación.",
+     "links": [
+      {
+       "ids": [
+        "psicodel_5ht2a",
+        "alucinogenos"
+       ],
+       "t": "agonismo 5-HT2A y psicodélicos clásicos"
+      },
+      {
+       "ids": [
+        "mdma",
+        "tusi"
+       ],
+       "t": "entactógenos y mezclas de nombre engañoso"
+      }
+     ]
+    },
+    {
+     "t": "Toxicidad aguda y diagnóstico diferencial",
+     "x": "El cuadro grave por NBOMe combina activación simpaticomimética (taquicardia, hipertensión, midriasis), agitación o agresividad, convulsiones e hipertermia, con rabdomiólisis y fracaso renal agudo como complicaciones descritas (Wood 2015; Suzuki 2015; Halberstadt 2017). El diagnóstico diferencial incluye la intoxicación por estimulantes y catinonas sintéticas, el síndrome serotoninérgico, el golpe de calor, el delirium de otra causa y la psicosis primaria; en la persona agitada hay que descartar hipoglucemia, infección del sistema nervioso central y traumatismo craneal. Los inmunoensayos habituales de orina no detectan estos compuestos y la confirmación exige cromatografía con espectrometría de masas [fuente no localizada para la sensibilidad concreta de cada inmunoensayo]. Una pista práctica es la discrepancia entre lo que la persona cree haber tomado (habitualmente LSD) y la gravedad del cuadro (Nichols y Grob 2018).",
+     "links": [
+      {
+       "ids": [
+        "sind_ser",
+        "delirium"
+       ],
+       "t": "síndrome serotoninérgico y delirium"
+      },
+      {
+       "ids": [
+        "catinonas_nuevas",
+        "anfetaminas"
+       ],
+       "t": "otros estimulantes de síntesis"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "psicosis inducida por sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Contexto de uso y situación legal",
+     "x": "Los compuestos 2C circulan en el ocio nocturno y en la escena de música electrónica, y el nombre comercial «tusi» o «cocaína rosa» procede precisamente de la familia 2C, aunque los análisis muestran que esos polvos rara vez la contienen y suelen ser mezclas de ketamina y MDMA: quien cree consumir un 2C puede estar tomando otra cosa, y a la inversa. Los NBOMe aparecieron en venta por internet hacia 2010 como «research chemicals» y en el Reino Unido se han descrito muertes con mezclas de 4-fluoroanfetamina y 25C-NBOMe (Gerostamoulos 2023). En España, 2C-B, 2C-I y 2C-E están sometidas a fiscalización internacional como sustancias psicotrópicas y los derivados NBOMe han sido objeto de medidas de control tras las evaluaciones de riesgo europeas [fuente oficial no localizada para el detalle normativo vigente]. En la práctica clínica conviene preguntar por los nombres de calle y no por la familia química.",
+     "links": [
+      {
+       "ids": [
+        "tusi"
+       ],
+       "t": "«tusi» o cocaína rosa"
+      },
+      {
+       "ids": [
+        "fluoroanfet"
+       ],
+       "t": "4-fluoroanfetamina"
+      },
+      {
+       "ids": [
+        "red_danos",
+        "chemsex_s"
+       ],
+       "t": "reducción de daños y chemsex"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Papaseit E et al. (2018). Acute pharmacological effects of 2C-B in humans: an observational study. Front Pharmacol 9:206 — doi:10.3389/fphar.2018.00206 · PMID 29593537",
+    "Papaseit E et al. (2020). Acute effects of 2C-E in humans: an observational study. Front Pharmacol 11:233 — doi:10.3389/fphar.2020.00233 · PMID 32256350",
+    "Mallaroni P et al. (2023). Assessment of the acute effects of 2C-B vs. psilocybin on subjective experience, mood, and cognition. Clin Pharmacol Ther 114:423-433 — doi:10.1002/cpt.2958 · PMID 37253161",
+    "González D, Torrens M & Farré M (2015). Acute effects of the novel psychoactive drug 2C-B on emotions. Biomed Res Int 2015:643878 — doi:10.1155/2015/643878 · PMID 26543863",
+    "Halberstadt AL (2017). Pharmacology and toxicology of N-benzylphenethylamine («NBOMe») hallucinogens. Curr Top Behav Neurosci 32:283-311 — doi:10.1007/7854_2016_64 · PMID 28097528",
+    "Wood DM et al. (2015). Prevalence of use and acute toxicity associated with the use of NBOMe drugs. Clin Toxicol (Phila) 53:85-92 — doi:10.3109/15563650.2015.1004179 · PMID 25658166",
+    "Suzuki J et al. (2015). Toxicities associated with NBOMe ingestion, a novel class of potent hallucinogens: a review of the literature. Psychosomatics 56:129-139 — doi:10.1016/j.psym.2014.11.002 · PMID 25659919",
+    "Herian M & Świt P (2023). 25X-NBOMe compounds: chemistry, pharmacology and toxicology. A comprehensive review. Crit Rev Toxicol 53:15-33 — doi:10.1080/10408444.2023.2194907 · PMID 37115704",
+    "Nichols DE & Grob CS (2018). Is LSD toxic? Forensic Sci Int 284:141-145 — doi:10.1016/j.forsciint.2018.01.006 · PMID 29408722",
+    "Gerostamoulos D et al. (2023). Fatal intoxications from a combination of 4-fluoroamphetamine and 25C-NBOMe. J Anal Toxicol 47:191-196 — doi:10.1093/jat/bkac059 · PMID 35975553",
+    "Abdulrahim D & Bowden-Jones O, en nombre del NEPTUNE Expert Group (2015). Guidance on the Management of Acute and Chronic Harms of Club Drugs and Novel Psychoactive Substances. London: Novel Psychoactive Treatment UK Network (NEPTUNE) · Guía clínica basada en revisión de la literatura y consenso de expertos",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C49 Trastornos debidos al consumo de alucinógenos"
+   ],
+   "rel": [
+    "alucinogenos",
+    "psicodel_5ht2a",
+    "mdma",
+    "tusi",
+    "psust",
+    "sind_ser",
+    "catinonas_nuevas",
+    "red_danos",
+    "aluc_vis",
+    "fluoroanfet",
+    "mxe",
+    "chemsex_s"
+   ]
+  },
+  {
+   "id": "mxe",
+   "n": "Metoxetamina y arilciclohexilaminas de diseño (3-MeO-PCP, descloroketamina)",
+   "ab": "MXE y disociativos",
+   "al": [
+    "MXE",
+    "metoxetamina",
+    "3-MeO-PCP",
+    "descloroketamina",
+    "DCK"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2024,
+   "tags": [
+    "emerg",
+    "risk",
+    "dissoc"
+   ],
+   "cie": [
+    "6C4D"
+   ],
+   "desc": "La metoxetamina (MXE) es una arilciclohexilamina análoga de la ketamina, antagonista del receptor NMDA, con una duración de efectos más larga que la de aquella y comercializada en internet como alternativa «legal» y «respetuosa con la vejiga» (Zawilska 2014). Junto a ella circulan otros disociativos de diseño: la 3-metoxifenciclidina (3-MeO-PCP), derivada de la fenciclidina, y la descloroketamina (DCK), además de análogos más recientes como la deoximetoxetamina y la metoxisopropamina (Irie 2022). Su toxicidad combina un toxíndrome disociativo con activación simpaticomimética y signos cerebelosos, y se han descrito muertes.",
+   "feats": [
+    "MXE: antagonista NMDA con efectos y preferencia de lugar comparables a los de la ketamina en modelos animales, y con potencial de abuso demostrado en autoadministración (Botanas 2019)",
+    "Tres casos con confirmación analítica presentaron ataxia truncal grave, nistagmo, incoordinación y disminución del nivel de conciencia tras esnifar metoxetamina, con recuperación entre 24 horas y 3-4 días (Shields 2012)",
+    "En las consultas al servicio británico de información toxicológica los toxíndromes descritos fueron estimulante (36 %), disminución de conciencia (17 %), disociativo (11 %) y cerebeloso (6,4 %), con alteraciones agudas de la salud mental en el 43 % (Hill 2014)",
+    "El reclamo comercial de ser «respetuosa con la vejiga» no se sostiene: la administración prolongada en ratones produjo inflamación y fibrosis vesical y daño tubular y glomerular renal semejantes a los de la ketamina (Dargan 2014)",
+    "En el Reino Unido se registraron ocho muertes relacionadas con metoxetamina entre 2011 y 2013, con policonsumo en siete de los ocho casos y implicación directa en cuatro (Chiappini 2015)",
+    "3-MeO-PCP: la intoxicación cursa sobre todo con hipertensión, taquicardia, confusión, hipertonía, nistagmo y agitación (Berar 2019); se han comunicado quince muertes previas a la primera descrita en el Reino Unido, y en abril de 2021 pasó a la Lista II del Convenio de 1971 (Copeland 2022)",
+    "Descloroketamina: su antagonismo NMDA es comparable al de la ketamina, con perfil conductual y adictivo similar y cinética algo más lenta, coherente con la mayor duración que refieren quienes la consumen (Štefková-Mazochová 2022)",
+    "Estas sustancias no se detectan en los análisis de orina habituales, lo que obliga a cromatografía con espectrometría de masas cuando el resultado condiciona el manejo o tiene valor pericial (Craig y Loeffler 2014)"
+   ],
+   "tx": "No existe antídoto: el manejo es de soporte, con vigilancia respiratoria y cardiovascular, ambiente tranquilo y benzodiacepinas si hay agitación; conviene descartar coingestas (alcohol, GHB u opioides), traumatismo craneal e hipoglucemia y revisar el diagnóstico si el cuadro no mejora (consenso NEPTUNE 2015; Craig y Loeffler 2014). Ante síntomas urinarios persistentes, derivación urológica temprana. En el consumo mantenido, el cese es la medida con más respaldo, con intervención psicosocial y reducción de daños.",
+   "note": "La evidencia procede de casos, series cortas, notificaciones a centros toxicológicos y estudios animales; no hay ensayos ni cohortes. Los datos de toxicidad vesical de la metoxetamina en humanos son escasos y se extrapolan en parte de la ketamina y de modelos animales. El mercado cambia con rapidez: los análogos descritos aquí pueden haber sido sustituidos por otros.",
+   "sec": [
+    {
+     "t": "Perfil clínico del toxíndrome disociativo de diseño",
+     "x": "El cuadro agudo reúne tres componentes que conviene buscar por separado: disociación (despersonalización, desrealización, experiencias de tipo «k-hole»), activación simpaticomimética (hipertensión y taquicardia) y signos cerebelosos (ataxia, nistagmo, disartria, incoordinación), estos últimos especialmente llamativos con metoxetamina (Shields 2012; Hill 2014). Con 3-MeO-PCP se han descrito además hipertonía, agitación y, en coingesta con alcohol, coma con acidosis respiratoria (Bertol 2017). La duración es mayor que la de la ketamina, de modo que la observación debe prolongarse y la mejoría esperable es más lenta. Las alteraciones agudas de la salud mental (agitación, angustia intensa, conducta desorganizada) fueron el motivo de consulta más frecuente en la serie británica de notificaciones (Hill 2014).",
+     "links": [
+      {
+       "ids": [
+        "ketamina_rec",
+        "nmda_psic"
+       ],
+       "t": "ketamina y modelo NMDA"
+      },
+      {
+       "ids": [
+        "desp_sx",
+        "delirium"
+       ],
+       "t": "despersonalización y delirium"
+      }
+     ]
+    },
+    {
+     "t": "Daño urinario, psicosis y consumo mantenido",
+     "x": "La cistitis ulcerativa y la uropatía por ketamina son la complicación crónica mejor caracterizada de los disociativos; la metoxetamina se promocionó como alternativa inocua para la vejiga, afirmación que el modelo murino contradice al mostrar infiltrado inflamatorio y fibrosis vesical junto a necrosis tubular y daño glomerular (Dargan 2014). En humanos no se han localizado series que cuantifiquen la incidencia de daño vesical por metoxetamina [fuente no localizada], por lo que ante síntomas urinarios en una persona joven conviene preguntar por disociativos en general y no solo por ketamina. En el plano psíquico se han descrito psicosis y estados confusionales prolongados tras el consumo; los modelos animales muestran preferencia de lugar y autoadministración, lo que indica potencial adictivo (Botanas 2019; Štefková-Mazochová 2022). El consumo repetido en sesiones largas agrava la desorientación y el riesgo de accidentes y de conductas sexuales no deseadas.",
+     "links": [
+      {
+       "ids": [
+        "uropatia_ketam"
+       ],
+       "t": "uropatía por ketamina"
+      },
+      {
+       "ids": [
+        "psust",
+        "esq"
+       ],
+       "t": "psicosis inducida y primaria"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "slam"
+       ],
+       "t": "contexto sexualizado e inyección"
+      }
+     ]
+    },
+    {
+     "t": "Relevancia forense y detección",
+     "x": "Ni la metoxetamina ni la 3-MeO-PCP ni la descloroketamina se detectan con los inmunoensayos de orina de uso habitual, y en varias series el cribado toxicológico inicial fue negativo pese a concentraciones muy altas en sangre y orina confirmadas después por cromatografía con espectrometría de masas (Bertol 2017; Craig y Loeffler 2014). En un caso de autopsia con descomposición avanzada se identificaron metoxetamina y varios de sus metabolitos dos meses después de la muerte, lo que indica que la ventana analítica puede ser amplia si se buscan específicamente (Bursová 2024). Para la práctica pericial esto tiene dos consecuencias: un resultado negativo en un cribado estándar no descarta la exposición, y conviene solicitar expresamente la búsqueda de nuevas sustancias psicoactivas, conservando muestras de sangre, orina y, si procede, pelo. Las concentraciones asociadas a toxicidad y muerte no están bien establecidas, por lo que su interpretación aislada es poco concluyente (Copeland 2022).",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "sumision_q"
+       ],
+       "t": "pericia forense y sumisión química"
+      },
+      {
+       "ids": [
+        "tusi"
+       ],
+       "t": "mezclas con ketamina"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Zawilska JB (2014). Methoxetamine: a novel recreational drug with potent hallucinogenic properties. Toxicol Lett 230:402-407 — doi:10.1016/j.toxlet.2014.08.011 · PMID 25128700",
+    "Shields JE et al. (2012). Methoxetamine associated reversible cerebellar toxicity: three cases with analytical confirmation. Clin Toxicol (Phila) 50:438-440 — doi:10.3109/15563650.2012.683437 · PMID 22578175",
+    "Hill SL et al. (2014). Methoxetamine toxicity reported to the National Poisons Information Service: clinical characteristics and patterns of enquiries. Emerg Med J 31:45-47 — doi:10.1136/emermed-2012-202251 · PMID 23349353",
+    "Dargan PI et al. (2014). Three months of methoxetamine administration is associated with significant bladder and renal toxicity in mice. Clin Toxicol (Phila) 52:176-180 — doi:10.3109/15563650.2014.892605 · PMID 24580056",
+    "Chiappini S et al. (2015). Methoxetamine-related deaths in the UK: an overview. Hum Psychopharmacol 30:244-248 — doi:10.1002/hup.2422 · PMID 26216557",
+    "Craig CL & Loeffler GH (2014). The ketamine analog methoxetamine: a new designer drug to threaten military readiness. Mil Med 179:1149-1157 — doi:10.7205/MILMED-D-13-00470 · PMID 25269134",
+    "Botanas CJ et al. (2019). Methoxetamine: a foe or friend? Neurochem Int 122:1-7 — doi:10.1016/j.neuint.2018.10.020 · PMID 30365979",
+    "Berar A et al. (2019). Intoxication with 3-MeO-PCP alone: a case report and literature review. Medicine (Baltimore) 98:e18295 — doi:10.1097/MD.0000000000018295 · PMID 31876705",
+    "Copeland CS et al. (2022). The first fatal intoxication with 3-MeO-PCP in the UK and a review of the literature. J Anal Toxicol 46:461-470 — doi:10.1093/jat/bkac015 · PMID 35246686",
+    "Bertol E et al. (2017). 3-MeO-PCP intoxication in two young men: first in vivo detection in Italy. Forensic Sci Int 274:7-12 — doi:10.1016/j.forsciint.2016.12.028 · PMID 28057371",
+    "Štefková-Mazochová K et al. (2022). Pharmacokinetic, pharmacodynamic, and behavioural studies of deschloroketamine in Wistar rats. Br J Pharmacol 179:65-83 — doi:10.1111/bph.15680 · PMID 34519023",
+    "Irie T et al. (2022). Derivatives of methoxetamine and major methoxetamine metabolites potently block NMDA receptors. J Pharmacol Sci 150:233-243 — doi:10.1016/j.jphs.2022.09.005 · PMID 36344045",
+    "Bursová M et al. (2024). Methoxetamine and its metabolites: postmortem determination in body fluids of human cadaver. J Anal Toxicol 48:70-74 — doi:10.1093/jat/bkad084 · PMID 37978578",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C4D Trastornos debidos al consumo de drogas disociativas, incluidas la ketamina y la fenciclidina"
+   ],
+   "rel": [
+    "ketamina_rec",
+    "nmda_psic",
+    "uropatia_ketam",
+    "psust",
+    "desp_sx",
+    "tusi",
+    "delirium",
+    "chemsex_s",
+    "otc_abuso",
+    "perit_forense",
+    "fenetil_2c"
+   ]
+  },
+  {
+   "id": "fluoroanfet",
+   "n": "4-fluoroanfetamina (4-FA) y análogos anfetamínicos fluorados",
+   "ab": "4-FA y fluorados",
+   "al": [
+    "4-FA",
+    "4-fluoroanfetamina",
+    "4-FMP",
+    "flux"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2022,
+   "tags": [
+    "emerg",
+    "risk"
+   ],
+   "cie": [
+    "6C46"
+   ],
+   "desc": "La 4-fluoroanfetamina (4-FA) es una fenetilamina halogenada cuyo perfil subjetivo se sitúa entre el de la anfetamina y el de la MDMA, motivo por el que se consume de forma deliberada y no solo como sucedáneo legal (Linsen 2015). Apareció en el mercado neerlandés entre 2007 y 2009, inicialmente vendida como anfetamina o éxtasis, y después alcanzó difusión propia. Su relevancia clínica deriva de dos hechos: una cefalea desproporcionada respecto a otros estimulantes y la descripción de hemorragias intracraneales en personas jóvenes, que motivaron alertas y medidas de control en los Países Bajos y la atención de los organismos europeos de vigilancia.",
+   "feats": [
+    "Perfil intermedio: en una encuesta a 249 personas con consumo previo, las puntuaciones de efectos subjetivos de la 4-FA se situaron entre las de la anfetamina y las de la MDMA, y el 77,1 % la consumía por esos efectos y no por su estatus legal (Linsen 2015)",
+    "En un estudio cruzado y controlado con placebo en 12 personas, la 4-FA indujo un estado psicodélico leve, máximo una hora después de la toma y paralelo a las concentraciones séricas (Kuypers 2019)",
+    "Cinética semejante a la de la anfetamina: concentración máxima en suero en torno a las 2 horas y semivida de eliminación de unas 8-9 horas, con variabilidad amplia entre personas (Toennes 2019)",
+    "Cefalea e hipertensión destacadas: entre monointoxicaciones atendidas en urgencias de Ámsterdam, el 80 % de las de 4-FA refirió cefalea frente al 3,3 % con MDMA y al 0 % con anfetamina, con presión sistólica media más alta (Gresnigt 2022)",
+    "Complicaciones cardiovasculares graves en el 40 % de las monointoxicaciones por 4-FA de esa serie, incluidas una miocardiopatía de Takotsubo y una hemorragia subaracnoidea (Gresnigt 2022)",
+    "Dos personas con consumo confirmado analíticamente desarrollaron ictus hemorrágico (una hemorragia intracerebral que precisó evacuación quirúrgica y una hemorragia subaracnoidea), ambas precedidas de cefalea e hipertensión leve; en el registro neerlandés constaban 939 intoxicaciones por 4-FA entre 2009 y 2017 (Wijers 2018)",
+    "Se han descrito seis muertes en nueve meses por la combinación de 4-FA y 25C-NBOMe, sin que las concentraciones sugirieran dosis recreativas altas (Gerostamoulos 2023)"
+   ],
+   "tx": "Manejo sintomático del cuadro simpaticomimético: ambiente tranquilo, control de constantes, temperatura y electrocardiograma, benzodiacepinas si hay agitación y tratamiento de la hipertensión grave según protocolo del centro. La recomendación específica que se desprende de las series publicadas es considerar prueba de imagen cerebral ante cefalea intensa tras consumo de 4-FA, aunque no haya déficit neurológico (Wijers 2018). Después, entrevista sin juicio, información sobre el riesgo vascular y reducción de daños, incluido el análisis de sustancias.",
+   "note": "La evidencia procede de series de urgencias, registros de notificación y estudios de farmacología humana con muestras pequeñas; no hay estudios de cohortes que permitan estimar la incidencia de hemorragia cerebral por exposición. La mayor parte de los datos son neerlandeses, por el peso que la 4-FA tuvo en ese mercado, y no son necesariamente extrapolables a España. No se han localizado datos de uso de 4-FA en contextos de chemsex [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Entre la anfetamina y la MDMA: qué explica su atractivo y su riesgo",
+     "x": "Quienes consumen 4-FA describen una experiencia intermedia entre la euforia estimulante de la anfetamina y la calidez emocional de la MDMA, y esa combinación, más que el vacío legal, es el motivo declarado de consumo en la mayoría de los casos (Linsen 2015). El estudio controlado en personas sanas confirmó un estado psicodélico leve de intensidad asociada a las concentraciones séricas (Kuypers 2019), con una cinética parecida a la de la anfetamina pero de eliminación muy variable, lo que favorece la redosificación y la acumulación (Toennes 2019). El problema clínico es que ese perfil «suave» convive con una toxicidad cardiovascular desproporcionada: la cefalea, habitualmente interpretada como un efecto menor, es en esta sustancia el síntoma centinela de hipertensión y de posible sangrado intracraneal.",
+     "links": [
+      {
+       "ids": [
+        "anfetaminas",
+        "mdma"
+       ],
+       "t": "anfetaminas y MDMA"
+      },
+      {
+       "ids": [
+        "estim_monoam"
+       ],
+       "t": "estimulantes y transportadores de monoaminas"
+      }
+     ]
+    },
+    {
+     "t": "Cefalea, hipertensión y hemorragia intracraneal",
+     "x": "En la comparación retrospectiva de intoxicaciones atendidas en un hospital de Ámsterdam, las personas con monointoxicación por 4-FA presentaron cefalea mucho más a menudo y una presión sistólica media más alta que quienes habían consumido MDMA o anfetamina, y se registraron complicaciones cardiovasculares graves en el 40 % de esas monointoxicaciones, con una miocardiopatía de Takotsubo, una hemorragia subaracnoidea y dos urgencias hipertensivas (Gresnigt 2022). Los dos casos descritos con detalle por Wijers et al. (2018) ilustran la secuencia clínica: cefalea e hipertensión leve tras el consumo y, horas después, focalidad neurológica y disminución de conciencia por hemorragia intracerebral en un caso y hemorragia subaracnoidea sin déficit en el otro. De ahí la recomendación de ampliar el estudio con imagen cerebral ante cefalea intensa en este contexto, y no solo cuando hay signos focales.",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "confusión aguda de causa orgánica"
+      },
+      {
+       "ids": [
+        "anfetaminas"
+       ],
+       "t": "complicaciones vasculares de los estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Vigilancia europea, mercado y práctica clínica",
+     "x": "La 4-FA fue objeto de notificación y seguimiento dentro del sistema europeo de alerta temprana sobre nuevas sustancias psicoactivas coordinado por el Observatorio Europeo de las Drogas y las Toxicomanías, hoy Agencia de la Unión Europea sobre Drogas (EMCDDA/EUDA), y en los Países Bajos su control se endureció tras el aumento de incidentes notificados [fuente oficial no localizada para la referencia concreta del informe y la fecha exacta de las medidas]. Para la práctica clínica en España interesan tres puntos: la 4-FA puede venderse como anfetamina o como MDMA, de modo que la persona no siempre sabe qué ha tomado; la combinación con otras sustancias serotoninérgicas o con NBOMe se ha asociado a muertes (Gerostamoulos 2023); y los análogos fluorados emparentados (como la 2-fluoroanfetamina o la 4-fluorometanfetamina) comparten la lógica de sustitución del mercado, con datos clínicos aún más escasos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "fenetil_2c"
+       ],
+       "t": "NBOMe"
+      },
+      {
+       "ids": [
+        "catinonas_nuevas",
+        "tusi"
+       ],
+       "t": "sustitución en el mercado y mezclas"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Linsen F et al. (2015). 4-Fluoroamphetamine in the Netherlands: more than a one-night stand. Addiction 110:1138-1143 — doi:10.1111/add.12932 · PMID 25808511",
+    "Kuypers KPC et al. (2019). A first-in-man study with 4-fluoroamphetamine demonstrates it produces a mild psychedelic state. J Psychoactive Drugs 51:225-235 — doi:10.1080/02791072.2019.1569286 · PMID 30676284",
+    "Toennes SW et al. (2019). Pharmacokinetic properties of 4-fluoroamphetamine in serum and oral fluid after oral ingestion. Drug Test Anal 11:1028-1034 — doi:10.1002/dta.2595 · PMID 30912312",
+    "Gresnigt FMJ et al. (2022). 4-Fluoroamphetamine (4-FA) intoxication results in exaggerated blood pressure effects compared to MDMA and amphetamine: a retrospective analysis. J Am Coll Emerg Physicians Open 3:e12813 — doi:10.1002/emp2.12813 · PMID 36187507",
+    "Wijers CHW et al. (2018). Haemorrhagic stroke related to the use of 4-fluoroamphetamine. J Neurol 265:1607-1611 — doi:10.1007/s00415-018-8888-6 · PMID 29737425",
+    "Gerostamoulos D et al. (2023). Fatal intoxications from a combination of 4-fluoroamphetamine and 25C-NBOMe. J Anal Toxicol 47:191-196 — doi:10.1093/jat/bkac059 · PMID 35975553",
+    "Toennes SW et al. (2020). Excretion of 4-fluoroamphetamine and three metabolites in urine after controlled oral ingestion. J Pharm Biomed Anal 179:113008 — doi:10.1016/j.jpba.2019.113008 · PMID 31785931",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C46 Trastornos debidos al consumo de estimulantes, incluidas anfetaminas, metanfetamina o metcatinona"
+   ],
+   "rel": [
+    "anfetaminas",
+    "mdma",
+    "estim_monoam",
+    "catinonas_nuevas",
+    "fenetil_2c",
+    "red_danos",
+    "tusi",
+    "psust",
+    "cocaina"
+   ]
+  },
+  {
+   "id": "ibogaina",
+   "n": "Ibogaína e iboga: uso ritual, uso no regulado en adicciones y riesgo cardiaco",
+   "ab": "Ibogaína",
+   "al": [
+    "iboga",
+    "Tabernanthe iboga",
+    "noribogaína"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2024,
+   "tags": [
+    "emerg",
+    "risk",
+    "cultural"
+   ],
+   "cie": [
+    "6C4E"
+   ],
+   "desc": "La ibogaína es un alcaloide indólico del arbusto africano Tabernanthe iboga, empleado tradicionalmente en ritos de iniciación y ceremonias espirituales en África centro-occidental y utilizado desde hace décadas, fuera de todo marco regulado, para interrumpir la dependencia de opioides. Se metaboliza por el CYP2D6 a noribogaína, que permanece en concentraciones relevantes durante días (Litjens y Brunt 2016). Interactúa con receptores NMDA, opioides kappa y mu y sigma-2 y con los sistemas colinérgico, serotoninérgico y dopaminérgico. Su problema central de seguridad es el bloqueo del canal hERG, con prolongación del QT, arritmias y muertes documentadas.",
+   "feats": [
+    "Mecanismo múltiple: ibogaína y noribogaína muestran afinidad micromolar por receptores NMDA, kappa y mu opioides y sigma-2, y modifican la expresión de sustancia P, BDNF, c-fos y egr-1 (Litjens y Brunt 2016)",
+    "Cardiotoxicidad por bloqueo del canal hERG: la ibogaína obtenida por semisíntesis o por extracción de la planta y su metabolito noribogaína bloquean la corriente IKr en concentraciones micromolares, lo que prolonga la repolarización (Alper 2016)",
+    "La semivida prolongada de la noribogaína explica que la prolongación del QT y las arritmias puedan aparecer o persistir días después de la toma (Alper 2016; Litjens y Brunt 2016)",
+    "Se habían comunicado 27 muertes tras la ingesta de ibogaína, algunas en personas con cardiopatía previa, pero también casos de taquiarritmia ventricular y prolongación del QT en personas sin cardiopatía ni antecedentes familiares conocidos (Litjens y Brunt 2016)",
+    "Revisión sistemática de 24 estudios con 705 personas tratadas con ibogaína o noribogaína: los datos publicados apuntan a reducción de los síntomas de abstinencia y del craving, con un impacto favorable también sobre síntomas depresivos y relacionados con el trauma, pero con complicaciones médicas graves y muertes atribuidas a la neurotoxicidad y la cardiotoxicidad (Köck 2022)",
+    "La neurodegeneración descrita en ratas se atribuye a la estimulación de la oliva inferior, con efecto excitotóxico sobre las células de Purkinje, y no apareció por debajo de determinados umbrales de exposición en ese modelo (Litjens y Brunt 2016)",
+    "El polimorfismo del CYP2D6 modifica las concentraciones de ibogaína y noribogaína, lo que añade variabilidad e interacciones con fármacos metabolizados por esa vía (Litjens y Brunt 2016)",
+    "Estudio observacional prospectivo en 30 veteranos varones con traumatismo craneoencefálico, sobre todo leve, tratados con ibogaína junto a magnesio: mejoría del funcionamiento y de los síntomas de estrés postraumático, depresión y ansiedad al mes, sin acontecimientos adversos graves ni inesperados; diseño abierto y sin grupo control (Cherian 2024)"
+   ],
+   "tx": "No es un tratamiento autorizado en España ni cuenta con ensayos controlados suficientes, de modo que el papel del profesional no es pautarla sino informar y reducir el riesgo. Ante una persona que la ha tomado o que planea un retiro en el extranjero: explorar cardiopatía, antecedentes familiares de muerte súbita, fármacos que prolongan el QT y metabolizados por CYP2D6, trastornos electrolíticos y consumo de opioides de acción prolongada; explicar que los opioides deben haberse retirado antes y que la vigilancia electrocardiográfica debe prolongarse por la larga permanencia de la noribogaína (Litjens y Brunt 2016; Cherian 2024). Mantener ofrecidos los tratamientos con eficacia demostrada en la dependencia de opioides.",
+   "note": "La mayoría de los datos de eficacia proceden de estudios abiertos, series de casos y estudios observacionales, con un solo ensayo doble ciego controlado identificado en la revisión sistemática; las muertes comunicadas no permiten calcular una tasa porque se desconoce el número total de personas expuestas. La coadministración de magnesio se ha propuesto para mitigar la cardiotoxicidad, pero esa estrategia no ha sido validada en ensayos controlados (Cherian 2024). Nada de lo anterior debe leerse como respaldo del uso fuera de investigación.",
+   "sec": [
+    {
+     "t": "Del rito iniciático al retiro no regulado",
+     "x": "La iboga se emplea desde hace siglos en ritos de paso y ceremonias espirituales de África centro-occidental, y ese origen cultural sigue presente en la forma en que se presenta la ibogaína en los circuitos actuales (Cherian 2024). En Occidente su uso se ha orientado casi por completo a interrumpir la dependencia de opioides, en clínicas y retiros situados en países donde no está prohibida y con grados de supervisión médica muy desiguales. Las personas que acuden suelen llegar tras varios intentos de tratamiento, con la expectativa de una intervención única y rápida que elimine la abstinencia. Conviene abordar esa expectativa sin descalificar la experiencia ni la tradición: reconocer el sufrimiento que la motiva, explicar qué muestran los datos y qué no, y dejar claro que el riesgo cardiaco no depende de la buena fe de quien administra la sustancia, sino de su farmacología.",
+     "links": [
+      {
+       "ids": [
+        "opioides",
+        "ttos_adiccion"
+       ],
+       "t": "dependencia de opioides y tratamientos con evidencia"
+      },
+      {
+       "ids": [
+        "ayahuasca"
+       ],
+       "t": "otras sustancias de uso ritual"
+      }
+     ]
+    },
+    {
+     "t": "Prolongación del QT, arritmias y muertes",
+     "x": "El bloqueo de los canales hERG por la ibogaína, su metabolito noribogaína y la voacangina retrasa la repolarización ventricular y prolonga el intervalo QT, con riesgo de torsade de pointes y de parada cardiaca (Alper 2016). Dos rasgos hacen este riesgo especialmente traicionero: la noribogaína permanece activa durante días, de modo que la alteración electrocardiográfica puede manifestarse cuando la persona ya ha abandonado el lugar donde tomó la sustancia, y se han descrito arritmias en personas sin cardiopatía conocida, por lo que un cribado cardiológico normal no garantiza seguridad (Litjens y Brunt 2016). A ello se suman la variabilidad del CYP2D6 y las interacciones con otros fármacos que prolongan el QT o comparten esa vía metabólica. La muerte súbita en este contexto es una muerte por arritmia, no una sobredosis en el sentido habitual, y puede ocurrir con cantidades que otras personas toleran.",
+     "links": [
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "prolongación del QT por fármacos"
+      },
+      {
+       "ids": [
+        "opioides_sint"
+       ],
+       "t": "opioides y riesgo en la retirada"
+      }
+     ]
+    },
+    {
+     "t": "Qué dicen los estudios recientes y cómo situarlos",
+     "x": "La revisión sistemática de Köck et al. (2022), que reunió 24 estudios y 705 personas tratadas, describe reducción de la abstinencia y del craving y mejoría de síntomas depresivos y relacionados con el trauma, pero subraya la escasez de ensayos controlados y la existencia de complicaciones médicas graves y muertes. El estudio observacional de Stanford en 30 veteranos de operaciones especiales con traumatismo craneoencefálico, tratados con ibogaína junto a magnesio y otras intervenciones, comunicó mejorías amplias del funcionamiento y de los síntomas de estrés postraumático, depresión y ansiedad al mes, sin acontecimientos adversos graves (Cherian 2024); es un diseño abierto, sin grupo control, con muestra pequeña y exclusivamente masculina, y sus propios autores piden ensayos controlados. La lectura razonable es que existe una señal clínica que justifica investigación reglada, y al mismo tiempo que el uso actual fuera de ese marco sigue produciendo muertes evitables.",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "dep_induc"
+       ],
+       "t": "estrés postraumático y síntomas depresivos"
+      },
+      {
+       "ids": [
+        "naltrexona",
+        "metadona"
+       ],
+       "t": "tratamientos autorizados de la dependencia de opioides"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Litjens RPW & Brunt TM (2016). How toxic is ibogaine? Clin Toxicol (Phila) 54:297-302 — doi:10.3109/15563650.2016.1138226 · PMID 26807959",
+    "Alper K et al. (2016). hERG blockade by iboga alkaloids. Cardiovasc Toxicol 16:14-22 — doi:10.1007/s12012-015-9311-5 · PMID 25636206",
+    "Köck P et al. (2022). A systematic literature review of clinical trials and therapeutic applications of ibogaine. J Subst Abuse Treat 138:108717 — doi:10.1016/j.jsat.2021.108717 · PMID 35012793",
+    "Cherian KN et al. (2024). Magnesium-ibogaine therapy in veterans with traumatic brain injuries. Nat Med 30:373-381 — doi:10.1038/s41591-023-02705-w · PMID 38182784",
+    "Cherian K et al. (2024). Psychedelic therapy: a primer for primary care clinicians — ibogaine. Am J Ther 31:e133-e140 — doi:10.1097/MJT.0000000000001723 · PMID 38518270",
+    "Glue P et al. (2015). Ascending-dose study of noribogaine in healthy volunteers: pharmacokinetics, pharmacodynamics, safety, and tolerability. J Clin Pharmacol 55:189-194 — doi:10.1002/jcph.404 · PMID 25279818",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C4E Trastornos debidos al consumo de otras sustancias psicoactivas especificadas, incluidos medicamentos"
+   ],
+   "rel": [
+    "opioides",
+    "ttos_adiccion",
+    "naltrexona",
+    "metadona",
+    "qt_psicof",
+    "ayahuasca",
+    "alucinogenos",
+    "opioides_sint",
+    "ptsd",
+    "psust"
+   ]
+  },
+  {
+   "id": "escopolamina",
+   "n": "Escopolamina («burundanga»): síndrome anticolinérgico y sumisión química",
+   "ab": "Escopolamina",
+   "al": [
+    "burundanga",
+    "hioscina",
+    "Datura",
+    "floripondio"
+   ],
+   "k": "sus",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2023,
+   "tags": [
+    "forense",
+    "risk",
+    "organic"
+   ],
+   "cie": [
+    "6C4E"
+   ],
+   "desc": "La escopolamina (hioscina) es un alcaloide tropánico antagonista muscarínico presente en solanáceas como Datura stramonium y Brugmansia, de uso médico como antiemético y antiespasmódico y conocida en el ámbito forense como «burundanga» por su empleo en delitos cometidos sobre personas incapacitadas químicamente. Produce un síndrome anticolinérgico central y periférico con confusión, amnesia anterógrada, midriasis, sequedad de mucosas, taquicardia y retención urinaria. Su reputación de anular la voluntad ha generado un relato social que la investigación toxicológica no confirma: los casos con confirmación analítica existen, pero son infrecuentes frente al número de sospechas.",
+   "feats": [
+    "Alcaloide tropánico con acción antimuscarínica central y periférica, que coexiste de forma natural con la atropina en Datura stramonium y otras solanáceas de interés forense (Díaz 2025; Sáiz 2013)",
+    "El cuadro clínico combina delirium con amnesia anterógrada, alucinaciones y desorientación, y signos periféricos: midriasis, sequedad de piel y mucosas, taquicardia, retención urinaria e íleo [fuente no localizada para la frecuencia relativa de cada signo en la intoxicación criminal]",
+    "La amnesia es el rasgo con más peso pericial: la persona recuerda mal o no recuerda las horas del suceso, lo que dificulta la denuncia y la reconstrucción de los hechos (Ardila-Ardila 2006)",
+    "La primera confirmación analítica de un delito facilitado por burundanga en España se publicó en 2016, lo que ilustra la distancia entre la frecuencia con que se sospecha y la frecuencia con que se demuestra (Gomila Muñiz 2016)",
+    "Metabolismo rápido y dosis pequeñas: la detección en sangre y orina puede ser insuficiente si la consulta es tardía, y el pelo amplía la ventana; en un caso de agresión sexual la escopolamina se detectó en orina a las 18 horas y después en el segmento de pelo correspondiente, con la sangre negativa (Melchior 2023)",
+    "Existen presentaciones sanitarias de escopolamina de uso corriente: en una cohorte retrospectiva amplia de pacientes quirúrgicos, su uso perioperatorio se asoció a más delirium, neumonía, retención urinaria y reingresos, también en grupos de edad media (Sun 2024)",
+    "Los análisis portátiles por electroforesis capilar permiten identificar con rapidez escopolamina y atropina en bebidas, cremas o infusiones incautadas, lo que resulta útil cuando se dispone de la muestra material (Sáiz 2013)"
+   ],
+   "tx": "Manejo de soporte del delirium anticolinérgico: ambiente tranquilo y bien iluminado, hidratación, control de temperatura, constantes y electrocardiograma, vigilancia de la retención urinaria y benzodiacepinas si la agitación lo exige, evitando asociar fármacos con carga anticolinérgica. La fisostigmina revierte el delirium anticolinérgico y en una revisión narrativa de 2.299 pacientes los efectos adversos graves fueron infrecuentes, aunque debe evitarse si hay ensanchamiento del QRS y usarse con cautela en cardiopatía isquémica o intoxicación por fármacos que ensanchan el QRS (Arens y Kearney 2019); su indicación corresponde a toxicología clínica. Si hay sospecha de delito, recogida precoz de muestras y cadena de custodia.",
+   "note": "La idea de que la escopolamina convierte a la persona en un autómata obediente y sin voluntad no cuenta con respaldo experimental localizable [fuente no localizada]; lo documentado es un delirium con amnesia y sugestionabilidad aumentada, que ya basta para anular la capacidad de consentir. Un resultado toxicológico negativo no descarta la agresión, por las ventanas de detección cortas, y un resultado positivo tampoco demuestra por sí solo la administración encubierta, dado el uso médico y la exposición a plantas. Las series publicadas son casos aislados y revisiones, sin estudios poblacionales.",
+   "sec": [
+    {
+     "t": "Síndrome anticolinérgico y diagnóstico diferencial",
+     "x": "El síndrome anticolinérgico central cursa con delirium fluctuante, alucinaciones visuales, lenguaje incoherente y amnesia del episodio, acompañado de los signos periféricos clásicos: midriasis con visión borrosa, piel y mucosas secas, rubefacción, fiebre, taquicardia, retención urinaria y disminución del peristaltismo. En la persona joven que llega a urgencias con confusión y midriasis conviene considerar, además de la escopolamina y otras solanáceas, los antihistamínicos, los antidepresivos tricíclicos, los antiparkinsonianos anticolinérgicos y la intoxicación por sustancias estimulantes o alucinógenas, así como causas no tóxicas (encefalitis, estado postictal, hipoglucemia, traumatismo craneal). Orientan hacia el origen anticolinérgico la combinación de piel seca y caliente con midriasis arreactiva y retención urinaria, frente a la sudoración del cuadro simpaticomimético.",
+     "links": [
+      {
+       "ids": [
+        "delirium",
+        "amnesia"
+       ],
+       "t": "delirium y amnesia"
+      },
+      {
+       "ids": [
+        "biperideno",
+        "polifarm"
+       ],
+       "t": "anticolinérgicos y carga anticolinérgica"
+      },
+      {
+       "ids": [
+        "otc_abuso"
+       ],
+       "t": "antihistamínicos y fármacos de venta libre"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia real frente al mito en la sumisión química",
+     "x": "El relato popular atribuye a la burundanga la capacidad de anular la voluntad y convertir a la víctima en ejecutora dócil de órdenes complejas. Lo que la literatura documenta es un delirium con amnesia anterógrada y pérdida de la capacidad de decidir (Ardila-Ardila 2006), que es suficiente para que no exista consentimiento válido, pero que no equivale al automatismo del mito. La investigación sobre violencia sexual facilitada por drogas muestra además que la administración encubierta es poco frecuente comparada con el aprovechamiento de un consumo voluntario, sobre todo de alcohol, y en España la primera confirmación analítica de un delito con burundanga no se publicó hasta 2016 (Gomila Muñiz 2016). Esto no debe usarse para poner en duda a quien denuncia: la discrepancia entre sospecha y confirmación se explica en buena parte por la rapidez del metabolismo, las dosis pequeñas y el retraso en consultar, no por falsedad del relato.",
+     "links": [
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "sumisión química y consentimiento"
+      },
+      {
+       "ids": [
+        "falsa_memoria",
+        "amnesia"
+       ],
+       "t": "memoria, amnesia y testimonio"
+      },
+      {
+       "ids": [
+        "ptsd",
+        "trauma"
+       ],
+       "t": "consecuencias traumáticas"
+      }
+     ]
+    },
+    {
+     "t": "Detección toxicológica y valor pericial",
+     "x": "La escopolamina se metaboliza con rapidez y se emplea en cantidades muy pequeñas, de modo que la sangre puede ser negativa cuando la orina todavía es positiva, y ambas pueden serlo cuando la persona consulta días después. El análisis segmentario de pelo amplía la ventana: en el caso descrito por Melchior et al. (2023), con muestras de orina y sangre a las 18 horas y pelo cinco semanas más tarde, la sustancia se detectó en la orina hidrolizada y en el segmento capilar correspondiente al momento del suceso, con sangre negativa. Para la pericia conviene, por tanto, solicitar explícitamente la búsqueda de alcaloides tropánicos (no figuran en los cribados habituales), recoger orina y sangre cuanto antes, conservar los recipientes o restos de bebida y programar la toma de pelo pasadas unas semanas. En la interpretación hay que recordar las fuentes alternativas de exposición: medicamentos con escopolamina o butilescopolamina, infusiones de solanáceas y consumo recreativo de Datura.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "sumision_q"
+       ],
+       "t": "informe pericial y sumisión química"
+      },
+      {
+       "ids": [
+        "mxe"
+       ],
+       "t": "otras sustancias ausentes de los cribados habituales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ardila-Ardila A, Moreno CB & Ardila-Gómez SE (2006). Intoxicación por escopolamina («burundanga»): pérdida de la capacidad de tomar decisiones. Rev Neurol 42:125-128 · PMID 16450329",
+    "Gomila Muñiz I, Puiguriguer Ferrando J & Quesada Redondo L (2016). Delito facilitado por burundanga: primera confirmación analítica en España. Med Clin (Barc) 147:421 — doi:10.1016/j.medcli.2016.06.025 · PMID 27567338",
+    "Melchior SE et al. (2023). Detection of scopolamine in urine and hair in a drug-facilitated sexual assault. Forensic Sci Int 347:111678 — doi:10.1016/j.forsciint.2023.111678 · PMID 37030199",
+    "Sáiz J et al. (2013). Rapid determination of scopolamine in evidence of recreational and predatory use. Sci Justice 53:409-414 — doi:10.1016/j.scijus.2013.08.001 · PMID 24188342",
+    "Arens AM & Kearney T (2019). Adverse effects of physostigmine. J Med Toxicol 15:184-191 — doi:10.1007/s13181-019-00697-z · PMID 30747326",
+    "Sun G, Torjman MC & Min KJ (2024). A comprehensive analysis of in-hospital adverse events after scopolamine administration: insights from a retrospective cohort study using a large nationwide inpatient database. BMC Anesthesiol 24:438 — doi:10.1186/s12871-024-02824-y · PMID 39604832",
+    "Díaz R et al. (2025). Toxic and hallucinogenic plants of southern Chile of forensic interest: a review. Plants (Basel) 14:2196 — doi:10.3390/plants14142196 · PMID 40733433",
+    "OMS (2019/2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6C4E Trastornos debidos al consumo de otras sustancias psicoactivas especificadas, incluidos medicamentos; código de sustancia XM1MW1 Escopolamina"
+   ],
+   "rel": [
+    "sumision_q",
+    "delirium",
+    "amnesia",
+    "perit_forense",
+    "otc_abuso",
+    "falsa_memoria",
+    "biperideno",
+    "polifarm",
+    "ptsd",
+    "mxe"
+   ]
+  }
+ ]
+}

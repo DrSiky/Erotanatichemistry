@@ -1,0 +1,99 @@
+{
+ "estado": "terminado (verificador 2, verificación completa desde cero, 26 nov. 2026)",
+ "pmid_comprobados": 10,
+ "pmid_erroneos": 0,
+ "fuentes_descargadas_hoy": {
+  "carpeta": "/tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/veu2",
+  "CANMAT_2018": "XML completo y supplementaryFiles de Europe PMC (PMC5947163). Tablas 12, 14 y 17 = BDI-20-97-g010.jpg, g011.jpg y g012.jpg, leídas ampliadas; tablas 13, 15, 18, 19, 20 y 24 y apartados 2.3, 3.3, 4.4, 4.5, 5.5, 6.2 y 8.3 leídos en el XML",
+  "NICE_CG185": "nice.org.uk/guidance/cg185/chapter/Recommendations, última actualización 2 sept. 2025",
+  "CIMA": "FT_48932 (Plenur, jul. 2024), FT_60350 (Depakine Crono, sept. 2026), FT_61568 (Lamictal, jun. 2025), FT_39955 (Tegretol, 08/2026), FT_63093 (Trileptal, 10/2025)"
+ },
+ "puntos_especiales": {
+  "a_tablas_jerarquicas": "Cotejadas en la imagen. Tabla 17 (mantenimiento; cualquier episodio / depresión / manía): litio 1/1/1; valproato 1/2/3; lamotrigina 1/1/2; carbamazepina 2/2/2. Coinciden con lo que había escrito el verificador interrumpido. Tabla 12: litio, valproato y carbamazepina nivel 1 en manía aguda; combinaciones con quetiapina 1, aripiprazol 2, risperidona 1, asenapina 2; olanzapina + Li/DVP nivel 1 (2.ª línea); litio + valproato nivel 3. Tabla 14: litio, lamotrigina sola y añadida y valproato, nivel 2 en depresión aguda. La resolución de las imágenes es baja (709 px); los símbolos se distinguen ampliados y son coherentes con el texto salvo las dos discrepancias que la figura declara en sus límites",
+  "b_NICE": "Todos los números de recomendación citados existen y dicen lo que se les atribuye, con los matices corregidos abajo (1.5.5 y 1.5.6 son 'considerar añadir')",
+  "c_CIMA": "Citas literales de Plenur 4.1, 4.3, 4.4, 4.5, 4.8 y 4.9 correctas. ARA-II: el epígrafe de 4.5 nombra 'IECAs, antagonistas del receptor de angiotensina II' y el texto solo desarrolla los IECA; la redacción de la figura lo refleja. Depakine Crono 4.3/4.4, Lamictal, Tegretol y Trileptal: correctas",
+  "d_dosis": "Sin dosis. Únicas cifras tipo umbral: litemias de intoxicación (Plenur 4.9) y aclaramiento de creatinina < 30 ml/min (Trileptal 4.2), ambas literales y atribuidas",
+  "e_sexta_columna": "Comparada con src/figsrc/mat_antipsicoticos_usos.js: esa lámina cubre manía, depresión y mantenimiento del trastorno bipolar I, pero no bipolar II, índices de polaridad, peso, rasgos mixtos ni NICE 1.5.3/1.7.8/1.6.10; lo que queda en la sexta columna no la repite. El recorte de quetiapina y lurasidona en depresión bipolar I ya estaba hecho y se mantiene"
+ },
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "Banda 1, ciclación rápida, valproato",
+   "antes": "A menudo hace falta combinar estabilizadores (C18, 5.5.8)",
+   "despues": "Con ciclación rápida es probable que haga falta combinar estabilizadores más a menudo (C18, 3.3.8)",
+   "fuente": "CANMAT 2018, apartado 3.3.8 (el 5.5.8 no menciona la ciclación rápida)"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Banda 3, caja «Lo que esta lámina no repite»",
+   "antes": "Psicoeducación e intervenciones psicológicas, que NICE recomienda junto al fármaco en todas las fases",
+   "despues": "Intervenciones psicológicas estructuradas, que NICE ofrece en la depresión bipolar y a largo plazo para prevenir recaídas (rec. 1.6.1 y 1.7.3)",
+   "fuente": "NICE CG185, rec. 1.6.1 y 1.7.3; en la manía (1.5.1 a 1.5.12) no hay recomendación de intervención psicológica"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Banda 3, caja «Litio: prevalece la ficha técnica de Plenur»",
+   "antes": "aunque las guías lo coloquen en 1.ª línea en todas las fases",
+   "despues": "aunque C18 lo coloque en 1.ª línea en la manía, la depresión bipolar I y el mantenimiento",
+   "fuente": "CANMAT 2018, tabla 19 (litio 2.ª línea en depresión bipolar II); NICE no lo pone en primer lugar en la manía (rec. 1.5.3 a 1.5.5)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Banda 1, manía aguda en monoterapia, litio y valproato",
+   "antes": "NICE propone considerarlo si un segundo antipsicótico no basta / si añadir litio no funciona",
+   "despues": "Se explicita que NICE no los propone solos sino añadidos al antipsicótico («considerar»)",
+   "fuente": "NICE CG185, rec. 1.5.5 y 1.5.6"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Banda 2, piel y alelos HLA, carbamazepina",
+   "antes": "HLA-A*31:01: riesgo de reacción cutánea del 5 % al 26 % en ascendencia europea; datos insuficientes para cribar (Tegretol 4.4)",
+   "despues": "el riesgo, casi siempre de reacción menos grave, pasa del 5 % de la población general al 26 % en portadores de ascendencia europea; datos insuficientes para recomendar la prueba (Tegretol 4.2 y 4.4)",
+   "fuente": "Ficha técnica Tegretol 4.4"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Banda 2, interacciones, lamotrigina",
+   "antes": "Los estrógenos reducen sus niveles",
+   "despues": "Los anticonceptivos con etinilestradiol reducen sus niveles y otros tratamientos con estrógenos pueden interferir",
+   "fuente": "Ficha técnica Lamictal 4.4 y 4.5"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Banda 1, manía en combinación, carbamazepina",
+   "antes": "(C18, nivel 3)",
+   "despues": "(C18, nivel 3; 3.3.5 y tabla 13)",
+   "fuente": "CANMAT 2018, 3.3.5"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Límites de la figura",
+   "antes": "lamotrigina y carbamazepina en la depresión aguda: nivel 1 y 3 en la tabla 17, nivel 2 en el texto y en las tablas 14 y 15",
+   "despues": "lamotrigina: nivel 1 en la tabla 17 y nivel 2 en el texto y la tabla 14; carbamazepina: nivel 3 en las tablas 12 y 17 y nivel 2 en la tabla 15",
+   "fuente": "Imágenes de las tablas 12, 14 y 17"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Referencias (NICE y CANMAT)",
+   "antes": "lista de recomendaciones con 1.10.31 y 1.10.37, que la figura no usa, y sin 1.6.1 ni 1.7.3",
+   "despues": "lista ajustada a las recomendaciones realmente citadas, con fecha de consulta; en CANMAT se indica el origen de las imágenes",
+   "fuente": "NICE CG185; Europe PMC"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Correcciones del verificador interrumpido (revisadas una a una y conservadas)",
+   "antes": "versión en trabajo/figuras/pendiente/mat_eutimizantes.vorig.js",
+   "despues": "niveles por polo de la tabla 17; ciclación rápida citada en 4.5 en vez de 4.4; lamotrigina y regla de las 2 semanas (4.4.3); contraindicaciones de Depakine con aminoácidos ramificados y déficit primario de carnitina; aumento de peso frecuente en Trileptal 4.8; ARA-II en Plenur 4.5; títulos exactos de las otras láminas; recorte de la sexta columna; retirada de tb_mayor y tec_dep de meta.nodes",
+   "fuente": "Todas confirmadas contra las fuentes descargadas hoy"
+  }
+ ],
+ "sin_resolver": [
+  "Las tablas 12, 14 y 17 solo existen como JPG de 709 px de ancho; los niveles se leen por la fracción rellena del círculo. La lectura es coherente con el texto, pero no hay versión en texto con la que contrastarla símbolo a símbolo.",
+  "Trileptal 4.8 es una tabla que al pasar a texto pierde la alineación; «aumento de peso: frecuente» y «agranulocitosis, anemia aplásica y pancitopenia: raras» se deducen del orden de las celdas y de la coherencia con el apartado 4.4 (hipotiroidismo «poco frecuente», casos «raros»). Conviene mirarlo en el PDF si se quiere certeza absoluta.",
+  "La caja «Lo que esta lámina no repite» enlaza al nodo ap_tipicos; es un id existente pero poco específico (ap_atipicos ya se usa en la tabla). No lo he cambiado.",
+  "Cipriani, Riblet, Nabi, Katz, McKnight, Popovic, Calabrese y los dos Vasudev se comprobaron por el resumen de PubMed, no por el texto completo; todas las cifras citadas figuran en los resúmenes.",
+  "Durante el trabajo git status mostró cambios de otro agente (dd_neurodesarrollo) en src/fig/_meta.json, src/fig/_orden.json y atlas_nosologico.html, sin nada de mat_eutimizantes; no los toqué. Al terminar, git status solo muestra trabajo/figuras/mat_eutimizantes.js modificado."
+ ],
+ "compilacion": "node tools/fig.js mat_eutimizantes --dry: OK, 2400×5252, 5 cajas, 32 enlaces, 3 paneles; PNG revisados sin solapes en /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/mat_eutimizantes_vpng. src/figsrc/mat_eutimizantes.js borrado.",
+ "copia_previa": "/tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/fig5/veu2/mat_eutimizantes.antes_v2.js"
+}

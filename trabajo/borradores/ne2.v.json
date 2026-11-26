@@ -1,0 +1,739 @@
+{
+ "patch": {
+  "ap_tipicos": {
+   "relAdd": [
+    "clotiapina",
+    "loxapina",
+    "periciazina",
+    "pimozida"
+   ]
+  },
+  "ap_atipicos": {
+   "relAdd": [
+    "sertindol"
+   ]
+  },
+  "qt_psicof": {
+   "relAdd": [
+    "pimozida",
+    "sertindol",
+    "periciazina"
+   ]
+  },
+  "ekbom": {
+   "relAdd": [
+    "pimozida"
+   ]
+  },
+  "tourette": {
+   "relAdd": [
+    "pimozida"
+   ]
+  },
+  "agitacion": {
+   "relAdd": [
+    "loxapina",
+    "clotiapina"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "pimozida",
+    "sertindol"
+   ]
+  },
+  "levomepromazina": {
+   "relAdd": [
+    "periciazina",
+    "clotiapina"
+   ]
+  },
+  "zuclopentixol": {
+   "relAdd": [
+    "clotiapina"
+   ]
+  },
+  "lorazepam": {
+   "relAdd": [
+    "loxapina"
+   ]
+  },
+  "risperidona": {
+   "relAdd": [
+    "sertindol"
+   ]
+  },
+  "olanzapina": {
+   "relAdd": [
+    "loxapina"
+   ]
+  },
+  "alcohol": {
+   "relAdd": [
+    "periciazina"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "clotiapina",
+   "n": "Clotiapina (Etumina)",
+   "ab": "Clotiapina",
+   "al": [
+    "Etumina",
+    "clothiapine",
+    "clotiapine",
+    "dibenzotiazepina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "l",
+   "ev": "meta",
+   "y": 1968,
+   "tags": [
+    "emerg"
+   ],
+   "desc": "Antipsicótico dibenzotiazepínico (ATC N05AH06) de perfil sedante. Estado en España (registro CIMA, consulta de noviembre de 2026): Etumina 40 mg comprimidos, n.º de registro 46584, titular Laboratoires Juvisé Pharmaceuticals, comercializado; primera autorización el 23-09-1968 y renovación el 31-03-2007. Indicación literal del apartado 4.1 de su ficha técnica: «tratamiento agudo o crónico de la esquizofrenia y de otros trastornos psicóticos». No hay en CIMA presentación parenteral. La ficha técnica no establece eficacia ni seguridad en menores de 18 años. La evidencia controlada es escasa: la revisión Cochrane (cinco ensayos, ninguno frente a placebo) no halló pruebas para preferirla a otros tratamientos en la psicosis aguda, aunque sus autores no desaconsejan su uso en urgencias (Carpenter 2004).",
+   "feats": [
+    "Mecanismo (ficha técnica, 5.1): «alta afinidad por los receptores D2 y 5-HT2» con actividad adrenolítica, anticolinérgica y antihistamínica; la ficha describe un efecto inicial sedante que reduce la actividad psicomotora y regula el sueño antes del efecto antipsicótico.",
+    "Contraindicaciones (4.3): solo hipersensibilidad y estados comatosos o de depresión grave del sistema nervioso central; las demás cautelas (QT, convulsiones, neutropenia, glaucoma de ángulo estrecho, hipertrofia prostática, íleo) figuran como advertencias en 4.4.",
+    "Farmacocinética (5.2): en 16 varones sanos, biodisponibilidad oral absoluta del 24,9 % (± 12,1 %), pico a 1,1 h y semivida de 7,05 h por vía oral; metabolismo intenso con nueve metabolitos urinarios, todos menos activos como neurolépticos.",
+    "Interacciones (4.5): potencia los efectos sobre el sistema nervioso del alcohol, sedantes, narcóticos, analgésicos, hipnóticos, IMAO y antihistamínicos; aumenta el efecto de los antihipertensivos; puede potenciar la toxicidad del litio; precaución con fármacos que prolongan el QT o alteran los electrolitos.",
+    "Neutropenia (4.4): con antecedentes de leucopenia, recuento frecuente los primeros meses; suspender si los neutrófilos bajan de 1000/mm³. Convulsiones dependientes de la dosis, con mayor riesgo en la retirada del alcohol o de benzodiacepinas (ficha técnica AEMPS-CIMA).",
+    "Revisión Cochrane (Carpenter 2004; cinco ensayos): frente a clorpromazina, perfenazina o trifluoperazina no se mostró superior ni inferior en «sin mejoría global importante» (n = 83, RR 0,82; IC 95 % 0,22-3,05), y datos débiles sugieren menos necesidad de antiparkinsonianos que con acetato de zuclopentixol (n = 38, RR 0,43)."
+   ],
+   "tx": "Antipsicótico de uso esencialmente local (España y algunos países europeos) [fuente no localizada]. La guía NICE de psicosis y esquizofrenia no jerarquiza fármacos concretos: pide elegir el antipsicótico de forma compartida, informando de los efectos metabólicos, extrapiramidales, cardiovasculares (incluido el QT) y hormonales de cada uno (NICE CG178, 1.3.5.1); su lugar en la guía BAP de esquizofrenia y en las Maudsley Prescribing Guidelines no se ha podido contrastar en sus textos [fuente no localizada]. Si se usa, conviene tratarlo como un antipsicótico sedante de baja potencia: valorar el riesgo de caídas e hipotensión, la carga anticolinérgica y la suma de depresores, y revisar periódicamente la indicación en lugar de prolongarlo como hipnótico. Sin pautas individualizadas: límites y precauciones según la ficha técnica AEMPS-CIMA de Etumina.",
+   "note": "La evidencia se limita a ensayos antiguos con defectos metodológicos importantes y sin comparación con placebo (Carpenter 2004); la ficha técnica es breve y no aporta datos de frecuencia de reacciones adversas. Su uso frecuente en España como sedante nocturno o en la agitación, fuera de la indicación literal cuando no hay psicosis, no está documentado en estudios indexados [fuente no localizada]. El año de síntesis y el laboratorio de origen no se han contrastado [fuente no localizada]; el año consignado es el de la primera autorización española.",
+   "sec": [
+    {
+     "t": "Estado regulatorio y lugar terapéutico",
+     "x": "Etumina (n.º de registro 46584) es el único medicamento con clotiapina en CIMA y está comercializado. Su ficha técnica, revisada en noviembre de 2020, autoriza el tratamiento agudo o crónico de la esquizofrenia y otros trastornos psicóticos, sin indicaciones en el trastorno bipolar, la agitación no psicótica, el insomnio ni la ansiedad. La revisión Cochrane recogió cinco ensayos en psicosis aguda con comparadores antipsicóticos (clorpromazina, perfenazina, trifluoperazina y acetato de zuclopentixol) o lorazepam; frente a lorazepam, añadida al haloperidol para controlar episodios agresivos, no mejoró el estado mental de forma significativa (diferencia de medias ponderada −3,36; IC 95 % −8,09 a 1,37) y la mayoría de los datos no pudieron agruparse (Carpenter 2004). En la revisión Cochrane del acetato de zuclopentixol, quienes lo recibieron no parecían tener más riesgo de trastornos del movimiento que con haloperidol o clotiapina (Gibson 2004). Con estos datos, la clotiapina no debe considerarse un tratamiento de primera elección frente a fármacos con mejor base de ensayos (véanse las fichas de haloperidol, olanzapina y zuclopentixol).",
+     "links": [
+      {
+       "ids": [
+        "esq",
+        "agitacion"
+       ],
+       "t": "esquizofrenia y agitación"
+      },
+      {
+       "ids": [
+        "zuclopentixol",
+        "haloperidol",
+        "lorazepam"
+       ],
+       "t": "comparadores en los ensayos"
+      },
+      {
+       "ids": [
+        "ap_tipicos"
+       ],
+       "t": "antipsicóticos de primera generación"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad: advertencias de la ficha técnica",
+     "x": "La ficha técnica de Etumina (4.4) reúne advertencias de clase: mayor riesgo de acontecimientos cerebrovasculares y de muerte en personas mayores con demencia (no se ha estudiado en esa población), tromboembolismo venoso, hipotensión ortostática con control periódico de la presión arterial a partir de los 65 años, precaución con cardiopatía o antecedentes familiares de QT largo, alteración de la glucemia, síndrome neuroléptico maligno, hiperprolactinemia y potenciación de efectos extrapiramidales. Por su acción anticolinérgica pide atención especial en la hipertrofia prostática, el glaucoma de ángulo estrecho y la atonía intestinal. En sobredosis (4.9) describe somnolencia, hipotensión, taquicardia, arritmia, depresión respiratoria, convulsiones y coma, sin antídoto, con monitorización cardíaca y respiratoria; la diálisis no ha demostrado eficacia. Los datos preclínicos (5.3) muestran menor fertilidad en ratas macho y adenomas mamarios en ratones a dosis clínicamente relevantes.",
+     "links": [
+      {
+       "ids": [
+        "ap_dem_riesgo"
+       ],
+       "t": "antipsicóticos en la demencia"
+      },
+      {
+       "ids": [
+        "snm",
+        "hiperprl_ap",
+        "qt_psicof"
+       ],
+       "t": "SNM, prolactina y QT"
+      }
+     ]
+    },
+    {
+     "t": "Consumo de sustancias y chemsex",
+     "x": "La ficha técnica (4.5) advierte que la clotiapina potencia los efectos del alcohol, los sedantes, los narcóticos y los hipnóticos, y (4.4) que disminuye el umbral convulsivo, con mayor riesgo en la retirada del alcohol o de fármacos anticonvulsivos como las benzodiacepinas. Por extensión farmacológica, la combinación con GHB/GBL, de acción depresora central, y su uso durante una abstinencia de GHB, que puede cursar con convulsiones, exigen especial cautela [fuente no localizada para la clotiapina en concreto]. No se han encontrado estudios indexados sobre su uso en la psicosis inducida por estimulantes ni en el chemsex [fuente no localizada]. En la intoxicación aguda por estimulantes con agitación, la clotiapina no figura entre los fármacos estudiados en ensayos; la elección debe apoyarse en fármacos con evidencia y en la valoración médica de la causa de la agitación.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl",
+        "ghb_abst"
+       ],
+       "t": "GHB/GBL y su abstinencia"
+      },
+      {
+       "ids": [
+        "dt_alc",
+        "alcohol"
+       ],
+       "t": "alcohol y abstinencia"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "psust"
+       ],
+       "t": "chemsex y psicosis inducida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2020). Ficha técnica de Etumina 40 mg comprimidos (clotiapina), n.º de registro 46584, apartados 4.1-4.9, 5.1-5.3; revisión del texto de noviembre de 2020; consulta en cima.aemps.es en noviembre de 2026",
+    "Carpenter S, Berk M & Rathbone J (2004). Clotiapine for acute psychotic illnesses. Cochrane Database Syst Rev 2004(4):CD002304 · PMID 15495032",
+    "Gibson RC et al. (2004). Zuclopenthixol acetate for acute schizophrenia and similar serious mental illnesses. Cochrane Database Syst Rev (3):CD000525 · PMID 15266432",
+    "Garriga M et al. (2016). Assessment and management of agitation in psychiatry: Expert consensus. World J Biol Psychiatry 17:86-128 · PMID 26912127",
+    "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo «clotiapina»), consulta de noviembre de 2026",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1; consulta en nice.org.uk en noviembre de 2026"
+   ],
+   "rel": [
+    "ap_tipicos",
+    "esq",
+    "agitacion",
+    "zuclopentixol",
+    "levomepromazina",
+    "lorazepam",
+    "qt_psicof",
+    "snm",
+    "ghb_gbl"
+   ]
+  },
+  {
+   "id": "loxapina",
+   "n": "Loxapina inhalada (Adasuve) y loxapina oral",
+   "ab": "Loxapina",
+   "al": [
+    "Adasuve",
+    "loxapine",
+    "loxapina inhalada",
+    "Staccato loxapine",
+    "dibenzoxazepina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 2,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 2013,
+   "tags": [
+    "emerg"
+   ],
+   "desc": "Antipsicótico dibenzoxazepínico (ATC N05AH01). En España solo existe la forma inhalada: Adasuve 9,1 mg polvo para inhalación (unidosis), de Ferrer Internacional, autorizada por procedimiento centralizado de la EMA (EMEA/H/C/002400; autorización de comercialización de 20-02-2013); en CIMA figuran dos registros, 113823002 (comercializado) y 113823004 (no comercializado), y no hay loxapina oral ni intramuscular registrada. Indicación literal (4.1): «control rápido de la agitación de leve a moderada en pacientes adultos con esquizofrenia o trastorno bipolar. Los pacientes deben recibir tratamiento regular inmediatamente después de controlar los síntomas de agitación aguda». El dispositivo genera por calentamiento un aerosol que se absorbe en el pulmón con un pico plasmático a los 2 minutos (5.2). En dos ensayos de fase III la agitación disminuyó frente a placebo desde los 10 minutos (Lesem 2011; Kwentus 2012).",
+   "feats": [
+    "Mecanismo (ficha técnica, 5.1): antagonismo de alta afinidad de los receptores D2 y 5-HT2A, con unión a receptores noradrenérgicos, histaminérgicos y colinérgicos; entre sus metabolitos figuran la 7-OH-loxapina, con alta afinidad D2, y la amoxapina (5.2).",
+    "Contraindicaciones (4.3): hipersensibilidad a la loxapina o a la amoxapina; signos o síntomas respiratorios agudos (p. ej., sibilancias) y enfermedad activa de las vías respiratorias como asma o EPOC, por riesgo de broncoespasmo, notificado sobre todo en los 25 minutos siguientes a la dosis.",
+    "Condiciones de uso (4.2): en un entorno médico, bajo supervisión directa de un profesional, con observación durante la primera hora y un broncodilatador beta-agonista de acción corta disponible; la ficha técnica limita su uso a un máximo de dos dosis y no la ha estudiado en mayores de 65 años, menores de 18 ni en insuficiencia renal o hepática.",
+    "Ensayo en esquizofrenia (Lesem 2011; 344 participantes): ambas dosis redujeron la puntuación PANSS-EC frente a placebo a las 2 h, con efecto desde los 10 min. En el trastorno bipolar I (Kwentus 2012; 314 participantes) la disgeusia afectó al 17 % con el fármaco frente al 6 % con placebo.",
+    "Interacciones (4.5): sedación excesiva y depresión o fallo respiratorio con benzodiacepinas u otros depresores; con lorazepam intramuscular los efectos sedantes parecen aditivos; evitar la adrenalina (empeora la hipotensión: usar noradrenalina o fenilefrina) y, si es posible, los inhibidores de CYP1A2 como fluvoxamina o ciprofloxacino.",
+    "Loxapina oral (Chakrabarti 2007; 41 ensayos): eficaz frente a placebo (sin mejoría global a seis semanas: RR 0,30; NNT 3) y similar a los típicos y a risperidona o quetiapina, con más efectos extrapiramidales que los atípicos (RR 2,18); no está registrada en España."
+   ],
+   "tx": "Opción no invasiva para la agitación leve o moderada en la esquizofrenia o el trastorno bipolar cuando la persona colabora y acepta inhalar; no sustituye a la vía intramuscular cuando rechaza activamente la medicación (Citrome 2011). El consenso de expertos sobre agitación prioriza la desescalada verbal y las modificaciones del entorno, reserva la contención física como último recurso y prefiere las formulaciones orales o inhaladas a las intramusculares en la agitación leve (Garriga 2016). Antes de administrarla: descartar causa médica, intoxicación y delirium, preguntar por asma, EPOC o sibilancias y disponer de salbutamol. Sin pautas individualizadas: número máximo de dosis y requisitos según la ficha técnica de Adasuve (AEMPS-CIMA/EMA).",
+   "note": "Los ensayos pivotales fueron de 24 h, en personas con enfermedad de larga evolución, mayoritariamente fumadoras, con poca representación de adultos jóvenes y de mujeres en el ensayo de esquizofrenia (ficha técnica, 5.1); exigían una agitación al menos moderada (PANSS-EC ≥ 14) y la ficha técnica precisa que no se ha evaluado en la agitación por intoxicación o enfermedad física (delirio), por lo que sus resultados no se trasladan a esas situaciones. La ficha técnica advierte que la eficacia puede ser limitada en quien toma otros antipsicóticos. Guías: la NICE NG10 (2015) define la tranquilización rápida como parenteral y recomienda lorazepam intramuscular o haloperidol con prometazina intramusculares (1.4.37), sin mencionar la loxapina; la evaluación tecnológica de NICE sobre la loxapina inhalada se dio por terminada en 2013 sin recomendación porque el fabricante no presentó pruebas (NICE TA286). La guía conjunta BAP-NAPICU incluye la loxapina oral inhalada entre las opciones previas a la tranquilización rápida (Patel 2018). Su lugar en las Maudsley Prescribing Guidelines no se ha contrastado [fuente no localizada]. Según la revisión de Citrome (2012), los asesores de la FDA recomendaron limitarla a una dosis en 24 h dentro de un programa de mitigación de riesgos, más restrictivo que la ficha europea.",
+   "sec": [
+    {
+     "t": "Evidencia de eficacia en la agitación",
+     "x": "En el ensayo de fase III en esquizofrenia (Lesem 2011; 344 personas; NCT00628589) y en el de trastorno bipolar I en episodio maníaco o mixto (Kwentus 2012; 314 personas), las dos dosis estudiadas superaron a placebo en el cambio de la PANSS-EC a las 2 h y en la CGI-I, con reducción de la agitación desde los 10 minutos. El estudio de fase II (Allen 2011; 129 personas con esquizofrenia o trastorno esquizoafectivo) halló diferencias significativas en la PANSS-EC con la dosis más alta desde los 20 minutos. En el análisis de tamaños del efecto de Citrome (2012), la d de Cohen frente a placebo a las 2 h fue de 0,45 y 0,60 en esquizofrenia y de 0,73 y 0,94 en el trastorno bipolar, comparable a la de los antipsicóticos y benzodiacepinas intramusculares; los autores subrayan que la eficacia debe valorarse junto con la seguridad pulmonar. Una revisión sistemática de siete ensayos aleatorizados (1276 participantes) concluyó que la loxapina controla la agitación de forma eficaz y rápida, con limitaciones metodológicas (Lebel 2023).",
+     "links": [
+      {
+       "ids": [
+        "agitacion"
+       ],
+       "t": "agitación psicomotriz"
+      },
+      {
+       "ids": [
+        "esq",
+        "tb1",
+        "ep_mania"
+       ],
+       "t": "esquizofrenia y trastorno bipolar"
+      },
+      {
+       "ids": [
+        "olanzapina",
+        "aripiprazol",
+        "haloperidol",
+        "lorazepam"
+       ],
+       "t": "alternativas intramusculares y orales"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad respiratoria y cardiovascular",
+     "x": "El riesgo característico es el broncoespasmo: en los ensayos de 24 h en personas sin enfermedad respiratoria fue poco frecuente, pero en los estudios de seguridad en asma persistente leve o moderada y en EPOC moderada o grave fue muy frecuente, casi siempre en los primeros 25 minutos, leve o moderado y reversible con un broncodilatador inhalado (ficha técnica, 4.8). Por eso la ficha (4.3, 4.4) la contraindica en el asma, la EPOC y ante cualquier signo respiratorio agudo, y prohíbe repetirla si aparece cualquier síntoma respiratorio. Desaconseja su uso en enfermedad cardiovascular conocida, enfermedad cerebrovascular o situaciones predisponentes a la hipotensión (deshidratación, hipovolemia, antihipertensivos); si se necesitan vasopresores, noradrenalina o fenilefrina, nunca adrenalina. No parece asociarse a una prolongación del QT clínicamente relevante, pero se desconoce el riesgo combinado con otros fármacos que la producen. Reacciones más frecuentes: disgeusia y sedación o somnolencia (muy frecuentes), mareo, irritación de garganta, sequedad de boca y fatiga; distonía y acatisia, poco frecuentes. En la lactancia, la ficha recomienda desechar la leche durante las 48 h siguientes.",
+     "links": [
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT y psicofármacos"
+      },
+      {
+       "ids": [
+        "acatisia",
+        "discin_tard",
+        "snm"
+       ],
+       "t": "efectos extrapiramidales y SNM"
+      }
+     ]
+    },
+    {
+     "t": "Intoxicaciones, delirium y chemsex",
+     "x": "La ficha técnica de Adasuve (4.4 y 4.5) indica que no se ha evaluado en la agitación por intoxicación o enfermedad física (delirio), que debe usarse con precaución en esas situaciones y que puede producir depresión respiratoria grave combinada con alcohol u otros depresores del sistema nervioso central (ansiolíticos, hipnóticos, opiáceos). Esto es especialmente relevante en el chemsex, donde la agitación puede deberse a estimulantes (metanfetamina, catinonas) o coexistir con GHB/GBL o alcohol, cuya depresión respiratoria podría sumarse a la de la loxapina [fuente no localizada para la combinación concreta con GHB]. Antes de usarla en un contexto de consumo, la prioridad es la valoración médica de la causa de la agitación, del nivel de conciencia y de la función respiratoria. Las benzodiacepinas, de uso habitual en la agitación por estimulantes [fuente no localizada], se asocian a sedación aditiva con la loxapina, y la ficha pide vigilar la sedación excesiva y la hipotensión ortostática si se combinan. No se han localizado ensayos de loxapina inhalada en agitación asociada al consumo de sustancias [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "metanf",
+        "ghb_gbl"
+       ],
+       "t": "chemsex, estimulantes y GHB"
+      },
+      {
+       "ids": [
+        "delirium",
+        "psust"
+       ],
+       "t": "delirium y psicosis inducida"
+      },
+      {
+       "ids": [
+        "lorazepam"
+       ],
+       "t": "benzodiacepinas en la agitación"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Adasuve 9,1 mg polvo para inhalación (unidosis), n.º de registro 113823002, apartados 4.1-4.9, 5.1 y 5.2; consulta en cima.aemps.es en noviembre de 2026",
+    "EMA (2013). Adasuve (loxapina): EPAR, EMEA/H/C/002400; autorización de comercialización de 20-02-2013; consulta en ema.europa.eu en noviembre de 2026",
+    "NICE (2015). Violence and aggression: short-term management in mental health, health and community settings (NG10), recomendación 1.4.37; consulta en nice.org.uk en noviembre de 2026",
+    "NICE (2013). Loxapine inhalation for treating acute agitation and disturbed behaviours associated with schizophrenia and bipolar disorder (terminated appraisal) (TA286); consulta en nice.org.uk en noviembre de 2026",
+    "Lesem MD et al. (2011). Rapid acute treatment of agitation in individuals with schizophrenia: multicentre, randomised, placebo-controlled study of inhaled loxapine. Br J Psychiatry 198:51-58 · PMID 21200077",
+    "Kwentus J et al. (2012). Rapid acute treatment of agitation in patients with bipolar I disorder: a multicenter, randomized, placebo-controlled clinical trial with inhaled loxapine. Bipolar Disord 14:31-40 · PMID 22329470",
+    "Allen MH et al. (2011). Efficacy and safety of loxapine for inhalation in the treatment of agitation in patients with schizophrenia: a randomized, double-blind, placebo-controlled trial. J Clin Psychiatry 72:1313-1321 · PMID 21294997",
+    "Citrome L (2011). Aerosolised antipsychotic assuages agitation: inhaled loxapine for agitation associated with schizophrenia or bipolar disorder. Int J Clin Pract 65:330-340 · PMID 21199198",
+    "Citrome L (2012). Inhaled loxapine for agitation revisited: focus on effect sizes from 2 Phase III randomised controlled trials in persons with schizophrenia or bipolar disorder. Int J Clin Pract 66:318-325 · PMID 22226343",
+    "Lebel C et al. (2023). Efficacy and safety of loxapine in acute agitation: a systematic review of interventional studies. Prim Care Companion CNS Disord 25(6):23r03552 · PMID 38134395",
+    "Chakrabarti A et al. (2007). Loxapine for schizophrenia. Cochrane Database Syst Rev 2007(4):CD001943 · PMID 17943763",
+    "Garriga M et al. (2016). Assessment and management of agitation in psychiatry: Expert consensus. World J Biol Psychiatry 17:86-128 · PMID 26912127",
+    "Patel MX et al. (2018). Joint BAP NAPICU evidence-based consensus guidelines for the clinical management of acute disturbance: de-escalation and rapid tranquillisation. J Psychopharmacol 32:601-640 · PMID 29882463"
+   ],
+   "rel": [
+    "agitacion",
+    "esq",
+    "tb1",
+    "ep_mania",
+    "ap_tipicos",
+    "lorazepam",
+    "olanzapina",
+    "haloperidol",
+    "chemsex_s",
+    "delirium",
+    "qt_psicof"
+   ]
+  },
+  {
+   "id": "periciazina",
+   "n": "Periciazina (Nemactil)",
+   "ab": "Periciazina",
+   "al": [
+    "Nemactil",
+    "pericyazine",
+    "propericiazina",
+    "propericiazine",
+    "fenotiazina piperidínica"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "l",
+   "ev": "meta",
+   "y": 1965,
+   "tags": [],
+   "desc": "Fenotiazina piperidínica sedante (ATC N05AC01). Estado en España (CIMA, consulta de noviembre de 2026): Nemactil 10 mg comprimidos recubiertos con película (n.º de registro 42851) y Nemactil 40 mg/ml gotas orales en solución (41573), comercializados por Neuraxpharm Spain; la presentación de 50 mg (49193) figura como no comercializada. Primeras autorizaciones en octubre de 1965 (gotas) y marzo de 1966 (comprimidos de 10 mg); texto revisado en mayo de 2023. Indicaciones literales (4.1): «Trastornos del carácter y del comportamiento (conducta agresiva, agitación psicomotriz, negativismo, inadaptación al medio escolar, profesional, social o de la comunidad hospitalaria, etc.) observados en: epilepsia, oligofrenia, neurosis, psicopatías, psicosis seniles, alcoholismo. Episodios agudos de las neurosis. Neurosis obsesivas. Psicosis agudas y crónicas: esquizofrenias, delirios crónicos». La terminología, anterior a las clasificaciones actuales, se reproduce literalmente.",
+   "feats": [
+    "Mecanismo (ficha técnica, 5.1): actividad antidopaminérgica «de importancia media», con actividad antipsicótica moderada y efectos extrapiramidales «muy moderados», y «propiedades antihistamínicas, adrenolíticas y anticolinérgicas marcadas»; la revisión Cochrane la describe como más bloqueante noradrenérgica que dopaminérgica (Matar 2014).",
+    "Contraindicaciones (4.3): glaucoma de ángulo cerrado, riesgo de retención urinaria, enfermedad de Parkinson y agonistas dopaminérgicos o levodopa, antecedentes de agranulocitosis o porfiria, guanetidina, sultoprida, ingestión de alcohol y menores de 3 años (menores de un año por posible relación de las fenotiazinas con la muerte súbita del lactante).",
+    "QT (4.4): las fenotiazinas pueden potenciar la prolongación del QT y la torsade de pointes; la ficha pide, si la situación clínica lo permite, ECG, potasio y presión arterial antes y durante el tratamiento, sobre todo con bradicardia, hipopotasemia o QT largo familiar.",
+    "Interacciones (4.5): fármacos que prolongan el QT (antiarrítmicos IA y III, macrólidos, pentamidina, tricíclicos, haloperidol y otras fenotiazinas); como fenotiazina, potente inhibidora de CYP2D6 (aumento de amitriptilina); litio; antiácidos (separar al menos 2 h); suma de efectos con depresores centrales y metadona.",
+    "Gotas (4.4): contienen un 12 % de etanol, que la ficha técnica considera perjudicial en el alcoholismo y relevante en el embarazo, la lactancia, la infancia, la hepatopatía y la epilepsia; también sacarosa.",
+    "Revisión Cochrane (Matar 2014): solo cinco ensayos, de 1965 a 1980; frente a típicos (2 ensayos, n = 122; RR de no mejorar 1,24; IC 95 % 0,93-1,66) y a un atípico (1 ensayo, n = 93; RR 0,97) sin diferencias concluyentes, con más efectos extrapiramidales que el atípico (RR 2,69); calidad muy baja."
+   ],
+   "tx": "Su uso actual en España se concentra en la sedación de trastornos de conducta y agitación [fuente no localizada], ámbito en el que no hay ensayos modernos. En la esquizofrenia, la guía NICE pide elegir el antipsicótico de forma compartida según su perfil de efectos adversos (NICE CG178, 1.3.5.1), y la periciazina carece de evidencia que justifique preferirla (Matar 2014); su lugar en la guía BAP y en las Maudsley Prescribing Guidelines no se ha contrastado [fuente no localizada]. Antes de prescribirla: ECG y potasio si la situación lo permite, revisar contraindicaciones (alcohol, levodopa o agonistas dopaminérgicos, Parkinson, glaucoma, porfiria) e interacciones por CYP2D6 y QT. En personas mayores, la ficha advierte de mayor sensibilidad a la hipotensión, la sedación, los efectos extrapiramidales y el íleo. Sin pautas individualizadas: límites según la ficha técnica AEMPS-CIMA de Nemactil.",
+   "note": "Las indicaciones autorizadas proceden de los años sesenta y emplean términos hoy obsoletos o estigmatizantes («oligofrenia», «psicopatías», «neurosis»): se citan literalmente por fidelidad regulatoria, no como categorías diagnósticas vigentes (en su lugar: discapacidad intelectual, trastornos de la personalidad, trastornos de ansiedad, trastorno obsesivo-compulsivo). La ficha técnica no tiene apartado 5.2 con datos farmacocinéticos. En la revisión Cochrane, la comparación de efectos extrapiramidales frente a típicos ofrece un RR de 0,52 que el resumen presenta como desfavorable a la periciazina; el sentido de esa estimación no se ha podido aclarar con el resumen y no se usa aquí [dato contradictorio en el resumen].",
+   "sec": [
+    {
+     "t": "Evidencia y lugar terapéutico",
+     "x": "La revisión Cochrane de Matar (2014) solo pudo incluir cinco ensayos aleatorizados realizados entre 1965 y 1980, con mala descripción de la aleatorización, la ocultación de la asignación y el cegamiento. Para el desenlace principal, «estado global sin mejoría», los intervalos de confianza fueron compatibles tanto con un pequeño beneficio como con un mayor riesgo de no mejorar frente a antipsicóticos típicos o atípicos; las recaídas y los abandonos se estimaron con gran imprecisión. Los autores concluyen que, con evidencia de calidad muy baja, no es posible determinar sus efectos frente a otros antipsicóticos y que podría asociarse a más efectos extrapiramidales. Ninguna de las indicaciones conductuales de la ficha (agresividad, agitación o «inadaptación» en epilepsia, discapacidad intelectual, demencia o alcoholismo) se apoya en ensayos recogidos en esa revisión, centrada en la esquizofrenia. En la agitación y la agresividad de la demencia, la ficha técnica recoge el aumento de mortalidad y de ictus de los antipsicóticos y pide precaución con factores de riesgo cerebrovascular; en el metaanálisis de Schneider (2005), con atípicos, la OR de muerte frente a placebo fue de 1,54. Como fenotiazina de baja potencia, conviene recordar que pocos antipsicóticos de segunda generación producen menos efectos extrapiramidales que los típicos de baja potencia (Leucht 2009).",
+     "links": [
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "agit_dem",
+        "ap_dem_riesgo"
+       ],
+       "t": "agitación en la demencia y riesgos"
+      },
+      {
+       "ids": [
+        "levomepromazina",
+        "clorpromazina",
+        "ap_tipicos"
+       ],
+       "t": "otras fenotiazinas sedantes"
+      }
+     ]
+    },
+    {
+     "t": "Seguridad: advertencias de la ficha técnica",
+     "x": "Además del QT, la ficha técnica de Nemactil (4.4) pide suspender el tratamiento ante fiebre inexplicada por posible síndrome neuroléptico maligno, cuyos signos autonómicos (sudor, inestabilidad arterial) pueden preceder a la hipertermia; vigilar el íleo paralítico, que requiere tratamiento urgente; controlar la presión ocular y el hemograma en tratamientos prolongados e interrumpirlo si cambia notablemente el recuento; informar de que consulten ante fiebre, dolor de garganta o infección; vigilar clínica y electroencefalográficamente a las personas con epilepsia por descenso del umbral convulsivo; evitar la exposición solar por fotosensibilización; y controlar la glucemia en la diabetes o con factores de riesgo. Recoge también tromboembolismo venoso y riesgo cerebrovascular. En la infancia, desaconseja su uso por debajo de los 3 años, reserva las gotas en menores de 6 años a unidades especializadas y recomienda una valoración anual del aprendizaje por su impacto cognitivo.",
+     "links": [
+      {
+       "ids": [
+        "snm",
+        "discin_tard"
+       ],
+       "t": "SNM y efectos extrapiramidales"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT y psicofármacos"
+      },
+      {
+       "ids": [
+        "peso_psicof"
+       ],
+       "t": "efectos metabólicos"
+      }
+     ]
+    },
+    {
+     "t": "Alcohol, sustancias y chemsex",
+     "x": "La periciazina es de los pocos antipsicóticos cuya ficha técnica contraindica expresamente la ingestión de alcohol (4.3), por aumento del efecto sedante (4.5), y las gotas contienen etanol (12 %), lo que la ficha considera perjudicial en el alcoholismo. Ello limita su uso en personas con consumo activo de alcohol, pese a que el alcoholismo figura entre los contextos de sus indicaciones literales. La ficha (4.5) suma sus efectos depresores a los de opioides, metadona, benzodiacepinas e hipnóticos, y su inhibición de CYP2D6 puede elevar la concentración de sustratos de esta enzima, entre los que se encuentran algunos estimulantes como la MDMA y las anfetaminas [extrapolación farmacológica sin estudios con periciazina: fuente no localizada]. No se han encontrado estudios sobre su uso en el chemsex ni en la psicosis por estimulantes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "alcohol",
+        "dt_alc"
+       ],
+       "t": "alcohol"
+      },
+      {
+       "ids": [
+        "chemsex_arv",
+        "cyp2d6"
+       ],
+       "t": "CYP2D6 e interacciones en el chemsex"
+      },
+      {
+       "ids": [
+        "chemsex_s"
+       ],
+       "t": "chemsex"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2023). Ficha técnica de Nemactil 10 mg y 50 mg comprimidos recubiertos con película y 40 mg/ml gotas orales en solución (periciazina), n.º de registro 42851, 49193 y 41573, apartados 4.1-4.5 y 5.1; revisión del texto de mayo de 2023; consulta en cima.aemps.es en noviembre de 2026",
+    "Matar HE et al. (2014). Pericyazine for schizophrenia. Cochrane Database Syst Rev 2014(5):CD007479 · PMID 24825770",
+    "Schneider LS, Dagerman KS & Insel P (2005). Risk of death with atypical antipsychotic drug treatment for dementia: meta-analysis of randomized placebo-controlled trials. JAMA 294:1934-1943 · PMID 16234500",
+    "Leucht S et al. (2009). Second-generation versus first-generation antipsychotic drugs for schizophrenia: a meta-analysis. Lancet 373:31-41 · PMID 19058842",
+    "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo «periciazina»), consulta de noviembre de 2026",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1; consulta en nice.org.uk en noviembre de 2026"
+   ],
+   "rel": [
+    "ap_tipicos",
+    "levomepromazina",
+    "clorpromazina",
+    "esq",
+    "agit_dem",
+    "alcohol",
+    "cyp2d6",
+    "qt_psicof",
+    "snm"
+   ]
+  },
+  {
+   "id": "pimozida",
+   "n": "Pimozida (Orap)",
+   "ab": "Pimozida",
+   "al": [
+    "Orap",
+    "Orap Fuerte",
+    "pimozide",
+    "difenilbutilpiperidina"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1971,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antipsicótico difenilbutilpiperidínico (ATC N05AG02), antagonista dopaminérgico central de alta potencia y escasa sedación. Estado en España (CIMA, consulta de noviembre de 2026): Orap 1 mg comprimidos (n.º de registro 49503) y Orap Fuerte 4 mg comprimidos (49504), de Eumedica, ambos comercializados; primera autorización el 02-11-1971. En los tics, su eficacia frente a placebo está respaldada por ensayos (Pringsheim 2009; Farhat 2023), pero la guía europea ESSTS 2.0 da preferencia al aripiprazol y reserva la pimozida para los casos resistentes por su base de evidencia limitada o su riesgo extrapiramidal (Roessner 2022). Nota de ficha técnica: indicaciones literales (4.1) «psicosis agudas y crónicas» y «trastornos de ansiedad»; los tics no figuran en ella, a diferencia de la del haloperidol. Su rasgo de seguridad definitorio es la prolongación del QT, con contraindicaciones amplias de interacción por CYP3A4 y CYP2D6. En la esquizofrenia, su eficacia es similar a la de otros antipsicóticos como la clorpromazina (Mothi 2013).",
+   "feats": [
+    "Contraindicaciones (ficha técnica, 4.3): depresión del SNC, coma, trastornos depresivos, síndrome de Parkinson, QT largo congénito o familiar, antecedentes de arritmias o torsade de pointes, QT adquirido prolongado, hipopotasemia o hipomagnesemia, bradicardia relevante y fármacos que prolongan el QT.",
+    "Interacciones contraindicadas (4.3, 4.5): inhibidores de CYP3A4 (antifúngicos azólicos, inhibidores de la proteasa como ritonavir, macrólidos como claritromicina o eritromicina, nefazodona), de CYP2D6 (quinidina) e ISRS (sertralina, paroxetina, citalopram, escitalopram); evitar el zumo de pomelo y los diuréticos que causan hipopotasemia.",
+    "Datos de interacción (4.5): con paroxetina, el AUC de pimozida aumentó un 151 % y la Cmax un 62 %; con sertralina, ambos un 40 %; con citalopram, sin cambio farmacocinético, el QTc subió unos 10 ms de media.",
+    "Monitorización cardíaca (4.4): ECG antes de iniciar y periódicamente; ante cambios de repolarización o arritmias, revisar la necesidad, reducir o suspender; la ficha técnica obliga a suspenderla si el QT o el QTc supera 500 ms. Se han notificado taquicardia y fibrilación ventricular y muerte súbita.",
+    "Farmacocinética (5.2): absorción superior al 50 %, pico a las 6-8 h, metabolismo hepático por N-desalquilación (CYP3A4 y CYP2D6, en menor medida CYP1A2) y semivida media de unas 55 h, con variabilidad interindividual de más de diez veces.",
+    "Tics en el síndrome de Tourette: superior a placebo en tres de seis ensayos (162 participantes; Pringsheim 2009) y en el metaanálisis en red de Farhat (2023; DME −0,48; IC 95 % −0,84 a −0,12; certeza moderada), sin diferencias claras con otros antipsicóticos."
+   ],
+   "tx": "Fármaco de nicho cuyo uso exige un balance individual del riesgo cardíaco. En la psicosis, no aporta ventajas de eficacia sobre antipsicóticos con menor riesgo de QT e interacciones (Mothi 2013), y la guía NICE pide elegir de forma compartida según el perfil de efectos adversos, incluido el QT (NICE CG178, 1.3.5.1); su lugar en la guía BAP y en las Maudsley Prescribing Guidelines no se ha contrastado [fuente no localizada]. En los tics, la guía europea ESSTS 2.0 sitúa primero la psicoeducación y las intervenciones conductuales; entre los fármacos prefiere el aripiprazol por su perfil de efectos adversos, considera también tiaprida, risperidona y, con TDAH, clonidina o guanfacina, y deja la pimozida, como el haloperidol, para los casos resistentes (Roessner 2022). La guía de la AAN pide decidir de forma compartida e individualizada entre espera vigilada, CBIT y fármacos (Pringsheim 2019), y los antipsicóticos son el grupo más eficaz, sin diferencias claras entre ellos (Farhat 2023). Antes de prescribirla: ECG, electrolitos, revisión exhaustiva de toda la medicación (incluidos antirretrovirales, antifúngicos, macrólidos e ISRS) y, si se conoce, del fenotipo CYP2D6. Sin pautas individualizadas: límites según la ficha técnica AEMPS-CIMA de Orap.",
+   "note": "La evidencia en la parasitosis delirante es observacional: no hay ensayos aleatorizados (Lepping 2007) y la revisión Cochrane no halló datos que apoyaran ni refutaran su uso en el trastorno delirante (Mothi 2013); la tradición de considerarla de elección en esa indicación no se sostiene en ensayos. En el metaanálisis en red pediátrico de Rogdaki (2024) la pimozida no mostró aumento del QTc frente a placebo (−0,61 ms; IC 95 % −1,47 a 0,26), dato procedente de ensayos breves y seleccionados que no anula las advertencias de la ficha técnica. La indicación en «trastornos de ansiedad» de la ficha española carece de ensayos modernos localizados [fuente no localizada]; la propia ficha (4.4) advierte que, según los ensayos clínicos, la pimozida no es eficaz, o lo es poco, en la agitación, la excitación y la ansiedad grave. La interacción con cobicistat no figura de forma expresa en la ficha técnica de Orap, que menciona los inhibidores de la proteasa; se infiere por ser un inhibidor potente de CYP3A [fuente no localizada]. En el metaanálisis en red de Huhn (2019), la pimozida fue de los fármacos con mayor uso de antiparkinsonianos frente a placebo (RR 6,14), dato ya recogido en la ficha de primera generación.",
+   "sec": [
+    {
+     "t": "Tics y síndrome de Tourette: evidencia y estatus",
+     "x": "Guías: la ESSTS 2.0 recomienda empezar por la psicoeducación y las intervenciones conductuales y, cuando se necesita un fármaco, prefiere el aripiprazol, con tiaprida, risperidona, clonidina y guanfacina como alternativas, y reserva para los casos resistentes los fármacos con evidencia limitada o riesgo extrapiramidal, entre ellos la pimozida y el haloperidol (Roessner 2022). Evidencia: la pimozida es el antagonista D2 clásico mejor estudiado en los tics. La revisión Cochrane de Pringsheim y Marras (2009) incluyó seis ensayos aleatorizados doble ciego (162 participantes de 7 a 53 años): fue superior a placebo en tres, inferior al haloperidol en uno de tres (con menos efectos adversos que este) y sin diferencias con la risperidona en dos; la heterogeneidad impidió el metaanálisis. En el metaanálisis en red de Farhat (2023; 39 ensayos, 4578 participantes), aripiprazol, haloperidol, olanzapina, pimozida, risperidona y clonidina superaron a placebo con certeza moderada; los antipsicóticos no se diferenciaron entre sí y fueron más eficaces que los agonistas alfa-2. La guía de la AAN propone decidir entre espera vigilada, intervención conductual integral para los tics (CBIT) y fármacos de forma compartida (Pringsheim 2019). Nota de ficha técnica: la de Orap no recoge los tics y la del haloperidol sí (véanse sus fichas y la del síndrome de Tourette).",
+     "links": [
+      {
+       "ids": [
+        "tourette",
+        "tics"
+       ],
+       "t": "síndrome de Tourette y tics"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "aripiprazol",
+        "risperidona"
+       ],
+       "t": "alternativas con evidencia en tics"
+      }
+     ]
+    },
+    {
+     "t": "Parasitosis delirante: el peso de la tradición",
+     "x": "Durante décadas se consideró la pimozida el tratamiento de elección de la parasitosis delirante (infestación delirante), pero la revisión sistemática de Lepping, Russell y Freudenmann (2007) no encontró ningún ensayo aleatorizado: con 16 estudios no controlados y series de casos, los antipsicóticos típicos lograron remisión parcial o completa en el 60-100 % de los casos, y en la parasitosis primaria típicos y atípicos fueron eficaces en la mayoría, sin diferencias significativas entre ambos grupos. La revisión Cochrane sobre la pimozida en la esquizofrenia y psicosis afines concluyó que no hay datos que apoyen ni refuten su uso en el trastorno delirante (Mothi 2013). No se ha localizado una guía específica de la infestación delirante [fuente no localizada]; por su perfil de QT e interacciones, es razonable elegir el antipsicótico como en las demás psicosis, de forma compartida y según el perfil de efectos adversos (criterio general de NICE CG178, 1.3.5.1). En las formas secundarias a estimulantes (metanfetamina, cocaína), frecuentes en el chemsex y el slamming, lo prioritario es tratar el consumo, y la pimozida suma riesgo arrítmico al de los propios estimulantes [fuente no localizada para la combinación].",
+     "links": [
+      {
+       "ids": [
+        "ekbom",
+        "tdelirant",
+        "aluc_tact"
+       ],
+       "t": "parasitosis delirante y trastorno delirante"
+      },
+      {
+       "ids": [
+        "metanf",
+        "cocaina",
+        "slam"
+       ],
+       "t": "formas secundarias a estimulantes"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones de riesgo vital y chemsex",
+     "x": "La lista de contraindicaciones de interacción de la ficha técnica de Orap es de las más amplias entre los antipsicóticos. Afecta de lleno a personas con VIH o en el contexto del chemsex: los inhibidores de la proteasa (ritonavir, saquinavir, indinavir, nelfinavir) están contraindicados por elevar marcadamente la concentración de pimozida (4.5), como los macrólidos (claritromicina, eritromicina) usados en infecciones de transmisión sexual y los antifúngicos azólicos. También lo están los ISRS más usados en la depresión y la ansiedad, por inhibición de CYP2D6 o efecto aditivo sobre el QT. En metabolizadores lentos de CYP2D6 las concentraciones son similares a las observadas con inhibidores potentes y el estado estacionario tarda unas dos semanas (4.4), aspecto desarrollado en la ficha de farmacogenética de antipsicóticos. Los estimulantes y la deshidratación o hipopotasemia de sesiones prolongadas añaden riesgo arrítmico [fuente no localizada para su interacción con pimozida]; la ficha pide atención ante situaciones que elevan la temperatura corporal, como el ejercicio intenso, el calor extremo o la deshidratación (4.4).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "antirretrovirales e interacciones en el chemsex"
+      },
+      {
+       "ids": [
+        "fg_antipsic",
+        "cyp2d6"
+       ],
+       "t": "CYP2D6 y farmacogenética"
+      },
+      {
+       "ids": [
+        "qt_psicof",
+        "sertralina",
+        "paroxetina",
+        "citalopram",
+        "escitalopram"
+       ],
+       "t": "QT e ISRS contraindicados"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Orap 1 mg y Orap Fuerte 4 mg comprimidos (pimozida), n.º de registro 49503 y 49504, apartados 4.1-4.6, 5.1 y 5.2; revisión del texto de noviembre de 2025; consulta en cima.aemps.es en noviembre de 2026",
+    "Mothi M & Sampson S (2013). Pimozide for schizophrenia or related psychoses. Cochrane Database Syst Rev 2013(11):CD001949 · PMID 24194433",
+    "Pringsheim T & Marras C (2009). Pimozide for tics in Tourette's syndrome. Cochrane Database Syst Rev 2009(2):CD006996 · PMID 19370666",
+    "Farhat LC et al. (2023). Comparative efficacy, tolerability, and acceptability of pharmacological interventions for the treatment of children, adolescents, and young adults with Tourette's syndrome: a systematic review and network meta-analysis. Lancet Child Adolesc Health 7:112-126 · PMID 36528030",
+    "Pringsheim T et al. (2019). Practice guideline recommendations summary: Treatment of tics in people with Tourette syndrome and chronic tic disorders. Neurology 92:896-906 · PMID 31061208",
+    "Roessner V et al. (2022). European clinical guidelines for Tourette syndrome and other tic disorders—version 2.0. Part III: pharmacological treatment. Eur Child Adolesc Psychiatry 31:425-441 · PMID 34757514",
+    "Lepping P, Russell I & Freudenmann RW (2007). Antipsychotic treatment of primary delusional parasitosis: systematic review. Br J Psychiatry 191:198-205 · PMID 17766758",
+    "Rogdaki M et al. (2024). Comparative physiological effects of antipsychotic drugs in children and young people: a network meta-analysis. Lancet Child Adolesc Health 8:510-521 · PMID 38897716",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1; consulta en nice.org.uk en noviembre de 2026"
+   ],
+   "rel": [
+    "ap_tipicos",
+    "tourette",
+    "tics",
+    "ekbom",
+    "tdelirant",
+    "qt_psicof",
+    "fg_antipsic",
+    "cyp2d6",
+    "chemsex_arv",
+    "haloperidol",
+    "sertralina",
+    "paroxetina"
+   ]
+  },
+  {
+   "id": "sertindol",
+   "n": "Sertindol (Serdolect)",
+   "ab": "Sertindol",
+   "al": [
+    "Serdolect",
+    "sertindole",
+    "fenilindol"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 3,
+   "trad": "neurobio",
+   "cs": "m",
+   "ev": "ecr",
+   "y": 1996,
+   "tags": [
+    "risk"
+   ],
+   "desc": "Antipsicótico de segunda generación (ATC N05AE03), antagonista D2, 5-HT2 y alfa-1 sin afinidad muscarínica ni H1. Estado en España (CIMA, consulta de noviembre de 2026): Serdolect 4, 12, 16 y 20 mg comprimidos recubiertos con película (n.º de registro 61582, 61584, 61585 y 61586), de H. Lundbeck, comercializados; autorizados el 05-09-1997 y renovados el 14-04-2011. Indicación literal (4.1): «tratamiento de la esquizofrenia. Debido a los problemas de seguridad cardiovascular del fármaco, sertindol sólo debe usarse en pacientes intolerantes como mínimo a otro fármaco antipsicótico. No debe utilizarse sertindol en situaciones de urgencia para el alivio rápido en pacientes con sintomatología aguda». Autorizado en el Reino Unido en mayo de 1996, el titular suspendió voluntariamente su distribución en diciembre de 1998 y la Comisión Europea suspendió las autorizaciones en 2000 por el riesgo de arritmias y muerte súbita; la suspensión se levantó el 26-06-2002 con restricciones y monitorización obligatoria del ECG (EMA, EMEA/CPMP/2852/02; Lewis 2005).",
+   "feats": [
+    "Contraindicaciones (ficha técnica, 4.3): hipopotasemia o hipomagnesemia no corregidas, enfermedad cardiovascular relevante, insuficiencia cardíaca, hipertrofia cardíaca, arritmias, bradicardia inferior a 50 lpm, QT largo congénito o familiar, QTc basal superior a 450 ms en hombres o 470 ms en mujeres e insuficiencia hepática grave.",
+    "Interacciones contraindicadas (4.3): fármacos que prolongan significativamente el QT (antiarrítmicos IA y III, tioridazina, macrólidos, quinolonas, cisaprida, litio) e inhibidores potentes de CYP3A (azoles sistémicos, eritromicina, claritromicina, inhibidores de la proteasa del VIH como indinavir, diltiazem, verapamilo, cimetidina).",
+    "ECG obligatorio (4.4): basal, en el estado de equilibrio hacia la tercera semana, a los 3 meses y luego cada 3 meses, antes y después de cada aumento de dosis y tras añadir fármacos que eleven su concentración; suspender si el QTc supera 500 ms; evaluación urgente ante palpitaciones, convulsiones o síncope.",
+    "CYP2D6 (4.4, 4.5, 5.2): fluoxetina y paroxetina elevan de 2 a 3 veces su concentración, igual que el fenotipo metabolizador lento (hasta el 10 % de la población); los inductores (rifampicina, carbamazepina, fenitoína, fenobarbital) la reducen de 2 a 3 veces. Semivida de eliminación de unos 3 días.",
+    "Ensayo SCoP (Thomas 2010; 9858 personas, abierto, hasta 4 años): sin diferencia en mortalidad total frente a risperidona (HR 1,12; IC 90 % 0,83-1,50), pero más mortalidad cardíaca según el comité independiente (31 frente a 12; HR 2,84; IC 95 % 1,45-5,55) y menos intentos de suicidio según los investigadores (HR 0,67).",
+    "Metaanálisis de 15 antipsicóticos (Leucht 2013; 212 ensayos): eficacia frente a placebo con DME de 0,39, en la franja media-baja, y la mayor prolongación del QTc del conjunto (DME −0,90 frente a 0,10 de la lurasidona)."
+   ],
+   "tx": "Antipsicótico de reserva: la ficha técnica restringe su uso a la esquizofrenia en personas intolerantes al menos a otro antipsicótico, lo excluye de las urgencias y exige un programa de ECG y electrolitos durante todo el tratamiento. Su atractivo histórico (escasos efectos extrapiramidales, ausencia de sedación y de efecto anticolinérgico) se ha visto superado por fármacos con menos riesgo cardíaco, y su propia ficha técnica lo restringe a la segunda línea; la guía NICE no jerarquiza fármacos concretos y pide elegir de forma compartida según el perfil de efectos adversos, incluido el QT (NICE CG178, 1.3.5.1), y su lugar en la guía BAP y en las Maudsley Prescribing Guidelines no se ha contrastado [fuente no localizada]. Antes de iniciarlo: ECG basal, potasio y magnesio, revisión exhaustiva de la medicación concomitante y de la función hepática. En mayores de 65 años, la ficha técnica pide un examen cardiovascular riguroso. Sin pautas individualizadas: límites según la ficha técnica AEMPS-CIMA de Serdolect.",
+   "note": "La ficha técnica reconoce que los datos clínicos y no clínicos no han podido confirmar si el sertindol es más arritmogénico que otros antipsicóticos; la prolongación del QTc está bien establecida, pero su traducción en muerte arrítmica descansa sobre todo en SCoP, ensayo abierto con un hallazgo de mortalidad cardíaca que dependía del clasificador (significativo según el comité independiente, no según los investigadores: HR 2,13; IC 95 % 0,91-4,98). La revisión Cochrane, con solo tres ensayos utilizables, halló más anomalías cardíacas, aumento de peso, rinitis y disminución del volumen eyaculatorio que con haloperidol, y menos trastornos del movimiento (Lewis 2005).",
+   "sec": [
+    {
+     "t": "Historia regulatoria: suspensión y reintroducción",
+     "x": "Según el expediente de arbitraje de la EMA (artículo 36 de la Directiva 2001/83/CE), el sertindol se autorizó en el Reino Unido en mayo de 1996 y en otros Estados miembros por reconocimiento mutuo. El 2 de noviembre de 1998, Países Bajos, tras suspender su comercialización, remitió el caso a la EMEA por un mayor riesgo de muerte súbita o cardíaca; el titular había suspendido voluntariamente su distribución en diciembre de 1998 (Lewis 2005). El 23 de junio de 1999 el CPMP recomendó suspender durante un año todas las autorizaciones (CPMP/1784/99), y la Comisión Europea lo decidió el 20 de enero de 2000; la suspensión se renovó en octubre de 2000 y febrero de 2001. Tras la revisión de un grupo de expertos ad hoc, el CPMP recomendó el 18 de octubre de 2001 levantarla con condiciones: contraindicaciones y advertencias amplias para personas con riesgo de arritmias, reducción de la dosis máxima salvo casos excepcionales, monitorización extensa del ECG antes y durante el tratamiento, reintroducción limitada inicialmente a dos estudios poscomercialización y compromiso de realizarlos. La Comisión levantó la suspensión el 26 de junio de 2002 (EMEA/CPMP/2852/02).",
+     "links": [
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "QT y psicofármacos"
+      },
+      {
+       "ids": [
+        "ap_atipicos"
+       ],
+       "t": "antipsicóticos de segunda generación"
+      }
+     ]
+    },
+    {
+     "t": "Perfil de eficacia y tolerabilidad",
+     "x": "En la revisión Cochrane de Lewis (2005; tres ensayos, 1104 participantes), el sertindol fue más eficaz que placebo en la dosis más alta estudiada y no se diferenció de placebo en síntomas extrapiramidales ni somnolencia; frente a haloperidol produjo menos acatisia, temblor e hipertonía y menos abandonos a un año, pero más casos de QTc de al menos 500 ms (11 frente a ninguno en un ensayo de un año; RR 23,0), más aumento de peso, rinitis y disminución del volumen eyaculatorio. La ficha técnica (5.1) describe prolactina normal en los ensayos, aunque tras la comercialización se ha comunicado ocasionalmente hiperprolactinemia, y atribuye su escasa sedación y la ausencia de efectos anticolinérgicos a su falta de afinidad por receptores muscarínicos e H1; en estudios animales inhibió de forma selectiva las neuronas dopaminérgicas mesolímbicas del área tegmental ventral frente a las nigroestriatales. En el metaanálisis en red de Huhn (2019), recogido en la ficha de QT del atlas, fue el antipsicótico con mayor prolongación media del QTc.",
+     "links": [
+      {
+       "ids": [
+        "haloperidol",
+        "risperidona"
+       ],
+       "t": "comparadores en los ensayos"
+      },
+      {
+       "ids": [
+        "hiperprl_ap",
+        "acatisia",
+        "peso_psicof"
+       ],
+       "t": "prolactina, acatisia y peso"
+      },
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual por psicofármacos"
+      }
+     ]
+    },
+    {
+     "t": "Interacciones en VIH, chemsex y consumo de sustancias",
+     "x": "La ficha técnica contraindica los inhibidores potentes de CYP3A, entre ellos los inhibidores de la proteasa del VIH (cita el indinavir) y los macrólidos como la claritromicina, de uso frecuente en infecciones de transmisión sexual, y explica que en metabolizadores lentos de CYP2D6 un inhibidor de CYP3A puede elevar mucho las concentraciones, porque ambas vías de eliminación quedan afectadas (4.5). Por ello, en personas con tratamiento antirretroviral potenciado con ritonavir o cobicistat el sertindol debe considerarse incompatible en la práctica [cobicistat no citado expresamente en la ficha técnica: extrapolación farmacológica]. La ficha pide vigilar el potasio ante vómitos, diarrea o diuréticos, y en contextos de consumo prolongado de estimulantes con deshidratación o de purgas el riesgo de alteraciones iónicas se suma al del fármaco [fuente no localizada para la interacción con estimulantes]. El litio, contraindicado con sertindol por su efecto sobre el QT, es otro punto de conflicto en personas con trastorno bipolar.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv",
+        "chemsex_s"
+       ],
+       "t": "antirretrovirales y chemsex"
+      },
+      {
+       "ids": [
+        "cyp2d6",
+        "fg_antipsic",
+        "fluoxetina",
+        "paroxetina"
+       ],
+       "t": "CYP2D6 e inhibidores"
+      },
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "AEMPS-CIMA (2026). Ficha técnica de Serdolect 4, 12, 16 y 20 mg comprimidos recubiertos con película (sertindol), n.º de registro 61582, 61584, 61585 y 61586, apartados 4.1-4.5, 5.1 y 5.2; consulta en cima.aemps.es en noviembre de 2026",
+    "EMA (2002). Opinion following an Article 36 referral for sertindole: background information and annexes (EMEA/CPMP/2852/02), publicado el 13-09-2002; página de arbitraje «Sertindole» consultada en ema.europa.eu en noviembre de 2026",
+    "Lewis R, Bagnall AM & Leitner M (2005). Sertindole for schizophrenia. Cochrane Database Syst Rev 2005(3):CD001715 · PMID 16034864",
+    "Thomas SH et al. (2010). Safety of sertindole versus risperidone in schizophrenia: principal results of the sertindole cohort prospective study (SCoP). Acta Psychiatr Scand 122:345-355 · PMID 20384598",
+    "Leucht S et al. (2013). Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatments meta-analysis. Lancet 382:951-962 · PMID 23810019",
+    "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1; consulta en nice.org.uk en noviembre de 2026"
+   ],
+   "rel": [
+    "ap_atipicos",
+    "qt_psicof",
+    "esq",
+    "risperidona",
+    "haloperidol",
+    "cyp2d6",
+    "fg_antipsic",
+    "chemsex_arv",
+    "hiperprl_ap"
+   ]
+  }
+ ]
+}

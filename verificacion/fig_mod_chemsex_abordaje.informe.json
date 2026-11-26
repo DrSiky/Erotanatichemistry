@@ -1,0 +1,104 @@
+{
+ "pmid_comprobados": 33,
+ "pmid_erroneos": 0,
+ "notas": "Los 33 PMID existen y coinciden en autor, año, título, revista, volumen y páginas; las cifras citadas (29,1 %, 29,5 %, ORa 5,73/2,65/6,58, 3,4 %, 15,7 %, 6,7-37,2 %, 86 %, 85 %/69 %, n=63, 41 vs 39, 6 y 12 estudios) coinciden con los resúmenes. El documento del Ministerio (2020) se ha vuelto a descargar de sanidad.gob.es (enlazado desde la página de profesionales de chemsex): el md5 coincide con el del redactor (445488404040828f3d46c9febb4aee42); se han cotejado la definición, las sustancias, la vía intravenosa, los motivos, las apps, la PPE (72 h/24 h), los cribados de ITS, la reducción de riesgos, la entrevista motivacional, el DSM-5, los pares, las consultas integradas y las competencias culturales. FT de CIMA: Truvada 4.1/4.3, Xyrem 4.1 y Viagra 4.3 cotejadas. CIE-11 MMS 6C45, 6C46, 6C47, 6C4D y 6C4F cotejados en la tabulación simple oficial (icdcdn.who.int, versión 2025-01). Nodos del atlas comprobados con q.js. Compilación en seco correcta (2300×3175, 38 cajas, sin solapes); src/figsrc limpio y _meta/_orden sin cambios.",
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "r_ghb (Sobredosis de GHB/GBL)",
+   "antes": "Las muertes asociadas al GHB en Londres aumentaron un 119 % en 2015 respecto a 2014",
+   "despues": "En casos forenses de Londres, la proporción de muertes asociadas al GHB aumentó un 119 % en 2015 respecto a 2014",
+   "fuente": "Hockenhull 2017, PMID 27936427 (el 119 % es el aumento de la proporción de casos toxicológicos, en 7 de 8 jurisdicciones forenses)"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "r_arv (Interacciones con antirretrovirales)",
+   "antes": "Algunos antirretrovirales aumentan la concentración de ciertas drogas y otros aceleran su eliminación",
+   "despues": "Los antirretrovirales potenciados con ritonavir o cobicistat pueden aumentar la concentración de algunas drogas y su toxicidad; los inductores e inhibidores del CYP450 alteran las concentraciones en ambos sentidos",
+   "fuente": "Ministerio de Sanidad 2020, Abordaje del fenómeno del chemsex (PDF descargado de nuevo de sanidad.gob.es/areas/DCVIHT/vihSida/CHEMSEX/profesionales/docs/CHEMSEX._ABORDAJE.pdf; md5 idéntico al del redactor), apartado de interacciones con fármacos del VIH"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "urg (título) y cap/desc",
+   "antes": "Derivación urgente (Ministerio de Sanidad 2020)",
+   "despues": "Motivos de atención urgente (Ministerio de Sanidad 2020)",
+   "fuente": "Ministerio de Sanidad 2020, Abordaje del fenómeno del chemsex (PDF descargado de nuevo de sanidad.gob.es/areas/DCVIHT/vihSida/CHEMSEX/profesionales/docs/CHEMSEX._ABORDAJE.pdf; md5 idéntico al del redactor): la lista es de los 'principales motivos de atención de estos usuarios en Urgencias', no de criterios de derivación"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "s_pop (Poppers y sildenafilo) y refs",
+   "antes": "su combinación causa hipotensión grave",
+   "despues": "su combinación puede causar hipotensión grave (Viagra, FT 4.3); añadida la referencia a la FT de Viagra",
+   "fuente": "CIMA, FT Viagra 50 mg (nº reg. 98077006), 4.3: contraindicado con dadores de óxido nítrico como el nitrito de amilo; tabla 3 del documento del Ministerio"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "r_ghb",
+   "antes": "La mayoría de 30 entrevistados había sufrido sobredosis",
+   "despues": "La mayoría de 30 entrevistados describió sobredosis",
+   "fuente": "Bourne 2015, PMID 26298332 ('a majority described overdoses')"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "refs y pie",
+   "antes": "Bourne 2015 Sex Transm Infect (PMID 26163510) en refs; 'Bourne 2015 (2 artículos)' en el pie",
+   "despues": "Retirada la referencia del artículo de STI, que no se cita en el texto; pie 'Bourne 2015'",
+   "fuente": "PubMed: las afirmaciones de Bourne 2015 (sobredosis, miedo al juicio) proceden de PMID 26298332"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "v_vih (enlace a nodo)",
+   "antes": "node: 'vih_ncd' (trastornos neuropsiquiátricos asociados al VIH)",
+   "despues": "node: 'chemsex_ssex' (chemsex y salud sexual: VIH, PrEP e ITS)",
+   "fuente": "node tools/q.js show: vih_ncd no corresponde a 'vivir con el VIH' como factor de vulnerabilidad"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "lim (Límites)",
+   "antes": "ninguna fuente citada aporta datos propios suficientes de mujeres trans ni de personas no binarias",
+   "despues": "los datos sobre mujeres trans y personas no binarias son escasos (Rodríguez-González 2025)",
+   "fuente": "Rodríguez-González 2025, PMID 39798055, e Íncera-Fernández 2025, PMID 40334305 (incluyen a personas trans y no binarias), que contradecían la formulación absoluta"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "lim (Límites)",
+   "antes": "la desintoxicación de GHB requiere supervisión especializada [fuente no localizada]",
+   "despues": "la serie de desintoxicación de GHB citada se hizo con ingreso en centros de adicciones (Dijkstra 2017)",
+   "fuente": "Dijkstra 2017, PMID 27923198 (pacientes ingresados en 6 centros de adicciones)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "lim (Límites)",
+   "antes": "Los ensayos de PrEP y de TCC afirmativa no se hicieron en personas que practican chemsex",
+   "despues": "no se diseñaron específicamente para personas que practican chemsex",
+   "fuente": "McCormack 2016 (PMID 26364263), Molina 2015 (PMID 26624850), Pachankis 2015 (PMID 26147563): poblaciones GBHSH no seleccionadas por chemsex, pero sin excluirlo"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "r_its",
+   "antes": "hepatitis C asociada al slamsex (OR 5,2)",
+   "despues": "(ORa 5,2)",
+   "fuente": "González-Baeza 2018, PMID 29620925 (análisis multivariante)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "refs DSM-5-TR",
+   "antes": "[texto original no cotejado en esta figura]",
+   "despues": "[no verificada: texto original no cotejado]",
+   "fuente": "Norma del encargo para referencias no comprobadas"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "flecha entrada→urgencia",
+   "antes": "label 'Alarma'",
+   "despues": "label 'Urgencia'",
+   "fuente": "Coherencia con el título corregido"
+  }
+ ],
+ "sin_resolver": [
+  "No se ha localizado ninguna guía NICE ni de GuíaSalud específica del chemsex, ni un consenso clínico de la EMCDDA/EUDA; queda marcado [fuente no localizada] en Límites.",
+  "DSM-5-TR: texto original no cotejado ([no verificada]); el documento del Ministerio cita el DSM-5 para el diagnóstico del trastorno por consumo.",
+  "El GHB/GBL no tiene código específico entre los citados de la CIE-11; no se ha añadido 6C4E porque no se ha comprobado en el índice de la CIE-11 dónde se clasifica.",
+  "El fichero trabajo/figuras/mod_chemsex_abordaje.js ya estaba versionado por otro proceso: mis cambios quedan como modificación sin commit (copia previa en scratchpad/fig5/mod_chemsex_abordaje.vorig.js)."
+ ]
+}

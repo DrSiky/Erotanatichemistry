@@ -1,0 +1,127 @@
+{
+ "pmid_comprobados": 41,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "duloxetina",
+   "gravedad": "mayor",
+   "antes": "«el consumo elevado de alcohol […] agrava este riesgo [hepático] según la ficha técnica»",
+   "despues": "Retirada la atribución: la ficha de Cymbalta (4.4) solo pide precaución con otros medicamentos asociados a daño hepático; el alcohol figura en 4.5 como sustancia de acción central. La relación alcohol-daño hepático queda con «[fuente no localizada]»",
+   "fuente": "CIMA, FT Cymbalta 30 mg (04296001), 4.4 y 4.5, leída en esta sesión"
+  },
+  {
+   "id": "isrs",
+   "gravedad": "mayor",
+   "antes": "«la relación nominal de la tabla de primera línea no pudo contrastarse [fuente no localizada]»; sin mención de NICE; el texto no nombraba la contraindicación con IMAO pese al enlace «combinación contraindicada con IMAO»",
+   "despues": "Marcador sustituido por dato leído: la tabla 3.3 de CANMAT 2023 incluye en primera línea (nivel 1) los seis ISRS y cinco IRSN; añadidas NICE NG222 (ISRS primera elección para la mayoría; rec. 1.5.3; 1.4.18; 1.4.22) y la contraindicación con IMAO de las ocho fichas técnicas (4.3)",
+   "fuente": "Imagen de la tabla 3.3 en PMC11351064; nice.org.uk NG222; CIMA, ocho fichas técnicas"
+  },
+  {
+   "id": "isrs",
+   "gravedad": "menor",
+   "antes": "TOC: «sin inferioridad frente a clomipramina»",
+   "despues": "«sin que la clomipramina los supere» (el resumen no hace un análisis de no inferioridad)",
+   "fuente": "Skapinakis 2016, PMID 27318812"
+  },
+  {
+   "id": "isrs",
+   "gravedad": "menor",
+   "antes": "Discontinuación: alto (paroxetina, venlafaxina) y bajo (fluoxetina)",
+   "despues": "Añadido «moderado al resto» y concordancia con NICE NG222 1.4.18",
+   "fuente": "CANMAT 2023, tabla 6.3 (texto en PMC); NICE NG222"
+  },
+  {
+   "id": "escitalopram",
+   "gravedad": "mayor",
+   "antes": "«No se ha localizado una serie comparativa de sobredosis específica de escitalopram […] [fuente no localizada para escitalopram]»; contraindicación por QT citada sin fuente leída",
+   "despues": "Sustituido por el apartado 4.9 de la ficha de Cipralex (datos limitados, mayoría sin síntomas o leves, raros casos mortales con escitalopram solo); añadidas 4.3 (QT, IMAO irreversibles, moclobemida, linezolida) y 4.4 (retirar y ECG ante signos de arritmia)",
+   "fuente": "CIMA, FT Cipralex 10 mg (65230)"
+  },
+  {
+   "id": "escitalopram",
+   "gravedad": "menor",
+   "antes": "Sin posición de línea en CANMAT 2023 ni NICE; «eficacia superior»; atribución directa a CANMAT de «eficacia y aceptabilidad»",
+   "despues": "Primera línea (tabla 3.3), «respuesta superior» (literal de la guía), y la combinación eficacia-aceptabilidad atribuida a Cipriani 2018 tal como la cita CANMAT; NICE NG222; añadido daño hepático entre los riesgos >65 años; Liechti: citalopram intravenoso",
+   "fuente": "PMC11351064; NG222; PMID 10731626"
+  },
+  {
+   "id": "citalopram",
+   "gravedad": "menor",
+   "antes": "«la agitación en la demencia no es una indicación autorizada» (deducción del autor); sin contraindicaciones leídas",
+   "despues": "Contrastado con 4.1 de la ficha de Prisdal; añadida 4.3 (IMAO, QT largo, fármacos que prolongan el QT); primera línea CANMAT 2023; menor riesgo hepático también según CANMAT; citalopram intravenoso en Liechti",
+   "fuente": "CIMA, FT Prisdal 20 mg (60884); PMC11351064"
+  },
+  {
+   "id": "fluoxetina",
+   "gravedad": "mayor",
+   "antes": "Tamoxifeno: «dato que no invalida la precaución de la ficha técnica» (ficha no leída); «exige revisión estrecha al inicio» sin fuente",
+   "despues": "Literal de la ficha (4.4 y 4.5): la combinación debe evitarse siempre que sea posible; revisión a la semana en 18-25 años atribuida a NICE NG222 1.4.22",
+   "fuente": "CIMA, FT Fluoxetina Cinfa 20 mg (63499); NG222"
+  },
+  {
+   "id": "paroxetina",
+   "gravedad": "mayor",
+   "antes": "Embarazo: «ambas lecturas sostienen la cautela de la ficha técnica sin justificar alarma» (valoración editorial, ficha no leída); tamoxifeno solo con Kelly 2010; antirretrovirales genérico",
+   "despues": "Frase editorial retirada y sustituida por 4.6 de Seroxat; tamoxifeno: evitar cuando sea posible (4.4 y 4.5); contraindicaciones 4.3 (IMAO, tioridazina, pimozida); glaucoma 4.4; fosamprenavir/ritonavir reduce ~55 % los niveles de paroxetina (4.5); edad de la cohorte de Kelly (66 años o más); NICE 1.4.18",
+   "fuente": "CIMA, FT Seroxat 20 mg (59468); PMID 20142325; NG222"
+  },
+  {
+   "id": "fluvoxamina",
+   "gravedad": "mayor",
+   "antes": "Lista de signos de toxicidad (sialorrea, taquicardia, etc.) sin fuente; tizanidina/pimozida/IMAO no nombrados; iPDE5 «[fuente no localizada]»",
+   "despues": "Sustituida por lo que dice la ficha de Dumirox: contraindicada con tizanidina, IMAO y pimozida (4.3); terfenadina, astemizol, cisaprida y QT (4.4); teofilina, metadona, clozapina, olanzapina, quetiapina, tricíclicos y benzodiacepinas oxidativas (4.5); la ficha nombra el sildenafilo en 4.5 sin cuantificar",
+   "fuente": "CIMA, FT Dumirox 100 mg (58212)"
+  },
+  {
+   "id": "fluvoxamina",
+   "gravedad": "menor",
+   "antes": "CPIC «la incluye entre los ISRS con recomendaciones según genotipo»; CANMAT «no la incluye…»",
+   "despues": "Precisado: recomendación CPIC por fenotipo CYP2D6 limitada a metabolizadores lentos (sin cifras de dosis); primera línea en CANMAT 2023; el efecto del tabaco no consta en la ficha (marcador conservado)",
+   "fuente": "PMC10564324; PMC11351064; FT Dumirox"
+  },
+  {
+   "id": "venlafaxina",
+   "gravedad": "mayor",
+   "antes": "Sustancias y antirretrovirales con «[fuente no localizada]» y «debe comprobarse cada combinación»; sin IMAO ni QTc",
+   "despues": "La ficha de Vandral Retard nombra las anfetaminas entre los agentes que favorecen el síndrome serotoninérgico (4.4), recoge QTc/torsade/arritmias mortales sobre todo en sobredosis (4.4), contraindica IMAO irreversibles (4.3) y advierte de que inhibidores de CYP3A4 como ritonavir o atazanavir pueden elevar sus niveles (4.5)",
+   "fuente": "CIMA, FT Vandral Retard 75 mg (62401)"
+  },
+  {
+   "id": "venlafaxina",
+   "gravedad": "menor",
+   "antes": "Afinidad débil por NET «explica que el componente noradrenérgico solo aparezca al aumentar la exposición»; CPIC «es objeto de la guía»",
+   "despues": "«es coherente con un componente noradrenérgico dependiente de la exposición»; CPIC: recomendación opcional de considerar alternativa en metabolizadores lentos de CYP2D6; primera línea CANMAT",
+   "fuente": "PMID 11750180; PMC10564324"
+  },
+  {
+   "id": "desvenlafaxina",
+   "gravedad": "mayor",
+   "antes": "Sobredosis «[fuente no localizada]»; CPIC «incluye los IRSN en su ámbito»; sustancias sin fuente",
+   "despues": "Ficha de Pristiq 4.9 (poca experiencia; casos poscomercialización, algunos mortales, con alcohol u otros fármacos), 4.3 (IMAO), 4.4 (anfetaminas y síndrome serotoninérgico), 4.5 (CYP3A4 mínimo; interacción débil con ketoconazol); CPIC la revisó y no le asignó recomendación; razón Ki señalada como cálculo",
+   "fuente": "CIMA, FT Pristiq 50 mg (75560); PMC10564324"
+  },
+  {
+   "id": "duloxetina",
+   "gravedad": "menor",
+   "antes": "CPIC «está en el ámbito de la guía»; contraindicaciones «constan en la descripción»",
+   "despues": "CPIC no formula recomendación; fumadores ~50 % menos concentración (4.5); contraindicada con IMAO irreversibles, fluvoxamina, ciprofloxacino o enoxacino (4.3); CANMAT: primera línea y más beneficio de los IRSN en dolor comórbido; Welsch: «daños potenciales»",
+   "fuente": "CIMA, FT Cymbalta; PMC10564324; PMC11351064; PMID 29489029"
+  },
+  {
+   "id": "todos",
+   "gravedad": "menor",
+   "antes": "refsAdd sin las fichas técnicas ni NICE; Henssler 2024 y Hawton 2010 citados en texto sin referencia en algunos nodos",
+   "despues": "Añadidas a refsAdd las fichas técnicas leídas en CIMA, NICE NG222, Henssler 2024 y Hawton 2010 donde se citan (ambos PMID comprobados)",
+   "fuente": "CIMA; nice.org.uk; PubMed"
+  }
+ ],
+ "sin_resolver": [
+  "CANMAT 2023: verificado el texto completo en PMC (PMC11351064), la tabla 6.3 (texto) y la tabla 3.3 (imagen descargada y leída). No se leyeron las tablas 3.4, 3.5 y 7.2 (imágenes): lo afirmado procede del cuerpo del texto, que sí lo sustenta (respuesta superior, QTc, disfunción sexual, >65 y <=25 años, aripiprazol y brexpiprazol de primera línea adyuvante, electrolitos desde los 60 años).",
+  "NICE NG222: leída la página de recomendaciones en nice.org.uk. El número 1.4.22 se identificó por el encabezado «Antidepressant medication for people at risk of suicide»; conviene confirmar la numeración exacta. No se consultaron APA, WFSBP, BAP ni GuíaSalud.",
+  "Interacciones con mefedrona y otras catinonas, metanfetamina, GHB, poppers e iPDE5: siguen con «[fuente no localizada]» salvo lo que nombran las fichas (anfetaminas en Vandral Retard y Pristiq; sildenafilo en Dumirox, sin explicación en el texto). Las fichas de Cipralex, Prisdal, Fluoxetina Cinfa, Dumirox y Cymbalta no mencionan ritonavir ni cobicistat.",
+  "Fuera de alcance (ficha ya publicada, no modificada): la descripción actual de «duloxetina» dice «precaución […] con el consumo importante de alcohol» en Hepatotoxicidad (4.4) y «evitar en consumo de alcohol elevado»; en la ficha de Cymbalta leída en CIMA el apartado de hepatitis no menciona el alcohol. Conviene revisarlo.",
+  "Las fichas ya publicadas contienen dosis máximas de ficha técnica (texto previo, fuera del alcance); las secciones nuevas no contienen ninguna dosis ni pauta: los únicos «mg» del parche son nombres de presentación en las referencias a CIMA.",
+  "Siguen marcados por falta de fuente: relación cinética no lineal-discontinuación (paroxetina), tabaco y fluvoxamina, QTc de duloxetina, peso/QTc/hiponatremia y embarazo de desvenlafaxina, efecto de retirar fluvoxamina sobre el fármaco concomitante.",
+  "Hetrick 2021, Welsch 2018 y Coupland 2011: cifras cotejadas con el resumen de PubMed, no con el texto completo."
+ ]
+}

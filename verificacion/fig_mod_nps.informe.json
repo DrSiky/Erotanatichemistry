@@ -1,0 +1,104 @@
+{
+ "pmid_comprobados": 40,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "Matriz, fila catinonas, columna «Riesgos propios» y bloque 3, caja «Potencia y margen estrecho»",
+   "antes": "«Las concentraciones en suero y orina varían enormemente, de modo que no orientan sobre la gravedad (Beck 2015 y 2016)» / «...varían de forma extrema y no gradúan la gravedad»",
+   "despues": "Se detalla que en MDPV las concentraciones séricas >100 ng/mL se graduaron como más graves (Beck 2015) y que en α-PVP no hubo asociación entre concentración sérica y cociente α-PVP/creatinina urinaria (Beck 2016); en la caja, «solo orientan en parte sobre la gravedad»",
+   "fuente": "Beck 2015 (PMID 26462932): «In MDPV intoxications with serum levels >100 ng/mL, the cases were graded as more severe»; Beck 2016 (PMID 27412885): «no statistically significant association between the serum α-PVP concentration and urinary α-PVP/creatinine ratio»"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Matriz, fila cannabinoides sintéticos, columna «Riesgos propios» (lesión renal aguda)",
+   "antes": "«Agrupación de 16 casos de lesión renal aguda en seis estados de EE. UU. asociada a XLR-11 (CDC 2013)»",
+   "despues": "«...16 casos ... tras consumo de cannabinoides sintéticos; ninguna marca ni compuesto único explicó todos los casos y el análisis identificó el compuesto fluorado XLR-11 en parte de las muestras de producto y de los especímenes clínicos»",
+   "fuente": "CDC 2013, MMWR 62:93-98 (PMID 23407124): «no single SC brand or compound explained all 16 cases»; XLR-11 en 4/5 muestras de producto y 4/6 especímenes"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 4, tabla CIE-11, fila 6C4E (GHB y residuales)",
+   "antes": "«...entre ellas el GHB y sus precursores [asignación concreta: fuente oficial no localizada]»",
+   "despues": "Se indica que la tabulación simple no los nombra dentro de la categoría pero sí incluye el código de extensión XM9MS5 «Gammahydroxybutyrate» (capítulo X), y se añaden 6C4F (múltiples sustancias) y 6C4G (sustancia desconocida)",
+   "fuente": "OMS, CIE-11 MMS SimpleTabulation (versión 2025-01-24): XM9MS5 «Gammahydroxybutyrate»; 6C4F; 6C4G"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 4, filas 6C42 y 6C49·6C4C",
+   "antes": "«...el HHC no tienen categoría propia [fuente oficial no localizada para su asignación]» y «...trastorno perceptivo persistente por alucinógenos [fuente oficial no localizada]»",
+   "despues": "Ambas ausencias se declaran comprobadas línea a línea en el fichero oficial de la tabulación simple (sin término «hexahydrocannabinol» ni código de trastorno perceptivo persistente)",
+   "fuente": "OMS, CIE-11 MMS SimpleTabulation 2025-01-24 (búsqueda exhaustiva del fichero)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Matriz, fila catinonas, columna «Cuadro tóxico» (3-MMC)",
+   "antes": "«3-MMC, 84 intoxicaciones solo por 3-MMC notificadas al centro toxicológico neerlandés»",
+   "despues": "«84 notificaciones por 3-MMC solo ... (exposición autodeclarada; confirmación analítica en 2 casos)»",
+   "fuente": "Nugteren-van Lonkhuyzen 2022 (PMID 35752518): notificaciones autodeclaradas; «Analytical confirmation of 3-MMC exposure was performed in 2 cases»"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Matriz, fila benzodiacepinas de diseño, columna «Cuadro tóxico»",
+   "antes": "«comparadas con las benzodiacepinas clásicas producen sedación y amnesia intensas...»",
+   "despues": "Se suprime la comparación con las benzodiacepinas clásicas, que la fuente no establece",
+   "fuente": "Brunetti 2021 (PMID 34208284, PMC8230725): «these compounds produce strong sedation and amnesia, and they increase the risk of respiratory depression and death when used in combination with other CNS depressants»"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Matriz, fila GHB/GBL, columna «Principio de manejo»",
+   "antes": "«el lavado gástrico y el carbón no son útiles (Schep 2012)»",
+   "despues": "«es poco probable que la descontaminación digestiva (lavado gástrico, carbón) resulte beneficiosa»",
+   "fuente": "Schep 2012 (PMID 22746383): «Gastrointestinal decontamination is unlikely to be beneficial»"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Matriz, fila GHB/GBL, columna «Cuadro tóxico» (Liechti 2006)",
+   "antes": "«tiempo medio para recuperar la conciencia 111 ± 61 min»",
+   "despues": "«...entre los pacientes en coma 111 ± 61 min»",
+   "fuente": "Liechti 2006 (PMID 16143455): «mean time to regain consciousness among comatose patients was 111±61 min»"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 4, caja «Naloxona» y bloque 5, caja «Principios de actuación»",
+   "antes": "«Ofrecer naloxona para llevar a casa cuando haya exposición a opioides (ficha de Nyxoid 4.1)»",
+   "despues": "Se añade el requisito literal de la sección 4.4 (entrega solo tras establecer idoneidad y competencia, con formación previa sobre el uso y sobre la importancia de buscar atención médica) y se precisa la atribución 4.1/4.4",
+   "fuente": "AEMPS-CIMA, ficha técnica de Nyxoid 1,8 mg (nº registro 1171238001), secciones 4.1 y 4.4, descargadas por API docSegmentado"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "meta.refs y pie de figura",
+   "antes": "Referencias Regan 2011 (PMID 21183522) y DSM-5-TR, ninguna de las dos citada en el cuerpo de la figura",
+   "despues": "Suprimidas de la lista de referencias y del pie",
+   "fuente": "Revisión de concordancia cuerpo-referencias (ambas existían pero no sostenían ninguna afirmación de la figura)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "meta.refs, Vallersnes 2016",
+   "antes": "«...a European case series (Euro-DEN). BMC Psychiatry 16:293»",
+   "despues": "Título exacto sin el añadido «(Euro-DEN)»",
+   "fuente": "PubMed PMID 27538886: «Psychosis associated with acute recreational drug toxicity: a European case series»"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "meta.refs, guía NEPTUNE 2015",
+   "antes": "Referencia sin marcar",
+   "despues": "Añadido «· [no verificada]»",
+   "fuente": "El sitio neptune-clinical-guidance.co.uk devolvió HTTP 503 / descarga fallida en esta sesión; no se ha cotejado el documento"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Enlaces node: cajas «Potencia y margen estrecho» (node neurotox_anf), «Detección y vigilancia» (node psust) y celda de manejo de arilciclohexilaminas (node ketamina)",
+   "antes": "Tres enlaces poco pertinentes (neurotoxicidad anfetamínica en una caja sobre potencia de NBOMe/nitazenos; psicosis inducida en una caja sobre detección analítica; ketamina antidepresiva en una celda de manejo del consumo recreativo)",
+   "despues": "Enlaces retirados (neurotox_anf y psust siguen accesibles desde meta.nodes; ketamina_rec ya enlaza la familia)",
+   "fuente": "node tools/q.js show: todos los ids existen, pero el contenido de esos tres nodos no corresponde al texto enlazado"
+  }
+ ],
+ "sin_resolver": [
+  "Guía NEPTUNE 2015: no se ha podido descargar el documento (sitio con HTTP 503 y descarga del PDF fallida); la referencia queda marcada «[no verificada]» y no se le atribuye ninguna cifra ni afirmación concreta.",
+  "Manejo de las triptaminas («contención verbal y entorno seguro; benzodiacepinas si hay agitación»): sigue marcado «[fuente no localizada para esta familia en concreto]»; lo verificado es el manejo análogo en NBOMe (Suzuki 2015) y en catinonas (Banks 2014).",
+  "No se citan cifras de vigilancia europea (EUDA/EMCDDA) ni de la UNODC: no accesibles desde este entorno; la figura no contiene ninguna cifra de mercado, lo que es coherente pero deja el bloque sin datos de tendencia.",
+  "La afirmación de la caja «Policonsumo» de que el GHB era única sustancia en el 24 % de los casos es una inferencia aritmética (100 − 76 % con coingesta) sobre Galicia 2011, no una cifra publicada como tal.",
+  "Nielsen 2026 (Drug Alcohol Rev 45(1):e70040, PMID 41093771) se ha verificado en PubMed (autoría, revista, volumen, página electrónica y contenido del resumen); al ser de publicación muy reciente conviene revisar la paginación definitiva."
+ ]
+}

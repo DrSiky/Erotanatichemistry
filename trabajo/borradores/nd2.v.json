@@ -1,0 +1,765 @@
+{
+ "patch": {
+  "lm_bip": {
+   "relAdd": [
+    "intox_litio"
+   ]
+  },
+  "litio_embarazo": {
+   "relAdd": [
+    "intox_litio"
+   ]
+  },
+  "uremia_dialisis": {
+   "relAdd": [
+    "intox_litio"
+   ]
+  },
+  "fk_mayor": {
+   "relAdd": [
+    "intox_litio"
+   ]
+  },
+  "hiponatr_psicof": {
+   "relAdd": [
+    "intox_litio"
+   ]
+  },
+  "trazodona": {
+   "relAdd": [
+    "priapismo_psicof"
+   ]
+  },
+  "risperidona": {
+   "relAdd": [
+    "priapismo_psicof"
+   ]
+  },
+  "quetiapina": {
+   "relAdd": [
+    "priapismo_psicof"
+   ]
+  },
+  "disf_sexual_psicof": {
+   "relAdd": [
+    "priapismo_psicof"
+   ]
+  },
+  "prazosina": {
+   "relAdd": [
+    "priapismo_psicof"
+   ]
+  },
+  "olanzapina": {
+   "relAdd": [
+    "peso_psicof"
+   ]
+  },
+  "clozapina_monit": {
+   "relAdd": [
+    "peso_psicof",
+    "miocarditis_cloz"
+   ]
+  },
+  "inmunometab_dep": {
+   "relAdd": [
+    "peso_psicof"
+   ]
+  },
+  "ap_atipicos": {
+   "relAdd": [
+    "peso_psicof"
+   ]
+  },
+  "mirtazapina": {
+   "relAdd": [
+    "peso_psicof"
+   ]
+  },
+  "esq": {
+   "relAdd": [
+    "retirada_ap"
+   ]
+  },
+  "pep": {
+   "relAdd": [
+    "retirada_ap"
+   ]
+  },
+  "discin_tard": {
+   "relAdd": [
+    "retirada_ap"
+   ]
+  },
+  "ap_lai": {
+   "relAdd": [
+    "retirada_ap"
+   ]
+  },
+  "discont_ad": {
+   "relAdd": [
+    "retirada_ap"
+   ]
+  },
+  "clozapina": {
+   "relAdd": [
+    "miocarditis_cloz"
+   ]
+  },
+  "cloz": {
+   "relAdd": [
+    "miocarditis_cloz"
+   ]
+  },
+  "vpa_bip": {
+   "relAdd": [
+    "miocarditis_cloz"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "intox_litio",
+   "n": "Intoxicación por litio: aguda, crónica y aguda sobre crónica",
+   "ab": "Intoxicación por litio",
+   "al": [
+    "toxicidad por litio",
+    "sobredosis de litio",
+    "lithium poisoning",
+    "neurotoxicidad por litio",
+    "SILENT"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "est",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "guia",
+   "y": 2015,
+   "tags": [
+    "risk",
+    "emerg",
+    "organic"
+   ],
+   "cie": [
+    "NE60"
+   ],
+   "desc": "Urgencia médica derivada del margen terapéutico estrecho del litio (véase «lm_bip» para su eficacia y su seguimiento ordinario). Se distinguen tres patrones con implicaciones terapéuticas distintas: aguda (ingesta masiva en una persona que no tomaba litio), aguda sobre crónica (ingesta excesiva en quien ya está en tratamiento) y crónica, la más frecuente, habitualmente involuntaria y debida a que la ingesta supera la eliminación renal por deshidratación, enfermedad intercurrente, diabetes insípida nefrogénica inducida por el propio litio o interacciones farmacológicas (Baird-Gunning 2017). El órgano diana principal es el sistema nervioso central: el cuadro va desde concentraciones supraterapéuticas asintomáticas hasta confusión, ataxia, convulsiones y coma. La mortalidad es baja, pero la forma crónica puede prolongar el ingreso y dejar secuelas cerebelosas. La litemia orienta, pero no sustituye a la valoración clínica: en la intoxicación crónica puede haber toxicidad grave con concentraciones moderadas, y en la aguda concentraciones altas iniciales con escasa clínica mientras el litio se redistribuye al tejido cerebral [fuente no localizada].",
+   "feats": [
+    "Tres patrones (aguda, aguda sobre crónica y crónica); la crónica es la más frecuente, suele ser involuntaria y se debe a que la ingesta supera la eliminación renal (Baird-Gunning 2017)",
+    "Umbrales de la ficha técnica de Plenur (4.9): litemias de 1,5-2,5 mEq/L pueden indicar intoxicación leve a moderada; de 2,5-3,5 mEq/L, intoxicación grave; por encima de 3,5 mEq/L, a menudo potencialmente letal; según 4.4, los efectos tóxicos pueden esperarse hacia 1,5 mEq/L, aunque pueden aparecer con concentraciones más bajas",
+    "Clínica según la ficha técnica de Plenur (4.9): síntomas iniciales de diarrea, vómitos, cansancio, debilidad muscular, falta de coordinación y disartria, posibles por debajo de 2 mEq/L; después ataxia, vértigo, tinnitus, visión borrosa y orina abundante y diluida; por encima de 3 mEq/L, cuadro multisistémico, coma, convulsiones, colapso circulatorio con oliguria o anuria y muerte",
+    "Interacciones con riesgo de toxicidad (Plenur 4.5): AINE, IECA y ARA-II, diuréticos tiazídicos, metronidazol, tetraciclinas, cotrimoxazol y trimetoprim, corticoides y cualquier fármaco que deteriore la función renal; neurotoxicidad con litemias normales al asociar antipsicóticos, carbamazepina, fenitoína, antagonistas del calcio o serotoninérgicos",
+    "En personas de 66 años o más en tratamiento con litio, iniciar un diurético de asa (RR 5,5) o un IECA (RR 7,6) multiplicó el riesgo de ingreso por toxicidad en el mes siguiente; tiazidas y AINE no se asociaron de forma independiente en ese estudio (Juurlink 2004)",
+    "Tratamiento según la ficha técnica de Plenur (4.9), referencia principal: sin antídoto específico; no utilizar diuréticos; «el carbón activo no absorbe el litio»; en la intoxicación moderada o grave (litemia entre 2,5 y 3,5 mEq/L), diálisis, preferentemente hemodiálisis, como tratamiento de elección incluso sin síntomas; control de la litemia al menos otra semana por posible rebote",
+    "Recomendación de un grupo de expertos, complementaria de la ficha técnica (EXTRIP; Decker 2015): el litio es dializable y se recomienda la depuración extracorpórea, preferentemente hemodiálisis, en la intoxicación grave; la calidad de la evidencia es muy baja (sobre todo casos clínicos)",
+    "Secuelas: síndrome de neurotoxicidad irreversible por litio (SILENT), definido por secuelas que persisten al menos 2 meses tras retirar el litio; en 90 casos publicados, la disfunción cerebelosa persistente fue la secuela más frecuente (Adityanjee 2005)"
+   ],
+   "tx": "Suspender el litio y valorar en un servicio de urgencias: litemia seriada (no una única determinación), función renal, electrolitos, ECG y exploración neurológica. La referencia principal es la ficha técnica de Plenur (4.9): no existe antídoto específico; interrupción del litio y corrección de los trastornos hidroelectrolíticos; no deben utilizarse diuréticos; el carbón activo no absorbe el litio; eliminación del ion litio mediante lavado gástrico, corrección del balance hidroelectrolítico y mantenimiento de la función renal; diálisis, preferentemente hemodiálisis, como tratamiento de elección con litemias de 2,5-3,5 mEq/L incluso sin síntomas; control de la litemia durante al menos otra semana por posible rebote. Consultar precozmente con nefrología y toxicología; las recomendaciones del grupo de expertos EXTRIP 2015 ayudan a valorar la depuración extracorpórea en función de la clínica y la función renal, como complemento de la ficha. Tras la estabilización, revisar con la persona y su familia los desencadenantes (deshidratación, interacciones, función renal), replantear la indicación y documentar el episodio. En la ingesta intencionada, valoración del riesgo suicida antes del alta.",
+   "note": "La ficha técnica de Plenur (4.9) es la referencia principal: además de las medidas generales, señala que la urea, el manitol y la aminofilina aumentan de forma significativa la excreción de litio y fija la diálisis, preferentemente la hemodiálisis, como tratamiento de elección con litemias de 2,5-3,5 mEq/L incluso sin síntomas. Las recomendaciones EXTRIP son el consenso de un grupo de expertos, basado en evidencia de muy baja calidad, que añade criterios clínicos y de función renal; deben leerse como complemento de la ficha y no como un umbral por debajo del cual se desaconseje la diálisis que esta indica. La decisión individual corresponde al equipo de urgencias y nefrología. En una encuesta a clínicos, las decisiones de tratamiento variaron y no siempre concordaron con las recomendaciones publicadas (Roberts y Gosselin 2014). No hay ensayos aleatorizados de hemodiálisis en la intoxicación por litio (Lavonas 2015). La irrigación intestinal total en preparados de liberación modificada y el poliestireno sulfonato sódico se citan en la literatura, pero su beneficio no está establecido [fuente no localizada]. La incidencia y los factores de riesgo del SILENT se conocen mal.",
+   "sec": [
+    {
+     "t": "Factores precipitantes e interacciones según la ficha técnica",
+     "x": "La ficha técnica de Plenur 400 mg comprimidos de liberación modificada (n.º de registro 48932; apartados 4.4 y 4.5) agrupa las interacciones en tres bloques. Aumentan la litemia: los nitroimidazoles (metronidazol), las tetraciclinas, el cotrimoxazol y el trimetoprim; los AINE, incluidos los inhibidores selectivos de la ciclooxigenasa (COX); los fármacos del sistema renina-angiotensina (IECA y ARA-II); los diuréticos, en particular las tiazidas (si son imprescindibles, la ficha prefiere los de asa con reducción de dosis de litio); los corticoides y, en general, cualquier fármaco que pueda causar insuficiencia renal. Disminuyen la litemia: empagliflozina, dapagliflozina, acetazolamida, xantinas (cafeína, teofilina) y bicarbonato sódico. Precipitan síntomas de intoxicación con litemias normales: antipsicóticos típicos y atípicos (desde síntomas extrapiramidales hasta síndrome neuroléptico maligno o encefalopatía), carbamazepina, fenitoína, clonazepam, antagonistas del calcio y serotoninérgicos (síndrome serotoninérgico). Entre los factores no farmacológicos, la ficha destaca fiebre, diarrea, vómitos, sudoración excesiva, dietas hiposódicas, cirugía bariátrica, insuficiencia renal y edad avanzada, y pide litemias semanales ante cambios de dosis o formulación, enfermedad o infección concomitante y cambios en la ingesta de sodio o de líquidos.",
+     "links": [
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio: eficacia y seguimiento"
+      },
+      {
+       "ids": [
+        "snm",
+        "sind_ser"
+       ],
+       "t": "neurotoxicidad combinada"
+      },
+      {
+       "ids": [
+        "fk_mayor"
+       ],
+       "t": "farmacocinética en la persona mayor"
+      }
+     ]
+    },
+    {
+     "t": "Depuración extracorpórea: ficha técnica y recomendaciones EXTRIP",
+     "x": "La ficha técnica de Plenur (4.9), referencia principal, indica que en la intoxicación moderada o grave (litemia entre 2,5 y 3,5 mEq/L) el tratamiento de elección es la diálisis, preferentemente la hemodiálisis, incluso en ausencia de sintomatología, y que la litemia debe vigilarse al menos otra semana por un posible rebote. Como recomendación de un grupo de expertos, el grupo de trabajo EXTRIP revisó 166 artículos (418 pacientes, la mayoría casos clínicos) y, mediante un método Delphi modificado, concluyó que el litio es dializable (nivel de evidencia A). Recomienda la depuración extracorpórea en la intoxicación grave (1D), en concreto si la función renal está alterada y la litemia supera 4,0 mEq/L, o ante disminución del nivel de conciencia, convulsiones o arritmias potencialmente mortales con independencia de la litemia (1D); la sugiere si la litemia supera 5,0 mEq/L, si hay confusión significativa o si se prevé que tardará más de 36 horas en bajar de 1,0 mEq/L (2D). Debe mantenerse hasta la mejoría clínica o una litemia inferior a 1,0 mEq/L, y al menos 6 horas si no se puede medir con rapidez; la hemodiálisis es la técnica preferida (Decker 2015). Estos criterios complementan a la ficha y no la sustituyen. La revisión Cochrane no identificó ningún ensayo aleatorizado que apoye o refute la hemodiálisis (Lavonas 2015).",
+     "links": [
+      {
+       "ids": [
+        "uremia_dialisis"
+       ],
+       "t": "diálisis y aspectos psiquiátricos"
+      }
+     ]
+    },
+    {
+     "t": "Secuelas neurológicas persistentes (SILENT)",
+     "x": "El síndrome de neurotoxicidad irreversible por litio (Syndrome of Irreversible Lithium-Effectuated Neurotoxicity, SILENT) se definió por la persistencia de secuelas al menos 2 meses después de suspender el litio. En la revisión de Adityanjee et al. (2005; búsqueda de 1965 a 2004), se identificaron 90 casos publicados; la disfunción cerebelosa persistente fue la secuela más comunicada, junto a otras presentaciones atípicas. Los autores proponen como hipótesis una desmielinización en varios niveles del sistema nervioso, incluido el cerebelo, y reclaman criterios diagnósticos operativos. La revisión de Baird-Gunning et al. (2017) añade que la incidencia y los factores de riesgo de las secuelas se conocen mal y que parecen poco frecuentes en la intoxicación aguda no complicada, a diferencia de la crónica. En la práctica, la exploración neurológica al alta y en el seguimiento (marcha, coordinación, habla, cognición) documenta la evolución, dato relevante también en la valoración pericial de un posible daño iatrogénico.",
+     "links": [
+      {
+       "ids": [
+        "cerebelo_psiq"
+       ],
+       "t": "cerebelo y psicopatología"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "cuadro confusional agudo"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Decker BS et al. (2015). Extracorporeal treatment for lithium poisoning: systematic review and recommendations from the EXTRIP Workgroup. Clin J Am Soc Nephrol 10:875-887 · PMID 25583292",
+    "Baird-Gunning J et al. (2017). Lithium poisoning. J Intensive Care Med 32:249-263 · PMID 27516079",
+    "Adityanjee et al. (2005). The syndrome of irreversible lithium-effectuated neurotoxicity. Clin Neuropharmacol 28:38-49 · PMID 15714160",
+    "Juurlink DN et al. (2004). Drug-induced lithium toxicity in the elderly: a population-based study. J Am Geriatr Soc 52:794-798 · PMID 15086664",
+    "Lavonas EJ & Buchanan J (2015). Hemodialysis for lithium poisoning. Cochrane Database Syst Rev 2015(9):CD007951 · PMID 26374731",
+    "Roberts DM & Gosselin S (2014). Variability in the management of lithium poisoning. Semin Dial 27:390-394 · PMID 24655138",
+    "AEMPS-CIMA (2025). Ficha técnica de Plenur 400 mg comprimidos de liberación modificada (carbonato de litio) (n.º de registro 48932), apartados 4.4, 4.5 y 4.9; revisión del texto de julio de 2024, documento vigente en CIMA publicado en abril de 2025; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "lm_bip",
+    "litio_embarazo",
+    "tb1",
+    "fk_mayor",
+    "uremia_dialisis",
+    "snm",
+    "sind_ser",
+    "delirium",
+    "cerebelo_psiq",
+    "suic_mayor",
+    "hiponatr_psicof"
+   ]
+  },
+  {
+   "id": "priapismo_psicof",
+   "n": "Priapismo inducido por psicofármacos (trazodona y antipsicóticos con bloqueo alfa-1)",
+   "ab": "Priapismo por fármacos",
+   "al": [
+    "priapismo isquémico farmacológico",
+    "priapismo por trazodona",
+    "priapismo por antipsicóticos",
+    "priapismo de clítoris",
+    "erección prolongada dolorosa"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2010,
+   "tags": [
+    "risk",
+    "emerg",
+    "sexdif",
+    "chemsex"
+   ],
+   "cie": [
+    "GB06.1"
+   ],
+   "desc": "Erección persistente, a menudo dolorosa, que se prolonga más allá del estímulo sexual o sin relación con él. La guía de la Asociación Europea de Urología distingue el priapismo isquémico (de bajo flujo), el más frecuente y una urgencia, del arterial (de alto flujo), que no lo es, y del recurrente o intermitente (Salonia 2014). Los psicofármacos se asocian sobre todo al isquémico, y el mecanismo propuesto es el bloqueo de los receptores alfa-1 adrenérgicos, que impide la detumescencia simpática. La revisión de Thompson et al. (1990) señaló que los fármacos con bloqueo alfa-adrenérgico, en especial la trazodona, varios antipsicóticos y el antihipertensivo prazosina, son los más implicados. En la base de notificaciones espontáneas de la FDA, la señal para antipsicóticos fue mayor con los de alta afinidad alfa-1 (Andersohn 2010). Es poco frecuente, pero el retraso en tratarlo puede dejar una disfunción eréctil permanente, por lo que debe informarse de que es una urgencia. El cuadro también puede afectar al clítoris, con ingurgitación dolorosa, y en la mayoría de los casos publicados se atribuye a fármacos (Yafi 2015).",
+   "feats": [
+    "Ficha técnica de Deprax (trazodona; n.º de registro 78762), 4.4: «como con otros medicamentos con actividad alfaadrenolítica, se ha asociado muy raramente la trazodona con priapismo»; hay casos que han requerido cirugía o han dejado disfunción sexual permanente, y quien presente esta sospecha debe interrumpir el tratamiento inmediatamente",
+    "Ficha técnica de Risperdal (n.º de registro 60336), 4.4: el tratamiento puede dar lugar a priapismo por sus efectos bloqueantes alfa-adrenérgicos; la ficha de Leponex (clozapina; n.º de registro 59547), 4.8, recoge casos muy raros de priapismo",
+    "En el sistema de notificaciones de la FDA (426 casos, 144 atribuidos a antipsicóticos), la razón de notificación fue de 9,9 (IC 95 % 7,9-12,4) con antipsicóticos de alta afinidad alfa-1 y de 3,6 (2,4-5,2) con los de afinidad baja o media; hubo señal para clorpromazina, quetiapina, risperidona, ziprasidona y aripiprazol (Andersohn 2010)",
+    "Según la revisión de Thompson et al. (1990), cerca de la mitad de los casos de priapismo tenían antecedentes de detumescencia retardada: preguntar por erecciones prolongadas previas antes de prescribir y ante cualquier fármaco de riesgo",
+    "Urgencia urológica: en el priapismo isquémico, la guía EAU pide intervenir en 4-6 horas con descompresión de los cuerpos cavernosos por aspiración e inyección intracavernosa de simpaticomiméticos (p. ej., fenilefrina); la cirugía se reserva para el fracaso del tratamiento conservador (Salonia 2014)",
+    "Factores aditivos: la ficha técnica de Viagra (sildenafilo, EU/1/98/077), 4.4, recoge erecciones prolongadas y priapismo y indica que, si una erección se prolonga más de 4 horas, se debe buscar atención médica inmediatamente, y cita como afecciones que pueden predisponer al priapismo la anemia de células falciformes, el mieloma múltiple y la leucemia"
+   ],
+   "tx": "Prevención: preguntar por antecedentes de erecciones prolongadas, informar por escrito de que una erección dolorosa o que no cede es una urgencia y pedir que se consulte sin esperar. Ante la sospecha: derivación inmediata a urgencias con atención urológica; no demorar la consulta por pudor o por la expectativa de resolución espontánea. Según las fichas técnicas, la trazodona debe suspenderse de inmediato; con antipsicóticos, la decisión de suspender o cambiar se individualiza con el equipo de salud mental, valorando el riesgo de descompensación y eligiendo, si procede, un fármaco con menor afinidad alfa-1. Tras un episodio, documentarlo, notificarlo al Sistema Español de Farmacovigilancia y evitar la reexposición al fármaco implicado.",
+   "note": "La evidencia procede de notificaciones espontáneas, series y casos: no permite estimar incidencias fiables por fármaco, y una razón de notificación no equivale a un riesgo relativo. La correlación con la afinidad alfa-1 es indirecta (Andersohn 2010). La relación con la dosis no está establecida y se han descrito casos con concentraciones terapéuticas [fuente no localizada]. La extensión del riesgo a combinaciones del contexto del chemsex (inhibidores de la fosfodiesterasa 5 junto con trazodona o antipsicóticos, o inhibidores del CYP3A4 como ritonavir o cobicistat que elevan las concentraciones de trazodona o sildenafilo) es una inferencia farmacológica razonable sin estudios específicos [fuente no localizada]. El priapismo de clítoris y en personas trans con clitoromegalia por andrógenos se conoce solo por casos aislados; en el único caso publicado en un hombre trans, los autores señalan que se desconoce si la clitoromegalia por andrógenos es un factor de riesgo (Kusko 2021).",
+   "sec": [
+    {
+     "t": "Mecanismo y fármacos implicados",
+     "x": "La detumescencia depende del tono simpático alfa-1 sobre el músculo liso de los cuerpos cavernosos y de sus arterias; el bloqueo alfa-1 la dificulta y favorece la estasis venosa y la isquemia del priapismo de bajo flujo. La revisión clásica de Thompson et al. (1990) identificó como fármacos más asociados los que tienen propiedades de bloqueo alfa-adrenérgico: trazodona, varios antipsicóticos y prazosina. El análisis de Andersohn et al. (2010) aportó el primer apoyo empírico a esta hipótesis: en las notificaciones del sistema de la FDA, la señal fue claramente mayor para los antipsicóticos de alta afinidad alfa-1 y, al limitar el análisis a los casos que requirieron intervención médica o causaron discapacidad, solo persistió para ese grupo. Entre los antidepresivos, la ficha técnica de Deprax atribuye explícitamente el riesgo de la trazodona a su actividad alfa-adrenolítica. La clozapina, con marcado bloqueo alfa-1, figura con casos muy raros en su ficha técnica.",
+     "links": [
+      {
+       "ids": [
+        "trazodona"
+       ],
+       "t": "trazodona"
+      },
+      {
+       "ids": [
+        "risperidona",
+        "quetiapina",
+        "clorpromazina",
+        "ziprasidona",
+        "aripiprazol",
+        "clozapina"
+       ],
+       "t": "antipsicóticos con señal"
+      },
+      {
+       "ids": [
+        "prazosina"
+       ],
+       "t": "prazosina"
+      }
+     ]
+    },
+    {
+     "t": "Actuación urgente según las guías urológicas",
+     "x": "La guía de la Asociación Europea de Urología define el priapismo como una erección que persiste más allá del interés o la estimulación sexual o sin relación con ellos y lo clasifica en isquémico (bajo flujo), arterial (alto flujo) y recurrente. El isquémico es el más frecuente y constituye una urgencia: la intervención debe comenzar en 4-6 horas e incluye la descompresión de los cuerpos cavernosos por aspiración y la inyección intracavernosa de simpaticomiméticos como la fenilefrina; si el tratamiento conservador fracasa se recomienda cirugía, y en los cuadros de larga duración debe considerarse la implantación inmediata de una prótesis. La historia clínica es la base del diagnóstico y la gasometría de sangre cavernosa ayuda a distinguir el isquémico del arterial (Salonia 2014; Yafi 2015). La ficha técnica de Deprax menciona que el priapismo por trazodona puede tratarse con inyección intracavernosa de un agonista alfa-adrenérgico como la adrenalina o el metaraminol. El papel del equipo de salud mental es reconocer el cuadro, derivar sin demora y revisar después el tratamiento psicofarmacológico.",
+     "links": [
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "otros efectos sexuales de los psicofármacos"
+      },
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunciones sexuales"
+      }
+     ]
+    },
+    {
+     "t": "Diversidad corporal, contexto sexual y comunicación clínica",
+     "x": "El priapismo de clítoris se manifiesta como ingurgitación dolorosa e hinchazón del clítoris y de los tejidos vecinos; en la revisión de Yafi et al. (2015), la mayoría de los casos publicados parecen inducidos por fármacos y el tratamiento principal es retirar el fármaco responsable. Kusko et al. (2021) describieron un caso en un hombre trans con clitoromegalia por tratamiento androgénico y señalan que se desconoce si esta es un factor de riesgo. La información preventiva debe darse, por tanto, a toda persona que reciba un fármaco de riesgo, con independencia de su sexo asignado o su identidad de género, en un lenguaje claro y sin juicios. En el contexto sexual concurren otros factores: la ficha técnica de Viagra recoge erecciones prolongadas y priapismo con sildenafilo y no recomienda su administración simultánea con ritonavir, que multiplica sus concentraciones plasmáticas. Preguntar de forma abierta por el uso de inhibidores de la fosfodiesterasa 5, cocaína u otras sustancias en las relaciones sexuales facilita detectar combinaciones de riesgo y que la persona consulte a tiempo sin temor a ser juzgada.",
+     "links": [
+      {
+       "ids": [
+        "poppers"
+       ],
+       "t": "sildenafilo y sustancias del contexto sexual"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "sdu",
+        "genero"
+       ],
+       "t": "uso sexualizado de drogas y diversidad"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Thompson JW et al. (1990). Psychotropic medication and priapism: a comprehensive review. J Clin Psychiatry 51:430-433 · PMID 2211542",
+    "Andersohn F et al. (2010). Priapism associated with antipsychotics: role of alpha1 adrenoceptor affinity. J Clin Psychopharmacol 30:68-71 · PMID 20075651",
+    "Salonia A et al. (2014). European Association of Urology guidelines on priapism. Eur Urol 65:480-489 · PMID 24314827",
+    "Montague DK et al. (2003). American Urological Association guideline on the management of priapism. J Urol 170:1318-1324 · PMID 14501756",
+    "Yafi FA et al. (2015). Penile priapism, clitoral priapism, and persistent genital arousal disorder: a contemporary review. Sex Med Rev 3:145-159 · PMID 27784607",
+    "Kusko RE et al. (2021). Clitoral priapism in a transgender male. Sex Med 9:100431 · PMID 34601429",
+    "AEMPS-CIMA (2026). Ficha técnica de Deprax 100 mg comprimidos recubiertos con película EFG (trazodona) (n.º de registro 78762), apartados 4.4 y 4.8; revisión del texto de noviembre de 2023; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Risperdal 1 mg comprimidos recubiertos con película (n.º de registro 60336), apartados 4.4 y 4.8; revisión del texto de agosto de 2022; consulta de noviembre de 2026",
+    "AEMPS-CIMA (2026). Ficha técnica de Leponex 100 mg comprimidos (n.º de registro 59547), apartado 4.8; revisión del texto de febrero de 2026; consulta de noviembre de 2026",
+    "AEMPS-CIMA/EMA (2026). Ficha técnica de Viagra comprimidos recubiertos con película (sildenafilo; EU/1/98/077; autorización centralizada, texto de la EMA enlazado desde CIMA), apartados 4.4 y 4.5; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "trazodona",
+    "risperidona",
+    "quetiapina",
+    "clorpromazina",
+    "clozapina",
+    "prazosina",
+    "disf_sexual_psicof",
+    "disf_sex",
+    "poppers",
+    "chemsex_arv",
+    "ap_atipicos",
+    "ap_tipicos"
+   ]
+  },
+  {
+   "id": "peso_psicof",
+   "n": "Aumento de peso inducido por psicofármacos y su manejo",
+   "ab": "Peso y psicofármacos",
+   "al": [
+    "ganancia ponderal por antipsicóticos",
+    "obesidad inducida por fármacos",
+    "alteraciones metabólicas por antipsicóticos",
+    "metformina y antipsicóticos",
+    "agonistas GLP-1 y antipsicóticos"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "otr",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 2020,
+   "tags": [
+    "risk",
+    "chr"
+   ],
+   "cie": [
+    "5B81.1"
+   ],
+   "desc": "Efecto adverso frecuente de muchos psicofármacos, sobre todo de varios antipsicóticos, con repercusión cardiovascular, en la imagen corporal y en la adherencia. La guía de la British Association for Psychopharmacology recuerda que el exceso de muertes por enfermedad cardiovascular contribuye de forma importante a la menor esperanza de vida en la esquizofrenia y que la ganancia de peso refuerza la visión negativa que la persona tiene de sí misma y empeora la adherencia (Cooper 2016). El riesgo difiere mucho entre fármacos: en el metaanálisis en red de Pillinger et al. (2020; 100 ensayos, 25 952 pacientes), olanzapina y clozapina mostraron el peor perfil metabólico y aripiprazol, brexpiprazol, cariprazina, lurasidona y ziprasidona el más benigno. Entre los antidepresivos, amitriptilina, mirtazapina y paroxetina se asociaron a mayor riesgo de ganancia ponderal (Serretti y Mandelli 2010). El manejo combina prevención (elección informada del fármaco y medición basal), monitorización, intervención en el estilo de vida, cambio a un fármaco de menor riesgo cuando sea posible y tratamiento farmacológico añadido (metformina y, con evidencia emergente, agonistas del receptor GLP-1).",
+   "feats": [
+    "Magnitud (Pillinger 2020; ensayos agudos, mediana de 6 semanas): diferencia media de peso frente a placebo desde -0,23 kg (IC 95 % -0,83 a 0,36) con haloperidol hasta 3,01 kg (1,78-4,24) con clozapina; IMC hasta +1,07 kg/m² con olanzapina; peor perfil con olanzapina y clozapina",
+    "Predictores de vulnerabilidad metabólica en el mismo metaanálisis: mayor peso basal y sexo masculino (más aumento de glucemia) y etnia no blanca (más aumento del colesterol total); la mejoría psicopatológica se correlacionó con el aumento de peso e IMC (Pillinger 2020)",
+    "Metformina frente a placebo en 12 ensayos doble ciego (743 pacientes con esquizofrenia o trastorno esquizoafectivo): -3,27 kg (IC 95 % -4,66 a -1,89), con reducción del IMC y de la resistencia a la insulina, pero no de la glucemia basal (de Silva 2016)",
+    "Agonistas GLP-1: en el metaanálisis con datos individuales (3 ensayos, 164 participantes), la pérdida de peso fue 3,71 kg mayor que con control (IC 95 % 2,44-4,99), mayor con clozapina u olanzapina; las náuseas fueron más frecuentes (53,6 % frente a 27,5 %) y los autores piden más estudios antes de un uso sistemático (Siskind 2019)",
+    "Cambio de antipsicótico (revisión Cochrane, 4 ensayos, 636 participantes): pasar de olanzapina a aripiprazol o quetiapina se asoció a una pérdida media de 1,94 kg, sin significación estadística (2 ensayos, 287 participantes; IC 95 % -3,9 a 0,08), con descenso significativo de la glucemia basal y sin empeorar el estado mental; datos débiles (Mukundan 2010)",
+    "Intervención conductual adaptada a la enfermedad mental grave (ensayo ACHIEVE, 291 participantes, 18 meses): diferencia de -3,2 kg frente a control y pérdida de al menos el 5 % del peso en el 37,8 % frente al 22,7 % (Daumit 2013)"
+   ],
+   "tx": "Antes de prescribir: peso, perímetro abdominal, presión arterial, glucemia o HbA1c y lípidos, y elección compartida que tenga en cuenta el riesgo metabólico de cada fármaco; las guías, no la ficha técnica, marcan la prioridad de uso. Durante el tratamiento: control precoz del peso, porque la ganancia temprana es la más fácil de abordar [fuente no localizada]. Ante la ganancia: intervención en el estilo de vida adaptada (dieta, actividad física, sueño, tabaco, alcohol), valorar el cambio a un fármaco de menor riesgo si la situación clínica lo permite y, si no basta o el cambio no es viable, considerar metformina como tratamiento añadido según las guías (Cooper 2016). Los agonistas GLP-1 son una opción emergente, especialmente con clozapina u olanzapina, en coordinación con atención primaria o endocrinología y según sus indicaciones autorizadas. Sin pautas posológicas en esta ficha: los límites son los de la ficha técnica AEMPS-CIMA de cada medicamento.",
+   "note": "Los datos de magnitud de Pillinger proceden de ensayos agudos de pocas semanas y probablemente infraestiman la ganancia a largo plazo y en personas sin exposición previa [fuente no localizada]. El metaanálisis de antidepresivos de Serretti incluye muchos estudios no controlados frente a placebo y comparaciones con un placebo virtual. Los ensayos con metformina y con agonistas GLP-1 son pequeños y breves y casi todos en esquizofrenia; la evidencia con los agonistas más recientes (semaglutida, tirzepatida) en personas que toman antipsicóticos es todavía escasa [fuente no localizada]. La ficha técnica de la metformina (p. ej., Dianben, n.º de registro 55211, 4.1) la autoriza en la diabetes mellitus tipo 2, por lo que su uso frente a la ganancia ponderal por antipsicóticos sin diabetes queda fuera de indicación; la liraglutida para el control del peso (Saxenda, 4.1) está autorizada, junto con dieta y actividad física, en adultos con IMC inicial ≥30 kg/m² o de 27 a <30 kg/m² con al menos una comorbilidad relacionada con el peso, con independencia de la causa del aumento. Evitar el lenguaje culpabilizador sobre el peso: el efecto es en gran parte farmacológico.",
+   "sec": [
+    {
+     "t": "Metformina: ensayos y metaanálisis",
+     "x": "La metformina es el fármaco añadido con más ensayos frente a la ganancia ponderal por antipsicóticos. En el ensayo de Wu et al. (2008), 128 personas con un primer episodio de esquizofrenia que habían ganado más del 10 % de su peso fueron asignadas a placebo, metformina, metformina más intervención en el estilo de vida o intervención en el estilo de vida más placebo durante 12 semanas: la combinación fue superior a cada intervención aislada en peso, IMC y perímetro abdominal; la metformina sola fue más eficaz que la intervención en el estilo de vida sola en peso y sensibilidad a la insulina, y el grupo placebo siguió aumentando de IMC; la mejoría psiquiátrica se mantuvo estable. El metaanálisis de De Silva et al. (2016; 12 ensayos doble ciego, 743 pacientes) confirmó una reducción media de 3,27 kg y del IMC de 1,13 kg/m², con mejoría de la resistencia a la insulina pero sin cambio significativo de la glucemia basal. En personas tratadas con clozapina sin diabetes (8 ensayos, 478 participantes), la metformina redujo el peso 3,12 kg y mejoró el perímetro abdominal, la glucemia basal y los triglicéridos (Siskind 2016). La guía BAP revisa estos ensayos y formula recomendaciones sobre las intervenciones farmacológicas, entre ellas la metformina (Cooper 2016) [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "clozapina",
+        "olanzapina"
+       ],
+       "t": "antipsicóticos de mayor riesgo"
+      },
+      {
+       "ids": [
+        "pep"
+       ],
+       "t": "primer episodio psicótico"
+      }
+     ]
+    },
+    {
+     "t": "Agonistas del receptor GLP-1: evidencia emergente",
+     "x": "En el ensayo aleatorizado doble ciego de Larsen et al. (2017), 103 personas con un trastorno del espectro de la esquizofrenia en tratamiento estable con clozapina u olanzapina, con sobrepeso u obesidad y prediabetes, recibieron liraglutida o placebo durante 16 semanas. La liraglutida mejoró la tolerancia a la glucosa (el 63,8 % normalizó la tolerancia frente al 16,0 % con placebo; NNT 2) y redujo el peso (-5,3 kg; IC 95 % -7,0 a -3,7), el perímetro abdominal, la presión arterial sistólica, la grasa visceral y el colesterol LDL, con efectos adversos sobre todo digestivos. El metaanálisis con datos individuales de Siskind et al. (2019), con dos ensayos de exenatida semanal y uno de liraglutida (164 participantes, unas 16 semanas), estimó una pérdida de peso 3,71 kg mayor que con control, un NNT de 3,8 para perder al menos el 5 % del peso y un beneficio mayor con clozapina u olanzapina que con otros antipsicóticos; las náuseas fueron más frecuentes (NNH 3,8). Los autores concluyen que son eficaces y tolerables, pero que el número de participantes es pequeño y se necesitan más estudios antes de recomendarlos de forma sistemática.",
+     "links": [
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "depresión, obesidad y síndrome metabólico"
+      },
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "monitorización metabólica de la clozapina"
+      }
+     ]
+    },
+    {
+     "t": "Estilo de vida, cambio de fármaco y antidepresivos",
+     "x": "Las intervenciones conductuales necesitan adaptarse a los síntomas y a las dificultades cognitivas de la enfermedad mental grave. En el ensayo ACHIEVE, 291 adultos con sobrepeso u obesidad atendidos en programas comunitarios de rehabilitación psiquiátrica (58,1 % con esquizofrenia o trastorno esquizoafectivo, 22,0 % con trastorno bipolar) recibieron sesiones grupales e individuales de control del peso y ejercicio en grupo: la pérdida de peso aumentó progresivamente durante 18 meses, con una diferencia final de 3,2 kg frente al grupo control y sin diferencias en acontecimientos adversos (Daumit 2013). El cambio a un antipsicótico de menor riesgo es otra opción: la revisión Cochrane de Mukundan et al. (2010) halló que pasar de olanzapina a aripiprazol o quetiapina reducía la glucemia basal, con una pérdida de peso media de 1,94 kg que no alcanzó significación estadística, sin empeorar el estado mental, aunque con más abandonos y datos débiles; ninguna estrategia de cambio fue superior a otra. En los antidepresivos, el metaanálisis de Serretti y Mandelli (2010; 116 estudios) asoció amitriptilina, mirtazapina y paroxetina a mayor ganancia, y fluoxetina y bupropión a cierta pérdida, limitada a la fase aguda en el caso de la fluoxetina; las diferencias individuales son grandes y el efecto suele hacerse más evidente a largo plazo.",
+     "links": [
+      {
+       "ids": [
+        "aripiprazol",
+        "quetiapina"
+       ],
+       "t": "fármacos de destino en los ensayos de cambio"
+      },
+      {
+       "ids": [
+        "mirtazapina",
+        "amitriptilina"
+       ],
+       "t": "antidepresivos con mayor ganancia"
+      },
+      {
+       "ids": [
+        "bed"
+       ],
+       "t": "trastorno por atracón"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Pillinger T et al. (2020). Comparative effects of 18 antipsychotics on metabolic function in patients with schizophrenia, predictors of metabolic dysregulation, and association with psychopathology: a systematic review and network meta-analysis. Lancet Psychiatry 7:64-77 · PMID 31860457",
+    "De Silva VA et al. (2016). Metformin in prevention and treatment of antipsychotic induced weight gain: a systematic review and meta-analysis. BMC Psychiatry 16:341 · PMID 27716110",
+    "Wu RR et al. (2008). Lifestyle intervention and metformin for treatment of antipsychotic-induced weight gain: a randomized controlled trial. JAMA 299:185-193 · PMID 18182600",
+    "Siskind D et al. (2019). Glucagon-like peptide-1 receptor agonists for antipsychotic-associated cardio-metabolic risk factors: a systematic review and individual participant data meta-analysis. Diabetes Obes Metab 21:293-302 · PMID 30187620",
+    "Larsen JR et al. (2017). Effect of liraglutide treatment on prediabetes and overweight or obesity in clozapine- or olanzapine-treated patients with schizophrenia spectrum disorder: a randomized clinical trial. JAMA Psychiatry 74:719-728 · PMID 28601891",
+    "Daumit GL et al. (2013). A behavioral weight-loss intervention in persons with serious mental illness. N Engl J Med 368:1594-1602 · PMID 23517118",
+    "Mukundan A et al. (2010). Antipsychotic switching for people with schizophrenia who have neuroleptic-induced weight or metabolic problems. Cochrane Database Syst Rev 2010(12):CD006629 · PMID 21154372",
+    "Cooper SJ et al. (2016). BAP guidelines on the management of weight gain, metabolic disturbances and cardiovascular risk associated with psychosis and antipsychotic drug treatment. J Psychopharmacol 30:717-748 · PMID 27147592",
+    "Serretti A & Mandelli L (2010). Antidepressants and body weight: a comprehensive review and meta-analysis. J Clin Psychiatry 71:1259-1272 · PMID 21062615",
+    "Siskind DJ et al. (2016). Metformin for clozapine associated obesity: a systematic review and meta-analysis. PLoS One 11:e0156208 · PMID 27304831",
+    "AEMPS-CIMA (2026). Fichas técnicas de Dianben 850 mg comprimidos recubiertos con película (metformina; n.º de registro 55211) y Saxenda 6 mg/ml solución inyectable (liraglutida; n.º de registro 115992002), apartado 4.1; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "olanzapina",
+    "clozapina",
+    "clozapina_monit",
+    "ap_atipicos",
+    "aripiprazol",
+    "quetiapina",
+    "mirtazapina",
+    "amitriptilina",
+    "inmunometab_dep",
+    "esq",
+    "pep",
+    "bed",
+    "cardio_dep"
+   ]
+  },
+  {
+   "id": "retirada_ap",
+   "n": "Retirada y reducción de antipsicóticos: riesgo de recaída, reducción gradual y síndromes de retirada",
+   "ab": "Retirada de AP",
+   "al": [
+    "discontinuación de antipsicóticos",
+    "reducción de dosis de antipsicóticos",
+    "reducción hiperbólica",
+    "psicosis por supersensibilidad dopaminérgica",
+    "discinesia de retirada"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2013,
+   "tags": [
+    "risk",
+    "chr"
+   ],
+   "desc": "Decisión frecuente y difícil en el tratamiento de la esquizofrenia y de otras psicosis: los antipsicóticos de mantenimiento reducen de forma marcada las recaídas, pero sus efectos adversos pesan y muchas personas desean reducirlos o dejarlos. En el metaanálisis de Leucht et al. (2012; 65 ensayos, 6493 pacientes), la recaída al año fue del 27 % con antipsicótico frente al 64 % con placebo (RR 0,40; NNT 3). Frente a ello, el seguimiento a 7 años del ensayo de Wunderink et al. (2013) en primeros episodios remitidos observó más recuperación funcional con la estrategia de reducción o retirada guiada, hallazgo que los autores piden replicar antes de generalizarlo, y el ensayo RADAR (Moncrieff 2023) no halló mejoría del funcionamiento social con la reducción gradual a 2 años. Se ha propuesto que parte de las recaídas tras la retirada se relacionan con adaptaciones del sistema dopaminérgico a la exposición prolongada (hipótesis de la supersensibilidad), lo que justificaría reducciones lentas y proporcionales (Horowitz 2021). La retirada brusca puede causar además síntomas somáticos de retirada y discinesias de retirada (Gardos 1978).",
+   "feats": [
+    "Mantenimiento frente a placebo (Leucht 2012): recaída a 7-12 meses del 27 % frente al 64 % (RR 0,40; IC 95 % 0,33-0,49; NNT 3) y reingreso del 10 % frente al 26 %; la retirada brusca o gradual no modificó significativamente el riesgo de recaída en el análisis de subgrupos, y la diferencia disminuyó con la duración de los estudios",
+    "Ensayo de Wunderink (2007): en primeros episodios remitidos, la retirada guiada duplicó las recaídas a 18 meses (43 % frente a 21 %) y solo en torno al 20 % logró dejar el tratamiento",
+    "Seguimiento a 7 años (Wunderink 2013; 103 de 128 participantes): recuperación (remisión sintomática y funcional) del 40,4 % con reducción o retirada frente al 17,6 % con mantenimiento (OR 3,49), atribuible a la remisión funcional, no a la sintomática",
+    "Ensayo RADAR (Moncrieff 2023; 253 personas con psicosis recurrente, abierto, 2 años): la reducción gradual y flexible no mejoró el funcionamiento social (β 0,19; IC 95 % -1,94 a 2,33) y hubo más acontecimientos adversos graves, sobre todo ingresos por recaída (49 frente a 29 personas)",
+    "Reducción hiperbólica (Horowitz 2021): por la relación hiperbólica entre dosis y bloqueo D2 en PET, se propone reducir de forma gradual, durante meses o años, en proporción a la dosis más reciente, con pasos cada vez menores; es una propuesta que debe probarse en ensayos aleatorizados",
+    "Psicosis por supersensibilidad (Chouinard 2017): recaída rápida tras la retirada, reducción o cambio de antipsicótico, tolerancia al efecto terapéutico, discinesia tardía concurrente y exacerbación por estrés; prevalencias estimadas del 30 % en la esquizofrenia y del 70 % en la resistente, a partir de tres estudios revisados",
+    "Discinesia de retirada (Gardos 1978): aparece al retirar o reducir el antipsicótico y desaparece espontáneamente en 6-12 semanas; la discinesia encubierta es una discinesia tardía enmascarada que solo se hace visible tras la retirada"
+   ],
+   "tx": "Decisión compartida e informada, revisada periódicamente, que pondere el riesgo de recaída (mayor en los meses siguientes a la retirada), los efectos adversos, las preferencias de la persona y sus apoyos. Si se reduce: hacerlo de forma gradual y escalonada, con pasos más pequeños a medida que baja la dosis, intervalos suficientes para valorar la tolerancia y seguimiento estrecho; acordar un plan de crisis con signos de alarma precoces y una vía de acceso rápido al equipo; implicar a la familia o a personas de confianza si la persona lo desea. Evitar la retirada brusca salvo por una reacción adversa grave; NICE CG178 pide retirar gradualmente y vigilar los signos de recaída al menos 2 años después. Explorar y documentar los movimientos involuntarios antes y durante la reducción. Sin pautas posológicas en esta ficha; las presentaciones disponibles y sus límites son los de la ficha técnica AEMPS-CIMA de cada medicamento.",
+   "note": "El metaanálisis de Leucht incluye sobre todo ensayos de 1 año o menos y con retiradas a menudo rápidas; no responde a qué ocurre con reducciones muy lentas. El ensayo de Wunderink es abierto, pequeño y con tratamiento libre tras el periodo aleatorizado; el resultado a 7 años no se ha replicado de forma concluyente [fuente no localizada]. RADAR es abierto y la reducción mediana a 24 meses fue del 33 %, no una retirada completa. La psicosis por supersensibilidad es una hipótesis con apoyo animal y clínico indirecto; sus criterios no están validados de forma independiente y es difícil separarla de la recaída de la enfermedad. La pauta hiperbólica de Horowitz no se ha contrastado en ensayos. Los criterios de recaída y de recuperación varían entre estudios. La guía NICE CG178 (recomendaciones 1.4.6.3 a 1.4.6.5, de 2009) indica informar de que el riesgo de recaída es alto si se suspende la medicación en los 1 a 2 años siguientes, retirar el antipsicótico de forma gradual con vigilancia regular de los signos de recaída y mantener esa vigilancia al menos 2 años tras la retirada.",
+   "sec": [
+    {
+     "t": "Riesgo de recaída y estrategias de reducción guiada",
+     "x": "El metaanálisis de Leucht et al. (2012) reunió 65 ensayos en los que personas estabilizadas continuaban o dejaban el antipsicótico. Además de la reducción de recaídas (NNT 3) y de reingresos (NNT 5), mostró, con evidencia limitada, mejor calidad de vida y menos actos agresivos con el fármaco, a costa de más aumento de peso, trastornos del movimiento y sedación; los inyectables de acción prolongada redujeron las recaídas más que los orales. Ni el número de episodios ni la remisión ni la forma de retirada (brusca o gradual) cambiaron el riesgo de forma significativa. Wunderink et al. (2007) compararon en 131 personas con un primer episodio remitido una retirada guiada por los síntomas con el mantenimiento: las recaídas se duplicaron y solo una minoría pudo dejar el fármaco, sin ventaja funcional a 18 meses. A los 7 años, sin embargo, el grupo de reducción mostraba el doble de recuperación, por mejor funcionamiento (Wunderink 2013). El ensayo RADAR, en personas con psicosis recurrente y de mayor edad, no confirmó un beneficio funcional a 2 años y registró más ingresos por recaída (Moncrieff 2023).",
+     "links": [
+      {
+       "ids": [
+        "pep"
+       ],
+       "t": "primer episodio psicótico"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "ap_lai"
+       ],
+       "t": "inyectables de acción prolongada"
+      }
+     ]
+    },
+    {
+     "t": "Reducción hiperbólica y psicosis por supersensibilidad dopaminérgica",
+     "x": "Horowitz et al. (2021) sostienen que el proceso de retirada puede contribuir causalmente a la recaída por neuroadaptaciones que persisten meses o años tras suspender el antipsicótico, entre ellas una hipersensibilidad dopaminérgica, y apoyan esta idea en estudios animales, en la aparición de discinesia tardía y en la acumulación de recaídas en los meses posteriores a la retirada. Como la relación entre dosis y ocupación de receptores D2 medida por PET es hiperbólica, las reducciones iguales en miligramos producen caídas de bloqueo cada vez mayores al final del proceso; por ello proponen reducciones proporcionales a la dosis más reciente, cada vez menores, a lo largo de meses o años y ajustadas a la tolerancia, y advierten de que la propuesta debe someterse a ensayos aleatorizados. Chouinard et al. (2017) revisan la psicosis por supersensibilidad: el bloqueo prolongado aumentaría los receptores D2 y su sensibilidad, con trastornos del movimiento y psicosis. Proponen criterios clínicos y describen tres síndromes de retirada de antipsicóticos, análogos a los de otros fármacos del sistema nervioso central. La hipótesis es plausible, pero su prevalencia y su especificidad se apoyan en pocos estudios.",
+     "links": [
+      {
+       "ids": [
+        "d2_block"
+       ],
+       "t": "antagonismo D2"
+      },
+      {
+       "ids": [
+        "cloz"
+       ],
+       "t": "esquizofrenia resistente"
+      }
+     ]
+    },
+    {
+     "t": "Discinesia de retirada y otros síntomas al suspender",
+     "x": "Gardos, Cole y Tarsy (1978) describieron que la suspensión brusca de antipsicóticos se sigue con frecuencia de síntomas de retirada somáticos y de discinesias emergentes. Distinguieron la discinesia encubierta, una discinesia tardía enmascarada que solo se hace clínicamente detectable cuando se retira o se reduce el antipsicótico, de la discinesia de retirada, que aparece en las mismas circunstancias pero desaparece espontáneamente en 6 a 12 semanas, y atribuyeron ambos cuadros a una hiperactividad colinérgica y a cambios en el equilibrio entre dopamina y acetilcolina en los ganglios basales. En la práctica, la aparición de movimientos involuntarios durante una reducción no indica por sí sola una discinesia tardía permanente, pero obliga a explorar con una escala estandarizada, a seguir la evolución y, si persisten, a replantear el tratamiento; el manejo de la discinesia tardía establecida se aborda en las fichas correspondientes. La retirada de fármacos con acción anticolinérgica marcada, como la clozapina o algunos antipsicóticos de baja potencia, puede producir además síntomas de rebote colinérgico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "discin_tard"
+       ],
+       "t": "discinesia tardía"
+      },
+      {
+       "ids": [
+        "vmat2_td"
+       ],
+       "t": "tratamiento de la discinesia tardía"
+      },
+      {
+       "ids": [
+        "escalas_motor"
+       ],
+       "t": "escalas de movimientos anormales"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leucht S et al. (2012). Antipsychotic drugs versus placebo for relapse prevention in schizophrenia: a systematic review and meta-analysis. Lancet 379:2063-2071 · PMID 22560607",
+    "Wunderink L et al. (2007). Guided discontinuation versus maintenance treatment in remitted first-episode psychosis: relapse rates and functional outcome. J Clin Psychiatry 68:654-661 · PMID 17503973",
+    "Wunderink L et al. (2013). Recovery in remitted first-episode psychosis at 7 years of follow-up of an early dose reduction/discontinuation or maintenance treatment strategy: long-term follow-up of a 2-year randomized clinical trial. JAMA Psychiatry 70:913-920 · PMID 23824214",
+    "Moncrieff J et al. (2023). Antipsychotic dose reduction and discontinuation versus maintenance treatment in people with schizophrenia and other recurrent psychotic disorders in England (the RADAR trial): an open, parallel-group, randomised controlled trial. Lancet Psychiatry 10:848-859 · PMID 37778356",
+    "Horowitz MA et al. (2021). A method for tapering antipsychotic treatment that may minimize the risk of relapse. Schizophr Bull 47:1116-1129 · PMID 33754644",
+    "Chouinard G et al. (2017). Antipsychotic-induced dopamine supersensitivity psychosis: pharmacology, criteria, and therapy. Psychother Psychosom 86:189-219 · PMID 28647739",
+    "Gardos G, Cole JO & Tarsy D (1978). Withdrawal syndromes associated with antipsychotic drugs. Am J Psychiatry 135:1321-1324 · PMID 30287",
+    "NICE (2014). Psychosis and schizophrenia in adults: prevention and management. Clinical guideline CG178 (última actualización de 2026), recomendaciones 1.4.6.3-1.4.6.5; nice.org.uk; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "esq",
+    "pep",
+    "cloz",
+    "ap_atipicos",
+    "ap_tipicos",
+    "ap_lai",
+    "d2_block",
+    "discin_tard",
+    "vmat2_td",
+    "escalas_motor",
+    "adher",
+    "dialogo_abierto",
+    "discont_ad"
+   ]
+  },
+  {
+   "id": "miocarditis_cloz",
+   "n": "Miocarditis y miocardiopatía por clozapina",
+   "ab": "Miocarditis clozapina",
+   "al": [
+    "miocarditis inducida por clozapina",
+    "carditis por clozapina",
+    "miocardiopatía por clozapina",
+    "protocolo de Ronaldson",
+    "clozapine-induced myocarditis"
+   ],
+   "k": "con",
+   "vw": "ter",
+   "sp": "ap",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2011,
+   "tags": [
+    "risk",
+    "emerg"
+   ],
+   "cie": [
+    "BC42"
+   ],
+   "desc": "Reacción adversa cardiaca grave y precoz de la clozapina (calendario general de seguridad en «clozapina_monit»). La miocarditis aparece típicamente en las primeras semanas: en la serie australiana de Kilian et al. (1999), todos los casos de miocarditis surgieron en las 3 primeras semanas, mientras que la miocardiopatía se diagnosticó hasta 36 meses después del inicio; las necropsias mostraban sobre todo infiltrados eosinofílicos con miocitólisis, compatibles con una reacción aguda de hipersensibilidad. En el estudio de casos y controles de Ronaldson et al. (2011), el inicio se situó entre los días 10 y 33, con el 83 % entre los días 14 y 21. La clínica es inespecífica (fiebre, síntomas gripales, taquicardia, disnea, dolor torácico), por lo que el diagnóstico se apoya en biomarcadores (troponina y proteína C reactiva) y en la ecocardiografía. La ficha técnica de Leponex (4.4) pide sospecharla ante taquicardia persistente en reposo, sobre todo en los dos primeros meses, interrumpir rápidamente el tratamiento y remitir al cardiólogo, y prohíbe la reexposición. Los factores de riesgo descritos incluyen la titulación rápida, el valproato concomitante y la mayor edad (Ronaldson 2012).",
+   "feats": [
+    "Cronología: miocarditis en las primeras semanas (inicio entre los días 10 y 33, el 83 % entre los días 14 y 21; Ronaldson 2011) frente a miocardiopatía más tardía, diagnosticada hasta 36 meses después del inicio (Kilian 1999)",
+    "Protocolo de Ronaldson (2011): troponina I o T, PCR y ecocardiograma basales; troponina y PCR los días 7, 14, 21 y 28; si hay elevación leve, taquicardia persistente o signos de infección, determinaciones diarias; suspender si la troponina supera el doble del límite superior normal o la PCR supera 100 mg/L; sensibilidad estimada del 100 % para la miocarditis sintomática",
+    "Factores de riesgo en 105 casos y 296 controles (Ronaldson 2012): titulación rápida durante los primeros nueve días, valproato sódico concomitante (OR 2,59; IC 95 % 1,51-4,42) y cada década de edad (OR 1,31); 33 de los 105 casos no presentaban ninguno de estos factores (titulación por debajo del umbral analizado, sin valproato y edad inferior a 40 años)",
+    "Ficha técnica de Leponex (n.º de registro 59547), 4.4: riesgo mayor en los dos primeros meses, también pericarditis, derrame pericárdico y miocardiopatía, algunos mortales; sospechar ante taquicardia persistente en reposo, palpitaciones, arritmias, dolor torácico, signos de insuficiencia cardiaca o síntomas similares a un infarto; no reexponer",
+    "Ficha técnica de Leponex, 4.5 y 4.8: el ácido valproico concomitante puede aumentar el riesgo de neutropenia y de miocarditis; en torno al 14 % de las miocarditis se acompañaron de eosinofilia, sin que se sepa si esta la predice de forma fiable",
+    "Presentación (revisión de 82 artículos; Bellissima 2018): el 87 % desarrolló signos en el primer mes; disnea (67 %), fiebre (67 %) y taquicardia (58 %); marcadores cardiacos elevados en el 87 % de los casos con datos; disfunción ventricular global como hallazgo ecocardiográfico predominante (57 %)"
+   ],
+   "tx": "Antes de iniciar: anamnesis cardiológica, ECG y, según el protocolo local, troponina, PCR y ecocardiograma basales. Titulación lenta según la ficha técnica y, si es clínicamente posible, evitar el valproato durante la titulación (Ronaldson 2012). Vigilancia activa de troponina y PCR durante las 4 primeras semanas, con exploración de la frecuencia cardiaca, la temperatura y los síntomas. Ante sospecha: suspender la clozapina sin demora y remitir urgentemente a cardiología (ficha técnica de Leponex, 4.4); descartar otras causas de miocarditis. Tras una miocarditis o miocardiopatía inducidas por clozapina, la ficha técnica establece que no debe reexponerse al fármaco (4.4); cualquier excepción solo cabe en un equipo multidisciplinar experto, con consentimiento informado y documentación detallada, como uso fuera de las condiciones de la ficha. Notificar el caso al Sistema Español de Farmacovigilancia.",
+   "note": "Las cifras de incidencia varían mucho según el país y la intensidad de la vigilancia: en las notificaciones australianas de 1993-2003, la incidencia estimada fue del 0,7 al 1,2 % (Haas 2007), muy superior a la de otros registros, lo que sugiere tanto infradetección en otros países como sesgo de observación (véase el metaanálisis de Siskind 2020 en «clozapina_monit»). El protocolo de Ronaldson procede de un estudio retrospectivo en un único país; su sensibilidad para la enfermedad asintomática se desconoce y no ha sido validado de forma prospectiva independiente [fuente no localizada]. Las recomendaciones de monitorización varían ampliamente entre autores y el cribado preventivo es controvertido por su coste y porque puede convertirse en barrera para indicar el fármaco (Knoph 2018). La reexposición se conoce solo por casos publicados, con riesgo de sesgo de publicación.",
+   "sec": [
+    {
+     "t": "Protocolo de monitorización con troponina y PCR",
+     "x": "Ronaldson et al. (2011) revisaron 75 casos de miocarditis relacionada con clozapina (9 mortales) y 94 controles que llevaban al menos 45 días con el fármaco sin cardiopatía. El 90 % de los casos tenía una troponina de al menos el doble del límite superior normal, aunque 5 casos presentaron una PCR superior a 100 mg/L y disfunción ventricular izquierda en la ecocardiografía sin elevación clínicamente significativa de la troponina; de ahí la combinación de ambos marcadores. El protocolo propuesto recomienda troponina, PCR y ecocardiograma basales y troponina y PCR en los días 7, 14, 21 y 28; ante una elevación leve de cualquiera de ellos, una frecuencia cardiaca persistentemente alta o signos de infección, determinaciones diarias hasta la resolución; y suspender la clozapina si la troponina supera el doble del límite superior normal o la PCR supera 100 mg/L. Los autores destacan que el protocolo favorece continuar el tratamiento ante una enfermedad leve y fija un umbral claro de suspensión. La revisión sistemática de Knoph et al. (2018; 144 artículos) constató una gran variabilidad en las recomendaciones y un único acuerdo unánime: suspender y consultar con cardiología ante la sospecha.",
+     "links": [
+      {
+       "ids": [
+        "clozapina_monit"
+       ],
+       "t": "calendario general de seguridad de la clozapina"
+      },
+      {
+       "ids": [
+        "clozapina"
+       ],
+       "t": "clozapina"
+      }
+     ]
+    },
+    {
+     "t": "Factores de riesgo, mecanismo y diagnóstico diferencial",
+     "x": "En el estudio de casos y controles de Ronaldson et al. (2012; 105 casos y 296 controles), una titulación más rápida en los primeros nueve días, el valproato sódico concomitante, que más que duplicó el riesgo, y la mayor edad se asociaron de forma independiente a la miocarditis; los autores recomiendan iniciar con titulación lenta, evitar el valproato durante ese periodo si es clínicamente posible y vigilar a todas las personas hasta el día 28. La ficha técnica de Leponex recoge igualmente que la combinación con ácido valproico puede aumentar el riesgo de miocarditis. Los infiltrados eosinofílicos con miocitólisis descritos en las necropsias de la serie de Kilian et al. (1999) apoyan un mecanismo de hipersensibilidad, y la ficha técnica recoge eosinofilia en una minoría de casos. Como los síntomas son inespecíficos y coinciden con la fiebre benigna transitoria del inicio de la clozapina, con infecciones intercurrentes o con la taquicardia sinusal frecuente con este fármaco, el diagnóstico exige integrar biomarcadores, ECG y ecocardiografía, y descartar otras causas de miocarditis antes de atribuirla al fármaco (Bellissima 2018).",
+     "links": [
+      {
+       "ids": [
+        "vpa_bip"
+       ],
+       "t": "valproato"
+      },
+      {
+       "ids": [
+        "hla_clozapina"
+       ],
+       "t": "otra reacción inmunoalérgica: agranulocitosis"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "otros riesgos cardiacos de los psicofármacos"
+      }
+     ]
+    },
+    {
+     "t": "Reexposición tras miocarditis y balance beneficio-riesgo",
+     "x": "La ficha técnica de Leponex establece que las personas con miocarditis o miocardiopatía inducidas por clozapina no deben ser reexpuestas, y entre sus contraindicaciones (4.3) figuran los trastornos cardiacos graves, con la miocarditis como ejemplo. La literatura describe, sin embargo, reexposiciones excepcionales motivadas por la ausencia de alternativas en la esquizofrenia resistente. En la revisión sistemática de casos publicados de Richardson et al. (2021; 180 casos de 88 artículos), los varones superaban a las mujeres en una proporción de 6 a 1, menos de la mitad referían dolor torácico (35 %) o síntomas gripales (43 %) y el 87 % tenía elevación de troponina o PCR; se intentó la reexposición en 34 casos, con éxito en 22 (64,7 %) y una muerte, sin marcadores que predijeran el resultado. En la serie de Noël et al. (2019), los tres pacientes reexpuestos tuvieron que suspender de nuevo por sospecha de miocarditis; los autores proponen, si se plantea, educación, titulación lenta, monitorización estrecha y enfoque multidisciplinar. Estos datos, con riesgo de sesgo de publicación, no modifican la contraindicación de la ficha técnica: cualquier reexposición constituye un uso fuera de sus condiciones que exige consentimiento informado y documentación cuidadosa, también desde el punto de vista médico-legal.",
+     "links": [
+      {
+       "ids": [
+        "cloz"
+       ],
+       "t": "esquizofrenia resistente"
+      },
+      {
+       "ids": [
+        "kane_hit"
+       ],
+       "t": "eficacia de la clozapina en la esquizofrenia resistente"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Ronaldson KJ et al. (2011). A new monitoring protocol for clozapine-induced myocarditis based on an analysis of 75 cases and 94 controls. Aust N Z J Psychiatry 45:458-465 · PMID 21524186",
+    "Ronaldson KJ et al. (2012). Rapid clozapine dose titration and concomitant sodium valproate increase the risk of myocarditis with clozapine: a case-control study. Schizophr Res 141:173-178 · PMID 23010488",
+    "Kilian JG et al. (1999). Myocarditis and cardiomyopathy associated with clozapine. Lancet 354:1841-1845 · PMID 10584719",
+    "Haas SJ et al. (2007). Clozapine-associated myocarditis: a review of 116 cases of suspected myocarditis associated with the use of clozapine in Australia during 1993-2003. Drug Saf 30:47-57 · PMID 17194170",
+    "Bellissima BL et al. (2018). A systematic review of clozapine-induced myocarditis. Int J Cardiol 259:122-129 · PMID 29579587",
+    "Knoph KN et al. (2018). Clozapine-induced cardiomyopathy and myocarditis monitoring: a systematic review. Schizophr Res 199:17-30 · PMID 29548760",
+    "Richardson N et al. (2021). Clozapine-induced myocarditis and patient outcomes after drug rechallenge following myocarditis: a systematic case review. Psychiatry Res 305:114247 · PMID 34715441",
+    "Noël MC et al. (2019). Clozapine-related myocarditis and rechallenge: a case series and clinical review. J Clin Psychopharmacol 39:380-385 · PMID 31205188",
+    "AEMPS-CIMA (2026). Ficha técnica de Leponex 100 mg comprimidos (n.º de registro 59547), apartados 4.3, 4.4, 4.5 y 4.8; revisión del texto de febrero de 2026; consulta de noviembre de 2026"
+   ],
+   "rel": [
+    "clozapina",
+    "clozapina_monit",
+    "cloz",
+    "hla_clozapina",
+    "kane_hit",
+    "vpa_bip",
+    "esq",
+    "qt_psicof",
+    "cardio_dep",
+    "ap_atipicos"
+   ]
+  }
+ ]
+}

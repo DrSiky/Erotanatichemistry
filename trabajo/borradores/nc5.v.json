@@ -1,0 +1,565 @@
+{
+ "patch": {
+  "interv_fam": {
+   "secAdd": [
+    {
+     "t": "Modelos clásicos: Leff, Falloon y McFarlane",
+     "x": "Tres ensayos fundacionales definieron los formatos de la intervención familiar en la esquizofrenia, siempre combinada con antipsicóticos de mantenimiento. Leff et al. (1982) seleccionaron a 24 pacientes en contacto estrecho con familiares de alta emoción expresada y asignaron la mitad a atención ambulatoria habitual y la otra mitad a un paquete de intervención social con educación sobre la esquizofrenia, un grupo de familiares y sesiones familiares conjuntas: la recaída fue del 50 % frente al 9 %. En el modelo conductual de Falloon et al. (1982), con sesiones en el domicilio centradas en la comprensión del trastorno y el entrenamiento en resolución de problemas, recayó a los nueve meses 1 de los 18 pacientes tratados con la familia, frente a 8 de los 18 con atención individual de apoyo en la clínica, con 0,83 frente a 8,39 días de hospitalización. McFarlane et al. (1995) compararon en seis hospitales públicos de Nueva York la psicoeducación en grupos multifamiliares con la psicoeducación unifamiliar en 172 pacientes con un episodio psicótico agudo: la recaída acumulada a dos años fue del 16 % frente al 27 %, con mayor diferencia en quienes no habían remitido al alta (13 % frente a 33 %), y ambas modalidades redujeron por igual los reingresos y los síntomas.",
+     "links": [
+      {
+       "ids": [
+        "emoc_expr"
+       ],
+       "t": "Emoción expresada"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "Esquizofrenia"
+      }
+     ]
+    },
+    {
+     "t": "Intervención familiar en la psicosis temprana",
+     "x": "Los resultados de la intervención familiar en los primeros episodios eran inconsistentes hasta el metaanálisis de Claxton, Onwumere y Fornells-Ambrojo (2017; 17 artículos de 14 estudios con grupo de comparación, calidad global moderada). La intervención familiar mejoró el funcionamiento de la persona atendida y redujo la probabilidad de recaída al final del tratamiento; los síntomas psicóticos disminuyeron en el seguimiento, no al final del tratamiento. En cuanto a los mecanismos, las personas cuidadoras que la recibieron pasaron con más frecuencia de alta a baja emoción expresada y refirieron menos críticas centradas en el paciente o la paciente y menos comunicación conflictiva; la carga y el bienestar de las personas cuidadoras mejoraron al final del tratamiento sin mantenerse en el seguimiento, y no hubo efecto sobre la sobreimplicación emocional. Los autores señalan que falta establecer qué componentes son eficaces y para quién. Este dato complementa la recomendación de NICE de ofrecerla en el primer episodio y su integración en los programas de intervención temprana. En modelos de red como el diálogo abierto, la familia y la red social participan desde la primera reunión, aunque con un objetivo dialógico y no psicoeducativo.",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "psicpref"
+       ],
+       "t": "Primer episodio e intervención temprana"
+      },
+      {
+       "ids": [
+        "dialogo_abierto"
+       ],
+       "t": "Diálogo abierto"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Leff J et al. (1982). A controlled trial of social intervention in the families of schizophrenic patients. Br J Psychiatry 141:121-134 · PMID 7116051",
+    "Falloon IR et al. (1982). Family management in the prevention of exacerbations of schizophrenia: a controlled study. N Engl J Med 306:1437-1440 · PMID 6123079",
+    "McFarlane WR et al. (1995). Multiple-family groups and psychoeducation in the treatment of schizophrenia. Arch Gen Psychiatry 52:679-687 · PMID 7632121",
+    "Claxton M, Onwumere J & Fornells-Ambrojo M (2017). Do family interventions improve outcomes in early psychosis? A systematic review and meta-analysis. Front Psychol 8:371 · PMID 28396643"
+   ],
+   "relAdd": [
+    "dialogo_abierto",
+    "apoyo_pares",
+    "pep"
+   ]
+  },
+  "cocaina": {
+   "relAdd": [
+    "manejo_conting"
+   ]
+  },
+  "metanf": {
+   "relAdd": [
+    "manejo_conting"
+   ]
+  },
+  "anfetaminas": {
+   "relAdd": [
+    "manejo_conting"
+   ]
+  },
+  "chemsex_atencion": {
+   "relAdd": [
+    "manejo_conting",
+    "apoyo_pares"
+   ]
+  },
+  "red_danos": {
+   "relAdd": [
+    "manejo_conting",
+    "apoyo_pares"
+   ]
+  },
+  "entrev_motiv": {
+   "relAdd": [
+    "manejo_conting",
+    "apoyo_pares"
+   ]
+  },
+  "recovery": {
+   "relAdd": [
+    "apoyo_pares",
+    "dialogo_abierto"
+   ]
+  },
+  "ips_empleo": {
+   "relAdd": [
+    "apoyo_pares"
+   ]
+  },
+  "alcohol": {
+   "relAdd": [
+    "apoyo_pares"
+   ]
+  },
+  "pep": {
+   "relAdd": [
+    "dialogo_abierto"
+   ]
+  },
+  "estigma": {
+   "relAdd": [
+    "dialogo_abierto"
+   ]
+  },
+  "psicpref": {
+   "relAdd": [
+    "dialogo_abierto"
+   ]
+  },
+  "laing_hit": {
+   "relAdd": [
+    "dialogo_abierto"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "manejo_conting",
+   "n": "Manejo de contingencias en los trastornos por consumo de sustancias",
+   "ab": "Manejo contingencias",
+   "al": [
+    "MC",
+    "contingency management",
+    "incentivos por abstinencia",
+    "vales (vouchers)"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "tcc",
+   "ring": 1,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "meta",
+   "y": 1991,
+   "tags": [
+    "chemsex",
+    "lgtbi"
+   ],
+   "desc": "Intervención conductual de base operante que entrega reforzadores tangibles (vales canjeables, premios o dinero) de forma inmediata y contingente a la verificación objetiva de una conducta objetivo, casi siempre la abstinencia comprobada en orina o aire espirado, y los retira cuando la conducta no se produce. Es la intervención psicosocial con efecto más consistente en los trastornos por consumo de estimulantes (cocaína, anfetamina y metanfetamina), para los que no hay fármaco aprobado (en la cocaína, ni en Estados Unidos ni en Europa: Bentzley 2021), y se ha aplicado a hombres gais y bisexuales que consumen metanfetamina y en contextos de chemsex. Su efecto se concentra en el periodo en que se aplica y tiende a atenuarse al retirarlo.",
+   "feats": [
+    "Principio operante: reforzador inmediato, frecuente y contingente a una conducta verificada objetivamente (análisis de orina o aire espirado); la ausencia de la conducta implica no recibir el reforzador y, en el sistema de premios, reiniciar la escala (Roll 2006)",
+    "Procedimientos: manejo de contingencias combinado con el enfoque de refuerzo comunitario (Higgins 1991) y sistema de premios por sorteo, con extracciones crecientes de fichas, algunas canjeables por premios, que se reinician ante una muestra positiva o ausente (Roll 2006)",
+    "Metaanálisis de Prendergast (2006; 47 comparaciones): efecto medio d = 0,42, mayor en opiáceos (0,65) y cocaína (0,66) que en tabaco (0,31), y decreciente tras finalizar el tratamiento",
+    "Cocaína: en 157 estudios (15.842 participantes), solo los programas de manejo de contingencias se asociaron a más muestras negativas (OR 2,13; IC 95 % 1,62-2,80) (Bentzley 2021)",
+    "Cocaína y anfetaminas: el manejo de contingencias con refuerzo comunitario fue la única intervención superior al tratamiento habitual al final del tratamiento (OR 2,84) y en el seguimiento más largo (OR 3,08) (De Crescenzo 2018)",
+    "Metanfetamina: 20 de 21 estudios con datos de abstinencia mostraron efecto y 7 de 9 redujeron conductas sexuales de riesgo; la eficacia se ha demostrado también en estudios restringidos a hombres que tienen sexo con hombres (Brown y DeFulio 2020)",
+    "España: los ensayos del grupo de la Universidad de Oviedo mostraron mejor retención y abstinencia de cocaína al añadir vales al refuerzo comunitario en centros ambulatorios públicos, sin implantación rutinaria posterior (Secades-Villa 2015)"
+   ],
+   "tx": "Se aplica como componente de un programa ambulatorio (refuerzo comunitario, TCC, entrevista motivacional, reducción de daños), con objetivo conductual concreto y verificable, calendario fijo de controles, reforzador inmediato y escalonado, reinicio tras muestras positivas o ausencias, y plan de mantenimiento al retirar los incentivos. No requiere abstinencia previa y es compatible con el tratamiento farmacológico de la comorbilidad.",
+   "note": "La evidencia procede sobre todo de Estados Unidos y de ensayos con duración de 12 a 24 semanas; el efecto declina tras retirar los incentivos (Prendergast 2006) y en el ensayo de Shoptaw (2005) las diferencias entre grupos desaparecieron en el seguimiento. No hay ensayos aleatorizados específicos de chemsex con policonsumo de GHB/GBL y catinonas: la extrapolación procede de estudios con metanfetamina en hombres que tienen sexo con hombres. La magnitud del efecto disminuyó en estudios más recientes y con menor implicación investigadora (Prendergast 2006).",
+   "sec": [
+    {
+     "t": "Fundamentos y procedimiento",
+     "x": "El manejo de contingencias aplica el condicionamiento operante: el consumo se mantiene en parte por el refuerzo inmediato de la sustancia, y se compite con él mediante reforzadores alternativos entregados de forma inmediata cuando se verifica la abstinencia u otra conducta objetivo (asistencia, adherencia a la medicación). Higgins et al. (1991) describieron en Vermont un programa ambulatorio para la dependencia de cocaína que combinaba procedimientos de manejo de contingencias con el enfoque de refuerzo comunitario, en el formato clásico de vales canjeables por bienes y servicios, de valor creciente con cada muestra negativa consecutiva y reiniciado tras una positiva [fuente no localizada]; en este estudio piloto, 10 de 13 pacientes lograron cuatro semanas de abstinencia continuada, frente a 3 de 12 con asesoramiento de 12 pasos. Para abaratarlo se desarrolló el sistema de premios por sorteo, en el que cada muestra negativa da derecho a extraer fichas, algunas canjeables por premios, con número creciente de extracciones y reinicio ante una muestra positiva o ausente (Roll 2006). Los elementos que se consideran determinantes de su eficacia son la verificación objetiva, la inmediatez, la frecuencia de los controles y la magnitud del reforzador [fuente no localizada]; con todo, sigue siendo una intervención controvertida y rara vez implantada en la práctica (Petry 2017).",
+     "links": [
+      {
+       "ids": [
+        "cocaina",
+        "anfetaminas",
+        "metanf"
+       ],
+       "t": "Trastornos por consumo de estimulantes"
+      },
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "Trastornos por consumo de sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia en estimulantes",
+     "x": "En el metaanálisis de Prendergast et al. (2006; 47 comparaciones, 1970-2002), el efecto medio fue d = 0,42, mayor en opiáceos y cocaína y menor en tabaco, y disminuyó tras finalizar el tratamiento. En cocaína, Bentzley et al. (2021; 157 estudios, 15.842 participantes) agruparon los tratamientos en once categorías (psicoterapia, manejo de contingencias, placebo, siete grupos farmacológicos y otras terapias) y solo el manejo de contingencias se asoció a mayor probabilidad de muestra negativa (OR 2,13; IC 95 % 1,62-2,80), en todos los análisis de sensibilidad. En el metaanálisis en red de De Crescenzo et al. (2018; 50 ECA, 6.942 personas con adicción a cocaína o anfetaminas), el manejo de contingencias con refuerzo comunitario fue la única intervención superior al tratamiento habitual al final del tratamiento (OR 2,84), a las 12 semanas (OR 7,60) y en el seguimiento más largo (OR 3,08), superó a la TCC (OR 2,44) y se asoció a menos abandonos. En metanfetamina, el ensayo multicéntrico de Roll et al. (2006; 113 participantes) obtuvo más muestras negativas y periodos de abstinencia más largos (5 frente a 3 semanas) con premios por sorteo añadidos al tratamiento habitual, y la revisión sistemática de Brown y DeFulio (2020; 27 estudios) halló efecto sobre la abstinencia en 20 de 21 estudios, así como más uso de otros tratamientos y servicios médicos.",
+     "links": [
+      {
+       "ids": [
+        "cocaina",
+        "anfetaminas",
+        "metanf"
+       ],
+       "t": "Cocaína, anfetamina y metanfetamina"
+      },
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "Otras intervenciones psicosociales"
+      }
+     ]
+    },
+    {
+     "t": "Manejo de contingencias en chemsex y en hombres gais y bisexuales",
+     "x": "En el ensayo de Shoptaw et al. (2005), 162 hombres gais y bisexuales con dependencia de metanfetamina en Los Ángeles se asignaron durante 16 semanas a TCC estándar, manejo de contingencias, TCC con manejo de contingencias o TCC adaptada culturalmente: las dos condiciones con incentivos superaron a la TCC estándar en retención y abstinencia durante el tratamiento, la TCC adaptada redujo antes el sexo anal receptivo sin preservativo, y las diferencias entre grupos desaparecieron en el seguimiento, con reducciones globales mantenidas al año. La revisión de Brown y DeFulio (2020) constató el efecto en estudios restringidos a hombres que tienen sexo con hombres y la reducción de conductas sexuales de riesgo en 7 de 9 estudios. En San Francisco funciona desde 2003 un programa comunitario de 12 semanas integrado con asesoramiento individual y un grupo abierto de apoyo entre iguales (Gómez 2018), y un piloto aleatorizado en Los Ángeles aplicó incentivos a la abstinencia de metanfetamina o a la adherencia a la PrEP o al tratamiento antirretroviral (Blair 2023; 19 participantes). No se han localizado ensayos en chemsex con policonsumo de GHB/GBL y catinonas, que es el patrón predominante en España [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "slam",
+        "chemsex_atencion"
+       ],
+       "t": "Chemsex y modelos de atención"
+      },
+      {
+       "ids": [
+        "red_danos",
+        "vih_ncd"
+       ],
+       "t": "Reducción de daños y VIH"
+      },
+      {
+       "ids": [
+        "mefed",
+        "catinonas_nuevas"
+       ],
+       "t": "Catinonas en el chemsex"
+      }
+     ]
+    },
+    {
+     "t": "Implantación en España, barreras y seguridad",
+     "x": "En España, el grupo de la Universidad de Oviedo evaluó el manejo de contingencias en centros ambulatorios públicos: en un ensayo con 96 personas con dependencia de cocaína, el refuerzo comunitario con vales de valor bajo o alto mejoró la retención a seis meses (53,3 % y 69,0 %, frente a 36,5 % con el tratamiento estándar) y el porcentaje de muestras negativas (García-Rodríguez 2009), y el beneficio de los vales fue independiente del nivel socioeconómico (Secades-Villa 2013). La revisión narrativa de Secades-Villa et al. (2015) confirmó su eficacia en cocaína y tabaco, no la demostró aún en cannabis en jóvenes, y señaló que no se ha incorporado a la práctica clínica general en España ni en el resto de Europa. Las barreras descritas son filosóficas (rechazo a «pagar por no consumir»), motivacionales (temor a minar la motivación intrínseca), de durabilidad y económicas (Petry 2017). No se han descrito efectos adversos clínicos propios; los riesgos son la recaída al retirar los incentivos y la vivencia punitiva de los controles si no se integran en una relación terapéutica respetuosa [fuente no localizada]. En personas LGTBIQ debe aplicarse con enfoque afirmativo y sin condicionar el acceso a la reducción de daños.",
+     "links": [
+      {
+       "ids": [
+        "cannabis_tuc",
+        "tabaco"
+       ],
+       "t": "Cannabis y tabaco"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "red_danos"
+       ],
+       "t": "Enfoque afirmativo y reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Higgins ST et al. (1991). A behavioral approach to achieving initial cocaine abstinence. Am J Psychiatry 148:1218-1224 · PMID 1883001",
+    "Prendergast M et al. (2006). Contingency management for treatment of substance use disorders: a meta-analysis. Addiction 101:1546-1560 · PMID 17034434",
+    "Roll JM et al. (2006). Contingency management for the treatment of methamphetamine use disorders. Am J Psychiatry 163:1993-1999 · PMID 17074952",
+    "Shoptaw S et al. (2005). Behavioral treatment approaches for methamphetamine dependence and HIV-related sexual risk behaviors among urban gay and bisexual men. Drug Alcohol Depend 78:125-134 · PMID 15845315",
+    "De Crescenzo F et al. (2018). Comparative efficacy and acceptability of psychosocial interventions for individuals with cocaine and amphetamine addiction: a systematic review and network meta-analysis. PLoS Med 15:e1002715 · PMID 30586362",
+    "Brown HD & DeFulio A (2020). Contingency management for the treatment of methamphetamine use disorder: a systematic review. Drug Alcohol Depend 216:108307 · PMID 33007699",
+    "Bentzley BS et al. (2021). Comparison of treatments for cocaine use disorder among adults: a systematic review and meta-analysis. JAMA Netw Open 4:e218049 · PMID 33961037",
+    "Petry NM et al. (2017). Contingency management treatment for substance use disorders: how far has it come, and where does it need to go? Psychol Addict Behav 31:897-906 · PMID 28639812",
+    "García-Rodríguez O et al. (2009). Effects of voucher-based intervention on abstinence and retention in an outpatient treatment for cocaine addiction: a randomized controlled trial. Exp Clin Psychopharmacol 17:131-138 · PMID 19586227",
+    "Secades-Villa R et al. (2013). Contingency management is effective across cocaine-dependent outpatients with different socioeconomic status. J Subst Abuse Treat 44:349-354 · PMID 22999380",
+    "Secades-Villa R, García-Rodríguez O & Fernández-Hermida JR (2015). Contingency management for substance use disorders in Spain: implications for research and practice. Prev Med 80:82-88 · PMID 26164071",
+    "Gómez W et al. (2018). Optimizing contingency management with methamphetamine-using men who have sex with men. Cogn Behav Pract 25:286-295 · PMID 32461714",
+    "Blair CS et al. (2023). Contingency management for integrated harm reduction among men who have sex with men who use methamphetamine in Los Angeles: a pilot assessment. AIDS Behav 27:1962-1971 · PMID 36414775"
+   ],
+   "rel": [
+    "cocaina",
+    "anfetaminas",
+    "metanf",
+    "tcs",
+    "chemsex_s",
+    "slam",
+    "chemsex_atencion",
+    "red_danos",
+    "entrev_motiv",
+    "mefed",
+    "catinonas_nuevas",
+    "cannabis_tuc",
+    "tabaco",
+    "lgb_afirm"
+   ]
+  },
+  {
+   "id": "dialogo_abierto",
+   "n": "Diálogo abierto (Open Dialogue) en la crisis psiquiátrica y la psicosis",
+   "ab": "Diálogo abierto",
+   "al": [
+    "Open Dialogue",
+    "OD",
+    "enfoque de red social de Laponia occidental",
+    "tratamiento adaptado a las necesidades"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "soc",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "ecr",
+   "y": 2003,
+   "tags": [
+    "cultural"
+   ],
+   "desc": "Modelo de organización de servicios y de práctica terapéutica desarrollado en Laponia occidental (Finlandia) a partir del tratamiento adaptado a las necesidades: respuesta inmediata a la crisis, reuniones de red con la persona, su familia y su red social desde el primer contacto, continuidad del mismo equipo y toma de decisiones compartida y en presencia de todos. Sus resultados iniciales en el primer episodio psicótico, con menos hospitalización, menos uso de antipsicóticos y menos pensiones por incapacidad, proceden de estudios observacionales sin aleatorización. El primer ensayo aleatorizado por conglomerados (ODDESSI, Inglaterra) no redujo el tiempo hasta la recaída, aunque disminuyó los ingresos y mejoró los resultados referidos por las personas atendidas.",
+   "feats": [
+    "Primera reunión de tratamiento en las 24 horas siguientes al contacto, con la red social de la persona; todos los aspectos se analizan y planifican con todos presentes (Seikkula 2002)",
+    "Principios terapéuticos o «poética» según Seikkula y Olson (2003): tolerancia a la incertidumbre, dialogismo y polifonía en las redes sociales, sostenidos por prácticas institucionales del tratamiento adaptado a las necesidades finlandés",
+    "Seguimiento observacional a dos años del primer episodio de esquizofrenia en Laponia occidental: hospitalización media de unos 19 días, antipsicóticos en el 35 % y pensión por incapacidad en el 23 % (Seikkula y Olson 2003)",
+    "Cohorte de registro a 19 años (108 frente a 1.763 personas con primer episodio psicótico): menos días de hospitalización, menos pensiones por incapacidad y menor necesidad de antipsicóticos, sin diferencias en las muertes por suicidio (Bergström 2018)",
+    "Revisión sistemática de Freeman (2019; 23 estudios): calidad baja y alto riesgo de sesgo, sin conclusiones posibles sobre su eficacia en la psicosis",
+    "ODDESSI (Pilling 2026; 494 participantes en crisis, 30 conglomerados): sin diferencias en el tiempo hasta la primera recaída (HR 0,95; IC 95 % 0,67-1,32), con menos ingresos y re-derivaciones y mejor recuperación autopercibida, calidad de vida y satisfacción"
+   ],
+   "tx": "Respuesta en las primeras 24 horas a la petición de ayuda, reuniones de red con la persona y quienes ella elija (familia, pareja, amistades, familia elegida y otros profesionales), dos o más profesionales estables a lo largo de todo el proceso, decisiones terapéuticas, incluida la medicación, tomadas en la reunión, y tolerancia a la incertidumbre en lugar de cierres diagnósticos precipitados. No excluye el tratamiento antipsicótico ni el ingreso cuando son necesarios.",
+   "note": "La evidencia favorable a largo plazo procede de cohortes observacionales de una única región finlandesa con baja población y un sistema asistencial particular, y la revisión de Freeman (2019) las considera de alto riesgo de sesgo. El único ensayo aleatorizado (ODDESSI) fue negativo en su resultado primario y positivo en varios secundarios, cuya interpretación ha sido objeto de debate (Jauhar 2026; cartas y respuesta de los autores en Lancet Psychiatry 2026: Pilling y Landau 2026). No hay datos sobre su eficacia diferencial en personas LGTBIQ ni estudios publicados de implantación en España [fuente no localizada]. Las cifras de menor uso de antipsicóticos no son trasladables a otros contextos ni justifican retirar un tratamiento indicado.",
+   "sec": [
+    {
+     "t": "Origen y principios",
+     "x": "El diálogo abierto surgió en la década de 1980 en el hospital de Keropudas (Tornio, Laponia occidental) como desarrollo del tratamiento adaptado a las necesidades de Yrjö Alanen, y fue formulado por Jaakko Seikkula y colaboradores [fuente no localizada]. Combina una organización de servicios y un estilo de conversación terapéutica. En lo organizativo, la primera reunión de tratamiento se celebra dentro de las 24 horas siguientes al contacto e incluye a la red social de la persona, y todos los asuntos se analizan y planifican con todas las personas presentes (Seikkula 2002); se describen además como principios la perspectiva de red social, la flexibilidad y movilidad (incluidas las visitas domiciliarias), la responsabilidad del equipo que recibe la llamada y la continuidad psicológica del mismo equipo [fuente no localizada]. En lo terapéutico, Seikkula y Olson (2003) describieron tres principios, inspirados en el dialogismo de Bajtín y en la tradición batesoniana: la tolerancia a la incertidumbre, el dialogismo y la polifonía en las redes sociales. El objetivo es generar en la reunión un diálogo que permita poner palabras a experiencias que se expresan en los síntomas psicóticos, sin buscar un consenso forzado (Seikkula 2002).",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "esq"
+       ],
+       "t": "Primer episodio psicótico y esquizofrenia"
+      },
+      {
+       "ids": [
+        "laing_hit"
+       ],
+       "t": "Antecedentes en la psicoterapia de la psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Resultados observacionales y revisiones",
+     "x": "En un seguimiento no aleatorizado a dos años del primer episodio de esquizofrenia, la hospitalización media fue de unos 19 días, el 35 % necesitó antipsicóticos, el 82 % no tenía síntomas psicóticos o solo leves, y el 23 % recibía pensión por incapacidad (Seikkula y Olson 2003). El estudio de cohortes de registro de Bergström et al. (2018) comparó durante unos 19 años a las 108 personas con primer episodio psicótico atendidas con este modelo con las 1.763 tratadas en otros servicios especializados finlandeses: no hubo diferencias en la incidencia, el diagnóstico ni las tasas de muerte por suicidio, y fueron significativamente menores la duración de la hospitalización, las pensiones por incapacidad y la necesidad de antipsicóticos; los autores advierten que, por ser observacional, se necesitan ensayos. La revisión sistemática de Freeman et al. (2019; 23 estudios de diseño mixto, cualitativo, cuantitativo o de casos) concluyó que los estudios cuantitativos carecían de rigor metodológico y presentaban alto riesgo de sesgo, que la variación entre modelos y la heterogeneidad de resultados impedían conclusiones sobre eficacia y que la evidencia era de baja calidad. La revisión exploratoria de Buus et al. (2021; 18 estudios) sobre implantación describió barreras estructurales y organizativas y resistencias, además de temas de formación y experiencias de familias y personal, y la escasa descripción de los contextos impidió concluir qué prácticas de implantación son eficaces.",
+     "links": [
+      {
+       "ids": [
+        "pep",
+        "ap_atipicos"
+       ],
+       "t": "Primer episodio y uso de antipsicóticos"
+      },
+      {
+       "ids": [
+        "psicpref"
+       ],
+       "t": "Programas de intervención temprana en psicosis"
+      }
+     ]
+    },
+    {
+     "t": "El ensayo ODDESSI",
+     "x": "ODDESSI fue un ensayo multicéntrico, aleatorizado por conglomerados de centros de atención primaria, que comparó el diálogo abierto con el tratamiento habitual por equipos funcionales en adultos que consultaban en crisis a los servicios comunitarios de salud mental de cinco organizaciones (trusts) del Servicio Nacional de Salud de Londres y el sur de Inglaterra, tras la retirada de una sexta (protocolo: Pilling 2022). Entre 2019 y 2021 se incluyeron 494 participantes (30 conglomerados; edad media 38,1 años; 54 % de género femenino); el resultado primario fue el tiempo hasta la primera recaída tras la recuperación de la crisis índice, con seguimiento de dos años. No hubo diferencias en el resultado primario (HR marginal 0,95; IC 95 % 0,67-1,32). En los secundarios, el diálogo abierto se asoció a menor probabilidad de ingreso psiquiátrico y de nueva derivación a crisis o a servicios especializados, y a mejor recuperación autopercibida, calidad de vida relacionada con la salud y satisfacción, sin diferencias en la calidad ni en el tamaño de la red social y sin problemas de seguridad relevantes (Pilling 2026). La interpretación de unos resultados secundarios favorables frente a un resultado primario negativo ha sido objeto de un comentario editorial (Jauhar 2026) y de varias cartas en la misma revista, con respuesta de los autores (Pilling y Landau 2026); ninguno de estos textos tiene resumen en PubMed, por lo que aquí no se resume su contenido.",
+     "links": [
+      {
+       "ids": [
+        "recovery"
+       ],
+       "t": "Recuperación autopercibida"
+      },
+      {
+       "ids": [
+        "interv_fam"
+       ],
+       "t": "Intervención familiar en la psicosis"
+      }
+     ]
+    },
+    {
+     "t": "Indicaciones, límites y perspectiva de derechos",
+     "x": "El modelo se ha aplicado a crisis psiquiátricas graves de distintos diagnósticos, no solo a la psicosis, y en ODDESSI se evaluó con criterio transdiagnóstico (Pilling 2026). Se ha argumentado que se alinea con la Convención sobre los Derechos de las Personas con Discapacidad por su carácter poco institucional, su atención a las diferencias de poder y su potencial para prevenir la coerción (von Peter 2019, artículo conceptual sin datos de resultado). Límites: exige formación prolongada del personal (un año en ODDESSI) y cambios organizativos, que chocan con la prestación simultánea de la atención convencional (Anestis 2024); los resultados finlandeses no se han replicado en un ensayo, y no debe presentarse como alternativa a los antipsicóticos cuando estos están indicados. En la práctica requiere respetar quién forma parte de la red según la persona, incluida la familia elegida y la pareja en personas LGTBIQ, y valorar el riesgo cuando la familia es fuente de violencia; en las familias con violencia se han descrito evoluciones buenas y malas según la calidad dialógica de las reuniones (Seikkula 2002).",
+     "links": [
+      {
+       "ids": [
+        "crpd",
+        "estigma"
+       ],
+       "t": "Derechos y estigma"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "emoc_expr"
+       ],
+       "t": "Familia elegida y clima familiar"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Seikkula J (2002). Open dialogues with good and poor outcomes for psychotic crises: examples from families with violence. J Marital Fam Ther 28:263-274 · PMID 12197148",
+    "Seikkula J & Olson ME (2003). The open dialogue approach to acute psychosis: its poetics and micropolitics. Fam Process 42:403-418 · PMID 14606203",
+    "Seikkula J et al. (2006). Five-year experience of first-episode nonaffective psychosis in open-dialogue approach: treatment principles, follow-up outcomes, and two case studies. Psychother Res 16:214-228 [no verificada]",
+    "Bergström T et al. (2018). The family-oriented open dialogue approach in the treatment of first-episode psychosis: nineteen-year outcomes. Psychiatry Res 270:168-175 · PMID 30253321",
+    "Freeman AM et al. (2019). Open Dialogue: a review of the evidence. Psychiatr Serv 70:46-59 · PMID 30332925",
+    "Buus N et al. (2021). Implementing Open Dialogue approaches: a scoping review. Fam Process 60:1117-1133 · PMID 34322874",
+    "Pilling S et al. (2022). Open Dialogue compared to treatment as usual for adults experiencing a mental health crisis: protocol for the ODDESSI multi-site cluster randomised controlled trial. Contemp Clin Trials 113:106664 · PMID 34958932",
+    "Pilling S et al. (2026). Open Dialogue versus treatment as usual for adults presenting in crisis to mental health services in England (the ODDESSI Trial): a multisite cluster-randomised trial. Lancet Psychiatry 13:841-851 · PMID 42648300",
+    "Jauhar S (2026). Open Dialogue after ODDESSI: an odyssey of enthusiasm, expectancy, and evidence. Lancet Psychiatry 13:983-984 · PMID 42710517",
+    "von Peter S et al. (2019). Open Dialogue as a human rights-aligned approach. Front Psychiatry 10:387 · PMID 31214063",
+    "Anestis E et al. (2024). Becoming an Open Dialogue practitioner: a qualitative study of practitioners' training experiences and transitioning to practice. Front Psychol 15:1432327 · PMID 39188867",
+    "Pilling S, Landau S & ODDESSI Investigators (2026). Open Dialogue: challenges in interpreting the ODDESSI trial results - Authors' reply. Lancet Psychiatry 13:987-989 · PMID 42982073"
+   ],
+   "rel": [
+    "pep",
+    "esq",
+    "interv_fam",
+    "recovery",
+    "estigma",
+    "laing_hit",
+    "crpd",
+    "psicpref",
+    "ap_atipicos",
+    "emoc_expr",
+    "lgb_afirm"
+   ]
+  },
+  {
+   "id": "apoyo_pares",
+   "n": "Apoyo mutuo y agentes de apoyo entre iguales en salud mental y adicciones",
+   "ab": "Apoyo entre iguales",
+   "al": [
+    "apoyo entre pares",
+    "peer support",
+    "trabajadores de apoyo mutuo",
+    "grupos de ayuda mutua",
+    "peer workers"
+   ],
+   "k": "tx",
+   "vw": "ter",
+   "sp": "soc",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2014,
+   "tags": [
+    "chemsex",
+    "lgtbi"
+   ],
+   "desc": "Apoyo prestado por personas con experiencia propia de un trastorno mental o de consumo de sustancias a otras que atraviesan situaciones similares, en tres formatos principales: grupos de apoyo mutuo entre iguales, servicios de apoyo entre iguales dentro de los equipos y servicios clínicos prestados por personas con experiencia propia. Sus mecanismos propuestos son la autorrevelación, el modelado de la recuperación y la relación horizontal. Los metaanálisis en trastorno mental muestran efectos modestos y no siempre consistentes sobre la esperanza, la recuperación autopercibida y el empoderamiento, sin efecto demostrado sobre los síntomas ni el uso de servicios. En chemsex existen programas comunitarios dirigidos por iguales con evaluaciones de aceptabilidad y viabilidad, sin ensayos controlados.",
+   "feats": [
+    "Tipología de Lloyd-Evans (2014): grupos de apoyo mutuo, servicios de apoyo entre iguales y servicios de salud mental prestados por iguales",
+    "Lloyd-Evans (2014; 18 ECA, 5.597 participantes): poca o ninguna evidencia de efecto sobre hospitalización, síntomas o satisfacción, y algunos efectos sobre esperanza, recuperación y empoderamiento, con alto riesgo de sesgo",
+    "White (2020; 19 ensayos, 3.329 participantes, apoyo individual): posible efecto positivo modesto sobre la recuperación autopercibida y el empoderamiento, sin impacto en síntomas clínicos ni uso de servicios",
+    "Alcohólicos Anónimos y facilitación de 12 pasos manualizada: más abstinencia continuada a 12 meses que otros tratamientos establecidos como la TCC (RR 1,21; evidencia de certeza alta) (Kelly 2020, Cochrane)",
+    "Chemsex: la intervención M3THOD de Sídney, dirigida por iguales y basada en reducción de daños, entrevista motivacional y navegación entre servicios, resultó aceptable, apropiada y viable con apoyo sólido a los agentes (Freestone 2025)",
+    "Requisitos descritos: formación, supervisión clínica, cuidado de los agentes de apoyo y vínculos estables con los servicios clínicos (Freestone 2025; Nagington y King 2022)"
+   ],
+   "tx": "Se integra en los servicios como complemento, no sustituto, del tratamiento clínico: agentes con experiencia propia formados y supervisados, funciones definidas (acompañamiento, navegación entre servicios, grupos, reducción de daños), derivación ágil a recursos clínicos ante riesgo y respeto a la confidencialidad. En adicciones incluye los grupos de ayuda mutua de 12 pasos y otros modelos, y en chemsex los grupos y el acompañamiento de entidades comunitarias LGTBIQ.",
+   "note": "Los ensayos son heterogéneos en participantes, formatos y resultados, con notificación incompleta y alto riesgo de sesgo (Lloyd-Evans 2014; White 2020); los propios autores desaconsejaron, con la evidencia de 2014, convertir el apoyo entre iguales en requisito obligatorio sin evaluación. La evidencia favorable de Alcohólicos Anónimos se refiere al trastorno por consumo de alcohol y no es extrapolable a otras sustancias. En chemsex solo hay estudios cualitativos y formativos. Los programas comunitarios españoles de chemsex no disponen de evaluaciones publicadas en revistas indexadas [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Modelos y fundamentos",
+     "x": "El apoyo entre iguales se considera parte del movimiento de personas usuarias de los servicios de salud mental desde la década de 1990, aunque Davidson et al. (2012) sitúan sus raíces en el tratamiento moral de Pussin y Pinel a finales del siglo XVIII. La revisión de Lloyd-Evans et al. (2014) distinguió tres formatos: programas de apoyo mutuo (grupos entre iguales), servicios de apoyo entre iguales (agentes con experiencia propia que acompañan a personas usuarias de los servicios) y servicios de salud mental prestados por iguales (funciones clínicas convencionales desempeñadas por personas con experiencia propia). La revisión de White et al. (2020) describió, en el apoyo individual, funciones paraclínicas (por ejemplo, gestión de casos), intervenciones conductuales estructuradas y apoyo flexible a la recuperación. Davidson et al. (2012) atribuyen el efecto a la autorrevelación positiva, el modelado de roles y la consideración condicional («conditional regard»). En adicciones, los servicios de apoyo entre iguales para la recuperación se han incorporado al tratamiento y abarcan más funciones que los grupos de ayuda mutua: ayudar a fijar metas de recuperación, elaborar un plan y mantener la recuperación (Reif 2014). El modelo forma parte de la orientación a la recuperación de los servicios.",
+     "links": [
+      {
+       "ids": [
+        "recovery",
+        "ips_empleo"
+       ],
+       "t": "Recuperación y rehabilitación psicosocial"
+      },
+      {
+       "ids": [
+        "tcs",
+        "alcohol"
+       ],
+       "t": "Trastornos por consumo"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia en salud mental y adicciones",
+     "x": "En el metaanálisis de Lloyd-Evans et al. (2014; 18 ECA, 5.597 personas con trastorno mental grave), hubo poca o ninguna evidencia de efecto sobre la hospitalización, los síntomas globales o la satisfacción con los servicios, y cierta evidencia, no consistente, de efectos sobre la esperanza, la recuperación y el empoderamiento al final de la intervención y después; los autores concluyeron que la evidencia no respaldaba exigir a los servicios programas de apoyo entre iguales sin evaluación rigurosa. La revisión de White et al. (2020; 23 publicaciones de 19 ensayos, 3.329 participantes), centrada en el apoyo individual, halló un posible efecto positivo modesto sobre la recuperación autopercibida y el empoderamiento, sin impacto en los síntomas ni en el uso de servicios, y un posible aumento del apoyo de la red social. En adicciones, la revisión de Reif et al. (2014) señaló que se necesita más investigación para separar el efecto del apoyo entre iguales del de otras actividades de apoyo a la recuperación. En el trastorno por consumo de alcohol, la revisión Cochrane de Kelly et al. (2020; 27 estudios, 10.565 participantes) encontró que Alcohólicos Anónimos y la facilitación de 12 pasos manualizada aumentan la abstinencia continuada a 12 meses frente a otros tratamientos establecidos como la TCC (RR 1,21; IC 95 % 1,03-1,42; certeza alta), con resultados similares en otros indicadores de consumo y probable ahorro de costes sanitarios.",
+     "links": [
+      {
+       "ids": [
+        "alcohol"
+       ],
+       "t": "Trastorno por consumo de alcohol"
+      },
+      {
+       "ids": [
+        "entrev_motiv"
+       ],
+       "t": "Comparadores activos en adicciones"
+      }
+     ]
+    },
+    {
+     "t": "Apoyo entre iguales en el chemsex",
+     "x": "En un estudio cualitativo longitudinal con 20 hombres gais y bisexuales del Reino Unido, el apoyo médico se percibió como tardío, útil para dejar el consumo e insuficiente para necesidades más amplias, mientras que el apoyo entre iguales, ofrecido por quienes practicaban chemsex y por quienes no, enlazaba con la tradición de apoyo mutuo de la comunidad LGTB+ y resultó muy beneficioso, aunque limitado por la vergüenza y la inestabilidad de algunas personas que lo prestaban (Nagington y King 2022). La intervención M3THOD de Sídney, dirigida por iguales para personas que usan metanfetamina cristal y GHB en contexto sexual, combinó educación en reducción de daños, entrevista motivacional y navegación entre servicios; su evaluación formativa (33 entrevistas) la consideró aceptable, apropiada y viable, observó que la experiencia propia facilitaba la relación y mitigaba la vergüenza, y condicionó su viabilidad a la formación, la supervisión clínica mensual y los circuitos de derivación (Freestone 2025). La revisión sistemática de Pozo-Herce et al. (2024; seis estudios) sugiere que los programas dirigidos por iguales pueden ser eficaces, sobre todo con facilitadores que han vivido una dependencia en el contexto del chemsex. En España, entidades comunitarias LGTBIQ ofrecen acompañamiento y grupos de apoyo entre iguales en chemsex sin evaluación publicada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_atencion",
+        "red_danos"
+       ],
+       "t": "Chemsex, atención y reducción de daños"
+      },
+      {
+       "ids": [
+        "ghb_gbl",
+        "metanf"
+       ],
+       "t": "GHB/GBL y metanfetamina"
+      }
+     ]
+    },
+    {
+     "t": "Límites, riesgos y condiciones de implantación",
+     "x": "Los ensayos disponibles son heterogéneos en participantes, contenido y resultados, con notificación incompleta y alto riesgo de sesgo, lo que dificulta evaluar intervenciones complejas (Lloyd-Evans 2014; White 2020). La experiencia cualitativa en chemsex señala como riesgos la vergüenza, la inestabilidad de quienes prestan apoyo y la falta de formación e infraestructura (Nagington y King 2022), y la de M3THOD advierte que los agentes deben trabajar con una flexibilidad estructurada que garantice la seguridad y la atención centrada en la persona, con apoyo técnico y personal (Freestone 2025). Otros riesgos descritos en la práctica son la sobrecarga y la recaída de los propios agentes, la difuminación de límites y la cooptación del rol por la lógica clínica [fuente no localizada]. El apoyo entre iguales no sustituye la valoración del riesgo suicida, de la psicosis inducida o de la sobredosis, que exige derivación inmediata. En minorías sexuales, la discriminación se asocia a más trastornos por consumo y a menor acceso a intervenciones preventivas y terapéuticas, y la revisión de Abrahão et al. (2022) recomienda iniciativas comunitarias y dirigidas por iguales junto con servicios inclusivos y no enjuiciadores; que el apoyo entre iguales reduzca el estigma anticipado hacia los servicios no se ha medido en ensayos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "estigma",
+        "lgb_afirm"
+       ],
+       "t": "Estigma y enfoque afirmativo"
+      },
+      {
+       "ids": [
+        "psust"
+       ],
+       "t": "Psicosis inducida: criterio de derivación"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Davidson L et al. (2012). Peer support among persons with severe mental illnesses: a review of evidence and experience. World Psychiatry 11:123-128 · PMID 22654945",
+    "Lloyd-Evans B et al. (2014). A systematic review and meta-analysis of randomised controlled trials of peer support for people with severe mental illness. BMC Psychiatry 14:39 · PMID 24528545",
+    "Reif S et al. (2014). Peer recovery support for individuals with substance use disorders: assessing the evidence. Psychiatr Serv 65:853-861 · PMID 24838535",
+    "White S et al. (2020). The effectiveness of one-to-one peer support in mental health services: a systematic review and meta-analysis. BMC Psychiatry 20:534 · PMID 33176729",
+    "Kelly JF, Humphreys K & Ferri M (2020). Alcoholics Anonymous and other 12-step programs for alcohol use disorder. Cochrane Database Syst Rev 3:CD012880 · PMID 32159228",
+    "Nagington M & King S (2022). Support, care and peer support for gay and bi men engaging in chemsex. Health Soc Care Community 30:e6396-e6403 · PMID 36256495",
+    "Abrahão ABB et al. (2022). The impact of discrimination on substance use disorders among sexual minorities. Int Rev Psychiatry 34:423-431 · PMID 36151837",
+    "Freestone J et al. (2025). Implementation and formative evaluation of a peer-led chemsex intervention targeting sexualised crystal methamphetamine and GHB use: the M3THOD study. Harm Reduct J 22:181 · PMID 41214669",
+    "Pozo-Herce PD et al. (2024). Effectiveness of harm reduction interventions in chemsex: a systematic review. Healthcare (Basel) 12:1411 · PMID 39057554",
+    "Gómez W et al. (2018). Optimizing contingency management with methamphetamine-using men who have sex with men. Cogn Behav Pract 25:286-295 · PMID 32461714"
+   ],
+   "rel": [
+    "recovery",
+    "ips_empleo",
+    "chemsex_atencion",
+    "red_danos",
+    "chemsex_s",
+    "alcohol",
+    "tcs",
+    "entrev_motiv",
+    "lgb_afirm",
+    "estigma",
+    "ghb_gbl",
+    "metanf",
+    "psust",
+    "manejo_conting",
+    "dialogo_abierto"
+   ]
+  }
+ ]
+}

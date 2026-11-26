@@ -1,0 +1,113 @@
+{
+ "pmid_comprobados": 7,
+ "pmid_erroneos": 0,
+ "pmid_detalle": "31084617 Claudino 2019 BMC Med 17:93 (tabla 1 cotejada en PMC6515596); 21727255 Arcelus 2011; 27025958 Sawyer 2016; 7802122 Greenfeld 1995; 33074282 Garber 2021; 12655633 Richterich 2003; 36064606 Hambleton 2022: todos coinciden en autor, año, título y revista, y respaldan lo afirmado",
+ "otras_fuentes_cotejadas": "MEED CR233 PDF oficial de rcpsych.ac.uk (actualizado en dic. 2025): tablas 1, 2, 3, 7 y 8, recs. 1 y 4, caps. 1, 2 y 4; NICE NG69 (23-05-2017, act. 16-12-2020) recs. citadas; NICE CG32 (act. 04-08-2017) rec. 1.4.6; LEC art. 763 en boe.es; tabulación CIE-11 de la OMS 2025-01",
+ "cambios": [
+  {
+   "gravedad": "mayor",
+   "donde": "Referencia OMS CIE-11 y texto del bloque 2",
+   "antes": "Códigos 6B80-6B83 marcados [fuente oficial no localizada]",
+   "despues": "Códigos 6B80-6B85 y 6B8Y cotejados en la tabulación oficial de la OMS (SimpleTabulation MMS 2025-01, descargada de icdcdn.who.int); añadidos 6B80-6B83 y 6B8Y en el texto; las CDDR siguen como [texto original no cotejado]",
+   "fuente": "icdcdn.who.int/static/releasefiles/2025-01/SimpleTabulation-ICD-11-MMS-en.zip"
+  },
+  {
+   "gravedad": "mayor",
+   "donde": "Bloque 5, fila ECG (ámbar)",
+   "antes": "Ámbar: solo «Toma de fármacos que prolongan el QTc»",
+   "despues": "Ámbar: «QTc prolongado sin otra anomalía del ECG; toma de fármacos que prolongan el QTc»; nota: la tabla 1 repite el mismo umbral de QTc en rojo y ámbar y no coincide con la tabla 2",
+   "fuente": "MEED CR233 (dic. 2025), tabla 1"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 2, fila OSFED",
+   "antes": "Enlace node:'tca_adol' (TCA de inicio en la adolescencia, no pertinente para OSFED)",
+   "despues": "Enlace retirado; rótulo «Otros especificados (OSFED; CIE-11 6B8Y)»",
+   "fuente": "node tools/q.js show tca_adol; tabulación OMS"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 2, fila OSFED",
+   "antes": "«Se tratan como el trastorno al que más se parecen»",
+   "despues": "«Considerar los tratamientos del trastorno al que más se parecen»",
+   "fuente": "NICE NG69 rec. 1.6.1 («consider using»)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 2, fila trastorno por atracón",
+   "antes": "«Descartar el aumento de la ingesta de un episodio depresivo o el efecto de fármacos: la CIE-11 los excluye»",
+   "despues": "«Descartar que los atracones se expliquen mejor por otro trastorno mental (p. ej., un trastorno depresivo) o por el efecto de una sustancia o un medicamento»",
+   "fuente": "Claudino 2019 (PMID 31084617), tabla 1"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 1, caja p2",
+   "antes": "Bulimia sin peso bajo «puede presentarse como emergencia vital»",
+   "despues": "«puede presentarse con alteraciones electrolíticas graves y complicaciones digestivas incluso con peso normal o elevado»",
+   "fuente": "MEED cap. 2, Risk in different populations"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 3, fila psicosis",
+   "antes": "Sin apoyo de fuente para el rechazo de comida en otros trastornos",
+   "despues": "Añadido: «El rechazo agudo de la comida puede darse en trastornos psiquiátricos distintos de un TCA (MEED 2022)»",
+   "fuente": "MEED cap. 2d, Management protocol for care setting"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 3, fila autismo",
+   "antes": "«La prevalencia de autismo y de TCA es mayor que en la población general»",
+   "despues": "«La prevalencia conjunta de autismo y TCA es mayor…»",
+   "fuente": "MEED cap. 2d-vi"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 5, fila bioquímica (tabla 2)",
+   "antes": "«potasio <3,0 obliga a valoración médica»",
+   "despues": "«con potasio <3,0, pedir valoración médica y considerar ingreso y monitorización cardiaca»",
+   "fuente": "MEED tabla 2"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 6, caja a3",
+   "antes": "«posible sobrecarga hídrica»",
+   "despues": "«posible ingesta excesiva de agua» (water-loading)",
+   "fuente": "MEED tabla 3"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 7, caja u1 (Garber)",
+   "antes": "«En 111 adolescentes y jóvenes de 12 a 24 años»",
+   "despues": "Añadido «hospitalizados con un IMC ≥60 % del mediano» (criterio de inclusión)",
+   "fuente": "Garber 2021, PMID 33074282, resumen"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 7, caja u2 (CG32)",
+   "antes": "«pérdida >10 %, ingesta escasa >5 días, o alcohol o fármacos…»",
+   "despues": "«pérdida involuntaria >10 % en 3-6 meses, ingesta escasa o nula >5 días, o antecedentes de abuso de alcohol o de fármacos como…»",
+   "fuente": "NICE CG32 rec. 1.4.6, cuadro 1"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Bloque 7, caja l1 (LEC)",
+   "antes": "«el internamiento no voluntario por razón de trastorno psíquico requiere autorización judicial»",
+   "despues": "Precisado: persona que no esté en condiciones de decidirlo por sí; autorización previa o, si es urgente, comunicación en 24 h y ratificación en un máximo de 72 h; referencia con BOE-A-2000-323 cotejado",
+   "fuente": "BOE, LEC art. 763 (texto consolidado)"
+  },
+  {
+   "gravedad": "menor",
+   "donde": "Leyenda (cap) y límites",
+   "antes": "Mención de «[fuente oficial no localizada]» y de que nada de la CIE-11 se cotejó en la fuente oficial",
+   "despues": "Retirada la etiqueta ya sin uso; límites: «solo los códigos se han cotejado en la tabulación de la OMS»",
+   "fuente": "Coherencia interna"
+  }
+ ],
+ "sin_resolver": [
+  "Umbrales y reglas del DSM-5-TR (gravedad de la AN por IMC, 3 meses en BN/BED, ejemplos de OSFED, regla TDC frente a TCA, síntomas depresivos de apetito): texto original no accesible; quedan como [texto original no cotejado].",
+  "Descripciones clínicas definitivas (CDDR) de la CIE-11: no cotejadas; los rasgos proceden de Claudino 2019 (propuesta final), lo que se declara en la figura.",
+  "Distinciones con depresión, TOC, psicosis y autismo basadas en el contenido no ponderal: siguen con [fuente no localizada].",
+  "«La capacidad se valora decisión a decisión»: sigue con [fuente no localizada].",
+  "MEED tabla 1: «Haemoglobin <10g/L» (probable errata) y umbrales de QTc contradictorios entre tablas 1 y 2: no se dan cifras en la figura."
+ ]
+}

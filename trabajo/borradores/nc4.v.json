@@ -1,0 +1,828 @@
+{
+ "patch": {
+  "porfiria": {
+   "secAdd": [
+    {
+     "t": "Fármacos porfirinogénicos y bases de datos de seguridad",
+     "x": "La porfirinogenicidad de un fármaco se estima por su capacidad para inducir la 5-aminolevulinato sintasa hepática (ALAS1), valorada mediante los informes de uso clínico y criterios teóricos como sus propiedades endocrinas, su afinidad por el citocromo P450, su capacidad de inducción o inhibición irreversible de CYP y su acción sobre los receptores nucleares que regulan el gen de ALAS1; con este método se clasificaron unos 1000 fármacos, publicados en la base de datos drugs-porphyria.org (Thunell 2007). Hoy la mantiene el Centro Noruego de Porfiria (NAPOS) en colaboración con la International Porphyria Network (IPNET), y clasifica los fármacos por su riesgo de desencadenar crisis en la porfiria aguda intermitente, la porfiria variegata y la coproporfiria hereditaria a partir de la experiencia clínica internacional, los casos publicados y consideraciones teóricas, con cierto grado de incertidumbre (NAPOS 2026). Thunell (2007) propone que, si no hay alternativa más segura, un fármaco urgente no se niegue solo por su posible porfirinogenicidad, sino que se prescriba tras valorar riesgos y beneficios y con medidas preventivas adaptadas a la vulnerabilidad de la persona. En psiquiatría, cada psicofármaco debe consultarse en la base antes de prescribirlo, porque la clasificación se actualiza [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "carbamaz",
+        "vpa_bip"
+       ],
+       "t": "antiepilépticos"
+      },
+      {
+       "ids": [
+        "haloperidol",
+        "olanzapina",
+        "iatrog_farm"
+       ],
+       "t": "antipsicóticos e iatrogenia"
+      }
+     ]
+    },
+    {
+     "t": "Manifestaciones psiquiátricas y epidemiología",
+     "x": "La revisión de Duque-Serrano (2018) describe en la porfiria aguda un espectro heterogéneo de síntomas psiquiátricos (ansiedad, alteraciones afectivas, cambios de conducta, rasgos de personalidad y síntomas psicóticos), que pueden aparecer en cualquier momento de la enfermedad y no solo durante las crisis, además de trastornos secundarios como el trastorno de adaptación y los trastornos por consumo de sustancias; el diagnóstico y el tratamiento oportunos de estas manifestaciones mejoran el curso. La porfiria aguda intermitente es más prevalente de lo que se pensaba, en torno a 1 de cada 1600 personas de origen europeo, pero con una penetrancia clínica de solo el 2-3 %; las crisis afectan sobre todo a mujeres de 14 a 45 años, alrededor del 20 % de quienes tienen síntomas recurrentes desarrolla dolor crónico y otros síntomas persistentes, y los familiares de primer grado deben someterse a estudio genético dirigido (Wang 2019).",
+     "links": [
+      {
+       "ids": [
+        "anx_med",
+        "psbreve",
+        "tpsc_med"
+       ],
+       "t": "ansiedad y psicosis secundarias"
+      },
+      {
+       "ids": [
+        "tAdapt",
+        "dolor_cron_prim",
+        "asesor_genet"
+       ],
+       "t": "adaptación, dolor crónico y estudio familiar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Thunell S, Pomp E & Brun A (2007). Guide to drug porphyrogenicity prediction and drug prescription in the acute porphyrias. Br J Clin Pharmacol 64:668-679 · PMID 17578481",
+    "Duque-Serrano L et al. (2018). Psychiatric aspects of acute porphyria: a comprehensive review. Curr Psychiatry Rep 20:5 · PMID 29392446",
+    "Wang B et al. (2019). Acute hepatic porphyrias: review and recent progress. Hepatol Commun 3:193-206 · PMID 30766957",
+    "Norwegian Porphyria Centre (NAPOS) (2026). The Drug Database for Acute Porphyria. https://www.drugs-porphyria.org (consultado el 21-11-2026)"
+   ],
+   "relAdd": [
+    "anx_med",
+    "enc_hep",
+    "hiponatr_psicof",
+    "endocrino"
+   ]
+  },
+  "endocrino": {
+   "relAdd": [
+    "hipoglucemia_psiq",
+    "tirotoxicosis_psiq",
+    "hipercalcemia_psiq"
+   ]
+  },
+  "anx_med": {
+   "relAdd": [
+    "hipoglucemia_psiq",
+    "tirotoxicosis_psiq"
+   ]
+  },
+  "facticio": {
+   "relAdd": [
+    "hipoglucemia_psiq"
+   ]
+  },
+  "enc_hep": {
+   "relAdd": [
+    "hipoglucemia_psiq",
+    "uremia_dialisis"
+   ]
+  },
+  "crisis_func": {
+   "relAdd": [
+    "hipoglucemia_psiq"
+   ]
+  },
+  "lm_bip": {
+   "relAdd": [
+    "tirotoxicosis_psiq",
+    "hipercalcemia_psiq",
+    "uremia_dialisis"
+   ]
+  },
+  "ppp": {
+   "relAdd": [
+    "tirotoxicosis_psiq"
+   ]
+  },
+  "mania_sec": {
+   "relAdd": [
+    "tirotoxicosis_psiq"
+   ]
+  },
+  "anx_mayor": {
+   "relAdd": [
+    "tirotoxicosis_psiq"
+   ]
+  },
+  "dep_med": {
+   "relAdd": [
+    "hipercalcemia_psiq",
+    "uremia_dialisis"
+   ]
+  },
+  "ncd_leve": {
+   "relAdd": [
+    "hipercalcemia_psiq",
+    "uremia_dialisis"
+   ]
+  },
+  "sertralina": {
+   "relAdd": [
+    "uremia_dialisis"
+   ]
+  },
+  "delirium": {
+   "relAdd": [
+    "uremia_dialisis",
+    "hipoglucemia_psiq"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "hipoglucemia_psiq",
+   "n": "Hipoglucemia y neuroglucopenia como causa de síntomas psiquiátricos",
+   "ab": "Hipoglucemia (psiq.)",
+   "al": [
+    "Neuroglucopenia",
+    "Insulinoma",
+    "Hipoglucemia facticia",
+    "Hipoglucemia subrepticia"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "org",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "guia",
+   "y": 2009,
+   "tags": [
+    "organic",
+    "emerg",
+    "risk",
+    "forense"
+   ],
+   "cie": [
+    "5A41"
+   ],
+   "desc": "La neuroglucopenia (falta de glucosa en el sistema nervioso central) produce confusión, cambios de personalidad o conducta extraña y amnesia del episodio, y la respuesta autonómica añade sudoración y temblor (Dizon 1999); en esa serie el diagnóstico previo erróneo más frecuente fue la epilepsia. Si se prolonga, puede causar crisis epilépticas y coma [fuente no localizada]. Por ello la hipoglucemia puede presentarse como un cuadro psiquiátrico agudo o episódico. La guía de la Endocrine Society solo recomienda estudiarla cuando se documenta la tríada de Whipple: síntomas o signos compatibles, glucemia plasmática baja y resolución al elevarla. La causa más frecuente es el tratamiento de la diabetes con insulina o secretagogos; sin diabetes, deben buscarse fármacos, enfermedad crítica, déficits hormonales y tumores no insulares y, en su ausencia, la hipoglucemia accidental, subrepticia o malintencionada y el hiperinsulinismo endógeno, como el insulinoma (Cryer 2009).",
+   "feats": [
+    "Tríada de Whipple como requisito para estudiar una hipoglucemia: síntomas o signos compatibles, glucemia plasmática baja y resolución tras elevarla (guía de la Endocrine Society, Cryer 2009)",
+    "Insulinoma (59 casos de un único centro): todas las personas tenían síntomas neuroglucopénicos, con confusión en el 83 % y cambio de personalidad o conducta extraña en el 64 %; amnesia del episodio en el 41 %; mediana de 24 meses desde el inicio de los síntomas hasta el diagnóstico (Dizon 1999)",
+    "Diagnósticos previos erróneos en el insulinoma: trastornos neurológicos en el 64 %, sobre todo epilepsia (39 %), y el 12 % recibía antiepilépticos; la ingesta aliviaba los síntomas en el 71 % y el 39 % refería aumento de peso (Dizon 1999)",
+    "Incidencia del insulinoma en el condado de Olmsted (Minnesota) estabilizada en unos 4 casos por millón de personas-año en las dos últimas décadas del periodo 1927-1986; el 7,6 % de la cohorte tenía MEN 1 y el 5,8 % un insulinoma maligno (Service 1991)",
+    "Hipoglucemia facticia por insulina subrepticia (10 casos): los anticuerpos antiinsulina fueron la prueba más útil y el péptido C bajo corroboró el diagnóstico; predominaban mujeres jóvenes con conocimientos sanitarios o familiares con diabetes, y dos personas murieron por suicidio durante el seguimiento (Grunberger 1988)",
+    "En 16.667 personas mayores con diabetes tipo 2, las hipoglucemias graves que requirieron hospitalización se asociaron de forma gradual con demencia posterior: HR 1,26 con un episodio, 1,80 con dos y 1,94 con tres o más (Whitmer 2009)"
+   ],
+   "tx": "Corregir la glucemia sin demora y, en personas con consumo de alcohol o malnutrición, administrar tiamina parenteral sin retrasar la glucosa (véase la ficha de Wernicke-Korsakoff) [fuente no localizada para la vía de corrección]. Estudio etiológico durante un episodio espontáneo o provocado: glucosa, insulina, péptido C, proinsulina, β-hidroxibutirato y detección de hipoglucemiantes orales, con anticuerpos antiinsulina (Cryer 2009). Revisar la medicación antidiabética y los fármacos que enmascaran la respuesta adrenérgica. El insulinoma se trata con extirpación quirúrgica, tras la cual la supervivencia a largo plazo de la forma benigna es normal (Service 1991); en la hipoglucemia facticia, abordaje del trastorno facticio por un equipo experimentado (Grunberger 1988).",
+   "note": "Las cifras de síntomas proceden de series retrospectivas de centros de referencia (Dizon 1999; Service 1991) y la serie de hipoglucemia facticia es pequeña y antigua (Grunberger 1988). La asociación con demencia procede de una cohorte observacional y no permite inferir causalidad (Whitmer 2009). No se ha localizado un estudio de la frecuencia de hipoglucemia no reconocida entre personas atendidas en urgencias psiquiátricas. Lo atribuido a la guía de la Endocrine Society se ha contrastado con su resumen, no con el texto completo.",
+   "sec": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "La hipoglucemia debe figurar en el diferencial de cualquier cuadro agudo o episódico de confusión, agitación, conducta extraña, ansiedad intensa con sudoración y temblor, amnesia lacunar o pérdida de conciencia. Como la amnesia del episodio es frecuente, conviene preguntar también a quienes conocen bien a la persona y explorar la relación de los síntomas con la ingesta (Dizon 1999). Diferenciar del ataque de pánico y del trastorno de ansiedad debido a otra afección médica, cuyas causas endocrinas incluyen la hipoglucemia según el DSM-5-TR; de las crisis epilépticas y de las crisis funcionales disociativas; de los estados crepusculares; del delirium de otra causa; de la intoxicación etílica, que puede coexistir con hipoglucemia [fuente no localizada], y de la psicosis aguda. Los betabloqueantes enmascaran la taquicardia de la hipoglucemia (ficha técnica de Sumial, recogida en la ficha del propranolol), y en el insulinoma el error más habitual fue el diagnóstico de epilepsia (Dizon 1999).",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "ataque_panico",
+        "anx_med"
+       ],
+       "t": "pánico y ansiedad orgánica"
+      },
+      {
+       "ids": [
+        "epilepsia_psic",
+        "crisis_func",
+        "crepusc"
+       ],
+       "t": "crisis y estados crepusculares"
+      },
+      {
+       "ids": [
+        "delirium",
+        "alcohol",
+        "psbreve"
+       ],
+       "t": "delirium, alcohol y psicosis aguda"
+      },
+      {
+       "ids": [
+        "propranolol"
+       ],
+       "t": "betabloqueantes"
+      }
+     ]
+    },
+    {
+     "t": "Hipoglucemia facticia y malintencionada",
+     "x": "La guía de la Endocrine Society incluye en el diferencial de la hipoglucemia sin diabetes la forma accidental, la subrepticia y la malintencionada, y recomienda medir durante el episodio insulina, péptido C, proinsulina, β-hidroxibutirato e hipoglucemiantes orales circulantes, además de anticuerpos antiinsulina (Cryer 2009). La insulina exógena se sospecha ante hiperinsulinemia con péptido C bajo (Grunberger 1988); los secretagogos elevan insulina y péptido C como un insulinoma y solo se distinguen por la detección del fármaco [fuente no localizada]. En la serie de Grunberger (1988), solo tres de diez personas lograron una vida productiva tras el diagnóstico y dos murieron por suicidio; los autores aconsejan confirmar el diagnóstico antes de abordar a la persona, hacerlo mediante un equipo con experiencia que se haya ganado su confianza, con comprensión y firmeza, y planificar el tratamiento a largo plazo antes del alta. Cuando la insulina la administra otra persona, el cuadro puede corresponder a un trastorno facticio impuesto a otro o a un delito, con consecuencias periciales y de protección [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "facticio",
+        "simulacion"
+       ],
+       "t": "trastorno facticio y simulación"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "valoración pericial"
+      }
+     ]
+    },
+    {
+     "t": "Curso, secuelas y codificación",
+     "x": "Tras la extirpación de un insulinoma benigno la supervivencia a largo plazo es normal; el riesgo de recurrencia es mayor con MEN 1 (21 % a los 10 y 20 años) que sin él (5 % a los 10 años y 7 % a los 20), y la supervivencia empeora en el insulinoma maligno (29 % a los 10 años frente al 88 % esperado) (Service 1991). En las personas mayores con diabetes tipo 2, las hipoglucemias graves se asociaron a mayor riesgo de demencia, con una relación gradual según el número de episodios; se desconoce si los episodios leves aumentan el riesgo (Whitmer 2009). La CIE-11 distingue la hipoglucemia en el contexto de la diabetes (5A21), la hipoglucemia sin diabetes asociada (5A41) y la hipoglucemia inadvertida (8D8D); cuando la clínica psiquiátrica es consecuencia fisiopatológica directa, se codifica además el síndrome mental secundario correspondiente [fuente oficial no localizada].",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ncd_leve",
+        "neuropsico"
+       ],
+       "t": "deterioro cognitivo y su evaluación"
+      },
+      {
+       "ids": [
+        "anx_med",
+        "tpsc_med"
+       ],
+       "t": "síndromes mentales secundarios"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Ante una persona confusa, agitada o con conducta extraña, sobre todo si recibe insulina o sulfonilureas, consume alcohol o está malnutrida, la glucemia capilar debe determinarse antes de sedar o de atribuir el cuadro a un trastorno mental [fuente no localizada]. Las hipoglucemias con cambio de conducta y amnesia posterior pueden tener relevancia médico-legal (conducción, actos automáticos) [fuente no localizada]. En la persona alcohólica o malnutrida, la tiamina no debe demorar la corrección de una hipoglucemia sintomática (véase la ficha de Wernicke-Korsakoff). La recurrencia de hipoglucemias inexplicadas en alguien con acceso a insulina o con un familiar con diabetes obliga a considerar una causa facticia (Grunberger 1988), y en la evaluación del riesgo debe recordarse que dos de las diez personas de esa serie murieron por suicidio.",
+     "links": [
+      {
+       "ids": [
+        "agitacion",
+        "delirium"
+       ],
+       "t": "agitación y confusión"
+      },
+      {
+       "ids": [
+        "korsakoff"
+       ],
+       "t": "tiamina y Wernicke"
+      },
+      {
+       "ids": [
+        "imputabilidad",
+        "crepusc"
+       ],
+       "t": "actos automáticos e imputabilidad"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Cryer PE et al. (2009). Evaluation and management of adult hypoglycemic disorders: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 94:709-728 · PMID 19088155",
+    "Dizon AM, Kowalyk S & Hoogwerf BJ (1999). Neuroglycopenic and other symptoms in patients with insulinomas. Am J Med 106:307-310 · PMID 10190379",
+    "Service FJ et al. (1991). Functioning insulinoma--incidence, recurrence, and long-term survival of patients: a 60-year study. Mayo Clin Proc 66:711-719 · PMID 1677058",
+    "Grunberger G et al. (1988). Factitious hypoglycemia due to surreptitious administration of insulin. Diagnosis, treatment, and long-term follow-up. Ann Intern Med 108:252-257 · PMID 3277509",
+    "Whitmer RA et al. (2009). Hypoglycemic episodes and risk of dementia in older patients with type 2 diabetes mellitus. JAMA 301:1565-1572 · PMID 19366776",
+    "American Psychiatric Association (2022). DSM-5-TR: Anxiety disorder due to another medical condition",
+    "OMS (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS): 5A21, 5A41 y 8D8D"
+   ],
+   "rel": [
+    "anx_med",
+    "panic",
+    "delirium",
+    "facticio",
+    "epilepsia_psic",
+    "crisis_func",
+    "crepusc",
+    "enc_hep",
+    "propranolol",
+    "korsakoff",
+    "endocrino",
+    "sakel_hit"
+   ]
+  },
+  {
+   "id": "tirotoxicosis_psiq",
+   "n": "Hipertiroidismo y tirotoxicosis: manifestaciones psiquiátricas",
+   "ab": "Tirotoxicosis (psiq.)",
+   "al": [
+    "Psicosis tirotóxica",
+    "Hipertiroidismo apático",
+    "Tiroiditis posparto",
+    "Tirotoxicosis por litio",
+    "Tirotoxicosis por amiodarona"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "org",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "obs",
+   "y": 2000,
+   "tags": [
+    "organic",
+    "elderly",
+    "repro"
+   ],
+   "cie": [
+    "5A02"
+   ],
+   "desc": "La tirotoxicosis, exceso de hormona tiroidea por hiperfunción de la glándula, por tiroiditis destructiva o por aporte exógeno [fuente no localizada para la definición], se acompaña de trastornos de ansiedad y del estado de ánimo y, a veces, de disfunción cognitiva, atribuidos en gran parte a la hiperactividad adrenérgica (Bunevicius 2006), así como de irritabilidad e insomnio [fuente no localizada]; con menor frecuencia precipita psicosis afectivas agudas, maníacas o depresivas (Brownlie 2000). En las personas mayores los síntomas clásicos son menos frecuentes (Boelaert 2010). Esta ficha amplía la de síndromes psiquiátricos endocrinos con cuatro aspectos propios de la psiquiatría de enlace y perinatal: la psicosis tirotóxica, la presentación pobre en síntomas de la vejez, la tiroiditis posparto y su relación con la psicosis puerperal, y la tirotoxicosis asociada a litio y a amiodarona.",
+   "feats": [
+    "Psicosis tirotóxica (18 ingresos psiquiátricos en 20 años, Nueva Zelanda): sin cuadro clínico específico; predominaron las psicosis afectivas (siete depresiones y siete manías), con dos cuadros esquizofreniformes, uno paranoide y un delirium; dos personas presentaron oscilaciones afectivas mientras descendían las hormonas con el tratamiento (Brownlie 2000)",
+    "La coincidencia de tirotoxicosis y primer ingreso por psicosis afectiva superó con mucho el azar (9 casos observados frente a 0,36 esperados): la tirotoxicosis puede precipitar una psicosis afectiva aguda (Brownlie 2000)",
+    "Vejez: en 3049 personas con hipertiroidismo, la edad se asoció a menos síntomas clásicos, salvo la pérdida de peso y la disnea; los autores proponen bajar el umbral para pedir función tiroidea por encima de los 60 años, sobre todo con fibrilación auricular, pérdida de peso o disnea (Boelaert 2010)",
+    "Litio: en 400 personas estudiadas con gammagrafía, las probabilidades (odds) de exposición a litio fueron 4,7 veces mayores en la tiroiditis silente que en la enfermedad de Graves (IC 95 % 1,3-17); incidencia estimada de tirotoxicosis asociada a litio de 2,7 por 1000 personas-año, superior a la de la población general (Miller y Daniels 2001)",
+    "Amiodarona: un comprimido de 100 mg contiene 250 veces el requerimiento diario de yodo; la tirotoxicosis inducida es más frecuente en regiones con déficit de yodo y es difícil de diagnosticar y tratar, mientras que el hipotiroidismo inducido predomina donde el aporte es suficiente (Basaria y Cooper 2005)",
+    "Tiroiditis posparto: incidencia del 5,4 %; patrón clásico de tirotoxicosis seguida de hipotiroidismo en el 22 %, hipotiroidismo aislado en el 48 % y tirotoxicosis aislada en el 30 %; los datos sobre su relación con la depresión posparto son contradictorios (Stagnaro-Green 2012)",
+    "Psicosis posparto: el 19 % de 31 primíparas presentaba autoinmunidad tiroidea a las 4 semanas frente al 5 % de 117 controles, y dos tercios de ellas evolucionaron a disfunción tiroidea clínica; los autores recomiendan determinar anticuerpos antiperoxidasa (Bergink 2011)"
+   ],
+   "tx": "Tratamiento de la causa con antitiroideos, yodo radiactivo o cirugía según la etiología (Ross 2016), con betabloqueantes para los síntomas adrenérgicos, que son también el tratamiento de elección de las manifestaciones psiquiátricas junto con los antitiroideos (Bunevicius 2006). En la tiroiditis posparto, la fase tirotóxica se trata solo para controlar los síntomas (Stagnaro-Green 2012). Si los síntomas psiquiátricos persisten tras el eutiroidismo y el bloqueo beta, tratamiento psiquiátrico específico (Bunevicius 2006). En quien toma litio o amiodarona, la decisión sobre el fármaco se comparte con endocrinología y con psiquiatría o cardiología [fuente no localizada].",
+   "note": "La serie de psicosis tirotóxica es retrospectiva y pequeña (Brownlie 2000); el estudio sobre litio y tiroiditis silente es una revisión retrospectiva de historias (Miller y Daniels 2001), y el de autoinmunidad tiroidea en la psicosis posparto incluye 31 casos (Bergink 2011). En muchos estudios no se distingue la enfermedad de Graves de otras causas de hipertiroidismo (Bunevicius 2006). La definición de tirotoxicosis y las pautas de la guía de la ATA se citan según su resumen. No se ha localizado en la ficha técnica española del litio una interacción específica con la amiodarona; lo que comparten es su efecto sobre el tiroides.",
+   "sec": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "La tirotoxicosis entra en el diferencial de los trastornos de ansiedad y de pánico, del primer episodio maníaco, sobre todo de inicio tardío, de la depresión agitada y de las psicosis agudas, porque la clínica psiquiátrica no es específica (Brownlie 2000). Orientan hacia ella la pérdida de peso, la intolerancia al calor, el temblor, la taquicardia o la fibrilación auricular, el bocio y la oftalmopatía [fuente no localizada para el listado]. Debe distinguirse de la intoxicación por estimulantes (cocaína, metanfetamina) y de la abstinencia alcohólica, y de la tirotoxicosis por ingesta de hormona tiroidea, que la CIE-11 codifica como tirotoxicosis facticia (5A02.4) y que obliga a considerar un trastorno facticio o el uso de levotiroxina para adelgazar [fuente no localizada para el uso con fines de adelgazamiento]. El feocromocitoma y la hipoglucemia son otras causas endocrinas de ansiedad (véase el trastorno de ansiedad debido a otra afección médica).",
+     "links": [
+      {
+       "ids": [
+        "panic",
+        "tag",
+        "anx_med"
+       ],
+       "t": "ansiedad"
+      },
+      {
+       "ids": [
+        "ep_mania",
+        "mania_sec",
+        "psbreve",
+        "dpsic"
+       ],
+       "t": "manía y psicosis"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "metanf",
+        "dt_alc"
+       ],
+       "t": "estimulantes y abstinencia"
+      },
+      {
+       "ids": [
+        "facticio",
+        "hipoglucemia_psiq"
+       ],
+       "t": "tirotoxicosis facticia e hipoglucemia"
+      }
+     ]
+    },
+    {
+     "t": "Litio, amiodarona y otros fármacos",
+     "x": "Aunque el efecto tiroideo más conocido del litio es el hipotiroidismo (véase la ficha de síndromes endocrinos), también se asocia a tirotoxicosis por tiroiditis silente, con odds de exposición al litio 4,7 veces mayores en la tiroiditis silente que en la enfermedad de Graves en una revisión retrospectiva (Miller y Daniels 2001). Una revisión clínica enumera entre los fármacos que inducen tiroiditis la amiodarona, los inhibidores de puntos de control inmunitario, la interleucina 2, el interferón alfa, el litio y los inhibidores de la tirosina cinasa (Martinez Quintero 2021). La amiodarona, muy rica en yodo, altera las pruebas tiroideas incluso en personas eutiroideas y puede causar tanto hipotiroidismo como una tirotoxicosis de diagnóstico y tratamiento difíciles (Basaria y Cooper 2005). En una persona con cardiopatía tratada con amiodarona, o en tratamiento con litio, la aparición de ansiedad, insomnio, irritabilidad o un viraje afectivo debe llevar a pedir función tiroidea antes de atribuirlos al trastorno de base [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      },
+      {
+       "ids": [
+        "iatrog_farm",
+        "cardio_dep"
+       ],
+       "t": "iatrogenia y cardiopatía"
+      },
+      {
+       "ids": [
+        "endocrino"
+       ],
+       "t": "síndromes endocrinos (hipotiroidismo por litio)"
+      }
+     ]
+    },
+    {
+     "t": "Periodo perinatal: tiroiditis posparto y psicosis puerperal",
+     "x": "La tiroiditis posparto es la aparición de enfermedad tiroidea autoinmune, distinta de la enfermedad de Graves, durante el primer año tras el parto; afecta al 5,4 % de la población general, y hasta la mitad de las mujeres con anticuerpos antitiroideos positivos en el primer trimestre la desarrolla; los síntomas son más frecuentes en la fase hipotiroidea (cansancio, piel seca, fallos de memoria), y entre el 20 y el 40 % desarrolla hipotiroidismo permanente (Stagnaro-Green 2012). La guía de la American Thyroid Association de 2017 incluye recomendaciones sobre la tirotoxicosis en el embarazo y sobre la enfermedad tiroidea del posparto (Alexander 2017). En la psicosis posparto, la autoinmunidad tiroidea fue casi cuatro veces más frecuente que en controles y se asoció a progresión a disfunción tiroidea clínica, por lo que Bergink (2011) recomienda determinar anticuerpos antiperoxidasa y vigilar la función tiroidea. La CIE-11 codifica la tiroiditis posparto como JB44.5.",
+     "links": [
+      {
+       "ids": [
+        "ppp",
+        "dpp"
+       ],
+       "t": "psicosis y depresión posparto"
+      },
+      {
+       "ids": [
+        "anx_perinatal",
+        "emb_peri"
+       ],
+       "t": "salud mental perinatal"
+      }
+     ]
+    },
+    {
+     "t": "Vejez y presentación pobre en síntomas",
+     "x": "En la serie de 3049 personas con hipertiroidismo de Boelaert (2010), la mayoría de quienes tenían más de 61 años presentaba dos o más síntomas, pero era el grupo con menos personas con cinco o más; la edad se asoció a menor probabilidad de casi todos los síntomas clásicos, con independencia de la gravedad, excepto la pérdida de peso y la disnea, y a mayor riesgo de fibrilación auricular junto con el sexo masculino, la tiroxina libre elevada y el bocio nodular tóxico. En la vejez, el cuadro de apatía, astenia y adelgazamiento («hipertiroidismo apático», ya mencionado en la ficha de síndromes endocrinos) se confunde con la depresión tardía, el deterioro cognitivo o una enfermedad consuntiva [fuente no localizada]. Los autores proponen bajar el umbral para pedir función tiroidea por encima de los 60 años (Boelaert 2010).",
+     "links": [
+      {
+       "ids": [
+        "dep_tardia",
+        "dcog",
+        "apatia"
+       ],
+       "t": "depresión tardía y apatía"
+      },
+      {
+       "ids": [
+        "anx_mayor",
+        "dem"
+       ],
+       "t": "ansiedad y demencia en la vejez"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "En la serie de Brownlie (2000), todas las personas recibieron antitiroideos y todas salvo una, después, yodo radiactivo; todas salvo una recibieron inicialmente neurolépticos y, en un seguimiento con mediana de 11 años, más de la mitad permaneció sin nuevos problemas psiquiátricos. Una proporción considerable de personas con enfermedad de Graves mantiene alteraciones mentales tras normalizar la función tiroidea, lo que sugiere la intervención de otros mecanismos, como el propio proceso autoinmune o la oftalmopatía (Bunevicius 2006). La crisis tirotóxica con confusión o delirium es una urgencia médica [fuente no localizada]. Tras una tiroiditis posparto, entre el 20 y el 40 % desarrolla hipotiroidismo permanente (Stagnaro-Green 2012), que deberá considerarse ante una depresión ulterior [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      },
+      {
+       "ids": [
+        "dep_med",
+        "endocrino"
+       ],
+       "t": "depresión en enfermedad médica e hipotiroidismo"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Brownlie BE et al. (2000). Psychoses associated with thyrotoxicosis - 'thyrotoxic psychosis.' A report of 18 cases, with statistical analysis of incidence. Eur J Endocrinol 142:438-444 · PMID 10802519",
+    "Boelaert K et al. (2010). Older subjects with hyperthyroidism present with a paucity of symptoms and signs: a large cross-sectional study. J Clin Endocrinol Metab 95:2715-2726 · PMID 20392869",
+    "Bunevicius R & Prange AJ (2006). Psychiatric manifestations of Graves' hyperthyroidism: pathophysiology and treatment options. CNS Drugs 20:897-909 · PMID 17044727",
+    "Miller KK & Daniels GH (2001). Association between lithium use and thyrotoxicosis caused by silent thyroiditis. Clin Endocrinol (Oxf) 55:501-508 · PMID 11678833",
+    "Basaria S & Cooper DS (2005). Amiodarone and the thyroid. Am J Med 118:706-714 · PMID 15989900",
+    "Martinez Quintero B, Yazbeck C & Sweeney LB (2021). Thyroiditis: evaluation and treatment. Am Fam Physician 104:609-617 · PMID 34913664",
+    "Stagnaro-Green A (2012). Approach to the patient with postpartum thyroiditis. J Clin Endocrinol Metab 97:334-342 · PMID 22312089",
+    "Bergink V et al. (2011). Prevalence of autoimmune thyroid dysfunction in postpartum psychosis. Br J Psychiatry 198:264-268 · PMID 21343331",
+    "Alexander EK et al. (2017). 2017 Guidelines of the American Thyroid Association for the diagnosis and management of thyroid disease during pregnancy and the postpartum. Thyroid 27:315-389 · PMID 28056690",
+    "Ross DS et al. (2016). 2016 American Thyroid Association guidelines for diagnosis and management of hyperthyroidism and other causes of thyrotoxicosis. Thyroid 26:1343-1421 · PMID 27521067",
+    "OMS (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS): 5A02, 5A02.4 y JB44.5"
+   ],
+   "rel": [
+    "endocrino",
+    "anx_med",
+    "mania_sec",
+    "ppp",
+    "dpp",
+    "lm_bip",
+    "iatrog_farm",
+    "panic",
+    "dep_tardia",
+    "psbreve",
+    "anx_mayor"
+   ]
+  },
+  {
+   "id": "hipercalcemia_psiq",
+   "n": "Hiperparatiroidismo e hipercalcemia: manifestaciones psiquiátricas",
+   "ab": "Hipercalcemia (psiq.)",
+   "al": [
+    "Hiperparatiroidismo primario",
+    "Hipercalcemia asociada a litio",
+    "Hiperparatiroidismo por litio"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "org",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2013,
+   "tags": [
+    "organic",
+    "chr"
+   ],
+   "cie": [
+    "5A51"
+   ],
+   "desc": "El hiperparatiroidismo primario se acompaña con frecuencia de síntomas depresivos, ansiosos y de peor calidad de vida, que en estudios prospectivos mejoran tras una paratiroidectomía eficaz (Weber 2013; Espiritu 2011), aunque los ensayos aleatorizados en la forma leve y asintomática dan resultados discordantes (Rao 2004; Ambrogini 2007; Bollerslev 2007). La hipercalcemia intensa produce confusión, somnolencia y, en casos graves, coma [fuente no localizada]. Para la psiquiatría, la causa más relevante es el litio: en torno a una cuarta parte de las personas expuestas presenta hipercalcemia en un estudio transversal y otro retrospectivo (Albert 2013; Meehan 2018). Esta ficha desarrolla la mención breve de la ficha de síndromes psiquiátricos endocrinos.",
+   "feats": [
+    "Estudio prospectivo multicéntrico (194 personas con hiperparatiroidismo primario y 186 controles con nódulo tiroideo no tóxico): depresión grave (HADS ≥ 11) en el 20 % frente al 9 %; tras una paratiroidectomía curativa en el 98 %, la ideación suicida bajó del 22 % al 10,7 % a los 12 meses y mejoraron la ansiedad, la depresión y la calidad de vida (Weber 2013)",
+    "PHQ-9 ≥ 10 en el 31,4 % con hiperparatiroidismo primario frente al 15,3 % con cirugía tiroidea benigna; tras la paratiroidectomía descendió al 7,4 % al mes y al 7,6 % al año, con mayor mejoría que en la observación o la cirugía tiroidea (Espiritu 2011)",
+    "Ensayos en la forma leve asintomática: beneficio modesto en el rol social y emocional y descenso de la ansiedad y la fobia con cirugía en 53 personas (Rao 2004); mejoría de vitalidad y salud mental del SF-36 al año en 50 (Ambrogini 2007); 191 aleatorizadas, con datos a uno y dos años de 119 y 99, sin beneficio de la cirugía pese a peor calidad de vida basal que los controles sanos (Bollerslev 2007)",
+    "Litio: en 58 personas con trastorno bipolar expuestas a litio, hipercalcemia en el 24,1 % e hiperparatiroidismo en el 8,6 %, significativamente más que en las no expuestas; la duración de la exposición se asoció al calcio iónico (Albert 2013)",
+    "Litio: prevalencia de hipercalcemia asociada del 26 % en 313 personas tratadas, con una OR ajustada de 13,45 frente a personas con trastorno bipolar sin litio; en más de la mitad de las intervenidas había hiperplasia y fueron frecuentes la persistencia y la recurrencia (Meehan 2018)",
+    "NICE CG185 recoge la monitorización del calcio durante el tratamiento con litio (véase la ficha de síndromes endocrinos), y Albert (2013) propone añadir el calcio, y si procede la PTH, a los controles previos y de mantenimiento"
+   ],
+   "tx": "Paratiroidectomía según los criterios del V Taller Internacional (Bilezikian 2022); los ensayos no permiten afirmar que los síntomas psiquiátricos leves aislados basten como indicación (Bollerslev 2007; Rao 2004) [fuente no localizada para la postura textual de la guía]. En la hipercalcemia por litio, la decisión entre mantener el litio, retirarlo o intervenir se toma con endocrinología y cirugía; si se opera, Meehan (2018) aconseja considerar la exploración cervical bilateral por la frecuencia de hiperplasia multiglandular. La hipercalcemia grave con alteración de conciencia es una urgencia médica [fuente no localizada]. Tratamiento sintomático de la depresión y la ansiedad mientras se resuelve la causa.",
+   "note": "Los estudios que muestran mejoría tras la cirugía son observacionales, sin enmascaramiento y con controles con enfermedad tiroidea benigna (Weber 2013; Espiritu 2011); los ensayos aleatorizados son pequeños o no encontraron beneficio (Rao 2004; Ambrogini 2007; Bollerslev 2007), y miden calidad de vida o síntomas, no diagnósticos psiquiátricos. Los datos sobre litio son transversales y retrospectivos (Albert 2013; Meehan 2018). La mención a NICE CG185 se toma de la ficha de síndromes endocrinos del atlas.",
+   "sec": [
+    {
+     "t": "Síntomas depresivos y cognitivos: qué muestran los estudios",
+     "x": "Las personas con hiperparatiroidismo primario presentan más síntomas depresivos y ansiosos y peor calidad de vida que los controles, tanto en estudios observacionales (Weber 2013; Espiritu 2011) como en la situación basal de un ensayo aleatorizado (Bollerslev 2007). En los estudios prospectivos con controles con enfermedad tiroidea benigna, la paratiroidectomía redujo la depresión, la ansiedad y la ideación suicida (Weber 2013) y la proporción con PHQ-9 clínicamente significativo, con mayor efecto que la observación (Espiritu 2011). En cambio, en la forma leve asintomática los tres ensayos aleatorizados muestran beneficios modestos y heterogéneos en calidad de vida y ansiedad (Rao 2004; Ambrogini 2007) o ninguno a los dos años (Bollerslev 2007). La afectación cognitiva se describe en la literatura clínica, pero no se ha medido en los estudios citados [fuente no localizada]. Estas mejorías se refieren a puntuaciones de escalas y no equivalen a la remisión de un trastorno depresivo diagnosticado.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "dep_med",
+        "dcog"
+       ],
+       "t": "depresión"
+      },
+      {
+       "ids": [
+        "hads",
+        "ncd_leve"
+       ],
+       "t": "medición y deterioro cognitivo"
+      }
+     ]
+    },
+    {
+     "t": "Hipercalcemia e hiperparatiroidismo por litio",
+     "x": "La estimulación paratiroidea por litio es más frecuente de lo que se suponía: en un estudio italiano de casos y controles, el 24,1 % de las personas tratadas con litio tenía hipercalcemia y el 8,6 % hiperparatiroidismo, con un efecto del tiempo de exposición sobre el calcio iónico (Albert 2013); en una cohorte sueca de 313 personas tratadas, la prevalencia fue del 26 %, con una probabilidad ajustada 13 veces mayor que en personas con trastorno bipolar sin litio, mientras que estas no se diferenciaron de la población control (Meehan 2018). En las siete personas operadas de esa serie se extirparon de media dos glándulas, hubo hiperplasia en cuatro, persistencia en una y recurrencia en seis durante un seguimiento medio de 10 años. Como los síntomas de la hipercalcemia (astenia, desánimo, dificultades de concentración) se superponen a los del trastorno bipolar, el calcio debe medirse antes de atribuirlos a una recaída depresiva [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lm_bip",
+        "tb1"
+       ],
+       "t": "litio y trastorno bipolar"
+      },
+      {
+       "ids": [
+        "endocrino"
+       ],
+       "t": "síndromes endocrinos"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "La depresión, la apatía o el deterioro cognitivo con calcio elevado obligan a descartar el hiperparatiroidismo primario antes de diagnosticar un trastorno depresivo primario o una demencia, y la confusión aguda con hipercalcemia, un delirium de causa metabólica [fuente no localizada]. Entre las causas de hipercalcemia relevantes en psiquiatría están el litio, los diuréticos tiazídicos (que además elevan la litemia, según la ficha técnica del litio recogida en la ficha correspondiente), la hipercalcemia tumoral y el exceso de vitamina D [fuente no localizada para el listado]. La CIE-11 distingue el hiperparatiroidismo primario (5A51.0), el secundario (5A51.1) y la hipercalcemia hipocalciúrica familiar (5A51.2), que no debe confundirse con un hiperparatiroidismo quirúrgico [fuente no localizada para la consecuencia práctica]. Los síntomas somáticos acompañantes (sed, poliuria, estreñimiento, litiasis, dolor óseo) pueden hacer pensar erróneamente en un trastorno de síntomas somáticos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "dem",
+        "delirium"
+       ],
+       "t": "depresión, demencia y delirium"
+      },
+      {
+       "ids": [
+        "lm_bip",
+        "somat_sint"
+       ],
+       "t": "litio y síntomas somáticos"
+      }
+     ]
+    },
+    {
+     "t": "Límites de la evidencia",
+     "x": "Los estudios que asocian la paratiroidectomía a mejoría psíquica son observacionales, sin aleatorización ni enmascaramiento, usan como controles a personas con enfermedad tiroidea benigna (operadas, en el estudio de Espiritu) y miden síntomas con escalas autoaplicadas (HADS, PHQ-9), con posible efecto de expectativa (Weber 2013; Espiritu 2011). Los ensayos aleatorizados son pequeños, se limitan a la forma leve asintomática y sus resultados no coinciden (Rao 2004; Ambrogini 2007; Bollerslev 2007). En cuanto al litio, los diseños transversales y retrospectivos no permiten establecer el momento de aparición del hiperparatiroidismo, como reconoce Albert (2013); Meehan (2018) pide estudios prospectivos. Falta evidencia sobre si la corrección de la hipercalcemia por litio mejora el curso del trastorno bipolar [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "lm_bip"
+       ],
+       "t": "litio"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Weber T et al. (2013). Parathyroidectomy, elevated depression scores, and suicidal ideation in patients with primary hyperparathyroidism: results of a prospective multicenter study. JAMA Surg 148:109-115 · PMID 23560281",
+    "Espiritu RP et al. (2011). Depression in primary hyperparathyroidism: prevalence and benefit of surgery. J Clin Endocrinol Metab 96:E1737-E1745 · PMID 21917870",
+    "Rao DS et al. (2004). Randomized controlled clinical trial of surgery versus no surgery in patients with mild asymptomatic primary hyperparathyroidism. J Clin Endocrinol Metab 89:5415-5422 · PMID 15531491",
+    "Ambrogini E et al. (2007). Surgery or surveillance for mild asymptomatic primary hyperparathyroidism: a prospective, randomized clinical trial. J Clin Endocrinol Metab 92:3114-3121 · PMID 17535997",
+    "Bollerslev J et al. (2007). Medical observation, compared with parathyroidectomy, for asymptomatic primary hyperparathyroidism: a prospective, randomized trial. J Clin Endocrinol Metab 92:1687-1692 · PMID 17284629",
+    "Albert U et al. (2013). Lithium-associated hyperparathyroidism and hypercalcaemia: a case-control cross-sectional study. J Affect Disord 151:786-790 · PMID 23870428",
+    "Meehan AD et al. (2018). Lithium-associated hypercalcemia: pathophysiology, prevalence, management. World J Surg 42:415-424 · PMID 29260296",
+    "Bilezikian JP et al. (2022). Evaluation and management of primary hyperparathyroidism: summary statement and guidelines from the Fifth International Workshop. J Bone Miner Res 37:2293-2314 · PMID 36245251",
+    "NICE (2014). Bipolar disorder: assessment and management (CG185)",
+    "OMS (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS): 5A51 y 5B91.0"
+   ],
+   "rel": [
+    "endocrino",
+    "lm_bip",
+    "dep_med",
+    "ncd_leve",
+    "delirium",
+    "dcog",
+    "ddm",
+    "tb1"
+   ]
+  },
+  {
+   "id": "uremia_dialisis",
+   "n": "Enfermedad renal crónica, encefalopatía urémica y diálisis: aspectos psiquiátricos",
+   "ab": "ERC y diálisis (psiq.)",
+   "al": [
+    "Encefalopatía urémica",
+    "Depresión en diálisis",
+    "Encefalopatía por diálisis",
+    "Demencia dialítica"
+   ],
+   "k": "ent",
+   "vw": "nos",
+   "sp": "org",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 2017,
+   "tags": [
+    "organic",
+    "chr",
+    "elderly"
+   ],
+   "cie": [
+    "GB61"
+   ],
+   "desc": "La enfermedad renal crónica (ERC) se asocia a depresión, deterioro cognitivo y trastornos del sueño; en la insuficiencia renal avanzada, la encefalopatía urémica va desde estados confusionales leves hasta el coma, a menudo con asterixis, y la diálisis añade complicaciones neurológicas propias, como la encefalopatía aguda por diálisis y la encefalopatía crónica antes llamada demencia dialítica (Seifter 2011). La depresión diagnosticada por entrevista afecta aproximadamente a una de cada cuatro personas con ERC (Palmer 2013), pero los ensayos con sertralina frente a placebo no han mostrado beneficio: negativo en la ERC sin diálisis (Hedayati 2017) y no concluyente en hemodiálisis por su tamaño y sus abandonos (Friedli 2017). La reducción del filtrado altera la farmacocinética de muchos psicofármacos, por lo que cada uno debe contrastarse con su ficha técnica (Nagler 2012).",
+   "feats": [
+    "Prevalencia de depresión (249 poblaciones, 55.982 participantes): por entrevista, 22,8 % en diálisis (ERC 5D), 21,4 % en estadios 1-5 y 25,7 % en trasplantados; con escalas, 39,3 % en diálisis, lo que indica que las escalas autoaplicadas sobrestiman la depresión en este medio (Palmer 2013)",
+    "Ensayo CAST (201 personas con ERC 3-5 sin diálisis y depresión mayor): la sertralina no superó al placebo a las 12 semanas (cambio en QIDS-C16 de -4,1 frente a -4,2) y causó más náuseas o vómitos (22,7 % frente a 10,4 %) y diarrea (13,4 % frente a 3,1 %) (Hedayati 2017)",
+    "Hemodiálisis: en el ensayo de viabilidad de Friedli (2017), solo 30 de 709 personas cribadas fueron aleatorizadas, sin diferencias entre sertralina y placebo y con más abandonos por efectos adversos con sertralina; en ASCEND (120 personas), la sertralina redujo algo más los síntomas que la terapia cognitivo-conductual a las 12 semanas, con más efectos adversos y sin grupo placebo (Mehrotra 2019)",
+    "Deterioro cognitivo en hemodiálisis (338 personas de 55 años o más): deterioro leve en el 13,9 %, moderado en el 36,1 % y grave en el 37,3 %; solo el 12,7 % tenía una cognición normal y solo el 2,9 % tenía documentado el deterioro (Murray 2006)",
+    "En 23.405 adultos del estudio REGARDS, la ERC se asoció a deterioro cognitivo (OR 1,23), y por cada 10 ml/min/1,73 m² de descenso del filtrado por debajo de 60 la prevalencia aumentó un 11 % (Kurella Tamura 2008)",
+    "Revisión de European Renal Best Practice: aclaramiento muy reducido en ERC 3-5 de venlafaxina, desvenlafaxina, milnaciprán, bupropión, reboxetina, tianeptina, selegilina y amitriptilinóxido, que requieren reducir la dosis; evidencia insuficiente sobre la eficacia de los antidepresivos frente a placebo (Nagler 2012)"
+   ],
+   "tx": "Atención conjunta con nefrología. Diagnóstico de la depresión mediante entrevista, no solo con escalas (Palmer 2013). La evidencia de eficacia de los antidepresivos en la ERC es escasa y los ensayos con sertralina frente a placebo no mostraron beneficio (Hedayati 2017) o no fueron concluyentes (Friedli 2017), por lo que la indicación se individualiza sopesando efectos adversos; ASCEND comparó sertralina con terapia cognitivo-conductual sin grupo placebo (Mehrotra 2019). Todo psicofármaco se ajusta a lo que su ficha técnica establece para la insuficiencia renal, sin pautas individualizadas en esta ficha. La encefalopatía urémica se trata con diálisis o trasplante; muchos nefrólogos consideran el deterioro cognitivo una indicación mayor para iniciar la diálisis (Seifter 2011).",
+   "note": "Los datos de prevalencia proceden de estudios observacionales heterogéneos (Palmer 2013). Los ensayos de antidepresivos son escasos: CAST excluyó a personas en diálisis, el ensayo de Friedli es de viabilidad y ASCEND carece de grupo placebo. Los estudios cognitivos son transversales y no permiten separar el efecto de la uremia del de la enfermedad vascular asociada (Murray 2006; Kurella Tamura 2008). Lo atribuido a las fichas técnicas se ha cotejado literalmente en CIMA (apartados 4.2, 4.3, 4.4 y 5.2) el 21-11-2026; no se reproducen las pautas de ajuste. La revisión de Nagler es de 2012 y no incluye los ensayos posteriores.",
+   "sec": [
+    {
+     "t": "Depresión: prevalencia y ensayos de antidepresivos",
+     "x": "Alrededor de una cuarta parte de las personas con ERC cumple criterios de depresión en entrevista, con cifras parecidas en diálisis, prediálisis y trasplante; las escalas autoaplicadas casi duplican la estimación en diálisis, probablemente porque la astenia, el insomnio o la anorexia de la uremia puntúan como síntomas depresivos (Palmer 2013) [fuente no localizada para esta explicación]. Los ensayos aleatorizados no han demostrado eficacia de la sertralina frente a placebo: en CAST, con ERC 3-5 sin diálisis, la mejoría fue prácticamente igual en ambos grupos (−4,1 frente a −4,2 puntos en la QIDS-C16) y los efectos digestivos fueron más frecuentes con sertralina (Hedayati 2017); en hemodiálisis, el ensayo de Friedli (2017) tuvo un reclutamiento difícil y muchos abandonos, de modo que no es concluyente. ASCEND mostró una ventaja modesta de la sertralina sobre la terapia cognitivo-conductual impartida en la unidad de diálisis, con más efectos adversos, y una entrevista motivacional previa no aumentó la aceptación del tratamiento (Mehrotra 2019).",
+     "links": [
+      {
+       "ids": [
+        "dep_med",
+        "ddm"
+       ],
+       "t": "depresión en enfermedad médica"
+      },
+      {
+       "ids": [
+        "sertralina",
+        "isrs"
+       ],
+       "t": "sertralina e ISRS"
+      },
+      {
+       "ids": [
+        "hads"
+       ],
+       "t": "escalas"
+      }
+     ]
+    },
+    {
+     "t": "Encefalopatía urémica y complicaciones neurológicas de la diálisis",
+     "x": "La encefalopatía de la insuficiencia renal se atribuye sobre todo a la acumulación de toxinas urémicas y a las enfermedades que causan la nefropatía, en especial la hipertensión; se manifiesta desde estados confusionales leves hasta el coma, a menudo con trastornos del movimiento como el asterixis (Seifter 2011). Los trastornos del sueño son frecuentes, incluido el síndrome de piernas inquietas (enfermedad de Willis-Ekbom), y las técnicas de sustitución renal tienen complicaciones propias: la encefalopatía aguda por diálisis y la encefalopatía crónica por diálisis, antes llamada demencia dialítica (Seifter 2011). Ante un cuadro confusional en una persona con ERC deben considerarse también la acumulación de fármacos de eliminación renal, los trastornos electrolíticos, la hipoglucemia y las infecciones [fuente no localizada para el listado], y diferenciarlo de las encefalopatías metabólicas de otro origen y de un delirium multifactorial.",
+     "links": [
+      {
+       "ids": [
+        "enc_hep",
+        "delirium",
+        "hipoglucemia_psiq"
+       ],
+       "t": "encefalopatías y delirium"
+      },
+      {
+       "ids": [
+        "piernas_inquietas",
+        "insomnio_sx"
+       ],
+       "t": "sueño y piernas inquietas"
+      },
+      {
+       "ids": [
+        "hiponatr_psicof"
+       ],
+       "t": "trastornos electrolíticos por fármacos"
+      }
+     ]
+    },
+    {
+     "t": "Deterioro cognitivo",
+     "x": "El deterioro cognitivo es frecuente e infradiagnosticado en hemodiálisis: en la serie de Murray (2006), casi tres cuartas partes de las personas de 55 años o más presentaban un deterioro moderado o grave, apenas documentado en la historia, y se asoció al ictus y a un menor nivel educativo; los autores proponen evaluar la cognición antes de iniciar la diálisis y periódicamente. En la población general estadounidense, la prevalencia del deterioro aumenta ya en fases tempranas de la ERC, un 11 % por cada 10 ml/min/1,73 m² de descenso del filtrado por debajo de 60, y los autores proponen cribarlo en todo adulto con ERC (Kurella Tamura 2008). El diagnóstico diferencial incluye la depresión con deterioro cognitivo, la demencia vascular o degenerativa, la encefalopatía urémica, el efecto de fármacos y las fluctuaciones relacionadas con las sesiones de diálisis [fuente no localizada]. La evaluación cognitiva condiciona también la valoración de la capacidad para decidir sobre el inicio o la retirada de la diálisis.",
+     "links": [
+      {
+       "ids": [
+        "ncd_leve",
+        "dem",
+        "dcog"
+       ],
+       "t": "deterioro cognitivo y diferencial"
+      },
+      {
+       "ids": [
+        "neuropsico",
+        "mmse_moca"
+       ],
+       "t": "evaluación cognitiva"
+      },
+      {
+       "ids": [
+        "dvascular"
+       ],
+       "t": "depresión vascular"
+      }
+     ]
+    },
+    {
+     "t": "Psicofármacos en la insuficiencia renal según las fichas técnicas",
+     "x": "Sin indicar pautas, lo que dicen las fichas técnicas españolas (AEMPS-CIMA, consultadas el 21-11-2026) sobre la insuficiencia renal: la de Plenur contraindica el litio en la insuficiencia renal grave, pide vigilar estrechamente la litemia en la leve o moderada y señala que la semivida de eliminación puede aumentar en la insuficiencia renal; la de Cymbalta, que la duloxetina no se debe utilizar con aclaramiento de creatinina inferior a 30 ml/min; la de Lyrica, que la pregabalina se elimina sobre todo por vía renal inalterada, con aclaramiento directamente proporcional al de creatinina, y que la dosis se reduce de forma individualizada; la de Neurontin, que la gabapentina se elimina inalterada solo por vía renal, que precisa ajuste en la insuficiencia renal y en hemodiálisis y que la insuficiencia renal aumenta el riesgo de depresión respiratoria grave; la de Vandral Retard, que es necesario ajustar la venlafaxina en la insuficiencia renal grave y en hemodiálisis; la de Solian, que el aclaramiento sistémico de la amisulprida se reduce por un factor de 2,5 a 3 y que la dosis debe reducirse; y la de Invega, que las concentraciones de paliperidona aumentan y que no se debe administrar con aclaramiento inferior a 10 ml/min. Nagler (2012) añade la reducción del aclaramiento de bupropión, reboxetina, milnaciprán y desvenlafaxina.",
+     "links": [
+      {
+       "ids": [
+        "lm_bip",
+        "duloxetina",
+        "pregabalina",
+        "gabapentina"
+       ],
+       "t": "litio, duloxetina y gabapentinoides"
+      },
+      {
+       "ids": [
+        "venlafaxina",
+        "amisulprida",
+        "paliperidona"
+       ],
+       "t": "venlafaxina y antipsicóticos de eliminación renal"
+      },
+      {
+       "ids": [
+        "polifarm"
+       ],
+       "t": "polifarmacia"
+      }
+     ]
+    },
+    {
+     "t": "Señales de alarma y seguridad",
+     "x": "Una confusión de aparición reciente, la somnolencia o las mioclonías en una persona con ERC obligan a descartar la encefalopatía urémica y la toxicidad de fármacos de eliminación renal antes de atribuirlas a un trastorno mental [fuente no localizada]; la ficha de Neurontin advierte de depresión respiratoria grave con gabapentina, con más riesgo en la insuficiencia renal, y la de Plenur contraindica el litio en la insuficiencia renal grave. La decisión de no iniciar o de retirar la diálisis exige valorar la capacidad de la persona y descartar una depresión tratable que condicione la decisión, sin presuponer que toda negativa sea patológica [fuente no localizada]. La ideación de muerte debe explorarse de forma directa y sin juicio, empleando un lenguaje no estigmatizante sobre la muerte por suicidio [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "consent_cap"
+       ],
+       "t": "capacidad para decidir"
+      },
+      {
+       "ids": [
+        "gabapentina",
+        "lm_bip"
+       ],
+       "t": "fármacos de riesgo en insuficiencia renal"
+      },
+      {
+       "ids": [
+        "delirium"
+       ],
+       "t": "delirium"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Palmer S et al. (2013). Prevalence of depression in chronic kidney disease: systematic review and meta-analysis of observational studies. Kidney Int 84:179-191 · PMID 23486521",
+    "Hedayati SS et al. (2017). Effect of sertraline on depressive symptoms in patients with chronic kidney disease without dialysis dependence: the CAST randomized clinical trial. JAMA 318:1876-1890 · PMID 29101402",
+    "Friedli K et al. (2017). Sertraline versus placebo in patients with major depressive disorder undergoing hemodialysis: a randomized, controlled feasibility trial. Clin J Am Soc Nephrol 12:280-286 · PMID 28126706",
+    "Mehrotra R et al. (2019). Comparative efficacy of therapies for treatment of depression for patients undergoing maintenance hemodialysis: a randomized clinical trial. Ann Intern Med 170:369-379 · PMID 30802897",
+    "Murray AM et al. (2006). Cognitive impairment in hemodialysis patients is common. Neurology 67:216-223 · PMID 16864811",
+    "Kurella Tamura M et al. (2008). Kidney function and cognitive impairment in US adults: the Reasons for Geographic and Racial Differences in Stroke (REGARDS) Study. Am J Kidney Dis 52:227-234 · PMID 18585836",
+    "Nagler EV et al. (2012). Antidepressants for depression in stage 3-5 chronic kidney disease: a systematic review of pharmacokinetics, efficacy and safety with recommendations by European Renal Best Practice (ERBP). Nephrol Dial Transplant 27:3736-3745 · PMID 22859791",
+    "Seifter JL & Samuels MA (2011). Uremic encephalopathy and other brain disorders associated with renal failure. Semin Neurol 31:139-143 · PMID 21590619",
+    "AEMPS-CIMA (2026). Fichas técnicas de Plenur 400 mg (litio, nº 48932; 4.2, 4.3, 4.4, 5.2), Cymbalta 30 mg (duloxetina, nº 04296001; 4.2, 4.3), Lyrica 25 mg (pregabalina, nº 04279003; 4.2, 5.2), Neurontin 300 mg (gabapentina, nº 60621; 4.2, 4.4, 5.2), Vandral Retard 75 mg (venlafaxina, nº 62401; 4.2, 5.2), Solian 100 mg (amisulprida, nº 63994; 4.2, 5.2) e Invega 6 mg (paliperidona, nº 107395045; 4.4), consultadas el 21-11-2026. https://cima.aemps.es",
+    "OMS (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS): GB61"
+   ],
+   "rel": [
+    "dep_med",
+    "enc_hep",
+    "delirium",
+    "ncd_leve",
+    "sertralina",
+    "lm_bip",
+    "pregabalina",
+    "duloxetina",
+    "piernas_inquietas",
+    "consent_cap",
+    "dcog"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "pmid_comprobados": 32,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {
+   "id": "cpic_isrs",
+   "gravedad": "mayor",
+   "antes": "Reproducía porcentajes de ajuste de dosis de la guía («reducir un 50 %», «un 25-50 % menor», «mitad de la dosis», «reducción del 25 %»).",
+   "despues": "Formulación cualitativa fiel («dosis inicial reducida», «mantenimiento reducido», «o alternativa»), con el mismo grado de recomendación y remisión a las tablas 2-4 de la guía para la cuantía. Todos los grados (fuerte, moderada, opcional, nivel C) se comprobaron y coinciden con la guía.",
+   "fuente": "Regla de no incluir pautas posológicas; Bousman 2023 (PMID 37032427), tablas 2-4 y texto completo en PubMed Central (PMC10564324), leídos en esta verificación"
+  },
+  {
+   "id": "cpic_tca",
+   "gravedad": "mayor",
+   "antes": "Reproducía «reducción del 25 %» y «reducción del 50 %» de la dosis inicial.",
+   "despues": "«Considerar una reducción de la dosis inicial» (intermedios de CYP2D6, moderada), «una reducción mayor» (lentos de CYP2D6, fuerte) y «una reducción» (lentos de CYP2C19, moderada), sin cifras y con remisión a las tablas 2 y 3. Se precisa que el grado de CYP2C19 corresponde a amitriptilina. Grados comprobados y coincidentes.",
+   "fuente": "Regla de no incluir pautas posológicas; Hicks 2017 (PMID 27997040), tablas 2-4 y texto completo en PubMed Central (PMC5478479), leídos en esta verificación"
+  },
+  {
+   "id": "moclobemida",
+   "gravedad": "mayor",
+   "antes": "«la línea asignada a la moclobemida en su tabla de antidepresivos no se ha podido contrastar [fuente no localizada] (segunda línea en la edición de 2016)».",
+   "despues": "«CANMAT 2023 la mantiene en segunda línea, con nivel 1 de evidencia, y reserva la tercera línea a los IMAO irreversibles fenelzina y tranilcipromina (tabla 3.3)». Marcador retirado.",
+   "fuente": "CANMAT 2023 (Lam 2024, PMID 38711351), tabla 3.3 «Summary Recommendations for Antidepressants» (imagen de PubMed Central, PMC11351064) y recuadro 7.1"
+  },
+  {
+   "id": "maois",
+   "gravedad": "mayor",
+   "antes": "No recogía la posición de la moclobemida en CANMAT 2023 y podía leerse que todos los IMAO son de tercera línea.",
+   "despues": "Se añade que la moclobemida permanece en segunda línea (tabla 3.3) y que la tercera línea corresponde a los irreversibles.",
+   "fuente": "CANMAT 2023 (Lam 2024, PMID 38711351), tabla 3.3 «Summary Recommendations for Antidepressants» (imagen de PubMed Central, PMC11351064) y recuadro 7.1"
+  },
+  {
+   "id": "clomipramina",
+   "gravedad": "mayor",
+   "antes": "Atribuía a Gillman (2007) que la clomipramina es, dentro de la clase, la de mayor riesgo serotoninérgico con IMAO «incluida la moclobemida» y que su efecto noradrenérgico se debe al metabolito desmetilado; ninguna de las dos ideas figura en el resumen y el texto completo no es de acceso abierto.",
+   "despues": "La contraindicación con IMAO y moclobemida se atribuye a la ficha técnica de Anafranil (4.3) y a Bonnet (2003); el papel del metabolito se remite a la ficha ya publicada. De Gillman solo se conserva lo que consta en el resumen.",
+   "fuente": "Resumen de PMID 17471183; ficha técnica de Anafranil (nº 44656) en CIMA, apartado 4.3"
+  },
+  {
+   "id": "nortriptilina",
+   "gravedad": "mayor",
+   "antes": "«IMAO: aunque su potencia serotoninérgica es baja (Gillman 2007), rige la contraindicación de la ficha técnica».",
+   "despues": "«aunque Gillman (2007) la considera farmacológicamente segura con ellos, rige la contraindicación de la ficha técnica (4.3)», que es lo que dice el resumen; se mantiene la primacía de la ficha técnica.",
+   "fuente": "Resumen de PMID 17471183; ficha técnica de Norfenazin (nº 48463), apartado 4.3"
+  },
+  {
+   "id": "nortriptilina",
+   "gravedad": "mayor",
+   "antes": "«el ritonavir inhibe CYP2D6 y el cobicistat lo hace de forma débil… la magnitud con nortriptilina no se ha localizado [fuente no localizada]», tomado de otra ficha del atlas.",
+   "despues": "Fuente primaria: la ficha técnica de Norvir prevé que el ritonavir a dosis antirretrovirales aumente la nortriptilina por inhibición de CYP2D6; cobicistat, inhibidor débil de CYP2D6 según la ficha de Tybost. El marcador se conserva solo para la magnitud a dosis de potenciador.",
+   "fuente": "Fichas técnicas de Norvir (nº 96016005, apartado 4.5) y Tybost (nº 113872001) en CIMA, leídas en esta verificación"
+  },
+  {
+   "id": "imipramina",
+   "gravedad": "mayor",
+   "antes": "Interacción con antirretrovirales potenciados sin fuente primaria; combinación con IMAO apoyada solo en NICE.",
+   "despues": "Ficha de Norvir (aumento previsto de imipramina con ritonavir a dosis antirretrovirales); contraindicación de IMAO y moclobemida según Tofranil (4.3) y contraindicación expresa de la imipramina en la ficha de la tranilcipromina (4.3 y 4.5).",
+   "fuente": "Fichas técnicas de Norvir (nº 96016005, apartado 4.5) y Tybost (nº 113872001) en CIMA, leídas en esta verificación; fichas técnicas de Tofranil (nº 31004) y Tranilcipromina Aristo (nº 88523)"
+  },
+  {
+   "id": "tca_dep",
+   "gravedad": "mayor",
+   "antes": "Antirretrovirales potenciados y estimulantes sin fuente primaria; combinación con IMAO apoyada solo en NICE.",
+   "despues": "Se cita la ficha de Norvir (imipramina, amitriptilina y nortriptilina) y el apartado 4.5 de las fichas de los tricíclicos sobre simpaticomiméticos; se añade que las fichas técnicas contraindican los IMAO. Marcador conservado para dosis de potenciador, cobicistat y sustancias recreativas.",
+   "fuente": "Fichas técnicas de Norvir (nº 96016005, apartado 4.5) y Tybost (nº 113872001) en CIMA, leídas en esta verificación; fichas técnicas de Norfenazin, Anafranil y Tofranil, apartados 4.3 y 4.5"
+  },
+  {
+   "id": "tranilcipromina",
+   "gravedad": "mayor",
+   "antes": "«No se han localizado en fuente primaria la frecuencia de hipotensión ortostática, insomnio o disfunción sexual [fuente no localizada]» y «la descripción de cuadros graves tras la retirada brusca no se ha localizado [fuente no localizada]».",
+   "despues": "La ficha técnica clasifica como muy frecuentes el insomnio, la hipotensión y la reacción ortostática, como frecuentes el aumento o la pérdida de peso y como raras la anorgasmia, la disfunción eréctil y los trastornos de la eyaculación (4.8), y pide evitar la interrupción brusca por fenómenos de abstinencia (4.2). Marcadores retirados.",
+   "fuente": "Ficha técnica de Tranilcipromina Aristo 10 mg (nº 88523) en CIMA, apartados 4.2 y 4.8"
+  },
+  {
+   "id": "tranilcipromina",
+   "gravedad": "mayor",
+   "antes": "«[la crisis hipertensiva] es infrecuente si se respetan las restricciones, cuyo alcance se ha sobrestimado según revisiones recientes (Flockhart 2012; Ricken 2017)»: Flockhart no afirma eso en el resumen y la frase podía leerse como relajación de la dieta.",
+   "despues": "«es infrecuente (Flockhart 2012) y el esfuerzo que exige la dieta pudo haberse sobrestimado (Ricken 2017), pero la ficha técnica mantiene la restricción desde 1 día antes hasta 14 días después del tratamiento (4.4)». Se añade la contraindicación de simpaticomiméticos indirectos y anfetaminas (4.3 y 4.5) y la «toxicidad aguda considerable» en sobredosis (4.9).",
+   "fuente": "Resúmenes de PMID 22951238 y 28579071; ficha técnica de Tranilcipromina Aristo, apartados 4.3-4.5 y 4.9"
+  },
+  {
+   "id": "clomipramina",
+   "gravedad": "menor",
+   "antes": "«frecuencia comparada [de disfunción sexual] no localizada [fuente no localizada]» y «efecto ponderal específico no localizado [fuente no localizada]»; interacciones «constan en la ficha técnica» sin detalle.",
+   "despues": "La ficha técnica clasifica como muy frecuentes los trastornos de la libido, la disfunción eréctil y el aumento de peso (4.8); recoge que los inhibidores de CYP2D6 elevan la clomipramina y que la fluvoxamina multiplicó por cuatro sus niveles (4.5) y describe síntomas de retirada. Marcadores retirados.",
+   "fuente": "Ficha técnica de Anafranil 25 mg (nº 44656) en CIMA, apartados 4.5 y 4.8"
+  },
+  {
+   "id": "clomipramina",
+   "gravedad": "menor",
+   "antes": "«en edad avanzada, su carga anticolinérgica aconseja valorar alternativas [fuente no localizada]»; «TOC y la enuresis desde los 5 años».",
+   "despues": "«en edad avanzada la ficha pide precaución y aumentos prudentes (4.2)»; se precisa que el límite de 5 años es el de la enuresis (4.1). Se añaden la duración del riesgo tras sobredosis (4 a 6 días) y la gravedad de la ingesta accidental infantil (4.9), y la potenciación de simpaticomiméticos (4.5).",
+   "fuente": "Ficha técnica de Anafranil, apartados 4.1, 4.2, 4.5 y 4.9"
+  },
+  {
+   "id": "nortriptilina",
+   "gravedad": "menor",
+   "antes": "«los datos específicos de disfunción sexual con nortriptilina no se han localizado [fuente no localizada]»; embarazo: solo «controlar niveles».",
+   "despues": "La ficha técnica recoge el aumento de peso como muy frecuente y la disminución de la libido como frecuente (4.8); no la recomienda en el embarazo salvo necesidad clara, pide niveles séricos y advierte de la excreción en la leche (4.6). Se conserva el marcador para los datos comparativos y para la ausencia de guía específica. Se añade la advertencia de la ficha sobre simpaticomiméticos (4.5).",
+   "fuente": "Ficha técnica de Norfenazin 25 mg (nº 48463) en CIMA, apartados 4.5, 4.6, 4.8 y 4.9"
+  },
+  {
+   "id": "imipramina",
+   "gravedad": "menor",
+   "antes": "«la evidencia específica de la imipramina [en dolor neuropático] no se ha localizado [fuente no localizada]».",
+   "despues": "«la revisión Cochrane halló poca evidencia, de muy baja calidad, que respalde su uso (Hearn 2014)»; referencia añadida. Se añade que la ficha de Tofranil recoge el aumento de peso como muy frecuente (4.8) y que el riesgo tras sobredosis puede durar 4-6 días (4.9).",
+   "fuente": "Hearn L et al. (2014), Cochrane Database Syst Rev 2014(5):CD010769, PMID 24838845 (resumen); ficha técnica de Tofranil (nº 31004)"
+  },
+  {
+   "id": "nortriptilina, imipramina, moclobemida, tranilcipromina, maois, tca_dep",
+   "gravedad": "menor",
+   "antes": "«Los resultados comunicados del metaanálisis en red de Cipriani (2018) no incluyen…» (formulación dubitativa basada en el resumen).",
+   "despues": "«No figura entre los 21 antidepresivos…»: el apartado de métodos enumera los 21 fármacos y de los tricíclicos solo incluye amitriptilina y clomipramina; ningún IMAO. En tca_dep se precisa que los abandonos de amitriptilina y clomipramina corresponden a las comparaciones directas.",
+   "fuente": "Cipriani 2018 (PMID 29477251), texto completo en PubMed Central (PMC5889788)"
+  },
+  {
+   "id": "los nueve nodos",
+   "gravedad": "menor",
+   "antes": "Recomendaciones de NICE NG222 sobre cambio a tricíclico o IMAO, depresión crónica y combinación con IMAO citadas sin número.",
+   "despues": "Se añaden los números comprobados: 1.9.5 (cambio en atención especializada), 1.10.2 y 1.10.6 (síntomas depresivos crónicos), además de 1.2.12, 1.4.18, 1.4.22 y 1.4.23, ya correctos.",
+   "fuente": "NICE NG222, capítulo de recomendaciones (nice.org.uk), leído en esta verificación"
+  },
+  {
+   "id": "moclobemida",
+   "gravedad": "menor",
+   "antes": "Sin fuente para estimulantes; cifra «55 %» sin denominador.",
+   "despues": "Se añade la advertencia de la ficha técnica sobre la potenciación de los simpaticomiméticos sistémicos (4.5) y «11 de 21 personas (55 %)». Marcador conservado para catinonas, metanfetamina, GHB, poppers, iPDE5 y antirretrovirales.",
+   "fuente": "Ficha técnica de Manerix 150 mg (nº 59169) en CIMA, apartados 4.3-4.9 y 5.1; resumen de PMID 12968990"
+  },
+  {
+   "id": "maois",
+   "gravedad": "menor",
+   "antes": "«La hipotensión ortostática de los IMAO irreversibles no se ha contrastado en fuente primaria [fuente no localizada]»; «Ambas complicaciones son raras si se respetan las restricciones (Flockhart 2012)».",
+   "despues": "Hipotensión y reacción ortostática muy frecuentes (ficha de Tranilcipromina Aristo, 4.8) e hipotensión frecuente (Manerix, 4.8); «Ambas complicaciones son infrecuentes (Flockhart 2012)»; se citan la contraindicación de anfetaminas y simpaticomiméticos indirectos (tranilcipromina, 4.3) y la advertencia de Manerix (4.5).",
+   "fuente": "Fichas técnicas de Tranilcipromina Aristo y Manerix en CIMA; resumen de PMID 22951238"
+  },
+  {
+   "id": "cpic_isrs",
+   "gravedad": "menor",
+   "antes": "CANMAT 2023 figuraba en las referencias sin citarse en el texto; antirretrovirales sin fuente primaria.",
+   "despues": "Se añade que CANMAT 2023 no recomienda el uso rutinario de pruebas farmacogenéticas (Q.3.k) y que la ficha de Norvir prevé aumentos de fluoxetina, paroxetina y sertralina con ritonavir a dosis antirretrovirales; marcador conservado para dosis de potenciador, cobicistat y MDMA.",
+   "fuente": "Lam 2024 (PMID 38711351), apartado Q.3.k; Fichas técnicas de Norvir (nº 96016005, apartado 4.5) y Tybost (nº 113872001) en CIMA, leídas en esta verificación"
+  },
+  {
+   "id": "cpic_tca",
+   "gravedad": "menor",
+   "antes": "«ritonavir y cobicistat inhiben CYP3A y, en distinto grado, CYP2D6… magnitud no localizada [fuente no localizada]».",
+   "despues": "Ficha de Norvir (aumento previsto de imipramina, amitriptilina y nortriptilina con ritonavir a dosis antirretrovirales) y de Tybost (cobicistat, inhibidor débil de CYP2D6); marcador conservado para la magnitud a dosis de potenciador.",
+   "fuente": "Fichas técnicas de Norvir (nº 96016005, apartado 4.5) y Tybost (nº 113872001) en CIMA, leídas en esta verificación"
+  },
+  {
+   "id": "nortriptilina, clomipramina, imipramina, moclobemida, tranilcipromina",
+   "gravedad": "menor",
+   "antes": "Estado regulatorio no comprobado en esta sesión por el autor.",
+   "despues": "Nota factual con el estado en CIMA (noviembre de 2026): Norfenazin 10 y 25 mg, Anafranil (cuatro presentaciones), Tofranil 10, 25 y 50 mg y Manerix 150 y 300 mg autorizados y comercializados (Tofranil 25 y 50 mg con problema de suministro señalado); Tranilcipromina Aristo 10 y 20 mg autorizada y no comercializada; fenelzina sin registro.",
+   "fuente": "API pública de CIMA (cima.aemps.es/cima/rest/medicamentos), consulta de noviembre de 2026"
+  },
+  {
+   "id": "cpic_isrs, cpic_tca, nortriptilina, moclobemida",
+   "gravedad": "menor",
+   "antes": "Referencias añadidas que duplicaban las ya publicadas en la ficha (guías CPIC con el mismo PMID, NICE NG222) y referencia de Manerix con apartados incompletos.",
+   "despues": "Duplicados retirados; referencia de Manerix actualizada con los apartados leídos; se añaden las referencias de las fichas técnicas consultadas (Norfenazin, Anafranil, Tofranil, Tranilcipromina Aristo, Norvir y Tybost) y del registro de CIMA.",
+   "fuente": "Comparación con «node tools/q.js show» de cada nodo"
+  }
+ ],
+ "sin_resolver": [
+  "FALLO EN FICHA PUBLICADA, CONFIRMADO (no modificado): cpic_isrs, campo «desc», dice que CYP2B6 orienta la dosis de sertralina con «recomendación opcional en lentos y moderada en intermedios». En la tabla 4 de Bousman 2023 ambas recomendaciones son opcionales (el texto lo ratifica: «these recommendations are optional»); «moderada» solo aparece para el fenotipo ultrarrápido de CYP2B6 (dosis habitual). Corrección propuesta: «(recomendación opcional tanto en intermedios como en lentos)». Fuente: PMID 37032427, tabla 4 y apartado «CYP2B6-sertraline dosing recommendations» (PMC10564324).",
+  "FALLO EN FICHA PUBLICADA, CONFIRMADO (no modificado): tca_dep, campo «tx», contiene una pauta («Imipramina 150-300mg; clomipramina en TOC y dep. grave») sin nombrar la ficha técnica, contraria a la regla de no incluir dosis. Corrección propuesta: «Segunda línea en depresión mayor (CANMAT 2023); elección del tricíclico y posología según la ficha técnica de cada fármaco, con valoración previa del riesgo de sobredosis (NICE NG222, 1.4.23)». Fuente: regla 3 del encargo; ficha técnica de Tofranil (nº 31004), cuyo límite literal ya consta en la ficha de imipramina; CANMAT 2023, tabla 3.3.",
+  "tca_dep, campo «desc» (no modificado): «La clomipramina sigue siendo el más eficaz en TOC» contradice a Skapinakis 2016 (PMID 27318812: clomipramina no superior a los ISRS, diferencia -1,23; ICrI 95 % -3,41 a 0,94) y a la propia viñeta de la ficha; y «Mayor eficacia que ISRS en melancolía» carece de referencia (Anderson 2000 habla de pacientes hospitalizados). Corrección propuesta: retirar la primera frase y marcar la segunda con «[fuente no localizada]» o sustituirla por el dato de Anderson 2000.",
+  "RESUELTO en las secciones nuevas, pendiente en la ficha publicada: moclobemida, campo «tx», dice «Segunda línea en CANMAT 2016 (Kennedy 2016)». La tabla 3.3 de CANMAT 2023 (leída como imagen en PubMed Central) la mantiene en segunda línea con nivel 1 de evidencia. Corrección propuesta: «Segunda línea en CANMAT 2023 (Lam 2024), sin cambio respecto a 2016». Lo mismo vale para «segunda línea en depresión (CANMAT 2016)» en nortriptilina e imipramina.",
+  "nortriptilina, alias «Paxtibi» (no modificado): en CIMA Paxtibi 25 mg (nº 41448) consta no comercializado y con fecha de revocación de la autorización (octubre de 2025); convendría anotarlo o retirar el alias. Las fichas de nortriptilina y tranilcipromina contienen además dosis literales de ficha técnica (permitidas por la regla 3 al nombrar la ficha), que no se han tocado.",
+  "Guías APA, WFSBP, BAP (depresión) y GuíaSalud: no consultadas tampoco en la verificación; el marcador «[fuente no localizada]» se conserva en tca_dep y maois. La posición de NICE y BAP en el pánico procede del resumen de Bighelli 2018, no de las guías originales.",
+  "Gillman 2007 (PMID 17471183): el texto completo no está en acceso abierto; solo se ha contrastado el resumen. Las afirmaciones que dependían del cuerpo del artículo se han reatribuido a fichas técnicas o a la ficha publicada.",
+  "Lotufo-Neto 1999, Shulman 2013, Flockhart 2012, Ulrich 2017, Ricken 2017, Serretti 2009 y 2010, De Picker 2014, Henssler 2024, Tondo 2010, Gijsman 2004, Thanacoody 2005, Vuori 2003 y Pilgrim 2012: verificados solo en el resumen de PubMed (todas las cifras citadas figuran en él).",
+  "Sustancias de uso recreativo: la única evidencia clínica primaria localizada es MDMA con moclobemida (Vuori 2003; Pilgrim 2012). Las fichas técnicas aportan base regulatoria para simpaticomiméticos y anfetaminas (Norfenazin, Anafranil y Tofranil 4.5; Manerix 4.5; Tranilcipromina Aristo 4.3 y 4.5) y para ritonavir a dosis antirretrovirales (Norvir 4.5). Siguen con «[fuente no localizada]»: mefedrona y otras catinonas, metanfetamina y MDMA con tricíclicos o tranilcipromina, GHB, poppers, inhibidores de la PDE5, ritonavir a dosis de potenciador, cobicistat con cada antidepresivo, y antirretrovirales potenciados con IMAO.",
+  "La ficha técnica de Norvir refiere la interacción con antidepresivos al ritonavir «dosificado como agente antirretroviral»; no cuantifica el efecto a dosis de potenciador ni menciona la clomipramina. Así se ha redactado; conviene que el autor decida si quiere contrastarlo con la base de Liverpool.",
+  "Marcadores conservados por no localizarse fuente: grado de recomendación de la clomipramina en la cataplejía; datos comparativos de disfunción sexual con nortriptilina; carga anticolinérgica de las aminas terciarias en personas mayores (imipramina); QTc y sangrado con moclobemida; guías sobre embarazo y lactancia con nortriptilina; eventos cardiacos según genotipo; hipotensión aditiva con poppers o iPDE5.",
+  "CIMA: el indicador de problema de suministro de Tofranil 25 y 50 mg y el estado «no comercializado» de Tranilcipromina Aristo proceden de la API de CIMA en la fecha de consulta y pueden cambiar; la vía de acceso a tranilcipromina como medicamento extranjero sigue sin fuente (ya marcada en la ficha publicada).",
+  "Las fichas técnicas se leyeron en la versión HTML de CIMA (Manerix, Tranilcipromina Aristo, Tofranil 25 mg, Norfenazin 25 mg, Anafranil 25 mg, Norvir comprimidos y Tybost); de las dos últimas solo los pasajes sobre CYP2D6, antidepresivos y anfetaminas. La ficha de Norfenazin contiene pasajes redactados con «amitriptilina» (interacciones), lo que no afecta a lo citado."
+ ]
+}

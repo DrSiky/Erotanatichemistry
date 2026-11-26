@@ -1,0 +1,790 @@
+{
+ "patch": {
+  "dsd": {
+   "secAdd": [
+    {
+     "t": "Salud mental en la edad adulta",
+     "x": "En dsd-LIFE, estudio transversal multicéntrico en seis países europeos con 1022 personas adultas con distintas DSD, alcanzaron puntuaciones por encima del punto de corte el 19,5 % en ansiedad, el 7,1 % en depresión, el 4,1 % en TDAH y el 9,1 % en rasgos autistas; los hombres con síndrome de Klinefelter y con DSD 46,XY puntuaron más alto en depresión y ansiedad que la población de referencia, y la autoestima, la satisfacción con la atención recibida, la insatisfacción corporal y las experiencias de vergüenza se asociaron con los síntomas en muchas condiciones (de Vries 2019). En una muestra piloto de 37 personas, el 59 % cumplía criterios de caso clínico en el BSI y las tasas de autolesiones e ideación suicida eran comparables a las de mujeres con antecedentes de abuso físico o sexual, aunque el reclutamiento impide generalizar (Schützmann 2009). La vergüenza y la experiencia médica vivida son, por tanto, dianas clínicas prioritarias.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "ddm"
+       ],
+       "t": "ansiedad y depresión"
+      },
+      {
+       "ids": [
+        "autolesion",
+        "ideac_suic"
+       ],
+       "t": "autolesión y riesgo suicida"
+      },
+      {
+       "ids": [
+        "tea"
+       ],
+       "t": "rasgos autistas"
+      },
+      {
+       "ids": [
+        "trauma"
+       ],
+       "t": "trauma médico"
+      }
+     ]
+    },
+    {
+     "t": "Cirugías tempranas: posiciones internacionales y terminología respetuosa",
+     "x": "Una revisión sistemática de 71 estudios sobre cirugías genitales «normalizadoras» en menores de diez años, firmada entre otros por personal de la OMS, halló que el 62,0 % no justificaba el momento de la intervención, el 39,4 % no justificaba su realización y el 52,1 % no reconocía ninguna controversia; los motivos se apoyaban poco en la evidencia y mucho en el deseo de los progenitores y en la estética genital, y las autoras recomiendan poner fin a las intervenciones irreversibles y electivas sin el consentimiento libre e informado de la persona, en línea con múltiples organismos legislativos y de derechos humanos (Muschialli 2024). Entre ellos se citan la Resolución 2191 (2017) de la Asamblea Parlamentaria del Consejo de Europa y la opinión 20/2012 de la comisión de ética suiza (referencias no verificadas en su texto). En la práctica conviene usar «persona intersexual», «persona con una variación intersexual» o «con una diferencia del desarrollo sexual» según prefiera la persona, evitar «hermafrodita» y no reducir a nadie a su diagnóstico [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "valores_etica",
+        "consent_cap"
+       ],
+       "t": "ética y consentimiento"
+      },
+      {
+       "ids": [
+        "estigma",
+        "genero"
+       ],
+       "t": "estigma y diversidad"
+      },
+      {
+       "ids": [
+        "ter_fam_inf"
+       ],
+       "t": "apoyo a las familias"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "de Vries ALC et al. (2019). Mental health of a large group of adults with disorders of sex development in six European countries. Psychosom Med 81:629-640 · PMID 31232913",
+    "Schützmann K et al. (2009). Psychological distress, self-harming behavior, and suicidal tendencies in adults with disorders of sex development. Arch Sex Behav 38:16-33 · PMID 17943433",
+    "Muschialli L et al. (2024). Perspectives on conducting «sex-normalising» intersex surgeries conducted in infancy: a systematic review. PLOS Glob Public Health 4:e0003568 · PMID 39197054",
+    "Asamblea Parlamentaria del Consejo de Europa (2017). Resolución 2191 (2017), Promoting the human rights of and eliminating discrimination against intersex people [no verificada]",
+    "Comisión Nacional de Ética en Biomedicina de Suiza (NEK-CNE) (2012). On the management of differences of sex development: ethical issues relating to «intersexuality». Opinión n.º 20/2012 [no verificada]"
+   ],
+   "relAdd": [
+    "estigma",
+    "trauma"
+   ]
+  },
+  "genero": {
+   "relAdd": [
+    "homoneg_int",
+    "asexualidad",
+    "trabajo_sexual",
+    "bdsm_kink"
+   ]
+  },
+  "lgb_afirm": {
+   "relAdd": [
+    "homoneg_int",
+    "asexualidad"
+   ]
+  },
+  "chemsex_s": {
+   "relAdd": [
+    "homoneg_int",
+    "trabajo_sexual",
+    "bdsm_kink"
+   ]
+  },
+  "estigma": {
+   "relAdd": [
+    "homoneg_int",
+    "asexualidad",
+    "trabajo_sexual"
+   ]
+  },
+  "cft": {
+   "relAdd": [
+    "homoneg_int"
+   ]
+  },
+  "ecosieg": {
+   "relAdd": [
+    "homoneg_int"
+   ]
+  },
+  "disf_sex": {
+   "relAdd": [
+    "asexualidad"
+   ]
+  },
+  "sexual_sx": {
+   "relAdd": [
+    "asexualidad",
+    "bdsm_kink"
+   ]
+  },
+  "tp_esquizoide": {
+   "relAdd": [
+    "asexualidad"
+   ]
+  },
+  "parafil": {
+   "relAdd": [
+    "bdsm_kink"
+   ]
+  },
+  "hipser": {
+   "relAdd": [
+    "bdsm_kink"
+   ]
+  },
+  "perit_forense": {
+   "relAdd": [
+    "bdsm_kink",
+    "trabajo_sexual"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "bdsm_kink",
+    "trabajo_sexual"
+   ]
+  },
+  "sinhogar": {
+   "relAdd": [
+    "trabajo_sexual"
+   ]
+  },
+  "violencia_genero": {
+   "relAdd": [
+    "trabajo_sexual",
+    "bdsm_kink"
+   ]
+  },
+  "red_danos": {
+   "relAdd": [
+    "trabajo_sexual"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "homoneg_int",
+   "n": "Homonegatividad, bifobia y transfobia interiorizadas",
+   "ab": "Estigma interiorizado",
+   "al": [
+    "Homofobia interiorizada",
+    "Homonegatividad internalizada",
+    "Estigma sexual interiorizado",
+    "Bifobia interiorizada",
+    "Transfobia interiorizada",
+    "Internalized homonegativity"
+   ],
+   "k": "mec",
+   "vw": "eti",
+   "sp": "psi",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 1995,
+   "tags": [
+    "lgtbi",
+    "chemsex"
+   ],
+   "desc": "Proceso proximal del estrés de minorías por el que la persona lesbiana, gay, bisexual o trans dirige hacia sí misma las actitudes sociales negativas sobre su orientación o su identidad. Meyer lo describió junto al estigma percibido (expectativa de rechazo) y la discriminación vivida: en 741 hombres gais de Nueva York, cada estresor se asoció de forma independiente con varias medidas de salud mental, y quienes tenían niveles altos de estrés de minorías tenían entre dos y tres veces más probabilidad de malestar elevado (Meyer 1995). En el metaanálisis de Newcomb y Mustanski (2010; 31 estudios, N = 5831), la homofobia interiorizada se asoció a más síntomas depresivos y ansiosos con un tamaño de efecto pequeño a moderado. No es un diagnóstico ni un rasgo de la persona, sino la huella psicológica de un entorno estigmatizante, modificable con intervenciones afirmativas.",
+   "feats": [
+    "Meyer (1995): en 741 hombres gais, homofobia interiorizada, estigma percibido y experiencias de discriminación y violencia se asociaron cada uno de forma independiente con el malestar psicológico; con estrés de minorías alto, la probabilidad de malestar elevado fue de dos a tres veces mayor",
+    "Newcomb y Mustanski (2010): 31 estudios (N = 5831) con medidas dimensionales; efecto pequeño a moderado, más intenso con la depresión que con la ansiedad y en muestras de mayor edad media; muchos estudios aplicaron a mujeres lesbianas escalas diseñadas para hombres gais",
+    "Newcomb y Mustanski (2011): en 16 estudios con HSH (N = 2837) la asociación con conductas sexuales de riesgo fue pequeña y disminuyó con el año de recogida de datos, lo que cuestiona su utilidad actual para explicar el riesgo sexual",
+    "Personas trans y de género diverso: en 85 estudios transversales, la transfobia interiorizada y la expectativa de rechazo se asociaron con depresión, ideación e intentos de suicidio con efectos mayores que la discriminación externa y la ocultación (Pellicane y Ciesla 2022)",
+    "Jóvenes LGTBIQ en Estados Unidos: estigma interiorizado y síntomas depresivos, r = 0,19-0,24; asociación muy débil con la ideación suicida; casi no hay estudios sobre bifobia o transfobia interiorizadas en este grupo (Williams 2023)",
+    "Medida: el Internalized Homonegativity Inventory (23 ítems; homonegatividad personal, afirmación gay y moralidad de la homosexualidad; Mayfield 2001) es uno de los nueve instrumentos distintos identificados en una revisión de mapeo de 201 estudios, que solo halló cuatro programas de prevención (Berg 2016)"
+   ],
+   "tx": "Explorar el estigma interiorizado como diana terapéutica, sin presuponerlo ni convertirlo en reproche; psicoeducación sobre estrés de minorías; reevaluación de creencias vergonzantes y reducción de la evitación y la ocultación (protocolo ESTEEM; Pachankis 2015); cultivo de la autocompasión; conexión con la comunidad y con recursos LGTBIQ; en chemsex, valorar su papel caso a caso dentro de la reducción de daños. Rechazar cualquier intento de modificar la orientación o la identidad.",
+   "note": "Casi toda la evidencia es transversal, de autoinforme y con muestras de conveniencia de hombres gais blancos estadounidenses; las mujeres lesbianas, las personas bisexuales y las personas trans están infrarrepresentadas y se han medido a menudo con escalas no diseñadas para ellas (Newcomb 2010; Williams 2023). La dirección causal no está establecida. El término «homofobia interiorizada» se ha criticado por sugerir una fobia individual; se prefieren «homonegatividad» o «estigma sexual interiorizado» [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Concepto y genealogía",
+     "x": "El estigma interiorizado es el componente más próximo al yo del modelo de estrés de minorías: Meyer (1995) distinguió la homofobia interiorizada (dirigir hacia uno mismo las actitudes sociales negativas), el estigma percibido (expectativa de rechazo y discriminación) y las experiencias reales de discriminación y violencia, y su revisión de 2003 los ordenó de distales a proximales (Meyer 2003). Herek propuso hablar de estigma sexual interiorizado, es decir, la aceptación por parte de la propia persona de las valoraciones sociales negativas sobre las minorías sexuales (Herek 2009, referencia no verificada en PubMed). La bifobia interiorizada añade el rechazo procedente tanto de entornos heterosexuales como de parte del colectivo LGTB [fuente no localizada], y la transfobia interiorizada muestra en personas trans efectos mayores que la discriminación externa (Pellicane 2022). Es un proceso del contexto, no una «egodistonía» intrínseca: la CIE-11 eliminó la orientación sexual egodistónica.",
+     "links": [
+      {
+       "ids": [
+        "genero",
+        "estigma"
+       ],
+       "t": "estrés de minorías y estigma"
+      },
+      {
+       "ids": [
+        "homosex_hist",
+        "hooker_hit"
+       ],
+       "t": "historia de la despatologización"
+      },
+      {
+       "ids": [
+        "incong_gen"
+       ],
+       "t": "personas trans"
+      }
+     ]
+    },
+    {
+     "t": "Medida y valoración clínica",
+     "x": "Existen al menos nueve escalas específicas (Berg 2016); el Internalized Homonegativity Inventory de Mayfield (2001) se validó en 241 hombres gais y la encuesta europea EMIS usa una versión breve, la Short Internalized Homonegativity Scale (Uholyeva 2022). En la entrevista conviene explorar sin juicio la vergüenza, la autodesvalorización, la ocultación selectiva, la evitación de la comunidad, la culpa asociada a la vida sexual y el lenguaje que la persona usa para nombrarse [fuente no localizada]. El efecto sobre la depresión es mayor que sobre la ansiedad y más intenso en muestras de más edad (Newcomb 2010); en jóvenes la asociación con la ideación suicida es débil (Williams 2023), por lo que el cribado del riesgo suicida debe hacerse siempre con instrumentos específicos y no deducirse de esta dimensión.",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "tag"
+       ],
+       "t": "depresión y ansiedad"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "entrevista culturalmente competente"
+      }
+     ]
+    },
+    {
+     "t": "Consumo, chemsex y salud sexual",
+     "x": "La relación con el riesgo sexual es pequeña y se ha debilitado con el tiempo (Newcomb 2011). En chemsex los datos son contradictorios: en 284 hispanohablantes, la homonegatividad interiorizada fue uno de los predictores de practicar chemsex, junto con la edad, el sexo sin preservativo, el estado serológico positivo y la escrupulosidad (Rodríguez-Expósito 2024); en la muestra checa de EMIS 2017, quienes practicaban chemsex (87 frente a 261 controles) no diferían en homonegatividad interiorizada, estaban más a menudo fuera del armario y más satisfechos con su vida sexual (Uholyeva 2022). En 503 HSH seguidos 12 meses, un perfil «inseguro» con homonegatividad interiorizada alta y malestar internalizante tendió a evolucionar hacia un perfil impulsivo de chemsex de riesgo (Fino 2026). La hipótesis de que las drogas sirvan para desinhibir la vergüenza es plausible pero no está demostrada [fuente no localizada]: la valoración debe ser individual.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_ssex"
+       ],
+       "t": "chemsex y salud sexual"
+      },
+      {
+       "ids": [
+        "chemsex_atencion",
+        "red_danos"
+       ],
+       "t": "atención y reducción de daños"
+      },
+      {
+       "ids": [
+        "tcs"
+       ],
+       "t": "consumo de sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Intervención afirmativa",
+     "x": "El estigma interiorizado es una de las dianas centrales de la psicoterapia afirmativa: el protocolo ESTEEM trabaja la vergüenza interiorizada, la expectativa de rechazo, la ocultación y la evitación con técnicas cognitivo-conductuales (Pachankis 2015). En un metaanálisis de 21 estudios (6573 personas no heterosexuales o no cisgénero), más autocompasión se asoció a menos depresión, ansiedad, ideación suicida y homofobia o transfobia interiorizadas, con una relación especialmente fuerte con el estigma interiorizado en personas mayores (Carvalho 2022); son datos correlacionales que orientan, pero no prueban, intervenciones basadas en la compasión. Lo opuesto a esta práctica son los esfuerzos de conversión, que refuerzan el estigma y están prohibidos en España (Ley 4/2023, art. 17).",
+     "links": [
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "psicoterapia afirmativa"
+      },
+      {
+       "ids": [
+        "cft",
+        "act_hayes"
+       ],
+       "t": "compasión y aceptación"
+      },
+      {
+       "ids": [
+        "ecosieg"
+       ],
+       "t": "terapias de conversión"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Meyer IH (1995). Minority stress and mental health in gay men. J Health Soc Behav 36:38-56 · PMID 7738327",
+    "Meyer IH (2003). Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: conceptual issues and research evidence. Psychol Bull 129:674-697 · PMID 12956539",
+    "Newcomb ME & Mustanski B (2010). Internalized homophobia and internalizing mental health problems: a meta-analytic review. Clin Psychol Rev 30:1019-1029 · PMID 20708315",
+    "Newcomb ME & Mustanski B (2011). Moderators of the relationship between internalized homophobia and risky sexual behavior in men who have sex with men: a meta-analysis. Arch Sex Behav 40:189-199 · PMID 19888643",
+    "Pellicane MJ & Ciesla JA (2022). Associations between minority stress, depression, and suicidal ideation and attempts in transgender and gender diverse (TGD) individuals: systematic review and meta-analysis. Clin Psychol Rev 91:102113 · PMID 34973649",
+    "Williams DY et al. (2023). Relationships between internalized stigma and depression and suicide risk among queer youth in the United States: a systematic review and meta-analysis. Front Psychiatry 14:1205581 · PMID 37547195",
+    "Mayfield W (2001). The development of an Internalized Homonegativity Inventory for gay men. J Homosex 41:53-76 · PMID 11482428",
+    "Berg RC, Munthe-Kaas HM & Ross MW (2016). Internalized homonegativity: a systematic mapping review of empirical research. J Homosex 63:541-558 · PMID 26436322",
+    "Carvalho SA & Guiomar R (2022). Self-compassion and mental health in sexual and gender minority people: a systematic review and meta-analysis. LGBT Health 9:287-302 · PMID 35357950",
+    "Rodríguez-Expósito B et al. (2024). Psychological characteristics associated with chemsex among men who have sex with men: internalized homophobia, conscientiousness and serostatus as predictive factors. Int J Clin Health Psychol 24:100465 · PMID 38737628",
+    "Uholyeva X & Pitoňák M (2022). Chemsex users in Czechia: EMIS survey. Cent Eur J Public Health 30:86-92 · PMID 35876596",
+    "Fino E et al. (2026). Chemsex-related risk among men who have sex with men: profiling and mapping psychological vulnerability over time. J Sex Res (publicación en línea 04-05-2026):1-18 · PMID 42081649",
+    "Pachankis JE et al. (2015). LGB-affirmative cognitive-behavioral therapy for young adult gay and bisexual men: a randomized controlled trial of a transdiagnostic minority stress approach. J Consult Clin Psychol 83:875-889 · PMID 26147563",
+    "Herek GM, Gillis JR & Cogan JC (2009). Internalized stigma among sexual minority adults: insights from a social psychological perspective. J Couns Psychol 56:32-43 [no verificada]",
+    "Ley 4/2023, de 28 de febrero (2023), para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI. BOE núm. 51 (BOE-A-2023-5366), art. 17"
+   ],
+   "rel": [
+    "genero",
+    "lgb_afirm",
+    "estigma",
+    "chemsex_s",
+    "ecosieg",
+    "ddm",
+    "ideac_suic",
+    "cft",
+    "homosex_hist",
+    "chemsex_atencion"
+   ]
+  },
+  {
+   "id": "asexualidad",
+   "n": "Asexualidad y espectro arromántico: una orientación, no un trastorno",
+   "ab": "Asexualidad",
+   "al": [
+    "Espectro asexual",
+    "Arromanticismo",
+    "Persona asexual",
+    "Asexuality"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2004,
+   "tags": [
+    "lgtbi"
+   ],
+   "desc": "La asexualidad se define de forma operativa como la ausencia de atracción sexual hacia otras personas. En una muestra probabilística británica de más de 18 000 personas, alrededor del 1 % se describió así, con más mujeres que hombres (Bogaert 2004). La revisión de Brotto y Yule (2017) concluyó que no hay base suficiente para considerarla un trastorno psiquiátrico ni un trastorno del deseo sexual y que probablemente cumple las condiciones de una orientación sexual. El espectro arromántico se refiere a la ausencia o escasez de atracción romántica, que puede coexistir o no con la asexualidad [fuente no localizada]. Su relevancia clínica no está en «tratarla», sino en no confundirla con una disfunción sexual y en reconocer el estigma y la invisibilidad que sufren estas personas.",
+   "feats": [
+    "Prevalencia: aproximadamente el 1 % (n = 195) de una muestra probabilística británica de más de 18 000 personas indicó no sentir atracción sexual por personas de ningún sexo; se asoció a ser mujer, menor estatura, menor nivel educativo y socioeconómico y peor salud (Bogaert 2004)",
+    "En 187 personas asexuales reclutadas en AVEN, la respuesta sexual fue menor que la normativa pero no se vivía con malestar, no hubo más psicopatología y la mayoría rechazó con fuerza que se la considerara un caso extremo de trastorno del deseo; un subgrupo podría cumplir criterios de personalidad esquizoide y un 12 % tenía alexitimia elevada (Brotto 2010)",
+    "Brotto y Yule (2017): la evidencia no apoya clasificarla como trastorno psiquiátrico, síntoma o trastorno del deseo; un subgrupo de personas que se identifican como asexuales podría tener una parafilia; es heterogénea y probablemente reúne las condiciones de una orientación sexual",
+    "Metaanálisis multivariado: las personas asexuales refieren más síntomas depresivos que las heterosexuales (g = −0,44), sin diferencias en intentos de autolesión ni de suicidio, y menos intentos que las personas bisexuales, gais y lesbianas (Xu 2023)",
+    "En 12 449 personas del espectro asexual de todo el mundo, el 64,8 % había sufrido estrés de minorías por su orientación sexual o romántica; en el último año, el 32,2 % refirió ideación suicida, el 10,6 % planes y el 2,7 % intentos; la victimización fue el estresor más asociado (Chan y Leung 2023)",
+    "El DSM-5-TR excluye el diagnóstico de trastorno del deseo cuando la falta de deseo se explica mejor por la autoidentificación como asexual [fuente no localizada para la redacción literal]; la CIE-11 sitúa la disfunción por deseo sexual hipoactivo (HA00) fuera del capítulo de trastornos mentales"
+   ],
+   "tx": "Validar la orientación y no plantear objetivos de «recuperación» del deseo cuando no hay malestar; si la persona consulta por dificultades de pareja, trabajar la negociación de la intimidad y de la actividad sexual con parejas no asexuales (Brotto 2010); valorar el estrés de minorías y el riesgo suicida; descartar causas médicas o farmacológicas solo cuando haya un cambio adquirido o malestar.",
+   "note": "La mayoría de los estudios usa muestras en línea de conveniencia reclutadas en comunidades asexuales, con definiciones heterogéneas (atracción, deseo, conducta o autoidentificación), lo que hace variar la prevalencia y limita la generalización. La evidencia es transversal. Los términos comunitarios del espectro (grisexual, demisexual, arromántico) carecen de validación psicométrica consolidada [fuente no localizada]. La presencia de rasgos esquizoides o de alexitimia en un subgrupo (Brotto 2010) no autoriza a interpretar la asexualidad como síntoma.",
+   "sec": [
+    {
+     "t": "Delimitación conceptual: atracción, deseo y conducta",
+     "x": "La asexualidad se entiende mejor como ausencia de atracción sexual que como ausencia de deseo, excitación o conducta: en el estudio de métodos mixtos de Brotto (2010) las personas asexuales variaban mucho en su respuesta sexual y en su conducta, y la frecuencia de masturbación de los hombres asexuales fue similar a la de los hombres sexuales. Por eso se distingue la atracción (orientación) de la respuesta fisiológica y de la conducta. La dimensión romántica es independiente: hay personas asexuales con atracción romántica hacia uno o varios géneros y personas arrománticas que sí sienten atracción sexual [fuente no localizada]. En la clínica conviene preguntar por separado por atracción sexual, atracción romántica, deseo, prácticas y vínculos, y usar la palabra con la que la persona se identifica.",
+     "links": [
+      {
+       "ids": [
+        "genero"
+       ],
+       "t": "diversidad sexual"
+      },
+      {
+       "ids": [
+        "sexual_sx"
+       ],
+       "t": "semiología de la sexualidad"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial con el deseo sexual hipoactivo",
+     "x": "El trastorno de deseo sexual hipoactivo exige malestar clínicamente significativo; en la asexualidad la baja respuesta sexual no se vive con malestar (Brotto 2010), y el DSM-5-TR indica en su texto que no se diagnostica cuando la falta de deseo se explica mejor por la autoidentificación como asexual [fuente no localizada para la redacción literal]. La CIE-11 clasifica la disfunción por deseo sexual hipoactivo (HA00) en el capítulo 17 de afecciones relacionadas con la salud sexual. Un descenso adquirido del deseo con malestar orienta a otras causas: depresión con anhedonia, efectos de antidepresivos o antipsicóticos, hipogonadismo o hiperprolactinemia, evitación sexual postraumática o conflicto de pareja. La personalidad esquizoide se plantea solo si hay desapego social generalizado, no por la asexualidad en sí (Brotto 2010).",
+     "links": [
+      {
+       "ids": [
+        "disf_sex"
+       ],
+       "t": "disfunciones sexuales"
+      },
+      {
+       "ids": [
+        "disf_sexual_psicof"
+       ],
+       "t": "disfunción sexual por psicofármacos"
+      },
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "anhedonia depresiva"
+      },
+      {
+       "ids": [
+        "tp_esquizoide"
+       ],
+       "t": "personalidad esquizoide"
+      }
+     ]
+    },
+    {
+     "t": "Salud mental, estigma y atención afirmativa",
+     "x": "Las personas asexuales comparten con el resto del colectivo el estrés de minorías, con formas propias: negación de su orientación, presión para «curarse» y patologización. En la mayor muestra disponible (12 449 personas), casi dos tercios habían sufrido estrés de minorías y la asociación entre este y la suicidalidad estuvo mediada por el deterioro de la salud; la suicidalidad fue mayor en hombres asexuales, personas no binarias, personas trans, jóvenes y residentes en países de menor renta (Chan y Leung 2023). El metaanálisis de Xu (2023) muestra más síntomas depresivos que en población heterosexual, pero no más intentos de suicidio. Los autores recomiendan prácticas de salud mental que afirmen la asexualidad y educación pública para desmontar los malentendidos (Chan y Leung 2023).",
+     "links": [
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "competencia_cult"
+       ],
+       "t": "práctica afirmativa"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Bogaert AF (2004). Asexuality: prevalence and associated factors in a national probability sample. J Sex Res 41:279-287 · PMID 15497056",
+    "Brotto LA et al. (2010). Asexuality: a mixed-methods approach. Arch Sex Behav 39:599-618 · PMID 19082703",
+    "Brotto LA & Yule M (2017). Asexuality: sexual orientation, paraphilia, sexual dysfunction, or none of the above? Arch Sex Behav 46:619-627 · PMID 27542079",
+    "Xu Y, Ma Y & Rahman Q (2023). Comparing asexual with heterosexual, bisexual, and gay/lesbian individuals in common mental health problems: a multivariate meta-analysis. Clin Psychol Rev 105:102334 · PMID 37690324",
+    "Chan RCH & Leung JSY (2023). Experiences of minority stress and their impact on suicidality among asexual individuals. J Affect Disord 325:794-803 · PMID 36623572",
+    "DSM-5-TR (2022). Trastorno de deseo sexual hipoactivo en el varón y trastorno del interés o la excitación sexual femeninos (texto y diagnóstico diferencial)",
+    "CIE-11 (2019). HA00 Disfunción por deseo sexual hipoactivo, capítulo 17 «Afecciones relacionadas con la salud sexual»"
+   ],
+   "rel": [
+    "genero",
+    "disf_sex",
+    "sexual_sx",
+    "tp_esquizoide",
+    "lgb_afirm",
+    "estigma",
+    "disf_sexual_psicof"
+   ]
+  },
+  {
+   "id": "bdsm_kink",
+   "n": "Prácticas BDSM y sexualidades no normativas: despatologización y consentimiento",
+   "ab": "BDSM y kink",
+   "al": [
+    "BDSM",
+    "Kink",
+    "Sadomasoquismo consentido",
+    "Sexualidades no normativas",
+    "Dominación y sumisión"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "ins",
+   "ring": 4,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2013,
+   "tags": [
+    "forense"
+   ],
+   "desc": "BDSM agrupa prácticas de bondage y disciplina, dominación y sumisión y sadomasoquismo realizadas entre personas adultas que consienten. La CIE-11 suprimió el sadomasoquismo como categoría y solo considera trastornos parafílicos los patrones que implican a personas que no consienten o no pueden consentir o, si la conducta es solitaria o consentida, los que causan malestar marcado o un riesgo significativo de lesión o muerte (Reed 2016; Krueger 2017). Los estudios en personas practicantes no muestran más psicopatología que en la población general (Wismeijer 2013; Brown 2020). La clínica y la pericia deben centrarse en el consentimiento, el riesgo y el malestar, no en la rareza estadística de la práctica.",
+   "feats": [
+    "CIE-11: el sadismo sexual solo es trastorno en su forma coercitiva (6D33), dirigida a personas que no consienten; las prácticas consentidas solo se codifican (6D36) si producen malestar marcado o riesgo significativo de lesión o muerte",
+    "En 902 practicantes de BDSM frente a 434 controles, las personas practicantes fueron menos neuróticos, más extravertidos, más abiertos a la experiencia y más responsables, menos sensibles al rechazo y con mayor bienestar subjetivo, aunque menos amables; los autores lo describen como una forma de ocio y no como expresión de psicopatología (Wismeijer y van Assen 2013)",
+    "Revisión de alcance de 60 artículos: las fantasías relacionadas con el BDSM son frecuentes (40-70 %) en hombres y mujeres, alrededor del 20 % refiere practicarlo, y las personas practicantes estudiadas no tienen más problemas de salud mental ni de pareja; escaso apoyo a los modelos psicopatológicos y psicoanalíticos (Brown 2020)",
+    "Matiz clínico: en 115 mujeres con trastorno límite frente a 115 controles, la práctica de BDSM fue más frecuente (51 % frente a 23 % a lo largo de la vida) y, aunque las fantasías masoquistas excitaban a proporciones similares, el malestar asociado fue mayor (53 % frente a 21 %) y se relacionó con la gravedad del abuso sexual infantil (Warkentin 2025)",
+    "Sesgo profesional: en una encuesta a 175 personas que practican BDSM y a 17 profesionales de salud mental, las personas usuarias describieron atención sesgada, lo que fundamenta la necesidad de guías de práctica culturalmente competentes (Kolmes 2006)"
+   ],
+   "tx": "Posición profesional informada y sin juicio: no tratar la práctica consentida como síntoma; explorar consentimiento, límites, riesgos físicos (en particular el control de la respiración), consumo de sustancias y violencia en la pareja; si hay malestar, distinguir el que procede del estigma del que procede de la propia conducta; atención informada por el trauma cuando la práctica se usa para regular emociones o autolesionarse.",
+   "note": "Las muestras son de conveniencia, reclutadas en comunidades BDSM, con predominio de personas blancas, jóvenes y con estudios (Brown 2020), y casi todos los estudios son transversales. El estudio de Wismeijer (2013) se basó en cuestionarios en línea. Los datos de Warkentin (2025) proceden de una población clínica concreta y no deben generalizarse. No hay guías clínicas oficiales españolas sobre atención a personas que practican BDSM [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Despatologización: de Krafft-Ebing a la CIE-11",
+     "x": "El sadismo y el masoquismo entraron en la nosología con la Psychopathia sexualis de Krafft-Ebing y permanecieron en la CIE-10 como trastornos de la preferencia sexual. La revisión de la CIE-11 aplicó criterios de evidencia científica, práctica clínica y derechos humanos: eliminó el sadomasoquismo, el fetichismo y el travestismo fetichista, y reservó la categoría de trastorno parafílico para los patrones centrados en personas que no consienten o no pueden consentir (Reed 2016; Krueger 2017). El DSM-5-TR distingue la parafilia, que por sí sola no es un trastorno, del trastorno parafílico, que exige malestar o deterioro o daño o riesgo para otras personas. El interés intenso por estas prácticas no es, por tanto, diagnóstico; tampoco lo es la orientación sexual de quien las practica.",
+     "links": [
+      {
+       "ids": [
+        "parafil"
+       ],
+       "t": "parafilias y trastornos parafílicos"
+      },
+      {
+       "ids": [
+        "krafft_ebing_hit",
+        "cie11_hit"
+       ],
+       "t": "historia de la clasificación"
+      },
+      {
+       "ids": [
+        "hipser"
+       ],
+       "t": "conducta sexual compulsiva"
+      }
+     ]
+    },
+    {
+     "t": "Salud mental de quienes practican BDSM",
+     "x": "Los datos comparativos no apoyan la idea de que el BDSM sea consecuencia de trauma o psicopatología: las personas practicantes muestran perfiles de personalidad y de apego iguales o más favorables que los controles, con diferencias más favorables en el rol dominante que en el sumiso (Wismeijer 2013), y la revisión de Brown (2020) lo entiende como una ampliación del repertorio sexual más que como una fijación. Ello no excluye subgrupos clínicos: en mujeres con trastorno límite, las fantasías masoquistas se acompañan con más frecuencia de malestar, que se asocia al abuso sexual infantil y al uso de la sexualidad para regular emociones y autoestima (Warkentin 2025). La pregunta clínica útil no es «por qué practica BDSM», sino si la práctica es libre, segura y satisfactoria o si sirve como autolesión o repetición traumática.",
+     "links": [
+      {
+       "ids": [
+        "tlp"
+       ],
+       "t": "trastorno límite"
+      },
+      {
+       "ids": [
+        "trauma",
+        "autolesion"
+       ],
+       "t": "trauma y autolesión"
+      },
+      {
+       "ids": [
+        "competencia_cult"
+       ],
+       "t": "atención sin sesgo"
+      }
+     ]
+    },
+    {
+     "t": "Consentimiento, riesgo y ámbito pericial",
+     "x": "En el Código Penal español, el consentimiento válido, libre, espontáneo y expreso de la persona ofendida rebaja en uno o dos grados la pena de las lesiones (art. 155), y en los delitos contra la libertad sexual solo hay consentimiento cuando se manifiesta libremente mediante actos que expresen de forma clara la voluntad de la persona (art. 178, redacción de la LO 10/2022). El consentimiento clínico y jurídico requiere capacidad: la intoxicación por GHB u otras drogas puede anularlo. En 74 muertes no naturales relacionadas con la actividad sexual en 25 años de autopsias en Fráncfort, tres ocurrieron en prácticas BDSM, y los autores califican la estrangulación y los estimulantes como técnicas potencialmente mortales (Bunzel 2019); la asfixia durante el sexo puede causar pérdida de conciencia en segundos (Kero 2026). En la pericia, la práctica BDSM no indica por sí misma peligrosidad ni incapacidad parental [fuente no localizada]: lo relevante es diferenciarla del sadismo coercitivo y de la violencia en la pareja.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense",
+        "riesgo_viol"
+       ],
+       "t": "pericia y riesgo"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "consentimiento y drogas"
+      },
+      {
+       "ids": [
+        "violencia_genero"
+       ],
+       "t": "violencia en la pareja"
+      }
+     ]
+    },
+    {
+     "t": "Intersección con el chemsex",
+     "x": "En la cohorte francesa ANRS-PREVENIR (2493 HSH usuarios de PrEP), quienes practicaban chemsex refirieron con más frecuencia fisting o prácticas BDSM y depresión que quienes consumían drogas fuera del contexto sexual, aunque tenían mejor adherencia a la PrEP (Sagaon-Teyssier 2025). La combinación de prácticas intensas o prolongadas con estimulantes, GHB o ketamina eleva el riesgo de lesiones no percibidas, de pérdida de la capacidad para consentir y de sobredosis [fuente no localizada]. La entrevista debe preguntar por ambas cosas sin moralizar y ofrecer información de reducción de daños: acordar límites antes del consumo, no combinar control de la respiración con depresores, y vigilancia mutua.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_ssex"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Reed GM et al. (2016). Disorders related to sexuality and gender identity in the ICD-11: revising the ICD-10 classification based on current scientific evidence, best clinical practices, and human rights considerations. World Psychiatry 15:205-221 · PMID 27717275",
+    "Krueger RB et al. (2017). Proposals for paraphilic disorders in the ICD-11. Arch Sex Behav 46:1529-1545 · PMID 28210933",
+    "CIE-11 (2019). Trastornos parafílicos 6D30-6D3Z: 6D33 Trastorno de sadismo sexual coercitivo; 6D36 Trastorno parafílico que implica conducta solitaria o a personas que consienten",
+    "DSM-5-TR (2022), Trastornos parafílicos",
+    "Wismeijer AAJ & van Assen MALM (2013). Psychological characteristics of BDSM practitioners. J Sex Med 10:1943-1952 · PMID 23679066",
+    "Brown A, Barker ED & Rahman Q (2020). A systematic scoping review of the prevalence, etiological, psychological, and interpersonal factors associated with BDSM. J Sex Res 57:781-811 · PMID 31617765",
+    "Warkentin HF et al. (2025). BDSM and masochistic sexual fantasies in women with borderline personality disorder: simply on the spectrum of «normality» or source of suffering? Borderline Personal Disord Emot Dysregul 12:7 · PMID 39987455",
+    "Kolmes K, Stock W & Moser C (2006). Investigating bias in psychotherapy with BDSM clients. J Homosex 50:301-324 · PMID 16803769",
+    "Bunzel L et al. (2019). Non-natural death associated with sexual activity: results of a 25-year medicolegal postmortem study. J Sex Med 16:1547-1556 · PMID 31447384",
+    "Kero K, Lauerma H & Wahlsten P (2026). «And then I got strangled»: dangerous trends of sexual choking among young people. Acta Obstet Gynecol Scand 105:975-978 · PMID 42007644",
+    "Sagaon-Teyssier L et al. (2025). Differences between men who have sex with men that use drugs and engage in chemsex and those who do not engage in chemsex in the French ANRS-PREVENIR cohort: the need to rethink harm reduction services. Subst Abuse Treat Prev Policy 20:33 · PMID 40855328",
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995), arts. 155 y 178 (este último en la redacción de la Ley Orgánica 10/2022, de 6 de septiembre, de garantía integral de la libertad sexual)"
+   ],
+   "rel": [
+    "parafil",
+    "hipser",
+    "sexual_sx",
+    "perit_forense",
+    "sumision_q",
+    "chemsex_s",
+    "violencia_genero",
+    "tlp"
+   ]
+  },
+  {
+   "id": "trabajo_sexual",
+   "n": "Trabajo sexual y salud mental",
+   "ab": "Trabajo sexual",
+   "al": [
+    "Personas que ejercen trabajo sexual",
+    "Prostitución",
+    "Sexo transaccional",
+    "Sex work"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 2,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "meta",
+   "y": 2018,
+   "tags": [
+    "risk",
+    "trauma",
+    "chemsex",
+    "forense"
+   ],
+   "desc": "Las personas que ejercen trabajo sexual presentan una carga elevada de depresión, trastorno de estrés postraumático y conducta suicida, estrechamente ligada a la violencia, el estigma, la pobreza, el consumo de sustancias, el VIH y la situación administrativa. En mujeres, los metaanálisis sitúan la prevalencia de depresión en torno al 42-44 % y la de ideación suicida entre el 23 % y el 27 % (Beattie 2020; Millan-Alanis 2021). La violencia laboral a lo largo de la vida afecta a entre el 45 % y el 75 % (Deering 2014), y la persecución policial se asocia a más violencia y más infecciones (Platt 2018). El trabajo sexual entre personas adultas debe diferenciarse de la trata con fines de explotación sexual, que es un delito y una grave violación de derechos humanos. La atención debe ser accesible, confidencial y libre de estigma.",
+   "feats": [
+    "Países de renta baja y media (56 estudios, 24 940 mujeres): depresión 41,8 %, ansiedad 21,0 %, TEPT 19,7 %, malestar psicológico 40,8 %, ideación suicida reciente 22,8 % e intento reciente 6,3 %; la violencia se asoció a depresión y conducta suicida y el consumo de drogas a depresión (Beattie 2020)",
+    "Metaanálisis mundial en mujeres (55 estudios, solo 11 de calidad alta): ideación suicida 27 %, intento de suicidio 20 %, depresión 44 % y TEPT 29 % (Millan-Alanis 2021)",
+    "Violencia: prevalencia de violencia laboral a lo largo de la vida del 45-75 % y en el último año del 32-55 % (Deering 2014); violencia sexual a lo largo de la vida del 26,3 %, asociada a problemas de salud mental (OR 1,85) y a consumo de alcohol y drogas (OR 1,95) (Püffel 2026)",
+    "La persecución policial represiva se asoció a más violencia sexual o física (OR 2,99), más VIH o ITS (OR 1,87) y más sexo sin preservativo (OR 1,42), y agravó las desigualdades de las personas trans, migrantes y que consumen drogas (Platt 2018)",
+    "En 193 mujeres entrevistadas en Zúrich con la CIDI, las tasas de trastornos mentales fueron elevadas y se relacionaron con la violencia y con la carga subjetiva del trabajo (Rössler 2010)",
+    "Entre HSH de Asia, la prevalencia de chemsex fue del 28 % en quienes ejercían trabajo sexual frente al 19 % en el conjunto de HSH (Wang 2023)"
+   ],
+   "tx": "Atención accesible, confidencial y sin condiciones (no exigir el abandono de la actividad para atender); enfoque informado por el trauma; cribado de depresión, TEPT, riesgo suicida, consumo y violencia; reducción de daños y salud sexual (PrEP, ITS); coordinación con recursos sociosanitarios y entidades especializadas; ante indicios de trata, priorizar la seguridad y activar los recursos de protección.",
+   "note": "Los estudios son casi todos transversales, con muestreos no aleatorios, instrumentos y puntos de corte heterogéneos y predominio de mujeres cisgénero en países de renta baja y media; los hombres y las personas trans están infrarrepresentados (Beattie 2020; Platt 2018). Los resultados sobre el marco legal son discordantes: Platt (2018) asocia la criminalización y la persecución policial a más daño, mientras que en el metaanálisis de Kalinowski (2024) el estatus legal y la situación económica no modificaron la salud mental. El debate entre modelos abolicionistas y de despenalización excede la evidencia clínica y no se resuelve aquí.",
+   "sec": [
+    {
+     "t": "Epidemiología y factores asociados",
+     "x": "Las prevalencias de trastornos mentales son altas en todos los metaanálisis, pero muy heterogéneas. En 80 estudios (24 675 mujeres de más de treinta países), presentaban más problemas de salud mental las mujeres que vivían con el VIH, las migrantes y las que consumían sustancias, mientras que el estatus legal del trabajo sexual y las condiciones económicas no mostraron efecto (Kalinowski 2024). En países de renta baja y media, la depresión se asoció además al uso inconsistente del preservativo con clientes y a la infección por VIH (Beattie 2020). La relación entre trabajo sexual y salud mental no es unidireccional: la violencia, el estigma y la exclusión aparecen como mediadores principales (Rössler 2010), y la pobreza, el sinhogarismo y el consumo previo son factores comunes [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm",
+        "ptsd"
+       ],
+       "t": "depresión y TEPT"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "conducta suicida"
+      },
+      {
+       "ids": [
+        "vih_ncd",
+        "sinhogar"
+       ],
+       "t": "VIH y exclusión residencial"
+      }
+     ]
+    },
+    {
+     "t": "Violencia, estigma y marco normativo",
+     "x": "La violencia es el factor más constante: entre el 45 % y el 75 % de las personas que ejercen trabajo sexual la sufren en el trabajo a lo largo de la vida, con factores contextuales además de individuales (Deering 2014). La síntesis de 207 estudios publicados desde 2013 encontró violación como forma más registrada de violencia sexual y asociaciones con depresión, TEPT, suicidalidad, consumo e ITS; no pudo evaluar el efecto del modelo legislativo por falta de datos (Püffel 2026). La revisión de Platt (2018), con 40 estudios cuantitativos y 94 cualitativos, describió cómo la persecución policial desplaza el trabajo a lugares aislados, rompe redes de apoyo, desalienta llevar preservativos y dificulta el acceso a la justicia. El estigma, incluido el del sistema sanitario, retrasa la petición de ayuda [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "violencia_genero"
+       ],
+       "t": "violencia y valoración pericial"
+      },
+      {
+       "ids": [
+        "estigma",
+        "determ_soc_sm"
+       ],
+       "t": "estigma y determinantes sociales"
+      },
+      {
+       "ids": [
+        "trauma"
+       ],
+       "t": "trauma"
+      }
+     ]
+    },
+    {
+     "t": "Diferencia con la trata y marco legal español",
+     "x": "La trata de seres humanos consiste en captar, transportar, trasladar, acoger o recibir a una persona mediante violencia, intimidación, engaño o abuso de una situación de superioridad, necesidad o vulnerabilidad con fines de explotación, incluida la sexual; el Código Penal la castiga en el art. 177 bis, que declara irrelevante el consentimiento de la víctima cuando se ha recurrido a esos medios. El art. 187 castiga a quien determina a una persona mayor de edad a ejercer la prostitución empleando violencia, intimidación, engaño o abusando de su situación, y a quien se lucra explotándola aun con su consentimiento. El ejercicio de la prostitución por una persona adulta no es delito en España. El marco internacional es el Protocolo de Palermo (2000). En la clínica, indicadores como retención de documentos, deudas, control de movimientos o miedo a terceros obligan a valorar la trata con prudencia y sin presuponerla [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "pericia"
+      },
+      {
+       "ids": [
+        "context",
+        "estres_acultur"
+       ],
+       "t": "migración"
+      },
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "consentimiento y violencia sexual"
+      }
+     ]
+    },
+    {
+     "t": "Consumo, chemsex y atención no estigmatizante",
+     "x": "El consumo de alcohol se asoció a conducta suicida reciente y el de drogas ilegales a depresión en mujeres que ejercen trabajo sexual (Beattie 2020). Entre hombres que tienen sexo con hombres, el sexo transaccional se asocia a más chemsex, tanto en quienes lo ejercen como en sus clientes (28 % en ambos grupos frente al 19 % del conjunto de HSH en Asia; Wang 2023); los datos europeos y españoles sobre chemsex en el trabajo sexual masculino y trans son escasos [fuente no localizada]. La atención debe partir de la autonomía de la persona, sin condicionar la ayuda a dejar la actividad, integrar reducción de daños, salud sexual y salud mental en un mismo circuito, garantizar la confidencialidad y adaptarse a horarios y barreras idiomáticas [fuente no localizada]. La competencia cultural y la práctica afirmativa LGTBIQ son especialmente relevantes para las personas trans que ejercen.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_s",
+        "chemsex_atencion"
+       ],
+       "t": "chemsex"
+      },
+      {
+       "ids": [
+        "red_danos",
+        "tcs"
+       ],
+       "t": "consumo y reducción de daños"
+      },
+      {
+       "ids": [
+        "lgb_afirm",
+        "competencia_cult"
+       ],
+       "t": "atención afirmativa"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Beattie TS et al. (2020). Mental health problems among female sex workers in low- and middle-income countries: a systematic review and meta-analysis. PLoS Med 17:e1003297 · PMID 32931504",
+    "Millan-Alanis JM et al. (2021). Prevalence of suicidality, depression, post-traumatic stress disorder, and anxiety among female sex workers: a systematic review and meta-analysis. Arch Womens Ment Health 24:867-879 · PMID 34110487",
+    "Kalinowski O et al. (2024). Prevalence, risk and resilience factors of mental health conditions among female sex workers: a systematic review and meta-analysis. Front Public Health 12:1455999 · PMID 39877911",
+    "Deering KN et al. (2014). A systematic review of the correlates of violence against sex workers. Am J Public Health 104:e42-e54 · PMID 24625169",
+    "Platt L et al. (2018). Associations between sex work laws and sex workers' health: a systematic review and meta-analysis of quantitative and qualitative studies. PLoS Med 15:e1002680 · PMID 30532209",
+    "Püffel M et al. (2026). Systematic review of sexual violence against sex workers: implications for mental and sexual health. BMC Public Health 26 · PMID 42380886",
+    "Rössler W et al. (2010). The mental health of female sex workers. Acta Psychiatr Scand 122:143-152 · PMID 20105147",
+    "Wang H, Jonas KJ & Guadamuz TE (2023). Chemsex and chemsex associated substance use among men who have sex with men in Asia: a systematic review and meta-analysis. Drug Alcohol Depend 243:109741 · PMID 36630807",
+    "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (1995), arts. 177 bis (trata de seres humanos) y 187 (prostitución forzada y explotación)",
+    "Protocolo para prevenir, reprimir y sancionar la trata de personas, especialmente mujeres y niños, que complementa la Convención de las Naciones Unidas contra la Delincuencia Organizada Transnacional (2000) [no verificada]"
+   ],
+   "rel": [
+    "sinhogar",
+    "estigma",
+    "violencia_genero",
+    "ptsd",
+    "chemsex_s",
+    "red_danos",
+    "tcs",
+    "context",
+    "sustanc",
+    "determ_soc_sm"
+   ]
+  }
+ ]
+}

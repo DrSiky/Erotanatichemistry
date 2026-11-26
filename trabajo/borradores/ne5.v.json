@@ -1,0 +1,898 @@
+{
+ "patch": {
+  "leonhard_hit": {
+   "relAdd": [
+    "wkl_sistematicas",
+    "wurzburg_escuela",
+    "wkl_combinadas",
+    "pers_acentuadas"
+   ]
+  },
+  "kleist_hit": {
+   "relAdd": [
+    "wurzburg_escuela"
+   ]
+  },
+  "wkl19": {
+   "relAdd": [
+    "wkl_sistematicas",
+    "wurzburg_escuela",
+    "wkl_combinadas"
+   ]
+  },
+  "wkl20": {
+   "relAdd": [
+    "wkl_sistematicas",
+    "wkl_combinadas"
+   ]
+  },
+  "wkl24": {
+   "relAdd": [
+    "wkl_sistematicas",
+    "wkl_combinadas",
+    "wkl_infancia"
+   ]
+  },
+  "wkl25": {
+   "relAdd": [
+    "wkl_combinadas"
+   ]
+  },
+  "wkl30": {
+   "relAdd": [
+    "wkl_combinadas"
+   ]
+  },
+  "subtipos_esq": {
+   "relAdd": [
+    "wkl_sistematicas"
+   ]
+  },
+  "pcicloid": {
+   "relAdd": [
+    "wurzburg_escuela"
+   ]
+  },
+  "psciclb": {
+   "relAdd": [
+    "wurzburg_escuela"
+   ]
+  },
+  "tea_catatonia": {
+   "relAdd": [
+    "wkl_infancia"
+   ]
+  },
+  "eop": {
+   "relAdd": [
+    "wkl_infancia"
+   ]
+  },
+  "catatonia": {
+   "relAdd": [
+    "wkl_infancia",
+    "wurzburg_escuela"
+   ]
+  },
+  "kanner_hit": {
+   "relAdd": [
+    "wkl_infancia"
+   ]
+  },
+  "hitop_tp": {
+   "relAdd": [
+    "pers_acentuadas"
+   ]
+  },
+  "persona": {
+   "relAdd": [
+    "pers_acentuadas"
+   ]
+  },
+  "tempht": {
+   "relAdd": [
+    "pers_acentuadas"
+   ]
+  },
+  "tempcicl": {
+   "relAdd": [
+    "pers_acentuadas"
+   ]
+  },
+  "psicopat_sch": {
+   "relAdd": [
+    "pers_acentuadas"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "wkl_sistematicas",
+   "n": "Esquizofrenias sistemáticas frente a no sistemáticas (Leonhard)",
+   "ab": "Sistemáticas vs. no",
+   "al": [
+    "systematische und unsystematische Schizophrenien",
+    "systematic versus unsystematic schizophrenias",
+    "esquizofrenias asistemáticas",
+    "system schizophrenias"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1957,
+   "tags": [
+    "wkl",
+    "chr"
+   ],
+   "desc": "Leonhard (1957) separó las esquizofrenias en dos grandes clases con curso, defecto y etiología distintos. Las esquizofrenias sistemáticas (catatonías, hebefrenias y parafrenias sistemáticas) comienzan de forma insidiosa, progresan sin fases hacia un defecto específico y estable, y son monomorfas; Leonhard las comparó con las enfermedades neurológicas de sistema (Leonhard 1976). Las no sistemáticas (parafrenia afectiva, catafasia y catatonía periódica) son polimorfas, bipolares, cursan con brotes o fases (Bräunig 1990) y, según Leonhard, tienen una carga hereditaria alta, máxima en la catatonía periódica (Leonhard 1979; Stöber 1995). La escuela de Würzburg aportó apoyo genético y obstétrico: riesgo familiar del 26,9 % en la catatonía periódica frente al 4,6 % en la sistemática (Stöber 1995) y ausencia de formas sistemáticas en gemelos monocigóticos (Pfuhlmann 1999). La tesis de la baja carga hereditaria de las sistemáticas es objeto de controversia: en 441 familias multiplex la esquizofrenia sistemática fue el diagnóstico de esquizofrenia con mayor familiaridad (h² = 0,78; Peralta 2016). En el seguimiento de Budapest la división resultó no concluyente (Pethö 2011).",
+   "feats": [
+    "Curso: las sistemáticas son insidiosas, crónicas y progresivas desde el inicio, sin fases ni remisiones; las no sistemáticas cursan con brotes o fases y un defecto variable que se acumula episodio a episodio (Bräunig 1990; Jabs 2002)",
+    "Polaridad: las no sistemáticas pertenecen, junto con la enfermedad maníaco-depresiva y las psicosis cicloides, a la gran categoría leonhardiana de psicosis episódicas, bipolares y polimorfas con labilidad sindrómica intra e interepisódica (Bräunig 1990)",
+    "Defecto: en las sistemáticas el defecto es específico y estable, propio de cada subforma, como si se afectara electivamente un sistema funcional; Leonhard las asemejó a las enfermedades de sistema (Leonhard 1976)",
+    "Herencia en las catatonías: riesgo de morbilidad corregido por edad en familiares de primer grado del 26,9 % en la catatonía periódica y del 4,6 % en la catatonía sistemática, en 139 probandos y 543 familiares (Stöber 1995; Beckmann 1996)",
+    "Gemelos de la Baja Franconia: ninguno de los 34 gemelos monocigóticos enfermos tenía una esquizofrenia sistemática, frente a 6 de 30 dicigóticos (Pfuhlmann 1999); concordancia monocigótica del 88 % frente al 17 % dicigótica en las no sistemáticas (Franzek y Beckmann 1996)",
+    "Factores prenatales: más complicaciones obstétricas e infecciones maternas en el segundo trimestre en las sistemáticas (Stöber 1993; Stöber 1994); exposición a infecciones prenatales del 34 % en la catatonía sistemática frente al 8 % en la periódica (Stöber 2002)",
+    "Resultados discordantes: familiaridad (h²) de 0,78 para la esquizofrenia sistemática en 441 familias multiplex (2703 personas), la más alta de los diagnósticos de esquizofrenia comparados, frente a la baja carga hereditaria que sostiene la escuela de Würzburg (Peralta 2016; Beckmann y Franzek 2000); división «sistemática frente a no sistemática» no concluyente en el seguimiento de Budapest (Pethö 2011)"
+   ],
+   "tx": "No hay ensayos que comparen tratamientos según esta distinción: el abordaje sigue las guías de esquizofrenia (antipsicótico elegido por perfil de efectos adversos, intervenciones psicosociales y rehabilitación). La distinción orienta el pronóstico y la información a la persona y a su familia. La observación de Fish (1964) de que la parafrenia afectiva sería la forma más sensible a los antipsicóticos clásicos sigue sin confirmar (Ban 2004).",
+   "note": "La distinción procede de la observación clínica longitudinal de Leonhard y de estudios de pocos centros, con frecuencia de la propia escuela y con evaluadores formados en ella. El curso forma parte del diagnóstico y también de los validadores, lo que introduce circularidad [fuente no localizada]. La baja carga hereditaria de las sistemáticas, núcleo de la tesis de Würzburg (Stöber 1995; Beckmann y Franzek 2000), choca con la familiaridad alta hallada en familias multiplex (Peralta 2016); la controversia no está resuelta, porque ambos diseños no son comparables (riesgo de morbilidad en familiares de probandos consecutivos frente a familiaridad estimada en familias seleccionadas por tener varios miembros afectados) [interpretación metodológica: fuente no localizada]. DSM-5-TR y CIE-11 suprimieron los subtipos de esquizofrenia; la distinción no tiene equivalente oficial.",
+   "sec": [
+    {
+     "t": "Criterios diferenciales de Leonhard",
+     "x": "Leonhard combina cuatro ejes. Curso: insidioso y progresivo en las sistemáticas; en brotes o fases en las no sistemáticas. Defecto: en las sistemáticas, estable, específico y monomorfo, con una Gestalt residual característica de cada subforma (necedad, superficialidad, paracinesia, manierismo, sistema delirante fonémico, etc.); en las no sistemáticas, variable y acumulativo. Polaridad: las sistemáticas no muestran polos; las no sistemáticas oscilan entre polos (excitación e inhibición psicomotora en la catatonía periódica, polo excitado e inhibido de la catafasia, polaridad afectiva de la parafrenia afectiva) (Bräunig 1990). Herencia: baja en las sistemáticas y alta en las no sistemáticas, con la catatonía periódica como forma más familiar (Leonhard 1979; Stöber 1995). Leonhard atribuyó las sistemáticas a causas psicosociales, en particular a la falta de contacto y comunicación durante el desarrollo; en los gemelos situó el periodo crítico en la infancia tardía y la pubertad (Leonhard 1976; Leonhard 1979). La hipótesis no ha recibido confirmación independiente [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "wkl20",
+        "wkl21",
+        "wkl24",
+        "wkl25",
+        "wkl31"
+       ],
+       "t": "subformas sistemáticas"
+      },
+      {
+       "ids": [
+        "wkl17",
+        "wkl18",
+        "wkl19"
+       ],
+       "t": "formas no sistemáticas"
+      }
+     ]
+    },
+    {
+     "t": "Validación en Würzburg: genética, gemelos y embarazo",
+     "x": "El grupo de Beckmann aplicó la clasificación a muestras sistemáticas de la Baja Franconia. En el estudio de gemelos (22 pares monocigóticos y 25 dicigóticos), la esquizofrenia por DSM-III-R o CIE-10 aparecía en igual proporción en ambos tipos de gemelos, pero con los criterios de Leonhard las sistemáticas faltaban por completo en los 34 monocigóticos enfermos y afectaban a 6 de 30 dicigóticos (Pfuhlmann 1999); los dicigóticos con forma sistemática eran discordantes y el gemelo afectado tenía tres veces más complicaciones del embarazo y el parto (Franzek y Beckmann 1996). En el estudio familiar de las catatonías, la periódica mostró un patrón compatible con un gen mayor con anticipación y la sistemática un riesgo cercano al poblacional (Stöber 1995). Las sistemáticas se asociaron a infecciones maternas en el segundo trimestre y a nacimientos en invierno y primavera, al contrario que las no sistemáticas (Stöber 1994; Franzek y Beckmann 1993). Beckmann y Franzek (2000) resumen estos datos como tres grupos válidos: cicloides, no sistemáticas y sistemáticas.",
+     "links": [
+      {
+       "ids": [
+        "wkl19"
+       ],
+       "t": "catatonía periódica y ligamiento 15q15"
+      },
+      {
+       "ids": [
+        "wurzburg_escuela"
+       ],
+       "t": "escuela de Würzburg"
+      }
+     ]
+    },
+    {
+     "t": "Controversia sobre la carga hereditaria y validación independiente",
+     "x": "Tesis de Würzburg: la catatonía sistemática es en su mayor parte esporádica (riesgo de morbilidad del 4,6 % en familiares de primer grado frente al 26,9 % en la periódica; Stöber 1995) y su heredabilidad es «muy baja» (Beckmann 1996); cicloides y sistemáticas tendrían carga genética baja y mayor peso de factores ambientales como las complicaciones del parto (Beckmann y Franzek 2000). Resultado contrario: en 441 familias multiplex navarras (2703 personas), la clasificación de Leonhard fue el sistema más familiar (h² = 0,64) y la esquizofrenia sistemática el diagnóstico de esquizofrenia con mayor familiaridad (h² = 0,78) (Peralta 2016). Los diseños difieren: probandos consecutivos y riesgo corregido por edad en Würzburg; familias con al menos dos afectados y estimación de familiaridad en Navarra, lo que favorece las formas familiares [interpretación metodológica: fuente no localizada]. El mismo grupo navarro, en 243 primeros episodios seguidos de 10 a 31 años, halló una separación empírica sólida entre sistemáticas y no sistemáticas, con mayor alteración de las sistemáticas en todos los bloques de validadores (Cuesta 2024); en Budapest la división resultó no concluyente (Pethö 2011). Hay correlatos biológicos aislados (Zielasek 2005; Jabs 2001), y Foucher (2020) destaca la separación replicada de fenotipos de alta y baja familiaridad.",
+     "links": [
+      {
+       "ids": [
+        "wurzburg_escuela"
+       ],
+       "t": "escuela de Würzburg"
+      },
+      {
+       "ids": [
+        "wkl19"
+       ],
+       "t": "catatonía periódica"
+      },
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard 1957"
+      }
+     ]
+    },
+    {
+     "t": "Uso clínico y correspondencias actuales",
+     "x": "En la práctica, la distinción aporta una hipótesis pronóstica: un cuadro esquizofrénico polimorfo, con fases y polos, sugiere una forma no sistemática con posibilidad de remisiones parciales, mientras que un deterioro insidioso y monomorfo con un residuo cualitativamente característico sugiere una forma sistemática de peor pronóstico (Jabs 2002; Cuesta 2024). No sustituye al diagnóstico oficial: DSM-5-TR y CIE-11 suprimieron los subtipos clásicos de esquizofrenia y emplean especificadores de curso y de síntomas. En informes clínicos o periciales conviene usar el diagnóstico CIE-11 y, si se añade la caracterización leonhardiana, presentarla como descripción complementaria de escuela, sin valor de categoría oficial [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "subtipos_esq",
+        "esq"
+       ],
+       "t": "esquizofrenia y subtipos clásicos"
+      },
+      {
+       "ids": [
+        "dementia_praecox"
+       ],
+       "t": "dementia praecox"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leonhard K (1957). Aufteilung der endogenen Psychosen. Berlín: Akademie-Verlag [primera edición; contenido concreto de cada apartado no cotejado; no verificada]",
+    "Leonhard K (1999). Classification of Endogenous Psychoses and their Differentiated Etiology. 2.ª ed. rev., Beckmann H (ed.). Viena/Nueva York: Springer [traducción inglesa; páginas no cotejadas]",
+    "Leonhard K (1976). [Twin studies with a differentiated diagnosis of endogenic psychoses: psychosocial influences in certain forms of schizophrenia] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 28:78-88 · PMID 945902",
+    "Bräunig P (1990). Switch processes and rapid cycling in bipolar affective disorders, cycloid psychoses and nonsystematic schizophrenia. Psychopathology 23:291-302 · PMID 2084783",
+    "Ban TA (1990). Clinical pharmacology and Leonhard's classification of endogenous psychoses. Psychopathology 23:331-338 · PMID 1982184",
+    "Ban TA (2004). Neuropsychopharmacology and the genetics of schizophrenia: a history of the diagnosis of schizophrenia. Prog Neuropsychopharmacol Biol Psychiatry 28:753-762 · PMID 15363601",
+    "Franzek E & Beckmann H (1996). [Genetic heterogeneity of schizophrenia. Results of a systematic twin study] (artículo en alemán con resumen en inglés). Nervenarzt 67:583-594 · PMID 8927197",
+    "Pfuhlmann B, Franzek E & Beckmann H (1999). Absence of a subgroup of chronic schizophrenia in monozygotic twins. Consequences for considerations on the pathogenesis of schizophrenic psychoses. Eur Arch Psychiatry Clin Neurosci 249:50-54 · PMID 10195344",
+    "Stöber G, Franzek E & Beckmann H (1993). [Pregnancy and labor complications: their significance in the development of schizophrenic psychoses] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 61:329-337 · PMID 8258430",
+    "Stöber G, Franzek E & Beckmann H (1994). [Pregnancy infections in mothers of chronic schizophrenic patients. The significance of differential nosology] (artículo en alemán con resumen en inglés). Nervenarzt 65:175-182 · PMID 8177358",
+    "Stöber G et al. (1995). Periodic catatonia: a schizophrenic subtype with major gene effect and anticipation. Eur Arch Psychiatry Clin Neurosci 245:135-141 · PMID 7669819",
+    "Beckmann H et al. (1996). Genetic heterogeneity in catatonic schizophrenia: a family study. Am J Med Genet 67:289-300 · PMID 8725746",
+    "Stöber G et al. (2002). Exposure to prenatal infections, genetics and the risk of systematic and periodic catatonia. J Neural Transm (Vienna) 109:921-929 · PMID 12111478",
+    "Beckmann H & Franzek E (2000). The genetic heterogeneity of «schizophrenia». World J Biol Psychiatry 1:35-41 · PMID 12607231",
+    "Jabs BE et al. (2002). The concept of hebephrenia over the course of time with particular reference to the Wernicke-Kleist-Leonhard School. World J Biol Psychiatry 3:200-206 · PMID 12516311",
+    "Peralta V et al. (2016). Familiality of psychotic disorders: a polynosologic study in multiplex families. Schizophr Bull 42:975-983 · PMID 26707865",
+    "Pethö B et al. (2011). [Classification of endogenous psychoses. Predictive validity of initial diagnosis based on 5 and 21-33-years of follow-up in a long-term prospective study (Budapest 2000)] (artículo en húngaro con resumen en inglés). Psychiatr Hung 26:219-229 · PMID 22058254",
+    "Cuesta MJ et al. (2024). Empirical validity of Leonhard's psychoses: a long-term follow-up study of first-episode psychosis patients. Schizophr Res 263:237-245 · PMID 36682995",
+    "Zielasek J et al. (2005). Reduced prefrontal response control in patients with schizophrenias: a subgroup analysis. J Neural Transm (Vienna) 112:969-977 · PMID 15517428",
+    "Jabs BE et al. (2001). Differences in substantia nigra echogenicity of nosological subtypes within the schizophrenic spectrum. A preliminary transcranial ultrasound study. Neuropsychobiology 44:183-186 · PMID 11702018",
+    "Foucher JR et al. (2020). Wernicke-Kleist-Leonhard phenotypes of endogenous psychoses: a review of their validity. Dialogues Clin Neurosci 22:37-49 · PMID 32699504",
+    "Leonhard K (1979). [Hereditary and psychosocial causes of schizophrenia] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 31:606-626 · PMID 547294",
+    "Franzek E & Beckmann H (1993). [Schizophrenia and birth seasonality: contrary results in relation to genetic risk] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 61:22-26 · PMID 8440510"
+   ],
+   "rel": [
+    "wkl19",
+    "wkl17",
+    "wkl18",
+    "wkl20",
+    "wkl24",
+    "wkl30",
+    "leonhard_hit",
+    "subtipos_esq",
+    "esq",
+    "pcicloid",
+    "wurzburg_escuela",
+    "wkl_combinadas"
+   ]
+  },
+  {
+   "id": "wkl_combinadas",
+   "n": "Esquizofrenias sistemáticas combinadas (Leonhard)",
+   "ab": "Esq. sist. combinadas",
+   "al": [
+    "kombinierte systematische Schizophrenien",
+    "combined systematic schizophrenias",
+    "catatonías combinadas",
+    "hebefrenias combinadas",
+    "parafrenias combinadas"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "psy",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "hist",
+   "y": 1957,
+   "tags": [
+    "wkl",
+    "chr"
+   ],
+   "desc": "Junto a las formas sistemáticas simples, en las que un único sistema funcional queda afectado y el residuo es monomorfo, Leonhard describió formas combinadas en las que coexisten los defectos de dos subformas sistemáticas, de modo que el cuadro reúne rasgos de ambas y no puede reducirse a ninguna (Leonhard 1957; Leonhard 1999) [contenido concreto de los capítulos no cotejado]. Según la exposición de escuela, las combinaciones se producen dentro de un mismo grupo (catatonía con catatonía, hebefrenia con hebefrenia, parafrenia con parafrenia) y dan cuadros más graves y de diagnóstico más difícil que las formas simples [fuente no localizada]. Un caso publicado es el del escritor Robert Walser, diagnosticado retrospectivamente, a partir de sus historias clínicas, de catatonía combinada de habla perezosa y manierística (Partl 2011). Las formas combinadas comparten con las sistemáticas simples el curso insidioso y progresivo, la ausencia de fases y la baja carga familiar descrita por Leonhard, pero no se han estudiado por separado en los trabajos de validación (Pfuhlmann 1997; Stöber 1995).",
+   "feats": [
+    "Definición: coexistencia, en una misma persona, de los defectos específicos de dos subformas sistemáticas, con un residuo estable que suma rasgos de ambas (Leonhard 1957; Leonhard 1999) [páginas no cotejadas]",
+    "Regla de escuela: la combinación ocurre entre subformas del mismo grupo (catatonías, hebefrenias o parafrenias); las combinaciones entre grupos no forman parte del esquema clásico [fuente no localizada]",
+    "Robert Walser (1878-1956): catatonía combinada de habla perezosa y manierística, con posturas rígidas, conductas repetitivas, manierismos de movimiento y omisión, pérdida de iniciativa, autismo intenso y alucinaciones verbales persistentes; la omisión manierística le impidió volver a escribir (Partl 2011)",
+    "Fiabilidad: el acuerdo interevaluadores se ha medido para los grandes grupos (psicosis cicloides, esquizofrenias no sistemáticas y esquizofrenias sistemáticas), con kappa de 0,82 y 0,89 en 22 pacientes, pero no para las subformas ni para la distinción entre formas simples y combinadas (Pfuhlmann 1997)",
+    "Catatonías sistemáticas crónicas: en un estudio de 53 pacientes del espectro esquizofrénico, el pequeño grupo de catatonías de sistema (n = 6) tuvo inicio más precoz, peor rendimiento cognitivo y dosis de antipsicóticos más altas que la catatonía periódica progresiva y que los pacientes no catatónicos (Schorr 2024)",
+    "Pronóstico: Leonhard situó las formas combinadas entre las de peor evolución dentro de las sistemáticas [fuente no localizada]; las hebefrenias de la clasificación de Leonhard muestran mal pronóstico, poca respuesta al tratamiento y baja heredabilidad (Jabs 2002)"
+   ],
+   "tx": "Sin tratamiento específico: se aplican las guías de esquizofrenia y de catatonía. En las formas con componente catatónico, la presencia de signos motores obliga a descartar catatonía aguda tratable, síntomas extrapiramidales y síndrome neuroléptico maligno antes de atribuirlos al residuo (Rogers 2023). La rehabilitación debe planificarse según el perfil de defectos de cada componente.",
+   "note": "La literatura sobre formas combinadas es casi exclusivamente de escuela, con descripciones de casos y sin estudios de fiabilidad ni de validez propios. Los estudios de Würzburg agrupan formas simples y combinadas dentro de las sistemáticas. El diagnóstico retrospectivo de figuras históricas a partir de historias clínicas, como el de Walser, tiene valor ilustrativo y no probatorio. La categoría no existe en DSM-5-TR ni en CIE-11.",
+   "sec": [
+    {
+     "t": "Concepto y lógica de la combinación",
+     "x": "En la sistemática de Leonhard, cada esquizofrenia sistemática simple corresponde a la afectación electiva de un sistema funcional, con un residuo cualitativamente característico; de ahí la comparación con las enfermedades neurológicas de sistema (Leonhard 1976). Si se afectan dos sistemas, aparece una forma combinada cuyo residuo integra dos defectos. El diagnóstico exige reconocer cada componente por su signo nuclear (por ejemplo, la paracinesia, el manierismo, la pobreza de habla con falta de respuesta, la necedad o el sistema delirante fonémico) y no confundir la mezcla con el polimorfismo cambiante de las formas no sistemáticas, que sí tienen fases y polos [fuente no localizada para la regla diagnóstica literal]. Leonhard consideró que estas formas eran frecuentes entre las esquizofrenias de la primera infancia [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "wkl_sistematicas"
+       ],
+       "t": "sistemáticas frente a no sistemáticas"
+      },
+      {
+       "ids": [
+        "wkl_infancia"
+       ],
+       "t": "esquizofrenias de la primera infancia"
+      }
+     ]
+    },
+    {
+     "t": "Combinaciones por grupo",
+     "x": "Catatonías combinadas: se describen combinaciones entre las seis catatonías sistemáticas (paracinética, manierística, procinética, negativista, de habla pronta y de habla perezosa); el caso Walser ilustra la combinación de manierismo (posturas rígidas, omisiones, conductas repetitivas) con los rasgos de la catatonía de habla perezosa (pérdida de iniciativa, autismo, alucinaciones verbales persistentes) (Partl 2011). Hebefrenias combinadas: mezclas de las cuatro hebefrenias (necia, superficial, excéntrica y autista), en las que el núcleo común es la alteración de la afectividad y de la iniciativa (Jabs 2002; Althaus 2001). Parafrenias combinadas: mezclas de las seis parafrenias sistemáticas (hipocondríaca, fonémica, incoherente, fantástica, confabulatoria y expansiva), con sistemas delirantes y alucinatorios que superponen dos temáticas o estilos [fuente no localizada para la descripción de los subtipos combinados concretos].",
+     "links": [
+      {
+       "ids": [
+        "wkl24",
+        "wkl25",
+        "wkl26",
+        "wkl27",
+        "wkl28",
+        "wkl29"
+       ],
+       "t": "catatonías sistemáticas"
+      },
+      {
+       "ids": [
+        "wkl20",
+        "wkl21",
+        "wkl22",
+        "wkl23"
+       ],
+       "t": "hebefrenias sistemáticas"
+      },
+      {
+       "ids": [
+        "wkl30",
+        "wkl31",
+        "wkl32",
+        "wkl33",
+        "wkl34",
+        "wkl35"
+       ],
+       "t": "parafrenias sistemáticas"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "Frente a la catatonía periódica: esta es no sistemática, cursa con fases hipercinéticas y acinéticas y acumula un residuo variable, mientras que la combinada es monomorfa y progresiva desde el inicio; en el estudio familiar de Würzburg la periódica tuvo un riesgo familiar del 26,9 % frente al 4,6 % de la sistemática (Stöber 1995). Frente a la catafasia y la parafrenia afectiva: polimorfismo con polos y oscilación afectiva. Frente a efectos de los antipsicóticos: paracinesias y manierismos deben distinguirse de la discinesia tardía, para lo que el consenso Delphi de Foucher sobre la paracinesia propone criterios operativos (Foucher 2024). Frente a cuadros orgánicos y del neurodesarrollo con signos motores y discapacidad intelectual, que requieren estudio médico.",
+     "links": [
+      {
+       "ids": [
+        "wkl19",
+        "wkl18",
+        "wkl17"
+       ],
+       "t": "formas no sistemáticas"
+      },
+      {
+       "ids": [
+        "catatonia",
+        "cat_malig"
+       ],
+       "t": "catatonía y sus urgencias"
+      }
+     ]
+    },
+    {
+     "t": "Estado de la evidencia",
+     "x": "No hay estudios de prevalencia, fiabilidad ni curso dedicados a las formas combinadas. La evidencia indirecta procede de los estudios de las sistemáticas en conjunto: fiabilidad de grupo alta en manos de evaluadores entrenados (Pfuhlmann 1997), baja carga familiar en las catatonías sistemáticas (Stöber 1995; Beckmann 1996) y un perfil clínico y cognitivo más grave de las catatonías de sistema en una muestra pequeña de Estrasburgo (Schorr 2024). En el seguimiento de Navarra, las esquizofrenias sistemáticas en conjunto mostraron la mayor alteración en todos los bloques de validadores (Cuesta 2024), aunque en familias multiplex del mismo grupo fueron el diagnóstico de esquizofrenia más familiar, en contra de la tesis de baja carga hereditaria (Peralta 2016). La revisión de Foucher (2020) sintetiza la validez de los 35 fenotipos principales de la escuela WKL; su resumen no aporta datos específicos de las formas combinadas [texto completo no cotejado].",
+     "links": [
+      {
+       "ids": [
+        "wurzburg_escuela"
+       ],
+       "t": "escuela de Würzburg"
+      },
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard 1957"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leonhard K (1957). Aufteilung der endogenen Psychosen. Berlín: Akademie-Verlag [primera edición; contenido concreto de cada apartado no cotejado; no verificada]",
+    "Leonhard K (1999). Classification of Endogenous Psychoses and their Differentiated Etiology. 2.ª ed. rev., Beckmann H (ed.). Viena/Nueva York: Springer [traducción inglesa; páginas no cotejadas]",
+    "Leonhard K (1976). [Twin studies with a differentiated diagnosis of endogenic psychoses: psychosocial influences in certain forms of schizophrenia] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 28:78-88 · PMID 945902",
+    "Partl S et al. (2011). [«My disease is one of the mind and difficult to define»: Robert Walser (1879-1956) and his mental illness] (artículo en alemán con resumen en inglés). Nervenarzt 82:67-78 · PMID 21274695",
+    "Pfuhlmann B et al. (1997). On interrater reliability for Leonhard's classification of endogenous psychoses. Psychopathology 30:100-105 · PMID 9168566",
+    "Stöber G et al. (1995). Periodic catatonia: a schizophrenic subtype with major gene effect and anticipation. Eur Arch Psychiatry Clin Neurosci 245:135-141 · PMID 7669819",
+    "Beckmann H et al. (1996). Genetic heterogeneity in catatonic schizophrenia: a family study. Am J Med Genet 67:289-300 · PMID 8725746",
+    "Schorr B et al. (2024). Subtyping chronic catatonia: clinical and neuropsychological characteristics of progressive periodic catatonia and chronic system catatonias vs. non-catatonic schizophrenia. Schizophr Res 263:55-65 · PMID 36411196",
+    "Jabs BE et al. (2002). The concept of hebephrenia over the course of time with particular reference to the Wernicke-Kleist-Leonhard School. World J Biol Psychiatry 3:200-206 · PMID 12516311",
+    "Althaus G et al. (2001). [Autistic hebephrenia: concepts and findings] (artículo en alemán con resumen en inglés). Fortschr Neurol Psychiatr 69:482-487 · PMID 11602925",
+    "Cuesta MJ et al. (2024). Empirical validity of Leonhard's psychoses: a long-term follow-up study of first-episode psychosis patients. Schizophr Res 263:237-245 · PMID 36682995",
+    "Foucher JR et al. (2020). Wernicke-Kleist-Leonhard phenotypes of endogenous psychoses: a review of their validity. Dialogues Clin Neurosci 22:37-49 · PMID 32699504",
+    "Rogers JP et al. (2023). Evidence-based consensus guidelines for the management of catatonia: recommendations from the British Association for Psychopharmacology. J Psychopharmacol 37:327-369 · PMID 37039129",
+    "Foucher JR et al. (2024). Parakinesia: a Delphi consensus report. Schizophr Res 263:45-54 · PMID 36357299",
+    "Peralta V et al. (2016). Familiality of psychotic disorders: a polynosologic study in multiplex families. Schizophr Bull 42:975-983 · PMID 26707865"
+   ],
+   "rel": [
+    "wkl_sistematicas",
+    "wkl24",
+    "wkl25",
+    "wkl29",
+    "wkl20",
+    "wkl23",
+    "wkl31",
+    "wkl32",
+    "wkl19",
+    "leonhard_hit",
+    "subtipos_esq",
+    "catatonia"
+   ]
+  },
+  {
+   "id": "wkl_infancia",
+   "n": "Esquizofrenias de la primera infancia según Leonhard (frühkindliche Katatonie)",
+   "ab": "Esq. 1.ª infancia WKL",
+   "al": [
+    "frühkindliche Schizophrenien",
+    "frühkindliche Katatonie",
+    "early childhood catatonia",
+    "catatonía de la primera infancia",
+    "esquizofrenias infantiles de Leonhard"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "inf",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1960,
+   "tags": [
+    "wkl",
+    "child",
+    "chr"
+   ],
+   "desc": "Leonhard publicó en 1960 un trabajo sobre la catatonía en la infancia (Leonhard 1960; sin resumen, contenido no cotejado) y las incorporó a su sistemática en las últimas ediciones de su obra (Aufteilung, 6.ª ed., 1986) [capítulo no cotejado]. De 59 niños y niñas con esquizofrenia infantil, 11 habían enfermado en los primeros años de vida, 7 de ellos institucionalizados al inicio (Leonhard 1978). Leonhard sostuvo que estas formas no producen una deficiencia mental global sino déficits circunscritos (Leonhard 1986) y las atribuyó a falta de comunicación temprana (Leonhard 1979b), hipótesis psicosocial hoy no sostenible para el autismo, de heredabilidad alta (Tick 2016). La escuela WKL reunió la mayor cohorte de catatonía infantil, entendida como alteración cualitativa de la psicomotricidad involuntaria, reactiva y expresiva (Dhossche 2023). Neumärker (2006) defiende la catatonía de la primera infancia como entidad psicopatológica propia; es probable que buena parte de esos cuadros se diagnosticara hoy como trastorno del espectro autista con catatonía o discapacidad intelectual [fuente no localizada], relación que explora Dhossche (2023).",
+   "feats": [
+    "Serie de Leonhard: 59 casos de esquizofrenia infantil; 11 de inicio en los primeros años de vida, 7 de ellos institucionalizados al inicio y 2 con ceguera o sordera congénitas (Leonhard 1978)",
+    "Hipótesis etiológica de Leonhard: falta de comunicación en los primeros años (hospitalismo, hijos únicos, privación sensorial) como desencadenante de las formas insidiosas progresivas; propuso la prevención mediante un contacto estrecho del niño o del adolescente con un amigo íntimo que dirija su pensamiento hacia fuera (Leonhard 1979b) [hipótesis no confirmada]",
+    "Perfil cognitivo: déficits circunscritos y no deficiencia mental general; Leonhard rectificó el diagnóstico de «idiocia» de una paciente con capacidad musical excepcional como catatonía de inicio en la primera infancia, confirmada en el seguimiento (Leonhard 1986)",
+    "Psicosis psicomotoras en la infancia y la adolescencia: la psicosis de motilidad, la catatonía periódica y las catatonías sistemáticas difieren en la edad a la que se manifiestan, según las series de Leonhard y Neumärker (Neumärker 1990)",
+    "Concepto WKL de catatonía: anomalías cualitativas de la psicomotricidad que afectan sobre todo a la motricidad involuntaria reactiva y expresiva; tres adultos jóvenes con mutación de SHANK3 mostraron manifestaciones catatónicas desde la infancia con evolución crónica y exacerbaciones subagudas desde la adolescencia (Dhossche 2023)",
+    "Relación con el TEA actual: 17 % de las derivaciones de 15 años o más a una clínica especializada en TEA presentaba exacerbación grave de rasgos catatónicos (Wing y Shah 2000); prevalencia metaanalítica de catatonía en el TEA del 10,4 % (Vaquerizo-Serrano 2022)",
+    "Privación y trauma: la revisión de Dhossche recoge que Leonhard consideraba factor de riesgo la falta de comunicación con la madre o figura sustituta y concluye que la privación, el maltrato y el trauma pueden precipitar catatonía en la infancia y la adolescencia (Dhossche 2012)"
+   ],
+   "tx": "Ante signos catatónicos en un niño, una niña o un adolescente, con o sin TEA: estudio médico (epilepsia, encefalitis autoinmune, causas metabólicas y genéticas, fármacos), escala de Bush-Francis y tratamiento según las recomendaciones de la catatonía, con benzodiacepinas y TEC como opciones principales, sabiendo que en esta población se basan sobre todo en estudios observacionales pequeños y series de casos (Rogers 2023). Debe atenderse cualquier situación de privación, maltrato o trauma (Dhossche 2012). La etiqueta leonhardiana no sustituye al diagnóstico DSM-5-TR o CIE-11 ni orienta por sí sola el tratamiento.",
+   "note": "Las series de Leonhard son retrospectivas, de un solo observador y sin criterios operativos ni evaluación ciega; muchas personas con diagnóstico de «esquizofrenia de la primera infancia» cumplirían probablemente hoy criterios de TEA, discapacidad intelectual o catatonía asociada a otro trastorno [fuente no localizada]. Su explicación psicosocial (falta de comunicación, hijos únicos, hospitalismo) no debe trasladarse a las familias como culpa: el TEA tiene una heredabilidad del 64-91 % en el metaanálisis de gemelos (Tick 2016). El valor actual del concepto es descriptivo: llama la atención sobre la catatonía de inicio precoz, infradiagnosticada y tratable.",
+   "sec": [
+    {
+     "t": "Las esquizofrenias infantiles en la obra de Leonhard",
+     "x": "Leonhard publicó en 1960 un trabajo sobre catatonías en la infancia (Leonhard 1960) y, en las décadas siguientes, series de esquizofrenias infantiles con las que defendía que las formas sistemáticas, de curso insidioso y progresivo, podían empezar ya en los primeros años de vida, a menudo en niños y niñas hospitalizados o ingresados en instituciones, en hijos únicos o en menores con privación sensorial (Leonhard 1978; Leonhard 1979a; Leonhard 1979b). La 6.ª edición de la Aufteilung (1986) y la traducción inglesa revisada por Beckmann (1999) recogen estas formas en un capítulo propio [capítulo y paginación no cotejados]. Leonhard describió sobre todo catatonías de la primera infancia (frühkindliche Katatonie), con frecuencia de forma combinada [fuente no localizada], y subrayó que el déficit no es global sino circunscrito, lo que explica habilidades aisladas preservadas (Leonhard 1986).",
+     "links": [
+      {
+       "ids": [
+        "wkl_combinadas"
+       ],
+       "t": "formas sistemáticas combinadas"
+      },
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard 1957"
+      }
+     ]
+    },
+    {
+     "t": "Relación con el espectro autista y la catatonía infantil actuales",
+     "x": "Neumärker (2006), desde la Charité de Berlín, sostiene que la escuela WKL delimitó la catatonía de la primera infancia como entidad con psicopatología propia, distinta de los signos catatónicos de cuadros orgánicos, y recuerda que el autismo, descrito por Bleuler en 1910 en relación con el negativismo esquizofrénico como síntoma clave de la esquizofrenia, es una conducta que puede aparecer en muchos trastornos, y que Kanner (1943) caracterizó el autismo de la primera infancia por la alteración de la interacción y la comunicación con retraso del desarrollo, a diferencia del concepto de Asperger (1944). Es verosímil que la psiquiatría actual situara la mayoría de estos casos en el TEA, con o sin discapacidad intelectual [fuente no localizada], y hoy se reconoce la catatonía como complicación del TEA: exacerbación catatónica grave en el 17 % de las derivaciones de 15 años o más (Wing y Shah 2000) y prevalencia del 10,4 % en el metaanálisis (Vaquerizo-Serrano 2022). El DSM-5-TR permite añadir el especificador de catatonía al TEA. Dhossche (2023) propone releer con la semiología psicomotora WKL fenotipos genéticos como el síndrome de Phelan-McDermid (SHANK3), en los que la catatonía comenzaría en la infancia.",
+     "links": [
+      {
+       "ids": [
+        "tea_catatonia",
+        "tea"
+       ],
+       "t": "TEA y catatonía"
+      },
+      {
+       "ids": [
+        "kanner_hit",
+        "asperger_hit"
+       ],
+       "t": "Kanner y Asperger"
+      }
+     ]
+    },
+    {
+     "t": "Diagnóstico diferencial en la práctica",
+     "x": "Ante un cuadro motor catatónico de inicio infantil la secuencia es médica antes que nosológica: descartar epilepsia, encefalitis autoinmune, trastornos metabólicos y genéticos (incluidos fenotipos como el asociado a SHANK3) y efectos de fármacos (Dhossche 2023; Rogers 2023). Después se diferencia entre rasgos motores constitutivos del TEA (estereotipias, ecolalia) y catatonía sobreañadida, cuya clave es el cambio respecto al funcionamiento previo [fuente no localizada]; entre esquizofrenia de inicio muy precoz, rara antes de los 13 años [fuente no localizada], y TEA con desorganización; y entre catatonía y reacciones a la privación, el maltrato o el trauma, incluidas las formas de rechazo generalizado (Dhossche 2012). La clasificación de Leonhard sirve para describir con precisión el tipo de anomalía psicomotora (paracinesias, manierismos, negativismo, procinesia), no para sustituir el diagnóstico oficial.",
+     "links": [
+      {
+       "ids": [
+        "eop"
+       ],
+       "t": "psicosis de inicio precoz"
+      },
+      {
+       "ids": [
+        "catatonia",
+        "regres_cond"
+       ],
+       "t": "catatonía y regresión"
+      },
+      {
+       "ids": [
+        "privacion_instit"
+       ],
+       "t": "privación institucional temprana"
+      }
+     ]
+    },
+    {
+     "t": "Lectura crítica de la hipótesis psicosocial",
+     "x": "Leonhard derivó su hipótesis de la falta de comunicación de tres observaciones: la ausencia de formas sistemáticas en gemelos monocigóticos, que atribuyó al contacto estrecho entre gemelos (Leonhard 1976), el exceso de hijos únicos y la aparición en menores institucionalizados o con ceguera o sordera (Leonhard 1978; Leonhard 1979b). Pfuhlmann (1999) replicó la ausencia en monocigóticos y mantuvo esa explicación como modelo especulativo. Sin embargo, el TEA, donde hoy se clasificarían muchos de estos casos, tiene una heredabilidad del 64-91 % y una correlación monocigótica casi perfecta (Tick 2016), y los efectos de la privación institucional extrema se estudian como cuadro propio. La hipótesis no debe usarse para atribuir el trastorno a la crianza ni a las familias; sí conserva interés la observación de que la privación y el trauma pueden precipitar catatonía (Dhossche 2012).",
+     "links": [
+      {
+       "ids": [
+        "hered_tea"
+       ],
+       "t": "heredabilidad del TEA"
+      },
+      {
+       "ids": [
+        "wkl_sistematicas"
+       ],
+       "t": "gemelos y formas sistemáticas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leonhard K (1960). [On catatonia in children] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 12:1-12 · PMID 14415820",
+    "Leonhard K (1978). Can childhood schizophrenia develop out of hospitalism? Psychiatr Clin (Basel) 11:170-179 · PMID 740917",
+    "Leonhard K (1979). Only children among childhood schizophrenics. Acta Paedopsychiatr 44:69-76 · PMID 369291",
+    "Leonhard K (1979). Can schizophrenia be prevented? Empirical results obtained by the examination of schizophrenic twins and schizophrenic children. Int J Soc Psychiatry 25:285-294 · PMID 575529",
+    "Leonhard K (1986). [Exceptional musical performance in early childhood catatonia] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 38:703-709 · PMID 3575542",
+    "Leonhard K (1986). Aufteilung der endogenen Psychosen und ihre differenzierte Ätiologie. 6.ª ed. Berlín: Akademie-Verlag [edición y capítulo sobre las esquizofrenias de la primera infancia no cotejados; no verificada]",
+    "Leonhard K (1999). Classification of Endogenous Psychoses and their Differentiated Etiology. 2.ª ed. rev., Beckmann H (ed.). Viena/Nueva York: Springer [traducción inglesa; páginas no cotejadas]",
+    "Leonhard K (1976). [Twin studies with a differentiated diagnosis of endogenic psychoses: psychosocial influences in certain forms of schizophrenia] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 28:78-88 · PMID 945902",
+    "Neumärker KJ (1990). Leonhard and the classification of psychomotor psychoses in childhood and adolescence. Psychopathology 23:243-252 · PMID 2084776",
+    "Neumärker KJ (2006). Classification matters for catatonia and autism in children. Int Rev Neurobiol 72:3-19 · PMID 16697288",
+    "Dhossche DM, Ross CA & Stoppelbein L (2012). The role of deprivation, abuse, and trauma in pediatric catatonia without a clear medical cause. Acta Psychiatr Scand 125:25-32 · PMID 22017207",
+    "Dhossche D et al. (2023). Early-onset catatonia associated with SHANK3 mutations: looking at the autism spectrum through the prism of psychomotor phenomena. Front Psychiatry 14:1186555 · PMID 37810596",
+    "Wing L & Shah A (2000). Catatonia in autistic spectrum disorders. Br J Psychiatry 176:357-362 · PMID 10827884",
+    "Vaquerizo-Serrano J et al. (2022). Catatonia in autism spectrum disorders: a systematic review and meta-analysis. Eur Psychiatry 65:e4 · PMID 34906264",
+    "Tick B et al. (2016). Heritability of autism spectrum disorders: a meta-analysis of twin studies. J Child Psychol Psychiatry 57:585-595 · PMID 26709141",
+    "Rogers JP et al. (2023). Evidence-based consensus guidelines for the management of catatonia: recommendations from the British Association for Psychopharmacology. J Psychopharmacol 37:327-369 · PMID 37039129",
+    "Pfuhlmann B, Franzek E & Beckmann H (1999). Absence of a subgroup of chronic schizophrenia in monozygotic twins. Consequences for considerations on the pathogenesis of schizophrenic psychoses. Eur Arch Psychiatry Clin Neurosci 249:50-54 · PMID 10195344",
+    "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, 5th ed., text revision (DSM-5-TR). Washington, DC: APA Publishing"
+   ],
+   "rel": [
+    "tea_catatonia",
+    "tea",
+    "catatonia",
+    "eop",
+    "kanner_hit",
+    "asperger_hit",
+    "wkl19",
+    "wkl24",
+    "privacion_instit",
+    "hered_tea",
+    "di",
+    "wkl_sistematicas",
+    "wkl_combinadas"
+   ]
+  },
+  {
+   "id": "pers_acentuadas",
+   "n": "Personalidades acentuadas de Leonhard (Akzentuierte Persönlichkeiten, 1968)",
+   "ab": "Pers. acentuadas",
+   "al": [
+    "Akzentuierte Persönlichkeiten",
+    "accentuated personalities",
+    "acentuaciones del carácter",
+    "character accentuations",
+    "cuestionario de Schmieschek"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "tp",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1968,
+   "tags": [
+    "wkl",
+    "akiskal"
+   ],
+   "desc": "En Akzentuierte Persönlichkeiten (1968) Leonhard describió rasgos de personalidad acentuados, más marcados que el promedio pero sin llegar a la personalidad anormal o «psicopática» de la tradición alemana; no son trastornos, sino variantes que en circunstancias desfavorables facilitan dificultades de adaptación o reacciones neuróticas [contenido de la obra no cotejado]. Los tipos clásicos son demostrativo, pedante, persistente (rígido o «atascado»), excitable, hipertímico, distímico, ciclotímico (lábil), ansioso, emotivo y exaltado, más los polos introvertido y extravertido. Se exploran con el cuestionario de Schmieschek (1970), usado en la RDA y en una versión rusa en la URSS (Beljaew 1979); su difusión posterior en el ámbito ruso y ucraniano [fuente no localizada] se ilustra en estudios aislados (Loganovsky y Gresko 2017). La evidencia psicométrica es limitada: la versión breve no resultó fiable para el diagnóstico individual (Littmann y Schmieschek 1977), y un estudio de Colonia validó como continuos entre los cinco grandes factores, los rasgos acentuados y los trastornos de la personalidad seis de los nueve tramos examinados (Pukrop 2002).",
+   "feats": [
+    "Concepto: zona intermedia entre la personalidad normal y el trastorno de la personalidad; Pukrop (2002) lo interpreta como eslabón conceptual entre las dimensiones normales de personalidad y los trastornos, coherente con la hipótesis de continuidad de los modelos dimensionales",
+    "Tipos: demostrativo, pedante, persistente, excitable, hipertímico, distímico, ciclotímico o lábil, ansioso, emotivo y exaltado; introversión y extraversión (Leonhard 1968) [denominaciones alemanas y agrupación en rasgos de carácter y de temperamento no cotejadas]",
+    "Cuestionario de Schmieschek (1970): instrumento autoaplicado para registrar los rasgos acentuados; en la versión breve el análisis factorial confirmó la homogeneidad de algunas escalas y no la de otras, por lo que no se consideró fiable ni válido para el diagnóstico individual (Littmann y Schmieschek 1977); la forma larga se revisó en 1982 (Littmann y Schmieschek 1982)",
+    "Validación dimensional: muestra sana (n = 166) y clínica (n = 78); seis de nueve continuos entre cinco grandes factores, rasgos acentuados y trastornos de la personalidad resultaron válidos, con estructura similar en ambas muestras (Pukrop 2002)",
+    "Uso aplicado: versión rusa aplicada a 840 personas en la URSS (Beljaew 1979); en pacientes crónicos en rehabilitación, la conducta acentuada dificultaba la terapia rehabilitadora (Finger 1986); se sigue usando, por ejemplo, en un estudio ucraniano retrospectivo con personas que trabajaron en la limpieza de Chernóbil, personas evacuadas y militares (Loganovsky y Gresko 2017)",
+    "Relación con Akiskal: los tipos hipertímico, distímico, ciclotímico y ansioso coinciden en nombre con cuatro de los cinco temperamentos afectivos de la TEMPS-A (ciclotímico, depresivo, irritable, hipertímico y ansioso) (Akiskal 2005); no se ha localizado ningún estudio que compare empíricamente ambos sistemas [fuente no localizada]"
+   ],
+   "tx": "No es un diagnóstico ni una diana terapéutica. Puede servir en la formulación del caso para describir estilos de reacción, puntos fuertes y vulnerabilidades, y para adaptar la psicoterapia o la rehabilitación (Finger 1986). En informes clínicos o periciales debe distinguirse con claridad del trastorno de la personalidad de la CIE-11 y no utilizarse como sinónimo de patología.",
+   "note": "El concepto procede de la observación clínica de Leonhard y de la psicología de la RDA; la mayor parte de la investigación con el cuestionario de Schmieschek está publicada en alemán o ruso, en revistas de difusión limitada y con muestras de conveniencia. No se ha localizado una versión española validada [fuente no localizada]. La correspondencia con los temperamentos de Akiskal y con los trastornos de la personalidad es conceptual y en gran parte no contrastada. Evítese su uso para patologizar estilos de personalidad.",
+   "sec": [
+    {
+     "t": "Los tipos de Leonhard y su lógica",
+     "x": "Leonhard parte de la clínica de las neurosis y de la personalidad premórbida de las psicosis endógenas. Describe rasgos que, acentuados, dan una fisonomía reconocible: la persona demostrativa, con tendencia a la represión y a la autopresentación; la pedante, escrupulosa e indecisa; la persistente, que mantiene afectos y sospechas mucho tiempo; la excitable, con escaso control de impulsos; la hipertímica, activa y optimista; la distímica, seria y pesimista; la ciclotímica o lábil, que oscila entre ambos polos; la ansiosa; la emotiva, de gran sensibilidad afectiva; y la exaltada, con reacciones afectivas intensas y rápidas, a lo que se suman la introversión y la extraversión (Leonhard 1968) [descripciones de escuela; obra original no cotejada]. Algunos tipos se presentan como versiones atenuadas de cuadros de su propia nosología: lo hipertímico respecto de las euforias puras y lo distímico respecto de las depresiones puras, ambas psicosis fásicas puras [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "wkl3",
+        "wkl5",
+        "wkl7",
+        "wkl8",
+        "wkl10",
+        "wkl12"
+       ],
+       "t": "depresiones puras y euforias puras (fásicas)"
+      },
+      {
+       "ids": [
+        "psicopat_sch"
+       ],
+       "t": "personalidades psicopáticas de Schneider"
+      }
+     ]
+    },
+    {
+     "t": "Relación con los temperamentos afectivos de Akiskal",
+     "x": "La TEMPS-A operativiza cinco temperamentos afectivos (ciclotímico, depresivo, irritable, hipertímico y ansioso) a partir de criterios formulados por Akiskal, con cinco factores y consistencia interna de 0,67 a 0,91 en 510 personas (Akiskal 2005). Cuatro de ellos tienen homónimo en Leonhard, pero el marco teórico difiere: para Akiskal los temperamentos son expresiones subumbrales del espectro bipolar, en la línea amplia de Kraepelin, mientras que Leonhard fue el gran separador de las formas monopolares y bipolares; Ghaemi (2013) llega a calificar de «neoleonhardiana» la dicotomía bipolar-unipolar del DSM-III. La equivalencia entre tipos de ambos autores no se ha contrastado empíricamente [fuente no localizada], y el tipo irritable de Akiskal no coincide exactamente con el excitable de Leonhard [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "tempht",
+        "tempcicl"
+       ],
+       "t": "temperamentos hipertímico y ciclotímico"
+      },
+      {
+       "ids": [
+        "akiskal_hit",
+        "persona"
+       ],
+       "t": "Akiskal y temperamento premórbido"
+      }
+     ]
+    },
+    {
+     "t": "Relación con los trastornos de la personalidad",
+     "x": "El estudio de Pukrop et al. (2002) es la principal prueba empírica del concepto: comparó tres niveles (cinco grandes factores, nueve rasgos acentuados y nueve trastornos de la personalidad) en una muestra sana y otra clínica, y encontró que seis de los nueve continuos postulados eran válidos, con estructura multidimensional parecida en ambas muestras; los autores recomiendan su uso en modelos dimensionales. Por analogía descriptiva se suelen emparejar lo demostrativo con lo histriónico, lo pedante con lo anancástico u obsesivo-compulsivo y lo persistente con lo paranoide [fuente no localizada para cada par]. La CIE-11 abandonó los tipos categoriales de trastorno de la personalidad en favor de un grado de gravedad y rasgos dominantes (afectividad negativa, desapego, disocialidad, desinhibición y anancastia, más el especificador de patrón límite), un marco en el que los rasgos acentuados encajarían como variaciones por debajo del umbral de trastorno [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "modelos dimensionales y CIE-11"
+      },
+      {
+       "ids": [
+        "hist",
+        "tpobs",
+        "tparano"
+       ],
+       "t": "trastornos histriónico, obsesivo-compulsivo y paranoide"
+      }
+     ]
+    },
+    {
+     "t": "Instrumentos y evidencia psicométrica",
+     "x": "El cuestionario de Schmieschek (1970) es el instrumento de referencia para los rasgos acentuados. Littmann y Schmieschek (1977) revisaron la experiencia con la versión breve: el análisis factorial confirmó la homogeneidad de algunas escalas hipotéticas, pero no la de otras, y concluyeron que no era un instrumento fiable ni válido para el diagnóstico en un caso individual; en 1982 publicaron el análisis y revisión de la forma larga (Littmann y Schmieschek 1982). La versión rusa se aplicó en la URSS a 840 personas de distintos grupos (Beljaew 1979) y el instrumento se sigue usando en estudios aplicados, como uno ucraniano retrospectivo que lo combinó con el inventario de Eysenck y el EEG en personas expuestas al accidente de Chernóbil y en militares (Loganovsky y Gresko 2017); su calidad metodológica general no se ha revisado de forma sistemática [fuente no localizada]. Falta una validación moderna con análisis factorial confirmatorio y normas en población española [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "clontp"
+       ],
+       "t": "carácter y temperamento de Cloninger"
+      },
+      {
+       "ids": [
+        "leonhard_hit"
+       ],
+       "t": "Leonhard"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Leonhard K (1968). Akzentuierte Persönlichkeiten. Berlín: Volk und Gesundheit [editorial y edición no cotejadas; no verificada]",
+    "Schmieschek H (1970). [Questionnaire for the determination of accentuated personalities] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 22:378-381 · PMID 5503319",
+    "Littmann E & Schmieschek HG (1977). [Usefulness of shortened questionnaires for detection of accentuated personalities] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 29:49-55 · PMID 847046",
+    "Littmann E & Schmieschek HG (1982). [Analysis and revision of the long form of a questionnaire for determination of accentuated personality traits according to Leonhard] (artículo en alemán, sin resumen). Psychiatr Neurol Med Psychol (Leipz) 34:32-45 · PMID 7079412",
+    "Pukrop R et al. (2002). [Personality, accentuated traits and personality disorders. A contribution to dimensional diagnosis of personality disorders] (artículo en alemán con resumen en inglés). Nervenarzt 73:247-254 · PMID 11963260",
+    "Beljaew WN (1979). [Importance of «accentuation» for diagnostics in practical medicine] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 31:329-334 · PMID 542540",
+    "Finger I (1986). [Prognosis of the rehabilitation of psychiatric patients by Leonhard's differential diagnosis] (artículo en alemán con resumen en inglés). Psychiatr Neurol Med Psychol (Leipz) 38:198-206 · PMID 3737777",
+    "Loganovsky KM & Gresko MV (2017). Psychophysiological characteristics in the ChNPP accident clean-up workers, exclusion zone evacuees and anti-terrorist operation servicemen. Probl Radiac Med Radiobiol 22:406-427 · PMID 29286524",
+    "Akiskal HS et al. (2005). TEMPS-A: validation of a short version of a self-rated instrument designed to measure variations in temperament. J Affect Disord 85:45-52 · PMID 15780675",
+    "Ghaemi SN (2013). Bipolar spectrum: a review of the concept and a vision for the future. Psychiatry Investig 10:218-224 · PMID 24302943"
+   ],
+   "rel": [
+    "hitop_tp",
+    "clontp",
+    "persona",
+    "tempht",
+    "tempcicl",
+    "akiskal_hit",
+    "psicopat_sch",
+    "hist",
+    "tpobs",
+    "tparano",
+    "leonhard_hit"
+   ]
+  },
+  {
+   "id": "wurzburg_escuela",
+   "n": "La escuela de Würzburg y la validación de la clasificación de Leonhard (1990-2010)",
+   "ab": "Escuela de Würzburg",
+   "al": [
+    "Würzburger Schule",
+    "Beckmann",
+    "Franzek",
+    "Stöber",
+    "Pfuhlmann",
+    "Jabs",
+    "validación de Leonhard"
+   ],
+   "k": "hit",
+   "vw": "hist",
+   "sp": "brg",
+   "ring": 5,
+   "trad": "wkl",
+   "cs": "l",
+   "ev": "obs",
+   "y": 1995,
+   "tags": [
+    "wkl"
+   ],
+   "desc": "En los años noventa, el grupo de la clínica universitaria de Würzburg en torno a Helmut Beckmann, con Ernst Franzek, Gerald Stöber, Bruno Pfuhlmann y Burkhard Jabs, sometió la clasificación de Leonhard a pruebas empíricas: fiabilidad interevaluadores (kappa de 0,82-0,89 para los grandes grupos; Pfuhlmann 1997), estudio sistemático de gemelos de la Baja Franconia (Franzek y Beckmann 1996; Pfuhlmann 1999), estudio familiar de 139 catatonías (Stöber 1995; Beckmann 1996), complicaciones obstétricas e infecciones prenatales (Stöber 1994) y estudios familiares y de curso de las psicosis cicloides (Pfuhlmann 2004; Jabs 2004). Su resultado más citado es el ligamiento de la catatonía periódica con 15q15 (Stöber 2000), confirmado en una segunda exploración genómica (Stöber 2002). En España, Peralta y Cuesta (Pamplona) han replicado en parte la validez de la clasificación con seguimientos de primeros episodios (Cuesta 2024), pero también han obtenido un resultado contrario a la tesis de Würzburg de la baja carga hereditaria de las formas sistemáticas: en familias multiplex, la esquizofrenia sistemática fue la más familiar (Peralta 2016).",
+   "feats": [
+    "Fiabilidad: 22 pacientes con diagnóstico DSM-III-R y CIE-10 de esquizofrenia y curso bien documentado, clasificados por cuatro evaluadores independientes; kappa de 0,82 y 0,89 para los grandes grupos y discrepancias en solo 2 de 22 casos (Pfuhlmann 1997); kappa de 0,93 y estabilidad diagnóstica del 97 % en la catamnesis de las catatonías (Beckmann 1996)",
+    "Genética de la catatonía periódica: riesgo de morbilidad del 26,9 % en familiares de primer grado con anticipación (Stöber 1995); ligamiento significativo en 15q15 en 12 familias multiplex con 135 personas (LOD no paramétrico 3,57) y locus sugestivo en 22q13 (Stöber 2000); confirmación de 15q15 en otras cuatro familias (Stöber 2002)",
+    "Gemelos: ausencia total de esquizofrenias sistemáticas entre 34 gemelos monocigóticos enfermos frente a 6 de 30 dicigóticos (Pfuhlmann 1999); concordancia monocigótica del 38 % en las cicloides y del 88 % en las no sistemáticas (Franzek y Beckmann 1996)",
+    "Psicosis cicloides: menor riesgo familiar de psicosis que la enfermedad maníaco-depresiva y sin diferencia con los controles, por lo que no formarían parte del espectro bipolar (Pfuhlmann 2004; Jabs 2006); mejor curso, funcionamiento y calidad de vida que la esquizofrenia tras una media de 13 años (Jabs 2004)",
+    "Genes candidatos: una mutación Leu309Met en WKL1 (MLC1, 22q13.33) cosegregaba con la catatonía periódica en una familia extensa (Meyer 2001), pero no se halló en otros 42 probandos (28 estadounidenses y 14 alemanes) (Devaney 2002); C15orf53, en la región 15q14-15.1, no resultó causal (Kranz 2012)",
+    "Recepción española: Peralta y Cuesta estudiaron el síndrome de Kahlbaum frente a los criterios de Leonhard (Peralta 1997), la validez de las psicosis cicloides (Peralta 2007), la familiaridad polinosológica en 441 familias (Peralta 2016) y la validez neuropsicológica y longitudinal de las cuatro clases de Leonhard (Cuesta 2022; Cuesta 2024)",
+    "Críticas: estudios de pocos centros con evaluadores de la propia escuela; resultados no replicados en Budapest, donde la división sistemática frente a no sistemática fue no concluyente (Pethö 2011), ni en la carga hereditaria de las sistemáticas, cuya familiaridad fue alta en familias multiplex (Peralta 2016)"
+   ],
+   "note": "La escuela de Würzburg dio a la tradición WKL su base empírica más amplia, pero con limitaciones: muestras pequeñas, procedentes de uno o pocos centros y evaluadas por psiquiatras formados en la misma escuela; el diagnóstico leonhardiano incorpora el curso longitudinal, lo que puede inflar las diferencias pronósticas [fuente no localizada]. Los hallazgos de ligamiento no condujeron a la identificación de un gen causal replicado. Los estudios de otros grupos (Pamplona, Budapest, Estrasburgo, este último vinculado a la propia tradición WKL) confirman parte del sistema y contradicen otra parte.",
+   "sec": [
+    {
+     "t": "Contexto: de Leonhard a Würzburg",
+     "x": "Tras la muerte de Leonhard (1988), su sistemática tenía escasa difusión fuera del ámbito germanoparlante [fuente no localizada]; Braun (2021) sitúa ya en las tensiones entre las dos Alemanias su fallido intento de conservar la cátedra de Erlangen en 1951. En Würzburg, Helmut Beckmann reunió a un grupo que adoptó la clasificación como hipótesis empírica, comparándola de forma sistemática con DSM-III-R y CIE-10 en las mismas muestras. La carta colectiva de Beckmann, Bartsch, Neumärker, Pfuhlmann, Verdaguer y Franzek en el American Journal of Psychiatry (Beckmann 2000) y la edición inglesa revisada de la obra de Leonhard por Beckmann (Leonhard 1999) acercaron el sistema a la psiquiatría anglosajona. En paralelo, Ban defendía desde la psicofarmacología la utilidad de la clasificación para separar poblaciones con respuesta distinta a los psicofármacos (Ban 1990).",
+     "links": [
+      {
+       "ids": [
+        "leonhard_hit",
+        "kleist_hit"
+       ],
+       "t": "Leonhard y Kleist"
+      },
+      {
+       "ids": [
+        "wernicke_hit"
+       ],
+       "t": "Wernicke"
+      }
+     ]
+    },
+    {
+     "t": "Programa empírico: fiabilidad, gemelos, familias y embarazo",
+     "x": "El programa siguió una estrategia coherente. Primero, demostrar que la clasificación es fiable en manos expertas (Pfuhlmann 1997; Beckmann 1996). Segundo, mostrar que separa grupos con etiología distinta: en el estudio de gemelos de la Baja Franconia, las diagnosticadas con DSM-III-R o CIE-10 no diferían entre monocigóticos y dicigóticos, pero las categorías de Leonhard sí (Franzek y Beckmann 1996; Pfuhlmann 1999); en el estudio familiar de las catatonías, la periódica mostró agregación compatible con un gen mayor y la sistemática un riesgo bajo (Stöber 1995), con más exposición prenatal a infecciones en la sistemática (34 % frente a 8 %) y transmisión parental en el 44 % de las periódicas (Stöber 2002). Tercero, buscar el gen en la forma más familiar, la catatonía periódica (Stöber 2000; Stöber 2002). Beckmann y Franzek (2000) resumieron el conjunto como tres categorías válidas del espectro esquizofrénico: cicloides, no sistemáticas y sistemáticas.",
+     "links": [
+      {
+       "ids": [
+        "wkl_sistematicas"
+       ],
+       "t": "sistemáticas frente a no sistemáticas"
+      },
+      {
+       "ids": [
+        "wkl19"
+       ],
+       "t": "catatonía periódica"
+      },
+      {
+       "ids": [
+        "pcicloid",
+        "psciclb"
+       ],
+       "t": "psicosis cicloides"
+      }
+     ]
+    },
+    {
+     "t": "La genética de la catatonía periódica",
+     "x": "Partiendo del riesgo del 26,9 % en familiares de primer grado, Stöber et al. (2000) realizaron una exploración genómica en 12 familias multiplex (135 personas, 356 marcadores) y obtuvieron ligamiento significativo en el cromosoma 15q15 (LOD no paramétrico 3,57) y un locus sugestivo en 22q13, lo que indicaba heterogeneidad genética; el análisis paramétrico bajo un modelo autosómico dominante confirmó la región de 15q. Una segunda exploración en cuatro familias nuevas confirmó el locus mayor en 15q15 (Stöber 2002). Los genes candidatos estudiados después no se confirmaron: la mutación de WKL1 (MLC1) hallada en una familia extensa (Meyer 2001) no se encontró en probandos de Estados Unidos (Devaney 2002), y C15orf53, en la región 15q14-15.1 señalada también por estudios de asociación del trastorno bipolar, no resultó causal (Kranz 2012). La catatonía periódica figura en OMIM como SCZD10 (Kranz 2012).",
+     "links": [
+      {
+       "ids": [
+        "wkl19"
+       ],
+       "t": "catatonía periódica"
+      },
+      {
+       "ids": [
+        "catatonia"
+       ],
+       "t": "catatonía transnosológica"
+      }
+     ]
+    },
+    {
+     "t": "Recepción en España y críticas",
+     "x": "En Pamplona, Víctor Peralta y Manuel J. Cuesta han sido los principales interlocutores españoles de la tradición WKL. Con definiciones restrictivas como las de Leonhard, el síndrome catatónico de Kahlbaum encajaba mejor como «tercera psicosis», que en 2001 identificaron con la psicosis cicloide (Peralta 1997; Peralta 2001). En 243 primeros episodios seguidos de 10 a 31 años, las cuatro clases de Leonhard se validaron solo en parte: separación sólida entre sistemáticas y no sistemáticas, sin diferencias entre cicloides y enfermedad maníaco-depresiva (Cuesta 2024); en neuropsicología compartían un perfil común con distinta gravedad (Cuesta 2022). Controversia sobre la herencia: para Würzburg la catatonía sistemática es sobre todo esporádica, con heredabilidad muy baja (Stöber 1995; Beckmann 1996; Beckmann y Franzek 2000); en 441 familias multiplex, en cambio, la clasificación de Leonhard fue la más familiar (h² = 0,64) y la esquizofrenia sistemática alcanzó la familiaridad más alta (h² = 0,78) (Peralta 2016). La discrepancia puede depender del diseño (probandos consecutivos frente a familias con varios afectados) [fuente no localizada] y sigue abierta. En Budapest la división sistemática frente a no sistemática no fue concluyente (Pethö 2011).",
+     "links": [
+      {
+       "ids": [
+        "katatonie_hit"
+       ],
+       "t": "Kahlbaum"
+      },
+      {
+       "ids": [
+        "perris"
+       ],
+       "t": "cicloides escandinavas"
+      },
+      {
+       "ids": [
+        "wkl_sistematicas"
+       ],
+       "t": "sistemáticas frente a no sistemáticas"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Pfuhlmann B et al. (1997). On interrater reliability for Leonhard's classification of endogenous psychoses. Psychopathology 30:100-105 · PMID 9168566",
+    "Beckmann H et al. (1996). Genetic heterogeneity in catatonic schizophrenia: a family study. Am J Med Genet 67:289-300 · PMID 8725746",
+    "Franzek E & Beckmann H (1996). [Genetic heterogeneity of schizophrenia. Results of a systematic twin study] (artículo en alemán con resumen en inglés). Nervenarzt 67:583-594 · PMID 8927197",
+    "Pfuhlmann B, Franzek E & Beckmann H (1999). Absence of a subgroup of chronic schizophrenia in monozygotic twins. Consequences for considerations on the pathogenesis of schizophrenic psychoses. Eur Arch Psychiatry Clin Neurosci 249:50-54 · PMID 10195344",
+    "Stöber G, Franzek E & Beckmann H (1994). [Pregnancy infections in mothers of chronic schizophrenic patients. The significance of differential nosology] (artículo en alemán con resumen en inglés). Nervenarzt 65:175-182 · PMID 8177358",
+    "Stöber G et al. (1995). Periodic catatonia: a schizophrenic subtype with major gene effect and anticipation. Eur Arch Psychiatry Clin Neurosci 245:135-141 · PMID 7669819",
+    "Stöber G et al. (2000). Splitting schizophrenia: periodic catatonia-susceptibility locus on chromosome 15q15. Am J Hum Genet 67:1201-1207 · PMID 11001582",
+    "Stöber G et al. (2002). Periodic catatonia: confirmation of linkage to chromosome 15 and further evidence for genetic heterogeneity. Hum Genet 111:323-330 · PMID 12384773",
+    "Stöber G et al. (2002). Exposure to prenatal infections, genetics and the risk of systematic and periodic catatonia. J Neural Transm (Vienna) 109:921-929 · PMID 12111478",
+    "Beckmann H & Franzek E (2000). The genetic heterogeneity of «schizophrenia». World J Biol Psychiatry 1:35-41 · PMID 12607231",
+    "Beckmann H et al. (2000). Schizophrenias in the Wernicke-Kleist-Leonhard school (carta). Am J Psychiatry 157:1024-1025 · PMID 10831495",
+    "Leonhard K (1999). Classification of Endogenous Psychoses and their Differentiated Etiology. 2.ª ed. rev., Beckmann H (ed.). Viena/Nueva York: Springer [traducción inglesa; páginas no cotejadas]",
+    "Ban TA (1990). Clinical pharmacology and Leonhard's classification of endogenous psychoses. Psychopathology 23:331-338 · PMID 1982184",
+    "Pfuhlmann B et al. (2004). Cycloid psychoses are not part of a bipolar affective spectrum: results of a controlled family study. J Affect Disord 83:11-19 · PMID 15546641",
+    "Jabs BE et al. (2004). Differences in quality of life and course of illness between cycloid and schizophrenic psychoses: a comparative study. World J Biol Psychiatry 5:136-142 · PMID 15346537",
+    "Jabs B et al. (2006). [Cycloid psychoses as atypical manic-depressive disorders. Results of a family study] (artículo en alemán con resumen en inglés). Nervenarzt 77:1096-1104 · PMID 16502008",
+    "Meyer J et al. (2001). A missense mutation in a novel gene encoding a putative cation channel is associated with catatonic schizophrenia in a large pedigree. Mol Psychiatry 6:302-306 · PMID 11326298",
+    "Devaney JM et al. (2002). No missense mutation of WKL1 in a subgroup of probands with schizophrenia. Mol Psychiatry 7:419-423 · PMID 11986987",
+    "Kranz TM et al. (2012). The chromosome 15q14 locus for bipolar disorder and schizophrenia: is C15orf53 a major candidate gene? J Psychiatr Res 46:1414-1420 · PMID 22944046",
+    "Peralta V et al. (1997). The Kahlbaum syndrome: a study of its clinical validity, nosological status, and relationship with schizophrenia and mood disorder. Compr Psychiatry 38:61-67 · PMID 8980874",
+    "Peralta V et al. (2001). Classification issues in catatonia. Eur Arch Psychiatry Clin Neurosci 251 Suppl 1:I14-I16 · PMID 11776265",
+    "Peralta V et al. (2007). Cycloid psychosis: an examination of the validity of the concept. Curr Psychiatry Rep 9:184-192 · PMID 17521513",
+    "Peralta V et al. (2016). Familiality of psychotic disorders: a polynosologic study in multiplex families. Schizophr Bull 42:975-983 · PMID 26707865",
+    "Cuesta MJ et al. (2022). A neuropsychological study on Leonhard's nosological system. Eur Arch Psychiatry Clin Neurosci 272:427-436 · PMID 34269880",
+    "Cuesta MJ et al. (2024). Empirical validity of Leonhard's psychoses: a long-term follow-up study of first-episode psychosis patients. Schizophr Res 263:237-245 · PMID 36682995",
+    "Pethö B et al. (2011). [Classification of endogenous psychoses. Predictive validity of initial diagnosis based on 5 and 21-33-years of follow-up in a long-term prospective study (Budapest 2000)] (artículo en húngaro con resumen en inglés). Psychiatr Hung 26:219-229 · PMID 22058254",
+    "Braun B (2021). Karl Leonhard (1904-88) and his academic influence through the 'Erlangen School'. Hist Psychiatry 32:195-209 (publicación electrónica 2020) · PMID 33345625"
+   ],
+   "rel": [
+    "leonhard_hit",
+    "kleist_hit",
+    "wkl19",
+    "pcicloid",
+    "psciclb",
+    "wkl17",
+    "wkl18",
+    "catatonia",
+    "perris",
+    "wernicke_hit",
+    "wkl_sistematicas",
+    "katatonie_hit"
+   ]
+  }
+ ]
+}

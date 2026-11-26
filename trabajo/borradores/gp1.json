@@ -1,0 +1,610 @@
+{
+ "patch": {
+  "dsm2": {
+   "secAdd": [
+    {
+     "t": "Diagnóstico diferencial",
+     "x": "El especificador exige que los síntomas de polaridad opuesta no se deban a los efectos fisiológicos de una sustancia y deja fuera la irritabilidad, la distraibilidad y la agitación psicomotora por solaparse con la depresión (DSM-5-TR). Debe distinguirse, en primer lugar, del episodio depresivo con rasgos mixtos dentro de un trastorno bipolar I o II: un episodio maníaco o hipomaníaco previo cambia el diagnóstico de base y las recomendaciones terapéuticas (Yatham 2021). También de la depresión con angustia ansiosa, cuya tensión e inquietud no implican aceleración del pensamiento ni aumento de energía; de la depresión agitada, en la que la agitación aislada no cumple el especificador; de la acatisia inducida por antipsicóticos o antidepresivos; de la inestabilidad afectiva del trastorno límite, con oscilaciones de horas ligadas a lo interpersonal; del TDAH, de curso crónico y no episódico; y de la intoxicación por estimulantes, cocaína o catinonas [fuente no localizada para el conjunto del diferencial clínico].",
+     "links": [
+      {
+       "ids": [
+        "mxto",
+        "bpv",
+        "tb2"
+       ],
+       "t": "estados mixtos y depresión bipolar"
+      },
+      {
+       "ids": [
+        "danx",
+        "wkl3"
+       ],
+       "t": "depresión ansiosa y agitada"
+      },
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "acatisia farmacológica"
+      },
+      {
+       "ids": [
+        "tlp",
+        "tdah_adulto"
+       ],
+       "t": "cuadros de curso no episódico"
+      },
+      {
+       "ids": [
+        "cocaina",
+        "mefed"
+       ],
+       "t": "activación por sustancias"
+      }
+     ]
+    },
+    {
+     "t": "Curso y pronóstico",
+     "x": "En una revisión sistemática de 17 estudios con 19 198 participantes, la presencia de tres o más síntomas de polaridad opuesta afectó al 23,8 % de los episodios de depresión mayor unipolar y al 35,2 % de las depresiones bipolares (Vázquez 2018). En una muestra ambulatoria de 3099 personas con depresión mayor o trastorno bipolar, quienes presentaban depresión agitada-irritable o (hipo)manía disfórica (21,9 %) tuvieron más episodios mixtos repetidos, más abuso de sustancias, más intentos de suicidio y puntuaciones de riesgo suicida más altas, y cambiaron con más frecuencia el diagnóstico de depresión a trastorno bipolar (Tondo 2018). Esta muestra no aplicó estrictamente el especificador DSM-5-TR, por lo que sus resultados describen la mixticidad en sentido amplio, más cercana a la propuesta de Koukopoulos. En conjunto, la depresión con síntomas mixtos marca un curso menos favorable y obliga a reevaluar la polaridad en el seguimiento.",
+     "links": [
+      {
+       "ids": [
+        "ind_bipdep",
+        "tb2"
+       ],
+       "t": "viraje diagnóstico hacia la bipolaridad"
+      },
+      {
+       "ids": [
+        "dmko",
+        "koukopoulos_hit"
+       ],
+       "t": "definición amplia de Koukopoulos"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Vázquez GH et al. (2018). Mixed symptoms in major depressive and bipolar disorders: a systematic review. J Affect Disord 225:756-760 · PMID 28922738",
+    "Tondo L et al. (2018). Characteristics of depressive and bipolar disorder patients with mixed features. Acta Psychiatr Scand 138:243-252 · PMID 29862493"
+   ]
+  },
+  "aprend_adulto": {
+   "secAdd": [
+    {
+     "t": "Comorbilidad emocional y evidencia de intervención",
+     "x": "Las dificultades de aprendizaje no se limitan al rendimiento: en un metaanálisis de 34 estudios con 16 275 participantes, de niños a adultos, los malos lectores puntuaron más alto que los lectores típicos en problemas internalizantes (d = 0,41), ansiedad (d = 0,41) y depresión (d = 0,23) (Francis 2019). Otro metaanálisis de 96 estudios con 83 260 participantes de 7 a 35 años halló un efecto moderado (g = −0,54) sin diferencias entre dificultades de lectura, de matemáticas o no especificadas, ni por edad (Vieira 2024). La guía alemana sobre discalculia estima que afecta al 3-7 % de niños, adolescentes y adultos, señala un riesgo muy elevado de dislexia asociada (OR 12,25), de TDAH y de trastornos internalizantes y externalizantes, y obtiene un tamaño de efecto medio de 0,52 en los ensayos de intervención, casi todos escolares; reconoce que faltan pruebas y programas validados para adolescentes mayores y adultos (Haberstroh y Schulte-Körne 2019). En la evaluación de la persona adulta conviene, por tanto, explorar sistemáticamente la ansiedad y el ánimo.",
+     "links": [
+      {
+       "ids": [
+        "tag",
+        "ddm"
+       ],
+       "t": "ansiedad y depresión comórbidas"
+      },
+      {
+       "ids": [
+        "tdah_adulto"
+       ],
+       "t": "TDAH comórbido"
+      },
+      {
+       "ids": [
+        "aprend"
+       ],
+       "t": "ficha general del trastorno del aprendizaje"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Francis DA et al. (2019). The association between poor reading and internalising problems: a systematic review and meta-analysis. Clin Psychol Rev 67:45-60 · PMID 30528985",
+    "Vieira APA et al. (2024). Internalizing problems in individuals with reading, mathematics and unspecified learning difficulties: a systematic review and meta-analysis. Ann Dyslexia 74:4-26 · PMID 38135829",
+    "Haberstroh S & Schulte-Körne G (2019). The diagnosis and treatment of dyscalculia. Dtsch Arztebl Int 116:107-114 · PMID 30905334"
+   ]
+  },
+  "tcond_ep": {
+   "secAdd": [
+    {
+     "t": "Bases genéticas y neurales",
+     "x": "En 3687 pares de gemelos de 7 años del estudio TEDS valorados por el profesorado, los rasgos de insensibilidad emocional extremos mostraron una fuerte influencia genética; la conducta antisocial acompañada de estos rasgos tuvo una heredabilidad muy alta sin efecto del ambiente compartido, mientras que la conducta antisocial sin ellos mostró influencias genéticas y de ambiente compartido moderadas (Viding 2005). En resonancia magnética funcional, 12 jóvenes de 10 a 17 años con trastorno de conducta o negativista desafiante y rasgos de insensibilidad emocional mostraron menor activación de la amígdala ante rostros de miedo, pero no ante rostros neutros o de ira, frente a 12 jóvenes con TDAH y 12 controles, y menor conectividad entre amígdala y corteza prefrontal ventromedial, inversamente relacionada con la gravedad (Marsh 2008). Una heredabilidad alta no implica inmutabilidad ni impide la respuesta a intervenciones familiares, las muestras de neuroimagen son pequeñas y ninguno de estos hallazgos tiene valor diagnóstico o pericial individual.",
+     "links": [
+      {
+       "ids": [
+        "circ_antisocial",
+        "miedo_circ"
+       ],
+       "t": "circuito prefronto-amigdalino"
+      },
+      {
+       "ids": [
+        "tdah"
+       ],
+       "t": "grupo de comparación con TDAH"
+      },
+      {
+       "ids": [
+        "tpanti"
+       ],
+       "t": "continuidad con la psicopatía adulta"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Viding E et al. (2005). Evidence for substantial genetic risk for psychopathy in 7-year-olds. J Child Psychol Psychiatry 46:592-597 · PMID 15877765",
+    "Marsh AA et al. (2008). Reduced amygdala response to fearful expressions in children and adolescents with callous-unemotional traits and disruptive behavior disorders. Am J Psychiatry 165:712-720 · PMID 18281412"
+   ]
+  },
+  "maltrato_inf": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias: medida prospectiva y retrospectiva",
+     "x": "La investigación usa de forma intercambiable los registros prospectivos (servicios de protección, observación durante la infancia) y el relato retrospectivo en la edad adulta, pero identifican a personas distintas: en un metaanálisis de 16 estudios con 25 471 participantes, el acuerdo entre ambas medidas fue pobre (κ = 0,19), algo mayor cuando el relato retrospectivo se obtenía por entrevista y no por cuestionario, y no dependió de la edad, el sexo ni la calidad del estudio (Baldwin 2019). Los autores concluyen que quienes fueron identificados en la infancia y quienes refieren maltrato de adultos pueden seguir vías de riesgo distintas hacia la enfermedad mental. Para la clínica, esto significa que el relato retrospectivo es información valiosa sobre la experiencia vivida, aunque no equivale a un registro de hechos; para la pericia, que ni la ausencia de registros desmiente un relato ni el relato basta por sí solo para acreditar hechos concretos o su autoría.",
+     "links": [
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "valoración pericial"
+      },
+      {
+       "ids": [
+        "trauma",
+        "p_factor"
+       ],
+       "t": "trauma y riesgo transdiagnóstico"
+      }
+     ]
+    },
+    {
+     "t": "Prevención e intervención: qué ha demostrado eficacia",
+     "x": "La revisión de MacMillan et al. (2009) concluyó que la eficacia de la mayoría de los programas de prevención se desconoce. Dos programas de visitas domiciliarias, la Nurse-Family Partnership (la mejor evidencia) y Early Start, previenen el maltrato y sus consecuencias, como las lesiones; un programa específico de entrenamiento parental previene la recurrencia del maltrato físico, pero ninguna intervención ha demostrado prevenir la recurrencia de la negligencia, se desconoce si los programas escolares previenen el abuso sexual y no hay métodos conocidos para prevenir el maltrato emocional o la exposición a la violencia en la pareja. La TCC para niños y niñas con abuso sexual y síntomas postraumáticos es la intervención con mejor evidencia para reducir problemas de salud mental, y el acogimiento puede beneficiar frente a la permanencia en el hogar. En el ensayo de Olds et al. (1997), con 324 de 400 madres seguidas 15 años, las visitas de enfermería durante el embarazo y la primera infancia redujeron las notificaciones verificadas de maltrato y negligencia (0,29 frente a 0,54).",
+     "links": [
+      {
+       "ids": [
+        "entren_parental",
+        "pcit"
+       ],
+       "t": "entrenamiento parental y terapia de interacción"
+      },
+      {
+       "ids": [
+        "ptsd"
+       ],
+       "t": "tratamiento de las secuelas postraumáticas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Baldwin JR et al. (2019). Agreement between prospective and retrospective measures of childhood maltreatment: a systematic review and meta-analysis. JAMA Psychiatry 76:584-593 · PMID 30892562",
+    "MacMillan HL et al. (2009). Interventions to prevent child maltreatment and associated impairment. Lancet 373:250-266 · PMID 19056113",
+    "Olds DL et al. (1997). Long-term effects of home visitation on maternal life course and child abuse and neglect: fifteen-year follow-up of a randomized trial. JAMA 278:637-643 · PMID 9272895"
+   ]
+  },
+  "ataque_nervios": {
+   "secAdd": [
+    {
+     "t": "Relación con el trauma y la disociación",
+     "x": "La disociación y la desregulación afectiva que acompañan a algunos ataques llevaron a estudiar su relación con el trauma infantil. En 70 personas hispanas atendidas de forma ambulatoria, quienes tenían un trastorno de ansiedad o afectivo y ataques de nervios refirieron con más frecuencia abuso físico, abuso sexual o una persona cuidadora con abuso de sustancias que quienes tenían un trastorno psiquiátrico sin ataques; los autores proponen que, en algunas personas, el ataque sea una expresión culturalmente sancionada de una desregulación afectiva extrema asociada al trauma infantil y recomiendan explorar a fondo la historia traumática (Schechter 2000). Este dato es coherente con el hallazgo de que la predisposición disociativa predice la gravedad de los ataques (Hinton 2008). Se trata de una muestra clínica pequeña y transversal, por lo que no autoriza a presumir trauma en cada ataque, sino a preguntarlo con tacto.",
+     "links": [
+      {
+       "ids": [
+        "maltrato_inf",
+        "trauma"
+       ],
+       "t": "trauma infantil"
+      },
+      {
+       "ids": [
+        "ptsd",
+        "disoc_amn"
+       ],
+       "t": "TEPT y fenómenos disociativos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Schechter DS et al. (2000). Ataque de nervios and history of childhood trauma. J Trauma Stress 13:529-534 · PMID 10948492"
+   ]
+  },
+  "shenjing_shuairuo": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias",
+     "x": "La concordancia entre shenjing shuairuo y diagnósticos occidentales es parcial. En 139 pacientes chinos de atención primaria con quejas somáticas inexplicadas, los casos de shenjing shuairuo se reclasificaron como trastorno somatomorfo indiferenciado (30,6 %) o trastorno por dolor somatomorfo (22,4 %), pero el 44,9 % no cumplía ningún diagnóstico nuclear del DSM-IV; la concordancia con la neurastenia de la CIE-10 fue significativa y el malestar y la discapacidad fueron comparables a los de los trastornos somatomorfos y de ansiedad (Chang 2005). En 148 universitarios de Hong Kong, la categoría popular se asoció sobre todo con ansiedad, insomnio, depresión y susto, más que con la fatiga, y los autores sugieren que puede encubrir y desestigmatizar etiquetas psiquiátricas (Lee y Wong 1995). Lee (1999) sostiene que la sustitución por la depresión en la psiquiatría académica china no obedeció solo a datos empíricos, sino también a la apertura económica, la hegemonía del DSM y la comercialización de los antidepresivos. No cabe, por tanto, tratarla como simple «depresión somatizada».",
+     "links": [
+      {
+       "ids": [
+        "somat_sint",
+        "tag"
+       ],
+       "t": "trastornos somáticos y de ansiedad"
+      },
+      {
+       "ids": [
+        "neurastenia"
+       ],
+       "t": "neurastenia occidental"
+      },
+      {
+       "ids": [
+        "psiq_transcultural",
+        "kleinman_hit"
+       ],
+       "t": "psiquiatría transcultural"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Chang DF et al. (2005). Shenjing shuairuo and the DSM-IV: diagnosis, distress, and disability in a Chinese primary care setting. Transcult Psychiatry 42:204-218 · PMID 16114583",
+    "Lee S & Wong KC (1995). Rethinking neurasthenia: the illness concepts of shenjing shuairuo among Chinese undergraduates in Hong Kong. Cult Med Psychiatry 19:91-111 · PMID 7671622",
+    "Lee S (1999). Diagnosis postponed: shenjing shuairuo and the transformation of psychiatry in post-Mao China. Cult Med Psychiatry 23:349-380 · PMID 10572739"
+   ]
+  },
+  "alc_tardio": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias",
+     "x": "El término «inicio tardío» tiene dos usos que no deben confundirse. En geriatría designa el comienzo después de los 60 años (Atkinson 1990); en las tipologías de la dependencia alcohólica del adulto, el corte suele situarse en torno a los 25 años. Así, en el estudio COMBINE el inicio precoz se definió como dependencia antes de los 25 años y la edad de inicio no se relacionó con la respuesta a la naltrexona (Bogenschutz 2009); en un ensayo con ondansetrón la respuesta se limitó al inicio precoz, en una muestra de edad media de 40,6 años (Johnson 2000), y la sertralina solo mostró beneficio en el inicio tardío con un genotipo concreto (Kranzler 2012). Estos resultados no son trasladables a la persona mayor. En población mayor, el ensayo GOAL en atención primaria mostró que dos sesiones breves de consejo médico redujeron el consumo semanal (34 %), los atracones (74 %) y el porcentaje de quienes bebían más de 21 consumiciones a la semana (62 %) a los 12 meses, sin analizar por separado el inicio tardío (Fleming 1999).",
+     "links": [
+      {
+       "ids": [
+        "naltrexona",
+        "sertralina"
+       ],
+       "t": "fármacos estudiados por tipología"
+      },
+      {
+       "ids": [
+        "audit",
+        "entrev_motiv"
+       ],
+       "t": "cribado e intervención breve"
+      },
+      {
+       "ids": [
+        "clontp"
+       ],
+       "t": "tipologías de Cloninger"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Bogenschutz MP, Tonigan JS & Pettinati HM (2009). Effects of alcoholism typology on response to naltrexone in the COMBINE study. Alcohol Clin Exp Res 33:10-18 · PMID 18828797",
+    "Johnson BA et al. (2000). Ondansetron for reduction of drinking among biologically predisposed alcoholic patients: a randomized controlled trial. JAMA 284:963-971 · PMID 10944641",
+    "Kranzler HR, Armeli S & Tennen H (2012). Post-treatment outcomes in a double-blind, randomized trial of sertraline for alcohol dependence. Alcohol Clin Exp Res 36:739-744 · PMID 21981418",
+    "Fleming MF et al. (1999). Brief physician advice for alcohol problems in older adults: a randomized community-based trial. J Fam Pract 48:378-384 · PMID 10334615"
+   ]
+  },
+  "risperidona": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "Según la ficha técnica de Risperdal (AEMPS-CIMA, n.º registro 60336, apartado 5.1.1), la risperidona es un antagonista monoaminérgico selectivo con alta afinidad por los receptores serotoninérgicos 5-HT2 y dopaminérgicos D2; se une también a los receptores α1-adrenérgicos y, con menor afinidad, a los H1-histaminérgicos y α2-adrenérgicos, y no tiene afinidad por los receptores colinérgicos. La ficha atribuye al potente antagonismo D2 la mejoría de los síntomas positivos y plantea que el antagonismo central equilibrado de serotonina y dopamina «puede disminuir» el riesgo extrapiramidal y extender la actividad a los síntomas negativos y afectivos; es una hipótesis farmacológica y no una ventaja clínica demostrada frente a todos los comparadores. Del perfil de receptores se deducen efectos esperables: hipotensión ortostática por bloqueo α1, ausencia de efectos anticolinérgicos y, por el bloqueo D2 en la vía tuberoinfundibular, hiperprolactinemia.",
+     "links": [
+      {
+       "ids": [
+        "d2_block",
+        "5ht2a"
+       ],
+       "t": "bloqueo D2 y antagonismo 5-HT2A"
+      },
+      {
+       "ids": [
+        "hiperprl_ap"
+       ],
+       "t": "hiperprolactinemia"
+      },
+      {
+       "ids": [
+        "paliperidona"
+       ],
+       "t": "metabolito activo"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia y controversias",
+     "x": "La ficha técnica (5.1) recoge que, en pacientes estabilizados, el tiempo hasta la recaída fue mayor con risperidona que con haloperidol durante 1 a 2 años, y que la adición a litio o valproato en la manía fue eficaz en uno de dos ensayos: el fallido incluía carbamazepina, que induce el aclaramiento de risperidona y de su metabolito. En la demencia, el ensayo CATIE-AD (421 pacientes con enfermedad de Alzheimer y psicosis, agresividad o agitación) no halló diferencias en el tiempo hasta la retirada por cualquier causa; la mejoría global fue del 29 % con risperidona frente al 21 % con placebo (no significativa) y las retiradas por intolerancia, del 18 % frente al 5 %: los efectos adversos contrarrestan las ventajas de eficacia (Schneider 2006). En 101 niños y niñas con autismo y rabietas, agresividad o autolesiones, la risperidona redujo la irritabilidad un 56,9 % frente al 14,1 % con placebo, con respuesta en el 69 % frente al 12 % y aumento de peso de 2,7 frente a 0,8 kg (McCracken 2002); el autismo no figura entre las indicaciones de la ficha española, que limita el uso pediátrico a los trastornos de conducta.",
+     "links": [
+      {
+       "ids": [
+        "haloperidol"
+       ],
+       "t": "comparador en prevención de recaídas"
+      },
+      {
+       "ids": [
+        "ap_dem_riesgo",
+        "agit_dem"
+       ],
+       "t": "antipsicóticos en la demencia"
+      },
+      {
+       "ids": [
+        "tea",
+        "tcond"
+       ],
+       "t": "autismo y trastorno de conducta"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Schneider LS et al. (2006). Effectiveness of atypical antipsychotic drugs in patients with Alzheimer's disease. N Engl J Med 355:1525-1538 · PMID 17035647",
+    "McCracken JT et al. (2002). Risperidone in children with autism and serious behavioral problems. N Engl J Med 347:314-321 · PMID 12151468"
+   ]
+  },
+  "amiloide_mab": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "Ambos son anticuerpos monoclonales dirigidos contra el β-amiloide, pero contra formas distintas. El lecanemab es una IgG1 que se une preferentemente al Aβ agregado soluble, con actividad sobre oligómeros, protofibrillas y fibrillas insolubles; en el ensayo de fase 2b no alcanzó el objetivo principal a 12 meses, aunque a 18 meses redujo el amiloide cerebral en la PET con menor deterioro en varias escalas y ARIA con edema en el 9,9 % con la pauta seleccionada (Swanson 2021). El donanemab se dirige a una forma modificada del Aβ depositado en las placas; en el ensayo de fase 2 con 257 pacientes redujo la placa amiloide 85,06 centiloides más que el placebo, pero la carga global de tau apenas cambió (diferencia de 0,01), con una diferencia marginal en la escala compuesta principal y resultados dispares en las secundarias (Mintun 2021). La eliminación del amiloide en la imagen es, por tanto, robusta; su traducción clínica es mucho menor, y depende de que la persona tenga patología amiloide confirmada.",
+     "links": [
+      {
+       "ids": [
+        "dem",
+        "ncd_leve"
+       ],
+       "t": "enfermedad de Alzheimer temprana"
+      },
+      {
+       "ids": [
+        "apoe_psen"
+       ],
+       "t": "genética del Alzheimer"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia y controversias",
+     "x": "El debate no es si el efecto existe, sino si es clínicamente relevante. Un metaanálisis de 19 publicaciones con 23 202 participantes y 8 anticuerpos halló mejorías pequeñas frente a placebo (CDR-SB, −0,18 puntos) que no superaron la diferencia mínima clínicamente importante, tampoco con lecanemab ni donanemab, con aumento del riesgo de ARIA-E (riesgo relativo 10,29; número necesario para dañar 9), de ARIA-H (1,74; 13) y de ARIA-E sintomática (24,3; 86) (Ebell 2024). Otro metaanálisis de ensayos de fase 3 coincidió en efectos clínicos muy pequeños pese a una reducción muy grande del amiloide, moderadamente correlacionada con el beneficio, y señaló que donanemab y lecanemab eran los más eficaces y que el beneficio podría acumularse con el tiempo (Avgerinos 2024). En un metaanálisis en red, solo 6 de 48 intervenciones en el Alzheimer temprano enlentecieron el deterioro, y donanemab y lecanemab lo hicieron con certeza alta y efecto moderado (Zeng 2024). La agrupación de anticuerpos fallidos y eficaces explica parte de la divergencia entre estas revisiones.",
+     "links": [
+      {
+       "ids": [
+        "donepezilo",
+        "memantina"
+       ],
+       "t": "tratamientos sintomáticos de referencia"
+      },
+      {
+       "ids": [
+        "neuropsico"
+       ],
+       "t": "evaluación del deterioro"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Swanson CJ et al. (2021). A randomized, double-blind, phase 2b proof-of-concept clinical trial in early Alzheimer's disease with lecanemab, an anti-Aβ protofibril antibody. Alzheimers Res Ther 13:80 · PMID 33865446",
+    "Mintun MA et al. (2021). Donanemab in early Alzheimer's disease. N Engl J Med 384:1691-1704 · PMID 33720637",
+    "Ebell MH et al. (2024). Clinically important benefits and harms of monoclonal antibodies targeting amyloid for the treatment of Alzheimer disease: a systematic review and meta-analysis. Ann Fam Med 22:50-62 · PMID 38253509",
+    "Avgerinos KI et al. (2024). Critical assessment of anti-amyloid-β monoclonal antibodies effects in Alzheimer's disease: a systematic review and meta-analysis highlighting target engagement and clinical meaningfulness. Sci Rep 14:25741 · PMID 39468148",
+    "Zeng B et al. (2024). Pharmacologic and nutritional interventions for early Alzheimer's disease: a systematic review and network meta-analysis of randomized controlled trials. J Alzheimers Dis 99:1173-1186 · PMID 38759015"
+   ]
+  },
+  "jetlag_social": {
+   "secAdd": [
+    {
+     "t": "Correlatos metabólicos en una cohorte poblacional",
+     "x": "El vínculo con la obesidad, inicialmente basado en el índice de masa corporal autoinformado, se examinó con medidas clínicas en la cohorte de Dunedin, representativa de la población: entre 815 participantes que no trabajaban a turnos, el jet lag social se asoció a numerosos marcadores de disfunción metabólica y obesidad; fue mayor en las personas con obesidad metabólicamente no saludable que en las metabólicamente sanas y, en las primeras, se asoció además a hemoglobina glucosilada elevada y a un marcador de inflamación (Parsons 2015). Los autores lo interpretan como compatible con que «vivir contra el reloj interno» contribuya a la disfunción metabólica, y señalan implicaciones para los horarios laborales y el cambio horario estacional. El diseño sigue siendo observacional, por lo que no excluye causalidad inversa ni confusión por hábitos de vida, y no hay ensayos que demuestren que reducir el desfase mejore el metabolismo o el ánimo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "depresión, obesidad e inflamación"
+      },
+      {
+       "ids": [
+        "cronotipo",
+        "circad"
+       ],
+       "t": "cronotipo y ritmos circadianos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Parsons MJ et al. (2015). Social jetlag, obesity and metabolic disorder: investigation in a cohort study. Int J Obes (Lond) 39:842-848 · PMID 25601363"
+   ]
+  },
+  "muscarinico_esq": {
+   "secAdd": [
+    {
+     "t": "Ensayos de fase 3 y estado de la evidencia",
+     "x": "Dos ensayos de fase 3 de 5 semanas con pacientes ingresados por exacerbación aguda replicaron el resultado de fase 2. En EMERGENT-2 (252 participantes), la xanomelina-trospio redujo la PANSS total 9,6 puntos más que el placebo (d = 0,61), sin diferencias en síntomas extrapiramidales, acatisia, aumento de peso ni somnolencia; los efectos adversos más frecuentes fueron estreñimiento, dispepsia, náuseas, vómitos e hipertensión (Kaul 2024, Lancet). En EMERGENT-3 (256 participantes, Estados Unidos y Ucrania), la diferencia fue de 8,4 puntos (d = 0,60), con náuseas, dispepsia, vómitos y estreñimiento como efectos adversos más comunes (Kaul 2024, JAMA Psychiatry). Una revisión de 2025 estima un tamaño de efecto agrupado de 0,61 y recoge que el ensayo como tratamiento añadido en respondedores parciales no alcanzó significación (Ehret y Meyer 2025). La validación de la hipótesis por otras moléculas es incierta: el modulador alostérico M4 emraclidina no superó al placebo en fase 2 [fuente no localizada]. Faltan comparaciones directas con antipsicóticos D2.",
+     "links": [
+      {
+       "ids": [
+        "xanomelina"
+       ],
+       "t": "xanomelina-trospio"
+      },
+      {
+       "ids": [
+        "acatisia"
+       ],
+       "t": "ausencia de acatisia"
+      },
+      {
+       "ids": [
+        "clozapina"
+       ],
+       "t": "clozapina y receptores muscarínicos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kaul I et al. (2024). Efficacy and safety of the muscarinic receptor agonist KarXT (xanomeline-trospium) in schizophrenia (EMERGENT-2) in the USA: results from a randomised, double-blind, placebo-controlled, flexible-dose phase 3 trial. Lancet 403:160-170 · PMID 38104575",
+    "Kaul I et al. (2024). Efficacy and safety of xanomeline-trospium chloride in schizophrenia: a randomized clinical trial. JAMA Psychiatry 81:749-756 · PMID 38691387",
+    "Ehret MJ & Meyer JM (2025). Xanomeline-trospium for the treatment of schizophrenia. Focus (Am Psychiatr Publ) 23:389-398 · PMID 41613741"
+   ]
+  },
+  "desc_demora": {
+   "secAdd": [
+    {
+     "t": "Bases neurales y modificabilidad",
+     "x": "En resonancia magnética funcional, McClure et al. (2004) describieron dos sistemas: regiones límbicas y paralímbicas ligadas al sistema dopaminérgico mesencefálico se activaban preferentemente ante recompensas inmediatas, mientras que la corteza prefrontal lateral y la parietal posterior se activaban en todas las elecciones intertemporales, con más actividad frontoparietal cuando se elegía la opción demorada. Kable y Glimcher (2007) propusieron en cambio que el estriado ventral, la corteza prefrontal medial y el cíngulo posterior codifican el valor subjetivo de la recompensa demorada, lo que apunta a un sistema de valoración único más que a dos sistemas en competencia; la cuestión sigue abierta. El descuento no es inmutable: una revisión de 92 artículos halló que la mayoría de las manipulaciones lo reducían, con efectos variables; el encuadre y el priming influyen en elecciones aisladas, el pensamiento episódico sobre el futuro podría incorporarse a terapias existentes y las manipulaciones basadas en el aprendizaje produjeron los efectos mayores y más duraderos, aunque su utilidad clínica está por demostrar (Rung y Madden 2018).",
+     "links": [
+      {
+       "ids": [
+        "recompensa"
+       ],
+       "t": "circuito de recompensa"
+      },
+      {
+       "ids": [
+        "func_ejec"
+       ],
+       "t": "control ejecutivo"
+      },
+      {
+       "ids": [
+        "impulsiv"
+       ],
+       "t": "impulsividad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "McClure SM et al. (2004). Separate neural systems value immediate and delayed monetary rewards. Science 306:503-507 · PMID 15486304",
+    "Kable JW & Glimcher PW (2007). The neural correlates of subjective value during intertemporal choice. Nat Neurosci 10:1625-1633 · PMID 17982449",
+    "Rung JM & Madden GJ (2018). Experimental reductions of delay discounting and impulsive choice: a systematic review and meta-analysis. J Exp Psychol Gen 147:1349-1381 · PMID 30148386"
+   ]
+  },
+  "hha_tept": {
+   "secAdd": [
+    {
+     "t": "Vulnerabilidad previa y receptor de glucocorticoides",
+     "x": "Los estudios prospectivos sugieren que parte de las alteraciones del eje precede al trastorno. En 99 víctimas de accidentes de tráfico, quienes desarrollaron un TEPT agudo al mes habían excretado menos cortisol en la orina de 15 horas recogida al ingreso, y los niveles iniciales predijeron parte de la varianza de los pensamientos intrusivos y evitativos (Delahanty 2000). En militares evaluados antes del despliegue, un número mayor de receptores de glucocorticoides en células mononucleares de sangre periférica predijo síntomas postraumáticos elevados seis meses después del regreso (34 casos frente a 34 controles emparejados), sin diferencias en la expresión de ARNm del receptor ni de FKBP5 (van Zuiden 2011). Junto con la interacción entre polimorfismos de FKBP5 y abuso infantil, acompañada de cambios en la supresión con dexametasona (Binder 2008), estos datos apoyan una sensibilidad aumentada del receptor de glucocorticoides como factor de vulnerabilidad. Las muestras son pequeñas y seleccionadas, y ninguno de estos marcadores predice el riesgo de una persona concreta.",
+     "links": [
+      {
+       "ids": [
+        "fkbp5_epigen"
+       ],
+       "t": "FKBP5 y adversidad temprana"
+      },
+      {
+       "ids": [
+        "testr",
+        "ptsd"
+       ],
+       "t": "estrés agudo y TEPT"
+      },
+      {
+       "ids": [
+        "corticoides_psiq"
+       ],
+       "t": "glucocorticoides"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Delahanty DL, Raimonde AJ & Spoonster E (2000). Initial posttraumatic urinary cortisol levels predict subsequent PTSD symptoms in motor vehicle accident victims. Biol Psychiatry 48:940-947 · PMID 11074232",
+    "van Zuiden M et al. (2011). Pre-existing high glucocorticoid receptor number predicting development of posttraumatic stress symptoms after military deployment. Am J Psychiatry 168:89-96 · PMID 21078706",
+    "Binder EB et al. (2008). Association of FKBP5 polymorphisms and childhood abuse with risk of posttraumatic stress disorder symptoms in adults. JAMA 299:1291-1305 · PMID 18349090"
+   ]
+  },
+  "confus_fam_prenat": {
+   "secAdd": [
+    {
+     "t": "Límites del diseño de hermanos y triangulación",
+     "x": "El análisis de Frisell et al. (2012) muestra que las estimaciones entre hermanos eliminan la confusión por los factores compartidos, pero quedan más sesgadas que las convencionales por los confusores no compartidos cuando los hermanos se parecen menos en esos confusores que en la exposición, y que el error de medida aleatorio de la exposición atenúa más la asociación intrapar, de modo que puede debilitarse incluso sin confusión. Un resultado nulo entre hermanos no es, por tanto, prueba definitiva de ausencia de efecto, y un resultado positivo tampoco es inmune al sesgo. Por eso se triangula con otros diseños: controles negativos, fecundación in vitro (Thapar 2009; Rice 2010) y cohortes nacionales con análisis entre hermanos de exposiciones que sí resisten el ajuste familiar. En 4 061 795 nacidos en Suecia, la asociación de la prematuridad y del nacimiento a término temprano con el autismo apenas se atenuó al controlar los factores familiares compartidos, en niños y en niñas, lo que es coherente con una relación causal (Crump 2021).",
+     "links": [
+      {
+       "ids": [
+        "prematuridad"
+       ],
+       "t": "prematuridad y autismo"
+      },
+      {
+       "ids": [
+        "hered_tea",
+        "hered_tdah"
+       ],
+       "t": "heredabilidad"
+      },
+      {
+       "ids": [
+        "perit_forense"
+       ],
+       "t": "valoración de la causalidad en la pericia"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Frisell T et al. (2012). Sibling comparison designs: bias from non-shared confounders and measurement error. Epidemiology 23:713-720 · PMID 22781362",
+    "Crump C, Sundquist J & Sundquist K (2021). Preterm or early term birth and risk of autism. Pediatrics 148(3):e2020032300 · PMID 34380775"
+   ]
+  },
+  "ep_hipom": {
+   "set": {
+    "tx": "Confirmar el episodio con informantes y descartar causas tóxicas, farmacológicas y médicas; retirar o reducir los agentes que elevan el ánimo (antidepresivos, estimulantes, corticoides, sustancias) y restablecer el sueño y la regularidad de los ritmos. Si la hipomanía es intensa, prolongada o recurrente, CANMAT/ISBD 2018 indica considerar un estabilizador (litio o valproato) o un antipsicótico atípico, advirtiendo que la mayoría de los antimaníacos no se han estudiado específicamente en la hipomanía (Yatham 2018); el valproato en mujeres con capacidad de gestación exige el plan de prevención de embarazos. El tratamiento de mantenimiento se dirige al trastorno bipolar de base, cuyo curso en el tipo II dominan los síntomas depresivos (Judd 2003), con psicoeducación, registro del ánimo y plan de detección precoz de recaídas. Pautas y límites según las fichas técnicas AEMPS-CIMA."
+   }
+  },
+  "depvital": {
+   "featsAdd": [
+    "Schneider asistió desde 1919 a los seminarios de filosofía de Max Scheler en Colonia; Cutting et al. (2016) concluyen que la «depresión vital» como núcleo de la melancolía es esencialmente filosofía scheleriana aplicada, a diferencia de los síntomas de primer rango, que no deben nada a Scheler"
+   ]
+  },
+  "vongebsatt": {
+   "featsAdd": [
+    "Viktor Emil von Gebsattel (1883-1974), filósofo y psiquiatra, desarrolló una antropología médica que advertía contra la deshumanización de la medicina cuando la persona del paciente o la paciente y la del médico no están presentes en la relación clínica (Welie 1995)"
+   ],
+   "refsAdd": [
+    "Welie JV (1995). Viktor Emil von Gebsattel on the doctor-patient relationship. Theor Med 16:41-72 · PMID 7652712"
+   ]
+  },
+  "tfp": {
+   "featsAdd": [
+    "Mecanismo de cambio propuesto: en el ensayo de Clarkin (90 pacientes), solo la TFP aumentó a los 12 meses la proporción de pacientes con apego seguro en la Adult Attachment Interview, la coherencia narrativa y la función reflexiva, sin cambios en la resolución de pérdidas o traumas en ninguna rama (Levy 2006)"
+   ],
+   "refsAdd": [
+    "Levy KN et al. (2006). Change in attachment patterns and reflective function in a randomized control trial of transference-focused psychotherapy for borderline personality disorder. J Consult Clin Psychol 74:1027-1040 · PMID 17154733"
+   ],
+   "relAdd": [
+    "mbt",
+    "apego"
+   ]
+  },
+  "labaf": {
+   "featsAdd": [
+    "Concepto mal delimitado: una revisión sistemática halló 37 estudios con nueve términos solapados (labilidad afectiva, inestabilidad afectiva, desregulación emocional, entre otros) y 24 medidas que exploran cuatro facetas (oscilación, intensidad, capacidad de regulación y cambio desencadenado por el entorno); ninguna medida única la evalúa por completo (Marwaha 2014)"
+   ]
+  },
+  "manierismo": {
+   "featsAdd": [
+    "Lectura fenomenológica: Binswanger (1956) analizó la «Manieriertheit» como una de las tres formas de existencia fracasada, junto a la exaltación (Verstiegenheit) y la excentricidad (Verschrobenheit), en un plano antropológico distinto del signo motor catatónico [fuente no localizada para el contenido concreto]"
+   ],
+   "refsAdd": [
+    "Binswanger L (1956). Drei Formen missglückten Daseins: Verstiegenheit, Verschrobenheit, Manieriertheit. Tübingen: Max Niemeyer"
+   ],
+   "relAdd": [
+    "binswang"
+   ]
+  },
+  "rush": {
+   "featsAdd": [
+    "Convicción sin prueba: Rush estaba convencido de que su terapéutica funcionaba y de que los métodos heroicos eran la clave para vencer la enfermedad, y la sangría masiva se convirtió en el centro de su práctica (Kopperman 2004)"
+   ]
+  }
+ },
+ "add": []
+}

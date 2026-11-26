@@ -1,0 +1,223 @@
+{
+ "patch": {
+  "hitop_tp": {
+   "secAdd": [
+    {
+     "t": "El modelo HiTOP según Kotov et al. (2021)",
+     "x": "El consorcio nació en 2015, impulsado por Kotov, Krueger y Watson con 40 profesionales, y en esta revisión reúne 132 nosólogos en nueve grupos de trabajo (pp. 84-85). La jerarquía asciende de componentes sintomáticos y rasgos desadaptativos (más de 100 propuestos) a síndromes, subfactores, espectros y superespectros: seis espectros incluidos (somatomorfo, internalizante, trastorno del pensamiento, desapego, externalizante desinhibido y antagonista), el factor p en la cima y tres superespectros hipotéticos (disfunción emocional, psicosis, externalizante) (p. 87, figura 1). No contiene diagnósticos DSM o CIE, sino sus signos y síntomas, y separa la disfunción de sus consecuencias, como la CIE-11. Los trabajos del consorcio revisaron 554 estudios o revisiones: 261 psicométricos, 134 genéticos y 45 de neurociencia (p. 88). Como utilidad clínica proponen rangos de gravedad (1,0-1,5 DE leve; 1,5-2,0 moderado; >2,0 grave), cribado de espectros antes de medir dimensiones y una batería de unos 45 minutos probada en 10 centros (pp. 91, 99-100). Límites que reconocen: de 19 clases del DSM-5 recoge 8 completas, 6 en parte y 5 no; ubicaciones provisionales (somatomorfo, manía); sin rasgos de curso; validez incierta fuera de 15-65 años (pp. 88, 91, 93). Su propio grupo mostró que el modelo bifactorial puede ajustar mejor que el verdadero (p. 94). Escriben fundadores del consorcio (p. 102); las críticas externas no se recogen en el artículo.",
+     "links": [
+      {
+       "ids": [
+        "hitop_anx",
+        "p_factor"
+       ],
+       "t": "espectro internalizante y factor p"
+      },
+      {
+       "ids": [
+        "pid5_lpfs"
+       ],
+       "t": "modelo alternativo del DSM-5"
+      },
+      {
+       "ids": [
+        "rdoc"
+       ],
+       "t": "RDoC"
+      },
+      {
+       "ids": [
+        "cie11_hit",
+        "dsm5_hit"
+       ],
+       "t": "clasificaciones oficiales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2021). The Hierarchical Taxonomy of Psychopathology (HiTOP): a quantitative nosology based on consensus of evidence. Annu Rev Clin Psychol 17:83-108 · PMID 33577350"
+   ],
+   "relAdd": [
+    "rdoc"
+   ]
+  },
+  "hitop_anx": {
+   "secAdd": [
+    {
+     "t": "El espectro internalizante en HiTOP (Kotov et al. 2021)",
+     "x": "En la figura 1 (p. 87) el espectro internalizante agrupa cinco subfactores: problemas sexuales, patología alimentaria, miedo, distrés y manía; esta última es provisional y comparte carga con el trastorno del pensamiento. En la correspondencia con el DSM, el distrés recoge depresión mayor, distimia, TAG, TEPT y trastorno límite de la personalidad (que figura también en el antagonista), y el miedo agorafobia, TOC, pánico, fobia social y fobias específicas. Junto al somatomorfo formaría el superespectro hipotético de disfunción emocional. La tabla 1 (p. 89) gradúa la evidencia: fuerte en estructura y validación para trastornos depresivos y de ansiedad; fuerte en estructura y moderada en validación para el TEPT; moderada y limitada para TOC, disfunciones sexuales y conducta alimentaria; el insomnio cae en distrés con validación limitada. El espectro corresponde a la afectividad negativa del modelo alternativo del DSM-5 y al polo opuesto de la estabilidad emocional (figura 2, p. 95). Como validadores, un metaanálisis de GWAS de TAG, pánico, agorafobia, fobia social y fobias específicas halló variantes asociadas al factor internalizante común (p. 97), y se asocia de forma consistente con la amígdala extendida y sus conexiones con la corteza cingulada anterior rostral (p. 97). En clínica, citan el Protocolo Unificado como intervención dirigida al espectro entero (p. 100).",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "modelo HiTOP"
+      },
+      {
+       "ids": [
+        "tag",
+        "ptsd",
+        "ddp",
+        "tlp"
+       ],
+       "t": "subfactor de distrés"
+      },
+      {
+       "ids": [
+        "panic",
+        "agora",
+        "fobia_soc",
+        "toc_dsm"
+       ],
+       "t": "subfactor de miedo"
+      },
+      {
+       "ids": [
+        "disf_sex",
+        "anor",
+        "insom"
+       ],
+       "t": "otros subfactores y ubicaciones"
+      },
+      {
+       "ids": [
+        "prot_unif"
+       ],
+       "t": "Protocolo Unificado"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2021). The Hierarchical Taxonomy of Psychopathology (HiTOP): a quantitative nosology based on consensus of evidence. Annu Rev Clin Psychol 17:83-108 · PMID 33577350"
+   ],
+   "relAdd": [
+    "hitop_tp",
+    "tlp",
+    "ptsd"
+   ]
+  },
+  "p_factor": {
+   "secAdd": [
+    {
+     "t": "El factor p dentro de HiTOP (Kotov et al. 2021)",
+     "x": "Kotov et al. (2021) sitúan el factor p como superespectro en la cima de la jerarquía, por encima de los espectros y de tres superespectros aún hipotéticos (p. 87). Entre la evidencia que reúnen figuran revisiones narrativas que apoyan el factor p junto a los espectros internalizante, externalizante desinhibido y de trastorno del pensamiento (p. 88), y su replicación en población infantil (p. 93). Le atribuyen un uso práctico concreto: un índice sintético útil para decisiones administrativas como prever la utilización de servicios, mientras los espectros orientan el formato del tratamiento y los componentes sus dianas (p. 91). En genética, un estudio sueco con más de 1,5 millones de hermanos identificó un factor general y otros específicos del trastorno del pensamiento y de los trastornos no psicóticos (p. 96); en neuroimagen, el factor p se asocia de forma replicada con un adelgazamiento cortical difuso (p. 97). Al mismo tiempo, el artículo recoge la preocupación por que el modelo bifactorial produzca un factor general artefactual: en la simulación de su grupo de métodos, ese modelo ajustó mejor que el modelo de factores correlacionados con el que se generaron los datos (p. 94). Las dimensiones se presentan como descriptivas y agnósticas respecto a las causas (p. 88).",
+     "links": [
+      {
+       "ids": [
+        "hitop_tp"
+       ],
+       "t": "modelo HiTOP"
+      },
+      {
+       "ids": [
+        "smoller_estructura",
+        "pleiotropia"
+       ],
+       "t": "genética transdiagnóstica"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kotov R et al. (2021). The Hierarchical Taxonomy of Psychopathology (HiTOP): a quantitative nosology based on consensus of evidence. Annu Rev Clin Psychol 17:83-108 · PMID 33577350"
+   ]
+  },
+  "hiperf": {
+   "secAdd": [
+    {
+     "t": "Autoalteración e hiperreflexividad según Sass et al. (2024)",
+     "x": "El artículo, firmado por Sass y Feyaerts, defiende el concepto de esquizofrenia con una lectura pragmatista (William James) y jaspersiana: no sería una entidad morbosa con causa única, sino un patrón robusto de síntomas. Reconoce las críticas al diagnóstico (heterogeneidad, ausencia de biomarcadores, genética inespecífica) (p. 476). Revisa el modelo de alteración de la ipseidad (IDM) y lo reformula (IDMrevised): la hiperreflexividad, operativa o reflexiva, pasa a ser el factor unificador; la «presencia de sí disminuida» se sustituye por una presencia alterada que también puede estar aumentada, y el asidero sobre el mundo puede aflojarse o tensarse (pp. 477-478). La presencia aumentada explica la desrealización subjetivizada (con «doble contabilidad»), el cuasi-solipsismo, la paranoia ontológica, la centración y el «concernement» (Grivois) y el Anderssein (pp. 478-479). La hiperreflexividad se propone como trouble générateur, ambigua entre causa y aspecto estructural, y como estado atractor variable, «final common pathway» de factores genéticos, del neurodesarrollo y sociales, como el ostracismo y el trauma (pp. 480-481). Es un trabajo teórico con viñetas clínicas (p. 483): no aporta datos nuevos con la EASE y remite a revisiones sistemáticas y metaanálisis como el de Raballo et al. (2021) (p. 477). Consecuencia nosológica: la esquizofrenia se distinguiría del trastorno delirante, la manía y la depresión psicótica, con analogías reconocidas con la despersonalización (p. 485).",
+     "links": [
+      {
+       "ids": [
+        "selfips",
+        "ipsei"
+       ],
+       "t": "modelo de la ipseidad"
+      },
+      {
+       "ids": [
+        "desp",
+        "desp_sx"
+       ],
+       "t": "despersonalización"
+      },
+      {
+       "ids": [
+        "praecox_gefuhl"
+       ],
+       "t": "sentimiento praecox"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "esquizofrenia"
+      },
+      {
+       "ids": [
+        "ease_ins"
+       ],
+       "t": "EASE"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sass L & Feyaerts J (2024). Schizophrenia, the very idea: on self-disorder, hyperreflexivity, and the diagnostic concept. Schizophr Res 267:473-486 · PMID 38693032"
+   ],
+   "relAdd": [
+    "schreber",
+    "kimura",
+    "apofania",
+    "esq"
+   ]
+  },
+  "selfips": {
+   "secAdd": [
+    {
+     "t": "La autoalteración como núcleo del concepto de esquizofrenia (Sass et al. 2024)",
+     "x": "Para Sass y Feyaerts (2024) la autoalteración no es solo una pérdida: el mismo paciente puede vivirse como autómata o inexistente y a la vez como centro casi divino de toda experiencia (p. 476). Por eso consideran engañoso el énfasis exclusivo del modelo original en la pérdida del self y reclaman la misma importancia para la autocentralidad exagerada (pp. 479-480). Ilustran esa paradoja con Schreber y la apoyan en precursores: la apofanía y la anastrofé de Conrad, entendidas como dos caras de un único cambio estructural, y la «reflexión simultánea» de Kimura Bin y Nagai (pp. 482-483). En las reflexiones finales, la alteración del self apoyada en la hiperreflexividad es la que justifica la categoría como «core gestalt» (Parnas 2012) y no como agregado arbitrario de síntomas (pp. 484-485). El desarrollo del mecanismo se expone en la ficha de hiperreflexividad.",
+     "links": [
+      {
+       "ids": [
+        "hiperf"
+       ],
+       "t": "hiperreflexividad (Sass et al. 2024)"
+      },
+      {
+       "ids": [
+        "schreber"
+       ],
+       "t": "caso Schreber"
+      },
+      {
+       "ids": [
+        "apofania",
+        "conrad_hit"
+       ],
+       "t": "Conrad"
+      },
+      {
+       "ids": [
+        "kimura"
+       ],
+       "t": "Kimura"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Sass L & Feyaerts J (2024). Schizophrenia, the very idea: on self-disorder, hyperreflexivity, and the diagnostic concept. Schizophr Res 267:473-486 · PMID 38693032"
+   ],
+   "relAdd": [
+    "schreber",
+    "kimura",
+    "apofania"
+   ]
+  }
+ },
+ "add": []
+}

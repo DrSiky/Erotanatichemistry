@@ -1,0 +1,527 @@
+{
+ "patch": {
+  "cult_bound": {
+   "secAdd": [
+    {
+     "t": "Evaluación con la Entrevista de Formulación Cultural",
+     "x": "La Entrevista de Formulación Cultural (CFI) del DSM-5-TR es un guion semiestructurado de 16 preguntas que explora cómo entiende la persona su problema, qué causas le atribuye, qué factores culturales influyen en el estrés y en los apoyos, cómo se ve a sí misma en su contexto cultural y qué expectativas tiene sobre la ayuda [fuente no localizada]. En el ensayo de campo internacional del DSM-5 (seis países, 318 pacientes ambulatorios con diagnósticos diversos y 75 clínicos), la CFI resultó factible, aceptable y útil; los clínicos la valoraron como menos factible que los pacientes, pero tras aplicarla una vez su valoración mejoró y las entrevistas siguientes requirieron menos tiempo (Lewis-Fernández 2017). En la práctica permite reconocer un idioma de malestar (como ataque de nervios o kufungisisa) sin confundirlo con un síntoma psicótico o disociativo y negociar un plan terapéutico comprensible para quien consulta, incluidos los recursos comunitarios o religiosos que use. Es especialmente pertinente en población migrante y en minorías, también en minorías sexuales y de género, donde el estrés de minoría y la discriminación modelan la expresión del sufrimiento [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "cfi",
+        "competencia_cult"
+       ],
+       "t": "instrumento y competencia cultural"
+      },
+      {
+       "ids": [
+        "ataque_nervios",
+        "kufungisisa"
+       ],
+       "t": "idiomas de malestar"
+      },
+      {
+       "ids": [
+        "psiq_transcultural"
+       ],
+       "t": "psiquiatría transcultural"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia y controversias",
+     "x": "La relación entre los conceptos culturales del malestar y las categorías psiquiátricas es imperfecta. En la revisión sistemática y metaanálisis de Kohrt et al. (2014; 45 estudios, 18 782 participantes), solo el 27 % de los estudios alcanzó una calidad media y el resto fue de calidad baja o muy baja. Los metaanálisis para ansiedad, depresión, TEPT y somatización mostraron heterogeneidad muy alta (I² > 75 %); solo el malestar psicológico general tuvo heterogeneidad baja, con una odds ratio de 5,39 (IC 95 % 4,71-6,17). Los estudios de mayor calidad hallaron asociaciones más débiles entre los conceptos culturales y los trastornos, y las asociaciones dependían de factores metodológicos como los diseños de validación o el uso de listas de síntomas; ello sugiere que no son meros sinónimos locales de categorías universales [fuente no localizada]. Los autores defienden que pueden estudiarse epidemiológicamente con métodos adecuados y que hacerlo mejora la detección y reduce sesgos culturales de los criterios diagnósticos (Kohrt 2014). La controversia de fondo opone la posición universalista, que ve en ellos variantes de presentación de trastornos comunes, a la posición de Kleinman, que subraya que la cultura configura la experiencia misma del sufrimiento [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "idiomas_malestar",
+        "kleinman_hit"
+       ],
+       "t": "idiomas de malestar y Kleinman"
+      },
+      {
+       "ids": [
+        "somat_sint",
+        "ptsd"
+       ],
+       "t": "categorías comparadas"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Lewis-Fernández R et al. (2017). Feasibility, acceptability and clinical utility of the Cultural Formulation Interview: mixed-methods results from the DSM-5 international field trial. Br J Psychiatry 210:290-297 · PMID 28104738",
+    "Kohrt BA et al. (2014). Cultural concepts of distress and psychiatric disorders: literature review and research recommendations for global mental health epidemiology. Int J Epidemiol 43:365-406 · PMID 24366490"
+   ]
+  },
+  "sii_eje": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias",
+     "x": "Dos líneas de evidencia recientes matizan el modelo. Primera, el SII posinfeccioso: en el metaanálisis de Klem et al. (2017; 45 estudios, 21 421 personas con enteritis), la prevalencia de SII a los 12 meses de una enteritis infecciosa fue del 10,1 % (IC 95 % 7,2-14,1), con un riesgo 4,2 veces mayor que sin enteritis en el año previo; el riesgo aumentó con el sexo femenino, la exposición a antibióticos, la ansiedad (OR 2), la depresión (OR 1,5), la somatización (OR 4,1) y el neuroticismo (OR 3,3), lo que ilustra la convergencia de factores periféricos y psicológicos. Segunda, los neuromoduladores en atención primaria: en el ensayo ATLANTIS (463 participantes de 55 consultas de medicina general en Inglaterra, con síntomas persistentes pese a medidas de primera línea), la amitriptilina a dosis bajas y ajustada según los síntomas y la tolerancia (uso fuera de ficha técnica en España) mejoró la gravedad del SII frente a placebo a los 6 meses (diferencia de −27,0 puntos en la IBS-SSS; IC 95 % −46,9 a −7,10), con un 13 % de abandonos por efectos adversos frente al 9 % con placebo (Ford 2023). El ensayo excluyó a personas con ideación suicida. La heterogeneidad de los estudios posinfecciosos y la magnitud modesta del efecto obligan a no presentar ningún mecanismo aislado como causa del trastorno.",
+     "links": [
+      {
+       "ids": [
+        "amitriptilina",
+        "tca_dep"
+       ],
+       "t": "amitriptilina y tricíclicos"
+      },
+      {
+       "ids": [
+        "microbiota"
+       ],
+       "t": "microbiota"
+      },
+      {
+       "ids": [
+        "somat_sint",
+        "tag"
+       ],
+       "t": "somatización y ansiedad como factores de riesgo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Klem F et al. (2017). Prevalence, risk factors, and outcomes of irritable bowel syndrome after infectious enteritis: a systematic review and meta-analysis. Gastroenterology 152:1042-1054 · PMID 28069350",
+    "Ford AC et al. (2023). Amitriptyline at Low-Dose and Titrated for Irritable Bowel Syndrome as Second-Line Treatment in primary care (ATLANTIS): a randomised, double-blind, placebo-controlled, phase 3 trial. Lancet 402:1773-1785 · PMID 37858323"
+   ]
+  },
+  "encopresis": {
+   "secAdd": [
+    {
+     "t": "Epidemiología",
+     "x": "En la revisión sistemática y metaanálisis de Koppen et al. (2018), que reunió 37 estudios prospectivos de base poblacional con criterios de Roma III o IV en menores de 0 a 18 años (el DSM-5-TR exige al menos 4 años), la prevalencia agrupada del estreñimiento funcional fue del 9,5 % (IC 95 % 7,5-12,1), sin diferencias entre niños (8,6 %) y niñas (8,9 %), y se asoció a la localización geográfica, los hábitos alimentarios y la exposición a acontecimientos vitales estresantes. La incontinencia fecal funcional no retentiva fue rara, con una prevalencia agrupada del 0,4 % (IC 95 % 0,2-0,7), y los datos sobre ella son escasos, sin factores asociados identificados. La incontinencia no retentiva es, por tanto, mucho menos frecuente que el estreñimiento funcional; como este no siempre se acompaña de incontinencia, las cifras no estiman directamente qué proporción de las encopresis es retentiva [fuente no localizada]. Los criterios gastroenterológicos de Roma no coinciden exactamente con los del DSM-5-TR (edad mínima y duración), por lo que las prevalencias no son directamente trasladables a la categoría psiquiátrica [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "enuresis"
+       ],
+       "t": "otros trastornos de la eliminación"
+      },
+      {
+       "ids": [
+        "maltrato_inf"
+       ],
+       "t": "estresores y adversidad"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Koppen IJN et al. (2018). Prevalence of functional defecation disorders in children: a systematic review and meta-analysis. J Pediatr 198:121-130 · PMID 29656863"
+   ]
+  },
+  "apatia_dem": {
+   "secAdd": [
+    {
+     "t": "Evidencia farmacológica",
+     "x": "La revisión Cochrane de Ruthirakuhan et al. (2018) incluyó 21 ensayos aleatorizados, doble ciego y controlados con placebo (6384 participantes) en la enfermedad de Alzheimer. Solo cuatro tenían la apatía como objetivo principal y seleccionaron a personas con apatía clínicamente significativa: tres con metilfenidato y uno con modafinilo. El metilfenidato podría mejorar la apatía medida con la Apathy Evaluation Scale (diferencia de medias −4,99; IC 95 % −9,55 a −0,43; 3 estudios, 145 participantes; calidad baja), pero no con la subescala de apatía del NPI (−0,08; −3,85 a 3,69; 2 estudios, 85 participantes), y probablemente mejora algo la cognición (calidad moderada; 3 estudios) y las actividades instrumentales de la vida diaria (calidad moderada; 1 estudio de 60 participantes); podría no haber diferencias con el placebo en el riesgo de acontecimientos adversos (RR 1,28; 0,67 a 2,42; calidad baja). Para modafinilo la evidencia fue insuficiente. Los datos sobre inhibidores de la colinesterasa, antipsicóticos, antidepresivos y valproato procedían de ensayos con la apatía como variable secundaria y se consideraron indirectos, de calidad baja o muy baja y con sesgo de publicación. La revisión es anterior al ensayo ADMET 2, que ya figura en la ficha.",
+     "links": [
+      {
+       "ids": [
+        "npi"
+       ],
+       "t": "Inventario Neuropsiquiátrico"
+      },
+      {
+       "ids": [
+        "dem",
+        "bpsd"
+       ],
+       "t": "demencia y síntomas conductuales"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Ruthirakuhan MT et al. (2018). Pharmacological interventions for apathy in Alzheimer's disease. Cochrane Database Syst Rev 5:CD012197 · PMID 29727467"
+   ]
+  },
+  "dep_paterna": {
+   "secAdd": [
+    {
+     "t": "Intervenciones y evidencia",
+     "x": "La evidencia sobre intervenciones dirigidas al progenitor no gestante es escasa. La revisión sistemática de Rominov et al. (2016) identificó solo 11 estudios de intervenciones para prevenir o tratar la depresión, la ansiedad o el estrés paternos en el periodo perinatal: tres de cinco intervenciones psicosociales y tres intervenciones basadas en técnicas de masaje del lactante comunicaron efectos significativos, mientras que ninguna de las intervenciones de pareja los mostró. Los autores señalaron limitaciones metodológicas importantes (descripción insuficiente de los diseños, momento de aplicación de las intervenciones y gran variabilidad de las medidas), que impiden valorar la eficacia global. En ausencia de ensayos específicos, el tratamiento de la depresión mayor en el progenitor no gestante sigue las guías generales de la depresión del adulto [fuente no localizada]. La mayoría de los programas se han dirigido a las madres (Rominov 2016), por lo que incluir al otro progenitor en las consultas y adaptar los programas a familias diversas es una necesidad asistencial más que una recomendación basada en ensayos [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ddm"
+       ],
+       "t": "depresión mayor del adulto"
+      },
+      {
+       "ids": [
+        "emb_peri",
+        "vinculo_mb"
+       ],
+       "t": "marco perinatal y vínculo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Rominov H et al. (2016). A systematic review of interventions targeting paternal mental health in the perinatal period. Infant Ment Health J 37:289-301 · PMID 27079685"
+   ]
+  },
+  "taijin_kyofusho": {
+   "secAdd": [
+    {
+     "t": "Evidencia transcultural",
+     "x": "El estudio comparativo de Kleinknecht et al. (1997), con 181 estudiantes estadounidenses y 161 estudiantes de universidades japonesas, aplicó escalas de ansiedad social del DSM-IV y de síntomas de taijin kyofusho junto con medidas de autoconcepto independiente e interdependiente. El análisis factorial separó con claridad los síntomas de taijin kyofusho de la ansiedad social definida por el DSM, pero hubo alrededor de un 50 % de coincidencia entre quienes puntuaban alto en ambas escalas, y los predictores fueron distintos en cada país. Los autores concluyeron que las variables culturales median la expresión de la ansiedad social, pero que ambas formas aparecen en las dos muestras. En su revisión de los aspectos culturales de la ansiedad social, Hofmann, Asnaani y Hinton (2010) hallaron que la prevalencia y la expresión dependen de la cultura, con las tasas más bajas en culturas asiáticas, y discutieron el taijin kyofusho como posible expresión culturalmente específica de la ansiedad social, aunque la evidencia empírica sobre su validez como síndrome es mixta. Se trata de estudios con muestras universitarias no clínicas, lo que limita su extrapolación a la población clínica.",
+     "links": [
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "trastorno de ansiedad social"
+      },
+      {
+       "ids": [
+        "cult_bound",
+        "psiq_transcultural"
+       ],
+       "t": "conceptos culturales del malestar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Kleinknecht RA et al. (1997). Cultural factors in social anxiety: a comparison of social phobia symptoms and Taijin kyofusho. J Anxiety Disord 11:157-177 · PMID 9168340",
+    "Hofmann SG, Asnaani A & Hinton DE (2010). Cultural aspects in social anxiety and social anxiety disorder. Depress Anxiety 27:1117-1127 · PMID 21132847"
+   ]
+  },
+  "amitriptilina": {
+   "secAdd": [
+    {
+     "t": "Mecanismo de acción",
+     "x": "Según la ficha técnica de Tryptizol (AEMPS-CIMA, apartado 5.1.1), la amitriptilina «es un antidepresivo tricíclico y un analgésico» con «marcadas propiedades anticolinérgicas y sedantes»; evita la recaptación de noradrenalina y serotonina, lo que «parece asociarse a la actividad antidepresiva», y ejerce «efectos bloqueantes sobre los canales iónicos del sodio, el potasio y el NMDA, tanto a nivel central como medular». Según la ficha, los efectos sobre la noradrenalina, el sodio y el NMDA intervienen en el dolor neuropático, la cefalea crónica tipo tensional y la profilaxis de la migraña, y el efecto analgésico «no está vinculado a sus propiedades antidepresivas»; los efectos antidepresivo y analgésico tardan 2-4 semanas, pero «la acción sedante no es retardada». La ficha menciona la afinidad de los tricíclicos por receptores muscarínicos e H1 sin vincularla a efectos adversos concretos. En la revisión de Gillman (2007), basada en afinidades por receptores humanos clonados, la nortriptilina (su metabolito desmetilado) y la desipramina tienen el perfil más favorable como inhibidores de la recaptación de noradrenalina, con pocas interacciones, y solo la clomipramina muestra buena evidencia de inhibición clínicamente relevante de ambas recaptaciones. En sobredosis, la ficha (4.9) describe arritmias ventriculares y un ensanchamiento del QRS que «suele correlacionarse bien con la gravedad de la toxicidad».",
+     "links": [
+      {
+       "ids": [
+        "nortriptilina",
+        "tca_dep"
+       ],
+       "t": "metabolito y clase farmacológica"
+      },
+      {
+       "ids": [
+        "qt_psicof"
+       ],
+       "t": "cardiotoxicidad y QT"
+      }
+     ]
+    },
+    {
+     "t": "Evidencia en cefaleas y tolerabilidad",
+     "x": "En el metaanálisis de Jackson et al. (2010; 37 ensayos aleatorizados en adultos con tricíclicos en monoterapia durante al menos cuatro semanas), los tricíclicos redujeron frente a placebo los días con cefalea tensional (diferencia de medias estandarizada −1,29; IC 95 % −2,18 a −0,39) y las crisis de migraña (−0,70; −0,93 a −0,48), y su efecto aumentó con la duración del tratamiento; fueron más eficaces que los ISRS para reducir al menos un 50 % la intensidad de la cefalea, pero produjeron más efectos adversos que el placebo (RR 1,53) y que los ISRS (RR 2,22), sin más abandonos. La ficha técnica (4.8) recoge como muy frecuentes, entre otros, agresión, somnolencia, temblor, mareo, cefalea, palpitaciones, taquicardia, hipotensión ortostática, sequedad de boca, estreñimiento, náuseas, hiperhidrosis y aumento de peso, y como frecuentes los bloqueos auriculoventricular y de rama, la prolongación del QT y del QRS, la retención urinaria, la disfunción eréctil y la hiponatremia. El apartado 4.4 pide vigilar el riesgo suicida en las fases tempranas y tras los cambios de dosis, y recoge que un metaanálisis de antidepresivos mostró más conductas suicidas que el placebo en menores de 25 años; señala además la especial propensión de las personas de edad avanzada a la hipotensión ortostática, el posible cambio a fase maníaca en el trastorno bipolar, que obliga a suspenderla, y las reacciones cutáneas graves, incluido el DRESS.",
+     "links": [
+      {
+       "ids": [
+        "emel"
+       ],
+       "t": "migraña"
+      },
+      {
+       "ids": [
+        "ideac_suic"
+       ],
+       "t": "riesgo suicida al inicio"
+      },
+      {
+       "ids": [
+        "iatrog_farm"
+       ],
+       "t": "iatrogenia en personas mayores"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Gillman PK (2007). Tricyclic antidepressant pharmacology and therapeutic drug interactions updated. Br J Pharmacol 151:737-748 · PMID 17471183",
+    "Jackson JL et al. (2010). Tricyclic antidepressants and headaches: systematic review and meta-analysis. BMJ 341:c5222 · PMID 20961988",
+    "AEMPS-CIMA (2026). Ficha técnica de Tryptizol 25 mg comprimidos recubiertos con película (amitriptilina) (nº de registro 37130), apartados 4.4, 4.8, 4.9 y 5.1; documento de enero de 2025, consulta de noviembre de 2026"
+   ]
+  },
+  "clozapina_monit": {
+   "secAdd": [
+    {
+     "t": "Magnitud de los riesgos cardíacos y digestivos",
+     "x": "La revisión sistemática y metaanálisis de Siskind et al. (2020; 28 estudios, 258 961 personas expuestas a clozapina) estimó una tasa de miocarditis de 0,007 (IC 95 % 0,003-0,016), con una tasa absoluta de muerte de 0,0004 y una letalidad de los casos del 12,7 %; la tasa de miocardiopatía fue de 0,006, con letalidad del 7,8 %. Las tasas fueron mayores en Australia, lo que los autores atribuyen en parte a sesgo de observación, y pocos estudios detallaban los criterios diagnósticos. Concluyen que la vigilancia de la miocarditis está justificada durante las primeras 4 semanas, que tratar el síndrome metabólico y la diabetes podría reducir el riesgo de miocardiopatía y que estos riesgos, bajos, no deben impedir ofrecer un ensayo monitorizado de clozapina. En cuanto a la hipomotilidad digestiva, el metaanálisis de Shirazi et al. (2016; 32 estudios, 2013 personas) halló una prevalencia de estreñimiento del 31,2 % (IC 95 % 25,6-37,4), con una probabilidad unas tres veces mayor que con otros antipsicóticos (OR 3,02; 1,91-4,77), y mayor en pacientes hospitalizados y cuando el estreñimiento se buscaba activamente; los autores recomiendan cribado y estrategias preventivas.",
+     "links": [
+      {
+       "ids": [
+        "clozapina",
+        "cloz"
+       ],
+       "t": "clozapina y esquizofrenia resistente"
+      },
+      {
+       "ids": [
+        "inmunometab_dep"
+       ],
+       "t": "comorbilidad metabólica"
+      }
+     ]
+    },
+    {
+     "t": "Balance beneficio-riesgo y niveles durante infecciones",
+     "x": "La monitorización tiene sentido porque el balance global favorece a la clozapina en la esquizofrenia resistente. En el metaanálisis de Vermeulen et al. (2019; 24 estudios, 1327 muertes en 217 691 años-paciente, seguimiento de 1,1 a 12,5 años), el tratamiento continuado con clozapina se asoció a una mortalidad por todas las causas menor que la de otros antipsicóticos (razón de tasas 0,56; IC 95 % 0,36-0,85), aunque no en quienes la habían recibido alguna vez; la heterogeneidad fue alta y los pocos estudios con datos por causa (suicidio, cardiopatía isquémica) no mostraron diferencias significativas frente a otros antipsicóticos. Por otra parte, las infecciones intercurrentes elevan los niveles: la revisión de Clark et al. (2018; 40 casos en 23 publicaciones) describió concentraciones elevadas de clozapina durante infecciones, sobre todo respiratorias, con sedación como acontecimiento adverso más habitual y, a menudo, atenuación de la fiebre y de la leucocitosis; recomienda medir los niveles durante la hospitalización por infección y considerar una reducción gradual de la dosis por el equipo prescriptor. Estos hallazgos refuerzan que la vigilancia no debe convertirse en barrera para indicar el fármaco.",
+     "links": [
+      {
+       "ids": [
+        "cloz",
+        "kane_hit"
+       ],
+       "t": "eficacia en la esquizofrenia resistente"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "otros factores que modifican los niveles"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Siskind D et al. (2020). Systematic review and meta-analysis of rates of clozapine-associated myocarditis and cardiomyopathy. Aust N Z J Psychiatry 54:467-481 · PMID 31957459",
+    "Shirazi A et al. (2016). Prevalence and predictors of clozapine-associated constipation: a systematic review and meta-analysis. Int J Mol Sci 17:863 · PMID 27271593",
+    "Vermeulen JM et al. (2019). Clozapine and long-term mortality risk in patients with schizophrenia: a systematic review and meta-analysis of studies lasting 1.1-12.5 years. Schizophr Bull 45:315-329 · PMID 29697804",
+    "Clark SR et al. (2018). Elevated clozapine levels associated with infection: a systematic review. Schizophr Res 192:50-56 · PMID 28392207"
+   ]
+  },
+  "adiccion_3fases": {
+   "secAdd": [
+    {
+     "t": "Evidencia y controversias",
+     "x": "El modelo neurocircuital se asocia al modelo de la adicción como enfermedad cerebral, que ha recibido críticas explícitas. Hall, Carter y Forlini (2015) sostienen que la evidencia animal y de neuroimagen no lo respalda en la medida que afirman sus defensores, que no ha proporcionado tratamientos más eficaces y que su efecto sobre las políticas ha sido modesto; además, al centrarse en la neurobiología alterada de una minoría con adicción grave, podría desviar la atención de políticas poblacionales eficaces frente al tabaco y el consumo intensivo de alcohol. Heilig et al. (2021) reconocen que parte de esas críticas tiene fundamento (determinismo, dificultad para explicar la heterogeneidad de la remisión y la recuperación, énfasis excesivo en la compulsión y ausencia de una firma neural específica), pero defienden que la base neurobiológica de la adicción es sólida, que la remisión aparentemente espontánea no la invalida, que las conductas compulsivas pueden coexistir con la sensibilidad a reforzadores alternativos y que negar el carácter de enfermedad puede reducir el acceso a la atención sanitaria. Ambos textos coinciden en la necesidad de integrar niveles neurocientífico, conductual, clínico y sociocultural.",
+     "links": [
+      {
+       "ids": [
+        "ttos_adiccion"
+       ],
+       "t": "tratamientos de la adicción"
+      },
+      {
+       "ids": [
+        "tabaco"
+       ],
+       "t": "políticas poblacionales sobre tabaco"
+      },
+      {
+       "ids": [
+        "recompensa"
+       ],
+       "t": "circuito de recompensa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hall W, Carter A & Forlini C (2015). The brain disease model of addiction: is it supported by the evidence and has it delivered on its promises? Lancet Psychiatry 2:105-110 · PMID 26359616",
+    "Heilig M et al. (2021). Addiction as a brain disease revised: why it still matters, and the need for consilience. Neuropsychopharmacology 46:1715-1723 · PMID 33619327"
+   ]
+  },
+  "retraso_fase_adol": {
+   "secAdd": [
+    {
+     "t": "Abordaje del trastorno de retraso de fase en adolescentes",
+     "x": "Cuando el retraso supera lo esperable y cumple criterios de trastorno de retraso de fase del sueño-vigilia, existen tratamientos con apoyo empírico. La guía de la American Academy of Sleep Medicine (Auger 2015) respalda, con un grado de confianza de segundo nivel (recomendación débil según GRADE) [fuente no localizada], la melatonina administrada en el momento oportuno en el trastorno de retraso de fase y la luz con o sin intervenciones conductuales en niños, niñas y adolescentes con este trastorno. En el ensayo de Gradisar et al. (2011), 49 adolescentes (edad media 14,6 años; cronicidad media de casi cinco años; el 16 % sin asistir al centro escolar) recibieron seis sesiones individuales que combinaban luz brillante matinal para adelantar el ritmo circadiano con reestructuración cognitiva y educación sobre el sueño, o permanecieron en lista de espera; tras el tratamiento, solo el 13 % seguía cumpliendo criterios frente al 82 % en lista de espera, con un 18 % de abandonos y mejoras moderadas a grandes en latencia, horarios, tiempo de sueño en noches lectivas, somnolencia y fatiga, mantenidas a los seis meses en el pequeño grupo seguido (n = 15). El ensayo no permitió separar el efecto de cada componente.",
+     "links": [
+      {
+       "ids": [
+        "melatonina",
+        "fototer",
+        "luz_melatonina"
+       ],
+       "t": "melatonina, fototerapia y núcleo supraquiasmático"
+      },
+      {
+       "ids": [
+        "circ_sueno"
+       ],
+       "t": "trastornos del ritmo circadiano"
+      },
+      {
+       "ids": [
+        "rechazo_esc"
+       ],
+       "t": "absentismo escolar"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Auger RR et al. (2015). Clinical practice guideline for the treatment of intrinsic circadian rhythm sleep-wake disorders: ASWPD, DSWPD, N24SWD and ISWRD. An update for 2015: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med 11:1199-1236 · PMID 26414986",
+    "Gradisar M et al. (2011). A randomized controlled trial of cognitive-behavior therapy plus bright light therapy for adolescent delayed sleep phase disorder. Sleep 34:1671-1680 · PMID 22131604"
+   ]
+  },
+  "cerebelo_psiq": {
+   "secAdd": [
+    {
+     "t": "Evaluación clínica y neurodesarrollo",
+     "x": "Para la clínica, Hoche et al. (2018) desarrollaron la escala del síndrome cognitivo-afectivo cerebeloso (escala CCAS/Schmahmann), un cribado de diez ítems aplicable en consulta, a partir de 77 pacientes con enfermedad cerebelosa y controles, y la validaron en una nueva cohorte de 39 pacientes y 55 controles. Confirmaron déficits ejecutivos (memoria de trabajo, flexibilidad, razonamiento abstracto), lingüísticos (fluidez fonémica más afectada que la semántica), visuoespaciales y neuropsiquiátricos, incluidos alteraciones del control atencional y emocional, trastornos del espectro psicótico y de las habilidades sociales. Con tres pruebas fallidas («CCAS definido»), la especificidad fue del 100 % y la sensibilidad del 46-48 %; con una («posible»), la sensibilidad fue del 85-95 %. En la cohorte exploratoria, las puntuaciones del MMSE y del MoCA estaban en rango normal, lo que indica que estos cribados generales pueden no detectar el síndrome. En el neurodesarrollo, Wang, Kloth y Badura (2014) propusieron que el cerebelo guía la maduración de circuitos no motores durante periodos sensibles y que la alteración temprana de esa comunicación podría explicar rasgos nucleares del autismo; es una hipótesis de revisión, no un hallazgo establecido.",
+     "links": [
+      {
+       "ids": [
+        "tea",
+        "conect_tea"
+       ],
+       "t": "autismo y conectividad"
+      },
+      {
+       "ids": [
+        "func_ejec"
+       ],
+       "t": "funciones ejecutivas"
+      },
+      {
+       "ids": [
+        "esq"
+       ],
+       "t": "síntomas psicóticos"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Hoche F et al. (2018). The cerebellar cognitive affective/Schmahmann syndrome scale. Brain 141:248-270 · PMID 29206893",
+    "Wang SS, Kloth AD & Badura A (2014). The cerebellum, sensitive periods, and autism. Neuron 83:518-532 · PMID 25102558"
+   ]
+  },
+  "sesgo_atencional": {
+   "secAdd": [
+    {
+     "t": "Medición y fiabilidad",
+     "x": "La tarea de sondeo de puntos (dot-probe), el paradigma más usado, ofrece un índice de sesgo basado en tiempos de reacción cuya fiabilidad test-retest apenas se había estudiado. Price et al. (2015) analizaron datos de tres estudios con al menos cinco evaluaciones repetidas (dos en personas adultas con trastorno de ansiedad social y uno en población pediátrica sana) y hallaron que la fiabilidad de los índices de sesgo basados en tiempos de reacción era de moderada a baja y dependía de decisiones de análisis (fórmula del índice, tratamiento de valores atípicos, tipo de ensayo y promediado de varias sesiones). La variabilidad intraindividual del sesgo dentro de una sesión fue más fiable entre sesiones, y varios índices basados en seguimiento ocular igualaron al mejor índice de tiempos de reacción. Esta limitación psicométrica obliga a prudencia al usar la tarea para diferencias individuales o en pacientes concretos, y ayuda a explicar la inconsistencia de los resultados de la modificación del sesgo. En la práctica, el sesgo atencional es un constructo de investigación y no un instrumento diagnóstico.",
+     "links": [
+      {
+       "ids": [
+        "fobia_soc"
+       ],
+       "t": "ansiedad social"
+      },
+      {
+       "ids": [
+        "emc"
+       ],
+       "t": "modelos cognitivos relacionados"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Price RB et al. (2015). Empirical recommendations for improving the stability of the dot-probe task in clinical research. Psychol Assess 27:365-376 · PMID 25419646"
+   ]
+  },
+  "oxitocina_social": {
+   "secAdd": [
+    {
+     "t": "Base en modelos animales",
+     "x": "El atractivo de la hipótesis procede de la neurobiología del vínculo de pareja en roedores monógamos. Según la revisión de Young y Wang (2004), en estas especies la oxitocina y la vasopresina contribuyen al procesamiento de las señales sociales necesarias para el reconocimiento individual, mientras que la dopamina mesolímbica interviene en el refuerzo y el aprendizaje por recompensa; la activación simultánea de receptores de neuropéptidos y de dopamina en los centros de recompensa durante el apareamiento produce una preferencia condicionada por la pareja, observable como vínculo, y la distinta regulación de la expresión de receptores de neuropéptidos podría explicar las diferencias entre especies en la capacidad de formar vínculos. Los autores señalan implicaciones para el apego humano, pero la traslación desde estos modelos a intervenciones farmacológicas en personas es precisamente lo que no se ha confirmado: la vía intranasal, la dosis, la llegada al sistema nervioso central y la complejidad de la conducta social humana separan ambos niveles.",
+     "links": [
+      {
+       "ids": [
+        "apego"
+       ],
+       "t": "apego"
+      },
+      {
+       "ids": [
+        "recompensa"
+       ],
+       "t": "circuito de recompensa"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "Young LJ & Wang Z (2004). The neurobiology of pair bonding. Nat Neurosci 7:1048-1054 · PMID 15452576"
+   ]
+  },
+  "estres_prenat": {
+   "secAdd": [
+    {
+     "t": "Mecanismos propuestos y su evidencia",
+     "x": "Los modelos integradores de la programación fetal proponen que la adversidad materna prenatal actúa a través de las mismas vías biológicas que limitan el crecimiento fetal, como los glucocorticoides, para programar el neurodesarrollo. En su revisión, O'Donnell y Meaney (2017) encontraron poco apoyo para esos modelos: la ansiedad, la depresión y el estrés maternos influyen en el neurodesarrollo, pero muestran asociaciones modestas, débiles o nulas con los mediadores conocidos del estrés (por ejemplo, los glucocorticoides) o con el crecimiento fetal. Proponen en cambio que un desarrollo fetal comprometido establece un estado «metaplástico» que aumenta la sensibilidad a las influencias posnatales, y advierten de que los estudios observacionales que asocian el crecimiento fetal o la salud mental materna con el neurodesarrollo no controlan adecuadamente los factores genéticos subyacentes. La relevancia clínica de estas asociaciones está por determinar. Esta lectura es coherente con los diseños genéticamente informativos ya citados en la ficha y desplaza el foco hacia el entorno posnatal y el cuidado.",
+     "links": [
+      {
+       "ids": [
+        "hha_dep",
+        "fkbp5_epigen"
+       ],
+       "t": "eje HHA y epigenética"
+      },
+      {
+       "ids": [
+        "confus_fam_prenat"
+       ],
+       "t": "confusión genética y familiar"
+      },
+      {
+       "ids": [
+        "neurodev"
+       ],
+       "t": "neurodesarrollo"
+      }
+     ]
+    }
+   ],
+   "refsAdd": [
+    "O'Donnell KJ & Meaney MJ (2017). Fetal origins of mental health: the developmental origins of health and disease hypothesis. Am J Psychiatry 174:319-328 · PMID 27838934"
+   ]
+  },
+  "tdcoord": {
+   "set": {
+    "tx": "Según las recomendaciones internacionales de la EACD (Blank 2019), intervención motora orientada a la actividad y a la participación, con objetivos funcionales pactados con el niño o la niña y su familia (habitualmente por terapia ocupacional o fisioterapia), y videojuegos activos como complemento de esos enfoques, no como sustituto. El metaanálisis de Smits-Engelsman (2018) apoya los enfoques orientados a la actividad, los orientados a la función corporal combinados con actividades, los videojuegos activos y los programas en grupo pequeño, con calidad metodológica variable. Explicar el diagnóstico a la familia y al centro educativo, acordar adaptaciones escolares (tiempo adicional, alternativas a la escritura manual, educación física adaptada) y fomentar la actividad física para prevenir el sedentarismo [fuente no localizada]. Detectar y tratar los trastornos coexistentes (TDAH, trastornos del aprendizaje, TEA, ansiedad y síntomas depresivos) según sus guías. No hay tratamiento farmacológico del trastorno [fuente no localizada]."
+   }
+  },
+  "histeriaC": {
+   "featsAdd": [
+    "Neurosis traumática: Hermann Oppenheim (1889) acuñó el término para cuadros tras accidentes ferroviarios y laborales; Charcot los interpretó como histeria traumática, origen de un debate entre lesión funcional y psicogénesis [fuente no localizada]"
+   ],
+   "refsAdd": [
+    "Oppenheim H (1889). Die traumatischen Neurosen. Berlin: Hirschwald [no verificada]"
+   ]
+  },
+  "nmda_psic": {
+   "featsAdd": [
+    "Modelo de la fenciclidina: a concentraciones séricas submicromolares, la PCP inhibe de forma no competitiva el receptor NMDA y produce una psicosis con síntomas positivos, negativos, trastorno formal del pensamiento y déficits neuropsicológicos, a diferencia de la psicosis anfetamínica (Javitt y Zukin 1991)"
+   ]
+  },
+  "estagio": {
+   "featsAdd": [
+    "En el trastorno bipolar, Berk et al. (2007) adaptaron el estadiaje desde los estadios prodrómicos hasta la resistencia al tratamiento, como marco para algoritmos ajustados a la fase, con validez pendiente de investigación empírica"
+   ]
+  },
+  "trauma": {
+   "featsAdd": [
+    "Efecto acumulativo: en 37 estudios (253 719 participantes), tener al menos cuatro experiencias adversas en la infancia frente a ninguna se asoció a mayor riesgo de todos los resultados de salud, con asociaciones fuertes para conductas sexuales de riesgo, mala salud mental y consumo problemático de alcohol (OR de más de 3 a 6) y las más fuertes para consumo problemático de drogas y violencia interpersonal y autodirigida (OR > 7) (Hughes 2017)",
+    "Desigualdad por orientación sexual: lesbianas, gais, bisexuales y personas heterosexuales con parejas del mismo sexo presentan, frente a las personas heterosexuales sin atracción ni parejas del mismo sexo, más maltrato infantil y violencia interpersonal y casi el doble de riesgo de TEPT (OR ajustada en torno a 2), explicado en gran parte por la mayor exposición a la violencia y su inicio más temprano (Roberts 2010)",
+    "TEPT complejo (CIE-11): a los síntomas nucleares del TEPT se añaden alteraciones de la autoorganización (desregulación afectiva, autoconcepto negativo y dificultades relacionales), en continuidad con la propuesta de Herman (1992)",
+    "Tratamiento por fases: en mujeres con TEPT por abuso infantil, el entrenamiento en regulación afectiva e interpersonal (STAIR) seguido de exposición logró más remisiones mantenidas (27 % frente a 13 % y 0 %) y menos empeoramientos que las condiciones sin uno de los dos componentes (Cloitre 2010)"
+   ],
+   "refsAdd": [
+    "Hughes K et al. (2017). The effect of multiple adverse childhood experiences on health: a systematic review and meta-analysis. Lancet Public Health 2:e356-e366 · PMID 29253477",
+    "Roberts AL et al. (2010). Pervasive trauma exposure among US sexual orientation minority adults and risk of posttraumatic stress disorder. Am J Public Health 100:2433-2441 · PMID 20395586",
+    "OMS (2022). CIE-11 para estadísticas de mortalidad y morbilidad, 6B41 Trastorno de estrés postraumático complejo [fuente oficial no localizada]"
+   ],
+   "relAdd": [
+    "genero"
+   ]
+  },
+  "valencia1409": {
+   "featsAdd": [
+    "Precedentes discutidos: la reivindicación de Valencia como primer hospital psiquiátrico del mundo (López-Ibor 2008) convive con precedentes como los bimaristanes del mundo islámico medieval, que atendían también a personas con enfermedad mental [fuente no localizada]"
+   ]
+  },
+  "licantrop": {
+   "refsAdd": [
+    "Garlipp P et al. (2004). Lycanthropy--psychopathological and psychodynamical aspects. Acta Psychiatr Scand 109:19-22 · PMID 14674954"
+   ]
+  }
+ },
+ "add": []
+}

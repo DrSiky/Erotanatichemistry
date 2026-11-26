@@ -1,0 +1,22 @@
+{
+ "pmid_comprobados": 6,
+ "pmid_erroneos": 0,
+ "cambios": [
+  {"gravedad":"mayor","donde":"fila TEPT, columna Psicoeducación","antes":"✕ debriefing psicológico (1.6.5); la psicoeducación figura como componente...","despues":"— no evaluada aislada; es componente obligado de la TCC centrada en el trauma y del EMDR (1.6.17, 1.6.20); ✕ debriefing psicológico (1.6.5)","fuente":"NICE NG116 rec. 1.6.5, 1.6.17, 1.6.20 (nice.org.uk, nov. 2026). El ✕ en cabeza de celda hacía leer que la psicoeducación no se recomienda; lo desaconsejado es el debriefing"},
+  {"gravedad":"mayor","donde":"fila Insomnio, columna TCC-I","antes":"NICE TA922 1.1: probarla antes del daridorexant","despues":"NICE TA922 1.1: daridorexant solo si la TCC-I falló o no está disponible; NICE HTG624 1.1: TCC-I digital (Sleepio) en atención primaria","fuente":"NICE TA922 1.1 (18-10-2023): «only if CBTi has been tried but not worked, or CBTi is not available or is unsuitable»; NICE HTG624 1.1 (20-05-2022). TA922 no exige probarla antes"},
+  {"gravedad":"menor","donde":"fila Depresión, columna TCC","antes":"grupal para prevenir recaídas (1.8.5) [bajo ●]","despues":"◆ grupal para prevenir recaídas (1.8.5)","fuente":"NICE NG222 1.8.5 usa «consider»"},
+  {"gravedad":"menor","donde":"fila Bipolar, columna Intervención familiar","antes":"...terapia focalizada en la familia: 2.ª línea en CANMAT","despues":"...; otras intervenciones familiares: evidencia insuficiente (CANMAT)","fuente":"Yatham 2018, tabla 10 (PMC5947163): «Family/caregiver interventions: Insufficient evidence»"},
+  {"gravedad":"menor","donde":"meta.cap","antes":"Matriz de trece trastornos del adulto (catorce filas...)","despues":"Matriz de catorce trastornos del adulto (bulimia y atracón en filas separadas...)","fuente":"recuento: bulimia y trastorno por atracón son trastornos distintos (14 filas = 14 trastornos)"},
+  {"gravedad":"menor","donde":"meta.cap y refs/pie","antes":"En insomnio NICE no tiene guía clínica...; sin HTG624","despues":"NICE no tiene guía clínica (solo evaluaciones de tecnologías: TA922 y HTG624); nueva ref. HTG624 1.1 y en el pie","fuente":"búsqueda de guías en nice.org.uk (insomnia): TA922, HTG624, TA77; ninguna NG/CG. Se confirma que la fila no atribuye a NICE una guía inexistente"},
+  {"gravedad":"menor","donde":"nota «PFPP e ISTDP»","antes":"la única psicodinámica que figura es la breve (NG222, CG159) y la focal en anorexia (NG69)","despues":"añadido: CG178 solo menciona sus principios para comprender la experiencia de la persona (1.4.6.2)","fuente":"NICE CG178 1.4.6.2"},
+  {"gravedad":"menor","donde":"nota «TCA: menores y fármacos»","antes":"prohíbe la medicación como tratamiento único","despues":"desaconseja («do not offer») la medicación como tratamiento único","fuente":"NICE NG69 1.3.24, 1.4.9, 1.5.11"},
+  {"gravedad":"menor","donde":"refs CG113 y NG69","antes":"CG113: 1.2.10, 1.2.12-1.2.18, 1.3.9...; NG69: 1.3.4-1.3.10, 1.4.2-1.4.6, 1.5.2-1.5.6","despues":"añadidas 1.2.1, 1.2.20, 1.3.35 (CG113) y 1.3.24, 1.4.9, 1.5.11 (NG69), citadas en las notas","fuente":"nice.org.uk CG113, NG69"},
+  {"gravedad":"menor","donde":"caja Límites","antes":"(CG31 es de 2005 y CG78 de 2009)","despues":"(...; NICE anunció en junio de 2026 la revisión de CG78 tras la CIE-11)","fuente":"nice.org.uk/guidance/cg78, «Update information»"}
+ ],
+ "sin_resolver": [
+  "Guía APA 2024 de TLP (PMID 39482953): no consultada ni citada en la figura; no se añade.",
+  "«Counselling» de NG222 colocado en la columna de terapia de apoyo: es un counselling con protocolo para depresión y no equivale a la psicoterapia de apoyo de psicot_apoyo; se mantiene (encabezado «Terapia de apoyo / counselling»).",
+  "◆ también agrupa recomendaciones «offer» tras rechazo (CG159 1.3.4: autoayuda si rechaza la TCC); coherente con la leyenda, pero no traduce solo el verbo.",
+  "meta.nodes incluye tcc_inf y ter_fam_inf (infancia) en una figura de adultos; pertinentes solo como remisión desde la caja de límites."
+ ]
+}

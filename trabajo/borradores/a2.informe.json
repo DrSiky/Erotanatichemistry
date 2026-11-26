@@ -1,0 +1,413 @@
+{
+ "pmid_comprobados": 54,
+ "pmid_erroneos": 1,
+ "nota_pmid": "Comprobados en PubMed (herramienta PubMed y E-utilities de NCBI) los 47 PMID del parche, incluidos Cummings (24183563) y Beunk 2024 (37002327), más 5 citados en el texto con referencia ya presente en las fichas (38104575, 34289275, 31000417, 31913424, 40875502) y 2 añadidos en la verificación (10072410, 38711351). Ningún PMID apunta a un artículo equivocado; el único dato bibliográfico erróneo es el año de Cummings (Lancet 383:533-540 es de 2014; publicación electrónica en 2013). Todas las cifras atribuidas a resúmenes se han contrastado y coinciden.",
+ "fuentes_no_pubmed_contrastadas": [
+  "NICE CG178 (rec. 1.3.5.1) y NICE NG97 (rec. 1.7.3-1.7.7): leídas en nice.org.uk; las atribuciones del autor eran correctas",
+  "APA 2020 (esquizofrenia) y APA 2016 (demencia): psychiatryonline.org devuelve 403 y PMC no ofrece el texto; los enunciados se han contrastado literalmente en las diapositivas oficiales de formación de cada guía alojadas en psychiatry.org (distonía 1C, parkinsonismo 2C, acatisia 2C, VMAT2 1B; demencia: enunciados 2, 7, 10, 12 y 14). Coinciden con lo escrito",
+  "CPIC: api.cpicpgx.org/v1/pair_view reconsultada; todos los niveles citados coinciden y no hay pares HLA-clozapina",
+  "EMA: listado público JSON (18-11-2026): Austedo autorizado el 08-01-2026 (discinesia tardía moderada o grave en adultos); Rxulti solo esquizofrenia; sin registros de xanomelina, pimavanserina, lumateperona ni valbenazina. Información del producto de Austedo (ES) leída",
+  "CIMA: API REST y fichas técnicas HTML de Nitoman (70142), Akineton Retard (51224), Haloperidol Esteve (58343), Orap (49503), Leponex (59547) y Artane (38334)",
+  "DailyMed (NLM): fichas estadounidenses vigentes de Caplyta, Nuplazid y Cobenfy",
+  "Texto completo en PMC de Huhn 2019 (PMC6891890) y de CANMAT 2023 (PMC11351064): sin menciones de lumateperona"
+ ],
+ "dosis": "Ninguna sección contiene dosis ni pautas posológicas (revisión manual y búsqueda automática de mg, tomas y frecuencias). Los ensayos se describen sin cifras de dosis.",
+ "cambios": [
+  {
+   "id": "biperideno",
+   "gravedad": "critico",
+   "antes": "constan comercializadas las tres presentaciones de Akineton; no hay ningún medicamento registrado con trihexifenidilo.",
+   "despues": "constan comercializadas las tres presentaciones de Akineton y, además, Artane (trihexifenidilo; n.º registro 38334 y 38333) y Kemadren (prociclidina; n.º registro 38206).",
+   "fuente": "API REST de CIMA (cima.aemps.es), consulta de 18-11-2026: Artane 2 mg y 5 mg (principio activo registrado como «trihexifenidil hidrocloruro», por lo que la búsqueda «trihexifenidilo» devuelve cero) y Kemadren 5 mg figuran autorizados y comercializados; ficha técnica de Artane 2 mg leída (rev. abril de 2022)"
+  },
+  {
+   "id": "ap_tipicos",
+   "gravedad": "mayor",
+   "antes": "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178) [contenido citado de memoria, no releído en esta revisión: no verificada]",
+   "despues": "NICE (2014). Psychosis and schizophrenia in adults: prevention and management (CG178), recomendación 1.3.5.1; texto vigente consultado en nice.org.uk en noviembre de 2026",
+   "fuente": "NICE CG178, rec. 1.3.5.1, leída en nice.org.uk el 18-11-2026: la atribución es correcta; se retira la marca de no verificada"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "gravedad": "mayor",
+   "antes": "la autorización europea de brexpiprazol para la agitación del Alzheimer [fuente no localizada].",
+   "despues": "la indicación europea de brexpiprazol (Rxulti) en el listado de la EMA es solo la esquizofrenia, sin la agitación del Alzheimer (consulta de noviembre de 2026).",
+   "fuente": "EMA, listado público de medicamentos (medicines-output-medicines_json-report, 18-11-2026): Rxulti, «treatment of schizophrenia in adult and adolescents aged 13 years and older»"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "gravedad": "mayor",
+   "antes": "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97) [contenido citado de memoria, no releído en esta revisión: no verificada]",
+   "despues": "NICE (2018). Dementia: assessment, management and support for people living with dementia and their carers (NG97), recomendaciones 1.7.3 a 1.7.7; texto vigente consultado en nice.org.uk en noviembre de 2026",
+   "fuente": "NICE NG97, rec. 1.7.3-1.7.7, leídas en nice.org.uk el 18-11-2026: se retira la marca de no verificada"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "mayor",
+   "antes": "las aprobaciones de la FDA para la depresión bipolar y, como tratamiento añadido, para la depresión mayor [fuente no localizada].",
+   "despues": "la ficha estadounidense vigente (Caplyta; DailyMed, consulta de noviembre de 2026) recoge como indicaciones en adultos la esquizofrenia, la depresión bipolar I o II (en monoterapia o añadida a litio o valproato) y el tratamiento añadido a antidepresivos en la depresión mayor; las fechas de cada aprobación [fuente no localizada].",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026 (Caplyta, apartado 1)"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "mayor",
+   "antes": "Como antipsicótico, le es aplicable la advertencia de clase sobre el aumento de mortalidad en personas mayores con psicosis asociada a demencia (véase la ficha correspondiente), y como fármaco con indicación antidepresiva en Estados Unidos, la vigilancia de ideación y conducta suicida al inicio del tratamiento en personas jóvenes; el texto exacto de las advertencias de la ficha estadounidense no se ha consultado en esta revisión [fuente no localizada].",
+   "despues": "La ficha estadounidense (Caplyta; DailyMed, consulta de noviembre de 2026) lleva una advertencia en recuadro doble: aumento de mortalidad en personas mayores con psicosis asociada a demencia, uso para el que no está aprobada (véase la ficha correspondiente), y pensamientos y conductas suicidas en población pediátrica y adultos jóvenes tratados con antidepresivos, con vigilancia estrecha del empeoramiento clínico.",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026 (Caplyta, advertencia en recuadro)"
+  },
+  {
+   "id": "pimavanserina",
+   "gravedad": "mayor",
+   "antes": "mortalidad aumentada en personas mayores con psicosis asociada a demencia (advertencia de clase; su redacción en la ficha estadounidense no se ha consultado [fuente no localizada]) y prolongación del QT.",
+   "despues": "mortalidad aumentada en personas mayores con psicosis asociada a demencia (advertencia en recuadro de la ficha estadounidense de Nuplazid, que precisa que no está aprobada para la psicosis de la demencia no relacionada con la enfermedad de Parkinson) y prolongación del QT (apartado 5.2 de la misma ficha; DailyMed, consulta de noviembre de 2026).",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026 (Nuplazid, advertencia en recuadro y apartado 5.2)"
+  },
+  {
+   "id": "xanomelina",
+   "gravedad": "mayor",
+   "antes": "Conviene controlar la presión arterial y la frecuencia cardíaca al inicio y tras los ajustes, y preguntar por síntomas urinarios y digestivos. El componente anticolinérgico periférico (trospio) hace prever riesgo de retención urinaria, de retención gástrica y de glaucoma de ángulo estrecho, y la combinación se desaconseja en la insuficiencia hepática; estas contraindicaciones proceden de la ficha estadounidense, no consultada en esta revisión [fuente no localizada].",
+   "despues": "La ficha estadounidense (Cobenfy; DailyMed, consulta de noviembre de 2026) la contraindica en la retención urinaria, la retención gástrica, el glaucoma de ángulo estrecho no tratado y la insuficiencia hepática moderada o grave, no la recomienda en la leve y pide valorar las enzimas hepáticas, la bilirrubina y la frecuencia cardíaca antes de iniciarla y durante el tratamiento. Conviene además controlar la presión arterial y preguntar por síntomas urinarios y digestivos.",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026 (Cobenfy, apartados 2.1, 4 y 5.2): la insuficiencia hepática moderada o grave es contraindicación, no una mera desaconsejación"
+  },
+  {
+   "id": "vmat2_td",
+   "gravedad": "mayor",
+   "antes": "Con deutetrabenazina y valbenazina los ensayos en discinesia tardía no mostraron aumento de depresión ni de suicidio (Solmi 2018), pero excluían a personas inestables; las advertencias del resumen de características de Austedo no se han consultado en esta revisión [fuente no localizada].",
+   "despues": "Con deutetrabenazina y valbenazina los ensayos en discinesia tardía no mostraron aumento de depresión ni de suicidio (Solmi 2018), pero la ficha técnica de Austedo (EMA, 4.4) advierte de que la deutetrabenazina puede causar o empeorar la depresión y pide vigilancia estrecha e información a pacientes y cuidadores.",
+   "fuente": "EMA, Austedo: información del producto en español (anexo I, apartado 4.4), leída el 18-11-2026; se retira «excluían a personas inestables», sin fuente"
+  },
+  {
+   "id": "d2_block",
+   "gravedad": "menor",
+   "antes": "La aparición de efectos motores con dosis habituales debe hacer pensar en un metabolismo lento por CYP2D6 o en una interacción con inhibidores.",
+   "despues": "La aparición de efectos motores con dosis habituales de un sustrato de CYP2D6 obliga a considerar un metabolismo lento o una interacción con inhibidores (la ficha técnica de haloperidol pide precaución en metabolizadores lentos de CYP2D6).",
+   "fuente": "Ficha técnica de Haloperidol Esteve 10 mg (CIMA, n.º 58343), apartados 4.2-4.4; la frase original generalizaba a cualquier antipsicótico sin fuente"
+  },
+  {
+   "id": "5ht2a",
+   "gravedad": "menor",
+   "antes": "Los estudios PET muestran que los antipsicóticos de segunda generación ocupan el receptor 5-HT2A más que el D2 a cualquier dosis: en Kapur 1999 (44 personas) la diferencia fue máxima con clozapina",
+   "despues": "Los estudios PET muestran que clozapina, risperidona y olanzapina ocupan el receptor 5-HT2A más que el D2 a cualquier dosis: en Kapur 1999 (44 personas) la diferencia fue máxima con clozapina",
+   "fuente": "Kapur 1999 (PMID 9989565): el hallazgo se refiere a los tres fármacos estudiados, no a toda la segunda generación"
+  },
+  {
+   "id": "5ht2a",
+   "gravedad": "menor",
+   "antes": "(Cummings 2013)",
+   "despues": "(Cummings 2014)",
+   "fuente": "PubMed PMID 24183563: Lancet 2014;383(9916):533-540 (publicación electrónica el 1-11-2013)"
+  },
+  {
+   "id": "5ht2a",
+   "gravedad": "menor",
+   "antes": "y sin autorización en la UE.",
+   "despues": "y sin registro en el listado de medicamentos de la EMA ni en CIMA (consulta de noviembre de 2026).",
+   "fuente": "EMA, listado público de medicamentos (medicines-output-medicines_json-report, 18-11-2026); API REST de CIMA (cima.aemps.es), consulta de 18-11-2026 (sin resultados para pimavanserina ni Nuplazid)"
+  },
+  {
+   "id": "5ht2a",
+   "gravedad": "menor",
+   "antes": "las advertencias de su ficha estadounidense no se han consultado en esta revisión.",
+   "despues": "la ficha estadounidense de Nuplazid advierte de la prolongación del QT y pide evitarla con otros fármacos que lo prolongan (DailyMed, consulta de noviembre de 2026).",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026 (Nuplazid, apartado 5.2)"
+  },
+  {
+   "id": "5ht2a",
+   "gravedad": "menor",
+   "antes": "Cummings J et al. (2013). Pimavanserin for patients with Parkinson's disease psychosis: a randomised, placebo-controlled phase 3 trial. Lancet 383:533-540 · PMID 24183563",
+   "despues": "Cummings J et al. (2014). Pimavanserin for patients with Parkinson's disease psychosis: a randomised, placebo-controlled phase 3 trial. Lancet 383:533-540 · PMID 24183563",
+   "fuente": "PubMed PMID 24183563: año de publicación 2014 (vol. 383), en línea en 2013"
+  },
+  {
+   "id": "5ht2a",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "U.S. National Library of Medicine, DailyMed (2026). Nuplazid (pimavanserin): prescribing information, advertencia en recuadro y apartado 5.2; consulta de noviembre de 2026",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026"
+  },
+  {
+   "id": "5ht2a",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "EMA (2026). Listado público de medicamentos de uso humano (download medicine data), consulta de noviembre de 2026: figura Austedo (deutetrabenazina); sin registros de xanomelina, pimavanserina, lumateperona ni valbenazina",
+   "fuente": "EMA, listado público de medicamentos (medicines-output-medicines_json-report, 18-11-2026)"
+  },
+  {
+   "id": "ap_tipicos",
+   "gravedad": "menor",
+   "antes": "NICE CG178 y la guía de la APA (Keepers 2020) recomiendan elegir el antipsicótico con la persona según el perfil de efectos adversos, sin priorizar una generación sobre otra.",
+   "despues": "NICE CG178 (recomendación 1.3.5.1) y la guía de la APA (Keepers 2020) recomiendan elegir el antipsicótico con la persona, informando de los beneficios y de los efectos adversos previsibles de cada fármaco, sin priorizar una generación sobre otra.",
+   "fuente": "NICE CG178, rec. 1.3.5.1 (nice.org.uk, leída el 18-11-2026); APA, Schizophrenia Clinical Practice Guideline Training Slides (psychiatry.org), enunciados de la guía de 2020 («Choice of an antipsychotic agent will typically occur in discussion with the patient…»)"
+  },
+  {
+   "id": "ap_tipicos",
+   "gravedad": "menor",
+   "antes": "El uso actual se concentra en la agitación aguda y en las formulaciones de liberación prolongada (véanse las fichas correspondientes).",
+   "despues": "El uso actual se concentra en la agitación aguda y en las formulaciones de liberación prolongada [fuente no localizada] (véanse las fichas correspondientes).",
+   "fuente": "Afirmación sin fuente en el parche ni en la ficha; razonable, se conserva marcada"
+  },
+  {
+   "id": "ap_tipicos",
+   "gravedad": "menor",
+   "antes": "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516",
+   "despues": "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516 [sin resumen en PubMed; enunciados contrastados en el material oficial de la guía en psychiatry.org, noviembre de 2026]",
+   "fuente": "PubMed PMID 32867516 (cita correcta, sin resumen); APA, Schizophrenia Clinical Practice Guideline Training Slides (psychiatry.org), enunciados de la guía de 2020"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "gravedad": "menor",
+   "antes": "NICE NG97 los limita a personas en riesgo de dañarse o dañar a otros, o con agitación, alucinaciones o delirios que causan sufrimiento grave, a la dosis eficaz más baja, durante el menor tiempo posible y con revisión al menos cada seis semanas;",
+   "despues": "NICE NG97 (recomendaciones 1.7.3 y 1.7.6) los limita a personas en riesgo de dañarse o dañar a otros, o con agitación, alucinaciones o delirios que causan sufrimiento grave, a la dosis eficaz más baja, durante el menor tiempo posible y con revisión al menos cada seis semanas;",
+   "fuente": "NICE NG97, rec. 1.7.3 y 1.7.6 (nice.org.uk, leídas el 18-11-2026): atribución correcta"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "gravedad": "menor",
+   "antes": "intento de reducción y retirada en un máximo de cuatro meses en quien ha respondido y retirada si no hay respuesta tras cuatro semanas,",
+   "despues": "intento de reducción y retirada en un máximo de cuatro meses en quien ha respondido (salvo recaída en intentos previos) y retirada si no hay respuesta tras cuatro semanas,",
+   "fuente": "APA, Dementia Clinical Practice Guideline Training Slides (psychiatry.org), enunciados 2, 7, 10, 12 y 14 de la guía de 2016: el enunciado 12 incluye la excepción «unless the patient experienced a recurrence of symptoms with prior attempts»"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "gravedad": "menor",
+   "antes": "la revisión Cochrane se limita a la enfermedad de Alzheimer y la demencia vascular, sin datos aleatorizados para la demencia con cuerpos de Lewy.",
+   "despues": "la revisión Cochrane se limita a la enfermedad de Alzheimer y la demencia vascular, sin incluir la demencia con cuerpos de Lewy.",
+   "fuente": "Mühlbauer 2021 (PMID 34918337): el resumen delimita la población, no afirma la inexistencia de ensayos en cuerpos de Lewy"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "gravedad": "menor",
+   "antes": "Reus VI et al. (2016). The American Psychiatric Association practice guideline on the use of antipsychotics to treat agitation or psychosis in patients with dementia. Am J Psychiatry 173:543-546 · PMID 27133416",
+   "despues": "Reus VI et al. (2016). The American Psychiatric Association practice guideline on the use of antipsychotics to treat agitation or psychosis in patients with dementia. Am J Psychiatry 173:543-546 · PMID 27133416 [sin resumen en PubMed; enunciados 2, 7, 10, 12 y 14 contrastados en el material oficial de la guía en psychiatry.org, noviembre de 2026]",
+   "fuente": "PubMed PMID 27133416 (cita correcta, sin resumen); APA, Dementia Clinical Practice Guideline Training Slides (psychiatry.org), enunciados 2, 7, 10, 12 y 14 de la guía de 2016"
+  },
+  {
+   "id": "ap_dem_riesgo",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "EMA (2026). Listado público de medicamentos de uso humano (download medicine data), consulta de noviembre de 2026: Rxulti (brexpiprazol) con indicación en esquizofrenia; sin registro de pimavanserina",
+   "fuente": "EMA, listado público de medicamentos (medicines-output-medicines_json-report, 18-11-2026)"
+  },
+  {
+   "id": "fg_antipsic",
+   "gravedad": "menor",
+   "antes": "DPWG: es la única guía con recomendaciones posológicas por genotipo para antipsicóticos (Beunk 2024;",
+   "despues": "DPWG: es la guía de referencia con recomendaciones de ajuste por genotipo para antipsicóticos (Beunk 2024;",
+   "fuente": "Beunk 2024 (PMID 37002327): el resumen no afirma que sea la única; superlativo no verificable"
+  },
+  {
+   "id": "fg_antipsic",
+   "gravedad": "menor",
+   "antes": "apoyan el uso de pruebas para dos genes del citocromo P450 al seleccionar",
+   "despues": "apoyan el uso de pruebas para dos genes del citocromo P450 (CYP2D6 y CYP2C19) al seleccionar",
+   "fuente": "Bousman 2021 (PMID 33147643): el resumen de PubMed sí nombra los genes («2 cytochrome P450 genes (CYP2D6, CYP2C19)»)"
+  },
+  {
+   "id": "fg_antipsic",
+   "gravedad": "menor",
+   "antes": "y las frecuencias alélicas varían con la ancestría, con la mayoría de los datos procedentes de población europea.",
+   "despues": "y las frecuencias alélicas varían con la ancestría (véase la ficha de etnopsicofarmacología), con la mayoría de los datos procedentes de población europea [fuente no localizada].",
+   "fuente": "Afirmación sin fuente en el parche; se remite a la ficha del atlas y se marca la parte no contrastada"
+  },
+  {
+   "id": "fg_antipsic",
+   "gravedad": "menor",
+   "antes": "cuya ficha técnica recoge concentraciones más altas en metabolizadores lentos y contraindica los inhibidores de CYP2D6;",
+   "despues": "cuya ficha técnica (Orap, apartados 4.3 y 4.4) recoge concentraciones más altas en metabolizadores lentos y contraindica los inhibidores de CYP2D6 como la quinidina;",
+   "fuente": "Ficha técnica de Orap 1 mg (CIMA, n.º 49503), leída el 18-11-2026"
+  },
+  {
+   "id": "hla_clozapina",
+   "gravedad": "menor",
+   "antes": "En personas con neutropenia constitucional conocida o de ancestría africana, un recuento basal bajo no debe interpretarse como toxicidad sin consultar con hematología, para no privar del fármaco",
+   "despues": "En la neutropenia étnica benigna confirmada, la ficha técnica de Leponex fija un umbral de neutrófilos propio y exige el acuerdo de hematología para iniciar el tratamiento; un recuento basal bajo en estas personas no debe interpretarse sin más como toxicidad, para no privar del fármaco",
+   "fuente": "Ficha técnica de Leponex 100 mg (CIMA, n.º 59547), apartados 4.2 y 4.4, leída el 18-11-2026"
+  },
+  {
+   "id": "hla_clozapina",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "AEMPS-CIMA (2026). Ficha técnica de Leponex 100 mg comprimidos (clozapina; n.º registro 59547), control del recuento absoluto de neutrófilos y neutropenia étnica benigna; consulta de noviembre de 2026",
+   "fuente": "CIMA, ficha técnica n.º 59547"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "menor",
+   "antes": "La lumateperona no tiene lugar en las guías europeas porque no está autorizada, y el metaanálisis en red de Huhn 2019 no la incluyó [fuente no localizada].",
+   "despues": "La lumateperona no consta como autorizada en la UE (véase «Límites de la evidencia») y el metaanálisis en red de Huhn 2019 no la incluyó.",
+   "fuente": "Huhn 2019, texto completo en PMC6891890: ninguna mención de lumateperona ni de ITI-007; se retira además la inferencia causal sobre las guías europeas, sin fuente"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "menor",
+   "antes": "es la base de su buena tolerabilidad motora.",
+   "despues": "los autores lo relacionan con su tolerabilidad motora.",
+   "fuente": "Vanover 2019 (PMID 30449883): «likely contributes to the favorable safety and tolerability profile»; estudio abierto de 10 personas"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "menor",
+   "antes": "CANMAT 2023 no la recoge entre sus opciones de potenciación [fuente no localizada], de modo que en depresión resistente la referencia siguen siendo aripiprazol y brexpiprazol.",
+   "despues": "CANMAT 2023 no la menciona y sitúa aripiprazol y brexpiprazol como potenciadores de primera línea (Lam 2024), que siguen siendo la referencia ante una respuesta insuficiente.",
+   "fuente": "Lam 2024 (PMID 38711351), texto completo en PMC11351064: ninguna mención de lumateperona; «Aripiprazole and brexpiprazole are listed as first-line agents»"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "Huhn M et al. (2019). Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 394:939-951 · PMID 31303314",
+   "fuente": "PubMed PMID 31303314; citado en el texto sin referencia en la ficha"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "Lam RW et al. (2024). Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 update on clinical guidelines for management of major depressive disorder in adults. Can J Psychiatry 69:641-687 · PMID 38711351",
+   "fuente": "PubMed PMID 38711351; citado en el texto sin referencia"
+  },
+  {
+   "id": "lumateperona",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "U.S. National Library of Medicine, DailyMed (2026). Caplyta (lumateperone): prescribing information, advertencia en recuadro y apartado 1; consulta de noviembre de 2026",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026"
+  },
+  {
+   "id": "pimavanserina",
+   "gravedad": "menor",
+   "antes": "es, junto con la clozapina, uno de los fármacos con ensayos controlados positivos [fuente no localizada para la clozapina];",
+   "despues": "es, junto con la clozapina (ensayo frente a placebo en 60 personas; Parkinson Study Group 1999), uno de los fármacos con ensayos controlados positivos;",
+   "fuente": "Parkinson Study Group 1999, N Engl J Med 340:757-763 (PMID 10072410), verificado en PubMed"
+  },
+  {
+   "id": "pimavanserina",
+   "gravedad": "menor",
+   "antes": "y los propios autores dudan de su relevancia clínica (Bugarski-Kirola 2022).",
+   "despues": "y los autores piden más estudios para establecer su relevancia clínica (Bugarski-Kirola 2022).",
+   "fuente": "Bugarski-Kirola 2022 (PMID 34861170): «further investigation with optimised dosing is warranted to determine the clinical significance»"
+  },
+  {
+   "id": "pimavanserina",
+   "gravedad": "menor",
+   "antes": "lo que limita las conclusiones por subtipo, y su interrupción anticipada por eficacia [fuente no localizada].",
+   "despues": "lo que limita las conclusiones por subtipo, y se interrumpió anticipadamente por eficacia; sus autores piden ensayos más largos y amplios.",
+   "fuente": "Tariot 2021 (PMID 34289275): «In a trial that was stopped early for efficacy… Longer and larger trials are required»"
+  },
+  {
+   "id": "pimavanserina",
+   "gravedad": "menor",
+   "antes": "lo que aconseja prudencia al combinarla con otros fármacos que prolongan el QT y ante un QT largo conocido.",
+   "despues": "y la ficha pide evitarla con otros fármacos que prolongan el QT y ante un QT largo conocido.",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026 (Nuplazid, apartado 5.2)"
+  },
+  {
+   "id": "pimavanserina",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "Parkinson Study Group (1999). Low-dose clozapine for the treatment of drug-induced psychosis in Parkinson's disease. N Engl J Med 340:757-763 · PMID 10072410",
+   "fuente": "PubMed PMID 10072410"
+  },
+  {
+   "id": "pimavanserina",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "U.S. National Library of Medicine, DailyMed (2026). Nuplazid (pimavanserin): prescribing information, advertencia en recuadro y apartado 5.2; consulta de noviembre de 2026",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026"
+  },
+  {
+   "id": "xanomelina",
+   "gravedad": "menor",
+   "antes": "no hay datos que la sitúen en la esquizofrenia resistente,",
+   "despues": "no se han localizado datos que la sitúen en la esquizofrenia resistente,",
+   "fuente": "Negación absoluta no verificable; se reformula como búsqueda negativa"
+  },
+  {
+   "id": "xanomelina",
+   "gravedad": "menor",
+   "antes": "los datos a 52 semanas proceden de extensiones abiertas, sin grupo de comparación.",
+   "despues": "los datos a 52 semanas proceden de extensiones abiertas, sin grupo de comparación [fuente no localizada].",
+   "fuente": "Afirmación sin referencia en el parche; se conserva marcada"
+  },
+  {
+   "id": "xanomelina",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "U.S. National Library of Medicine, DailyMed (2026). Cobenfy (xanomeline and trospium chloride): prescribing information, apartados 2.1, 4 y 5; consulta de noviembre de 2026",
+   "fuente": "DailyMed (NLM), ficha estadounidense vigente, leída en noviembre de 2026"
+  },
+  {
+   "id": "biperideno",
+   "gravedad": "menor",
+   "antes": "[contenido no contrastado: sin resumen en PubMed]",
+   "despues": "[fuente no localizada]",
+   "fuente": "PubMed PMID 1971768: cita verificada, sin resumen; se usa el marcador literal que exige el encargo"
+  },
+  {
+   "id": "biperideno",
+   "gravedad": "menor",
+   "antes": "AEMPS-CIMA (2017). Ficha técnica de Akineton Retard 4 mg comprimidos de liberación prolongada (biperideno; n.º registro 51224), apartados 4.2, 4.4, 4.8 y 4.9; texto revisado en agosto de 2017, consultado en noviembre de 2026",
+   "despues": "AEMPS-CIMA (2017). Ficha técnica de Akineton Retard 4 mg comprimidos de liberación prolongada (biperideno; n.º registro 51224), apartados 4.4, 4.8 y 4.9; texto revisado en agosto de 2017, consultado en noviembre de 2026",
+   "fuente": "Ficha técnica n.º 51224 leída en CIMA el 18-11-2026: el texto del parche no usa el apartado 4.2 (posología)"
+  },
+  {
+   "id": "biperideno",
+   "gravedad": "menor",
+   "antes": "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo), consulta de noviembre de 2026",
+   "despues": "AEMPS-CIMA (2026). Registro de medicamentos (API REST de CIMA, búsqueda por principio activo y por nombre), consulta de noviembre de 2026: Akineton (26692, 51224, 28994), Artane (38334, 38333) y Kemadren (38206)",
+   "fuente": "API REST de CIMA (cima.aemps.es), consulta de 18-11-2026"
+  },
+  {
+   "id": "biperideno",
+   "gravedad": "menor",
+   "antes": "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516",
+   "despues": "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516 [sin resumen en PubMed; enunciados contrastados en el material oficial de la guía en psychiatry.org, noviembre de 2026]",
+   "fuente": "PubMed PMID 32867516; APA, Schizophrenia Clinical Practice Guideline Training Slides (psychiatry.org), enunciados de la guía de 2020: distonía aguda (1C), parkinsonismo (2C) y acatisia (2C) coinciden con el texto del parche"
+  },
+  {
+   "id": "vmat2_td",
+   "gravedad": "menor",
+   "antes": "Los ensayos pivotales duran de 6 a 12 semanas",
+   "despues": "Los ensayos controlados duran de 4 a 12 semanas",
+   "fuente": "Solmi 2018 (PMID 29795977): deutetrabenazina 12 semanas; valbenazina 4-6 semanas"
+  },
+  {
+   "id": "vmat2_td",
+   "gravedad": "menor",
+   "antes": " y una prolongación del QTc de unos 8 ms, con precaución ante otros fármacos que lo prolongan.",
+   "despues": " y una prolongación del QTc de unos 8 ms.",
+   "fuente": "Recorte para respetar el límite de 1500 caracteres; el dato sigue en la ficha (Nitoman 4.4)"
+  },
+  {
+   "id": "vmat2_td",
+   "gravedad": "menor",
+   "antes": "la contraindica en personas que han intentado suicidarse y en la depresión",
+   "despues": "la contraindica en personas con un intento de suicidio previo y en la depresión",
+   "fuente": "Lenguaje no estigmatizante sobre suicidio (regla 4); coherente con la redacción de la ficha del atlas"
+  },
+  {
+   "id": "vmat2_td",
+   "gravedad": "menor",
+   "antes": "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516",
+   "despues": "Keepers GA et al. (2020). The American Psychiatric Association practice guideline for the treatment of patients with schizophrenia. Am J Psychiatry 177:868-872 · PMID 32867516 [sin resumen en PubMed; enunciados contrastados en el material oficial de la guía en psychiatry.org, noviembre de 2026]",
+   "fuente": "PubMed PMID 32867516; APA, Schizophrenia Clinical Practice Guideline Training Slides (psychiatry.org), enunciados de la guía de 2020: «APA recommends (1B)… reversible inhibitor of VMAT2» coincide con el texto"
+  },
+  {
+   "id": "vmat2_td",
+   "gravedad": "menor",
+   "antes": "(referencia ausente)",
+   "despues": "EMA (2026). Austedo (deutetrabenazina): ficha técnica o resumen de las características del producto (anexo I de la información del producto, versión en español), apartados 4.1, 4.3 y 4.4; consultado en noviembre de 2026",
+   "fuente": "ema.europa.eu, austedo-epar-product-information_es.pdf"
+  }
+ ],
+ "sin_resolver": [
+  "Retirada del programa REMS de clozapina por la FDA en 2025 (hla_clozapina): fda.gov no respondió; se conserva con «[fuente no localizada]».",
+  "Fechas de las aprobaciones de la FDA de lumateperona: solo se han verificado las indicaciones vigentes en la ficha de DailyMed; las fechas siguen marcadas.",
+  "Seppi 2019 (MDS): la categoría asignada a cada fármaco no figura en el resumen y no hay texto completo accesible; sigue marcado.",
+  "Consenso de la OMS de 1990 (PMID 1971768): cita verificada, sin resumen; el contenido sigue con «[fuente no localizada]».",
+  "APA 2020 y 2016: contrastadas en material oficial de psychiatry.org, no en el texto íntegro de la guía (acceso denegado a psychiatryonline.org).",
+  "Las fichas ya publicadas de pimavanserina citan «Cummings 2013» (año de la publicación electrónica); el parche no puede modificarlas. En pimavanserina se mantiene «Cummings 2013» en el texto para coincidir con la referencia existente; en 5ht2a se ha corregido a 2014. Convendría unificar a 2014 en la ficha.",
+  "La ficha publicada de ap_dem_riesgo dice que el estado de la pimavanserina en la EMA es «[fuente oficial no localizada]» y la de biperideno no menciona que Artane y Kemadren están comercializados; el parche ya refleja lo comprobado, pero las descripciones no se pueden tocar desde aquí.",
+  "Leponex: la ficha vigente en CIMA describe hemogramas semanales 18 semanas y mensuales las 34 siguientes, con cambios tras 12 meses; conviene comprobar que la ficha clozapina_monit del atlas refleja ese calendario (fuera del alcance de este parche).",
+  "Siguen marcadas por no haberse podido contrastar: ensayos de titulación guiada por ocupación D2, afinidad 5-HT2A de la amisulprida, mecanismo prefrontal sobre síntomas negativos, ensayos previos negativos de pimavanserina, comparaciones directas y prevención de recaídas con lumateperona, eficacia de xanomelina-trospio como tratamiento añadido, antigüedad de los ensayos de anticolinérgicos, uso indebido de biperideno y factores no genéticos de los niveles de clozapina."
+ ]
+}

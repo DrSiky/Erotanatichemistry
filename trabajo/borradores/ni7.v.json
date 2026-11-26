@@ -1,0 +1,529 @@
+{
+ "patch": {
+  "chemsex_s": {
+   "relAdd": [
+    "vpi_chemsex",
+    "espacios_sexo",
+    "u_igual_u"
+   ]
+  },
+  "chemsex_ssex": {
+   "relAdd": [
+    "vpi_chemsex",
+    "u_igual_u",
+    "espacios_sexo"
+   ]
+  },
+  "violencia_genero": {
+   "relAdd": [
+    "vpi_chemsex"
+   ]
+  },
+  "sumision_q": {
+   "relAdd": [
+    "vpi_chemsex",
+    "espacios_sexo"
+   ]
+  },
+  "sara": {
+   "relAdd": [
+    "vpi_chemsex"
+   ]
+  },
+  "ghb_gbl": {
+   "relAdd": [
+    "espacios_sexo"
+   ]
+  },
+  "red_danos": {
+   "relAdd": [
+    "espacios_sexo",
+    "u_igual_u"
+   ]
+  },
+  "chemsex_atencion": {
+   "relAdd": [
+    "espacios_sexo"
+   ]
+  },
+  "apoyo_pares": {
+   "relAdd": [
+    "espacios_sexo"
+   ]
+  },
+  "estigma": {
+   "relAdd": [
+    "u_igual_u"
+   ]
+  },
+  "vih_ncd": {
+   "relAdd": [
+    "u_igual_u"
+   ]
+  },
+  "chemsex_arv": {
+   "relAdd": [
+    "u_igual_u"
+   ]
+  },
+  "adher": {
+   "relAdd": [
+    "u_igual_u"
+   ]
+  },
+  "homoneg_int": {
+   "relAdd": [
+    "vpi_chemsex"
+   ]
+  }
+ },
+ "add": [
+  {
+   "id": "vpi_chemsex",
+   "n": "Violencia en la pareja (incluida la intragénero) y chemsex",
+   "ab": "VPI y chemsex",
+   "al": [
+    "violencia intragénero",
+    "violencia en parejas del mismo sexo",
+    "violencia en la pareja en hombres GBHSH",
+    "IPV y chemsex",
+    "control coercitivo y chemsex"
+   ],
+   "k": "con",
+   "vw": "nos",
+   "sp": "sub",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "l",
+   "ev": "obs",
+   "y": 2021,
+   "tags": [
+    "chemsex",
+    "lgtbi",
+    "trauma",
+    "forense",
+    "risk"
+   ],
+   "cie": [],
+   "desc": "La violencia en la pareja (física, sexual, psicológica, económica y control coercitivo) se da en parejas del mismo sexo y hacia personas trans con frecuencias similares o superiores a las descritas en mujeres con pareja masculina (Finneran 2013; Peitzmeier 2020). En hombres que tienen sexo con hombres, el metaanálisis de Liu (2021; 52 estudios) estima una prevalencia combinada de victimización del 33 %, con predominio de la violencia emocional. El chemsex añade un contexto en el que el consumo dificulta expresar y retirar el consentimiento y en el que la droga puede convertirse en instrumento de control: en una encuesta texana, quienes consumían drogas y acudían a fiestas de sexo tenían una odds 12,5 veces mayor de haber sufrido violencia sexual en el análisis ajustado (IC 95 %: 6,9-22,8; Wilkerson 2021). La relación es bidireccional y no se ha demostrado causal: ser víctima se asocia a su vez a más consumo, síntomas depresivos y VIH (Buller 2014). La responsabilidad de la violencia es siempre de quien la ejerce.",
+   "feats": [
+    "Prevalencia en HSH (Liu 2021; 52 estudios, 32.048 participantes, todos los periodos de recuerdo): victimización 33 % y perpetración 29 %; en la victimización, violencia física 17 %, sexual 9 % y emocional 33 %",
+    "Personas trans (Peitzmeier 2020; 85 artículos): frente a personas cisgénero, riesgo 1,7 veces mayor de cualquier violencia en la pareja, 2,2 veces de violencia física y 2,5 veces de violencia sexual, también frente a mujeres cisgénero",
+    "Correlatos en HSH (Buller 2014; 19 estudios, 13.797 participantes): ser víctima se asoció a consumo de sustancias (OR 1,88), VIH (OR 1,46), síntomas depresivos (OR 1,52) y sexo anal sin preservativo (OR 1,72); ejercerla, a consumo de sustancias (OR 1,99)",
+    "Chemsex (Wilkerson 2021; encuesta en línea a 1273 personas LGTBIQ de Texas): había sufrido violencia sexual el 12,8 % del total y el 48 % de quienes consumían drogas y acudían a fiestas de sexo (41,6 % violencia sexual en la pareja; 41 % agresión sexual)",
+    "Consentimiento (Bernal 2026; revisión de alcance de 15 estudios): comprensión ambigua del consentimiento en el chemsex, escaso reconocimiento de la propia victimización y, como factores de riesgo, el GHB, la menor edad y las dinámicas de poder",
+    "Barreras de acceso (Maxwell 2026; 10 supervivientes GBHSH en Escocia): invisibilidad de la violencia entre hombres en marcos heteronormativos, miedo al juicio o a no ser reconocido como víctima y falta de apoyo culturalmente seguro; facilitan la revelación los entornos afirmativos y las clínicas de salud sexual",
+    "Marco penal español: la LO 1/2004 y el art. 153.1 CP protegen específicamente a la mujer que es o ha sido esposa o pareja del autor (el 153.1 incluye además a la persona especialmente vulnerable que conviva con él); la violencia en parejas del mismo sexo se encauza como violencia doméstica (arts. 153.2 y 173.2 CP: quien sea o haya sido cónyuge o persona ligada por análoga relación de afectividad aun sin convivencia)"
+   ],
+   "tx": "Preguntar de forma rutinaria y en privado por violencia en la pareja en las consultas de chemsex, PrEP, VIH e ITS, sin presuponer el género de la pareja; valorar la seguridad inmediata, el riesgo de nuevas agresiones, las lesiones, la necesidad de PEP y la atención urgente médica, forense y psicológica tras una agresión sexual; distinguir el consumo compartido voluntario, el aprovechamiento de la intoxicación, la administración encubierta y el uso de la droga como medio de control; tratar las secuelas (TEPT, depresión, consumo problemático, ideación suicida) con psicoterapia centrada en el trauma y afirmativa; coordinar con recursos LGTBIQ, de atención a víctimas, de adicciones y de salud sexual, sin condicionar la ayuda a la abstinencia; documentar con rigor por su posible trascendencia pericial.",
+   "note": "La evidencia procede casi por completo de estudios transversales con muestras de conveniencia urbanas, sin una definición validada de violencia en la pareja específica para HSH y con periodos de recuerdo heterogéneos (Finneran 2013; Buller 2014). Apenas hay estudios que midan la violencia en la pareja dentro del chemsex: la cifra de Wilkerson (2021) usa un indicador aproximado de chemsex (consumo más asistencia a fiestas de sexo) y procede de un único estado de EE. UU. No se han localizado datos españoles publicados sobre violencia en la pareja intragénero en el chemsex [fuente no localizada]. Las asociaciones no permiten afirmar que el chemsex cause violencia ni deben leerse como patologización de la sexualidad gay o del consumo; tampoco equiparan al conjunto de parejas que practican chemsex con relaciones violentas.",
+   "sec": [
+    {
+     "t": "Dinámicas de control y consentimiento",
+     "x": "En el chemsex, el control coercitivo puede adoptar formas específicas: suministrar o retirar la droga, condicionar su acceso a determinadas prácticas, presionar para inyectarse o para participar en sesiones con terceros, amenazar con revelar el estado serológico, la orientación sexual o el consumo, o aprovechar la dependencia y la bajada para aislar a la persona [fuente no localizada]. El GHB y otros depresores reducen la capacidad de consentir y de retirar el consentimiento; los relatos cualitativos describen situaciones en las que es difícil revocarlo y en las que la explotación sexual es probable (Wilkerson 2021), y muchas víctimas no etiquetan lo vivido como violencia (Bernal 2026). Según el art. 178.1 CP vigente, solo hay consentimiento cuando se manifiesta libremente mediante actos que, en atención a las circunstancias del caso, expresen de manera clara la voluntad de la persona; el art. 178.2 considera en todo caso agresión sexual los actos sobre personas privadas de sentido o con la voluntad anulada por cualquier causa, y el art. 180.1.7.ª agrava la pena cuando el autor anula la voluntad de la víctima suministrándole fármacos o drogas. La clínica debe ayudar a reconocer estas experiencias sin imponer la etiqueta y sin juicio sobre las prácticas sexuales consentidas.",
+     "links": [
+      {
+       "ids": [
+        "sumision_q"
+       ],
+       "t": "sumisión química y consentimiento"
+      },
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      },
+      {
+       "ids": [
+        "slam"
+       ],
+       "t": "slamming"
+      }
+     ]
+    },
+    {
+     "t": "Barreras de acceso a recursos para hombres GBHSH y personas trans",
+     "x": "Los recursos especializados en violencia en la pareja se diseñaron en torno a la violencia del hombre sobre la mujer; en España, la protección integral de la LO 1/2004 se dirige a mujeres, de modo que los hombres agredidos por otros hombres acuden a la vía de la violencia doméstica y a recursos generales de atención a víctimas, cuya adecuación a esta población no está evaluada [fuente no localizada]. En supervivientes GBHSH, las barreras descritas son la invisibilidad de la violencia entre hombres, su normalización, el miedo al juicio o a no ser reconocido como víctima y la falta de apoyo culturalmente seguro (Maxwell 2026). En hombres jóvenes de minorías sexuales, el abuso a menudo se reconoce solo tras la ruptura, con frecuencia en terapia (Kwak 2026). En personas trans, el temor a respuestas tránsfobas disuade de pedir ayuda, sobre todo en mujeres trans (Messinger 2022). Se suman el miedo a revelar el consumo de drogas ilegales, el estigma por VIH y la homonegatividad interiorizada [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "violencia_genero"
+       ],
+       "t": "violencia de género y en la pareja"
+      },
+      {
+       "ids": [
+        "homoneg_int",
+        "estigma"
+       ],
+       "t": "homonegatividad interiorizada y estigma"
+      },
+      {
+       "ids": [
+        "chemsex_trans_muj"
+       ],
+       "t": "mujeres, personas trans y no binarias"
+      }
+     ]
+    },
+    {
+     "t": "Abordaje clínico y pericial",
+     "x": "Cribado: preguntar en privado, sin la pareja presente, por miedo, control, violencia física y sexual y uso de las drogas como medio de presión, sin presuponer el género de la pareja [fuente no localizada]. Valoración: lesiones, ITS y necesidad de PEP tras una agresión, riesgo inmediato, ideación suicida, TEPT, síntomas depresivos y patrón de consumo. Intervención: plan de seguridad, derivación coordinada a recursos LGTBIQ, de atención a víctimas, de adicciones y de salud sexual, psicoterapia centrada en el trauma con enfoque afirmativo y, si la persona lo desea, trabajo sobre deseo y consentimiento en una sexualidad sin drogas. Pericia: registrar literalmente el relato, la cronología del consumo y los hallazgos, y diferenciar el consumo voluntario de la administración encubierta. Los instrumentos de valoración del riesgo como la SARA se desarrollaron sobre todo en violencia del hombre hacia la mujer y deben interpretarse con cautela en parejas del mismo sexo [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "ptsd",
+        "ideac_suic"
+       ],
+       "t": "TEPT e ideación suicida"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "PEP e ITS"
+      },
+      {
+       "ids": [
+        "sara"
+       ],
+       "t": "guía SARA"
+      },
+      {
+       "ids": [
+        "sexo_sin_drogas",
+        "lgb_afirm"
+       ],
+       "t": "sexualidad sin drogas y terapia afirmativa"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Liu M et al. (2021). Prevalence of intimate partner violence among men who have sex with men: an updated systematic review and meta-analysis. Sex Med 9:100433 · PMID 34571326",
+    "Finneran C & Stephenson R (2013). Intimate partner violence among men who have sex with men: a systematic review. Trauma Violence Abuse 14:168-185 · PMID 23271429",
+    "Buller AM et al. (2014). Associations between intimate partner violence and health among men who have sex with men: a systematic review and meta-analysis. PLoS Med 11:e1001609 · PMID 24594975",
+    "Peitzmeier SM et al. (2020). Intimate partner violence in transgender populations: systematic review and meta-analysis of prevalence and correlates. Am J Public Health 110:e1-e14 · PMID 32673114",
+    "Wilkerson JM et al. (2021). Sexual violence and chemsex among substance-using sexual and gender minorities in Texas. Subst Use Misuse 56:2141-2150 · PMID 34550052",
+    "Bernal M et al. (2026). Sexual victimization in contexts of chemsex: a scoping review with harm reduction implications. J Sex Res 63:1279-1291 · PMID 41503840",
+    "Maxwell S, O'Brien R & Stenhouse R (2026). Disclosure of intimate partner violence among gay and bisexual men: a narrative inquiry. J Homosex 73:2761-2779 · PMID 40974274",
+    "Kwak JE & Stults CB (2026). Meaning-making after experiences of intimate partner violence among young sexual minority men: a qualitative study. Violence Vict 41:534-552 · PMID 41690808",
+    "Messinger AM et al. (2022). Intimate partner violence help-seeking in the U.S. Transgender Survey. J Homosex 69:1042-1065 · PMID 33871317",
+    "Jefatura del Estado (1995, actualizada). Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, arts. 153, 173.2, 178 y 180.1 (texto consolidado). BOE-A-1995-25444"
+   ],
+   "rel": [
+    "violencia_genero",
+    "sumision_q",
+    "chemsex_s",
+    "chemsex_ssex",
+    "ghb_gbl",
+    "sdu",
+    "ptsd",
+    "trauma",
+    "homoneg_int",
+    "estigma",
+    "lgb_afirm",
+    "sara",
+    "chemsex_trans_muj",
+    "ideac_suic",
+    "espacios_sexo",
+    "u_igual_u"
+   ]
+  },
+  {
+   "id": "espacios_sexo",
+   "n": "Espacios de sexo comercial (saunas, locales y fiestas privadas) y reducción de riesgos en el chemsex",
+   "ab": "Espacios de sexo",
+   "al": [
+    "saunas gais",
+    "locales de sexo",
+    "sex-on-premises venues",
+    "fiestas de sexo",
+    "clubs de sexo",
+    "cuartos oscuros"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "m",
+   "ev": "obs",
+   "y": 2017,
+   "tags": [
+    "chemsex",
+    "lgtbi",
+    "risk",
+    "emerg"
+   ],
+   "cie": [],
+   "desc": "Las saunas, los locales con zonas de sexo y las fiestas privadas son espacios de encuentro sexual y de socialización frecuentados por hombres gais, bisexuales y otros HSH, legítimos en sí mismos. En el chemsex son uno de los escenarios de las sesiones: en Madrid, un estudio cualitativo distinguió el chemsex en saunas u otros locales de las sesiones anónimas, del «chill-sex» y de las fiestas semicerradas entre redes de amistades, con riesgos y factores de protección distintos (Santoro 2020). El riesgo agudo más grave es la depresión del nivel de conciencia por GHB/GBL, sobre todo combinado con alcohol u otros depresores. En la comunidad LGTB británica, la mayoría de las muertes asociadas al GHB se produjeron en domicilios y una minoría en clubes y saunas (Corkery 2018), y en España lo más habitual es que el chemsex tenga lugar en casas particulares (Soriano Ocón 2020), de modo que la prevención no puede limitarse a los locales. Estos espacios son, a la vez, un lugar privilegiado para la información, la intervención de pares y la respuesta precoz a una sobredosis.",
+   "feats": [
+    "Tipos de sesión en Madrid (Santoro 2020; 11 entrevistas y 2 grupos triangulares): sesiones anónimas, «chill-sex», fiestas semicerradas entre redes de amistades y chemsex en saunas u otros locales de sexo, con distinta organización, significado y exposición al riesgo",
+    "Muertes asociadas al GHB/GBL en la comunidad LGTB del Reino Unido (Corkery 2018; 21 casos de notificación voluntaria, 1995-2013): todos varones, edad media 34 años, el 83 % en domicilios particulares; el GHB fue la única sustancia implicada en el 10 % y con frecuencia se combinaba con cocaína, alcohol, anfetaminas, éxtasis, diazepam, ketamina o mefedrona",
+    "En siete de las ocho jurisdicciones forenses de Londres, la proporción de muertes asociadas al GHB aumentó un 119 % entre 2014 y 2015, aumento que los autores atribuyen al menos en parte al chemsex (Hockenhull 2017)",
+    "En las urgencias de un hospital de Barcelona, las intoxicaciones relacionadas con chemsex en personas con VIH pasaron de 15 en 2018 a 68 en 2020; las drogas principales fueron la metanfetamina (65,2 %) y el GHB (59,1 %), el 10,4 % fueron graves y no hubo muertes (Vallecillo 2022)",
+    "Intoxicación por GHB/GBL: depresión del sistema nervioso central y respiratoria de duración relativamente corta, con vómitos, bradicardia, mioclonías e hipotermia; el tratamiento es de soporte, con prioridad de la vía aérea y la ventilación (Schep 2012)",
+    "Barreras en los locales (Naulls 2025; Londres y sudeste de Inglaterra): respuesta inconsistente de los locales ante el consumo y barreras económicas y legales que les impiden respaldar abiertamente la reducción de daños; la cultura de los «afters» en domicilios prolonga el consumo",
+    "Intervención de pares: la revisión sistemática de Pozo-Herce (2024; seis estudios) sugiere que los programas dirigidos por iguales, especialmente con facilitadores que vivieron una dependencia en el chemsex, pueden ser eficaces"
+   ],
+   "tx": "Información objetiva y sin juicio en los locales, las fiestas y las aplicaciones (no mezclar GHB/GBL con alcohol ni otros depresores, anotar la hora de cada toma, no dejar sola a una persona somnolienta) [fuente no localizada para su eficacia específica]; formación del personal y de agentes de pares en el reconocimiento de la sobredosis y en primeros auxilios; protocolos de llamada inmediata al 112; disponibilidad de preservativos, lubricante, material de inyección estéril, información sobre PrEP y PEP y derivación a programas de chemsex, salud sexual y salud mental. En urgencias, tratamiento de soporte de la intoxicación y valoración de interacciones con antirretrovirales y de consumo no consentido.",
+   "note": "La evidencia sobre intervenciones en locales es escasa y sobre todo cualitativa; no se han localizado ensayos de programas de reducción de daños en saunas ni datos españoles publicados sobre sobredosis en locales de sexo [fuente no localizada]. Las series británicas de mortalidad dependen de la notificación voluntaria y pueden infraestimar o concentrar geográficamente los casos (Corkery 2018); en la serie de muertes relacionadas con drogas en personas LGTBQ+ del Reino Unido de 1997 a 2024, solo una cuarta parte se produjo en contexto de consumo sexualizado (Roberts 2026). «Sexo comercial» designa aquí locales con ánimo de lucro, no el trabajo sexual. La naloxona no revierte el efecto del GHB (la ficha técnica de Naloxona B. Braun, AEMPS-CIMA, apartado 5.1, indica que no contrarresta la depresión central por sustancias no opiáceas), aunque puede estar indicada si se sospecha un opioide.",
+   "sec": [
+    {
+     "t": "Sobredosis de GHB/GBL: reconocimiento y primeros auxilios",
+     "x": "La curva dosis-respuesta del GHB es pronunciada y la concentración de los preparados variable, de modo que pequeñas diferencias de cantidad o de intervalo entre tomas separan el efecto buscado del coma [fuente no localizada]. La intoxicación produce somnolencia, disminución del nivel de conciencia hasta el coma, depresión respiratoria, vómitos con riesgo de aspiración, bradicardia, mioclonías e hipotermia; suele ser breve y con recuperación rápida, pero puede ser mortal, sobre todo combinada con alcohol, benzodiacepinas u otros depresores (Schep 2012; Corkery 2018). En el local o la fiesta: no dejar sola a la persona, comprobar si responde y respira, llamar al 112, colocarla en posición lateral de seguridad si respira con normalidad e iniciar reanimación cardiopulmonar si no respira con normalidad, según los principios generales de soporte vital básico y primeros auxilios (Olasveengen 2021; Zideman 2021), sin provocar el vómito ni darle de beber ni intentar despertarla con estimulantes [fuente no localizada]. Informar al equipo de emergencias de lo consumido.",
+     "links": [
+      {
+       "ids": [
+        "ghb_gbl"
+       ],
+       "t": "GHB/GBL"
+      },
+      {
+       "ids": [
+        "naloxona"
+       ],
+       "t": "naloxona (no revierte el GHB)"
+      },
+      {
+       "ids": [
+        "ghb_abst"
+       ],
+       "t": "abstinencia de GHB en consumo diario"
+      }
+     ]
+    },
+    {
+     "t": "Intervención de pares y papel de los locales",
+     "x": "Los locales pueden funcionar como puntos de acceso a información, material preventivo, pruebas de VIH e ITS y derivación, pero su implicación choca con barreras económicas y legales y con una respuesta inconsistente ante el consumo (Naulls 2025). Los autores proponen trabajar también la cultura de los «afters», en la que el consumo continúa durante periodos prolongados en domicilios tras el cierre del local, y coordinar la respuesta con la administración local. Según el tipo de sesión, algunas peculiaridades del entorno pueden incluso actuar como factores de protección (Santoro 2020). La evidencia sobre programas dirigidos por iguales es limitada pero favorable (Pozo-Herce 2024), y los agentes de pares formados aportan credibilidad y un lenguaje compartido [fuente no localizada]. El enfoque debe ser afirmativo y no estigmatizante hacia la sexualidad gay y hacia el uso de estos espacios [fuente no localizada].",
+     "links": [
+      {
+       "ids": [
+        "apoyo_pares"
+       ],
+       "t": "apoyo entre iguales"
+      },
+      {
+       "ids": [
+        "red_danos"
+       ],
+       "t": "reducción de daños"
+      },
+      {
+       "ids": [
+        "apps_contacto"
+       ],
+       "t": "aplicaciones de contactos"
+      },
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "salud sexual, PrEP y PEP"
+      }
+     ]
+    },
+    {
+     "t": "Programas y recursos en España",
+     "x": "La Secretaría del Plan Nacional sobre el Sida del Ministerio de Sanidad promovió en 2020 un documento técnico sobre el abordaje del fenómeno del chemsex, dirigido a los distintos profesionales, que pretende aportar conocimientos y herramientas para prevenir el VIH, las hepatitis víricas, otras ITS y los problemas relacionados con el consumo, y promover un abordaje integrado que enfatiza la complementariedad entre disciplinas y equipos; según la misma fuente, la Estrategia Nacional sobre Adicciones 2017-2024 ya incluía la atención al chemsex (Soriano Ocón 2020). El catálogo del Plan Nacional sobre Drogas recoge además un anexo de reducción de riesgos en chemsex (junio de 2020); su contenido concreto sobre los espacios de sexo no se ha podido contrastar [fuente no localizada]. En las grandes ciudades, entidades comunitarias LGTBIQ ofrecen información en locales y aplicaciones, apoyo entre iguales y acompañamiento [fuente no localizada]. En Barcelona, la mayoría de las personas con VIH atendidas en urgencias por intoxicación relacionada con chemsex tenían carga viral suprimida (86,1 %), todas tenían vivienda estable y el 27,8 % un trastorno mental (Vallecillo 2022): un perfil vinculado a la red sanitaria al que se puede llegar desde las consultas de VIH.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_atencion"
+       ],
+       "t": "modelos de atención al chemsex"
+      },
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "vpi_chemsex",
+        "sumision_q"
+       ],
+       "t": "violencia y consentimiento"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Santoro P et al. (2020). One «chemsex» or many? Types of chemsex sessions among gay and other men who have sex with men in Madrid, Spain: findings from a qualitative study. Int J Drug Policy 82:102790 · PMID 32516688",
+    "Corkery JM et al. (2018). Deaths in the lesbian, gay, bisexual and transgender United Kingdom communities associated with GHB and precursors. Curr Drug Metab 19:1086-1099 · PMID 29119924",
+    "Hockenhull J, Murphy KG & Paterson S (2017). An observed rise in γ-hydroxybutyrate-associated deaths in London: evidence to suggest a possible link with concomitant rise in chemsex. Forensic Sci Int 270:93-97 · PMID 27936427",
+    "Vallecillo G et al. (2022). Increasing emergency department admissions for chemsex-related intoxications in Barcelona, Spain, among people living with HIV: an observational study from 2018 to 2020. BMC Public Health 22:346 · PMID 35180855",
+    "Schep LJ et al. (2012). The clinical toxicology of γ-hydroxybutyrate, γ-butyrolactone and 1,4-butanediol. Clin Toxicol (Phila) 50:458-470 · PMID 22746383",
+    "Naulls S et al. (2025). Barriers to uptake of harm reduction techniques for GBMSM who use drugs in night-clubs and sex-on-premises venues in London and the Southeast: a mixed-methods, qualitative study. Harm Reduct J 22:13 · PMID 39893472",
+    "Pozo-Herce PD et al. (2024). Effectiveness of harm reduction interventions in chemsex: a systematic review. Healthcare (Basel) 12:1411 · PMID 39057554",
+    "Roberts E, Hillyard M & Copeland C (2026). Characteristics of drug-related deaths among individuals identified as LGBTQ+ in the United Kingdom, 1997-2024. Addiction 121:208-214 · PMID 40974252",
+    "Olasveengen TM et al. (2021). European Resuscitation Council Guidelines 2021: basic life support. Resuscitation 161:98-114 · PMID 33773835",
+    "Zideman DA et al. (2021). European Resuscitation Council Guidelines 2021: first aid. Resuscitation 161:270-290 · PMID 33773828",
+    "Ministerio de Sanidad (2020). Abordaje del fenómeno del chemsex. Documento técnico. Secretaría del Plan Nacional sobre el Sida",
+    "Soriano Ocón R & del Amo J (2020). Abordaje del fenómeno del chemsex. Una propuesta desde el Plan Nacional sobre el Sida [editorial]. Rev Esp Salud Pública 94:e202009107 (no indexado en PubMed; texto completo en ojs.sanidad.gob.es)"
+   ],
+   "rel": [
+    "chemsex_s",
+    "ghb_gbl",
+    "red_danos",
+    "chemsex_atencion",
+    "apoyo_pares",
+    "chemsex_ssex",
+    "sdu",
+    "apps_contacto",
+    "naloxona",
+    "sumision_q",
+    "chemsex_arv",
+    "slam",
+    "vpi_chemsex",
+    "u_igual_u"
+   ]
+  },
+  {
+   "id": "u_igual_u",
+   "n": "Indetectable = Intransmisible (I=I, U=U): evidencia, estigma y salud mental en el VIH",
+   "ab": "I=I (U=U)",
+   "al": [
+    "U=U",
+    "I=I",
+    "Indetectable igual a intransmisible",
+    "Undetectable = Untransmittable",
+    "tratamiento como prevención",
+    "TasP"
+   ],
+   "k": "fac",
+   "vw": "eti",
+   "sp": "soc",
+   "ring": 3,
+   "trad": "clinical",
+   "cs": "h",
+   "ev": "ecr",
+   "y": 2016,
+   "tags": [
+    "lgtbi",
+    "chemsex",
+    "chr"
+   ],
+   "cie": [],
+   "desc": "Principio según el cual una persona con VIH que mantiene suprimida la carga viral con tratamiento antirretroviral no transmite el virus por vía sexual. Se apoya en el ensayo aleatorizado HPTN 052 y en las cohortes de parejas serodiferentes PARTNER, PARTNER2 y Opposites Attract, en las que no se documentó ninguna transmisión filogenéticamente vinculada dentro de la pareja durante los periodos con carga viral suprimida (menos de 200 copias/mL en las cohortes). La campaña comunitaria «Undetectable = Untransmittable» se lanzó en 2016 (Wells 2024). Además de su valor preventivo, I=I tiene una dimensión psicológica: conocerlo y haberlo hablado con el equipo sanitario se asocia a mejor adherencia, más supresión viral autorreferida y mejor salud sexual (Okoli 2021), y el estigma por VIH, al que I=I se dirige, se asocia a depresión y a peor adherencia (Rueda 2016). En el chemsex, el reto es mantener la adherencia y la supresión durante sesiones prolongadas.",
+   "feats": [
+    "HPTN 052 (Cohen 2011): ensayo aleatorizado en 1763 parejas serodiferentes de nueve países; de 28 transmisiones vinculadas, solo una ocurrió en el grupo de tratamiento precoz (HR 0,04)",
+    "HPTN 052, análisis final (Cohen 2016; más de 5 años): el tratamiento precoz redujo un 93 % las infecciones vinculadas (HR 0,07) y no se observó ninguna transmisión vinculada mientras la infección estaba suprimida de forma estable",
+    "PARTNER (Rodger 2016): 888 parejas (548 heterosexuales y 340 de hombres), unos 58.000 actos sexuales sin preservativo con carga viral inferior a 200 copias/mL; ninguna transmisión vinculada (límite superior del IC 95 %: 0,30 por 100 parejas-año; 0,71 para el sexo anal)",
+    "PARTNER2 (Rodger 2019): 782 parejas de hombres, 76.088 actos de sexo anal sin preservativo con supresión viral y sin PrEP ni PEP; 15 infecciones nuevas, ninguna vinculada dentro de la pareja (límite superior 0,23 por 100 parejas-año); los autores concluyen que el riesgo es efectivamente cero y apoyan el mensaje I=I",
+    "Opposites Attract (Bavinton 2018): 343 parejas de hombres en Australia, Brasil y Tailandia; 12.447 actos de sexo anal sin preservativo con supresión viral y sin PrEP diaria; ninguna transmisión vinculada (límite superior 1,59 por 100 parejas-año)",
+    "Encuesta Positive Perspectives 2019 (Okoli 2021; 2389 personas con VIH en 25 países): haber hablado de I=I con su profesional se asoció a menos adherencia subóptima (ORa 0,59), más supresión viral autorreferida (ORa 2,34), mejor salud sexual (ORa 1,48) y a compartir siempre el estado serológico (ORa 2,99); un tercio nunca lo había hablado",
+    "Estigma por VIH (Rueda 2016; metaanálisis de 64 estudios): asociado a más depresión, menos apoyo social, peor adherencia antirretroviral y menor acceso a servicios; asociaciones más débiles con ansiedad, calidad de vida y prácticas sexuales de riesgo"
+   ],
+   "tx": "Informar de I=I de forma explícita y repetida en la consulta de VIH, salud mental y adicciones; Okoli (2021) propone que esta conversación sea un estándar asistencial. Explicar que el beneficio depende de mantener la supresión con el tratamiento y el seguimiento de la carga viral, y que I=I no protege frente a otras ITS. Trabajar el estigma interiorizado, el miedo a transmitir y la ansiedad o la evitación sexual con psicoterapia afirmativa. En quien practica chemsex: planificar la toma del tratamiento en sesiones prolongadas (alarmas, medicación accesible), revisar las interacciones entre drogas y antirretrovirales, ofrecer reducción de daños y no condicionar el tratamiento antirretroviral ni el apoyo a la abstinencia.",
+   "note": "Los estudios de cohortes no demuestran un riesgo nulo en sentido estadístico, sino límites superiores de confianza muy bajos; la precisión para el sexo anal entre hombres procede sobre todo de PARTNER2. Los umbrales de carga viral, el tiempo de supresión necesario y la periodicidad del control los fijan las guías clínicas y no se detallan aquí [fuente no localizada]. I=I se refiere a la transmisión sexual; la lactancia y el material de inyección compartido requieren consideraciones distintas que no se tratan aquí. Los estudios sobre estigma y salud mental son en su mayoría transversales; en el estudio de la encuesta Positive Perspectives, varios autores eran empleados de ViiV Healthcare (declaración de conflictos de intereses). Debe evitarse el lenguaje estigmatizante («portador», «infectado», «limpio») y preferirse «persona con VIH» y «carga viral indetectable» [fuente no localizada].",
+   "sec": [
+    {
+     "t": "Lectura crítica de la evidencia",
+     "x": "HPTN 052 es el único ensayo aleatorizado: comparó el inicio precoz y diferido del tratamiento en parejas mayoritariamente heterosexuales y africanas, con análisis genético de vinculación (Cohen 2011; Cohen 2016). Las cohortes PARTNER, PARTNER2 y Opposites Attract estudiaron específicamente parejas que referían sexo sin preservativo, incluyeron un número elevado de parejas de hombres y usaron análisis filogenético para distinguir las transmisiones dentro de la pareja de las adquiridas fuera de ella. Las seroconversiones observadas no estaban vinculadas a la pareja con VIH: en PARTNER, 8 de las 11 personas que adquirieron el virus refirieron sexo sin preservativo con otras parejas, y en PARTNER2 el 37 % de los hombres VIH negativos refirió sexo sin preservativo fuera de la pareja (Rodger 2016; Rodger 2019). La consecuencia práctica es doble: la supresión viral impide la transmisión a la pareja, y la persona VIH negativa con otras parejas sigue necesitando PrEP y cribado.",
+     "links": [
+      {
+       "ids": [
+        "chemsex_ssex"
+       ],
+       "t": "PrEP, PEP e ITS"
+      }
+     ]
+    },
+    {
+     "t": "Estigma, ansiedad y salud mental",
+     "x": "El estigma por VIH se asocia a depresión, menor apoyo social y peor adherencia (Rueda 2016). I=I se dirige a ese estigma: en adultos negros y latinos de Nueva York sin VIH, con actividad heterosexual y bajos ingresos, conocerlo (35 %) se asoció a menos estigma anticipado en el ámbito de las citas y del sexo (Rivera 2021), y en población general japonesa la información sobre I=I mejoró la aceptación de personas con VIH en casi todos los ítems de distancia social (Togari 2022). En 1185 hombres jóvenes chinos con VIH que tienen sexo con hombres, quienes no tenían el estatus I=I referían más estigma interiorizado por VIH y más problemas de salud mental; en quienes sí lo tenían, el estigma percibido por la orientación sexual y el estigma interiorizado por VIH seguían repercutiendo negativamente en la salud mental (Liang 2026). En la clínica, I=I ayuda a abordar el miedo a transmitir, la culpa, la evitación de la intimidad y la ansiedad por la revelación del estado serológico [fuente no localizada para su efecto terapéutico específico]; el conocimiento y la confianza en el mensaje siguen siendo desiguales (Wells 2024).",
+     "links": [
+      {
+       "ids": [
+        "estigma"
+       ],
+       "t": "estigma y discriminación"
+      },
+      {
+       "ids": [
+        "homoneg_int",
+        "genero"
+       ],
+       "t": "estigma interiorizado y estrés de minorías"
+      },
+      {
+       "ids": [
+        "lgb_afirm"
+       ],
+       "t": "psicoterapia afirmativa"
+      },
+      {
+       "ids": [
+        "vih_ncd"
+       ],
+       "t": "trastornos neuropsiquiátricos del VIH"
+      }
+     ]
+    },
+    {
+     "t": "Adherencia en el contexto del chemsex",
+     "x": "Los datos sobre chemsex y adherencia son contradictorios. En 200 hombres filipinos con VIH, el 79 % era adherente y no se halló asociación entre chemsex y adherencia (Olete 2024); en el ensayo PROUD, el chemsex no se asoció a peor adherencia a la PrEP (O'Halloran 2019). En cambio, en una cohorte taiwanesa con tratamiento antirretroviral, el olvido de dosis se asoció al consumo recreativo, sin asociación significativa con la carga viral no suprimida (Chen 2021). En entrevistas con usuarios de PrEP, la falta ocasional de adherencia se relacionaba con estresores psicosociales o malestar psíquico que intensificaban las sesiones, y los participantes usaban estrategias como limitar las sesiones, tener la medicación a mano o usar recordatorios (Maxwell 2022). En Barcelona, el 86,1 % de las personas con VIH atendidas en urgencias por intoxicación relacionada con chemsex tenían carga viral suprimida, pero en el 31,3 % se identificaron posibles interacciones con el tratamiento (Vallecillo 2022).",
+     "links": [
+      {
+       "ids": [
+        "chemsex_arv"
+       ],
+       "t": "interacciones con antirretrovirales"
+      },
+      {
+       "ids": [
+        "adher"
+       ],
+       "t": "adherencia y alianza"
+      },
+      {
+       "ids": [
+        "chemsex_s",
+        "red_danos"
+       ],
+       "t": "chemsex y reducción de daños"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    "Cohen MS et al. (2011). Prevention of HIV-1 infection with early antiretroviral therapy. N Engl J Med 365:493-505 · PMID 21767103",
+    "Cohen MS et al. (2016). Antiretroviral therapy for the prevention of HIV-1 transmission. N Engl J Med 375:830-839 · PMID 27424812",
+    "Rodger AJ et al. (2016). Sexual activity without condoms and risk of HIV transmission in serodifferent couples when the HIV-positive partner is using suppressive antiretroviral therapy. JAMA 316:171-181 · PMID 27404185",
+    "Rodger AJ et al. (2019). Risk of HIV transmission through condomless sex in serodifferent gay couples with the HIV-positive partner taking suppressive antiretroviral therapy (PARTNER): final results of a multicentre, prospective, observational study. Lancet 393:2428-2438 · PMID 31056293",
+    "Bavinton BR et al. (2018). Viral suppression and HIV transmission in serodiscordant male couples: an international, prospective, observational, cohort study. Lancet HIV 5:e438-e447 · PMID 30025681",
+    "Okoli C et al. (2021). Undetectable equals untransmittable (U = U): awareness and associations with health outcomes among people living with HIV in 25 countries. Sex Transm Infect 97:18-26 · PMID 32732335",
+    "Rueda S et al. (2016). Examining the associations between HIV-related stigma and health outcomes in people living with HIV/AIDS: a series of meta-analyses. BMJ Open 6:e011453 · PMID 27412106",
+    "Rivera AV, Carrillo SA & Braunstein SL (2021). Prevalence of U = U awareness and its association with anticipated HIV stigma among low-income heterosexually active Black and Latino adults in New York City, 2019. AIDS Patient Care STDS 35:370-376 · PMID 34463141",
+    "Togari T, Abe S & Inoue Y (2022). HIV-related public stigma and knowledge regarding the campaign slogan «undetectable=untransmittable» among Japanese people [en japonés]. Nihon Koshu Eisei Zasshi 69:146-157 · PMID 34924493",
+    "Liang Z & Huang YT (2026). Perceived stigma, internalized stigma, and mental health of young Chinese men who have sex with men living with HIV/AIDS: intersection and the importance of «undetectable = untransmittable» status. Am J Orthopsychiatry 96:501-515 · PMID 40471822",
+    "Wells N et al. (2024). 2023 Undetectable = Untransmittable global policy roundtable report: a multistakeholder perspective on Undetectable = Untransmittable research and policy priorities. Sex Health 21 · PMID 38801749",
+    "Olete RA et al. (2024). ChemsexPH: the association between chemsex, HIV status and adherence to antiretroviral therapy among men who have sex with men in the Philippines. J Int AIDS Soc 27:e26323 · PMID 38982574",
+    "O'Halloran C et al. (2019). Chemsex is not a barrier to self-reported daily PrEP adherence among PROUD study participants. Int J Drug Policy 74:246-254 · PMID 31739177",
+    "Chen GL et al. (2021). Clinical impact of recreational drug use among people living with HIV in southern Taiwan. J Microbiol Immunol Infect 54:952-962 · PMID 32847749",
+    "Maxwell S, Shahmanesh M & Gafos M (2022). Pre-exposure prophylaxis (PrEP) uptake and adherence experiences of gay and bisexual men who engage in chemsex: a qualitative study. Int J Drug Policy 103:103630 · PMID 35231668",
+    "Vallecillo G et al. (2022). Increasing emergency department admissions for chemsex-related intoxications in Barcelona, Spain, among people living with HIV: an observational study from 2018 to 2020. BMC Public Health 22:346 · PMID 35180855"
+   ],
+   "rel": [
+    "chemsex_ssex",
+    "chemsex_arv",
+    "chemsex_s",
+    "estigma",
+    "vih_ncd",
+    "adher",
+    "lgb_afirm",
+    "homoneg_int",
+    "genero",
+    "red_danos",
+    "efavirenz_psiq",
+    "vih_metanf_snc",
+    "vpi_chemsex",
+    "espacios_sexo"
+   ]
+  }
+ ]
+}

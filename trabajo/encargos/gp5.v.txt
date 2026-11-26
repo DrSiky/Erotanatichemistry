@@ -1,0 +1,45 @@
+CONTEXTO
+Atlas nosológico interactivo de psicopatología (un único HTML sin conexión) de un médico psicoterapeuta, psicopatólogo y psicofarmacólogo, experto en chemsex, perito médico-legal en España y defensor del colectivo LGTBIQ. Exige registro preciso, académico y MUY estricto con las referencias: solo se afirma lo que tiene base documental sólida (DSM-5-TR, CIE-11, guías de práctica clínica, revisiones sistemáticas y metaanálisis, estudios indexados en PubMed, obras clásicas de psicopatología citadas con exactitud). Nunca webs generalistas.
+
+REGLAS DE CONTENIDO (obligatorias)
+1. Lo que no puedas verificar en una fuente primaria u oficial NO se elimina si es clínicamente razonable: se conserva marcado con el indicador literal «[fuente no localizada]» pegado a la afirmación (códigos CIE-11: «[fuente oficial no localizada]»; referencias no comprobadas: «[no verificada]» al final de la referencia). Lo que una fuente verificable contradiga, no se escribe.
+2. Toda referencia de artículo debe verificarse en PubMed (carga las herramientas con ToolSearch «select:mcp__PubMed__search_articles,mcp__PubMed__get_article_metadata,mcp__PubMed__lookup_article_by_citation»): autor, año, revista, volumen, páginas y que el dato citado figure en el resumen. Formato: «Apellido A et al. (2019). Título. Revista 12:345-350 · PMID 12345678». Libros y obras clásicas: autor, (año), título, editorial; si no puedes contrastar el contenido concreto, márcalo. Nunca inventes un PMID ni una cifra.
+3. Sin dosis individualizadas ni pautas posológicas (solo, si es imprescindible, límites literales de ficha técnica AEMPS-CIMA nombrando la ficha). En antipsicóticos la prioridad de uso la marcan las guías; la ficha técnica es una nota factual neutra.
+4. Español de España, técnico y claro. Redacción neutra en género («la persona», «quien consulta», «el paciente o la paciente»). Lenguaje no patologizante en orientación sexual e identidad de género. Lenguaje no estigmatizante sobre suicidio («muerte por suicidio»). Nada de identificadores de modelo o de IA.
+5. No dupliques lo que ya dice la ficha: léela antes y aporta contenido nuevo.
+
+ENTORNO
+Repositorio: /home/user/Erotanatichemistry (haz cd en cada comando). Consultas de solo lectura: «node tools/q.js find <regex> [vista]», «node tools/q.js show <id> ...», «node tools/q.js sector <vista> <sector>». Vistas: nos (nosología), sem (semiología), eti (etiopatogenia), ter (terapéutica), hist. Validación de tu parche: «node tools/apply.js <tu_fichero.json> --check» (SIEMPRE con --check: NO apliques el parche, NO modifiques ningún fichero del repositorio, NO ejecutes build.js ni git). Escribe únicamente tus ficheros en /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/. Guarda tu fichero pronto y ve ampliándolo (trabajo incremental), para no perderlo si te interrumpen.
+
+FORMATO DEL PARCHE (JSON válido, UTF-8)
+{"patch":{"<id>":{"secAdd":[{"t":"Título de sección","x":"texto de 120 a 1500 caracteres","links":[{"ids":["id1","id2"],"t":"rótulo breve del enlace"}]}],"refsAdd":["referencia con (año)"],"relAdd":["id"]}},"add":[]}
+Los ids de «links» y «relAdd» deben existir (búscalos con q.js). «links» es opcional pero muy recomendable: enlaza cada sección con los nodos del atlas que menciona.
+
+ROL: VERIFICADOR INDEPENDIENTE Y ESCÉPTICO con autoridad para corregir. Otro agente ha escrito el parche /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp5.json (sus dudas: /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp5.notas.json) siguiendo este encargo:
+--- ENCARGO ORIGINAL ---
+TAREA: COMPLETAR FICHAS INCOMPLETAS ya publicadas. Para cada nodo de esta lista, lee primero la ficha completa (node tools/q.js show <id>) y añade SOLO lo que se indica, con contenido nuevo, documentado y sin duplicar lo existente. Las secciones nuevas llevan títulos propios que no repitan los existentes (p. ej., «Diagnóstico diferencial», «Curso y pronóstico», «Evidencia y controversias», «Mecanismo de acción», «Seguridad y monitorización», según el tipo de nodo) y enlazan con links a los nodos que mencionan. En fichas de fármacos, lo relativo a la ficha técnica se toma literalmente de CIMA (cima.aemps.es) citando la ficha y el apartado; nada de dosis individualizadas. Toda referencia nueva va también en refsAdd. Guarda el parche con frecuencia: es una lista larga.
+ - cult_bound (Conceptos culturales del malestar): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - sii_eje (Síndrome del intestino irritable y eje intestino-cerebro): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - encopresis (Encopresis): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - apatia_dem (Apatía en la demencia): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - dep_paterna (Depresión perinatal paterna y de la pareja (depresión posparto en padres)): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - taijin_kyofusho (Taijin kyofusho (fobia interpersonal japonesa)): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - amitriptilina (Amitriptilina): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - clozapina_monit (Clozapina: monitorización hematológica, cardíaca y metabólica): secAdd: 2 sección(es) nueva(s) hasta llegar a 3 (tiene 1)
+ - adiccion_3fases (Modelo neurocircuital de la adicción en tres estadios (Koob y Volkow)): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - retraso_fase_adol (Retraso de fase del sueño en la adolescencia): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - cerebelo_psiq (Cerebelo y psicopatología): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - sesgo_atencional (Sesgo atencional hacia la amenaza y la sustancia): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - oxitocina_social (Oxitocina y conducta social: de la «hormona de la confianza» a los ensayos negativos): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - estres_prenat (Estrés materno prenatal y psicopatología en la descendencia): secAdd: 1 sección(es) nueva(s) hasta llegar a 3 (tiene 2)
+ - tdcoord (Trastorno del desarrollo de la coordinación): tx: falta el campo de tratamiento o manejo (añádelo con "set":{"tx":"..."}; sin dosis)
+ - histeriaC (Histeria clásica / Neurosis traumática (Janet-Charcot)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - nmda_psic (Hipótesis NMDA de la esquizofrenia): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - estagio (Estadiaje clínico en psiquiatría (McGorry 2006)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - trauma (Trauma psicológico (transdiagnóstico)): featsAdd: hasta tener al menos 4 rasgos (tiene 0)
+ - valencia1409 (Hospital de Inocentes de Valencia (1409)): featsAdd: hasta tener al menos 4 rasgos (tiene 3)
+ - licantrop (Delirios de transformación y licantropía clínica): refsAdd: hasta tener al menos 3 referencias verificadas (tiene 2)
+
+--- FIN DEL ENCARGO ---
+Nadie más lo ha revisado. Tu trabajo: (1) comprobar CADA referencia con PMID en PubMed (autor, año, revista, volumen, páginas, y que la cifra o idea atribuida figure en el resumen); (2) contrastar cada afirmación clínica, cifra, atribución y criterio diagnóstico con su fuente y con las fichas del atlas (coherencia con lo ya publicado: node tools/q.js show); (3) vigilar errores de seguridad clínica, dosis, lenguaje no neutro o patologizante, atribuciones a guías que la guía no hace, y afirmaciones sin fuente ni marcador; (4) comprobar que los enlaces apuntan al nodo adecuado. No te fíes del autor. Corrige tú directamente: lo contradicho por una fuente se reescribe o se retira; lo no verificable pero razonable se conserva con «[fuente no localizada]»; las referencias erróneas se corrigen o se retiran.
+ENTREGA: escribe el parche corregido completo en /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp5.v.json (debe pasar «node tools/apply.js /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp5.v.json --check» con OK; mismo alcance que el original, no añadas nodos ni secciones nuevas) y /tmp/claude-0/-home-user-Erotanatichemistry/55b67977-a4d7-5f52-ac55-1b76798940df/scratchpad/out/gp5.informe.json con {"pmid_comprobados":n,"pmid_erroneos":n,"cambios":[{"id":"...","gravedad":"critico|mayor|menor","antes":"...","despues":"...","fuente":"..."}],"sin_resolver":["..."]}. Responde únicamente «hecho» y tres líneas de resumen (nº de cambios por gravedad y lo más importante).
