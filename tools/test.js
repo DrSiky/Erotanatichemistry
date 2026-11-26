@@ -29,7 +29,17 @@ const { chromium } = require(process.env.PWP || 'playwright');
   await p.click('.mclose');
 
   await p.click('#bFig'); await p.waitForTimeout(300);
+  await p.fill('#figq', 'litio'); await p.waitForTimeout(200);
+  const nf = (await p.$$('.figcard')).length;
+  ok(nf > 0 && nf < 40, 'la búsqueda de láminas filtra (' + nf + ')');
+  await p.fill('#figq', ''); await p.click('[data-fk=circ]'); await p.waitForTimeout(200);
+  ok((await p.$$('.figcard')).length >= 5 && !(await p.$('.figcard[data-fig^=dd_]')), 'filtro de láminas por tipo');
   await p.click('.figcard[data-fig=circ_monoaminas]'); await p.waitForTimeout(400);
+  const navt = async () => p.$eval('.fignav .pcur', e => e.textContent);
+  const n0 = await navt(); await p.keyboard.press('ArrowRight'); await p.waitForTimeout(300);
+  ok(n0.includes(' de ') && (await navt()) !== n0, 'flechas para pasar de lámina');
+  await p.keyboard.press('ArrowLeft'); await p.waitForTimeout(300);
+  ok((await navt()) === n0, 'vuelta a la lámina anterior');
   const pcur = async () => p.$eval('#figpn .pcur:last-child', e => e.textContent);
   ok(/figura completa/.test(await pcur()), 'figura alta abierta entera por defecto');
   await p.click('[data-fp="0"]');
@@ -38,6 +48,9 @@ const { chromium } = require(process.env.PWP || 'playwright');
   ok(/Panel 2 de/.test(await pcur()), 'navegación entre paneles');
   await p.click('[data-fp=full]');
   ok(/figura completa/.test(await pcur()), 'vuelta a la figura completa');
+  await p.click('[data-fn=gal]'); await p.waitForTimeout(300);
+  ok(!!(await p.$('#figq')), 'botón de vuelta a la galería');
+  await p.click('[data-fk=""]');
   await p.keyboard.press('Escape');
 
   await p.goto(U + '#id=mapa_integr'); await p.waitForTimeout(500);

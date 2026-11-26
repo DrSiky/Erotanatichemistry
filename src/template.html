@@ -238,6 +238,12 @@ body.eink .zoomctl .zrot button{border:2px solid #000}
 .figgal{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;margin:8px 0 14px}
 .figcard{border:1px solid var(--line);border-radius:6px;background:var(--paper);padding:6px;text-align:left;font:inherit;color:inherit;cursor:pointer}
 .figcard:hover{border-color:var(--accent)}
+.figq{width:100%;box-sizing:border-box;font:inherit;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:inherit;margin:6px 0}
+.figchips,.figrec,.fignav{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
+.figchips .sbtn.on{border:2px solid var(--accent);font-weight:700}
+.figcard .figkind{display:block;font-size:.62rem;text-transform:uppercase;letter-spacing:.04em}
+.figcard .figdesc{display:block;margin:3px 0;line-height:1.3}
+.fignav{margin:0 34px 4px 0}.fignav .pcur{font-size:.8rem;color:var(--muted);padding:0 6px}
 .figthumb{height:130px;overflow:hidden;border:1px solid var(--line);background:#fff;margin-bottom:6px;pointer-events:none}
 .figthumb svg{display:block;width:100%;height:auto}
 .figcard b{display:block;font-size:.78rem;line-height:1.25}
@@ -882,8 +888,9 @@ function modal(h,wide){$('#mbox').innerHTML='<button class="mclose" aria-label="
 const FIG=window.ATLAS_FIG||{},FIGM=window.ATLAS_FIGMETA||{};for(const k in FIG)if(FIG[k])FIG[k]=nvSvg(FIG[k]);let figZ=100;
 const FIGK={dd:'Diagnóstico diferencial',circ:'Circuito',mat:'Matriz',mod:'Modelo'};
 function figsOf(id){return Object.keys(FIGM).filter(k=>(FIGM[k].nodes||[]).includes(id)&&FIG[k]);}
-function showFig(k){figZ=100;const m=FIGM[k]||{};const nl=(m.nodes||[]).filter(i=>BY[i]);const cuts=m.cuts||[];FIGP={k:k,cuts:cuts,i:0,full:false};
-  modal('<h2>'+esc(m.t||(BY[k]||{}).n||'Figura')+'</h2><div class="figbar"><button class="sbtn" data-fz="-">−</button><button class="sbtn" data-fz="+">+</button><button class="sbtn" data-fz="0">Ajustar</button><span>Las cajas con ↗ abren la ficha del nodo. Pie, fuentes y nodos relacionados, debajo de la figura. Esquema conceptual de apoyo: no sustituye al juicio clínico.</span></div>'+(cuts.length?'<div class="figpn" id="figpn"></div><div class="figcont" id="figup" hidden></div>':'')+'<div class="figwrap" id="figwrap"><div id="figin" style="width:100%">'+FIG[k]+'</div></div>'
+function figStep(d){if(!FIGP)return;const L=FIGP.list,i=L.indexOf(FIGP.k)+d;if(i>=0&&i<L.length)showFig(L[i],true);}
+function showFig(k,keep){figZ=100;const m=FIGM[k]||{};const L=(keep&&FIGP&&FIGP.list)||((FIGLIST&&FIGLIST.includes(k))?FIGLIST:figAll());const pos=L.indexOf(k);try{const r=(store.get('figrec',[])||[]).filter(x=>x!==k);r.unshift(k);store.set('figrec',r.slice(0,8));}catch(e){}const nl=(m.nodes||[]).filter(i=>BY[i]);const cuts=m.cuts||[];FIGP={k:k,cuts:cuts,i:0,full:false,list:L};
+  modal('<div class="fignav"><button class="sbtn" data-fn="gal">‹ Láminas</button><button class="sbtn" data-fn="-1"'+(pos<=0?' disabled':'')+' aria-label="Lámina anterior">◂ Anterior</button><span class="pcur">'+esc(FIGK[m.kind||'dd'])+' · '+(pos+1)+' de '+L.length+'</span><button class="sbtn" data-fn="1"'+(pos>=L.length-1?' disabled':'')+' aria-label="Lámina siguiente">Siguiente ▸</button></div><h2>'+esc(m.t||(BY[k]||{}).n||'Figura')+'</h2><div class="figbar"><button class="sbtn" data-fz="-">−</button><button class="sbtn" data-fz="+">+</button><button class="sbtn" data-fz="0">Ajustar</button><span>Las cajas con ↗ abren la ficha del nodo. Pie, fuentes y nodos relacionados, debajo de la figura. Esquema conceptual de apoyo: no sustituye al juicio clínico.</span></div>'+(cuts.length?'<div class="figpn" id="figpn"></div><div class="figcont" id="figup" hidden></div>':'')+'<div class="figwrap" id="figwrap"><div id="figin" style="width:100%">'+FIG[k]+'</div></div>'
   +(m.cap?'<p class="figcap">'+escx(m.cap)+'</p>':'')
   +((m.refs||[]).length?'<div class="fl" style="margin-top:6px">Fuentes de la figura</div><ul class="figrefs">'+m.refs.map(r=>'<li>'+linkify(r)+'</li>').join('')+'</ul>':'')
   +(nl.length?'<div class="fl" style="margin-top:8px">Nodos relacionados</div><div class="chips">'+nl.map(i=>'<a class="chip" data-id="'+i+'">'+esc(BY[i].n)+'</a>').join(' ')+'</div>':''),true);$('#mbox').classList.add('full');$('#modal').classList.add('full');$('#mbox').scrollTop=0;if(cuts.length)figPanel(0,store.get('figmode','full')!=='panel');}
@@ -899,10 +906,21 @@ function figPanel(i,full){const P=FIGP;if(!P)return;const svg=document.querySele
   h+='<span class="pcur">'+(P.full?'figura completa':'Panel '+(P.i+1)+' de '+n)+'</span>';
   document.getElementById('figpn').innerHTML=h;}
 $('#bFig').onclick=()=>showGallery();$('#figN').textContent=Object.keys(FIGM).filter(k=>FIG[k]).length;
-function showGallery(){const ks=Object.keys(FIGM).filter(k=>FIG[k]);const kinds=['dd','circ','mat','mod'];let h='<h2>Galería de figuras ('+ks.length+')</h2><p class="rleg">Esquemas vectoriales incrustados. Las cajas con ↗ de cada figura abren la ficha del nodo correspondiente; desde cada ficha se accede a sus figuras.</p>';
-  kinds.forEach(kd=>{const l=ks.filter(k=>(FIGM[k].kind||'dd')===kd);if(!l.length)return;h+='<h3>'+esc(FIGK[kd])+' ('+l.length+')</h3><div class="figgal">'+l.map(k=>'<button class="figcard" data-fig="'+k+'"><div class="figthumb">'+FIG[k]+'</div><b>'+esc(FIGM[k].t||k)+'</b><span>'+(FIGM[k].nodes||[]).length+' nodos enlazados</span></button>').join('')+'</div>';});
-  modal(h,true);}
-document.addEventListener('click',e=>{const f=e.target.closest('[data-fig]');if(f){showFig(f.dataset.fig);return;}const fp=e.target.closest('[data-fp]');if(fp&&FIGP){const v=fp.dataset.fp;if(v==='full')figPanel(null,true);else if(v==='prev')figPanel(FIGP.i-1);else if(v==='next')figPanel(FIGP.i+1);else figPanel(+v);return;}const z=e.target.closest('[data-fz]');if(z){const v=z.dataset.fz;figZ=v==='0'?100:Math.max(50,Math.min(600,figZ+(v==='+'?50:-50)));const el=document.getElementById('figin');if(el)el.style.width=figZ+'%';const w=document.getElementById('figwrap');if(w&&FIGP&&FIGP.cuts.length&&!FIGP.full)w.classList.toggle('pm',figZ===100);}});
+let FIGLIST=null,FIGQ={q:'',kind:''};
+function figAll(){const kinds=['dd','circ','mat','mod'];return Object.keys(FIGM).filter(k=>FIG[k]).sort((a,b)=>kinds.indexOf(FIGM[a].kind||'dd')-kinds.indexOf(FIGM[b].kind||'dd')||(FIGM[a].t||a).localeCompare(FIGM[b].t||b,'es'));}
+function figText(k){const m=FIGM[k];if(!m._tx)m._tx=norm((m.t||'')+' '+(m.cap||'')+' '+(m.nodes||[]).map(i=>BY[i]?BY[i].n:'').join(' '));return m._tx;}
+function figFilter(){const qs=norm(FIGQ.q).split(/\s+/).filter(Boolean);return figAll().filter(k=>(!FIGQ.kind||(FIGM[k].kind||'dd')===FIGQ.kind)&&qs.every(w=>figText(k).includes(w)));}
+function figCard(k){const m=FIGM[k];const cap=(m.cap||'').split(/(?<=\.)\s/)[0]||'';return '<button class="figcard" data-fig="'+k+'"><div class="figthumb">'+FIG[k]+'</div><span class="figkind">'+esc(FIGK[m.kind||'dd'])+'</span><b>'+esc(m.t||k)+'</b><span class="figdesc">'+escx(cap.length>170?cap.slice(0,167)+'…':cap)+'</span><span>'+(m.nodes||[]).length+' nodos enlazados</span></button>';}
+function figGalBody(){const l=figFilter();FIGLIST=l;const kinds=['dd','circ','mat','mod'];const all=figAll();const cnt=kd=>all.filter(k=>(FIGM[k].kind||'dd')===kd).length;
+  let h='<div class="figchips"><button class="sbtn'+(!FIGQ.kind?' on':'')+'" data-fk="">Todas ('+all.length+')</button>'+kinds.filter(cnt).map(kd=>'<button class="sbtn'+(FIGQ.kind===kd?' on':'')+'" data-fk="'+kd+'">'+esc(FIGK[kd])+' ('+cnt(kd)+')</button>').join('')+'<span class="pcur">'+(l.length===all.length?'':l.length+' de '+all.length+' láminas')+'</span></div>';
+  const rec=(store.get('figrec',[])||[]).filter(k=>FIG[k]&&FIGM[k]).slice(0,6);
+  if(!FIGQ.q&&!FIGQ.kind&&rec.length)h+='<h3>Vistas recientemente</h3><div class="figrec">'+rec.map(k=>'<button class="sbtn" data-fig="'+k+'">'+esc(FIGM[k].t||k)+'</button>').join('')+'</div>';
+  if(!l.length)return h+'<p class="rleg">Ninguna lámina coincide con la búsqueda.</p>';
+  if(FIGQ.q||FIGQ.kind)return h+'<div class="figgal">'+l.map(figCard).join('')+'</div>';
+  kinds.forEach(kd=>{const g=l.filter(k=>(FIGM[k].kind||'dd')===kd);if(g.length)h+='<h3>'+esc(FIGK[kd])+' ('+g.length+')</h3><div class="figgal">'+g.map(figCard).join('')+'</div>';});return h;}
+function showGallery(){modal('<h2>Láminas ('+figAll().length+')</h2><p class="rleg">Busque por título, contenido o nombre de una ficha enlazada, o filtre por tipo. Dentro de una lámina, las flechas ← → pasan a la anterior o la siguiente de la lista. Las cajas con ↗ abren la ficha del nodo.</p><input id="figq" class="figq" type="search" placeholder="Buscar lámina: litio, catatonía, Leonhard…" value="'+esc(FIGQ.q)+'" aria-label="Buscar lámina"><div id="figgalbody">'+figGalBody()+'</div>',true);
+  const q=$('#figq');q.oninput=()=>{FIGQ.q=q.value;$('#figgalbody').innerHTML=figGalBody();};}
+document.addEventListener('click',e=>{const fk=e.target.closest('[data-fk]');if(fk){FIGQ.kind=fk.dataset.fk;$('#figgalbody').innerHTML=figGalBody();return;}const fn=e.target.closest('[data-fn]');if(fn){if(fn.dataset.fn==='gal')showGallery();else figStep(+fn.dataset.fn);return;}const f=e.target.closest('[data-fig]');if(f){showFig(f.dataset.fig);return;}const fp=e.target.closest('[data-fp]');if(fp&&FIGP){const v=fp.dataset.fp;if(v==='full')figPanel(null,true);else if(v==='prev')figPanel(FIGP.i-1);else if(v==='next')figPanel(FIGP.i+1);else figPanel(+v);return;}const z=e.target.closest('[data-fz]');if(z){const v=z.dataset.fz;figZ=v==='0'?100:Math.max(50,Math.min(600,figZ+(v==='+'?50:-50)));const el=document.getElementById('figin');if(el)el.style.width=figZ+'%';const w=document.getElementById('figwrap');if(w&&FIGP&&FIGP.cuts.length&&!FIGP.full)w.classList.toggle('pm',figZ===100);}});
 $('#modal').addEventListener('click',e=>{if(e.target.id==='modal'||e.target.closest('.mclose'))$('#modal').classList.remove('on');const r=e.target.closest('[data-id]');if(r){$('#modal').classList.remove('on');select(r.dataset.id);}const o=e.target.closest('[data-wk]');if(o)wklStep(o.dataset.wk);});
 $('#bLeg').onclick=()=>{let h='<h2>Leyenda</h2><h3>Forma = tipo de nodo</h3><div class="lgrid">';
   Object.entries(CFG.KINDS).forEach(([k,o])=>{h+='<div><svg width="18" height="18" viewBox="-9 -9 18 18"><path d="'+shapePath(o.sh,4.5)+'" fill="var(--ink)"/></svg>'+esc(o.t)+'</div>';});
@@ -934,6 +952,7 @@ document.addEventListener('keydown',e=>{const tag=(e.target.tagName||'').toLower
   if(e.key==='/'){e.preventDefault();$('#q').focus();return;}
   if(e.altKey&&e.key==='ArrowLeft'){$('#bBack').click();return;}if(e.altKey&&e.key==='ArrowRight'){$('#bFwd').click();return;}
   if(e.key==='Escape'){$('#modal').classList.remove('on');return;}
+  if(!e.altKey&&!e.ctrlKey&&!e.metaKey&&(e.key==='ArrowLeft'||e.key==='ArrowRight')&&$('#modal').classList.contains('on')&&document.getElementById('figwrap')){e.preventDefault();figStep(e.key==='ArrowLeft'?-1:1);return;}
   const n=parseInt(e.key,10);if(n>=1&&n<=6&&!e.ctrlKey&&!e.metaKey){showView(VORDER[n-1]);return;}
   if(e.key==='+'||e.key==='=')$('#zIn').click();else if(e.key==='-')$('#zOut').click();else if(e.key==='0')$('#zRst').click();
   else if((e.key==='j'||e.key==='k')&&st.sel){const s=siblings(BY[st.sel]);const m=e.key==='j'?s.n:s.p;if(m)select(m.id);}});
