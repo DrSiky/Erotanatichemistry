@@ -20,3 +20,11 @@ En esta carpeta: los encargos de redacción (r_*.txt) y de verificación (v_*.tx
    `node tools/fig.js <clave>`, copiar el informe a verificacion/fig_<clave>.informe.json,
    `node build.js`, `PWP=/opt/node-tools/node_modules/playwright node tools/test.js`, commit y push.
 3. Actualizar la descripción del PR #3 (65 láminas) y regenerar la copia privada.
+
+## Actualización: los cuatro verificadores se interrumpieron por el límite de uso
+Ninguno dejó informe. Tres habían empezado a corregir y sus cambios PARCIALES están en el fichero de trabajo:
+- mat_eutimizantes.js: parcial (copia previa: pendiente/mat_eutimizantes.vorig.js); había localizado las tablas de CANMAT por el servicio de ficheros suplementarios de Europe PMC.
+- dd_neurodesarrollo.js: parcial (copia previa: pendiente/dd_neurodesarrollo.vorig.js).
+- mod_pensamiento_lenguaje.js: parcial (sin copia previa aparte; la versión del redactor está en el commit 43cf… «Borrador de la lámina mod_pensamiento_lenguaje»; ver `git log -- trabajo/figuras/mod_pensamiento_lenguaje.js`).
+- mat_neuromodulacion.js: sin cambios del verificador.
+Las cuatro deben verificarse DE NUEVO y por completo antes de integrarse: una corrección a medias no es una verificación.

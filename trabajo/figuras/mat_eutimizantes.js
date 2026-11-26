@@ -1,5 +1,5 @@
 // Matriz: estabilizadores del ánimo clásicos (litio, valproato, lamotrigina, carbamazepina, oxcarbazepina) por fase del trastorno bipolar y por perfil de seguridad.
-// Rangos tomados del texto completo de CANMAT/ISBD 2018 (PMC5947163: apartados 3.3, 4.4, 5.5, 6.2 y 8.3; tablas 13, 15, 18, 19, 20 y 24) y de NICE CG185 (versión de 2 de septiembre de 2025);
+// Rangos tomados del texto completo de CANMAT/ISBD 2018 (PMC5947163: apartados 2.3, 3.3, 4.4, 4.5, 5.5, 6.2 y 8.3; tablas 12 a 15, 17 a 20 y 24; las tablas 12, 14 y 17, publicadas como imagen, cotejadas en la imagen) y de NICE CG185 (versión de 2 de septiembre de 2025);
 // seguridad e interacciones tomadas de las fichas técnicas AEMPS-CIMA de Plenur, Depakine Crono, Lamictal, Tegretol y Trileptal, leídas en noviembre de 2026. Sin dosis.
 const TITLE = 'Estabilizadores del ánimo clásicos: eficacia por fase del trastorno bipolar y perfil de seguridad';
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
     kind: 'mat',
     cap: 'Matriz de cinco estabilizadores del ánimo clásicos (litio, valproato, lamotrigina, carbamazepina y oxcarbazepina, en columnas) con una sexta columna de referencia que remite a las láminas de antipsicóticos y a las fichas del atlas. La banda 1 recoge la eficacia por fase: manía aguda en monoterapia y en combinación, depresión bipolar I y II, mantenimiento, polaridad predominante, ciclación rápida, rasgos mixtos y conducta suicida; la banda 2, la seguridad: riñón, tiroides y paratiroides, peso, efectos neurológicos, hígado, sangre, sodio, piel y alelos HLA, corazón, teratogenia y anticoncepción, interacciones, sobredosis y contraindicaciones literales de ficha. Cada celda lleva símbolo y texto: ● primera línea, ◆ segunda, △ tercera, ○ evidencia negativa o insuficiente, ✕ no recomendado y — sin datos o sin recomendación; «C18» es CANMAT/ISBD 2018 con su nivel de evidencia, «rec.» el número de recomendación de NICE CG185 y el nombre comercial con su apartado, la ficha técnica española. Donde guía y ficha difieren se muestran ambas; para el litio prevalece la ficha de Plenur y para el valproato la contraindicación reproductiva de Depakine Crono 4.3. No repite la lámina de antipsicóticos por indicación, la de monitorización ni la de embarazo y lactancia. Sin dosis; no sustituye a la ficha técnica vigente ni al juicio clínico.',
     refs: [
-      'Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616 (texto completo PMC5947163: apartados 2.3, 3.3, 4.4, 5.5, 6.2 y 8.3 y tablas 13, 15, 18, 19, 20 y 24; las tablas 12, 14 y 17 son imágenes y sus rangos se toman del texto de los apartados)',
+      'Yatham LN et al. (2018). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 20:97-170 · PMID 29536616 (texto completo PMC5947163: apartados 2.3, 3.3, 4.4, 4.5, 5.5, 6.2 y 8.3 y tablas 12 a 15, 17 a 20 y 24; las tablas jerárquicas 12, 14 y 17 se publican como imagen y se han cotejado en ella)',
       'NICE (2014, última actualización de 2 de septiembre de 2025). Bipolar disorder: assessment and management. Clinical guideline CG185, recomendaciones 1.1.3, 1.5.3 a 1.5.12, 1.6.3 a 1.6.10, 1.7.5 a 1.7.10, 1.10.4, 1.10.18, 1.10.24, 1.10.31 y 1.10.36 a 1.10.37',
       'AEMPS-CIMA (2024). Ficha técnica de Plenur 400 mg comprimidos de liberación modificada (carbonato de litio) (n.º de registro 48932), apartados 4.1, 4.3, 4.4, 4.5, 4.6, 4.8 y 4.9; revisión del texto de julio de 2024',
       'AEMPS-CIMA (2026). Ficha técnica de Depakine Crono 500 mg comprimidos de liberación prolongada (valproato) (n.º de registro 60350), apartados 4.1, 4.3, 4.4, 4.5, 4.6, 4.8 y 4.9; revisión del texto de septiembre de 2026',
@@ -26,7 +26,7 @@ module.exports = {
       'Vasudev A et al. (2011). Oxcarbazepine for acute affective episodes in bipolar disorder. Cochrane Database Syst Rev 2011:CD004857 · PMID 22161387',
       'Vasudev A et al. (2008). Oxcarbazepine in the maintenance treatment of bipolar disorder. Cochrane Database Syst Rev 2008:CD005171 · PMID 18254071'
     ],
-    nodes: ['tb_mayor', 'schou_hit', 'litio_hit', 'ep_hipom', 'topiramato', 'gabapentina', 'tec_dep', 'psicof_lactancia']
+    nodes: ['schou_hit', 'litio_hit', 'ep_hipom', 'topiramato', 'gabapentina', 'psicof_lactancia']
   },
   draw(Fig) {
     const W = 2400, X = 60, FS = 16;
@@ -46,8 +46,8 @@ module.exports = {
         { t: 'Ninguna: la ficha solo recoge crisis epilépticas parciales (Trileptal 4.1). Todo uso en el trastorno bipolar queda fuera de ficha.', node: 'oxcarbazepina' },
         { t: 'Varía por fármaco: ver la lámina «Antipsicóticos por indicación».', node: 'ap_atipicos' }],
       [{ t: 'Manía aguda: monoterapia', node: 'ep_mania' },
-        { sym: '●', t: '1.ª línea (C18, nivel 1); el primero a considerar salvo rasgos mixtos, consumo de sustancias o falta de respuesta previa al litio (C18, 3.3.2). NICE lo añade si el antipsicótico no basta (rec. 1.5.5).' },
-        { sym: '●', t: '1.ª línea (C18, nivel 1). NICE lo añade si el litio es ineficaz o no es adecuado, con las medidas de seguridad reproductiva (rec. 1.5.6). La ficha lo limita a quien no puede tomar litio (Depakine Crono 4.1).' },
+        { sym: '●', t: '1.ª línea (C18, nivel 1); el primero a considerar salvo rasgos mixtos, consumo de sustancias o falta de respuesta previa al litio (C18, 3.3.2). NICE propone considerarlo si un segundo antipsicótico no basta (rec. 1.5.5).' },
+        { sym: '●', t: '1.ª línea (C18, nivel 1). NICE propone considerarlo si añadir litio no funciona o el litio no es adecuado, con las medidas de seguridad reproductiva (rec. 1.5.6). La ficha lo limita a quien no puede tomar litio (Depakine Crono 4.1).' },
         { sym: '✕', t: 'No recomendada (C18, nivel 1 negativo). NICE: no ofrecer lamotrigina para tratar la manía (rec. 1.5.12).' },
         { sym: '◆', t: '2.ª línea (C18, nivel 1): eficacia demostrada, pero rebajada por seguridad y tolerabilidad (C18, 3.3.2). NICE CG185 no la nombra en la manía.' },
         { sym: '○', t: 'Sin rango en monoterapia en C18. Revisión Cochrane: ensayos escasos y de baja calidad; sin diferencia frente a placebo en el único ensayo, pediátrico (Vasudev 2011).' },
@@ -62,10 +62,10 @@ module.exports = {
       [{ t: 'Depresión bipolar I aguda', node: 'dep_bip_tx' },
         { sym: '●', t: '1.ª línea en monoterapia (C18, nivel 2). NICE: si ya se toma litio, comprobar la litemia y optimizarla antes de añadir otro fármaco (rec. 1.6.4).' },
         { sym: '◆', t: '2.ª línea en monoterapia (C18, nivel 2). NICE: si ya se toma valproato, revisar adherencia y ajustar antes de añadir quetiapina u olanzapina con fluoxetina (rec. 1.6.5-1.6.6).' },
-        '● 1.ª línea sola (C18, nivel 2) y añadida (nivel 2); respuesta más lenta por el escalado obligado (C18, 4.4.3). ✕ Con ácido fólico: no recomendada (nivel 2 negativo). NICE: «considerar» lamotrigina sola por preferencia o falta de respuesta (rec. 1.6.3). La ficha excluye el uso agudo (Lamictal 4.1).',
+        '● 1.ª línea sola (C18, nivel 2) y añadida (nivel 2); por su escalado lento, la falta de mejoría a las 2 semanas no predice la respuesta como con otros fármacos (C18, 4.4.3). ✕ Con ácido fólico: no recomendada (nivel 2 negativo). NICE: «considerar» lamotrigina sola por preferencia o falta de respuesta (rec. 1.6.3). La ficha excluye el uso agudo (Lamictal 4.1).',
         { sym: '△', t: '3.ª línea en monoterapia (C18, nivel 2; tabla 15).' },
         { sym: '—', t: 'Sin datos ni recomendación en C18 ni en NICE CG185.' },
-        'Quetiapina y lurasidona encabezan C18: ver lámina propia.'],
+        'Ver lámina «Antipsicóticos por indicación».'],
       [{ t: 'Depresión bipolar II aguda', node: 'tb2' },
         { sym: '◆', t: '2.ª línea (C18, nivel 2; tabla 19).' },
         { sym: '△', t: '3.ª línea (C18, nivel 4).' },
@@ -74,10 +74,10 @@ module.exports = {
         { sym: '—', t: 'No figura en la tabla 19 de C18.' },
         'Quetiapina: única 1.ª línea (C18, nivel 1).'],
       [{ t: 'Mantenimiento: trastorno bipolar I', node: 'tb1' },
-        { sym: '●', t: '1.ª línea (C18, nivel 1) y patrón de referencia del mantenimiento (C18, 5.5.8). NICE: ofrecer litio como primera opción a largo plazo; es «el tratamiento a largo plazo más eficaz» (rec. 1.7.5 y 1.7.7).' },
-        { sym: '●', t: '1.ª línea (C18, nivel 1). NICE lo reserva para el final: tras litio y dos antipsicóticos, y solo combinado con un antipsicótico o con litio (rec. 1.7.8-1.7.10).' },
-        { sym: '●', t: '1.ª línea (C18, nivel 1). Eficacia limitada frente a la manía: no en monoterapia si las manías son frecuentes (C18, 5.5.8). NICE CG185 no la incluye en la secuencia de mantenimiento (rec. 1.7.5-1.7.10).' },
-        { sym: '◆', t: '2.ª línea (C18, nivel 2): sin grandes ensayos frente a placebo; la avalan ensayos con comparador activo (C18, 5.5.4).' },
+        { sym: '●', t: '1.ª línea (C18, tabla 17: nivel 1 frente a cualquier episodio, frente a la manía y frente a la depresión) y patrón de referencia del mantenimiento (C18, 5.5.8). NICE: ofrecer litio como primera opción a largo plazo; es «el tratamiento a largo plazo más eficaz» (rec. 1.7.5 y 1.7.7).' },
+        { sym: '●', t: '1.ª línea (C18, tabla 17: nivel 1 frente a cualquier episodio, nivel 2 frente a la depresión y nivel 3 frente a la manía). NICE lo reserva para el final: tras litio y dos antipsicóticos, y solo combinado con un antipsicótico o con litio (rec. 1.7.8-1.7.10).' },
+        { sym: '●', t: '1.ª línea (C18, tabla 17: nivel 1 frente a cualquier episodio y frente a la depresión, nivel 2 frente a la manía). Eficacia limitada frente a la manía: no en monoterapia si las manías son frecuentes (C18, 5.5.8). NICE CG185 no la incluye en la secuencia de mantenimiento (rec. 1.7.5-1.7.10).' },
+        { sym: '◆', t: '2.ª línea (C18, tabla 17: nivel 2 frente a cualquier episodio, frente a la manía y frente a la depresión): sin grandes ensayos frente a placebo; la avalan ensayos con comparador activo (C18, 5.5.4).' },
         { sym: '○', t: 'Sin recomendación: como adyuvante «requiere más evaluación» (C18, nivel 4; 5.5.6). Revisión Cochrane: dos ensayos, datos insuficientes (Vasudev 2008).' },
         'NICE: un antipsicótico si el litio no sirve (rec. 1.7.8). Ver lámina propia.'],
       ['Mantenimiento: trastorno bipolar II',
@@ -95,9 +95,9 @@ module.exports = {
         'Índice de polaridad «no fiable» por el fracaso de sus ensayos de mantenimiento (Popovic 2012).',
         'Índices: risperidona 12,09; aripiprazol 4,38; olanzapina 2,98; quetiapina 1,14 (Popovic 2012).'],
       [{ t: 'Ciclación rápida (NICE, rec. 1.1.3: mismas intervenciones que en el resto)', node: 'crapid' },
-        'Sin rango propio: ningún fármaco de 1.ª línea es superior en la manía con ciclación rápida; en mantenimiento, eficacia comparable a valproato, olanzapina y quetiapina (C18, 3.3.8 y 4.4).',
-        'Sin rango propio: eficacia de mantenimiento comparable al litio (C18, 4.4). A menudo hace falta combinar estabilizadores (C18, 5.5.8).',
-        { sym: '○', t: 'No se separó de placebo en el mantenimiento del trastorno bipolar I con ciclación rápida (C18, 4.4). Ensayo original: variable principal no significativa; 41 % frente a 26 % estables a los 6 meses, p = 0,03 (Calabrese 2000).' },
+        'Sin rango propio: ningún fármaco de 1.ª línea es superior en la manía con ciclación rápida; en mantenimiento, eficacia comparable a valproato, olanzapina y quetiapina (C18, 3.3.8 y 4.5).',
+        'Sin rango propio: eficacia de mantenimiento comparable al litio (C18, 4.5). A menudo hace falta combinar estabilizadores (C18, 5.5.8).',
+        { sym: '○', t: 'No se separó de placebo en el mantenimiento del trastorno bipolar I con ciclación rápida (C18, 4.5). Ensayo original: variable principal no significativa; 41 % frente a 26 % estables a los 6 meses, p = 0,03 (Calabrese 2000).' },
         { sym: '—', t: 'Sin datos específicos en C18.' },
         { sym: '—', t: 'Sin datos específicos en C18.' },
         'Antes de elegir: función tiroidea y retirada de antidepresivos y estimulantes (C18, 3.3.8).'],
@@ -127,7 +127,7 @@ module.exports = {
         'Seguridad: ++ en fase aguda, − en mantenimiento. Tolerabilidad: − y −.',
         'Seguridad: ++ en fase aguda y ++ en mantenimiento, con cautela en quien pueda gestar. Tolerabilidad: + y ++.',
         'Seguridad: + y +. Tolerabilidad: + y +.',
-        'Ver lámina «Antipsicóticos: efectos adversos».'],
+        'Ver lámina «Antipsicóticos: matriz comparada de efectos adversos».'],
       [{ t: 'Riñón', node: 'litio_renal_tiroid' },
         'Poliuria hasta en el 70 % y diabetes insípida nefrogénica en el 20-40 %; enfermedad renal crónica con el uso prolongado (C18, 8.3.3). Capacidad de concentración urinaria −15 %; filtrado −6,2 mL/min, no significativo; 0,5 % llegó a tratamiento renal sustitutivo (McKnight 2012).',
         { sym: '—', t: 'Sin toxicidad renal destacada en C18. La ficha recoge síndrome de Fanconi ligado a hipocarnitinemia (Depakine Crono 4.4).' },
@@ -147,7 +147,7 @@ module.exports = {
         'Aumento de peso frecuente, que la ficha trata como factor de riesgo de ovario poliquístico; amenorrea, ovario poliquístico y aumento de testosterona descritos (Depakine Crono 4.6 y 4.8). Un metaanálisis no confirmó más ovario poliquístico (C18, 8.3.6).',
         'Entre las opciones con menor aumento de peso (C18, 8.3.1).',
         'Entre las opciones con menor aumento de peso (C18, 8.3.1); la ficha recoge edema, retención de líquidos y aumento de peso como frecuentes (Tegretol 4.8).',
-        'Aumento de peso recogido en la tabla de reacciones adversas (Trileptal 4.8).',
+        'Aumento de peso frecuente (Trileptal 4.8).',
         'Olanzapina, clozapina, quetiapina y risperidona: mayor aumento (C18, 8.3.1).'],
       ['Sistema nervioso: temblor, sedación y cognición',
         'Temblor hasta en el 10 % (C18, 8.3.9). Neurotoxicidad posible con litemias terapéuticas: parestesias, ataxia, temblor y deterioro cognitivo, que NICE pide vigilar en cada visita (rec. 1.10.24).',
@@ -162,7 +162,7 @@ module.exports = {
         'Afectación hepática como parte del síndrome de hipersensibilidad o DRESS (Lamictal 4.4).',
         'Hepatitis colestásica, hepatocelular o mixta: rara; fallo hepático: muy raro. Función hepática al inicio y periódicamente (Tegretol 4.4 y 4.8).',
         'Hepatitis muy rara, casi siempre de curso favorable (Trileptal 4.4).',
-        'Controles: lámina «Monitorización de seguridad».'],
+        'Controles: lámina «Monitorización de seguridad de los psicofármacos».'],
       ['Sangre',
         'Leucocitosis reversible (Plenur 4.8).',
         'Trombocitopenia y anemia frecuentes (Depakine Crono 4.8).',
@@ -197,16 +197,16 @@ module.exports = {
         'Más de 8700 embarazos expuestos en el primer trimestre sin aumento sustancial de malformaciones graves. Los anticonceptivos con etinilestradiol duplican aproximadamente su aclaramiento (Lamictal 4.4 y 4.6).',
         'Malformaciones mayores 2-3 veces más frecuentes que en la población general (2-3 %), entre ellas espina bífida. Puede anular los anticonceptivos hormonales: anticoncepción eficaz durante el tratamiento y 2 semanas después (Tegretol 4.4 y 4.6).',
         'Datos limitados (300-1000 embarazos): sin aumento de la tasa total, pero no se descarta un riesgo moderado. Reduce la exposición a etinilestradiol en torno a la mitad y la de levonorgestrel entre un tercio y la mitad (Trileptal 4.5 y 4.6).',
-        'Detalle: lámina «Embarazo y lactancia».'],
+        'Detalle: lámina «Psicofármacos en el embarazo y la lactancia».'],
       ['Interacciones clave',
-        { t: 'Elevan la litemia: antiinflamatorios no esteroideos, fármacos del sistema renina-angiotensina (IECA y ARA-II) y tiazidas; si hace falta un diurético, mejor de asa (Plenur 4.5). NICE: evitar los antiinflamatorios sin receta (rec. 1.10.18). La reducen empagliflozina y dapagliflozina. Con antipsicóticos y con serotoninérgicos: vigilar neurotoxicidad y síndrome serotoninérgico (Plenur 4.4 y 4.5).', node: 'sind_ser' },
+        { t: 'Elevan la litemia: antiinflamatorios no esteroideos, fármacos del sistema renina-angiotensina (el epígrafe nombra IECA y ARA-II; el texto solo desarrolla los IECA) y tiazidas; si hace falta un diurético, mejor de asa. La reducen empagliflozina y dapagliflozina (Plenur 4.5). NICE: evitar los antiinflamatorios sin receta (rec. 1.10.18). Con antipsicóticos y con serotoninérgicos: vigilar neurotoxicidad y síndrome serotoninérgico (Plenur 4.4 y 4.5).', node: 'sind_ser' },
         'Casi duplica la semivida de la lamotrigina, con riesgo de exantema grave. Los carbapenémicos reducen sus niveles un 60-100 % en unos dos días: evitar. Carbamazepina, fenitoína y fenobarbital los reducen. Con topiramato: encefalopatía o hiperamonemia (Depakine Crono 4.5).',
         'El valproato inhibe su glucuronidación y los inductores la aceleran: la pauta de la ficha cambia según el fármaco asociado. Los estrógenos reducen sus niveles (Lamictal 4.4 y 4.5). NICE: tener presente la interacción con valproato (rec. 1.10.36).',
         { t: 'Potente inductor de CYP3A4: reduce los niveles de antipsicóticos (clozapina, haloperidol, olanzapina, quetiapina, risperidona, aripiprazol, paliperidona), lamotrigina, valproato, varios antidepresivos, anticoagulantes orales y anticonceptivos hormonales. Contraindicada con IMAO (Tegretol 4.3 y 4.5). Con litio: efectos adversos neurológicos (Plenur 4.5).', node: 'fenot_metab' },
         'Inductor débil de CYP3A4 y CYP3A5 e inhibidor de CYP2C19: menos interacciones que la carbamazepina, pero también reduce la eficacia de los anticonceptivos hormonales (Trileptal 4.4 y 4.5).',
         { t: 'Otro inductor: fenitoína.', node: 'fenitoina' }],
       [{ t: 'Sobredosis', node: 'intox_litio' },
-        'Margen terapéutico estrecho. Litemia de 1,5-2,5 mEq/L: intoxicación leve a moderada; 2,5-3,5: grave; más de 3,5: potencialmente letal. Sin antídoto; el carbón activo no lo adsorbe; no usar diuréticos; hemodiálisis de elección en la moderada o grave (Plenur 4.9).',
+        'Margen terapéutico estrecho. Litemia de 1,5-2,5 mEq/L: intoxicación leve a moderada; 2,5-3,5: grave; más de 3,5: potencialmente letal. Sin antídoto; el carbón activo no lo adsorbe; no usar diuréticos; hemodiálisis de elección en la moderada o grave (Plenur 4.4 y 4.9).',
         'Confusión, sedación o coma con hipotonía; desenlace en general favorable, con fallecimientos tras sobredosis masivas. Hemodiálisis y hemoperfusión usadas con éxito; carnitina intravenosa si hay hiperamonemia (Depakine Crono 4.9).',
         'Nistagmo, ataxia, alteración de la conciencia, convulsiones y coma; ensanchamiento del QRS; casos mortales descritos (Lamictal 4.9).',
         'Afecta al sistema nervioso central, al corazón y a la respiración; carbón activado en dosis repetidas; posible recaída al segundo o tercer día por absorción retardada (Tegretol 4.9). En 34 muertes por autointoxicación, dosis letal de carbamazepina en el 21 % y de litio en el 3 % (C18, 2.3).',
@@ -214,7 +214,7 @@ module.exports = {
         'NICE: limitar la cantidad dispensada si el riesgo es alto (rec. 1.6.10).'],
       ['Contraindicaciones literales de la ficha (apdo. 4.3), además de la hipersensibilidad',
         'Embarazo y lactancia; insuficiencia renal grave; enfermedad cardiovascular grave; enfermedad cardiaca asociada con arritmia; debilitación, deshidratación o depleción de sodio severas, dietas bajas en sodio o enfermedad de Addison; síndrome de Brugada o antecedentes familiares; hipotiroidismo no tratado o intratable (Plenur 4.3).',
-        'Trastorno bipolar: embarazo, y «mujeres en edad fértil» salvo Plan de Prevención de Embarazos. Hepatitis aguda o crónica; antecedentes personales o familiares de hepatitis grave; porfiria hepática; hepatopatía o disfunción grave de hígado o páncreas; trastornos del ciclo de la urea; déficit de carnitina sin corregir; trastornos mitocondriales por mutación de POLG (Depakine Crono 4.3).',
+        'Trastorno bipolar: embarazo, y «mujeres en edad fértil» salvo Plan de Prevención de Embarazos. Hepatitis aguda o crónica; antecedentes personales o familiares de hepatitis grave; porfiria hepática; hepatopatía o disfunción grave de hígado o páncreas; trastornos del metabolismo de aminoácidos ramificados; trastornos del ciclo de la urea; déficit primario de carnitina sin corregir; trastornos mitocondriales por mutación de POLG (Depakine Crono 4.3).',
         'Solo la hipersensibilidad al principio activo o a los excipientes (Lamictal 4.3).',
         'Hipersensibilidad a la carbamazepina o a fármacos de estructura relacionada, como los antidepresivos tricíclicos; bloqueo auriculoventricular; antecedentes de depresión de la médula ósea; antecedentes de porfirias hepáticas; combinación con IMAO (Tegretol 4.3).',
         'Hipersensibilidad a la oxcarbazepina, a la eslicarbazepina o a los excipientes (Trileptal 4.3).',
@@ -227,7 +227,7 @@ module.exports = {
     const gap = 30, bw = (W - 2 * X - 3 * gap) / 4;
     const bs = [
       { id: 'vpa_ppe', type: 'warn', node: 'valproato_fertil', title: 'Valproato: la restricción reproductiva manda sobre el rango',
-        text: 'Aunque C18 lo sitúa en 1.ª línea en la manía y el mantenimiento, en el trastorno bipolar está contraindicado en el embarazo y, en quien pueda gestar, salvo que se cumplan las condiciones del Plan de Prevención de Embarazos (Depakine Crono 4.3; la ficha dice «mujeres en edad fértil»). C18 pide cautela con valproato y carbamazepina en esa población (tabla 24).\nVarones: la ficha informa de un posible riesgo de trastornos del neurodesarrollo en la descendencia, con evidencia inconsistente (Depakine Crono 4.4 y 4.6).\nCondiciones y controles: lámina «Monitorización de seguridad» y ficha del atlas.' },
+        text: 'Aunque C18 lo sitúa en 1.ª línea en la manía y el mantenimiento, en el trastorno bipolar está contraindicado en el embarazo y, en quien pueda gestar, salvo que se cumplan las condiciones del Plan de Prevención de Embarazos (Depakine Crono 4.3; la ficha dice «mujeres en edad fértil»). C18 pide cautela con valproato y carbamazepina en esa población (tabla 24).\nVarones: la ficha informa de un posible riesgo de trastornos del neurodesarrollo en la descendencia, con evidencia inconsistente (Depakine Crono 4.4 y 4.6).\nCondiciones y controles: lámina «Monitorización de seguridad de los psicofármacos» y ficha del atlas.' },
       { id: 'li_ficha', type: 'warn', node: 'lm_bip', title: 'Litio: prevalece la ficha técnica de Plenur',
         text: 'Las contraindicaciones de la ficha (embarazo y lactancia, insuficiencia renal grave, cardiopatía grave o con arritmia, depleción de sodio, síndrome de Brugada, hipotiroidismo no tratado) se aplican aunque las guías lo coloquen en 1.ª línea en todas las fases.\nLa ficha no recomienda asociar antipsicóticos y pide vigilar las reacciones neurológicas si se asocian (Plenur 4.4), mientras C18 y NICE recomiendan esa combinación en la manía: se muestran ambas.\nEl efecto sobre el suicidio descansa en muy pocos eventos y no se ha confirmado en los análisis posteriores a 2013: no justifica por sí solo la elección.' },
       { id: 'difieren', type: 'info', title: 'Donde guía y ficha difieren (sin resolverlo)',
@@ -240,7 +240,7 @@ module.exports = {
     bs.forEach((o, i) => F.box(o.id, { x: X + i * (bw + gap), y, w: bw, fs: 17, align: 'left', type: o.type, node: o.node, minH: mh, title: o.title, text: o.text }));
     y += mh + 36;
     F.box('lim', { x: X, y, w: W - 2 * X, type: 'lim', align: 'left', fs: 18, title: 'Límites de la figura',
-      text: 'Esquema docente: resume fuentes consultadas en noviembre de 2026 y no sustituye a la ficha técnica vigente, a los protocolos locales ni al juicio clínico; no es una pauta individual y no recoge dosis ni litemias objetivo. Los rangos de CANMAT/ISBD son de 2018, proceden de un contexto canadiense e integran eficacia, seguridad y tolerabilidad; sus tablas jerárquicas 12, 14 y 17 son imágenes en el texto abierto, por lo que los rangos se leen del texto de los apartados y no se da el nivel de evidencia separado por polo en el mantenimiento. NICE CG185 es una guía británica que incorpora medidas reguladoras del Reino Unido sobre el valproato, distintas de las españolas. Cada ficha corresponde a una presentación concreta; otras presentaciones pueden diferir. Las frecuencias de efectos adversos de las fichas de antiepilépticos proceden en buena parte de poblaciones con epilepsia. «—» significa que las fuentes consultadas no destacan el dato, no que el efecto no exista. El índice de polaridad es una razón entre números necesarios a tratar derivada de pocos ensayos. El rango de una celda no es una recomendación para una persona concreta: la elección depende de la respuesta previa, las preferencias, la comorbilidad y los planes reproductivos.' });
+      text: 'Esquema docente: resume fuentes consultadas en noviembre de 2026 y no sustituye a la ficha técnica vigente, a los protocolos locales ni al juicio clínico; no es una pauta individual y no recoge dosis ni litemias objetivo. Los rangos de CANMAT/ISBD son de 2018, proceden de un contexto canadiense e integran eficacia, seguridad y tolerabilidad; sus tablas jerárquicas 12, 14 y 17 se publican como imagen, con el nivel codificado en símbolos, y se han cotejado en ella; donde tabla y texto discrepan (lamotrigina y carbamazepina en la depresión aguda: nivel 1 y 3 en la tabla 17, nivel 2 en el texto y en las tablas 14 y 15) se recoge el nivel del texto. NICE CG185 es una guía británica que incorpora medidas reguladoras del Reino Unido sobre el valproato, distintas de las españolas. Cada ficha corresponde a una presentación concreta; otras presentaciones pueden diferir. Las frecuencias de efectos adversos de las fichas de antiepilépticos proceden en buena parte de poblaciones con epilepsia. «—» significa que las fuentes consultadas no destacan el dato, no que el efecto no exista. El índice de polaridad es una razón entre números necesarios a tratar derivada de pocos ensayos. El rango de una celda no es una recomendación para una persona concreta: la elección depende de la respuesta previa, las preferencias, la comorbilidad y los planes reproductivos.' });
     F.footer('Fuentes: CANMAT/ISBD 2018 (Yatham 2018, PMID 29536616; PMC5947163); NICE CG185 (2014, act. 2025); fichas técnicas AEMPS-CIMA de Plenur, Depakine Crono, Lamictal, Tegretol y Trileptal (consulta de noviembre de 2026); Cipriani 2013 (PMID 23814104); Riblet 2022 (PMID 36384820); Nabi 2022 (PMID 36111461); Katz 2022 (PMID 34787653); McKnight 2012 (PMID 22265699); Popovic 2012 (PMID 22000157); Calabrese 2000 (PMID 11105737); Vasudev 2011 y 2008 (PMID 22161387 y 18254071). Esquema docente: no sustituye a la ficha técnica ni al juicio clínico.');
     return F;
   }

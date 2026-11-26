@@ -7,14 +7,14 @@ module.exports = {
   meta: {
     title: TITLE,
     kind: 'dd',
-    cap: 'Árbol de decisión en siete bloques para la infancia, la adolescencia y la primera evaluación en la edad adulta. 1) Cinco comprobaciones antes de poner una etiqueta (audición y visión, privación o maltrato, epilepsia, regresión y síndromes genéticos). 2) Dificultad global frente a perfil específico. 3) Comunicación social y patrones restringidos. 4) Atención e hiperactividad y lo que las imita en la infancia. 5) Aprendizaje y motricidad. 6) Movimientos repetitivos. 7) La coocurrencia como regla, la presentación en niñas, mujeres y personas adultas sin diagnóstico previo, y los instrumentos como apoyo. Cada pregunta (izquierda) lleva a las entidades que hay que considerar (derecha); las cajas con esquina negra abren su ficha. Los códigos CIE-11 se han cotejado con la tabulación oficial MMS (versión de enero de 2025). «[fuente no localizada]» señala lo que no se ha podido respaldar con una fuente primaria. Los diagnósticos no son excluyentes entre sí. El diferencial del TDAH en la persona adulta se desarrolla en la figura «dd_tdah_adulto». Esquema docente: no sustituye a la evaluación clínica individual.',
+    cap: 'Árbol de decisión en siete bloques para la infancia, la adolescencia y la primera evaluación en la edad adulta. 1) Cinco comprobaciones antes de poner una etiqueta (audición y visión, privación o maltrato, epilepsia, regresión y síndromes genéticos). 2) Dificultad global frente a perfil específico. 3) Comunicación social y patrones restringidos. 4) Atención e hiperactividad y lo que las imita en la infancia. 5) Aprendizaje y motricidad. 6) Movimientos repetitivos. 7) La coocurrencia como regla, la presentación en niñas, mujeres y personas adultas sin diagnóstico previo, y los instrumentos como apoyo. Cada pregunta (izquierda) lleva a las entidades que hay que considerar (derecha); las cajas con esquina negra abren su ficha. Los códigos y las descripciones de la CIE-11 se han cotejado con la edición oficial MMS de enero de 2025; las definiciones del DSM-5-TR se resumen. Los diagnósticos no son excluyentes entre sí. El diferencial del TDAH en la persona adulta se desarrolla en la figura «TDAH en el adulto: diferencial frente a ansiedad, depresión, bipolaridad, trauma y consumo de sustancias» (dd_tdah_adulto). Esquema docente: no sustituye a la evaluación clínica individual.',
     refs: [
-      'NICE (2011, actualizada en 2021). Autism spectrum disorder in under 19s: recognition, referral and diagnosis. Clinical guideline CG128. National Institute for Health and Care Excellence',
+      'NICE (2011, última actualización en diciembre de 2017). Autism spectrum disorder in under 19s: recognition, referral and diagnosis. Clinical guideline CG128. National Institute for Health and Care Excellence',
       'NICE (2012, actualizada en 2021). Autism spectrum disorder in adults: diagnosis and management. Clinical guideline CG142. National Institute for Health and Care Excellence',
       'NICE (2013, actualizada en 2021). Autism spectrum disorder in under 19s: support and management. Clinical guideline CG170. National Institute for Health and Care Excellence',
-      'NICE (2018, actualizada en 2019). Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline NG87. National Institute for Health and Care Excellence',
+      'NICE (2018, última actualización el 24 de noviembre de 2026). Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline NG87. National Institute for Health and Care Excellence',
       'American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR). Washington, DC: APA Publishing',
-      'Organización Mundial de la Salud (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS), tabulación simple, versión de enero de 2025: 6A00-6A06, 6B04, 6B06, 6B44, 6B45, 8A05, 8A07.0, LD44.N0, LD55, LD90.4. icd.who.int',
+      'Organización Mundial de la Salud (2025). CIE-11 para estadísticas de mortalidad y morbilidad (MMS), versión 2025-01, tabulación simple y edición para impresión con descripciones: 6A00-6A06, 6B04, 6B06, 6B44, 6B45, 8A05, 8A07.0, LD44.N0, LD55, LD90.3, LD90.4. icd.who.int',
       'Maulik PK et al. (2011). Prevalence of intellectual disability: a meta-analysis of population-based studies. Res Dev Disabil 32:419-436 · PMID 21236634',
       'Tassé MJ, Luckasson R & Schalock RL (2016). The relation between intellectual functioning and adaptive behavior in the diagnosis of intellectual disability. Intellect Dev Disabil 54:381-390 · PMID 27893317',
       'Reiss S, Levitan GW & Szyszko J (1982). Emotional disturbance and mental retardation: diagnostic overshadowing. Am J Ment Defic 86:567-574 · PMID 7102729',
@@ -28,6 +28,8 @@ module.exports = {
       'McDonald-McGinn DM et al. (2015). 22q11.2 deletion syndrome. Nat Rev Dis Primers 1:15071 · PMID 27189754',
       'Rutter M et al. (1999). Quasi-autistic patterns following severe early global privation. English and Romanian Adoptees (ERA) Study Team. J Child Psychol Psychiatry 40:537-549 · PMID 10357161',
       'Auvin S et al. (2018). Systematic review of the screening, diagnosis, and management of ADHD in children with epilepsy. Consensus paper of the Task Force on Comorbidities of the ILAE Pediatric Commission. Epilepsia 59:1867-1880 · PMID 30178479',
+      'Williams J et al. (2002). Symptom differences in children with absence seizures versus inattention. Epilepsy Behav 3:245-248 · PMID 12662604',
+      'Hall WC, Li D & Dye TDV (2018). Influence of hearing loss on child behavioral and home experiences. Am J Public Health 108:1079-1081 · PMID 29927649',
       'Bishop DVM et al. (2017). Phase 2 of CATALISE: a multinational and multidisciplinary Delphi consensus study of problems with language development: terminology. J Child Psychol Psychiatry 58:1068-1080 · PMID 28369935',
       'Norbury CF et al. (2016). The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study. J Child Psychol Psychiatry 57:1247-1257 · PMID 27184709',
       'Norbury CF (2014). Practitioner review: social (pragmatic) communication disorder conceptualization, evidence and clinical implications. J Child Psychol Psychiatry 55:204-216 · PMID 24117874',
@@ -39,6 +41,7 @@ module.exports = {
       'Peterson RL & Pennington BF (2012). Developmental dyslexia. Lancet 379:1997-2007 · PMID 22513218',
       'Butterworth B, Varma S & Laurillard D (2011). Dyscalculia: from brain to education. Science 332:1049-1053 · PMID 21617068',
       'Willcutt EG & Pennington BF (2000). Psychiatric comorbidity in children and adolescents with reading disability. J Child Psychol Psychiatry 41:1039-1048 · PMID 11099120',
+      'Willcutt EG et al. (2010). Etiology and neuropsychology of comorbidity between RD and ADHD: the case for multiple-deficit models. Cortex 46:1345-1361 · PMID 20828676',
       'Lingam R et al. (2009). Prevalence of developmental coordination disorder using the DSM-IV at 7 years of age: a UK population-based study. Pediatrics 123:e693-e700 · PMID 19336359',
       'Blank R et al. (2019). International clinical practice recommendations on the definition, diagnosis, assessment, intervention, and psychosocial aspects of developmental coordination disorder. Dev Med Child Neurol 61:242-285 · PMID 30671947',
       'Knight T et al. (2012). Prevalence of tic disorders: a systematic review and meta-analysis. Pediatr Neurol 47:77-90 · PMID 22759682',
@@ -100,11 +103,11 @@ module.exports = {
     let y = F.band(90, 'Antes de poner una etiqueta: cinco comprobaciones', { n: 1 }) + 22;
     const s1 = strip([
       { id: 'a1', type: 'act', title: 'Audición y visión',
-        text: 'El déficit auditivo o visual grave está en el diferencial del autismo (NICE CG128, rec. 1.5.7) y la evaluación reúne los resultados de las pruebas de audición y visión (rec. 1.4.7). Un retraso del lenguaje no se atribuye sin más a problemas auditivos tempranos ni a que la lengua familiar sea otra (CG128). En personas adultas: pruebas de audición o visión si se sospecha un déficit (CG142, rec. 1.2.17).' },
+        text: 'La discapacidad auditiva o visual grave está en el diferencial del autismo (NICE CG128, rec. 1.5.7) y la evaluación reúne los resultados de las pruebas de audición y visión (rec. 1.4.7). Un retraso del lenguaje no se atribuye sin más a problemas auditivos tempranos ni a que la lengua familiar sea otra (CG128, rec. 1.2.5). En personas adultas: pruebas de audición o visión si se sospecha una pérdida auditiva o visual (CG142, rec. 1.2.17).' },
       { id: 'a2', type: 'act', node: 'maltrato_inf', title: 'Privación, maltrato y adversidad',
         text: 'Maltrato y trastornos del apego están en el diferencial (CG128, rec. 1.5.7) y la exploración física busca signos de lesión (rec. 1.5.6). Tras una privación institucional grave, el 6 % de 111 niñas y niños adoptados desde Rumanía mostró patrones de tipo autista, que mejoraron entre los 4 y los 6 años (Rutter 1999). La adversidad no excluye: en la infancia tutelada hay más TDAH (NG87, rec. 1.2.1).' },
       { id: 'a3', type: 'act', title: 'Epilepsia',
-        text: 'EEG si se sospecha epilepsia, no de rutina (CG128, rec. 1.7.1). La encefalopatía epiléptica es una causa de regresión (rec. 1.5.7). Las personas con epilepsia tienen más prevalencia de TDAH (NG87, rec. 1.2.1); la ILAE propone cribarlo desde los 6 años o desde el diagnóstico (Auvin 2018). Las crisis de ausencia pueden tomarse por inatención [fuente no localizada].' },
+        text: 'EEG si se sospecha epilepsia, no de rutina (CG128, rec. 1.7.1). La encefalopatía epiléptica es una causa de regresión (rec. 1.5.7). Las personas con epilepsia tienen más prevalencia de TDAH (NG87, rec. 1.2.1); la ILAE propone cribarlo desde los 6 años o desde el diagnóstico (nivel U, opinión de expertos; Auvin 2018). Las crisis de ausencia y el TDAH de presentación inatenta se confunden a menudo por la similitud de sus síntomas (Williams 2002).' },
       { id: 'a4', type: 'warn', node: 'regres_cond', title: 'Regresión: bandera roja',
         text: 'Pérdida de habilidades ya adquiridas. Valoración por pediatría o neuropediatría antes que por el equipo de autismo si hay regresión del lenguaje después de los 3 años o regresión motora a cualquier edad (CG128, rec. 1.3.2). Diferencial: síndrome de Rett y encefalopatía epiléptica (rec. 1.5.7); estudio genético según la clínica. En el autismo hay regresión en el 32,1 % (IC 95 % 29,5-34,8), a una edad media de 1,78 años (Barger 2013).' },
       { id: 'a5', type: 'act', node: 'hered_tea', title: 'Síndromes genéticos',
@@ -117,7 +120,7 @@ module.exports = {
       { id: 'g1', type: 'dx', node: 'x_fragil', title: 'Síndrome X frágil (FMR1) · LD55',
         text: 'Forma hereditaria más frecuente de discapacidad intelectual y de autismo (Hagerman 2017). En una muestra clínica, la mitad de los varones y casi el 20 % de las mujeres cumplían criterios DSM-5 de autismo (Kaufmann 2017).' },
       { id: 'g2', type: 'dx', node: 'del22q', title: 'Deleción 22q11.2 · LD44.N0',
-        text: 'Microdeleción más frecuente, en torno a 1 de cada 1000 fetos: retraso cognitivo variable, fenotipo conductual y enfermedad psiquiátrica (McDonald-McGinn 2015). Título CIE-11: «fenotipo CATCH 22».' },
+        text: 'Microdeleción más frecuente, en torno a 1 de cada 1000 fetos: retraso cognitivo variable, fenotipo conductual y enfermedad psiquiátrica (McDonald-McGinn 2015). Título CIE-11: «fenotipo CATCH 22» (monosomía 22q11; incluye los síndromes de DiGeorge y velocardiofacial).' },
       { id: 'g3', type: 'dx', title: 'Síndrome de Rett · LD90.4',
         text: 'En torno a 1 de cada 10 000 niñas nacidas vivas; a menudo por mutaciones de MECP2. El diagnóstico es clínico, con criterios de consenso revisados (Neul 2010).' }
     ], y, { x: X + 16, w: FW - 32, gap: GAP });
@@ -141,32 +144,32 @@ module.exports = {
       { node: 'di', title: 'Trastorno del desarrollo intelectual · 6A00',
         text: 'Limitaciones significativas en los dos dominios, con inicio en el periodo del desarrollo. Leve 6A00.0, moderado 6A00.1, grave 6A00.2, profundo 6A00.3. El DSM-5-TR gradúa la gravedad por el funcionamiento adaptativo, no por el CI.' },
       { title: 'Provisional · 6A00.4 y retraso global del desarrollo',
-        text: 'Cuando aún no cabe una evaluación válida: primera infancia (retraso global del desarrollo en menores de 5 años, DSM-5-TR) o déficit sensorial, motor o de comunicación que la impide. Obliga a reevaluar más adelante.' },
+        text: 'Cuando aún no cabe una evaluación válida: menores de 4 años (CIE-11) o retraso global del desarrollo en menores de 5 años (DSM-5-TR), o cuando una discapacidad sensorial, motora o de comunicación la impide (CIE-11). El DSM-5-TR pide reevaluar más adelante.' },
       { type: 'info', title: 'Perfil específico',
         text: 'Dificultad circunscrita con funcionamiento general conservado: seguir los bloques 3 a 6. Puede añadirse a la discapacidad intelectual si excede lo esperable para el nivel de desarrollo (DSM-5-TR).' },
-      { type: 'warn', node: 'wais', title: 'Ensombrecimiento diagnóstico',
-        text: 'El mismo síntoma se atribuye menos a un trastorno mental si la persona tiene discapacidad intelectual (Reiss 1982). La medida del CI con escalas de Wechsler se detalla en su ficha.' }
+      { type: 'warn', node: 'disc_int', title: 'Ensombrecimiento (eclipsamiento) diagnóstico',
+        text: 'En dos experimentos con profesionales de la psicología, el mismo cuadro (una fobia; después, esquizofrenia o trastorno de la personalidad) se consideró menos un trastorno mental cuando la persona descrita tenía discapacidad intelectual (Reiss 1982).' }
     ], 4);
     y += 46;
 
     // ---------- Bloque 3: comunicación social ----------
     y = F.band(y, 'Comunicación social y patrones restringidos y repetitivos', { n: 3 }) + 16;
     y = row('b3', y, { title: '¿Dificultad persistente en la comunicación y la interacción social? ¿Se acompaña de patrones restringidos y repetitivos?',
-      text: 'Historia del desarrollo y observación directa de la interacción, con información de varios contextos (CG128, rec. 1.5.5 y 1.5.9). Hay más incertidumbre antes de los 24 meses, con edad de desarrollo inferior a 18 meses, sin información de la primera infancia (adopción, tutela), en la adolescencia tardía y con trastornos coexistentes complejos o déficit sensorial o motor (rec. 1.5.12).' }, [
+      text: 'Historia del desarrollo y observación directa de la interacción (CG128, rec. 1.5.5); si lo referido y lo observado no concuerdan, más información u observación en otros contextos (rec. 1.5.9). Hay más incertidumbre antes de los 24 meses, con edad de desarrollo inferior a 18 meses, sin información de la primera infancia (adopción, tutela), en la adolescencia tardía y con trastornos coexistentes complejos, discapacidad sensorial o trastorno motor (rec. 1.5.12).' }, [
       { node: 'tea', title: 'Trastorno del espectro del autismo · 6A02',
-        text: 'Déficits persistentes de comunicación e interacción social con patrones restringidos, repetitivos e inflexibles de conducta, intereses o actividades (incluida la reactividad sensorial en el DSM-5-TR), desde el periodo del desarrollo. Subtipos CIE-11 según desarrollo intelectual y lenguaje funcional.' },
+        text: 'Dificultades persistentes para iniciar y mantener la interacción social recíproca y la comunicación social, con patrones restringidos, repetitivos e inflexibles de conducta, intereses o actividades (CIE-11), incluida la reactividad sensorial atípica (DSM-5-TR), desde el periodo del desarrollo. Subtipos CIE-11 según desarrollo intelectual y lenguaje funcional.' },
       { title: 'Trastorno de la comunicación social (pragmático) · 6A01.22',
-        text: 'Dificultad pragmática sin patrones restringidos ni repetitivos (DSM-5-TR); en la CIE-11, subtipo del trastorno del desarrollo del lenguaje. Límites discutidos: faltan instrumentos validados y se solapa con otros trastornos (Norbury 2014).' },
+        text: 'Dificultad pragmática sin patrones restringidos ni repetitivos (DSM-5-TR); en la CIE-11, subtipo del trastorno del desarrollo del lenguaje, que no se aplica si el autismo explica mejor la dificultad. Límites discutidos: faltan instrumentos validados y se solapa con otros trastornos (Norbury 2014).' },
       { node: 'tr_leng', title: 'Trastorno del desarrollo del lenguaje · 6A01.2',
         text: 'Dificultad del lenguaje con repercusión funcional y sin causa biomédica conocida (consenso CATALISE; Bishop 2017). Prevalencia al empezar la escuela: 7,58 % (IC 95 % 5,33-10,66) (Norbury 2016).' },
       { node: 'tartamudez', title: 'Fluidez del habla · 6A01.1',
-        text: 'Trastorno de la fluidez de inicio en la infancia (tartamudez). Los sonidos del habla se codifican en 6A01.0. Ninguno altera por sí mismo la reciprocidad social [fuente no localizada].' },
+        text: 'Trastorno de la fluidez de inicio en la infancia (tartamudez): repeticiones, prolongaciones y bloqueos persistentes que repercuten en la comunicación social y en otras áreas (CIE-11). El trastorno de los sonidos del habla se codifica en 6A01.0.' },
       { node: 'mutis_sel', title: 'Mutismo selectivo · 6B06',
         text: 'No se habla en situaciones concretas (por ejemplo, la escuela) pese a hacerlo en otras (DSM-5-TR). El 80 % tiene otro trastorno de ansiedad, sobre todo fobia social (69 %) (Driessen 2020).' },
       { node: 'fobia_soc', title: 'Ansiedad social · 6B04',
         text: 'Temor a la evaluación negativa (DSM-5-TR). En la persona adulta figura entre los diferenciales y los trastornos coexistentes del autismo, junto con el TOC (CG142, rec. 1.2.10).' },
       { node: 'rad', title: 'Apego reactivo · 6B44 y relación social desinhibida · 6B45',
-        text: 'Requieren un antecedente de cuidado gravemente insuficiente (DSM-5-TR; revisión de Zeanah y Gleason 2015). «Trastornos del apego» y maltrato constan en el diferencial del autismo (CG128, rec. 1.5.7).' },
+        text: 'Requieren un antecedente de cuidado gravemente insuficiente (DSM-5-TR y CIE-11; revisión de Zeanah y Gleason 2015). La CIE-11 no permite diagnosticarlos en el contexto del autismo ni antes del año de edad. «Trastornos del apego» y maltrato constan en el diferencial del autismo (CG128, rec. 1.5.7).' },
       { node: 'tea_esq_dd', title: 'Primera evaluación en la edad adulta',
         text: 'Diferencial con esquizofrenia, trastornos del ánimo, ansiedad social y TOC (CG142, rec. 1.2.10); personalidad esquizoide y esquizotípica en la ficha. Clave: historia temprana del desarrollo, si es posible con informante.' }
     ], 4);
@@ -177,21 +180,21 @@ module.exports = {
     y = row('b4', y, { title: '¿Inatención, hiperactividad o impulsividad frecuentes, en dos o más contextos y con deterioro?',
       text: 'Evaluación clínica y psicosocial completa, historia del desarrollo y psiquiátrica, informes de observadores y exploración del estado mental (NG87, rec. 1.3.1). Síntomas frecuentes, en dos o más contextos importantes y con deterioro al menos moderado (rec. 1.3.3). Un imitador no excluye el TDAH: puede coexistir con él.' }, [
       { node: 'tdah', title: 'TDAH · 6A05',
-        text: 'Presentación inatenta 6A05.0, hiperactiva-impulsiva 6A05.1 y combinada 6A05.2. Varios síntomas presentes antes de los 12 años (DSM-5-TR). No se recomienda excluirlo por coexistir con un trastorno generalizado del desarrollo (NG87, rec. 1.3.3).' },
+        text: 'Presentación inatenta 6A05.0, hiperactiva-impulsiva 6A05.1 y combinada 6A05.2. Varios síntomas presentes antes de los 12 años (DSM-5-TR; la CIE-11 también pide síntomas significativos antes de esa edad). No se recomienda excluirlo por coexistir con un trastorno generalizado del desarrollo (NG87, rec. 1.3.3).' },
       { node: 'sueno_inf', title: 'Sueño',
         text: 'Los trastornos respiratorios del sueño se asocian a síntomas de TDAH (g de Hedges 0,57; IC 95 % 0,36-0,78), que disminuyen tras la adenoamigdalectomía; los autores proponen cribarlos (Sedky 2014).' },
-      { node: 'anx_sep', title: 'Ansiedad y ánimo',
+      { node: 'dep_inf', title: 'Ansiedad y ánimo',
         text: 'Inatención por preocupación o por ánimo bajo (DSM-5-TR). También coexisten: con trastornos del ánimo o de ansiedad hay más prevalencia de TDAH (NG87, rec. 1.2.1).' },
       { node: 'ptsd', title: 'Trauma y adversidad',
         text: 'Hipervigilancia y problemas de concentración postraumáticos pueden tomarse por TDAH (DSM-5-TR). En la infancia tutelada hay más prevalencia de TDAH (NG87, rec. 1.2.1).' },
       { type: 'info', title: 'Altas capacidades',
-        text: 'La inteligencia alta puede imitar síntomas o, al contrario, compensarlos y retrasar el diagnóstico; los datos disponibles apoyan la validez del TDAH también con inteligencia alta (Rommelse 2016).' },
-      { type: 'info', title: 'Déficit sensorial',
-        text: 'Audición y visión comprobadas (bloque 1). Que la hipoacusia no detectada se presente como inatención es plausible, pero sin cifra respaldada [fuente no localizada].' },
+        text: 'Se discute si la inteligencia alta puede «imitar» síntomas de TDAH; a la inversa, las estrategias compensatorias pueden hacer que el diagnóstico pase inadvertido. Los datos disponibles, escasos, apoyan la validez del TDAH también con inteligencia alta (Rommelse 2016).' },
+      { type: 'info', title: 'Pérdida auditiva o visual',
+        text: 'Audición y visión comprobadas (bloque 1). En una encuesta nacional de Estados Unidos, las familias de niñas y niños sordos o con pérdida auditiva refirieron más diagnósticos de déficit de atención (OR ajustada 3,1; IC 95 % 2,5-3,9); según los autores, es probable que contribuyan la etiología y los diagnósticos erróneos (Hall 2018).' },
       { node: 'edad_relativa_tdah', type: 'info', title: 'Edad relativa',
-        text: 'Quienes nacen en los cuatro primeros meses del curso escolar (las niñas y los niños más jóvenes de la clase) reciben más diagnósticos de TDAH: RR 1,34 (IC 95 % 1,26-1,43) (Caye 2020).' },
+        text: 'Las niñas y los niños relativamente más jóvenes de su clase reciben más diagnósticos de TDAH: RR 1,34 (IC 95 % 1,26-1,43), con heterogeneidad alta entre estudios; conviene tener en cuenta el nivel de desarrollo (Caye 2020).' },
       { node: 'tdah_dd_adulto', type: 'act', title: 'Primera evaluación en la edad adulta',
-        text: 'Trastorno bipolar, trastorno límite, trauma y sustancias no se repiten aquí: véanse la figura «dd_tdah_adulto» y esta ficha.' }
+        text: 'Ansiedad, depresión, bipolaridad, trauma, trastorno límite, sustancias, sueño y causas médicas en la persona adulta no se repiten aquí: véanse la figura «TDAH en el adulto: diferencial…» (dd_tdah_adulto) y esta ficha.' }
     ], 4);
     y += 46;
 
@@ -204,7 +207,7 @@ module.exports = {
       { title: 'Con dificultad en la expresión escrita · 6A03.1',
         text: 'Ortografía, gramática y puntuación, y claridad u organización de la expresión escrita (DSM-5-TR).' },
       { title: 'Con dificultad en matemáticas (discalculia) · 6A03.2',
-        text: 'Déficit nuclear en la comprensión de los conjuntos y de su numerosidad, base de la aritmética escolar (Butterworth 2011).' },
+        text: 'Dificultad nuclear en la comprensión de los conjuntos y de su numerosidad, base de la aritmética escolar (Butterworth 2011).' },
       { node: 'tdcoord', title: 'Trastorno del desarrollo de la coordinación · 6A04',
         text: 'Habilidades motoras coordinadas muy por debajo de lo esperado, con interferencia en la vida diaria. Prevalencia del 1,7 % a los 7 años con criterios estrictos (Lingam 2009). Recomendaciones internacionales de la EACD (Blank 2019).' },
       { type: 'info', title: 'Qué descartar antes',
@@ -223,13 +226,13 @@ module.exports = {
       { node: 'tourette', title: 'Síndrome de Tourette · 8A05.00',
         text: 'Varios tics motores y al menos uno fónico durante más de un año, con inicio antes de los 18 años (DSM-5-TR). Prevalencia infantil del 0,77 %; 1,06 % en niños y 0,25 % en niñas (Knight 2012).' },
       { node: 'estereotip', title: 'Estereotipias · 6A06 (8A07.0)',
-        text: 'Movimientos repetitivos sin función clara. Frecuentes en el autismo, pero también con desarrollo típico, déficit sensorial, aislamiento social o discapacidad intelectual grave (Barry 2011). Sin autolesión 6A06.0; con autolesión 6A06.1.' },
+        text: 'Movimientos repetitivos sin función evidente para quien observa; podrían servir para mantener el nivel de activación. Frecuentes en el autismo, pero también con desarrollo típico, discapacidad sensorial, aislamiento social o discapacidad intelectual grave (Barry 2011). Sin autolesión 6A06.0; con autolesión 6A06.1; en neurología, 8A07.0.' },
       { node: 'toc_ped', title: 'Compulsiones',
         text: 'Conductas repetitivas en respuesta a una obsesión o según reglas rígidas, dirigidas a reducir el malestar (DSM-5-TR). El 72,1 % de las personas con síndrome de Tourette cumple criterios de TOC o de TDAH a lo largo de la vida (Hirschtritt 2015).' },
-      { node: 'pandas', title: 'PANS y PANDAS · 8A05.10',
-        text: 'PANDAS: cinco criterios de trabajo (TOC o tics, inicio prepuberal, curso episódico, asociación con estreptococo del grupo A y con anomalías neurológicas) (Swedo 1998). PANS: categoría más amplia de inicio agudo, con consenso de evaluación (Chang 2015). 8A05.10 corresponde a «tics infecciosos o posinfecciosos».' },
+      { node: 'pandas', title: 'PANS y PANDAS',
+        text: 'PANDAS: cinco criterios de trabajo (TOC o tics, inicio prepuberal, curso episódico, asociación con estreptococo del grupo A y con anomalías neurológicas) (Swedo 1998). PANS: categoría más amplia de inicio agudo, con consenso de evaluación (Chang 2015). No figuran como títulos en la CIE-11; los «tics infecciosos o posinfecciosos» se codifican en 8A05.10.' },
       { type: 'info', title: 'Conductas funcionales similares a tics',
-        text: 'De inicio rápido, descritas en mujeres jóvenes durante la pandemia de COVID-19 (Pringsheim 2021). Rasgos diferenciales detallados en la ficha del síndrome de Tourette.' }
+        text: 'De inicio rápido (horas o días), descritas en personas de 12 a 25 años, casi exclusivamente chicas y mujeres, durante la pandemia de COVID-19 (Pringsheim 2021). Rasgos diferenciales detallados en la ficha del síndrome de Tourette.' }
     ], 3);
     y += 46;
 
@@ -240,10 +243,11 @@ module.exports = {
       rows: [
         ['Principio general', 'La coexistencia de trastornos y los síntomas compartidos son la regla y no la excepción en psiquiatría infantil y medicina del desarrollo: concepto ESSENCE.', 'Gillberg 2010'],
         [{ t: 'Autismo', node: 'tea_adulto' }, 'TDAH 28 % (IC 95 % 25-32); trastornos de ansiedad 20 %; del sueño-vigilia 13 %; disruptivos, del control de los impulsos y de la conducta 12 %; depresivos 11 %; TOC 9 %; bipolares 5 %; espectro de la esquizofrenia 4 %. Cifras más altas en muestras clínicas.', 'Lai 2019 (metaanálisis, 96 estudios)'],
-        [{ t: 'TDAH', node: 'tdah_adulto' }, 'Más prevalencia de TDAH en personas con autismo, tics, discapacidad intelectual, dificultades específicas del aprendizaje, epilepsia, prematuridad, trastorno negativista o de conducta y trastornos del ánimo.', 'NICE NG87, rec. 1.2.1 (sin cifras)'],
-        ['Síndrome de Tourette', 'Alguna comorbilidad psiquiátrica a lo largo de la vida en el 85,7 %; dos o más en el 57,7 %; TOC o TDAH en el 72,1 %. La edad de mayor riesgo de inicio es de 4 a 10 años.', 'Hirschtritt 2015 (n = 1374)'],
+        [{ t: 'TDAH', node: 'tdah_adulto' }, 'Más prevalencia de TDAH en personas con autismo, tics, discapacidad intelectual, dificultades específicas del aprendizaje, epilepsia o prematuridad y, en menores, con trastorno negativista o de conducta, trastornos del ánimo o medidas de tutela.', 'NICE NG87, rec. 1.2.1 (sin cifras)'],
+        ['Síndrome de Tourette', 'Algún otro diagnóstico psiquiátrico a lo largo de la vida en el 85,7 %; dos o más en el 57,7 %; TOC o TDAH en el 72,1 %. La mayoría empieza entre los 4 y los 10 años.', 'Hirschtritt 2015 (n = 1374)'],
         ['Trastorno del lenguaje', 'Más síntomas sociales, emocionales y conductuales que sus iguales; el 88 % no alcanza el progreso académico esperado.', 'Norbury 2016'],
-        ['Dificultad lectora', 'Más trastornos internalizantes y externalizantes; la relación con los externalizantes se explica por el TDAH asociado, y la relación con ansiedad y depresión se mantiene al controlarlo.', 'Willcutt y Pennington 2000'],
+        ['Dificultad lectora', 'Más trastornos internalizantes y externalizantes; la relación con los externalizantes se explica por el TDAH asociado, y la relación con ansiedad y depresión se mantiene al controlarlo. Entre el 25 % y el 40 % de quienes tienen dificultad lectora o TDAH cumple también los criterios del otro.', 'Willcutt y Pennington 2000; Willcutt 2010'],
+        ['Trastorno del desarrollo de la coordinación', 'El TDAH es la coocurrencia descrita con más frecuencia: en torno a la mitad, tanto en muestras clínicas como en estudios poblacionales.', 'Blank 2019 (recomendaciones EACD)'],
         ['Síndrome X frágil con autismo', 'Más crisis epilépticas que sin autismo (20,7 % frente a 7,6 %), problemas de sueño más persistentes y más problemas de conducta.', 'Kaufmann 2017'],
         ['Estereotipias motoras', 'Es frecuente la coexistencia con TDAH, TOC y trastornos de tics (sin cifra en la fuente).', 'Barry 2011']
       ] });
@@ -254,7 +258,7 @@ module.exports = {
       { id: 'c2', type: 'info', align: 'left', node: 'tdah_mujeres', title: 'Niñas y mujeres: TDAH',
         text: 'Se considera infrarreconocido: menos derivaciones, más TDAH sin diagnosticar y más diagnósticos incorrectos de otra condición (NG87, rec. 1.2.2). Predominan la inatención y los problemas internalizantes; los síntomas menos visibles y las estrategias compensatorias hacen que pasen inadvertidos (Hinshaw 2022).' },
       { id: 'c3', type: 'info', align: 'left', node: 'aq10', title: 'Personas adultas sin diagnóstico previo',
-        text: 'Prevalencia de autismo en personas adultas de la comunidad en Inglaterra: 9,8 por 1000 (IC 95 % 3,0-16,5), en su mayoría sin reconocer (Brugha 2011). En 161 primeros diagnósticos en la edad adulta pasaron 11 años (mediana) entre la primera evaluación en salud mental y el diagnóstico (Fusar-Poli 2022). AQ-10 de 6 o más, o sospecha clínica: ofrecer evaluación completa (CG142, rec. 1.2.3).' },
+        text: 'Prevalencia de autismo en personas adultas de la comunidad en Inglaterra: 9,8 por 1000 (IC 95 % 3,0-16,5), y tienden a no estar reconocidas (Brugha 2011). En 161 primeros diagnósticos en la edad adulta pasaron 11 años (mediana) entre la primera evaluación en salud mental y el diagnóstico (Fusar-Poli 2022). AQ-10 de 6 o más, o sospecha clínica: ofrecer evaluación completa (CG142, rec. 1.2.3).' },
       { id: 'c4', type: 'info', align: 'left', title: 'Lenguaje y neurodiversidad',
         text: 'No hay un término aceptado por todo el mundo: «persona autista» lo prefieren muchas personas adultas autistas y familias, y «persona con autismo» más profesionales (Kenny 2016). Preguntar la preferencia y evitar el lenguaje de déficit o de «riesgo» cuando existe una alternativa neutra (Bottema-Beutel 2021). Describir fortalezas y necesidades además de dificultades (CG128, rec. 1.5.5).' }
     ], y, { fs: 17 });
@@ -263,7 +267,7 @@ module.exports = {
     const t2 = F.table({ x: X, y, fs: 17.5,
       cols: [{ w: 430, label: 'Instrumento' }, { w: 1150, label: 'Qué aporta y con qué límites' }, { w: 600, label: 'Fuente' }],
       rows: [
-        ['M-CHAT-R/F (cribado, 18-24 meses)', 'Cribado positivo tras el seguimiento: 47,5 % de diagnóstico de autismo y 94,6 % de algún retraso o motivo de preocupación del desarrollo. Sensibilidad agrupada 0,83 y especificidad 0,94, con amplia variabilidad entre estudios.', 'Robins 2014; Wieckowski 2023'],
+        ['M-CHAT-R/F (cribado, 18-24 meses)', 'En población de bajo riesgo, cribado positivo tras el seguimiento: 47,5 % de diagnóstico de autismo y 94,6 % de algún retraso o motivo de preocupación del desarrollo. Sensibilidad agrupada 0,83 y especificidad 0,94, con amplia variabilidad entre estudios.', 'Robins 2014; Wieckowski 2023'],
         [{ t: 'ADOS-2 y ADI-R', node: 'aq_ados_adir' }, 'Preescolares: ADOS, sensibilidad 0,94 y especificidad 0,80; ADI-R, sensibilidad 0,52 y especificidad 0,84 (Cochrane; estudios con alto riesgo de sesgo). En la infancia, ADOS-2 0,89-0,92 y 0,81-0,85; ADI-R 0,75 y 0,82, con menos datos en contextos clínicos. No basarse en un instrumento específico por sí solo para diagnosticar autismo.', 'Randall 2018; Lebersfeld 2021; NICE CG128, rec. 1.5.11'],
         [{ t: 'SRS-2 (rasgos autistas)', node: 'srs2' }, 'Medida dimensional de rasgos; propiedades y límites en la ficha.', 'Ficha del atlas'],
         [{ t: 'Escalas de Conners', node: 'conners' }, 'El TDAH no se diagnostica solo con escalas ni con datos de observación; las escalas de Conners y el SDQ son apoyos útiles, y la observación (por ejemplo, en la escuela) ayuda cuando hay dudas.', 'NICE NG87, rec. 1.3.2'],
@@ -283,8 +287,8 @@ module.exports = {
     ], y, { fs: 16.5, gap: 14 });
     y = s8.y + 30;
     F.box('lim', { x: X, y, w: FW, type: 'lim', fs: 18, align: 'left', title: 'Límites de la figura',
-      text: 'Esquema docente de apoyo al razonamiento: no es un protocolo ni un algoritmo validado y no sustituye al juicio clínico ni a la evaluación multidisciplinar. Los bloques no son excluyentes: lo habitual es que una misma persona reúna varios diagnósticos, y un «imitador» puede coexistir con el trastorno al que se parece. Las cifras proceden de metaanálisis, cohortes y muestras clínicas concretas, a menudo muy heterogéneas, y no se extrapolan sin más a otros contextos. Los códigos CIE-11 se han cotejado con la tabulación MMS; las definiciones del DSM-5-TR y de la CIE-11 se resumen y no se han cotejado palabra por palabra con el texto original. NICE CG128 y CG142 desaconsejan las pruebas biológicas o genéticas de rutina, mientras que los consensos de genética clínica proponen microarray y exoma en la discapacidad intelectual o el retraso global: la indicación es individual. PANS y PANDAS son entidades debatidas. No se dibujan tratamientos: NICE CG170 (rec. 1.3.2) indica no usar antipsicóticos, antidepresivos, anticonvulsivos ni dietas de exclusión para las características nucleares del autismo en menores de 19 años. Las entidades enlazadas son ejemplos, no una lista exhaustiva.' });
-    F.footer('Fuentes: NICE CG128, CG142, CG170 y NG87; DSM-5-TR; CIE-11 (tabulación MMS, enero de 2025); Gillberg 2010; Lai 2019; Barger 2013; Miller 2010; Moeschler y Shevell 2014; Manickam 2021; Tassé 2016; Maulik 2011; Norbury 2014 y 2016; Bishop 2017; Driessen 2020; Sedky 2014; Caye 2020; Rommelse 2016; Lingam 2009; Blank 2019; Knight 2012; Barry 2011; Szejko 2022; Hirschtritt 2015; Swedo 1998; Chang 2015; Loomes 2017; Hinshaw 2022; Cook 2021; Brugha 2011; Randall 2018; Robins 2014. Referencias completas en la ficha de la figura. Esquema docente: no sustituye a la valoración clínica individual.');
+      text: 'Esquema docente de apoyo al razonamiento: no es un protocolo ni un algoritmo validado y no sustituye al juicio clínico ni a la evaluación multidisciplinar. Los bloques no son excluyentes: lo habitual es que una misma persona reúna varios diagnósticos, y un «imitador» puede coexistir con el trastorno al que se parece. Las cifras proceden de metaanálisis, cohortes y muestras clínicas concretas, a menudo muy heterogéneas, y no se extrapolan sin más a otros contextos. Los códigos y las descripciones de la CIE-11 se han cotejado con la edición MMS de enero de 2025; las definiciones del DSM-5-TR se resumen y no se han cotejado palabra por palabra con el texto original. NICE CG128 y CG142 desaconsejan las pruebas biológicas o genéticas de rutina, mientras que los consensos de genética clínica proponen microarray y exoma en la discapacidad intelectual o el retraso global: la indicación es individual. PANS y PANDAS se apoyan en criterios de trabajo y de consenso, y no figuran como títulos en la CIE-11. No se dibujan tratamientos: NICE CG170 (rec. 1.3.2) indica no usar antipsicóticos, antidepresivos, anticonvulsivos ni dietas de exclusión para las características nucleares del autismo en menores de 19 años. Las entidades enlazadas son ejemplos, no una lista exhaustiva.' });
+    F.footer('Fuentes: NICE CG128, CG142, CG170 y NG87; DSM-5-TR; CIE-11 (tabulación MMS, enero de 2025); Gillberg 2010; Lai 2019; Barger 2013; Williams 2002; Hall 2018; Miller 2010; Moeschler y Shevell 2014; Manickam 2021; Tassé 2016; Maulik 2011; Norbury 2014 y 2016; Bishop 2017; Driessen 2020; Sedky 2014; Caye 2020; Rommelse 2016; Willcutt 2010; Lingam 2009; Blank 2019; Knight 2012; Barry 2011; Szejko 2022; Hirschtritt 2015; Swedo 1998; Chang 2015; Loomes 2017; Hinshaw 2022; Cook 2021; Brugha 2011; Randall 2018; Robins 2014. Referencias completas en la ficha de la figura. Esquema docente: no sustituye a la valoración clínica individual.');
     return F;
   }
 };
